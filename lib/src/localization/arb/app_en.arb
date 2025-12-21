@@ -15,12 +15,12 @@
 	"consent6ContractPricesPerUnitTitle": "Electricity / water / gas prices",
 	"consent7ContractPricesPerUnit": "In order to be able to estimate how much you are currently paying compared to other EHW+ users, the prices are transferred to the EHW+ server in Germany together with the country and state. Only if you agree to the transfer, you have access to the price statistics. To ensure anonymity, statistics can only be shown after a minimum number of transmitted prices.",
 	"consent11AnalyticsTitle": "Analysis data",
-	"consent12Analytics": "In order to assess the success of the app or individual functions, the app uses Google Analytics. The data is used for the further development of the app.",
+	"consent12Analytics": "In order to evaluate the success of the app or individual functions, the app transmits anonymised usage statistics. The data is not transmitted to third parties. The data is used for the further development of the app.",
 	"consent13StromGedachtTitle": "Grid stability notices from StromGedacht",
 	"consent13StromGedacht": "StromGedacht, a service provided by TransnetBW, provides information on grid stability and recommendations on when electricity should be used preferentially. As the energy transition is becoming more and more challenging for the transmission grid, households in South-West Germany are being involved. To receive information for your location, your postal code, if entered here in the app, is transmitted to the TransnetBW StromGedacht API. No other data is transmitted or linked.",
 	"stromGedachtAgreement": "I agree that my postal code (if provided) will be transmitted to TransnetBW to retrieve StromGedacht notices.",
 	"priceSubmissionAgreement": "I agree with the transmission of electricity/gas/water prices per unit to an EHW+ server",
-	"googleAnalyticsAgreement": "I agree to the transmission of anonymised data about the use of the app to Google Analytics.",
+	"googleAnalyticsAgreement": "I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.",
 	"continueAcceptPart1": "By using the EHW+ app, you agree to the ",
 	"continueAcceptPart2": ". For more information on the collection and use of anonymised and personal data, please refer to the ",
 	"termsOfUsageTitleShort": "Terms of use",
@@ -713,7 +713,7 @@
 	},
 	"termsOfUsageBlock2Title": "General information on use",
 	"termsOfUsageBlock2": "The app and its functions may not be used in an abusive manner. Please use the app only within the legally permissible scope and in accordance with our terms of use. In the event of a breach of applicable German law or our terms of use, the provider reserves the right to exclude you from using the app.",
-	"termsOfUsageBlock2a": "Anonymised usage data\nFirebase Analytics from Google is used to continuously improve the app. Since version 1.6.63, a dedicated server in Germany has also been used. As a user, you can decide after installation whether you want to enable the tracking of anonymised usage data. The app can also be used without the tracking function enabled. For more information, go to Settings > Privacy > {privacyBlock3Title}.",
+	"termsOfUsageBlock2a": "Anonymised usage data\nWe use our own analytics to continuously improve the app. Only anonymised data is transmitted. The data is not passed on to third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
 	"@termsOfUsageBlock2a": {
 		"placeholders": {
 			"privacyBlock3Title": {
@@ -721,7 +721,7 @@
 			}
 		}
 	},
-	"termsOfUsageBlock2b": "Error reports\nFirebase Crashlytics from Google is used to continuously improve the app. As a user, you can decide after installation whether you want to enable the transmission of error reports. It is possible to use the app without the tracking function enabled, but this is strongly discouraged because any errors that occur cannot be corrected. For more information, go to Settings > Privacy > {privacyBlock3Title}.",
+	"termsOfUsageBlock2b": "Error reports\\nSentry (self-hosted) is used to continuously improve the app. Error reports are neither processed nor shared with third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
 	"@termsOfUsageBlock2b": {
 		"placeholders": {
 			"privacyBlock3Title": {
@@ -777,7 +777,7 @@
 			}
 		}
 	},
-	"privacyBlock3bText": "{googleApiAgreement}\n\nLocation data.\nIn order to understand user behaviour and for future features, we use Google Analytics to track data in the app. This allows us to collect information about origin (country and city), language, operating system, device type, resolution, click behaviour and duration of use.\n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS). The data is transmitted to Google Analytics and evaluated to improve the app. The data is anonymised.\n\nBy using the app, you consent to the collection of anonymised data as described above.",
+	"privacyBlock3bText": "{googleApiAgreement}\n\nLocation data.\nIn order to understand user behaviour and for future features, the app transmits anonymised usage data. The data is not shared with third parties. Information may be collected about origin (country and city), language, operating system, device type, resolution, click behaviour, and duration of use. n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS).\n\nBy using the app, you consent to the collection of anonymised data as described above.",
 	"@privacyBlock3bText": {
 		"placeholders": {
 			"googleApiAgreement": {
@@ -1293,15 +1293,17 @@
 	"counterExclude": "Exclude",
 	"counterTankCapacity": "Tank capacity",
 	"counterTankFillHeight": "Fill height",
-	"counterFactorElectricityDescription": "If an electricity meter is the special design “NTS2” with “direct circuit” label on the cover plate, you must enter the transformer ratio here. Example: x200 (an electrician must adjust the CT ratio setting in the distribution box). If you’re not sure about this setting, leave it at 1.0.",
+    "counterFactorDescription": "Is consumption only allocated to you on a pro rata basis? Enter the proportion as a value between 0.1 (10%) and 1.0 (100%).",
 	"counterTransducerFactor": "Transformer ratio",
 	"counterProportionateConsumption": "Proportionate consumption",
 	"counterFactor": "Factor",
 	"counterTransducerFactorExplained": "If a voltage transformer is used to step down the voltage before it reaches the meter, a new conversion factor must be applied to obtain the correct readings. Example: the meter displays 100,000 kWh with a conversion factor of 20. The correct reading is: 100,000 kWh x 20 = 2,000,000 kWh.",
 	"counterFractionDigits": "Fraction digits",
 	"counterDirection": "Direction",
-	"counterDirectionExplanation": "If the counter is installed backwards, it shows how much electricity was fed into the grid. If it is installed correctly, it shows how much electricity has been consumed from the grid.",
-	"counterConsiderForTotalElectricity": "Consider for total electricity consumption",
+	"counterDirectionExplanation": "Does the value decrease with use (level indicator, etc.) or does the value increase with use (burner hours, oil meter, etc.) or is each reading value independent (consumption/yield)?",
+    "counterConsiderForTotalConsumptions": "Consider for total consumptions",
+  	"counterConsiderForTotalElectricity": "Consider for total electricity consumption",
+    "counterConsiderForTotalWater": "Consider for total water consumption",
 	"counterWaterExtractionMinimumLevel": "Minimum level",
 	"counterBackgroundImage": "Background image for counter",
 	"counterShowReadingsChart": "Show readings chart",

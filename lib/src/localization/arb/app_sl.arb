@@ -1,0 +1,1707 @@
+{
+  "appDescriptionShort": "Dobro za denarnico, dobro za podnebje",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
+  "appDescriptionLong": "<p>Dobrodošli v <b>EHW+</b>, vaši aplikaciji za odčitavanje števcev za <b>E</b>elektriko, <b>H</b>prehranjevanje in <b>W</b>ater. Pri nas lahko preprosto spremljate<b> <b>0koliko porabite in koliko stane<b>1 <b>2brezplačno<b>3.<b>4",
+  "contactTitle": "Zastopa:",
+  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontakt\n\nTelefon: 06204/7383382\nElektronski naslov: info@ehwplus.com",
+  "euDisputeResolution": "EU reševanje sporov\n\nEvropska komisija zagotavlja platformo za spletno reševanje sporov (OS): https://ec.europa.eu/consumers/odr/.\nNaš e-poštni naslov najdete v zgornjem impresumu.\n\nReševanje potrošniških sporov/univerzalni organ za reševanje sporov\n\nNismo pripravljeni ali dolžni sodelovati v postopkih reševanja sporov pred potrošniško arbitražo.",
+  "consent1Hello": "zdravo",
+  "consent2ThankYou": "Hvala, ker uporabljate EHW+!",
+  "consent3Video": "Si želite ogledati kratek uvodni video?",
+  "consent4BeforeYouCanContinue": "Preden lahko nadaljujete",
+  "consent5ErrorReportingTitle": "Poročila o napakah",
+  "consent6ContractPricesPerUnitTitle": "Cene elektrike/vode/plina",
+  "consent7ContractPricesPerUnit": "Da bi lahko ocenili, koliko trenutno plačujete v primerjavi z drugimi uporabniki EHW+, se cene prenesejo na strežnik EHW+ v Nemčiji skupaj z državo in deželo. Le če se strinjate s prenosom, imate dostop do statistike cen. Da bi zagotovili anonimnost, je statistiko mogoče prikazati šele po minimalnem številu posredovanih cen.",
+  "consent11AnalyticsTitle": "Analizni podatki",
+  "consent12Analytics": "Za oceno uspešnosti aplikacije ali posameznih funkcij aplikacija posreduje anonimno statistiko uporabe. Podatki se ne posredujejo tretjim osebam. Podatki se uporabljajo za nadaljnji razvoj aplikacije.",
+  "consent13StromGedachtTitle": "Obvestila o stabilnosti omrežja podjetja StromGedacht",
+  "consent13StromGedacht": "Storitev StromGedacht, ki jo zagotavlja TransnetBW, zagotavlja informacije o stabilnosti omrežja in priporočila o tem, kdaj naj se električna energija uporablja prednostno. Ker energetski prehod postaja vse večji izziv za prenosno omrežje, so vključena gospodinjstva v jugozahodni Nemčiji. Če želite prejeti informacije o vaši lokaciji, se vaša poštna številka, če je vnesena tukaj v aplikaciji, prenese v API TransnetBW StromGedacht. Nobeni drugi podatki se ne prenašajo ali povezujejo.",
+  "stromGedachtAgreement": "Strinjam se, da se moja poštna številka (če je navedena) posreduje TransnetBW za pridobivanje obvestil StromGedacht.",
+  "priceSubmissionAgreement": "Strinjam se s prenosom cen elektrike/plina/vode na enoto na strežnik EHW+",
+  "googleAnalyticsAgreement": "Strinjam se s prenosom anonimiziranih podatkov o uporabi aplikacije podjetju EHW+ Services GmbH.",
+  "continueAcceptPart1": "Z uporabo aplikacije EHW+ se strinjate z",
+  "continueAcceptPart2": ". Za več informacij o zbiranju in uporabi anonimiziranih in osebnih podatkov glejte",
+  "termsOfUsageTitleShort": "Pogoji uporabe",
+  "faqAboutDeveloperTitle": "Kdo stoji za EHW+?",
+  "faqAboutDeveloperBody1": "Hvala za vaše zanimanje za EHW+. EHW+ sem izdal jaz, Timo Bähr, decembra 2020. Sem razvijalec aplikacij s polnim delovnim časom in v prostem času delam na EHW+, da prispevam k varstvu okolja. Od maja 2022 drugi razvijalec nadzira moje delo, Thomas Hesse, gradi zaledja za EHW+. Od aprila 2023 Janine Sinner obravnava številne povratne informacije strank. Od julija 2024 se je Artem Yuzhakov pridružil kot razvijalec aplikacij.",
+  "faqAboutDeveloperBody2": "Več kot 26 % vseh emisij CO2 v Nemčiji povzročijo zasebna gospodinjstva. Če lahko vsak vsaj malo zmanjša porabo, se bo veliko doseglo. Najlepša hvala za vaš prispevek!",
+  "faqAboutDeveloperBody3": "Veseli bomo predlogov, kako izboljšati aplikacijo.",
+  "faqAboutDeveloperBody4": "Vendar vas prosim za razumevanje, da ne morem uresničiti vseh predlogov in da nove funkcije zahtevajo čas.",
+  "commonCollapse": "Strni",
+  "commonMore": "več",
+  "commonSave": "Shrani",
+  "commonChange": "spremeniti",
+  "commonContinue": "Nadaljuj",
+  "commonBack": "Nazaj",
+  "commonOk": "OK",
+  "commonCancel": "Prekliči",
+  "commonClose": "Zapri",
+  "commonOpen": "Odpri",
+  "commonSend": "Predloži",
+  "commonDelete": "Izbriši",
+  "commonYes": "ja",
+  "commonNo": "št",
+  "commonLoadingData": "Nalaganje podatkov",
+  "commonDay": "dan",
+  "commonMonth": "mesec",
+  "commonYear": "leto",
+  "commonShare": "Delite",
+  "commonCopiedToClipboard": "Kopirano v odložišče",
+  "commonLearnMore": "Več o tem",
+  "commonMinimum": "Najnižja dnevna vrednost",
+  "commonMaximum": "Najvišja dnevna vrednost",
+  "heatmapLegendTitle": "Več o toplotni karti",
+  "heatmapLegendDisclaimer": "Informacije: Zasenčena polja vsebujejo ocenjeno vrednost. Za odčitavanje dejanske porabe/proizvodnje prosimo, da dopolnite manjkajoče odčitke števca, če je to mogoče.",
+  "consumptionHeatmap": "Toplotni zemljevid porabe",
+  "consumptionHeatmapYield": "Toplotni zemljevid donosa",
+  "consumption": "Poraba",
+  "consumptionYield": "donos",
+  "showAllYears": "Pokaži vsa leta",
+  "appNameShort": "EHW+",
+  "appName": "EHW+ | Poraba in odčitki števca",
+  "tabCounters": "Metri",
+  "tabStatistics": "Statistika",
+  "tabObject": "Objekt",
+  "tabNews": "Nasveti/Novice",
+  "ofRangeLastDays": "zadnjih {days} dni",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeLastMonths": "za zadnjih {months} mesecev",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeFrom": "iz {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "readingTime": "Čas branja",
+  "reading": "Branje števca",
+  "last2Weeks": "Zadnjih 14 dni",
+  "last12Weeks": "Zadnjih 12 tednov",
+  "last12Months": "Zadnjih 12 mesecev",
+  "sinceInitialReading": "Od prvega branja",
+  "lastYear": "Lansko leto",
+  "periodCustom": "Uporabniško določeno",
+  "counterReadings": "Branje",
+  "comment": "Bote",
+  "enterComment": "Vnesite opombo",
+  "enterExistingReadingAgain": "Ponovno vnesite staro branje",
+  "meterId": "ID števca",
+  "meterReadingSubmitted": "Preneseno ponudniku",
+  "newReading": "Vnesite trenutni odčitek",
+  "newReadingShort": "Novo branje",
+  "readingWithFactor": "Odčitavanje števca s faktorjem",
+  "csvImportWithFactor": "Ali je treba odčitke števca pomnožiti s faktorjem, ki ni enak 1,0? Če želite na primer pretvoriti vrednosti iz Wh v kWh, jih je treba pomnožiti z 0,001.",
+  "newPhoto": "Posnemite novo fotografijo",
+  "existingPhoto": "Priloži obstoječo fotografijo",
+  "newPhotoOfMeterReading": "Bi radi fotografirali stanje števca?",
+  "existingPhotoOfMeterReading": "Ali želite priložiti obstoječo fotografijo stanja števca?",
+  "numCounters": "{count, plural, =0 {Števec {count}} one {Števec {count}} other {Števci {count}}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numMeterReadings": "{readings, plural, one {# branje} other {# branja}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "firstReadingYield": "Zdaj vnesite prvi donos.",
+  "firstReadingConsumption": "Zdaj vnesite prvo porabo.",
+  "firstReadingCounter": "Vnesite prvi odčitek števca.",
+  "consumptionHeatpump": "Poleg tega znaša poraba energije toplotne črpalke {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearly": "Vaša poraba električne energije {ofRange} znaša {consumption} kWh na leto.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedElectricityIntro": "Vaša poraba električne energije {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/leto ≈ {monthlyConsumption} kWh/mesec)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedGasIntro": "Vaša poraba plina {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/leto ≈ {monthlyConsumption} kWh/mesec)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel0": "je super nizka.",
+  "consumptionYearlyDetailedLevel1": "je res nekaj za videti.",
+  "consumptionYearlyDetailedLevel3": "je razmeroma visoka.",
+  "consumptionYearlyDetailedLevel4": "je normalno.",
+  "consumptionYearlyDetailedYouConsume": "Zaužijete{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLessThan": "{percentage} manj kot",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedMoreThan": "{percentage} več kot",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedAboutSame": "približno enako kot",
+  "consumptionYearlyDetailedAverageHousehold": "povprečno gospodinjstvo s {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedOptimalEnding": "kako ti gre",
+  "consumptionYearlyDetailedLevel1Suffix": "Za optimalno porabo manjka {nextToOptimal} kWh/mesec.",
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel2Suffix": "Za dobro porabo manjka {nextToOptimal} kWh/mesec.",
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionPersonLabel": "{count, plural, one {oseba} other {ljudi}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "consumptionWaterPrefixSingle": "Porabiš",
+  "consumptionWaterPrefixPerPerson": "Na osebo porabijo vsi",
+  "consumptionWaterDailyMonthly": "približno {dailyLiters} litrov na dan (≈ {monthlyCubicMeters} {unitName} na mesec).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "String"
+      },
+      "monthlyCubicMeters": {
+        "type": "String"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterRangeUnknown": "Vaša poraba vode {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallLess": "Vaša poraba vode {ofRange} je {percentage} nižja kot v povprečnem gospodinjstvu s {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallEqual": "Vaša poraba vode {ofRange} se ujema s porabo povprečnega gospodinjstva s {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallMore": "Vaša poraba vode {ofRange} je {percentage} večja kot v povprečnem gospodinjstvu s {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdLess": "Hladna voda: {percentage} manj kot v povprečnem gospodinjstvu.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdMore": "Hladna voda: {percentage} več kot povprečno gospodinjstvo.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdEqual": "Hladna voda: približno enako kot v povprečnem gospodinjstvu.",
+  "consumptionWaterWarmLess": "Topla voda: {percentage} manj kot v povprečnem gospodinjstvu.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmMore": "Topla voda: {percentage} več kot povprečno gospodinjstvo.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmEqual": "Topla voda: približno enako kot v povprečnem gospodinjstvu.",
+  "yearlyConsumption": "Dosedanja letna poraba",
+  "yearlyCosts": "Dosedanji stroški letne porabe",
+  "room": "soba",
+  "fedIn": "Nahranjeno",
+  "generated": "Ustvarjeno",
+  "residualGenerationEstimated": "Ocenjena preostala proizvodnja",
+  "residualConsumptionEstimated": "Preostala poraba ocenjena",
+  "myObjects": "Moji predmeti",
+  "roomLivingRoom": "Dnevna soba",
+  "roomDiningRoom": "Jedilnica",
+  "roomBedroom": "Spalnica",
+  "roomBathroom": "Kopalnica",
+  "roomWc": "WC",
+  "roomChildrenRoom": "Otroška soba",
+  "roomKitchen": "Kuhinja",
+  "roomStoreRoom": "Shramba",
+  "roomOffice": "Pisarna",
+  "roomGarden": "Vrt",
+  "counter": "števec",
+  "counterDirectionAscending": "naraščajoče",
+  "counterDirectionDescending": "padajoče",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "counterWater": "Merilniki vode",
+  "counters": "Metri",
+  "changeCounterOrder": "Po potrebi lahko vrstni red spremenite",
+  "newCounter": "Ustvarite nov števec",
+  "updateObjectName": "Spremenite imena predmetov",
+  "enterObjectName": "Poimenujte nov predmet",
+  "explanationManageMoreThanOneObject": "Imate več kot eno nepremičnino, ki jo želite upravljati? Nato poimenujte trenutni predmet in nato ustvarite drug objekt.",
+  "selectedAtAppStart": "Najvišji predmet je izbran ob zagonu aplikacije",
+  "reallyDeleteObject": "Ali ste prepričani, da želite izbrisati predmet?",
+  "confirmDeleteAtCloud": "Ali bi bilo treba »{objectTitle}« izbrisati tudi iz Google Drive?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteObjectError": "Tega predmeta ni mogoče izbrisati (koda {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "commonChangeSaved": "Sprememba shranjena",
+  "commonUpdateNow": "Posodobite zdaj",
+  "commonLogout": "Odjavite se",
+  "commonLogin": "Prijavite se",
+  "commonLoggingIn": "Prijavljanje ...",
+  "commonLoggingOut": "Odjava ...",
+  "commonNotAuthenticated": "Niste overjeni.",
+  "commonUserLogin": "Prijava uporabnika",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Uporabljate račun EHW+. {notSubmitted} od kupljenih izdelkov {total} ni bilo mogoče shraniti na strežnik EHW+. Upamo, da bomo težavo kmalu odpravili.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {En nakup je bil sinhroniziran preko računa EHW+.} other {Nakupi {count} so bili sinhronizirani preko računa EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Uporabljate račun EHW+. Če boste izdelke kupili v prihodnosti, bodo ti sinhronizirani v vseh vaših napravah.} one {Uporabljate račun EHW+. {count} kupljen izdelek je shranjen na strežniku EHW+.} other {Uporabljate račun EHW+. Kupljeni izdelki {count} so bili shranjeni na strežniku EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionNotLoggedIn": "Ali uporabljate aplikacijo na več napravah? Prijava v račun EHW+ vam omogoča sinhronizacijo nastavitev in kupljenih izdelkov v vseh vaših napravah.",
+  "accountUpdateInfo": "Novo: uporabniški račun EHW+",
+  "accountThankYouForPurchase": "Hvala! Ali želite zavarovati nakup v svojem uporabniškem računu EHW+ zdaj?",
+  "accountAbout": "Kaj zmore uporabniški račun EHW+?",
+  "accountBenefit1": "Zanesljivejša prepoznava nakupa",
+  "accountBenefit2": "Dostop do vseh kupljenih razširitev na več napravah",
+  "accountFaqTitle": "Pogosta vprašanja:",
+  "accountFaqQ1": "Kaj je uporabniški račun EHW+?",
+  "accountFaqA1": "Uporabniški račun EHW+ ponuja alternativno metodo za obnovitev nakupov, ko obnovitev prek App Store ni mogoča, kar povečuje zanesljivost. Poleg tega omogoča obnovitev nakupov v napravi, kjer nakup prvotno ni bil opravljen. V prihodnje bo možno tudi shranjevanje nastavitev in še več.",
+  "accountFaqQ2": "Ali bom še vedno imel dostop do svojih nakupov brez uporabniškega računa EHW+?",
+  "accountFaqA2": "Da, nakupe je še vedno mogoče obnoviti v napravi Android prek Trgovine Play ali v napravi iPhone prek App Store. Uporabniški račun EHW+ zagotavlja alternativno metodo za obnovitev nakupov, ko obnovitev prek App Store ni mogoča, kar povečuje zanesljivost. Poleg tega omogoča obnovitev nakupov v napravi, kjer nakup prvotno ni bil opravljen.",
+  "accountButtonSetup": "Nastavite uporabniški račun EHW+",
+  "cometSettingsIsPredictionsApiEnabled": "Uporabite COMET Forecast API Goethe Instituta",
+  "cometConsentScreenHeader": "Novo: boljše napovedi porabe",
+  "cometConsentScreenHowItWorksTitle": "kako deluje",
+  "cometConsentScreenOnlineDescriptionTitle": "Z internetno povezavo:",
+  "cometConsentScreenOnlineDescription": "Vaši podatki o porabi bodo poslani Goethe University Frankfurt, kjer bo ustvarjena individualna napoved in prikazana v aplikaciji.",
+  "cometConsentScreenOfflineDescriptionTitle": "Brez internetne povezave:",
+  "cometConsentScreenOfflineDescription": "Na vaši napravi bo izračunana poenostavljena lokalna napoved.",
+  "cometConsentScreenToggleLabel": "Uporabite storitev napovedi",
+  "cometConsentScreenDataCanBeUsedForTraining": "Podatki se lahko uporabijo za optimizacijo prihodnjih napovedi",
+  "cometConsentScreenFeedbackTitle": "Univerza Goethe potrebuje vaše povratne informacije:",
+  "cometConsentScreenFeedbackDescription": "Uporaba napovedi je brezplačna, vendar raziskovalna skupina potrebuje povratne informacije o tem, kako dobro storitev deluje.",
+  "cometConsentScreenFeedbackMethod": "Povratne informacije so zagotovljene samodejno, ko uporabljate storitev napovedi in se strinjate z optimizacijo.",
+  "cometConsentScreenDeclineButton": "Ne želim dajati povratnih informacij",
+  "cometConsentScreenAcceptButton": "Želim dati povratne informacije",
+  "exportTabHowToExport": "Kako želite izvoziti podatke?",
+  "exportTabHowToExportOptionShare": "Delite z drugimi aplikacijami",
+  "exportTabHowToExportOptionSaveToDownloads": "Shrani v mapo {folder}",
+  "exportTabSnackBarSaveResultMessageSuccess": "Podatki so bili uspešno shranjeni kot {fileName} v mapi {folder}",
+  "exportTabSnackBarSaveResultMessageError": "Med shranjevanjem podatkov je prišlo do napake",
+  "importTabErrorMessageFileWithExtensionNotSelected": "Za nadaljevanje uvoza je potrebna datoteka {extension}.",
+  "difference": "Razlika",
+  "period": "Pika",
+  "periodHourly": "urno",
+  "periodDaily": "dnevno",
+  "periodWeekly": "tedensko",
+  "periodBiweekly": "dvotedensko",
+  "periodMonthly": "mesečno",
+  "periodBimonthly": "dvomesečno",
+  "periodQuarterly": "četrtletno",
+  "periodHalfYearly": "polletni",
+  "periodYearly": "letno",
+  "meterCardLastUpdatedLabel": "Posodobljeno",
+  "smartMeterServiceProvider": "Ponudnik storitev",
+  "smartMeterObtainDataAutomatically": "Samodejno pridobivanje podatkov",
+  "smartMeterErrorNoData": "Na žalost ni podatkov, ki bi jih aplikacija lahko prikazala.",
+  "smartMeterSettingsScreenSyncButton": "Sinhronizirajte podatke o porabi",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Sinhronizacija v teku",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Napredek: {progressInPercent}%",
+  "smartMeterSettingsScreenSyncingDialogError": "Napaka",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "OK",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Med sinhronizacijo je prišlo do naslednje napake: {errorMessage}",
+  "smartMeterMisconfiguredWidgetCardTitle": "Prosimo, da pravilno nastavite pametni števec.",
+  "smartMeterMisconfiguredWidgetCardButton": "Nastavite pametni števec",
+  "smartMeterTabConsumptions": "Porabe",
+  "smartMeterTabProductions": "Produkcije",
+  "consumptionCacheManagementClearCacheButton": "Počisti predpomnilnik",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Počisti in sinhroniziraj",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Počisti predpomnilnik?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Vsi predpomnjeni podatki o porabi bodo trajno izbrisani. Pozneje ga lahko sinhronizirate.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Počistiti predpomnilnik in sinhronizirati?",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Vsi predpomnjeni podatki bodo izbrisani in znova preneseni s strežnika. To lahko traja nekaj časa.",
+  "consumptionCacheManagementClearedSuccessfully": "Predpomnilnik je uspešno počiščen",
+  "tibberAccessToken": "Žeton za dostop",
+  "tibberEnterAccessToken": "Vnesite žeton za dostop",
+  "tibberMessageAccessTokenUpdated": "Žeton za dostop je bil uspešno posodobljen",
+  "tibberErrorAccessTokenInvalid": "Videti je, da žeton za dostop ni veljaven",
+  "tibberErrorNoHomes": "S tem računom ni povezanih nobenih domov",
+  "tibberErrorSmartMeterMisconfigured": "Zdi se, da je vaš pametni števec napačno konfiguriran.",
+  "tibberErrorConnectivityShowCacheInstead": "Nedavnih podatkov o porabi ni mogoče pridobiti. Namesto tega so prikazane predpomnjene vrednosti.",
+  "tibberErrorUndefined": "Prišlo je do nepričakovane napake: {error}",
+  "tibberErrorRateLimit": "Omejitev stopnje Tibber API je presežena. Pred ponovnim poskusom počakajte vsaj 5 minut.",
+  "tibberErrorNoSubscription": "Za popoln dostop do zgodovinskih podatkov prek API-ja potrebujete aktivno pogodbo o električni energiji Tibber za izbrani dom.",
+  "tibberBasicAuth": "Osnovna avt",
+  "tibberBasicAuthUsername": "Uporabniško ime",
+  "tibberBasicAuthPassword": "Geslo",
+  "tibberBasicAuthEnterUsername": "Prosim vnesite uporabniško ime",
+  "tibberBasicAuthEnterPassword": "Prosim vnesite geslo",
+  "tibberConsumptionEntryTotalCost": "Skupni stroški: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Skupni dobiček: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpanYear": "Leto {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Eno leto od {year}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "Mesec {month}",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "En mesec z začetkom {month}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 ur od {startTime} do {date}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Ena ura od {startTime} na {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Od: {startTime} do {endDate}",
+  "tibberWhereIsMyAccessToken": "Kje lahko najdem svoj \"žeton za dostop\"?",
+  "tibberActionSaveAuthorizationSettings": "Shranite nastavitve avtorizacije",
+  "tibberConsentScreenHeader": "Nova funkcija: podatki o porabi iz Tibber Pulse",
+  "tibberConsentScreenDescription": "Ali ste stranka Tibberja ali nameravate to postati? Zdaj podpiramo Pulse za izboljšano spremljanje energije. Upoštevajte, da so pretekli podatki iz Pulse žal na voljo le strankam z aktivno pogodbo Tibber.",
+  "tibberConsentScreenBenefit1Title": "Oglejte si svojo porabo električne energije",
+  "tibberConsentScreenBenefit1Description": "Spremljajte svojo porabo v realnem času in odkrijte skrite požrešce energije.",
+  "tibberConsentScreenStoreLink": "Obiščite trgovino Tibber",
+  "tibberConsentScreenConfigureNowButton": "Nastavite Tibber Pulse zdaj",
+  "tibberConsentScreenConfigureLaterButton": "Nastavite pozneje",
+  "tibberConsentScreenGoetheStudySectionHeader": "Sodelovanje v raziskovalnem projektu",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Da, želim sodelovati pri Goethejevi študiji",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Bi radi sodelovali pri Goethejevi študiji?",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Vaša urna poraba od 1. marca bo anonimizirana in posredovana Goethejevi študiji.",
+  "tibberStatusWidgetTitle": "Upravljanje predpomnilnika",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Stanje naročnine na Tibber",
+  "tibberSubscriptionStatusActive": "aktivna",
+  "tibberSubscriptionStatusInactive": "neaktiven",
+  "tibberSubscriptionStatusLoading": "nalaganje...",
+  "tibberLiveMeasurementCounterCardViewFooter": "Merjenje v živo",
+  "tibberLiveMeasurementsWidgetNotSupported": "Meritve v živo za ta dom niso podprte.",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Ta dom ne podpira meritev v živo ali preteklih podatkov o porabi. Izberite drug dom.",
+  "tibberLiveMeasurementsWidgetConnecting": "Povezovanje s Tibber Pulse ...",
+  "tibberLiveMeasurementsWidgetError": "Med povezovanjem s Tibber Pulse je prišlo do napake. Preverite žeton za dostop in internetno povezavo.",
+  "tibberLiveMeasurementWidgetTitle": "Trenutna poraba/proizvodnja pri {time}",
+  "tibberLiveMeasurementWidgetTimestamp": "Časovni žig",
+  "tibberLiveMeasurementWidgetPower": "Moč",
+  "tibberLiveMeasurementWidgetPowerProduction": "Proizvodnja električne energije",
+  "tibberLiveMeasurementWidgetAveragePower": "Povprečna moč",
+  "tibberLiveMeasurementWidgetMinPower": "Najmanjša moč",
+  "tibberLiveMeasurementWidgetMaxPower": "Največja moč",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Skupna poraba (od polnoči)",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Skupna proizvodnja (od polnoči)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Poraba (zadnja ura)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Produkcija (zadnja ura)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Odčitek števca (poraba)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Odčitavanje števca (proizvodnja)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Akumulirani stroški",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Zbrana nagrada",
+  "tibberLiveMeasurementWidgetPowerFactor": "Faktor moči",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Napetost (1. faza)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Napetost (2. faza)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Napetost (3. faza)",
+  "tibberLiveMeasurementWidgetCurrentL1": "Tok (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Tok (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Tok (L3)",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "W",
+  "tibberLiveMeasurementWidgetUnitA": "A",
+  "tibberHomeSelectorHomeId": "ID doma: {homeId}",
+  "tibberHomeSelectorLabel": "domov",
+  "scanQrCode": "Skenirajte aktivacijsko kodo qr",
+  "requestAccess": "Zahtevaj dostop",
+  "createAccount": "Ustvarite račun/prijavite se",
+  "watersupplierYourSupplier": "Vaš dobavitelj vode",
+  "watersupplierRadioMeterDefaultName": "Radijski merilnik hladne vode",
+  "watersupplierAccessRequestQ1": "Ste lastnik nepremičnine v zajetju vodovoda in bi želeli imeti vpogled v radijske števce?",
+  "watersupplierAccessRequestQ2": "Ste že zahtevali dostop? Nato morate ustvariti uporabniški račun EHW+.",
+  "watersupplierAccessRequestQ3": "Ste že zahtevali dostop in prejeli kodo QR?",
+  "watersupplierAccessRequestQ4": "Ali želite prejemati opozorila števca, da se lahko odzovete na primer v primeru poka cevi ali tekočega splakovanja stranišča?",
+  "watersupplierOpenReminderSettings": "Odprite nastavitve",
+  "watersupplierScanQrCodeTitle": "Aktivacija radijskega števca",
+  "watersupplierScanQrCodeCommand": "Skenirajte levo QR kodo (aktivacijsko kodo)!",
+  "watersupplierScanRevokeQrCodeCommand": "Skenirajte pravo kodo QR (preklic kode)!",
+  "watersupplierScanQrCodeValidation": "Koda QR je bila zaznana, preverimo jo.",
+  "watersupplierScanQrCodeValidationFailed": "Oprostite, koda je neveljavna. Ali želite poskusiti znova?",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Namesto aktivacijske kode ste skenirali kodo za preklic. Poskusite ponovno!",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Optično prebrali ste aktivacijsko kodo namesto kode za preklic. Poskusite ponovno!",
+  "watersupplierScanQrCodeScanSuccessful": "Vau, aktivacijska koda izgleda tako lepo! Prosimo, vnesite zadnje tri številke vašega števca!",
+  "watersupplierMeterIdValidationStep": "Preverjamo vaš števčni ID.",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Žal to ni delovalo. To je bilo zaradi našega strežnika. Raje poskusite znova pozneje!",
+  "watersupplierCompleteMeterIdTryAgain": "Ne boš mimo! Ponovno vnesite zadnje tri številke števca!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Opomba: vaš originalni ID merilnika ima lahko več kot 8 znakov.",
+  "watersupplierScanQrCodeApprovalInProgress": "Zdaj avtoriziramo vaš račun, da boste lahko v prihodnje dostopali do odčitkov radijskega števca.",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "ja! Vaš radijski vodomer tipa \"Hladna voda\" je bil uspešno dodan. Najdete ga med drugimi merilniki.",
+  "watersupplierUnlinkRadioMeterTitle": "Prekinite dostop do radijskega merilnika",
+  "watersupplierUnlinkRadioMeterDescription1": "Ali želite izbrisati radijski merilnik, ne da bi razveljavili aktivacijsko kodo?",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Izbriši radijski števec",
+  "watersupplierUnlinkRadioMeterDescription2": "Ne želite več dostopa do podatkov radijskega števca? Upoštevajte: ko je preklicna koda skenirana, aktivacijska koda postane neveljavna. Vsak uporabniški račun, ki je uporabil aktivacijsko kodo, bo izgubil dostop.",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Skenirajte kodo za preklic",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Dostop do vašega radijskega števca vode je bil preklican.",
+  "watersupplierNoAccess": "Nimate več pooblastila za pridobivanje podatkov.",
+  "watersupplierNoAccessDetailedMessage": "Če menite, da bi še vedno morali imeti dostop, ponovno skenirajte svojo aktivacijsko kodo. Če koda za dostop ni več veljavna, oddajte novo zahtevo za dostop.",
+  "zipCode": "poštna številka",
+  "zipCodeValidationOnlyNumbers": "Veljavna poštna številka je sestavljena samo iz številk",
+  "zipCodeValidationLength": "Vnesite {digits}-mestno poštno številko",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "houseName": "Hišno ime",
+  "houseNameDescription": "Hišno ime, npr. ime ulice",
+  "marketLocationId": "ID tržne lokacije",
+  "marketLocationIdDescription": "ID lokacije trga je vedno sestavljen iz 11 števk. To običajno najdete na zadnjem računu za elektriko ali plin.",
+  "swimmingPool": "Bazen",
+  "smartmeterInfocodeBannerText": "Pametni merilnik {smartmeterId} je prejel infokodo: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "smartmeterId": {
+        "type": "String"
+      },
+      "infocode": {
+        "type": "String"
+      }
+    }
+  },
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Vaš vodomer {smartmeterId} je zaznal neprekinjen pretok vode. To bi lahko pomenilo puščanje. Prosimo, preverite vašo gospodinjsko inštalacijo glede puščanja. Stranišča in kapljajoče pipe so pogosti vzroki.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Vaš vodomer {smartmeterId} je zaznal neobičajno visoko porabo vode, kar lahko nakazuje na pokanje cevi. Prosimo, preverite vašo gospodinjsko instalacijo glede večjih puščanj ali zlomov. Alarm se lahko pojavi tudi, če ste porabili veliko količino vode, npr. za polnjenje bazena.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Vaš vodomer {smartmeterId} je zaznal nenavadno visoko porabo vode, kar lahko pomeni pokanje cevi ali polnjenje bazena. Prosimo, preverite vašo gospodinjsko instalacijo glede večjih puščanj ali zlomov.",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "Temperatura vašega vodomera {smartmeterId} je padla pod 3°C. Obstaja nevarnost zmrzali! Izolirajte merilnik in cevi ali ogrejte območje, da preprečite poškodbe.",
+  "smartMeterCountersTitle": "Radijski vodomer",
+  "counterOutdatedAndNextReminder": "Branje števca je zastarelo od {date}, opomnik za naslednje branje {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
+  "waterMeterEventsInformation": "{count, plural, =1 {Vaš brezžični vodomer {waterSupplier} zazna nepričakovano porabo. Če želite, boste v takem primeru prejeli obvestilo.} other {Vaši brezžični vodomer {waterSupplier} zaznajo nepričakovano porabo. Če želite, boste v takih primerih prejeli obvestilo.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "subscribeToSmartMeterInfocodeEvents": "Želim biti obveščen o nepričakovani porabi",
+  "completeButton": "Popolna",
+  "reset": "Ponastavi",
+  "settingCounterTypeColor": "Barva za to vrsto števca",
+  "settingCounterTypeColorDescription": "Če vam privzeta barva za to vrsto števca ni všeč, lahko dodelite drugo barvo.",
+  "settingCounterTypeColorAdvanced": "Izbirnik barv za strokovnjake",
+  "featureVotingUnderConstruction": "Raziskava funkcij je trenutno v reviziji. V prihodnosti bo potreben uporabniški račun EHW+, anketa pa ne bo več uporabljala strežnikov tretjih oseb. Cenimo vašo potrpežljivost.",
+  "termsOfUsageTitle": "Splošni pogoji uporabe aplikacije",
+  "termsOfUsageBlock1Title": "Splošni pogoji uporabe aplikacije",
+  "termsOfUsageBlock1": "Pravica do ugovora",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2Title": "Splošne informacije o uporabi",
+  "termsOfUsageBlock2": "Aplikacije in njenih funkcij ni dovoljeno uporabljati v zlorabo. Prosimo, da aplikacijo uporabljate samo v zakonsko dovoljenem obsegu in v skladu z našimi pogoji uporabe. V primeru kršitve veljavne nemške zakonodaje ali naših pogojev uporabe si ponudnik pridržuje pravico, da vas izključi iz uporabe aplikacije.",
+  "termsOfUsageBlock2a": "Anonimizirani podatki o uporabi\nZa nenehno izboljševanje aplikacije uporabljamo lastno analitiko.\nPrenašajo se samo anonimizirani podatki.\nPodatki se ne posredujejo tretjim osebam.\nZa več informacij pojdite v Nastavitve > Zasebnost > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2b": "Poročila o napakah\nSentry (samostojno gostovanje) se uporablja za nenehno izboljševanje aplikacije.\nPoročila o napakah se ne obdelujejo in ne delijo s tretjimi osebami.\nZa več informacij pojdite v Nastavitve > Zasebnost > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2c": "Osebni podatki\nČe uporabljate Google Drive Sync, EHW+ še vedno nima dostopa do podatkov, ki ste jih vnesli. Za več informacij pojdite v Nastavitve > Zasebnost > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock3Title": "Odgovornost",
+  "termsOfUsageBlock3": "Ponudnik ne jamči za razpoložljivost, zanesljivost, funkcionalnost ali primernost aplikacije za vaše namene. Odgovornost je izključena, razen če je obvezna po Zakonu o odgovornosti za izdelke, zaradi naklepa, hude malomarnosti, poškodbe življenja, okončin ali zdravja, prevzema garancije kakovosti, goljufivega prikrivanja napake ali kršitve bistvenih pogodbenih obveznosti. Bistvene pogodbene obveznosti so tiste obveznosti, katerih izpolnitev je bistvena za pravilno izvedbo pogodbe in na njihovo izpolnjevanje se lahko pogodbeni stranki redno zanašata. Nadomestilo za škodo zaradi kršitve bistvenih pogodbenih obveznosti je omejeno na predvidljivo škodo, značilno za tovrstno pogodbo, razen če gre za naklep ali hudo malomarnost.",
+  "termsOfUsageBlock4Title": "Odgovornosti uporabnika",
+  "termsOfUsageBlock4": "Ponudnik ne jamči za točnost rezultatov izračuna. Uporabniki so dolžni skrbno in na lastno odgovornost posodabljati cene, ki so shranjene v aplikaciji (osnovne cene, cene porabe itd.), da zagotovijo, da ustvarjeni računi ustrezajo dejanskim zapadlim zneskom.",
+  "privacyBlock1Title": "Razvijalec",
+  "privacyBlock1Text": "Razvijalec/ponudnik aplikacije (v nadaljevanju »aplikacija«) je v skladu s 5. členom nemškega zakona o telemedijih (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock1Text2": "Za uporabo aplikacije se morate strinjati z naslednjimi pogoji uporabe. Prosimo, da jih natančno preberete.",
+  "privacyBlock2Title": "Splošno",
+  "privacyBlock2Text": "Zaščita vaših podatkov je za nas zelo pomembna. Ta politika zasebnosti pojasnjuje, katere osebne podatke EHW+ zbira in kako jih uporablja. Temeljne spremembe pravilnika o zasebnosti so redke, vendar se lahko občasno spremenijo zaradi novih funkcij, tehnologij ali zakonskih zahtev. Zato vas prosimo, da občasno preverite to stran, da boste na tekočem. Če naredimo pomembne spremembe, vas bomo o tem obvestili in po potrebi pridobili vaše soglasje.",
+  "privacyBlock3Title": "Katere podatke zbira {appNameShort}?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3aText": "Ustvarili smo {appNameShort}, da lahko hitro in enostavno vnesete odčitke svojih števcev in nato s statistiko izveste več o vaši porabi, njenih stroških in potencialnih prihrankih. To pomeni, da lahko v {appNameShort} vnesete, izračunate ali shranite katere koli podatke, ki jih na splošno imenujemo \"vsebina\". Ti podatki so shranjeni samo na vašem mobilnem telefonu.\n\nSinhronizacija z Google Drive.\nČe omogočite sinhronizacijo z Google Drive, bo vsebina samodejno varnostno kopirana v mapo z imenom »{appNameShort}« na vašem Google Drive, do katere lahko dostopate samo vi. Če se prijavite z Googlom, bo vaš e-poštni naslov viden razvijalcu.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "googleApiAgreement": "Uporaba {appNameShort} in prenos informacij, prejetih iz Googlovih API-jev, v katero koli drugo aplikacijo bosta v skladu s pravilnikom o uporabniških podatkih storitev Google API, vključno z zahtevami glede omejene uporabe.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3bText": "{googleApiAgreement}\n\nPodatki o lokaciji.\nDa bi razumeli vedenje uporabnikov in za prihodnje funkcije, aplikacija prenaša anonimizirane podatke o uporabi.\nPodatki se ne delijo s tretjimi osebami.\nZbirajo se lahko informacije o izvoru (država in mesto), jeziku, operacijskem sistemu, vrsti naprave, ločljivosti, obnašanju pri kliku in trajanju uporabe.\n\nPodatki o napravi.\nZbiramo podatke o številu in vrsti naprav, ki jih uporabljate za povezavo s storitvijo, ter podatke o operacijskem sistemu na teh napravah (npr. Android, iOS, Windows ali macOS).\n\nZ uporabo aplikacije soglašate z zbiranjem anonimiziranih podatkov, kot je opisano zgoraj.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyContractPriceSubmission": "Ko kot uporabnik vzdržujete svoje pogodbene podatke, se cena na enoto za pogodbe o elektriki, vodi in plinu prenese na strežnik EHW+ v Nemčiji skupaj z državo in zvezno deželo. Ti podatki se uporabljajo za izračun statistike cen. Za uporabnike aplikacije je statistika vidna v obliki primerjave cen v pogledu pogodbe.\n\nZ uporabo aplikacije soglašate z zgoraj navedenim zbiranjem anonimiziranih podatkov.",
+  "privacyBlock4DataUsageTitle": "Kako {appNameShort} uporablja moje podatke?",
+  "privacyBlock4DataUsage": "Zbrani anonimizirani podatki se uporabljajo za oceno vedenja uporabnikov. Poleg tega ni nobene nadaljnje uporabe podatkov.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock5Title": "Trajanje hrambe osebnih podatkov",
+  "privacyBlock5": "Trajanje hrambe osebnih podatkov je določeno z vsakokratnim zakonsko določenim rokom hrambe (npr. gospodarski in davčni roki hrambe). Po izteku obdobja se ustrezni podatki rutinsko izbrišejo, če niso več potrebni za izpolnitev ali začetek pogodbe in/ali nimamo več zakonitega interesa za njihovo nadaljnjo hrambo.",
+  "youtubeConsent1": "Za prikaz vdelane vsebine Youtube potrebujemo vaše soglasje. To (in s tem tudi vse druge Youtube vsebine v aplikaciji) lahko z enim klikom prikažete in tudi znova deaktivirate.",
+  "youtubeConsent2": "Vedno pokaži vsebino Youtube",
+  "youtubeConsent3": "Strinjam se, da mi je prikazana zunanja vsebina. To lahko povzroči prenos osebnih podatkov na platforme tretjih oseb. Več o tem v našem",
+  "privacyBlock6Title": "Kontakt",
+  "privacyBlock6": "Ko stopite v stik z nami (npr. preko kontaktnega obrazca ali elektronske pošte), se zbirajo osebni podatki. Podatki, zbrani v primeru kontaktnega obrazca, so vidni na posameznem kontaktnem obrazcu. Ti podatki se hranijo in uporabljajo izključno za namene odgovora na vaše povpraševanje ali za vzpostavitev kontakta in s tem povezano tehnično administracijo. Pravna podlaga za obdelavo podatkov je naš zakoniti interes za odgovor na vašo zahtevo v skladu s čl. 6. odst. 1 lit. f GDPR. Če je vaš kontakt namenjen sklenitvi pogodbe, je dodatna pravna podlaga za obdelavo 2. čl. 6. odst. 1 lit. b GDPR. Vaši podatki bodo izbrisani po obdelavi vašega povpraševanja, kar velja, če je iz okoliščin mogoče sklepati, da je zadeva dokončno razjasnjena in če ni zakonskih obveznosti hrambe podatkov.",
+  "privacyBlock7Title": "Pravice zadevne osebe",
+  "privacyBlock7": "Veljavna zakonodaja o varstvu podatkov vam kot posamezniku, na katerega se nanašajo osebni podatki, v zvezi z obdelavo vaših osebnih podatkov podeljuje celovite pravice (pravice do obveščanja in posredovanja) nasproti upravljavcu, o čemer vas bomo obvestili spodaj:\n\n- Pravica do obveščenosti po 3. čl. 15 GDPR: Zlasti imate pravico pridobiti informacije o vaših osebnih podatkih, ki jih obdelujemo, namenu obdelave, kategorijah obdelanih osebnih podatkov, prejemnikih ali kategorijah prejemnikov, ki so jim bili ali bodo vaši podatki razkriti, načrtovanem obdobju shranjevanja ali merilih za določitev obdobja shranjevanja, obstoju pravice do popravka, izbrisa, omejitve obdelave, ugovora obdelavi, pritožbe pri nadzornem organu, izvora podatkov. vaše podatke, če jih nismo zbrali od vas, obstoj avtomatiziranega odločanja, vključno s profiliranjem, in, kjer je primerno, pomembne informacije o vključeni logiki ter pomenu in predvidenih posledicah takšne obdelave za vas, kot tudi vašo pravico do obveščenosti o jamstvih, ki obstajajo v skladu s čl. 46 GDPR, ko se vaši podatki prenašajo v tretje države;\n\n- Pravica do popravka po čl. 16 GDPR: Pravico imate do nemudoma popravka netočnih podatkov v zvezi z vami in/ali do dopolnitve nepopolnih podatkov, ki jih hranimo.\n\n- Pravica do izbrisa po 2. čl. 17 GDPR: Pravico imate zahtevati izbris vaših osebnih podatkov, če so izpolnjeni pogoji iz čl. 17(1) GDPR. Vendar ta pravica ne velja zlasti, če je obdelava potrebna za uveljavljanje pravice do svobode izražanja in obveščanja, za izpolnjevanje pravne obveznosti, zaradi javnega interesa ali za uveljavljanje, izvajanje ali obrambo pravnih zahtevkov.\n\n- Pravica do omejitve obdelave po čl. 18 GDPR: Pravico imate zahtevati omejitev obdelave vaših osebnih podatkov, dokler se preverja točnost vaših podatkov, če ste ugovarjali izbrisu vaših podatkov zaradi nedopustne obdelave podatkov in namesto tega zahtevate omejitev obdelave vaših podatkov, če vaše podatke potrebujete za uveljavljanje, uveljavljanje ali obrambo pravnih zahtevkov, potem ko teh podatkov ne potrebujemo več za izpolnitev namena, za katerega so bili zbrani, ali če vi ste vložili ugovor zaradi razlogov, ki se nanašajo na vašo posebno situacijo, če še ni jasno, ali prevladajo naši zakoniti razlogi;\n\n- Pravica do obveščenosti po čl. 19 GDPR: Če ste uveljavljali svojo pravico do popravka, izbrisa ali omejitve obdelave v odnosu do upravljavca, je upravljavec dolžan obvestiti vse prejemnike, ki so jim bili razkriti vaši osebni podatki, o tem popravku ali izbrisu podatkov ali omejitvi obdelave, razen če se to izkaže za nemogoče ali vključuje nesorazmeren napor. Imate pravico biti obveščen o teh prejemnikih.\n\n- Pravica do prenosljivosti podatkov po 2. čl. 20 GDPR: Pravico imate, da svoje osebne podatke, ki ste nam jih posredovali, prejmete v strukturirani, splošno uporabljani in strojno berljivi obliki ali da zahtevate njihov prenos k drugemu upravljavcu, če je to tehnično izvedljivo.\n\n- Pravica do preklica dane privolitve v skladu s čl. 7(3) GDPR: Imate pravico, da kadar koli prekličete svoje soglasje za obdelavo podatkov z učinkom za naprej. V primeru umika bomo zadevne podatke brez odlašanja izbrisali, razen če nadaljnja obdelava lahko temelji na pravni podlagi za obdelavo brez privolitve. Preklic privolitve ne vpliva na zakonitost obdelave na podlagi privolitve pred njenim preklicem.\n\n- Pravica do vložitve pritožbe po čl. 77 GDPR: Če menite, da obdelava vaših osebnih podatkov krši GDPR, imate pravico do vložitve pritožbe pri nadzornem organu, zlasti v državi članici vašega prebivališča, delovnega mesta ali kraja domnevne kršitve, brez poseganja v katero koli drugo upravno ali sodno pravno sredstvo.",
+  "privacyBlock8Title": "Pravica do ugovora",
+  "privacyBlock8": "ČE VAŠE OSEBNE PODATKE OBDELUJEMO NA PODLAGI NAŠEGA PREVLADUJOČEGA ZAKONITEGA INTERESA V OKVIRU TEHTANJA INTERESOV, IMATE PRAVICO, DA TEJ OBDELAVI KADARKOLI UGOVORITE ZARADI RAZLOGOV, KI IZHAJAJO IZ VAŠEGA POSEBNEGA POLOŽAJA, Z UČINKOM ZA PRIHODNOST. ČE UPORABLJATE SVOJO PRAVICO DO UGOVORA, BOMO PRENEHALI OBDELOVATI ZADEVNE PODATKE. VENDAR JE NADALJNJA OBDELAVA PRIDRŽANA, ČE LAHKO DOKAŽEMO OBVEZNE ZAKONITE PODLAGE ZA OBDELAVO, KI PREVLADI VAŠE INTERESE, temeljne pravice in svoboščine, ali če je obdelava namenjena uveljavljanju, izvajanju ali obrambi pravnih zahtevkov.\n\nČE VAŠE OSEBNE PODATKE OBDELUJEMO ZA NAMENE NEPOSREDNEGA TRŽENJA, IMATE PRAVICO, DA KADAR KOLI UGOVORITE OBDELAVI OSEBNIH PODATKOV, KI SE NANAŠAJO NA VAS, ZA NAMEN TAKŠNEGA OGLAŠEVANJA. PRAVICO DO UGOVORA LAHKO UVELJAVLJATE, KOT JE OPISAN ZGORAJ.\n\nČE UPORABLJATE SVOJO PRAVICO DO UGOVORA, BOMO PRENEHALI OBDELOVATI PODATKE, KI SE NANAŠAJO NA VAS, ZA NAMENE NEPOSREDNEGA TRŽENJA.",
+  "activityTitle": "dejavnost",
+  "activitiesTitle": "Moje dejavnosti",
+  "activitiesDescription": "Povežite odčitke števca z dejavnostmi, npr. umivanje z števci hladne vode in števci električne energije.",
+  "sortActivities": "Spremenite vrstni red dejavnosti",
+  "resetActivities": "Ponastavi vse dejavnosti",
+  "addActivity": "Dodajte dejavnost",
+  "activitySettings": "Nastavitve dejavnosti",
+  "activityOverview": "Pregled dejavnosti",
+  "activityNameLabel": "Ime dejavnosti",
+  "chooseActivity": "Izberite dejavnost",
+  "selectedActivity": "Izbrana dejavnost \"${activityName}\"",
+  "chooseActivityIcon": "Izberite ikono",
+  "involvedCounters": "Vključeni števci",
+  "detailsTitle": "Podrobnosti",
+  "detailWithMultiSelect": "Dovoli več izbir",
+  "addDetail": "Dodajte podrobnosti",
+  "editDetailTitle": "Uredi podrobnosti",
+  "activityWithEnergyConsumption": "Poraba energije se meri samo za aktivnost",
+  "consumptionIsNotExclusiveTitle": "Je poraba izključna?",
+  "consumptionIsNotExclusive": "Če poraba ni izključna za to dejavnost, bo prikazana kot opozorilo.",
+  "numberOfDetails": "{count, plural, one {1 podrobnost} other {{count} podrobnosti}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reallyDeleteActivity": "Ali res želite izbrisati to dejavnost?",
+  "reallyDeleteDetail": "Res želite izbrisati to podrobnost?",
+  "reallyDeleteContract": "Ali res želite izbrisati to pogodbo?",
+  "contractCopyDialogTitle": "Ali želite narediti kopijo te pogodbe?",
+  "contractCopyDialogOptionYes": "Da, cena na enoto ali druga vrednost se je spremenila.",
+  "contractCopyDialogOptionNo": "Ne, prekliči.",
+  "contractCopyDialogWhen": "Od kdaj velja nova cena?",
+  "contractCosts": "Cena na enoto",
+  "contractCostsFeedIn": "Cena plačila/osnovna cena",
+  "counterWarmWaterPlusColdWater": "Brez stroškov sveže vode in odpadne vode",
+  "advancePayment": "Predplačilo",
+  "bonus": "Bonus",
+  "bonusInfoTitle": "Informacije o bonus tarifah",
+  "bonusInfoText": "Tarife z bonusi pogosto omogočajo še posebej visoke prihranke pri menjavi ponudnika. Vendar je to običajno posledica izključno enkratnega bonusa. To pomeni: skupni stroški so tako nizki le v prvem letu dobave. Visoke cene dela in/ali osnovne cene zagotavljajo v drugem letu očitno višji izračun. Zato bi morali z bonus tarifami že od samega začetka načrtovati, da jih po enem letu znova spremenite. Posebej kritično je treba vprašati bonusne tarife z rokom trajanja dveh let, kjer ta odpoved sploh ni mogoča.",
+  "source": "Vir:",
+  "basePrice": "Osnovna cena",
+  "gross": "bruto",
+  "net": "net",
+  "grossNetPrices": "Bruto ali neto cena",
+  "taxRate": "Davčna stopnja",
+  "perUnit": "na {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "wasteWaterPriceEnabled": "Stroški sveže vode in odpadne vode so prikazani ločeno (pomembno za odbitne števce)",
+  "pricePerUnit": "Cena na enoto",
+  "pricePerUnitFeedIn": "Cena plačila",
+  "pricePerUnitWaterWarm": "Stroški ogrevanja sanitarne vode",
+  "pricePerUnitWaterCold": "Stroški hladne vode",
+  "pricePerUnitFreshWater": "Stroški sveže vode",
+  "pricePerUnitWasteWater": "Cena odpadne vode",
+  "paidAdvancePayments": "Predplačila",
+  "supplementaryPayment": "Doplačilo",
+  "refund": "Povračilo",
+  "costs": "Stroški",
+  "contract": "Pogodba",
+  "contractDetails": "Trajanje pogodbe in podrobnosti",
+  "usedForPaymentsRepayments": "Predplačilo, osnovna cena in bonus",
+  "contractName": "Ime ponudnika/pogodbe",
+  "contractNumber": "Številka pogodbe",
+  "contractStart": "Datum začetka pogodbe",
+  "contractPeriod": "Pogodbeno obdobje",
+  "cancellationPeriod": "Odpovedni rok",
+  "activityWash": "Pranje",
+  "activityWashTemperature": "Temperatura",
+  "activityWashDuration": "Trajanje",
+  "activityWashDuration2hrs": "2 uri",
+  "activityWashRotations": "Rotacije",
+  "activityWashShort": "Kratek program",
+  "activityShower": "Tuš",
+  "activityBath": "Kopel",
+  "activityDishWasher": "Pomivalni stroj",
+  "activityIron": "Likanje",
+  "errorNoInternet": "Brez omrežja",
+  "errorInvalidRange": "Ni veljavnega obsega",
+  "syncDriveLoggedIn": "Vaši podatki se samodejno sinhronizirajo v več napravah. Uporablja se naslednji Google Račun:",
+  "syncDriveLoggedInNoAuto": "Vaši podatki se po spremembi samodejno naložijo v Google Drive. Novejši podatki iz oblaka samo prepišejo lokalne podatke, ko kliknete predmet. Uporablja se naslednji Google Račun:",
+  "syncDriveDataUsage": "Če dovolite dostop EHW+ do Google Drive, bo imela aplikacija dostop za branje in pisanje do datotek, ki jih je ustvarila sama. Na žalost datoteke, ki so jih ustvarili drugi prek te aplikacije, aplikaciji niso vidne, kar pomeni, da izmenjava podatkov med več računi prek Google Drive ni mogoča.",
+  "syncAutomaticTitle": "Lokalni podatki so lahko prepisani",
+  "syncShareWithOthersTitle": "Deliti z drugimi?",
+  "syncShareWithOthersSubtitle": "Če želite vnašati odčitke števcev skupaj z drugimi uporabniki Googla, mora EHW+ imeti popoln dostop do Google Drive.",
+  "syncShareWithOthersNotInWeb": "Dodeljevanje dostopa je trenutno možno le prek aplikacije.",
+  "syncWithGoogleDriveDescription": "Ker bi bilo škoda, če bi se odčitki števcev izgubili, zdaj sinhronizirajte svoje objekte z Google Drive!",
+  "driveSyncStatusTitle": "Stanje sinhronizacije",
+  "driveSyncStatusNotSynced": "Ni sinhronizirano",
+  "driveSyncStatusFailed": "Sinhronizacija ni uspela",
+  "driveSyncStatusComparing": "Primerjava z datoteko na strežniku",
+  "driveSyncStatusSyncing": "Sinhronizacija v teku",
+  "driveSyncStatusLocalHasLatestNoCloud": "Datoteka, shranjena v tej napravi iz {localDate}, ni shranjena v oblaku",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusLocalHasLatestWithCloud": "Datoteka, shranjena v tej napravi iz {localDate}, je posodobljenejša od datoteke v oblaku iz {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      },
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestNoLocal": "Datoteka v oblaku iz {cloudDate} ni shranjena v tej napravi",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestWithLocal": "Datoteka v oblaku iz {cloudDate} je bolj posodobljena kot lokalna datoteka iz {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusUpToDate": "Posodobljeno od {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncWithGoogle": "Google Drive Sync",
+  "driveSyncNow": "Sinhroniziraj zdaj",
+  "driveSignInWithGoogle": "Prijavite se z Googlom",
+  "signInWithGoogle": "Prijavite se z Googlom",
+  "signInWithApple": "Prijavite se z Appleom",
+  "signInWithGithub": "Prijavite se z GitHub",
+  "signInWithSocialAccount": "Kateri družabni račun želite uporabiti za ustvarjanje ali prijavo v svoj račun EHW+?",
+  "syncStatusFailedLong": "Sinhronizacija ni uspela, urejanje je na lastno odgovornost",
+  "syncStatusFailedLongNoAutoSync": "Sinhronizacija ni uspela, urejanje je na lastno odgovornost",
+  "syncStatusSyncRemoteHasLatest": "Datoteka v oblaku je bolj posodobljena kot lokalna datoteka",
+  "syncObjectIsLocked": "Podatki o predmetu se posodabljajo in jih v tem času ni mogoče urejati.",
+  "importExport": "Varnostno kopiranje/obnovitev",
+  "import": "Uvozi",
+  "importPickFile": "Izberite datoteko",
+  "importSelectSingleCounter": "Enotni števec (datoteka CSV)",
+  "importSelectJson": "Datoteka JSON (ustvarjena s {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "importWhichCounterForCsv": "Kateri števec je treba uporabiti?",
+  "importNewOrExistingCounter": "Dodaj na nov ali obstoječi števec?",
+  "importConfirm": "Potrdite uvoz",
+  "importTheObject": "Uvoz predmeta",
+  "importExplanation": "Ste že opravili odčitke števca in jih želite vstaviti?",
+  "importCounterAsCsv": "Ali želite uvoziti en števec? Na števec je podprta datoteka CSV z dvema stolpcema, enim za čas in enim za odčitek števca.\n\nPrimer podatkov:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importSuccessful": "Uvoz uspešen",
+  "importNotPossible": "Uvoz ni mogoč",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Ena vrstica je bila prezrta: {lines}} other {Vrstice {count} so bile prezrte: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Uporabljena sta bila samo prva dva stolpca. Tretji stolpec je bil prezrt.} other {Uporabljena sta bila samo prva dva stolpca, stolpci {columns} so bili prezrti.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "consentTitle": "Nastavitve zasebnosti",
+  "privacyTitle": "Politika zasebnosti",
+  "imprintTitle": "Odtis",
+  "faqTitle": "pogosta vprašanja",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialTwitter": "X",
+  "export": "Izvozi",
+  "exportExplanation": "Kateri obstoječi predmet želite izvoziti, na primer za prenos v novo napravo?",
+  "exportWhere": "V kateri obliki naj se predmet izvozi?",
+  "exportWhichValuesShouldBeExported": "Katere vrednosti je treba izvoziti?",
+  "exportOptionExcel": "datoteka Excel",
+  "exportOptionPdf": "PDF datoteka",
+  "exportOptionFileDescription": "Objekt je v skupni rabi kot datoteka {fileType}",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "socialLinkedIn": "LinkedIn",
+  "socialYouTube": "YouTube",
+  "socialEmail": "E-pošta",
+  "social": "Družbeni mediji",
+  "support": "Podpora/povratne informacije",
+  "supportQuestion": "Postavite vprašanje",
+  "supportQuestionBox": "Kako ti lahko pomagam?",
+  "supportQuestionNotFound": "Vaše vprašanje ni bilo odgovorjeno? Z veseljem vam bom pomagal.",
+  "supportQuestionLong": "kako deluje Je to sploh mogoče? Tukaj so odgovori.",
+  "supportReportBug": "Prijavite napako po pošti",
+  "supportReportBugTextIs": "Na kratko opišite trenutno nepravilno vedenje, torej samo napako.",
+  "supportReportBugTextShould": "Prosimo, da na kratko opišete želeno vedenje, torej kako naj bi dejansko bilo.",
+  "supportReportBugAffectedPages": "Na katerih straneh se pojavi napaka? (če je primerno)",
+  "supportReportBugScreenshotsPlease": "Pošti priložite posnetek zaslona, ​​po možnosti z oznako napake.",
+  "supportBug": "Napaka",
+  "supportReportBugLong": "Odlična aplikacija! Seveda pa gre lahko kaj narobe. Če prijavite napake, izboljšate aplikacijo.",
+  "supportGivePraise": "Pohvalite",
+  "supportGivePraiseLong": "Vam je aplikacija všeč? Hvala! Razširite besedo!",
+  "supportGivePraiseRecommendation": "Priporočite aplikacijo prijateljem in družini. Hvala za vsako priporočilo!",
+  "supportRecommend": "Za spremljanje porabe energije in s tem povezanih stroškov uporabljam aplikacijo za odčitavanje števcev EHW+. Mogoče bi bilo to nekaj tudi za vas?\n\nVeč informacij na https://www.ehwplus.com",
+  "supportGivePraiseRating": "Ocenite aplikacijo v {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "electricityConsumption": "Poraba energije",
+  "waterExtractionMinimumLevelLower": "Odbitek se izvede, ker je poraba nižja od praga.",
+  "outdatedCounters": "Števci niso več v uporabi",
+  "isOutdatedCounter": "Števec se ne uporablja več",
+  "waterConsumption": "Poraba vode",
+  "rooms": "Sobe",
+  "messageNoRooms": "Ni še sob. Sobe pomagajo skupinskim števcem.",
+  "settingObjectType": "Vrsta predmeta",
+  "settingObjectTypeFlat": "Apartma",
+  "settingObjectTypeHouse": "Hiša",
+  "settingLivingArea": "Bivalni prostor",
+  "unitSquareMeters": "kvadratnih metrov",
+  "unitMWhShort": "MWh",
+  "unitMWhLong": "{count, plural, one {Megavatna ura (MWh)} other {Megavatne ure (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitKWhShort": "kWh",
+  "unitKWhLong": "{count, plural, one {Kilovatna ura (kWh)} other {Kilovatne ure (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitGJShort": "GJ",
+  "unitGJLong": "{count, plural, one {gigadžul (GJ)} other {Gigadžuli (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitLitersShort": "ℓ",
+  "unitLitersLong": "{count, plural, one {liter (l)} other {liter (l)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCmShort": "cm",
+  "unitCmLong": "cm",
+  "unitSquareMetersShort": "m²",
+  "unitSquareMetersLong": "{count, plural, one {Kvadratni meter (m²)} other {Kvadratni metri (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCubicMetersShort": "m³",
+  "unitCubicMetersLong": "{count, plural, one {Kubični meter (m³)} other {Kubični metri (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitPercentShort": "%",
+  "unitPercentLong": "Odstotek (%)",
+  "unitKgShort": "kg",
+  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogrami (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitHoursShort": "h",
+  "unitHoursLong": "{count, plural, one {ura} other {ure (h)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitNoneFormatted": "{count, plural, one {enota} other {enote}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitMegaByteShort": "MB",
+  "unitMegaByteLong": "MB",
+  "unitGigaByteShort": "GB",
+  "unitGigaByteLong": "GB",
+  "settingHouseholdSize": "Velikost gospodinjstva",
+  "settingHouseholdSizeDescription": "Število ljudi v vašem gospodinjstvu.",
+  "settingWaterHeater": "Grelnik vode",
+  "settingEAuto": "Električni avto",
+  "settingObjectLocation": "Lokacija",
+  "settingObjectLocationTitle": "Kje se nahaja vaš objekt?",
+  "settingObjectLocationExplanation": "Vnos lokacije pomaga prilagoditi vpoglede in storitve vašemu območju.",
+  "counterBackgroundImageOfObject": "Slika ozadja za predmet",
+  "manageMoreThanOneObjectStep1": "Upravljanje več kot enega predmeta – 1. korak",
+  "manageMoreThanOneObjectStep2": "Upravljanje več kot enega predmeta – 2. korak",
+  "contracts": "pogodbe",
+  "messageNoContracts": "Pogodb še ni.",
+  "outdatedContracts": "Zastarele pogodbe",
+  "contractType": "Vrsta pogodbe",
+  "electricity": "Elektrika",
+  "electricityBack": "Napajana elektrika",
+  "electricityGenerated": "Proizvedena električna energija",
+  "heatPump": "Toplotna črpalka",
+  "coldWater": "Hladna voda",
+  "counterHeater": "Merilnik radiatorjev",
+  "counterDistrictHeating": "Daljinsko ogrevanje",
+  "counterOilHeating": "Ogrevanje na olje",
+  "counterGas": "Plinomer",
+  "counterColdWater": "Merilnik hladne vode",
+  "counterWaterExtraction": "Merilnik vode (vrt)",
+  "counterWaterExtractionExplanation": "Z odbitnim števcem se lahko zmanjšajo stroški odpadne vode. S tem nakupom v aplikaciji lahko določite različne stroške za svežo vodo in odpadno vodo, odčitek števca z odbitka pa bo upoštevan pri stroških vode.",
+  "warmWater": "Topla voda",
+  "counterWarmWater": "Merilnik tople vode",
+  "counterElectricity": "Števec električne energije",
+  "counterElectricityBack": "Števec električne energije (PV)",
+  "counterElectricityGenerated": "Števec električne energije",
+  "counterPvFeedInCounter": "Obnovljivi viri energije (sončna energija in toplota s PV/sončnimi sistemi)",
+  "counterPvFeedInCounterExplanation": "Za beleženje proizvedene in dovedene električne energije uporabite števec električne energije\ns fotovoltaičnim sistemom. Nastali prihodki se izravnajo s stroški\nporabljena elektrika.",
+  "virtualCounter": "Virtualni merilnik",
+  "heater": "Radiator",
+  "gas": "Plin",
+  "oil": "Olje",
+  "stove": "Štedilnik",
+  "networkCounter": "Internet in telefon",
+  "solarThermalCollector": "Solarni termalni kolektor",
+  "contractTypeElectricityProvider": "Ponudnik električne energije",
+  "contractTypeWaterFees": "Pristojbine za vodo",
+  "contractTypeHeatingFees": "Pristojbine za ogrevanje",
+  "contractTypeOilProvider": "Ponudnik nafte",
+  "contractTypeGasProvider": "Ponudnik plina",
+  "contractTypeStove": "Štedilnik",
+  "contractTypeNetwork": "Internet in telefon",
+  "currency": "Valuta",
+  "costsUndefinedFor": "Stroški neopredeljeni",
+  "exportOptionReadingsTitle": "Branje vrednosti",
+  "exportOptionReadingsSubtitle": "Običajno odčitki števca ali poraba z neenakomernimi intervali.",
+  "exportOptionConsumptionsTitle": "Dnevna poraba",
+  "exportOptionConsumptionsSubtitle": "Vrednost porabe za vsak dan od prvega odčitka.",
+  "settings": "nastavitve",
+  "roomOther": "drugo",
+  "previouslyDeletedCounters": "Nedavno izbrisani števci",
+  "restoreDeletedCounter": "Ali želite obnoviti ta izbrisani števec?",
+  "localWriteTitle": "Shranite v lokalno mapo za prenos",
+  "localWriteSubtitle": "Ali naj se predmeti in fotografije ob vsaki spremembi shranijo v lokalno mapo \"{folder}\"?",
+  "settingUiMode": "Uporabniški vmesnik",
+  "settingUiColorPalette": "Barvna paleta",
+  "settingUiModeDarkOrLight": "Temno/svetlo uporabniški vmesnik",
+  "settingLanguageMode": "Jezik",
+  "settingUiModeOsDefault": "Sistem",
+  "settingUiModeLight": "Svetloba",
+  "settingUiModeDark": "Temno",
+  "appBarExpandedMode": "Vrstica aplikacij s sliko ozadja",
+  "useDismissibleSettings": "Izbriši s potezo",
+  "useDismissibleSettingsDetailed": "Števce, pogodbe itd. lahko izbrišete s stranskim potegom",
+  "settingsExternalServices": "Zunanje storitve",
+  "settingsShowTabNewsDetailed": "Ali naj bo zavihek Novice/Namigi viden?",
+  "settingsShowStromGedacht": "Ali naj bodo prikazani nasveti podjetja StromGedacht o električnem omrežju?",
+  "lineChartAppearanceSettings": "Videz črtnih grafikonov",
+  "lineChartAppearanceSettingsShowSpots": "Pokažite (krožne) lise na črtah grafikonov",
+  "supportMakeSuggestion": "Predlagaj nekaj",
+  "supportMakeSuggestionLong": "Aplikacija živi od predlogov uporabnikov. Imate kakšen predlog?",
+  "featureVoting": "Glasovanje o funkciji",
+  "featureVotingOnlyOnGerman": "Anketa o funkciji ni prevedena v druge jezike.",
+  "notifications": "Obvestila",
+  "notificationsEmpty": "Brez obvestil",
+  "notificationsSmartMeterAlertFallback": "Imate novo opozorilo pametnega števca.",
+  "readingNew": "Novo branje",
+  "readingUpdate": "Posodobite branje",
+  "readingPrefill": "Samodejno polnjenje števca",
+  "readingPrefillDisabled": "Samodejno izpolnjevanje onemogočeno",
+  "readingPrefillEnableForAllCounters": "Omogoči samodejno izpolnjevanje za vse števce",
+  "readingPrefillDisableForAllCounters": "Onemogoči samodejno izpolnjevanje za vse števce",
+  "readingPrefillDescription": "Odčitki merilnika pred polnjenjem na podlagi prejšnjih vnosov",
+  "readingPrefillDisabledToast": "Samodejno izpolnjevanje onemogočeno",
+  "readingSubmitted": "Predan odčitek števca",
+  "readingDeleteConfirm": "Želite izbrisati branje?",
+  "reminderTime": "Čas opomnika",
+  "reminderWeekdayExplanation": "Obstaja opomnik, da je treba branje opraviti največ enkrat na dan.",
+  "reminderWeekdayExplanationSeasonal": "Pri števcih s sezonsko porabo se opomniki pošiljajo samo v mesecih s porabo (deluje le, če so podane vrednosti zadnjega leta).",
+  "readingReminder": "{count, plural, one {Opomnik za branje} other {Branje opomnikov}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "readingReminders": "Branje opomnikov",
+  "readingReminderDisabled": "Opomnik za branje ni aktiven",
+  "readingRemindersChannel": "Branje opomnikov",
+  "readingReminderSingleBody": "Zdaj preberite vrednost {counterName}",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "readingReminderMultiBody": "{count, plural, one {Zdaj preberite odčitke merilnika {count}} other {Zdaj preberite odčitke merilnikov {count}}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contractReminder": "Opomnik za pogodbo",
+  "outdated": "Zastarelo",
+  "counterNew": "Nov števec",
+  "counterEdit": "Uredi števec",
+  "counterGasConversionFactor": "Faktor pretvorbe",
+  "counterGasCalorificValue": "Kalorična vrednost",
+  "counterGasConversionFactorHelpText": "Ca 1,0. Številka pogoja se uporablja za pretvorbo delovne prostornine v standardno prostornino. Pogoj delovanja je stanje plina na števcu in je odvisen od prisotnega tlaka (nadmorske višine) in temperature.",
+  "counterGasCalorificValueHelpText": "Kurilnost: Brezdimenzijski faktor za pretvorbo izmerjene prostornine plina v energijo. Zemeljski plin: običajno med 9,0 in 12,5 kWh/m³, LPG: med 23,0 in 33,0 kWh/m³",
+  "counterTypeLabel": "Vrsta števca",
+  "counterMeterId": "ID števca",
+  "counterName": "Ime števca",
+  "counterContractCurrentlyUsed": "Trenutno uporabljena pogodba",
+  "counterSelected": "Izbrano",
+  "counterNoContractSelected": "Izbrana ni nobena pogodba",
+  "counterOtherContracts": "Druge pogodbe",
+  "counterExcludedContracts": "Izključene pogodbe",
+  "counterInclude": "Vključi",
+  "counterExclude": "Izključi",
+  "counterTankCapacity": "Kapaciteta rezervoarja",
+  "counterTankFillHeight": "Višina polnila",
+  "counterFactorDescription": "Ali se vam poraba dodeli samo sorazmerno? Vnesite razmerje kot vrednost med 0,1 (10 %) in 1,0 (100 %).",
+  "counterTransducerFactor": "Transformatorsko razmerje",
+  "counterProportionateConsumption": "Sorazmerna poraba",
+  "counterFactor": "Faktor",
+  "counterTransducerFactorExplained": "Če se napetostni transformator uporablja za zniževanje napetosti, preden ta doseže števec, je treba uporabiti nov pretvorbeni faktor, da dobimo pravilne odčitke. Primer: števec prikazuje 100.000 kWh s pretvorbenim faktorjem 20. Pravilen odčitek je: 100.000 kWh x 20 = 2.000.000 kWh.",
+  "counterFractionDigits": "Številke ulomkov",
+  "counterDirection": "Smer",
+  "counterDirectionExplanation": "Ali se vrednost zmanjšuje z uporabo (indikator nivoja itd.) ali se vrednost povečuje z uporabo (ure gorilnika, števec olja itd.) ali pa je vsaka odčitana vrednost neodvisna (poraba/donos)?",
+  "counterConsiderForTotalElectricity": "Upoštevajte skupno porabo električne energije",
+  "counterConsiderForTotalWater": "Upoštevajte skupno porabo vode",
+  "counterWaterExtractionMinimumLevel": "Najnižja raven",
+  "counterBackgroundImage": "Slika ozadja za števec",
+  "counterShowReadingsChart": "Prikaži grafikon odčitkov",
+  "counterShowHeatmap": "Prikaži toplotni zemljevid",
+  "counterShowPreliminaryCurve": "Prikaži predhodno krivuljo",
+  "seasonalCounter": "Sezonski števec",
+  "seasonalElectricityCounter": "Sezonski števec električne energije",
+  "counterExplainSeasonal": "Poleti nastaviti števce na 0? Pozimi bodo odčitki sledili vašemu običajnemu vzorcu porabe; poleti bodo ostali ravni.",
+  "counterIsOutdated": "Števec je zastarel",
+  "counterLinkMoreRecent": "Povežite novejši števec",
+  "counterReplacedBy": "Zamenjal ga je",
+  "counterReallyDeleteLink": "Izbrisati povezavo?",
+  "counterDeleteConfirm": "Izbrisati števec?",
+  "counterGasCalorificValueLabel": "Kalorična vrednost*",
+  "counterGasConversionFactorLabel": "Pretvorbeni faktor*",
+  "counterNoRoomConnection": "Ni sobne povezave",
+  "counterRoom": "soba",
+  "counterMessageRoomOptional": "Dodelitev sobe pomaga pri združevanju, vendar ni obvezna.",
+  "teaserPurchaseVirtualCounter": "Dodajte virtualne števce z Premium.",
+  "teaserPurchaseWaterExtractionCounter": "Odklenite števce črpanja vode z Premium.",
+  "teaserPurchaseRenewableEnergies": "Števci obnovljive energije zahtevajo Premium.",
+  "settingYearlyReset": "Letna ponastavitev",
+  "settingYearlyResetOn": "na",
+  "settingShowCounterReadingsChart": "Prikaži grafikon odčitkov",
+  "settingShowHeatmap": "Prikaži toplotni zemljevid",
+  "settingShowPreliminaryCurve": "Prikaži predhodno krivuljo",
+  "unitLiters": "litrov",
+  "unitCm": "cm",
+  "unitNone": "nič",
+  "roomType": "Tip sobe",
+  "roomName": "Ime sobe",
+  "roomNameHint": "Po želji dodelite ime sobe",
+  "roomNew": "Nova soba",
+  "roomDeleteConfirm": "Želite izbrisati sobo?",
+  "settingColor": "barva",
+  "counterNum": "Števci {count}",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeInFuture": "V prihodnosti",
+  "timeLastUpdated": "nazadnje posodobljeno",
+  "timeSeconds": "sek",
+  "timeMinutes": "minut",
+  "timeHours": "ure",
+  "timeDays": "dni",
+  "timeDaysWithin": "dni",
+  "timeMonth": "mesec",
+  "timeMonths": "mesecih",
+  "timeMonthsWithin": "mesecih",
+  "timeJustNow": "ravno zdaj",
+  "timeMinutesAgo": "PHTOKEN pred 0 minutami",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "PHTOKEN pred 0 urami",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeToday": "danes",
+  "timeDayAgo": "en dan nazaj",
+  "timeDaysAgo": "PHTOKEN pred 0 dnevi",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timeMonthsAgo": "PHTOKEN pred 0 meseci",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "timeForFirstYear": "za prvo leto",
+  "timeWeek": "teden",
+  "timeWeeks": "tedne",
+  "timeWithin": "Znotraj {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "timeYesterday": "včeraj",
+  "timeMonday": "ponedeljek",
+  "timeTuesday": "torek",
+  "timeWednesday": "sreda",
+  "timeThursday": "četrtek",
+  "timeFriday": "Petek",
+  "timeSaturday": "sobota",
+  "timeSunday": "nedelja",
+  "timeFromUndefined": "Nedefinirano",
+  "timeUntilUnlimited": "Neomejeno",
+  "timeUntilDate": "Do {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeFromDate": "Od {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReminderAtStart": "Na začetku",
+  "timeReminderAtEnd": "Na koncu",
+  "timePeriodYearStart": "letno",
+  "timeRightNow": "Takoj zdaj",
+  "timeBefore": "prej",
+  "purchasesUpgrade": "Nadgradnja",
+  "upgradeDescription": "Aplikacija zmore več. Boljši pregled nad stroški, več statistike, Excel izvoz, več števcev, ...",
+  "purchasesWhyBuyTitle": "Zakaj bi moral nekaj kupiti?",
+  "purchasesWhyBuyText": "Z nakupom sodelujete pri stroških, ki jih imam z objavo aplikacije in podpirate nadaljnji razvoj.",
+  "purchasesIOSRestorePurchases": "Obnovi nakupe",
+  "purchasesIOSRestorePurchasesDescription": "Če ste v preteklosti že kaj kupili v AppStore, lahko nakupe obnovite.",
+  "purchasesDisabledOnIOS": "Nakupi v aplikaciji onemogočeni",
+  "purchasesDisabledOnIOSDescription": "Preverite, ali so nakupi v aplikaciji onemogočeni na vašem iPhoneu (Nastavitve > Čas zaslona > Omejitve > Namestitve in nakupi aplikacij > Dovoli nakupe v aplikaciji)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Aplikacija je bila nameščena prek Testflight. Upoštevajte, da nakupi v aplikaciji delujejo le, če aplikacijo namestite prek App Store.",
+  "purchasesSubscribePremium": "Naročite se na Premium",
+  "purchasesSubscribePremiumTextLong": "Dostop do vseh plačljivih funkcij v obdobju naročnine + zunanje temperature",
+  "purchasesWebLegalNote": "Zaradi pravnih razlogov je nakup možen le za telefon iPhone ali Android s storitvami PlayStore.",
+  "purchasesYourPurchases": "Imate dostop do naslednjih premium paketov:",
+  "purchasesExtensionsTitle": "Enojni podaljški",
+  "purchasesExtensionsSubtitle": "Kupite enkrat, uporabite trajno (brez naročnine)",
+  "purchasesExtensionStatisticsTitle": "Napredna statistika",
+  "purchasesExtensionMultipleObjectsTitlePart": "Upravljanje več predmetov",
+  "purchasesExtensionMultipleObjectsDescription": "Vnesite števce za poljubno število stanovanj/hiš/objektov (namesto samo za en objekt)",
+  "purchasesExtensionsInWork": "Načrtovane so nadaljnje razširitve. Sodelujte v anketi o funkciji in povejte svoje mnenje.",
+  "purchasesSubscribeNow": "Naročite se zdaj",
+  "purchasesBuyNow": "Kupi zdaj",
+  "purchasesRedeemCode": "Unovči kodo",
+  "purchasesEarlyBirdSubscription": "Opomba: če je ta naročnina prve stranke preklicana, se nanjo pozneje ne bo več mogoče več naročiti.",
+  "purchasesPurchasedIncludedInPremium": "Vključeno v Premium",
+  "purchasesPurchasedSubscribed": "Naročen",
+  "purchasesPurchased": "Kupljeno",
+  "purchasesExtensionStatisticsDescription": "Dostop do letne/mesečne/tedenske porabe elektrike/plina/vode/... + periodične prilagoditve + podroben pregled stroškov + izvoz v Excel",
+  "commonAnd": "in",
+  "purchasesSubscribePremiumMonthly": "Mesečna preklicna naročnina za samo 0 PHTOKEN na mesec",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Mesečna preklicna naročnina po ceni zvestobe {price} na mesec namesto {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearly": "Letna naročnina z možnostjo preklica za samo 0 PHTOKEN na leto",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Letna preklicna naročnina po ceni zvestobe {price} na leto namesto {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesStatisticsWithPremium": "Z Premium dobite dostop do mesečne primerjave{count, plural, =0{.}=1{.}other{ in si ogledate tudi zgodovinske podatke za {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "years": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterProviderUndefined": "Ni nastavljeno",
+  "sync": "Sinhronizacija",
+  "costsUndefinedForType": "{type} za nedefinirano",
+  "costsUndefinedElectricity": "Pristojbine za elektriko",
+  "costsUndefinedColdWater": "Pristojbine za hladno vodo",
+  "costsUndefinedWarmWater": "Pristojbine za toplo vodo",
+  "costsUndefinedHeater": "Pristojbine za grelec",
+  "costsUndefinedOilHeating": "Pristojbine za olje",
+  "costsUndefinedGas": "Pristojbine za plin",
+  "costsUndefinedNetworkCounter": "Internetni stroški",
+  "updateAvailable": "Različica aplikacije {oldVersion} ni posodobljena. Lahko posodobite na različico {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "oldVersion": {
+        "type": "String"
+      },
+      "newVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "versionIsUpToDate": "Najnovejša različica aplikacije, izdana za vse uporabnike, je {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "messageNoCounters": "Niste še ustvarili števca.",
+  "messageNoCounterReadings": "Niste še vnesli odčitka števca.",
+  "parsingObjectError": "Objekta ni mogoče razčleniti. Obrnite se na razvijalca. Pri odstranitvi aplikacije se lahko podatki izgubijo.",
+  "reallyDeleteCounter": "Ali ste prepričani, da želite izbrisati števec?",
+  "reallyDeletePhoto": "Ali ste prepričani, da želite izbrisati sliko števca?",
+  "reallyDeleteCounterLink": "Ali ste prepričani, da želite izbrisati povezavo med števci?",
+  "virtualCounterNotConfigured": "Preverite nastavitve vašega virtualnega števca. Nič se ne da izračunati.",
+  "virtualCounterMasterCounter": "Glavni meter",
+  "virtualCounterMasterCounterAttach": "Izberite glavni merilnik",
+  "virtualCounterMasterCounterDescription": "Informacije: Glavni števec je osnova za izračun virtualnega števca, npr. glavnega števca električne energije ali glavnega vodomera.",
+  "virtualCounterMetersToBeSubtracted": "Metri, ki jih je treba odšteti",
+  "virtualCounterMetersToBeSubtractedDescription": "Kateri odčitki števca je treba odšteti od glavnega števca, npr. \"števci toplotne črpalke\", \"števci dovoda električne energije\".",
+  "virtualCounterMetersToBeAdded": "Števci, ki jih je treba dodati",
+  "virtualCounterMetersToBeAddedDescription": "Kateri odčitki števca naj se dodajo glavnemu števcu, npr. števci električne energije.",
+  "areYouSure": "Ste prepričani?",
+  "addNewValue": "Vnesite novo vrednost",
+  "reallyDeleteValue": "Ali res želite izbrisati to vrednost?",
+  "warning": "Opozorilo",
+  "messageNotEnoughData": "Ni dovolj podatkov za prikaz grafikona",
+  "messageNoConsumptions": "Tukaj se prikaže statistika za vse števce določene vrste, če je bilo opravljenih dovolj odčitkov. Na primer, dva števca za hladno vodo, dva števca za toplo vodo in en vodni števec so prikazani v eni vodni statistiki.",
+  "lastReading": "zadnje branje",
+  "chartDottedLinesNonSeasonal": "Črtkane krivulje predstavljajo prejšnje obdobje. Pri izbiri »Zadnjih 14 dni« se na primer prikaže zadnjih 28 dni, pri čemer je starejših 14 prikazanih črtkanih.",
+  "chartDottedLinesSeasonal": "Črtkane krivulje predstavljajo prejšnje obdobje. Pri izbiri »Zadnjih 14 dni« se na primer prikaže zadnjih 28 dni, pri čemer je starejših 14 prikazanih črtkanih.",
+  "chartHorizontalLines": "Črtkane črte so namenjene podajanju povratnih informacij o vaši lastni porabi.",
+  "chartHorizontalLineWater": "V povprečju vsak Nemec v gospodinjstvu vsak dan porabi 127 litrov pitne vode. Modra črta predstavlja hladno vodo (60 %), rdeča črta toplo vodo (40 %), ekstrapolirano na število dni v obdobju in število ljudi.",
+  "chartHorizontalLineElectricityGas": "Zelena črta pomeni zelo dobro porabo, rumena črta dobro porabo, rdeča črta nemško povprečno porabo.",
+  "per": "per",
+  "costSummary": "Povzetek stroškov",
+  "costSummaryYield": "Cena plačila/osnovna cena",
+  "soFar": "doslej",
+  "forX": "za",
+  "corresponds": "ustreza",
+  "warningCounterReplacementDetected": "Nova vrednost je nižja od prejšnje vrednosti števca. Ali je bil števec zamenjan?",
+  "warningYearlyReset": "Nič branja v začetku leta",
+  "warningReadingSmallerThanOldValue2": "Nova vrednost je nižja od prejšnje vrednosti števca. Ali je bil odčitek pravilno?",
+  "warningReadingBiggerThanOldValueOilVolume": "Nova vrednost je višja od prejšnje vrednosti števca. Ste ponovno napolnili rezervoar?",
+  "warningReadingSeemsTooBig": "Nova vrednost je precej visoka. Ali je bil odčitek pravilno?",
+  "warningReadingSeemsTooSmall": "Nova vrednost je precej nizka. Je bilo prebrano pravilno?",
+  "meterReadingsFilterAll": "Prikaži vse",
+  "meterReadingsFilterComments": "Pokaži samo vnose s komentarji",
+  "meterReadingsFilterSubmitted": "Prikaži samo \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "isLastEntryAtFilteredList": "Najstarejša vrednost na filtriranem seznamu",
+  "initialReading": "Začetno branje",
+  "warningReadingBiggerThanOldValue": "Nova vrednost je višja od prejšnjega odčitka števca.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedForYearlyResetCounter": "Končni odčitek števca za leto {lastYear} za {deviceTypeName} {roomNamePart} manjka. To je potrebno za pravilen izračun skupne letne porabe.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "lastYear": {
+        "type": "String"
+      },
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedFrequency": "Zadnji odčitek števca za {deviceTypeName} {roomNamePart}je zastarel {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "valueLess": "{value} manj",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "valueMore": "{value} več",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonNotEnoughData": "Še ni dovolj primerjalnih podatkov za spletno mesto {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      },
+      "countryCode": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonEqual": "Plačate približno toliko kot povprečje v {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonDiff": "Plačate {diffWithCurrency} {comparison, select, more {more than} manj {less than} other {more than}} povprečje v {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "diffWithCurrency": {
+        "type": "String"
+      },
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNamePart": "v {roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "warningOutdatedSinceText": "od {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "warningNextReminderText": "Naslednji opomnik je {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "counterConsiderForTotalConsumptions": "Upoštevajte skupno porabo"
+}

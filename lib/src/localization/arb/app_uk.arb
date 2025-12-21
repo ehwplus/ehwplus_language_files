@@ -1,0 +1,1708 @@
+{
+  "@@locale": "uk",
+  "appDescriptionShort": "Добре для гаманця, добре для клімату",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
+  "appDescriptionLong": "<p>Ласкаво просимо до <b>EHW+</b>, вашої програми для зчитування лічильників для <b>E</b>електрики, <b>H</b>їсти та <b>W</b>ater. З нами ви можете легко відстежувати<b> <b>0скільки ви використовуєте та скільки це коштує<b>1 <b>2коштує<b>3 безкоштовно.<b>4",
+  "contactTitle": "У особі:",
+  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Фірнгайм\n\nконтакт\n\nТелефон: 06204/7383382\nПошта: info@ehwplus.com",
+  "euDisputeResolution": "Вирішення суперечок ЄС\n\nЄвропейська комісія надає платформу для онлайн-розв’язання суперечок (OS): https://ec.europa.eu/consumers/odr/.\nВи можете знайти нашу електронну адресу у вихідних даних вище.\n\nВирішення споживчих спорів/універсальний орган вирішення спорів\n\nМи не бажаємо та не зобов’язані брати участь у розгляді спорів у арбітражній раді споживачів.",
+  "consent1Hello": "Привіт",
+  "consent2ThankYou": "Дякуємо за використання EHW+!",
+  "consent3Video": "Бажаєте переглянути коротке вступне відео?",
+  "consent4BeforeYouCanContinue": "Перш ніж ви зможете продовжити",
+  "consent5ErrorReportingTitle": "Звіти про помилки",
+  "consent6ContractPricesPerUnitTitle": "Ціни на електроенергію/воду/газ",
+  "consent7ContractPricesPerUnit": "Щоб можна було оцінити, скільки ви зараз платите порівняно з іншими користувачами EHW+, ціни передаються на сервер EHW+ у Німеччині разом із країною та землею. Тільки якщо ви погоджуєтеся на перенесення, ви отримуєте доступ до статистики цін. Для забезпечення анонімності статистичні дані можуть бути показані лише після мінімальної кількості переданих цін.",
+  "consent11AnalyticsTitle": "Дані аналізу",
+  "consent12Analytics": "Щоб оцінити успішність програми або окремих функцій, програма передає анонімну статистику використання. Дані не передаються третім особам. Дані використовуються для подальшого розвитку програми.",
+  "consent13StromGedachtTitle": "Повідомлення щодо стабільності мережі від StromGedacht",
+  "consent13StromGedacht": "StromGedacht, сервіс, який надає TransnetBW, надає інформацію про стабільність мережі та рекомендації щодо того, коли краще використовувати електроенергію. Оскільки енергетичний перехід стає все більш і більш складним для електромережі, домогосподарства Південно-Західної Німеччини беруть участь у цьому. Щоб отримати інформацію про ваше місцезнаходження, ваш поштовий індекс, якщо він введений тут у додатку, передається до TransnetBW StromGedacht API. Ніякі інші дані не передаються та не пов’язуються.",
+  "stromGedachtAgreement": "Я погоджуюся, що мій поштовий індекс (якщо він наданий) буде передано TransnetBW для отримання повідомлень StromGedacht.",
+  "priceSubmissionAgreement": "Я згоден на передачу цін на електроенергію/газ/воду за одиницю на сервер EHW+",
+  "googleAnalyticsAgreement": "Я погоджуюся на передачу анонімних даних про використання програми EHW+ Services GmbH.",
+  "continueAcceptPart1": "Користуючись програмою EHW+, ви погоджуєтесь із",
+  "continueAcceptPart2": ". Для отримання додаткової інформації про збір і використання анонімних і персональних даних, будь ласка, зверніться до",
+  "termsOfUsageTitleShort": "Умови використання",
+  "faqAboutDeveloperTitle": "Хто стоїть за EHW+?",
+  "faqAboutDeveloperBody1": "Дякуємо за інтерес до EHW+. EHW+ був випущений мною, Тімо Бером, у грудні 2020 року. Я розробник програм на повний робочий день і працюю над EHW+ у вільний час, щоб зробити внесок у захист навколишнього середовища. З травня 2022 року другий розробник наглядає за моєю роботою, Томас Гессе, будує бекенди для EHW+. З квітня 2023 року Джанін Сіннер обробляє численні відгуки клієнтів. З липня 2024 року приєднався Артем Южаков як розробник додатків.",
+  "faqAboutDeveloperBody2": "Понад 26% усіх викидів CO2 у Німеччині спричинені приватними домогосподарствами. Якщо кожен зможе хоч трохи зменшити споживання, то багато чого досягнемо. Щиро дякуємо за ваш внесок!",
+  "faqAboutDeveloperBody3": "Ми вітаємо пропозиції щодо покращення програми.",
+  "faqAboutDeveloperBody4": "Проте я прошу вас зрозуміти, що я не можу реалізувати всі пропозиції, а для нових функцій потрібен час.",
+  "commonCollapse": "Згорнути",
+  "commonMore": "більше",
+  "commonSave": "зберегти",
+  "commonChange": "Зміна",
+  "commonContinue": "Продовжити",
+  "commonBack": "Назад",
+  "commonOk": "добре",
+  "commonCancel": "Скасувати",
+  "commonClose": "Закрити",
+  "commonOpen": "ВІДЧИНЕНО",
+  "commonSend": "Надіслати",
+  "commonDelete": "Видалити",
+  "commonYes": "так",
+  "commonNo": "немає",
+  "commonLoadingData": "Завантаження даних",
+  "commonDay": "день",
+  "commonMonth": "місяць",
+  "commonYear": "рік",
+  "commonShare": "Поділіться",
+  "commonCopiedToClipboard": "Скопійовано в буфер обміну",
+  "commonLearnMore": "Дізнайтесь більше",
+  "commonMinimum": "Найнижче добове значення",
+  "commonMaximum": "Найвище добове значення",
+  "heatmapLegendTitle": "Детальніше про теплову карту",
+  "heatmapLegendDisclaimer": "Інформація: затінені поля містять приблизну вартість. Щоб прочитати фактичне споживання/виробництво, будь ласка, заповніть відсутні показання лічильника, якщо можливо.",
+  "consumptionHeatmap": "Теплова карта споживання",
+  "consumptionHeatmapYield": "Теплова карта врожайності",
+  "consumption": "Споживання",
+  "consumptionYield": "Врожайність",
+  "showAllYears": "Показати всі роки",
+  "appNameShort": "EHW+",
+  "appName": "EHW+ | Споживання та показання лічильників",
+  "tabCounters": "Метри",
+  "tabStatistics": "Статистика",
+  "tabObject": "Об'єкт",
+  "tabNews": "Поради/Новини",
+  "ofRangeLastDays": "за останні {days} днів",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeLastMonths": "за останні {months} місяців",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeFrom": "від {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "readingTime": "Час читання",
+  "reading": "Лічилка читання",
+  "last2Weeks": "Останні 14 днів",
+  "last12Weeks": "Останні 12 тижнів",
+  "last12Months": "Останні 12 місяців",
+  "sinceInitialReading": "З моменту першого читання",
+  "lastYear": "Минулого року",
+  "periodCustom": "Визначено користувачем",
+  "counterReadings": "Хрестоматія",
+  "comment": "Боте",
+  "enterComment": "Введіть примітку",
+  "enterExistingReadingAgain": "Повторно введіть старе читання",
+  "meterId": "Ідентифікатор лічильника",
+  "meterReadingSubmitted": "Передано провайдеру",
+  "newReading": "Введіть поточне показання",
+  "newReadingShort": "Нове читання",
+  "readingWithFactor": "Лічилка з множником",
+  "csvImportWithFactor": "Чи потрібно показники лічильника множити на коефіцієнт не рівний 1,0? Наприклад, щоб перевести значення з Вт-год у кВт-год, їх потрібно помножити на 0,001.",
+  "newPhoto": "Зробіть нове фото",
+  "existingPhoto": "Додайте наявне фото",
+  "newPhotoOfMeterReading": "Хочете сфотографувати показання лічильника?",
+  "existingPhotoOfMeterReading": "Бажаєте прикріпити наявне фото показання лічильника?",
+  "numCounters": "{count, plural, =0 {Лічильник {count}} one {Лічильник {count}} other {Лічильники {count}}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numMeterReadings": "{readings, plural, one {# читання} other {# читання}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "firstReadingYield": "Введіть перший вихід зараз.",
+  "firstReadingConsumption": "Введіть перше споживання зараз.",
+  "firstReadingCounter": "Введіть перше показання лічильника.",
+  "consumptionHeatpump": "Крім того, споживана потужність теплового насоса становить {formattedValue} кВт/год.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearly": "Ваше споживання електроенергії {ofRange} становить {consumption} кВт/год на рік.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedElectricityIntro": "Ваше споживання електроенергії {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedGasIntro": "Ваше споживання газу {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel0": "дуже низький.",
+  "consumptionYearlyDetailedLevel1": "дійсно є на що подивитись.",
+  "consumptionYearlyDetailedLevel3": "є відносно високим.",
+  "consumptionYearlyDetailedLevel4": "це нормально.",
+  "consumptionYearlyDetailedYouConsume": "Ви споживаєте{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLessThan": "{percentage} менше ніж",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedMoreThan": "{percentage} більше ніж",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedAboutSame": "приблизно так само, як",
+  "consumptionYearlyDetailedAverageHousehold": "середнє домогосподарство з {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedOptimalEnding": "як ти це робиш",
+  "consumptionYearlyDetailedLevel1Suffix": "Для оптимального споживання бракує {nextToOptimal} кВт/год.",
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel2Suffix": "Не вистачає {nextToOptimal} кВт/год для хорошого споживання.",
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionPersonLabel": "{count, plural, one {людина} other {людей}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "consumptionWaterPrefixSingle": "Ви споживаєте",
+  "consumptionWaterPrefixPerPerson": "На людину споживають усі",
+  "consumptionWaterDailyMonthly": "близько {dailyLiters} літрів на день (≈ {monthlyCubicMeters} {unitName} на місяць).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "String"
+      },
+      "monthlyCubicMeters": {
+        "type": "String"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterRangeUnknown": "Ваше споживання води {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallLess": "Ваше споживання води {ofRange} на {percentage} менше, ніж у середньому домогосподарстві з {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallEqual": "Ваше споживання води {ofRange} відповідає споживанню середньої домогосподарства з {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallMore": "Ваше споживання води {ofRange} на {percentage} вище, ніж у середньому домогосподарстві з {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdLess": "Холодна вода: {percentage} менше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdMore": "Холодна вода: {percentage} більше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdEqual": "Холодна вода: приблизно стільки ж, скільки в середньому по будинку.",
+  "consumptionWaterWarmLess": "Гаряча вода: {percentage} менше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmMore": "Гаряча вода: {percentage} більше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmEqual": "Гаряча вода: приблизно така ж, як і в середньому домогосподарстві.",
+  "yearlyConsumption": "Річне споживання дотепер",
+  "yearlyCosts": "Річні витрати на споживання поки що",
+  "room": "Кімната",
+  "fedIn": "Годувався",
+  "generated": "Сформований",
+  "residualGenerationEstimated": "Розрахована залишкова генерація",
+  "residualConsumptionEstimated": "Розраховане залишкове споживання",
+  "myObjects": "Мої об'єкти",
+  "roomLivingRoom": "Вітальня",
+  "roomDiningRoom": "Їдальня",
+  "roomBedroom": "Спальня",
+  "roomBathroom": "Ванна кімната",
+  "roomWc": "WC",
+  "roomChildrenRoom": "Дитяча кімната",
+  "roomKitchen": "кухня",
+  "roomStoreRoom": "Комора",
+  "roomOffice": "Офіс",
+  "roomGarden": "Сад",
+  "counter": "Лічильник",
+  "counterDirectionAscending": "висхідний",
+  "counterDirectionDescending": "спадання",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "counterWater": "Лічильники води",
+  "counters": "Метри",
+  "changeCounterOrder": "При необхідності ви можете змінити порядок",
+  "newCounter": "Створіть новий лічильник",
+  "updateObjectName": "Змінити назви об’єктів",
+  "enterObjectName": "Назвіть новий об’єкт",
+  "explanationManageMoreThanOneObject": "У вас є кілька об’єктів власності, якими ви хочете керувати? Потім назвіть поточний об’єкт, а потім створіть інший об’єкт.",
+  "selectedAtAppStart": "Під час запуску програми вибирається найвищий об’єкт",
+  "reallyDeleteObject": "Ви впевнені, що хочете видалити об'єкт?",
+  "confirmDeleteAtCloud": "Чи потрібно також видалити \"{objectTitle}\" з Google Drive?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteObjectError": "Неможливо видалити цей об'єкт (код {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "commonChangeSaved": "Зміну збережено",
+  "commonUpdateNow": "Оновіть зараз",
+  "commonLogout": "Вийти",
+  "commonLogin": "Увійдіть",
+  "commonLoggingIn": "Ви входите...",
+  "commonLoggingOut": "Вихід...",
+  "commonNotAuthenticated": "Ви не автентифіковані.",
+  "commonUserLogin": "Вхід користувача",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Ви використовуєте обліковий запис EHW+. {notSubmitted} із придбаних продуктів {total} не вдалося зберегти на сервері EHW+. Сподіваємося, незабаром вирішимо проблему.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Одна покупка була синхронізована через обліковий запис EHW+.} other {Покупки {count} синхронізовано через обліковий запис EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Ви використовуєте обліковий запис EHW+. Якщо ви придбаєте продукти в майбутньому, вони будуть синхронізовані на всіх ваших пристроях.} one {Ви використовуєте обліковий запис EHW+. Придбаний продукт {count} збережено на сервері EHW+.} other {Ви використовуєте обліковий запис EHW+. Придбані продукти {count} збережено на сервері EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionNotLoggedIn": "Ви використовуєте додаток на кількох пристроях? Увійшовши у свій обліковий запис EHW+, ви зможете синхронізувати налаштування та придбані продукти на всіх своїх пристроях.",
+  "accountUpdateInfo": "Нове: обліковий запис користувача EHW+",
+  "accountThankYouForPurchase": "дякую! Чи бажаєте ви зараз захистити покупку у своєму обліковому записі користувача EHW+?",
+  "accountAbout": "Що може робити обліковий запис користувача EHW+?",
+  "accountBenefit1": "Більш надійне розпізнавання покупки",
+  "accountBenefit2": "Доступ до всіх придбаних розширень на кількох пристроях",
+  "accountFaqTitle": "Часті запитання:",
+  "accountFaqQ1": "Що таке обліковий запис користувача EHW+?",
+  "accountFaqA1": "Обліковий запис користувача EHW+ пропонує альтернативний спосіб відновлення покупок, коли відновлення через App Store неможливо, що підвищує надійність. Крім того, це дозволяє відновити покупки на пристрої, де покупка не здійснювалася спочатку. У майбутньому також можна буде зберігати налаштування та інше.",
+  "accountFaqQ2": "Чи матиму я доступ до своїх покупок без облікового запису користувача EHW+?",
+  "accountFaqA2": "Так, покупки все ще можна відновити на пристрої Android через Play Store або на iPhone через App Store. Обліковий запис користувача EHW+ забезпечує альтернативний спосіб відновлення покупок, коли відновлення через App Store неможливо, що підвищує надійність. Крім того, це дозволяє відновити покупки на пристрої, де покупка не здійснювалася спочатку.",
+  "accountButtonSetup": "Налаштуйте обліковий запис користувача EHW+",
+  "cometSettingsIsPredictionsApiEnabled": "Використовуйте COMET Forecast API від Goethe Institute",
+  "cometConsentScreenHeader": "Нове: кращі прогнози споживання",
+  "cometConsentScreenHowItWorksTitle": "як це працює",
+  "cometConsentScreenOnlineDescriptionTitle": "З підключенням до Інтернету:",
+  "cometConsentScreenOnlineDescription": "Ваші дані про споживання будуть надіслані до Університету Гете у Франкфурті, де буде створено індивідуальний прогноз і відображено в додатку.",
+  "cometConsentScreenOfflineDescriptionTitle": "Без підключення до Інтернету:",
+  "cometConsentScreenOfflineDescription": "На вашому пристрої буде розраховано спрощений місцевий прогноз.",
+  "cometConsentScreenToggleLabel": "Скористайтеся сервісом прогнозів",
+  "cometConsentScreenDataCanBeUsedForTraining": "Дані можуть бути використані для оптимізації майбутніх прогнозів",
+  "cometConsentScreenFeedbackTitle": "Університету Гете потрібен ваш відгук:",
+  "cometConsentScreenFeedbackDescription": "Використання прогнозу безкоштовне, але дослідницька група потребує відгуків про те, наскільки добре працює сервіс.",
+  "cometConsentScreenFeedbackMethod": "Зворотній зв'язок надається автоматично, коли ви користуєтеся сервісом прогнозів і погоджуєтесь на оптимізацію.",
+  "cometConsentScreenDeclineButton": "Я не хочу давати відгуки",
+  "cometConsentScreenAcceptButton": "Я хочу дати відгук",
+  "exportTabHowToExport": "Як би ви хотіли експортувати дані?",
+  "exportTabHowToExportOptionShare": "Поділіться з іншими програмами",
+  "exportTabHowToExportOptionSaveToDownloads": "Зберегти в папку {folder}",
+  "exportTabSnackBarSaveResultMessageSuccess": "Дані успішно збережено як {fileName} у папці {folder}",
+  "exportTabSnackBarSaveResultMessageError": "Під час збереження даних сталася помилка",
+  "importTabErrorMessageFileWithExtensionNotSelected": "Для продовження імпорту потрібен файл {extension}.",
+  "difference": "Різниця",
+  "period": "Крапка",
+  "periodHourly": "погодинно",
+  "periodDaily": "щодня",
+  "periodWeekly": "щотижня",
+  "periodBiweekly": "кожні два тижні",
+  "periodMonthly": "щомісяця",
+  "periodBimonthly": "раз на два місяці",
+  "periodQuarterly": "щоквартально",
+  "periodHalfYearly": "піврічна",
+  "periodYearly": "щорічно",
+  "meterCardLastUpdatedLabel": "Оновлено",
+  "smartMeterServiceProvider": "Постачальник послуг",
+  "smartMeterObtainDataAutomatically": "Отримувати дані автоматично",
+  "smartMeterErrorNoData": "На жаль, немає даних, які програма може відобразити.",
+  "smartMeterSettingsScreenSyncButton": "Синхронізація даних про споживання",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Виконується синхронізація",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Прогрес: {progressInPercent}%",
+  "smartMeterSettingsScreenSyncingDialogError": "Помилка",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "добре",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Під час синхронізації сталася така помилка: {errorMessage}",
+  "smartMeterMisconfiguredWidgetCardTitle": "Налаштуйте свій інтелектуальний лічильник правильно.",
+  "smartMeterMisconfiguredWidgetCardButton": "Налаштувати інтелектуальний лічильник",
+  "smartMeterTabConsumptions": "Споживання",
+  "smartMeterTabProductions": "Виробництва",
+  "consumptionCacheManagementClearCacheButton": "Очистити кеш",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Очистити та синхронізувати",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Очистити кеш?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Усі кешовані дані споживання буде остаточно видалено. Ви можете синхронізувати його пізніше.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Очистити кеш і синхронізувати?",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Усі кешовані дані буде видалено та повторно завантажено із сервера. Це може зайняти деякий час.",
+  "consumptionCacheManagementClearedSuccessfully": "Кеш успішно очищено",
+  "tibberAccessToken": "Маркер доступу",
+  "tibberEnterAccessToken": "Будь ласка, введіть маркер доступу",
+  "tibberMessageAccessTokenUpdated": "Успішно оновлено маркер доступу",
+  "tibberErrorAccessTokenInvalid": "Схоже, маркер доступу недійсний",
+  "tibberErrorNoHomes": "Немає будинків, пов’язаних із цим обліковим записом",
+  "tibberErrorSmartMeterMisconfigured": "Схоже, ваш інтелектуальний лічильник неправильно налаштований.",
+  "tibberErrorConnectivityShowCacheInstead": "Не вдалося отримати останні дані про споживання. Натомість відображаються кешовані значення.",
+  "tibberErrorUndefined": "Сталася неочікувана помилка: {error}",
+  "tibberErrorRateLimit": "Перевищено ліміт швидкості Tibber API. Будь ласка, зачекайте принаймні 5 хвилин перед повторною спробою.",
+  "tibberErrorNoSubscription": "Щоб отримати повний доступ до історичних даних через API, вам потрібен діючий контракт на електроенергію Tibber для вибраного будинку.",
+  "tibberBasicAuth": "Основна авторизація",
+  "tibberBasicAuthUsername": "Ім'я користувача",
+  "tibberBasicAuthPassword": "Пароль",
+  "tibberBasicAuthEnterUsername": "Будь ласка, введіть ім'я користувача",
+  "tibberBasicAuthEnterPassword": "Будь ласка, введіть пароль",
+  "tibberConsumptionEntryTotalCost": "Загальна вартість: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Загальний прибуток: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpanYear": "Рік {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Один рік, починаючи з {year}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "Місяць {month}",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Один місяць, починаючи з {month}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 години з {startTime} на {date}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Одна година з {startTime} на {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Від: {startTime} до {endDate}",
+  "tibberWhereIsMyAccessToken": "Де я можу знайти свій «токен доступу»?",
+  "tibberActionSaveAuthorizationSettings": "Зберегти налаштування авторизації",
+  "tibberConsentScreenHeader": "Нова функція: дані про споживання від Tibber Pulse",
+  "tibberConsentScreenDescription": "Ви клієнт Tibber чи плануєте ним стати? Тепер ми підтримуємо Pulse для покращеного моніторингу енергії. Будь ласка, зверніть увагу, що історичні дані з Pulse, на жаль, доступні лише клієнтам із діючим контрактом Tibber.",
+  "tibberConsentScreenBenefit1Title": "Перегляньте своє споживання електроенергії",
+  "tibberConsentScreenBenefit1Description": "Відстежуйте своє споживання в реальному часі та виявляйте прихованих поглиначів енергії.",
+  "tibberConsentScreenStoreLink": "Відвідайте Tibber Store",
+  "tibberConsentScreenConfigureNowButton": "Налаштуйте Tibber Pulse зараз",
+  "tibberConsentScreenConfigureLaterButton": "Налаштувати пізніше",
+  "tibberConsentScreenGoetheStudySectionHeader": "Участь у дослідницькому проекті",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Так, я хочу взяти участь у Goethe Study",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Чи хотіли б ви взяти участь у дослідженні Гете?",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Ваше погодинне споживання з 1 березня буде анонімним і надано для дослідження Goethe.",
+  "tibberStatusWidgetTitle": "Керування кешем",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Статус підписки на Tibber",
+  "tibberSubscriptionStatusActive": "активний",
+  "tibberSubscriptionStatusInactive": "неактивний",
+  "tibberSubscriptionStatusLoading": "завантаження...",
+  "tibberLiveMeasurementCounterCardViewFooter": "Вимірювання в реальному часі",
+  "tibberLiveMeasurementsWidgetNotSupported": "Вимірювання в реальному часі для цього будинку не підтримуються.",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Цей дім не підтримує вимірювання в реальному часі або історичні дані про споживання. Виберіть інший будинок.",
+  "tibberLiveMeasurementsWidgetConnecting": "Підключення до Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "Під час підключення до Tibber Pulse сталася помилка. Перевірте свій маркер доступу та підключення до Інтернету.",
+  "tibberLiveMeasurementWidgetTitle": "Поточне споживання/виробництво на {time}",
+  "tibberLiveMeasurementWidgetTimestamp": "Мітка часу",
+  "tibberLiveMeasurementWidgetPower": "потужність",
+  "tibberLiveMeasurementWidgetPowerProduction": "Виробництво електроенергії",
+  "tibberLiveMeasurementWidgetAveragePower": "Середня потужність",
+  "tibberLiveMeasurementWidgetMinPower": "Мінімальна потужність",
+  "tibberLiveMeasurementWidgetMaxPower": "Максимальна потужність",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Загальне споживання (з півночі)",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Загальний обсяг виробництва (з півночі)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Споживання (за останню годину)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Виробництво (за останню годину)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Показання лічильника (споживання)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Показання лічильника (виробництво)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Накопичена вартість",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Накопичена винагорода",
+  "tibberLiveMeasurementWidgetPowerFactor": "Фактор потужності",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Напруга (фаза 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Напруга (фаза 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Напруга (фаза 3)",
+  "tibberLiveMeasurementWidgetCurrentL1": "Струм (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Струм (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Струм (L3)",
+  "tibberLiveMeasurementWidgetUnitV": "В",
+  "tibberLiveMeasurementWidgetUnitW": "В",
+  "tibberLiveMeasurementWidgetUnitA": "А",
+  "tibberHomeSelectorHomeId": "Ідентифікатор будинку: {homeId}",
+  "tibberHomeSelectorLabel": "додому",
+  "scanQrCode": "Відскануйте qr-код активації",
+  "requestAccess": "Запит на доступ",
+  "createAccount": "Створити обліковий запис/ввійти",
+  "watersupplierYourSupplier": "Ваш постачальник води",
+  "watersupplierRadioMeterDefaultName": "Радіо лічильник холодної води",
+  "watersupplierAccessRequestQ1": "Ви є власником нерухомості в зоні водозбору і бажаєте отримати доступ до показань радіолічильників?",
+  "watersupplierAccessRequestQ2": "Ви вже запитували доступ? Далі вам потрібно створити обліковий запис користувача EHW+.",
+  "watersupplierAccessRequestQ3": "Ви вже подали запит на доступ і отримали свій QR-код?",
+  "watersupplierAccessRequestQ4": "Бажаєте отримувати сповіщення лічильника, щоб можна було реагувати, наприклад, у разі прориву труби або зливу в туалеті?",
+  "watersupplierOpenReminderSettings": "Відкрийте налаштування",
+  "watersupplierScanQrCodeTitle": "Активація радіолічильника",
+  "watersupplierScanQrCodeCommand": "Відскануйте лівий QR-код (код активації)!",
+  "watersupplierScanRevokeQrCodeCommand": "Відскануйте правильний QR-код (код відкликання)!",
+  "watersupplierScanQrCodeValidation": "Виявлено QR-код, давайте перевіримо його.",
+  "watersupplierScanQrCodeValidationFailed": "Вибачте, код недійсний. Хочеш спробувати ще раз?",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Ви просканували код відкликання замість коду активації. Спробуйте ще раз!",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Ви просканували код активації замість коду відкликання. Спробуйте ще раз!",
+  "watersupplierScanQrCodeScanSuccessful": "Вау, код активації виглядає так гарно! Будь ласка, введіть останні три цифри свого ідентифікатора лічильника!",
+  "watersupplierMeterIdValidationStep": "Ми перевіряємо ваш ідентифікатор лічильника.",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Вибачте, на жаль, це не спрацювало. Це сталося через наш сервер. Краще спробуйте ще раз пізніше!",
+  "watersupplierCompleteMeterIdTryAgain": "Ти не пройдеш! Будь ласка, введіть останні три цифри свого ідентифікатора лічильника ще раз!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Примітка. Ваш оригінальний ідентифікатор лічильника може містити більше 8 символів.",
+  "watersupplierScanQrCodeApprovalInProgress": "Зараз ми авторизуємо ваш обліковий запис, щоб у майбутньому ви могли отримати доступ до показань радіолічильника.",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "так! Ваш радіолічильник води типу \"Холодна вода\" успішно додано. Ви можете знайти його серед інших лічильників.",
+  "watersupplierUnlinkRadioMeterTitle": "Припиніть доступ до радіолічильника",
+  "watersupplierUnlinkRadioMeterDescription1": "Бажаєте видалити радіолічильник без анулювання коду активації?",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Видалити радіолічильник",
+  "watersupplierUnlinkRadioMeterDescription2": "Вам більше не потрібен доступ до даних вашого радіометра? Зверніть увагу: після сканування коду відкликання код активації стає недійсним. Будь-який обліковий запис користувача, який використовував код активації, втратить доступ.",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Сканувати код відкликання",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Доступ до радіолічильника води скасовано.",
+  "watersupplierNoAccess": "Ви більше не маєте дозволу на отримання даних.",
+  "watersupplierNoAccessDetailedMessage": "Якщо ви вважаєте, що все ще маєте доступ, відскануйте код активації ще раз. Якщо код доступу більше не дійсний, надішліть новий запит на доступ.",
+  "zipCode": "поштовий індекс",
+  "zipCodeValidationOnlyNumbers": "Дійсний поштовий індекс складається лише з цифр",
+  "zipCodeValidationLength": "Введіть {digits}-значний поштовий індекс",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "houseName": "Назва будинку",
+  "houseNameDescription": "Назва будинку, напр. назва вулиці",
+  "marketLocationId": "Ідентифікатор місця розташування ринку",
+  "marketLocationIdDescription": "Ідентифікатор ринкового місця завжди складається з 11 цифр. Зазвичай це можна знайти на останньому рахунку за електроенергію чи газ.",
+  "swimmingPool": "Басейн",
+  "smartmeterInfocodeBannerText": "Смартметр {smartmeterId} отримав інфокод: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "smartmeterId": {
+        "type": "String"
+      },
+      "infocode": {
+        "type": "String"
+      }
+    }
+  },
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Ваш водомір {smartmeterId} виявив постійний потік води. Це може свідчити про витік. Будь ласка, перевірте вашу побутову установку на герметичність. Частими причинами є унітази та крани, що капають.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Ваш водомір {smartmeterId} виявив надзвичайно високе споживання води, що може свідчити про прорив труби. Будь ласка, перевірте вашу побутову установку на наявність серйозних витоків або поломок. Сигнал також може з’явитися, якщо ви використали велику кількість води, напр. для наповнення басейну.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Ваш лічильник води {smartmeterId} виявив надзвичайно високе споживання води, що може свідчити або про прорив труби, або про наповнення басейну. Будь ласка, перевірте вашу побутову установку на наявність серйозних витоків або поломок.",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "Температура вашого лічильника води {smartmeterId} впала нижче 3°C. Є загроза заморозків! Ізолюйте лічильник і труби або обігрійте приміщення, щоб запобігти пошкодженню.",
+  "smartMeterCountersTitle": "Радіолічильники води",
+  "counterOutdatedAndNextReminder": "Зчитування лічильника застаріло з {date}, наступне нагадування про зчитування {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
+  "waterMeterEventsInformation": "{count, plural, =1 {Ваш бездротовий лічильник води {waterSupplier} виявляє несподіване споживання. При бажанні в такому випадку ви отримаєте сповіщення.} other {Ваші бездротові лічильники води {waterSupplier} виявляють несподіване споживання. При бажанні в таких випадках ви отримаєте сповіщення.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "subscribeToSmartMeterInfocodeEvents": "Я хотів би отримати сповіщення про несподіване споживання",
+  "completeButton": "Повний",
+  "reset": "Скинути",
+  "settingCounterTypeColor": "Колір для цього типу лічильника",
+  "settingCounterTypeColorDescription": "Якщо вам не подобається стандартний колір для цього типу лічильника, ви можете призначити інший колір.",
+  "settingCounterTypeColorAdvanced": "Пакет кольорів для експертів",
+  "featureVotingUnderConstruction": "Опитування функцій зараз переглядається. У майбутньому буде потрібен обліковий запис користувача EHW+, а опитування більше не використовуватиме сторонні сервери. Ми цінуємо ваше терпіння.",
+  "termsOfUsageTitle": "Загальні умови користування додатком",
+  "termsOfUsageBlock1Title": "Загальні умови користування додатком",
+  "termsOfUsageBlock1": "Право на заперечення",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2Title": "Загальні відомості про використання",
+  "termsOfUsageBlock2": "Додаток і його функції не можна використовувати в образливий спосіб. Будь ласка, використовуйте додаток лише в рамках дозволеного законодавством обсягу та відповідно до наших умов використання. У разі порушення чинного законодавства Німеччини або наших умов використання постачальник залишає за собою право виключити вас із використання програми.",
+  "termsOfUsageBlock2a": "Анонімні дані про використання\nМи використовуємо власну аналітику, щоб постійно вдосконалювати додаток.\nПередаються лише анонімні дані.\nДані не передаються третім особам.\nЩоб отримати додаткові відомості, перейдіть до Налаштування > Конфіденційність > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2b": "Звіти про помилки\nSentry (самостійне розміщення) використовується для постійного вдосконалення програми.\nЗвіти про помилки не обробляються та не передаються третім особам.\nЩоб отримати додаткові відомості, перейдіть до Налаштування > Конфіденційність > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2c": "Особиста інформація\nЯкщо ви використовуєте Google Drive Sync, EHW+ все одно не матиме доступу до введених вами даних. Щоб отримати додаткові відомості, перейдіть до Налаштування > Конфіденційність > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock3Title": "Відповідальність",
+  "termsOfUsageBlock3": "Постачальник не гарантує доступність, надійність, функціональність або придатність програми для ваших цілей. Відповідальність виключається, якщо вона не є обов’язковою відповідно до Закону про відповідальність за продукцію через умисел, грубу недбалість, травму життя, кінцівок або здоров’я, припущення гарантії якості, шахрайське приховування дефекту або порушення основних договірних зобов’язань. Істотні договірні зобов'язання - це зобов'язання, виконання яких є необхідним для належного виконання контракту і на дотримання яких сторони можуть регулярно покладатися. Компенсація за збитки внаслідок порушення суттєвих договірних зобов'язань обмежується передбачуваною шкодою, типовою для цього типу контракту, за винятком випадків умислу або грубої недбалості.",
+  "termsOfUsageBlock4Title": "Обов'язки користувача",
+  "termsOfUsageBlock4": "Провайдер не гарантує точність результатів розрахунків. Користувачі зобов’язані обережно та під власну відповідальність оновлювати ціни, збережені в додатку (базові ціни, ціни споживання тощо), щоб переконатися, що створені рахунки відповідають фактичним сумам до сплати.",
+  "privacyBlock1Title": "Розробник",
+  "privacyBlock1Text": "Розробник/постачальник програми (надалі «програма»), відповідно до розділу 5 Закону Німеччини про телемедіа (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock1Text2": "Для користування програмою ви повинні прийняти наведені нижче умови використання. Будь ласка, прочитайте їх уважно.",
+  "privacyBlock2Title": "Загальний",
+  "privacyBlock2Text": "Захист ваших даних дуже важливий для нас. Ця політика конфіденційності пояснює, які особисті дані EHW+ збирає та як вони використовуються. Фундаментальні зміни в політиці конфіденційності трапляються рідко, але час від часу вона може переглядатися через нові функції, технології або вимоги законодавства. Тому час від часу перевіряйте цю сторінку, щоб бути в курсі подій. Якщо ми внесемо будь-які значні зміни, ми повідомимо вас і, якщо необхідно, отримаємо вашу згоду.",
+  "privacyBlock3Title": "Які дані збирає {appNameShort}?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3aText": "Ми створили {appNameShort}, щоб ви могли швидко та легко вводити показання свого лічильника, а потім використовувати статистику, щоб дізнатися більше про своє споживання, витрати та потенційну економію. Це означає, що ви можете вводити, обчислювати або зберігати будь-які дані, які ми зазвичай називаємо «вмістом», у {appNameShort}. Ці дані зберігаються лише на вашому мобільному телефоні.\n\nСинхронізація з Google Drive.\nЯкщо ви ввімкнете синхронізацію з Google Диском, вміст також буде автоматично створено резервну копію в папці під назвою «{appNameShort}» на вашому Google Диску, доступ до якої маєте лише ви. Після входу в обліковий запис Google ваша адреса електронної пошти стане доступною для розробника.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "googleApiAgreement": "Використання {appNameShort} і передача в будь-яку іншу програму інформації, отриманої від API Google, відповідатиме Політиці щодо даних користувачів служб API Google, включаючи вимоги щодо обмеженого використання.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3bText": "{googleApiAgreement}\n\nДані про місцезнаходження.\nЩоб зрозуміти поведінку користувачів і для майбутніх функцій, програма передає анонімні дані про використання.\nДані не передаються третім особам.\nМоже збиратися інформація про походження (країна та місто), мову, операційну систему, тип пристрою, роздільну здатність, поведінку при натисканні та тривалість використання.\n\nДані пристрою.\nМи збираємо дані про кількість і тип пристроїв, які ви використовуєте для підключення до служби, а також інформацію про операційну систему на цих пристроях (наприклад, Android, iOS, Windows або macOS).\n\nВикористовуючи програму, ви погоджуєтеся на збір анонімних даних, як описано вище.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyContractPriceSubmission": "Коли ви, як користувач, зберігаєте дані своїх контрактів, ціна за одиницю для контрактів на електроенергію, воду та газ передається на сервер EHW+ у Німеччині разом із країною та федеральною землею. Ці дані використовуються для розрахунку статистики цін. Для користувачів програми статистичні дані доступні у вигляді порівняння цін у вікні контракту.\n\nВикористовуючи програму, ви погоджуєтеся на збір анонімних даних.",
+  "privacyBlock4DataUsageTitle": "Як {appNameShort} використовує мої дані?",
+  "privacyBlock4DataUsage": "Зібрані анонімні дані використовуються для оцінки поведінки користувачів. Крім цього, подальшого використання даних немає.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock5Title": "Термін зберігання персональних даних",
+  "privacyBlock5": "Тривалість зберігання персональних даних визначається відповідним законодавчим терміном зберігання (наприклад, періоди зберігання комерційного та податкового законодавства). Після закінчення періоду відповідні дані регулярно видаляються, якщо вони більше не потрібні для виконання або ініціювання договору та/або ми більше не маємо законного інтересу в їх подальшому зберіганні.",
+  "youtubeConsent1": "Нам потрібна ваша згода на показ вбудованого вмісту Youtube. Ви можете відобразити цей (а отже, і весь інший вміст Youtube у програмі) одним клацанням миші, а також знову деактивувати.",
+  "youtubeConsent2": "Завжди показувати вміст Youtube",
+  "youtubeConsent3": "Я погоджуюся на відображення зовнішнього вмісту. Це може призвести до передачі особистих даних на сторонні платформи. Детальніше про це в нашому",
+  "privacyBlock6Title": "контакт",
+  "privacyBlock6": "Коли ви звертаєтеся до нас (наприклад, через контактну форму або електронну пошту), збираються персональні дані. Дані, зібрані у випадку контактної форми, можна побачити у відповідній контактній формі. Ці дані зберігаються та використовуються виключно з метою відповіді на ваш запит або для встановлення контакту та відповідного технічного адміністрування. Правовою основою для обробки даних є наш законний інтерес у відповіді на ваш запит відповідно до ст. 6 абз. 1 л. f GDPR. Якщо ваш контакт спрямований на укладення договору, додатковою правовою підставою для обробки є ст. 6 абз. 1 л. b GDPR. Ваші дані буде видалено після обробки вашого запиту, якщо з обставин можна зробити висновок, що питання остаточно з’ясовано, і за умови, що немає юридичних зобов’язань щодо збереження даних.",
+  "privacyBlock7Title": "Права зацікавленої особи",
+  "privacyBlock7": "Застосовне законодавство про захист даних надає вам як суб’єкту даних повні права (права на інформацію та втручання) по відношенню до контролера щодо обробки ваших персональних даних, про що ми повідомимо вам нижче:\n\n- Право на інформацію відповідно до ст. 15 GDPR: Зокрема, ви маєте право отримати інформацію про ваші персональні дані, які ми обробляємо, цілі обробки, категорії персональних даних, що обробляються, одержувачів або категорії одержувачів, яким ваші дані були або будуть розкриті, запланований період зберігання або критерії для визначення періоду зберігання, наявність права на виправлення, видалення, обмеження обробки, заперечення щодо обробки, скаргу до наглядового органу, походження ваші дані, якщо вони не були зібрані нами від вас, наявність автоматизованого прийняття рішень, у тому числі профілювання, і, де це застосовно, значущу інформацію про залучену логіку та значення та передбачувані наслідки такої обробки для вас, а також ваше право бути поінформованим про гарантії, які існують відповідно до ст. 46 GDPR, коли ваші дані передаються до третіх країн;\n\n- Право на виправлення відповідно до ст. 16 GDPR: ви маєте право на негайне виправлення неточних даних про вас та/або на доповнення неповних даних, які ми зберігаємо.\n\n- Право на видалення відповідно до ст. 17 GDPR: ви маєте право вимагати видалення ваших персональних даних, якщо умови ст. 17(1) GDPR. Однак це право не застосовується, зокрема, якщо обробка необхідна для реалізації права на свободу вираження поглядів та інформації, для дотримання правового зобов’язання, з міркувань суспільного інтересу або для встановлення, здійснення чи захисту правових вимог.\n\n- Право на обмеження обробки відповідно до ст. 18 GDPR: Ви маєте право подати запит на обмеження обробки ваших персональних даних на час перевірки точності ваших даних, якщо ви заперечували проти видалення ваших даних на підставі неприпустимої обробки даних і замість цього просите обмеження обробки ваших даних, якщо вам потрібні ваші дані для висування, здійснення чи захисту правових претензій після того, як ці дані більше не потрібні нам для досягнення мети, для якої вони були зібрані, або якщо ви подали заперечення на підставах, що стосуються вашої конкретної ситуації, якщо ще не зрозуміло, чи переважають наші законні причини;\n\n- Право на інформацію згідно зі ст. 19 GDPR: якщо ви скористалися своїм правом на виправлення, видалення або обмеження обробки по відношенню до контролера, контролер зобов’язаний повідомити всіх одержувачів, яким було розкрито ваші персональні дані, про таке виправлення або видалення даних або обмеження обробки, якщо це не виявиться неможливим або вимагає непропорційних зусиль. Ви маєте право бути поінформованим про цих одержувачів.\n\n- Право на перенесення даних відповідно до ст. 20 GDPR: Ви маєте право отримати свої персональні дані, які ви надали нам, у структурованому, широко використовуваному та машиночитаному форматі або вимагати їх передачі іншому контролеру, якщо це технічно можливо.\n\n- Право на відкликання згоди, наданої відповідно до ст. 7(3) GDPR: Ви маєте право відкликати свою згоду на обробку даних у будь-який час із дійсністю на майбутнє. У разі відкликання ми негайно видалимо відповідні дані, за винятком випадків, коли подальша обробка може базуватися на законній основі для обробки без згоди. Відкликання згоди не впливає на законність обробки на основі згоди до її відкликання.\n\n- Право на подання скарги відповідно до ст. 77 GDPR: якщо ви вважаєте, що обробка ваших персональних даних порушує GDPR, ви маєте право подати скаргу до наглядового органу, зокрема в державі-члені вашого проживання, місця вашої роботи або місця ймовірного порушення, без шкоди для будь-яких інших адміністративних або судових засобів правового захисту.",
+  "privacyBlock8Title": "Право на заперечення",
+  "privacyBlock8": "ЯКЩО МИ ОБРОБЛЯЄМО ВАШІ ПЕРСОНАЛЬНІ ДАНІ НА ОСНОВІ НАШОГО ПЕРЕВАГАЛЬНОГО ЗАКОННОГО ІНТЕРЕСУ ЯК ЧАСТИНА БАЛАНСУ ІНТЕРЕСІВ, ВИ МАЄТЕ ПРАВО ЗАПЕРЕЧИТИ ПРОТИ ЦІЄЇ ОБРОБКИ У БУДЬ-ЯКИЙ ЧАС З ПРИЧИН, ЩО ВИХОДЯТЬ З ВАШОЇ КОНКРЕТНОЇ СИТУАЦІЇ, З ЕФЕКТОМ ДЛЯ МАЙБУТНЄ. ЯКЩО ВИ СКОРИСТАЄТЕСЯ СВОЇМ ПРАВОМ НА ЗАПЕРЕЧЕННЯ, МИ ПРИПИНИМО ОБРОБКУ ВІДПОВІДНИХ ДАНИХ. ОДНАК, ПОДАЛЬША ОБРОБКА ЗАЛИШАЄТЬСЯ, ЯКЩО МИ МОЖЕМО ДОВЕСТИ ВАЖЛИВІ ЗАКОННІ ПІДСТАВИ ДЛЯ ОБРОБКИ, ЩО ПЕРЕВАЖУЮТЬ ВАШІ ІНТЕРЕСИ, основні права та свободи, або якщо обробка служить для ствердження, здійснення чи захисту правових вимог.\n\nЯКЩО МИ ОБРОБЛЯЄМО ВАШІ ПЕРСОНАЛЬНІ ДАНІ ДЛЯ ЦІЛЕЙ ПРЯМОГО МАРКЕТИНГУ, ВИ МАЄТЕ ПРАВО ЗАПЕРЕЧИТИ В БУДЬ-ЯКИЙ ЧАС ПРОТИ ОБРОБКИ ОСОБИСТИХ ДАНИХ, ЩО ВАС СТОСУЮТЬСЯ, ДЛЯ ЦІЛЕЙ ТАКОЇ РЕКЛАМИ. ВИ МОЖЕТЕ РЕАЛІЗУВАТИ СВОЄ ПРАВО НА ЗАПЕРЕЧЕННЯ, ЯК ОПИСАНО ВИЩЕ.\n\nЯКЩО ВИ СКОРИСТАЄТЕСЯ СВОЇМ ПРАВОМ НА ЗАПЕРЕЧЕННЯ, МИ ПРИПИНИМО ОБРОБКУ ДАНИХ, ЩО СТОСУЮТЬСЯ ВАС, ДЛЯ ЦІЛЕЙ ПРЯМОГО МАРКЕТИНГУ.",
+  "activityTitle": "діяльність",
+  "activitiesTitle": "Моя діяльність",
+  "activitiesDescription": "Пов’яжіть показання лічильника з діяльністю, наприклад, миття холодною водою з лічильниками електроенергії.",
+  "sortActivities": "Змініть порядок дій",
+  "resetActivities": "Скинути всі дії",
+  "addActivity": "Додати активність",
+  "activitySettings": "Налаштування активності",
+  "activityOverview": "Огляд діяльності",
+  "activityNameLabel": "Назва діяльності",
+  "chooseActivity": "Виберіть діяльність",
+  "selectedActivity": "Вибрана діяльність \"${activityName}\"",
+  "chooseActivityIcon": "Виберіть значок",
+  "involvedCounters": "Задіяні лічильники",
+  "detailsTitle": "Подробиці",
+  "detailWithMultiSelect": "Дозволити багаторазовий вибір",
+  "addDetail": "Додайте деталі",
+  "editDetailTitle": "Редагувати деталь",
+  "activityWithEnergyConsumption": "Споживання електроенергії вимірюється лише для активності",
+  "consumptionIsNotExclusiveTitle": "Споживання виключно?",
+  "consumptionIsNotExclusive": "Якщо споживання не стосується виключно цієї діяльності, це буде показано як попередження.",
+  "numberOfDetails": "{count, plural, one {1 деталь} other {Деталі {count}}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reallyDeleteActivity": "Справді видалити цю активність?",
+  "reallyDeleteDetail": "Справді видалити цю деталь?",
+  "reallyDeleteContract": "Справді видалити цей договір?",
+  "contractCopyDialogTitle": "Ви хочете зробити копію цього договору?",
+  "contractCopyDialogOptionYes": "Так, ціна за одиницю або інше значення змінилося.",
+  "contractCopyDialogOptionNo": "Ні, скасувати.",
+  "contractCopyDialogWhen": "З якого часу діє нова ціна?",
+  "contractCosts": "Ціна за одиницю",
+  "contractCostsFeedIn": "Ціна винагороди/базова ціна",
+  "counterWarmWaterPlusColdWater": "Без урахування витрат на прісну воду та стічні води",
+  "advancePayment": "Попередня оплата",
+  "bonus": "Бонус",
+  "bonusInfoTitle": "Інформація про бонусні тарифи",
+  "bonusInfoText": "Тарифи з бонусом часто дозволяють особливо сильно заощадити при зміні провайдера. Однак це зазвичай є результатом виключно одноразового бонусу. Це означає: загальні витрати такі низькі лише в перший рік постачання. Високі ціни на роботу та/або базові ціни передбачають на другому році явно більший розрахунок. Тому з бонусними тарифами ви повинні з самого початку планувати повторну зміну через рік. Особливо критично варто поставити під сумнів бонусні тарифи терміном на два роки, де таке скасування взагалі неможливе.",
+  "source": "Джерело:",
+  "basePrice": "Базова ціна",
+  "gross": "брутто",
+  "net": "чистий",
+  "grossNetPrices": "Ціна брутто або нетто",
+  "taxRate": "Ставка податку",
+  "perUnit": "за {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "wasteWaterPriceEnabled": "Витрати на свіжу воду та стічні води відображаються окремо (стосовно лічильників відрахувань)",
+  "pricePerUnit": "Ціна за одиницю",
+  "pricePerUnitFeedIn": "Ціна винагороди",
+  "pricePerUnitWaterWarm": "Витрати на підігрів гарячої води",
+  "pricePerUnitWaterCold": "Вартість холодної води",
+  "pricePerUnitFreshWater": "Витрати на прісну воду",
+  "pricePerUnitWasteWater": "Ціна стічної води",
+  "paidAdvancePayments": "Авансові платежі",
+  "supplementaryPayment": "Доплата",
+  "refund": "Повернення коштів",
+  "costs": "Витрати",
+  "contract": "Договір",
+  "contractDetails": "Тривалість контракту та деталі",
+  "usedForPaymentsRepayments": "Передоплата, базова ціна та бонус",
+  "contractName": "Назва постачальника/контракту",
+  "contractNumber": "Номер договору",
+  "contractStart": "Дата початку дії договору",
+  "contractPeriod": "Термін дії договору",
+  "cancellationPeriod": "Термін анулювання",
+  "activityWash": "прання",
+  "activityWashTemperature": "температура",
+  "activityWashDuration": "Тривалість",
+  "activityWashDuration2hrs": "2 год",
+  "activityWashRotations": "Ротації",
+  "activityWashShort": "Коротка програма",
+  "activityShower": "Душ",
+  "activityBath": "Ванна",
+  "activityDishWasher": "Посудомийна машина",
+  "activityIron": "Прасування",
+  "errorNoInternet": "Немає мережі",
+  "errorInvalidRange": "Немає дійсного діапазону",
+  "syncDriveLoggedIn": "Ваші дані автоматично синхронізуються на кількох пристроях. Використовується такий обліковий запис Google:",
+  "syncDriveLoggedInNoAuto": "Ваші дані автоматично завантажуються на Диск Google після внесення змін. Новіші дані з хмари перезаписують локальні дані лише тоді, коли ви натискаєте об’єкт. Використовується такий обліковий запис Google:",
+  "syncDriveDataUsage": "Якщо ви надасте EHW+ доступ до Google Drive, програма матиме доступ для читання та запису до файлів, створених самою програмою. На жаль, файли, створені іншими за допомогою цієї програми, не відображаються в програмі, а це означає, що обмін даними між кількома обліковими записами через Диск Google неможливий.",
+  "syncAutomaticTitle": "Локальні дані можуть бути перезаписані",
+  "syncShareWithOthersTitle": "Поділитися з іншими?",
+  "syncShareWithOthersSubtitle": "Якщо ви хочете вводити показання лічильників разом з іншими користувачами Google, EHW+ має отримати повний доступ до Google Drive.",
+  "syncShareWithOthersNotInWeb": "Надати доступ наразі можна лише через додаток.",
+  "syncWithGoogleDriveDescription": "Оскільки було б прикро, якби показники лічильників загубилися, синхронізуйте свої об’єкти з Google Drive зараз!",
+  "driveSyncStatusTitle": "Статус синхронізації",
+  "driveSyncStatusNotSynced": "Не синхронізовано",
+  "driveSyncStatusFailed": "Не вдалося синхронізувати",
+  "driveSyncStatusComparing": "Порівняння з файлом на сервері",
+  "driveSyncStatusSyncing": "Виконується синхронізація",
+  "driveSyncStatusLocalHasLatestNoCloud": "Файл, збережений на цьому пристрої з {localDate}, не зберігається в хмарі",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusLocalHasLatestWithCloud": "Файл, збережений на цьому пристрої з {localDate}, є більш актуальним, ніж файл у хмарі з {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      },
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestNoLocal": "Файл у хмарі з {cloudDate} не збережено на цьому пристрої",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestWithLocal": "Файл у хмарі з {cloudDate} є більш актуальним, ніж локальний файл з {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusUpToDate": "Оновлено від {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncWithGoogle": "Google Drive Sync",
+  "driveSyncNow": "Синхронізувати зараз",
+  "driveSignInWithGoogle": "Увійдіть за допомогою Google",
+  "signInWithGoogle": "Увійдіть за допомогою Google",
+  "signInWithApple": "Увійдіть за допомогою Apple",
+  "signInWithGithub": "Увійдіть за допомогою GitHub",
+  "signInWithSocialAccount": "Який обліковий запис соціальної мережі ви хочете використовувати для створення або входу в обліковий запис EHW+?",
+  "syncStatusFailedLong": "Не вдалося синхронізувати, редагуєте на власний ризик",
+  "syncStatusFailedLongNoAutoSync": "Не вдалося синхронізувати, редагуєте на власний ризик",
+  "syncStatusSyncRemoteHasLatest": "Файл у хмарі є більш актуальним, ніж локальний файл",
+  "syncObjectIsLocked": "Дані об’єкта оновлюються і не можуть бути редаговані протягом цього часу.",
+  "importExport": "Резервне копіювання/відновлення",
+  "import": "Імпорт",
+  "importPickFile": "Виберіть файл",
+  "importSelectSingleCounter": "Єдиний лічильник (файл CSV)",
+  "importSelectJson": "Файл JSON (створений за допомогою {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "importWhichCounterForCsv": "Який лічильник слід використовувати?",
+  "importNewOrExistingCounter": "Додати до нового чи наявного лічильника?",
+  "importConfirm": "Підтвердити імпорт",
+  "importTheObject": "Імпорт об'єкта",
+  "importExplanation": "Ви вже зробили показання лічильників і хочете їх вставити?",
+  "importCounterAsCsv": "Ви хочете імпортувати один лічильник? Для кожного лічильника підтримується файл CSV із двома стовпцями: один для часу та один для показань лічильника.\n\nПриклад даних:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importSuccessful": "Імпорт успішний",
+  "importNotPossible": "Імпорт неможливий",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Один рядок було проігноровано: {lines}} other {Рядки {count} були проігноровані: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Використовувалися лише перші дві колонки. Третя колонка була проігнорована.} other {Використовувалися лише перші два стовпці, стовпці {columns} ігнорувалися.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "consentTitle": "Налаштування конфіденційності",
+  "privacyTitle": "Політика конфіденційності",
+  "imprintTitle": "Вихідні дані",
+  "faqTitle": "FAQ",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialTwitter": "X",
+  "export": "Експорт",
+  "exportExplanation": "Який наявний об’єкт ви хочете експортувати, наприклад, щоб перенести його на новий пристрій?",
+  "exportWhere": "У якому форматі слід експортувати об’єкт?",
+  "exportWhichValuesShouldBeExported": "Які значення слід експортувати?",
+  "exportOptionExcel": "Файл Excel",
+  "exportOptionPdf": "файл PDF",
+  "exportOptionFileDescription": "Об’єкт використовується як файл {fileType}",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "socialLinkedIn": "LinkedIn",
+  "socialYouTube": "YouTube",
+  "socialEmail": "Електронна пошта",
+  "social": "Соціальні медіа",
+  "support": "Підтримка/Зворотній зв'язок",
+  "supportQuestion": "Задайте питання",
+  "supportQuestionBox": "Чим я можу вам допомогти?",
+  "supportQuestionNotFound": "На ваше запитання не відповіли? Буду радий допомогти.",
+  "supportQuestionLong": "як це працює Чи можливо це взагалі? Ось відповіді.",
+  "supportReportBug": "Повідомити про помилку поштою",
+  "supportReportBugTextIs": "Коротко опишіть поточну некоректну поведінку, тобто саму помилку.",
+  "supportReportBugTextShould": "Будь ласка, коротко опишіть бажану поведінку, тобто якою вона має бути насправді.",
+  "supportReportBugAffectedPages": "На яких сторінках виникає помилка? (якщо застосовно)",
+  "supportReportBugScreenshotsPlease": "Будь ласка, додайте до листа скріншот, бажано з позначкою про помилку.",
+  "supportBug": "помилка",
+  "supportReportBugLong": "Чудовий додаток! Але звичайно, все може піти не так. Якщо ви повідомляєте про помилки, ви покращуєте додаток.",
+  "supportGivePraise": "Дайте похвалу",
+  "supportGivePraiseLong": "Вам подобається додаток? дякую! Поширюйте інформацію!",
+  "supportGivePraiseRecommendation": "Порекомендуйте додаток друзям і родині. Дякуємо за будь-які рекомендації!",
+  "supportRecommend": "Я використовую програму для зчитування лічильників EHW+, щоб відстежувати споживання енергії та пов’язані з цим витрати. Можливо, це теж буде щось для вас?\n\nБільше інформації на https://www.ehwplus.com",
+  "supportGivePraiseRating": "Оцініть додаток у {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "electricityConsumption": "Споживана потужність",
+  "waterExtractionMinimumLevelLower": "Відрахування відбувається, оскільки споживання нижче за порогове значення.",
+  "outdatedCounters": "Лічильники більше не використовуються",
+  "isOutdatedCounter": "Лічильник більше не використовується",
+  "waterConsumption": "Споживання води",
+  "rooms": "Кімнати",
+  "messageNoRooms": "Приміщень ще немає. Кімнати допомагають групові лічильники.",
+  "settingObjectType": "Тип об'єкта",
+  "settingObjectTypeFlat": "Квартира",
+  "settingObjectTypeHouse": "Будинок",
+  "settingLivingArea": "Житлова площа",
+  "unitSquareMeters": "кв.м",
+  "unitMWhShort": "МВт*год",
+  "unitMWhLong": "{count, plural, one {Мегават-година (МВт-год)} other {Мегават-годин (МВт-год)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitKWhShort": "кВт/год",
+  "unitKWhLong": "{count, plural, one {Кіловат-година (кВт-год)} other {Кіловат-годин (кВт-год)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitGJShort": "GJ",
+  "unitGJLong": "{count, plural, one {Гігаджоуль (ГДж)} other {Гігаджоулі (ГДж)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitLitersShort": "ℓ",
+  "unitLitersLong": "{count, plural, one {Літр (л)} other {Літр (л)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCmShort": "см",
+  "unitCmLong": "см",
+  "unitSquareMetersShort": "м²",
+  "unitSquareMetersLong": "{count, plural, one {Квадратний метр (м²)} other {Квадратних метрів (м²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCubicMetersShort": "м³",
+  "unitCubicMetersLong": "{count, plural, one {Кубічний метр (м³)} other {Кубічні метри (м³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitPercentShort": "%",
+  "unitPercentLong": "Відсоток (%)",
+  "unitKgShort": "кг",
+  "unitKgLong": "{count, plural, one {кілограм (кг)} other {кілограми (кг)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitHoursShort": "ч",
+  "unitHoursLong": "{count, plural, one {годину} other {Години (год)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitNoneFormatted": "{count, plural, one {одиниця} other {одиниць}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitMegaByteShort": "MB",
+  "unitMegaByteLong": "MB",
+  "unitGigaByteShort": "GB",
+  "unitGigaByteLong": "GB",
+  "settingHouseholdSize": "Розмір домогосподарства",
+  "settingHouseholdSizeDescription": "Кількість людей у ​​вашій родині.",
+  "settingWaterHeater": "Водонагрівач",
+  "settingEAuto": "Електричний автомобіль",
+  "settingObjectLocation": "Розташування",
+  "settingObjectLocationTitle": "Де знаходиться ваш об'єкт?",
+  "settingObjectLocationExplanation": "Введення місцезнаходження допомагає пристосувати статистику та послуги до вашого регіону.",
+  "counterBackgroundImageOfObject": "Фонове зображення для об'єкта",
+  "manageMoreThanOneObjectStep1": "Керуйте декількома об'єктами - крок 1",
+  "manageMoreThanOneObjectStep2": "Керуйте декількома об'єктами - крок 2",
+  "contracts": "Контракти",
+  "messageNoContracts": "Контрактів ще немає.",
+  "outdatedContracts": "Застарілі договори",
+  "contractType": "Тип договору",
+  "electricity": "Електрика",
+  "electricityBack": "Підведена електрика",
+  "electricityGenerated": "Вироблена електроенергія",
+  "heatPump": "Тепловий насос",
+  "coldWater": "Холодна вода",
+  "counterHeater": "Лічильник радіатора",
+  "counterDistrictHeating": "Центральне теплопостачання",
+  "counterOilHeating": "Масляне опалення",
+  "counterGas": "Лічильник газу",
+  "counterColdWater": "Лічильник холодної води",
+  "counterWaterExtraction": "Лічильник води (сад)",
+  "counterWaterExtractionExplanation": "За допомогою лічильника відрахувань можна зменшити витрати на стічні води. За допомогою цієї покупки в додатку ви можете вказати різні витрати на прісну воду та стічні води, і показники лічильника відрахувань будуть враховані у витратах на воду.",
+  "warmWater": "Тепла вода",
+  "counterWarmWater": "Лічильник теплої води",
+  "counterElectricity": "Лічильник електроенергії",
+  "counterElectricityBack": "Лічильник електроенергії (PV)",
+  "counterElectricityGenerated": "Лічильник електроенергії",
+  "counterPvFeedInCounter": "Відновлювані джерела енергії (сонячна енергія та тепло з PV/сонячними системами)",
+  "counterPvFeedInCounterExplanation": "Використовуйте лічильник подачі електроенергії, щоб реєструвати вироблену та подану електроенергію\nз фотоелектричною системою. Отриманий дохід компенсується витратами\nвитраченої електроенергії.",
+  "virtualCounter": "Віртуальний лічильник",
+  "heater": "Радіатор",
+  "gas": "газ",
+  "oil": "олія",
+  "stove": "Піч",
+  "networkCounter": "Інтернет і телефон",
+  "solarThermalCollector": "Сонячний колектор",
+  "contractTypeElectricityProvider": "Постачальник електроенергії",
+  "contractTypeWaterFees": "Плата за воду",
+  "contractTypeHeatingFees": "Плата за опалення",
+  "contractTypeOilProvider": "Постачальник нафти",
+  "contractTypeGasProvider": "Постачальник газу",
+  "contractTypeStove": "Піч",
+  "contractTypeNetwork": "Інтернет і телефон",
+  "currency": "Валюта",
+  "costsUndefinedFor": "Витрати не визначені",
+  "exportOptionReadingsTitle": "Читання значень",
+  "exportOptionReadingsSubtitle": "Зазвичай показання лічильника або споживання з нерегулярними інтервалами.",
+  "exportOptionConsumptionsTitle": "Щоденне споживання",
+  "exportOptionConsumptionsSubtitle": "Значення споживання для кожного дня з моменту першого зчитування.",
+  "settings": "Налаштування",
+  "roomOther": "інше",
+  "previouslyDeletedCounters": "Нещодавно видалені лічильники",
+  "restoreDeletedCounter": "Бажаєте відновити цей видалений лічильник?",
+  "localWriteTitle": "Збережіть у локальній папці завантажень",
+  "localWriteSubtitle": "Чи слід зберігати об’єкти та фотографії в локальній папці «{folder}» після кожної зміни?",
+  "settingUiMode": "Інтерфейс користувача",
+  "settingUiColorPalette": "Колірна палітра",
+  "settingUiModeDarkOrLight": "Темний/світлий інтерфейс користувача",
+  "settingLanguageMode": "Мова",
+  "settingUiModeOsDefault": "система",
+  "settingUiModeLight": "світло",
+  "settingUiModeDark": "Темний",
+  "appBarExpandedMode": "Панель програми з фоновим зображенням",
+  "useDismissibleSettings": "Видалити жестом пальця",
+  "useDismissibleSettingsDetailed": "Лічильники, контракти тощо можна видалити рухом збоку",
+  "settingsExternalServices": "Зовнішні служби",
+  "settingsShowTabNewsDetailed": "Чи повинна бути видима вкладка Новини/Поради?",
+  "settingsShowStromGedacht": "Чи слід відображати поради від StromGedacht щодо електромережі?",
+  "lineChartAppearanceSettings": "Зовнішній вигляд лінійних діаграм",
+  "lineChartAppearanceSettingsShowSpots": "Покажіть (круглими) плямами на лініях діаграм",
+  "supportMakeSuggestion": "Запропонуйте щось",
+  "supportMakeSuggestionLong": "Додаток живе пропозиціями користувачів. У вас є пропозиція?",
+  "featureVoting": "Особливе голосування",
+  "featureVotingOnlyOnGerman": "Це опитування не перекладено на інші мови.",
+  "notifications": "Сповіщення",
+  "notificationsEmpty": "Немає повідомлень",
+  "notificationsSmartMeterAlertFallback": "У вас є нове сповіщення смарт-лічильника.",
+  "readingNew": "Нове читання",
+  "readingUpdate": "Оновити читання",
+  "readingPrefill": "Автозаповнення показань лічильника",
+  "readingPrefillDisabled": "Автозаповнення вимкнено",
+  "readingPrefillEnableForAllCounters": "Увімкнути автозаповнення для всіх лічильників",
+  "readingPrefillDisableForAllCounters": "Вимкнути автозаповнення для всіх лічильників",
+  "readingPrefillDescription": "Показання лічильника попереднього заповнення на основі попередніх записів",
+  "readingPrefillDisabledToast": "Автозаповнення вимкнено",
+  "readingSubmitted": "Показання лічильника подано",
+  "readingDeleteConfirm": "Видалити читання?",
+  "reminderTime": "Час нагадування",
+  "reminderWeekdayExplanation": "Є нагадування читати не частіше ніж один раз на день.",
+  "reminderWeekdayExplanationSeasonal": "Для лічильників із сезонним споживанням нагадування надсилаються лише в місяцях із споживанням (працює лише якщо вказані значення за останній рік).",
+  "readingReminder": "{count, plural, one {Нагадування про читання} other {Читання нагадувань}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "readingReminders": "Читання нагадувань",
+  "readingReminderDisabled": "Нагадування про читання неактивне",
+  "readingRemindersChannel": "Читання нагадувань",
+  "readingReminderSingleBody": "Прочитайте значення {counterName} зараз",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "readingReminderMultiBody": "{count, plural, one {Зчитайте показання лічильника {count} зараз} other {Зчитайте показання лічильників {count} зараз}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contractReminder": "Нагадування про договір",
+  "outdated": "Застаріла",
+  "counterNew": "Новий лічильник",
+  "counterEdit": "Редагувати лічильник",
+  "counterGasConversionFactor": "Коефіцієнт перерахунку",
+  "counterGasCalorificValue": "Теплотворна здатність",
+  "counterGasConversionFactorHelpText": "Ca 1,0. Номер умови використовується для перетворення робочого об’єму в стандартний об’єм. Робочий стан — це стан газу в лічильнику і залежить від поточного тиску (висоти) і температури.",
+  "counterGasCalorificValueHelpText": "Теплотворна здатність: Безрозмірний коефіцієнт для перетворення виміряного об’єму газу в енергію. Природний газ: зазвичай від 9,0 до 12,5 кВт-год/м³, LPG: від 23,0 до 33,0 кВт-год/м³",
+  "counterTypeLabel": "Тип лічильника",
+  "counterMeterId": "ID лічильника",
+  "counterName": "Назва лічильника",
+  "counterContractCurrentlyUsed": "На даний момент використовується договір",
+  "counterSelected": "Вибране",
+  "counterNoContractSelected": "Договір не вибрано",
+  "counterOtherContracts": "Інші договори",
+  "counterExcludedContracts": "Виключені контракти",
+  "counterInclude": "Включати",
+  "counterExclude": "Виключити",
+  "counterTankCapacity": "Ємність бака",
+  "counterTankFillHeight": "Висота заливки",
+  "counterFactorDescription": "Чи розподіляється споживання лише на пропорційній основі? Введіть пропорцію у вигляді значення від 0,1 (10%) до 1,0 (100%).",
+  "counterTransducerFactor": "Коефіцієнт трансформації",
+  "counterProportionateConsumption": "Пропорційне споживання",
+  "counterFactor": "Фактор",
+  "counterTransducerFactorExplained": "Якщо трансформатор напруги використовується для зниження напруги до того, як вона досягне лічильника, необхідно застосувати новий коефіцієнт перетворення, щоб отримати правильні показання. Приклад: лічильник показує 100 000 кВт-год з коефіцієнтом перетворення 20. Правильне значення: 100 000 кВт-год x 20 = 2 000 000 кВт-год.",
+  "counterFractionDigits": "Цифри дробу",
+  "counterDirection": "Напрямок",
+  "counterDirectionExplanation": "Чи зменшується значення з використанням (індикатор рівня тощо) чи збільшується з використанням (години роботи пальника, лічильник масла тощо), чи кожне показання є незалежним (споживання/вихід)?",
+  "counterConsiderForTotalElectricity": "Враховуйте загальне споживання електроенергії",
+  "counterConsiderForTotalWater": "Враховуйте загальне споживання води",
+  "counterWaterExtractionMinimumLevel": "Мінімальний рівень",
+  "counterBackgroundImage": "Фонове зображення для лічильника",
+  "counterShowReadingsChart": "Показати діаграму показань",
+  "counterShowHeatmap": "Показати теплову карту",
+  "counterShowPreliminaryCurve": "Показати попередню криву",
+  "seasonalCounter": "Сезонний лічильник",
+  "seasonalElectricityCounter": "Сезонний лічильник електроенергії",
+  "counterExplainSeasonal": "Поставити лічильники на 0 влітку? Взимку показники будуть відповідати вашій нормальній моделі споживання; влітку вони залишаться плоскими.",
+  "counterIsOutdated": "Лічильник застарів",
+  "counterLinkMoreRecent": "Посилання на новіший лічильник",
+  "counterReplacedBy": "Замінено на",
+  "counterReallyDeleteLink": "Видалити посилання?",
+  "counterDeleteConfirm": "Видалити лічильник?",
+  "counterGasCalorificValueLabel": "Теплотворна здатність*",
+  "counterGasConversionFactorLabel": "Коефіцієнт перерахунку*",
+  "counterNoRoomConnection": "Немає підключення до кімнати",
+  "counterRoom": "Кімната",
+  "counterMessageRoomOptional": "Призначення кімнати допомагає з групуванням, але є необов’язковим.",
+  "teaserPurchaseVirtualCounter": "Додайте віртуальні лічильники з Premium.",
+  "teaserPurchaseWaterExtractionCounter": "Розблокуйте лічильники видобутку води за допомогою Premium.",
+  "teaserPurchaseRenewableEnergies": "Лічильники відновлюваної енергії вимагають Premium.",
+  "settingYearlyReset": "Щорічне скидання",
+  "settingYearlyResetOn": "на",
+  "settingShowCounterReadingsChart": "Показати діаграму показань",
+  "settingShowHeatmap": "Показати теплову карту",
+  "settingShowPreliminaryCurve": "Показати попередню криву",
+  "unitLiters": "літрів",
+  "unitCm": "см",
+  "unitNone": "немає",
+  "roomType": "Тип кімнати",
+  "roomName": "Назва кімнати",
+  "roomNameHint": "За бажанням призначте назву кімнати",
+  "roomNew": "Нова кімната",
+  "roomDeleteConfirm": "Видалити кімнату?",
+  "settingColor": "колір",
+  "counterNum": "Лічильники {count}",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeInFuture": "У майбутньому",
+  "timeLastUpdated": "останнє оновлення",
+  "timeSeconds": "сек",
+  "timeMinutes": "хвилин",
+  "timeHours": "години",
+  "timeDays": "днів",
+  "timeDaysWithin": "днів",
+  "timeMonth": "місяць",
+  "timeMonths": "місяців",
+  "timeMonthsWithin": "місяців",
+  "timeJustNow": "тільки зараз",
+  "timeMinutesAgo": "{minutes} хвилин тому",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{hours} годин тому",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeToday": "сьогодні",
+  "timeDayAgo": "один день тому",
+  "timeDaysAgo": "{days} днів тому",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timeMonthsAgo": "{months} місяців тому",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "timeForFirstYear": "за перший рік",
+  "timeWeek": "тиждень",
+  "timeWeeks": "тижнів",
+  "timeWithin": "У межах {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "timeYesterday": "вчора",
+  "timeMonday": "понеділок",
+  "timeTuesday": "вівторок",
+  "timeWednesday": "Середа",
+  "timeThursday": "четвер",
+  "timeFriday": "П'ятниця",
+  "timeSaturday": "Субота",
+  "timeSunday": "неділя",
+  "timeFromUndefined": "Невизначено",
+  "timeUntilUnlimited": "Необмежений",
+  "timeUntilDate": "До {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeFromDate": "Від {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReminderAtStart": "На початку",
+  "timeReminderAtEnd": "Наприкінці",
+  "timePeriodYearStart": "щорічно",
+  "timeRightNow": "Прямо зараз",
+  "timeBefore": "Раніше",
+  "purchasesUpgrade": "Оновлення",
+  "upgradeDescription": "Додаток може більше. Кращий огляд витрат, більше статистики, експорт Excel, більше лічильників, ...",
+  "purchasesWhyBuyTitle": "Навіщо мені щось купувати?",
+  "purchasesWhyBuyText": "Здійснюючи покупку, ви берете участь у моїх витратах на публікацію програми та підтримуєте подальший розвиток.",
+  "purchasesIOSRestorePurchases": "Відновити покупки",
+  "purchasesIOSRestorePurchasesDescription": "Якщо ви вже купували щось в AppStore в минулому, ви можете відновити покупки.",
+  "purchasesDisabledOnIOS": "Покупки в програмі вимкнено",
+  "purchasesDisabledOnIOSDescription": "Перевірте, чи покупки через програму вимкнено на вашому iPhone (Налаштування > Час екрану > Обмеження > Встановлення та покупки програм > Дозволити покупки через програму)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Додаток було встановлено через Testflight. Зауважте, що покупки в програмі працюють, лише якщо ви встановлюєте її через App Store.",
+  "purchasesSubscribePremium": "Підпишіться на Premium",
+  "purchasesSubscribePremiumTextLong": "Доступ до всіх платних функцій протягом періоду підписки + зовнішні температури",
+  "purchasesWebLegalNote": "З юридичних причин покупка можлива лише для телефону iPhone або Android із послугами PlayStore.",
+  "purchasesYourPurchases": "Ви маєте доступ до наступних пакетів преміум-класу:",
+  "purchasesExtensionsTitle": "Одинарні розширення",
+  "purchasesExtensionsSubtitle": "Купуйте один раз, використовуйте постійно (без підписки)",
+  "purchasesExtensionStatisticsTitle": "Розширена статистика",
+  "purchasesExtensionMultipleObjectsTitlePart": "Управління кількома об'єктами",
+  "purchasesExtensionMultipleObjectsDescription": "Введіть показники лічильників для будь-якої кількості квартир/будинків/об'єктів (а не для одного об'єкта)",
+  "purchasesExtensionsInWork": "Планується подальше розширення. Візьміть участь в опитуванні, щоб висловити свою думку.",
+  "purchasesSubscribeNow": "Підпишіться зараз",
+  "purchasesBuyNow": "Купити зараз",
+  "purchasesRedeemCode": "Активувати код",
+  "purchasesEarlyBirdSubscription": "Примітка. Якщо цю першу підписку клієнта скасовано, на неї не можна буде підписатися знову.",
+  "purchasesPurchasedIncludedInPremium": "Входить до Premium",
+  "purchasesPurchasedSubscribed": "Підписався",
+  "purchasesPurchased": "Придбаний",
+  "purchasesExtensionStatisticsDescription": "Доступ до річного/місячного/тижневого споживання електроенергії/газу/води/... + коригування періоду + детальний огляд витрат + експорт в Excel",
+  "commonAnd": "і",
+  "purchasesSubscribePremiumMonthly": "Щомісячна підписка, яку можна скасувати, лише за {price} на місяць",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Щомісячна підписка, яку можна скасувати, за ціною лояльності {price} на місяць замість {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearly": "Річна підписка, яку можна скасувати, лише за {price} на рік",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Річна підписка, яку можна скасувати, за ціною лояльності {price} на рік замість {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesStatisticsWithPremium": "З Premium ви отримуєте доступ до щомісячного порівняння{count, plural, =0{.}=1{.}other{, а також переглядаєте історичні дані для {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "years": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "smartMeterProviderTibber": "Тіббер",
+  "smartMeterProviderWwgl": "Земля Вассерверк Герауер",
+  "smartMeterProviderUndefined": "Не встановлено",
+  "sync": "Синхронізувати",
+  "costsUndefinedForType": "{type} для невизначеного",
+  "costsUndefinedElectricity": "Плата за електроенергію",
+  "costsUndefinedColdWater": "Плата за холодну воду",
+  "costsUndefinedWarmWater": "Плата за гарячу воду",
+  "costsUndefinedHeater": "Плата за обігрівач",
+  "costsUndefinedOilHeating": "Плата за нафту",
+  "costsUndefinedGas": "Плата за газ",
+  "costsUndefinedNetworkCounter": "Плата за Інтернет",
+  "updateAvailable": "Версія програми {oldVersion} не актуальна. Ви можете оновити до версії {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "oldVersion": {
+        "type": "String"
+      },
+      "newVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "versionIsUpToDate": "Остання версія програми, випущена для всіх користувачів, — {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "messageNoCounters": "Ви ще не створили лічильник.",
+  "messageNoCounterReadings": "Ви ще не ввели показання лічильника.",
+  "parsingObjectError": "Об’єкт неможливо розібрати. Будь ласка, зв'яжіться з розробником. Під час видалення програми дані можуть бути втрачені.",
+  "reallyDeleteCounter": "Ви впевнені, що хочете видалити лічильник?",
+  "reallyDeletePhoto": "Ви впевнені, що хочете видалити фотографію показань лічильника?",
+  "reallyDeleteCounterLink": "Ви впевнені, що хочете видалити зв'язок між лічильниками?",
+  "virtualCounterNotConfigured": "Будь ласка, перевірте налаштування вашого віртуального лічильника. Нічого не підрахувати.",
+  "virtualCounterMasterCounter": "Майстер-лічильник",
+  "virtualCounterMasterCounterAttach": "Виберіть основний лічильник",
+  "virtualCounterMasterCounterDescription": "Інформація: основний лічильник є основою для розрахунку віртуального лічильника, наприклад, основного лічильника електроенергії або основного лічильника води.",
+  "virtualCounterMetersToBeSubtracted": "Метри, які потрібно відняти",
+  "virtualCounterMetersToBeSubtractedDescription": "Показання яких лічильників слід відняти від основного лічильника, наприклад, «лічильники теплового насоса», «лічильники споживання електроенергії».",
+  "virtualCounterMetersToBeAdded": "Метри, які потрібно додати",
+  "virtualCounterMetersToBeAddedDescription": "Покази яких лічильників слід додати до основного лічильника, наприклад, лічильників електроенергії.",
+  "areYouSure": "Ви впевнені?",
+  "addNewValue": "Введіть нове значення",
+  "reallyDeleteValue": "Ви справді хочете видалити це значення?",
+  "warning": "УВАГА",
+  "messageNotEnoughData": "Недостатньо даних для відображення діаграми",
+  "messageNoConsumptions": "Тут з’являється статистика для всіх лічильників певного типу, якщо було знято достатньо показань. Наприклад, два лічильники холодної води, два лічильники гарячої води та один лічильник водозабору відображаються в одній статистиці води.",
+  "lastReading": "останнє читання",
+  "chartDottedLinesNonSeasonal": "Пунктирні криві представляють попередній період. Для вибору «Останні 14 днів», наприклад, з’являються 28 останніх днів, причому старші 14 з них показані пунктирними.",
+  "chartDottedLinesSeasonal": "Пунктирні криві представляють попередній період. Для вибору «Останні 14 днів», наприклад, з’являються 28 останніх днів, причому старші 14 з них показані пунктирними.",
+  "chartHorizontalLines": "Пунктирні лінії призначені для надання зворотного зв’язку щодо вашого власного споживання.",
+  "chartHorizontalLineWater": "У середньому кожна людина в Німеччині щодня використовує в домогосподарстві 127 літрів питної води. Синя лінія позначає холодну воду (60%), червона лінія – гарячу воду (40%), екстрапольовану на кількість днів у періоді та кількість людей.",
+  "chartHorizontalLineElectricityGas": "Зелена лінія означає дуже хороше споживання, жовта лінія – хороше споживання, червона лінія – середнє споживання в Німеччині.",
+  "per": "пер",
+  "costSummary": "Підсумок витрат",
+  "costSummaryYield": "Ціна винагороди/-базова ціна",
+  "soFar": "поки що",
+  "forX": "для",
+  "corresponds": "відповідає",
+  "warningCounterReplacementDetected": "Нове значення нижче попереднього показника лічильника. Чи замінено лічильник?",
+  "warningYearlyReset": "Нульові показники на початку року",
+  "warningReadingSmallerThanOldValue2": "Нове значення нижче попереднього показника лічильника. Чи правильно прочитано?",
+  "warningReadingBiggerThanOldValueOilVolume": "Нове значення вище попереднього показання лічильника. Ви залили бак?",
+  "warningReadingSeemsTooBig": "Нове значення досить високе. Чи правильно прочитано?",
+  "warningReadingSeemsTooSmall": "Нове значення досить низьке. Чи правильно це було прочитано?",
+  "meterReadingsFilterAll": "Показати все",
+  "meterReadingsFilterComments": "Показати лише записи з коментарями",
+  "meterReadingsFilterSubmitted": "Показати лише \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "isLastEntryAtFilteredList": "Найстаріше значення у відфільтрованому списку",
+  "initialReading": "Початкове читання",
+  "warningReadingBiggerThanOldValue": "Нове значення вище попереднього показання лічильника.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedForYearlyResetCounter": "Остаточний показник лічильника за рік {lastYear} для {deviceTypeName} {roomNamePart} відсутній. Це необхідно для правильного розрахунку загального річного споживання.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "lastYear": {
+        "type": "String"
+      },
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedFrequency": "Останнє показання лічильника для {deviceTypeName} {roomNamePart} застаріло {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "valueLess": "{value} менше",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "valueMore": "більше {value}",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonNotEnoughData": "Поки недостатньо порівняльних даних для сайту {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      },
+      "countryCode": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonEqual": "Ви платите приблизно стільки ж, скільки в середньому в {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonDiff": "Ви платите {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} середнє значення в {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "diffWithCurrency": {
+        "type": "String"
+      },
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNamePart": "у {roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "warningOutdatedSinceText": "з {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "warningNextReminderText": "Наступне нагадування {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "counterConsiderForTotalConsumptions": "Враховуйте загальне споживання"
+}

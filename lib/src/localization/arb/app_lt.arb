@@ -1,0 +1,1704 @@
+{
+  "appDescriptionShort": "Gerai piniginei, gerai klimatui",
+  "appDescriptionLong": "<p>Sveiki atvykę į <b>EHW+</b>, jūsų skaitiklių rodmenų programėlę <b>elektr</b>ai, <b>šild</b>ymui ir <b>vand</b>eniui. Su mumis galite lengvai nemokamai sekti, kiek sunaudojate ir kiek tai kainuoja.</p>",
+  "contactTitle": "Atstovauja:",
+  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontaktai\n\nTelefonas: 06204/7383382\nEl. paštas: info@ehwplus.com",
+  "euDisputeResolution": "\n\nES ginčų sprendimas\n\nEuropos Komisija teikia internetinių ginčų sprendimo (OS) platformą: https://ec.europa.eu/consumers/odr/.\nMūsų el. pašto adresą rasite aukščiau pateiktame atspaudyje.\n\nKulietuvių ginčų sprendimas/universali ginčų sprendimo institucija\n\nMes nenorime ir neprivalome dalyvauti ginčų sprendimo procedūrose prieš vartotojų arbitražo komisiją.",
+  "consent1Hello": "Sveiki",
+  "consent2ThankYou": "Dėkojame, kad naudojatės EHW+!",
+  "consent3Video": "Ar norėtumėte pažiūrėti trumpą pristatomąjį vaizdo įrašą?",
+  "consent4BeforeYouCanContinue": "Prieš pradėdami tęsti",
+  "consent5ErrorReportingTitle": "Pranešimai apie klaidas",
+  "consent6ContractPricesPerUnitTitle": "Elektros/vanduo/dujų kainos",
+  "consent7ContractPricesPerUnit": "Kad galėtumėte įvertinti, kiek šiuo metu mokate, lyginant su kitais EHW+ vartotojais, kainos kartu su šalimi ir valstija perkeliamos į EHW+ serverį Vokietijoje. Tik tada, kai sutinkate su pervedimu, turite prieigą prie kainų statistikos. Siekiant užtikrinti anonimiškumą, statistika gali būti rodoma tik po minimalaus perduotų kainų skaičiaus.",
+  "consent11AnalyticsTitle": "Analizės duomenys",
+  "consent12Analytics": "Siekdama įvertinti programėlės ar atskirų funkcijų sėkmę, programėlė perduoda anoniminę naudojimo statistiką. Duomenys neperduodami trečiosioms šalims. Duomenys naudojami tolimesniam programėlės kūrimui.",
+  "consent13StromGedachtTitle": "Tinklo stabilumo pranešimai iš StromGedacht",
+  "consent13StromGedacht": "„TransnetBW“ teikiama paslauga „StromGedacht“ teikia informaciją apie tinklo stabilumą ir rekomendacijas, kada geriausia naudoti elektros energiją. Kadangi energijos perėjimas perdavimo tinklui tampa vis sunkesnis, pietvakarių Vokietijoje dalyvauja namų ūkiai. Norint gauti informaciją apie savo buvimo vietą, jūsų pašto kodas, jei įvedėte čia, programėlėje, persiunčiamas į TransnetBW StromGedacht API. Jokie kiti duomenys neperduodami ar susieti.",
+  "stromGedachtAgreement": "Sutinku, kad mano pašto kodas (jei nurodytas) būtų perduotas TransnetBW, kad būtų galima gauti StromGedacht pranešimus.",
+  "priceSubmissionAgreement": "Sutinku su elektros/dujų/vandens kainų už vienetą perdavimu į EHW+ serverį",
+  "googleAnalyticsAgreement": "Sutinku, kad „EHW+ Services GmbH“ būtų perduoti anoniminiai duomenys apie programėlės naudojimą.",
+  "continueAcceptPart1": "Naudodami EHW+ programėlę sutinkate su",
+  "continueAcceptPart2": ". Norėdami gauti daugiau informacijos apie anoniminių ir asmens duomenų rinkimą ir naudojimą, žr",
+  "termsOfUsageTitleShort": "Naudojimo sąlygos",
+  "faqAboutDeveloperTitle": "Kas yra už EHW+?",
+  "faqAboutDeveloperBody1": "Dėkojame, kad domitės EHW+. EHW+ išleidau aš, Timo Bähr, 2020 m. gruodžio mėn. Esu visą darbo dieną programėlių kūrėjas ir dirbu su EHW+ laisvu laiku, kad prisidėčiau prie aplinkos apsaugos. Nuo 2022 m. gegužės mėn. mano darbą prižiūri antrasis kūrėjas – Thomas Hesse kuria EHW+ pagrindines programas. Nuo 2023 m. balandžio mėn. Janine Sinner tvarko daugybę klientų atsiliepimų. Nuo 2024 m. liepos mėn. Artemas Južakovas prisijungė kaip programų kūrėjas.",
+  "faqAboutDeveloperBody2": "Daugiau nei 26 % visų CO2 emisijų Vokietijoje sukelia privatūs namų ūkiai. Jei kiekvienas galės nors šiek tiek sumažinti suvartojimą, bus pasiekta daug. Labai ačiū už jūsų indėlį!",
+  "faqAboutDeveloperBody3": "Laukiame pasiūlymų, kaip patobulinti programėlę.",
+  "faqAboutDeveloperBody4": "Tačiau prašau jūsų supratimo, kad negaliu įgyvendinti visų pasiūlymų ir naujoms funkcijoms reikia laiko.",
+  "commonCollapse": "Suskleisti",
+  "commonMore": "Daugiau",
+  "commonSave": "Išsaugoti",
+  "commonChange": "Pakeisti",
+  "commonContinue": "Tęsti",
+  "commonBack": "Atgal",
+  "commonOk": "Gerai",
+  "commonCancel": "Atšaukti",
+  "commonClose": "Uždaryti",
+  "commonOpen": "Atidaryti",
+  "commonSend": "Pateikti",
+  "commonDelete": "Ištrinti",
+  "commonYes": "Taip",
+  "commonNo": "Ne",
+  "commonLoadingData": "Įkeliami duomenys",
+  "commonDay": "diena",
+  "commonMonth": "mėnuo",
+  "commonYear": "metai",
+  "commonShare": "Bendrinti",
+  "commonCopiedToClipboard": "Nukopijuota į mainų sritį",
+  "commonLearnMore": "Sužinokite daugiau",
+  "commonMinimum": "Mažiausia dienos vertė",
+  "commonMaximum": "Didžiausia dienos vertė",
+  "heatmapLegendTitle": "Daugiau apie šilumos žemėlapį",
+  "heatmapLegendDisclaimer": "Informacija: užtamsintose dėžutėse yra apskaičiuota vertė. Norėdami sužinoti tikrąjį suvartojimą / našumą, jei įmanoma, užpildykite trūkstamus skaitiklio rodmenis.",
+  "consumptionHeatmap": "Vartojimo šilumos žemėlapis",
+  "consumptionHeatmapYield": "Išeiga Heatmap",
+  "consumption": "Vartojimas",
+  "consumptionYield": "Derlius",
+  "showAllYears": "Rodyti visus metus",
+  "appNameShort": "EHW+",
+  "appName": "EHW+ | Sąnaudos ir skaitiklių rodmenys",
+  "tabCounters": "Metrai",
+  "tabStatistics": "Statistika",
+  "tabObject": "Objektas",
+  "tabNews": "Patarimai/naujienos",
+  "ofRangeLastDays": "paskutinių {days} dienų",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeLastMonths": "už paskutinius {months} mėn",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeFrom": "nuo {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "readingTime": "Skaitymo laikas",
+  "reading": "Skaitiklio skaitymas",
+  "last2Weeks": "Paskutines 14 dienų",
+  "last12Weeks": "Paskutines 12 savaičių",
+  "last12Months": "Paskutiniai 12 mėnesių",
+  "sinceInitialReading": "Nuo pradinio skaitymo",
+  "lastYear": "Praėjusiais metais",
+  "periodCustom": "Apibrėžtas naudotojas",
+  "counterReadings": "Skaitymai",
+  "comment": "Bote",
+  "enterComment": "Įveskite pastabą",
+  "enterExistingReadingAgain": "Iš naujo įveskite seną skaitymą",
+  "meterId": "Skaitiklio ID",
+  "meterReadingSubmitted": "Perduota teikėjui",
+  "newReading": "Įveskite dabartinį rodmenį",
+  "newReadingShort": "Naujas skaitymas",
+  "readingWithFactor": "Skaitiklio skaitymas su faktoriumi",
+  "csvImportWithFactor": "Ar skaitiklio rodmenis reikia padauginti iš koeficiento, kuris nėra lygus 1,0? Pavyzdžiui, norint konvertuoti reikšmes iš Wh į kWh, jas reikėtų padauginti iš 0,001.",
+  "newPhoto": "Padarykite naują nuotrauką",
+  "existingPhoto": "Pridėkite esamą nuotrauką",
+  "newPhotoOfMeterReading": "Ar norėtumėte nufotografuoti skaitiklio rodmenis?",
+  "existingPhotoOfMeterReading": "Ar norėtumėte pridėti esamą skaitiklio rodmenų nuotrauką?",
+  "numCounters": "{count, plural, =0 {{count} skaitiklis} one {{count} skaitiklis} other {{count} skaitikliai}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numMeterReadings": "{readings, plural, one {# nuskaitymas} other {# nuskaitymai}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "firstReadingYield": "Įveskite pirmąjį derlių dabar.",
+  "firstReadingConsumption": "Įveskite pirmąjį suvartojimą dabar.",
+  "firstReadingCounter": "Įveskite pirmąjį skaitiklio rodmenį.",
+  "consumptionHeatpump": "Be to, šilumos siurblio energijos suvartojimas siekia {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearly": "Jūsų elektros energijos suvartojimas {ofRange} yra {consumption} kWh per metus.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedElectricityIntro": "Jūsų elektros suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedGasIntro": "Jūsų dujų suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel0": "yra super žemas.",
+  "consumptionYearlyDetailedLevel1": "tikrai yra į ką pažiūrėti.",
+  "consumptionYearlyDetailedLevel3": "yra palyginti aukštas.",
+  "consumptionYearlyDetailedLevel4": "yra normalu.",
+  "consumptionYearlyDetailedYouConsume": "Jūs vartojate{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLessThan": "{percentage} mažiau nei",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedMoreThan": "{percentage} daugiau nei",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedAboutSame": "maždaug toks pat kaip",
+  "consumptionYearlyDetailedAverageHousehold": "vidutinis namų ūkis su {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedOptimalEnding": "kaip tau sekasi?",
+  "consumptionYearlyDetailedLevel1Suffix": "Optimaliam suvartojimui trūksta {nextToOptimal} kWh/mėn.",
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel2Suffix": "Geram vartojimui trūksta {nextToOptimal} kWh/mėn.",
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionPersonLabel": "{count, plural, one {asmuo} other {žmonės}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "consumptionWaterPrefixSingle": "Jūs vartojate",
+  "consumptionWaterPrefixPerPerson": "Vienam žmogui visi suvartoja",
+  "consumptionWaterDailyMonthly": "apie {dailyLiters} litrų per dieną (≈ {monthlyCubicMeters} {unitName} per mėnesį).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "String"
+      },
+      "monthlyCubicMeters": {
+        "type": "String"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterRangeUnknown": "Jūsų vandens suvartojimas {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallLess": "Jūsų vandens suvartojimas {ofRange} yra {percentage} mažesnis nei vidutinis namų ūkis su {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallEqual": "Jūsų vandens suvartojimas {ofRange} atitinka vidutinį namų ūkį su {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallMore": "Jūsų vandens suvartojimas {ofRange} yra {percentage} didesnis nei vidutiniame namų ūkyje su {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdLess": "Šaltas vanduo: {percentage} mažiau nei vidutiniame namų ūkyje.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdMore": "Šaltas vanduo: {percentage} daugiau nei vidutinis namų ūkis.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdEqual": "Šaltas vanduo: maždaug toks pat, kaip vidutiniame namų ūkyje.",
+  "consumptionWaterWarmLess": "Karštas vanduo: {percentage} mažiau nei vidutinis namų ūkis.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmMore": "Karštas vanduo: {percentage} daugiau nei vidutinis namų ūkis.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmEqual": "Karštas vanduo: maždaug tiek pat, kiek vidutiniame namų ūkyje.",
+  "yearlyConsumption": "Metinis suvartojimas iki šiol",
+  "yearlyCosts": "Kol kas metinės vartojimo išlaidos",
+  "room": "Kambarys",
+  "fedIn": "Įvedė",
+  "generated": "Sukurta",
+  "residualGenerationEstimated": "Apskaičiuota likutinė generacija",
+  "residualConsumptionEstimated": "Apskaičiuotas likutinis suvartojimas",
+  "myObjects": "Mano objektai",
+  "roomLivingRoom": "Svetainė",
+  "roomDiningRoom": "Valgomasis",
+  "roomBedroom": "Miegamasis",
+  "roomBathroom": "Vonios kambarys",
+  "roomWc": "WC",
+  "roomChildrenRoom": "Vaikų kambarys",
+  "roomKitchen": "Virtuvė",
+  "roomStoreRoom": "Sandėlio patalpa",
+  "roomOffice": "Biuras",
+  "roomGarden": "Sodas",
+  "counter": "Skaitliukas",
+  "counterDirectionAscending": "kylantis",
+  "counterDirectionDescending": "nusileidžiantis",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "counterWater": "Vandens skaitikliai",
+  "counters": "Metrai",
+  "changeCounterOrder": "Jei reikia, užsakymą galite pakeisti",
+  "newCounter": "Sukurkite naują skaitiklį",
+  "updateObjectName": "Keisti objektų pavadinimus",
+  "enterObjectName": "Pavadinkite naują objektą",
+  "explanationManageMoreThanOneObject": "Turite daugiau nei vieną turtą, kurį norite valdyti? Tada pavadinkite esamą objektą ir sukurkite kitą objektą.",
+  "selectedAtAppStart": "Paleidžiant programą pasirenkamas aukščiausias objektas",
+  "reallyDeleteObject": "Ar tikrai norite ištrinti objektą?",
+  "confirmDeleteAtCloud": "Ar „{objectTitle}“ taip pat turėtų būti ištrintas iš „Google“ disko?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteObjectError": "Nepavyko ištrinti šio objekto (kodas {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "commonChangeSaved": "Pakeitimas išsaugotas",
+  "commonUpdateNow": "Atnaujinkite dabar",
+  "commonLogout": "Atsijungti",
+  "commonLogin": "Prisijunkite",
+  "commonLoggingIn": "Prisijungiame...",
+  "commonLoggingOut": "Atsijungiama...",
+  "commonNotAuthenticated": "Jūs nesate patvirtintas.",
+  "commonUserLogin": "Vartotojo prisijungimas",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Naudojate EHW+ paskyrą. {notSubmitted} iš {total} įsigytų produktų nepavyko išsaugoti EHW+ serveryje. Tikimės greitai išspręsti problemą.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Vienas pirkinys buvo sinchronizuotas per EHW+ paskyrą.} other {{count} pirkiniai buvo sinchronizuoti per EHW+ paskyrą.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Naudojate EHW+ paskyrą. Jei ateityje įsigysite produktų, jie bus sinchronizuojami visuose jūsų įrenginiuose.} one {Naudojate EHW+ paskyrą. {count} įsigytas produktas buvo išsaugotas EHW+ serveryje.} other {Naudojate EHW+ paskyrą. {count} įsigytos prekės buvo išsaugotos EHW+ serveryje.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionNotLoggedIn": "Ar naudojate programą keliuose įrenginiuose? Prisijungę prie savo EHW+ paskyros galite sinchronizuoti nustatymus ir įsigytus produktus visuose įrenginiuose.",
+  "accountUpdateInfo": "Naujiena: EHW+ vartotojo paskyra",
+  "accountThankYouForPurchase": "Ačiū! Ar norite apsaugoti pirkinį savo EHW+ vartotojo paskyroje dabar?",
+  "accountAbout": "Ką gali padaryti EHW+ vartotojo abonementas?",
+  "accountBenefit1": "Patikimesnis pirkinių atpažinimas",
+  "accountBenefit2": "Prieiga prie visų įsigytų plėtinių keliuose įrenginiuose",
+  "accountFaqTitle": "Dažniausiai užduodami klausimai:",
+  "accountFaqQ1": "Kas yra EHW+ vartotojo abonementas?",
+  "accountFaqA1": "EHW+ vartotojo abonementas siūlo alternatyvų pirkinių atkūrimo būdą, kai atkūrimas per „App Store“ neįmanomas, todėl padidėja patikimumas. Be to, tai leidžia atkurti pirkinius įrenginyje, kuriame iš pradžių nebuvo pirkta. Ateityje taip pat bus galima išsaugoti nustatymus ir kt.",
+  "accountFaqQ2": "Ar vis tiek turėsiu prieigą prie savo pirkinių be EHW+ vartotojo paskyros?",
+  "accountFaqA2": "Taip, pirkinius vis tiek galima atkurti „Android“ įrenginyje per „Play Store“ arba „iPhone“ naudojant „App Store“. EHW+ vartotojo abonementas suteikia alternatyvų pirkinių atkūrimo būdą, kai atkurti per App Store neįmanoma, todėl padidėja patikimumas. Be to, tai leidžia atkurti pirkinius įrenginyje, kuriame iš pradžių nebuvo pirkta.",
+  "accountButtonSetup": "Nustatykite EHW+ vartotojo abonementą",
+  "cometSettingsIsPredictionsApiEnabled": "Naudokite Gėtės instituto COMET Forecast API",
+  "cometConsentScreenHeader": "Naujiena: geresnės vartojimo prognozės",
+  "cometConsentScreenHowItWorksTitle": "Kaip tai veikia?",
+  "cometConsentScreenOnlineDescriptionTitle": "Su interneto ryšiu:",
+  "cometConsentScreenOnlineDescription": "Jūsų vartojimo duomenys bus siunčiami į Frankfurto Goethe universitetą, kur bus sukurta ir programėlėje rodoma individuali prognozė.",
+  "cometConsentScreenOfflineDescriptionTitle": "Be interneto ryšio:",
+  "cometConsentScreenOfflineDescription": "Jūsų įrenginyje bus apskaičiuota supaprastinta vietinė prognozė.",
+  "cometConsentScreenToggleLabel": "Naudokite prognozių paslaugą",
+  "cometConsentScreenDataCanBeUsedForTraining": "Duomenys gali būti naudojami ateities prognozėms optimizuoti",
+  "cometConsentScreenFeedbackTitle": "Goethe universitetui reikia jūsų atsiliepimų:",
+  "cometConsentScreenFeedbackDescription": "Prognozės naudojimas yra nemokamas, tačiau tyrimų komandai reikia atsiliepimų apie tai, kaip gerai veikia paslauga.",
+  "cometConsentScreenFeedbackMethod": "Atsiliepimai pateikiami automatiškai, kai naudojatės numatymo paslauga ir sutinkate su optimizavimu.",
+  "cometConsentScreenDeclineButton": "Nenoriu teikti atsiliepimų",
+  "cometConsentScreenAcceptButton": "Noriu pateikti atsiliepimą",
+  "exportTabHowToExport": "Kaip norėtumėte eksportuoti duomenis?",
+  "exportTabHowToExportOptionShare": "Bendrinkite su kitomis programomis",
+  "exportTabHowToExportOptionSaveToDownloads": "Išsaugoti aplanke {folder}",
+  "exportTabSnackBarSaveResultMessageSuccess": "Duomenys sėkmingai išsaugoti kaip {fileName} aplanke {folder}",
+  "exportTabSnackBarSaveResultMessageError": "Išsaugant duomenis įvyko klaida",
+  "importTabErrorMessageFileWithExtensionNotSelected": "Norint tęsti importavimą, reikalingas {extension} failas.",
+  "difference": "Skirtumas",
+  "period": "Laikotarpis",
+  "periodHourly": "valandinis",
+  "periodDaily": "kasdien",
+  "periodWeekly": "kas savaitę",
+  "periodBiweekly": "kas dvi savaites",
+  "periodMonthly": "kas mėnesį",
+  "periodBimonthly": "kas du mėnesius",
+  "periodQuarterly": "kas ketvirtį",
+  "periodHalfYearly": "kas pusę metų",
+  "periodYearly": "kasmet",
+  "meterCardLastUpdatedLabel": "Atnaujinta",
+  "smartMeterServiceProvider": "Paslaugų teikėjas",
+  "smartMeterObtainDataAutomatically": "Gaukite duomenis automatiškai",
+  "smartMeterErrorNoData": "Deja, nėra duomenų, kuriuos programa galėtų rodyti.",
+  "smartMeterSettingsScreenSyncButton": "Sinchronizuoti suvartojimo duomenis",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Sinchronizuojama",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Pažanga: {progressInPercent} %",
+  "smartMeterSettingsScreenSyncingDialogError": "Klaida",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Gerai",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Sinchronizuojant įvyko ši klaida: {errorMessage}",
+  "smartMeterMisconfiguredWidgetCardTitle": "Teisingai nustatykite išmanųjį skaitiklį.",
+  "smartMeterMisconfiguredWidgetCardButton": "Nustatykite išmanųjį skaitiklį",
+  "smartMeterTabConsumptions": "Vartojimas",
+  "smartMeterTabProductions": "Produkcijos",
+  "consumptionCacheManagementClearCacheButton": "Išvalyti talpyklą",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Išvalyti ir sinchronizuoti",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Išvalyti talpyklą?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Visi talpykloje saugomi vartojimo duomenys bus visam laikui ištrinti. Vėliau galėsite sinchronizuoti.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Išvalyti talpyklą ir sinchronizuoti?",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Visi talpykloje saugomi duomenys bus ištrinti ir iš naujo atsisiųsti iš serverio. Tai gali užtrukti šiek tiek laiko.",
+  "consumptionCacheManagementClearedSuccessfully": "Talpykla sėkmingai išvalyta",
+  "tibberAccessToken": "Prieigos prieigos raktas",
+  "tibberEnterAccessToken": "Įveskite prieigos raktą",
+  "tibberMessageAccessTokenUpdated": "Prieigos prieigos raktas sėkmingai atnaujintas",
+  "tibberErrorAccessTokenInvalid": "Panašu, kad prieigos raktas netinkamas",
+  "tibberErrorNoHomes": "Su šia paskyra nėra susietų namų",
+  "tibberErrorSmartMeterMisconfigured": "Panašu, kad išmanusis skaitiklis sukonfigūruotas netinkamai.",
+  "tibberErrorConnectivityShowCacheInstead": "Nepavyko gauti naujausių suvartojimo duomenų. Vietoje to rodomos talpyklos vertės.",
+  "tibberErrorUndefined": "Įvyko netikėta klaida: {error}",
+  "tibberErrorRateLimit": "Viršytas Tibber API greičio limitas. Prieš bandydami dar kartą palaukite bent 5 minutes.",
+  "tibberErrorNoSubscription": "Norėdami gauti visą prieigą prie istorinių duomenų per API, jums reikia aktyvios „Tibber“ elektros sutarties pasirinktam namui.",
+  "tibberBasicAuth": "Pagrindinis Auth",
+  "tibberBasicAuthUsername": "Vartotojo vardas",
+  "tibberBasicAuthPassword": "Slaptažodis",
+  "tibberBasicAuthEnterUsername": "Įveskite vartotojo vardą",
+  "tibberBasicAuthEnterPassword": "Įveskite slaptažodį",
+  "tibberConsumptionEntryTotalCost": "Bendra kaina: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Bendras pelnas: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpanYear": "{year} metai",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Vieneri metai nuo {year}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "{month} mėnuo",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Vienas mėnuo nuo {month}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 valandos nuo {startTime} per {date}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Viena valanda nuo {startTime} per {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Nuo: {startTime} iki {endDate}",
+  "tibberWhereIsMyAccessToken": "Kur galiu rasti savo „prieigos prieigos raktą“?",
+  "tibberActionSaveAuthorizationSettings": "Išsaugokite autorizacijos nustatymus",
+  "tibberConsentScreenHeader": "Nauja funkcija: „Tibber Pulse“ suvartojimo duomenys",
+  "tibberConsentScreenDescription": "Ar esate „Tibber“ klientas arba planuojate juo tapti? Dabar palaikome „Pulse“, kad pagerintume energijos stebėjimą. Atminkite, kad istoriniai „Pulse“ duomenys, deja, prieinami tik klientams, turintiems aktyvią „Tibber“ sutartį.",
+  "tibberConsentScreenBenefit1Title": "Peržiūrėkite savo elektros energijos suvartojimą",
+  "tibberConsentScreenBenefit1Description": "Stebėkite savo suvartojimą realiu laiku ir atraskite paslėptus energijos nešiklius.",
+  "tibberConsentScreenStoreLink": "Visit Tibber Store",
+  "tibberConsentScreenConfigureNowButton": "Dabar nustatykite „Tibber Pulse“.",
+  "tibberConsentScreenConfigureLaterButton": "Nustatykite vėliau",
+  "tibberConsentScreenGoetheStudySectionHeader": "Dalyvavimas tyrimo projekte",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Taip, aš noriu dalyvauti Goethe's tyrime",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Ar norėtumėte dalyvauti Goethe tyrime?",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Valandinis suvartojimas nuo kovo 1 d. bus anonimizuotas ir įtrauktas į Goethe tyrimą.",
+  "tibberStatusWidgetTitle": "Talpyklos valdymas",
+  "tibberStatusWidgetTibberSubscriptionStatus": "„Tibber“ prenumeratos būsena",
+  "tibberSubscriptionStatusActive": "aktyvus",
+  "tibberSubscriptionStatusInactive": "neaktyvus",
+  "tibberSubscriptionStatusLoading": "įkeliama...",
+  "tibberLiveMeasurementCounterCardViewFooter": "Tiesioginis matavimas",
+  "tibberLiveMeasurementsWidgetNotSupported": "Tiesioginiai matavimai šiame namuose nepalaikomi.",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Šiuose namuose nepalaikomi tiesioginiai matavimai arba istoriniai suvartojimo duomenys. Pasirinkite kitą namą.",
+  "tibberLiveMeasurementsWidgetConnecting": "Prisijungiama prie Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "Prisijungiant prie „Tibber Pulse“ įvyko klaida. Patikrinkite prieigos raktą ir interneto ryšį.",
+  "tibberLiveMeasurementWidgetTitle": "Dabartinis vartojimas/gamyba {time}",
+  "tibberLiveMeasurementWidgetTimestamp": "Laiko žyma",
+  "tibberLiveMeasurementWidgetPower": "Galia",
+  "tibberLiveMeasurementWidgetPowerProduction": "Energijos gamyba",
+  "tibberLiveMeasurementWidgetAveragePower": "Vidutinė galia",
+  "tibberLiveMeasurementWidgetMinPower": "Min. galia",
+  "tibberLiveMeasurementWidgetMaxPower": "Maksimali galia",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Bendras suvartojimas (nuo vidurnakčio)",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Visa produkcija (nuo vidurnakčio)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Vartojimas (paskutinė valanda)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Gamyba (praėjusią valandą)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Skaitiklio rodmenys (sunaudojimas)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Skaitiklio rodmenys (gamyba)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Sukauptos išlaidos",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Sukauptas atlygis",
+  "tibberLiveMeasurementWidgetPowerFactor": "Galios koeficientas",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Įtampa (1 fazė)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Įtampa (2 fazė)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Įtampa (3 fazė)",
+  "tibberLiveMeasurementWidgetCurrentL1": "Dabartinė (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Dabartinė (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Dabartinė (L3)",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "W",
+  "tibberLiveMeasurementWidgetUnitA": "A",
+  "tibberHomeSelectorHomeId": "Namo ID: {homeId}",
+  "tibberHomeSelectorLabel": "Pradžia",
+  "scanQrCode": "Nuskaityti aktyvinimo QR kodą",
+  "requestAccess": "Prašyti prieigos",
+  "createAccount": "Sukurti paskyrą/prisijungti",
+  "watersupplierYourSupplier": "Jūsų vandens tiekėjas",
+  "watersupplierRadioMeterDefaultName": "Radijo šalto vandens skaitiklis",
+  "watersupplierAccessRequestQ1": "Ar esate vandens telkinio baseino teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte gauti radijo skaitiklių rodmenis?",
+  "watersupplierAccessRequestQ2": "Ar jau paprašėte prieigos? Tada turite sukurti EHW+ vartotojo paskyrą.",
+  "watersupplierAccessRequestQ3": "Ar jau paprašėte prieigos ir gavote QR kodą?",
+  "watersupplierAccessRequestQ4": "Ar norėtumėte gauti skaitiklio įspėjimus, kad galėtumėte reaguoti, pavyzdžiui, sprogus vamzdžiui arba nuleidus tualetą?",
+  "watersupplierOpenReminderSettings": "Atidarykite nustatymus",
+  "watersupplierScanQrCodeTitle": "Radijo matuoklio aktyvinimas",
+  "watersupplierScanQrCodeCommand": "Nuskaitykite kairįjį QR kodą (aktyvinimo kodą)!",
+  "watersupplierScanRevokeQrCodeCommand": "Nuskaitykite tinkamą QR kodą (atšaukkite kodą)!",
+  "watersupplierScanQrCodeValidation": "Aptiktas QR kodas, patvirtinkime jį.",
+  "watersupplierScanQrCodeValidationFailed": "Atsiprašome, kodas neteisingas. Ar norite pabandyti dar kartą?",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Vietoj aktyvinimo kodo nuskaitėte atšaukimo kodą. Bandykite dar kartą!",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Vietoj atšaukimo kodo nuskaitėte aktyvinimo kodą. Bandykite dar kartą!",
+  "watersupplierScanQrCodeScanSuccessful": "Oho, aktyvinimo kodas atrodo taip gražiai! Įveskite paskutinius tris skaitiklio ID skaitmenis!",
+  "watersupplierMeterIdValidationStep": "Mes tikriname jūsų skaitiklio ID.",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Atsiprašome, deja, tai nepavyko. Tai buvo dėl mūsų serverio. Geriau bandykite dar kartą vėliau!",
+  "watersupplierCompleteMeterIdTryAgain": "Tu nepraleisi! Dar kartą įveskite tris paskutinius skaitiklio ID skaitmenis!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Pastaba: pradinį skaitiklio ID gali sudaryti daugiau nei 8 simboliai.",
+  "watersupplierScanQrCodeApprovalInProgress": "Dabar autorizuojame jūsų paskyrą, kad ateityje galėtumėte pasiekti radijo skaitiklio rodmenis.",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Taip! Jūsų radijo vandens skaitiklis „Cold Water“ tipo sėkmingai pridėtas. Jį galite rasti tarp kitų skaitiklių.",
+  "watersupplierUnlinkRadioMeterTitle": "Nutraukti radijo skaitiklio prieigą",
+  "watersupplierUnlinkRadioMeterDescription1": "Ar norite ištrinti radijo matuoklį nepanaikindami aktyvinimo kodo?",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Ištrinti radijo matuoklį",
+  "watersupplierUnlinkRadioMeterDescription2": "Ar nebenorite prieiti prie radijo skaitiklio duomenų? Atkreipkite dėmesį: kai atšaukimo kodas nuskaitomas, aktyvinimo kodas tampa negaliojantis. Bet kuri vartotojo paskyra, kuri naudojo aktyvinimo kodą, neteks prieigos.",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Nuskaitykite atšaukimo kodą",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Prieiga prie radijo vandens skaitiklio buvo atšaukta.",
+  "watersupplierNoAccess": "Nebeturite leidimo gauti duomenų.",
+  "watersupplierNoAccessDetailedMessage": "Jei manote, kad vis tiek turėtumėte turėti prieigą, dar kartą nuskaitykite aktyvinimo kodą. Jei prieigos kodas nebegalioja, pateikite naują prieigos užklausą.",
+  "zipCode": "pašto kodas",
+  "zipCodeValidationOnlyNumbers": "Galiojantį pašto kodą sudaro tik skaičiai",
+  "zipCodeValidationLength": "Įveskite {digits} skaitmenų pašto kodą",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "houseName": "Namo pavadinimas",
+  "houseNameDescription": "Namo pavadinimas, pvz.gatvės pavadinimas",
+  "marketLocationId": "Rinkos vietos ID",
+  "marketLocationIdDescription": "Prekybos vietos ID visada susideda iš 11 skaitmenų. Paprastai tai galite rasti paskutinėje elektros ar dujų sąskaitoje.",
+  "swimmingPool": "Baseinas",
+  "smartmeterInfocodeBannerText": "Išmanusis matuoklis {smartmeterId} gavo infokodą: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "smartmeterId": {
+        "type": "String"
+      },
+      "infocode": {
+        "type": "String"
+      }
+    }
+  },
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Jūsų vandens skaitiklis {smartmeterId} aptiko nuolatinį vandens srautą. Tai gali reikšti nuotėkį. Patikrinkite, ar jūsų buityje nėra nuotėkio. Tualetai ir varvantys čiaupai yra dažnos priežastys.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Jūsų vandens skaitiklis {smartmeterId} aptiko neįprastai didelį vandens suvartojimą, o tai gali reikšti vamzdžio plyšimą. Patikrinkite, ar jūsų buityje nėra didelių nuotėkių ar lūžių. Signalas taip pat gali pasirodyti, jei išnaudojote didelį kiekį vandens, pvz. baseino užpildymui.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Jūsų vandens skaitiklis {smartmeterId} aptiko neįprastai didelį vandens suvartojimą, o tai gali reikšti vamzdžio plyšimą arba baseino prisipildymą. Patikrinkite, ar jūsų buityje nėra didelių nuotėkių ar lūžių.",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "Jūsų vandens skaitiklio {smartmeterId} temperatūra nukrito žemiau 3°C. Kyla šalčio pavojus! Izoliuokite skaitiklį ir vamzdžius arba šildykite plotą, kad nepažeistumėte.",
+  "smartMeterCountersTitle": "Radijo vandens skaitikliai",
+  "counterOutdatedAndNextReminder": "Skaitiklio rodmenys paseno nuo {date}, kito skaitymo priminimas {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
+  "waterMeterEventsInformation": "{count, plural, =1 {Jūsų belaidis vandens skaitiklis {waterSupplier} aptinka netikėtą suvartojimą. Jei pageidaujate, tokiu atveju gausite pranešimą.} other {Jūsų belaidžiai vandens skaitikliai {waterSupplier} aptinka netikėtą suvartojimą. Jei pageidaujate, tokiais atvejais gausite pranešimą.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "subscribeToSmartMeterInfocodeEvents": "Norėčiau būti pranešta apie netikėtą vartojimą",
+  "completeButton": "Užbaigti",
+  "reset": "Nustatyti iš naujo",
+  "settingCounterTypeColor": "Šio skaitiklio tipo spalva",
+  "settingCounterTypeColorDescription": "Jei jums nepatinka numatytoji šio skaitiklio tipo spalva, galite priskirti kitą spalvą.",
+  "settingCounterTypeColorAdvanced": "Spalvų rinkiklis ekspertams",
+  "featureVotingUnderConstruction": "Funkcijų apklausa šiuo metu peržiūrima. Ateityje reikės EHW+ vartotojo abonemento, o apklausoje nebebus naudojami trečiųjų šalių serveriai. Dėkojame už kantrybę.",
+  "termsOfUsageTitle": "Bendrosios programėlės naudojimo sąlygos",
+  "termsOfUsageBlock1Title": "Bendrosios programėlės naudojimo sąlygos",
+  "termsOfUsageBlock1": "Prieštaravimo teisė",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2Title": "Bendra informacija apie naudojimą",
+  "termsOfUsageBlock2": "Programa ir jos funkcijos negali būti naudojamos piktnaudžiaujant. Programą naudokite tik teisiškai leistinoje apimtyje ir pagal mūsų naudojimo sąlygas. Pažeidus galiojančius Vokietijos įstatymus arba mūsų naudojimo sąlygas, teikėjas pasilieka teisę neleisti jums naudotis programa.",
+  "termsOfUsageBlock2a": "Anonimizuoti naudojimo duomenys\nMes naudojame savo analizę, kad nuolat tobulintume programą.\nPersiunčiami tik anoniminiai duomenys.\nDuomenys neperduodami trečiosioms šalims.\nNorėdami gauti daugiau informacijos, eikite į Nustatymai > Privatumas > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2b": "Pranešimai apie klaidas\n„Sentry“ (savarankiškai priglobta) naudojamas nuolat tobulinti programėlę.\nKlaidų ataskaitos nėra apdorojamos ir nesidalinamos su trečiosiomis šalimis.\nNorėdami gauti daugiau informacijos, eikite į Nustatymai > Privatumas > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2c": "Asmeninė informacija\nJei naudojate „Google“ disko sinchronizavimą, EHW+ vis tiek neturi prieigos prie jūsų įvestų duomenų. Norėdami gauti daugiau informacijos, eikite į Nustatymai > Privatumas > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock3Title": "Atsakomybė",
+  "termsOfUsageBlock3": "Teikėjas negarantuoja programėlės pasiekiamumo, patikimumo, funkcionalumo ar tinkamumo jūsų tikslams. Atsakomybė netaikoma, nebent tai yra privaloma pagal Prekės atsakomybės įstatymą, dėl tyčios, didelio neatsargumo, gyvybės, kūno ar sveikatos sužalojimo, kokybės garantijos prisiėmimo, nesąžiningo defekto nuslėpimo ar esminių sutartinių įsipareigojimų pažeidimo. Esminiai sutartiniai įsipareigojimai – tai prievolės, kurių įvykdymas yra būtinas tinkamam sutarties įvykdymui ir kurių vykdymu sutarties šalys gali reguliariai pasikliauti. Žalos, atsiradusios dėl esminių sutartinių įsipareigojimų pažeidimo, atlyginimas apsiriboja tokiai sutarčių rūšiai būdinga numatoma žala, nebent tai būtų tyčia ar didelis neatsargumas.",
+  "termsOfUsageBlock4Title": "Vartotojo pareigos",
+  "termsOfUsageBlock4": "Teikėjas negarantuoja skaičiavimo rezultatų tikslumo. Vartotojai privalo atidžiai ir savo atsakomybe atnaujinti programėlėje saugomas kainas (bazines kainas, vartojimo kainas ir kt.), kad įsitikintų, jog surašytos sąskaitos atitinka faktines mokėtinas sumas.",
+  "privacyBlock1Title": "Kūrėjas",
+  "privacyBlock1Text": "Programos (toliau – programėlė) kūrėjas / teikėjas pagal Vokietijos telemedijos įstatymo (TMG) 5 skirsnį:\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock1Text2": "Norint naudoti programą, reikia sutikti su toliau pateiktomis naudojimo sąlygomis. Atidžiai juos perskaitykite.",
+  "privacyBlock2Title": "Generolas",
+  "privacyBlock2Text": "Jūsų duomenų apsauga mums yra labai svarbi. Šioje privatumo politikoje paaiškinama, kokius asmens duomenis EHW+ renka ir kaip jie naudojami. Esminiai privatumo politikos pakeitimai yra reti, tačiau dėl naujų funkcijų, technologijų ar teisinių reikalavimų ji kartais gali būti peržiūrima. Todėl retkarčiais patikrinkite šį puslapį, kad gautumėte naujausią informaciją. Jei atliksime kokių nors reikšmingų pakeitimų, apie tai jus informuosime ir prireikus gausime jūsų sutikimą.",
+  "privacyBlock3Title": "Kokius duomenis renka {appNameShort}?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3aText": "{appNameShort} sukūrėme tam, kad galėtumėte greitai ir lengvai įvesti savo skaitiklių rodmenis, o vėliau naudodami statistiką sužinoti daugiau apie savo suvartojimą, jo išlaidas ir galimas sutaupymas. Tai reiškia, kad {appNameShort} galite įvesti, apskaičiuoti arba išsaugoti bet kokius duomenis, kuriuos paprastai vadiname „turiniu“. Šie duomenys saugomi tik jūsų mobiliajame telefone.\n\nSinchronizuoti su „Google“ disku.\nJei įgalinsite sinchronizavimą su „Google“ disku, turinio atsarginė kopija taip pat bus automatiškai sukurta jūsų „Google“ disko aplanke pavadinimu „{appNameShort}“, kurį galite pasiekti tik jūs. Prisijungus prie Google, jūsų el. pašto adresas bus matomas kūrėjui.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "googleApiAgreement": "{appNameShort} naudodamas ir perkeldamas į bet kurią kitą programėlę informaciją, gautą iš „Google“ API, laikysis „Google“ API paslaugų naudotojo duomenų politikos, įskaitant riboto naudojimo reikalavimus.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3bText": "{googleApiAgreement}\n\nVietos duomenys.\nSiekdama suprasti naudotojo elgesį ir ateities funkcijas, programa perduoda anoniminius naudojimo duomenis.\nDuomenys nėra bendrinami su trečiosiomis šalimis.\nGali būti renkama informacija apie kilmę (šalį ir miestą), kalbą, operacinę sistemą, įrenginio tipą, skiriamąją gebą, paspaudimų elgesį ir naudojimo trukmę.\n\nĮrenginio duomenys.\nRenkame duomenis apie įrenginių, kuriuos naudojate prisijungdami prie paslaugos, skaičių ir tipą, taip pat informaciją apie tų įrenginių operacinę sistemą (pvz., Android, iOS, Windows arba macOS).\n\nNaudodami programėlę sutinkate, kad būtų renkami anoniminiai duomenys, kaip aprašyta aukščiau.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyContractPriceSubmission": "Kai jūs, kaip vartotojas, tvarkote savo sutarties duomenis, elektros, vandens ir dujų sutarčių vieneto kaina kartu su šalimi ir federaline žeme perduodama į EHW+ serverį Vokietijoje. Šie duomenys naudojami kainų statistikai apskaičiuoti. Programėlės naudotojams statistika matoma kainų palyginimo forma sutarties rodinyje.\n\nNaudodamiesi programėle sutinkate su anksčiau minėtu anoniminių duomenų rinkimu.",
+  "privacyBlock4DataUsageTitle": "Kaip {appNameShort} naudoja mano duomenis?",
+  "privacyBlock4DataUsage": "Surinkti anoniminiai duomenys naudojami vartotojų elgesiui įvertinti. Be to, duomenys nebenaudojami.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock5Title": "Asmens duomenų saugojimo trukmė",
+  "privacyBlock5": "Asmens duomenų saugojimo trukmė nustatoma pagal atitinkamą įstatymų nustatytą saugojimo laikotarpį (pvz., komercinės ir mokesčių teisės saugojimo laikotarpius). Pasibaigus laikotarpiui, atitinkami duomenys yra reguliariai ištrinami, jei jie nebereikalingi sutarčiai įvykdyti ar inicijuoti ir (arba) nebeturime teisėto intereso juos toliau saugoti.",
+  "youtubeConsent1": "Mums reikia jūsų sutikimo, kad galėtume rodyti įterptą „YouTube“ turinį. Šį (taigi ir visą kitą programėlės Youtube turinį) galite parodyti vienu spustelėjimu ir vėl jį išjungti.",
+  "youtubeConsent2": "Visada rodyti Youtube turinį",
+  "youtubeConsent3": "Sutinku, kad man būtų rodomas išorinis turinys. Dėl to asmens duomenys gali būti perduodami trečiųjų šalių platformoms. Daugiau apie tai mūsų",
+  "privacyBlock6Title": "Susisiekite",
+  "privacyBlock6": "Kai susisiekiate su mumis (pvz., per kontaktinę formą arba el. paštą), renkami asmens duomenys. Kontaktinės formos atveju surinktus duomenis galite pamatyti atitinkamoje kontaktinėje formoje. Šie duomenys saugomi ir naudojami išskirtinai atsakant į jūsų užklausą arba užmegzti kontaktą ir susijusį techninį administravimą. Duomenų tvarkymo teisinis pagrindas yra mūsų teisėtas interesas atsakyti į jūsų prašymą pagal str. 6 d. 1 lit. f GDPR. Jei jūsų kontaktas yra skirtas sutarties sudarymui, papildomas teisinis duomenų tvarkymo pagrindas yra str. 6 d. 1 lit. b GDPR. Jūsų duomenys bus ištrinti po to, kai bus apdorotas jūsų užklausa, t.",
+  "privacyBlock7Title": "Suinteresuoto asmens teisės",
+  "privacyBlock7": "Taikomas duomenų apsaugos įstatymas suteikia jums, kaip duomenų subjektui, visapusiškas teises (teises į informaciją ir įsikišimą) duomenų valdytojo atžvilgiu dėl jūsų asmens duomenų tvarkymo, apie kurias mes jus informuosime toliau:\n\n- Teisė į informaciją pagal 1 str. 15 GDPR: Visų pirma, jūs turite teisę gauti informaciją apie mūsų tvarkomus savo asmens duomenis, tvarkymo tikslus, tvarkomų asmens duomenų kategorijas, gavėjus ar gavėjų kategorijas, kuriems buvo ar bus atskleisti jūsų duomenys, planuojamą saugojimo laikotarpį arba saugojimo laikotarpio nustatymo kriterijus, teisę ištaisyti, ištrinti instituciją, prieštaravimą dėl duomenų tvarkymo, prieštarauti duomenų tvarkymo priežiūrai, jei mes surinkome ne iš jūsų, automatizuoto sprendimų priėmimo, įskaitant profiliavimą, buvimą ir, kai taikoma, prasmingą informaciją apie susijusią logiką ir tokio tvarkymo svarbą bei numatomas pasekmes jums, taip pat jūsų teisę būti informuotam apie garantijas, taikomas pagal str. 46 GDPR, kai jūsų duomenys perduodami į trečiąsias šalis;\n\n- Teisė į ištaisymą pagal str. 16 GDPR: Jūs turite teisę, kad netikslūs su Jumis susiję duomenys būtų nedelsiant ištaisyti ir (arba) kad mūsų saugomi neišsamūs duomenys būtų papildyti.\n\n- Teisė į trynimą pagal str. 17 BDAR: Jūs turite teisę prašyti ištrinti savo asmens duomenis, jei laikomasi 19 str. BDAR 17 straipsnio 1 dalis. Tačiau ši teisė visų pirma netaikoma, jei tvarkymas yra būtinas siekiant įgyvendinti saviraiškos ir informacijos laisvę, įvykdyti teisinę prievolę, dėl viešojo intereso priežasčių arba siekiant pareikšti, įgyvendinti ar apginti teisinius reikalavimus.\n\n- Teisė į duomenų tvarkymo apribojimą pagal str. 18 BDAR: Jūs turite teisę reikalauti apriboti Jūsų asmens duomenų tvarkymą tol, kol bus tikrinamas Jūsų duomenų tikslumas, jeigu prieštaravote, kad Jūsų duomenys būtų ištrinti dėl neleistino duomenų tvarkymo, o vietoj to prašyti apriboti Jūsų duomenų tvarkymą, jei Jūsų duomenys reikalingi teisiniams reikalavimams pareikšti, įgyvendinti ar ginti, jei nebereikėjome šių duomenų. prieštaravimas dėl priežasčių, susijusių su jūsų konkrečia situacija, kol dar nėra aišku, ar mūsų teisėtos priežastys yra viršesnės;\n\n- Teisė būti informuotam pagal str. 19 BDAR: Jei pasinaudojote teise ištaisyti, ištrinti arba apriboti duomenų tvarkymą duomenų valdytojo atžvilgiu, duomenų valdytojas privalo pranešti visiems gavėjams, kuriems buvo atskleisti Jūsų asmens duomenys, apie šį duomenų ištaisymą, ištrynimą arba tvarkymo apribojimą, nebent tai būtų neįmanoma arba pareikalautų neproporcingų pastangų. Jūs turite teisę būti informuotas apie šiuos gavėjus.\n\n- Teisė į duomenų perkeliamumą pagal str. 20 BDAR: Jūs turite teisę gauti savo asmens duomenis, kuriuos mums pateikėte susistemintu, įprastai naudojamu ir kompiuterio skaitomu formatu, arba reikalauti, kad jie būtų perduoti kitam duomenų valdytojui, jei tai techniškai įmanoma.\n\n- Teisė atšaukti sutikimą, duotą pagal 2006 m. BDAR 7 straipsnio 3 dalis: Jūs turite teisę bet kuriuo metu atšaukti savo sutikimą tvarkyti duomenis ir galioti ateityje. Atsiėmimo atveju nedelsdami ištrinsime susijusius duomenis, nebent tolesnis tvarkymas gali būti pagrįstas teisiniu duomenų tvarkymo be sutikimo pagrindu. Sutikimo atšaukimas neturi įtakos duomenų tvarkymo, pagrįsto sutikimu iki jo atšaukimo, teisėtumui.\n\n- Teisė pateikti skundą pagal 1 str. 77 BDAR: Jei manote, kad jūsų asmens duomenų tvarkymas pažeidžia BDAR, turite teisę pateikti skundą priežiūros institucijai, ypač toje valstybėje narėje, kurioje gyvenate, savo darbo vietoje arba tariamo pažeidimo vietoje, nepažeidžiant jokių kitų administracinių ar teisminių teisių gynimo priemonių.",
+  "privacyBlock8Title": "Prieštaravimo teisė",
+  "privacyBlock8": "JEI TVARKOME JŪSŲ ASMENS DUOMENIS, PAGRINDAMUS TEISĖTAS SAVO DOKUMENTAS, KAIP SUDARYTI INTERESŲ DALYVAVIMO DALĮ, TURI TEISĘ BET KADA NEPRIESTATI ŠIAM TVARKYMO DĖL PRIEŽASČIŲ, KURIŲ SUSIJUSI DĖL JŪSŲ ATEITIS. JEI NAUDOSITE SAVO TEISE PRIEKŠTUTI, NEBUSIAME TVARKYTI SUSIJUSIŲ DUOMENŲ. TAČIAU, TOLESNIS APDOROJIMAS LIEKA ATLIKTI, JEI GALĖJAME ĮRODYTI ĮTITINAMUS TEISĖTUS TVARKYMO PAGRINDUS, KURIŲ PASKIRTA JŪSŲ INTERESES, pagrindines teises ir laisves, arba jei apdorojimas yra skirtas pareikšti, įgyvendinti arba apginti teisinius reikalavimus.\n\nJEI TVARKOME JŪSŲ ASMENS DUOMENIS TIESIOGINĖS RINKODAROS TIKSLAIS, JŪS TURITE TEISĘ BET KURIAU PRIEKŠTUTI SU JUMS SUSIJUSIŲ ASMENS DUOMENŲ TVARKYMĄ TOKIOS REKLAMOS TIKSLU. GALITE NAUDOTI SAVO TEISĘ prieštarauti, kaip aprašyta aukščiau.\n\nJEI NAUDOSITE SAVO TEISE PRIEKŠTUTI PRIEKŠTARU, NUSTOSIME TVARKYTI SU JUMS SUSIJUSIŲ DUOMENŲ TIESIOGINĖS RINKODAROS TIKSLAIS.",
+  "activityTitle": "Veikla",
+  "activitiesTitle": "Mano veikla",
+  "activitiesDescription": "Susiekite skaitiklių rodmenis su veikla, pvz., plovimu šalto vandens ir elektros skaitikliais.",
+  "sortActivities": "Pakeiskite veiklų tvarką",
+  "resetActivities": "Iš naujo nustatykite visas veiklas",
+  "addActivity": "Pridėti veiklą",
+  "activitySettings": "Veiklos nustatymai",
+  "activityOverview": "Veiklos apžvalga",
+  "activityNameLabel": "Veiklos pavadinimas",
+  "chooseActivity": "Pasirinkite veiklą",
+  "selectedActivity": "Pasirinkta veikla „${activityName}“",
+  "chooseActivityIcon": "Pasirinkite piktogramą",
+  "involvedCounters": "Dalyvauja skaitikliai",
+  "detailsTitle": "Detalės",
+  "detailWithMultiSelect": "Leisti kelis pasirinkimus",
+  "addDetail": "Pridėti detalę",
+  "editDetailTitle": "Redaguoti detales",
+  "activityWithEnergyConsumption": "Energijos suvartojimas matuojamas tik veiklai",
+  "consumptionIsNotExclusiveTitle": "Ar vartojimas išskirtinis?",
+  "consumptionIsNotExclusive": "Jei vartojimas nėra išskirtinis šiai veiklai, jis bus rodomas kaip įspėjimas.",
+  "numberOfDetails": "{count, plural, one {1 detalė} other {{count} detalės}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reallyDeleteActivity": "Tikrai ištrinti šią veiklą?",
+  "reallyDeleteDetail": "Tikrai ištrinti šią informaciją?",
+  "reallyDeleteContract": "Tikrai ištrinti šią sutartį?",
+  "contractCopyDialogTitle": "Ar norite padaryti šios sutarties kopiją?",
+  "contractCopyDialogOptionYes": "Taip, pasikeitė vieneto kaina arba kita vertė.",
+  "contractCopyDialogOptionNo": "Ne, atšaukti.",
+  "contractCopyDialogWhen": "Nuo kada galioja nauja kaina?",
+  "contractCosts": "Vieneto kaina",
+  "contractCostsFeedIn": "Atlyginimo kaina/bazinė kaina",
+  "counterWarmWaterPlusColdWater": "Išskyrus gėlo vandens ir nuotekų išlaidas",
+  "advancePayment": "Avansinis mokėjimas",
+  "bonus": "Premija",
+  "bonusInfoTitle": "Informacija apie premijų tarifus",
+  "bonusInfoText": "Tarifai su priemoka dažnai leidžia ypač daug sutaupyti keičiant teikėją. Tačiau tai paprastai atsiranda tik dėl vienkartinės premijos. Tai reiškia: bendros išlaidos yra tokios mažos tik pirmaisiais tiekimo metais. Aukštos darbo ir (arba) bazinės kainos antraisiais metais suteikia aiškiai didesnį skaičiavimą. Todėl naudodami premijų tarifus turėtumėte nuo pat pradžių planuoti, kad po vienerių metų vėl pakeisite. Ypač kritiškai reikėtų suabejoti premijiniais tarifais, kurių terminas yra dveji metai, kai toks atšaukimas apskritai nėra įmanomas.",
+  "source": "Šaltinis:",
+  "basePrice": "Bazinė kaina",
+  "gross": "grubus",
+  "net": "neto",
+  "grossNetPrices": "Bruto arba neto kaina",
+  "taxRate": "Mokesčio tarifas",
+  "perUnit": "už {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "wasteWaterPriceEnabled": "Gėlo vandens ir nuotekų sąnaudos parodomos atskirai (taikoma atskaitos skaitikliams)",
+  "pricePerUnit": "Vieneto kaina",
+  "pricePerUnitFeedIn": "Atlyginimo kaina",
+  "pricePerUnitWaterWarm": "Karšto vandens šildymo išlaidos",
+  "pricePerUnitWaterCold": "Šalto vandens kaina",
+  "pricePerUnitFreshWater": "Išlaidos už gėlą vandenį",
+  "pricePerUnitWasteWater": "Nuotekų kaina",
+  "paidAdvancePayments": "Avansiniai mokėjimai",
+  "supplementaryPayment": "Papildomas mokėjimas",
+  "refund": "Grąžinti pinigus",
+  "costs": "Išlaidos",
+  "contract": "Sutartis",
+  "contractDetails": "Sutarties trukmė ir detalės",
+  "usedForPaymentsRepayments": "Avansas, bazinė kaina ir premija",
+  "contractName": "Paslaugų teikėjas / sutarties pavadinimas",
+  "contractNumber": "Sutarties numeris",
+  "contractStart": "Sutarties pradžios data",
+  "contractPeriod": "Sutarties laikotarpis",
+  "cancellationPeriod": "Atšaukimo laikotarpis",
+  "activityWash": "Skalbimas",
+  "activityWashTemperature": "Temperatūra",
+  "activityWashDuration": "Trukmė",
+  "activityWashDuration2hrs": "2h",
+  "activityWashRotations": "Pasukimai",
+  "activityWashShort": "Trumpa programa",
+  "activityShower": "Dušas",
+  "activityBath": "Vonia",
+  "activityDishWasher": "Indaplovė",
+  "activityIron": "Lyginimas",
+  "errorNoInternet": "Nėra tinklo",
+  "errorInvalidRange": "Nėra tinkamo diapazono",
+  "syncDriveLoggedIn": "Jūsų duomenys automatiškai sinchronizuojami keliuose įrenginiuose. Naudojama ši Google paskyra:",
+  "syncDriveLoggedInNoAuto": "Po pakeitimo jūsų duomenys automatiškai įkeliami į „Google“ diską. Naujesni duomenys iš debesies perrašo vietinius duomenis tik spustelėjus objektą. Naudojama ši Google paskyra:",
+  "syncDriveDataUsage": "Jei suteiksite EHW+ prieigą prie „Google“ disko, programa turės skaitymo ir rašymo prieigą prie pačios programos sukurtų failų. Deja, failų, kuriuos sukūrė kiti per šią programą, programa nemato, o tai reiškia, kad negalima dalytis duomenimis tarp kelių paskyrų naudojant „Google“ diską.",
+  "syncAutomaticTitle": "Vietiniai duomenys gali būti perrašyti",
+  "syncShareWithOthersTitle": "Bendrinti su kitais?",
+  "syncShareWithOthersSubtitle": "Jei skaitiklio rodmenis norite įvesti kartu su kitais Google vartotojais, EHW+ turi būti suteikta visa prieiga prie Google disko.",
+  "syncShareWithOthersNotInWeb": "Suteikti prieigą šiuo metu galima tik naudojant programą.",
+  "syncWithGoogleDriveDescription": "Nes būtų gaila, jei skaitiklio rodmenys būtų prarasti, sinchronizuokite savo objektus su Google disku dabar!",
+  "driveSyncStatusTitle": "Sinchronizavimo būsena",
+  "driveSyncStatusNotSynced": "Nesinchronizuotas",
+  "driveSyncStatusFailed": "Nepavyko sinchronizuoti",
+  "driveSyncStatusComparing": "Palyginimas su failu serveryje",
+  "driveSyncStatusSyncing": "Vyksta sinchronizavimas",
+  "driveSyncStatusLocalHasLatestNoCloud": "Šiame įrenginyje iš {localDate} išsaugotas failas nėra išsaugotas debesyje",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusLocalHasLatestWithCloud": "Šiame įrenginyje iš {localDate} išsaugotas failas yra naujesnis nei failas debesyje iš {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      },
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestNoLocal": "Failas debesyje iš {cloudDate} šiame įrenginyje neišsaugomas",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestWithLocal": "Debesyje esantis failas iš {cloudDate} yra naujesnis nei vietinis failas iš {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusUpToDate": "Naujausia nuo {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncWithGoogle": "„Google“ disko sinchronizavimas",
+  "driveSyncNow": "Sinchronizuoti dabar",
+  "driveSignInWithGoogle": "Prisijunkite naudodami „Google“.",
+  "signInWithGoogle": "Prisijunkite naudodami „Google“.",
+  "signInWithApple": "Prisijunkite naudodami „Apple“.",
+  "signInWithGithub": "Prisijunkite naudodami „GitHub“.",
+  "signInWithSocialAccount": "Kurią socialinę paskyrą norite naudoti norėdami sukurti arba prisijungti prie savo EHW+ paskyros?",
+  "syncStatusFailedLong": "Nepavyko sinchronizuoti, redaguojate patys",
+  "syncStatusFailedLongNoAutoSync": "Nepavyko sinchronizuoti, redaguojate patys",
+  "syncStatusSyncRemoteHasLatest": "Debesyje esantis failas yra naujesnis nei vietinis failas",
+  "syncObjectIsLocked": "Objekto duomenys atnaujinami ir per šį laiką jų redaguoti negalima.",
+  "importExport": "Atsarginė kopija / atkūrimas",
+  "import": "Importuoti",
+  "importPickFile": "Pasirinkite failą",
+  "importSelectSingleCounter": "Vienas skaitiklis (CSV failas)",
+  "importSelectJson": "JSON failas (sukurtas naudojant {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "importWhichCounterForCsv": "Kuris skaitiklis turėtų būti naudojamas?",
+  "importNewOrExistingCounter": "Pridėti prie naujo ar esamo skaitiklio?",
+  "importConfirm": "Patvirtinkite importą",
+  "importTheObject": "Importuoti objektą",
+  "importExplanation": "Jau atlikote skaitiklio rodmenis ir norite juos įterpti?",
+  "importCounterAsCsv": "Ar norite importuoti vieną skaitiklį? Vienam metrui palaikomas CSV failas su dviem stulpeliais, vienas skirtas laikui ir vienas skaitiklio rodmenims.\n\nDuomenų pavyzdžiai:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\", 6812 036",
+  "importSuccessful": "Importuoti pavyko",
+  "importNotPossible": "Importuoti negalima",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Viena eilutė buvo ignoruota: {lines}} other {{count} eilutės ignoruotos: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Buvo naudojami tik pirmieji du stulpeliai. Trečiasis stulpelis buvo ignoruojamas.} other {Buvo naudojami tik pirmieji du stulpeliai, {columns} stulpeliai buvo ignoruojami.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "consentTitle": "Privatumo nustatymai",
+  "privacyTitle": "Privatumo politika",
+  "imprintTitle": "Įspaudas",
+  "faqTitle": "FAQ",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialTwitter": "X",
+  "export": "Eksportuoti",
+  "exportExplanation": "Kurį esamą objektą norite eksportuoti, pavyzdžiui, perkelti jį į naują įrenginį?",
+  "exportWhere": "Kokiu formatu reikia eksportuoti objektą?",
+  "exportWhichValuesShouldBeExported": "Kokias vertes reikėtų eksportuoti?",
+  "exportOptionExcel": "Excel failas",
+  "exportOptionPdf": "PDF failas",
+  "exportOptionFileDescription": "Objektas bendrinamas kaip {fileType} failas",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "socialLinkedIn": "LinkedIn",
+  "socialYouTube": "YouTube",
+  "socialEmail": "Email",
+  "social": "Socialinė žiniasklaida",
+  "support": "Pagalba / Atsiliepimai",
+  "supportQuestion": "Užduokite klausimą",
+  "supportQuestionBox": "Kaip galiu tau padėti?",
+  "supportQuestionNotFound": "Jūsų klausimas nebuvo atsakytas? mielai padėčiau.",
+  "supportQuestionLong": "Kaip tai veikia? Ar tai apskritai įmanoma? Štai atsakymai.",
+  "supportReportBug": "Pranešti apie klaidą el. paštu",
+  "supportReportBugTextIs": "Prašome trumpai apibūdinti dabartinį neteisingą elgesį, t. y. pačią klaidą.",
+  "supportReportBugTextShould": "Prašome trumpai apibūdinti norimą elgesį, t. y. kaip jis turėtų būti iš tikrųjų.",
+  "supportReportBugAffectedPages": "Kuriuose puslapiuose atsiranda klaida? (jei taikoma)",
+  "supportReportBugScreenshotsPlease": "Paštu pridėkite ekrano kopiją, pageidautina su klaidos žymėjimu.",
+  "supportBug": "Klaida",
+  "supportReportBugLong": "Puiki programėlė! Bet žinoma, viskas gali suklysti. Jei pranešate apie klaidas, patobulinsite programą.",
+  "supportGivePraise": "Pagirkite",
+  "supportGivePraiseLong": "Ar jums patinka programa? Ačiū! Skleiskite žinią!",
+  "supportGivePraiseRecommendation": "Rekomenduokite programą draugams ir šeimos nariams. Dėkojame už bet kokią rekomendaciją!",
+  "supportRecommend": "Naudoju skaitiklių nuskaitymo programėlę EHW+, kad galėčiau sekti savo energijos suvartojimą ir susijusias išlaidas. Galbūt tai būtų kažkas ir jums?\n\nDaugiau informacijos https://www.ehwplus.com",
+  "supportGivePraiseRating": "Įvertinkite programą {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "electricityConsumption": "Energijos suvartojimas",
+  "waterExtractionMinimumLevelLower": "Išskaitymas vyksta, nes suvartojimas yra mažesnis už ribą.",
+  "outdatedCounters": "Skaitikliai nebenaudojami",
+  "isOutdatedCounter": "Skaitiklis nebenaudojamas",
+  "waterConsumption": "Vandens suvartojimas",
+  "rooms": "Kambariai",
+  "messageNoRooms": "Kambarių dar nėra.Kambariai pagalbiniai grupiniai matuokliai.",
+  "settingObjectType": "Objekto tipas",
+  "settingObjectTypeFlat": "Butas",
+  "settingObjectTypeHouse": "Namas",
+  "settingLivingArea": "Gyvenamasis plotas",
+  "unitSquareMeters": "kv.m",
+  "unitMWhShort": "MWh",
+  "unitMWhLong": "{count, plural, one {Megavatvalandė (MWh)} other {Megavatvalandės (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitKWhShort": "kWh",
+  "unitKWhLong": "{count, plural, one {Kilovatvalandė (kWh)} other {Kilovatvalandės (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitGJShort": "GJ",
+  "unitGJLong": "{count, plural, one {Gigadžaulis (GJ)} other {Gigadžauliai (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitLitersShort": "ℓ",
+  "unitLitersLong": "{count, plural, one {Litras (ℓ)} other {Litrai (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCmShort": "cm",
+  "unitCmLong": "cm",
+  "unitSquareMetersShort": "m²",
+  "unitSquareMetersLong": "{count, plural, one {Kvadratinis metras (m²)} other {Kvadratinių metrų (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCubicMetersShort": "m³",
+  "unitCubicMetersLong": "{count, plural, one {Kubinis metras (m³)} other {Kubiniai metrai (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitPercentShort": "%",
+  "unitPercentLong": "Percent (%)",
+  "unitKgShort": "kg",
+  "unitKgLong": "{count, plural, one {Kilogramas (kg)} other {Kilogramai (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitHoursShort": "h",
+  "unitHoursLong": "{count, plural, one {Valanda} other {Valandos (h)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitNoneFormatted": "{count, plural, one {vienetas} other {vienetų}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitMegaByteShort": "MB",
+  "unitMegaByteLong": "MB",
+  "unitGigaByteShort": "GB",
+  "unitGigaByteLong": "GB",
+  "settingHouseholdSize": "Namų ūkio dydis",
+  "settingHouseholdSizeDescription": "Jūsų namų ūkio žmonių skaičius.",
+  "settingWaterHeater": "Vandens šildytuvas",
+  "settingEAuto": "Elektromobilis",
+  "settingObjectLocation": "Vieta",
+  "settingObjectLocationTitle": "Kur yra jūsų objektas?",
+  "settingObjectLocationExplanation": "Vietovės įvedimas padeda pritaikyti įžvalgas ir paslaugas jūsų vietovei.",
+  "counterBackgroundImageOfObject": "Objekto fono vaizdas",
+  "manageMoreThanOneObjectStep1": "Tvarkykite daugiau nei vieną objektą – 1 veiksmas",
+  "manageMoreThanOneObjectStep2": "Valdykite daugiau nei vieną objektą – 2 veiksmas",
+  "contracts": "Sutartys",
+  "messageNoContracts": "Sutarčių dar nėra.",
+  "outdatedContracts": "Pasenusios sutartys",
+  "contractType": "Sutarties tipas",
+  "electricity": "Elektra",
+  "electricityBack": "Įvesta elektra",
+  "electricityGenerated": "Gaminama elektra",
+  "heatPump": "Šilumos siurblys",
+  "coldWater": "Šaltas vanduo",
+  "counterHeater": "Radiatoriaus matuoklis",
+  "counterDistrictHeating": "Centralizuotas šildymas",
+  "counterOilHeating": "Alyvos šildymas",
+  "counterGas": "Dujų skaitiklis",
+  "counterColdWater": "Šalto vandens skaitiklis",
+  "counterWaterExtraction": "Vandens ištraukimo skaitiklis (sodas)",
+  "counterWaterExtractionExplanation": "Su atskaitiniu skaitikliu galima sumažinti nuotekų sąnaudas. Naudodami šį pirkinį programoje galite nurodyti skirtingas gėlo vandens ir nuotekų išlaidas, o skaitiklio rodmenys iš atskaitos skaitiklio bus atsižvelgta į vandens išlaidas.",
+  "warmWater": "Šiltas vanduo",
+  "counterWarmWater": "Šilto vandens skaitiklis",
+  "counterElectricity": "Elektros skaitiklis",
+  "counterElectricityBack": "Elektros tiekimo skaitiklis (PV)",
+  "counterElectricityGenerated": "Elektros gamybos skaitiklis",
+  "counterPvFeedInCounter": "Atsinaujinanti energija (saulės energija ir šiluma su PV / saulės sistemomis)",
+  "counterPvFeedInCounterExplanation": "Pagamintai ir tiekiamai elektros energijai registruoti naudokite elektros tiekimo skaitiklį\nsu fotovoltine sistema. Gautos pajamos kompensuojamos iš išlaidų\npaimta elektra.",
+  "virtualCounter": "Virtualus matuoklis",
+  "heater": "Radiatorius",
+  "gas": "Dujos",
+  "oil": "Aliejus",
+  "stove": "Viryklė",
+  "networkCounter": "Internetas ir telefonas",
+  "solarThermalCollector": "Saulės šilumos kolektorius",
+  "contractTypeElectricityProvider": "Elektros tiekėjas",
+  "contractTypeWaterFees": "Mokesčiai už vandenį",
+  "contractTypeHeatingFees": "Mokesčiai už šildymą",
+  "contractTypeOilProvider": "Naftos tiekėjas",
+  "contractTypeGasProvider": "Dujų tiekėjas",
+  "contractTypeStove": "Viryklė",
+  "contractTypeNetwork": "Internetas ir telefonas",
+  "currency": "Valiuta",
+  "costsUndefinedFor": "Išlaidos neapibrėžtos",
+  "exportOptionReadingsTitle": "Vertybių skaitymas",
+  "exportOptionReadingsSubtitle": "Paprastai skaitiklių rodmenys arba suvartojimas nereguliariais intervalais.",
+  "exportOptionConsumptionsTitle": "Kasdienis vartojimas",
+  "exportOptionConsumptionsSubtitle": "Vartojimo vertė kiekvienai dienai nuo pirmojo skaitymo.",
+  "settings": "Nustatymai",
+  "roomOther": "Kita",
+  "previouslyDeletedCounters": "Neseniai ištrinti skaitikliai",
+  "restoreDeletedCounter": "Ar norėtumėte atkurti šį ištrintą matuoklį?",
+  "localWriteTitle": "Išsaugokite vietiniame atsisiuntimo aplanke",
+  "localWriteSubtitle": "Ar su kiekvienu pakeitimu objektai ir nuotraukos turi būti išsaugoti vietiniame „{folder}“ aplanke?",
+  "settingUiMode": "Vartotojo sąsaja",
+  "settingUiColorPalette": "Spalvų paletė",
+  "settingUiModeDarkOrLight": "Tamsi/šviesi vartotojo sąsaja",
+  "settingLanguageMode": "Kalba",
+  "settingUiModeOsDefault": "Sistema",
+  "settingUiModeLight": "Šviesa",
+  "settingUiModeDark": "Tamsus",
+  "appBarExpandedMode": "Programų juosta su fono paveikslėliu",
+  "useDismissibleSettings": "Ištrinkite braukdami gestu",
+  "useDismissibleSettingsDetailed": "Skaitiklius, sutartis ir kt. galima ištrinti braukiant į šoną",
+  "settingsExternalServices": "Išorinės paslaugos",
+  "settingsShowTabNewsDetailed": "Ar turėtų būti matomas skirtukas Naujienos / patarimai?",
+  "settingsShowStromGedacht": "Ar turėtų būti rodomi StromGedacht patarimai apie elektros tinklą?",
+  "lineChartAppearanceSettings": "Linijinių diagramų išvaizda",
+  "lineChartAppearanceSettingsShowSpots": "Rodyti (apvalias) dėmes diagramų linijose",
+  "supportMakeSuggestion": "Pasiūlykit ką nors",
+  "supportMakeSuggestionLong": "Programa veikia iš naudotojų pasiūlymų. Ar turite pasiūlymą?",
+  "featureVoting": "Balsavimas už funkciją",
+  "featureVotingOnlyOnGerman": "Funkcijų apklausa nėra išversta į kitas kalbas.",
+  "notifications": "Pranešimai",
+  "notificationsEmpty": "Jokių pranešimų",
+  "notificationsSmartMeterAlertFallback": "Turite naują išmaniojo skaitiklio įspėjimą.",
+  "readingNew": "Naujas skaitymas",
+  "readingUpdate": "Atnaujinti rodmenį",
+  "readingPrefill": "Automatinio užpildymo skaitiklio rodmuo",
+  "readingPrefillDisabled": "Automatinis pildymas išjungtas",
+  "readingPrefillEnableForAllCounters": "Įgalinti visų skaitiklių automatinį pildymą",
+  "readingPrefillDisableForAllCounters": "Išjungti visų skaitiklių automatinį pildymą",
+  "readingPrefillDescription": "Iš anksto užpildykite skaitiklio rodmenis pagal ankstesnius įrašus",
+  "readingPrefillDisabledToast": "Automatinis pildymas išjungtas",
+  "readingSubmitted": "Pateiktas skaitiklio rodmuo",
+  "readingDeleteConfirm": "Ištrinti skaitymą?",
+  "reminderTime": "Priminimo laikas",
+  "reminderWeekdayExplanation": "Yra priminimas skaityti ne dažniau kaip kartą per dieną.",
+  "reminderWeekdayExplanationSeasonal": "Skaitikliai su sezoniniu suvartojimu priminimai siunčiami tik mėnesiais su suvartojimu (veikia tik jei pateikiamos paskutinių metų vertės).",
+  "readingReminder": "{count, plural, one {Skaitymo priminimas} other {Priminimų skaitymas}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "readingReminders": "Priminimų skaitymas",
+  "readingReminderDisabled": "Skaitymo priminimas neaktyvus",
+  "readingRemindersChannel": "Priminimų skaitymas",
+  "readingReminderSingleBody": "Skaitykite {counterName} reikšmę dabar",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "readingReminderMultiBody": "{count, plural, one {Skaityti {count} matuoklio rodmenį dabar} other {Skaityti {count} matuoklio rodmenis dabar}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contractReminder": "Sutarties priminimas",
+  "outdated": "Pasenusi",
+  "counterNew": "Naujas skaitiklis",
+  "counterEdit": "Redaguoti skaitiklį",
+  "counterGasConversionFactor": "Konversijos koeficientas",
+  "counterGasCalorificValue": "Kaloringumas",
+  "counterGasConversionFactorHelpText": "apie 1,0. Sąlygos numeris naudojamas darbiniam tūriui konvertuoti į standartinį tūrį. Veikimo sąlyga – tai dujų būklė skaitiklyje ir priklauso nuo slėgio (aukščio) ir temperatūros.",
+  "counterGasCalorificValueHelpText": "Šildymo vertė: bematis koeficientas, skirtas išmatuotą dujų tūrį paversti energija. Gamtinės dujos: paprastai nuo 9,0 iki 12,5 kWh/m³, SND: nuo 23,0 iki 33,0 kWh/m³",
+  "counterTypeLabel": "Skaitiklio tipas",
+  "counterMeterId": "Skaitiklio ID",
+  "counterName": "Skaitiklio pavadinimas",
+  "counterContractCurrentlyUsed": "Šiuo metu naudojama sutartis",
+  "counterSelected": "Pasirinkta",
+  "counterNoContractSelected": "Sutartis nepasirinkta",
+  "counterOtherContracts": "Kitos sutartys",
+  "counterExcludedContracts": "Neįtrauktos sutartys",
+  "counterInclude": "Įtraukti",
+  "counterExclude": "Išskirti",
+  "counterTankCapacity": "Bako talpa",
+  "counterTankFillHeight": "Užpildymo aukštis",
+  "counterFactorDescription": "Ar vartojimas jums paskirstomas tik proporcingai? Įveskite proporciją kaip reikšmę nuo 0,1 (10 %) iki 1,0 (100 %).",
+  "counterTransducerFactor": "Transformatoriaus santykis",
+  "counterProportionateConsumption": "Proporcingas vartojimas",
+  "counterFactor": "veiksnys",
+  "counterTransducerFactorExplained": "Jei įtampos transformatorius naudojamas įtampai sumažinti prieš jai pasiekiant skaitiklį, norint gauti teisingus rodmenis, reikia taikyti naują konversijos koeficientą. Pavyzdys: skaitiklis rodo 100 000 kWh, o konversijos koeficientas yra 20. Teisingas rodmuo yra: 100 000 kWh x 20 = 2 000 000 kWh.",
+  "counterFractionDigits": "Trupmenos skaitmenys",
+  "counterDirection": "Kryptis",
+  "counterDirectionExplanation": "Ar vertė mažėja naudojant (lygio indikatorius ir t. t.) ar didėja naudojant (degiklio valandos, alyvos skaitiklis ir pan.), ar kiekviena rodmenų reikšmė nepriklauso (sąnaudos / išeiga)?",
+  "counterConsiderForTotalElectricity": "Atsižvelkite į bendrą elektros suvartojimą",
+  "counterConsiderForTotalWater": "Atsižvelkite į bendrą vandens suvartojimą",
+  "counterWaterExtractionMinimumLevel": "Minimalus lygis",
+  "counterBackgroundImage": "Fono vaizdas skaitikliui",
+  "counterShowReadingsChart": "Rodyti rodmenų lentelę",
+  "counterShowHeatmap": "Rodyti šilumos žemėlapį",
+  "counterShowPreliminaryCurve": "Rodyti preliminarią kreivę",
+  "seasonalCounter": "Sezoninis skaitiklis",
+  "seasonalElectricityCounter": "Sezoninis elektros skaitiklis",
+  "counterExplainSeasonal": "Nustatyti skaitiklio rodmenis į 0 vasarą? Žiemą rodmenys atitiks įprastą vartojimo būdą; vasarą jie liks plokšti.",
+  "counterIsOutdated": "Skaitiklis pasenęs",
+  "counterLinkMoreRecent": "Susieti naujesnį skaitiklį",
+  "counterReplacedBy": "Pakeistas",
+  "counterReallyDeleteLink": "Ištrinti nuorodą?",
+  "counterDeleteConfirm": "Ištrinti skaitiklį?",
+  "counterGasCalorificValueLabel": "kaloringumas*",
+  "counterGasConversionFactorLabel": "Konversijos koeficientas*",
+  "counterNoRoomConnection": "Nėra kambario ryšio",
+  "counterRoom": "Kambarys",
+  "counterMessageRoomOptional": "Kambario užduotis padeda grupuoti, bet yra neprivaloma.",
+  "teaserPurchaseVirtualCounter": "Pridėkite virtualius skaitiklius naudodami „Premium“.",
+  "teaserPurchaseWaterExtractionCounter": "Atrakinkite vandens ištraukimo skaitiklius naudodami Premium.",
+  "teaserPurchaseRenewableEnergies": "Atsinaujinančios energijos skaitikliai reikalauja Premium.",
+  "settingYearlyReset": "Kasmetinis nustatymas iš naujo",
+  "settingYearlyResetOn": "įjungta",
+  "settingShowCounterReadingsChart": "Rodyti rodmenų lentelę",
+  "settingShowHeatmap": "Rodyti šilumos žemėlapį",
+  "settingShowPreliminaryCurve": "Rodyti preliminarią kreivę",
+  "unitLiters": "litrų",
+  "unitCm": "cm",
+  "unitNone": "jokios",
+  "roomType": "Kambario tipas",
+  "roomName": "Kambario pavadinimas",
+  "roomNameHint": "Pasirinktinai priskirkite kambario pavadinimą",
+  "roomNew": "Naujas kambarys",
+  "roomDeleteConfirm": "Ištrinti kambarį?",
+  "settingColor": "Spalva",
+  "counterNum": "{count} skaitikliai",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeInFuture": "Ateityje",
+  "timeLastUpdated": "paskutinį kartą atnaujinta",
+  "timeSeconds": "sek",
+  "timeMinutes": "minučių",
+  "timeHours": "valandų",
+  "timeDays": "dienų",
+  "timeDaysWithin": "dienų",
+  "timeMonth": "mėnuo",
+  "timeMonths": "mėnesių",
+  "timeMonthsWithin": "mėnesių",
+  "timeJustNow": "tik dabar",
+  "timeMinutesAgo": "Prieš {minutes} minutes",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "PHTOKEN prieš 0 val",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeToday": "šiandien",
+  "timeDayAgo": "prieš vieną dieną",
+  "timeDaysAgo": "Prieš {days} dienas",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timeMonthsAgo": "PHTOKEN prieš 0 mėnesių",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "timeForFirstYear": "pirmiems metams",
+  "timeWeek": "savaitę",
+  "timeWeeks": "savaites",
+  "timeWithin": "{duration} viduje",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "timeYesterday": "vakar",
+  "timeMonday": "pirmadienis",
+  "timeTuesday": "antradienis",
+  "timeWednesday": "trečiadienis",
+  "timeThursday": "ketvirtadienis",
+  "timeFriday": "penktadienis",
+  "timeSaturday": "šeštadienis",
+  "timeSunday": "sekmadienis",
+  "timeFromUndefined": "Neapibrėžta",
+  "timeUntilUnlimited": "Neribota",
+  "timeUntilDate": "Iki {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeFromDate": "Nuo {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReminderAtStart": "Pradžioje",
+  "timeReminderAtEnd": "Pabaigoje",
+  "timePeriodYearStart": "kasmet",
+  "timeRightNow": "Šiuo metu",
+  "timeBefore": "Prieš",
+  "purchasesUpgrade": "Atnaujinti",
+  "upgradeDescription": "Programa gali padaryti daugiau. Geresnė išlaidų apžvalga, daugiau statistikos, „Excel“ eksportas, daugiau skaitiklių, ...",
+  "purchasesWhyBuyTitle": "Kodėl turėčiau ką nors nusipirkti?",
+  "purchasesWhyBuyText": "Pirkdami dalyvaujate mano patirtuose išlaidoms paskelbti programėlę ir remiate tolesnę plėtrą.",
+  "purchasesIOSRestorePurchases": "Atkurti pirkinius",
+  "purchasesIOSRestorePurchasesDescription": "Jei jau ką nors įsigijote „AppStore“, galite atkurti pirkinius.",
+  "purchasesDisabledOnIOS": "Pirkiniai programoje išjungti",
+  "purchasesDisabledOnIOSDescription": "Patikrinkite, ar jūsų iPhone išjungtas pirkimas programoje (Nustatymai > Ekrano laikas > Apribojimai > Programų diegimas ir pirkimas > Leisti pirkinius programoje)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Programa buvo įdiegta per „Testflight“. Atminkite, kad pirkiniai programoje veikia tik tuo atveju, jei ją įdiegiate per „App Store“.",
+  "purchasesSubscribePremium": "Prenumeruoti Premium",
+  "purchasesSubscribePremiumTextLong": "Prieiga prie visų mokamų funkcijų prenumeratos laikotarpiu + lauko temperatūra",
+  "purchasesWebLegalNote": "Dėl teisinių priežasčių pirkti galima tik iPhone arba Android telefoną su PlayStore paslaugomis.",
+  "purchasesYourPurchases": "Turite prieigą prie šių aukščiausios kokybės paketų:",
+  "purchasesExtensionsTitle": "Pavieniai plėtiniai",
+  "purchasesExtensionsSubtitle": "Pirkite vieną kartą, naudokite visam laikui (be prenumeratos)",
+  "purchasesExtensionStatisticsTitle": "Išplėstinė statistika",
+  "purchasesExtensionMultipleObjectsTitlePart": "Kelių objektų valdymas",
+  "purchasesExtensionMultipleObjectsDescription": "Įveskite kiek norite butų/namų/objektų skaitiklių rodmenis (o ne tik vieno objekto)",
+  "purchasesExtensionsInWork": "Planuojami tolesni pratęsimai. Dalyvaukite funkcijų apklausoje ir išsakykite savo nuomonę.",
+  "purchasesSubscribeNow": "Prenumeruokite dabar",
+  "purchasesBuyNow": "Pirkti dabar",
+  "purchasesRedeemCode": "Išpirkti kodą",
+  "purchasesEarlyBirdSubscription": "Pastaba: jei ši pirmą kartą besinaudojančio kliento prenumerata atšaukiama, vėliau jos nebebus galima užsiprenumeruoti.",
+  "purchasesPurchasedIncludedInPremium": "Įtraukta į „Premium“.",
+  "purchasesPurchasedSubscribed": "Prenumeruoti",
+  "purchasesPurchased": "Nupirktas",
+  "purchasesExtensionStatisticsDescription": "Prieiga prie metinio/mėnesio/savaitinio elektros/dujų/vandens/... suvartojimo + laikotarpio koregavimų + išsami išlaidų apžvalga + Excel eksportas",
+  "commonAnd": "ir",
+  "purchasesSubscribePremiumMonthly": "Mėnesio atšaukiama prenumerata tik už {price} per mėnesį",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Mėnesio atšaukiama prenumerata lojalumo kaina {price} per mėnesį vietoj {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearly": "Kasmet atšaukiama prenumerata tik už {price} per metus",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Metinė atšaukiama prenumerata lojalumo kaina {price} per metus vietoj {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesStatisticsWithPremium": "Naudodami „Premium“ gausite prieigą prie mėnesinio palyginimo{count, plural, =0{.}=1{.}other{ ir taip pat matysite istorinius {years} duomenis.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "years": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterProviderUndefined": "Nenustatyta",
+  "sync": "Sinchronizuoti",
+  "costsUndefinedForType": "{type} neapibrėžtam",
+  "costsUndefinedElectricity": "Mokesčiai už elektrą",
+  "costsUndefinedColdWater": "Šalto vandens mokesčiai",
+  "costsUndefinedWarmWater": "Mokesčiai už šiltą vandenį",
+  "costsUndefinedHeater": "Šildytuvo mokesčiai",
+  "costsUndefinedOilHeating": "Naftos mokesčiai",
+  "costsUndefinedGas": "Dujų mokesčiai",
+  "costsUndefinedNetworkCounter": "Interneto mokesčiai",
+  "updateAvailable": "Programos versija {oldVersion} neatnaujinta. Galite atnaujinti į {newVersion} versiją.",
+  "@updateAvailable": {
+    "placeholders": {
+      "oldVersion": {
+        "type": "String"
+      },
+      "newVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "versionIsUpToDate": "Naujausia programos versija, išleista visiems vartotojams, yra {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "messageNoCounters": "Dar nesukūrėte skaitiklio.",
+  "messageNoCounterReadings": "Dar neįvedėte skaitiklio rodmens.",
+  "parsingObjectError": "Objekto negalima išanalizuoti. Susisiekite su kūrėju. Pašalinus programą, duomenys gali būti prarasti.",
+  "reallyDeleteCounter": "Ar tikrai norite ištrinti skaitiklį?",
+  "reallyDeletePhoto": "Ar tikrai norite ištrinti skaitiklio rodmenų nuotrauką?",
+  "reallyDeleteCounterLink": "Ar tikrai norite ištrinti nuorodą tarp skaitiklių?",
+  "virtualCounterNotConfigured": "Patikrinkite savo virtualaus matuoklio nustatymus. Nieko negalima apskaičiuoti.",
+  "virtualCounterMasterCounter": "Meistras matuoklis",
+  "virtualCounterMasterCounterAttach": "Pasirinkite pagrindinį matuoklį",
+  "virtualCounterMasterCounterDescription": "Informacija: Pagrindinis skaitiklis yra virtualaus skaitiklio, pvz., pagrindinio elektros skaitiklio arba pagrindinio vandens skaitiklio, skaičiavimo pagrindas.",
+  "virtualCounterMetersToBeSubtracted": "Atimami metrai",
+  "virtualCounterMetersToBeSubtractedDescription": "Kokius skaitiklių rodmenis reikia atimti iš pagrindinio skaitiklio, pvz., \"šilumos siurblio skaitikliai\", \"elektros padavimo skaitikliai\".",
+  "virtualCounterMetersToBeAdded": "Pridedami skaitikliai",
+  "virtualCounterMetersToBeAddedDescription": "Kokius skaitiklių rodmenis reikia pridėti prie pagrindinio skaitiklio, pvz., elektros energijos gamybos skaitikliai.",
+  "areYouSure": "Ar esi tikras?",
+  "addNewValue": "Įveskite naują vertę",
+  "reallyDeleteValue": "Ar tikrai norite ištrinti šią vertę?",
+  "warning": "Įspėjimas",
+  "messageNotEnoughData": "Nepakanka duomenų diagramai rodyti",
+  "messageNoConsumptions": "Čia rodoma visų tam tikro tipo skaitiklių statistika, jei parodyta pakankamai. Pavyzdžiui, du šalto vandens skaitikliai, du karšto vandens skaitikliai ir vienas vandens ištraukimo skaitiklis rodomi vienoje vandens statistikoje.",
+  "lastReading": "paskutinis skaitymas",
+  "chartDottedLinesNonSeasonal": "Brūkšninės kreivės rodo ankstesnį laikotarpį. Pavyzdžiui, pasirinkus „Paskutinės 14 dienų“, rodomos 28 paskutinės dienos, o senesnės 14 iš jų rodomos brūkšniu.",
+  "chartDottedLinesSeasonal": "Brūkšninės kreivės rodo ankstesnį laikotarpį. Pavyzdžiui, pasirinkus „Paskutinės 14 dienų“, rodomos 28 paskutinės dienos, o senesnės 14 iš jų rodomos brūkšniu.",
+  "chartHorizontalLines": "Brūkšninės linijos skirtos pateikti atsiliepimą apie jūsų suvartojimą.",
+  "chartHorizontalLineWater": "Vidutiniškai kiekvienas Vokietijos gyventojas per dieną namuose sunaudoja 127 litrus geriamojo vandens. Mėlyna linija žymi šaltą vandenį (60%), raudona linija karštą vandenį (40%), ekstrapoliuota į laikotarpio dienų skaičių ir žmonių skaičių.",
+  "chartHorizontalLineElectricityGas": "Žalia linija žymi labai gerą vartojimą, geltona – gerą vartojimą, raudona – vidutinį Vokietijos suvartojimą.",
+  "per": "per",
+  "costSummary": "Išlaidų suvestinė",
+  "costSummaryYield": "Atlyginimo kaina/-bazinė kaina",
+  "soFar": "kol kas",
+  "forX": "už",
+  "corresponds": "atitinka",
+  "warningCounterReplacementDetected": "Nauja vertė yra mažesnė nei ankstesnis skaitiklio rodmuo. Ar skaitiklis pakeistas?",
+  "warningYearlyReset": "Nulis skaitymo metų pradžioje",
+  "warningReadingSmallerThanOldValue2": "Nauja vertė yra mažesnė nei ankstesnis skaitiklio rodmuo. Ar teisingai skaitote?",
+  "warningReadingBiggerThanOldValueOilVolume": "Nauja vertė yra didesnė nei ankstesnis skaitiklio rodmuo. Ar užpildėte baką?",
+  "warningReadingSeemsTooBig": "Nauja vertė yra gana didelė. Ar teisingai skaitote?",
+  "warningReadingSeemsTooSmall": "Nauja vertė yra gana maža. Ar perskaityta teisingai?",
+  "meterReadingsFilterAll": "Rodyti viską",
+  "meterReadingsFilterComments": "Rodyti tik įrašus su komentarais",
+  "meterReadingsFilterSubmitted": "Rodyti tik „{state}“",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "isLastEntryAtFilteredList": "Seniausia reikšmė filtruotame sąraše",
+  "initialReading": "Pradinis skaitymas",
+  "warningReadingBiggerThanOldValue": "Nauja vertė yra didesnė nei ankstesnis skaitiklio rodmuo.{isOilCounter, select, true { Ar papildėte baką?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedForYearlyResetCounter": "Nėra galutinio {lastYear} metų {deviceTypeName} {roomNamePart} skaitiklio rodmens. Tai būtina norint teisingai apskaičiuoti bendrą metinį suvartojimą.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "lastYear": {
+        "type": "String"
+      },
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedFrequency": "Naujausias {deviceTypeName} {roomNamePart} skaitiklio rodmuo yra pasenęs {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "valueLess": "{value} mažiau",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "valueMore": "{value} daugiau",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonNotEnoughData": "Dar nepakanka palyginamųjų duomenų svetainei {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      },
+      "countryCode": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonEqual": "Mokate maždaug tiek pat, kiek vidutiniškai {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonDiff": "Mokate {diffWithCurrency} {comparison, select, more {daugiau nei} less {mažiau nei} other {daugiau nei}} {countryName} vidurkį.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "diffWithCurrency": {
+        "type": "String"
+      },
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNamePart": "{roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "warningOutdatedSinceText": "nuo {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "warningNextReminderText": "Kitas priminimas yra {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "counterConsiderForTotalConsumptions": "Atsižvelkite į bendrą suvartojimą"
+}

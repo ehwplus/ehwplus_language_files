@@ -5,23 +5,58 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
-import 'ehw_localizations_en.dart';
+import 'ehwplus_app_localizations_af.dart';
+import 'ehwplus_app_localizations_ar.dart';
+import 'ehwplus_app_localizations_bg.dart';
+import 'ehwplus_app_localizations_bs.dart';
+import 'ehwplus_app_localizations_cs.dart';
+import 'ehwplus_app_localizations_da.dart';
+import 'ehwplus_app_localizations_de.dart';
+import 'ehwplus_app_localizations_el.dart';
+import 'ehwplus_app_localizations_en.dart';
+import 'ehwplus_app_localizations_es.dart';
+import 'ehwplus_app_localizations_et.dart';
+import 'ehwplus_app_localizations_fa.dart';
+import 'ehwplus_app_localizations_fi.dart';
+import 'ehwplus_app_localizations_fr.dart';
+import 'ehwplus_app_localizations_hi.dart';
+import 'ehwplus_app_localizations_hr.dart';
+import 'ehwplus_app_localizations_it.dart';
+import 'ehwplus_app_localizations_ja.dart';
+import 'ehwplus_app_localizations_ko.dart';
+import 'ehwplus_app_localizations_lt.dart';
+import 'ehwplus_app_localizations_ml.dart';
+import 'ehwplus_app_localizations_my.dart';
+import 'ehwplus_app_localizations_nl.dart';
+import 'ehwplus_app_localizations_no.dart';
+import 'ehwplus_app_localizations_pl.dart';
+import 'ehwplus_app_localizations_pt.dart';
+import 'ehwplus_app_localizations_ru.dart';
+import 'ehwplus_app_localizations_sl.dart';
+import 'ehwplus_app_localizations_sr.dart';
+import 'ehwplus_app_localizations_sv.dart';
+import 'ehwplus_app_localizations_sw.dart';
+import 'ehwplus_app_localizations_th.dart';
+import 'ehwplus_app_localizations_tr.dart';
+import 'ehwplus_app_localizations_uk.dart';
+import 'ehwplus_app_localizations_vi.dart';
+import 'ehwplus_app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
-/// Callers can lookup localized strings with an instance of EhwLocalizations
-/// returned by `EhwLocalizations.of(context)`.
+/// Callers can lookup localized strings with an instance of EhwplusAppLocalizations
+/// returned by `EhwplusAppLocalizations.of(context)`.
 ///
-/// Applications need to include `EhwLocalizations.delegate()` in their app's
+/// Applications need to include `EhwplusAppLocalizations.delegate()` in their app's
 /// `localizationDelegates` list, and the locales they support in the app's
 /// `supportedLocales` list. For example:
 ///
 /// ```dart
-/// import 'generated/ehw_localizations.dart';
+/// import 'generated/ehwplus_app_localizations.dart';
 ///
 /// return MaterialApp(
-///   localizationsDelegates: EhwLocalizations.localizationsDelegates,
-///   supportedLocales: EhwLocalizations.supportedLocales,
+///   localizationsDelegates: EhwplusAppLocalizations.localizationsDelegates,
+///   supportedLocales: EhwplusAppLocalizations.supportedLocales,
 ///   home: MyApplicationHome(),
 /// );
 /// ```
@@ -58,20 +93,23 @@ import 'ehw_localizations_en.dart';
 /// Select and expand the newly-created Localizations item then, for each
 /// locale your application supports, add a new item and select the locale
 /// you wish to add from the pop-up menu in the Value field. This list should
-/// be consistent with the languages listed in the EhwLocalizations.supportedLocales
+/// be consistent with the languages listed in the EhwplusAppLocalizations.supportedLocales
 /// property.
-abstract class EhwLocalizations {
-  EhwLocalizations(String locale)
+abstract class EhwplusAppLocalizations {
+  EhwplusAppLocalizations(String locale)
     : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
-  static EhwLocalizations? of(BuildContext context) {
-    return Localizations.of<EhwLocalizations>(context, EhwLocalizations);
+  static EhwplusAppLocalizations? of(BuildContext context) {
+    return Localizations.of<EhwplusAppLocalizations>(
+      context,
+      EhwplusAppLocalizations,
+    );
   }
 
-  static const LocalizationsDelegate<EhwLocalizations> delegate =
-      _EhwLocalizationsDelegate();
+  static const LocalizationsDelegate<EhwplusAppLocalizations> delegate =
+      _EhwplusAppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -92,7 +130,44 @@ abstract class EhwLocalizations {
       ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[Locale('en')];
+  static const List<Locale> supportedLocales = <Locale>[
+    Locale('af'),
+    Locale('ar'),
+    Locale('bg'),
+    Locale('bs'),
+    Locale('cs'),
+    Locale('da'),
+    Locale('de'),
+    Locale('el'),
+    Locale('en'),
+    Locale('es'),
+    Locale('et'),
+    Locale('fa'),
+    Locale('fi'),
+    Locale('fr'),
+    Locale('hi'),
+    Locale('hr'),
+    Locale('it'),
+    Locale('ja'),
+    Locale('ko'),
+    Locale('lt'),
+    Locale('ml'),
+    Locale('my'),
+    Locale('nl'),
+    Locale('no'),
+    Locale('pl'),
+    Locale('pt'),
+    Locale('ru'),
+    Locale('sl'),
+    Locale('sr'),
+    Locale('sv'),
+    Locale('sw'),
+    Locale('th'),
+    Locale('tr'),
+    Locale('uk'),
+    Locale('vi'),
+    Locale('zh'),
+  ];
 
   /// Marketing claim
   ///
@@ -175,7 +250,7 @@ abstract class EhwLocalizations {
   /// No description provided for @consent12Analytics.
   ///
   /// In en, this message translates to:
-  /// **'In order to assess the success of the app or individual functions, the app uses Google Analytics. The data is used for the further development of the app.'**
+  /// **'In order to evaluate the success of the app or individual functions, the app transmits anonymised usage statistics. The data is not transmitted to third parties. The data is used for the further development of the app.'**
   String get consent12Analytics;
 
   /// No description provided for @consent13StromGedachtTitle.
@@ -205,7 +280,7 @@ abstract class EhwLocalizations {
   /// No description provided for @googleAnalyticsAgreement.
   ///
   /// In en, this message translates to:
-  /// **'I agree to the transmission of anonymised data about the use of the app to Google Analytics.'**
+  /// **'I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.'**
   String get googleAnalyticsAgreement;
 
   /// No description provided for @continueAcceptPart1.
@@ -2351,13 +2426,13 @@ abstract class EhwLocalizations {
   /// No description provided for @termsOfUsageBlock2a.
   ///
   /// In en, this message translates to:
-  /// **'Anonymised usage data\nFirebase Analytics from Google is used to continuously improve the app. Since version 1.6.63, a dedicated server in Germany has also been used. As a user, you can decide after installation whether you want to enable the tracking of anonymised usage data. The app can also be used without the tracking function enabled. For more information, go to Settings > Privacy > {privacyBlock3Title}.'**
+  /// **'Anonymised usage data\nWe use our own analytics to continuously improve the app. Only anonymised data is transmitted. The data is not passed on to third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}'**
   String termsOfUsageBlock2a(String privacyBlock3Title);
 
   /// No description provided for @termsOfUsageBlock2b.
   ///
   /// In en, this message translates to:
-  /// **'Error reports\nFirebase Crashlytics from Google is used to continuously improve the app. As a user, you can decide after installation whether you want to enable the transmission of error reports. It is possible to use the app without the tracking function enabled, but this is strongly discouraged because any errors that occur cannot be corrected. For more information, go to Settings > Privacy > {privacyBlock3Title}.'**
+  /// **'Error reports\\nSentry (self-hosted) is used to continuously improve the app. Error reports are neither processed nor shared with third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}'**
   String termsOfUsageBlock2b(String privacyBlock3Title);
 
   /// No description provided for @termsOfUsageBlock2c.
@@ -2441,7 +2516,7 @@ abstract class EhwLocalizations {
   /// No description provided for @privacyBlock3bText.
   ///
   /// In en, this message translates to:
-  /// **'{googleApiAgreement}\n\nLocation data.\nIn order to understand user behaviour and for future features, we use Google Analytics to track data in the app. This allows us to collect information about origin (country and city), language, operating system, device type, resolution, click behaviour and duration of use.\n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS). The data is transmitted to Google Analytics and evaluated to improve the app. The data is anonymised.\n\nBy using the app, you consent to the collection of anonymised data as described above.'**
+  /// **'{googleApiAgreement}\n\nLocation data.\nIn order to understand user behaviour and for future features, the app transmits anonymised usage data. The data is not shared with third parties. Information may be collected about origin (country and city), language, operating system, device type, resolution, click behaviour, and duration of use. n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS).\n\nBy using the app, you consent to the collection of anonymised data as described above.'**
   String privacyBlock3bText(String googleApiAgreement);
 
   /// No description provided for @privacyContractPriceSubmission.
@@ -4388,11 +4463,11 @@ abstract class EhwLocalizations {
   /// **'Fill height'**
   String get counterTankFillHeight;
 
-  /// No description provided for @counterFactorElectricityDescription.
+  /// No description provided for @counterFactorDescription.
   ///
   /// In en, this message translates to:
-  /// **'If an electricity meter is the special design “NTS2” with “direct circuit” label on the cover plate, you must enter the transformer ratio here. Example: x200 (an electrician must adjust the CT ratio setting in the distribution box). If you’re not sure about this setting, leave it at 1.0.'**
-  String get counterFactorElectricityDescription;
+  /// **'Is consumption only allocated to you on a pro rata basis? Enter the proportion as a value between 0.1 (10%) and 1.0 (100%).'**
+  String get counterFactorDescription;
 
   /// No description provided for @counterTransducerFactor.
   ///
@@ -4433,14 +4508,26 @@ abstract class EhwLocalizations {
   /// No description provided for @counterDirectionExplanation.
   ///
   /// In en, this message translates to:
-  /// **'If the counter is installed backwards, it shows how much electricity was fed into the grid. If it is installed correctly, it shows how much electricity has been consumed from the grid.'**
+  /// **'Does the value decrease with use (level indicator, etc.) or does the value increase with use (burner hours, oil meter, etc.) or is each reading value independent (consumption/yield)?'**
   String get counterDirectionExplanation;
+
+  /// No description provided for @counterConsiderForTotalConsumptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Consider for total consumptions'**
+  String get counterConsiderForTotalConsumptions;
 
   /// No description provided for @counterConsiderForTotalElectricity.
   ///
   /// In en, this message translates to:
   /// **'Consider for total electricity consumption'**
   String get counterConsiderForTotalElectricity;
+
+  /// No description provided for @counterConsiderForTotalWater.
+  ///
+  /// In en, this message translates to:
+  /// **'Consider for total water consumption'**
+  String get counterConsiderForTotalWater;
 
   /// No description provided for @counterWaterExtractionMinimumLevel.
   ///
@@ -5512,32 +5599,140 @@ abstract class EhwLocalizations {
   String warningNextReminderText(String date);
 }
 
-class _EhwLocalizationsDelegate
-    extends LocalizationsDelegate<EhwLocalizations> {
-  const _EhwLocalizationsDelegate();
+class _EhwplusAppLocalizationsDelegate
+    extends LocalizationsDelegate<EhwplusAppLocalizations> {
+  const _EhwplusAppLocalizationsDelegate();
 
   @override
-  Future<EhwLocalizations> load(Locale locale) {
-    return SynchronousFuture<EhwLocalizations>(lookupEhwLocalizations(locale));
+  Future<EhwplusAppLocalizations> load(Locale locale) {
+    return SynchronousFuture<EhwplusAppLocalizations>(
+      lookupEhwplusAppLocalizations(locale),
+    );
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['en'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'af',
+    'ar',
+    'bg',
+    'bs',
+    'cs',
+    'da',
+    'de',
+    'el',
+    'en',
+    'es',
+    'et',
+    'fa',
+    'fi',
+    'fr',
+    'hi',
+    'hr',
+    'it',
+    'ja',
+    'ko',
+    'lt',
+    'ml',
+    'my',
+    'nl',
+    'no',
+    'pl',
+    'pt',
+    'ru',
+    'sl',
+    'sr',
+    'sv',
+    'sw',
+    'th',
+    'tr',
+    'uk',
+    'vi',
+    'zh',
+  ].contains(locale.languageCode);
 
   @override
-  bool shouldReload(_EhwLocalizationsDelegate old) => false;
+  bool shouldReload(_EhwplusAppLocalizationsDelegate old) => false;
 }
 
-EhwLocalizations lookupEhwLocalizations(Locale locale) {
+EhwplusAppLocalizations lookupEhwplusAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'af':
+      return EhwplusAppLocalizationsAf();
+    case 'ar':
+      return EhwplusAppLocalizationsAr();
+    case 'bg':
+      return EhwplusAppLocalizationsBg();
+    case 'bs':
+      return EhwplusAppLocalizationsBs();
+    case 'cs':
+      return EhwplusAppLocalizationsCs();
+    case 'da':
+      return EhwplusAppLocalizationsDa();
+    case 'de':
+      return EhwplusAppLocalizationsDe();
+    case 'el':
+      return EhwplusAppLocalizationsEl();
     case 'en':
-      return EhwLocalizationsEn();
+      return EhwplusAppLocalizationsEn();
+    case 'es':
+      return EhwplusAppLocalizationsEs();
+    case 'et':
+      return EhwplusAppLocalizationsEt();
+    case 'fa':
+      return EhwplusAppLocalizationsFa();
+    case 'fi':
+      return EhwplusAppLocalizationsFi();
+    case 'fr':
+      return EhwplusAppLocalizationsFr();
+    case 'hi':
+      return EhwplusAppLocalizationsHi();
+    case 'hr':
+      return EhwplusAppLocalizationsHr();
+    case 'it':
+      return EhwplusAppLocalizationsIt();
+    case 'ja':
+      return EhwplusAppLocalizationsJa();
+    case 'ko':
+      return EhwplusAppLocalizationsKo();
+    case 'lt':
+      return EhwplusAppLocalizationsLt();
+    case 'ml':
+      return EhwplusAppLocalizationsMl();
+    case 'my':
+      return EhwplusAppLocalizationsMy();
+    case 'nl':
+      return EhwplusAppLocalizationsNl();
+    case 'no':
+      return EhwplusAppLocalizationsNo();
+    case 'pl':
+      return EhwplusAppLocalizationsPl();
+    case 'pt':
+      return EhwplusAppLocalizationsPt();
+    case 'ru':
+      return EhwplusAppLocalizationsRu();
+    case 'sl':
+      return EhwplusAppLocalizationsSl();
+    case 'sr':
+      return EhwplusAppLocalizationsSr();
+    case 'sv':
+      return EhwplusAppLocalizationsSv();
+    case 'sw':
+      return EhwplusAppLocalizationsSw();
+    case 'th':
+      return EhwplusAppLocalizationsTh();
+    case 'tr':
+      return EhwplusAppLocalizationsTr();
+    case 'uk':
+      return EhwplusAppLocalizationsUk();
+    case 'vi':
+      return EhwplusAppLocalizationsVi();
+    case 'zh':
+      return EhwplusAppLocalizationsZh();
   }
 
   throw FlutterError(
-    'EhwLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'EhwplusAppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
     'an issue with the localizations generation tool. Please file an issue '
     'on GitHub with a reproducible sample app and the gen-l10n configuration '
     'that was used.',

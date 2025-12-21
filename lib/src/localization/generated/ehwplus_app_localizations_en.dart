@@ -1,12 +1,12 @@
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
-import 'ehw_localizations.dart';
+import 'ehwplus_app_localizations.dart';
 
 // ignore_for_file: type=lint
 
 /// The translations for English (`en`).
-class EhwLocalizationsEn extends EhwLocalizations {
-  EhwLocalizationsEn([String locale = 'en']) : super(locale);
+class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
+  EhwplusAppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
   String get appDescriptionShort => 'Good for the wallet, good for the climate';
@@ -55,7 +55,7 @@ class EhwLocalizationsEn extends EhwLocalizations {
 
   @override
   String get consent12Analytics =>
-      'In order to assess the success of the app or individual functions, the app uses Google Analytics. The data is used for the further development of the app.';
+      'In order to evaluate the success of the app or individual functions, the app transmits anonymised usage statistics. The data is not transmitted to third parties. The data is used for the further development of the app.';
 
   @override
   String get consent13StromGedachtTitle =>
@@ -75,7 +75,7 @@ class EhwLocalizationsEn extends EhwLocalizations {
 
   @override
   String get googleAnalyticsAgreement =>
-      'I agree to the transmission of anonymised data about the use of the app to Google Analytics.';
+      'I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.';
 
   @override
   String get continueAcceptPart1 => 'By using the EHW+ app, you agree to the ';
@@ -1440,12 +1440,12 @@ class EhwLocalizationsEn extends EhwLocalizations {
 
   @override
   String termsOfUsageBlock2a(String privacyBlock3Title) {
-    return 'Anonymised usage data\nFirebase Analytics from Google is used to continuously improve the app. Since version 1.6.63, a dedicated server in Germany has also been used. As a user, you can decide after installation whether you want to enable the tracking of anonymised usage data. The app can also be used without the tracking function enabled. For more information, go to Settings > Privacy > $privacyBlock3Title.';
+    return 'Anonymised usage data\nWe use our own analytics to continuously improve the app. Only anonymised data is transmitted. The data is not passed on to third parties. For more information, go to Settings > Privacy > $privacyBlock3Title';
   }
 
   @override
   String termsOfUsageBlock2b(String privacyBlock3Title) {
-    return 'Error reports\nFirebase Crashlytics from Google is used to continuously improve the app. As a user, you can decide after installation whether you want to enable the transmission of error reports. It is possible to use the app without the tracking function enabled, but this is strongly discouraged because any errors that occur cannot be corrected. For more information, go to Settings > Privacy > $privacyBlock3Title.';
+    return 'Error reports\\nSentry (self-hosted) is used to continuously improve the app. Error reports are neither processed nor shared with third parties. For more information, go to Settings > Privacy > $privacyBlock3Title';
   }
 
   @override
@@ -1503,7 +1503,7 @@ class EhwLocalizationsEn extends EhwLocalizations {
 
   @override
   String privacyBlock3bText(String googleApiAgreement) {
-    return '$googleApiAgreement\n\nLocation data.\nIn order to understand user behaviour and for future features, we use Google Analytics to track data in the app. This allows us to collect information about origin (country and city), language, operating system, device type, resolution, click behaviour and duration of use.\n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS). The data is transmitted to Google Analytics and evaluated to improve the app. The data is anonymised.\n\nBy using the app, you consent to the collection of anonymised data as described above.';
+    return '$googleApiAgreement\n\nLocation data.\nIn order to understand user behaviour and for future features, the app transmits anonymised usage data. The data is not shared with third parties. Information may be collected about origin (country and city), language, operating system, device type, resolution, click behaviour, and duration of use. n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS).\n\nBy using the app, you consent to the collection of anonymised data as described above.';
   }
 
   @override
@@ -2690,8 +2690,8 @@ class EhwLocalizationsEn extends EhwLocalizations {
   String get counterTankFillHeight => 'Fill height';
 
   @override
-  String get counterFactorElectricityDescription =>
-      'If an electricity meter is the special design “NTS2” with “direct circuit” label on the cover plate, you must enter the transformer ratio here. Example: x200 (an electrician must adjust the CT ratio setting in the distribution box). If you’re not sure about this setting, leave it at 1.0.';
+  String get counterFactorDescription =>
+      'Is consumption only allocated to you on a pro rata basis? Enter the proportion as a value between 0.1 (10%) and 1.0 (100%).';
 
   @override
   String get counterTransducerFactor => 'Transformer ratio';
@@ -2714,11 +2714,19 @@ class EhwLocalizationsEn extends EhwLocalizations {
 
   @override
   String get counterDirectionExplanation =>
-      'If the counter is installed backwards, it shows how much electricity was fed into the grid. If it is installed correctly, it shows how much electricity has been consumed from the grid.';
+      'Does the value decrease with use (level indicator, etc.) or does the value increase with use (burner hours, oil meter, etc.) or is each reading value independent (consumption/yield)?';
+
+  @override
+  String get counterConsiderForTotalConsumptions =>
+      'Consider for total consumptions';
 
   @override
   String get counterConsiderForTotalElectricity =>
       'Consider for total electricity consumption';
+
+  @override
+  String get counterConsiderForTotalWater =>
+      'Consider for total water consumption';
 
   @override
   String get counterWaterExtractionMinimumLevel => 'Minimum level';

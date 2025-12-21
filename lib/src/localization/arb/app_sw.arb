@@ -1,0 +1,1707 @@
+{
+  "appDescriptionShort": "Nzuri kwa mkoba, mzuri kwa hali ya hewa",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
+  "appDescriptionLong": "Phtoken0welcome kwa phtoken1ehw+phtoken2, programu yako ya kusoma ya mita ya phtoken3ephtoken4lectricity, phtoken5hphtoken6eating na phtoken7wphtoken8ater. Nasi, unaweza kwa urahisi trackphtoken9 phtoken10 jinsi unavyotumia na kile itphtoken11 phtoken12costsphtoken13 kwa free.phtoken14",
+  "contactTitle": "Inawakilishwa na:",
+  "contact": "EHW+ Huduma GmbH\nGeorgia-Herbert-Straße 8\n68519 Viernheim\n\nWasiliana\n\nSimu: 06204/7383382\nBarua: info@ehwplus.com",
+  "euDisputeResolution": "Azimio la mzozo wa EU\n\nTume ya Ulaya hutoa jukwaa la Azimio la Mzozo wa Mkondoni (OS): https://ec.europa.eu/consumers/odr/.\nUnaweza kupata anwani yetu ya barua-pepe katika uingizwaji hapo juu.\n\nAzimio la Mzozo wa Watumiaji/Baraza la Utatuzi wa Mzozo wa Universal\n\nHatuko tayari au tunalazimika kushiriki katika kesi za utatuzi wa mzozo mbele ya bodi ya usuluhishi ya watumiaji.",
+  "consent1Hello": "Hello",
+  "consent2ThankYou": "Asante kwa kutumia EHW+!",
+  "consent3Video": "Je! Ungependa kutazama video fupi ya utangulizi?",
+  "consent4BeforeYouCanContinue": "Kabla ya kuendelea",
+  "consent5ErrorReportingTitle": "Ripoti za makosa",
+  "consent6ContractPricesPerUnitTitle": "Bei ya umeme / maji / gesi",
+  "consent7ContractPricesPerUnit": "Ili kuweza kukadiria ni kiasi gani unalipa kwa sasa ukilinganisha na watumiaji wengine wa EHW+, bei huhamishiwa kwa seva ya EHW+ huko Ujerumani pamoja na nchi na serikali. Tu ikiwa unakubali uhamishaji, unaweza kufikia takwimu za bei. Ili kuhakikisha kutokujulikana, takwimu zinaweza kuonyeshwa tu baada ya idadi ya chini ya bei iliyopitishwa.",
+  "consent11AnalyticsTitle": "Takwimu za uchambuzi",
+  "consent12Analytics": "Ili kutathmini mafanikio ya programu au vipengele mahususi, programu hutuma takwimu za matumizi ambazo hazikutambulisha. Data haisambazwi kwa wahusika wengine. Data inatumika kwa maendeleo zaidi ya programu.",
+  "consent13StromGedachtTitle": "Arifa za utulivu wa gridi ya taifa kutoka Stromgedacht",
+  "consent13StromGedacht": "Stromgedacht, huduma iliyotolewa na TransnetBW, hutoa habari juu ya utulivu wa gridi ya taifa na mapendekezo juu ya wakati umeme unapaswa kutumiwa kwa upendeleo. Wakati mabadiliko ya nishati yanazidi kuwa ngumu zaidi kwa gridi ya maambukizi, kaya za kusini-magharibi mwa Ujerumani zinahusika. Ili kupokea habari kwa eneo lako, nambari yako ya posta, ikiwa imeingizwa hapa kwenye programu, hupitishwa kwa API ya TransnetBW Stromgedacht. Hakuna data nyingine inayopitishwa au kuunganishwa.",
+  "stromGedachtAgreement": "Ninakubali kwamba nambari yangu ya posta (ikiwa imetolewa) itapitishwa kwa TransnetBW kupata arifa za Stromgedacht.",
+  "priceSubmissionAgreement": "Nakubaliana na usambazaji wa bei ya umeme/gesi/maji kwa kila kitengo kwa seva ya EHW+",
+  "googleAnalyticsAgreement": "Ninakubali utumaji wa data isiyojulikana kuhusu matumizi ya programu kwa EHW+ Services GmbH.",
+  "continueAcceptPart1": "Kwa kutumia programu ya EHW+, unakubali",
+  "continueAcceptPart2": ". Kwa habari zaidi juu ya mkusanyiko na utumiaji wa data isiyojulikana na ya kibinafsi, tafadhali rejelea",
+  "termsOfUsageTitleShort": "Masharti ya Matumizi",
+  "faqAboutDeveloperTitle": "Ni nani aliye nyuma ya EHW+?",
+  "faqAboutDeveloperBody1": "Asante kwa shauku yako katika EHW+. EHW+ ilitolewa na mimi, Timo Bähr, mnamo Desemba 2020. Mimi ni msanidi programu wa wakati wote na ninafanya kazi kwenye EHW+ wakati wangu wa bure kuchangia ulinzi wa mazingira. Tangu Mei 2022, msanidi programu wa pili amekuwa akisimamia kazi yangu, Thomas Hesse huunda nyuma kwa EHW+. Tangu Aprili 2023, Janine Siner amekuwa akishughulikia malisho ya wateja wengi. Tangu Julai 2024, Artem Yuzhakov amejiunga kama msanidi programu.",
+  "faqAboutDeveloperBody2": "Zaidi ya 26% ya uzalishaji wote wa CO2 nchini Ujerumani husababishwa na kaya za kibinafsi. Ikiwa kila mtu anaweza kupunguza matumizi yao hata kidogo, mengi yatakuwa yamepatikana. Asante sana kwa mchango wako!",
+  "faqAboutDeveloperBody3": "Tunakaribisha maoni juu ya jinsi ya kuboresha programu.",
+  "faqAboutDeveloperBody4": "Walakini, ninaomba uelewa wako kuwa siwezi kutekeleza maoni yote na kwamba kazi mpya huchukua muda.",
+  "commonCollapse": "Kuanguka",
+  "commonMore": "Zaidi",
+  "commonSave": "Kuokoa",
+  "commonChange": "Mabadiliko",
+  "commonContinue": "Endelea",
+  "commonBack": "Nyuma",
+  "commonOk": "Sawa",
+  "commonCancel": "Ghairi",
+  "commonClose": "Karibu",
+  "commonOpen": "Wazi",
+  "commonSend": "Wasilisha",
+  "commonDelete": "Futa",
+  "commonYes": "Ndio",
+  "commonNo": "hapana",
+  "commonLoadingData": "Kupakia data",
+  "commonDay": "siku",
+  "commonMonth": "mwezi",
+  "commonYear": "mwaka",
+  "commonShare": "Shiriki",
+  "commonCopiedToClipboard": "Kunakiliwa kwa clipboard",
+  "commonLearnMore": "Jifunze zaidi",
+  "commonMinimum": "Thamani ya kila siku ya chini",
+  "commonMaximum": "Thamani ya kila siku ya juu",
+  "heatmapLegendTitle": "Zaidi juu ya joto",
+  "heatmapLegendDisclaimer": "Maelezo: Sanduku zilizo na kivuli zina thamani inayokadiriwa. Ili kusoma matumizi/pato halisi, tafadhali jaza usomaji wa mita uliokosekana ikiwa inawezekana.",
+  "consumptionHeatmap": "Matumizi ya joto",
+  "consumptionHeatmapYield": "Mazao ya joto",
+  "consumption": "Matumizi",
+  "consumptionYield": "Mavuno",
+  "showAllYears": "Onyesha miaka yote",
+  "appNameShort": "EHW+",
+  "appName": "EHW+ | Matumizi na usomaji wa mita",
+  "tabCounters": "Mita",
+  "tabStatistics": "Takwimu",
+  "tabObject": "Kitu",
+  "tabNews": "Vidokezo/Habari",
+  "ofRangeLastDays": "ya siku za mwisho za phtoken0",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeLastMonths": "kwa miezi ya mwisho ya phtoken0",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeFrom": "kutoka phtoken0",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "readingTime": "Wakati wa kusoma",
+  "reading": "Kusoma kaunta",
+  "last2Weeks": "Siku 14 zilizopita",
+  "last12Weeks": "Wiki 12 zilizopita",
+  "last12Months": "Miezi 12 iliyopita",
+  "sinceInitialReading": "Tangu usomaji wa awali",
+  "lastYear": "Mwaka jana",
+  "periodCustom": "Mtumiaji hufafanuliwa",
+  "counterReadings": "Usomaji",
+  "comment": "Bote",
+  "enterComment": "Ingiza kumbuka",
+  "enterExistingReadingAgain": "Ingiza tena usomaji wa zamani",
+  "meterId": "Kitambulisho cha kukabiliana",
+  "meterReadingSubmitted": "Kupitishwa kwa mtoaji",
+  "newReading": "Ingiza usomaji wa sasa",
+  "newReadingShort": "Usomaji mpya",
+  "readingWithFactor": "Kusoma kwa kukabiliana na sababu",
+  "csvImportWithFactor": "Je! Usomaji wa mita unapaswa kuzidishwa na sababu sio sawa na 1.0? Kwa mfano, kubadilisha maadili kutoka kwa KWH, ingelazimika kuzidishwa na 0.001.",
+  "newPhoto": "Chukua picha mpya",
+  "existingPhoto": "Ambatisha picha iliyopo",
+  "newPhotoOfMeterReading": "Je! Ungependa kuchukua picha ya usomaji wa mita?",
+  "existingPhotoOfMeterReading": "Je! Ungependa kushikamana na picha iliyopo ya usomaji wa mita?",
+  "numCounters": "{count, plural, =0 {Phtoken0 counter} one {Phtoken0 counter} other {Hesabu za phtoken0}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numMeterReadings": "{readings, plural, one {# kusoma} other {# Usomaji}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "exportObjectDescription": "Phtoken0, phtoken1, phtoken2 phtoken3",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "firstReadingYield": "Ingiza mavuno ya kwanza sasa.",
+  "firstReadingConsumption": "Ingiza matumizi ya kwanza sasa.",
+  "firstReadingCounter": "Ingiza usomaji wa kwanza wa kukabiliana.",
+  "consumptionHeatpump": "Kwa kuongezea, matumizi ya nguvu ya pampu ya joto ni sawa na phtoken0 kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearly": "Matumizi yako ya umeme phtoken0 ni phtoken1 kWh kwa mwaka.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedElectricityIntro": "Matumizi yako ya umeme phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedGasIntro": "Matumizi yako ya gesi phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel0": "ni ya chini sana.",
+  "consumptionYearlyDetailedLevel1": "ni kweli kitu cha kuona.",
+  "consumptionYearlyDetailedLevel3": "ni ya juu sana.",
+  "consumptionYearlyDetailedLevel4": "ni kawaida.",
+  "consumptionYearlyDetailedYouConsume": "Wewe matumizi ya matumizi0",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLessThan": "Phtoken0 chini ya",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedMoreThan": "Phtoken0 zaidi ya",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedAboutSame": "karibu sawa na",
+  "consumptionYearlyDetailedAverageHousehold": "Kaya ya wastani na phtoken0 phtoken1",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedOptimalEnding": "Unafanyaje?",
+  "consumptionYearlyDetailedLevel1Suffix": "Phtoken0 kWh/mwezi kukosa kwa matumizi bora.",
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel2Suffix": "Phtoken0 kWh/mwezi kukosa kwa matumizi mazuri.",
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionPersonLabel": "{count, plural, one {mtu} other {watu}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "consumptionWaterPrefixSingle": "Unatumia",
+  "consumptionWaterPrefixPerPerson": "Kwa kila mtu, kila mtu hutumia",
+  "consumptionWaterDailyMonthly": "kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "String"
+      },
+      "monthlyCubicMeters": {
+        "type": "String"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterRangeUnknown": "Matumizi yako ya maji phtoken0 ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallLess": "Matumizi yako ya maji phtoken0 ni phtoken1 chini kuliko ile ya kaya ya wastani na phtoken2 phtoken3.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallEqual": "Matumizi yako ya maji phtoken0 yanafanana na kaya ya wastani na phtoken1 phtoken2.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallMore": "Matumizi yako ya maji phtoken0 ni phtoken1 juu kuliko ile ya wastani wa kaya na phtoken2 phtoken3.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdLess": "Maji baridi: phtoken0 chini ya kaya ya wastani.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdMore": "Maji baridi: phtoken0 zaidi ya kaya ya wastani.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdEqual": "Maji baridi: sawa na kaya ya wastani.",
+  "consumptionWaterWarmLess": "Maji ya moto: phtoken0 chini ya kaya ya wastani.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmMore": "Maji ya moto: phtoken0 zaidi ya kaya ya wastani.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmEqual": "Maji ya moto: sawa na kaya ya wastani.",
+  "yearlyConsumption": "Matumizi ya kila mwaka hadi sasa",
+  "yearlyCosts": "Gharama ya matumizi ya kila mwaka hadi sasa",
+  "room": "Chumba",
+  "fedIn": "Kulishwa ndani",
+  "generated": "Inayozalishwa",
+  "residualGenerationEstimated": "Kizazi cha mabaki kinakadiriwa",
+  "residualConsumptionEstimated": "Matumizi ya mabaki inakadiriwa",
+  "myObjects": "Vitu vyangu",
+  "roomLivingRoom": "Sebule",
+  "roomDiningRoom": "Chumba cha dining",
+  "roomBedroom": "Chumba cha kulala",
+  "roomBathroom": "Bafuni",
+  "roomWc": "Wc",
+  "roomChildrenRoom": "Chumba cha watoto",
+  "roomKitchen": "Jikoni",
+  "roomStoreRoom": "Chumba cha duka",
+  "roomOffice": "Ofisi",
+  "roomGarden": "Bustani",
+  "counter": "Kaunta",
+  "counterDirectionAscending": "Kupanda",
+  "counterDirectionDescending": "Kushuka",
+  "counterDirectionNone": "Phtoken0/phtoken1",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "counterWater": "Mita za maji",
+  "counters": "Mita",
+  "changeCounterOrder": "Ikiwa ni lazima, unaweza kubadilisha agizo",
+  "newCounter": "Unda kaunta mpya",
+  "updateObjectName": "Badilisha majina ya kitu",
+  "enterObjectName": "Taja kitu kipya",
+  "explanationManageMoreThanOneObject": "Una mali zaidi ya moja unayotaka kusimamia? Kisha taja kitu cha sasa na kisha uunda kitu kingine.",
+  "selectedAtAppStart": "Kitu cha juu kabisa huchaguliwa katika Anza ya Programu",
+  "reallyDeleteObject": "Je! Una uhakika unataka kufuta kitu hicho?",
+  "confirmDeleteAtCloud": "Je! \"Phtoken0\" inapaswa pia kufutwa kutoka Hifadhi ya Google?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteObjectError": "Haiwezi kufuta kitu hiki (nambari ya phtoken0).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "commonChangeSaved": "Mabadiliko yameokolewa",
+  "commonUpdateNow": "Sasisha sasa",
+  "commonLogout": "Saini",
+  "commonLogin": "Ingia",
+  "commonLoggingIn": "Kukutia saini ...",
+  "commonLoggingOut": "Kukusaini ...",
+  "commonNotAuthenticated": "Haujathibitishwa.",
+  "commonUserLogin": "Kuingia kwa mtumiaji",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Unatumia akaunti ya EHW+. Phtoken0 kati ya bidhaa zilizonunuliwa za phtoken1 hazikuweza kuokolewa kwenye seva ya EHW+. Tunatumai kurekebisha suala hilo hivi karibuni.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Ununuzi mmoja umesawazishwa kupitia akaunti ya EHW+.} other {Ununuzi wa phtoken0 umesawazishwa kupitia akaunti ya EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Unatumia akaunti ya EHW+. Ikiwa unununua bidhaa katika siku zijazo, zitasawazishwa kwa vifaa vyako vyote.} one {Unatumia akaunti ya EHW+. Bidhaa iliyonunuliwa ya phtoken0 imehifadhiwa kwenye seva ya EHW+.} other {Unatumia akaunti ya EHW+. Bidhaa zilizonunuliwa za phtoken0 zimehifadhiwa kwenye seva ya EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionNotLoggedIn": "Je! Unatumia programu kwenye vifaa vingi? Kuingia kwenye akaunti yako ya EHW+ hukuruhusu kusawazisha mipangilio yako na bidhaa zilizonunuliwa kwenye vifaa vyako vyote.",
+  "accountUpdateInfo": "Mpya: akaunti ya mtumiaji ya EHW+",
+  "accountThankYouForPurchase": "Asante! Je! Ungependa kupata ununuzi katika akaunti yako ya mtumiaji ya EHW+ sasa?",
+  "accountAbout": "Je! Akaunti ya mtumiaji ya EHW+ inaweza kufanya nini?",
+  "accountBenefit1": "Utambuzi wa ununuzi wa kuaminika zaidi",
+  "accountBenefit2": "Upataji wa upanuzi wote ulionunuliwa kwenye vifaa vingi",
+  "accountFaqTitle": "Maswali yanayoulizwa mara kwa mara:",
+  "accountFaqQ1": "Je! Akaunti ya mtumiaji ya EHW+ ni nini?",
+  "accountFaqA1": "Akaunti ya mtumiaji ya EHW+ inatoa njia mbadala ya kurejesha ununuzi wakati wa kurejesha kupitia Duka la App haiwezekani, kuongezeka kwa kuegemea. Kwa kuongeza, inaruhusu ununuzi kurejeshwa kwenye kifaa ambacho ununuzi haukufanyika hapo awali. Katika siku zijazo, pia itawezekana kuokoa mipangilio na zaidi.",
+  "accountFaqQ2": "Je! Bado nitapata ununuzi wangu bila akaunti ya mtumiaji ya EHW+?",
+  "accountFaqA2": "Ndio, ununuzi bado unaweza kurejeshwa kwenye kifaa cha Android kupitia Duka la Google Play au kwenye iPhone kupitia Duka la App. Akaunti ya mtumiaji ya EHW+ hutoa njia mbadala ya kurejesha ununuzi wakati wa kurejesha kupitia Duka la App haiwezekani, kuongezeka kwa kuegemea. Kwa kuongeza, inaruhusu ununuzi kurejeshwa kwenye kifaa ambacho ununuzi haukufanyika hapo awali.",
+  "accountButtonSetup": "Sanidi akaunti ya mtumiaji ya EHW+",
+  "cometSettingsIsPredictionsApiEnabled": "Tumia API ya utabiri wa Comet kutoka Taasisi ya Goethe",
+  "cometConsentScreenHeader": "Mpya: Utabiri bora wa matumizi",
+  "cometConsentScreenHowItWorksTitle": "Inafanyaje kazi?",
+  "cometConsentScreenOnlineDescriptionTitle": "Na unganisho la mtandao:",
+  "cometConsentScreenOnlineDescription": "Takwimu zako za matumizi zitatumwa kwa Chuo Kikuu cha Goethe Frankfurt, ambapo utabiri wa mtu binafsi utaundwa na kuonyeshwa kwenye programu.",
+  "cometConsentScreenOfflineDescriptionTitle": "Bila unganisho la mtandao:",
+  "cometConsentScreenOfflineDescription": "Utabiri rahisi wa ndani utahesabiwa kwenye kifaa chako.",
+  "cometConsentScreenToggleLabel": "Tumia huduma ya utabiri",
+  "cometConsentScreenDataCanBeUsedForTraining": "Takwimu zinaweza kutumika kuongeza utabiri wa siku zijazo",
+  "cometConsentScreenFeedbackTitle": "Chuo Kikuu cha Goethe kinahitaji maoni yako:",
+  "cometConsentScreenFeedbackDescription": "Matumizi ya utabiri ni bure, lakini timu ya utafiti inahitaji maoni juu ya jinsi huduma inavyofanya kazi.",
+  "cometConsentScreenFeedbackMethod": "Maoni hutolewa kiatomati wakati unatumia huduma ya utabiri na unakubali optimization.",
+  "cometConsentScreenDeclineButton": "Sitaki kutoa maoni",
+  "cometConsentScreenAcceptButton": "Nataka kutoa maoni",
+  "exportTabHowToExport": "Je! Ungependa kuuza nje data?",
+  "exportTabHowToExportOptionShare": "Shiriki na programu zingine",
+  "exportTabHowToExportOptionSaveToDownloads": "Hifadhi kwa folda phtoken0",
+  "exportTabSnackBarSaveResultMessageSuccess": "Takwimu zimehifadhiwa kwa mafanikio kama phtoken0 kwenye folda phtoken1",
+  "exportTabSnackBarSaveResultMessageError": "Hitilafu ilitokea wakati wa kuokoa data",
+  "importTabErrorMessageFileWithExtensionNotSelected": "Faili ya phtoken0 inahitajika kuendelea na kuagiza.",
+  "difference": "Tofauti",
+  "period": "Kipindi",
+  "periodHourly": "saa",
+  "periodDaily": "kila siku",
+  "periodWeekly": "kila wiki",
+  "periodBiweekly": "bi-wiki",
+  "periodMonthly": "kila mwezi",
+  "periodBimonthly": "Bi-kila mwezi",
+  "periodQuarterly": "robo mwaka",
+  "periodHalfYearly": "nusu ya mwaka",
+  "periodYearly": "kila mwaka",
+  "meterCardLastUpdatedLabel": "Imesasishwa",
+  "smartMeterServiceProvider": "Mtoa huduma",
+  "smartMeterObtainDataAutomatically": "Pata data kiatomati",
+  "smartMeterErrorNoData": "Kwa bahati mbaya, hakuna data ambayo programu inaweza kuonyesha.",
+  "smartMeterSettingsScreenSyncButton": "Sawazisha data ya matumizi",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Usawazishaji unaendelea",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Maendeleo: phtoken0%",
+  "smartMeterSettingsScreenSyncingDialogError": "Kosa",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Sawa",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Kufuatia kosa kulitokea wakati wa maingiliano: phtoken0",
+  "smartMeterMisconfiguredWidgetCardTitle": "Tafadhali weka mita yako nzuri kwa usahihi.",
+  "smartMeterMisconfiguredWidgetCardButton": "Sanidi mita smart",
+  "smartMeterTabConsumptions": "Matumizi",
+  "smartMeterTabProductions": "Uzalishaji",
+  "consumptionCacheManagementClearCacheButton": "Kashe wazi",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Wazi na Usawazishaji",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Kashe wazi?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Takwimu zote za utumiaji zilizohifadhiwa zitafutwa kabisa. Unaweza kusawazisha baadaye.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Futa kashe na usawazisha?",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Takwimu zote zilizohifadhiwa zitafutwa na kupakuliwa tena kutoka kwa seva. Hii inaweza kuchukua muda.",
+  "consumptionCacheManagementClearedSuccessfully": "Cache ilisafishwa kwa mafanikio",
+  "tibberAccessToken": "Ufikiaji wa ishara",
+  "tibberEnterAccessToken": "Tafadhali ingiza ishara ya ufikiaji",
+  "tibberMessageAccessTokenUpdated": "Ilifanikiwa kusasisha ishara ya ufikiaji",
+  "tibberErrorAccessTokenInvalid": "Inaonekana kama ishara ya ufikiaji sio sahihi",
+  "tibberErrorNoHomes": "Hakuna nyumba zinazohusiana na akaunti hii",
+  "tibberErrorSmartMeterMisconfigured": "Mita yako smart inaonekana kuwa mbaya.",
+  "tibberErrorConnectivityShowCacheInstead": "Haiwezi kupata data ya matumizi ya hivi karibuni. Kuonyesha maadili yaliyowekwa wazi badala yake.",
+  "tibberErrorUndefined": "Kosa lisilotarajiwa lilitokea: phtoken0",
+  "tibberErrorRateLimit": "Kiwango cha kiwango cha API cha Tibber kilizidi. Tafadhali subiri angalau dakika 5 kabla ya kujaribu tena.",
+  "tibberErrorNoSubscription": "Ili kupata ufikiaji kamili wa data ya kihistoria kupitia API, unahitaji mkataba wa umeme wa Tibber kwa nyumba iliyochaguliwa.",
+  "tibberBasicAuth": "Mwandishi wa kimsingi",
+  "tibberBasicAuthUsername": "Jina la mtumiaji",
+  "tibberBasicAuthPassword": "Nenosiri",
+  "tibberBasicAuthEnterUsername": "Tafadhali ingiza jina la mtumiaji",
+  "tibberBasicAuthEnterPassword": "Tafadhali ingiza nywila",
+  "tibberConsumptionEntryTotalCost": "Gharama ya jumla: phtoken0",
+  "tibberConsumptionEntryTotalProfit": "Jumla ya faida: phtoken0",
+  "tibberConsumptionEntryViewTimeSpanYear": "Mwaka phtoken0",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Mwaka mmoja kuanzia phtoken0",
+  "tibberConsumptionEntryViewTimeSpanMonth": "Mwezi wa phtoken0",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Mwezi mmoja ukianza phtoken0",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "Masaa 24 kutoka phtoken0 kwenye phtoken1",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Saa moja kutoka phtoken0 kwenye phtoken1",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Kutoka: phtoken0 hadi phtoken1",
+  "tibberWhereIsMyAccessToken": "Ninaweza kupata wapi \"ishara ya ufikiaji\"?",
+  "tibberActionSaveAuthorizationSettings": "Hifadhi mipangilio ya idhini",
+  "tibberConsentScreenHeader": "Kipengele kipya: data ya matumizi kutoka kwa Tibber Pulse",
+  "tibberConsentScreenDescription": "Je! Wewe ni mteja wa Tibber au unapanga kuwa mmoja? Sasa tunaunga mkono mapigo ya ufuatiliaji bora wa nishati. Tafadhali kumbuka kuwa data ya kihistoria kutoka kwa Pulse inapatikana kwa bahati mbaya tu kwa wateja walio na mkataba wa kazi wa tibber.",
+  "tibberConsentScreenBenefit1Title": "Angalia matumizi yako ya umeme",
+  "tibberConsentScreenBenefit1Description": "Fuatilia utumiaji wako kwa wakati halisi na fungua Guzzlers za Nishati zilizofichwa.",
+  "tibberConsentScreenStoreLink": "Tembelea Duka la Tibber",
+  "tibberConsentScreenConfigureNowButton": "Sanidi mapigo ya Tibber sasa",
+  "tibberConsentScreenConfigureLaterButton": "Sanidi baadaye",
+  "tibberConsentScreenGoetheStudySectionHeader": "Ushiriki katika mradi wa utafiti",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Ndio, nataka kushiriki katika masomo ya Goethe",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Je! Ungependa kushiriki katika masomo ya Goethe?",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Matumizi yako ya saa kutoka Machi 1 hayatajulikana na kutolewa kwa masomo ya Goethe.",
+  "tibberStatusWidgetTitle": "Usimamizi wa kache",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Hali ya usajili wa Tibber",
+  "tibberSubscriptionStatusActive": "kazi",
+  "tibberSubscriptionStatusInactive": "haifanyi kazi",
+  "tibberSubscriptionStatusLoading": "Inapakia ...",
+  "tibberLiveMeasurementCounterCardViewFooter": "Kipimo cha moja kwa moja",
+  "tibberLiveMeasurementsWidgetNotSupported": "Vipimo vya moja kwa moja haviungwa mkono kwa nyumba hii.",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Nyumba hii haiungi mkono vipimo vya moja kwa moja au data ya kihistoria. Tafadhali chagua nyumba nyingine.",
+  "tibberLiveMeasurementsWidgetConnecting": "Kuunganisha kwa Pulse ya Tibber ...",
+  "tibberLiveMeasurementsWidgetError": "Hitilafu ilitokea wakati wa kuunganisha na kunde wa Tibber. Tafadhali angalia ishara yako ya ufikiaji na unganisho la mtandao.",
+  "tibberLiveMeasurementWidgetTitle": "Matumizi ya sasa/uzalishaji huko Phtoken0",
+  "tibberLiveMeasurementWidgetTimestamp": "Timestamp",
+  "tibberLiveMeasurementWidgetPower": "Nguvu",
+  "tibberLiveMeasurementWidgetPowerProduction": "Uzalishaji wa nguvu",
+  "tibberLiveMeasurementWidgetAveragePower": "Nguvu ya wastani",
+  "tibberLiveMeasurementWidgetMinPower": "Nguvu ya min",
+  "tibberLiveMeasurementWidgetMaxPower": "Nguvu kubwa",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Jumla ya matumizi (tangu usiku wa manane)",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Jumla ya uzalishaji (tangu usiku wa manane)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Matumizi (saa ya mwisho)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Uzalishaji (Saa ya Mwisho)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Usomaji wa Mita (Matumizi)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Usomaji wa Mita (Uzalishaji)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Gharama iliyokusanywa",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Thawabu iliyokusanywa",
+  "tibberLiveMeasurementWidgetPowerFactor": "Sababu ya nguvu",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Voltage (Awamu ya 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Voltage (Awamu ya 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Voltage (Awamu ya 3)",
+  "tibberLiveMeasurementWidgetCurrentL1": "Sasa (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Sasa (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Sasa (L3)",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "W",
+  "tibberLiveMeasurementWidgetUnitA": "A",
+  "tibberHomeSelectorHomeId": "Kitambulisho cha nyumbani: phtoken0",
+  "tibberHomeSelectorLabel": "Nyumbani",
+  "scanQrCode": "Msimbo wa Uanzishaji wa Scan",
+  "requestAccess": "Omba ufikiaji",
+  "createAccount": "Unda Akaunti/Ingia",
+  "watersupplierYourSupplier": "Muuzaji wako wa maji",
+  "watersupplierRadioMeterDefaultName": "Mita ya maji baridi ya redio",
+  "watersupplierAccessRequestQ1": "Je! Wewe ni mmiliki wa mali katika eneo la vifaa vya maji na ungependa kupata usomaji wa mita za redio?",
+  "watersupplierAccessRequestQ2": "Je! Tayari umeomba ufikiaji? Ifuatayo, unahitaji kuunda akaunti ya mtumiaji ya EHW+.",
+  "watersupplierAccessRequestQ3": "Je! Tayari umeomba ufikiaji na umepokea nambari yako ya QR?",
+  "watersupplierAccessRequestQ4": "Je! Ungependa kupokea arifu za mita ili uweze kuguswa ikiwa kunaweza kupasuka kwa bomba au bomba la choo, kwa mfano?",
+  "watersupplierOpenReminderSettings": "Mipangilio ya Fungua",
+  "watersupplierScanQrCodeTitle": "Uanzishaji wa mita ya redio",
+  "watersupplierScanQrCodeCommand": "Scan nambari ya kushoto ya QR (nambari ya uanzishaji)!",
+  "watersupplierScanRevokeQrCodeCommand": "Scan nambari ya kulia ya QR (Rudia nambari)!",
+  "watersupplierScanQrCodeValidation": "Nambari ya QR imegunduliwa, wacha tuithibitishe.",
+  "watersupplierScanQrCodeValidationFailed": "Samahani, nambari hiyo sio sahihi. Je! Unataka kujaribu tena?",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Uligundua nambari ya kufutwa badala ya nambari ya uanzishaji. Tafadhali jaribu tena!",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Uligundua nambari ya uanzishaji badala ya nambari ya kufutwa. Tafadhali jaribu tena!",
+  "watersupplierScanQrCodeScanSuccessful": "Wow, nambari ya uanzishaji inaonekana nzuri sana! Tafadhali ingiza nambari tatu za mwisho za kitambulisho chako cha mita!",
+  "watersupplierMeterIdValidationStep": "Tunaangalia kitambulisho chako cha mita.",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Samahani, kwa bahati mbaya hiyo haikufanya kazi. Ilitokana na seva yetu. Bora jaribu tena baadaye!",
+  "watersupplierCompleteMeterIdTryAgain": "Hautapita! Tafadhali ingiza nambari tatu za mwisho za kitambulisho cha mita tena!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Kumbuka: Kitambulisho chako cha mita ya asili kinaweza kuwa na herufi zaidi ya 8.",
+  "watersupplierScanQrCodeApprovalInProgress": "Sasa tunaidhinisha akaunti yako ili uweze kupata usomaji wa mita za redio katika siku zijazo.",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Ndio! Mita yako ya maji ya redio ya \"maji baridi\" imeongezwa kwa mafanikio. Unaweza kuipata kati ya mita zingine.",
+  "watersupplierUnlinkRadioMeterTitle": "Kusitisha ufikiaji wa mita ya redio",
+  "watersupplierUnlinkRadioMeterDescription1": "Je! Unataka kufuta mita ya redio bila kudhibitisha nambari ya uanzishaji?",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Futa mita ya redio",
+  "watersupplierUnlinkRadioMeterDescription2": "Je! Hautaki ufikiaji wa data yako ya mita ya redio? Tafadhali kumbuka: Mara tu nambari ya uondoaji itakapokaguliwa, nambari ya uanzishaji inakuwa batili. Akaunti yoyote ya mtumiaji ambayo ilitumia nambari ya uanzishaji itapoteza ufikiaji.",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Scan Reflecation Code",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Upataji wa mita yako ya maji ya redio umefutwa.",
+  "watersupplierNoAccess": "Huna tena idhini ya kupata data.",
+  "watersupplierNoAccessDetailedMessage": "Ikiwa unaamini kuwa bado unapaswa kupata, tafadhali chakane nambari yako ya uanzishaji tena. Ikiwa nambari ya ufikiaji sio halali tena, tafadhali wasilisha ombi mpya la ufikiaji.",
+  "zipCode": "nambari ya zip",
+  "zipCodeValidationOnlyNumbers": "Nambari halali ya zip ina nambari tu",
+  "zipCodeValidationLength": "Tafadhali ingiza nambari ya posta ya nambari ya phtoken0",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "houseName": "Jina la nyumba",
+  "houseNameDescription": "Jina la nyumba, n.k. Jina la Mtaa",
+  "marketLocationId": "Kitambulisho cha eneo la soko",
+  "marketLocationIdDescription": "Kitambulisho cha eneo la soko daima kina nambari 11. Kawaida unaweza kupata hii kwenye umeme wako wa mwisho au bili ya gesi.",
+  "swimmingPool": "Dimbwi la kuogelea",
+  "smartmeterInfocodeBannerText": "SmartMeter Phtoken0 ilipokea InfoCode: PhToken1",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "smartmeterId": {
+        "type": "String"
+      },
+      "infocode": {
+        "type": "String"
+      }
+    }
+  },
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Mita yako ya maji phtoken0 imegundua mtiririko wa maji unaoendelea. Hii inaweza kuonyesha uvujaji. Tafadhali angalia usanikishaji wa kaya yako kwa uvujaji. Vyoo na bomba za kuteleza ni sababu za kawaida.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Mita yako ya maji phtoken0 imegundua matumizi ya juu ya maji, ambayo inaweza kuonyesha kupasuka kwa bomba. Tafadhali angalia usanikishaji wa kaya yako kwa uvujaji mkubwa au mapumziko. Kengele inaweza pia kuonekana ikiwa umetumia maji mengi, n.k. kwa kujaza dimbwi.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Mita yako ya maji phtoken0 imegundua matumizi ya juu ya maji, ambayo inaweza kuonyesha kupasuka kwa bomba au kujaza bwawa la kuogelea. Tafadhali angalia usanikishaji wa kaya yako kwa uvujaji mkubwa au mapumziko.",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "Joto la mita yako ya maji phtoken0 imeshuka chini ya 3 ° C. Kuna hatari ya baridi! Ingiza mita na bomba au joto eneo hilo kuzuia uharibifu.",
+  "smartMeterCountersTitle": "Mita za maji ya redio",
+  "counterOutdatedAndNextReminder": "Kusoma kwa kukabiliana na zamani tangu phtoken0, ukumbusho wa kusoma unaofuata phtoken1.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
+  "waterMeterEventsInformation": "{count, plural, =1 {Mita yako ya maji isiyo na waya phtoken0 hugundua matumizi yasiyotarajiwa. Ikiwa inataka, utapokea arifa katika kesi kama hiyo.} other {Mita yako ya maji isiyo na waya phtoken0 hugundua matumizi yasiyotarajiwa. Ikiwa inataka, utapokea arifa katika hali kama hizi.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "subscribeToSmartMeterInfocodeEvents": "Napenda kuarifiwa juu ya matumizi yasiyotarajiwa",
+  "completeButton": "Kamili",
+  "reset": "Rudisha",
+  "settingCounterTypeColor": "Rangi ya aina hii ya kukabiliana",
+  "settingCounterTypeColorDescription": "Ikiwa haupendi rangi chaguo -msingi ya aina hii ya kukabiliana, unaweza kupeana rangi tofauti.",
+  "settingCounterTypeColorAdvanced": "Picker ya rangi kwa wataalam",
+  "featureVotingUnderConstruction": "Utafiti wa kipengele unarekebishwa kwa sasa. Katika siku zijazo, akaunti ya mtumiaji ya EHW+ itahitajika, na uchunguzi hautatumia tena seva za mtu wa tatu. Tunashukuru uvumilivu wako.",
+  "termsOfUsageTitle": "Masharti ya Jumla ya Matumizi kwa matumizi ya programu",
+  "termsOfUsageBlock1Title": "Masharti ya Jumla ya Matumizi kwa matumizi ya programu",
+  "termsOfUsageBlock1": "Haki ya pingamizi",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2Title": "Habari ya jumla juu ya matumizi",
+  "termsOfUsageBlock2": "Programu na kazi zake haziwezi kutumiwa kwa njia ya dhuluma. Tafadhali tumia programu tu ndani ya wigo unaoruhusiwa kisheria na kulingana na Masharti yetu ya Matumizi. Katika tukio la uvunjaji wa sheria zinazotumika za Ujerumani au Masharti yetu ya Matumizi, mtoaji ana haki ya kukutenga kutoka kwa kutumia programu.",
+  "termsOfUsageBlock2a": "Data ya matumizi isiyojulikana\nTunatumia uchanganuzi wetu ili kuboresha programu kila wakati.\nData isiyojulikana pekee ndiyo inasambazwa.\nData haijapitishwa kwa wahusika wengine.\nKwa maelezo zaidi, nenda kwenye Mipangilio > Faragha > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2b": "Ripoti za makosa\nSentry (inayojipangisha mwenyewe) hutumiwa kuboresha programu kila wakati.\nRipoti za hitilafu hazichakatwa wala kushirikiwa na wahusika wengine.\nKwa maelezo zaidi, nenda kwenye Mipangilio > Faragha > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2c": "Habari ya kibinafsi\nIkiwa unatumia Usawazishaji wa Hifadhi ya Google, EHW+ bado haina ufikiaji wa data uliyoingiza. Kwa habari zaidi, nenda kwa Mipangilio> Usiri> PhToken0.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock3Title": "Dhima",
+  "termsOfUsageBlock3": "Mtoaji hahakikishi kupatikana, kuegemea, utendaji au utaftaji wa programu kwa madhumuni yako. Dhima haitengwa isipokuwa lazima chini ya Sheria ya Dhima ya Bidhaa, kwa sababu ya dhamira, uzembe mkubwa, kuumia kwa maisha, miguu au afya, dhana ya dhamana ya ubora, kuficha kwa udanganyifu wa kasoro au uvunjaji wa majukumu muhimu ya mikataba. Majukumu muhimu ya mikataba ni majukumu ambayo utimilifu ambao ni muhimu kwa utekelezaji sahihi wa mkataba na kwa kufuata vyama vya kuambukiza kunaweza kutegemea mara kwa mara. Fidia ya uharibifu kwa sababu ya uvunjaji wa majukumu muhimu ya mikataba ni mdogo kwa uharibifu unaoonekana kawaida kwa aina hii ya mkataba, isipokuwa ikiwa kuna dhamira au uzembe mkubwa.",
+  "termsOfUsageBlock4Title": "Majukumu ya mtumiaji",
+  "termsOfUsageBlock4": "Mtoaji hahakikishi usahihi wa matokeo ya hesabu. Watumiaji wanahitajika kusasisha bei zilizohifadhiwa kwenye programu (bei ya msingi, bei ya matumizi, nk) kwa uangalifu na kwa jukumu lao wenyewe ili kuhakikisha kuwa ankara zinazozalishwa zinahusiana na kiasi halisi kinachostahili.",
+  "privacyBlock1Title": "Msanidi programu",
+  "privacyBlock1Text": "Msanidi programu/mtoaji wa maombi (hapo awali hujulikana kama \"APP\"), kwa mujibu wa kifungu cha 5 cha Sheria ya Telemedia ya Ujerumani (TMG):\n\nPhtoken0",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock1Text2": "Matumizi ya programu inahitaji kwamba unakubali masharti ya matumizi yafuatayo. Tafadhali wasome kwa uangalifu.",
+  "privacyBlock2Title": "Mkuu",
+  "privacyBlock2Text": "Ulinzi wa data yako ni muhimu sana kwetu. Sera hii ya faragha inaelezea ni data gani ya kibinafsi EHW+ inakusanya na jinsi inatumiwa. Mabadiliko ya kimsingi kwa sera ya faragha ni nadra, lakini inaweza kurekebishwa mara kwa mara kwa sababu ya huduma mpya, teknolojia, au mahitaji ya kisheria. Kwa hivyo tafadhali angalia ukurasa huu mara kwa mara ili ukaane hadi sasa. Ikiwa tutafanya mabadiliko yoyote muhimu, tutakuarifu na, ikiwa ni lazima, pata idhini yako.",
+  "privacyBlock3Title": "Je! Phtoken0 inakusanya data gani?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3aText": "Tuliunda phtoken0 ili uweze kuingia haraka na kwa urahisi kuingia kwa usomaji wa mita yako na kisha kutumia takwimu kujua zaidi juu ya utumiaji wako, gharama zake na akiba inayowezekana. Hii inamaanisha kuwa unaweza kuingia, kuhesabu au kuokoa data yoyote, ambayo kwa ujumla tunarejelea kama 'yaliyomo', katika PhToken1. Data hii imehifadhiwa tu kwenye simu yako ya rununu.\n\nSawazisha na Hifadhi ya Google.\nIkiwa utawezesha maingiliano na Hifadhi ya Google, yaliyomo pia yatahifadhiwa kiotomatiki kwenye folda inayoitwa 'PhToken2' kwenye Hifadhi yako ya Google, ambayo tu unaweza kupata. Kwa kuingia na Google, anwani yako ya barua pepe itaonekana kwa msanidi programu.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "googleApiAgreement": "Matumizi ya PhToken0 na kuhamisha kwa programu nyingine yoyote ya habari iliyopokelewa kutoka kwa API za Google itafuata sera ya data ya watumiaji wa Huduma za Google, pamoja na mahitaji ya utumiaji mdogo.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3bText": "{googleApiAgreement}\n\nData ya eneo.\nIli kuelewa tabia ya mtumiaji na kwa vipengele vya siku zijazo, programu hutuma data ya matumizi isiyojulikana.\nData haijashirikiwa na wahusika wengine.\nTaarifa inaweza kukusanywa kuhusu asili (nchi na jiji), lugha, mfumo wa uendeshaji, aina ya kifaa, azimio, tabia ya kubofya, na muda wa matumizi.\n\nData ya kifaa.\nTunakusanya data kuhusu nambari na aina ya vifaa unavyotumia kuunganisha kwenye huduma, na pia maelezo kuhusu mfumo wa uendeshaji kwenye vifaa hivyo (k.m. Android, iOS, Windows au macOS).\n\nKwa kutumia programu, unakubali ukusanyaji wa data isiyojulikana kama ilivyoelezwa hapo juu.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyContractPriceSubmission": "Wakati wewe, kama mtumiaji, kudumisha data yako ya mkataba, bei kwa kila kitengo cha umeme, mikataba ya maji na gesi hupitishwa kwa seva ya EHW+ huko Ujerumani pamoja na nchi na serikali ya shirikisho. Takwimu hii hutumiwa kuhesabu takwimu za bei. Kwa watumiaji wa programu, takwimu zinaonekana katika mfumo wa kulinganisha bei katika mtazamo wa mkataba.\n\nKwa kutumia programu, unakubali mkusanyiko uliotajwa hapo juu wa data isiyojulikana.",
+  "privacyBlock4DataUsageTitle": "Je! Phtoken0 hutumiaje data yangu?",
+  "privacyBlock4DataUsage": "Takwimu zilizokusanywa zisizojulikana hutumiwa kutathmini tabia ya watumiaji. Zaidi ya hii, hakuna matumizi zaidi ya data.\n\nPhtoken0",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock5Title": "Muda wa uhifadhi wa data ya kibinafsi",
+  "privacyBlock5": "Muda wa uhifadhi wa data ya kibinafsi imedhamiriwa na kipindi husika cha kisheria (k.m. vipindi vya uhifadhi wa sheria na ushuru). Baada ya kumalizika kwa kipindi hicho, data inayolingana inafutwa mara kwa mara, mradi haihitajiki tena kwa utimilifu au uanzishaji wa mkataba na/au hatuna nia halali katika uhifadhi wake unaoendelea.",
+  "youtubeConsent1": "Tunahitaji idhini yako kuonyesha yaliyomo kwenye YouTube. Unaweza kuonyesha hii (na kwa hivyo pia maudhui mengine yote ya YouTube kwenye programu) kwa kubonyeza moja na pia kuizuia tena.",
+  "youtubeConsent2": "Daima onyesha yaliyomo kwenye YouTube",
+  "youtubeConsent3": "Ninakubali maudhui ya nje kuonyeshwa kwangu. Hii inaweza kusababisha data ya kibinafsi kupitishwa kwa majukwaa ya mtu wa tatu. Zaidi juu ya hii katika yetu",
+  "privacyBlock6Title": "Wasiliana",
+  "privacyBlock6": "Unapowasiliana nasi (k.m. kupitia fomu ya mawasiliano au barua pepe), data ya kibinafsi inakusanywa. Takwimu zilizokusanywa katika kesi ya fomu ya mawasiliano zinaweza kuonekana kwenye fomu husika ya mawasiliano. Takwimu hii imehifadhiwa na kutumiwa peke kwa madhumuni ya kujibu uchunguzi wako au kwa kuanzisha mawasiliano na utawala wa kiufundi unaohusika. Msingi wa kisheria wa usindikaji wa data ni nia yetu halali ya kujibu ombi lako kulingana na sanaa. 6 para. 1 lit. F GDPR. Ikiwa mawasiliano yako yanalenga kumaliza mkataba, msingi wa ziada wa kisheria wa usindikaji ni sanaa. 6 para. 1 lit. B GDPR. Takwimu zako zitafutwa baada ya uchunguzi wako kusindika, ambayo ni kesi ikiwa inaweza kutolewa kutoka kwa hali ambayo suala linalohusika limefafanuliwa hatimaye na mradi hakuna majukumu ya kisheria ya kuhifadhi data.",
+  "privacyBlock7Title": "Haki za mtu anayehusika",
+  "privacyBlock7": "Sheria inayotumika ya Ulinzi wa Takwimu inakupa haki kamili kama somo la data (haki za habari na uingiliaji) vis-a-vis mtawala kuhusu usindikaji wa data yako ya kibinafsi, ambayo tutakujulisha hapa chini:\n\n- Haki ya habari kulingana na sanaa. 15 GDPR: Hasa, unayo haki ya kupata habari juu ya data yako ya kibinafsi iliyosindika na sisi, madhumuni ya usindikaji, aina za data za kibinafsi, wapokeaji au aina ya wapokeaji ambao data yako imekuwa au itafunuliwa, kipindi cha uhifadhi au usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, usindikaji, Ikiwa haikukusanywa na sisi kutoka kwako, uwepo wa maamuzi ya kiotomatiki, pamoja na maelezo, na, inapotumika, habari yenye maana juu ya mantiki inayohusika na umuhimu na matokeo yaliyotarajiwa ya usindikaji kama huo kwako, na haki yako ya kufahamishwa juu ya dhamana ambayo inapatikana kulingana na sanaa. 46 GDPR wakati data yako inahamishiwa nchi za tatu;\n\n- Haki ya kurekebisha kulingana na sanaa. 16 GDPR: Una haki ya kuwa na data sahihi juu ya uliyorekebishwa bila kuchelewesha na/au kuwa na data kamili iliyohifadhiwa na Amerika iliyokamilishwa.\n\n- Haki ya kufuta kufuata sanaa. 17 GDPR: Una haki ya kuomba utaftaji wa data yako ya kibinafsi ikiwa hali ya sanaa. 17 (1) GDPR imefikiwa. Walakini, haki hii haifanyi kazi haswa ikiwa usindikaji ni muhimu kwa kutumia haki ya uhuru wa kujieleza na habari, kwa kufuata wajibu wa kisheria, kwa sababu za masilahi ya umma au kwa uanzishwaji, mazoezi au utetezi wa madai ya kisheria.\n\n- Haki ya kizuizi cha usindikaji kulingana na sanaa. 18 GDPR: Una haki ya kuomba kizuizi cha usindikaji wa data yako ya kibinafsi kwa muda mrefu kama usahihi wa data yako unathibitishwa ikiwa umekataa utaftaji wa data yako kwa misingi ya usindikaji wa data isiyoweza kutekelezwa na badala yake uombe kizuizi cha data yako ikiwa unahitaji kusudi la data yako, ikiwa hauhitaji kusudi la data yako, ikiwa hauhitaji kusudi la data yako ya kusudi, ikiwa hauhitaji kusudi la data yako ya kusudi la kusudi la kutawaliwa kwa sababu ya kusudi la data yako ya kusudi la kusudi la kutawaliwa na madai ya kusudi la data ya kusudi la kusudi la kutaja kwamba kusudi la data ya kutawa Kwa misingi inayohusiana na hali yako fulani, kwa muda mrefu kama bado haijaonekana wazi ikiwa sababu zetu halali zinashinda;\n\n- Haki ya kuarifiwa kulingana na sanaa. 19 GDPR: Ikiwa umetumia haki yako ya kurekebisha, kukomesha au kizuizi cha usindikaji wa vis-a-vis mtawala, mtawala analazimika kuwaarifu wapokeaji wote ambao data yako ya kibinafsi imefunuliwa juu ya urekebishaji huu au kufuta data au kizuizi cha usindikaji, isipokuwa hii inathibitisha kuwa haiwezekani au inajumuisha juhudi. Una haki ya kufahamishwa juu ya wapokeaji hawa.\n\n- Haki ya usambazaji wa data kulingana na sanaa. 20 GDPR: Una haki ya kupokea data yako ya kibinafsi ambayo umetupatia katika muundo uliowekwa, unaotumika na unaoweza kusomeka mashine au kuomba uhamishaji wake kwa mtawala mwingine, ambapo kiufundi inawezekana.\n\n- Haki ya kuondoa idhini iliyotolewa kulingana na sanaa. 7 (3) GDPR: Una haki ya kuondoa idhini yako kwa usindikaji wa data wakati wowote na athari kwa siku zijazo. Katika tukio la kujiondoa, tutafuta data inayohusika bila kuchelewesha, isipokuwa usindikaji zaidi unaweza kutegemea msingi wa kisheria wa usindikaji bila idhini. Kuondolewa kwa idhini hakuathiri uhalali wa usindikaji kulingana na idhini kabla ya kujiondoa.\n\n- Haki ya kuweka malalamiko kulingana na sanaa. 77 GDPR: Ikiwa unaamini kuwa usindikaji wa data yako ya kibinafsi unakiuka GDPR, una haki ya kuweka malalamiko na mamlaka ya usimamizi, haswa katika jimbo la mwanachama wa makazi yako, mahali pako pa kazi au mahali pa ukiukwaji wa madai, bila ubaguzi kwa suluhisho lingine la kiutawala au la mahakama.",
+  "privacyBlock8Title": "Haki ya pingamizi",
+  "privacyBlock8": "Ikiwa tutashughulikia data yako ya kibinafsi kwa msingi wa riba yetu halali kama sehemu ya kusawazisha masilahi, una haki ya kupinga usindikaji huu wakati wowote kwa sababu zinazotokana na hali yako fulani, na athari kwa siku zijazo. Ikiwa utatumia haki yako ya kupinga, tutaacha kusindika data inayohusika. Walakini, usindikaji zaidi bado umehifadhiwa ikiwa tunaweza kudhibitisha sababu halali za usindikaji ambazo zinazidisha masilahi yako, haki za msingi na uhuru, au ikiwa usindikaji hutumika, kutekeleza au kutetea madai ya kisheria.\n\nIkiwa tutashughulikia data yako ya kibinafsi kwa madhumuni ya uuzaji wa moja kwa moja, una haki ya kupinga wakati wowote kwa usindikaji wa data ya kibinafsi juu yako kwa madhumuni ya matangazo kama haya. Unaweza kutumia haki yako ya kupinga kama ilivyoelezwa hapo juu.\n\nIkiwa utatumia haki yako ya kupinga, tutaacha kusindika data inayokuhusu kwa madhumuni ya uuzaji wa moja kwa moja.",
+  "activityTitle": "Shughuli",
+  "activitiesTitle": "Shughuli zangu",
+  "activitiesDescription": "Unganisha usomaji wa mita kwa shughuli, k.v., kuosha na mita za maji baridi na mita za umeme.",
+  "sortActivities": "Rekebisha mpangilio wa shughuli",
+  "resetActivities": "Rudisha shughuli zote",
+  "addActivity": "Ongeza shughuli",
+  "activitySettings": "Mipangilio ya shughuli",
+  "activityOverview": "Muhtasari wa shughuli",
+  "activityNameLabel": "Jina la shughuli",
+  "chooseActivity": "Chagua shughuli",
+  "selectedActivity": "Shughuli iliyochaguliwa \"$ phtoken0\"",
+  "chooseActivityIcon": "Chagua ikoni",
+  "involvedCounters": "Hesabu zinazohusika",
+  "detailsTitle": "Maelezo",
+  "detailWithMultiSelect": "Ruhusu uteuzi wa anuwai",
+  "addDetail": "Ongeza undani",
+  "editDetailTitle": "Hariri undani",
+  "activityWithEnergyConsumption": "Matumizi ya nguvu hupimwa tu kwa shughuli",
+  "consumptionIsNotExclusiveTitle": "Je! Matumizi ni ya kipekee?",
+  "consumptionIsNotExclusive": "Ikiwa matumizi sio ya kipekee kwa shughuli hii, itaonyeshwa kama onyo.",
+  "numberOfDetails": "{count, plural, one {Maelezo 1} other {Maelezo ya phtoken0}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reallyDeleteActivity": "Futa kweli shughuli hii?",
+  "reallyDeleteDetail": "Futa kweli maelezo haya?",
+  "reallyDeleteContract": "Futa kweli mkataba huu?",
+  "contractCopyDialogTitle": "Je! Unataka kufanya nakala ya mkataba huu?",
+  "contractCopyDialogOptionYes": "Ndio, bei ya kitengo au thamani nyingine imebadilika.",
+  "contractCopyDialogOptionNo": "Hapana, Ghairi.",
+  "contractCopyDialogWhen": "Je! Bei mpya inatumika lini?",
+  "contractCosts": "Bei ya kitengo",
+  "contractCostsFeedIn": "Bei ya malipo/bei ya msingi",
+  "counterWarmWaterPlusColdWater": "Ukiondoa maji safi na gharama ya maji ya taka",
+  "advancePayment": "Malipo ya mapema",
+  "bonus": "Bonasi",
+  "bonusInfoTitle": "Habari juu ya ushuru wa bonasi",
+  "bonusInfoText": "Ushuru na bonasi mara nyingi huruhusu akiba ya juu wakati wa kubadilisha watoa huduma. Walakini, hii kawaida hutokana na bonasi ya wakati mmoja. Hiyo inamaanisha: Gharama za jumla ni chini sana katika mwaka wa kwanza wa usambazaji. Kazi ya juu na/au bei ya msingi hutoa katika mwaka wa pili kwa hesabu ya juu kabisa. Kwa hivyo, na ushuru wa ziada unapaswa kupanga kutoka mwanzo kubadilika tena baada ya mwaka mmoja. Ushuru wa bonasi na muda wa miaka mbili, ambapo kufutwa kwa kazi hii haiwezekani kabisa, inapaswa kuhojiwa haswa.",
+  "source": "Chanzo:",
+  "basePrice": "Bei ya msingi",
+  "gross": "jumla",
+  "net": "wavu",
+  "grossNetPrices": "Pato au bei ya jumla",
+  "taxRate": "Kiwango cha ushuru",
+  "perUnit": "kwa phtoken0",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "wasteWaterPriceEnabled": "Gharama za maji safi na taka zinaonyeshwa kando (inafaa kwa mita za kupunguzwa)",
+  "pricePerUnit": "Bei kwa kila kitengo",
+  "pricePerUnitFeedIn": "Bei ya malipo",
+  "pricePerUnitWaterWarm": "Gharama za kupokanzwa maji moto",
+  "pricePerUnitWaterCold": "Gharama ya maji baridi",
+  "pricePerUnitFreshWater": "Gharama za maji safi",
+  "pricePerUnitWasteWater": "Bei ya maji taka",
+  "paidAdvancePayments": "Malipo ya mapema",
+  "supplementaryPayment": "Malipo ya ziada",
+  "refund": "Malipo",
+  "costs": "Gharama",
+  "contract": "Mkataba",
+  "contractDetails": "Muda wa mkataba na maelezo",
+  "usedForPaymentsRepayments": "Malipo ya mapema, bei ya msingi, na bonasi",
+  "contractName": "Mtoaji/jina la mkataba",
+  "contractNumber": "Nambari ya mkataba",
+  "contractStart": "Tarehe ya kuanza mkataba",
+  "contractPeriod": "Kipindi cha mkataba",
+  "cancellationPeriod": "Kipindi cha kufuta",
+  "activityWash": "Kuosha",
+  "activityWashTemperature": "Joto",
+  "activityWashDuration": "Muda",
+  "activityWashDuration2hrs": "2H",
+  "activityWashRotations": "Mzunguko",
+  "activityWashShort": "Programu fupi",
+  "activityShower": "Oga",
+  "activityBath": "Umwagaji",
+  "activityDishWasher": "Sahani washer",
+  "activityIron": "Chuma",
+  "errorNoInternet": "Hakuna mtandao",
+  "errorInvalidRange": "Hakuna anuwai halali",
+  "syncDriveLoggedIn": "Takwimu zako zinasawazishwa kiatomati kwenye vifaa vingi. Akaunti ifuatayo ya Google inatumika:",
+  "syncDriveLoggedInNoAuto": "Takwimu zako zimepakiwa kiotomatiki kwenye Hifadhi ya Google baada ya mabadiliko. Takwimu mpya kutoka kwa wingu huondoa tu data za kawaida wakati bonyeza kitu hicho. Akaunti ifuatayo ya Google inatumika:",
+  "syncDriveDataUsage": "Ikiwa utatoa ufikiaji wa EHW+ kwa Hifadhi ya Google, programu itakuwa imesoma na kuandika ufikiaji wa faili zilizoundwa na programu yenyewe. Kwa bahati mbaya, faili zilizoundwa na wengine kupitia programu hii hazionekani kwa programu, ambayo inamaanisha kushiriki data kati ya akaunti nyingi kupitia Hifadhi ya Google haiwezekani.",
+  "syncAutomaticTitle": "Takwimu za mitaa zinaweza kuandikwa tena",
+  "syncShareWithOthersTitle": "Shiriki na wengine?",
+  "syncShareWithOthersSubtitle": "Ikiwa unataka kuingiza usomaji wa mita pamoja na watumiaji wengine wa Google, EHW+ lazima ipewe ufikiaji kamili wa Hifadhi ya Google.",
+  "syncShareWithOthersNotInWeb": "Kutoa ufikiaji kwa sasa inawezekana tu kupitia programu.",
+  "syncWithGoogleDriveDescription": "Kwa sababu itakuwa aibu ikiwa usomaji wa mita umepotea, sanjari vitu vyako na Hifadhi ya Google sasa!",
+  "driveSyncStatusTitle": "Hali ya maingiliano",
+  "driveSyncStatusNotSynced": "Haijasawazishwa",
+  "driveSyncStatusFailed": "Imeshindwa kusawazisha",
+  "driveSyncStatusComparing": "Kulinganisha na faili kwenye seva",
+  "driveSyncStatusSyncing": "Usawazishaji unaendelea",
+  "driveSyncStatusLocalHasLatestNoCloud": "Faili iliyohifadhiwa kwenye kifaa hiki kutoka phtoken0 haijahifadhiwa ndani ya wingu",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusLocalHasLatestWithCloud": "Faili iliyohifadhiwa kwenye kifaa hiki kutoka phtoken0 ni ya kisasa zaidi kuliko faili kwenye wingu kutoka phtoken1",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      },
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestNoLocal": "Faili kwenye wingu kutoka phtoken0 haijahifadhiwa kwenye kifaa hiki",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestWithLocal": "Faili kwenye wingu kutoka PhToken0 ni ya kisasa zaidi kuliko faili ya ndani kutoka PhToken1",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusUpToDate": "Hadi leo kutoka phtoken0",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncWithGoogle": "Usawazishaji wa Hifadhi ya Google",
+  "driveSyncNow": "Kusawazisha sasa",
+  "driveSignInWithGoogle": "Ingia na Google",
+  "signInWithGoogle": "Ingia na Google",
+  "signInWithApple": "Ingia na Apple",
+  "signInWithGithub": "Ingia na GitHub",
+  "signInWithSocialAccount": "Je! Unataka kutumia akaunti gani ya kijamii kuunda au kuingia kwenye akaunti yako ya EHW+?",
+  "syncStatusFailedLong": "Imeshindwa kusawazisha, uhariri uko katika hatari yako mwenyewe",
+  "syncStatusFailedLongNoAutoSync": "Imeshindwa kusawazisha, uhariri uko katika hatari yako mwenyewe",
+  "syncStatusSyncRemoteHasLatest": "Faili kwenye wingu ni ya kisasa zaidi kuliko faili ya ndani",
+  "syncObjectIsLocked": "Takwimu za kitu zinasasishwa na haziwezi kuhaririwa wakati huu.",
+  "importExport": "Chelezo/rejesha",
+  "import": "Kuagiza",
+  "importPickFile": "Chagua Faili",
+  "importSelectSingleCounter": "Kaunta moja (faili ya CSV)",
+  "importSelectJson": "Faili ya JSON (iliyoundwa na phtoken0)",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "importWhichCounterForCsv": "Je! Ni kaunta ipi inapaswa kutumiwa?",
+  "importNewOrExistingCounter": "Ongeza kwa kaunta mpya au iliyopo?",
+  "importConfirm": "Thibitisha kuagiza",
+  "importTheObject": "Kitu cha kuagiza",
+  "importExplanation": "Tayari umefanya usomaji wa kukabiliana na unataka kuziingiza?",
+  "importCounterAsCsv": "Je! Unataka kuingiza mita moja? Iliyoungwa mkono kwa kila mita ni faili ya CSV iliyo na safu mbili, moja kwa wakati na moja kwa usomaji wa mita.\n\nTakwimu za Mfano:\n2020-04-01T22: 59: 00,6790.855\n\"2020-04-01t23: 59\"; 6795.421\n2020-04-01 22: 22,6803.435\n20120401 13: 27: 00,6807.467\n2012-04-01,13: 27: 00,6807.467\n\"2020-04-01 23:02:00\", 6812,036",
+  "importSuccessful": "Kuagiza kufanikiwa",
+  "importNotPossible": "Kuagiza haiwezekani",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Mstari mmoja ulipuuzwa: phtoken0} other {Mistari ya phtoken0 ilipuuzwa: phtoken1}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Nguzo mbili tu za kwanza zilitumika. Safu ya tatu ilipuuzwa.} other {Nguzo mbili tu za kwanza zilitumika, nguzo za PhToken0 zilipuuzwa.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "consentTitle": "Mipangilio ya faragha",
+  "privacyTitle": "Sera ya faragha",
+  "imprintTitle": "Alama",
+  "faqTitle": "Maswali",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialTwitter": "X",
+  "export": "Kuuza nje",
+  "exportExplanation": "Je! Ni kitu gani kilichopo unataka kuuza nje, kwa mfano kuihamisha kwa kifaa kipya?",
+  "exportWhere": "Je! Kitu hicho kinapaswa kusafirishwa katika muundo gani?",
+  "exportWhichValuesShouldBeExported": "Je! Ni maadili gani yanayopaswa kusafirishwa?",
+  "exportOptionExcel": "Faili ya Excel",
+  "exportOptionPdf": "Faili ya PDF",
+  "exportOptionFileDescription": "Kitu hicho kinashirikiwa kama faili ya phtoken0",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "socialLinkedIn": "LinkedIn",
+  "socialYouTube": "YouTube",
+  "socialEmail": "Barua pepe",
+  "social": "Vyombo vya habari vya kijamii",
+  "support": "Msaada/Maoni",
+  "supportQuestion": "Uliza swali",
+  "supportQuestionBox": "Ninawezaje kukusaidia?",
+  "supportQuestionNotFound": "Swali lako halikujibiwa? Ningefurahi kusaidia.",
+  "supportQuestionLong": "Inafanyaje kazi? Inawezekana kabisa? Hapa kuna majibu.",
+  "supportReportBug": "Ripoti mdudu kupitia barua",
+  "supportReportBugTextIs": "Tafadhali eleza kwa kifupi tabia isiyo sahihi ya sasa, i.e. kosa lenyewe.",
+  "supportReportBugTextShould": "Tafadhali eleza kwa ufupi tabia inayotaka, i.e. jinsi inapaswa kuwa kweli.",
+  "supportReportBugAffectedPages": "Je! Kosa linatokea kwa kurasa zipi? (ikiwa inatumika)",
+  "supportReportBugScreenshotsPlease": "Tafadhali ambatisha skrini kwenye barua, ikiwezekana na alama ya kosa.",
+  "supportBug": "Mdudu",
+  "supportReportBugLong": "Programu nzuri! Lakini hakika, mambo yanaweza kwenda vibaya. Ikiwa unaripoti mende, unafanya programu iwe bora.",
+  "supportGivePraise": "Toa sifa",
+  "supportGivePraiseLong": "Je! Unapenda programu? Asante! Kueneza neno!",
+  "supportGivePraiseRecommendation": "Pendekeza programu kwa marafiki na familia. Asante kwa pendekezo lolote!",
+  "supportRecommend": "Ninatumia programu ya kusoma ya mita EHW+ kuweka wimbo wa matumizi yangu ya nishati na gharama zinazohusiana. Labda hiyo itakuwa kitu kwako, pia?\n\nMaelezo zaidi katika https://www.ehwplus.com",
+  "supportGivePraiseRating": "Kiwango cha programu katika phtoken0.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "electricityConsumption": "Matumizi ya nguvu",
+  "waterExtractionMinimumLevelLower": "Kupunguza hufanyika kwa sababu matumizi ni chini kuliko kizingiti.",
+  "outdatedCounters": "Vihesabu havitumiki tena",
+  "isOutdatedCounter": "Counter haitumiki tena",
+  "waterConsumption": "Matumizi ya maji",
+  "rooms": "Vyumba",
+  "messageNoRooms": "Hakuna vyumba bado. Vyumba husaidia mita za kikundi.",
+  "settingObjectType": "Aina ya kitu",
+  "settingObjectTypeFlat": "Ghorofa",
+  "settingObjectTypeHouse": "Nyumba",
+  "settingLivingArea": "Eneo la kuishi",
+  "unitSquareMeters": "sqm",
+  "unitMWhShort": "MWH",
+  "unitMWhLong": "{count, plural, one {Saa ya Megawatt (MWH)} other {Masaa ya Megawati (MWH)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitKWhShort": "kWh",
+  "unitKWhLong": "{count, plural, one {Saa ya kilowatt (kWh)} other {Masaa ya Kilowatt (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitGJShort": "GJ",
+  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitLitersShort": "ℓ",
+  "unitLitersLong": "{count, plural, one {Lita (ℓ)} other {Lita (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCmShort": "cm",
+  "unitCmLong": "cm",
+  "unitSquareMetersShort": "m²",
+  "unitSquareMetersLong": "{count, plural, one {Mita ya mraba (m²)} other {Mita za mraba (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCubicMetersShort": "m³",
+  "unitCubicMetersLong": "{count, plural, one {Mita ya ujazo (m³)} other {Mita za ujazo (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitPercentShort": "%",
+  "unitPercentLong": "Asilimia (%)",
+  "unitKgShort": "kg",
+  "unitKgLong": "{count, plural, one {Kilo (kilo)} other {Kilo (kilo)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitHoursShort": "h",
+  "unitHoursLong": "{count, plural, one {Saa} other {Masaa (H)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitNoneFormatted": "{count, plural, one {Sehemu} other {vitengo}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitMegaByteShort": "MB",
+  "unitMegaByteLong": "MB",
+  "unitGigaByteShort": "GB",
+  "unitGigaByteLong": "GB",
+  "settingHouseholdSize": "Saizi ya kaya",
+  "settingHouseholdSizeDescription": "Idadi ya watu katika kaya yako.",
+  "settingWaterHeater": "Heater ya maji",
+  "settingEAuto": "Gari la umeme",
+  "settingObjectLocation": "Mahali",
+  "settingObjectLocationTitle": "Kitu chako kiko wapi?",
+  "settingObjectLocationExplanation": "Kuingia eneo husaidia ufahamu na huduma kwa eneo lako.",
+  "counterBackgroundImageOfObject": "Picha ya nyuma kwa kitu",
+  "manageMoreThanOneObjectStep1": "Dhibiti zaidi ya kitu kimoja - Hatua ya 1",
+  "manageMoreThanOneObjectStep2": "Dhibiti zaidi ya kitu kimoja - Hatua ya 2",
+  "contracts": "Mikataba",
+  "messageNoContracts": "Hakuna mikataba bado.",
+  "outdatedContracts": "Mikataba ya zamani",
+  "contractType": "Aina ya mkataba",
+  "electricity": "Umeme",
+  "electricityBack": "Umeme ulishwa",
+  "electricityGenerated": "Umeme uliotengenezwa",
+  "heatPump": "Pampu ya joto",
+  "coldWater": "Maji baridi",
+  "counterHeater": "Mita ya radiator",
+  "counterDistrictHeating": "Inapokanzwa wilaya",
+  "counterOilHeating": "Inapokanzwa mafuta",
+  "counterGas": "Mita ya gesi",
+  "counterColdWater": "Mita baridi ya maji",
+  "counterWaterExtraction": "Mita ya uchimbaji wa maji (bustani)",
+  "counterWaterExtractionExplanation": "Na mita ya kupunguzwa gharama ya maji taka inaweza kupunguzwa. Ukiwa na ununuzi huu wa ndani ya programu unaweza kutaja gharama tofauti za maji safi na maji taka na usomaji wa mita kutoka kwa mita ya kupunguzwa utazingatiwa katika gharama za maji.",
+  "warmWater": "Maji ya joto",
+  "counterWarmWater": "Mita ya maji ya joto",
+  "counterElectricity": "Mita ya umeme",
+  "counterElectricityBack": "Mita ya kulisha umeme (PV)",
+  "counterElectricityGenerated": "Mita ya uzalishaji wa umeme",
+  "counterPvFeedInCounter": "Nguvu zinazoweza kurejeshwa (nguvu ya jua na joto na mifumo ya PV/jua)",
+  "counterPvFeedInCounterExplanation": "Tumia mita ya kulisha umeme kurekodi umeme unaotokana na kulishwa\nna mfumo wa photovoltaic. Mapato yanayosababishwa yametolewa dhidi ya gharama ya\nUmeme uliochorwa.",
+  "virtualCounter": "Mita halisi",
+  "heater": "Radiator",
+  "gas": "Gesi",
+  "oil": "Mafuta",
+  "stove": "Jiko",
+  "networkCounter": "Mtandao na simu",
+  "solarThermalCollector": "Ushuru wa mafuta ya jua",
+  "contractTypeElectricityProvider": "Mtoaji wa umeme",
+  "contractTypeWaterFees": "Ada ya maji",
+  "contractTypeHeatingFees": "Ada ya kupokanzwa",
+  "contractTypeOilProvider": "Mtoaji wa mafuta",
+  "contractTypeGasProvider": "Mtoaji wa gesi",
+  "contractTypeStove": "Jiko",
+  "contractTypeNetwork": "Mtandao na simu",
+  "currency": "Sarafu",
+  "costsUndefinedFor": "Gharama zisizofafanuliwa",
+  "exportOptionReadingsTitle": "Maadili ya kusoma",
+  "exportOptionReadingsSubtitle": "Kawaida usomaji wa mita au matumizi na vipindi visivyo kawaida.",
+  "exportOptionConsumptionsTitle": "Matumizi ya kila siku",
+  "exportOptionConsumptionsSubtitle": "Thamani ya matumizi kwa kila siku tangu usomaji wa kwanza.",
+  "settings": "Mipangilio",
+  "roomOther": "Nyingine",
+  "previouslyDeletedCounters": "Mita iliyofutwa hivi karibuni",
+  "restoreDeletedCounter": "Je! Ungependa kurejesha mita hii iliyofutwa?",
+  "localWriteTitle": "Hifadhi kwenye folda ya kupakua ya ndani",
+  "localWriteSubtitle": "Je! Vitu na picha zinapaswa kuokolewa kwenye folda ya \"Phtoken0\" ya ndani na kila mabadiliko?",
+  "settingUiMode": "Interface ya mtumiaji",
+  "settingUiColorPalette": "Rangi ya rangi",
+  "settingUiModeDarkOrLight": "Kiingiliano cha Mtumiaji wa Giza/Nuru",
+  "settingLanguageMode": "Lugha",
+  "settingUiModeOsDefault": "Mfumo",
+  "settingUiModeLight": "Mwanga",
+  "settingUiModeDark": "Giza",
+  "appBarExpandedMode": "Baa ya programu na picha ya nyuma",
+  "useDismissibleSettings": "Futa kwa swipe ishara",
+  "useDismissibleSettingsDetailed": "Vihesabu, mikataba, nk zinaweza kufutwa na harakati za kubonyeza upande",
+  "settingsExternalServices": "Huduma za nje",
+  "settingsShowTabNewsDetailed": "Je! Tabo ya Habari/Vidokezo inapaswa kuonekana?",
+  "settingsShowStromGedacht": "Je! Vidokezo kutoka Stromgedacht juu ya gridi ya nguvu kuonyeshwa?",
+  "lineChartAppearanceSettings": "Chati za mstari",
+  "lineChartAppearanceSettingsShowSpots": "Onyesha (mviringo) matangazo kwenye mistari ya chati",
+  "supportMakeSuggestion": "Pendekeza kitu",
+  "supportMakeSuggestionLong": "Programu inaishi kutoka kwa maoni ya watumiaji. Je! Una maoni?",
+  "featureVoting": "Upigaji kura",
+  "featureVotingOnlyOnGerman": "Utafiti wa kipengele haujatafsiriwa kwa lugha zingine.",
+  "notifications": "Arifa",
+  "notificationsEmpty": "Hakuna arifa",
+  "notificationsSmartMeterAlertFallback": "Una tahadhari mpya ya mita smart.",
+  "readingNew": "Usomaji mpya",
+  "readingUpdate": "Sasisha kusoma",
+  "readingPrefill": "Usomaji wa mita za kujaza kiotomatiki",
+  "readingPrefillDisabled": "Kujaza kiotomatiki",
+  "readingPrefillEnableForAllCounters": "Wezesha kujaza kiotomatiki kwa hesabu zote",
+  "readingPrefillDisableForAllCounters": "Lemaza kujaza kiotomatiki kwa hesabu zote",
+  "readingPrefillDescription": "Usomaji wa mita kabla ya kujaza kulingana na viingilio vya zamani",
+  "readingPrefillDisabledToast": "Kujaza kiotomatiki",
+  "readingSubmitted": "Usomaji wa mita uliowasilishwa",
+  "readingDeleteConfirm": "Futa kusoma?",
+  "reminderTime": "Wakati wa ukumbusho",
+  "reminderWeekdayExplanation": "Kuna ukumbusho wa kuchukua kusoma sio zaidi ya mara moja kwa siku.",
+  "reminderWeekdayExplanationSeasonal": "Kwa mita zilizo na matumizi ya msimu, ukumbusho hutumwa kwa miezi na matumizi (hufanya kazi tu ikiwa maadili ya mwaka jana yamepewa).",
+  "readingReminder": "{count, plural, one {Kusoma ukumbusho} other {Kusoma ukumbusho}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "readingReminders": "Kusoma ukumbusho",
+  "readingReminderDisabled": "Kusoma ukumbusho sio kazi",
+  "readingRemindersChannel": "Kusoma ukumbusho",
+  "readingReminderSingleBody": "Soma thamani ya phtoken0 sasa",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "readingReminderMultiBody": "{count, plural, one {Soma usomaji kutoka kwa mita ya phtoken0 sasa} other {Soma usomaji kutoka kwa mita za phtoken0 sasa}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contractReminder": "Ukumbusho wa mkataba",
+  "outdated": "Zamani",
+  "counterNew": "Kaunta mpya",
+  "counterEdit": "Hariri kaunta",
+  "counterGasConversionFactor": "Sababu ya uongofu",
+  "counterGasCalorificValue": "Thamani ya calorific",
+  "counterGasConversionFactorHelpText": "CA 1.0. Nambari ya hali hutumiwa kubadilisha kiasi cha kufanya kazi kuwa kiwango cha kawaida. Hali ya kufanya kazi ni hali ya gesi kwenye mita na inategemea shinikizo (urefu) na joto sasa.",
+  "counterGasCalorificValueHelpText": "Thamani ya kupokanzwa: Sababu isiyo na kipimo ya kubadilisha kiwango cha gesi kilichopimwa kuwa nishati. Gesi Asilia: Kawaida kati ya 9.0 na 12.5 kWh/m³, LPG: kati ya 23.0 na 33.0 kWh/m³",
+  "counterTypeLabel": "Aina ya kukabiliana",
+  "counterMeterId": "Kitambulisho cha mita",
+  "counterName": "Jina la kukabiliana",
+  "counterContractCurrentlyUsed": "Mkataba unaotumika sasa",
+  "counterSelected": "Kuchaguliwa",
+  "counterNoContractSelected": "Hakuna mkataba uliochaguliwa",
+  "counterOtherContracts": "Mikataba mingine",
+  "counterExcludedContracts": "Mikataba iliyotengwa",
+  "counterInclude": "Ni pamoja na",
+  "counterExclude": "Tenga",
+  "counterTankCapacity": "Uwezo wa tank",
+  "counterTankFillHeight": "Jaza urefu",
+  "counterFactorDescription": "Je, matumizi yamegawiwa wewe tu kwa misingi ya prorata? Weka uwiano kama thamani kati ya 0.1 (10%) na 1.0 (100%).",
+  "counterTransducerFactor": "Uwiano wa transformer",
+  "counterProportionateConsumption": "Matumizi ya sehemu",
+  "counterFactor": "Sababu",
+  "counterTransducerFactorExplained": "Ikiwa transformer ya voltage inatumiwa kupunguza voltage kabla ya kufikia mita, sababu mpya ya ubadilishaji lazima itumike kupata usomaji sahihi. Mfano: Mita inaonyesha kWh 100,000 na sababu ya ubadilishaji ya 20. Usomaji sahihi ni: 100,000 kWh x 20 = 2000,000 kWh.",
+  "counterFractionDigits": "Nambari za sehemu",
+  "counterDirection": "Mwelekeo",
+  "counterDirectionExplanation": "Je, thamani hupungua kwa matumizi (kiashirio cha kiwango, n.k.) au je, thamani huongezeka kwa matumizi (saa za kichomaji, mita ya mafuta, n.k.) au je, kila thamani ya usomaji inajitegemea (matumizi/mavuno)?",
+  "counterConsiderForTotalElectricity": "Fikiria kwa matumizi ya jumla ya umeme",
+  "counterConsiderForTotalWater": "Fikiria matumizi ya jumla ya maji",
+  "counterWaterExtractionMinimumLevel": "Kiwango cha chini",
+  "counterBackgroundImage": "Picha ya nyuma kwa counter",
+  "counterShowReadingsChart": "Onyesha chati ya usomaji",
+  "counterShowHeatmap": "Onyesha Heatmap",
+  "counterShowPreliminaryCurve": "Onyesha Curve ya awali",
+  "seasonalCounter": "Msimu wa msimu",
+  "seasonalElectricityCounter": "Msimu wa umeme wa msimu",
+  "counterExplainSeasonal": "Weka usomaji wa mita hadi 0 wakati wa msimu wa joto? Katika msimu wa baridi, usomaji utafuata muundo wako wa kawaida wa matumizi; Katika msimu wa joto, watakaa gorofa.",
+  "counterIsOutdated": "Counter ni ya zamani",
+  "counterLinkMoreRecent": "Unganisha kaunta ya hivi karibuni",
+  "counterReplacedBy": "Kubadilishwa na",
+  "counterReallyDeleteLink": "Futa kiunga?",
+  "counterDeleteConfirm": "Futa kaunta?",
+  "counterGasCalorificValueLabel": "Thamani ya calorific*",
+  "counterGasConversionFactorLabel": "Sababu ya uongofu*",
+  "counterNoRoomConnection": "Hakuna unganisho la chumba",
+  "counterRoom": "Chumba",
+  "counterMessageRoomOptional": "Mgawo wa chumba husaidia kwa kuweka vikundi lakini ni hiari.",
+  "teaserPurchaseVirtualCounter": "Ongeza hesabu za kawaida na malipo.",
+  "teaserPurchaseWaterExtractionCounter": "Fungua hesabu za uchimbaji wa maji na malipo.",
+  "teaserPurchaseRenewableEnergies": "Vipimo vya nishati mbadala vinahitaji malipo.",
+  "settingYearlyReset": "Rudisha kila mwaka",
+  "settingYearlyResetOn": "on",
+  "settingShowCounterReadingsChart": "Onyesha chati ya usomaji",
+  "settingShowHeatmap": "Onyesha Heatmap",
+  "settingShowPreliminaryCurve": "Onyesha Curve ya awali",
+  "unitLiters": "lita",
+  "unitCm": "cm",
+  "unitNone": "hakuna",
+  "roomType": "Aina ya chumba",
+  "roomName": "Jina la Chumba",
+  "roomNameHint": "Kwa hiari toa jina la chumba",
+  "roomNew": "Chumba kipya",
+  "roomDeleteConfirm": "Futa chumba?",
+  "settingColor": "Rangi",
+  "counterNum": "Hesabu za phtoken0",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeInFuture": "Katika siku zijazo",
+  "timeLastUpdated": "kusasishwa mwisho",
+  "timeSeconds": "sekunde",
+  "timeMinutes": "dakika",
+  "timeHours": "masaa",
+  "timeDays": "siku",
+  "timeDaysWithin": "siku",
+  "timeMonth": "mwezi",
+  "timeMonths": "miezi",
+  "timeMonthsWithin": "miezi",
+  "timeJustNow": "Hivi sasa",
+  "timeMinutesAgo": "Dakika za Phtoken0 zilizopita",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "Phtoken0 masaa iliyopita",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeToday": "leo",
+  "timeDayAgo": "siku moja iliyopita",
+  "timeDaysAgo": "Phtoken0 siku zilizopita",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timeMonthsAgo": "Phtoken0 miezi iliyopita",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "timeForFirstYear": "Kwa mwaka wa kwanza",
+  "timeWeek": "wiki",
+  "timeWeeks": "wiki",
+  "timeWithin": "Ndani ya phtoken0",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "timeYesterday": "jana",
+  "timeMonday": "Jumatatu",
+  "timeTuesday": "Jumanne",
+  "timeWednesday": "Jumatano",
+  "timeThursday": "Alhamisi",
+  "timeFriday": "Ijumaa",
+  "timeSaturday": "Jumamosi",
+  "timeSunday": "Jumapili",
+  "timeFromUndefined": "Haijafafanuliwa",
+  "timeUntilUnlimited": "Isiyo na kikomo",
+  "timeUntilDate": "Mpaka phtoken0",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeFromDate": "Kutoka phtoken0",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReminderAtStart": "Mwanzoni",
+  "timeReminderAtEnd": "Mwisho",
+  "timePeriodYearStart": "kila mwaka",
+  "timeRightNow": "Hivi sasa",
+  "timeBefore": "Kabla",
+  "purchasesUpgrade": "Boresha",
+  "upgradeDescription": "Programu inaweza kufanya zaidi. Muhtasari bora wa gharama, takwimu zaidi, usafirishaji wa Excel, hesabu zaidi, ...",
+  "purchasesWhyBuyTitle": "Kwa nini ninunue kitu?",
+  "purchasesWhyBuyText": "Na ununuzi unaoshiriki katika gharama ninazopata kwa kuchapisha programu na kuunga mkono maendeleo zaidi.",
+  "purchasesIOSRestorePurchases": "Rejesha ununuzi",
+  "purchasesIOSRestorePurchasesDescription": "Ikiwa tayari umenunua kitu kwenye AppStore hapo zamani, unaweza kurejesha ununuzi.",
+  "purchasesDisabledOnIOS": "Ununuzi wa ndani ya programu umezimwa",
+  "purchasesDisabledOnIOSDescription": "Tafadhali angalia ikiwa ununuzi wa ndani ya programu umezimwa kwenye iPhone yako (Mipangilio> Wakati wa Screen> Vizuizi> Usanikishaji wa Programu na Ununuzi> Ruhusu ununuzi wa ndani ya programu)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Programu iliwekwa kupitia TestFlight. Tafadhali kumbuka kuwa ununuzi hufanya kazi tu kwenye programu ikiwa utasanikisha programu kupitia duka la programu.",
+  "purchasesSubscribePremium": "Jiandikishe malipo",
+  "purchasesSubscribePremiumTextLong": "Upataji wa huduma zote zilizolipwa wakati wa usajili + joto la nje",
+  "purchasesWebLegalNote": "Kwa sababu za kisheria, ununuzi unawezekana tu kwa simu ya iPhone au Android na huduma za playstore.",
+  "purchasesYourPurchases": "Una ufikiaji wa vifurushi vifuatavyo vya malipo:",
+  "purchasesExtensionsTitle": "Viongezeo moja",
+  "purchasesExtensionsSubtitle": "Nunua mara moja, tumia kabisa (hakuna usajili)",
+  "purchasesExtensionStatisticsTitle": "Takwimu za hali ya juu",
+  "purchasesExtensionMultipleObjectsTitlePart": "Kusimamia vitu vingi",
+  "purchasesExtensionMultipleObjectsDescription": "Ingiza usomaji wa mita kwa vyumba vingi/nyumba/vitu kama unavyopenda (badala ya kitu kimoja tu)",
+  "purchasesExtensionsInWork": "Viongezeo zaidi vimepangwa. Shiriki katika uchunguzi wa huduma ili kusema.",
+  "purchasesSubscribeNow": "Jisajili sasa",
+  "purchasesBuyNow": "Nunua sasa",
+  "purchasesRedeemCode": "Ukomboa nambari",
+  "purchasesEarlyBirdSubscription": "Kumbuka: Ikiwa usajili huu wa kwanza wa mteja umefutwa, hauwezi kusajiliwa tena baadaye.",
+  "purchasesPurchasedIncludedInPremium": "Pamoja na premium",
+  "purchasesPurchasedSubscribed": "Imesajiliwa",
+  "purchasesPurchased": "Kununuliwa",
+  "purchasesExtensionStatisticsDescription": "Upataji wa matumizi ya kila mwaka/kila mwezi/kila wiki ya umeme/gesi/maji/... + marekebisho ya kipindi + muhtasari wa gharama ya jumla + Excel Export Export",
+  "commonAnd": "na",
+  "purchasesSubscribePremiumMonthly": "Usajili wa kila mwezi unaoweza kufutwa kwa phtoken0 tu kwa mwezi",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Usajili unaoweza kufutwa kila mwezi kwa bei ya uaminifu ya phtoken0 kwa mwezi badala ya phtoken1",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearly": "Kila mwaka kufutwa kwa usajili kwa phtoken0 tu kwa mwaka",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Usajili unaoweza kufutwa kwa kila mwaka kwa bei ya uaminifu ya phtoken0 kwa mwaka badala ya phtoken1",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesStatisticsWithPremium": "Na Premium, unapata ufikiaji wa ulinganisho wa kila mwezi{count, plural, =0{.}=1{.}other{ na pia utaona data ya kihistoria ya {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "years": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderWwgl": "Ardhi ya Wasserwerk Gerauer",
+  "smartMeterProviderUndefined": "Sio kuweka",
+  "sync": "Usawazishaji",
+  "costsUndefinedForType": "Phtoken0 kwa haijafafanuliwa",
+  "costsUndefinedElectricity": "Ada ya umeme",
+  "costsUndefinedColdWater": "Ada ya maji baridi",
+  "costsUndefinedWarmWater": "Ada ya maji ya joto",
+  "costsUndefinedHeater": "Ada ya heater",
+  "costsUndefinedOilHeating": "Ada ya mafuta",
+  "costsUndefinedGas": "Ada ya gesi",
+  "costsUndefinedNetworkCounter": "Ada ya mtandao",
+  "updateAvailable": "Toleo la programu phtoken0 sio ya kisasa. Unaweza kusasisha kwa toleo la phtoken1.",
+  "@updateAvailable": {
+    "placeholders": {
+      "oldVersion": {
+        "type": "String"
+      },
+      "newVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "versionIsUpToDate": "Toleo la hivi karibuni la programu iliyotolewa kwa watumiaji wote ni phtoken0.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "messageNoCounters": "Bado haujaunda counter.",
+  "messageNoCounterReadings": "Bado haujaingia kusoma.",
+  "parsingObjectError": "Kitu hakiwezi kupangwa. Tafadhali wasiliana na msanidi programu. Wakati wa kuondoa programu, data inaweza kupotea.",
+  "reallyDeleteCounter": "Je! Una uhakika unataka kufuta kaunta?",
+  "reallyDeletePhoto": "Je! Una uhakika unataka kufuta picha ya kusoma mita?",
+  "reallyDeleteCounterLink": "Je! Una uhakika unataka kufuta kiunga kati ya hesabu?",
+  "virtualCounterNotConfigured": "Tafadhali angalia mipangilio ya mita yako ya kawaida. Hakuna kinachoweza kuhesabiwa.",
+  "virtualCounterMasterCounter": "Mita ya bwana",
+  "virtualCounterMasterCounterAttach": "Chagua mita kuu",
+  "virtualCounterMasterCounterDescription": "Maelezo: Mita kuu inaunda msingi wa hesabu ya mita ya kawaida, k.v. mita kuu ya umeme au mita kuu ya maji.",
+  "virtualCounterMetersToBeSubtracted": "Mita kutolewa",
+  "virtualCounterMetersToBeSubtractedDescription": "Ambayo usomaji wa mita unapaswa kutolewa kutoka kwa mita kuu, k.v., \"mita za pampu za joto\", \"mita za kulisha umeme\".",
+  "virtualCounterMetersToBeAdded": "Mita za kuongezwa",
+  "virtualCounterMetersToBeAddedDescription": "Ambayo usomaji wa mita unapaswa kuongezwa kwa mita kuu, kwa mfano, mita za uzalishaji wa umeme.",
+  "areYouSure": "Una uhakika?",
+  "addNewValue": "Ingiza thamani mpya",
+  "reallyDeleteValue": "Je! Unataka kweli kufuta thamani hii?",
+  "warning": "Onyo",
+  "messageNotEnoughData": "Haitoshi data kuonyesha chati",
+  "messageNoConsumptions": "Takwimu za mita zote za aina zinaonekana hapa ikiwa usomaji wa kutosha umechukuliwa. Kwa mfano, mita mbili za maji baridi, mita mbili za maji moto na mita moja ya uchimbaji wa maji huonyeshwa kwenye takwimu moja ya maji.",
+  "lastReading": "kusoma mwisho",
+  "chartDottedLinesNonSeasonal": "Curves zilizopigwa zinawakilisha kipindi kilichopita. Kwa uteuzi \"siku 14 za mwisho\", kwa mfano, siku 28 za mwisho zinaonekana, na wakubwa 14 wao wakionyeshwa.",
+  "chartDottedLinesSeasonal": "Curves zilizopigwa zinawakilisha kipindi kilichopita. Kwa uteuzi \"siku 14 za mwisho\", kwa mfano, siku 28 za mwisho zinaonekana, na wakubwa 14 wao wakionyeshwa.",
+  "chartHorizontalLines": "Mistari iliyopigwa imekusudiwa kutoa maoni juu ya matumizi yako mwenyewe.",
+  "chartHorizontalLineWater": "Kwa wastani, kila mtu nchini Ujerumani hutumia lita 127 za maji ya kunywa katika kaya kila siku. Mstari wa bluu unawakilisha maji baridi (60%), maji nyekundu ya moto (40%), yameongezwa kwa idadi ya siku katika kipindi na idadi ya watu.",
+  "chartHorizontalLineElectricityGas": "Mstari wa kijani unasimama kwa matumizi mazuri sana, mstari wa manjano kwa matumizi mazuri, mstari mwekundu kwa matumizi ya wastani wa Ujerumani.",
+  "per": "per",
+  "costSummary": "Muhtasari wa gharama",
+  "costSummaryYield": "Bei ya malipo/-Base Bei",
+  "soFar": "Hadi sasa",
+  "forX": "kwa",
+  "corresponds": "inalingana",
+  "warningCounterReplacementDetected": "Thamani mpya ni chini kuliko usomaji wa mita uliopita. Je! Mita imebadilishwa?",
+  "warningYearlyReset": "Usomaji wa Zero mwanzoni mwa mwaka",
+  "warningReadingSmallerThanOldValue2": "Thamani mpya ni chini kuliko usomaji wa mita uliopita. Je! Usomaji ulichukuliwa kwa usahihi?",
+  "warningReadingBiggerThanOldValueOilVolume": "Thamani mpya ni kubwa kuliko usomaji wa mita uliopita. Je! Umejaza tank?",
+  "warningReadingSeemsTooBig": "Thamani mpya ni ya juu kabisa. Je! Usomaji ulichukuliwa kwa usahihi?",
+  "warningReadingSeemsTooSmall": "Thamani mpya ni ya chini kabisa. Ilisomwa kwa usahihi?",
+  "meterReadingsFilterAll": "Onyesha yote",
+  "meterReadingsFilterComments": "Onyesha maingizo tu na maoni",
+  "meterReadingsFilterSubmitted": "Onyesha tu \"phtoken0\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "isLastEntryAtFilteredList": "Thamani ya zamani zaidi katika orodha iliyochujwa",
+  "initialReading": "Usomaji wa awali",
+  "warningReadingBiggerThanOldValue": "Thamani mpya ni kubwa kuliko usomaji wa mita iliyopita.",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedForYearlyResetCounter": "Usomaji wa mita ya mwisho kwa mwaka phtoken0 kwa phtoken1 phtoken2is haipo. Hii ni muhimu kwa hesabu sahihi ya matumizi ya jumla ya kila mwaka.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "lastYear": {
+        "type": "String"
+      },
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedFrequency": "Usomaji wa hivi karibuni wa mita kwa phtoken0 phtoken1is iliyopitwa na phtoken2.phtoken3",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "valueLess": "Phtoken0 chini",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "valueMore": "Phtoken0 zaidi",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonNotEnoughData": "Bado data ya kulinganisha ya kutosha kwa tovuti phtoken0 (phtoken1).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      },
+      "countryCode": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonEqual": "Unalipa karibu kama wastani katika phtoken0.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonDiff": "Unalipa {diffWithCurrency} {comparison, select, more {zaidi kuliko} less {kidogo kuliko} other {zaidi kuliko}} wastani nchini {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "diffWithCurrency": {
+        "type": "String"
+      },
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNamePart": "katika phtoken0",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "warningOutdatedSinceText": "Tangu phtoken0",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "warningNextReminderText": "Ukumbusho unaofuata ni phtoken0.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "counterConsiderForTotalConsumptions": "Fikiria kwa matumizi ya jumla"
+}

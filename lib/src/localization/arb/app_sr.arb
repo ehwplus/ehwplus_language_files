@@ -1,0 +1,1707 @@
+{
+  "appDescriptionShort": "Добро за новчаник, добро за климу",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
+  "appDescriptionLong": "ПХТОКЕН0Добро дошли у ПХТОКЕН1ЕХВ+ПХТОКЕН2, вашу апликацију за очитавање бројила за ПХТОКЕН3ЕПХТОКЕН4електричну енергију, ПХТОКЕН5ХПХТОКЕН6еатинг и ПХТОКЕН7ВПХТОКЕН8атер. Са нама можете лако да пратите ПХТОКЕН9 ПХТОКЕН10 колико и шта користитеПХТОКЕН11 ПХТОКЕН12коштаПХТОКЕН13 бесплатно.ПХТОКЕН14",
+  "contactTitle": "Представљају:",
+  "contact": "ЕХВ+ Сервицес ГмбХ\nГеорг-Херберт-Страßе 8\n68519 Виернхеим\n\nКонтакт\n\nТелефон: 06204/7383382\nМаил: инфо@ехвплус.цом",
+  "euDisputeResolution": "Решавање спорова ЕУ\n\nЕвропска комисија обезбеђује платформу за онлајн решавање спорова (ОС): хттпс://ец.еуропа.еу/цонсумерс/одр/.\nНашу е-маил адресу можете пронаћи у импресуму изнад.\n\nРешавање потрошачких спорова/универзално тело за решавање спорова\n\nНисмо вољни или обавезни да учествујемо у поступцима решавања спорова пред арбитражним одбором потрошача.",
+  "consent1Hello": "Здраво",
+  "consent2ThankYou": "Хвала вам што користите ЕХВ+!",
+  "consent3Video": "Да ли бисте желели да погледате кратак уводни видео?",
+  "consent4BeforeYouCanContinue": "Пре него што наставите",
+  "consent5ErrorReportingTitle": "Извештаји о грешкама",
+  "consent6ContractPricesPerUnitTitle": "Цене струје/воде/гаса",
+  "consent7ContractPricesPerUnit": "Да бисте могли да процените колико тренутно плаћате у односу на друге ЕХВ+ кориснике, цене се преносе на ЕХВ+ сервер у Немачкој заједно са државом и државом. Само ако се слажете са трансфером, имате приступ статистици цена. Да би се осигурала анонимност, статистика се може приказати само након минималног броја пренетих цена.",
+  "consent11AnalyticsTitle": "Подаци анализе",
+  "consent12Analytics": "Да би се проценио успех апликације или појединачних функција, апликација преноси анонимну статистику коришћења. Подаци се не преносе трећим лицима. Подаци се користе за даљи развој апликације.",
+  "consent13StromGedachtTitle": "Обавештења о стабилности мреже од СтромГедацхт-а",
+  "consent13StromGedacht": "СтромГедацхт, услуга коју пружа ТранснетБВ, пружа информације о стабилности мреже и препоруке о томе када електричну енергију треба користити преференцијално. Како енергетска транзиција постаје све изазовнија за преносну мрежу, домаћинства у југозападној Немачкој су укључена. Да бисте добили информације о вашој локацији, ваш поштански број, ако је унет овде у апликацији, се преноси на ТранснетБВ СтромГедацхт АПИ. Никакви други подаци се не преносе нити повезују.",
+  "stromGedachtAgreement": "Слажем се да ће мој поштански број (ако је наведен) бити прослеђен ТранснетБВ-у ради преузимања обавештења СтромГедацхт-а.",
+  "priceSubmissionAgreement": "Слажем се са преносом цена струје/гаса/воде по јединици на ЕХВ+ сервер",
+  "googleAnalyticsAgreement": "Слажем се са преносом анонимних података о коришћењу апликације ЕХВ+ Сервицес ГмбХ.",
+  "continueAcceptPart1": "Коришћењем ЕХВ+ апликације, прихватате",
+  "continueAcceptPart2": ". За више информација о прикупљању и коришћењу анонимних и личних података, погледајте",
+  "termsOfUsageTitleShort": "Услови коришћења",
+  "faqAboutDeveloperTitle": "Ко стоји иза ЕХВ+?",
+  "faqAboutDeveloperBody1": "Хвала вам на интересовању за ЕХВ+. ЕХВ+ сам објавио ја, Тимо Бахр, у децембру 2020. Ја сам програмер апликација са пуним радним временом и радим на ЕХВ+ у своје слободно време да бих допринео заштити животне средине. Од маја 2022. други програмер надгледа мој рад, Томас Хесе прави позадине за ЕХВ+. Од априла 2023. Јанине Синнер се бави бројним повратним информацијама купаца. Од јула 2024. Артем Јужаков се придружио као програмер апликација.",
+  "faqAboutDeveloperBody2": "Преко 26% свих емисија ЦО2 у Немачкој изазивају приватна домаћинства. Ако свако може макар мало да смањи потрошњу, много ће се постићи. Хвала вам пуно на вашем доприносу!",
+  "faqAboutDeveloperBody3": "Поздрављамо предлоге како да побољшамо апликацију.",
+  "faqAboutDeveloperBody4": "Међутим, молим за разумевање да не могу да применим све предлоге и да је за нове функције потребно време.",
+  "commonCollapse": "Колапс",
+  "commonMore": "Више",
+  "commonSave": "Сачувај",
+  "commonChange": "Промена",
+  "commonContinue": "Настави",
+  "commonBack": "Назад",
+  "commonOk": "ОК",
+  "commonCancel": "Откажи",
+  "commonClose": "Затвори",
+  "commonOpen": "Отвори",
+  "commonSend": "Субмит",
+  "commonDelete": "Избриши",
+  "commonYes": "да",
+  "commonNo": "бр",
+  "commonLoadingData": "Учитавање података",
+  "commonDay": "дан",
+  "commonMonth": "месец",
+  "commonYear": "године",
+  "commonShare": "Схаре",
+  "commonCopiedToClipboard": "Копирано у међуспремник",
+  "commonLearnMore": "Сазнајте више",
+  "commonMinimum": "Најнижа дневна вредност",
+  "commonMaximum": "Највећа дневна вредност",
+  "heatmapLegendTitle": "Више о топлотној мапи",
+  "heatmapLegendDisclaimer": "Информације: Осенчене кутије садрже процењену вредност. Да бисте очитали стварну потрошњу/излаз, попуните недостајућа очитавања бројила ако је могуће.",
+  "consumptionHeatmap": "Хеатмап потрошње",
+  "consumptionHeatmapYield": "Хеатмап приноса",
+  "consumption": "Потрошња",
+  "consumptionYield": "Принос",
+  "showAllYears": "Прикажи све године",
+  "appNameShort": "ЕХВ+",
+  "appName": "ЕХВ+ | Потрошња и очитавања бројила",
+  "tabCounters": "Метерс",
+  "tabStatistics": "Статистика",
+  "tabObject": "Објекат",
+  "tabNews": "Савети/Новости",
+  "ofRangeLastDays": "последњих ПХТОКЕН0 дана",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeLastMonths": "за последњих ПХТОКЕН0 месеци",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeFrom": "од ПХТОКЕН0",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "readingTime": "Време читања",
+  "reading": "Бројило читање",
+  "last2Weeks": "Последњих 14 дана",
+  "last12Weeks": "Последњих 12 недеља",
+  "last12Months": "Последњих 12 месеци",
+  "sinceInitialReading": "Од почетног читања",
+  "lastYear": "Прошле године",
+  "periodCustom": "Кориснички дефинисано",
+  "counterReadings": "Читања",
+  "comment": "Боте",
+  "enterComment": "Унесите белешку",
+  "enterExistingReadingAgain": "Поново унесите старо читање",
+  "meterId": "Цоунтер ид",
+  "meterReadingSubmitted": "Пренето провајдеру",
+  "newReading": "Унесите тренутно очитавање",
+  "newReadingShort": "Ново читање",
+  "readingWithFactor": "Очитавање бројача са фактором",
+  "csvImportWithFactor": "Да ли очитавања бројила треба помножити са фактором који није једнак 1,0? На пример, да бисте претворили вредности из Вх у кВх, оне би морале да се помноже са 0,001.",
+  "newPhoto": "Снимите нову фотографију",
+  "existingPhoto": "Приложите постојећу фотографију",
+  "newPhotoOfMeterReading": "Да ли желите да фотографишете очитавање бројила?",
+  "existingPhotoOfMeterReading": "Да ли желите да приложите постојећу фотографију очитавања бројила?",
+  "numCounters": "{count, plural, =0 {ПХТОКЕН0 цоунтер} one {ПХТОКЕН0 цоунтер} other {ПХТОКЕН0 бројачи}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numMeterReadings": "{readings, plural, one {# читање} other {# читања}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "exportObjectDescription": "ПХТОКЕН0, ПХТОКЕН1 , ПХТОКЕН2 ПХТОКЕН3",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "firstReadingYield": "Унесите сада први принос.",
+  "firstReadingConsumption": "Унесите сада прву потрошњу.",
+  "firstReadingCounter": "Унесите прво очитање бројача.",
+  "consumptionHeatpump": "Поред тога, потрошња енергије топлотне пумпе износи ПХТОКЕН0 кВх.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearly": "Ваша потрошња електричне енергије ПХТОКЕН0 је ПХТОКЕН1 кВх за годину.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedElectricityIntro": "Ваша потрошња електричне енергије ПХТОКЕН0 (ПХТОКЕН1 кВх ≈ ПХТОКЕН2 кВх/годишње ≈ ПХТОКЕН3 кВх/месец)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedGasIntro": "Ваша потрошња гаса ПХТОКЕН0 (ПХТОКЕН1 кВх ≈ ПХТОКЕН2 кВх/годишње ≈ ПХТОКЕН3 кВх/месечно)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel0": "је супер низак.",
+  "consumptionYearlyDetailedLevel1": "је заиста нешто за посматрање.",
+  "consumptionYearlyDetailedLevel3": "је релативно висока.",
+  "consumptionYearlyDetailedLevel4": "је нормално.",
+  "consumptionYearlyDetailedYouConsume": "Ви конзумиратеПХТОКЕН0",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLessThan": "ПХТОКЕН0 мање од",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedMoreThan": "ПХТОКЕН0 више од",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedAboutSame": "отприлике исто као",
+  "consumptionYearlyDetailedAverageHousehold": "просечно домаћинство са ПХТОКЕН0 ПХТОКЕН1",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedOptimalEnding": "Како то радиш?",
+  "consumptionYearlyDetailedLevel1Suffix": "ПХТОКЕН0 кВх/месечно недостаје за оптималну потрошњу.",
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel2Suffix": "ПХТОКЕН0 кВх/месечно недостаје за добру потрошњу.",
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionPersonLabel": "{count, plural, one {особа} other {људи}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "consumptionWaterPrefixSingle": "Ви конзумирате",
+  "consumptionWaterPrefixPerPerson": "По особи, сви конзумирају",
+  "consumptionWaterDailyMonthly": "око ПХТОКЕН0 литара дневно (≈ ПХТОКЕН1 ПХТОКЕН2 месечно).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "String"
+      },
+      "monthlyCubicMeters": {
+        "type": "String"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterRangeUnknown": "Ваша потрошња воде ПХТОКЕН0 ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallLess": "Ваша потрошња воде ПХТОКЕН0 је ПХТОКЕН1 мања од оне у просечном домаћинству са ПХТОКЕН2 ПХТОКЕН3.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallEqual": "Ваша потрошња воде ПХТОКЕН0 одговара потрошњи просечног домаћинства са ПХТОКЕН1 ПХТОКЕН2.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallMore": "Ваша потрошња воде ПХТОКЕН0 је ПХТОКЕН1 већа од оне у просечном домаћинству са ПХТОКЕН2 ПХТОКЕН3.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdLess": "Хладна вода: ПХТОКЕН0 мање од просечног домаћинства.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdMore": "Хладна вода: ПХТОКЕН0 више од просечног домаћинства.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdEqual": "Хладна вода: отприлике исто као и просечно домаћинство.",
+  "consumptionWaterWarmLess": "Топла вода: ПХТОКЕН0 мање од просечног домаћинства.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmMore": "Топла вода: ПХТОКЕН0 више од просечног домаћинства.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmEqual": "Топла вода: отприлике исто као и просечно домаћинство.",
+  "yearlyConsumption": "Досадашња годишња потрошња",
+  "yearlyCosts": "Досадашњи годишњи трошкови потрошње",
+  "room": "Соба",
+  "fedIn": "Ухрањени",
+  "generated": "Генерисано",
+  "residualGenerationEstimated": "Процењена резидуална производња",
+  "residualConsumptionEstimated": "Процењена резидуална потрошња",
+  "myObjects": "Моји објекти",
+  "roomLivingRoom": "Дневна соба",
+  "roomDiningRoom": "Трпезарија",
+  "roomBedroom": "Спаваћа соба",
+  "roomBathroom": "Купатило",
+  "roomWc": "ВЦ",
+  "roomChildrenRoom": "Дечија соба",
+  "roomKitchen": "Кухиња",
+  "roomStoreRoom": "Остава",
+  "roomOffice": "Канцеларија",
+  "roomGarden": "Гарден",
+  "counter": "Цоунтер",
+  "counterDirectionAscending": "узлазно",
+  "counterDirectionDescending": "силазни",
+  "counterDirectionNone": "ПХТОКЕН0/ПХТОКЕН1",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "counterWater": "Водомери",
+  "counters": "Метерс",
+  "changeCounterOrder": "Ако је потребно, можете променити редослед",
+  "newCounter": "Направите нови бројач",
+  "updateObjectName": "Промените имена објеката",
+  "enterObjectName": "Именујте нови објекат",
+  "explanationManageMoreThanOneObject": "Имате више од једне имовине којом желите да управљате? Затим дајте назив тренутном објекту, а затим креирајте други објекат.",
+  "selectedAtAppStart": "Највиши објекат се бира при покретању апликације",
+  "reallyDeleteObject": "Да ли сте сигурни да желите да избришете објекат?",
+  "confirmDeleteAtCloud": "Да ли „ПХТОКЕН0“ такође треба да се избрише са Гоогле диска?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteObjectError": "Није могуће избрисати овај објекат (код ПХТОКЕН0).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "commonChangeSaved": "Промена је сачувана",
+  "commonUpdateNow": "Ажурирајте одмах",
+  "commonLogout": "Одјави се",
+  "commonLogin": "Пријавите се",
+  "commonLoggingIn": "Пријављујем вас...",
+  "commonLoggingOut": "Одјављујем вас...",
+  "commonNotAuthenticated": "Нисте аутентификовани.",
+  "commonUserLogin": "Пријава корисника",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Користите ЕХВ+ налог. ПХТОКЕН0 од ПХТОКЕН1 купљених производа није могао бити сачуван на ЕХВ+ серверу. Надамо се да ћемо ускоро решити проблем.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Једна куповина је синхронизована преко ЕХВ+ налога.} other {ПХТОКЕН0 куповине су синхронизоване преко ЕХВ+ налога.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Користите ЕХВ+ налог. Ако купите производе у будућности, они ће бити синхронизовани на свим вашим уређајима.} one {Користите ЕХВ+ налог. ПХТОКЕН0 купљени производ је сачуван на ЕХВ+ серверу.} other {Користите ЕХВ+ налог. ПХТОКЕН0 купљени производи су сачувани на ЕХВ+ серверу.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionNotLoggedIn": "Да ли користите апликацију на више уређаја? Пријављивање на свој ЕХВ+ налог омогућава вам да синхронизујете подешавања и купљене производе на свим својим уређајима.",
+  "accountUpdateInfo": "Ново: ЕХВ+ кориснички налог",
+  "accountThankYouForPurchase": "Хвала вам! Да ли бисте сада желели да обезбедите куповину на свом ЕХВ+ корисничком налогу?",
+  "accountAbout": "Шта може да уради ЕХВ+ кориснички налог?",
+  "accountBenefit1": "Поузданије препознавање куповине",
+  "accountBenefit2": "Приступ свим купљеним проширењима на више уређаја",
+  "accountFaqTitle": "Често постављана питања:",
+  "accountFaqQ1": "Шта је ЕХВ+ кориснички налог?",
+  "accountFaqA1": "ЕХВ+ кориснички налог нуди алтернативни метод за враћање куповине када враћање преко Апп Сторе-а није могуће, што повећава поузданост. Поред тога, омогућава да се куповине врате на уређај на коме се куповина првобитно није догодила. У будућности ће такође бити могуће сачувати подешавања и још много тога.",
+  "accountFaqQ2": "Да ли ћу и даље имати приступ својим куповинама без ЕХВ+ корисничког налога?",
+  "accountFaqA2": "Да, куповине се и даље могу вратити на Андроид уређају преко Плаи Сторе-а или на иПхоне-у преко Апп Сторе-а. ЕХВ+ кориснички налог пружа алтернативни метод за враћање куповина када враћање преко Апп Сторе-а није могуће, што повећава поузданост. Поред тога, омогућава да се куповине врате на уређај на коме се куповина првобитно није догодила.",
+  "accountButtonSetup": "Подесите ЕХВ+ кориснички налог",
+  "cometSettingsIsPredictionsApiEnabled": "Користите ЦОМЕТ Форецаст АПИ од Гете института",
+  "cometConsentScreenHeader": "Ново: боље прогнозе потрошње",
+  "cometConsentScreenHowItWorksTitle": "Како то функционише?",
+  "cometConsentScreenOnlineDescriptionTitle": "Са интернет везом:",
+  "cometConsentScreenOnlineDescription": "Ваши подаци о потрошњи ће бити послати на Гете универзитет у Франкфурту, где ће се креирати индивидуална прогноза и приказати у апликацији.",
+  "cometConsentScreenOfflineDescriptionTitle": "Без интернет везе:",
+  "cometConsentScreenOfflineDescription": "Поједностављена локална прогноза ће бити израчуната на вашем уређају.",
+  "cometConsentScreenToggleLabel": "Користите услугу прогнозе",
+  "cometConsentScreenDataCanBeUsedForTraining": "Подаци се могу користити за оптимизацију будућих предвиђања",
+  "cometConsentScreenFeedbackTitle": "Гете универзитету су потребне ваше повратне информације:",
+  "cometConsentScreenFeedbackDescription": "Коришћење прогнозе је бесплатно, али истраживачком тиму су потребне повратне информације о томе колико добро услуга функционише.",
+  "cometConsentScreenFeedbackMethod": "Повратне информације се пружају аутоматски када користите услугу предвиђања и пристанете на оптимизацију.",
+  "cometConsentScreenDeclineButton": "Не желим да дајем повратне информације",
+  "cometConsentScreenAcceptButton": "Желим да дам повратну информацију",
+  "exportTabHowToExport": "Како желите да извезете податке?",
+  "exportTabHowToExportOptionShare": "Делите са другим апликацијама",
+  "exportTabHowToExportOptionSaveToDownloads": "Сачувај у фасциклу ПХТОКЕН0",
+  "exportTabSnackBarSaveResultMessageSuccess": "Подаци су успешно сачувани као ПХТОКЕН0 у фасцикли ПХТОКЕН1",
+  "exportTabSnackBarSaveResultMessageError": "Дошло је до грешке при чувању података",
+  "importTabErrorMessageFileWithExtensionNotSelected": "ПХТОКЕН0 датотека је потребна за наставак увоза.",
+  "difference": "Разлика",
+  "period": "Период",
+  "periodHourly": "по сату",
+  "periodDaily": "дневно",
+  "periodWeekly": "недељно",
+  "periodBiweekly": "двонедељно",
+  "periodMonthly": "месечно",
+  "periodBimonthly": "двомесечно",
+  "periodQuarterly": "квартално",
+  "periodHalfYearly": "полугодишње",
+  "periodYearly": "годишње",
+  "meterCardLastUpdatedLabel": "Ажурирано",
+  "smartMeterServiceProvider": "Добављач услуга",
+  "smartMeterObtainDataAutomatically": "Добијте податке аутоматски",
+  "smartMeterErrorNoData": "Нажалост, нема података које би апликација могла да прикаже.",
+  "smartMeterSettingsScreenSyncButton": "Синхронизујте податке о потрошњи",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Синхронизација је у току",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Напредак: ПХТОКЕН0%",
+  "smartMeterSettingsScreenSyncingDialogError": "Грешка",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Ок",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Дошло је до следеће грешке током синхронизације: ПХТОКЕН0",
+  "smartMeterMisconfiguredWidgetCardTitle": "Молимо Вас да исправно подесите свој паметни мерач.",
+  "smartMeterMisconfiguredWidgetCardButton": "Подесите паметни мерач",
+  "smartMeterTabConsumptions": "Потрошња",
+  "smartMeterTabProductions": "Продуцтионс",
+  "consumptionCacheManagementClearCacheButton": "Обриши кеш меморију",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Обриши и синхронизуј",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Избрисати кеш?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Сви кеширани подаци о потрошњи биће трајно избрисани. Можете га синхронизовати касније.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Избрисати кеш и синхронизовати?",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Сви кеширани подаци ће бити избрисани и поново преузети са сервера. Ово може потрајати.",
+  "consumptionCacheManagementClearedSuccessfully": "Кеш је успешно обрисан",
+  "tibberAccessToken": "Приступни токен",
+  "tibberEnterAccessToken": "Унесите приступни токен",
+  "tibberMessageAccessTokenUpdated": "Токен за приступ је ажуриран",
+  "tibberErrorAccessTokenInvalid": "Изгледа да је приступни токен неважећи",
+  "tibberErrorNoHomes": "Нема домова повезаних са овим налогом",
+  "tibberErrorSmartMeterMisconfigured": "Чини се да је ваш паметни мерач погрешно конфигурисан.",
+  "tibberErrorConnectivityShowCacheInstead": "Није могуће преузети недавне податке о потрошњи. Уместо тога, приказују се кеширане вредности.",
+  "tibberErrorUndefined": "Дошло је до неочекиване грешке: ПХТОКЕН0",
+  "tibberErrorRateLimit": "Прекорачено је ограничење брзине за Тиббер АПИ. Сачекајте најмање 5 минута пре него што покушате поново.",
+  "tibberErrorNoSubscription": "Да бисте добили потпун приступ историјским подацима преко АПИ-ја, потребан вам је активан Тиббер уговор о електричној енергији за изабрани дом.",
+  "tibberBasicAuth": "Басиц Аутх",
+  "tibberBasicAuthUsername": "Корисничко име",
+  "tibberBasicAuthPassword": "Лозинка",
+  "tibberBasicAuthEnterUsername": "Унесите корисничко име",
+  "tibberBasicAuthEnterPassword": "Унесите лозинку",
+  "tibberConsumptionEntryTotalCost": "Укупна цена: ПХТОКЕН0",
+  "tibberConsumptionEntryTotalProfit": "Укупан профит: ПХТОКЕН0",
+  "tibberConsumptionEntryViewTimeSpanYear": "Година ПХТОКЕН0",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Годину дана почевши од ПХТОКЕН0",
+  "tibberConsumptionEntryViewTimeSpanMonth": "Месец ПХТОКЕН0",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Један месец почевши од ПХТОКЕН0",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 сата од ПХТОКЕН0 на ПХТОКЕН1",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Један сат од ПХТОКЕН0 на ПХТОКЕН1",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Од: ПХТОКЕН0 до ПХТОКЕН1",
+  "tibberWhereIsMyAccessToken": "Где могу да пронађем свој \"токен за приступ\"?",
+  "tibberActionSaveAuthorizationSettings": "Сачувајте подешавања ауторизације",
+  "tibberConsentScreenHeader": "Нова карактеристика: Подаци о потрошњи из Тиббер Пулсе-а",
+  "tibberConsentScreenDescription": "Да ли сте Тиббер купац или планирате да то постанете? Сада подржавамо Пулс за побољшано праћење енергије. Имајте на уму да су историјски подаци из Пулсе-а, нажалост, доступни само купцима са активним Тиббер уговором.",
+  "tibberConsentScreenBenefit1Title": "Погледајте своју потрошњу електричне енергије",
+  "tibberConsentScreenBenefit1Description": "Пратите своју потрошњу у реалном времену и откријте скривене гутаче енергије.",
+  "tibberConsentScreenStoreLink": "Посетите продавницу Тиббер",
+  "tibberConsentScreenConfigureNowButton": "Подесите Тиббер Пулсе сада",
+  "tibberConsentScreenConfigureLaterButton": "Подесите касније",
+  "tibberConsentScreenGoetheStudySectionHeader": "Учешће у истраживачком пројекту",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Да, желим да учествујем у Гете студији",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Да ли бисте желели да учествујете у Гете студији?",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Ваша потрошња по сату од 1. марта биће анонимизована и дата за Гетеову студију.",
+  "tibberStatusWidgetTitle": "Управљање кешом",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Статус претплате на Тиббер",
+  "tibberSubscriptionStatusActive": "активан",
+  "tibberSubscriptionStatusInactive": "неактиван",
+  "tibberSubscriptionStatusLoading": "лоадинг...",
+  "tibberLiveMeasurementCounterCardViewFooter": "Ливе Меасуремент",
+  "tibberLiveMeasurementsWidgetNotSupported": "Мерења уживо нису подржана за овај дом.",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Овај дом не подржава мерења уживо или историјске податке о потрошњи. Изаберите други дом.",
+  "tibberLiveMeasurementsWidgetConnecting": "Повезивање на Тиббер Пулсе...",
+  "tibberLiveMeasurementsWidgetError": "Дошло је до грешке при повезивању на Тиббер Пулсе. Проверите свој приступни токен и интернет везу.",
+  "tibberLiveMeasurementWidgetTitle": "Тренутна потрошња/производња на ПХТОКЕН0",
+  "tibberLiveMeasurementWidgetTimestamp": "Временска ознака",
+  "tibberLiveMeasurementWidgetPower": "Повер",
+  "tibberLiveMeasurementWidgetPowerProduction": "Повер Продуцтион",
+  "tibberLiveMeasurementWidgetAveragePower": "Просечна снага",
+  "tibberLiveMeasurementWidgetMinPower": "Мин Повер",
+  "tibberLiveMeasurementWidgetMaxPower": "Мак Повер",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Укупна потрошња (од поноћи)",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Укупна производња (од поноћи)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Потрошња (последњи сат)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Производња (последњи сат)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Очитавање бројила (потрошња)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Очитавање бројила (производња)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Акумулирани трошак",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Акумулирана награда",
+  "tibberLiveMeasurementWidgetPowerFactor": "Фактор снаге",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "напон (фаза 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "напон (фаза 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Напон (фаза 3)",
+  "tibberLiveMeasurementWidgetCurrentL1": "струја (Л1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "струја (Л2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "струја (Л3)",
+  "tibberLiveMeasurementWidgetUnitV": "В",
+  "tibberLiveMeasurementWidgetUnitW": "В",
+  "tibberLiveMeasurementWidgetUnitA": "А",
+  "tibberHomeSelectorHomeId": "ИД куће: ПХТОКЕН0",
+  "tibberHomeSelectorLabel": "Хоме",
+  "scanQrCode": "Скенирајте активациони кр код",
+  "requestAccess": "Захтевај приступ",
+  "createAccount": "Креирајте налог/пријавите се",
+  "watersupplierYourSupplier": "Ваш снабдевач водом",
+  "watersupplierRadioMeterDefaultName": "Радио мерач хладне воде",
+  "watersupplierAccessRequestQ1": "Да ли сте власник имања у сливу водовода и желите да имате приступ очитањима радио бројила?",
+  "watersupplierAccessRequestQ2": "Да ли сте већ затражили приступ? Затим морате да креирате ЕХВ+ кориснички налог.",
+  "watersupplierAccessRequestQ3": "Да ли сте већ затражили приступ и добили свој КР код?",
+  "watersupplierAccessRequestQ4": "Да ли бисте желели да примате упозорења на мерачу како бисте могли да реагујете у случају пуцања цеви или испирања воде у тоалету, на пример?",
+  "watersupplierOpenReminderSettings": "Отворите подешавања",
+  "watersupplierScanQrCodeTitle": "Активација радио мерача",
+  "watersupplierScanQrCodeCommand": "Скенирајте леви КР код (активациони код)!",
+  "watersupplierScanRevokeQrCodeCommand": "Скенирајте прави КР код (позовите код)!",
+  "watersupplierScanQrCodeValidation": "Откривен је КР код, хајде да га потврдимо.",
+  "watersupplierScanQrCodeValidationFailed": "Жао нам је, код је неважећи. Да ли желите да покушате поново?",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Скенирали сте код за опозив уместо кода за активирање. Молимо покушајте поново!",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Скенирали сте активациони код уместо кода за опозив. Молимо покушајте поново!",
+  "watersupplierScanQrCodeScanSuccessful": "Вау, активациони код изгледа тако лепо! Унесите последње три цифре ИД-а вашег мерача!",
+  "watersupplierMeterIdValidationStep": "Проверавамо ваш ИД бројила.",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Нажалост, то није успело. То је било због нашег сервера. Боље покушај поново касније!",
+  "watersupplierCompleteMeterIdTryAgain": "Нећете проћи! Поново унесите последње три цифре ИД-а свог мерача!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Напомена: Ваш оригинални ИД бројила може имати више од 8 знакова.",
+  "watersupplierScanQrCodeApprovalInProgress": "Сада овлашћујемо ваш налог како бисте убудуће могли да приступите очитањима радио-мерача.",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Да! Ваш радио водомер типа \"Хладна вода\" је успешно додат. Можете га пронаћи међу осталим метрима.",
+  "watersupplierUnlinkRadioMeterTitle": "Прекините приступ радио мерачу",
+  "watersupplierUnlinkRadioMeterDescription1": "Да ли желите да избришете радио мерач без поништавања активационог кода?",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Избришите радио метар",
+  "watersupplierUnlinkRadioMeterDescription2": "Да ли више не желите да приступите подацима вашег радио мерача? Имајте на уму: када се код за опозив скенира, активациони код постаје неважећи. Сваки кориснички налог који је користио активациони код изгубиће приступ.",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Скенирајте код за опозив",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Приступ вашем радио водомеру је отказан.",
+  "watersupplierNoAccess": "Више немате овлашћење за преузимање података.",
+  "watersupplierNoAccessDetailedMessage": "Ако верујете да још увек треба да имате приступ, скенирајте поново свој активациони код. Ако приступни код више није важећи, пошаљите нови захтев за приступ.",
+  "zipCode": "поштански број",
+  "zipCodeValidationOnlyNumbers": "Важећи поштански број се састоји само од бројева",
+  "zipCodeValidationLength": "Унесите ПХТОКЕН0-цифрени поштански број",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "houseName": "Име куће",
+  "houseNameDescription": "Име куће, нпр. назив улице",
+  "marketLocationId": "ИД тржишне локације",
+  "marketLocationIdDescription": "ИД тржишне локације увек се састоји од 11 цифара. Ово обично можете пронаћи на последњем рачуну за струју или гас.",
+  "swimmingPool": "Свимминг поол",
+  "smartmeterInfocodeBannerText": "Смартметар ПХТОКЕН0 је примио инфокод: ПХТОКЕН1",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "smartmeterId": {
+        "type": "String"
+      },
+      "infocode": {
+        "type": "String"
+      }
+    }
+  },
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Ваш водомер ПХТОКЕН0 је детектовао непрекидан проток воде. Ово може указивати на цурење. Молимо вас да проверите да ли ваша кућна инсталација не пропушта. Тоалети и славине које капају су чести узроци.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Ваш водомер ПХТОКЕН0 је открио неуобичајено високу потрошњу воде, што може указивати на пуцање цеви. Проверите да ли ваша кућна инсталација има веће цурење или ломове. Аларм се такође може појавити ако сте користили велику количину воде, нпр. за пуњење базена.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Ваш водомер ПХТОКЕН0 је открио неуобичајено високу потрошњу воде, што може указивати на пуцање цеви или пуњење базена. Проверите да ли ваша кућна инсталација има веће цурење или ломове.",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "Температура вашег водомера ПХТОКЕН0 је пала испод 3°Ц. Постоји опасност од мраза! Изолујте мерач и цеви или загрејте подручје да бисте спречили оштећење.",
+  "smartMeterCountersTitle": "Радио водомери",
+  "counterOutdatedAndNextReminder": "Очитавање бројача је застарело од ПХТОКЕН0, следећи подсетник за читање ПХТОКЕН1.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
+  "waterMeterEventsInformation": "{count, plural, =1 {Ваш бежични водомер ПХТОКЕН0 детектује неочекивану потрошњу. Ако желите, у таквом случају ћете добити обавештење.} other {Ваши бежични водомери ПХТОКЕН0 детектују неочекивану потрошњу. Ако желите, добићете обавештење у таквим случајевима.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "subscribeToSmartMeterInfocodeEvents": "Желим да будем обавештен о неочекиваној потрошњи",
+  "completeButton": "Завршено",
+  "reset": "Ресетуј",
+  "settingCounterTypeColor": "Боја за овај тип бројача",
+  "settingCounterTypeColorDescription": "Ако вам се не свиђа подразумевана боја за овај тип бројача, можете доделити другу боју.",
+  "settingCounterTypeColorAdvanced": "Бирач боја за стручњаке",
+  "featureVotingUnderConstruction": "Анкета о карактеристикама се тренутно ревидира. У будућности ће бити потребан ЕХВ+ кориснички налог, а анкета више неће користити сервере трећих страна. Ценимо ваше стрпљење.",
+  "termsOfUsageTitle": "Општи услови коришћења апликације",
+  "termsOfUsageBlock1Title": "Општи услови коришћења апликације",
+  "termsOfUsageBlock1": "Право на приговор",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2Title": "Опште информације о употреби",
+  "termsOfUsageBlock2": "Апликација и њене функције не смеју се користити на увредљив начин. Користите апликацију само у оквиру законски дозвољеног обима иу складу са нашим условима коришћења. У случају кршења важећег немачког закона или наших услова коришћења, провајдер задржава право да вас искључи из коришћења апликације.",
+  "termsOfUsageBlock2a": "Анонимизовани подаци о коришћењу\nКористимо сопствену аналитику да континуирано побољшавамо апликацију.\nПреносе се само анонимни подаци.\nПодаци се не прослеђују трећим лицима.\nЗа више информација идите на Подешавања > Приватност > ПРИВАЦИ_БЛОЦК3_ТИТЛЕ",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2b": "Извештаји о грешкама\nСентри (само-хостован) се користи за континуирано побољшање апликације.\nИзвештаји о грешкама се не обрађују нити деле са трећим лицима.\nЗа више информација идите на Подешавања > Приватност > ПРИВАЦИ_БЛОЦК3_ТИТЛЕ",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2c": "Лични подаци\nАко користите Гоогле Дриве Синц, ЕХВ+ и даље нема приступ подацима које сте унели. За више информација идите на Подешавања > Приватност > ПХТОКЕН0.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock3Title": "Одговорност",
+  "termsOfUsageBlock3": "Провајдер не гарантује доступност, поузданост, функционалност или прикладност апликације за ваше сврхе. Одговорност је искључена осим ако је обавезна према Закону о одговорности за производе, због намере, грубог немара, повреде живота, тела или здравља, преузимања гаранције квалитета, лажног прикривања квара или кршења битних уговорних обавеза. Суштинске уговорне обавезе су оне обавезе чије је испуњење неопходно за правилно извршење уговора и на чије се придржавање уговорне стране могу редовно ослонити. Накнада штете због кршења битних уговорних обавеза ограничена је на предвидиву штету типичну за ову врсту уговора, осим ако постоји умишљај или груба непажња.",
+  "termsOfUsageBlock4Title": "Одговорности корисника",
+  "termsOfUsageBlock4": "Провајдер не гарантује тачност резултата прорачуна. Корисници су дужни да пажљиво и на сопствену одговорност ажурирају цене сачуване у апликацији (основне цене, потрошачке цене, итд.) како би били сигурни да генерисани рачуни одговарају стварним износима.",
+  "privacyBlock1Title": "Девелопер",
+  "privacyBlock1Text": "Програмер/провајдер апликације (у даљем тексту „апликација“) је, у складу са чланом 5 Немачког закона о телекомуникацијама (ТМГ):\n\nПХТОКЕН0",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock1Text2": "Коришћење апликације захтева да се сложите са следећим условима коришћења. Молимо вас да их пажљиво прочитате.",
+  "privacyBlock2Title": "генерал",
+  "privacyBlock2Text": "Заштита ваших података нам је веома важна. Ова политика приватности објашњава које личне податке ЕХВ+ прикупља и како се користе. Фундаменталне промене политике приватности су ретке, али се с времена на време могу ревидирати због нових функција, технологија или законских захтева. Зато вас молимо да с времена на време проверите ову страницу да бисте били у току. Ако извршимо било какве значајне промене, обавестићемо вас и, ако је потребно, добити вашу сагласност.",
+  "privacyBlock3Title": "Које податке прикупља ПХТОКЕН0?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3aText": "Направили смо ПХТОКЕН0 тако да можете брзо и лако да унесете очитања бројила, а затим помоћу статистике сазнате више о својој потрошњи, њеним трошковима и потенцијалним уштедама. То значи да можете да унесете, израчунате или сачувате било које податке, које обично називамо „садржајем“, у ПХТОКЕН1. Ови подаци се чувају само на вашем мобилном телефону.\n\nСинхронизујте са Гоогле диском.\nАко омогућите синхронизацију са Гоогле диском, садржај ће такође бити аутоматски направљен у фасцикли под називом „ПХТОКЕН2“ на вашем Гоогле диску, којој само ви можете да приступите. Ако се пријавите на Гоогле, ваша адреса е-поште ће бити видљива програмеру.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "googleApiAgreement": "Коришћење и пренос информација добијених од Гоогле АПИ-ја од стране ПХТОКЕН0 у било коју другу апликацију биће у складу са Смерницама за корисничке податке Гоогле АПИ услуга, укључујући захтеве за ограничену употребу.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3bText": "{googleApiAgreement}\n\nПодаци о локацији.\nДа би се разумело понашање корисника и за будуће функције, апликација преноси анонимизоване податке о коришћењу.\nПодаци се не деле са трећим лицима.\nМогу се прикупљати информације о пореклу (земља и град), језику, оперативном систему, типу уређаја, резолуцији, понашању кликова и трајању коришћења.\n\nПодаци о уређају.\nПрикупљамо податке о броју и врсти уређаја које користите за повезивање са услугом, као и информације о оперативном систему на тим уређајима (нпр. Андроид, иОС, Виндовс или мацОС).\n\nКоришћењем апликације пристајете на прикупљање анонимних података као што је горе описано.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyContractPriceSubmission": "Када ви, као корисник, одржавате своје уговорне податке, цена по јединици за уговоре о струји, води и гасу се преноси на ЕХВ+ сервер у Немачкој заједно са државом и савезном државом. Ови подаци се користе за израчунавање статистике цена. За кориснике апликације, статистика је видљива у облику поређења цена у приказу уговора.\n\nКоришћењем апликације пристајете на горе поменуто прикупљање анонимних података.",
+  "privacyBlock4DataUsageTitle": "Како ПХТОКЕН0 користи моје податке?",
+  "privacyBlock4DataUsage": "Прикупљени анонимни подаци се користе за процену понашања корисника. Осим тога, нема даље употребе података.\n\nПХТОКЕН0",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock5Title": "Трајање чувања личних података",
+  "privacyBlock5": "Трајање чувања личних података одређује се одговарајућим законским периодом чувања (нпр. периоди чувања привредног и пореског закона). Након истека рока, одговарајући подаци се рутински бришу, под условом да више нису потребни за испуњење или иницирање уговора и/или више немамо легитиман интерес за њихово даље чување.",
+  "youtubeConsent1": "Потребна нам је ваша сагласност за приказ уграђеног Иоутубе садржаја. Можете приказати ово (а самим тим и сав други Иоутубе садржај у апликацији) једним кликом и такође га поново деактивирати.",
+  "youtubeConsent2": "Увек прикажи ИоуТубе садржај",
+  "youtubeConsent3": "Слажем се да ми се приказује спољни садржај. Ово може довести до тога да се лични подаци пренесу на платформе трећих страна. Више о овоме у нашој",
+  "privacyBlock6Title": "Контакт",
+  "privacyBlock6": "Када нас контактирате (нпр. путем контакт обрасца или е-поште), прикупљају се лични подаци. Подаци прикупљени у случају контакт форме могу се видети на одговарајућем контакт форму. Ови подаци се чувају и користе искључиво у сврху одговарања на ваш упит или за успостављање контакта и повезане техничке администрације. Правни основ за обраду података је наш легитимни интерес да одговоримо на ваш захтев у складу са чл. 6 ст. 1 лит. ф ГДПР. Уколико је ваш контакт усмерен на закључивање уговора, додатни правни основ за обраду је чл. 6 ст. 1 лит. б ГДПР. Ваши подаци ће бити избрисани након обраде вашег упита, што је случај ако се из околности може закључити да је предметна ствар коначно разјашњена и под условом да не постоје законске обавезе чувања података.",
+  "privacyBlock7Title": "Права дотичне особе",
+  "privacyBlock7": "Важећи закон о заштити података даје вам свеобухватна права као субјекту података (право на информације и интервенцију) у односу на контролора у вези са обрадом ваших личних података, о чему ћемо вас обавестити у наставку:\n\n- Право на информисање сходно чл. 15 ГДПР: Конкретно, имате право да добијете информације о вашим личним подацима које обрађујемо, сврси обраде, категоријама личних података који се обрађују, примаоцима или категоријама прималаца којима су ваши подаци откривени или ће бити откривени, планираном периоду складиштења или критеријумима за одређивање периода складиштења, постојању права на исправку, брисање, приговору, приговору на обраду, ограничењу ауторске обраде, ограничавању порекла обраде. ваше податке ако их ми нисмо прикупили од вас, постојање аутоматизованог доношења одлука, укључујући профилисање, и, где је применљиво, смислене информације о укљученој логици и значају и предвиђеним последицама такве обраде за вас, као и ваше право да будете обавештени о гаранцијама које постоје у складу са чл. 46 ГДПР када се ваши подаци преносе у треће земље;\n\n- Право на исправку у складу са чл. 16 ГДПР: Имате право да без одлагања исправите нетачне податке који се тичу вас и/или да допуните непотпуне податке које чувамо.\n\n- Право на брисање сходно чл. 17 ГДПР: Имате право да захтевате брисање ваших личних података ако су испуњени услови из чл. 17(1) ГДПР су испуњени. Међутим, ово право се не примењује посебно ако је обрада неопходна за остваривање права на слободу изражавања и информисања, за поштовање законске обавезе, из разлога јавног интереса или за успостављање, остваривање или одбрану правних захтева.\n\n- Право на ограничење обраде сходно чл. 18 ГДПР: Имате право да затражите ограничење обраде ваших личних података све док се проверава тачност ваших података ако сте уложили приговор на брисање ваших података на основу недозвољене обраде података и уместо тога затражити ограничење обраде ваших података ако су вам подаци потребни за тврдњу, остваривање или одбрану правних захтева за које више нисмо имали потребе за прикупљањем података или након што више нисмо имали потребе за прикупљањем података. уложили приговор на основу разлога који се односе на вашу конкретну ситуацију, све док још није јасно да ли преовладавају наши легитимни разлози;\n\n- Право на информисање сходно чл. 19 ГДПР: Ако сте искористили своје право на исправку, брисање или ограничење обраде у односу на контролора, контролор је дужан да обавести све примаоце којима су откривени ваши лични подаци о овом исправљању или брисању података или ограничењу обраде, осим ако се то покаже немогућим или укључује несразмеран напор. Имате право да будете обавештени о овим примаоцима.\n\n- Право на преносивост података у складу са чл. 20 ГДПР: Имате право да примите своје личне податке које сте нам дали у структурираном, уобичајено коришћеном и машински читљивом формату или да затражите њихов пренос другом контролору, када је то технички изводљиво.\n\n- Право на повлачење сагласности дате у складу са чл. 7(3) ГДПР: Имате право да повучете своју сагласност за обраду података у било ком тренутку са ефектом за будућност. У случају повлачења, без одлагања ћемо избрисати дотичне податке, осим ако се даља обрада не може заснивати на правном основу за обраду без сагласности. Повлачење сагласности не утиче на законитост обраде на основу сагласности пре њеног повлачења.\n\n- Право на подношење жалбе у складу са чл. 77 ГДПР: Ако сматрате да обрада ваших личних података крши ГДПР, имате право да поднесете жалбу надзорном органу, посебно у држави чланици вашег пребивалишта, вашем радном месту или месту наводног кршења, не доводећи у питање било који други административни или судски лек.",
+  "privacyBlock8Title": "Право на приговор",
+  "privacyBlock8": "АКО ОБРАЂУЈЕМО ВАШЕ ЛИЧНЕ ПОДАТКЕ НА ОСНОВУ НАШЕГ ПРЕЛАЖАЈУЋЕГ ЛЕГИТИМНОГ ИНТЕРЕСА КАО ДЕО Уравнотежавања ИНТЕРЕСА, ВИ ИМАТЕ ПРАВО ПРИГОВОР НА ОВОЈ ОБРАДИ У БИЛО КОЈЕ ТРЕМЕ ИЗ РАЗЛОГА КОЈИ ПРОИСТИЧУ ИЗ ДЕЛОВА ЗА БУДУЋНОСТ. УКОЛИКО ОСТВАРИТЕ ПРАВО НА ПРИГОВОР, ПРЕСТАЋЕМО ОБРАДУ ПОДАТАКА. МЕЂУТИМ, ДАЉА ОБРАДА ОСТАЈЕ РЕЗЕРВИСАНО АКО МОЖЕМО ДОКАЗАТИ ЈАВНЕ ЛЕГИТИМНЕ РАЗЛОГЕ ЗА ОБРАДУ КОЈЕ ПРЕМАЖУ ВАШЕ ИНТЕРЕСЕ, основна права и слободе, или ако обрада служи за потврђивање, остваривање или одбрану правних потраживања.\n\nУКОЛИКО ВАШЕ ЛИЧНЕ ПОДАТКЕ ОБРАЂУЈЕМО У ДИРЕКТНЕ МАРКЕТИНШКЕ СВРХЕ, ИМАТЕ ПРАВО ДА У БИЛО КОЈЕ ТРЕНУТКУ УЛОЖИТЕ ПРИГОВОР НА ОБРАДУ ЛИЧНИХ ПОДАТАКА КОЈИ СЕ ВАС ТИЧЕ У СВРХУ ТАКВОГ ОГЛАШАВАЊА. МОЖЕТЕ ОСТВАРИТИ ПРАВО НА ПРИГОВОР КАКО ЈЕ ГОРЕ ОПИСАН.\n\nАКО ОСТВАРИТЕ ПРАВО НА ПРИГОВОР, ПРЕСТАЋЕМО ОБРАДУ ПОДАТАКА КОЈИ СЕ ВАС ТИЧЕ У ДИРЕКТНЕ МАРКЕТИНШКЕ СВРХЕ.",
+  "activityTitle": "Активност",
+  "activitiesTitle": "Моје активности",
+  "activitiesDescription": "Повежите очитавања бројила са активностима, на пример, прање са бројилима хладне воде и струјом.",
+  "sortActivities": "Измените редослед активности",
+  "resetActivities": "Ресетујте све активности",
+  "addActivity": "Додајте активност",
+  "activitySettings": "Подешавања активности",
+  "activityOverview": "Преглед активности",
+  "activityNameLabel": "Назив активности",
+  "chooseActivity": "Изаберите активност",
+  "selectedActivity": "Изабрана активност „$ПХТОКЕН0“",
+  "chooseActivityIcon": "Изаберите икону",
+  "involvedCounters": "Бројачи укључени",
+  "detailsTitle": "Детаљи",
+  "detailWithMultiSelect": "Дозволи вишеструки избор",
+  "addDetail": "Додајте детаље",
+  "editDetailTitle": "Уредите детаље",
+  "activityWithEnergyConsumption": "Потрошња енергије се мери само за активност",
+  "consumptionIsNotExclusiveTitle": "Да ли је потрошња искључива?",
+  "consumptionIsNotExclusive": "Ако потрошња није искључива за ову активност, биће приказана као упозорење.",
+  "numberOfDetails": "{count, plural, one {1 детаљ} other {ПХТОКЕН0 детаљи}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reallyDeleteActivity": "Да ли заиста желите да избришете ову активност?",
+  "reallyDeleteDetail": "Стварно избрисати овај детаљ?",
+  "reallyDeleteContract": "Стварно избрисати овај уговор?",
+  "contractCopyDialogTitle": "Да ли желите да направите копију овог уговора?",
+  "contractCopyDialogOptionYes": "Да, јединична цена или друга вредност се променила.",
+  "contractCopyDialogOptionNo": "Не, откажи.",
+  "contractCopyDialogWhen": "Од када се примењује нова цена?",
+  "contractCosts": "Јединична цена",
+  "contractCostsFeedIn": "Цена накнаде/основна цена",
+  "counterWarmWaterPlusColdWater": "Без трошкова свеже воде и отпадних вода",
+  "advancePayment": "Плаћање унапред",
+  "bonus": "Бонус",
+  "bonusInfoTitle": "Информације о бонус тарифама",
+  "bonusInfoText": "Тарифе са бонусом често омогућавају посебно велике уштеде приликом промене провајдера. Међутим, то обично произилази искључиво из једнократног бонуса. То значи: Укупни трошкови су тако ниски само у првој години снабдевања. Висок рад и/или основне цене обезбеђују у другој години јасно већи обрачун. Стога, са бонус тарифама треба да планирате од почетка да се поново промените након годину дана. Посебно критички треба преиспитивати бонус тарифе са роком од две године, где ово укидање уопште није могуће.",
+  "source": "Извор:",
+  "basePrice": "Основна цена",
+  "gross": "бруто",
+  "net": "нет",
+  "grossNetPrices": "Бруто или нето цена",
+  "taxRate": "Пореска стопа",
+  "perUnit": "по ПХТОКЕН0",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "wasteWaterPriceEnabled": "Трошкови свеже воде и отпадне воде приказани су одвојено (релевантно за бројаче одбитка)",
+  "pricePerUnit": "Цена по јединици",
+  "pricePerUnitFeedIn": "Цена накнаде",
+  "pricePerUnitWaterWarm": "Трошкови грејања топле воде",
+  "pricePerUnitWaterCold": "Цена хладне воде",
+  "pricePerUnitFreshWater": "Трошкови за слатку воду",
+  "pricePerUnitWasteWater": "Цена отпадних вода",
+  "paidAdvancePayments": "Уплате унапред",
+  "supplementaryPayment": "Доплата",
+  "refund": "Рефунд",
+  "costs": "Трошкови",
+  "contract": "Уговор",
+  "contractDetails": "Трајање уговора и детаљи",
+  "usedForPaymentsRepayments": "Плаћање унапред, основна цена и бонус",
+  "contractName": "Назив добављача/уговора",
+  "contractNumber": "Број уговора",
+  "contractStart": "Датум почетка уговора",
+  "contractPeriod": "Период уговора",
+  "cancellationPeriod": "Период отказивања",
+  "activityWash": "Прање",
+  "activityWashTemperature": "Температура",
+  "activityWashDuration": "Трајање",
+  "activityWashDuration2hrs": "2х",
+  "activityWashRotations": "Ротације",
+  "activityWashShort": "Кратак програм",
+  "activityShower": "Туш",
+  "activityBath": "Батх",
+  "activityDishWasher": "Машина за прање судова",
+  "activityIron": "Пеглање",
+  "errorNoInternet": "Нема мреже",
+  "errorInvalidRange": "Нема важећег опсега",
+  "syncDriveLoggedIn": "Ваши подаци се аутоматски синхронизују на више уређаја. Користи се следећи Гоогле налог:",
+  "syncDriveLoggedInNoAuto": "Ваши подаци се аутоматски отпремају на Гоогле диск након промене. Новији подаци из облака само замењују локалне податке када кликнете на објекат. Користи се следећи Гоогле налог:",
+  "syncDriveDataUsage": "Ако одобрите ЕХВ+ приступ Гоогле диску, апликација ће имати приступ за читање и писање датотека које је креирала сама апликација. Нажалост, датотеке које су креирали други путем ове апликације нису видљиве апликацији, што значи да дељење података између више налога преко Гоогле диска није могуће.",
+  "syncAutomaticTitle": "Локални подаци могу бити преписани",
+  "syncShareWithOthersTitle": "Делите са другима?",
+  "syncShareWithOthersSubtitle": "Ако желите да унесете очитања бројила заједно са другим Гоогле корисницима, ЕХВ+ мора имати потпуни приступ Гоогле диску.",
+  "syncShareWithOthersNotInWeb": "Додељивање приступа је тренутно могуће само преко апликације.",
+  "syncWithGoogleDriveDescription": "Зато што би била штета да се очитавања бројила изгубе, синхронизујте своје објекте са Гоогле диском одмах!",
+  "driveSyncStatusTitle": "Статус синхронизације",
+  "driveSyncStatusNotSynced": "Није синхронизовано",
+  "driveSyncStatusFailed": "Синхронизација није успела",
+  "driveSyncStatusComparing": "Поређење са фајлом на серверу",
+  "driveSyncStatusSyncing": "Синхронизација је у току",
+  "driveSyncStatusLocalHasLatestNoCloud": "Датотека сачувана на овом уређају са ПХТОКЕН0 није сачувана унутар облака",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusLocalHasLatestWithCloud": "Датотека сачувана на овом уређају са ПХТОКЕН0 је ажуриранија од датотеке у облаку са ПХТОКЕН1",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      },
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestNoLocal": "Датотека у облаку са ПХТОКЕН0 није сачувана на овом уређају",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestWithLocal": "Датотека у облаку са ПХТОКЕН0 је ажуриранија од локалне датотеке са ПХТОКЕН1",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusUpToDate": "Ажурирано од ПХТОКЕН0",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncWithGoogle": "Гоогле Дриве Синц",
+  "driveSyncNow": "Синхронизујте сада",
+  "driveSignInWithGoogle": "Пријавите се помоћу Гоогле-а",
+  "signInWithGoogle": "Пријавите се помоћу Гоогле-а",
+  "signInWithApple": "Пријавите се са Аппле-ом",
+  "signInWithGithub": "Пријавите се са ГитХуб-ом",
+  "signInWithSocialAccount": "Који друштвени налог желите да користите за креирање или пријављивање на свој ЕХВ+ налог?",
+  "syncStatusFailedLong": "Синхронизација није успела, уређивање вршите на сопствени ризик",
+  "syncStatusFailedLongNoAutoSync": "Синхронизација није успела, уређивање вршите на сопствени ризик",
+  "syncStatusSyncRemoteHasLatest": "Датотека у облаку је ажуриранија од локалне датотеке",
+  "syncObjectIsLocked": "Подаци о објекту се ажурирају и не могу се мењати током овог времена.",
+  "importExport": "Бацкуп/Ресторе",
+  "import": "Увоз",
+  "importPickFile": "Изаберите датотеку",
+  "importSelectSingleCounter": "Један бројач (ЦСВ датотека)",
+  "importSelectJson": "ЈСОН датотека (направљена помоћу ПХТОКЕН0)",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "importWhichCounterForCsv": "Који бројач треба користити?",
+  "importNewOrExistingCounter": "Додати на нови или постојећи бројач?",
+  "importConfirm": "Потврдите увоз",
+  "importTheObject": "Увезите објекат",
+  "importExplanation": "Већ сте направили очитавања бројача и желите да их убаците?",
+  "importCounterAsCsv": "Да ли желите да увезете један метар? Подржана је ЦСВ датотека са две колоне, једна за време и једна за очитавање бројила.\n\nПример података:\n2020-04-01Т22:59:00,6790.855\n\"2020-04-01Т23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importSuccessful": "Увоз је успео",
+  "importNotPossible": "Увоз није могућ",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Једна линија је занемарена: ПХТОКЕН0} other {ПХТОКЕН0 линије су занемарене: ПХТОКЕН1}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Коришћене су само прве две колоне. Трећа колона је игнорисана.} other {Коришћене су само прве две колоне, ПХТОКЕН0 колоне су занемарене.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "consentTitle": "Подешавања приватности",
+  "privacyTitle": "Политика приватности",
+  "imprintTitle": "Импресум",
+  "faqTitle": "ФАК",
+  "socialFacebook": "Фацебоок",
+  "socialInstagram": "Инстаграм",
+  "socialTwitter": "Кс",
+  "export": "Извоз",
+  "exportExplanation": "Који постојећи објекат желите да извезете, на пример да бисте га пренели на нови уређај?",
+  "exportWhere": "У ком формату треба експортовати објекат?",
+  "exportWhichValuesShouldBeExported": "Које вредности треба извести?",
+  "exportOptionExcel": "Екцел фајл",
+  "exportOptionPdf": "ПДФ фајл",
+  "exportOptionFileDescription": "Објекат се дели као датотека ПХТОКЕН0",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "socialLinkedIn": "ЛинкедИн",
+  "socialYouTube": "ИоуТубе",
+  "socialEmail": "Емаил",
+  "social": "Друштвени медији",
+  "support": "Подршка/повратне информације",
+  "supportQuestion": "Поставите питање",
+  "supportQuestionBox": "Како могу да вам помогнем?",
+  "supportQuestionNotFound": "На Ваше питање није одговорено? радо бих помогао.",
+  "supportQuestionLong": "Како то функционише? Да ли је то уопште могуће? Ево одговора.",
+  "supportReportBug": "Пријавите грешку путем поште",
+  "supportReportBugTextIs": "Молимо вас да укратко опишете тренутно неправилно понашање, односно саму грешку.",
+  "supportReportBugTextShould": "Молимо вас да укратко опишете жељено понашање, односно како би заправо требало да буде.",
+  "supportReportBugAffectedPages": "На којим страницама се јавља грешка? (ако је применљиво)",
+  "supportReportBugScreenshotsPlease": "Молимо приложите снимак екрана у пошту, по могућности са означавањем грешке.",
+  "supportBug": "Буг",
+  "supportReportBugLong": "Одлична апликација! Али наравно, ствари могу поћи наопако. Ако пријавите грешке, побољшавате апликацију.",
+  "supportGivePraise": "Дајте похвале",
+  "supportGivePraiseLong": "Да ли вам се свиђа апликација? Хвала вам! Ширите вест!",
+  "supportGivePraiseRecommendation": "Препоручите апликацију пријатељима и породици. Хвала вам на свакој препоруци!",
+  "supportRecommend": "Користим апликацију за очитавање бројила ЕХВ+ да бих пратио своју потрошњу енергије и повезане трошкове. Можда би и то било нешто за вас?\n\nВише информација на хттпс://ввв.ехвплус.цом",
+  "supportGivePraiseRating": "Оцените апликацију у ПХТОКЕН0.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "electricityConsumption": "Потрошња енергије",
+  "waterExtractionMinimumLevelLower": "Одбитак се дешава јер је потрошња нижа од прага.",
+  "outdatedCounters": "Бројачи се више не користе",
+  "isOutdatedCounter": "Бројач се више не користи",
+  "waterConsumption": "Потрошња воде",
+  "rooms": "Собе",
+  "messageNoRooms": "Још нема соба. Собе помажу група бројила.",
+  "settingObjectType": "Тип објекта",
+  "settingObjectTypeFlat": "Апартман",
+  "settingObjectTypeHouse": "Кућа",
+  "settingLivingArea": "Стамбени простор",
+  "unitSquareMeters": "скм",
+  "unitMWhShort": "МВх",
+  "unitMWhLong": "{count, plural, one {Мегават сат (МВх)} other {Мегават сати (МВх)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitKWhShort": "кВх",
+  "unitKWhLong": "{count, plural, one {киловат сат (кВх)} other {киловат сати (кВх)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitGJShort": "ГЈ",
+  "unitGJLong": "{count, plural, one {гигаџул (ГЈ)} other {гигаџули (ГЈ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitLitersShort": "ℓ",
+  "unitLitersLong": "{count, plural, one {литар (ℓ)} other {литар (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCmShort": "цм",
+  "unitCmLong": "цм",
+  "unitSquareMetersShort": "м²",
+  "unitSquareMetersLong": "{count, plural, one {Квадратни метар (м²)} other {Квадратни метри (м²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCubicMetersShort": "м³",
+  "unitCubicMetersLong": "{count, plural, one {кубни метар (м³)} other {кубни метри (м³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitPercentShort": "%",
+  "unitPercentLong": "Проценат (%)",
+  "unitKgShort": "кг",
+  "unitKgLong": "{count, plural, one {Килограм (кг)} other {Килограми (кг)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitHoursShort": "х",
+  "unitHoursLong": "{count, plural, one {Сат} other {Сати (х)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitNoneFormatted": "{count, plural, one {јединица} other {јединице}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitMegaByteShort": "МБ",
+  "unitMegaByteLong": "МБ",
+  "unitGigaByteShort": "ГБ",
+  "unitGigaByteLong": "ГБ",
+  "settingHouseholdSize": "Величина домаћинства",
+  "settingHouseholdSizeDescription": "Број људи у вашем домаћинству.",
+  "settingWaterHeater": "бојлер",
+  "settingEAuto": "Електрични аутомобил",
+  "settingObjectLocation": "Локација",
+  "settingObjectLocationTitle": "Где се налази ваш објекат?",
+  "settingObjectLocationExplanation": "Уношење локације помаже у прилагођавању увида и услуга вашој области.",
+  "counterBackgroundImageOfObject": "Позадинска слика за објекат",
+  "manageMoreThanOneObjectStep1": "Управљајте више од једног објекта - 1. корак",
+  "manageMoreThanOneObjectStep2": "Управљајте више од једног објекта - 2. корак",
+  "contracts": "Уговори",
+  "messageNoContracts": "Још нема уговора.",
+  "outdatedContracts": "Застарели уговори",
+  "contractType": "Врста уговора",
+  "electricity": "Електрична енергија",
+  "electricityBack": "Уведена струја",
+  "electricityGenerated": "Произведена електрична енергија",
+  "heatPump": "Топлотна пумпа",
+  "coldWater": "Хладна вода",
+  "counterHeater": "Мерач радијатора",
+  "counterDistrictHeating": "Даљинско грејање",
+  "counterOilHeating": "Грејање на уље",
+  "counterGas": "Гас метер",
+  "counterColdWater": "Мерач хладне воде",
+  "counterWaterExtraction": "Водомерач (баште)",
+  "counterWaterExtractionExplanation": "Са мерачем одбитка трошкови отпадних вода се могу смањити. Овом куповином у апликацији можете одредити различите трошкове за слатку воду и отпадну воду, а очитавање бројила са мерача одбитка ће се узети у обзир у трошковима воде.",
+  "warmWater": "Топла вода",
+  "counterWarmWater": "Мерач топле воде",
+  "counterElectricity": "Бројило електричне енергије",
+  "counterElectricityBack": "Бројило електричне енергије (ПВ)",
+  "counterElectricityGenerated": "Бројило производње електричне енергије",
+  "counterPvFeedInCounter": "Обновљиви извори енергије (соларна енергија и топлота са ПВ/соларним системима)",
+  "counterPvFeedInCounterExplanation": "Користите мерач напајања да бисте забележили произведену и унету електричну енергију\nса фотонапонским системом. Добијени приход се компензује са трошковима\nповучена струја.",
+  "virtualCounter": "Виртуелни мерач",
+  "heater": "Радијатор",
+  "gas": "Гас",
+  "oil": "уље",
+  "stove": "Пећ",
+  "networkCounter": "Интернет и телефон",
+  "solarThermalCollector": "Соларни термални колектор",
+  "contractTypeElectricityProvider": "Провајдер електричне енергије",
+  "contractTypeWaterFees": "Вода накнада",
+  "contractTypeHeatingFees": "Накнаде за грејање",
+  "contractTypeOilProvider": "Добављач нафте",
+  "contractTypeGasProvider": "Добављач гаса",
+  "contractTypeStove": "Пећ",
+  "contractTypeNetwork": "Интернет и телефон",
+  "currency": "Валута",
+  "costsUndefinedFor": "Трошкови недефинисани",
+  "exportOptionReadingsTitle": "Читање вредности",
+  "exportOptionReadingsSubtitle": "Обично очитавања бројила или потрошња са неправилним интервалима.",
+  "exportOptionConsumptionsTitle": "Дневна потрошња",
+  "exportOptionConsumptionsSubtitle": "Вредност потрошње за сваки дан од првог читања.",
+  "settings": "Подешавања",
+  "roomOther": "Остало",
+  "previouslyDeletedCounters": "Недавно избрисани бројила",
+  "restoreDeletedCounter": "Да ли желите да вратите овај избрисани мерач?",
+  "localWriteTitle": "Сачувајте у локалном фолдеру за преузимање",
+  "localWriteSubtitle": "Да ли објекте и фотографије треба чувати у локалном фолдеру „ПХТОКЕН0“ са сваком променом?",
+  "settingUiMode": "Кориснички интерфејс",
+  "settingUiColorPalette": "Палета боја",
+  "settingUiModeDarkOrLight": "Тамно/светло корисничко сучеље",
+  "settingLanguageMode": "Језик",
+  "settingUiModeOsDefault": "Систем",
+  "settingUiModeLight": "Светлост",
+  "settingUiModeDark": "Дарк",
+  "appBarExpandedMode": "Трака апликација са сликом у позадини",
+  "useDismissibleSettings": "Избришите покретом превлачења",
+  "useDismissibleSettingsDetailed": "Бројачи, уговори итд. могу се обрисати бочним превлачењем",
+  "settingsExternalServices": "Екстерне услуге",
+  "settingsShowTabNewsDetailed": "Да ли картица Вести/Савети треба да буде видљива?",
+  "settingsShowStromGedacht": "Да ли би требало да се приказују савети СтромГедацхт-а о електричној мрежи?",
+  "lineChartAppearanceSettings": "Изглед линијских графикона",
+  "lineChartAppearanceSettingsShowSpots": "Покажите (кружне) тачке на линијама графикона",
+  "supportMakeSuggestion": "Предложи нешто",
+  "supportMakeSuggestionLong": "Апликација живи од предлога корисника. Имате ли предлог?",
+  "featureVoting": "Гласање за функције",
+  "featureVotingOnlyOnGerman": "Анкета о карактеристикама није преведена на друге језике.",
+  "notifications": "Обавештења",
+  "notificationsEmpty": "Нема обавештења",
+  "notificationsSmartMeterAlertFallback": "Имате ново упозорење о паметном мерачу.",
+  "readingNew": "Ново читање",
+  "readingUpdate": "Ажурирајте читање",
+  "readingPrefill": "Очитавање мерача за аутоматско пуњење",
+  "readingPrefillDisabled": "Аутоматско попуњавање је онемогућено",
+  "readingPrefillEnableForAllCounters": "Омогући аутоматско попуњавање за све бројаче",
+  "readingPrefillDisableForAllCounters": "Онемогућите аутоматско попуњавање за све бројаче",
+  "readingPrefillDescription": "Очитавања мерача пре пуњења на основу претходних уноса",
+  "readingPrefillDisabledToast": "Аутоматско попуњавање је онемогућено",
+  "readingSubmitted": "Очитавање бројила је послато",
+  "readingDeleteConfirm": "Избрисати читање?",
+  "reminderTime": "Време подсетника",
+  "reminderWeekdayExplanation": "Постоји подсетник да читате не више од једном дневно.",
+  "reminderWeekdayExplanationSeasonal": "За бројила са сезонском потрошњом, подсетници се шаљу само у месецима са потрошњом (ради само ако су дате вредности из прошле године).",
+  "readingReminder": "{count, plural, one {Подсетник за читање} other {Читање подсетника}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "readingReminders": "Читање подсетника",
+  "readingReminderDisabled": "Подсетник за читање није активан",
+  "readingRemindersChannel": "Читање подсетника",
+  "readingReminderSingleBody": "Прочитајте вредност ПХТОКЕН0 сада",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "readingReminderMultiBody": "{count, plural, one {Сада прочитајте очитавања са ПХТОКЕН0 мерача} other {Сада прочитајте очитавања са ПХТОКЕН0 мерача}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contractReminder": "Подсетник на уговор",
+  "outdated": "Застарело",
+  "counterNew": "Нови бројач",
+  "counterEdit": "Уреди бројач",
+  "counterGasConversionFactor": "Фактор конверзије",
+  "counterGasCalorificValue": "Калорична вредност",
+  "counterGasConversionFactorHelpText": "Ца 1.0. Број услова се користи за претварање радне запремине у стандардну запремину. Радни услов је стање гаса на мерачу и зависи од притиска (висине) и присутне температуре.",
+  "counterGasCalorificValueHelpText": "Грејна вредност: Бездимензионални фактор за претварање измерене запремине гаса у енергију. Природни гас: обично између 9,0 и 12,5 кВх/м³, ТНГ: између 23,0 и 33,0 кВх/м³",
+  "counterTypeLabel": "Тип бројача",
+  "counterMeterId": "ИД бројила",
+  "counterName": "Назив бројача",
+  "counterContractCurrentlyUsed": "Тренутно коришћени уговор",
+  "counterSelected": "Изабрано",
+  "counterNoContractSelected": "Није изабран ниједан уговор",
+  "counterOtherContracts": "Остали уговори",
+  "counterExcludedContracts": "Искључени уговори",
+  "counterInclude": "Укључи",
+  "counterExclude": "Искључи",
+  "counterTankCapacity": "Капацитет резервоара",
+  "counterTankFillHeight": "Висина пуњења",
+  "counterFactorDescription": "Да ли вам се потрошња додељује само пропорционално? Унесите пропорцију као вредност између 0,1 (10%) и 1,0 (100%).",
+  "counterTransducerFactor": "Трансформаторски однос",
+  "counterProportionateConsumption": "Пропорционална потрошња",
+  "counterFactor": "Фактор",
+  "counterTransducerFactorExplained": "Ако се напонски трансформатор користи за смањење напона пре него што стигне до бројила, мора се применити нови фактор конверзије да би се добила тачна очитавања. Пример: бројило приказује 100.000 кВх са фактором конверзије 20. Тачно очитавање је: 100.000 кВх к 20 = 2.000.000 кВх.",
+  "counterFractionDigits": "Цифре разломака",
+  "counterDirection": "Правац",
+  "counterDirectionExplanation": "Да ли се вредност смањује употребом (индикатор нивоа, итд.) или се вредност повећава употребом (часови горионика, мерач уља, итд.) или је свака очитана вредност независна (потрошња/принос)?",
+  "counterConsiderForTotalElectricity": "Узмите у обзир укупну потрошњу електричне енергије",
+  "counterConsiderForTotalWater": "Узмите у обзир укупну потрошњу воде",
+  "counterWaterExtractionMinimumLevel": "Минимални ниво",
+  "counterBackgroundImage": "Позадинска слика за бројач",
+  "counterShowReadingsChart": "Прикажи графикон очитавања",
+  "counterShowHeatmap": "Прикажи топлотну мапу",
+  "counterShowPreliminaryCurve": "Прикажи прелиминарну криву",
+  "seasonalCounter": "Сезонски бројач",
+  "seasonalElectricityCounter": "Сезонски бројач струје",
+  "counterExplainSeasonal": "Подесите очитавање бројила на 0 током лета? Зими, очитавања ће пратити ваш уобичајени образац потрошње; лети ће остати равни.",
+  "counterIsOutdated": "Бројач је застарео",
+  "counterLinkMoreRecent": "Линк новијег бројача",
+  "counterReplacedBy": "Замењено од",
+  "counterReallyDeleteLink": "Избрисати везу?",
+  "counterDeleteConfirm": "Избрисати бројач?",
+  "counterGasCalorificValueLabel": "Калорична вредност*",
+  "counterGasConversionFactorLabel": "Фактор конверзије*",
+  "counterNoRoomConnection": "Нема везе са просторијом",
+  "counterRoom": "Соба",
+  "counterMessageRoomOptional": "Додељивање соба помаже при груписању, али је опционо.",
+  "teaserPurchaseVirtualCounter": "Додајте виртуелне бројаче уз Премиум.",
+  "teaserPurchaseWaterExtractionCounter": "Откључајте бројаче за екстракцију воде уз Премиум.",
+  "teaserPurchaseRenewableEnergies": "Бројачи обновљиве енергије захтевају Премиум.",
+  "settingYearlyReset": "Годишње ресетовање",
+  "settingYearlyResetOn": "на",
+  "settingShowCounterReadingsChart": "Прикажи графикон очитавања",
+  "settingShowHeatmap": "Прикажи топлотну мапу",
+  "settingShowPreliminaryCurve": "Прикажи прелиминарну криву",
+  "unitLiters": "литара",
+  "unitCm": "цм",
+  "unitNone": "ниједан",
+  "roomType": "Тип собе",
+  "roomName": "Име собе",
+  "roomNameHint": "Опционо доделите назив соби",
+  "roomNew": "Нова соба",
+  "roomDeleteConfirm": "Избрисати собу?",
+  "settingColor": "Боја",
+  "counterNum": "ПХТОКЕН0 бројачи",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeInFuture": "У будућности",
+  "timeLastUpdated": "последње ажурирано",
+  "timeSeconds": "сец",
+  "timeMinutes": "минута",
+  "timeHours": "сати",
+  "timeDays": "дана",
+  "timeDaysWithin": "дана",
+  "timeMonth": "месец",
+  "timeMonths": "месеци",
+  "timeMonthsWithin": "месеци",
+  "timeJustNow": "управо сада",
+  "timeMinutesAgo": "ПХТОКЕН пре 0 минута",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "ПХТОКЕН пре 0 сати",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeToday": "данас",
+  "timeDayAgo": "пре једног дана",
+  "timeDaysAgo": "ПХТОКЕН пре 0 дана",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timeMonthsAgo": "ПХТОКЕН пре 0 месеци",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "timeForFirstYear": "за прву годину",
+  "timeWeek": "недељу дана",
+  "timeWeeks": "недеље",
+  "timeWithin": "У оквиру ПХТОКЕН0",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "timeYesterday": "јуче",
+  "timeMonday": "понедељак",
+  "timeTuesday": "уторак",
+  "timeWednesday": "среда",
+  "timeThursday": "четвртак",
+  "timeFriday": "петак",
+  "timeSaturday": "Субота",
+  "timeSunday": "недеља",
+  "timeFromUndefined": "Недефинисано",
+  "timeUntilUnlimited": "Неограничено",
+  "timeUntilDate": "До ПХТОКЕН0",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeFromDate": "Од ПХТОКЕН0",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReminderAtStart": "На почетку",
+  "timeReminderAtEnd": "На крају",
+  "timePeriodYearStart": "годишње",
+  "timeRightNow": "Управо сада",
+  "timeBefore": "Пре",
+  "purchasesUpgrade": "Надоградите",
+  "upgradeDescription": "Апликација може више. Бољи преглед трошкова, више статистике, Екцел извоз, више бројача, ...",
+  "purchasesWhyBuyTitle": "Зашто да купим нешто?",
+  "purchasesWhyBuyText": "Куповином учествујете у трошковима које имам објављивањем апликације и подржавате даљи развој.",
+  "purchasesIOSRestorePurchases": "Вратите куповине",
+  "purchasesIOSRestorePurchasesDescription": "Ако сте већ купили нешто у АппСторе-у у прошлости, можете вратити куповине.",
+  "purchasesDisabledOnIOS": "Куповине у апликацији су онемогућене",
+  "purchasesDisabledOnIOSDescription": "Проверите да ли су куповине у апликацији онемогућене на вашем иПхоне-у (Подешавања > Време екрана > Ограничења > Инсталације и куповине апликација > Дозволи куповине у апликацији)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Апликација је инсталирана преко Тестфлигхт-а. Имајте на уму да куповине раде у апликацији само ако инсталирате апликацију преко Апп Сторе-а.",
+  "purchasesSubscribePremium": "Претплатите се на Премиум",
+  "purchasesSubscribePremiumTextLong": "Приступ свим плаћеним функцијама током периода претплате + спољне температуре",
+  "purchasesWebLegalNote": "Из правних разлога, куповина је могућа само за иПхоне или Андроид телефон са ПлаиСторе услугама.",
+  "purchasesYourPurchases": "Имате приступ следећим премиум пакетима:",
+  "purchasesExtensionsTitle": "Појединачне екстензије",
+  "purchasesExtensionsSubtitle": "Купите једном, користите трајно (без претплате)",
+  "purchasesExtensionStatisticsTitle": "Напредна статистика",
+  "purchasesExtensionMultipleObjectsTitlePart": "Управљање више објеката",
+  "purchasesExtensionMultipleObjectsDescription": "Унесите очитања бројила за онолико станова/кућа/објеката колико желите (уместо само за један објекат)",
+  "purchasesExtensionsInWork": "Планирана су даља проширења. Учествујте у анкети о значајкама да бисте рекли своје мишљење.",
+  "purchasesSubscribeNow": "Претплатите се сада",
+  "purchasesBuyNow": "Купите сада",
+  "purchasesRedeemCode": "Искористите код",
+  "purchasesEarlyBirdSubscription": "Напомена: Ако се ова претплата за први пут откаже, касније се не може поново претплатити.",
+  "purchasesPurchasedIncludedInPremium": "Укључено у Премиум",
+  "purchasesPurchasedSubscribed": "Претплаћени",
+  "purchasesPurchased": "Купљено",
+  "purchasesExtensionStatisticsDescription": "Приступ годишњој/месечној/недељној потрошњи електричне енергије/гаса/воде/... + прилагођавања периода + детаљан преглед трошкова + извоз у Екцел",
+  "commonAnd": "и",
+  "purchasesSubscribePremiumMonthly": "Месечна претплата која се може отказати за само ПХТОКЕН0 месечно",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Месечна претплата која се може отказати по цени лојалности од ПХТОКЕН0 месечно уместо ПХТОКЕН1",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearly": "Годишња претплата која се може отказати за само ПХТОКЕН0 годишње",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Годишња претплата која се може отказати по цени лојалности од ПХТОКЕН0 годишње уместо ПХТОКЕН1",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesStatisticsWithPremium": "Уз Премиум добијате приступ месечном поређењу{count, plural, =0{.}=1{.}other{ и такође видите историјске податке за {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "years": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "smartMeterProviderTibber": "Тиббер",
+  "smartMeterProviderWwgl": "Вассерверк Герауер Ланд",
+  "smartMeterProviderUndefined": "Није постављено",
+  "sync": "Синц",
+  "costsUndefinedForType": "ПХТОКЕН0 за недефинисано",
+  "costsUndefinedElectricity": "Накнаде за електричну енергију",
+  "costsUndefinedColdWater": "Накнаде за хладну воду",
+  "costsUndefinedWarmWater": "Накнаде за топлу воду",
+  "costsUndefinedHeater": "Накнаде за грејач",
+  "costsUndefinedOilHeating": "Нафтне накнаде",
+  "costsUndefinedGas": "Накнаде за гас",
+  "costsUndefinedNetworkCounter": "Интернет таксе",
+  "updateAvailable": "Верзија апликације ПХТОКЕН0 није ажурирана. Можете ажурирати на верзију ПХТОКЕН1.",
+  "@updateAvailable": {
+    "placeholders": {
+      "oldVersion": {
+        "type": "String"
+      },
+      "newVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "versionIsUpToDate": "Најновија верзија апликације објављена за све кориснике је ПХТОКЕН0.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "messageNoCounters": "Још нисте креирали бројач.",
+  "messageNoCounterReadings": "Још увек нисте унели очитавање бројача.",
+  "parsingObjectError": "Објекат се не може рашчланити. Молимо контактирајте програмера. Када деинсталирате апликацију, подаци се могу изгубити.",
+  "reallyDeleteCounter": "Да ли сте сигурни да желите да избришете бројач?",
+  "reallyDeletePhoto": "Да ли сте сигурни да желите да избришете слику очитавања мерача?",
+  "reallyDeleteCounterLink": "Да ли сте сигурни да желите да избришете везу између бројача?",
+  "virtualCounterNotConfigured": "Проверите подешавања вашег виртуелног мерача. Ништа се не може израчунати.",
+  "virtualCounterMasterCounter": "Мастер метер",
+  "virtualCounterMasterCounterAttach": "Изаберите главни мерач",
+  "virtualCounterMasterCounterDescription": "Инфо: Главно бројило чини основу за израчунавање виртуелног бројила, на пример, главног мерача електричне енергије или главног водомера.",
+  "virtualCounterMetersToBeSubtracted": "Метри које треба одузети",
+  "virtualCounterMetersToBeSubtractedDescription": "Која очитавања бројила треба одузети од главног бројила, на пример, „бројила топлотне пумпе“, „бројила за напајање електричном енергијом“.",
+  "virtualCounterMetersToBeAdded": "Мерачи који се додају",
+  "virtualCounterMetersToBeAddedDescription": "Која очитавања бројила треба додати главном бројилу, нпр. бројила за производњу електричне енергије.",
+  "areYouSure": "Јесте ли сигурни?",
+  "addNewValue": "Унесите нову вредност",
+  "reallyDeleteValue": "Да ли заиста желите да избришете ову вредност?",
+  "warning": "Упозорење",
+  "messageNotEnoughData": "Нема довољно података за приказ графикона",
+  "messageNoConsumptions": "Овде се појављује статистика за сва бројила типа ако је направљено довољно очитавања. На пример, два мерача хладне воде, два мерача топле воде и један мерач екстракције воде приказани су у једној статистици воде.",
+  "lastReading": "последње читање",
+  "chartDottedLinesNonSeasonal": "Испрекидане криве представљају претходни период. За избор „Последњих 14 дана“, на пример, појављује се 28 последњих дана, а старијих 14 од њих је исцртано.",
+  "chartDottedLinesSeasonal": "Испрекидане криве представљају претходни период. За избор „Последњих 14 дана“, на пример, појављује се 28 последњих дана, а старијих 14 од њих је исцртано.",
+  "chartHorizontalLines": "Испрекидане линије служе за пружање повратних информација о сопственој потрошњи.",
+  "chartHorizontalLineWater": "У Немачкој, у просеку, сваки дан у домаћинству потроши 127 литара воде за пиће. Плава линија представља хладну воду (60%), црвена топлу воду (40%), екстраполирано на број дана у периоду и број људи.",
+  "chartHorizontalLineElectricityGas": "Зелена линија означава веома добру потрошњу, жута линија добру потрошњу, црвена линија немачке просечне потрошње.",
+  "per": "пер",
+  "costSummary": "Резиме трошкова",
+  "costSummaryYield": "Цена накнаде/-основна цена",
+  "soFar": "до сада",
+  "forX": "за",
+  "corresponds": "одговара",
+  "warningCounterReplacementDetected": "Нова вредност је нижа од претходног очитавања бројила. Да ли је бројило замењено?",
+  "warningYearlyReset": "На почетку године нула читања",
+  "warningReadingSmallerThanOldValue2": "Нова вредност је нижа од претходног очитавања бројила. Да ли је очитавање правилно узето?",
+  "warningReadingBiggerThanOldValueOilVolume": "Нова вредност је већа од претходног очитавања бројила. Да ли сте напунили резервоар?",
+  "warningReadingSeemsTooBig": "Нова вредност је прилично висока. Да ли је очитавање правилно узето?",
+  "warningReadingSeemsTooSmall": "Нова вредност је прилично ниска. Да ли је исправно прочитано?",
+  "meterReadingsFilterAll": "Прикажи све",
+  "meterReadingsFilterComments": "Прикажи само уносе са коментарима",
+  "meterReadingsFilterSubmitted": "Прикажи само „ПХТОКЕН0“",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "isLastEntryAtFilteredList": "Најстарија вредност у филтрираној листи",
+  "initialReading": "Почетно читање",
+  "warningReadingBiggerThanOldValue": "Нова вредност је већа од претходног очитавања мерача.{isOilCounter, select, true { Да ли сте допунили резервоар?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedForYearlyResetCounter": "Недостаје коначно очитавање бројила за годину ПХТОКЕН0 за ПХТОКЕН1 ПХТОКЕН2. Ово је неопходно за исправан обрачун укупне годишње потрошње.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "lastYear": {
+        "type": "String"
+      },
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedFrequency": "Најновије очитавање бројила за ПХТОКЕН0 ПХТОКЕН1 је застарело ПХТОКЕН2.ПХТОКЕН3",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "valueLess": "ПХТОКЕН0 мање",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "valueMore": "ПХТОКЕН0 више",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonNotEnoughData": "Још увек нема довољно упоредних података за сајт ПХТОКЕН0 (ПХТОКЕН1).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      },
+      "countryCode": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonEqual": "Плаћате отприлике онолико колико је просек у ПХТОКЕН0.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonDiff": "Плаћате {diffWithCurrency} {comparison, select, more {више од} less {мање од} other {више од}} просека у {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "diffWithCurrency": {
+        "type": "String"
+      },
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNamePart": "у ПХТОКЕН0",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "warningOutdatedSinceText": "од ПХТОКЕН0",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "warningNextReminderText": "Следећи подсетник је ПХТОКЕН0.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "counterConsiderForTotalConsumptions": "Узмите у обзир укупну потрошњу"
+}

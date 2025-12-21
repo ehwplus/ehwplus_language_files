@@ -1,0 +1,1707 @@
+{
+  "appDescriptionShort": "ดีต่อกระเป๋าสตางค์ ดีต่อสภาพอากาศ",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
+  "appDescriptionLong": "<p>ยินดีต้อนรับสู่ <b>EHW+</b> แอปอ่านมิเตอร์ของคุณสำหรับ <b>E</b>lectricity, <b>H</b>eating และ <b>W</b>ater กับเรา คุณสามารถติดตาม<b> <b>0ได้อย่างง่ายดายว่าคุณใช้ไปเท่าไรและมันราคาเท่าไหร่<b>1 <b>2ราคา<b>3 ฟรี<b>4",
+  "contactTitle": "แสดงโดย:",
+  "contact": "EHW+ บริการ GmbH\nเกออร์ก-เฮอร์เบิร์ต-ชตราสเซอ 8\n68519 เฟียร์นไฮม์\n\nติดต่อ\n\nโทรศัพท์: 06204/7383382\nอีเมล์: info@ehwplus.com",
+  "euDisputeResolution": "การระงับข้อพิพาทของสหภาพยุโรป\n\nคณะกรรมาธิการยุโรปจัดให้มีแพลตฟอร์มสำหรับการระงับข้อพิพาทออนไลน์ (OS): https://ec.europa.eu/consumers/odr/\nคุณสามารถค้นหาที่อยู่อีเมลของเราได้จากสำนักพิมพ์ด้านบน\n\nการระงับข้อพิพาทของผู้บริโภค/หน่วยงานระงับข้อพิพาทสากล\n\nเราไม่เต็มใจหรือมีหน้าที่ต้องเข้าร่วมในกระบวนการระงับข้อพิพาทต่อหน้าคณะกรรมการอนุญาโตตุลาการผู้บริโภค",
+  "consent1Hello": "สวัสดี",
+  "consent2ThankYou": "ขอบคุณที่ใช้ EHW+!",
+  "consent3Video": "คุณต้องการชมวิดีโอแนะนำสั้น ๆ หรือไม่?",
+  "consent4BeforeYouCanContinue": "ก่อนที่คุณจะสามารถดำเนินการต่อได้",
+  "consent5ErrorReportingTitle": "รายงานข้อผิดพลาด",
+  "consent6ContractPricesPerUnitTitle": "ราคาค่าไฟฟ้า/น้ำ/แก๊ส",
+  "consent7ContractPricesPerUnit": "เพื่อให้สามารถประมาณจำนวนเงินที่คุณจ่ายในปัจจุบันเมื่อเทียบกับผู้ใช้ EHW+ รายอื่น ราคาจะถูกโอนไปยังเซิร์ฟเวอร์ EHW+ ในเยอรมนีพร้อมกับประเทศและรัฐ เฉพาะในกรณีที่คุณยอมรับการโอน คุณจะสามารถเข้าถึงสถิติราคาได้ เพื่อให้มั่นใจว่าจะไม่เปิดเผยตัวตน สถิติสามารถแสดงได้หลังจากราคาที่ส่งผ่านจำนวนขั้นต่ำเท่านั้น",
+  "consent11AnalyticsTitle": "ข้อมูลการวิเคราะห์",
+  "consent12Analytics": "เพื่อประเมินความสำเร็จของแอปหรือฟังก์ชันแต่ละรายการ แอปจะส่งสถิติการใช้งานที่ไม่ระบุชื่อ ข้อมูลจะไม่ถูกส่งไปยังบุคคลที่สาม ข้อมูลจะถูกใช้สำหรับการพัฒนาแอปเพิ่มเติม",
+  "consent13StromGedachtTitle": "ประกาศความเสถียรของกริดจาก StromGedacht",
+  "consent13StromGedacht": "StromGedacht ซึ่งเป็นบริการของ TransnetBW ให้ข้อมูลเกี่ยวกับเสถียรภาพของโครงข่ายไฟฟ้าและคำแนะนำว่าควรใช้ไฟฟ้าเมื่อใดเป็นพิเศษ เนื่องจากการเปลี่ยนแปลงด้านพลังงานมีความท้าทายมากขึ้นเรื่อยๆ สำหรับโครงข่ายส่งไฟฟ้า ครัวเรือนต่างๆ ในเยอรมนีตะวันตกเฉียงใต้ก็เข้ามามีส่วนร่วมด้วย หากต้องการรับข้อมูลตำแหน่งของคุณ รหัสไปรษณีย์ของคุณ (หากป้อนที่นี่ในแอป) จะถูกส่งไปยัง TransnetBW StromGedacht API ไม่มีการส่งหรือเชื่อมโยงข้อมูลอื่นใด",
+  "stromGedachtAgreement": "ฉันยอมรับว่ารหัสไปรษณีย์ของฉัน (หากระบุ) จะถูกส่งไปยัง TransnetBW เพื่อดึงประกาศ StromGedacht",
+  "priceSubmissionAgreement": "ฉันเห็นด้วยกับการส่งราคาไฟฟ้า/ก๊าซ/น้ำต่อหน่วยไปยังเซิร์ฟเวอร์ EHW+",
+  "googleAnalyticsAgreement": "ฉันยอมรับการส่งข้อมูลที่ไม่ระบุชื่อเกี่ยวกับการใช้แอปไปยัง EHW+ Services GmbH",
+  "continueAcceptPart1": "การใช้แอป EHW+ แสดงว่าคุณยอมรับ",
+  "continueAcceptPart2": "- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวบรวมและการใช้ข้อมูลส่วนบุคคลที่ไม่เปิดเผยตัวตน โปรดดูที่",
+  "termsOfUsageTitleShort": "เงื่อนไขการใช้งาน",
+  "faqAboutDeveloperTitle": "ใครอยู่เบื้องหลัง EHW+?",
+  "faqAboutDeveloperBody1": "ขอขอบคุณที่สนใจ EHW+ Timo Bähr ฉันเปิดตัว EHW+ ในเดือนธันวาคม 2020 ฉันเป็นนักพัฒนาแอปเต็มเวลาและทำงานกับ EHW+ ในเวลาว่างเพื่อสนับสนุนการปกป้องสิ่งแวดล้อม ตั้งแต่เดือนพฤษภาคม 2022 นักพัฒนาคนที่สองได้ดูแลงานของฉัน Thomas Hesse สร้างแบ็กเอนด์สำหรับ EHW+ ตั้งแต่เดือนเมษายน 2023 Janine Sinner รับมือกับคำติชมของลูกค้าจำนวนมาก ตั้งแต่เดือนกรกฎาคม 2024 Artem Yuzhakov ได้เข้าร่วมเป็นนักพัฒนาแอป",
+  "faqAboutDeveloperBody2": "มากกว่า 26% ของการปล่อย CO2 ทั้งหมดในเยอรมนีเกิดจากครัวเรือนส่วนตัว หากทุกคนสามารถลดการบริโภคลงได้แม้แต่น้อยก็จะประสบความสำเร็จมากมาย ขอบคุณมากสำหรับการสนับสนุนของคุณ!",
+  "faqAboutDeveloperBody3": "เรายินดีรับข้อเสนอแนะเกี่ยวกับวิธีการปรับปรุงแอป",
+  "faqAboutDeveloperBody4": "อย่างไรก็ตาม ฉันขอให้คุณเข้าใจว่าฉันไม่สามารถปฏิบัติตามคำแนะนำทั้งหมดได้ และฟังก์ชันใหม่ต้องใช้เวลา",
+  "commonCollapse": "ทรุด",
+  "commonMore": "มากกว่า",
+  "commonSave": "บันทึก",
+  "commonChange": "เปลี่ยน",
+  "commonContinue": "ดำเนินการต่อ",
+  "commonBack": "กลับ",
+  "commonOk": "ตกลง",
+  "commonCancel": "ยกเลิก",
+  "commonClose": "ปิด",
+  "commonOpen": "เปิด",
+  "commonSend": "ส่ง",
+  "commonDelete": "ลบ",
+  "commonYes": "ใช่",
+  "commonNo": "เลขที่",
+  "commonLoadingData": "กำลังโหลดข้อมูล",
+  "commonDay": "วัน",
+  "commonMonth": "เดือน",
+  "commonYear": "ปี",
+  "commonShare": "แบ่งปัน",
+  "commonCopiedToClipboard": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+  "commonLearnMore": "เรียนรู้เพิ่มเติม",
+  "commonMinimum": "มูลค่ารายวันต่ำสุด",
+  "commonMaximum": "มูลค่ารายวันสูงสุด",
+  "heatmapLegendTitle": "ข้อมูลเพิ่มเติมเกี่ยวกับแผนที่ความร้อน",
+  "heatmapLegendDisclaimer": "ข้อมูล: กล่องที่แรเงาประกอบด้วยค่าโดยประมาณ หากต้องการอ่านปริมาณการใช้/เอาท์พุตจริง โปรดกรอกข้อมูลการอ่านมิเตอร์ที่หายไปหากเป็นไปได้",
+  "consumptionHeatmap": "แผนที่ความร้อนการบริโภค",
+  "consumptionHeatmapYield": "แผนที่ความร้อนของผลผลิต",
+  "consumption": "การบริโภค",
+  "consumptionYield": "ผลผลิต",
+  "showAllYears": "แสดงทุกปี",
+  "appNameShort": "EHW+",
+  "appName": "EHW+ | ปริมาณการใช้และการอ่านมิเตอร์",
+  "tabCounters": "เมตร",
+  "tabStatistics": "สถิติ",
+  "tabObject": "วัตถุ",
+  "tabNews": "เคล็ดลับ/ข่าวสาร",
+  "ofRangeLastDays": "ของ {days} วันที่ผ่านมา",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeLastMonths": "สำหรับ {months} เดือนที่ผ่านมา",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "ofRangeFrom": "จาก {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "readingTime": "เวลาอ่าน",
+  "reading": "การอ่านแบบเคาน์เตอร์",
+  "last2Weeks": "14 วันที่ผ่านมา",
+  "last12Weeks": "12 สัปดาห์ที่ผ่านมา",
+  "last12Months": "12 เดือนที่ผ่านมา",
+  "sinceInitialReading": "ตั้งแต่อ่านครั้งแรก",
+  "lastYear": "ปีที่แล้ว",
+  "periodCustom": "ผู้ใช้กำหนด",
+  "counterReadings": "การอ่าน",
+  "comment": "โบเต้",
+  "enterComment": "ป้อนบันทึก",
+  "enterExistingReadingAgain": "เข้าสู่การอ่านเก่าอีกครั้ง",
+  "meterId": "รหัสเคาน์เตอร์",
+  "meterReadingSubmitted": "ส่งต่อไปยังผู้ให้บริการ",
+  "newReading": "ป้อนการอ่านปัจจุบัน",
+  "newReadingShort": "การอ่านใหม่",
+  "readingWithFactor": "การอ่านตัวนับด้วยแฟคเตอร์",
+  "csvImportWithFactor": "การอ่านค่ามิเตอร์ควรคูณด้วยปัจจัยที่ไม่เท่ากับ 1.0 หรือไม่? ตัวอย่างเช่น หากต้องการแปลงค่าจาก Wh เป็น kWh จะต้องคูณด้วย 0.001",
+  "newPhoto": "ถ่ายรูปใหม่ครับ",
+  "existingPhoto": "แนบรูปภาพที่มีอยู่",
+  "newPhotoOfMeterReading": "คุณต้องการถ่ายภาพการอ่านมิเตอร์หรือไม่?",
+  "existingPhotoOfMeterReading": "คุณต้องการแนบรูปภาพการอ่านมิเตอร์ที่มีอยู่หรือไม่",
+  "numCounters": "{count, plural, =0 {ตัวนับ {count}} one {ตัวนับ {count}} other {เคาน์เตอร์ {count}}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "numMeterReadings": "{readings, plural, one {# การอ่าน} other {# การอ่าน}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "firstReadingYield": "ป้อนผลตอบแทนแรกทันที",
+  "firstReadingConsumption": "ป้อนการบริโภคครั้งแรกทันที",
+  "firstReadingCounter": "ป้อนการอ่านตัวนับครั้งแรก",
+  "consumptionHeatpump": "นอกจากนี้การใช้พลังงานของปั๊มความร้อนยังอยู่ที่ {formattedValue} kWh",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearly": "ปริมาณการใช้ไฟฟ้าของคุณ {ofRange} คือ {consumption} kWh สำหรับปี",
+  "@consumptionYearly": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedElectricityIntro": "ปริมาณการใช้ไฟฟ้าของคุณ {ofRange} ({totalConsumption} kWh data {yearlyConsumption} kWh/ปี data {monthlyConsumption} kWh/เดือน)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedGasIntro": "ปริมาณการใช้ก๊าซของคุณ {ofRange} ({totalConsumption} kWh data {yearlyConsumption} kWh/ปี data {monthlyConsumption} kWh/เดือน)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "totalConsumption": {
+        "type": "String"
+      },
+      "yearlyConsumption": {
+        "type": "String"
+      },
+      "monthlyConsumption": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel0": "ต่ำมาก",
+  "consumptionYearlyDetailedLevel1": "เป็นสิ่งที่น่าดูจริงๆ",
+  "consumptionYearlyDetailedLevel3": "ค่อนข้างสูง",
+  "consumptionYearlyDetailedLevel4": "เป็นเรื่องปกติ",
+  "consumptionYearlyDetailedYouConsume": "คุณใช้{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLessThan": "{percentage} น้อยกว่า",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedMoreThan": "{percentage} มากกว่า",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedAboutSame": "ประมาณเดียวกันกับ",
+  "consumptionYearlyDetailedAverageHousehold": "ครัวเรือนโดยเฉลี่ยที่มี {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedOptimalEnding": "เป็นยังไงบ้างคะ?",
+  "consumptionYearlyDetailedLevel1Suffix": "ขาด {nextToOptimal} kWh/เดือนเพื่อการบริโภคที่เหมาะสมที่สุด",
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} kWh/เดือน ขาดไปเพื่อการบริโภคที่ดี",
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionPersonLabel": "{count, plural, one {บุคคล} other {ประชากร}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "consumptionWaterPrefixSingle": "คุณบริโภค",
+  "consumptionWaterPrefixPerPerson": "ต่อคนทุกคนบริโภค",
+  "consumptionWaterDailyMonthly": "ประมาณ {dailyLiters} ลิตรต่อวัน (เท่ากับ {monthlyCubicMeters} {unitName} ต่อเดือน)",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "String"
+      },
+      "monthlyCubicMeters": {
+        "type": "String"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterRangeUnknown": "ปริมาณการใช้น้ำของคุณ {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallLess": "ปริมาณการใช้น้ำของคุณ {ofRange} คือ {percentage} ต่ำกว่าครัวเรือนทั่วไปที่มี {householdSize} {personLabel}",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallEqual": "ปริมาณการใช้น้ำของคุณ {ofRange} ตรงกับปริมาณการใช้น้ำของครัวเรือนทั่วไปด้วย {householdSize} {personLabel}",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterOverallMore": "ปริมาณการใช้น้ำของคุณ {ofRange} คือ {percentage} สูงกว่าครัวเรือนทั่วไปที่มี {householdSize} {personLabel}",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "ofRange": {
+        "type": "String"
+      },
+      "percentage": {
+        "type": "String"
+      },
+      "householdSize": {
+        "type": "String"
+      },
+      "personLabel": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdLess": "น้ำเย็น: {percentage} น้อยกว่าครัวเรือนทั่วไป",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdMore": "น้ำเย็น: {percentage} มากกว่าครัวเรือนทั่วไป",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterColdEqual": "น้ำเย็น: ใกล้เคียงกับครัวเรือนทั่วไป",
+  "consumptionWaterWarmLess": "น้ำร้อน: {percentage} น้อยกว่าครัวเรือนทั่วไป",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmMore": "น้ำร้อน: {percentage} มากกว่าครัวเรือนทั่วไป",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "consumptionWaterWarmEqual": "น้ำร้อน: ประมาณเท่ากับครัวเรือนทั่วไป",
+  "yearlyConsumption": "การบริโภคประจำปีจนถึงปัจจุบัน",
+  "yearlyCosts": "ต้นทุนการบริโภคประจำปีจนถึงปัจจุบัน",
+  "room": "ห้อง",
+  "fedIn": "เลี้ยงเข้า",
+  "generated": "สร้างขึ้น",
+  "residualGenerationEstimated": "ประมาณการการสร้างสารตกค้าง",
+  "residualConsumptionEstimated": "การบริโภคที่เหลือโดยประมาณ",
+  "myObjects": "วัตถุของฉัน",
+  "roomLivingRoom": "ห้องนั่งเล่น",
+  "roomDiningRoom": "ห้องรับประทานอาหาร",
+  "roomBedroom": "ห้องนอน",
+  "roomBathroom": "ห้องน้ำ",
+  "roomWc": "ห้องสุขา",
+  "roomChildrenRoom": "ห้องเด็ก",
+  "roomKitchen": "ครัว",
+  "roomStoreRoom": "ห้องเก็บของ",
+  "roomOffice": "สำนักงาน",
+  "roomGarden": "สวน",
+  "counter": "เคาน์เตอร์",
+  "counterDirectionAscending": "จากน้อยไปมาก",
+  "counterDirectionDescending": "จากมากไปน้อย",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "counterWater": "มิเตอร์น้ำ",
+  "counters": "เมตร",
+  "changeCounterOrder": "หากจำเป็นคุณสามารถเปลี่ยนลำดับได้",
+  "newCounter": "สร้างเคาน์เตอร์ใหม่",
+  "updateObjectName": "เปลี่ยนชื่อวัตถุ",
+  "enterObjectName": "ตั้งชื่อวัตถุใหม่",
+  "explanationManageMoreThanOneObject": "คุณมีทรัพย์สินมากกว่าหนึ่งแห่งที่คุณต้องการจัดการใช่หรือไม่? จากนั้นตั้งชื่อวัตถุปัจจุบันแล้วสร้างวัตถุอื่น",
+  "selectedAtAppStart": "วัตถุบนสุดถูกเลือกเมื่อเริ่มต้นแอป",
+  "reallyDeleteObject": "คุณแน่ใจหรือไม่ว่าต้องการลบวัตถุนี้",
+  "confirmDeleteAtCloud": "ควรลบ \"{objectTitle}\" ออกจาก Google Drive ด้วยหรือไม่",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteObjectError": "ไม่สามารถลบวัตถุนี้ได้ (รหัส {errorCode})",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "commonChangeSaved": "บันทึกการเปลี่ยนแปลงแล้ว",
+  "commonUpdateNow": "อัปเดตตอนนี้",
+  "commonLogout": "ออกจากระบบ",
+  "commonLogin": "เข้าสู่ระบบ",
+  "commonLoggingIn": "กำลังลงชื่อเข้าใช้...",
+  "commonLoggingOut": "กำลังออกจากระบบ...",
+  "commonNotAuthenticated": "คุณไม่ได้รับการรับรองความถูกต้อง",
+  "commonUserLogin": "เข้าสู่ระบบของผู้ใช้",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "คุณกำลังใช้บัญชี EHW+ {notSubmitted} จากผลิตภัณฑ์ที่ซื้อ {total} ไม่สามารถบันทึกบนเซิร์ฟเวอร์ EHW+ เราหวังว่าจะแก้ไขปัญหาได้ในเร็วๆ นี้",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {การซื้อหนึ่งครั้งได้รับการซิงโครไนซ์ผ่านบัญชี EHW+} other {การซื้อ {count} ได้รับการซิงโครไนซ์ผ่านบัญชี EHW+}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {คุณกำลังใช้บัญชี EHW+ หากคุณซื้อผลิตภัณฑ์ในอนาคต สินค้าเหล่านั้นจะถูกซิงโครไนซ์กับทุกอุปกรณ์ของคุณ} one {คุณกำลังใช้บัญชี EHW+ ผลิตภัณฑ์ที่ซื้อ {count} ได้รับการบันทึกบนเซิร์ฟเวอร์ EHW+} other {คุณกำลังใช้บัญชี EHW+ ผลิตภัณฑ์ที่ซื้อ {count} ได้รับการบันทึกไว้บนเซิร์ฟเวอร์ EHW+}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
+  "commonUserLoginDescriptionNotLoggedIn": "คุณใช้แอปบนอุปกรณ์หลายเครื่องหรือไม่? การลงชื่อเข้าใช้บัญชี EHW+ ของคุณทำให้คุณสามารถซิงโครไนซ์การตั้งค่าและผลิตภัณฑ์ที่ซื้อในอุปกรณ์ทั้งหมดของคุณ",
+  "accountUpdateInfo": "ใหม่: บัญชีผู้ใช้ EHW+",
+  "accountThankYouForPurchase": "ขอบคุณ! คุณต้องการซื้ออย่างปลอดภัยในบัญชีผู้ใช้ EHW+ ของคุณตอนนี้หรือไม่?",
+  "accountAbout": "บัญชีผู้ใช้ EHW+ ทำอะไรได้บ้าง?",
+  "accountBenefit1": "การรับรู้การซื้อที่เชื่อถือได้มากขึ้น",
+  "accountBenefit2": "เข้าถึงส่วนขยายที่ซื้อทั้งหมดบนอุปกรณ์หลายเครื่อง",
+  "accountFaqTitle": "คำถามที่พบบ่อย:",
+  "accountFaqQ1": "บัญชีผู้ใช้ EHW+ คืออะไร?",
+  "accountFaqA1": "บัญชีผู้ใช้ EHW+ เสนอวิธีการอื่นในการกู้คืนการซื้อเมื่อไม่สามารถกู้คืนผ่าน App Store ได้ ซึ่งช่วยเพิ่มความน่าเชื่อถือ นอกจากนี้ยังช่วยให้สามารถกู้คืนการซื้อบนอุปกรณ์โดยที่การซื้อไม่ได้เกิดขึ้นตั้งแต่แรก ในอนาคตยังสามารถบันทึกการตั้งค่าและอื่นๆ ได้อีกด้วย",
+  "accountFaqQ2": "ฉันจะยังสามารถเข้าถึงการซื้อของฉันโดยไม่มีบัญชีผู้ใช้ EHW+ หรือไม่",
+  "accountFaqA2": "ใช่ การซื้อยังคงสามารถกู้คืนบนอุปกรณ์ Android ผ่าน Play Store หรือบน iPhone ผ่าน App Store บัญชีผู้ใช้ EHW+ มอบวิธีการอื่นในการกู้คืนการซื้อเมื่อไม่สามารถกู้คืนผ่าน App Store ได้ ซึ่งจะช่วยเพิ่มความน่าเชื่อถือ นอกจากนี้ยังช่วยให้สามารถกู้คืนการซื้อบนอุปกรณ์โดยที่การซื้อไม่ได้เกิดขึ้นตั้งแต่แรก",
+  "accountButtonSetup": "ตั้งค่าบัญชีผู้ใช้ EHW+",
+  "cometSettingsIsPredictionsApiEnabled": "ใช้ COMET Forecast API จากสถาบันเกอเธ่",
+  "cometConsentScreenHeader": "ใหม่: การคาดการณ์การบริโภคที่ดีขึ้น",
+  "cometConsentScreenHowItWorksTitle": "มันทำงานอย่างไร?",
+  "cometConsentScreenOnlineDescriptionTitle": "ด้วยการเชื่อมต่ออินเทอร์เน็ต:",
+  "cometConsentScreenOnlineDescription": "ข้อมูลการบริโภคของคุณจะถูกส่งไปยังมหาวิทยาลัยเกอเธ่ แฟรงก์เฟิร์ต ซึ่งจะมีการสร้างและแสดงการคาดการณ์แต่ละรายการในแอป",
+  "cometConsentScreenOfflineDescriptionTitle": "โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต:",
+  "cometConsentScreenOfflineDescription": "การคาดการณ์ในท้องถิ่นแบบง่ายจะถูกคำนวณบนอุปกรณ์ของคุณ",
+  "cometConsentScreenToggleLabel": "ใช้บริการพยากรณ์",
+  "cometConsentScreenDataCanBeUsedForTraining": "ข้อมูลอาจถูกนำมาใช้เพื่อเพิ่มประสิทธิภาพการคาดการณ์ในอนาคต",
+  "cometConsentScreenFeedbackTitle": "มหาวิทยาลัยเกอเธ่ต้องการคำติชมของคุณ:",
+  "cometConsentScreenFeedbackDescription": "การใช้การคาดการณ์นั้นฟรี แต่ทีมวิจัยต้องการคำติชมว่าบริการทำงานได้ดีเพียงใด",
+  "cometConsentScreenFeedbackMethod": "ข้อเสนอแนะจะได้รับโดยอัตโนมัติเมื่อคุณใช้บริการการทำนายและตกลงที่จะเพิ่มประสิทธิภาพ",
+  "cometConsentScreenDeclineButton": "ฉันไม่ต้องการที่จะให้ข้อเสนอแนะ",
+  "cometConsentScreenAcceptButton": "ฉันต้องการที่จะให้ข้อเสนอแนะ",
+  "exportTabHowToExport": "คุณต้องการส่งออกข้อมูลอย่างไร",
+  "exportTabHowToExportOptionShare": "แชร์กับแอปอื่นๆ",
+  "exportTabHowToExportOptionSaveToDownloads": "บันทึกลงในโฟลเดอร์ {folder}",
+  "exportTabSnackBarSaveResultMessageSuccess": "บันทึกข้อมูลเป็น {fileName} ในโฟลเดอร์ {folder} สำเร็จแล้ว",
+  "exportTabSnackBarSaveResultMessageError": "เกิดข้อผิดพลาดขณะบันทึกข้อมูล",
+  "importTabErrorMessageFileWithExtensionNotSelected": "ต้องใช้ไฟล์ {extension} เพื่อดำเนินการนำเข้าต่อไป",
+  "difference": "ความแตกต่าง",
+  "period": "ระยะเวลา",
+  "periodHourly": "รายชั่วโมง",
+  "periodDaily": "รายวัน",
+  "periodWeekly": "รายสัปดาห์",
+  "periodBiweekly": "รายปักษ์",
+  "periodMonthly": "รายเดือน",
+  "periodBimonthly": "รายปักษ์",
+  "periodQuarterly": "รายไตรมาส",
+  "periodHalfYearly": "ครึ่งปี",
+  "periodYearly": "เป็นประจำทุกปี",
+  "meterCardLastUpdatedLabel": "อัปเดตแล้ว",
+  "smartMeterServiceProvider": "ผู้ให้บริการ",
+  "smartMeterObtainDataAutomatically": "รับข้อมูลโดยอัตโนมัติ",
+  "smartMeterErrorNoData": "ขออภัย ไม่มีข้อมูลที่แอปสามารถแสดงได้",
+  "smartMeterSettingsScreenSyncButton": "ซิงโครไนซ์ข้อมูลการบริโภค",
+  "smartMeterSettingsScreenSyncingDialogHeader": "อยู่ระหว่างการซิงค์",
+  "smartMeterSettingsScreenSyncingDialogProgress": "ความคืบหน้า: {progressInPercent}%",
+  "smartMeterSettingsScreenSyncingDialogError": "ข้อผิดพลาด",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "ตกลง",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "เกิดข้อผิดพลาดต่อไปนี้ในระหว่างการซิงโครไนซ์: {errorMessage}",
+  "smartMeterMisconfiguredWidgetCardTitle": "โปรดตั้งค่ามิเตอร์อัจฉริยะของคุณอย่างถูกต้อง",
+  "smartMeterMisconfiguredWidgetCardButton": "ตั้งค่ามิเตอร์อัจฉริยะ",
+  "smartMeterTabConsumptions": "การบริโภค",
+  "smartMeterTabProductions": "โปรดักชั่น",
+  "consumptionCacheManagementClearCacheButton": "ล้างแคช",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "ล้างและซิงค์",
+  "consumptionCacheManagementConfirmClearCacheTitle": "ล้างแคชใช่ไหม",
+  "consumptionCacheManagementConfirmClearCacheMessage": "ข้อมูลการใช้แคชทั้งหมดจะถูกลบอย่างถาวร คุณสามารถซิงโครไนซ์ได้ในภายหลัง",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "ล้างแคชและซิงโครไนซ์ไหม",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "ข้อมูลแคชทั้งหมดจะถูกลบและดาวน์โหลดใหม่จากเซิร์ฟเวอร์ การดำเนินการนี้อาจใช้เวลาสักครู่",
+  "consumptionCacheManagementClearedSuccessfully": "ล้างแคชเรียบร้อยแล้ว",
+  "tibberAccessToken": "โทเค็นการเข้าถึง",
+  "tibberEnterAccessToken": "กรุณาใส่โทเค็นการเข้าถึง",
+  "tibberMessageAccessTokenUpdated": "อัปเดตโทเค็นการเข้าถึงเรียบร้อยแล้ว",
+  "tibberErrorAccessTokenInvalid": "ดูเหมือนว่าโทเค็นการเข้าถึงไม่ถูกต้อง",
+  "tibberErrorNoHomes": "ไม่มีบ้านที่เชื่อมโยงกับบัญชีนี้",
+  "tibberErrorSmartMeterMisconfigured": "ดูเหมือนว่ามิเตอร์อัจฉริยะของคุณได้รับการกำหนดค่าไม่ถูกต้อง",
+  "tibberErrorConnectivityShowCacheInstead": "ไม่สามารถดึงข้อมูลการบริโภคล่าสุดได้ แสดงค่าแคชแทน",
+  "tibberErrorUndefined": "เกิดข้อผิดพลาดที่ไม่คาดคิด: {error}",
+  "tibberErrorRateLimit": "เกินขีดจำกัดอัตรา Tibber API โปรดรออย่างน้อย 5 นาทีก่อนลองอีกครั้ง",
+  "tibberErrorNoSubscription": "หากต้องการเข้าถึงข้อมูลประวัติโดยสมบูรณ์ผ่าน API คุณต้องมีสัญญาไฟฟ้า Tibber ที่ใช้งานได้สำหรับบ้านที่เลือก",
+  "tibberBasicAuth": "การรับรองความถูกต้องขั้นพื้นฐาน",
+  "tibberBasicAuthUsername": "ชื่อผู้ใช้",
+  "tibberBasicAuthPassword": "รหัสผ่าน",
+  "tibberBasicAuthEnterUsername": "กรุณากรอกชื่อผู้ใช้",
+  "tibberBasicAuthEnterPassword": "กรุณากรอกรหัสผ่าน",
+  "tibberConsumptionEntryTotalCost": "ต้นทุนทั้งหมด: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "กำไรทั้งหมด: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpanYear": "ปี {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "หนึ่งปีเริ่มต้นจาก {year}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "เดือน {month}",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "หนึ่งเดือนเริ่มต้น {month}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 ชั่วโมงจาก {startTime} บน {date}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "หนึ่งชั่วโมงจาก {startTime} บน {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "จาก: {startTime} ถึง {endDate}",
+  "tibberWhereIsMyAccessToken": "ฉันจะหา \"โทเค็นการเข้าถึง\" ของฉันได้ที่ไหน",
+  "tibberActionSaveAuthorizationSettings": "บันทึกการตั้งค่าการอนุญาต",
+  "tibberConsentScreenHeader": "คุณสมบัติใหม่: ข้อมูลการบริโภคจาก Tibber Pulse",
+  "tibberConsentScreenDescription": "คุณเป็นลูกค้าของ Tibber หรือวางแผนที่จะเป็นลูกค้ารายหนึ่งหรือไม่? ตอนนี้เรารองรับ Pulse เพื่อการตรวจสอบพลังงานที่ดีขึ้น โปรดทราบว่าข้อมูลในอดีตจาก Pulse นั้นมีให้เฉพาะลูกค้าที่มีสัญญา Tibber ที่ยังใช้งานอยู่เท่านั้น",
+  "tibberConsentScreenBenefit1Title": "ดูปริมาณการใช้ไฟฟ้าของคุณ",
+  "tibberConsentScreenBenefit1Description": "ติดตามการบริโภคของคุณแบบเรียลไทม์และค้นพบนักดื่มพลังงานที่ซ่อนอยู่",
+  "tibberConsentScreenStoreLink": "เยี่ยมชมร้าน Tibber",
+  "tibberConsentScreenConfigureNowButton": "ตั้งค่า Tibber Pulse ทันที",
+  "tibberConsentScreenConfigureLaterButton": "ตั้งค่าในภายหลัง",
+  "tibberConsentScreenGoetheStudySectionHeader": "การเข้าร่วมโครงการวิจัย",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "ใช่ ฉันต้องการเข้าร่วม Goethe Study",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "คุณต้องการเข้าร่วม Goethe Study หรือไม่?",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "การบริโภครายชั่วโมงของคุณตั้งแต่วันที่ 1 มีนาคมจะไม่เปิดเผยชื่อและมีไว้สำหรับการศึกษาของเกอเธ่",
+  "tibberStatusWidgetTitle": "การจัดการแคช",
+  "tibberStatusWidgetTibberSubscriptionStatus": "สถานะการสมัครสมาชิก Tibber",
+  "tibberSubscriptionStatusActive": "คล่องแคล่ว",
+  "tibberSubscriptionStatusInactive": "ไม่ได้ใช้งาน",
+  "tibberSubscriptionStatusLoading": "กำลังโหลด...",
+  "tibberLiveMeasurementCounterCardViewFooter": "การวัดสด",
+  "tibberLiveMeasurementsWidgetNotSupported": "บ้านนี้ไม่รองรับการวัดผลแบบเรียลไทม์",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "บ้านนี้ไม่รองรับการวัดแบบเรียลไทม์หรือข้อมูลการบริโภคในอดีต กรุณาเลือกบ้านอื่น",
+  "tibberLiveMeasurementsWidgetConnecting": "กำลังเชื่อมต่อกับ Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "เกิดข้อผิดพลาดขณะเชื่อมต่อกับ Tibber Pulse โปรดตรวจสอบโทเค็นการเข้าถึงและการเชื่อมต่ออินเทอร์เน็ตของคุณ",
+  "tibberLiveMeasurementWidgetTitle": "ปริมาณการใช้/การผลิตปัจจุบันที่ {time}",
+  "tibberLiveMeasurementWidgetTimestamp": "การประทับเวลา",
+  "tibberLiveMeasurementWidgetPower": "พลัง",
+  "tibberLiveMeasurementWidgetPowerProduction": "การผลิตไฟฟ้า",
+  "tibberLiveMeasurementWidgetAveragePower": "กำลังเฉลี่ย",
+  "tibberLiveMeasurementWidgetMinPower": "กำลังขั้นต่ำ",
+  "tibberLiveMeasurementWidgetMaxPower": "พลังสูงสุด",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "ปริมาณการใช้ทั้งหมด (ตั้งแต่เที่ยงคืน)",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "ยอดการผลิตทั้งหมด (ตั้งแต่เที่ยงคืน)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "การบริโภค (ชั่วโมงที่แล้ว)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "การผลิต (ชั่วโมงที่แล้ว)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "การอ่านมิเตอร์ (การบริโภค)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "การอ่านมิเตอร์ (การผลิต)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "ต้นทุนสะสม",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "รางวัลสะสม",
+  "tibberLiveMeasurementWidgetPowerFactor": "เพาเวอร์แฟกเตอร์",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "แรงดันไฟฟ้า (เฟส 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "แรงดันไฟฟ้า (เฟส 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "แรงดันไฟฟ้า (เฟส 3)",
+  "tibberLiveMeasurementWidgetCurrentL1": "ปัจจุบัน (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "ปัจจุบัน (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "ปัจจุบัน (L3)",
+  "tibberLiveMeasurementWidgetUnitV": "วี",
+  "tibberLiveMeasurementWidgetUnitW": "ว",
+  "tibberLiveMeasurementWidgetUnitA": "ก",
+  "tibberHomeSelectorHomeId": "รหัสบ้าน: {homeId}",
+  "tibberHomeSelectorLabel": "บ้าน",
+  "scanQrCode": "สแกนรหัส QR เปิดใช้งาน",
+  "requestAccess": "ร้องขอการเข้าถึง",
+  "createAccount": "สร้างบัญชี/เข้าสู่ระบบ",
+  "watersupplierYourSupplier": "ผู้จำหน่ายน้ำของคุณ",
+  "watersupplierRadioMeterDefaultName": "วิทยุมิเตอร์น้ำเย็น",
+  "watersupplierAccessRequestQ1": "คุณเป็นเจ้าของทรัพย์สินในพื้นที่รับน้ำของการประปาและต้องการเข้าถึงการอ่านมิเตอร์วิทยุหรือไม่?",
+  "watersupplierAccessRequestQ2": "คุณได้ร้องขอการเข้าถึงแล้วหรือยัง? ถัดไป คุณต้องสร้างบัญชีผู้ใช้ EHW+",
+  "watersupplierAccessRequestQ3": "คุณได้ร้องขอการเข้าถึงและได้รับรหัส QR ของคุณแล้วหรือยัง?",
+  "watersupplierAccessRequestQ4": "คุณต้องการรับการแจ้งเตือนจากมิเตอร์เพื่อให้คุณสามารถตอบสนองในกรณีที่ท่อแตกหรือชักโครกไหลหรือไม่ เป็นต้น",
+  "watersupplierOpenReminderSettings": "เปิดการตั้งค่า",
+  "watersupplierScanQrCodeTitle": "การเปิดใช้งานมิเตอร์วิทยุ",
+  "watersupplierScanQrCodeCommand": "สแกนรหัส QR ด้านซ้าย (รหัสเปิดใช้งาน)!",
+  "watersupplierScanRevokeQrCodeCommand": "สแกนรหัส QR ที่ถูกต้อง (เพิกถอนรหัส)!",
+  "watersupplierScanQrCodeValidation": "ตรวจพบโค้ด QR มาตรวจสอบกัน",
+  "watersupplierScanQrCodeValidationFailed": "ขออภัย รหัสไม่ถูกต้อง คุณต้องการลองอีกครั้งหรือไม่?",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "คุณสแกนรหัสเพิกถอนแทนรหัสเปิดใช้งาน โปรดลองอีกครั้ง!",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "คุณสแกนรหัสเปิดใช้งานแทนรหัสเพิกถอน โปรดลองอีกครั้ง!",
+  "watersupplierScanQrCodeScanSuccessful": "ว้าว รหัสเปิดใช้งานดูดีมาก! กรุณากรอกรหัสมิเตอร์สามหลักสุดท้ายของคุณ!",
+  "watersupplierMeterIdValidationStep": "เรากำลังตรวจสอบรหัสมิเตอร์ของคุณ",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "ขออภัย น่าเสียดาย ที่ไม่ได้ผล มันเป็นเพราะเซิร์ฟเวอร์ของเรา ดีกว่าลองอีกครั้งในภายหลัง!",
+  "watersupplierCompleteMeterIdTryAgain": "คุณจะไม่ผ่าน! กรุณากรอกรหัสมิเตอร์สามหลักสุดท้ายอีกครั้ง!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "หมายเหตุ: รหัสมิเตอร์เดิมของคุณสามารถมีอักขระได้มากกว่า 8 ตัว",
+  "watersupplierScanQrCodeApprovalInProgress": "ขณะนี้เรากำลังให้สิทธิ์บัญชีของคุณเพื่อให้คุณสามารถเข้าถึงการอ่านมิเตอร์วิทยุได้ในอนาคต",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "ใช่! เพิ่มมิเตอร์น้ำวิทยุประเภท \"น้ำเย็น\" ของคุณสำเร็จแล้ว คุณสามารถหาได้จากเมตรอื่นๆ",
+  "watersupplierUnlinkRadioMeterTitle": "ยุติการเข้าถึงมิเตอร์วิทยุ",
+  "watersupplierUnlinkRadioMeterDescription1": "คุณต้องการลบมิเตอร์วิทยุโดยไม่ทำให้รหัสเปิดใช้งานใช้งานหรือไม่",
+  "watersupplierUnlinkRadioMeterButtonDelete": "ลบมิเตอร์วิทยุ",
+  "watersupplierUnlinkRadioMeterDescription2": "คุณไม่ต้องการเข้าถึงข้อมูลมิเตอร์วิทยุของคุณอีกต่อไปหรือไม่? โปรดทราบ: เมื่อสแกนรหัสเพิกถอนแล้ว รหัสเปิดใช้งานจะไม่ถูกต้อง บัญชีผู้ใช้ใด ๆ ที่ใช้รหัสเปิดใช้งานจะสูญเสียการเข้าถึง",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "สแกนรหัสเพิกถอน",
+  "watersupplierScanQrCodeOffboardingSuccessful": "การเข้าถึงมิเตอร์น้ำวิทยุของคุณถูกยกเลิก",
+  "watersupplierNoAccess": "คุณไม่ได้รับอนุญาตให้ดึงข้อมูลอีกต่อไป",
+  "watersupplierNoAccessDetailedMessage": "หากคุณเชื่อว่าคุณยังคงสามารถเข้าถึงได้ โปรดสแกนรหัสเปิดใช้งานของคุณอีกครั้ง หากรหัสการเข้าถึงใช้ไม่ได้อีกต่อไป โปรดส่งคำขอเข้าถึงใหม่",
+  "zipCode": "รหัสไปรษณีย์",
+  "zipCodeValidationOnlyNumbers": "รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น",
+  "zipCodeValidationLength": "กรุณากรอกรหัสไปรษณีย์ {digits} หลัก",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "houseName": "ชื่อบ้าน",
+  "houseNameDescription": "ชื่อบ้าน เช่น ชื่อถนน",
+  "marketLocationId": "รหัสที่ตั้งตลาด",
+  "marketLocationIdDescription": "รหัสสถานที่ตั้งตลาดประกอบด้วยตัวเลข 11 หลักเสมอ โดยปกติคุณจะพบสิ่งนี้ในบิลค่าไฟฟ้าหรือค่าแก๊สครั้งล่าสุดของคุณ",
+  "swimmingPool": "สระว่ายน้ำ",
+  "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} ได้รับรหัสข้อมูล: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "smartmeterId": {
+        "type": "String"
+      },
+      "infocode": {
+        "type": "String"
+      }
+    }
+  },
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "มาตรวัดน้ำ {smartmeterId} ของคุณตรวจพบว่ามีน้ำไหลอย่างต่อเนื่อง นี่อาจบ่งบอกถึงการรั่วไหล โปรดตรวจสอบการติดตั้งในครัวเรือนของคุณว่ามีรอยรั่วหรือไม่ ห้องน้ำและก๊อกน้ำหยดเป็นสาเหตุที่พบบ่อย",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "มาตรวัดน้ำ {smartmeterId} ของคุณตรวจพบปริมาณการใช้น้ำที่สูงผิดปกติ ซึ่งอาจบ่งบอกถึงท่อแตก โปรดตรวจสอบการติดตั้งในครัวเรือนของคุณว่ามีรอยรั่วหรือการแตกหักรุนแรงหรือไม่ สัญญาณเตือนอาจปรากฏขึ้นหากคุณใช้น้ำปริมาณมาก เช่น สำหรับการเติมสระ",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "มาตรวัดน้ำ {smartmeterId} ตรวจพบปริมาณการใช้น้ำที่สูงผิดปกติ ซึ่งอาจบ่งบอกถึงท่อแตกหรือการเติมน้ำในสระว่ายน้ำ โปรดตรวจสอบการติดตั้งในครัวเรือนของคุณว่ามีรอยรั่วหรือการแตกหักรุนแรงหรือไม่",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "อุณหภูมิมิเตอร์น้ำ {smartmeterId} ของคุณลดลงต่ำกว่า 3°C มีความเสี่ยงที่จะเกิดน้ำค้างแข็ง! หุ้มฉนวนมิเตอร์และท่อหรือให้ความร้อนแก่พื้นที่เพื่อป้องกันความเสียหาย",
+  "smartMeterCountersTitle": "วิทยุมิเตอร์น้ำ",
+  "counterOutdatedAndNextReminder": "การอ่านตัวนับล้าสมัยตั้งแต่ {date} ตัวเตือนการอ่านถัดไป {date2}",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
+  "waterMeterEventsInformation": "{count, plural, =1 {มิเตอร์น้ำไร้สาย {waterSupplier} ตรวจจับปริมาณการใช้น้ำที่ไม่คาดคิด หากต้องการ คุณจะได้รับการแจ้งเตือนในกรณีดังกล่าว} other {มิเตอร์น้ำไร้สายของคุณ {waterSupplier} ตรวจจับปริมาณการใช้น้ำที่ไม่คาดคิด หากต้องการ คุณจะได้รับการแจ้งเตือนในกรณีดังกล่าว}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "subscribeToSmartMeterInfocodeEvents": "ฉันต้องการรับการแจ้งเตือนเกี่ยวกับการบริโภคที่ไม่คาดคิด",
+  "completeButton": "สมบูรณ์",
+  "reset": "รีเซ็ต",
+  "settingCounterTypeColor": "สีสำหรับเคาน์เตอร์ประเภทนี้",
+  "settingCounterTypeColorDescription": "หากคุณไม่ชอบสีเริ่มต้นสำหรับตัวนับประเภทนี้ คุณสามารถกำหนดสีอื่นได้",
+  "settingCounterTypeColorAdvanced": "ตัวเลือกสีสำหรับผู้เชี่ยวชาญ",
+  "featureVotingUnderConstruction": "แบบสำรวจคุณลักษณะกำลังอยู่ระหว่างการแก้ไข ในอนาคต คุณจะต้องมีบัญชีผู้ใช้ EHW+ และแบบสำรวจจะไม่ใช้เซิร์ฟเวอร์ของบุคคลที่สามอีกต่อไป ขอขอบคุณสำหรับความอดทนของคุณ",
+  "termsOfUsageTitle": "เงื่อนไขการใช้งานทั่วไปสำหรับการใช้แอป",
+  "termsOfUsageBlock1Title": "เงื่อนไขการใช้งานทั่วไปสำหรับการใช้แอป",
+  "termsOfUsageBlock1": "สิทธิในการคัดค้าน",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2Title": "ข้อมูลทั่วไปเกี่ยวกับการใช้งาน",
+  "termsOfUsageBlock2": "ห้ามใช้แอปและฟังก์ชันในลักษณะที่ไม่เหมาะสม โปรดใช้แอปเฉพาะภายในขอบเขตที่กฎหมายอนุญาตและเป็นไปตามข้อกำหนดการใช้งานของเรา ในกรณีที่มีการละเมิดกฎหมายเยอรมันหรือข้อกำหนดการใช้งานของเรา ผู้ให้บริการขอสงวนสิทธิ์ในการยกเว้นคุณจากการใช้แอป",
+  "termsOfUsageBlock2a": "ข้อมูลการใช้งานที่ไม่ระบุชื่อ\nเราใช้การวิเคราะห์ของเราเองเพื่อปรับปรุงแอปอย่างต่อเนื่อง\nเฉพาะข้อมูลที่ไม่ระบุชื่อเท่านั้นที่จะถูกส่ง\nข้อมูลจะไม่ถูกส่งไปยังบุคคลที่สาม\nสำหรับข้อมูลเพิ่มเติม ไปที่การตั้งค่า > ความเป็นส่วนตัว > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2b": "รายงานข้อผิดพลาด\nSentry (โฮสต์ด้วยตนเอง) ใช้เพื่อปรับปรุงแอปอย่างต่อเนื่อง\nรายงานข้อผิดพลาดจะไม่ได้รับการประมวลผลหรือแชร์กับบุคคลที่สาม\nสำหรับข้อมูลเพิ่มเติม ไปที่การตั้งค่า > ความเป็นส่วนตัว > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock2c": "ข้อมูลส่วนบุคคล\nหากคุณใช้ Google Drive Sync EHW+ ยังคงไม่สามารถเข้าถึงข้อมูลที่คุณป้อน สำหรับข้อมูลเพิ่มเติม ไปที่การตั้งค่า > ความเป็นส่วนตัว > {privacyBlock3Title}",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "termsOfUsageBlock3Title": "ความรับผิด",
+  "termsOfUsageBlock3": "ผู้ให้บริการไม่รับประกันความพร้อมใช้งาน ความน่าเชื่อถือ ฟังก์ชันการทำงาน หรือความเหมาะสมของแอปสำหรับวัตถุประสงค์ของคุณ ความรับผิดได้รับการยกเว้น เว้นแต่จะได้รับบังคับภายใต้พระราชบัญญัติความรับผิดต่อผลิตภัณฑ์ เนื่องจากเจตนา ความประมาทเลินเล่ออย่างร้ายแรง การบาดเจ็บต่อชีวิต แขนขา หรือสุขภาพ การสันนิษฐานในการรับประกันคุณภาพ การปกปิดข้อบกพร่องโดยฉ้อฉล หรือการฝ่าฝืนภาระผูกพันตามสัญญาที่สำคัญ ภาระผูกพันตามสัญญาที่สำคัญคือภาระหน้าที่ซึ่งการปฏิบัติตามเป็นสิ่งจำเป็นสำหรับการดำเนินการตามสัญญาอย่างเหมาะสม และการปฏิบัติตามสัญญาที่คู่สัญญาอาจพึ่งพาเป็นประจำ การชดเชยความเสียหายอันเนื่องมาจากการละเมิดภาระผูกพันตามสัญญาที่สำคัญจะจำกัดอยู่เพียงความเสียหายที่คาดการณ์ได้โดยทั่วไปสำหรับสัญญาประเภทนี้ เว้นแต่จะมีเจตนาหรือประมาทเลินเล่ออย่างร้ายแรง",
+  "termsOfUsageBlock4Title": "ความรับผิดชอบของผู้ใช้",
+  "termsOfUsageBlock4": "ผู้ให้บริการไม่รับประกันความถูกต้องของผลการคำนวณ ผู้ใช้จะต้องอัปเดตราคาที่เก็บไว้ในแอปพลิเคชัน (ราคาพื้นฐาน ราคาการบริโภค ฯลฯ) อย่างระมัดระวังและด้วยความรับผิดชอบของตนเอง เพื่อให้แน่ใจว่าใบแจ้งหนี้ที่สร้างขึ้นนั้นสอดคล้องกับจำนวนเงินที่ครบกำหนดชำระจริง",
+  "privacyBlock1Title": "นักพัฒนา",
+  "privacyBlock1Text": "ผู้พัฒนา/ผู้ให้บริการแอปพลิเคชัน (ต่อไปนี้จะเรียกว่า \"แอป\") เป็นไปตามมาตรา 5 ของพระราชบัญญัติสื่อทางไกลแห่งเยอรมนี (TMG):\n\nโฟโตเคน0",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock1Text2": "การใช้แอปกำหนดให้คุณยอมรับข้อกำหนดการใช้งานต่อไปนี้ โปรดอ่านอย่างละเอียด",
+  "privacyBlock2Title": "ทั่วไป",
+  "privacyBlock2Text": "การปกป้องข้อมูลของคุณเป็นสิ่งสำคัญมากสำหรับเรา นโยบายความเป็นส่วนตัวนี้อธิบายว่าข้อมูลส่วนบุคคลใดที่ EHW+ รวบรวมและวิธีการนำไปใช้ การเปลี่ยนแปลงนโยบายความเป็นส่วนตัวขั้นพื้นฐานเกิดขึ้นไม่บ่อยนัก แต่อาจมีการแก้ไขเป็นครั้งคราวเนื่องจากคุณสมบัติ เทคโนโลยีใหม่ หรือข้อกำหนดทางกฎหมาย ดังนั้นโปรดตรวจสอบหน้านี้เป็นครั้งคราวเพื่อรับทราบข้อมูลล่าสุด หากเราทำการเปลี่ยนแปลงที่สำคัญ เราจะแจ้งให้คุณทราบ และหากจำเป็น เราจะขอความยินยอมจากคุณ",
+  "privacyBlock3Title": "{appNameShort} รวบรวมข้อมูลอะไรบ้าง?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3aText": "เราสร้าง {appNameShort} เพื่อให้คุณสามารถป้อนค่าที่อ่านมิเตอร์ได้อย่างรวดเร็วและง่ายดาย จากนั้นใช้สถิติเพื่อหาข้อมูลเพิ่มเติมเกี่ยวกับการบริโภค ต้นทุน และการประหยัดที่เป็นไปได้ ซึ่งหมายความว่าคุณสามารถป้อน คำนวณ หรือบันทึกข้อมูลใดๆ ซึ่งโดยทั่วไปเราเรียกว่า 'เนื้อหา' ใน {appNameShort} ข้อมูลนี้จะถูกเก็บไว้ในโทรศัพท์มือถือของคุณเท่านั้น\n\nซิงค์กับ Google ไดรฟ์\nหากคุณเปิดใช้งานการซิงโครไนซ์กับ Google Drive เนื้อหาจะถูกสำรองโดยอัตโนมัติในโฟลเดอร์ชื่อ '{appNameShort}' บน Google Drive ของคุณ ซึ่งมีเพียงคุณเท่านั้นที่สามารถเข้าถึงได้ เมื่อเข้าสู่ระบบด้วย Google นักพัฒนาซอฟต์แวร์จะมองเห็นที่อยู่อีเมลของคุณ",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "googleApiAgreement": "การใช้งานและการถ่ายโอนข้อมูลของ {appNameShort} ไปยังแอปอื่น ๆ ที่ได้รับจาก Google API จะเป็นไปตามนโยบายข้อมูลผู้ใช้บริการ Google API รวมถึงข้อกำหนดการใช้งานแบบจำกัด",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock3bText": "{googleApiAgreement}\n\nข้อมูลตำแหน่ง\nเพื่อให้เข้าใจพฤติกรรมของผู้ใช้และคุณลักษณะในอนาคต แอปจะส่งข้อมูลการใช้งานที่ไม่ระบุชื่อ\nข้อมูลจะไม่ถูกแชร์กับบุคคลที่สาม\nข้อมูลเกี่ยวกับแหล่งกำเนิด (ประเทศและเมือง) ภาษา ระบบปฏิบัติการ ประเภทอุปกรณ์ ความละเอียด พฤติกรรมการคลิก และระยะเวลาการใช้งานอาจถูกเก็บรวบรวม\n\nข้อมูลอุปกรณ์\nเรารวบรวมข้อมูลเกี่ยวกับจำนวนและประเภทอุปกรณ์ที่คุณใช้เชื่อมต่อกับบริการ รวมถึงข้อมูลเกี่ยวกับระบบปฏิบัติการบนอุปกรณ์เหล่านั้น (เช่น Android, iOS, Windows หรือ macOS)\n\nการใช้แอปนี้แสดงว่าคุณยินยอมให้มีการรวบรวมข้อมูลที่ไม่เปิดเผยตัวตนตามที่อธิบายไว้ข้างต้น",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyContractPriceSubmission": "เมื่อคุณในฐานะผู้ใช้ รักษาข้อมูลสัญญาของคุณ ราคาต่อหน่วยสำหรับสัญญาไฟฟ้า น้ำ และก๊าซจะถูกส่งไปยังเซิร์ฟเวอร์ EHW+ ในเยอรมนีร่วมกับประเทศและรัฐสหพันธรัฐ ข้อมูลนี้ใช้ในการคำนวณสถิติราคา สำหรับผู้ใช้แอป สถิติจะแสดงในรูปแบบของการเปรียบเทียบราคาในมุมมองสัญญา\n\nการใช้แอปนี้แสดงว่าคุณยินยอมให้มีการรวบรวมข้อมูลที่ไม่ระบุตัวตนตามที่กล่าวข้างต้น",
+  "privacyBlock4DataUsageTitle": "{appNameShort} ใช้ข้อมูลของฉันอย่างไร",
+  "privacyBlock4DataUsage": "ข้อมูลที่ไม่ระบุตัวตนที่รวบรวมไว้จะถูกนำมาใช้เพื่อประเมินพฤติกรรมของผู้ใช้ นอกเหนือจากนี้ จะไม่มีการนำข้อมูลไปใช้อีกต่อไป\n\nโฟโตเคน0",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyBlock5Title": "ระยะเวลาการจัดเก็บข้อมูลส่วนบุคคล",
+  "privacyBlock5": "ระยะเวลาในการจัดเก็บข้อมูลส่วนบุคคลจะกำหนดโดยระยะเวลาเก็บรักษาตามกฎหมายที่เกี่ยวข้อง (เช่น ระยะเวลาการเก็บรักษากฎหมายการค้าและภาษี) หลังจากหมดระยะเวลาดังกล่าว ข้อมูลที่เกี่ยวข้องจะถูกลบเป็นประจำ โดยมีเงื่อนไขว่าไม่จำเป็นอีกต่อไปในการปฏิบัติตามหรือเริ่มต้นสัญญา และ/หรือเราไม่มีส่วนได้เสียโดยชอบด้วยกฎหมายในการจัดเก็บข้อมูลอย่างต่อเนื่องอีกต่อไป",
+  "youtubeConsent1": "เราต้องการความยินยอมจากคุณเพื่อแสดงเนื้อหา Youtube ที่ฝังอยู่ คุณสามารถแสดงสิ่งนี้ (และรวมถึงเนื้อหา YouTube อื่น ๆ ทั้งหมดในแอป) ได้ในคลิกเดียวและปิดการใช้งานอีกครั้ง",
+  "youtubeConsent2": "แสดงเนื้อหา Youtube เสมอ",
+  "youtubeConsent3": "ฉันยินยอมให้แสดงเนื้อหาภายนอกแก่ฉัน ซึ่งอาจส่งผลให้ข้อมูลส่วนบุคคลถูกส่งไปยังแพลตฟอร์มของบุคคลที่สาม เพิ่มเติมเกี่ยวกับเรื่องนี้ในของเรา",
+  "privacyBlock6Title": "ติดต่อ",
+  "privacyBlock6": "เมื่อคุณติดต่อเรา (เช่น ผ่านแบบฟอร์มติดต่อหรืออีเมล) ข้อมูลส่วนบุคคลจะถูกเก็บรวบรวม ข้อมูลที่รวบรวมในกรณีของแบบฟอร์มการติดต่อสามารถดูได้ในแบบฟอร์มการติดต่อที่เกี่ยวข้อง ข้อมูลนี้ถูกจัดเก็บและใช้เพื่อจุดประสงค์ในการตอบคำถามของคุณหรือเพื่อสร้างการติดต่อและการบริหารด้านเทคนิคที่เกี่ยวข้องเท่านั้น พื้นฐานทางกฎหมายสำหรับการประมวลผลข้อมูลถือเป็นประโยชน์โดยชอบด้วยกฎหมายของเราในการตอบสนองต่อคำขอของคุณตามมาตรา 6 ย่อหน้า 1 ไลท์. ฉ GDPR หากผู้ติดต่อของคุณมีเป้าหมายในการสรุปสัญญา พื้นฐานทางกฎหมายเพิ่มเติมสำหรับการประมวลผลคือมาตรา 6 ย่อหน้า 1 ไลท์. ข. GDPR ข้อมูลของคุณจะถูกลบหลังจากที่ข้อซักถามของคุณได้รับการประมวลผลแล้ว ซึ่งในกรณีนี้สามารถอนุมานได้จากสถานการณ์ที่เรื่องที่เป็นปัญหาได้รับการชี้แจงในที่สุด และโดยมีเงื่อนไขว่าไม่มีภาระผูกพันทางกฎหมายในการเก็บรักษาข้อมูล",
+  "privacyBlock7Title": "สิทธิของบุคคลที่เกี่ยวข้อง",
+  "privacyBlock7": "กฎหมายคุ้มครองข้อมูลที่บังคับใช้ให้สิทธิ์ที่ครอบคลุมแก่คุณในฐานะเจ้าของข้อมูล (สิทธิ์ของข้อมูลและการแทรกแซง) เทียบกับผู้ควบคุมที่เกี่ยวข้องกับการประมวลผลข้อมูลส่วนบุคคลของคุณ ซึ่งเราจะแจ้งให้คุณทราบด้านล่าง:\n\n- สิทธิ์ในข้อมูลตามมาตรา 15 GDPR: โดยเฉพาะอย่างยิ่ง คุณมีสิทธิ์ได้รับข้อมูลเกี่ยวกับข้อมูลส่วนบุคคลของคุณที่เราประมวลผล วัตถุประสงค์ของการประมวลผล ประเภทของข้อมูลส่วนบุคคลที่ประมวลผล ผู้รับหรือประเภทของผู้รับที่ข้อมูลของคุณได้รับหรือจะถูกเปิดเผย ระยะเวลาการจัดเก็บที่วางแผนไว้หรือเกณฑ์ในการกำหนดระยะเวลาในการจัดเก็บ การมีอยู่ของสิทธิ์ในการแก้ไข การลบ การจำกัดการประมวลผล การคัดค้านการประมวลผล การร้องเรียนต่อหน่วยงานกำกับดูแล ที่มาของข้อมูลของคุณหากเราไม่ได้รวบรวมจากคุณ การมีอยู่ของ การตัดสินใจโดยอัตโนมัติ รวมถึงการจัดทำโปรไฟล์ และข้อมูลที่มีความหมายเกี่ยวกับตรรกะที่เกี่ยวข้อง และความสำคัญและผลที่ตามมาของการประมวลผลดังกล่าวสำหรับคุณ รวมถึงสิทธิ์ของคุณที่จะได้รับการแจ้งถึงการรับประกันที่มีอยู่ตามมาตรา 46 GDPR เมื่อข้อมูลของคุณถูกถ่ายโอนไปยังประเทศที่สาม\n\n- สิทธิในการแก้ไขตามมาตรา. 16 GDPR: คุณมีสิทธิ์ที่จะให้มีข้อมูลที่ไม่ถูกต้องเกี่ยวกับคุณได้รับการแก้ไขโดยไม่ชักช้า และ/หรือให้เราจัดเก็บข้อมูลที่ไม่สมบูรณ์ให้ครบถ้วน\n\n- สิทธิในการลบล้างตามมาตรา. 17 GDPR: คุณมีสิทธิ์ร้องขอให้ลบข้อมูลส่วนบุคคลของคุณหากเป็นไปตามเงื่อนไขของ Art. เป็นไปตาม GDPR 17(1) อย่างไรก็ตาม สิทธิ์นี้ใช้ไม่ได้โดยเฉพาะหากการประมวลผลมีความจำเป็นสำหรับการใช้สิทธิเสรีภาพในการแสดงออกและข้อมูล เพื่อปฏิบัติตามภาระผูกพันทางกฎหมาย เพื่อประโยชน์สาธารณะ หรือเพื่อการสร้าง การใช้ หรือการป้องกันข้อเรียกร้องทางกฎหมาย\n\n- สิทธิ์ในการจำกัดการประมวลผลตามมาตรา 18 GDPR: คุณมีสิทธิ์ร้องขอการจำกัดการประมวลผลข้อมูลส่วนบุคคลของคุณตราบเท่าที่ความถูกต้องของข้อมูลของคุณยังได้รับการตรวจสอบ หากคุณได้คัดค้านการลบข้อมูลของคุณเนื่องจากการประมวลผลข้อมูลที่ยอมรับไม่ได้ และขอการจำกัดการประมวลผลข้อมูลของคุณแทน หากคุณต้องการข้อมูลของคุณสำหรับการยืนยัน การดำเนินการ หรือการป้องกันข้อเรียกร้องทางกฎหมาย หลังจากที่เราไม่ต้องการข้อมูลนี้เพื่อบรรลุวัตถุประสงค์ที่ถูกรวบรวมอีกต่อไป หรือหากคุณได้ยื่นคัดค้านโดยเหตุที่เกี่ยวข้องกับ สถานการณ์เฉพาะของคุณ ตราบใดที่ยังไม่ชัดเจนว่าเหตุผลอันชอบด้วยกฎหมายของเรามีผลเหนือกว่าหรือไม่\n\n- สิทธิที่จะได้รับแจ้งตามมาตรา. 19 GDPR: หากคุณใช้สิทธิ์ในการแก้ไข ลบ หรือการจำกัดการประมวลผลกับผู้ควบคุม ผู้ควบคุมมีหน้าที่ต้องแจ้งให้ผู้รับทุกคนที่ได้รับการเปิดเผยข้อมูลส่วนบุคคลของคุณทราบถึงการแก้ไขหรือการลบข้อมูลนี้ หรือการจำกัดการประมวลผล เว้นแต่จะพิสูจน์ได้ว่าเป็นไปไม่ได้หรือเกี่ยวข้องกับความพยายามที่ไม่สมส่วน คุณมีสิทธิ์ที่จะได้รับแจ้งเกี่ยวกับผู้รับเหล่านี้\n\n- สิทธิ์ในการพกพาข้อมูลตามมาตรา 20 GDPR: คุณมีสิทธิ์รับข้อมูลส่วนบุคคลของคุณที่คุณมอบให้เราในรูปแบบที่มีโครงสร้าง ใช้กันทั่วไป และอ่านได้ด้วยเครื่อง หรือขอถ่ายโอนข้อมูลไปยังผู้ควบคุมรายอื่น ในกรณีที่เป็นไปได้ทางเทคนิค\n\n- สิทธิในการเพิกถอนความยินยอมที่ได้รับตามมาตรา 7(3) GDPR: คุณมีสิทธิที่จะเพิกถอนความยินยอมในการประมวลผลข้อมูลได้ตลอดเวลาโดยมีผลในอนาคต ในกรณีที่มีการถอนออก เราจะลบข้อมูลที่เกี่ยวข้องโดยไม่ชักช้า เว้นแต่การประมวลผลเพิ่มเติมจะเป็นไปตามพื้นฐานทางกฎหมายสำหรับการประมวลผลโดยไม่ได้รับความยินยอม การเพิกถอนความยินยอมไม่ส่งผลกระทบต่อความถูกต้องตามกฎหมายของการประมวลผลโดยได้รับความยินยอมก่อนการเพิกถอน\n\n- สิทธิในการยื่นเรื่องร้องเรียนตามมาตรา. 77 GDPR: หากคุณเชื่อว่าการประมวลผลข้อมูลส่วนบุคคลของคุณละเมิด GDPR คุณมีสิทธิ์ยื่นเรื่องร้องเรียนต่อหน่วยงานกำกับดูแล โดยเฉพาะอย่างยิ่งในประเทศสมาชิกของถิ่นที่อยู่ของคุณ สถานที่ทำงานของคุณ หรือสถานที่ที่ถูกกล่าวหาว่าละเมิด โดยไม่กระทบต่อการแก้ไขทางการบริหารหรือการพิจารณาคดีอื่นใด",
+  "privacyBlock8Title": "สิทธิในการคัดค้าน",
+  "privacyBlock8": "หากเราประมวลผลข้อมูลส่วนบุคคลของคุณบนพื้นฐานของผลประโยชน์ที่ถูกต้องตามกฎหมายของเราซึ่งเป็นส่วนหนึ่งของการรักษาสมดุลของผลประโยชน์ คุณมีสิทธิ์ที่จะคัดค้านการประมวลผลนี้ได้ตลอดเวลาด้วยเหตุผลที่เกิดขึ้นจากสถานการณ์เฉพาะของคุณ และมีผลกระทบต่ออนาคต หากคุณใช้สิทธิ์ในการคัดค้าน เราจะหยุดการประมวลผลข้อมูลที่เกี่ยวข้อง อย่างไรก็ตาม การประมวลผลเพิ่มเติมยังคงสงวนไว้หากเราสามารถพิสูจน์เหตุผลทางกฎหมายที่น่าสนใจสำหรับการประมวลผลที่แทนที่ผลประโยชน์ สิทธิและเสรีภาพขั้นพื้นฐานของคุณ หรือหากการประมวลผลมีขึ้นเพื่อยืนยัน ดำเนินการ หรือป้องกันการเรียกร้องทางกฎหมาย\n\nหากเราประมวลผลข้อมูลส่วนบุคคลของคุณเพื่อวัตถุประสงค์ทางการตลาดแบบตรง คุณมีสิทธิ์ที่จะคัดค้านการประมวลผลข้อมูลส่วนบุคคลที่เกี่ยวข้องกับคุณเพื่อวัตถุประสงค์ของการโฆษณาดังกล่าวได้ตลอดเวลา คุณสามารถใช้สิทธิ์ของคุณเพื่อวัตถุประสงค์ตามที่อธิบายไว้ข้างต้น\n\nหากคุณใช้สิทธิ์ในการคัดค้าน เราจะหยุดการประมวลผลข้อมูลที่เกี่ยวข้องกับคุณเพื่อวัตถุประสงค์ทางการตลาดแบบตรง",
+  "activityTitle": "กิจกรรม",
+  "activitiesTitle": "กิจกรรมของฉัน",
+  "activitiesDescription": "เชื่อมโยงการอ่านมิเตอร์เข้ากับกิจกรรม เช่น การล้างด้วยมิเตอร์น้ำเย็นและมิเตอร์ไฟฟ้า",
+  "sortActivities": "ปรับเปลี่ยนลำดับกิจกรรม",
+  "resetActivities": "รีเซ็ตกิจกรรมทั้งหมด",
+  "addActivity": "เพิ่มกิจกรรม",
+  "activitySettings": "การตั้งค่ากิจกรรม",
+  "activityOverview": "ภาพรวมกิจกรรม",
+  "activityNameLabel": "ชื่อกิจกรรม",
+  "chooseActivity": "เลือกกิจกรรม",
+  "selectedActivity": "กิจกรรมที่เลือก \"${activityName}\"",
+  "chooseActivityIcon": "เลือกไอคอน",
+  "involvedCounters": "เคาน์เตอร์ที่เกี่ยวข้อง",
+  "detailsTitle": "รายละเอียด",
+  "detailWithMultiSelect": "อนุญาตให้เลือกได้หลายรายการ",
+  "addDetail": "เพิ่มรายละเอียด",
+  "editDetailTitle": "แก้ไขรายละเอียด",
+  "activityWithEnergyConsumption": "การใช้พลังงานวัดจากกิจกรรมเท่านั้น",
+  "consumptionIsNotExclusiveTitle": "การบริโภคไม่รวมอยู่หรือไม่?",
+  "consumptionIsNotExclusive": "หากการใช้ไม่ได้จำกัดเฉพาะกิจกรรมนี้ ก็จะแสดงเป็นคำเตือน",
+  "numberOfDetails": "{count, plural, one {1 รายละเอียด} other {รายละเอียด {count}}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reallyDeleteActivity": "ต้องการลบกิจกรรมนี้จริงหรือ?",
+  "reallyDeleteDetail": "ต้องการลบรายละเอียดนี้จริงหรือ?",
+  "reallyDeleteContract": "ลบสัญญานี้จริงหรือ?",
+  "contractCopyDialogTitle": "คุณต้องการทำสำเนาสัญญานี้หรือไม่?",
+  "contractCopyDialogOptionYes": "ใช่ ราคาต่อหน่วยหรือมูลค่าอื่นมีการเปลี่ยนแปลง",
+  "contractCopyDialogOptionNo": "ไม่ ยกเลิก",
+  "contractCopyDialogWhen": "ราคาใหม่จะใช้ตั้งแต่เมื่อไหร่?",
+  "contractCosts": "ราคาต่อหน่วย",
+  "contractCostsFeedIn": "ราคาค่าตอบแทน/ราคาฐาน",
+  "counterWarmWaterPlusColdWater": "ไม่รวมค่าน้ำจืดและน้ำเสีย",
+  "advancePayment": "ชำระเงินล่วงหน้า",
+  "bonus": "โบนัส",
+  "bonusInfoTitle": "ข้อมูลเกี่ยวกับภาษีโบนัส",
+  "bonusInfoText": "อัตราภาษีพร้อมโบนัสมักจะช่วยให้ประหยัดได้สูงเป็นพิเศษเมื่อเปลี่ยนผู้ให้บริการ อย่างไรก็ตาม สิ่งนี้มักเป็นผลจากโบนัสแบบครั้งเดียวเท่านั้น นั่นหมายความว่า: ต้นทุนรวมต่ำมากเฉพาะในปีแรกของการจัดหาเท่านั้น งานและ/หรือราคาพื้นฐานที่สูงจะทำให้ปีที่สองมีการคำนวณที่สูงขึ้นอย่างชัดเจน ดังนั้นด้วยภาษีโบนัสคุณควรวางแผนตั้งแต่เริ่มแรกเพื่อเปลี่ยนแปลงอีกครั้งหลังจากหนึ่งปี อัตราภาษีโบนัสที่มีระยะเวลาสองปีซึ่งการยกเลิกนี้เป็นไปไม่ได้เลยควรถูกตั้งคำถามอย่างมีวิจารณญาณเป็นพิเศษ",
+  "source": "แหล่งที่มา:",
+  "basePrice": "ราคาพื้นฐาน",
+  "gross": "ทั้งหมด",
+  "net": "สุทธิ",
+  "grossNetPrices": "ราคารวมหรือราคาสุทธิ",
+  "taxRate": "อัตราภาษี",
+  "perUnit": "ต่อ {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "wasteWaterPriceEnabled": "ค่าใช้จ่ายน้ำจืดและน้ำเสียจะแสดงแยกกัน (เกี่ยวข้องกับมิเตอร์ที่หัก)",
+  "pricePerUnit": "ราคาต่อหน่วย",
+  "pricePerUnitFeedIn": "ราคาค่าตอบแทน",
+  "pricePerUnitWaterWarm": "ค่าใช้จ่ายในการทำความร้อนน้ำร้อน",
+  "pricePerUnitWaterCold": "ค่าน้ำเย็น",
+  "pricePerUnitFreshWater": "ค่าใช้จ่ายสำหรับน้ำจืด",
+  "pricePerUnitWasteWater": "ราคาน้ำเสีย",
+  "paidAdvancePayments": "การชำระเงินล่วงหน้า",
+  "supplementaryPayment": "การชำระเงินเสริม",
+  "refund": "คืนเงิน",
+  "costs": "ค่าใช้จ่าย",
+  "contract": "สัญญา",
+  "contractDetails": "ระยะเวลาและรายละเอียดสัญญา",
+  "usedForPaymentsRepayments": "การจ่ายเงินล่วงหน้า ราคาพื้นฐาน และโบนัส",
+  "contractName": "ชื่อผู้ให้บริการ/สัญญา",
+  "contractNumber": "เลขที่สัญญา",
+  "contractStart": "วันที่เริ่มต้นสัญญา",
+  "contractPeriod": "ระยะเวลาของสัญญา",
+  "cancellationPeriod": "ระยะเวลาการยกเลิก",
+  "activityWash": "ซักผ้า",
+  "activityWashTemperature": "อุณหภูมิ",
+  "activityWashDuration": "ระยะเวลา",
+  "activityWashDuration2hrs": "2ชม",
+  "activityWashRotations": "การหมุน",
+  "activityWashShort": "โปรแกรมสั้น",
+  "activityShower": "อาบน้ำ",
+  "activityBath": "อาบน้ำ",
+  "activityDishWasher": "เครื่องล้างจาน",
+  "activityIron": "การรีดผ้า",
+  "errorNoInternet": "ไม่มีเครือข่าย",
+  "errorInvalidRange": "ไม่มีช่วงที่ถูกต้อง",
+  "syncDriveLoggedIn": "ข้อมูลของคุณจะถูกซิงโครไนซ์กับอุปกรณ์หลายเครื่องโดยอัตโนมัติ มีการใช้บัญชี Google ต่อไปนี้:",
+  "syncDriveLoggedInNoAuto": "ข้อมูลของคุณจะถูกอัปโหลดไปยัง Google Drive โดยอัตโนมัติหลังจากการเปลี่ยนแปลง ข้อมูลที่ใหม่กว่าจากคลาวด์จะเขียนทับข้อมูลในเครื่องเมื่อคุณคลิกที่ออบเจ็กต์เท่านั้น มีการใช้บัญชี Google ต่อไปนี้:",
+  "syncDriveDataUsage": "หากคุณให้สิทธิ์การเข้าถึง Google ไดรฟ์แก่ EHW+ แอปจะมีสิทธิ์อ่านและเขียนไฟล์ที่สร้างโดยตัวแอปเอง ขออภัย ไฟล์ที่สร้างโดยผู้อื่นผ่านแอปนี้ไม่สามารถมองเห็นได้ในแอป ซึ่งหมายความว่าไม่สามารถแชร์ข้อมูลระหว่างหลายบัญชีผ่าน Google ไดรฟ์ได้",
+  "syncAutomaticTitle": "ข้อมูลในเครื่องอาจถูกเขียนทับ",
+  "syncShareWithOthersTitle": "แชร์กับคนอื่นๆ ไหม?",
+  "syncShareWithOthersSubtitle": "หากคุณต้องการป้อนค่ามิเตอร์ร่วมกับผู้ใช้ Google คนอื่นๆ EHW+ จะต้องได้รับสิทธิ์เข้าถึง Google ไดรฟ์โดยสมบูรณ์",
+  "syncShareWithOthersNotInWeb": "ขณะนี้การให้สิทธิ์เข้าถึงทำได้ผ่านแอปเท่านั้น",
+  "syncWithGoogleDriveDescription": "เพราะคงจะน่าเสียดายถ้าการอ่านค่ามิเตอร์หายไป ให้ซิงโครไนซ์วัตถุของคุณกับ Google Drive ทันที!",
+  "driveSyncStatusTitle": "สถานะการซิงโครไนซ์",
+  "driveSyncStatusNotSynced": "ไม่ซิงโครไนซ์",
+  "driveSyncStatusFailed": "การซิงโครไนซ์ล้มเหลว",
+  "driveSyncStatusComparing": "เปรียบเทียบกับไฟล์บนเซิร์ฟเวอร์",
+  "driveSyncStatusSyncing": "อยู่ระหว่างการซิงค์",
+  "driveSyncStatusLocalHasLatestNoCloud": "ไฟล์ที่บันทึกไว้ในอุปกรณ์นี้จาก {localDate} ไม่ได้ถูกบันทึกไว้ในระบบคลาวด์",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusLocalHasLatestWithCloud": "ไฟล์ที่บันทึกไว้ในอุปกรณ์นี้จาก {localDate} เป็นเวอร์ชันล่าสุดมากกว่าไฟล์ในระบบคลาวด์จาก {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      },
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestNoLocal": "ไฟล์ในระบบคลาวด์จาก {cloudDate} ไม่ได้ถูกบันทึกไว้ในอุปกรณ์นี้",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusRemoteHasLatestWithLocal": "ไฟล์ในระบบคลาวด์จาก {cloudDate} นั้นอัปเดตมากกว่าไฟล์ในเครื่องจาก {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncStatusUpToDate": "อัปเดตจาก {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSyncWithGoogle": "Google ไดรฟ์ซิงค์",
+  "driveSyncNow": "ซิงค์เลย",
+  "driveSignInWithGoogle": "ลงชื่อเข้าใช้งานด้วย Google",
+  "signInWithGoogle": "ลงชื่อเข้าใช้งานด้วย Google",
+  "signInWithApple": "ลงชื่อเข้าใช้ด้วย Apple",
+  "signInWithGithub": "ลงชื่อเข้าใช้ด้วย GitHub",
+  "signInWithSocialAccount": "คุณต้องการใช้บัญชีโซเชียลใดเพื่อสร้างหรือลงชื่อเข้าใช้บัญชี EHW+ ของคุณ",
+  "syncStatusFailedLong": "ไม่สามารถซิงโครไนซ์ได้ การแก้ไขถือเป็นความเสี่ยงของคุณเอง",
+  "syncStatusFailedLongNoAutoSync": "ไม่สามารถซิงโครไนซ์ได้ การแก้ไขถือเป็นความเสี่ยงของคุณเอง",
+  "syncStatusSyncRemoteHasLatest": "ไฟล์ในระบบคลาวด์อัปเดตมากกว่าไฟล์ในเครื่อง",
+  "syncObjectIsLocked": "ข้อมูลออบเจ็กต์อยู่ระหว่างการอัปเดตและไม่สามารถแก้ไขได้ในช่วงเวลานี้",
+  "importExport": "สำรอง/กู้คืน",
+  "import": "นำเข้า",
+  "importPickFile": "เลือกไฟล์",
+  "importSelectSingleCounter": "ตัวนับเดี่ยว (ไฟล์ CSV)",
+  "importSelectJson": "ไฟล์ JSON (สร้างด้วย {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "importWhichCounterForCsv": "ควรใช้เคาน์เตอร์แบบไหน?",
+  "importNewOrExistingCounter": "เพิ่มไปยังเคาน์เตอร์ใหม่หรือที่มีอยู่?",
+  "importConfirm": "ยืนยันการนำเข้า",
+  "importTheObject": "นำเข้าวัตถุ",
+  "importExplanation": "คุณได้อ่านตัวนับแล้วและต้องการแทรกหรือไม่",
+  "importCounterAsCsv": "คุณต้องการนำเข้าเมตรเดียวหรือไม่? รองรับต่อเมตรเป็นไฟล์ CSV ที่มีสองคอลัมน์ คอลัมน์หนึ่งสำหรับเวลาและอีกคอลัมน์สำหรับการอ่านมิเตอร์\n\nข้อมูลตัวอย่าง:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importSuccessful": "นำเข้าสำเร็จ",
+  "importNotPossible": "ไม่สามารถนำเข้าได้",
+  "importErrorCsvIgnoredLines": "{count, plural, one {หนึ่งบรรทัดถูกละเว้น: {lines}} other {บรรทัด {count} ถูกละเว้น: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {มีการใช้เพียงสองคอลัมน์แรกเท่านั้น คอลัมน์ที่สามถูกละเว้น} other {มีการใช้เพียงสองคอลัมน์แรกเท่านั้น คอลัมน์ {columns} จะถูกละเว้น}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "consentTitle": "การตั้งค่าความเป็นส่วนตัว",
+  "privacyTitle": "นโยบายความเป็นส่วนตัว",
+  "imprintTitle": "สำนักพิมพ์",
+  "faqTitle": "คำถามที่พบบ่อย",
+  "socialFacebook": "เฟสบุ๊ค",
+  "socialInstagram": "อินสตาแกรม",
+  "socialTwitter": "เอ็กซ์",
+  "export": "ส่งออก",
+  "exportExplanation": "คุณต้องการส่งออกออบเจ็กต์ใดที่มีอยู่ เช่น เพื่อถ่ายโอนไปยังอุปกรณ์ใหม่",
+  "exportWhere": "วัตถุควรส่งออกในรูปแบบใด",
+  "exportWhichValuesShouldBeExported": "ค่าใดที่ควรส่งออก",
+  "exportOptionExcel": "ไฟล์เอ็กเซล",
+  "exportOptionPdf": "ไฟล์ PDF",
+  "exportOptionFileDescription": "วัตถุถูกแชร์เป็นไฟล์ {fileType}",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "socialLinkedIn": "ลิงค์อิน",
+  "socialYouTube": "ยูทูบ",
+  "socialEmail": "อีเมล",
+  "social": "โซเชียลมีเดีย",
+  "support": "การสนับสนุน/ข้อเสนอแนะ",
+  "supportQuestion": "ถามคำถาม",
+  "supportQuestionBox": "ฉันจะช่วยคุณได้อย่างไร?",
+  "supportQuestionNotFound": "คำถามของคุณไม่ได้รับคำตอบ? ฉันยินดีที่จะช่วย",
+  "supportQuestionLong": "มันทำงานอย่างไร? เป็นไปได้ไหม? นี่คือคำตอบ",
+  "supportReportBug": "รายงานข้อผิดพลาดทางไปรษณีย์",
+  "supportReportBugTextIs": "โปรดอธิบายสั้นๆ เกี่ยวกับพฤติกรรมที่ไม่ถูกต้องในปัจจุบัน เช่น ข้อผิดพลาดนั่นเอง",
+  "supportReportBugTextShould": "โปรดอธิบายสั้นๆ ถึงพฤติกรรมที่ต้องการ เช่น จริงๆ แล้วควรเป็นอย่างไร",
+  "supportReportBugAffectedPages": "เกิดข้อผิดพลาดที่หน้าใด (ถ้ามี)",
+  "supportReportBugScreenshotsPlease": "กรุณาแนบภาพหน้าจอมาทางไปรษณีย์ โดยควรมีการทำเครื่องหมายข้อผิดพลาดไว้ด้วย",
+  "supportBug": "แมลง",
+  "supportReportBugLong": "แอพที่ยอดเยี่ยม! แต่แน่นอนว่าสิ่งต่างๆ อาจผิดพลาดได้ หากคุณรายงานข้อบกพร่อง คุณจะทำให้แอปดีขึ้น",
+  "supportGivePraise": "ให้การสรรเสริญ",
+  "supportGivePraiseLong": "คุณชอบแอพไหม? ขอบคุณ! กระจายคำ!",
+  "supportGivePraiseRecommendation": "แนะนำแอปให้กับเพื่อนและครอบครัว ขอบคุณสำหรับคำแนะนำใด ๆ !",
+  "supportRecommend": "ฉันใช้แอปอ่านมิเตอร์ EHW+ เพื่อติดตามการใช้พลังงานและค่าใช้จ่ายที่เกี่ยวข้อง บางทีนั่นอาจจะเป็นบางอย่างสำหรับคุณเช่นกัน?\n\nข้อมูลเพิ่มเติมที่ https://www.ehwplus.com",
+  "supportGivePraiseRating": "ให้คะแนนแอปใน {store}",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "electricityConsumption": "การใช้พลังงาน",
+  "waterExtractionMinimumLevelLower": "การหักเกิดขึ้นเนื่องจากปริมาณการใช้ต่ำกว่าเกณฑ์",
+  "outdatedCounters": "เคาน์เตอร์ไม่ได้ใช้อีกต่อไป",
+  "isOutdatedCounter": "ไม่ใช้เคาน์เตอร์อีกต่อไป",
+  "waterConsumption": "ปริมาณการใช้น้ำ",
+  "rooms": "ห้องพัก",
+  "messageNoRooms": "ยังไม่มีห้อง. ห้องช่วยจัดกลุ่มมิเตอร์",
+  "settingObjectType": "ประเภทวัตถุ",
+  "settingObjectTypeFlat": "อพาร์ตเมนต์",
+  "settingObjectTypeHouse": "บ้าน",
+  "settingLivingArea": "พื้นที่นั่งเล่น",
+  "unitSquareMeters": "ตร.ม",
+  "unitMWhShort": "เมกะวัตต์ชั่วโมง",
+  "unitMWhLong": "{count, plural, one {เมกะวัตต์ชั่วโมง (MWh)} other {เมกะวัตต์ชั่วโมง (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitKWhShort": "กิโลวัตต์ชั่วโมง",
+  "unitKWhLong": "{count, plural, one {กิโลวัตต์ชั่วโมง (kWh)} other {กิโลวัตต์ชั่วโมง (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitGJShort": "จีเจ",
+  "unitGJLong": "{count, plural, one {กิกะจูล (GJ)} other {กิกะจูล (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitLitersShort": "ฎ",
+  "unitLitersLong": "{count, plural, one {ลิตร (ลิตร)} other {ลิตร (ลิตร)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCmShort": "ซม",
+  "unitCmLong": "ซม",
+  "unitSquareMetersShort": "ตร.ม",
+  "unitSquareMetersLong": "{count, plural, one {ตารางเมตร (ตรม.)} other {ตารางเมตร (ตรม.)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitCubicMetersShort": "ลบ.ม",
+  "unitCubicMetersLong": "{count, plural, one {ลูกบาศก์เมตร (m³)} other {ลูกบาศก์เมตร (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitPercentShort": "-",
+  "unitPercentLong": "เปอร์เซ็นต์ (%)",
+  "unitKgShort": "กก",
+  "unitKgLong": "{count, plural, one {กิโลกรัม (กก.)} other {กิโลกรัม (กก.)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitHoursShort": "ชม.",
+  "unitHoursLong": "{count, plural, one {ชั่วโมง} other {ชั่วโมง (ชม.)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitNoneFormatted": "{count, plural, one {หน่วย} other {หน่วย}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "unitMegaByteShort": "เอ็มบี",
+  "unitMegaByteLong": "เอ็มบี",
+  "unitGigaByteShort": "กิกะไบต์",
+  "unitGigaByteLong": "กิกะไบต์",
+  "settingHouseholdSize": "ขนาดครัวเรือน",
+  "settingHouseholdSizeDescription": "จำนวนคนในครัวเรือนของคุณ",
+  "settingWaterHeater": "เครื่องทำน้ำอุ่น",
+  "settingEAuto": "รถยนต์ไฟฟ้า",
+  "settingObjectLocation": "ที่ตั้ง",
+  "settingObjectLocationTitle": "วัตถุของคุณอยู่ที่ไหน?",
+  "settingObjectLocationExplanation": "การป้อนสถานที่จะช่วยปรับแต่งข้อมูลเชิงลึกและบริการให้เหมาะกับพื้นที่ของคุณ",
+  "counterBackgroundImageOfObject": "ภาพพื้นหลังของวัตถุ",
+  "manageMoreThanOneObjectStep1": "จัดการมากกว่าหนึ่งวัตถุ - ขั้นตอนที่ 1",
+  "manageMoreThanOneObjectStep2": "จัดการมากกว่าหนึ่งวัตถุ - ขั้นตอนที่ 2",
+  "contracts": "สัญญา",
+  "messageNoContracts": "ยังไม่มีสัญญา.",
+  "outdatedContracts": "สัญญาที่ล้าสมัย",
+  "contractType": "ประเภทสัญญา",
+  "electricity": "ไฟฟ้า",
+  "electricityBack": "ไฟฟ้าป้อนเข้า",
+  "electricityGenerated": "ผลิตไฟฟ้า",
+  "heatPump": "ปั๊มความร้อน",
+  "coldWater": "น้ำเย็น",
+  "counterHeater": "มิเตอร์หม้อน้ำ",
+  "counterDistrictHeating": "เครื่องทำความร้อนอำเภอ",
+  "counterOilHeating": "การให้ความร้อนด้วยน้ำมัน",
+  "counterGas": "มิเตอร์แก๊ส",
+  "counterColdWater": "มิเตอร์น้ำเย็น",
+  "counterWaterExtraction": "มิเตอร์น้ำสกัด (สวน)",
+  "counterWaterExtractionExplanation": "ด้วยมิเตอร์แบบหักลด ต้นทุนน้ำเสียจึงสามารถลดลงได้ ด้วยการซื้อในแอปนี้ คุณสามารถระบุต้นทุนที่แตกต่างกันสำหรับน้ำจืดและน้ำเสียได้ และค่ามิเตอร์ที่อ่านได้จากมิเตอร์หักจะถูกนำมาพิจารณาในค่าน้ำด้วย",
+  "warmWater": "น้ำอุ่น",
+  "counterWarmWater": "มิเตอร์น้ำอุ่น",
+  "counterElectricity": "มิเตอร์ไฟฟ้า",
+  "counterElectricityBack": "มิเตอร์ไฟฟ้าป้อนเข้า (PV)",
+  "counterElectricityGenerated": "มิเตอร์ผลิตไฟฟ้า",
+  "counterPvFeedInCounter": "พลังงานทดแทน (พลังงานแสงอาทิตย์และความร้อนด้วย PV/ระบบพลังงานแสงอาทิตย์)",
+  "counterPvFeedInCounterExplanation": "ใช้มิเตอร์ไฟฟ้าป้อนเข้าเพื่อบันทึกไฟฟ้าที่ผลิตและป้อนเข้า\nด้วยระบบไฟฟ้าโซลาร์เซลล์ รายได้ที่ได้จะถูกหักล้างกับต้นทุนของ\nไฟฟ้าที่ถูกดึงออกมา",
+  "virtualCounter": "มิเตอร์เสมือนจริง",
+  "heater": "หม้อน้ำ",
+  "gas": "แก๊ส",
+  "oil": "น้ำมัน",
+  "stove": "เตา",
+  "networkCounter": "อินเทอร์เน็ตและโทรศัพท์",
+  "solarThermalCollector": "ตัวสะสมความร้อนจากแสงอาทิตย์",
+  "contractTypeElectricityProvider": "ผู้ให้บริการไฟฟ้า",
+  "contractTypeWaterFees": "ค่าน้ำ",
+  "contractTypeHeatingFees": "ค่าธรรมเนียมเครื่องทำความร้อน",
+  "contractTypeOilProvider": "ผู้ให้บริการน้ำมัน",
+  "contractTypeGasProvider": "ผู้ให้บริการก๊าซ",
+  "contractTypeStove": "เตา",
+  "contractTypeNetwork": "อินเทอร์เน็ตและโทรศัพท์",
+  "currency": "สกุลเงิน",
+  "costsUndefinedFor": "ต้นทุนไม่ได้กำหนด",
+  "exportOptionReadingsTitle": "การอ่านค่า",
+  "exportOptionReadingsSubtitle": "โดยทั่วไปแล้วการอ่านมิเตอร์หรือการบริโภคโดยมีช่วงเวลาที่ไม่สม่ำเสมอ",
+  "exportOptionConsumptionsTitle": "การบริโภคประจำวัน",
+  "exportOptionConsumptionsSubtitle": "ค่าการบริโภคในแต่ละวันตั้งแต่การอ่านครั้งแรก",
+  "settings": "การตั้งค่า",
+  "roomOther": "อื่น",
+  "previouslyDeletedCounters": "ล่าสุดลบเมตร",
+  "restoreDeletedCounter": "คุณต้องการกู้คืนมิเตอร์ที่ถูกลบนี้หรือไม่",
+  "localWriteTitle": "บันทึกในโฟลเดอร์ดาวน์โหลดในเครื่อง",
+  "localWriteSubtitle": "วัตถุและภาพถ่ายควรถูกบันทึกในโฟลเดอร์ \"{folder}\" ในเครื่องเมื่อมีการเปลี่ยนแปลงแต่ละครั้งหรือไม่",
+  "settingUiMode": "ส่วนติดต่อผู้ใช้",
+  "settingUiColorPalette": "จานสี",
+  "settingUiModeDarkOrLight": "ส่วนต่อประสานผู้ใช้สีเข้ม / สว่าง",
+  "settingLanguageMode": "ภาษา",
+  "settingUiModeOsDefault": "ระบบ",
+  "settingUiModeLight": "แสงสว่าง",
+  "settingUiModeDark": "มืด",
+  "appBarExpandedMode": "แถบแอปพร้อมภาพพื้นหลัง",
+  "useDismissibleSettings": "ลบโดยการปัดนิ้ว",
+  "useDismissibleSettingsDetailed": "ตัวนับ สัญญา ฯลฯ สามารถลบได้โดยการปัดนิ้วด้านข้าง",
+  "settingsExternalServices": "บริการภายนอก",
+  "settingsShowTabNewsDetailed": "ควรมองเห็นแท็บข่าวสาร/เคล็ดลับหรือไม่",
+  "settingsShowStromGedacht": "ควรแสดงคำแนะนำจาก StromGedacht เกี่ยวกับโครงข่ายไฟฟ้าหรือไม่",
+  "lineChartAppearanceSettings": "ลักษณะแผนภูมิเส้น",
+  "lineChartAppearanceSettingsShowSpots": "แสดงจุด (วงกลม) บนเส้นของแผนภูมิ",
+  "supportMakeSuggestion": "แนะนำอะไรบางอย่าง",
+  "supportMakeSuggestionLong": "แอพนี้ใช้งานได้ตามคำแนะนำของผู้ใช้ คุณมีข้อเสนอแนะหรือไม่?",
+  "featureVoting": "การลงคะแนนคุณลักษณะ",
+  "featureVotingOnlyOnGerman": "แบบสำรวจคุณลักษณะไม่ได้รับการแปลเป็นภาษาอื่น",
+  "notifications": "การแจ้งเตือน",
+  "notificationsEmpty": "ไม่มีการแจ้งเตือน",
+  "notificationsSmartMeterAlertFallback": "คุณมีการแจ้งเตือนมิเตอร์อัจฉริยะใหม่",
+  "readingNew": "การอ่านใหม่",
+  "readingUpdate": "อัพเดทการอ่านครับ",
+  "readingPrefill": "อ่านมิเตอร์เติมอัตโนมัติ",
+  "readingPrefillDisabled": "ปิดใช้งานการป้อนอัตโนมัติแล้ว",
+  "readingPrefillEnableForAllCounters": "เปิดใช้งานการกรอกอัตโนมัติสำหรับตัวนับทั้งหมด",
+  "readingPrefillDisableForAllCounters": "ปิดใช้งานการป้อนอัตโนมัติสำหรับตัวนับทั้งหมด",
+  "readingPrefillDescription": "เติมการอ่านมิเตอร์ล่วงหน้าตามรายการก่อนหน้า",
+  "readingPrefillDisabledToast": "ปิดใช้งานการป้อนอัตโนมัติแล้ว",
+  "readingSubmitted": "ส่งการอ่านมิเตอร์แล้ว",
+  "readingDeleteConfirm": "ลบการอ่านใช่ไหม",
+  "reminderTime": "เวลาเตือนความจำ",
+  "reminderWeekdayExplanation": "มีการเตือนให้อ่านหนังสือไม่เกินวันละครั้ง",
+  "reminderWeekdayExplanationSeasonal": "สำหรับมาตรวัดที่มีการบริโภคตามฤดูกาล ระบบจะส่งการแจ้งเตือนในเดือนที่มีการบริโภคเท่านั้น (ใช้งานได้เฉพาะเมื่อระบุค่าของปีที่แล้ว)",
+  "readingReminder": "{count, plural, one {การแจ้งเตือนการอ่าน} other {คำเตือนการอ่าน}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "readingReminders": "คำเตือนการอ่าน",
+  "readingReminderDisabled": "การแจ้งเตือนการอ่านไม่ทำงาน",
+  "readingRemindersChannel": "คำเตือนการอ่าน",
+  "readingReminderSingleBody": "อ่านค่า {counterName} ทันที",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "readingReminderMultiBody": "{count, plural, one {อ่านค่าที่อ่านได้จาก {count} เมตรทันที} other {อ่านค่าที่อ่านได้จาก {count} เมตรทันที}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contractReminder": "การแจ้งเตือนสัญญา",
+  "outdated": "ล้าสมัย",
+  "counterNew": "เคาน์เตอร์ใหม่",
+  "counterEdit": "แก้ไขตัวนับ",
+  "counterGasConversionFactor": "ปัจจัยการแปลง",
+  "counterGasCalorificValue": "ค่าความร้อน",
+  "counterGasConversionFactorHelpText": "แคลิฟอร์เนีย 1.0. หมายเลขเงื่อนไขใช้เพื่อแปลงปริมาณการปฏิบัติงานให้เป็นปริมาตรมาตรฐาน สภาวะการทำงานคือสภาวะของก๊าซที่มิเตอร์ และขึ้นอยู่กับความดัน (ความสูง) และอุณหภูมิปัจจุบัน",
+  "counterGasCalorificValueHelpText": "ค่าความร้อน: ปัจจัยไร้มิติสำหรับการแปลงปริมาตรก๊าซที่วัดได้ให้เป็นพลังงาน ก๊าซธรรมชาติ: ปกติระหว่าง 9.0 ถึง 12.5 kWh/m³, LPG: ระหว่าง 23.0 ถึง 33.0 kWh/m³",
+  "counterTypeLabel": "ประเภทเคาน์เตอร์",
+  "counterMeterId": "รหัสมิเตอร์",
+  "counterName": "ชื่อเคาน์เตอร์",
+  "counterContractCurrentlyUsed": "สัญญาที่ใช้อยู่ในปัจจุบัน",
+  "counterSelected": "เลือกแล้ว",
+  "counterNoContractSelected": "ไม่ได้เลือกสัญญา",
+  "counterOtherContracts": "สัญญาอื่นๆ",
+  "counterExcludedContracts": "สัญญาที่ไม่รวม",
+  "counterInclude": "รวม",
+  "counterExclude": "ไม่รวม",
+  "counterTankCapacity": "ความจุถัง",
+  "counterTankFillHeight": "เติมความสูง",
+  "counterFactorDescription": "การบริโภคได้รับการจัดสรรให้คุณตามสัดส่วนเท่านั้นหรือไม่? ป้อนสัดส่วนเป็นค่าระหว่าง 0.1 (10%) ถึง 1.0 (100%)",
+  "counterTransducerFactor": "อัตราส่วนหม้อแปลงไฟฟ้า",
+  "counterProportionateConsumption": "การบริโภคอย่างเป็นสัดส่วน",
+  "counterFactor": "ปัจจัย",
+  "counterTransducerFactorExplained": "หากใช้หม้อแปลงแรงดันไฟฟ้าเพื่อลดแรงดันไฟฟ้าก่อนที่จะถึงมิเตอร์ ต้องใช้ปัจจัยการแปลงใหม่เพื่อให้ได้การอ่านที่ถูกต้อง ตัวอย่าง: มิเตอร์แสดง 100,000 kWh โดยมีปัจจัยการแปลงเป็น 20 ค่าที่อ่านได้ถูกต้องคือ: 100,000 kWh x 20 = 2,000,000 kWh",
+  "counterFractionDigits": "เศษส่วนหลัก",
+  "counterDirection": "ทิศทาง",
+  "counterDirectionExplanation": "ค่าลดลงตามการใช้งาน (ตัวบ่งชี้ระดับ ฯลฯ) หรือมูลค่าเพิ่มขึ้นตามการใช้งาน (ชั่วโมงเตาเผา มาตรวัดน้ำมัน ฯลฯ) หรือค่าการอ่านแต่ละค่าแยกกัน (ปริมาณการใช้/ผลผลิต) หรือไม่",
+  "counterConsiderForTotalElectricity": "พิจารณาปริมาณการใช้ไฟฟ้าทั้งหมด",
+  "counterConsiderForTotalWater": "พิจารณาปริมาณการใช้น้ำทั้งหมด",
+  "counterWaterExtractionMinimumLevel": "ระดับต่ำสุด",
+  "counterBackgroundImage": "ภาพพื้นหลังสำหรับเคาน์เตอร์",
+  "counterShowReadingsChart": "แสดงแผนภูมิการอ่าน",
+  "counterShowHeatmap": "แสดงแผนที่ความร้อน",
+  "counterShowPreliminaryCurve": "แสดงเส้นโค้งเบื้องต้น",
+  "seasonalCounter": "เคาน์เตอร์ตามฤดูกาล",
+  "seasonalElectricityCounter": "เคาน์เตอร์ไฟฟ้าตามฤดูกาล",
+  "counterExplainSeasonal": "ตั้งค่าการอ่านมิเตอร์เป็น 0 ในช่วงฤดูร้อนหรือไม่? ในฤดูหนาว ค่าที่อ่านได้จะเป็นไปตามรูปแบบการบริโภคปกติของคุณ ในฤดูร้อนพวกเขาจะแบน",
+  "counterIsOutdated": "เคาน์เตอร์ล้าสมัย",
+  "counterLinkMoreRecent": "เชื่อมโยงตัวนับล่าสุด",
+  "counterReplacedBy": "แทนที่ด้วย",
+  "counterReallyDeleteLink": "ลบลิงก์ใช่ไหม",
+  "counterDeleteConfirm": "ลบตัวนับใช่ไหม",
+  "counterGasCalorificValueLabel": "ค่าความร้อน*",
+  "counterGasConversionFactorLabel": "ปัจจัยการแปลง*",
+  "counterNoRoomConnection": "ไม่มีการเชื่อมต่อห้อง",
+  "counterRoom": "ห้อง",
+  "counterMessageRoomOptional": "การกำหนดห้องช่วยในการจัดกลุ่มแต่เป็นทางเลือก",
+  "teaserPurchaseVirtualCounter": "เพิ่มตัวนับเสมือนจริงด้วย Premium",
+  "teaserPurchaseWaterExtractionCounter": "ปลดล็อคเคาน์เตอร์สกัดน้ำด้วย Premium",
+  "teaserPurchaseRenewableEnergies": "เคาน์เตอร์พลังงานทดแทนต้องใช้ระดับพรีเมียม",
+  "settingYearlyReset": "รีเซ็ตทุกปี",
+  "settingYearlyResetOn": "บน",
+  "settingShowCounterReadingsChart": "แสดงแผนภูมิการอ่าน",
+  "settingShowHeatmap": "แสดงแผนที่ความร้อน",
+  "settingShowPreliminaryCurve": "แสดงเส้นโค้งเบื้องต้น",
+  "unitLiters": "ลิตร",
+  "unitCm": "ซม",
+  "unitNone": "ไม่มี",
+  "roomType": "ประเภทห้องพัก",
+  "roomName": "ชื่อห้อง",
+  "roomNameHint": "เลือกที่จะกำหนดชื่อห้อง",
+  "roomNew": "ห้องใหม่",
+  "roomDeleteConfirm": "ลบห้องใช่ไหม?",
+  "settingColor": "สี",
+  "counterNum": "เคาน์เตอร์ {count}",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeInFuture": "ในอนาคต",
+  "timeLastUpdated": "อัปเดตล่าสุด",
+  "timeSeconds": "วินาที",
+  "timeMinutes": "นาที",
+  "timeHours": "ชั่วโมง",
+  "timeDays": "วัน",
+  "timeDaysWithin": "วัน",
+  "timeMonth": "เดือน",
+  "timeMonths": "เดือน",
+  "timeMonthsWithin": "เดือน",
+  "timeJustNow": "แค่ตอนนี้",
+  "timeMinutesAgo": "{minutes} นาทีที่แล้ว",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{hours} ชั่วโมงที่แล้ว",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "timeToday": "วันนี้",
+  "timeDayAgo": "วันหนึ่งที่ผ่านมา",
+  "timeDaysAgo": "{days} วันที่ผ่านมา",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "timeMonthsAgo": "{months} เดือนที่แล้ว",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "timeForFirstYear": "สำหรับปีแรก",
+  "timeWeek": "สัปดาห์",
+  "timeWeeks": "สัปดาห์",
+  "timeWithin": "ภายใน {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "timeYesterday": "เมื่อวาน",
+  "timeMonday": "วันจันทร์",
+  "timeTuesday": "วันอังคาร",
+  "timeWednesday": "วันพุธ",
+  "timeThursday": "วันพฤหัสบดี",
+  "timeFriday": "วันศุกร์",
+  "timeSaturday": "วันเสาร์",
+  "timeSunday": "วันอาทิตย์",
+  "timeFromUndefined": "ไม่ได้กำหนด",
+  "timeUntilUnlimited": "ไม่จำกัด",
+  "timeUntilDate": "จนกระทั่ง {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeFromDate": "จาก {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "timeReminderAtStart": "เมื่อเริ่มต้น",
+  "timeReminderAtEnd": "ในตอนท้าย",
+  "timePeriodYearStart": "เป็นประจำทุกปี",
+  "timeRightNow": "ตอนนี้",
+  "timeBefore": "ก่อน",
+  "purchasesUpgrade": "อัพเกรด",
+  "upgradeDescription": "แอพสามารถทำได้มากกว่านี้ ภาพรวมต้นทุนที่ดีขึ้น, สถิติที่มากขึ้น, การส่งออก Excel, ตัวนับที่มากขึ้น, ...",
+  "purchasesWhyBuyTitle": "ทำไมฉันถึงต้องซื้ออะไรบางอย่าง?",
+  "purchasesWhyBuyText": "ด้วยการซื้อ คุณจะมีส่วนร่วมในค่าใช้จ่ายที่ฉันต้องจ่ายโดยการเผยแพร่แอปและสนับสนุนการพัฒนาเพิ่มเติม",
+  "purchasesIOSRestorePurchases": "คืนค่าการซื้อ",
+  "purchasesIOSRestorePurchasesDescription": "หากคุณเคยซื้อบางอย่างใน AppStore มาก่อน คุณสามารถกู้คืนการซื้อนั้นได้",
+  "purchasesDisabledOnIOS": "การซื้อในแอปถูกปิดใช้งาน",
+  "purchasesDisabledOnIOSDescription": "โปรดตรวจสอบว่าการซื้อในแอปถูกปิดใช้งานบน iPhone ของคุณหรือไม่ (การตั้งค่า > เวลาหน้าจอ > การจำกัด > การติดตั้งและการซื้อแอป > อนุญาตการซื้อในแอป)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "แอปได้รับการติดตั้งผ่าน Testflight โปรดทราบว่าการซื้อจะใช้งานได้เฉพาะในแอปหากคุณติดตั้งแอปผ่าน App Store",
+  "purchasesSubscribePremium": "สมัครสมาชิกพรีเมี่ยม",
+  "purchasesSubscribePremiumTextLong": "เข้าถึงฟีเจอร์ที่ต้องชำระเงินทั้งหมดในช่วงระยะเวลาการสมัครสมาชิก + อุณหภูมิภายนอก",
+  "purchasesWebLegalNote": "ด้วยเหตุผลทางกฎหมาย การซื้อสามารถทำได้บนโทรศัพท์ iPhone หรือ Android ที่มีบริการ PlayStore เท่านั้น",
+  "purchasesYourPurchases": "คุณสามารถเข้าถึงแพ็คเกจพรีเมี่ยมดังต่อไปนี้:",
+  "purchasesExtensionsTitle": "นามสกุลเดียว",
+  "purchasesExtensionsSubtitle": "ซื้อครั้งเดียวใช้ถาวร (ไม่ต้องสมัครสมาชิก)",
+  "purchasesExtensionStatisticsTitle": "สถิติขั้นสูง",
+  "purchasesExtensionMultipleObjectsTitlePart": "การจัดการหลายวัตถุ",
+  "purchasesExtensionMultipleObjectsDescription": "ป้อนการอ่านค่ามิเตอร์สำหรับอพาร์ทเมนต์/บ้าน/วัตถุได้มากเท่าที่คุณต้องการ (แทนที่จะเป็นเพียงวัตถุเดียว)",
+  "purchasesExtensionsInWork": "มีการวางแผนการขยายเวลาเพิ่มเติม เข้าร่วมการสำรวจคุณสมบัติเพื่อแสดงความคิดเห็นของคุณ",
+  "purchasesSubscribeNow": "สมัครสมาชิกตอนนี้",
+  "purchasesBuyNow": "ซื้อตอนนี้",
+  "purchasesRedeemCode": "แลกรหัส",
+  "purchasesEarlyBirdSubscription": "หมายเหตุ: หากการสมัครสมาชิกของลูกค้าครั้งแรกนี้ถูกยกเลิก จะไม่สามารถสมัครใหม่ได้ในภายหลัง",
+  "purchasesPurchasedIncludedInPremium": "รวมอยู่ในพรีเมี่ยม",
+  "purchasesPurchasedSubscribed": "สมัครสมาชิกแล้ว",
+  "purchasesPurchased": "ซื้อแล้ว",
+  "purchasesExtensionStatisticsDescription": "เข้าถึงการใช้ไฟฟ้า/แก๊ส/น้ำ/... + การปรับระยะเวลา + ภาพรวมต้นทุนโดยละเอียด + การส่งออก Excel รายปี/เดือน/สัปดาห์",
+  "commonAnd": "และ",
+  "purchasesSubscribePremiumMonthly": "การสมัครสมาชิกแบบยกเลิกรายเดือนเพียง {price} ต่อเดือน",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "การสมัครสมาชิกรายเดือนที่ยกเลิกได้ในราคาสมาชิก {price} ต่อเดือน แทนที่จะเป็น {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearly": "การสมัครสมาชิกที่ยกเลิกได้รายปีเพียง {price} ต่อปี",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesSubscribePremiumYearlyWithNewPrice": "การสมัครสมาชิกรายปีที่ยกเลิกได้ในราคาสมาชิก {price} ต่อปี แทนที่จะเป็น {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "purchasesStatisticsWithPremium": "ด้วย Premium คุณจะสามารถเข้าถึงการเปรียบเทียบรายเดือน{count, plural, =0{.}=1{.}other{ และยังดูข้อมูลประวัติของ {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "years": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "smartMeterProviderTibber": "ทิบเบอร์",
+  "smartMeterProviderWwgl": "ที่ดิน Wasserwerk Gerauer",
+  "smartMeterProviderUndefined": "ไม่ได้ตั้งค่า",
+  "sync": "ซิงค์",
+  "costsUndefinedForType": "{type} สำหรับไม่ได้กำหนด",
+  "costsUndefinedElectricity": "ค่าไฟ",
+  "costsUndefinedColdWater": "ค่าน้ำเย็น",
+  "costsUndefinedWarmWater": "ค่าน้ำอุ่น",
+  "costsUndefinedHeater": "ค่าธรรมเนียมเครื่องทำความร้อน",
+  "costsUndefinedOilHeating": "ค่าน้ำมัน",
+  "costsUndefinedGas": "ค่าน้ำมัน",
+  "costsUndefinedNetworkCounter": "ค่าธรรมเนียมอินเทอร์เน็ต",
+  "updateAvailable": "เวอร์ชันแอป {oldVersion} ไม่เป็นปัจจุบัน คุณสามารถอัปเดตเป็นเวอร์ชัน {newVersion} ได้",
+  "@updateAvailable": {
+    "placeholders": {
+      "oldVersion": {
+        "type": "String"
+      },
+      "newVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "versionIsUpToDate": "แอปเวอร์ชันล่าสุดที่เผยแพร่แก่ผู้ใช้ทุกคนคือ {version}",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "messageNoCounters": "คุณยังไม่ได้สร้างตัวนับ",
+  "messageNoCounterReadings": "คุณยังไม่ได้เข้าสู่การอ่านตัวนับ",
+  "parsingObjectError": "ไม่สามารถแยกวิเคราะห์วัตถุได้ โปรดติดต่อผู้พัฒนา เมื่อถอนการติดตั้งแอป ข้อมูลอาจสูญหายได้",
+  "reallyDeleteCounter": "คุณแน่ใจหรือไม่ว่าต้องการลบตัวนับ",
+  "reallyDeletePhoto": "คุณแน่ใจหรือไม่ว่าต้องการลบรูปภาพการอ่านมิเตอร์",
+  "reallyDeleteCounterLink": "คุณแน่ใจหรือไม่ว่าต้องการลบลิงก์ระหว่างตัวนับ",
+  "virtualCounterNotConfigured": "โปรดตรวจสอบการตั้งค่ามิเตอร์เสมือนของคุณ ไม่มีอะไรสามารถคำนวณได้",
+  "virtualCounterMasterCounter": "มาสเตอร์มิเตอร์",
+  "virtualCounterMasterCounterAttach": "เลือกมิเตอร์หลัก",
+  "virtualCounterMasterCounterDescription": "ข้อมูล: มิเตอร์หลักเป็นพื้นฐานในการคำนวณมิเตอร์เสมือน เช่น มิเตอร์ไฟฟ้าหลักหรือมิเตอร์น้ำหลัก",
+  "virtualCounterMetersToBeSubtracted": "เมตรที่จะลบ",
+  "virtualCounterMetersToBeSubtractedDescription": "ค่ามิเตอร์ใดที่ควรลบออกจากมิเตอร์หลัก เช่น \"มิเตอร์ปั๊มความร้อน\" \"มิเตอร์ป้อนเข้าไฟฟ้า\"",
+  "virtualCounterMetersToBeAdded": "ต้องเพิ่มมิเตอร์",
+  "virtualCounterMetersToBeAddedDescription": "ค่ามิเตอร์ใดที่อ่านได้ควรเพิ่มลงในมิเตอร์หลัก เช่น มิเตอร์ผลิตไฟฟ้า",
+  "areYouSure": "คุณแน่ใจเหรอ?",
+  "addNewValue": "ป้อนค่าใหม่",
+  "reallyDeleteValue": "คุณต้องการลบค่านี้จริง ๆ หรือไม่?",
+  "warning": "คำเตือน",
+  "messageNotEnoughData": "ข้อมูลไม่เพียงพอที่จะแสดงแผนภูมิ",
+  "messageNoConsumptions": "สถิติสำหรับมิเตอร์ทุกประเภทจะปรากฏที่นี่หากมีการอ่านค่าเพียงพอ ตัวอย่างเช่น มิเตอร์น้ำเย็น 2 มิเตอร์ มิเตอร์น้ำร้อน 2 มิเตอร์ และมิเตอร์แยกน้ำ 1 มิเตอร์จะแสดงเป็นสถิติน้ำเดียว",
+  "lastReading": "การอ่านครั้งสุดท้าย",
+  "chartDottedLinesNonSeasonal": "เส้นโค้งประแสดงถึงช่วงเวลาก่อนหน้า ตัวอย่างเช่น สำหรับการเลือก \"14 วันที่ผ่านมา\" 28 วันสุดท้ายจะปรากฏขึ้น โดย 14 วันที่ผ่านมาจะแสดงเป็นเส้นประ",
+  "chartDottedLinesSeasonal": "เส้นโค้งประแสดงถึงช่วงเวลาก่อนหน้า ตัวอย่างเช่น สำหรับการเลือก \"14 วันที่ผ่านมา\" 28 วันสุดท้ายจะปรากฏขึ้น โดย 14 วันที่ผ่านมาจะแสดงเป็นเส้นประ",
+  "chartHorizontalLines": "เส้นประมีไว้เพื่อให้ข้อเสนอแนะเกี่ยวกับการบริโภคของคุณเอง",
+  "chartHorizontalLineWater": "โดยเฉลี่ยแล้ว แต่ละคนในเยอรมนีใช้น้ำดื่ม 127 ลิตรในครัวเรือนทุกวัน เส้นสีน้ำเงินหมายถึงน้ำเย็น (60%) เส้นสีแดงน้ำร้อน (40%) คาดการณ์จำนวนวันในช่วงเวลานั้นและจำนวนคน",
+  "chartHorizontalLineElectricityGas": "เส้นสีเขียวหมายถึงการบริโภคที่ดีมาก เส้นสีเหลืองคือการบริโภคที่ดี เส้นสีแดงคือการบริโภคโดยเฉลี่ยของชาวเยอรมัน",
+  "per": "ต่อ",
+  "costSummary": "สรุปค่าใช้จ่าย",
+  "costSummaryYield": "ราคาค่าตอบแทน/-ราคาฐาน",
+  "soFar": "จนถึงตอนนี้",
+  "forX": "สำหรับ",
+  "corresponds": "สอดคล้องกัน",
+  "warningCounterReplacementDetected": "ค่าใหม่ต่ำกว่าการอ่านมิเตอร์ครั้งก่อน เปลี่ยนมิเตอร์แล้วหรือยัง?",
+  "warningYearlyReset": "การอ่านเป็นศูนย์เมื่อต้นปี",
+  "warningReadingSmallerThanOldValue2": "ค่าใหม่ต่ำกว่าการอ่านมิเตอร์ครั้งก่อน การอ่านถูกต้องหรือไม่?",
+  "warningReadingBiggerThanOldValueOilVolume": "ค่าใหม่สูงกว่าการอ่านมิเตอร์ครั้งก่อน เติมถังแล้วหรือยัง?",
+  "warningReadingSeemsTooBig": "มูลค่าใหม่ค่อนข้างสูง การอ่านถูกต้องหรือไม่?",
+  "warningReadingSeemsTooSmall": "ค่าใหม่ค่อนข้างต่ำ อ่านถูกต้องหรือไม่?",
+  "meterReadingsFilterAll": "แสดงทั้งหมด",
+  "meterReadingsFilterComments": "แสดงเฉพาะรายการที่มีความคิดเห็น",
+  "meterReadingsFilterSubmitted": "แสดงเฉพาะ \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "isLastEntryAtFilteredList": "ค่าที่เก่าที่สุดในรายการที่กรอง",
+  "initialReading": "การอ่านเบื้องต้น",
+  "warningReadingBiggerThanOldValue": "ค่าใหม่สูงกว่าการอ่านมิเตอร์ครั้งก่อน {isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedForYearlyResetCounter": "การอ่านค่ามิเตอร์สุดท้ายของปี {lastYear} สำหรับ {deviceTypeName} {roomNamePart} หายไป นี่เป็นสิ่งจำเป็นสำหรับการคำนวณปริมาณการใช้รวมต่อปีที่ถูกต้อง",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "lastYear": {
+        "type": "String"
+      },
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "warningReadingOutdatedFrequency": "การอ่านมิเตอร์ล่าสุดสำหรับ {deviceTypeName} {roomNamePart} ล้าสมัย {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "valueLess": "{value} น้อยลง",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "valueMore": "{value} เพิ่มเติม",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonNotEnoughData": "ข้อมูลเปรียบเทียบยังไม่เพียงพอสำหรับไซต์ {countryName} ({countryCode})",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      },
+      "countryCode": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonEqual": "คุณจ่ายเงินมากพอๆ กับค่าเฉลี่ยใน {countryName}",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "priceComparisonDiff": "คุณจ่าย {diffWithCurrency} {comparison, select, more {มากกว่า} less {น้อยกว่า} other {มากกว่า}} โดยเฉลี่ยใน {countryName}",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "diffWithCurrency": {
+        "type": "String"
+      },
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNamePart": "ใน {roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "warningOutdatedSinceText": "ตั้งแต่ {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "warningNextReminderText": "การแจ้งเตือนถัดไปคือ {date}",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "counterConsiderForTotalConsumptions": "พิจารณาการบริโภคทั้งหมด"
+}
