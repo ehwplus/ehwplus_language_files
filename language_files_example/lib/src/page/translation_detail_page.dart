@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:ehwplus_language_files/src/model/language_icon_type.dart';
 
-import 'arb_repository.dart';
-import 'translation_models.dart';
-import 'widget/language_icon.dart';
+import '../repository/arb_repository.dart';
+import '../model/arb_document.dart';
+import '../model/arb_entry.dart';
+import '../model/translation_record.dart';
+import '../widget/language_icon.dart';
 
 class TranslationDetailPage extends StatefulWidget {
-  const TranslationDetailPage({
-    super.key,
-    required this.record,
-    required this.documents,
-    required this.repository,
-  });
+  const TranslationDetailPage({super.key, required this.record, required this.documents, required this.repository});
 
   final TranslationRecord record;
   final List<ArbDocument> documents;
@@ -35,9 +32,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     _locales = _orderedLocales(locales);
 
     for (final locale in _locales) {
-      _controllers[locale] = TextEditingController(
-        text: widget.record.values[locale] ?? '',
-      );
+      _controllers[locale] = TextEditingController(text: widget.record.values[locale] ?? '');
     }
   }
 
@@ -71,11 +66,9 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         final newValue = controller?.text ?? '';
 
         final existing = updatedEntries[widget.record.key];
-        updatedEntries[widget.record.key] = (existing ??
-            ArbEntry(
-              key: widget.record.key,
-              value: newValue,
-            )).copyWith(value: newValue);
+        updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: newValue)).copyWith(
+          value: newValue,
+        );
 
         final updatedDoc = doc.copyWith(entries: updatedEntries);
         await widget.repository.saveDocument(updatedDoc);
@@ -106,11 +99,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
           TextButton.icon(
             onPressed: _saving ? null : _save,
             icon: _saving
-                ? const SizedBox(
-                    height: 16,
-                    width: 16,
-                    child: CircularProgressIndicator(strokeWidth: 2),
-                  )
+                ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.save),
             label: const Text('Speichern'),
           ),
@@ -119,10 +108,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          Text(
-            'ARB-Key: ${widget.record.key}',
-            style: Theme.of(context).textTheme.labelLarge,
-          ),
+          Text('ARB-Key: ${widget.record.key}', style: Theme.of(context).textTheme.labelLarge),
           const SizedBox(height: 12),
           ..._locales.map(
             (locale) => Padding(
@@ -139,12 +125,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
               ),
             ),
           ),
-          if (_error != null) ...[
-            Text(
-              _error!,
-              style: TextStyle(color: Theme.of(context).colorScheme.error),
-            ),
-          ],
+          if (_error != null) ...[Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error))],
         ],
       ),
     );
@@ -155,11 +136,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     if (iconType == null) return null;
     return Padding(
       padding: const EdgeInsets.all(8),
-      child: LanguageIcon(
-        type: iconType,
-        size: 24,
-        withBorder: false,
-      ),
+      child: LanguageIcon(type: iconType, size: 24, withBorder: false),
     );
   }
 

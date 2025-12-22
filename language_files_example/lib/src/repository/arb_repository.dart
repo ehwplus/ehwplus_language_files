@@ -3,37 +3,8 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 
-class ArbEntry {
-  const ArbEntry({required this.key, required this.value, this.metadata});
-
-  final String key;
-  final dynamic value;
-  final Map<String, dynamic>? metadata;
-
-  ArbEntry copyWith({dynamic value, Map<String, dynamic>? metadata}) {
-    return ArbEntry(key: key, value: value ?? this.value, metadata: metadata ?? this.metadata);
-  }
-}
-
-class ArbDocument {
-  const ArbDocument({required this.locale, required this.path, required this.entries, required this.globalMetadata});
-
-  final String locale;
-  final String path;
-  final Map<String, ArbEntry> entries;
-  final Map<String, dynamic> globalMetadata;
-
-  int get translationCount => entries.length;
-
-  ArbDocument copyWith({Map<String, ArbEntry>? entries, Map<String, dynamic>? globalMetadata}) {
-    return ArbDocument(
-      locale: locale,
-      path: path,
-      entries: entries ?? this.entries,
-      globalMetadata: globalMetadata ?? this.globalMetadata,
-    );
-  }
-}
+import '../model/arb_document.dart';
+import '../model/arb_entry.dart';
 
 class ArbRepository {
   ArbRepository({String? arbDirectory}) : arbDirectory = arbDirectory ?? _resolveDefaultArbDirectory();
