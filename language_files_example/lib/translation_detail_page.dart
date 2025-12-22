@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:ehwplus_language_files/src/model/language_icon_type.dart';
 
 import 'arb_repository.dart';
 import 'translation_models.dart';
+import 'widget/language_icon.dart';
 
 class TranslationDetailPage extends StatefulWidget {
   const TranslationDetailPage({
@@ -132,6 +134,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
                   labelText: 'Text für $locale',
                   alignLabelWithHint: true,
                   border: const OutlineInputBorder(),
+                  prefixIcon: _buildLocaleIcon(locale),
                 ),
               ),
             ),
@@ -145,5 +148,26 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         ],
       ),
     );
+  }
+
+  Widget? _buildLocaleIcon(String locale) {
+    final iconType = _iconForLocale(locale);
+    if (iconType == null) return null;
+    return Padding(
+      padding: const EdgeInsets.all(8),
+      child: LanguageIcon(
+        type: iconType,
+        size: 24,
+        withBorder: false,
+      ),
+    );
+  }
+
+  LanguageIconType? _iconForLocale(String locale) {
+    try {
+      return LanguageIconType.fromStringValue(locale);
+    } catch (_) {
+      return null;
+    }
   }
 }

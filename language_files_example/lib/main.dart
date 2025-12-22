@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:trina_grid/trina_grid.dart';
 
+import 'package:ehwplus_language_files/src/model/language_icon_type.dart';
 import 'arb_repository.dart';
 import 'translation_detail_page.dart';
 import 'translation_models.dart';
+import 'widget/language_icon.dart';
 
 void main() {
   runApp(const ArbEditorApp());
@@ -331,12 +333,47 @@ class _LocaleSelection extends StatelessWidget {
       children: [
         ...locales.map(
           (locale) => FilterChip(
-            label: Text(locale.toUpperCase()),
+            label: _LocaleChipLabel(locale: locale),
             selected: visibleLocales.contains(locale),
             onSelected: (value) => onToggleLocale(locale),
           ),
         ),
       ],
     );
+  }
+}
+
+class _LocaleChipLabel extends StatelessWidget {
+  const _LocaleChipLabel({required this.locale});
+
+  final String locale;
+
+  @override
+  Widget build(BuildContext context) {
+    final iconType = _iconForLocale(locale);
+    if (iconType == null) {
+      return Text(locale.toUpperCase());
+    }
+
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        LanguageIcon(
+          type: iconType,
+          size: 20,
+          withBorder: false,
+        ),
+        const SizedBox(width: 6),
+        Text(locale.toUpperCase()),
+      ],
+    );
+  }
+
+  LanguageIconType? _iconForLocale(String locale) {
+    try {
+      return LanguageIconType.fromStringValue(locale);
+    } catch (_) {
+      return null;
+    }
   }
 }
