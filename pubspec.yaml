@@ -18,7 +18,7 @@ description: "A new Flutter module project."
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.10.1
+  sdk: ">=3.10.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -78,7 +78,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
-
 
   # This section identifies your Flutter project as a module meant for
   # embedding in a native host app.  These identifiers should _not_ ordinarily
