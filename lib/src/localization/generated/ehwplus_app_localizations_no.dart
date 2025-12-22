@@ -911,6 +911,35 @@ class EhwplusAppLocalizationsNo extends EhwplusAppLocalizations {
       'Bufferen ble tømt';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'ForbruksBuffer';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'oppføringer';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Tøm buffer';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Er du sikker på at du vil tømme all forbruksbuffer for dette objektet? Alle lagrede forbruksdata blir slettet.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Tøm';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Bufferen ble tømt';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Feil';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Bruk forbruksbuffer';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Buffer beregnet forbruk og gjenbruk ved behov';
+
+  @override
   String get tibberAccessToken => 'Tilgangstoken';
 
   @override

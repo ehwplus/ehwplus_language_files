@@ -913,6 +913,36 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Cache ilisafishwa kwa mafanikio';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Hifadhi ya matumizi';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'maingizo';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Futa cache';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Je, una uhakika kwamba unataka kufuta hifadhi yote ya matumizi kwa kitu hiki? Data yote iliyohifadhiwa ya matumizi itaondolewa.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Futa';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache ilisafishwa kwa mafanikio';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Kosa';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Tumia hifadhi ya matumizi';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Hifadhi matumizi yaliyohesabiwa na watamiaji inapohitajika';
+
+  @override
   String get tibberAccessToken => 'Ufikiaji wa ishara';
 
   @override

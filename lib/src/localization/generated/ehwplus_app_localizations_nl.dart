@@ -920,6 +920,35 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
       'Cache succesvol gewist';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Verbruikscache';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'ingangen';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Cache wissen';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Weet u zeker dat u alle verbruikscache voor dit object wilt wissen? Alle opgeslagen verbruiksgegevens worden verwijderd.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Wissen';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Cache succesvol gewist';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Fout';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Verbruikscache gebruiken';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Bereken verbruik in cache en hergebruik indien nodig';
+
+  @override
   String get tibberAccessToken => 'Toegangstoken';
 
   @override

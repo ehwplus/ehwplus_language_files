@@ -908,6 +908,36 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
       'Kas suksesvol skoongemaak';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Verbruiks-kas';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'inskrywings';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Vee kas uit';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Is jy seker dat jy al verbruiks-kas vir hierdie voorwerp wil vee? Alle gestoor verbruiksdata sal verwyder word.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Vee uit';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Kas suksesvol skoongemaak';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Fout';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Gebruik verbruiks-kas';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Kas berekende verbruike en hergebruik wanneer nodig';
+
+  @override
   String get tibberAccessToken => 'Toegangstoken';
 
   @override

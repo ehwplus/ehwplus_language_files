@@ -916,6 +916,36 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
       'Cache cleared successfully';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Consumptions Cache';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'entries';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Clear Cache';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Are you sure you want to clear all consumption cache for this object? All stored consumption data will be removed.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Clear';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache cleared successfully';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Error';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Use consumption cache';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Cache computed consumptions and re-use whenever necessary';
+
+  @override
   String get tibberAccessToken => 'Access Token';
 
   @override

@@ -917,6 +917,35 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
       'Кеш је успешно обрисан';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Кеш потрошње';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'записи';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Обриши кеш';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Да ли сте сигурни да желите да обришете сву кеш потрошњу за овај објекат? Сви сачувани подаци о потрошњи ће бити избрисани.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Обриши';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Кеш је успешно обрисан';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Грешка';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Користите кеш потрошње';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Кешируј израчунату потрошњу и поново је користи по потреби';
+
+  @override
   String get tibberAccessToken => 'Приступни токен';
 
   @override

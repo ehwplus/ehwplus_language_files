@@ -924,6 +924,38 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Η προσωρινή μνήμη διαγράφηκε με επιτυχία';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Προσωρινή μνήμη κατανάλωσης';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'καταχωρήσεις';
+
+  @override
+  String get consumptionCacheDebugViewClearCache =>
+      'Διαγραφή προσωρινής μνήμης';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Είστε σίγουροι ότι θέλετε να διαγράψετε όλη την προσωρινή μνήμη κατανάλωσης για αυτό το αντικείμενο; Όλα τα αποθηκευμένα δεδομένα κατανάλωσης θα αφαιρεθούν.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Διαγραφή';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Η προσωρινή μνήμη διαγράφηκε με επιτυχία';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Σφάλμα';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Χρήση προσωρινής μνήμης κατανάλωσης';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Προσωρινή μνήμη υπολογισμένης κατανάλωσης και ανάχρησης όταν χρειάζεται';
+
+  @override
   String get tibberAccessToken => 'Token πρόσβασης';
 
   @override
