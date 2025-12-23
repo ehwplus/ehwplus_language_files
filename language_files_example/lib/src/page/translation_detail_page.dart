@@ -21,15 +21,18 @@ class TranslationDetailPage extends StatefulWidget {
 class _TranslationDetailPageState extends State<TranslationDetailPage> {
   final Map<String, TextEditingController> _controllers = {};
   late final List<String> _locales;
+  late final Map<String, String> _initialValues;
 
   bool _saving = false;
   String? _error;
+  bool _clearOtherLocales = true;
 
   @override
   void initState() {
     super.initState();
     final locales = widget.documents.map((doc) => doc.locale).toSet();
     _locales = _orderedLocales(locales);
+    _initialValues = Map<String, String>.from(widget.record.values);
 
     for (final locale in _locales) {
       _controllers[locale] = TextEditingController(text: widget.record.values[locale] ?? '');
@@ -60,15 +63,31 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     });
 
     try {
+      final changedLocales = <String>{};
+      for (final entry in _controllers.entries) {
+        final oldValue = _initialValues[entry.key] ?? '';
+        final newValue = entry.value.text;
+        if (newValue != oldValue) {
+          changedLocales.add(entry.key);
+        }
+      }
+
+      if (changedLocales.isEmpty) {
+        if (mounted) Navigator.of(context).pop(false);
+        return;
+      }
+
       for (final doc in widget.documents) {
         final updatedEntries = Map<String, ArbEntry>.from(doc.entries);
         final controller = _controllers[doc.locale];
         final newValue = controller?.text ?? '';
 
+        final shouldClear = _clearOtherLocales && !changedLocales.contains(doc.locale);
+        final targetValue = shouldClear ? '' : newValue;
+
         final existing = updatedEntries[widget.record.key];
-        updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: newValue)).copyWith(
-          value: newValue,
-        );
+        updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: targetValue))
+            .copyWith(value: targetValue);
 
         final updatedDoc = doc.copyWith(entries: updatedEntries);
         await widget.repository.saveDocument(updatedDoc);
@@ -110,6 +129,13 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         children: [
           Text('ARB-Key: ${widget.record.key}', style: Theme.of(context).textTheme.labelLarge),
           const SizedBox(height: 12),
+          SwitchListTile(
+            contentPadding: EdgeInsets.zero,
+            title: const Text('Bei Änderung andere Werte löschen'),
+            value: _clearOtherLocales,
+            onChanged: (value) => setState(() => _clearOtherLocales = value),
+          ),
+          const SizedBox(height: 8),
           ..._locales.map(
             (locale) => Padding(
               padding: const EdgeInsets.only(bottom: 16),
