@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "พิจารณาการบริโภคทั้งหมด"
+  "counterConsiderForTotalConsumptions": "พิจารณาการบริโภคทั้งหมด",
+  "consumptionYearlyDetailedElectricity": "ปริมาณการใช้ไฟฟ้าของคุณ {ofRange} ({totalConsumption} kWh data {yearlyConsumption} kWh/ปี data {monthlyConsumption} kWh/เดือน) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "ปริมาณการใช้ก๊าซของคุณ {ofRange} ({totalConsumption} kWh data {yearlyConsumption} kWh/ปี data {monthlyConsumption} kWh/เดือน) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "คุณใช้{verbSuffix} {percentage} น้อยกว่า ครัวเรือนโดยเฉลี่ยที่มี {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "คุณใช้{verbSuffix} {percentage} มากกว่า ครัวเรือนโดยเฉลี่ยที่มี {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "คุณใช้{verbSuffix} ประมาณเดียวกันกับ ครัวเรือนโดยเฉลี่ยที่มี {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "คุณบริโภค ประมาณ {dailyLiters} ลิตรต่อวัน (เท่ากับ {monthlyCubicMeters} {unitName} ต่อเดือน)",
+  "consumptionWaterDailyMonthlyPerPerson": "ต่อคนทุกคนบริโภค ประมาณ {dailyLiters} ลิตรต่อวัน (เท่ากับ {monthlyCubicMeters} {unitName} ต่อเดือน)",
+  "consumptionYearlyDetailedLevel2": "เป็นเรื่องปกติ"
 }

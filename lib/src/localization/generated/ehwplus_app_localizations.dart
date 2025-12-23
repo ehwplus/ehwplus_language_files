@@ -750,50 +750,58 @@ abstract class EhwplusAppLocalizations {
   /// **'Your electricity consumption {ofRange} is {consumption} kWh for the year.'**
   String consumptionYearly(String ofRange, String consumption);
 
-  /// No description provided for @consumptionYearlyDetailedElectricityIntro.
+  /// No description provided for @consumptionYearlyDetailedElectricity.
   ///
   /// In en, this message translates to:
-  /// **'Your electricity consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) '**
-  String consumptionYearlyDetailedElectricityIntro(
+  /// **'Your electricity consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.'**
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   );
 
-  /// No description provided for @consumptionYearlyDetailedGasIntro.
+  /// No description provided for @consumptionYearlyDetailedGas.
   ///
   /// In en, this message translates to:
-  /// **'Your gas consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) '**
-  String consumptionYearlyDetailedGasIntro(
+  /// **'Your gas consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.'**
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   );
 
   /// No description provided for @consumptionYearlyDetailedLevel0.
   ///
   /// In en, this message translates to:
-  /// **'is super low.'**
+  /// **'super low'**
   String get consumptionYearlyDetailedLevel0;
 
   /// No description provided for @consumptionYearlyDetailedLevel1.
   ///
   /// In en, this message translates to:
-  /// **'is really something to behold.'**
+  /// **'low'**
   String get consumptionYearlyDetailedLevel1;
+
+  /// No description provided for @consumptionYearlyDetailedLevel2.
+  ///
+  /// In en, this message translates to:
+  /// **'within a normal range'**
+  String get consumptionYearlyDetailedLevel2;
 
   /// No description provided for @consumptionYearlyDetailedLevel3.
   ///
   /// In en, this message translates to:
-  /// **'is relatively high.'**
+  /// **'relatively high'**
   String get consumptionYearlyDetailedLevel3;
 
   /// No description provided for @consumptionYearlyDetailedLevel4.
   ///
   /// In en, this message translates to:
-  /// **'is normal.'**
+  /// **'within a normal range'**
   String get consumptionYearlyDetailedLevel4;
 
   /// No description provided for @consumptionYearlyDetailedYouConsume.
@@ -801,6 +809,38 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'You consume{verbSuffix} '**
   String consumptionYearlyDetailedYouConsume(String verbSuffix);
+
+  /// No description provided for @consumptionYearlyDetailedComparisonLess.
+  ///
+  /// In en, this message translates to:
+  /// **'You consume{verbSuffix} {percentage} less than an average household with {householdSize} {personLabel}.'**
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  );
+
+  /// No description provided for @consumptionYearlyDetailedComparisonMore.
+  ///
+  /// In en, this message translates to:
+  /// **'You consume{verbSuffix} {percentage} more than an average household with {householdSize} {personLabel}.'**
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  );
+
+  /// No description provided for @consumptionYearlyDetailedComparisonEqual.
+  ///
+  /// In en, this message translates to:
+  /// **'You consume{verbSuffix} about the same as an average household with {householdSize} {personLabel}.'**
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  );
 
   /// No description provided for @consumptionYearlyDetailedLessThan.
   ///
@@ -838,13 +878,13 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @consumptionYearlyDetailedLevel1Suffix.
   ///
   /// In en, this message translates to:
-  /// **'{nextToOptimal} kWh/month missing for optimal consumption.'**
+  /// **'You would reach optimal consumption with about {nextToOptimal} kWh/month less.'**
   String consumptionYearlyDetailedLevel1Suffix(String nextToOptimal);
 
   /// No description provided for @consumptionYearlyDetailedLevel2Suffix.
   ///
   /// In en, this message translates to:
-  /// **'{nextToOptimal} kWh/month missing for good consumption.'**
+  /// **'Reducing around {nextToOptimal} kWh/month would bring you to a good consumption level.'**
   String consumptionYearlyDetailedLevel2Suffix(String nextToOptimal);
 
   /// No description provided for @consumptionPersonLabel.
@@ -870,6 +910,26 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).'**
   String consumptionWaterDailyMonthly(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  );
+
+  /// No description provided for @consumptionWaterDailyMonthlySingle.
+  ///
+  /// In en, this message translates to:
+  /// **'You consume about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).'**
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  );
+
+  /// No description provided for @consumptionWaterDailyMonthlyPerPerson.
+  ///
+  /// In en, this message translates to:
+  /// **'Per person, this equals about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).'**
+  String consumptionWaterDailyMonthlyPerPerson(
     String dailyLiters,
     String monthlyCubicMeters,
     String unitName,

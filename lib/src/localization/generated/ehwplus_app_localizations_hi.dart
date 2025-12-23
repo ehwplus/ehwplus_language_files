@@ -352,23 +352,25 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'आपकी बिजली की बैटरी $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/वर्ष ≈ $monthlyConsumption kWh/महीना)';
+    return 'आपकी बिजली की बैटरी $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/वर्ष ≈ $monthlyConsumption kWh/महीना) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'आपका गैस प्लांट $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/वर्ष ≈ $monthlyConsumption kWh/महीना)';
+    return 'आपका गैस प्लांट $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/वर्ष ≈ $monthlyConsumption kWh/महीना) $consumptionLevel.';
   }
 
   @override
@@ -379,6 +381,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'वास्तव में देखने लायक चीज़ है।';
 
   @override
+  String get consumptionYearlyDetailedLevel2 => 'सामान्य है.';
+
+  @override
   String get consumptionYearlyDetailedLevel3 => 'अपेक्षाकृत अधिक है.';
 
   @override
@@ -387,6 +392,35 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'आप उपभोग करते हैं$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'आप उपभोग करते हैं$verbSuffix $percentage से कम $householdSize $personLabel वाला एक औसत परिवार.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'आप उपभोग करते हैं$verbSuffix $percentage से अधिक $householdSize $personLabel वाला एक औसत परिवार.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'आप उपभोग करते हैं$verbSuffix लगभग उसी के समान $householdSize $personLabel वाला एक औसत परिवार.';
   }
 
   @override
@@ -448,6 +482,24 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'लगभग $dailyLiters किलो प्रति दिन (≈ $monthlyCubicMeters $unitName प्रति माह)।';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'आप उपभोग करें लगभग $dailyLiters किलो प्रति दिन (≈ $monthlyCubicMeters $unitName प्रति माह)।';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'प्रति व्यक्ति, हर कोई उपभोग करता है लगभग $dailyLiters किलो प्रति दिन (≈ $monthlyCubicMeters $unitName प्रति माह)।';
   }
 
   @override

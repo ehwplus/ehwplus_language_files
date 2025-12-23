@@ -889,5 +889,13 @@
   "warningOutdatedSinceText": "с {date}",
   "warningNextReminderText": " Следующее напоминание: {date}.",
   "costsUndefinedNetworkCounter": "Интернет-расходы",
-  "counterConsiderForTotalConsumptions": "Учитывайте общее потребление"
+  "counterConsiderForTotalConsumptions": "Учитывайте общее потребление",
+  "consumptionYearlyDetailedElectricity": "Ваше потребление электроэнергии {ofRange} ({totalConsumption} кВтч ≈ {yearlyConsumption} кВтч/год ≈ {monthlyConsumption} кВтч/месяц) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Ваше потребление газа {ofRange} ({totalConsumption} кВтч ≈ {yearlyConsumption} кВтч/год ≈ {monthlyConsumption} кВтч/месяц) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Вы потребляете{verbSuffix} на {percentage} меньше, чем среднее домохозяйство из {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Вы потребляете{verbSuffix} на {percentage} больше, чем среднее домохозяйство из {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Вы потребляете{verbSuffix} примерно столько же, сколько среднее домохозяйство из {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Вы потребляете примерно {dailyLiters} литров в день (≈ {monthlyCubicMeters} {unitName} в месяц).",
+  "consumptionWaterDailyMonthlyPerPerson": "В пересчёте на одного человека каждый потребляет примерно {dailyLiters} литров в день (≈ {monthlyCubicMeters} {unitName} в месяц).",
+  "consumptionYearlyDetailedLevel2": "нормальное."
 }

@@ -1700,5 +1700,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "മൊത്തം ഉപഭോഗം പരിഗണിക്കുക"
+  "counterConsiderForTotalConsumptions": "മൊത്തം ഉപഭോഗം പരിഗണിക്കുക",
+  "consumptionYearlyDetailedElectricity": "നിങ്ങളുടെ വൈദ്യുതി ഉപയോഗം {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh പ്രതിവർഷം ≈ {monthlyConsumption} kWh പ്രതിമാസം) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "നിങ്ങളുടെ ഗ്യാസ് ഉപയോഗം {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh പ്രതിവർഷം ≈ {monthlyConsumption} kWh പ്രതിമാസം) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "നിങ്ങൾ{verbSuffix} ഉപയോഗിക്കുന്നു {percentage}-നേക്കാൾ കുറവാണ് {householdSize} {personLabel} ഉള്ള ഒരു ശരാശരി കുടുംബം.",
+  "consumptionYearlyDetailedComparisonMore": "നിങ്ങൾ{verbSuffix} ഉപയോഗിക്കുന്നു {percentage}-ൽ കൂടുതൽ {householdSize} {personLabel} ഉള്ള ഒരു ശരാശരി കുടുംബം.",
+  "consumptionYearlyDetailedComparisonEqual": "നിങ്ങൾ{verbSuffix} ഉപയോഗിക്കുന്നു ഏകദേശം അതേ പോലെ {householdSize} {personLabel} ഉള്ള ഒരു ശരാശരി കുടുംബം.",
+  "consumptionWaterDailyMonthlySingle": "നിങ്ങൾ ഉപഭോഗം ചെയ്യുക പ്രതിദിനം ഏകദേശം {dailyLiters} ലിറ്റർ (പ്രതിമാസം ≈ {monthlyCubicMeters} {unitName}).",
+  "consumptionWaterDailyMonthlyPerPerson": "ഓരോ വ്യക്തിക്കും, എല്ലാവരും ഉപയോഗിക്കുന്നു പ്രതിദിനം ഏകദേശം {dailyLiters} ലിറ്റർ (പ്രതിമാസം ≈ {monthlyCubicMeters} {unitName}).",
+  "consumptionYearlyDetailedLevel2": "സാധാരണമാണ്."
 }

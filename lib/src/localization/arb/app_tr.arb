@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Toplam tüketimleri göz önünde bulundurun"
+  "counterConsiderForTotalConsumptions": "Toplam tüketimleri göz önünde bulundurun",
+  "consumptionYearlyDetailedElectricity": "Elektrik tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Gaz tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "{verbSuffix} tüketiyorsunuz {percentage} daha az {householdSize} {personLabel} olan ortalama bir hane.",
+  "consumptionYearlyDetailedComparisonMore": "{verbSuffix} tüketiyorsunuz {percentage}'dan fazla {householdSize} {personLabel} olan ortalama bir hane.",
+  "consumptionYearlyDetailedComparisonEqual": "{verbSuffix} tüketiyorsunuz yaklaşık olarak aynı {householdSize} {personLabel} olan ortalama bir hane.",
+  "consumptionWaterDailyMonthlySingle": "Tüketiyorsun günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
+  "consumptionWaterDailyMonthlyPerPerson": "Kişi başı herkes tüketiyor günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
+  "consumptionYearlyDetailedLevel2": "normaldir."
 }

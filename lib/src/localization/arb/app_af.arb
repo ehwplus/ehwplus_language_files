@@ -889,5 +889,13 @@
   "priceComparisonDiff": "Jy betaal {diffWithCurrency} {comparison, select, more {meer as} less {minder as} other {meer as}} die gemiddelde in {countryName}.",
   "roomNamePart": "in die {roomName} ",
   "warningOutdatedSinceText": "sedert {date}",
-  "warningNextReminderText": " Die volgende herinnering is {date}."
+  "warningNextReminderText": " Die volgende herinnering is {date}.",
+  "consumptionYearlyDetailedElectricity": "Jou elektrisiteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Jou gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Jy verbruik{verbSuffix} {percentage} minder as 'n gemiddelde huishouding met {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Jy verbruik{verbSuffix} {percentage} meer as 'n gemiddelde huishouding met {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Jy verbruik{verbSuffix} omtrent dieselfde as 'n gemiddelde huishouding met {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Jy verbruik ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per persoon verbruik elkeen ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "consumptionYearlyDetailedLevel2": "is normaal."
 }

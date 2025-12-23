@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "総消費量を考慮する"
+  "counterConsiderForTotalConsumptions": "総消費量を考慮する",
+  "consumptionYearlyDetailedElectricity": "あなたの電力消費量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "ガス消費量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "{verbSuffix}を消費します {percentage}未満 {householdSize} {personLabel} を持つ平均的な世帯.",
+  "consumptionYearlyDetailedComparisonMore": "{verbSuffix}を消費します {percentage}以上 {householdSize} {personLabel} を持つ平均的な世帯.",
+  "consumptionYearlyDetailedComparisonEqual": "{verbSuffix}を消費します とほぼ同じ {householdSize} {personLabel} を持つ平均的な世帯.",
+  "consumptionWaterDailyMonthlySingle": "あなたは消費します 1 日あたり約 {dailyLiters} リットル (≈ 1 か月あたり {monthlyCubicMeters} {unitName})。",
+  "consumptionWaterDailyMonthlyPerPerson": "一人当たり、全員が消費する 1 日あたり約 {dailyLiters} リットル (≈ 1 か月あたり {monthlyCubicMeters} {unitName})。",
+  "consumptionYearlyDetailedLevel2": "正常です。"
 }

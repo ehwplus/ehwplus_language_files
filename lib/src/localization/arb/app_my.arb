@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "စုစုပေါင်းစားသုံးမှုများအတွက် စဉ်းစားပါ။"
+  "counterConsiderForTotalConsumptions": "စုစုပေါင်းစားသုံးမှုများအတွက် စဉ်းစားပါ။",
+  "consumptionYearlyDetailedElectricity": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 (Phtoken1 Kwh ≈ KWH / KWH / KWH / YEN) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "သငျသညျ Consumephod0 ထက်လျော့နည်း Phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
+  "consumptionYearlyDetailedComparisonMore": "သငျသညျ Consumephod0 ထက်ပို phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
+  "consumptionYearlyDetailedComparisonEqual": "သငျသညျ Consumephod0 အတူတူပင်အကြောင်းကို Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
+  "consumptionWaterDailyMonthlySingle": "သင်လောင် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
+  "consumptionWaterDailyMonthlyPerPerson": "လူတစ် ဦး လျှင်လူတိုင်းစားသုံးသည် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
+  "consumptionYearlyDetailedLevel2": "ပုံမှန်ပါပဲ"
 }

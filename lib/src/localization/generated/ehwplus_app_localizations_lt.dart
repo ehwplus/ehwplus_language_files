@@ -352,23 +352,25 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Jūsų elektros suvartojimas $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh per metus ≈ $monthlyConsumption kWh per mėnesį)';
+    return 'Jūsų elektros suvartojimas $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh per metus ≈ $monthlyConsumption kWh per mėnesį) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Jūsų dujų suvartojimas $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh per metus ≈ $monthlyConsumption kWh per mėnesį)';
+    return 'Jūsų dujų suvartojimas $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh per metus ≈ $monthlyConsumption kWh per mėnesį) $consumptionLevel.';
   }
 
   @override
@@ -376,6 +378,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'tikrai yra į ką pažiūrėti.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'yra normalu.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'yra palyginti aukštas.';
@@ -386,6 +391,35 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Jūs vartojate$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Jūs vartojate$verbSuffix $percentage mažiau nei vidutinis namų ūkis su $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Jūs vartojate$verbSuffix $percentage daugiau nei vidutinis namų ūkis su $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Jūs vartojate$verbSuffix maždaug toks pat kaip vidutinis namų ūkis su $householdSize $personLabel.';
   }
 
   @override
@@ -446,6 +480,24 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'apie $dailyLiters litrų per dieną (≈ $monthlyCubicMeters $unitName per mėnesį).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Jūs vartojate apie $dailyLiters litrų per dieną (≈ $monthlyCubicMeters $unitName per mėnesį).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Vienam žmogui visi suvartoja apie $dailyLiters litrų per dieną (≈ $monthlyCubicMeters $unitName per mėnesį).';
   }
 
   @override

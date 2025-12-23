@@ -1704,5 +1704,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Враховуйте загальне споживання"
+  "counterConsiderForTotalConsumptions": "Враховуйте загальне споживання",
+  "consumptionYearlyDetailedElectricity": "Ваше споживання електроенергії {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Ваше споживання газу {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Ви споживаєте{verbSuffix} {percentage} менше ніж середнє домогосподарство з {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Ви споживаєте{verbSuffix} {percentage} більше ніж середнє домогосподарство з {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Ви споживаєте{verbSuffix} приблизно так само, як середнє домогосподарство з {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Ви споживаєте близько {dailyLiters} літрів на день (≈ {monthlyCubicMeters} {unitName} на місяць).",
+  "consumptionWaterDailyMonthlyPerPerson": "На людину споживають усі близько {dailyLiters} літрів на день (≈ {monthlyCubicMeters} {unitName} на місяць).",
+  "consumptionYearlyDetailedLevel2": "це нормально."
 }

@@ -347,23 +347,25 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'O seu consumo de electricidade $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/ano ≈ $monthlyConsumption kWh/mês) ';
+    return 'O seu consumo de electricidade $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/ano ≈ $monthlyConsumption kWh/mês) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'O seu consumo de gás $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/ano ≈ $monthlyConsumption kWh/mês) ';
+    return 'O seu consumo de gás $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/ano ≈ $monthlyConsumption kWh/mês) $consumptionLevel.';
   }
 
   @override
@@ -371,6 +373,9 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'é realmente notável.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'é normal.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'é relativamente alto.';
@@ -381,6 +386,35 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Consome$verbSuffix ';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Consome$verbSuffix $percentage menos do que um agregado médio com $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Consome$verbSuffix $percentage mais do que um agregado médio com $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Consome$verbSuffix aproximadamente o mesmo que um agregado médio com $householdSize $personLabel.';
   }
 
   @override
@@ -442,6 +476,24 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'cerca de $dailyLiters litros por dia (≈ $monthlyCubicMeters $unitName por mês).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Consome cerca de $dailyLiters litros por dia (≈ $monthlyCubicMeters $unitName por mês).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Por pessoa, cada um consome cerca de $dailyLiters litros por dia (≈ $monthlyCubicMeters $unitName por mês).';
   }
 
   @override

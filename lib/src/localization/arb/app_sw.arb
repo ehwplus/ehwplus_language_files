@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Fikiria kwa matumizi ya jumla"
+  "counterConsiderForTotalConsumptions": "Fikiria kwa matumizi ya jumla",
+  "consumptionYearlyDetailedElectricity": "Matumizi yako ya umeme phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Matumizi yako ya gesi phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Wewe matumizi ya matumizi0 Phtoken0 chini ya Kaya ya wastani na phtoken0 phtoken1.",
+  "consumptionYearlyDetailedComparisonMore": "Wewe matumizi ya matumizi0 Phtoken0 zaidi ya Kaya ya wastani na phtoken0 phtoken1.",
+  "consumptionYearlyDetailedComparisonEqual": "Wewe matumizi ya matumizi0 karibu sawa na Kaya ya wastani na phtoken0 phtoken1.",
+  "consumptionWaterDailyMonthlySingle": "Unatumia kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).",
+  "consumptionWaterDailyMonthlyPerPerson": "Kwa kila mtu, kila mtu hutumia kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).",
+  "consumptionYearlyDetailedLevel2": "ni kawaida."
 }

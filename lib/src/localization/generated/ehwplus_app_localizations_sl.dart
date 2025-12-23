@@ -349,23 +349,25 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Vaša poraba električne energije $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/leto ≈ $monthlyConsumption kWh/mesec)';
+    return 'Vaša poraba električne energije $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/leto ≈ $monthlyConsumption kWh/mesec) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Vaša poraba plina $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/leto ≈ $monthlyConsumption kWh/mesec)';
+    return 'Vaša poraba plina $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/leto ≈ $monthlyConsumption kWh/mesec) $consumptionLevel.';
   }
 
   @override
@@ -373,6 +375,9 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'je res nekaj za videti.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'je normalno.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'je razmeroma visoka.';
@@ -383,6 +388,35 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Zaužijete$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Zaužijete$verbSuffix $percentage manj kot povprečno gospodinjstvo s $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Zaužijete$verbSuffix $percentage več kot povprečno gospodinjstvo s $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Zaužijete$verbSuffix približno enako kot povprečno gospodinjstvo s $householdSize $personLabel.';
   }
 
   @override
@@ -443,6 +477,24 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'približno $dailyLiters litrov na dan (≈ $monthlyCubicMeters $unitName na mesec).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Porabiš približno $dailyLiters litrov na dan (≈ $monthlyCubicMeters $unitName na mesec).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Na osebo porabijo vsi približno $dailyLiters litrov na dan (≈ $monthlyCubicMeters $unitName na mesec).';
   }
 
   @override

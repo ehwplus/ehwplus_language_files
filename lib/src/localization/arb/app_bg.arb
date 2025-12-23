@@ -917,5 +917,13 @@
   "priceComparisonDiff": "Плащате {diffWithCurrency} {comparison, select, more {повече от} less {по-малко от} other {повече от}} средното в {countryName}.",
   "roomNamePart": "в {roomName} ",
   "warningOutdatedSinceText": "от {date}",
-  "warningNextReminderText": " Следващото напомняне е {date}."
+  "warningNextReminderText": " Следващото напомняне е {date}.",
+  "consumptionYearlyDetailedElectricity": "Вашата консумация на ток {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/година ≈ {monthlyConsumption} kWh/месец) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Вашата консумация на газ {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/година ≈ {monthlyConsumption} kWh/месец) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Вие консумирате{verbSuffix} {percentage} по-малко от средно домакинство с {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Вие консумирате{verbSuffix} {percentage} повече от средно домакинство с {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Вие консумирате{verbSuffix} приблизително същото като средно домакинство с {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Вие консумирате около {dailyLiters} литра на ден (≈ {monthlyCubicMeters} {unitName} на месец).",
+  "consumptionWaterDailyMonthlyPerPerson": "На човек, всеки консумира около {dailyLiters} литра на ден (≈ {monthlyCubicMeters} {unitName} на месец).",
+  "consumptionYearlyDetailedLevel2": "е нормална."
 }

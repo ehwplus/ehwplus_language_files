@@ -345,23 +345,25 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'あなたの電力消費量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月)';
+    return 'あなたの電力消費量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'ガス消費量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月)';
+    return 'ガス消費量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月) $consumptionLevel.';
   }
 
   @override
@@ -369,6 +371,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => '本当に目を見張るものがあります。';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => '正常です。';
 
   @override
   String get consumptionYearlyDetailedLevel3 => '比較的高いです。';
@@ -379,6 +384,35 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return '$verbSuffixを消費します';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '$verbSuffixを消費します $percentage未満 $householdSize $personLabel を持つ平均的な世帯.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '$verbSuffixを消費します $percentage以上 $householdSize $personLabel を持つ平均的な世帯.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '$verbSuffixを消費します とほぼ同じ $householdSize $personLabel を持つ平均的な世帯.';
   }
 
   @override
@@ -439,6 +473,24 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return '1 日あたり約 $dailyLiters リットル (≈ 1 か月あたり $monthlyCubicMeters $unitName)。';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'あなたは消費します 1 日あたり約 $dailyLiters リットル (≈ 1 か月あたり $monthlyCubicMeters $unitName)。';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return '一人当たり、全員が消費する 1 日あたり約 $dailyLiters リットル (≈ 1 か月あたり $monthlyCubicMeters $unitName)。';
   }
 
   @override

@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Houd rekening met het totale verbruik"
+  "counterConsiderForTotalConsumptions": "Houd rekening met het totale verbruik",
+  "consumptionYearlyDetailedElectricity": "Uw elektriciteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Uw gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "U verbruikt{verbSuffix} {percentage} minder dan een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "U verbruikt{verbSuffix} {percentage} meer dan een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "U verbruikt{verbSuffix} ongeveer hetzelfde als een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "U verbruikt ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per persoon verbruikt iedereen ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "consumptionYearlyDetailedLevel2": "is normaal."
 }

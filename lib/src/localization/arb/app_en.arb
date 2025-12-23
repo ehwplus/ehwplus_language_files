@@ -166,8 +166,8 @@
 			}
 		}
 	},
-	"consumptionYearlyDetailedElectricityIntro": "Your electricity consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) ",
-	"@consumptionYearlyDetailedElectricityIntro": {
+	"consumptionYearlyDetailedElectricity": "Your electricity consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.",
+	"@consumptionYearlyDetailedElectricity": {
 		"placeholders": {
 			"ofRange": {
 				"type": "String"
@@ -180,11 +180,14 @@
 			},
 			"monthlyConsumption": {
 				"type": "String"
+			},
+			"consumptionLevel": {
+				"type": "String"
 			}
 		}
 	},
-	"consumptionYearlyDetailedGasIntro": "Your gas consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) ",
-	"@consumptionYearlyDetailedGasIntro": {
+	"consumptionYearlyDetailedGas": "Your gas consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.",
+	"@consumptionYearlyDetailedGas": {
 		"placeholders": {
 			"ofRange": {
 				"type": "String"
@@ -197,17 +200,69 @@
 			},
 			"monthlyConsumption": {
 				"type": "String"
+			},
+			"consumptionLevel": {
+				"type": "String"
 			}
 		}
 	},
-	"consumptionYearlyDetailedLevel0": "is super low.",
-	"consumptionYearlyDetailedLevel1": "is really something to behold.",
-	"consumptionYearlyDetailedLevel3": "is relatively high.",
-	"consumptionYearlyDetailedLevel4": "is normal.",
+	"consumptionYearlyDetailedLevel0": "super low",
+	"consumptionYearlyDetailedLevel1": "low",
+	"consumptionYearlyDetailedLevel2": "within a normal range",
+	"consumptionYearlyDetailedLevel3": "relatively high",
+	"consumptionYearlyDetailedLevel4": "within a normal range",
 	"consumptionYearlyDetailedYouConsume": "You consume{verbSuffix} ",
 	"@consumptionYearlyDetailedYouConsume": {
 		"placeholders": {
 			"verbSuffix": {
+				"type": "String"
+			}
+		}
+	},
+	"consumptionYearlyDetailedComparisonLess": "You consume{verbSuffix} {percentage} less than an average household with {householdSize} {personLabel}.",
+	"@consumptionYearlyDetailedComparisonLess": {
+		"placeholders": {
+			"verbSuffix": {
+				"type": "String"
+			},
+			"percentage": {
+				"type": "String"
+			},
+			"householdSize": {
+				"type": "String"
+			},
+			"personLabel": {
+				"type": "String"
+			}
+		}
+	},
+	"consumptionYearlyDetailedComparisonMore": "You consume{verbSuffix} {percentage} more than an average household with {householdSize} {personLabel}.",
+	"@consumptionYearlyDetailedComparisonMore": {
+		"placeholders": {
+			"verbSuffix": {
+				"type": "String"
+			},
+			"percentage": {
+				"type": "String"
+			},
+			"householdSize": {
+				"type": "String"
+			},
+			"personLabel": {
+				"type": "String"
+			}
+		}
+	},
+	"consumptionYearlyDetailedComparisonEqual": "You consume{verbSuffix} about the same as an average household with {householdSize} {personLabel}.",
+	"@consumptionYearlyDetailedComparisonEqual": {
+		"placeholders": {
+			"verbSuffix": {
+				"type": "String"
+			},
+			"householdSize": {
+				"type": "String"
+			},
+			"personLabel": {
 				"type": "String"
 			}
 		}
@@ -241,7 +296,7 @@
 		}
 	},
 	"consumptionYearlyDetailedOptimalEnding": "How are you doing it?",
-	"consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} kWh/month missing for optimal consumption.",
+	"consumptionYearlyDetailedLevel1Suffix": "You would reach optimal consumption with about {nextToOptimal} kWh/month less.",
 	"@consumptionYearlyDetailedLevel1Suffix": {
 		"placeholders": {
 			"nextToOptimal": {
@@ -249,7 +304,7 @@
 			}
 		}
 	},
-	"consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} kWh/month missing for good consumption.",
+	"consumptionYearlyDetailedLevel2Suffix": "Reducing around {nextToOptimal} kWh/month would bring you to a good consumption level.",
 	"@consumptionYearlyDetailedLevel2Suffix": {
 		"placeholders": {
 			"nextToOptimal": {
@@ -269,6 +324,34 @@
 	"consumptionWaterPrefixPerPerson": "Per person, everyone consumes ",
 	"consumptionWaterDailyMonthly": "about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
 	"@consumptionWaterDailyMonthly": {
+		"placeholders": {
+			"dailyLiters": {
+				"type": "String"
+			},
+			"monthlyCubicMeters": {
+				"type": "String"
+			},
+			"unitName": {
+				"type": "String"
+			}
+		}
+	},
+	"consumptionWaterDailyMonthlySingle": "You consume about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
+	"@consumptionWaterDailyMonthlySingle": {
+		"placeholders": {
+			"dailyLiters": {
+				"type": "String"
+			},
+			"monthlyCubicMeters": {
+				"type": "String"
+			},
+			"unitName": {
+				"type": "String"
+			}
+		}
+	},
+	"consumptionWaterDailyMonthlyPerPerson": "Per person, this equals about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
+	"@consumptionWaterDailyMonthlyPerPerson": {
 		"placeholders": {
 			"dailyLiters": {
 				"type": "String"

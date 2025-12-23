@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "考虑总消费"
+  "counterConsiderForTotalConsumptions": "考虑总消费",
+  "consumptionYearlyDetailedElectricity": "您的用电量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "您的燃气消耗量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "您消耗{verbSuffix} {percentage} 小于 拥有 {householdSize} {personLabel} 的普通家庭.",
+  "consumptionYearlyDetailedComparisonMore": "您消耗{verbSuffix} {percentage} 多于 拥有 {householdSize} {personLabel} 的普通家庭.",
+  "consumptionYearlyDetailedComparisonEqual": "您消耗{verbSuffix} 大约与 拥有 {householdSize} {personLabel} 的普通家庭.",
+  "consumptionWaterDailyMonthlySingle": "你消费 每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
+  "consumptionWaterDailyMonthlyPerPerson": "每个人，每个人都消费 每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
+  "consumptionYearlyDetailedLevel2": "是正常的。"
 }

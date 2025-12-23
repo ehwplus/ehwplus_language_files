@@ -917,5 +917,13 @@
   "priceComparisonDiff": "Maksat {diffWithCurrency} {comparison, select, more {enemmän kuin} less {vähemmän kuin} other {enemmän kuin}} keskimäärin {countryName}.",
   "roomNamePart": "kohteessa {roomName}",
   "warningOutdatedSinceText": "alkaen {date}",
-  "warningNextReminderText": "Seuraava muistutus on {date}."
+  "warningNextReminderText": "Seuraava muistutus on {date}.",
+  "consumptionYearlyDetailedElectricity": "Sähkönkulutuksesi {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/vuosi ≈ {monthlyConsumption} kWh/kk) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Kaasunkulutuksesi {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/vuosi ≈ {monthlyConsumption} kWh/kk) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Kulutat{verbSuffix} {percentage} vähemmän kuin keskimääräinen kotitalous, jossa on {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Kulutat{verbSuffix} {percentage} enemmän kuin keskimääräinen kotitalous, jossa on {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Kulutat{verbSuffix} suunnilleen sama kuin keskimääräinen kotitalous, jossa on {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Kulutat noin {dailyLiters} litraa päivässä (≈ {monthlyCubicMeters} {unitName} kuukaudessa).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per henkilö, kaikki kuluttavat noin {dailyLiters} litraa päivässä (≈ {monthlyCubicMeters} {unitName} kuukaudessa).",
+  "consumptionYearlyDetailedLevel2": "on normaalia."
 }

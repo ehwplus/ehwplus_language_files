@@ -368,13 +368,17 @@
   "termsOfUsageBlock2a": "익명화된 사용 데이터\n우리는 자체 분석을 사용하여 지속적으로 앱을 개선합니다.\n익명화된 데이터만 전송됩니다.\n데이터는 제3자에게 전달되지 않습니다.\n자세한 내용을 보려면 설정 > 개인정보 보호 > {privacyBlock3Title}로 이동하세요.",
   "@termsOfUsageBlock2a": {
     "placeholders": {
-      "privacyBlock3Title": { "type": "String" }
+      "privacyBlock3Title": {
+        "type": "String"
+      }
     }
   },
   "termsOfUsageBlock2b": "오류 보고서\nSentry(자체 호스팅)는 앱을 지속적으로 개선하는 데 사용됩니다.\n오류 보고서는 처리되지 않으며 제3자와 공유되지 않습니다.\n자세한 내용을 보려면 설정 > 개인정보 보호 > {privacyBlock3Title}로 이동하세요.",
   "@termsOfUsageBlock2b": {
     "placeholders": {
-      "privacyBlock3Title": { "type": "String" }
+      "privacyBlock3Title": {
+        "type": "String"
+      }
     }
   },
   "termsOfUsageBlock2c": "개인 정보\nGoogle Drive 동기화를 사용하더라도 EHW+는 사용자가 입력한 데이터에 접근할 수 없습니다. 자세한 내용은 설정 > 개인정보 > {privacyBlock3Title}에서 확인할 수 있습니다.",
@@ -392,13 +396,17 @@
   "googleApiAgreement": "{appNameShort}의 Google API 사용 및 Google API로부터 받은 정보의 타 앱 전송은 Google API 서비스 사용자 데이터 정책, 특히 제한적 사용 요건을 준수합니다.",
   "@googleApiAgreement": {
     "placeholders": {
-      "appNameShort": { "type": "String" }
+      "appNameShort": {
+        "type": "String"
+      }
     }
   },
   "privacyBlock3bText": "{googleApiAgreement}\n\n위치 데이터.\n사용자 행동을 이해하고 향후 기능을 위해 앱은 익명화된 사용 데이터를 전송합니다.\n데이터는 제3자와 공유되지 않습니다.\n원산지(국가 및 도시), 언어, 운영 체제, 장치 유형, 해상도, 클릭 동작 및 사용 기간에 대한 정보가 수집될 수 있습니다.\n\n장치 데이터.\n당사는 귀하가 서비스에 연결하는 데 사용하는 장치의 수와 유형에 대한 데이터뿐만 아니라 해당 장치의 운영 체제(예: Android, iOS, Windows 또는 macOS)에 대한 정보도 수집합니다.\n\n앱을 사용함으로써 귀하는 위에서 설명한 익명 데이터 수집에 동의하게 됩니다.",
   "@privacyBlock3bText": {
     "placeholders": {
-      "googleApiAgreement": { "type": "String" }
+      "googleApiAgreement": {
+        "type": "String"
+      }
     }
   },
   "privacyContractPriceSubmission": "사용자가 계약 데이터를 관리할 때, 전기·수도·가스 계약의 단위 가격은 국가 및 연방주 정보와 함께 독일의 EHW+ 서버로 전송됩니다. 이 데이터는 가격 통계를 계산하는 데 사용되며, 앱 사용자에게는 계약 화면의 가격 비교 형태로 표시됩니다.\n\n앱 사용 시 위의 익명 데이터 수집에 동의한 것으로 간주됩니다.",
@@ -909,5 +917,13 @@
   "priceComparisonDiff": "{countryName}의 평균보다 {diffWithCurrency}만큼 {comparison, select, more {더 많이} less {더 적게} other {더 많이}} 지불하고 있습니다.",
   "roomNamePart": "({roomName}) ",
   "warningOutdatedSinceText": " {date}부터",
-  "warningNextReminderText": " 다음 알림은 {date}입니다."
+  "warningNextReminderText": " 다음 알림은 {date}입니다.",
+  "consumptionYearlyDetailedElectricity": "귀하의 전력 소비량 {ofRange} ({totalConsumption} kWh ≈ 연 {yearlyConsumption} kWh ≈ 월 {monthlyConsumption} kWh) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "귀하의 가스 소비량 {ofRange} ({totalConsumption} kWh ≈ 연 {yearlyConsumption} kWh ≈ 월 {monthlyConsumption} kWh) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "귀하는 소비하고 있습니다{verbSuffix} {percentage} 적게 평균 {householdSize} {personLabel} 가구와 비교하여.",
+  "consumptionYearlyDetailedComparisonMore": "귀하는 소비하고 있습니다{verbSuffix} {percentage} 더 많이 평균 {householdSize} {personLabel} 가구와 비교하여.",
+  "consumptionYearlyDetailedComparisonEqual": "귀하는 소비하고 있습니다{verbSuffix} 평균과 비슷하게 평균 {householdSize} {personLabel} 가구와 비교하여.",
+  "consumptionWaterDailyMonthlySingle": "귀하는 소비합니다 하루 약 {dailyLiters}리터 (월 약 {monthlyCubicMeters} {unitName}).",
+  "consumptionWaterDailyMonthlyPerPerson": "1인당 소비량은 하루 약 {dailyLiters}리터 (월 약 {monthlyCubicMeters} {unitName}).",
+  "consumptionYearlyDetailedLevel2": "은(는) 정상 범위입니다."
 }

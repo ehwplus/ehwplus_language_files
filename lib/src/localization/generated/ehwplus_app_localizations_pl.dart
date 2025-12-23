@@ -351,41 +351,74 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Twoje zużycie energii elektrycznej $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/miesiąc)';
+    return 'Twoje zużycie energii elektrycznej $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/miesiąc) jest $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Twoje zużycie gazu $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/miesiąc)';
+    return 'Twoje zużycie gazu $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/miesiąc) jest $consumptionLevel.';
   }
 
   @override
-  String get consumptionYearlyDetailedLevel0 => 'jest bardzo niski.';
+  String get consumptionYearlyDetailedLevel0 => 'bardzo niski';
 
   @override
-  String get consumptionYearlyDetailedLevel1 =>
-      'jest naprawdę na co popatrzeć.';
+  String get consumptionYearlyDetailedLevel1 => 'naprawdę na co popatrzeć';
 
   @override
-  String get consumptionYearlyDetailedLevel3 => 'jest stosunkowo wysoki.';
+  String get consumptionYearlyDetailedLevel2 => 'normalne.';
 
   @override
-  String get consumptionYearlyDetailedLevel4 => 'jest normalne.';
+  String get consumptionYearlyDetailedLevel3 => 'stosunkowo wysoki';
+
+  @override
+  String get consumptionYearlyDetailedLevel4 => 'normalne';
 
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Zużywasz$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Zużywasz$verbSuffix $percentage mniej niż przeciętne gospodarstwo domowe z $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Zużywasz$verbSuffix $percentage więcej niż przeciętne gospodarstwo domowe z $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Zużywasz$verbSuffix mniej więcej tak samo jak przeciętne gospodarstwo domowe z $householdSize $personLabel.';
   }
 
   @override
@@ -446,6 +479,24 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'około $dailyLiters litrów dziennie (≈ $monthlyCubicMeters $unitName na miesiąc).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Konsumujesz około $dailyLiters litrów dziennie (≈ $monthlyCubicMeters $unitName na miesiąc).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Na osobę konsumuje każdy około $dailyLiters litrów dziennie (≈ $monthlyCubicMeters $unitName na miesiąc).';
   }
 
   @override

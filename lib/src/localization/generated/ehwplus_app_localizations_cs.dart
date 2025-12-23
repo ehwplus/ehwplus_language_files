@@ -349,23 +349,25 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Vaše spotřeba elektřiny $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/měsíc)';
+    return 'Vaše spotřeba elektřiny $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/měsíc) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Vaše spotřeba plynu $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/měsíc)';
+    return 'Vaše spotřeba plynu $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/rok ≈ $monthlyConsumption kWh/měsíc) $consumptionLevel.';
   }
 
   @override
@@ -373,6 +375,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'je opravdu na co se dívat.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'je normální.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'je poměrně vysoká.';
@@ -383,6 +388,35 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Spotřebujete$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Spotřebujete$verbSuffix $percentage méně než průměrná domácnost s $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Spotřebujete$verbSuffix $percentage více než průměrná domácnost s $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Spotřebujete$verbSuffix zhruba stejně jako průměrná domácnost s $householdSize $personLabel.';
   }
 
   @override
@@ -443,6 +477,24 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'asi $dailyLiters litrů za den (≈ $monthlyCubicMeters $unitName za měsíc).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Spotřebujete asi $dailyLiters litrů za den (≈ $monthlyCubicMeters $unitName za měsíc).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Na osobu spotřebují všichni asi $dailyLiters litrů za den (≈ $monthlyCubicMeters $unitName za měsíc).';
   }
 
   @override

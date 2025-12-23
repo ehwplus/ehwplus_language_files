@@ -1700,5 +1700,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Atsižvelkite į bendrą suvartojimą"
+  "counterConsiderForTotalConsumptions": "Atsižvelkite į bendrą suvartojimą",
+  "consumptionYearlyDetailedElectricity": "Jūsų elektros suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Jūsų dujų suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Jūs vartojate{verbSuffix} {percentage} mažiau nei vidutinis namų ūkis su {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Jūs vartojate{verbSuffix} {percentage} daugiau nei vidutinis namų ūkis su {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Jūs vartojate{verbSuffix} maždaug toks pat kaip vidutinis namų ūkis su {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Jūs vartojate apie {dailyLiters} litrų per dieną (≈ {monthlyCubicMeters} {unitName} per mėnesį).",
+  "consumptionWaterDailyMonthlyPerPerson": "Vienam žmogui visi suvartoja apie {dailyLiters} litrų per dieną (≈ {monthlyCubicMeters} {unitName} per mėnesį).",
+  "consumptionYearlyDetailedLevel2": "yra normalu."
 }

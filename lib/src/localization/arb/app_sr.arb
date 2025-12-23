@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Узмите у обзир укупну потрошњу"
+  "counterConsiderForTotalConsumptions": "Узмите у обзир укупну потрошњу",
+  "consumptionYearlyDetailedElectricity": "Ваша потрошња електричне енергије ПХТОКЕН0 (ПХТОКЕН1 кВх ≈ ПХТОКЕН2 кВх/годишње ≈ ПХТОКЕН3 кВх/месец) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Ваша потрошња гаса ПХТОКЕН0 (ПХТОКЕН1 кВх ≈ ПХТОКЕН2 кВх/годишње ≈ ПХТОКЕН3 кВх/месечно) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Ви конзумиратеПХТОКЕН0 ПХТОКЕН0 мање од просечно домаћинство са ПХТОКЕН0 ПХТОКЕН1.",
+  "consumptionYearlyDetailedComparisonMore": "Ви конзумиратеПХТОКЕН0 ПХТОКЕН0 више од просечно домаћинство са ПХТОКЕН0 ПХТОКЕН1.",
+  "consumptionYearlyDetailedComparisonEqual": "Ви конзумиратеПХТОКЕН0 отприлике исто као просечно домаћинство са ПХТОКЕН0 ПХТОКЕН1.",
+  "consumptionWaterDailyMonthlySingle": "Ви конзумирате око ПХТОКЕН0 литара дневно (≈ ПХТОКЕН1 ПХТОКЕН2 месечно).",
+  "consumptionWaterDailyMonthlyPerPerson": "По особи, сви конзумирају око ПХТОКЕН0 литара дневно (≈ ПХТОКЕН1 ПХТОКЕН2 месечно).",
+  "consumptionYearlyDetailedLevel2": "је нормално."
 }

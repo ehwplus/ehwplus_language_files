@@ -352,23 +352,25 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Ваше споживання електроенергії $ofRange ($totalConsumption кВт-год ≈ $yearlyConsumption кВт-год/рік ≈ $monthlyConsumption кВт-год/місяць)';
+    return 'Ваше споживання електроенергії $ofRange ($totalConsumption кВт-год ≈ $yearlyConsumption кВт-год/рік ≈ $monthlyConsumption кВт-год/місяць) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Ваше споживання газу $ofRange ($totalConsumption кВт-год ≈ $yearlyConsumption кВт-год/рік ≈ $monthlyConsumption кВт-год/місяць)';
+    return 'Ваше споживання газу $ofRange ($totalConsumption кВт-год ≈ $yearlyConsumption кВт-год/рік ≈ $monthlyConsumption кВт-год/місяць) $consumptionLevel.';
   }
 
   @override
@@ -376,6 +378,9 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'дійсно є на що подивитись.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'це нормально.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'є відносно високим.';
@@ -386,6 +391,35 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Ви споживаєте$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Ви споживаєте$verbSuffix $percentage менше ніж середнє домогосподарство з $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Ви споживаєте$verbSuffix $percentage більше ніж середнє домогосподарство з $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Ви споживаєте$verbSuffix приблизно так само, як середнє домогосподарство з $householdSize $personLabel.';
   }
 
   @override
@@ -446,6 +480,24 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'близько $dailyLiters літрів на день (≈ $monthlyCubicMeters $unitName на місяць).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Ви споживаєте близько $dailyLiters літрів на день (≈ $monthlyCubicMeters $unitName на місяць).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'На людину споживають усі близько $dailyLiters літрів на день (≈ $monthlyCubicMeters $unitName на місяць).';
   }
 
   @override

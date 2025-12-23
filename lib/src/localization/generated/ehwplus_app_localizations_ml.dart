@@ -353,23 +353,25 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'നിങ്ങളുടെ വൈദ്യുതി ഉപയോഗം $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh പ്രതിവർഷം ≈ $monthlyConsumption kWh പ്രതിമാസം)';
+    return 'നിങ്ങളുടെ വൈദ്യുതി ഉപയോഗം $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh പ്രതിവർഷം ≈ $monthlyConsumption kWh പ്രതിമാസം) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'നിങ്ങളുടെ ഗ്യാസ് ഉപയോഗം $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh പ്രതിവർഷം ≈ $monthlyConsumption kWh പ്രതിമാസം)';
+    return 'നിങ്ങളുടെ ഗ്യാസ് ഉപയോഗം $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh പ്രതിവർഷം ≈ $monthlyConsumption kWh പ്രതിമാസം) $consumptionLevel.';
   }
 
   @override
@@ -377,6 +379,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'ശരിക്കും കാണേണ്ട ഒന്നാണ്.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'സാധാരണമാണ്.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'താരതമ്യേന ഉയർന്നതാണ്.';
@@ -387,6 +392,35 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'നിങ്ങൾ$verbSuffix ഉപയോഗിക്കുന്നു';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'നിങ്ങൾ$verbSuffix ഉപയോഗിക്കുന്നു $percentage-നേക്കാൾ കുറവാണ് $householdSize $personLabel ഉള്ള ഒരു ശരാശരി കുടുംബം.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'നിങ്ങൾ$verbSuffix ഉപയോഗിക്കുന്നു $percentage-ൽ കൂടുതൽ $householdSize $personLabel ഉള്ള ഒരു ശരാശരി കുടുംബം.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'നിങ്ങൾ$verbSuffix ഉപയോഗിക്കുന്നു ഏകദേശം അതേ പോലെ $householdSize $personLabel ഉള്ള ഒരു ശരാശരി കുടുംബം.';
   }
 
   @override
@@ -449,6 +483,24 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'പ്രതിദിനം ഏകദേശം $dailyLiters ലിറ്റർ (പ്രതിമാസം ≈ $monthlyCubicMeters $unitName).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'നിങ്ങൾ ഉപഭോഗം ചെയ്യുക പ്രതിദിനം ഏകദേശം $dailyLiters ലിറ്റർ (പ്രതിമാസം ≈ $monthlyCubicMeters $unitName).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'ഓരോ വ്യക്തിക്കും, എല്ലാവരും ഉപയോഗിക്കുന്നു പ്രതിദിനം ഏകദേശം $dailyLiters ലിറ്റർ (പ്രതിമാസം ≈ $monthlyCubicMeters $unitName).';
   }
 
   @override

@@ -918,5 +918,13 @@
   "priceComparisonDiff": "Zaplatíte {diffWithCurrency} {comparison, select, more {více než} less {méně než} other {více než}} než průměr v {countryName}.",
   "roomNamePart": "v {roomName}",
   "warningOutdatedSinceText": "od {date}",
-  "warningNextReminderText": "Další připomenutí je {date}."
+  "warningNextReminderText": "Další připomenutí je {date}.",
+  "consumptionYearlyDetailedElectricity": "Vaše spotřeba elektřiny {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/měsíc) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Vaše spotřeba plynu {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/měsíc) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Spotřebujete{verbSuffix} {percentage} méně než průměrná domácnost s {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Spotřebujete{verbSuffix} {percentage} více než průměrná domácnost s {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Spotřebujete{verbSuffix} zhruba stejně jako průměrná domácnost s {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Spotřebujete asi {dailyLiters} litrů za den (≈ {monthlyCubicMeters} {unitName} za měsíc).",
+  "consumptionWaterDailyMonthlyPerPerson": "Na osobu spotřebují všichni asi {dailyLiters} litrů za den (≈ {monthlyCubicMeters} {unitName} za měsíc).",
+  "consumptionYearlyDetailedLevel2": "je normální."
 }

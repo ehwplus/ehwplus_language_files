@@ -917,5 +917,13 @@
   "priceComparisonDiff": "आप {countryName} के औसत से {diffWithCurrency} {comparison, select, more {अधिक} less {कम} other {अधिक}} भुगतान करते हैं।",
   "roomNamePart": "{roomName} में",
   "warningOutdatedSinceText": "चूँकि {date}",
-  "warningNextReminderText": "अगला अनुस्मारक {date} है।"
+  "warningNextReminderText": "अगला अनुस्मारक {date} है।",
+  "consumptionYearlyDetailedElectricity": "आपकी बिजली की बैटरी {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/वर्ष ≈ {monthlyConsumption} kWh/महीना) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "आपका गैस प्लांट {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/वर्ष ≈ {monthlyConsumption} kWh/महीना) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "आप उपभोग करते हैं{verbSuffix} {percentage} से कम {householdSize} {personLabel} वाला एक औसत परिवार.",
+  "consumptionYearlyDetailedComparisonMore": "आप उपभोग करते हैं{verbSuffix} {percentage} से अधिक {householdSize} {personLabel} वाला एक औसत परिवार.",
+  "consumptionYearlyDetailedComparisonEqual": "आप उपभोग करते हैं{verbSuffix} लगभग उसी के समान {householdSize} {personLabel} वाला एक औसत परिवार.",
+  "consumptionWaterDailyMonthlySingle": "आप उपभोग करें लगभग {dailyLiters} किलो प्रति दिन (≈ {monthlyCubicMeters} {unitName} प्रति माह)।",
+  "consumptionWaterDailyMonthlyPerPerson": "प्रति व्यक्ति, हर कोई उपभोग करता है लगभग {dailyLiters} किलो प्रति दिन (≈ {monthlyCubicMeters} {unitName} प्रति माह)।",
+  "consumptionYearlyDetailedLevel2": "सामान्य है."
 }

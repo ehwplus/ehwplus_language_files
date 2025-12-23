@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Upoštevajte skupno porabo"
+  "counterConsiderForTotalConsumptions": "Upoštevajte skupno porabo",
+  "consumptionYearlyDetailedElectricity": "Vaša poraba električne energije {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/leto ≈ {monthlyConsumption} kWh/mesec) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Vaša poraba plina {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/leto ≈ {monthlyConsumption} kWh/mesec) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Zaužijete{verbSuffix} {percentage} manj kot povprečno gospodinjstvo s {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Zaužijete{verbSuffix} {percentage} več kot povprečno gospodinjstvo s {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Zaužijete{verbSuffix} približno enako kot povprečno gospodinjstvo s {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Porabiš približno {dailyLiters} litrov na dan (≈ {monthlyCubicMeters} {unitName} na mesec).",
+  "consumptionWaterDailyMonthlyPerPerson": "Na osebo porabijo vsi približno {dailyLiters} litrov na dan (≈ {monthlyCubicMeters} {unitName} na mesec).",
+  "consumptionYearlyDetailedLevel2": "je normalno."
 }

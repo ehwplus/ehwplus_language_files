@@ -918,5 +918,13 @@
   "priceComparisonDiff": "Πληρώνετε {diffWithCurrency} {comparison, select, more {περισσότερα από} less {λιγότερα από} other {περισσότερα από}} τον μέσο όρο σε {countryName}.",
   "roomNamePart": "στο {roomName}",
   "warningOutdatedSinceText": "από το {date}",
-  "warningNextReminderText": "Η επόμενη υπενθύμιση είναι {date}."
+  "warningNextReminderText": "Η επόμενη υπενθύμιση είναι {date}.",
+  "consumptionYearlyDetailedElectricity": "Η κατανάλωση ηλεκτρικής ενέργειας σας {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/έτος ≈ {monthlyConsumption} kWh/μήνα) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Η κατανάλωση αερίου σας {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/έτος ≈ {monthlyConsumption} kWh/μήνα) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Καταναλώνετε{verbSuffix} {percentage} λιγότερο από ένα μέσο νοικοκυριό με {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Καταναλώνετε{verbSuffix} {percentage} περισσότερο από ένα μέσο νοικοκυριό με {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Καταναλώνετε{verbSuffix} περίπου το ίδιο με ένα μέσο νοικοκυριό με {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Καταναλώνεις περίπου {dailyLiters} λίτρα την ημέρα (≈ {monthlyCubicMeters} {unitName} ανά μήνα).",
+  "consumptionWaterDailyMonthlyPerPerson": "Ανά άτομο καταναλώνουν όλοι περίπου {dailyLiters} λίτρα την ημέρα (≈ {monthlyCubicMeters} {unitName} ανά μήνα).",
+  "consumptionYearlyDetailedLevel2": "είναι φυσιολογικό."
 }

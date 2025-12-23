@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Tänk på den totala förbrukningen"
+  "counterConsiderForTotalConsumptions": "Tänk på den totala förbrukningen",
+  "consumptionYearlyDetailedElectricity": "Din elförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Din gasförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Du konsumerar{verbSuffix} {percentage} mindre än ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Du konsumerar{verbSuffix} {percentage} mer än ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Du konsumerar{verbSuffix} ungefär samma som ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Du konsumerar ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per person konsumerar alla ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
+  "consumptionYearlyDetailedLevel2": "är normalt."
 }

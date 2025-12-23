@@ -351,23 +351,25 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Matumizi yako ya umeme phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi)';
+    return 'Matumizi yako ya umeme phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Matumizi yako ya gesi phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi)';
+    return 'Matumizi yako ya gesi phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi) $consumptionLevel.';
   }
 
   @override
@@ -375,6 +377,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'ni kweli kitu cha kuona.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'ni kawaida.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'ni ya juu sana.';
@@ -385,6 +390,35 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Wewe matumizi ya matumizi0';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Wewe matumizi ya matumizi0 Phtoken0 chini ya Kaya ya wastani na phtoken0 phtoken1.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Wewe matumizi ya matumizi0 Phtoken0 zaidi ya Kaya ya wastani na phtoken0 phtoken1.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Wewe matumizi ya matumizi0 karibu sawa na Kaya ya wastani na phtoken0 phtoken1.';
   }
 
   @override
@@ -446,6 +480,24 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Unatumia kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Kwa kila mtu, kila mtu hutumia kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).';
   }
 
   @override

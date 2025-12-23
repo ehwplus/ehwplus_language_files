@@ -346,23 +346,25 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return '귀하의 전력 소비량 $ofRange ($totalConsumption kWh ≈ 연 $yearlyConsumption kWh ≈ 월 $monthlyConsumption kWh) ';
+    return '귀하의 전력 소비량 $ofRange ($totalConsumption kWh ≈ 연 $yearlyConsumption kWh ≈ 월 $monthlyConsumption kWh) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return '귀하의 가스 소비량 $ofRange ($totalConsumption kWh ≈ 연 $yearlyConsumption kWh ≈ 월 $monthlyConsumption kWh) ';
+    return '귀하의 가스 소비량 $ofRange ($totalConsumption kWh ≈ 연 $yearlyConsumption kWh ≈ 월 $monthlyConsumption kWh) $consumptionLevel.';
   }
 
   @override
@@ -370,6 +372,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => '은(는) 정말 인상적입니다.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => '은(는) 정상 범위입니다.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => '은(는) 비교적 높습니다.';
@@ -380,6 +385,35 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return '귀하는 소비하고 있습니다$verbSuffix ';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '귀하는 소비하고 있습니다$verbSuffix $percentage 적게 평균 $householdSize $personLabel 가구와 비교하여.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '귀하는 소비하고 있습니다$verbSuffix $percentage 더 많이 평균 $householdSize $personLabel 가구와 비교하여.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '귀하는 소비하고 있습니다$verbSuffix 평균과 비슷하게 평균 $householdSize $personLabel 가구와 비교하여.';
   }
 
   @override
@@ -440,6 +474,24 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return '하루 약 $dailyLiters리터 (월 약 $monthlyCubicMeters $unitName).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return '귀하는 소비합니다 하루 약 $dailyLiters리터 (월 약 $monthlyCubicMeters $unitName).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return '1인당 소비량은 하루 약 $dailyLiters리터 (월 약 $monthlyCubicMeters $unitName).';
   }
 
   @override

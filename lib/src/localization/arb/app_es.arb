@@ -889,5 +889,13 @@
   "priceComparisonDiff": "Pagas {diffWithCurrency} {comparison, select, more {más que} less {menos que} other {más que}} el promedio en {countryName}.",
   "roomNamePart": "en {roomName} ",
   "warningOutdatedSinceText": "desde {date}",
-  "warningNextReminderText": " El próximo recordatorio es el {date}."
+  "warningNextReminderText": " El próximo recordatorio es el {date}.",
+  "consumptionYearlyDetailedElectricity": "Su consumo de electricidad {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/año ≈ {monthlyConsumption} kWh/mes) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Su consumo de gas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/año ≈ {monthlyConsumption} kWh/mes) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Consume{verbSuffix} {percentage} menos que un hogar promedio de {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Consume{verbSuffix} {percentage} más que un hogar promedio de {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Consume{verbSuffix} aproximadamente lo mismo que un hogar promedio de {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Consume aprox. {dailyLiters} litros al día (≈ {monthlyCubicMeters} {unitName} al mes).",
+  "consumptionWaterDailyMonthlyPerPerson": "Por persona, cada uno consume aprox. {dailyLiters} litros al día (≈ {monthlyCubicMeters} {unitName} al mes).",
+  "consumptionYearlyDetailedLevel2": "es normal."
 }

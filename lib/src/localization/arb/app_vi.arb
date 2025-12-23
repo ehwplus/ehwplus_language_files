@@ -1704,5 +1704,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Xem xét tổng mức tiêu thụ"
+  "counterConsiderForTotalConsumptions": "Xem xét tổng mức tiêu thụ",
+  "consumptionYearlyDetailedElectricity": "Mức tiêu thụ điện của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Mức tiêu thụ khí đốt của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Bạn tiêu thụ{verbSuffix} {percentage} ít hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Bạn tiêu thụ{verbSuffix} {percentage} hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Bạn tiêu thụ{verbSuffix} về giống như một hộ gia đình trung bình có {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Bạn tiêu thụ khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
+  "consumptionWaterDailyMonthlyPerPerson": "Mỗi người, mọi người tiêu dùng khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
+  "consumptionYearlyDetailedLevel2": "là bình thường."
 }

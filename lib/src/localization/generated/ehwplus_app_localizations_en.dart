@@ -352,41 +352,74 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Your electricity consumption $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/year ≈ $monthlyConsumption kWh/month) ';
+    return 'Your electricity consumption $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/year ≈ $monthlyConsumption kWh/month) is $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Your gas consumption $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/year ≈ $monthlyConsumption kWh/month) ';
+    return 'Your gas consumption $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/year ≈ $monthlyConsumption kWh/month) is $consumptionLevel.';
   }
 
   @override
-  String get consumptionYearlyDetailedLevel0 => 'is super low.';
+  String get consumptionYearlyDetailedLevel0 => 'super low';
 
   @override
-  String get consumptionYearlyDetailedLevel1 =>
-      'is really something to behold.';
+  String get consumptionYearlyDetailedLevel1 => 'low';
 
   @override
-  String get consumptionYearlyDetailedLevel3 => 'is relatively high.';
+  String get consumptionYearlyDetailedLevel2 => 'within a normal range';
 
   @override
-  String get consumptionYearlyDetailedLevel4 => 'is normal.';
+  String get consumptionYearlyDetailedLevel3 => 'relatively high';
+
+  @override
+  String get consumptionYearlyDetailedLevel4 => 'within a normal range';
 
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'You consume$verbSuffix ';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'You consume$verbSuffix $percentage less than an average household with $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'You consume$verbSuffix $percentage more than an average household with $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'You consume$verbSuffix about the same as an average household with $householdSize $personLabel.';
   }
 
   @override
@@ -415,12 +448,12 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(String nextToOptimal) {
-    return '$nextToOptimal kWh/month missing for optimal consumption.';
+    return 'You would reach optimal consumption with about $nextToOptimal kWh/month less.';
   }
 
   @override
   String consumptionYearlyDetailedLevel2Suffix(String nextToOptimal) {
-    return '$nextToOptimal kWh/month missing for good consumption.';
+    return 'Reducing around $nextToOptimal kWh/month would bring you to a good consumption level.';
   }
 
   @override
@@ -448,6 +481,24 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'about $dailyLiters liters per day (≈ $monthlyCubicMeters $unitName per month).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'You consume about $dailyLiters liters per day (≈ $monthlyCubicMeters $unitName per month).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Per person, this equals about $dailyLiters liters per day (≈ $monthlyCubicMeters $unitName per month).';
   }
 
   @override

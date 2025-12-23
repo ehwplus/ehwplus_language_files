@@ -342,23 +342,25 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return '您的用电量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月)';
+    return '您的用电量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return '您的燃气消耗量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月)';
+    return '您的燃气消耗量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月) $consumptionLevel.';
   }
 
   @override
@@ -366,6 +368,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => '确实值得一看。';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => '是正常的。';
 
   @override
   String get consumptionYearlyDetailedLevel3 => '是比较高的。';
@@ -376,6 +381,35 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return '您消耗$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '您消耗$verbSuffix $percentage 小于 拥有 $householdSize $personLabel 的普通家庭.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '您消耗$verbSuffix $percentage 多于 拥有 $householdSize $personLabel 的普通家庭.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return '您消耗$verbSuffix 大约与 拥有 $householdSize $personLabel 的普通家庭.';
   }
 
   @override
@@ -436,6 +470,24 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return '每天约 $dailyLiters 升（约每月 $monthlyCubicMeters $unitName）。';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return '你消费 每天约 $dailyLiters 升（约每月 $monthlyCubicMeters $unitName）。';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return '每个人，每个人都消费 每天约 $dailyLiters 升（约每月 $monthlyCubicMeters $unitName）。';
   }
 
   @override

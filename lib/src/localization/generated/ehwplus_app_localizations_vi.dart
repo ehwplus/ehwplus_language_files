@@ -353,23 +353,25 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Mức tiêu thụ điện của bạn $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/năm ≈ $monthlyConsumption kWh/tháng)';
+    return 'Mức tiêu thụ điện của bạn $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/năm ≈ $monthlyConsumption kWh/tháng) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Mức tiêu thụ khí đốt của bạn $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/năm ≈ $monthlyConsumption kWh/tháng)';
+    return 'Mức tiêu thụ khí đốt của bạn $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/năm ≈ $monthlyConsumption kWh/tháng) $consumptionLevel.';
   }
 
   @override
@@ -380,6 +382,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'thực sự là một cái gì đó đáng chú ý.';
 
   @override
+  String get consumptionYearlyDetailedLevel2 => 'là bình thường.';
+
+  @override
   String get consumptionYearlyDetailedLevel3 => 'là tương đối cao.';
 
   @override
@@ -388,6 +393,35 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Bạn tiêu thụ$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Bạn tiêu thụ$verbSuffix $percentage ít hơn một hộ gia đình trung bình có $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Bạn tiêu thụ$verbSuffix $percentage hơn một hộ gia đình trung bình có $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Bạn tiêu thụ$verbSuffix về giống như một hộ gia đình trung bình có $householdSize $personLabel.';
   }
 
   @override
@@ -450,6 +484,24 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'khoảng $dailyLiters lít mỗi ngày (≈ $monthlyCubicMeters $unitName mỗi tháng).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Bạn tiêu thụ khoảng $dailyLiters lít mỗi ngày (≈ $monthlyCubicMeters $unitName mỗi tháng).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Mỗi người, mọi người tiêu dùng khoảng $dailyLiters lít mỗi ngày (≈ $monthlyCubicMeters $unitName mỗi tháng).';
   }
 
   @override

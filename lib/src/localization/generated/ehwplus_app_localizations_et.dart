@@ -352,23 +352,25 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Teie elektrivõrgust tarbimine $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/aasta ≈ $monthlyConsumption kWh/kuu) ';
+    return 'Teie elektrivõrgust tarbimine $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/aasta ≈ $monthlyConsumption kWh/kuu) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Teie gaasivõrgust tarbimine $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/aasta ≈ $monthlyConsumption kWh/kuu) ';
+    return 'Teie gaasivõrgust tarbimine $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/aasta ≈ $monthlyConsumption kWh/kuu) $consumptionLevel.';
   }
 
   @override
@@ -376,6 +378,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'on tõesti vaatamist väärt.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'on normaalne.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'on suhteliselt kõrge.';
@@ -386,6 +391,35 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Teie tarbite$verbSuffix ';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Teie tarbite$verbSuffix $percentage vähem kui keskmine $householdSize $personLabel-ga leibkond.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Teie tarbite$verbSuffix $percentage rohkem kui keskmine $householdSize $personLabel-ga leibkond.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Teie tarbite$verbSuffix umbes sama kui keskmine $householdSize $personLabel-ga leibkond.';
   }
 
   @override
@@ -448,6 +482,24 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'umbes $dailyLiters liitrit päevas (≈ $monthlyCubicMeters $unitName kuus).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Teie tarbimine on umbes $dailyLiters liitrit päevas (≈ $monthlyCubicMeters $unitName kuus).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Inimese kohta tarbib igaüks umbes $dailyLiters liitrit päevas (≈ $monthlyCubicMeters $unitName kuus).';
   }
 
   @override

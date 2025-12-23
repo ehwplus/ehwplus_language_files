@@ -917,5 +917,13 @@
   "priceComparisonDiff": "شما {diffWithCurrency} {comparison, select, more {بیشتر از} less {کمتر از} other {بیشتر از}} متوسط در {countryName} پرداخت می‌کنید.",
   "roomNamePart": "در {roomName}",
   "warningOutdatedSinceText": "از تاریخ {date}",
-  "warningNextReminderText": "یادآوری بعدی {date} است."
+  "warningNextReminderText": "یادآوری بعدی {date} است.",
+  "consumptionYearlyDetailedElectricity": "مصرف برق شما {ofRange} ({totalConsumption} کیلووات ساعت ≈ {yearlyConsumption} کیلووات ساعت در سال ≈ {monthlyConsumption} کیلووات ساعت در ماه) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "مصرف گاز شما {ofRange} ({totalConsumption} کیلووات ساعت ≈ {yearlyConsumption} کیلووات ساعت در سال ≈ {monthlyConsumption} کیلووات ساعت در ماه) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "شما مصرف می کنید{verbSuffix} {percentage} کمتر از یک خانواده متوسط ​​با {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "شما مصرف می کنید{verbSuffix} {percentage} بیش از یک خانواده متوسط ​​با {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "شما مصرف می کنید{verbSuffix} تقریباً مشابه یک خانواده متوسط ​​با {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "شما مصرف می کنید حدود {dailyLiters} لیتر در روز (≈ {monthlyCubicMeters} {unitName} در ماه).",
+  "consumptionWaterDailyMonthlyPerPerson": "به ازای هر نفر، همه مصرف می کنند حدود {dailyLiters} لیتر در روز (≈ {monthlyCubicMeters} {unitName} در ماه).",
+  "consumptionYearlyDetailedLevel2": "طبیعی است"
 }

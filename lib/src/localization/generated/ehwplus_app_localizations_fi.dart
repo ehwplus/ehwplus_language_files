@@ -350,23 +350,25 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Sähkönkulutuksesi $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/vuosi ≈ $monthlyConsumption kWh/kk)';
+    return 'Sähkönkulutuksesi $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/vuosi ≈ $monthlyConsumption kWh/kk) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Kaasunkulutuksesi $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/vuosi ≈ $monthlyConsumption kWh/kk)';
+    return 'Kaasunkulutuksesi $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/vuosi ≈ $monthlyConsumption kWh/kk) $consumptionLevel.';
   }
 
   @override
@@ -374,6 +376,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get consumptionYearlyDetailedLevel1 => 'on todella katseltavaa.';
+
+  @override
+  String get consumptionYearlyDetailedLevel2 => 'on normaalia.';
 
   @override
   String get consumptionYearlyDetailedLevel3 => 'on suhteellisen korkea.';
@@ -384,6 +389,35 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Kulutat$verbSuffix ';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Kulutat$verbSuffix $percentage vähemmän kuin keskimääräinen kotitalous, jossa on $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Kulutat$verbSuffix $percentage enemmän kuin keskimääräinen kotitalous, jossa on $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Kulutat$verbSuffix suunnilleen sama kuin keskimääräinen kotitalous, jossa on $householdSize $personLabel.';
   }
 
   @override
@@ -445,6 +479,24 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'noin $dailyLiters litraa päivässä (≈ $monthlyCubicMeters $unitName kuukaudessa).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Kulutat noin $dailyLiters litraa päivässä (≈ $monthlyCubicMeters $unitName kuukaudessa).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Per henkilö, kaikki kuluttavat noin $dailyLiters litraa päivässä (≈ $monthlyCubicMeters $unitName kuukaudessa).';
   }
 
   @override

@@ -200,10 +200,11 @@
       }
     }
   },
-  "consumptionYearlyDetailedLevel0": "jest bardzo niski.",
-  "consumptionYearlyDetailedLevel1": "jest naprawdę na co popatrzeć.",
-  "consumptionYearlyDetailedLevel3": "jest stosunkowo wysoki.",
-  "consumptionYearlyDetailedLevel4": "jest normalne.",
+  "consumptionYearlyDetailedLevel0": "bardzo niski",
+  "consumptionYearlyDetailedLevel1": "naprawdę na co popatrzeć",
+  "consumptionYearlyDetailedLevel2": "normalne.",
+  "consumptionYearlyDetailedLevel3": "stosunkowo wysoki",
+  "consumptionYearlyDetailedLevel4": "normalne",
   "consumptionYearlyDetailedYouConsume": "Zużywasz{verbSuffix}",
   "@consumptionYearlyDetailedYouConsume": {
     "placeholders": {
@@ -1703,5 +1704,12 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Weź pod uwagę całkowite zużycie"
+  "counterConsiderForTotalConsumptions": "Weź pod uwagę całkowite zużycie",
+  "consumptionYearlyDetailedElectricity": "Twoje zużycie energii elektrycznej {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/miesiąc) jest {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Twoje zużycie gazu {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/miesiąc) jest {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Zużywasz{verbSuffix} {percentage} mniej niż przeciętne gospodarstwo domowe z {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Zużywasz{verbSuffix} {percentage} więcej niż przeciętne gospodarstwo domowe z {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Zużywasz{verbSuffix} mniej więcej tak samo jak przeciętne gospodarstwo domowe z {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Konsumujesz około {dailyLiters} litrów dziennie (≈ {monthlyCubicMeters} {unitName} na miesiąc).",
+  "consumptionWaterDailyMonthlyPerPerson": "Na osobę konsumuje każdy około {dailyLiters} litrów dziennie (≈ {monthlyCubicMeters} {unitName} na miesiąc)."
 }

@@ -1703,5 +1703,13 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Vurder for totalt forbruk"
+  "counterConsiderForTotalConsumptions": "Vurder for totalt forbruk",
+  "consumptionYearlyDetailedElectricity": "Ditt strømforbruk {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Ditt gassforbruk {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Du bruker{verbSuffix} {percentage} mindre enn en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Du bruker{verbSuffix} {percentage} mer enn en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Du bruker{verbSuffix} omtrent det samme som en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "du forbruker ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per måned).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per person forbruker alle ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per måned).",
+  "consumptionYearlyDetailedLevel2": "er normalt."
 }

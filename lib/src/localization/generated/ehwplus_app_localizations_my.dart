@@ -354,23 +354,25 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 (Phtoken1 Kwh ≈ KWH / KWH / KWH / YEN)';
+    return 'သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 (Phtoken1 Kwh ≈ KWH / KWH / KWH / YEN) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year)';
+    return 'သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year) $consumptionLevel.';
   }
 
   @override
@@ -381,6 +383,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'တကယ်ကြည့်ဖို့တကယ့်ကိုတစ်ခုခုပါ။';
 
   @override
+  String get consumptionYearlyDetailedLevel2 => 'ပုံမှန်ပါပဲ';
+
+  @override
   String get consumptionYearlyDetailedLevel3 => 'အတော်လေးမြင့်မားသည်။';
 
   @override
@@ -389,6 +394,35 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'သငျသညျ Consumephod0';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'သငျသညျ Consumephod0 ထက်လျော့နည်း Phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'သငျသညျ Consumephod0 ထက်ပို phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'သငျသညျ Consumephod0 အတူတူပင်အကြောင်းကို Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.';
   }
 
   @override
@@ -450,6 +484,24 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'သင်လောင် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'လူတစ် ဦး လျှင်လူတိုင်းစားသုံးသည် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။';
   }
 
   @override

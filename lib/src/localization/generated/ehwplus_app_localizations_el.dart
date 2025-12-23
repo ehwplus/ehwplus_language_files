@@ -353,23 +353,25 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionYearlyDetailedElectricityIntro(
+  String consumptionYearlyDetailedElectricity(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Η κατανάλωση ηλεκτρικής ενέργειας σας $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα)';
+    return 'Η κατανάλωση ηλεκτρικής ενέργειας σας $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα) $consumptionLevel.';
   }
 
   @override
-  String consumptionYearlyDetailedGasIntro(
+  String consumptionYearlyDetailedGas(
     String ofRange,
     String totalConsumption,
     String yearlyConsumption,
     String monthlyConsumption,
+    String consumptionLevel,
   ) {
-    return 'Η κατανάλωση αερίου σας $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα)';
+    return 'Η κατανάλωση αερίου σας $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα) $consumptionLevel.';
   }
 
   @override
@@ -380,6 +382,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'είναι πραγματικά κάτι που πρέπει να δεις.';
 
   @override
+  String get consumptionYearlyDetailedLevel2 => 'είναι φυσιολογικό.';
+
+  @override
   String get consumptionYearlyDetailedLevel3 => 'είναι σχετικά υψηλό.';
 
   @override
@@ -388,6 +393,35 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   @override
   String consumptionYearlyDetailedYouConsume(String verbSuffix) {
     return 'Καταναλώνετε$verbSuffix';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonLess(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Καταναλώνετε$verbSuffix $percentage λιγότερο από ένα μέσο νοικοκυριό με $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonMore(
+    String verbSuffix,
+    String percentage,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Καταναλώνετε$verbSuffix $percentage περισσότερο από ένα μέσο νοικοκυριό με $householdSize $personLabel.';
+  }
+
+  @override
+  String consumptionYearlyDetailedComparisonEqual(
+    String verbSuffix,
+    String householdSize,
+    String personLabel,
+  ) {
+    return 'Καταναλώνετε$verbSuffix περίπου το ίδιο με ένα μέσο νοικοκυριό με $householdSize $personLabel.';
   }
 
   @override
@@ -448,6 +482,24 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String unitName,
   ) {
     return 'περίπου $dailyLiters λίτρα την ημέρα (≈ $monthlyCubicMeters $unitName ανά μήνα).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlySingle(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Καταναλώνεις περίπου $dailyLiters λίτρα την ημέρα (≈ $monthlyCubicMeters $unitName ανά μήνα).';
+  }
+
+  @override
+  String consumptionWaterDailyMonthlyPerPerson(
+    String dailyLiters,
+    String monthlyCubicMeters,
+    String unitName,
+  ) {
+    return 'Ανά άτομο καταναλώνουν όλοι περίπου $dailyLiters λίτρα την ημέρα (≈ $monthlyCubicMeters $unitName ανά μήνα).';
   }
 
   @override
