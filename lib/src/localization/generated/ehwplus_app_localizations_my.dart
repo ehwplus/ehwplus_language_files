@@ -615,6 +615,17 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
+  String consumptionYearlyDetailedGas(
+    Object consumptionLevel,
+    Object monthlyConsumption,
+    Object ofRange,
+    Object totalConsumption,
+    Object yearlyConsumption,
+  ) {
+    return 'သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year) $consumptionLevel.';
+  }
+
+  @override
   String consumptionYearlyDetailedLessThan(Object percentage) {
     return 'ထက်လျော့နည်း Phtoken0';
   }

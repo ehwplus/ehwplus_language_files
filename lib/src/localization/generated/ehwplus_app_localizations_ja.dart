@@ -596,6 +596,17 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
+  String consumptionYearlyDetailedGas(
+    Object consumptionLevel,
+    Object monthlyConsumption,
+    Object ofRange,
+    Object totalConsumption,
+    Object yearlyConsumption,
+  ) {
+    return 'ガス消費量 $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/年 ≈ $monthlyConsumption kWh/月) $consumptionLevel.';
+  }
+
+  @override
   String consumptionYearlyDetailedLessThan(Object percentage) {
     return '$percentage未満';
   }

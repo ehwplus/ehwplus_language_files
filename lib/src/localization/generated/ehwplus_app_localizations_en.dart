@@ -469,7 +469,7 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'persons',
+      other: 'people',
       one: 'person',
     );
     return '$_temp0';
@@ -612,6 +612,17 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   }
 
   @override
+  String consumptionYearlyDetailedGas(
+    Object consumptionLevel,
+    Object monthlyConsumption,
+    Object ofRange,
+    Object totalConsumption,
+    Object yearlyConsumption,
+  ) {
+    return 'Your gas consumption $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/year ≈ $monthlyConsumption kWh/month) is $consumptionLevel.';
+  }
+
+  @override
   String consumptionYearlyDetailedLessThan(Object percentage) {
     return '$percentage less than';
   }
@@ -620,11 +631,11 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedLevel0 => 'super low';
 
   @override
-  String get consumptionYearlyDetailedLevel1 => 'quite low';
+  String get consumptionYearlyDetailedLevel1 => 'low';
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return 'About $nextToOptimal% less consumption would be optimal.';
+    return 'You would reach optimal consumption with about $nextToOptimal% less.';
   }
 
   @override

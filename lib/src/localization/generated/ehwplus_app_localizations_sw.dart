@@ -611,6 +611,17 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
+  String consumptionYearlyDetailedGas(
+    Object consumptionLevel,
+    Object monthlyConsumption,
+    Object ofRange,
+    Object totalConsumption,
+    Object yearlyConsumption,
+  ) {
+    return 'Matumizi yako ya gesi phtoken0 (phtoken1 kWh ≈ phtoken2 kWh/mwaka ≈ phtoken3 kWh/mwezi) $consumptionLevel.';
+  }
+
+  @override
   String consumptionYearlyDetailedLessThan(Object percentage) {
     return 'Phtoken0 chini ya';
   }

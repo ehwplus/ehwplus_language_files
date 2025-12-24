@@ -955,7 +955,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @consumptionPersonLabel.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one {person} other {persons}}'**
+  /// **'{count, plural, one {person} other {people}}'**
   String consumptionPersonLabel(num count);
 
   /// No description provided for @consumptionWaterColdEqual.
@@ -1117,6 +1117,18 @@ abstract class EhwplusAppLocalizations {
     Object yearlyConsumption,
   );
 
+  /// No description provided for @consumptionYearlyDetailedGas.
+  ///
+  /// In en, this message translates to:
+  /// **'Your gas consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.'**
+  String consumptionYearlyDetailedGas(
+    Object consumptionLevel,
+    Object monthlyConsumption,
+    Object ofRange,
+    Object totalConsumption,
+    Object yearlyConsumption,
+  );
+
   /// No description provided for @consumptionYearlyDetailedLessThan.
   ///
   /// In en, this message translates to:
@@ -1132,13 +1144,13 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @consumptionYearlyDetailedLevel1.
   ///
   /// In en, this message translates to:
-  /// **'quite low'**
+  /// **'low'**
   String get consumptionYearlyDetailedLevel1;
 
   /// No description provided for @consumptionYearlyDetailedLevel1Suffix.
   ///
   /// In en, this message translates to:
-  /// **'About {nextToOptimal}% less consumption would be optimal.'**
+  /// **'You would reach optimal consumption with about {nextToOptimal}% less.'**
   String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal);
 
   /// No description provided for @consumptionYearlyDetailedLevel2.

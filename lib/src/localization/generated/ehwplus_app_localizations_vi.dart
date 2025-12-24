@@ -612,6 +612,17 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
+  String consumptionYearlyDetailedGas(
+    Object consumptionLevel,
+    Object monthlyConsumption,
+    Object ofRange,
+    Object totalConsumption,
+    Object yearlyConsumption,
+  ) {
+    return 'Mức tiêu thụ khí đốt của bạn $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/năm ≈ $monthlyConsumption kWh/tháng) $consumptionLevel.';
+  }
+
+  @override
   String consumptionYearlyDetailedLessThan(Object percentage) {
     return '$percentage ít hơn';
   }
