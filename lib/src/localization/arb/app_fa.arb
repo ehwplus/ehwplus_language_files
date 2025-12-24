@@ -107,8 +107,6 @@
   "consumptionYearlyDetailedAboutSame": "تقریباً مشابه",
   "consumptionYearlyDetailedAverageHousehold": "یک خانواده متوسط ​​با {householdSize} {personLabel}",
   "consumptionYearlyDetailedOptimalEnding": "چگونه آن را انجام می دهید؟",
-  "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} کیلووات ساعت در ماه برای مصرف بهینه وجود ندارد.",
-  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} کیلووات ساعت در ماه برای مصرف خوب وجود ندارد.",
   "consumptionPersonLabel": "{count, plural, one {نفر} other {نفر}}",
   "consumptionWaterPrefixSingle": "شما مصرف می کنید",
   "consumptionWaterPrefixPerPerson": "به ازای هر نفر، همه مصرف می کنند",

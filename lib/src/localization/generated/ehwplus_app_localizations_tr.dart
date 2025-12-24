@@ -637,7 +637,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return 'PHTOKEN Optimum tüketim için0 kWh/ay eksik.';
+    return 'You would reach optimal consumption with about $nextToOptimal less.';
   }
 
   @override
@@ -645,7 +645,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return 'PHTOKEN İyi tüketim için 0 kWh/ay eksik.';
+    return 'Approximately $nextToOptimal is missing for good consumption.';
   }
 
   @override

@@ -636,7 +636,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return 'Thiếu $nextToOptimal kWh/tháng để tiêu thụ tối ưu.';
+    return 'Thiếu $nextToOptimal để tiêu thụ tối ưu.';
   }
 
   @override
@@ -644,7 +644,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return 'Thiếu $nextToOptimal kWh/tháng để tiêu thụ tốt.';
+    return 'Thiếu $nextToOptimal để tiêu thụ tốt.';
   }
 
   @override

@@ -619,7 +619,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return '最適にするには約$nextToOptimal%少ない消費が理想です。';
+    return 'You would reach optimal consumption with about $nextToOptimal less.';
   }
 
   @override
@@ -627,7 +627,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return '良好な消費まであと約$nextToOptimal%です。';
+    return 'Approximately $nextToOptimal is missing for good consumption.';
   }
 
   @override

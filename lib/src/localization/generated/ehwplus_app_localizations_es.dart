@@ -638,7 +638,7 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return 'Faltan $nextToOptimal kWh/mes para un consumo óptimo.';
+    return 'Faltan $nextToOptimal para un consumo óptimo.';
   }
 
   @override
@@ -646,7 +646,7 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
 
   @override
   String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return 'Faltan $nextToOptimal kWh/mes para un buen consumo.';
+    return 'Faltan $nextToOptimal para un buen consumo.';
   }
 
   @override

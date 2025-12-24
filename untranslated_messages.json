@@ -1,1 +1,41 @@
-{}
+{
+  "fa": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ],
+
+  "ja": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ],
+
+  "my": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ],
+
+  "sr": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ],
+
+  "sw": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ],
+
+  "th": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ],
+
+  "tr": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ],
+
+  "zh": [
+    "consumptionYearlyDetailedLevel1Suffix",
+    "consumptionYearlyDetailedLevel2Suffix"
+  ]
+}
