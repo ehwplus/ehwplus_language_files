@@ -1151,7 +1151,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'You would reach optimal consumption with about {nextToOptimal} less.'**
-  String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal);
+  String consumptionYearlyDetailedLevel1Suffix(num nextToOptimal);
 
   /// No description provided for @consumptionYearlyDetailedLevel2.
   ///
@@ -1163,7 +1163,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Approximately {nextToOptimal} is missing for good consumption.'**
-  String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal);
+  String consumptionYearlyDetailedLevel2Suffix(num nextToOptimal);
 
   /// No description provided for @consumptionYearlyDetailedLevel3.
   ///

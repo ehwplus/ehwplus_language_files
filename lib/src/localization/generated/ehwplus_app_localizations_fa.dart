@@ -632,16 +632,16 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedLevel1 => 'واقعا چیزی برای دیدن است.';
 
   @override
-  String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return 'You would reach optimal consumption with about $nextToOptimal less.';
+  String consumptionYearlyDetailedLevel1Suffix(num nextToOptimal) {
+    return 'با حدود $nextToOptimal کمتر به مصرف بهینه دست می‌یابید.';
   }
 
   @override
   String get consumptionYearlyDetailedLevel2 => 'طبیعی است';
 
   @override
-  String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return 'Approximately $nextToOptimal is missing for good consumption.';
+  String consumptionYearlyDetailedLevel2Suffix(num nextToOptimal) {
+    return 'برای مصرف خوب، تقریباً $nextToOptimal کمتر نیاز است.';
   }
 
   @override

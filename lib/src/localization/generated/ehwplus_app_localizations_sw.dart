@@ -633,16 +633,16 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedLevel1 => 'ni kweli kitu cha kuona.';
 
   @override
-  String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return 'You would reach optimal consumption with about $nextToOptimal less.';
+  String consumptionYearlyDetailedLevel1Suffix(num nextToOptimal) {
+    return 'Unaweza kufikia matumizi bora kwa takriban $nextToOptimal pungufu.';
   }
 
   @override
   String get consumptionYearlyDetailedLevel2 => 'ni kawaida.';
 
   @override
-  String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return 'Approximately $nextToOptimal is missing for good consumption.';
+  String consumptionYearlyDetailedLevel2Suffix(num nextToOptimal) {
+    return 'Takriban $nextToOptimal inakosekana kwa matumizi mazuri.';
   }
 
   @override

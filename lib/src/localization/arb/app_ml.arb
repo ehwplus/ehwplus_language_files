@@ -200,20 +200,6 @@
       }
     }
   },
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "Object"
-      }
-    }
-  },
   "@consumptionYearlyDetailedMoreThan": {
     "placeholders": {
       "percentage": {

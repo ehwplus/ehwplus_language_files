@@ -638,16 +638,16 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'တကယ်ကြည့်ဖို့တကယ့်ကိုတစ်ခုခုပါ။';
 
   @override
-  String consumptionYearlyDetailedLevel1Suffix(Object nextToOptimal) {
-    return 'You would reach optimal consumption with about $nextToOptimal less.';
+  String consumptionYearlyDetailedLevel1Suffix(num nextToOptimal) {
+    return 'အကောင်းဆုံး သုံးစွဲမှုအဆင့်သို့ ရောက်ရှိရန် $nextToOptimal ခန့် လျှော့ချရန် လိုအပ်ပါမည်။';
   }
 
   @override
   String get consumptionYearlyDetailedLevel2 => 'ပုံမှန်ပါပဲ';
 
   @override
-  String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return 'Approximately $nextToOptimal is missing for good consumption.';
+  String consumptionYearlyDetailedLevel2Suffix(num nextToOptimal) {
+    return 'အကောင်းဆုံး သုံးစွဲမှုအဆင့်သို့ ရောက်ရှိရန် $nextToOptimal ခန့် လိုအပ်နေပါသည်။';
   }
 
   @override
