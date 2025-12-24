@@ -1,442 +1,7 @@
 {
-  "appDescriptionShort": "Cüzdan için iyi, iklim için iyi",
   "@appDescriptionShort": {
     "description": "Marketing claim"
   },
-  "appDescriptionLong": "<p><b>E</b>lectricity, <b>H</b>eating ve <b>W</b>ater için sayaç okuma uygulamanız olan <b>EHW+</b>'ye hoş geldiniz. Bizimle <b> <b>0ne kadar kullandığınızı ve ne kadar olduğunu kolayca takip edebilirsiniz<b>1 <b>2ücreti<b>3 ücretsiz.<b>4",
-  "contactTitle": "Temsil edilen:",
-  "contact": "EHW+ Hizmetleri GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nİletişim\n\nTelefon: 06204/7383382\nPosta: info@ehwplus.com",
-  "euDisputeResolution": "AB Uyuşmazlık Çözümü\n\nAvrupa Komisyonu, çevrimiçi anlaşmazlık çözümü (OS) için bir platform sunmaktadır: https://ec.europa.eu/consumers/odr/.\nE-posta adresimizi yukarıdaki künyede bulabilirsiniz.\n\nTüketici anlaşmazlık çözümü/evrensel anlaşmazlık çözüm organı\n\nTüketici hakem heyeti önündeki uyuşmazlık çözüm süreçlerine katılmaya istekli veya yükümlü değiliz.",
-  "consent1Hello": "Merhaba",
-  "consent2ThankYou": "EHW+'ı kullandığınız için teşekkür ederiz!",
-  "consent3Video": "Kısa bir tanıtım videosu izlemek ister misiniz?",
-  "consent4BeforeYouCanContinue": "Devam etmeden önce",
-  "consent5ErrorReportingTitle": "Hata raporları",
-  "consent6ContractPricesPerUnitTitle": "Elektrik/su/gaz fiyatları",
-  "consent7ContractPricesPerUnit": "Diğer EHW+ kullanıcılarına kıyasla şu anda ne kadar ödediğinizi tahmin edebilmek için fiyatlar ülke ve eyaletle birlikte Almanya'daki EHW+ sunucusuna aktarılır. Yalnızca aktarımı kabul ederseniz fiyat istatistiklerine erişebilirsiniz. Anonimliği sağlamak için istatistikler yalnızca minimum sayıda iletilen fiyattan sonra gösterilebilir.",
-  "consent11AnalyticsTitle": "Analiz verileri",
-  "consent12Analytics": "Uygulamanın veya bireysel işlevlerin başarısını değerlendirmek için uygulama, anonimleştirilmiş kullanım istatistiklerini iletir. Veriler üçüncü şahıslara iletilmez. Veriler uygulamanın daha da geliştirilmesi için kullanılır.",
-  "consent13StromGedachtTitle": "StromGedacht'tan şebeke kararlılığı bildirimleri",
-  "consent13StromGedacht": "TransnetBW tarafından sağlanan bir hizmet olan StromGedacht, şebeke istikrarı hakkında bilgi veriyor ve elektriğin ne zaman tercihli olarak kullanılması gerektiğine dair öneriler sunuyor. Enerji geçişi iletim şebekesi için giderek daha zorlu hale gelirken, Güneybatı Almanya'daki haneler de sürece dahil oluyor. Konumunuzla ilgili bilgi almak için, uygulamaya buraya girilmişse posta kodunuz TransnetBW StromGedacht API'sine iletilir. Başka hiçbir veri aktarılmaz veya bağlanmaz.",
-  "stromGedachtAgreement": "StromGedacht bildirimlerini almak için posta kodumun (eğer sağlanmışsa) TransnetBW'ye iletilmesini kabul ediyorum.",
-  "priceSubmissionAgreement": "Birim başına elektrik/gaz/su fiyatlarının bir EHW+ sunucusuna iletilmesini kabul ediyorum",
-  "googleAnalyticsAgreement": "Uygulamanın kullanımına ilişkin anonimleştirilmiş verilerin EHW+ Services GmbH'ye iletilmesini kabul ediyorum.",
-  "continueAcceptPart1": "EHW+ uygulamasını kullanarak şunu kabul etmiş olursunuz:",
-  "continueAcceptPart2": ". Anonimleştirilmiş ve kişisel verilerin toplanması ve kullanılması hakkında daha fazla bilgi için lütfen",
-  "termsOfUsageTitleShort": "Kullanım şartları",
-  "faqAboutDeveloperTitle": "EHW+'ın arkasında kim var?",
-  "faqAboutDeveloperBody1": "EHW+'a gösterdiğiniz ilgi için teşekkür ederiz. EHW+, tarafımca Timo Bähr tarafından Aralık 2020'de piyasaya sürüldü. Tam zamanlı bir uygulama geliştiricisiyim ve boş zamanlarımda çevrenin korunmasına katkıda bulunmak için EHW+ üzerinde çalışıyorum. Mayıs 2022'den bu yana çalışmalarımı ikinci bir geliştirici yönetiyor: Thomas Hesse, EHW+ için arka uçlar oluşturuyor. Janine Sinner, Nisan 2023'ten bu yana çok sayıda müşteri geri bildirimiyle ilgileniyor. Temmuz 2024'ten bu yana Artem Yuzhakov uygulama geliştiricisi olarak katıldı.",
-  "faqAboutDeveloperBody2": "Almanya'daki tüm CO2 emisyonlarının %26'sından fazlası özel hanelerden kaynaklanmaktadır. Herkes tüketimini biraz da olsa azaltabilirse çok şey başarılmış olacaktır. Katkılarınız için çok teşekkür ederiz!",
-  "faqAboutDeveloperBody3": "Uygulamanın nasıl geliştirilebileceğine ilişkin önerileri memnuniyetle karşılıyoruz.",
-  "faqAboutDeveloperBody4": "Ancak tüm önerileri uygulayamayacağım ve yeni fonksiyonların zaman alabileceği konusunda anlayışınızı rica ediyorum.",
-  "commonCollapse": "Yıkılmak",
-  "commonMore": "Daha",
-  "commonSave": "Kaydetmek",
-  "commonChange": "Değiştirmek",
-  "commonContinue": "Devam etmek",
-  "commonBack": "Geri",
-  "commonOk": "TAMAM",
-  "commonCancel": "İptal etmek",
-  "commonClose": "Kapalı",
-  "commonOpen": "Açık",
-  "commonSend": "Göndermek",
-  "commonDelete": "Silmek",
-  "commonYes": "Evet",
-  "commonNo": "HAYIR",
-  "commonLoadingData": "Veri yükleniyor",
-  "commonDay": "gün",
-  "commonMonth": "ay",
-  "commonYear": "yıl",
-  "commonShare": "Paylaşmak",
-  "commonCopiedToClipboard": "Panoya kopyalandı",
-  "commonLearnMore": "Daha fazla bilgi edin",
-  "commonMinimum": "En düşük günlük değer",
-  "commonMaximum": "En yüksek günlük değer",
-  "heatmapLegendTitle": "Isı haritası hakkında daha fazla bilgi",
-  "heatmapLegendDisclaimer": "Bilgi: Gölgeli kutular tahmini bir değer içerir. Gerçek tüketimi/çıkışı okumak için lütfen mümkünse eksik sayaç okumalarını doldurun.",
-  "consumptionHeatmap": "Tüketim Isı Haritası",
-  "consumptionHeatmapYield": "Getiri Isı Haritası",
-  "consumption": "Tüketim",
-  "consumptionYield": "Teslim olmak",
-  "showAllYears": "Tüm yılları göster",
-  "appNameShort": "EHW+",
-  "appName": "EHW+ | Tüketim ve sayaç okumaları",
-  "tabCounters": "Metre",
-  "tabStatistics": "İstatistikler",
-  "tabObject": "Nesne",
-  "tabNews": "İpuçları/Haberler",
-  "ofRangeLastDays": "son {days} günün",
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeLastMonths": "son {months} ay için",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeFrom": "{range}'dan",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "readingTime": "Okuma zamanı",
-  "reading": "Sayaç okuma",
-  "last2Weeks": "Son 14 gün",
-  "last12Weeks": "Son 12 hafta",
-  "last12Months": "Son 12 ay",
-  "sinceInitialReading": "İlk okumadan bu yana",
-  "lastYear": "Geçen sene",
-  "periodCustom": "Kullanıcı tanımlı",
-  "counterReadings": "Okumalar",
-  "comment": "Bote",
-  "enterComment": "Bir not girin",
-  "enterExistingReadingAgain": "Eski okumaya yeniden girin",
-  "meterId": "Sayaç kimliği",
-  "meterReadingSubmitted": "Sağlayıcıya iletildi",
-  "newReading": "Mevcut okumayı girin",
-  "newReadingShort": "Yeni okuma",
-  "readingWithFactor": "Faktörlü sayaç okuma",
-  "csvImportWithFactor": "Sayaç okumaları 1,0'a eşit olmayan bir faktörle çarpılmalı mı? Örneğin, değerleri Wh'den kWh'ye dönüştürmek için bunların 0,001 ile çarpılması gerekir.",
-  "newPhoto": "Yeni bir fotoğraf çek",
-  "existingPhoto": "Mevcut fotoğrafı ekle",
-  "newPhotoOfMeterReading": "Sayaç okumasının fotoğrafını çekmek ister misiniz?",
-  "existingPhotoOfMeterReading": "Sayaç okumasının mevcut bir fotoğrafını eklemek ister misiniz?",
-  "numCounters": "{count, plural, =0 {{count} sayacı} one {{count} sayacı} other {{count} sayaçları}}",
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "numMeterReadings": "{readings, plural, one {# okuma} other {# okuma}}",
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "firstReadingYield": "Şimdi ilk getiriyi girin.",
-  "firstReadingConsumption": "Şimdi ilk tüketimi girin.",
-  "firstReadingCounter": "İlk sayaç okumasını girin.",
-  "consumptionHeatpump": "Ayrıca ısı pompasının güç tüketimi {formattedValue} kWh tutarındadır.",
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearly": "Yıllık elektrik tüketiminiz {ofRange} {consumption} kWh'dir.",
-  "@consumptionYearly": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "consumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedElectricityIntro": "Elektrik tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay)",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedGasIntro": "Gaz tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay)",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel0": "süper düşük.",
-  "consumptionYearlyDetailedLevel1": "gerçekten görülmesi gereken bir şey.",
-  "consumptionYearlyDetailedLevel3": "nispeten yüksektir.",
-  "consumptionYearlyDetailedLevel4": "normaldir.",
-  "consumptionYearlyDetailedYouConsume": "{verbSuffix} tüketiyorsunuz",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLessThan": "{percentage} daha az",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedMoreThan": "{percentage}'dan fazla",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedAboutSame": "yaklaşık olarak aynı",
-  "consumptionYearlyDetailedAverageHousehold": "{householdSize} {personLabel} olan ortalama bir hane",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedOptimalEnding": "Bunu nasıl yapıyorsun?",
-  "consumptionYearlyDetailedLevel1Suffix": "PHTOKEN Optimum tüketim için0 kWh/ay eksik.",
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel2Suffix": "PHTOKEN İyi tüketim için 0 kWh/ay eksik.",
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionPersonLabel": "{count, plural, one {kişi} other {insanlar}}",
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "consumptionWaterPrefixSingle": "Tüketiyorsun",
-  "consumptionWaterPrefixPerPerson": "Kişi başı herkes tüketiyor",
-  "consumptionWaterDailyMonthly": "günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "String"
-      },
-      "monthlyCubicMeters": {
-        "type": "String"
-      },
-      "unitName": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterRangeUnknown": "Su tüketiminiz {ofRange}...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallLess": "{ofRange} su tüketiminiz, {householdSize} {personLabel}'e sahip ortalama bir evinkinden {percentage} daha düşüktür.",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallEqual": "{ofRange} su tüketiminiz, {householdSize} {personLabel} ile ortalama bir evin tüketimine denktir.",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallMore": "{ofRange} su tüketiminiz, {householdSize} {personLabel}'e sahip ortalama bir evinkinden {percentage} daha yüksektir.",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdLess": "Soğuk su: {percentage} ortalama evden daha az.",
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdMore": "Soğuk su: Ortalama evden {percentage} daha fazla.",
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdEqual": "Soğuk su: Ortalama evdekiyle hemen hemen aynı.",
-  "consumptionWaterWarmLess": "Sıcak su: {percentage} ortalama evden daha az.",
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmMore": "Sıcak su: Ortalama evden {percentage} daha fazla.",
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmEqual": "Sıcak su: Ortalama evdekiyle hemen hemen aynı.",
-  "yearlyConsumption": "Şu ana kadar yıllık tüketim",
-  "yearlyCosts": "Şu ana kadar yıllık tüketim maliyetleri",
-  "room": "Oda",
-  "fedIn": "Beslendi",
-  "generated": "Oluşturuldu",
-  "residualGenerationEstimated": "Artık üretim tahmini",
-  "residualConsumptionEstimated": "Tahmini kalan tüketim",
-  "myObjects": "Nesnelerim",
-  "roomLivingRoom": "Oturma odası",
-  "roomDiningRoom": "Yemek odası",
-  "roomBedroom": "Yatak odası",
-  "roomBathroom": "Banyo",
-  "roomWc": "WC",
-  "roomChildrenRoom": "Çocuk odası",
-  "roomKitchen": "Mutfak",
-  "roomStoreRoom": "Mağaza odası",
-  "roomOffice": "Ofis",
-  "roomGarden": "Bahçe",
-  "counter": "Tezgah",
-  "counterDirectionAscending": "artan",
-  "counterDirectionDescending": "alçalan",
-  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "counterWater": "Su sayaçları",
-  "counters": "Metre",
-  "changeCounterOrder": "Gerekirse sırayı değiştirebilirsiniz",
-  "newCounter": "Yeni bir sayaç oluştur",
-  "updateObjectName": "Nesne adlarını değiştirin",
-  "enterObjectName": "Yeni nesneyi adlandırın",
-  "explanationManageMoreThanOneObject": "Yönetmek istediğiniz birden fazla mülkünüz mü var? Daha sonra geçerli nesneyi adlandırın ve ardından başka bir nesne oluşturun.",
-  "selectedAtAppStart": "Uygulama başlangıcında en üstteki nesne seçilir",
-  "reallyDeleteObject": "Nesneyi silmek istediğinizden emin misiniz?",
-  "confirmDeleteAtCloud": "\"{objectTitle}\" da Google Drive'dan silinmeli mi?",
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "deleteObjectError": "Bu nesne silinemiyor (Kod {errorCode}).",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "commonChangeSaved": "Değişiklik kaydedildi",
-  "commonUpdateNow": "Şimdi güncelle",
-  "commonLogout": "oturumu Kapat",
-  "commonLogin": "Oturum aç",
-  "commonLoggingIn": "Oturumunuz açılıyor...",
-  "commonLoggingOut": "Oturumunuz kapatılıyor...",
-  "commonNotAuthenticated": "Kimliğiniz doğrulanmadı.",
-  "commonUserLogin": "Kullanıcı girişi",
-  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "EHW+ hesabını kullanıyorsunuz. {total} satın alınan ürünlerden {notSubmitted}'ı EHW+ sunucusuna kaydedilemedi. Sorunu yakında çözmeyi umuyoruz.",
   "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
     "placeholders": {
       "notSubmitted": {
@@ -449,7 +14,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Bir satın alma işlemi EHW+ hesabı aracılığıyla senkronize edildi.} other {{count} satın alımları EHW+ hesabı aracılığıyla senkronize edildi.}}",
   "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
     "placeholders": {
       "count": {
@@ -458,7 +22,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {EHW+ hesabını kullanıyorsunuz. Gelecekte ürün satın alırsanız, bunlar tüm cihazlarınızda senkronize edilecektir.} one {EHW+ hesabını kullanıyorsunuz. PHTOken0 satın alınan ürün EHW+ sunucusuna kaydedildi.} other {EHW+ hesabını kullanıyorsunuz. PHTOken0 satın alınan ürünler EHW+ sunucusuna kaydedildi.}}",
   "@commonUserLoginDescriptionLoggedInSavedPurchases": {
     "placeholders": {
       "count": {
@@ -467,210 +30,224 @@
       }
     }
   },
-  "commonUserLoginDescriptionNotLoggedIn": "Uygulamayı birden fazla cihazda mı kullanıyorsunuz? EHW+ hesabınızda oturum açmak, ayarlarınızı ve satın aldığınız ürünleri tüm cihazlarınızda senkronize etmenize olanak tanır.",
-  "accountUpdateInfo": "Yeni: EHW+ kullanıcı hesabı",
-  "accountThankYouForPurchase": "Teşekkür ederim! Satın alma işlemini şimdi EHW+ kullanıcı hesabınızda güvence altına almak ister misiniz?",
-  "accountAbout": "EHW+ kullanıcı hesabı ne yapabilir?",
-  "accountBenefit1": "Daha güvenilir satın alma tanıma",
-  "accountBenefit2": "Birden fazla cihazda satın alınan tüm genişletmelere erişim",
-  "accountFaqTitle": "Sıkça Sorulan Sorular:",
-  "accountFaqQ1": "EHW+ kullanıcı hesabı nedir?",
-  "accountFaqA1": "EHW+ kullanıcı hesabı, App Store aracılığıyla geri yüklemenin mümkün olmadığı durumlarda satın alınanların geri yüklenmesi için alternatif bir yöntem sunarak güvenilirliği artırır. Ayrıca satın alma işlemlerinin, satın alma işleminin başlangıçta gerçekleşmediği bir cihaza geri yüklenmesine olanak tanır. Gelecekte ayarları ve daha fazlasını kaydetmek de mümkün olacak.",
-  "accountFaqQ2": "EHW+ kullanıcı hesabım olmadan da satın alımlarıma erişebilecek miyim?",
-  "accountFaqA2": "Evet, satın alınanlar yine de Play Store aracılığıyla bir Android cihaza veya App Store aracılığıyla bir iPhone'a geri yüklenebilir. EHW+ kullanıcı hesabı, App Store aracılığıyla geri yüklemenin mümkün olmadığı durumlarda satın alınanların geri yüklenmesi için alternatif bir yöntem sunarak güvenilirliği artırır. Ayrıca satın alma işlemlerinin, satın alma işleminin başlangıçta gerçekleşmediği bir cihaza geri yüklenmesine olanak tanır.",
-  "accountButtonSetup": "EHW+ kullanıcı hesabını kurun",
-  "cometSettingsIsPredictionsApiEnabled": "Goethe Enstitüsü'nün COMET Tahmin API'sini kullanın",
-  "cometConsentScreenHeader": "Yeni: Daha iyi tüketim tahminleri",
-  "cometConsentScreenHowItWorksTitle": "Nasıl çalışır?",
-  "cometConsentScreenOnlineDescriptionTitle": "İnternet bağlantısıyla:",
-  "cometConsentScreenOnlineDescription": "Tüketim verileriniz, bireysel bir tahminin oluşturulacağı ve uygulamada görüntüleneceği Goethe Üniversitesi Frankfurt'a gönderilecek.",
-  "cometConsentScreenOfflineDescriptionTitle": "İnternet bağlantısı olmadan:",
-  "cometConsentScreenOfflineDescription": "Cihazınızda basitleştirilmiş bir yerel tahmin hesaplanacaktır.",
-  "cometConsentScreenToggleLabel": "Tahmin hizmetini kullan",
-  "cometConsentScreenDataCanBeUsedForTraining": "Veriler gelecekteki tahminleri optimize etmek için kullanılabilir",
-  "cometConsentScreenFeedbackTitle": "Goethe Üniversitesi'nin geri bildiriminize ihtiyacı var:",
-  "cometConsentScreenFeedbackDescription": "Tahminin kullanımı ücretsizdir ancak araştırma ekibinin hizmetin ne kadar iyi çalıştığı konusunda geri bildirime ihtiyacı vardır.",
-  "cometConsentScreenFeedbackMethod": "Tahmin hizmetini kullandığınızda ve optimizasyonu kabul ettiğinizde geri bildirim otomatik olarak sağlanır.",
-  "cometConsentScreenDeclineButton": "Geri bildirimde bulunmak istemiyorum",
-  "cometConsentScreenAcceptButton": "Geri bildirimde bulunmak istiyorum",
-  "exportTabHowToExport": "Verileri nasıl dışa aktarmak istersiniz?",
-  "exportTabHowToExportOptionShare": "Diğer uygulamalarla paylaşın",
-  "exportTabHowToExportOptionSaveToDownloads": "{folder} klasörüne kaydet",
-  "exportTabSnackBarSaveResultMessageSuccess": "Veriler {folder} klasörüne başarıyla {fileName} olarak kaydedildi",
-  "exportTabSnackBarSaveResultMessageError": "Veriler kaydedilirken hata oluştu",
-  "importTabErrorMessageFileWithExtensionNotSelected": "İçe aktarma işlemine devam etmek için bir {extension} dosyası gereklidir.",
-  "difference": "Fark",
-  "period": "Dönem",
-  "periodHourly": "saatlik",
-  "periodDaily": "günlük",
-  "periodWeekly": "haftalık",
-  "periodBiweekly": "iki haftada bir",
-  "periodMonthly": "aylık",
-  "periodBimonthly": "iki ayda bir",
-  "periodQuarterly": "üç ayda bir",
-  "periodHalfYearly": "altı ayda bir",
-  "periodYearly": "yıllık",
-  "meterCardLastUpdatedLabel": "Güncellendi",
-  "smartMeterServiceProvider": "Servis Sağlayıcı",
-  "smartMeterObtainDataAutomatically": "Verileri otomatik olarak al",
-  "smartMeterErrorNoData": "Ne yazık ki uygulamanın görüntüleyebileceği hiçbir veri yok.",
-  "smartMeterSettingsScreenSyncButton": "Tüketim verilerini senkronize edin",
-  "smartMeterSettingsScreenSyncingDialogHeader": "Senkronizasyon devam ediyor",
-  "smartMeterSettingsScreenSyncingDialogProgress": "İlerleme: {progressInPercent}%",
-  "smartMeterSettingsScreenSyncingDialogError": "Hata",
-  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Tamam",
-  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Senkronizasyon sırasında şu hata oluştu: {errorMessage}",
-  "smartMeterMisconfiguredWidgetCardTitle": "Lütfen akıllı sayacınızı doğru şekilde kurun.",
-  "smartMeterMisconfiguredWidgetCardButton": "Akıllı sayacı ayarla",
-  "smartMeterTabConsumptions": "Tüketim",
-  "smartMeterTabProductions": "Yapımlar",
-  "consumptionCacheManagementClearCacheButton": "Önbelleği temizle",
-  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Temizle ve senkronize et",
-  "consumptionCacheManagementConfirmClearCacheTitle": "Önbellek temizlensin mi?",
-  "consumptionCacheManagementConfirmClearCacheMessage": "Önbelleğe alınan tüm tüketim verileri kalıcı olarak silinecektir. Daha sonra senkronize edebilirsiniz.",
-  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Önbellek temizlensin ve senkronize edilsin mi?",
-  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Önbelleğe alınan tüm veriler silinecek ve sunucudan yeniden indirilecektir. Bu biraz zaman alabilir.",
-  "consumptionCacheManagementClearedSuccessfully": "Önbellek başarıyla temizlendi",
-  "tibberAccessToken": "Erişim Jetonu",
-  "tibberEnterAccessToken": "Lütfen erişim belirtecini girin",
-  "tibberMessageAccessTokenUpdated": "Erişim jetonu başarıyla güncellendi",
-  "tibberErrorAccessTokenInvalid": "Erişim belirtecinin geçersiz olduğu anlaşılıyor",
-  "tibberErrorNoHomes": "Bu hesapla ilişkili ev yok",
-  "tibberErrorSmartMeterMisconfigured": "Akıllı ölçüm cihazınız yanlış yapılandırılmış gibi görünüyor.",
-  "tibberErrorConnectivityShowCacheInstead": "Son tüketim verileri alınamıyor. Bunun yerine önbelleğe alınmış değerler gösteriliyor.",
-  "tibberErrorUndefined": "Beklenmeyen bir hata oluştu: {error}",
-  "tibberErrorRateLimit": "Tibber API hız limiti aşıldı. Tekrar denemeden önce lütfen en az 5 dakika bekleyin.",
-  "tibberErrorNoSubscription": "API aracılığıyla geçmiş verilere tam erişim elde etmek için seçilen ev için aktif bir Tibber elektrik sözleşmesine ihtiyacınız vardır.",
-  "tibberBasicAuth": "Temel Kimlik Doğrulaması",
-  "tibberBasicAuthUsername": "Kullanıcı adı",
-  "tibberBasicAuthPassword": "Şifre",
-  "tibberBasicAuthEnterUsername": "Lütfen kullanıcı adını girin",
-  "tibberBasicAuthEnterPassword": "Lütfen şifreyi girin",
-  "tibberConsumptionEntryTotalCost": "Toplam maliyet: {totalCost}",
-  "tibberConsumptionEntryTotalProfit": "Toplam kâr: {totalProfit}",
-  "tibberConsumptionEntryViewTimeSpanYear": "{year} yılı",
-  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "{year}'dan başlayan bir yıl",
-  "tibberConsumptionEntryViewTimeSpanMonth": "{month} ayı",
-  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "{month}'dan itibaren bir ay",
-  "tibberConsumptionEntryViewTimeSpan24Hours": "{date}'de {startTime}'dan 24 saat",
-  "tibberConsumptionEntryViewTimeSpanOneHour": "{date}'de {startTime}'dan bir saat",
-  "tibberConsumptionEntryViewTimeSpanDefault": "Gönderen: {startTime}'dan {endDate}'e",
-  "tibberWhereIsMyAccessToken": "\"Erişim jetonumu\" nerede bulabilirim?",
-  "tibberActionSaveAuthorizationSettings": "Yetkilendirme ayarlarını kaydet",
-  "tibberConsentScreenHeader": "Yeni Özellik: Tibber Pulse'tan Tüketim Verileri",
-  "tibberConsentScreenDescription": "Tibber müşterisi misiniz veya olmayı mı planlıyorsunuz? Artık enerji izlemenin iyileştirilmesi için Pulse'u destekliyoruz. Pulse'un geçmiş verilerinin ne yazık ki yalnızca aktif bir Tibber sözleşmesi olan müşterilere sunulduğunu lütfen unutmayın.",
-  "tibberConsentScreenBenefit1Title": "Elektrik Tüketiminizi Görüntüleyin",
-  "tibberConsentScreenBenefit1Description": "Tüketiminizi gerçek zamanlı olarak takip edin ve gizli enerji tüketenleri ortaya çıkarın.",
-  "tibberConsentScreenStoreLink": "Tibber Store'u ziyaret edin",
-  "tibberConsentScreenConfigureNowButton": "Tibber Pulse'u şimdi kurun",
-  "tibberConsentScreenConfigureLaterButton": "Daha Sonra Kur",
-  "tibberConsentScreenGoetheStudySectionHeader": "Araştırma Projesine katılım",
-  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Evet, Goethe Çalışmasına katılmak istiyorum",
-  "tibberConsentScreenGoetheStudyBenefit1Title": "Goethe Çalışmasına katılmak ister misiniz?",
-  "tibberConsentScreenGoetheStudyBenefit1Description": "1 Mart'tan itibaren saatlik tüketiminiz anonimleştirilecek ve Goethe araştırmasına sunulacaktır.",
-  "tibberStatusWidgetTitle": "Önbellek Yönetimi",
-  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber Abonelik Durumu",
-  "tibberSubscriptionStatusActive": "aktif",
-  "tibberSubscriptionStatusInactive": "aktif değil",
-  "tibberSubscriptionStatusLoading": "yükleniyor...",
-  "tibberLiveMeasurementCounterCardViewFooter": "Canlı Ölçüm",
-  "tibberLiveMeasurementsWidgetNotSupported": "Bu ev için canlı ölçümler desteklenmiyor.",
-  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Bu ev, canlı ölçümleri veya geçmiş tüketim verilerini desteklemiyor. Lütfen başka bir ev seçin.",
-  "tibberLiveMeasurementsWidgetConnecting": "Tibber Pulse'a bağlanılıyor...",
-  "tibberLiveMeasurementsWidgetError": "Tibber Pulse'a bağlanırken bir hata oluştu. Lütfen erişim belirtecinizi ve internet bağlantınızı kontrol edin.",
-  "tibberLiveMeasurementWidgetTitle": "{time}'da mevcut tüketim/üretim",
-  "tibberLiveMeasurementWidgetTimestamp": "Zaman damgası",
-  "tibberLiveMeasurementWidgetPower": "Güç",
-  "tibberLiveMeasurementWidgetPowerProduction": "Güç Üretimi",
-  "tibberLiveMeasurementWidgetAveragePower": "Ortalama Güç",
-  "tibberLiveMeasurementWidgetMinPower": "Minimum Güç",
-  "tibberLiveMeasurementWidgetMaxPower": "Maksimum Güç",
-  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Toplam Tüketim (gece yarısından itibaren)",
-  "tibberLiveMeasurementWidgetAccumulatedProduction": "Toplam Üretim (gece yarısından itibaren)",
-  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Tüketim (son saat)",
-  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Üretim (son saat)",
-  "tibberLiveMeasurementWidgetLastMeterConsumption": "Sayaç Okuma (Tüketim)",
-  "tibberLiveMeasurementWidgetLastMeterProduction": "Sayaç Okuma (Üretim)",
-  "tibberLiveMeasurementWidgetAccumulatedCost": "Birikmiş Maliyet",
-  "tibberLiveMeasurementWidgetAccumulatedReward": "Birikmiş Ödül",
-  "tibberLiveMeasurementWidgetPowerFactor": "Güç faktörü",
-  "tibberLiveMeasurementWidgetVoltagePhase1": "Gerilim (Faz 1)",
-  "tibberLiveMeasurementWidgetVoltagePhase2": "Gerilim (Faz 2)",
-  "tibberLiveMeasurementWidgetVoltagePhase3": "Gerilim (Faz 3)",
-  "tibberLiveMeasurementWidgetCurrentL1": "Akım (L1)",
-  "tibberLiveMeasurementWidgetCurrentL2": "Akım (L2)",
-  "tibberLiveMeasurementWidgetCurrentL3": "Akım (L3)",
-  "tibberLiveMeasurementWidgetUnitV": "V",
-  "tibberLiveMeasurementWidgetUnitW": "K",
-  "tibberLiveMeasurementWidgetUnitA": "A",
-  "tibberHomeSelectorHomeId": "Ev Kimliği: {homeId}",
-  "tibberHomeSelectorLabel": "Ev",
-  "scanQrCode": "Etkinleştirme qr kodunu tarayın",
-  "requestAccess": "Erişim iste",
-  "createAccount": "Hesap oluştur/giriş yap",
-  "watersupplierYourSupplier": "Su tedarikçiniz",
-  "watersupplierRadioMeterDefaultName": "Radyo soğuk su sayacı",
-  "watersupplierAccessRequestQ1": "Su şebekesinin havza bölgesinde bir mülkün sahibi misiniz ve radyo sayaç okumalarına erişmek mi istiyorsunuz?",
-  "watersupplierAccessRequestQ2": "Zaten erişim talebinde bulundunuz mu? Daha sonra bir EHW+ kullanıcı hesabı oluşturmanız gerekir.",
-  "watersupplierAccessRequestQ3": "Zaten erişim talebinde bulundunuz ve QR kodunuzu aldınız mı?",
-  "watersupplierAccessRequestQ4": "Örneğin bir boru patlaması veya tuvalet sifonunun akması durumunda tepki verebilmeniz için sayaç uyarıları almak ister misiniz?",
-  "watersupplierOpenReminderSettings": "Ayarları aç",
-  "watersupplierScanQrCodeTitle": "Radyo Ölçer Aktivasyonu",
-  "watersupplierScanQrCodeCommand": "Sol QR kodunu (aktivasyon kodu) tarayın!",
-  "watersupplierScanRevokeQrCodeCommand": "Doğru QR kodunu tarayın (kodu iptal edin)!",
-  "watersupplierScanQrCodeValidation": "QR kodu algılandı, doğrulayalım.",
-  "watersupplierScanQrCodeValidationFailed": "Üzgünüz, kod geçersiz. Tekrar denemek ister misin?",
-  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Aktivasyon kodu yerine iptal kodunu taradınız. Lütfen tekrar deneyin!",
-  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "İptal kodu yerine aktivasyon kodunu taradınız. Lütfen tekrar deneyin!",
-  "watersupplierScanQrCodeScanSuccessful": "Vay, aktivasyon kodu çok hoş görünüyor! Lütfen sayaç numaranızın son üç rakamını giriniz!",
-  "watersupplierMeterIdValidationStep": "Sayaç kimliğinizi kontrol ediyoruz.",
-  "watersupplierCompleteMeterIdServerErrorTryAgain": "Üzgünüm, ne yazık ki bu işe yaramadı. Sunucumuzdan kaynaklanıyordu. Daha sonraki bir tarihte tekrar deneseniz iyi olur!",
-  "watersupplierCompleteMeterIdTryAgain": "Geçemezsiniz! Lütfen sayaç numaranızın son üç rakamını tekrar girin!",
-  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Not: Orijinal ölçüm kimliğiniz 8'den fazla karakterden oluşabilir.",
-  "watersupplierScanQrCodeApprovalInProgress": "Gelecekte radyo sayaç okumalarına erişebilmeniz için artık hesabınızı yetkilendiriyoruz.",
-  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Evet! \"Soğuk Su\" tipi radyo su sayacınız başarıyla eklendi. Diğer sayaçların arasında bulabilirsiniz.",
-  "watersupplierUnlinkRadioMeterTitle": "Radyo Ölçer Erişimini Sonlandır",
-  "watersupplierUnlinkRadioMeterDescription1": "Aktivasyon kodunu geçersiz kılmadan radyo ölçüm cihazını silmek istiyor musunuz?",
-  "watersupplierUnlinkRadioMeterButtonDelete": "Radyo ölçüm cihazını sil",
-  "watersupplierUnlinkRadioMeterDescription2": "Artık radyo ölçüm verilerinize erişmek istemiyor musunuz? Lütfen unutmayın: İptal kodu tarandıktan sonra aktivasyon kodu geçersiz hale gelir. Etkinleştirme kodunu kullanan tüm kullanıcı hesapları erişimi kaybedecektir.",
-  "watersupplierUnlinkRadioMeterButtonRevoke": "İptal kodunu tarayın",
-  "watersupplierScanQrCodeOffboardingSuccessful": "Radyo su sayacınıza erişim iptal edildi.",
-  "watersupplierNoAccess": "Artık veri alma yetkiniz yok.",
-  "watersupplierNoAccessDetailedMessage": "Hâlâ erişiminizin olması gerektiğini düşünüyorsanız lütfen aktivasyon kodunuzu tekrar tarayın. Erişim kodu artık geçerli değilse lütfen yeni bir erişim isteği gönderin.",
-  "zipCode": "posta kodu",
-  "zipCodeValidationOnlyNumbers": "Geçerli bir posta kodu yalnızca sayılardan oluşur",
-  "zipCodeValidationLength": "Lütfen {digits} haneli posta kodunu girin",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
+  "@confirmDeleteAtCloud": {
     "placeholders": {
-      "digits": {
-        "example": "5",
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "@counterNum": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "houseName": "Ev adı",
-  "houseNameDescription": "Ev adı, ör. sokak adı",
-  "marketLocationId": "Pazar konumu kimliği",
-  "marketLocationIdDescription": "Pazar yeri kimliği her zaman 11 haneden oluşur. Bunu genellikle son elektrik veya gaz faturanızda bulabilirsiniz.",
-  "swimmingPool": "Yüzme havuzu",
-  "smartmeterInfocodeBannerText": "Akıllımetre {smartmeterId} bilgi kodunu aldı: {infocode}",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "smartmeterId": {
-        "type": "String"
-      },
-      "infocode": {
-        "type": "String"
-      }
-    }
-  },
-  "smartmeterInfocodeBannerTextInfocodeLeckage": "{smartmeterId} su sayacınız sürekli bir su akışı tespit etti. Bu bir sızıntıya işaret edebilir. Lütfen ev tesisatınızda sızıntı olup olmadığını kontrol edin. Tuvaletler ve damlayan musluklar yaygın nedenlerdir.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "{smartmeterId} su sayacınız, boru patlamasına işaret edebilecek alışılmadık derecede yüksek su tüketimi tespit etti. Lütfen ev tesisatınızı büyük sızıntı veya kırılmalara karşı kontrol edin. Alarm, örneğin çok miktarda su kullandıysanız da görüntülenebilir. havuzu doldurmak için.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "{smartmeterId} su sayacınız, bir borunun patladığını veya yüzme havuzunun dolduğunu gösterebilecek alışılmadık derecede yüksek su tüketimi tespit etti. Lütfen ev tesisatınızı büyük sızıntı veya kırılmalara karşı kontrol edin.",
-  "smartmeterInfocodeBannerTextInfocodeFrost": "{smartmeterId} su sayacınızın sıcaklığı 3°C'nin altına düştü. Don tehlikesi var! Hasarı önlemek için sayacı ve boruları yalıtın veya alanı ısıtın.",
-  "smartMeterCountersTitle": "Radyo su sayaçları",
-  "counterOutdatedAndNextReminder": "{date}'dan bu yana sayaç okuması güncel değil, sonraki okuma hatırlatıcısı {date2}.",
   "@counterOutdatedAndNextReminder": {
     "placeholders": {
       "date": {
@@ -681,7 +258,540 @@
       }
     }
   },
-  "waterMeterEventsInformation": "{count, plural, =1 {{waterSupplier} kablosuz su sayacınız beklenmeyen tüketimi tespit eder. İstenirse böyle bir durumda bildirim alırsınız.} other {{waterSupplier} kablosuz su sayaçlarınız beklenmedik tüketimi tespit eder. İstenildiği takdirde bu gibi durumlarda bildirim alırsınız.}}",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "@waterMeterEventsInformation": {
     "placeholders": {
       "count": {
@@ -694,1022 +804,912 @@
       }
     }
   },
-  "subscribeToSmartMeterInfocodeEvents": "Beklenmedik tüketimlerden haberdar olmak istiyorum",
-  "completeButton": "Tamamlamak",
-  "reset": "Sıfırla",
-  "settingCounterTypeColor": "Bu sayaç tipinin rengi",
-  "settingCounterTypeColorDescription": "Bu sayaç tipinin varsayılan rengini beğenmezseniz farklı bir renk atayabilirsiniz.",
-  "settingCounterTypeColorAdvanced": "Uzmanlar için renk seçici",
-  "featureVotingUnderConstruction": "Özellik anketi şu anda revize edilmektedir. Gelecekte bir EHW+ kullanıcı hesabı gerekli olacak ve anket artık üçüncü taraf sunucuları kullanmayacak. Sabrınız için teşekkür ederiz.",
-  "termsOfUsageTitle": "Uygulamanın kullanımına ilişkin genel kullanım şartları",
-  "termsOfUsageBlock1Title": "Uygulamanın kullanımına ilişkin genel kullanım şartları",
-  "termsOfUsageBlock1": "İtiraz hakkı",
-  "@termsOfUsageBlock1": {
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
     "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2Title": "Kullanıma ilişkin genel bilgiler",
-  "termsOfUsageBlock2": "Uygulama ve işlevleri kötü amaçlı kullanılamaz. Lütfen uygulamayı yalnızca yasal olarak izin verilen kapsam dahilinde ve kullanım koşullarımıza uygun olarak kullanın. Geçerli Alman yasalarının veya kullanım koşullarımızın ihlal edilmesi durumunda sağlayıcı, sizi uygulamayı kullanmaktan men etme hakkını saklı tutar.",
-  "termsOfUsageBlock2a": "Anonimleştirilmiş kullanım verileri\nUygulamayı sürekli olarak geliştirmek için kendi analizlerimizi kullanıyoruz.\nYalnızca anonimleştirilmiş veriler iletilir.\nVeriler üçüncü şahıslara aktarılmaz.\nDaha fazla bilgi için Ayarlar > Gizlilik > {privacyBlock3Title}'ye gidin",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2b": "Hata raporları\nSentry (kendi kendine barındırılan), uygulamayı sürekli olarak geliştirmek için kullanılır.\nHata raporları işlenmez ve üçüncü şahıslarla paylaşılmaz.\nDaha fazla bilgi için Ayarlar > Gizlilik > {privacyBlock3Title}'ye gidin",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2c": "Kişisel bilgiler\nGoogle Drive Sync kullanıyorsanız EHW+'nın girdiğiniz verilere hâlâ erişimi yoktur. Daha fazla bilgi için Ayarlar > Gizlilik > {privacyBlock3Title}'a gidin.",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock3Title": "Yükümlülük",
-  "termsOfUsageBlock3": "Sağlayıcı, uygulamanın amaçlarınıza uygunluğunu, güvenilirliğini, işlevselliğini veya uygunluğunu garanti etmez. Kasten, ağır ihmalden, cana, uzuvlara veya sağlığa zarar verilmesi, kalite garantisinin üstlenilmesi, bir kusurun hileli olarak gizlenmesi veya temel sözleşme yükümlülüklerinin ihlali nedeniyle Ürün Sorumluluğu Yasası uyarınca zorunlu olmadıkça sorumluluk hariç tutulur. Temel sözleşme yükümlülükleri, yerine getirilmesi bir sözleşmenin düzgün bir şekilde ifası için gerekli olan ve sözleşme taraflarının düzenli olarak yerine getirileceğine güvenebilecekleri yükümlülüklerdir. Temel sözleşme yükümlülüklerinin ihlalinden kaynaklanan zararların tazmini, kasıt veya ağır ihmal olmadığı sürece, bu tür sözleşmeler için tipik olan öngörülebilir zararlarla sınırlıdır.",
-  "termsOfUsageBlock4Title": "Kullanıcının sorumlulukları",
-  "termsOfUsageBlock4": "Sağlayıcı hesaplama sonuçlarının doğruluğunu garanti etmez. Oluşturulan faturaların ödenmesi gereken fiili tutarlara uygun olmasını sağlamak için, kullanıcıların uygulamada kayıtlı fiyatları (taban fiyatlar, tüketim fiyatları vb.) dikkatli bir şekilde ve kendi sorumluluğunda güncellemeleri gerekmektedir.",
-  "privacyBlock1Title": "Geliştirici",
-  "privacyBlock1Text": "Uygulamanın geliştiricisi/sağlayıcısı (bundan sonra \"uygulama\" olarak anılacaktır), Alman Telemedya Yasası'nın (TMG) 5. Bölümü uyarınca:\n\n{contact}",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock1Text2": "Uygulamanın kullanımı aşağıdaki kullanım koşullarını kabul etmenizi gerektirir. Lütfen bunları dikkatlice okuyunuz.",
-  "privacyBlock2Title": "Genel",
-  "privacyBlock2Text": "Verilerinizin korunması bizim için çok önemlidir. Bu gizlilik politikası, EHW+'ın hangi kişisel verileri topladığını ve bunların nasıl kullanıldığını açıklamaktadır. Gizlilik politikasında köklü değişiklikler nadirdir ancak yeni özellikler, teknolojiler veya yasal gereklilikler nedeniyle zaman zaman revize edilebilir. Bu nedenle, güncel kalmak için lütfen zaman zaman bu sayfayı kontrol edin. Önemli bir değişiklik yapmamız durumunda sizi bilgilendireceğiz ve gerekirse onayınızı alacağız.",
-  "privacyBlock3Title": "{appNameShort} hangi verileri topluyor?",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3aText": "{appNameShort}'ı, sayaç okumalarınızı hızlı ve kolay bir şekilde girebilmeniz ve ardından istatistikleri kullanarak tüketiminiz, maliyetleriniz ve potansiyel tasarruflarınız hakkında daha fazla bilgi edinebilmeniz için oluşturduk. Bu, {appNameShort}'e genel olarak 'içerik' dediğimiz her türlü veriyi girebileceğiniz, hesaplayabileceğiniz veya kaydedebileceğiniz anlamına gelir. Bu veriler yalnızca cep telefonunuzda saklanır.\n\nGoogle Drive'la senkronize edin.\nGoogle Drive ile senkronizasyonu etkinleştirirseniz içerik, Google Drive'ınızda yalnızca sizin erişebileceğiniz '{appNameShort}' adlı bir klasöre de otomatik olarak yedeklenecektir. Google ile giriş yaptığınızda e-posta adresiniz geliştirici tarafından görülecektir.",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "googleApiAgreement": "{appNameShort}'ın Google API'lerinden aldığı bilgilerin kullanımı ve başka herhangi bir uygulamaya aktarılması, Sınırlı Kullanım gereksinimleri de dahil olmak üzere Google API Hizmetleri Kullanıcı Verileri Politikasına uygun olacaktır.",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3bText": "{googleApiAgreement}\n\nKonum verileri.\nUygulama, kullanıcı davranışını anlamak ve gelecekteki özellikler için anonimleştirilmiş kullanım verilerini iletir.\nVeriler üçüncü şahıslarla paylaşılmaz.\nMenşe (ülke ve şehir), dil, işletim sistemi, cihaz türü, çözünürlük, tıklama davranışı ve kullanım süresi hakkında bilgi toplanabilir.\n\nCihaz verileri.\nHizmete bağlanmak için kullandığınız cihazların sayısı ve türüne ilişkin verilerin yanı sıra bu cihazlardaki (ör. Android, iOS, Windows veya macOS) işletim sistemi hakkındaki bilgileri de topluyoruz.\n\nUygulamayı kullanarak yukarıda açıklandığı şekilde anonimleştirilmiş verilerin toplanmasını kabul etmiş olursunuz.",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyContractPriceSubmission": "Kullanıcı olarak sözleşme verilerinizi koruduğunuzda, elektrik, su ve gaz sözleşmelerinin birim fiyatı, ülke ve federal eyaletle birlikte Almanya'daki bir EHW+ sunucusuna iletilir. Bu veriler fiyat istatistiklerini hesaplamak için kullanılır. Uygulama kullanıcıları için istatistikler, sözleşme görünümünde fiyat karşılaştırması şeklinde görülebilir.\n\nUygulamayı kullanarak yukarıda belirtilen anonimleştirilmiş verilerin toplanmasını kabul etmiş olursunuz.",
-  "privacyBlock4DataUsageTitle": "{appNameShort} verilerimi nasıl kullanıyor?",
-  "privacyBlock4DataUsage": "Toplanan anonimleştirilmiş veriler kullanıcı davranışını değerlendirmek için kullanılır. Bunun ötesinde verilerin başka bir kullanımı yoktur.\n\n{syncDriveDataUsage}",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock5Title": "Kişisel verilerin saklanma süresi",
-  "privacyBlock5": "Kişisel verilerin saklanma süresi, ilgili yasal saklama süresine (örneğin ticaret ve vergi hukuku saklama süreleri) göre belirlenir. Sürenin sona ermesinden sonra, bir sözleşmenin yerine getirilmesi veya başlatılması için artık gerekli olmaması ve/veya bunların saklanmaya devam edilmesi konusunda artık meşru bir menfaatimizin olmaması koşuluyla, ilgili veriler rutin olarak silinir.",
-  "youtubeConsent1": "Gömülü Youtube içeriğini görüntülemek için izninize ihtiyacımız var. Bunu (ve dolayısıyla uygulamadaki diğer tüm Youtube içeriğini) tek tıklamayla görüntüleyebilir ve tekrar devre dışı bırakabilirsiniz.",
-  "youtubeConsent2": "Youtube içeriğini her zaman göster",
-  "youtubeConsent3": "Harici içeriğin bana gösterilmesini kabul ediyorum. Bu, kişisel verilerin üçüncü taraf platformlara aktarılmasına neden olabilir. Bu konuda daha fazla bilgi bizim",
-  "privacyBlock6Title": "Temas etmek",
-  "privacyBlock6": "Bizimle iletişime geçtiğinizde (örneğin iletişim formu veya e-posta yoluyla) kişisel veriler toplanır. Bir iletişim formu durumunda toplanan veriler ilgili iletişim formunda görülebilir. Bu veriler yalnızca sorunuza yanıt vermek veya iletişim kurmak ve ilgili teknik yönetim amacıyla saklanır ve kullanılır. Verilerin işlenmesinin yasal dayanağı, talebinize Sanat uyarınca yanıt verme konusundaki meşru menfaatimizdir. 6 paragraf. 1 yaktı. f GDPR. Bağlantınız bir sözleşme imzalamayı hedefliyorsa, işlemenin ek yasal dayanağı Art. 6 paragraf. 1 yaktı. b GDPR. Verileriniz, talebiniz işleme alındıktan sonra, söz konusu konunun nihai olarak açıklığa kavuşturulduğu ve veri saklama konusunda herhangi bir yasal yükümlülüğün bulunmadığı durumlarda silinecektir.",
-  "privacyBlock7Title": "İlgili kişinin hakları",
-  "privacyBlock7": "Yürürlükteki veri koruma kanunu, size aşağıda bilgi vereceğimiz kişisel verilerinizin işlenmesiyle ilgili olarak veri sahibi olarak kontrolör karşısında size kapsamlı haklar (bilgi alma ve müdahale hakları) vermektedir:\n\n- Sanat uyarınca bilgi edinme hakkı. 15 GDPR: Özellikle, bizim tarafımızdan işlenen kişisel verileriniz, işlenme amaçları, işlenen kişisel verilerin kategorileri, verilerinizin açıklandığı veya açıklanacağı alıcılar veya alıcı kategorileri, planlanan saklama süresi veya saklama süresini belirleme kriterleri, düzeltme, silme, işlemenin kısıtlanması, işlemeye itiraz, bir denetleyici makama şikayet, verilerinizin tarafımızca sizden toplanmadıysa kaynağı, otomatik verilerin varlığı hakkında bilgi alma hakkına sahipsiniz. Profil oluşturma da dahil olmak üzere karar verme ve uygun olduğu durumlarda, ilgili mantık hakkında anlamlı bilgiler ve söz konusu işlemenin sizin için önemi ve öngörülen sonuçları ile Sanat uyarınca mevcut garantiler hakkında bilgilendirilme hakkınız. Verileriniz üçüncü ülkelere aktarıldığında 46 GDPR;\n\n- Sanat uyarınca düzeltme hakkı. 16 GDPR: Sizinle ilgili yanlış verilerin gecikmeden düzeltilmesini ve/veya tarafımızdan saklanan eksik verilerin tamamlanmasını sağlama hakkına sahipsiniz.\n\n- Madde uyarınca silme hakkı. 17 GDPR: Art. 17(1) GDPR karşılanmıştır. Ancak bu hak, özellikle işlemenin ifade ve bilgi edinme özgürlüğü hakkının kullanılması, yasal bir yükümlülüğe uygunluk, kamu yararı nedeniyle veya yasal iddiaların tesisi, uygulanması veya savunulması için gerekli olması durumunda geçerli değildir.\n\n- Sanat uyarınca işlemenin kısıtlanması hakkı. 18 GDPR: Verilerinizin silinmesine kabul edilemez veri işleme gerekçesiyle itiraz ettiyseniz ve bunun yerine, toplanma amacını yerine getirmek için bu verilere artık ihtiyacımız kalmadıktan sonra verilerinize yasal iddiaların ileri sürülmesi, uygulanması veya savunulması için ihtiyaç duyuyorsanız veya özel durumunuzla ilgili gerekçelerle itirazda bulunduysanız, verilerinizin doğruluğu doğrulandığı sürece kişisel verilerinizin işlenmesinin kısıtlanmasını talep etme hakkına sahipsiniz: meşru nedenlerimizin geçerli olup olmadığı henüz belli olmadığı sürece;\n\n- Madde uyarınca bilgilendirilme hakkı. 19 GDPR: Kontrolöre karşı işlemenin düzeltilmesi, silinmesi veya kısıtlanması hakkınızı kullandıysanız, kontrolör, imkansız olmadığı veya orantısız bir çaba gerektirmediği sürece, kişisel verilerinizin ifşa edildiği tüm alıcıları bu düzeltme veya silme veya işlemenin kısıtlanması konusunda bilgilendirmekle yükümlüdür. Bu alıcılar hakkında bilgilendirilme hakkınız vardır.\n\n- Madde uyarınca veri taşınabilirliği hakkı. 20 GDPR: Bize sağladığınız kişisel verilerinizi yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir formatta alma veya teknik olarak mümkün olduğu takdirde bunların başka bir denetleyiciye aktarılmasını talep etme hakkına sahipsiniz.\n\n- Madde uyarınca verilen rızayı geri çekme hakkı. 7(3) GDPR: Verilerin işlenmesine ilişkin onayınızı, gelecekte geçerli olacak şekilde istediğiniz zaman geri çekme hakkına sahipsiniz. Geri çekilme durumunda, daha fazla işlemenin izinsiz işleme için yasal bir temele dayanmaması durumunda, ilgili verileri gecikmeden sileceğiz. Rızanın geri çekilmesi, geri çekilmeden önce rızaya dayalı olarak yapılan işlemelerin hukuka uygunluğunu etkilemez.\n\n- Sanat uyarınca şikayette bulunma hakkı. 77 GDPR: Kişisel verilerinizin işlenmesinin GDPR'yi ihlal ettiğine inanıyorsanız, diğer idari veya adli çözüm yollarına halel getirmeksizin, özellikle ikamet ettiğiniz Üye Devlette, iş yerinizde veya ihlal iddiasının gerçekleştiği yerde bir denetim makamına şikayette bulunma hakkına sahipsiniz.",
-  "privacyBlock8Title": "İtiraz hakkı",
-  "privacyBlock8": "KİŞİSEL VERİLERİNİZİ, ÇIKARLARIN DENGESİNİN BİR PARÇASI OLARAK, ÖNCELİKLİ MEŞRU MENFAATIMIZ TEMELİNDE İŞLİYORSAK, GELECEĞE YÖNELİK OLARAK, ÖZEL DURUMUNUZDAN KAYNAKLANAN NEDENLERDEN DOLAYI BU İŞLEMEYE HER ZAMAN İTİRAZ ETME HAKKINIZ VAR. İTİRAZ HAKKINIZI KULLANIRSANIZ, İLGİLİ VERİLERİN İŞLENMESİNİ DURDURACAĞIZ. ANCAK, İŞLEME İÇİN ÇIKARLARINIZI, temel haklarınızı ve özgürlüklerinizi geçersiz kılan zorlayıcı meşru gerekçeleri kanıtlayabilirsek veya işleme, yasal iddiaları ileri sürmeye, uygulamaya veya savunmaya hizmet ederse, DİĞER İŞLEMELER SAKLI KALACAKTIR.\n\nKİŞİSEL VERİLERİNİZİ DOĞRUDAN PAZARLAMA AMAÇLARI İÇİN İŞLİYORUZ, SİZE İLİŞKİN KİŞİSEL VERİLERİN BU TÜR REKLAM AMACI İÇİN İŞLENMESİNE HER ZAMAN İTİRAZ ETME HAKKINIZ VAR. YUKARIDA AÇIKLANDIĞI ŞEKİLDE İTİRAZ HAKKINIZI KULLANABİLİRSİNİZ.\n\nİTİRAZ HAKKINIZI KULLANIRSANIZ, SİZİNLE İLGİLİ VERİLERİN DOĞRUDAN PAZARLAMA AMAÇLARIYLA İŞLENMESİNİ DURDURACAĞIZ.",
-  "activityTitle": "Etkinlik",
-  "activitiesTitle": "Faaliyetlerim",
-  "activitiesDescription": "Sayaç okumalarını soğuk su sayaçları ve elektrik sayaçlarıyla yıkama gibi faaliyetlerle ilişkilendirin.",
-  "sortActivities": "Faaliyetlerin sırasını değiştirin",
-  "resetActivities": "Tüm aktiviteleri sıfırla",
-  "addActivity": "Etkinlik ekle",
-  "activitySettings": "Etkinlik ayarları",
-  "activityOverview": "Etkinliğe genel bakış",
-  "activityNameLabel": "Etkinlik adı",
-  "chooseActivity": "Etkinlik seçin",
-  "selectedActivity": "Seçilen etkinlik \"${activityName}\"",
-  "chooseActivityIcon": "Bir simge seçin",
-  "involvedCounters": "İlgili sayaçlar",
-  "detailsTitle": "Detaylar",
-  "detailWithMultiSelect": "Çoklu seçime izin ver",
-  "addDetail": "Ayrıntı ekle",
-  "editDetailTitle": "Ayrıntıyı düzenle",
-  "activityWithEnergyConsumption": "Güç tüketimi yalnızca etkinlik için ölçülür",
-  "consumptionIsNotExclusiveTitle": "Tüketim özel midir?",
-  "consumptionIsNotExclusive": "Tüketim bu aktiviteye özel değilse uyarı olarak gösterilecektir.",
-  "numberOfDetails": "{count, plural, one {1 detay} other {{count} ayrıntılar}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
+      "digits": {
+        "example": "5",
         "type": "int"
       }
     }
   },
-  "reallyDeleteActivity": "Bu aktivite gerçekten silinsin mi?",
-  "reallyDeleteDetail": "Bu ayrıntı gerçekten silinsin mi?",
-  "reallyDeleteContract": "Bu sözleşme gerçekten silinsin mi?",
-  "contractCopyDialogTitle": "Bu sözleşmenin bir kopyasını çıkarmak ister misiniz?",
-  "contractCopyDialogOptionYes": "Evet birim fiyat veya başka bir değer değişti.",
-  "contractCopyDialogOptionNo": "Hayır, iptal et.",
-  "contractCopyDialogWhen": "Yeni fiyat ne zamandan itibaren geçerli olacak?",
-  "contractCosts": "Birim fiyatı",
-  "contractCostsFeedIn": "Ücret fiyatı/taban fiyatı",
-  "counterWarmWaterPlusColdWater": "Tatlı su ve atık su maliyetleri hariç",
-  "advancePayment": "Peşin ödeme",
-  "bonus": "Bonus",
-  "bonusInfoTitle": "Bonus tarifeleri hakkında bilgi",
-  "bonusInfoText": "Bonuslu tarifeler genellikle sağlayıcı değiştirirken özellikle yüksek tasarruflara olanak tanır. Ancak bu genellikle yalnızca bir kerelik bonustan kaynaklanır. Bunun anlamı şudur: Toplam maliyetler yalnızca tedarikin ilk yılında çok düşüktür. Yüksek iş ve/veya temel fiyatlar, ikinci yılda açıkça daha yüksek bir hesaplama yapılmasını sağlar. Bu nedenle bonus tarifelerde bir yıl sonra tekrar değişiklik yapmayı baştan planlamalısınız. Bu iptalin hiçbir şekilde mümkün olmadığı iki yıl vadeli bonus tarifelerinin özellikle ciddi bir şekilde sorgulanması gerekiyor.",
-  "source": "Kaynak:",
-  "basePrice": "Taban fiyat",
-  "gross": "brüt",
-  "net": "açık",
-  "grossNetPrices": "Brüt veya net fiyat",
-  "taxRate": "Vergi oranı",
-  "perUnit": "{unit} başına",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "wasteWaterPriceEnabled": "Temiz su ve atık su maliyetleri ayrı ayrı gösterilir (kesinti sayaçlarıyla ilgilidir)",
-  "pricePerUnit": "Birim başına fiyat",
-  "pricePerUnitFeedIn": "Ücret fiyatı",
-  "pricePerUnitWaterWarm": "Sıcak su ısıtma maliyetleri",
-  "pricePerUnitWaterCold": "Soğuk su maliyeti",
-  "pricePerUnitFreshWater": "Tatlı su maliyetleri",
-  "pricePerUnitWasteWater": "Atık su fiyatı",
-  "paidAdvancePayments": "Peşin ödemeler",
-  "supplementaryPayment": "Ek ödeme",
-  "refund": "Geri ödemek",
-  "costs": "Maliyetler",
-  "contract": "Sözleşme",
-  "contractDetails": "Sözleşme süresi ve detayları",
-  "usedForPaymentsRepayments": "Peşin ödeme, taban fiyat ve bonus",
-  "contractName": "Sağlayıcı/sözleşme adı",
-  "contractNumber": "Sözleşme numarası",
-  "contractStart": "Sözleşme başlangıç ​​tarihi",
-  "contractPeriod": "Sözleşme süresi",
-  "cancellationPeriod": "İptal süresi",
+  "accountAbout": "EHW+ kullanıcı hesabı ne yapabilir?",
+  "accountBenefit1": "Daha güvenilir satın alma tanıma",
+  "accountBenefit2": "Birden fazla cihazda satın alınan tüm genişletmelere erişim",
+  "accountButtonSetup": "EHW+ kullanıcı hesabını kurun",
+  "accountFaqA1": "EHW+ kullanıcı hesabı, App Store aracılığıyla geri yüklemenin mümkün olmadığı durumlarda satın alınanların geri yüklenmesi için alternatif bir yöntem sunarak güvenilirliği artırır. Ayrıca satın alma işlemlerinin, satın alma işleminin başlangıçta gerçekleşmediği bir cihaza geri yüklenmesine olanak tanır. Gelecekte ayarları ve daha fazlasını kaydetmek de mümkün olacak.",
+  "accountFaqA2": "Evet, satın alınanlar yine de Play Store aracılığıyla bir Android cihaza veya App Store aracılığıyla bir iPhone'a geri yüklenebilir. EHW+ kullanıcı hesabı, App Store aracılığıyla geri yüklemenin mümkün olmadığı durumlarda satın alınanların geri yüklenmesi için alternatif bir yöntem sunarak güvenilirliği artırır. Ayrıca satın alma işlemlerinin, satın alma işleminin başlangıçta gerçekleşmediği bir cihaza geri yüklenmesine olanak tanır.",
+  "accountFaqQ1": "EHW+ kullanıcı hesabı nedir?",
+  "accountFaqQ2": "EHW+ kullanıcı hesabım olmadan da satın alımlarıma erişebilecek miyim?",
+  "accountFaqTitle": "Sıkça Sorulan Sorular:",
+  "accountThankYouForPurchase": "Teşekkür ederim! Satın alma işlemini şimdi EHW+ kullanıcı hesabınızda güvence altına almak ister misiniz?",
+  "accountUpdateInfo": "Yeni: EHW+ kullanıcı hesabı",
+  "activitiesDescription": "Sayaç okumalarını soğuk su sayaçları ve elektrik sayaçlarıyla yıkama gibi faaliyetlerle ilişkilendirin.",
+  "activitiesTitle": "Faaliyetlerim",
+  "activityBath": "Banyo",
+  "activityDishWasher": "Bulaşık makinesi",
+  "activityIron": "Ütüleme",
+  "activityNameLabel": "Etkinlik adı",
+  "activityOverview": "Etkinliğe genel bakış",
+  "activitySettings": "Etkinlik ayarları",
+  "activityShower": "Duş",
+  "activityTitle": "Etkinlik",
   "activityWash": "Yıkama",
-  "activityWashTemperature": "Sıcaklık",
   "activityWashDuration": "Süre",
   "activityWashDuration2hrs": "2 saat",
   "activityWashRotations": "Rotasyonlar",
   "activityWashShort": "Kısa program",
-  "activityShower": "Duş",
-  "activityBath": "Banyo",
-  "activityDishWasher": "Bulaşık makinesi",
-  "activityIron": "Ütüleme",
-  "errorNoInternet": "Ağ yok",
-  "errorInvalidRange": "Geçerli aralık yok",
-  "syncDriveLoggedIn": "Verileriniz birden fazla cihaz arasında otomatik olarak senkronize edilir. Aşağıdaki Google hesabı kullanılıyor:",
-  "syncDriveLoggedInNoAuto": "Verileriniz bir değişiklik sonrasında otomatik olarak Google Drive'a yüklenir. Buluttaki daha yeni veriler yalnızca nesneye tıkladığınızda yerel verilerin üzerine yazar. Aşağıdaki Google hesabı kullanılıyor:",
-  "syncDriveDataUsage": "EHW+'ya Google Drive'a erişim izni verirseniz uygulama, uygulamanın kendisi tarafından oluşturulan dosyalara okuma ve yazma erişimine sahip olacaktır. Ne yazık ki, bu uygulama aracılığıyla başkaları tarafından oluşturulan dosyalar uygulama tarafından görülemez; bu, Google Drive aracılığıyla birden fazla hesap arasında veri paylaşımının mümkün olmadığı anlamına gelir.",
-  "syncAutomaticTitle": "Yerel verilerin üzerine yazılabilir",
-  "syncShareWithOthersTitle": "Başkalarıyla paylaşmak ister misiniz?",
-  "syncShareWithOthersSubtitle": "Sayaç okumalarını diğer Google kullanıcılarıyla birlikte girmek istiyorsanız EHW+'ya Google Drive'a tam erişim izni verilmesi gerekir.",
-  "syncShareWithOthersNotInWeb": "Erişim izni vermek şu anda yalnızca uygulama aracılığıyla mümkündür.",
-  "syncWithGoogleDriveDescription": "Sayaç okumalarının kaybolması çok yazık olacağından, nesnelerinizi hemen Google Drive ile senkronize edin!",
-  "driveSyncStatusTitle": "Senkronizasyon durumu",
-  "driveSyncStatusNotSynced": "Senkronize edilmedi",
-  "driveSyncStatusFailed": "Senkronize edilemedi",
-  "driveSyncStatusComparing": "Sunucudaki dosyayla karşılaştırma",
-  "driveSyncStatusSyncing": "Senkronizasyon devam ediyor",
-  "driveSyncStatusLocalHasLatestNoCloud": "Bu cihaza {localDate}'dan kaydedilen dosya bulutun içine kaydedilmiyor",
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusLocalHasLatestWithCloud": "Bu cihaza {localDate}'dan kaydedilen dosya, {cloudDate}'den buluttaki dosyadan daha güncel",
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      },
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestNoLocal": "{cloudDate}'ın buluttaki dosyası bu cihaza kaydedilmedi",
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestWithLocal": "{cloudDate}'ın buluttaki dosyası, {localDate}'in yerel dosyasından daha güncel",
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusUpToDate": "{localDate}'dan güncel",
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncWithGoogle": "Google Drive Senkronizasyonu",
-  "driveSyncNow": "Şimdi senkronize et",
-  "driveSignInWithGoogle": "Google ile oturum açın",
-  "signInWithGoogle": "Google ile oturum açın",
-  "signInWithApple": "Apple'la oturum açın",
-  "signInWithGithub": "GitHub'la oturum açın",
-  "signInWithSocialAccount": "EHW+ hesabınızı oluşturmak veya oturum açmak için hangi sosyal hesabı kullanmak istiyorsunuz?",
-  "syncStatusFailedLong": "Senkronizasyon başarısız oldu; düzenlemenin sorumluluğu size aittir",
-  "syncStatusFailedLongNoAutoSync": "Senkronizasyon başarısız oldu; düzenlemenin sorumluluğu size aittir",
-  "syncStatusSyncRemoteHasLatest": "Buluttaki dosya yerel dosyadan daha güncel",
-  "syncObjectIsLocked": "Nesne verileri güncelleniyor ve bu süre zarfında düzenlenemez.",
-  "importExport": "Yedekleme/Geri Yükleme",
-  "import": "İçe aktarmak",
-  "importPickFile": "Dosya seç",
-  "importSelectSingleCounter": "Tek sayaç (CSV dosyası)",
-  "importSelectJson": "JSON dosyası ({appName} ile oluşturuldu)",
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "importWhichCounterForCsv": "Hangi sayaç kullanılmalı?",
-  "importNewOrExistingCounter": "Yeni veya mevcut sayaca eklensin mi?",
-  "importConfirm": "İçe aktarmayı onayla",
-  "importTheObject": "Nesneyi içe aktar",
-  "importExplanation": "Zaten karşı okumalar yaptınız ve bunları eklemek mi istiyorsunuz?",
-  "importCounterAsCsv": "Tek bir sayaç mı ithal etmek istiyorsunuz? Sayaç başına desteklenen, biri zaman ve diğeri sayaç okuması için olmak üzere iki sütunlu bir CSV dosyasıdır.\n\nÖrnek veriler:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
-  "importSuccessful": "İçe aktarma başarılı",
-  "importNotPossible": "İçe aktarma mümkün değil",
-  "importErrorCsvIgnoredLines": "{count, plural, one {Bir satır göz ardı edildi: {lines}} other {{count} satırları göz ardı edildi: {lines}}}",
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "importErrorCsvIgnoredColumns": "{columns, plural, one {Yalnızca ilk iki sütun kullanıldı. Üçüncü sütun göz ardı edildi.} other {Yalnızca ilk iki sütun kullanıldı, {columns} sütunları dikkate alınmadı.}}",
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "consentTitle": "Gizlilik Ayarları",
-  "privacyTitle": "Gizlilik politikası",
-  "imprintTitle": "Baskı",
-  "faqTitle": "SSS",
-  "socialFacebook": "Facebook",
-  "socialInstagram": "instagram",
-  "socialTwitter": "X",
-  "export": "İhracat",
-  "exportExplanation": "Örneğin yeni bir cihaza aktarmak için hangi mevcut nesneyi dışa aktarmak istiyorsunuz?",
-  "exportWhere": "Nesne hangi formatta dışa aktarılmalıdır?",
-  "exportWhichValuesShouldBeExported": "Hangi değerler dışa aktarılmalıdır?",
-  "exportOptionExcel": "Excel dosyası",
-  "exportOptionPdf": "PDF dosyası",
-  "exportOptionFileDescription": "Nesne {fileType} dosyası olarak paylaşılıyor",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "socialLinkedIn": "LinkedIn",
-  "socialYouTube": "YouTube",
-  "socialEmail": "E-posta",
-  "social": "Sosyal Medya",
-  "support": "Destek/Geri Bildirim",
-  "supportQuestion": "Bir soru sor",
-  "supportQuestionBox": "Size nasıl yardım edebilirim?",
-  "supportQuestionNotFound": "Sorunuz yanıtlanmadı mı? Yardımcı olmaktan memnuniyet duyarım.",
-  "supportQuestionLong": "Nasıl çalışır? Hiç mümkün mü? İşte cevaplar.",
-  "supportReportBug": "Bir hatayı postayla bildirin",
-  "supportReportBugTextIs": "Lütfen mevcut yanlış davranışı, yani hatanın kendisini kısaca açıklayın.",
-  "supportReportBugTextShould": "Lütfen istenen davranışı, yani aslında nasıl olması gerektiğini kısaca açıklayın.",
-  "supportReportBugAffectedPages": "Hata hangi sayfalarda oluşuyor? (varsa)",
-  "supportReportBugScreenshotsPlease": "Lütfen postaya tercihen hatanın işaretini içeren bir ekran görüntüsü ekleyin.",
-  "supportBug": "Böcek",
-  "supportReportBugLong": "Harika bir uygulama! Ama elbette işler ters gidebilir. Hataları bildirirseniz uygulamayı daha iyi hale getirirsiniz.",
-  "supportGivePraise": "Övgü ver",
-  "supportGivePraiseLong": "Uygulamayı beğendin mi? Teşekkür ederim! Haberi yayın!",
-  "supportGivePraiseRecommendation": "Uygulamayı arkadaşlarınıza ve ailenize önerin. Herhangi bir öneri için teşekkür ederiz!",
-  "supportRecommend": "Enerji tüketimimi ve ilgili maliyetleri takip etmek için sayaç okuma uygulamasını EHW+ kullanıyorum. Belki bu sizin için de bir şey olabilir?\n\nDaha fazla bilgi için https://www.ehwplus.com",
-  "supportGivePraiseRating": "Uygulamayı {store} cinsinden derecelendirin.",
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "electricityConsumption": "Güç tüketimi",
-  "waterExtractionMinimumLevelLower": "Tüketim eşikten düşük olduğu için kesinti yapılır.",
-  "outdatedCounters": "Sayaçlar artık kullanılmıyor",
-  "isOutdatedCounter": "Sayaç artık kullanılmıyor",
-  "waterConsumption": "Su tüketimi",
-  "rooms": "Odalar",
-  "messageNoRooms": "Henüz oda yok. Odalar grup ölçümlerine yardımcı olur.",
-  "settingObjectType": "Nesne türü",
-  "settingObjectTypeFlat": "Daire",
-  "settingObjectTypeHouse": "Ev",
-  "settingLivingArea": "Yaşam alanı",
-  "unitSquareMeters": "metrekare",
-  "unitMWhShort": "MWh",
-  "unitMWhLong": "{count, plural, one {Megawatt saat (MWh)} other {Megawatt saat (MWh)}}",
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitKWhShort": "kWh",
-  "unitKWhLong": "{count, plural, one {Kilowatt saat (kWh)} other {Kilowatt saat (kWh)}}",
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitGJShort": "GJ",
-  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoule (GJ)}}",
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitLitersShort": "ℓ",
-  "unitLitersLong": "{count, plural, one {Litre (ℓ)} other {Litre (ℓ)}}",
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCmShort": "santimetre",
-  "unitCmLong": "santimetre",
-  "unitSquareMetersShort": "m²",
-  "unitSquareMetersLong": "{count, plural, one {Metrekare (m²)} other {Metrekare (m²)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCubicMetersShort": "m³",
-  "unitCubicMetersLong": "{count, plural, one {Metreküp (m³)} other {Metreküp (m³)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitPercentShort": "%",
-  "unitPercentLong": "Yüzde (%)",
-  "unitKgShort": "kilogram",
-  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitHoursShort": "H",
-  "unitHoursLong": "{count, plural, one {Saat} other {Saat (saat)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitNoneFormatted": "{count, plural, one {birim} other {birimler}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitMegaByteShort": "MB",
-  "unitMegaByteLong": "MB",
-  "unitGigaByteShort": "Büyük Britanya",
-  "unitGigaByteLong": "Büyük Britanya",
-  "settingHouseholdSize": "Ev büyüklüğü",
-  "settingHouseholdSizeDescription": "Hanenizdeki kişi sayısı.",
-  "settingWaterHeater": "Su ısıtıcı",
-  "settingEAuto": "Elektrikli araba",
-  "settingObjectLocation": "Konum",
-  "settingObjectLocationTitle": "Nesneniz nerede bulunuyor?",
-  "settingObjectLocationExplanation": "Konumun girilmesi, analizlerin ve hizmetlerin bölgenize göre uyarlanmasına yardımcı olur.",
-  "counterBackgroundImageOfObject": "Nesne için arka plan resmi",
-  "manageMoreThanOneObjectStep1": "Birden fazla nesneyi yönetme - 1. Adım",
-  "manageMoreThanOneObjectStep2": "Birden fazla nesneyi yönetme - 2. Adım",
-  "contracts": "Sözleşmeler",
-  "messageNoContracts": "Henüz sözleşme yok.",
-  "outdatedContracts": "Güncelliği geçmiş sözleşmeler",
-  "contractType": "Sözleşme türü",
-  "electricity": "Elektrik",
-  "electricityBack": "Elektrik beslendi",
-  "electricityGenerated": "Üretilen elektrik",
-  "heatPump": "Isı pompası",
+  "activityWashTemperature": "Sıcaklık",
+  "activityWithEnergyConsumption": "Güç tüketimi yalnızca etkinlik için ölçülür",
+  "addActivity": "Etkinlik ekle",
+  "addDetail": "Ayrıntı ekle",
+  "addNewValue": "Yeni değer girin",
+  "advancePayment": "Peşin ödeme",
+  "appBarExpandedMode": "Arka plan resmine sahip uygulama çubuğu",
+  "appDescriptionLong": "<p><b>E</b>lectricity, <b>H</b>eating ve <b>W</b>ater için sayaç okuma uygulamanız olan <b>EHW+</b>'ye hoş geldiniz. Bizimle <b> <b>0ne kadar kullandığınızı ve ne kadar olduğunu kolayca takip edebilirsiniz<b>1 <b>2ücreti<b>3 ücretsiz.<b>4",
+  "appDescriptionShort": "Cüzdan için iyi, iklim için iyi",
+  "appName": "EHW+ | Tüketim ve sayaç okumaları",
+  "appNameShort": "EHW+",
+  "areYouSure": "Emin misin?",
+  "basePrice": "Taban fiyat",
+  "bonus": "Bonus",
+  "bonusInfoText": "Bonuslu tarifeler genellikle sağlayıcı değiştirirken özellikle yüksek tasarruflara olanak tanır. Ancak bu genellikle yalnızca bir kerelik bonustan kaynaklanır. Bunun anlamı şudur: Toplam maliyetler yalnızca tedarikin ilk yılında çok düşüktür. Yüksek iş ve/veya temel fiyatlar, ikinci yılda açıkça daha yüksek bir hesaplama yapılmasını sağlar. Bu nedenle bonus tarifelerde bir yıl sonra tekrar değişiklik yapmayı baştan planlamalısınız. Bu iptalin hiçbir şekilde mümkün olmadığı iki yıl vadeli bonus tarifelerinin özellikle ciddi bir şekilde sorgulanması gerekiyor.",
+  "bonusInfoTitle": "Bonus tarifeleri hakkında bilgi",
+  "cancellationPeriod": "İptal süresi",
+  "changeCounterOrder": "Gerekirse sırayı değiştirebilirsiniz",
+  "chartDottedLinesNonSeasonal": "Kesikli eğriler önceki dönemi temsil etmektedir. Örneğin \"Son 14 gün\" seçimi için son 28 gün görüntülenir ve bunlardan daha eski olan 14'ü kesikli çizgiyle gösterilir.",
+  "chartDottedLinesSeasonal": "Kesikli eğriler önceki dönemi temsil etmektedir. Örneğin \"Son 14 gün\" seçimi için son 28 gün görüntülenir ve bunlardan daha eski olan 14'ü kesikli çizgiyle gösterilir.",
+  "chartHorizontalLineElectricityGas": "Yeşil çizgi çok iyi tüketimi, sarı çizgi iyi tüketimi, kırmızı çizgi ise Almanya'daki ortalama tüketimi temsil ediyor.",
+  "chartHorizontalLineWater": "Almanya'da her kişi ortalama olarak evde her gün 127 litre içme suyu kullanıyor. Mavi çizgi soğuk suyu (%60), kırmızı çizgi ise sıcak suyu (%40) temsil eder ve dönem içindeki gün sayısına ve kişi sayısına göre hesaplanır.",
+  "chartHorizontalLines": "Kesikli çizgiler kendi tüketiminiz hakkında geri bildirim sağlamayı amaçlamaktadır.",
+  "chooseActivity": "Etkinlik seçin",
+  "chooseActivityIcon": "Bir simge seçin",
   "coldWater": "Soğuk su",
-  "counterHeater": "Radyatör ölçer",
-  "counterDistrictHeating": "Bölgesel Isıtma",
-  "counterOilHeating": "Yağ ısıtma",
-  "counterGas": "Gaz sayacı",
+  "cometConsentScreenAcceptButton": "Geri bildirimde bulunmak istiyorum",
+  "cometConsentScreenDataCanBeUsedForTraining": "Veriler gelecekteki tahminleri optimize etmek için kullanılabilir",
+  "cometConsentScreenDeclineButton": "Geri bildirimde bulunmak istemiyorum",
+  "cometConsentScreenFeedbackDescription": "Tahminin kullanımı ücretsizdir ancak araştırma ekibinin hizmetin ne kadar iyi çalıştığı konusunda geri bildirime ihtiyacı vardır.",
+  "cometConsentScreenFeedbackMethod": "Tahmin hizmetini kullandığınızda ve optimizasyonu kabul ettiğinizde geri bildirim otomatik olarak sağlanır.",
+  "cometConsentScreenFeedbackTitle": "Goethe Üniversitesi'nin geri bildiriminize ihtiyacı var:",
+  "cometConsentScreenHeader": "Yeni: Daha iyi tüketim tahminleri",
+  "cometConsentScreenHowItWorksTitle": "Nasıl çalışır?",
+  "cometConsentScreenOfflineDescription": "Cihazınızda basitleştirilmiş bir yerel tahmin hesaplanacaktır.",
+  "cometConsentScreenOfflineDescriptionTitle": "İnternet bağlantısı olmadan:",
+  "cometConsentScreenOnlineDescription": "Tüketim verileriniz, bireysel bir tahminin oluşturulacağı ve uygulamada görüntüleneceği Goethe Üniversitesi Frankfurt'a gönderilecek.",
+  "cometConsentScreenOnlineDescriptionTitle": "İnternet bağlantısıyla:",
+  "cometConsentScreenToggleLabel": "Tahmin hizmetini kullan",
+  "cometSettingsIsPredictionsApiEnabled": "Goethe Enstitüsü'nün COMET Tahmin API'sini kullanın",
+  "comment": "Bote",
+  "commonAnd": "Ve",
+  "commonBack": "Geri",
+  "commonCancel": "İptal etmek",
+  "commonChange": "Değiştirmek",
+  "commonChangeSaved": "Değişiklik kaydedildi",
+  "commonClose": "Kapalı",
+  "commonCollapse": "Yıkılmak",
+  "commonContinue": "Devam etmek",
+  "commonCopiedToClipboard": "Panoya kopyalandı",
+  "commonDay": "gün",
+  "commonDelete": "Silmek",
+  "commonLearnMore": "Daha fazla bilgi edin",
+  "commonLoadingData": "Veri yükleniyor",
+  "commonLoggingIn": "Oturumunuz açılıyor...",
+  "commonLoggingOut": "Oturumunuz kapatılıyor...",
+  "commonLogin": "Oturum aç",
+  "commonLogout": "oturumu Kapat",
+  "commonMaximum": "En yüksek günlük değer",
+  "commonMinimum": "En düşük günlük değer",
+  "commonMonth": "ay",
+  "commonMore": "Daha",
+  "commonNo": "HAYIR",
+  "commonNotAuthenticated": "Kimliğiniz doğrulanmadı.",
+  "commonOk": "TAMAM",
+  "commonOpen": "Açık",
+  "commonSave": "Kaydetmek",
+  "commonSend": "Göndermek",
+  "commonShare": "Paylaşmak",
+  "commonUpdateNow": "Şimdi güncelle",
+  "commonUserLogin": "Kullanıcı girişi",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "EHW+ hesabını kullanıyorsunuz. {total} satın alınan ürünlerden {notSubmitted}'ı EHW+ sunucusuna kaydedilemedi. Sorunu yakında çözmeyi umuyoruz.",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Bir satın alma işlemi EHW+ hesabı aracılığıyla senkronize edildi.} other {{count} satın alımları EHW+ hesabı aracılığıyla senkronize edildi.}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {EHW+ hesabını kullanıyorsunuz. Gelecekte ürün satın alırsanız, bunlar tüm cihazlarınızda senkronize edilecektir.} one {EHW+ hesabını kullanıyorsunuz. PHTOken0 satın alınan ürün EHW+ sunucusuna kaydedildi.} other {EHW+ hesabını kullanıyorsunuz. PHTOken0 satın alınan ürünler EHW+ sunucusuna kaydedildi.}}",
+  "commonUserLoginDescriptionNotLoggedIn": "Uygulamayı birden fazla cihazda mı kullanıyorsunuz? EHW+ hesabınızda oturum açmak, ayarlarınızı ve satın aldığınız ürünleri tüm cihazlarınızda senkronize etmenize olanak tanır.",
+  "commonYear": "yıl",
+  "commonYes": "Evet",
+  "completeButton": "Tamamlamak",
+  "confirmDeleteAtCloud": "\"{objectTitle}\" da Google Drive'dan silinmeli mi?",
+  "consent11AnalyticsTitle": "Analiz verileri",
+  "consent12Analytics": "Uygulamanın veya bireysel işlevlerin başarısını değerlendirmek için uygulama, anonimleştirilmiş kullanım istatistiklerini iletir. Veriler üçüncü şahıslara iletilmez. Veriler uygulamanın daha da geliştirilmesi için kullanılır.",
+  "consent13StromGedacht": "TransnetBW tarafından sağlanan bir hizmet olan StromGedacht, şebeke istikrarı hakkında bilgi veriyor ve elektriğin ne zaman tercihli olarak kullanılması gerektiğine dair öneriler sunuyor. Enerji geçişi iletim şebekesi için giderek daha zorlu hale gelirken, Güneybatı Almanya'daki haneler de sürece dahil oluyor. Konumunuzla ilgili bilgi almak için, uygulamaya buraya girilmişse posta kodunuz TransnetBW StromGedacht API'sine iletilir. Başka hiçbir veri aktarılmaz veya bağlanmaz.",
+  "consent13StromGedachtTitle": "StromGedacht'tan şebeke kararlılığı bildirimleri",
+  "consent1Hello": "Merhaba",
+  "consent2ThankYou": "EHW+'ı kullandığınız için teşekkür ederiz!",
+  "consent3Video": "Kısa bir tanıtım videosu izlemek ister misiniz?",
+  "consent4BeforeYouCanContinue": "Devam etmeden önce",
+  "consent5ErrorReportingTitle": "Hata raporları",
+  "consent6ContractPricesPerUnitTitle": "Elektrik/su/gaz fiyatları",
+  "consent7ContractPricesPerUnit": "Diğer EHW+ kullanıcılarına kıyasla şu anda ne kadar ödediğinizi tahmin edebilmek için fiyatlar ülke ve eyaletle birlikte Almanya'daki EHW+ sunucusuna aktarılır. Yalnızca aktarımı kabul ederseniz fiyat istatistiklerine erişebilirsiniz. Anonimliği sağlamak için istatistikler yalnızca minimum sayıda iletilen fiyattan sonra gösterilebilir.",
+  "consentTitle": "Gizlilik Ayarları",
+  "consumption": "Tüketim",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Temizle ve senkronize et",
+  "consumptionCacheManagementClearCacheButton": "Önbelleği temizle",
+  "consumptionCacheManagementClearedSuccessfully": "Önbellek başarıyla temizlendi",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Önbelleğe alınan tüm veriler silinecek ve sunucudan yeniden indirilecektir. Bu biraz zaman alabilir.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Önbellek temizlensin ve senkronize edilsin mi?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Önbelleğe alınan tüm tüketim verileri kalıcı olarak silinecektir. Daha sonra senkronize edebilirsiniz.",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Önbellek temizlensin mi?",
+  "consumptionHeatmap": "Tüketim Isı Haritası",
+  "consumptionHeatmapYield": "Getiri Isı Haritası",
+  "consumptionHeatpump": "Ayrıca ısı pompasının güç tüketimi {formattedValue} kWh tutarındadır.",
+  "consumptionIsNotExclusive": "Tüketim bu aktiviteye özel değilse uyarı olarak gösterilecektir.",
+  "consumptionIsNotExclusiveTitle": "Tüketim özel midir?",
+  "consumptionPersonLabel": "{count, plural, one {kişi} other {insanlar}}",
+  "consumptionWaterColdEqual": "Soğuk su: Ortalama evdekiyle hemen hemen aynı.",
+  "consumptionWaterColdLess": "Soğuk su: {percentage} ortalama evden daha az.",
+  "consumptionWaterColdMore": "Soğuk su: Ortalama evden {percentage} daha fazla.",
+  "consumptionWaterDailyMonthly": "günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
+  "consumptionWaterDailyMonthlyPerPerson": "Kişi başı herkes tüketiyor günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
+  "consumptionWaterDailyMonthlySingle": "Tüketiyorsun günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
+  "consumptionWaterOverallEqual": "{ofRange} su tüketiminiz, {householdSize} {personLabel} ile ortalama bir evin tüketimine denktir.",
+  "consumptionWaterOverallLess": "{ofRange} su tüketiminiz, {householdSize} {personLabel}'e sahip ortalama bir evinkinden {percentage} daha düşüktür.",
+  "consumptionWaterOverallMore": "{ofRange} su tüketiminiz, {householdSize} {personLabel}'e sahip ortalama bir evinkinden {percentage} daha yüksektir.",
+  "consumptionWaterPrefixPerPerson": "Kişi başı herkes tüketiyor",
+  "consumptionWaterPrefixSingle": "Tüketiyorsun",
+  "consumptionWaterRangeUnknown": "Su tüketiminiz {ofRange}...",
+  "consumptionWaterWarmEqual": "Sıcak su: Ortalama evdekiyle hemen hemen aynı.",
+  "consumptionWaterWarmLess": "Sıcak su: {percentage} ortalama evden daha az.",
+  "consumptionWaterWarmMore": "Sıcak su: Ortalama evden {percentage} daha fazla.",
+  "consumptionYearly": "Yıllık elektrik tüketiminiz {ofRange} {consumption} kWh'dir.",
+  "consumptionYearlyDetailedAboutSame": "yaklaşık olarak aynı",
+  "consumptionYearlyDetailedAverageHousehold": "{householdSize} {personLabel} olan ortalama bir hane",
+  "consumptionYearlyDetailedComparisonEqual": "{verbSuffix} tüketiyorsunuz yaklaşık olarak aynı {householdSize} {personLabel} olan ortalama bir hane.",
+  "consumptionYearlyDetailedComparisonLess": "{verbSuffix} tüketiyorsunuz {percentage} daha az {householdSize} {personLabel} olan ortalama bir hane.",
+  "consumptionYearlyDetailedComparisonMore": "{verbSuffix} tüketiyorsunuz {percentage}'dan fazla {householdSize} {personLabel} olan ortalama bir hane.",
+  "consumptionYearlyDetailedElectricity": "Elektrik tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay) {consumptionLevel}.",
+  "consumptionYearlyDetailedElectricityIntro": "Elektrik tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay)",
+  "consumptionYearlyDetailedGas": "Gaz tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay) {consumptionLevel}.",
+  "consumptionYearlyDetailedGasIntro": "Gaz tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay)",
+  "consumptionYearlyDetailedLessThan": "{percentage} daha az",
+  "consumptionYearlyDetailedLevel0": "süper düşük.",
+  "consumptionYearlyDetailedLevel1": "gerçekten görülmesi gereken bir şey.",
+  "consumptionYearlyDetailedLevel1Suffix": "PHTOKEN Optimum tüketim için0 kWh/ay eksik.",
+  "consumptionYearlyDetailedLevel2": "normaldir.",
+  "consumptionYearlyDetailedLevel2Suffix": "PHTOKEN İyi tüketim için 0 kWh/ay eksik.",
+  "consumptionYearlyDetailedLevel3": "nispeten yüksektir.",
+  "consumptionYearlyDetailedLevel4": "normaldir.",
+  "consumptionYearlyDetailedMoreThan": "{percentage}'dan fazla",
+  "consumptionYearlyDetailedOptimalEnding": "Bunu nasıl yapıyorsun?",
+  "consumptionYearlyDetailedYouConsume": "{verbSuffix} tüketiyorsunuz",
+  "consumptionYield": "Teslim olmak",
+  "contact": "EHW+ Hizmetleri GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nİletişim\n\nTelefon: 06204/7383382\nPosta: info@ehwplus.com",
+  "contactTitle": "Temsil edilen:",
+  "continueAcceptPart1": "EHW+ uygulamasını kullanarak şunu kabul etmiş olursunuz:",
+  "continueAcceptPart2": ". Anonimleştirilmiş ve kişisel verilerin toplanması ve kullanılması hakkında daha fazla bilgi için lütfen",
+  "contract": "Sözleşme",
+  "contractCopyDialogOptionNo": "Hayır, iptal et.",
+  "contractCopyDialogOptionYes": "Evet birim fiyat veya başka bir değer değişti.",
+  "contractCopyDialogTitle": "Bu sözleşmenin bir kopyasını çıkarmak ister misiniz?",
+  "contractCopyDialogWhen": "Yeni fiyat ne zamandan itibaren geçerli olacak?",
+  "contractCosts": "Birim fiyatı",
+  "contractCostsFeedIn": "Ücret fiyatı/taban fiyatı",
+  "contractDetails": "Sözleşme süresi ve detayları",
+  "contractName": "Sağlayıcı/sözleşme adı",
+  "contractNumber": "Sözleşme numarası",
+  "contractPeriod": "Sözleşme süresi",
+  "contractReminder": "Sözleşme hatırlatıcısı",
+  "contractStart": "Sözleşme başlangıç ​​tarihi",
+  "contractType": "Sözleşme türü",
+  "contractTypeElectricityProvider": "Elektrik sağlayıcısı",
+  "contractTypeGasProvider": "Gaz sağlayıcı",
+  "contractTypeHeatingFees": "Isıtma ücretleri",
+  "contractTypeNetwork": "İnternet ve telefon",
+  "contractTypeOilProvider": "Yağ sağlayıcı",
+  "contractTypeStove": "Soba",
+  "contractTypeWaterFees": "Su ücretleri",
+  "contracts": "Sözleşmeler",
+  "corresponds": "karşılık gelir",
+  "costSummary": "Maliyet özeti",
+  "costSummaryYield": "Ücret fiyatı/taban fiyatı",
+  "costs": "Maliyetler",
+  "costsUndefinedColdWater": "Soğuk su ücretleri",
+  "costsUndefinedElectricity": "Elektrik ücretleri",
+  "costsUndefinedFor": "Maliyetler tanımsız",
+  "costsUndefinedForType": "Tanımsız için {type}",
+  "costsUndefinedGas": "Gaz ücretleri",
+  "costsUndefinedHeater": "Isıtıcı ücretleri",
+  "costsUndefinedNetworkCounter": "İnternet ücretleri",
+  "costsUndefinedOilHeating": "Petrol ücretleri",
+  "costsUndefinedWarmWater": "Sıcak su ücretleri",
+  "counter": "Tezgah",
+  "counterBackgroundImage": "Sayaç için arka plan resmi",
+  "counterBackgroundImageOfObject": "Nesne için arka plan resmi",
   "counterColdWater": "Soğuk su sayacı",
-  "counterWaterExtraction": "Su çıkarma sayacı (bahçe)",
-  "counterWaterExtractionExplanation": "Kesinti sayacı ile atık su maliyetleri azaltılabilir. Bu uygulama içi satın alma işlemiyle, tatlı su ve atık su için farklı maliyetler belirleyebilirsiniz ve kesinti sayacından okunan sayaç, su maliyetlerinde dikkate alınacaktır.",
-  "warmWater": "Sıcak su",
-  "counterWarmWater": "Sıcak su sayacı",
+  "counterConsiderForTotalConsumptions": "Toplam tüketimleri göz önünde bulundurun",
+  "counterConsiderForTotalElectricity": "Toplam elektrik tüketimini dikkate alın",
+  "counterConsiderForTotalWater": "Toplam su tüketimini dikkate alın",
+  "counterContractCurrentlyUsed": "Şu anda kullanılan sözleşme",
+  "counterDeleteConfirm": "Sayaç silinsin mi?",
+  "counterDirection": "Yön",
+  "counterDirectionAscending": "artan",
+  "counterDirectionDescending": "alçalan",
+  "counterDirectionExplanation": "Değer kullanımla birlikte mi azalıyor (seviye göstergesi vb.), yoksa değer kullanımla mı artıyor (brülör saatleri, yağ ölçer vb.) veya her okuma değeri bağımsız mı (tüketim/verim)?",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "counterDistrictHeating": "Bölgesel Isıtma",
+  "counterEdit": "Sayacı düzenle",
   "counterElectricity": "Elektrik sayacı",
   "counterElectricityBack": "Elektrik besleme sayacı (PV)",
   "counterElectricityGenerated": "Elektrik üretim sayacı",
-  "counterPvFeedInCounter": "Yenilenebilir enerjiler (güneş enerjisi ve PV/güneş sistemleriyle ısıtma)",
-  "counterPvFeedInCounterExplanation": "Üretilen ve beslenen elektriği kaydetmek için bir elektrik besleme sayacı kullanın\nfotovoltaik sistem ile. Ortaya çıkan gelir, maliyetten mahsup edilir.\nçekilen elektrik.",
-  "virtualCounter": "Sanal sayaç",
-  "heater": "Radyatör",
-  "gas": "Gaz",
-  "oil": "Yağ",
-  "stove": "Soba",
-  "networkCounter": "İnternet ve telefon",
-  "solarThermalCollector": "Güneş Termal Kollektörü",
-  "contractTypeElectricityProvider": "Elektrik sağlayıcısı",
-  "contractTypeWaterFees": "Su ücretleri",
-  "contractTypeHeatingFees": "Isıtma ücretleri",
-  "contractTypeOilProvider": "Yağ sağlayıcı",
-  "contractTypeGasProvider": "Gaz sağlayıcı",
-  "contractTypeStove": "Soba",
-  "contractTypeNetwork": "İnternet ve telefon",
-  "currency": "Para birimi",
-  "costsUndefinedFor": "Maliyetler tanımsız",
-  "exportOptionReadingsTitle": "Değerleri okuma",
-  "exportOptionReadingsSubtitle": "Tipik olarak düzensiz aralıklarla sayaç okumaları veya tüketim.",
-  "exportOptionConsumptionsTitle": "Günlük tüketim",
-  "exportOptionConsumptionsSubtitle": "İlk okumadan bu yana her gün için bir tüketim değeri.",
-  "settings": "Ayarlar",
-  "roomOther": "Diğer",
-  "previouslyDeletedCounters": "Yakın zamanda silinen sayaçlar",
-  "restoreDeletedCounter": "Silinen bu sayacı geri yüklemek ister misiniz?",
-  "localWriteTitle": "Yerel indirme klasörüne kaydedin",
-  "localWriteSubtitle": "Nesneler ve fotoğraflar her değişiklikte yerel \"{folder}\" klasörüne mi kaydedilmeli?",
-  "settingUiMode": "Kullanıcı arayüzü",
-  "settingUiColorPalette": "Renk paleti",
-  "settingUiModeDarkOrLight": "Koyu/açık kullanıcı arayüzü",
-  "settingLanguageMode": "Dil",
-  "settingUiModeOsDefault": "Sistem",
-  "settingUiModeLight": "Işık",
-  "settingUiModeDark": "Karanlık",
-  "appBarExpandedMode": "Arka plan resmine sahip uygulama çubuğu",
-  "useDismissibleSettings": "Kaydırma hareketiyle silme",
-  "useDismissibleSettingsDetailed": "Sayaçlar, sözleşmeler vb. yandan kaydırma hareketi ile silinebilir",
-  "settingsExternalServices": "Dış hizmetler",
-  "settingsShowTabNewsDetailed": "Haberler/İpuçları sekmesi görünür olmalı mı?",
-  "settingsShowStromGedacht": "StromGedacht'ın elektrik şebekesine ilişkin ipuçları görüntülenmeli mi?",
-  "lineChartAppearanceSettings": "Çizgi grafiklerin görünümü",
-  "lineChartAppearanceSettingsShowSpots": "Grafik çizgilerinde (dairesel) noktaları göster",
-  "supportMakeSuggestion": "Bir şey öner",
-  "supportMakeSuggestionLong": "Uygulama, kullanıcı önerileriyle varlığını sürdürüyor. Bir öneriniz var mı?",
-  "featureVoting": "Özellik oylaması",
-  "featureVotingOnlyOnGerman": "Özellik anketi diğer dillere çevrilmemiştir.",
-  "notifications": "Bildirimler",
-  "notificationsEmpty": "Bildirim yok",
-  "notificationsSmartMeterAlertFallback": "Yeni bir akıllı sayaç uyarınız var.",
-  "readingNew": "Yeni okuma",
-  "readingUpdate": "Okumayı güncelle",
-  "readingPrefill": "Sayaç okumasını otomatik doldurma",
-  "readingPrefillDisabled": "Otomatik doldurma devre dışı",
-  "readingPrefillEnableForAllCounters": "Tüm sayaçlar için otomatik doldurmayı etkinleştir",
-  "readingPrefillDisableForAllCounters": "Tüm sayaçlar için otomatik doldurmayı devre dışı bırak",
-  "readingPrefillDescription": "Önceki girişlere dayalı ön dolum sayaç okumaları",
-  "readingPrefillDisabledToast": "Otomatik doldurma devre dışı",
-  "readingSubmitted": "Sayaç okuması gönderildi",
-  "readingDeleteConfirm": "Okuma silinsin mi?",
-  "reminderTime": "Hatırlatma zamanı",
-  "reminderWeekdayExplanation": "Günde bir defadan fazla okuma yapılmasına dair bir hatırlatma vardır.",
-  "reminderWeekdayExplanationSeasonal": "Sezonluk tüketimi olan sayaçlarda hatırlatmalar yalnızca tüketimin olduğu aylarda gönderilir (geçen yılın değerlerinin verilmesi durumunda çalışır).",
-  "readingReminder": "{count, plural, one {Okuma hatırlatıcısı} other {Hatırlatıcıları okuma}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "readingReminders": "Hatırlatıcıları okuma",
-  "readingReminderDisabled": "Okuma hatırlatıcısı etkin değil",
-  "readingRemindersChannel": "Hatırlatıcıları okuma",
-  "readingReminderSingleBody": "{counterName} değerini şimdi oku",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "readingReminderMultiBody": "{count, plural, one {{count} ölçüm cihazından okumaları şimdi okuyun} other {{count} metreden okumaları şimdi okuyun}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "contractReminder": "Sözleşme hatırlatıcısı",
-  "outdated": "Modası geçmiş",
-  "counterNew": "Yeni sayaç",
-  "counterEdit": "Sayacı düzenle",
-  "counterGasConversionFactor": "Dönüşüm faktörü",
-  "counterGasCalorificValue": "Kalorifik değer",
-  "counterGasConversionFactorHelpText": "Yaklaşık 1.0. Durum numarası, çalışma hacmini standart hacme dönüştürmek için kullanılır. Çalışma koşulu, gazın sayaçtaki durumudur ve mevcut basınca (yüksekliğe) ve sıcaklığa bağlıdır.",
-  "counterGasCalorificValueHelpText": "Isıtma değeri: Ölçülen gaz hacmini enerjiye dönüştürmek için boyutsuz faktör. Doğal gaz: genellikle 9,0 ila 12,5 kWh/m³ arasında, LPG: 23,0 ila 33,0 kWh/m³ arasında",
-  "counterTypeLabel": "Sayaç türü",
-  "counterMeterId": "Sayaç Kimliği",
-  "counterName": "Sayaç adı",
-  "counterContractCurrentlyUsed": "Şu anda kullanılan sözleşme",
-  "counterSelected": "Seçildi",
-  "counterNoContractSelected": "Sözleşme seçilmedi",
-  "counterOtherContracts": "Diğer sözleşmeler",
-  "counterExcludedContracts": "Hariç tutulan sözleşmeler",
-  "counterInclude": "Katmak",
   "counterExclude": "Hariç tutmak",
-  "counterTankCapacity": "Tank kapasitesi",
-  "counterTankFillHeight": "Doldurma yüksekliği",
-  "counterFactorDescription": "Tüketim size yalnızca orantısal olarak mı tahsis ediliyor? Oranı 0,1 (%10) ile 1,0 (%100) arasında bir değer olarak girin.",
-  "counterTransducerFactor": "Trafo oranı",
-  "counterProportionateConsumption": "Orantılı tüketim",
-  "counterFactor": "Faktör",
-  "counterTransducerFactorExplained": "Gerilimi sayaca ulaşmadan önce düşürmek için bir gerilim transformatörü kullanılıyorsa, doğru okumaları elde etmek için yeni bir dönüşüm faktörü uygulanmalıdır. Örnek: sayaç 20 dönüştürme faktörüyle 100.000 kWh gösteriyor. Doğru okuma: 100.000 kWh x 20 = 2.000.000 kWh.",
-  "counterFractionDigits": "Kesir basamakları",
-  "counterDirection": "Yön",
-  "counterDirectionExplanation": "Değer kullanımla birlikte mi azalıyor (seviye göstergesi vb.), yoksa değer kullanımla mı artıyor (brülör saatleri, yağ ölçer vb.) veya her okuma değeri bağımsız mı (tüketim/verim)?",
-  "counterConsiderForTotalElectricity": "Toplam elektrik tüketimini dikkate alın",
-  "counterConsiderForTotalWater": "Toplam su tüketimini dikkate alın",
-  "counterWaterExtractionMinimumLevel": "Asgari seviye",
-  "counterBackgroundImage": "Sayaç için arka plan resmi",
-  "counterShowReadingsChart": "Okuma grafiğini göster",
-  "counterShowHeatmap": "Isı haritasını göster",
-  "counterShowPreliminaryCurve": "Ön eğriyi göster",
-  "seasonalCounter": "Sezonluk sayaç",
-  "seasonalElectricityCounter": "Mevsimsel elektrik sayacı",
+  "counterExcludedContracts": "Hariç tutulan sözleşmeler",
   "counterExplainSeasonal": "Yaz aylarında sayaç okumaları 0'a mı ayarlansın? Kışın okumalar normal tüketim düzeninizi takip edecektir; yazın ise düz kalacaklar.",
+  "counterFactor": "Faktör",
+  "counterFactorDescription": "Tüketim size yalnızca orantısal olarak mı tahsis ediliyor? Oranı 0,1 (%10) ile 1,0 (%100) arasında bir değer olarak girin.",
+  "counterFractionDigits": "Kesir basamakları",
+  "counterGas": "Gaz sayacı",
+  "counterGasCalorificValue": "Kalorifik değer",
+  "counterGasCalorificValueHelpText": "Isıtma değeri: Ölçülen gaz hacmini enerjiye dönüştürmek için boyutsuz faktör. Doğal gaz: genellikle 9,0 ila 12,5 kWh/m³ arasında, LPG: 23,0 ila 33,0 kWh/m³ arasında",
+  "counterGasCalorificValueLabel": "Kalorifik değer*",
+  "counterGasConversionFactor": "Dönüşüm faktörü",
+  "counterGasConversionFactorHelpText": "Yaklaşık 1.0. Durum numarası, çalışma hacmini standart hacme dönüştürmek için kullanılır. Çalışma koşulu, gazın sayaçtaki durumudur ve mevcut basınca (yüksekliğe) ve sıcaklığa bağlıdır.",
+  "counterGasConversionFactorLabel": "Dönüşüm faktörü*",
+  "counterHeater": "Radyatör ölçer",
+  "counterInclude": "Katmak",
   "counterIsOutdated": "Sayaç eski",
   "counterLinkMoreRecent": "Daha yeni sayacı bağla",
-  "counterReplacedBy": "Tarafından değiştirildi",
-  "counterReallyDeleteLink": "Bağlantı silinsin mi?",
-  "counterDeleteConfirm": "Sayaç silinsin mi?",
-  "counterGasCalorificValueLabel": "Kalorifik değer*",
-  "counterGasConversionFactorLabel": "Dönüşüm faktörü*",
-  "counterNoRoomConnection": "Oda bağlantısı yok",
-  "counterRoom": "Oda",
   "counterMessageRoomOptional": "Oda ataması gruplandırmaya yardımcı olur ancak isteğe bağlıdır.",
-  "teaserPurchaseVirtualCounter": "Premium ile sanal sayaçlar ekleyin.",
-  "teaserPurchaseWaterExtractionCounter": "Premium ile su çıkarma sayaçlarının kilidini açın.",
-  "teaserPurchaseRenewableEnergies": "Yenilenebilir enerji sayaçları Premium gerektirir.",
-  "settingYearlyReset": "Yıllık sıfırlama",
-  "settingYearlyResetOn": "Açık",
-  "settingShowCounterReadingsChart": "Okuma grafiğini göster",
-  "settingShowHeatmap": "Isı haritasını göster",
-  "settingShowPreliminaryCurve": "Ön eğriyi göster",
-  "unitLiters": "litre",
-  "unitCm": "santimetre",
-  "unitNone": "hiçbiri",
-  "roomType": "Oda tipi",
-  "roomName": "Oda adı",
-  "roomNameHint": "İsteğe bağlı olarak bir oda adı atayın",
-  "roomNew": "Yeni oda",
-  "roomDeleteConfirm": "Oda silinsin mi?",
-  "settingColor": "Renk",
+  "counterMeterId": "Sayaç Kimliği",
+  "counterName": "Sayaç adı",
+  "counterNew": "Yeni sayaç",
+  "counterNoContractSelected": "Sözleşme seçilmedi",
+  "counterNoRoomConnection": "Oda bağlantısı yok",
   "counterNum": "{count} sayaçları",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "timeInFuture": "Gelecekte",
-  "timeLastUpdated": "son güncelleme",
-  "timeSeconds": "saniye",
-  "timeMinutes": "dakika",
-  "timeHours": "saat",
-  "timeDays": "günler",
-  "timeDaysWithin": "günler",
-  "timeMonth": "ay",
-  "timeMonths": "aylar",
-  "timeMonthsWithin": "aylar",
-  "timeJustNow": "Şu anda",
-  "timeMinutesAgo": "{minutes} dakika önce",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "timeHoursAgo": "{hours} saat önce",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "timeToday": "Bugün",
-  "timeDayAgo": "bir gün önce",
-  "timeDaysAgo": "{days} gün önce",
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "timeMonthsAgo": "{months} ay önce",
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "timeForFirstYear": "ilk yıl için",
-  "timeWeek": "hafta",
-  "timeWeeks": "haftalar",
-  "timeWithin": "{duration} içinde",
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "timeYesterday": "Dün",
-  "timeMonday": "Pazartesi",
-  "timeTuesday": "Salı",
-  "timeWednesday": "Çarşamba",
-  "timeThursday": "Perşembe",
-  "timeFriday": "Cuma",
-  "timeSaturday": "Cumartesi",
-  "timeSunday": "Pazar",
-  "timeFromUndefined": "Tanımlanmamış",
-  "timeUntilUnlimited": "Sınırsız",
-  "timeUntilDate": "{date}'a kadar",
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeFromDate": "{date}'dan",
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeReminderAtStart": "Başlangıçta",
-  "timeReminderAtEnd": "sonunda",
-  "timePeriodYearStart": "yıllık",
-  "timeRightNow": "Şu anda",
-  "timeBefore": "Önce",
-  "purchasesUpgrade": "Güncelleme",
-  "upgradeDescription": "Uygulama daha fazlasını yapabilir. Maliyete daha iyi genel bakış, daha fazla istatistik, Excel dışa aktarma, daha fazla sayaç, ...",
-  "purchasesWhyBuyTitle": "Neden bir şey satın almalıyım?",
-  "purchasesWhyBuyText": "Bir satın alma işlemiyle, uygulamanın yayınlanmasından kaynaklanan masraflara katılırsınız ve daha da geliştirilmesine destek olursunuz.",
-  "purchasesIOSRestorePurchases": "Satın alınanları geri yükle",
-  "purchasesIOSRestorePurchasesDescription": "Geçmişte AppStore'da bir şey satın aldıysanız satın alınanları geri yükleyebilirsiniz.",
-  "purchasesDisabledOnIOS": "Uygulama içi satın almalar devre dışı bırakıldı",
-  "purchasesDisabledOnIOSDescription": "Lütfen iPhone'unuzda uygulama içi satın alma işlemlerinin devre dışı olup olmadığını kontrol edin (Ayarlar > Ekran Süresi > Kısıtlamalar > Uygulama Yüklemeleri ve Satın Alma İşlemleri > Uygulama İçi Satın Alma İşlemlerine İzin Ver)",
-  "purchasesDisabledOnIOSDescriptionTestflight": "Uygulama Testflight aracılığıyla yüklendi. Satın alma işlemlerinin yalnızca uygulamayı App Store aracılığıyla yüklediğinizde uygulamada işe yaradığını lütfen unutmayın.",
-  "purchasesSubscribePremium": "Premium'a abone olun",
-  "purchasesSubscribePremiumTextLong": "Abonelik süresi boyunca tüm ücretli özelliklere erişim + dış ortam sıcaklıkları",
-  "purchasesWebLegalNote": "Yasal nedenlerden dolayı satın alma işlemi yalnızca PlayStore hizmetlerine sahip bir iPhone veya Android telefon için mümkündür.",
-  "purchasesYourPurchases": "Aşağıdaki premium paketlere erişebilirsiniz:",
-  "purchasesExtensionsTitle": "Tek uzantılar",
-  "purchasesExtensionsSubtitle": "Bir kez satın alın, kalıcı olarak kullanın (abonelik yok)",
-  "purchasesExtensionStatisticsTitle": "Gelişmiş istatistikler",
-  "purchasesExtensionMultipleObjectsTitlePart": "Birden fazla nesneyi yönetme",
-  "purchasesExtensionMultipleObjectsDescription": "İstediğiniz sayıda daire/ev/nesnenin sayaç okumalarını girin (tek bir nesne yerine)",
-  "purchasesExtensionsInWork": "Daha fazla genişletme planlanıyor. Görüşünüzü belirtmek için özellik anketine katılın.",
-  "purchasesSubscribeNow": "Şimdi abone olun",
-  "purchasesBuyNow": "Şimdi al",
-  "purchasesRedeemCode": "Kodu kullan",
-  "purchasesEarlyBirdSubscription": "Not: İlk kez yapılan bu müşteri aboneliği iptal edilirse daha sonra tekrar abone olunamaz.",
-  "purchasesPurchasedIncludedInPremium": "Premium'a dahil",
-  "purchasesPurchasedSubscribed": "Abone olundu",
-  "purchasesPurchased": "Satın alındı",
-  "purchasesExtensionStatisticsDescription": "Yıllık/aylık/haftalık elektrik/gaz/su/... tüketimine erişim + dönem ayarlamaları + ayrıntılı maliyet özeti + Excel'e aktarma",
-  "commonAnd": "Ve",
-  "purchasesSubscribePremiumMonthly": "Aylık yalnızca {price} karşılığında iptal edilebilir aylık abonelik",
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumMonthlyWithNewPrice": "{priceNew} yerine aylık {price} sadakat fiyatıyla aylık iptal edilebilir abonelik",
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearly": "Yıllık yalnızca {price} karşılığında yıllık iptal edilebilir abonelik",
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearlyWithNewPrice": "{priceNew} yerine yıllık {price} sadakat fiyatıyla yıllık iptal edilebilir abonelik",
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesStatisticsWithPremium": "Premium ile aylık karşılaştırmalara{count, plural, =0{.}=1{.}other{ ve ayrıca {years} için geçmiş verileri görebilirsiniz.}} erişebilirsiniz",
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "years": {
-        "type": "String"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "smartMeterProviderTibber": "Tibber",
-  "smartMeterProviderWwgl": "Wasserwerk Gerauer Bölgesi",
-  "smartMeterProviderUndefined": "Ayarlanmadı",
-  "sync": "Senkronizasyon",
-  "costsUndefinedForType": "Tanımsız için {type}",
-  "costsUndefinedElectricity": "Elektrik ücretleri",
-  "costsUndefinedColdWater": "Soğuk su ücretleri",
-  "costsUndefinedWarmWater": "Sıcak su ücretleri",
-  "costsUndefinedHeater": "Isıtıcı ücretleri",
-  "costsUndefinedOilHeating": "Petrol ücretleri",
-  "costsUndefinedGas": "Gaz ücretleri",
-  "costsUndefinedNetworkCounter": "İnternet ücretleri",
-  "updateAvailable": "{oldVersion} uygulama sürümü güncel değil. {newVersion} sürümüne güncelleyebilirsiniz.",
-  "@updateAvailable": {
-    "placeholders": {
-      "oldVersion": {
-        "type": "String"
-      },
-      "newVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "versionIsUpToDate": "Tüm kullanıcılara sunulan en son uygulama sürümü {version}'dır.",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "messageNoCounters": "Henüz bir sayaç oluşturmadınız.",
-  "messageNoCounterReadings": "Henüz bir sayaç okuması girmediniz.",
-  "parsingObjectError": "Nesne ayrıştırılamıyor. Lütfen geliştiriciyle iletişime geçin. Uygulamayı kaldırırken veriler kaybolabilir.",
-  "reallyDeleteCounter": "Sayacı silmek istediğinizden emin misiniz?",
-  "reallyDeletePhoto": "Sayaç okuma fotoğrafını silmek istediğinizden emin misiniz?",
-  "reallyDeleteCounterLink": "Sayaçlar arasındaki bağlantıyı silmek istediğinizden emin misiniz?",
-  "virtualCounterNotConfigured": "Lütfen sanal ölçüm cihazınızın ayarlarını kontrol edin. Hiçbir şey hesaplanamaz.",
-  "virtualCounterMasterCounter": "Ana sayaç",
-  "virtualCounterMasterCounterAttach": "Ana sayacı seçin",
-  "virtualCounterMasterCounterDescription": "Bilgi: Ana sayaç, sanal sayacın hesaplanması için temel oluşturur; örneğin ana elektrik sayacı veya ana su sayacı.",
-  "virtualCounterMetersToBeSubtracted": "Çıkarılacak metreler",
-  "virtualCounterMetersToBeSubtractedDescription": "Hangi sayaç okumalarının ana sayaçtan çıkarılması gerektiği, örneğin \"ısı pompası sayaçları\", \"elektrik besleme sayaçları\".",
-  "virtualCounterMetersToBeAdded": "Eklenecek sayaçlar",
-  "virtualCounterMetersToBeAddedDescription": "Ana sayaca hangi sayaç okumalarının eklenmesi gerektiği (örneğin enerji üretim sayaçları).",
-  "areYouSure": "Emin misin?",
-  "addNewValue": "Yeni değer girin",
-  "reallyDeleteValue": "Bu değeri gerçekten silmek istiyor musunuz?",
-  "warning": "Uyarı",
-  "messageNotEnoughData": "Grafiği görüntülemek için yeterli veri yok",
-  "messageNoConsumptions": "Yeterli okuma yapılmışsa, bir türdeki tüm sayaçlara ilişkin istatistikler burada görünür. Örneğin bir su istatistiğinde iki soğuk su sayacı, iki sıcak su sayacı ve bir su çıkarma sayacı gösterilmektedir.",
-  "lastReading": "son okuma",
-  "chartDottedLinesNonSeasonal": "Kesikli eğriler önceki dönemi temsil etmektedir. Örneğin \"Son 14 gün\" seçimi için son 28 gün görüntülenir ve bunlardan daha eski olan 14'ü kesikli çizgiyle gösterilir.",
-  "chartDottedLinesSeasonal": "Kesikli eğriler önceki dönemi temsil etmektedir. Örneğin \"Son 14 gün\" seçimi için son 28 gün görüntülenir ve bunlardan daha eski olan 14'ü kesikli çizgiyle gösterilir.",
-  "chartHorizontalLines": "Kesikli çizgiler kendi tüketiminiz hakkında geri bildirim sağlamayı amaçlamaktadır.",
-  "chartHorizontalLineWater": "Almanya'da her kişi ortalama olarak evde her gün 127 litre içme suyu kullanıyor. Mavi çizgi soğuk suyu (%60), kırmızı çizgi ise sıcak suyu (%40) temsil eder ve dönem içindeki gün sayısına ve kişi sayısına göre hesaplanır.",
-  "chartHorizontalLineElectricityGas": "Yeşil çizgi çok iyi tüketimi, sarı çizgi iyi tüketimi, kırmızı çizgi ise Almanya'daki ortalama tüketimi temsil ediyor.",
-  "per": "başına",
-  "costSummary": "Maliyet özeti",
-  "costSummaryYield": "Ücret fiyatı/taban fiyatı",
-  "soFar": "şu ana kadar",
+  "counterOilHeating": "Yağ ısıtma",
+  "counterOtherContracts": "Diğer sözleşmeler",
+  "counterOutdatedAndNextReminder": "{date}'dan bu yana sayaç okuması güncel değil, sonraki okuma hatırlatıcısı {date2}.",
+  "counterProportionateConsumption": "Orantılı tüketim",
+  "counterPvFeedInCounter": "Yenilenebilir enerjiler (güneş enerjisi ve PV/güneş sistemleriyle ısıtma)",
+  "counterPvFeedInCounterExplanation": "Üretilen ve beslenen elektriği kaydetmek için bir elektrik besleme sayacı kullanın\nfotovoltaik sistem ile. Ortaya çıkan gelir, maliyetten mahsup edilir.\nçekilen elektrik.",
+  "counterReadings": "Okumalar",
+  "counterReallyDeleteLink": "Bağlantı silinsin mi?",
+  "counterReplacedBy": "Tarafından değiştirildi",
+  "counterRoom": "Oda",
+  "counterSelected": "Seçildi",
+  "counterShowHeatmap": "Isı haritasını göster",
+  "counterShowPreliminaryCurve": "Ön eğriyi göster",
+  "counterShowReadingsChart": "Okuma grafiğini göster",
+  "counterTankCapacity": "Tank kapasitesi",
+  "counterTankFillHeight": "Doldurma yüksekliği",
+  "counterTransducerFactor": "Trafo oranı",
+  "counterTransducerFactorExplained": "Gerilimi sayaca ulaşmadan önce düşürmek için bir gerilim transformatörü kullanılıyorsa, doğru okumaları elde etmek için yeni bir dönüşüm faktörü uygulanmalıdır. Örnek: sayaç 20 dönüştürme faktörüyle 100.000 kWh gösteriyor. Doğru okuma: 100.000 kWh x 20 = 2.000.000 kWh.",
+  "counterTypeLabel": "Sayaç türü",
+  "counterWarmWater": "Sıcak su sayacı",
+  "counterWarmWaterPlusColdWater": "Tatlı su ve atık su maliyetleri hariç",
+  "counterWater": "Su sayaçları",
+  "counterWaterExtraction": "Su çıkarma sayacı (bahçe)",
+  "counterWaterExtractionExplanation": "Kesinti sayacı ile atık su maliyetleri azaltılabilir. Bu uygulama içi satın alma işlemiyle, tatlı su ve atık su için farklı maliyetler belirleyebilirsiniz ve kesinti sayacından okunan sayaç, su maliyetlerinde dikkate alınacaktır.",
+  "counterWaterExtractionMinimumLevel": "Asgari seviye",
+  "counters": "Metre",
+  "createAccount": "Hesap oluştur/giriş yap",
+  "csvImportWithFactor": "Sayaç okumaları 1,0'a eşit olmayan bir faktörle çarpılmalı mı? Örneğin, değerleri Wh'den kWh'ye dönüştürmek için bunların 0,001 ile çarpılması gerekir.",
+  "currency": "Para birimi",
+  "deleteObjectError": "Bu nesne silinemiyor (Kod {errorCode}).",
+  "detailWithMultiSelect": "Çoklu seçime izin ver",
+  "detailsTitle": "Detaylar",
+  "difference": "Fark",
+  "driveSignInWithGoogle": "Google ile oturum açın",
+  "driveSyncNow": "Şimdi senkronize et",
+  "driveSyncStatusComparing": "Sunucudaki dosyayla karşılaştırma",
+  "driveSyncStatusFailed": "Senkronize edilemedi",
+  "driveSyncStatusLocalHasLatestNoCloud": "Bu cihaza {localDate}'dan kaydedilen dosya bulutun içine kaydedilmiyor",
+  "driveSyncStatusLocalHasLatestWithCloud": "Bu cihaza {localDate}'dan kaydedilen dosya, {cloudDate}'den buluttaki dosyadan daha güncel",
+  "driveSyncStatusNotSynced": "Senkronize edilmedi",
+  "driveSyncStatusRemoteHasLatestNoLocal": "{cloudDate}'ın buluttaki dosyası bu cihaza kaydedilmedi",
+  "driveSyncStatusRemoteHasLatestWithLocal": "{cloudDate}'ın buluttaki dosyası, {localDate}'in yerel dosyasından daha güncel",
+  "driveSyncStatusSyncing": "Senkronizasyon devam ediyor",
+  "driveSyncStatusTitle": "Senkronizasyon durumu",
+  "driveSyncStatusUpToDate": "{localDate}'dan güncel",
+  "driveSyncWithGoogle": "Google Drive Senkronizasyonu",
+  "editDetailTitle": "Ayrıntıyı düzenle",
+  "electricity": "Elektrik",
+  "electricityBack": "Elektrik beslendi",
+  "electricityConsumption": "Güç tüketimi",
+  "electricityGenerated": "Üretilen elektrik",
+  "enterComment": "Bir not girin",
+  "enterExistingReadingAgain": "Eski okumaya yeniden girin",
+  "enterObjectName": "Yeni nesneyi adlandırın",
+  "errorInvalidRange": "Geçerli aralık yok",
+  "errorNoInternet": "Ağ yok",
+  "euDisputeResolution": "AB Uyuşmazlık Çözümü\n\nAvrupa Komisyonu, çevrimiçi anlaşmazlık çözümü (OS) için bir platform sunmaktadır: https://ec.europa.eu/consumers/odr/.\nE-posta adresimizi yukarıdaki künyede bulabilirsiniz.\n\nTüketici anlaşmazlık çözümü/evrensel anlaşmazlık çözüm organı\n\nTüketici hakem heyeti önündeki uyuşmazlık çözüm süreçlerine katılmaya istekli veya yükümlü değiliz.",
+  "existingPhoto": "Mevcut fotoğrafı ekle",
+  "existingPhotoOfMeterReading": "Sayaç okumasının mevcut bir fotoğrafını eklemek ister misiniz?",
+  "explanationManageMoreThanOneObject": "Yönetmek istediğiniz birden fazla mülkünüz mü var? Daha sonra geçerli nesneyi adlandırın ve ardından başka bir nesne oluşturun.",
+  "export": "İhracat",
+  "exportExplanation": "Örneğin yeni bir cihaza aktarmak için hangi mevcut nesneyi dışa aktarmak istiyorsunuz?",
+  "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "exportOptionConsumptionsSubtitle": "İlk okumadan bu yana her gün için bir tüketim değeri.",
+  "exportOptionConsumptionsTitle": "Günlük tüketim",
+  "exportOptionExcel": "Excel dosyası",
+  "exportOptionFileDescription": "Nesne {fileType} dosyası olarak paylaşılıyor",
+  "exportOptionPdf": "PDF dosyası",
+  "exportOptionReadingsSubtitle": "Tipik olarak düzensiz aralıklarla sayaç okumaları veya tüketim.",
+  "exportOptionReadingsTitle": "Değerleri okuma",
+  "exportTabHowToExport": "Verileri nasıl dışa aktarmak istersiniz?",
+  "exportTabHowToExportOptionSaveToDownloads": "{folder} klasörüne kaydet",
+  "exportTabHowToExportOptionShare": "Diğer uygulamalarla paylaşın",
+  "exportTabSnackBarSaveResultMessageError": "Veriler kaydedilirken hata oluştu",
+  "exportTabSnackBarSaveResultMessageSuccess": "Veriler {folder} klasörüne başarıyla {fileName} olarak kaydedildi",
+  "exportWhere": "Nesne hangi formatta dışa aktarılmalıdır?",
+  "exportWhichValuesShouldBeExported": "Hangi değerler dışa aktarılmalıdır?",
+  "faqAboutDeveloperBody1": "EHW+'a gösterdiğiniz ilgi için teşekkür ederiz. EHW+, tarafımca Timo Bähr tarafından Aralık 2020'de piyasaya sürüldü. Tam zamanlı bir uygulama geliştiricisiyim ve boş zamanlarımda çevrenin korunmasına katkıda bulunmak için EHW+ üzerinde çalışıyorum. Mayıs 2022'den bu yana çalışmalarımı ikinci bir geliştirici yönetiyor: Thomas Hesse, EHW+ için arka uçlar oluşturuyor. Janine Sinner, Nisan 2023'ten bu yana çok sayıda müşteri geri bildirimiyle ilgileniyor. Temmuz 2024'ten bu yana Artem Yuzhakov uygulama geliştiricisi olarak katıldı.",
+  "faqAboutDeveloperBody2": "Almanya'daki tüm CO2 emisyonlarının %26'sından fazlası özel hanelerden kaynaklanmaktadır. Herkes tüketimini biraz da olsa azaltabilirse çok şey başarılmış olacaktır. Katkılarınız için çok teşekkür ederiz!",
+  "faqAboutDeveloperBody3": "Uygulamanın nasıl geliştirilebileceğine ilişkin önerileri memnuniyetle karşılıyoruz.",
+  "faqAboutDeveloperBody4": "Ancak tüm önerileri uygulayamayacağım ve yeni fonksiyonların zaman alabileceği konusunda anlayışınızı rica ediyorum.",
+  "faqAboutDeveloperTitle": "EHW+'ın arkasında kim var?",
+  "faqTitle": "SSS",
+  "featureVoting": "Özellik oylaması",
+  "featureVotingOnlyOnGerman": "Özellik anketi diğer dillere çevrilmemiştir.",
+  "featureVotingUnderConstruction": "Özellik anketi şu anda revize edilmektedir. Gelecekte bir EHW+ kullanıcı hesabı gerekli olacak ve anket artık üçüncü taraf sunucuları kullanmayacak. Sabrınız için teşekkür ederiz.",
+  "fedIn": "Beslendi",
+  "firstReadingConsumption": "Şimdi ilk tüketimi girin.",
+  "firstReadingCounter": "İlk sayaç okumasını girin.",
+  "firstReadingYield": "Şimdi ilk getiriyi girin.",
   "forX": "için",
-  "corresponds": "karşılık gelir",
-  "warningCounterReplacementDetected": "Yeni değer önceki sayaç okumasından daha düşüktür. Sayaç değiştirildi mi?",
-  "warningYearlyReset": "Yılın başında sıfır okuma",
-  "warningReadingSmallerThanOldValue2": "Yeni değer önceki sayaç okumasından daha düşüktür. Okuma doğru şekilde yapıldı mı?",
-  "warningReadingBiggerThanOldValueOilVolume": "Yeni değer önceki sayaç okumasından daha yüksektir. Tankı yeniden doldurdunuz mu?",
-  "warningReadingSeemsTooBig": "Yeni değer oldukça yüksek. Okuma doğru şekilde yapıldı mı?",
-  "warningReadingSeemsTooSmall": "Yeni değer oldukça düşük. Doğru okundu mu?",
+  "gas": "Gaz",
+  "generated": "Oluşturuldu",
+  "googleAnalyticsAgreement": "Uygulamanın kullanımına ilişkin anonimleştirilmiş verilerin EHW+ Services GmbH'ye iletilmesini kabul ediyorum.",
+  "googleApiAgreement": "{appNameShort}'ın Google API'lerinden aldığı bilgilerin kullanımı ve başka herhangi bir uygulamaya aktarılması, Sınırlı Kullanım gereksinimleri de dahil olmak üzere Google API Hizmetleri Kullanıcı Verileri Politikasına uygun olacaktır.",
+  "gross": "brüt",
+  "grossNetPrices": "Brüt veya net fiyat",
+  "heatPump": "Isı pompası",
+  "heater": "Radyatör",
+  "heatmapLegendDisclaimer": "Bilgi: Gölgeli kutular tahmini bir değer içerir. Gerçek tüketimi/çıkışı okumak için lütfen mümkünse eksik sayaç okumalarını doldurun.",
+  "heatmapLegendTitle": "Isı haritası hakkında daha fazla bilgi",
+  "houseName": "Ev adı",
+  "houseNameDescription": "Ev adı, ör. sokak adı",
+  "import": "İçe aktarmak",
+  "importConfirm": "İçe aktarmayı onayla",
+  "importCounterAsCsv": "Tek bir sayaç mı ithal etmek istiyorsunuz? Sayaç başına desteklenen, biri zaman ve diğeri sayaç okuması için olmak üzere iki sütunlu bir CSV dosyasıdır.\n\nÖrnek veriler:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Yalnızca ilk iki sütun kullanıldı. Üçüncü sütun göz ardı edildi.} other {Yalnızca ilk iki sütun kullanıldı, {columns} sütunları dikkate alınmadı.}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Bir satır göz ardı edildi: {lines}} other {{count} satırları göz ardı edildi: {lines}}}",
+  "importExplanation": "Zaten karşı okumalar yaptınız ve bunları eklemek mi istiyorsunuz?",
+  "importExport": "Yedekleme/Geri Yükleme",
+  "importNewOrExistingCounter": "Yeni veya mevcut sayaca eklensin mi?",
+  "importNotPossible": "İçe aktarma mümkün değil",
+  "importPickFile": "Dosya seç",
+  "importSelectJson": "JSON dosyası ({appName} ile oluşturuldu)",
+  "importSelectSingleCounter": "Tek sayaç (CSV dosyası)",
+  "importSuccessful": "İçe aktarma başarılı",
+  "importTabErrorMessageFileWithExtensionNotSelected": "İçe aktarma işlemine devam etmek için bir {extension} dosyası gereklidir.",
+  "importTheObject": "Nesneyi içe aktar",
+  "importWhichCounterForCsv": "Hangi sayaç kullanılmalı?",
+  "imprintTitle": "Baskı",
+  "initialReading": "İlk okuma",
+  "involvedCounters": "İlgili sayaçlar",
+  "isLastEntryAtFilteredList": "Filtrelenen listedeki en eski değer",
+  "isOutdatedCounter": "Sayaç artık kullanılmıyor",
+  "last12Months": "Son 12 ay",
+  "last12Weeks": "Son 12 hafta",
+  "last2Weeks": "Son 14 gün",
+  "lastReading": "son okuma",
+  "lastYear": "Geçen sene",
+  "lineChartAppearanceSettings": "Çizgi grafiklerin görünümü",
+  "lineChartAppearanceSettingsShowSpots": "Grafik çizgilerinde (dairesel) noktaları göster",
+  "localWriteSubtitle": "Nesneler ve fotoğraflar her değişiklikte yerel \"{folder}\" klasörüne mi kaydedilmeli?",
+  "localWriteTitle": "Yerel indirme klasörüne kaydedin",
+  "manageMoreThanOneObjectStep1": "Birden fazla nesneyi yönetme - 1. Adım",
+  "manageMoreThanOneObjectStep2": "Birden fazla nesneyi yönetme - 2. Adım",
+  "marketLocationId": "Pazar konumu kimliği",
+  "marketLocationIdDescription": "Pazar yeri kimliği her zaman 11 haneden oluşur. Bunu genellikle son elektrik veya gaz faturanızda bulabilirsiniz.",
+  "messageNoConsumptions": "Yeterli okuma yapılmışsa, bir türdeki tüm sayaçlara ilişkin istatistikler burada görünür. Örneğin bir su istatistiğinde iki soğuk su sayacı, iki sıcak su sayacı ve bir su çıkarma sayacı gösterilmektedir.",
+  "messageNoContracts": "Henüz sözleşme yok.",
+  "messageNoCounterReadings": "Henüz bir sayaç okuması girmediniz.",
+  "messageNoCounters": "Henüz bir sayaç oluşturmadınız.",
+  "messageNoRooms": "Henüz oda yok. Odalar grup ölçümlerine yardımcı olur.",
+  "messageNotEnoughData": "Grafiği görüntülemek için yeterli veri yok",
+  "meterCardLastUpdatedLabel": "Güncellendi",
+  "meterId": "Sayaç kimliği",
+  "meterReadingSubmitted": "Sağlayıcıya iletildi",
   "meterReadingsFilterAll": "Tümünü göster",
   "meterReadingsFilterComments": "Yalnızca yorum içeren girişleri göster",
   "meterReadingsFilterSubmitted": "Yalnızca \"{state}\"ı göster",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "isLastEntryAtFilteredList": "Filtrelenen listedeki en eski değer",
-  "initialReading": "İlk okuma",
-  "warningReadingBiggerThanOldValue": "Yeni değer önceki sayaç okumasından daha yüksektir.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedForYearlyResetCounter": "{deviceTypeName} {roomNamePart} için {lastYear} yılına ait son sayaç okuması eksik. Bu, toplam yıllık tüketimin doğru hesaplanması için gereklidir.",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "lastYear": {
-        "type": "String"
-      },
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "{deviceTypeName} {roomNamePart} için en son sayaç okuması güncel değil {outdatedSinceText}.{whenNotifyDateText}",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "valueLess": "{value} daha az",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "valueMore": "{value} tane daha",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonNotEnoughData": "{countryName} ({countryCode}) sitesi için henüz yeterli karşılaştırmalı veri yok.",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      },
-      "countryCode": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonEqual": "{countryName} cinsinden ortalama kadar ödeme yaparsınız.",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "myObjects": "Nesnelerim",
+  "net": "açık",
+  "networkCounter": "İnternet ve telefon",
+  "newCounter": "Yeni bir sayaç oluştur",
+  "newPhoto": "Yeni bir fotoğraf çek",
+  "newPhotoOfMeterReading": "Sayaç okumasının fotoğrafını çekmek ister misiniz?",
+  "newReading": "Mevcut okumayı girin",
+  "newReadingShort": "Yeni okuma",
+  "notifications": "Bildirimler",
+  "notificationsEmpty": "Bildirim yok",
+  "notificationsSmartMeterAlertFallback": "Yeni bir akıllı sayaç uyarınız var.",
+  "numCounters": "{count, plural, =0 {{count} sayacı} one {{count} sayacı} other {{count} sayaçları}}",
+  "numMeterReadings": "{readings, plural, one {# okuma} other {# okuma}}",
+  "numberOfDetails": "{count, plural, one {1 detay} other {{count} ayrıntılar}}",
+  "ofRangeFrom": "{range}'dan",
+  "ofRangeLastDays": "son {days} günün",
+  "ofRangeLastMonths": "son {months} ay için",
+  "oil": "Yağ",
+  "outdated": "Modası geçmiş",
+  "outdatedContracts": "Güncelliği geçmiş sözleşmeler",
+  "outdatedCounters": "Sayaçlar artık kullanılmıyor",
+  "paidAdvancePayments": "Peşin ödemeler",
+  "parsingObjectError": "Nesne ayrıştırılamıyor. Lütfen geliştiriciyle iletişime geçin. Uygulamayı kaldırırken veriler kaybolabilir.",
+  "per": "başına",
+  "perUnit": "{unit} başına",
+  "period": "Dönem",
+  "periodBimonthly": "iki ayda bir",
+  "periodBiweekly": "iki haftada bir",
+  "periodCustom": "Kullanıcı tanımlı",
+  "periodDaily": "günlük",
+  "periodHalfYearly": "altı ayda bir",
+  "periodHourly": "saatlik",
+  "periodMonthly": "aylık",
+  "periodQuarterly": "üç ayda bir",
+  "periodWeekly": "haftalık",
+  "periodYearly": "yıllık",
+  "previouslyDeletedCounters": "Yakın zamanda silinen sayaçlar",
   "priceComparisonDiff": "{countryName} ortalamasından {diffWithCurrency} {comparison, select, more {daha fazla} less {daha az} other {daha fazla}} ödüyorsunuz.",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "diffWithCurrency": {
-        "type": "String"
-      },
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "priceComparisonEqual": "{countryName} cinsinden ortalama kadar ödeme yaparsınız.",
+  "priceComparisonNotEnoughData": "{countryName} ({countryCode}) sitesi için henüz yeterli karşılaştırmalı veri yok.",
+  "pricePerUnit": "Birim başına fiyat",
+  "pricePerUnitFeedIn": "Ücret fiyatı",
+  "pricePerUnitFreshWater": "Tatlı su maliyetleri",
+  "pricePerUnitWasteWater": "Atık su fiyatı",
+  "pricePerUnitWaterCold": "Soğuk su maliyeti",
+  "pricePerUnitWaterWarm": "Sıcak su ısıtma maliyetleri",
+  "priceSubmissionAgreement": "Birim başına elektrik/gaz/su fiyatlarının bir EHW+ sunucusuna iletilmesini kabul ediyorum",
+  "privacyBlock1Text": "Uygulamanın geliştiricisi/sağlayıcısı (bundan sonra \"uygulama\" olarak anılacaktır), Alman Telemedya Yasası'nın (TMG) 5. Bölümü uyarınca:\n\n{contact}",
+  "privacyBlock1Text2": "Uygulamanın kullanımı aşağıdaki kullanım koşullarını kabul etmenizi gerektirir. Lütfen bunları dikkatlice okuyunuz.",
+  "privacyBlock1Title": "Geliştirici",
+  "privacyBlock2Text": "Verilerinizin korunması bizim için çok önemlidir. Bu gizlilik politikası, EHW+'ın hangi kişisel verileri topladığını ve bunların nasıl kullanıldığını açıklamaktadır. Gizlilik politikasında köklü değişiklikler nadirdir ancak yeni özellikler, teknolojiler veya yasal gereklilikler nedeniyle zaman zaman revize edilebilir. Bu nedenle, güncel kalmak için lütfen zaman zaman bu sayfayı kontrol edin. Önemli bir değişiklik yapmamız durumunda sizi bilgilendireceğiz ve gerekirse onayınızı alacağız.",
+  "privacyBlock2Title": "Genel",
+  "privacyBlock3Title": "{appNameShort} hangi verileri topluyor?",
+  "privacyBlock3aText": "{appNameShort}'ı, sayaç okumalarınızı hızlı ve kolay bir şekilde girebilmeniz ve ardından istatistikleri kullanarak tüketiminiz, maliyetleriniz ve potansiyel tasarruflarınız hakkında daha fazla bilgi edinebilmeniz için oluşturduk. Bu, {appNameShort}'e genel olarak 'içerik' dediğimiz her türlü veriyi girebileceğiniz, hesaplayabileceğiniz veya kaydedebileceğiniz anlamına gelir. Bu veriler yalnızca cep telefonunuzda saklanır.\n\nGoogle Drive'la senkronize edin.\nGoogle Drive ile senkronizasyonu etkinleştirirseniz içerik, Google Drive'ınızda yalnızca sizin erişebileceğiniz '{appNameShort}' adlı bir klasöre de otomatik olarak yedeklenecektir. Google ile giriş yaptığınızda e-posta adresiniz geliştirici tarafından görülecektir.",
+  "privacyBlock3bText": "{googleApiAgreement}\n\nKonum verileri.\nUygulama, kullanıcı davranışını anlamak ve gelecekteki özellikler için anonimleştirilmiş kullanım verilerini iletir.\nVeriler üçüncü şahıslarla paylaşılmaz.\nMenşe (ülke ve şehir), dil, işletim sistemi, cihaz türü, çözünürlük, tıklama davranışı ve kullanım süresi hakkında bilgi toplanabilir.\n\nCihaz verileri.\nHizmete bağlanmak için kullandığınız cihazların sayısı ve türüne ilişkin verilerin yanı sıra bu cihazlardaki (ör. Android, iOS, Windows veya macOS) işletim sistemi hakkındaki bilgileri de topluyoruz.\n\nUygulamayı kullanarak yukarıda açıklandığı şekilde anonimleştirilmiş verilerin toplanmasını kabul etmiş olursunuz.",
+  "privacyBlock4DataUsage": "Toplanan anonimleştirilmiş veriler kullanıcı davranışını değerlendirmek için kullanılır. Bunun ötesinde verilerin başka bir kullanımı yoktur.\n\n{syncDriveDataUsage}",
+  "privacyBlock4DataUsageTitle": "{appNameShort} verilerimi nasıl kullanıyor?",
+  "privacyBlock5": "Kişisel verilerin saklanma süresi, ilgili yasal saklama süresine (örneğin ticaret ve vergi hukuku saklama süreleri) göre belirlenir. Sürenin sona ermesinden sonra, bir sözleşmenin yerine getirilmesi veya başlatılması için artık gerekli olmaması ve/veya bunların saklanmaya devam edilmesi konusunda artık meşru bir menfaatimizin olmaması koşuluyla, ilgili veriler rutin olarak silinir.",
+  "privacyBlock5Title": "Kişisel verilerin saklanma süresi",
+  "privacyBlock6": "Bizimle iletişime geçtiğinizde (örneğin iletişim formu veya e-posta yoluyla) kişisel veriler toplanır. Bir iletişim formu durumunda toplanan veriler ilgili iletişim formunda görülebilir. Bu veriler yalnızca sorunuza yanıt vermek veya iletişim kurmak ve ilgili teknik yönetim amacıyla saklanır ve kullanılır. Verilerin işlenmesinin yasal dayanağı, talebinize Sanat uyarınca yanıt verme konusundaki meşru menfaatimizdir. 6 paragraf. 1 yaktı. f GDPR. Bağlantınız bir sözleşme imzalamayı hedefliyorsa, işlemenin ek yasal dayanağı Art. 6 paragraf. 1 yaktı. b GDPR. Verileriniz, talebiniz işleme alındıktan sonra, söz konusu konunun nihai olarak açıklığa kavuşturulduğu ve veri saklama konusunda herhangi bir yasal yükümlülüğün bulunmadığı durumlarda silinecektir.",
+  "privacyBlock6Title": "Temas etmek",
+  "privacyBlock7": "Yürürlükteki veri koruma kanunu, size aşağıda bilgi vereceğimiz kişisel verilerinizin işlenmesiyle ilgili olarak veri sahibi olarak kontrolör karşısında size kapsamlı haklar (bilgi alma ve müdahale hakları) vermektedir:\n\n- Sanat uyarınca bilgi edinme hakkı. 15 GDPR: Özellikle, bizim tarafımızdan işlenen kişisel verileriniz, işlenme amaçları, işlenen kişisel verilerin kategorileri, verilerinizin açıklandığı veya açıklanacağı alıcılar veya alıcı kategorileri, planlanan saklama süresi veya saklama süresini belirleme kriterleri, düzeltme, silme, işlemenin kısıtlanması, işlemeye itiraz, bir denetleyici makama şikayet, verilerinizin tarafımızca sizden toplanmadıysa kaynağı, otomatik verilerin varlığı hakkında bilgi alma hakkına sahipsiniz. Profil oluşturma da dahil olmak üzere karar verme ve uygun olduğu durumlarda, ilgili mantık hakkında anlamlı bilgiler ve söz konusu işlemenin sizin için önemi ve öngörülen sonuçları ile Sanat uyarınca mevcut garantiler hakkında bilgilendirilme hakkınız. Verileriniz üçüncü ülkelere aktarıldığında 46 GDPR;\n\n- Sanat uyarınca düzeltme hakkı. 16 GDPR: Sizinle ilgili yanlış verilerin gecikmeden düzeltilmesini ve/veya tarafımızdan saklanan eksik verilerin tamamlanmasını sağlama hakkına sahipsiniz.\n\n- Madde uyarınca silme hakkı. 17 GDPR: Art. 17(1) GDPR karşılanmıştır. Ancak bu hak, özellikle işlemenin ifade ve bilgi edinme özgürlüğü hakkının kullanılması, yasal bir yükümlülüğe uygunluk, kamu yararı nedeniyle veya yasal iddiaların tesisi, uygulanması veya savunulması için gerekli olması durumunda geçerli değildir.\n\n- Sanat uyarınca işlemenin kısıtlanması hakkı. 18 GDPR: Verilerinizin silinmesine kabul edilemez veri işleme gerekçesiyle itiraz ettiyseniz ve bunun yerine, toplanma amacını yerine getirmek için bu verilere artık ihtiyacımız kalmadıktan sonra verilerinize yasal iddiaların ileri sürülmesi, uygulanması veya savunulması için ihtiyaç duyuyorsanız veya özel durumunuzla ilgili gerekçelerle itirazda bulunduysanız, verilerinizin doğruluğu doğrulandığı sürece kişisel verilerinizin işlenmesinin kısıtlanmasını talep etme hakkına sahipsiniz: meşru nedenlerimizin geçerli olup olmadığı henüz belli olmadığı sürece;\n\n- Madde uyarınca bilgilendirilme hakkı. 19 GDPR: Kontrolöre karşı işlemenin düzeltilmesi, silinmesi veya kısıtlanması hakkınızı kullandıysanız, kontrolör, imkansız olmadığı veya orantısız bir çaba gerektirmediği sürece, kişisel verilerinizin ifşa edildiği tüm alıcıları bu düzeltme veya silme veya işlemenin kısıtlanması konusunda bilgilendirmekle yükümlüdür. Bu alıcılar hakkında bilgilendirilme hakkınız vardır.\n\n- Madde uyarınca veri taşınabilirliği hakkı. 20 GDPR: Bize sağladığınız kişisel verilerinizi yapılandırılmış, yaygın olarak kullanılan ve makine tarafından okunabilir bir formatta alma veya teknik olarak mümkün olduğu takdirde bunların başka bir denetleyiciye aktarılmasını talep etme hakkına sahipsiniz.\n\n- Madde uyarınca verilen rızayı geri çekme hakkı. 7(3) GDPR: Verilerin işlenmesine ilişkin onayınızı, gelecekte geçerli olacak şekilde istediğiniz zaman geri çekme hakkına sahipsiniz. Geri çekilme durumunda, daha fazla işlemenin izinsiz işleme için yasal bir temele dayanmaması durumunda, ilgili verileri gecikmeden sileceğiz. Rızanın geri çekilmesi, geri çekilmeden önce rızaya dayalı olarak yapılan işlemelerin hukuka uygunluğunu etkilemez.\n\n- Sanat uyarınca şikayette bulunma hakkı. 77 GDPR: Kişisel verilerinizin işlenmesinin GDPR'yi ihlal ettiğine inanıyorsanız, diğer idari veya adli çözüm yollarına halel getirmeksizin, özellikle ikamet ettiğiniz Üye Devlette, iş yerinizde veya ihlal iddiasının gerçekleştiği yerde bir denetim makamına şikayette bulunma hakkına sahipsiniz.",
+  "privacyBlock7Title": "İlgili kişinin hakları",
+  "privacyBlock8": "KİŞİSEL VERİLERİNİZİ, ÇIKARLARIN DENGESİNİN BİR PARÇASI OLARAK, ÖNCELİKLİ MEŞRU MENFAATIMIZ TEMELİNDE İŞLİYORSAK, GELECEĞE YÖNELİK OLARAK, ÖZEL DURUMUNUZDAN KAYNAKLANAN NEDENLERDEN DOLAYI BU İŞLEMEYE HER ZAMAN İTİRAZ ETME HAKKINIZ VAR. İTİRAZ HAKKINIZI KULLANIRSANIZ, İLGİLİ VERİLERİN İŞLENMESİNİ DURDURACAĞIZ. ANCAK, İŞLEME İÇİN ÇIKARLARINIZI, temel haklarınızı ve özgürlüklerinizi geçersiz kılan zorlayıcı meşru gerekçeleri kanıtlayabilirsek veya işleme, yasal iddiaları ileri sürmeye, uygulamaya veya savunmaya hizmet ederse, DİĞER İŞLEMELER SAKLI KALACAKTIR.\n\nKİŞİSEL VERİLERİNİZİ DOĞRUDAN PAZARLAMA AMAÇLARI İÇİN İŞLİYORUZ, SİZE İLİŞKİN KİŞİSEL VERİLERİN BU TÜR REKLAM AMACI İÇİN İŞLENMESİNE HER ZAMAN İTİRAZ ETME HAKKINIZ VAR. YUKARIDA AÇIKLANDIĞI ŞEKİLDE İTİRAZ HAKKINIZI KULLANABİLİRSİNİZ.\n\nİTİRAZ HAKKINIZI KULLANIRSANIZ, SİZİNLE İLGİLİ VERİLERİN DOĞRUDAN PAZARLAMA AMAÇLARIYLA İŞLENMESİNİ DURDURACAĞIZ.",
+  "privacyBlock8Title": "İtiraz hakkı",
+  "privacyContractPriceSubmission": "Kullanıcı olarak sözleşme verilerinizi koruduğunuzda, elektrik, su ve gaz sözleşmelerinin birim fiyatı, ülke ve federal eyaletle birlikte Almanya'daki bir EHW+ sunucusuna iletilir. Bu veriler fiyat istatistiklerini hesaplamak için kullanılır. Uygulama kullanıcıları için istatistikler, sözleşme görünümünde fiyat karşılaştırması şeklinde görülebilir.\n\nUygulamayı kullanarak yukarıda belirtilen anonimleştirilmiş verilerin toplanmasını kabul etmiş olursunuz.",
+  "privacyTitle": "Gizlilik politikası",
+  "purchasesBuyNow": "Şimdi al",
+  "purchasesDisabledOnIOS": "Uygulama içi satın almalar devre dışı bırakıldı",
+  "purchasesDisabledOnIOSDescription": "Lütfen iPhone'unuzda uygulama içi satın alma işlemlerinin devre dışı olup olmadığını kontrol edin (Ayarlar > Ekran Süresi > Kısıtlamalar > Uygulama Yüklemeleri ve Satın Alma İşlemleri > Uygulama İçi Satın Alma İşlemlerine İzin Ver)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Uygulama Testflight aracılığıyla yüklendi. Satın alma işlemlerinin yalnızca uygulamayı App Store aracılığıyla yüklediğinizde uygulamada işe yaradığını lütfen unutmayın.",
+  "purchasesEarlyBirdSubscription": "Not: İlk kez yapılan bu müşteri aboneliği iptal edilirse daha sonra tekrar abone olunamaz.",
+  "purchasesExtensionMultipleObjectsDescription": "İstediğiniz sayıda daire/ev/nesnenin sayaç okumalarını girin (tek bir nesne yerine)",
+  "purchasesExtensionMultipleObjectsTitlePart": "Birden fazla nesneyi yönetme",
+  "purchasesExtensionStatisticsDescription": "Yıllık/aylık/haftalık elektrik/gaz/su/... tüketimine erişim + dönem ayarlamaları + ayrıntılı maliyet özeti + Excel'e aktarma",
+  "purchasesExtensionStatisticsTitle": "Gelişmiş istatistikler",
+  "purchasesExtensionsInWork": "Daha fazla genişletme planlanıyor. Görüşünüzü belirtmek için özellik anketine katılın.",
+  "purchasesExtensionsSubtitle": "Bir kez satın alın, kalıcı olarak kullanın (abonelik yok)",
+  "purchasesExtensionsTitle": "Tek uzantılar",
+  "purchasesIOSRestorePurchases": "Satın alınanları geri yükle",
+  "purchasesIOSRestorePurchasesDescription": "Geçmişte AppStore'da bir şey satın aldıysanız satın alınanları geri yükleyebilirsiniz.",
+  "purchasesPurchased": "Satın alındı",
+  "purchasesPurchasedIncludedInPremium": "Premium'a dahil",
+  "purchasesPurchasedSubscribed": "Abone olundu",
+  "purchasesRedeemCode": "Kodu kullan",
+  "purchasesStatisticsWithPremium": "Premium ile aylık karşılaştırmalara{count, plural, =0{.}=1{.}other{ ve ayrıca {years} için geçmiş verileri görebilirsiniz.}} erişebilirsiniz",
+  "purchasesSubscribeNow": "Şimdi abone olun",
+  "purchasesSubscribePremium": "Premium'a abone olun",
+  "purchasesSubscribePremiumMonthly": "Aylık yalnızca {price} karşılığında iptal edilebilir aylık abonelik",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "{priceNew} yerine aylık {price} sadakat fiyatıyla aylık iptal edilebilir abonelik",
+  "purchasesSubscribePremiumTextLong": "Abonelik süresi boyunca tüm ücretli özelliklere erişim + dış ortam sıcaklıkları",
+  "purchasesSubscribePremiumYearly": "Yıllık yalnızca {price} karşılığında yıllık iptal edilebilir abonelik",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "{priceNew} yerine yıllık {price} sadakat fiyatıyla yıllık iptal edilebilir abonelik",
+  "purchasesUpgrade": "Güncelleme",
+  "purchasesWebLegalNote": "Yasal nedenlerden dolayı satın alma işlemi yalnızca PlayStore hizmetlerine sahip bir iPhone veya Android telefon için mümkündür.",
+  "purchasesWhyBuyText": "Bir satın alma işlemiyle, uygulamanın yayınlanmasından kaynaklanan masraflara katılırsınız ve daha da geliştirilmesine destek olursunuz.",
+  "purchasesWhyBuyTitle": "Neden bir şey satın almalıyım?",
+  "purchasesYourPurchases": "Aşağıdaki premium paketlere erişebilirsiniz:",
+  "reading": "Sayaç okuma",
+  "readingDeleteConfirm": "Okuma silinsin mi?",
+  "readingNew": "Yeni okuma",
+  "readingPrefill": "Sayaç okumasını otomatik doldurma",
+  "readingPrefillDescription": "Önceki girişlere dayalı ön dolum sayaç okumaları",
+  "readingPrefillDisableForAllCounters": "Tüm sayaçlar için otomatik doldurmayı devre dışı bırak",
+  "readingPrefillDisabled": "Otomatik doldurma devre dışı",
+  "readingPrefillDisabledToast": "Otomatik doldurma devre dışı",
+  "readingPrefillEnableForAllCounters": "Tüm sayaçlar için otomatik doldurmayı etkinleştir",
+  "readingReminder": "{count, plural, one {Okuma hatırlatıcısı} other {Hatırlatıcıları okuma}}",
+  "readingReminderDisabled": "Okuma hatırlatıcısı etkin değil",
+  "readingReminderMultiBody": "{count, plural, one {{count} ölçüm cihazından okumaları şimdi okuyun} other {{count} metreden okumaları şimdi okuyun}}",
+  "readingReminderSingleBody": "{counterName} değerini şimdi oku",
+  "readingReminders": "Hatırlatıcıları okuma",
+  "readingRemindersChannel": "Hatırlatıcıları okuma",
+  "readingSubmitted": "Sayaç okuması gönderildi",
+  "readingTime": "Okuma zamanı",
+  "readingUpdate": "Okumayı güncelle",
+  "readingWithFactor": "Faktörlü sayaç okuma",
+  "reallyDeleteActivity": "Bu aktivite gerçekten silinsin mi?",
+  "reallyDeleteContract": "Bu sözleşme gerçekten silinsin mi?",
+  "reallyDeleteCounter": "Sayacı silmek istediğinizden emin misiniz?",
+  "reallyDeleteCounterLink": "Sayaçlar arasındaki bağlantıyı silmek istediğinizden emin misiniz?",
+  "reallyDeleteDetail": "Bu ayrıntı gerçekten silinsin mi?",
+  "reallyDeleteObject": "Nesneyi silmek istediğinizden emin misiniz?",
+  "reallyDeletePhoto": "Sayaç okuma fotoğrafını silmek istediğinizden emin misiniz?",
+  "reallyDeleteValue": "Bu değeri gerçekten silmek istiyor musunuz?",
+  "refund": "Geri ödemek",
+  "reminderTime": "Hatırlatma zamanı",
+  "reminderWeekdayExplanation": "Günde bir defadan fazla okuma yapılmasına dair bir hatırlatma vardır.",
+  "reminderWeekdayExplanationSeasonal": "Sezonluk tüketimi olan sayaçlarda hatırlatmalar yalnızca tüketimin olduğu aylarda gönderilir (geçen yılın değerlerinin verilmesi durumunda çalışır).",
+  "requestAccess": "Erişim iste",
+  "reset": "Sıfırla",
+  "resetActivities": "Tüm aktiviteleri sıfırla",
+  "residualConsumptionEstimated": "Tahmini kalan tüketim",
+  "residualGenerationEstimated": "Artık üretim tahmini",
+  "restoreDeletedCounter": "Silinen bu sayacı geri yüklemek ister misiniz?",
+  "room": "Oda",
+  "roomBathroom": "Banyo",
+  "roomBedroom": "Yatak odası",
+  "roomChildrenRoom": "Çocuk odası",
+  "roomDeleteConfirm": "Oda silinsin mi?",
+  "roomDiningRoom": "Yemek odası",
+  "roomGarden": "Bahçe",
+  "roomKitchen": "Mutfak",
+  "roomLivingRoom": "Oturma odası",
+  "roomName": "Oda adı",
+  "roomNameHint": "İsteğe bağlı olarak bir oda adı atayın",
   "roomNamePart": "{roomName}'da",
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "warningOutdatedSinceText": "{date}'dan beri",
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
+  "roomNew": "Yeni oda",
+  "roomOffice": "Ofis",
+  "roomOther": "Diğer",
+  "roomStoreRoom": "Mağaza odası",
+  "roomType": "Oda tipi",
+  "roomWc": "WC",
+  "rooms": "Odalar",
+  "scanQrCode": "Etkinleştirme qr kodunu tarayın",
+  "seasonalCounter": "Sezonluk sayaç",
+  "seasonalElectricityCounter": "Mevsimsel elektrik sayacı",
+  "selectedActivity": "Seçilen etkinlik \"${activityName}\"",
+  "selectedAtAppStart": "Uygulama başlangıcında en üstteki nesne seçilir",
+  "settingColor": "Renk",
+  "settingCounterTypeColor": "Bu sayaç tipinin rengi",
+  "settingCounterTypeColorAdvanced": "Uzmanlar için renk seçici",
+  "settingCounterTypeColorDescription": "Bu sayaç tipinin varsayılan rengini beğenmezseniz farklı bir renk atayabilirsiniz.",
+  "settingEAuto": "Elektrikli araba",
+  "settingHouseholdSize": "Ev büyüklüğü",
+  "settingHouseholdSizeDescription": "Hanenizdeki kişi sayısı.",
+  "settingLanguageMode": "Dil",
+  "settingLivingArea": "Yaşam alanı",
+  "settingObjectLocation": "Konum",
+  "settingObjectLocationExplanation": "Konumun girilmesi, analizlerin ve hizmetlerin bölgenize göre uyarlanmasına yardımcı olur.",
+  "settingObjectLocationTitle": "Nesneniz nerede bulunuyor?",
+  "settingObjectType": "Nesne türü",
+  "settingObjectTypeFlat": "Daire",
+  "settingObjectTypeHouse": "Ev",
+  "settingShowCounterReadingsChart": "Okuma grafiğini göster",
+  "settingShowHeatmap": "Isı haritasını göster",
+  "settingShowPreliminaryCurve": "Ön eğriyi göster",
+  "settingUiColorPalette": "Renk paleti",
+  "settingUiMode": "Kullanıcı arayüzü",
+  "settingUiModeDark": "Karanlık",
+  "settingUiModeDarkOrLight": "Koyu/açık kullanıcı arayüzü",
+  "settingUiModeLight": "Işık",
+  "settingUiModeOsDefault": "Sistem",
+  "settingWaterHeater": "Su ısıtıcı",
+  "settingYearlyReset": "Yıllık sıfırlama",
+  "settingYearlyResetOn": "Açık",
+  "settings": "Ayarlar",
+  "settingsExternalServices": "Dış hizmetler",
+  "settingsShowStromGedacht": "StromGedacht'ın elektrik şebekesine ilişkin ipuçları görüntülenmeli mi?",
+  "settingsShowTabNewsDetailed": "Haberler/İpuçları sekmesi görünür olmalı mı?",
+  "showAllYears": "Tüm yılları göster",
+  "signInWithApple": "Apple'la oturum açın",
+  "signInWithGithub": "GitHub'la oturum açın",
+  "signInWithGoogle": "Google ile oturum açın",
+  "signInWithSocialAccount": "EHW+ hesabınızı oluşturmak veya oturum açmak için hangi sosyal hesabı kullanmak istiyorsunuz?",
+  "sinceInitialReading": "İlk okumadan bu yana",
+  "smartMeterCountersTitle": "Radyo su sayaçları",
+  "smartMeterErrorNoData": "Ne yazık ki uygulamanın görüntüleyebileceği hiçbir veri yok.",
+  "smartMeterMisconfiguredWidgetCardButton": "Akıllı sayacı ayarla",
+  "smartMeterMisconfiguredWidgetCardTitle": "Lütfen akıllı sayacınızı doğru şekilde kurun.",
+  "smartMeterObtainDataAutomatically": "Verileri otomatik olarak al",
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderUndefined": "Ayarlanmadı",
+  "smartMeterProviderWwgl": "Wasserwerk Gerauer Bölgesi",
+  "smartMeterServiceProvider": "Servis Sağlayıcı",
+  "smartMeterSettingsScreenSyncButton": "Tüketim verilerini senkronize edin",
+  "smartMeterSettingsScreenSyncingDialogError": "Hata",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Senkronizasyon sırasında şu hata oluştu: {errorMessage}",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Tamam",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Senkronizasyon devam ediyor",
+  "smartMeterSettingsScreenSyncingDialogProgress": "İlerleme: {progressInPercent}%",
+  "smartMeterTabConsumptions": "Tüketim",
+  "smartMeterTabProductions": "Yapımlar",
+  "smartmeterInfocodeBannerText": "Akıllımetre {smartmeterId} bilgi kodunu aldı: {infocode}",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "{smartmeterId} su sayacınızın sıcaklığı 3°C'nin altına düştü. Don tehlikesi var! Hasarı önlemek için sayacı ve boruları yalıtın veya alanı ısıtın.",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "{smartmeterId} su sayacınız sürekli bir su akışı tespit etti. Bu bir sızıntıya işaret edebilir. Lütfen ev tesisatınızda sızıntı olup olmadığını kontrol edin. Tuvaletler ve damlayan musluklar yaygın nedenlerdir.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "{smartmeterId} su sayacınız, boru patlamasına işaret edebilecek alışılmadık derecede yüksek su tüketimi tespit etti. Lütfen ev tesisatınızı büyük sızıntı veya kırılmalara karşı kontrol edin. Alarm, örneğin çok miktarda su kullandıysanız da görüntülenebilir. havuzu doldurmak için.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "{smartmeterId} su sayacınız, bir borunun patladığını veya yüzme havuzunun dolduğunu gösterebilecek alışılmadık derecede yüksek su tüketimi tespit etti. Lütfen ev tesisatınızı büyük sızıntı veya kırılmalara karşı kontrol edin.",
+  "soFar": "şu ana kadar",
+  "social": "Sosyal Medya",
+  "socialEmail": "E-posta",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "instagram",
+  "socialLinkedIn": "LinkedIn",
+  "socialTwitter": "X",
+  "socialYouTube": "YouTube",
+  "solarThermalCollector": "Güneş Termal Kollektörü",
+  "sortActivities": "Faaliyetlerin sırasını değiştirin",
+  "source": "Kaynak:",
+  "stove": "Soba",
+  "stromGedachtAgreement": "StromGedacht bildirimlerini almak için posta kodumun (eğer sağlanmışsa) TransnetBW'ye iletilmesini kabul ediyorum.",
+  "subscribeToSmartMeterInfocodeEvents": "Beklenmedik tüketimlerden haberdar olmak istiyorum",
+  "supplementaryPayment": "Ek ödeme",
+  "support": "Destek/Geri Bildirim",
+  "supportBug": "Böcek",
+  "supportGivePraise": "Övgü ver",
+  "supportGivePraiseLong": "Uygulamayı beğendin mi? Teşekkür ederim! Haberi yayın!",
+  "supportGivePraiseRating": "Uygulamayı {store} cinsinden derecelendirin.",
+  "supportGivePraiseRecommendation": "Uygulamayı arkadaşlarınıza ve ailenize önerin. Herhangi bir öneri için teşekkür ederiz!",
+  "supportMakeSuggestion": "Bir şey öner",
+  "supportMakeSuggestionLong": "Uygulama, kullanıcı önerileriyle varlığını sürdürüyor. Bir öneriniz var mı?",
+  "supportQuestion": "Bir soru sor",
+  "supportQuestionBox": "Size nasıl yardım edebilirim?",
+  "supportQuestionLong": "Nasıl çalışır? Hiç mümkün mü? İşte cevaplar.",
+  "supportQuestionNotFound": "Sorunuz yanıtlanmadı mı? Yardımcı olmaktan memnuniyet duyarım.",
+  "supportRecommend": "Enerji tüketimimi ve ilgili maliyetleri takip etmek için sayaç okuma uygulamasını EHW+ kullanıyorum. Belki bu sizin için de bir şey olabilir?\n\nDaha fazla bilgi için https://www.ehwplus.com",
+  "supportReportBug": "Bir hatayı postayla bildirin",
+  "supportReportBugAffectedPages": "Hata hangi sayfalarda oluşuyor? (varsa)",
+  "supportReportBugLong": "Harika bir uygulama! Ama elbette işler ters gidebilir. Hataları bildirirseniz uygulamayı daha iyi hale getirirsiniz.",
+  "supportReportBugScreenshotsPlease": "Lütfen postaya tercihen hatanın işaretini içeren bir ekran görüntüsü ekleyin.",
+  "supportReportBugTextIs": "Lütfen mevcut yanlış davranışı, yani hatanın kendisini kısaca açıklayın.",
+  "supportReportBugTextShould": "Lütfen istenen davranışı, yani aslında nasıl olması gerektiğini kısaca açıklayın.",
+  "swimmingPool": "Yüzme havuzu",
+  "sync": "Senkronizasyon",
+  "syncAutomaticTitle": "Yerel verilerin üzerine yazılabilir",
+  "syncDriveDataUsage": "EHW+'ya Google Drive'a erişim izni verirseniz uygulama, uygulamanın kendisi tarafından oluşturulan dosyalara okuma ve yazma erişimine sahip olacaktır. Ne yazık ki, bu uygulama aracılığıyla başkaları tarafından oluşturulan dosyalar uygulama tarafından görülemez; bu, Google Drive aracılığıyla birden fazla hesap arasında veri paylaşımının mümkün olmadığı anlamına gelir.",
+  "syncDriveLoggedIn": "Verileriniz birden fazla cihaz arasında otomatik olarak senkronize edilir. Aşağıdaki Google hesabı kullanılıyor:",
+  "syncDriveLoggedInNoAuto": "Verileriniz bir değişiklik sonrasında otomatik olarak Google Drive'a yüklenir. Buluttaki daha yeni veriler yalnızca nesneye tıkladığınızda yerel verilerin üzerine yazar. Aşağıdaki Google hesabı kullanılıyor:",
+  "syncObjectIsLocked": "Nesne verileri güncelleniyor ve bu süre zarfında düzenlenemez.",
+  "syncShareWithOthersNotInWeb": "Erişim izni vermek şu anda yalnızca uygulama aracılığıyla mümkündür.",
+  "syncShareWithOthersSubtitle": "Sayaç okumalarını diğer Google kullanıcılarıyla birlikte girmek istiyorsanız EHW+'ya Google Drive'a tam erişim izni verilmesi gerekir.",
+  "syncShareWithOthersTitle": "Başkalarıyla paylaşmak ister misiniz?",
+  "syncStatusFailedLong": "Senkronizasyon başarısız oldu; düzenlemenin sorumluluğu size aittir",
+  "syncStatusFailedLongNoAutoSync": "Senkronizasyon başarısız oldu; düzenlemenin sorumluluğu size aittir",
+  "syncStatusSyncRemoteHasLatest": "Buluttaki dosya yerel dosyadan daha güncel",
+  "syncWithGoogleDriveDescription": "Sayaç okumalarının kaybolması çok yazık olacağından, nesnelerinizi hemen Google Drive ile senkronize edin!",
+  "tabCounters": "Metre",
+  "tabNews": "İpuçları/Haberler",
+  "tabObject": "Nesne",
+  "tabStatistics": "İstatistikler",
+  "taxRate": "Vergi oranı",
+  "teaserPurchaseRenewableEnergies": "Yenilenebilir enerji sayaçları Premium gerektirir.",
+  "teaserPurchaseVirtualCounter": "Premium ile sanal sayaçlar ekleyin.",
+  "teaserPurchaseWaterExtractionCounter": "Premium ile su çıkarma sayaçlarının kilidini açın.",
+  "termsOfUsageBlock1": "İtiraz hakkı",
+  "termsOfUsageBlock1Title": "Uygulamanın kullanımına ilişkin genel kullanım şartları",
+  "termsOfUsageBlock2": "Uygulama ve işlevleri kötü amaçlı kullanılamaz. Lütfen uygulamayı yalnızca yasal olarak izin verilen kapsam dahilinde ve kullanım koşullarımıza uygun olarak kullanın. Geçerli Alman yasalarının veya kullanım koşullarımızın ihlal edilmesi durumunda sağlayıcı, sizi uygulamayı kullanmaktan men etme hakkını saklı tutar.",
+  "termsOfUsageBlock2Title": "Kullanıma ilişkin genel bilgiler",
+  "termsOfUsageBlock2a": "Anonimleştirilmiş kullanım verileri\nUygulamayı sürekli olarak geliştirmek için kendi analizlerimizi kullanıyoruz.\nYalnızca anonimleştirilmiş veriler iletilir.\nVeriler üçüncü şahıslara aktarılmaz.\nDaha fazla bilgi için Ayarlar > Gizlilik > {privacyBlock3Title}'ye gidin",
+  "termsOfUsageBlock2b": "Hata raporları\nSentry (kendi kendine barındırılan), uygulamayı sürekli olarak geliştirmek için kullanılır.\nHata raporları işlenmez ve üçüncü şahıslarla paylaşılmaz.\nDaha fazla bilgi için Ayarlar > Gizlilik > {privacyBlock3Title}'ye gidin",
+  "termsOfUsageBlock2c": "Kişisel bilgiler\nGoogle Drive Sync kullanıyorsanız EHW+'nın girdiğiniz verilere hâlâ erişimi yoktur. Daha fazla bilgi için Ayarlar > Gizlilik > {privacyBlock3Title}'a gidin.",
+  "termsOfUsageBlock3": "Sağlayıcı, uygulamanın amaçlarınıza uygunluğunu, güvenilirliğini, işlevselliğini veya uygunluğunu garanti etmez. Kasten, ağır ihmalden, cana, uzuvlara veya sağlığa zarar verilmesi, kalite garantisinin üstlenilmesi, bir kusurun hileli olarak gizlenmesi veya temel sözleşme yükümlülüklerinin ihlali nedeniyle Ürün Sorumluluğu Yasası uyarınca zorunlu olmadıkça sorumluluk hariç tutulur. Temel sözleşme yükümlülükleri, yerine getirilmesi bir sözleşmenin düzgün bir şekilde ifası için gerekli olan ve sözleşme taraflarının düzenli olarak yerine getirileceğine güvenebilecekleri yükümlülüklerdir. Temel sözleşme yükümlülüklerinin ihlalinden kaynaklanan zararların tazmini, kasıt veya ağır ihmal olmadığı sürece, bu tür sözleşmeler için tipik olan öngörülebilir zararlarla sınırlıdır.",
+  "termsOfUsageBlock3Title": "Yükümlülük",
+  "termsOfUsageBlock4": "Sağlayıcı hesaplama sonuçlarının doğruluğunu garanti etmez. Oluşturulan faturaların ödenmesi gereken fiili tutarlara uygun olmasını sağlamak için, kullanıcıların uygulamada kayıtlı fiyatları (taban fiyatlar, tüketim fiyatları vb.) dikkatli bir şekilde ve kendi sorumluluğunda güncellemeleri gerekmektedir.",
+  "termsOfUsageBlock4Title": "Kullanıcının sorumlulukları",
+  "termsOfUsageTitle": "Uygulamanın kullanımına ilişkin genel kullanım şartları",
+  "termsOfUsageTitleShort": "Kullanım şartları",
+  "tibberAccessToken": "Erişim Jetonu",
+  "tibberActionSaveAuthorizationSettings": "Yetkilendirme ayarlarını kaydet",
+  "tibberBasicAuth": "Temel Kimlik Doğrulaması",
+  "tibberBasicAuthEnterPassword": "Lütfen şifreyi girin",
+  "tibberBasicAuthEnterUsername": "Lütfen kullanıcı adını girin",
+  "tibberBasicAuthPassword": "Şifre",
+  "tibberBasicAuthUsername": "Kullanıcı adı",
+  "tibberConsentScreenBenefit1Description": "Tüketiminizi gerçek zamanlı olarak takip edin ve gizli enerji tüketenleri ortaya çıkarın.",
+  "tibberConsentScreenBenefit1Title": "Elektrik Tüketiminizi Görüntüleyin",
+  "tibberConsentScreenConfigureLaterButton": "Daha Sonra Kur",
+  "tibberConsentScreenConfigureNowButton": "Tibber Pulse'u şimdi kurun",
+  "tibberConsentScreenDescription": "Tibber müşterisi misiniz veya olmayı mı planlıyorsunuz? Artık enerji izlemenin iyileştirilmesi için Pulse'u destekliyoruz. Pulse'un geçmiş verilerinin ne yazık ki yalnızca aktif bir Tibber sözleşmesi olan müşterilere sunulduğunu lütfen unutmayın.",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "1 Mart'tan itibaren saatlik tüketiminiz anonimleştirilecek ve Goethe araştırmasına sunulacaktır.",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Goethe Çalışmasına katılmak ister misiniz?",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Evet, Goethe Çalışmasına katılmak istiyorum",
+  "tibberConsentScreenGoetheStudySectionHeader": "Araştırma Projesine katılım",
+  "tibberConsentScreenHeader": "Yeni Özellik: Tibber Pulse'tan Tüketim Verileri",
+  "tibberConsentScreenStoreLink": "Tibber Store'u ziyaret edin",
+  "tibberConsumptionEntryTotalCost": "Toplam maliyet: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Toplam kâr: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "{date}'de {startTime}'dan 24 saat",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Gönderen: {startTime}'dan {endDate}'e",
+  "tibberConsumptionEntryViewTimeSpanMonth": "{month} ayı",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "{month}'dan itibaren bir ay",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "{date}'de {startTime}'dan bir saat",
+  "tibberConsumptionEntryViewTimeSpanYear": "{year} yılı",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "{year}'dan başlayan bir yıl",
+  "tibberEnterAccessToken": "Lütfen erişim belirtecini girin",
+  "tibberErrorAccessTokenInvalid": "Erişim belirtecinin geçersiz olduğu anlaşılıyor",
+  "tibberErrorConnectivityShowCacheInstead": "Son tüketim verileri alınamıyor. Bunun yerine önbelleğe alınmış değerler gösteriliyor.",
+  "tibberErrorNoHomes": "Bu hesapla ilişkili ev yok",
+  "tibberErrorNoSubscription": "API aracılığıyla geçmiş verilere tam erişim elde etmek için seçilen ev için aktif bir Tibber elektrik sözleşmesine ihtiyacınız vardır.",
+  "tibberErrorRateLimit": "Tibber API hız limiti aşıldı. Tekrar denemeden önce lütfen en az 5 dakika bekleyin.",
+  "tibberErrorSmartMeterMisconfigured": "Akıllı ölçüm cihazınız yanlış yapılandırılmış gibi görünüyor.",
+  "tibberErrorUndefined": "Beklenmeyen bir hata oluştu: {error}",
+  "tibberHomeSelectorHomeId": "Ev Kimliği: {homeId}",
+  "tibberHomeSelectorLabel": "Ev",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Bu ev, canlı ölçümleri veya geçmiş tüketim verilerini desteklemiyor. Lütfen başka bir ev seçin.",
+  "tibberLiveMeasurementCounterCardViewFooter": "Canlı Ölçüm",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Toplam Tüketim (gece yarısından itibaren)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Tüketim (son saat)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Birikmiş Maliyet",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Toplam Üretim (gece yarısından itibaren)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Üretim (son saat)",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Birikmiş Ödül",
+  "tibberLiveMeasurementWidgetAveragePower": "Ortalama Güç",
+  "tibberLiveMeasurementWidgetCurrentL1": "Akım (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Akım (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Akım (L3)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Sayaç Okuma (Tüketim)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Sayaç Okuma (Üretim)",
+  "tibberLiveMeasurementWidgetMaxPower": "Maksimum Güç",
+  "tibberLiveMeasurementWidgetMinPower": "Minimum Güç",
+  "tibberLiveMeasurementWidgetPower": "Güç",
+  "tibberLiveMeasurementWidgetPowerFactor": "Güç faktörü",
+  "tibberLiveMeasurementWidgetPowerProduction": "Güç Üretimi",
+  "tibberLiveMeasurementWidgetTimestamp": "Zaman damgası",
+  "tibberLiveMeasurementWidgetTitle": "{time}'da mevcut tüketim/üretim",
+  "tibberLiveMeasurementWidgetUnitA": "A",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "K",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Gerilim (Faz 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Gerilim (Faz 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Gerilim (Faz 3)",
+  "tibberLiveMeasurementsWidgetConnecting": "Tibber Pulse'a bağlanılıyor...",
+  "tibberLiveMeasurementsWidgetError": "Tibber Pulse'a bağlanırken bir hata oluştu. Lütfen erişim belirtecinizi ve internet bağlantınızı kontrol edin.",
+  "tibberLiveMeasurementsWidgetNotSupported": "Bu ev için canlı ölçümler desteklenmiyor.",
+  "tibberMessageAccessTokenUpdated": "Erişim jetonu başarıyla güncellendi",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber Abonelik Durumu",
+  "tibberStatusWidgetTitle": "Önbellek Yönetimi",
+  "tibberSubscriptionStatusActive": "aktif",
+  "tibberSubscriptionStatusInactive": "aktif değil",
+  "tibberSubscriptionStatusLoading": "yükleniyor...",
+  "tibberWhereIsMyAccessToken": "\"Erişim jetonumu\" nerede bulabilirim?",
+  "timeBefore": "Önce",
+  "timeDayAgo": "bir gün önce",
+  "timeDays": "günler",
+  "timeDaysAgo": "{days} gün önce",
+  "timeDaysWithin": "günler",
+  "timeForFirstYear": "ilk yıl için",
+  "timeFriday": "Cuma",
+  "timeFromDate": "{date}'dan",
+  "timeFromUndefined": "Tanımlanmamış",
+  "timeHours": "saat",
+  "timeHoursAgo": "{hours} saat önce",
+  "timeInFuture": "Gelecekte",
+  "timeJustNow": "Şu anda",
+  "timeLastUpdated": "son güncelleme",
+  "timeMinutes": "dakika",
+  "timeMinutesAgo": "{minutes} dakika önce",
+  "timeMonday": "Pazartesi",
+  "timeMonth": "ay",
+  "timeMonths": "aylar",
+  "timeMonthsAgo": "{months} ay önce",
+  "timeMonthsWithin": "aylar",
+  "timePeriodYearStart": "yıllık",
+  "timeReminderAtEnd": "sonunda",
+  "timeReminderAtStart": "Başlangıçta",
+  "timeRightNow": "Şu anda",
+  "timeSaturday": "Cumartesi",
+  "timeSeconds": "saniye",
+  "timeSunday": "Pazar",
+  "timeThursday": "Perşembe",
+  "timeToday": "Bugün",
+  "timeTuesday": "Salı",
+  "timeUntilDate": "{date}'a kadar",
+  "timeUntilUnlimited": "Sınırsız",
+  "timeWednesday": "Çarşamba",
+  "timeWeek": "hafta",
+  "timeWeeks": "haftalar",
+  "timeWithin": "{duration} içinde",
+  "timeYesterday": "Dün",
+  "unitCm": "santimetre",
+  "unitCmLong": "santimetre",
+  "unitCmShort": "santimetre",
+  "unitCubicMetersLong": "{count, plural, one {Metreküp (m³)} other {Metreküp (m³)}}",
+  "unitCubicMetersShort": "m³",
+  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoule (GJ)}}",
+  "unitGJShort": "GJ",
+  "unitGigaByteLong": "Büyük Britanya",
+  "unitGigaByteShort": "Büyük Britanya",
+  "unitHoursLong": "{count, plural, one {Saat} other {Saat (saat)}}",
+  "unitHoursShort": "H",
+  "unitKWhLong": "{count, plural, one {Kilowatt saat (kWh)} other {Kilowatt saat (kWh)}}",
+  "unitKWhShort": "kWh",
+  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
+  "unitKgShort": "kilogram",
+  "unitLiters": "litre",
+  "unitLitersLong": "{count, plural, one {Litre (ℓ)} other {Litre (ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {Megawatt saat (MWh)} other {Megawatt saat (MWh)}}",
+  "unitMWhShort": "MWh",
+  "unitMegaByteLong": "MB",
+  "unitMegaByteShort": "MB",
+  "unitNone": "hiçbiri",
+  "unitNoneFormatted": "{count, plural, one {birim} other {birimler}}",
+  "unitPercentLong": "Yüzde (%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "metrekare",
+  "unitSquareMetersLong": "{count, plural, one {Metrekare (m²)} other {Metrekare (m²)}}",
+  "unitSquareMetersShort": "m²",
+  "updateAvailable": "{oldVersion} uygulama sürümü güncel değil. {newVersion} sürümüne güncelleyebilirsiniz.",
+  "updateObjectName": "Nesne adlarını değiştirin",
+  "upgradeDescription": "Uygulama daha fazlasını yapabilir. Maliyete daha iyi genel bakış, daha fazla istatistik, Excel dışa aktarma, daha fazla sayaç, ...",
+  "useDismissibleSettings": "Kaydırma hareketiyle silme",
+  "useDismissibleSettingsDetailed": "Sayaçlar, sözleşmeler vb. yandan kaydırma hareketi ile silinebilir",
+  "usedForPaymentsRepayments": "Peşin ödeme, taban fiyat ve bonus",
+  "valueLess": "{value} daha az",
+  "valueMore": "{value} tane daha",
+  "versionIsUpToDate": "Tüm kullanıcılara sunulan en son uygulama sürümü {version}'dır.",
+  "virtualCounter": "Sanal sayaç",
+  "virtualCounterMasterCounter": "Ana sayaç",
+  "virtualCounterMasterCounterAttach": "Ana sayacı seçin",
+  "virtualCounterMasterCounterDescription": "Bilgi: Ana sayaç, sanal sayacın hesaplanması için temel oluşturur; örneğin ana elektrik sayacı veya ana su sayacı.",
+  "virtualCounterMetersToBeAdded": "Eklenecek sayaçlar",
+  "virtualCounterMetersToBeAddedDescription": "Ana sayaca hangi sayaç okumalarının eklenmesi gerektiği (örneğin enerji üretim sayaçları).",
+  "virtualCounterMetersToBeSubtracted": "Çıkarılacak metreler",
+  "virtualCounterMetersToBeSubtractedDescription": "Hangi sayaç okumalarının ana sayaçtan çıkarılması gerektiği, örneğin \"ısı pompası sayaçları\", \"elektrik besleme sayaçları\".",
+  "virtualCounterNotConfigured": "Lütfen sanal ölçüm cihazınızın ayarlarını kontrol edin. Hiçbir şey hesaplanamaz.",
+  "warmWater": "Sıcak su",
+  "warning": "Uyarı",
+  "warningCounterReplacementDetected": "Yeni değer önceki sayaç okumasından daha düşüktür. Sayaç değiştirildi mi?",
   "warningNextReminderText": "Bir sonraki hatırlatıcı {date}'dır.",
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "counterConsiderForTotalConsumptions": "Toplam tüketimleri göz önünde bulundurun",
-  "consumptionYearlyDetailedElectricity": "Elektrik tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay) {consumptionLevel}.",
-  "consumptionYearlyDetailedGas": "Gaz tüketiminiz {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/yıl ≈ {monthlyConsumption} kWh/ay) {consumptionLevel}.",
-  "consumptionYearlyDetailedComparisonLess": "{verbSuffix} tüketiyorsunuz {percentage} daha az {householdSize} {personLabel} olan ortalama bir hane.",
-  "consumptionYearlyDetailedComparisonMore": "{verbSuffix} tüketiyorsunuz {percentage}'dan fazla {householdSize} {personLabel} olan ortalama bir hane.",
-  "consumptionYearlyDetailedComparisonEqual": "{verbSuffix} tüketiyorsunuz yaklaşık olarak aynı {householdSize} {personLabel} olan ortalama bir hane.",
-  "consumptionWaterDailyMonthlySingle": "Tüketiyorsun günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
-  "consumptionWaterDailyMonthlyPerPerson": "Kişi başı herkes tüketiyor günde yaklaşık {dailyLiters} litre (≈ {monthlyCubicMeters} {unitName} ayda).",
-  "consumptionYearlyDetailedLevel2": "normaldir."
+  "warningOutdatedSinceText": "{date}'dan beri",
+  "warningReadingBiggerThanOldValue": "Yeni değer önceki sayaç okumasından daha yüksektir.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "Yeni değer önceki sayaç okumasından daha yüksektir. Tankı yeniden doldurdunuz mu?",
+  "warningReadingOutdatedForYearlyResetCounter": "{deviceTypeName} {roomNamePart} için {lastYear} yılına ait son sayaç okuması eksik. Bu, toplam yıllık tüketimin doğru hesaplanması için gereklidir.",
+  "warningReadingOutdatedFrequency": "{deviceTypeName} {roomNamePart} için en son sayaç okuması güncel değil {outdatedSinceText}.{whenNotifyDateText}",
+  "warningReadingSeemsTooBig": "Yeni değer oldukça yüksek. Okuma doğru şekilde yapıldı mı?",
+  "warningReadingSeemsTooSmall": "Yeni değer oldukça düşük. Doğru okundu mu?",
+  "warningReadingSmallerThanOldValue2": "Yeni değer önceki sayaç okumasından daha düşüktür. Okuma doğru şekilde yapıldı mı?",
+  "warningYearlyReset": "Yılın başında sıfır okuma",
+  "wasteWaterPriceEnabled": "Temiz su ve atık su maliyetleri ayrı ayrı gösterilir (kesinti sayaçlarıyla ilgilidir)",
+  "waterConsumption": "Su tüketimi",
+  "waterExtractionMinimumLevelLower": "Tüketim eşikten düşük olduğu için kesinti yapılır.",
+  "waterMeterEventsInformation": "{count, plural, =1 {{waterSupplier} kablosuz su sayacınız beklenmeyen tüketimi tespit eder. İstenirse böyle bir durumda bildirim alırsınız.} other {{waterSupplier} kablosuz su sayaçlarınız beklenmedik tüketimi tespit eder. İstenildiği takdirde bu gibi durumlarda bildirim alırsınız.}}",
+  "watersupplierAccessRequestQ1": "Su şebekesinin havza bölgesinde bir mülkün sahibi misiniz ve radyo sayaç okumalarına erişmek mi istiyorsunuz?",
+  "watersupplierAccessRequestQ2": "Zaten erişim talebinde bulundunuz mu? Daha sonra bir EHW+ kullanıcı hesabı oluşturmanız gerekir.",
+  "watersupplierAccessRequestQ3": "Zaten erişim talebinde bulundunuz ve QR kodunuzu aldınız mı?",
+  "watersupplierAccessRequestQ4": "Örneğin bir boru patlaması veya tuvalet sifonunun akması durumunda tepki verebilmeniz için sayaç uyarıları almak ister misiniz?",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Üzgünüm, ne yazık ki bu işe yaramadı. Sunucumuzdan kaynaklanıyordu. Daha sonraki bir tarihte tekrar deneseniz iyi olur!",
+  "watersupplierCompleteMeterIdTryAgain": "Geçemezsiniz! Lütfen sayaç numaranızın son üç rakamını tekrar girin!",
+  "watersupplierMeterIdValidationStep": "Sayaç kimliğinizi kontrol ediyoruz.",
+  "watersupplierNoAccess": "Artık veri alma yetkiniz yok.",
+  "watersupplierNoAccessDetailedMessage": "Hâlâ erişiminizin olması gerektiğini düşünüyorsanız lütfen aktivasyon kodunuzu tekrar tarayın. Erişim kodu artık geçerli değilse lütfen yeni bir erişim isteği gönderin.",
+  "watersupplierOpenReminderSettings": "Ayarları aç",
+  "watersupplierRadioMeterDefaultName": "Radyo soğuk su sayacı",
+  "watersupplierScanQrCodeApprovalInProgress": "Gelecekte radyo sayaç okumalarına erişebilmeniz için artık hesabınızı yetkilendiriyoruz.",
+  "watersupplierScanQrCodeCommand": "Sol QR kodunu (aktivasyon kodu) tarayın!",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Radyo su sayacınıza erişim iptal edildi.",
+  "watersupplierScanQrCodeScanSuccessful": "Vay, aktivasyon kodu çok hoş görünüyor! Lütfen sayaç numaranızın son üç rakamını giriniz!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Not: Orijinal ölçüm kimliğiniz 8'den fazla karakterden oluşabilir.",
+  "watersupplierScanQrCodeTitle": "Radyo Ölçer Aktivasyonu",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Evet! \"Soğuk Su\" tipi radyo su sayacınız başarıyla eklendi. Diğer sayaçların arasında bulabilirsiniz.",
+  "watersupplierScanQrCodeValidation": "QR kodu algılandı, doğrulayalım.",
+  "watersupplierScanQrCodeValidationFailed": "Üzgünüz, kod geçersiz. Tekrar denemek ister misin?",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "İptal kodu yerine aktivasyon kodunu taradınız. Lütfen tekrar deneyin!",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Aktivasyon kodu yerine iptal kodunu taradınız. Lütfen tekrar deneyin!",
+  "watersupplierScanRevokeQrCodeCommand": "Doğru QR kodunu tarayın (kodu iptal edin)!",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Radyo ölçüm cihazını sil",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "İptal kodunu tarayın",
+  "watersupplierUnlinkRadioMeterDescription1": "Aktivasyon kodunu geçersiz kılmadan radyo ölçüm cihazını silmek istiyor musunuz?",
+  "watersupplierUnlinkRadioMeterDescription2": "Artık radyo ölçüm verilerinize erişmek istemiyor musunuz? Lütfen unutmayın: İptal kodu tarandıktan sonra aktivasyon kodu geçersiz hale gelir. Etkinleştirme kodunu kullanan tüm kullanıcı hesapları erişimi kaybedecektir.",
+  "watersupplierUnlinkRadioMeterTitle": "Radyo Ölçer Erişimini Sonlandır",
+  "watersupplierYourSupplier": "Su tedarikçiniz",
+  "yearlyConsumption": "Şu ana kadar yıllık tüketim",
+  "yearlyCosts": "Şu ana kadar yıllık tüketim maliyetleri",
+  "youtubeConsent1": "Gömülü Youtube içeriğini görüntülemek için izninize ihtiyacımız var. Bunu (ve dolayısıyla uygulamadaki diğer tüm Youtube içeriğini) tek tıklamayla görüntüleyebilir ve tekrar devre dışı bırakabilirsiniz.",
+  "youtubeConsent2": "Youtube içeriğini her zaman göster",
+  "youtubeConsent3": "Harici içeriğin bana gösterilmesini kabul ediyorum. Bu, kişisel verilerin üçüncü taraf platformlara aktarılmasına neden olabilir. Bu konuda daha fazla bilgi bizim",
+  "zipCode": "posta kodu",
+  "zipCodeValidationLength": "Lütfen {digits} haneli posta kodunu girin",
+  "zipCodeValidationOnlyNumbers": "Geçerli bir posta kodu yalnızca sayılardan oluşur"
 }

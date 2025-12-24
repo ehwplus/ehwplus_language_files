@@ -1,443 +1,8 @@
 {
   "@@locale": "vi",
-  "appDescriptionShort": "Tốt cho ví tiền, tốt cho khí hậu",
   "@appDescriptionShort": {
     "description": "Marketing claim"
   },
-  "appDescriptionLong": "<p>Chào mừng bạn đến với <b>EHW+</b>, ứng dụng đọc đồng hồ của bạn cho <b>E</b>lectricity, <b>H</b>eating và <b>W</b>ater. Với chúng tôi, bạn có thể dễ dàng theo dõi<b> <b>0bạn sử dụng bao nhiêu và bao nhiêu<b>1<b>2chi phí<b>3 miễn phí.<b>4",
-  "contactTitle": "Đại diện bởi:",
-  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nLiên hệ\n\nĐiện thoại: 06204/7383382\nThư: info@ewplus.com",
-  "euDisputeResolution": "Giải quyết tranh chấp ở Liên minh Châu Âu\n\nỦy ban Châu Âu cung cấp nền tảng giải quyết tranh chấp trực tuyến (OS): https://ec.europa.eu/consumers/odr/.\nBạn có thể tìm thấy địa chỉ email của chúng tôi trong dấu ấn ở trên.\n\nCơ quan giải quyết tranh chấp người tiêu dùng/cơ quan giải quyết tranh chấp chung\n\nChúng tôi không sẵn sàng hoặc bắt buộc phải tham gia vào các thủ tục giải quyết tranh chấp trước hội đồng trọng tài người tiêu dùng.",
-  "consent1Hello": "Xin chào",
-  "consent2ThankYou": "Cảm ơn bạn đã sử dụng EHW+!",
-  "consent3Video": "Bạn có muốn xem một đoạn video giới thiệu ngắn không?",
-  "consent4BeforeYouCanContinue": "Trước khi bạn có thể tiếp tục",
-  "consent5ErrorReportingTitle": "Báo cáo lỗi",
-  "consent6ContractPricesPerUnitTitle": "Giá điện/nước/gas",
-  "consent7ContractPricesPerUnit": "Để có thể ước tính số tiền bạn hiện đang trả so với những người dùng EHW+ khác, giá sẽ được chuyển đến máy chủ EHW+ ở Đức cùng với quốc gia và tiểu bang. Chỉ khi bạn đồng ý chuyển khoản, bạn mới có quyền truy cập vào số liệu thống kê về giá. Để đảm bảo tính ẩn danh, số liệu thống kê chỉ có thể được hiển thị sau một số lượng giá được truyền tối thiểu.",
-  "consent11AnalyticsTitle": "Dữ liệu phân tích",
-  "consent12Analytics": "Để đánh giá sự thành công của ứng dụng hoặc các chức năng riêng lẻ, ứng dụng sẽ truyền số liệu thống kê sử dụng ẩn danh. Dữ liệu không được truyền cho bên thứ ba. Dữ liệu được sử dụng để phát triển hơn nữa của ứng dụng.",
-  "consent13StromGedachtTitle": "Thông báo ổn định lưới điện từ StromGedacht",
-  "consent13StromGedacht": "StromGedacht, một dịch vụ do TransnetBW cung cấp, cung cấp thông tin về độ ổn định của lưới điện và các khuyến nghị về thời điểm nên ưu tiên sử dụng điện. Khi quá trình chuyển đổi năng lượng ngày càng trở nên khó khăn hơn đối với lưới điện truyền tải, các hộ gia đình ở Tây Nam nước Đức đang tham gia. Để nhận thông tin về vị trí của bạn, mã bưu chính của bạn, nếu được nhập vào đây trong ứng dụng, sẽ được truyền tới API TransnetBW StromGedacht. Không có dữ liệu nào khác được truyền đi hoặc liên kết.",
-  "stromGedachtAgreement": "Tôi đồng ý rằng mã bưu chính của tôi (nếu được cung cấp) sẽ được truyền tới TransnetBW để truy xuất thông báo StromGedacht.",
-  "priceSubmissionAgreement": "Tôi đồng ý với việc chuyển giá điện/gas/nước theo đơn vị tới máy chủ EHW+",
-  "googleAnalyticsAgreement": "Tôi đồng ý truyền dữ liệu ẩn danh về việc sử dụng ứng dụng tới EHW+ Services GmbH.",
-  "continueAcceptPart1": "Bằng việc sử dụng ứng dụng EHW+, bạn đồng ý với",
-  "continueAcceptPart2": ". Để biết thêm thông tin về việc thu thập và sử dụng dữ liệu cá nhân và ẩn danh, vui lòng tham khảo",
-  "termsOfUsageTitleShort": "Điều khoản sử dụng",
-  "faqAboutDeveloperTitle": "Ai đứng sau EHW+?",
-  "faqAboutDeveloperBody1": "Cảm ơn bạn đã quan tâm đến EHW+. EHW+ được tôi, Timo Bähr, phát hành vào tháng 12 năm 2020. Tôi là nhà phát triển ứng dụng toàn thời gian và làm việc trên EHW+ trong thời gian rảnh rỗi để góp phần bảo vệ môi trường. Kể từ tháng 5 năm 2022, nhà phát triển thứ hai đã giám sát công việc của tôi, Thomas Hesse, xây dựng phần phụ trợ cho EHW+. Kể từ tháng 4 năm 2023, Janine Sinner đã xử lý nhiều phản hồi của khách hàng. Kể từ tháng 7 năm 2024, Artem Yuzhkov đã tham gia với tư cách là nhà phát triển ứng dụng.",
-  "faqAboutDeveloperBody2": "Hơn 26% tổng lượng khí thải CO2 ở Đức là do các hộ gia đình tư nhân gây ra. Nếu mọi người có thể giảm mức tiêu dùng của mình dù chỉ một chút thì sẽ đạt được rất nhiều điều. Cảm ơn bạn rất nhiều vì sự đóng góp của bạn!",
-  "faqAboutDeveloperBody3": "Chúng tôi hoan nghênh các đề xuất về cách cải thiện ứng dụng.",
-  "faqAboutDeveloperBody4": "Tuy nhiên, tôi mong bạn hiểu rằng tôi không thể thực hiện tất cả các đề xuất và các chức năng mới cần có thời gian.",
-  "commonCollapse": "Sụp đổ",
-  "commonMore": "Hơn",
-  "commonSave": "Cứu",
-  "commonChange": "Thay đổi",
-  "commonContinue": "Tiếp tục",
-  "commonBack": "Mặt sau",
-  "commonOk": "ĐƯỢC RỒI",
-  "commonCancel": "Hủy bỏ",
-  "commonClose": "Đóng",
-  "commonOpen": "Mở",
-  "commonSend": "Nộp",
-  "commonDelete": "Xóa bỏ",
-  "commonYes": "Đúng",
-  "commonNo": "KHÔNG",
-  "commonLoadingData": "Đang tải dữ liệu",
-  "commonDay": "ngày",
-  "commonMonth": "tháng",
-  "commonYear": "năm",
-  "commonShare": "Chia sẻ",
-  "commonCopiedToClipboard": "Đã sao chép vào bảng nhớ tạm",
-  "commonLearnMore": "Tìm hiểu thêm",
-  "commonMinimum": "Giá trị hàng ngày thấp nhất",
-  "commonMaximum": "Giá trị hàng ngày cao nhất",
-  "heatmapLegendTitle": "Thông tin thêm về bản đồ nhiệt",
-  "heatmapLegendDisclaimer": "Thông tin: Các hộp tô bóng chứa giá trị ước tính. Để đọc mức tiêu thụ/đầu ra thực tế, vui lòng điền số chỉ còn thiếu của đồng hồ nếu có thể.",
-  "consumptionHeatmap": "Bản đồ nhiệt tiêu thụ",
-  "consumptionHeatmapYield": "Bản đồ nhiệt năng suất",
-  "consumption": "Sự tiêu thụ",
-  "consumptionYield": "Năng suất",
-  "showAllYears": "Hiển thị tất cả các năm",
-  "appNameShort": "EHW+",
-  "appName": "EHW+ | Tiêu thụ và chỉ số đồng hồ",
-  "tabCounters": "Mét",
-  "tabStatistics": "Thống kê",
-  "tabObject": "Sự vật",
-  "tabNews": "Mẹo/Tin tức",
-  "ofRangeLastDays": "trong số {days} ngày qua",
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeLastMonths": "trong {months} tháng qua",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeFrom": "từ {range}",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "readingTime": "Thời gian đọc",
-  "reading": "Đọc truy cập",
-  "last2Weeks": "14 ngày qua",
-  "last12Weeks": "12 tuần qua",
-  "last12Months": "12 tháng qua",
-  "sinceInitialReading": "Kể từ lần đọc đầu tiên",
-  "lastYear": "Năm ngoái",
-  "periodCustom": "Người dùng xác định",
-  "counterReadings": "Bài đọc",
-  "comment": "Bote",
-  "enterComment": "Nhập ghi chú",
-  "enterExistingReadingAgain": "Nhập lại bài đọc cũ",
-  "meterId": "Mã bộ đếm",
-  "meterReadingSubmitted": "Đã truyền tới nhà cung cấp",
-  "newReading": "Nhập số đọc hiện tại",
-  "newReadingShort": "Đọc mới",
-  "readingWithFactor": "Đọc truy cập với hệ số",
-  "csvImportWithFactor": "Có nên nhân số chỉ của đồng hồ với hệ số không bằng 1,0 không? Ví dụ: để chuyển đổi các giá trị từ Wh sang kWh, chúng sẽ phải nhân với 0,001.",
-  "newPhoto": "Chụp ảnh mới",
-  "existingPhoto": "Đính kèm ảnh hiện có",
-  "newPhotoOfMeterReading": "Bạn có muốn chụp ảnh chỉ số đồng hồ không?",
-  "existingPhotoOfMeterReading": "Bạn có muốn đính kèm một bức ảnh hiện có về chỉ số đồng hồ không?",
-  "numCounters": "{count, plural, =0 {Bộ đếm {count}} one {Bộ đếm {count}} other {Bộ đếm {count}}}",
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "numMeterReadings": "{readings, plural, one {# đọc} other {# bài đọc}}",
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "firstReadingYield": "Nhập sản lượng đầu tiên ngay bây giờ.",
-  "firstReadingConsumption": "Nhập mức tiêu thụ đầu tiên ngay bây giờ.",
-  "firstReadingCounter": "Nhập số đọc đầu tiên của bộ đếm.",
-  "consumptionHeatpump": "Ngoài ra, mức tiêu thụ điện năng của bơm nhiệt lên tới {formattedValue} kWh.",
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearly": "Mức tiêu thụ điện {ofRange} của bạn là {consumption} kWh trong năm.",
-  "@consumptionYearly": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "consumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedElectricityIntro": "Mức tiêu thụ điện của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng)",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedGasIntro": "Mức tiêu thụ khí đốt của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng)",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel0": "là siêu thấp.",
-  "consumptionYearlyDetailedLevel1": "thực sự là một cái gì đó đáng chú ý.",
-  "consumptionYearlyDetailedLevel3": "là tương đối cao.",
-  "consumptionYearlyDetailedLevel4": "là bình thường.",
-  "consumptionYearlyDetailedYouConsume": "Bạn tiêu thụ{verbSuffix}",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLessThan": "{percentage} ít hơn",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedMoreThan": "{percentage} hơn",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedAboutSame": "về giống như",
-  "consumptionYearlyDetailedAverageHousehold": "một hộ gia đình trung bình có {householdSize} {personLabel}",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedOptimalEnding": "Bạn đang làm việc đó như thế nào?",
-  "consumptionYearlyDetailedLevel1Suffix": "Thiếu {nextToOptimal} kWh/tháng để tiêu thụ tối ưu.",
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel2Suffix": "Thiếu {nextToOptimal} kWh/tháng để tiêu thụ tốt.",
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionPersonLabel": "{count, plural, one {người} other {mọi người}}",
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "consumptionWaterPrefixSingle": "Bạn tiêu thụ",
-  "consumptionWaterPrefixPerPerson": "Mỗi người, mọi người tiêu dùng",
-  "consumptionWaterDailyMonthly": "khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "String"
-      },
-      "monthlyCubicMeters": {
-        "type": "String"
-      },
-      "unitName": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterRangeUnknown": "Mức tiêu thụ nước của bạn {ofRange} ...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallLess": "Mức tiêu thụ nước {ofRange} của bạn thấp hơn {percentage} so với mức tiêu thụ nước trung bình của một hộ gia đình có {householdSize} {personLabel}.",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallEqual": "Mức tiêu thụ nước {ofRange} của bạn phù hợp với mức tiêu thụ nước của một hộ gia đình trung bình với {householdSize} {personLabel}.",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallMore": "Mức tiêu thụ nước {ofRange} của bạn cao hơn {percentage} so với mức tiêu thụ nước trung bình của một hộ gia đình có {householdSize} {personLabel}.",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdLess": "Nước lạnh: {percentage} ít hơn mức trung bình của một hộ gia đình.",
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdMore": "Nước lạnh: {percentage} nhiều hơn mức trung bình của một hộ gia đình.",
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdEqual": "Nước lạnh: tương đương với mức bình thường của một hộ gia đình.",
-  "consumptionWaterWarmLess": "Nước nóng: {percentage} ít hơn mức trung bình của một hộ gia đình.",
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmMore": "Nước nóng: {percentage} nhiều hơn mức trung bình của một hộ gia đình.",
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmEqual": "Nước nóng: tương đương với mức bình thường của một hộ gia đình.",
-  "yearlyConsumption": "Tiêu thụ hàng năm cho đến nay",
-  "yearlyCosts": "Chi phí tiêu thụ hàng năm cho đến nay",
-  "room": "Phòng",
-  "fedIn": "đưa vào",
-  "generated": "Đã tạo",
-  "residualGenerationEstimated": "Ước tính thế hệ dư",
-  "residualConsumptionEstimated": "Ước tính mức tiêu thụ còn lại",
-  "myObjects": "Đồ vật của tôi",
-  "roomLivingRoom": "Phòng khách",
-  "roomDiningRoom": "Phòng ăn",
-  "roomBedroom": "Phòng ngủ",
-  "roomBathroom": "Phòng tắm",
-  "roomWc": "nhà vệ sinh",
-  "roomChildrenRoom": "phòng trẻ em",
-  "roomKitchen": "Phòng bếp",
-  "roomStoreRoom": "Phòng kho",
-  "roomOffice": "Văn phòng",
-  "roomGarden": "Vườn",
-  "counter": "Quầy tính tiền",
-  "counterDirectionAscending": "tăng dần",
-  "counterDirectionDescending": "giảm dần",
-  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "counterWater": "Đồng hồ nước",
-  "counters": "Mét",
-  "changeCounterOrder": "Nếu cần, bạn có thể thay đổi thứ tự",
-  "newCounter": "Tạo một bộ đếm mới",
-  "updateObjectName": "Thay đổi tên đối tượng",
-  "enterObjectName": "Đặt tên cho đối tượng mới",
-  "explanationManageMoreThanOneObject": "Bạn có nhiều tài sản muốn quản lý? Sau đó đặt tên cho đối tượng hiện tại và sau đó tạo một đối tượng khác.",
-  "selectedAtAppStart": "Đối tượng trên cùng được chọn khi bắt đầu ứng dụng",
-  "reallyDeleteObject": "Bạn có chắc chắn muốn xóa đối tượng không?",
-  "confirmDeleteAtCloud": "Có nên xóa \"{objectTitle}\" khỏi Google Drive không?",
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "deleteObjectError": "Không thể xóa đối tượng này (Mã {errorCode}).",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "commonChangeSaved": "Đã lưu thay đổi",
-  "commonUpdateNow": "Cập nhật ngay bây giờ",
-  "commonLogout": "Đăng xuất",
-  "commonLogin": "Đăng nhập",
-  "commonLoggingIn": "Đang đăng nhập cho bạn...",
-  "commonLoggingOut": "Đang đăng xuất bạn...",
-  "commonNotAuthenticated": "Bạn chưa được xác thực.",
-  "commonUserLogin": "Đăng nhập người dùng",
-  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Bạn đang sử dụng tài khoản EHW+. Không thể lưu {notSubmitted} trong số {total} sản phẩm đã mua trên máy chủ EHW+. Chúng tôi hy vọng sẽ sớm khắc phục được sự cố.",
   "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
     "placeholders": {
       "notSubmitted": {
@@ -450,7 +15,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Một giao dịch mua đã được đồng bộ hóa qua tài khoản EHW+.} other {Các giao dịch mua {count} đã được đồng bộ hóa qua tài khoản EHW+.}}",
   "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
     "placeholders": {
       "count": {
@@ -459,7 +23,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Bạn đang sử dụng tài khoản EHW+. Nếu bạn mua sản phẩm trong tương lai, chúng sẽ được đồng bộ hóa trên tất cả các thiết bị của bạn.} one {Bạn đang sử dụng tài khoản EHW+. Sản phẩm mua {count} đã được lưu trên máy chủ EHW+.} other {Bạn đang sử dụng tài khoản EHW+. {count} sản phẩm đã mua đã được lưu trên máy chủ EHW+.}}",
   "@commonUserLoginDescriptionLoggedInSavedPurchases": {
     "placeholders": {
       "count": {
@@ -468,210 +31,224 @@
       }
     }
   },
-  "commonUserLoginDescriptionNotLoggedIn": "Bạn có đang sử dụng ứng dụng trên nhiều thiết bị không? Đăng nhập vào tài khoản EHW+ cho phép bạn đồng bộ hóa cài đặt và sản phẩm đã mua trên tất cả các thiết bị của mình.",
-  "accountUpdateInfo": "Mới: Tài khoản người dùng EHW+",
-  "accountThankYouForPurchase": "Cảm ơn! Bạn có muốn đảm bảo giao dịch mua hàng trong tài khoản người dùng EHW+ của mình ngay bây giờ không?",
-  "accountAbout": "Tài khoản người dùng EHW+ có thể làm gì?",
-  "accountBenefit1": "Nhận dạng mua hàng đáng tin cậy hơn",
-  "accountBenefit2": "Truy cập vào tất cả các tiện ích mở rộng đã mua trên nhiều thiết bị",
-  "accountFaqTitle": "Câu hỏi thường gặp:",
-  "accountFaqQ1": "Tài khoản người dùng EHW+ là gì?",
-  "accountFaqA1": "Tài khoản người dùng EHW+ cung cấp một phương pháp thay thế để khôi phục các giao dịch mua khi không thể khôi phục thông qua App Store, giúp tăng độ tin cậy. Ngoài ra, nó cho phép khôi phục giao dịch mua trên thiết bị mà giao dịch mua ban đầu không diễn ra. Trong tương lai, bạn cũng có thể lưu cài đặt và hơn thế nữa.",
-  "accountFaqQ2": "Tôi vẫn có quyền truy cập vào các giao dịch mua hàng của mình mà không cần có tài khoản người dùng EHW+ chứ?",
-  "accountFaqA2": "Có, giao dịch mua vẫn có thể được khôi phục trên thiết bị Android qua Play Store hoặc trên iPhone qua App Store. Tài khoản người dùng EHW+ cung cấp một phương pháp thay thế để khôi phục các giao dịch mua khi không thể khôi phục thông qua App Store, giúp tăng độ tin cậy. Ngoài ra, nó cho phép khôi phục giao dịch mua trên thiết bị mà giao dịch mua ban đầu không diễn ra.",
-  "accountButtonSetup": "Thiết lập tài khoản người dùng EHW+",
-  "cometSettingsIsPredictionsApiEnabled": "Sử dụng API dự báo COMET từ Viện Goethe",
-  "cometConsentScreenHeader": "Mới: Dự báo tiêu dùng tốt hơn",
-  "cometConsentScreenHowItWorksTitle": "Nó hoạt động như thế nào?",
-  "cometConsentScreenOnlineDescriptionTitle": "Với kết nối Internet:",
-  "cometConsentScreenOnlineDescription": "Dữ liệu tiêu dùng của bạn sẽ được gửi đến Đại học Goethe Frankfurt, nơi dự báo riêng lẻ sẽ được tạo và hiển thị trong ứng dụng.",
-  "cometConsentScreenOfflineDescriptionTitle": "Không có kết nối Internet:",
-  "cometConsentScreenOfflineDescription": "Dự báo địa phương đơn giản sẽ được tính toán trên thiết bị của bạn.",
-  "cometConsentScreenToggleLabel": "Sử dụng dịch vụ dự báo",
-  "cometConsentScreenDataCanBeUsedForTraining": "Dữ liệu có thể được sử dụng để tối ưu hóa dự đoán trong tương lai",
-  "cometConsentScreenFeedbackTitle": "Đại học Goethe cần phản hồi của bạn:",
-  "cometConsentScreenFeedbackDescription": "Việc sử dụng dự báo là miễn phí nhưng nhóm nghiên cứu cần phản hồi về mức độ hoạt động của dịch vụ.",
-  "cometConsentScreenFeedbackMethod": "Phản hồi được cung cấp tự động khi bạn sử dụng dịch vụ dự đoán và đồng ý tối ưu hóa.",
-  "cometConsentScreenDeclineButton": "Tôi không muốn đưa ra phản hồi",
-  "cometConsentScreenAcceptButton": "Tôi muốn đưa ra phản hồi",
-  "exportTabHowToExport": "Bạn muốn xuất dữ liệu như thế nào?",
-  "exportTabHowToExportOptionShare": "Chia sẻ với các ứng dụng khác",
-  "exportTabHowToExportOptionSaveToDownloads": "Lưu vào thư mục {folder}",
-  "exportTabSnackBarSaveResultMessageSuccess": "Dữ liệu đã được lưu thành công dưới dạng {fileName} trong thư mục {folder}",
-  "exportTabSnackBarSaveResultMessageError": "Đã xảy ra lỗi khi lưu dữ liệu",
-  "importTabErrorMessageFileWithExtensionNotSelected": "Cần có tệp {extension} để tiến hành nhập.",
-  "difference": "Sự khác biệt",
-  "period": "Giai đoạn",
-  "periodHourly": "hàng giờ",
-  "periodDaily": "hằng ngày",
-  "periodWeekly": "hàng tuần",
-  "periodBiweekly": "hai tuần một lần",
-  "periodMonthly": "hàng tháng",
-  "periodBimonthly": "hai tháng một lần",
-  "periodQuarterly": "hàng quý",
-  "periodHalfYearly": "nửa năm một lần",
-  "periodYearly": "hàng năm",
-  "meterCardLastUpdatedLabel": "Đã cập nhật",
-  "smartMeterServiceProvider": "Nhà cung cấp dịch vụ",
-  "smartMeterObtainDataAutomatically": "Lấy dữ liệu tự động",
-  "smartMeterErrorNoData": "Rất tiếc, không có dữ liệu nào mà ứng dụng có thể hiển thị.",
-  "smartMeterSettingsScreenSyncButton": "Đồng bộ dữ liệu tiêu thụ",
-  "smartMeterSettingsScreenSyncingDialogHeader": "Đang đồng bộ hóa",
-  "smartMeterSettingsScreenSyncingDialogProgress": "Tiến độ: {progressInPercent}%",
-  "smartMeterSettingsScreenSyncingDialogError": "Lỗi",
-  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Được rồi",
-  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Đã xảy ra lỗi sau trong quá trình đồng bộ hóa: {errorMessage}",
-  "smartMeterMisconfiguredWidgetCardTitle": "Vui lòng thiết lập đồng hồ thông minh của bạn một cách chính xác.",
-  "smartMeterMisconfiguredWidgetCardButton": "Thiết lập đồng hồ thông minh",
-  "smartMeterTabConsumptions": "Tiêu thụ",
-  "smartMeterTabProductions": "Sản phẩm",
-  "consumptionCacheManagementClearCacheButton": "Xóa bộ nhớ đệm",
-  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Xóa và đồng bộ hóa",
-  "consumptionCacheManagementConfirmClearCacheTitle": "Xóa bộ nhớ đệm?",
-  "consumptionCacheManagementConfirmClearCacheMessage": "Tất cả dữ liệu tiêu thụ được lưu trong bộ nhớ đệm sẽ bị xóa vĩnh viễn. Bạn có thể đồng bộ hóa nó sau.",
-  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Xóa bộ nhớ đệm và đồng bộ hóa?",
-  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Tất cả dữ liệu được lưu trong bộ nhớ cache sẽ bị xóa và tải xuống lại từ máy chủ. Điều này có thể mất một thời gian.",
-  "consumptionCacheManagementClearedSuccessfully": "Đã xóa bộ nhớ đệm thành công",
-  "tibberAccessToken": "Mã thông báo truy cập",
-  "tibberEnterAccessToken": "Vui lòng nhập mã thông báo truy cập",
-  "tibberMessageAccessTokenUpdated": "Đã cập nhật thành công mã thông báo truy cập",
-  "tibberErrorAccessTokenInvalid": "Có vẻ như mã thông báo truy cập không hợp lệ",
-  "tibberErrorNoHomes": "Không có ngôi nhà nào được liên kết với tài khoản này",
-  "tibberErrorSmartMeterMisconfigured": "Đồng hồ thông minh của bạn dường như bị định cấu hình sai.",
-  "tibberErrorConnectivityShowCacheInstead": "Không thể truy xuất dữ liệu tiêu thụ gần đây. Thay vào đó, hiển thị các giá trị được lưu trong bộ nhớ cache.",
-  "tibberErrorUndefined": "Đã xảy ra lỗi không mong muốn: {error}",
-  "tibberErrorRateLimit": "Đã vượt quá giới hạn tốc độ API Tibber. Vui lòng đợi ít nhất 5 phút trước khi thử lại.",
-  "tibberErrorNoSubscription": "Để có toàn quyền truy cập vào dữ liệu lịch sử thông qua API, bạn cần có hợp đồng điện Tibber đang hoạt động cho ngôi nhà đã chọn.",
-  "tibberBasicAuth": "Xác thực cơ bản",
-  "tibberBasicAuthUsername": "Tên người dùng",
-  "tibberBasicAuthPassword": "Mật khẩu",
-  "tibberBasicAuthEnterUsername": "Vui lòng nhập tên người dùng",
-  "tibberBasicAuthEnterPassword": "Vui lòng nhập mật khẩu",
-  "tibberConsumptionEntryTotalCost": "Tổng chi phí: {totalCost}",
-  "tibberConsumptionEntryTotalProfit": "Tổng lợi nhuận: {totalProfit}",
-  "tibberConsumptionEntryViewTimeSpanYear": "Năm {year}",
-  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Một năm bắt đầu từ {year}",
-  "tibberConsumptionEntryViewTimeSpanMonth": "Tháng {month}",
-  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Một tháng bắt đầu {month}",
-  "tibberConsumptionEntryViewTimeSpan24Hours": "24 giờ kể từ {startTime} trên {date}",
-  "tibberConsumptionEntryViewTimeSpanOneHour": "Một giờ từ {startTime} trên {date}",
-  "tibberConsumptionEntryViewTimeSpanDefault": "Từ: {startTime} đến {endDate}",
-  "tibberWhereIsMyAccessToken": "Tôi có thể tìm \"mã thông báo truy cập\" của mình ở đâu?",
-  "tibberActionSaveAuthorizationSettings": "Lưu cài đặt ủy quyền",
-  "tibberConsentScreenHeader": "Tính năng mới: Dữ liệu tiêu thụ từ Tibber Pulse",
-  "tibberConsentScreenDescription": "Bạn có phải là khách hàng của Tibber hoặc dự định trở thành một khách hàng không? Hiện tại chúng tôi hỗ trợ Pulse để cải thiện khả năng giám sát năng lượng. Xin lưu ý rằng rất tiếc dữ liệu lịch sử từ Pulse chỉ có sẵn cho những khách hàng có hợp đồng Tibber đang hoạt động.",
-  "tibberConsentScreenBenefit1Title": "Xem mức tiêu thụ điện của bạn",
-  "tibberConsentScreenBenefit1Description": "Theo dõi mức tiêu thụ của bạn trong thời gian thực và khám phá những kẻ tiêu thụ năng lượng tiềm ẩn.",
-  "tibberConsentScreenStoreLink": "Ghé thăm cửa hàng Tibber",
-  "tibberConsentScreenConfigureNowButton": "Thiết lập Tibber Pulse ngay bây giờ",
-  "tibberConsentScreenConfigureLaterButton": "Thiết lập sau",
-  "tibberConsentScreenGoetheStudySectionHeader": "Tham gia dự án nghiên cứu",
-  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Có, tôi muốn tham gia Nghiên cứu Goethe",
-  "tibberConsentScreenGoetheStudyBenefit1Title": "Bạn có muốn tham gia Nghiên cứu Goethe không?",
-  "tibberConsentScreenGoetheStudyBenefit1Description": "Mức tiêu thụ hàng giờ của bạn kể từ ngày 1 tháng 3 sẽ được ẩn danh và cung cấp cho nghiên cứu của Goethe.",
-  "tibberStatusWidgetTitle": "Quản lý bộ đệm",
-  "tibberStatusWidgetTibberSubscriptionStatus": "Trạng thái đăng ký Tibber",
-  "tibberSubscriptionStatusActive": "tích cực",
-  "tibberSubscriptionStatusInactive": "không hoạt động",
-  "tibberSubscriptionStatusLoading": "đang tải...",
-  "tibberLiveMeasurementCounterCardViewFooter": "Đo lường trực tiếp",
-  "tibberLiveMeasurementsWidgetNotSupported": "Các phép đo trực tiếp không được hỗ trợ cho ngôi nhà này.",
-  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Ngôi nhà này không hỗ trợ đo lường trực tiếp hoặc dữ liệu tiêu thụ lịch sử. Vui lòng chọn nhà khác.",
-  "tibberLiveMeasurementsWidgetConnecting": "Đang kết nối với Tibber Pulse...",
-  "tibberLiveMeasurementsWidgetError": "Đã xảy ra lỗi khi kết nối với Tibber Pulse. Vui lòng kiểm tra mã thông báo truy cập và kết nối internet của bạn.",
-  "tibberLiveMeasurementWidgetTitle": "Mức tiêu thụ/sản xuất hiện tại ở {time}",
-  "tibberLiveMeasurementWidgetTimestamp": "Dấu thời gian",
-  "tibberLiveMeasurementWidgetPower": "Quyền lực",
-  "tibberLiveMeasurementWidgetPowerProduction": "Sản xuất điện",
-  "tibberLiveMeasurementWidgetAveragePower": "Công suất trung bình",
-  "tibberLiveMeasurementWidgetMinPower": "Công suất tối thiểu",
-  "tibberLiveMeasurementWidgetMaxPower": "Công suất tối đa",
-  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Tổng mức tiêu thụ (kể từ nửa đêm)",
-  "tibberLiveMeasurementWidgetAccumulatedProduction": "Tổng sản lượng (kể từ nửa đêm)",
-  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Tiêu thụ (giờ trước)",
-  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Sản xuất (giờ trước)",
-  "tibberLiveMeasurementWidgetLastMeterConsumption": "Đọc đồng hồ (Tiêu thụ)",
-  "tibberLiveMeasurementWidgetLastMeterProduction": "Đọc đồng hồ (Sản xuất)",
-  "tibberLiveMeasurementWidgetAccumulatedCost": "Chi phí tích lũy",
-  "tibberLiveMeasurementWidgetAccumulatedReward": "Phần thưởng tích lũy",
-  "tibberLiveMeasurementWidgetPowerFactor": "Hệ số công suất",
-  "tibberLiveMeasurementWidgetVoltagePhase1": "Điện áp (Giai đoạn 1)",
-  "tibberLiveMeasurementWidgetVoltagePhase2": "Điện áp (Giai đoạn 2)",
-  "tibberLiveMeasurementWidgetVoltagePhase3": "Điện áp (Giai đoạn 3)",
-  "tibberLiveMeasurementWidgetCurrentL1": "Hiện tại (L1)",
-  "tibberLiveMeasurementWidgetCurrentL2": "Hiện tại (L2)",
-  "tibberLiveMeasurementWidgetCurrentL3": "Hiện tại (L3)",
-  "tibberLiveMeasurementWidgetUnitV": "V.",
-  "tibberLiveMeasurementWidgetUnitW": "W",
-  "tibberLiveMeasurementWidgetUnitA": "MỘT",
-  "tibberHomeSelectorHomeId": "ID nhà: {homeId}",
-  "tibberHomeSelectorLabel": "Trang chủ",
-  "scanQrCode": "Quét mã qr kích hoạt",
-  "requestAccess": "Yêu cầu quyền truy cập",
-  "createAccount": "Tạo tài khoản/đăng nhập",
-  "watersupplierYourSupplier": "Nhà cung cấp nước của bạn",
-  "watersupplierRadioMeterDefaultName": "Đồng hồ nước lạnh vô tuyến",
-  "watersupplierAccessRequestQ1": "Bạn có phải là chủ sở hữu của một bất động sản trong khu vực lưu vực của nhà máy nước và muốn có quyền truy cập vào số liệu của đồng hồ vô tuyến không?",
-  "watersupplierAccessRequestQ2": "Bạn đã yêu cầu quyền truy cập chưa? Tiếp theo, bạn cần tạo tài khoản người dùng EHW+.",
-  "watersupplierAccessRequestQ3": "Bạn đã yêu cầu quyền truy cập và nhận được mã QR của mình chưa?",
-  "watersupplierAccessRequestQ4": "Bạn có muốn nhận thông báo từ đồng hồ đo để bạn có thể phản ứng trong trường hợp vỡ đường ống hoặc xả bồn cầu chẳng hạn?",
-  "watersupplierOpenReminderSettings": "Mở cài đặt",
-  "watersupplierScanQrCodeTitle": "Kích hoạt đồng hồ đo sóng vô tuyến",
-  "watersupplierScanQrCodeCommand": "Quét mã QR bên trái (mã kích hoạt)!",
-  "watersupplierScanRevokeQrCodeCommand": "Quét đúng mã QR (thu hồi mã)!",
-  "watersupplierScanQrCodeValidation": "Đã phát hiện mã QR, hãy xác thực nó.",
-  "watersupplierScanQrCodeValidationFailed": "Xin lỗi, mã không hợp lệ. Bạn có muốn thử lại không?",
-  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Bạn đã quét mã thu hồi thay vì mã kích hoạt. Vui lòng thử lại!",
-  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Bạn đã quét mã kích hoạt thay vì mã thu hồi. Vui lòng thử lại!",
-  "watersupplierScanQrCodeScanSuccessful": "Wow, mã kích hoạt trông đẹp quá! Vui lòng nhập ba chữ số cuối của id đồng hồ của bạn!",
-  "watersupplierMeterIdValidationStep": "Chúng tôi đang kiểm tra id đồng hồ của bạn.",
-  "watersupplierCompleteMeterIdServerErrorTryAgain": "Rất tiếc, điều đó không hiệu quả. Đó là do máy chủ của chúng tôi. Tốt hơn hãy thử lại vào một ngày sau đó!",
-  "watersupplierCompleteMeterIdTryAgain": "Bạn sẽ không vượt qua! Vui lòng nhập lại ba chữ số cuối của id đồng hồ của bạn!",
-  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Lưu ý: ID đồng hồ ban đầu của bạn có thể có nhiều hơn 8 ký tự.",
-  "watersupplierScanQrCodeApprovalInProgress": "Chúng tôi hiện đang ủy quyền cho tài khoản của bạn để bạn có thể truy cập số liệu của đồng hồ vô tuyến trong tương lai.",
-  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Vâng! Đồng hồ đo nước vô tuyến loại \"Nước lạnh\" của bạn đã được thêm thành công. Bạn có thể tìm thấy nó trong số các mét khác.",
-  "watersupplierUnlinkRadioMeterTitle": "Chấm dứt quyền truy cập vào máy đo sóng vô tuyến",
-  "watersupplierUnlinkRadioMeterDescription1": "Bạn có muốn xóa đồng hồ đo sóng vô tuyến mà không làm mất hiệu lực mã kích hoạt không?",
-  "watersupplierUnlinkRadioMeterButtonDelete": "Xóa máy đo vô tuyến",
-  "watersupplierUnlinkRadioMeterDescription2": "Bạn không còn muốn truy cập vào dữ liệu máy đo sóng vô tuyến của mình nữa? Xin lưu ý: sau khi quét mã hủy, mã kích hoạt sẽ không hợp lệ. Bất kỳ tài khoản người dùng nào sử dụng mã kích hoạt sẽ mất quyền truy cập.",
-  "watersupplierUnlinkRadioMeterButtonRevoke": "Quét mã thu hồi",
-  "watersupplierScanQrCodeOffboardingSuccessful": "Quyền truy cập vào đồng hồ nước vô tuyến của bạn đã bị hủy.",
-  "watersupplierNoAccess": "Bạn không còn có quyền truy xuất dữ liệu nữa.",
-  "watersupplierNoAccessDetailedMessage": "Nếu bạn cho rằng mình vẫn có quyền truy cập, vui lòng quét lại mã kích hoạt. Nếu mã truy cập không còn hợp lệ, vui lòng gửi yêu cầu truy cập mới.",
-  "zipCode": "mã vùng",
-  "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số",
-  "zipCodeValidationLength": "Vui lòng nhập mã bưu chính {digits} chữ số",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
+  "@confirmDeleteAtCloud": {
     "placeholders": {
-      "digits": {
-        "example": "5",
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "@counterNum": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "houseName": "Tên nhà",
-  "houseNameDescription": "Tên nhà, ví dụ: tên đường",
-  "marketLocationId": "ID vị trí thị trường",
-  "marketLocationIdDescription": "ID vị trí thị trường luôn bao gồm 11 chữ số. Bạn thường có thể tìm thấy điều này trên hóa đơn điện hoặc gas cuối cùng của mình.",
-  "swimmingPool": "Bể bơi",
-  "smartmeterInfocodeBannerText": "Đồng hồ thông minh {smartmeterId} đã nhận được mã thông tin: {infocode}",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "smartmeterId": {
-        "type": "String"
-      },
-      "infocode": {
-        "type": "String"
-      }
-    }
-  },
-  "smartmeterInfocodeBannerTextInfocodeLeckage": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện dòng nước chảy liên tục. Điều này có thể chỉ ra sự rò rỉ. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình bạn xem có bị rò rỉ không. Nhà vệ sinh và vòi nước nhỏ giọt là nguyên nhân phổ biến.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện mức tiêu thụ nước cao bất thường, điều này có thể cho thấy đường ống bị vỡ. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình của bạn xem có rò rỉ hoặc hỏng hóc lớn không. Cảnh báo cũng có thể xuất hiện nếu bạn đã sử dụng một lượng lớn nước, ví dụ: để làm đầy một hồ bơi.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện thấy mức tiêu thụ nước cao bất thường, điều này có thể cho thấy đường ống bị vỡ hoặc bể bơi đã đầy. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình của bạn xem có rò rỉ hoặc hỏng hóc lớn không.",
-  "smartmeterInfocodeBannerTextInfocodeFrost": "Nhiệt độ của đồng hồ nước {smartmeterId} của bạn đã giảm xuống dưới 3°C. Có nguy cơ có sương giá! Cách nhiệt đồng hồ và đường ống hoặc làm nóng khu vực để tránh hư hỏng.",
-  "smartMeterCountersTitle": "Đồng hồ đo nước vô tuyến",
-  "counterOutdatedAndNextReminder": "Bộ đếm đã lỗi thời kể từ {date}, lời nhắc đọc tiếp theo {date2}.",
   "@counterOutdatedAndNextReminder": {
     "placeholders": {
       "date": {
@@ -682,7 +259,540 @@
       }
     }
   },
-  "waterMeterEventsInformation": "{count, plural, =1 {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong trường hợp như vậy.} other {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong những trường hợp như vậy.}}",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "@waterMeterEventsInformation": {
     "placeholders": {
       "count": {
@@ -695,1022 +805,912 @@
       }
     }
   },
-  "subscribeToSmartMeterInfocodeEvents": "Tôi muốn được thông báo về việc tiêu thụ bất ngờ",
-  "completeButton": "Hoàn thành",
-  "reset": "Cài lại",
-  "settingCounterTypeColor": "Màu sắc cho loại quầy này",
-  "settingCounterTypeColorDescription": "Nếu bạn không thích màu mặc định cho loại bộ đếm này, bạn có thể chỉ định màu khác.",
-  "settingCounterTypeColorAdvanced": "Công cụ chọn màu dành cho chuyên gia",
-  "featureVotingUnderConstruction": "Cuộc khảo sát tính năng hiện đang được sửa đổi. Trong tương lai, tài khoản người dùng EHW+ sẽ được yêu cầu và cuộc khảo sát sẽ không còn sử dụng máy chủ của bên thứ ba nữa. Chúng tôi đánh giá cao sự kiên nhẫn của bạn.",
-  "termsOfUsageTitle": "Điều khoản sử dụng chung cho việc sử dụng ứng dụng",
-  "termsOfUsageBlock1Title": "Điều khoản sử dụng chung cho việc sử dụng ứng dụng",
-  "termsOfUsageBlock1": "Quyền phản đối",
-  "@termsOfUsageBlock1": {
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
     "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2Title": "Thông tin chung về sử dụng",
-  "termsOfUsageBlock2": "Không được sử dụng ứng dụng và các chức năng của nó theo cách lạm dụng. Vui lòng chỉ sử dụng ứng dụng trong phạm vi được pháp luật cho phép và tuân theo các điều khoản sử dụng của chúng tôi. Trong trường hợp vi phạm luật hiện hành của Đức hoặc điều khoản sử dụng của chúng tôi, nhà cung cấp có quyền loại bạn khỏi việc sử dụng ứng dụng.",
-  "termsOfUsageBlock2a": "Dữ liệu sử dụng ẩn danh\nChúng tôi sử dụng phân tích của riêng mình để liên tục cải thiện ứng dụng.\nChỉ dữ liệu ẩn danh được truyền đi.\nDữ liệu không được chuyển cho bên thứ ba.\nĐể biết thêm thông tin, hãy đi tới Cài đặt > Bảo mật > {privacyBlock3Title}",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2b": "Báo cáo lỗi\nSentry (tự lưu trữ) được sử dụng để liên tục cải tiến ứng dụng.\nBáo cáo lỗi không được xử lý cũng như không chia sẻ với bên thứ ba.\nĐể biết thêm thông tin, hãy đi tới Cài đặt > Bảo mật > {privacyBlock3Title}",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2c": "Thông tin cá nhân\nNếu bạn sử dụng Google Drive Sync, EHW+ vẫn không có quyền truy cập vào dữ liệu bạn đã nhập. Để biết thêm thông tin, hãy đi tới Cài đặt > Quyền riêng tư > {privacyBlock3Title}.",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock3Title": "Trách nhiệm pháp lý",
-  "termsOfUsageBlock3": "Nhà cung cấp không đảm bảo tính khả dụng, độ tin cậy, chức năng hoặc sự phù hợp của ứng dụng cho mục đích của bạn. Trách nhiệm pháp lý được loại trừ trừ khi bắt buộc theo Đạo luật trách nhiệm pháp lý về sản phẩm, do cố ý, sơ suất nghiêm trọng, thương tích đến tính mạng, tay chân hoặc sức khỏe, giả định đảm bảo về chất lượng, che giấu sai sót một cách gian lận hoặc vi phạm các nghĩa vụ hợp đồng thiết yếu. Nghĩa vụ hợp đồng thiết yếu là những nghĩa vụ mà việc thực hiện là cần thiết để thực hiện đúng hợp đồng và các bên tham gia hợp đồng có thể thường xuyên dựa vào sự tuân thủ của chúng. Việc bồi thường thiệt hại do vi phạm các nghĩa vụ hợp đồng thiết yếu được giới hạn ở mức thiệt hại có thể thấy trước điển hình của loại hợp đồng này, trừ khi có cố ý hoặc sơ suất nghiêm trọng.",
-  "termsOfUsageBlock4Title": "Trách nhiệm của người dùng",
-  "termsOfUsageBlock4": "Nhà cung cấp không đảm bảo tính chính xác của kết quả tính toán. Người dùng phải cập nhật giá được lưu trong ứng dụng (giá cơ sở, giá tiêu thụ, v.v.) một cách cẩn thận và tự chịu trách nhiệm để đảm bảo rằng hóa đơn được tạo tương ứng với số tiền thực tế phải trả.",
-  "privacyBlock1Title": "Nhà phát triển",
-  "privacyBlock1Text": "Nhà phát triển/nhà cung cấp ứng dụng (sau đây gọi là “ứng dụng”) tuân theo Mục 5 của Đạo luật Telemedia của Đức (TMG):\n\n{contact}",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock1Text2": "Việc sử dụng ứng dụng yêu cầu bạn phải đồng ý với các điều khoản sử dụng sau. Xin vui lòng đọc chúng một cách cẩn thận.",
-  "privacyBlock2Title": "Tổng quan",
-  "privacyBlock2Text": "Việc bảo vệ dữ liệu của bạn là rất quan trọng đối với chúng tôi. Chính sách quyền riêng tư này giải thích dữ liệu cá nhân nào EHW+ thu thập và cách sử dụng dữ liệu đó. Những thay đổi cơ bản đối với chính sách quyền riêng tư rất hiếm nhưng đôi khi có thể được sửa đổi do các tính năng, công nghệ mới hoặc yêu cầu pháp lý. Vì vậy thỉnh thoảng hãy kiểm tra trang này để cập nhật nhé. Nếu chúng tôi thực hiện bất kỳ thay đổi quan trọng nào, chúng tôi sẽ thông báo cho bạn và nếu cần thiết sẽ nhận được sự đồng ý của bạn.",
-  "privacyBlock3Title": "{appNameShort} thu thập dữ liệu gì?",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3aText": "Chúng tôi đã tạo {appNameShort} để bạn có thể nhập chỉ số đồng hồ của mình một cách nhanh chóng và dễ dàng, sau đó sử dụng số liệu thống kê để tìm hiểu thêm về mức tiêu thụ, chi phí và khả năng tiết kiệm của bạn. Điều này có nghĩa là bạn có thể nhập, tính toán hoặc lưu bất kỳ dữ liệu nào mà chúng tôi thường gọi là ‘nội dung’ trong {appNameShort}. Dữ liệu này chỉ được lưu trữ trên điện thoại di động của bạn.\n\nĐồng bộ hóa với Google Drive.\nNếu bạn bật đồng bộ hóa với Google Drive, nội dung cũng sẽ được tự động sao lưu vào thư mục có tên ‘{appNameShort}’ trên Google Drive mà chỉ bạn mới có thể truy cập. Bằng cách đăng nhập bằng Google, địa chỉ email của bạn sẽ hiển thị với nhà phát triển.",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "googleApiAgreement": "Việc {appNameShort} sử dụng và chuyển thông tin nhận được từ API Google sang bất kỳ ứng dụng nào khác sẽ tuân thủ Chính sách dữ liệu người dùng Dịch vụ API của Google, bao gồm cả các yêu cầu về Sử dụng có giới hạn.",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3bText": "{googleApiAgreement}\n\nDữ liệu vị trí.\nĐể hiểu hành vi của người dùng và cho các tính năng trong tương lai, ứng dụng sẽ truyền dữ liệu sử dụng ẩn danh.\nDữ liệu không được chia sẻ với bên thứ ba.\nThông tin có thể được thu thập về nguồn gốc (quốc gia và thành phố), ngôn ngữ, hệ điều hành, loại thiết bị, độ phân giải, hành vi nhấp chuột và thời lượng sử dụng.\n\nDữ liệu thiết bị.\nChúng tôi thu thập dữ liệu về số lượng và loại thiết bị bạn sử dụng để kết nối với dịch vụ cũng như thông tin về hệ điều hành trên các thiết bị đó (ví dụ: Android, iOS, Windows hoặc macOS).\n\nBằng cách sử dụng ứng dụng, bạn đồng ý với việc thu thập dữ liệu ẩn danh như mô tả ở trên.",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyContractPriceSubmission": "Khi bạn, với tư cách là người dùng, duy trì dữ liệu hợp đồng của mình, giá mỗi đơn vị cho hợp đồng điện, nước và khí đốt sẽ được truyền đến máy chủ EHW+ ở Đức cùng với quốc gia và tiểu bang liên bang. Dữ liệu này được sử dụng để tính toán thống kê giá. Đối với người dùng ứng dụng, số liệu thống kê được hiển thị dưới dạng so sánh giá trong chế độ xem hợp đồng.\n\nBằng cách sử dụng ứng dụng, bạn đồng ý với việc thu thập dữ liệu ẩn danh nói trên.",
-  "privacyBlock4DataUsageTitle": "{appNameShort} sử dụng dữ liệu của tôi như thế nào?",
-  "privacyBlock4DataUsage": "Dữ liệu ẩn danh được thu thập được sử dụng để đánh giá hành vi của người dùng. Ngoài ra, không có việc sử dụng dữ liệu nào nữa.\n\n{syncDriveDataUsage}",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock5Title": "Thời lượng lưu trữ dữ liệu cá nhân",
-  "privacyBlock5": "Thời lượng lưu trữ dữ liệu cá nhân được xác định theo thời gian lưu giữ theo luật định tương ứng (ví dụ: thời gian lưu giữ theo luật thương mại và thuế). Sau khi hết thời hạn, dữ liệu tương ứng sẽ bị xóa thường xuyên, với điều kiện là dữ liệu đó không còn cần thiết cho việc thực hiện hoặc bắt đầu hợp đồng và/hoặc chúng tôi không còn có lợi ích hợp pháp trong việc tiếp tục lưu trữ dữ liệu đó.",
-  "youtubeConsent1": "Chúng tôi cần sự đồng ý của bạn để hiển thị nội dung Youtube được nhúng. Bạn có thể hiển thị nội dung này (và do đó cũng như tất cả nội dung Youtube khác trong ứng dụng) chỉ bằng một cú nhấp chuột và cũng có thể tắt nó một lần nữa.",
-  "youtubeConsent2": "Luôn hiển thị nội dung Youtube",
-  "youtubeConsent3": "Tôi đồng ý với nội dung bên ngoài được hiển thị cho tôi. Điều này có thể dẫn đến việc dữ liệu cá nhân được truyền sang nền tảng của bên thứ ba. Thông tin thêm về điều này trong của chúng tôi",
-  "privacyBlock6Title": "Liên hệ",
-  "privacyBlock6": "Khi bạn liên hệ với chúng tôi (ví dụ: qua biểu mẫu liên hệ hoặc email), dữ liệu cá nhân sẽ được thu thập. Dữ liệu được thu thập trong trường hợp biểu mẫu liên hệ có thể được nhìn thấy trên biểu mẫu liên hệ tương ứng. Dữ liệu này được lưu trữ và sử dụng riêng cho mục đích trả lời câu hỏi của bạn hoặc để thiết lập liên hệ và quản lý kỹ thuật liên quan. Cơ sở pháp lý cho việc xử lý dữ liệu là mong muốn chính đáng của chúng tôi trong việc đáp ứng yêu cầu của bạn theo Nghệ thuật. 6 đoạn. 1 lít. f GDPR. Nếu liên hệ của bạn nhằm mục đích ký kết hợp đồng, cơ sở pháp lý bổ sung để xử lý là Điều. 6 đoạn. 1 lít. b GDPR. Dữ liệu của bạn sẽ bị xóa sau khi yêu cầu của bạn được xử lý, đó là trường hợp có thể suy ra từ các trường hợp mà vấn đề được đề cập cuối cùng đã được làm rõ và miễn là không có nghĩa vụ pháp lý nào để lưu giữ dữ liệu.",
-  "privacyBlock7Title": "Quyền của người liên quan",
-  "privacyBlock7": "Luật bảo vệ dữ liệu hiện hành cấp cho bạn các quyền toàn diện với tư cách là chủ thể dữ liệu (quyền thông tin và can thiệp) đối với bên kiểm soát liên quan đến việc xử lý dữ liệu cá nhân của bạn mà chúng tôi sẽ thông báo cho bạn bên dưới:\n\n- Quyền được thông tin theo Nghệ thuật. 15 GDPR: Đặc biệt, bạn có quyền lấy thông tin về dữ liệu cá nhân của bạn do chúng tôi xử lý, mục đích xử lý, danh mục dữ liệu cá nhân được xử lý, người nhận hoặc danh mục người nhận mà dữ liệu của bạn đã hoặc sẽ được tiết lộ, thời gian lưu trữ theo kế hoạch hoặc tiêu chí để xác định thời gian lưu trữ, sự tồn tại của quyền cải chính, xóa, hạn chế xử lý, phản đối xử lý, khiếu nại với cơ quan giám sát, nguồn gốc dữ liệu của bạn nếu dữ liệu đó không được chúng tôi thu thập từ bạn, sự tồn tại của dữ liệu tự động ra quyết định, bao gồm lập hồ sơ và, nếu có, thông tin có ý nghĩa về logic liên quan cũng như tầm quan trọng và hậu quả dự kiến của việc xử lý đó đối với bạn, cũng như quyền của bạn được thông báo về các đảm bảo tồn tại theo Nghệ thuật. 46 GDPR khi dữ liệu của bạn được chuyển sang nước thứ ba;\n\n- Quyền cải chính theo Nghệ thuật. 16 GDPR: Bạn có quyền chỉnh sửa ngay lập tức dữ liệu không chính xác liên quan đến bạn và/hoặc hoàn thiện dữ liệu chưa đầy đủ do chúng tôi lưu trữ.\n\n- Quyền xóa theo Nghệ thuật. 17 GDPR: Bạn có quyền yêu cầu xóa dữ liệu cá nhân của mình nếu các điều kiện của Nghệ thuật. 17(1) GDPR được đáp ứng. Tuy nhiên, quyền này không áp dụng cụ thể nếu việc xử lý là cần thiết để thực hiện quyền tự do ngôn luận và thông tin, để tuân thủ nghĩa vụ pháp lý, vì lý do lợi ích công cộng hoặc để thiết lập, thực hiện hoặc bảo vệ các khiếu nại pháp lý.\n\n- Quyền hạn chế xử lý theo Nghệ thuật. 18 GDPR: Bạn có quyền yêu cầu hạn chế xử lý dữ liệu cá nhân của mình trong thời gian tính chính xác của dữ liệu đó đang được xác minh nếu bạn phản đối việc xóa dữ liệu của mình với lý do xử lý dữ liệu không được chấp nhận và thay vào đó, hãy yêu cầu hạn chế xử lý dữ liệu của bạn nếu bạn cần dữ liệu của mình để xác nhận, thực hiện hoặc bảo vệ các khiếu nại pháp lý sau khi chúng tôi không còn cần dữ liệu này để thực hiện mục đích thu thập dữ liệu đó hoặc nếu bạn đã gửi phản đối vì những lý do liên quan đến tình huống cụ thể của bạn, miễn là vẫn chưa rõ liệu lý do chính đáng của chúng tôi có thắng thế hay không;\n\n- Quyền được thông báo theo Nghệ thuật. 19 GDPR: Nếu bạn đã thực hiện quyền cải chính, xóa hoặc hạn chế xử lý đối với bên kiểm soát, thì bên kiểm soát có nghĩa vụ thông báo cho tất cả người nhận mà dữ liệu cá nhân của bạn đã được tiết lộ về việc chỉnh sửa hoặc xóa dữ liệu hoặc hạn chế xử lý này, trừ khi điều này được chứng minh là không thể hoặc đòi hỏi nỗ lực không tương xứng. Bạn có quyền được thông báo về những người nhận này.\n\n- Quyền di chuyển dữ liệu theo Nghệ thuật. 20 GDPR: Bạn có quyền nhận dữ liệu cá nhân mà bạn đã cung cấp cho chúng tôi ở định dạng có cấu trúc, được sử dụng phổ biến và có thể đọc được bằng máy hoặc yêu cầu chuyển dữ liệu đó sang bộ điều khiển khác, nếu khả thi về mặt kỹ thuật.\n\n- Quyền rút lại sự đồng ý theo quy định của Nghệ thuật. 7(3) GDPR: Bạn có quyền rút lại sự đồng ý của mình đối với việc xử lý dữ liệu bất cứ lúc nào với hiệu lực trong tương lai. Trong trường hợp rút tiền, chúng tôi sẽ xóa dữ liệu liên quan ngay lập tức, trừ khi việc xử lý tiếp theo có thể dựa trên cơ sở pháp lý để xử lý mà không có sự đồng ý. Việc rút lại sự đồng ý không ảnh hưởng đến tính hợp pháp của việc xử lý dựa trên sự đồng ý trước khi rút lại.\n\n- Quyền khiếu nại theo quy định tại Điều. 77 GDPR: Nếu bạn cho rằng việc xử lý dữ liệu cá nhân của mình vi phạm GDPR, bạn có quyền khiếu nại với cơ quan giám sát, đặc biệt là tại Quốc gia thành viên nơi bạn cư trú, nơi bạn làm việc hoặc nơi bị cáo buộc vi phạm mà không ảnh hưởng đến bất kỳ biện pháp xử lý hành chính hoặc tư pháp nào khác.",
-  "privacyBlock8Title": "Quyền phản đối",
-  "privacyBlock8": "NẾU CHÚNG TÔI XỬ LÝ DỮ LIỆU CÁ NHÂN CỦA BẠN TRÊN CƠ SỞ LỢI ÍCH HỢP PHÁP LỚN NHẤT CỦA CHÚNG TÔI NHƯ MỘT PHẦN CÂN BẰNG LỢI ÍCH, BẠN CÓ QUYỀN PHẢN ĐỐI QUY TRÌNH NÀY BẤT CỨ LÚC NÀO VÌ CÁC LÝ DO PHÁT SINH TỪ TÌNH HUỐNG CỤ THỂ CỦA BẠN, CÓ HIỆU LỰC CHO TƯƠNG LAI. NẾU BẠN THỰC HIỆN QUYỀN ĐỐI TƯỢNG CỦA MÌNH, CHÚNG TÔI SẼ NGỪNG XỬ LÝ DỮ LIỆU LIÊN QUAN. TUY NHIÊN, QUY TRÌNH XỬ LÝ TIẾP THEO VẪN ĐƯỢC BẢO QUẢN NẾU CHÚNG TÔI CÓ THỂ CHỨNG MINH CÁC CƠ SỞ HỢP PHÁP HẤP DẪN CHO QUY TRÌNH XỬ LÝ NÀY ƯU ĐÃI LỢI ÍCH, quyền cơ bản và quyền tự do của bạn hoặc nếu quá trình xử lý nhằm mục đích khẳng định, thực hiện hoặc bảo vệ các khiếu nại pháp lý.\n\nNẾU CHÚNG TÔI XỬ LÝ DỮ LIỆU CÁ NHÂN CỦA BẠN CHO MỤC ĐÍCH TIẾP THỊ TRỰC TIẾP, BẠN CÓ QUYỀN ĐỐI TƯỢNG BẤT CỨ LÚC NÀO ĐỐI VỚI VIỆC XỬ LÝ DỮ LIỆU CÁ NHÂN LIÊN QUAN ĐẾN BẠN CHO MỤC ĐÍCH QUẢNG CÁO ĐÓ. BẠN CÓ THỂ THỰC HIỆN QUYỀN ĐỐI TƯỢNG CỦA MÌNH NHƯ ĐƯỢC MÔ TẢ Ở TRÊN.\n\nNẾU BẠN THỰC HIỆN QUYỀN ĐỐI TƯỢNG CỦA MÌNH, CHÚNG TÔI SẼ NGỪNG XỬ LÝ DỮ LIỆU LIÊN QUAN ĐẾN BẠN CHO MỤC ĐÍCH TIẾP THỊ TRỰC TIẾP.",
-  "activityTitle": "Hoạt động",
-  "activitiesTitle": "Hoạt động của tôi",
-  "activitiesDescription": "Liên kết chỉ số đồng hồ với các hoạt động, ví dụ: rửa bằng đồng hồ nước lạnh và đồng hồ điện.",
-  "sortActivities": "Sửa đổi thứ tự hoạt động",
-  "resetActivities": "Đặt lại tất cả hoạt động",
-  "addActivity": "Thêm hoạt động",
-  "activitySettings": "Cài đặt hoạt động",
-  "activityOverview": "Tổng quan về hoạt động",
-  "activityNameLabel": "Tên hoạt động",
-  "chooseActivity": "Chọn hoạt động",
-  "selectedActivity": "Hoạt động đã chọn \"${activityName}\"",
-  "chooseActivityIcon": "Chọn một biểu tượng",
-  "involvedCounters": "Quầy liên quan",
-  "detailsTitle": "Chi tiết",
-  "detailWithMultiSelect": "Cho phép chọn nhiều",
-  "addDetail": "Thêm chi tiết",
-  "editDetailTitle": "Chỉnh sửa chi tiết",
-  "activityWithEnergyConsumption": "Mức tiêu thụ điện năng chỉ được đo cho hoạt động",
-  "consumptionIsNotExclusiveTitle": "Tiêu dùng có độc quyền không?",
-  "consumptionIsNotExclusive": "Nếu mức tiêu thụ không dành riêng cho hoạt động này, nó sẽ được hiển thị dưới dạng cảnh báo.",
-  "numberOfDetails": "{count, plural, one {1 chi tiết} other {Chi tiết {count}}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
+      "digits": {
+        "example": "5",
         "type": "int"
       }
     }
   },
-  "reallyDeleteActivity": "Thực sự xóa hoạt động này?",
-  "reallyDeleteDetail": "Thực sự xóa chi tiết này?",
-  "reallyDeleteContract": "Thực sự xóa hợp đồng này?",
-  "contractCopyDialogTitle": "Bạn có muốn sao chép hợp đồng này không?",
-  "contractCopyDialogOptionYes": "Có, đơn giá hoặc giá trị khác đã thay đổi.",
-  "contractCopyDialogOptionNo": "Không, hủy bỏ.",
-  "contractCopyDialogWhen": "Giá mới áp dụng từ khi nào?",
-  "contractCosts": "Đơn giá",
-  "contractCostsFeedIn": "Giá thù lao/giá cơ sở",
-  "counterWarmWaterPlusColdWater": "Chưa bao gồm chi phí nước ngọt và nước thải",
-  "advancePayment": "Thanh toán tạm ứng",
-  "bonus": "Thưởng",
-  "bonusInfoTitle": "Thông tin về mức thưởng",
-  "bonusInfoText": "Biểu giá có thưởng thường cho phép tiết kiệm đặc biệt cao khi thay đổi nhà cung cấp. Tuy nhiên, điều này thường chỉ là kết quả của tiền thưởng một lần. Điều đó có nghĩa là: Tổng chi phí chỉ ở mức thấp trong năm đầu tiên cung cấp. Công việc cao và/hoặc giá cơ bản mang lại tính toán cao hơn rõ ràng trong năm thứ hai. Vì vậy, với mức thưởng, bạn nên lên kế hoạch thay đổi ngay từ đầu sau một năm. Các mức thuế thưởng có thời hạn hai năm, trong trường hợp việc hủy bỏ này hoàn toàn không thể thực hiện được, cần được đặt câu hỏi đặc biệt nghiêm túc.",
-  "source": "Nguồn:",
-  "basePrice": "Giá cơ bản",
-  "gross": "tổng",
-  "net": "mạng lưới",
-  "grossNetPrices": "Giá gộp hoặc giá ròng",
-  "taxRate": "Thuế suất",
-  "perUnit": "mỗi {unit}",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "wasteWaterPriceEnabled": "Chi phí nước ngọt và nước thải được thể hiện riêng (có liên quan đến đồng hồ khấu trừ)",
-  "pricePerUnit": "Giá mỗi đơn vị",
-  "pricePerUnitFeedIn": "Giá thù lao",
-  "pricePerUnitWaterWarm": "Chi phí sưởi ấm nước nóng",
-  "pricePerUnitWaterCold": "Chi phí nước lạnh",
-  "pricePerUnitFreshWater": "Chi phí nước ngọt",
-  "pricePerUnitWasteWater": "Giá nước thải",
-  "paidAdvancePayments": "Thanh toán tạm ứng",
-  "supplementaryPayment": "Thanh toán bổ sung",
-  "refund": "Đền bù",
-  "costs": "Chi phí",
-  "contract": "Hợp đồng",
-  "contractDetails": "Thời hạn hợp đồng và chi tiết",
-  "usedForPaymentsRepayments": "Thanh toán trước, giá cơ bản và tiền thưởng",
-  "contractName": "Tên nhà cung cấp/hợp đồng",
-  "contractNumber": "Số hợp đồng",
-  "contractStart": "Ngày bắt đầu hợp đồng",
-  "contractPeriod": "Thời hạn hợp đồng",
-  "cancellationPeriod": "Thời gian hủy",
+  "accountAbout": "Tài khoản người dùng EHW+ có thể làm gì?",
+  "accountBenefit1": "Nhận dạng mua hàng đáng tin cậy hơn",
+  "accountBenefit2": "Truy cập vào tất cả các tiện ích mở rộng đã mua trên nhiều thiết bị",
+  "accountButtonSetup": "Thiết lập tài khoản người dùng EHW+",
+  "accountFaqA1": "Tài khoản người dùng EHW+ cung cấp một phương pháp thay thế để khôi phục các giao dịch mua khi không thể khôi phục thông qua App Store, giúp tăng độ tin cậy. Ngoài ra, nó cho phép khôi phục giao dịch mua trên thiết bị mà giao dịch mua ban đầu không diễn ra. Trong tương lai, bạn cũng có thể lưu cài đặt và hơn thế nữa.",
+  "accountFaqA2": "Có, giao dịch mua vẫn có thể được khôi phục trên thiết bị Android qua Play Store hoặc trên iPhone qua App Store. Tài khoản người dùng EHW+ cung cấp một phương pháp thay thế để khôi phục các giao dịch mua khi không thể khôi phục thông qua App Store, giúp tăng độ tin cậy. Ngoài ra, nó cho phép khôi phục giao dịch mua trên thiết bị mà giao dịch mua ban đầu không diễn ra.",
+  "accountFaqQ1": "Tài khoản người dùng EHW+ là gì?",
+  "accountFaqQ2": "Tôi vẫn có quyền truy cập vào các giao dịch mua hàng của mình mà không cần có tài khoản người dùng EHW+ chứ?",
+  "accountFaqTitle": "Câu hỏi thường gặp:",
+  "accountThankYouForPurchase": "Cảm ơn! Bạn có muốn đảm bảo giao dịch mua hàng trong tài khoản người dùng EHW+ của mình ngay bây giờ không?",
+  "accountUpdateInfo": "Mới: Tài khoản người dùng EHW+",
+  "activitiesDescription": "Liên kết chỉ số đồng hồ với các hoạt động, ví dụ: rửa bằng đồng hồ nước lạnh và đồng hồ điện.",
+  "activitiesTitle": "Hoạt động của tôi",
+  "activityBath": "Bồn tắm",
+  "activityDishWasher": "Máy rửa chén",
+  "activityIron": "Ủi",
+  "activityNameLabel": "Tên hoạt động",
+  "activityOverview": "Tổng quan về hoạt động",
+  "activitySettings": "Cài đặt hoạt động",
+  "activityShower": "Vòi sen",
+  "activityTitle": "Hoạt động",
   "activityWash": "giặt",
-  "activityWashTemperature": "Nhiệt độ",
   "activityWashDuration": "Khoảng thời gian",
   "activityWashDuration2hrs": "2 giờ",
   "activityWashRotations": "Phép quay",
   "activityWashShort": "Chương trình ngắn",
-  "activityShower": "Vòi sen",
-  "activityBath": "Bồn tắm",
-  "activityDishWasher": "Máy rửa chén",
-  "activityIron": "Ủi",
-  "errorNoInternet": "Không có mạng",
-  "errorInvalidRange": "Không có phạm vi hợp lệ",
-  "syncDriveLoggedIn": "Dữ liệu của bạn được tự động đồng bộ hóa trên nhiều thiết bị. Tài khoản Google sau được sử dụng:",
-  "syncDriveLoggedInNoAuto": "Dữ liệu của bạn sẽ tự động được tải lên Google Drive sau khi thay đổi. Dữ liệu mới hơn từ đám mây chỉ ghi đè dữ liệu cục bộ khi bạn nhấp vào đối tượng. Tài khoản Google sau được sử dụng:",
-  "syncDriveDataUsage": "Nếu bạn cấp cho EHW+ quyền truy cập vào Google Drive, ứng dụng sẽ có quyền truy cập đọc và ghi vào các tệp do chính ứng dụng đó tạo. Rất tiếc, các tệp do người khác tạo thông qua ứng dụng này không hiển thị với ứng dụng, điều đó có nghĩa là không thể chia sẻ dữ liệu giữa nhiều tài khoản qua Google Drive.",
-  "syncAutomaticTitle": "Dữ liệu cục bộ có thể bị ghi đè",
-  "syncShareWithOthersTitle": "Chia sẻ với người khác?",
-  "syncShareWithOthersSubtitle": "Nếu bạn muốn nhập chỉ số đồng hồ cùng với những người dùng Google khác, EHW+ phải được cấp toàn quyền truy cập vào Google Drive.",
-  "syncShareWithOthersNotInWeb": "Việc cấp quyền truy cập hiện chỉ có thể thực hiện được thông qua ứng dụng.",
-  "syncWithGoogleDriveDescription": "Vì sẽ thật đáng tiếc nếu số liệu trên đồng hồ bị mất, hãy đồng bộ hóa đối tượng của bạn với Google Drive ngay bây giờ!",
-  "driveSyncStatusTitle": "Trạng thái đồng bộ hóa",
-  "driveSyncStatusNotSynced": "Không được đồng bộ hóa",
-  "driveSyncStatusFailed": "Không thể đồng bộ hóa",
-  "driveSyncStatusComparing": "So sánh với tập tin trên máy chủ",
-  "driveSyncStatusSyncing": "Đang đồng bộ hóa",
-  "driveSyncStatusLocalHasLatestNoCloud": "Tệp được lưu trên thiết bị này từ {localDate} không được lưu trong đám mây",
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusLocalHasLatestWithCloud": "Tệp được lưu trên thiết bị này từ {localDate} cập nhật hơn tệp trên đám mây từ {cloudDate}",
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      },
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestNoLocal": "Tệp trên đám mây từ {cloudDate} không được lưu trên thiết bị này",
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestWithLocal": "Tệp trên đám mây từ {cloudDate} được cập nhật nhiều hơn tệp cục bộ từ {localDate}",
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusUpToDate": "Cập nhật từ {localDate}",
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncWithGoogle": "Đồng bộ hóa Google Drive",
-  "driveSyncNow": "Đồng bộ hóa ngay bây giờ",
-  "driveSignInWithGoogle": "Đăng nhập bằng Google",
-  "signInWithGoogle": "Đăng nhập bằng Google",
-  "signInWithApple": "Đăng nhập bằng Apple",
-  "signInWithGithub": "Đăng nhập bằng GitHub",
-  "signInWithSocialAccount": "Bạn muốn sử dụng tài khoản xã hội nào để tạo hoặc đăng nhập vào tài khoản EHW+ của mình?",
-  "syncStatusFailedLong": "Không thể đồng bộ hóa, bạn tự chịu rủi ro khi chỉnh sửa",
-  "syncStatusFailedLongNoAutoSync": "Không thể đồng bộ hóa, bạn tự chịu rủi ro khi chỉnh sửa",
-  "syncStatusSyncRemoteHasLatest": "Tệp trên đám mây cập nhật hơn tệp cục bộ",
-  "syncObjectIsLocked": "Dữ liệu đối tượng đang được cập nhật và không thể chỉnh sửa trong thời gian này.",
-  "importExport": "Sao lưu/Khôi phục",
-  "import": "Nhập khẩu",
-  "importPickFile": "Chọn tập tin",
-  "importSelectSingleCounter": "Bộ đếm đơn (tệp CSV)",
-  "importSelectJson": "Tệp JSON (được tạo bằng {appName})",
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "importWhichCounterForCsv": "Nên sử dụng bộ đếm nào?",
-  "importNewOrExistingCounter": "Thêm vào bộ đếm mới hoặc hiện có?",
-  "importConfirm": "Xác nhận nhập",
-  "importTheObject": "Nhập đối tượng",
-  "importExplanation": "Bạn đã thực hiện các bài đọc truy cập và muốn chèn chúng?",
-  "importCounterAsCsv": "Bạn có muốn nhập một mét không? Được hỗ trợ trên mỗi mét là một tệp CSV có hai cột, một cột cho thời gian và một cột cho chỉ số đồng hồ.\n\nDữ liệu ví dụ:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
-  "importSuccessful": "Nhập thành công",
-  "importNotPossible": "Không thể nhập khẩu",
-  "importErrorCsvIgnoredLines": "{count, plural, one {Một dòng đã bị bỏ qua: {lines}} other {Các dòng {count} đã bị bỏ qua: {lines}}}",
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "importErrorCsvIgnoredColumns": "{columns, plural, one {Chỉ có hai cột đầu tiên được sử dụng. Cột thứ ba đã bị bỏ qua.} other {Chỉ có hai cột đầu tiên được sử dụng, cột {columns} bị bỏ qua.}}",
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "consentTitle": "Cài đặt quyền riêng tư",
-  "privacyTitle": "Chính sách bảo mật",
-  "imprintTitle": "dấu ấn",
-  "faqTitle": "Câu hỏi thường gặp",
-  "socialFacebook": "Facebook",
-  "socialInstagram": "Instagram",
-  "socialTwitter": "X",
-  "export": "Xuất khẩu",
-  "exportExplanation": "Bạn muốn xuất đối tượng hiện có nào, chẳng hạn như để chuyển nó sang thiết bị mới?",
-  "exportWhere": "Đối tượng nên được xuất ở định dạng nào?",
-  "exportWhichValuesShouldBeExported": "Những giá trị nào sẽ được xuất?",
-  "exportOptionExcel": "tập tin excel",
-  "exportOptionPdf": "tập tin PDF",
-  "exportOptionFileDescription": "Đối tượng được chia sẻ dưới dạng tệp {fileType}",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "socialLinkedIn": "LinkedIn",
-  "socialYouTube": "YouTube",
-  "socialEmail": "E-mail",
-  "social": "Truyền thông xã hội",
-  "support": "Hỗ trợ/Phản hồi",
-  "supportQuestion": "Đặt một câu hỏi",
-  "supportQuestionBox": "Tôi có thể giúp gì cho bạn?",
-  "supportQuestionNotFound": "Câu hỏi của bạn chưa được trả lời? Tôi rất sẵn lòng giúp đỡ.",
-  "supportQuestionLong": "Nó hoạt động như thế nào? Liệu nó có thể thực hiện được không? Dưới đây là câu trả lời.",
-  "supportReportBug": "Báo cáo lỗi qua thư",
-  "supportReportBugTextIs": "Vui lòng mô tả ngắn gọn hành vi không chính xác hiện tại, tức là chính lỗi đó.",
-  "supportReportBugTextShould": "Vui lòng mô tả ngắn gọn hành vi mong muốn, tức là nó thực sự phải như thế nào.",
-  "supportReportBugAffectedPages": "Lỗi xảy ra ở trang nào? (nếu có)",
-  "supportReportBugScreenshotsPlease": "Vui lòng đính kèm ảnh chụp màn hình qua thư, tốt nhất là có đánh dấu lỗi.",
-  "supportBug": "Sâu bọ",
-  "supportReportBugLong": "Ứng dụng tuyệt vời! Nhưng chắc chắn, mọi thứ có thể đi sai hướng. Nếu bạn báo cáo lỗi, bạn sẽ làm cho ứng dụng tốt hơn.",
-  "supportGivePraise": "Khen ngợi",
-  "supportGivePraiseLong": "Bạn có thích ứng dụng này không? Cảm ơn! Truyền bá!",
-  "supportGivePraiseRecommendation": "Giới thiệu ứng dụng cho bạn bè và gia đình. Cảm ơn bạn cho bất kỳ đề nghị!",
-  "supportRecommend": "Tôi sử dụng ứng dụng đọc đồng hồ EHW+ để theo dõi mức tiêu thụ năng lượng của mình và các chi phí liên quan. Có lẽ đó cũng là điều dành cho bạn?\n\nThông tin thêm tại https://www.ehwplus.com",
-  "supportGivePraiseRating": "Đánh giá ứng dụng trong {store}.",
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "electricityConsumption": "Tiêu thụ điện năng",
-  "waterExtractionMinimumLevelLower": "Việc khấu trừ diễn ra vì mức tiêu thụ thấp hơn ngưỡng.",
-  "outdatedCounters": "Bộ đếm không còn được sử dụng",
-  "isOutdatedCounter": "Bộ đếm không còn được sử dụng",
-  "waterConsumption": "Tiêu thụ nước",
-  "rooms": "Phòng",
-  "messageNoRooms": "Chưa có phòng. Phòng giúp nhóm mét.",
-  "settingObjectType": "Loại đối tượng",
-  "settingObjectTypeFlat": "Căn hộ",
-  "settingObjectTypeHouse": "Căn nhà",
-  "settingLivingArea": "Khu sinh hoạt",
-  "unitSquareMeters": "mét vuông",
-  "unitMWhShort": "MWh",
-  "unitMWhLong": "{count, plural, one {Megawatt giờ (MWh)} other {Megawatt giờ (MWh)}}",
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitKWhShort": "kWh",
-  "unitKWhLong": "{count, plural, one {Kilowatt giờ (kWh)} other {Kilowatt giờ (kWh)}}",
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitGJShort": "GJ",
-  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitLitersShort": "ℓ",
-  "unitLitersLong": "{count, plural, one {Lít (ℓ)} other {Lít (ℓ)}}",
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCmShort": "cmt",
-  "unitCmLong": "cmt",
-  "unitSquareMetersShort": "mét vuông",
-  "unitSquareMetersLong": "{count, plural, one {Mét vuông (m2)} other {Mét vuông (m2)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCubicMetersShort": "m³",
-  "unitCubicMetersLong": "{count, plural, one {Mét khối (m³)} other {Mét khối (m³)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitPercentShort": "%",
-  "unitPercentLong": "Phần trăm (%)",
-  "unitKgShort": "kg",
-  "unitKgLong": "{count, plural, one {Kilôgam (kg)} other {Kilôgam (kg)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitHoursShort": "h",
-  "unitHoursLong": "{count, plural, one {Giờ} other {Giờ (h)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitNoneFormatted": "{count, plural, one {đơn vị} other {đơn vị}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitMegaByteShort": "MB",
-  "unitMegaByteLong": "MB",
-  "unitGigaByteShort": "GB",
-  "unitGigaByteLong": "GB",
-  "settingHouseholdSize": "Quy mô hộ gia đình",
-  "settingHouseholdSizeDescription": "Số người trong gia đình bạn.",
-  "settingWaterHeater": "Máy nước nóng",
-  "settingEAuto": "Xe điện",
-  "settingObjectLocation": "Vị trí",
-  "settingObjectLocationTitle": "Đối tượng của bạn nằm ở đâu?",
-  "settingObjectLocationExplanation": "Việc nhập vị trí sẽ giúp điều chỉnh thông tin chi tiết và dịch vụ phù hợp với khu vực của bạn.",
-  "counterBackgroundImageOfObject": "Ảnh nền cho đối tượng",
-  "manageMoreThanOneObjectStep1": "Quản lý nhiều đối tượng - Bước 1",
-  "manageMoreThanOneObjectStep2": "Quản lý nhiều đối tượng - Bước 2",
-  "contracts": "Hợp đồng",
-  "messageNoContracts": "Chưa có hợp đồng nào.",
-  "outdatedContracts": "Hợp đồng lỗi thời",
-  "contractType": "Loại hợp đồng",
-  "electricity": "Điện",
-  "electricityBack": "Điện đưa vào",
-  "electricityGenerated": "Điện được tạo ra",
-  "heatPump": "Bơm nhiệt",
+  "activityWashTemperature": "Nhiệt độ",
+  "activityWithEnergyConsumption": "Mức tiêu thụ điện năng chỉ được đo cho hoạt động",
+  "addActivity": "Thêm hoạt động",
+  "addDetail": "Thêm chi tiết",
+  "addNewValue": "Nhập giá trị mới",
+  "advancePayment": "Thanh toán tạm ứng",
+  "appBarExpandedMode": "Thanh ứng dụng có hình nền",
+  "appDescriptionLong": "<p>Chào mừng bạn đến với <b>EHW+</b>, ứng dụng đọc đồng hồ của bạn cho <b>E</b>lectricity, <b>H</b>eating và <b>W</b>ater. Với chúng tôi, bạn có thể dễ dàng theo dõi<b> <b>0bạn sử dụng bao nhiêu và bao nhiêu<b>1<b>2chi phí<b>3 miễn phí.<b>4",
+  "appDescriptionShort": "Tốt cho ví tiền, tốt cho khí hậu",
+  "appName": "EHW+ | Tiêu thụ và chỉ số đồng hồ",
+  "appNameShort": "EHW+",
+  "areYouSure": "Bạn có chắc không?",
+  "basePrice": "Giá cơ bản",
+  "bonus": "Thưởng",
+  "bonusInfoText": "Biểu giá có thưởng thường cho phép tiết kiệm đặc biệt cao khi thay đổi nhà cung cấp. Tuy nhiên, điều này thường chỉ là kết quả của tiền thưởng một lần. Điều đó có nghĩa là: Tổng chi phí chỉ ở mức thấp trong năm đầu tiên cung cấp. Công việc cao và/hoặc giá cơ bản mang lại tính toán cao hơn rõ ràng trong năm thứ hai. Vì vậy, với mức thưởng, bạn nên lên kế hoạch thay đổi ngay từ đầu sau một năm. Các mức thuế thưởng có thời hạn hai năm, trong trường hợp việc hủy bỏ này hoàn toàn không thể thực hiện được, cần được đặt câu hỏi đặc biệt nghiêm túc.",
+  "bonusInfoTitle": "Thông tin về mức thưởng",
+  "cancellationPeriod": "Thời gian hủy",
+  "changeCounterOrder": "Nếu cần, bạn có thể thay đổi thứ tự",
+  "chartDottedLinesNonSeasonal": "Các đường cong nét đứt thể hiện giai đoạn trước. Ví dụ: đối với lựa chọn \"14 ngày qua\", 28 ngày cuối cùng xuất hiện, trong đó 14 ngày cũ hơn được hiển thị nét đứt.",
+  "chartDottedLinesSeasonal": "Các đường cong nét đứt thể hiện giai đoạn trước. Ví dụ: đối với lựa chọn \"14 ngày qua\", 28 ngày cuối cùng xuất hiện, trong đó 14 ngày cũ hơn được hiển thị nét đứt.",
+  "chartHorizontalLineElectricityGas": "Đường màu xanh lá cây tượng trưng cho mức tiêu dùng rất tốt, đường màu vàng tượng trưng cho mức tiêu dùng tốt, đường màu đỏ tượng trưng cho mức tiêu dùng trung bình của người Đức.",
+  "chartHorizontalLineWater": "Trung bình mỗi người ở Đức sử dụng 127 lít nước uống trong gia đình mỗi ngày. Đường màu xanh tượng trưng cho nước lạnh (60%), đường màu đỏ là nước nóng (40%), ngoại suy theo số ngày trong kỳ và số lượng người.",
+  "chartHorizontalLines": "Các đường đứt nét nhằm mục đích cung cấp phản hồi về mức tiêu thụ của chính bạn.",
+  "chooseActivity": "Chọn hoạt động",
+  "chooseActivityIcon": "Chọn một biểu tượng",
   "coldWater": "Nước lạnh",
-  "counterHeater": "Đồng hồ tản nhiệt",
-  "counterDistrictHeating": "Hệ thống sưởi huyện",
-  "counterOilHeating": "Sưởi dầu",
-  "counterGas": "Đồng hồ đo gas",
+  "cometConsentScreenAcceptButton": "Tôi muốn đưa ra phản hồi",
+  "cometConsentScreenDataCanBeUsedForTraining": "Dữ liệu có thể được sử dụng để tối ưu hóa dự đoán trong tương lai",
+  "cometConsentScreenDeclineButton": "Tôi không muốn đưa ra phản hồi",
+  "cometConsentScreenFeedbackDescription": "Việc sử dụng dự báo là miễn phí nhưng nhóm nghiên cứu cần phản hồi về mức độ hoạt động của dịch vụ.",
+  "cometConsentScreenFeedbackMethod": "Phản hồi được cung cấp tự động khi bạn sử dụng dịch vụ dự đoán và đồng ý tối ưu hóa.",
+  "cometConsentScreenFeedbackTitle": "Đại học Goethe cần phản hồi của bạn:",
+  "cometConsentScreenHeader": "Mới: Dự báo tiêu dùng tốt hơn",
+  "cometConsentScreenHowItWorksTitle": "Nó hoạt động như thế nào?",
+  "cometConsentScreenOfflineDescription": "Dự báo địa phương đơn giản sẽ được tính toán trên thiết bị của bạn.",
+  "cometConsentScreenOfflineDescriptionTitle": "Không có kết nối Internet:",
+  "cometConsentScreenOnlineDescription": "Dữ liệu tiêu dùng của bạn sẽ được gửi đến Đại học Goethe Frankfurt, nơi dự báo riêng lẻ sẽ được tạo và hiển thị trong ứng dụng.",
+  "cometConsentScreenOnlineDescriptionTitle": "Với kết nối Internet:",
+  "cometConsentScreenToggleLabel": "Sử dụng dịch vụ dự báo",
+  "cometSettingsIsPredictionsApiEnabled": "Sử dụng API dự báo COMET từ Viện Goethe",
+  "comment": "Bote",
+  "commonAnd": "Và",
+  "commonBack": "Mặt sau",
+  "commonCancel": "Hủy bỏ",
+  "commonChange": "Thay đổi",
+  "commonChangeSaved": "Đã lưu thay đổi",
+  "commonClose": "Đóng",
+  "commonCollapse": "Sụp đổ",
+  "commonContinue": "Tiếp tục",
+  "commonCopiedToClipboard": "Đã sao chép vào bảng nhớ tạm",
+  "commonDay": "ngày",
+  "commonDelete": "Xóa bỏ",
+  "commonLearnMore": "Tìm hiểu thêm",
+  "commonLoadingData": "Đang tải dữ liệu",
+  "commonLoggingIn": "Đang đăng nhập cho bạn...",
+  "commonLoggingOut": "Đang đăng xuất bạn...",
+  "commonLogin": "Đăng nhập",
+  "commonLogout": "Đăng xuất",
+  "commonMaximum": "Giá trị hàng ngày cao nhất",
+  "commonMinimum": "Giá trị hàng ngày thấp nhất",
+  "commonMonth": "tháng",
+  "commonMore": "Hơn",
+  "commonNo": "KHÔNG",
+  "commonNotAuthenticated": "Bạn chưa được xác thực.",
+  "commonOk": "ĐƯỢC RỒI",
+  "commonOpen": "Mở",
+  "commonSave": "Cứu",
+  "commonSend": "Nộp",
+  "commonShare": "Chia sẻ",
+  "commonUpdateNow": "Cập nhật ngay bây giờ",
+  "commonUserLogin": "Đăng nhập người dùng",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Bạn đang sử dụng tài khoản EHW+. Không thể lưu {notSubmitted} trong số {total} sản phẩm đã mua trên máy chủ EHW+. Chúng tôi hy vọng sẽ sớm khắc phục được sự cố.",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Một giao dịch mua đã được đồng bộ hóa qua tài khoản EHW+.} other {Các giao dịch mua {count} đã được đồng bộ hóa qua tài khoản EHW+.}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Bạn đang sử dụng tài khoản EHW+. Nếu bạn mua sản phẩm trong tương lai, chúng sẽ được đồng bộ hóa trên tất cả các thiết bị của bạn.} one {Bạn đang sử dụng tài khoản EHW+. Sản phẩm mua {count} đã được lưu trên máy chủ EHW+.} other {Bạn đang sử dụng tài khoản EHW+. {count} sản phẩm đã mua đã được lưu trên máy chủ EHW+.}}",
+  "commonUserLoginDescriptionNotLoggedIn": "Bạn có đang sử dụng ứng dụng trên nhiều thiết bị không? Đăng nhập vào tài khoản EHW+ cho phép bạn đồng bộ hóa cài đặt và sản phẩm đã mua trên tất cả các thiết bị của mình.",
+  "commonYear": "năm",
+  "commonYes": "Đúng",
+  "completeButton": "Hoàn thành",
+  "confirmDeleteAtCloud": "Có nên xóa \"{objectTitle}\" khỏi Google Drive không?",
+  "consent11AnalyticsTitle": "Dữ liệu phân tích",
+  "consent12Analytics": "Để đánh giá sự thành công của ứng dụng hoặc các chức năng riêng lẻ, ứng dụng sẽ truyền số liệu thống kê sử dụng ẩn danh. Dữ liệu không được truyền cho bên thứ ba. Dữ liệu được sử dụng để phát triển hơn nữa của ứng dụng.",
+  "consent13StromGedacht": "StromGedacht, một dịch vụ do TransnetBW cung cấp, cung cấp thông tin về độ ổn định của lưới điện và các khuyến nghị về thời điểm nên ưu tiên sử dụng điện. Khi quá trình chuyển đổi năng lượng ngày càng trở nên khó khăn hơn đối với lưới điện truyền tải, các hộ gia đình ở Tây Nam nước Đức đang tham gia. Để nhận thông tin về vị trí của bạn, mã bưu chính của bạn, nếu được nhập vào đây trong ứng dụng, sẽ được truyền tới API TransnetBW StromGedacht. Không có dữ liệu nào khác được truyền đi hoặc liên kết.",
+  "consent13StromGedachtTitle": "Thông báo ổn định lưới điện từ StromGedacht",
+  "consent1Hello": "Xin chào",
+  "consent2ThankYou": "Cảm ơn bạn đã sử dụng EHW+!",
+  "consent3Video": "Bạn có muốn xem một đoạn video giới thiệu ngắn không?",
+  "consent4BeforeYouCanContinue": "Trước khi bạn có thể tiếp tục",
+  "consent5ErrorReportingTitle": "Báo cáo lỗi",
+  "consent6ContractPricesPerUnitTitle": "Giá điện/nước/gas",
+  "consent7ContractPricesPerUnit": "Để có thể ước tính số tiền bạn hiện đang trả so với những người dùng EHW+ khác, giá sẽ được chuyển đến máy chủ EHW+ ở Đức cùng với quốc gia và tiểu bang. Chỉ khi bạn đồng ý chuyển khoản, bạn mới có quyền truy cập vào số liệu thống kê về giá. Để đảm bảo tính ẩn danh, số liệu thống kê chỉ có thể được hiển thị sau một số lượng giá được truyền tối thiểu.",
+  "consentTitle": "Cài đặt quyền riêng tư",
+  "consumption": "Sự tiêu thụ",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Xóa và đồng bộ hóa",
+  "consumptionCacheManagementClearCacheButton": "Xóa bộ nhớ đệm",
+  "consumptionCacheManagementClearedSuccessfully": "Đã xóa bộ nhớ đệm thành công",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Tất cả dữ liệu được lưu trong bộ nhớ cache sẽ bị xóa và tải xuống lại từ máy chủ. Điều này có thể mất một thời gian.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Xóa bộ nhớ đệm và đồng bộ hóa?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Tất cả dữ liệu tiêu thụ được lưu trong bộ nhớ đệm sẽ bị xóa vĩnh viễn. Bạn có thể đồng bộ hóa nó sau.",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Xóa bộ nhớ đệm?",
+  "consumptionHeatmap": "Bản đồ nhiệt tiêu thụ",
+  "consumptionHeatmapYield": "Bản đồ nhiệt năng suất",
+  "consumptionHeatpump": "Ngoài ra, mức tiêu thụ điện năng của bơm nhiệt lên tới {formattedValue} kWh.",
+  "consumptionIsNotExclusive": "Nếu mức tiêu thụ không dành riêng cho hoạt động này, nó sẽ được hiển thị dưới dạng cảnh báo.",
+  "consumptionIsNotExclusiveTitle": "Tiêu dùng có độc quyền không?",
+  "consumptionPersonLabel": "{count, plural, one {người} other {mọi người}}",
+  "consumptionWaterColdEqual": "Nước lạnh: tương đương với mức bình thường của một hộ gia đình.",
+  "consumptionWaterColdLess": "Nước lạnh: {percentage} ít hơn mức trung bình của một hộ gia đình.",
+  "consumptionWaterColdMore": "Nước lạnh: {percentage} nhiều hơn mức trung bình của một hộ gia đình.",
+  "consumptionWaterDailyMonthly": "khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
+  "consumptionWaterDailyMonthlyPerPerson": "Mỗi người, mọi người tiêu dùng khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
+  "consumptionWaterDailyMonthlySingle": "Bạn tiêu thụ khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
+  "consumptionWaterOverallEqual": "Mức tiêu thụ nước {ofRange} của bạn phù hợp với mức tiêu thụ nước của một hộ gia đình trung bình với {householdSize} {personLabel}.",
+  "consumptionWaterOverallLess": "Mức tiêu thụ nước {ofRange} của bạn thấp hơn {percentage} so với mức tiêu thụ nước trung bình của một hộ gia đình có {householdSize} {personLabel}.",
+  "consumptionWaterOverallMore": "Mức tiêu thụ nước {ofRange} của bạn cao hơn {percentage} so với mức tiêu thụ nước trung bình của một hộ gia đình có {householdSize} {personLabel}.",
+  "consumptionWaterPrefixPerPerson": "Mỗi người, mọi người tiêu dùng",
+  "consumptionWaterPrefixSingle": "Bạn tiêu thụ",
+  "consumptionWaterRangeUnknown": "Mức tiêu thụ nước của bạn {ofRange} ...",
+  "consumptionWaterWarmEqual": "Nước nóng: tương đương với mức bình thường của một hộ gia đình.",
+  "consumptionWaterWarmLess": "Nước nóng: {percentage} ít hơn mức trung bình của một hộ gia đình.",
+  "consumptionWaterWarmMore": "Nước nóng: {percentage} nhiều hơn mức trung bình của một hộ gia đình.",
+  "consumptionYearly": "Mức tiêu thụ điện {ofRange} của bạn là {consumption} kWh trong năm.",
+  "consumptionYearlyDetailedAboutSame": "về giống như",
+  "consumptionYearlyDetailedAverageHousehold": "một hộ gia đình trung bình có {householdSize} {personLabel}",
+  "consumptionYearlyDetailedComparisonEqual": "Bạn tiêu thụ{verbSuffix} về giống như một hộ gia đình trung bình có {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonLess": "Bạn tiêu thụ{verbSuffix} {percentage} ít hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Bạn tiêu thụ{verbSuffix} {percentage} hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedElectricity": "Mức tiêu thụ điện của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
+  "consumptionYearlyDetailedElectricityIntro": "Mức tiêu thụ điện của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng)",
+  "consumptionYearlyDetailedGas": "Mức tiêu thụ khí đốt của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
+  "consumptionYearlyDetailedGasIntro": "Mức tiêu thụ khí đốt của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng)",
+  "consumptionYearlyDetailedLessThan": "{percentage} ít hơn",
+  "consumptionYearlyDetailedLevel0": "là siêu thấp.",
+  "consumptionYearlyDetailedLevel1": "thực sự là một cái gì đó đáng chú ý.",
+  "consumptionYearlyDetailedLevel1Suffix": "Thiếu {nextToOptimal} kWh/tháng để tiêu thụ tối ưu.",
+  "consumptionYearlyDetailedLevel2": "là bình thường.",
+  "consumptionYearlyDetailedLevel2Suffix": "Thiếu {nextToOptimal} kWh/tháng để tiêu thụ tốt.",
+  "consumptionYearlyDetailedLevel3": "là tương đối cao.",
+  "consumptionYearlyDetailedLevel4": "là bình thường.",
+  "consumptionYearlyDetailedMoreThan": "{percentage} hơn",
+  "consumptionYearlyDetailedOptimalEnding": "Bạn đang làm việc đó như thế nào?",
+  "consumptionYearlyDetailedYouConsume": "Bạn tiêu thụ{verbSuffix}",
+  "consumptionYield": "Năng suất",
+  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nLiên hệ\n\nĐiện thoại: 06204/7383382\nThư: info@ewplus.com",
+  "contactTitle": "Đại diện bởi:",
+  "continueAcceptPart1": "Bằng việc sử dụng ứng dụng EHW+, bạn đồng ý với",
+  "continueAcceptPart2": ". Để biết thêm thông tin về việc thu thập và sử dụng dữ liệu cá nhân và ẩn danh, vui lòng tham khảo",
+  "contract": "Hợp đồng",
+  "contractCopyDialogOptionNo": "Không, hủy bỏ.",
+  "contractCopyDialogOptionYes": "Có, đơn giá hoặc giá trị khác đã thay đổi.",
+  "contractCopyDialogTitle": "Bạn có muốn sao chép hợp đồng này không?",
+  "contractCopyDialogWhen": "Giá mới áp dụng từ khi nào?",
+  "contractCosts": "Đơn giá",
+  "contractCostsFeedIn": "Giá thù lao/giá cơ sở",
+  "contractDetails": "Thời hạn hợp đồng và chi tiết",
+  "contractName": "Tên nhà cung cấp/hợp đồng",
+  "contractNumber": "Số hợp đồng",
+  "contractPeriod": "Thời hạn hợp đồng",
+  "contractReminder": "Nhắc nhở hợp đồng",
+  "contractStart": "Ngày bắt đầu hợp đồng",
+  "contractType": "Loại hợp đồng",
+  "contractTypeElectricityProvider": "Nhà cung cấp điện",
+  "contractTypeGasProvider": "Nhà cung cấp gas",
+  "contractTypeHeatingFees": "Phí sưởi ấm",
+  "contractTypeNetwork": "Internet và điện thoại",
+  "contractTypeOilProvider": "Nhà cung cấp dầu",
+  "contractTypeStove": "Cái lò",
+  "contractTypeWaterFees": "Phí nước",
+  "contracts": "Hợp đồng",
+  "corresponds": "tương ứng",
+  "costSummary": "Tóm tắt chi phí",
+  "costSummaryYield": "Giá thù lao/-giá cơ sở",
+  "costs": "Chi phí",
+  "costsUndefinedColdWater": "Phí nước lạnh",
+  "costsUndefinedElectricity": "Tiền điện",
+  "costsUndefinedFor": "Chi phí không xác định",
+  "costsUndefinedForType": "{type} cho không xác định",
+  "costsUndefinedGas": "Phí gas",
+  "costsUndefinedHeater": "Phí sưởi ấm",
+  "costsUndefinedNetworkCounter": "Phí Internet",
+  "costsUndefinedOilHeating": "Phí dầu",
+  "costsUndefinedWarmWater": "Phí nước ấm",
+  "counter": "Quầy tính tiền",
+  "counterBackgroundImage": "Hình nền cho quầy",
+  "counterBackgroundImageOfObject": "Ảnh nền cho đối tượng",
   "counterColdWater": "Đồng hồ nước lạnh",
-  "counterWaterExtraction": "Đồng hồ chiết nước (vườn)",
-  "counterWaterExtractionExplanation": "Với đồng hồ khấu trừ, chi phí nước thải có thể giảm. Với giao dịch mua trong ứng dụng này, bạn có thể chỉ định các chi phí khác nhau cho nước ngọt và nước thải và chỉ số đồng hồ từ đồng hồ khấu trừ sẽ được tính vào chi phí nước.",
-  "warmWater": "Nước ấm",
-  "counterWarmWater": "Đồng hồ nước ấm",
+  "counterConsiderForTotalConsumptions": "Xem xét tổng mức tiêu thụ",
+  "counterConsiderForTotalElectricity": "Xem xét tổng lượng điện tiêu thụ",
+  "counterConsiderForTotalWater": "Xem xét tổng lượng nước tiêu thụ",
+  "counterContractCurrentlyUsed": "Hợp đồng đang sử dụng",
+  "counterDeleteConfirm": "Xóa bộ đếm?",
+  "counterDirection": "Phương hướng",
+  "counterDirectionAscending": "tăng dần",
+  "counterDirectionDescending": "giảm dần",
+  "counterDirectionExplanation": "Giá trị có giảm khi sử dụng (chỉ báo mức, v.v.) hay giá trị tăng khi sử dụng (số giờ đốt, đồng hồ đo dầu, v.v.) hay mỗi giá trị đọc độc lập (mức tiêu thụ/năng suất)?",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "counterDistrictHeating": "Hệ thống sưởi huyện",
+  "counterEdit": "Chỉnh sửa bộ đếm",
   "counterElectricity": "Đồng hồ đo điện",
   "counterElectricityBack": "Đồng hồ cấp điện (PV)",
   "counterElectricityGenerated": "Máy đo phát điện",
-  "counterPvFeedInCounter": "Năng lượng tái tạo (năng lượng mặt trời và nhiệt với hệ thống PV/năng lượng mặt trời)",
-  "counterPvFeedInCounterExplanation": "Sử dụng đồng hồ đo điện năng để ghi lại lượng điện năng được tạo ra và cung cấp vào\nvới hệ thống quang điện. Doanh thu thu được sẽ được bù đắp vào chi phí của\nđiện được rút ra.",
-  "virtualCounter": "Máy đo ảo",
-  "heater": "Bộ tản nhiệt",
-  "gas": "Khí đốt",
-  "oil": "Dầu",
-  "stove": "Cái lò",
-  "networkCounter": "Internet và điện thoại",
-  "solarThermalCollector": "Bộ thu nhiệt mặt trời",
-  "contractTypeElectricityProvider": "Nhà cung cấp điện",
-  "contractTypeWaterFees": "Phí nước",
-  "contractTypeHeatingFees": "Phí sưởi ấm",
-  "contractTypeOilProvider": "Nhà cung cấp dầu",
-  "contractTypeGasProvider": "Nhà cung cấp gas",
-  "contractTypeStove": "Cái lò",
-  "contractTypeNetwork": "Internet và điện thoại",
-  "currency": "Tiền tệ",
-  "costsUndefinedFor": "Chi phí không xác định",
-  "exportOptionReadingsTitle": "Đọc giá trị",
-  "exportOptionReadingsSubtitle": "Thông thường số đọc hoặc mức tiêu thụ của đồng hồ đo có khoảng thời gian không đều.",
-  "exportOptionConsumptionsTitle": "Tiêu thụ hàng ngày",
-  "exportOptionConsumptionsSubtitle": "Giá trị tiêu thụ mỗi ngày kể từ lần đọc đầu tiên.",
-  "settings": "Cài đặt",
-  "roomOther": "Khác",
-  "previouslyDeletedCounters": "Đồng hồ đo đã xóa gần đây",
-  "restoreDeletedCounter": "Bạn có muốn khôi phục đồng hồ đã xóa này không?",
-  "localWriteTitle": "Lưu vào thư mục tải xuống cục bộ",
-  "localWriteSubtitle": "Các đối tượng và ảnh có nên được lưu vào thư mục \"{folder}\" cục bộ sau mỗi lần thay đổi không?",
-  "settingUiMode": "Giao diện người dùng",
-  "settingUiColorPalette": "Bảng màu",
-  "settingUiModeDarkOrLight": "Giao diện người dùng tối/sáng",
-  "settingLanguageMode": "Ngôn ngữ",
-  "settingUiModeOsDefault": "Hệ thống",
-  "settingUiModeLight": "Ánh sáng",
-  "settingUiModeDark": "Tối tăm",
-  "appBarExpandedMode": "Thanh ứng dụng có hình nền",
-  "useDismissibleSettings": "Xóa bằng cử chỉ vuốt",
-  "useDismissibleSettingsDetailed": "Bộ đếm, hợp đồng, v.v. có thể bị xóa bằng chuyển động vuốt sang bên",
-  "settingsExternalServices": "Dịch vụ bên ngoài",
-  "settingsShowTabNewsDetailed": "Tab Tin tức/Mẹo có nên hiển thị không?",
-  "settingsShowStromGedacht": "Có nên hiển thị các lời khuyên từ StromGedacht về lưới điện không?",
-  "lineChartAppearanceSettings": "Xuất hiện biểu đồ đường",
-  "lineChartAppearanceSettingsShowSpots": "Hiển thị các điểm (tròn) trên các đường của biểu đồ",
-  "supportMakeSuggestion": "Đề xuất điều gì đó",
-  "supportMakeSuggestionLong": "Ứng dụng này tồn tại nhờ đề xuất của người dùng. Bạn có gợi ý gì không?",
-  "featureVoting": "Bỏ phiếu tính năng",
-  "featureVotingOnlyOnGerman": "Khảo sát tính năng không được dịch sang các ngôn ngữ khác.",
-  "notifications": "Thông báo",
-  "notificationsEmpty": "Không có thông báo",
-  "notificationsSmartMeterAlertFallback": "Bạn có cảnh báo đồng hồ thông minh mới.",
-  "readingNew": "Đọc mới",
-  "readingUpdate": "Cập nhật cách đọc",
-  "readingPrefill": "Tự động điền đồng hồ đọc",
-  "readingPrefillDisabled": "Tự động điền bị vô hiệu hóa",
-  "readingPrefillEnableForAllCounters": "Bật tự động điền cho tất cả các quầy",
-  "readingPrefillDisableForAllCounters": "Tắt tính năng tự động điền cho tất cả các quầy",
-  "readingPrefillDescription": "Chỉ số đồng hồ điền trước dựa trên các mục trước đó",
-  "readingPrefillDisabledToast": "Tự động điền bị vô hiệu hóa",
-  "readingSubmitted": "Đã gửi chỉ số đồng hồ",
-  "readingDeleteConfirm": "Xóa bài đọc?",
-  "reminderTime": "Thời gian nhắc nhở",
-  "reminderWeekdayExplanation": "Có một lời nhắc nhở để đọc không quá một lần một ngày.",
-  "reminderWeekdayExplanationSeasonal": "Đối với các đồng hồ đo có mức tiêu thụ theo mùa, lời nhắc chỉ được gửi trong các tháng có mức tiêu thụ (chỉ hoạt động nếu đưa ra giá trị của năm trước).",
-  "readingReminder": "{count, plural, one {Lời nhắc đọc} other {Lời nhắc đọc sách}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "readingReminders": "Lời nhắc đọc sách",
-  "readingReminderDisabled": "Lời nhắc đọc không hoạt động",
-  "readingRemindersChannel": "Lời nhắc đọc sách",
-  "readingReminderSingleBody": "Đọc giá trị {counterName} ngay bây giờ",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "readingReminderMultiBody": "{count, plural, one {Đọc số đọc từ máy {count} ngay bây giờ} other {Đọc số đọc từ {count} mét ngay bây giờ}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "contractReminder": "Nhắc nhở hợp đồng",
-  "outdated": "lỗi thời",
-  "counterNew": "Bộ đếm mới",
-  "counterEdit": "Chỉnh sửa bộ đếm",
-  "counterGasConversionFactor": "Hệ số chuyển đổi",
-  "counterGasCalorificValue": "giá trị nhiệt lượng",
-  "counterGasConversionFactorHelpText": "Ca 1.0. Số điều kiện được sử dụng để chuyển đổi âm lượng vận hành thành âm lượng tiêu chuẩn. Điều kiện vận hành là tình trạng của khí tại đồng hồ và phụ thuộc vào áp suất (độ cao) và nhiệt độ hiện tại.",
-  "counterGasCalorificValueHelpText": "Giá trị gia nhiệt: Hệ số không thứ nguyên để chuyển thể tích khí đo được thành năng lượng. Khí tự nhiên: thường từ 9,0 đến 12,5 kWh/m³, LPG: từ 23,0 đến 33,0 kWh/m³",
-  "counterTypeLabel": "loại quầy",
-  "counterMeterId": "ID đồng hồ",
-  "counterName": "Tên quầy",
-  "counterContractCurrentlyUsed": "Hợp đồng đang sử dụng",
-  "counterSelected": "Đã chọn",
-  "counterNoContractSelected": "Không có hợp đồng nào được chọn",
-  "counterOtherContracts": "Các hợp đồng khác",
-  "counterExcludedContracts": "Hợp đồng bị loại trừ",
-  "counterInclude": "Bao gồm",
   "counterExclude": "Loại trừ",
-  "counterTankCapacity": "Dung tích bể",
-  "counterTankFillHeight": "Điền vào chiều cao",
-  "counterFactorDescription": "Mức tiêu thụ chỉ được phân bổ cho bạn theo tỷ lệ? Nhập tỷ lệ dưới dạng giá trị từ 0,1 (10%) đến 1,0 (100%).",
-  "counterTransducerFactor": "Tỷ lệ máy biến áp",
-  "counterProportionateConsumption": "Tỷ lệ tiêu thụ tương ứng",
-  "counterFactor": "Nhân tố",
-  "counterTransducerFactorExplained": "Nếu sử dụng máy biến điện áp để giảm điện áp trước khi nó tới đồng hồ, thì phải áp dụng hệ số chuyển đổi mới để thu được số đọc chính xác. Ví dụ: công tơ hiển thị 100.000 kWh với hệ số quy đổi là 20. Số đọc đúng là: 100.000 kWh x 20 = 2.000.000 kWh.",
-  "counterFractionDigits": "chữ số phân số",
-  "counterDirection": "Phương hướng",
-  "counterDirectionExplanation": "Giá trị có giảm khi sử dụng (chỉ báo mức, v.v.) hay giá trị tăng khi sử dụng (số giờ đốt, đồng hồ đo dầu, v.v.) hay mỗi giá trị đọc độc lập (mức tiêu thụ/năng suất)?",
-  "counterConsiderForTotalElectricity": "Xem xét tổng lượng điện tiêu thụ",
-  "counterConsiderForTotalWater": "Xem xét tổng lượng nước tiêu thụ",
-  "counterWaterExtractionMinimumLevel": "Mức tối thiểu",
-  "counterBackgroundImage": "Hình nền cho quầy",
-  "counterShowReadingsChart": "Hiển thị biểu đồ đọc",
-  "counterShowHeatmap": "Hiển thị bản đồ nhiệt",
-  "counterShowPreliminaryCurve": "Hiển thị đường cong sơ bộ",
-  "seasonalCounter": "Bộ đếm theo mùa",
-  "seasonalElectricityCounter": "Đồng hồ điện theo mùa",
+  "counterExcludedContracts": "Hợp đồng bị loại trừ",
   "counterExplainSeasonal": "Đặt chỉ số đồng hồ về 0 trong mùa hè? Vào mùa đông, các bài đọc sẽ tuân theo mô hình tiêu dùng bình thường của bạn; vào mùa hè, chúng sẽ phẳng lì.",
+  "counterFactor": "Nhân tố",
+  "counterFactorDescription": "Mức tiêu thụ chỉ được phân bổ cho bạn theo tỷ lệ? Nhập tỷ lệ dưới dạng giá trị từ 0,1 (10%) đến 1,0 (100%).",
+  "counterFractionDigits": "chữ số phân số",
+  "counterGas": "Đồng hồ đo gas",
+  "counterGasCalorificValue": "giá trị nhiệt lượng",
+  "counterGasCalorificValueHelpText": "Giá trị gia nhiệt: Hệ số không thứ nguyên để chuyển thể tích khí đo được thành năng lượng. Khí tự nhiên: thường từ 9,0 đến 12,5 kWh/m³, LPG: từ 23,0 đến 33,0 kWh/m³",
+  "counterGasCalorificValueLabel": "Giá trị nhiệt lượng*",
+  "counterGasConversionFactor": "Hệ số chuyển đổi",
+  "counterGasConversionFactorHelpText": "Ca 1.0. Số điều kiện được sử dụng để chuyển đổi âm lượng vận hành thành âm lượng tiêu chuẩn. Điều kiện vận hành là tình trạng của khí tại đồng hồ và phụ thuộc vào áp suất (độ cao) và nhiệt độ hiện tại.",
+  "counterGasConversionFactorLabel": "Hệ số chuyển đổi*",
+  "counterHeater": "Đồng hồ tản nhiệt",
+  "counterInclude": "Bao gồm",
   "counterIsOutdated": "Bộ đếm đã lỗi thời",
   "counterLinkMoreRecent": "Liên kết bộ đếm gần đây hơn",
-  "counterReplacedBy": "Thay thế bởi",
-  "counterReallyDeleteLink": "Xóa liên kết?",
-  "counterDeleteConfirm": "Xóa bộ đếm?",
-  "counterGasCalorificValueLabel": "Giá trị nhiệt lượng*",
-  "counterGasConversionFactorLabel": "Hệ số chuyển đổi*",
-  "counterNoRoomConnection": "Không có kết nối phòng",
-  "counterRoom": "Phòng",
   "counterMessageRoomOptional": "Việc phân công phòng sẽ giúp ích cho việc phân nhóm nhưng là tùy chọn.",
-  "teaserPurchaseVirtualCounter": "Thêm bộ đếm ảo với Premium.",
-  "teaserPurchaseWaterExtractionCounter": "Mở khóa quầy chiết nước bằng Premium.",
-  "teaserPurchaseRenewableEnergies": "Máy đếm năng lượng tái tạo yêu cầu Premium.",
-  "settingYearlyReset": "Đặt lại hàng năm",
-  "settingYearlyResetOn": "TRÊN",
-  "settingShowCounterReadingsChart": "Hiển thị biểu đồ đọc",
-  "settingShowHeatmap": "Hiển thị bản đồ nhiệt",
-  "settingShowPreliminaryCurve": "Hiển thị đường cong sơ bộ",
-  "unitLiters": "lít",
-  "unitCm": "cmt",
-  "unitNone": "không có",
-  "roomType": "Loại phòng",
-  "roomName": "Tên phòng",
-  "roomNameHint": "Tùy chọn gán tên phòng",
-  "roomNew": "Phòng mới",
-  "roomDeleteConfirm": "Xóa phòng?",
-  "settingColor": "Màu sắc",
+  "counterMeterId": "ID đồng hồ",
+  "counterName": "Tên quầy",
+  "counterNew": "Bộ đếm mới",
+  "counterNoContractSelected": "Không có hợp đồng nào được chọn",
+  "counterNoRoomConnection": "Không có kết nối phòng",
   "counterNum": "Bộ đếm {count}",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "timeInFuture": "trong tương lai",
-  "timeLastUpdated": "cập nhật lần cuối",
-  "timeSeconds": "giây",
-  "timeMinutes": "phút",
-  "timeHours": "giờ",
-  "timeDays": "ngày",
-  "timeDaysWithin": "ngày",
-  "timeMonth": "tháng",
-  "timeMonths": "tháng",
-  "timeMonthsWithin": "tháng",
-  "timeJustNow": "ngay bây giờ",
-  "timeMinutesAgo": "{minutes} phút trước",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "timeHoursAgo": "{hours} giờ trước",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "timeToday": "Hôm nay",
-  "timeDayAgo": "một ngày trước",
-  "timeDaysAgo": "{days} ngày trước",
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "timeMonthsAgo": "{months} tháng trước",
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "timeForFirstYear": "trong năm đầu tiên",
-  "timeWeek": "tuần",
-  "timeWeeks": "tuần",
-  "timeWithin": "Trong {duration}",
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "timeYesterday": "Hôm qua",
-  "timeMonday": "Thứ hai",
-  "timeTuesday": "Thứ ba",
-  "timeWednesday": "Thứ Tư",
-  "timeThursday": "Thứ năm",
-  "timeFriday": "Thứ sáu",
-  "timeSaturday": "Thứ bảy",
-  "timeSunday": "Chủ nhật",
-  "timeFromUndefined": "Không xác định",
-  "timeUntilUnlimited": "Không giới hạn",
-  "timeUntilDate": "Cho đến {date}",
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeFromDate": "Từ {date}",
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeReminderAtStart": "Lúc bắt đầu",
-  "timeReminderAtEnd": "Cuối cùng",
-  "timePeriodYearStart": "hàng năm",
-  "timeRightNow": "Ngay lập tức",
-  "timeBefore": "Trước",
-  "purchasesUpgrade": "Nâng cấp",
-  "upgradeDescription": "Ứng dụng có thể làm được nhiều hơn thế. Tổng quan chi phí tốt hơn, thống kê nhiều hơn, xuất Excel, nhiều bộ đếm hơn, ...",
-  "purchasesWhyBuyTitle": "Tại sao tôi nên mua thứ gì đó?",
-  "purchasesWhyBuyText": "Khi mua hàng, bạn sẽ chịu các chi phí mà tôi phải gánh chịu khi xuất bản ứng dụng và hỗ trợ sự phát triển hơn nữa.",
-  "purchasesIOSRestorePurchases": "Khôi phục mua hàng",
-  "purchasesIOSRestorePurchasesDescription": "Nếu trước đây bạn đã mua thứ gì đó trong AppStore, bạn có thể khôi phục giao dịch mua đó.",
-  "purchasesDisabledOnIOS": "Mua hàng trong ứng dụng bị vô hiệu hóa",
-  "purchasesDisabledOnIOSDescription": "Vui lòng kiểm tra xem iPhone của bạn có bị tắt tính năng mua hàng trong ứng dụng hay không (Cài đặt > Thời gian sử dụng > Hạn chế > Cài đặt và mua ứng dụng > Cho phép mua hàng trong ứng dụng)",
-  "purchasesDisabledOnIOSDescriptionTestflight": "Ứng dụng đã được cài đặt qua Testflight. Xin lưu ý rằng việc mua hàng chỉ hoạt động trong ứng dụng nếu bạn cài đặt ứng dụng qua App Store.",
-  "purchasesSubscribePremium": "Đăng ký trả phí",
-  "purchasesSubscribePremiumTextLong": "Truy cập vào tất cả các tính năng trả phí trong thời gian đăng ký + nhiệt độ ngoài trời",
-  "purchasesWebLegalNote": "Vì lý do pháp lý, chỉ có thể mua hàng đối với điện thoại iPhone hoặc Android có dịch vụ PlayStore.",
-  "purchasesYourPurchases": "Bạn có quyền truy cập vào các gói cao cấp sau:",
-  "purchasesExtensionsTitle": "Tiện ích mở rộng đơn",
-  "purchasesExtensionsSubtitle": "Mua một lần, sử dụng vĩnh viễn (không cần đăng ký)",
-  "purchasesExtensionStatisticsTitle": "Thống kê nâng cao",
-  "purchasesExtensionMultipleObjectsTitlePart": "Quản lý nhiều đối tượng",
-  "purchasesExtensionMultipleObjectsDescription": "Nhập chỉ số đồng hồ cho bao nhiêu căn hộ/nhà/đồ vật tùy thích (thay vì chỉ cho một đồ vật)",
-  "purchasesExtensionsInWork": "Các phần mở rộng tiếp theo được lên kế hoạch. Hãy tham gia vào cuộc khảo sát về tính năng để có tiếng nói của mình.",
-  "purchasesSubscribeNow": "Đăng ký ngay bây giờ",
-  "purchasesBuyNow": "Mua ngay",
-  "purchasesRedeemCode": "Đổi mã",
-  "purchasesEarlyBirdSubscription": "Lưu ý: Nếu đăng ký khách hàng lần đầu này bị hủy thì sau đó sẽ không thể đăng ký lại.",
-  "purchasesPurchasedIncludedInPremium": "Bao gồm trong gói trả phí",
-  "purchasesPurchasedSubscribed": "Đã đăng ký",
-  "purchasesPurchased": "Đã mua",
-  "purchasesExtensionStatisticsDescription": "Truy cập mức tiêu thụ điện/gas/nước/... hàng năm/hàng tháng/hàng tuần + điều chỉnh theo chu kỳ + tổng quan chi phí chi tiết + xuất Excel",
-  "commonAnd": "Và",
-  "purchasesSubscribePremiumMonthly": "Đăng ký có thể hủy hàng tháng chỉ với {price} mỗi tháng",
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumMonthlyWithNewPrice": "Đăng ký có thể hủy hàng tháng với mức giá trung thành {price} mỗi tháng thay vì {priceNew}",
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearly": "Đăng ký có thể hủy hàng năm chỉ với {price} mỗi năm",
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearlyWithNewPrice": "Đăng ký có thể hủy hàng năm với mức giá trung thành {price} mỗi năm thay vì {priceNew}",
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesStatisticsWithPremium": "Với Premium, bạn có quyền truy cập vào bảng so sánh hàng tháng{count, plural, =0{.}=1{.}other{ và cũng xem dữ liệu lịch sử cho {years}.}}",
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "years": {
-        "type": "String"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "smartMeterProviderTibber": "Tibber",
-  "smartMeterProviderWwgl": "Đất Wasserwerk Gerauer",
-  "smartMeterProviderUndefined": "Chưa đặt",
-  "sync": "Đồng bộ hóa",
-  "costsUndefinedForType": "{type} cho không xác định",
-  "costsUndefinedElectricity": "Tiền điện",
-  "costsUndefinedColdWater": "Phí nước lạnh",
-  "costsUndefinedWarmWater": "Phí nước ấm",
-  "costsUndefinedHeater": "Phí sưởi ấm",
-  "costsUndefinedOilHeating": "Phí dầu",
-  "costsUndefinedGas": "Phí gas",
-  "costsUndefinedNetworkCounter": "Phí Internet",
-  "updateAvailable": "Phiên bản ứng dụng {oldVersion} chưa cập nhật. Bạn có thể cập nhật lên phiên bản {newVersion}.",
-  "@updateAvailable": {
-    "placeholders": {
-      "oldVersion": {
-        "type": "String"
-      },
-      "newVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "versionIsUpToDate": "Phiên bản ứng dụng mới nhất được phát hành cho tất cả người dùng là {version}.",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "messageNoCounters": "Bạn chưa tạo bộ đếm.",
-  "messageNoCounterReadings": "Bạn chưa nhập số đọc truy cập.",
-  "parsingObjectError": "Đối tượng không thể được phân tích cú pháp. Vui lòng liên hệ với nhà phát triển. Khi gỡ cài đặt ứng dụng, dữ liệu có thể bị mất.",
-  "reallyDeleteCounter": "Bạn có chắc chắn muốn xóa bộ đếm không?",
-  "reallyDeletePhoto": "Bạn có chắc chắn muốn xóa ảnh đọc đồng hồ không?",
-  "reallyDeleteCounterLink": "Bạn có chắc chắn muốn xóa liên kết giữa các quầy không?",
-  "virtualCounterNotConfigured": "Vui lòng kiểm tra cài đặt của đồng hồ ảo của bạn. Không có gì có thể được tính toán.",
-  "virtualCounterMasterCounter": "Đồng hồ đo chính",
-  "virtualCounterMasterCounterAttach": "Chọn đồng hồ chính",
-  "virtualCounterMasterCounterDescription": "Thông tin: Đồng hồ chính là cơ sở để tính toán đồng hồ ảo, ví dụ: đồng hồ điện chính hoặc đồng hồ nước chính.",
-  "virtualCounterMetersToBeSubtracted": "Số mét được trừ",
-  "virtualCounterMetersToBeSubtractedDescription": "Những chỉ số nào của đồng hồ đo nên được trừ khỏi đồng hồ chính, ví dụ: \"đồng hồ bơm nhiệt\", \"đồng hồ cấp điện\".",
-  "virtualCounterMetersToBeAdded": "Số mét cần được thêm vào",
-  "virtualCounterMetersToBeAddedDescription": "Những chỉ số đồng hồ nào sẽ được thêm vào đồng hồ chính, ví dụ: đồng hồ đo phát điện.",
-  "areYouSure": "Bạn có chắc không?",
-  "addNewValue": "Nhập giá trị mới",
-  "reallyDeleteValue": "Bạn có thực sự muốn xóa giá trị này?",
-  "warning": "Cảnh báo",
-  "messageNotEnoughData": "Không đủ dữ liệu để hiển thị biểu đồ",
-  "messageNoConsumptions": "Thống kê cho tất cả các loại máy đo sẽ xuất hiện ở đây nếu đã lấy đủ số liệu. Ví dụ: hai đồng hồ nước lạnh, hai đồng hồ nước nóng và một đồng hồ chiết nước được hiển thị trong một thống kê nước.",
-  "lastReading": "lần đọc cuối cùng",
-  "chartDottedLinesNonSeasonal": "Các đường cong nét đứt thể hiện giai đoạn trước. Ví dụ: đối với lựa chọn \"14 ngày qua\", 28 ngày cuối cùng xuất hiện, trong đó 14 ngày cũ hơn được hiển thị nét đứt.",
-  "chartDottedLinesSeasonal": "Các đường cong nét đứt thể hiện giai đoạn trước. Ví dụ: đối với lựa chọn \"14 ngày qua\", 28 ngày cuối cùng xuất hiện, trong đó 14 ngày cũ hơn được hiển thị nét đứt.",
-  "chartHorizontalLines": "Các đường đứt nét nhằm mục đích cung cấp phản hồi về mức tiêu thụ của chính bạn.",
-  "chartHorizontalLineWater": "Trung bình mỗi người ở Đức sử dụng 127 lít nước uống trong gia đình mỗi ngày. Đường màu xanh tượng trưng cho nước lạnh (60%), đường màu đỏ là nước nóng (40%), ngoại suy theo số ngày trong kỳ và số lượng người.",
-  "chartHorizontalLineElectricityGas": "Đường màu xanh lá cây tượng trưng cho mức tiêu dùng rất tốt, đường màu vàng tượng trưng cho mức tiêu dùng tốt, đường màu đỏ tượng trưng cho mức tiêu dùng trung bình của người Đức.",
-  "per": "mỗi",
-  "costSummary": "Tóm tắt chi phí",
-  "costSummaryYield": "Giá thù lao/-giá cơ sở",
-  "soFar": "cho đến nay",
+  "counterOilHeating": "Sưởi dầu",
+  "counterOtherContracts": "Các hợp đồng khác",
+  "counterOutdatedAndNextReminder": "Bộ đếm đã lỗi thời kể từ {date}, lời nhắc đọc tiếp theo {date2}.",
+  "counterProportionateConsumption": "Tỷ lệ tiêu thụ tương ứng",
+  "counterPvFeedInCounter": "Năng lượng tái tạo (năng lượng mặt trời và nhiệt với hệ thống PV/năng lượng mặt trời)",
+  "counterPvFeedInCounterExplanation": "Sử dụng đồng hồ đo điện năng để ghi lại lượng điện năng được tạo ra và cung cấp vào\nvới hệ thống quang điện. Doanh thu thu được sẽ được bù đắp vào chi phí của\nđiện được rút ra.",
+  "counterReadings": "Bài đọc",
+  "counterReallyDeleteLink": "Xóa liên kết?",
+  "counterReplacedBy": "Thay thế bởi",
+  "counterRoom": "Phòng",
+  "counterSelected": "Đã chọn",
+  "counterShowHeatmap": "Hiển thị bản đồ nhiệt",
+  "counterShowPreliminaryCurve": "Hiển thị đường cong sơ bộ",
+  "counterShowReadingsChart": "Hiển thị biểu đồ đọc",
+  "counterTankCapacity": "Dung tích bể",
+  "counterTankFillHeight": "Điền vào chiều cao",
+  "counterTransducerFactor": "Tỷ lệ máy biến áp",
+  "counterTransducerFactorExplained": "Nếu sử dụng máy biến điện áp để giảm điện áp trước khi nó tới đồng hồ, thì phải áp dụng hệ số chuyển đổi mới để thu được số đọc chính xác. Ví dụ: công tơ hiển thị 100.000 kWh với hệ số quy đổi là 20. Số đọc đúng là: 100.000 kWh x 20 = 2.000.000 kWh.",
+  "counterTypeLabel": "loại quầy",
+  "counterWarmWater": "Đồng hồ nước ấm",
+  "counterWarmWaterPlusColdWater": "Chưa bao gồm chi phí nước ngọt và nước thải",
+  "counterWater": "Đồng hồ nước",
+  "counterWaterExtraction": "Đồng hồ chiết nước (vườn)",
+  "counterWaterExtractionExplanation": "Với đồng hồ khấu trừ, chi phí nước thải có thể giảm. Với giao dịch mua trong ứng dụng này, bạn có thể chỉ định các chi phí khác nhau cho nước ngọt và nước thải và chỉ số đồng hồ từ đồng hồ khấu trừ sẽ được tính vào chi phí nước.",
+  "counterWaterExtractionMinimumLevel": "Mức tối thiểu",
+  "counters": "Mét",
+  "createAccount": "Tạo tài khoản/đăng nhập",
+  "csvImportWithFactor": "Có nên nhân số chỉ của đồng hồ với hệ số không bằng 1,0 không? Ví dụ: để chuyển đổi các giá trị từ Wh sang kWh, chúng sẽ phải nhân với 0,001.",
+  "currency": "Tiền tệ",
+  "deleteObjectError": "Không thể xóa đối tượng này (Mã {errorCode}).",
+  "detailWithMultiSelect": "Cho phép chọn nhiều",
+  "detailsTitle": "Chi tiết",
+  "difference": "Sự khác biệt",
+  "driveSignInWithGoogle": "Đăng nhập bằng Google",
+  "driveSyncNow": "Đồng bộ hóa ngay bây giờ",
+  "driveSyncStatusComparing": "So sánh với tập tin trên máy chủ",
+  "driveSyncStatusFailed": "Không thể đồng bộ hóa",
+  "driveSyncStatusLocalHasLatestNoCloud": "Tệp được lưu trên thiết bị này từ {localDate} không được lưu trong đám mây",
+  "driveSyncStatusLocalHasLatestWithCloud": "Tệp được lưu trên thiết bị này từ {localDate} cập nhật hơn tệp trên đám mây từ {cloudDate}",
+  "driveSyncStatusNotSynced": "Không được đồng bộ hóa",
+  "driveSyncStatusRemoteHasLatestNoLocal": "Tệp trên đám mây từ {cloudDate} không được lưu trên thiết bị này",
+  "driveSyncStatusRemoteHasLatestWithLocal": "Tệp trên đám mây từ {cloudDate} được cập nhật nhiều hơn tệp cục bộ từ {localDate}",
+  "driveSyncStatusSyncing": "Đang đồng bộ hóa",
+  "driveSyncStatusTitle": "Trạng thái đồng bộ hóa",
+  "driveSyncStatusUpToDate": "Cập nhật từ {localDate}",
+  "driveSyncWithGoogle": "Đồng bộ hóa Google Drive",
+  "editDetailTitle": "Chỉnh sửa chi tiết",
+  "electricity": "Điện",
+  "electricityBack": "Điện đưa vào",
+  "electricityConsumption": "Tiêu thụ điện năng",
+  "electricityGenerated": "Điện được tạo ra",
+  "enterComment": "Nhập ghi chú",
+  "enterExistingReadingAgain": "Nhập lại bài đọc cũ",
+  "enterObjectName": "Đặt tên cho đối tượng mới",
+  "errorInvalidRange": "Không có phạm vi hợp lệ",
+  "errorNoInternet": "Không có mạng",
+  "euDisputeResolution": "Giải quyết tranh chấp ở Liên minh Châu Âu\n\nỦy ban Châu Âu cung cấp nền tảng giải quyết tranh chấp trực tuyến (OS): https://ec.europa.eu/consumers/odr/.\nBạn có thể tìm thấy địa chỉ email của chúng tôi trong dấu ấn ở trên.\n\nCơ quan giải quyết tranh chấp người tiêu dùng/cơ quan giải quyết tranh chấp chung\n\nChúng tôi không sẵn sàng hoặc bắt buộc phải tham gia vào các thủ tục giải quyết tranh chấp trước hội đồng trọng tài người tiêu dùng.",
+  "existingPhoto": "Đính kèm ảnh hiện có",
+  "existingPhotoOfMeterReading": "Bạn có muốn đính kèm một bức ảnh hiện có về chỉ số đồng hồ không?",
+  "explanationManageMoreThanOneObject": "Bạn có nhiều tài sản muốn quản lý? Sau đó đặt tên cho đối tượng hiện tại và sau đó tạo một đối tượng khác.",
+  "export": "Xuất khẩu",
+  "exportExplanation": "Bạn muốn xuất đối tượng hiện có nào, chẳng hạn như để chuyển nó sang thiết bị mới?",
+  "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
+  "exportOptionConsumptionsSubtitle": "Giá trị tiêu thụ mỗi ngày kể từ lần đọc đầu tiên.",
+  "exportOptionConsumptionsTitle": "Tiêu thụ hàng ngày",
+  "exportOptionExcel": "tập tin excel",
+  "exportOptionFileDescription": "Đối tượng được chia sẻ dưới dạng tệp {fileType}",
+  "exportOptionPdf": "tập tin PDF",
+  "exportOptionReadingsSubtitle": "Thông thường số đọc hoặc mức tiêu thụ của đồng hồ đo có khoảng thời gian không đều.",
+  "exportOptionReadingsTitle": "Đọc giá trị",
+  "exportTabHowToExport": "Bạn muốn xuất dữ liệu như thế nào?",
+  "exportTabHowToExportOptionSaveToDownloads": "Lưu vào thư mục {folder}",
+  "exportTabHowToExportOptionShare": "Chia sẻ với các ứng dụng khác",
+  "exportTabSnackBarSaveResultMessageError": "Đã xảy ra lỗi khi lưu dữ liệu",
+  "exportTabSnackBarSaveResultMessageSuccess": "Dữ liệu đã được lưu thành công dưới dạng {fileName} trong thư mục {folder}",
+  "exportWhere": "Đối tượng nên được xuất ở định dạng nào?",
+  "exportWhichValuesShouldBeExported": "Những giá trị nào sẽ được xuất?",
+  "faqAboutDeveloperBody1": "Cảm ơn bạn đã quan tâm đến EHW+. EHW+ được tôi, Timo Bähr, phát hành vào tháng 12 năm 2020. Tôi là nhà phát triển ứng dụng toàn thời gian và làm việc trên EHW+ trong thời gian rảnh rỗi để góp phần bảo vệ môi trường. Kể từ tháng 5 năm 2022, nhà phát triển thứ hai đã giám sát công việc của tôi, Thomas Hesse, xây dựng phần phụ trợ cho EHW+. Kể từ tháng 4 năm 2023, Janine Sinner đã xử lý nhiều phản hồi của khách hàng. Kể từ tháng 7 năm 2024, Artem Yuzhkov đã tham gia với tư cách là nhà phát triển ứng dụng.",
+  "faqAboutDeveloperBody2": "Hơn 26% tổng lượng khí thải CO2 ở Đức là do các hộ gia đình tư nhân gây ra. Nếu mọi người có thể giảm mức tiêu dùng của mình dù chỉ một chút thì sẽ đạt được rất nhiều điều. Cảm ơn bạn rất nhiều vì sự đóng góp của bạn!",
+  "faqAboutDeveloperBody3": "Chúng tôi hoan nghênh các đề xuất về cách cải thiện ứng dụng.",
+  "faqAboutDeveloperBody4": "Tuy nhiên, tôi mong bạn hiểu rằng tôi không thể thực hiện tất cả các đề xuất và các chức năng mới cần có thời gian.",
+  "faqAboutDeveloperTitle": "Ai đứng sau EHW+?",
+  "faqTitle": "Câu hỏi thường gặp",
+  "featureVoting": "Bỏ phiếu tính năng",
+  "featureVotingOnlyOnGerman": "Khảo sát tính năng không được dịch sang các ngôn ngữ khác.",
+  "featureVotingUnderConstruction": "Cuộc khảo sát tính năng hiện đang được sửa đổi. Trong tương lai, tài khoản người dùng EHW+ sẽ được yêu cầu và cuộc khảo sát sẽ không còn sử dụng máy chủ của bên thứ ba nữa. Chúng tôi đánh giá cao sự kiên nhẫn của bạn.",
+  "fedIn": "đưa vào",
+  "firstReadingConsumption": "Nhập mức tiêu thụ đầu tiên ngay bây giờ.",
+  "firstReadingCounter": "Nhập số đọc đầu tiên của bộ đếm.",
+  "firstReadingYield": "Nhập sản lượng đầu tiên ngay bây giờ.",
   "forX": "vì",
-  "corresponds": "tương ứng",
-  "warningCounterReplacementDetected": "Giá trị mới thấp hơn giá trị đo trước đó. Đồng hồ đã được thay thế chưa?",
-  "warningYearlyReset": "Không đọc sách vào đầu năm",
-  "warningReadingSmallerThanOldValue2": "Giá trị mới thấp hơn giá trị đo trước đó. Việc đọc có được thực hiện chính xác không?",
-  "warningReadingBiggerThanOldValueOilVolume": "Giá trị mới cao hơn số đọc của đồng hồ trước đó. Bạn đã đổ đầy bình chưa?",
-  "warningReadingSeemsTooBig": "Giá trị mới khá cao. Việc đọc có được thực hiện chính xác không?",
-  "warningReadingSeemsTooSmall": "Giá trị mới khá thấp. Nó đã được đọc chính xác chưa?",
+  "gas": "Khí đốt",
+  "generated": "Đã tạo",
+  "googleAnalyticsAgreement": "Tôi đồng ý truyền dữ liệu ẩn danh về việc sử dụng ứng dụng tới EHW+ Services GmbH.",
+  "googleApiAgreement": "Việc {appNameShort} sử dụng và chuyển thông tin nhận được từ API Google sang bất kỳ ứng dụng nào khác sẽ tuân thủ Chính sách dữ liệu người dùng Dịch vụ API của Google, bao gồm cả các yêu cầu về Sử dụng có giới hạn.",
+  "gross": "tổng",
+  "grossNetPrices": "Giá gộp hoặc giá ròng",
+  "heatPump": "Bơm nhiệt",
+  "heater": "Bộ tản nhiệt",
+  "heatmapLegendDisclaimer": "Thông tin: Các hộp tô bóng chứa giá trị ước tính. Để đọc mức tiêu thụ/đầu ra thực tế, vui lòng điền số chỉ còn thiếu của đồng hồ nếu có thể.",
+  "heatmapLegendTitle": "Thông tin thêm về bản đồ nhiệt",
+  "houseName": "Tên nhà",
+  "houseNameDescription": "Tên nhà, ví dụ: tên đường",
+  "import": "Nhập khẩu",
+  "importConfirm": "Xác nhận nhập",
+  "importCounterAsCsv": "Bạn có muốn nhập một mét không? Được hỗ trợ trên mỗi mét là một tệp CSV có hai cột, một cột cho thời gian và một cột cho chỉ số đồng hồ.\n\nDữ liệu ví dụ:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Chỉ có hai cột đầu tiên được sử dụng. Cột thứ ba đã bị bỏ qua.} other {Chỉ có hai cột đầu tiên được sử dụng, cột {columns} bị bỏ qua.}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Một dòng đã bị bỏ qua: {lines}} other {Các dòng {count} đã bị bỏ qua: {lines}}}",
+  "importExplanation": "Bạn đã thực hiện các bài đọc truy cập và muốn chèn chúng?",
+  "importExport": "Sao lưu/Khôi phục",
+  "importNewOrExistingCounter": "Thêm vào bộ đếm mới hoặc hiện có?",
+  "importNotPossible": "Không thể nhập khẩu",
+  "importPickFile": "Chọn tập tin",
+  "importSelectJson": "Tệp JSON (được tạo bằng {appName})",
+  "importSelectSingleCounter": "Bộ đếm đơn (tệp CSV)",
+  "importSuccessful": "Nhập thành công",
+  "importTabErrorMessageFileWithExtensionNotSelected": "Cần có tệp {extension} để tiến hành nhập.",
+  "importTheObject": "Nhập đối tượng",
+  "importWhichCounterForCsv": "Nên sử dụng bộ đếm nào?",
+  "imprintTitle": "dấu ấn",
+  "initialReading": "Đọc ban đầu",
+  "involvedCounters": "Quầy liên quan",
+  "isLastEntryAtFilteredList": "Giá trị cũ nhất trong danh sách được lọc",
+  "isOutdatedCounter": "Bộ đếm không còn được sử dụng",
+  "last12Months": "12 tháng qua",
+  "last12Weeks": "12 tuần qua",
+  "last2Weeks": "14 ngày qua",
+  "lastReading": "lần đọc cuối cùng",
+  "lastYear": "Năm ngoái",
+  "lineChartAppearanceSettings": "Xuất hiện biểu đồ đường",
+  "lineChartAppearanceSettingsShowSpots": "Hiển thị các điểm (tròn) trên các đường của biểu đồ",
+  "localWriteSubtitle": "Các đối tượng và ảnh có nên được lưu vào thư mục \"{folder}\" cục bộ sau mỗi lần thay đổi không?",
+  "localWriteTitle": "Lưu vào thư mục tải xuống cục bộ",
+  "manageMoreThanOneObjectStep1": "Quản lý nhiều đối tượng - Bước 1",
+  "manageMoreThanOneObjectStep2": "Quản lý nhiều đối tượng - Bước 2",
+  "marketLocationId": "ID vị trí thị trường",
+  "marketLocationIdDescription": "ID vị trí thị trường luôn bao gồm 11 chữ số. Bạn thường có thể tìm thấy điều này trên hóa đơn điện hoặc gas cuối cùng của mình.",
+  "messageNoConsumptions": "Thống kê cho tất cả các loại máy đo sẽ xuất hiện ở đây nếu đã lấy đủ số liệu. Ví dụ: hai đồng hồ nước lạnh, hai đồng hồ nước nóng và một đồng hồ chiết nước được hiển thị trong một thống kê nước.",
+  "messageNoContracts": "Chưa có hợp đồng nào.",
+  "messageNoCounterReadings": "Bạn chưa nhập số đọc truy cập.",
+  "messageNoCounters": "Bạn chưa tạo bộ đếm.",
+  "messageNoRooms": "Chưa có phòng. Phòng giúp nhóm mét.",
+  "messageNotEnoughData": "Không đủ dữ liệu để hiển thị biểu đồ",
+  "meterCardLastUpdatedLabel": "Đã cập nhật",
+  "meterId": "Mã bộ đếm",
+  "meterReadingSubmitted": "Đã truyền tới nhà cung cấp",
   "meterReadingsFilterAll": "Hiển thị tất cả",
   "meterReadingsFilterComments": "Chỉ hiển thị các mục có nhận xét",
   "meterReadingsFilterSubmitted": "Chỉ hiển thị \"{state}\"",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "isLastEntryAtFilteredList": "Giá trị cũ nhất trong danh sách được lọc",
-  "initialReading": "Đọc ban đầu",
-  "warningReadingBiggerThanOldValue": "Giá trị mới cao hơn chỉ số đồng hồ trước đó.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedForYearlyResetCounter": "Thiếu số đọc đồng hồ cuối cùng của năm {lastYear} cho {deviceTypeName} {roomNamePart}. Điều này là cần thiết để tính toán chính xác tổng lượng tiêu thụ hàng năm.",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "lastYear": {
-        "type": "String"
-      },
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "Chỉ số đồng hồ mới nhất cho {deviceTypeName} {roomNamePart} đã lỗi thời {outdatedSinceText}.{whenNotifyDateText}",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "valueLess": "{value} ít hơn",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "valueMore": "{value} thêm",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonNotEnoughData": "Chưa đủ dữ liệu so sánh cho trang {countryName} ({countryCode}).",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      },
-      "countryCode": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonEqual": "Bạn trả nhiều như mức trung bình trong {countryName}.",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "myObjects": "Đồ vật của tôi",
+  "net": "mạng lưới",
+  "networkCounter": "Internet và điện thoại",
+  "newCounter": "Tạo một bộ đếm mới",
+  "newPhoto": "Chụp ảnh mới",
+  "newPhotoOfMeterReading": "Bạn có muốn chụp ảnh chỉ số đồng hồ không?",
+  "newReading": "Nhập số đọc hiện tại",
+  "newReadingShort": "Đọc mới",
+  "notifications": "Thông báo",
+  "notificationsEmpty": "Không có thông báo",
+  "notificationsSmartMeterAlertFallback": "Bạn có cảnh báo đồng hồ thông minh mới.",
+  "numCounters": "{count, plural, =0 {Bộ đếm {count}} one {Bộ đếm {count}} other {Bộ đếm {count}}}",
+  "numMeterReadings": "{readings, plural, one {# đọc} other {# bài đọc}}",
+  "numberOfDetails": "{count, plural, one {1 chi tiết} other {Chi tiết {count}}}",
+  "ofRangeFrom": "từ {range}",
+  "ofRangeLastDays": "trong số {days} ngày qua",
+  "ofRangeLastMonths": "trong {months} tháng qua",
+  "oil": "Dầu",
+  "outdated": "lỗi thời",
+  "outdatedContracts": "Hợp đồng lỗi thời",
+  "outdatedCounters": "Bộ đếm không còn được sử dụng",
+  "paidAdvancePayments": "Thanh toán tạm ứng",
+  "parsingObjectError": "Đối tượng không thể được phân tích cú pháp. Vui lòng liên hệ với nhà phát triển. Khi gỡ cài đặt ứng dụng, dữ liệu có thể bị mất.",
+  "per": "mỗi",
+  "perUnit": "mỗi {unit}",
+  "period": "Giai đoạn",
+  "periodBimonthly": "hai tháng một lần",
+  "periodBiweekly": "hai tuần một lần",
+  "periodCustom": "Người dùng xác định",
+  "periodDaily": "hằng ngày",
+  "periodHalfYearly": "nửa năm một lần",
+  "periodHourly": "hàng giờ",
+  "periodMonthly": "hàng tháng",
+  "periodQuarterly": "hàng quý",
+  "periodWeekly": "hàng tuần",
+  "periodYearly": "hàng năm",
+  "previouslyDeletedCounters": "Đồng hồ đo đã xóa gần đây",
   "priceComparisonDiff": "Bạn trả {diffWithCurrency} {comparison, select, more {nhiều hơn} less {ít hơn} other {nhiều hơn}} so với mức trung bình ở {countryName}.",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "diffWithCurrency": {
-        "type": "String"
-      },
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "priceComparisonEqual": "Bạn trả nhiều như mức trung bình trong {countryName}.",
+  "priceComparisonNotEnoughData": "Chưa đủ dữ liệu so sánh cho trang {countryName} ({countryCode}).",
+  "pricePerUnit": "Giá mỗi đơn vị",
+  "pricePerUnitFeedIn": "Giá thù lao",
+  "pricePerUnitFreshWater": "Chi phí nước ngọt",
+  "pricePerUnitWasteWater": "Giá nước thải",
+  "pricePerUnitWaterCold": "Chi phí nước lạnh",
+  "pricePerUnitWaterWarm": "Chi phí sưởi ấm nước nóng",
+  "priceSubmissionAgreement": "Tôi đồng ý với việc chuyển giá điện/gas/nước theo đơn vị tới máy chủ EHW+",
+  "privacyBlock1Text": "Nhà phát triển/nhà cung cấp ứng dụng (sau đây gọi là “ứng dụng”) tuân theo Mục 5 của Đạo luật Telemedia của Đức (TMG):\n\n{contact}",
+  "privacyBlock1Text2": "Việc sử dụng ứng dụng yêu cầu bạn phải đồng ý với các điều khoản sử dụng sau. Xin vui lòng đọc chúng một cách cẩn thận.",
+  "privacyBlock1Title": "Nhà phát triển",
+  "privacyBlock2Text": "Việc bảo vệ dữ liệu của bạn là rất quan trọng đối với chúng tôi. Chính sách quyền riêng tư này giải thích dữ liệu cá nhân nào EHW+ thu thập và cách sử dụng dữ liệu đó. Những thay đổi cơ bản đối với chính sách quyền riêng tư rất hiếm nhưng đôi khi có thể được sửa đổi do các tính năng, công nghệ mới hoặc yêu cầu pháp lý. Vì vậy thỉnh thoảng hãy kiểm tra trang này để cập nhật nhé. Nếu chúng tôi thực hiện bất kỳ thay đổi quan trọng nào, chúng tôi sẽ thông báo cho bạn và nếu cần thiết sẽ nhận được sự đồng ý của bạn.",
+  "privacyBlock2Title": "Tổng quan",
+  "privacyBlock3Title": "{appNameShort} thu thập dữ liệu gì?",
+  "privacyBlock3aText": "Chúng tôi đã tạo {appNameShort} để bạn có thể nhập chỉ số đồng hồ của mình một cách nhanh chóng và dễ dàng, sau đó sử dụng số liệu thống kê để tìm hiểu thêm về mức tiêu thụ, chi phí và khả năng tiết kiệm của bạn. Điều này có nghĩa là bạn có thể nhập, tính toán hoặc lưu bất kỳ dữ liệu nào mà chúng tôi thường gọi là ‘nội dung’ trong {appNameShort}. Dữ liệu này chỉ được lưu trữ trên điện thoại di động của bạn.\n\nĐồng bộ hóa với Google Drive.\nNếu bạn bật đồng bộ hóa với Google Drive, nội dung cũng sẽ được tự động sao lưu vào thư mục có tên ‘{appNameShort}’ trên Google Drive mà chỉ bạn mới có thể truy cập. Bằng cách đăng nhập bằng Google, địa chỉ email của bạn sẽ hiển thị với nhà phát triển.",
+  "privacyBlock3bText": "{googleApiAgreement}\n\nDữ liệu vị trí.\nĐể hiểu hành vi của người dùng và cho các tính năng trong tương lai, ứng dụng sẽ truyền dữ liệu sử dụng ẩn danh.\nDữ liệu không được chia sẻ với bên thứ ba.\nThông tin có thể được thu thập về nguồn gốc (quốc gia và thành phố), ngôn ngữ, hệ điều hành, loại thiết bị, độ phân giải, hành vi nhấp chuột và thời lượng sử dụng.\n\nDữ liệu thiết bị.\nChúng tôi thu thập dữ liệu về số lượng và loại thiết bị bạn sử dụng để kết nối với dịch vụ cũng như thông tin về hệ điều hành trên các thiết bị đó (ví dụ: Android, iOS, Windows hoặc macOS).\n\nBằng cách sử dụng ứng dụng, bạn đồng ý với việc thu thập dữ liệu ẩn danh như mô tả ở trên.",
+  "privacyBlock4DataUsage": "Dữ liệu ẩn danh được thu thập được sử dụng để đánh giá hành vi của người dùng. Ngoài ra, không có việc sử dụng dữ liệu nào nữa.\n\n{syncDriveDataUsage}",
+  "privacyBlock4DataUsageTitle": "{appNameShort} sử dụng dữ liệu của tôi như thế nào?",
+  "privacyBlock5": "Thời lượng lưu trữ dữ liệu cá nhân được xác định theo thời gian lưu giữ theo luật định tương ứng (ví dụ: thời gian lưu giữ theo luật thương mại và thuế). Sau khi hết thời hạn, dữ liệu tương ứng sẽ bị xóa thường xuyên, với điều kiện là dữ liệu đó không còn cần thiết cho việc thực hiện hoặc bắt đầu hợp đồng và/hoặc chúng tôi không còn có lợi ích hợp pháp trong việc tiếp tục lưu trữ dữ liệu đó.",
+  "privacyBlock5Title": "Thời lượng lưu trữ dữ liệu cá nhân",
+  "privacyBlock6": "Khi bạn liên hệ với chúng tôi (ví dụ: qua biểu mẫu liên hệ hoặc email), dữ liệu cá nhân sẽ được thu thập. Dữ liệu được thu thập trong trường hợp biểu mẫu liên hệ có thể được nhìn thấy trên biểu mẫu liên hệ tương ứng. Dữ liệu này được lưu trữ và sử dụng riêng cho mục đích trả lời câu hỏi của bạn hoặc để thiết lập liên hệ và quản lý kỹ thuật liên quan. Cơ sở pháp lý cho việc xử lý dữ liệu là mong muốn chính đáng của chúng tôi trong việc đáp ứng yêu cầu của bạn theo Nghệ thuật. 6 đoạn. 1 lít. f GDPR. Nếu liên hệ của bạn nhằm mục đích ký kết hợp đồng, cơ sở pháp lý bổ sung để xử lý là Điều. 6 đoạn. 1 lít. b GDPR. Dữ liệu của bạn sẽ bị xóa sau khi yêu cầu của bạn được xử lý, đó là trường hợp có thể suy ra từ các trường hợp mà vấn đề được đề cập cuối cùng đã được làm rõ và miễn là không có nghĩa vụ pháp lý nào để lưu giữ dữ liệu.",
+  "privacyBlock6Title": "Liên hệ",
+  "privacyBlock7": "Luật bảo vệ dữ liệu hiện hành cấp cho bạn các quyền toàn diện với tư cách là chủ thể dữ liệu (quyền thông tin và can thiệp) đối với bên kiểm soát liên quan đến việc xử lý dữ liệu cá nhân của bạn mà chúng tôi sẽ thông báo cho bạn bên dưới:\n\n- Quyền được thông tin theo Nghệ thuật. 15 GDPR: Đặc biệt, bạn có quyền lấy thông tin về dữ liệu cá nhân của bạn do chúng tôi xử lý, mục đích xử lý, danh mục dữ liệu cá nhân được xử lý, người nhận hoặc danh mục người nhận mà dữ liệu của bạn đã hoặc sẽ được tiết lộ, thời gian lưu trữ theo kế hoạch hoặc tiêu chí để xác định thời gian lưu trữ, sự tồn tại của quyền cải chính, xóa, hạn chế xử lý, phản đối xử lý, khiếu nại với cơ quan giám sát, nguồn gốc dữ liệu của bạn nếu dữ liệu đó không được chúng tôi thu thập từ bạn, sự tồn tại của dữ liệu tự động ra quyết định, bao gồm lập hồ sơ và, nếu có, thông tin có ý nghĩa về logic liên quan cũng như tầm quan trọng và hậu quả dự kiến của việc xử lý đó đối với bạn, cũng như quyền của bạn được thông báo về các đảm bảo tồn tại theo Nghệ thuật. 46 GDPR khi dữ liệu của bạn được chuyển sang nước thứ ba;\n\n- Quyền cải chính theo Nghệ thuật. 16 GDPR: Bạn có quyền chỉnh sửa ngay lập tức dữ liệu không chính xác liên quan đến bạn và/hoặc hoàn thiện dữ liệu chưa đầy đủ do chúng tôi lưu trữ.\n\n- Quyền xóa theo Nghệ thuật. 17 GDPR: Bạn có quyền yêu cầu xóa dữ liệu cá nhân của mình nếu các điều kiện của Nghệ thuật. 17(1) GDPR được đáp ứng. Tuy nhiên, quyền này không áp dụng cụ thể nếu việc xử lý là cần thiết để thực hiện quyền tự do ngôn luận và thông tin, để tuân thủ nghĩa vụ pháp lý, vì lý do lợi ích công cộng hoặc để thiết lập, thực hiện hoặc bảo vệ các khiếu nại pháp lý.\n\n- Quyền hạn chế xử lý theo Nghệ thuật. 18 GDPR: Bạn có quyền yêu cầu hạn chế xử lý dữ liệu cá nhân của mình trong thời gian tính chính xác của dữ liệu đó đang được xác minh nếu bạn phản đối việc xóa dữ liệu của mình với lý do xử lý dữ liệu không được chấp nhận và thay vào đó, hãy yêu cầu hạn chế xử lý dữ liệu của bạn nếu bạn cần dữ liệu của mình để xác nhận, thực hiện hoặc bảo vệ các khiếu nại pháp lý sau khi chúng tôi không còn cần dữ liệu này để thực hiện mục đích thu thập dữ liệu đó hoặc nếu bạn đã gửi phản đối vì những lý do liên quan đến tình huống cụ thể của bạn, miễn là vẫn chưa rõ liệu lý do chính đáng của chúng tôi có thắng thế hay không;\n\n- Quyền được thông báo theo Nghệ thuật. 19 GDPR: Nếu bạn đã thực hiện quyền cải chính, xóa hoặc hạn chế xử lý đối với bên kiểm soát, thì bên kiểm soát có nghĩa vụ thông báo cho tất cả người nhận mà dữ liệu cá nhân của bạn đã được tiết lộ về việc chỉnh sửa hoặc xóa dữ liệu hoặc hạn chế xử lý này, trừ khi điều này được chứng minh là không thể hoặc đòi hỏi nỗ lực không tương xứng. Bạn có quyền được thông báo về những người nhận này.\n\n- Quyền di chuyển dữ liệu theo Nghệ thuật. 20 GDPR: Bạn có quyền nhận dữ liệu cá nhân mà bạn đã cung cấp cho chúng tôi ở định dạng có cấu trúc, được sử dụng phổ biến và có thể đọc được bằng máy hoặc yêu cầu chuyển dữ liệu đó sang bộ điều khiển khác, nếu khả thi về mặt kỹ thuật.\n\n- Quyền rút lại sự đồng ý theo quy định của Nghệ thuật. 7(3) GDPR: Bạn có quyền rút lại sự đồng ý của mình đối với việc xử lý dữ liệu bất cứ lúc nào với hiệu lực trong tương lai. Trong trường hợp rút tiền, chúng tôi sẽ xóa dữ liệu liên quan ngay lập tức, trừ khi việc xử lý tiếp theo có thể dựa trên cơ sở pháp lý để xử lý mà không có sự đồng ý. Việc rút lại sự đồng ý không ảnh hưởng đến tính hợp pháp của việc xử lý dựa trên sự đồng ý trước khi rút lại.\n\n- Quyền khiếu nại theo quy định tại Điều. 77 GDPR: Nếu bạn cho rằng việc xử lý dữ liệu cá nhân của mình vi phạm GDPR, bạn có quyền khiếu nại với cơ quan giám sát, đặc biệt là tại Quốc gia thành viên nơi bạn cư trú, nơi bạn làm việc hoặc nơi bị cáo buộc vi phạm mà không ảnh hưởng đến bất kỳ biện pháp xử lý hành chính hoặc tư pháp nào khác.",
+  "privacyBlock7Title": "Quyền của người liên quan",
+  "privacyBlock8": "NẾU CHÚNG TÔI XỬ LÝ DỮ LIỆU CÁ NHÂN CỦA BẠN TRÊN CƠ SỞ LỢI ÍCH HỢP PHÁP LỚN NHẤT CỦA CHÚNG TÔI NHƯ MỘT PHẦN CÂN BẰNG LỢI ÍCH, BẠN CÓ QUYỀN PHẢN ĐỐI QUY TRÌNH NÀY BẤT CỨ LÚC NÀO VÌ CÁC LÝ DO PHÁT SINH TỪ TÌNH HUỐNG CỤ THỂ CỦA BẠN, CÓ HIỆU LỰC CHO TƯƠNG LAI. NẾU BẠN THỰC HIỆN QUYỀN ĐỐI TƯỢNG CỦA MÌNH, CHÚNG TÔI SẼ NGỪNG XỬ LÝ DỮ LIỆU LIÊN QUAN. TUY NHIÊN, QUY TRÌNH XỬ LÝ TIẾP THEO VẪN ĐƯỢC BẢO QUẢN NẾU CHÚNG TÔI CÓ THỂ CHỨNG MINH CÁC CƠ SỞ HỢP PHÁP HẤP DẪN CHO QUY TRÌNH XỬ LÝ NÀY ƯU ĐÃI LỢI ÍCH, quyền cơ bản và quyền tự do của bạn hoặc nếu quá trình xử lý nhằm mục đích khẳng định, thực hiện hoặc bảo vệ các khiếu nại pháp lý.\n\nNẾU CHÚNG TÔI XỬ LÝ DỮ LIỆU CÁ NHÂN CỦA BẠN CHO MỤC ĐÍCH TIẾP THỊ TRỰC TIẾP, BẠN CÓ QUYỀN ĐỐI TƯỢNG BẤT CỨ LÚC NÀO ĐỐI VỚI VIỆC XỬ LÝ DỮ LIỆU CÁ NHÂN LIÊN QUAN ĐẾN BẠN CHO MỤC ĐÍCH QUẢNG CÁO ĐÓ. BẠN CÓ THỂ THỰC HIỆN QUYỀN ĐỐI TƯỢNG CỦA MÌNH NHƯ ĐƯỢC MÔ TẢ Ở TRÊN.\n\nNẾU BẠN THỰC HIỆN QUYỀN ĐỐI TƯỢNG CỦA MÌNH, CHÚNG TÔI SẼ NGỪNG XỬ LÝ DỮ LIỆU LIÊN QUAN ĐẾN BẠN CHO MỤC ĐÍCH TIẾP THỊ TRỰC TIẾP.",
+  "privacyBlock8Title": "Quyền phản đối",
+  "privacyContractPriceSubmission": "Khi bạn, với tư cách là người dùng, duy trì dữ liệu hợp đồng của mình, giá mỗi đơn vị cho hợp đồng điện, nước và khí đốt sẽ được truyền đến máy chủ EHW+ ở Đức cùng với quốc gia và tiểu bang liên bang. Dữ liệu này được sử dụng để tính toán thống kê giá. Đối với người dùng ứng dụng, số liệu thống kê được hiển thị dưới dạng so sánh giá trong chế độ xem hợp đồng.\n\nBằng cách sử dụng ứng dụng, bạn đồng ý với việc thu thập dữ liệu ẩn danh nói trên.",
+  "privacyTitle": "Chính sách bảo mật",
+  "purchasesBuyNow": "Mua ngay",
+  "purchasesDisabledOnIOS": "Mua hàng trong ứng dụng bị vô hiệu hóa",
+  "purchasesDisabledOnIOSDescription": "Vui lòng kiểm tra xem iPhone của bạn có bị tắt tính năng mua hàng trong ứng dụng hay không (Cài đặt > Thời gian sử dụng > Hạn chế > Cài đặt và mua ứng dụng > Cho phép mua hàng trong ứng dụng)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Ứng dụng đã được cài đặt qua Testflight. Xin lưu ý rằng việc mua hàng chỉ hoạt động trong ứng dụng nếu bạn cài đặt ứng dụng qua App Store.",
+  "purchasesEarlyBirdSubscription": "Lưu ý: Nếu đăng ký khách hàng lần đầu này bị hủy thì sau đó sẽ không thể đăng ký lại.",
+  "purchasesExtensionMultipleObjectsDescription": "Nhập chỉ số đồng hồ cho bao nhiêu căn hộ/nhà/đồ vật tùy thích (thay vì chỉ cho một đồ vật)",
+  "purchasesExtensionMultipleObjectsTitlePart": "Quản lý nhiều đối tượng",
+  "purchasesExtensionStatisticsDescription": "Truy cập mức tiêu thụ điện/gas/nước/... hàng năm/hàng tháng/hàng tuần + điều chỉnh theo chu kỳ + tổng quan chi phí chi tiết + xuất Excel",
+  "purchasesExtensionStatisticsTitle": "Thống kê nâng cao",
+  "purchasesExtensionsInWork": "Các phần mở rộng tiếp theo được lên kế hoạch. Hãy tham gia vào cuộc khảo sát về tính năng để có tiếng nói của mình.",
+  "purchasesExtensionsSubtitle": "Mua một lần, sử dụng vĩnh viễn (không cần đăng ký)",
+  "purchasesExtensionsTitle": "Tiện ích mở rộng đơn",
+  "purchasesIOSRestorePurchases": "Khôi phục mua hàng",
+  "purchasesIOSRestorePurchasesDescription": "Nếu trước đây bạn đã mua thứ gì đó trong AppStore, bạn có thể khôi phục giao dịch mua đó.",
+  "purchasesPurchased": "Đã mua",
+  "purchasesPurchasedIncludedInPremium": "Bao gồm trong gói trả phí",
+  "purchasesPurchasedSubscribed": "Đã đăng ký",
+  "purchasesRedeemCode": "Đổi mã",
+  "purchasesStatisticsWithPremium": "Với Premium, bạn có quyền truy cập vào bảng so sánh hàng tháng{count, plural, =0{.}=1{.}other{ và cũng xem dữ liệu lịch sử cho {years}.}}",
+  "purchasesSubscribeNow": "Đăng ký ngay bây giờ",
+  "purchasesSubscribePremium": "Đăng ký trả phí",
+  "purchasesSubscribePremiumMonthly": "Đăng ký có thể hủy hàng tháng chỉ với {price} mỗi tháng",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Đăng ký có thể hủy hàng tháng với mức giá trung thành {price} mỗi tháng thay vì {priceNew}",
+  "purchasesSubscribePremiumTextLong": "Truy cập vào tất cả các tính năng trả phí trong thời gian đăng ký + nhiệt độ ngoài trời",
+  "purchasesSubscribePremiumYearly": "Đăng ký có thể hủy hàng năm chỉ với {price} mỗi năm",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Đăng ký có thể hủy hàng năm với mức giá trung thành {price} mỗi năm thay vì {priceNew}",
+  "purchasesUpgrade": "Nâng cấp",
+  "purchasesWebLegalNote": "Vì lý do pháp lý, chỉ có thể mua hàng đối với điện thoại iPhone hoặc Android có dịch vụ PlayStore.",
+  "purchasesWhyBuyText": "Khi mua hàng, bạn sẽ chịu các chi phí mà tôi phải gánh chịu khi xuất bản ứng dụng và hỗ trợ sự phát triển hơn nữa.",
+  "purchasesWhyBuyTitle": "Tại sao tôi nên mua thứ gì đó?",
+  "purchasesYourPurchases": "Bạn có quyền truy cập vào các gói cao cấp sau:",
+  "reading": "Đọc truy cập",
+  "readingDeleteConfirm": "Xóa bài đọc?",
+  "readingNew": "Đọc mới",
+  "readingPrefill": "Tự động điền đồng hồ đọc",
+  "readingPrefillDescription": "Chỉ số đồng hồ điền trước dựa trên các mục trước đó",
+  "readingPrefillDisableForAllCounters": "Tắt tính năng tự động điền cho tất cả các quầy",
+  "readingPrefillDisabled": "Tự động điền bị vô hiệu hóa",
+  "readingPrefillDisabledToast": "Tự động điền bị vô hiệu hóa",
+  "readingPrefillEnableForAllCounters": "Bật tự động điền cho tất cả các quầy",
+  "readingReminder": "{count, plural, one {Lời nhắc đọc} other {Lời nhắc đọc sách}}",
+  "readingReminderDisabled": "Lời nhắc đọc không hoạt động",
+  "readingReminderMultiBody": "{count, plural, one {Đọc số đọc từ máy {count} ngay bây giờ} other {Đọc số đọc từ {count} mét ngay bây giờ}}",
+  "readingReminderSingleBody": "Đọc giá trị {counterName} ngay bây giờ",
+  "readingReminders": "Lời nhắc đọc sách",
+  "readingRemindersChannel": "Lời nhắc đọc sách",
+  "readingSubmitted": "Đã gửi chỉ số đồng hồ",
+  "readingTime": "Thời gian đọc",
+  "readingUpdate": "Cập nhật cách đọc",
+  "readingWithFactor": "Đọc truy cập với hệ số",
+  "reallyDeleteActivity": "Thực sự xóa hoạt động này?",
+  "reallyDeleteContract": "Thực sự xóa hợp đồng này?",
+  "reallyDeleteCounter": "Bạn có chắc chắn muốn xóa bộ đếm không?",
+  "reallyDeleteCounterLink": "Bạn có chắc chắn muốn xóa liên kết giữa các quầy không?",
+  "reallyDeleteDetail": "Thực sự xóa chi tiết này?",
+  "reallyDeleteObject": "Bạn có chắc chắn muốn xóa đối tượng không?",
+  "reallyDeletePhoto": "Bạn có chắc chắn muốn xóa ảnh đọc đồng hồ không?",
+  "reallyDeleteValue": "Bạn có thực sự muốn xóa giá trị này?",
+  "refund": "Đền bù",
+  "reminderTime": "Thời gian nhắc nhở",
+  "reminderWeekdayExplanation": "Có một lời nhắc nhở để đọc không quá một lần một ngày.",
+  "reminderWeekdayExplanationSeasonal": "Đối với các đồng hồ đo có mức tiêu thụ theo mùa, lời nhắc chỉ được gửi trong các tháng có mức tiêu thụ (chỉ hoạt động nếu đưa ra giá trị của năm trước).",
+  "requestAccess": "Yêu cầu quyền truy cập",
+  "reset": "Cài lại",
+  "resetActivities": "Đặt lại tất cả hoạt động",
+  "residualConsumptionEstimated": "Ước tính mức tiêu thụ còn lại",
+  "residualGenerationEstimated": "Ước tính thế hệ dư",
+  "restoreDeletedCounter": "Bạn có muốn khôi phục đồng hồ đã xóa này không?",
+  "room": "Phòng",
+  "roomBathroom": "Phòng tắm",
+  "roomBedroom": "Phòng ngủ",
+  "roomChildrenRoom": "phòng trẻ em",
+  "roomDeleteConfirm": "Xóa phòng?",
+  "roomDiningRoom": "Phòng ăn",
+  "roomGarden": "Vườn",
+  "roomKitchen": "Phòng bếp",
+  "roomLivingRoom": "Phòng khách",
+  "roomName": "Tên phòng",
+  "roomNameHint": "Tùy chọn gán tên phòng",
   "roomNamePart": "trong {roomName}",
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "warningOutdatedSinceText": "kể từ {date}",
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
+  "roomNew": "Phòng mới",
+  "roomOffice": "Văn phòng",
+  "roomOther": "Khác",
+  "roomStoreRoom": "Phòng kho",
+  "roomType": "Loại phòng",
+  "roomWc": "nhà vệ sinh",
+  "rooms": "Phòng",
+  "scanQrCode": "Quét mã qr kích hoạt",
+  "seasonalCounter": "Bộ đếm theo mùa",
+  "seasonalElectricityCounter": "Đồng hồ điện theo mùa",
+  "selectedActivity": "Hoạt động đã chọn \"${activityName}\"",
+  "selectedAtAppStart": "Đối tượng trên cùng được chọn khi bắt đầu ứng dụng",
+  "settingColor": "Màu sắc",
+  "settingCounterTypeColor": "Màu sắc cho loại quầy này",
+  "settingCounterTypeColorAdvanced": "Công cụ chọn màu dành cho chuyên gia",
+  "settingCounterTypeColorDescription": "Nếu bạn không thích màu mặc định cho loại bộ đếm này, bạn có thể chỉ định màu khác.",
+  "settingEAuto": "Xe điện",
+  "settingHouseholdSize": "Quy mô hộ gia đình",
+  "settingHouseholdSizeDescription": "Số người trong gia đình bạn.",
+  "settingLanguageMode": "Ngôn ngữ",
+  "settingLivingArea": "Khu sinh hoạt",
+  "settingObjectLocation": "Vị trí",
+  "settingObjectLocationExplanation": "Việc nhập vị trí sẽ giúp điều chỉnh thông tin chi tiết và dịch vụ phù hợp với khu vực của bạn.",
+  "settingObjectLocationTitle": "Đối tượng của bạn nằm ở đâu?",
+  "settingObjectType": "Loại đối tượng",
+  "settingObjectTypeFlat": "Căn hộ",
+  "settingObjectTypeHouse": "Căn nhà",
+  "settingShowCounterReadingsChart": "Hiển thị biểu đồ đọc",
+  "settingShowHeatmap": "Hiển thị bản đồ nhiệt",
+  "settingShowPreliminaryCurve": "Hiển thị đường cong sơ bộ",
+  "settingUiColorPalette": "Bảng màu",
+  "settingUiMode": "Giao diện người dùng",
+  "settingUiModeDark": "Tối tăm",
+  "settingUiModeDarkOrLight": "Giao diện người dùng tối/sáng",
+  "settingUiModeLight": "Ánh sáng",
+  "settingUiModeOsDefault": "Hệ thống",
+  "settingWaterHeater": "Máy nước nóng",
+  "settingYearlyReset": "Đặt lại hàng năm",
+  "settingYearlyResetOn": "TRÊN",
+  "settings": "Cài đặt",
+  "settingsExternalServices": "Dịch vụ bên ngoài",
+  "settingsShowStromGedacht": "Có nên hiển thị các lời khuyên từ StromGedacht về lưới điện không?",
+  "settingsShowTabNewsDetailed": "Tab Tin tức/Mẹo có nên hiển thị không?",
+  "showAllYears": "Hiển thị tất cả các năm",
+  "signInWithApple": "Đăng nhập bằng Apple",
+  "signInWithGithub": "Đăng nhập bằng GitHub",
+  "signInWithGoogle": "Đăng nhập bằng Google",
+  "signInWithSocialAccount": "Bạn muốn sử dụng tài khoản xã hội nào để tạo hoặc đăng nhập vào tài khoản EHW+ của mình?",
+  "sinceInitialReading": "Kể từ lần đọc đầu tiên",
+  "smartMeterCountersTitle": "Đồng hồ đo nước vô tuyến",
+  "smartMeterErrorNoData": "Rất tiếc, không có dữ liệu nào mà ứng dụng có thể hiển thị.",
+  "smartMeterMisconfiguredWidgetCardButton": "Thiết lập đồng hồ thông minh",
+  "smartMeterMisconfiguredWidgetCardTitle": "Vui lòng thiết lập đồng hồ thông minh của bạn một cách chính xác.",
+  "smartMeterObtainDataAutomatically": "Lấy dữ liệu tự động",
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderUndefined": "Chưa đặt",
+  "smartMeterProviderWwgl": "Đất Wasserwerk Gerauer",
+  "smartMeterServiceProvider": "Nhà cung cấp dịch vụ",
+  "smartMeterSettingsScreenSyncButton": "Đồng bộ dữ liệu tiêu thụ",
+  "smartMeterSettingsScreenSyncingDialogError": "Lỗi",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Đã xảy ra lỗi sau trong quá trình đồng bộ hóa: {errorMessage}",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Được rồi",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Đang đồng bộ hóa",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Tiến độ: {progressInPercent}%",
+  "smartMeterTabConsumptions": "Tiêu thụ",
+  "smartMeterTabProductions": "Sản phẩm",
+  "smartmeterInfocodeBannerText": "Đồng hồ thông minh {smartmeterId} đã nhận được mã thông tin: {infocode}",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "Nhiệt độ của đồng hồ nước {smartmeterId} của bạn đã giảm xuống dưới 3°C. Có nguy cơ có sương giá! Cách nhiệt đồng hồ và đường ống hoặc làm nóng khu vực để tránh hư hỏng.",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện dòng nước chảy liên tục. Điều này có thể chỉ ra sự rò rỉ. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình bạn xem có bị rò rỉ không. Nhà vệ sinh và vòi nước nhỏ giọt là nguyên nhân phổ biến.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện mức tiêu thụ nước cao bất thường, điều này có thể cho thấy đường ống bị vỡ. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình của bạn xem có rò rỉ hoặc hỏng hóc lớn không. Cảnh báo cũng có thể xuất hiện nếu bạn đã sử dụng một lượng lớn nước, ví dụ: để làm đầy một hồ bơi.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện thấy mức tiêu thụ nước cao bất thường, điều này có thể cho thấy đường ống bị vỡ hoặc bể bơi đã đầy. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình của bạn xem có rò rỉ hoặc hỏng hóc lớn không.",
+  "soFar": "cho đến nay",
+  "social": "Truyền thông xã hội",
+  "socialEmail": "E-mail",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialLinkedIn": "LinkedIn",
+  "socialTwitter": "X",
+  "socialYouTube": "YouTube",
+  "solarThermalCollector": "Bộ thu nhiệt mặt trời",
+  "sortActivities": "Sửa đổi thứ tự hoạt động",
+  "source": "Nguồn:",
+  "stove": "Cái lò",
+  "stromGedachtAgreement": "Tôi đồng ý rằng mã bưu chính của tôi (nếu được cung cấp) sẽ được truyền tới TransnetBW để truy xuất thông báo StromGedacht.",
+  "subscribeToSmartMeterInfocodeEvents": "Tôi muốn được thông báo về việc tiêu thụ bất ngờ",
+  "supplementaryPayment": "Thanh toán bổ sung",
+  "support": "Hỗ trợ/Phản hồi",
+  "supportBug": "Sâu bọ",
+  "supportGivePraise": "Khen ngợi",
+  "supportGivePraiseLong": "Bạn có thích ứng dụng này không? Cảm ơn! Truyền bá!",
+  "supportGivePraiseRating": "Đánh giá ứng dụng trong {store}.",
+  "supportGivePraiseRecommendation": "Giới thiệu ứng dụng cho bạn bè và gia đình. Cảm ơn bạn cho bất kỳ đề nghị!",
+  "supportMakeSuggestion": "Đề xuất điều gì đó",
+  "supportMakeSuggestionLong": "Ứng dụng này tồn tại nhờ đề xuất của người dùng. Bạn có gợi ý gì không?",
+  "supportQuestion": "Đặt một câu hỏi",
+  "supportQuestionBox": "Tôi có thể giúp gì cho bạn?",
+  "supportQuestionLong": "Nó hoạt động như thế nào? Liệu nó có thể thực hiện được không? Dưới đây là câu trả lời.",
+  "supportQuestionNotFound": "Câu hỏi của bạn chưa được trả lời? Tôi rất sẵn lòng giúp đỡ.",
+  "supportRecommend": "Tôi sử dụng ứng dụng đọc đồng hồ EHW+ để theo dõi mức tiêu thụ năng lượng của mình và các chi phí liên quan. Có lẽ đó cũng là điều dành cho bạn?\n\nThông tin thêm tại https://www.ehwplus.com",
+  "supportReportBug": "Báo cáo lỗi qua thư",
+  "supportReportBugAffectedPages": "Lỗi xảy ra ở trang nào? (nếu có)",
+  "supportReportBugLong": "Ứng dụng tuyệt vời! Nhưng chắc chắn, mọi thứ có thể đi sai hướng. Nếu bạn báo cáo lỗi, bạn sẽ làm cho ứng dụng tốt hơn.",
+  "supportReportBugScreenshotsPlease": "Vui lòng đính kèm ảnh chụp màn hình qua thư, tốt nhất là có đánh dấu lỗi.",
+  "supportReportBugTextIs": "Vui lòng mô tả ngắn gọn hành vi không chính xác hiện tại, tức là chính lỗi đó.",
+  "supportReportBugTextShould": "Vui lòng mô tả ngắn gọn hành vi mong muốn, tức là nó thực sự phải như thế nào.",
+  "swimmingPool": "Bể bơi",
+  "sync": "Đồng bộ hóa",
+  "syncAutomaticTitle": "Dữ liệu cục bộ có thể bị ghi đè",
+  "syncDriveDataUsage": "Nếu bạn cấp cho EHW+ quyền truy cập vào Google Drive, ứng dụng sẽ có quyền truy cập đọc và ghi vào các tệp do chính ứng dụng đó tạo. Rất tiếc, các tệp do người khác tạo thông qua ứng dụng này không hiển thị với ứng dụng, điều đó có nghĩa là không thể chia sẻ dữ liệu giữa nhiều tài khoản qua Google Drive.",
+  "syncDriveLoggedIn": "Dữ liệu của bạn được tự động đồng bộ hóa trên nhiều thiết bị. Tài khoản Google sau được sử dụng:",
+  "syncDriveLoggedInNoAuto": "Dữ liệu của bạn sẽ tự động được tải lên Google Drive sau khi thay đổi. Dữ liệu mới hơn từ đám mây chỉ ghi đè dữ liệu cục bộ khi bạn nhấp vào đối tượng. Tài khoản Google sau được sử dụng:",
+  "syncObjectIsLocked": "Dữ liệu đối tượng đang được cập nhật và không thể chỉnh sửa trong thời gian này.",
+  "syncShareWithOthersNotInWeb": "Việc cấp quyền truy cập hiện chỉ có thể thực hiện được thông qua ứng dụng.",
+  "syncShareWithOthersSubtitle": "Nếu bạn muốn nhập chỉ số đồng hồ cùng với những người dùng Google khác, EHW+ phải được cấp toàn quyền truy cập vào Google Drive.",
+  "syncShareWithOthersTitle": "Chia sẻ với người khác?",
+  "syncStatusFailedLong": "Không thể đồng bộ hóa, bạn tự chịu rủi ro khi chỉnh sửa",
+  "syncStatusFailedLongNoAutoSync": "Không thể đồng bộ hóa, bạn tự chịu rủi ro khi chỉnh sửa",
+  "syncStatusSyncRemoteHasLatest": "Tệp trên đám mây cập nhật hơn tệp cục bộ",
+  "syncWithGoogleDriveDescription": "Vì sẽ thật đáng tiếc nếu số liệu trên đồng hồ bị mất, hãy đồng bộ hóa đối tượng của bạn với Google Drive ngay bây giờ!",
+  "tabCounters": "Mét",
+  "tabNews": "Mẹo/Tin tức",
+  "tabObject": "Sự vật",
+  "tabStatistics": "Thống kê",
+  "taxRate": "Thuế suất",
+  "teaserPurchaseRenewableEnergies": "Máy đếm năng lượng tái tạo yêu cầu Premium.",
+  "teaserPurchaseVirtualCounter": "Thêm bộ đếm ảo với Premium.",
+  "teaserPurchaseWaterExtractionCounter": "Mở khóa quầy chiết nước bằng Premium.",
+  "termsOfUsageBlock1": "Quyền phản đối",
+  "termsOfUsageBlock1Title": "Điều khoản sử dụng chung cho việc sử dụng ứng dụng",
+  "termsOfUsageBlock2": "Không được sử dụng ứng dụng và các chức năng của nó theo cách lạm dụng. Vui lòng chỉ sử dụng ứng dụng trong phạm vi được pháp luật cho phép và tuân theo các điều khoản sử dụng của chúng tôi. Trong trường hợp vi phạm luật hiện hành của Đức hoặc điều khoản sử dụng của chúng tôi, nhà cung cấp có quyền loại bạn khỏi việc sử dụng ứng dụng.",
+  "termsOfUsageBlock2Title": "Thông tin chung về sử dụng",
+  "termsOfUsageBlock2a": "Dữ liệu sử dụng ẩn danh\nChúng tôi sử dụng phân tích của riêng mình để liên tục cải thiện ứng dụng.\nChỉ dữ liệu ẩn danh được truyền đi.\nDữ liệu không được chuyển cho bên thứ ba.\nĐể biết thêm thông tin, hãy đi tới Cài đặt > Bảo mật > {privacyBlock3Title}",
+  "termsOfUsageBlock2b": "Báo cáo lỗi\nSentry (tự lưu trữ) được sử dụng để liên tục cải tiến ứng dụng.\nBáo cáo lỗi không được xử lý cũng như không chia sẻ với bên thứ ba.\nĐể biết thêm thông tin, hãy đi tới Cài đặt > Bảo mật > {privacyBlock3Title}",
+  "termsOfUsageBlock2c": "Thông tin cá nhân\nNếu bạn sử dụng Google Drive Sync, EHW+ vẫn không có quyền truy cập vào dữ liệu bạn đã nhập. Để biết thêm thông tin, hãy đi tới Cài đặt > Quyền riêng tư > {privacyBlock3Title}.",
+  "termsOfUsageBlock3": "Nhà cung cấp không đảm bảo tính khả dụng, độ tin cậy, chức năng hoặc sự phù hợp của ứng dụng cho mục đích của bạn. Trách nhiệm pháp lý được loại trừ trừ khi bắt buộc theo Đạo luật trách nhiệm pháp lý về sản phẩm, do cố ý, sơ suất nghiêm trọng, thương tích đến tính mạng, tay chân hoặc sức khỏe, giả định đảm bảo về chất lượng, che giấu sai sót một cách gian lận hoặc vi phạm các nghĩa vụ hợp đồng thiết yếu. Nghĩa vụ hợp đồng thiết yếu là những nghĩa vụ mà việc thực hiện là cần thiết để thực hiện đúng hợp đồng và các bên tham gia hợp đồng có thể thường xuyên dựa vào sự tuân thủ của chúng. Việc bồi thường thiệt hại do vi phạm các nghĩa vụ hợp đồng thiết yếu được giới hạn ở mức thiệt hại có thể thấy trước điển hình của loại hợp đồng này, trừ khi có cố ý hoặc sơ suất nghiêm trọng.",
+  "termsOfUsageBlock3Title": "Trách nhiệm pháp lý",
+  "termsOfUsageBlock4": "Nhà cung cấp không đảm bảo tính chính xác của kết quả tính toán. Người dùng phải cập nhật giá được lưu trong ứng dụng (giá cơ sở, giá tiêu thụ, v.v.) một cách cẩn thận và tự chịu trách nhiệm để đảm bảo rằng hóa đơn được tạo tương ứng với số tiền thực tế phải trả.",
+  "termsOfUsageBlock4Title": "Trách nhiệm của người dùng",
+  "termsOfUsageTitle": "Điều khoản sử dụng chung cho việc sử dụng ứng dụng",
+  "termsOfUsageTitleShort": "Điều khoản sử dụng",
+  "tibberAccessToken": "Mã thông báo truy cập",
+  "tibberActionSaveAuthorizationSettings": "Lưu cài đặt ủy quyền",
+  "tibberBasicAuth": "Xác thực cơ bản",
+  "tibberBasicAuthEnterPassword": "Vui lòng nhập mật khẩu",
+  "tibberBasicAuthEnterUsername": "Vui lòng nhập tên người dùng",
+  "tibberBasicAuthPassword": "Mật khẩu",
+  "tibberBasicAuthUsername": "Tên người dùng",
+  "tibberConsentScreenBenefit1Description": "Theo dõi mức tiêu thụ của bạn trong thời gian thực và khám phá những kẻ tiêu thụ năng lượng tiềm ẩn.",
+  "tibberConsentScreenBenefit1Title": "Xem mức tiêu thụ điện của bạn",
+  "tibberConsentScreenConfigureLaterButton": "Thiết lập sau",
+  "tibberConsentScreenConfigureNowButton": "Thiết lập Tibber Pulse ngay bây giờ",
+  "tibberConsentScreenDescription": "Bạn có phải là khách hàng của Tibber hoặc dự định trở thành một khách hàng không? Hiện tại chúng tôi hỗ trợ Pulse để cải thiện khả năng giám sát năng lượng. Xin lưu ý rằng rất tiếc dữ liệu lịch sử từ Pulse chỉ có sẵn cho những khách hàng có hợp đồng Tibber đang hoạt động.",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Mức tiêu thụ hàng giờ của bạn kể từ ngày 1 tháng 3 sẽ được ẩn danh và cung cấp cho nghiên cứu của Goethe.",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Bạn có muốn tham gia Nghiên cứu Goethe không?",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Có, tôi muốn tham gia Nghiên cứu Goethe",
+  "tibberConsentScreenGoetheStudySectionHeader": "Tham gia dự án nghiên cứu",
+  "tibberConsentScreenHeader": "Tính năng mới: Dữ liệu tiêu thụ từ Tibber Pulse",
+  "tibberConsentScreenStoreLink": "Ghé thăm cửa hàng Tibber",
+  "tibberConsumptionEntryTotalCost": "Tổng chi phí: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Tổng lợi nhuận: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 giờ kể từ {startTime} trên {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Từ: {startTime} đến {endDate}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "Tháng {month}",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Một tháng bắt đầu {month}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Một giờ từ {startTime} trên {date}",
+  "tibberConsumptionEntryViewTimeSpanYear": "Năm {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Một năm bắt đầu từ {year}",
+  "tibberEnterAccessToken": "Vui lòng nhập mã thông báo truy cập",
+  "tibberErrorAccessTokenInvalid": "Có vẻ như mã thông báo truy cập không hợp lệ",
+  "tibberErrorConnectivityShowCacheInstead": "Không thể truy xuất dữ liệu tiêu thụ gần đây. Thay vào đó, hiển thị các giá trị được lưu trong bộ nhớ cache.",
+  "tibberErrorNoHomes": "Không có ngôi nhà nào được liên kết với tài khoản này",
+  "tibberErrorNoSubscription": "Để có toàn quyền truy cập vào dữ liệu lịch sử thông qua API, bạn cần có hợp đồng điện Tibber đang hoạt động cho ngôi nhà đã chọn.",
+  "tibberErrorRateLimit": "Đã vượt quá giới hạn tốc độ API Tibber. Vui lòng đợi ít nhất 5 phút trước khi thử lại.",
+  "tibberErrorSmartMeterMisconfigured": "Đồng hồ thông minh của bạn dường như bị định cấu hình sai.",
+  "tibberErrorUndefined": "Đã xảy ra lỗi không mong muốn: {error}",
+  "tibberHomeSelectorHomeId": "ID nhà: {homeId}",
+  "tibberHomeSelectorLabel": "Trang chủ",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Ngôi nhà này không hỗ trợ đo lường trực tiếp hoặc dữ liệu tiêu thụ lịch sử. Vui lòng chọn nhà khác.",
+  "tibberLiveMeasurementCounterCardViewFooter": "Đo lường trực tiếp",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Tổng mức tiêu thụ (kể từ nửa đêm)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Tiêu thụ (giờ trước)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Chi phí tích lũy",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Tổng sản lượng (kể từ nửa đêm)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Sản xuất (giờ trước)",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Phần thưởng tích lũy",
+  "tibberLiveMeasurementWidgetAveragePower": "Công suất trung bình",
+  "tibberLiveMeasurementWidgetCurrentL1": "Hiện tại (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Hiện tại (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Hiện tại (L3)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Đọc đồng hồ (Tiêu thụ)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Đọc đồng hồ (Sản xuất)",
+  "tibberLiveMeasurementWidgetMaxPower": "Công suất tối đa",
+  "tibberLiveMeasurementWidgetMinPower": "Công suất tối thiểu",
+  "tibberLiveMeasurementWidgetPower": "Quyền lực",
+  "tibberLiveMeasurementWidgetPowerFactor": "Hệ số công suất",
+  "tibberLiveMeasurementWidgetPowerProduction": "Sản xuất điện",
+  "tibberLiveMeasurementWidgetTimestamp": "Dấu thời gian",
+  "tibberLiveMeasurementWidgetTitle": "Mức tiêu thụ/sản xuất hiện tại ở {time}",
+  "tibberLiveMeasurementWidgetUnitA": "MỘT",
+  "tibberLiveMeasurementWidgetUnitV": "V.",
+  "tibberLiveMeasurementWidgetUnitW": "W",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Điện áp (Giai đoạn 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Điện áp (Giai đoạn 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Điện áp (Giai đoạn 3)",
+  "tibberLiveMeasurementsWidgetConnecting": "Đang kết nối với Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "Đã xảy ra lỗi khi kết nối với Tibber Pulse. Vui lòng kiểm tra mã thông báo truy cập và kết nối internet của bạn.",
+  "tibberLiveMeasurementsWidgetNotSupported": "Các phép đo trực tiếp không được hỗ trợ cho ngôi nhà này.",
+  "tibberMessageAccessTokenUpdated": "Đã cập nhật thành công mã thông báo truy cập",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Trạng thái đăng ký Tibber",
+  "tibberStatusWidgetTitle": "Quản lý bộ đệm",
+  "tibberSubscriptionStatusActive": "tích cực",
+  "tibberSubscriptionStatusInactive": "không hoạt động",
+  "tibberSubscriptionStatusLoading": "đang tải...",
+  "tibberWhereIsMyAccessToken": "Tôi có thể tìm \"mã thông báo truy cập\" của mình ở đâu?",
+  "timeBefore": "Trước",
+  "timeDayAgo": "một ngày trước",
+  "timeDays": "ngày",
+  "timeDaysAgo": "{days} ngày trước",
+  "timeDaysWithin": "ngày",
+  "timeForFirstYear": "trong năm đầu tiên",
+  "timeFriday": "Thứ sáu",
+  "timeFromDate": "Từ {date}",
+  "timeFromUndefined": "Không xác định",
+  "timeHours": "giờ",
+  "timeHoursAgo": "{hours} giờ trước",
+  "timeInFuture": "trong tương lai",
+  "timeJustNow": "ngay bây giờ",
+  "timeLastUpdated": "cập nhật lần cuối",
+  "timeMinutes": "phút",
+  "timeMinutesAgo": "{minutes} phút trước",
+  "timeMonday": "Thứ hai",
+  "timeMonth": "tháng",
+  "timeMonths": "tháng",
+  "timeMonthsAgo": "{months} tháng trước",
+  "timeMonthsWithin": "tháng",
+  "timePeriodYearStart": "hàng năm",
+  "timeReminderAtEnd": "Cuối cùng",
+  "timeReminderAtStart": "Lúc bắt đầu",
+  "timeRightNow": "Ngay lập tức",
+  "timeSaturday": "Thứ bảy",
+  "timeSeconds": "giây",
+  "timeSunday": "Chủ nhật",
+  "timeThursday": "Thứ năm",
+  "timeToday": "Hôm nay",
+  "timeTuesday": "Thứ ba",
+  "timeUntilDate": "Cho đến {date}",
+  "timeUntilUnlimited": "Không giới hạn",
+  "timeWednesday": "Thứ Tư",
+  "timeWeek": "tuần",
+  "timeWeeks": "tuần",
+  "timeWithin": "Trong {duration}",
+  "timeYesterday": "Hôm qua",
+  "unitCm": "cmt",
+  "unitCmLong": "cmt",
+  "unitCmShort": "cmt",
+  "unitCubicMetersLong": "{count, plural, one {Mét khối (m³)} other {Mét khối (m³)}}",
+  "unitCubicMetersShort": "m³",
+  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "unitGJShort": "GJ",
+  "unitGigaByteLong": "GB",
+  "unitGigaByteShort": "GB",
+  "unitHoursLong": "{count, plural, one {Giờ} other {Giờ (h)}}",
+  "unitHoursShort": "h",
+  "unitKWhLong": "{count, plural, one {Kilowatt giờ (kWh)} other {Kilowatt giờ (kWh)}}",
+  "unitKWhShort": "kWh",
+  "unitKgLong": "{count, plural, one {Kilôgam (kg)} other {Kilôgam (kg)}}",
+  "unitKgShort": "kg",
+  "unitLiters": "lít",
+  "unitLitersLong": "{count, plural, one {Lít (ℓ)} other {Lít (ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {Megawatt giờ (MWh)} other {Megawatt giờ (MWh)}}",
+  "unitMWhShort": "MWh",
+  "unitMegaByteLong": "MB",
+  "unitMegaByteShort": "MB",
+  "unitNone": "không có",
+  "unitNoneFormatted": "{count, plural, one {đơn vị} other {đơn vị}}",
+  "unitPercentLong": "Phần trăm (%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "mét vuông",
+  "unitSquareMetersLong": "{count, plural, one {Mét vuông (m2)} other {Mét vuông (m2)}}",
+  "unitSquareMetersShort": "mét vuông",
+  "updateAvailable": "Phiên bản ứng dụng {oldVersion} chưa cập nhật. Bạn có thể cập nhật lên phiên bản {newVersion}.",
+  "updateObjectName": "Thay đổi tên đối tượng",
+  "upgradeDescription": "Ứng dụng có thể làm được nhiều hơn thế. Tổng quan chi phí tốt hơn, thống kê nhiều hơn, xuất Excel, nhiều bộ đếm hơn, ...",
+  "useDismissibleSettings": "Xóa bằng cử chỉ vuốt",
+  "useDismissibleSettingsDetailed": "Bộ đếm, hợp đồng, v.v. có thể bị xóa bằng chuyển động vuốt sang bên",
+  "usedForPaymentsRepayments": "Thanh toán trước, giá cơ bản và tiền thưởng",
+  "valueLess": "{value} ít hơn",
+  "valueMore": "{value} thêm",
+  "versionIsUpToDate": "Phiên bản ứng dụng mới nhất được phát hành cho tất cả người dùng là {version}.",
+  "virtualCounter": "Máy đo ảo",
+  "virtualCounterMasterCounter": "Đồng hồ đo chính",
+  "virtualCounterMasterCounterAttach": "Chọn đồng hồ chính",
+  "virtualCounterMasterCounterDescription": "Thông tin: Đồng hồ chính là cơ sở để tính toán đồng hồ ảo, ví dụ: đồng hồ điện chính hoặc đồng hồ nước chính.",
+  "virtualCounterMetersToBeAdded": "Số mét cần được thêm vào",
+  "virtualCounterMetersToBeAddedDescription": "Những chỉ số đồng hồ nào sẽ được thêm vào đồng hồ chính, ví dụ: đồng hồ đo phát điện.",
+  "virtualCounterMetersToBeSubtracted": "Số mét được trừ",
+  "virtualCounterMetersToBeSubtractedDescription": "Những chỉ số nào của đồng hồ đo nên được trừ khỏi đồng hồ chính, ví dụ: \"đồng hồ bơm nhiệt\", \"đồng hồ cấp điện\".",
+  "virtualCounterNotConfigured": "Vui lòng kiểm tra cài đặt của đồng hồ ảo của bạn. Không có gì có thể được tính toán.",
+  "warmWater": "Nước ấm",
+  "warning": "Cảnh báo",
+  "warningCounterReplacementDetected": "Giá trị mới thấp hơn giá trị đo trước đó. Đồng hồ đã được thay thế chưa?",
   "warningNextReminderText": "Lời nhắc tiếp theo là {date}.",
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "counterConsiderForTotalConsumptions": "Xem xét tổng mức tiêu thụ",
-  "consumptionYearlyDetailedElectricity": "Mức tiêu thụ điện của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
-  "consumptionYearlyDetailedGas": "Mức tiêu thụ khí đốt của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
-  "consumptionYearlyDetailedComparisonLess": "Bạn tiêu thụ{verbSuffix} {percentage} ít hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
-  "consumptionYearlyDetailedComparisonMore": "Bạn tiêu thụ{verbSuffix} {percentage} hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
-  "consumptionYearlyDetailedComparisonEqual": "Bạn tiêu thụ{verbSuffix} về giống như một hộ gia đình trung bình có {householdSize} {personLabel}.",
-  "consumptionWaterDailyMonthlySingle": "Bạn tiêu thụ khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
-  "consumptionWaterDailyMonthlyPerPerson": "Mỗi người, mọi người tiêu dùng khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
-  "consumptionYearlyDetailedLevel2": "là bình thường."
+  "warningOutdatedSinceText": "kể từ {date}",
+  "warningReadingBiggerThanOldValue": "Giá trị mới cao hơn chỉ số đồng hồ trước đó.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "Giá trị mới cao hơn số đọc của đồng hồ trước đó. Bạn đã đổ đầy bình chưa?",
+  "warningReadingOutdatedForYearlyResetCounter": "Thiếu số đọc đồng hồ cuối cùng của năm {lastYear} cho {deviceTypeName} {roomNamePart}. Điều này là cần thiết để tính toán chính xác tổng lượng tiêu thụ hàng năm.",
+  "warningReadingOutdatedFrequency": "Chỉ số đồng hồ mới nhất cho {deviceTypeName} {roomNamePart} đã lỗi thời {outdatedSinceText}.{whenNotifyDateText}",
+  "warningReadingSeemsTooBig": "Giá trị mới khá cao. Việc đọc có được thực hiện chính xác không?",
+  "warningReadingSeemsTooSmall": "Giá trị mới khá thấp. Nó đã được đọc chính xác chưa?",
+  "warningReadingSmallerThanOldValue2": "Giá trị mới thấp hơn giá trị đo trước đó. Việc đọc có được thực hiện chính xác không?",
+  "warningYearlyReset": "Không đọc sách vào đầu năm",
+  "wasteWaterPriceEnabled": "Chi phí nước ngọt và nước thải được thể hiện riêng (có liên quan đến đồng hồ khấu trừ)",
+  "waterConsumption": "Tiêu thụ nước",
+  "waterExtractionMinimumLevelLower": "Việc khấu trừ diễn ra vì mức tiêu thụ thấp hơn ngưỡng.",
+  "waterMeterEventsInformation": "{count, plural, =1 {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong trường hợp như vậy.} other {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong những trường hợp như vậy.}}",
+  "watersupplierAccessRequestQ1": "Bạn có phải là chủ sở hữu của một bất động sản trong khu vực lưu vực của nhà máy nước và muốn có quyền truy cập vào số liệu của đồng hồ vô tuyến không?",
+  "watersupplierAccessRequestQ2": "Bạn đã yêu cầu quyền truy cập chưa? Tiếp theo, bạn cần tạo tài khoản người dùng EHW+.",
+  "watersupplierAccessRequestQ3": "Bạn đã yêu cầu quyền truy cập và nhận được mã QR của mình chưa?",
+  "watersupplierAccessRequestQ4": "Bạn có muốn nhận thông báo từ đồng hồ đo để bạn có thể phản ứng trong trường hợp vỡ đường ống hoặc xả bồn cầu chẳng hạn?",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Rất tiếc, điều đó không hiệu quả. Đó là do máy chủ của chúng tôi. Tốt hơn hãy thử lại vào một ngày sau đó!",
+  "watersupplierCompleteMeterIdTryAgain": "Bạn sẽ không vượt qua! Vui lòng nhập lại ba chữ số cuối của id đồng hồ của bạn!",
+  "watersupplierMeterIdValidationStep": "Chúng tôi đang kiểm tra id đồng hồ của bạn.",
+  "watersupplierNoAccess": "Bạn không còn có quyền truy xuất dữ liệu nữa.",
+  "watersupplierNoAccessDetailedMessage": "Nếu bạn cho rằng mình vẫn có quyền truy cập, vui lòng quét lại mã kích hoạt. Nếu mã truy cập không còn hợp lệ, vui lòng gửi yêu cầu truy cập mới.",
+  "watersupplierOpenReminderSettings": "Mở cài đặt",
+  "watersupplierRadioMeterDefaultName": "Đồng hồ nước lạnh vô tuyến",
+  "watersupplierScanQrCodeApprovalInProgress": "Chúng tôi hiện đang ủy quyền cho tài khoản của bạn để bạn có thể truy cập số liệu của đồng hồ vô tuyến trong tương lai.",
+  "watersupplierScanQrCodeCommand": "Quét mã QR bên trái (mã kích hoạt)!",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Quyền truy cập vào đồng hồ nước vô tuyến của bạn đã bị hủy.",
+  "watersupplierScanQrCodeScanSuccessful": "Wow, mã kích hoạt trông đẹp quá! Vui lòng nhập ba chữ số cuối của id đồng hồ của bạn!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Lưu ý: ID đồng hồ ban đầu của bạn có thể có nhiều hơn 8 ký tự.",
+  "watersupplierScanQrCodeTitle": "Kích hoạt đồng hồ đo sóng vô tuyến",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Vâng! Đồng hồ đo nước vô tuyến loại \"Nước lạnh\" của bạn đã được thêm thành công. Bạn có thể tìm thấy nó trong số các mét khác.",
+  "watersupplierScanQrCodeValidation": "Đã phát hiện mã QR, hãy xác thực nó.",
+  "watersupplierScanQrCodeValidationFailed": "Xin lỗi, mã không hợp lệ. Bạn có muốn thử lại không?",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Bạn đã quét mã kích hoạt thay vì mã thu hồi. Vui lòng thử lại!",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Bạn đã quét mã thu hồi thay vì mã kích hoạt. Vui lòng thử lại!",
+  "watersupplierScanRevokeQrCodeCommand": "Quét đúng mã QR (thu hồi mã)!",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Xóa máy đo vô tuyến",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Quét mã thu hồi",
+  "watersupplierUnlinkRadioMeterDescription1": "Bạn có muốn xóa đồng hồ đo sóng vô tuyến mà không làm mất hiệu lực mã kích hoạt không?",
+  "watersupplierUnlinkRadioMeterDescription2": "Bạn không còn muốn truy cập vào dữ liệu máy đo sóng vô tuyến của mình nữa? Xin lưu ý: sau khi quét mã hủy, mã kích hoạt sẽ không hợp lệ. Bất kỳ tài khoản người dùng nào sử dụng mã kích hoạt sẽ mất quyền truy cập.",
+  "watersupplierUnlinkRadioMeterTitle": "Chấm dứt quyền truy cập vào máy đo sóng vô tuyến",
+  "watersupplierYourSupplier": "Nhà cung cấp nước của bạn",
+  "yearlyConsumption": "Tiêu thụ hàng năm cho đến nay",
+  "yearlyCosts": "Chi phí tiêu thụ hàng năm cho đến nay",
+  "youtubeConsent1": "Chúng tôi cần sự đồng ý của bạn để hiển thị nội dung Youtube được nhúng. Bạn có thể hiển thị nội dung này (và do đó cũng như tất cả nội dung Youtube khác trong ứng dụng) chỉ bằng một cú nhấp chuột và cũng có thể tắt nó một lần nữa.",
+  "youtubeConsent2": "Luôn hiển thị nội dung Youtube",
+  "youtubeConsent3": "Tôi đồng ý với nội dung bên ngoài được hiển thị cho tôi. Điều này có thể dẫn đến việc dữ liệu cá nhân được truyền sang nền tảng của bên thứ ba. Thông tin thêm về điều này trong của chúng tôi",
+  "zipCode": "mã vùng",
+  "zipCodeValidationLength": "Vui lòng nhập mã bưu chính {digits} chữ số",
+  "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số"
 }

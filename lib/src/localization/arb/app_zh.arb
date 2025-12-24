@@ -1,442 +1,7 @@
 {
-  "appDescriptionShort": "对钱包有利，对气候有利",
   "@appDescriptionShort": {
     "description": "Marketing claim"
   },
-  "appDescriptionLong": "<p>欢迎使用 <b>EHW+</b>，您的抄表应用程序适用于 <b>E</b>lectricity、<b>H</b>eating 和 <b>W</b>ater。通过我们，您可以轻松跟踪 <b> <b>0 您使用了多少 <b>1 <b>2 免费使用 <b>3。<b>4",
-  "contactTitle": "代表人：",
-  "contact": "EHW+ 服务有限公司\n格奥尔格赫伯特大街 8 号\n68519 菲恩海姆\n\n联系方式\n\n电话：06204/7383382\n邮箱：info@ehwplus.com",
-  "euDisputeResolution": "欧盟争议解决\n\n欧盟委员会提供在线争议解决 (OS) 平台：https://ec.europa.eu/consumers/odr/。\n您可以在上面的印记中找到我们的电子邮件地址。\n\n消费者争议解决/通用争议解决机构\n\n我们不愿意也没有义务参与消费者仲裁委员会的争议解决程序。",
-  "consent1Hello": "你好",
-  "consent2ThankYou": "感谢您使用 EHW+！",
-  "consent3Video": "您想观看简短的介绍视频吗？",
-  "consent4BeforeYouCanContinue": "在您可以继续之前",
-  "consent5ErrorReportingTitle": "错误报告",
-  "consent6ContractPricesPerUnitTitle": "电/水/气价格",
-  "consent7ContractPricesPerUnit": "为了能够估算出与其他 EHW+ 用户相比您当前支付的费用，价格连同国家/地区和州一起传输到德国的 EHW+ 服务器。只有在您同意转让的情况下，您才可以访问价格统计数据。为了确保匿名，统计数据只能在传输最少数量的价格后显示。",
-  "consent11AnalyticsTitle": "分析数据",
-  "consent12Analytics": "为了评估应用程序或单个功能的成功，应用程序会传输匿名的使用统计数据。数据不会传输给第三方。这些数据用于应用程序的进一步开发。",
-  "consent13StromGedachtTitle": "StromGedacht 的电网稳定性通知",
-  "consent13StromGedacht": "StromGedacht 是 TransnetBW 提供的一项服务，提供有关电网稳定性的信息以及何时应优先使用电力的建议。随着能源转型对输电网的挑战越来越大，德国西南部的家庭也参与其中。为了接收您所在位置的信息，您的邮政编码（如果在应用程序中输入）将被传输到 TransnetBW StromGedacht API。不传输或链接其他数据。",
-  "stromGedachtAgreement": "我同意将我的邮政编码（如果提供）传输到 TransnetBW 以检索 StromGedacht 通知。",
-  "priceSubmissionAgreement": "我同意将每单位的电/气/水价格传输到 EHW+ 服务器",
-  "googleAnalyticsAgreement": "我同意将有关应用程序使用的匿名数据传输给 EHW+ Services GmbH。",
-  "continueAcceptPart1": "使用 EHW+ 应用程序即表示您同意",
-  "continueAcceptPart2": "。有关收集和使用匿名数据和个人数据的更多信息，请参阅",
-  "termsOfUsageTitleShort": "使用条款",
-  "faqAboutDeveloperTitle": "EHW+背后是谁？",
-  "faqAboutDeveloperBody1": "感谢您对 EHW+ 的兴趣。 EHW+ 由我 Timo Bähr 于 2020 年 12 月发布。我是一名全职应用程序开发人员，在业余时间从事 EHW+ 工作，为环境保护做出贡献。自 2022 年 5 月以来，第二位开发人员一直在监督我的工作，Thomas Hesse 为 EHW+ 构建后端。自 2023 年 4 月以来，Janine Sinner 一直在处理大量客户反馈。自 2024 年 7 月起，Artem Yuzhakov 作为应用程序开发人员加入。",
-  "faqAboutDeveloperBody2": "德国超过 26% 的二氧化碳排放量是由私人家庭造成的。如果每个人都能减少一点点的消费，那就大有作为了。非常感谢您的贡献！",
-  "faqAboutDeveloperBody3": "我们欢迎有关如何改进该应用程序的建议。",
-  "faqAboutDeveloperBody4": "不过，我无法实现所有建议，而且新功能需要时间，请您谅解。",
-  "commonCollapse": "坍塌",
-  "commonMore": "更多的",
-  "commonSave": "节省",
-  "commonChange": "改变",
-  "commonContinue": "继续",
-  "commonBack": "后退",
-  "commonOk": "好的",
-  "commonCancel": "取消",
-  "commonClose": "关闭",
-  "commonOpen": "打开",
-  "commonSend": "提交",
-  "commonDelete": "删除",
-  "commonYes": "是的",
-  "commonNo": "不",
-  "commonLoadingData": "加载数据",
-  "commonDay": "天",
-  "commonMonth": "月",
-  "commonYear": "年",
-  "commonShare": "分享",
-  "commonCopiedToClipboard": "已复制到剪贴板",
-  "commonLearnMore": "了解更多",
-  "commonMinimum": "每日最低值",
-  "commonMaximum": "每日最高值",
-  "heatmapLegendTitle": "有关热图的更多信息",
-  "heatmapLegendDisclaimer": "信息：阴影框包含估计值。要读取实际消耗/输出，请尽可能填写缺失的仪表读数。",
-  "consumptionHeatmap": "消费热图",
-  "consumptionHeatmapYield": "产量热图",
-  "consumption": "消耗",
-  "consumptionYield": "屈服",
-  "showAllYears": "显示所有年份",
-  "appNameShort": "电子健康+",
-  "appName": "电子健康+ |消耗量和仪表读数",
-  "tabCounters": "米",
-  "tabStatistics": "统计数据",
-  "tabObject": "目的",
-  "tabNews": "提示/新闻",
-  "ofRangeLastDays": "过去 {days} 天的",
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeLastMonths": "过去 {months} 个月",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeFrom": "来自 {range}",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "readingTime": "阅读时间",
-  "reading": "计数器读数",
-  "last2Weeks": "过去 14 天",
-  "last12Weeks": "过去 12 周",
-  "last12Months": "过去 12 个月",
-  "sinceInitialReading": "自初次阅读以来",
-  "lastYear": "去年",
-  "periodCustom": "用户定义",
-  "counterReadings": "读物",
-  "comment": "博特",
-  "enterComment": "输入注释",
-  "enterExistingReadingAgain": "重新进入旧阅读",
-  "meterId": "计数器编号",
-  "meterReadingSubmitted": "传输给提供商",
-  "newReading": "输入当前读数",
-  "newReadingShort": "新读物",
-  "readingWithFactor": "带系数的计数器读数",
-  "csvImportWithFactor": "仪表读数是否应该乘以不等于 1.0 的系数？例如，要将值从 Wh 转换为 kWh，必须乘以 0.001。",
-  "newPhoto": "拍摄一张新照片",
-  "existingPhoto": "附上现有照片",
-  "newPhotoOfMeterReading": "您想拍一张抄表照片吗？",
-  "existingPhotoOfMeterReading": "您想附上现有的抄表照片吗？",
-  "numCounters": "{count, plural, =0 {{count} 计数器} one {{count} 计数器} other {{count} 计数器}}",
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "numMeterReadings": "{readings, plural, one {＃ 阅读} other {# 读数}}",
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "exportObjectDescription": "{countersText}、{meterReadings}、{timeLastUpdated} {lastUpdated}",
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "firstReadingYield": "现在输入第一个产量。",
-  "firstReadingConsumption": "现在输入第一笔消费。",
-  "firstReadingCounter": "输入第一个计数器读数。",
-  "consumptionHeatpump": "此外，热泵的耗电量为 {formattedValue} kWh。",
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearly": "您一年的用电量 {ofRange} 为 {consumption} kWh。",
-  "@consumptionYearly": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "consumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedElectricityIntro": "您的用电量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月)",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedGasIntro": "您的燃气消耗量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月)",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel0": "是超低的。",
-  "consumptionYearlyDetailedLevel1": "确实值得一看。",
-  "consumptionYearlyDetailedLevel3": "是比较高的。",
-  "consumptionYearlyDetailedLevel4": "是正常的。",
-  "consumptionYearlyDetailedYouConsume": "您消耗{verbSuffix}",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLessThan": "{percentage} 小于",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedMoreThan": "{percentage} 多于",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedAboutSame": "大约与",
-  "consumptionYearlyDetailedAverageHousehold": "拥有 {householdSize} {personLabel} 的普通家庭",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedOptimalEnding": "你做得怎么样？",
-  "consumptionYearlyDetailedLevel1Suffix": "PHTOKEN 每月缺少 0 kWh，无法实现最佳消耗。",
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel2Suffix": "PHTOKEN 每月缺少 0 kWh，消耗良好。",
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionPersonLabel": "{count, plural, one {人} other {人们}}",
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "consumptionWaterPrefixSingle": "你消费",
-  "consumptionWaterPrefixPerPerson": "每个人，每个人都消费",
-  "consumptionWaterDailyMonthly": "每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "String"
-      },
-      "monthlyCubicMeters": {
-        "type": "String"
-      },
-      "unitName": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterRangeUnknown": "您的用水量 {ofRange} ...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallLess": "您的用水量 {ofRange} 比拥有 {householdSize} {personLabel} 的普通家庭的用水量 {percentage} 低。",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallEqual": "您的用水量 {ofRange} 与普通家庭的用水量 {householdSize} {personLabel} 相当。",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallMore": "您的用水量 {ofRange} 比拥有 {householdSize} {personLabel} 的普通家庭高出 {percentage}。",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdLess": "冷水：{percentage}比一般家庭少。",
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdMore": "冷水：{percentage}比一般家庭多。",
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdEqual": "冷水：与普通家庭差不多。",
-  "consumptionWaterWarmLess": "热水：{percentage}比一般家庭少。",
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmMore": "热水：{percentage}比一般家庭多。",
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmEqual": "热水：与普通家庭差不多。",
-  "yearlyConsumption": "至今年消费量",
-  "yearlyCosts": "至今年消费成本",
-  "room": "房间",
-  "fedIn": "喂入",
-  "generated": "生成",
-  "residualGenerationEstimated": "预计剩余发电量",
-  "residualConsumptionEstimated": "预计剩余消耗量",
-  "myObjects": "我的对象",
-  "roomLivingRoom": "客厅",
-  "roomDiningRoom": "饭厅",
-  "roomBedroom": "卧室",
-  "roomBathroom": "浴室",
-  "roomWc": "厕所",
-  "roomChildrenRoom": "儿童房",
-  "roomKitchen": "厨房",
-  "roomStoreRoom": "储藏室",
-  "roomOffice": "办公室",
-  "roomGarden": "花园",
-  "counter": "柜台",
-  "counterDirectionAscending": "上升",
-  "counterDirectionDescending": "下降",
-  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "counterWater": "水表",
-  "counters": "米",
-  "changeCounterOrder": "如有需要，您可以更改订单",
-  "newCounter": "创建一个新计数器",
-  "updateObjectName": "更改对象名称",
-  "enterObjectName": "为新对象命名",
-  "explanationManageMoreThanOneObject": "您想要管理不止一处房产吗？然后命名当前对象，然后创建另一个对象。",
-  "selectedAtAppStart": "在应用程序启动时选择最顶层的对象",
-  "reallyDeleteObject": "您确定要删除该对象吗？",
-  "confirmDeleteAtCloud": "“{objectTitle}”也应该从 Google 云端硬盘中删除吗？",
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "deleteObjectError": "无法删除该对象（代码 {errorCode}）。",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "commonChangeSaved": "更改已保存",
-  "commonUpdateNow": "立即更新",
-  "commonLogout": "登出",
-  "commonLogin": "登入",
-  "commonLoggingIn": "正在为您签名...",
-  "commonLoggingOut": "正在注销您...",
-  "commonNotAuthenticated": "您未经过身份验证。",
-  "commonUserLogin": "用户登录",
-  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "您正在使用 EHW+ 帐户。 {total} 购买的产品中的 {notSubmitted} 无法保存在 EHW+ 服务器上。我们希望尽快解决这个问题。",
   "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
     "placeholders": {
       "notSubmitted": {
@@ -449,7 +14,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {一项购买已通过 EHW+ 帐户同步。} other {{count} 购买已通过 EHW+ 帐户同步。}}",
   "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
     "placeholders": {
       "count": {
@@ -458,7 +22,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {您正在使用 EHW+ 帐户。如果您将来购买产品，它们将在您的所有设备上同步。} one {您正在使用 EHW+ 帐户。 {count} 购买的产品已保存在 EHW+ 服务器上。} other {您正在使用 EHW+ 帐户。 {count} 购买的产品已保存在 EHW+ 服务器上。}}",
   "@commonUserLoginDescriptionLoggedInSavedPurchases": {
     "placeholders": {
       "count": {
@@ -467,210 +30,224 @@
       }
     }
   },
-  "commonUserLoginDescriptionNotLoggedIn": "您是否在多个设备上使用该应用程序？登录您的 EHW+ 帐户可让您在所有设备上同步您的设置和购买的产品。",
-  "accountUpdateInfo": "新功能：EHW+ 用户帐户",
-  "accountThankYouForPurchase": "谢谢你！您想立即在您的 EHW+ 用户帐户中确保购买安全吗？",
-  "accountAbout": "EHW+ 用户帐户可以做什么？",
-  "accountBenefit1": "更可靠的购买识别",
-  "accountBenefit2": "在多个设备上访问所有已购买的扩展",
-  "accountFaqTitle": "常见问题解答：",
-  "accountFaqQ1": "EHW+ 用户帐户是什么？",
-  "accountFaqA1": "当无法通过 App Store 恢复时，EHW+ 用户帐户提供了恢复购买的替代方法，从而提高了可靠性。此外，它还允许在最初未进行购买的设备上恢复购买。将来还可以保存设置等。",
-  "accountFaqQ2": "如果没有 EHW+ 用户帐户，我是否仍然可以访问我的购买内容？",
-  "accountFaqA2": "是的，您仍然可以通过 Play Store 在 Android 设备上或通过 App Store 在 iPhone 上恢复购买。当无法通过 App Store 恢复时，EHW+ 用户帐户提供了恢复购买的替代方法，从而提高了可靠性。此外，它还允许在最初未进行购买的设备上恢复购买。",
-  "accountButtonSetup": "设置 EHW+ 用户帐户",
-  "cometSettingsIsPredictionsApiEnabled": "使用歌德学院的 COMET Forecast API",
-  "cometConsentScreenHeader": "新：更好的消费预测",
-  "cometConsentScreenHowItWorksTitle": "它是如何运作的？",
-  "cometConsentScreenOnlineDescriptionTitle": "有互联网连接：",
-  "cometConsentScreenOnlineDescription": "您的消费数据将发送到法兰克福歌德大学，在那里将创建个人预测并显示在应用程序中。",
-  "cometConsentScreenOfflineDescriptionTitle": "没有互联网连接：",
-  "cometConsentScreenOfflineDescription": "将在您的设备上计算简化的本地预测。",
-  "cometConsentScreenToggleLabel": "使用预测服务",
-  "cometConsentScreenDataCanBeUsedForTraining": "数据可用于优化未来的预测",
-  "cometConsentScreenFeedbackTitle": "歌德大学需要您的反馈：",
-  "cometConsentScreenFeedbackDescription": "预测的使用是免费的，但研究团队需要有关服务运作情况的反馈。",
-  "cometConsentScreenFeedbackMethod": "当您使用预测服务并同意优化时，系统会自动提供反馈。",
-  "cometConsentScreenDeclineButton": "我不想提供反馈",
-  "cometConsentScreenAcceptButton": "我想反馈",
-  "exportTabHowToExport": "您想如何导出数据？",
-  "exportTabHowToExportOptionShare": "与其他应用程序共享",
-  "exportTabHowToExportOptionSaveToDownloads": "保存到文件夹 {folder}",
-  "exportTabSnackBarSaveResultMessageSuccess": "数据已成功保存为文件夹 {folder} 中的 {fileName}",
-  "exportTabSnackBarSaveResultMessageError": "保存数据时出错",
-  "importTabErrorMessageFileWithExtensionNotSelected": "需要 {extension} 文件才能继续导入。",
-  "difference": "不同之处",
-  "period": "时期",
-  "periodHourly": "每小时",
-  "periodDaily": "日常的",
-  "periodWeekly": "每周",
-  "periodBiweekly": "每两周一次",
-  "periodMonthly": "每月",
-  "periodBimonthly": "双月刊",
-  "periodQuarterly": "季刊",
-  "periodHalfYearly": "半年一次",
-  "periodYearly": "每年",
-  "meterCardLastUpdatedLabel": "已更新",
-  "smartMeterServiceProvider": "服务提供商",
-  "smartMeterObtainDataAutomatically": "自动获取数据",
-  "smartMeterErrorNoData": "不幸的是，该应用程序无法显示任何数据。",
-  "smartMeterSettingsScreenSyncButton": "同步消费数据",
-  "smartMeterSettingsScreenSyncingDialogHeader": "同步正在进行中",
-  "smartMeterSettingsScreenSyncingDialogProgress": "进度：{progressInPercent}%",
-  "smartMeterSettingsScreenSyncingDialogError": "错误",
-  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "好的",
-  "smartMeterSettingsScreenSyncingDialogErrorMessage": "同步期间发生以下错误：{errorMessage}",
-  "smartMeterMisconfiguredWidgetCardTitle": "请正确设置您的智能电表。",
-  "smartMeterMisconfiguredWidgetCardButton": "设置智能电表",
-  "smartMeterTabConsumptions": "消费",
-  "smartMeterTabProductions": "作品",
-  "consumptionCacheManagementClearCacheButton": "清除缓存",
-  "consumptionCacheManagementClearCacheAndSynchronizeButton": "清除并同步",
-  "consumptionCacheManagementConfirmClearCacheTitle": "清除缓存？",
-  "consumptionCacheManagementConfirmClearCacheMessage": "所有缓存的消费数据将被永久删除。您可以稍后同步。",
-  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "清除缓存并同步？",
-  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "所有缓存的数据将被删除并从服务器重新下载。这可能需要一些时间。",
-  "consumptionCacheManagementClearedSuccessfully": "缓存清除成功",
-  "tibberAccessToken": "访问令牌",
-  "tibberEnterAccessToken": "请输入访问令牌",
-  "tibberMessageAccessTokenUpdated": "已成功更新访问令牌",
-  "tibberErrorAccessTokenInvalid": "看起来访问令牌无效",
-  "tibberErrorNoHomes": "没有与此帐户关联的房屋",
-  "tibberErrorSmartMeterMisconfigured": "您的智能电表似乎配置错​​误。",
-  "tibberErrorConnectivityShowCacheInstead": "无法检索最近的消费数据。显示缓存的值。",
-  "tibberErrorUndefined": "发生意外错误：{error}",
-  "tibberErrorRateLimit": "超出 Tibber API 速率限制。请等待至少 5 分钟后再重试。",
-  "tibberErrorNoSubscription": "要通过 API 获得对历史数据的完全访问权限，您需要为所选家庭提供有效的 Tibber 电力合同。",
-  "tibberBasicAuth": "基本认证",
-  "tibberBasicAuthUsername": "用户名",
-  "tibberBasicAuthPassword": "密码",
-  "tibberBasicAuthEnterUsername": "请输入用户名",
-  "tibberBasicAuthEnterPassword": "请输入密码",
-  "tibberConsumptionEntryTotalCost": "总成本：{totalCost}",
-  "tibberConsumptionEntryTotalProfit": "总利润：{totalProfit}",
-  "tibberConsumptionEntryViewTimeSpanYear": "年份 {year}",
-  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "从 {year} 开始一年",
-  "tibberConsumptionEntryViewTimeSpanMonth": "{month} 月份",
-  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "从 {month} 开始一个月",
-  "tibberConsumptionEntryViewTimeSpan24Hours": "{date} 上的 {startTime} 24 小时",
-  "tibberConsumptionEntryViewTimeSpanOneHour": "从 {date} 上的 {startTime} 出发一小时",
-  "tibberConsumptionEntryViewTimeSpanDefault": "从：{startTime} 到 {endDate}",
-  "tibberWhereIsMyAccessToken": "在哪里可以找到我的“访问令牌”？",
-  "tibberActionSaveAuthorizationSettings": "保存授权设置",
-  "tibberConsentScreenHeader": "新功能：来自 Tibber Pulse 的消费数据",
-  "tibberConsentScreenDescription": "您是 Tibber 客户还是计划成为其中一员？我们现在支持 Pulse 来改进能源监控。请注意，遗憾的是，Pulse 的历史数据仅适用于拥有有效 Tibber 合约的客户。",
-  "tibberConsentScreenBenefit1Title": "查看您的用电量",
-  "tibberConsentScreenBenefit1Description": "实时跟踪您的消耗情况并发现隐藏的能源消耗者。",
-  "tibberConsentScreenStoreLink": "参观蒂伯商店",
-  "tibberConsentScreenConfigureNowButton": "立即设置 Tibber Pulse",
-  "tibberConsentScreenConfigureLaterButton": "稍后设置",
-  "tibberConsentScreenGoetheStudySectionHeader": "参与研究项目",
-  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "是的，我想参加歌德学习",
-  "tibberConsentScreenGoetheStudyBenefit1Title": "您想参加歌德学习吗？",
-  "tibberConsentScreenGoetheStudyBenefit1Description": "从 3 月 1 日起，您每小时的消费量将被匿名化并提供给歌德研究。",
-  "tibberStatusWidgetTitle": "缓存管理",
-  "tibberStatusWidgetTibberSubscriptionStatus": "蒂伯订阅状态",
-  "tibberSubscriptionStatusActive": "积极的",
-  "tibberSubscriptionStatusInactive": "不活跃的",
-  "tibberSubscriptionStatusLoading": "加载中...",
-  "tibberLiveMeasurementCounterCardViewFooter": "实时测量",
-  "tibberLiveMeasurementsWidgetNotSupported": "该房屋不支持实时测量。",
-  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "该房屋不支持实时测量或历史消费数据。请选择另一个家。",
-  "tibberLiveMeasurementsWidgetConnecting": "正在连接到 Tibber Pulse...",
-  "tibberLiveMeasurementsWidgetError": "连接到 Tibber Pulse 时发生错误。请检查您的访问令牌和互联网连接。",
-  "tibberLiveMeasurementWidgetTitle": "{time} 的当前消耗/生产",
-  "tibberLiveMeasurementWidgetTimestamp": "时间戳",
-  "tibberLiveMeasurementWidgetPower": "力量",
-  "tibberLiveMeasurementWidgetPowerProduction": "电力生产",
-  "tibberLiveMeasurementWidgetAveragePower": "平均功率",
-  "tibberLiveMeasurementWidgetMinPower": "最小功率",
-  "tibberLiveMeasurementWidgetMaxPower": "最大功率",
-  "tibberLiveMeasurementWidgetAccumulatedConsumption": "总消费（从午夜开始）",
-  "tibberLiveMeasurementWidgetAccumulatedProduction": "总产量（自午夜起）",
-  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "消费（最后一小时）",
-  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "生产（最后一小时）",
-  "tibberLiveMeasurementWidgetLastMeterConsumption": "抄表（消耗）",
-  "tibberLiveMeasurementWidgetLastMeterProduction": "抄表（生产）",
-  "tibberLiveMeasurementWidgetAccumulatedCost": "累计成本",
-  "tibberLiveMeasurementWidgetAccumulatedReward": "累积奖励",
-  "tibberLiveMeasurementWidgetPowerFactor": "功率因数",
-  "tibberLiveMeasurementWidgetVoltagePhase1": "电压（第一相）",
-  "tibberLiveMeasurementWidgetVoltagePhase2": "电压（第 2 相）",
-  "tibberLiveMeasurementWidgetVoltagePhase3": "电压（第 3 相）",
-  "tibberLiveMeasurementWidgetCurrentL1": "电流（L1）",
-  "tibberLiveMeasurementWidgetCurrentL2": "电流（L2）",
-  "tibberLiveMeasurementWidgetCurrentL3": "电流（L3）",
-  "tibberLiveMeasurementWidgetUnitV": "V",
-  "tibberLiveMeasurementWidgetUnitW": "瓦",
-  "tibberLiveMeasurementWidgetUnitA": "一个",
-  "tibberHomeSelectorHomeId": "家庭 ID：{homeId}",
-  "tibberHomeSelectorLabel": "家",
-  "scanQrCode": "扫描激活二维码",
-  "requestAccess": "请求访问权限",
-  "createAccount": "创建帐户/登录",
-  "watersupplierYourSupplier": "您的供水商",
-  "watersupplierRadioMeterDefaultName": "无线电冷水表",
-  "watersupplierAccessRequestQ1": "您是自来水厂集水区房产的所有者并希望获得无线电表读数吗？",
-  "watersupplierAccessRequestQ2": "您已经请求访问权限了吗？接下来，您需要创建一个 EHW+ 用户帐户。",
-  "watersupplierAccessRequestQ3": "您是否已经请求访问并收到您的二维码？",
-  "watersupplierAccessRequestQ4": "您是否希望收到仪表警报，以便在发生管道爆裂或马桶冲水等情况时做出反应？",
-  "watersupplierOpenReminderSettings": "打开设置",
-  "watersupplierScanQrCodeTitle": "无线电计激活",
-  "watersupplierScanQrCodeCommand": "扫描左侧二维码（激活码）！",
-  "watersupplierScanRevokeQrCodeCommand": "扫描右侧二维码（撤销码）！",
-  "watersupplierScanQrCodeValidation": "检测到二维码，让我们验证一下。",
-  "watersupplierScanQrCodeValidationFailed": "抱歉，该代码无效。您想再试一次吗？",
-  "watersupplierScanQrCodeValidationFailedRevokeScanned": "您扫描的是撤销代码而不是激活代码。请再试一次！",
-  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "您扫描的是激活码而不是撤销码。请再试一次！",
-  "watersupplierScanQrCodeScanSuccessful": "哇，激活码看起来好漂亮！请输入您的电表 ID 的后三位数字！",
-  "watersupplierMeterIdValidationStep": "我们正在检查您的电表 ID。",
-  "watersupplierCompleteMeterIdServerErrorTryAgain": "抱歉，不幸的是这不起作用。这是由于我们的服务器造成的。最好稍后再试一次！",
-  "watersupplierCompleteMeterIdTryAgain": "你不可以过去！请再次输入您的电表ID后三位数字！",
-  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "注意：您的原始计量表 ID 可以超过 8 个字符。",
-  "watersupplierScanQrCodeApprovalInProgress": "我们现在正在授权您的帐户，以便您将来可以访问无线电计读数。",
-  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "是的！您的“冷水”类型无线电水表已成功添加。您可以在其他仪表中找到它。",
-  "watersupplierUnlinkRadioMeterTitle": "终止无线电计访问",
-  "watersupplierUnlinkRadioMeterDescription1": "您想删除无线电计而不使激活码失效吗？",
-  "watersupplierUnlinkRadioMeterButtonDelete": "删除无线电计",
-  "watersupplierUnlinkRadioMeterDescription2": "您不想再访问您的无线电计数据吗？请注意：一旦扫描撤销码，激活码即失效。任何使用激活码的用户帐户都将失去访问权限。",
-  "watersupplierUnlinkRadioMeterButtonRevoke": "扫描撤销码",
-  "watersupplierScanQrCodeOffboardingSuccessful": "对您的无线电水表的访问已被取消。",
-  "watersupplierNoAccess": "您不再有权检索数据。",
-  "watersupplierNoAccessDetailedMessage": "如果您认为您仍然可以访问，请再次扫描您的激活码。如果访问代码不再有效，请提交新的访问请求。",
-  "zipCode": "邮政编码",
-  "zipCodeValidationOnlyNumbers": "有效的邮政编码仅由数字组成",
-  "zipCodeValidationLength": "请输入 {digits} 位邮政编码",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
+  "@confirmDeleteAtCloud": {
     "placeholders": {
-      "digits": {
-        "example": "5",
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "@counterNum": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "houseName": "房屋名称",
-  "houseNameDescription": "房屋名称，例如街道名称",
-  "marketLocationId": "市场位置 ID",
-  "marketLocationIdDescription": "市场位置 ID 始终由 11 位数字组成。您通常可以在最近的电费或燃气费账单上找到此信息。",
-  "swimmingPool": "游泳池",
-  "smartmeterInfocodeBannerText": "智能电表 {smartmeterId} 收到信息代码：{infocode}",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "smartmeterId": {
-        "type": "String"
-      },
-      "infocode": {
-        "type": "String"
-      }
-    }
-  },
-  "smartmeterInfocodeBannerTextInfocodeLeckage": "您的水表 {smartmeterId} 检测到持续的水流。这可能表明存在泄漏。请检查您的家庭安装是否存在泄漏。马桶和水龙头滴水是常见原因。",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "您的水表 {smartmeterId} 检测到用水量异常高，这可能表明水管爆裂。请检查您的家庭安装是否存在重大泄漏或破损。如果您使用了大量的水，例如，也可能会出现警报。用于填充水池。",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "您的水表 {smartmeterId} 检测到用水量异常高，这可能表明水管爆裂或游泳池注水。请检查您的家庭安装是否存在重大泄漏或破损。",
-  "smartmeterInfocodeBannerTextInfocodeFrost": "您的水表 {smartmeterId} 的温度已降至 3°C 以下。有霜冻危险！对仪表和管道进行绝缘或加热该区域以防止损坏。",
-  "smartMeterCountersTitle": "无线电水表",
-  "counterOutdatedAndNextReminder": "计数器读数自 {date} 起已过时，下次读数提醒 {date2}。",
   "@counterOutdatedAndNextReminder": {
     "placeholders": {
       "date": {
@@ -681,7 +258,540 @@
       }
     }
   },
-  "waterMeterEventsInformation": "{count, plural, =1 {您的无线水表 {waterSupplier} 检测到意外消耗。如果需要，您将在这种情况下收到通知。} other {您的无线水表 {waterSupplier} 检测到意外消耗。如果需要，您将在这种情况下收到通知。}}",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "@waterMeterEventsInformation": {
     "placeholders": {
       "count": {
@@ -694,1022 +804,912 @@
       }
     }
   },
-  "subscribeToSmartMeterInfocodeEvents": "我希望收到意外消费通知",
-  "completeButton": "完全的",
-  "reset": "重置",
-  "settingCounterTypeColor": "此计数器类型的颜色",
-  "settingCounterTypeColorDescription": "如果您不喜欢此计数器类型的默认颜色，您可以指定不同的颜色。",
-  "settingCounterTypeColorAdvanced": "专家的颜色选择器",
-  "featureVotingUnderConstruction": "目前正在修订该功能调查。未来将需要EHW+用户帐户，调查将不再使用第三方服务器。我们感谢您的耐心等待。",
-  "termsOfUsageTitle": "使用应用程序的一般使用条款",
-  "termsOfUsageBlock1Title": "使用应用程序的一般使用条款",
-  "termsOfUsageBlock1": "反对权",
-  "@termsOfUsageBlock1": {
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
     "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2Title": "一般使用信息",
-  "termsOfUsageBlock2": "不得滥用该应用程序及其功能。请仅在法律允许的范围内并遵守我们的使用条款使用该应用程序。如果违反适用的德国法律或我们的使用条款，提供商保留禁止您使用该应用程序的权利。",
-  "termsOfUsageBlock2a": "匿名使用数据\n我们使用自己的分析来不断改进应用程序。\n仅传输匿名数据。\n数据不会传递给第三方。\n有关更多信息，请转到“设置”>“隐私”>“{privacyBlock3Title}”",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2b": "错误报告\nSentry（自托管）用于不断改进应用程序。\n错误报告不会被处理，也不会与第三方共享。\n有关更多信息，请转到“设置”>“隐私”>“{privacyBlock3Title}”",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2c": "个人信息\n如果您使用 Google Drive Sync，EHW+ 仍然无法访问您输入的数据。有关更多信息，请转至“设置”>“隐私”>“{privacyBlock3Title}”。",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock3Title": "责任",
-  "termsOfUsageBlock3": "提供商不保证该应用程序的可用性、可靠性、功能性或适用性。除非《产品责任法》强制规定，否则因故意、重大过失、对生命、肢体或健康造成伤害、假定质量保证、欺诈性隐瞒缺陷或违反基本合同义务而承担的责任除外。基本合同义务是指其履行对于合同的正确执行至关重要且缔约方可以经常依赖其遵守的义务。因违反基本合同义务而造成的损害赔偿仅限于此类合同典型的可预见损害，除非存在故意或重大过失。",
-  "termsOfUsageBlock4Title": "用户的责任",
-  "termsOfUsageBlock4": "提供商不保证计算结果的准确性。用户需要仔细并自行负责更新应用程序中存储的价格（基本价格、消费价格等），以确保生成的发票与实际应付金额相对应。",
-  "privacyBlock1Title": "开发商",
-  "privacyBlock1Text": "根据德国电信媒体法 (TMG) 第 5 条，应用程序（以下简称“应用程序”）的开发者/提供商：\n\nPHToken0",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock1Text2": "使用该应用程序需要您同意以下使用条款。请仔细阅读。",
-  "privacyBlock2Title": "一般的",
-  "privacyBlock2Text": "保护您的数据对我们来说非常重要。本隐私政策解释了 EHW+ 收集哪些个人数据以及如何使用这些数据。隐私政策很少发生根本性变更，但可能会因新功能、技术或法律要求而不时进行修订。因此，请不时查看此页面以了解最新信息。如果我们做出任何重大变更，我们将通知您，并在必要时征得您的同意。",
-  "privacyBlock3Title": "{appNameShort} 收集哪些数据？",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3aText": "我们创建了 {appNameShort}，以便您可以快速轻松地输入仪表读数，然后使用统计数据了解有关您的消耗、成本和潜在节省的更多信息。这意味着您可以在 {appNameShort} 中输入、计算或保存任何数据，我们通常将其称为“内容”。该数据仅存储在您的手机上。\n\n与 Google 云端硬盘同步。\n如果您启用与 Google 云端硬盘同步，内容也会自动备份到 Google 云端硬盘上名为“{appNameShort}”的文件夹中，只有您可以访问该文件夹。通过使用 Google 登录，开发者将可以看到您的电子邮件地址。",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "googleApiAgreement": "{appNameShort} 使用从 Google API 收到的信息以及将其传输到任何其他应用程序时将遵守 Google API 服务用户数据政策，包括有限使用要求。",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3bText": "{googleApiAgreement}\n\n位置数据。\n为了了解用户行为和未来功能，该应用程序会传输匿名使用数据。\n数据不与第三方共享。\n可能会收集有关来源（国家和城市）、语言、操作系统、设备类型、分辨率、点击行为和使用持续时间的信息。\n\n设备数据。\n我们收集有关您用于连接服务的设备数量和类型的数据，以及有关这些设备上操作系统的信息（例如 Android、iOS、Windows 或 macOS）。\n\n使用该应用程序即表示您同意如上所述收集匿名数据。",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyContractPriceSubmission": "当您作为用户维护合同数据时，电力、水和天然气合同的单位价格以及国家和联邦州将传输到德国的 EHW+ 服务器。该数据用于计算价格统计。对于应用程序用户来说，统计数据以合同视图中价格比较的形式可见。\n\n使用该应用程序即表示您同意上述匿名数据收集。",
-  "privacyBlock4DataUsageTitle": "{appNameShort} 如何使用我的数据？",
-  "privacyBlock4DataUsage": "收集的匿名数据用于评估用户行为。除此之外，没有进一步使用数据。\n\nPHToken0",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock5Title": "个人数据的存储期限",
-  "privacyBlock5": "个人数据的存储期限由相应的法定保留期限（例如商法和税法保留期限）决定。期限届满后，相应的数据将被例行删除，前提是履行或启动合同不再需要这些数据和/或我们不再对其继续存储拥有合法权益。",
-  "youtubeConsent1": "我们需要您的同意才能显示嵌入的 YouTube 内容。您可以一键显示此内容（以及应用程序中的所有其他 Youtube 内容），也可以再次停用它。",
-  "youtubeConsent2": "始终显示 YouTube 内容",
-  "youtubeConsent3": "我同意向我显示外部内容。这可能会导致个人数据被传输到第三方平台。有关此内容的更多信息，请参阅我们的",
-  "privacyBlock6Title": "接触",
-  "privacyBlock6": "当您联系我们时（例如通过联系表或电子邮件），个人数据将被收集。联系表格中收集的数据可以在相应的联系表格上查看。该数据的存储和使用仅用于回复您的询问或建立联系以及相关的技术管理。数据处理的法律依据是我们根据第 1 条回应您的请求的合法权益。第 6 段1 点燃。 f GDPR。如果您的联系旨在签订合同，则处理的额外法律依据是艺术。第 6 段1 点燃。 b GDPR。如果从情况可以推断所涉问题已最终澄清并且没有保留数据的法律义务，则您的数据将在处理您的询问后被删除。",
-  "privacyBlock7Title": "当事人的权利",
-  "privacyBlock7": "适用的数据保护法授予您作为数据主体相对于控制者在处理您的个人数据方面的全面权利（知情权和干预权），我们将在下面通知您：\n\n- 根据艺术的知情权。 GDPR 第 15 条：特别是，您有权获取有关我们处理的您的个人数据的信息、处理的目的、处理的个人数据的类别、您的数据已经或将要向其披露的接收者或接收者类别、计划存储期或确定存储期的标准、是否存在纠正、删除、限制处理、反对处理、向监管机构投诉的权利、您的数据的来源（如果我们不是从您那里收集的）、是否存在自动化处理决策，包括分析，以及（在适用的情况下）有关所涉及逻辑的有意义的信息以及此类处理对您的意义和预期后果，以及您了解根据第 1 条存在的保证的权利。 46 GDPR（当您的数据传输到第三国时）；\n\n- 根据第 1 条的纠正权。 16 GDPR：您有权立即纠正与您有关的不准确数据和/或补全我们存储的不完整数据。\n\n- 根据艺术删除权。 GDPR 第 17 条：如果符合第 17 条的条件，您有权要求删除您的个人数据。满足 GDPR 第 17(1) 条。然而，如果为了行使言论和信息自由权、为了遵守法律义务、为了公共利益或者为了确立、行使或辩护法律主张而需要进行处理，则该权利不适用。\n\n- 根据第 1 条限制处理的权利。第 18 条 GDPR：只要您的数据准确性正在得到验证，如果您以不允许的数据处理为由反对删除您的数据，则您有权要求限制处理您的数据；如果您在我们不再需要这些数据来实现收集数据的目的后需要您的数据来主张、行使或辩护法律索赔，或者您以与您的特定目的相关的理由提出反对，则您有权要求限制处理您的数据。情况，只要尚不清楚我们的正当理由是否占上风；\n\n- 根据艺术的知情权。第 19 条 GDPR：如果您已向控制者行使了更正、删除或限制处理的权利，则控制者有义务将此次更正、删除或限制处理的情况通知所有已向其披露您的个人数据的接收者，除非事实证明这是不可能的或需要付出过多的努力。您有权了解这些收件人的情况。\n\n- 根据第 1 条的数据可移植权。 20 GDPR：您有权以结构化、常用和机器可读的格式接收您向我们提供的个人数据，或在技术可行的情况下请求将其传输给另一个控制者。\n\n- 撤回根据第 1 条授予的同意的权利。第 7(3) GDPR：您有权随时撤回对数据处理的同意，并在未来生效。如果撤回，我们将立即删除相关数据，除非可以在未经同意的情况下基于法律依据进行进一步处理。撤回同意并不影响撤回前基于同意进行的处理的合法性。\n\n- 根据第 1 条提出投诉的权利。第 77 条 GDPR：如果您认为对您个人数据的处理违反了 GDPR，您有权向监管机构提出投诉，特别是在您居住地、工作地点或涉嫌侵权地点的成员国，且不影响任何其他行政或司法补救措施。",
-  "privacyBlock8Title": "反对权",
-  "privacyBlock8": "如果我们作为利益平衡的一部分，基于我们压倒一切的合法利益来处理您的个人数据，您有权因您的具体情况而随时反对此处理，并且对未来有效。如果您行使反对权，我们将停止处理相关数据。然而，如果我们能够证明有令人信服的合法理由进行凌驾于您的利益、基本权利和自由之上的处理，或者如果处理用于主张、行使或捍卫法律主张，则保留进一步处理的权利。\n\n如果我们出于直接营销目的处理您的个人数据，您有权随时反对出于此类广告目的处理您的个人数据。您可以行使上述反对权。\n\n如果您行使反对权，我们将停止出于直接营销目的处理有关您的数据。",
-  "activityTitle": "活动",
-  "activitiesTitle": "我的活动",
-  "activitiesDescription": "将仪表读数与活动联系起来，例如用冷水表和电表清洗。",
-  "sortActivities": "修改活动顺序",
-  "resetActivities": "重置所有活动",
-  "addActivity": "添加活动",
-  "activitySettings": "活动设置",
-  "activityOverview": "活动概览",
-  "activityNameLabel": "活动名称",
-  "chooseActivity": "选择活动",
-  "selectedActivity": "所选活动“${activityName}”",
-  "chooseActivityIcon": "选择一个图标",
-  "involvedCounters": "涉及柜台",
-  "detailsTitle": "细节",
-  "detailWithMultiSelect": "允许多项选择",
-  "addDetail": "添加细节",
-  "editDetailTitle": "编辑详细信息",
-  "activityWithEnergyConsumption": "仅针对活动测量功耗",
-  "consumptionIsNotExclusiveTitle": "消费是排他性的吗？",
-  "consumptionIsNotExclusive": "如果消耗不属于此活动，则会显示为警告。",
-  "numberOfDetails": "{count, plural, one {1 细节} other {{count} 详细信息}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
+      "digits": {
+        "example": "5",
         "type": "int"
       }
     }
   },
-  "reallyDeleteActivity": "真的删除这个活动吗？",
-  "reallyDeleteDetail": "真的删除这个细节吗？",
-  "reallyDeleteContract": "真的删除这份合同吗？",
-  "contractCopyDialogTitle": "您想复印这份合同吗？",
-  "contractCopyDialogOptionYes": "是的，单价或其他值已更改。",
-  "contractCopyDialogOptionNo": "不，取消。",
-  "contractCopyDialogWhen": "新价格从什么时候开始适用？",
-  "contractCosts": "单价",
-  "contractCostsFeedIn": "报酬价/底价",
-  "counterWarmWaterPlusColdWater": "不包括淡水和废水成本",
-  "advancePayment": "预付款",
-  "bonus": "奖金",
-  "bonusInfoTitle": "有关奖金关税的信息",
-  "bonusInfoText": "带奖金的资费通常可以在更换提供商时节省特别高的费用。然而，这通常完全是一次性奖金的结果。这意味着：仅在供应的第一年，总成本才如此低。高工作和/或基本价格在第二年提供了明显更高的计算。因此，对于奖金关税，您应该从一开始就计划在一年后再次改变。期限为两年的额外关税根本不可能取消，因此应受到特别严格的质疑。",
-  "source": "来源：",
-  "basePrice": "基价",
-  "gross": "总的",
-  "net": "网",
-  "grossNetPrices": "总价或净价",
-  "taxRate": "税率",
-  "perUnit": "每个 {unit}",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "wasteWaterPriceEnabled": "淡水和废水成本分别显示（与扣表相关）",
-  "pricePerUnit": "每单位价格",
-  "pricePerUnitFeedIn": "报酬价格",
-  "pricePerUnitWaterWarm": "热水采暖费用",
-  "pricePerUnitWaterCold": "冷水费用",
-  "pricePerUnitFreshWater": "淡水成本",
-  "pricePerUnitWasteWater": "废水价格",
-  "paidAdvancePayments": "预付款",
-  "supplementaryPayment": "补充付款",
-  "refund": "退款",
-  "costs": "成本",
-  "contract": "合同",
-  "contractDetails": "合同期限和细节",
-  "usedForPaymentsRepayments": "预付款、基本价格和奖金",
-  "contractName": "提供商/合同名称",
-  "contractNumber": "合同号",
-  "contractStart": "合同开始日期",
-  "contractPeriod": "合约期",
-  "cancellationPeriod": "取消期限",
+  "accountAbout": "EHW+ 用户帐户可以做什么？",
+  "accountBenefit1": "更可靠的购买识别",
+  "accountBenefit2": "在多个设备上访问所有已购买的扩展",
+  "accountButtonSetup": "设置 EHW+ 用户帐户",
+  "accountFaqA1": "当无法通过 App Store 恢复时，EHW+ 用户帐户提供了恢复购买的替代方法，从而提高了可靠性。此外，它还允许在最初未进行购买的设备上恢复购买。将来还可以保存设置等。",
+  "accountFaqA2": "是的，您仍然可以通过 Play Store 在 Android 设备上或通过 App Store 在 iPhone 上恢复购买。当无法通过 App Store 恢复时，EHW+ 用户帐户提供了恢复购买的替代方法，从而提高了可靠性。此外，它还允许在最初未进行购买的设备上恢复购买。",
+  "accountFaqQ1": "EHW+ 用户帐户是什么？",
+  "accountFaqQ2": "如果没有 EHW+ 用户帐户，我是否仍然可以访问我的购买内容？",
+  "accountFaqTitle": "常见问题解答：",
+  "accountThankYouForPurchase": "谢谢你！您想立即在您的 EHW+ 用户帐户中确保购买安全吗？",
+  "accountUpdateInfo": "新功能：EHW+ 用户帐户",
+  "activitiesDescription": "将仪表读数与活动联系起来，例如用冷水表和电表清洗。",
+  "activitiesTitle": "我的活动",
+  "activityBath": "洗澡",
+  "activityDishWasher": "洗碗机",
+  "activityIron": "熨烫",
+  "activityNameLabel": "活动名称",
+  "activityOverview": "活动概览",
+  "activitySettings": "活动设置",
+  "activityShower": "淋浴",
+  "activityTitle": "活动",
   "activityWash": "洗涤",
-  "activityWashTemperature": "温度",
   "activityWashDuration": "期间",
   "activityWashDuration2hrs": "2小时",
   "activityWashRotations": "旋转次数",
   "activityWashShort": "短节目",
-  "activityShower": "淋浴",
-  "activityBath": "洗澡",
-  "activityDishWasher": "洗碗机",
-  "activityIron": "熨烫",
-  "errorNoInternet": "无网络",
-  "errorInvalidRange": "无有效范围",
-  "syncDriveLoggedIn": "您的数据会在多个设备之间自动同步。使用以下 Google 帐户：",
-  "syncDriveLoggedInNoAuto": "更改后您的数据会自动上传到 Google 云端硬盘。仅当您单击对象时，来自云的较新数据才会覆盖本地数据。使用以下 Google 帐户：",
-  "syncDriveDataUsage": "如果您授予 EHW+ 对 Google 云端硬盘的访问权限，该应用程序将对应用程序本身创建的文件具有读写权限。不幸的是，其他人通过此应用程序创建的文件对该应用程序不可见，这意味着无法通过 Google Drive 在多个帐户之间共享数据。",
-  "syncAutomaticTitle": "本地数据可能被覆盖",
-  "syncShareWithOthersTitle": "与他人分享？",
-  "syncShareWithOthersSubtitle": "如果您想与其他 Google 用户一起输入仪表读数，则必须授予 EHW+ 对 Google 云端硬盘的完全访问权限。",
-  "syncShareWithOthersNotInWeb": "目前只能通过应用程序授予访问权限。",
-  "syncWithGoogleDriveDescription": "因为如果仪表读数丢失将是一种耻辱，所以立即将您的对象与 Google Drive 同步！",
-  "driveSyncStatusTitle": "同步状态",
-  "driveSyncStatusNotSynced": "不同步",
-  "driveSyncStatusFailed": "同步失败",
-  "driveSyncStatusComparing": "与服务器上的文件进行比较",
-  "driveSyncStatusSyncing": "同步正在进行中",
-  "driveSyncStatusLocalHasLatestNoCloud": "从 {localDate} 保存到该设备上的文件未保存在云中",
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusLocalHasLatestWithCloud": "从 {localDate} 保存在此设备上的文件比从 {cloudDate} 保存在云中的文件更新",
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      },
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestNoLocal": "来自 {cloudDate} 的云端文件未保存在此设备上",
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestWithLocal": "{cloudDate} 中的云文件比 {localDate} 中的本地文件更新",
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusUpToDate": "从 {localDate} 更新",
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncWithGoogle": "谷歌云端硬盘同步",
-  "driveSyncNow": "立即同步",
-  "driveSignInWithGoogle": "使用 Google 登录",
-  "signInWithGoogle": "使用 Google 登录",
-  "signInWithApple": "使用 Apple 登录",
-  "signInWithGithub": "使用 GitHub 登录",
-  "signInWithSocialAccount": "您想使用哪个社交帐户来创建或登录您的 EHW+ 帐户？",
-  "syncStatusFailedLong": "同步失败，编辑风险自负",
-  "syncStatusFailedLongNoAutoSync": "同步失败，编辑风险自负",
-  "syncStatusSyncRemoteHasLatest": "云端文件比本地文件更新",
-  "syncObjectIsLocked": "对象数据正在更新，在此期间无法编辑。",
-  "importExport": "备份/恢复",
-  "import": "进口",
-  "importPickFile": "选择文件",
-  "importSelectSingleCounter": "单个计数器（CSV 文件）",
-  "importSelectJson": "JSON 文件（使用 {appName} 创建）",
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "importWhichCounterForCsv": "应该使用哪个计数器？",
-  "importNewOrExistingCounter": "添加到新的或现有的计数器？",
-  "importConfirm": "确认导入",
-  "importTheObject": "导入对象",
-  "importExplanation": "您已经进行了计数器读数并想将其插入吗？",
-  "importCounterAsCsv": "您想导入单个仪表吗？每米支持一个包含两列的 CSV 文件，一列用于时间，一列用于仪表读数。\n\n示例数据：\n2020-04-01T22:59:00,6790.855\n“2020-04-01T23:59”;6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n“2020-04-01 23:02:00”,6812,036",
-  "importSuccessful": "导入成功",
-  "importNotPossible": "无法导入",
-  "importErrorCsvIgnoredLines": "{count, plural, one {忽略一行：{lines}} other {{count} 行被忽略：{lines}}}",
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "importErrorCsvIgnoredColumns": "{columns, plural, one {仅使用前两列。第三列被忽略。} other {仅使用前两列，忽略 {columns} 列。}}",
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "consentTitle": "隐私设置",
-  "privacyTitle": "隐私政策",
-  "imprintTitle": "印记",
-  "faqTitle": "常问问题",
-  "socialFacebook": "Facebook",
-  "socialInstagram": "Instagram",
-  "socialTwitter": "X",
-  "export": "出口",
-  "exportExplanation": "您想要导出哪个现有对象，例如将其传输到新设备？",
-  "exportWhere": "对象应以哪种格式导出？",
-  "exportWhichValuesShouldBeExported": "应该导出哪些值？",
-  "exportOptionExcel": "Excel文件",
-  "exportOptionPdf": "PDF文件",
-  "exportOptionFileDescription": "该对象作为 {fileType} 文件共享",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "socialLinkedIn": "领英",
-  "socialYouTube": "YouTube",
-  "socialEmail": "电子邮件",
-  "social": "社交媒体",
-  "support": "支持/反馈",
-  "supportQuestion": "问一个问题",
-  "supportQuestionBox": "我怎么帮你？",
-  "supportQuestionNotFound": "您的问题没有得到解答？我很乐意提供帮助。",
-  "supportQuestionLong": "它是如何运作的？有可能吗？答案如下。",
-  "supportReportBug": "通过邮件报告错误",
-  "supportReportBugTextIs": "请简要描述当前的错误行为，即错误本身。",
-  "supportReportBugTextShould": "请简要描述所需的行为，即实际上应该如何。",
-  "supportReportBugAffectedPages": "错误发生在哪些页面上？ （如适用）",
-  "supportReportBugScreenshotsPlease": "请在邮件中附上屏幕截图，最好标明错误。",
-  "supportBug": "漏洞",
-  "supportReportBugLong": "很棒的应用程序！但可以肯定的是，事情可能会出错。如果您报告错误，您就可以使应用程序变得更好。",
-  "supportGivePraise": "给予好评",
-  "supportGivePraiseLong": "你喜欢这个应用程序吗？谢谢你！传播这个词！",
-  "supportGivePraiseRecommendation": "向朋友和家人推荐该应用程序。感谢您的任何推荐！",
-  "supportRecommend": "我使用抄表应用程序 EHW+ 来跟踪我的能源消耗和相关成本。也许这也适合你？\n\n更多信息请访问 https://www.ehwplus.com",
-  "supportGivePraiseRating": "在 {store} 中评价该应用程序。",
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "electricityConsumption": "功耗",
-  "waterExtractionMinimumLevelLower": "由于消费低于阈值，因此会发生扣除。",
-  "outdatedCounters": "计数器不再使用",
-  "isOutdatedCounter": "不再使用计数器",
-  "waterConsumption": "用水量",
-  "rooms": "客房",
-  "messageNoRooms": "还没有房间。房间帮米。",
-  "settingObjectType": "对象类型",
-  "settingObjectTypeFlat": "公寓",
-  "settingObjectTypeHouse": "房子",
-  "settingLivingArea": "生活区",
-  "unitSquareMeters": "平方米",
-  "unitMWhShort": "兆瓦时",
-  "unitMWhLong": "{count, plural, one {兆瓦时 (MWh)} other {兆瓦时 (MWh)}}",
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitKWhShort": "千瓦时",
-  "unitKWhLong": "{count, plural, one {千瓦时 (kWh)} other {千瓦时 (kWh)}}",
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitGJShort": "国杰",
-  "unitGJLong": "{count, plural, one {千兆焦耳 (GJ)} other {千兆焦耳 (GJ)}}",
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitLitersShort": "ℓ",
-  "unitLitersLong": "{count, plural, one {升 (ℓ)} other {升 (ℓ)}}",
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCmShort": "厘米",
-  "unitCmLong": "厘米",
-  "unitSquareMetersShort": "平方米",
-  "unitSquareMetersLong": "{count, plural, one {平方米 (m²)} other {平方米 (m²)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCubicMetersShort": "立方米",
-  "unitCubicMetersLong": "{count, plural, one {立方米 (m³)} other {立方米 (m³)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitPercentShort": "%",
-  "unitPercentLong": "百分比(%)",
-  "unitKgShort": "千克",
-  "unitKgLong": "{count, plural, one {公斤（公斤）} other {公斤 (kg)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitHoursShort": "小时",
-  "unitHoursLong": "{count, plural, one {小时} other {小时 (h)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitNoneFormatted": "{count, plural, one {单元} other {单位}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitMegaByteShort": "MB",
-  "unitMegaByteLong": "MB",
-  "unitGigaByteShort": "国标",
-  "unitGigaByteLong": "国标",
-  "settingHouseholdSize": "家庭规模",
-  "settingHouseholdSizeDescription": "您家里的人数。",
-  "settingWaterHeater": "热水器",
-  "settingEAuto": "电动车",
-  "settingObjectLocation": "地点",
-  "settingObjectLocationTitle": "你的对象位于哪里？",
-  "settingObjectLocationExplanation": "输入位置有助于为您所在的区域定制见解和服务。",
-  "counterBackgroundImageOfObject": "对象的背景图像",
-  "manageMoreThanOneObjectStep1": "管理多个对象 - 第 1 步",
-  "manageMoreThanOneObjectStep2": "管理多个对象 - 第 2 步",
-  "contracts": "合约",
-  "messageNoContracts": "还没有合同。",
-  "outdatedContracts": "过时的合同",
-  "contractType": "合同类型",
-  "electricity": "电",
-  "electricityBack": "电力输入",
-  "electricityGenerated": "发电量",
-  "heatPump": "热泵",
+  "activityWashTemperature": "温度",
+  "activityWithEnergyConsumption": "仅针对活动测量功耗",
+  "addActivity": "添加活动",
+  "addDetail": "添加细节",
+  "addNewValue": "输入新值",
+  "advancePayment": "预付款",
+  "appBarExpandedMode": "带有背景图像的应用栏",
+  "appDescriptionLong": "<p>欢迎使用 <b>EHW+</b>，您的抄表应用程序适用于 <b>E</b>lectricity、<b>H</b>eating 和 <b>W</b>ater。通过我们，您可以轻松跟踪 <b> <b>0 您使用了多少 <b>1 <b>2 免费使用 <b>3。<b>4",
+  "appDescriptionShort": "对钱包有利，对气候有利",
+  "appName": "电子健康+ |消耗量和仪表读数",
+  "appNameShort": "电子健康+",
+  "areYouSure": "你确定吗？",
+  "basePrice": "基价",
+  "bonus": "奖金",
+  "bonusInfoText": "带奖金的资费通常可以在更换提供商时节省特别高的费用。然而，这通常完全是一次性奖金的结果。这意味着：仅在供应的第一年，总成本才如此低。高工作和/或基本价格在第二年提供了明显更高的计算。因此，对于奖金关税，您应该从一开始就计划在一年后再次改变。期限为两年的额外关税根本不可能取消，因此应受到特别严格的质疑。",
+  "bonusInfoTitle": "有关奖金关税的信息",
+  "cancellationPeriod": "取消期限",
+  "changeCounterOrder": "如有需要，您可以更改订单",
+  "chartDottedLinesNonSeasonal": "虚线代表前一时期。例如，对于“过去 14 天”的选择，将显示最后 28 天，其中较早的 14 天以虚线显示。",
+  "chartDottedLinesSeasonal": "虚线代表前一时期。例如，对于“过去 14 天”的选择，将显示最后 28 天，其中较早的 14 天以虚线显示。",
+  "chartHorizontalLineElectricityGas": "绿线代表非常好的消费，黄线代表良好的消费，红线代表德国的平均消费。",
+  "chartHorizontalLineWater": "德国平均每人每天消耗 127 升家庭饮用水。蓝线代表冷水（60%），红线代表热水（40%），推断出该期间的天数和人数。",
+  "chartHorizontalLines": "虚线旨在提供有关您自己的消费的反馈。",
+  "chooseActivity": "选择活动",
+  "chooseActivityIcon": "选择一个图标",
   "coldWater": "冷水",
-  "counterHeater": "散热器计",
-  "counterDistrictHeating": "区域供暖",
-  "counterOilHeating": "油加热",
-  "counterGas": "燃气表",
+  "cometConsentScreenAcceptButton": "我想反馈",
+  "cometConsentScreenDataCanBeUsedForTraining": "数据可用于优化未来的预测",
+  "cometConsentScreenDeclineButton": "我不想提供反馈",
+  "cometConsentScreenFeedbackDescription": "预测的使用是免费的，但研究团队需要有关服务运作情况的反馈。",
+  "cometConsentScreenFeedbackMethod": "当您使用预测服务并同意优化时，系统会自动提供反馈。",
+  "cometConsentScreenFeedbackTitle": "歌德大学需要您的反馈：",
+  "cometConsentScreenHeader": "新：更好的消费预测",
+  "cometConsentScreenHowItWorksTitle": "它是如何运作的？",
+  "cometConsentScreenOfflineDescription": "将在您的设备上计算简化的本地预测。",
+  "cometConsentScreenOfflineDescriptionTitle": "没有互联网连接：",
+  "cometConsentScreenOnlineDescription": "您的消费数据将发送到法兰克福歌德大学，在那里将创建个人预测并显示在应用程序中。",
+  "cometConsentScreenOnlineDescriptionTitle": "有互联网连接：",
+  "cometConsentScreenToggleLabel": "使用预测服务",
+  "cometSettingsIsPredictionsApiEnabled": "使用歌德学院的 COMET Forecast API",
+  "comment": "博特",
+  "commonAnd": "和",
+  "commonBack": "后退",
+  "commonCancel": "取消",
+  "commonChange": "改变",
+  "commonChangeSaved": "更改已保存",
+  "commonClose": "关闭",
+  "commonCollapse": "坍塌",
+  "commonContinue": "继续",
+  "commonCopiedToClipboard": "已复制到剪贴板",
+  "commonDay": "天",
+  "commonDelete": "删除",
+  "commonLearnMore": "了解更多",
+  "commonLoadingData": "加载数据",
+  "commonLoggingIn": "正在为您签名...",
+  "commonLoggingOut": "正在注销您...",
+  "commonLogin": "登入",
+  "commonLogout": "登出",
+  "commonMaximum": "每日最高值",
+  "commonMinimum": "每日最低值",
+  "commonMonth": "月",
+  "commonMore": "更多的",
+  "commonNo": "不",
+  "commonNotAuthenticated": "您未经过身份验证。",
+  "commonOk": "好的",
+  "commonOpen": "打开",
+  "commonSave": "节省",
+  "commonSend": "提交",
+  "commonShare": "分享",
+  "commonUpdateNow": "立即更新",
+  "commonUserLogin": "用户登录",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "您正在使用 EHW+ 帐户。 {total} 购买的产品中的 {notSubmitted} 无法保存在 EHW+ 服务器上。我们希望尽快解决这个问题。",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {一项购买已通过 EHW+ 帐户同步。} other {{count} 购买已通过 EHW+ 帐户同步。}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {您正在使用 EHW+ 帐户。如果您将来购买产品，它们将在您的所有设备上同步。} one {您正在使用 EHW+ 帐户。 {count} 购买的产品已保存在 EHW+ 服务器上。} other {您正在使用 EHW+ 帐户。 {count} 购买的产品已保存在 EHW+ 服务器上。}}",
+  "commonUserLoginDescriptionNotLoggedIn": "您是否在多个设备上使用该应用程序？登录您的 EHW+ 帐户可让您在所有设备上同步您的设置和购买的产品。",
+  "commonYear": "年",
+  "commonYes": "是的",
+  "completeButton": "完全的",
+  "confirmDeleteAtCloud": "“{objectTitle}”也应该从 Google 云端硬盘中删除吗？",
+  "consent11AnalyticsTitle": "分析数据",
+  "consent12Analytics": "为了评估应用程序或单个功能的成功，应用程序会传输匿名的使用统计数据。数据不会传输给第三方。这些数据用于应用程序的进一步开发。",
+  "consent13StromGedacht": "StromGedacht 是 TransnetBW 提供的一项服务，提供有关电网稳定性的信息以及何时应优先使用电力的建议。随着能源转型对输电网的挑战越来越大，德国西南部的家庭也参与其中。为了接收您所在位置的信息，您的邮政编码（如果在应用程序中输入）将被传输到 TransnetBW StromGedacht API。不传输或链接其他数据。",
+  "consent13StromGedachtTitle": "StromGedacht 的电网稳定性通知",
+  "consent1Hello": "你好",
+  "consent2ThankYou": "感谢您使用 EHW+！",
+  "consent3Video": "您想观看简短的介绍视频吗？",
+  "consent4BeforeYouCanContinue": "在您可以继续之前",
+  "consent5ErrorReportingTitle": "错误报告",
+  "consent6ContractPricesPerUnitTitle": "电/水/气价格",
+  "consent7ContractPricesPerUnit": "为了能够估算出与其他 EHW+ 用户相比您当前支付的费用，价格连同国家/地区和州一起传输到德国的 EHW+ 服务器。只有在您同意转让的情况下，您才可以访问价格统计数据。为了确保匿名，统计数据只能在传输最少数量的价格后显示。",
+  "consentTitle": "隐私设置",
+  "consumption": "消耗",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "清除并同步",
+  "consumptionCacheManagementClearCacheButton": "清除缓存",
+  "consumptionCacheManagementClearedSuccessfully": "缓存清除成功",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "所有缓存的数据将被删除并从服务器重新下载。这可能需要一些时间。",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "清除缓存并同步？",
+  "consumptionCacheManagementConfirmClearCacheMessage": "所有缓存的消费数据将被永久删除。您可以稍后同步。",
+  "consumptionCacheManagementConfirmClearCacheTitle": "清除缓存？",
+  "consumptionHeatmap": "消费热图",
+  "consumptionHeatmapYield": "产量热图",
+  "consumptionHeatpump": "此外，热泵的耗电量为 {formattedValue} kWh。",
+  "consumptionIsNotExclusive": "如果消耗不属于此活动，则会显示为警告。",
+  "consumptionIsNotExclusiveTitle": "消费是排他性的吗？",
+  "consumptionPersonLabel": "{count, plural, one {人} other {人们}}",
+  "consumptionWaterColdEqual": "冷水：与普通家庭差不多。",
+  "consumptionWaterColdLess": "冷水：{percentage}比一般家庭少。",
+  "consumptionWaterColdMore": "冷水：{percentage}比一般家庭多。",
+  "consumptionWaterDailyMonthly": "每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
+  "consumptionWaterDailyMonthlyPerPerson": "每个人，每个人都消费 每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
+  "consumptionWaterDailyMonthlySingle": "你消费 每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
+  "consumptionWaterOverallEqual": "您的用水量 {ofRange} 与普通家庭的用水量 {householdSize} {personLabel} 相当。",
+  "consumptionWaterOverallLess": "您的用水量 {ofRange} 比拥有 {householdSize} {personLabel} 的普通家庭的用水量 {percentage} 低。",
+  "consumptionWaterOverallMore": "您的用水量 {ofRange} 比拥有 {householdSize} {personLabel} 的普通家庭高出 {percentage}。",
+  "consumptionWaterPrefixPerPerson": "每个人，每个人都消费",
+  "consumptionWaterPrefixSingle": "你消费",
+  "consumptionWaterRangeUnknown": "您的用水量 {ofRange} ...",
+  "consumptionWaterWarmEqual": "热水：与普通家庭差不多。",
+  "consumptionWaterWarmLess": "热水：{percentage}比一般家庭少。",
+  "consumptionWaterWarmMore": "热水：{percentage}比一般家庭多。",
+  "consumptionYearly": "您一年的用电量 {ofRange} 为 {consumption} kWh。",
+  "consumptionYearlyDetailedAboutSame": "大约与",
+  "consumptionYearlyDetailedAverageHousehold": "拥有 {householdSize} {personLabel} 的普通家庭",
+  "consumptionYearlyDetailedComparisonEqual": "您消耗{verbSuffix} 大约与 拥有 {householdSize} {personLabel} 的普通家庭.",
+  "consumptionYearlyDetailedComparisonLess": "您消耗{verbSuffix} {percentage} 小于 拥有 {householdSize} {personLabel} 的普通家庭.",
+  "consumptionYearlyDetailedComparisonMore": "您消耗{verbSuffix} {percentage} 多于 拥有 {householdSize} {personLabel} 的普通家庭.",
+  "consumptionYearlyDetailedElectricity": "您的用电量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedElectricityIntro": "您的用电量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月)",
+  "consumptionYearlyDetailedGas": "您的燃气消耗量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedGasIntro": "您的燃气消耗量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月)",
+  "consumptionYearlyDetailedLessThan": "{percentage} 小于",
+  "consumptionYearlyDetailedLevel0": "是超低的。",
+  "consumptionYearlyDetailedLevel1": "确实值得一看。",
+  "consumptionYearlyDetailedLevel1Suffix": "PHTOKEN 每月缺少 0 kWh，无法实现最佳消耗。",
+  "consumptionYearlyDetailedLevel2": "是正常的。",
+  "consumptionYearlyDetailedLevel2Suffix": "PHTOKEN 每月缺少 0 kWh，消耗良好。",
+  "consumptionYearlyDetailedLevel3": "是比较高的。",
+  "consumptionYearlyDetailedLevel4": "是正常的。",
+  "consumptionYearlyDetailedMoreThan": "{percentage} 多于",
+  "consumptionYearlyDetailedOptimalEnding": "你做得怎么样？",
+  "consumptionYearlyDetailedYouConsume": "您消耗{verbSuffix}",
+  "consumptionYield": "屈服",
+  "contact": "EHW+ 服务有限公司\n格奥尔格赫伯特大街 8 号\n68519 菲恩海姆\n\n联系方式\n\n电话：06204/7383382\n邮箱：info@ehwplus.com",
+  "contactTitle": "代表人：",
+  "continueAcceptPart1": "使用 EHW+ 应用程序即表示您同意",
+  "continueAcceptPart2": "。有关收集和使用匿名数据和个人数据的更多信息，请参阅",
+  "contract": "合同",
+  "contractCopyDialogOptionNo": "不，取消。",
+  "contractCopyDialogOptionYes": "是的，单价或其他值已更改。",
+  "contractCopyDialogTitle": "您想复印这份合同吗？",
+  "contractCopyDialogWhen": "新价格从什么时候开始适用？",
+  "contractCosts": "单价",
+  "contractCostsFeedIn": "报酬价/底价",
+  "contractDetails": "合同期限和细节",
+  "contractName": "提供商/合同名称",
+  "contractNumber": "合同号",
+  "contractPeriod": "合约期",
+  "contractReminder": "合约提醒",
+  "contractStart": "合同开始日期",
+  "contractType": "合同类型",
+  "contractTypeElectricityProvider": "电力供应商",
+  "contractTypeGasProvider": "燃气供应商",
+  "contractTypeHeatingFees": "取暖费",
+  "contractTypeNetwork": "互联网和电话",
+  "contractTypeOilProvider": "石油供应商",
+  "contractTypeStove": "火炉",
+  "contractTypeWaterFees": "水费",
+  "contracts": "合约",
+  "corresponds": "对应",
+  "costSummary": "费用汇总",
+  "costSummaryYield": "报酬价格/-基本价格",
+  "costs": "成本",
+  "costsUndefinedColdWater": "冷水费",
+  "costsUndefinedElectricity": "电费",
+  "costsUndefinedFor": "成本未定义",
+  "costsUndefinedForType": "{type} 表示未定义",
+  "costsUndefinedGas": "汽油费",
+  "costsUndefinedHeater": "取暖费",
+  "costsUndefinedNetworkCounter": "上网费",
+  "costsUndefinedOilHeating": "油费",
+  "costsUndefinedWarmWater": "温水费",
+  "counter": "柜台",
+  "counterBackgroundImage": "柜台的背景图片",
+  "counterBackgroundImageOfObject": "对象的背景图像",
   "counterColdWater": "冷水表",
-  "counterWaterExtraction": "抽水量计（花园）",
-  "counterWaterExtractionExplanation": "使用扣除计可以降低废水成本。通过此应用内购买，您可以指定淡水和废水的不同成本，并且扣表的读数将计入水费中。",
-  "warmWater": "温水",
-  "counterWarmWater": "温水表",
+  "counterConsiderForTotalConsumptions": "考虑总消费",
+  "counterConsiderForTotalElectricity": "考虑总用电量",
+  "counterConsiderForTotalWater": "考虑总耗水量",
+  "counterContractCurrentlyUsed": "目前使用的合约",
+  "counterDeleteConfirm": "删除计数器？",
+  "counterDirection": "方向",
+  "counterDirectionAscending": "上升",
+  "counterDirectionDescending": "下降",
+  "counterDirectionExplanation": "该值是否随着使用而减少（液位指示器等），或者该值是否随着使用而增加（燃烧器时间、油表等），或者每个读数值是否独立（消耗/产量）？",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "counterDistrictHeating": "区域供暖",
+  "counterEdit": "编辑计数器",
   "counterElectricity": "电表",
   "counterElectricityBack": "电量馈入表 (PV)",
   "counterElectricityGenerated": "发电表",
-  "counterPvFeedInCounter": "可再生能源（太阳能和光伏/太阳能系统的热能）",
-  "counterPvFeedInCounterExplanation": "使用馈电表记录发电量和馈入电量\n带有光伏系统。由此产生的收入抵消了成本\n汲取的电力。",
-  "virtualCounter": "虚拟电表",
-  "heater": "散热器",
-  "gas": "气体",
-  "oil": "油",
-  "stove": "火炉",
-  "networkCounter": "互联网和电话",
-  "solarThermalCollector": "太阳能集热器",
-  "contractTypeElectricityProvider": "电力供应商",
-  "contractTypeWaterFees": "水费",
-  "contractTypeHeatingFees": "取暖费",
-  "contractTypeOilProvider": "石油供应商",
-  "contractTypeGasProvider": "燃气供应商",
-  "contractTypeStove": "火炉",
-  "contractTypeNetwork": "互联网和电话",
-  "currency": "货币",
-  "costsUndefinedFor": "成本未定义",
-  "exportOptionReadingsTitle": "读取数值",
-  "exportOptionReadingsSubtitle": "通常是不规则间隔的仪表读数或消耗量。",
-  "exportOptionConsumptionsTitle": "日常消费",
-  "exportOptionConsumptionsSubtitle": "自第一次读取以来每天的消耗值。",
-  "settings": "设置",
-  "roomOther": "其他",
-  "previouslyDeletedCounters": "最近删除的仪表",
-  "restoreDeletedCounter": "您想恢复这个已删除的仪表吗？",
-  "localWriteTitle": "保存到本地下载文件夹中",
-  "localWriteSubtitle": "每次更改时是否应该将对象和照片保存在本地“{folder}”文件夹中？",
-  "settingUiMode": "用户界面",
-  "settingUiColorPalette": "调色板",
-  "settingUiModeDarkOrLight": "深色/浅色用户界面",
-  "settingLanguageMode": "语言",
-  "settingUiModeOsDefault": "系统",
-  "settingUiModeLight": "光",
-  "settingUiModeDark": "黑暗的",
-  "appBarExpandedMode": "带有背景图像的应用栏",
-  "useDismissibleSettings": "通过滑动手势删除",
-  "useDismissibleSettingsDetailed": "计数器、合约等可以通过侧滑移动来删除",
-  "settingsExternalServices": "外部服务",
-  "settingsShowTabNewsDetailed": "新闻/提示选项卡应该可见吗？",
-  "settingsShowStromGedacht": "是否应该显示 StromGedacht 有关电网的提示？",
-  "lineChartAppearanceSettings": "折线图外观",
-  "lineChartAppearanceSettingsShowSpots": "在图表线上显示（圆形）点",
-  "supportMakeSuggestion": "建议一些东西",
-  "supportMakeSuggestionLong": "该应用程序的生命来自于用户的建议。你有什么建议吗？",
-  "featureVoting": "特色投票",
-  "featureVotingOnlyOnGerman": "该功能调查未翻译成其他语言。",
-  "notifications": "通知",
-  "notificationsEmpty": "无通知",
-  "notificationsSmartMeterAlertFallback": "您有一个新的智能电表警报。",
-  "readingNew": "新读物",
-  "readingUpdate": "更新阅读",
-  "readingPrefill": "自动填充抄表",
-  "readingPrefillDisabled": "自动填充已禁用",
-  "readingPrefillEnableForAllCounters": "为所有计数器启用自动填充",
-  "readingPrefillDisableForAllCounters": "禁用所有计数器的自动填充",
-  "readingPrefillDescription": "根据之前的条目预填仪表读数",
-  "readingPrefillDisabledToast": "自动填充已禁用",
-  "readingSubmitted": "抄表已提交",
-  "readingDeleteConfirm": "删除阅读？",
-  "reminderTime": "提醒时间",
-  "reminderWeekdayExplanation": "有提醒每天阅读的次数不要超过一次。",
-  "reminderWeekdayExplanationSeasonal": "对于有季节性消耗的仪表，仅在有消耗的月份内发送提醒（仅当给出去年的值时才有效）。",
-  "readingReminder": "{count, plural, one {读书提醒} other {阅读提醒}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "readingReminders": "阅读提醒",
-  "readingReminderDisabled": "阅读提醒未激活",
-  "readingRemindersChannel": "阅读提醒",
-  "readingReminderSingleBody": "立即读取 {counterName} 值",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "readingReminderMultiBody": "{count, plural, one {立即读取 {count} 仪表的读数} other {立即读取 {count} 仪表的读数}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "contractReminder": "合约提醒",
-  "outdated": "过时的",
-  "counterNew": "新柜台",
-  "counterEdit": "编辑计数器",
-  "counterGasConversionFactor": "换算系数",
-  "counterGasCalorificValue": "热值",
-  "counterGasConversionFactorHelpText": "钙 1.0。条件数用于将操作体积转换为标准体积。操作条件是仪表处的气体状况，取决于当前的压力（高度）和温度。",
-  "counterGasCalorificValueHelpText": "热值：将被测气体体积转换成能量的无量纲因子。天然气：通常在 9.0 至 12.5 kWh/m3 之间，液化石油气：23.0 至 33.0 kWh/m3 之间",
-  "counterTypeLabel": "计数器类型",
-  "counterMeterId": "电表ID",
-  "counterName": "柜台名称",
-  "counterContractCurrentlyUsed": "目前使用的合约",
-  "counterSelected": "已选择",
-  "counterNoContractSelected": "未选择合同",
-  "counterOtherContracts": "其他合同",
-  "counterExcludedContracts": "排除的合同",
-  "counterInclude": "包括",
   "counterExclude": "排除",
-  "counterTankCapacity": "罐体容量",
-  "counterTankFillHeight": "填充高度",
-  "counterFactorDescription": "消费是按比例分配给您的吗？输入 0.1 (10%) 和 1.0 (100%) 之间的比例值。",
-  "counterTransducerFactor": "变压器变比",
-  "counterProportionateConsumption": "比例消费",
-  "counterFactor": "因素",
-  "counterTransducerFactorExplained": "如果使用电压互感器在电压到达仪表之前降低电压，则必须应用新的转换系数以获得正确的读数。例如：仪表显示 100,000 kWh，换算系数为 20。正确读数为：100,000 kWh x 20 = 2,000,000 kWh。",
-  "counterFractionDigits": "分数数字",
-  "counterDirection": "方向",
-  "counterDirectionExplanation": "该值是否随着使用而减少（液位指示器等），或者该值是否随着使用而增加（燃烧器时间、油表等），或者每个读数值是否独立（消耗/产量）？",
-  "counterConsiderForTotalElectricity": "考虑总用电量",
-  "counterConsiderForTotalWater": "考虑总耗水量",
-  "counterWaterExtractionMinimumLevel": "最低等级",
-  "counterBackgroundImage": "柜台的背景图片",
-  "counterShowReadingsChart": "显示读数图表",
-  "counterShowHeatmap": "显示热图",
-  "counterShowPreliminaryCurve": "显示初步曲线",
-  "seasonalCounter": "季节性专柜",
-  "seasonalElectricityCounter": "季节性电量计数器",
+  "counterExcludedContracts": "排除的合同",
   "counterExplainSeasonal": "夏天将仪表读数设置为 0？冬季，读数将遵循您的正常消费模式；在夏天，它们会保持平坦。",
+  "counterFactor": "因素",
+  "counterFactorDescription": "消费是按比例分配给您的吗？输入 0.1 (10%) 和 1.0 (100%) 之间的比例值。",
+  "counterFractionDigits": "分数数字",
+  "counterGas": "燃气表",
+  "counterGasCalorificValue": "热值",
+  "counterGasCalorificValueHelpText": "热值：将被测气体体积转换成能量的无量纲因子。天然气：通常在 9.0 至 12.5 kWh/m3 之间，液化石油气：23.0 至 33.0 kWh/m3 之间",
+  "counterGasCalorificValueLabel": "热值*",
+  "counterGasConversionFactor": "换算系数",
+  "counterGasConversionFactorHelpText": "钙 1.0。条件数用于将操作体积转换为标准体积。操作条件是仪表处的气体状况，取决于当前的压力（高度）和温度。",
+  "counterGasConversionFactorLabel": "换算系数*",
+  "counterHeater": "散热器计",
+  "counterInclude": "包括",
   "counterIsOutdated": "计数器已过时",
   "counterLinkMoreRecent": "链接更多最近的计数器",
-  "counterReplacedBy": "替换为",
-  "counterReallyDeleteLink": "删除链接？",
-  "counterDeleteConfirm": "删除计数器？",
-  "counterGasCalorificValueLabel": "热值*",
-  "counterGasConversionFactorLabel": "换算系数*",
-  "counterNoRoomConnection": "没有房间连接",
-  "counterRoom": "房间",
   "counterMessageRoomOptional": "房间分配有助于分组，但是可选的。",
-  "teaserPurchaseVirtualCounter": "使用 Premium 添加虚拟柜台。",
-  "teaserPurchaseWaterExtractionCounter": "使用高级版解锁水提取计数器。",
-  "teaserPurchaseRenewableEnergies": "可再生能源计数器需要高级。",
-  "settingYearlyReset": "每年重置",
-  "settingYearlyResetOn": "在",
-  "settingShowCounterReadingsChart": "显示读数图表",
-  "settingShowHeatmap": "显示热图",
-  "settingShowPreliminaryCurve": "显示初步曲线",
-  "unitLiters": "升",
-  "unitCm": "厘米",
-  "unitNone": "没有任何",
-  "roomType": "房型",
-  "roomName": "房间名称",
-  "roomNameHint": "可选择指定房间名称",
-  "roomNew": "新房间",
-  "roomDeleteConfirm": "删除房间？",
-  "settingColor": "颜色",
+  "counterMeterId": "电表ID",
+  "counterName": "柜台名称",
+  "counterNew": "新柜台",
+  "counterNoContractSelected": "未选择合同",
+  "counterNoRoomConnection": "没有房间连接",
   "counterNum": "{count} 计数器",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "timeInFuture": "将来",
-  "timeLastUpdated": "最后更新",
-  "timeSeconds": "秒",
-  "timeMinutes": "分钟",
-  "timeHours": "小时",
-  "timeDays": "天",
-  "timeDaysWithin": "天",
-  "timeMonth": "月",
-  "timeMonths": "月",
-  "timeMonthsWithin": "月",
-  "timeJustNow": "现在",
-  "timeMinutesAgo": "{minutes} 分钟前",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "timeHoursAgo": "{hours} 小时前",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "timeToday": "今天",
-  "timeDayAgo": "一天前",
-  "timeDaysAgo": "{days} 天前",
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "timeMonthsAgo": "{months} 个月前",
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "timeForFirstYear": "第一年",
-  "timeWeek": "星期",
-  "timeWeeks": "周",
-  "timeWithin": "在 {duration} 内",
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "timeYesterday": "昨天",
-  "timeMonday": "周一",
-  "timeTuesday": "周二",
-  "timeWednesday": "周三",
-  "timeThursday": "周四",
-  "timeFriday": "星期五",
-  "timeSaturday": "周六",
-  "timeSunday": "星期日",
-  "timeFromUndefined": "不明确的",
-  "timeUntilUnlimited": "无限",
-  "timeUntilDate": "直到 {date}",
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeFromDate": "来自 {date}",
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeReminderAtStart": "开始时",
-  "timeReminderAtEnd": "结束时",
-  "timePeriodYearStart": "每年",
-  "timeRightNow": "现在",
-  "timeBefore": "前",
-  "purchasesUpgrade": "升级",
-  "upgradeDescription": "该应用程序可以做更多事情。更好的成本概览、更多统计数据、Excel 导出、更多计数器……",
-  "purchasesWhyBuyTitle": "我为什么要买东西？",
-  "purchasesWhyBuyText": "购买后，您将参与我发布应用程序所产生的费用并支持进一步的开发。",
-  "purchasesIOSRestorePurchases": "恢复购买",
-  "purchasesIOSRestorePurchasesDescription": "如果您过去已经在 AppStore 中购买过商品，则可以恢复购买。",
-  "purchasesDisabledOnIOS": "应用内购买已禁用",
-  "purchasesDisabledOnIOSDescription": "请检查您的 iPhone 上是否禁用了应用内购买（设置 > 屏幕时间 > 限制 > 应用安装和购买 > 允许应用内购买）",
-  "purchasesDisabledOnIOSDescriptionTestflight": "该应用程序是通过 Testflight 安装的。请注意，如果您通过 App Store 安装应用程序，则只能在应用程序中进行购买。",
-  "purchasesSubscribePremium": "订阅高级版",
-  "purchasesSubscribePremiumTextLong": "订阅期内可使用所有付费功能 + 室外温度",
-  "purchasesWebLegalNote": "出于法律原因，只能在具有 PlayStore 服务的 iPhone 或 Android 手机上进行购买。",
-  "purchasesYourPurchases": "您可以使用以下高级套餐：",
-  "purchasesExtensionsTitle": "单分机",
-  "purchasesExtensionsSubtitle": "购买一次，永久使用（无需订阅）",
-  "purchasesExtensionStatisticsTitle": "高级统计",
-  "purchasesExtensionMultipleObjectsTitlePart": "管理多个对象",
-  "purchasesExtensionMultipleObjectsDescription": "输入任意数量的公寓/房屋/物体的仪表读数（而不仅仅是一个物体）",
-  "purchasesExtensionsInWork": "计划进一步扩展。参加功能调查发表您的意见。",
-  "purchasesSubscribeNow": "立即订阅",
-  "purchasesBuyNow": "立即购买",
-  "purchasesRedeemCode": "兑换代码",
-  "purchasesEarlyBirdSubscription": "注：首次客户订阅若被取消，之后将无法再次订阅。",
-  "purchasesPurchasedIncludedInPremium": "包含在高级版中",
-  "purchasesPurchasedSubscribed": "已订阅",
-  "purchasesPurchased": "已购买",
-  "purchasesExtensionStatisticsDescription": "获取每年/每月/每周的电力/燃气/水/...的消耗+期间调整+详细的成本概览+Excel导出",
-  "commonAnd": "和",
-  "purchasesSubscribePremiumMonthly": "可取消的每月订阅仅需 {price} 每月",
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumMonthlyWithNewPrice": "每月可取消订阅，每月忠诚价格为 {price}，而不是 {priceNew}",
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearly": "每年只需 {price} 即可取消订阅",
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearlyWithNewPrice": "每年可取消订阅，忠诚价格为 {price}，而不是 {priceNew}",
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesStatisticsWithPremium": "通过 Premium，您可以访问每月比较{count,plural,=0{.}=1{.}other{，还可以查看 {years} 的历史数据。}}",
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "years": {
-        "type": "String"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "smartMeterProviderTibber": "提伯",
-  "smartMeterProviderWwgl": "杰劳尔土地水厂",
-  "smartMeterProviderUndefined": "未设置",
-  "sync": "同步",
-  "costsUndefinedForType": "{type} 表示未定义",
-  "costsUndefinedElectricity": "电费",
-  "costsUndefinedColdWater": "冷水费",
-  "costsUndefinedWarmWater": "温水费",
-  "costsUndefinedHeater": "取暖费",
-  "costsUndefinedOilHeating": "油费",
-  "costsUndefinedGas": "汽油费",
-  "costsUndefinedNetworkCounter": "上网费",
-  "updateAvailable": "应用程序版本 {oldVersion} 不是最新的。您可以更新到版本 {newVersion}。",
-  "@updateAvailable": {
-    "placeholders": {
-      "oldVersion": {
-        "type": "String"
-      },
-      "newVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "versionIsUpToDate": "向所有用户发布的最新应用程序版本是 {version}。",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "messageNoCounters": "您还没有创建计数器。",
-  "messageNoCounterReadings": "您尚未输入计数器读数。",
-  "parsingObjectError": "无法解析该对象。请联系开发商。卸载应用程序时，数据可能会丢失。",
-  "reallyDeleteCounter": "您确定要删除计数器吗？",
-  "reallyDeletePhoto": "您确定要删除抄表照片吗？",
-  "reallyDeleteCounterLink": "您确定要删除计数器之间的链接吗？",
-  "virtualCounterNotConfigured": "请检查您的虚拟电表的设置。没有什么可以计算的。",
-  "virtualCounterMasterCounter": "主计",
-  "virtualCounterMasterCounterAttach": "选择主仪表",
-  "virtualCounterMasterCounterDescription": "信息：主表构成虚拟表的计算基础，例如主电表或主水表。",
-  "virtualCounterMetersToBeSubtracted": "需减去的米数",
-  "virtualCounterMetersToBeSubtractedDescription": "应从主表中减去哪些表读数，例如“热泵表”、“馈电表”。",
-  "virtualCounterMetersToBeAdded": "待添加米数",
-  "virtualCounterMetersToBeAddedDescription": "哪些仪表读数应添加到主仪表中，例如发电表。",
-  "areYouSure": "你确定吗？",
-  "addNewValue": "输入新值",
-  "reallyDeleteValue": "您确实要删除该值吗？",
-  "warning": "警告",
-  "messageNotEnoughData": "数据不足，无法显示图表",
-  "messageNoConsumptions": "如果已获取足够的读数，则此处会显示某种类型的所有仪表的统计数据。例如，一份水统计数据中显示了两个冷水表、两个热水表和一个取水表。",
-  "lastReading": "最后阅读",
-  "chartDottedLinesNonSeasonal": "虚线代表前一时期。例如，对于“过去 14 天”的选择，将显示最后 28 天，其中较早的 14 天以虚线显示。",
-  "chartDottedLinesSeasonal": "虚线代表前一时期。例如，对于“过去 14 天”的选择，将显示最后 28 天，其中较早的 14 天以虚线显示。",
-  "chartHorizontalLines": "虚线旨在提供有关您自己的消费的反馈。",
-  "chartHorizontalLineWater": "德国平均每人每天消耗 127 升家庭饮用水。蓝线代表冷水（60%），红线代表热水（40%），推断出该期间的天数和人数。",
-  "chartHorizontalLineElectricityGas": "绿线代表非常好的消费，黄线代表良好的消费，红线代表德国的平均消费。",
-  "per": "每",
-  "costSummary": "费用汇总",
-  "costSummaryYield": "报酬价格/-基本价格",
-  "soFar": "迄今为止",
+  "counterOilHeating": "油加热",
+  "counterOtherContracts": "其他合同",
+  "counterOutdatedAndNextReminder": "计数器读数自 {date} 起已过时，下次读数提醒 {date2}。",
+  "counterProportionateConsumption": "比例消费",
+  "counterPvFeedInCounter": "可再生能源（太阳能和光伏/太阳能系统的热能）",
+  "counterPvFeedInCounterExplanation": "使用馈电表记录发电量和馈入电量\n带有光伏系统。由此产生的收入抵消了成本\n汲取的电力。",
+  "counterReadings": "读物",
+  "counterReallyDeleteLink": "删除链接？",
+  "counterReplacedBy": "替换为",
+  "counterRoom": "房间",
+  "counterSelected": "已选择",
+  "counterShowHeatmap": "显示热图",
+  "counterShowPreliminaryCurve": "显示初步曲线",
+  "counterShowReadingsChart": "显示读数图表",
+  "counterTankCapacity": "罐体容量",
+  "counterTankFillHeight": "填充高度",
+  "counterTransducerFactor": "变压器变比",
+  "counterTransducerFactorExplained": "如果使用电压互感器在电压到达仪表之前降低电压，则必须应用新的转换系数以获得正确的读数。例如：仪表显示 100,000 kWh，换算系数为 20。正确读数为：100,000 kWh x 20 = 2,000,000 kWh。",
+  "counterTypeLabel": "计数器类型",
+  "counterWarmWater": "温水表",
+  "counterWarmWaterPlusColdWater": "不包括淡水和废水成本",
+  "counterWater": "水表",
+  "counterWaterExtraction": "抽水量计（花园）",
+  "counterWaterExtractionExplanation": "使用扣除计可以降低废水成本。通过此应用内购买，您可以指定淡水和废水的不同成本，并且扣表的读数将计入水费中。",
+  "counterWaterExtractionMinimumLevel": "最低等级",
+  "counters": "米",
+  "createAccount": "创建帐户/登录",
+  "csvImportWithFactor": "仪表读数是否应该乘以不等于 1.0 的系数？例如，要将值从 Wh 转换为 kWh，必须乘以 0.001。",
+  "currency": "货币",
+  "deleteObjectError": "无法删除该对象（代码 {errorCode}）。",
+  "detailWithMultiSelect": "允许多项选择",
+  "detailsTitle": "细节",
+  "difference": "不同之处",
+  "driveSignInWithGoogle": "使用 Google 登录",
+  "driveSyncNow": "立即同步",
+  "driveSyncStatusComparing": "与服务器上的文件进行比较",
+  "driveSyncStatusFailed": "同步失败",
+  "driveSyncStatusLocalHasLatestNoCloud": "从 {localDate} 保存到该设备上的文件未保存在云中",
+  "driveSyncStatusLocalHasLatestWithCloud": "从 {localDate} 保存在此设备上的文件比从 {cloudDate} 保存在云中的文件更新",
+  "driveSyncStatusNotSynced": "不同步",
+  "driveSyncStatusRemoteHasLatestNoLocal": "来自 {cloudDate} 的云端文件未保存在此设备上",
+  "driveSyncStatusRemoteHasLatestWithLocal": "{cloudDate} 中的云文件比 {localDate} 中的本地文件更新",
+  "driveSyncStatusSyncing": "同步正在进行中",
+  "driveSyncStatusTitle": "同步状态",
+  "driveSyncStatusUpToDate": "从 {localDate} 更新",
+  "driveSyncWithGoogle": "谷歌云端硬盘同步",
+  "editDetailTitle": "编辑详细信息",
+  "electricity": "电",
+  "electricityBack": "电力输入",
+  "electricityConsumption": "功耗",
+  "electricityGenerated": "发电量",
+  "enterComment": "输入注释",
+  "enterExistingReadingAgain": "重新进入旧阅读",
+  "enterObjectName": "为新对象命名",
+  "errorInvalidRange": "无有效范围",
+  "errorNoInternet": "无网络",
+  "euDisputeResolution": "欧盟争议解决\n\n欧盟委员会提供在线争议解决 (OS) 平台：https://ec.europa.eu/consumers/odr/。\n您可以在上面的印记中找到我们的电子邮件地址。\n\n消费者争议解决/通用争议解决机构\n\n我们不愿意也没有义务参与消费者仲裁委员会的争议解决程序。",
+  "existingPhoto": "附上现有照片",
+  "existingPhotoOfMeterReading": "您想附上现有的抄表照片吗？",
+  "explanationManageMoreThanOneObject": "您想要管理不止一处房产吗？然后命名当前对象，然后创建另一个对象。",
+  "export": "出口",
+  "exportExplanation": "您想要导出哪个现有对象，例如将其传输到新设备？",
+  "exportObjectDescription": "{countersText}、{meterReadings}、{timeLastUpdated} {lastUpdated}",
+  "exportOptionConsumptionsSubtitle": "自第一次读取以来每天的消耗值。",
+  "exportOptionConsumptionsTitle": "日常消费",
+  "exportOptionExcel": "Excel文件",
+  "exportOptionFileDescription": "该对象作为 {fileType} 文件共享",
+  "exportOptionPdf": "PDF文件",
+  "exportOptionReadingsSubtitle": "通常是不规则间隔的仪表读数或消耗量。",
+  "exportOptionReadingsTitle": "读取数值",
+  "exportTabHowToExport": "您想如何导出数据？",
+  "exportTabHowToExportOptionSaveToDownloads": "保存到文件夹 {folder}",
+  "exportTabHowToExportOptionShare": "与其他应用程序共享",
+  "exportTabSnackBarSaveResultMessageError": "保存数据时出错",
+  "exportTabSnackBarSaveResultMessageSuccess": "数据已成功保存为文件夹 {folder} 中的 {fileName}",
+  "exportWhere": "对象应以哪种格式导出？",
+  "exportWhichValuesShouldBeExported": "应该导出哪些值？",
+  "faqAboutDeveloperBody1": "感谢您对 EHW+ 的兴趣。 EHW+ 由我 Timo Bähr 于 2020 年 12 月发布。我是一名全职应用程序开发人员，在业余时间从事 EHW+ 工作，为环境保护做出贡献。自 2022 年 5 月以来，第二位开发人员一直在监督我的工作，Thomas Hesse 为 EHW+ 构建后端。自 2023 年 4 月以来，Janine Sinner 一直在处理大量客户反馈。自 2024 年 7 月起，Artem Yuzhakov 作为应用程序开发人员加入。",
+  "faqAboutDeveloperBody2": "德国超过 26% 的二氧化碳排放量是由私人家庭造成的。如果每个人都能减少一点点的消费，那就大有作为了。非常感谢您的贡献！",
+  "faqAboutDeveloperBody3": "我们欢迎有关如何改进该应用程序的建议。",
+  "faqAboutDeveloperBody4": "不过，我无法实现所有建议，而且新功能需要时间，请您谅解。",
+  "faqAboutDeveloperTitle": "EHW+背后是谁？",
+  "faqTitle": "常问问题",
+  "featureVoting": "特色投票",
+  "featureVotingOnlyOnGerman": "该功能调查未翻译成其他语言。",
+  "featureVotingUnderConstruction": "目前正在修订该功能调查。未来将需要EHW+用户帐户，调查将不再使用第三方服务器。我们感谢您的耐心等待。",
+  "fedIn": "喂入",
+  "firstReadingConsumption": "现在输入第一笔消费。",
+  "firstReadingCounter": "输入第一个计数器读数。",
+  "firstReadingYield": "现在输入第一个产量。",
   "forX": "为了",
-  "corresponds": "对应",
-  "warningCounterReplacementDetected": "新值低于之前的仪表读数。电表更换了吗？",
-  "warningYearlyReset": "年初零读书",
-  "warningReadingSmallerThanOldValue2": "新值低于之前的仪表读数。读数是否正确？",
-  "warningReadingBiggerThanOldValueOilVolume": "新值高于之前的仪表读数。你给油箱加满了吗？",
-  "warningReadingSeemsTooBig": "新的价值相当高。读数是否正确？",
-  "warningReadingSeemsTooSmall": "新的价值相当低。读得正确吗？",
+  "gas": "气体",
+  "generated": "生成",
+  "googleAnalyticsAgreement": "我同意将有关应用程序使用的匿名数据传输给 EHW+ Services GmbH。",
+  "googleApiAgreement": "{appNameShort} 使用从 Google API 收到的信息以及将其传输到任何其他应用程序时将遵守 Google API 服务用户数据政策，包括有限使用要求。",
+  "gross": "总的",
+  "grossNetPrices": "总价或净价",
+  "heatPump": "热泵",
+  "heater": "散热器",
+  "heatmapLegendDisclaimer": "信息：阴影框包含估计值。要读取实际消耗/输出，请尽可能填写缺失的仪表读数。",
+  "heatmapLegendTitle": "有关热图的更多信息",
+  "houseName": "房屋名称",
+  "houseNameDescription": "房屋名称，例如街道名称",
+  "import": "进口",
+  "importConfirm": "确认导入",
+  "importCounterAsCsv": "您想导入单个仪表吗？每米支持一个包含两列的 CSV 文件，一列用于时间，一列用于仪表读数。\n\n示例数据：\n2020-04-01T22:59:00,6790.855\n“2020-04-01T23:59”;6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n“2020-04-01 23:02:00”,6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {仅使用前两列。第三列被忽略。} other {仅使用前两列，忽略 {columns} 列。}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {忽略一行：{lines}} other {{count} 行被忽略：{lines}}}",
+  "importExplanation": "您已经进行了计数器读数并想将其插入吗？",
+  "importExport": "备份/恢复",
+  "importNewOrExistingCounter": "添加到新的或现有的计数器？",
+  "importNotPossible": "无法导入",
+  "importPickFile": "选择文件",
+  "importSelectJson": "JSON 文件（使用 {appName} 创建）",
+  "importSelectSingleCounter": "单个计数器（CSV 文件）",
+  "importSuccessful": "导入成功",
+  "importTabErrorMessageFileWithExtensionNotSelected": "需要 {extension} 文件才能继续导入。",
+  "importTheObject": "导入对象",
+  "importWhichCounterForCsv": "应该使用哪个计数器？",
+  "imprintTitle": "印记",
+  "initialReading": "初读",
+  "involvedCounters": "涉及柜台",
+  "isLastEntryAtFilteredList": "过滤列表中最旧的值",
+  "isOutdatedCounter": "不再使用计数器",
+  "last12Months": "过去 12 个月",
+  "last12Weeks": "过去 12 周",
+  "last2Weeks": "过去 14 天",
+  "lastReading": "最后阅读",
+  "lastYear": "去年",
+  "lineChartAppearanceSettings": "折线图外观",
+  "lineChartAppearanceSettingsShowSpots": "在图表线上显示（圆形）点",
+  "localWriteSubtitle": "每次更改时是否应该将对象和照片保存在本地“{folder}”文件夹中？",
+  "localWriteTitle": "保存到本地下载文件夹中",
+  "manageMoreThanOneObjectStep1": "管理多个对象 - 第 1 步",
+  "manageMoreThanOneObjectStep2": "管理多个对象 - 第 2 步",
+  "marketLocationId": "市场位置 ID",
+  "marketLocationIdDescription": "市场位置 ID 始终由 11 位数字组成。您通常可以在最近的电费或燃气费账单上找到此信息。",
+  "messageNoConsumptions": "如果已获取足够的读数，则此处会显示某种类型的所有仪表的统计数据。例如，一份水统计数据中显示了两个冷水表、两个热水表和一个取水表。",
+  "messageNoContracts": "还没有合同。",
+  "messageNoCounterReadings": "您尚未输入计数器读数。",
+  "messageNoCounters": "您还没有创建计数器。",
+  "messageNoRooms": "还没有房间。房间帮米。",
+  "messageNotEnoughData": "数据不足，无法显示图表",
+  "meterCardLastUpdatedLabel": "已更新",
+  "meterId": "计数器编号",
+  "meterReadingSubmitted": "传输给提供商",
   "meterReadingsFilterAll": "显示全部",
   "meterReadingsFilterComments": "仅显示带有评论的条目",
   "meterReadingsFilterSubmitted": "仅显示“{state}”",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "isLastEntryAtFilteredList": "过滤列表中最旧的值",
-  "initialReading": "初读",
-  "warningReadingBiggerThanOldValue": "新值高于之前的仪表读数。{isOilCounter, select, true { Have you refilled the tank?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedForYearlyResetCounter": "{deviceTypeName} {roomNamePart} 的年度 {lastYear} 的最终仪表读数缺失。这对于正确计算年度总消耗量是必要的。",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "lastYear": {
-        "type": "String"
-      },
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "{deviceTypeName} {roomNamePart} 的最新仪表读数已过时 {outdatedSinceText}.{whenNotifyDateText}",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "valueLess": "{value} 少",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "valueMore": "{value} 更多",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonNotEnoughData": "网站 {countryName} ({countryCode}) 还没有足够的比较数据。",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      },
-      "countryCode": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonEqual": "您支付的费用大约相当于 {countryName} 的平均费用。",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "myObjects": "我的对象",
+  "net": "网",
+  "networkCounter": "互联网和电话",
+  "newCounter": "创建一个新计数器",
+  "newPhoto": "拍摄一张新照片",
+  "newPhotoOfMeterReading": "您想拍一张抄表照片吗？",
+  "newReading": "输入当前读数",
+  "newReadingShort": "新读物",
+  "notifications": "通知",
+  "notificationsEmpty": "无通知",
+  "notificationsSmartMeterAlertFallback": "您有一个新的智能电表警报。",
+  "numCounters": "{count, plural, =0 {{count} 计数器} one {{count} 计数器} other {{count} 计数器}}",
+  "numMeterReadings": "{readings, plural, one {＃ 阅读} other {# 读数}}",
+  "numberOfDetails": "{count, plural, one {1 细节} other {{count} 详细信息}}",
+  "ofRangeFrom": "来自 {range}",
+  "ofRangeLastDays": "过去 {days} 天的",
+  "ofRangeLastMonths": "过去 {months} 个月",
+  "oil": "油",
+  "outdated": "过时的",
+  "outdatedContracts": "过时的合同",
+  "outdatedCounters": "计数器不再使用",
+  "paidAdvancePayments": "预付款",
+  "parsingObjectError": "无法解析该对象。请联系开发商。卸载应用程序时，数据可能会丢失。",
+  "per": "每",
+  "perUnit": "每个 {unit}",
+  "period": "时期",
+  "periodBimonthly": "双月刊",
+  "periodBiweekly": "每两周一次",
+  "periodCustom": "用户定义",
+  "periodDaily": "日常的",
+  "periodHalfYearly": "半年一次",
+  "periodHourly": "每小时",
+  "periodMonthly": "每月",
+  "periodQuarterly": "季刊",
+  "periodWeekly": "每周",
+  "periodYearly": "每年",
+  "previouslyDeletedCounters": "最近删除的仪表",
   "priceComparisonDiff": "您支付 {diffWithCurrency} {comparison, select, more {高于} less {低于} other {高于}} {countryName} 的平均值。",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "diffWithCurrency": {
-        "type": "String"
-      },
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "priceComparisonEqual": "您支付的费用大约相当于 {countryName} 的平均费用。",
+  "priceComparisonNotEnoughData": "网站 {countryName} ({countryCode}) 还没有足够的比较数据。",
+  "pricePerUnit": "每单位价格",
+  "pricePerUnitFeedIn": "报酬价格",
+  "pricePerUnitFreshWater": "淡水成本",
+  "pricePerUnitWasteWater": "废水价格",
+  "pricePerUnitWaterCold": "冷水费用",
+  "pricePerUnitWaterWarm": "热水采暖费用",
+  "priceSubmissionAgreement": "我同意将每单位的电/气/水价格传输到 EHW+ 服务器",
+  "privacyBlock1Text": "根据德国电信媒体法 (TMG) 第 5 条，应用程序（以下简称“应用程序”）的开发者/提供商：\n\nPHToken0",
+  "privacyBlock1Text2": "使用该应用程序需要您同意以下使用条款。请仔细阅读。",
+  "privacyBlock1Title": "开发商",
+  "privacyBlock2Text": "保护您的数据对我们来说非常重要。本隐私政策解释了 EHW+ 收集哪些个人数据以及如何使用这些数据。隐私政策很少发生根本性变更，但可能会因新功能、技术或法律要求而不时进行修订。因此，请不时查看此页面以了解最新信息。如果我们做出任何重大变更，我们将通知您，并在必要时征得您的同意。",
+  "privacyBlock2Title": "一般的",
+  "privacyBlock3Title": "{appNameShort} 收集哪些数据？",
+  "privacyBlock3aText": "我们创建了 {appNameShort}，以便您可以快速轻松地输入仪表读数，然后使用统计数据了解有关您的消耗、成本和潜在节省的更多信息。这意味着您可以在 {appNameShort} 中输入、计算或保存任何数据，我们通常将其称为“内容”。该数据仅存储在您的手机上。\n\n与 Google 云端硬盘同步。\n如果您启用与 Google 云端硬盘同步，内容也会自动备份到 Google 云端硬盘上名为“{appNameShort}”的文件夹中，只有您可以访问该文件夹。通过使用 Google 登录，开发者将可以看到您的电子邮件地址。",
+  "privacyBlock3bText": "{googleApiAgreement}\n\n位置数据。\n为了了解用户行为和未来功能，该应用程序会传输匿名使用数据。\n数据不与第三方共享。\n可能会收集有关来源（国家和城市）、语言、操作系统、设备类型、分辨率、点击行为和使用持续时间的信息。\n\n设备数据。\n我们收集有关您用于连接服务的设备数量和类型的数据，以及有关这些设备上操作系统的信息（例如 Android、iOS、Windows 或 macOS）。\n\n使用该应用程序即表示您同意如上所述收集匿名数据。",
+  "privacyBlock4DataUsage": "收集的匿名数据用于评估用户行为。除此之外，没有进一步使用数据。\n\nPHToken0",
+  "privacyBlock4DataUsageTitle": "{appNameShort} 如何使用我的数据？",
+  "privacyBlock5": "个人数据的存储期限由相应的法定保留期限（例如商法和税法保留期限）决定。期限届满后，相应的数据将被例行删除，前提是履行或启动合同不再需要这些数据和/或我们不再对其继续存储拥有合法权益。",
+  "privacyBlock5Title": "个人数据的存储期限",
+  "privacyBlock6": "当您联系我们时（例如通过联系表或电子邮件），个人数据将被收集。联系表格中收集的数据可以在相应的联系表格上查看。该数据的存储和使用仅用于回复您的询问或建立联系以及相关的技术管理。数据处理的法律依据是我们根据第 1 条回应您的请求的合法权益。第 6 段1 点燃。 f GDPR。如果您的联系旨在签订合同，则处理的额外法律依据是艺术。第 6 段1 点燃。 b GDPR。如果从情况可以推断所涉问题已最终澄清并且没有保留数据的法律义务，则您的数据将在处理您的询问后被删除。",
+  "privacyBlock6Title": "接触",
+  "privacyBlock7": "适用的数据保护法授予您作为数据主体相对于控制者在处理您的个人数据方面的全面权利（知情权和干预权），我们将在下面通知您：\n\n- 根据艺术的知情权。 GDPR 第 15 条：特别是，您有权获取有关我们处理的您的个人数据的信息、处理的目的、处理的个人数据的类别、您的数据已经或将要向其披露的接收者或接收者类别、计划存储期或确定存储期的标准、是否存在纠正、删除、限制处理、反对处理、向监管机构投诉的权利、您的数据的来源（如果我们不是从您那里收集的）、是否存在自动化处理决策，包括分析，以及（在适用的情况下）有关所涉及逻辑的有意义的信息以及此类处理对您的意义和预期后果，以及您了解根据第 1 条存在的保证的权利。 46 GDPR（当您的数据传输到第三国时）；\n\n- 根据第 1 条的纠正权。 16 GDPR：您有权立即纠正与您有关的不准确数据和/或补全我们存储的不完整数据。\n\n- 根据艺术删除权。 GDPR 第 17 条：如果符合第 17 条的条件，您有权要求删除您的个人数据。满足 GDPR 第 17(1) 条。然而，如果为了行使言论和信息自由权、为了遵守法律义务、为了公共利益或者为了确立、行使或辩护法律主张而需要进行处理，则该权利不适用。\n\n- 根据第 1 条限制处理的权利。第 18 条 GDPR：只要您的数据准确性正在得到验证，如果您以不允许的数据处理为由反对删除您的数据，则您有权要求限制处理您的数据；如果您在我们不再需要这些数据来实现收集数据的目的后需要您的数据来主张、行使或辩护法律索赔，或者您以与您的特定目的相关的理由提出反对，则您有权要求限制处理您的数据。情况，只要尚不清楚我们的正当理由是否占上风；\n\n- 根据艺术的知情权。第 19 条 GDPR：如果您已向控制者行使了更正、删除或限制处理的权利，则控制者有义务将此次更正、删除或限制处理的情况通知所有已向其披露您的个人数据的接收者，除非事实证明这是不可能的或需要付出过多的努力。您有权了解这些收件人的情况。\n\n- 根据第 1 条的数据可移植权。 20 GDPR：您有权以结构化、常用和机器可读的格式接收您向我们提供的个人数据，或在技术可行的情况下请求将其传输给另一个控制者。\n\n- 撤回根据第 1 条授予的同意的权利。第 7(3) GDPR：您有权随时撤回对数据处理的同意，并在未来生效。如果撤回，我们将立即删除相关数据，除非可以在未经同意的情况下基于法律依据进行进一步处理。撤回同意并不影响撤回前基于同意进行的处理的合法性。\n\n- 根据第 1 条提出投诉的权利。第 77 条 GDPR：如果您认为对您个人数据的处理违反了 GDPR，您有权向监管机构提出投诉，特别是在您居住地、工作地点或涉嫌侵权地点的成员国，且不影响任何其他行政或司法补救措施。",
+  "privacyBlock7Title": "当事人的权利",
+  "privacyBlock8": "如果我们作为利益平衡的一部分，基于我们压倒一切的合法利益来处理您的个人数据，您有权因您的具体情况而随时反对此处理，并且对未来有效。如果您行使反对权，我们将停止处理相关数据。然而，如果我们能够证明有令人信服的合法理由进行凌驾于您的利益、基本权利和自由之上的处理，或者如果处理用于主张、行使或捍卫法律主张，则保留进一步处理的权利。\n\n如果我们出于直接营销目的处理您的个人数据，您有权随时反对出于此类广告目的处理您的个人数据。您可以行使上述反对权。\n\n如果您行使反对权，我们将停止出于直接营销目的处理有关您的数据。",
+  "privacyBlock8Title": "反对权",
+  "privacyContractPriceSubmission": "当您作为用户维护合同数据时，电力、水和天然气合同的单位价格以及国家和联邦州将传输到德国的 EHW+ 服务器。该数据用于计算价格统计。对于应用程序用户来说，统计数据以合同视图中价格比较的形式可见。\n\n使用该应用程序即表示您同意上述匿名数据收集。",
+  "privacyTitle": "隐私政策",
+  "purchasesBuyNow": "立即购买",
+  "purchasesDisabledOnIOS": "应用内购买已禁用",
+  "purchasesDisabledOnIOSDescription": "请检查您的 iPhone 上是否禁用了应用内购买（设置 > 屏幕时间 > 限制 > 应用安装和购买 > 允许应用内购买）",
+  "purchasesDisabledOnIOSDescriptionTestflight": "该应用程序是通过 Testflight 安装的。请注意，如果您通过 App Store 安装应用程序，则只能在应用程序中进行购买。",
+  "purchasesEarlyBirdSubscription": "注：首次客户订阅若被取消，之后将无法再次订阅。",
+  "purchasesExtensionMultipleObjectsDescription": "输入任意数量的公寓/房屋/物体的仪表读数（而不仅仅是一个物体）",
+  "purchasesExtensionMultipleObjectsTitlePart": "管理多个对象",
+  "purchasesExtensionStatisticsDescription": "获取每年/每月/每周的电力/燃气/水/...的消耗+期间调整+详细的成本概览+Excel导出",
+  "purchasesExtensionStatisticsTitle": "高级统计",
+  "purchasesExtensionsInWork": "计划进一步扩展。参加功能调查发表您的意见。",
+  "purchasesExtensionsSubtitle": "购买一次，永久使用（无需订阅）",
+  "purchasesExtensionsTitle": "单分机",
+  "purchasesIOSRestorePurchases": "恢复购买",
+  "purchasesIOSRestorePurchasesDescription": "如果您过去已经在 AppStore 中购买过商品，则可以恢复购买。",
+  "purchasesPurchased": "已购买",
+  "purchasesPurchasedIncludedInPremium": "包含在高级版中",
+  "purchasesPurchasedSubscribed": "已订阅",
+  "purchasesRedeemCode": "兑换代码",
+  "purchasesStatisticsWithPremium": "通过 Premium，您可以访问每月比较{count,plural,=0{.}=1{.}other{，还可以查看 {years} 的历史数据。}}",
+  "purchasesSubscribeNow": "立即订阅",
+  "purchasesSubscribePremium": "订阅高级版",
+  "purchasesSubscribePremiumMonthly": "可取消的每月订阅仅需 {price} 每月",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "每月可取消订阅，每月忠诚价格为 {price}，而不是 {priceNew}",
+  "purchasesSubscribePremiumTextLong": "订阅期内可使用所有付费功能 + 室外温度",
+  "purchasesSubscribePremiumYearly": "每年只需 {price} 即可取消订阅",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "每年可取消订阅，忠诚价格为 {price}，而不是 {priceNew}",
+  "purchasesUpgrade": "升级",
+  "purchasesWebLegalNote": "出于法律原因，只能在具有 PlayStore 服务的 iPhone 或 Android 手机上进行购买。",
+  "purchasesWhyBuyText": "购买后，您将参与我发布应用程序所产生的费用并支持进一步的开发。",
+  "purchasesWhyBuyTitle": "我为什么要买东西？",
+  "purchasesYourPurchases": "您可以使用以下高级套餐：",
+  "reading": "计数器读数",
+  "readingDeleteConfirm": "删除阅读？",
+  "readingNew": "新读物",
+  "readingPrefill": "自动填充抄表",
+  "readingPrefillDescription": "根据之前的条目预填仪表读数",
+  "readingPrefillDisableForAllCounters": "禁用所有计数器的自动填充",
+  "readingPrefillDisabled": "自动填充已禁用",
+  "readingPrefillDisabledToast": "自动填充已禁用",
+  "readingPrefillEnableForAllCounters": "为所有计数器启用自动填充",
+  "readingReminder": "{count, plural, one {读书提醒} other {阅读提醒}}",
+  "readingReminderDisabled": "阅读提醒未激活",
+  "readingReminderMultiBody": "{count, plural, one {立即读取 {count} 仪表的读数} other {立即读取 {count} 仪表的读数}}",
+  "readingReminderSingleBody": "立即读取 {counterName} 值",
+  "readingReminders": "阅读提醒",
+  "readingRemindersChannel": "阅读提醒",
+  "readingSubmitted": "抄表已提交",
+  "readingTime": "阅读时间",
+  "readingUpdate": "更新阅读",
+  "readingWithFactor": "带系数的计数器读数",
+  "reallyDeleteActivity": "真的删除这个活动吗？",
+  "reallyDeleteContract": "真的删除这份合同吗？",
+  "reallyDeleteCounter": "您确定要删除计数器吗？",
+  "reallyDeleteCounterLink": "您确定要删除计数器之间的链接吗？",
+  "reallyDeleteDetail": "真的删除这个细节吗？",
+  "reallyDeleteObject": "您确定要删除该对象吗？",
+  "reallyDeletePhoto": "您确定要删除抄表照片吗？",
+  "reallyDeleteValue": "您确实要删除该值吗？",
+  "refund": "退款",
+  "reminderTime": "提醒时间",
+  "reminderWeekdayExplanation": "有提醒每天阅读的次数不要超过一次。",
+  "reminderWeekdayExplanationSeasonal": "对于有季节性消耗的仪表，仅在有消耗的月份内发送提醒（仅当给出去年的值时才有效）。",
+  "requestAccess": "请求访问权限",
+  "reset": "重置",
+  "resetActivities": "重置所有活动",
+  "residualConsumptionEstimated": "预计剩余消耗量",
+  "residualGenerationEstimated": "预计剩余发电量",
+  "restoreDeletedCounter": "您想恢复这个已删除的仪表吗？",
+  "room": "房间",
+  "roomBathroom": "浴室",
+  "roomBedroom": "卧室",
+  "roomChildrenRoom": "儿童房",
+  "roomDeleteConfirm": "删除房间？",
+  "roomDiningRoom": "饭厅",
+  "roomGarden": "花园",
+  "roomKitchen": "厨房",
+  "roomLivingRoom": "客厅",
+  "roomName": "房间名称",
+  "roomNameHint": "可选择指定房间名称",
   "roomNamePart": "在 {roomName} 中",
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "warningOutdatedSinceText": "自从 {date}",
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
+  "roomNew": "新房间",
+  "roomOffice": "办公室",
+  "roomOther": "其他",
+  "roomStoreRoom": "储藏室",
+  "roomType": "房型",
+  "roomWc": "厕所",
+  "rooms": "客房",
+  "scanQrCode": "扫描激活二维码",
+  "seasonalCounter": "季节性专柜",
+  "seasonalElectricityCounter": "季节性电量计数器",
+  "selectedActivity": "所选活动“${activityName}”",
+  "selectedAtAppStart": "在应用程序启动时选择最顶层的对象",
+  "settingColor": "颜色",
+  "settingCounterTypeColor": "此计数器类型的颜色",
+  "settingCounterTypeColorAdvanced": "专家的颜色选择器",
+  "settingCounterTypeColorDescription": "如果您不喜欢此计数器类型的默认颜色，您可以指定不同的颜色。",
+  "settingEAuto": "电动车",
+  "settingHouseholdSize": "家庭规模",
+  "settingHouseholdSizeDescription": "您家里的人数。",
+  "settingLanguageMode": "语言",
+  "settingLivingArea": "生活区",
+  "settingObjectLocation": "地点",
+  "settingObjectLocationExplanation": "输入位置有助于为您所在的区域定制见解和服务。",
+  "settingObjectLocationTitle": "你的对象位于哪里？",
+  "settingObjectType": "对象类型",
+  "settingObjectTypeFlat": "公寓",
+  "settingObjectTypeHouse": "房子",
+  "settingShowCounterReadingsChart": "显示读数图表",
+  "settingShowHeatmap": "显示热图",
+  "settingShowPreliminaryCurve": "显示初步曲线",
+  "settingUiColorPalette": "调色板",
+  "settingUiMode": "用户界面",
+  "settingUiModeDark": "黑暗的",
+  "settingUiModeDarkOrLight": "深色/浅色用户界面",
+  "settingUiModeLight": "光",
+  "settingUiModeOsDefault": "系统",
+  "settingWaterHeater": "热水器",
+  "settingYearlyReset": "每年重置",
+  "settingYearlyResetOn": "在",
+  "settings": "设置",
+  "settingsExternalServices": "外部服务",
+  "settingsShowStromGedacht": "是否应该显示 StromGedacht 有关电网的提示？",
+  "settingsShowTabNewsDetailed": "新闻/提示选项卡应该可见吗？",
+  "showAllYears": "显示所有年份",
+  "signInWithApple": "使用 Apple 登录",
+  "signInWithGithub": "使用 GitHub 登录",
+  "signInWithGoogle": "使用 Google 登录",
+  "signInWithSocialAccount": "您想使用哪个社交帐户来创建或登录您的 EHW+ 帐户？",
+  "sinceInitialReading": "自初次阅读以来",
+  "smartMeterCountersTitle": "无线电水表",
+  "smartMeterErrorNoData": "不幸的是，该应用程序无法显示任何数据。",
+  "smartMeterMisconfiguredWidgetCardButton": "设置智能电表",
+  "smartMeterMisconfiguredWidgetCardTitle": "请正确设置您的智能电表。",
+  "smartMeterObtainDataAutomatically": "自动获取数据",
+  "smartMeterProviderTibber": "提伯",
+  "smartMeterProviderUndefined": "未设置",
+  "smartMeterProviderWwgl": "杰劳尔土地水厂",
+  "smartMeterServiceProvider": "服务提供商",
+  "smartMeterSettingsScreenSyncButton": "同步消费数据",
+  "smartMeterSettingsScreenSyncingDialogError": "错误",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "同步期间发生以下错误：{errorMessage}",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "好的",
+  "smartMeterSettingsScreenSyncingDialogHeader": "同步正在进行中",
+  "smartMeterSettingsScreenSyncingDialogProgress": "进度：{progressInPercent}%",
+  "smartMeterTabConsumptions": "消费",
+  "smartMeterTabProductions": "作品",
+  "smartmeterInfocodeBannerText": "智能电表 {smartmeterId} 收到信息代码：{infocode}",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "您的水表 {smartmeterId} 的温度已降至 3°C 以下。有霜冻危险！对仪表和管道进行绝缘或加热该区域以防止损坏。",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "您的水表 {smartmeterId} 检测到持续的水流。这可能表明存在泄漏。请检查您的家庭安装是否存在泄漏。马桶和水龙头滴水是常见原因。",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "您的水表 {smartmeterId} 检测到用水量异常高，这可能表明水管爆裂。请检查您的家庭安装是否存在重大泄漏或破损。如果您使用了大量的水，例如，也可能会出现警报。用于填充水池。",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "您的水表 {smartmeterId} 检测到用水量异常高，这可能表明水管爆裂或游泳池注水。请检查您的家庭安装是否存在重大泄漏或破损。",
+  "soFar": "迄今为止",
+  "social": "社交媒体",
+  "socialEmail": "电子邮件",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialLinkedIn": "领英",
+  "socialTwitter": "X",
+  "socialYouTube": "YouTube",
+  "solarThermalCollector": "太阳能集热器",
+  "sortActivities": "修改活动顺序",
+  "source": "来源：",
+  "stove": "火炉",
+  "stromGedachtAgreement": "我同意将我的邮政编码（如果提供）传输到 TransnetBW 以检索 StromGedacht 通知。",
+  "subscribeToSmartMeterInfocodeEvents": "我希望收到意外消费通知",
+  "supplementaryPayment": "补充付款",
+  "support": "支持/反馈",
+  "supportBug": "漏洞",
+  "supportGivePraise": "给予好评",
+  "supportGivePraiseLong": "你喜欢这个应用程序吗？谢谢你！传播这个词！",
+  "supportGivePraiseRating": "在 {store} 中评价该应用程序。",
+  "supportGivePraiseRecommendation": "向朋友和家人推荐该应用程序。感谢您的任何推荐！",
+  "supportMakeSuggestion": "建议一些东西",
+  "supportMakeSuggestionLong": "该应用程序的生命来自于用户的建议。你有什么建议吗？",
+  "supportQuestion": "问一个问题",
+  "supportQuestionBox": "我怎么帮你？",
+  "supportQuestionLong": "它是如何运作的？有可能吗？答案如下。",
+  "supportQuestionNotFound": "您的问题没有得到解答？我很乐意提供帮助。",
+  "supportRecommend": "我使用抄表应用程序 EHW+ 来跟踪我的能源消耗和相关成本。也许这也适合你？\n\n更多信息请访问 https://www.ehwplus.com",
+  "supportReportBug": "通过邮件报告错误",
+  "supportReportBugAffectedPages": "错误发生在哪些页面上？ （如适用）",
+  "supportReportBugLong": "很棒的应用程序！但可以肯定的是，事情可能会出错。如果您报告错误，您就可以使应用程序变得更好。",
+  "supportReportBugScreenshotsPlease": "请在邮件中附上屏幕截图，最好标明错误。",
+  "supportReportBugTextIs": "请简要描述当前的错误行为，即错误本身。",
+  "supportReportBugTextShould": "请简要描述所需的行为，即实际上应该如何。",
+  "swimmingPool": "游泳池",
+  "sync": "同步",
+  "syncAutomaticTitle": "本地数据可能被覆盖",
+  "syncDriveDataUsage": "如果您授予 EHW+ 对 Google 云端硬盘的访问权限，该应用程序将对应用程序本身创建的文件具有读写权限。不幸的是，其他人通过此应用程序创建的文件对该应用程序不可见，这意味着无法通过 Google Drive 在多个帐户之间共享数据。",
+  "syncDriveLoggedIn": "您的数据会在多个设备之间自动同步。使用以下 Google 帐户：",
+  "syncDriveLoggedInNoAuto": "更改后您的数据会自动上传到 Google 云端硬盘。仅当您单击对象时，来自云的较新数据才会覆盖本地数据。使用以下 Google 帐户：",
+  "syncObjectIsLocked": "对象数据正在更新，在此期间无法编辑。",
+  "syncShareWithOthersNotInWeb": "目前只能通过应用程序授予访问权限。",
+  "syncShareWithOthersSubtitle": "如果您想与其他 Google 用户一起输入仪表读数，则必须授予 EHW+ 对 Google 云端硬盘的完全访问权限。",
+  "syncShareWithOthersTitle": "与他人分享？",
+  "syncStatusFailedLong": "同步失败，编辑风险自负",
+  "syncStatusFailedLongNoAutoSync": "同步失败，编辑风险自负",
+  "syncStatusSyncRemoteHasLatest": "云端文件比本地文件更新",
+  "syncWithGoogleDriveDescription": "因为如果仪表读数丢失将是一种耻辱，所以立即将您的对象与 Google Drive 同步！",
+  "tabCounters": "米",
+  "tabNews": "提示/新闻",
+  "tabObject": "目的",
+  "tabStatistics": "统计数据",
+  "taxRate": "税率",
+  "teaserPurchaseRenewableEnergies": "可再生能源计数器需要高级。",
+  "teaserPurchaseVirtualCounter": "使用 Premium 添加虚拟柜台。",
+  "teaserPurchaseWaterExtractionCounter": "使用高级版解锁水提取计数器。",
+  "termsOfUsageBlock1": "反对权",
+  "termsOfUsageBlock1Title": "使用应用程序的一般使用条款",
+  "termsOfUsageBlock2": "不得滥用该应用程序及其功能。请仅在法律允许的范围内并遵守我们的使用条款使用该应用程序。如果违反适用的德国法律或我们的使用条款，提供商保留禁止您使用该应用程序的权利。",
+  "termsOfUsageBlock2Title": "一般使用信息",
+  "termsOfUsageBlock2a": "匿名使用数据\n我们使用自己的分析来不断改进应用程序。\n仅传输匿名数据。\n数据不会传递给第三方。\n有关更多信息，请转到“设置”>“隐私”>“{privacyBlock3Title}”",
+  "termsOfUsageBlock2b": "错误报告\nSentry（自托管）用于不断改进应用程序。\n错误报告不会被处理，也不会与第三方共享。\n有关更多信息，请转到“设置”>“隐私”>“{privacyBlock3Title}”",
+  "termsOfUsageBlock2c": "个人信息\n如果您使用 Google Drive Sync，EHW+ 仍然无法访问您输入的数据。有关更多信息，请转至“设置”>“隐私”>“{privacyBlock3Title}”。",
+  "termsOfUsageBlock3": "提供商不保证该应用程序的可用性、可靠性、功能性或适用性。除非《产品责任法》强制规定，否则因故意、重大过失、对生命、肢体或健康造成伤害、假定质量保证、欺诈性隐瞒缺陷或违反基本合同义务而承担的责任除外。基本合同义务是指其履行对于合同的正确执行至关重要且缔约方可以经常依赖其遵守的义务。因违反基本合同义务而造成的损害赔偿仅限于此类合同典型的可预见损害，除非存在故意或重大过失。",
+  "termsOfUsageBlock3Title": "责任",
+  "termsOfUsageBlock4": "提供商不保证计算结果的准确性。用户需要仔细并自行负责更新应用程序中存储的价格（基本价格、消费价格等），以确保生成的发票与实际应付金额相对应。",
+  "termsOfUsageBlock4Title": "用户的责任",
+  "termsOfUsageTitle": "使用应用程序的一般使用条款",
+  "termsOfUsageTitleShort": "使用条款",
+  "tibberAccessToken": "访问令牌",
+  "tibberActionSaveAuthorizationSettings": "保存授权设置",
+  "tibberBasicAuth": "基本认证",
+  "tibberBasicAuthEnterPassword": "请输入密码",
+  "tibberBasicAuthEnterUsername": "请输入用户名",
+  "tibberBasicAuthPassword": "密码",
+  "tibberBasicAuthUsername": "用户名",
+  "tibberConsentScreenBenefit1Description": "实时跟踪您的消耗情况并发现隐藏的能源消耗者。",
+  "tibberConsentScreenBenefit1Title": "查看您的用电量",
+  "tibberConsentScreenConfigureLaterButton": "稍后设置",
+  "tibberConsentScreenConfigureNowButton": "立即设置 Tibber Pulse",
+  "tibberConsentScreenDescription": "您是 Tibber 客户还是计划成为其中一员？我们现在支持 Pulse 来改进能源监控。请注意，遗憾的是，Pulse 的历史数据仅适用于拥有有效 Tibber 合约的客户。",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "从 3 月 1 日起，您每小时的消费量将被匿名化并提供给歌德研究。",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "您想参加歌德学习吗？",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "是的，我想参加歌德学习",
+  "tibberConsentScreenGoetheStudySectionHeader": "参与研究项目",
+  "tibberConsentScreenHeader": "新功能：来自 Tibber Pulse 的消费数据",
+  "tibberConsentScreenStoreLink": "参观蒂伯商店",
+  "tibberConsumptionEntryTotalCost": "总成本：{totalCost}",
+  "tibberConsumptionEntryTotalProfit": "总利润：{totalProfit}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "{date} 上的 {startTime} 24 小时",
+  "tibberConsumptionEntryViewTimeSpanDefault": "从：{startTime} 到 {endDate}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "{month} 月份",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "从 {month} 开始一个月",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "从 {date} 上的 {startTime} 出发一小时",
+  "tibberConsumptionEntryViewTimeSpanYear": "年份 {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "从 {year} 开始一年",
+  "tibberEnterAccessToken": "请输入访问令牌",
+  "tibberErrorAccessTokenInvalid": "看起来访问令牌无效",
+  "tibberErrorConnectivityShowCacheInstead": "无法检索最近的消费数据。显示缓存的值。",
+  "tibberErrorNoHomes": "没有与此帐户关联的房屋",
+  "tibberErrorNoSubscription": "要通过 API 获得对历史数据的完全访问权限，您需要为所选家庭提供有效的 Tibber 电力合同。",
+  "tibberErrorRateLimit": "超出 Tibber API 速率限制。请等待至少 5 分钟后再重试。",
+  "tibberErrorSmartMeterMisconfigured": "您的智能电表似乎配置错​​误。",
+  "tibberErrorUndefined": "发生意外错误：{error}",
+  "tibberHomeSelectorHomeId": "家庭 ID：{homeId}",
+  "tibberHomeSelectorLabel": "家",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "该房屋不支持实时测量或历史消费数据。请选择另一个家。",
+  "tibberLiveMeasurementCounterCardViewFooter": "实时测量",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "总消费（从午夜开始）",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "消费（最后一小时）",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "累计成本",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "总产量（自午夜起）",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "生产（最后一小时）",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "累积奖励",
+  "tibberLiveMeasurementWidgetAveragePower": "平均功率",
+  "tibberLiveMeasurementWidgetCurrentL1": "电流（L1）",
+  "tibberLiveMeasurementWidgetCurrentL2": "电流（L2）",
+  "tibberLiveMeasurementWidgetCurrentL3": "电流（L3）",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "抄表（消耗）",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "抄表（生产）",
+  "tibberLiveMeasurementWidgetMaxPower": "最大功率",
+  "tibberLiveMeasurementWidgetMinPower": "最小功率",
+  "tibberLiveMeasurementWidgetPower": "力量",
+  "tibberLiveMeasurementWidgetPowerFactor": "功率因数",
+  "tibberLiveMeasurementWidgetPowerProduction": "电力生产",
+  "tibberLiveMeasurementWidgetTimestamp": "时间戳",
+  "tibberLiveMeasurementWidgetTitle": "{time} 的当前消耗/生产",
+  "tibberLiveMeasurementWidgetUnitA": "一个",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "瓦",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "电压（第一相）",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "电压（第 2 相）",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "电压（第 3 相）",
+  "tibberLiveMeasurementsWidgetConnecting": "正在连接到 Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "连接到 Tibber Pulse 时发生错误。请检查您的访问令牌和互联网连接。",
+  "tibberLiveMeasurementsWidgetNotSupported": "该房屋不支持实时测量。",
+  "tibberMessageAccessTokenUpdated": "已成功更新访问令牌",
+  "tibberStatusWidgetTibberSubscriptionStatus": "蒂伯订阅状态",
+  "tibberStatusWidgetTitle": "缓存管理",
+  "tibberSubscriptionStatusActive": "积极的",
+  "tibberSubscriptionStatusInactive": "不活跃的",
+  "tibberSubscriptionStatusLoading": "加载中...",
+  "tibberWhereIsMyAccessToken": "在哪里可以找到我的“访问令牌”？",
+  "timeBefore": "前",
+  "timeDayAgo": "一天前",
+  "timeDays": "天",
+  "timeDaysAgo": "{days} 天前",
+  "timeDaysWithin": "天",
+  "timeForFirstYear": "第一年",
+  "timeFriday": "星期五",
+  "timeFromDate": "来自 {date}",
+  "timeFromUndefined": "不明确的",
+  "timeHours": "小时",
+  "timeHoursAgo": "{hours} 小时前",
+  "timeInFuture": "将来",
+  "timeJustNow": "现在",
+  "timeLastUpdated": "最后更新",
+  "timeMinutes": "分钟",
+  "timeMinutesAgo": "{minutes} 分钟前",
+  "timeMonday": "周一",
+  "timeMonth": "月",
+  "timeMonths": "月",
+  "timeMonthsAgo": "{months} 个月前",
+  "timeMonthsWithin": "月",
+  "timePeriodYearStart": "每年",
+  "timeReminderAtEnd": "结束时",
+  "timeReminderAtStart": "开始时",
+  "timeRightNow": "现在",
+  "timeSaturday": "周六",
+  "timeSeconds": "秒",
+  "timeSunday": "星期日",
+  "timeThursday": "周四",
+  "timeToday": "今天",
+  "timeTuesday": "周二",
+  "timeUntilDate": "直到 {date}",
+  "timeUntilUnlimited": "无限",
+  "timeWednesday": "周三",
+  "timeWeek": "星期",
+  "timeWeeks": "周",
+  "timeWithin": "在 {duration} 内",
+  "timeYesterday": "昨天",
+  "unitCm": "厘米",
+  "unitCmLong": "厘米",
+  "unitCmShort": "厘米",
+  "unitCubicMetersLong": "{count, plural, one {立方米 (m³)} other {立方米 (m³)}}",
+  "unitCubicMetersShort": "立方米",
+  "unitGJLong": "{count, plural, one {千兆焦耳 (GJ)} other {千兆焦耳 (GJ)}}",
+  "unitGJShort": "国杰",
+  "unitGigaByteLong": "国标",
+  "unitGigaByteShort": "国标",
+  "unitHoursLong": "{count, plural, one {小时} other {小时 (h)}}",
+  "unitHoursShort": "小时",
+  "unitKWhLong": "{count, plural, one {千瓦时 (kWh)} other {千瓦时 (kWh)}}",
+  "unitKWhShort": "千瓦时",
+  "unitKgLong": "{count, plural, one {公斤（公斤）} other {公斤 (kg)}}",
+  "unitKgShort": "千克",
+  "unitLiters": "升",
+  "unitLitersLong": "{count, plural, one {升 (ℓ)} other {升 (ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {兆瓦时 (MWh)} other {兆瓦时 (MWh)}}",
+  "unitMWhShort": "兆瓦时",
+  "unitMegaByteLong": "MB",
+  "unitMegaByteShort": "MB",
+  "unitNone": "没有任何",
+  "unitNoneFormatted": "{count, plural, one {单元} other {单位}}",
+  "unitPercentLong": "百分比(%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "平方米",
+  "unitSquareMetersLong": "{count, plural, one {平方米 (m²)} other {平方米 (m²)}}",
+  "unitSquareMetersShort": "平方米",
+  "updateAvailable": "应用程序版本 {oldVersion} 不是最新的。您可以更新到版本 {newVersion}。",
+  "updateObjectName": "更改对象名称",
+  "upgradeDescription": "该应用程序可以做更多事情。更好的成本概览、更多统计数据、Excel 导出、更多计数器……",
+  "useDismissibleSettings": "通过滑动手势删除",
+  "useDismissibleSettingsDetailed": "计数器、合约等可以通过侧滑移动来删除",
+  "usedForPaymentsRepayments": "预付款、基本价格和奖金",
+  "valueLess": "{value} 少",
+  "valueMore": "{value} 更多",
+  "versionIsUpToDate": "向所有用户发布的最新应用程序版本是 {version}。",
+  "virtualCounter": "虚拟电表",
+  "virtualCounterMasterCounter": "主计",
+  "virtualCounterMasterCounterAttach": "选择主仪表",
+  "virtualCounterMasterCounterDescription": "信息：主表构成虚拟表的计算基础，例如主电表或主水表。",
+  "virtualCounterMetersToBeAdded": "待添加米数",
+  "virtualCounterMetersToBeAddedDescription": "哪些仪表读数应添加到主仪表中，例如发电表。",
+  "virtualCounterMetersToBeSubtracted": "需减去的米数",
+  "virtualCounterMetersToBeSubtractedDescription": "应从主表中减去哪些表读数，例如“热泵表”、“馈电表”。",
+  "virtualCounterNotConfigured": "请检查您的虚拟电表的设置。没有什么可以计算的。",
+  "warmWater": "温水",
+  "warning": "警告",
+  "warningCounterReplacementDetected": "新值低于之前的仪表读数。电表更换了吗？",
   "warningNextReminderText": "下一个提醒是 {date}。",
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "counterConsiderForTotalConsumptions": "考虑总消费",
-  "consumptionYearlyDetailedElectricity": "您的用电量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
-  "consumptionYearlyDetailedGas": "您的燃气消耗量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
-  "consumptionYearlyDetailedComparisonLess": "您消耗{verbSuffix} {percentage} 小于 拥有 {householdSize} {personLabel} 的普通家庭.",
-  "consumptionYearlyDetailedComparisonMore": "您消耗{verbSuffix} {percentage} 多于 拥有 {householdSize} {personLabel} 的普通家庭.",
-  "consumptionYearlyDetailedComparisonEqual": "您消耗{verbSuffix} 大约与 拥有 {householdSize} {personLabel} 的普通家庭.",
-  "consumptionWaterDailyMonthlySingle": "你消费 每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
-  "consumptionWaterDailyMonthlyPerPerson": "每个人，每个人都消费 每天约 {dailyLiters} 升（约每月 {monthlyCubicMeters} {unitName}）。",
-  "consumptionYearlyDetailedLevel2": "是正常的。"
+  "warningOutdatedSinceText": "自从 {date}",
+  "warningReadingBiggerThanOldValue": "新值高于之前的仪表读数。{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "新值高于之前的仪表读数。你给油箱加满了吗？",
+  "warningReadingOutdatedForYearlyResetCounter": "{deviceTypeName} {roomNamePart} 的年度 {lastYear} 的最终仪表读数缺失。这对于正确计算年度总消耗量是必要的。",
+  "warningReadingOutdatedFrequency": "{deviceTypeName} {roomNamePart} 的最新仪表读数已过时 {outdatedSinceText}.{whenNotifyDateText}",
+  "warningReadingSeemsTooBig": "新的价值相当高。读数是否正确？",
+  "warningReadingSeemsTooSmall": "新的价值相当低。读得正确吗？",
+  "warningReadingSmallerThanOldValue2": "新值低于之前的仪表读数。读数是否正确？",
+  "warningYearlyReset": "年初零读书",
+  "wasteWaterPriceEnabled": "淡水和废水成本分别显示（与扣表相关）",
+  "waterConsumption": "用水量",
+  "waterExtractionMinimumLevelLower": "由于消费低于阈值，因此会发生扣除。",
+  "waterMeterEventsInformation": "{count, plural, =1 {您的无线水表 {waterSupplier} 检测到意外消耗。如果需要，您将在这种情况下收到通知。} other {您的无线水表 {waterSupplier} 检测到意外消耗。如果需要，您将在这种情况下收到通知。}}",
+  "watersupplierAccessRequestQ1": "您是自来水厂集水区房产的所有者并希望获得无线电表读数吗？",
+  "watersupplierAccessRequestQ2": "您已经请求访问权限了吗？接下来，您需要创建一个 EHW+ 用户帐户。",
+  "watersupplierAccessRequestQ3": "您是否已经请求访问并收到您的二维码？",
+  "watersupplierAccessRequestQ4": "您是否希望收到仪表警报，以便在发生管道爆裂或马桶冲水等情况时做出反应？",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "抱歉，不幸的是这不起作用。这是由于我们的服务器造成的。最好稍后再试一次！",
+  "watersupplierCompleteMeterIdTryAgain": "你不可以过去！请再次输入您的电表ID后三位数字！",
+  "watersupplierMeterIdValidationStep": "我们正在检查您的电表 ID。",
+  "watersupplierNoAccess": "您不再有权检索数据。",
+  "watersupplierNoAccessDetailedMessage": "如果您认为您仍然可以访问，请再次扫描您的激活码。如果访问代码不再有效，请提交新的访问请求。",
+  "watersupplierOpenReminderSettings": "打开设置",
+  "watersupplierRadioMeterDefaultName": "无线电冷水表",
+  "watersupplierScanQrCodeApprovalInProgress": "我们现在正在授权您的帐户，以便您将来可以访问无线电计读数。",
+  "watersupplierScanQrCodeCommand": "扫描左侧二维码（激活码）！",
+  "watersupplierScanQrCodeOffboardingSuccessful": "对您的无线电水表的访问已被取消。",
+  "watersupplierScanQrCodeScanSuccessful": "哇，激活码看起来好漂亮！请输入您的电表 ID 的后三位数字！",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "注意：您的原始计量表 ID 可以超过 8 个字符。",
+  "watersupplierScanQrCodeTitle": "无线电计激活",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "是的！您的“冷水”类型无线电水表已成功添加。您可以在其他仪表中找到它。",
+  "watersupplierScanQrCodeValidation": "检测到二维码，让我们验证一下。",
+  "watersupplierScanQrCodeValidationFailed": "抱歉，该代码无效。您想再试一次吗？",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "您扫描的是激活码而不是撤销码。请再试一次！",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "您扫描的是撤销代码而不是激活代码。请再试一次！",
+  "watersupplierScanRevokeQrCodeCommand": "扫描右侧二维码（撤销码）！",
+  "watersupplierUnlinkRadioMeterButtonDelete": "删除无线电计",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "扫描撤销码",
+  "watersupplierUnlinkRadioMeterDescription1": "您想删除无线电计而不使激活码失效吗？",
+  "watersupplierUnlinkRadioMeterDescription2": "您不想再访问您的无线电计数据吗？请注意：一旦扫描撤销码，激活码即失效。任何使用激活码的用户帐户都将失去访问权限。",
+  "watersupplierUnlinkRadioMeterTitle": "终止无线电计访问",
+  "watersupplierYourSupplier": "您的供水商",
+  "yearlyConsumption": "至今年消费量",
+  "yearlyCosts": "至今年消费成本",
+  "youtubeConsent1": "我们需要您的同意才能显示嵌入的 YouTube 内容。您可以一键显示此内容（以及应用程序中的所有其他 Youtube 内容），也可以再次停用它。",
+  "youtubeConsent2": "始终显示 YouTube 内容",
+  "youtubeConsent3": "我同意向我显示外部内容。这可能会导致个人数据被传输到第三方平台。有关此内容的更多信息，请参阅我们的",
+  "zipCode": "邮政编码",
+  "zipCodeValidationLength": "请输入 {digits} 位邮政编码",
+  "zipCodeValidationOnlyNumbers": "有效的邮政编码仅由数字组成"
 }

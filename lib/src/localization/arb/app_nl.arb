@@ -1,153 +1,42 @@
 {
-  "appDescriptionShort": "Goed voor de portemonnee, goed voor het klimaat",
   "@appDescriptionShort": {
     "description": "Marketing claim"
   },
-  "appDescriptionLong": "<p>Welkom bij <b>EHW+</b>, uw meterstand-app voor <b>E</b>lektriciteit, <b>V</b>erwarming en <b>W</b>ater. Met ons kunt u eenvoudig bijhouden hoeveel u verbruikt en wat het kost, gratis.</p>",
-  "contactTitle": "Vertegenwoordigd door:",
-  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nContact\n\nTelefoon: 06204/7383382\nE-mail: info@ehwplus.com",
-  "euDisputeResolution": "\n\nEU-geschillenbeslechting\n\nDe Europese Commissie biedt een platform voor online geschillenbeslechting (OS): https://ec.europa.eu/consumers/odr/.\nU kunt ons e-mailadres vinden in het impressum hierboven.\n\nConsumentengeschillenbeslechting/universele geschillenbeslechtingsinstantie\n\nWij zijn niet bereid of verplicht om deel te nemen aan geschillenbeslechtingsprocedures voor een consumentenarbitragecommissie.",
-  "consent1Hello": "Hallo",
-  "consent2ThankYou": "Bedankt voor het gebruik van EHW+!",
-  "consent3Video": "Wilt u een korte introductievideo bekijken?",
-  "consent4BeforeYouCanContinue": "Voordat u kunt doorgaan",
-  "consent5ErrorReportingTitle": "Foutrapporten",
-  "consent6ContractPricesPerUnitTitle": "Elektriciteit / water / gas prijzen",
-  "consent7ContractPricesPerUnit": "Om te kunnen inschatten hoeveel u momenteel betaalt in vergelijking met andere EHW+-gebruikers, worden de prijzen samen met het land en de staat overgedragen naar de EHW+-server in Duitsland. Alleen als u akkoord gaat met de overdracht, heeft u toegang tot de prijsstatistieken. Om anonimiteit te waarborgen, kunnen statistieken alleen worden getoond na een minimum aantal overgedragen prijzen.",
-  "consent11AnalyticsTitle": "Analysedata",
-  "consent12Analytics": "Om het succes van de app of individuele functies te evalueren, verzendt de app geanonimiseerde gebruiksstatistieken. De gegevens worden niet aan derden doorgegeven. De gegevens worden gebruikt voor de verdere ontwikkeling van de app.",
-  "consent13StromGedachtTitle": "Netstabiliteitsmeldingen van StromGedacht",
-  "consent13StromGedacht": "StromGedacht, een dienst van TransnetBW, biedt informatie over netstabiliteit en aanbevelingen over wanneer elektriciteit bij voorkeur moet worden gebruikt. Omdat de energietransitie steeds uitdagender wordt voor het transmissienet, worden huishoudens in Zuidwest-Duitsland betrokken. Om informatie voor uw locatie te ontvangen, wordt uw postcode, indien hier in de app ingevoerd, overgedragen aan de TransnetBW StromGedacht API. Geen andere gegevens worden overgedragen of gekoppeld.",
-  "stromGedachtAgreement": "Ik ga akkoord dat mijn postcode (indien opgegeven) wordt overgedragen aan TransnetBW om StromGedacht-meldingen op te halen.",
-  "priceSubmissionAgreement": "Ik ga akkoord met de overdracht van elektriciteit/gas/water prijzen per eenheid naar een EHW+-server",
-  "googleAnalyticsAgreement": "Ik ga akkoord met de overdracht van geanonimiseerde gegevens over het gebruik van de app aan EHW+ Services GmbH.",
-  "continueAcceptPart1": "Door de EHW+-app te gebruiken, gaat u akkoord met de ",
-  "continueAcceptPart2": ". Voor meer informatie over het verzamelen en gebruiken van geanonimiseerde en persoonlijke gegevens, verwijzen wij u naar de ",
-  "termsOfUsageTitleShort": "Gebruiksvoorwaarden",
-  "faqAboutDeveloperTitle": "Wie staat achter EHW+?",
-  "faqAboutDeveloperBody1": "Bedankt voor uw interesse in EHW+. EHW+ is door mij, Timo Bähr, vrijgegeven in december 2020. Ik ben een fulltime app-ontwikkelaar en werk in mijn vrije tijd aan EHW+ om bij te dragen aan milieubescherming. Sinds mei 2022 houdt een tweede ontwikkelaar toezicht op mijn werk, Thomas Hesse bouwt backends voor EHW+. Sinds april 2023 behandelt Janine Sinner de talrijke klantfeedback. Sinds juli 2024 is Artem Yuzhakov toegetreden als app-ontwikkelaar.",
-  "faqAboutDeveloperBody2": "Meer dan 26% van alle CO2-uitstoot in Duitsland wordt veroorzaakt door particuliere huishoudens. Als iedereen zijn verbruik zelfs maar een beetje kan verminderen, is er veel bereikt. Heel erg bedankt voor uw bijdrage!",
-  "faqAboutDeveloperBody3": "Wij verwelkomen suggesties over hoe de app kan worden verbeterd.",
-  "faqAboutDeveloperBody4": "Ik vraag echter om uw begrip dat ik niet alle suggesties kan implementeren en dat nieuwe functies tijd kosten.",
-  "commonCollapse": "Inklappen",
-  "commonMore": "Meer",
-  "commonSave": "Opslaan",
-  "commonChange": "Wijzigen",
-  "commonContinue": "Doorgaan",
-  "commonBack": "Terug",
-  "commonOk": "OK",
-  "commonCancel": "Annuleren",
-  "commonClose": "Sluiten",
-  "commonOpen": "Openen",
-  "commonSend": "Verzenden",
-  "commonDelete": "Verwijderen",
-  "commonYes": "ja",
-  "commonNo": "nee",
-  "commonLoadingData": "Gegevens laden",
-  "commonDay": "dag",
-  "commonMonth": "maand",
-  "commonYear": "jaar",
-  "commonShare": "Delen",
-  "commonCopiedToClipboard": "Gekopieerd naar klembord",
-  "commonLearnMore": "Meer informatie",
-  "commonMinimum": "Laagste dagwaarde",
-  "commonMaximum": "Hoogste dagwaarde",
-  "heatmapLegendTitle": "Meer over de heatmap",
-  "heatmapLegendDisclaimer": "Info: Gearceerde vakken bevatten een geschatte waarde. Om het werkelijke verbruik/opbrengst te lezen, vul dan indien mogelijk de ontbrekende meterstanden in.",
-  "consumptionHeatmap": "Verbruik Heatmap",
-  "consumptionHeatmapYield": "Opbrengst Heatmap",
-  "consumption": "Verbruik",
-  "consumptionYield": "Opbrengst",
-  "showAllYears": "Alle jaren tonen",
-  "appNameShort": "EHW+",
-  "appName": "EHW+ | Verbruik & meterstanden",
-  "tabCounters": "Meterstanden",
-  "tabStatistics": "Statistieken",
-  "tabObject": "Voorwerp",
-  "tabNews": "Tips/Nieuws",
-  "ofRangeLastDays": "van de laatste {days} dagen",
-  "@ofRangeLastDays": {
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
     "placeholders": {
-      "days": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
         "type": "int"
       }
     }
   },
-  "ofRangeLastMonths": "voor de laatste {months} maanden",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeFrom": "van {range}",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "readingTime": "Aflestijd",
-  "reading": "Meterstand",
-  "last2Weeks": "Laatste 14 dagen",
-  "last12Weeks": "Laatste 12 weken",
-  "last12Months": "Laatste 12 maanden",
-  "sinceInitialReading": "Sinds eerste aflezing",
-  "lastYear": "Vorig jaar",
-  "periodCustom": "Door gebruiker gedefinieerd",
-  "counterReadings": "Aflezingen",
-  "comment": "Notitie",
-  "enterComment": "Voer een notitie in",
-  "enterExistingReadingAgain": "Voer oude aflezing opnieuw in",
-  "meterId": "Meter-ID",
-  "meterReadingSubmitted": "Overgedragen aan leverancier",
-  "newReading": "Voer de huidige aflezing in",
-  "newReadingShort": "Nieuwe aflezing",
-  "readingWithFactor": "Meterstand met factor",
-  "csvImportWithFactor": "Moeten de meterstanden worden vermenigvuldigd met een factor die niet gelijk is aan 1.0? Om bijvoorbeeld waarden van Wh naar kWh om te zetten, moeten ze worden vermenigvuldigd met 0.001.",
-  "newPhoto": "Maak een nieuwe foto",
-  "existingPhoto": "Voeg bestaande foto toe",
-  "newPhotoOfMeterReading": "Wilt u een foto maken van de meterstand?",
-  "existingPhotoOfMeterReading": "Wilt u een bestaande foto van de meterstand toevoegen?",
-  "numCounters": "{count, plural, =0 {{count} meter} one {{count} meter} other {{count} meters}}",
-  "@numCounters": {
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
     "placeholders": {
       "count": {
+        "example": "2",
         "type": "int"
       }
     }
   },
-  "numMeterReadings": "{readings, plural, one {# aflezing} other {# aflezingen}}",
-  "@numMeterReadings": {
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
     "placeholders": {
-      "readings": {
+      "count": {
+        "example": "3",
         "type": "int"
       }
     }
   },
-  "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
-  "@exportObjectDescription": {
+  "@confirmDeleteAtCloud": {
     "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      },
-      "lastUpdated": {
+      "objectTitle": {
         "type": "String"
       }
     }
   },
-  "firstReadingYield": "Voer nu de eerste opbrengst in.",
-  "firstReadingConsumption": "Voer nu het eerste verbruik in.",
-  "firstReadingCounter": "Voer de eerste meterstand in.",
-  "consumptionHeatpump": "Daarnaast bedraagt het stroomverbruik van de warmtepomp {formattedValue} kWh.",
   "@consumptionHeatpump": {
     "placeholders": {
       "formattedValue": {
@@ -155,109 +44,6 @@
       }
     }
   },
-  "consumptionYearly": "Uw elektriciteitsverbruik {ofRange} is {consumption} kWh voor het jaar.",
-  "@consumptionYearly": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "consumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedElectricityIntro": "Uw elektriciteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) ",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedGasIntro": "Uw gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) ",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel0": "is super laag.",
-  "consumptionYearlyDetailedLevel1": "is echt indrukwekkend.",
-  "consumptionYearlyDetailedLevel3": "is relatief hoog.",
-  "consumptionYearlyDetailedLevel4": "is normaal.",
-  "consumptionYearlyDetailedYouConsume": "U verbruikt{verbSuffix} ",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLessThan": "{percentage} minder dan",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedMoreThan": "{percentage} meer dan",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedAboutSame": "ongeveer hetzelfde als",
-  "consumptionYearlyDetailedAverageHousehold": " een gemiddeld huishouden met {householdSize} {personLabel}",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedOptimalEnding": "Hoe doet u dat?",
-  "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} kWh/maand ontbreekt voor optimaal verbruik.",
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} kWh/maand ontbreekt voor goed verbruik.",
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionPersonLabel": "{count, plural, one {persoon} other {personen}}",
   "@consumptionPersonLabel": {
     "placeholders": {
       "count": {
@@ -265,134 +51,186 @@
       }
     }
   },
-  "consumptionWaterPrefixSingle": "U verbruikt ",
-  "consumptionWaterPrefixPerPerson": "Per persoon verbruikt iedereen ",
-  "consumptionWaterDailyMonthly": "ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "String"
-      },
-      "monthlyCubicMeters": {
-        "type": "String"
-      },
-      "unitName": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterRangeUnknown": "Uw waterverbruik {ofRange} ...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallLess": "Uw waterverbruik {ofRange} is {percentage} lager dan dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallEqual": "Uw waterverbruik {ofRange} komt overeen met dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallMore": "Uw waterverbruik {ofRange} is {percentage} hoger dan dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdLess": "Koud water: {percentage} minder dan het gemiddelde huishouden.",
   "@consumptionWaterColdLess": {
     "placeholders": {
       "percentage": {
-        "type": "String"
+        "type": "Object"
       }
     }
   },
-  "consumptionWaterColdMore": "Koud water: {percentage} meer dan het gemiddelde huishouden.",
   "@consumptionWaterColdMore": {
     "placeholders": {
       "percentage": {
-        "type": "String"
+        "type": "Object"
       }
     }
   },
-  "consumptionWaterColdEqual": "Koud water: ongeveer hetzelfde als het gemiddelde huishouden.",
-  "consumptionWaterWarmLess": "Warm water: {percentage} minder dan het gemiddelde huishouden.",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "@consumptionWaterWarmLess": {
     "placeholders": {
       "percentage": {
-        "type": "String"
+        "type": "Object"
       }
     }
   },
-  "consumptionWaterWarmMore": "Warm water: {percentage} meer dan het gemiddelde huishouden.",
   "@consumptionWaterWarmMore": {
     "placeholders": {
       "percentage": {
-        "type": "String"
+        "type": "Object"
       }
     }
   },
-  "consumptionWaterWarmEqual": "Warm water: ongeveer hetzelfde als het gemiddelde huishouden.",
-  "yearlyConsumption": "Jaarlijks verbruik tot nu toe",
-  "yearlyCosts": "Jaarlijkse verbruikskosten tot nu toe",
-  "room": "Kamer",
-  "fedIn": "Teruggeleverd",
-  "generated": "Gegenereerd",
-  "residualGenerationEstimated": "Resterende opwekking geschat",
-  "residualConsumptionEstimated": "Resterend verbruik geschat",
-  "myObjects": "Mijn objecten",
-  "roomLivingRoom": "Woonkamer",
-  "roomDiningRoom": "Eetkamer",
-  "roomBedroom": "Slaapkamer",
-  "roomBathroom": "Badkamer",
-  "roomWc": "WC",
-  "roomChildrenRoom": "Kinderkamer",
-  "roomKitchen": "Keuken",
-  "roomStoreRoom": "Bergruimte",
-  "roomOffice": "Kantoor",
-  "roomGarden": "Tuin",
-  "counter": "Meter",
-  "counterDirectionAscending": "oplopend",
-  "counterDirectionDescending": "aflopend",
-  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
   "@counterDirectionNone": {
     "placeholders": {
       "consumptionElectricity": {
@@ -403,274 +241,13 @@
       }
     }
   },
-  "counterWater": "Watermeters",
-  "counters": "Meterstanden",
-  "changeCounterOrder": "Indien nodig kunt u de volgorde wijzigen",
-  "newCounter": "Maak een nieuwe meter",
-  "updateObjectName": "Wijzig objectnamen",
-  "enterObjectName": "Geef het nieuwe object een naam",
-  "explanationManageMoreThanOneObject": "Heeft u meer dan één eigendom die u wilt beheren? Geef dan het huidige object een naam en maak vervolgens een ander object aan.",
-  "selectedAtAppStart": "Het bovenste object wordt geselecteerd bij app-start",
-  "reallyDeleteObject": "Weet u zeker dat u het object wilt verwijderen?",
-  "confirmDeleteAtCloud": "Moet \"{objectTitle}\" ook worden verwijderd van Google Drive?",
-  "@confirmDeleteAtCloud": {
+  "@counterNum": {
     "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "deleteObjectError": "Kan dit object niet verwijderen (Code {errorCode}).",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "commonChangeSaved": "Wijziging opgeslagen",
-  "commonUpdateNow": "Nu bijwerken",
-  "commonLogout": "Uitloggen",
-  "commonLogin": "Inloggen",
-  "commonLoggingIn": "U wordt ingelogd...",
-  "commonLoggingOut": "U wordt uitgelogd...",
-  "commonNotAuthenticated": "U bent niet geauthenticeerd.",
-  "commonUserLogin": "Gebruikerslogin",
-  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "U gebruikt het EHW+-account. {notSubmitted} van {total} gekochte producten konden niet worden opgeslagen op de EHW+-server. We hopen het probleem snel op te lossen.",
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "type": "int",
-        "example": "1"
-      },
-      "total": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
-  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Eén aankoop is gesynchroniseerd via het EHW+-account.} other {{count} aankopen zijn gesynchroniseerd via het EHW+-account.}}",
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
-  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {U gebruikt het EHW+-account. Als u in de toekomst producten koopt, worden deze gesynchroniseerd op al uw apparaten.} one {U gebruikt het EHW+-account. {count} gekocht product is opgeslagen op de EHW+-server.} other {U gebruikt het EHW+-account. {count} gekochte producten zijn opgeslagen op de EHW+-server.}}",
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "3"
-      }
-    }
-  },
-  "commonUserLoginDescriptionNotLoggedIn": "Gebruikt u de app op meerdere apparaten? Inloggen op uw EHW+-account stelt u in staat om uw instellingen en gekochte producten op al uw apparaten te synchroniseren.",
-  "accountUpdateInfo": "Nieuw: Het EHW+-gebruikersaccount",
-  "accountThankYouForPurchase": "Bedankt! Wilt u de aankoop nu beveiligen in uw EHW+-gebruikersaccount?",
-  "accountAbout": "Wat kan het EHW+-gebruikersaccount doen?",
-  "accountBenefit1": "Betrouwbaardere aankoopherkenning",
-  "accountBenefit2": "Toegang tot alle gekochte uitbreidingen op meerdere apparaten",
-  "accountFaqTitle": "Veelgestelde vragen:",
-  "accountFaqQ1": "Wat is het EHW+-gebruikersaccount?",
-  "accountFaqA1": "Het EHW+-gebruikersaccount biedt een alternatieve methode voor het herstellen van aankopen wanneer herstellen via de App Store niet mogelijk is, wat de betrouwbaarheid verhoogt. Bovendien maakt het het mogelijk om aankopen te herstellen op een apparaat waar de aankoop oorspronkelijk niet heeft plaatsgevonden. In de toekomst zal het ook mogelijk zijn om instellingen en meer op te slaan.",
-  "accountFaqQ2": "Heb ik nog steeds toegang tot mijn aankopen zonder een EHW+-gebruikersaccount?",
-  "accountFaqA2": "Ja, aankopen kunnen nog steeds worden hersteld op een Android-apparaat via de Play Store of op een iPhone via de App Store. Het EHW+-gebruikersaccount biedt een alternatieve methode voor het herstellen van aankopen wanneer herstellen via de App Store niet mogelijk is, wat de betrouwbaarheid verhoogt. Bovendien maakt het het mogelijk om aankopen te herstellen op een apparaat waar de aankoop oorspronkelijk niet heeft plaatsgevonden.",
-  "accountButtonSetup": "EHW+-gebruikersaccount instellen",
-  "cometSettingsIsPredictionsApiEnabled": "Gebruik de COMET Forecast API van het Goethe Instituut",
-  "cometConsentScreenHeader": "Nieuw: Betere verbruiksvoorspellingen",
-  "cometConsentScreenHowItWorksTitle": "Hoe werkt het?",
-  "cometConsentScreenOnlineDescriptionTitle": "Met internetverbinding:",
-  "cometConsentScreenOnlineDescription": "Uw verbruiksgegevens worden verzonden naar de Goethe Universiteit Frankfurt, waar een individuele voorspelling wordt gemaakt en weergegeven in de app.",
-  "cometConsentScreenOfflineDescriptionTitle": "Zonder internetverbinding:",
-  "cometConsentScreenOfflineDescription": "Een vereenvoudigde lokale voorspelling wordt berekend op uw apparaat.",
-  "cometConsentScreenToggleLabel": "Gebruik voorspellingsservice",
-  "cometConsentScreenDataCanBeUsedForTraining": "Gegevens kunnen worden gebruikt om toekomstige voorspellingen te optimaliseren",
-  "cometConsentScreenFeedbackTitle": "Goethe Universiteit heeft uw feedback nodig:",
-  "cometConsentScreenFeedbackDescription": "Het gebruik van de voorspelling is gratis, maar het onderzoeksteam heeft feedback nodig over hoe goed de service werkt.",
-  "cometConsentScreenFeedbackMethod": "Feedback wordt automatisch verstrekt wanneer u de voorspellingsservice gebruikt en akkoord gaat met optimalisatie.",
-  "cometConsentScreenDeclineButton": "Ik wil geen feedback geven",
-  "cometConsentScreenAcceptButton": "Ik wil feedback geven",
-  "exportTabHowToExport": "Hoe wilt u de gegevens exporteren?",
-  "exportTabHowToExportOptionShare": "Delen met andere apps",
-  "exportTabHowToExportOptionSaveToDownloads": "Opslaan in map {folder}",
-  "exportTabSnackBarSaveResultMessageSuccess": "Gegevens zijn succesvol opgeslagen als {fileName} in map {folder}",
-  "exportTabSnackBarSaveResultMessageError": "Er is een fout opgetreden bij het opslaan van de gegevens",
-  "importTabErrorMessageFileWithExtensionNotSelected": "Een {extension} bestand is vereist om door te gaan met importeren.",
-  "difference": "Verschil",
-  "period": "Periode",
-  "periodHourly": "per uur",
-  "periodDaily": "dagelijks",
-  "periodWeekly": "wekelijks",
-  "periodBiweekly": "tweewekelijks",
-  "periodMonthly": "maandelijks",
-  "periodBimonthly": "tweemaandelijks",
-  "periodQuarterly": "per kwartaal",
-  "periodHalfYearly": "halfjaarlijks",
-  "periodYearly": "jaarlijks",
-  "meterCardLastUpdatedLabel": "Bijgewerkt",
-  "smartMeterServiceProvider": "Serviceprovider",
-  "smartMeterObtainDataAutomatically": "Gegevens automatisch ophalen",
-  "smartMeterErrorNoData": "Helaas zijn er geen gegevens die de app kan weergeven.",
-  "smartMeterSettingsScreenSyncButton": "Synchroniseer verbruiksgegevens",
-  "smartMeterSettingsScreenSyncingDialogHeader": "Synchroniseren in uitvoering",
-  "smartMeterSettingsScreenSyncingDialogProgress": "Voortgang: {progressInPercent}%",
-  "smartMeterSettingsScreenSyncingDialogError": "Fout",
-  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "OK",
-  "smartMeterSettingsScreenSyncingDialogErrorMessage": "De volgende fout is opgetreden tijdens synchronisatie: {errorMessage}",
-  "smartMeterMisconfiguredWidgetCardTitle": "Stel uw slimme meter correct in.",
-  "smartMeterMisconfiguredWidgetCardButton": "Slimme meter instellen",
-  "smartMeterTabConsumptions": "Verbruik",
-  "smartMeterTabProductions": "Productie",
-  "consumptionCacheManagementClearCacheButton": "Cache wissen",
-  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Wissen & synchroniseren",
-  "consumptionCacheManagementConfirmClearCacheTitle": "Cache wissen?",
-  "consumptionCacheManagementConfirmClearCacheMessage": "Alle gecachte verbruiksgegevens worden permanent verwijderd. U kunt het later synchroniseren.",
-  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Cache wissen & synchroniseren?",
-  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Alle gecachte gegevens worden verwijderd en opnieuw gedownload van de server. Dit kan enige tijd duren.",
-  "consumptionCacheManagementClearedSuccessfully": "Cache succesvol gewist",
-  "tibberAccessToken": "Toegangstoken",
-  "tibberEnterAccessToken": "Voer toegangstoken in",
-  "tibberMessageAccessTokenUpdated": "Toegangstoken succesvol bijgewerkt",
-  "tibberErrorAccessTokenInvalid": "Het lijkt erop dat het toegangstoken ongeldig is",
-  "tibberErrorNoHomes": "Er zijn geen woningen gekoppeld aan dit account",
-  "tibberErrorSmartMeterMisconfigured": "Uw slimme meter lijkt verkeerd geconfigureerd te zijn.",
-  "tibberErrorConnectivityShowCacheInstead": "Kan recente verbruiksgegevens niet ophalen. Gecachte waarden worden weergegeven.",
-  "tibberErrorUndefined": "Er is een onverwachte fout opgetreden: {error}",
-  "tibberErrorRateLimit": "Tibber API-snelheidslimiet overschreden. Wacht minimaal 5 minuten voordat u het opnieuw probeert.",
-  "tibberErrorNoSubscription": "Om volledige toegang tot historische gegevens via de API te krijgen, heeft u een actief Tibber elektriciteitscontract nodig voor de geselecteerde woning.",
-  "tibberBasicAuth": "Basisauthenticatie",
-  "tibberBasicAuthUsername": "Gebruikersnaam",
-  "tibberBasicAuthPassword": "Wachtwoord",
-  "tibberBasicAuthEnterUsername": "Voer gebruikersnaam in",
-  "tibberBasicAuthEnterPassword": "Voer wachtwoord in",
-  "tibberConsumptionEntryTotalCost": "Totale kosten: {totalCost}",
-  "tibberConsumptionEntryTotalProfit": "Totale winst: {totalProfit}",
-  "tibberConsumptionEntryViewTimeSpanYear": "Het jaar {year}",
-  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Een jaar vanaf {year}",
-  "tibberConsumptionEntryViewTimeSpanMonth": "De maand {month}",
-  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Een maand vanaf {month}",
-  "tibberConsumptionEntryViewTimeSpan24Hours": "24 uur vanaf {startTime} op {date}",
-  "tibberConsumptionEntryViewTimeSpanOneHour": "Een uur vanaf {startTime} op {date}",
-  "tibberConsumptionEntryViewTimeSpanDefault": "Van: {startTime} tot {endDate}",
-  "tibberWhereIsMyAccessToken": "Waar kan ik mijn \"toegangstoken\" vinden?",
-  "tibberActionSaveAuthorizationSettings": "Autorisatie-instellingen opslaan",
-  "tibberConsentScreenHeader": "Nieuwe functie: Verbruiksgegevens van Tibber Pulse",
-  "tibberConsentScreenDescription": "Bent u een Tibber-klant of van plan er een te worden? We ondersteunen nu de Pulse voor verbeterde energiemonitoring. Houd er rekening mee dat historische gegevens van de Pulse helaas alleen beschikbaar zijn voor klanten met een actief Tibber-contract.",
-  "tibberConsentScreenBenefit1Title": "Bekijk uw elektriciteitsverbruik",
-  "tibberConsentScreenBenefit1Description": "Volg uw verbruik in realtime en ontdek verborgen energieverslinders.",
-  "tibberConsentScreenStoreLink": "Bezoek Tibber Store",
-  "tibberConsentScreenConfigureNowButton": "Stel Tibber Pulse nu in",
-  "tibberConsentScreenConfigureLaterButton": "Later instellen",
-  "tibberConsentScreenGoetheStudySectionHeader": "Deelname aan het onderzoeksproject",
-  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Ja, ik wil deelnemen aan de Goethe-studie",
-  "tibberConsentScreenGoetheStudyBenefit1Title": "Wilt u deelnemen aan de Goethe-studie?",
-  "tibberConsentScreenGoetheStudyBenefit1Description": "Uw uurlijkse verbruik vanaf 1 maart wordt geanonimiseerd en verstrekt voor de Goethe-studie.",
-  "tibberStatusWidgetTitle": "Cachebeheer",
-  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber-abonnementsstatus",
-  "tibberSubscriptionStatusActive": "actief",
-  "tibberSubscriptionStatusInactive": "inactief",
-  "tibberSubscriptionStatusLoading": "laden...",
-  "tibberLiveMeasurementCounterCardViewFooter": "Live meting",
-  "tibberLiveMeasurementsWidgetNotSupported": "Live metingen worden niet ondersteund voor deze woning.",
-  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Deze woning ondersteunt geen live metingen of historische verbruiksgegevens. Selecteer een andere woning.",
-  "tibberLiveMeasurementsWidgetConnecting": "Verbinden met Tibber Pulse...",
-  "tibberLiveMeasurementsWidgetError": "Er is een fout opgetreden bij het verbinden met Tibber Pulse. Controleer uw toegangstoken en internetverbinding.",
-  "tibberLiveMeasurementWidgetTitle": "Huidig verbruik/productie om {time}",
-  "tibberLiveMeasurementWidgetTimestamp": "Tijdstempel",
-  "tibberLiveMeasurementWidgetPower": "Vermogen",
-  "tibberLiveMeasurementWidgetPowerProduction": "Vermogensproductie",
-  "tibberLiveMeasurementWidgetAveragePower": "Gemiddeld vermogen",
-  "tibberLiveMeasurementWidgetMinPower": "Min vermogen",
-  "tibberLiveMeasurementWidgetMaxPower": "Max vermogen",
-  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Totaal verbruik (sinds middernacht)",
-  "tibberLiveMeasurementWidgetAccumulatedProduction": "Totale productie (sinds middernacht)",
-  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Verbruik (laatste uur)",
-  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Productie (laatste uur)",
-  "tibberLiveMeasurementWidgetLastMeterConsumption": "Meterstand (Verbruik)",
-  "tibberLiveMeasurementWidgetLastMeterProduction": "Meterstand (Productie)",
-  "tibberLiveMeasurementWidgetAccumulatedCost": "Geaccumuleerde kosten",
-  "tibberLiveMeasurementWidgetAccumulatedReward": "Geaccumuleerde beloning",
-  "tibberLiveMeasurementWidgetPowerFactor": "Vermogensfactor",
-  "tibberLiveMeasurementWidgetVoltagePhase1": "Spanning (Fase 1)",
-  "tibberLiveMeasurementWidgetVoltagePhase2": "Spanning (Fase 2)",
-  "tibberLiveMeasurementWidgetVoltagePhase3": "Spanning (Fase 3)",
-  "tibberLiveMeasurementWidgetCurrentL1": "Stroom (L1)",
-  "tibberLiveMeasurementWidgetCurrentL2": "Stroom (L2)",
-  "tibberLiveMeasurementWidgetCurrentL3": "Stroom (L3)",
-  "tibberLiveMeasurementWidgetUnitV": "V",
-  "tibberLiveMeasurementWidgetUnitW": "W",
-  "tibberLiveMeasurementWidgetUnitA": "A",
-  "tibberHomeSelectorHomeId": "Woning ID: {homeId}",
-  "tibberHomeSelectorLabel": "Woning",
-  "scanQrCode": "Scan activatie-QR-code",
-  "requestAccess": "Toegang aanvragen",
-  "createAccount": "Account aanmaken/inloggen",
-  "watersupplierYourSupplier": "Uw waterleverancier",
-  "watersupplierRadioMeterDefaultName": "Radio koudwatermeter",
-  "watersupplierAccessRequestQ1": "Bent u eigenaar van een eigendom in het verzorgingsgebied van het waterbedrijf en wilt u toegang tot radiometerstanden?",
-  "watersupplierAccessRequestQ2": "Heeft u al toegang aangevraagd? Vervolgens moet u een EHW+-gebruikersaccount aanmaken.",
-  "watersupplierAccessRequestQ3": "Heeft u al toegang aangevraagd en uw QR-code ontvangen?",
-  "watersupplierAccessRequestQ4": "Wilt u meterwaarschuwingen ontvangen zodat u kunt reageren bij bijvoorbeeld een leidingbreuk of een lopende toiletspoeling?",
-  "watersupplierOpenReminderSettings": "Instellingen openen",
-  "watersupplierScanQrCodeTitle": "Radio Meter Activatie",
-  "watersupplierScanQrCodeCommand": "Scan de linker QR-code (activatiecode)!",
-  "watersupplierScanRevokeQrCodeCommand": "Scan de rechter QR-code (intrekkingscode)!",
-  "watersupplierScanQrCodeValidation": "QR-code gedetecteerd, laten we deze valideren.",
-  "watersupplierScanQrCodeValidationFailed": "Sorry, de code is ongeldig. Wilt u het opnieuw proberen?",
-  "watersupplierScanQrCodeValidationFailedRevokeScanned": "U heeft de intrekkingscode gescand in plaats van de activatiecode. Probeer het opnieuw!",
-  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "U heeft de activatiecode gescand in plaats van de intrekkingscode. Probeer het opnieuw!",
-  "watersupplierScanQrCodeScanSuccessful": "Wow, activatiecode ziet er zo mooi uit! Voer de laatste drie cijfers van uw meter-ID in!",
-  "watersupplierMeterIdValidationStep": "We controleren uw meter-ID.",
-  "watersupplierCompleteMeterIdServerErrorTryAgain": "Sorry, dat werkte helaas niet. Het kwam door onze server. Probeer het later opnieuw!",
-  "watersupplierCompleteMeterIdTryAgain": "U komt er niet door! Voer de laatste drie cijfers van uw meter-ID opnieuw in!",
-  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Opmerking: Uw oorspronkelijke meter-ID kan meer dan 8 tekens hebben.",
-  "watersupplierScanQrCodeApprovalInProgress": "We autoriseren nu uw account zodat u in de toekomst toegang heeft tot de radiometerstanden.",
-  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Ja! Uw radio watermeter van het type \"Koud Water\" is succesvol toegevoegd. U kunt deze vinden tussen de andere meters.",
-  "watersupplierUnlinkRadioMeterTitle": "Radio Meter Toegang Beëindigen",
-  "watersupplierUnlinkRadioMeterDescription1": "Wilt u de radiometer verwijderen zonder de activatiecode ongeldig te maken?",
-  "watersupplierUnlinkRadioMeterButtonDelete": "Radiometer verwijderen",
-  "watersupplierUnlinkRadioMeterDescription2": "Wilt u geen toegang meer tot uw radiometergegevens? Let op: zodra de intrekkingscode wordt gescand, wordt de activatiecode ongeldig. Elk gebruikersaccount dat de activatiecode heeft gebruikt, verliest toegang.",
-  "watersupplierUnlinkRadioMeterButtonRevoke": "Scan intrekkingscode",
-  "watersupplierScanQrCodeOffboardingSuccessful": "Toegang tot uw radio watermeter is geannuleerd.",
-  "watersupplierNoAccess": "U heeft geen autorisatie meer om gegevens op te halen.",
-  "watersupplierNoAccessDetailedMessage": "Als u denkt dat u nog steeds toegang zou moeten hebben, scan dan uw activatiecode opnieuw. Als de toegangscode niet meer geldig is, dient u een nieuwe toegangsaanvraag in.",
-  "zipCode": "postcode",
-  "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers",
-  "zipCodeValidationLength": "Voer een {digits}-cijferige postcode in",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "type": "int",
-        "example": "5"
-      }
-    }
-  },
-  "houseName": "Huisnaam",
-  "houseNameDescription": "Huisnaam, bijv. straatnaam",
-  "marketLocationId": "Marktlocatie-ID",
-  "marketLocationIdDescription": "De marktlocatie-ID bestaat altijd uit 11 cijfers. U kunt dit meestal vinden op uw laatste elektriciteits- of gasrekening.",
-  "swimmingPool": "Zwembad",
-  "smartmeterInfocodeBannerText": "Slimme meter {smartmeterId} heeft infocode ontvangen: {infocode}",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "smartmeterId": {
-        "type": "String"
-      },
-      "infocode": {
-        "type": "String"
-      }
-    }
-  },
-  "smartmeterInfocodeBannerTextInfocodeLeckage": "Uw watermeter {smartmeterId} heeft een continue waterstroom gedetecteerd. Dit kan wijzen op een lek. Controleer uw huishoudelijke installatie op lekkages. Toiletten en druppelende kranen zijn veelvoorkomende oorzaken.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Uw watermeter {smartmeterId} heeft ongebruikelijk hoog waterverbruik gedetecteerd, wat kan wijzen op een leidingbreuk. Controleer uw huishoudelijke installatie op grote lekkages of breuken. Het alarm kan ook verschijnen als u een grote hoeveelheid water heeft gebruikt, bijvoorbeeld voor het vullen van een zwembad.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Uw watermeter {smartmeterId} heeft ongebruikelijk hoog waterverbruik gedetecteerd, wat kan wijzen op een leidingbreuk of het vullen van een zwembad. Controleer uw huishoudelijke installatie op grote lekkages of breuken.",
-  "smartmeterInfocodeBannerTextInfocodeFrost": "De temperatuur van uw watermeter {smartmeterId} is onder 3°C gedaald. Er is een risico op vorst! Isoleer de meter en de leidingen of verwarm het gebied om schade te voorkomen.",
-  "smartMeterCountersTitle": "Radio watermeters",
-  "counterOutdatedAndNextReminder": "Meterstand verouderd sinds {date}, volgende aflezing herinnering {date2}.",
   "@counterOutdatedAndNextReminder": {
     "placeholders": {
       "date": {
@@ -681,232 +258,13 @@
       }
     }
   },
-  "waterMeterEventsInformation": "{count, plural, =1 {Uw draadloze watermeter {waterSupplier} detecteert onverwacht verbruik. Indien gewenst ontvangt u in zo'n geval een melding.} other {Uw draadloze watermeters {waterSupplier} detecteren onverwacht verbruik. Indien gewenst ontvangt u in dergelijke gevallen een melding.}}",
-  "@waterMeterEventsInformation": {
+  "@deleteObjectError": {
     "placeholders": {
-      "count": {
-        "type": "num",
-        "example": "1"
-      },
-      "waterSupplier": {
-        "type": "String",
-        "example": "from Wasserwerk Gerauer Land"
-      }
-    }
-  },
-  "subscribeToSmartMeterInfocodeEvents": "Ik wil op de hoogte worden gesteld van onverwacht verbruik",
-  "completeButton": "Voltooien",
-  "reset": "Resetten",
-  "settingCounterTypeColor": "Kleur voor dit metertype",
-  "settingCounterTypeColorDescription": "Als u de standaardkleur voor dit metertype niet leuk vindt, kunt u een andere kleur toewijzen.",
-  "settingCounterTypeColorAdvanced": "Kleurkiezer voor experts",
-  "featureVotingUnderConstruction": "De functie-enquête wordt momenteel herzien. In de toekomst is een EHW+-gebruikersaccount vereist en zal de enquête geen gebruik meer maken van servers van derden. We waarderen uw geduld.",
-  "termsOfUsageTitle": "Algemene gebruiksvoorwaarden voor het gebruik van de app",
-  "termsOfUsageBlock1Title": "Algemene gebruiksvoorwaarden voor het gebruik van de app",
-  "termsOfUsageBlock1": "Bezwaarrecht",
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2Title": "Algemene informatie over gebruik",
-  "termsOfUsageBlock2": "De app en zijn functies mogen niet op misbruikende wijze worden gebruikt. Gebruik de app alleen binnen het wettelijk toegestane kader en in overeenstemming met onze gebruiksvoorwaarden. In geval van schending van toepasselijk Duits recht of onze gebruiksvoorwaarden, behoudt de aanbieder zich het recht voor om u uit te sluiten van het gebruik van de app.",
-  "termsOfUsageBlock2a": "Geanonimiseerde gebruiksgegevens\nWe gebruiken onze eigen analyses om de app voortdurend te verbeteren.\nEr worden alleen geanonimiseerde gegevens verzonden.\nDe gegevens worden niet doorgegeven aan derden.\nGa voor meer informatie naar Instellingen > Privacy > {privacyBlock3Title}",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2b": "Foutrapporten\nSentry (zelf gehost) wordt gebruikt om de app voortdurend te verbeteren.\nFoutmeldingen worden niet verwerkt, noch gedeeld met derden.\nGa voor meer informatie naar Instellingen > Privacy > {privacyBlock3Title}",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2c": "Persoonlijke gegevens\nAls u de Google Drive-synchronisatie gebruikt, heeft EHW+ nog steeds geen toegang tot de door u ingevoerde gegevens. Meer informatie hierover vindt u onder Instellingen > Privacy > {privacyBlock3Title}",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock3Title": "Aansprakelijkheid",
-  "termsOfUsageBlock3": "De aanbieder neemt geen garanties aan met betrekking tot beschikbaarheid, betrouwbaarheid, functionaliteit of geschiktheid van de app voor uw doeleinden. Aansprakelijkheid is uitgesloten, voor zover niet krachtens de productaansprakelijkheidswet, wegens opzet, grove nalatigheid, wegens schending van leven, lichaam of gezondheid, wegens het aangaan van een kwaliteitsgarantie, wegens arglistig verzwijgen van een gebrek of wegens schending van essentiële contractuele verplichtingen verplicht wordt geaansprakelijk gesteld. Essentiële contractuele verplichtingen zijn die verplichtingen waarvan de vervulling de juiste uitvoering van een contract überhaupt mogelijk maakt en waarvan de contractpartijen regelmatig mogen vertrouwen op naleving. De schadevergoeding wegens schending van essentiële contractuele verplichtingen is beperkt tot de contracttypische, voorzienbare schade, tenzij opzet of grove nalatigheid aanwezig is.",
-  "termsOfUsageBlock4Title": "Verantwoordelijkheden van de gebruiker",
-  "termsOfUsageBlock4": "De aanbieder neemt geen garantie voor de juistheid van de berekeningsresultaten. Gebruikers worden verzocht de in de applicatie opgeslagen prijzen (basisprijzen, verbruiksprijzen, enz.) zelfstandig en zorgvuldig bij te werken om een overeenstemming tussen de gemaakte facturen en de werkelijke vorderingsbedragen te waarborgen.",
-  "privacyBlock1Title": "Ontwikkelaar",
-  "privacyBlock1Text": "De ontwikkelaar/aanbieder van de applicatie (hierna te noemen \"app\") is, in overeenstemming met Sectie 5 van de Duitse Telemediawet (TMG):\n\n{contact}",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock1Text2": "Gebruik van de app vereist dat u akkoord gaat met de volgende gebruiksvoorwaarden. Lees deze zorgvuldig door.",
-  "privacyBlock2Title": "Algemeen",
-  "privacyBlock2Text": "De bescherming van uw gegevens is erg belangrijk voor ons. Dit privacybeleid legt uit welke persoonlijke gegevens EHW+ verzamelt en hoe deze worden gebruikt. Fundamentele wijzigingen in het privacybeleid zijn zeldzaam, maar het kan van tijd tot tijd worden herzien vanwege nieuwe functies, technologieën of wettelijke vereisten. Controleer deze pagina dus van tijd tot tijd om op de hoogte te blijven. Als we belangrijke wijzigingen aanbrengen, zullen we u hiervan op de hoogte stellen en, indien nodig, uw toestemming verkrijgen.",
-  "privacyBlock3Title": "Welke gegevens verzamelt {appNameShort}?",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3aText": "We hebben {appNameShort} gemaakt zodat u snel en eenvoudig meterstanden kunt invoeren en vervolgens via statistieken meer kunt ontdekken over uw verbruik, de kosten en besparingsmogelijkheden. Dit betekent dat u willekeurige gegevens, die wij algemeen als \"inhoud\" aanduiden, in {appNameShort} kunt invoeren, berekenen of opslaan. Deze gegevens worden alleen op uw telefoon opgeslagen.\n\nSynchronisatie met Google Drive.\nAls u de synchronisatie met Google Drive activeert, worden de inhoud automatisch in het alleen voor u toegankelijke Google Drive-opslagruimte daarnaast opgeslagen in een map \"{appNameShort}\". Door in te loggen met Google wordt uw e-mailadres zichtbaar voor de ontwikkelaar.",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "googleApiAgreement": "Het gebruik en de overdracht van informatie die {appNameShort} ontvangt van Google API's aan andere apps, voldoet aan het Google API Services User Data Policy, inclusief de beperkte gebruiksvereisten.",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3bText": "{googleApiAgreement}\n\nLocatiegegevens.\nOm het gebruikersgedrag te begrijpen en voor toekomstige functies verzendt de app geanonimiseerde gebruiksgegevens.\nDe gegevens worden niet gedeeld met derden.\nEr kan informatie worden verzameld over herkomst (land en stad), taal, besturingssysteem, apparaattype, resolutie, klikgedrag en gebruiksduur.\n\nApparaatgegevens.\nWe verzamelen gegevens over het aantal en het type apparaten dat u gebruikt om verbinding te maken met de dienst, evenals informatie over het besturingssysteem op die apparaten (bijvoorbeeld Android, iOS, Windows of macOS).\n\nDoor de app te gebruiken, geeft u toestemming voor het verzamelen van geanonimiseerde gegevens zoals hierboven beschreven.",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyContractPriceSubmission": "Als u als gebruiker uw contractgegevens bijhoudt, wordt de prijs per eenheid voor elektriciteits-, water- en gascontracten verzonden naar een EHW+-server in Duitsland samen met het land en de staat. Met deze gegevens worden prijsstatistieken berekend. Voor app-gebruikers zijn de statistieken zichtbaar in de vorm van een prijsvergelijking in de contractweergave.\n\nDoor de app te gebruiken gaat u akkoord met de hierboven genoemde verzameling van geanonimiseerde gegevens.",
-  "privacyBlock4DataUsageTitle": "Hoe gebruikt {appNameShort} mijn gegevens?",
-  "privacyBlock4DataUsage": "\nVerzamelde geanonimiseerde gegevens worden gebruikt voor de evaluatie van gebruikersgedrag. Daarnaast is er geen gegevensgebruik.\n\n{syncDriveDataUsage}",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock5Title": "Duur van opslag van persoonlijke gegevens",
-  "privacyBlock5": "De duur van de opslag van persoonlijke gegevens wordt bepaald op basis van de respectieve wettelijke bewaartermijn (bijv. handels- en belastingrechtelijke bewaartermijnen). Na het verstrijken van de termijn worden de betreffende gegevens routinematig verwijderd, tenzij ze niet meer nodig zijn voor contractuitvoering of contractsluiting en/of er aan onze kant geen gerechtvaardigd belang meer bestaat voor verdere opslag.",
-  "youtubeConsent1": "We hebben uw toestemming nodig om de ingesloten Youtube-inhoud weer te geven. U kunt dit (en dus ook alle andere Youtube-inhoud in de app) met één klik weergeven en ook weer deactiveren.",
-  "youtubeConsent2": "Youtube-inhoud altijd tonen",
-  "youtubeConsent3": "Ik ga akkoord dat externe inhoud aan mij wordt weergegeven. Dit kan ertoe leiden dat persoonlijke gegevens worden verzonden naar platforms van derden. Meer hierover in onze ",
-  "privacyBlock6Title": "Contactgegevens",
-  "privacyBlock6": "In het kader van contact met ons (bijv. via contactformulier of e-mail) worden persoonsgegevens verzameld. Welke gegevens in het geval van een contactformulier worden verzameld, is te zien in het betreffende contactformulier. Deze gegevens worden uitsluitend opgeslagen en gebruikt voor het beantwoorden van uw vraag of voor contactopname en de daarmee samenhangende technische administratie. De rechtsgrondslag voor de verwerking van de gegevens is ons gerechtvaardigd belang bij het beantwoorden van uw vraag overeenkomstig Art. 6 lid 1 lit. f AVG. Indien uw contact gericht is op het sluiten van een contract, is de aanvullende rechtsgrondslag voor de verwerking Art. 6 lid 1 lit. b AVG. Uw gegevens worden na definitieve afhandeling van uw aanvraag verwijderd, dit is het geval wanneer uit de omstandigheden kan worden afgeleid dat de betreffende kwestie definitief is opgehelderd en voor zover er geen wettelijke bewaarplichten in de weg staan.",
-  "privacyBlock7Title": "Rechten van de betrokkene",
-  "privacyBlock7": "Het toepasselijke gegevensbeschermingsrecht verleent u uitgebreide rechten als betrokkene (rechten op informatie en interventie) ten aanzien van de verwerking van uw persoonsgegevens, waarover wij u hieronder informeren:\n\n- Recht op informatie overeenkomstig Art. 15 AVG: U heeft met name recht op informatie over uw door ons verwerkte persoonsgegevens, de verwerkingsdoeleinden, de categorieën van verwerkte persoonsgegevens, de ontvangers of categorieën van ontvangers aan wie uw gegevens zijn of worden bekendgemaakt, de geplande opslagduur of de criteria voor het bepalen van de opslagduur, het bestaan van een recht op rectificatie, wissing, beperking van de verwerking, bezwaar tegen de verwerking, klacht bij een toezichthoudende autoriteit, de herkomst van uw gegevens, indien deze niet door ons bij u zijn verzameld, het bestaan van geautomatiseerde besluitvorming inclusief profilering en, indien van toepassing, zinvolle informatie over de betrokken logica en de reikwijdte en de beoogde gevolgen van een dergelijke verwerking voor u, evenals uw recht op informatie over welke garanties overeenkomstig Art. 46 AVG bestaan bij doorgifte van uw gegevens aan derde landen;\n\n- Recht op rectificatie overeenkomstig Art. 16 AVG: U heeft recht op onmiddellijke rectificatie van onjuiste gegevens die op u betrekking hebben en/of aanvulling van uw bij ons opgeslagen onvolledige gegevens;\n\n- Recht op wissing overeenkomstig Art. 17 AVG: U heeft het recht om de wissing van uw persoonsgegevens te verlangen indien aan de voorwaarden van Art. 17 lid 1 AVG is voldaan. Dit recht bestaat echter met name niet indien de verwerking noodzakelijk is voor de uitoefening van het recht op vrijheid van meningsuiting en informatie, voor de nakoming van een wettelijke verplichting, om redenen van algemeen belang of voor de vaststelling, uitoefening of verdediging van rechtsvorderingen;\n\n- Recht op beperking van de verwerking overeenkomstig Art. 18 AVG: U heeft het recht om de beperking van de verwerking van uw persoonsgegevens te verlangen zolang de door u betwiste juistheid van uw gegevens wordt gecontroleerd, indien u een wissing van uw gegevens wegens onrechtmatige gegevensverwerking weigert en in plaats daarvan de beperking van de verwerking van uw gegevens verlangt, indien u uw gegevens nodig heeft voor de vaststelling, uitoefening of verdediging van rechtsvorderingen, nadat wij deze gegevens na het bereiken van het doel niet meer nodig hebben of indien u bezwaar heeft gemaakt om redenen die verband houden met uw specifieke situatie, zolang nog niet vaststaat of onze gerechtvaardigde gronden zwaarder wegen;\n\n- Recht op informatie overeenkomstig Art. 19 AVG: Indien u het recht op rectificatie, wissing of beperking van de verwerking jegens de verantwoordelijke heeft uitgeoefend, is deze verplicht om alle ontvangers aan wie de op u betrekking hebbende persoonsgegevens zijn bekendgemaakt, van deze rectificatie of wissing van de gegevens of beperking van de verwerking op de hoogte te stellen, tenzij dit onmogelijk blijkt of onevenredig veel inspanning vergt. U heeft het recht om over deze ontvangers te worden geïnformeerd.\n\n- Recht op gegevensoverdraagbaarheid overeenkomstig Art. 20 AVG: U heeft het recht om uw persoonsgegevens, die u ons heeft verstrekt, in een gestructureerd, gangbaar en machineleesbaar formaat te ontvangen of om de overdracht aan een andere verantwoordelijke te verlangen, voor zover dit technisch haalbaar is;\n\n- Recht op intrekking van verleende toestemmingen overeenkomstig Art. 7 lid 3 AVG: U heeft het recht om een eenmaal verleende toestemming voor de verwerking van gegevens te allen tijde met werking voor de toekomst in te trekken. In geval van intrekking zullen wij de betreffende gegevens onmiddellijk verwijderen, tenzij verdere verwerking niet kan worden gebaseerd op een rechtsgrondslag voor verwerking zonder toestemming. Door de intrekking van de toestemming wordt de rechtmatigheid van de verwerking die op basis van de toestemming tot aan de intrekking heeft plaatsgevonden, niet aangetast;\n\n- Recht op klacht overeenkomstig Art. 77 AVG: Indien u van mening bent dat de verwerking van de op u betrekking hebbende persoonsgegevens in strijd is met de AVG, heeft u – onverminderd een ander administratiefrechtelijk of gerechtelijk rechtsmiddel – het recht om een klacht in te dienen bij een toezichthoudende autoriteit, met name in de lidstaat van uw gewone verblijfplaats, uw werkplek of de plaats van de vermeende overtreding.",
-  "privacyBlock8Title": "Recht van bezwaar",
-  "privacyBlock8": "WENN WIR IM RAHMEN EINER INTERESSENABWÄGUNG IHRE PERSONENBEZOGENEN DATEN AUFGRUND UNSERES ÜBERWIEGENDEN BERECHTIGTEN INTERESSES VERARBEITEN, HABEN SIE DAS JEDERZEITIGE RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIESE VERARBEITUNG WIDERSPRUCH MIT WIRKUNG FÜR DIE ZUKUNFT EINZULEGEN. MACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN. EINE WEITERVERARBEITUNG BLEIBT ABER VORBEHALTEN, WENN WIR ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN KÖNNEN, DIE IHRE INTERESSEN, GRUNDRECHTE UND GRUNDFREIHEITEN ÜBERWIEGEN, ODER WENN DIE VERARBEITUNG DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN DIENT.\n\nWERDEN IHRE PERSONENBEZOGENEN DATEN VON UNS VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN. SIE KÖNNEN DEN WIDERSPRUCH WIE OBEN BESCHRIEBEN AUSÜBEN.\n\nMACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN ZU DIREKTWERBEZWECKEN.",
-  "activityTitle": "Activiteit",
-  "activitiesTitle": "Mijn activiteiten",
-  "activitiesDescription": "Koppel meterstanden aan activiteiten, bijvoorbeeld wassen met koudwatermeters en elektriciteitsmeters.",
-  "sortActivities": "Wijzig de volgorde van activiteiten",
-  "resetActivities": "Reset alle activiteiten",
-  "addActivity": "Activiteit toevoegen",
-  "activitySettings": "Activiteitsinstellingen",
-  "activityOverview": "Activiteitsoverzicht",
-  "activityNameLabel": "Activiteitsnaam",
-  "chooseActivity": "Kies activiteit",
-  "selectedActivity": "Geselecteerde activiteit \"${activityName}\"",
-  "chooseActivityIcon": "Kies een pictogram",
-  "involvedCounters": "Betrokken meters",
-  "detailsTitle": "Details",
-  "detailWithMultiSelect": "Meervoudige selectie toestaan",
-  "addDetail": "Detail toevoegen",
-  "editDetailTitle": "Detail bewerken",
-  "activityWithEnergyConsumption": "Stroomverbruik wordt alleen gemeten voor activiteit",
-  "consumptionIsNotExclusiveTitle": "Is verbruik exclusief?",
-  "consumptionIsNotExclusive": "Als het verbruik niet exclusief is voor deze activiteit, wordt dit als waarschuwing weergegeven.",
-  "numberOfDetails": "{count, plural, one {1 detail} other {{count} details}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
+      "errorCode": {
         "type": "int"
       }
     }
   },
-  "reallyDeleteActivity": "Deze activiteit echt verwijderen?",
-  "reallyDeleteDetail": "Dit detail echt verwijderen?",
-  "reallyDeleteContract": "Dit contract echt verwijderen?",
-  "contractCopyDialogTitle": "Wilt u een kopie maken van dit contract?",
-  "contractCopyDialogOptionYes": "Ja, de eenheidsprijs of een andere waarde is veranderd.",
-  "contractCopyDialogOptionNo": "Nee, annuleren.",
-  "contractCopyDialogWhen": "Vanaf wanneer geldt de nieuwe prijs?",
-  "contractCosts": "Eenheidsprijs",
-  "contractCostsFeedIn": "Vergoedingsprijs/basisprijs",
-  "counterWarmWaterPlusColdWater": "Exclusief kosten voor zoet water en afvalwater",
-  "advancePayment": "Voorschot",
-  "bonus": "Bonus",
-  "bonusInfoTitle": "Informatie over bonustarieven",
-  "bonusInfoText": "Tarieven met bonus maken vaak bijzonder hoge besparingen mogelijk bij het wisselen van leverancier. Dit komt echter meestal uitsluitend door de eenmalige bonus. Dat betekent: De totale kosten zijn alleen in het eerste leveringsjaar zo laag. Hoge werk- en/of basisprijzen zorgen in het tweede jaar voor een duidelijk hogere berekening. Daarom moet u bij bonustarieven vanaf het begin plannen om na een jaar opnieuw te wisselen. Bonustarieven met een looptijd van twee jaar, waarbij deze opzegging helemaal niet mogelijk is, moeten bijzonder kritisch worden beoordeeld.",
-  "source": "Bron: ",
-  "basePrice": "Basisprijs",
-  "gross": "bruto",
-  "net": "netto",
-  "grossNetPrices": "Bruto- of nettoprijs",
-  "taxRate": "Belastingtarief",
-  "perUnit": "per {unit}",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "wasteWaterPriceEnabled": "Kosten voor zoet water en afvalwater worden apart weergegeven (relevant voor aftrekmeters)",
-  "pricePerUnit": "Prijs per eenheid",
-  "pricePerUnitFeedIn": "Vergoedingsprijs",
-  "pricePerUnitWaterWarm": "Kosten voor warmwaterverwarming",
-  "pricePerUnitWaterCold": "Kosten voor koud water",
-  "pricePerUnitFreshWater": "Kosten voor zoet water",
-  "pricePerUnitWasteWater": "Afvalwaterprijs",
-  "paidAdvancePayments": "Voorschotten",
-  "supplementaryPayment": "Aanvullende betaling",
-  "refund": "Terugbetaling",
-  "costs": "Kosten",
-  "contract": "Contract",
-  "contractDetails": "Contractduur en details",
-  "usedForPaymentsRepayments": "Voorschot, basisprijs en bonus",
-  "contractName": "Leverancier/contractnaam",
-  "contractNumber": "Contractnummer",
-  "contractStart": "Contractstartdatum",
-  "contractPeriod": "Contractperiode",
-  "cancellationPeriod": "Opzegtermijn",
-  "activityWash": "Wassen",
-  "activityWashTemperature": "Temperatuur",
-  "activityWashDuration": "Duur",
-  "activityWashDuration2hrs": "2u",
-  "activityWashRotations": "Toeren",
-  "activityWashShort": "Kort programma",
-  "activityShower": "Douche",
-  "activityBath": "Bad",
-  "activityDishWasher": "Afwasmachine",
-  "activityIron": "Strijken",
-  "errorNoInternet": "Geen netwerk",
-  "errorInvalidRange": "Geen geldig bereik",
-  "syncDriveLoggedIn": "Uw gegevens worden automatisch gesynchroniseerd op meerdere apparaten. Het volgende Google-account wordt gebruikt:",
-  "syncDriveLoggedInNoAuto": "Uw gegevens worden automatisch geüpload naar Google Drive na een wijziging. Nieuwere gegevens uit de cloud overschrijven lokale gegevens alleen wanneer u op het object klikt. Het volgende Google-account wordt gebruikt:",
-  "syncDriveDataUsage": "Als u EHW+ toegang geeft tot Google Drive, heeft de app lees- en schrijftoegang tot bestanden die door de app zelf zijn gemaakt. Helaas zijn bestanden die door anderen via deze app zijn gemaakt niet zichtbaar voor de app, wat betekent dat gegevensdeling tussen meerdere accounts via Google Drive niet mogelijk is.",
-  "syncAutomaticTitle": "Lokale gegevens kunnen worden overschreven",
-  "syncShareWithOthersTitle": "Delen met anderen?",
-  "syncShareWithOthersSubtitle": "Als u meterstanden samen met andere Google-gebruikers wilt invoeren, moet EHW+ volledige toegang tot Google Drive krijgen.",
-  "syncShareWithOthersNotInWeb": "Toegang verlenen is momenteel alleen mogelijk via de app.",
-  "syncWithGoogleDriveDescription": "Omdat het zonde zou zijn als de meterstanden verloren gaan, synchroniseer nu uw objecten met Google Drive!",
-  "driveSyncStatusTitle": "Synchronisatiestatus",
-  "driveSyncStatusNotSynced": "Niet gesynchroniseerd",
-  "driveSyncStatusFailed": "Synchroniseren mislukt",
-  "driveSyncStatusComparing": "Vergelijken met bestand op server",
-  "driveSyncStatusSyncing": "Synchroniseren in uitvoering",
-  "driveSyncStatusLocalHasLatestNoCloud": "Het bestand opgeslagen op dit apparaat van {localDate} is niet opgeslagen in de cloud",
   "@driveSyncStatusLocalHasLatestNoCloud": {
     "placeholders": {
       "localDate": {
@@ -914,18 +272,16 @@
       }
     }
   },
-  "driveSyncStatusLocalHasLatestWithCloud": "Het bestand opgeslagen op dit apparaat van {localDate} is actueler dan het bestand in de cloud van {cloudDate}",
   "@driveSyncStatusLocalHasLatestWithCloud": {
     "placeholders": {
-      "localDate": {
+      "cloudDate": {
         "type": "String"
       },
-      "cloudDate": {
+      "localDate": {
         "type": "String"
       }
     }
   },
-  "driveSyncStatusRemoteHasLatestNoLocal": "Het bestand in de cloud van {cloudDate} is niet opgeslagen op dit apparaat",
   "@driveSyncStatusRemoteHasLatestNoLocal": {
     "placeholders": {
       "cloudDate": {
@@ -933,7 +289,6 @@
       }
     }
   },
-  "driveSyncStatusRemoteHasLatestWithLocal": "Het bestand in de cloud van {cloudDate} is actueler dan het lokale bestand van {localDate}",
   "@driveSyncStatusRemoteHasLatestWithLocal": {
     "placeholders": {
       "cloudDate": {
@@ -944,7 +299,6 @@
       }
     }
   },
-  "driveSyncStatusUpToDate": "Bijgewerkt vanaf {localDate}",
   "@driveSyncStatusUpToDate": {
     "placeholders": {
       "localDate": {
@@ -952,38 +306,43 @@
       }
     }
   },
-  "driveSyncWithGoogle": "Google Drive Synchronisatie",
-  "driveSyncNow": "Nu synchroniseren",
-  "driveSignInWithGoogle": "Inloggen met Google",
-  "signInWithGoogle": "Inloggen met Google",
-  "signInWithApple": "Inloggen met Apple",
-  "signInWithGithub": "Inloggen met GitHub",
-  "signInWithSocialAccount": "Welk sociaal account wilt u gebruiken om uw EHW+-account aan te maken of in te loggen?",
-  "syncStatusFailedLong": "Synchroniseren mislukt, bewerken is op eigen risico",
-  "syncStatusFailedLongNoAutoSync": "Synchroniseren mislukt, bewerken is op eigen risico",
-  "syncStatusSyncRemoteHasLatest": "Het bestand in de cloud is actueler dan het lokale bestand",
-  "syncObjectIsLocked": "Objectgegevens worden bijgewerkt en kunnen gedurende deze tijd niet worden bewerkt.",
-  "importExport": "Back-up/Herstellen",
-  "import": "Importeren",
-  "importPickFile": "Bestand selecteren",
-  "importSelectSingleCounter": "Enkele meter (CSV-bestand)",
-  "importSelectJson": "JSON-bestand (gemaakt met {appName})",
-  "@importSelectJson": {
+  "@exportObjectDescription": {
     "placeholders": {
-      "appName": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
         "type": "String"
       }
     }
   },
-  "importWhichCounterForCsv": "Welke meter moet worden gebruikt?",
-  "importNewOrExistingCounter": "Toevoegen aan nieuwe of bestaande meter?",
-  "importConfirm": "Import bevestigen",
-  "importTheObject": "Object importeren",
-  "importExplanation": "Heeft u al meterstanden gemaakt en wilt u deze invoegen?",
-  "importCounterAsCsv": "Wilt u een enkele meter importeren? Per meter wordt een CSV-bestand met twee kolommen ondersteund, één voor de tijd en één voor de meterstand.\n\nVoorbeeldgegevens:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
-  "importSuccessful": "Import succesvol",
-  "importNotPossible": "Import niet mogelijk",
-  "importErrorCsvIgnoredLines": "{count, plural, one {Eén regel werd genegeerd: {lines}} other {{count} regels werden genegeerd: {lines}}}",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "@importErrorCsvIgnoredLines": {
     "placeholders": {
       "count": {
@@ -994,474 +353,144 @@
       }
     }
   },
-  "importErrorCsvIgnoredColumns": "{columns, plural, one {Alleen de eerste twee kolommen werden gebruikt. De derde kolom werd genegeerd.} other {Alleen de eerste twee kolommen werden gebruikt, {columns} kolommen werden genegeerd.}}",
-  "@importErrorCsvIgnoredColumns": {
+  "@importSelectJson": {
     "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "consentTitle": "Privacy-instellingen",
-  "privacyTitle": "Privacybeleid",
-  "imprintTitle": "Impressum",
-  "faqTitle": "FAQ",
-  "socialFacebook": "Facebook",
-  "socialInstagram": "Instagram",
-  "socialTwitter": "X",
-  "export": "Exporteren",
-  "exportExplanation": "Welk bestaand object wilt u exporteren, bijvoorbeeld om het over te dragen naar een nieuw apparaat?",
-  "exportWhere": "In welk formaat moet het object worden geëxporteerd?",
-  "exportWhichValuesShouldBeExported": "Welke waarden moeten worden geëxporteerd?",
-  "exportOptionExcel": "Excel-bestand",
-  "exportOptionPdf": "PDF-bestand",
-  "exportOptionFileDescription": "Het object wordt gedeeld als een {fileType} bestand",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
+      "appName": {
         "type": "String"
       }
     }
   },
-  "socialLinkedIn": "LinkedIn",
-  "socialYouTube": "YouTube",
-  "socialEmail": "Email",
-  "social": "Sociale media",
-  "support": "Ondersteuning/Feedback",
-  "supportQuestion": "Stel een vraag",
-  "supportQuestionBox": "Hoe kan ik u helpen?",
-  "supportQuestionNotFound": "Uw vraag werd niet beantwoord? Ik help u graag.",
-  "supportQuestionLong": "Hoe werkt het? Is het überhaupt mogelijk? Hier zijn de antwoorden.",
-  "supportReportBug": "Rapporteer een bug via e-mail",
-  "supportReportBugTextIs": "Beschrijf kort het huidige onjuiste gedrag, d.w.z. de fout zelf.",
-  "supportReportBugTextShould": "Beschrijf kort het gewenste gedrag, d.w.z. hoe het eigenlijk zou moeten zijn.",
-  "supportReportBugAffectedPages": "Op welke pagina's treedt de fout op? (indien van toepassing)",
-  "supportReportBugScreenshotsPlease": "Voeg een screenshot bij in de e-mail, bij voorkeur met markering van de fout.",
-  "supportBug": "Beestje",
-  "supportReportBugLong": "Geweldige app! Maar natuurlijk kunnen dingen misgaan. Als u bugs rapporteert, maakt u de app beter.",
-  "supportGivePraise": "Geef lof",
-  "supportGivePraiseLong": "Vindt u de app leuk? Bedankt! Verspreid het nieuws!",
-  "supportGivePraiseRecommendation": "Beveel de app aan bij vrienden en familie. Bedankt voor elke aanbeveling!",
-  "supportRecommend": "Ik gebruik de meterstand-app EHW+ om mijn energieverbruik en de bijbehorende kosten bij te houden. Misschien is dat ook iets voor u?\n\nMeer info op https://www.ehwplus.com",
-  "supportGivePraiseRating": "Beoordeel de app in {store}.",
-  "@supportGivePraiseRating": {
+  "@meterReadingsFilterSubmitted": {
     "placeholders": {
-      "store": {
+      "state": {
         "type": "String"
       }
     }
   },
-  "electricityConsumption": "Stroomverbruik",
-  "waterExtractionMinimumLevelLower": "Aftrek vindt plaats omdat het verbruik lager is dan de drempel.",
-  "outdatedCounters": "Meters niet meer in gebruik",
-  "isOutdatedCounter": "Meter wordt niet meer gebruikt",
-  "waterConsumption": "Waterverbruik",
-  "rooms": "Kamers",
-  "messageNoRooms": "Nog geen kamers. Kamers helpen meters te groeperen.",
-  "settingObjectType": "Objecttype",
-  "settingObjectTypeFlat": "Appartement",
-  "settingObjectTypeHouse": "Huis",
-  "settingLivingArea": "Woonoppervlakte",
-  "unitSquareMeters": "sqm",
-  "unitMWhShort": "MWh",
-  "unitMWhLong": "{count, plural, one {Megawattuur (MWh)} other {Megawattuur (MWh)}}",
-  "@unitMWhLong": {
+  "@numCounters": {
     "placeholders": {
       "count": {
-        "type": "num"
+        "type": "int"
       }
     }
   },
-  "unitKWhShort": "kWh",
-  "unitKWhLong": "{count, plural, one {Kilowattuur (kWh)} other {Kilowattuur (kWh)}}",
-  "@unitKWhLong": {
+  "@numMeterReadings": {
     "placeholders": {
-      "count": {
-        "type": "num"
+      "readings": {
+        "type": "int"
       }
     }
   },
-  "unitGJShort": "GJ",
-  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
-  "@unitGJLong": {
+  "@numberOfDetails": {
     "placeholders": {
       "count": {
-        "type": "num"
+        "type": "int"
       }
     }
   },
-  "unitLitersShort": "ℓ",
-  "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
-  "@unitLitersLong": {
+  "@ofRangeFrom": {
     "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCmShort": "cm",
-  "unitCmLong": "cm",
-  "unitSquareMetersShort": "m²",
-  "unitSquareMetersLong": "{count, plural, one {Vierkante meter (m²)} other {Vierkante meters (m²)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCubicMetersShort": "m³",
-  "unitCubicMetersLong": "{count, plural, one {Kubieke meter (m³)} other {Kubieke meters (m³)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitPercentShort": "%",
-  "unitPercentLong": "Procent (%)",
-  "unitKgShort": "kg",
-  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitHoursShort": "h",
-  "unitHoursLong": "{count, plural, one {Uur} other {Uren (u)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitNoneFormatted": "{count, plural, one {eenheid} other {eenheden}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitMegaByteShort": "MB",
-  "unitMegaByteLong": "MB",
-  "unitGigaByteShort": "GB",
-  "unitGigaByteLong": "GB",
-  "settingHouseholdSize": "Gezinsgrootte",
-  "settingHouseholdSizeDescription": "Aantal personen in uw huishouden.",
-  "settingWaterHeater": "Waterverwarmer",
-  "settingEAuto": "Elektrische auto",
-  "settingObjectLocation": "Locatie",
-  "settingObjectLocationTitle": "Waar bevindt uw object zich?",
-  "settingObjectLocationExplanation": "Het invoeren van de locatie helpt inzichten en services af te stemmen op uw gebied.",
-  "counterBackgroundImageOfObject": "Achtergrondafbeelding voor object",
-  "manageMoreThanOneObjectStep1": "Beheer meer dan één object - Stap 1",
-  "manageMoreThanOneObjectStep2": "Beheer meer dan één object - Stap 2",
-  "contracts": "Contracten",
-  "messageNoContracts": "Nog geen contracten.",
-  "outdatedContracts": "Verouderde contracten",
-  "contractType": "Contracttype",
-  "electricity": "Elektriciteit",
-  "electricityBack": "Elektriciteit teruggeleverd",
-  "electricityGenerated": "Opgewekte elektriciteit",
-  "heatPump": "Warmtepomp",
-  "coldWater": "Koud water",
-  "counterHeater": "Radiatormeter",
-  "counterDistrictHeating": "Stadsverwarming",
-  "counterOilHeating": "Olieverwarming",
-  "counterGas": "Gasmeter",
-  "counterColdWater": "Koudwatermeter",
-  "counterWaterExtraction": "Wateronttrekkingsmeter (tuin)",
-  "counterWaterExtractionExplanation": "Met een aftrekmeter kunnen de afvalwaterkosten worden verlaagd. Met deze in-app aankoop kunt u verschillende kosten voor zoet water en afvalwater specificeren en de meterstand van de aftrekmeter wordt meegenomen in de waterkosten.",
-  "warmWater": "Warm water",
-  "counterWarmWater": "Warmwatermeter",
-  "counterElectricity": "Elektriciteitsmeter",
-  "counterElectricityBack": "Elektriciteits terugleveringsmeter (PV)",
-  "counterElectricityGenerated": "Elektriciteitsopwekmeter",
-  "counterPvFeedInCounter": "Hernieuwbare energie (zonne-energie en warmte met PV/zonnesystemen)",
-  "counterPvFeedInCounterExplanation": "\nGebruik een elektriciteits terugleveringsmeter om de opgewekte en teruggeleverde elektriciteit\nmet een fotovoltaïsch systeem vast te leggen. De resulterende opbrengst wordt verrekend met de kosten van\nde getrokken elektriciteit.",
-  "virtualCounter": "Virtuele meter",
-  "heater": "Radiator",
-  "gas": "Gas",
-  "oil": "Olie",
-  "stove": "Kachel",
-  "networkCounter": "Internet & telefoon",
-  "solarThermalCollector": "Zonthermische collector",
-  "contractTypeElectricityProvider": "Elektriciteitsleverancier",
-  "contractTypeWaterFees": "Waterkosten",
-  "contractTypeHeatingFees": "Verwarmingskosten",
-  "contractTypeOilProvider": "Olieleverancier",
-  "contractTypeGasProvider": "Gasleverancier",
-  "contractTypeStove": "Kachel",
-  "contractTypeNetwork": "Internet & telefoon",
-  "currency": "Valuta",
-  "costsUndefinedFor": "Kosten ongedefinieerd",
-  "exportOptionReadingsTitle": "Aflezingwaarden",
-  "exportOptionReadingsSubtitle": "Meestal meterstanden of verbruik met onregelmatige intervallen.",
-  "exportOptionConsumptionsTitle": "Dagelijks verbruik",
-  "exportOptionConsumptionsSubtitle": "Een verbruikswaarde voor elke dag sinds de eerste aflezing.",
-  "settings": "Instellingen",
-  "roomOther": "Anders",
-  "previouslyDeletedCounters": "Onlangs verwijderde meters",
-  "restoreDeletedCounter": "Wilt u deze verwijderde meter herstellen?",
-  "localWriteTitle": "Opslaan in de lokale downloadmap",
-  "localWriteSubtitle": "Moeten de objecten en foto's worden opgeslagen in de lokale \"{folder}\" map bij elke wijziging?",
-  "settingUiMode": "Gebruikersinterface",
-  "settingUiColorPalette": "Kleurenpalet",
-  "settingUiModeDarkOrLight": "Donkere/lichte gebruikersinterface",
-  "settingLanguageMode": "Taal",
-  "settingUiModeOsDefault": "Systeem",
-  "settingUiModeLight": "Licht",
-  "settingUiModeDark": "Donker",
-  "appBarExpandedMode": "App-balk met achtergrondafbeelding",
-  "useDismissibleSettings": "Verwijderen door veeggebaar",
-  "useDismissibleSettingsDetailed": "Meters, contracten, enz. kunnen worden verwijderd met een zijwaartse veegbeweging",
-  "settingsExternalServices": "Externe services",
-  "settingsShowTabNewsDetailed": "Moet het Nieuws/Tips-tabblad zichtbaar zijn?",
-  "settingsShowStromGedacht": "Moeten tips van StromGedacht over het elektriciteitsnet worden weergegeven?",
-  "lineChartAppearanceSettings": "Lijngrafieken uiterlijk",
-  "lineChartAppearanceSettingsShowSpots": "Toon (ronde) punten op de lijnen van grafieken",
-  "supportMakeSuggestion": "Stel iets voor",
-  "supportMakeSuggestionLong": "De app leeft van gebruikerssuggesties. Heeft u een suggestie?",
-  "featureVoting": "Functie stemmen",
-  "featureVotingOnlyOnGerman": "De functie-enquête is niet vertaald naar andere talen.",
-  "notifications": "Meldingen",
-  "notificationsEmpty": "Geen meldingen",
-  "notificationsSmartMeterAlertFallback": "U heeft een nieuwe slimme meter melding.",
-  "readingNew": "Nieuwe lezing",
-  "readingUpdate": "Lezing bijwerken",
-  "readingPrefill": "Meterstand automatisch invullen",
-  "readingPrefillDisabled": "Automatisch invullen uitgeschakeld",
-  "readingPrefillEnableForAllCounters": "Automatisch invullen inschakelen voor alle meters",
-  "readingPrefillDisableForAllCounters": "Automatisch invullen uitschakelen voor alle meters",
-  "readingPrefillDescription": "Meterstanden vooraf invullen op basis van eerdere invoer",
-  "readingPrefillDisabledToast": "Automatisch invullen uitgeschakeld",
-  "readingSubmitted": "Meterstand ingediend",
-  "readingDeleteConfirm": "Aflezing verwijderen?",
-  "reminderTime": "Herinneringstijd",
-  "reminderWeekdayExplanation": "Er is een herinnering om een aflezing te nemen, maximaal één keer per dag.",
-  "reminderWeekdayExplanationSeasonal": "Voor meters met seizoensverbruik worden herinneringen alleen verzonden in maanden met verbruik (werkt alleen als waarden van het afgelopen jaar zijn opgegeven).",
-  "readingReminder": "{count, plural, one {Aflezingherinnering} other {Aflezingherinneringen}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
-  "readingReminders": "Aflezingherinneringen",
-  "readingReminderDisabled": "Aflezingherinnering niet actief",
-  "readingRemindersChannel": "Aflezingherinneringen",
-  "readingReminderSingleBody": "Lees nu de {counterName} waarde",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
+      "range": {
         "type": "String"
       }
     }
   },
-  "readingReminderMultiBody": "{count, plural, one {Lees nu de aflezingen van {count} meter} other {Lees nu de aflezingen van {count} meters}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "contractReminder": "Contractherinnering",
-  "outdated": "Verouderd",
-  "counterNew": "Nieuwe meter",
-  "counterEdit": "Meter bewerken",
-  "counterGasConversionFactor": "Conversiefactor",
-  "counterGasCalorificValue": "Verwarmingswaarde",
-  "counterGasConversionFactorHelpText": "Ca 1.0. Het conditiegetal wordt gebruikt om het bedrijfsvolume om te zetten in een standaardvolume. De bedrijfsconditie is de conditie van het gas bij de meter en is afhankelijk van de aanwezige druk (hoogte) en temperatuur.",
-  "counterGasCalorificValueHelpText": "Verwarmingswaarde: Dimensieloze factor voor het omzetten van het gemeten gasvolume in energie. Aardgas: meestal tussen 9,0 en 12,5 kWh/m³, LPG: tussen 23,0 en 33,0 kWh/m³",
-  "counterTypeLabel": "Metertype",
-  "counterMeterId": "Meter-ID",
-  "counterName": "Meternaam",
-  "counterContractCurrentlyUsed": "Momenteel gebruikt contract",
-  "counterSelected": "Geselecteerd",
-  "counterNoContractSelected": "Geen contract geselecteerd",
-  "counterOtherContracts": "Andere contracten",
-  "counterExcludedContracts": "Uitgesloten contracten",
-  "counterInclude": "Inclusief",
-  "counterExclude": "Uitsluiten",
-  "counterTankCapacity": "Tankcapaciteit",
-  "counterTankFillHeight": "Vulhoogte",
-  "counterFactorDescription": "Wordt het verbruik alleen pro rata aan u toegerekend? Voer het aandeel in als een waarde tussen 0,1 (10%) en 1,0 (100%).",
-  "counterTransducerFactor": "Transformatorverhouding",
-  "counterProportionateConsumption": "Evenredig verbruik",
-  "counterFactor": "Factor",
-  "counterTransducerFactorExplained": "Als een spannings transformator wordt gebruikt om de spanning te verlagen voordat deze de meter bereikt, moet een nieuwe conversiefactor worden toegepast om de juiste aflezingen te verkrijgen. Voorbeeld: de meter toont 100.000 kWh met een conversiefactor van 20. De juiste aflezing is: 100.000 kWh x 20 = 2.000.000 kWh.",
-  "counterFractionDigits": "Decimale cijfers",
-  "counterDirection": "Richting",
-  "counterDirectionExplanation": "Neemt de waarde af bij gebruik (niveau-indicator etc.) of neemt de waarde toe bij gebruik (branderuren, oliemeter etc.) of is elke afleeswaarde onafhankelijk (verbruik/opbrengst)?",
-  "counterConsiderForTotalElectricity": "Meenemen voor totaal elektriciteitsverbruik",
-  "counterConsiderForTotalWater": "Houd rekening met het totale waterverbruik",
-  "counterWaterExtractionMinimumLevel": "Minimum niveau",
-  "counterBackgroundImage": "Achtergrondafbeelding voor meter",
-  "counterShowReadingsChart": "Toon aflezingengrafiek",
-  "counterShowHeatmap": "Toon heatmap",
-  "counterShowPreliminaryCurve": "Toon voorlopige curve",
-  "seasonalCounter": "Seizoensmeter",
-  "seasonalElectricityCounter": "Seizoenselektriciteitsmeter",
-  "counterExplainSeasonal": "Meterstanden op 0 zetten tijdens de zomer? In de winter volgen de aflezingen uw normale verbruikspatroon; in de zomer blijven ze vlak.",
-  "counterIsOutdated": "Meter is verouderd",
-  "counterLinkMoreRecent": "Koppel recentere meter",
-  "counterReplacedBy": "Vervangen door",
-  "counterReallyDeleteLink": "Koppeling verwijderen?",
-  "counterDeleteConfirm": "Meter verwijderen?",
-  "counterGasCalorificValueLabel": "Verwarmingswaarde*",
-  "counterGasConversionFactorLabel": "Conversiefactor*",
-  "counterNoRoomConnection": "Geen kamerverbinding",
-  "counterRoom": "Kamer",
-  "counterMessageRoomOptional": "Een kamer toewijzing helpt bij groepering maar is optioneel.",
-  "teaserPurchaseVirtualCounter": "Voeg virtuele meters toe met Premium.",
-  "teaserPurchaseWaterExtractionCounter": "Ontgrendel wateronttrekkingsmeters met Premium.",
-  "teaserPurchaseRenewableEnergies": "Hernieuwbare energiemeters vereisen Premium.",
-  "settingYearlyReset": "Jaarlijkse reset",
-  "settingYearlyResetOn": "op",
-  "settingShowCounterReadingsChart": "Toon aflezingengrafiek",
-  "settingShowHeatmap": "Toon heatmap",
-  "settingShowPreliminaryCurve": "Toon voorlopige curve",
-  "unitLiters": "liter",
-  "unitCm": "cm",
-  "unitNone": "geen",
-  "roomType": "Kamertype",
-  "roomName": "Kamernaam",
-  "roomNameHint": "Optioneel een kamernaam toewijzen",
-  "roomNew": "Nieuwe kamer",
-  "roomDeleteConfirm": "Kamer verwijderen?",
-  "settingColor": "Kleur",
-  "counterNum": "{count} meters",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "timeInFuture": "In de toekomst",
-  "timeLastUpdated": "laatst bijgewerkt",
-  "timeSeconds": "sec",
-  "timeMinutes": "minuten",
-  "timeHours": "uren",
-  "timeDays": "dagen",
-  "timeDaysWithin": "dagen",
-  "timeMonth": "maand",
-  "timeMonths": "maanden",
-  "timeMonthsWithin": "maanden",
-  "timeJustNow": "zojuist",
-  "timeMinutesAgo": "{minutes} minuten geleden",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "timeHoursAgo": "{hours} uren geleden",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "timeToday": "vandaag",
-  "timeDayAgo": "een dag geleden",
-  "timeDaysAgo": "{days} dagen geleden",
-  "@timeDaysAgo": {
+  "@ofRangeLastDays": {
     "placeholders": {
       "days": {
         "type": "int"
       }
     }
   },
-  "timeMonthsAgo": "{months} maanden geleden",
-  "@timeMonthsAgo": {
+  "@ofRangeLastMonths": {
     "placeholders": {
       "months": {
         "type": "int"
       }
     }
   },
-  "timeForFirstYear": "voor het eerste jaar",
-  "timeWeek": "week",
-  "timeWeeks": "weken",
-  "timeWithin": "Binnen {duration}",
-  "@timeWithin": {
+  "@perUnit": {
     "placeholders": {
-      "duration": {
+      "unit": {
         "type": "String"
       }
     }
   },
-  "timeYesterday": "gisteren",
-  "timeMonday": "maandag",
-  "timeTuesday": "dinsdag",
-  "timeWednesday": "woensdag",
-  "timeThursday": "donderdag",
-  "timeFriday": "vrijdag",
-  "timeSaturday": "zaterdag",
-  "timeSunday": "zondag",
-  "timeFromUndefined": "Ongedefinieerd",
-  "timeUntilUnlimited": "Onbeperkt",
-  "timeUntilDate": "Tot {date}",
-  "@timeUntilDate": {
+  "@priceComparisonDiff": {
     "placeholders": {
-      "date": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
         "type": "String"
       }
     }
   },
-  "timeFromDate": "Van {date}",
-  "@timeFromDate": {
+  "@priceComparisonEqual": {
     "placeholders": {
-      "date": {
+      "countryName": {
         "type": "String"
       }
     }
   },
-  "timeReminderAtStart": "Bij start",
-  "timeReminderAtEnd": "Bij einde",
-  "timePeriodYearStart": "jaarlijks",
-  "timeRightNow": "Nu",
-  "timeBefore": "Voor",
-  "purchasesUpgrade": "Upgraden",
-  "upgradeDescription": "De app kan meer. Beter kostenoverzicht, meer statistieken, Excel-export, meer meters, ...",
-  "purchasesWhyBuyTitle": "Waarom zou ik iets kopen?",
-  "purchasesWhyBuyText": "Met een aankoop draagt u bij aan de kosten die ik maak door de app te publiceren en ondersteunt u de verdere ontwikkeling.",
-  "purchasesIOSRestorePurchases": "Aankopen herstellen",
-  "purchasesIOSRestorePurchasesDescription": "Als u in het verleden al iets in de App Store heeft gekocht, kunt u de aankopen herstellen.",
-  "purchasesDisabledOnIOS": "In-app aankopen uitgeschakeld",
-  "purchasesDisabledOnIOSDescription": "Controleer of in-app aankopen zijn uitgeschakeld op uw iPhone (Instellingen > Schermtijd > Beperkingen > App-installaties & aankopen > Sta in-app aankopen toe)",
-  "purchasesDisabledOnIOSDescriptionTestflight": "De app is geïnstalleerd via Testflight. Houd er rekening mee dat aankopen alleen werken in de app als u de app via de App Store installeert.",
-  "purchasesSubscribePremium": "Abonneer Premium",
-  "purchasesSubscribePremiumTextLong": "Toegang tot alle betaalde functies gedurende de abonnementsperiode + buitentemperaturen",
-  "purchasesWebLegalNote": "Om juridische redenen is een aankoop alleen mogelijk voor een iPhone of Android-telefoon met PlayStore-diensten.",
-  "purchasesYourPurchases": "U heeft toegang tot de volgende premiumpakketten:",
-  "purchasesExtensionsTitle": "Enkele uitbreidingen",
-  "purchasesExtensionsSubtitle": "Eenmalig kopen, permanent gebruiken (geen abonnement)",
-  "purchasesExtensionStatisticsTitle": "Geavanceerde statistieken",
-  "purchasesExtensionMultipleObjectsTitlePart": "Beheren van meerdere objecten",
-  "purchasesExtensionMultipleObjectsDescription": "Voer meterstanden in voor zoveel appartementen/huizen/objecten als u wilt (in plaats van slechts voor één object)",
-  "purchasesExtensionsInWork": "Verdere uitbreidingen zijn gepland. Neem deel aan de functie-enquête om uw zegje te doen.",
-  "purchasesSubscribeNow": "Abonneer je nu",
-  "purchasesBuyNow": "Nu kopen",
-  "purchasesRedeemCode": "Code inwisselen",
-  "purchasesEarlyBirdSubscription": "Opmerking: Als dit eerste klantabonnement wordt geannuleerd, kan het daarna niet opnieuw worden geabonneerd.",
-  "purchasesPurchasedIncludedInPremium": "Inbegrepen in Premium",
-  "purchasesPurchasedSubscribed": "Geabonneerd",
-  "purchasesPurchased": "Gekocht",
-  "purchasesExtensionStatisticsDescription": "Toegang tot jaarlijks/maandelijks/wekelijks verbruik van elektriciteit/gas/water/... + periodeaanpassingen + gedetailleerd kostenoverzicht + Excel-export",
-  "commonAnd": "En",
-  "purchasesSubscribePremiumMonthly": "Maandelijks opzegbaar abonnement voor slechts {price} per maand",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "@purchasesSubscribePremiumMonthly": {
     "placeholders": {
       "price": {
@@ -1469,7 +498,6 @@
       }
     }
   },
-  "purchasesSubscribePremiumMonthlyWithNewPrice": "Maandelijks opzegbaar abonnement tegen de loyaliteitsprijs van {price} per maand in plaats van {priceNew}",
   "@purchasesSubscribePremiumMonthlyWithNewPrice": {
     "placeholders": {
       "price": {
@@ -1480,7 +508,6 @@
       }
     }
   },
-  "purchasesSubscribePremiumYearly": "Jaarlijks opzegbaar abonnement voor slechts {price} per jaar",
   "@purchasesSubscribePremiumYearly": {
     "placeholders": {
       "price": {
@@ -1488,7 +515,6 @@
       }
     }
   },
-  "purchasesSubscribePremiumYearlyWithNewPrice": "Jaarlijks opzegbaar abonnement tegen de loyaliteitsprijs van {price} per jaar in plaats van {priceNew}",
   "@purchasesSubscribePremiumYearlyWithNewPrice": {
     "placeholders": {
       "price": {
@@ -1499,187 +525,28 @@
       }
     }
   },
-  "purchasesStatisticsWithPremium": "Met Premium krijgt u toegang tot een maandelijkse vergelijking{count, plural, =0{.}=1{.}other{ en ziet u ook historische gegevens voor {years}.}}",
-  "@purchasesStatisticsWithPremium": {
+  "@readingReminder": {
     "placeholders": {
-      "years": {
-        "type": "String"
-      },
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderMultiBody": {
+    "placeholders": {
       "count": {
         "type": "int"
       }
     }
   },
-  "smartMeterProviderTibber": "Tibber",
-  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
-  "smartMeterProviderUndefined": "Niet ingesteld",
-  "sync": "Synchroniseren",
-  "costsUndefinedForType": "{type} voor ongedefinieerd",
-  "costsUndefinedElectricity": "Elektriciteitskosten",
-  "costsUndefinedColdWater": "Koudwaterkosten",
-  "costsUndefinedWarmWater": "Warmwaterkosten",
-  "costsUndefinedHeater": "Verwarmingskosten",
-  "costsUndefinedOilHeating": "Oliekosten",
-  "costsUndefinedGas": "Gaskosten",
-  "costsUndefinedNetworkCounter": "Internetkosten",
-  "updateAvailable": "De app-versie {oldVersion} is niet up-to-date. U kunt updaten naar versie {newVersion}.",
-  "@updateAvailable": {
+  "@readingReminderSingleBody": {
     "placeholders": {
-      "oldVersion": {
-        "type": "String"
-      },
-      "newVersion": {
+      "counterName": {
         "type": "String"
       }
     }
   },
-  "versionIsUpToDate": "De nieuwste app-versie die voor alle gebruikers is uitgebracht, is {version}.",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "messageNoCounters": "U heeft nog geen meter aangemaakt.",
-  "messageNoCounterReadings": "U heeft nog geen meterstand ingevoerd.",
-  "parsingObjectError": "Het object kan niet worden geparseerd. Neem contact op met de ontwikkelaar. Bij het verwijderen van de app kunnen de gegevens verloren gaan.",
-  "reallyDeleteCounter": "Weet u zeker dat u de meter wilt verwijderen?",
-  "reallyDeletePhoto": "Weet u zeker dat u de foto van de meterstand wilt verwijderen?",
-  "reallyDeleteCounterLink": "Weet u zeker dat u de koppeling tussen de meters wilt verwijderen?",
-  "virtualCounterNotConfigured": "Controleer de instellingen van uw virtuele meter. Er kan niets worden berekend.",
-  "virtualCounterMasterCounter": "Hoofdmeter",
-  "virtualCounterMasterCounterAttach": "Hoofdmeter selecteren",
-  "virtualCounterMasterCounterDescription": "Info: De hoofdmeter vormt de basis voor de berekening van de virtuele meter, bijv. de hoofdelektriciteitsmeter of de hoofdwaterteller.",
-  "virtualCounterMetersToBeSubtracted": "Meters die moeten worden afgetrokken",
-  "virtualCounterMetersToBeSubtractedDescription": "Welke meterstanden moeten worden afgetrokken van de hoofdmeter, bijv. \"warmtepompmeter\", \"elektriciteit teruglevermeter\".",
-  "virtualCounterMetersToBeAdded": "Meters die moeten worden toegevoegd",
-  "virtualCounterMetersToBeAddedDescription": "Welke meterstanden moeten worden toegevoegd aan de hoofdmeter, bijv. elektriciteitsopwekkingsmeters.",
-  "areYouSure": "Weet u het zeker?",
-  "addNewValue": "Voer nieuwe waarde in",
-  "reallyDeleteValue": "Wilt u deze waarde echt verwijderen?",
-  "warning": "Waarschuwing",
-  "messageNotEnoughData": "Niet genoeg gegevens om de grafiek weer te geven",
-  "messageNoConsumptions": "Statistieken voor alle meters van een type verschijnen hier als er genoeg aflezingen zijn gedaan. Bijvoorbeeld: twee koudwatermeters, twee warmwatermeters en één wateronttrekkingsmeter worden weergegeven in één waterstatistiek.",
-  "lastReading": "laatste aflezing",
-  "chartDottedLinesNonSeasonal": "De gestippelde curves vertegenwoordigen de vorige periode. Voor de selectie \"Laatste 14 dagen\" verschijnen bijvoorbeeld de laatste 28 dagen, waarbij de oudere 14 ervan gestippeld worden weergegeven.",
-  "chartDottedLinesSeasonal": "De gestippelde curves vertegenwoordigen de vorige periode. Voor de selectie \"Laatste 14 dagen\" verschijnen bijvoorbeeld de laatste 28 dagen, waarbij de oudere 14 ervan gestippeld worden weergegeven.",
-  "chartHorizontalLines": "De gestippelde lijnen zijn bedoeld om feedback te geven over uw eigen verbruik.",
-  "chartHorizontalLineWater": "Gemiddeld gebruikt elke persoon in Duitsland 127 liter drinkwater in het huishouden per dag. De blauwe lijn vertegenwoordigt koud water (60%), de rode lijn warm water (40%), geëxtrapoleerd naar het aantal dagen in de periode en het aantal personen.",
-  "chartHorizontalLineElectricityGas": "De groene lijn staat voor een zeer goed verbruik, de gele lijn voor een goed verbruik, de rode lijn voor het Duitse gemiddelde verbruik.",
-  "per": "per",
-  "costSummary": "Kostenoverzicht",
-  "costSummaryYield": "Vergoedingsprijs/-basisprijs",
-  "soFar": "tot nu toe",
-  "forX": "voor",
-  "corresponds": "komt overeen",
-  "warningCounterReplacementDetected": "De nieuwe waarde is lager dan de vorige meterstand. Is de meter vervangen?",
-  "warningYearlyReset": "Nulmeting aan het begin van het jaar",
-  "warningReadingSmallerThanOldValue2": "De nieuwe waarde is lager dan de vorige meterstand. Is de meting correct uitgevoerd?",
-  "warningReadingBiggerThanOldValueOilVolume": "De nieuwe waarde is hoger dan de vorige meterstand. Heeft u de tank bijgevuld?",
-  "warningReadingSeemsTooBig": "De nieuwe waarde is vrij hoog. Is de meting correct uitgevoerd?",
-  "warningReadingSeemsTooSmall": "De nieuwe waarde is vrij laag. Is deze correct afgelezen?",
-  "meterReadingsFilterAll": "Alles tonen",
-  "meterReadingsFilterComments": "Toon alleen vermeldingen met opmerkingen",
-  "meterReadingsFilterSubmitted": "Toon alleen \"{state}\"",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "isLastEntryAtFilteredList": "Oudste waarde in gefilterde lijst",
-  "initialReading": "Eerste aflezing",
-  "warningReadingBiggerThanOldValue": "De nieuwe waarde is hoger dan de vorige meterstand.{isOilCounter, select, true { Heeft u de tank bijgevuld?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedForYearlyResetCounter": "De laatste meterstand voor het jaar {lastYear} voor de {deviceTypeName} {roomNamePart} ontbreekt. Dit is nodig voor een correcte berekening van het totale jaarlijkse verbruik.",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "lastYear": {
-        "type": "String"
-      },
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "De laatste meterstand voor de {deviceTypeName} {roomNamePart} is verouderd {outdatedSinceText}.{whenNotifyDateText}",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "valueLess": "{value} minder",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "valueMore": "{value} meer",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonNotEnoughData": "Nog niet genoeg vergelijkingsgegevens voor de locatie {countryName} ({countryCode}).",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      },
-      "countryCode": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonEqual": "U betaalt ongeveer evenveel als het gemiddelde in {countryName}.",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonDiff": "U betaalt {diffWithCurrency} {comparison, select, more {meer dan} less {minder dan} other {meer dan}} het gemiddelde in {countryName}.",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "diffWithCurrency": {
-        "type": "String"
-      },
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "roomNamePart": "in de {roomName} ",
   "@roomNamePart": {
     "placeholders": {
       "roomName": {
@@ -1687,15 +554,194 @@
       }
     }
   },
-  "warningOutdatedSinceText": "sinds {date}",
-  "@warningOutdatedSinceText": {
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeFromDate": {
     "placeholders": {
       "date": {
         "type": "String"
       }
     }
   },
-  "warningNextReminderText": "De volgende herinnering is {date}.",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "@warningNextReminderText": {
     "placeholders": {
       "date": {
@@ -1703,13 +749,967 @@
       }
     }
   },
-  "counterConsiderForTotalConsumptions": "Houd rekening met het totale verbruik",
-  "consumptionYearlyDetailedElectricity": "Uw elektriciteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
-  "consumptionYearlyDetailedGas": "Uw gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "accountAbout": "Wat kan het EHW+-gebruikersaccount doen?",
+  "accountBenefit1": "Betrouwbaardere aankoopherkenning",
+  "accountBenefit2": "Toegang tot alle gekochte uitbreidingen op meerdere apparaten",
+  "accountButtonSetup": "EHW+-gebruikersaccount instellen",
+  "accountFaqA1": "Het EHW+-gebruikersaccount biedt een alternatieve methode voor het herstellen van aankopen wanneer herstellen via de App Store niet mogelijk is, wat de betrouwbaarheid verhoogt. Bovendien maakt het het mogelijk om aankopen te herstellen op een apparaat waar de aankoop oorspronkelijk niet heeft plaatsgevonden. In de toekomst zal het ook mogelijk zijn om instellingen en meer op te slaan.",
+  "accountFaqA2": "Ja, aankopen kunnen nog steeds worden hersteld op een Android-apparaat via de Play Store of op een iPhone via de App Store. Het EHW+-gebruikersaccount biedt een alternatieve methode voor het herstellen van aankopen wanneer herstellen via de App Store niet mogelijk is, wat de betrouwbaarheid verhoogt. Bovendien maakt het het mogelijk om aankopen te herstellen op een apparaat waar de aankoop oorspronkelijk niet heeft plaatsgevonden.",
+  "accountFaqQ1": "Wat is het EHW+-gebruikersaccount?",
+  "accountFaqQ2": "Heb ik nog steeds toegang tot mijn aankopen zonder een EHW+-gebruikersaccount?",
+  "accountFaqTitle": "Veelgestelde vragen:",
+  "accountThankYouForPurchase": "Bedankt! Wilt u de aankoop nu beveiligen in uw EHW+-gebruikersaccount?",
+  "accountUpdateInfo": "Nieuw: Het EHW+-gebruikersaccount",
+  "activitiesDescription": "Koppel meterstanden aan activiteiten, bijvoorbeeld wassen met koudwatermeters en elektriciteitsmeters.",
+  "activitiesTitle": "Mijn activiteiten",
+  "activityBath": "Bad",
+  "activityDishWasher": "Afwasmachine",
+  "activityIron": "Strijken",
+  "activityNameLabel": "Activiteitsnaam",
+  "activityOverview": "Activiteitsoverzicht",
+  "activitySettings": "Activiteitsinstellingen",
+  "activityShower": "Douche",
+  "activityTitle": "Activiteit",
+  "activityWash": "Wassen",
+  "activityWashDuration": "Duur",
+  "activityWashDuration2hrs": "2u",
+  "activityWashRotations": "Toeren",
+  "activityWashShort": "Kort programma",
+  "activityWashTemperature": "Temperatuur",
+  "activityWithEnergyConsumption": "Stroomverbruik wordt alleen gemeten voor activiteit",
+  "addActivity": "Activiteit toevoegen",
+  "addDetail": "Detail toevoegen",
+  "addNewValue": "Voer nieuwe waarde in",
+  "advancePayment": "Voorschot",
+  "appBarExpandedMode": "App-balk met achtergrondafbeelding",
+  "appDescriptionLong": "<p>Welkom bij <b>EHW+</b>, uw meterstand-app voor <b>E</b>lektriciteit, <b>V</b>erwarming en <b>W</b>ater. Met ons kunt u eenvoudig bijhouden hoeveel u verbruikt en wat het kost, gratis.</p>",
+  "appDescriptionShort": "Goed voor de portemonnee, goed voor het klimaat",
+  "appName": "EHW+ | Verbruik & meterstanden",
+  "appNameShort": "EHW+",
+  "areYouSure": "Weet u het zeker?",
+  "basePrice": "Basisprijs",
+  "bonus": "Bonus",
+  "bonusInfoText": "Tarieven met bonus maken vaak bijzonder hoge besparingen mogelijk bij het wisselen van leverancier. Dit komt echter meestal uitsluitend door de eenmalige bonus. Dat betekent: De totale kosten zijn alleen in het eerste leveringsjaar zo laag. Hoge werk- en/of basisprijzen zorgen in het tweede jaar voor een duidelijk hogere berekening. Daarom moet u bij bonustarieven vanaf het begin plannen om na een jaar opnieuw te wisselen. Bonustarieven met een looptijd van twee jaar, waarbij deze opzegging helemaal niet mogelijk is, moeten bijzonder kritisch worden beoordeeld.",
+  "bonusInfoTitle": "Informatie over bonustarieven",
+  "cancellationPeriod": "Opzegtermijn",
+  "changeCounterOrder": "Indien nodig kunt u de volgorde wijzigen",
+  "chartDottedLinesNonSeasonal": "De gestippelde curves vertegenwoordigen de vorige periode. Voor de selectie \"Laatste 14 dagen\" verschijnen bijvoorbeeld de laatste 28 dagen, waarbij de oudere 14 ervan gestippeld worden weergegeven.",
+  "chartDottedLinesSeasonal": "De gestippelde curves vertegenwoordigen de vorige periode. Voor de selectie \"Laatste 14 dagen\" verschijnen bijvoorbeeld de laatste 28 dagen, waarbij de oudere 14 ervan gestippeld worden weergegeven.",
+  "chartHorizontalLineElectricityGas": "De groene lijn staat voor een zeer goed verbruik, de gele lijn voor een goed verbruik, de rode lijn voor het Duitse gemiddelde verbruik.",
+  "chartHorizontalLineWater": "Gemiddeld gebruikt elke persoon in Duitsland 127 liter drinkwater in het huishouden per dag. De blauwe lijn vertegenwoordigt koud water (60%), de rode lijn warm water (40%), geëxtrapoleerd naar het aantal dagen in de periode en het aantal personen.",
+  "chartHorizontalLines": "De gestippelde lijnen zijn bedoeld om feedback te geven over uw eigen verbruik.",
+  "chooseActivity": "Kies activiteit",
+  "chooseActivityIcon": "Kies een pictogram",
+  "coldWater": "Koud water",
+  "cometConsentScreenAcceptButton": "Ik wil feedback geven",
+  "cometConsentScreenDataCanBeUsedForTraining": "Gegevens kunnen worden gebruikt om toekomstige voorspellingen te optimaliseren",
+  "cometConsentScreenDeclineButton": "Ik wil geen feedback geven",
+  "cometConsentScreenFeedbackDescription": "Het gebruik van de voorspelling is gratis, maar het onderzoeksteam heeft feedback nodig over hoe goed de service werkt.",
+  "cometConsentScreenFeedbackMethod": "Feedback wordt automatisch verstrekt wanneer u de voorspellingsservice gebruikt en akkoord gaat met optimalisatie.",
+  "cometConsentScreenFeedbackTitle": "Goethe Universiteit heeft uw feedback nodig:",
+  "cometConsentScreenHeader": "Nieuw: Betere verbruiksvoorspellingen",
+  "cometConsentScreenHowItWorksTitle": "Hoe werkt het?",
+  "cometConsentScreenOfflineDescription": "Een vereenvoudigde lokale voorspelling wordt berekend op uw apparaat.",
+  "cometConsentScreenOfflineDescriptionTitle": "Zonder internetverbinding:",
+  "cometConsentScreenOnlineDescription": "Uw verbruiksgegevens worden verzonden naar de Goethe Universiteit Frankfurt, waar een individuele voorspelling wordt gemaakt en weergegeven in de app.",
+  "cometConsentScreenOnlineDescriptionTitle": "Met internetverbinding:",
+  "cometConsentScreenToggleLabel": "Gebruik voorspellingsservice",
+  "cometSettingsIsPredictionsApiEnabled": "Gebruik de COMET Forecast API van het Goethe Instituut",
+  "comment": "Notitie",
+  "commonAnd": "En",
+  "commonBack": "Terug",
+  "commonCancel": "Annuleren",
+  "commonChange": "Wijzigen",
+  "commonChangeSaved": "Wijziging opgeslagen",
+  "commonClose": "Sluiten",
+  "commonCollapse": "Inklappen",
+  "commonContinue": "Doorgaan",
+  "commonCopiedToClipboard": "Gekopieerd naar klembord",
+  "commonDay": "dag",
+  "commonDelete": "Verwijderen",
+  "commonLearnMore": "Meer informatie",
+  "commonLoadingData": "Gegevens laden",
+  "commonLoggingIn": "U wordt ingelogd...",
+  "commonLoggingOut": "U wordt uitgelogd...",
+  "commonLogin": "Inloggen",
+  "commonLogout": "Uitloggen",
+  "commonMaximum": "Hoogste dagwaarde",
+  "commonMinimum": "Laagste dagwaarde",
+  "commonMonth": "maand",
+  "commonMore": "Meer",
+  "commonNo": "nee",
+  "commonNotAuthenticated": "U bent niet geauthenticeerd.",
+  "commonOk": "OK",
+  "commonOpen": "Openen",
+  "commonSave": "Opslaan",
+  "commonSend": "Verzenden",
+  "commonShare": "Delen",
+  "commonUpdateNow": "Nu bijwerken",
+  "commonUserLogin": "Gebruikerslogin",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "U gebruikt het EHW+-account. {notSubmitted} van {total} gekochte producten konden niet worden opgeslagen op de EHW+-server. We hopen het probleem snel op te lossen.",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Eén aankoop is gesynchroniseerd via het EHW+-account.} other {{count} aankopen zijn gesynchroniseerd via het EHW+-account.}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {U gebruikt het EHW+-account. Als u in de toekomst producten koopt, worden deze gesynchroniseerd op al uw apparaten.} one {U gebruikt het EHW+-account. {count} gekocht product is opgeslagen op de EHW+-server.} other {U gebruikt het EHW+-account. {count} gekochte producten zijn opgeslagen op de EHW+-server.}}",
+  "commonUserLoginDescriptionNotLoggedIn": "Gebruikt u de app op meerdere apparaten? Inloggen op uw EHW+-account stelt u in staat om uw instellingen en gekochte producten op al uw apparaten te synchroniseren.",
+  "commonYear": "jaar",
+  "commonYes": "ja",
+  "completeButton": "Voltooien",
+  "confirmDeleteAtCloud": "Moet \"{objectTitle}\" ook worden verwijderd van Google Drive?",
+  "consent11AnalyticsTitle": "Analysedata",
+  "consent12Analytics": "Om het succes van de app of individuele functies te evalueren, verzendt de app geanonimiseerde gebruiksstatistieken. De gegevens worden niet aan derden doorgegeven. De gegevens worden gebruikt voor de verdere ontwikkeling van de app.",
+  "consent13StromGedacht": "StromGedacht, een dienst van TransnetBW, biedt informatie over netstabiliteit en aanbevelingen over wanneer elektriciteit bij voorkeur moet worden gebruikt. Omdat de energietransitie steeds uitdagender wordt voor het transmissienet, worden huishoudens in Zuidwest-Duitsland betrokken. Om informatie voor uw locatie te ontvangen, wordt uw postcode, indien hier in de app ingevoerd, overgedragen aan de TransnetBW StromGedacht API. Geen andere gegevens worden overgedragen of gekoppeld.",
+  "consent13StromGedachtTitle": "Netstabiliteitsmeldingen van StromGedacht",
+  "consent1Hello": "Hallo",
+  "consent2ThankYou": "Bedankt voor het gebruik van EHW+!",
+  "consent3Video": "Wilt u een korte introductievideo bekijken?",
+  "consent4BeforeYouCanContinue": "Voordat u kunt doorgaan",
+  "consent5ErrorReportingTitle": "Foutrapporten",
+  "consent6ContractPricesPerUnitTitle": "Elektriciteit / water / gas prijzen",
+  "consent7ContractPricesPerUnit": "Om te kunnen inschatten hoeveel u momenteel betaalt in vergelijking met andere EHW+-gebruikers, worden de prijzen samen met het land en de staat overgedragen naar de EHW+-server in Duitsland. Alleen als u akkoord gaat met de overdracht, heeft u toegang tot de prijsstatistieken. Om anonimiteit te waarborgen, kunnen statistieken alleen worden getoond na een minimum aantal overgedragen prijzen.",
+  "consentTitle": "Privacy-instellingen",
+  "consumption": "Verbruik",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Wissen & synchroniseren",
+  "consumptionCacheManagementClearCacheButton": "Cache wissen",
+  "consumptionCacheManagementClearedSuccessfully": "Cache succesvol gewist",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "Alle gecachte gegevens worden verwijderd en opnieuw gedownload van de server. Dit kan enige tijd duren.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Cache wissen & synchroniseren?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "Alle gecachte verbruiksgegevens worden permanent verwijderd. U kunt het later synchroniseren.",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Cache wissen?",
+  "consumptionHeatmap": "Verbruik Heatmap",
+  "consumptionHeatmapYield": "Opbrengst Heatmap",
+  "consumptionHeatpump": "Daarnaast bedraagt het stroomverbruik van de warmtepomp {formattedValue} kWh.",
+  "consumptionIsNotExclusive": "Als het verbruik niet exclusief is voor deze activiteit, wordt dit als waarschuwing weergegeven.",
+  "consumptionIsNotExclusiveTitle": "Is verbruik exclusief?",
+  "consumptionPersonLabel": "{count, plural, one {persoon} other {personen}}",
+  "consumptionWaterColdEqual": "Koud water: ongeveer hetzelfde als het gemiddelde huishouden.",
+  "consumptionWaterColdLess": "Koud water: {percentage} minder dan het gemiddelde huishouden.",
+  "consumptionWaterColdMore": "Koud water: {percentage} meer dan het gemiddelde huishouden.",
+  "consumptionWaterDailyMonthly": "ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per persoon verbruikt iedereen ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "consumptionWaterDailyMonthlySingle": "U verbruikt ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "consumptionWaterOverallEqual": "Uw waterverbruik {ofRange} komt overeen met dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "consumptionWaterOverallLess": "Uw waterverbruik {ofRange} is {percentage} lager dan dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "consumptionWaterOverallMore": "Uw waterverbruik {ofRange} is {percentage} hoger dan dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "consumptionWaterPrefixPerPerson": "Per persoon verbruikt iedereen ",
+  "consumptionWaterPrefixSingle": "U verbruikt ",
+  "consumptionWaterRangeUnknown": "Uw waterverbruik {ofRange} ...",
+  "consumptionWaterWarmEqual": "Warm water: ongeveer hetzelfde als het gemiddelde huishouden.",
+  "consumptionWaterWarmLess": "Warm water: {percentage} minder dan het gemiddelde huishouden.",
+  "consumptionWaterWarmMore": "Warm water: {percentage} meer dan het gemiddelde huishouden.",
+  "consumptionYearly": "Uw elektriciteitsverbruik {ofRange} is {consumption} kWh voor het jaar.",
+  "consumptionYearlyDetailedAboutSame": "ongeveer hetzelfde als",
+  "consumptionYearlyDetailedAverageHousehold": " een gemiddeld huishouden met {householdSize} {personLabel}",
+  "consumptionYearlyDetailedComparisonEqual": "U verbruikt{verbSuffix} ongeveer hetzelfde als een gemiddeld huishouden met {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "U verbruikt{verbSuffix} {percentage} minder dan een gemiddeld huishouden met {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "U verbruikt{verbSuffix} {percentage} meer dan een gemiddeld huishouden met {householdSize} {personLabel}.",
-  "consumptionYearlyDetailedComparisonEqual": "U verbruikt{verbSuffix} ongeveer hetzelfde als een gemiddeld huishouden met {householdSize} {personLabel}.",
-  "consumptionWaterDailyMonthlySingle": "U verbruikt ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
-  "consumptionWaterDailyMonthlyPerPerson": "Per persoon verbruikt iedereen ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
-  "consumptionYearlyDetailedLevel2": "is normaal."
+  "consumptionYearlyDetailedElectricity": "Uw elektriciteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
+  "consumptionYearlyDetailedElectricityIntro": "Uw elektriciteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) ",
+  "consumptionYearlyDetailedGas": "Uw gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
+  "consumptionYearlyDetailedGasIntro": "Uw gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) ",
+  "consumptionYearlyDetailedLessThan": "{percentage} minder dan",
+  "consumptionYearlyDetailedLevel0": "is super laag.",
+  "consumptionYearlyDetailedLevel1": "is echt indrukwekkend.",
+  "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} kWh/maand ontbreekt voor optimaal verbruik.",
+  "consumptionYearlyDetailedLevel2": "is normaal.",
+  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} kWh/maand ontbreekt voor goed verbruik.",
+  "consumptionYearlyDetailedLevel3": "is relatief hoog.",
+  "consumptionYearlyDetailedLevel4": "is normaal.",
+  "consumptionYearlyDetailedMoreThan": "{percentage} meer dan",
+  "consumptionYearlyDetailedOptimalEnding": "Hoe doet u dat?",
+  "consumptionYearlyDetailedYouConsume": "U verbruikt{verbSuffix} ",
+  "consumptionYield": "Opbrengst",
+  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nContact\n\nTelefoon: 06204/7383382\nE-mail: info@ehwplus.com",
+  "contactTitle": "Vertegenwoordigd door:",
+  "continueAcceptPart1": "Door de EHW+-app te gebruiken, gaat u akkoord met de ",
+  "continueAcceptPart2": ". Voor meer informatie over het verzamelen en gebruiken van geanonimiseerde en persoonlijke gegevens, verwijzen wij u naar de ",
+  "contract": "Contract",
+  "contractCopyDialogOptionNo": "Nee, annuleren.",
+  "contractCopyDialogOptionYes": "Ja, de eenheidsprijs of een andere waarde is veranderd.",
+  "contractCopyDialogTitle": "Wilt u een kopie maken van dit contract?",
+  "contractCopyDialogWhen": "Vanaf wanneer geldt de nieuwe prijs?",
+  "contractCosts": "Eenheidsprijs",
+  "contractCostsFeedIn": "Vergoedingsprijs/basisprijs",
+  "contractDetails": "Contractduur en details",
+  "contractName": "Leverancier/contractnaam",
+  "contractNumber": "Contractnummer",
+  "contractPeriod": "Contractperiode",
+  "contractReminder": "Contractherinnering",
+  "contractStart": "Contractstartdatum",
+  "contractType": "Contracttype",
+  "contractTypeElectricityProvider": "Elektriciteitsleverancier",
+  "contractTypeGasProvider": "Gasleverancier",
+  "contractTypeHeatingFees": "Verwarmingskosten",
+  "contractTypeNetwork": "Internet & telefoon",
+  "contractTypeOilProvider": "Olieleverancier",
+  "contractTypeStove": "Kachel",
+  "contractTypeWaterFees": "Waterkosten",
+  "contracts": "Contracten",
+  "corresponds": "komt overeen",
+  "costSummary": "Kostenoverzicht",
+  "costSummaryYield": "Vergoedingsprijs/-basisprijs",
+  "costs": "Kosten",
+  "costsUndefinedColdWater": "Koudwaterkosten",
+  "costsUndefinedElectricity": "Elektriciteitskosten",
+  "costsUndefinedFor": "Kosten ongedefinieerd",
+  "costsUndefinedForType": "{type} voor ongedefinieerd",
+  "costsUndefinedGas": "Gaskosten",
+  "costsUndefinedHeater": "Verwarmingskosten",
+  "costsUndefinedNetworkCounter": "Internetkosten",
+  "costsUndefinedOilHeating": "Oliekosten",
+  "costsUndefinedWarmWater": "Warmwaterkosten",
+  "counter": "Meter",
+  "counterBackgroundImage": "Achtergrondafbeelding voor meter",
+  "counterBackgroundImageOfObject": "Achtergrondafbeelding voor object",
+  "counterColdWater": "Koudwatermeter",
+  "counterConsiderForTotalConsumptions": "Houd rekening met het totale verbruik",
+  "counterConsiderForTotalElectricity": "Meenemen voor totaal elektriciteitsverbruik",
+  "counterConsiderForTotalWater": "Houd rekening met het totale waterverbruik",
+  "counterContractCurrentlyUsed": "Momenteel gebruikt contract",
+  "counterDeleteConfirm": "Meter verwijderen?",
+  "counterDirection": "Richting",
+  "counterDirectionAscending": "oplopend",
+  "counterDirectionDescending": "aflopend",
+  "counterDirectionExplanation": "Neemt de waarde af bij gebruik (niveau-indicator etc.) of neemt de waarde toe bij gebruik (branderuren, oliemeter etc.) of is elke afleeswaarde onafhankelijk (verbruik/opbrengst)?",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "counterDistrictHeating": "Stadsverwarming",
+  "counterEdit": "Meter bewerken",
+  "counterElectricity": "Elektriciteitsmeter",
+  "counterElectricityBack": "Elektriciteits terugleveringsmeter (PV)",
+  "counterElectricityGenerated": "Elektriciteitsopwekmeter",
+  "counterExclude": "Uitsluiten",
+  "counterExcludedContracts": "Uitgesloten contracten",
+  "counterExplainSeasonal": "Meterstanden op 0 zetten tijdens de zomer? In de winter volgen de aflezingen uw normale verbruikspatroon; in de zomer blijven ze vlak.",
+  "counterFactor": "Factor",
+  "counterFactorDescription": "Wordt het verbruik alleen pro rata aan u toegerekend? Voer het aandeel in als een waarde tussen 0,1 (10%) en 1,0 (100%).",
+  "counterFractionDigits": "Decimale cijfers",
+  "counterGas": "Gasmeter",
+  "counterGasCalorificValue": "Verwarmingswaarde",
+  "counterGasCalorificValueHelpText": "Verwarmingswaarde: Dimensieloze factor voor het omzetten van het gemeten gasvolume in energie. Aardgas: meestal tussen 9,0 en 12,5 kWh/m³, LPG: tussen 23,0 en 33,0 kWh/m³",
+  "counterGasCalorificValueLabel": "Verwarmingswaarde*",
+  "counterGasConversionFactor": "Conversiefactor",
+  "counterGasConversionFactorHelpText": "Ca 1.0. Het conditiegetal wordt gebruikt om het bedrijfsvolume om te zetten in een standaardvolume. De bedrijfsconditie is de conditie van het gas bij de meter en is afhankelijk van de aanwezige druk (hoogte) en temperatuur.",
+  "counterGasConversionFactorLabel": "Conversiefactor*",
+  "counterHeater": "Radiatormeter",
+  "counterInclude": "Inclusief",
+  "counterIsOutdated": "Meter is verouderd",
+  "counterLinkMoreRecent": "Koppel recentere meter",
+  "counterMessageRoomOptional": "Een kamer toewijzing helpt bij groepering maar is optioneel.",
+  "counterMeterId": "Meter-ID",
+  "counterName": "Meternaam",
+  "counterNew": "Nieuwe meter",
+  "counterNoContractSelected": "Geen contract geselecteerd",
+  "counterNoRoomConnection": "Geen kamerverbinding",
+  "counterNum": "{count} meters",
+  "counterOilHeating": "Olieverwarming",
+  "counterOtherContracts": "Andere contracten",
+  "counterOutdatedAndNextReminder": "Meterstand verouderd sinds {date}, volgende aflezing herinnering {date2}.",
+  "counterProportionateConsumption": "Evenredig verbruik",
+  "counterPvFeedInCounter": "Hernieuwbare energie (zonne-energie en warmte met PV/zonnesystemen)",
+  "counterPvFeedInCounterExplanation": "\nGebruik een elektriciteits terugleveringsmeter om de opgewekte en teruggeleverde elektriciteit\nmet een fotovoltaïsch systeem vast te leggen. De resulterende opbrengst wordt verrekend met de kosten van\nde getrokken elektriciteit.",
+  "counterReadings": "Aflezingen",
+  "counterReallyDeleteLink": "Koppeling verwijderen?",
+  "counterReplacedBy": "Vervangen door",
+  "counterRoom": "Kamer",
+  "counterSelected": "Geselecteerd",
+  "counterShowHeatmap": "Toon heatmap",
+  "counterShowPreliminaryCurve": "Toon voorlopige curve",
+  "counterShowReadingsChart": "Toon aflezingengrafiek",
+  "counterTankCapacity": "Tankcapaciteit",
+  "counterTankFillHeight": "Vulhoogte",
+  "counterTransducerFactor": "Transformatorverhouding",
+  "counterTransducerFactorExplained": "Als een spannings transformator wordt gebruikt om de spanning te verlagen voordat deze de meter bereikt, moet een nieuwe conversiefactor worden toegepast om de juiste aflezingen te verkrijgen. Voorbeeld: de meter toont 100.000 kWh met een conversiefactor van 20. De juiste aflezing is: 100.000 kWh x 20 = 2.000.000 kWh.",
+  "counterTypeLabel": "Metertype",
+  "counterWarmWater": "Warmwatermeter",
+  "counterWarmWaterPlusColdWater": "Exclusief kosten voor zoet water en afvalwater",
+  "counterWater": "Watermeters",
+  "counterWaterExtraction": "Wateronttrekkingsmeter (tuin)",
+  "counterWaterExtractionExplanation": "Met een aftrekmeter kunnen de afvalwaterkosten worden verlaagd. Met deze in-app aankoop kunt u verschillende kosten voor zoet water en afvalwater specificeren en de meterstand van de aftrekmeter wordt meegenomen in de waterkosten.",
+  "counterWaterExtractionMinimumLevel": "Minimum niveau",
+  "counters": "Meterstanden",
+  "createAccount": "Account aanmaken/inloggen",
+  "csvImportWithFactor": "Moeten de meterstanden worden vermenigvuldigd met een factor die niet gelijk is aan 1.0? Om bijvoorbeeld waarden van Wh naar kWh om te zetten, moeten ze worden vermenigvuldigd met 0.001.",
+  "currency": "Valuta",
+  "deleteObjectError": "Kan dit object niet verwijderen (Code {errorCode}).",
+  "detailWithMultiSelect": "Meervoudige selectie toestaan",
+  "detailsTitle": "Details",
+  "difference": "Verschil",
+  "driveSignInWithGoogle": "Inloggen met Google",
+  "driveSyncNow": "Nu synchroniseren",
+  "driveSyncStatusComparing": "Vergelijken met bestand op server",
+  "driveSyncStatusFailed": "Synchroniseren mislukt",
+  "driveSyncStatusLocalHasLatestNoCloud": "Het bestand opgeslagen op dit apparaat van {localDate} is niet opgeslagen in de cloud",
+  "driveSyncStatusLocalHasLatestWithCloud": "Het bestand opgeslagen op dit apparaat van {localDate} is actueler dan het bestand in de cloud van {cloudDate}",
+  "driveSyncStatusNotSynced": "Niet gesynchroniseerd",
+  "driveSyncStatusRemoteHasLatestNoLocal": "Het bestand in de cloud van {cloudDate} is niet opgeslagen op dit apparaat",
+  "driveSyncStatusRemoteHasLatestWithLocal": "Het bestand in de cloud van {cloudDate} is actueler dan het lokale bestand van {localDate}",
+  "driveSyncStatusSyncing": "Synchroniseren in uitvoering",
+  "driveSyncStatusTitle": "Synchronisatiestatus",
+  "driveSyncStatusUpToDate": "Bijgewerkt vanaf {localDate}",
+  "driveSyncWithGoogle": "Google Drive Synchronisatie",
+  "editDetailTitle": "Detail bewerken",
+  "electricity": "Elektriciteit",
+  "electricityBack": "Elektriciteit teruggeleverd",
+  "electricityConsumption": "Stroomverbruik",
+  "electricityGenerated": "Opgewekte elektriciteit",
+  "enterComment": "Voer een notitie in",
+  "enterExistingReadingAgain": "Voer oude aflezing opnieuw in",
+  "enterObjectName": "Geef het nieuwe object een naam",
+  "errorInvalidRange": "Geen geldig bereik",
+  "errorNoInternet": "Geen netwerk",
+  "euDisputeResolution": "\n\nEU-geschillenbeslechting\n\nDe Europese Commissie biedt een platform voor online geschillenbeslechting (OS): https://ec.europa.eu/consumers/odr/.\nU kunt ons e-mailadres vinden in het impressum hierboven.\n\nConsumentengeschillenbeslechting/universele geschillenbeslechtingsinstantie\n\nWij zijn niet bereid of verplicht om deel te nemen aan geschillenbeslechtingsprocedures voor een consumentenarbitragecommissie.",
+  "existingPhoto": "Voeg bestaande foto toe",
+  "existingPhotoOfMeterReading": "Wilt u een bestaande foto van de meterstand toevoegen?",
+  "explanationManageMoreThanOneObject": "Heeft u meer dan één eigendom die u wilt beheren? Geef dan het huidige object een naam en maak vervolgens een ander object aan.",
+  "export": "Exporteren",
+  "exportExplanation": "Welk bestaand object wilt u exporteren, bijvoorbeeld om het over te dragen naar een nieuw apparaat?",
+  "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "exportOptionConsumptionsSubtitle": "Een verbruikswaarde voor elke dag sinds de eerste aflezing.",
+  "exportOptionConsumptionsTitle": "Dagelijks verbruik",
+  "exportOptionExcel": "Excel-bestand",
+  "exportOptionFileDescription": "Het object wordt gedeeld als een {fileType} bestand",
+  "exportOptionPdf": "PDF-bestand",
+  "exportOptionReadingsSubtitle": "Meestal meterstanden of verbruik met onregelmatige intervallen.",
+  "exportOptionReadingsTitle": "Aflezingwaarden",
+  "exportTabHowToExport": "Hoe wilt u de gegevens exporteren?",
+  "exportTabHowToExportOptionSaveToDownloads": "Opslaan in map {folder}",
+  "exportTabHowToExportOptionShare": "Delen met andere apps",
+  "exportTabSnackBarSaveResultMessageError": "Er is een fout opgetreden bij het opslaan van de gegevens",
+  "exportTabSnackBarSaveResultMessageSuccess": "Gegevens zijn succesvol opgeslagen als {fileName} in map {folder}",
+  "exportWhere": "In welk formaat moet het object worden geëxporteerd?",
+  "exportWhichValuesShouldBeExported": "Welke waarden moeten worden geëxporteerd?",
+  "faqAboutDeveloperBody1": "Bedankt voor uw interesse in EHW+. EHW+ is door mij, Timo Bähr, vrijgegeven in december 2020. Ik ben een fulltime app-ontwikkelaar en werk in mijn vrije tijd aan EHW+ om bij te dragen aan milieubescherming. Sinds mei 2022 houdt een tweede ontwikkelaar toezicht op mijn werk, Thomas Hesse bouwt backends voor EHW+. Sinds april 2023 behandelt Janine Sinner de talrijke klantfeedback. Sinds juli 2024 is Artem Yuzhakov toegetreden als app-ontwikkelaar.",
+  "faqAboutDeveloperBody2": "Meer dan 26% van alle CO2-uitstoot in Duitsland wordt veroorzaakt door particuliere huishoudens. Als iedereen zijn verbruik zelfs maar een beetje kan verminderen, is er veel bereikt. Heel erg bedankt voor uw bijdrage!",
+  "faqAboutDeveloperBody3": "Wij verwelkomen suggesties over hoe de app kan worden verbeterd.",
+  "faqAboutDeveloperBody4": "Ik vraag echter om uw begrip dat ik niet alle suggesties kan implementeren en dat nieuwe functies tijd kosten.",
+  "faqAboutDeveloperTitle": "Wie staat achter EHW+?",
+  "faqTitle": "FAQ",
+  "featureVoting": "Functie stemmen",
+  "featureVotingOnlyOnGerman": "De functie-enquête is niet vertaald naar andere talen.",
+  "featureVotingUnderConstruction": "De functie-enquête wordt momenteel herzien. In de toekomst is een EHW+-gebruikersaccount vereist en zal de enquête geen gebruik meer maken van servers van derden. We waarderen uw geduld.",
+  "fedIn": "Teruggeleverd",
+  "firstReadingConsumption": "Voer nu het eerste verbruik in.",
+  "firstReadingCounter": "Voer de eerste meterstand in.",
+  "firstReadingYield": "Voer nu de eerste opbrengst in.",
+  "forX": "voor",
+  "gas": "Gas",
+  "generated": "Gegenereerd",
+  "googleAnalyticsAgreement": "Ik ga akkoord met de overdracht van geanonimiseerde gegevens over het gebruik van de app aan EHW+ Services GmbH.",
+  "googleApiAgreement": "Het gebruik en de overdracht van informatie die {appNameShort} ontvangt van Google API's aan andere apps, voldoet aan het Google API Services User Data Policy, inclusief de beperkte gebruiksvereisten.",
+  "gross": "bruto",
+  "grossNetPrices": "Bruto- of nettoprijs",
+  "heatPump": "Warmtepomp",
+  "heater": "Radiator",
+  "heatmapLegendDisclaimer": "Info: Gearceerde vakken bevatten een geschatte waarde. Om het werkelijke verbruik/opbrengst te lezen, vul dan indien mogelijk de ontbrekende meterstanden in.",
+  "heatmapLegendTitle": "Meer over de heatmap",
+  "houseName": "Huisnaam",
+  "houseNameDescription": "Huisnaam, bijv. straatnaam",
+  "import": "Importeren",
+  "importConfirm": "Import bevestigen",
+  "importCounterAsCsv": "Wilt u een enkele meter importeren? Per meter wordt een CSV-bestand met twee kolommen ondersteund, één voor de tijd en één voor de meterstand.\n\nVoorbeeldgegevens:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Alleen de eerste twee kolommen werden gebruikt. De derde kolom werd genegeerd.} other {Alleen de eerste twee kolommen werden gebruikt, {columns} kolommen werden genegeerd.}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {Eén regel werd genegeerd: {lines}} other {{count} regels werden genegeerd: {lines}}}",
+  "importExplanation": "Heeft u al meterstanden gemaakt en wilt u deze invoegen?",
+  "importExport": "Back-up/Herstellen",
+  "importNewOrExistingCounter": "Toevoegen aan nieuwe of bestaande meter?",
+  "importNotPossible": "Import niet mogelijk",
+  "importPickFile": "Bestand selecteren",
+  "importSelectJson": "JSON-bestand (gemaakt met {appName})",
+  "importSelectSingleCounter": "Enkele meter (CSV-bestand)",
+  "importSuccessful": "Import succesvol",
+  "importTabErrorMessageFileWithExtensionNotSelected": "Een {extension} bestand is vereist om door te gaan met importeren.",
+  "importTheObject": "Object importeren",
+  "importWhichCounterForCsv": "Welke meter moet worden gebruikt?",
+  "imprintTitle": "Impressum",
+  "initialReading": "Eerste aflezing",
+  "involvedCounters": "Betrokken meters",
+  "isLastEntryAtFilteredList": "Oudste waarde in gefilterde lijst",
+  "isOutdatedCounter": "Meter wordt niet meer gebruikt",
+  "last12Months": "Laatste 12 maanden",
+  "last12Weeks": "Laatste 12 weken",
+  "last2Weeks": "Laatste 14 dagen",
+  "lastReading": "laatste aflezing",
+  "lastYear": "Vorig jaar",
+  "lineChartAppearanceSettings": "Lijngrafieken uiterlijk",
+  "lineChartAppearanceSettingsShowSpots": "Toon (ronde) punten op de lijnen van grafieken",
+  "localWriteSubtitle": "Moeten de objecten en foto's worden opgeslagen in de lokale \"{folder}\" map bij elke wijziging?",
+  "localWriteTitle": "Opslaan in de lokale downloadmap",
+  "manageMoreThanOneObjectStep1": "Beheer meer dan één object - Stap 1",
+  "manageMoreThanOneObjectStep2": "Beheer meer dan één object - Stap 2",
+  "marketLocationId": "Marktlocatie-ID",
+  "marketLocationIdDescription": "De marktlocatie-ID bestaat altijd uit 11 cijfers. U kunt dit meestal vinden op uw laatste elektriciteits- of gasrekening.",
+  "messageNoConsumptions": "Statistieken voor alle meters van een type verschijnen hier als er genoeg aflezingen zijn gedaan. Bijvoorbeeld: twee koudwatermeters, twee warmwatermeters en één wateronttrekkingsmeter worden weergegeven in één waterstatistiek.",
+  "messageNoContracts": "Nog geen contracten.",
+  "messageNoCounterReadings": "U heeft nog geen meterstand ingevoerd.",
+  "messageNoCounters": "U heeft nog geen meter aangemaakt.",
+  "messageNoRooms": "Nog geen kamers. Kamers helpen meters te groeperen.",
+  "messageNotEnoughData": "Niet genoeg gegevens om de grafiek weer te geven",
+  "meterCardLastUpdatedLabel": "Bijgewerkt",
+  "meterId": "Meter-ID",
+  "meterReadingSubmitted": "Overgedragen aan leverancier",
+  "meterReadingsFilterAll": "Alles tonen",
+  "meterReadingsFilterComments": "Toon alleen vermeldingen met opmerkingen",
+  "meterReadingsFilterSubmitted": "Toon alleen \"{state}\"",
+  "myObjects": "Mijn objecten",
+  "net": "netto",
+  "networkCounter": "Internet & telefoon",
+  "newCounter": "Maak een nieuwe meter",
+  "newPhoto": "Maak een nieuwe foto",
+  "newPhotoOfMeterReading": "Wilt u een foto maken van de meterstand?",
+  "newReading": "Voer de huidige aflezing in",
+  "newReadingShort": "Nieuwe aflezing",
+  "notifications": "Meldingen",
+  "notificationsEmpty": "Geen meldingen",
+  "notificationsSmartMeterAlertFallback": "U heeft een nieuwe slimme meter melding.",
+  "numCounters": "{count, plural, =0 {{count} meter} one {{count} meter} other {{count} meters}}",
+  "numMeterReadings": "{readings, plural, one {# aflezing} other {# aflezingen}}",
+  "numberOfDetails": "{count, plural, one {1 detail} other {{count} details}}",
+  "ofRangeFrom": "van {range}",
+  "ofRangeLastDays": "van de laatste {days} dagen",
+  "ofRangeLastMonths": "voor de laatste {months} maanden",
+  "oil": "Olie",
+  "outdated": "Verouderd",
+  "outdatedContracts": "Verouderde contracten",
+  "outdatedCounters": "Meters niet meer in gebruik",
+  "paidAdvancePayments": "Voorschotten",
+  "parsingObjectError": "Het object kan niet worden geparseerd. Neem contact op met de ontwikkelaar. Bij het verwijderen van de app kunnen de gegevens verloren gaan.",
+  "per": "per",
+  "perUnit": "per {unit}",
+  "period": "Periode",
+  "periodBimonthly": "tweemaandelijks",
+  "periodBiweekly": "tweewekelijks",
+  "periodCustom": "Door gebruiker gedefinieerd",
+  "periodDaily": "dagelijks",
+  "periodHalfYearly": "halfjaarlijks",
+  "periodHourly": "per uur",
+  "periodMonthly": "maandelijks",
+  "periodQuarterly": "per kwartaal",
+  "periodWeekly": "wekelijks",
+  "periodYearly": "jaarlijks",
+  "previouslyDeletedCounters": "Onlangs verwijderde meters",
+  "priceComparisonDiff": "U betaalt {diffWithCurrency} {comparison, select, more {meer dan} less {minder dan} other {meer dan}} het gemiddelde in {countryName}.",
+  "priceComparisonEqual": "U betaalt ongeveer evenveel als het gemiddelde in {countryName}.",
+  "priceComparisonNotEnoughData": "Nog niet genoeg vergelijkingsgegevens voor de locatie {countryName} ({countryCode}).",
+  "pricePerUnit": "Prijs per eenheid",
+  "pricePerUnitFeedIn": "Vergoedingsprijs",
+  "pricePerUnitFreshWater": "Kosten voor zoet water",
+  "pricePerUnitWasteWater": "Afvalwaterprijs",
+  "pricePerUnitWaterCold": "Kosten voor koud water",
+  "pricePerUnitWaterWarm": "Kosten voor warmwaterverwarming",
+  "priceSubmissionAgreement": "Ik ga akkoord met de overdracht van elektriciteit/gas/water prijzen per eenheid naar een EHW+-server",
+  "privacyBlock1Text": "De ontwikkelaar/aanbieder van de applicatie (hierna te noemen \"app\") is, in overeenstemming met Sectie 5 van de Duitse Telemediawet (TMG):\n\n{contact}",
+  "privacyBlock1Text2": "Gebruik van de app vereist dat u akkoord gaat met de volgende gebruiksvoorwaarden. Lees deze zorgvuldig door.",
+  "privacyBlock1Title": "Ontwikkelaar",
+  "privacyBlock2Text": "De bescherming van uw gegevens is erg belangrijk voor ons. Dit privacybeleid legt uit welke persoonlijke gegevens EHW+ verzamelt en hoe deze worden gebruikt. Fundamentele wijzigingen in het privacybeleid zijn zeldzaam, maar het kan van tijd tot tijd worden herzien vanwege nieuwe functies, technologieën of wettelijke vereisten. Controleer deze pagina dus van tijd tot tijd om op de hoogte te blijven. Als we belangrijke wijzigingen aanbrengen, zullen we u hiervan op de hoogte stellen en, indien nodig, uw toestemming verkrijgen.",
+  "privacyBlock2Title": "Algemeen",
+  "privacyBlock3Title": "Welke gegevens verzamelt {appNameShort}?",
+  "privacyBlock3aText": "We hebben {appNameShort} gemaakt zodat u snel en eenvoudig meterstanden kunt invoeren en vervolgens via statistieken meer kunt ontdekken over uw verbruik, de kosten en besparingsmogelijkheden. Dit betekent dat u willekeurige gegevens, die wij algemeen als \"inhoud\" aanduiden, in {appNameShort} kunt invoeren, berekenen of opslaan. Deze gegevens worden alleen op uw telefoon opgeslagen.\n\nSynchronisatie met Google Drive.\nAls u de synchronisatie met Google Drive activeert, worden de inhoud automatisch in het alleen voor u toegankelijke Google Drive-opslagruimte daarnaast opgeslagen in een map \"{appNameShort}\". Door in te loggen met Google wordt uw e-mailadres zichtbaar voor de ontwikkelaar.",
+  "privacyBlock3bText": "{googleApiAgreement}\n\nLocatiegegevens.\nOm het gebruikersgedrag te begrijpen en voor toekomstige functies verzendt de app geanonimiseerde gebruiksgegevens.\nDe gegevens worden niet gedeeld met derden.\nEr kan informatie worden verzameld over herkomst (land en stad), taal, besturingssysteem, apparaattype, resolutie, klikgedrag en gebruiksduur.\n\nApparaatgegevens.\nWe verzamelen gegevens over het aantal en het type apparaten dat u gebruikt om verbinding te maken met de dienst, evenals informatie over het besturingssysteem op die apparaten (bijvoorbeeld Android, iOS, Windows of macOS).\n\nDoor de app te gebruiken, geeft u toestemming voor het verzamelen van geanonimiseerde gegevens zoals hierboven beschreven.",
+  "privacyBlock4DataUsage": "\nVerzamelde geanonimiseerde gegevens worden gebruikt voor de evaluatie van gebruikersgedrag. Daarnaast is er geen gegevensgebruik.\n\n{syncDriveDataUsage}",
+  "privacyBlock4DataUsageTitle": "Hoe gebruikt {appNameShort} mijn gegevens?",
+  "privacyBlock5": "De duur van de opslag van persoonlijke gegevens wordt bepaald op basis van de respectieve wettelijke bewaartermijn (bijv. handels- en belastingrechtelijke bewaartermijnen). Na het verstrijken van de termijn worden de betreffende gegevens routinematig verwijderd, tenzij ze niet meer nodig zijn voor contractuitvoering of contractsluiting en/of er aan onze kant geen gerechtvaardigd belang meer bestaat voor verdere opslag.",
+  "privacyBlock5Title": "Duur van opslag van persoonlijke gegevens",
+  "privacyBlock6": "In het kader van contact met ons (bijv. via contactformulier of e-mail) worden persoonsgegevens verzameld. Welke gegevens in het geval van een contactformulier worden verzameld, is te zien in het betreffende contactformulier. Deze gegevens worden uitsluitend opgeslagen en gebruikt voor het beantwoorden van uw vraag of voor contactopname en de daarmee samenhangende technische administratie. De rechtsgrondslag voor de verwerking van de gegevens is ons gerechtvaardigd belang bij het beantwoorden van uw vraag overeenkomstig Art. 6 lid 1 lit. f AVG. Indien uw contact gericht is op het sluiten van een contract, is de aanvullende rechtsgrondslag voor de verwerking Art. 6 lid 1 lit. b AVG. Uw gegevens worden na definitieve afhandeling van uw aanvraag verwijderd, dit is het geval wanneer uit de omstandigheden kan worden afgeleid dat de betreffende kwestie definitief is opgehelderd en voor zover er geen wettelijke bewaarplichten in de weg staan.",
+  "privacyBlock6Title": "Contactgegevens",
+  "privacyBlock7": "Het toepasselijke gegevensbeschermingsrecht verleent u uitgebreide rechten als betrokkene (rechten op informatie en interventie) ten aanzien van de verwerking van uw persoonsgegevens, waarover wij u hieronder informeren:\n\n- Recht op informatie overeenkomstig Art. 15 AVG: U heeft met name recht op informatie over uw door ons verwerkte persoonsgegevens, de verwerkingsdoeleinden, de categorieën van verwerkte persoonsgegevens, de ontvangers of categorieën van ontvangers aan wie uw gegevens zijn of worden bekendgemaakt, de geplande opslagduur of de criteria voor het bepalen van de opslagduur, het bestaan van een recht op rectificatie, wissing, beperking van de verwerking, bezwaar tegen de verwerking, klacht bij een toezichthoudende autoriteit, de herkomst van uw gegevens, indien deze niet door ons bij u zijn verzameld, het bestaan van geautomatiseerde besluitvorming inclusief profilering en, indien van toepassing, zinvolle informatie over de betrokken logica en de reikwijdte en de beoogde gevolgen van een dergelijke verwerking voor u, evenals uw recht op informatie over welke garanties overeenkomstig Art. 46 AVG bestaan bij doorgifte van uw gegevens aan derde landen;\n\n- Recht op rectificatie overeenkomstig Art. 16 AVG: U heeft recht op onmiddellijke rectificatie van onjuiste gegevens die op u betrekking hebben en/of aanvulling van uw bij ons opgeslagen onvolledige gegevens;\n\n- Recht op wissing overeenkomstig Art. 17 AVG: U heeft het recht om de wissing van uw persoonsgegevens te verlangen indien aan de voorwaarden van Art. 17 lid 1 AVG is voldaan. Dit recht bestaat echter met name niet indien de verwerking noodzakelijk is voor de uitoefening van het recht op vrijheid van meningsuiting en informatie, voor de nakoming van een wettelijke verplichting, om redenen van algemeen belang of voor de vaststelling, uitoefening of verdediging van rechtsvorderingen;\n\n- Recht op beperking van de verwerking overeenkomstig Art. 18 AVG: U heeft het recht om de beperking van de verwerking van uw persoonsgegevens te verlangen zolang de door u betwiste juistheid van uw gegevens wordt gecontroleerd, indien u een wissing van uw gegevens wegens onrechtmatige gegevensverwerking weigert en in plaats daarvan de beperking van de verwerking van uw gegevens verlangt, indien u uw gegevens nodig heeft voor de vaststelling, uitoefening of verdediging van rechtsvorderingen, nadat wij deze gegevens na het bereiken van het doel niet meer nodig hebben of indien u bezwaar heeft gemaakt om redenen die verband houden met uw specifieke situatie, zolang nog niet vaststaat of onze gerechtvaardigde gronden zwaarder wegen;\n\n- Recht op informatie overeenkomstig Art. 19 AVG: Indien u het recht op rectificatie, wissing of beperking van de verwerking jegens de verantwoordelijke heeft uitgeoefend, is deze verplicht om alle ontvangers aan wie de op u betrekking hebbende persoonsgegevens zijn bekendgemaakt, van deze rectificatie of wissing van de gegevens of beperking van de verwerking op de hoogte te stellen, tenzij dit onmogelijk blijkt of onevenredig veel inspanning vergt. U heeft het recht om over deze ontvangers te worden geïnformeerd.\n\n- Recht op gegevensoverdraagbaarheid overeenkomstig Art. 20 AVG: U heeft het recht om uw persoonsgegevens, die u ons heeft verstrekt, in een gestructureerd, gangbaar en machineleesbaar formaat te ontvangen of om de overdracht aan een andere verantwoordelijke te verlangen, voor zover dit technisch haalbaar is;\n\n- Recht op intrekking van verleende toestemmingen overeenkomstig Art. 7 lid 3 AVG: U heeft het recht om een eenmaal verleende toestemming voor de verwerking van gegevens te allen tijde met werking voor de toekomst in te trekken. In geval van intrekking zullen wij de betreffende gegevens onmiddellijk verwijderen, tenzij verdere verwerking niet kan worden gebaseerd op een rechtsgrondslag voor verwerking zonder toestemming. Door de intrekking van de toestemming wordt de rechtmatigheid van de verwerking die op basis van de toestemming tot aan de intrekking heeft plaatsgevonden, niet aangetast;\n\n- Recht op klacht overeenkomstig Art. 77 AVG: Indien u van mening bent dat de verwerking van de op u betrekking hebbende persoonsgegevens in strijd is met de AVG, heeft u – onverminderd een ander administratiefrechtelijk of gerechtelijk rechtsmiddel – het recht om een klacht in te dienen bij een toezichthoudende autoriteit, met name in de lidstaat van uw gewone verblijfplaats, uw werkplek of de plaats van de vermeende overtreding.",
+  "privacyBlock7Title": "Rechten van de betrokkene",
+  "privacyBlock8": "WENN WIR IM RAHMEN EINER INTERESSENABWÄGUNG IHRE PERSONENBEZOGENEN DATEN AUFGRUND UNSERES ÜBERWIEGENDEN BERECHTIGTEN INTERESSES VERARBEITEN, HABEN SIE DAS JEDERZEITIGE RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIESE VERARBEITUNG WIDERSPRUCH MIT WIRKUNG FÜR DIE ZUKUNFT EINZULEGEN. MACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN. EINE WEITERVERARBEITUNG BLEIBT ABER VORBEHALTEN, WENN WIR ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN KÖNNEN, DIE IHRE INTERESSEN, GRUNDRECHTE UND GRUNDFREIHEITEN ÜBERWIEGEN, ODER WENN DIE VERARBEITUNG DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN DIENT.\n\nWERDEN IHRE PERSONENBEZOGENEN DATEN VON UNS VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN. SIE KÖNNEN DEN WIDERSPRUCH WIE OBEN BESCHRIEBEN AUSÜBEN.\n\nMACHEN SIE VON IHREM WIDERSPRUCHSRECHT GEBRAUCH, BEENDEN WIR DIE VERARBEITUNG DER BETROFFENEN DATEN ZU DIREKTWERBEZWECKEN.",
+  "privacyBlock8Title": "Recht van bezwaar",
+  "privacyContractPriceSubmission": "Als u als gebruiker uw contractgegevens bijhoudt, wordt de prijs per eenheid voor elektriciteits-, water- en gascontracten verzonden naar een EHW+-server in Duitsland samen met het land en de staat. Met deze gegevens worden prijsstatistieken berekend. Voor app-gebruikers zijn de statistieken zichtbaar in de vorm van een prijsvergelijking in de contractweergave.\n\nDoor de app te gebruiken gaat u akkoord met de hierboven genoemde verzameling van geanonimiseerde gegevens.",
+  "privacyTitle": "Privacybeleid",
+  "purchasesBuyNow": "Nu kopen",
+  "purchasesDisabledOnIOS": "In-app aankopen uitgeschakeld",
+  "purchasesDisabledOnIOSDescription": "Controleer of in-app aankopen zijn uitgeschakeld op uw iPhone (Instellingen > Schermtijd > Beperkingen > App-installaties & aankopen > Sta in-app aankopen toe)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "De app is geïnstalleerd via Testflight. Houd er rekening mee dat aankopen alleen werken in de app als u de app via de App Store installeert.",
+  "purchasesEarlyBirdSubscription": "Opmerking: Als dit eerste klantabonnement wordt geannuleerd, kan het daarna niet opnieuw worden geabonneerd.",
+  "purchasesExtensionMultipleObjectsDescription": "Voer meterstanden in voor zoveel appartementen/huizen/objecten als u wilt (in plaats van slechts voor één object)",
+  "purchasesExtensionMultipleObjectsTitlePart": "Beheren van meerdere objecten",
+  "purchasesExtensionStatisticsDescription": "Toegang tot jaarlijks/maandelijks/wekelijks verbruik van elektriciteit/gas/water/... + periodeaanpassingen + gedetailleerd kostenoverzicht + Excel-export",
+  "purchasesExtensionStatisticsTitle": "Geavanceerde statistieken",
+  "purchasesExtensionsInWork": "Verdere uitbreidingen zijn gepland. Neem deel aan de functie-enquête om uw zegje te doen.",
+  "purchasesExtensionsSubtitle": "Eenmalig kopen, permanent gebruiken (geen abonnement)",
+  "purchasesExtensionsTitle": "Enkele uitbreidingen",
+  "purchasesIOSRestorePurchases": "Aankopen herstellen",
+  "purchasesIOSRestorePurchasesDescription": "Als u in het verleden al iets in de App Store heeft gekocht, kunt u de aankopen herstellen.",
+  "purchasesPurchased": "Gekocht",
+  "purchasesPurchasedIncludedInPremium": "Inbegrepen in Premium",
+  "purchasesPurchasedSubscribed": "Geabonneerd",
+  "purchasesRedeemCode": "Code inwisselen",
+  "purchasesStatisticsWithPremium": "Met Premium krijgt u toegang tot een maandelijkse vergelijking{count, plural, =0{.}=1{.}other{ en ziet u ook historische gegevens voor {years}.}}",
+  "purchasesSubscribeNow": "Abonneer je nu",
+  "purchasesSubscribePremium": "Abonneer Premium",
+  "purchasesSubscribePremiumMonthly": "Maandelijks opzegbaar abonnement voor slechts {price} per maand",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Maandelijks opzegbaar abonnement tegen de loyaliteitsprijs van {price} per maand in plaats van {priceNew}",
+  "purchasesSubscribePremiumTextLong": "Toegang tot alle betaalde functies gedurende de abonnementsperiode + buitentemperaturen",
+  "purchasesSubscribePremiumYearly": "Jaarlijks opzegbaar abonnement voor slechts {price} per jaar",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Jaarlijks opzegbaar abonnement tegen de loyaliteitsprijs van {price} per jaar in plaats van {priceNew}",
+  "purchasesUpgrade": "Upgraden",
+  "purchasesWebLegalNote": "Om juridische redenen is een aankoop alleen mogelijk voor een iPhone of Android-telefoon met PlayStore-diensten.",
+  "purchasesWhyBuyText": "Met een aankoop draagt u bij aan de kosten die ik maak door de app te publiceren en ondersteunt u de verdere ontwikkeling.",
+  "purchasesWhyBuyTitle": "Waarom zou ik iets kopen?",
+  "purchasesYourPurchases": "U heeft toegang tot de volgende premiumpakketten:",
+  "reading": "Meterstand",
+  "readingDeleteConfirm": "Aflezing verwijderen?",
+  "readingNew": "Nieuwe lezing",
+  "readingPrefill": "Meterstand automatisch invullen",
+  "readingPrefillDescription": "Meterstanden vooraf invullen op basis van eerdere invoer",
+  "readingPrefillDisableForAllCounters": "Automatisch invullen uitschakelen voor alle meters",
+  "readingPrefillDisabled": "Automatisch invullen uitgeschakeld",
+  "readingPrefillDisabledToast": "Automatisch invullen uitgeschakeld",
+  "readingPrefillEnableForAllCounters": "Automatisch invullen inschakelen voor alle meters",
+  "readingReminder": "{count, plural, one {Aflezingherinnering} other {Aflezingherinneringen}}",
+  "readingReminderDisabled": "Aflezingherinnering niet actief",
+  "readingReminderMultiBody": "{count, plural, one {Lees nu de aflezingen van {count} meter} other {Lees nu de aflezingen van {count} meters}}",
+  "readingReminderSingleBody": "Lees nu de {counterName} waarde",
+  "readingReminders": "Aflezingherinneringen",
+  "readingRemindersChannel": "Aflezingherinneringen",
+  "readingSubmitted": "Meterstand ingediend",
+  "readingTime": "Aflestijd",
+  "readingUpdate": "Lezing bijwerken",
+  "readingWithFactor": "Meterstand met factor",
+  "reallyDeleteActivity": "Deze activiteit echt verwijderen?",
+  "reallyDeleteContract": "Dit contract echt verwijderen?",
+  "reallyDeleteCounter": "Weet u zeker dat u de meter wilt verwijderen?",
+  "reallyDeleteCounterLink": "Weet u zeker dat u de koppeling tussen de meters wilt verwijderen?",
+  "reallyDeleteDetail": "Dit detail echt verwijderen?",
+  "reallyDeleteObject": "Weet u zeker dat u het object wilt verwijderen?",
+  "reallyDeletePhoto": "Weet u zeker dat u de foto van de meterstand wilt verwijderen?",
+  "reallyDeleteValue": "Wilt u deze waarde echt verwijderen?",
+  "refund": "Terugbetaling",
+  "reminderTime": "Herinneringstijd",
+  "reminderWeekdayExplanation": "Er is een herinnering om een aflezing te nemen, maximaal één keer per dag.",
+  "reminderWeekdayExplanationSeasonal": "Voor meters met seizoensverbruik worden herinneringen alleen verzonden in maanden met verbruik (werkt alleen als waarden van het afgelopen jaar zijn opgegeven).",
+  "requestAccess": "Toegang aanvragen",
+  "reset": "Resetten",
+  "resetActivities": "Reset alle activiteiten",
+  "residualConsumptionEstimated": "Resterend verbruik geschat",
+  "residualGenerationEstimated": "Resterende opwekking geschat",
+  "restoreDeletedCounter": "Wilt u deze verwijderde meter herstellen?",
+  "room": "Kamer",
+  "roomBathroom": "Badkamer",
+  "roomBedroom": "Slaapkamer",
+  "roomChildrenRoom": "Kinderkamer",
+  "roomDeleteConfirm": "Kamer verwijderen?",
+  "roomDiningRoom": "Eetkamer",
+  "roomGarden": "Tuin",
+  "roomKitchen": "Keuken",
+  "roomLivingRoom": "Woonkamer",
+  "roomName": "Kamernaam",
+  "roomNameHint": "Optioneel een kamernaam toewijzen",
+  "roomNamePart": "in de {roomName} ",
+  "roomNew": "Nieuwe kamer",
+  "roomOffice": "Kantoor",
+  "roomOther": "Anders",
+  "roomStoreRoom": "Bergruimte",
+  "roomType": "Kamertype",
+  "roomWc": "WC",
+  "rooms": "Kamers",
+  "scanQrCode": "Scan activatie-QR-code",
+  "seasonalCounter": "Seizoensmeter",
+  "seasonalElectricityCounter": "Seizoenselektriciteitsmeter",
+  "selectedActivity": "Geselecteerde activiteit \"${activityName}\"",
+  "selectedAtAppStart": "Het bovenste object wordt geselecteerd bij app-start",
+  "settingColor": "Kleur",
+  "settingCounterTypeColor": "Kleur voor dit metertype",
+  "settingCounterTypeColorAdvanced": "Kleurkiezer voor experts",
+  "settingCounterTypeColorDescription": "Als u de standaardkleur voor dit metertype niet leuk vindt, kunt u een andere kleur toewijzen.",
+  "settingEAuto": "Elektrische auto",
+  "settingHouseholdSize": "Gezinsgrootte",
+  "settingHouseholdSizeDescription": "Aantal personen in uw huishouden.",
+  "settingLanguageMode": "Taal",
+  "settingLivingArea": "Woonoppervlakte",
+  "settingObjectLocation": "Locatie",
+  "settingObjectLocationExplanation": "Het invoeren van de locatie helpt inzichten en services af te stemmen op uw gebied.",
+  "settingObjectLocationTitle": "Waar bevindt uw object zich?",
+  "settingObjectType": "Objecttype",
+  "settingObjectTypeFlat": "Appartement",
+  "settingObjectTypeHouse": "Huis",
+  "settingShowCounterReadingsChart": "Toon aflezingengrafiek",
+  "settingShowHeatmap": "Toon heatmap",
+  "settingShowPreliminaryCurve": "Toon voorlopige curve",
+  "settingUiColorPalette": "Kleurenpalet",
+  "settingUiMode": "Gebruikersinterface",
+  "settingUiModeDark": "Donker",
+  "settingUiModeDarkOrLight": "Donkere/lichte gebruikersinterface",
+  "settingUiModeLight": "Licht",
+  "settingUiModeOsDefault": "Systeem",
+  "settingWaterHeater": "Waterverwarmer",
+  "settingYearlyReset": "Jaarlijkse reset",
+  "settingYearlyResetOn": "op",
+  "settings": "Instellingen",
+  "settingsExternalServices": "Externe services",
+  "settingsShowStromGedacht": "Moeten tips van StromGedacht over het elektriciteitsnet worden weergegeven?",
+  "settingsShowTabNewsDetailed": "Moet het Nieuws/Tips-tabblad zichtbaar zijn?",
+  "showAllYears": "Alle jaren tonen",
+  "signInWithApple": "Inloggen met Apple",
+  "signInWithGithub": "Inloggen met GitHub",
+  "signInWithGoogle": "Inloggen met Google",
+  "signInWithSocialAccount": "Welk sociaal account wilt u gebruiken om uw EHW+-account aan te maken of in te loggen?",
+  "sinceInitialReading": "Sinds eerste aflezing",
+  "smartMeterCountersTitle": "Radio watermeters",
+  "smartMeterErrorNoData": "Helaas zijn er geen gegevens die de app kan weergeven.",
+  "smartMeterMisconfiguredWidgetCardButton": "Slimme meter instellen",
+  "smartMeterMisconfiguredWidgetCardTitle": "Stel uw slimme meter correct in.",
+  "smartMeterObtainDataAutomatically": "Gegevens automatisch ophalen",
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderUndefined": "Niet ingesteld",
+  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterServiceProvider": "Serviceprovider",
+  "smartMeterSettingsScreenSyncButton": "Synchroniseer verbruiksgegevens",
+  "smartMeterSettingsScreenSyncingDialogError": "Fout",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "De volgende fout is opgetreden tijdens synchronisatie: {errorMessage}",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "OK",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Synchroniseren in uitvoering",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Voortgang: {progressInPercent}%",
+  "smartMeterTabConsumptions": "Verbruik",
+  "smartMeterTabProductions": "Productie",
+  "smartmeterInfocodeBannerText": "Slimme meter {smartmeterId} heeft infocode ontvangen: {infocode}",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "De temperatuur van uw watermeter {smartmeterId} is onder 3°C gedaald. Er is een risico op vorst! Isoleer de meter en de leidingen of verwarm het gebied om schade te voorkomen.",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Uw watermeter {smartmeterId} heeft een continue waterstroom gedetecteerd. Dit kan wijzen op een lek. Controleer uw huishoudelijke installatie op lekkages. Toiletten en druppelende kranen zijn veelvoorkomende oorzaken.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Uw watermeter {smartmeterId} heeft ongebruikelijk hoog waterverbruik gedetecteerd, wat kan wijzen op een leidingbreuk. Controleer uw huishoudelijke installatie op grote lekkages of breuken. Het alarm kan ook verschijnen als u een grote hoeveelheid water heeft gebruikt, bijvoorbeeld voor het vullen van een zwembad.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Uw watermeter {smartmeterId} heeft ongebruikelijk hoog waterverbruik gedetecteerd, wat kan wijzen op een leidingbreuk of het vullen van een zwembad. Controleer uw huishoudelijke installatie op grote lekkages of breuken.",
+  "soFar": "tot nu toe",
+  "social": "Sociale media",
+  "socialEmail": "Email",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialLinkedIn": "LinkedIn",
+  "socialTwitter": "X",
+  "socialYouTube": "YouTube",
+  "solarThermalCollector": "Zonthermische collector",
+  "sortActivities": "Wijzig de volgorde van activiteiten",
+  "source": "Bron: ",
+  "stove": "Kachel",
+  "stromGedachtAgreement": "Ik ga akkoord dat mijn postcode (indien opgegeven) wordt overgedragen aan TransnetBW om StromGedacht-meldingen op te halen.",
+  "subscribeToSmartMeterInfocodeEvents": "Ik wil op de hoogte worden gesteld van onverwacht verbruik",
+  "supplementaryPayment": "Aanvullende betaling",
+  "support": "Ondersteuning/Feedback",
+  "supportBug": "Beestje",
+  "supportGivePraise": "Geef lof",
+  "supportGivePraiseLong": "Vindt u de app leuk? Bedankt! Verspreid het nieuws!",
+  "supportGivePraiseRating": "Beoordeel de app in {store}.",
+  "supportGivePraiseRecommendation": "Beveel de app aan bij vrienden en familie. Bedankt voor elke aanbeveling!",
+  "supportMakeSuggestion": "Stel iets voor",
+  "supportMakeSuggestionLong": "De app leeft van gebruikerssuggesties. Heeft u een suggestie?",
+  "supportQuestion": "Stel een vraag",
+  "supportQuestionBox": "Hoe kan ik u helpen?",
+  "supportQuestionLong": "Hoe werkt het? Is het überhaupt mogelijk? Hier zijn de antwoorden.",
+  "supportQuestionNotFound": "Uw vraag werd niet beantwoord? Ik help u graag.",
+  "supportRecommend": "Ik gebruik de meterstand-app EHW+ om mijn energieverbruik en de bijbehorende kosten bij te houden. Misschien is dat ook iets voor u?\n\nMeer info op https://www.ehwplus.com",
+  "supportReportBug": "Rapporteer een bug via e-mail",
+  "supportReportBugAffectedPages": "Op welke pagina's treedt de fout op? (indien van toepassing)",
+  "supportReportBugLong": "Geweldige app! Maar natuurlijk kunnen dingen misgaan. Als u bugs rapporteert, maakt u de app beter.",
+  "supportReportBugScreenshotsPlease": "Voeg een screenshot bij in de e-mail, bij voorkeur met markering van de fout.",
+  "supportReportBugTextIs": "Beschrijf kort het huidige onjuiste gedrag, d.w.z. de fout zelf.",
+  "supportReportBugTextShould": "Beschrijf kort het gewenste gedrag, d.w.z. hoe het eigenlijk zou moeten zijn.",
+  "swimmingPool": "Zwembad",
+  "sync": "Synchroniseren",
+  "syncAutomaticTitle": "Lokale gegevens kunnen worden overschreven",
+  "syncDriveDataUsage": "Als u EHW+ toegang geeft tot Google Drive, heeft de app lees- en schrijftoegang tot bestanden die door de app zelf zijn gemaakt. Helaas zijn bestanden die door anderen via deze app zijn gemaakt niet zichtbaar voor de app, wat betekent dat gegevensdeling tussen meerdere accounts via Google Drive niet mogelijk is.",
+  "syncDriveLoggedIn": "Uw gegevens worden automatisch gesynchroniseerd op meerdere apparaten. Het volgende Google-account wordt gebruikt:",
+  "syncDriveLoggedInNoAuto": "Uw gegevens worden automatisch geüpload naar Google Drive na een wijziging. Nieuwere gegevens uit de cloud overschrijven lokale gegevens alleen wanneer u op het object klikt. Het volgende Google-account wordt gebruikt:",
+  "syncObjectIsLocked": "Objectgegevens worden bijgewerkt en kunnen gedurende deze tijd niet worden bewerkt.",
+  "syncShareWithOthersNotInWeb": "Toegang verlenen is momenteel alleen mogelijk via de app.",
+  "syncShareWithOthersSubtitle": "Als u meterstanden samen met andere Google-gebruikers wilt invoeren, moet EHW+ volledige toegang tot Google Drive krijgen.",
+  "syncShareWithOthersTitle": "Delen met anderen?",
+  "syncStatusFailedLong": "Synchroniseren mislukt, bewerken is op eigen risico",
+  "syncStatusFailedLongNoAutoSync": "Synchroniseren mislukt, bewerken is op eigen risico",
+  "syncStatusSyncRemoteHasLatest": "Het bestand in de cloud is actueler dan het lokale bestand",
+  "syncWithGoogleDriveDescription": "Omdat het zonde zou zijn als de meterstanden verloren gaan, synchroniseer nu uw objecten met Google Drive!",
+  "tabCounters": "Meterstanden",
+  "tabNews": "Tips/Nieuws",
+  "tabObject": "Voorwerp",
+  "tabStatistics": "Statistieken",
+  "taxRate": "Belastingtarief",
+  "teaserPurchaseRenewableEnergies": "Hernieuwbare energiemeters vereisen Premium.",
+  "teaserPurchaseVirtualCounter": "Voeg virtuele meters toe met Premium.",
+  "teaserPurchaseWaterExtractionCounter": "Ontgrendel wateronttrekkingsmeters met Premium.",
+  "termsOfUsageBlock1": "Bezwaarrecht",
+  "termsOfUsageBlock1Title": "Algemene gebruiksvoorwaarden voor het gebruik van de app",
+  "termsOfUsageBlock2": "De app en zijn functies mogen niet op misbruikende wijze worden gebruikt. Gebruik de app alleen binnen het wettelijk toegestane kader en in overeenstemming met onze gebruiksvoorwaarden. In geval van schending van toepasselijk Duits recht of onze gebruiksvoorwaarden, behoudt de aanbieder zich het recht voor om u uit te sluiten van het gebruik van de app.",
+  "termsOfUsageBlock2Title": "Algemene informatie over gebruik",
+  "termsOfUsageBlock2a": "Geanonimiseerde gebruiksgegevens\nWe gebruiken onze eigen analyses om de app voortdurend te verbeteren.\nEr worden alleen geanonimiseerde gegevens verzonden.\nDe gegevens worden niet doorgegeven aan derden.\nGa voor meer informatie naar Instellingen > Privacy > {privacyBlock3Title}",
+  "termsOfUsageBlock2b": "Foutrapporten\nSentry (zelf gehost) wordt gebruikt om de app voortdurend te verbeteren.\nFoutmeldingen worden niet verwerkt, noch gedeeld met derden.\nGa voor meer informatie naar Instellingen > Privacy > {privacyBlock3Title}",
+  "termsOfUsageBlock2c": "Persoonlijke gegevens\nAls u de Google Drive-synchronisatie gebruikt, heeft EHW+ nog steeds geen toegang tot de door u ingevoerde gegevens. Meer informatie hierover vindt u onder Instellingen > Privacy > {privacyBlock3Title}",
+  "termsOfUsageBlock3": "De aanbieder neemt geen garanties aan met betrekking tot beschikbaarheid, betrouwbaarheid, functionaliteit of geschiktheid van de app voor uw doeleinden. Aansprakelijkheid is uitgesloten, voor zover niet krachtens de productaansprakelijkheidswet, wegens opzet, grove nalatigheid, wegens schending van leven, lichaam of gezondheid, wegens het aangaan van een kwaliteitsgarantie, wegens arglistig verzwijgen van een gebrek of wegens schending van essentiële contractuele verplichtingen verplicht wordt geaansprakelijk gesteld. Essentiële contractuele verplichtingen zijn die verplichtingen waarvan de vervulling de juiste uitvoering van een contract überhaupt mogelijk maakt en waarvan de contractpartijen regelmatig mogen vertrouwen op naleving. De schadevergoeding wegens schending van essentiële contractuele verplichtingen is beperkt tot de contracttypische, voorzienbare schade, tenzij opzet of grove nalatigheid aanwezig is.",
+  "termsOfUsageBlock3Title": "Aansprakelijkheid",
+  "termsOfUsageBlock4": "De aanbieder neemt geen garantie voor de juistheid van de berekeningsresultaten. Gebruikers worden verzocht de in de applicatie opgeslagen prijzen (basisprijzen, verbruiksprijzen, enz.) zelfstandig en zorgvuldig bij te werken om een overeenstemming tussen de gemaakte facturen en de werkelijke vorderingsbedragen te waarborgen.",
+  "termsOfUsageBlock4Title": "Verantwoordelijkheden van de gebruiker",
+  "termsOfUsageTitle": "Algemene gebruiksvoorwaarden voor het gebruik van de app",
+  "termsOfUsageTitleShort": "Gebruiksvoorwaarden",
+  "tibberAccessToken": "Toegangstoken",
+  "tibberActionSaveAuthorizationSettings": "Autorisatie-instellingen opslaan",
+  "tibberBasicAuth": "Basisauthenticatie",
+  "tibberBasicAuthEnterPassword": "Voer wachtwoord in",
+  "tibberBasicAuthEnterUsername": "Voer gebruikersnaam in",
+  "tibberBasicAuthPassword": "Wachtwoord",
+  "tibberBasicAuthUsername": "Gebruikersnaam",
+  "tibberConsentScreenBenefit1Description": "Volg uw verbruik in realtime en ontdek verborgen energieverslinders.",
+  "tibberConsentScreenBenefit1Title": "Bekijk uw elektriciteitsverbruik",
+  "tibberConsentScreenConfigureLaterButton": "Later instellen",
+  "tibberConsentScreenConfigureNowButton": "Stel Tibber Pulse nu in",
+  "tibberConsentScreenDescription": "Bent u een Tibber-klant of van plan er een te worden? We ondersteunen nu de Pulse voor verbeterde energiemonitoring. Houd er rekening mee dat historische gegevens van de Pulse helaas alleen beschikbaar zijn voor klanten met een actief Tibber-contract.",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Uw uurlijkse verbruik vanaf 1 maart wordt geanonimiseerd en verstrekt voor de Goethe-studie.",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Wilt u deelnemen aan de Goethe-studie?",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Ja, ik wil deelnemen aan de Goethe-studie",
+  "tibberConsentScreenGoetheStudySectionHeader": "Deelname aan het onderzoeksproject",
+  "tibberConsentScreenHeader": "Nieuwe functie: Verbruiksgegevens van Tibber Pulse",
+  "tibberConsentScreenStoreLink": "Bezoek Tibber Store",
+  "tibberConsumptionEntryTotalCost": "Totale kosten: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Totale winst: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 uur vanaf {startTime} op {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Van: {startTime} tot {endDate}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "De maand {month}",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "Een maand vanaf {month}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Een uur vanaf {startTime} op {date}",
+  "tibberConsumptionEntryViewTimeSpanYear": "Het jaar {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Een jaar vanaf {year}",
+  "tibberEnterAccessToken": "Voer toegangstoken in",
+  "tibberErrorAccessTokenInvalid": "Het lijkt erop dat het toegangstoken ongeldig is",
+  "tibberErrorConnectivityShowCacheInstead": "Kan recente verbruiksgegevens niet ophalen. Gecachte waarden worden weergegeven.",
+  "tibberErrorNoHomes": "Er zijn geen woningen gekoppeld aan dit account",
+  "tibberErrorNoSubscription": "Om volledige toegang tot historische gegevens via de API te krijgen, heeft u een actief Tibber elektriciteitscontract nodig voor de geselecteerde woning.",
+  "tibberErrorRateLimit": "Tibber API-snelheidslimiet overschreden. Wacht minimaal 5 minuten voordat u het opnieuw probeert.",
+  "tibberErrorSmartMeterMisconfigured": "Uw slimme meter lijkt verkeerd geconfigureerd te zijn.",
+  "tibberErrorUndefined": "Er is een onverwachte fout opgetreden: {error}",
+  "tibberHomeSelectorHomeId": "Woning ID: {homeId}",
+  "tibberHomeSelectorLabel": "Woning",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Deze woning ondersteunt geen live metingen of historische verbruiksgegevens. Selecteer een andere woning.",
+  "tibberLiveMeasurementCounterCardViewFooter": "Live meting",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Totaal verbruik (sinds middernacht)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Verbruik (laatste uur)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Geaccumuleerde kosten",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Totale productie (sinds middernacht)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Productie (laatste uur)",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Geaccumuleerde beloning",
+  "tibberLiveMeasurementWidgetAveragePower": "Gemiddeld vermogen",
+  "tibberLiveMeasurementWidgetCurrentL1": "Stroom (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Stroom (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Stroom (L3)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Meterstand (Verbruik)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Meterstand (Productie)",
+  "tibberLiveMeasurementWidgetMaxPower": "Max vermogen",
+  "tibberLiveMeasurementWidgetMinPower": "Min vermogen",
+  "tibberLiveMeasurementWidgetPower": "Vermogen",
+  "tibberLiveMeasurementWidgetPowerFactor": "Vermogensfactor",
+  "tibberLiveMeasurementWidgetPowerProduction": "Vermogensproductie",
+  "tibberLiveMeasurementWidgetTimestamp": "Tijdstempel",
+  "tibberLiveMeasurementWidgetTitle": "Huidig verbruik/productie om {time}",
+  "tibberLiveMeasurementWidgetUnitA": "A",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "W",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Spanning (Fase 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Spanning (Fase 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Spanning (Fase 3)",
+  "tibberLiveMeasurementsWidgetConnecting": "Verbinden met Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "Er is een fout opgetreden bij het verbinden met Tibber Pulse. Controleer uw toegangstoken en internetverbinding.",
+  "tibberLiveMeasurementsWidgetNotSupported": "Live metingen worden niet ondersteund voor deze woning.",
+  "tibberMessageAccessTokenUpdated": "Toegangstoken succesvol bijgewerkt",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber-abonnementsstatus",
+  "tibberStatusWidgetTitle": "Cachebeheer",
+  "tibberSubscriptionStatusActive": "actief",
+  "tibberSubscriptionStatusInactive": "inactief",
+  "tibberSubscriptionStatusLoading": "laden...",
+  "tibberWhereIsMyAccessToken": "Waar kan ik mijn \"toegangstoken\" vinden?",
+  "timeBefore": "Voor",
+  "timeDayAgo": "een dag geleden",
+  "timeDays": "dagen",
+  "timeDaysAgo": "{days} dagen geleden",
+  "timeDaysWithin": "dagen",
+  "timeForFirstYear": "voor het eerste jaar",
+  "timeFriday": "vrijdag",
+  "timeFromDate": "Van {date}",
+  "timeFromUndefined": "Ongedefinieerd",
+  "timeHours": "uren",
+  "timeHoursAgo": "{hours} uren geleden",
+  "timeInFuture": "In de toekomst",
+  "timeJustNow": "zojuist",
+  "timeLastUpdated": "laatst bijgewerkt",
+  "timeMinutes": "minuten",
+  "timeMinutesAgo": "{minutes} minuten geleden",
+  "timeMonday": "maandag",
+  "timeMonth": "maand",
+  "timeMonths": "maanden",
+  "timeMonthsAgo": "{months} maanden geleden",
+  "timeMonthsWithin": "maanden",
+  "timePeriodYearStart": "jaarlijks",
+  "timeReminderAtEnd": "Bij einde",
+  "timeReminderAtStart": "Bij start",
+  "timeRightNow": "Nu",
+  "timeSaturday": "zaterdag",
+  "timeSeconds": "sec",
+  "timeSunday": "zondag",
+  "timeThursday": "donderdag",
+  "timeToday": "vandaag",
+  "timeTuesday": "dinsdag",
+  "timeUntilDate": "Tot {date}",
+  "timeUntilUnlimited": "Onbeperkt",
+  "timeWednesday": "woensdag",
+  "timeWeek": "week",
+  "timeWeeks": "weken",
+  "timeWithin": "Binnen {duration}",
+  "timeYesterday": "gisteren",
+  "unitCm": "cm",
+  "unitCmLong": "cm",
+  "unitCmShort": "cm",
+  "unitCubicMetersLong": "{count, plural, one {Kubieke meter (m³)} other {Kubieke meters (m³)}}",
+  "unitCubicMetersShort": "m³",
+  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "unitGJShort": "GJ",
+  "unitGigaByteLong": "GB",
+  "unitGigaByteShort": "GB",
+  "unitHoursLong": "{count, plural, one {Uur} other {Uren (u)}}",
+  "unitHoursShort": "h",
+  "unitKWhLong": "{count, plural, one {Kilowattuur (kWh)} other {Kilowattuur (kWh)}}",
+  "unitKWhShort": "kWh",
+  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
+  "unitKgShort": "kg",
+  "unitLiters": "liter",
+  "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {Megawattuur (MWh)} other {Megawattuur (MWh)}}",
+  "unitMWhShort": "MWh",
+  "unitMegaByteLong": "MB",
+  "unitMegaByteShort": "MB",
+  "unitNone": "geen",
+  "unitNoneFormatted": "{count, plural, one {eenheid} other {eenheden}}",
+  "unitPercentLong": "Procent (%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "sqm",
+  "unitSquareMetersLong": "{count, plural, one {Vierkante meter (m²)} other {Vierkante meters (m²)}}",
+  "unitSquareMetersShort": "m²",
+  "updateAvailable": "De app-versie {oldVersion} is niet up-to-date. U kunt updaten naar versie {newVersion}.",
+  "updateObjectName": "Wijzig objectnamen",
+  "upgradeDescription": "De app kan meer. Beter kostenoverzicht, meer statistieken, Excel-export, meer meters, ...",
+  "useDismissibleSettings": "Verwijderen door veeggebaar",
+  "useDismissibleSettingsDetailed": "Meters, contracten, enz. kunnen worden verwijderd met een zijwaartse veegbeweging",
+  "usedForPaymentsRepayments": "Voorschot, basisprijs en bonus",
+  "valueLess": "{value} minder",
+  "valueMore": "{value} meer",
+  "versionIsUpToDate": "De nieuwste app-versie die voor alle gebruikers is uitgebracht, is {version}.",
+  "virtualCounter": "Virtuele meter",
+  "virtualCounterMasterCounter": "Hoofdmeter",
+  "virtualCounterMasterCounterAttach": "Hoofdmeter selecteren",
+  "virtualCounterMasterCounterDescription": "Info: De hoofdmeter vormt de basis voor de berekening van de virtuele meter, bijv. de hoofdelektriciteitsmeter of de hoofdwaterteller.",
+  "virtualCounterMetersToBeAdded": "Meters die moeten worden toegevoegd",
+  "virtualCounterMetersToBeAddedDescription": "Welke meterstanden moeten worden toegevoegd aan de hoofdmeter, bijv. elektriciteitsopwekkingsmeters.",
+  "virtualCounterMetersToBeSubtracted": "Meters die moeten worden afgetrokken",
+  "virtualCounterMetersToBeSubtractedDescription": "Welke meterstanden moeten worden afgetrokken van de hoofdmeter, bijv. \"warmtepompmeter\", \"elektriciteit teruglevermeter\".",
+  "virtualCounterNotConfigured": "Controleer de instellingen van uw virtuele meter. Er kan niets worden berekend.",
+  "warmWater": "Warm water",
+  "warning": "Waarschuwing",
+  "warningCounterReplacementDetected": "De nieuwe waarde is lager dan de vorige meterstand. Is de meter vervangen?",
+  "warningNextReminderText": "De volgende herinnering is {date}.",
+  "warningOutdatedSinceText": "sinds {date}",
+  "warningReadingBiggerThanOldValue": "De nieuwe waarde is hoger dan de vorige meterstand.{isOilCounter, select, true { Heeft u de tank bijgevuld?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "De nieuwe waarde is hoger dan de vorige meterstand. Heeft u de tank bijgevuld?",
+  "warningReadingOutdatedForYearlyResetCounter": "De laatste meterstand voor het jaar {lastYear} voor de {deviceTypeName} {roomNamePart} ontbreekt. Dit is nodig voor een correcte berekening van het totale jaarlijkse verbruik.",
+  "warningReadingOutdatedFrequency": "De laatste meterstand voor de {deviceTypeName} {roomNamePart} is verouderd {outdatedSinceText}.{whenNotifyDateText}",
+  "warningReadingSeemsTooBig": "De nieuwe waarde is vrij hoog. Is de meting correct uitgevoerd?",
+  "warningReadingSeemsTooSmall": "De nieuwe waarde is vrij laag. Is deze correct afgelezen?",
+  "warningReadingSmallerThanOldValue2": "De nieuwe waarde is lager dan de vorige meterstand. Is de meting correct uitgevoerd?",
+  "warningYearlyReset": "Nulmeting aan het begin van het jaar",
+  "wasteWaterPriceEnabled": "Kosten voor zoet water en afvalwater worden apart weergegeven (relevant voor aftrekmeters)",
+  "waterConsumption": "Waterverbruik",
+  "waterExtractionMinimumLevelLower": "Aftrek vindt plaats omdat het verbruik lager is dan de drempel.",
+  "waterMeterEventsInformation": "{count, plural, =1 {Uw draadloze watermeter {waterSupplier} detecteert onverwacht verbruik. Indien gewenst ontvangt u in zo'n geval een melding.} other {Uw draadloze watermeters {waterSupplier} detecteren onverwacht verbruik. Indien gewenst ontvangt u in dergelijke gevallen een melding.}}",
+  "watersupplierAccessRequestQ1": "Bent u eigenaar van een eigendom in het verzorgingsgebied van het waterbedrijf en wilt u toegang tot radiometerstanden?",
+  "watersupplierAccessRequestQ2": "Heeft u al toegang aangevraagd? Vervolgens moet u een EHW+-gebruikersaccount aanmaken.",
+  "watersupplierAccessRequestQ3": "Heeft u al toegang aangevraagd en uw QR-code ontvangen?",
+  "watersupplierAccessRequestQ4": "Wilt u meterwaarschuwingen ontvangen zodat u kunt reageren bij bijvoorbeeld een leidingbreuk of een lopende toiletspoeling?",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Sorry, dat werkte helaas niet. Het kwam door onze server. Probeer het later opnieuw!",
+  "watersupplierCompleteMeterIdTryAgain": "U komt er niet door! Voer de laatste drie cijfers van uw meter-ID opnieuw in!",
+  "watersupplierMeterIdValidationStep": "We controleren uw meter-ID.",
+  "watersupplierNoAccess": "U heeft geen autorisatie meer om gegevens op te halen.",
+  "watersupplierNoAccessDetailedMessage": "Als u denkt dat u nog steeds toegang zou moeten hebben, scan dan uw activatiecode opnieuw. Als de toegangscode niet meer geldig is, dient u een nieuwe toegangsaanvraag in.",
+  "watersupplierOpenReminderSettings": "Instellingen openen",
+  "watersupplierRadioMeterDefaultName": "Radio koudwatermeter",
+  "watersupplierScanQrCodeApprovalInProgress": "We autoriseren nu uw account zodat u in de toekomst toegang heeft tot de radiometerstanden.",
+  "watersupplierScanQrCodeCommand": "Scan de linker QR-code (activatiecode)!",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Toegang tot uw radio watermeter is geannuleerd.",
+  "watersupplierScanQrCodeScanSuccessful": "Wow, activatiecode ziet er zo mooi uit! Voer de laatste drie cijfers van uw meter-ID in!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Opmerking: Uw oorspronkelijke meter-ID kan meer dan 8 tekens hebben.",
+  "watersupplierScanQrCodeTitle": "Radio Meter Activatie",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Ja! Uw radio watermeter van het type \"Koud Water\" is succesvol toegevoegd. U kunt deze vinden tussen de andere meters.",
+  "watersupplierScanQrCodeValidation": "QR-code gedetecteerd, laten we deze valideren.",
+  "watersupplierScanQrCodeValidationFailed": "Sorry, de code is ongeldig. Wilt u het opnieuw proberen?",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "U heeft de activatiecode gescand in plaats van de intrekkingscode. Probeer het opnieuw!",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "U heeft de intrekkingscode gescand in plaats van de activatiecode. Probeer het opnieuw!",
+  "watersupplierScanRevokeQrCodeCommand": "Scan de rechter QR-code (intrekkingscode)!",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Radiometer verwijderen",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Scan intrekkingscode",
+  "watersupplierUnlinkRadioMeterDescription1": "Wilt u de radiometer verwijderen zonder de activatiecode ongeldig te maken?",
+  "watersupplierUnlinkRadioMeterDescription2": "Wilt u geen toegang meer tot uw radiometergegevens? Let op: zodra de intrekkingscode wordt gescand, wordt de activatiecode ongeldig. Elk gebruikersaccount dat de activatiecode heeft gebruikt, verliest toegang.",
+  "watersupplierUnlinkRadioMeterTitle": "Radio Meter Toegang Beëindigen",
+  "watersupplierYourSupplier": "Uw waterleverancier",
+  "yearlyConsumption": "Jaarlijks verbruik tot nu toe",
+  "yearlyCosts": "Jaarlijkse verbruikskosten tot nu toe",
+  "youtubeConsent1": "We hebben uw toestemming nodig om de ingesloten Youtube-inhoud weer te geven. U kunt dit (en dus ook alle andere Youtube-inhoud in de app) met één klik weergeven en ook weer deactiveren.",
+  "youtubeConsent2": "Youtube-inhoud altijd tonen",
+  "youtubeConsent3": "Ik ga akkoord dat externe inhoud aan mij wordt weergegeven. Dit kan ertoe leiden dat persoonlijke gegevens worden verzonden naar platforms van derden. Meer hierover in onze ",
+  "zipCode": "postcode",
+  "zipCodeValidationLength": "Voer een {digits}-cijferige postcode in",
+  "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers"
 }

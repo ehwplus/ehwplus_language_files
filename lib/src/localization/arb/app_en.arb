@@ -1,1790 +1,1521 @@
 {
-	"appDescriptionShort": "Good for the wallet, good for the climate",
-	"@appDescriptionShort": {
-		"description": "Marketing claim"
-	},
-	"appDescriptionLong": "<p>Welcome to <b>EHW+</b>, your meter reading app  for <b>E</b>lectricity, <b>H</b>eating and <b>W</b>ater. With us, you can easily track<b> </b>how much you use and what it<b> </b>costs</b> for free.</p>",
-	"contactTitle": "Represented by:",
-	"contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nContact\n\nPhone: 06204/7383382\nMail: info@ehwplus.com",
-	"euDisputeResolution": "\n\nEU Dispute Resolution\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/.\nYou can find our e-mail address in the imprint above.\n\nConsumer dispute resolution/universal dispute resolution body\n\nWe are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
-	"consent1Hello": "Hello",
-	"consent2ThankYou": "Thank you for using EHW+!",
-	"consent3Video": "Would you like to watch a short introduction video?",
-	"consent4BeforeYouCanContinue": "Before you can continue",
-	"consent5ErrorReportingTitle": "Error reports",
-	"consent6ContractPricesPerUnitTitle": "Electricity / water / gas prices",
-	"consent7ContractPricesPerUnit": "In order to be able to estimate how much you are currently paying compared to other EHW+ users, the prices are transferred to the EHW+ server in Germany together with the country and state. Only if you agree to the transfer, you have access to the price statistics. To ensure anonymity, statistics can only be shown after a minimum number of transmitted prices.",
-	"consent11AnalyticsTitle": "Analysis data",
-	"consent12Analytics": "In order to evaluate the success of the app or individual functions, the app transmits anonymised usage statistics. The data is not transmitted to third parties. The data is used for the further development of the app.",
-	"consent13StromGedachtTitle": "Grid stability notices from StromGedacht",
-	"consent13StromGedacht": "StromGedacht, a service provided by TransnetBW, provides information on grid stability and recommendations on when electricity should be used preferentially. As the energy transition is becoming more and more challenging for the transmission grid, households in South-West Germany are being involved. To receive information for your location, your postal code, if entered here in the app, is transmitted to the TransnetBW StromGedacht API. No other data is transmitted or linked.",
-	"stromGedachtAgreement": "I agree that my postal code (if provided) will be transmitted to TransnetBW to retrieve StromGedacht notices.",
-	"priceSubmissionAgreement": "I agree with the transmission of electricity/gas/water prices per unit to an EHW+ server",
-	"googleAnalyticsAgreement": "I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.",
-	"continueAcceptPart1": "By using the EHW+ app, you agree to the ",
-	"continueAcceptPart2": ". For more information on the collection and use of anonymised and personal data, please refer to the ",
-	"termsOfUsageTitleShort": "Terms of use",
-	"faqAboutDeveloperTitle": "Who is behind EHW+?",
-	"faqAboutDeveloperBody1": "Thank you for your interest in EHW+. EHW+ was released by me, Timo Bähr, in December 2020. I am a full-time app developer and work on EHW+ in my free time to contribute to environmental protection. Since May 2022, a second developer has been overseeing my work, Thomas Hesse builds backends for EHW+. Since April 2023, Janine Sinner has been handling the numerous customer feedbacks. Since July 2024, Artem Yuzhakov has joined as an app developer.",
-	"faqAboutDeveloperBody2": "Over 26% of all CO2 emissions in Germany are caused by private households. If everyone can reduce their consumption even a little, a lot will have been achieved. Thank you very much for your contribution!",
-	"faqAboutDeveloperBody3": "We welcome suggestions on how to improve the app.",
-	"faqAboutDeveloperBody4": "However, I ask for your understanding that I cannot implement all suggestions and that new functions take time.",
-	"commonCollapse": "Collapse",
-	"commonMore": "More",
-	"commonSave": "Save",
-	"commonChange": "Change",
-	"commonContinue": "Continue",
-	"commonBack": "Back",
-	"commonOk": "OK",
-	"commonCancel": "Cancel",
-	"commonClose": "Close",
-	"commonOpen": "Open",
-	"commonSend": "Submit",
-	"commonDelete": "Delete",
-	"commonYes": "yes",
-	"commonNo": "no",
-	"commonLoadingData": "Loading data",
-	"commonDay": "day",
-	"commonMonth": "month",
-	"commonYear": "year",
-	"commonShare": "Share",
-	"commonCopiedToClipboard": "Copied to clipboard",
-	"commonLearnMore": "Learn more",
-	"commonMinimum": "Lowest daily value",
-	"commonMaximum": "Highest daily value",
-	"heatmapLegendTitle": "More about the heatmap",
-	"heatmapLegendDisclaimer": "Info: Shaded boxes contain an estimated value. To read the actual consumption/output, please fill in the missing meter readings if possible.",
-	"consumptionHeatmap": "Consumption Heatmap",
-	"consumptionHeatmapYield": "Yield Heatmap",
-	"consumption": "Consumption",
-	"consumptionYield": "Yield",
-	"showAllYears": "Show all years",
-	"appNameShort": "EHW+",
-	"appName": "EHW+ | Consumption & meter readings",
-	"tabCounters": "Meters",
-	"tabStatistics": "Statistics",
-	"tabObject": "Object",
-	"tabNews": "Tips/News",
-	"ofRangeLastDays": "of the last {days} days",
-	"@ofRangeLastDays": {
-		"placeholders": {
-			"days": {
-				"type": "int"
-			}
-		}
-	},
-	"ofRangeLastMonths": "for the last {months} months",
-	"@ofRangeLastMonths": {
-		"placeholders": {
-			"months": {
-				"type": "int"
-			}
-		}
-	},
-	"ofRangeFrom": "from {range}",
-	"@ofRangeFrom": {
-		"placeholders": {
-			"range": {
-				"type": "String"
-			}
-		}
-	},
-	"readingTime": "Reading time",
-	"reading": "Counter reading",
-	"last2Weeks": "Last 14 days",
-	"last12Weeks": "Last 12 weeks",
-	"last12Months": "Last 12 months",
-	"sinceInitialReading": "Since initial reading",
-	"lastYear": "Last year",
-	"periodCustom": "User defined",
-	"counterReadings": "Readings",
-	"comment": "Bote",
-	"enterComment": "Enter a note",
-	"enterExistingReadingAgain": "Re-enter old reading",
-	"meterId": "Counter id",
-	"meterReadingSubmitted": "Transmitted to provider",
-	"newReading": "Enter the current reading",
-	"newReadingShort": "New reading",
-	"readingWithFactor": "Counter reading with factor",
-	"csvImportWithFactor": "Should the meter readings be multiplied by a factor not equal to 1.0? For example, to convert values from Wh to kWh, they would have to be multiplied by 0.001.",
-	"newPhoto": "Take a new photo",
-	"existingPhoto": "Attach existing photo",
-	"newPhotoOfMeterReading": "Would you like to take a photo of the meter reading?",
-	"existingPhotoOfMeterReading": "Would you like to attach an existing photo of the meter reading?",
-	"numCounters": "{count, plural, =0 {{count} counter} one {{count} counter} other {{count} counters}}",
-	"@numCounters": {
-		"placeholders": {
-			"count": {
-				"type": "int"
-			}
-		}
-	},
-	"numMeterReadings": "{readings, plural, one {# reading} other {# readings}}",
-	"@numMeterReadings": {
-		"placeholders": {
-			"readings": {
-				"type": "int"
-			}
-		}
-	},
-	"exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
-	"@exportObjectDescription": {
-		"placeholders": {
-			"countersText": {
-				"type": "String"
-			},
-			"meterReadings": {
-				"type": "String"
-			},
-			"timeLastUpdated": {
-				"type": "String"
-			},
-			"lastUpdated": {
-				"type": "String"
-			}
-		}
-	},
-	"firstReadingYield": "Enter the first yield now.",
-	"firstReadingConsumption": "Enter the first consumption now.",
-	"firstReadingCounter": "Enter the first counter reading.",
-	"consumptionHeatpump": "In addition, the power consumption of the heat pump amounts to {formattedValue} kWh.",
-	"@consumptionHeatpump": {
-		"placeholders": {
-			"formattedValue": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearly": "Your electricity consumption {ofRange} is {consumption} kWh for the year.",
-	"@consumptionYearly": {
-		"placeholders": {
-			"ofRange": {
-				"type": "String"
-			},
-			"consumption": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedElectricity": "Your electricity consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.",
-	"@consumptionYearlyDetailedElectricity": {
-		"placeholders": {
-			"ofRange": {
-				"type": "String"
-			},
-			"totalConsumption": {
-				"type": "String"
-			},
-			"yearlyConsumption": {
-				"type": "String"
-			},
-			"monthlyConsumption": {
-				"type": "String"
-			},
-			"consumptionLevel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedGas": "Your gas consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.",
-	"@consumptionYearlyDetailedGas": {
-		"placeholders": {
-			"ofRange": {
-				"type": "String"
-			},
-			"totalConsumption": {
-				"type": "String"
-			},
-			"yearlyConsumption": {
-				"type": "String"
-			},
-			"monthlyConsumption": {
-				"type": "String"
-			},
-			"consumptionLevel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedLevel0": "super low",
-	"consumptionYearlyDetailedLevel1": "low",
-	"consumptionYearlyDetailedLevel2": "within a normal range",
-	"consumptionYearlyDetailedLevel3": "relatively high",
-	"consumptionYearlyDetailedLevel4": "within a normal range",
-	"consumptionYearlyDetailedYouConsume": "You consume{verbSuffix} ",
-	"@consumptionYearlyDetailedYouConsume": {
-		"placeholders": {
-			"verbSuffix": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedComparisonLess": "You consume{verbSuffix} {percentage} less than an average household with {householdSize} {personLabel}.",
-	"@consumptionYearlyDetailedComparisonLess": {
-		"placeholders": {
-			"verbSuffix": {
-				"type": "String"
-			},
-			"percentage": {
-				"type": "String"
-			},
-			"householdSize": {
-				"type": "String"
-			},
-			"personLabel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedComparisonMore": "You consume{verbSuffix} {percentage} more than an average household with {householdSize} {personLabel}.",
-	"@consumptionYearlyDetailedComparisonMore": {
-		"placeholders": {
-			"verbSuffix": {
-				"type": "String"
-			},
-			"percentage": {
-				"type": "String"
-			},
-			"householdSize": {
-				"type": "String"
-			},
-			"personLabel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedComparisonEqual": "You consume{verbSuffix} about the same as an average household with {householdSize} {personLabel}.",
-	"@consumptionYearlyDetailedComparisonEqual": {
-		"placeholders": {
-			"verbSuffix": {
-				"type": "String"
-			},
-			"householdSize": {
-				"type": "String"
-			},
-			"personLabel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedLessThan": "{percentage} less than",
-	"@consumptionYearlyDetailedLessThan": {
-		"placeholders": {
-			"percentage": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedMoreThan": "{percentage} more than",
-	"@consumptionYearlyDetailedMoreThan": {
-		"placeholders": {
-			"percentage": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedAboutSame": "about the same as",
-	"consumptionYearlyDetailedAverageHousehold": " an average household with {householdSize} {personLabel}",
-	"@consumptionYearlyDetailedAverageHousehold": {
-		"placeholders": {
-			"householdSize": {
-				"type": "String"
-			},
-			"personLabel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedOptimalEnding": "How are you doing it?",
-	"consumptionYearlyDetailedLevel1Suffix": "You would reach optimal consumption with about {nextToOptimal} kWh/month less.",
-	"@consumptionYearlyDetailedLevel1Suffix": {
-		"placeholders": {
-			"nextToOptimal": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionYearlyDetailedLevel2Suffix": "Reducing around {nextToOptimal} kWh/month would bring you to a good consumption level.",
-	"@consumptionYearlyDetailedLevel2Suffix": {
-		"placeholders": {
-			"nextToOptimal": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionPersonLabel": "{count, plural, one {person} other {people}}",
-	"@consumptionPersonLabel": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"consumptionWaterPrefixSingle": "You consume ",
-	"consumptionWaterPrefixPerPerson": "Per person, everyone consumes ",
-	"consumptionWaterDailyMonthly": "about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
-	"@consumptionWaterDailyMonthly": {
-		"placeholders": {
-			"dailyLiters": {
-				"type": "String"
-			},
-			"monthlyCubicMeters": {
-				"type": "String"
-			},
-			"unitName": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterDailyMonthlySingle": "You consume about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
-	"@consumptionWaterDailyMonthlySingle": {
-		"placeholders": {
-			"dailyLiters": {
-				"type": "String"
-			},
-			"monthlyCubicMeters": {
-				"type": "String"
-			},
-			"unitName": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterDailyMonthlyPerPerson": "Per person, this equals about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
-	"@consumptionWaterDailyMonthlyPerPerson": {
-		"placeholders": {
-			"dailyLiters": {
-				"type": "String"
-			},
-			"monthlyCubicMeters": {
-				"type": "String"
-			},
-			"unitName": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterRangeUnknown": "Your water consumption {ofRange} ...",
-	"@consumptionWaterRangeUnknown": {
-		"placeholders": {
-			"ofRange": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterOverallLess": "Your water consumption {ofRange} is {percentage} lower than that of an average household with {householdSize} {personLabel}.",
-	"@consumptionWaterOverallLess": {
-		"placeholders": {
-			"ofRange": {
-				"type": "String"
-			},
-			"percentage": {
-				"type": "String"
-			},
-			"householdSize": {
-				"type": "String"
-			},
-			"personLabel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterOverallEqual": "Your water consumption {ofRange} matches that of an average household with {householdSize} {personLabel}.",
-	"@consumptionWaterOverallEqual": {
-		"placeholders": {
-			"ofRange": {
-				"type": "String"
-			},
-			"householdSize": {
-				"type": "String"
-			},
-			"personLabel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterOverallMore": "Your water consumption {ofRange} is {percentage} higher than that of an average household with {householdSize} {personLabel}.",
-	"@consumptionWaterOverallMore": {
-		"placeholders": {
-			"ofRange": {
-				"type": "String"
-			},
-			"percentage": {
-				"type": "String"
-			},
-			"householdSize": {
-				"type": "String"
-			},
-			"personLabel": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterColdLess": "Cold water: {percentage} less than the average household.",
-	"@consumptionWaterColdLess": {
-		"placeholders": {
-			"percentage": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterColdMore": "Cold water: {percentage} more than the average household.",
-	"@consumptionWaterColdMore": {
-		"placeholders": {
-			"percentage": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterColdEqual": "Cold water: about the same as the average household.",
-	"consumptionWaterWarmLess": "Hot water: {percentage} less than the average household.",
-	"@consumptionWaterWarmLess": {
-		"placeholders": {
-			"percentage": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterWarmMore": "Hot water: {percentage} more than the average household.",
-	"@consumptionWaterWarmMore": {
-		"placeholders": {
-			"percentage": {
-				"type": "String"
-			}
-		}
-	},
-	"consumptionWaterWarmEqual": "Hot water: about the same as the average household.",
-	"yearlyConsumption": "Annual consumption so far",
-	"yearlyCosts": "Annual consumption costs so far",
-	"room": "Room",
-	"fedIn": "Fed in",
-	"generated": "Generated",
-	"residualGenerationEstimated": "Residual generation estimated",
-	"residualConsumptionEstimated": "Residual consumption estimated",
-	"myObjects": "My objects",
-	"roomLivingRoom": "Living Room",
-	"roomDiningRoom": "Dining room",
-	"roomBedroom": "Bedroom",
-	"roomBathroom": "Bathroom",
-	"roomWc": "WC",
-	"roomChildrenRoom": "Children's room",
-	"roomKitchen": "Kitchen",
-	"roomStoreRoom": "Store room",
-	"roomOffice": "Office",
-	"roomGarden": "Garden",
-	"counter": "Counter",
-	"counterDirectionAscending": "ascending",
-	"counterDirectionDescending": "descending",
-	"counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
-	"@counterDirectionNone": {
-		"placeholders": {
-			"consumptionElectricity": {
-				"type": "String"
-			},
-			"consumptionSolar": {
-				"type": "String"
-			}
-		}
-	},
-	"counterWater": "Water meters",
-	"counters": "Meters",
-	"changeCounterOrder": "If necessary, you can change the order",
-	"newCounter": "Create a new counter",
-	"updateObjectName": "Change object names",
-	"enterObjectName": "Name the new object",
-	"explanationManageMoreThanOneObject": "You have more than one property you want to manage? Then name the current object and then create another object.",
-	"selectedAtAppStart": "The topmost object is selected at app start",
-	"reallyDeleteObject": "Are you sure you want to delete the object?",
-	"confirmDeleteAtCloud": "Should \"{objectTitle}\" also be deleted from Google Drive?",
-	"@confirmDeleteAtCloud": {
-		"placeholders": {
-			"objectTitle": {
-				"type": "String"
-			}
-		}
-	},
-	"deleteObjectError": "Cannot delete this object (Code {errorCode}).",
-	"@deleteObjectError": {
-		"placeholders": {
-			"errorCode": {
-				"type": "int"
-			}
-		}
-	},
-	"commonChangeSaved": "Change saved",
-	"commonUpdateNow": "Update now",
-	"commonLogout": "Sign out",
-	"commonLogin": "Sign in",
-	"commonLoggingIn": "Signing you in...",
-	"commonLoggingOut": "Signing you out...",
-	"commonNotAuthenticated": "You are not authenticated.",
-	"commonUserLogin": "User login",
-	"commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "You are using the EHW+ account. {notSubmitted} out of {total} purchased products could not be saved on the EHW+ server. We hope to fix the issue soon.",
-	"@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-		"placeholders": {
-			"notSubmitted": {
-				"example": "1",
-				"type": "int"
-			},
-			"total": {
-				"example": "5",
-				"type": "int"
-			}
-		}
-	},
-	"commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {One purchase has been synchronized via the EHW+ account.} other {{count} purchases have been synchronized via the EHW+ account.}}",
-	"@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-		"placeholders": {
-			"count": {
-				"example": "2",
-				"type": "int"
-			}
-		}
-	},
-	"commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {You are using the EHW+ account. If you purchase products in the future, they will be synchronized across all your devices.} one {You are using the EHW+ account. {count} purchased product has been saved on the EHW+ server.} other {You are using the EHW+ account. {count} purchased products have been saved on the EHW+ server.}}",
-	"@commonUserLoginDescriptionLoggedInSavedPurchases": {
-		"placeholders": {
-			"count": {
-				"example": "3",
-				"type": "int"
-			}
-		}
-	},
-	"commonUserLoginDescriptionNotLoggedIn": "Are you using the app on multiple devices? Logging into your EHW+ account allows you to synchronize your settings and purchased products across all your devices.",
-	"accountUpdateInfo": "New: The EHW+ user account",
-	"accountThankYouForPurchase": "Thank you! Would you like to secure the purchase in your EHW+ user account now?",
-	"accountAbout": "What can the EHW+ user account do?",
-	"accountBenefit1": "More reliable purchase recognition",
-	"accountBenefit2": "Access to all purchased expansions on multiple devices",
-	"accountFaqTitle": "Frequently Asked Questions:",
-	"accountFaqQ1": "What is the EHW+ user account?",
-	"accountFaqA1": "The EHW+ user account offers an alternative method for restoring purchases when restoring through the App Store is not possible, increasing reliability. Additionally, it allows purchases to be restored on a device where the purchase did not originally take place. In the future, it will also be possible to save settings and more.",
-	"accountFaqQ2": "Will I still have access to my purchases without an EHW+ user account?",
-	"accountFaqA2": "Yes, purchases can still be restored on an Android device via the Play Store or on an iPhone via the App Store. The EHW+ user account provides an alternative method for restoring purchases when restoring through the App Store is not possible, increasing reliability. Additionally, it allows purchases to be restored on a device where the purchase did not originally take place.",
-	"accountButtonSetup": "Set up EHW+ user account",
-	"cometSettingsIsPredictionsApiEnabled": "Use the COMET Forecast API from the Goethe Institute",
-	"cometConsentScreenHeader": "New: Better consumption forecasts",
-	"cometConsentScreenHowItWorksTitle": "How does it work?",
-	"cometConsentScreenOnlineDescriptionTitle": "With Internet connection:",
-	"cometConsentScreenOnlineDescription": "Your consumption data will be sent to Goethe University Frankfurt, where an individual forecast will be created and displayed in the app.",
-	"cometConsentScreenOfflineDescriptionTitle": "Without Internet connection:",
-	"cometConsentScreenOfflineDescription": "A simplified local forecast will be calculated on your device.",
-	"cometConsentScreenToggleLabel": "Use forecast service",
-	"cometConsentScreenDataCanBeUsedForTraining": "Data may be used to optimize future predictions",
-	"cometConsentScreenFeedbackTitle": "Goethe University needs your feedback:",
-	"cometConsentScreenFeedbackDescription": "The use of the forecast is free, but the research team needs feedback on how well the service works.",
-	"cometConsentScreenFeedbackMethod": "Feedback is provided automatically when you use the prediction service and agree to optimisation.",
-	"cometConsentScreenDeclineButton": "I don’t want to give feedback",
-	"cometConsentScreenAcceptButton": "I want to give feedback",
-	"exportTabHowToExport": "How would you like to export the data?",
-	"exportTabHowToExportOptionShare": "Share with other apps",
-	"exportTabHowToExportOptionSaveToDownloads": "Save to folder {folder}",
-	"exportTabSnackBarSaveResultMessageSuccess": "Data has been successfully saved as {fileName} in folder {folder}",
-	"exportTabSnackBarSaveResultMessageError": "Error occurred while saving the data",
-	"importTabErrorMessageFileWithExtensionNotSelected": "A {extension} file is required to proceed with import.",
-	"difference": "Difference",
-	"period": "Period",
-	"periodHourly": "hourly",
-	"periodDaily": "daily",
-	"periodWeekly": "weekly",
-	"periodBiweekly": "bi-weekly",
-	"periodMonthly": "monthly",
-	"periodBimonthly": "bi-monthly",
-	"periodQuarterly": "quarterly",
-	"periodHalfYearly": "half-yearly",
-	"periodYearly": "yearly",
-	"meterCardLastUpdatedLabel": "Updated",
-	"smartMeterServiceProvider": "Service Provider",
-	"smartMeterObtainDataAutomatically": "Obtain data automatically",
-	"smartMeterErrorNoData": "Unfortunately, there is no data that the app could display.",
-	"smartMeterSettingsScreenSyncButton": "Synchronize consumption data",
-	"smartMeterSettingsScreenSyncingDialogHeader": "Syncing in progress",
-	"smartMeterSettingsScreenSyncingDialogProgress": "Progress: {progressInPercent}%",
-	"smartMeterSettingsScreenSyncingDialogError": "Error",
-	"smartMeterSettingsScreenSyncingDialogErrorOkButton": "Ok",
-	"smartMeterSettingsScreenSyncingDialogErrorMessage": "Following error occurred during synchronisation: {errorMessage}",
-	"smartMeterMisconfiguredWidgetCardTitle": "Please set up your smart meter correctly.",
-	"smartMeterMisconfiguredWidgetCardButton": "Set up smart meter",
-	"smartMeterTabConsumptions": "Consumptions",
-	"smartMeterTabProductions": "Productions",
-	"consumptionCacheManagementClearCacheButton": "Clear cache",
-	"consumptionCacheManagementClearCacheAndSynchronizeButton": "Clear & sync",
-	"consumptionCacheManagementConfirmClearCacheTitle": "Clear cache?",
-	"consumptionCacheManagementConfirmClearCacheMessage": "All cached consumption data will be permanently deleted. You can synchronize it later.",
-	"consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Clear cache & synchronize?",
-	"consumptionCacheManagementConfirmClearCacheAndSyncMessage": "All cached data will be deleted and re-downloaded from the server. This may take some time.",
-	"consumptionCacheManagementClearedSuccessfully": "Cache cleared successfully",
-	"tibberAccessToken": "Access Token",
-	"tibberEnterAccessToken": "Please enter access token",
-	"tibberMessageAccessTokenUpdated": "Successfully updated the access token",
-	"tibberErrorAccessTokenInvalid": "Looks like the access token is invalid",
-	"tibberErrorNoHomes": "There are no homes associated with this account",
-	"tibberErrorSmartMeterMisconfigured": "Your smart meter appears to be misconfigured.",
-	"tibberErrorConnectivityShowCacheInstead": "Unable to retrieve recent consumption data. Showing cached values instead.",
-	"tibberErrorUndefined": "An unexpected error occurred: {error}",
-	"tibberErrorRateLimit": "Tibber API rate limit exceeded. Please wait at least 5 minutes before retrying.",
-	"tibberErrorNoSubscription": "To gain full access to historical data via the API, you need an active Tibber electricity contract for the selected home.",
-	"tibberBasicAuth": "Basic Auth",
-	"tibberBasicAuthUsername": "Username",
-	"tibberBasicAuthPassword": "Password",
-	"tibberBasicAuthEnterUsername": "Please enter username",
-	"tibberBasicAuthEnterPassword": "Please enter password",
-	"tibberConsumptionEntryTotalCost": "Total cost: {totalCost}",
-	"tibberConsumptionEntryTotalProfit": "Total profit: {totalProfit}",
-	"tibberConsumptionEntryViewTimeSpanYear": "The year {year}",
-	"tibberConsumptionEntryViewTimeSpanYearStartingAt": "One year starting from {year}",
-	"tibberConsumptionEntryViewTimeSpanMonth": "The month of {month}",
-	"tibberConsumptionEntryViewTimeSpanMonthStartingAt": "One month starting {month}",
-	"tibberConsumptionEntryViewTimeSpan24Hours": "24 hours from {startTime} on {date}",
-	"tibberConsumptionEntryViewTimeSpanOneHour": "One hour from {startTime} on {date}",
-	"tibberConsumptionEntryViewTimeSpanDefault": "From: {startTime} to {endDate}",
-	"tibberWhereIsMyAccessToken": "Where can I find my \"access token\"?",
-	"tibberActionSaveAuthorizationSettings": "Save authorization settings",
-	"tibberConsentScreenHeader": "New Feature: Consumption Data from Tibber Pulse",
-	"tibberConsentScreenDescription": "Are you a Tibber customer or planning to become one? We now support the Pulse for improved energy monitoring. Please note that historical data from the Pulse is unfortunately only available to customers with an active Tibber contract.",
-	"tibberConsentScreenBenefit1Title": "View Your Electricity Consumption",
-	"tibberConsentScreenBenefit1Description": "Track your consumption in real time and uncover hidden energy guzzlers.",
-	"tibberConsentScreenStoreLink": "Visit Tibber Store",
-	"tibberConsentScreenConfigureNowButton": "Set up Tibber Pulse now",
-	"tibberConsentScreenConfigureLaterButton": "Set up Later",
-	"tibberConsentScreenGoetheStudySectionHeader": "Participation in the research Project",
-	"tibberConsentScreenGoetheStudyParticipationConsentToggle": "Yes, I want to participate in the Goethe Study",
-	"tibberConsentScreenGoetheStudyBenefit1Title": "Would you like to participate in the Goethe Study?",
-	"tibberConsentScreenGoetheStudyBenefit1Description": "Your hourly consumption from March 1st will be anonymized and provided for the Goethe study.",
-	"tibberStatusWidgetTitle": "Cache Management",
-	"tibberStatusWidgetTibberSubscriptionStatus": "Tibber Subscription Status",
-	"tibberSubscriptionStatusActive": "active",
-	"tibberSubscriptionStatusInactive": "inactive",
-	"tibberSubscriptionStatusLoading": "loading...",
-	"tibberLiveMeasurementCounterCardViewFooter": "Live Measurement",
-	"tibberLiveMeasurementsWidgetNotSupported": "Live measurements are not supported for this home.",
-	"tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "This home does not support live measurements or historical consumption data. Please select another home.",
-	"tibberLiveMeasurementsWidgetConnecting": "Connecting to Tibber Pulse...",
-	"tibberLiveMeasurementsWidgetError": "An error occurred while connecting to Tibber Pulse. Please check your access token and internet connection.",
-	"tibberLiveMeasurementWidgetTitle": "Current consumption/production at {time}",
-	"tibberLiveMeasurementWidgetTimestamp": "Timestamp",
-	"tibberLiveMeasurementWidgetPower": "Power",
-	"tibberLiveMeasurementWidgetPowerProduction": "Power Production",
-	"tibberLiveMeasurementWidgetAveragePower": "Average Power",
-	"tibberLiveMeasurementWidgetMinPower": "Min Power",
-	"tibberLiveMeasurementWidgetMaxPower": "Max Power",
-	"tibberLiveMeasurementWidgetAccumulatedConsumption": "Total Consumption (since midnight)",
-	"tibberLiveMeasurementWidgetAccumulatedProduction": "Total Production (since midnight)",
-	"tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Consumption (last hour)",
-	"tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Production (last hour)",
-	"tibberLiveMeasurementWidgetLastMeterConsumption": "Meter Reading (Consumption)",
-	"tibberLiveMeasurementWidgetLastMeterProduction": "Meter Reading (Production)",
-	"tibberLiveMeasurementWidgetAccumulatedCost": "Accumulated Cost",
-	"tibberLiveMeasurementWidgetAccumulatedReward": "Accumulated Reward",
-	"tibberLiveMeasurementWidgetPowerFactor": "Power Factor",
-	"tibberLiveMeasurementWidgetVoltagePhase1": "Voltage (Phase 1)",
-	"tibberLiveMeasurementWidgetVoltagePhase2": "Voltage (Phase 2)",
-	"tibberLiveMeasurementWidgetVoltagePhase3": "Voltage (Phase 3)",
-	"tibberLiveMeasurementWidgetCurrentL1": "Current (L1)",
-	"tibberLiveMeasurementWidgetCurrentL2": "Current (L2)",
-	"tibberLiveMeasurementWidgetCurrentL3": "Current (L3)",
-	"tibberLiveMeasurementWidgetUnitV": "V",
-	"tibberLiveMeasurementWidgetUnitW": "W",
-	"tibberLiveMeasurementWidgetUnitA": "A",
-	"tibberHomeSelectorHomeId": "Home ID: {homeId}",
-	"tibberHomeSelectorLabel": "Home",
-	"scanQrCode": "Scan activation qr code",
-	"requestAccess": "Request access",
-	"createAccount": "Create account/login",
-	"watersupplierYourSupplier": "Your water supplier",
-	"watersupplierRadioMeterDefaultName": "Radio cold water meter",
-	"watersupplierAccessRequestQ1": "Are you the owner of a property in the catchment area of the waterworks and would like to have access to radio meter readings?",
-	"watersupplierAccessRequestQ2": "Have you already requested access? Next, you need to create an EHW+ user account.",
-	"watersupplierAccessRequestQ3": "Have you already requested access and received your QR code?",
-	"watersupplierAccessRequestQ4": "Would you like to receive meter alerts so you can react in case of a pipe burst or a running toilet flush, for example?",
-	"watersupplierOpenReminderSettings": "Open settings",
-	"watersupplierScanQrCodeTitle": "Radio Meter Activation",
-	"watersupplierScanQrCodeCommand": "Scan the left QR code (activation code)!",
-	"watersupplierScanRevokeQrCodeCommand": "Scan the right QR code (revoke code)!",
-	"watersupplierScanQrCodeValidation": "QR code detected, let's validate it.",
-	"watersupplierScanQrCodeValidationFailed": "Sorry, the code is invalid. Do you want to try again?",
-	"watersupplierScanQrCodeValidationFailedRevokeScanned": "You scanned the revocation code instead of the activation code. Please try again!",
-	"watersupplierScanQrCodeValidationFailedOnboardingScanned": "You scanned the activation code instead of the revocation code. Please try again!",
-	"watersupplierScanQrCodeScanSuccessful": "Wow, activation code looks so nice! Please enter the last three digits of your meter id!",
-	"watersupplierMeterIdValidationStep": "We are checking your meter id.",
-	"watersupplierCompleteMeterIdServerErrorTryAgain": "Sorry, unfortunately that didn't work. It was due to our server. Better try again at a later date!",
-	"watersupplierCompleteMeterIdTryAgain": "You shall not pass! Please enter the last three digits of you meter id again!",
-	"watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Note: Your original meter id can have more than 8 characters.",
-	"watersupplierScanQrCodeApprovalInProgress": "We are now authorizing your account so that you can access the radio meter readings in the future.",
-	"watersupplierScanQrCodeTitleColdWaterMeterAdded": "Yeah! Your radio water meter of type \"Cold Water\" has been successfully added. You can find it among the other meters.",
-	"watersupplierUnlinkRadioMeterTitle": "Terminate Radio Meter Access",
-	"watersupplierUnlinkRadioMeterDescription1": "Do you want to delete the radio meter without invalidating the activation code?",
-	"watersupplierUnlinkRadioMeterButtonDelete": "Delete radio meter",
-	"watersupplierUnlinkRadioMeterDescription2": "Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.",
-	"watersupplierUnlinkRadioMeterButtonRevoke": "Scan revocation code",
-	"watersupplierScanQrCodeOffboardingSuccessful": "Access to your radio water meter has been canceled.",
-	"watersupplierNoAccess": "You no longer have authorization to retrieve data.",
-	"watersupplierNoAccessDetailedMessage": "If you believe that you should still have access, please scan your activation code again. If the access code is no longer valid, please submit a new access request.",
-	"zipCode": "zip code",
-	"zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
-	"zipCodeValidationLength": "Please enter a {digits}-digit postal code",
-	"@zipCodeValidationLength": {
-		"description": "Error message if the entered zip code length is invalid",
-		"placeholders": {
-			"digits": {
-				"example": "5",
-				"type": "int"
-			}
-		}
-	},
-	"houseName": "House name",
-	"houseNameDescription": "House name, e.g. street name",
-	"marketLocationId": "Market location ID",
-	"marketLocationIdDescription": "The market location ID always consists of 11 digits. You can usually find this on your last electricity or gas bill.",
-	"swimmingPool": "Swimming pool",
-	"smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} received infocode: {infocode}",
-	"@smartmeterInfocodeBannerText": {
-		"placeholders": {
-			"smartmeterId": {
-				"type": "String"
-			},
-			"infocode": {
-				"type": "String"
-			}
-		}
-	},
-	"smartmeterInfocodeBannerTextInfocodeLeckage": "Your water meter {smartmeterId} has detected a continuous water flow. This could indicate a leak. Please check your household installation for leaks. Toilets and dripping taps are common causes.",
-	"smartmeterInfocodeBannerTextInfocodeRohrbruch": "Your water meter {smartmeterId} has detected unusually high water consumption, which may indicate a pipe burst. Please check your household installation for major leaks or breaks. The alarm may also appear if you have used a large amount of water, e.g. for filling a pool.",
-	"smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Your water meter {smartmeterId} has detected unusually high water consumption, which may indicate either a pipe burst or swimming pool filling. Please check your household installation for major leaks or breaks.",
-	"smartmeterInfocodeBannerTextInfocodeFrost": "The temperature of your water meter {smartmeterId} has dropped below 3°C. There is a risk of frost! Insulate the meter and the pipes or heat the area to prevent damage.",
-	"smartMeterCountersTitle": "Radio water meters",
-	"counterOutdatedAndNextReminder": "Counter reading outdated since {date}, next reading reminder {date2}.",
-	"@counterOutdatedAndNextReminder": {
-		"placeholders": {
-			"date": {
-				"type": "String"
-			},
-			"date2": {
-				"type": "String"
-			}
-		}
-	},
-	"waterMeterEventsInformation": "{count, plural, =1 {Your wireless water meter {waterSupplier} detects unexpected consumption. If desired, you will receive a notification in such a case.} other {Your wireless water meters {waterSupplier} detect unexpected consumption. If desired, you will receive a notification in such cases.}}",
-	"@waterMeterEventsInformation": {
-		"placeholders": {
-			"count": {
-				"example": "1",
-				"type": "num"
-			},
-			"waterSupplier": {
-				"example": "from Wasserwerk Gerauer Land",
-				"type": "String"
-			}
-		}
-	},
-	"subscribeToSmartMeterInfocodeEvents": "I would like to be notified of unexpected consumption",
-	"completeButton": "Complete",
-	"reset": "Reset",
-	"settingCounterTypeColor": "Color for this counter type",
-	"settingCounterTypeColorDescription": "If you do not like the default colour for this counter type, you can assign a different colour.",
-	"settingCounterTypeColorAdvanced": "Color picker for experts",
-	"featureVotingUnderConstruction": "The feature survey is currently being revised. In the future, an EHW+ user account will be required, and the survey will no longer use third-party servers. We appreciate your patience.",
-	"termsOfUsageTitle": "General terms of use for the use of the app",
-	"termsOfUsageBlock1Title": "General terms of use for the use of the app",
-	"termsOfUsageBlock1": "Right of objection",
-	"@termsOfUsageBlock1": {
-		"placeholders": {
-			"contact": {
-				"type": "String"
-			}
-		}
-	},
-	"termsOfUsageBlock2Title": "General information on use",
-	"termsOfUsageBlock2": "The app and its functions may not be used in an abusive manner. Please use the app only within the legally permissible scope and in accordance with our terms of use. In the event of a breach of applicable German law or our terms of use, the provider reserves the right to exclude you from using the app.",
-	"termsOfUsageBlock2a": "Anonymised usage data\nWe use our own analytics to continuously improve the app. Only anonymised data is transmitted. The data is not passed on to third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
-	"@termsOfUsageBlock2a": {
-		"placeholders": {
-			"privacyBlock3Title": {
-				"type": "String"
-			}
-		}
-	},
-	"termsOfUsageBlock2b": "Error reports\\nSentry (self-hosted) is used to continuously improve the app. Error reports are neither processed nor shared with third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
-	"@termsOfUsageBlock2b": {
-		"placeholders": {
-			"privacyBlock3Title": {
-				"type": "String"
-			}
-		}
-	},
-	"termsOfUsageBlock2c": "Personal information\nIf you use Google Drive Sync, EHW+ still has no access to the data you have entered. For more information, go to Settings > Privacy > {privacyBlock3Title}.",
-	"@termsOfUsageBlock2c": {
-		"placeholders": {
-			"privacyBlock3Title": {
-				"type": "String"
-			}
-		}
-	},
-	"termsOfUsageBlock3Title": "Liability",
-	"termsOfUsageBlock3": "The provider does not guarantee the availability, reliability, functionality or suitability of the app for your purposes. Liability is excluded unless mandatory under the Product Liability Act, due to intent, gross negligence, injury to life, limb or health, the assumption of a guarantee of quality, fraudulent concealment of a defect or the breach of essential contractual obligations. Essential contractual obligations are those obligations whose fulfilment is essential for the proper execution of a contract and on whose compliance the contracting parties may regularly rely. Compensation for damages due to breach of essential contractual obligations is limited to the foreseeable damage typical for this type of contract, unless there is intent or gross negligence.",
-	"termsOfUsageBlock4Title": "Responsibilities of the user",
-	"termsOfUsageBlock4": "The provider does not guarantee the accuracy of the calculation results. Users are required to update the prices stored in the application (base prices, consumption prices, etc.) carefully and on their own responsibility in order to ensure that the invoices generated correspond to the actual amounts due.",
-	"privacyBlock1Title": "Developer",
-	"privacyBlock1Text": "The developer/provider of the application (hereinafter referred to as “app”) is, in accordance with Section 5 of the German Telemedia Act (TMG):\n\n{contact}",
-	"@privacyBlock1Text": {
-		"placeholders": {
-			"contact": {
-				"type": "String"
-			}
-		}
-	},
-	"privacyBlock1Text2": "Use of the app requires that you agree to the following terms of use. Please read them carefully.",
-	"privacyBlock2Title": "General",
-	"privacyBlock2Text": "The protection of your data is very important to us. This privacy policy explains what personal data EHW+ collects and how it is used. Fundamental changes to the privacy policy are rare, but it may be revised from time to time due to new features, technologies, or legal requirements. So please check this page from time to time to stay up to date. If we make any significant changes, we will notify you and, if necessary, obtain your consent.",
-	"privacyBlock3Title": "What data does {appNameShort} collect?",
-	"@privacyBlock3Title": {
-		"placeholders": {
-			"appNameShort": {
-				"type": "String"
-			}
-		}
-	},
-	"privacyBlock3aText": "We created {appNameShort} so that you can quickly and easily enter your meter readings and then use statistics to find out more about your consumption, its costs and potential savings. This means that you can enter, calculate or save any data, which we generally refer to as ‘content’, in {appNameShort}. This data is only stored on your mobile phone.\n\nSync with Google Drive.\nIf you enable synchronisation with Google Drive, the content will also be automatically backed up in a folder called ‘{appNameShort}’ on your Google Drive, which only you can access. By logging in with Google, your email address will be visible to the developer.",
-	"@privacyBlock3aText": {
-		"placeholders": {
-			"appNameShort": {
-				"type": "String"
-			}
-		}
-	},
-	"googleApiAgreement": "{appNameShort}’s use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.",
-	"@googleApiAgreement": {
-		"placeholders": {
-			"appNameShort": {
-				"type": "String"
-			}
-		}
-	},
-	"privacyBlock3bText": "{googleApiAgreement}\n\nLocation data.\nIn order to understand user behaviour and for future features, the app transmits anonymised usage data. The data is not shared with third parties. Information may be collected about origin (country and city), language, operating system, device type, resolution, click behaviour, and duration of use. n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS).\n\nBy using the app, you consent to the collection of anonymised data as described above.",
-	"@privacyBlock3bText": {
-		"placeholders": {
-			"googleApiAgreement": {
-				"type": "String"
-			}
-		}
-	},
-	"privacyContractPriceSubmission": "When you, as a user, maintain your contract data, the price per unit for electricity, water and gas contracts is transmitted to an EHW+ server in Germany together with the country and federal state. This data is used to calculate price statistics. For app users, the statistics are visible in the form of a price comparison in the contract view.\n\nBy using the app, you consent to the aforementioned collection of anonymised data.",
-	"privacyBlock4DataUsageTitle": "How does {appNameShort} use my data?",
-	"privacyBlock4DataUsage": "\nCollected anonymised data is used to evaluate user behaviour. Beyond this, there is no further use of data.\n\n{syncDriveDataUsage}",
-	"@privacyBlock4DataUsage": {
-		"placeholders": {
-			"syncDriveDataUsage": {
-				"type": "String"
-			}
-		}
-	},
-	"privacyBlock5Title": "Duration of storage of personal data",
-	"privacyBlock5": "The duration of the storage of personal data is determined by the respective statutory retention period (e.g. commercial and tax law retention periods). After expiry of the period, the corresponding data is routinely deleted, provided that it is no longer required for the fulfilment or initiation of a contract and/or we no longer have a legitimate interest in its continued storage.",
-	"youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",
-	"youtubeConsent2": "Always show Youtube content",
-	"youtubeConsent3": "I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our ",
-	"privacyBlock6Title": "Contact",
-	"privacyBlock6": "When you contact us (e.g. via contact form or email), personal data is collected. The data collected in the case of a contact form can be seen on the respective contact form. This data is stored and used exclusively for the purpose of responding to your enquiry or for establishing contact and the associated technical administration. The legal basis for the processing of the data is our legitimate interest in responding to your request in accordance with Art. 6 para. 1 lit. f GDPR. If your contact is aimed at concluding a contract, the additional legal basis for processing is Art. 6 para. 1 lit. b GDPR. Your data will be deleted after your enquiry has been processed, which is the case if it can be inferred from the circumstances that the matter in question has been finally clarified and provided that there are no legal obligations to retain data.",
-	"privacyBlock7Title": "Rights of the person concerned",
-	"privacyBlock7": "The applicable data protection law grants you comprehensive rights as a data subject (rights of information and intervention) vis-à-vis the controller with regard to the processing of your personal data, which we will inform you about below:\n\n- Right to information pursuant to Art. 15 GDPR: In particular, you have the right to obtain information about your personal data processed by us, the purposes of processing, the categories of personal data processed, the recipients or categories of recipients to whom your data has been or will be disclosed, the planned storage period or the criteria for determining the storage period, the existence of a right to rectification, erasure, restriction of processing, objection to processing, complaint to a supervisory authority, the origin of your data if it was not collected by us from you, the existence of automated decision-making, including profiling, and, where applicable, meaningful information about the logic involved and the significance and envisaged consequences of such processing for you, as well as your right to be informed of the guarantees that exist in accordance with Art. 46 GDPR when your data is transferred to third countries;\n\n- Right to rectification pursuant to Art. 16 GDPR: You have the right to have inaccurate data concerning you rectified without delay and/or to have incomplete data stored by us completed.\n\n- Right to erasure pursuant to Art. 17 GDPR: You have the right to request the erasure of your personal data if the conditions of Art. 17(1) GDPR are met. However, this right does not apply in particular if the processing is necessary for exercising the right of freedom of expression and information, for compliance with a legal obligation, for reasons of public interest or for the establishment, exercise or defence of legal claims.\n\n- Right to restriction of processing pursuant to Art. 18 GDPR: You have the right to request the restriction of the processing of your personal data for as long as the accuracy of your data is being verified if you have objected to the erasure of your data on the grounds of inadmissible data processing and instead request the restriction of the processing of your data if you need your data for the assertion, exercise or defence of legal claims after we no longer need this data to fulfil the purpose for which it was collected, or if you have lodged an objection on grounds relating to your particular situation, as long as it is not yet clear whether our legitimate reasons prevail;\n\n- Right to be informed pursuant to Art. 19 GDPR: If you have exercised your right to rectification, erasure or restriction of processing vis-à-vis the controller, the controller is obliged to notify all recipients to whom your personal data has been disclosed of this rectification or erasure of the data or restriction of processing, unless this proves impossible or involves disproportionate effort. You have the right to be informed about these recipients.\n\n- Right to data portability pursuant to Art. 20 GDPR: You have the right to receive your personal data that you have provided to us in a structured, commonly used and machine-readable format or to request its transfer to another controller, where technically feasible.\n\n- Right to withdraw consent granted in accordance with Art. 7(3) GDPR: You have the right to withdraw your consent to the processing of data at any time with effect for the future. In the event of withdrawal, we will delete the data concerned without delay, unless further processing can be based on a legal basis for processing without consent. The withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal.\n\n- Right to lodge a complaint pursuant to Art. 77 GDPR: If you believe that the processing of your personal data violates the GDPR, you have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your residence, your place of work or the place of the alleged infringement, without prejudice to any other administrative or judicial remedy.",
-	"privacyBlock8Title": "Right of objection",
-	"privacyBlock8": "IF WE PROCESS YOUR PERSONAL DATA ON THE BASIS OF OUR OVERRIDING LEGITIMATE INTEREST AS PART OF A BALANCING OF INTERESTS, YOU HAVE THE RIGHT TO OBJECT TO THIS PROCESSING AT ANY TIME FOR REASONS ARISING FROM YOUR PARTICULAR SITUATION, WITH EFFECT FOR THE FUTURE. IF YOU EXERCISE YOUR RIGHT TO OBJECT, WE WILL STOP PROCESSING THE DATA CONCERNED. HOWEVER, FURTHER PROCESSING REMAINS RESERVED IF WE CAN PROVE COMPELLING LEGITIMATE GROUNDS FOR THE PROCESSING WHICH OVERRIDE YOUR INTERESTS, fundamental rights and freedoms, or if the processing serves to assert, exercise or defend legal claims.\n\nIF WE PROCESS YOUR PERSONAL DATA FOR DIRECT MARKETING PURPOSES, YOU HAVE THE RIGHT TO OBJECT AT ANY TIME TO THE PROCESSING OF PERSONAL DATA CONCERNING YOU FOR THE PURPOSE OF SUCH ADVERTISING. YOU CAN EXERCISE YOUR RIGHT TO OBJECT AS DESCRIBED ABOVE.\n\nIF YOU EXERCISE YOUR RIGHT TO OBJECT, WE WILL STOP PROCESSING THE DATA CONCERNING YOU FOR DIRECT MARKETING PURPOSES.",
-	"activityTitle": "Activity",
-	"activitiesTitle": "My activities",
-	"activitiesDescription": "Link meter readings to activities, e.g., washing with cold water meters and electricity meters.",
-	"sortActivities": "Modify the order of activities",
-	"resetActivities": "Reset all activities",
-	"addActivity": "Add activity",
-	"activitySettings": "Activity settings",
-	"activityOverview": "Activity overview",
-	"activityNameLabel": "Activity name",
-	"chooseActivity": "Choose activity",
-	"selectedActivity": "Selected activity \"${activityName}\"",
-	"chooseActivityIcon": "Choose an icon",
-	"involvedCounters": "Counters involved",
-	"detailsTitle": "Details",
-	"detailWithMultiSelect": "Allow multi selection",
-	"addDetail": "Add detail",
-	"editDetailTitle": "Edit detail",
-	"activityWithEnergyConsumption": "Power consumption is only measured for activity",
-	"consumptionIsNotExclusiveTitle": "Is consumption exclusive?",
-	"consumptionIsNotExclusive": "If the consumption is not exclusive to this activity, it will be shown as a warning.",
-	"numberOfDetails": "{count, plural, one {1 detail} other {{count} details}}",
-	"@numberOfDetails": {
-		"placeholders": {
-			"count": {
-				"type": "int"
-			}
-		}
-	},
-	"reallyDeleteActivity": "Really delete this activity?",
-	"reallyDeleteDetail": "Really delete this detail?",
-	"reallyDeleteContract": "Really delete this contract?",
-	"contractCopyDialogTitle": "Do you want to make a copy of this contract?",
-	"contractCopyDialogOptionYes": "Yes, the unit price or another value has changed.",
-	"contractCopyDialogOptionNo": "No, cancel.",
-	"contractCopyDialogWhen": "From when does the new price apply?",
-	"contractCosts": "Unit price",
-	"contractCostsFeedIn": "Remuneration price/base price",
-	"counterWarmWaterPlusColdWater": "Excluding fresh water and waste water costs",
-	"advancePayment": "Advance payment",
-	"bonus": "Bonus",
-	"bonusInfoTitle": "Information about bonus tariffs",
-	"bonusInfoText": "Tariffs with bonus often allow for particularly high savings when changing providers. However, this usually results exclusively from the one-time bonus. That means: The total costs are so low only in the first year of supply. High work and/or basic prices provide in the second year for a clearly higher calculation. Therefore, with bonus tariffs you should plan from the outset to change again after one year. Bonus tariffs with a term of two years, where this cancellation is not possible at all, should be questioned particularly critically.",
-	"source": "Source: ",
-	"basePrice": "Base price",
-	"gross": "gross",
-	"net": "net",
-	"grossNetPrices": "Gross or net price",
-	"taxRate": "Tax rate",
-	"perUnit": "per {unit}",
-	"@perUnit": {
-		"placeholders": {
-			"unit": {
-				"type": "String"
-			}
-		}
-	},
-	"wasteWaterPriceEnabled": "Fresh water and waste water costs are shown separately (relevant for deduction meters)",
-	"pricePerUnit": "Price per unit",
-	"pricePerUnitFeedIn": "Remuneration price",
-	"pricePerUnitWaterWarm": "Hot water heating costs",
-	"pricePerUnitWaterCold": "Cost of cold water",
-	"pricePerUnitFreshWater": "Costs for fresh water",
-	"pricePerUnitWasteWater": "Waste water price",
-	"paidAdvancePayments": "Advance payments",
-	"supplementaryPayment": "Supplementary payment",
-	"refund": "Refund",
-	"costs": "Costs",
-	"contract": "Contract",
-	"contractDetails": "Contract duration and details",
-	"usedForPaymentsRepayments": "Advance payment, base price, and bonus",
-	"contractName": "Provider/contract name",
-	"contractNumber": "Contract number",
-	"contractStart": "Contract start date",
-	"contractPeriod": "Contract period",
-	"cancellationPeriod": "Cancellation period",
-	"activityWash": "Washing",
-	"activityWashTemperature": "Temperature",
-	"activityWashDuration": "Duration",
-	"activityWashDuration2hrs": "2h",
-	"activityWashRotations": "Rotations",
-	"activityWashShort": "Short program",
-	"activityShower": "Shower",
-	"activityBath": "Bath",
-	"activityDishWasher": "Dish washer",
-	"activityIron": "Ironing",
-	"errorNoInternet": "No network",
-	"errorInvalidRange": "No valid range",
-	"syncDriveLoggedIn": "Your data is automatically synchronized across multiple devices. The following Google account is used:",
-	"syncDriveLoggedInNoAuto": "Your data is automatically uploaded to Google Drive after a change. Newer data from the cloud only overwrites local data when you click on the object. The following Google account is used:",
-	"syncDriveDataUsage": "If you grant EHW+ access to Google Drive, the app will have read and write access to files created by the app itself. Unfortunately, files created by others through this app are not visible to the app, which means data sharing between multiple accounts via Google Drive is not possible.",
-	"syncAutomaticTitle": "Local data may be overwritten",
-	"syncShareWithOthersTitle": "Share with others?",
-	"syncShareWithOthersSubtitle": "If you want to enter meter readings together with other Google users, EHW+ must be granted full access to Google Drive.",
-	"syncShareWithOthersNotInWeb": "Granting access is currently only possible via app.",
-	"syncWithGoogleDriveDescription": "Because it would be a shame if the meter readings were lost, synchronise your objects with Google Drive now!",
-	"driveSyncStatusTitle": "Synchronization status",
-	"driveSyncStatusNotSynced": "Not synchronized",
-	"driveSyncStatusFailed": "Failed to synchronize",
-	"driveSyncStatusComparing": "Comparing with file on server",
-	"driveSyncStatusSyncing": "Sync in progress",
-	"driveSyncStatusLocalHasLatestNoCloud": "The file saved on this device from {localDate} is not saved inside the cloud",
-	"@driveSyncStatusLocalHasLatestNoCloud": {
-		"placeholders": {
-			"localDate": {
-				"type": "String"
-			}
-		}
-	},
-	"driveSyncStatusLocalHasLatestWithCloud": "The file saved on this device from {localDate} is more up-to-date than the file in the cloud from {cloudDate}",
-	"@driveSyncStatusLocalHasLatestWithCloud": {
-		"placeholders": {
-			"localDate": {
-				"type": "String"
-			},
-			"cloudDate": {
-				"type": "String"
-			}
-		}
-	},
-	"driveSyncStatusRemoteHasLatestNoLocal": "The file in the cloud from {cloudDate} is not saved on this device",
-	"@driveSyncStatusRemoteHasLatestNoLocal": {
-		"placeholders": {
-			"cloudDate": {
-				"type": "String"
-			}
-		}
-	},
-	"driveSyncStatusRemoteHasLatestWithLocal": "The file in the cloud from {cloudDate} is more up-to-date than the local file from {localDate}",
-	"@driveSyncStatusRemoteHasLatestWithLocal": {
-		"placeholders": {
-			"cloudDate": {
-				"type": "String"
-			},
-			"localDate": {
-				"type": "String"
-			}
-		}
-	},
-	"driveSyncStatusUpToDate": "Up to date from {localDate}",
-	"@driveSyncStatusUpToDate": {
-		"placeholders": {
-			"localDate": {
-				"type": "String"
-			}
-		}
-	},
-	"driveSyncWithGoogle": "Google Drive Sync",
-	"driveSyncNow": "Sync now",
-	"driveSignInWithGoogle": "Sign in with Google",
-	"signInWithGoogle": "Sign in with Google",
-	"signInWithApple": "Sign in with Apple",
-	"signInWithGithub": "Sign in with GitHub",
-	"signInWithSocialAccount": "Which social account do you want to use to create or sign in to your EHW+ account?",
-	"syncStatusFailedLong": "Failed to synchronize, editing is at your own risk",
-	"syncStatusFailedLongNoAutoSync": "Failed to synchronize, editing is at your own risk",
-	"syncStatusSyncRemoteHasLatest": "The file in the cloud is more up-to-date than the local file",
-	"syncObjectIsLocked": "Object data is being updated and cannot be edited during this time.",
-	"importExport": "Backup/Restore",
-	"import": "Import",
-	"importPickFile": "Select file",
-	"importSelectSingleCounter": "Single counter (CSV file)",
-	"importSelectJson": "JSON file (created with {appName})",
-	"@importSelectJson": {
-		"placeholders": {
-			"appName": {
-				"type": "String"
-			}
-		}
-	},
-	"importWhichCounterForCsv": "Which counter should be used?",
-	"importNewOrExistingCounter": "Add to new or existing counter?",
-	"importConfirm": "Confirm import",
-	"importTheObject": "Import object",
-	"importExplanation": "You already made counter readings and want to insert them?",
-	"importCounterAsCsv": "Do you want to import a single meter? Supported per meter is a CSV file with two columns, one for the time and one for the meter reading.\n\nExample data:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
-	"importSuccessful": "Import successful",
-	"importNotPossible": "Import not possible",
-	"importErrorCsvIgnoredLines": "{count, plural, one {One line was ignored: {lines}} other {{count} lines were ignored: {lines}}}",
-	"@importErrorCsvIgnoredLines": {
-		"placeholders": {
-			"count": {
-				"type": "int"
-			},
-			"lines": {
-				"type": "String"
-			}
-		}
-	},
-	"importErrorCsvIgnoredColumns": "{columns, plural, one {Only the first two columns were used. The third column was ignored.} other {Only the first two columns were used, {columns} columns were ignored.}}",
-	"@importErrorCsvIgnoredColumns": {
-		"placeholders": {
-			"columns": {
-				"type": "int"
-			}
-		}
-	},
-	"consentTitle": "Privacy Settings",
-	"privacyTitle": "Privacy policy",
-	"imprintTitle": "Imprint",
-	"faqTitle": "FAQ",
-	"socialFacebook": "Facebook",
-	"socialInstagram": "Instagram",
-	"socialTwitter": "X",
-	"export": "Export",
-	"exportExplanation": "Which existing object do you want to export, for example to transfer it to a new device?",
-	"exportWhere": "In which format should the object be exported?",
-	"exportWhichValuesShouldBeExported": "Which values should be exported?",
-	"exportOptionExcel": "Excel file",
-	"exportOptionPdf": "PDF file",
-	"exportOptionFileDescription": "The object is shared as an {fileType} file",
-	"@exportOptionFileDescription": {
-		"placeholders": {
-			"fileType": {
-				"type": "String"
-			}
-		}
-	},
-	"socialLinkedIn": "LinkedIn",
-	"socialYouTube": "YouTube",
-	"socialEmail": "Email",
-	"social": "Social Media",
-	"support": "Support/Feedback",
-	"supportQuestion": "Ask a question",
-	"supportQuestionBox": "How can I help you?",
-	"supportQuestionNotFound": "Your question was not answered? I would be happy to help.",
-	"supportQuestionLong": "How does it work? Is it possible at all? Here are the answers.",
-	"supportReportBug": "Report a bug via mail",
-	"supportReportBugTextIs": "Please briefly describe the current incorrect behavior, i.e. the error itself.",
-	"supportReportBugTextShould": "Please briefly describe the desired behavior, i.e. how it should actually be.",
-	"supportReportBugAffectedPages": "On which pages does the error occur? (if applicable)",
-	"supportReportBugScreenshotsPlease": "Please attach a screenshot in the mail, preferably with marking of the error.",
-	"supportBug": "Bug",
-	"supportReportBugLong": "Great app! But sure, things can go wrong. If you report bugs, you make the app better.",
-	"supportGivePraise": "Give praise",
-	"supportGivePraiseLong": "Do you like the app? Thank you! Spread the word!",
-	"supportGivePraiseRecommendation": "Recommend the app to friends and family. Thank you for any recommendation!",
-	"supportRecommend": "I use the meter reading app EHW+ to keep track of my energy consumption and the associated costs. Maybe that would be something for you, too?\n\nMore info at https://www.ehwplus.com",
-	"supportGivePraiseRating": "Rate the app in {store}.",
-	"@supportGivePraiseRating": {
-		"placeholders": {
-			"store": {
-				"type": "String"
-			}
-		}
-	},
-	"electricityConsumption": "Power consumption",
-	"waterExtractionMinimumLevelLower": "Deduction takes place because consumption is lower than threshold.",
-	"outdatedCounters": "Counters no longer in use",
-	"isOutdatedCounter": "Counter is no longer used",
-	"waterConsumption": "Water consumption",
-	"rooms": "Rooms",
-	"messageNoRooms": "No rooms yet. Rooms help group meters.",
-	"settingObjectType": "Object type",
-	"settingObjectTypeFlat": "Apartment",
-	"settingObjectTypeHouse": "House",
-	"settingLivingArea": "Living area",
-	"unitSquareMeters": "sqm",
-	"unitMWhShort": "MWh",
-	"unitMWhLong": "{count, plural, one {Megawatt hour (MWh)} other {Megawatt hours (MWh)}}",
-	"@unitMWhLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitKWhShort": "kWh",
-	"unitKWhLong": "{count, plural, one {Kilowatt hour (kWh)} other {Kilowatt hours (kWh)}}",
-	"@unitKWhLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitGJShort": "GJ",
-	"unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
-	"@unitGJLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitLitersShort": "ℓ",
-	"unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
-	"@unitLitersLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitCmShort": "cm",
-	"unitCmLong": "cm",
-	"unitSquareMetersShort": "m²",
-	"unitSquareMetersLong": "{count, plural, one {Square meter (m²)} other {Square meters (m²)}}",
-	"@unitSquareMetersLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitCubicMetersShort": "m³",
-	"unitCubicMetersLong": "{count, plural, one {Cubic meter (m³)} other {Cubic meters (m³)}}",
-	"@unitCubicMetersLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitPercentShort": "%",
-	"unitPercentLong": "Percent (%)",
-	"unitKgShort": "kg",
-	"unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilograms (kg)}}",
-	"@unitKgLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitHoursShort": "h",
-	"unitHoursLong": "{count, plural, one {Hour} other {Hours (h)}}",
-	"@unitHoursLong": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitNoneFormatted": "{count, plural, one {unit} other {units}}",
-	"@unitNoneFormatted": {
-		"placeholders": {
-			"count": {
-				"type": "num"
-			}
-		}
-	},
-	"unitMegaByteShort": "MB",
-	"unitMegaByteLong": "MB",
-	"unitGigaByteShort": "GB",
-	"unitGigaByteLong": "GB",
-	"settingHouseholdSize": "Household size",
-	"settingHouseholdSizeDescription": "Number of people in your household.",
-	"settingWaterHeater": "Water heater",
-	"settingEAuto": "Electric car",
-	"settingObjectLocation": "Location",
-	"settingObjectLocationTitle": "Where is your object located?",
-	"settingObjectLocationExplanation": "Entering the location helps tailor insights and services to your area.",
-	"counterBackgroundImageOfObject": "Background image for object",
-	"manageMoreThanOneObjectStep1": "Manage more than one object - Step 1",
-	"manageMoreThanOneObjectStep2": "Manage more than one object - Step 2",
-	"contracts": "Contracts",
-	"messageNoContracts": "No contracts yet.",
-	"outdatedContracts": "Outdated contracts",
-	"contractType": "Contract type",
-	"electricity": "Electricity",
-	"electricityBack": "Electricity fed in",
-	"electricityGenerated": "Generated electricity",
-	"heatPump": "Heat pump",
-	"coldWater": "Cold water",
-	"counterHeater": "Radiator meter",
-	"counterDistrictHeating": "District Heating",
-	"counterOilHeating": "Oil heating",
-	"counterGas": "Gas meter",
-	"counterColdWater": "Cold water meter",
-	"counterWaterExtraction": "Water extraction meter (garden)",
-	"counterWaterExtractionExplanation": "With a deduction meter the waste water costs can be reduced. With this in-app purchase you can specify different costs for fresh water and waste water and the meter reading from the deduction meter will be taken into account in the water costs.",
-	"warmWater": "Warm water",
-	"counterWarmWater": "Warm water meter",
-	"counterElectricity": "Electricity meter",
-	"counterElectricityBack": "Electricity feed-in meter (PV)",
-	"counterElectricityGenerated": "Electricity generation meter",
-	"counterPvFeedInCounter": "Renewable energies (solar power and heat with PV/solar systems)",
-	"counterPvFeedInCounterExplanation": "\nUse an electricity feed-in meter to record the electricity generated and fed in\nwith a photovoltaic system. The resulting revenue is offset against the cost of\nthe electricity drawn.",
-	"virtualCounter": "Virtual meter",
-	"heater": "Radiator",
-	"gas": "Gas",
-	"oil": "Oil",
-	"stove": "Stove",
-	"networkCounter": "Internet & phone",
-	"solarThermalCollector": "Solar Thermal Collector",
-	"contractTypeElectricityProvider": "Electricity provider",
-	"contractTypeWaterFees": "Water fees",
-	"contractTypeHeatingFees": "Heating fees",
-	"contractTypeOilProvider": "Oil provider",
-	"contractTypeGasProvider": "Gas provider",
-	"contractTypeStove": "Stove",
-	"contractTypeNetwork": "Internet & phone",
-	"currency": "Currency",
-	"costsUndefinedFor": "Costs undefined",
-	"exportOptionReadingsTitle": "Reading values",
-	"exportOptionReadingsSubtitle": "Typically meter readings or consumption with irregular intervals.",
-	"exportOptionConsumptionsTitle": "Daily consumption",
-	"exportOptionConsumptionsSubtitle": "A consumption value for each day since the first reading.",
-	"settings": "Settings",
-	"roomOther": "Other",
-	"previouslyDeletedCounters": "Recently deleted meters",
-	"restoreDeletedCounter": "Would you like to restore this deleted meter?",
-	"localWriteTitle": "Save in the local download folder",
-	"localWriteSubtitle": "Should the objects and photos be saved in the local \"{folder}\" folder with each change?",
-	"settingUiMode": "User interface",
-	"settingUiColorPalette": "Color palette",
-	"settingUiModeDarkOrLight": "Dark/light user interface",
-	"settingLanguageMode": "Language",
-	"settingUiModeOsDefault": "System",
-	"settingUiModeLight": "Light",
-	"settingUiModeDark": "Dark",
-	"appBarExpandedMode": "App bar with background image",
-	"useDismissibleSettings": "Delete by swipe gesture",
-	"useDismissibleSettingsDetailed": "Counters, contracts, etc. can be deleted by a side-swipe movement",
-	"settingsExternalServices": "External services",
-	"settingsShowTabNewsDetailed": "Should the News/Tips tab be visible?",
-	"settingsShowStromGedacht": "Should tips from StromGedacht about the power grid be displayed?",
-	"lineChartAppearanceSettings": "Line charts appearance",
-	"lineChartAppearanceSettingsShowSpots": "Show (circular) spots on the lines of charts",
-	"supportMakeSuggestion": "Suggest something",
-	"supportMakeSuggestionLong": "The app lives from user suggestions. Do you have a suggestion?",
-	"featureVoting": "Feature voting",
-	"featureVotingOnlyOnGerman": "The feature survey is not translated into other languages.",
-	"notifications": "Notifications",
-	"notificationsEmpty": "No notifications",
-	"notificationsSmartMeterAlertFallback": "You have a new smart meter alert.",
-	"readingNew": "New reading",
-	"readingUpdate": "Update reading",
-	"readingPrefill": "Auto-fill meter reading",
-	"readingPrefillDisabled": "Auto-fill disabled",
-	"readingPrefillEnableForAllCounters": "Enable auto-fill for all counters",
-	"readingPrefillDisableForAllCounters": "Disable auto-fill for all counters",
-	"readingPrefillDescription": "Pre-fill meter readings based on previous entries",
-	"readingPrefillDisabledToast": "Auto-fill disabled",
-	"readingSubmitted": "Meter reading submitted",
-	"readingDeleteConfirm": "Delete reading?",
-	"reminderTime": "Reminder time",
-	"reminderWeekdayExplanation": "There is a reminder to take a reading no more than once a day.",
-	"reminderWeekdayExplanationSeasonal": "For meters with seasonal consumption, reminders are only sent in months with consumption (works only if values of the last year are given).",
-	"readingReminder": "{count, plural, one {Reading reminder} other {Reading reminders}}",
-	"@readingReminder": {
-		"placeholders": {
-			"count": {
-				"example": "2",
-				"type": "int"
-			}
-		}
-	},
-	"readingReminders": "Reading reminders",
-	"readingReminderDisabled": "Reading reminder not active",
-	"readingRemindersChannel": "Reading reminders",
-	"readingReminderSingleBody": "Read {counterName} value now",
-	"@readingReminderSingleBody": {
-		"placeholders": {
-			"counterName": {
-				"type": "String"
-			}
-		}
-	},
-	"readingReminderMultiBody": "{count, plural, one {Read readings from {count} meter now} other {Read readings from {count} meters now}}",
-	"@readingReminderMultiBody": {
-		"placeholders": {
-			"count": {
-				"type": "int"
-			}
-		}
-	},
-	"contractReminder": "Contract reminder",
-	"outdated": "Outdated",
-	"counterNew": "New counter",
-	"counterEdit": "Edit counter",
-	"counterGasConversionFactor": "Conversion factor",
-	"counterGasCalorificValue": "Calorific value",
-	"counterGasConversionFactorHelpText": "Ca 1.0. The condition number is used to convert the operating volume into a standard volume. The operating condition is the condition of the gas at the meter and is dependent on the pressure (altitude) and temperature present.",
-	"counterGasCalorificValueHelpText": "Heating value: Dimensionless factor for converting the measured gas volume into energy. Natural gas: usually between 9.0 and 12.5 kWh/m³, LPG: between 23.0 and 33.0 kWh/m³",
-	"counterTypeLabel": "Counter type",
-	"counterMeterId": "Meter ID",
-	"counterName": "Counter name",
-	"counterContractCurrentlyUsed": "Currently used contract",
-	"counterSelected": "Selected",
-	"counterNoContractSelected": "No contract selected",
-	"counterOtherContracts": "Other contracts",
-	"counterExcludedContracts": "Excluded contracts",
-	"counterInclude": "Include",
-	"counterExclude": "Exclude",
-	"counterTankCapacity": "Tank capacity",
-	"counterTankFillHeight": "Fill height",
-    "counterFactorDescription": "Is consumption only allocated to you on a pro rata basis? Enter the proportion as a value between 0.1 (10%) and 1.0 (100%).",
-	"counterTransducerFactor": "Transformer ratio",
-	"counterProportionateConsumption": "Proportionate consumption",
-	"counterFactor": "Factor",
-	"counterTransducerFactorExplained": "If a voltage transformer is used to step down the voltage before it reaches the meter, a new conversion factor must be applied to obtain the correct readings. Example: the meter displays 100,000 kWh with a conversion factor of 20. The correct reading is: 100,000 kWh x 20 = 2,000,000 kWh.",
-	"counterFractionDigits": "Fraction digits",
-	"counterDirection": "Direction",
-	"counterDirectionExplanation": "Does the value decrease with use (level indicator, etc.) or does the value increase with use (burner hours, oil meter, etc.) or is each reading value independent (consumption/yield)?",
-    "counterConsiderForTotalConsumptions": "Consider for total consumptions",
-  	"counterConsiderForTotalElectricity": "Consider for total electricity consumption",
-    "counterConsiderForTotalWater": "Consider for total water consumption",
-	"counterWaterExtractionMinimumLevel": "Minimum level",
-	"counterBackgroundImage": "Background image for counter",
-	"counterShowReadingsChart": "Show readings chart",
-	"counterShowHeatmap": "Show heatmap",
-	"counterShowPreliminaryCurve": "Show preliminary curve",
-	"seasonalCounter": "Seasonal counter",
-	"seasonalElectricityCounter": "Seasonal electricity counter",
-	"counterExplainSeasonal": "Set meter readings to 0 during the summer? In the winter, the readings will follow your normal consumption pattern; in summer, they will stay flat.",
-	"counterIsOutdated": "Counter is outdated",
-	"counterLinkMoreRecent": "Link more recent counter",
-	"counterReplacedBy": "Replaced by",
-	"counterReallyDeleteLink": "Delete link?",
-	"counterDeleteConfirm": "Delete counter?",
-	"counterGasCalorificValueLabel": "Calorific value*",
-	"counterGasConversionFactorLabel": "Conversion factor*",
-	"counterNoRoomConnection": "No room connection",
-	"counterRoom": "Room",
-	"counterMessageRoomOptional": "A room assignment helps with grouping but is optional.",
-	"teaserPurchaseVirtualCounter": "Add virtual counters with Premium.",
-	"teaserPurchaseWaterExtractionCounter": "Unlock water extraction counters with Premium.",
-	"teaserPurchaseRenewableEnergies": "Renewable energy counters require Premium.",
-	"settingYearlyReset": "Yearly reset",
-	"settingYearlyResetOn": "on",
-	"settingShowCounterReadingsChart": "Show readings chart",
-	"settingShowHeatmap": "Show heatmap",
-	"settingShowPreliminaryCurve": "Show preliminary curve",
-	"unitLiters": "liters",
-	"unitCm": "cm",
-	"unitNone": "none",
-	"roomType": "Room type",
-	"roomName": "Room name",
-	"roomNameHint": "Optionally assign a room name",
-	"roomNew": "New room",
-	"roomDeleteConfirm": "Delete room?",
-	"settingColor": "Color",
-	"counterNum": "{count} counters",
-	"@counterNum": {
-		"placeholders": {
-			"count": {
-				"type": "int"
-			}
-		}
-	},
-	"timeInFuture": "In the future",
-	"timeLastUpdated": "last updated",
-	"timeSeconds": "sec",
-	"timeMinutes": "minutes",
-	"timeHours": "hours",
-	"timeDays": "days",
-	"timeDaysWithin": "days",
-	"timeMonth": "month",
-	"timeMonths": "months",
-	"timeMonthsWithin": "months",
-	"timeJustNow": "just now",
-	"timeMinutesAgo": "{minutes} minutes ago",
-	"@timeMinutesAgo": {
-		"placeholders": {
-			"minutes": {
-				"type": "int"
-			}
-		}
-	},
-	"timeHoursAgo": "{hours} hours ago",
-	"@timeHoursAgo": {
-		"placeholders": {
-			"hours": {
-				"type": "int"
-			}
-		}
-	},
-	"timeToday": "today",
-	"timeDayAgo": "one day ago",
-	"timeDaysAgo": "{days} days ago",
-	"@timeDaysAgo": {
-		"placeholders": {
-			"days": {
-				"type": "int"
-			}
-		}
-	},
-	"timeMonthsAgo": "{months} months ago",
-	"@timeMonthsAgo": {
-		"placeholders": {
-			"months": {
-				"type": "int"
-			}
-		}
-	},
-	"timeForFirstYear": "for the first year",
-	"timeWeek": "week",
-	"timeWeeks": "weeks",
-	"timeWithin": "Within {duration}",
-	"@timeWithin": {
-		"placeholders": {
-			"duration": {
-				"type": "String"
-			}
-		}
-	},
-	"timeYesterday": "yesterday",
-	"timeMonday": "Monday",
-	"timeTuesday": "Tuesday",
-	"timeWednesday": "Wednesday",
-	"timeThursday": "Thursday",
-	"timeFriday": "Friday",
-	"timeSaturday": "Saturday",
-	"timeSunday": "Sunday",
-	"timeFromUndefined": "Undefined",
-	"timeUntilUnlimited": "Unlimited",
-	"timeUntilDate": "Until {date}",
-	"@timeUntilDate": {
-		"placeholders": {
-			"date": {
-				"type": "String"
-			}
-		}
-	},
-	"timeFromDate": "From {date}",
-	"@timeFromDate": {
-		"placeholders": {
-			"date": {
-				"type": "String"
-			}
-		}
-	},
-	"timeReminderAtStart": "At start",
-	"timeReminderAtEnd": "At end",
-	"timePeriodYearStart": "yearly",
-	"timeRightNow": "Right now",
-	"timeBefore": "Before",
-	"purchasesUpgrade": "Upgrade",
-	"upgradeDescription": "The app can do more. Better cost overview, more statistics, Excel export, more counters, ...",
-	"purchasesWhyBuyTitle": "Why should I buy something?",
-	"purchasesWhyBuyText": "With a purchase you participate in the costs I incur by publishing the app and support the further development.",
-	"purchasesIOSRestorePurchases": "Restore purchases",
-	"purchasesIOSRestorePurchasesDescription": "If you have already purchased something in the AppStore in the past, you can restore the purchases.",
-	"purchasesDisabledOnIOS": "In-app purchases disabled",
-	"purchasesDisabledOnIOSDescription": "Please check if in-app purchases are disabled on your iPhone (Settings > Screen Time > Restrictions > App Installations & Purchases > Allow In-App Purchases)",
-	"purchasesDisabledOnIOSDescriptionTestflight": "The app was installed via Testflight. Please note that purchases only work in the app if you install the app via the App Store.",
-	"purchasesSubscribePremium": "Subscribe Premium",
-	"purchasesSubscribePremiumTextLong": "Access to all paid features during the subscription period + outdoor temperatures",
-	"purchasesWebLegalNote": "For legal reasons, a purchase is only possible for an iPhone or Android phone with PlayStore services.",
-	"purchasesYourPurchases": "You have access to the following premium packages:",
-	"purchasesExtensionsTitle": "Single extensions",
-	"purchasesExtensionsSubtitle": "Buy once, use permanently (no subscription)",
-	"purchasesExtensionStatisticsTitle": "Advanced statistics",
-	"purchasesExtensionMultipleObjectsTitlePart": "Managing multiple objects",
-	"purchasesExtensionMultipleObjectsDescription": "Enter the meter readings for as many apartments/houses/objects as you like (instead of just for one object)",
-	"purchasesExtensionsInWork": "Further extensions are planned. Take part in the feature survey to have your say.",
-	"purchasesSubscribeNow": "Subscribe now",
-	"purchasesBuyNow": "Buy now",
-	"purchasesRedeemCode": "Redeem code",
-	"purchasesEarlyBirdSubscription": "Note: If this first-time customer subscription is canceled, it cannot be subscribed to again afterwards.",
-	"purchasesPurchasedIncludedInPremium": "Included in Premium",
-	"purchasesPurchasedSubscribed": "Subscribed",
-	"purchasesPurchased": "Purchased",
-	"purchasesExtensionStatisticsDescription": "Access to yearly/monthly/weekly consumption of electricity/gas/water/... + period adjustments + detailed cost overview + Excel export",
-	"commonAnd": "and",
-	"purchasesSubscribePremiumMonthly": "Monthly cancelable subscription for only {price} per month",
-	"@purchasesSubscribePremiumMonthly": {
-		"placeholders": {
-			"price": {
-				"type": "String"
-			}
-		}
-	},
-	"purchasesSubscribePremiumMonthlyWithNewPrice": "Monthly cancelable subscription at the loyalty price of {price} per month instead of {priceNew}",
-	"@purchasesSubscribePremiumMonthlyWithNewPrice": {
-		"placeholders": {
-			"price": {
-				"type": "String"
-			},
-			"priceNew": {
-				"type": "String"
-			}
-		}
-	},
-	"purchasesSubscribePremiumYearly": "Annually cancelable subscription for only {price} per year",
-	"@purchasesSubscribePremiumYearly": {
-		"placeholders": {
-			"price": {
-				"type": "String"
-			}
-		}
-	},
-	"purchasesSubscribePremiumYearlyWithNewPrice": "Yearly cancelable subscription at the loyalty price of {price} per year instead of {priceNew}",
-	"@purchasesSubscribePremiumYearlyWithNewPrice": {
-		"placeholders": {
-			"price": {
-				"type": "String"
-			},
-			"priceNew": {
-				"type": "String"
-			}
-		}
-	},
-	"purchasesStatisticsWithPremium": "With Premium, you get access to a monthly comparison{count, plural, =0{.}=1{.}other{ and also see historical data for {years}.}}",
-	"@purchasesStatisticsWithPremium": {
-		"placeholders": {
-			"years": {
-				"type": "String"
-			},
-			"count": {
-				"type": "int"
-			}
-		}
-	},
-	"smartMeterProviderTibber": "Tibber",
-	"smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
-	"smartMeterProviderUndefined": "Not set",
-	"sync": "Sync",
-	"costsUndefinedForType": "{type} for undefined",
-	"costsUndefinedElectricity": "Electricity fees",
-	"costsUndefinedColdWater": "Cold water fees",
-	"costsUndefinedWarmWater": "Warm water fees",
-	"costsUndefinedHeater": "Heater fees",
-	"costsUndefinedOilHeating": "Oil fees",
-	"costsUndefinedGas": "Gas fees",
-	"costsUndefinedNetworkCounter": "Internet fees",
-	"updateAvailable": "The app version {oldVersion} is not up to date. You can update to version {newVersion}.",
-	"@updateAvailable": {
-		"placeholders": {
-			"oldVersion": {
-				"type": "String"
-			},
-			"newVersion": {
-				"type": "String"
-			}
-		}
-	},
-	"versionIsUpToDate": "The latest app version released to all users is {version}.",
-	"@versionIsUpToDate": {
-		"placeholders": {
-			"version": {
-				"type": "String"
-			}
-		}
-	},
-	"messageNoCounters": "You have not yet created a counter.",
-	"messageNoCounterReadings": "You have not yet entered a counter reading.",
-	"parsingObjectError": "The object cannot be parsed. Please contact the developer. When uninstalling the app, the data may be lost.",
-	"reallyDeleteCounter": "Are you sure you want to delete the counter?",
-	"reallyDeletePhoto": "Are you sure you want to delete the meter reading photo?",
-	"reallyDeleteCounterLink": "Are you sure you want to delete the link between the counters?",
-	"virtualCounterNotConfigured": "Please check the settings of your virtual meter. Nothing can be calculated.",
-	"virtualCounterMasterCounter": "Master meter",
-	"virtualCounterMasterCounterAttach": "Select main meter",
-	"virtualCounterMasterCounterDescription": "Info: The main meter forms the basis for the calculation of the virtual meter, e.g., the main electricity meter or the main water meter.",
-	"virtualCounterMetersToBeSubtracted": "Meters to be subtracted",
-	"virtualCounterMetersToBeSubtractedDescription": "Which meter readings should be subtracted from the main meter, e.g., \"heat pump meters\", \"electricity feed-in meters\".",
-	"virtualCounterMetersToBeAdded": "Meters to be added",
-	"virtualCounterMetersToBeAddedDescription": "Which meter readings should be added to the main meter, e.g., power generation meters.",
-	"areYouSure": "Are you sure?",
-	"addNewValue": "Enter new value",
-	"reallyDeleteValue": "Do you really want to delete this value?",
-	"warning": "Warning",
-	"messageNotEnoughData": "Not enough data to display the chart",
-	"messageNoConsumptions": "Statistics for all meters of a type appear here if enough readings have been taken. For example, two cold water meters, two hot water meters and one water extraction meter are shown in one water statistic.",
-	"lastReading": "last reading",
-	"chartDottedLinesNonSeasonal": "The dashed curves represent the previous period. For the selection \"Last 14 days\", for example, the 28 last days appear, with the older 14 of them being shown dashed.",
-	"chartDottedLinesSeasonal": "The dashed curves represent the previous period. For the selection \"Last 14 days\", for example, the 28 last days appear, with the older 14 of them being shown dashed.",
-	"chartHorizontalLines": "The dashed lines are intended to provide feedback on your own consumption.",
-	"chartHorizontalLineWater": "On average, each person in Germany uses 127 liters of drinking water in the household every day. The blue line represents cold water (60%), the red line hot water (40%), extrapolated to the number of days in the period and the number of people.",
-	"chartHorizontalLineElectricityGas": "The green line stands for a very good consumption, the yellow line for a good consumption, the red line for the German average consumption.",
-	"per": "per",
-	"costSummary": "Cost summary",
-	"costSummaryYield": "Remuneration price/-base price",
-	"soFar": "so far",
-	"forX": "for",
-	"corresponds": "corresponds",
-	"warningCounterReplacementDetected": "The new value is lower than the previous meter reading. Has the meter been replaced?",
-	"warningYearlyReset": "Zero reading at the beginning of the year",
-	"warningReadingSmallerThanOldValue2": "The new value is lower than the previous meter reading. Was the reading taken correctly?",
-	"warningReadingBiggerThanOldValueOilVolume": "The new value is higher than the previous meter reading. Have you refilled the tank?",
-	"warningReadingSeemsTooBig": "The new value is quite high. Was the reading taken correctly?",
-	"warningReadingSeemsTooSmall": "The new value is quite low. Was it read correctly?",
-	"meterReadingsFilterAll": "Show all",
-	"meterReadingsFilterComments": "Show only entries with comments",
-	"meterReadingsFilterSubmitted": "Show only \"{state}\"",
-	"@meterReadingsFilterSubmitted": {
-		"placeholders": {
-			"state": {
-				"type": "String"
-			}
-		}
-	},
-	"isLastEntryAtFilteredList": "Oldest value in filtered list",
-	"initialReading": "Initial reading",
-	"warningReadingBiggerThanOldValue": "The new value is higher than the previous meter reading.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
-	"@warningReadingBiggerThanOldValue": {
-		"placeholders": {
-			"isOilCounter": {
-				"type": "String"
-			}
-		}
-	},
-	"warningReadingOutdatedForYearlyResetCounter": "The final meter reading for the year {lastYear} for the {deviceTypeName} {roomNamePart}is missing. This is necessary for a correct calculation of the total annual consumption.",
-	"@warningReadingOutdatedForYearlyResetCounter": {
-		"placeholders": {
-			"lastYear": {
-				"type": "String"
-			},
-			"deviceTypeName": {
-				"type": "String"
-			},
-			"roomNamePart": {
-				"type": "String"
-			}
-		}
-	},
-	"warningReadingOutdatedFrequency": "The latest meter reading for the {deviceTypeName} {roomNamePart}is outdated {outdatedSinceText}.{whenNotifyDateText}",
-	"@warningReadingOutdatedFrequency": {
-		"placeholders": {
-			"deviceTypeName": {
-				"type": "String"
-			},
-			"roomNamePart": {
-				"type": "String"
-			},
-			"outdatedSinceText": {
-				"type": "String"
-			},
-			"whenNotifyDateText": {
-				"type": "String"
-			}
-		}
-	},
-	"valueLess": "{value} less",
-	"@valueLess": {
-		"placeholders": {
-			"value": {
-				"type": "String"
-			}
-		}
-	},
-	"valueMore": "{value} more",
-	"@valueMore": {
-		"placeholders": {
-			"value": {
-				"type": "String"
-			}
-		}
-	},
-	"priceComparisonNotEnoughData": "Not yet enough comparative data for the site {countryName} ({countryCode}).",
-	"@priceComparisonNotEnoughData": {
-		"placeholders": {
-			"countryName": {
-				"type": "String"
-			},
-			"countryCode": {
-				"type": "String"
-			}
-		}
-	},
-	"priceComparisonEqual": "You pay about as much as the average in {countryName}.",
-	"@priceComparisonEqual": {
-		"placeholders": {
-			"countryName": {
-				"type": "String"
-			}
-		}
-	},
-	"priceComparisonDiff": "You pay {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} the average in {countryName}.",
-	"@priceComparisonDiff": {
-		"placeholders": {
-			"diffWithCurrency": {
-				"type": "String"
-			},
-			"comparison": {
-				"type": "String"
-			},
-			"countryName": {
-				"type": "String"
-			}
-		}
-	},
-	"roomNamePart": "in the {roomName} ",
-	"@roomNamePart": {
-		"placeholders": {
-			"roomName": {
-				"type": "String"
-			}
-		}
-	},
-	"warningOutdatedSinceText": "since {date}",
-	"@warningOutdatedSinceText": {
-		"placeholders": {
-			"date": {
-				"type": "String"
-			}
-		}
-	},
-	"warningNextReminderText": " The next reminder is {date}.",
-	"@warningNextReminderText": {
-		"placeholders": {
-			"date": {
-				"type": "String"
-			}
-		}
-	}
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "accountAbout": "What can the EHW+ user account do?",
+  "accountBenefit1": "More reliable purchase recognition",
+  "accountBenefit2": "Access to all purchased expansions on multiple devices",
+  "accountButtonSetup": "Set up EHW+ user account",
+  "accountFaqA1": "The EHW+ user account offers an alternative method for restoring purchases when restoring through the App Store is not possible, increasing reliability. Additionally, it allows purchases to be restored on a device where the purchase did not originally take place. In the future, it will also be possible to save settings and more.",
+  "accountFaqA2": "Yes, purchases can still be restored on an Android device via the Play Store or on an iPhone via the App Store. The EHW+ user account provides an alternative method for restoring purchases when restoring through the App Store is not possible, increasing reliability. Additionally, it allows purchases to be restored on a device where the purchase did not originally take place.",
+  "accountFaqQ1": "What is the EHW+ user account?",
+  "accountFaqQ2": "Will I still have access to my purchases without an EHW+ user account?",
+  "accountFaqTitle": "Frequently Asked Questions:",
+  "accountThankYouForPurchase": "Thank you! Would you like to secure the purchase in your EHW+ user account now?",
+  "accountUpdateInfo": "New: The EHW+ user account",
+  "activitiesDescription": "Link meter readings to activities, e.g., washing with cold water meters and electricity meters.",
+  "activitiesTitle": "My activities",
+  "activityBath": "Bath",
+  "activityDishWasher": "Dish washer",
+  "activityIron": "Ironing",
+  "activityNameLabel": "Activity name",
+  "activityOverview": "Activity overview",
+  "activitySettings": "Activity settings",
+  "activityShower": "Shower",
+  "activityTitle": "Activity",
+  "activityWash": "Washing",
+  "activityWashDuration": "Duration",
+  "activityWashDuration2hrs": "2h",
+  "activityWashRotations": "Rotations",
+  "activityWashShort": "Short program",
+  "activityWashTemperature": "Temperature",
+  "activityWithEnergyConsumption": "Power consumption is only measured for activity",
+  "addActivity": "Add activity",
+  "addDetail": "Add detail",
+  "addNewValue": "Enter new value",
+  "advancePayment": "Advance payment",
+  "appBarExpandedMode": "App bar with background image",
+  "appDescriptionLong": "<p>Welcome to <b>EHW+</b>, your meter reading app  for <b>E</b>lectricity, <b>H</b>eating and <b>W</b>ater. With us, you can easily track<b> </b>how much you use and what it<b> </b>costs</b> for free.</p>",
+  "appDescriptionShort": "Good for the wallet, good for the climate",
+  "appName": "EHW+ | Consumption & meter readings",
+  "appNameShort": "EHW+",
+  "areYouSure": "Are you sure?",
+  "basePrice": "Base price",
+  "bonus": "Bonus",
+  "bonusInfoText": "Tariffs with bonus often allow for particularly high savings when changing providers. However, this usually results exclusively from the one-time bonus. That means: The total costs are so low only in the first year of supply. High work and/or basic prices provide in the second year for a clearly higher calculation. Therefore, with bonus tariffs you should plan from the outset to change again after one year. Bonus tariffs with a term of two years, where this cancellation is not possible at all, should be questioned particularly critically.",
+  "bonusInfoTitle": "Information about bonus tariffs",
+  "cancellationPeriod": "Cancellation period",
+  "changeCounterOrder": "If necessary, you can change the order",
+  "chartDottedLinesNonSeasonal": "The dashed curves represent the previous period. For the selection \"Last 14 days\", for example, the 28 last days appear, with the older 14 of them being shown dashed.",
+  "chartDottedLinesSeasonal": "The dashed curves represent the previous period. For the selection \"Last 14 days\", for example, the 28 last days appear, with the older 14 of them being shown dashed.",
+  "chartHorizontalLineElectricityGas": "The green line stands for a very good consumption, the yellow line for a good consumption, the red line for the German average consumption.",
+  "chartHorizontalLineWater": "On average, each person in Germany uses 127 liters of drinking water in the household every day. The blue line represents cold water (60%), the red line hot water (40%), extrapolated to the number of days in the period and the number of people.",
+  "chartHorizontalLines": "The dashed lines are intended to provide feedback on your own consumption.",
+  "chooseActivity": "Choose activity",
+  "chooseActivityIcon": "Choose an icon",
+  "coldWater": "Cold water",
+  "cometConsentScreenAcceptButton": "I want to give feedback",
+  "cometConsentScreenDataCanBeUsedForTraining": "Data may be used to optimize future predictions",
+  "cometConsentScreenDeclineButton": "I don\\'t want to give feedback",
+  "cometConsentScreenFeedbackDescription": "The use of the forecast is free, but the research team needs feedback on how well the service works.",
+  "cometConsentScreenFeedbackMethod": "Feedback is provided automatically when you use the prediction service and agree to optimisation.",
+  "cometConsentScreenFeedbackTitle": "Goethe University needs your feedback:",
+  "cometConsentScreenHeader": "New: Better consumption forecasts",
+  "cometConsentScreenHowItWorksTitle": "How does it work?",
+  "cometConsentScreenOfflineDescription": "A simplified local forecast will be calculated on your device.",
+  "cometConsentScreenOfflineDescriptionTitle": "Without Internet connection:",
+  "cometConsentScreenOnlineDescription": "Your consumption data will be sent to Goethe University Frankfurt, where an individual forecast will be created and displayed in the app.",
+  "cometConsentScreenOnlineDescriptionTitle": "With Internet connection:",
+  "cometConsentScreenToggleLabel": "Use forecast service",
+  "cometSettingsIsPredictionsApiEnabled": "Use the COMET Forecast API from the Goethe Institute",
+  "comment": "Note",
+  "commonAnd": "and",
+  "commonBack": "Back",
+  "commonCancel": "Cancel",
+  "commonChange": "Change",
+  "commonChangeSaved": "Change saved",
+  "commonClose": "Close",
+  "commonCollapse": "Collapse",
+  "commonContinue": "Continue",
+  "commonCopiedToClipboard": "Copied to clipboard",
+  "commonDay": "day",
+  "commonDelete": "Delete",
+  "commonLearnMore": "Learn more",
+  "commonLoadingData": "Loading data",
+  "commonLoggingIn": "Signing you in...",
+  "commonLoggingOut": "Signing you out...",
+  "commonLogin": "Sign in",
+  "commonLogout": "Sign out",
+  "commonMaximum": "Highest daily value",
+  "commonMinimum": "Lowest daily value",
+  "commonMonth": "month",
+  "commonMore": "More",
+  "commonNo": "no",
+  "commonNotAuthenticated": "You are not authenticated.",
+  "commonOk": "OK",
+  "commonOpen": "Open",
+  "commonSave": "Save",
+  "commonSend": "Submit",
+  "commonShare": "Share",
+  "commonUpdateNow": "Update now",
+  "commonUserLogin": "User login",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "You are using the EHW+ account. {notSubmitted} out of {total} purchased products could not be saved on the EHW+ server. We hope to fix the issue soon.",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {One purchase has been synchronized via the EHW+ account.} other {{count} purchases have been synchronized via the EHW+ account.}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {You are using the EHW+ account. If you purchase products in the future, they will be synchronized across all your devices.} one {You are using the EHW+ account. {count} purchased product has been saved on the EHW+ server.} other {You are using the EHW+ account. {count} purchased products have been saved on the EHW+ server.}}",
+  "commonUserLoginDescriptionNotLoggedIn": "Are you using the app on multiple devices? Logging into your EHW+ account allows you to synchronize your settings and purchased products across all your devices.",
+  "commonYear": "year",
+  "commonYes": "yes",
+  "completeButton": "Complete",
+  "confirmDeleteAtCloud": "Should \"{objectTitle}\" also be deleted from Google Drive?",
+  "consent11AnalyticsTitle": "Analysis data",
+  "consent12Analytics": "In order to evaluate the success of the app or individual functions, the app transmits anonymised usage statistics. The data is not transmitted to third parties. The data is used for the further development of the app.",
+  "consent13StromGedacht": "StromGedacht, a service provided by TransnetBW, provides information on grid stability and recommendations on when electricity should be used preferentially. As the energy transition is becoming more and more challenging for the transmission grid, households in South-West Germany are being involved. To receive information for your location, your postal code, if entered here in the app, is transmitted to the TransnetBW StromGedacht API. No other data is transmitted or linked.",
+  "consent13StromGedachtTitle": "Grid stability notices from StromGedacht",
+  "consent1Hello": "Hello",
+  "consent2ThankYou": "Thank you for using EHW+!",
+  "consent3Video": "Would you like to watch a short introduction video?",
+  "consent4BeforeYouCanContinue": "Before you can continue",
+  "consent5ErrorReportingTitle": "Error reports",
+  "consent6ContractPricesPerUnitTitle": "Electricity / water / gas prices",
+  "consent7ContractPricesPerUnit": "In order to be able to estimate how much you are currently paying compared to other EHW+ users, the prices are transferred to the EHW+ server in Germany together with the country and state. Only if you agree to the transfer, you have access to the price statistics. To ensure anonymity, statistics can only be shown after a minimum number of transmitted prices.",
+  "consentTitle": "Privacy Settings",
+  "consumption": "Consumption",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Clear & sync",
+  "consumptionCacheManagementClearCacheButton": "Clear cache",
+  "consumptionCacheManagementClearedSuccessfully": "Cache cleared successfully",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "All cached data will be deleted and re-downloaded from the server. This may take some time.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Clear cache & synchronize?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "All cached consumption data will be permanently deleted. You can synchronize it later.",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Clear cache?",
+  "consumptionHeatmap": "Consumption Heatmap",
+  "consumptionHeatmapYield": "Yield Heatmap",
+  "consumptionHeatpump": "In addition, the power consumption of the heat pump amounts to {formattedValue} kWh.",
+  "consumptionIsNotExclusive": "If the consumption is not exclusive to this activity, it will be shown as a warning.",
+  "consumptionIsNotExclusiveTitle": "Is consumption exclusive?",
+  "consumptionPersonLabel": "{count, plural, one {person} other {persons}}",
+  "consumptionWaterColdEqual": "Cold water: about the same as an average household.",
+  "consumptionWaterColdLess": "Cold water: {percentage} less than an average household.",
+  "consumptionWaterColdMore": "Cold water: {percentage} more than an average household.",
+  "consumptionWaterDailyMonthlyPerPerson": "Per person, this equals about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
+  "consumptionWaterDailyMonthlySingle": "You consume about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).",
+  "consumptionWaterOverallEqual": "Your water consumption {ofRange} is equal to that of an average household with {householdSize} {personLabel}.",
+  "consumptionWaterOverallLess": "Your water consumption {ofRange} is {percentage} lower than that of an average household with {householdSize} {personLabel}.",
+  "consumptionWaterOverallMore": "Your water consumption {ofRange} is {percentage} higher than that of an average household with {householdSize} {personLabel}.",
+  "consumptionWaterRangeUnknown": "Your water consumption {ofRange} ...",
+  "consumptionWaterWarmEqual": "Hot water: about the same as an average household.",
+  "consumptionWaterWarmLess": "Hot water: {percentage} less than an average household.",
+  "consumptionWaterWarmMore": "Hot water: {percentage} more than an average household.",
+  "consumptionYearly": "Your electricity consumption {ofRange} amounts to {consumption} kWh per year.",
+  "consumptionYearlyDetailedAboutSame": "about the same as",
+  "consumptionYearlyDetailedAverageHousehold": " an average household with {householdSize} {personLabel}",
+  "consumptionYearlyDetailedComparisonEqual": "You consume{verbSuffix} about as much as an average household with {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonLess": "You consume{verbSuffix} {percentage} less than an average household with {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "You consume{verbSuffix} {percentage} more than an average household with {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedElectricity": "Your electricity consumption {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/year ≈ {monthlyConsumption} kWh/month) is {consumptionLevel}.",
+  "consumptionYearlyDetailedLessThan": "{percentage} less than",
+  "consumptionYearlyDetailedLevel0": "super low",
+  "consumptionYearlyDetailedLevel1": "quite low",
+  "consumptionYearlyDetailedLevel1Suffix": "About {nextToOptimal}% less consumption would be optimal.",
+  "consumptionYearlyDetailedLevel2": "within the normal range",
+  "consumptionYearlyDetailedLevel2Suffix": "Approximately {nextToOptimal}% is missing for good consumption.",
+  "consumptionYearlyDetailedLevel3": "relatively high",
+  "consumptionYearlyDetailedLevel4": "within the normal range",
+  "consumptionYearlyDetailedMoreThan": "{percentage} more than",
+  "consumptionYearlyDetailedOptimalEnding": "That's great!",
+  "consumptionYield": "Yield",
+  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nContact\n\nPhone: 06204/7383382\nMail: info@ehwplus.com",
+  "contactTitle": "Represented by:",
+  "continueAcceptPart1": "By using the EHW+ app, you agree to the ",
+  "continueAcceptPart2": ". For more information on the collection and use of anonymised and personal data, please refer to the ",
+  "contract": "Contract",
+  "contractCopyDialogOptionNo": "No, cancel.",
+  "contractCopyDialogOptionYes": "Yes, the unit price or another value has changed.",
+  "contractCopyDialogTitle": "Do you want to make a copy of this contract?",
+  "contractCopyDialogWhen": "From when does the new price apply?",
+  "contractCosts": "Unit price",
+  "contractCostsFeedIn": "Remuneration price/base price",
+  "contractDetails": "Contract duration and details",
+  "contractName": "Provider/contract name",
+  "contractNumber": "Contract number",
+  "contractPeriod": "Contract period",
+  "contractReminder": "Contract reminder",
+  "contractStart": "Contract start date",
+  "contractType": "Contract type",
+  "contractTypeElectricityProvider": "Electricity provider",
+  "contractTypeGasProvider": "Gas provider",
+  "contractTypeHeatingFees": "Heating fees",
+  "contractTypeNetwork": "Internet & phone",
+  "contractTypeOilProvider": "Oil provider",
+  "contractTypeStove": "Stove",
+  "contractTypeWaterFees": "Water fees",
+  "contracts": "Contracts",
+  "corresponds": "corresponds",
+  "costSummary": "Cost summary",
+  "costSummaryYield": "Remuneration price/-base price",
+  "costs": "Costs",
+  "costsUndefinedColdWater": "Cold water fees",
+  "costsUndefinedElectricity": "Electricity fees",
+  "costsUndefinedFor": "Costs undefined",
+  "costsUndefinedForType": "{type} for undefined",
+  "costsUndefinedGas": "Gas fees",
+  "costsUndefinedHeater": "Heater fees",
+  "costsUndefinedNetworkCounter": "Internet fees",
+  "costsUndefinedOilHeating": "Oil fees",
+  "costsUndefinedWarmWater": "Warm water fees",
+  "counter": "Counter",
+  "counterBackgroundImage": "Background image for counter",
+  "counterBackgroundImageOfObject": "Background image for object",
+  "counterColdWater": "Cold water meter",
+  "counterConsiderForTotalConsumptions": "Consider for total consumptions",
+  "counterConsiderForTotalElectricity": "Consider for total electricity consumption",
+  "counterConsiderForTotalWater": "Consider for total water consumption",
+  "counterContractCurrentlyUsed": "Currently used contract",
+  "counterDeleteConfirm": "Delete counter?",
+  "counterDirection": "Direction",
+  "counterDirectionAscending": "ascending",
+  "counterDirectionDescending": "descending",
+  "counterDirectionExplanation": "Does the value decrease with use (level indicator, etc.) or does the value increase with use (burner hours, oil meter, etc.) or is each reading value independent (consumption/yield)?",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "counterDistrictHeating": "District Heating",
+  "counterEdit": "Edit counter",
+  "counterElectricity": "Electricity meter",
+  "counterElectricityBack": "Electricity feed-in meter (PV)",
+  "counterElectricityGenerated": "Electricity generation meter",
+  "counterExclude": "Exclude",
+  "counterExcludedContracts": "Excluded contracts",
+  "counterExplainSeasonal": "Set meter readings to 0 during the summer? In the winter, the readings will follow your normal consumption pattern; in summer, they will stay flat.",
+  "counterFactor": "Factor",
+  "counterFactorDescription": "Is consumption only allocated to you on a pro rata basis? Enter the proportion as a value between 0.1 (10%) and 1.0 (100%).",
+  "counterFractionDigits": "Fraction digits",
+  "counterGas": "Gas meter",
+  "counterGasCalorificValue": "Calorific value",
+  "counterGasCalorificValueHelpText": "Heating value: Dimensionless factor for converting the measured gas volume into energy. Natural gas: usually between 9.0 and 12.5 kWh/m³, LPG: between 23.0 and 33.0 kWh/m³",
+  "counterGasCalorificValueLabel": "Calorific value*",
+  "counterGasConversionFactor": "Conversion factor",
+  "counterGasConversionFactorHelpText": "Ca 1.0. The condition number is used to convert the operating volume into a standard volume. The operating condition is the condition of the gas at the meter and is dependent on the pressure (altitude) and temperature present.",
+  "counterGasConversionFactorLabel": "Conversion factor*",
+  "counterHeater": "Radiator meter",
+  "counterInclude": "Include",
+  "counterIsOutdated": "Counter is outdated",
+  "counterLinkMoreRecent": "Link more recent counter",
+  "counterMessageRoomOptional": "A room assignment helps with grouping but is optional.",
+  "counterMeterId": "Meter ID",
+  "counterName": "Counter name",
+  "counterNew": "New counter",
+  "counterNoContractSelected": "No contract selected",
+  "counterNoRoomConnection": "No room connection",
+  "counterNum": "{count} counters",
+  "counterOilHeating": "Oil heating",
+  "counterOtherContracts": "Other contracts",
+  "counterOutdatedAndNextReminder": "Counter reading outdated since {date}, next reading reminder {date2}.",
+  "counterProportionateConsumption": "Proportionate consumption",
+  "counterPvFeedInCounter": "Renewable energies (solar power and heat with PV/solar systems)",
+  "counterPvFeedInCounterExplanation": "\nUse an electricity feed-in meter to record the electricity generated and fed in\nwith a photovoltaic system. The resulting revenue is offset against the cost of\nthe electricity drawn.",
+  "counterReadings": "Readings",
+  "counterReallyDeleteLink": "Delete link?",
+  "counterReplacedBy": "Replaced by",
+  "counterRoom": "Room",
+  "counterSelected": "Selected",
+  "counterShowHeatmap": "Show heatmap",
+  "counterShowPreliminaryCurve": "Show preliminary curve",
+  "counterShowReadingsChart": "Show readings chart",
+  "counterTankCapacity": "Tank capacity",
+  "counterTankFillHeight": "Fill height",
+  "counterTransducerFactor": "Transformer ratio",
+  "counterTransducerFactorExplained": "If a voltage transformer is used to step down the voltage before it reaches the meter, a new conversion factor must be applied to obtain the correct readings. Example: the meter displays 100,000 kWh with a conversion factor of 20. The correct reading is: 100,000 kWh x 20 = 2,000,000 kWh.",
+  "counterTypeLabel": "Counter type",
+  "counterWarmWater": "Warm water meter",
+  "counterWarmWaterPlusColdWater": "Excluding fresh water and waste water costs",
+  "counterWater": "Water meters",
+  "counterWaterExtraction": "Water extraction meter (garden)",
+  "counterWaterExtractionExplanation": "With a deduction meter the waste water costs can be reduced. With this in-app purchase you can specify different costs for fresh water and waste water and the meter reading from the deduction meter will be taken into account in the water costs.",
+  "counterWaterExtractionMinimumLevel": "Minimum level",
+  "counters": "Meters",
+  "createAccount": "Create account/login",
+  "csvImportWithFactor": "Should the meter readings be multiplied by a factor not equal to 1.0? For example, to convert values from Wh to kWh, they would have to be multiplied by 0.001.",
+  "currency": "Currency",
+  "deleteObjectError": "Cannot delete this object (Code {errorCode}).",
+  "detailWithMultiSelect": "Allow multi selection",
+  "detailsTitle": "Details",
+  "difference": "Difference",
+  "driveSignInWithGoogle": "Sign in with Google",
+  "driveSyncNow": "Sync now",
+  "driveSyncStatusComparing": "Comparing with file on server",
+  "driveSyncStatusFailed": "Failed to synchronize",
+  "driveSyncStatusLocalHasLatestNoCloud": "The file saved on this device from {localDate} is not saved inside the cloud",
+  "driveSyncStatusLocalHasLatestWithCloud": "The file saved on this device from {localDate} is more up-to-date than the file in the cloud from {cloudDate}",
+  "driveSyncStatusNotSynced": "Not synchronized",
+  "driveSyncStatusRemoteHasLatestNoLocal": "The file in the cloud from {cloudDate} is not saved on this device",
+  "driveSyncStatusRemoteHasLatestWithLocal": "The file in the cloud from {cloudDate} is more up-to-date than the local file from {localDate}",
+  "driveSyncStatusSyncing": "Sync in progress",
+  "driveSyncStatusTitle": "Synchronization status",
+  "driveSyncStatusUpToDate": "Up to date from {localDate}",
+  "driveSyncWithGoogle": "Google Drive Sync",
+  "editDetailTitle": "Edit detail",
+  "electricity": "Electricity",
+  "electricityBack": "Electricity fed in",
+  "electricityConsumption": "Power consumption",
+  "electricityGenerated": "Generated electricity",
+  "enterComment": "Enter a note",
+  "enterExistingReadingAgain": "Re-enter old reading",
+  "enterObjectName": "Name the new object",
+  "errorInvalidRange": "No valid range",
+  "errorNoInternet": "No network",
+  "euDisputeResolution": "\n\nEU Dispute Resolution\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/.\nYou can find our e-mail address in the imprint above.\n\nConsumer dispute resolution/universal dispute resolution body\n\nWe are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+  "existingPhoto": "Attach existing photo",
+  "existingPhotoOfMeterReading": "Would you like to attach an existing photo of the meter reading?",
+  "explanationManageMoreThanOneObject": "You have more than one property you want to manage? Then name the current object and then create another object.",
+  "export": "Export",
+  "exportExplanation": "Which existing object do you want to export, for example to transfer it to a new device?",
+  "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
+  "exportOptionConsumptionsSubtitle": "A consumption value for each day since the first reading.",
+  "exportOptionConsumptionsTitle": "Daily consumption",
+  "exportOptionExcel": "Excel file",
+  "exportOptionFileDescription": "The object is shared as an {fileType} file",
+  "exportOptionPdf": "PDF file",
+  "exportOptionReadingsSubtitle": "Typically meter readings or consumption with irregular intervals.",
+  "exportOptionReadingsTitle": "Reading values",
+  "exportTabHowToExport": "How would you like to export the data?",
+  "exportTabHowToExportOptionSaveToDownloads": "Save to folder {folder}",
+  "exportTabHowToExportOptionShare": "Share with other apps",
+  "exportTabSnackBarSaveResultMessageError": "Error occurred while saving the data",
+  "exportTabSnackBarSaveResultMessageSuccess": "Data has been successfully saved as {fileName} in folder {folder}",
+  "exportWhere": "In which format should the object be exported?",
+  "exportWhichValuesShouldBeExported": "Which values should be exported?",
+  "faqAboutDeveloperBody1": "Thank you for your interest in EHW+. EHW+ was released by me, Timo Bähr, in December 2020. I am a full-time app developer and work on EHW+ in my free time to contribute to environmental protection. Since May 2022, a second developer has been overseeing my work, Thomas Hesse builds backends for EHW+. Since April 2023, Janine Sinner has been handling the numerous customer feedbacks. Since July 2024, Artem Yuzhakov has joined as an app developer.",
+  "faqAboutDeveloperBody2": "Over 26% of all CO2 emissions in Germany are caused by private households. If everyone can reduce their consumption even a little, a lot will have been achieved. Thank you very much for your contribution!",
+  "faqAboutDeveloperBody3": "We welcome suggestions on how to improve the app.",
+  "faqAboutDeveloperBody4": "However, I ask for your understanding that I cannot implement all suggestions and that new functions take time.",
+  "faqAboutDeveloperTitle": "Who is behind EHW+?",
+  "faqTitle": "FAQ",
+  "featureVoting": "Feature voting",
+  "featureVotingOnlyOnGerman": "The feature survey is not translated into other languages.",
+  "featureVotingUnderConstruction": "The feature survey is currently being revised. In the future, an EHW+ user account will be required, and the survey will no longer use third-party servers. We appreciate your patience.",
+  "fedIn": "Fed in",
+  "firstReadingConsumption": "Enter the first consumption now.",
+  "firstReadingCounter": "Enter the first counter reading.",
+  "firstReadingYield": "Enter the first yield now.",
+  "forX": "for",
+  "gas": "Gas",
+  "generated": "Generated",
+  "googleAnalyticsAgreement": "I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.",
+  "googleApiAgreement": "{appNameShort}’s use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.",
+  "gross": "gross",
+  "grossNetPrices": "Gross or net price",
+  "heatPump": "Heat pump",
+  "heater": "Radiator",
+  "heatmapLegendDisclaimer": "Info: Shaded boxes contain an estimated value. To read the actual consumption/output, please fill in the missing meter readings if possible.",
+  "heatmapLegendTitle": "More about the heatmap",
+  "houseName": "House name",
+  "houseNameDescription": "House name, e.g. street name",
+  "import": "Import",
+  "importConfirm": "Confirm import",
+  "importCounterAsCsv": "Do you want to import a single meter? Supported per meter is a CSV file with two columns, one for the time and one for the meter reading.\n\nExample data:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Only the first two columns were used. The third column was ignored.} other {Only the first two columns were used, {columns} columns were ignored.}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {One line was ignored: {lines}} other {{count} lines were ignored: {lines}}}",
+  "importExplanation": "You already made counter readings and want to insert them?",
+  "importExport": "Backup/Restore",
+  "importNewOrExistingCounter": "Add to new or existing counter?",
+  "importNotPossible": "Import not possible",
+  "importPickFile": "Select file",
+  "importSelectJson": "JSON file (created with {appName})",
+  "importSelectSingleCounter": "Single counter (CSV file)",
+  "importSuccessful": "Import successful",
+  "importTabErrorMessageFileWithExtensionNotSelected": "A {extension} file is required to proceed with import.",
+  "importTheObject": "Import object",
+  "importWhichCounterForCsv": "Which counter should be used?",
+  "imprintTitle": "Imprint",
+  "initialReading": "Initial reading",
+  "involvedCounters": "Counters involved",
+  "isLastEntryAtFilteredList": "Oldest value in filtered list",
+  "isOutdatedCounter": "Counter is no longer used",
+  "last12Months": "Last 12 months",
+  "last12Weeks": "Last 12 weeks",
+  "last2Weeks": "Last 14 days",
+  "lastReading": "last reading",
+  "lastYear": "Last year",
+  "lineChartAppearanceSettings": "Line charts appearance",
+  "lineChartAppearanceSettingsShowSpots": "Show (circular) spots on the lines of charts",
+  "localWriteSubtitle": "Should the objects and photos be saved in the local \"{folder}\" folder with each change?",
+  "localWriteTitle": "Save in the local download folder",
+  "manageMoreThanOneObjectStep1": "Manage more than one object - Step 1",
+  "manageMoreThanOneObjectStep2": "Manage more than one object - Step 2",
+  "marketLocationId": "Market location ID",
+  "marketLocationIdDescription": "The market location ID always consists of 11 digits. You can usually find this on your last electricity or gas bill.",
+  "messageNoConsumptions": "Statistics for all meters of a type appear here if enough readings have been taken. For example, two cold water meters, two hot water meters and one water extraction meter are shown in one water statistic.",
+  "messageNoContracts": "No contracts yet.",
+  "messageNoCounterReadings": "You have not yet entered a counter reading.",
+  "messageNoCounters": "You have not yet created a counter.",
+  "messageNoRooms": "No rooms yet. Rooms help group meters.",
+  "messageNotEnoughData": "Not enough data to display the chart",
+  "meterCardLastUpdatedLabel": "Updated",
+  "meterId": "Counter id",
+  "meterReadingSubmitted": "Transmitted to provider",
+  "meterReadingsFilterAll": "Show all",
+  "meterReadingsFilterComments": "Show only entries with comments",
+  "meterReadingsFilterSubmitted": "Show only \"{state}\"",
+  "myObjects": "My objects",
+  "net": "net",
+  "networkCounter": "Internet & phone",
+  "newCounter": "Create a new counter",
+  "newPhoto": "Take a new photo",
+  "newPhotoOfMeterReading": "Would you like to take a photo of the meter reading?",
+  "newReading": "Enter the current reading",
+  "newReadingShort": "New reading",
+  "notifications": "Notifications",
+  "notificationsEmpty": "No notifications",
+  "notificationsSmartMeterAlertFallback": "You have a new smart meter alert.",
+  "numCounters": "{count, plural, =0 {{count} counter} one {{count} counter} other {{count} counters}}",
+  "numMeterReadings": "{readings, plural, one {# reading} other {# readings}}",
+  "numberOfDetails": "{count, plural, one {1 detail} other {{count} details}}",
+  "ofRangeFrom": "from {range}",
+  "ofRangeLastDays": "of the last {days} days",
+  "ofRangeLastMonths": "for the last {months} months",
+  "oil": "Oil",
+  "outdated": "Outdated",
+  "outdatedContracts": "Outdated contracts",
+  "outdatedCounters": "Counters no longer in use",
+  "paidAdvancePayments": "Advance payments",
+  "parsingObjectError": "The object cannot be parsed. Please contact the developer. When uninstalling the app, the data may be lost.",
+  "per": "per",
+  "perUnit": "per {unit}",
+  "period": "Period",
+  "periodBimonthly": "bi-monthly",
+  "periodBiweekly": "bi-weekly",
+  "periodCustom": "User defined",
+  "periodDaily": "daily",
+  "periodHalfYearly": "half-yearly",
+  "periodHourly": "hourly",
+  "periodMonthly": "monthly",
+  "periodQuarterly": "quarterly",
+  "periodWeekly": "weekly",
+  "periodYearly": "yearly",
+  "previouslyDeletedCounters": "Recently deleted meters",
+  "priceComparisonDiff": "You pay {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} the average in {countryName}.",
+  "priceComparisonEqual": "You pay about as much as the average in {countryName}.",
+  "priceComparisonNotEnoughData": "Not yet enough comparative data for the site {countryName} ({countryCode}).",
+  "pricePerUnit": "Price per unit",
+  "pricePerUnitFeedIn": "Remuneration price",
+  "pricePerUnitFreshWater": "Costs for fresh water",
+  "pricePerUnitWasteWater": "Waste water price",
+  "pricePerUnitWaterCold": "Cost of cold water",
+  "pricePerUnitWaterWarm": "Hot water heating costs",
+  "priceSubmissionAgreement": "I agree with the transmission of electricity/gas/water prices per unit to an EHW+ server",
+  "privacyBlock1Text": "The developer/provider of the application (hereinafter referred to as “app”) is, in accordance with Section 5 of the German Telemedia Act (TMG):\n\n{contact}",
+  "privacyBlock1Text2": "Use of the app requires that you agree to the following terms of use. Please read them carefully.",
+  "privacyBlock1Title": "Developer",
+  "privacyBlock2Text": "The protection of your data is very important to us. This privacy policy explains what personal data EHW+ collects and how it is used. Fundamental changes to the privacy policy are rare, but it may be revised from time to time due to new features, technologies, or legal requirements. So please check this page from time to time to stay up to date. If we make any significant changes, we will notify you and, if necessary, obtain your consent.",
+  "privacyBlock2Title": "General",
+  "privacyBlock3Title": "What data does {appNameShort} collect?",
+  "privacyBlock3aText": "We created {appNameShort} so that you can quickly and easily enter your meter readings and then use statistics to find out more about your consumption, its costs and potential savings. This means that you can enter, calculate or save any data, which we generally refer to as ‘content’, in {appNameShort}. This data is only stored on your mobile phone.\n\nSync with Google Drive.\nIf you enable synchronisation with Google Drive, the content will also be automatically backed up in a folder called ‘{appNameShort}’ on your Google Drive, which only you can access. By logging in with Google, your email address will be visible to the developer.",
+  "privacyBlock3bText": "{googleApiAgreement}\n\nLocation data.\nIn order to understand user behaviour and for future features, the app transmits anonymised usage data. The data is not shared with third parties. Information may be collected about origin (country and city), language, operating system, device type, resolution, click behaviour, and duration of use. n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS).\n\nBy using the app, you consent to the collection of anonymised data as described above.",
+  "privacyBlock4DataUsage": "\nCollected anonymised data is used to evaluate user behaviour. Beyond this, there is no further use of data.\n\n{syncDriveDataUsage}",
+  "privacyBlock4DataUsageTitle": "How does {appNameShort} use my data?",
+  "privacyBlock5": "The duration of the storage of personal data is determined by the respective statutory retention period (e.g. commercial and tax law retention periods). After expiry of the period, the corresponding data is routinely deleted, provided that it is no longer required for the fulfilment or initiation of a contract and/or we no longer have a legitimate interest in its continued storage.",
+  "privacyBlock5Title": "Duration of storage of personal data",
+  "privacyBlock6": "When you contact us (e.g. via contact form or email), personal data is collected. The data collected in the case of a contact form can be seen on the respective contact form. This data is stored and used exclusively for the purpose of responding to your enquiry or for establishing contact and the associated technical administration. The legal basis for the processing of the data is our legitimate interest in responding to your request in accordance with Art. 6 para. 1 lit. f GDPR. If your contact is aimed at concluding a contract, the additional legal basis for processing is Art. 6 para. 1 lit. b GDPR. Your data will be deleted after your enquiry has been processed, which is the case if it can be inferred from the circumstances that the matter in question has been finally clarified and provided that there are no legal obligations to retain data.",
+  "privacyBlock6Title": "Contact",
+  "privacyBlock7": "The applicable data protection law grants you comprehensive rights as a data subject (rights of information and intervention) vis-à-vis the controller with regard to the processing of your personal data, which we will inform you about below:\n\n- Right to information pursuant to Art. 15 GDPR: In particular, you have the right to obtain information about your personal data processed by us, the purposes of processing, the categories of personal data processed, the recipients or categories of recipients to whom your data has been or will be disclosed, the planned storage period or the criteria for determining the storage period, the existence of a right to rectification, erasure, restriction of processing, objection to processing, complaint to a supervisory authority, the origin of your data if it was not collected by us from you, the existence of automated decision-making, including profiling, and, where applicable, meaningful information about the logic involved and the significance and envisaged consequences of such processing for you, as well as your right to be informed of the guarantees that exist in accordance with Art. 46 GDPR when your data is transferred to third countries;\n\n- Right to rectification pursuant to Art. 16 GDPR: You have the right to have inaccurate data concerning you rectified without delay and/or to have incomplete data stored by us completed.\n\n- Right to erasure pursuant to Art. 17 GDPR: You have the right to request the erasure of your personal data if the conditions of Art. 17(1) GDPR are met. However, this right does not apply in particular if the processing is necessary for exercising the right of freedom of expression and information, for compliance with a legal obligation, for reasons of public interest or for the establishment, exercise or defence of legal claims.\n\n- Right to restriction of processing pursuant to Art. 18 GDPR: You have the right to request the restriction of the processing of your personal data for as long as the accuracy of your data is being verified if you have objected to the erasure of your data on the grounds of inadmissible data processing and instead request the restriction of the processing of your data if you need your data for the assertion, exercise or defence of legal claims after we no longer need this data to fulfil the purpose for which it was collected, or if you have lodged an objection on grounds relating to your particular situation, as long as it is not yet clear whether our legitimate reasons prevail;\n\n- Right to be informed pursuant to Art. 19 GDPR: If you have exercised your right to rectification, erasure or restriction of processing vis-à-vis the controller, the controller is obliged to notify all recipients to whom your personal data has been disclosed of this rectification or erasure of the data or restriction of processing, unless this proves impossible or involves disproportionate effort. You have the right to be informed about these recipients.\n\n- Right to data portability pursuant to Art. 20 GDPR: You have the right to receive your personal data that you have provided to us in a structured, commonly used and machine-readable format or to request its transfer to another controller, where technically feasible.\n\n- Right to withdraw consent granted in accordance with Art. 7(3) GDPR: You have the right to withdraw your consent to the processing of data at any time with effect for the future. In the event of withdrawal, we will delete the data concerned without delay, unless further processing can be based on a legal basis for processing without consent. The withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal.\n\n- Right to lodge a complaint pursuant to Art. 77 GDPR: If you believe that the processing of your personal data violates the GDPR, you have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your residence, your place of work or the place of the alleged infringement, without prejudice to any other administrative or judicial remedy.",
+  "privacyBlock7Title": "Rights of the person concerned",
+  "privacyBlock8": "IF WE PROCESS YOUR PERSONAL DATA ON THE BASIS OF OUR OVERRIDING LEGITIMATE INTEREST AS PART OF A BALANCING OF INTERESTS, YOU HAVE THE RIGHT TO OBJECT TO THIS PROCESSING AT ANY TIME FOR REASONS ARISING FROM YOUR PARTICULAR SITUATION, WITH EFFECT FOR THE FUTURE. IF YOU EXERCISE YOUR RIGHT TO OBJECT, WE WILL STOP PROCESSING THE DATA CONCERNED. HOWEVER, FURTHER PROCESSING REMAINS RESERVED IF WE CAN PROVE COMPELLING LEGITIMATE GROUNDS FOR THE PROCESSING WHICH OVERRIDE YOUR INTERESTS, fundamental rights and freedoms, or if the processing serves to assert, exercise or defend legal claims.\n\nIF WE PROCESS YOUR PERSONAL DATA FOR DIRECT MARKETING PURPOSES, YOU HAVE THE RIGHT TO OBJECT AT ANY TIME TO THE PROCESSING OF PERSONAL DATA CONCERNING YOU FOR THE PURPOSE OF SUCH ADVERTISING. YOU CAN EXERCISE YOUR RIGHT TO OBJECT AS DESCRIBED ABOVE.\n\nIF YOU EXERCISE YOUR RIGHT TO OBJECT, WE WILL STOP PROCESSING THE DATA CONCERNING YOU FOR DIRECT MARKETING PURPOSES.",
+  "privacyBlock8Title": "Right of objection",
+  "privacyContractPriceSubmission": "When you, as a user, maintain your contract data, the price per unit for electricity, water and gas contracts is transmitted to an EHW+ server in Germany together with the country and federal state. This data is used to calculate price statistics. For app users, the statistics are visible in the form of a price comparison in the contract view.\n\nBy using the app, you consent to the aforementioned collection of anonymised data.",
+  "privacyTitle": "Privacy policy",
+  "purchasesBuyNow": "Buy now",
+  "purchasesDisabledOnIOS": "In-app purchases disabled",
+  "purchasesDisabledOnIOSDescription": "Please check if in-app purchases are disabled on your iPhone (Settings > Screen Time > Restrictions > App Installations & Purchases > Allow In-App Purchases)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "The app was installed via Testflight. Please note that purchases only work in the app if you install the app via the App Store.",
+  "purchasesEarlyBirdSubscription": "Note: If this first-time customer subscription is canceled, it cannot be subscribed to again afterwards.",
+  "purchasesExtensionMultipleObjectsDescription": "Enter the meter readings for as many apartments/houses/objects as you like (instead of just for one object)",
+  "purchasesExtensionMultipleObjectsTitlePart": "Managing multiple objects",
+  "purchasesExtensionStatisticsDescription": "Access to yearly/monthly/weekly consumption of electricity/gas/water/... + period adjustments + detailed cost overview + Excel export",
+  "purchasesExtensionStatisticsTitle": "Advanced statistics",
+  "purchasesExtensionsInWork": "Further extensions are planned. Take part in the feature survey to have your say.",
+  "purchasesExtensionsSubtitle": "Buy once, use permanently (no subscription)",
+  "purchasesExtensionsTitle": "Single extensions",
+  "purchasesIOSRestorePurchases": "Restore purchases",
+  "purchasesIOSRestorePurchasesDescription": "If you have already purchased something in the AppStore in the past, you can restore the purchases.",
+  "purchasesPurchased": "Purchased",
+  "purchasesPurchasedIncludedInPremium": "Included in Premium",
+  "purchasesPurchasedSubscribed": "Subscribed",
+  "purchasesRedeemCode": "Redeem code",
+  "purchasesStatisticsWithPremium": "With Premium, you get access to a monthly comparison{count, plural, =0{.}=1{.}other{ and also see historical data for {years}.}}",
+  "purchasesSubscribeNow": "Subscribe now",
+  "purchasesSubscribePremium": "Subscribe Premium",
+  "purchasesSubscribePremiumMonthly": "Monthly cancelable subscription for only {price} per month",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Monthly cancelable subscription at the loyalty price of {price} per month instead of {priceNew}",
+  "purchasesSubscribePremiumTextLong": "Access to all paid features during the subscription period + outdoor temperatures",
+  "purchasesSubscribePremiumYearly": "Annually cancelable subscription for only {price} per year",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Yearly cancelable subscription at the loyalty price of {price} per year instead of {priceNew}",
+  "purchasesUpgrade": "Upgrade",
+  "purchasesWebLegalNote": "For legal reasons, a purchase is only possible for an iPhone or Android phone with PlayStore services.",
+  "purchasesWhyBuyText": "With a purchase you participate in the costs I incur by publishing the app and support the further development.",
+  "purchasesWhyBuyTitle": "Why should I buy something?",
+  "purchasesYourPurchases": "You have access to the following premium packages:",
+  "reading": "Counter reading",
+  "readingDeleteConfirm": "Delete reading?",
+  "readingNew": "New reading",
+  "readingPrefill": "Auto-fill meter reading",
+  "readingPrefillDescription": "Pre-fill meter readings based on previous entries",
+  "readingPrefillDisableForAllCounters": "Disable auto-fill for all counters",
+  "readingPrefillDisabled": "Auto-fill disabled",
+  "readingPrefillDisabledToast": "Auto-fill disabled",
+  "readingPrefillEnableForAllCounters": "Enable auto-fill for all counters",
+  "readingReminder": "{count, plural, one {Reading reminder} other {Reading reminders}}",
+  "readingReminderDisabled": "Reading reminder not active",
+  "readingReminderMultiBody": "{count, plural, one {Read readings from {count} meter now} other {Read readings from {count} meters now}}",
+  "readingReminderSingleBody": "Read {counterName} value now",
+  "readingReminders": "Reading reminders",
+  "readingRemindersChannel": "Reading reminders",
+  "readingSubmitted": "Meter reading submitted",
+  "readingTime": "Reading time",
+  "readingUpdate": "Update reading",
+  "readingWithFactor": "Counter reading with factor",
+  "reallyDeleteActivity": "Really delete this activity?",
+  "reallyDeleteContract": "Really delete this contract?",
+  "reallyDeleteCounter": "Are you sure you want to delete the counter?",
+  "reallyDeleteCounterLink": "Are you sure you want to delete the link between the counters?",
+  "reallyDeleteDetail": "Really delete this detail?",
+  "reallyDeleteObject": "Are you sure you want to delete the object?",
+  "reallyDeletePhoto": "Are you sure you want to delete the meter reading photo?",
+  "reallyDeleteValue": "Do you really want to delete this value?",
+  "refund": "Refund",
+  "reminderTime": "Reminder time",
+  "reminderWeekdayExplanation": "There is a reminder to take a reading no more than once a day.",
+  "reminderWeekdayExplanationSeasonal": "For meters with seasonal consumption, reminders are only sent in months with consumption (works only if values of the last year are given).",
+  "requestAccess": "Request access",
+  "reset": "Reset",
+  "resetActivities": "Reset all activities",
+  "residualConsumptionEstimated": "Residual consumption estimated",
+  "residualGenerationEstimated": "Residual generation estimated",
+  "restoreDeletedCounter": "Would you like to restore this deleted meter?",
+  "room": "Room",
+  "roomBathroom": "Bathroom",
+  "roomBedroom": "Bedroom",
+  "roomChildrenRoom": "Children's room",
+  "roomDeleteConfirm": "Delete room?",
+  "roomDiningRoom": "Dining room",
+  "roomGarden": "Garden",
+  "roomKitchen": "Kitchen",
+  "roomLivingRoom": "Living Room",
+  "roomName": "Room name",
+  "roomNameHint": "Optionally assign a room name",
+  "roomNamePart": "in the {roomName} ",
+  "roomNew": "New room",
+  "roomOffice": "Office",
+  "roomOther": "Other",
+  "roomStoreRoom": "Store room",
+  "roomType": "Room type",
+  "roomWc": "WC",
+  "rooms": "Rooms",
+  "scanQrCode": "Scan activation qr code",
+  "seasonalCounter": "Seasonal counter",
+  "seasonalElectricityCounter": "Seasonal electricity counter",
+  "selectedActivity": "Selected activity \"${activityName}\"",
+  "selectedAtAppStart": "The topmost object is selected at app start",
+  "settingColor": "Color",
+  "settingCounterTypeColor": "Color for this counter type",
+  "settingCounterTypeColorAdvanced": "Color picker for experts",
+  "settingCounterTypeColorDescription": "If you do not like the default colour for this counter type, you can assign a different colour.",
+  "settingEAuto": "Electric car",
+  "settingHouseholdSize": "Household size",
+  "settingHouseholdSizeDescription": "Number of people in your household.",
+  "settingLanguageMode": "Language",
+  "settingLivingArea": "Living area",
+  "settingObjectLocation": "Location",
+  "settingObjectLocationExplanation": "Entering the location helps tailor insights and services to your area.",
+  "settingObjectLocationTitle": "Where is your object located?",
+  "settingObjectType": "Object type",
+  "settingObjectTypeFlat": "Apartment",
+  "settingObjectTypeHouse": "House",
+  "settingShowCounterReadingsChart": "Show readings chart",
+  "settingShowHeatmap": "Show heatmap",
+  "settingShowPreliminaryCurve": "Show preliminary curve",
+  "settingUiColorPalette": "Color palette",
+  "settingUiMode": "User interface",
+  "settingUiModeDark": "Dark",
+  "settingUiModeDarkOrLight": "Dark/light user interface",
+  "settingUiModeLight": "Light",
+  "settingUiModeOsDefault": "System",
+  "settingWaterHeater": "Water heater",
+  "settingYearlyReset": "Yearly reset",
+  "settingYearlyResetOn": "on",
+  "settings": "Settings",
+  "settingsExternalServices": "External services",
+  "settingsShowStromGedacht": "Should tips from StromGedacht about the power grid be displayed?",
+  "settingsShowTabNewsDetailed": "Should the News/Tips tab be visible?",
+  "showAllYears": "Show all years",
+  "signInWithApple": "Sign in with Apple",
+  "signInWithGithub": "Sign in with GitHub",
+  "signInWithGoogle": "Sign in with Google",
+  "signInWithSocialAccount": "Which social account do you want to use to create or sign in to your EHW+ account?",
+  "sinceInitialReading": "Since initial reading",
+  "smartMeterCountersTitle": "Radio water meters",
+  "smartMeterErrorNoData": "Unfortunately, there is no data that the app could display.",
+  "smartMeterMisconfiguredWidgetCardButton": "Set up smart meter",
+  "smartMeterMisconfiguredWidgetCardTitle": "Please set up your smart meter correctly.",
+  "smartMeterObtainDataAutomatically": "Obtain data automatically",
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderUndefined": "Not set",
+  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterServiceProvider": "Service Provider",
+  "smartMeterSettingsScreenSyncButton": "Synchronize consumption data",
+  "smartMeterSettingsScreenSyncingDialogError": "Error",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Following error occurred during synchronisation: {errorMessage}",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Ok",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Syncing in progress",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Progress: {progressInPercent}%",
+  "smartMeterTabConsumptions": "Consumptions",
+  "smartMeterTabProductions": "Productions",
+  "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} received infocode: {infocode}",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "The temperature of your water meter {smartmeterId} has dropped below 3°C. There is a risk of frost! Insulate the meter and the pipes or heat the area to prevent damage.",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Your water meter {smartmeterId} has detected a continuous water flow. This could indicate a leak. Please check your household installation for leaks. Toilets and dripping taps are common causes.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Your water meter {smartmeterId} has detected unusually high water consumption, which may indicate a pipe burst. Please check your household installation for major leaks or breaks. The alarm may also appear if you have used a large amount of water, e.g. for filling a pool.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Your water meter {smartmeterId} has detected unusually high water consumption, which may indicate either a pipe burst or swimming pool filling. Please check your household installation for major leaks or breaks.",
+  "soFar": "so far",
+  "social": "Social Media",
+  "socialEmail": "Email",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialLinkedIn": "LinkedIn",
+  "socialTwitter": "X",
+  "socialYouTube": "YouTube",
+  "solarThermalCollector": "Solar Thermal Collector",
+  "sortActivities": "Modify the order of activities",
+  "source": "Source: ",
+  "stove": "Stove",
+  "stromGedachtAgreement": "I agree that my postal code (if provided) will be transmitted to TransnetBW to retrieve StromGedacht notices.",
+  "subscribeToSmartMeterInfocodeEvents": "I would like to be notified of unexpected consumption",
+  "supplementaryPayment": "Supplementary payment",
+  "support": "Support/Feedback",
+  "supportBug": "Bug",
+  "supportGivePraise": "Give praise",
+  "supportGivePraiseLong": "Do you like the app? Thank you! Spread the word!",
+  "supportGivePraiseRating": "Rate the app in {store}.",
+  "supportGivePraiseRecommendation": "Recommend the app to friends and family. Thank you for any recommendation!",
+  "supportMakeSuggestion": "Suggest something",
+  "supportMakeSuggestionLong": "The app lives from user suggestions. Do you have a suggestion?",
+  "supportQuestion": "Ask a question",
+  "supportQuestionBox": "How can I help you?",
+  "supportQuestionLong": "How does it work? Is it possible at all? Here are the answers.",
+  "supportQuestionNotFound": "Your question was not answered? I would be happy to help.",
+  "supportRecommend": "I use the meter reading app EHW+ to keep track of my energy consumption and the associated costs. Maybe that would be something for you, too?\n\nMore info at https://www.ehwplus.com",
+  "supportReportBug": "Report a bug via mail",
+  "supportReportBugAffectedPages": "On which pages does the error occur? (if applicable)",
+  "supportReportBugLong": "Great app! But sure, things can go wrong. If you report bugs, you make the app better.",
+  "supportReportBugScreenshotsPlease": "Please attach a screenshot in the mail, preferably with marking of the error.",
+  "supportReportBugTextIs": "Please briefly describe the current incorrect behavior, i.e. the error itself.",
+  "supportReportBugTextShould": "Please briefly describe the desired behavior, i.e. how it should actually be.",
+  "swimmingPool": "Swimming pool",
+  "sync": "Sync",
+  "syncAutomaticTitle": "Local data may be overwritten",
+  "syncDriveDataUsage": "If you grant EHW+ access to Google Drive, the app will have read and write access to files created by the app itself. Unfortunately, files created by others through this app are not visible to the app, which means data sharing between multiple accounts via Google Drive is not possible.",
+  "syncDriveLoggedIn": "Your data is automatically synchronized across multiple devices. The following Google account is used:",
+  "syncDriveLoggedInNoAuto": "Your data is automatically uploaded to Google Drive after a change. Newer data from the cloud only overwrites local data when you click on the object. The following Google account is used:",
+  "syncObjectIsLocked": "Object data is being updated and cannot be edited during this time.",
+  "syncShareWithOthersNotInWeb": "Granting access is currently only possible via app.",
+  "syncShareWithOthersSubtitle": "If you want to enter meter readings together with other Google users, EHW+ must be granted full access to Google Drive.",
+  "syncShareWithOthersTitle": "Share with others?",
+  "syncStatusFailedLong": "Failed to synchronize, editing is at your own risk",
+  "syncStatusFailedLongNoAutoSync": "Failed to synchronize, editing is at your own risk",
+  "syncStatusSyncRemoteHasLatest": "The file in the cloud is more up-to-date than the local file",
+  "syncWithGoogleDriveDescription": "Because it would be a shame if the meter readings were lost, synchronise your objects with Google Drive now!",
+  "tabCounters": "Meters",
+  "tabNews": "Tips/News",
+  "tabObject": "Object",
+  "tabStatistics": "Statistics",
+  "taxRate": "Tax rate",
+  "teaserPurchaseRenewableEnergies": "Renewable energy counters require Premium.",
+  "teaserPurchaseVirtualCounter": "Add virtual counters with Premium.",
+  "teaserPurchaseWaterExtractionCounter": "Unlock water extraction counters with Premium.",
+  "termsOfUsageBlock1": "Right of objection",
+  "termsOfUsageBlock1Title": "General terms of use for the use of the app",
+  "termsOfUsageBlock2": "The app and its functions may not be used in an abusive manner. Please use the app only within the legally permissible scope and in accordance with our terms of use. In the event of a breach of applicable German law or our terms of use, the provider reserves the right to exclude you from using the app.",
+  "termsOfUsageBlock2Title": "General information on use",
+  "termsOfUsageBlock2a": "Anonymised usage data\nWe use our own analytics to continuously improve the app. Only anonymised data is transmitted. The data is not passed on to third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
+  "termsOfUsageBlock2b": "Error reports\\nSentry (self-hosted) is used to continuously improve the app. Error reports are neither processed nor shared with third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
+  "termsOfUsageBlock2c": "Personal information\nIf you use Google Drive Sync, EHW+ still has no access to the data you have entered. For more information, go to Settings > Privacy > {privacyBlock3Title}.",
+  "termsOfUsageBlock3": "The provider does not guarantee the availability, reliability, functionality or suitability of the app for your purposes. Liability is excluded unless mandatory under the Product Liability Act, due to intent, gross negligence, injury to life, limb or health, the assumption of a guarantee of quality, fraudulent concealment of a defect or the breach of essential contractual obligations. Essential contractual obligations are those obligations whose fulfilment is essential for the proper execution of a contract and on whose compliance the contracting parties may regularly rely. Compensation for damages due to breach of essential contractual obligations is limited to the foreseeable damage typical for this type of contract, unless there is intent or gross negligence.",
+  "termsOfUsageBlock3Title": "Liability",
+  "termsOfUsageBlock4": "The provider does not guarantee the accuracy of the calculation results. Users are required to update the prices stored in the application (base prices, consumption prices, etc.) carefully and on their own responsibility in order to ensure that the invoices generated correspond to the actual amounts due.",
+  "termsOfUsageBlock4Title": "Responsibilities of the user",
+  "termsOfUsageTitle": "General terms of use for the use of the app",
+  "termsOfUsageTitleShort": "Terms of use",
+  "tibberAccessToken": "Access Token",
+  "tibberActionSaveAuthorizationSettings": "Save authorization settings",
+  "tibberBasicAuth": "Basic Auth",
+  "tibberBasicAuthEnterPassword": "Please enter password",
+  "tibberBasicAuthEnterUsername": "Please enter username",
+  "tibberBasicAuthPassword": "Password",
+  "tibberBasicAuthUsername": "Username",
+  "tibberConsentScreenBenefit1Description": "Track your consumption in real time and uncover hidden energy guzzlers.",
+  "tibberConsentScreenBenefit1Title": "View Your Electricity Consumption",
+  "tibberConsentScreenConfigureLaterButton": "Set up Later",
+  "tibberConsentScreenConfigureNowButton": "Set up Tibber Pulse now",
+  "tibberConsentScreenDescription": "Are you a Tibber customer or planning to become one? We now support the Pulse for improved energy monitoring. Please note that historical data from the Pulse is unfortunately only available to customers with an active Tibber contract.",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Your hourly consumption from March 1st will be anonymized and provided for the Goethe study.",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Would you like to participate in the Goethe Study?",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Yes, I want to participate in the Goethe Study",
+  "tibberConsentScreenGoetheStudySectionHeader": "Participation in the research Project",
+  "tibberConsentScreenHeader": "New Feature: Consumption Data from Tibber Pulse",
+  "tibberConsentScreenStoreLink": "Visit Tibber Store",
+  "tibberConsumptionEntryTotalCost": "Total cost: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Total profit: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 hours from {startTime} on {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "From: {startTime} to {endDate}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "The month of {month}",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "One month starting {month}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "One hour from {startTime} on {date}",
+  "tibberConsumptionEntryViewTimeSpanYear": "The year {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "One year starting from {year}",
+  "tibberEnterAccessToken": "Please enter access token",
+  "tibberErrorAccessTokenInvalid": "Looks like the access token is invalid",
+  "tibberErrorConnectivityShowCacheInstead": "Unable to retrieve recent consumption data. Showing cached values instead.",
+  "tibberErrorNoHomes": "There are no homes associated with this account",
+  "tibberErrorNoSubscription": "To gain full access to historical data via the API, you need an active Tibber electricity contract for the selected home.",
+  "tibberErrorRateLimit": "Tibber API rate limit exceeded. Please wait at least 5 minutes before retrying.",
+  "tibberErrorSmartMeterMisconfigured": "Your smart meter appears to be misconfigured.",
+  "tibberErrorUndefined": "An unexpected error occurred: {error}",
+  "tibberHomeSelectorHomeId": "Home ID: {homeId}",
+  "tibberHomeSelectorLabel": "Home",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "This home does not support live measurements or historical consumption data. Please select another home.",
+  "tibberLiveMeasurementCounterCardViewFooter": "Live Measurement",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Total Consumption (since midnight)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Consumption (last hour)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Accumulated Cost",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Total Production (since midnight)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Production (last hour)",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Accumulated Reward",
+  "tibberLiveMeasurementWidgetAveragePower": "Average Power",
+  "tibberLiveMeasurementWidgetCurrentL1": "Current (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Current (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Current (L3)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Meter Reading (Consumption)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Meter Reading (Production)",
+  "tibberLiveMeasurementWidgetMaxPower": "Max Power",
+  "tibberLiveMeasurementWidgetMinPower": "Min Power",
+  "tibberLiveMeasurementWidgetPower": "Power",
+  "tibberLiveMeasurementWidgetPowerFactor": "Power Factor",
+  "tibberLiveMeasurementWidgetPowerProduction": "Power Production",
+  "tibberLiveMeasurementWidgetTimestamp": "Timestamp",
+  "tibberLiveMeasurementWidgetTitle": "Current consumption/production at {time}",
+  "tibberLiveMeasurementWidgetUnitA": "A",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "W",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Voltage (Phase 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Voltage (Phase 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Voltage (Phase 3)",
+  "tibberLiveMeasurementsWidgetConnecting": "Connecting to Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "An error occurred while connecting to Tibber Pulse. Please check your access token and internet connection.",
+  "tibberLiveMeasurementsWidgetNotSupported": "Live measurements are not supported for this home.",
+  "tibberMessageAccessTokenUpdated": "Successfully updated the access token",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber Subscription Status",
+  "tibberStatusWidgetTitle": "Cache Management",
+  "tibberSubscriptionStatusActive": "active",
+  "tibberSubscriptionStatusInactive": "inactive",
+  "tibberSubscriptionStatusLoading": "loading...",
+  "tibberWhereIsMyAccessToken": "Where can I find my \"access token\"?",
+  "timeBefore": "Before",
+  "timeDayAgo": "one day ago",
+  "timeDays": "days",
+  "timeDaysAgo": "{days} days ago",
+  "timeDaysWithin": "days",
+  "timeForFirstYear": "for the first year",
+  "timeFriday": "Friday",
+  "timeFromDate": "From {date}",
+  "timeFromUndefined": "Undefined",
+  "timeHours": "hours",
+  "timeHoursAgo": "{hours} hours ago",
+  "timeInFuture": "In the future",
+  "timeJustNow": "just now",
+  "timeLastUpdated": "last updated",
+  "timeMinutes": "minutes",
+  "timeMinutesAgo": "{minutes} minutes ago",
+  "timeMonday": "Monday",
+  "timeMonth": "month",
+  "timeMonths": "months",
+  "timeMonthsAgo": "{months} months ago",
+  "timeMonthsWithin": "months",
+  "timePeriodYearStart": "yearly",
+  "timeReminderAtEnd": "At end",
+  "timeReminderAtStart": "At start",
+  "timeRightNow": "Right now",
+  "timeSaturday": "Saturday",
+  "timeSeconds": "sec",
+  "timeSunday": "Sunday",
+  "timeThursday": "Thursday",
+  "timeToday": "today",
+  "timeTuesday": "Tuesday",
+  "timeUntilDate": "Until {date}",
+  "timeUntilUnlimited": "Unlimited",
+  "timeWednesday": "Wednesday",
+  "timeWeek": "week",
+  "timeWeeks": "weeks",
+  "timeWithin": "Within {duration}",
+  "timeYesterday": "yesterday",
+  "unitCm": "cm",
+  "unitCmLong": "cm",
+  "unitCmShort": "cm",
+  "unitCubicMetersLong": "{count, plural, one {Cubic meter (m³)} other {Cubic meters (m³)}}",
+  "unitCubicMetersShort": "m³",
+  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "unitGJShort": "GJ",
+  "unitGigaByteLong": "GB",
+  "unitGigaByteShort": "GB",
+  "unitHoursLong": "{count, plural, one {Hour} other {Hours (h)}}",
+  "unitHoursShort": "h",
+  "unitKWhLong": "{count, plural, one {Kilowatt hour (kWh)} other {Kilowatt hours (kWh)}}",
+  "unitKWhShort": "kWh",
+  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilograms (kg)}}",
+  "unitKgShort": "kg",
+  "unitLiters": "liters",
+  "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {Megawatt hour (MWh)} other {Megawatt hours (MWh)}}",
+  "unitMWhShort": "MWh",
+  "unitMegaByteLong": "MB",
+  "unitMegaByteShort": "MB",
+  "unitNone": "none",
+  "unitNoneFormatted": "{count, plural, one {unit} other {units}}",
+  "unitPercentLong": "Percent (%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "sqm",
+  "unitSquareMetersLong": "{count, plural, one {Square meter (m²)} other {Square meters (m²)}}",
+  "unitSquareMetersShort": "m²",
+  "updateAvailable": "The app version {oldVersion} is not up to date. You can update to version {newVersion}.",
+  "updateObjectName": "Change object names",
+  "upgradeDescription": "The app can do more. Better cost overview, more statistics, Excel export, more counters, ...",
+  "useDismissibleSettings": "Delete by swipe gesture",
+  "useDismissibleSettingsDetailed": "Counters, contracts, etc. can be deleted by a side-swipe movement",
+  "usedForPaymentsRepayments": "Advance payment, base price, and bonus",
+  "valueLess": "{value} less",
+  "valueMore": "{value} more",
+  "versionIsUpToDate": "The latest app version released to all users is {version}.",
+  "virtualCounter": "Virtual meter",
+  "virtualCounterMasterCounter": "Master meter",
+  "virtualCounterMasterCounterAttach": "Select main meter",
+  "virtualCounterMasterCounterDescription": "Info: The main meter forms the basis for the calculation of the virtual meter, e.g., the main electricity meter or the main water meter.",
+  "virtualCounterMetersToBeAdded": "Meters to be added",
+  "virtualCounterMetersToBeAddedDescription": "Which meter readings should be added to the main meter, e.g., power generation meters.",
+  "virtualCounterMetersToBeSubtracted": "Meters to be subtracted",
+  "virtualCounterMetersToBeSubtractedDescription": "Which meter readings should be subtracted from the main meter, e.g., \"heat pump meters\", \"electricity feed-in meters\".",
+  "virtualCounterNotConfigured": "Please check the settings of your virtual meter. Nothing can be calculated.",
+  "warmWater": "Warm water",
+  "warning": "Warning",
+  "warningCounterReplacementDetected": "The new value is lower than the previous meter reading. Has the meter been replaced?",
+  "warningNextReminderText": " The next reminder is {date}.",
+  "warningOutdatedSinceText": "since {date}",
+  "warningReadingBiggerThanOldValue": "The new value is higher than the previous meter reading.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "The new value is higher than the previous meter reading. Have you refilled the tank?",
+  "warningReadingOutdatedForYearlyResetCounter": "The final meter reading for the year {lastYear} for the {deviceTypeName} {roomNamePart}is missing. This is necessary for a correct calculation of the total annual consumption.",
+  "warningReadingOutdatedFrequency": "The latest meter reading for the {deviceTypeName} {roomNamePart}is outdated {outdatedSinceText}.{whenNotifyDateText}",
+  "warningReadingSeemsTooBig": "The new value is quite high. Was the reading taken correctly?",
+  "warningReadingSeemsTooSmall": "The new value is quite low. Was it read correctly?",
+  "warningReadingSmallerThanOldValue2": "The new value is lower than the previous meter reading. Was the reading taken correctly?",
+  "warningYearlyReset": "Zero reading at the beginning of the year",
+  "wasteWaterPriceEnabled": "Fresh water and waste water costs are shown separately (relevant for deduction meters)",
+  "waterConsumption": "Water consumption",
+  "waterExtractionMinimumLevelLower": "No deduction is applied because consumption is below the minimum threshold.",
+  "waterMeterEventsInformation": "{count, plural, =1 {Your wireless water meter {waterSupplier} detects unexpected consumption. If desired, you will receive a notification in such a case.} other {Your wireless water meters {waterSupplier} detect unexpected consumption. If desired, you will receive a notification in such cases.}}",
+  "watersupplierAccessRequestQ1": "Are you the owner of a property in the catchment area of the waterworks and would like to have access to radio meter readings?",
+  "watersupplierAccessRequestQ2": "Have you already requested access? Next, you need to create an EHW+ user account.",
+  "watersupplierAccessRequestQ3": "Have you already requested access and received your QR code?",
+  "watersupplierAccessRequestQ4": "Would you like to receive meter alerts so you can react in case of a pipe burst or a running toilet flush, for example?",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Sorry, unfortunately that didn't work. It was due to our server. Better try again at a later date!",
+  "watersupplierCompleteMeterIdTryAgain": "You shall not pass! Please enter the last three digits of you meter id again!",
+  "watersupplierMeterIdValidationStep": "We are checking your meter id.",
+  "watersupplierNoAccess": "You no longer have authorization to retrieve data.",
+  "watersupplierNoAccessDetailedMessage": "If you believe that you should still have access, please scan your activation code again. If the access code is no longer valid, please submit a new access request.",
+  "watersupplierOpenReminderSettings": "Open settings",
+  "watersupplierRadioMeterDefaultName": "Radio cold water meter",
+  "watersupplierScanQrCodeApprovalInProgress": "We are now authorizing your account so that you can access the radio meter readings in the future.",
+  "watersupplierScanQrCodeCommand": "Scan the left QR code (activation code)!",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Access to your radio water meter has been canceled.",
+  "watersupplierScanQrCodeScanSuccessful": "Wow, activation code looks so nice! Please enter the last three digits of your meter id!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Note: Your original meter id can have more than 8 characters.",
+  "watersupplierScanQrCodeTitle": "Radio Meter Activation",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Yeah! Your radio water meter of type \"Cold Water\" has been successfully added. You can find it among the other meters.",
+  "watersupplierScanQrCodeValidation": "QR code detected, let's validate it.",
+  "watersupplierScanQrCodeValidationFailed": "Sorry, the code is invalid. Do you want to try again?",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "You scanned the activation code instead of the revocation code. Please try again!",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "You scanned the revocation code instead of the activation code. Please try again!",
+  "watersupplierScanRevokeQrCodeCommand": "Scan the right QR code (revoke code)!",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Delete radio meter",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Scan revocation code",
+  "watersupplierUnlinkRadioMeterDescription1": "Do you want to delete the radio meter without invalidating the activation code?",
+  "watersupplierUnlinkRadioMeterDescription2": "Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.",
+  "watersupplierUnlinkRadioMeterTitle": "Terminate Radio Meter Access",
+  "watersupplierYourSupplier": "Your water supplier",
+  "yearlyConsumption": "Annual consumption so far",
+  "yearlyCosts": "Annual consumption costs so far",
+  "youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",
+  "youtubeConsent2": "Always show Youtube content",
+  "youtubeConsent3": "I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our ",
+  "zipCode": "zip code",
+  "zipCodeValidationLength": "Please enter a {digits}-digit postal code",
+  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers"
 }

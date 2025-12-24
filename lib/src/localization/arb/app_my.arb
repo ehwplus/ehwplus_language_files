@@ -1,442 +1,7 @@
 {
-  "appDescriptionShort": "ပိုက်ဆံအိတ်အတွက်ကောင်းသော, ရာသီဥတုအတွက်ကောင်းသော",
   "@appDescriptionShort": {
     "description": "Marketing claim"
   },
-  "appDescriptionLong": "Phtenkehw + Phtageli သို့ Phtenoke3HWw + Phtokention2, Phtobenkephtttokenokenokenokenokenokenokenletrutrutruture အတွက် Phtoboke3HHT ကဟူရှုခြင်း, ကျွန်ုပ်တို့နှင့်အတူ, သင်အလွယ်တကူ phtoked10hohhoked ကိုသင်အလွယ်တကူသုံးနိုင်သည်။ Free.Phoke14 အတွက် Itphtleok11 Phtoken12Costsphter13",
-  "contactTitle": "ကိုယ်စားပြုသည်:",
-  "contact": "ehw + 0 န်ဆောင်မှုများ GMBH\nGeorg-herbert-straße 8\n68519 Viernheim\n\nတေှ့ဆုံခြင်း\n\nဖုန်း: 06204/7383382\nမေးလ်: info@ehwplus.com",
-  "euDisputeResolution": "အီးယူအငြင်းပွားမှုဖြေရှင်းရေး\n\nဥရောပကော်မရှင်သည်အွန်လိုင်းအငြင်းပွားမှုဖြေရှင်းရေး (OS) အတွက်ပလက်ဖောင်းတစ်ခုပေးသည်။ Https://ec.eurocoPa.eu/consumers/odr/Odr/ ။\nသင်၏အီးမေးလ်လိပ်စာကိုအထက်တွင်ဖော်ပြရန်သင်ရှာနိုင်သည်။\n\nစားသုံးသူအငြင်းပွားမှုဖြေရှင်းခြင်း / Universal အငြင်းပွားမှုဖြေရှင်းရေးအဖွဲ့\n\nစားသုံးသူခုံသမာဓိဖြင့်စီရင်ဆုံးဖြတ်ခြင်းဘုတ်အဖွဲ့မတိုင်မီအငြင်းပွားမှုဖြေရှင်းရေးဆိုင်ရာတရားစွဲဆိုမှုများတွင်ပါ 0 င်ရန်ကျွန်ုပ်တို့ဆန္ဒရှိသို့မဟုတ်တာဝန်ရှိသည်မဟုတ်ပါ။",
-  "consent1Hello": "မင်္ဂလာပါ",
-  "consent2ThankYou": "ehw + ကိုအသုံးပြုတဲ့အတွက်ကျေးဇူးတင်ပါတယ်။",
-  "consent3Video": "နိဒါန်းဗီဒီယိုတိုတိုကြည့်ချင်ပါသလား။",
-  "consent4BeforeYouCanContinue": "သင်ဆက်လက်မနိုင်မီ",
-  "consent5ErrorReportingTitle": "အမှားအစီရင်ခံစာများ",
-  "consent6ContractPricesPerUnitTitle": "လျှပ်စစ် / ရေ / သဘာဝဓာတ်ငွေ့ဈေးနှုန်းများ",
-  "consent7ContractPricesPerUnit": "အခြား EHW + အသုံးပြုသူများနှင့်နှိုင်းယှဉ်လျှင်သင်မည်မျှငွေပေးချေကြောင်းခန့်မှန်းနိုင်ရန်အတွက်စျေးနှုန်းများကိုဂျာမနီရှိ EHW + server သို့ EHW + server သို့ပြောင်းရွှေ့သည်။ လွှဲပြောင်းမှုကိုသင်သဘောတူမှသာလျှင်စျေးနှုန်းစာရင်းဇယားများကိုသင်ဝင်ရောက်ခွင့်ရှိသည်။ အမည်ဝှက်မှုကိုသေချာစေရန်အတွက်စာရင်းအင်းများကိုအနည်းဆုံးကူးစက်သောစျေးနှုန်းများအပြီးသာပြသနိုင်သည်။",
-  "consent11AnalyticsTitle": "ခွဲခြမ်းစိတ်ဖြာဒေတာ",
-  "consent12Analytics": "အက်ပ်၏အောင်မြင်မှုကို အကဲဖြတ်ရန် သို့မဟုတ် တစ်ဦးချင်းလုပ်ဆောင်ချက်များကို အကဲဖြတ်ရန်အတွက်၊ အက်ပ်သည် အမည်မသိအသုံးပြုမှုစာရင်းအင်းများကို ပေးပို့ပါသည်။ ဒေတာကို ပြင်ပအဖွဲ့အစည်းများထံ မပို့ပါ။ အက်ပ်၏ နောက်ထပ်တိုးတက်မှုအတွက် ဒေတာကို အသုံးပြုသည်။",
-  "consent13StromGedachtTitle": "strodedacht ကနေ Grid တည်ငြိမ်မှုသတိပေးချက်များ",
-  "consent13StromGedacht": "Transnetbw မှပေးသော 0 န်ဆောင်မှုတစ်ခုသည်လျှပ်စစ်ဓာတ်အားကိုအသုံးပြုသင့်သည့်လျှပ်စစ်ဓာတ်အားသုံးစွဲသင့်သည့်အတွက်ဇယားကွက်တည်ငြိမ်အေးချမ်းရေးအတွက်သတင်းအချက်အလက်များကိုပေးသည်။ စွမ်းအင်အသွင်ကူးပြောင်းမှုသည်ဂီယာဇယားကွက်အတွက်ပိုမိုစိန်ခေါ်မှုများဖြစ်လာသည်နှင့်အမျှတရုတ်ဆန်တန်လီယန်ရှိအိမ်ထောင်စုများသည်ပါ 0 င်ပတ်သက်နေသည်။ သင်၏တည်နေရာအတွက်သတင်းအချက်အလက်များကိုလက်ခံရရှိရန်သင်၏စာတိုက်ကုဒ်သည်ဤအက်ပလီကေးရှင်းတွင်ဤနေရာတွင် 0 င်ပါက transnetbw stromed transped api သို့ကူးစက်သည်။ အခြားဒေတာများကိုမည်သည့်အချက်အလက်မျှမကူးစက်ပါ။",
-  "stromGedachtAgreement": "ကျွန်ုပ်၏စာတိုက်သင်္ကေတ (အကယ်. ထောက်ပံ့ပေးထားလျှင်) ကို transnetbw သတိပေးချက်များကို transnetbw သို့ပို့ပေးလိမ့်မည်ဟုကျွန်ုပ်သဘောတူသည်။",
-  "priceSubmissionAgreement": "EHW + ဆာဗာတစ်ခုစီအတွက်လျှပ်စစ်ဓာတ်အား / ဓာတ်ငွေ့ / ရေစျေးနှုန်းများထုတ်လွှင့်ခြင်းများကိုကျွန်ုပ်သဘောတူသည်",
-  "googleAnalyticsAgreement": "EHW+ Services GmbH သို့ အက်ပ်အသုံးပြုမှုနှင့်ပတ်သက်သည့် အမည်မသိဒေတာများ ပေးပို့ခြင်းကို ကျွန်ုပ်သဘောတူပါသည်။",
-  "continueAcceptPart1": "ehw + app ကိုအသုံးပြုခြင်းအားဖြင့်သင်သဘောတူသည်",
-  "continueAcceptPart2": "။ Anonymated နှင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုစုဆောင်းခြင်းနှင့်အသုံးပြုခြင်းဆိုင်ရာပိုမိုသိရှိလိုပါက ကျေးဇူးပြု. ကိုးကားပါ",
-  "termsOfUsageTitleShort": "သတ်မှတ်ချက်များ",
-  "faqAboutDeveloperTitle": "အဘယ်သူသည် ehw + နောက်ကွယ်မှသနည်း",
-  "faqAboutDeveloperBody1": "EHW + ကိုစိတ်ဝင်စားသည့်အတွက်ကျေးဇူးတင်ပါသည်။ EHW + ကိုဒီဇင်ဘာ 2020 တွင် Timo Bährသည်ကျွန်ုပ်အားဖြန့်ချိခဲ့သည်။ ကျွန်ုပ်သည်အချိန်ပြည့် app developer တစ်ခုဖြစ်ပြီးသဘာဝပတ်ဝန်းကျင်ကာကွယ်မှုကိုအထောက်အကူပြုရန်ကျွန်ုပ်၏အားလပ်ချိန်များတွင်အလုပ်လုပ်သည်။ 2022 ခုနှစ်မေလကတည်းကဒုတိယရေးဆွဲသူတစ် ဦး သည်ကျွန်ုပ်၏အလုပ်ကိုကြီးကြပ်ခဲ့သည်။ 2023, April ပြီလကတည်းက Janine Smartner သည်များစွာသောဖောက်သည်များ၏တုံ့ပြန်ချက်များကိုကိုင်တွယ်နေသည်။ ဇူလိုင်လ 2024 ခုနှစ်မှစ. Artem Yuzhakov သည် app developer တစ်ခုအဖြစ်ပူးပေါင်းခဲ့သည်။",
-  "faqAboutDeveloperBody2": "ဂျာမနီရှိ CO2 ထုတ်လွှတ်မှုအားလုံး၏ 26% ကျော်သည်ပုဂ္ဂလိကအိမ်ထောင်စုများကြောင့်ဖြစ်သည်။ အကယ်. လူတိုင်းသည်သူတို့၏စားသုံးမှုကိုအနည်းငယ်သာလျှော့ချနိုင်လျှင်များစွာသောသူတို့သည်အောင်မြင်မှုရရှိမည်ဖြစ်သည်။ သင့်ရဲ့အလှူငွေအတွက်ကျေးဇူးတင်ပါတယ်!",
-  "faqAboutDeveloperBody3": "အက်ပလီကေးရှင်းကိုဘယ်လိုတိုးတက်အောင်လုပ်ရမယ်ဆိုတာကိုကျွန်တော်တို့အကြံပြုချက်တွေကိုကြိုဆိုပါတယ်။",
-  "faqAboutDeveloperBody4": "သို့သော်ကျွန်ုပ်သည်အကြံဥာဏ်များအားလုံးကိုအကောင်အထည်ဖော်ရန်နှင့်လုပ်ဆောင်မှုအသစ်များကိုအချိန်ယူရသည်ကိုသင်၏နားလည်မှုကိုတောင်းခံသည်။",
-  "commonCollapse": "ပြိုကဲ",
-  "commonMore": "နောက်ထပ်",
-  "commonSave": "ကယ်ဆယ်",
-  "commonChange": "ပေြာင်းလဲခြင်း",
-  "commonContinue": "ဆက်လက်နေ",
-  "commonBack": "ပြန်.",
-  "commonOk": "အိုကေ",
-  "commonCancel": "ပျက်စေ",
-  "commonClose": "ပိတ်ထားသော",
-  "commonOpen": "ဖွင့်လှစ်",
-  "commonSend": "နားထောင်",
-  "commonDelete": "ဖျက်",
-  "commonYes": "ဟုတ်ကဲ့",
-  "commonNo": "မဟုတ်",
-  "commonLoadingData": "ဒေတာကိုတင်",
-  "commonDay": "နေ့",
-  "commonMonth": "လ",
-  "commonYear": "ခုနှစ်",
-  "commonShare": "ခဲှဝေ",
-  "commonCopiedToClipboard": "clipboard မှကူးယူ",
-  "commonLearnMore": "ပိုမိုသိရှိရန်",
-  "commonMinimum": "အနိမ့်ဆုံးနေ့စဉ်တန်ဖိုး",
-  "commonMaximum": "အမြင့်ဆုံးနေ့စဉ်တန်ဖိုး",
-  "heatmapLegendTitle": "HeTmap အကြောင်းပို",
-  "heatmapLegendDisclaimer": "Info: Shaded box များခန့်မှန်းတန်ဖိုးပါ 0 င်သည်။ အမှန်တကယ်စားသုံးမှု / output ကိုဖတ်ရန်ဖြစ်နိုင်လျှင်ပျောက်ဆုံးနေသောမီတာဖတ်ခြင်းများကိုဖြည့်ပါ။",
-  "consumptionHeatmap": "စားသုံးမှု HeTmap",
-  "consumptionHeatmapYield": "hatmap ကိုလိုက်လျော",
-  "consumption": "ကုန်စေခြင်း",
-  "consumptionYield": "အသားပေး",
-  "showAllYears": "နှစ်ပေါင်းများစွာပြပါ",
-  "appNameShort": "ehw +",
-  "appName": "ehw + | စားသုံးမှု & မီတာဖတ်ခြင်း",
-  "tabCounters": "မီတာ",
-  "tabStatistics": "စာရင်းအင်း",
-  "tabObject": "ကန့်ကွက်",
-  "tabNews": "သိကောင်းစရာများ / သတင်းများ",
-  "ofRangeLastDays": "နောက်ဆုံး Phtoken0 ရက်ပေါင်း၏",
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeLastMonths": "နောက်ဆုံး Phtoken0 လများအတွက်",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeFrom": "Phtoked0 မှ",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "readingTime": "အချိန်ဖတ်ခြင်း",
-  "reading": "ကောင်တာစာဖတ်ခြင်း",
-  "last2Weeks": "နောက်ဆုံး 14 ရက်",
-  "last12Weeks": "ပြီးခဲ့သည့် 12 ပတ်",
-  "last12Months": "ပြီးခဲ့သည့် 12 လ",
-  "sinceInitialReading": "ကန ဦး စာဖတ်ခြင်းကတည်းက",
-  "lastYear": "ပြီးခဲ့သည့်နှစ်က",
-  "periodCustom": "အသုံးပြုသူသတ်မှတ်ထားသည်",
-  "counterReadings": "ဖတ်ခြင်း",
-  "comment": "ဘီလီဂိုဏ်း",
-  "enterComment": "မှတ်စုတစ်ခုထည့်ပါ",
-  "enterExistingReadingAgain": "စာဖတ်ခြင်းကိုပြန်လည်ထည့်သွင်းပါ",
-  "meterId": "ကောင်တာ ID",
-  "meterReadingSubmitted": "ပံ့ပိုးသူမှကူးစက်",
-  "newReading": "လက်ရှိစာဖတ်ခြင်းကိုရိုက်ထည့်ပါ",
-  "newReadingShort": "စာဖတ်ခြင်းအသစ်",
-  "readingWithFactor": "အချက်နှင့်အတူစာဖတ်ခြင်း",
-  "csvImportWithFactor": "1.0 နှင့်ညီမျှသောအချက်တစ်ချက်ဖြင့်မီတာဖတ်သင့်သလား။ ဥပမာအားဖြင့်, တန်ဖိုးများကို WH မှ KWH သို့ပြောင်းရန် 0.001 မှမြှောက်ရန်လိုသည်။",
-  "newPhoto": "ဓာတ်ပုံအသစ်တစ်ခုယူပါ",
-  "existingPhoto": "ရှိပြီးသားဓာတ်ပုံကိုပူးတွဲပါ",
-  "newPhotoOfMeterReading": "မီတာစာဖတ်ခြင်းကိုဓာတ်ပုံရိုက်ချင်ပါသလား။",
-  "existingPhotoOfMeterReading": "မီတာဖတ်နေသည့်နေရာတွင်ရှိပြီးသားဓာတ်ပုံကိုသင်ပူးတွဲလိုပါသလား။",
-  "numCounters": "{count, plural, =0 {Phtoken0 ကောင်တာ} one {Phtoken0 ကောင်တာ} other {Phtoken0 ကောင်တာ}}",
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "numMeterReadings": "{readings, plural, one {# စာဖတ်ခြင်း} other {# ဖတ်ခြင်း}}",
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "exportObjectDescription": "Phtoken0, Phtoken ဒယ်လ်",
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "firstReadingYield": "ယခုပထမ ဦး ဆုံးအထွက်နှုန်းရိုက်ထည့်ပါ။",
-  "firstReadingConsumption": "ပထမ ဦး ဆုံးစားသုံးမှုကိုယခုရိုက်ထည့်ပါ။",
-  "firstReadingCounter": "ပထမကောင်တာစာဖတ်ခြင်းကိုရိုက်ထည့်ပါ။",
-  "consumptionHeatpump": "ထို့အပြင်အပူစုပ်စက်၏စွမ်းအင်သုံးစွဲမှုသည် Phtoked0 KWH သို့ပမာဏရှိသည်။",
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearly": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 သည်ယခုနှစ် Phtoked1 KWH ဖြစ်သည်။",
-  "@consumptionYearly": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "consumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedElectricityIntro": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 (Phtoken1 Kwh ≈ KWH / KWH / KWH / YEN)",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedGasIntro": "သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year)",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel0": "စူပါနိမ့်သည်။",
-  "consumptionYearlyDetailedLevel1": "တကယ်ကြည့်ဖို့တကယ့်ကိုတစ်ခုခုပါ။",
-  "consumptionYearlyDetailedLevel3": "အတော်လေးမြင့်မားသည်။",
-  "consumptionYearlyDetailedLevel4": "ပုံမှန်ပါပဲ",
-  "consumptionYearlyDetailedYouConsume": "သငျသညျ Consumephod0",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLessThan": "ထက်လျော့နည်း Phtoken0",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedMoreThan": "ထက်ပို phtoken0",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedAboutSame": "အတူတူပင်အကြောင်းကို",
-  "consumptionYearlyDetailedAverageHousehold": "Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedOptimalEnding": "မင်းဘယ်လိုနေလဲ",
-  "consumptionYearlyDetailedLevel1Suffix": "Phtoken0 KWHK / လသည်အကောင်းဆုံးစားသုံးမှုအတွက်ပျောက်ဆုံးနေသည်။",
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel2Suffix": "ကောင်းသောစားသုံးမှုအတွက် phtoked0 kwh / လပျောက်ဆုံးနေ။",
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionPersonLabel": "{count, plural, one {လူ} other {လူထု}}",
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "consumptionWaterPrefixSingle": "သင်လောင်",
-  "consumptionWaterPrefixPerPerson": "လူတစ် ဦး လျှင်လူတိုင်းစားသုံးသည်",
-  "consumptionWaterDailyMonthly": "တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "String"
-      },
-      "monthlyCubicMeters": {
-        "type": "String"
-      },
-      "unitName": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterRangeUnknown": "သင်၏ရေသုံးစွဲမှု Phtoken0 ...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallLess": "သင်၏ရေသုံးစွဲမှု Phtoken0 သည် Phtens2 Phtokenk3 နှင့်အတူပျမ်းမျှအိမ်ထောင်စုထက် Phtoken1 နိမ့်ကျသည်။",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallEqual": "သင်၏ရေစားသုံးမှု Phtoken0 သည် Phtoken1 Phtokenw2 နှင့်အတူပျမ်းမျှအိမ်ထောင်စုတစ်စု၏ပွဲစဉ်လိုက်ဖက်သည်။",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallMore": "သင်၏ရေစားသုံးမှု Phtoken0 သည် Phtokens2 Phtokenk3 နှင့်အတူ Phtoken1 ထက် Phtoken1 ထက်ပိုမိုမြင့်မားသည်။",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdLess": "ရေအေး - Phtoken0 ပျမ်းမျှအိမ်ထောင်စုထက်နည်းသည်။",
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdMore": "ရေအေး - Phtoken0 Phtoken0 ပိုများသောအိမ်ထောင်စုထက်ပိုပြီး။",
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdEqual": "ရေအေး - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။",
-  "consumptionWaterWarmLess": "ရေပူ - Phtoked0 ပျမ်းမျှအိမ်ထောင်စုထက်နည်းသည်။",
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmMore": "ရေပူ - Phtoken0 ပိုများသောအိမ်ထောင်စုထက်ပိုပြီး။",
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmEqual": "ရေပူ - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။",
-  "yearlyConsumption": "ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု",
-  "yearlyCosts": "နှစ်စဉ်စားသုံးမှုယခုအချိန်အထိကုန်ကျစရိတ်",
-  "room": "နေရာ",
-  "fedIn": "ကျွေးမွေး",
-  "generated": "ဖြစ်သော",
-  "residualGenerationEstimated": "အကြွင်းအကျန်မျိုးဆက်ခန့်မှန်းခြေ",
-  "residualConsumptionEstimated": "အကြွင်းအကျန်သုံးစွဲမှုခန့်မှန်းထားသည်",
-  "myObjects": "ငါ့အရာဝတ်ထု",
-  "roomLivingRoom": "living ည့်ခန်း",
-  "roomDiningRoom": "ထမင်းစားခန်း",
-  "roomBedroom": "အိပ်ခန်း",
-  "roomBathroom": "ရေချိုးခန်း",
-  "roomWc": "ဒဗလျူစီ",
-  "roomChildrenRoom": "ကလေးများအခန်း",
-  "roomKitchen": "မီးဖိုခန်း",
-  "roomStoreRoom": "စတိုးဆိုင်",
-  "roomOffice": "ရုံး",
-  "roomGarden": "ဉယျာဉ်",
-  "counter": "ဆိုင်ရောင်းခုံရှည်",
-  "counterDirectionAscending": "တက်",
-  "counterDirectionDescending": "ဆင်း",
-  "counterDirectionNone": "Phtoken0 / Phtoken1",
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "counterWater": "ရေမီတာ",
-  "counters": "မီတာ",
-  "changeCounterOrder": "လိုအပ်ပါကသင်သည်အမိန့်ကိုပြောင်းလဲနိုင်သည်",
-  "newCounter": "အသစ်တစ်ခုကောင်တာဖန်တီးပါ",
-  "updateObjectName": "အရာဝတ်ထုအမည်များကိုပြောင်းလဲပါ",
-  "enterObjectName": "အရာဝတ်ထုအသစ်ကိုဖော်ပြပါ",
-  "explanationManageMoreThanOneObject": "မင်းမှာသင်စီမံချင်တဲ့ပစ္စည်းတစ်ခုထက်ပိုပြီးရှိတယ်။ ထို့နောက်လက်ရှိအရာဝတ်ထုကိုဖော်ပြပြီးအခြားအရာဝတ်ထုတစ်ခုကိုဖန်တီးပါ။",
-  "selectedAtAppStart": "အမြင့်ဆုံးအရာဝတ်ထုကို app start မှာရွေးချယ်သည်",
-  "reallyDeleteObject": "အရာဝတ်ထုကိုဖျက်ချင်တာသေချာလား။",
-  "confirmDeleteAtCloud": "Google Drive မှ \"Phtoken0\" ကိုလည်းဖျက်ပစ်သင့်ပါသလား။",
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "deleteObjectError": "ဤအရာဝတ်ထုကို ဖျက်. မရပါ (ကုဒ် Phtoken0) ။",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "commonChangeSaved": "ပြောင်းလဲသွားတယ်",
-  "commonUpdateNow": "ယခု update ကို",
-  "commonLogout": "ဆိုင်းအောက်",
-  "commonLogin": "ဆိုင်းအင်လုပ်ခြင်း",
-  "commonLoggingIn": "မင်းကိုလက်မှတ်ထိုးပါ",
-  "commonLoggingOut": "သင်လက်မှတ်ထိုးခြင်း ...",
-  "commonNotAuthenticated": "သင် authentication မရှိကြပေ။",
-  "commonUserLogin": "အသုံးပြုသူ login",
-  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken ဒယ်ဝါဝယ်ယူထားသော Phtokened ထုတ်ကုန်များထဲမှ Phtoken0 ကို EHW + ဆာဗာတွင်သိမ်းဆည်း ထား. မရပါ။ ကျနော်တို့မကြာမီပြ issue နာကိုဖြေရှင်းရန်မျှော်လင့်ပါတယ်။",
   "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
     "placeholders": {
       "notSubmitted": {
@@ -449,7 +14,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {0 ယ်ယူမှုကို EHW + အကောင့်မှတစ်ဆင့်တစ်ပြိုင်တည်းချိန်ကိုက်ထားသည်။} other {Phtoken0 ဝယ်ယူမှုများကို EHW + အကောင့်မှတစ်ဆင့်ထပ်တူပြုသည်။}}",
   "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
     "placeholders": {
       "count": {
@@ -458,7 +22,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ အကယ်. သင်သည်အနာဂတ်တွင်ထုတ်ကုန်များကို 0 ယ်ယူပါကသင်၏ကိရိယာများအားလုံးကိုတစ်ပြိုင်တည်းချိန်ကိုက်လိမ့်မည်။} one {သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 ဝယ်ယူထားသောထုတ်ကုန်ကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။} other {သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 0 ယ်ယူထားသောထုတ်ကုန်များကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။}}",
   "@commonUserLoginDescriptionLoggedInSavedPurchases": {
     "placeholders": {
       "count": {
@@ -467,210 +30,224 @@
       }
     }
   },
-  "commonUserLoginDescriptionNotLoggedIn": "ပစ္စည်းမျိုးစုံအပေါ် app ကိုသင်အသုံးပြုနေပါသလား။ သင်၏ EHW + အကောင့်ထဲသို့ဝင်ရောက်ခြင်းသည်သင်၏ချိန်ညှိချက်များကိုထပ်တူပြုခြင်းနှင့်ထုတ်ကုန်များအားလုံးကို 0 ယ်ယူရန်ခွင့်ပြုသည်။",
-  "accountUpdateInfo": "New: EHW + အသုံးပြုသူအကောင့်",
-  "accountThankYouForPurchase": "ကျေးဇူးတင်ပါသည်! သင်၏ EHW + အသုံးပြုသူအကောင့်တွင် 0 ယ်ယူလိုပါသလား။",
-  "accountAbout": "EHW + အသုံးပြုသူအကောင့်ဘာလုပ်နိုင်လဲ။",
-  "accountBenefit1": "ပိုပြီးယုံကြည်စိတ်ချရသောဝယ်ယူအသိအမှတ်ပြုမှု",
-  "accountBenefit2": "အမျိုးမျိုးသော devices များပေါ်တွင်ဝယ်ယူထားသောတိုးချဲ့မှုအားလုံးကိုရယူပါ",
-  "accountFaqTitle": "မကြာခဏမေးသောမေးခွန်းများ -",
-  "accountFaqQ1": "ehw + အသုံးပြုသူအကောင့်ဆိုတာဘာလဲ။",
-  "accountFaqA1": "EHW + အသုံးပြုသူအကောင့်သည် 0 ယ်ယူမှုများကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းတစ်ခုပေးသည်။ ထို့အပြင် 0 ယ်ယူမှုသည် 0 ယ်ယူမှုကိုမူလကမယူသည့်ကိရိယာပေါ်တွင်ပြန်လည်တည်ဆောက်ရန်ခွင့်ပြုသည်။ အနာဂတ်တွင်၎င်းသည်ချိန်ညှိချက်များနှင့်အခြားအရာများသက်သာစေရန်ဖြစ်နိုင်သည်။",
-  "accountFaqQ2": "ကျွန်ုပ်သည်ကျွန်ုပ်၏ 0 ယ်ယူမှုများကို EHW + အသုံးပြုသူအကောင့်မရှိဘဲ 0 င်ရောက်နိုင်မည်လား။",
-  "accountFaqA2": "ဟုတ်ကဲ့, 0 ယ်ယူမှုများကို Play Store မှတစ်ဆင့်သို့မဟုတ်အက်ပလီကေးရှင်းမှတစ်ဆင့် Android device ပေါ်တွင်ပြန်လည်တည်ဆောက်နိုင်သည်။ EHW + အသုံးပြုသူအကောင့်သည် 0 ယ်ယူမှုများကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းကိုပြန်လည်ထူထောင်ရန်မဖြစ်နိုင်ပါ။ ထို့အပြင် 0 ယ်ယူမှုသည် 0 ယ်ယူမှုကိုမူလကမယူသည့်ကိရိယာပေါ်တွင်ပြန်လည်တည်ဆောက်ရန်ခွင့်ပြုသည်။",
-  "accountButtonSetup": "EHW + အသုံးပြုသူအကောင့်ကိုသတ်မှတ်ပါ",
-  "cometSettingsIsPredictionsApiEnabled": "Goethe Institute မှကြယ်တံခွန်ခန့်မှန်းချက် API ကိုသုံးပါ",
-  "cometConsentScreenHeader": "New: ပိုကောင်းတဲ့စားသုံးမှုကြိုတင်ခန့်မှန်းချက်",
-  "cometConsentScreenHowItWorksTitle": "ဘယ်လိုအလုပ်လုပ်သလဲ",
-  "cometConsentScreenOnlineDescriptionTitle": "အင်တာနက်ဆက်သွယ်မှုနှင့်အတူ:",
-  "cometConsentScreenOnlineDescription": "သင်၏စားသုံးမှုအချက်အလက်များကို Goethe Univers Frankfurt သို့ပို့ပေးပါလိမ့်မည်။",
-  "cometConsentScreenOfflineDescriptionTitle": "အင်တာနက်ဆက်သွယ်မှုမရှိရင်",
-  "cometConsentScreenOfflineDescription": "ရိုးရှင်းသောဒေသခံခန့်မှန်းချက်ကိုသင်၏စက်ပေါ်တွင်တွက်ချက်လိမ့်မည်။",
-  "cometConsentScreenToggleLabel": "ခန့်မှန်းချက်ဝန်ဆောင်မှုကိုသုံးပါ",
-  "cometConsentScreenDataCanBeUsedForTraining": "အနာဂတ်ခန့်မှန်းချက်များကိုပိုမိုကောင်းမွန်စေရန်ဒေတာများကိုအသုံးပြုနိုင်သည်",
-  "cometConsentScreenFeedbackTitle": "Goethe တက္ကသိုလ်သည်သင်၏တုံ့ပြန်ချက်ကိုလိုအပ်သည်။",
-  "cometConsentScreenFeedbackDescription": "ခန့်မှန်းချက်ကိုအသုံးပြုခြင်းသည်အခမဲ့ဖြစ်သည်။ သို့သော်သုတေသနအဖွဲ့သည် 0 န်ဆောင်မှုသည်မည်မျှကောင်းမွန်စွာအလုပ်လုပ်သည်နှင့် ပတ်သက်. တုံ့ပြန်ချက်များလိုအပ်သည်။",
-  "cometConsentScreenFeedbackMethod": "သင်ခန့်မှန်းတွက်ချက်မှု 0 န်ဆောင်မှုကိုအသုံးပြုသောအခါတုံ့ပြန်ချက်များကိုအလိုအလျောက်ထောက်ပံ့ပေးပြီးအကောင်းမြင်ရန်သဘောတူသည်။",
-  "cometConsentScreenDeclineButton": "ငါတုံ့ပြန်ချက်မပေးချင်ဘူး",
-  "cometConsentScreenAcceptButton": "ငါတုံ့ပြန်ချက်ပေးချင်တယ်",
-  "exportTabHowToExport": "ဒေတာကိုဘယ်လိုတင်ပို့ချင်ပါသလဲ",
-  "exportTabHowToExportOptionShare": "အခြားအက်ပ်များနှင့်မျှဝေပါ",
-  "exportTabHowToExportOptionSaveToDownloads": "Phtoken0 folder မှ Save",
-  "exportTabSnackBarSaveResultMessageSuccess": "Phtoken1 တွင် Phtoked1 တွင် Phtoken0 အဖြစ်ဒေတာများကိုအောင်မြင်စွာသိမ်းဆည်းထားပြီးဖြစ်သည်",
-  "exportTabSnackBarSaveResultMessageError": "အချက်အလက်များကိုသိမ်းဆည်းနေစဉ်အမှားဖြစ်ပွားခဲ့သည်",
-  "importTabErrorMessageFileWithExtensionNotSelected": "Import နှင့်ဆက်လက်လုပ်ဆောင်ရန် Phtoken0 ဖိုင်လိုအပ်သည်။",
-  "difference": "ကဲှပြားချက်",
-  "period": "ကာလ",
-  "periodHourly": "နာရီတိုင်း",
-  "periodDaily": "နေ့စဉ်",
-  "periodWeekly": "ရက်သတ္တပတ်တကြိမ်ဖြစ်သော",
-  "periodBiweekly": "နှစ်ပတ်အပတ်စဉ်",
-  "periodMonthly": "လစဉ်",
-  "periodBimonthly": "နှစ်လစာ",
-  "periodQuarterly": "လပတ်",
-  "periodHalfYearly": "နှစ်ဝက်",
-  "periodYearly": "နှစ်နှစ်",
-  "meterCardLastUpdatedLabel": "အသစ်ပြောင်းခြင်း",
-  "smartMeterServiceProvider": "ဝန်ဆောင်မှုပေးသူ",
-  "smartMeterObtainDataAutomatically": "ဒေတာကိုအလိုအလျောက်ရယူပါ",
-  "smartMeterErrorNoData": "ကံမကောင်းစွာဖြင့်အက်ပလီကေးရှင်းပြနိုင်သည့်အချက်အလက်မရှိပါ။",
-  "smartMeterSettingsScreenSyncButton": "စားသုံးမှုဒေတာများကိုထပ်တူပြုခြင်း",
-  "smartMeterSettingsScreenSyncingDialogHeader": "တိုးတက်မှုအတွက်စည်းညှိ",
-  "smartMeterSettingsScreenSyncingDialogProgress": "တိုးတက်မှု: PHTED0%",
-  "smartMeterSettingsScreenSyncingDialogError": "အမှား",
-  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "အိုကေ",
-  "smartMeterSettingsScreenSyncingDialogErrorMessage": "ထပ်တူပြုခြင်းသည်ထပ်တူပြုခြင်းဖြင့်အောက်ပါအမှား - Phtoken0",
-  "smartMeterMisconfiguredWidgetCardTitle": "ကျေးဇူးပြု. သင်၏စမတ်မီတာကိုမှန်ကန်စွာတည်ဆောက်ပါ။",
-  "smartMeterMisconfiguredWidgetCardButton": "စမတ်မီတာကို set up",
-  "smartMeterTabConsumptions": "စားသုံးစရိတ်",
-  "smartMeterTabProductions": "အဆောက်အအုံများ",
-  "consumptionCacheManagementClearCacheButton": "cache ကိုရှင်းရှင်းလင်းလင်း",
-  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Clear & Sync",
-  "consumptionCacheManagementConfirmClearCacheTitle": "Clear cache ကို?",
-  "consumptionCacheManagementConfirmClearCacheMessage": "cacheed စားသုံးမှုဒေတာများကိုအမြဲတမ်းဖျက်ပစ်လိမ့်မည်။ သင်နောက်မှထပ်တူပြုနိုင်သည်။",
-  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "cache ကို Cache & Synchronize?",
-  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "သိမ်းဆည်းထားသောဒေတာအားလုံးကိုဖျက်ပြီးဆာဗာမှ re-download လုပ်လိမ့်မည်။ ဒါကအချိန်အနည်းငယ်ယူကောင်းသွားနိုင်တယ်။",
-  "consumptionCacheManagementClearedSuccessfully": "cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်",
-  "tibberAccessToken": "access token",
-  "tibberEnterAccessToken": "ကျေးဇူးပြုပြီး access token ရိုက်ထည့်ပါ",
-  "tibberMessageAccessTokenUpdated": "Access Token ကိုအောင်မြင်စွာ update လုပ်ပါ",
-  "tibberErrorAccessTokenInvalid": "Access Token သည်မမှန်ကန်ကြောင်းနှင့်တူသည်",
-  "tibberErrorNoHomes": "ဤအကောင့်နှင့်ဆက်စပ်သောအိမ်များမရှိပါ",
-  "tibberErrorSmartMeterMisconfigured": "သင်၏စမတ်မီတာသည်အချည်းနှီးဖြစ်ပုံရသည်။",
-  "tibberErrorConnectivityShowCacheInstead": "လတ်တလောစားသုံးမှုအချက်အလက်များကိုပြန်လည် ရယူ. မရပါ။ အစား cacheed တန်ဖိုးများဖေါ်ပြခြင်း။",
-  "tibberErrorUndefined": "မမျှော်လင့်သောအမှားတစ်ခုဖြစ်ပွားခဲ့သည်: Phtoken0",
-  "tibberErrorRateLimit": "Tibber API နှုန်းကန့်သတ်ချက်ကျော်လွန်သွားသည်။ ကျေးဇူးပြု. မပြန်မီအနည်းဆုံး 5 မိနစ်စောင့်ပါ။",
-  "tibberErrorNoSubscription": "API မှတစ်ဆင့်သမိုင်းဆိုင်ရာအချက်အလက်များကိုအပြည့်အ 0 ရယူရန်သင်ရွေးချယ်ထားသောအိမ်အတွက် Tibber လျှပ်စစ်ဆိုင်ရာစာချုပ်တစ်ခုလိုအပ်သည်။",
-  "tibberBasicAuth": "အခြေခံ Auth",
-  "tibberBasicAuthUsername": "အသုံးပြုသူ",
-  "tibberBasicAuthPassword": "လှျို့ဝှက်စကား",
-  "tibberBasicAuthEnterUsername": "ကျေးဇူးပြု. Username ကိုရိုက်ထည့်ပါ",
-  "tibberBasicAuthEnterPassword": "ကျေးဇူးပြု. စကားဝှက်ကိုရိုက်ထည့်ပါ",
-  "tibberConsumptionEntryTotalCost": "စုစုပေါင်းကုန်ကျစရိတ်: Phtoken0",
-  "tibberConsumptionEntryTotalProfit": "စုစုပေါင်းအမြတ်အစွန်း: Phtoken0",
-  "tibberConsumptionEntryViewTimeSpanYear": "အဆိုပါနှစ် Phtoked0",
-  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "တစ်နှစ် Phtoked0 မှစတင်",
-  "tibberConsumptionEntryViewTimeSpanMonth": "Phtoked0 ၏လ",
-  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "တစ်လ Phtoken0 စတင်",
-  "tibberConsumptionEntryViewTimeSpan24Hours": "Phtoked1 မှ Phtoked0 မှ 24 နာရီ",
-  "tibberConsumptionEntryViewTimeSpanOneHour": "Phtoked1 မှ Phtoked0 မှတစ်နာရီ",
-  "tibberConsumptionEntryViewTimeSpanDefault": "Phtoken. မှ Phtoken.1 မှ",
-  "tibberWhereIsMyAccessToken": "ကျွန်ုပ်၏ \"Access Token\" ကိုဘယ်မှာရှာရမလဲ။",
-  "tibberActionSaveAuthorizationSettings": "ခွင့်ပြုချက်ဆက်တင်များကိုသိမ်းဆည်းပါ",
-  "tibberConsentScreenHeader": "အသစ်သောအင်္ဂါရပ် - Tibber Pulse မှစားသုံးမှုအချက်အလက်များ",
-  "tibberConsentScreenDescription": "သင်ကတလုံးဖောက်သည်လား, ယခုကျွန်ုပ်တို့သည်စွမ်းအင်စောင့်ကြည့်လေ့လာခြင်းအတွက်သွေးခုန်နှုန်းကိုထောက်ပံ့သည်။ သွေးခုန်နှုန်းမှသမိုင်းဆိုင်ရာအချက်အလက်များသည်ကံမကောင်းအကြောင်းမလှစွာဖြင့်ဖောက်သည်များထံမှ 0 တ်စုံကန်ထရိုက်စာချုပ်များကိုသာရရှိနိုင်ကြောင်းသတိပြုပါ။",
-  "tibberConsentScreenBenefit1Title": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုကြည့်ပါ",
-  "tibberConsentScreenBenefit1Description": "သင်၏စားသုံးမှုကိုအချိန်နှင့်တပြေးညီစစ်ဆေးရန်နှင့်ဖုံးကွယ်ထားသောစွမ်းအင် Guzzleers များကိုရှာဖွေပါ။",
-  "tibberConsentScreenStoreLink": "Tibber စတိုးကိုသွားပါ",
-  "tibberConsentScreenConfigureNowButton": "ယခု Tibber Pulse ကို set up",
-  "tibberConsentScreenConfigureLaterButton": "နောက်မှ set up",
-  "tibberConsentScreenGoetheStudySectionHeader": "သုတေသနစီမံကိန်းတွင်ပါ 0 င်မှု",
-  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "ဟုတ်ကဲ့, ငါ Goethe လေ့လာမှုတွင်ပါ 0 င်လိုသည်",
-  "tibberConsentScreenGoetheStudyBenefit1Title": "သင် Goethe လေ့လာမှုတွင်ပါ 0 င်လိုပါသလား။",
-  "tibberConsentScreenGoetheStudyBenefit1Description": "မတ်လ 1 ရက်မှသင်၏အလုပ်ချိန်ရက်သည် Anonyte ကိုလေ့လာရန်နှင့် Goethe လေ့လာမှုအတွက်ထောက်ပံ့ပေးလိမ့်မည်။",
-  "tibberStatusWidgetTitle": "cache စီမံခန့်ခွဲမှု",
-  "tibberStatusWidgetTibberSubscriptionStatus": "tibber subscription status ကို",
-  "tibberSubscriptionStatusActive": "လှုပ်ရှားသော",
-  "tibberSubscriptionStatusInactive": "မလှုပ်ရှားတတ်သော",
-  "tibberSubscriptionStatusLoading": "တင် ...",
-  "tibberLiveMeasurementCounterCardViewFooter": "တိုက်ရိုက်တိုင်းတာခြင်း",
-  "tibberLiveMeasurementsWidgetNotSupported": "Live တိုင်းတာမှုများသည်ဤအိမ်အတွက်မထောက်ပံ့ပါ။",
-  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "ဤအိမ်သည်တိုက်ရိုက်တိုင်းတာမှုများသို့မဟုတ်သမိုင်းဝင်စားသုံးမှုအချက်အလက်များကိုမထောက်ပံ့ပါ။ အခြားအိမ်ကိုရွေးချယ်ပါ။",
-  "tibberLiveMeasurementsWidgetConnecting": "Tibber Pulse သို့ဆက်သွယ်ခြင်း ...",
-  "tibberLiveMeasurementsWidgetError": "Tibber Pulse ကိုဆက်သွယ်စဉ်အမှားတစ်ခုဖြစ်ပွားခဲ့သည်။ ကျေးဇူးပြု. သင်၏ Access Token နှင့် Internet Connection ကိုစစ်ဆေးပါ။",
-  "tibberLiveMeasurementWidgetTitle": "Phtoken0 မှာလက်ရှိစားသုံးမှု / ထုတ်လုပ်မှု",
-  "tibberLiveMeasurementWidgetTimestamp": "အချစ်",
-  "tibberLiveMeasurementWidgetPower": "စွမ်းအား",
-  "tibberLiveMeasurementWidgetPowerProduction": "ပါဝါထုတ်လုပ်မှု",
-  "tibberLiveMeasurementWidgetAveragePower": "ပျမ်းမျှပါဝါ",
-  "tibberLiveMeasurementWidgetMinPower": "မင်းပါဝါ",
-  "tibberLiveMeasurementWidgetMaxPower": "အများဆုံးပါဝါ",
-  "tibberLiveMeasurementWidgetAccumulatedConsumption": "စုစုပေါင်းစားသုံးမှု (ညသန်းခေါင် မှစ. )",
-  "tibberLiveMeasurementWidgetAccumulatedProduction": "စုစုပေါင်းထုတ်လုပ်မှု (ညသန်းခေါင် မှစ. )",
-  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "စားသုံးမှု (နောက်ဆုံးနာရီ)",
-  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "ထုတ်လုပ်မှု (နောက်ဆုံးနာရီ)",
-  "tibberLiveMeasurementWidgetLastMeterConsumption": "မီတာဖတ်ခြင်း (စားသုံးမှု)",
-  "tibberLiveMeasurementWidgetLastMeterProduction": "မီတာစာဖတ်ခြင်း (ထုတ်လုပ်မှု)",
-  "tibberLiveMeasurementWidgetAccumulatedCost": "စုဆောင်းကုန်ကျစရိတ်",
-  "tibberLiveMeasurementWidgetAccumulatedReward": "စုဆောင်းဆုလာဘ်",
-  "tibberLiveMeasurementWidgetPowerFactor": "ပါဝါအချက်",
-  "tibberLiveMeasurementWidgetVoltagePhase1": "ဗို့အား (အဆင့် 1)",
-  "tibberLiveMeasurementWidgetVoltagePhase2": "ဗို့အား (အဆင့် 2)",
-  "tibberLiveMeasurementWidgetVoltagePhase3": "ဗို့အား (အဆင့် 3)",
-  "tibberLiveMeasurementWidgetCurrentL1": "လက်ရှိ (L1)",
-  "tibberLiveMeasurementWidgetCurrentL2": "လက်ရှိ (L2)",
-  "tibberLiveMeasurementWidgetCurrentL3": "လက်ရှိ (L3)",
-  "tibberLiveMeasurementWidgetUnitV": "v",
-  "tibberLiveMeasurementWidgetUnitW": "အလိုတော်",
-  "tibberLiveMeasurementWidgetUnitA": "တစ်စီး",
-  "tibberHomeSelectorHomeId": "ပင်မစာမျက်နှာ ID: PHTEDE0",
-  "tibberHomeSelectorLabel": "နေအိမ်",
-  "scanQrCode": "scan qr code ကို scan",
-  "requestAccess": "ဆက်သွယ်မှုကိုတောင်းဆိုခြင်း",
-  "createAccount": "အကောင့် / login လုပ်ပါ",
-  "watersupplierYourSupplier": "သင့်ရေပေးသွင်း",
-  "watersupplierRadioMeterDefaultName": "ရေဒီယိုရေအေးမီတာ",
-  "watersupplierAccessRequestQ1": "သင်ဟာရေဒီယိုမှာရှိတဲ့နေရာမှာပစ္စည်းဥစ်စာပိုင်ဆိုင်မှုပိုင်ရှင်လား, ရေဒီယိုမီတာဖတ်တာကိုရချင်ပါသလား။",
-  "watersupplierAccessRequestQ2": "သင်ဝင်ရောက်ခွင့်ကိုတောင်းခံပြီးပြီလား ထို့နောက် EHW + အသုံးပြုသူအကောင့်တစ်ခုကိုဖန်တီးရန်လိုအပ်သည်။",
-  "watersupplierAccessRequestQ3": "သင့် QR ကုဒ်ကိုရယူပြီးလက်ခံပြီးဖြစ်သည်။",
-  "watersupplierAccessRequestQ4": "ဥပမာအားဖြင့် Pipe Burst သို့မဟုတ်အိမ်သာ flush ကိုသုံးလျှင်သင်မီတာသတိပေးချက်များကိုသင်ရယူလိုပါသလား။",
-  "watersupplierOpenReminderSettings": "Open Settings",
-  "watersupplierScanQrCodeTitle": "ရေဒီယိုမီတာ activation",
-  "watersupplierScanQrCodeCommand": "ဘယ်ဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။",
-  "watersupplierScanRevokeQrCodeCommand": "ညာဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။",
-  "watersupplierScanQrCodeValidation": "QR Code ကိုရှာဖွေတွေ့ရှိကြစို့။",
-  "watersupplierScanQrCodeValidationFailed": "တောင်းပန်ပါတယ်, ကုဒ်မမှန်ကန်ပါ။ သင်ထပ်ကြိုးစားချင်ပါသလား",
-  "watersupplierScanQrCodeValidationFailedRevokeScanned": "activation code အစား revocation code ကိုသင်စကင်ဖတ်စစ်ဆေးသည်။ ကျေးဇူးပြုပြီးထပ်ကြိုးစားပါ",
-  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "သင် revocation code အစား activation code ကိုစကင်ဖတ်စစ်ဆေးသည်။ ကျေးဇူးပြုပြီးထပ်ကြိုးစားပါ",
-  "watersupplierScanQrCodeScanSuccessful": "wow, activation code ကအရမ်းကောင်းတယ်! ကျေးဇူးပြု. သင်၏မီတာအိုင်ဒီ၏နောက်ဆုံးဂဏန်းသုံးလုံးကိုရိုက်ထည့်ပါ။",
-  "watersupplierMeterIdValidationStep": "သင်၏မီတာ ID ကိုစစ်ဆေးနေသည်။",
-  "watersupplierCompleteMeterIdServerErrorTryAgain": "စိတ်မကောင်းပါဘူး, ကံမကောင်းတာကအလုပ်မလုပ်ဘူး ဒါဟာငါတို့ဆာဗာကြောင့်ဖြစ်ခဲ့သည်။ ပိုကောင်းတဲ့နောက်ရက်မှာထပ်ကြိုးစားပါ။",
-  "watersupplierCompleteMeterIdTryAgain": "သင်မဖြတ်သန်းသင့်ပါ! ကျေးဇူးပြု. သင့် Meter ID ၏နောက်ဆုံးဂဏန်းသုံးလုံးကိုထပ်ထည့်ပါ။",
-  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "မှတ်ချက် - သင်၏မူလမီတာအိုင်ဒီတွင်စာလုံး 8 လုံးကျော်နိုင်သည်။",
-  "watersupplierScanQrCodeApprovalInProgress": "ယခုကျွန်ုပ်တို့သည်သင်၏အကောင့်ကိုအနာဂတ်အတွက်ရေဒီယိုမီတာဖတ်ရှုနိုင်ရန်အတွက်သင်၏အကောင့်ကိုခွင့်ပြုထားသည်။",
-  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "ဟုတ်တယ်! သင်၏ရေဒီယိုရေမီတာ \"ရေအေး\" ကိုအောင်မြင်စွာထည့်သွင်းထားသည်။ သင်ကအခြားမီတာအကြားရှာတွေ့နိုင်ပါသည်။",
-  "watersupplierUnlinkRadioMeterTitle": "ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ",
-  "watersupplierUnlinkRadioMeterDescription1": "activation code ကို invaliding လုပ်ခြင်းမရှိဘဲရေဒီယိုမီတာကိုဖျက်ချင်ပါသလား။",
-  "watersupplierUnlinkRadioMeterButtonDelete": "ရေဒီယိုကိုဖျက်ပါ",
-  "watersupplierUnlinkRadioMeterDescription2": "သင်၏ရေဒီယိုမီတာဒေတာများကိုသင်လက်လှမ်းမမီချင်ပါသလော။ ကျေးဇူးပြု. မှတ်သားပါ။ ပြန်လည်ရုပ်သိမ်းခြင်းကုဒ်ကိုစကင်ဖတ်စစ်ဆေးသည်နှင့်တပြိုင်နက်, activation code သည်မမှန်ကန်ပါ။ activation code ကိုအသုံးပြုသောအသုံးပြုသူအကောင့်သည်ဝင်ရောက်ခွင့်ပြုလိမ့်မည်။",
-  "watersupplierUnlinkRadioMeterButtonRevoke": "ရုပ်သိမ်းခြင်းကုဒ်",
-  "watersupplierScanQrCodeOffboardingSuccessful": "သင့်ရေဒီယိုရေကိုလက်လှမ်းမီမှုကိုဖျက်သိမ်းလိုက်သည်။",
-  "watersupplierNoAccess": "အချက်အလက်များကိုပြန်လည်ရယူရန်ခွင့်ပြုချက်မရတော့ပါ။",
-  "watersupplierNoAccessDetailedMessage": "သင်ရရှိနိုင်ကြောင်းသင်ယုံကြည်ပါကသင်၏ activation code ကိုထပ်မံစစ်ဆေးပါ။ ဝင်ရောက်ခွင့်ကုဒ်သည်မမှန်ပါက ကျေးဇူးပြု. ဝင်ရောက်ခွင့်အသစ်တစ်ခုကိုတင်သွင်းပါ။",
-  "zipCode": "စာတိုက်သင်္ကေတ",
-  "zipCodeValidationOnlyNumbers": "ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်",
-  "zipCodeValidationLength": "ကျေးဇူးပြုပြီး Phtoken0-digit စာတိုက်ကုဒ်ကိုရိုက်ထည့်ပါ",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
+  "@confirmDeleteAtCloud": {
     "placeholders": {
-      "digits": {
-        "example": "5",
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLevel2Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "@counterNum": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "houseName": "အိမ်အမည်",
-  "houseNameDescription": "အိမ်အမည်, E.G. လမ်းနာမည်",
-  "marketLocationId": "စျေးကွက်တည်နေရာ ID",
-  "marketLocationIdDescription": "စျေးကွက်တည်နေရာ ID သည်ဂဏန်း 11 လုံးပါဝင်သည်။ သင်သည်သင်၏နောက်ဆုံးပေါ်လျှပ်စစ်သို့မဟုတ်သဘာဝဓာတ်ငွေ့ငွေတောင်းခံလွှာတွင်ဤအရာကိုတွေ့နိုင်သည်။",
-  "swimmingPool": "ရေကူးကန်",
-  "smartmeterInfocodeBannerText": "SmartMeter Phtoken0 ကို Phtoken ဒိုစာကိုလက်ခံရရှိသည်",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "smartmeterId": {
-        "type": "String"
-      },
-      "infocode": {
-        "type": "String"
-      }
-    }
-  },
-  "smartmeterInfocodeBannerTextInfocodeLeckage": "သင်၏ရေမီတာ Phtoken0 သည်စဉ်ဆက်မပြတ်ရေစီးဆင်းမှုကိုတွေ့ရှိခဲ့သည်။ ဤသည်ယိုစိမ့်ညွှန်ပြနိုင်ဘူး။ ကျေးဇူးပြု. သင့်အိမ်ထောင်စုတပ်ဆင်ခြင်းအတွက်သင့်အိမ်ထောင်စုတပ်ဆင်ခြင်းကိုစစ်ဆေးပါ။ အိမ်သာများနှင့်ယိုသည့်ဘုံများသည်များသောအားဖြင့်ဖြစ်လေ့ရှိသည်။",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "သင်၏ရေမီတာ Phtoked0 သည်ပုံမှန်မဟုတ်သောရေသုံးစွဲမှုကိုရှာဖွေတွေ့ရှိခဲ့သည်။ ကျေးဇူးပြု. သင်၏အိမ်ေထာင်စုတပ်ဆင်ခြင်းကိုအဓိကယိုစိမ့်မှုသို့မဟုတ်အားလပ်ချိန်များတွင်စစ်ဆေးပါ။ အကယ်. သင်သည်ရေအမြောက်အမြားကို အသုံးပြု. အချက်များအရအချက်များပါ 0 င်နိုင်သည်။ ရေကန်ဖြည့်သည်။",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "သင်၏ရေမီတာ Phtoked0 သည်ပုံမှန်မဟုတ်သောရေသုံးစွဲမှုကိုရှာဖွေတွေ့ရှိခဲ့သည်။ ကျေးဇူးပြု. သင်၏အိမ်ေထာင်စုတပ်ဆင်ခြင်းကိုအဓိကယိုစိမ့်မှုသို့မဟုတ်အားလပ်ချိန်များတွင်စစ်ဆေးပါ။",
-  "smartmeterInfocodeBannerTextInfocodeFrost": "သင်၏ရေမီတာ Phtoken0 ၏အပူချိန်သည် 3 ဒီဂရီစင်တီဂရိတ်အောက်တွင်ကျဆင်းသွားသည်။ နှင်းခဲတစ် ဦး အန္တရာယ်ရှိသည်။ မီတာနှင့်ပိုက်များကိုကာကွယ်ရန်သို့မဟုတ်ပျက်စီးမှုကိုကာကွယ်ရန် area ရိယာကိုအပူပေးပါ။",
-  "smartMeterCountersTitle": "ရေဒီယိုရေမီတာ",
-  "counterOutdatedAndNextReminder": "တန်ပြန်ဖတ်ရှုခြင်း,",
   "@counterOutdatedAndNextReminder": {
     "placeholders": {
       "date": {
@@ -681,7 +258,540 @@
       }
     }
   },
-  "waterMeterEventsInformation": "{count, plural, =1 {သင်၏ကြိုးမဲ့ရေမီတာ Phtoken0 သည်မမျှော်လင့်သောစားသုံးမှုကိုရှာဖွေတွေ့ရှိသည်။ ဆန္ဒရှိလျှင်, သင်သည်ထိုကဲ့သို့သောကိစ္စတွင်အကြောင်းကြားစာကိုလက်ခံရရှိလိမ့်မည်။} other {သင်၏ကြိုးမဲ့ရေမီတာ Phtoken0 သည်မမျှော်လင့်သောစားသုံးမှုကိုရှာဖွေတွေ့ရှိသည်။ ဆန္ဒရှိပါကထိုသို့သောအဖြစ်အပျက်များတွင်သင်အသိပေးချက်ကိုလက်ခံရရှိလိမ့်မည်။}}",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "@waterMeterEventsInformation": {
     "placeholders": {
       "count": {
@@ -694,1022 +804,912 @@
       }
     }
   },
-  "subscribeToSmartMeterInfocodeEvents": "မမျှော်လင့်တဲ့စားသုံးမှုအကြောင်းကြားချင်ပါတယ်",
-  "completeButton": "ပြည့်စုံသော",
-  "reset": "ပြန်လည်တည်ဆောက်",
-  "settingCounterTypeColor": "ဒီကောင်တာအမျိုးအစားအတွက်အရောင်",
-  "settingCounterTypeColorDescription": "အကယ်. သင်သည်ဤတန်ပြန်အမျိုးအစားအတွက် default အရောင်ကိုမကြိုက်ပါကအခြားအရောင်တစ်ခုသတ်မှတ်နိုင်သည်။",
-  "settingCounterTypeColorAdvanced": "ကျွမ်းကျင်သူများအတွက်အရောင်ရွေးသူ",
-  "featureVotingUnderConstruction": "အဆိုပါ feature ကိုစစ်တမ်းကိုလက်ရှိပြန်လည်ပြင်ဆင်နေသည်။ အနာဂတ်တွင် EHW + အသုံးပြုသူအကောင့်တစ်ခုလိုအပ်လိမ့်မည်။ စစ်တမ်းသည်တတိယပါတီဆာဗာများကိုမသုံးတော့ပါ။ သင်၏သည်းခံခြင်းကိုကျွန်ုပ်တို့တန်ဖိုးထားသည်။",
-  "termsOfUsageTitle": "app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ",
-  "termsOfUsageBlock1Title": "app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ",
-  "termsOfUsageBlock1": "ကန့်ကွက်၏ညာဘက်",
-  "@termsOfUsageBlock1": {
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
     "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2Title": "အသုံးပြုမှုအပေါ်အထွေထွေသတင်းအချက်အလက်",
-  "termsOfUsageBlock2": "အက်ပလီကေးရှင်းနှင့်၎င်း၏လုပ်ဆောင်မှုများကိုကြမ်းတမ်းစွာအသုံးမပြုရ။ ကျေးဇူးပြု. app ကိုတရားဝင်ခွင့်ပြုထားသောနယ်ပယ်အတွင်းနှင့်ကျွန်ုပ်တို့၏အသုံးပြုမှုဆိုင်ရာသတ်မှတ်ချက်များနှင့်သာအသုံးပြုပါ။ သက်ဆိုင်သောဂျာမန်ဥပဒေ (သို့) ကျွန်ုပ်တို့၏အသုံးပြုမှုဆိုင်ရာစည်းကမ်းချက်များကိုချိုးဖောက်သည့်အခါပံ့ပိုးပေးသူသည်သင့်အား app ကိုအသုံးပြုခြင်းမှဖယ်ထုတ်ရန်အခွင့်အရေးရှိသည်။",
-  "termsOfUsageBlock2a": "အမည်မသိအသုံးပြုမှုဒေတာ\nအက်ပ်ကို စဉ်ဆက်မပြတ် တိုးတက်ကောင်းမွန်လာစေရန် ကျွန်ုပ်တို့၏ကိုယ်ပိုင် ခွဲခြမ်းစိတ်ဖြာမှုများကို အသုံးပြုပါသည်။\nအမည်မသိ ဒေတာကိုသာ ပို့လွှတ်သည်။\nဒေတာကို ပြင်ပအဖွဲ့အစည်းများထံ ပေးပို့ခြင်းမပြုပါ။\nနောက်ထပ်အချက်အလက်များအတွက်၊ ဆက်တင်များ > လျှို့ဝှက်ရေး > {privacyBlock3Title} သို့ သွားပါ။",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2b": "အမှားအယွင်းအစီရင်ခံစာများ\nအက်ပ်ကို စဉ်ဆက်မပြတ် တိုးတက်ကောင်းမွန်လာစေရန် Sentry (ကိုယ်တိုင် လက်ခံဆောင်ရွက်ပေးသည်) ကို အသုံးပြုပါသည်။\nအမှားအယွင်းအစီရင်ခံစာများကို ပြင်ပအဖွဲ့အစည်းများနှင့် မျှဝေခြင်းမပြုပါ။\nနောက်ထပ်အချက်အလက်များအတွက်၊ ဆက်တင်များ > လျှို့ဝှက်ရေး > {privacyBlock3Title} သို့ သွားပါ။",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2c": "ကိုယ်ပိုင်သတင်းအချက်အလက်များ\nအကယ်. သင်သည် Google Drive Sync ကိုအသုံးပြုပါက EHW + သည်သင်ရိုက်ထည့်လိုက်သောအချက်အလက်များကိုလက်လှမ်းမမီပါ။ ပိုမိုသိရှိလိုပါက Settings> Privacy> Phtoked0 သို့သွားပါ။",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock3Title": "တာဝန်",
-  "termsOfUsageBlock3": "ပံ့ပိုးသူသည်သင်၏ရည်ရွယ်ချက်များအတွက်ရရှိများ, ယုံကြည်စိတ်ချရမှု, လုပ်ဆောင်နိုင်စွမ်း, LIMITION, LIVB သို့မဟုတ် Health နှင့်ကျန်းမာရေးအာမခံချက်၏အာမခံချက်သို့မဟုတ်မရှိမဖြစ်လိုအပ်သောစာချုပ်များချိုးဖောက်မှုများကြောင့်ထုတ်ကုန်တာ 0 န်ယူမှုဆိုင်ရာအက်ဥပဒေအရမဖြစ်မနေပြုလုပ်ရန်တာ 0 န်ယူမှုအရ 0 န်ဆောင်မှုပေးခြင်းမရှိပါ။ မရှိမဖြစ်လိုအပ်သောစာချုပ်သက်တမ်းများမှာပြည့်စုံသောစာချုပ်များနှင့်စာချုပ်ချုပ်ဆိုထားသောပါတီများပုံမှန်အားဖြင့်ပုံမှန်အားဖြင့်မှီခိုနေရခြင်းအတွက်အရေးကြီးသည်။ မရှိမဖြစ်လိုအပ်သောစာချုပ်များကိုချိုးဖောက်ခြင်းကြောင့်ပျက်စီးဆုံးရှုံးမှုများအတွက်လျော်ကြေးငွေသည်ဤစာချုပ်အတွက်ဤစာချုပ်အတွက်ကြိုတင်သတ်မှတ်ထားသောပျက်စီးဆုံးရှုံးမှုများကြောင့်ဖြစ်သည်။",
-  "termsOfUsageBlock4Title": "အသုံးပြုသူ၏တာဝန်များ",
-  "termsOfUsageBlock4": "ပံ့ပိုးသူသည်တွက်ချက်မှုရလဒ်များ၏တိကျမှန်ကန်မှုကိုမအာမခံပါ။ အသုံးပြုသူများသည် application တွင်သိမ်းဆည်းထားသောစျေးနှုန်းများ (အခြေခံစျေးနှုန်းများ, စားသုံးမှုစျေးနှုန်းများစသဖြင့်) ကိုသေချာစေရန်လိုအပ်သည် (အခြေခံစျေးနှုန်းများ, စားသုံးမှုစျေးနှုန်းများ) ကိုသေချာစေရန်နှင့်သူတို့၏တာ 0 န် 0 တ္တရားများကိုသေချာစွာနှင့်၎င်းတို့၏တာ 0 န် 0 တ္တရားများကိုသေချာစွာထားရှိရန်လိုအပ်သည်။",
-  "privacyBlock1Title": "ဖွံ့ဖြိုးရေး",
-  "privacyBlock1Text": "application ၏ developer / provider (\"app ဟုရည်ညွှန်းထားသော\" app \"ဟုရည်ညွှန်းသည်) ဂျာမန် Telemedia အက်ဥပဒေပုဒ်မ 5 ပုဒ်မ 5 နှင့်အညီဖြစ်သည်။\n\nPhtoken0",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock1Text2": "app ကိုအသုံးပြုခြင်းသည်အောက်ပါအသုံးပြုမှုဆိုင်ရာသတ်မှတ်ချက်များကိုသင်သဘောတူရန်လိုအပ်သည်။ ကျေးဇူးပြု. သူတို့ကိုဂရုတစိုက်ဖတ်ပါ။",
-  "privacyBlock2Title": "ဗိုလ်ချုပ်ကြီး",
-  "privacyBlock2Text": "သင်၏အချက်အလက်များကိုကာကွယ်ခြင်းသည်ကျွန်ုပ်တို့အတွက်အလွန်အရေးကြီးသည်။ ဤသီးသန့်တည်ရှိမှုမူဝါဒမူဝါဒသည်မည်သည့်ကိုယ်ရေးကိုယ်တာအချက်အလက် EHW + စုဆောင်းခြင်းနှင့်၎င်းကိုမည်သို့အသုံးပြုသည်ကိုရှင်းပြသည်။ သီးသန့်တည်ရှိမှုမူဝါဒအတွက်အခြေခံကျသောအပြောင်းအလဲများမှာရှားပါးသော်လည်းအင်္ဂါရပ်များ, နည်းပညာများ, ဒါကြောင့် ကျေးဇူးပြု. အချိန်နှင့်အမျှဤစာမျက်နှာကိုအချိန်မီဆက်နေရန်အချိန်မီစစ်ဆေးပါ။ အကယ်. ကျွန်ုပ်တို့သည်သိသာထင်ရှားသောပြောင်းလဲမှုများကိုပြုလုပ်ပါကကျွန်ုပ်တို့သည်သင့်အားအကြောင်းကြားပြီးလိုအပ်ပါကသင်၏ခွင့်ပြုချက်ကိုရယူပါ။",
-  "privacyBlock3Title": "Phtoked0 သည်မည်သည့်အချက်အလက်များကိုစုဆောင်းသနည်း။",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3aText": "ကျွန်ုပ်တို့သည်သင်၏မီတာဖတ်ခြင်းများကိုလျင်မြန်စွာဖြည့်ဆည်းပေးနိုင်ရန်အတွက် Phtoken0 ကိုဖန်တီးခဲ့ပြီးသင်၏စားသုံးမှုနှင့်ကုန်ကျစရိတ်များနှင့်အလားအလာရှိသောငွေစုများအကြောင်းပိုမိုသိရှိရန်စာရင်းဇယားများကိုအသုံးပြုသည်။ ဆိုလိုသည်မှာသင်သည် Phtoked1 တွင်ယေဘူယျအားဖြင့် \"အကြောင်းအရာ 'ဟုရည်ညွှန်းသည့်မည်သည့်ဒေတာများကိုမဆိုတွက်ချက်, တွက်ချက်ခြင်းသို့မဟုတ်သိမ်းနိုင်သည်။ ဤအချက်အလက်များကိုသင်၏မိုဘိုင်းဖုန်းတွင်သာသိမ်းထားသည်။\n\nGoogle Drive ဖြင့်စည်းညှိပါ။\nအကယ်. သင်သည် Google Drive ဖြင့်ထပ်တူပြုခြင်းကိုပြုလုပ်နိုင်ပါကသင်၏ဂူဂဲလ် Drive တွင် 'Phtoken Drive ရှိ Phtoken Drive တွင်' Phtoken Drive ဟုခေါ်သောဖိုလ်ဒါတစ်ခုတွင်ပါ 0 င်သည်။ ဂူဂဲလ်နှင့်အတူဝင်ရောက်ခြင်းအားဖြင့်သင်၏အီးမေးလ်လိပ်စာကို developer ကိုမြင်နိုင်လိမ့်မည်။",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "googleApiAgreement": "Phtoken0 ၏အသုံးပြုမှုသည် Google APIs မှရရှိသောအခြားသောသတင်းအချက်အလက်များကိုအသုံးပြုခြင်းနှင့်အခြားအက်ပလီကေးရှင်းများသို့ပြောင်းရွှေ့ရန်လိုအပ်သည့်လိုအပ်ချက်များအပါအ 0 င်ဂူဂဲလ် API 0 န်ဆောင်မှုဆိုင်ရာအသုံးပြုသူအချက်အလက်မူဝါဒကိုလိုက်နာရမည်။",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3bText": "{googleApiAgreement}\n\nတည်နေရာဒေတာ။\nသုံးစွဲသူ၏ အပြုအမူနှင့် အနာဂတ်အင်္ဂါရပ်များအတွက် နားလည်နိုင်ရန် အက်ပ်သည် အမည်မသိအသုံးပြုမှုဒေတာကို ပေးပို့ပါသည်။\nဒေတာကို ပြင်ပအဖွဲ့အစည်းများနှင့် မျှဝေမထားပါ။\nမူရင်း (နိုင်ငံနှင့်မြို့)၊ ဘာသာစကား၊ လည်ပတ်မှုစနစ်၊ စက်အမျိုးအစား၊ ကြည်လင်ပြတ်သားမှု၊ နှိပ်သည့်အပြုအမူနှင့် အသုံးပြုမှုကြာချိန်တို့အကြောင်း အချက်အလက်များကို စုဆောင်းနိုင်ပါသည်။\n\nစက်ပစ္စည်းဒေတာ။\nဝန်ဆောင်မှုသို့ ချိတ်ဆက်ရန် သင်အသုံးပြုသည့် စက်အရေအတွက်နှင့် အမျိုးအစားနှင့် ပတ်သက်သည့် ဒေတာအပြင် အဆိုပါ စက်များတွင် လည်ပတ်မှုစနစ်အကြောင်း အချက်အလက် (ဥပမာ Android၊ iOS၊ Windows သို့မဟုတ် macOS) တို့ကို စုဆောင်းပါသည်။\n\nအက်ပ်ကိုအသုံးပြုခြင်းဖြင့်၊ သင်သည် အထက်တွင်ဖော်ပြထားသည့်အတိုင်း အမည်မဖော်လိုသည့် ဒေတာစုဆောင်းခြင်းကို သင်သဘောတူပါသည်။",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyContractPriceSubmission": "အသုံးပြုသူတစ် ဦး အနေဖြင့်သင်၏ကန်ထရိုက်စာချုပ်ကိုထိန်းသိမ်းထားပါ, လျှပ်စစ်ဓာတ်အားအတွက်ယူနစ်တစ်ခုစီအတွက်ဈေးနှုန်းသည်ဂျာမနီရှိ EHW + ဆာဗာတစ်ခုသို့ 0 င်ရောက်နိုင်သည်။ ဤအချက်အလက်သည်စျေးနှုန်းစာရင်းအင်းများကိုတွက်ချက်ရန်အသုံးပြုသည်။ အက်ပလီကေးရှင်းများအနေဖြင့်ကိန်းဂဏန်းများကိုကန်ထရိုက်မြင်ကွင်းတွင်စျေးနှုန်းနှိုင်းယှဉ်ခြင်းပုံစံဖြင့်မြင်နိုင်သည်။\n\nအက်ပလီကေးရှင်းကိုအသုံးပြုခြင်းအားဖြင့်သင်သည်အထက်ဖော်ပြပါအမည်မသိဒေတာစုဆောင်းခြင်းကိုသင်သဘောတူသည်။",
-  "privacyBlock4DataUsageTitle": "Phtoken0 သည်ကျွန်ုပ်၏အချက်အလက်များကိုမည်သို့အသုံးပြုသနည်း။",
-  "privacyBlock4DataUsage": "Collected Anonymed Data ကိုအသုံးပြုသူအပြုအမူကိုအကဲဖြတ်ရန်အသုံးပြုသည်။ ဤအပြင်အခြားအချက်အလက်များကိုထပ်မံအသုံးချခြင်းမရှိပါ။\n\nPhtoken0",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock5Title": "ကိုယ်ရေးကိုယ်တာအချက်အလက်များ၏သိုလှောင်မှုကြာချိန်",
-  "privacyBlock5": "ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုသိုလှောင်ခြင်းကာလကိုသက်ဆိုင်ရာစာရင်းဇယားထိန်းသိမ်းရေးကာလ (ဥပမာစီးပွားဖြစ်နှင့်အခွန်ဥပဒေထိန်းသိမ်းရေးကာလ) ကဆုံးဖြတ်သည်။ အချိန်ကာလကုန်ဆုံးပြီးနောက်, စာနယ်ဇင်းများပြည့်စုံခြင်းနှင့် / သို့မဟုတ်ကျွန်ုပ်တို့ဆက်လက်သိုလှောင်မှုအတွက်တရားဝင်အကျိုးစီးပွားအတွက်တရားဝင်အကျိုးစီးပွားအတွက်မလိုအပ်တော့ကြောင်းသက်ဆိုင်ရာအချက်အလက်များကိုပုံမှန်ဖျက်ပစ်ခြင်းကိုပုံမှန်ဖျက်ပစ်သည်။",
-  "youtubeConsent1": "Embedded YouTube အကြောင်းအရာကိုပြသရန်သင်၏ခွင့်ပြုချက်ကိုကျွန်ုပ်တို့လိုအပ်သည်။ သင်သည်ဤအရာကိုပြသနိုင်သည် (ထို့ကြောင့် app ထဲတွင်အခြား app တွင်ရှိသော app အားလုံးပါ 0 င်သည့်အကြောင်းအရာများအားလုံးကိုလည်းပြသနိုင်သည်) ကိုတစ်ချက် နှိပ်. ထပ်မံပိတ်ထားသည်။",
-  "youtubeConsent2": "အမြဲတမ်း YouTube အကြောင်းအရာကိုပြပါ",
-  "youtubeConsent3": "ငါမှပြသထားသောပြင်ပအကြောင်းအရာကိုသဘောတူသည်။ ၎င်းသည်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုတတိယပါတီပလက်ဖောင်းများသို့ကူးစက်စေနိုင်သည်။ ငါတို့အပေါ်မှာဒီအပေါ်ပိုပြီး",
-  "privacyBlock6Title": "တေှ့ဆုံခြင်း",
-  "privacyBlock6": "သင်ကျွန်ုပ်တို့နှင့်ဆက်သွယ်ရန် (e.g. ဆက်သွယ်ရန်ပုံစံသို့မဟုတ်အီးမေးလ်) ကိုဆက်သွယ်ပါကကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုကောက်ယူသည်။ အဆက်အသွယ်ပုံစံတွင်စုဆောင်းထားသောအချက်အလက်များကိုသက်ဆိုင်ရာအဆက်အသွယ်ပုံစံတွင်တွေ့နိုင်သည်။ ဤအချက်အလက်များကိုသင်၏စုံစမ်းရေးကော်မရှင်အားတုန့်ပြန်ရန်သို့မဟုတ်အဆက်အသွယ်နှင့်ဆက်စပ်နည်းပညာအုပ်ချုပ်မှုအတွက်တည်ဆောက်ရန်အတွက်သီးသန့်သိမ်းဆည်းထားပြီးအသုံးပြုသည်။ အချက်အလက်များ၏အပြောင်းအလဲအတွက်ဥပဒေရေးရာအခြေခံသည်သင်၏တောင်းဆိုမှုကိုအနုပညာနှင့်အညီတုံ့ပြန်ခြင်းသည်ကျွန်ုပ်တို့၏တရားဝင်အကျိုးစီးပွားဖြစ်သည်။ 6 para ။ 1 lit. gdpr ။ အကယ်. သင်၏အဆက်အသွယ်သည်စာချုပ်ကိုနိဂုံးချုပ်ရန်ရည်ရွယ်ထားပါကအပြောင်းအလဲအတွက်အပိုဆောင်းအခြေခံဖြစ်သည်။ 6 para ။ 1 lit. Gdpr ။ သင်၏စုံစမ်းရေးကော်မရှင်ကိုပြုပြင်ပြီးတဲ့နောက်သင့်ရဲ့ဒေတာကိုပယ်ဖျက်လိုက်ပြီးဒီကိစ္စနဲ့ပတ်သက်ပြီးဒီကိစ္စနဲ့ပတ်သက်ပြီးအဲ့ဒီအခြေအနေကိုရှင်းရှင်းလင်းလင်းဖော်ပြထားရင်အချက်အလက်တွေကိုဆက်လက်ထိန်းသိမ်းထားဖို့ဥပဒေရေးရာတာဝန်ဝတ္တရားတွေမရှိဘူးလို့ဆိုရင်ဒီလိုဖြစ်မှာပါ။",
-  "privacyBlock7Title": "သက်ဆိုင်ရာပုဂ္ဂိုလ်၏အခွင့်အရေး",
-  "privacyBlock7": "သက်ဆိုင်သောဒေတာကာကွယ်မှုဥပဒေအရအချက်အလက်များ (သတင်းအချက်အလက်နှင့် 0 င်ရောက်စွက်ဖက်မှု၏အခွင့်အရေးများ) နှင့်သက်ဆိုင်သောအချက်အလက်များ (သတင်းအချက်အလက်နှင့် 0 င်ရောက်စွက်ဖက်မှု၏အခွင့်အရေးများ) နှင့်သက်ဆိုင်သည်။\n\n- အနုပညာနှင့်အညီသတင်းအချက်အလက်များ။ 15 GDPR: အထူးသဖြင့်သင့်ရဲ့အချက်အလက်များ, ကိုယ်ရေးကိုယ်တာအချက်အလက်များဖြစ်သောကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုပြုပြင်ခြင်း, ဖျက်ခြင်း, ပြင်ဆင်ခြင်း, ပြင်ဆင်ခြင်း, ပြင်ဆင်ခြင်းကိုတားမြစ်ထားခြင်း, ပြင်ဆင်ခြင်း, သင့်ထံမှကျွန်ုပ်တို့ထံမှကျွန်ုပ်တို့ထံမှစုဆောင်းခြင်းမဟုတ်လျှင်အလိုအလျောက်ဆုံးဖြတ်ချက်ချခြင်းအပါအ 0 င်အလိုအလျောက်ဆုံးဖြတ်ချက်ချခြင်းများတည်ရှိခြင်း, သင်၏အချက်အလက်များကိုတတိယနိုင်ငံများသို့လွှဲပြောင်းသောအခါ GDPR 46 GDPR,\n\n- အနုပညာနှင့်အညီ rectification အခွင့်အရေး။ 16 GDPR: သင်ကနှောင့်နှေးခြင်းမရှိဘဲပြင်ဆင်ခြင်းနှင့် / သို့မဟုတ်ယူအက်စ်မှမပြည့်စုံသောအချက်အလက်များမပြည့်စုံသောအချက်အလက်များကိုပြင်ဆင်ခြင်းနှင့် / သို့မဟုတ်မပြည့်စုံသောတိကျသောအချက်အလက်များရှိသည်။\n\n- အနုပညာနှင့်အညီဖျက်ရန်အခွင့်အရေး။ 17 GDPR: အနုပညာအခြေအနေများရှိပါကသင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုဖျက်ပစ်ရန်သင်တောင်းဆိုပိုင်ခွင့်ရှိသည်။ 17 (1) Gdpr ကိုတွေ့သည်။ သို့သော်ဤအခွင့်အရေးသည်လွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်နှင့်သတင်းအချက်အလက်များကိုလွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်နှင့်သတင်းအချက်အလက်များကိုကျင့်သုံးခြင်းအတွက်တရား 0 င်အကျိုးစီးပွားအတွက်ဖြစ်စေ,\n\n- အနုပညာနှင့်အညီအပြောင်းအလဲနဲ့၏ကန့်သတ်ပိုင်ခွင့်။ 18 GDPR: သင်၏အချက်အလက်များ၏တိကျမှန်ကန်မှုကိုသင်လိုအပ်ပါကသင်၏အချက်အလက်များ၏အချက်အလက်များအားဖျက်ရန်အတွက်သင်၏အချက်အလက်များမလိုအပ်ပါကသင်၏အချက်အလက်များအတွက်လိုအပ်ချက်များကိုဖြည့်ဆည်းရန်လိုအပ်ပါကသင်၏အချက်အလက်များအားပြန်လည်ပြုပြင်ခြင်းကိုတားဆီးရန်တောင်းဆိုခြင်းကိုတောင်းခံပါကသင်၏အချက်အလက်များကိုပြန်လည်ပြုပြင်ခြင်းကိုတောင်းဆိုပါကသင်၏အချက်အလက်များကိုပြန်လည်ပြုပြင်ခြင်းကိုတောင်းဆိုပါက, ကျွန်ုပ်တို့၏တရားဝင်အကြောင်းပြချက်များနှင့်သက်ဆိုင်သည့်အခြေစိုက်စခန်းများသည်ကျွန်ုပ်တို့၏တရားဝင်အကြောင်းပြချက်များလွှမ်းမိုးမှုရှိ, မရှိ. မရှင်းလင်းသေးသရွေ့,\n\n- အနုပညာနှင့်အညီအကြောင်းကြားရန်အခွင့်အရေး။ 19 GDPR: အကယ်. သင်သည်သင်၏ rectification ကို rectifyure ကိုဖျက်ပစ်လိုက်လျှင်, ဤလက်ခံသူများနှင့် ပတ်သက်. သင့်အားအသိပေးပိုင်ခွင့်ရှိသည်။\n\n- အနုပညာနှင့်အညီဒေတာသယ်ဆောင်နိုင်ခြင်း။ 20 GDPR: သင်ကျွန်ုပ်တို့အားစနစ်တကျ အသုံးပြု. စက်ဖတ်နိုင်သောပုံစံဖြင့်သင်ပေးထားသောသင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုလက်ခံရရှိရန်သို့မဟုတ်နည်းပညာပိုင်းအရဖြစ်နိုင်သည့်အခြား controller သို့လွှဲပြောင်းပေးရန်တောင်းဆိုခြင်းကိုသင်ရရှိပိုင်ခွင့်ရှိသည်။\n\n- အနုပညာနှင့်အညီခွင့်ပြုထားသောခွင့်ပြုချက်ကိုထုတ်ယူပိုင်ခွင့်ရှိသည်။ 7 (3) GDPR: သင်အနာဂတ်အတွက်အကျိုးသက်ရောက်မှုနှင့်အတူအချိန်မရွေးဒေတာ၏ပြုပြင်ခြင်းအတွက်သင်၏ခွင့်ပြုချက်ကိုပြန်လည်ထုတ်ယူပိုင်ခွင့်ရှိသည်။ ဆုတ်ခွာရမည့်အချိန်တွင်ကျွန်ုပ်တို့သည်နောက်ထပ်ပြုပြင်ခြင်းသည်ခွင့်ပြုချက်မရှိဘဲအပြောင်းအလဲအတွက်တရားဝင်အခြေခံကို အခြေခံ. အရေးယူခြင်းအပေါ် အခြေခံ. မလုပ်ဆောင်နိုင်ပါက, သဘောတူခွင့်ပြုချက်ထုတ်ယူခြင်းသည်ခွင့်ပြုချက်မ 0 င်မီသဘောတူညီချက်အပေါ် အခြေခံ. အပြောင်းအလဲကိုအခြေခံသည်ကိုမထိခိုက်ပါ။\n\n- အနုပညာနှင့်အညီတိုင်ကြားချက်ကိုတည်းခိုရန်အခွင့်အရေး။ 77 GDPR: သင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုပြန်လည်ပြုပြင်ခြင်းသည် GDPR ကိုချိုးဖောက်သည်ဟုသင်ယုံကြည်ပါကသင့်အားသင်၏နေထိုင်ရာနေရာ,",
-  "privacyBlock8Title": "ကန့်ကွက်၏ညာဘက်",
-  "privacyBlock8": "အကယ်. ကျွန်ုပ်တို့၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုကျွန်ုပ်တို့၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုကျွန်ုပ်တို့ထပ်ခါတလဲလဲပြုစုပျိုးထောင်ခြင်း၏အခြေခံအနေဖြင့်လုပ်ဆောင်ပါကသင်၏အခြေအနေများမှပေါ်ပေါက်လာသောအကြောင်းပြချက်များကြောင့်အနာဂတ်အတွက်အကျိုးသက်ရောက်သောအကြောင်းပြချက်များကြောင့်ဤပြုပြင်ခြင်းကိုမည်သည့်အချိန်တွင်မဆိုလုပ်ဆောင်ရန်သင့်တွင်ဤပြုပြင်ခြင်းကိုကန့်ကွက်ပိုင်ခွင့်ရှိသည်။ အကယ်. သင်သည်သင်၏အခွင့်အရေးကိုအရာဝတ်ထုပိုင်ခွင့်ကိုလေ့ကျင့်ပါကကျွန်ုပ်တို့နှင့်သက်ဆိုင်သောအချက်အလက်များကိုဆက်လက်လုပ်ဆောင်တော့မည်ဖြစ်သည်။ သို့သော်သင်၏အကျိုးစီးပွားများ, အခြေခံအခွင့်အရေးများနှင့်လွတ်လပ်ခွင့်များကိုကျော်လွှားနိုင်သည့်အပြောင်းအလဲများအတွက်တရားဝင်ခိုင်ခိုင်မာမာခိုင်ခိုင်မာမာတင်ပြနိုင်လျှင်ဆက်လက်လုပ်ဆောင်နေပါကထပ်မံပြုပြင်ခြင်းသည်ဆက်လက်ထိန်းသိမ်းထားဆဲဖြစ်သည်။\n\nသင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုတိုက်ရိုက်စျေးကွက်ရှာဖွေရေးအတွက်ရည်ရွယ်ထားပါကထိုကဲ့သို့သောကြော်ငြာများအတွက်သင့်အကြောင်းသင့်အကြောင်းသင့်အကြောင်းကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုလုပ်ဆောင်ရန်အချိန်မရွေးအရာဝတ်ထုရှိသည်။ အထက်တွင်ဖော်ပြထားသည့်အတိုင်းသင်၏အရာဝတ်ထုကိုသင့်အခွင့်အရေးကိုလေ့ကျင့်နိုင်သည်။\n\nအကယ်. သင်၏အရာဝတ်ထုကိုသင့်အခွင့်အရေးကိုကျင့်သုံးပါကစျေးကွက်ရှာဖွေရေးရည်ရွယ်ချက်များအတွက်သင့်အကြောင်းအချက်အလက်များကိုကျွန်ုပ်တို့ဆက်လက်လုပ်ဆောင်သွားမည်ဖြစ်သည်။",
-  "activityTitle": "ဆောင်ရွက်ခြင်း",
-  "activitiesTitle": "ငါ့လှုပ်ရှားမှုများ",
-  "activitiesDescription": "Meter Readings ကိုလှုပ်ရှားမှုများကိုချိတ်ဆက်ခြင်း, E.G. ရေအေးရေမီတာနှင့်လျှပ်စစ်ဓာတ်အားဖြန့်ခြင်းများကိုဆေးကြောပါ။",
-  "sortActivities": "လှုပ်ရှားမှုများ၏အမိန့်ကိုပြုပြင်မွမ်းမံ",
-  "resetActivities": "လှုပ်ရှားမှုအားလုံးကိုပြန်လည်သတ်မှတ်ပါ",
-  "addActivity": "လှုပ်ရှားမှုထည့်ပါ",
-  "activitySettings": "လှုပ်ရှားမှုဆက်တင်များ",
-  "activityOverview": "လှုပ်ရှားမှုခြုံငုံသုံးသပ်ချက်",
-  "activityNameLabel": "လှုပ်ရှားမှုအမည်",
-  "chooseActivity": "လှုပ်ရှားမှုရွေးချယ်ပါ",
-  "selectedActivity": "ရွေးချယ်ထားသောလှုပ်ရှားမှု \"$ Phtoken0\"",
-  "chooseActivityIcon": "အိုင်ကွန်တစ်ခုရွေးပါ",
-  "involvedCounters": "ပါဝင်ပတ်သက်ကောင်တာ",
-  "detailsTitle": "အသေးစိတ်",
-  "detailWithMultiSelect": "Multi Selection ခွင့်ပြုပါ",
-  "addDetail": "အသေးစိတ်ထည့်ပါ",
-  "editDetailTitle": "အသေးစိတ်တည်းဖြတ်ပါ",
-  "activityWithEnergyConsumption": "ပါဝါစားသုံးမှုကိုလှုပ်ရှားမှုအတွက်သာတိုင်းတာသည်",
-  "consumptionIsNotExclusiveTitle": "စားသုံးမှုသီးသန့်သီးသန့်လား",
-  "consumptionIsNotExclusive": "အကယ်. စားသုံးမှုသည်ဤလုပ်ဆောင်မှုကိုမသီးနိုင်ပါက၎င်းကိုသတိပေးချက်အဖြစ်ပြလိမ့်မည်။",
-  "numberOfDetails": "{count, plural, one {1 အသေးစိတ်} other {Phtoken0 အသေးစိတ်}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
+      "digits": {
+        "example": "5",
         "type": "int"
       }
     }
   },
-  "reallyDeleteActivity": "ဒီလုပ်ဆောင်မှုကိုတကယ်ပဲဖျက်ပစ်လား။",
-  "reallyDeleteDetail": "ဒီအသေးစိတ်ကိုတကယ်ပဲဖျက်ပစ်ပါ။",
-  "reallyDeleteContract": "ဒီစာချုပ်ကိုတကယ်ပဲဖျက်ပစ်လိုက်ပြီလား။",
-  "contractCopyDialogTitle": "ဒီစာချုပ်ရဲ့မိတ္တူကိုသင်လုပ်ချင်ပါသလား။",
-  "contractCopyDialogOptionYes": "ဟုတ်ပါတယ်, ယူနစ်စျေးနှုန်းသို့မဟုတ်အခြားတန်ဖိုးပြောင်းလဲသွားပြီ။",
-  "contractCopyDialogOptionNo": "အဘယ်သူမျှမ, ပယ်ဖျက်ပါ။",
-  "contractCopyDialogWhen": "စျေးနှုန်းအသစ်ကဘယ်အချိန်မှာလဲ။",
-  "contractCosts": "ယူနစ်စျေးနှုန်း",
-  "contractCostsFeedIn": "လစာစျေးနှုန်း / အခြေခံစျေးနှုန်း",
-  "counterWarmWaterPlusColdWater": "လတ်ဆတ်သောရေကိုဖယ်ထုတ်ပြီးရေကုန်သည်များကိုစွန့်ပစ်သည်",
-  "advancePayment": "ကြိုတင်ငွေပေးချေမှု",
-  "bonus": "ဆုငေှ",
-  "bonusInfoTitle": "အပိုဆုကြေးနှင့်ပတ်သက်။ သတင်းအချက်အလက်",
-  "bonusInfoText": "ပံ့ပိုးပေးသည့်အခါပံ့ပိုးပေးသည့်အခါအထူးသဖြင့်ငွေချေးယူရန်အပိုဆုကြေးများနှင့်အတူအဖိုးအခင့်များအနေဖြင့်အထူးသဖြင့်ငွေစုရန်မကြာခဏခွင့်ပြုလေ့ရှိသည်။ သို့သော်ဤသည်များသောအားဖြင့်တစ်ကြိမ်တည်းအပိုဆုကြေးမှသီးသန့်ရလဒ်များ။ ဆိုလိုသည်မှာစုစုပေါင်းကုန်ကျစရိတ်သည်ပထမနှစ်တွင်သာအလွန်နိမ့်ကျသည်။ မြင့်မားသောအလုပ်နှင့် / သို့မဟုတ်အခြေခံစျေးနှုန်းများသည်ဒုတိယနှစ်တွင်ရှင်းလင်းစွာတွက်ချက်မှုအတွက်ဒုတိယနှစ်တွင်ဖြစ်သည်။ ထို့ကြောင့်အပိုဆုကြေးဖြင့်တစ်နှစ်အကြာတွင်ထပ်မံပြောင်းလဲရန်အစကတည်းကသင်အစီအစဉ်ကိုထပ်ဆင့်ရန်စီစဉ်သင့်သည်။ 2 နှစ်သက်တမ်းတိုးသည့်အပိုဆုကြေးသည်ဤဖျက်သိမ်းမှုကိုလုံးဝမရရှိနိုင်သည့်အတွက်အထူးသဖြင့်အရေးပါသောမေးခွန်းများကိုမေးခွန်းထုတ်သင့်သည်။",
-  "source": "ရင်းမြစ်:",
-  "basePrice": "အခြေခံစျေးနှုန်း",
-  "gross": "စုစုပေါင်း",
-  "net": "ပိုက်",
-  "grossNetPrices": "စုစုပေါင်းသို့မဟုတ်အသားတင်စျေးနှုန်း",
-  "taxRate": "အခွန်နှုန်း",
-  "perUnit": "Phtook0 နှုန်း",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "wasteWaterPriceEnabled": "ရေချိုနှင့်စွန့်ပစ်ပစ္စည်းကုန်ကျစရိတ်များကိုသီးခြားစီ (နှုတ်ယူခြင်းမီတာနှင့်သက်ဆိုင်သည်) ကိုသီးခြားစီဖော်ပြသည်။",
-  "pricePerUnit": "တစ်ယူနစ်",
-  "pricePerUnitFeedIn": "လစာစျေးနှုန်း",
-  "pricePerUnitWaterWarm": "ရေပူအပူကုန်ကျစရိတ်",
-  "pricePerUnitWaterCold": "ရေအေး၏ကုန်ကျစရိတ်",
-  "pricePerUnitFreshWater": "ရေချိုအတွက်ကုန်ကျစရိတ်",
-  "pricePerUnitWasteWater": "စွန့်ပစ်ရေစျေးနှုန်း",
-  "paidAdvancePayments": "ကြိုတင်ငွေပေးချေမှု",
-  "supplementaryPayment": "ဖြည့်စွက်ငွေပေးချေမှု",
-  "refund": "ပြန်ပေး",
-  "costs": "ကုန်ကျစရိတ်",
-  "contract": "စာချုပ်",
-  "contractDetails": "စာချုပ်ကာလနှင့်အသေးစိတ်",
-  "usedForPaymentsRepayments": "ကြိုတင်ငွေပေးချေမှု, အခြေခံစျေးနှုန်းနှင့်အပိုဆုကြေး",
-  "contractName": "ပံ့ပိုးသူ / စာချုပ်အမည်",
-  "contractNumber": "စာချုပ်နံပါတ်",
-  "contractStart": "ကန်ထရိုက်စတင်ရက်စွဲ",
-  "contractPeriod": "စာချုပ်ကာလ",
-  "cancellationPeriod": "ဖျက်သိမ်းခြင်းကာလ",
+  "accountAbout": "EHW + အသုံးပြုသူအကောင့်ဘာလုပ်နိုင်လဲ။",
+  "accountBenefit1": "ပိုပြီးယုံကြည်စိတ်ချရသောဝယ်ယူအသိအမှတ်ပြုမှု",
+  "accountBenefit2": "အမျိုးမျိုးသော devices များပေါ်တွင်ဝယ်ယူထားသောတိုးချဲ့မှုအားလုံးကိုရယူပါ",
+  "accountButtonSetup": "EHW + အသုံးပြုသူအကောင့်ကိုသတ်မှတ်ပါ",
+  "accountFaqA1": "EHW + အသုံးပြုသူအကောင့်သည် 0 ယ်ယူမှုများကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းတစ်ခုပေးသည်။ ထို့အပြင် 0 ယ်ယူမှုသည် 0 ယ်ယူမှုကိုမူလကမယူသည့်ကိရိယာပေါ်တွင်ပြန်လည်တည်ဆောက်ရန်ခွင့်ပြုသည်။ အနာဂတ်တွင်၎င်းသည်ချိန်ညှိချက်များနှင့်အခြားအရာများသက်သာစေရန်ဖြစ်နိုင်သည်။",
+  "accountFaqA2": "ဟုတ်ကဲ့, 0 ယ်ယူမှုများကို Play Store မှတစ်ဆင့်သို့မဟုတ်အက်ပလီကေးရှင်းမှတစ်ဆင့် Android device ပေါ်တွင်ပြန်လည်တည်ဆောက်နိုင်သည်။ EHW + အသုံးပြုသူအကောင့်သည် 0 ယ်ယူမှုများကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းကိုပြန်လည်ထူထောင်ရန်အတွက်အခြားနည်းလမ်းကိုပြန်လည်ထူထောင်ရန်မဖြစ်နိုင်ပါ။ ထို့အပြင် 0 ယ်ယူမှုသည် 0 ယ်ယူမှုကိုမူလကမယူသည့်ကိရိယာပေါ်တွင်ပြန်လည်တည်ဆောက်ရန်ခွင့်ပြုသည်။",
+  "accountFaqQ1": "ehw + အသုံးပြုသူအကောင့်ဆိုတာဘာလဲ။",
+  "accountFaqQ2": "ကျွန်ုပ်သည်ကျွန်ုပ်၏ 0 ယ်ယူမှုများကို EHW + အသုံးပြုသူအကောင့်မရှိဘဲ 0 င်ရောက်နိုင်မည်လား။",
+  "accountFaqTitle": "မကြာခဏမေးသောမေးခွန်းများ -",
+  "accountThankYouForPurchase": "ကျေးဇူးတင်ပါသည်! သင်၏ EHW + အသုံးပြုသူအကောင့်တွင် 0 ယ်ယူလိုပါသလား။",
+  "accountUpdateInfo": "New: EHW + အသုံးပြုသူအကောင့်",
+  "activitiesDescription": "Meter Readings ကိုလှုပ်ရှားမှုများကိုချိတ်ဆက်ခြင်း, E.G. ရေအေးရေမီတာနှင့်လျှပ်စစ်ဓာတ်အားဖြန့်ခြင်းများကိုဆေးကြောပါ။",
+  "activitiesTitle": "ငါ့လှုပ်ရှားမှုများ",
+  "activityBath": "ရေချိုးကန်",
+  "activityDishWasher": "ပန်းကန်အဝတ်လျှော်",
+  "activityIron": "သံသံခေျာ",
+  "activityNameLabel": "လှုပ်ရှားမှုအမည်",
+  "activityOverview": "လှုပ်ရှားမှုခြုံငုံသုံးသပ်ချက်",
+  "activitySettings": "လှုပ်ရှားမှုဆက်တင်များ",
+  "activityShower": "မိုးကြီးရှာခြင်း",
+  "activityTitle": "ဆောင်ရွက်ခြင်း",
   "activityWash": "အဝတ်ခဲ",
-  "activityWashTemperature": "အပူအအေး",
   "activityWashDuration": "ရှည်ကြာခြင်း",
   "activityWashDuration2hrs": "2H",
   "activityWashRotations": "လည်ပတ်",
   "activityWashShort": "အစီအစဉ်တို",
-  "activityShower": "မိုးကြီးရှာခြင်း",
-  "activityBath": "ရေချိုးကန်",
-  "activityDishWasher": "ပန်းကန်အဝတ်လျှော်",
-  "activityIron": "သံသံခေျာ",
-  "errorNoInternet": "ကွန်ယက်မရှိပါ",
-  "errorInvalidRange": "တရားဝင်အကွာအဝေးမရှိပါ",
-  "syncDriveLoggedIn": "သင်၏ဒေတာများကိုကိရိယာမျိုးစုံဖြင့်အလိုအလျောက်ထပ်တူပြုသည်။ အောက်ပါဂူဂဲလ်အကောင့်ကိုအသုံးပြုသည်။",
-  "syncDriveLoggedInNoAuto": "သင်၏အချက်အလက်များကိုပြောင်းလဲပြီးနောက် Google Drive သို့အလိုအလျောက်တင်သည်။ သင်အရာဝတ်ထုကိုနှိပ်သောအခါ Cloud မှအချက်အလက်အသစ်များကိုသာ overwries overwries ။ အောက်ပါဂူဂဲလ်အကောင့်ကိုအသုံးပြုသည်။",
-  "syncDriveDataUsage": "အကယ်. သင်သည် EHW + ကို Google Drive သို့ဝင်ရောက်ခွင့်ပြုပါကအက်ပ်သည်အက်ပလီကေးရှင်းကိုယ်တိုင်ဖန်တီးထားသောဖိုင်များအားဖတ်ရန်နှင့်ရေးရန်ရေးသားလိမ့်မည်။ ကံမကောင်းစွာဖြင့်ဤအက်ပလီကေးရှင်းမှတစ်ဆင့်အခြားသူများဖန်တီးထားသောဖိုင်များကိုဤအက်ပ်မှမမြင်နိုင်ပါ။",
-  "syncAutomaticTitle": "ဒေသခံဒေတာ overwrite နိုင်ပါသည်",
-  "syncShareWithOthersTitle": "အခြားသူများနှင့်မျှဝေပါလား။",
-  "syncShareWithOthersSubtitle": "အကယ်. သင်သည်အခြား Google အသုံးပြုသူများနှင့်မီတာဖတ်ခြင်းများကိုအတူတကွဖြည့်စွက်လိုပါက EHW + ကို Google Drive ကိုအပြည့်အ 0 ရယူရန်ခွင့်ပြုရမည်။",
-  "syncShareWithOthersNotInWeb": "ဝင်ရောက်ခွင့်ပေးခြင်းသည်လက်ရှိတွင် app မှတဆင့်သာဖြစ်နိုင်သည်။",
-  "syncWithGoogleDriveDescription": "အဘယ်ကြောင့်ဆိုသော်မီတာဖတ်ရှုခြင်းများပျောက်ဆုံးပါကသင့်ရဲ့အရာဝတ်ထုများကို Google Drive ဖြင့် Synchronize ဖြစ်သွားသောကြောင့်ဖြစ်သည်။",
-  "driveSyncStatusTitle": "ထပ်တူပြုခြင်းအခြေအနေ",
-  "driveSyncStatusNotSynced": "မထပ်နိုင်ပါ",
-  "driveSyncStatusFailed": "တစ်ပြိုင်တည်းချိန်ကိုက်ရန်ပျက်ကွက်",
-  "driveSyncStatusComparing": "ဆာဗာပေါ်ရှိဖိုင်နှင့်နှိုင်းယှဉ်ခြင်း",
-  "driveSyncStatusSyncing": "တိုးတက်မှုအတွက်စည်းညှိ",
-  "driveSyncStatusLocalHasLatestNoCloud": "Phtoken0 မှဤကိရိယာတွင်သိမ်းဆည်းထားသောဖိုင်သည်မို cloud ်းတိမ်အတွင်း၌မသိမ်းဆည်းပါ",
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusLocalHasLatestWithCloud": "Phtoken0 မှဤစက်ပစ္စည်းတွင်သိမ်းဆည်းထားသောဖိုင်သည် Phtoked1 မှ Cloud ရှိဖိုင်ထက်နောက်ဆုံးပေါ်ဖြစ်သည်",
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      },
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestNoLocal": "Phtoked0 မှ Cloud ရှိဖိုင်သည်ဤကိရိယာတွင်မသိမ်းဆည်းပါ",
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestWithLocal": "Phtoked0 မှ Cloud ရှိဖိုင်သည် Phtoked1 မှ local file ထက်နောက်ဆုံးပေါ်ဖြစ်သည်",
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusUpToDate": "Phtoken0 မှနောက်ဆုံးပေါ်အထိ",
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncWithGoogle": "Google Drive ထပ်တူပြုခြင်း",
-  "driveSyncNow": "ယခုစည်းညှိ",
-  "driveSignInWithGoogle": "Google နှင့်ဆိုင်းအင်လုပ်ပါ",
-  "signInWithGoogle": "Google နှင့်ဆိုင်းအင်လုပ်ပါ",
-  "signInWithApple": "Apple နှင့်ဆိုင်းအင်လုပ်ပါ",
-  "signInWithGithub": "GitHub နှင့်ဆိုင်းအင်လုပ်ပါ",
-  "signInWithSocialAccount": "သင်၏ EHW + အကောင့်သို့ဖန်တီးရန်သို့မဟုတ်ဆိုင်းအင်လုပ်ရန်မည်သည့်လူမှုရေးအကောင့်ကိုသင်အသုံးပြုလိုသနည်း။",
-  "syncStatusFailedLong": "ထပ်တူပြုခြင်းကိုမအောင်မြင်ပါ, တည်းဖြတ်ခြင်းသည်သင်၏ကိုယ်ပိုင်အန္တရာယ်ရှိသည်",
-  "syncStatusFailedLongNoAutoSync": "ထပ်တူပြုခြင်းကိုမအောင်မြင်ပါ, တည်းဖြတ်ခြင်းသည်သင်၏ကိုယ်ပိုင်အန္တရာယ်ရှိသည်",
-  "syncStatusSyncRemoteHasLatest": "Cloud ရှိဖိုင်သည် local file ထက်နောက်ဆုံးပေါ်ခေတ်မီပြီးဖြစ်သည်",
-  "syncObjectIsLocked": "အရာဝတ်ထုဒေတာကိုအသစ်ပြောင်းခြင်းနှင့်ဤအချိန်ကာလအတွင်း edited မရနိုင်ပါ။",
-  "importExport": "backup / restore",
-  "import": "တင်သွင်း",
-  "importPickFile": "ဖိုင်ကိုရွေးချယ်ပါ",
-  "importSelectSingleCounter": "တစ်ခုတည်းကောင်တာ (CSV ဖိုင်)",
-  "importSelectJson": "JSON ဖိုင် (Phtoken0 ဖြင့်ဖန်တီးထားသော)",
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "importWhichCounterForCsv": "ဘယ်ကောင်တာကိုသုံးသင့်သလဲ",
-  "importNewOrExistingCounter": "အသစ်သို့မဟုတ်လက်ရှိကောင်တာမှထည့်သွင်း?",
-  "importConfirm": "သွင်းကုန်အတည်ပြုပါ",
-  "importTheObject": "သွင်းကုန်အရာဝတ်ထု",
-  "importExplanation": "သငျသညျတန်ပြန် counter ဖတ်ပြီးသူတို့ကိုထည့်သွင်းချင်ပါသလား?",
-  "importCounterAsCsv": "တစ်မီတာတည်းကိုတင်သွင်းချင်ပါသလား။ မီတာတစ်မီတာကိုထောက်ပံ့သည် CSV ဖိုင်သည်ကော်လံနှစ်ခုရှိသော CSV ဖိုင်ဖြစ်ပြီးအချိန်နှင့်မီတာစာဖတ်ခြင်းအတွက်တစ်ခုဖြစ်သည်။\n\nဥပမာအချက်အလက်:\n2020-04-01T22: 59: 006790.855\n\"2020-04-01t23: 59\"; 6795.421\n2020-04-01 22: 22,6803.435\n2012011 13: 27: 006807.467\n2012-04-011,13: 27: 006807.467\n\"2020-04-01 23:02:00\" 6812,036 \", 6812,036",
-  "importSuccessful": "တင်သွင်းအောင်မြင်ခဲ့သည်",
-  "importNotPossible": "သွင်းကုန်မဖြစ်နိုင်ပါ",
-  "importErrorCsvIgnoredLines": "{count, plural, one {တစ်ကြောင်းတည်းကိုလျစ်လျူရှုခဲ့သည်: Phtoken0} other {Phtoken0 လိုင်းများကိုလျစ်လျူရှုထားသည် - Phtoken1}}",
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "importErrorCsvIgnoredColumns": "{columns, plural, one {ပထမ ဦး ဆုံးကော်လံနှစ်ခုသာအသုံးပြုခဲ့သည်။ တတိယကော်လံကိုလျစ်လျူရှုခဲ့သည်။} other {ပထမကော်လံနှစ်ခုကိုသာအသုံးပြုခဲ့သည့် Phtoken0 ကော်လံများကိုလျစ်လျူရှုခဲ့သည်။}}",
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "consentTitle": "သီးသန့်လုံခြုံရေးချိန်ညှိချက်များ",
-  "privacyTitle": "ကိုယ်ရေးအချက်အလက်မူဝါဒ",
-  "imprintTitle": "နှိပ်ရာ",
-  "faqTitle": "အမြဲမေးလေ့ရှိသောမေးခွန်းများ",
-  "socialFacebook": "ဖေ့စ်ရီ",
-  "socialInstagram": "Instagram",
-  "socialTwitter": "x",
-  "export": "ထုတ်ကုန်",
-  "exportExplanation": "၎င်းကိုစက်အသစ်တစ်ခုသို့လွှဲပြောင်းရန်ဥပမာအားဖြင့်လက်ရှိအခြေအနေကိုသင်တင်ပို့လိုပါသလော။",
-  "exportWhere": "အရာဝတ်ထုကိုမည်သည့်ပုံစံဖြင့်တင်ပို့သင့်သနည်း။",
-  "exportWhichValuesShouldBeExported": "ဘယ်တန်ဖိုးတွေကိုတင်ပို့သင့်သလဲ။",
-  "exportOptionExcel": "Excel ဖိုင်",
-  "exportOptionPdf": "PDF ဖိုင်",
-  "exportOptionFileDescription": "အရာဝတ်ထုကို phtoken0 ဖိုင်တစ်ခုအဖြစ်မျှဝေသည်",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "socialLinkedIn": "intalked",
-  "socialYouTube": "youtube",
-  "socialEmail": "အီးမေးလ်",
-  "social": "လူမှုမီဒီယာ",
-  "support": "ထောက်ခံမှု / တုံ့ပြန်ချက်",
-  "supportQuestion": "မေးခွန်းတစ်ခုမေးပါ",
-  "supportQuestionBox": "ကျွန်တော်ဘယ်လိုကူညီရမလဲ?",
-  "supportQuestionNotFound": "သင့်ရဲ့မေးခွန်းကိုဖြေကြားခြင်းမရှိသေးပေ? ငါကူညီရတာဝမ်းသာပါတယ်",
-  "supportQuestionLong": "ဘယ်လိုအလုပ်လုပ်သလဲ အားလုံးမှာဖြစ်နိုင်သလား? ဒီမှာအဖြေတွေကိုရှိပါတယ်။",
-  "supportReportBug": "mail မှတစ်ဆင့် bug ကိုသတင်းပို့ပါ",
-  "supportReportBugTextIs": "ကျေးဇူးပြု. လက်ရှိမမှန်ကန်သောအပြုအမူကိုအတိုချုပ်ဖော်ပြပါ။ I.E. အမှားကိုယ်နှိုက်ကိုဖော်ပြပါ။",
-  "supportReportBugTextShould": "ကျေးဇူးပြု. လိုချင်သောအပြုအမူကိုအတိုချုပ်ဖော်ပြပါ။ i.e.",
-  "supportReportBugAffectedPages": "မည်သည့်စာမျက်နှာပေါ်တွင်အမှားအယွင်းရှိသနည်း။ (ရှိလျှင်)",
-  "supportReportBugScreenshotsPlease": "ကျေးဇူးပြုပြီးစာတိုက်တွင် screenshot တစ်ခုပူးတွဲပါ,",
-  "supportBug": "ကြမ်းပိုး",
-  "supportReportBugLong": "ဂရိတ်အက်ပ်! ဒါပေမယ့်သေချာတာပေါ့, အမှုအရာမှားသွားနိုင်ပါတယ်။ bug များကိုသင်အစီရင်ခံပါကအက်ပလီကေးရှင်းကိုပိုမိုကောင်းမွန်အောင်ပြုလုပ်ပါ။",
-  "supportGivePraise": "ချီးမွမ်းကြလော့",
-  "supportGivePraiseLong": "ဒီ app ကိုကြိုက်လား? ကျေးဇူးတင်ပါသည်! စကားလုံးဖြန့်ပါ!",
-  "supportGivePraiseRecommendation": "အက်ပလီကေးရှင်းကိုသူငယ်ချင်းများနှင့်မိသားစုသို့အကြံပြုပါ။ မည်သည့်ထောက်ခံချက်အတွက်ကျေးဇူးတင်ပါသည်။",
-  "supportRecommend": "ကျွန်ုပ်၏စွမ်းအင်သုံးစွဲမှုနှင့်ဆက်စပ်သောကုန်ကျစရိတ်များကိုခြေရာခံရန်မီတာစာဖတ်ခြင်းအက်ပလီကေးရှင်း EHW + ကိုအသုံးပြုသည်။ ဒီတစ်ခါလည်းဒါကမင်းအတွက်တစ်ခုခုဖြစ်နိုင်မလား။\n\nhttps://www.ehwplus.com တွင်ပိုမိုသိရှိလိုပါက",
-  "supportGivePraiseRating": "Phtoken0 တွင်အက်ပ်ကိုအဆင့်သတ်မှတ်ပါ။",
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "electricityConsumption": "စွမ်းအင်သုံးစွဲမှု",
-  "waterExtractionMinimumLevelLower": "စားသုံးမှုသည်တံခါးခုံများထက်နိမ့်သောကြောင့်နှုတ်ယူခြင်းကြောင့်ဖြစ်သည်။",
-  "outdatedCounters": "အသုံးပြုမှုမရှိတော့ကောင်စီများ",
-  "isOutdatedCounter": "ကောင်တာမရှိတော့ဘူး",
-  "waterConsumption": "ရေသုံးစွဲမှု",
-  "rooms": "အခန်းများ",
-  "messageNoRooms": "အခန်းများမရှိသေးပါ။ အခန်းများသည်အုပ်စုမီတာကိုကူညီပါ။",
-  "settingObjectType": "အရာဝတ်ထုအမျိုးအစား",
-  "settingObjectTypeFlat": "အခန်း",
-  "settingObjectTypeHouse": "အိမ်",
-  "settingLivingArea": "နေထိုင်ရန်ရိယာ",
-  "unitSquareMeters": "sqm",
-  "unitMWhShort": "မူးရူး",
-  "unitMWhLong": "{count, plural, one {Megawatt နာရီ (MWH)} other {မဂ္ဂါဝပ်နာရီ (MWH)}}",
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitKWhShort": "kwh",
-  "unitKWhLong": "{count, plural, one {ကီလိုဝပ်နာရီ (kWh)} other {Kilowatt နာရီ (KWH)}}",
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitGJShort": "gb",
-  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitLitersShort": "ℓ",
-  "unitLitersLong": "{count, plural, one {လီတာ (ℓ)} other {လီတာ (ℓ)}}",
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCmShort": "စင်တီမီတာ",
-  "unitCmLong": "စင်တီမီတာ",
-  "unitSquareMetersShort": "မီ",
-  "unitSquareMetersLong": "{count, plural, one {စတုရန်းမီတာ (M²)} other {စတုရန်းမီတာ (M²)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCubicMetersShort": "မီ",
-  "unitCubicMetersLong": "{count, plural, one {ကုဗမီတာ (m³)} other {ကုဗမီတာ (M³)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitPercentShort": "%",
-  "unitPercentLong": "ရာခိုင်နှုန်း (%)",
-  "unitKgShort": "ကေှ့မျှန်း",
-  "unitKgLong": "{count, plural, one {ကီလိုဂရမ် (ကီလိုဂရမ်)} other {ကီလိုဂရမ် (ကီလိုဂရမ်)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitHoursShort": "ဆုတောင်းပါ",
-  "unitHoursLong": "{count, plural, one {နာရီ} other {နာရီ (ဇ)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitNoneFormatted": "{count, plural, one {တခု} other {ယူနစ်}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitMegaByteShort": "ခရက်ဖိကျ",
-  "unitMegaByteLong": "ခရက်ဖိကျ",
-  "unitGigaByteShort": "နိုး",
-  "unitGigaByteLong": "နိုး",
-  "settingHouseholdSize": "အိမ်ထောင်စုအရွယ်အစား",
-  "settingHouseholdSizeDescription": "သင့်အိမ်ထောင်စုရှိလူ ဦး ရေအရေအတွက်။",
-  "settingWaterHeater": "ရေအပူပေးစက်",
-  "settingEAuto": "လျှပ်စစ်ကား",
-  "settingObjectLocation": "တည်ရှိမှု",
-  "settingObjectLocationTitle": "သင့်ရဲ့အရာဝတ်ထုဘယ်မှာတည်ရှိသနည်း",
-  "settingObjectLocationExplanation": "တည်နေရာကိုရိုက်ထည့်ခြင်းသင်၏ in ရိယာသို့ထိုးထွင်းသိမြင်မှုနှင့် 0 န်ဆောင်မှုများကိုအံဝင်ခွင်ကျဖြစ်စေရန်ကူညီသည်။",
-  "counterBackgroundImageOfObject": "အရာဝတ်ထုအတွက်နောက်ခံပုံ",
-  "manageMoreThanOneObjectStep1": "အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 1",
-  "manageMoreThanOneObjectStep2": "အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 2",
-  "contracts": "စာချုပ်များ",
-  "messageNoContracts": "စာချုပ်များမရှိသေးပါ။",
-  "outdatedContracts": "ခေတ်မမီတော့သောစာချုပ်များ",
-  "contractType": "စာချုပ်အမျိုးအစား",
-  "electricity": "လှျပ်စစ်ဓါတ်",
-  "electricityBack": "လျှပ်စစ်ဓာတ်အားအတွက်ကျွေးမွေး",
-  "electricityGenerated": "လျှပ်စစ်ဓာတ်အားထုတ်လုပ်လိုက်ပါတယ်",
-  "heatPump": "အပူစုပ်စက်",
+  "activityWashTemperature": "အပူအအေး",
+  "activityWithEnergyConsumption": "ပါဝါစားသုံးမှုကိုလှုပ်ရှားမှုအတွက်သာတိုင်းတာသည်",
+  "addActivity": "လှုပ်ရှားမှုထည့်ပါ",
+  "addDetail": "အသေးစိတ်ထည့်ပါ",
+  "addNewValue": "တန်ဖိုးအသစ်ကိုထည့်ပါ",
+  "advancePayment": "ကြိုတင်ငွေပေးချေမှု",
+  "appBarExpandedMode": "နောက်ခံပုံနှင့်အတူ App Bar",
+  "appDescriptionLong": "Phtenkehw + Phtageli သို့ Phtenoke3HWw + Phtokention2, Phtobenkephtttokenokenokenokenokenokenokenletrutrutruture အတွက် Phtoboke3HHT ကဟူရှုခြင်း, ကျွန်ုပ်တို့နှင့်အတူ, သင်အလွယ်တကူ phtoked10hohhoked ကိုသင်အလွယ်တကူသုံးနိုင်သည်။ Free.Phoke14 အတွက် Itphtleok11 Phtoken12Costsphter13",
+  "appDescriptionShort": "ပိုက်ဆံအိတ်အတွက်ကောင်းသော, ရာသီဥတုအတွက်ကောင်းသော",
+  "appName": "ehw + | စားသုံးမှု & မီတာဖတ်ခြင်း",
+  "appNameShort": "ehw +",
+  "areYouSure": "သေချာလား?",
+  "basePrice": "အခြေခံစျေးနှုန်း",
+  "bonus": "ဆုငေှ",
+  "bonusInfoText": "ပံ့ပိုးပေးသည့်အခါပံ့ပိုးပေးသည့်အခါအထူးသဖြင့်ငွေချေးယူရန်အပိုဆုကြေးများနှင့်အတူအဖိုးအခင့်များအနေဖြင့်အထူးသဖြင့်ငွေစုရန်မကြာခဏခွင့်ပြုလေ့ရှိသည်။ သို့သော်ဤသည်များသောအားဖြင့်တစ်ကြိမ်တည်းအပိုဆုကြေးမှသီးသန့်ရလဒ်များ။ ဆိုလိုသည်မှာစုစုပေါင်းကုန်ကျစရိတ်သည်ပထမနှစ်တွင်သာအလွန်နိမ့်ကျသည်။ မြင့်မားသောအလုပ်နှင့် / သို့မဟုတ်အခြေခံစျေးနှုန်းများသည်ဒုတိယနှစ်တွင်ရှင်းလင်းစွာတွက်ချက်မှုအတွက်ဒုတိယနှစ်တွင်ဖြစ်သည်။ ထို့ကြောင့်အပိုဆုကြေးဖြင့်တစ်နှစ်အကြာတွင်ထပ်မံပြောင်းလဲရန်အစကတည်းကသင်အစီအစဉ်ကိုထပ်ဆင့်ရန်စီစဉ်သင့်သည်။ 2 နှစ်သက်တမ်းတိုးသည့်အပိုဆုကြေးသည်ဤဖျက်သိမ်းမှုကိုလုံးဝမရရှိနိုင်သည့်အတွက်အထူးသဖြင့်အရေးပါသောမေးခွန်းများကိုမေးခွန်းထုတ်သင့်သည်။",
+  "bonusInfoTitle": "အပိုဆုကြေးနှင့်ပတ်သက်။ သတင်းအချက်အလက်",
+  "cancellationPeriod": "ဖျက်သိမ်းခြင်းကာလ",
+  "changeCounterOrder": "လိုအပ်ပါကသင်သည်အမိန့်ကိုပြောင်းလဲနိုင်သည်",
+  "chartDottedLinesNonSeasonal": "အဆိုပါ dashed ခါးဆစ်ယခင်ကာလကိုကိုယ်စားပြုသည်။ ရွေးချယ်ခြင်းအတွက် \"နောက်ဆုံး 14 ရက်\" အတွက် \"နောက်ဆုံး 14 ရက်\" အတွက်နောက်ဆုံးသောနေ့ရက်များမှာ 4 င်းတို့၏အသက် 14 နှစ်အရွယ်တွင်ဖော်ပြထားသည့်အသက် 14 နှစ်ရှိပြီဖြစ်သည်။",
+  "chartDottedLinesSeasonal": "အဆိုပါ dashed ခါးဆစ်ယခင်ကာလကိုကိုယ်စားပြုသည်။ ရွေးချယ်ခြင်းအတွက် \"နောက်ဆုံး 14 ရက်\" အတွက် \"နောက်ဆုံး 14 ရက်\" အတွက်နောက်ဆုံးသောနေ့ရက်များမှာ 4 င်းတို့၏အသက် 14 နှစ်အရွယ်တွင်ဖော်ပြထားသည့်အသက် 14 နှစ်ရှိပြီဖြစ်သည်။",
+  "chartHorizontalLineElectricityGas": "အစိမ်းရောင်လိုင်းသည်အလွန်ကောင်းသောစားသုံးမှု, အဝါရောင်လိုင်းသည် 0 တ်စုံပျမ်းမျှစားသုံးမှုအတွက်အနီရောင်လိုင်းဖြစ်သည်။",
+  "chartHorizontalLineWater": "ပျမ်းမျှအားဖြင့်ဂျာမနီရှိလူတစ် ဦး စီသည်အိမ်ထောင်စုတွင်နေ့စဉ် 127 လီတာရေလောင်းကိုနေ့စဉ်အသုံးပြုသည်။ အပြာရောင်လိုင်းသည်ရေအေး (60%), အနီရောင်လိုင်းရေပူ (40%), ထိုကာလအတွင်းရက်အရေအတွက်နှင့်လူ ဦး ရေကိုထုတ်ယူခြင်း။",
+  "chartHorizontalLines": "dashed လိုင်းများသည်သင်၏ကိုယ်ပိုင်စားသုံးမှုအပေါ်တုံ့ပြန်ချက်များပေးရန်ရည်ရွယ်သည်။",
+  "chooseActivity": "လှုပ်ရှားမှုရွေးချယ်ပါ",
+  "chooseActivityIcon": "အိုင်ကွန်တစ်ခုရွေးပါ",
   "coldWater": "ရေအေး",
-  "counterHeater": "ရေဒီယိုမီတာ",
-  "counterDistrictHeating": "ခရိုင်အပူ",
-  "counterOilHeating": "ရေနံအပူ",
-  "counterGas": "ဓာတ်ငွေ့မီတာ",
+  "cometConsentScreenAcceptButton": "ငါတုံ့ပြန်ချက်ပေးချင်တယ်",
+  "cometConsentScreenDataCanBeUsedForTraining": "အနာဂတ်ခန့်မှန်းချက်များကိုပိုမိုကောင်းမွန်စေရန်ဒေတာများကိုအသုံးပြုနိုင်သည်",
+  "cometConsentScreenDeclineButton": "ငါတုံ့ပြန်ချက်မပေးချင်ဘူး",
+  "cometConsentScreenFeedbackDescription": "ခန့်မှန်းချက်ကိုအသုံးပြုခြင်းသည်အခမဲ့ဖြစ်သည်။ သို့သော်သုတေသနအဖွဲ့သည် 0 န်ဆောင်မှုသည်မည်မျှကောင်းမွန်စွာအလုပ်လုပ်သည်နှင့် ပတ်သက်. တုံ့ပြန်ချက်များလိုအပ်သည်။",
+  "cometConsentScreenFeedbackMethod": "သင်ခန့်မှန်းတွက်ချက်မှု 0 န်ဆောင်မှုကိုအသုံးပြုသောအခါတုံ့ပြန်ချက်များကိုအလိုအလျောက်ထောက်ပံ့ပေးပြီးအကောင်းမြင်ရန်သဘောတူသည်။",
+  "cometConsentScreenFeedbackTitle": "Goethe တက္ကသိုလ်သည်သင်၏တုံ့ပြန်ချက်ကိုလိုအပ်သည်။",
+  "cometConsentScreenHeader": "New: ပိုကောင်းတဲ့စားသုံးမှုကြိုတင်ခန့်မှန်းချက်",
+  "cometConsentScreenHowItWorksTitle": "ဘယ်လိုအလုပ်လုပ်သလဲ",
+  "cometConsentScreenOfflineDescription": "ရိုးရှင်းသောဒေသခံခန့်မှန်းချက်ကိုသင်၏စက်ပေါ်တွင်တွက်ချက်လိမ့်မည်။",
+  "cometConsentScreenOfflineDescriptionTitle": "အင်တာနက်ဆက်သွယ်မှုမရှိရင်",
+  "cometConsentScreenOnlineDescription": "သင်၏စားသုံးမှုအချက်အလက်များကို Goethe Univers Frankfurt သို့ပို့ပေးပါလိမ့်မည်။",
+  "cometConsentScreenOnlineDescriptionTitle": "အင်တာနက်ဆက်သွယ်မှုနှင့်အတူ:",
+  "cometConsentScreenToggleLabel": "ခန့်မှန်းချက်ဝန်ဆောင်မှုကိုသုံးပါ",
+  "cometSettingsIsPredictionsApiEnabled": "Goethe Institute မှကြယ်တံခွန်ခန့်မှန်းချက် API ကိုသုံးပါ",
+  "comment": "ဘီလီဂိုဏ်း",
+  "commonAnd": "နှင့်",
+  "commonBack": "ပြန်.",
+  "commonCancel": "ပျက်စေ",
+  "commonChange": "ပေြာင်းလဲခြင်း",
+  "commonChangeSaved": "ပြောင်းလဲသွားတယ်",
+  "commonClose": "ပိတ်ထားသော",
+  "commonCollapse": "ပြိုကဲ",
+  "commonContinue": "ဆက်လက်နေ",
+  "commonCopiedToClipboard": "clipboard မှကူးယူ",
+  "commonDay": "နေ့",
+  "commonDelete": "ဖျက်",
+  "commonLearnMore": "ပိုမိုသိရှိရန်",
+  "commonLoadingData": "ဒေတာကိုတင်",
+  "commonLoggingIn": "မင်းကိုလက်မှတ်ထိုးပါ",
+  "commonLoggingOut": "သင်လက်မှတ်ထိုးခြင်း ...",
+  "commonLogin": "ဆိုင်းအင်လုပ်ခြင်း",
+  "commonLogout": "ဆိုင်းအောက်",
+  "commonMaximum": "အမြင့်ဆုံးနေ့စဉ်တန်ဖိုး",
+  "commonMinimum": "အနိမ့်ဆုံးနေ့စဉ်တန်ဖိုး",
+  "commonMonth": "လ",
+  "commonMore": "နောက်ထပ်",
+  "commonNo": "မဟုတ်",
+  "commonNotAuthenticated": "သင် authentication မရှိကြပေ။",
+  "commonOk": "အိုကေ",
+  "commonOpen": "ဖွင့်လှစ်",
+  "commonSave": "ကယ်ဆယ်",
+  "commonSend": "နားထောင်",
+  "commonShare": "ခဲှဝေ",
+  "commonUpdateNow": "ယခု update ကို",
+  "commonUserLogin": "အသုံးပြုသူ login",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken ဒယ်ဝါဝယ်ယူထားသော Phtokened ထုတ်ကုန်များထဲမှ Phtoken0 ကို EHW + ဆာဗာတွင်သိမ်းဆည်း ထား. မရပါ။ ကျနော်တို့မကြာမီပြ issue နာကိုဖြေရှင်းရန်မျှော်လင့်ပါတယ်။",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {0 ယ်ယူမှုကို EHW + အကောင့်မှတစ်ဆင့်တစ်ပြိုင်တည်းချိန်ကိုက်ထားသည်။} other {Phtoken0 ဝယ်ယူမှုများကို EHW + အကောင့်မှတစ်ဆင့်ထပ်တူပြုသည်။}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ အကယ်. သင်သည်အနာဂတ်တွင်ထုတ်ကုန်များကို 0 ယ်ယူပါကသင်၏ကိရိယာများအားလုံးကိုတစ်ပြိုင်တည်းချိန်ကိုက်လိမ့်မည်။} one {သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 ဝယ်ယူထားသောထုတ်ကုန်ကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။} other {သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 0 ယ်ယူထားသောထုတ်ကုန်များကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။}}",
+  "commonUserLoginDescriptionNotLoggedIn": "ပစ္စည်းမျိုးစုံအပေါ် app ကိုသင်အသုံးပြုနေပါသလား။ သင်၏ EHW + အကောင့်ထဲသို့ဝင်ရောက်ခြင်းသည်သင်၏ချိန်ညှိချက်များကိုထပ်တူပြုခြင်းနှင့်ထုတ်ကုန်များအားလုံးကို 0 ယ်ယူရန်ခွင့်ပြုသည်။",
+  "commonYear": "ခုနှစ်",
+  "commonYes": "ဟုတ်ကဲ့",
+  "completeButton": "ပြည့်စုံသော",
+  "confirmDeleteAtCloud": "Google Drive မှ \"Phtoken0\" ကိုလည်းဖျက်ပစ်သင့်ပါသလား။",
+  "consent11AnalyticsTitle": "ခွဲခြမ်းစိတ်ဖြာဒေတာ",
+  "consent12Analytics": "အက်ပ်၏အောင်မြင်မှုကို အကဲဖြတ်ရန် သို့မဟုတ် တစ်ဦးချင်းလုပ်ဆောင်ချက်များကို အကဲဖြတ်ရန်အတွက်၊ အက်ပ်သည် အမည်မသိအသုံးပြုမှုစာရင်းအင်းများကို ပေးပို့ပါသည်။ ဒေတာကို ပြင်ပအဖွဲ့အစည်းများထံ မပို့ပါ။ အက်ပ်၏ နောက်ထပ်တိုးတက်မှုအတွက် ဒေတာကို အသုံးပြုသည်။",
+  "consent13StromGedacht": "Transnetbw မှပေးသော 0 န်ဆောင်မှုတစ်ခုသည်လျှပ်စစ်ဓာတ်အားကိုအသုံးပြုသင့်သည့်လျှပ်စစ်ဓာတ်အားသုံးစွဲသင့်သည့်အတွက်ဇယားကွက်တည်ငြိမ်အေးချမ်းရေးအတွက်သတင်းအချက်အလက်များကိုပေးသည်။ စွမ်းအင်အသွင်ကူးပြောင်းမှုသည်ဂီယာဇယားကွက်အတွက်ပိုမိုစိန်ခေါ်မှုများဖြစ်လာသည်နှင့်အမျှတရုတ်ဆန်တန်လီယန်ရှိအိမ်ထောင်စုများသည်ပါ 0 င်ပတ်သက်နေသည်။ သင်၏တည်နေရာအတွက်သတင်းအချက်အလက်များကိုလက်ခံရရှိရန်သင်၏စာတိုက်ကုဒ်သည်ဤအက်ပလီကေးရှင်းတွင်ဤနေရာတွင် 0 င်ပါက transnetbw stromed transped api သို့ကူးစက်သည်။ အခြားဒေတာများကိုမည်သည့်အချက်အလက်မျှမကူးစက်ပါ။",
+  "consent13StromGedachtTitle": "strodedacht ကနေ Grid တည်ငြိမ်မှုသတိပေးချက်များ",
+  "consent1Hello": "မင်္ဂလာပါ",
+  "consent2ThankYou": "ehw + ကိုအသုံးပြုတဲ့အတွက်ကျေးဇူးတင်ပါတယ်။",
+  "consent3Video": "နိဒါန်းဗီဒီယိုတိုတိုကြည့်ချင်ပါသလား။",
+  "consent4BeforeYouCanContinue": "သင်ဆက်လက်မနိုင်မီ",
+  "consent5ErrorReportingTitle": "အမှားအစီရင်ခံစာများ",
+  "consent6ContractPricesPerUnitTitle": "လျှပ်စစ် / ရေ / သဘာဝဓာတ်ငွေ့ဈေးနှုန်းများ",
+  "consent7ContractPricesPerUnit": "အခြား EHW + အသုံးပြုသူများနှင့်နှိုင်းယှဉ်လျှင်သင်မည်မျှငွေပေးချေကြောင်းခန့်မှန်းနိုင်ရန်အတွက်စျေးနှုန်းများကိုဂျာမနီရှိ EHW + server သို့ EHW + server သို့ပြောင်းရွှေ့သည်။ လွှဲပြောင်းမှုကိုသင်သဘောတူမှသာလျှင်စျေးနှုန်းစာရင်းဇယားများကိုသင်ဝင်ရောက်ခွင့်ရှိသည်။ အမည်ဝှက်မှုကိုသေချာစေရန်အတွက်စာရင်းအင်းများကိုအနည်းဆုံးကူးစက်သောစျေးနှုန်းများအပြီးသာပြသနိုင်သည်။",
+  "consentTitle": "သီးသန့်လုံခြုံရေးချိန်ညှိချက်များ",
+  "consumption": "ကုန်စေခြင်း",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Clear & Sync",
+  "consumptionCacheManagementClearCacheButton": "cache ကိုရှင်းရှင်းလင်းလင်း",
+  "consumptionCacheManagementClearedSuccessfully": "cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "သိမ်းဆည်းထားသောဒေတာအားလုံးကိုဖျက်ပြီးဆာဗာမှ re-download လုပ်လိမ့်မည်။ ဒါကအချိန်အနည်းငယ်ယူကောင်းသွားနိုင်တယ်။",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "cache ကို Cache & Synchronize?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "cacheed စားသုံးမှုဒေတာများကိုအမြဲတမ်းဖျက်ပစ်လိမ့်မည်။ သင်နောက်မှထပ်တူပြုနိုင်သည်။",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Clear cache ကို?",
+  "consumptionHeatmap": "စားသုံးမှု HeTmap",
+  "consumptionHeatmapYield": "hatmap ကိုလိုက်လျော",
+  "consumptionHeatpump": "ထို့အပြင်အပူစုပ်စက်၏စွမ်းအင်သုံးစွဲမှုသည် Phtoked0 KWH သို့ပမာဏရှိသည်။",
+  "consumptionIsNotExclusive": "အကယ်. စားသုံးမှုသည်ဤလုပ်ဆောင်မှုကိုမသီးနိုင်ပါက၎င်းကိုသတိပေးချက်အဖြစ်ပြလိမ့်မည်။",
+  "consumptionIsNotExclusiveTitle": "စားသုံးမှုသီးသန့်သီးသန့်လား",
+  "consumptionPersonLabel": "{count, plural, one {လူ} other {လူထု}}",
+  "consumptionWaterColdEqual": "ရေအေး - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။",
+  "consumptionWaterColdLess": "ရေအေး - Phtoken0 ပျမ်းမျှအိမ်ထောင်စုထက်နည်းသည်။",
+  "consumptionWaterColdMore": "ရေအေး - Phtoken0 Phtoken0 ပိုများသောအိမ်ထောင်စုထက်ပိုပြီး။",
+  "consumptionWaterDailyMonthly": "တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
+  "consumptionWaterDailyMonthlyPerPerson": "လူတစ် ဦး လျှင်လူတိုင်းစားသုံးသည် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
+  "consumptionWaterDailyMonthlySingle": "သင်လောင် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
+  "consumptionWaterOverallEqual": "သင်၏ရေစားသုံးမှု Phtoken0 သည် Phtoken1 Phtokenw2 နှင့်အတူပျမ်းမျှအိမ်ထောင်စုတစ်စု၏ပွဲစဉ်လိုက်ဖက်သည်။",
+  "consumptionWaterOverallLess": "သင်၏ရေသုံးစွဲမှု Phtoken0 သည် Phtens2 Phtokenk3 နှင့်အတူပျမ်းမျှအိမ်ထောင်စုထက် Phtoken1 နိမ့်ကျသည်။",
+  "consumptionWaterOverallMore": "သင်၏ရေစားသုံးမှု Phtoken0 သည် Phtokens2 Phtokenk3 နှင့်အတူ Phtoken1 ထက် Phtoken1 ထက်ပိုမိုမြင့်မားသည်။",
+  "consumptionWaterPrefixPerPerson": "လူတစ် ဦး လျှင်လူတိုင်းစားသုံးသည်",
+  "consumptionWaterPrefixSingle": "သင်လောင်",
+  "consumptionWaterRangeUnknown": "သင်၏ရေသုံးစွဲမှု Phtoken0 ...",
+  "consumptionWaterWarmEqual": "ရေပူ - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။",
+  "consumptionWaterWarmLess": "ရေပူ - Phtoked0 ပျမ်းမျှအိမ်ထောင်စုထက်နည်းသည်။",
+  "consumptionWaterWarmMore": "ရေပူ - Phtoken0 ပိုများသောအိမ်ထောင်စုထက်ပိုပြီး။",
+  "consumptionYearly": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 သည်ယခုနှစ် Phtoked1 KWH ဖြစ်သည်။",
+  "consumptionYearlyDetailedAboutSame": "အတူတူပင်အကြောင်းကို",
+  "consumptionYearlyDetailedAverageHousehold": "Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု",
+  "consumptionYearlyDetailedComparisonEqual": "သငျသညျ Consumephod0 အတူတူပင်အကြောင်းကို Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
+  "consumptionYearlyDetailedComparisonLess": "သငျသညျ Consumephod0 ထက်လျော့နည်း Phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
+  "consumptionYearlyDetailedComparisonMore": "သငျသညျ Consumephod0 ထက်ပို phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
+  "consumptionYearlyDetailedElectricity": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 (Phtoken1 Kwh ≈ KWH / KWH / KWH / YEN) {consumptionLevel}.",
+  "consumptionYearlyDetailedElectricityIntro": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 (Phtoken1 Kwh ≈ KWH / KWH / KWH / YEN)",
+  "consumptionYearlyDetailedGas": "သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year) {consumptionLevel}.",
+  "consumptionYearlyDetailedGasIntro": "သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year)",
+  "consumptionYearlyDetailedLessThan": "ထက်လျော့နည်း Phtoken0",
+  "consumptionYearlyDetailedLevel0": "စူပါနိမ့်သည်။",
+  "consumptionYearlyDetailedLevel1": "တကယ်ကြည့်ဖို့တကယ့်ကိုတစ်ခုခုပါ။",
+  "consumptionYearlyDetailedLevel1Suffix": "Phtoken0 KWHK / လသည်အကောင်းဆုံးစားသုံးမှုအတွက်ပျောက်ဆုံးနေသည်။",
+  "consumptionYearlyDetailedLevel2": "ပုံမှန်ပါပဲ",
+  "consumptionYearlyDetailedLevel2Suffix": "ကောင်းသောစားသုံးမှုအတွက် phtoked0 kwh / လပျောက်ဆုံးနေ။",
+  "consumptionYearlyDetailedLevel3": "အတော်လေးမြင့်မားသည်။",
+  "consumptionYearlyDetailedLevel4": "ပုံမှန်ပါပဲ",
+  "consumptionYearlyDetailedMoreThan": "ထက်ပို phtoken0",
+  "consumptionYearlyDetailedOptimalEnding": "မင်းဘယ်လိုနေလဲ",
+  "consumptionYearlyDetailedYouConsume": "သငျသညျ Consumephod0",
+  "consumptionYield": "အသားပေး",
+  "contact": "ehw + 0 န်ဆောင်မှုများ GMBH\nGeorg-herbert-straße 8\n68519 Viernheim\n\nတေှ့ဆုံခြင်း\n\nဖုန်း: 06204/7383382\nမေးလ်: info@ehwplus.com",
+  "contactTitle": "ကိုယ်စားပြုသည်:",
+  "continueAcceptPart1": "ehw + app ကိုအသုံးပြုခြင်းအားဖြင့်သင်သဘောတူသည်",
+  "continueAcceptPart2": "။ Anonymated နှင့်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုစုဆောင်းခြင်းနှင့်အသုံးပြုခြင်းဆိုင်ရာပိုမိုသိရှိလိုပါက ကျေးဇူးပြု. ကိုးကားပါ",
+  "contract": "စာချုပ်",
+  "contractCopyDialogOptionNo": "အဘယ်သူမျှမ, ပယ်ဖျက်ပါ။",
+  "contractCopyDialogOptionYes": "ဟုတ်ပါတယ်, ယူနစ်စျေးနှုန်းသို့မဟုတ်အခြားတန်ဖိုးပြောင်းလဲသွားပြီ။",
+  "contractCopyDialogTitle": "ဒီစာချုပ်ရဲ့မိတ္တူကိုသင်လုပ်ချင်ပါသလား။",
+  "contractCopyDialogWhen": "စျေးနှုန်းအသစ်ကဘယ်အချိန်မှာလဲ။",
+  "contractCosts": "ယူနစ်စျေးနှုန်း",
+  "contractCostsFeedIn": "လစာစျေးနှုန်း / အခြေခံစျေးနှုန်း",
+  "contractDetails": "စာချုပ်ကာလနှင့်အသေးစိတ်",
+  "contractName": "ပံ့ပိုးသူ / စာချုပ်အမည်",
+  "contractNumber": "စာချုပ်နံပါတ်",
+  "contractPeriod": "စာချုပ်ကာလ",
+  "contractReminder": "စာချုပ်သတိပေးချက်",
+  "contractStart": "ကန်ထရိုက်စတင်ရက်စွဲ",
+  "contractType": "စာချုပ်အမျိုးအစား",
+  "contractTypeElectricityProvider": "လျှပ်စစ်ဓာတ်အားပေးသူ",
+  "contractTypeGasProvider": "ဓာတ်ငွေ့ပံ့ပိုးသူ",
+  "contractTypeHeatingFees": "အပူကြေး",
+  "contractTypeNetwork": "အင်တာနက်နှင့်ဖုန်း",
+  "contractTypeOilProvider": "ရေနံပံ့ပိုးသူ",
+  "contractTypeStove": "မီးဖို",
+  "contractTypeWaterFees": "ရေအခကြေးငွေ",
+  "contracts": "စာချုပ်များ",
+  "corresponds": "ကိုက်ညီ",
+  "costSummary": "ကုန်ကျစရိတ်အကျဉ်းချုပ်",
+  "costSummaryYield": "လစာစျေးနှုန်း / -base စျေးနှုန်း",
+  "costs": "ကုန်ကျစရိတ်",
+  "costsUndefinedColdWater": "အအေးရေအခကြေးငွေ",
+  "costsUndefinedElectricity": "လျှပ်စစ်ဓာတ်အားခ",
+  "costsUndefinedFor": "ကုန်ကျစရိတ် undefined",
+  "costsUndefinedForType": "undefined များအတွက် Phtoked0",
+  "costsUndefinedGas": "ဓာတ်ငွေ့အခကြေးငွေ",
+  "costsUndefinedHeater": "အပူပေးစက်အခကြေးငွေ",
+  "costsUndefinedNetworkCounter": "အင်တာနက်အခကြေးငွေ",
+  "costsUndefinedOilHeating": "ရေနံအခကြေးငွေ",
+  "costsUndefinedWarmWater": "ပူနွေးသောရေအခကြေးငွေ",
+  "counter": "ဆိုင်ရောင်းခုံရှည်",
+  "counterBackgroundImage": "ကောင်တာအဘို့နောက်ခံပုံ",
+  "counterBackgroundImageOfObject": "အရာဝတ်ထုအတွက်နောက်ခံပုံ",
   "counterColdWater": "ရေအေးမီတာ",
-  "counterWaterExtraction": "ရေထုတ်ယူနိုင်သောမီတာ (ဥယျာဉ်)",
-  "counterWaterExtractionExplanation": "နှုတ်ယူခြင်းမီတာဖြင့်စွန့်ပစ်ပစ္စည်းကုန်ကျစရိတ်များကိုလျှော့ချနိုင်သည်။ ဤ In-app ဝယ်ယူမှုနှင့်အတူသင်ရေချိုနှင့်စွန့်ပစ်ရေအတွက်မတူညီသောကုန်ကျစရိတ်များကိုသင်သတ်မှတ်နိုင်ပြီးမီတာအကွာအဝေးမှမီတာဖတ်ရှုခြင်းကိုရေကုန်ကျစရိတ်များ၌ထည့်သွင်းစဉ်းစားလိမ့်မည်။",
-  "warmWater": "ပူရေ",
-  "counterWarmWater": "ပူနွေးသောရေမီတာ",
+  "counterConsiderForTotalConsumptions": "စုစုပေါင်းစားသုံးမှုများအတွက် စဉ်းစားပါ။",
+  "counterConsiderForTotalElectricity": "စုစုပေါင်းလျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုစဉ်းစားပါ",
+  "counterConsiderForTotalWater": "စုစုပေါင်းရေသုံးစွဲမှုအတွက် စဉ်းစားပါ။",
+  "counterContractCurrentlyUsed": "လက်ရှိတွင်စာချုပ်အသုံးပြုခဲ့သည်",
+  "counterDeleteConfirm": "ကောင်တာကိုဖျက်ပစ်လား",
+  "counterDirection": "ဉီးတည်ချက်",
+  "counterDirectionAscending": "တက်",
+  "counterDirectionDescending": "ဆင်း",
+  "counterDirectionExplanation": "အသုံးပြုမှု (အဆင့်ညွှန်ပြချက်၊ စသည်ဖြင့်) တန်ဖိုးသည် ကျဆင်းသွားသလား သို့မဟုတ် အသုံးပြုမှု (မီးစက်နာရီများ၊ ဆီမီတာ စသည်ဖြင့်) တန်ဖိုး တိုးလာသလား သို့မဟုတ် ဖတ်ရှုမှုတန်ဖိုးတစ်ခုစီသည် သီးခြား (စားသုံးမှု/အထွက်နှုန်း) ရှိပါသလား။",
+  "counterDirectionNone": "Phtoken0 / Phtoken1",
+  "counterDistrictHeating": "ခရိုင်အပူ",
+  "counterEdit": "တန်ပြန်ဖြတ်သူ",
   "counterElectricity": "လျှပ်စစ်မီတာ",
   "counterElectricityBack": "လျှပ်စစ်ဓာတ်အားဖြည့်စွက် Meter (PV)",
   "counterElectricityGenerated": "လျှပ်စစ်ဓာတ်အားထုတ်လုပ်ခြင်းမီတာ",
-  "counterPvFeedInCounter": "ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင် (PV / နေရောင်ခြည်စွမ်းအင်သုံးစနစ်များနှင့်အတူနေရောင်ခြည်စွမ်းအင်သုံးစွမ်းအင်နှင့်အပူ",
-  "counterPvFeedInCounterExplanation": "လျှပ်စစ်ဓာတ်အားထုတ်လုပ်ပြီးကျွေးမွေးသောလျှပ်စစ်ဓာတ်အားကိုမှတ်တမ်းတင်ရန်လျှပ်စစ်ဓာတ်အားဖြည့်စွက်ထားသောမီတာကိုသုံးပါ\nphotovoltaic စနစ်နှင့်အတူ။ ရရှိလာတဲ့ဝင်ငွေသည်ကုန်ကျစရိတ်ကိုဆန့်ကျင်သည်\nလျှပ်စစ်ဓာတ်အား။",
-  "virtualCounter": "virtual မီတာ",
-  "heater": "အပူဓါတ်ပေးရဒီယေးတာ",
-  "gas": "ဓါတ်ငေှ့",
-  "oil": "ဆီ",
-  "stove": "မီးဖို",
-  "networkCounter": "အင်တာနက်နှင့်ဖုန်း",
-  "solarThermalCollector": "နေရောင်ခြည်စွမ်းအင်စုဆောင်းသူ",
-  "contractTypeElectricityProvider": "လျှပ်စစ်ဓာတ်အားပေးသူ",
-  "contractTypeWaterFees": "ရေအခကြေးငွေ",
-  "contractTypeHeatingFees": "အပူကြေး",
-  "contractTypeOilProvider": "ရေနံပံ့ပိုးသူ",
-  "contractTypeGasProvider": "ဓာတ်ငွေ့ပံ့ပိုးသူ",
-  "contractTypeStove": "မီးဖို",
-  "contractTypeNetwork": "အင်တာနက်နှင့်ဖုန်း",
-  "currency": "ငေှကေြး",
-  "costsUndefinedFor": "ကုန်ကျစရိတ် undefined",
-  "exportOptionReadingsTitle": "စာဖတ်ခြင်းတန်ဖိုးများ",
-  "exportOptionReadingsSubtitle": "ပုံမှန်အားဖြင့်ပုံမှန်အားဖြင့်မီတာဖတ်ခြင်းသို့မဟုတ်မမှန်နှင့်အတူစားသုံးမှု။",
-  "exportOptionConsumptionsTitle": "နေ့စဉ်စားသုံးမှု",
-  "exportOptionConsumptionsSubtitle": "ပထမစာဖတ်ခြင်းကတည်းကနေ့တိုင်းစားသုံးမှုတန်ဖိုး။",
-  "settings": "ဆက်တင်များ",
-  "roomOther": "အခြား",
-  "previouslyDeletedCounters": "မကြာသေးမီကဖျက်ပစ်မီတာဖျက်ခဲ့ကြသည်",
-  "restoreDeletedCounter": "ဤဖျက်ခြင်းမီတာကိုသင်ပြန်ယူလိုပါသလား။",
-  "localWriteTitle": "local download folder ထဲမှာသိမ်းဆည်းပါ",
-  "localWriteSubtitle": "အရာဝတ်ထုများနှင့်ဓာတ်ပုံများသည်အပြောင်းအလဲတစ်ခုစီ၏ \"Phtoken0\" ဖိုင်တွဲတွင်သိမ်းဆည်းထားသင့်ပါသလား။",
-  "settingUiMode": "အသုံးပြုသူမျက်နှာပြင်",
-  "settingUiColorPalette": "အရောင် palette",
-  "settingUiModeDarkOrLight": "Dark / Light User Interface",
-  "settingLanguageMode": "ဘာသာစကား",
-  "settingUiModeOsDefault": "စံနစ်",
-  "settingUiModeLight": "ပေါ့ပါးသော",
-  "settingUiModeDark": "မေှာင်မိုက်သော",
-  "appBarExpandedMode": "နောက်ခံပုံနှင့်အတူ App Bar",
-  "useDismissibleSettings": "Swipe အမူအရာဖြင့်ဖျက်ပါ",
-  "useDismissibleSettingsDetailed": "ကောင်တာများ, ကန်ထရိုက်များ, စသည်တို့ကိုဘေးတိုက်ပွတ်ဆွဲခြင်းဖြင့်ဖျက်နိုင်သည်",
-  "settingsExternalServices": "ပြင်ပဝန်ဆောင်မှုများ",
-  "settingsShowTabNewsDetailed": "သတင်း / သိန်းစိရှိသည့် tab ကိုမြင်နိုင်သင့်ပါသလား။",
-  "settingsShowStromGedacht": "စွမ်းအင်ဇယားကွက်နှင့် ပတ်သက်. stromedgedtt မှအကြံဥာဏ်များပြသင့်ပါသလား။",
-  "lineChartAppearanceSettings": "Line Charts အသွင်အပြင်",
-  "lineChartAppearanceSettingsShowSpots": "ဇယား၏လိုင်းများပေါ်တွင် (မြို့ပတ်ရထား) အစက်အပြောက်",
-  "supportMakeSuggestion": "တစ်ခုခုအကြံပြုပါ",
-  "supportMakeSuggestionLong": "အက်ပလီကေးရှင်းသည်အသုံးပြုသူအကြံပြုချက်များမှနေထိုင်သည်။ သင့်မှာအကြံပြုချက်ရှိပါသလား။",
-  "featureVoting": "မဲပေးခြင်း",
-  "featureVotingOnlyOnGerman": "အဆိုပါ feature ကိုစစ်တမ်းကိုအခြားဘာသာစကားများသို့ပြန်ဆိုမထားဘူး။",
-  "notifications": "အသိပေးချက်များ",
-  "notificationsEmpty": "အသိပေးချက်မရှိပါ",
-  "notificationsSmartMeterAlertFallback": "သင့်တွင်စမတ်မီတာအသစ်တစ်ခုရှိသည်။",
-  "readingNew": "စာဖတ်ခြင်းအသစ်",
-  "readingUpdate": "စာဖတ်ခြင်းကို update လုပ်ပါ",
-  "readingPrefill": "အလိုအလျောက်မီတာဖတ်ခြင်း",
-  "readingPrefillDisabled": "အလိုအလျောက်ပိတ်ထားသည်",
-  "readingPrefillEnableForAllCounters": "အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ",
-  "readingPrefillDisableForAllCounters": "အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ",
-  "readingPrefillDescription": "ယခင် entries တွေကိုအပေါ်အခြေခံပြီးမီတာကြိုတင်မဲမျက်နှာစာ",
-  "readingPrefillDisabledToast": "အလိုအလျောက်ပိတ်ထားသည်",
-  "readingSubmitted": "တင်သွင်းမီတာစာဖတ်",
-  "readingDeleteConfirm": "စာဖတ်ခြင်းကိုဖျက်ပစ်?",
-  "reminderTime": "သတိပေးအချိန်",
-  "reminderWeekdayExplanation": "တစ်ရက်ထက်မပိုသောစာဖတ်ခြင်းကိုယူရန်သတိပေးချက်တစ်ခုရှိသည်။",
-  "reminderWeekdayExplanationSeasonal": "ရာသီအလိုက်စားသုံးမှုနှင့်မီတာအတွက် Minders များကိုလအနည်းငယ်အကြာတွင်သာစားသုံးမှုဖြင့်သာပေးပို့ခဲ့သည် (ပြီးခဲ့သည့်နှစ်ကတန်ဖိုးများကိုပေးမှသာအလုပ်လုပ်သည်) ။",
-  "readingReminder": "{count, plural, one {စာဖတ်ခြင်းသတိပေးခြင်း} other {စာဖတ်ခြင်းသတိပေးချက်များ}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "readingReminders": "စာဖတ်ခြင်းသတိပေးချက်များ",
-  "readingReminderDisabled": "စာဖတ်ခြင်းသတိပေးခြင်းမလှုပ်ရှားပါ",
-  "readingRemindersChannel": "စာဖတ်ခြင်းသတိပေးချက်များ",
-  "readingReminderSingleBody": "ယခု Phtoked0 တန်ဖိုးကိုဖတ်ပါ",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "readingReminderMultiBody": "{count, plural, one {ယခု Phtoken0 မီတာမှဖတ်ပါ} other {ယခု Phtoken0 မီတာမှဖတ်ပါ}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "contractReminder": "စာချုပ်သတိပေးချက်",
-  "outdated": "ခေတ်မလိုက်သော",
-  "counterNew": "တန်ပြန်အသစ်",
-  "counterEdit": "တန်ပြန်ဖြတ်သူ",
-  "counterGasConversionFactor": "ပြောင်းလဲခြင်းအချက်",
-  "counterGasCalorificValue": "ကယ်လိုရီတန်ဖိုး",
-  "counterGasConversionFactorHelpText": "ca 1.0 ။ လည်ပတ်မှုပမာဏကိုပုံမှန် volume သို့ပြောင်းလဲရန်အသုံးပြုသည်။ operating condition သည်မီတာရှိဓာတ်ငွေ့၏အခြေအနေဖြစ်သည်။",
-  "counterGasCalorificValueHelpText": "အပူတန်ဖိုး - တိုင်းတာသောဓာတ်ငွေ့ပမာဏကိုစွမ်းအင်အဖြစ်ပြောင်းလဲရန် dimensionless factor ။ သဘာဝဓာတ်ငွေ့ - များသောအားဖြင့် 9.0 နှင့် 12.5 KWH / M³ / M³, LPG, LPG - 23.0 နှင့် 33.0 KWH / M³အကြား",
-  "counterTypeLabel": "ကောင်တာအမျိုးအစား",
-  "counterMeterId": "မီတာအိုင်ဒီ",
-  "counterName": "ကောင်တာနာမည်",
-  "counterContractCurrentlyUsed": "လက်ရှိတွင်စာချုပ်အသုံးပြုခဲ့သည်",
-  "counterSelected": "ရွေးချယ်ထား",
-  "counterNoContractSelected": "စာချုပ်မထားဘူး",
-  "counterOtherContracts": "အခြားကန်ထရိုက်များ",
-  "counterExcludedContracts": "ဖယ်ထုတ်ထားစာချုပ်များ",
-  "counterInclude": "ပါဝင်",
   "counterExclude": "ထုတ်ပယ်",
-  "counterTankCapacity": "တင့်ကားစွမ်းရည်",
-  "counterTankFillHeight": "အမြင့်ကိုဖြည့်ပါ",
-  "counterFactorDescription": "စားသုံးမှုအား လိုလားသော ကိန်းဂဏန်းဖြင့်သာ ခွဲဝေပေးပါသလား။ 0.1 (10%) နှင့် 1.0 (100%) ကြားတန်ဖိုးအဖြစ် အချိုးအစားကို ထည့်ပါ။",
-  "counterTransducerFactor": "transformer အချိုး",
-  "counterProportionateConsumption": "အချိုးကျစားသုံးမှု",
-  "counterFactor": "ဆူး",
-  "counterTransducerFactorExplained": "အကယ်. ၎င်းသည်မီတာမရောက်မီ voltage transformer ကိုချရန်အသုံးပြုပါကမှန်ကန်သောဖတ်ရှုခြင်းများရရှိရန်ပြောင်းလဲခြင်းအချက်အသစ်ကိုလျှောက်ထားရမည်။ ဥပမာ - မီတာသည်ပြောင်းလဲခြင်းအချက်နှင့်အတူ 100,000 kWh ကိုပြသသည်။ မှန်ကန်သောစာဖတ်ခြင်းသည် - 100,000 KWH X 20, 000 KWH X 20 = 2,000,000 kWH.",
-  "counterFractionDigits": "အပိုင်းအစဂဏန်း",
-  "counterDirection": "ဉီးတည်ချက်",
-  "counterDirectionExplanation": "အသုံးပြုမှု (အဆင့်ညွှန်ပြချက်၊ စသည်ဖြင့်) တန်ဖိုးသည် ကျဆင်းသွားသလား သို့မဟုတ် အသုံးပြုမှု (မီးစက်နာရီများ၊ ဆီမီတာ စသည်ဖြင့်) တန်ဖိုး တိုးလာသလား သို့မဟုတ် ဖတ်ရှုမှုတန်ဖိုးတစ်ခုစီသည် သီးခြား (စားသုံးမှု/အထွက်နှုန်း) ရှိပါသလား။",
-  "counterConsiderForTotalElectricity": "စုစုပေါင်းလျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုစဉ်းစားပါ",
-  "counterConsiderForTotalWater": "စုစုပေါင်းရေသုံးစွဲမှုအတွက် စဉ်းစားပါ။",
-  "counterWaterExtractionMinimumLevel": "နိမ့်ဆုံးအဆင့်",
-  "counterBackgroundImage": "ကောင်တာအဘို့နောက်ခံပုံ",
-  "counterShowReadingsChart": "ဖတ်ရန်ဇယားပြပါ",
-  "counterShowHeatmap": "HeTmap ကိုပြပါ",
-  "counterShowPreliminaryCurve": "ပဏာမကွေးပြပါ",
-  "seasonalCounter": "ရာသီအလိုက်ကောင်တာ",
-  "seasonalElectricityCounter": "ရာသီအလိုက်လျှပ်စစ်ဓာတ်အားကောင်တာ",
+  "counterExcludedContracts": "ဖယ်ထုတ်ထားစာချုပ်များ",
   "counterExplainSeasonal": "နွေရာသီကာလအတွင်းမီတာဖတ်ရန်ပြင်ဆင်ထားပါသလား။ ဆောင်းရာသီတွင်ဖတ်ခြင်းသည်သင်၏ပုံမှန်စားသုံးမှုပုံစံကိုလိုက်နာရမည်။ နွေရာသီမှာသူတို့ကပြားနေလိမ့်မယ်။",
+  "counterFactor": "ဆူး",
+  "counterFactorDescription": "စားသုံးမှုအား လိုလားသော ကိန်းဂဏန်းဖြင့်သာ ခွဲဝေပေးပါသလား။ 0.1 (10%) နှင့် 1.0 (100%) ကြားတန်ဖိုးအဖြစ် အချိုးအစားကို ထည့်ပါ။",
+  "counterFractionDigits": "အပိုင်းအစဂဏန်း",
+  "counterGas": "ဓာတ်ငွေ့မီတာ",
+  "counterGasCalorificValue": "ကယ်လိုရီတန်ဖိုး",
+  "counterGasCalorificValueHelpText": "အပူတန်ဖိုး - တိုင်းတာသောဓာတ်ငွေ့ပမာဏကိုစွမ်းအင်အဖြစ်ပြောင်းလဲရန် dimensionless factor ။ သဘာဝဓာတ်ငွေ့ - များသောအားဖြင့် 9.0 နှင့် 12.5 KWH / M³ / M³, LPG, LPG - 23.0 နှင့် 33.0 KWH / M³အကြား",
+  "counterGasCalorificValueLabel": "ကယ်လိုရီတန်ဖိုး *",
+  "counterGasConversionFactor": "ပြောင်းလဲခြင်းအချက်",
+  "counterGasConversionFactorHelpText": "ca 1.0 ။ လည်ပတ်မှုပမာဏကိုပုံမှန် volume သို့ပြောင်းလဲရန်အသုံးပြုသည်။ operating condition သည်မီတာရှိဓာတ်ငွေ့၏အခြေအနေဖြစ်သည်။",
+  "counterGasConversionFactorLabel": "ပြောင်းလဲခြင်းအချက် *",
+  "counterHeater": "ရေဒီယိုမီတာ",
+  "counterInclude": "ပါဝင်",
   "counterIsOutdated": "ကောင်တာခေတ်နောက်ကျနေသည်",
   "counterLinkMoreRecent": "လတ်တလောတရုတ်ကောင်တာ link",
-  "counterReplacedBy": "အားဖြင့်အစားထိုး",
-  "counterReallyDeleteLink": "link ကိုဖျက်ပစ်?",
-  "counterDeleteConfirm": "ကောင်တာကိုဖျက်ပစ်လား",
-  "counterGasCalorificValueLabel": "ကယ်လိုရီတန်ဖိုး *",
-  "counterGasConversionFactorLabel": "ပြောင်းလဲခြင်းအချက် *",
-  "counterNoRoomConnection": "အခန်းဆက်သွယ်မှုမရှိပါ",
-  "counterRoom": "နေရာ",
   "counterMessageRoomOptional": "အခန်းတစ်ခန်းတာ 0 န်သည်အုပ်စုဖွဲ့ခြင်းနှင့်အတူကူညီသည်။",
-  "teaserPurchaseVirtualCounter": "virtual ကောင်တာများကိုပရီမီယံဖြင့်ထည့်ပါ။",
-  "teaserPurchaseWaterExtractionCounter": "ရေပရီမီယံနှင့်အတူရေထုတ်ယူကောင်တာများကိုသော့ဖွင့်ပါ။",
-  "teaserPurchaseRenewableEnergies": "ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်ကောင်တာများသည်ပရီမီယံလိုအပ်သည်။",
-  "settingYearlyReset": "နှစ်စဉ် reset",
-  "settingYearlyResetOn": "အပေါ်",
-  "settingShowCounterReadingsChart": "ဖတ်ရန်ဇယားပြပါ",
-  "settingShowHeatmap": "HeTmap ကိုပြပါ",
-  "settingShowPreliminaryCurve": "ပဏာမကွေးပြပါ",
-  "unitLiters": "လီတာ",
-  "unitCm": "စင်တီမီတာ",
-  "unitNone": "ဘာမှျ",
-  "roomType": "အခန်းအမျိုးအစား",
-  "roomName": "အခန်းနာမည်",
-  "roomNameHint": "optionally အခန်းနာမည်တစ်ခုသတ်မှတ်ပါ",
-  "roomNew": "အခန်းအသစ်",
-  "roomDeleteConfirm": "အခန်းကိုဖျက်ပစ်လား",
-  "settingColor": "အရောင်",
+  "counterMeterId": "မီတာအိုင်ဒီ",
+  "counterName": "ကောင်တာနာမည်",
+  "counterNew": "တန်ပြန်အသစ်",
+  "counterNoContractSelected": "စာချုပ်မထားဘူး",
+  "counterNoRoomConnection": "အခန်းဆက်သွယ်မှုမရှိပါ",
   "counterNum": "Phtoken0 ကောင်တာ",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "timeInFuture": "အနာဂတ်မှာ",
-  "timeLastUpdated": "နောက်ဆုံး updated",
-  "timeSeconds": "စက်ညာခြမ်း",
-  "timeMinutes": "မိနစ်",
-  "timeHours": "နာရီ",
-  "timeDays": "ရက်များ",
-  "timeDaysWithin": "ရက်များ",
-  "timeMonth": "လ",
-  "timeMonths": "လများ",
-  "timeMonthsWithin": "လများ",
-  "timeJustNow": "အခုပဲ",
-  "timeMinutesAgo": "Phtoken0 မိနစ်အကြာ",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "timeHoursAgo": "phtoken0 နာရီလွန်ခဲ့တဲ့",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "timeToday": "ယနေ့တွင်",
-  "timeDayAgo": "တနေ့က",
-  "timeDaysAgo": "လွန်ခဲ့သောရက်ပေါင်းက Phtoken0",
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "timeMonthsAgo": "phtoken0 လပေါင်းများစွာက",
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "timeForFirstYear": "ပထမနှစ်တွင်",
-  "timeWeek": "ရက်သတ္တပတ်",
-  "timeWeeks": "သီတင်း",
-  "timeWithin": "Phtoken0 အတွင်း",
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "timeYesterday": "မနေ့က",
-  "timeMonday": "တနင်္လာနေ့",
-  "timeTuesday": "အင်္ဂါနေ့",
-  "timeWednesday": "ဗုဒ္ဓဟူးနေ့",
-  "timeThursday": "ကြာသပတေးနေ့",
-  "timeFriday": "သောကြာနေ့",
-  "timeSaturday": "စနေနေ့",
-  "timeSunday": "တနင်္ဂနေှနေ့",
-  "timeFromUndefined": "undefined",
-  "timeUntilUnlimited": "အကန့်အသတ်",
-  "timeUntilDate": "Phtoken0 သည်အထိ",
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeFromDate": "Phtoked0 မှ",
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeReminderAtStart": "စတင်မှာ",
-  "timeReminderAtEnd": "အဆုံးမှာ",
-  "timePeriodYearStart": "နှစ်နှစ်",
-  "timeRightNow": "အခုချက်ချင်း",
-  "timeBefore": "ဉီးစွာ",
-  "purchasesUpgrade": "အဆင့်မြှင့်တင်",
-  "upgradeDescription": "ဒီ app ကပိုလုပ်နိုင်တယ်။ ပိုမိုကောင်းမွန်သောခြုံငုံသုံးသပ်ချက်, စာရင်းဇယားများ, Excel ပို့ကုန်,",
-  "purchasesWhyBuyTitle": "ငါဘာကြောင့်တစ်ခုခုဝယ်သင့်သလဲ",
-  "purchasesWhyBuyText": "0 ယ်ယူမှုတစ်ခုဖြင့်ကျွန်ုပ်သည်ကုန်ကျစရိတ်များ၌အက်ပလီကေးရှင်းကိုပုံနှိပ်ထုတ်လွှင့်ခြင်းနှင့်နောက်ထပ်ဖွံ့ဖြိုးတိုးတက်မှုကိုအထောက်အကူပြုခြင်းဖြင့်ပါ 0 င်သည်။",
-  "purchasesIOSRestorePurchases": "ဝယ်ယူမှုကို restore",
-  "purchasesIOSRestorePurchasesDescription": "အကယ်. သင်သည်ယခင်က AppStore တွင်တစ်ခုခုကို 0 ယ်ထားပြီးဖြစ်ပါက 0 ယ်ယူမှုကိုပြန်လည်ရယူနိုင်သည်။",
-  "purchasesDisabledOnIOS": "In-app ဝယ်ယူမှုပိတ်ထားသည်",
-  "purchasesDisabledOnIOSDescription": "ကျေးဇူးပြု. သင်၏ iPhone တွင် In-app ဝယ်ယူမှုကိုပိတ်ထားခြင်းရှိမရှိစစ်ဆေးပါ။",
-  "purchasesDisabledOnIOSDescriptionTestflight": "အဆိုပါ app ကို testflight မှတစ်ဆင့် install လုပ်ထားခဲ့သည်။ ကျေးဇူးပြု. app store မှတစ်ဆင့် app ကို install လုပ်ပါက 0 ယ်ယူမှုသည်အက်ပလီကေးရှင်းတွင်သာအလုပ်လုပ်သည်ကိုသတိပြုပါ။",
-  "purchasesSubscribePremium": "ပရိုချုပ်ကြီး Subsiribe",
-  "purchasesSubscribePremiumTextLong": "0 န်ဆောင်မှုပေးသည့်ကာလအတွင်း 0 န်ဆောင်မှုပေးသည့်ကာလအတွင်းပေးထားသော features များအားလုံးကို 0 င်ရောက်နိုင်ခြင်း",
-  "purchasesWebLegalNote": "ဥပဒေရေးရာအကြောင်းပြချက်များအတွက်, iPhone သို့မဟုတ် Android ဖုန်းသည် PlayStore 0 န်ဆောင်မှုများဖြင့် 0 ယ်ယူမှုတစ်ခုသာဖြစ်နိုင်သည်။",
-  "purchasesYourPurchases": "သင်သည်အောက်ပါပရီမီယံ package များကိုဝင်ရောက်ခွင့်ရှိသည်။",
-  "purchasesExtensionsTitle": "တစ်ခုတည်း extensions များ",
-  "purchasesExtensionsSubtitle": "တစ်ကြိမ်ဝယ်ပါ, အမြဲတမ်းသုံးပါ (စာရင်းသွင်းခြင်းမရှိပါ)",
-  "purchasesExtensionStatisticsTitle": "အဆင့်မြင့်စာရင်းအင်းများ",
-  "purchasesExtensionMultipleObjectsTitlePart": "မျိုးစုံအရာဝတ်ထုများကိုစီမံခြင်း",
-  "purchasesExtensionMultipleObjectsDescription": "မီတာဖတ်ခြင်း / အိမ်များ / အရာဝတ်ထုများကိုသင်ကြိုက်နှစ်သက်သည့်အခန်းများ / အရာဝတ်ထုများ (အရာဝတ်ထုတစ်ခုအတွက်သာ) သင်ကြိုက်နှစ်သက်သည့်တိုက်ခန်းများ,",
-  "purchasesExtensionsInWork": "နောက်ထပ် extension များစီစဉ်ထားသည်။ သင့်ရဲ့ပြောဆိုရန် feature ကိုစစ်တမ်း၌ပါ 0 င်ပါ။",
-  "purchasesSubscribeNow": "ယခုမှာယူပါ",
-  "purchasesBuyNow": "အခုဝယ်ပါ",
-  "purchasesRedeemCode": "redeem ကုဒ်",
-  "purchasesEarlyBirdSubscription": "မှတ်စု: အကယ်. ဤပထမအကြိမ်ဖောက်သည် 0 ယ်ယူမှုကိုဖျက်သိမ်းလျှင်၎င်းကိုနောက်မှထပ်မံစာရင်းသွင်း။ မရပါ။",
-  "purchasesPurchasedIncludedInPremium": "ပရီမီယံ၌ပါဝင်သည်",
-  "purchasesPurchasedSubscribed": "စာရင်းသွင်း",
-  "purchasesPurchased": "ဝယ်ယူခဲ့သည်",
-  "purchasesExtensionStatisticsDescription": "လစဉ် / အပတ်စဉ်လျှပ်စစ် / ဓာတ်ငွေ့ / ရေ / ... + ကာလချိန်ညှိချက်များ + အသေးစိတ်ကုန်ကျစရိတ် + အသေးစိတ်ကုန်ကျစရိတ် + Excel တင်ပို့မှု",
-  "commonAnd": "နှင့်",
-  "purchasesSubscribePremiumMonthly": "တစ်လလျှင် Phtoked0 အတွက်လစဉ်ဖျက်သိမ်းခြင်း",
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumMonthlyWithNewPrice": "Phtoken1 အစား Phtoken0 ၏သစ္စာရှိရှိစျေးနှုန်းဖြင့်လစဉ်လစဉ်ဖျက်သိမ်းခြင်း",
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearly": "တစ်နှစ်လျှင် Phtoked0 အတွက်သာ Phtoked0 အတွက်နှစ်စဉ်ဖျက်သိမ်းခံရခြင်း",
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearlyWithNewPrice": "Phtoked1 အစား Phtoked0 ၏သစ္စာရှိမှုစျေးနှုန်းဖြင့်နှစ်စဉ်လွဲမှားသော Subscription",
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesStatisticsWithPremium": "ပရီမီယံဖြင့်သင်သည်လစဉ်နှိုင်းယှဉ်ခြင်းနှင့်နှိုင်းယှဉ်ခြင်း, အများကိန်း,",
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "years": {
-        "type": "String"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "smartMeterProviderTibber": "ပြွန်ကိုယ်များသော",
-  "smartMeterProviderWwgl": "wasserwerk gerauer မြေ",
-  "smartMeterProviderUndefined": "မသတ်မှတ်ပါ",
-  "sync": "အရေးကြီး",
-  "costsUndefinedForType": "undefined များအတွက် Phtoked0",
-  "costsUndefinedElectricity": "လျှပ်စစ်ဓာတ်အားခ",
-  "costsUndefinedColdWater": "အအေးရေအခကြေးငွေ",
-  "costsUndefinedWarmWater": "ပူနွေးသောရေအခကြေးငွေ",
-  "costsUndefinedHeater": "အပူပေးစက်အခကြေးငွေ",
-  "costsUndefinedOilHeating": "ရေနံအခကြေးငွေ",
-  "costsUndefinedGas": "ဓာတ်ငွေ့အခကြေးငွေ",
-  "costsUndefinedNetworkCounter": "အင်တာနက်အခကြေးငွေ",
-  "updateAvailable": "Phtoked0 သည် Phtoked0 သည်နောက်ဆုံးပေါ်မဟုတ်ပါ။ သငျသညျ Phtoked1 version ကို update လုပ်နိုင်ပါတယ်။",
-  "@updateAvailable": {
-    "placeholders": {
-      "oldVersion": {
-        "type": "String"
-      },
-      "newVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "versionIsUpToDate": "အသုံးပြုသူအားလုံးမှထုတ်ပြန်သောနောက်ဆုံးအက်ပ်ဗားရှင်းသည် Phtoken0 ဖြစ်သည်။",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "messageNoCounters": "မင်းကကောင်တာကိုမဖန်တီးသေးဘူး",
-  "messageNoCounterReadings": "သငျသညျသေးနားပြီစာဖတ်ခြင်းထဲသို့မဝင်ရသေး။",
-  "parsingObjectError": "အရာဝတ်ထုခွဲခြမ်းစိတ်ဖြာမရနိုင်ပါ။ developer ကိုဆက်သွယ်ပါ။ အက်ပလီကေးရှင်းကို uninstall လုပ်တဲ့အခါဒေတာပျောက်သွားလိမ့်မယ်။",
-  "reallyDeleteCounter": "ကောင်တာကိုသင်ဖျက်ချင်ပါသလား။",
-  "reallyDeletePhoto": "သင် Meter Reading Photo ကိုဖျက်ချင်ပါသလား။",
-  "reallyDeleteCounterLink": "ကောင်တာအကြားလင့်ခ်ကိုသင်ဖျက်ချင်ပါသလား။",
-  "virtualCounterNotConfigured": "ကျေးဇူးပြု. သင်၏ virtual မီတာ၏ချိန်ညှိချက်များကိုစစ်ဆေးပါ။ အဘယ်အရာကိုမျှတွက်ချက်နိုင်ပါသည်။",
-  "virtualCounterMasterCounter": "Master Meter",
-  "virtualCounterMasterCounterAttach": "အဓိကမီတာကိုရွေးပါ",
-  "virtualCounterMasterCounterDescription": "Info: အဓိကမီတာသည် virtual meter ၏တွက်ချက်မှုကိုတွက်ချက်ရန်အခြေခံသည်။",
-  "virtualCounterMetersToBeSubtracted": "meters နုတ်ဖို့မီတာ",
-  "virtualCounterMetersToBeSubtractedDescription": "မည်သည့်မီတာဖတ်ခြင်းများကိုအဓိကမီတာမှနုတ်ယူသင့်သည်။",
-  "virtualCounterMetersToBeAdded": "မီတာထည့်သွင်းခံရဖို့မီတာ",
-  "virtualCounterMetersToBeAddedDescription": "မည်သည့်မီတာသည် Main Meter, E.G. , E.G. , E.G. , E.G. ,",
-  "areYouSure": "သေချာလား?",
-  "addNewValue": "တန်ဖိုးအသစ်ကိုထည့်ပါ",
-  "reallyDeleteValue": "ဒီတန်ဖိုးကိုသင်တကယ်ဖျက်ချင်ပါသလား။",
-  "warning": "အသိပေးချက်",
-  "messageNotEnoughData": "ဇယားကိုပြရန်လုံလောက်သောအချက်အလက်များမရှိပါ",
-  "messageNoConsumptions": "အလုံအလောက်ဖတ်ရှုနိုင်လျှင်အမျိုးအစားတစ်ခုလုံး၏အရိုးအမျိုးမျိုးအတွက်စာရင်းဇယားများကိုဤနေရာတွင်ဖော်ပြထားသည်။ ဥပမာအားဖြင့်, ရေအေးမီတာ, ရေပူမီတာနှစ်လုံးနှင့်ရေထုတ်ယူခြင်းမီတာကိုရေစာရင်းဇယားတွင်ဖော်ပြထားသည်။",
-  "lastReading": "နောက်ဆုံးစာဖတ်ခြင်း",
-  "chartDottedLinesNonSeasonal": "အဆိုပါ dashed ခါးဆစ်ယခင်ကာလကိုကိုယ်စားပြုသည်။ ရွေးချယ်ခြင်းအတွက် \"နောက်ဆုံး 14 ရက်\" အတွက် \"နောက်ဆုံး 14 ရက်\" အတွက်နောက်ဆုံးသောနေ့ရက်များမှာ 4 င်းတို့၏အသက် 14 နှစ်အရွယ်တွင်ဖော်ပြထားသည့်အသက် 14 နှစ်ရှိပြီဖြစ်သည်။",
-  "chartDottedLinesSeasonal": "အဆိုပါ dashed ခါးဆစ်ယခင်ကာလကိုကိုယ်စားပြုသည်။ ရွေးချယ်ခြင်းအတွက် \"နောက်ဆုံး 14 ရက်\" အတွက် \"နောက်ဆုံး 14 ရက်\" အတွက်နောက်ဆုံးသောနေ့ရက်များမှာ 4 င်းတို့၏အသက် 14 နှစ်အရွယ်တွင်ဖော်ပြထားသည့်အသက် 14 နှစ်ရှိပြီဖြစ်သည်။",
-  "chartHorizontalLines": "dashed လိုင်းများသည်သင်၏ကိုယ်ပိုင်စားသုံးမှုအပေါ်တုံ့ပြန်ချက်များပေးရန်ရည်ရွယ်သည်။",
-  "chartHorizontalLineWater": "ပျမ်းမျှအားဖြင့်ဂျာမနီရှိလူတစ် ဦး စီသည်အိမ်ထောင်စုတွင်နေ့စဉ် 127 လီတာရေလောင်းကိုနေ့စဉ်အသုံးပြုသည်။ အပြာရောင်လိုင်းသည်ရေအေး (60%), အနီရောင်လိုင်းရေပူ (40%), ထိုကာလအတွင်းရက်အရေအတွက်နှင့်လူ ဦး ရေကိုထုတ်ယူခြင်း။",
-  "chartHorizontalLineElectricityGas": "အစိမ်းရောင်လိုင်းသည်အလွန်ကောင်းသောစားသုံးမှု, အဝါရောင်လိုင်းသည် 0 တ်စုံပျမ်းမျှစားသုံးမှုအတွက်အနီရောင်လိုင်းဖြစ်သည်။",
-  "per": "ဖြင့်",
-  "costSummary": "ကုန်ကျစရိတ်အကျဉ်းချုပ်",
-  "costSummaryYield": "လစာစျေးနှုန်း / -base စျေးနှုန်း",
-  "soFar": "သ",
+  "counterOilHeating": "ရေနံအပူ",
+  "counterOtherContracts": "အခြားကန်ထရိုက်များ",
+  "counterOutdatedAndNextReminder": "တန်ပြန်ဖတ်ရှုခြင်း,",
+  "counterProportionateConsumption": "အချိုးကျစားသုံးမှု",
+  "counterPvFeedInCounter": "ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင် (PV / နေရောင်ခြည်စွမ်းအင်သုံးစနစ်များနှင့်အတူနေရောင်ခြည်စွမ်းအင်သုံးစွမ်းအင်နှင့်အပူ",
+  "counterPvFeedInCounterExplanation": "လျှပ်စစ်ဓာတ်အားထုတ်လုပ်ပြီးကျွေးမွေးသောလျှပ်စစ်ဓာတ်အားကိုမှတ်တမ်းတင်ရန်လျှပ်စစ်ဓာတ်အားဖြည့်စွက်ထားသောမီတာကိုသုံးပါ\nphotovoltaic စနစ်နှင့်အတူ။ ရရှိလာတဲ့ဝင်ငွေသည်ကုန်ကျစရိတ်ကိုဆန့်ကျင်သည်\nလျှပ်စစ်ဓာတ်အား။",
+  "counterReadings": "ဖတ်ခြင်း",
+  "counterReallyDeleteLink": "link ကိုဖျက်ပစ်?",
+  "counterReplacedBy": "အားဖြင့်အစားထိုး",
+  "counterRoom": "နေရာ",
+  "counterSelected": "ရွေးချယ်ထား",
+  "counterShowHeatmap": "HeTmap ကိုပြပါ",
+  "counterShowPreliminaryCurve": "ပဏာမကွေးပြပါ",
+  "counterShowReadingsChart": "ဖတ်ရန်ဇယားပြပါ",
+  "counterTankCapacity": "တင့်ကားစွမ်းရည်",
+  "counterTankFillHeight": "အမြင့်ကိုဖြည့်ပါ",
+  "counterTransducerFactor": "transformer အချိုး",
+  "counterTransducerFactorExplained": "အကယ်. ၎င်းသည်မီတာမရောက်မီ voltage transformer ကိုချရန်အသုံးပြုပါကမှန်ကန်သောဖတ်ရှုခြင်းများရရှိရန်ပြောင်းလဲခြင်းအချက်အသစ်ကိုလျှောက်ထားရမည်။ ဥပမာ - မီတာသည်ပြောင်းလဲခြင်းအချက်နှင့်အတူ 100,000 kWh ကိုပြသသည်။ မှန်ကန်သောစာဖတ်ခြင်းသည် - 100,000 KWH X 20, 000 KWH X 20 = 2,000,000 kWH.",
+  "counterTypeLabel": "ကောင်တာအမျိုးအစား",
+  "counterWarmWater": "ပူနွေးသောရေမီတာ",
+  "counterWarmWaterPlusColdWater": "လတ်ဆတ်သောရေကိုဖယ်ထုတ်ပြီးရေကုန်သည်များကိုစွန့်ပစ်သည်",
+  "counterWater": "ရေမီတာ",
+  "counterWaterExtraction": "ရေထုတ်ယူနိုင်သောမီတာ (ဥယျာဉ်)",
+  "counterWaterExtractionExplanation": "နှုတ်ယူခြင်းမီတာဖြင့်စွန့်ပစ်ပစ္စည်းကုန်ကျစရိတ်များကိုလျှော့ချနိုင်သည်။ ဤ In-app ဝယ်ယူမှုနှင့်အတူသင်ရေချိုနှင့်စွန့်ပစ်ရေအတွက်မတူညီသောကုန်ကျစရိတ်များကိုသင်သတ်မှတ်နိုင်ပြီးမီတာအကွာအဝေးမှမီတာဖတ်ရှုခြင်းကိုရေကုန်ကျစရိတ်များ၌ထည့်သွင်းစဉ်းစားလိမ့်မည်။",
+  "counterWaterExtractionMinimumLevel": "နိမ့်ဆုံးအဆင့်",
+  "counters": "မီတာ",
+  "createAccount": "အကောင့် / login လုပ်ပါ",
+  "csvImportWithFactor": "1.0 နှင့်ညီမျှသောအချက်တစ်ချက်ဖြင့်မီတာဖတ်သင့်သလား။ ဥပမာအားဖြင့်, တန်ဖိုးများကို WH မှ KWH သို့ပြောင်းရန် 0.001 မှမြှောက်ရန်လိုသည်။",
+  "currency": "ငေှကေြး",
+  "deleteObjectError": "ဤအရာဝတ်ထုကို ဖျက်. မရပါ (ကုဒ် Phtoken0) ။",
+  "detailWithMultiSelect": "Multi Selection ခွင့်ပြုပါ",
+  "detailsTitle": "အသေးစိတ်",
+  "difference": "ကဲှပြားချက်",
+  "driveSignInWithGoogle": "Google နှင့်ဆိုင်းအင်လုပ်ပါ",
+  "driveSyncNow": "ယခုစည်းညှိ",
+  "driveSyncStatusComparing": "ဆာဗာပေါ်ရှိဖိုင်နှင့်နှိုင်းယှဉ်ခြင်း",
+  "driveSyncStatusFailed": "တစ်ပြိုင်တည်းချိန်ကိုက်ရန်ပျက်ကွက်",
+  "driveSyncStatusLocalHasLatestNoCloud": "Phtoken0 မှဤကိရိယာတွင်သိမ်းဆည်းထားသောဖိုင်သည်မို cloud ်းတိမ်အတွင်း၌မသိမ်းဆည်းပါ",
+  "driveSyncStatusLocalHasLatestWithCloud": "Phtoken0 မှဤစက်ပစ္စည်းတွင်သိမ်းဆည်းထားသောဖိုင်သည် Phtoked1 မှ Cloud ရှိဖိုင်ထက်နောက်ဆုံးပေါ်ဖြစ်သည်",
+  "driveSyncStatusNotSynced": "မထပ်နိုင်ပါ",
+  "driveSyncStatusRemoteHasLatestNoLocal": "Phtoked0 မှ Cloud ရှိဖိုင်သည်ဤကိရိယာတွင်မသိမ်းဆည်းပါ",
+  "driveSyncStatusRemoteHasLatestWithLocal": "Phtoked0 မှ Cloud ရှိဖိုင်သည် Phtoked1 မှ local file ထက်နောက်ဆုံးပေါ်ဖြစ်သည်",
+  "driveSyncStatusSyncing": "တိုးတက်မှုအတွက်စည်းညှိ",
+  "driveSyncStatusTitle": "ထပ်တူပြုခြင်းအခြေအနေ",
+  "driveSyncStatusUpToDate": "Phtoken0 မှနောက်ဆုံးပေါ်အထိ",
+  "driveSyncWithGoogle": "Google Drive ထပ်တူပြုခြင်း",
+  "editDetailTitle": "အသေးစိတ်တည်းဖြတ်ပါ",
+  "electricity": "လှျပ်စစ်ဓါတ်",
+  "electricityBack": "လျှပ်စစ်ဓာတ်အားအတွက်ကျွေးမွေး",
+  "electricityConsumption": "စွမ်းအင်သုံးစွဲမှု",
+  "electricityGenerated": "လျှပ်စစ်ဓာတ်အားထုတ်လုပ်လိုက်ပါတယ်",
+  "enterComment": "မှတ်စုတစ်ခုထည့်ပါ",
+  "enterExistingReadingAgain": "စာဖတ်ခြင်းကိုပြန်လည်ထည့်သွင်းပါ",
+  "enterObjectName": "အရာဝတ်ထုအသစ်ကိုဖော်ပြပါ",
+  "errorInvalidRange": "တရားဝင်အကွာအဝေးမရှိပါ",
+  "errorNoInternet": "ကွန်ယက်မရှိပါ",
+  "euDisputeResolution": "အီးယူအငြင်းပွားမှုဖြေရှင်းရေး\n\nဥရောပကော်မရှင်သည်အွန်လိုင်းအငြင်းပွားမှုဖြေရှင်းရေး (OS) အတွက်ပလက်ဖောင်းတစ်ခုပေးသည်။ Https://ec.eurocoPa.eu/consumers/odr/Odr/ ။\nသင်၏အီးမေးလ်လိပ်စာကိုအထက်တွင်ဖော်ပြရန်သင်ရှာနိုင်သည်။\n\nစားသုံးသူအငြင်းပွားမှုဖြေရှင်းခြင်း / Universal အငြင်းပွားမှုဖြေရှင်းရေးအဖွဲ့\n\nစားသုံးသူခုံသမာဓိဖြင့်စီရင်ဆုံးဖြတ်ခြင်းဘုတ်အဖွဲ့မတိုင်မီအငြင်းပွားမှုဖြေရှင်းရေးဆိုင်ရာတရားစွဲဆိုမှုများတွင်ပါ 0 င်ရန်ကျွန်ုပ်တို့ဆန္ဒရှိသို့မဟုတ်တာဝန်ရှိသည်မဟုတ်ပါ။",
+  "existingPhoto": "ရှိပြီးသားဓာတ်ပုံကိုပူးတွဲပါ",
+  "existingPhotoOfMeterReading": "မီတာဖတ်နေသည့်နေရာတွင်ရှိပြီးသားဓာတ်ပုံကိုသင်ပူးတွဲလိုပါသလား။",
+  "explanationManageMoreThanOneObject": "မင်းမှာသင်စီမံချင်တဲ့ပစ္စည်းတစ်ခုထက်ပိုပြီးရှိတယ်။ ထို့နောက်လက်ရှိအရာဝတ်ထုကိုဖော်ပြပြီးအခြားအရာဝတ်ထုတစ်ခုကိုဖန်တီးပါ။",
+  "export": "ထုတ်ကုန်",
+  "exportExplanation": "၎င်းကိုစက်အသစ်တစ်ခုသို့လွှဲပြောင်းရန်ဥပမာအားဖြင့်လက်ရှိအခြေအနေကိုသင်တင်ပို့လိုပါသလော။",
+  "exportObjectDescription": "Phtoken0, Phtoken ဒယ်လ်",
+  "exportOptionConsumptionsSubtitle": "ပထမစာဖတ်ခြင်းကတည်းကနေ့တိုင်းစားသုံးမှုတန်ဖိုး။",
+  "exportOptionConsumptionsTitle": "နေ့စဉ်စားသုံးမှု",
+  "exportOptionExcel": "Excel ဖိုင်",
+  "exportOptionFileDescription": "အရာဝတ်ထုကို phtoken0 ဖိုင်တစ်ခုအဖြစ်မျှဝေသည်",
+  "exportOptionPdf": "PDF ဖိုင်",
+  "exportOptionReadingsSubtitle": "ပုံမှန်အားဖြင့်ပုံမှန်အားဖြင့်မီတာဖတ်ခြင်းသို့မဟုတ်မမှန်နှင့်အတူစားသုံးမှု။",
+  "exportOptionReadingsTitle": "စာဖတ်ခြင်းတန်ဖိုးများ",
+  "exportTabHowToExport": "ဒေတာကိုဘယ်လိုတင်ပို့ချင်ပါသလဲ",
+  "exportTabHowToExportOptionSaveToDownloads": "Phtoken0 folder မှ Save",
+  "exportTabHowToExportOptionShare": "အခြားအက်ပ်များနှင့်မျှဝေပါ",
+  "exportTabSnackBarSaveResultMessageError": "အချက်အလက်များကိုသိမ်းဆည်းနေစဉ်အမှားဖြစ်ပွားခဲ့သည်",
+  "exportTabSnackBarSaveResultMessageSuccess": "Phtoken1 တွင် Phtoked1 တွင် Phtoken0 အဖြစ်ဒေတာများကိုအောင်မြင်စွာသိမ်းဆည်းထားပြီးဖြစ်သည်",
+  "exportWhere": "အရာဝတ်ထုကိုမည်သည့်ပုံစံဖြင့်တင်ပို့သင့်သနည်း။",
+  "exportWhichValuesShouldBeExported": "ဘယ်တန်ဖိုးတွေကိုတင်ပို့သင့်သလဲ။",
+  "faqAboutDeveloperBody1": "EHW + ကိုစိတ်ဝင်စားသည့်အတွက်ကျေးဇူးတင်ပါသည်။ EHW + ကိုဒီဇင်ဘာ 2020 တွင် Timo Bährသည်ကျွန်ုပ်အားဖြန့်ချိခဲ့သည်။ ကျွန်ုပ်သည်အချိန်ပြည့် app developer တစ်ခုဖြစ်ပြီးသဘာဝပတ်ဝန်းကျင်ကာကွယ်မှုကိုအထောက်အကူပြုရန်ကျွန်ုပ်၏အားလပ်ချိန်များတွင်အလုပ်လုပ်သည်။ 2022 ခုနှစ်မေလကတည်းကဒုတိယရေးဆွဲသူတစ် ဦး သည်ကျွန်ုပ်၏အလုပ်ကိုကြီးကြပ်ခဲ့သည်။ 2023, April ပြီလကတည်းက Janine Smartner သည်များစွာသောဖောက်သည်များ၏တုံ့ပြန်ချက်များကိုကိုင်တွယ်နေသည်။ ဇူလိုင်လ 2024 ခုနှစ်မှစ. Artem Yuzhakov သည် app developer တစ်ခုအဖြစ်ပူးပေါင်းခဲ့သည်။",
+  "faqAboutDeveloperBody2": "ဂျာမနီရှိ CO2 ထုတ်လွှတ်မှုအားလုံး၏ 26% ကျော်သည်ပုဂ္ဂလိကအိမ်ထောင်စုများကြောင့်ဖြစ်သည်။ အကယ်. လူတိုင်းသည်သူတို့၏စားသုံးမှုကိုအနည်းငယ်သာလျှော့ချနိုင်လျှင်များစွာသောသူတို့သည်အောင်မြင်မှုရရှိမည်ဖြစ်သည်။ သင့်ရဲ့အလှူငွေအတွက်ကျေးဇူးတင်ပါတယ်!",
+  "faqAboutDeveloperBody3": "အက်ပလီကေးရှင်းကိုဘယ်လိုတိုးတက်အောင်လုပ်ရမယ်ဆိုတာကိုကျွန်တော်တို့အကြံပြုချက်တွေကိုကြိုဆိုပါတယ်။",
+  "faqAboutDeveloperBody4": "သို့သော်ကျွန်ုပ်သည်အကြံဥာဏ်များအားလုံးကိုအကောင်အထည်ဖော်ရန်နှင့်လုပ်ဆောင်မှုအသစ်များကိုအချိန်ယူရသည်ကိုသင်၏နားလည်မှုကိုတောင်းခံသည်။",
+  "faqAboutDeveloperTitle": "အဘယ်သူသည် ehw + နောက်ကွယ်မှသနည်း",
+  "faqTitle": "အမြဲမေးလေ့ရှိသောမေးခွန်းများ",
+  "featureVoting": "မဲပေးခြင်း",
+  "featureVotingOnlyOnGerman": "အဆိုပါ feature ကိုစစ်တမ်းကိုအခြားဘာသာစကားများသို့ပြန်ဆိုမထားဘူး။",
+  "featureVotingUnderConstruction": "အဆိုပါ feature ကိုစစ်တမ်းကိုလက်ရှိပြန်လည်ပြင်ဆင်နေသည်။ အနာဂတ်တွင် EHW + အသုံးပြုသူအကောင့်တစ်ခုလိုအပ်လိမ့်မည်။ စစ်တမ်းသည်တတိယပါတီဆာဗာများကိုမသုံးတော့ပါ။ သင်၏သည်းခံခြင်းကိုကျွန်ုပ်တို့တန်ဖိုးထားသည်။",
+  "fedIn": "ကျွေးမွေး",
+  "firstReadingConsumption": "ပထမ ဦး ဆုံးစားသုံးမှုကိုယခုရိုက်ထည့်ပါ။",
+  "firstReadingCounter": "ပထမကောင်တာစာဖတ်ခြင်းကိုရိုက်ထည့်ပါ။",
+  "firstReadingYield": "ယခုပထမ ဦး ဆုံးအထွက်နှုန်းရိုက်ထည့်ပါ။",
   "forX": "အတွက်",
-  "corresponds": "ကိုက်ညီ",
-  "warningCounterReplacementDetected": "တန်ဖိုးအသစ်သည်ယခင်မီတာစာဖတ်ခြင်းထက်နိမ့်သည်။ မီတာကိုအစားထိုးလိုက်ပြီလား",
-  "warningYearlyReset": "ယခုနှစ်အစမှာသုညစာဖတ်ခြင်း",
-  "warningReadingSmallerThanOldValue2": "တန်ဖိုးအသစ်သည်ယခင်မီတာစာဖတ်ခြင်းထက်နိမ့်သည်။ စာဖတ်ခြင်းမှန်ကန်စွာယူခဲ့သလဲ",
-  "warningReadingBiggerThanOldValueOilVolume": "တန်ဖိုးအသစ်သည်ယခင်မီတာစာဖတ်ခြင်းထက်ပိုမိုမြင့်မားသည်။ မင်းအကြံပေးအဖွဲ့ကိုဖြည့်ပါသလား",
-  "warningReadingSeemsTooBig": "တန်ဖိုးအသစ်သည်အတော်လေးမြင့်မားသည်။ စာဖတ်ခြင်းမှန်ကန်စွာယူခဲ့သလဲ",
-  "warningReadingSeemsTooSmall": "တန်ဖိုးအသစ်သည်အတော်လေးနိမ့်သည်။ မှန်ကန်စွာဖတ်ခဲ့သလား",
+  "gas": "ဓါတ်ငေှ့",
+  "generated": "ဖြစ်သော",
+  "googleAnalyticsAgreement": "EHW+ Services GmbH သို့ အက်ပ်အသုံးပြုမှုနှင့်ပတ်သက်သည့် အမည်မသိဒေတာများ ပေးပို့ခြင်းကို ကျွန်ုပ်သဘောတူပါသည်။",
+  "googleApiAgreement": "Phtoken0 ၏အသုံးပြုမှုသည် Google APIs မှရရှိသောအခြားသောသတင်းအချက်အလက်များကိုအသုံးပြုခြင်းနှင့်အခြားအက်ပလီကေးရှင်းများသို့ပြောင်းရွှေ့ရန်လိုအပ်သည့်လိုအပ်ချက်များအပါအ 0 င်ဂူဂဲလ် API 0 န်ဆောင်မှုဆိုင်ရာအသုံးပြုသူအချက်အလက်မူဝါဒကိုလိုက်နာရမည်။",
+  "gross": "စုစုပေါင်း",
+  "grossNetPrices": "စုစုပေါင်းသို့မဟုတ်အသားတင်စျေးနှုန်း",
+  "heatPump": "အပူစုပ်စက်",
+  "heater": "အပူဓါတ်ပေးရဒီယေးတာ",
+  "heatmapLegendDisclaimer": "Info: Shaded box များခန့်မှန်းတန်ဖိုးပါ 0 င်သည်။ အမှန်တကယ်စားသုံးမှု / output ကိုဖတ်ရန်ဖြစ်နိုင်လျှင်ပျောက်ဆုံးနေသောမီတာဖတ်ခြင်းများကိုဖြည့်ပါ။",
+  "heatmapLegendTitle": "HeTmap အကြောင်းပို",
+  "houseName": "အိမ်အမည်",
+  "houseNameDescription": "အိမ်အမည်, E.G. လမ်းနာမည်",
+  "import": "တင်သွင်း",
+  "importConfirm": "သွင်းကုန်အတည်ပြုပါ",
+  "importCounterAsCsv": "တစ်မီတာတည်းကိုတင်သွင်းချင်ပါသလား။ မီတာတစ်မီတာကိုထောက်ပံ့သည် CSV ဖိုင်သည်ကော်လံနှစ်ခုရှိသော CSV ဖိုင်ဖြစ်ပြီးအချိန်နှင့်မီတာစာဖတ်ခြင်းအတွက်တစ်ခုဖြစ်သည်။\n\nဥပမာအချက်အလက်:\n2020-04-01T22: 59: 006790.855\n\"2020-04-01t23: 59\"; 6795.421\n2020-04-01 22: 22,6803.435\n2012011 13: 27: 006807.467\n2012-04-011,13: 27: 006807.467\n\"2020-04-01 23:02:00\" 6812,036 \", 6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {ပထမ ဦး ဆုံးကော်လံနှစ်ခုသာအသုံးပြုခဲ့သည်။ တတိယကော်လံကိုလျစ်လျူရှုခဲ့သည်။} other {ပထမကော်လံနှစ်ခုကိုသာအသုံးပြုခဲ့သည့် Phtoken0 ကော်လံများကိုလျစ်လျူရှုခဲ့သည်။}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {တစ်ကြောင်းတည်းကိုလျစ်လျူရှုခဲ့သည်: Phtoken0} other {Phtoken0 လိုင်းများကိုလျစ်လျူရှုထားသည် - Phtoken1}}",
+  "importExplanation": "သငျသညျတန်ပြန် counter ဖတ်ပြီးသူတို့ကိုထည့်သွင်းချင်ပါသလား?",
+  "importExport": "backup / restore",
+  "importNewOrExistingCounter": "အသစ်သို့မဟုတ်လက်ရှိကောင်တာမှထည့်သွင်း?",
+  "importNotPossible": "သွင်းကုန်မဖြစ်နိုင်ပါ",
+  "importPickFile": "ဖိုင်ကိုရွေးချယ်ပါ",
+  "importSelectJson": "JSON ဖိုင် (Phtoken0 ဖြင့်ဖန်တီးထားသော)",
+  "importSelectSingleCounter": "တစ်ခုတည်းကောင်တာ (CSV ဖိုင်)",
+  "importSuccessful": "တင်သွင်းအောင်မြင်ခဲ့သည်",
+  "importTabErrorMessageFileWithExtensionNotSelected": "Import နှင့်ဆက်လက်လုပ်ဆောင်ရန် Phtoken0 ဖိုင်လိုအပ်သည်။",
+  "importTheObject": "သွင်းကုန်အရာဝတ်ထု",
+  "importWhichCounterForCsv": "ဘယ်ကောင်တာကိုသုံးသင့်သလဲ",
+  "imprintTitle": "နှိပ်ရာ",
+  "initialReading": "ကန ဦး စာဖတ်ခြင်း",
+  "involvedCounters": "ပါဝင်ပတ်သက်ကောင်တာ",
+  "isLastEntryAtFilteredList": "ရှေးအကျဆုံးတန်ဖိုးကို filtered list ထဲမှာ",
+  "isOutdatedCounter": "ကောင်တာမရှိတော့ဘူး",
+  "last12Months": "ပြီးခဲ့သည့် 12 လ",
+  "last12Weeks": "ပြီးခဲ့သည့် 12 ပတ်",
+  "last2Weeks": "နောက်ဆုံး 14 ရက်",
+  "lastReading": "နောက်ဆုံးစာဖတ်ခြင်း",
+  "lastYear": "ပြီးခဲ့သည့်နှစ်က",
+  "lineChartAppearanceSettings": "Line Charts အသွင်အပြင်",
+  "lineChartAppearanceSettingsShowSpots": "ဇယား၏လိုင်းများပေါ်တွင် (မြို့ပတ်ရထား) အစက်အပြောက်",
+  "localWriteSubtitle": "အရာဝတ်ထုများနှင့်ဓာတ်ပုံများသည်အပြောင်းအလဲတစ်ခုစီ၏ \"Phtoken0\" ဖိုင်တွဲတွင်သိမ်းဆည်းထားသင့်ပါသလား။",
+  "localWriteTitle": "local download folder ထဲမှာသိမ်းဆည်းပါ",
+  "manageMoreThanOneObjectStep1": "အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 1",
+  "manageMoreThanOneObjectStep2": "အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 2",
+  "marketLocationId": "စျေးကွက်တည်နေရာ ID",
+  "marketLocationIdDescription": "စျေးကွက်တည်နေရာ ID သည်ဂဏန်း 11 လုံးပါဝင်သည်။ သင်သည်သင်၏နောက်ဆုံးပေါ်လျှပ်စစ်သို့မဟုတ်သဘာဝဓာတ်ငွေ့ငွေတောင်းခံလွှာတွင်ဤအရာကိုတွေ့နိုင်သည်။",
+  "messageNoConsumptions": "အလုံအလောက်ဖတ်ရှုနိုင်လျှင်အမျိုးအစားတစ်ခုလုံး၏အရိုးအမျိုးမျိုးအတွက်စာရင်းဇယားများကိုဤနေရာတွင်ဖော်ပြထားသည်။ ဥပမာအားဖြင့်, ရေအေးမီတာ, ရေပူမီတာနှစ်လုံးနှင့်ရေထုတ်ယူခြင်းမီတာကိုရေစာရင်းဇယားတွင်ဖော်ပြထားသည်။",
+  "messageNoContracts": "စာချုပ်များမရှိသေးပါ။",
+  "messageNoCounterReadings": "သငျသညျသေးနားပြီစာဖတ်ခြင်းထဲသို့မဝင်ရသေး။",
+  "messageNoCounters": "မင်းကကောင်တာကိုမဖန်တီးသေးဘူး",
+  "messageNoRooms": "အခန်းများမရှိသေးပါ။ အခန်းများသည်အုပ်စုမီတာကိုကူညီပါ။",
+  "messageNotEnoughData": "ဇယားကိုပြရန်လုံလောက်သောအချက်အလက်များမရှိပါ",
+  "meterCardLastUpdatedLabel": "အသစ်ပြောင်းခြင်း",
+  "meterId": "ကောင်တာ ID",
+  "meterReadingSubmitted": "ပံ့ပိုးသူမှကူးစက်",
   "meterReadingsFilterAll": "အားလုံးကိုပြပါ",
   "meterReadingsFilterComments": "မှတ်ချက်များနှင့်သာ entries တွေကိုပြပါ",
   "meterReadingsFilterSubmitted": "\"Phtoken0\" ကိုသာပြပါ",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "isLastEntryAtFilteredList": "ရှေးအကျဆုံးတန်ဖိုးကို filtered list ထဲမှာ",
-  "initialReading": "ကန ဦး စာဖတ်ခြင်း",
-  "warningReadingBiggerThanOldValue": "တန်ဖိုးအသစ်သည် ယခင်မီတာစာဖတ်ခြင်းထက်ပိုမိုမြင့်မားသည်။{isOilCounter, select, true { ထရက်ကို ပြန်ဖြည့်ပြီးပြီလား?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedForYearlyResetCounter": "Phtoken.1is ပျောက်ဆုံးနေသောနှစ် Phtoken0 အတွက်နောက်ဆုံးမီတာစာဖတ်ခြင်း။ ဤသည်စုစုပေါင်းနှစ်စဉ်စားသုံးမှု၏မှန်ကန်သောတွက်ချက်မှုများအတွက်လိုအပ်သောဖြစ်ပါတယ်။",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "lastYear": {
-        "type": "String"
-      },
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "Phtoken1is အတွက်နောက်ဆုံးနေ့မီတာဖတ်ခြင်း Phtensen1is ခေတ်နောက်ကျ",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "valueLess": "phtoken0 လျော့နည်း",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "valueMore": "ပိုပြီး Phtoken0",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonNotEnoughData": "Phtoken0 (Phtoken1) အတွက်မလုံလောက်သေးသောအချက်အလက်များမလုံလောက်သေးပါ။",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      },
-      "countryCode": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonEqual": "သငျသညျ Phtoked0 မှာပျမ်းမျှအဖြစ်ပေးဆောင်။",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "myObjects": "ငါ့အရာဝတ်ထု",
+  "net": "ပိုက်",
+  "networkCounter": "အင်တာနက်နှင့်ဖုန်း",
+  "newCounter": "အသစ်တစ်ခုကောင်တာဖန်တီးပါ",
+  "newPhoto": "ဓာတ်ပုံအသစ်တစ်ခုယူပါ",
+  "newPhotoOfMeterReading": "မီတာစာဖတ်ခြင်းကိုဓာတ်ပုံရိုက်ချင်ပါသလား။",
+  "newReading": "လက်ရှိစာဖတ်ခြင်းကိုရိုက်ထည့်ပါ",
+  "newReadingShort": "စာဖတ်ခြင်းအသစ်",
+  "notifications": "အသိပေးချက်များ",
+  "notificationsEmpty": "အသိပေးချက်မရှိပါ",
+  "notificationsSmartMeterAlertFallback": "သင့်တွင်စမတ်မီတာအသစ်တစ်ခုရှိသည်။",
+  "numCounters": "{count, plural, =0 {Phtoken0 ကောင်တာ} one {Phtoken0 ကောင်တာ} other {Phtoken0 ကောင်တာ}}",
+  "numMeterReadings": "{readings, plural, one {# စာဖတ်ခြင်း} other {# ဖတ်ခြင်း}}",
+  "numberOfDetails": "{count, plural, one {1 အသေးစိတ်} other {Phtoken0 အသေးစိတ်}}",
+  "ofRangeFrom": "Phtoked0 မှ",
+  "ofRangeLastDays": "နောက်ဆုံး Phtoken0 ရက်ပေါင်း၏",
+  "ofRangeLastMonths": "နောက်ဆုံး Phtoken0 လများအတွက်",
+  "oil": "ဆီ",
+  "outdated": "ခေတ်မလိုက်သော",
+  "outdatedContracts": "ခေတ်မမီတော့သောစာချုပ်များ",
+  "outdatedCounters": "အသုံးပြုမှုမရှိတော့ကောင်စီများ",
+  "paidAdvancePayments": "ကြိုတင်ငွေပေးချေမှု",
+  "parsingObjectError": "အရာဝတ်ထုခွဲခြမ်းစိတ်ဖြာမရနိုင်ပါ။ developer ကိုဆက်သွယ်ပါ။ အက်ပလီကေးရှင်းကို uninstall လုပ်တဲ့အခါဒေတာပျောက်သွားလိမ့်မယ်။",
+  "per": "ဖြင့်",
+  "perUnit": "Phtook0 နှုန်း",
+  "period": "ကာလ",
+  "periodBimonthly": "နှစ်လစာ",
+  "periodBiweekly": "နှစ်ပတ်အပတ်စဉ်",
+  "periodCustom": "အသုံးပြုသူသတ်မှတ်ထားသည်",
+  "periodDaily": "နေ့စဉ်",
+  "periodHalfYearly": "နှစ်ဝက်",
+  "periodHourly": "နာရီတိုင်း",
+  "periodMonthly": "လစဉ်",
+  "periodQuarterly": "လပတ်",
+  "periodWeekly": "ရက်သတ္တပတ်တကြိမ်ဖြစ်သော",
+  "periodYearly": "နှစ်နှစ်",
+  "previouslyDeletedCounters": "မကြာသေးမီကဖျက်ပစ်မီတာဖျက်ခဲ့ကြသည်",
   "priceComparisonDiff": "သင်သည် {countryName} ၏ ပျှမ်းမျှနှုန်းထက် {diffWithCurrency} {comparison, select, more {ပို ပေးချေသည်} less {နည်း ပေးချေသည်} other {ပို ပေးချေသည်}} ပေးဆောင်နေသည်။",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "diffWithCurrency": {
-        "type": "String"
-      },
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "priceComparisonEqual": "သငျသညျ Phtoked0 မှာပျမ်းမျှအဖြစ်ပေးဆောင်။",
+  "priceComparisonNotEnoughData": "Phtoken0 (Phtoken1) အတွက်မလုံလောက်သေးသောအချက်အလက်များမလုံလောက်သေးပါ။",
+  "pricePerUnit": "တစ်ယူနစ်",
+  "pricePerUnitFeedIn": "လစာစျေးနှုန်း",
+  "pricePerUnitFreshWater": "ရေချိုအတွက်ကုန်ကျစရိတ်",
+  "pricePerUnitWasteWater": "စွန့်ပစ်ရေစျေးနှုန်း",
+  "pricePerUnitWaterCold": "ရေအေး၏ကုန်ကျစရိတ်",
+  "pricePerUnitWaterWarm": "ရေပူအပူကုန်ကျစရိတ်",
+  "priceSubmissionAgreement": "EHW + ဆာဗာတစ်ခုစီအတွက်လျှပ်စစ်ဓာတ်အား / ဓာတ်ငွေ့ / ရေစျေးနှုန်းများထုတ်လွှင့်ခြင်းများကိုကျွန်ုပ်သဘောတူသည်",
+  "privacyBlock1Text": "application ၏ developer / provider (\"app ဟုရည်ညွှန်းထားသော\" app \"ဟုရည်ညွှန်းသည်) ဂျာမန် Telemedia အက်ဥပဒေပုဒ်မ 5 ပုဒ်မ 5 နှင့်အညီဖြစ်သည်။\n\nPhtoken0",
+  "privacyBlock1Text2": "app ကိုအသုံးပြုခြင်းသည်အောက်ပါအသုံးပြုမှုဆိုင်ရာသတ်မှတ်ချက်များကိုသင်သဘောတူရန်လိုအပ်သည်။ ကျေးဇူးပြု. သူတို့ကိုဂရုတစိုက်ဖတ်ပါ။",
+  "privacyBlock1Title": "ဖွံ့ဖြိုးရေး",
+  "privacyBlock2Text": "သင်၏အချက်အလက်များကိုကာကွယ်ခြင်းသည်ကျွန်ုပ်တို့အတွက်အလွန်အရေးကြီးသည်။ ဤသီးသန့်တည်ရှိမှုမူဝါဒမူဝါဒသည်မည်သည့်ကိုယ်ရေးကိုယ်တာအချက်အလက် EHW + စုဆောင်းခြင်းနှင့်၎င်းကိုမည်သို့အသုံးပြုသည်ကိုရှင်းပြသည်။ သီးသန့်တည်ရှိမှုမူဝါဒအတွက်အခြေခံကျသောအပြောင်းအလဲများမှာရှားပါးသော်လည်းအင်္ဂါရပ်များ, နည်းပညာများ, ဒါကြောင့် ကျေးဇူးပြု. အချိန်နှင့်အမျှဤစာမျက်နှာကိုအချိန်မီဆက်နေရန်အချိန်မီစစ်ဆေးပါ။ အကယ်. ကျွန်ုပ်တို့သည်သိသာထင်ရှားသောပြောင်းလဲမှုများကိုပြုလုပ်ပါကကျွန်ုပ်တို့သည်သင့်အားအကြောင်းကြားပြီးလိုအပ်ပါကသင်၏ခွင့်ပြုချက်ကိုရယူပါ။",
+  "privacyBlock2Title": "ဗိုလ်ချုပ်ကြီး",
+  "privacyBlock3Title": "Phtoked0 သည်မည်သည့်အချက်အလက်များကိုစုဆောင်းသနည်း။",
+  "privacyBlock3aText": "ကျွန်ုပ်တို့သည်သင်၏မီတာဖတ်ခြင်းများကိုလျင်မြန်စွာဖြည့်ဆည်းပေးနိုင်ရန်အတွက် Phtoken0 ကိုဖန်တီးခဲ့ပြီးသင်၏စားသုံးမှုနှင့်ကုန်ကျစရိတ်များနှင့်အလားအလာရှိသောငွေစုများအကြောင်းပိုမိုသိရှိရန်စာရင်းဇယားများကိုအသုံးပြုသည်။ ဆိုလိုသည်မှာသင်သည် Phtoked1 တွင်ယေဘူယျအားဖြင့် \"အကြောင်းအရာ 'ဟုရည်ညွှန်းသည့်မည်သည့်ဒေတာများကိုမဆိုတွက်ချက်, တွက်ချက်ခြင်းသို့မဟုတ်သိမ်းနိုင်သည်။ ဤအချက်အလက်များကိုသင်၏မိုဘိုင်းဖုန်းတွင်သာသိမ်းထားသည်။\n\nGoogle Drive ဖြင့်စည်းညှိပါ။\nအကယ်. သင်သည် Google Drive ဖြင့်ထပ်တူပြုခြင်းကိုပြုလုပ်နိုင်ပါကသင်၏ဂူဂဲလ် Drive တွင် 'Phtoken Drive ရှိ Phtoken Drive တွင်' Phtoken Drive ဟုခေါ်သောဖိုလ်ဒါတစ်ခုတွင်ပါ 0 င်သည်။ ဂူဂဲလ်နှင့်အတူဝင်ရောက်ခြင်းအားဖြင့်သင်၏အီးမေးလ်လိပ်စာကို developer ကိုမြင်နိုင်လိမ့်မည်။",
+  "privacyBlock3bText": "{googleApiAgreement}\n\nတည်နေရာဒေတာ။\nသုံးစွဲသူ၏ အပြုအမူနှင့် အနာဂတ်အင်္ဂါရပ်များအတွက် နားလည်နိုင်ရန် အက်ပ်သည် အမည်မသိအသုံးပြုမှုဒေတာကို ပေးပို့ပါသည်။\nဒေတာကို ပြင်ပအဖွဲ့အစည်းများနှင့် မျှဝေမထားပါ။\nမူရင်း (နိုင်ငံနှင့်မြို့)၊ ဘာသာစကား၊ လည်ပတ်မှုစနစ်၊ စက်အမျိုးအစား၊ ကြည်လင်ပြတ်သားမှု၊ နှိပ်သည့်အပြုအမူနှင့် အသုံးပြုမှုကြာချိန်တို့အကြောင်း အချက်အလက်များကို စုဆောင်းနိုင်ပါသည်။\n\nစက်ပစ္စည်းဒေတာ။\nဝန်ဆောင်မှုသို့ ချိတ်ဆက်ရန် သင်အသုံးပြုသည့် စက်အရေအတွက်နှင့် အမျိုးအစားနှင့် ပတ်သက်သည့် ဒေတာအပြင် အဆိုပါ စက်များတွင် လည်ပတ်မှုစနစ်အကြောင်း အချက်အလက် (ဥပမာ Android၊ iOS၊ Windows သို့မဟုတ် macOS) တို့ကို စုဆောင်းပါသည်။\n\nအက်ပ်ကိုအသုံးပြုခြင်းဖြင့်၊ သင်သည် အထက်တွင်ဖော်ပြထားသည့်အတိုင်း အမည်မဖော်လိုသည့် ဒေတာစုဆောင်းခြင်းကို သင်သဘောတူပါသည်။",
+  "privacyBlock4DataUsage": "Collected Anonymed Data ကိုအသုံးပြုသူအပြုအမူကိုအကဲဖြတ်ရန်အသုံးပြုသည်။ ဤအပြင်အခြားအချက်အလက်များကိုထပ်မံအသုံးချခြင်းမရှိပါ။\n\nPhtoken0",
+  "privacyBlock4DataUsageTitle": "Phtoken0 သည်ကျွန်ုပ်၏အချက်အလက်များကိုမည်သို့အသုံးပြုသနည်း။",
+  "privacyBlock5": "ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုသိုလှောင်ခြင်းကာလကိုသက်ဆိုင်ရာစာရင်းဇယားထိန်းသိမ်းရေးကာလ (ဥပမာစီးပွားဖြစ်နှင့်အခွန်ဥပဒေထိန်းသိမ်းရေးကာလ) ကဆုံးဖြတ်သည်။ အချိန်ကာလကုန်ဆုံးပြီးနောက်, စာနယ်ဇင်းများပြည့်စုံခြင်းနှင့် / သို့မဟုတ်ကျွန်ုပ်တို့ဆက်လက်သိုလှောင်မှုအတွက်တရားဝင်အကျိုးစီးပွားအတွက်တရားဝင်အကျိုးစီးပွားအတွက်မလိုအပ်တော့ကြောင်းသက်ဆိုင်ရာအချက်အလက်များကိုပုံမှန်ဖျက်ပစ်ခြင်းကိုပုံမှန်ဖျက်ပစ်သည်။",
+  "privacyBlock5Title": "ကိုယ်ရေးကိုယ်တာအချက်အလက်များ၏သိုလှောင်မှုကြာချိန်",
+  "privacyBlock6": "သင်ကျွန်ုပ်တို့နှင့်ဆက်သွယ်ရန် (e.g. ဆက်သွယ်ရန်ပုံစံသို့မဟုတ်အီးမေးလ်) ကိုဆက်သွယ်ပါကကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုကောက်ယူသည်။ အဆက်အသွယ်ပုံစံတွင်စုဆောင်းထားသောအချက်အလက်များကိုသက်ဆိုင်ရာအဆက်အသွယ်ပုံစံတွင်တွေ့နိုင်သည်။ ဤအချက်အလက်များကိုသင်၏စုံစမ်းရေးကော်မရှင်အားတုန့်ပြန်ရန်သို့မဟုတ်အဆက်အသွယ်နှင့်ဆက်စပ်နည်းပညာအုပ်ချုပ်မှုအတွက်တည်ဆောက်ရန်အတွက်သီးသန့်သိမ်းဆည်းထားပြီးအသုံးပြုသည်။ အချက်အလက်များ၏အပြောင်းအလဲအတွက်ဥပဒေရေးရာအခြေခံသည်သင်၏တောင်းဆိုမှုကိုအနုပညာနှင့်အညီတုံ့ပြန်ခြင်းသည်ကျွန်ုပ်တို့၏တရားဝင်အကျိုးစီးပွားဖြစ်သည်။ 6 para ။ 1 lit. gdpr ။ အကယ်. သင်၏အဆက်အသွယ်သည်စာချုပ်ကိုနိဂုံးချုပ်ရန်ရည်ရွယ်ထားပါကအပြောင်းအလဲအတွက်အပိုဆောင်းအခြေခံဖြစ်သည်။ 6 para ။ 1 lit. Gdpr ။ သင်၏စုံစမ်းရေးကော်မရှင်ကိုပြုပြင်ပြီးတဲ့နောက်သင့်ရဲ့ဒေတာကိုပယ်ဖျက်လိုက်ပြီးဒီကိစ္စနဲ့ပတ်သက်ပြီးဒီကိစ္စနဲ့ပတ်သက်ပြီးအဲ့ဒီအခြေအနေကိုရှင်းရှင်းလင်းလင်းဖော်ပြထားရင်အချက်အလက်တွေကိုဆက်လက်ထိန်းသိမ်းထားဖို့ဥပဒေရေးရာတာဝန်ဝတ္တရားတွေမရှိဘူးလို့ဆိုရင်ဒီလိုဖြစ်မှာပါ။",
+  "privacyBlock6Title": "တေှ့ဆုံခြင်း",
+  "privacyBlock7": "သက်ဆိုင်သောဒေတာကာကွယ်မှုဥပဒေအရအချက်အလက်များ (သတင်းအချက်အလက်နှင့် 0 င်ရောက်စွက်ဖက်မှု၏အခွင့်အရေးများ) နှင့်သက်ဆိုင်သောအချက်အလက်များ (သတင်းအချက်အလက်နှင့် 0 င်ရောက်စွက်ဖက်မှု၏အခွင့်အရေးများ) နှင့်သက်ဆိုင်သည်။\n\n- အနုပညာနှင့်အညီသတင်းအချက်အလက်များ။ 15 GDPR: အထူးသဖြင့်သင့်ရဲ့အချက်အလက်များ, ကိုယ်ရေးကိုယ်တာအချက်အလက်များဖြစ်သောကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုပြုပြင်ခြင်း, ဖျက်ခြင်း, ပြင်ဆင်ခြင်း, ပြင်ဆင်ခြင်း, ပြင်ဆင်ခြင်းကိုတားမြစ်ထားခြင်း, ပြင်ဆင်ခြင်း, သင့်ထံမှကျွန်ုပ်တို့ထံမှကျွန်ုပ်တို့ထံမှစုဆောင်းခြင်းမဟုတ်လျှင်အလိုအလျောက်ဆုံးဖြတ်ချက်ချခြင်းအပါအ 0 င်အလိုအလျောက်ဆုံးဖြတ်ချက်ချခြင်းများတည်ရှိခြင်း, သင်၏အချက်အလက်များကိုတတိယနိုင်ငံများသို့လွှဲပြောင်းသောအခါ GDPR 46 GDPR,\n\n- အနုပညာနှင့်အညီ rectification အခွင့်အရေး။ 16 GDPR: သင်ကနှောင့်နှေးခြင်းမရှိဘဲပြင်ဆင်ခြင်းနှင့် / သို့မဟုတ်ယူအက်စ်မှမပြည့်စုံသောအချက်အလက်များမပြည့်စုံသောအချက်အလက်များကိုပြင်ဆင်ခြင်းနှင့် / သို့မဟုတ်မပြည့်စုံသောတိကျသောအချက်အလက်များရှိသည်။\n\n- အနုပညာနှင့်အညီဖျက်ရန်အခွင့်အရေး။ 17 GDPR: အနုပညာအခြေအနေများရှိပါကသင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုဖျက်ပစ်ရန်သင်တောင်းဆိုပိုင်ခွင့်ရှိသည်။ 17 (1) Gdpr ကိုတွေ့သည်။ သို့သော်ဤအခွင့်အရေးသည်လွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်နှင့်သတင်းအချက်အလက်များကိုလွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်နှင့်သတင်းအချက်အလက်များကိုကျင့်သုံးခြင်းအတွက်တရား 0 င်အကျိုးစီးပွားအတွက်ဖြစ်စေ,\n\n- အနုပညာနှင့်အညီအပြောင်းအလဲနဲ့၏ကန့်သတ်ပိုင်ခွင့်။ 18 GDPR: သင်၏အချက်အလက်များ၏တိကျမှန်ကန်မှုကိုသင်လိုအပ်ပါကသင်၏အချက်အလက်များ၏အချက်အလက်များအားဖျက်ရန်အတွက်သင်၏အချက်အလက်များမလိုအပ်ပါကသင်၏အချက်အလက်များအတွက်လိုအပ်ချက်များကိုဖြည့်ဆည်းရန်လိုအပ်ပါကသင်၏အချက်အလက်များအားပြန်လည်ပြုပြင်ခြင်းကိုတားဆီးရန်တောင်းဆိုခြင်းကိုတောင်းခံပါကသင်၏အချက်အလက်များကိုပြန်လည်ပြုပြင်ခြင်းကိုတောင်းဆိုပါကသင်၏အချက်အလက်များကိုပြန်လည်ပြုပြင်ခြင်းကိုတောင်းဆိုပါက, ကျွန်ုပ်တို့၏တရားဝင်အကြောင်းပြချက်များနှင့်သက်ဆိုင်သည့်အခြေစိုက်စခန်းများသည်ကျွန်ုပ်တို့၏တရားဝင်အကြောင်းပြချက်များလွှမ်းမိုးမှုရှိ, မရှိ. မရှင်းလင်းသေးသရွေ့,\n\n- အနုပညာနှင့်အညီအကြောင်းကြားရန်အခွင့်အရေး။ 19 GDPR: အကယ်. သင်သည်သင်၏ rectification ကို rectifyure ကိုဖျက်ပစ်လိုက်လျှင်, ဤလက်ခံသူများနှင့် ပတ်သက်. သင့်အားအသိပေးပိုင်ခွင့်ရှိသည်။\n\n- အနုပညာနှင့်အညီဒေတာသယ်ဆောင်နိုင်ခြင်း။ 20 GDPR: သင်ကျွန်ုပ်တို့အားစနစ်တကျ အသုံးပြု. စက်ဖတ်နိုင်သောပုံစံဖြင့်သင်ပေးထားသောသင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုလက်ခံရရှိရန်သို့မဟုတ်နည်းပညာပိုင်းအရဖြစ်နိုင်သည့်အခြား controller သို့လွှဲပြောင်းပေးရန်တောင်းဆိုခြင်းကိုသင်ရရှိပိုင်ခွင့်ရှိသည်။\n\n- အနုပညာနှင့်အညီခွင့်ပြုထားသောခွင့်ပြုချက်ကိုထုတ်ယူပိုင်ခွင့်ရှိသည်။ 7 (3) GDPR: သင်အနာဂတ်အတွက်အကျိုးသက်ရောက်မှုနှင့်အတူအချိန်မရွေးဒေတာ၏ပြုပြင်ခြင်းအတွက်သင်၏ခွင့်ပြုချက်ကိုပြန်လည်ထုတ်ယူပိုင်ခွင့်ရှိသည်။ ဆုတ်ခွာရမည့်အချိန်တွင်ကျွန်ုပ်တို့သည်နောက်ထပ်ပြုပြင်ခြင်းသည်ခွင့်ပြုချက်မရှိဘဲအပြောင်းအလဲအတွက်တရားဝင်အခြေခံကို အခြေခံ. အရေးယူခြင်းအပေါ် အခြေခံ. မလုပ်ဆောင်နိုင်ပါက, သဘောတူခွင့်ပြုချက်ထုတ်ယူခြင်းသည်ခွင့်ပြုချက်မ 0 င်မီသဘောတူညီချက်အပေါ် အခြေခံ. အပြောင်းအလဲကိုအခြေခံသည်ကိုမထိခိုက်ပါ။\n\n- အနုပညာနှင့်အညီတိုင်ကြားချက်ကိုတည်းခိုရန်အခွင့်အရေး။ 77 GDPR: သင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုပြန်လည်ပြုပြင်ခြင်းသည် GDPR ကိုချိုးဖောက်သည်ဟုသင်ယုံကြည်ပါကသင့်အားသင်၏နေထိုင်ရာနေရာ,",
+  "privacyBlock7Title": "သက်ဆိုင်ရာပုဂ္ဂိုလ်၏အခွင့်အရေး",
+  "privacyBlock8": "အကယ်. ကျွန်ုပ်တို့၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုကျွန်ုပ်တို့၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုကျွန်ုပ်တို့ထပ်ခါတလဲလဲပြုစုပျိုးထောင်ခြင်း၏အခြေခံအနေဖြင့်လုပ်ဆောင်ပါကသင်၏အခြေအနေများမှပေါ်ပေါက်လာသောအကြောင်းပြချက်များကြောင့်အနာဂတ်အတွက်အကျိုးသက်ရောက်သောအကြောင်းပြချက်များကြောင့်ဤပြုပြင်ခြင်းကိုမည်သည့်အချိန်တွင်မဆိုလုပ်ဆောင်ရန်သင့်တွင်ဤပြုပြင်ခြင်းကိုကန့်ကွက်ပိုင်ခွင့်ရှိသည်။ အကယ်. သင်သည်သင်၏အခွင့်အရေးကိုအရာဝတ်ထုပိုင်ခွင့်ကိုလေ့ကျင့်ပါကကျွန်ုပ်တို့နှင့်သက်ဆိုင်သောအချက်အလက်များကိုဆက်လက်လုပ်ဆောင်တော့မည်ဖြစ်သည်။ သို့သော်သင်၏အကျိုးစီးပွားများ, အခြေခံအခွင့်အရေးများနှင့်လွတ်လပ်ခွင့်များကိုကျော်လွှားနိုင်သည့်အပြောင်းအလဲများအတွက်တရားဝင်ခိုင်ခိုင်မာမာခိုင်ခိုင်မာမာတင်ပြနိုင်လျှင်ဆက်လက်လုပ်ဆောင်နေပါကထပ်မံပြုပြင်ခြင်းသည်ဆက်လက်ထိန်းသိမ်းထားဆဲဖြစ်သည်။\n\nသင်၏ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုတိုက်ရိုက်စျေးကွက်ရှာဖွေရေးအတွက်ရည်ရွယ်ထားပါကထိုကဲ့သို့သောကြော်ငြာများအတွက်သင့်အကြောင်းသင့်အကြောင်းသင့်အကြောင်းကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုလုပ်ဆောင်ရန်အချိန်မရွေးအရာဝတ်ထုရှိသည်။ အထက်တွင်ဖော်ပြထားသည့်အတိုင်းသင်၏အရာဝတ်ထုကိုသင့်အခွင့်အရေးကိုလေ့ကျင့်နိုင်သည်။\n\nအကယ်. သင်၏အရာဝတ်ထုကိုသင့်အခွင့်အရေးကိုကျင့်သုံးပါကစျေးကွက်ရှာဖွေရေးရည်ရွယ်ချက်များအတွက်သင့်အကြောင်းအချက်အလက်များကိုကျွန်ုပ်တို့ဆက်လက်လုပ်ဆောင်သွားမည်ဖြစ်သည်။",
+  "privacyBlock8Title": "ကန့်ကွက်၏ညာဘက်",
+  "privacyContractPriceSubmission": "အသုံးပြုသူတစ် ဦး အနေဖြင့်သင်၏ကန်ထရိုက်စာချုပ်ကိုထိန်းသိမ်းထားပါ, လျှပ်စစ်ဓာတ်အားအတွက်ယူနစ်တစ်ခုစီအတွက်ဈေးနှုန်းသည်ဂျာမနီရှိ EHW + ဆာဗာတစ်ခုသို့ 0 င်ရောက်နိုင်သည်။ ဤအချက်အလက်သည်စျေးနှုန်းစာရင်းအင်းများကိုတွက်ချက်ရန်အသုံးပြုသည်။ အက်ပလီကေးရှင်းများအနေဖြင့်ကိန်းဂဏန်းများကိုကန်ထရိုက်မြင်ကွင်းတွင်စျေးနှုန်းနှိုင်းယှဉ်ခြင်းပုံစံဖြင့်မြင်နိုင်သည်။\n\nအက်ပလီကေးရှင်းကိုအသုံးပြုခြင်းအားဖြင့်သင်သည်အထက်ဖော်ပြပါအမည်မသိဒေတာစုဆောင်းခြင်းကိုသင်သဘောတူသည်။",
+  "privacyTitle": "ကိုယ်ရေးအချက်အလက်မူဝါဒ",
+  "purchasesBuyNow": "အခုဝယ်ပါ",
+  "purchasesDisabledOnIOS": "In-app ဝယ်ယူမှုပိတ်ထားသည်",
+  "purchasesDisabledOnIOSDescription": "ကျေးဇူးပြု. သင်၏ iPhone တွင် In-app ဝယ်ယူမှုကိုပိတ်ထားခြင်းရှိမရှိစစ်ဆေးပါ။",
+  "purchasesDisabledOnIOSDescriptionTestflight": "အဆိုပါ app ကို testflight မှတစ်ဆင့် install လုပ်ထားခဲ့သည်။ ကျေးဇူးပြု. app store မှတစ်ဆင့် app ကို install လုပ်ပါက 0 ယ်ယူမှုသည်အက်ပလီကေးရှင်းတွင်သာအလုပ်လုပ်သည်ကိုသတိပြုပါ။",
+  "purchasesEarlyBirdSubscription": "မှတ်စု: အကယ်. ဤပထမအကြိမ်ဖောက်သည် 0 ယ်ယူမှုကိုဖျက်သိမ်းလျှင်၎င်းကိုနောက်မှထပ်မံစာရင်းသွင်း။ မရပါ။",
+  "purchasesExtensionMultipleObjectsDescription": "မီတာဖတ်ခြင်း / အိမ်များ / အရာဝတ်ထုများကိုသင်ကြိုက်နှစ်သက်သည့်အခန်းများ / အရာဝတ်ထုများ (အရာဝတ်ထုတစ်ခုအတွက်သာ) သင်ကြိုက်နှစ်သက်သည့်တိုက်ခန်းများ,",
+  "purchasesExtensionMultipleObjectsTitlePart": "မျိုးစုံအရာဝတ်ထုများကိုစီမံခြင်း",
+  "purchasesExtensionStatisticsDescription": "လစဉ် / အပတ်စဉ်လျှပ်စစ် / ဓာတ်ငွေ့ / ရေ / ... + ကာလချိန်ညှိချက်များ + အသေးစိတ်ကုန်ကျစရိတ် + အသေးစိတ်ကုန်ကျစရိတ် + Excel တင်ပို့မှု",
+  "purchasesExtensionStatisticsTitle": "အဆင့်မြင့်စာရင်းအင်းများ",
+  "purchasesExtensionsInWork": "နောက်ထပ် extension များစီစဉ်ထားသည်။ သင့်ရဲ့ပြောဆိုရန် feature ကိုစစ်တမ်း၌ပါ 0 င်ပါ။",
+  "purchasesExtensionsSubtitle": "တစ်ကြိမ်ဝယ်ပါ, အမြဲတမ်းသုံးပါ (စာရင်းသွင်းခြင်းမရှိပါ)",
+  "purchasesExtensionsTitle": "တစ်ခုတည်း extensions များ",
+  "purchasesIOSRestorePurchases": "ဝယ်ယူမှုကို restore",
+  "purchasesIOSRestorePurchasesDescription": "အကယ်. သင်သည်ယခင်က AppStore တွင်တစ်ခုခုကို 0 ယ်ထားပြီးဖြစ်ပါက 0 ယ်ယူမှုကိုပြန်လည်ရယူနိုင်သည်။",
+  "purchasesPurchased": "ဝယ်ယူခဲ့သည်",
+  "purchasesPurchasedIncludedInPremium": "ပရီမီယံ၌ပါဝင်သည်",
+  "purchasesPurchasedSubscribed": "စာရင်းသွင်း",
+  "purchasesRedeemCode": "redeem ကုဒ်",
+  "purchasesStatisticsWithPremium": "ပရီမီယံဖြင့်သင်သည်လစဉ်နှိုင်းယှဉ်ခြင်းနှင့်နှိုင်းယှဉ်ခြင်း, အများကိန်း,",
+  "purchasesSubscribeNow": "ယခုမှာယူပါ",
+  "purchasesSubscribePremium": "ပရိုချုပ်ကြီး Subsiribe",
+  "purchasesSubscribePremiumMonthly": "တစ်လလျှင် Phtoked0 အတွက်လစဉ်ဖျက်သိမ်းခြင်း",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Phtoken1 အစား Phtoken0 ၏သစ္စာရှိရှိစျေးနှုန်းဖြင့်လစဉ်လစဉ်ဖျက်သိမ်းခြင်း",
+  "purchasesSubscribePremiumTextLong": "0 န်ဆောင်မှုပေးသည့်ကာလအတွင်း 0 န်ဆောင်မှုပေးသည့်ကာလအတွင်းပေးထားသော features များအားလုံးကို 0 င်ရောက်နိုင်ခြင်း",
+  "purchasesSubscribePremiumYearly": "တစ်နှစ်လျှင် Phtoked0 အတွက်သာ Phtoked0 အတွက်နှစ်စဉ်ဖျက်သိမ်းခံရခြင်း",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Phtoked1 အစား Phtoked0 ၏သစ္စာရှိမှုစျေးနှုန်းဖြင့်နှစ်စဉ်လွဲမှားသော Subscription",
+  "purchasesUpgrade": "အဆင့်မြှင့်တင်",
+  "purchasesWebLegalNote": "ဥပဒေရေးရာအကြောင်းပြချက်များအတွက်, iPhone သို့မဟုတ် Android ဖုန်းသည် PlayStore 0 န်ဆောင်မှုများဖြင့် 0 ယ်ယူမှုတစ်ခုသာဖြစ်နိုင်သည်။",
+  "purchasesWhyBuyText": "0 ယ်ယူမှုတစ်ခုဖြင့်ကျွန်ုပ်သည်ကုန်ကျစရိတ်များ၌အက်ပလီကေးရှင်းကိုပုံနှိပ်ထုတ်လွှင့်ခြင်းနှင့်နောက်ထပ်ဖွံ့ဖြိုးတိုးတက်မှုကိုအထောက်အကူပြုခြင်းဖြင့်ပါ 0 င်သည်။",
+  "purchasesWhyBuyTitle": "ငါဘာကြောင့်တစ်ခုခုဝယ်သင့်သလဲ",
+  "purchasesYourPurchases": "သင်သည်အောက်ပါပရီမီယံ package များကိုဝင်ရောက်ခွင့်ရှိသည်။",
+  "reading": "ကောင်တာစာဖတ်ခြင်း",
+  "readingDeleteConfirm": "စာဖတ်ခြင်းကိုဖျက်ပစ်?",
+  "readingNew": "စာဖတ်ခြင်းအသစ်",
+  "readingPrefill": "အလိုအလျောက်မီတာဖတ်ခြင်း",
+  "readingPrefillDescription": "ယခင် entries တွေကိုအပေါ်အခြေခံပြီးမီတာကြိုတင်မဲမျက်နှာစာ",
+  "readingPrefillDisableForAllCounters": "အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ",
+  "readingPrefillDisabled": "အလိုအလျောက်ပိတ်ထားသည်",
+  "readingPrefillDisabledToast": "အလိုအလျောက်ပိတ်ထားသည်",
+  "readingPrefillEnableForAllCounters": "အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ",
+  "readingReminder": "{count, plural, one {စာဖတ်ခြင်းသတိပေးခြင်း} other {စာဖတ်ခြင်းသတိပေးချက်များ}}",
+  "readingReminderDisabled": "စာဖတ်ခြင်းသတိပေးခြင်းမလှုပ်ရှားပါ",
+  "readingReminderMultiBody": "{count, plural, one {ယခု Phtoken0 မီတာမှဖတ်ပါ} other {ယခု Phtoken0 မီတာမှဖတ်ပါ}}",
+  "readingReminderSingleBody": "ယခု Phtoked0 တန်ဖိုးကိုဖတ်ပါ",
+  "readingReminders": "စာဖတ်ခြင်းသတိပေးချက်များ",
+  "readingRemindersChannel": "စာဖတ်ခြင်းသတိပေးချက်များ",
+  "readingSubmitted": "တင်သွင်းမီတာစာဖတ်",
+  "readingTime": "အချိန်ဖတ်ခြင်း",
+  "readingUpdate": "စာဖတ်ခြင်းကို update လုပ်ပါ",
+  "readingWithFactor": "အချက်နှင့်အတူစာဖတ်ခြင်း",
+  "reallyDeleteActivity": "ဒီလုပ်ဆောင်မှုကိုတကယ်ပဲဖျက်ပစ်လား။",
+  "reallyDeleteContract": "ဒီစာချုပ်ကိုတကယ်ပဲဖျက်ပစ်လိုက်ပြီလား။",
+  "reallyDeleteCounter": "ကောင်တာကိုသင်ဖျက်ချင်ပါသလား။",
+  "reallyDeleteCounterLink": "ကောင်တာအကြားလင့်ခ်ကိုသင်ဖျက်ချင်ပါသလား။",
+  "reallyDeleteDetail": "ဒီအသေးစိတ်ကိုတကယ်ပဲဖျက်ပစ်ပါ။",
+  "reallyDeleteObject": "အရာဝတ်ထုကိုဖျက်ချင်တာသေချာလား။",
+  "reallyDeletePhoto": "သင် Meter Reading Photo ကိုဖျက်ချင်ပါသလား။",
+  "reallyDeleteValue": "ဒီတန်ဖိုးကိုသင်တကယ်ဖျက်ချင်ပါသလား။",
+  "refund": "ပြန်ပေး",
+  "reminderTime": "သတိပေးအချိန်",
+  "reminderWeekdayExplanation": "တစ်ရက်ထက်မပိုသောစာဖတ်ခြင်းကိုယူရန်သတိပေးချက်တစ်ခုရှိသည်။",
+  "reminderWeekdayExplanationSeasonal": "ရာသီအလိုက်စားသုံးမှုနှင့်မီတာအတွက် Minders များကိုလအနည်းငယ်အကြာတွင်သာစားသုံးမှုဖြင့်သာပေးပို့ခဲ့သည် (ပြီးခဲ့သည့်နှစ်ကတန်ဖိုးများကိုပေးမှသာအလုပ်လုပ်သည်) ။",
+  "requestAccess": "ဆက်သွယ်မှုကိုတောင်းဆိုခြင်း",
+  "reset": "ပြန်လည်တည်ဆောက်",
+  "resetActivities": "လှုပ်ရှားမှုအားလုံးကိုပြန်လည်သတ်မှတ်ပါ",
+  "residualConsumptionEstimated": "အကြွင်းအကျန်သုံးစွဲမှုခန့်မှန်းထားသည်",
+  "residualGenerationEstimated": "အကြွင်းအကျန်မျိုးဆက်ခန့်မှန်းခြေ",
+  "restoreDeletedCounter": "ဤဖျက်ခြင်းမီတာကိုသင်ပြန်ယူလိုပါသလား။",
+  "room": "နေရာ",
+  "roomBathroom": "ရေချိုးခန်း",
+  "roomBedroom": "အိပ်ခန်း",
+  "roomChildrenRoom": "ကလေးများအခန်း",
+  "roomDeleteConfirm": "အခန်းကိုဖျက်ပစ်လား",
+  "roomDiningRoom": "ထမင်းစားခန်း",
+  "roomGarden": "ဉယျာဉ်",
+  "roomKitchen": "မီးဖိုခန်း",
+  "roomLivingRoom": "living ည့်ခန်း",
+  "roomName": "အခန်းနာမည်",
+  "roomNameHint": "optionally အခန်းနာမည်တစ်ခုသတ်မှတ်ပါ",
   "roomNamePart": "အဆိုပါ Phtoken0 ၌တည်၏",
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "warningOutdatedSinceText": "Phtoken0 ကတည်းက",
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
+  "roomNew": "အခန်းအသစ်",
+  "roomOffice": "ရုံး",
+  "roomOther": "အခြား",
+  "roomStoreRoom": "စတိုးဆိုင်",
+  "roomType": "အခန်းအမျိုးအစား",
+  "roomWc": "ဒဗလျူစီ",
+  "rooms": "အခန်းများ",
+  "scanQrCode": "scan qr code ကို scan",
+  "seasonalCounter": "ရာသီအလိုက်ကောင်တာ",
+  "seasonalElectricityCounter": "ရာသီအလိုက်လျှပ်စစ်ဓာတ်အားကောင်တာ",
+  "selectedActivity": "ရွေးချယ်ထားသောလှုပ်ရှားမှု \"$ Phtoken0\"",
+  "selectedAtAppStart": "အမြင့်ဆုံးအရာဝတ်ထုကို app start မှာရွေးချယ်သည်",
+  "settingColor": "အရောင်",
+  "settingCounterTypeColor": "ဒီကောင်တာအမျိုးအစားအတွက်အရောင်",
+  "settingCounterTypeColorAdvanced": "ကျွမ်းကျင်သူများအတွက်အရောင်ရွေးသူ",
+  "settingCounterTypeColorDescription": "အကယ်. သင်သည်ဤတန်ပြန်အမျိုးအစားအတွက် default အရောင်ကိုမကြိုက်ပါကအခြားအရောင်တစ်ခုသတ်မှတ်နိုင်သည်။",
+  "settingEAuto": "လျှပ်စစ်ကား",
+  "settingHouseholdSize": "အိမ်ထောင်စုအရွယ်အစား",
+  "settingHouseholdSizeDescription": "သင့်အိမ်ထောင်စုရှိလူ ဦး ရေအရေအတွက်။",
+  "settingLanguageMode": "ဘာသာစကား",
+  "settingLivingArea": "နေထိုင်ရန်ရိယာ",
+  "settingObjectLocation": "တည်ရှိမှု",
+  "settingObjectLocationExplanation": "တည်နေရာကိုရိုက်ထည့်ခြင်းသင်၏ in ရိယာသို့ထိုးထွင်းသိမြင်မှုနှင့် 0 န်ဆောင်မှုများကိုအံဝင်ခွင်ကျဖြစ်စေရန်ကူညီသည်။",
+  "settingObjectLocationTitle": "သင့်ရဲ့အရာဝတ်ထုဘယ်မှာတည်ရှိသနည်း",
+  "settingObjectType": "အရာဝတ်ထုအမျိုးအစား",
+  "settingObjectTypeFlat": "အခန်း",
+  "settingObjectTypeHouse": "အိမ်",
+  "settingShowCounterReadingsChart": "ဖတ်ရန်ဇယားပြပါ",
+  "settingShowHeatmap": "HeTmap ကိုပြပါ",
+  "settingShowPreliminaryCurve": "ပဏာမကွေးပြပါ",
+  "settingUiColorPalette": "အရောင် palette",
+  "settingUiMode": "အသုံးပြုသူမျက်နှာပြင်",
+  "settingUiModeDark": "မေှာင်မိုက်သော",
+  "settingUiModeDarkOrLight": "Dark / Light User Interface",
+  "settingUiModeLight": "ပေါ့ပါးသော",
+  "settingUiModeOsDefault": "စံနစ်",
+  "settingWaterHeater": "ရေအပူပေးစက်",
+  "settingYearlyReset": "နှစ်စဉ် reset",
+  "settingYearlyResetOn": "အပေါ်",
+  "settings": "ဆက်တင်များ",
+  "settingsExternalServices": "ပြင်ပဝန်ဆောင်မှုများ",
+  "settingsShowStromGedacht": "စွမ်းအင်ဇယားကွက်နှင့် ပတ်သက်. stromedgedtt မှအကြံဥာဏ်များပြသင့်ပါသလား။",
+  "settingsShowTabNewsDetailed": "သတင်း / သိန်းစိရှိသည့် tab ကိုမြင်နိုင်သင့်ပါသလား။",
+  "showAllYears": "နှစ်ပေါင်းများစွာပြပါ",
+  "signInWithApple": "Apple နှင့်ဆိုင်းအင်လုပ်ပါ",
+  "signInWithGithub": "GitHub နှင့်ဆိုင်းအင်လုပ်ပါ",
+  "signInWithGoogle": "Google နှင့်ဆိုင်းအင်လုပ်ပါ",
+  "signInWithSocialAccount": "သင်၏ EHW + အကောင့်သို့ဖန်တီးရန်သို့မဟုတ်ဆိုင်းအင်လုပ်ရန်မည်သည့်လူမှုရေးအကောင့်ကိုသင်အသုံးပြုလိုသနည်း။",
+  "sinceInitialReading": "ကန ဦး စာဖတ်ခြင်းကတည်းက",
+  "smartMeterCountersTitle": "ရေဒီယိုရေမီတာ",
+  "smartMeterErrorNoData": "ကံမကောင်းစွာဖြင့်အက်ပလီကေးရှင်းပြနိုင်သည့်အချက်အလက်မရှိပါ။",
+  "smartMeterMisconfiguredWidgetCardButton": "စမတ်မီတာကို set up",
+  "smartMeterMisconfiguredWidgetCardTitle": "ကျေးဇူးပြု. သင်၏စမတ်မီတာကိုမှန်ကန်စွာတည်ဆောက်ပါ။",
+  "smartMeterObtainDataAutomatically": "ဒေတာကိုအလိုအလျောက်ရယူပါ",
+  "smartMeterProviderTibber": "ပြွန်ကိုယ်များသော",
+  "smartMeterProviderUndefined": "မသတ်မှတ်ပါ",
+  "smartMeterProviderWwgl": "wasserwerk gerauer မြေ",
+  "smartMeterServiceProvider": "ဝန်ဆောင်မှုပေးသူ",
+  "smartMeterSettingsScreenSyncButton": "စားသုံးမှုဒေတာများကိုထပ်တူပြုခြင်း",
+  "smartMeterSettingsScreenSyncingDialogError": "အမှား",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "ထပ်တူပြုခြင်းသည်ထပ်တူပြုခြင်းဖြင့်အောက်ပါအမှား - Phtoken0",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "အိုကေ",
+  "smartMeterSettingsScreenSyncingDialogHeader": "တိုးတက်မှုအတွက်စည်းညှိ",
+  "smartMeterSettingsScreenSyncingDialogProgress": "တိုးတက်မှု: PHTED0%",
+  "smartMeterTabConsumptions": "စားသုံးစရိတ်",
+  "smartMeterTabProductions": "အဆောက်အအုံများ",
+  "smartmeterInfocodeBannerText": "SmartMeter Phtoken0 ကို Phtoken ဒိုစာကိုလက်ခံရရှိသည်",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "သင်၏ရေမီတာ Phtoken0 ၏အပူချိန်သည် 3 ဒီဂရီစင်တီဂရိတ်အောက်တွင်ကျဆင်းသွားသည်။ နှင်းခဲတစ် ဦး အန္တရာယ်ရှိသည်။ မီတာနှင့်ပိုက်များကိုကာကွယ်ရန်သို့မဟုတ်ပျက်စီးမှုကိုကာကွယ်ရန် area ရိယာကိုအပူပေးပါ။",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "သင်၏ရေမီတာ Phtoken0 သည်စဉ်ဆက်မပြတ်ရေစီးဆင်းမှုကိုတွေ့ရှိခဲ့သည်။ ဤသည်ယိုစိမ့်ညွှန်ပြနိုင်ဘူး။ ကျေးဇူးပြု. သင့်အိမ်ထောင်စုတပ်ဆင်ခြင်းအတွက်သင့်အိမ်ထောင်စုတပ်ဆင်ခြင်းကိုစစ်ဆေးပါ။ အိမ်သာများနှင့်ယိုသည့်ဘုံများသည်များသောအားဖြင့်ဖြစ်လေ့ရှိသည်။",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "သင်၏ရေမီတာ Phtoked0 သည်ပုံမှန်မဟုတ်သောရေသုံးစွဲမှုကိုရှာဖွေတွေ့ရှိခဲ့သည်။ ကျေးဇူးပြု. သင်၏အိမ်ေထာင်စုတပ်ဆင်ခြင်းကိုအဓိကယိုစိမ့်မှုသို့မဟုတ်အားလပ်ချိန်များတွင်စစ်ဆေးပါ။ အကယ်. သင်သည်ရေအမြောက်အမြားကို အသုံးပြု. အချက်များအရအချက်များပါ 0 င်နိုင်သည်။ ရေကန်ဖြည့်သည်။",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "သင်၏ရေမီတာ Phtoked0 သည်ပုံမှန်မဟုတ်သောရေသုံးစွဲမှုကိုရှာဖွေတွေ့ရှိခဲ့သည်။ ကျေးဇူးပြု. သင်၏အိမ်ေထာင်စုတပ်ဆင်ခြင်းကိုအဓိကယိုစိမ့်မှုသို့မဟုတ်အားလပ်ချိန်များတွင်စစ်ဆေးပါ။",
+  "soFar": "သ",
+  "social": "လူမှုမီဒီယာ",
+  "socialEmail": "အီးမေးလ်",
+  "socialFacebook": "ဖေ့စ်ရီ",
+  "socialInstagram": "Instagram",
+  "socialLinkedIn": "intalked",
+  "socialTwitter": "x",
+  "socialYouTube": "youtube",
+  "solarThermalCollector": "နေရောင်ခြည်စွမ်းအင်စုဆောင်းသူ",
+  "sortActivities": "လှုပ်ရှားမှုများ၏အမိန့်ကိုပြုပြင်မွမ်းမံ",
+  "source": "ရင်းမြစ်:",
+  "stove": "မီးဖို",
+  "stromGedachtAgreement": "ကျွန်ုပ်၏စာတိုက်သင်္ကေတ (အကယ်. ထောက်ပံ့ပေးထားလျှင်) ကို transnetbw သတိပေးချက်များကို transnetbw သို့ပို့ပေးလိမ့်မည်ဟုကျွန်ုပ်သဘောတူသည်။",
+  "subscribeToSmartMeterInfocodeEvents": "မမျှော်လင့်တဲ့စားသုံးမှုအကြောင်းကြားချင်ပါတယ်",
+  "supplementaryPayment": "ဖြည့်စွက်ငွေပေးချေမှု",
+  "support": "ထောက်ခံမှု / တုံ့ပြန်ချက်",
+  "supportBug": "ကြမ်းပိုး",
+  "supportGivePraise": "ချီးမွမ်းကြလော့",
+  "supportGivePraiseLong": "ဒီ app ကိုကြိုက်လား? ကျေးဇူးတင်ပါသည်! စကားလုံးဖြန့်ပါ!",
+  "supportGivePraiseRating": "Phtoken0 တွင်အက်ပ်ကိုအဆင့်သတ်မှတ်ပါ။",
+  "supportGivePraiseRecommendation": "အက်ပလီကေးရှင်းကိုသူငယ်ချင်းများနှင့်မိသားစုသို့အကြံပြုပါ။ မည်သည့်ထောက်ခံချက်အတွက်ကျေးဇူးတင်ပါသည်။",
+  "supportMakeSuggestion": "တစ်ခုခုအကြံပြုပါ",
+  "supportMakeSuggestionLong": "အက်ပလီကေးရှင်းသည်အသုံးပြုသူအကြံပြုချက်များမှနေထိုင်သည်။ သင့်မှာအကြံပြုချက်ရှိပါသလား။",
+  "supportQuestion": "မေးခွန်းတစ်ခုမေးပါ",
+  "supportQuestionBox": "ကျွန်တော်ဘယ်လိုကူညီရမလဲ?",
+  "supportQuestionLong": "ဘယ်လိုအလုပ်လုပ်သလဲ အားလုံးမှာဖြစ်နိုင်သလား? ဒီမှာအဖြေတွေကိုရှိပါတယ်။",
+  "supportQuestionNotFound": "သင့်ရဲ့မေးခွန်းကိုဖြေကြားခြင်းမရှိသေးပေ? ငါကူညီရတာဝမ်းသာပါတယ်",
+  "supportRecommend": "ကျွန်ုပ်၏စွမ်းအင်သုံးစွဲမှုနှင့်ဆက်စပ်သောကုန်ကျစရိတ်များကိုခြေရာခံရန်မီတာစာဖတ်ခြင်းအက်ပလီကေးရှင်း EHW + ကိုအသုံးပြုသည်။ ဒီတစ်ခါလည်းဒါကမင်းအတွက်တစ်ခုခုဖြစ်နိုင်မလား။\n\nhttps://www.ehwplus.com တွင်ပိုမိုသိရှိလိုပါက",
+  "supportReportBug": "mail မှတစ်ဆင့် bug ကိုသတင်းပို့ပါ",
+  "supportReportBugAffectedPages": "မည်သည့်စာမျက်နှာပေါ်တွင်အမှားအယွင်းရှိသနည်း။ (ရှိလျှင်)",
+  "supportReportBugLong": "ဂရိတ်အက်ပ်! ဒါပေမယ့်သေချာတာပေါ့, အမှုအရာမှားသွားနိုင်ပါတယ်။ bug များကိုသင်အစီရင်ခံပါကအက်ပလီကေးရှင်းကိုပိုမိုကောင်းမွန်အောင်ပြုလုပ်ပါ။",
+  "supportReportBugScreenshotsPlease": "ကျေးဇူးပြုပြီးစာတိုက်တွင် screenshot တစ်ခုပူးတွဲပါ,",
+  "supportReportBugTextIs": "ကျေးဇူးပြု. လက်ရှိမမှန်ကန်သောအပြုအမူကိုအတိုချုပ်ဖော်ပြပါ။ I.E. အမှားကိုယ်နှိုက်ကိုဖော်ပြပါ။",
+  "supportReportBugTextShould": "ကျေးဇူးပြု. လိုချင်သောအပြုအမူကိုအတိုချုပ်ဖော်ပြပါ။ i.e.",
+  "swimmingPool": "ရေကူးကန်",
+  "sync": "အရေးကြီး",
+  "syncAutomaticTitle": "ဒေသခံဒေတာ overwrite နိုင်ပါသည်",
+  "syncDriveDataUsage": "အကယ်. သင်သည် EHW + ကို Google Drive သို့ဝင်ရောက်ခွင့်ပြုပါကအက်ပ်သည်အက်ပလီကေးရှင်းကိုယ်တိုင်ဖန်တီးထားသောဖိုင်များအားဖတ်ရန်နှင့်ရေးရန်ရေးသားလိမ့်မည်။ ကံမကောင်းစွာဖြင့်ဤအက်ပလီကေးရှင်းမှတစ်ဆင့်အခြားသူများဖန်တီးထားသောဖိုင်များကိုဤအက်ပ်မှမမြင်နိုင်ပါ။",
+  "syncDriveLoggedIn": "သင်၏ဒေတာများကိုကိရိယာမျိုးစုံဖြင့်အလိုအလျောက်ထပ်တူပြုသည်။ အောက်ပါဂူဂဲလ်အကောင့်ကိုအသုံးပြုသည်။",
+  "syncDriveLoggedInNoAuto": "သင်၏အချက်အလက်များကိုပြောင်းလဲပြီးနောက် Google Drive သို့အလိုအလျောက်တင်သည်။ သင်အရာဝတ်ထုကိုနှိပ်သောအခါ Cloud မှအချက်အလက်အသစ်များကိုသာ overwries overwries ။ အောက်ပါဂူဂဲလ်အကောင့်ကိုအသုံးပြုသည်။",
+  "syncObjectIsLocked": "အရာဝတ်ထုဒေတာကိုအသစ်ပြောင်းခြင်းနှင့်ဤအချိန်ကာလအတွင်း edited မရနိုင်ပါ။",
+  "syncShareWithOthersNotInWeb": "ဝင်ရောက်ခွင့်ပေးခြင်းသည်လက်ရှိတွင် app မှတဆင့်သာဖြစ်နိုင်သည်။",
+  "syncShareWithOthersSubtitle": "အကယ်. သင်သည်အခြား Google အသုံးပြုသူများနှင့်မီတာဖတ်ခြင်းများကိုအတူတကွဖြည့်စွက်လိုပါက EHW + ကို Google Drive ကိုအပြည့်အ 0 ရယူရန်ခွင့်ပြုရမည်။",
+  "syncShareWithOthersTitle": "အခြားသူများနှင့်မျှဝေပါလား။",
+  "syncStatusFailedLong": "ထပ်တူပြုခြင်းကိုမအောင်မြင်ပါ, တည်းဖြတ်ခြင်းသည်သင်၏ကိုယ်ပိုင်အန္တရာယ်ရှိသည်",
+  "syncStatusFailedLongNoAutoSync": "ထပ်တူပြုခြင်းကိုမအောင်မြင်ပါ, တည်းဖြတ်ခြင်းသည်သင်၏ကိုယ်ပိုင်အန္တရာယ်ရှိသည်",
+  "syncStatusSyncRemoteHasLatest": "Cloud ရှိဖိုင်သည် local file ထက်နောက်ဆုံးပေါ်ခေတ်မီပြီးဖြစ်သည်",
+  "syncWithGoogleDriveDescription": "အဘယ်ကြောင့်ဆိုသော်မီတာဖတ်ရှုခြင်းများပျောက်ဆုံးပါကသင့်ရဲ့အရာဝတ်ထုများကို Google Drive ဖြင့် Synchronize ဖြစ်သွားသောကြောင့်ဖြစ်သည်။",
+  "tabCounters": "မီတာ",
+  "tabNews": "သိကောင်းစရာများ / သတင်းများ",
+  "tabObject": "ကန့်ကွက်",
+  "tabStatistics": "စာရင်းအင်း",
+  "taxRate": "အခွန်နှုန်း",
+  "teaserPurchaseRenewableEnergies": "ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်ကောင်တာများသည်ပရီမီယံလိုအပ်သည်။",
+  "teaserPurchaseVirtualCounter": "virtual ကောင်တာများကိုပရီမီယံဖြင့်ထည့်ပါ။",
+  "teaserPurchaseWaterExtractionCounter": "ရေပရီမီယံနှင့်အတူရေထုတ်ယူကောင်တာများကိုသော့ဖွင့်ပါ။",
+  "termsOfUsageBlock1": "ကန့်ကွက်၏ညာဘက်",
+  "termsOfUsageBlock1Title": "app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ",
+  "termsOfUsageBlock2": "အက်ပလီကေးရှင်းနှင့်၎င်း၏လုပ်ဆောင်မှုများကိုကြမ်းတမ်းစွာအသုံးမပြုရ။ ကျေးဇူးပြု. app ကိုတရားဝင်ခွင့်ပြုထားသောနယ်ပယ်အတွင်းနှင့်ကျွန်ုပ်တို့၏အသုံးပြုမှုဆိုင်ရာသတ်မှတ်ချက်များနှင့်သာအသုံးပြုပါ။ သက်ဆိုင်သောဂျာမန်ဥပဒေ (သို့) ကျွန်ုပ်တို့၏အသုံးပြုမှုဆိုင်ရာစည်းကမ်းချက်များကိုချိုးဖောက်သည့်အခါပံ့ပိုးပေးသူသည်သင့်အား app ကိုအသုံးပြုခြင်းမှဖယ်ထုတ်ရန်အခွင့်အရေးရှိသည်။",
+  "termsOfUsageBlock2Title": "အသုံးပြုမှုအပေါ်အထွေထွေသတင်းအချက်အလက်",
+  "termsOfUsageBlock2a": "အမည်မသိအသုံးပြုမှုဒေတာ\nအက်ပ်ကို စဉ်ဆက်မပြတ် တိုးတက်ကောင်းမွန်လာစေရန် ကျွန်ုပ်တို့၏ကိုယ်ပိုင် ခွဲခြမ်းစိတ်ဖြာမှုများကို အသုံးပြုပါသည်။\nအမည်မသိ ဒေတာကိုသာ ပို့လွှတ်သည်။\nဒေတာကို ပြင်ပအဖွဲ့အစည်းများထံ ပေးပို့ခြင်းမပြုပါ။\nနောက်ထပ်အချက်အလက်များအတွက်၊ ဆက်တင်များ > လျှို့ဝှက်ရေး > {privacyBlock3Title} သို့ သွားပါ။",
+  "termsOfUsageBlock2b": "အမှားအယွင်းအစီရင်ခံစာများ\nအက်ပ်ကို စဉ်ဆက်မပြတ် တိုးတက်ကောင်းမွန်လာစေရန် Sentry (ကိုယ်တိုင် လက်ခံဆောင်ရွက်ပေးသည်) ကို အသုံးပြုပါသည်။\nအမှားအယွင်းအစီရင်ခံစာများကို ပြင်ပအဖွဲ့အစည်းများနှင့် မျှဝေခြင်းမပြုပါ။\nနောက်ထပ်အချက်အလက်များအတွက်၊ ဆက်တင်များ > လျှို့ဝှက်ရေး > {privacyBlock3Title} သို့ သွားပါ။",
+  "termsOfUsageBlock2c": "ကိုယ်ပိုင်သတင်းအချက်အလက်များ\nအကယ်. သင်သည် Google Drive Sync ကိုအသုံးပြုပါက EHW + သည်သင်ရိုက်ထည့်လိုက်သောအချက်အလက်များကိုလက်လှမ်းမမီပါ။ ပိုမိုသိရှိလိုပါက Settings> Privacy> Phtoked0 သို့သွားပါ။",
+  "termsOfUsageBlock3": "ပံ့ပိုးသူသည်သင်၏ရည်ရွယ်ချက်များအတွက်ရရှိများ, ယုံကြည်စိတ်ချရမှု, လုပ်ဆောင်နိုင်စွမ်း, LIMITION, LIVB သို့မဟုတ် Health နှင့်ကျန်းမာရေးအာမခံချက်၏အာမခံချက်သို့မဟုတ်မရှိမဖြစ်လိုအပ်သောစာချုပ်များချိုးဖောက်မှုများကြောင့်ထုတ်ကုန်တာ 0 န်ယူမှုဆိုင်ရာအက်ဥပဒေအရမဖြစ်မနေပြုလုပ်ရန်တာ 0 န်ယူမှုအရ 0 န်ဆောင်မှုပေးခြင်းမရှိပါ။ မရှိမဖြစ်လိုအပ်သောစာချုပ်သက်တမ်းများမှာပြည့်စုံသောစာချုပ်များနှင့်စာချုပ်ချုပ်ဆိုထားသောပါတီများပုံမှန်အားဖြင့်ပုံမှန်အားဖြင့်မှီခိုနေရခြင်းအတွက်အရေးကြီးသည်။ မရှိမဖြစ်လိုအပ်သောစာချုပ်များကိုချိုးဖောက်ခြင်းကြောင့်ပျက်စီးဆုံးရှုံးမှုများအတွက်လျော်ကြေးငွေသည်ဤစာချုပ်အတွက်ဤစာချုပ်အတွက်ကြိုတင်သတ်မှတ်ထားသောပျက်စီးဆုံးရှုံးမှုများကြောင့်ဖြစ်သည်။",
+  "termsOfUsageBlock3Title": "တာဝန်",
+  "termsOfUsageBlock4": "ပံ့ပိုးသူသည်တွက်ချက်မှုရလဒ်များ၏တိကျမှန်ကန်မှုကိုမအာမခံပါ။ အသုံးပြုသူများသည် application တွင်သိမ်းဆည်းထားသောစျေးနှုန်းများ (အခြေခံစျေးနှုန်းများ, စားသုံးမှုစျေးနှုန်းများစသဖြင့်) ကိုသေချာစေရန်လိုအပ်သည် (အခြေခံစျေးနှုန်းများ, စားသုံးမှုစျေးနှုန်းများ) ကိုသေချာစေရန်နှင့်သူတို့၏တာ 0 န် 0 တ္တရားများကိုသေချာစွာနှင့်၎င်းတို့၏တာ 0 န် 0 တ္တရားများကိုသေချာစွာထားရှိရန်လိုအပ်သည်။",
+  "termsOfUsageBlock4Title": "အသုံးပြုသူ၏တာဝန်များ",
+  "termsOfUsageTitle": "app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ",
+  "termsOfUsageTitleShort": "သတ်မှတ်ချက်များ",
+  "tibberAccessToken": "access token",
+  "tibberActionSaveAuthorizationSettings": "ခွင့်ပြုချက်ဆက်တင်များကိုသိမ်းဆည်းပါ",
+  "tibberBasicAuth": "အခြေခံ Auth",
+  "tibberBasicAuthEnterPassword": "ကျေးဇူးပြု. စကားဝှက်ကိုရိုက်ထည့်ပါ",
+  "tibberBasicAuthEnterUsername": "ကျေးဇူးပြု. Username ကိုရိုက်ထည့်ပါ",
+  "tibberBasicAuthPassword": "လှျို့ဝှက်စကား",
+  "tibberBasicAuthUsername": "အသုံးပြုသူ",
+  "tibberConsentScreenBenefit1Description": "သင်၏စားသုံးမှုကိုအချိန်နှင့်တပြေးညီစစ်ဆေးရန်နှင့်ဖုံးကွယ်ထားသောစွမ်းအင် Guzzleers များကိုရှာဖွေပါ။",
+  "tibberConsentScreenBenefit1Title": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုကြည့်ပါ",
+  "tibberConsentScreenConfigureLaterButton": "နောက်မှ set up",
+  "tibberConsentScreenConfigureNowButton": "ယခု Tibber Pulse ကို set up",
+  "tibberConsentScreenDescription": "သင်ကတလုံးဖောက်သည်လား, ယခုကျွန်ုပ်တို့သည်စွမ်းအင်စောင့်ကြည့်လေ့လာခြင်းအတွက်သွေးခုန်နှုန်းကိုထောက်ပံ့သည်။ သွေးခုန်နှုန်းမှသမိုင်းဆိုင်ရာအချက်အလက်များသည်ကံမကောင်းအကြောင်းမလှစွာဖြင့်ဖောက်သည်များထံမှ 0 တ်စုံကန်ထရိုက်စာချုပ်များကိုသာရရှိနိုင်ကြောင်းသတိပြုပါ။",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "မတ်လ 1 ရက်မှသင်၏အလုပ်ချိန်ရက်သည် Anonyte ကိုလေ့လာရန်နှင့် Goethe လေ့လာမှုအတွက်ထောက်ပံ့ပေးလိမ့်မည်။",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "သင် Goethe လေ့လာမှုတွင်ပါ 0 င်လိုပါသလား။",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "ဟုတ်ကဲ့, ငါ Goethe လေ့လာမှုတွင်ပါ 0 င်လိုသည်",
+  "tibberConsentScreenGoetheStudySectionHeader": "သုတေသနစီမံကိန်းတွင်ပါ 0 င်မှု",
+  "tibberConsentScreenHeader": "အသစ်သောအင်္ဂါရပ် - Tibber Pulse မှစားသုံးမှုအချက်အလက်များ",
+  "tibberConsentScreenStoreLink": "Tibber စတိုးကိုသွားပါ",
+  "tibberConsumptionEntryTotalCost": "စုစုပေါင်းကုန်ကျစရိတ်: Phtoken0",
+  "tibberConsumptionEntryTotalProfit": "စုစုပေါင်းအမြတ်အစွန်း: Phtoken0",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "Phtoked1 မှ Phtoked0 မှ 24 နာရီ",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Phtoken. မှ Phtoken.1 မှ",
+  "tibberConsumptionEntryViewTimeSpanMonth": "Phtoked0 ၏လ",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "တစ်လ Phtoken0 စတင်",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "Phtoked1 မှ Phtoked0 မှတစ်နာရီ",
+  "tibberConsumptionEntryViewTimeSpanYear": "အဆိုပါနှစ် Phtoked0",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "တစ်နှစ် Phtoked0 မှစတင်",
+  "tibberEnterAccessToken": "ကျေးဇူးပြုပြီး access token ရိုက်ထည့်ပါ",
+  "tibberErrorAccessTokenInvalid": "Access Token သည်မမှန်ကန်ကြောင်းနှင့်တူသည်",
+  "tibberErrorConnectivityShowCacheInstead": "လတ်တလောစားသုံးမှုအချက်အလက်များကိုပြန်လည် ရယူ. မရပါ။ အစား cacheed တန်ဖိုးများဖေါ်ပြခြင်း။",
+  "tibberErrorNoHomes": "ဤအကောင့်နှင့်ဆက်စပ်သောအိမ်များမရှိပါ",
+  "tibberErrorNoSubscription": "API မှတစ်ဆင့်သမိုင်းဆိုင်ရာအချက်အလက်များကိုအပြည့်အ 0 ရယူရန်သင်ရွေးချယ်ထားသောအိမ်အတွက် Tibber လျှပ်စစ်ဆိုင်ရာစာချုပ်တစ်ခုလိုအပ်သည်။",
+  "tibberErrorRateLimit": "Tibber API နှုန်းကန့်သတ်ချက်ကျော်လွန်သွားသည်။ ကျေးဇူးပြု. မပြန်မီအနည်းဆုံး 5 မိနစ်စောင့်ပါ။",
+  "tibberErrorSmartMeterMisconfigured": "သင်၏စမတ်မီတာသည်အချည်းနှီးဖြစ်ပုံရသည်။",
+  "tibberErrorUndefined": "မမျှော်လင့်သောအမှားတစ်ခုဖြစ်ပွားခဲ့သည်: Phtoken0",
+  "tibberHomeSelectorHomeId": "ပင်မစာမျက်နှာ ID: PHTEDE0",
+  "tibberHomeSelectorLabel": "နေအိမ်",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "ဤအိမ်သည်တိုက်ရိုက်တိုင်းတာမှုများသို့မဟုတ်သမိုင်းဝင်စားသုံးမှုအချက်အလက်များကိုမထောက်ပံ့ပါ။ အခြားအိမ်ကိုရွေးချယ်ပါ။",
+  "tibberLiveMeasurementCounterCardViewFooter": "တိုက်ရိုက်တိုင်းတာခြင်း",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "စုစုပေါင်းစားသုံးမှု (ညသန်းခေါင် မှစ. )",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "စားသုံးမှု (နောက်ဆုံးနာရီ)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "စုဆောင်းကုန်ကျစရိတ်",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "စုစုပေါင်းထုတ်လုပ်မှု (ညသန်းခေါင် မှစ. )",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "ထုတ်လုပ်မှု (နောက်ဆုံးနာရီ)",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "စုဆောင်းဆုလာဘ်",
+  "tibberLiveMeasurementWidgetAveragePower": "ပျမ်းမျှပါဝါ",
+  "tibberLiveMeasurementWidgetCurrentL1": "လက်ရှိ (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "လက်ရှိ (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "လက်ရှိ (L3)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "မီတာဖတ်ခြင်း (စားသုံးမှု)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "မီတာစာဖတ်ခြင်း (ထုတ်လုပ်မှု)",
+  "tibberLiveMeasurementWidgetMaxPower": "အများဆုံးပါဝါ",
+  "tibberLiveMeasurementWidgetMinPower": "မင်းပါဝါ",
+  "tibberLiveMeasurementWidgetPower": "စွမ်းအား",
+  "tibberLiveMeasurementWidgetPowerFactor": "ပါဝါအချက်",
+  "tibberLiveMeasurementWidgetPowerProduction": "ပါဝါထုတ်လုပ်မှု",
+  "tibberLiveMeasurementWidgetTimestamp": "အချစ်",
+  "tibberLiveMeasurementWidgetTitle": "Phtoken0 မှာလက်ရှိစားသုံးမှု / ထုတ်လုပ်မှု",
+  "tibberLiveMeasurementWidgetUnitA": "တစ်စီး",
+  "tibberLiveMeasurementWidgetUnitV": "v",
+  "tibberLiveMeasurementWidgetUnitW": "အလိုတော်",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "ဗို့အား (အဆင့် 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "ဗို့အား (အဆင့် 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "ဗို့အား (အဆင့် 3)",
+  "tibberLiveMeasurementsWidgetConnecting": "Tibber Pulse သို့ဆက်သွယ်ခြင်း ...",
+  "tibberLiveMeasurementsWidgetError": "Tibber Pulse ကိုဆက်သွယ်စဉ်အမှားတစ်ခုဖြစ်ပွားခဲ့သည်။ ကျေးဇူးပြု. သင်၏ Access Token နှင့် Internet Connection ကိုစစ်ဆေးပါ။",
+  "tibberLiveMeasurementsWidgetNotSupported": "Live တိုင်းတာမှုများသည်ဤအိမ်အတွက်မထောက်ပံ့ပါ။",
+  "tibberMessageAccessTokenUpdated": "Access Token ကိုအောင်မြင်စွာ update လုပ်ပါ",
+  "tibberStatusWidgetTibberSubscriptionStatus": "tibber subscription status ကို",
+  "tibberStatusWidgetTitle": "cache စီမံခန့်ခွဲမှု",
+  "tibberSubscriptionStatusActive": "လှုပ်ရှားသော",
+  "tibberSubscriptionStatusInactive": "မလှုပ်ရှားတတ်သော",
+  "tibberSubscriptionStatusLoading": "တင် ...",
+  "tibberWhereIsMyAccessToken": "ကျွန်ုပ်၏ \"Access Token\" ကိုဘယ်မှာရှာရမလဲ။",
+  "timeBefore": "ဉီးစွာ",
+  "timeDayAgo": "တနေ့က",
+  "timeDays": "ရက်များ",
+  "timeDaysAgo": "လွန်ခဲ့သောရက်ပေါင်းက Phtoken0",
+  "timeDaysWithin": "ရက်များ",
+  "timeForFirstYear": "ပထမနှစ်တွင်",
+  "timeFriday": "သောကြာနေ့",
+  "timeFromDate": "Phtoked0 မှ",
+  "timeFromUndefined": "undefined",
+  "timeHours": "နာရီ",
+  "timeHoursAgo": "phtoken0 နာရီလွန်ခဲ့တဲ့",
+  "timeInFuture": "အနာဂတ်မှာ",
+  "timeJustNow": "အခုပဲ",
+  "timeLastUpdated": "နောက်ဆုံး updated",
+  "timeMinutes": "မိနစ်",
+  "timeMinutesAgo": "Phtoken0 မိနစ်အကြာ",
+  "timeMonday": "တနင်္လာနေ့",
+  "timeMonth": "လ",
+  "timeMonths": "လများ",
+  "timeMonthsAgo": "phtoken0 လပေါင်းများစွာက",
+  "timeMonthsWithin": "လများ",
+  "timePeriodYearStart": "နှစ်နှစ်",
+  "timeReminderAtEnd": "အဆုံးမှာ",
+  "timeReminderAtStart": "စတင်မှာ",
+  "timeRightNow": "အခုချက်ချင်း",
+  "timeSaturday": "စနေနေ့",
+  "timeSeconds": "စက်ညာခြမ်း",
+  "timeSunday": "တနင်္ဂနေှနေ့",
+  "timeThursday": "ကြာသပတေးနေ့",
+  "timeToday": "ယနေ့တွင်",
+  "timeTuesday": "အင်္ဂါနေ့",
+  "timeUntilDate": "Phtoken0 သည်အထိ",
+  "timeUntilUnlimited": "အကန့်အသတ်",
+  "timeWednesday": "ဗုဒ္ဓဟူးနေ့",
+  "timeWeek": "ရက်သတ္တပတ်",
+  "timeWeeks": "သီတင်း",
+  "timeWithin": "Phtoken0 အတွင်း",
+  "timeYesterday": "မနေ့က",
+  "unitCm": "စင်တီမီတာ",
+  "unitCmLong": "စင်တီမီတာ",
+  "unitCmShort": "စင်တီမီတာ",
+  "unitCubicMetersLong": "{count, plural, one {ကုဗမီတာ (m³)} other {ကုဗမီတာ (M³)}}",
+  "unitCubicMetersShort": "မီ",
+  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "unitGJShort": "gb",
+  "unitGigaByteLong": "နိုး",
+  "unitGigaByteShort": "နိုး",
+  "unitHoursLong": "{count, plural, one {နာရီ} other {နာရီ (ဇ)}}",
+  "unitHoursShort": "ဆုတောင်းပါ",
+  "unitKWhLong": "{count, plural, one {ကီလိုဝပ်နာရီ (kWh)} other {Kilowatt နာရီ (KWH)}}",
+  "unitKWhShort": "kwh",
+  "unitKgLong": "{count, plural, one {ကီလိုဂရမ် (ကီလိုဂရမ်)} other {ကီလိုဂရမ် (ကီလိုဂရမ်)}}",
+  "unitKgShort": "ကေှ့မျှန်း",
+  "unitLiters": "လီတာ",
+  "unitLitersLong": "{count, plural, one {လီတာ (ℓ)} other {လီတာ (ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {Megawatt နာရီ (MWH)} other {မဂ္ဂါဝပ်နာရီ (MWH)}}",
+  "unitMWhShort": "မူးရူး",
+  "unitMegaByteLong": "ခရက်ဖိကျ",
+  "unitMegaByteShort": "ခရက်ဖိကျ",
+  "unitNone": "ဘာမှျ",
+  "unitNoneFormatted": "{count, plural, one {တခု} other {ယူနစ်}}",
+  "unitPercentLong": "ရာခိုင်နှုန်း (%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "sqm",
+  "unitSquareMetersLong": "{count, plural, one {စတုရန်းမီတာ (M²)} other {စတုရန်းမီတာ (M²)}}",
+  "unitSquareMetersShort": "မီ",
+  "updateAvailable": "Phtoked0 သည် Phtoked0 သည်နောက်ဆုံးပေါ်မဟုတ်ပါ။ သငျသညျ Phtoked1 version ကို update လုပ်နိုင်ပါတယ်။",
+  "updateObjectName": "အရာဝတ်ထုအမည်များကိုပြောင်းလဲပါ",
+  "upgradeDescription": "ဒီ app ကပိုလုပ်နိုင်တယ်။ ပိုမိုကောင်းမွန်သောခြုံငုံသုံးသပ်ချက်, စာရင်းဇယားများ, Excel ပို့ကုန်,",
+  "useDismissibleSettings": "Swipe အမူအရာဖြင့်ဖျက်ပါ",
+  "useDismissibleSettingsDetailed": "ကောင်တာများ, ကန်ထရိုက်များ, စသည်တို့ကိုဘေးတိုက်ပွတ်ဆွဲခြင်းဖြင့်ဖျက်နိုင်သည်",
+  "usedForPaymentsRepayments": "ကြိုတင်ငွေပေးချေမှု, အခြေခံစျေးနှုန်းနှင့်အပိုဆုကြေး",
+  "valueLess": "phtoken0 လျော့နည်း",
+  "valueMore": "ပိုပြီး Phtoken0",
+  "versionIsUpToDate": "အသုံးပြုသူအားလုံးမှထုတ်ပြန်သောနောက်ဆုံးအက်ပ်ဗားရှင်းသည် Phtoken0 ဖြစ်သည်။",
+  "virtualCounter": "virtual မီတာ",
+  "virtualCounterMasterCounter": "Master Meter",
+  "virtualCounterMasterCounterAttach": "အဓိကမီတာကိုရွေးပါ",
+  "virtualCounterMasterCounterDescription": "Info: အဓိကမီတာသည် virtual meter ၏တွက်ချက်မှုကိုတွက်ချက်ရန်အခြေခံသည်။",
+  "virtualCounterMetersToBeAdded": "မီတာထည့်သွင်းခံရဖို့မီတာ",
+  "virtualCounterMetersToBeAddedDescription": "မည်သည့်မီတာသည် Main Meter, E.G. , E.G. , E.G. , E.G. ,",
+  "virtualCounterMetersToBeSubtracted": "meters နုတ်ဖို့မီတာ",
+  "virtualCounterMetersToBeSubtractedDescription": "မည်သည့်မီတာဖတ်ခြင်းများကိုအဓိကမီတာမှနုတ်ယူသင့်သည်။",
+  "virtualCounterNotConfigured": "ကျေးဇူးပြု. သင်၏ virtual မီတာ၏ချိန်ညှိချက်များကိုစစ်ဆေးပါ။ အဘယ်အရာကိုမျှတွက်ချက်နိုင်ပါသည်။",
+  "warmWater": "ပူရေ",
+  "warning": "အသိပေးချက်",
+  "warningCounterReplacementDetected": "တန်ဖိုးအသစ်သည်ယခင်မီတာစာဖတ်ခြင်းထက်နိမ့်သည်။ မီတာကိုအစားထိုးလိုက်ပြီလား",
   "warningNextReminderText": "နောက်သတိပေးချက်မှာ Phtoken0 ဖြစ်သည်။",
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "counterConsiderForTotalConsumptions": "စုစုပေါင်းစားသုံးမှုများအတွက် စဉ်းစားပါ။",
-  "consumptionYearlyDetailedElectricity": "သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှု Phtoken0 (Phtoken1 Kwh ≈ KWH / KWH / KWH / YEN) {consumptionLevel}.",
-  "consumptionYearlyDetailedGas": "သင်၏ဓာတ်ငွေ့သုံးစွဲမှု Phtoken0 (Phtoken1 KWH ≈ KWH ≈ KWH / KWH / Year) {consumptionLevel}.",
-  "consumptionYearlyDetailedComparisonLess": "သငျသညျ Consumephod0 ထက်လျော့နည်း Phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
-  "consumptionYearlyDetailedComparisonMore": "သငျသညျ Consumephod0 ထက်ပို phtoken0 Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
-  "consumptionYearlyDetailedComparisonEqual": "သငျသညျ Consumephod0 အတူတူပင်အကြောင်းကို Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.",
-  "consumptionWaterDailyMonthlySingle": "သင်လောင် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
-  "consumptionWaterDailyMonthlyPerPerson": "လူတစ် ဦး လျှင်လူတိုင်းစားသုံးသည် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။",
-  "consumptionYearlyDetailedLevel2": "ပုံမှန်ပါပဲ"
+  "warningOutdatedSinceText": "Phtoken0 ကတည်းက",
+  "warningReadingBiggerThanOldValue": "တန်ဖိုးအသစ်သည် ယခင်မီတာစာဖတ်ခြင်းထက်ပိုမိုမြင့်မားသည်။{isOilCounter, select, true { ထရက်ကို ပြန်ဖြည့်ပြီးပြီလား?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "တန်ဖိုးအသစ်သည်ယခင်မီတာစာဖတ်ခြင်းထက်ပိုမိုမြင့်မားသည်။ မင်းအကြံပေးအဖွဲ့ကိုဖြည့်ပါသလား",
+  "warningReadingOutdatedForYearlyResetCounter": "Phtoken.1is ပျောက်ဆုံးနေသောနှစ် Phtoken0 အတွက်နောက်ဆုံးမီတာစာဖတ်ခြင်း။ ဤသည်စုစုပေါင်းနှစ်စဉ်စားသုံးမှု၏မှန်ကန်သောတွက်ချက်မှုများအတွက်လိုအပ်သောဖြစ်ပါတယ်။",
+  "warningReadingOutdatedFrequency": "Phtoken1is အတွက်နောက်ဆုံးနေ့မီတာဖတ်ခြင်း Phtensen1is ခေတ်နောက်ကျ",
+  "warningReadingSeemsTooBig": "တန်ဖိုးအသစ်သည်အတော်လေးမြင့်မားသည်။ စာဖတ်ခြင်းမှန်ကန်စွာယူခဲ့သလဲ",
+  "warningReadingSeemsTooSmall": "တန်ဖိုးအသစ်သည်အတော်လေးနိမ့်သည်။ မှန်ကန်စွာဖတ်ခဲ့သလား",
+  "warningReadingSmallerThanOldValue2": "တန်ဖိုးအသစ်သည်ယခင်မီတာစာဖတ်ခြင်းထက်နိမ့်သည်။ စာဖတ်ခြင်းမှန်ကန်စွာယူခဲ့သလဲ",
+  "warningYearlyReset": "ယခုနှစ်အစမှာသုညစာဖတ်ခြင်း",
+  "wasteWaterPriceEnabled": "ရေချိုနှင့်စွန့်ပစ်ပစ္စည်းကုန်ကျစရိတ်များကိုသီးခြားစီ (နှုတ်ယူခြင်းမီတာနှင့်သက်ဆိုင်သည်) ကိုသီးခြားစီဖော်ပြသည်။",
+  "waterConsumption": "ရေသုံးစွဲမှု",
+  "waterExtractionMinimumLevelLower": "စားသုံးမှုသည်တံခါးခုံများထက်နိမ့်သောကြောင့်နှုတ်ယူခြင်းကြောင့်ဖြစ်သည်။",
+  "waterMeterEventsInformation": "{count, plural, =1 {သင်၏ကြိုးမဲ့ရေမီတာ Phtoken0 သည်မမျှော်လင့်သောစားသုံးမှုကိုရှာဖွေတွေ့ရှိသည်။ ဆန္ဒရှိလျှင်, သင်သည်ထိုကဲ့သို့သောကိစ္စတွင်အကြောင်းကြားစာကိုလက်ခံရရှိလိမ့်မည်။} other {သင်၏ကြိုးမဲ့ရေမီတာ Phtoken0 သည်မမျှော်လင့်သောစားသုံးမှုကိုရှာဖွေတွေ့ရှိသည်။ ဆန္ဒရှိပါကထိုသို့သောအဖြစ်အပျက်များတွင်သင်အသိပေးချက်ကိုလက်ခံရရှိလိမ့်မည်။}}",
+  "watersupplierAccessRequestQ1": "သင်ဟာရေဒီယိုမှာရှိတဲ့နေရာမှာပစ္စည်းဥစ်စာပိုင်ဆိုင်မှုပိုင်ရှင်လား, ရေဒီယိုမီတာဖတ်တာကိုရချင်ပါသလား။",
+  "watersupplierAccessRequestQ2": "သင်ဝင်ရောက်ခွင့်ကိုတောင်းခံပြီးပြီလား ထို့နောက် EHW + အသုံးပြုသူအကောင့်တစ်ခုကိုဖန်တီးရန်လိုအပ်သည်။",
+  "watersupplierAccessRequestQ3": "သင့် QR ကုဒ်ကိုရယူပြီးလက်ခံပြီးဖြစ်သည်။",
+  "watersupplierAccessRequestQ4": "ဥပမာအားဖြင့် Pipe Burst သို့မဟုတ်အိမ်သာ flush ကိုသုံးလျှင်သင်မီတာသတိပေးချက်များကိုသင်ရယူလိုပါသလား။",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "စိတ်မကောင်းပါဘူး, ကံမကောင်းတာကအလုပ်မလုပ်ဘူး ဒါဟာငါတို့ဆာဗာကြောင့်ဖြစ်ခဲ့သည်။ ပိုကောင်းတဲ့နောက်ရက်မှာထပ်ကြိုးစားပါ။",
+  "watersupplierCompleteMeterIdTryAgain": "သင်မဖြတ်သန်းသင့်ပါ! ကျေးဇူးပြု. သင့် Meter ID ၏နောက်ဆုံးဂဏန်းသုံးလုံးကိုထပ်ထည့်ပါ။",
+  "watersupplierMeterIdValidationStep": "သင်၏မီတာ ID ကိုစစ်ဆေးနေသည်။",
+  "watersupplierNoAccess": "အချက်အလက်များကိုပြန်လည်ရယူရန်ခွင့်ပြုချက်မရတော့ပါ။",
+  "watersupplierNoAccessDetailedMessage": "သင်ရရှိနိုင်ကြောင်းသင်ယုံကြည်ပါကသင်၏ activation code ကိုထပ်မံစစ်ဆေးပါ။ ဝင်ရောက်ခွင့်ကုဒ်သည်မမှန်ပါက ကျေးဇူးပြု. ဝင်ရောက်ခွင့်အသစ်တစ်ခုကိုတင်သွင်းပါ။",
+  "watersupplierOpenReminderSettings": "Open Settings",
+  "watersupplierRadioMeterDefaultName": "ရေဒီယိုရေအေးမီတာ",
+  "watersupplierScanQrCodeApprovalInProgress": "ယခုကျွန်ုပ်တို့သည်သင်၏အကောင့်ကိုအနာဂတ်အတွက်ရေဒီယိုမီတာဖတ်ရှုနိုင်ရန်အတွက်သင်၏အကောင့်ကိုခွင့်ပြုထားသည်။",
+  "watersupplierScanQrCodeCommand": "ဘယ်ဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။",
+  "watersupplierScanQrCodeOffboardingSuccessful": "သင့်ရေဒီယိုရေကိုလက်လှမ်းမီမှုကိုဖျက်သိမ်းလိုက်သည်။",
+  "watersupplierScanQrCodeScanSuccessful": "wow, activation code ကအရမ်းကောင်းတယ်! ကျေးဇူးပြု. သင်၏မီတာအိုင်ဒီ၏နောက်ဆုံးဂဏန်းသုံးလုံးကိုရိုက်ထည့်ပါ။",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "မှတ်ချက် - သင်၏မူလမီတာအိုင်ဒီတွင်စာလုံး 8 လုံးကျော်နိုင်သည်။",
+  "watersupplierScanQrCodeTitle": "ရေဒီယိုမီတာ activation",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "ဟုတ်တယ်! သင်၏ရေဒီယိုရေမီတာ \"ရေအေး\" ကိုအောင်မြင်စွာထည့်သွင်းထားသည်။ သင်ကအခြားမီတာအကြားရှာတွေ့နိုင်ပါသည်။",
+  "watersupplierScanQrCodeValidation": "QR Code ကိုရှာဖွေတွေ့ရှိကြစို့။",
+  "watersupplierScanQrCodeValidationFailed": "တောင်းပန်ပါတယ်, ကုဒ်မမှန်ကန်ပါ။ သင်ထပ်ကြိုးစားချင်ပါသလား",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "သင် revocation code အစား activation code ကိုစကင်ဖတ်စစ်ဆေးသည်။ ကျေးဇူးပြုပြီးထပ်ကြိုးစားပါ",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "activation code အစား revocation code ကိုသင်စကင်ဖတ်စစ်ဆေးသည်။ ကျေးဇူးပြုပြီးထပ်ကြိုးစားပါ",
+  "watersupplierScanRevokeQrCodeCommand": "ညာဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။",
+  "watersupplierUnlinkRadioMeterButtonDelete": "ရေဒီယိုကိုဖျက်ပါ",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "ရုပ်သိမ်းခြင်းကုဒ်",
+  "watersupplierUnlinkRadioMeterDescription1": "activation code ကို invaliding လုပ်ခြင်းမရှိဘဲရေဒီယိုမီတာကိုဖျက်ချင်ပါသလား။",
+  "watersupplierUnlinkRadioMeterDescription2": "သင်၏ရေဒီယိုမီတာဒေတာများကိုသင်လက်လှမ်းမမီချင်ပါသလော။ ကျေးဇူးပြု. မှတ်သားပါ။ ပြန်လည်ရုပ်သိမ်းခြင်းကုဒ်ကိုစကင်ဖတ်စစ်ဆေးသည်နှင့်တပြိုင်နက်, activation code သည်မမှန်ကန်ပါ။ activation code ကိုအသုံးပြုသောအသုံးပြုသူအကောင့်သည်ဝင်ရောက်ခွင့်ပြုလိမ့်မည်။",
+  "watersupplierUnlinkRadioMeterTitle": "ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ",
+  "watersupplierYourSupplier": "သင့်ရေပေးသွင်း",
+  "yearlyConsumption": "ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု",
+  "yearlyCosts": "နှစ်စဉ်စားသုံးမှုယခုအချိန်အထိကုန်ကျစရိတ်",
+  "youtubeConsent1": "Embedded YouTube အကြောင်းအရာကိုပြသရန်သင်၏ခွင့်ပြုချက်ကိုကျွန်ုပ်တို့လိုအပ်သည်။ သင်သည်ဤအရာကိုပြသနိုင်သည် (ထို့ကြောင့် app ထဲတွင်အခြား app တွင်ရှိသော app အားလုံးပါ 0 င်သည့်အကြောင်းအရာများအားလုံးကိုလည်းပြသနိုင်သည်) ကိုတစ်ချက် နှိပ်. ထပ်မံပိတ်ထားသည်။",
+  "youtubeConsent2": "အမြဲတမ်း YouTube အကြောင်းအရာကိုပြပါ",
+  "youtubeConsent3": "ငါမှပြသထားသောပြင်ပအကြောင်းအရာကိုသဘောတူသည်။ ၎င်းသည်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုတတိယပါတီပလက်ဖောင်းများသို့ကူးစက်စေနိုင်သည်။ ငါတို့အပေါ်မှာဒီအပေါ်ပိုပြီး",
+  "zipCode": "စာတိုက်သင်္ကေတ",
+  "zipCodeValidationLength": "ကျေးဇူးပြုပြီး Phtoken0-digit စာတိုက်ကုဒ်ကိုရိုက်ထည့်ပါ",
+  "zipCodeValidationOnlyNumbers": "ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်"
 }
