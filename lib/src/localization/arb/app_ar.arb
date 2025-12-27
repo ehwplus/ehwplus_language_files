@@ -917,5 +917,13 @@
   "priceComparisonDiff": "تدفع {diffWithCurrency} {comparison, select, more {أكثر من} less {أقل من} other {أكثر من}} المتوسط في {countryName}.",
   "roomNamePart": "في {roomName} ",
   "warningOutdatedSinceText": "منذ {date}",
-  "warningNextReminderText": " التذكير التالي هو {date}."
+  "warningNextReminderText": " التذكير التالي هو {date}.",
+  "consumptionYearlyDetailedElectricity": "استهلاكك للكهرباء {ofRange} ({totalConsumption} كيلوواط ساعي ≈ {yearlyConsumption} كيلوواط ساعي/سنة ≈ {monthlyConsumption} كيلوواط ساعي/شهر) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "استهلاكك للغاز {ofRange} ({totalConsumption} كيلوواط ساعي ≈ {yearlyConsumption} كيلوواط ساعي/سنة ≈ {monthlyConsumption} كيلوواط ساعي/شهر) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "أنت تستهلك{verbSuffix} {percentage} أقل من متوسط أسرة مع {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "أنت تستهلك{verbSuffix} {percentage} أكثر من متوسط أسرة مع {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "أنت تستهلك{verbSuffix} نفس الشيء تقريباً متوسط أسرة مع {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "أنت تستهلك حوالي {dailyLiters} لتر يومياً (≈ {monthlyCubicMeters} {unitName} شهرياً).",
+  "consumptionWaterDailyMonthlyPerPerson": "لكل شخص، يستهلك الجميع حوالي {dailyLiters} لتر يومياً (≈ {monthlyCubicMeters} {unitName} شهرياً).",
+  "consumptionYearlyDetailedLevel2": "عادي."
 }

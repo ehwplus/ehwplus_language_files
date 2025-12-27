@@ -1,442 +1,7 @@
 {
-  "appDescriptionShort": "Bra för plånboken, bra för klimatet",
   "@appDescriptionShort": {
     "description": "Marketing claim"
   },
-  "appDescriptionLong": "<p>Välkommen till <b>EHW+</b>, din mätaravläsningsapp för <b>E</b>elektricitet, <b>H</b>ätande och <b>W</b>ater. Hos oss kan du enkelt spåra<b> <b>0hur mycket du använder och vad det<b>1 <b>2kostar<b>3 gratis.<b>4",
-  "contactTitle": "Representeras av:",
-  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontakta\n\nTelefon: 06204/7383382\nMaila: info@ehwplus.com",
-  "euDisputeResolution": "EU-tvistlösning\n\nEuropeiska kommissionen tillhandahåller en plattform för onlinetvistlösning (OS): https://ec.europa.eu/consumers/odr/.\nDu hittar vår e-postadress i imprinten ovan.\n\nKonsumenttvistlösning/universellt tvistlösningsorgan\n\nVi är inte villiga eller skyldiga att delta i tvistlösningsförfaranden inför en konsumentskiljenämnd.",
-  "consent1Hello": "Hej",
-  "consent2ThankYou": "Tack för att du använder EHW+!",
-  "consent3Video": "Vill du se en kort introduktionsvideo?",
-  "consent4BeforeYouCanContinue": "Innan du kan fortsätta",
-  "consent5ErrorReportingTitle": "Felrapporter",
-  "consent6ContractPricesPerUnitTitle": "El / vatten / gas priser",
-  "consent7ContractPricesPerUnit": "För att kunna uppskatta hur mycket du för närvarande betalar jämfört med andra EHW+-användare överförs priserna till EHW+-servern i Tyskland tillsammans med land och stat. Endast om du samtycker till överföringen har du tillgång till prisstatistiken. För att säkerställa anonymiteten kan statistik endast visas efter ett minsta antal överförda priser.",
-  "consent11AnalyticsTitle": "Analysdata",
-  "consent12Analytics": "För att utvärdera framgången för appen eller enskilda funktioner överför appen anonymiserad användningsstatistik. Uppgifterna överförs inte till tredje part. Uppgifterna används för vidareutveckling av appen.",
-  "consent13StromGedachtTitle": "Gridstabilitetsmeddelanden från StromGedacht",
-  "consent13StromGedacht": "StromGedacht, en tjänst som tillhandahålls av TransnetBW, ger information om nätstabilitet och rekommendationer om när elektricitet bör användas i första hand. I takt med att energiomställningen blir mer och mer utmanande för transmissionsnätet, involveras hushållen i sydvästra Tyskland. För att få information om din plats skickas ditt postnummer, om det anges här i appen, till TransnetBW StromGedacht API. Ingen annan data överförs eller länkas.",
-  "stromGedachtAgreement": "Jag samtycker till att mitt postnummer (om det finns) kommer att överföras till TransnetBW för att hämta StromGedacht-meddelanden.",
-  "priceSubmissionAgreement": "Jag håller med om överföring av el/gas/vattenpriser per enhet till en EHW+-server",
-  "googleAnalyticsAgreement": "Jag samtycker till överföring av anonymiserade uppgifter om användningen av appen till EHW+ Services GmbH.",
-  "continueAcceptPart1": "Genom att använda EHW+-appen godkänner du",
-  "continueAcceptPart2": ". För mer information om insamling och användning av anonymiserade och personliga uppgifter, se",
-  "termsOfUsageTitleShort": "Användarvillkor",
-  "faqAboutDeveloperTitle": "Vem ligger bakom EHW+?",
-  "faqAboutDeveloperBody1": "Tack för ditt intresse för EHW+. EHW+ släpptes av mig, Timo Bähr, i december 2020. Jag är apputvecklare på heltid och jobbar på EHW+ på min fritid för att bidra till miljöskyddet. Sedan maj 2022 har en andra utvecklare övervakat mitt arbete, Thomas Hesse bygger backends för EHW+. Sedan april 2023 har Janine Sinner hanterat de många kundfeedbackarna. Sedan juli 2024 har Artem Yuzhakov gått med som apputvecklare.",
-  "faqAboutDeveloperBody2": "Över 26 % av alla koldioxidutsläpp i Tyskland orsakas av privata hushåll. Om alla kan minska sin konsumtion ens lite så har mycket uppnåtts. Tack så mycket för ditt bidrag!",
-  "faqAboutDeveloperBody3": "Vi tar gärna emot förslag på hur appen kan förbättras.",
-  "faqAboutDeveloperBody4": "Jag ber dock om er förståelse för att jag inte kan implementera alla förslag och att nya funktioner tar tid.",
-  "commonCollapse": "Kollapsa",
-  "commonMore": "Mer",
-  "commonSave": "Spara",
-  "commonChange": "Ändra",
-  "commonContinue": "Fortsätta",
-  "commonBack": "Tillbaka",
-  "commonOk": "OK",
-  "commonCancel": "Avboka",
-  "commonClose": "Nära",
-  "commonOpen": "Öppna",
-  "commonSend": "Överlämna",
-  "commonDelete": "Radera",
-  "commonYes": "ja",
-  "commonNo": "inga",
-  "commonLoadingData": "Laddar data",
-  "commonDay": "dag",
-  "commonMonth": "månad",
-  "commonYear": "år",
-  "commonShare": "Dela",
-  "commonCopiedToClipboard": "Kopierade till urklipp",
-  "commonLearnMore": "Läs mer",
-  "commonMinimum": "Lägsta dagsvärde",
-  "commonMaximum": "Högsta dagsvärde",
-  "heatmapLegendTitle": "Mer om värmekartan",
-  "heatmapLegendDisclaimer": "Info: Skuggade rutor innehåller ett uppskattat värde. För att avläsa den faktiska förbrukningen/effekten, vänligen fyll i de saknade mätaravläsningarna om möjligt.",
-  "consumptionHeatmap": "Förbrukningsvärmekarta",
-  "consumptionHeatmapYield": "Utbyte Heatmap",
-  "consumption": "Konsumtion",
-  "consumptionYield": "Avkastning",
-  "showAllYears": "Visa alla år",
-  "appNameShort": "EHW+",
-  "appName": "EHW+ | Förbrukning & mätarställning",
-  "tabCounters": "Meter",
-  "tabStatistics": "Statistik",
-  "tabObject": "Objekt",
-  "tabNews": "Tips/Nyheter",
-  "ofRangeLastDays": "av de senaste {days} dagarna",
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeLastMonths": "för de senaste {months} månaderna",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeFrom": "från {range}",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "readingTime": "Lästid",
-  "reading": "Motläsning",
-  "last2Weeks": "Senaste 14 dagarna",
-  "last12Weeks": "Senaste 12 veckorna",
-  "last12Months": "Senaste 12 månaderna",
-  "sinceInitialReading": "Sedan första läsningen",
-  "lastYear": "Förra året",
-  "periodCustom": "Användardefinierad",
-  "counterReadings": "Avläsningar",
-  "comment": "Bote",
-  "enterComment": "Ange en anteckning",
-  "enterExistingReadingAgain": "Gå in i gammal läsning igen",
-  "meterId": "Räknare-id",
-  "meterReadingSubmitted": "Skickas till leverantören",
-  "newReading": "Ange aktuell avläsning",
-  "newReadingShort": "Ny läsning",
-  "readingWithFactor": "Räknaravläsning med faktor",
-  "csvImportWithFactor": "Ska mätarställningen multipliceras med en faktor som inte är lika med 1,0? Till exempel, för att konvertera värden från Wh till kWh, måste de multipliceras med 0,001.",
-  "newPhoto": "Ta ett nytt foto",
-  "existingPhoto": "Bifoga befintligt foto",
-  "newPhotoOfMeterReading": "Vill du ta ett foto av mätarställningen?",
-  "existingPhotoOfMeterReading": "Vill du bifoga ett befintligt foto av mätarställningen?",
-  "numCounters": "{count, plural, =0 {{count} räknare} one {{count} räknare} other {{count} räknare}}",
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "numMeterReadings": "{readings, plural, one {#läsning} other {# avläsningar}}",
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "firstReadingYield": "Ange den första avkastningen nu.",
-  "firstReadingConsumption": "Ange den första förbrukningen nu.",
-  "firstReadingCounter": "Ange den första räknaren.",
-  "consumptionHeatpump": "Dessutom uppgår värmepumpens strömförbrukning till {formattedValue} kWh.",
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearly": "Din elförbrukning {ofRange} är {consumption} kWh för året.",
-  "@consumptionYearly": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "consumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedElectricityIntro": "Din elförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad)",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedGasIntro": "Din gasförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad)",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel0": "är superlågt.",
-  "consumptionYearlyDetailedLevel1": "är verkligen något att se.",
-  "consumptionYearlyDetailedLevel3": "är relativt hög.",
-  "consumptionYearlyDetailedLevel4": "är normalt.",
-  "consumptionYearlyDetailedYouConsume": "Du konsumerar{verbSuffix}",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLessThan": "{percentage} mindre än",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedMoreThan": "{percentage} mer än",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedAboutSame": "ungefär samma som",
-  "consumptionYearlyDetailedAverageHousehold": "ett genomsnittligt hushåll med {householdSize} {personLabel}",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedOptimalEnding": "Hur gör du?",
-  "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} kWh/månad saknas för optimal förbrukning.",
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} kWh/månad saknas för bra förbrukning.",
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionPersonLabel": "{count, plural, one {person} other {personer}}",
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "consumptionWaterPrefixSingle": "Du konsumerar",
-  "consumptionWaterPrefixPerPerson": "Per person konsumerar alla",
-  "consumptionWaterDailyMonthly": "ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "String"
-      },
-      "monthlyCubicMeters": {
-        "type": "String"
-      },
-      "unitName": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterRangeUnknown": "Din vattenförbrukning {ofRange} ...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallLess": "Din vattenförbrukning {ofRange} är {percentage} lägre än för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallEqual": "Din vattenförbrukning {ofRange} matchar den för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallMore": "Din vattenförbrukning {ofRange} är {percentage} högre än för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdLess": "Kallt vatten: {percentage} mindre än det genomsnittliga hushållet.",
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdMore": "Kallt vatten: {percentage} mer än genomsnittshushållet.",
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdEqual": "Kallt vatten: ungefär samma som det genomsnittliga hushållet.",
-  "consumptionWaterWarmLess": "Varmvatten: {percentage} mindre än det genomsnittliga hushållet.",
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmMore": "Varmvatten: {percentage} mer än genomsnittshushållet.",
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmEqual": "Varmvatten: ungefär samma som det genomsnittliga hushållet.",
-  "yearlyConsumption": "Årlig konsumtion hittills",
-  "yearlyCosts": "Årliga konsumtionskostnader hittills",
-  "room": "Rum",
-  "fedIn": "Matas in",
-  "generated": "Genererad",
-  "residualGenerationEstimated": "Restgenerering uppskattad",
-  "residualConsumptionEstimated": "Restförbrukning uppskattad",
-  "myObjects": "Mina föremål",
-  "roomLivingRoom": "Vardagsrum",
-  "roomDiningRoom": "Matrum",
-  "roomBedroom": "Sovrum",
-  "roomBathroom": "Badrum",
-  "roomWc": "WC",
-  "roomChildrenRoom": "Barnrum",
-  "roomKitchen": "Kök",
-  "roomStoreRoom": "Förrådsrum",
-  "roomOffice": "Kontor",
-  "roomGarden": "Trädgård",
-  "counter": "Disk",
-  "counterDirectionAscending": "stigande",
-  "counterDirectionDescending": "fallande",
-  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "counterWater": "Vattenmätare",
-  "counters": "Meter",
-  "changeCounterOrder": "Vid behov kan du ändra ordningen",
-  "newCounter": "Skapa en ny räknare",
-  "updateObjectName": "Ändra objektnamn",
-  "enterObjectName": "Ge det nya objektet ett namn",
-  "explanationManageMoreThanOneObject": "Har du mer än en fastighet du vill förvalta? Namnge sedan det aktuella objektet och skapa sedan ett annat objekt.",
-  "selectedAtAppStart": "Det översta objektet väljs vid appstart",
-  "reallyDeleteObject": "Är du säker på att du vill ta bort objektet?",
-  "confirmDeleteAtCloud": "Bör \"{objectTitle}\" också raderas från Google Drive?",
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "deleteObjectError": "Kan inte ta bort detta objekt (kod {errorCode}).",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "commonChangeSaved": "Ändring sparad",
-  "commonUpdateNow": "Uppdatera nu",
-  "commonLogout": "Logga ut",
-  "commonLogin": "Logga in",
-  "commonLoggingIn": "Loggar in dig...",
-  "commonLoggingOut": "Loggar ut dig...",
-  "commonNotAuthenticated": "Du är inte autentiserad.",
-  "commonUserLogin": "Användarinloggning",
-  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Du använder EHW+-kontot. {notSubmitted} av {total} köpta produkter kunde inte sparas på EHW+-servern. Vi hoppas kunna lösa problemet snart.",
   "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
     "placeholders": {
       "notSubmitted": {
@@ -449,7 +14,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Ett köp har synkroniserats via EHW+-kontot.} other {{count}-köp har synkroniserats via EHW+-kontot.}}",
   "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
     "placeholders": {
       "count": {
@@ -458,7 +22,6 @@
       }
     }
   },
-  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Du använder EHW+-kontot. Om du köper produkter i framtiden kommer de att synkroniseras på alla dina enheter.} one {Du använder EHW+-kontot. {count} köpt produkt har sparats på EHW+-servern.} other {Du använder EHW+-kontot. {count} köpta produkter har sparats på EHW+-servern.}}",
   "@commonUserLoginDescriptionLoggedInSavedPurchases": {
     "placeholders": {
       "count": {
@@ -467,210 +30,210 @@
       }
     }
   },
-  "commonUserLoginDescriptionNotLoggedIn": "Använder du appen på flera enheter? Genom att logga in på ditt EHW+-konto kan du synkronisera dina inställningar och köpta produkter på alla dina enheter.",
-  "accountUpdateInfo": "Nytt: EHW+-användarkontot",
-  "accountThankYouForPurchase": "Tack! Vill du säkra köpet i ditt EHW+ användarkonto nu?",
-  "accountAbout": "Vad kan EHW+-användarkontot göra?",
-  "accountBenefit1": "Mer tillförlitlig köpigenkänning",
-  "accountBenefit2": "Tillgång till alla köpta expansioner på flera enheter",
-  "accountFaqTitle": "Vanliga frågor:",
-  "accountFaqQ1": "Vad är EHW+-användarkontot?",
-  "accountFaqA1": "EHW+-användarkontot erbjuder en alternativ metod för att återställa köp när återställning via App Store inte är möjlig, vilket ökar tillförlitligheten. Dessutom tillåter det att köp återställs på en enhet där köpet inte ägde rum ursprungligen. I framtiden kommer det även att vara möjligt att spara inställningar med mera.",
-  "accountFaqQ2": "Kommer jag fortfarande att ha tillgång till mina inköp utan ett EHW+-användarkonto?",
-  "accountFaqA2": "Ja, köp kan fortfarande återställas på en Android-enhet via Play Store eller på en iPhone via App Store. EHW+-användarkontot tillhandahåller en alternativ metod för att återställa köp när återställning via App Store inte är möjlig, vilket ökar tillförlitligheten. Dessutom tillåter det att köp återställs på en enhet där köpet inte ägde rum ursprungligen.",
-  "accountButtonSetup": "Konfigurera EHW+ användarkonto",
-  "cometSettingsIsPredictionsApiEnabled": "Använd COMET Forecast API från Goethe-institutet",
-  "cometConsentScreenHeader": "Nytt: Bättre konsumtionsprognoser",
-  "cometConsentScreenHowItWorksTitle": "Hur fungerar det?",
-  "cometConsentScreenOnlineDescriptionTitle": "Med Internetanslutning:",
-  "cometConsentScreenOnlineDescription": "Din förbrukningsdata kommer att skickas till Goethe University Frankfurt, där en individuell prognos skapas och visas i appen.",
-  "cometConsentScreenOfflineDescriptionTitle": "Utan internetanslutning:",
-  "cometConsentScreenOfflineDescription": "En förenklad lokal prognos kommer att beräknas på din enhet.",
-  "cometConsentScreenToggleLabel": "Använd prognostjänst",
-  "cometConsentScreenDataCanBeUsedForTraining": "Data kan användas för att optimera framtida förutsägelser",
-  "cometConsentScreenFeedbackTitle": "Goethe-universitetet behöver din feedback:",
-  "cometConsentScreenFeedbackDescription": "Användningen av prognosen är gratis, men forskargruppen behöver feedback på hur väl tjänsten fungerar.",
-  "cometConsentScreenFeedbackMethod": "Feedback ges automatiskt när du använder förutsägelsetjänsten och accepterar optimering.",
-  "cometConsentScreenDeclineButton": "Jag vill inte ge feedback",
-  "cometConsentScreenAcceptButton": "Jag vill ge feedback",
-  "exportTabHowToExport": "Hur skulle du vilja exportera data?",
-  "exportTabHowToExportOptionShare": "Dela med andra appar",
-  "exportTabHowToExportOptionSaveToDownloads": "Spara i mappen {folder}",
-  "exportTabSnackBarSaveResultMessageSuccess": "Data har sparats som {fileName} i mappen {folder}",
-  "exportTabSnackBarSaveResultMessageError": "Ett fel uppstod när data sparades",
-  "importTabErrorMessageFileWithExtensionNotSelected": "En {extension}-fil krävs för att fortsätta med importen.",
-  "difference": "Skillnad",
-  "period": "Period",
-  "periodHourly": "varje timme",
-  "periodDaily": "dagligen",
-  "periodWeekly": "varje vecka",
-  "periodBiweekly": "som utkommer varannan vecka",
-  "periodMonthly": "månatlig",
-  "periodBimonthly": "varannan månad",
-  "periodQuarterly": "kvartalsvis",
-  "periodHalfYearly": "halvårsvis",
-  "periodYearly": "årlig",
-  "meterCardLastUpdatedLabel": "Uppdaterad",
-  "smartMeterServiceProvider": "Tjänsteleverantör",
-  "smartMeterObtainDataAutomatically": "Få data automatiskt",
-  "smartMeterErrorNoData": "Tyvärr finns det ingen data som appen kan visa.",
-  "smartMeterSettingsScreenSyncButton": "Synkronisera förbrukningsdata",
-  "smartMeterSettingsScreenSyncingDialogHeader": "Synkronisering pågår",
-  "smartMeterSettingsScreenSyncingDialogProgress": "Framsteg: {progressInPercent}%",
-  "smartMeterSettingsScreenSyncingDialogError": "Fel",
-  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Ok",
-  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Följande fel inträffade under synkroniseringen: {errorMessage}",
-  "smartMeterMisconfiguredWidgetCardTitle": "Vänligen ställ in din smarta mätare korrekt.",
-  "smartMeterMisconfiguredWidgetCardButton": "Konfigurera smart mätare",
-  "smartMeterTabConsumptions": "Förbrukning",
-  "smartMeterTabProductions": "Produktioner",
-  "consumptionCacheManagementClearCacheButton": "Rensa cache",
-  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Rensa och synkronisera",
-  "consumptionCacheManagementConfirmClearCacheTitle": "Rensa cache?",
-  "consumptionCacheManagementConfirmClearCacheMessage": "All cachad förbrukningsdata kommer att raderas permanent. Du kan synkronisera det senare.",
-  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Rensa cacheminne och synkronisera?",
-  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "All cachad data kommer att raderas och laddas ner igen från servern. Detta kan ta lite tid.",
-  "consumptionCacheManagementClearedSuccessfully": "Cache rensades framgångsrikt",
-  "tibberAccessToken": "Access Token",
-  "tibberEnterAccessToken": "Vänligen ange åtkomsttoken",
-  "tibberMessageAccessTokenUpdated": "Åtkomsttoken har uppdaterats",
-  "tibberErrorAccessTokenInvalid": "Det verkar som om åtkomsttoken är ogiltig",
-  "tibberErrorNoHomes": "Det finns inga hem kopplade till det här kontot",
-  "tibberErrorSmartMeterMisconfigured": "Din smarta mätare verkar vara felkonfigurerad.",
-  "tibberErrorConnectivityShowCacheInstead": "Det gick inte att hämta senaste förbrukningsdata. Visar cachade värden istället.",
-  "tibberErrorUndefined": "Ett oväntat fel inträffade: {error}",
-  "tibberErrorRateLimit": "Tibber API-hastighetsgräns har överskridits. Vänta minst 5 minuter innan du försöker igen.",
-  "tibberErrorNoSubscription": "För att få full tillgång till historisk data via API:n behöver du ett aktivt Tibber-elkontrakt för den valda bostaden.",
-  "tibberBasicAuth": "Grundläggande Auth",
-  "tibberBasicAuthUsername": "Användarnamn",
-  "tibberBasicAuthPassword": "Lösenord",
-  "tibberBasicAuthEnterUsername": "Vänligen ange användarnamn",
-  "tibberBasicAuthEnterPassword": "Vänligen ange lösenord",
-  "tibberConsumptionEntryTotalCost": "Total kostnad: {totalCost}",
-  "tibberConsumptionEntryTotalProfit": "Total vinst: {totalProfit}",
-  "tibberConsumptionEntryViewTimeSpanYear": "Året {year}",
-  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Ett år från {year}",
-  "tibberConsumptionEntryViewTimeSpanMonth": "Månaden {month}",
-  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "En månad med start {month}",
-  "tibberConsumptionEntryViewTimeSpan24Hours": "24 timmar från {startTime} på {date}",
-  "tibberConsumptionEntryViewTimeSpanOneHour": "En timme från {startTime} på {date}",
-  "tibberConsumptionEntryViewTimeSpanDefault": "Från: {startTime} till {endDate}",
-  "tibberWhereIsMyAccessToken": "Var kan jag hitta min \"åtkomsttoken\"?",
-  "tibberActionSaveAuthorizationSettings": "Spara behörighetsinställningar",
-  "tibberConsentScreenHeader": "Ny funktion: Förbrukningsdata från Tibber Pulse",
-  "tibberConsentScreenDescription": "Är du Tibber-kund eller planerar du att bli det? Vi stödjer nu Pulsen för förbättrad energiövervakning. Observera att historisk data från Pulsen tyvärr endast är tillgänglig för kunder med ett aktivt Tibber-kontrakt.",
-  "tibberConsentScreenBenefit1Title": "Se din elförbrukning",
-  "tibberConsentScreenBenefit1Description": "Spåra din förbrukning i realtid och upptäck dolda energislukare.",
-  "tibberConsentScreenStoreLink": "Besök Tibber Store",
-  "tibberConsentScreenConfigureNowButton": "Ställ in Tibber Pulse nu",
-  "tibberConsentScreenConfigureLaterButton": "Konfigurera senare",
-  "tibberConsentScreenGoetheStudySectionHeader": "Deltagande i forskningsprojektet",
-  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Ja, jag vill delta i Goethe-studien",
-  "tibberConsentScreenGoetheStudyBenefit1Title": "Vill du delta i Goethe-studien?",
-  "tibberConsentScreenGoetheStudyBenefit1Description": "Din timförbrukning från 1 mars kommer att anonymiseras och tillhandahålls för Goethe-studien.",
-  "tibberStatusWidgetTitle": "Cachehantering",
-  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber prenumerationsstatus",
-  "tibberSubscriptionStatusActive": "aktiv",
-  "tibberSubscriptionStatusInactive": "inaktiv",
-  "tibberSubscriptionStatusLoading": "belastning...",
-  "tibberLiveMeasurementCounterCardViewFooter": "Livemätning",
-  "tibberLiveMeasurementsWidgetNotSupported": "Livemätningar stöds inte för det här hemmet.",
-  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Det här hemmet stöder inte livemätningar eller historiska förbrukningsdata. Välj ett annat hem.",
-  "tibberLiveMeasurementsWidgetConnecting": "Ansluter till Tibber Pulse...",
-  "tibberLiveMeasurementsWidgetError": "Ett fel uppstod vid anslutning till Tibber Pulse. Kontrollera din åtkomsttoken och internetanslutning.",
-  "tibberLiveMeasurementWidgetTitle": "Aktuell förbrukning/produktion vid {time}",
-  "tibberLiveMeasurementWidgetTimestamp": "Tidsstämpel",
-  "tibberLiveMeasurementWidgetPower": "Driva",
-  "tibberLiveMeasurementWidgetPowerProduction": "Kraftproduktion",
-  "tibberLiveMeasurementWidgetAveragePower": "Genomsnittlig effekt",
-  "tibberLiveMeasurementWidgetMinPower": "Min effekt",
-  "tibberLiveMeasurementWidgetMaxPower": "Max effekt",
-  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Total förbrukning (sedan midnatt)",
-  "tibberLiveMeasurementWidgetAccumulatedProduction": "Total produktion (sedan midnatt)",
-  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Förbrukning (senaste timmen)",
-  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Produktion (sista timmen)",
-  "tibberLiveMeasurementWidgetLastMeterConsumption": "Mätaravläsning (förbrukning)",
-  "tibberLiveMeasurementWidgetLastMeterProduction": "Mätaravläsning (produktion)",
-  "tibberLiveMeasurementWidgetAccumulatedCost": "Ackumulerad kostnad",
-  "tibberLiveMeasurementWidgetAccumulatedReward": "Ackumulerad belöning",
-  "tibberLiveMeasurementWidgetPowerFactor": "Effektfaktor",
-  "tibberLiveMeasurementWidgetVoltagePhase1": "Spänning (Fas 1)",
-  "tibberLiveMeasurementWidgetVoltagePhase2": "Spänning (Fas 2)",
-  "tibberLiveMeasurementWidgetVoltagePhase3": "Spänning (fas 3)",
-  "tibberLiveMeasurementWidgetCurrentL1": "Ström (L1)",
-  "tibberLiveMeasurementWidgetCurrentL2": "Ström (L2)",
-  "tibberLiveMeasurementWidgetCurrentL3": "Ström (L3)",
-  "tibberLiveMeasurementWidgetUnitV": "V",
-  "tibberLiveMeasurementWidgetUnitW": "W",
-  "tibberLiveMeasurementWidgetUnitA": "A",
-  "tibberHomeSelectorHomeId": "Hem-ID: {homeId}",
-  "tibberHomeSelectorLabel": "Hem",
-  "scanQrCode": "Skanna aktiverings-qr-kod",
-  "requestAccess": "Begär åtkomst",
-  "createAccount": "Skapa konto/logga in",
-  "watersupplierYourSupplier": "Din vattenleverantör",
-  "watersupplierRadioMeterDefaultName": "Radio kallvattenmätare",
-  "watersupplierAccessRequestQ1": "Är du ägare till en fastighet i vattenverkets upptagningsområde och vill ha tillgång till radiomätaravläsningar?",
-  "watersupplierAccessRequestQ2": "Har du redan begärt åtkomst? Därefter måste du skapa ett EHW+-användarkonto.",
-  "watersupplierAccessRequestQ3": "Har du redan begärt åtkomst och fått din QR-kod?",
-  "watersupplierAccessRequestQ4": "Vill du få mätarvarningar så att du kan reagera vid exempelvis ett rörsprängt eller rinnande toalettspolning?",
-  "watersupplierOpenReminderSettings": "Öppna inställningar",
-  "watersupplierScanQrCodeTitle": "Aktivering av radiomätare",
-  "watersupplierScanQrCodeCommand": "Skanna vänster QR-kod (aktiveringskod)!",
-  "watersupplierScanRevokeQrCodeCommand": "Skanna rätt QR-kod (återkalla kod)!",
-  "watersupplierScanQrCodeValidation": "QR-koden har upptäckts, låt oss validera den.",
-  "watersupplierScanQrCodeValidationFailed": "Tyvärr, koden är ogiltig. Vill du försöka igen?",
-  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Du skannade återkallningskoden istället för aktiveringskoden. Försök igen!",
-  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Du skannade aktiveringskoden istället för spärrkoden. Försök igen!",
-  "watersupplierScanQrCodeScanSuccessful": "Wow, aktiveringskoden ser så fin ut! Ange de tre sista siffrorna i ditt mätar-ID!",
-  "watersupplierMeterIdValidationStep": "Vi kontrollerar ditt mätar-ID.",
-  "watersupplierCompleteMeterIdServerErrorTryAgain": "Tyvärr, det fungerade tyvärr inte. Det berodde på vår server. Bäst att försöka igen vid ett senare tillfälle!",
-  "watersupplierCompleteMeterIdTryAgain": "Du ska inte passera! Vänligen ange de tre sista siffrorna i ditt mätar-ID igen!",
-  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Obs! Ditt ursprungliga mätar-ID kan ha fler än 8 tecken.",
-  "watersupplierScanQrCodeApprovalInProgress": "Vi auktoriserar nu ditt konto så att du kan komma åt radiomätaravläsningarna i framtiden.",
-  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Ja! Din radiovattenmätare av typen \"Cold Water\" har lagts till. Du hittar den bland de andra mätarna.",
-  "watersupplierUnlinkRadioMeterTitle": "Avsluta radiomätaråtkomst",
-  "watersupplierUnlinkRadioMeterDescription1": "Vill du radera radiomätaren utan att ogiltigförklara aktiveringskoden?",
-  "watersupplierUnlinkRadioMeterButtonDelete": "Ta bort radiomätare",
-  "watersupplierUnlinkRadioMeterDescription2": "Vill du inte längre ha tillgång till din radiomätardata? Observera: när återkallningskoden har skannats blir aktiveringskoden ogiltig. Alla användarkonton som använde aktiveringskoden kommer att förlora åtkomst.",
-  "watersupplierUnlinkRadioMeterButtonRevoke": "Skanna återkallelsekod",
-  "watersupplierScanQrCodeOffboardingSuccessful": "Åtkomsten till din radiovattenmätare har avbrutits.",
-  "watersupplierNoAccess": "Du har inte längre behörighet att hämta data.",
-  "watersupplierNoAccessDetailedMessage": "Om du anser att du fortfarande borde ha åtkomst, vänligen skanna din aktiveringskod igen. Om åtkomstkoden inte längre är giltig, skicka in en ny begäran om åtkomst.",
-  "zipCode": "postnummer",
-  "zipCodeValidationOnlyNumbers": "Ett giltigt postnummer består endast av nummer",
-  "zipCodeValidationLength": "Vänligen ange ett {digits}-siffrigt postnummer",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
+  "@confirmDeleteAtCloud": {
     "placeholders": {
-      "digits": {
-        "example": "5",
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
+  "@counterNum": {
+    "placeholders": {
+      "count": {
         "type": "int"
       }
     }
   },
-  "houseName": "Husets namn",
-  "houseNameDescription": "Husnamn, t.ex. gatunamn",
-  "marketLocationId": "Marknadsplats-ID",
-  "marketLocationIdDescription": "Marknadsplats-ID består alltid av 11 siffror. Du kan vanligtvis hitta detta på din senaste el- eller gasräkning.",
-  "swimmingPool": "Simbassäng",
-  "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} fick infokod: {infocode}",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "smartmeterId": {
-        "type": "String"
-      },
-      "infocode": {
-        "type": "String"
-      }
-    }
-  },
-  "smartmeterInfocodeBannerTextInfocodeLeckage": "Din vattenmätare {smartmeterId} har upptäckt ett kontinuerligt vattenflöde. Detta kan tyda på en läcka. Kontrollera din hushållsinstallation för läckor. Toaletter och droppande kranar är vanliga orsaker.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Din vattenmätare {smartmeterId} har upptäckt ovanligt hög vattenförbrukning, vilket kan tyda på ett rörsprängt. Kontrollera din hushållsinstallation för större läckor eller brott. Larmet kan även dyka upp om du har använt en stor mängd vatten, t.ex. för att fylla en pool.",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Din vattenmätare {smartmeterId} har upptäckt ovanligt hög vattenförbrukning, vilket kan indikera antingen en rörsprängning eller en poolfyllning. Kontrollera din hushållsinstallation för större läckor eller brott.",
-  "smartmeterInfocodeBannerTextInfocodeFrost": "Temperaturen på din vattenmätare {smartmeterId} har sjunkit under 3°C. Det finns risk för frost! Isolera mätaren och rören eller värm upp området för att förhindra skador.",
-  "smartMeterCountersTitle": "Radiovattenmätare",
-  "counterOutdatedAndNextReminder": "Motläsning föråldrad sedan {date}, nästa läsningspåminnelse {date2}.",
   "@counterOutdatedAndNextReminder": {
     "placeholders": {
       "date": {
@@ -681,7 +244,540 @@
       }
     }
   },
-  "waterMeterEventsInformation": "{count, plural, =1 {Din trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du en avisering i sådant fall.} other {Dina trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du ett meddelande i sådana fall.}}",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "@waterMeterEventsInformation": {
     "placeholders": {
       "count": {
@@ -694,1014 +790,912 @@
       }
     }
   },
-  "subscribeToSmartMeterInfocodeEvents": "Jag skulle vilja bli meddelad om oväntad konsumtion",
-  "completeButton": "Komplett",
-  "reset": "Återställa",
-  "settingCounterTypeColor": "Färg för denna disktyp",
-  "settingCounterTypeColorDescription": "Om du inte gillar standardfärgen för denna disktyp kan du tilldela en annan färg.",
-  "settingCounterTypeColorAdvanced": "Färgväljare för experter",
-  "featureVotingUnderConstruction": "Funktionsundersökningen revideras för närvarande. I framtiden kommer ett EHW+ användarkonto att krävas och undersökningen kommer inte längre att använda tredjepartsservrar. Vi uppskattar ditt tålamod.",
-  "termsOfUsageTitle": "Allmänna användarvillkor för användning av appen",
-  "termsOfUsageBlock1Title": "Allmänna användarvillkor för användning av appen",
-  "termsOfUsageBlock1": "Invändningsrätt",
-  "@termsOfUsageBlock1": {
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
     "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2Title": "Allmän information om användning",
-  "termsOfUsageBlock2": "Appen och dess funktioner får inte användas på ett kränkande sätt. Vänligen använd appen endast inom den lagligt tillåtna omfattningen och i enlighet med våra användarvillkor. I händelse av brott mot tillämplig tysk lag eller våra användarvillkor förbehåller sig leverantören rätten att utesluta dig från att använda appen.",
-  "termsOfUsageBlock2a": "Anonymiserad användningsdata\nVi använder vår egen analys för att kontinuerligt förbättra appen.\nEndast anonymiserade uppgifter överförs.\nUppgifterna lämnas inte vidare till tredje part.\nFör mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2b": "Felrapporter\nSentry (självvärd) används för att kontinuerligt förbättra appen.\nFelrapporter varken behandlas eller delas med tredje part.\nFör mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2c": "Personlig information\nOm du använder Google Drive Sync har EHW+ fortfarande ingen åtkomst till den data du har angett. För mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}.",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock3Title": "Ansvar",
-  "termsOfUsageBlock3": "Leverantören garanterar inte tillgängligheten, tillförlitligheten, funktionaliteten eller lämpligheten av appen för dina ändamål. Ansvar är uteslutet såvida det inte är obligatoriskt enligt produktansvarslagen, på grund av uppsåt, grov vårdslöshet, skada på liv, lem eller hälsa, antagandet om kvalitetsgaranti, bedrägligt döljande av en defekt eller brott mot väsentliga avtalsförpliktelser. Väsentliga avtalsförpliktelser är de skyldigheter vars fullgörande är avgörande för ett korrekt genomförande av ett kontrakt och vars efterlevnad de avtalsslutande parterna regelbundet kan lita på. Ersättning för skador på grund av brott mot väsentliga avtalsförpliktelser är begränsad till den förutsebara skada som är typisk för denna typ av kontrakt, såvida det inte föreligger uppsåt eller grov vårdslöshet.",
-  "termsOfUsageBlock4Title": "Användarens ansvar",
-  "termsOfUsageBlock4": "Leverantören garanterar inte att beräkningsresultaten är korrekta. Användare är skyldiga att uppdatera de priser som lagras i applikationen (baspriser, konsumtionspriser etc.) noggrant och på eget ansvar för att säkerställa att de fakturor som genereras motsvarar de faktiska belopp som ska betalas.",
-  "privacyBlock1Title": "Framkallare",
-  "privacyBlock1Text": "Utvecklaren/leverantören av applikationen (nedan kallad \"app\") är, i enlighet med § 5 i den tyska telemedialagen (TMG):\n\n{contact}",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock1Text2": "Användning av appen kräver att du godkänner följande användarvillkor. Läs dem noggrant.",
-  "privacyBlock2Title": "Allmän",
-  "privacyBlock2Text": "Skyddet av dina uppgifter är mycket viktigt för oss. Denna integritetspolicy förklarar vilka personuppgifter EHW+ samlar in och hur de används. Grundläggande ändringar av integritetspolicyn är sällsynta, men den kan revideras då och då på grund av nya funktioner, teknologier eller juridiska krav. Så vänligen kolla denna sida då och då för att hålla dig uppdaterad. Om vi ​​gör några väsentliga ändringar kommer vi att meddela dig och vid behov inhämta ditt samtycke.",
-  "privacyBlock3Title": "Vilken data samlar {appNameShort} in?",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3aText": "Vi skapade {appNameShort} så att du snabbt och enkelt kan ange dina mätarställning och sedan använda statistik för att ta reda på mer om din förbrukning, dess kostnader och potentiella besparingar. Det betyder att du kan ange, beräkna eller spara vilken data som helst, som vi i allmänhet kallar \"innehåll\", i {appNameShort}. Denna data lagras endast på din mobiltelefon.\n\nSynkronisera med Google Drive.\nOm du aktiverar synkronisering med Google Drive kommer innehållet också automatiskt att säkerhetskopieras i en mapp som heter \"{appNameShort}\" på din Google Drive, som bara du kan komma åt. Genom att logga in med Google kommer din e-postadress att vara synlig för utvecklaren.",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "googleApiAgreement": "{appNameShort}:s användning och överföring till någon annan app av information som tas emot från Googles API:er kommer att följa Googles API-tjänsters användardatapolicy, inklusive kraven för begränsad användning.",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3bText": "{googleApiAgreement}\n\nPlatsdata.\nFör att förstå användarbeteende och för framtida funktioner överför appen anonymiserad användningsdata.\nUppgifterna delas inte med tredje part.\nInformation kan samlas in om ursprung (land och stad), språk, operativsystem, enhetstyp, upplösning, klickbeteende och användningstid.\n\nEnhetsdata.\nVi samlar in data om antalet och typen av enheter du använder för att ansluta till tjänsten, samt information om operativsystemet på dessa enheter (t.ex. Android, iOS, Windows eller macOS).\n\nGenom att använda appen samtycker du till insamling av anonymiserad data enligt beskrivningen ovan.",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyContractPriceSubmission": "När du som användare underhåller dina avtalsdata överförs priset per enhet för el-, vatten- och gaskontrakt till en EHW+-server i Tyskland tillsammans med landet och förbundsstaten. Dessa data används för att beräkna prisstatistik. För appanvändare är statistiken synlig i form av en prisjämförelse i kontraktsvyn.\n\nGenom att använda appen samtycker du till ovan nämnda insamling av anonymiserad data.",
-  "privacyBlock4DataUsageTitle": "Hur använder {appNameShort} min data?",
-  "privacyBlock4DataUsage": "Insamlad anonymiserad data används för att utvärdera användarnas beteende. Utöver detta finns ingen ytterligare användning av data.\n\n{syncDriveDataUsage}",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock5Title": "Varaktighet för lagring av personuppgifter",
-  "privacyBlock5": "Varaktigheten av lagringen av personuppgifter bestäms av respektive lagstadgad lagringsperiod (t.ex. kommersiella och skatterättsliga lagringsperioder). Efter utgången av perioden raderas motsvarande uppgifter rutinmässigt, förutsatt att de inte längre behövs för att fullgöra eller inleda ett avtal och/eller att vi inte längre har ett berättigat intresse av att den fortsätter att lagras.",
-  "youtubeConsent1": "Vi behöver ditt samtycke för att visa det inbäddade YouTube-innehållet. Du kan visa detta (och därmed även allt annat Youtube-innehåll i appen) med ett klick och även avaktivera det igen.",
-  "youtubeConsent2": "Visa alltid YouTube-innehåll",
-  "youtubeConsent3": "Jag samtycker till att externt innehåll visas för mig. Detta kan leda till att personuppgifter överförs till tredje parts plattformar. Mer om detta i vår",
-  "privacyBlock6Title": "Kontakta",
-  "privacyBlock6": "När du kontaktar oss (t.ex. via kontaktformulär eller e-post) samlas personuppgifter in. Uppgifterna som samlas in vid kontaktformulär kan ses på respektive kontaktformulär. Dessa uppgifter lagras och används uteslutande i syfte att svara på din förfrågan eller för att upprätta kontakt och tillhörande teknisk administration. Den rättsliga grunden för behandlingen av uppgifterna är vårt berättigade intresse av att svara på din begäran i enlighet med art. 6 para. 1 lit. f GDPR. Om din kontakt syftar till att ingå ett avtal är den ytterligare rättsliga grunden för behandlingen art. 6 para. 1 lit. b GDPR. Dina uppgifter kommer att raderas efter att din förfrågan har behandlats, vilket är fallet om det av omständigheterna kan utläsas att ärendet i fråga är slutligt klarlagt och under förutsättning att det inte finns några rättsliga skyldigheter att bevara uppgifter.",
-  "privacyBlock7Title": "Den berörda personens rättigheter",
-  "privacyBlock7": "Den tillämpliga dataskyddslagstiftningen ger dig omfattande rättigheter som registrerad (rätt till information och ingripande) gentemot den personuppgiftsansvarige med avseende på behandlingen av dina personuppgifter, vilket vi kommer att informera dig om nedan:\n\n- Rätt till information enligt art. 15 GDPR: Du har särskilt rätt att få information om dina personuppgifter som behandlas av oss, ändamålen med behandlingen, kategorierna av personuppgifter som behandlas, mottagare eller kategorier av mottagare till vilka dina uppgifter har lämnats eller kommer att lämnas ut, den planerade lagringsperioden eller kriterierna för att bestämma lagringsperioden, förekomsten av en rätt till rättelse, invändning mot en behandling, begränsning av en behandling, begränsning av behandling, tillsynsmyndighet, ursprunget till dina uppgifter om de inte har samlats in av oss från dig, förekomsten av automatiserat beslutsfattande, inklusive profilering, och, i förekommande fall, meningsfull information om logiken som är involverad och betydelsen och de förväntade konsekvenserna av sådan behandling för dig, samt din rätt att bli informerad om de garantier som finns i enlighet med Art. 46 GDPR när dina uppgifter överförs till tredjeländer;\n\n- Rätt till rättelse enligt art. 16 GDPR: Du har rätt att utan dröjsmål få felaktiga uppgifter om dig rättade och/eller att få ofullständiga uppgifter som lagras av oss kompletterade.\n\n- Rätt till radering enligt art. 17 GDPR: Du har rätt att begära radering av dina personuppgifter om villkoren i art. 17(1) GDPR är uppfyllda. Denna rätt gäller dock inte särskilt om behandlingen är nödvändig för att utöva yttrande- och informationsfriheten, för att uppfylla en rättslig skyldighet, av hänsyn till allmänintresset eller för att fastställa, utöva eller försvara rättsliga anspråk.\n\n- Rätt till begränsning av behandlingen enligt art. 18 GDPR: Du har rätt att begära begränsning av behandlingen av dina personuppgifter så länge som riktigheten av dina uppgifter verifieras om du har invänt mot radering av dina uppgifter på grund av otillåten databehandling och istället begära begränsning av behandlingen av dina uppgifter om du behöver dina uppgifter för att hävda, utöva eller försvara dig för att uppfylla rättsliga anspråk för detta, om vi inte längre har behov av detta, eller om vi inte längre har behov av detta, har lämnat in en invändning på grunder som rör din speciella situation, så länge det ännu inte är klart om våra legitima skäl råder;\n\n- Rätt att bli informerad enligt art. 19 GDPR: Om du har utövat din rätt till rättelse, radering eller begränsning av behandling gentemot den personuppgiftsansvarige, är den personuppgiftsansvarige skyldig att meddela alla mottagare till vilka dina personuppgifter har lämnats ut om denna rättelse eller radering av uppgifterna eller begränsning av behandlingen, såvida detta inte visar sig vara omöjligt eller innebär oproportionerlig ansträngning. Du har rätt att bli informerad om dessa mottagare.\n\n- Rätt till dataportabilitet enligt art. 20 GDPR: Du har rätt att få dina personuppgifter som du har lämnat till oss i ett strukturerat, allmänt använt och maskinläsbart format eller att begära att de överförs till en annan personuppgiftsansvarig, där det är tekniskt möjligt.\n\n- Rätt att återkalla samtycke som beviljats ​​i enlighet med art. 7(3) GDPR: Du har rätt att när som helst återkalla ditt samtycke till behandling av uppgifter med verkan för framtiden. Vid återkallelse kommer vi att radera berörda uppgifter utan dröjsmål, såvida inte vidare behandling kan baseras på en laglig grund för behandling utan samtycke. Återkallandet av samtycke påverkar inte lagenligheten av behandlingen baserad på samtycke innan dess återkallelse.\n\n- Rätt att inge klagomål enligt art. 77 GDPR: Om du anser att behandlingen av dina personuppgifter bryter mot GDPR har du rätt att lämna in ett klagomål till en tillsynsmyndighet, särskilt i den medlemsstat där du är bosatt, på din arbetsplats eller på platsen för den påstådda överträdelsen, utan att det påverkar andra administrativa eller rättsliga åtgärder.",
-  "privacyBlock8Title": "Invändningsrätt",
-  "privacyBlock8": "OM VI BEHANDLAR DINA PERSONUPPGIFTER PÅ GRUND AV VÅRT ÖVERGRIPANDE LEGITIMMA INTRESSE SOM EN DEL I EN INTRESSEAVVÄGNING, HAR DU RÄTT ATT INvända MOT DENNA BEHANDLING NÄR SOM HELST AV SKÄL SOM HELST AV SÄRSKILT DIN SÄRSKILD. OM DU UTÖVER DIN RÄTT ATT INKOMST KOMMER VI ATT SLUTA ATT BEHANDLA BERÖRDA DATA. YTTERLIGARE BEHANDLING FÖRSTÅR ​​DOCK RESERVERAD OM VI KAN BEVISA TRYGANDE LEGITIMA SKÄL FÖR BEHANDLINGEN SOM ÅSTIGER DINA INTRESSEN, grundläggande rättigheter och friheter, eller om behandlingen tjänar till att hävda, utöva eller försvara rättsliga anspråk.\n\nOM VI BEHANDLAR DINA PERSONUPPGIFTER FÖR DIREKTMARKNADSFÖRINGSSYFTEN, HAR DU RÄTT ATT NÄR SOM HELST INKOMST MOT BEHANDLING AV PERSONUPPGIFTER OM DIG FÖR SYFTE MED SÅDAN REKLAM. DU KAN UTÖVA DIN RÄTT ATT KOMMA IGEN SOM BESKRIVS Ovan.\n\nOM DU UTÖVER DIN RÄTT ATT INKOMST KOMMER VI ATT SLUTA BEHANDLING AV UPPGIFTER OM DIG FÖR DIREKTMARKNADSFÖRINGSSYFTEN.",
-  "activityTitle": "Aktivitet",
-  "activitiesTitle": "Mina aktiviteter",
-  "activitiesDescription": "Koppla mätaravläsningar till aktiviteter, t.ex. tvätt med kallvattenmätare och elmätare.",
-  "sortActivities": "Ändra ordningen på aktiviteterna",
-  "resetActivities": "Återställ alla aktiviteter",
-  "addActivity": "Lägg till aktivitet",
-  "activitySettings": "Aktivitetsinställningar",
-  "activityOverview": "Aktivitetsöversikt",
-  "activityNameLabel": "Aktivitetsnamn",
-  "chooseActivity": "Välj aktivitet",
-  "selectedActivity": "Vald aktivitet \"${activityName}\"",
-  "chooseActivityIcon": "Välj en ikon",
-  "involvedCounters": "Räknare inblandade",
-  "detailsTitle": "Detaljer",
-  "detailWithMultiSelect": "Tillåt flerval",
-  "addDetail": "Lägg till detaljer",
-  "editDetailTitle": "Redigera detalj",
-  "activityWithEnergyConsumption": "Strömförbrukningen mäts endast för aktivitet",
-  "consumptionIsNotExclusiveTitle": "Är konsumtion exklusiv?",
-  "consumptionIsNotExclusive": "Om förbrukningen inte är exklusiv för denna aktivitet kommer den att visas som en varning.",
-  "numberOfDetails": "{count, plural, one {1 detalj} other {{count} detaljer}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
+      "digits": {
+        "example": "5",
         "type": "int"
       }
     }
   },
-  "reallyDeleteActivity": "Vill du verkligen ta bort den här aktiviteten?",
-  "reallyDeleteDetail": "Vill du verkligen radera denna detalj?",
-  "reallyDeleteContract": "Vill du verkligen ta bort det här kontraktet?",
-  "contractCopyDialogTitle": "Vill du göra en kopia av detta kontrakt?",
-  "contractCopyDialogOptionYes": "Ja, enhetspriset eller något annat värde har ändrats.",
-  "contractCopyDialogOptionNo": "Nej, avbryt.",
-  "contractCopyDialogWhen": "Från när gäller det nya priset?",
-  "contractCosts": "Enhetspris",
-  "contractCostsFeedIn": "Ersättningspris/baspris",
-  "counterWarmWaterPlusColdWater": "Exklusive färskvatten och avloppsvattenkostnader",
-  "advancePayment": "Förskottsbetalning",
-  "bonus": "Bonus",
-  "bonusInfoTitle": "Information om bonustariffer",
-  "bonusInfoText": "Tariffer med bonus ger ofta extra höga besparingar vid byte av leverantör. Detta beror dock vanligtvis uteslutande på engångsbonusen. Det betyder: De totala kostnaderna är så låga bara under det första leveransåret. Högt arbete och/eller grundpriser ger under andra året en klart högre kalkyl. Därför bör du med bonustariffer redan från början planera för att ändra igen efter ett år. Bonustariffer med en löptid på två år, där denna uppsägning inte alls är möjlig, bör ifrågasättas särskilt kritiskt.",
-  "source": "Källa:",
-  "basePrice": "Grundpris",
-  "gross": "brutto",
-  "net": "netto",
-  "grossNetPrices": "Brutto- eller nettopris",
-  "taxRate": "Skattesats",
-  "perUnit": "per {unit}",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "wasteWaterPriceEnabled": "Färskvatten och avloppsvattenkostnader visas separat (relevant för avdragsmätare)",
-  "pricePerUnit": "Pris per enhet",
-  "pricePerUnitFeedIn": "Ersättningspris",
-  "pricePerUnitWaterWarm": "Varmvattenuppvärmningskostnader",
-  "pricePerUnitWaterCold": "Kostnad för kallt vatten",
-  "pricePerUnitFreshWater": "Kostnader för färskvatten",
-  "pricePerUnitWasteWater": "Avloppsvattenpris",
-  "paidAdvancePayments": "Förskottsbetalningar",
-  "supplementaryPayment": "Tilläggsbetalning",
-  "refund": "Återbetalning",
-  "costs": "Kostnader",
-  "contract": "Kontrakt",
-  "contractDetails": "Kontraktets varaktighet och detaljer",
-  "usedForPaymentsRepayments": "Förskottsbetalning, grundpris och bonus",
-  "contractName": "Namn på leverantör/kontrakt",
-  "contractNumber": "Kontraktsnummer",
-  "contractStart": "Kontraktets startdatum",
-  "contractPeriod": "Avtalstid",
-  "cancellationPeriod": "Uppsägningstid",
+  "accountAbout": "Vad kan EHW+-användarkontot göra?",
+  "accountBenefit1": "Mer tillförlitlig köpigenkänning",
+  "accountBenefit2": "Tillgång till alla köpta expansioner på flera enheter",
+  "accountButtonSetup": "Konfigurera EHW+ användarkonto",
+  "accountFaqA1": "EHW+-användarkontot erbjuder en alternativ metod för att återställa köp när återställning via App Store inte är möjlig, vilket ökar tillförlitligheten. Dessutom tillåter det att köp återställs på en enhet där köpet inte ägde rum ursprungligen. I framtiden kommer det även att vara möjligt att spara inställningar med mera.",
+  "accountFaqA2": "Ja, köp kan fortfarande återställas på en Android-enhet via Play Store eller på en iPhone via App Store. EHW+-användarkontot tillhandahåller en alternativ metod för att återställa köp när återställning via App Store inte är möjlig, vilket ökar tillförlitligheten. Dessutom tillåter det att köp återställs på en enhet där köpet inte ägde rum ursprungligen.",
+  "accountFaqQ1": "Vad är EHW+-användarkontot?",
+  "accountFaqQ2": "Kommer jag fortfarande att ha tillgång till mina inköp utan ett EHW+-användarkonto?",
+  "accountFaqTitle": "Vanliga frågor:",
+  "accountThankYouForPurchase": "Tack! Vill du säkra köpet i ditt EHW+ användarkonto nu?",
+  "accountUpdateInfo": "Nytt: EHW+-användarkontot",
+  "activitiesDescription": "Koppla mätaravläsningar till aktiviteter, t.ex. tvätt med kallvattenmätare och elmätare.",
+  "activitiesTitle": "Mina aktiviteter",
+  "activityBath": "Bad",
+  "activityDishWasher": "Diskmaskin",
+  "activityIron": "Strykning",
+  "activityNameLabel": "Aktivitetsnamn",
+  "activityOverview": "Aktivitetsöversikt",
+  "activitySettings": "Aktivitetsinställningar",
+  "activityShower": "Dusch",
+  "activityTitle": "Aktivitet",
   "activityWash": "Tvättning",
-  "activityWashTemperature": "Temperatur",
   "activityWashDuration": "Varaktighet",
   "activityWashDuration2hrs": "2h",
   "activityWashRotations": "Rotationer",
   "activityWashShort": "Kort program",
-  "activityShower": "Dusch",
-  "activityBath": "Bad",
-  "activityDishWasher": "Diskmaskin",
-  "activityIron": "Strykning",
-  "errorNoInternet": "Inget nätverk",
-  "errorInvalidRange": "Inget giltigt intervall",
-  "syncDriveLoggedIn": "Din data synkroniseras automatiskt över flera enheter. Följande Google-konto används:",
-  "syncDriveLoggedInNoAuto": "Din data laddas automatiskt upp till Google Drive efter en ändring. Nyare data från molnet skriver bara över lokal data när du klickar på objektet. Följande Google-konto används:",
-  "syncDriveDataUsage": "Om du ger EHW+ åtkomst till Google Drive kommer appen att ha läs- och skrivåtkomst till filer som skapats av appen själv. Tyvärr är filer som skapats av andra via den här appen inte synliga för appen, vilket innebär att datadelning mellan flera konton via Google Drive inte är möjlig.",
-  "syncAutomaticTitle": "Lokal data kan skrivas över",
-  "syncShareWithOthersTitle": "Dela med andra?",
-  "syncShareWithOthersSubtitle": "Om du vill ange mätarställning tillsammans med andra Google-användare måste EHW+ ges full åtkomst till Google Drive.",
-  "syncShareWithOthersNotInWeb": "Att bevilja åtkomst är för närvarande endast möjligt via app.",
-  "syncWithGoogleDriveDescription": "Eftersom det skulle vara synd om mätaravläsningarna gick förlorade, synkronisera dina objekt med Google Drive nu!",
-  "driveSyncStatusTitle": "Synkroniseringsstatus",
-  "driveSyncStatusNotSynced": "Ej synkroniserad",
-  "driveSyncStatusFailed": "Det gick inte att synkronisera",
-  "driveSyncStatusComparing": "Jämför med fil på server",
-  "driveSyncStatusSyncing": "Synkronisering pågår",
-  "driveSyncStatusLocalHasLatestNoCloud": "Filen som sparats på den här enheten från {localDate} sparas inte i molnet",
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusLocalHasLatestWithCloud": "Filen som sparats på den här enheten från {localDate} är mer uppdaterad än filen i molnet från {cloudDate}",
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      },
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestNoLocal": "Filen i molnet från {cloudDate} sparas inte på den här enheten",
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestWithLocal": "Filen i molnet från {cloudDate} är mer uppdaterad än den lokala filen från {localDate}",
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusUpToDate": "Uppdaterad från {localDate}",
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncWithGoogle": "Google Drive Sync",
-  "driveSyncNow": "Synkronisera nu",
-  "driveSignInWithGoogle": "Logga in med Google",
-  "signInWithGoogle": "Logga in med Google",
-  "signInWithApple": "Logga in med Apple",
-  "signInWithGithub": "Logga in med GitHub",
-  "signInWithSocialAccount": "Vilket socialt konto vill du använda för att skapa eller logga in på ditt EHW+-konto?",
-  "syncStatusFailedLong": "Det gick inte att synkronisera, redigering sker på egen risk",
-  "syncStatusFailedLongNoAutoSync": "Det gick inte att synkronisera, redigering sker på egen risk",
-  "syncStatusSyncRemoteHasLatest": "Filen i molnet är mer uppdaterad än den lokala filen",
-  "syncObjectIsLocked": "Objektdata uppdateras och kan inte redigeras under denna tid.",
-  "importExport": "Säkerhetskopiera/återställa",
-  "import": "Importera",
-  "importPickFile": "Välj fil",
-  "importSelectSingleCounter": "Enkel räknare (CSV-fil)",
-  "importSelectJson": "JSON-fil (skapad med {appName})",
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "importWhichCounterForCsv": "Vilken räknare ska användas?",
-  "importNewOrExistingCounter": "Lägg till i ny eller befintlig disk?",
-  "importConfirm": "Bekräfta importen",
-  "importTheObject": "Importera objekt",
-  "importExplanation": "Du har redan gjort räknare och vill infoga dem?",
-  "importCounterAsCsv": "Vill du importera en enda mätare? Stöd per meter är en CSV-fil med två kolumner, en för tiden och en för mätarställningen.\n\nExempeldata:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
-  "importSuccessful": "Importen lyckades",
-  "importNotPossible": "Import inte möjlig",
-  "importErrorCsvIgnoredLines": "{count, plural, one {En rad ignorerades: {lines}} other {{count} rader ignorerades: {lines}}}",
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "importErrorCsvIgnoredColumns": "{columns, plural, one {Endast de två första kolumnerna användes. Den tredje kolumnen ignorerades.} other {Endast de två första kolumnerna användes, {columns} kolumner ignorerades.}}",
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "consentTitle": "Sekretessinställningar",
-  "privacyTitle": "Integritetspolicy",
-  "imprintTitle": "Avtryck",
-  "faqTitle": "FAQ",
-  "socialFacebook": "Facebook",
-  "socialInstagram": "Instagram",
-  "socialTwitter": "X",
-  "export": "Exportera",
-  "exportExplanation": "Vilket befintligt objekt vill du exportera, till exempel för att överföra det till en ny enhet?",
-  "exportWhere": "I vilket format ska objektet exporteras?",
-  "exportWhichValuesShouldBeExported": "Vilka värden ska exporteras?",
-  "exportOptionExcel": "Excel-fil",
-  "exportOptionPdf": "PDF-fil",
-  "exportOptionFileDescription": "Objektet delas som en {fileType}-fil",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "socialLinkedIn": "LinkedIn",
-  "socialYouTube": "YouTube",
-  "socialEmail": "E-post",
-  "social": "Sociala medier",
-  "support": "Support/feedback",
-  "supportQuestion": "Ställa en fråga",
-  "supportQuestionBox": "Behöver du hjälp?",
-  "supportQuestionNotFound": "Din fråga besvarades inte? Jag hjälper gärna till.",
-  "supportQuestionLong": "Hur fungerar det? Är det överhuvudtaget möjligt? Här är svaren.",
-  "supportReportBug": "Rapportera ett fel via mail",
-  "supportReportBugTextIs": "Beskriv kort det aktuella felaktiga beteendet, det vill säga själva felet.",
-  "supportReportBugTextShould": "Beskriv kortfattat det önskade beteendet, dvs hur det egentligen ska vara.",
-  "supportReportBugAffectedPages": "På vilka sidor uppstår felet? (om tillämpligt)",
-  "supportReportBugScreenshotsPlease": "Bifoga gärna en skärmdump i mailet, gärna med markering av felet.",
-  "supportBug": "Bugga",
-  "supportReportBugLong": "Jättebra app! Men visst, saker kan gå fel. Om du rapporterar buggar gör du appen bättre.",
-  "supportGivePraise": "Ge beröm",
-  "supportGivePraiseLong": "Gillar du appen? Tack! Sprid ordet!",
-  "supportGivePraiseRecommendation": "Rekommendera appen till vänner och familj. Tack för alla rekommendationer!",
-  "supportRecommend": "Jag använder mätaravläsningsappen EHW+ för att hålla reda på min energiförbrukning och de relaterade kostnaderna. Kanske skulle det vara något för dig också?\n\nMer info på https://www.ehwplus.com",
-  "supportGivePraiseRating": "Betygsätt appen i {store}.",
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "electricityConsumption": "Energiförbrukning",
-  "waterExtractionMinimumLevelLower": "Avdrag sker för att konsumtionen är lägre än tröskeln.",
-  "outdatedCounters": "Räknare används inte längre",
-  "isOutdatedCounter": "Räknaren används inte längre",
-  "waterConsumption": "Vattenförbrukning",
-  "rooms": "Rum",
-  "messageNoRooms": "Inga rum ännu. Rum hjälper gruppmätare.",
-  "settingObjectType": "Objekttyp",
-  "settingObjectTypeFlat": "Lägenhet",
-  "settingObjectTypeHouse": "Hus",
-  "settingLivingArea": "Vardagsrum",
-  "unitSquareMeters": "kvm",
-  "unitMWhShort": "MWh",
-  "unitMWhLong": "{count, plural, one {Megawattimme (MWh)} other {Megawattimmar (MWh)}}",
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitKWhShort": "kWh",
-  "unitKWhLong": "{count, plural, one {Kilowatt timme (kWh)} other {Kilowatt timmar (kWh)}}",
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitGJShort": "GJ",
-  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoule (GJ)}}",
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitLitersShort": "ℓ",
-  "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCmShort": "cm",
-  "unitCmLong": "cm",
-  "unitSquareMetersShort": "m²",
-  "unitSquareMetersLong": "{count, plural, one {Kvadratmeter (m²)} other {Kvadratmeter (m²)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCubicMetersShort": "m³",
-  "unitCubicMetersLong": "{count, plural, one {Kubikmeter (m³)} other {Kubikmeter (m³)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitPercentShort": "%",
-  "unitPercentLong": "Procent (%)",
-  "unitKgShort": "kg",
-  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitHoursShort": "h",
-  "unitHoursLong": "{count, plural, one {Timme} other {Timmar (h)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitNoneFormatted": "{count, plural, one {enhet} other {enheter}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitMegaByteShort": "MB",
-  "unitMegaByteLong": "MB",
-  "unitGigaByteShort": "GB",
-  "unitGigaByteLong": "GB",
-  "settingHouseholdSize": "Hushållsstorlek",
-  "settingHouseholdSizeDescription": "Antal personer i ditt hushåll.",
-  "settingWaterHeater": "Varmvattenberedare",
-  "settingEAuto": "Elbil",
-  "settingObjectLocation": "Plats",
-  "settingObjectLocationTitle": "Var finns ditt objekt?",
-  "settingObjectLocationExplanation": "Att ange platsen hjälper till att skräddarsy insikter och tjänster till ditt område.",
-  "counterBackgroundImageOfObject": "Bakgrundsbild för objekt",
-  "manageMoreThanOneObjectStep1": "Hantera mer än ett objekt - Steg 1",
-  "manageMoreThanOneObjectStep2": "Hantera mer än ett objekt - Steg 2",
-  "contracts": "Kontrakt",
-  "messageNoContracts": "Inga kontrakt ännu.",
-  "outdatedContracts": "Föråldrade kontrakt",
-  "contractType": "Kontraktstyp",
-  "electricity": "Elektricitet",
-  "electricityBack": "El matas in",
-  "electricityGenerated": "Genererad el",
-  "heatPump": "Värmepump",
+  "activityWashTemperature": "Temperatur",
+  "activityWithEnergyConsumption": "Strömförbrukningen mäts endast för aktivitet",
+  "addActivity": "Lägg till aktivitet",
+  "addDetail": "Lägg till detaljer",
+  "addNewValue": "Ange nytt värde",
+  "advancePayment": "Förskottsbetalning",
+  "appBarExpandedMode": "App bar med bakgrundsbild",
+  "appDescriptionLong": "<p>Välkommen till <b>EHW+</b>, din mätaravläsningsapp för <b>E</b>elektricitet, <b>H</b>ätande och <b>W</b>ater. Hos oss kan du enkelt spåra<b> <b>0hur mycket du använder och vad det<b>1 <b>2kostar<b>3 gratis.<b>4",
+  "appDescriptionShort": "Bra för plånboken, bra för klimatet",
+  "appName": "EHW+ | Förbrukning & mätarställning",
+  "appNameShort": "EHW+",
+  "areYouSure": "Är du säker?",
+  "basePrice": "Grundpris",
+  "bonus": "Bonus",
+  "bonusInfoText": "Tariffer med bonus ger ofta extra höga besparingar vid byte av leverantör. Detta beror dock vanligtvis uteslutande på engångsbonusen. Det betyder: De totala kostnaderna är så låga bara under det första leveransåret. Högt arbete och/eller grundpriser ger under andra året en klart högre kalkyl. Därför bör du med bonustariffer redan från början planera för att ändra igen efter ett år. Bonustariffer med en löptid på två år, där denna uppsägning inte alls är möjlig, bör ifrågasättas särskilt kritiskt.",
+  "bonusInfoTitle": "Information om bonustariffer",
+  "cancellationPeriod": "Uppsägningstid",
+  "changeCounterOrder": "Vid behov kan du ändra ordningen",
+  "chartDottedLinesNonSeasonal": "De streckade kurvorna representerar föregående period. För valet \"Senaste 14 dagarna\", till exempel, visas de 28 senaste dagarna, där de äldre 14 av dem visas streckade.",
+  "chartDottedLinesSeasonal": "De streckade kurvorna representerar föregående period. För valet \"Senaste 14 dagarna\", till exempel, visas de 28 senaste dagarna, där de äldre 14 av dem visas streckade.",
+  "chartHorizontalLineElectricityGas": "Den gröna linjen står för en mycket bra förbrukning, den gula linjen för en bra förbrukning, den röda linjen för den tyska genomsnittskonsumtionen.",
+  "chartHorizontalLineWater": "I genomsnitt använder varje person i Tyskland 127 liter dricksvatten i hushållet varje dag. Den blå linjen representerar kallt vatten (60 %), den röda linjen varmvatten (40 %), extrapolerat till antalet dagar i perioden och antalet personer.",
+  "chartHorizontalLines": "De streckade linjerna är avsedda att ge feedback på din egen konsumtion.",
+  "chooseActivity": "Välj aktivitet",
+  "chooseActivityIcon": "Välj en ikon",
   "coldWater": "Kallt vatten",
-  "counterHeater": "Kylarmätare",
-  "counterDistrictHeating": "Fjärrvärme",
-  "counterOilHeating": "Oljeeldning",
-  "counterGas": "Gasmätare",
+  "cometConsentScreenAcceptButton": "Jag vill ge feedback",
+  "cometConsentScreenDataCanBeUsedForTraining": "Data kan användas för att optimera framtida förutsägelser",
+  "cometConsentScreenDeclineButton": "Jag vill inte ge feedback",
+  "cometConsentScreenFeedbackDescription": "Användningen av prognosen är gratis, men forskargruppen behöver feedback på hur väl tjänsten fungerar.",
+  "cometConsentScreenFeedbackMethod": "Feedback ges automatiskt när du använder förutsägelsetjänsten och accepterar optimering.",
+  "cometConsentScreenFeedbackTitle": "Goethe-universitetet behöver din feedback:",
+  "cometConsentScreenHeader": "Nytt: Bättre konsumtionsprognoser",
+  "cometConsentScreenHowItWorksTitle": "Hur fungerar det?",
+  "cometConsentScreenOfflineDescription": "En förenklad lokal prognos kommer att beräknas på din enhet.",
+  "cometConsentScreenOfflineDescriptionTitle": "Utan internetanslutning:",
+  "cometConsentScreenOnlineDescription": "Din förbrukningsdata kommer att skickas till Goethe University Frankfurt, där en individuell prognos skapas och visas i appen.",
+  "cometConsentScreenOnlineDescriptionTitle": "Med Internetanslutning:",
+  "cometConsentScreenToggleLabel": "Använd prognostjänst",
+  "cometSettingsIsPredictionsApiEnabled": "Använd COMET Forecast API från Goethe-institutet",
+  "comment": "Bote",
+  "commonAnd": "och",
+  "commonBack": "Tillbaka",
+  "commonCancel": "Avboka",
+  "commonChange": "Ändra",
+  "commonChangeSaved": "Ändring sparad",
+  "commonClose": "Nära",
+  "commonCollapse": "Kollapsa",
+  "commonContinue": "Fortsätta",
+  "commonCopiedToClipboard": "Kopierade till urklipp",
+  "commonDay": "dag",
+  "commonDelete": "Radera",
+  "commonLearnMore": "Läs mer",
+  "commonLoadingData": "Laddar data",
+  "commonLoggingIn": "Loggar in dig...",
+  "commonLoggingOut": "Loggar ut dig...",
+  "commonLogin": "Logga in",
+  "commonLogout": "Logga ut",
+  "commonMaximum": "Högsta dagsvärde",
+  "commonMinimum": "Lägsta dagsvärde",
+  "commonMonth": "månad",
+  "commonMore": "Mer",
+  "commonNo": "inga",
+  "commonNotAuthenticated": "Du är inte autentiserad.",
+  "commonOk": "OK",
+  "commonOpen": "Öppna",
+  "commonSave": "Spara",
+  "commonSend": "Överlämna",
+  "commonShare": "Dela",
+  "commonUpdateNow": "Uppdatera nu",
+  "commonUserLogin": "Användarinloggning",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Du använder EHW+-kontot. {notSubmitted} av {total} köpta produkter kunde inte sparas på EHW+-servern. Vi hoppas kunna lösa problemet snart.",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Ett köp har synkroniserats via EHW+-kontot.} other {{count}-köp har synkroniserats via EHW+-kontot.}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Du använder EHW+-kontot. Om du köper produkter i framtiden kommer de att synkroniseras på alla dina enheter.} one {Du använder EHW+-kontot. {count} köpt produkt har sparats på EHW+-servern.} other {Du använder EHW+-kontot. {count} köpta produkter har sparats på EHW+-servern.}}",
+  "commonUserLoginDescriptionNotLoggedIn": "Använder du appen på flera enheter? Genom att logga in på ditt EHW+-konto kan du synkronisera dina inställningar och köpta produkter på alla dina enheter.",
+  "commonYear": "år",
+  "commonYes": "ja",
+  "completeButton": "Komplett",
+  "confirmDeleteAtCloud": "Bör \"{objectTitle}\" också raderas från Google Drive?",
+  "consent11AnalyticsTitle": "Analysdata",
+  "consent12Analytics": "För att utvärdera framgången för appen eller enskilda funktioner överför appen anonymiserad användningsstatistik. Uppgifterna överförs inte till tredje part. Uppgifterna används för vidareutveckling av appen.",
+  "consent13StromGedacht": "StromGedacht, en tjänst som tillhandahålls av TransnetBW, ger information om nätstabilitet och rekommendationer om när elektricitet bör användas i första hand. I takt med att energiomställningen blir mer och mer utmanande för transmissionsnätet, involveras hushållen i sydvästra Tyskland. För att få information om din plats skickas ditt postnummer, om det anges här i appen, till TransnetBW StromGedacht API. Ingen annan data överförs eller länkas.",
+  "consent13StromGedachtTitle": "Gridstabilitetsmeddelanden från StromGedacht",
+  "consent1Hello": "Hej",
+  "consent2ThankYou": "Tack för att du använder EHW+!",
+  "consent3Video": "Vill du se en kort introduktionsvideo?",
+  "consent4BeforeYouCanContinue": "Innan du kan fortsätta",
+  "consent5ErrorReportingTitle": "Felrapporter",
+  "consent6ContractPricesPerUnitTitle": "El / vatten / gas priser",
+  "consent7ContractPricesPerUnit": "För att kunna uppskatta hur mycket du för närvarande betalar jämfört med andra EHW+-användare överförs priserna till EHW+-servern i Tyskland tillsammans med land och stat. Endast om du samtycker till överföringen har du tillgång till prisstatistiken. För att säkerställa anonymiteten kan statistik endast visas efter ett minsta antal överförda priser.",
+  "consentTitle": "Sekretessinställningar",
+  "consumption": "Konsumtion",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "Rensa och synkronisera",
+  "consumptionCacheManagementClearCacheButton": "Rensa cache",
+  "consumptionCacheManagementClearedSuccessfully": "Cache rensades framgångsrikt",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "All cachad data kommer att raderas och laddas ner igen från servern. Detta kan ta lite tid.",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Rensa cacheminne och synkronisera?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "All cachad förbrukningsdata kommer att raderas permanent. Du kan synkronisera det senare.",
+  "consumptionCacheManagementConfirmClearCacheTitle": "Rensa cache?",
+  "consumptionHeatmap": "Förbrukningsvärmekarta",
+  "consumptionHeatmapYield": "Utbyte Heatmap",
+  "consumptionHeatpump": "Dessutom uppgår värmepumpens strömförbrukning till {formattedValue} kWh.",
+  "consumptionIsNotExclusive": "Om förbrukningen inte är exklusiv för denna aktivitet kommer den att visas som en varning.",
+  "consumptionIsNotExclusiveTitle": "Är konsumtion exklusiv?",
+  "consumptionPersonLabel": "{count, plural, one {person} other {personer}}",
+  "consumptionWaterColdEqual": "Kallt vatten: ungefär samma som det genomsnittliga hushållet.",
+  "consumptionWaterColdLess": "Kallt vatten: {percentage} mindre än det genomsnittliga hushållet.",
+  "consumptionWaterColdMore": "Kallt vatten: {percentage} mer än genomsnittshushållet.",
+  "consumptionWaterDailyMonthly": "ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per person konsumerar alla ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
+  "consumptionWaterDailyMonthlySingle": "Du konsumerar ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
+  "consumptionWaterOverallEqual": "Din vattenförbrukning {ofRange} matchar den för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionWaterOverallLess": "Din vattenförbrukning {ofRange} är {percentage} lägre än för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionWaterOverallMore": "Din vattenförbrukning {ofRange} är {percentage} högre än för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionWaterPrefixPerPerson": "Per person konsumerar alla",
+  "consumptionWaterPrefixSingle": "Du konsumerar",
+  "consumptionWaterRangeUnknown": "Din vattenförbrukning {ofRange} ...",
+  "consumptionWaterWarmEqual": "Varmvatten: ungefär samma som det genomsnittliga hushållet.",
+  "consumptionWaterWarmLess": "Varmvatten: {percentage} mindre än det genomsnittliga hushållet.",
+  "consumptionWaterWarmMore": "Varmvatten: {percentage} mer än genomsnittshushållet.",
+  "consumptionYearly": "Din elförbrukning {ofRange} är {consumption} kWh för året.",
+  "consumptionYearlyDetailedAboutSame": "ungefär samma som",
+  "consumptionYearlyDetailedAverageHousehold": "ett genomsnittligt hushåll med {householdSize} {personLabel}",
+  "consumptionYearlyDetailedComparisonEqual": "Du konsumerar{verbSuffix} ungefär samma som ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonLess": "Du konsumerar{verbSuffix} {percentage} mindre än ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Du konsumerar{verbSuffix} {percentage} mer än ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedElectricity": "Din elförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad) {consumptionLevel}.",
+  "consumptionYearlyDetailedElectricityIntro": "Din elförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad)",
+  "consumptionYearlyDetailedGas": "Din gasförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad) {consumptionLevel}.",
+  "consumptionYearlyDetailedGasIntro": "Din gasförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad)",
+  "consumptionYearlyDetailedLessThan": "{percentage} mindre än",
+  "consumptionYearlyDetailedLevel0": "är superlågt.",
+  "consumptionYearlyDetailedLevel1": "är verkligen något att se.",
+  "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} saknas för optimal förbrukning.",
+  "consumptionYearlyDetailedLevel2": "är normalt.",
+  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} saknas för bra förbrukning.",
+  "consumptionYearlyDetailedLevel3": "är relativt hög.",
+  "consumptionYearlyDetailedLevel4": "är normalt.",
+  "consumptionYearlyDetailedMoreThan": "{percentage} mer än",
+  "consumptionYearlyDetailedOptimalEnding": "Hur gör du?",
+  "consumptionYearlyDetailedYouConsume": "Du konsumerar{verbSuffix}",
+  "consumptionYield": "Avkastning",
+  "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontakta\n\nTelefon: 06204/7383382\nMaila: info@ehwplus.com",
+  "contactTitle": "Representeras av:",
+  "continueAcceptPart1": "Genom att använda EHW+-appen godkänner du",
+  "continueAcceptPart2": ". För mer information om insamling och användning av anonymiserade och personliga uppgifter, se",
+  "contract": "Kontrakt",
+  "contractCopyDialogOptionNo": "Nej, avbryt.",
+  "contractCopyDialogOptionYes": "Ja, enhetspriset eller något annat värde har ändrats.",
+  "contractCopyDialogTitle": "Vill du göra en kopia av detta kontrakt?",
+  "contractCopyDialogWhen": "Från när gäller det nya priset?",
+  "contractCosts": "Enhetspris",
+  "contractCostsFeedIn": "Ersättningspris/baspris",
+  "contractDetails": "Kontraktets varaktighet och detaljer",
+  "contractName": "Namn på leverantör/kontrakt",
+  "contractNumber": "Kontraktsnummer",
+  "contractPeriod": "Avtalstid",
+  "contractReminder": "Avtalspåminnelse",
+  "contractStart": "Kontraktets startdatum",
+  "contractType": "Kontraktstyp",
+  "contractTypeElectricityProvider": "Elleverantör",
+  "contractTypeGasProvider": "Gasleverantör",
+  "contractTypeHeatingFees": "Uppvärmningsavgifter",
+  "contractTypeNetwork": "Internet & telefon",
+  "contractTypeOilProvider": "Oljeleverantör",
+  "contractTypeStove": "Spis",
+  "contractTypeWaterFees": "Vattenavgifter",
+  "contracts": "Kontrakt",
+  "corresponds": "motsvarar",
+  "costSummary": "Kostnadssammanställning",
+  "costSummaryYield": "Ersättningspris/-baspris",
+  "costs": "Kostnader",
+  "costsUndefinedColdWater": "Kallvattenavgifter",
+  "costsUndefinedElectricity": "Elavgifter",
+  "costsUndefinedFor": "Kostar odefinierat",
+  "costsUndefinedForType": "{type} för odefinierat",
+  "costsUndefinedGas": "Gasavgifter",
+  "costsUndefinedHeater": "Värmare avgifter",
+  "costsUndefinedNetworkCounter": "Internetavgifter",
+  "costsUndefinedOilHeating": "Oljeavgifter",
+  "costsUndefinedWarmWater": "Varmvattenavgifter",
+  "counter": "Disk",
+  "counterBackgroundImage": "Bakgrundsbild för disk",
+  "counterBackgroundImageOfObject": "Bakgrundsbild för objekt",
   "counterColdWater": "Kallvattenmätare",
-  "counterWaterExtraction": "Vattenuttagsmätare (trädgård)",
-  "counterWaterExtractionExplanation": "Med en avdragsmätare kan kostnaderna för avloppsvatten reduceras. Med detta köp i appen kan du ange olika kostnader för färskvatten och avloppsvatten och mätarställningen från avdragsmätaren kommer att beaktas i vattenkostnaderna.",
-  "warmWater": "Varmt vatten",
-  "counterWarmWater": "Varmvattenmätare",
+  "counterConsiderForTotalConsumptions": "Tänk på den totala förbrukningen",
+  "counterConsiderForTotalElectricity": "Tänk på den totala elförbrukningen",
+  "counterConsiderForTotalWater": "Tänk på den totala vattenförbrukningen",
+  "counterContractCurrentlyUsed": "För närvarande använt kontrakt",
+  "counterDeleteConfirm": "Ta bort räknare?",
+  "counterDirection": "Riktning",
+  "counterDirectionAscending": "stigande",
+  "counterDirectionDescending": "fallande",
+  "counterDirectionExplanation": "Minskar värdet med användning (nivåindikator etc.) eller ökar värdet med användning (brännartimmar, oljemätare etc.) eller är varje avläsningsvärde oberoende (förbrukning/utbyte)?",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "counterDistrictHeating": "Fjärrvärme",
+  "counterEdit": "Redigera räknare",
   "counterElectricity": "Elmätare",
   "counterElectricityBack": "Elinmatningsmätare (PV)",
   "counterElectricityGenerated": "Elproduktionsmätare",
-  "counterPvFeedInCounter": "Förnybar energi (solenergi och värme med PV/solsystem)",
-  "counterPvFeedInCounterExplanation": "Använd en elinmatningsmätare för att registrera den el som genereras och matas in\nmed ett solcellssystem. De resulterande intäkterna kvittas mot kostnaden för\nelen som dras.",
-  "virtualCounter": "Virtuell mätare",
-  "heater": "Radiator",
-  "gas": "Gas",
-  "oil": "Olja",
-  "stove": "Spis",
-  "networkCounter": "Internet & telefon",
-  "solarThermalCollector": "Solfångare",
-  "contractTypeElectricityProvider": "Elleverantör",
-  "contractTypeWaterFees": "Vattenavgifter",
-  "contractTypeHeatingFees": "Uppvärmningsavgifter",
-  "contractTypeOilProvider": "Oljeleverantör",
-  "contractTypeGasProvider": "Gasleverantör",
-  "contractTypeStove": "Spis",
-  "contractTypeNetwork": "Internet & telefon",
-  "currency": "Valuta",
-  "costsUndefinedFor": "Kostar odefinierat",
-  "exportOptionReadingsTitle": "Läsa värden",
-  "exportOptionReadingsSubtitle": "Typiskt mätaravläsning eller förbrukning med oregelbundna intervall.",
-  "exportOptionConsumptionsTitle": "Daglig konsumtion",
-  "exportOptionConsumptionsSubtitle": "Ett förbrukningsvärde för varje dag sedan den första avläsningen.",
-  "settings": "Inställningar",
-  "roomOther": "Andra",
-  "previouslyDeletedCounters": "Nyligen raderade mätare",
-  "restoreDeletedCounter": "Vill du återställa denna raderade mätare?",
-  "localWriteTitle": "Spara i den lokala nedladdningsmappen",
-  "localWriteSubtitle": "Ska objekten och fotona sparas i den lokala mappen \"{folder}\" vid varje ändring?",
-  "settingUiMode": "Gräns-snittet",
-  "settingUiColorPalette": "Färgpalett",
-  "settingUiModeDarkOrLight": "Mörk/ljus användargränssnitt",
-  "settingLanguageMode": "Språk",
-  "settingUiModeOsDefault": "System",
-  "settingUiModeLight": "Ljus",
-  "settingUiModeDark": "Mörk",
-  "appBarExpandedMode": "App bar med bakgrundsbild",
-  "useDismissibleSettings": "Ta bort genom svepgest",
-  "useDismissibleSettingsDetailed": "Räknare, kontrakt etc. kan raderas genom en sidosveprörelse",
-  "settingsExternalServices": "Externa tjänster",
-  "settingsShowTabNewsDetailed": "Ska fliken Nyheter/Tips vara synlig?",
-  "settingsShowStromGedacht": "Ska tips från StromGedacht om elnätet visas?",
-  "lineChartAppearanceSettings": "Linjediagrams utseende",
-  "lineChartAppearanceSettingsShowSpots": "Visa (cirkulära) fläckar på linjerna i diagram",
-  "supportMakeSuggestion": "Föreslå något",
-  "supportMakeSuggestionLong": "Appen lever från användarförslag. Har du något förslag?",
-  "featureVoting": "Funktionsröstning",
-  "featureVotingOnlyOnGerman": "Funktionsundersökningen är inte översatt till andra språk.",
-  "notifications": "Aviseringar",
-  "notificationsEmpty": "Inga aviseringar",
-  "notificationsSmartMeterAlertFallback": "Du har en ny larm för smartmätare.",
-  "readingNew": "Ny läsning",
-  "readingUpdate": "Uppdatera läsning",
-  "readingPrefill": "Autofyll mätaravläsning",
-  "readingPrefillDisabled": "Autofyll avaktiverad",
-  "readingPrefillEnableForAllCounters": "Aktivera autofyll för alla räknare",
-  "readingPrefillDisableForAllCounters": "Inaktivera automatisk fyllning för alla räknare",
-  "readingPrefillDescription": "Förfyll mätaravläsningar baserat på tidigare poster",
-  "readingPrefillDisabledToast": "Autofyll avaktiverad",
-  "readingSubmitted": "Mätaravläsning inlämnad",
-  "readingDeleteConfirm": "Radera läsning?",
-  "reminderTime": "Påminnelsetid",
-  "reminderWeekdayExplanation": "Det finns en påminnelse om att läsa en läsning inte mer än en gång om dagen.",
-  "reminderWeekdayExplanationSeasonal": "För mätare med säsongsförbrukning skickas påminnelser endast i månader med förbrukning (fungerar endast om värden för det senaste året anges).",
-  "readingReminder": "{count, plural, one {Läspåminnelse} other {Läspåminnelser}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "readingReminders": "Läspåminnelser",
-  "readingReminderDisabled": "Läspåminnelse inte aktiv",
-  "readingRemindersChannel": "Läspåminnelser",
-  "readingReminderSingleBody": "Läs {counterName}-värdet nu",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "readingReminderMultiBody": "{count, plural, one {Läs avläsningar från {count}-mätaren nu} other {Läs avläsningar från {count} meter nu}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "contractReminder": "Avtalspåminnelse",
-  "outdated": "Föråldrad",
-  "counterNew": "Ny disk",
-  "counterEdit": "Redigera räknare",
-  "counterGasConversionFactor": "Omvandlingsfaktor",
-  "counterGasCalorificValue": "Värmevärde",
-  "counterGasConversionFactorHelpText": "Ca 1,0. Villkorsnumret används för att omvandla driftsvolymen till en standardvolym. Driftstillståndet är tillståndet för gasen vid mätaren och är beroende av det aktuella trycket (höjden) och temperaturen.",
-  "counterGasCalorificValueHelpText": "Värmevärde: Dimensionslös faktor för att omvandla den uppmätta gasvolymen till energi. Naturgas: vanligtvis mellan 9,0 och 12,5 kWh/m³, gasol: mellan 23,0 och 33,0 kWh/m³",
-  "counterTypeLabel": "Typ av disk",
-  "counterMeterId": "Mätar-ID",
-  "counterName": "Räknarens namn",
-  "counterContractCurrentlyUsed": "För närvarande använt kontrakt",
-  "counterSelected": "Vald",
-  "counterNoContractSelected": "Inget kontrakt valt",
-  "counterOtherContracts": "Andra kontrakt",
-  "counterExcludedContracts": "Undantagna kontrakt",
-  "counterInclude": "Omfatta",
   "counterExclude": "Utesluta",
-  "counterTankCapacity": "Tankkapacitet",
-  "counterTankFillHeight": "Fyllhöjd",
-  "counterFactorDescription": "Tilldelas konsumtionen endast till dig på en pro rata-basis? Ange andelen som ett värde mellan 0,1 (10 %) och 1,0 (100 %).",
-  "counterTransducerFactor": "Transformatorförhållande",
-  "counterProportionateConsumption": "Proportionell konsumtion",
-  "counterFactor": "Faktor",
-  "counterTransducerFactorExplained": "Om en spänningstransformator används för att sänka spänningen innan den når mätaren, måste en ny omvandlingsfaktor tillämpas för att få rätt avläsningar. Exempel: mätaren visar 100 000 kWh med en omvandlingsfaktor på 20. Rätt värde är: 100 000 kWh x 20 = 2 000 000 kWh.",
-  "counterFractionDigits": "Bråktalssiffror",
-  "counterDirection": "Riktning",
-  "counterDirectionExplanation": "Minskar värdet med användning (nivåindikator etc.) eller ökar värdet med användning (brännartimmar, oljemätare etc.) eller är varje avläsningsvärde oberoende (förbrukning/utbyte)?",
-  "counterConsiderForTotalElectricity": "Tänk på den totala elförbrukningen",
-  "counterConsiderForTotalWater": "Tänk på den totala vattenförbrukningen",
-  "counterWaterExtractionMinimumLevel": "Lägsta nivå",
-  "counterBackgroundImage": "Bakgrundsbild för disk",
-  "counterShowReadingsChart": "Visa avläsningsdiagram",
-  "counterShowHeatmap": "Visa värmekarta",
-  "counterShowPreliminaryCurve": "Visa preliminär kurva",
-  "seasonalCounter": "Säsongsdisk",
-  "seasonalElectricityCounter": "Säsongsbetonad elräknare",
+  "counterExcludedContracts": "Undantagna kontrakt",
   "counterExplainSeasonal": "Ställa mätarställningen på 0 under sommaren? På vintern kommer avläsningarna att följa ditt normala konsumtionsmönster; på sommaren kommer de att hålla sig platt.",
+  "counterFactor": "Faktor",
+  "counterFactorDescription": "Tilldelas konsumtionen endast till dig på en pro rata-basis? Ange andelen som ett värde mellan 0,1 (10 %) och 1,0 (100 %).",
+  "counterFractionDigits": "Bråktalssiffror",
+  "counterGas": "Gasmätare",
+  "counterGasCalorificValue": "Värmevärde",
+  "counterGasCalorificValueHelpText": "Värmevärde: Dimensionslös faktor för att omvandla den uppmätta gasvolymen till energi. Naturgas: vanligtvis mellan 9,0 och 12,5 kWh/m³, gasol: mellan 23,0 och 33,0 kWh/m³",
+  "counterGasCalorificValueLabel": "Värmevärde*",
+  "counterGasConversionFactor": "Omvandlingsfaktor",
+  "counterGasConversionFactorHelpText": "Ca 1,0. Villkorsnumret används för att omvandla driftsvolymen till en standardvolym. Driftstillståndet är tillståndet för gasen vid mätaren och är beroende av det aktuella trycket (höjden) och temperaturen.",
+  "counterGasConversionFactorLabel": "Omvandlingsfaktor*",
+  "counterHeater": "Kylarmätare",
+  "counterInclude": "Omfatta",
   "counterIsOutdated": "Räknaren är föråldrad",
   "counterLinkMoreRecent": "Länka nyare räknare",
-  "counterReplacedBy": "Ersatt av",
-  "counterReallyDeleteLink": "Ta bort länk?",
-  "counterDeleteConfirm": "Ta bort räknare?",
-  "counterGasCalorificValueLabel": "Värmevärde*",
-  "counterGasConversionFactorLabel": "Omvandlingsfaktor*",
-  "counterNoRoomConnection": "Ingen rumsanslutning",
-  "counterRoom": "Rum",
   "counterMessageRoomOptional": "En rumsuppgift hjälper till med gruppering men är valfri.",
-  "teaserPurchaseVirtualCounter": "Lägg till virtuella räknare med Premium.",
-  "teaserPurchaseWaterExtractionCounter": "Lås upp vattenutsugningsdiskar med Premium.",
-  "teaserPurchaseRenewableEnergies": "Förnybara energiräknare kräver Premium.",
-  "settingYearlyReset": "Årlig återställning",
-  "settingYearlyResetOn": "på",
-  "settingShowCounterReadingsChart": "Visa avläsningsdiagram",
-  "settingShowHeatmap": "Visa värmekarta",
-  "settingShowPreliminaryCurve": "Visa preliminär kurva",
-  "unitLiters": "liter",
-  "unitCm": "cm",
-  "unitNone": "ingen",
-  "roomType": "Rumstyp",
-  "roomName": "Rumsnamn",
-  "roomNameHint": "Tilldela eventuellt ett rumsnamn",
-  "roomNew": "Nytt rum",
-  "roomDeleteConfirm": "Ta bort rum?",
-  "settingColor": "Färg",
+  "counterMeterId": "Mätar-ID",
+  "counterName": "Räknarens namn",
+  "counterNew": "Ny disk",
+  "counterNoContractSelected": "Inget kontrakt valt",
+  "counterNoRoomConnection": "Ingen rumsanslutning",
   "counterNum": "{count} räknare",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "timeInFuture": "I framtiden",
-  "timeLastUpdated": "senast uppdaterad",
-  "timeSeconds": "sek",
-  "timeMinutes": "minuter",
-  "timeHours": "timmar",
-  "timeDays": "dagar",
-  "timeDaysWithin": "dagar",
-  "timeMonth": "månad",
-  "timeMonths": "månader",
-  "timeMonthsWithin": "månader",
-  "timeJustNow": "just nu",
-  "timeMinutesAgo": "{minutes} minuter sedan",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "timeHoursAgo": "{hours} timmar sedan",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "timeToday": "i dag",
-  "timeDayAgo": "en dag sedan",
-  "timeDaysAgo": "{days} dagar sedan",
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "timeMonthsAgo": "{months} månader sedan",
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "timeForFirstYear": "för det första året",
-  "timeWeek": "vecka",
-  "timeWeeks": "veckor",
-  "timeWithin": "Inom {duration}",
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "timeYesterday": "i går",
-  "timeMonday": "måndag",
-  "timeTuesday": "tisdag",
-  "timeWednesday": "onsdag",
-  "timeThursday": "torsdag",
-  "timeFriday": "fredag",
-  "timeSaturday": "lördag",
-  "timeSunday": "söndag",
-  "timeFromUndefined": "Odefinierad",
-  "timeUntilUnlimited": "Obegränsat",
-  "timeUntilDate": "Fram till {date}",
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeFromDate": "Från {date}",
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeReminderAtStart": "Vid start",
-  "timeReminderAtEnd": "På slutet",
-  "timePeriodYearStart": "årlig",
-  "timeRightNow": "Just nu",
-  "timeBefore": "Före",
-  "purchasesUpgrade": "Uppgradera",
-  "upgradeDescription": "Appen kan göra mer. Bättre kostnadsöversikt, mer statistik, Excel-export, fler räknare, ...",
-  "purchasesWhyBuyTitle": "Varför ska jag köpa något?",
-  "purchasesWhyBuyText": "Med ett köp deltar du i de kostnader jag ådrar mig genom att publicera appen och stödjer vidareutvecklingen.",
-  "purchasesIOSRestorePurchases": "Återställ inköp",
-  "purchasesIOSRestorePurchasesDescription": "Om du redan har köpt något i AppStore tidigare kan du återställa köpen.",
-  "purchasesDisabledOnIOS": "Köp i appen har inaktiverats",
-  "purchasesDisabledOnIOSDescription": "Kontrollera om köp i appen är inaktiverade på din iPhone (Inställningar > Skärmtid > Begränsningar > Appinstallationer och köp > Tillåt köp i appen)",
-  "purchasesDisabledOnIOSDescriptionTestflight": "Appen installerades via Testflight. Observera att köp endast fungerar i appen om du installerar appen via App Store.",
-  "purchasesSubscribePremium": "Prenumerera Premium",
-  "purchasesSubscribePremiumTextLong": "Tillgång till alla betalfunktioner under prenumerationsperioden + utomhustemperaturer",
-  "purchasesWebLegalNote": "Av juridiska skäl är ett köp endast möjligt för en iPhone eller Android-telefon med PlayStore-tjänster.",
-  "purchasesYourPurchases": "Du har tillgång till följande premiumpaket:",
-  "purchasesExtensionsTitle": "Enstaka förlängningar",
-  "purchasesExtensionsSubtitle": "Köp en gång, använd permanent (ingen prenumeration)",
-  "purchasesExtensionStatisticsTitle": "Avancerad statistik",
-  "purchasesExtensionMultipleObjectsTitlePart": "Hantera flera objekt",
-  "purchasesExtensionMultipleObjectsDescription": "Ange mätarställningen för så många lägenheter/hus/objekt du vill (istället för bara för ett objekt)",
-  "purchasesExtensionsInWork": "Ytterligare utbyggnader planeras. Delta i funktionsundersökningen för att säga din mening.",
-  "purchasesSubscribeNow": "Prenumerera nu",
-  "purchasesBuyNow": "Köp nu",
-  "purchasesRedeemCode": "Lös in kod",
-  "purchasesEarlyBirdSubscription": "Obs: Om denna förstagångskundprenumeration avbryts kan den inte prenumereras på igen efteråt.",
-  "purchasesPurchasedIncludedInPremium": "Ingår i Premium",
-  "purchasesPurchasedSubscribed": "Prenumererade",
-  "purchasesPurchased": "Köpt",
-  "purchasesExtensionStatisticsDescription": "Tillgång till års-/månads-/veckoförbrukning av el/gas/vatten/... + periodjusteringar + detaljerad kostnadsöversikt + Excel-export",
-  "commonAnd": "och",
-  "purchasesSubscribePremiumMonthly": "Månatlig uppsägningsbar prenumeration för endast {price} per månad",
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumMonthlyWithNewPrice": "Månatlig uppsägningsbar prenumeration till lojalitetspriset {price} per månad istället för {priceNew}",
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearly": "Årlig uppsägningsbar prenumeration för endast {price} per år",
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearlyWithNewPrice": "Årlig uppsägningsbar prenumeration till lojalitetspriset {price} per år istället för {priceNew}",
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesStatisticsWithPremium": "Med Premium får du tillgång till en månatlig jämförelse{count, plural, =0{.}=1{.}other{ och även se historisk data för {years}.}}",
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "years": {
-        "type": "String"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "smartMeterProviderTibber": "Tibber",
-  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
-  "smartMeterProviderUndefined": "Inte inställt",
-  "sync": "Synkronisera",
-  "costsUndefinedForType": "{type} för odefinierat",
-  "costsUndefinedElectricity": "Elavgifter",
-  "costsUndefinedColdWater": "Kallvattenavgifter",
-  "costsUndefinedWarmWater": "Varmvattenavgifter",
-  "costsUndefinedHeater": "Värmare avgifter",
-  "costsUndefinedOilHeating": "Oljeavgifter",
-  "costsUndefinedGas": "Gasavgifter",
-  "costsUndefinedNetworkCounter": "Internetavgifter",
-  "updateAvailable": "Appversionen {oldVersion} är inte uppdaterad. Du kan uppdatera till version {newVersion}.",
-  "@updateAvailable": {
-    "placeholders": {
-      "oldVersion": {
-        "type": "String"
-      },
-      "newVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "versionIsUpToDate": "Den senaste appversionen som släppts för alla användare är {version}.",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "messageNoCounters": "Du har ännu inte skapat en räknare.",
-  "messageNoCounterReadings": "Du har ännu inte angett en räknaravläsning.",
-  "parsingObjectError": "Objektet kan inte analyseras. Kontakta utvecklaren. När du avinstallerar appen kan data gå förlorade.",
-  "reallyDeleteCounter": "Är du säker på att du vill ta bort räknaren?",
-  "reallyDeletePhoto": "Är du säker på att du vill ta bort mätaravläsningsfotot?",
-  "reallyDeleteCounterLink": "Är du säker på att du vill ta bort länken mellan räknarna?",
-  "virtualCounterNotConfigured": "Kontrollera inställningarna för din virtuella mätare. Ingenting kan beräknas.",
-  "virtualCounterMasterCounter": "Mästarmätare",
-  "virtualCounterMasterCounterAttach": "Välj huvudmätare",
-  "virtualCounterMasterCounterDescription": "Info: Huvudmätaren ligger till grund för beräkningen av den virtuella mätaren, t.ex. huvudelmätaren eller huvudvattenmätaren.",
-  "virtualCounterMetersToBeSubtracted": "Meter som ska subtraheras",
-  "virtualCounterMetersToBeSubtractedDescription": "Vilka mätarställningar som ska subtraheras från huvudmätaren, t.ex. \"värmepumpsmätare\", \"elinmatningsmätare\".",
-  "virtualCounterMetersToBeAdded": "Mätare ska läggas till",
-  "virtualCounterMetersToBeAddedDescription": "Vilka mätaravläsningar som ska läggas till huvudmätaren, t.ex. elproduktionsmätare.",
-  "areYouSure": "Är du säker?",
-  "addNewValue": "Ange nytt värde",
-  "reallyDeleteValue": "Vill du verkligen ta bort det här värdet?",
-  "warning": "Varning",
-  "messageNotEnoughData": "Inte tillräckligt med data för att visa diagrammet",
-  "messageNoConsumptions": "Statistik för alla mätare av en typ visas här om tillräckligt många avläsningar har gjorts. Till exempel visas två kallvattenmätare, två varmvattenmätare och en vattenuttagsmätare i en vattenstatistik.",
-  "lastReading": "senaste läsning",
-  "chartDottedLinesNonSeasonal": "De streckade kurvorna representerar föregående period. För valet \"Senaste 14 dagarna\", till exempel, visas de 28 senaste dagarna, där de äldre 14 av dem visas streckade.",
-  "chartDottedLinesSeasonal": "De streckade kurvorna representerar föregående period. För valet \"Senaste 14 dagarna\", till exempel, visas de 28 senaste dagarna, där de äldre 14 av dem visas streckade.",
-  "chartHorizontalLines": "De streckade linjerna är avsedda att ge feedback på din egen konsumtion.",
-  "chartHorizontalLineWater": "I genomsnitt använder varje person i Tyskland 127 liter dricksvatten i hushållet varje dag. Den blå linjen representerar kallt vatten (60 %), den röda linjen varmvatten (40 %), extrapolerat till antalet dagar i perioden och antalet personer.",
-  "chartHorizontalLineElectricityGas": "Den gröna linjen står för en mycket bra förbrukning, den gula linjen för en bra förbrukning, den röda linjen för den tyska genomsnittskonsumtionen.",
-  "per": "per",
-  "costSummary": "Kostnadssammanställning",
-  "costSummaryYield": "Ersättningspris/-baspris",
-  "soFar": "än så länge",
+  "counterOilHeating": "Oljeeldning",
+  "counterOtherContracts": "Andra kontrakt",
+  "counterOutdatedAndNextReminder": "Motläsning föråldrad sedan {date}, nästa läsningspåminnelse {date2}.",
+  "counterProportionateConsumption": "Proportionell konsumtion",
+  "counterPvFeedInCounter": "Förnybar energi (solenergi och värme med PV/solsystem)",
+  "counterPvFeedInCounterExplanation": "Använd en elinmatningsmätare för att registrera den el som genereras och matas in\nmed ett solcellssystem. De resulterande intäkterna kvittas mot kostnaden för\nelen som dras.",
+  "counterReadings": "Avläsningar",
+  "counterReallyDeleteLink": "Ta bort länk?",
+  "counterReplacedBy": "Ersatt av",
+  "counterRoom": "Rum",
+  "counterSelected": "Vald",
+  "counterShowHeatmap": "Visa värmekarta",
+  "counterShowPreliminaryCurve": "Visa preliminär kurva",
+  "counterShowReadingsChart": "Visa avläsningsdiagram",
+  "counterTankCapacity": "Tankkapacitet",
+  "counterTankFillHeight": "Fyllhöjd",
+  "counterTransducerFactor": "Transformatorförhållande",
+  "counterTransducerFactorExplained": "Om en spänningstransformator används för att sänka spänningen innan den når mätaren, måste en ny omvandlingsfaktor tillämpas för att få rätt avläsningar. Exempel: mätaren visar 100 000 kWh med en omvandlingsfaktor på 20. Rätt värde är: 100 000 kWh x 20 = 2 000 000 kWh.",
+  "counterTypeLabel": "Typ av disk",
+  "counterWarmWater": "Varmvattenmätare",
+  "counterWarmWaterPlusColdWater": "Exklusive färskvatten och avloppsvattenkostnader",
+  "counterWater": "Vattenmätare",
+  "counterWaterExtraction": "Vattenuttagsmätare (trädgård)",
+  "counterWaterExtractionExplanation": "Med en avdragsmätare kan kostnaderna för avloppsvatten reduceras. Med detta köp i appen kan du ange olika kostnader för färskvatten och avloppsvatten och mätarställningen från avdragsmätaren kommer att beaktas i vattenkostnaderna.",
+  "counterWaterExtractionMinimumLevel": "Lägsta nivå",
+  "counters": "Meter",
+  "createAccount": "Skapa konto/logga in",
+  "csvImportWithFactor": "Ska mätarställningen multipliceras med en faktor som inte är lika med 1,0? Till exempel, för att konvertera värden från Wh till kWh, måste de multipliceras med 0,001.",
+  "currency": "Valuta",
+  "deleteObjectError": "Kan inte ta bort detta objekt (kod {errorCode}).",
+  "detailWithMultiSelect": "Tillåt flerval",
+  "detailsTitle": "Detaljer",
+  "difference": "Skillnad",
+  "driveSignInWithGoogle": "Logga in med Google",
+  "driveSyncNow": "Synkronisera nu",
+  "driveSyncStatusComparing": "Jämför med fil på server",
+  "driveSyncStatusFailed": "Det gick inte att synkronisera",
+  "driveSyncStatusLocalHasLatestNoCloud": "Filen som sparats på den här enheten från {localDate} sparas inte i molnet",
+  "driveSyncStatusLocalHasLatestWithCloud": "Filen som sparats på den här enheten från {localDate} är mer uppdaterad än filen i molnet från {cloudDate}",
+  "driveSyncStatusNotSynced": "Ej synkroniserad",
+  "driveSyncStatusRemoteHasLatestNoLocal": "Filen i molnet från {cloudDate} sparas inte på den här enheten",
+  "driveSyncStatusRemoteHasLatestWithLocal": "Filen i molnet från {cloudDate} är mer uppdaterad än den lokala filen från {localDate}",
+  "driveSyncStatusSyncing": "Synkronisering pågår",
+  "driveSyncStatusTitle": "Synkroniseringsstatus",
+  "driveSyncStatusUpToDate": "Uppdaterad från {localDate}",
+  "driveSyncWithGoogle": "Google Drive Sync",
+  "editDetailTitle": "Redigera detalj",
+  "electricity": "Elektricitet",
+  "electricityBack": "El matas in",
+  "electricityConsumption": "Energiförbrukning",
+  "electricityGenerated": "Genererad el",
+  "enterComment": "Ange en anteckning",
+  "enterExistingReadingAgain": "Gå in i gammal läsning igen",
+  "enterObjectName": "Ge det nya objektet ett namn",
+  "errorInvalidRange": "Inget giltigt intervall",
+  "errorNoInternet": "Inget nätverk",
+  "euDisputeResolution": "EU-tvistlösning\n\nEuropeiska kommissionen tillhandahåller en plattform för onlinetvistlösning (OS): https://ec.europa.eu/consumers/odr/.\nDu hittar vår e-postadress i imprinten ovan.\n\nKonsumenttvistlösning/universellt tvistlösningsorgan\n\nVi är inte villiga eller skyldiga att delta i tvistlösningsförfaranden inför en konsumentskiljenämnd.",
+  "existingPhoto": "Bifoga befintligt foto",
+  "existingPhotoOfMeterReading": "Vill du bifoga ett befintligt foto av mätarställningen?",
+  "explanationManageMoreThanOneObject": "Har du mer än en fastighet du vill förvalta? Namnge sedan det aktuella objektet och skapa sedan ett annat objekt.",
+  "export": "Exportera",
+  "exportExplanation": "Vilket befintligt objekt vill du exportera, till exempel för att överföra det till en ny enhet?",
+  "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
+  "exportOptionConsumptionsSubtitle": "Ett förbrukningsvärde för varje dag sedan den första avläsningen.",
+  "exportOptionConsumptionsTitle": "Daglig konsumtion",
+  "exportOptionExcel": "Excel-fil",
+  "exportOptionFileDescription": "Objektet delas som en {fileType}-fil",
+  "exportOptionPdf": "PDF-fil",
+  "exportOptionReadingsSubtitle": "Typiskt mätaravläsning eller förbrukning med oregelbundna intervall.",
+  "exportOptionReadingsTitle": "Läsa värden",
+  "exportTabHowToExport": "Hur skulle du vilja exportera data?",
+  "exportTabHowToExportOptionSaveToDownloads": "Spara i mappen {folder}",
+  "exportTabHowToExportOptionShare": "Dela med andra appar",
+  "exportTabSnackBarSaveResultMessageError": "Ett fel uppstod när data sparades",
+  "exportTabSnackBarSaveResultMessageSuccess": "Data har sparats som {fileName} i mappen {folder}",
+  "exportWhere": "I vilket format ska objektet exporteras?",
+  "exportWhichValuesShouldBeExported": "Vilka värden ska exporteras?",
+  "faqAboutDeveloperBody1": "Tack för ditt intresse för EHW+. EHW+ släpptes av mig, Timo Bähr, i december 2020. Jag är apputvecklare på heltid och jobbar på EHW+ på min fritid för att bidra till miljöskyddet. Sedan maj 2022 har en andra utvecklare övervakat mitt arbete, Thomas Hesse bygger backends för EHW+. Sedan april 2023 har Janine Sinner hanterat de många kundfeedbackarna. Sedan juli 2024 har Artem Yuzhakov gått med som apputvecklare.",
+  "faqAboutDeveloperBody2": "Över 26 % av alla koldioxidutsläpp i Tyskland orsakas av privata hushåll. Om alla kan minska sin konsumtion ens lite så har mycket uppnåtts. Tack så mycket för ditt bidrag!",
+  "faqAboutDeveloperBody3": "Vi tar gärna emot förslag på hur appen kan förbättras.",
+  "faqAboutDeveloperBody4": "Jag ber dock om er förståelse för att jag inte kan implementera alla förslag och att nya funktioner tar tid.",
+  "faqAboutDeveloperTitle": "Vem ligger bakom EHW+?",
+  "faqTitle": "FAQ",
+  "featureVoting": "Funktionsröstning",
+  "featureVotingOnlyOnGerman": "Funktionsundersökningen är inte översatt till andra språk.",
+  "featureVotingUnderConstruction": "Funktionsundersökningen revideras för närvarande. I framtiden kommer ett EHW+ användarkonto att krävas och undersökningen kommer inte längre att använda tredjepartsservrar. Vi uppskattar ditt tålamod.",
+  "fedIn": "Matas in",
+  "firstReadingConsumption": "Ange den första förbrukningen nu.",
+  "firstReadingCounter": "Ange den första räknaren.",
+  "firstReadingYield": "Ange den första avkastningen nu.",
   "forX": "för",
-  "corresponds": "motsvarar",
-  "warningCounterReplacementDetected": "Det nya värdet är lägre än föregående mätarställning. Har mätaren bytts ut?",
-  "warningYearlyReset": "Noll läsning i början av året",
-  "warningReadingSmallerThanOldValue2": "Det nya värdet är lägre än föregående mätarställning. Har avläsningen tagits korrekt?",
-  "warningReadingBiggerThanOldValueOilVolume": "Det nya värdet är högre än föregående mätarställning. Har du fyllt på tanken?",
-  "warningReadingSeemsTooBig": "Nyvärdet är ganska högt. Har avläsningen tagits korrekt?",
-  "warningReadingSeemsTooSmall": "Nyvärdet är ganska lågt. Lästes det rätt?",
+  "gas": "Gas",
+  "generated": "Genererad",
+  "googleAnalyticsAgreement": "Jag samtycker till överföring av anonymiserade uppgifter om användningen av appen till EHW+ Services GmbH.",
+  "googleApiAgreement": "{appNameShort}:s användning och överföring till någon annan app av information som tas emot från Googles API:er kommer att följa Googles API-tjänsters användardatapolicy, inklusive kraven för begränsad användning.",
+  "gross": "brutto",
+  "grossNetPrices": "Brutto- eller nettopris",
+  "heatPump": "Värmepump",
+  "heater": "Radiator",
+  "heatmapLegendDisclaimer": "Info: Skuggade rutor innehåller ett uppskattat värde. För att avläsa den faktiska förbrukningen/effekten, vänligen fyll i de saknade mätaravläsningarna om möjligt.",
+  "heatmapLegendTitle": "Mer om värmekartan",
+  "houseName": "Husets namn",
+  "houseNameDescription": "Husnamn, t.ex. gatunamn",
+  "import": "Importera",
+  "importConfirm": "Bekräfta importen",
+  "importCounterAsCsv": "Vill du importera en enda mätare? Stöd per meter är en CSV-fil med två kolumner, en för tiden och en för mätarställningen.\n\nExempeldata:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {Endast de två första kolumnerna användes. Den tredje kolumnen ignorerades.} other {Endast de två första kolumnerna användes, {columns} kolumner ignorerades.}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {En rad ignorerades: {lines}} other {{count} rader ignorerades: {lines}}}",
+  "importExplanation": "Du har redan gjort räknare och vill infoga dem?",
+  "importExport": "Säkerhetskopiera/återställa",
+  "importNewOrExistingCounter": "Lägg till i ny eller befintlig disk?",
+  "importNotPossible": "Import inte möjlig",
+  "importPickFile": "Välj fil",
+  "importSelectJson": "JSON-fil (skapad med {appName})",
+  "importSelectSingleCounter": "Enkel räknare (CSV-fil)",
+  "importSuccessful": "Importen lyckades",
+  "importTabErrorMessageFileWithExtensionNotSelected": "En {extension}-fil krävs för att fortsätta med importen.",
+  "importTheObject": "Importera objekt",
+  "importWhichCounterForCsv": "Vilken räknare ska användas?",
+  "imprintTitle": "Avtryck",
+  "initialReading": "Inledande läsning",
+  "involvedCounters": "Räknare inblandade",
+  "isLastEntryAtFilteredList": "Äldsta värdet i filtrerad lista",
+  "isOutdatedCounter": "Räknaren används inte längre",
+  "last12Months": "Senaste 12 månaderna",
+  "last12Weeks": "Senaste 12 veckorna",
+  "last2Weeks": "Senaste 14 dagarna",
+  "lastReading": "senaste läsning",
+  "lastYear": "Förra året",
+  "lineChartAppearanceSettings": "Linjediagrams utseende",
+  "lineChartAppearanceSettingsShowSpots": "Visa (cirkulära) fläckar på linjerna i diagram",
+  "localWriteSubtitle": "Ska objekten och fotona sparas i den lokala mappen \"{folder}\" vid varje ändring?",
+  "localWriteTitle": "Spara i den lokala nedladdningsmappen",
+  "manageMoreThanOneObjectStep1": "Hantera mer än ett objekt - Steg 1",
+  "manageMoreThanOneObjectStep2": "Hantera mer än ett objekt - Steg 2",
+  "marketLocationId": "Marknadsplats-ID",
+  "marketLocationIdDescription": "Marknadsplats-ID består alltid av 11 siffror. Du kan vanligtvis hitta detta på din senaste el- eller gasräkning.",
+  "messageNoConsumptions": "Statistik för alla mätare av en typ visas här om tillräckligt många avläsningar har gjorts. Till exempel visas två kallvattenmätare, två varmvattenmätare och en vattenuttagsmätare i en vattenstatistik.",
+  "messageNoContracts": "Inga kontrakt ännu.",
+  "messageNoCounterReadings": "Du har ännu inte angett en räknaravläsning.",
+  "messageNoCounters": "Du har ännu inte skapat en räknare.",
+  "messageNoRooms": "Inga rum ännu. Rum hjälper gruppmätare.",
+  "messageNotEnoughData": "Inte tillräckligt med data för att visa diagrammet",
+  "meterCardLastUpdatedLabel": "Uppdaterad",
+  "meterId": "Räknare-id",
+  "meterReadingSubmitted": "Skickas till leverantören",
   "meterReadingsFilterAll": "Visa alla",
   "meterReadingsFilterComments": "Visa endast poster med kommentarer",
   "meterReadingsFilterSubmitted": "Visa endast \"{state}\"",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "isLastEntryAtFilteredList": "Äldsta värdet i filtrerad lista",
-  "initialReading": "Inledande läsning",
-  "warningReadingBiggerThanOldValue": "Det nya värdet är högre än föregående mätaravläsning.{isOilCounter, select, true { Har du fyllt på tanken?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedForYearlyResetCounter": "Den sista mätarställningen för året {lastYear} för {deviceTypeName} {roomNamePart} saknas. Detta är nödvändigt för en korrekt beräkning av den totala årsförbrukningen.",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "lastYear": {
-        "type": "String"
-      },
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "Den senaste mätarställningen för {deviceTypeName} {roomNamePart} är föråldrad {outdatedSinceText}.{whenNotifyDateText}",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "valueLess": "{value} mindre",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "valueMore": "{value} mer",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonNotEnoughData": "Ännu inte tillräckligt med jämförande data för webbplatsen {countryName} ({countryCode}).",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      },
-      "countryCode": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonEqual": "Du betalar ungefär lika mycket som genomsnittet i {countryName}.",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "myObjects": "Mina föremål",
+  "net": "netto",
+  "networkCounter": "Internet & telefon",
+  "newCounter": "Skapa en ny räknare",
+  "newPhoto": "Ta ett nytt foto",
+  "newPhotoOfMeterReading": "Vill du ta ett foto av mätarställningen?",
+  "newReading": "Ange aktuell avläsning",
+  "newReadingShort": "Ny läsning",
+  "notifications": "Aviseringar",
+  "notificationsEmpty": "Inga aviseringar",
+  "notificationsSmartMeterAlertFallback": "Du har en ny larm för smartmätare.",
+  "numCounters": "{count, plural, =0 {{count} räknare} one {{count} räknare} other {{count} räknare}}",
+  "numMeterReadings": "{readings, plural, one {#läsning} other {# avläsningar}}",
+  "numberOfDetails": "{count, plural, one {1 detalj} other {{count} detaljer}}",
+  "ofRangeFrom": "från {range}",
+  "ofRangeLastDays": "av de senaste {days} dagarna",
+  "ofRangeLastMonths": "för de senaste {months} månaderna",
+  "oil": "Olja",
+  "outdated": "Föråldrad",
+  "outdatedContracts": "Föråldrade kontrakt",
+  "outdatedCounters": "Räknare används inte längre",
+  "paidAdvancePayments": "Förskottsbetalningar",
+  "parsingObjectError": "Objektet kan inte analyseras. Kontakta utvecklaren. När du avinstallerar appen kan data gå förlorade.",
+  "per": "per",
+  "perUnit": "per {unit}",
+  "period": "Period",
+  "periodBimonthly": "varannan månad",
+  "periodBiweekly": "som utkommer varannan vecka",
+  "periodCustom": "Användardefinierad",
+  "periodDaily": "dagligen",
+  "periodHalfYearly": "halvårsvis",
+  "periodHourly": "varje timme",
+  "periodMonthly": "månatlig",
+  "periodQuarterly": "kvartalsvis",
+  "periodWeekly": "varje vecka",
+  "periodYearly": "årlig",
+  "previouslyDeletedCounters": "Nyligen raderade mätare",
   "priceComparisonDiff": "Du betalar {diffWithCurrency} {comparison, select, more {mer än} less {mindre än} other {mer än}} genomsnittet i {countryName}.",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "diffWithCurrency": {
-        "type": "String"
-      },
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
+  "priceComparisonEqual": "Du betalar ungefär lika mycket som genomsnittet i {countryName}.",
+  "priceComparisonNotEnoughData": "Ännu inte tillräckligt med jämförande data för webbplatsen {countryName} ({countryCode}).",
+  "pricePerUnit": "Pris per enhet",
+  "pricePerUnitFeedIn": "Ersättningspris",
+  "pricePerUnitFreshWater": "Kostnader för färskvatten",
+  "pricePerUnitWasteWater": "Avloppsvattenpris",
+  "pricePerUnitWaterCold": "Kostnad för kallt vatten",
+  "pricePerUnitWaterWarm": "Varmvattenuppvärmningskostnader",
+  "priceSubmissionAgreement": "Jag håller med om överföring av el/gas/vattenpriser per enhet till en EHW+-server",
+  "privacyBlock1Text": "Utvecklaren/leverantören av applikationen (nedan kallad \"app\") är, i enlighet med § 5 i den tyska telemedialagen (TMG):\n\n{contact}",
+  "privacyBlock1Text2": "Användning av appen kräver att du godkänner följande användarvillkor. Läs dem noggrant.",
+  "privacyBlock1Title": "Framkallare",
+  "privacyBlock2Text": "Skyddet av dina uppgifter är mycket viktigt för oss. Denna integritetspolicy förklarar vilka personuppgifter EHW+ samlar in och hur de används. Grundläggande ändringar av integritetspolicyn är sällsynta, men den kan revideras då och då på grund av nya funktioner, teknologier eller juridiska krav. Så vänligen kolla denna sida då och då för att hålla dig uppdaterad. Om vi ​​gör några väsentliga ändringar kommer vi att meddela dig och vid behov inhämta ditt samtycke.",
+  "privacyBlock2Title": "Allmän",
+  "privacyBlock3Title": "Vilken data samlar {appNameShort} in?",
+  "privacyBlock3aText": "Vi skapade {appNameShort} så att du snabbt och enkelt kan ange dina mätarställning och sedan använda statistik för att ta reda på mer om din förbrukning, dess kostnader och potentiella besparingar. Det betyder att du kan ange, beräkna eller spara vilken data som helst, som vi i allmänhet kallar \"innehåll\", i {appNameShort}. Denna data lagras endast på din mobiltelefon.\n\nSynkronisera med Google Drive.\nOm du aktiverar synkronisering med Google Drive kommer innehållet också automatiskt att säkerhetskopieras i en mapp som heter \"{appNameShort}\" på din Google Drive, som bara du kan komma åt. Genom att logga in med Google kommer din e-postadress att vara synlig för utvecklaren.",
+  "privacyBlock3bText": "{googleApiAgreement}\n\nPlatsdata.\nFör att förstå användarbeteende och för framtida funktioner överför appen anonymiserad användningsdata.\nUppgifterna delas inte med tredje part.\nInformation kan samlas in om ursprung (land och stad), språk, operativsystem, enhetstyp, upplösning, klickbeteende och användningstid.\n\nEnhetsdata.\nVi samlar in data om antalet och typen av enheter du använder för att ansluta till tjänsten, samt information om operativsystemet på dessa enheter (t.ex. Android, iOS, Windows eller macOS).\n\nGenom att använda appen samtycker du till insamling av anonymiserad data enligt beskrivningen ovan.",
+  "privacyBlock4DataUsage": "Insamlad anonymiserad data används för att utvärdera användarnas beteende. Utöver detta finns ingen ytterligare användning av data.\n\n{syncDriveDataUsage}",
+  "privacyBlock4DataUsageTitle": "Hur använder {appNameShort} min data?",
+  "privacyBlock5": "Varaktigheten av lagringen av personuppgifter bestäms av respektive lagstadgad lagringsperiod (t.ex. kommersiella och skatterättsliga lagringsperioder). Efter utgången av perioden raderas motsvarande uppgifter rutinmässigt, förutsatt att de inte längre behövs för att fullgöra eller inleda ett avtal och/eller att vi inte längre har ett berättigat intresse av att den fortsätter att lagras.",
+  "privacyBlock5Title": "Varaktighet för lagring av personuppgifter",
+  "privacyBlock6": "När du kontaktar oss (t.ex. via kontaktformulär eller e-post) samlas personuppgifter in. Uppgifterna som samlas in vid kontaktformulär kan ses på respektive kontaktformulär. Dessa uppgifter lagras och används uteslutande i syfte att svara på din förfrågan eller för att upprätta kontakt och tillhörande teknisk administration. Den rättsliga grunden för behandlingen av uppgifterna är vårt berättigade intresse av att svara på din begäran i enlighet med art. 6 para. 1 lit. f GDPR. Om din kontakt syftar till att ingå ett avtal är den ytterligare rättsliga grunden för behandlingen art. 6 para. 1 lit. b GDPR. Dina uppgifter kommer att raderas efter att din förfrågan har behandlats, vilket är fallet om det av omständigheterna kan utläsas att ärendet i fråga är slutligt klarlagt och under förutsättning att det inte finns några rättsliga skyldigheter att bevara uppgifter.",
+  "privacyBlock6Title": "Kontakta",
+  "privacyBlock7": "Den tillämpliga dataskyddslagstiftningen ger dig omfattande rättigheter som registrerad (rätt till information och ingripande) gentemot den personuppgiftsansvarige med avseende på behandlingen av dina personuppgifter, vilket vi kommer att informera dig om nedan:\n\n- Rätt till information enligt art. 15 GDPR: Du har särskilt rätt att få information om dina personuppgifter som behandlas av oss, ändamålen med behandlingen, kategorierna av personuppgifter som behandlas, mottagare eller kategorier av mottagare till vilka dina uppgifter har lämnats eller kommer att lämnas ut, den planerade lagringsperioden eller kriterierna för att bestämma lagringsperioden, förekomsten av en rätt till rättelse, invändning mot en behandling, begränsning av en behandling, begränsning av behandling, tillsynsmyndighet, ursprunget till dina uppgifter om de inte har samlats in av oss från dig, förekomsten av automatiserat beslutsfattande, inklusive profilering, och, i förekommande fall, meningsfull information om logiken som är involverad och betydelsen och de förväntade konsekvenserna av sådan behandling för dig, samt din rätt att bli informerad om de garantier som finns i enlighet med Art. 46 GDPR när dina uppgifter överförs till tredjeländer;\n\n- Rätt till rättelse enligt art. 16 GDPR: Du har rätt att utan dröjsmål få felaktiga uppgifter om dig rättade och/eller att få ofullständiga uppgifter som lagras av oss kompletterade.\n\n- Rätt till radering enligt art. 17 GDPR: Du har rätt att begära radering av dina personuppgifter om villkoren i art. 17(1) GDPR är uppfyllda. Denna rätt gäller dock inte särskilt om behandlingen är nödvändig för att utöva yttrande- och informationsfriheten, för att uppfylla en rättslig skyldighet, av hänsyn till allmänintresset eller för att fastställa, utöva eller försvara rättsliga anspråk.\n\n- Rätt till begränsning av behandlingen enligt art. 18 GDPR: Du har rätt att begära begränsning av behandlingen av dina personuppgifter så länge som riktigheten av dina uppgifter verifieras om du har invänt mot radering av dina uppgifter på grund av otillåten databehandling och istället begära begränsning av behandlingen av dina uppgifter om du behöver dina uppgifter för att hävda, utöva eller försvara dig för att uppfylla rättsliga anspråk för detta, om vi inte längre har behov av detta, eller om vi inte längre har behov av detta, har lämnat in en invändning på grunder som rör din speciella situation, så länge det ännu inte är klart om våra legitima skäl råder;\n\n- Rätt att bli informerad enligt art. 19 GDPR: Om du har utövat din rätt till rättelse, radering eller begränsning av behandling gentemot den personuppgiftsansvarige, är den personuppgiftsansvarige skyldig att meddela alla mottagare till vilka dina personuppgifter har lämnats ut om denna rättelse eller radering av uppgifterna eller begränsning av behandlingen, såvida detta inte visar sig vara omöjligt eller innebär oproportionerlig ansträngning. Du har rätt att bli informerad om dessa mottagare.\n\n- Rätt till dataportabilitet enligt art. 20 GDPR: Du har rätt att få dina personuppgifter som du har lämnat till oss i ett strukturerat, allmänt använt och maskinläsbart format eller att begära att de överförs till en annan personuppgiftsansvarig, där det är tekniskt möjligt.\n\n- Rätt att återkalla samtycke som beviljats ​​i enlighet med art. 7(3) GDPR: Du har rätt att när som helst återkalla ditt samtycke till behandling av uppgifter med verkan för framtiden. Vid återkallelse kommer vi att radera berörda uppgifter utan dröjsmål, såvida inte vidare behandling kan baseras på en laglig grund för behandling utan samtycke. Återkallandet av samtycke påverkar inte lagenligheten av behandlingen baserad på samtycke innan dess återkallelse.\n\n- Rätt att inge klagomål enligt art. 77 GDPR: Om du anser att behandlingen av dina personuppgifter bryter mot GDPR har du rätt att lämna in ett klagomål till en tillsynsmyndighet, särskilt i den medlemsstat där du är bosatt, på din arbetsplats eller på platsen för den påstådda överträdelsen, utan att det påverkar andra administrativa eller rättsliga åtgärder.",
+  "privacyBlock7Title": "Den berörda personens rättigheter",
+  "privacyBlock8": "OM VI BEHANDLAR DINA PERSONUPPGIFTER PÅ GRUND AV VÅRT ÖVERGRIPANDE LEGITIMMA INTRESSE SOM EN DEL I EN INTRESSEAVVÄGNING, HAR DU RÄTT ATT INvända MOT DENNA BEHANDLING NÄR SOM HELST AV SKÄL SOM HELST AV SÄRSKILT DIN SÄRSKILD. OM DU UTÖVER DIN RÄTT ATT INKOMST KOMMER VI ATT SLUTA ATT BEHANDLA BERÖRDA DATA. YTTERLIGARE BEHANDLING FÖRSTÅR ​​DOCK RESERVERAD OM VI KAN BEVISA TRYGANDE LEGITIMA SKÄL FÖR BEHANDLINGEN SOM ÅSTIGER DINA INTRESSEN, grundläggande rättigheter och friheter, eller om behandlingen tjänar till att hävda, utöva eller försvara rättsliga anspråk.\n\nOM VI BEHANDLAR DINA PERSONUPPGIFTER FÖR DIREKTMARKNADSFÖRINGSSYFTEN, HAR DU RÄTT ATT NÄR SOM HELST INKOMST MOT BEHANDLING AV PERSONUPPGIFTER OM DIG FÖR SYFTE MED SÅDAN REKLAM. DU KAN UTÖVA DIN RÄTT ATT KOMMA IGEN SOM BESKRIVS Ovan.\n\nOM DU UTÖVER DIN RÄTT ATT INKOMST KOMMER VI ATT SLUTA BEHANDLING AV UPPGIFTER OM DIG FÖR DIREKTMARKNADSFÖRINGSSYFTEN.",
+  "privacyBlock8Title": "Invändningsrätt",
+  "privacyContractPriceSubmission": "När du som användare underhåller dina avtalsdata överförs priset per enhet för el-, vatten- och gaskontrakt till en EHW+-server i Tyskland tillsammans med landet och förbundsstaten. Dessa data används för att beräkna prisstatistik. För appanvändare är statistiken synlig i form av en prisjämförelse i kontraktsvyn.\n\nGenom att använda appen samtycker du till ovan nämnda insamling av anonymiserad data.",
+  "privacyTitle": "Integritetspolicy",
+  "purchasesBuyNow": "Köp nu",
+  "purchasesDisabledOnIOS": "Köp i appen har inaktiverats",
+  "purchasesDisabledOnIOSDescription": "Kontrollera om köp i appen är inaktiverade på din iPhone (Inställningar > Skärmtid > Begränsningar > Appinstallationer och köp > Tillåt köp i appen)",
+  "purchasesDisabledOnIOSDescriptionTestflight": "Appen installerades via Testflight. Observera att köp endast fungerar i appen om du installerar appen via App Store.",
+  "purchasesEarlyBirdSubscription": "Obs: Om denna förstagångskundprenumeration avbryts kan den inte prenumereras på igen efteråt.",
+  "purchasesExtensionMultipleObjectsDescription": "Ange mätarställningen för så många lägenheter/hus/objekt du vill (istället för bara för ett objekt)",
+  "purchasesExtensionMultipleObjectsTitlePart": "Hantera flera objekt",
+  "purchasesExtensionStatisticsDescription": "Tillgång till års-/månads-/veckoförbrukning av el/gas/vatten/... + periodjusteringar + detaljerad kostnadsöversikt + Excel-export",
+  "purchasesExtensionStatisticsTitle": "Avancerad statistik",
+  "purchasesExtensionsInWork": "Ytterligare utbyggnader planeras. Delta i funktionsundersökningen för att säga din mening.",
+  "purchasesExtensionsSubtitle": "Köp en gång, använd permanent (ingen prenumeration)",
+  "purchasesExtensionsTitle": "Enstaka förlängningar",
+  "purchasesIOSRestorePurchases": "Återställ inköp",
+  "purchasesIOSRestorePurchasesDescription": "Om du redan har köpt något i AppStore tidigare kan du återställa köpen.",
+  "purchasesPurchased": "Köpt",
+  "purchasesPurchasedIncludedInPremium": "Ingår i Premium",
+  "purchasesPurchasedSubscribed": "Prenumererade",
+  "purchasesRedeemCode": "Lös in kod",
+  "purchasesStatisticsWithPremium": "Med Premium får du tillgång till en månatlig jämförelse{count, plural, =0{.}=1{.}other{ och även se historisk data för {years}.}}",
+  "purchasesSubscribeNow": "Prenumerera nu",
+  "purchasesSubscribePremium": "Prenumerera Premium",
+  "purchasesSubscribePremiumMonthly": "Månatlig uppsägningsbar prenumeration för endast {price} per månad",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "Månatlig uppsägningsbar prenumeration till lojalitetspriset {price} per månad istället för {priceNew}",
+  "purchasesSubscribePremiumTextLong": "Tillgång till alla betalfunktioner under prenumerationsperioden + utomhustemperaturer",
+  "purchasesSubscribePremiumYearly": "Årlig uppsägningsbar prenumeration för endast {price} per år",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "Årlig uppsägningsbar prenumeration till lojalitetspriset {price} per år istället för {priceNew}",
+  "purchasesUpgrade": "Uppgradera",
+  "purchasesWebLegalNote": "Av juridiska skäl är ett köp endast möjligt för en iPhone eller Android-telefon med PlayStore-tjänster.",
+  "purchasesWhyBuyText": "Med ett köp deltar du i de kostnader jag ådrar mig genom att publicera appen och stödjer vidareutvecklingen.",
+  "purchasesWhyBuyTitle": "Varför ska jag köpa något?",
+  "purchasesYourPurchases": "Du har tillgång till följande premiumpaket:",
+  "reading": "Motläsning",
+  "readingDeleteConfirm": "Radera läsning?",
+  "readingNew": "Ny läsning",
+  "readingPrefill": "Autofyll mätaravläsning",
+  "readingPrefillDescription": "Förfyll mätaravläsningar baserat på tidigare poster",
+  "readingPrefillDisableForAllCounters": "Inaktivera automatisk fyllning för alla räknare",
+  "readingPrefillDisabled": "Autofyll avaktiverad",
+  "readingPrefillDisabledToast": "Autofyll avaktiverad",
+  "readingPrefillEnableForAllCounters": "Aktivera autofyll för alla räknare",
+  "readingReminder": "{count, plural, one {Läspåminnelse} other {Läspåminnelser}}",
+  "readingReminderDisabled": "Läspåminnelse inte aktiv",
+  "readingReminderMultiBody": "{count, plural, one {Läs avläsningar från {count}-mätaren nu} other {Läs avläsningar från {count} meter nu}}",
+  "readingReminderSingleBody": "Läs {counterName}-värdet nu",
+  "readingReminders": "Läspåminnelser",
+  "readingRemindersChannel": "Läspåminnelser",
+  "readingSubmitted": "Mätaravläsning inlämnad",
+  "readingTime": "Lästid",
+  "readingUpdate": "Uppdatera läsning",
+  "readingWithFactor": "Räknaravläsning med faktor",
+  "reallyDeleteActivity": "Vill du verkligen ta bort den här aktiviteten?",
+  "reallyDeleteContract": "Vill du verkligen ta bort det här kontraktet?",
+  "reallyDeleteCounter": "Är du säker på att du vill ta bort räknaren?",
+  "reallyDeleteCounterLink": "Är du säker på att du vill ta bort länken mellan räknarna?",
+  "reallyDeleteDetail": "Vill du verkligen radera denna detalj?",
+  "reallyDeleteObject": "Är du säker på att du vill ta bort objektet?",
+  "reallyDeletePhoto": "Är du säker på att du vill ta bort mätaravläsningsfotot?",
+  "reallyDeleteValue": "Vill du verkligen ta bort det här värdet?",
+  "refund": "Återbetalning",
+  "reminderTime": "Påminnelsetid",
+  "reminderWeekdayExplanation": "Det finns en påminnelse om att läsa en läsning inte mer än en gång om dagen.",
+  "reminderWeekdayExplanationSeasonal": "För mätare med säsongsförbrukning skickas påminnelser endast i månader med förbrukning (fungerar endast om värden för det senaste året anges).",
+  "requestAccess": "Begär åtkomst",
+  "reset": "Återställa",
+  "resetActivities": "Återställ alla aktiviteter",
+  "residualConsumptionEstimated": "Restförbrukning uppskattad",
+  "residualGenerationEstimated": "Restgenerering uppskattad",
+  "restoreDeletedCounter": "Vill du återställa denna raderade mätare?",
+  "room": "Rum",
+  "roomBathroom": "Badrum",
+  "roomBedroom": "Sovrum",
+  "roomChildrenRoom": "Barnrum",
+  "roomDeleteConfirm": "Ta bort rum?",
+  "roomDiningRoom": "Matrum",
+  "roomGarden": "Trädgård",
+  "roomKitchen": "Kök",
+  "roomLivingRoom": "Vardagsrum",
+  "roomName": "Rumsnamn",
+  "roomNameHint": "Tilldela eventuellt ett rumsnamn",
   "roomNamePart": "i {roomName}",
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "warningOutdatedSinceText": "sedan {date}",
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
+  "roomNew": "Nytt rum",
+  "roomOffice": "Kontor",
+  "roomOther": "Andra",
+  "roomStoreRoom": "Förrådsrum",
+  "roomType": "Rumstyp",
+  "roomWc": "WC",
+  "rooms": "Rum",
+  "scanQrCode": "Skanna aktiverings-qr-kod",
+  "seasonalCounter": "Säsongsdisk",
+  "seasonalElectricityCounter": "Säsongsbetonad elräknare",
+  "selectedActivity": "Vald aktivitet \"${activityName}\"",
+  "selectedAtAppStart": "Det översta objektet väljs vid appstart",
+  "settingColor": "Färg",
+  "settingCounterTypeColor": "Färg för denna disktyp",
+  "settingCounterTypeColorAdvanced": "Färgväljare för experter",
+  "settingCounterTypeColorDescription": "Om du inte gillar standardfärgen för denna disktyp kan du tilldela en annan färg.",
+  "settingEAuto": "Elbil",
+  "settingHouseholdSize": "Hushållsstorlek",
+  "settingHouseholdSizeDescription": "Antal personer i ditt hushåll.",
+  "settingLanguageMode": "Språk",
+  "settingLivingArea": "Vardagsrum",
+  "settingObjectLocation": "Plats",
+  "settingObjectLocationExplanation": "Att ange platsen hjälper till att skräddarsy insikter och tjänster till ditt område.",
+  "settingObjectLocationTitle": "Var finns ditt objekt?",
+  "settingObjectType": "Objekttyp",
+  "settingObjectTypeFlat": "Lägenhet",
+  "settingObjectTypeHouse": "Hus",
+  "settingShowCounterReadingsChart": "Visa avläsningsdiagram",
+  "settingShowHeatmap": "Visa värmekarta",
+  "settingShowPreliminaryCurve": "Visa preliminär kurva",
+  "settingUiColorPalette": "Färgpalett",
+  "settingUiMode": "Gräns-snittet",
+  "settingUiModeDark": "Mörk",
+  "settingUiModeDarkOrLight": "Mörk/ljus användargränssnitt",
+  "settingUiModeLight": "Ljus",
+  "settingUiModeOsDefault": "System",
+  "settingWaterHeater": "Varmvattenberedare",
+  "settingYearlyReset": "Årlig återställning",
+  "settingYearlyResetOn": "på",
+  "settings": "Inställningar",
+  "settingsExternalServices": "Externa tjänster",
+  "settingsShowStromGedacht": "Ska tips från StromGedacht om elnätet visas?",
+  "settingsShowTabNewsDetailed": "Ska fliken Nyheter/Tips vara synlig?",
+  "showAllYears": "Visa alla år",
+  "signInWithApple": "Logga in med Apple",
+  "signInWithGithub": "Logga in med GitHub",
+  "signInWithGoogle": "Logga in med Google",
+  "signInWithSocialAccount": "Vilket socialt konto vill du använda för att skapa eller logga in på ditt EHW+-konto?",
+  "sinceInitialReading": "Sedan första läsningen",
+  "smartMeterCountersTitle": "Radiovattenmätare",
+  "smartMeterErrorNoData": "Tyvärr finns det ingen data som appen kan visa.",
+  "smartMeterMisconfiguredWidgetCardButton": "Konfigurera smart mätare",
+  "smartMeterMisconfiguredWidgetCardTitle": "Vänligen ställ in din smarta mätare korrekt.",
+  "smartMeterObtainDataAutomatically": "Få data automatiskt",
+  "smartMeterProviderTibber": "Tibber",
+  "smartMeterProviderUndefined": "Inte inställt",
+  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterServiceProvider": "Tjänsteleverantör",
+  "smartMeterSettingsScreenSyncButton": "Synkronisera förbrukningsdata",
+  "smartMeterSettingsScreenSyncingDialogError": "Fel",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "Följande fel inträffade under synkroniseringen: {errorMessage}",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "Ok",
+  "smartMeterSettingsScreenSyncingDialogHeader": "Synkronisering pågår",
+  "smartMeterSettingsScreenSyncingDialogProgress": "Framsteg: {progressInPercent}%",
+  "smartMeterTabConsumptions": "Förbrukning",
+  "smartMeterTabProductions": "Produktioner",
+  "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} fick infokod: {infocode}",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "Temperaturen på din vattenmätare {smartmeterId} har sjunkit under 3°C. Det finns risk för frost! Isolera mätaren och rören eller värm upp området för att förhindra skador.",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "Din vattenmätare {smartmeterId} har upptäckt ett kontinuerligt vattenflöde. Detta kan tyda på en läcka. Kontrollera din hushållsinstallation för läckor. Toaletter och droppande kranar är vanliga orsaker.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Din vattenmätare {smartmeterId} har upptäckt ovanligt hög vattenförbrukning, vilket kan tyda på ett rörsprängt. Kontrollera din hushållsinstallation för större läckor eller brott. Larmet kan även dyka upp om du har använt en stor mängd vatten, t.ex. för att fylla en pool.",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "Din vattenmätare {smartmeterId} har upptäckt ovanligt hög vattenförbrukning, vilket kan indikera antingen en rörsprängning eller en poolfyllning. Kontrollera din hushållsinstallation för större läckor eller brott.",
+  "soFar": "än så länge",
+  "social": "Sociala medier",
+  "socialEmail": "E-post",
+  "socialFacebook": "Facebook",
+  "socialInstagram": "Instagram",
+  "socialLinkedIn": "LinkedIn",
+  "socialTwitter": "X",
+  "socialYouTube": "YouTube",
+  "solarThermalCollector": "Solfångare",
+  "sortActivities": "Ändra ordningen på aktiviteterna",
+  "source": "Källa:",
+  "stove": "Spis",
+  "stromGedachtAgreement": "Jag samtycker till att mitt postnummer (om det finns) kommer att överföras till TransnetBW för att hämta StromGedacht-meddelanden.",
+  "subscribeToSmartMeterInfocodeEvents": "Jag skulle vilja bli meddelad om oväntad konsumtion",
+  "supplementaryPayment": "Tilläggsbetalning",
+  "support": "Support/feedback",
+  "supportBug": "Bugga",
+  "supportGivePraise": "Ge beröm",
+  "supportGivePraiseLong": "Gillar du appen? Tack! Sprid ordet!",
+  "supportGivePraiseRating": "Betygsätt appen i {store}.",
+  "supportGivePraiseRecommendation": "Rekommendera appen till vänner och familj. Tack för alla rekommendationer!",
+  "supportMakeSuggestion": "Föreslå något",
+  "supportMakeSuggestionLong": "Appen lever från användarförslag. Har du något förslag?",
+  "supportQuestion": "Ställa en fråga",
+  "supportQuestionBox": "Behöver du hjälp?",
+  "supportQuestionLong": "Hur fungerar det? Är det överhuvudtaget möjligt? Här är svaren.",
+  "supportQuestionNotFound": "Din fråga besvarades inte? Jag hjälper gärna till.",
+  "supportRecommend": "Jag använder mätaravläsningsappen EHW+ för att hålla reda på min energiförbrukning och de relaterade kostnaderna. Kanske skulle det vara något för dig också?\n\nMer info på https://www.ehwplus.com",
+  "supportReportBug": "Rapportera ett fel via mail",
+  "supportReportBugAffectedPages": "På vilka sidor uppstår felet? (om tillämpligt)",
+  "supportReportBugLong": "Jättebra app! Men visst, saker kan gå fel. Om du rapporterar buggar gör du appen bättre.",
+  "supportReportBugScreenshotsPlease": "Bifoga gärna en skärmdump i mailet, gärna med markering av felet.",
+  "supportReportBugTextIs": "Beskriv kort det aktuella felaktiga beteendet, det vill säga själva felet.",
+  "supportReportBugTextShould": "Beskriv kortfattat det önskade beteendet, dvs hur det egentligen ska vara.",
+  "swimmingPool": "Simbassäng",
+  "sync": "Synkronisera",
+  "syncAutomaticTitle": "Lokal data kan skrivas över",
+  "syncDriveDataUsage": "Om du ger EHW+ åtkomst till Google Drive kommer appen att ha läs- och skrivåtkomst till filer som skapats av appen själv. Tyvärr är filer som skapats av andra via den här appen inte synliga för appen, vilket innebär att datadelning mellan flera konton via Google Drive inte är möjlig.",
+  "syncDriveLoggedIn": "Din data synkroniseras automatiskt över flera enheter. Följande Google-konto används:",
+  "syncDriveLoggedInNoAuto": "Din data laddas automatiskt upp till Google Drive efter en ändring. Nyare data från molnet skriver bara över lokal data när du klickar på objektet. Följande Google-konto används:",
+  "syncObjectIsLocked": "Objektdata uppdateras och kan inte redigeras under denna tid.",
+  "syncShareWithOthersNotInWeb": "Att bevilja åtkomst är för närvarande endast möjligt via app.",
+  "syncShareWithOthersSubtitle": "Om du vill ange mätarställning tillsammans med andra Google-användare måste EHW+ ges full åtkomst till Google Drive.",
+  "syncShareWithOthersTitle": "Dela med andra?",
+  "syncStatusFailedLong": "Det gick inte att synkronisera, redigering sker på egen risk",
+  "syncStatusFailedLongNoAutoSync": "Det gick inte att synkronisera, redigering sker på egen risk",
+  "syncStatusSyncRemoteHasLatest": "Filen i molnet är mer uppdaterad än den lokala filen",
+  "syncWithGoogleDriveDescription": "Eftersom det skulle vara synd om mätaravläsningarna gick förlorade, synkronisera dina objekt med Google Drive nu!",
+  "tabCounters": "Meter",
+  "tabNews": "Tips/Nyheter",
+  "tabObject": "Objekt",
+  "tabStatistics": "Statistik",
+  "taxRate": "Skattesats",
+  "teaserPurchaseRenewableEnergies": "Förnybara energiräknare kräver Premium.",
+  "teaserPurchaseVirtualCounter": "Lägg till virtuella räknare med Premium.",
+  "teaserPurchaseWaterExtractionCounter": "Lås upp vattenutsugningsdiskar med Premium.",
+  "termsOfUsageBlock1": "Invändningsrätt",
+  "termsOfUsageBlock1Title": "Allmänna användarvillkor för användning av appen",
+  "termsOfUsageBlock2": "Appen och dess funktioner får inte användas på ett kränkande sätt. Vänligen använd appen endast inom den lagligt tillåtna omfattningen och i enlighet med våra användarvillkor. I händelse av brott mot tillämplig tysk lag eller våra användarvillkor förbehåller sig leverantören rätten att utesluta dig från att använda appen.",
+  "termsOfUsageBlock2Title": "Allmän information om användning",
+  "termsOfUsageBlock2a": "Anonymiserad användningsdata\nVi använder vår egen analys för att kontinuerligt förbättra appen.\nEndast anonymiserade uppgifter överförs.\nUppgifterna lämnas inte vidare till tredje part.\nFör mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}",
+  "termsOfUsageBlock2b": "Felrapporter\nSentry (självvärd) används för att kontinuerligt förbättra appen.\nFelrapporter varken behandlas eller delas med tredje part.\nFör mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}",
+  "termsOfUsageBlock2c": "Personlig information\nOm du använder Google Drive Sync har EHW+ fortfarande ingen åtkomst till den data du har angett. För mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}.",
+  "termsOfUsageBlock3": "Leverantören garanterar inte tillgängligheten, tillförlitligheten, funktionaliteten eller lämpligheten av appen för dina ändamål. Ansvar är uteslutet såvida det inte är obligatoriskt enligt produktansvarslagen, på grund av uppsåt, grov vårdslöshet, skada på liv, lem eller hälsa, antagandet om kvalitetsgaranti, bedrägligt döljande av en defekt eller brott mot väsentliga avtalsförpliktelser. Väsentliga avtalsförpliktelser är de skyldigheter vars fullgörande är avgörande för ett korrekt genomförande av ett kontrakt och vars efterlevnad de avtalsslutande parterna regelbundet kan lita på. Ersättning för skador på grund av brott mot väsentliga avtalsförpliktelser är begränsad till den förutsebara skada som är typisk för denna typ av kontrakt, såvida det inte föreligger uppsåt eller grov vårdslöshet.",
+  "termsOfUsageBlock3Title": "Ansvar",
+  "termsOfUsageBlock4": "Leverantören garanterar inte att beräkningsresultaten är korrekta. Användare är skyldiga att uppdatera de priser som lagras i applikationen (baspriser, konsumtionspriser etc.) noggrant och på eget ansvar för att säkerställa att de fakturor som genereras motsvarar de faktiska belopp som ska betalas.",
+  "termsOfUsageBlock4Title": "Användarens ansvar",
+  "termsOfUsageTitle": "Allmänna användarvillkor för användning av appen",
+  "termsOfUsageTitleShort": "Användarvillkor",
+  "tibberAccessToken": "Access Token",
+  "tibberActionSaveAuthorizationSettings": "Spara behörighetsinställningar",
+  "tibberBasicAuth": "Grundläggande Auth",
+  "tibberBasicAuthEnterPassword": "Vänligen ange lösenord",
+  "tibberBasicAuthEnterUsername": "Vänligen ange användarnamn",
+  "tibberBasicAuthPassword": "Lösenord",
+  "tibberBasicAuthUsername": "Användarnamn",
+  "tibberConsentScreenBenefit1Description": "Spåra din förbrukning i realtid och upptäck dolda energislukare.",
+  "tibberConsentScreenBenefit1Title": "Se din elförbrukning",
+  "tibberConsentScreenConfigureLaterButton": "Konfigurera senare",
+  "tibberConsentScreenConfigureNowButton": "Ställ in Tibber Pulse nu",
+  "tibberConsentScreenDescription": "Är du Tibber-kund eller planerar du att bli det? Vi stödjer nu Pulsen för förbättrad energiövervakning. Observera att historisk data från Pulsen tyvärr endast är tillgänglig för kunder med ett aktivt Tibber-kontrakt.",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "Din timförbrukning från 1 mars kommer att anonymiseras och tillhandahålls för Goethe-studien.",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "Vill du delta i Goethe-studien?",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "Ja, jag vill delta i Goethe-studien",
+  "tibberConsentScreenGoetheStudySectionHeader": "Deltagande i forskningsprojektet",
+  "tibberConsentScreenHeader": "Ny funktion: Förbrukningsdata från Tibber Pulse",
+  "tibberConsentScreenStoreLink": "Besök Tibber Store",
+  "tibberConsumptionEntryTotalCost": "Total kostnad: {totalCost}",
+  "tibberConsumptionEntryTotalProfit": "Total vinst: {totalProfit}",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "24 timmar från {startTime} på {date}",
+  "tibberConsumptionEntryViewTimeSpanDefault": "Från: {startTime} till {endDate}",
+  "tibberConsumptionEntryViewTimeSpanMonth": "Månaden {month}",
+  "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "En månad med start {month}",
+  "tibberConsumptionEntryViewTimeSpanOneHour": "En timme från {startTime} på {date}",
+  "tibberConsumptionEntryViewTimeSpanYear": "Året {year}",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "Ett år från {year}",
+  "tibberEnterAccessToken": "Vänligen ange åtkomsttoken",
+  "tibberErrorAccessTokenInvalid": "Det verkar som om åtkomsttoken är ogiltig",
+  "tibberErrorConnectivityShowCacheInstead": "Det gick inte att hämta senaste förbrukningsdata. Visar cachade värden istället.",
+  "tibberErrorNoHomes": "Det finns inga hem kopplade till det här kontot",
+  "tibberErrorNoSubscription": "För att få full tillgång till historisk data via API:n behöver du ett aktivt Tibber-elkontrakt för den valda bostaden.",
+  "tibberErrorRateLimit": "Tibber API-hastighetsgräns har överskridits. Vänta minst 5 minuter innan du försöker igen.",
+  "tibberErrorSmartMeterMisconfigured": "Din smarta mätare verkar vara felkonfigurerad.",
+  "tibberErrorUndefined": "Ett oväntat fel inträffade: {error}",
+  "tibberHomeSelectorHomeId": "Hem-ID: {homeId}",
+  "tibberHomeSelectorLabel": "Hem",
+  "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "Det här hemmet stöder inte livemätningar eller historiska förbrukningsdata. Välj ett annat hem.",
+  "tibberLiveMeasurementCounterCardViewFooter": "Livemätning",
+  "tibberLiveMeasurementWidgetAccumulatedConsumption": "Total förbrukning (sedan midnatt)",
+  "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "Förbrukning (senaste timmen)",
+  "tibberLiveMeasurementWidgetAccumulatedCost": "Ackumulerad kostnad",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "Total produktion (sedan midnatt)",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "Produktion (sista timmen)",
+  "tibberLiveMeasurementWidgetAccumulatedReward": "Ackumulerad belöning",
+  "tibberLiveMeasurementWidgetAveragePower": "Genomsnittlig effekt",
+  "tibberLiveMeasurementWidgetCurrentL1": "Ström (L1)",
+  "tibberLiveMeasurementWidgetCurrentL2": "Ström (L2)",
+  "tibberLiveMeasurementWidgetCurrentL3": "Ström (L3)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "Mätaravläsning (förbrukning)",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "Mätaravläsning (produktion)",
+  "tibberLiveMeasurementWidgetMaxPower": "Max effekt",
+  "tibberLiveMeasurementWidgetMinPower": "Min effekt",
+  "tibberLiveMeasurementWidgetPower": "Driva",
+  "tibberLiveMeasurementWidgetPowerFactor": "Effektfaktor",
+  "tibberLiveMeasurementWidgetPowerProduction": "Kraftproduktion",
+  "tibberLiveMeasurementWidgetTimestamp": "Tidsstämpel",
+  "tibberLiveMeasurementWidgetTitle": "Aktuell förbrukning/produktion vid {time}",
+  "tibberLiveMeasurementWidgetUnitA": "A",
+  "tibberLiveMeasurementWidgetUnitV": "V",
+  "tibberLiveMeasurementWidgetUnitW": "W",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "Spänning (Fas 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "Spänning (Fas 2)",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "Spänning (fas 3)",
+  "tibberLiveMeasurementsWidgetConnecting": "Ansluter till Tibber Pulse...",
+  "tibberLiveMeasurementsWidgetError": "Ett fel uppstod vid anslutning till Tibber Pulse. Kontrollera din åtkomsttoken och internetanslutning.",
+  "tibberLiveMeasurementsWidgetNotSupported": "Livemätningar stöds inte för det här hemmet.",
+  "tibberMessageAccessTokenUpdated": "Åtkomsttoken har uppdaterats",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber prenumerationsstatus",
+  "tibberStatusWidgetTitle": "Cachehantering",
+  "tibberSubscriptionStatusActive": "aktiv",
+  "tibberSubscriptionStatusInactive": "inaktiv",
+  "tibberSubscriptionStatusLoading": "belastning...",
+  "tibberWhereIsMyAccessToken": "Var kan jag hitta min \"åtkomsttoken\"?",
+  "timeBefore": "Före",
+  "timeDayAgo": "en dag sedan",
+  "timeDays": "dagar",
+  "timeDaysAgo": "{days} dagar sedan",
+  "timeDaysWithin": "dagar",
+  "timeForFirstYear": "för det första året",
+  "timeFriday": "fredag",
+  "timeFromDate": "Från {date}",
+  "timeFromUndefined": "Odefinierad",
+  "timeHours": "timmar",
+  "timeHoursAgo": "{hours} timmar sedan",
+  "timeInFuture": "I framtiden",
+  "timeJustNow": "just nu",
+  "timeLastUpdated": "senast uppdaterad",
+  "timeMinutes": "minuter",
+  "timeMinutesAgo": "{minutes} minuter sedan",
+  "timeMonday": "måndag",
+  "timeMonth": "månad",
+  "timeMonths": "månader",
+  "timeMonthsAgo": "{months} månader sedan",
+  "timeMonthsWithin": "månader",
+  "timePeriodYearStart": "årlig",
+  "timeReminderAtEnd": "På slutet",
+  "timeReminderAtStart": "Vid start",
+  "timeRightNow": "Just nu",
+  "timeSaturday": "lördag",
+  "timeSeconds": "sek",
+  "timeSunday": "söndag",
+  "timeThursday": "torsdag",
+  "timeToday": "i dag",
+  "timeTuesday": "tisdag",
+  "timeUntilDate": "Fram till {date}",
+  "timeUntilUnlimited": "Obegränsat",
+  "timeWednesday": "onsdag",
+  "timeWeek": "vecka",
+  "timeWeeks": "veckor",
+  "timeWithin": "Inom {duration}",
+  "timeYesterday": "i går",
+  "unitCm": "cm",
+  "unitCmLong": "cm",
+  "unitCmShort": "cm",
+  "unitCubicMetersLong": "{count, plural, one {Kubikmeter (m³)} other {Kubikmeter (m³)}}",
+  "unitCubicMetersShort": "m³",
+  "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoule (GJ)}}",
+  "unitGJShort": "GJ",
+  "unitGigaByteLong": "GB",
+  "unitGigaByteShort": "GB",
+  "unitHoursLong": "{count, plural, one {Timme} other {Timmar (h)}}",
+  "unitHoursShort": "h",
+  "unitKWhLong": "{count, plural, one {Kilowatt timme (kWh)} other {Kilowatt timmar (kWh)}}",
+  "unitKWhShort": "kWh",
+  "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
+  "unitKgShort": "kg",
+  "unitLiters": "liter",
+  "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {Megawattimme (MWh)} other {Megawattimmar (MWh)}}",
+  "unitMWhShort": "MWh",
+  "unitMegaByteLong": "MB",
+  "unitMegaByteShort": "MB",
+  "unitNone": "ingen",
+  "unitNoneFormatted": "{count, plural, one {enhet} other {enheter}}",
+  "unitPercentLong": "Procent (%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "kvm",
+  "unitSquareMetersLong": "{count, plural, one {Kvadratmeter (m²)} other {Kvadratmeter (m²)}}",
+  "unitSquareMetersShort": "m²",
+  "updateAvailable": "Appversionen {oldVersion} är inte uppdaterad. Du kan uppdatera till version {newVersion}.",
+  "updateObjectName": "Ändra objektnamn",
+  "upgradeDescription": "Appen kan göra mer. Bättre kostnadsöversikt, mer statistik, Excel-export, fler räknare, ...",
+  "useDismissibleSettings": "Ta bort genom svepgest",
+  "useDismissibleSettingsDetailed": "Räknare, kontrakt etc. kan raderas genom en sidosveprörelse",
+  "usedForPaymentsRepayments": "Förskottsbetalning, grundpris och bonus",
+  "valueLess": "{value} mindre",
+  "valueMore": "{value} mer",
+  "versionIsUpToDate": "Den senaste appversionen som släppts för alla användare är {version}.",
+  "virtualCounter": "Virtuell mätare",
+  "virtualCounterMasterCounter": "Mästarmätare",
+  "virtualCounterMasterCounterAttach": "Välj huvudmätare",
+  "virtualCounterMasterCounterDescription": "Info: Huvudmätaren ligger till grund för beräkningen av den virtuella mätaren, t.ex. huvudelmätaren eller huvudvattenmätaren.",
+  "virtualCounterMetersToBeAdded": "Mätare ska läggas till",
+  "virtualCounterMetersToBeAddedDescription": "Vilka mätaravläsningar som ska läggas till huvudmätaren, t.ex. elproduktionsmätare.",
+  "virtualCounterMetersToBeSubtracted": "Meter som ska subtraheras",
+  "virtualCounterMetersToBeSubtractedDescription": "Vilka mätarställningar som ska subtraheras från huvudmätaren, t.ex. \"värmepumpsmätare\", \"elinmatningsmätare\".",
+  "virtualCounterNotConfigured": "Kontrollera inställningarna för din virtuella mätare. Ingenting kan beräknas.",
+  "warmWater": "Varmt vatten",
+  "warning": "Varning",
+  "warningCounterReplacementDetected": "Det nya värdet är lägre än föregående mätarställning. Har mätaren bytts ut?",
   "warningNextReminderText": "Nästa påminnelse är {date}.",
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "counterConsiderForTotalConsumptions": "Tänk på den totala förbrukningen"
+  "warningOutdatedSinceText": "sedan {date}",
+  "warningReadingBiggerThanOldValue": "Det nya värdet är högre än föregående mätaravläsning.{isOilCounter, select, true { Har du fyllt på tanken?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "Det nya värdet är högre än föregående mätarställning. Har du fyllt på tanken?",
+  "warningReadingOutdatedForYearlyResetCounter": "Den sista mätarställningen för året {lastYear} för {deviceTypeName} {roomNamePart} saknas. Detta är nödvändigt för en korrekt beräkning av den totala årsförbrukningen.",
+  "warningReadingOutdatedFrequency": "Den senaste mätarställningen för {deviceTypeName} {roomNamePart} är föråldrad {outdatedSinceText}.{whenNotifyDateText}",
+  "warningReadingSeemsTooBig": "Nyvärdet är ganska högt. Har avläsningen tagits korrekt?",
+  "warningReadingSeemsTooSmall": "Nyvärdet är ganska lågt. Lästes det rätt?",
+  "warningReadingSmallerThanOldValue2": "Det nya värdet är lägre än föregående mätarställning. Har avläsningen tagits korrekt?",
+  "warningYearlyReset": "Noll läsning i början av året",
+  "wasteWaterPriceEnabled": "Färskvatten och avloppsvattenkostnader visas separat (relevant för avdragsmätare)",
+  "waterConsumption": "Vattenförbrukning",
+  "waterExtractionMinimumLevelLower": "Avdrag sker för att konsumtionen är lägre än tröskeln.",
+  "waterMeterEventsInformation": "{count, plural, =1 {Din trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du en avisering i sådant fall.} other {Dina trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du ett meddelande i sådana fall.}}",
+  "watersupplierAccessRequestQ1": "Är du ägare till en fastighet i vattenverkets upptagningsområde och vill ha tillgång till radiomätaravläsningar?",
+  "watersupplierAccessRequestQ2": "Har du redan begärt åtkomst? Därefter måste du skapa ett EHW+-användarkonto.",
+  "watersupplierAccessRequestQ3": "Har du redan begärt åtkomst och fått din QR-kod?",
+  "watersupplierAccessRequestQ4": "Vill du få mätarvarningar så att du kan reagera vid exempelvis ett rörsprängt eller rinnande toalettspolning?",
+  "watersupplierCompleteMeterIdServerErrorTryAgain": "Tyvärr, det fungerade tyvärr inte. Det berodde på vår server. Bäst att försöka igen vid ett senare tillfälle!",
+  "watersupplierCompleteMeterIdTryAgain": "Du ska inte passera! Vänligen ange de tre sista siffrorna i ditt mätar-ID igen!",
+  "watersupplierMeterIdValidationStep": "Vi kontrollerar ditt mätar-ID.",
+  "watersupplierNoAccess": "Du har inte längre behörighet att hämta data.",
+  "watersupplierNoAccessDetailedMessage": "Om du anser att du fortfarande borde ha åtkomst, vänligen skanna din aktiveringskod igen. Om åtkomstkoden inte längre är giltig, skicka in en ny begäran om åtkomst.",
+  "watersupplierOpenReminderSettings": "Öppna inställningar",
+  "watersupplierRadioMeterDefaultName": "Radio kallvattenmätare",
+  "watersupplierScanQrCodeApprovalInProgress": "Vi auktoriserar nu ditt konto så att du kan komma åt radiomätaravläsningarna i framtiden.",
+  "watersupplierScanQrCodeCommand": "Skanna vänster QR-kod (aktiveringskod)!",
+  "watersupplierScanQrCodeOffboardingSuccessful": "Åtkomsten till din radiovattenmätare har avbrutits.",
+  "watersupplierScanQrCodeScanSuccessful": "Wow, aktiveringskoden ser så fin ut! Ange de tre sista siffrorna i ditt mätar-ID!",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "Obs! Ditt ursprungliga mätar-ID kan ha fler än 8 tecken.",
+  "watersupplierScanQrCodeTitle": "Aktivering av radiomätare",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "Ja! Din radiovattenmätare av typen \"Cold Water\" har lagts till. Du hittar den bland de andra mätarna.",
+  "watersupplierScanQrCodeValidation": "QR-koden har upptäckts, låt oss validera den.",
+  "watersupplierScanQrCodeValidationFailed": "Tyvärr, koden är ogiltig. Vill du försöka igen?",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "Du skannade aktiveringskoden istället för spärrkoden. Försök igen!",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "Du skannade återkallningskoden istället för aktiveringskoden. Försök igen!",
+  "watersupplierScanRevokeQrCodeCommand": "Skanna rätt QR-kod (återkalla kod)!",
+  "watersupplierUnlinkRadioMeterButtonDelete": "Ta bort radiomätare",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "Skanna återkallelsekod",
+  "watersupplierUnlinkRadioMeterDescription1": "Vill du radera radiomätaren utan att ogiltigförklara aktiveringskoden?",
+  "watersupplierUnlinkRadioMeterDescription2": "Vill du inte längre ha tillgång till din radiomätardata? Observera: när återkallningskoden har skannats blir aktiveringskoden ogiltig. Alla användarkonton som använde aktiveringskoden kommer att förlora åtkomst.",
+  "watersupplierUnlinkRadioMeterTitle": "Avsluta radiomätaråtkomst",
+  "watersupplierYourSupplier": "Din vattenleverantör",
+  "yearlyConsumption": "Årlig konsumtion hittills",
+  "yearlyCosts": "Årliga konsumtionskostnader hittills",
+  "youtubeConsent1": "Vi behöver ditt samtycke för att visa det inbäddade YouTube-innehållet. Du kan visa detta (och därmed även allt annat Youtube-innehåll i appen) med ett klick och även avaktivera det igen.",
+  "youtubeConsent2": "Visa alltid YouTube-innehåll",
+  "youtubeConsent3": "Jag samtycker till att externt innehåll visas för mig. Detta kan leda till att personuppgifter överförs till tredje parts plattformar. Mer om detta i vår",
+  "zipCode": "postnummer",
+  "zipCodeValidationLength": "Vänligen ange ett {digits}-siffrigt postnummer",
+  "zipCodeValidationOnlyNumbers": "Ett giltigt postnummer består endast av nummer"
 }

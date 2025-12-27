@@ -107,8 +107,8 @@
   "consumptionYearlyDetailedAboutSame": "omtrent det samme som",
   "consumptionYearlyDetailedAverageHousehold": "en gennemsnitlig husstand med {householdSize} {personLabel}",
   "consumptionYearlyDetailedOptimalEnding": "Hvordan har du det?",
-  "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} kWh/måned mangler for optimalt forbrug.",
-  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} kWh/måned mangler for godt forbrug.",
+  "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} mangler for optimalt forbrug.",
+  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} mangler for godt forbrug.",
   "consumptionPersonLabel": "{count, plural, one {person} other {mennesker}}",
   "consumptionWaterPrefixSingle": "Du forbruger",
   "consumptionWaterPrefixPerPerson": "Per person forbruger alle",
@@ -917,5 +917,13 @@
   "priceComparisonDiff": "Du betaler {diffWithCurrency} {comparison, select, more {mere end} less {mindre end} other {mere end}} gennemsnittet i {countryName}.",
   "roomNamePart": "i {roomName}",
   "warningOutdatedSinceText": "siden {date}",
-  "warningNextReminderText": "Den næste påmindelse er {date}."
+  "warningNextReminderText": "Den næste påmindelse er {date}.",
+  "consumptionYearlyDetailedElectricity": "Dit elforbrug {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Dit gasforbrug {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Du bruger {verbSuffix} {percentage} mindre end en gennemsnitlig husstand med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Du bruger {verbSuffix} {percentage} mere end en gennemsnitlig husstand med {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Du bruger {verbSuffix} omtrent det samme som en gennemsnitlig husstand med {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Du forbruger ca. {dailyLiters} liter pr. dag (≈ {monthlyCubicMeters} {unitName} pr. måned).",
+  "consumptionWaterDailyMonthlyPerPerson": "Per person forbruger alle ca. {dailyLiters} liter pr. dag (≈ {monthlyCubicMeters} {unitName} pr. måned).",
+  "consumptionYearlyDetailedLevel2": "er normalt."
 }

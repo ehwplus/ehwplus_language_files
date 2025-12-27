@@ -1,12 +1,113 @@
 {
-  "appDescriptionShort": "財布にも気候にも優しい",
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
+  "accountAbout": "EHW+ ユーザー アカウントでできることは何ですか?",
+  "accountBenefit1": "より確実な購入認識",
+  "accountBenefit2": "複数のデバイスで購入したすべての拡張機能にアクセス",
+  "accountButtonSetup": "EHW+ユーザーアカウントの設定",
+  "accountFaqA1": "EHW+ ユーザー アカウントは、App Store 経由で復元できない場合に購入を復元するための代替方法を提供し、信頼性を高めます。さらに、最初に購入が行われなかったデバイスで購入を復元できるようになります。将来的には設定などの保存も可能になる予定です。",
+  "accountFaqA2": "はい、購入した内容は、Android デバイスでは Play ストア経由で、iPhone では App Store 経由で復元できます。EHW+ ユーザー アカウントは、App Store 経由で復元できない場合に購入を復元するための代替方法を提供し、信頼性を高めます。さらに、最初に購入が行われなかったデバイスで購入を復元できるようになります。",
+  "accountFaqQ1": "EHW+のユーザーアカウントとは何ですか?",
+  "accountFaqQ2": "EHW+ ユーザー アカウントがなくても購入したものにアクセスできますか?",
+  "accountFaqTitle": "よくある質問:",
+  "accountThankYouForPurchase": "ありがとう！今すぐ EHW+ ユーザー アカウントで購入を保護しますか?",
+  "accountUpdateInfo": "新機能: EHW+ ユーザー アカウント",
+  "activitiesDescription": "水道メーターや電気メーターを使った洗濯など、メーターの測定値を活動にリンクします。",
+  "activitiesTitle": "私の活動",
+  "activityBath": "バス",
+  "activityDishWasher": "食器洗い機",
+  "activityIron": "アイロンがけ",
+  "activityNameLabel": "アクティビティ名",
+  "activityOverview": "活動概要",
+  "activitySettings": "アクティビティ設定",
+  "activityShower": "シャワー",
+  "activityTitle": "活動",
+  "activityWash": "洗浄",
+  "activityWashDuration": "間隔",
+  "activityWashDuration2hrs": "2時間",
+  "activityWashRotations": "回転",
+  "activityWashShort": "ショートプログラム",
+  "activityWashTemperature": "温度",
+  "activityWithEnergyConsumption": "消費電力はアクティビティに対してのみ測定されます",
+  "addActivity": "アクティビティの追加",
+  "addDetail": "詳細を追加",
+  "addNewValue": "新しい値を入力してください",
+  "advancePayment": "前払い",
+  "appBarExpandedMode": "背景画像付きのアプリバー",
   "appDescriptionLong": "<p><b>EHW+</b> へようこそ。<b>E</b>lectricity（電気）、<b>H</b>eating（暖房）、<b>W</b>ater（水道）のための検針アプリです。使用量と費用を無料で簡単に追跡できます。</p>",
-  "contactTitle": "代表者:",
-  "contact": "EHW+ サービス GmbH\nゲオルク ヘルベルト通り 8\n68519 フィールンハイム\n\nお問い合わせ\n\n電話: 06204/7383382\nメール: info@ehwplus.com",
-  "euDisputeResolution": "EUの紛争解決\n\n欧州委員会は、オンライン紛争解決 (OS) のプラットフォームを提供しています: https://ec.europa.eu/consumers/odr/。\n私たちの電子メール アドレスは、上記の奥付に記載されています。\n\n消費者紛争解決・普遍的紛争解決機関\n\n当社は、消費者仲裁委員会における紛争解決手続きに参加する意思も義務もありません。",
+  "appDescriptionShort": "財布にも気候にも優しい",
+  "appName": "EHW+ |消費量とメーター測定値",
+  "appNameShort": "EHW+",
+  "areYouSure": "本気ですか？",
+  "basePrice": "基本価格",
+  "bonus": "ボーナス",
+  "bonusInfoText": "ボーナス付きの料金プランにより、プロバイダーを変更する際に特に大幅な節約が可能になることがよくあります。ただし、これは通常、1 回限りのボーナスによるものです。つまり、総コストが非常に低くなるのは、供給の初年度だけです。作業量や基本料金が高い場合、2 年目には明らかに高額な計算が行われます。したがって、ボーナス料金の場合は、1 年後に再度変更することを最初から計画する必要があります。この取り消しがまったく不可能な 2 年間の期間を持つボーナス料金は、特に厳しく疑問視されるべきです。",
+  "bonusInfoTitle": "ボーナス料金に関する情報",
+  "cancellationPeriod": "キャンセル期間",
+  "changeCounterOrder": "必要に応じて、順序を変更できます",
+  "chartDottedLinesNonSeasonal": "破線の曲線は前の期間を表します。たとえば、「過去 14 日間」を選択すると、過去 28 日間が表示され、古い 14 日間が破線で表示されます。",
+  "chartDottedLinesSeasonal": "破線の曲線は前の期間を表します。たとえば、「過去 14 日間」を選択すると、過去 28 日間が表示され、古い 14 日間が破線で表示されます。",
+  "chartHorizontalLineElectricityGas": "緑の線は非常に良好な消費を、黄色の線は良好な消費を、赤の線はドイツの平均消費を表しています。",
+  "chartHorizontalLineWater": "ドイツでは平均して、一人当たり毎日家庭で 127 リットルの飲料水を使用します。青線は冷水（60%）、赤線は温水（40%）を期間の日数と人数に外挿して表します。",
+  "chartHorizontalLines": "破線は、あなた自身の消費に関するフィードバックを提供することを目的としています。",
+  "chooseActivity": "アクティビティを選択してください",
+  "chooseActivityIcon": "アイコンを選択してください",
+  "coldWater": "冷水",
+  "cometConsentScreenAcceptButton": "フィードバックを送りたい",
+  "cometConsentScreenDataCanBeUsedForTraining": "データは将来の予測を最適化するために使用される場合があります",
+  "cometConsentScreenDeclineButton": "フィードバックをしたくない",
+  "cometConsentScreenFeedbackDescription": "予測の使用は無料ですが、研究チームはサービスがどの程度うまく機能するかについてのフィードバックを必要としています。",
+  "cometConsentScreenFeedbackMethod": "予測サービスを使用し、最適化に同意すると、フィードバックが自動的に提供されます。",
+  "cometConsentScreenFeedbackTitle": "ゲーテ大学はあなたのフィードバックを必要としています:",
+  "cometConsentScreenHeader": "新機能: 消費予測の改善",
+  "cometConsentScreenHowItWorksTitle": "どのように機能するのでしょうか?",
+  "cometConsentScreenOfflineDescription": "簡素化されたローカル予測がデバイス上で計算されます。",
+  "cometConsentScreenOfflineDescriptionTitle": "インターネット接続がない場合:",
+  "cometConsentScreenOnlineDescription": "消費量データはゲーテ大学フランクフルト校に送信され、そこで個別の予測が作成され、アプリに表示されます。",
+  "cometConsentScreenOnlineDescriptionTitle": "インターネット接続あり:",
+  "cometConsentScreenToggleLabel": "予測サービスを利用する",
+  "cometSettingsIsPredictionsApiEnabled": "Goethe Institute の COMET Forecast API を使用する",
+  "comment": "メモ",
+  "commonAnd": "そして",
+  "commonBack": "戻る",
+  "commonCancel": "キャンセル",
+  "commonChange": "変化",
+  "commonChangeSaved": "変更が保存されました",
+  "commonClose": "近い",
+  "commonCollapse": "崩壊",
+  "commonContinue": "続く",
+  "commonCopiedToClipboard": "クリップボードにコピーされました",
+  "commonDay": "日",
+  "commonDelete": "消去",
+  "commonLearnMore": "もっと詳しく知る",
+  "commonLoadingData": "データのロード中",
+  "commonLoggingIn": "サインインしています...",
+  "commonLoggingOut": "サインアウトしています...",
+  "commonLogin": "サインイン",
+  "commonLogout": "サインアウト",
+  "commonMaximum": "日次最高値",
+  "commonMinimum": "日次最低値",
+  "commonMonth": "月",
+  "commonMore": "もっと",
+  "commonNo": "いいえ",
+  "commonNotAuthenticated": "認証されていません。",
+  "commonOk": "わかりました",
+  "commonOpen": "開ける",
+  "commonSave": "保存",
+  "commonSend": "提出する",
+  "commonShare": "共有",
+  "commonUpdateNow": "今すぐアップデートしてください",
+  "commonUserLogin": "ユーザーログイン",
+  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "EHW+ アカウントを使用しています。購入した{total}製品のうち{notSubmitted}をEHW+サーバーに保存できませんでした。この問題はすぐに解決されることを期待しています。",
+  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {1 件の購入が EHW+ アカウント経由で同期されました。} other {{count} の購入は EHW+ アカウント経由で同期されています。}}",
+  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {EHW+ アカウントを使用しています。今後製品を購入すると、すべてのデバイス間で同期されます。} one {EHW+ アカウントを使用しています。{count}で購入した製品はEHW+サーバーに保存されました。} other {EHW+ アカウントを使用しています。{count}で購入した商品はEHW+サーバーに保存されています。}}",
+  "commonUserLoginDescriptionNotLoggedIn": "複数のデバイスでアプリを使用していますか?EHW+ アカウントにログインすると、すべてのデバイス間で設定と購入した製品を同期できます。",
+  "commonYear": "年",
+  "commonYes": "はい",
+  "completeButton": "完了",
+  "confirmDeleteAtCloud": "「{objectTitle}」もGoogleドライブから削除すべきでしょうか？",
+  "consent11AnalyticsTitle": "分析データ",
+  "consent12Analytics": "アプリまたは個々の機能の成功を評価するために、アプリは匿名化された使用統計を送信します。データは第三者に送信されません。データはアプリのさらなる開発に使用されます。",
+  "consent13StromGedacht": "TransnetBW が提供するサービス StromGedacht は、送電網の安定性に関する情報と、電力を優先的に使用すべき時期に関する推奨事項を提供します。送電網にとってエネルギー移行がますます困難になる中、ドイツ南西部の家庭もその影響を受けています。あなたの場所の情報を受け取るために、ここでアプリに郵便番号を入力すると、その郵便番号が TransnetBW StromGedacht API に送信されます。他のデータは送信またはリンクされません。",
+  "consent13StromGedachtTitle": "StromGedacht からの系統安定性に関する通知",
   "consent1Hello": "こんにちは",
   "consent2ThankYou": "いつもEHW+をご利用いただき誠にありがとうございます。",
   "consent3Video": "短い紹介ビデオを見てみませんか?",
@@ -14,1694 +115,781 @@
   "consent5ErrorReportingTitle": "エラーレポート",
   "consent6ContractPricesPerUnitTitle": "電気・水道・ガス料金",
   "consent7ContractPricesPerUnit": "他の EHW+ ユーザーと比較して現在支払っている金額を見積もることができるように、価格は国および州とともにドイツの EHW+ サーバーに転送されます。転送に同意した場合のみ、価格統計にアクセスできます。匿名性を確保するため、統計は送信された価格の最小数を超えた後にのみ表示されます。",
-  "consent11AnalyticsTitle": "分析データ",
-  "consent12Analytics": "アプリまたは個々の機能の成功を評価するために、アプリは匿名化された使用統計を送信します。データは第三者に送信されません。データはアプリのさらなる開発に使用されます。",
-  "consent13StromGedachtTitle": "StromGedacht からの系統安定性に関する通知",
-  "consent13StromGedacht": "TransnetBW が提供するサービス StromGedacht は、送電網の安定性に関する情報と、電力を優先的に使用すべき時期に関する推奨事項を提供します。送電網にとってエネルギー移行がますます困難になる中、ドイツ南西部の家庭もその影響を受けています。あなたの場所の情報を受け取るために、ここでアプリに郵便番号を入力すると、その郵便番号が TransnetBW StromGedacht API に送信されます。他のデータは送信またはリンクされません。",
-  "stromGedachtAgreement": "私は、StromGedacht 通知を取得するために私の郵便番号 (提供されている場合) が TransnetBW に送信されることに同意します。",
-  "priceSubmissionAgreement": "単位当たりの電気/ガス/水道料金を EHW+ サーバーに送信することに同意します",
-  "googleAnalyticsAgreement": "アプリの使用に関する匿名化されたデータを EHW+ Services GmbH に送信することに同意します。",
+  "consentTitle": "プライバシー設定",
+  "consumption": "消費",
+  "consumptionCacheManagementClearCacheAndSynchronizeButton": "クリアと同期",
+  "consumptionCacheManagementClearCacheButton": "キャッシュをクリアする",
+  "consumptionCacheManagementClearedSuccessfully": "キャッシュが正常にクリアされました",
+  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "キャッシュされたデータはすべて削除され、サーバーから再ダウンロードされます。これには時間がかかる場合があります。",
+  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "キャッシュをクリアして同期しますか?",
+  "consumptionCacheManagementConfirmClearCacheMessage": "キャッシュされたすべての消費データは完全に削除されます。後で同期することもできます。",
+  "consumptionCacheManagementConfirmClearCacheTitle": "キャッシュをクリアしますか?",
+  "consumptionHeatmap": "消費ヒートマップ",
+  "consumptionHeatmapYield": "収量ヒートマップ",
+  "consumptionHeatpump": "また、ヒートポンプの消費電力は{formattedValue}kWhとなります。",
+  "consumptionIsNotExclusive": "消費がこのアクティビティに限定されない場合は、警告として表示されます。",
+  "consumptionIsNotExclusiveTitle": "消費は排他的ですか？",
+  "consumptionPersonLabel": "{count, plural, one {人} other {人}}",
+  "consumptionWaterColdEqual": "冷水：一般家庭と同程度。",
+  "consumptionWaterColdLess": "冷水: {percentage} は平均的な家庭よりも少ない。",
+  "consumptionWaterColdMore": "冷水: {percentage} が一般家庭より多い。",
+  "consumptionWaterDailyMonthlyPerPerson": "1人あたり約{dailyLiters}リットル/日 (≈ {monthlyCubicMeters} {unitName}/月)。",
+  "consumptionWaterDailyMonthlySingle": "1日約{dailyLiters}リットルを消費します (≈ {monthlyCubicMeters} {unitName}/月)。",
+  "consumptionWaterOverallEqual": "あなたの水の使用量 {ofRange} は、{householdSize} {personLabel} の平均的な世帯と同程度です。",
+  "consumptionWaterOverallLess": "あなたの水の使用量 {ofRange} は、{householdSize} {personLabel} の平均的な世帯より{percentage}少ないです。",
+  "consumptionWaterOverallMore": "あなたの水の使用量 {ofRange} は、{householdSize} {personLabel} の平均的な世帯より{percentage}多いです。",
+  "consumptionWaterRangeUnknown": "あなたの水の使用量 {ofRange} ...",
+  "consumptionWaterWarmEqual": "お湯：一般家庭と同程度。",
+  "consumptionWaterWarmLess": "お湯：一般家庭より{percentage}少ない。",
+  "consumptionWaterWarmMore": "お湯：一般家庭より{percentage}多め。",
+  "consumptionYearly": "年間の電力消費量 {ofRange} は {consumption} kWh です。",
+  "consumptionYearlyDetailedAboutSame": "とほぼ同じ",
+  "consumptionYearlyDetailedAverageHousehold": " {householdSize} {personLabel} の平均的な世帯",
+  "consumptionYearlyDetailedComparisonEqual": "あなたは{verbSuffix}ほぼ同じ量を消費しており、{householdSize} {personLabel} の平均的な世帯と同程度です。",
+  "consumptionYearlyDetailedComparisonLess": "あなたは{verbSuffix}{percentage}少なく消費しており、{householdSize} {personLabel} の平均的な世帯を下回っています。",
+  "consumptionYearlyDetailedComparisonMore": "あなたは{verbSuffix}{percentage}多く消費しており、{householdSize} {personLabel} の平均的な世帯を上回っています。",
+  "consumptionYearlyDetailedElectricity": "あなたの電力消費量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "ガス消費量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月) {consumptionLevel}.",
+  "consumptionYearlyDetailedLessThan": "{percentage}未満",
+  "consumptionYearlyDetailedLevel0": "非常に低いです。",
+  "consumptionYearlyDetailedLevel1": "かなり低めです。",
+  "consumptionYearlyDetailedLevel1Suffix": "最適な消費に達するには、約{nextToOptimal}少ない必要があります。",
+  "consumptionYearlyDetailedLevel2": "標準的です。",
+  "consumptionYearlyDetailedLevel2Suffix": "適切な消費には、約{nextToOptimal}が不足しています。",
+  "consumptionYearlyDetailedLevel3": "比較的高いです。",
+  "consumptionYearlyDetailedLevel4": "標準的な範囲です。",
+  "consumptionYearlyDetailedMoreThan": "{percentage}以上",
+  "consumptionYearlyDetailedOptimalEnding": "素晴らしいです！",
+  "consumptionYield": "収率",
+  "contact": "EHW+ サービス GmbH\nゲオルク ヘルベルト通り 8\n68519 フィールンハイム\n\nお問い合わせ\n\n電話: 06204/7383382\nメール: info@ehwplus.com",
+  "contactTitle": "代表者:",
   "continueAcceptPart1": "EHW+ アプリを使用すると、次の内容に同意したことになります。",
   "continueAcceptPart2": "。匿名化された個人データの収集と使用の詳細については、以下を参照してください。",
-  "termsOfUsageTitleShort": "利用規約",
-  "faqAboutDeveloperTitle": "EHW+の背後にいるのは誰ですか?",
+  "contract": "契約",
+  "contractCopyDialogOptionNo": "いいえ、キャンセルします。",
+  "contractCopyDialogOptionYes": "はい、単価またはその他の値が変更されました。",
+  "contractCopyDialogTitle": "この契約書のコピーを作成しますか?",
+  "contractCopyDialogWhen": "新価格はいつから適用されますか？",
+  "contractCosts": "単価",
+  "contractCostsFeedIn": "報酬価格/基本価格",
+  "contractDetails": "契約期間と詳細",
+  "contractName": "プロバイダー/契約名",
+  "contractNumber": "契約番号",
+  "contractPeriod": "契約期間",
+  "contractReminder": "契約リマインダー",
+  "contractStart": "契約開始日",
+  "contractType": "契約種類",
+  "contractTypeElectricityProvider": "電力会社",
+  "contractTypeGasProvider": "ガスプロバイダー",
+  "contractTypeHeatingFees": "光熱費",
+  "contractTypeNetwork": "インターネットと電話",
+  "contractTypeOilProvider": "石油供給者",
+  "contractTypeStove": "レンジ",
+  "contractTypeWaterFees": "水道料金",
+  "contracts": "契約",
+  "corresponds": "対応する",
+  "costSummary": "コストの概要",
+  "costSummaryYield": "報酬価格/-基本価格",
+  "costs": "コスト",
+  "costsUndefinedColdWater": "冷水料金",
+  "costsUndefinedElectricity": "電気料金",
+  "costsUndefinedFor": "コストは未定義",
+  "costsUndefinedForType": "未定義の場合は{type}",
+  "costsUndefinedGas": "ガス料金",
+  "costsUndefinedHeater": "暖房費",
+  "costsUndefinedNetworkCounter": "インターネット料金",
+  "costsUndefinedOilHeating": "オイル代",
+  "costsUndefinedWarmWater": "温水料金",
+  "counter": "カウンタ",
+  "counterBackgroundImage": "カウンターの背景画像",
+  "counterBackgroundImageOfObject": "オブジェクトの背景画像",
+  "counterColdWater": "冷水メーター",
+  "counterConsiderForTotalConsumptions": "総消費量を考慮する",
+  "counterConsiderForTotalElectricity": "総電力消費量を考慮する",
+  "counterConsiderForTotalWater": "総水使用量を考慮する",
+  "counterContractCurrentlyUsed": "現在ご利用中の契約書",
+  "counterDeleteConfirm": "カウンタを削除しますか?",
+  "counterDirection": "方向",
+  "counterDirectionAscending": "上昇",
+  "counterDirectionDescending": "降順",
+  "counterDirectionExplanation": "値は使用とともに減少しますか (レベルインジケータなど)、または値は使用とともに増加しますか (バーナー時間、オイルメーターなど)、またはそれぞれの読み取り値は独立していますか (消費量/収量)?",
+  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "counterDistrictHeating": "地域暖房",
+  "counterEdit": "カウンターの編集",
+  "counterElectricity": "電力メーター",
+  "counterElectricityBack": "電力フィードインメーター（PV）",
+  "counterElectricityGenerated": "発電量計",
+  "counterExclude": "除外する",
+  "counterExcludedContracts": "除外される契約",
+  "counterExplainSeasonal": "夏の間、メーターの指示値を0に設定しますか?冬には、測定値は通常の消費パターンに従います。夏には平らになります。",
+  "counterFactor": "要素",
+  "counterFactorDescription": "消費は比例配分でのみ割り当てられますか?割合を 0.1 (10%) ～ 1.0 (100%) の値で入力します。",
+  "counterFractionDigits": "小数部の桁",
+  "counterGas": "ガスメーター",
+  "counterGasCalorificValue": "発熱量",
+  "counterGasCalorificValueHelpText": "発熱量：測定されたガス体積をエネルギーに変換するための無次元係数。天然ガス：通常9.0～12.5kWh/m3、LPG：23.0～33.0kWh/m3",
+  "counterGasCalorificValueLabel": "発熱量※",
+  "counterGasConversionFactor": "換算係数",
+  "counterGasConversionFactorHelpText": "Ca1.0。条件番号は、運転量を標準量に換算するために使用されます。動作条件はメーターでのガスの状態であり、圧力 (高度) と温度に依存します。",
+  "counterGasConversionFactorLabel": "換算係数*",
+  "counterHeater": "ラジエターメーター",
+  "counterInclude": "含む",
+  "counterIsOutdated": "カウンターが古い",
+  "counterLinkMoreRecent": "より最近のカウンターをリンクする",
+  "counterMessageRoomOptional": "部屋の割り当てはグループ化に役立ちますが、オプションです。",
+  "counterMeterId": "メーターID",
+  "counterName": "カウンター名",
+  "counterNew": "新しいカウンター",
+  "counterNoContractSelected": "契約が選択されていません",
+  "counterNoRoomConnection": "ルーム接続なし",
+  "counterNum": "{count}カウンター",
+  "counterOilHeating": "オイル暖房",
+  "counterOtherContracts": "その他の契約",
+  "counterOutdatedAndNextReminder": "カウンターの読み取り値は {date} 以降古いため、次回の読み取りリマインダーは {date2} です。",
+  "counterProportionateConsumption": "比例した消費",
+  "counterPvFeedInCounter": "再生可能エネルギー（太陽光発電と太陽光発電システムによる熱）",
+  "counterPvFeedInCounterExplanation": "電力供給メーターを使用して、発電および供給された電力を記録します。\n太陽光発電システム付き。結果として生じる収益は、次のコストと相殺されます。\n引かれた電気。",
+  "counterReadings": "測定値",
+  "counterReallyDeleteLink": "リンクを削除しますか?",
+  "counterReplacedBy": "に置き換えられました",
+  "counterRoom": "部屋",
+  "counterSelected": "選択済み",
+  "counterShowHeatmap": "ヒートマップを表示する",
+  "counterShowPreliminaryCurve": "予備曲線を表示",
+  "counterShowReadingsChart": "測定値チャートを表示",
+  "counterTankCapacity": "タンク容量",
+  "counterTankFillHeight": "充填高さ",
+  "counterTransducerFactor": "変圧比",
+  "counterTransducerFactorExplained": "変圧器を使用して電圧がメーターに到達する前に電圧を降圧する場合、正しい読み取り値を得るために新しい変換係数を適用する必要があります。例: メーターには換算係数 20 で 100,000 kWh が表示されます。正しい読み取り値は次のとおりです: 100,000 kWh x 20 = 2,000,000 kWh。",
+  "counterTypeLabel": "カウンタの種類",
+  "counterWarmWater": "温水メーター",
+  "counterWarmWaterPlusColdWater": "上水と廃水のコストを除く",
+  "counterWater": "水道メーター",
+  "counterWaterExtraction": "取水メーター（庭）",
+  "counterWaterExtractionExplanation": "減算メーターを使用すると、排水コストを削減できます。このアプリ内購入では、真水と廃水に異なるコストを指定でき、控除メーターからのメーターの読み取り値が水道料金に考慮されます。",
+  "counterWaterExtractionMinimumLevel": "最低レベル",
+  "counters": "メートル",
+  "createAccount": "アカウントの作成/ログイン",
+  "csvImportWithFactor": "メーターの測定値に 1.0 以外の係数を掛ける必要がありますか?たとえば、値を Wh から kWh に変換するには、0.001 を掛ける必要があります。",
+  "currency": "通貨",
+  "deleteObjectError": "このオブジェクトは削除できません (コード {errorCode})。",
+  "detailWithMultiSelect": "複数選択を許可する",
+  "detailsTitle": "詳細",
+  "difference": "違い",
+  "driveSignInWithGoogle": "Googleでサインイン",
+  "driveSyncNow": "今すぐ同期する",
+  "driveSyncStatusComparing": "サーバー上のファイルとの比較",
+  "driveSyncStatusFailed": "同期に失敗しました",
+  "driveSyncStatusLocalHasLatestNoCloud": "{localDate}からこのデバイスに保存されたファイルはクラウド内に保存されません",
+  "driveSyncStatusLocalHasLatestWithCloud": "{localDate} からこのデバイスに保存されたファイルは、{cloudDate} からクラウドに保存されたファイルよりも最新です",
+  "driveSyncStatusNotSynced": "同期されていません",
+  "driveSyncStatusRemoteHasLatestNoLocal": "{cloudDate} のクラウド上のファイルはこのデバイスに保存されていません",
+  "driveSyncStatusRemoteHasLatestWithLocal": "{cloudDate} のクラウド内のファイルは、{localDate} のローカル ファイルよりも最新です",
+  "driveSyncStatusSyncing": "同期中です",
+  "driveSyncStatusTitle": "同期ステータス",
+  "driveSyncStatusUpToDate": "{localDate} からの最新情報",
+  "driveSyncWithGoogle": "Googleドライブ同期",
+  "editDetailTitle": "詳細の編集",
+  "electricity": "電気",
+  "electricityBack": "供給される電気",
+  "electricityConsumption": "消費電力",
+  "electricityGenerated": "発電した電力",
+  "enterComment": "メモを入力してください",
+  "enterExistingReadingAgain": "古い読みを再入力します",
+  "enterObjectName": "新しいオブジェクトに名前を付けます",
+  "errorInvalidRange": "有効な範囲がありません",
+  "errorNoInternet": "ネットワークなし",
+  "euDisputeResolution": "EUの紛争解決\n\n欧州委員会は、オンライン紛争解決 (OS) のプラットフォームを提供しています: https://ec.europa.eu/consumers/odr/。\n私たちの電子メール アドレスは、上記の奥付に記載されています。\n\n消費者紛争解決・普遍的紛争解決機関\n\n当社は、消費者仲裁委員会における紛争解決手続きに参加する意思も義務もありません。",
+  "existingPhoto": "既存の写真を添付する",
+  "existingPhotoOfMeterReading": "検針の既存の写真を添付しますか?",
+  "explanationManageMoreThanOneObject": "管理したい物件が複数ありますか?次に、現在のオブジェクトに名前を付けて、別のオブジェクトを作成します。",
+  "export": "輸出",
+  "exportExplanation": "たとえば、新しいデバイスに転送するために、どの既存のオブジェクトをエクスポートしますか?",
+  "exportObjectDescription": "{countersText}、{meterReadings}、{timeLastUpdated}、{lastUpdated}",
+  "exportOptionConsumptionsSubtitle": "最初の読み取り以降の毎日の消費値。",
+  "exportOptionConsumptionsTitle": "一日の消費量",
+  "exportOptionExcel": "Excelファイル",
+  "exportOptionFileDescription": "オブジェクトは{fileType}ファイルとして共有されます",
+  "exportOptionPdf": "PDFファイル",
+  "exportOptionReadingsSubtitle": "通常は、不規則な間隔でのメーターの測定値または消費量です。",
+  "exportOptionReadingsTitle": "読み取り値",
+  "exportTabHowToExport": "データをどのようにエクスポートしますか?",
+  "exportTabHowToExportOptionSaveToDownloads": "{folder}フォルダーに保存",
+  "exportTabHowToExportOptionShare": "他のアプリと共有する",
+  "exportTabSnackBarSaveResultMessageError": "データの保存中にエラーが発生しました",
+  "exportTabSnackBarSaveResultMessageSuccess": "データは {fileName} としてフォルダー {folder} に正常に保存されました",
+  "exportWhere": "オブジェクトはどの形式でエクスポートする必要がありますか?",
+  "exportWhichValuesShouldBeExported": "どの値をエクスポートする必要がありますか?",
   "faqAboutDeveloperBody1": "EHW+ にご興味をお持ちいただきありがとうございます。EHW+ は、2020 年 12 月に私、Timo Bähr によってリリースされました。私はフルタイムのアプリ開発者であり、環境保護に貢献するために空いた時間に EHW+ に取り組んでいます。2022 年 5 月以来、2 人目の開発者である Thomas Hesse が私の仕事を監督しており、EHW+ のバックエンドを構築しています。2023 年 4 月以来、Janine Sinner は数多くのお客様からのフィードバックに対応してきました。2024 年 7 月から、Artem Yuzhakov がアプリ開発者として加わりました。",
   "faqAboutDeveloperBody2": "ドイツの全 CO2 排出量の 26% 以上が一般家庭からの排出です。誰もが少しでも消費を減らすことができれば、多くのことが達成できるでしょう。ご貢献いただき誠にありがとうございました!",
   "faqAboutDeveloperBody3": "アプリを改善する方法に関する提案を歓迎します。",
   "faqAboutDeveloperBody4": "ただし、すべての提案を実現できるわけではないこと、また新機能には時間がかかることをご理解ください。",
-  "commonCollapse": "崩壊",
-  "commonMore": "もっと",
-  "commonSave": "保存",
-  "commonChange": "変化",
-  "commonContinue": "続く",
-  "commonBack": "戻る",
-  "commonOk": "わかりました",
-  "commonCancel": "キャンセル",
-  "commonClose": "近い",
-  "commonOpen": "開ける",
-  "commonSend": "提出する",
-  "commonDelete": "消去",
-  "commonYes": "はい",
-  "commonNo": "いいえ",
-  "commonLoadingData": "データのロード中",
-  "commonDay": "日",
-  "commonMonth": "月",
-  "commonYear": "年",
-  "commonShare": "共有",
-  "commonCopiedToClipboard": "クリップボードにコピーされました",
-  "commonLearnMore": "もっと詳しく知る",
-  "commonMinimum": "日次最低値",
-  "commonMaximum": "日次最高値",
-  "heatmapLegendTitle": "ヒートマップの詳細",
-  "heatmapLegendDisclaimer": "情報: 網掛けのボックスには推定値が含まれています。実際の消費量/出力を読み取るには、不足しているメーター測定値を可能であれば記入してください。",
-  "consumptionHeatmap": "消費ヒートマップ",
-  "consumptionHeatmapYield": "収量ヒートマップ",
-  "consumption": "消費",
-  "consumptionYield": "収率",
-  "showAllYears": "すべての年を表示",
-  "appNameShort": "EHW+",
-  "appName": "EHW+ |消費量とメーター測定値",
-  "tabCounters": "メートル",
-  "tabStatistics": "統計",
-  "tabObject": "物体",
-  "tabNews": "ヒント/ニュース",
-  "ofRangeLastDays": "過去 {days} 日間",
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeLastMonths": "過去 {months} か月間",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "ofRangeFrom": "{range}より",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "readingTime": "読書時間",
-  "reading": "カウンタの読み取り値",
-  "last2Weeks": "過去 14 日間",
-  "last12Weeks": "過去 12 週間",
-  "last12Months": "過去 12 か月",
-  "sinceInitialReading": "最初に読んだときから",
-  "lastYear": "去年",
-  "periodCustom": "ユーザー定義",
-  "counterReadings": "測定値",
-  "comment": "ボテ",
-  "enterComment": "メモを入力してください",
-  "enterExistingReadingAgain": "古い読みを再入力します",
-  "meterId": "カウンターID",
-  "meterReadingSubmitted": "プロバイダーに送信される",
-  "newReading": "現在の測定値を入力します",
-  "newReadingShort": "新しい読書",
-  "readingWithFactor": "係数付きカウンター読み取り値",
-  "csvImportWithFactor": "メーターの測定値に 1.0 以外の係数を掛ける必要がありますか?たとえば、値を Wh から kWh に変換するには、0.001 を掛ける必要があります。",
-  "newPhoto": "新しい写真を撮ります",
-  "existingPhoto": "既存の写真を添付する",
-  "newPhotoOfMeterReading": "検針所の写真を撮りませんか？",
-  "existingPhotoOfMeterReading": "検針の既存の写真を添付しますか?",
-  "numCounters": "{count, plural, =0 {{count}カウンター} one {{count}カウンター} other {{count}カウンター}}",
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "numMeterReadings": "{readings, plural, one {# 件の読み取り} other {# 件の読み取り}}",
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "exportObjectDescription": "{countersText}、{meterReadings}、{timeLastUpdated}、{lastUpdated}",
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "firstReadingYield": "ここで最初の収量を入力します。",
+  "faqAboutDeveloperTitle": "EHW+の背後にいるのは誰ですか?",
+  "faqTitle": "よくある質問",
+  "featureVoting": "機能の投票",
+  "featureVotingOnlyOnGerman": "機能調査は他の言語に翻訳されません。",
+  "featureVotingUnderConstruction": "特徴調査は現在改訂中です。将来的には、EHW+ ユーザー アカウントが必要となり、アンケートではサードパーティ サーバーは使用されなくなります。ご理解のほどよろしくお願いいたします。",
+  "fedIn": "フィードイン",
   "firstReadingConsumption": "今すぐ最初の消費量を入力してください。",
   "firstReadingCounter": "最初のカウンター読み取り値を入力します。",
-  "consumptionHeatpump": "また、ヒートポンプの消費電力は{formattedValue}kWhとなります。",
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearly": "年間の電力消費量 {ofRange} は {consumption} kWh です。",
-  "@consumptionYearly": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "consumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedElectricityIntro": "あなたの電力消費量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月)",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedGasIntro": "ガス消費量 {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/年 ≈ {monthlyConsumption} kWh/月)",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "totalConsumption": {
-        "type": "String"
-      },
-      "yearlyConsumption": {
-        "type": "String"
-      },
-      "monthlyConsumption": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel0": "超低いです。",
-  "consumptionYearlyDetailedLevel1": "本当に目を見張るものがあります。",
-  "consumptionYearlyDetailedLevel3": "比較的高いです。",
-  "consumptionYearlyDetailedLevel4": "正常です。",
-  "consumptionYearlyDetailedYouConsume": "{verbSuffix}を消費します",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLessThan": "{percentage}未満",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedMoreThan": "{percentage}以上",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedAboutSame": "とほぼ同じ",
-  "consumptionYearlyDetailedAverageHousehold": "{householdSize} {personLabel} を持つ平均的な世帯",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedOptimalEnding": "調子はどうですか？",
-  "consumptionYearlyDetailedLevel1Suffix": "最適な消費量を実現するには、{nextToOptimal} kWh/月が不足しています。",
-  "@consumptionYearlyDetailedLevel1Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionYearlyDetailedLevel2Suffix": "{nextToOptimal} kWh/月が十分に消費できない。",
-  "@consumptionYearlyDetailedLevel2Suffix": {
-    "placeholders": {
-      "nextToOptimal": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionPersonLabel": "{count, plural, one {人} other {人々}}",
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "consumptionWaterPrefixSingle": "あなたは消費します",
-  "consumptionWaterPrefixPerPerson": "一人当たり、全員が消費する",
-  "consumptionWaterDailyMonthly": "1 日あたり約 {dailyLiters} リットル (≈ 1 か月あたり {monthlyCubicMeters} {unitName})。",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "String"
-      },
-      "monthlyCubicMeters": {
-        "type": "String"
-      },
-      "unitName": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterRangeUnknown": "あなたの水の消費量 {ofRange} ...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallLess": "あなたの水の消費量 {ofRange} は、{householdSize} {personLabel} の平均的な世帯よりも {percentage} 少ないです。",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallEqual": "あなたの水の消費量 {ofRange} は、{householdSize} {personLabel} を持つ平均的な家庭の水消費量と一致します。",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterOverallMore": "あなたの水の消費量 {ofRange} は、{householdSize} {personLabel} の平均的な世帯よりも {percentage} 多くなっています。",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "ofRange": {
-        "type": "String"
-      },
-      "percentage": {
-        "type": "String"
-      },
-      "householdSize": {
-        "type": "String"
-      },
-      "personLabel": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdLess": "冷水: {percentage} は平均的な家庭よりも少ない。",
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdMore": "冷水: {percentage} が一般家庭より多い。",
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterColdEqual": "冷水：一般家庭と同程度。",
-  "consumptionWaterWarmLess": "お湯：一般家庭より{percentage}少ない。",
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmMore": "お湯：一般家庭より{percentage}多め。",
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "String"
-      }
-    }
-  },
-  "consumptionWaterWarmEqual": "お湯：一般家庭と同程度。",
-  "yearlyConsumption": "これまでの年間消費量",
-  "yearlyCosts": "これまでの年間消費コスト",
-  "room": "部屋",
-  "fedIn": "フィードイン",
+  "firstReadingYield": "ここで最初の収量を入力します。",
+  "forX": "のために",
+  "gas": "ガス",
   "generated": "生成された",
-  "residualGenerationEstimated": "推定残留発生量",
-  "residualConsumptionEstimated": "推定残存消費量",
-  "myObjects": "私のオブジェクト",
-  "roomLivingRoom": "リビングルーム",
-  "roomDiningRoom": "ダイニングルーム",
-  "roomBedroom": "寝室",
-  "roomBathroom": "バスルーム",
-  "roomWc": "トイレ",
-  "roomChildrenRoom": "子供部屋",
-  "roomKitchen": "台所",
-  "roomStoreRoom": "保管室",
-  "roomOffice": "オフィス",
-  "roomGarden": "庭",
-  "counter": "カウンタ",
-  "counterDirectionAscending": "上昇",
-  "counterDirectionDescending": "降順",
-  "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "counterWater": "水道メーター",
-  "counters": "メートル",
-  "changeCounterOrder": "必要に応じて、順序を変更できます",
-  "newCounter": "新しいカウンターを作成する",
-  "updateObjectName": "オブジェクト名の変更",
-  "enterObjectName": "新しいオブジェクトに名前を付けます",
-  "explanationManageMoreThanOneObject": "管理したい物件が複数ありますか?次に、現在のオブジェクトに名前を付けて、別のオブジェクトを作成します。",
-  "selectedAtAppStart": "アプリの起動時に一番上のオブジェクトが選択されます",
-  "reallyDeleteObject": "オブジェクトを削除してもよろしいですか?",
-  "confirmDeleteAtCloud": "「{objectTitle}」もGoogleドライブから削除すべきでしょうか？",
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "deleteObjectError": "このオブジェクトは削除できません (コード {errorCode})。",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "commonChangeSaved": "変更が保存されました",
-  "commonUpdateNow": "今すぐアップデートしてください",
-  "commonLogout": "サインアウト",
-  "commonLogin": "サインイン",
-  "commonLoggingIn": "サインインしています...",
-  "commonLoggingOut": "サインアウトしています...",
-  "commonNotAuthenticated": "認証されていません。",
-  "commonUserLogin": "ユーザーログイン",
-  "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "EHW+ アカウントを使用しています。購入した{total}製品のうち{notSubmitted}をEHW+サーバーに保存できませんでした。この問題はすぐに解決されることを期待しています。",
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {1 件の購入が EHW+ アカウント経由で同期されました。} other {{count} の購入は EHW+ アカウント経由で同期されています。}}",
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {EHW+ アカウントを使用しています。今後製品を購入すると、すべてのデバイス間で同期されます。} one {EHW+ アカウントを使用しています。{count}で購入した製品はEHW+サーバーに保存されました。} other {EHW+ アカウントを使用しています。{count}で購入した商品はEHW+サーバーに保存されています。}}",
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "commonUserLoginDescriptionNotLoggedIn": "複数のデバイスでアプリを使用していますか?EHW+ アカウントにログインすると、すべてのデバイス間で設定と購入した製品を同期できます。",
-  "accountUpdateInfo": "新機能: EHW+ ユーザー アカウント",
-  "accountThankYouForPurchase": "ありがとう！今すぐ EHW+ ユーザー アカウントで購入を保護しますか?",
-  "accountAbout": "EHW+ ユーザー アカウントでできることは何ですか?",
-  "accountBenefit1": "より確実な購入認識",
-  "accountBenefit2": "複数のデバイスで購入したすべての拡張機能にアクセス",
-  "accountFaqTitle": "よくある質問:",
-  "accountFaqQ1": "EHW+のユーザーアカウントとは何ですか?",
-  "accountFaqA1": "EHW+ ユーザー アカウントは、App Store 経由で復元できない場合に購入を復元するための代替方法を提供し、信頼性を高めます。さらに、最初に購入が行われなかったデバイスで購入を復元できるようになります。将来的には設定などの保存も可能になる予定です。",
-  "accountFaqQ2": "EHW+ ユーザー アカウントがなくても購入したものにアクセスできますか?",
-  "accountFaqA2": "はい、購入した内容は、Android デバイスでは Play ストア経由で、iPhone では App Store 経由で復元できます。EHW+ ユーザー アカウントは、App Store 経由で復元できない場合に購入を復元するための代替方法を提供し、信頼性を高めます。さらに、最初に購入が行われなかったデバイスで購入を復元できるようになります。",
-  "accountButtonSetup": "EHW+ユーザーアカウントの設定",
-  "cometSettingsIsPredictionsApiEnabled": "Goethe Institute の COMET Forecast API を使用する",
-  "cometConsentScreenHeader": "新機能: 消費予測の改善",
-  "cometConsentScreenHowItWorksTitle": "どのように機能するのでしょうか?",
-  "cometConsentScreenOnlineDescriptionTitle": "インターネット接続あり:",
-  "cometConsentScreenOnlineDescription": "消費量データはゲーテ大学フランクフルト校に送信され、そこで個別の予測が作成され、アプリに表示されます。",
-  "cometConsentScreenOfflineDescriptionTitle": "インターネット接続がない場合:",
-  "cometConsentScreenOfflineDescription": "簡素化されたローカル予測がデバイス上で計算されます。",
-  "cometConsentScreenToggleLabel": "予測サービスを利用する",
-  "cometConsentScreenDataCanBeUsedForTraining": "データは将来の予測を最適化するために使用される場合があります",
-  "cometConsentScreenFeedbackTitle": "ゲーテ大学はあなたのフィードバックを必要としています:",
-  "cometConsentScreenFeedbackDescription": "予測の使用は無料ですが、研究チームはサービスがどの程度うまく機能するかについてのフィードバックを必要としています。",
-  "cometConsentScreenFeedbackMethod": "予測サービスを使用し、最適化に同意すると、フィードバックが自動的に提供されます。",
-  "cometConsentScreenDeclineButton": "フィードバックをしたくない",
-  "cometConsentScreenAcceptButton": "フィードバックを送りたい",
-  "exportTabHowToExport": "データをどのようにエクスポートしますか?",
-  "exportTabHowToExportOptionShare": "他のアプリと共有する",
-  "exportTabHowToExportOptionSaveToDownloads": "{folder}フォルダーに保存",
-  "exportTabSnackBarSaveResultMessageSuccess": "データは {fileName} としてフォルダー {folder} に正常に保存されました",
-  "exportTabSnackBarSaveResultMessageError": "データの保存中にエラーが発生しました",
+  "googleAnalyticsAgreement": "アプリの使用に関する匿名化されたデータを EHW+ Services GmbH に送信することに同意します。",
+  "googleApiAgreement": "{appNameShort} による Google API から受信した情報の使用および他のアプリへの転送は、限定使用要件を含む Google API サービスのユーザー データ ポリシーに準拠します。",
+  "gross": "きもい",
+  "grossNetPrices": "総額または正味価格",
+  "heatPump": "ヒートポンプ",
+  "heater": "ラジエーター",
+  "heatmapLegendDisclaimer": "情報: 網掛けのボックスには推定値が含まれています。実際の消費量/出力を読み取るには、不足しているメーター測定値を可能であれば記入してください。",
+  "heatmapLegendTitle": "ヒートマップの詳細",
+  "houseName": "家名",
+  "houseNameDescription": "家の名前、例:通りの名前",
+  "import": "輸入",
+  "importConfirm": "インポートの確認",
+  "importCounterAsCsv": "単一のメーターをインポートしますか?メーターごとにサポートされているのは、時刻とメーター読み取り値の 2 つの列を含む CSV ファイルです。\n\nデータ例:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
+  "importErrorCsvIgnoredColumns": "{columns, plural, one {最初の 2 つの列のみが使用されました。3 番目の列は無視されました。} other {最初の 2 つの列のみが使用され、{columns} 列は無視されました。}}",
+  "importErrorCsvIgnoredLines": "{count, plural, one {1 行が無視されました: {lines}} other {{count} 行は無視されました: {lines}}}",
+  "importExplanation": "すでにカウンターの読み取りを行っており、それを挿入したいですか?",
+  "importExport": "バックアップ/復元",
+  "importNewOrExistingCounter": "新規または既存のカウンターに追加しますか?",
+  "importNotPossible": "インポートできません",
+  "importPickFile": "ファイルを選択",
+  "importSelectJson": "JSONファイル（{appName}で作成）",
+  "importSelectSingleCounter": "シングルカウンタ（CSVファイル）",
+  "importSuccessful": "インポート成功",
   "importTabErrorMessageFileWithExtensionNotSelected": "インポートを続行するには、{extension} ファイルが必要です。",
-  "difference": "違い",
-  "period": "期間",
-  "periodHourly": "毎時",
-  "periodDaily": "毎日",
-  "periodWeekly": "毎週",
-  "periodBiweekly": "隔週",
-  "periodMonthly": "毎月",
-  "periodBimonthly": "隔月",
-  "periodQuarterly": "四半期ごとの",
-  "periodHalfYearly": "半年ごと",
-  "periodYearly": "毎年",
+  "importTheObject": "インポートオブジェクト",
+  "importWhichCounterForCsv": "どのカウンターを使用する必要がありますか?",
+  "imprintTitle": "インプリント",
+  "initialReading": "初期読み取り値",
+  "involvedCounters": "関係するカウンター",
+  "isLastEntryAtFilteredList": "フィルタリングされたリスト内の最も古い値",
+  "isOutdatedCounter": "カウンターは使われなくなりました",
+  "last12Months": "過去 12 か月",
+  "last12Weeks": "過去 12 週間",
+  "last2Weeks": "過去 14 日間",
+  "lastReading": "最後に読んだ本",
+  "lastYear": "去年",
+  "lineChartAppearanceSettings": "折れ線グラフの外観",
+  "lineChartAppearanceSettingsShowSpots": "チャートの線上に（円形の）スポットを表示します",
+  "localWriteSubtitle": "変更するたびに、オブジェクトと写真をローカルの「{folder}」フォルダーに保存する必要がありますか?",
+  "localWriteTitle": "ローカルのダウンロードフォルダーに保存します",
+  "manageMoreThanOneObjectStep1": "複数のオブジェクトを管理する - ステップ 1",
+  "manageMoreThanOneObjectStep2": "複数のオブジェクトを管理する - ステップ 2",
+  "marketLocationId": "市場の場所ID",
+  "marketLocationIdDescription": "市場の場所 ID は常に 11 桁で構成されます。通常、これは前回の電気またはガスの請求書に記載されています。",
+  "messageNoConsumptions": "十分な測定値が得られた場合、あるタイプのすべてのメーターの統計がここに表示されます。たとえば、2 つの冷水メーター、2 つの温水メーター、および 1 つの抽出メーターが 1 つの水統計に表示されます。",
+  "messageNoContracts": "まだ契約はありません。",
+  "messageNoCounterReadings": "まだカウンターの読み取り値を入力していません。",
+  "messageNoCounters": "まだカウンターを作成していません。",
+  "messageNoRooms": "まだ部屋がありません。部屋はグループメーターに役立ちます。",
+  "messageNotEnoughData": "グラフを表示するにはデータが不足しています",
   "meterCardLastUpdatedLabel": "更新されました",
-  "smartMeterServiceProvider": "サービスプロバイダー",
-  "smartMeterObtainDataAutomatically": "データを自動的に取得する",
+  "meterId": "カウンターID",
+  "meterReadingSubmitted": "プロバイダーに送信される",
+  "meterReadingsFilterAll": "すべて表示",
+  "meterReadingsFilterComments": "コメントのあるエントリのみを表示",
+  "meterReadingsFilterSubmitted": "「{state}」のみを表示",
+  "myObjects": "私のオブジェクト",
+  "net": "ネット",
+  "networkCounter": "インターネットと電話",
+  "newCounter": "新しいカウンターを作成する",
+  "newPhoto": "新しい写真を撮ります",
+  "newPhotoOfMeterReading": "検針所の写真を撮りませんか？",
+  "newReading": "現在の測定値を入力します",
+  "newReadingShort": "新しい読書",
+  "notifications": "通知",
+  "notificationsEmpty": "通知はありません",
+  "notificationsSmartMeterAlertFallback": "新しいスマート メーター アラートがあります。",
+  "numCounters": "{count, plural, =0 {{count}カウンター} one {{count}カウンター} other {{count}カウンター}}",
+  "numMeterReadings": "{readings, plural, one {# 件の読み取り} other {# 件の読み取り}}",
+  "numberOfDetails": "{count, plural, one {1 詳細} other {{count}の詳細}}",
+  "ofRangeFrom": "{range}から",
+  "ofRangeLastDays": "過去 {days} 日間",
+  "ofRangeLastMonths": "過去 {months} か月間",
+  "oil": "油",
+  "outdated": "時代遅れ",
+  "outdatedContracts": "期限切れの契約",
+  "outdatedCounters": "カウンターはもう使われていない",
+  "paidAdvancePayments": "前払い",
+  "parsingObjectError": "オブジェクトを解析できません。開発者にお問い合わせください。アプリをアンインストールすると、データが失われる可能性があります。",
+  "per": "あたり",
+  "perUnit": "{unit}あたり",
+  "period": "期間",
+  "periodBimonthly": "隔月",
+  "periodBiweekly": "隔週",
+  "periodCustom": "ユーザー定義",
+  "periodDaily": "毎日",
+  "periodHalfYearly": "半年ごと",
+  "periodHourly": "毎時",
+  "periodMonthly": "毎月",
+  "periodQuarterly": "四半期ごとの",
+  "periodWeekly": "毎週",
+  "periodYearly": "毎年",
+  "previouslyDeletedCounters": "最近削除されたメーター",
+  "priceComparisonDiff": "あなたは {countryName} の平均より {diffWithCurrency} {comparison, select, more {多く} less {少なく} other {多く}} 支払っています。",
+  "priceComparisonEqual": "{countryName} の平均とほぼ同じ金額を支払います。",
+  "priceComparisonNotEnoughData": "サイト {countryName} ({countryCode}) にはまだ十分な比較データがありません。",
+  "pricePerUnit": "ユニットあたりの価格",
+  "pricePerUnitFeedIn": "報酬価格",
+  "pricePerUnitFreshWater": "淡水のコスト",
+  "pricePerUnitWasteWater": "排水料金",
+  "pricePerUnitWaterCold": "冷水のコスト",
+  "pricePerUnitWaterWarm": "給湯暖房費",
+  "priceSubmissionAgreement": "単位当たりの電気/ガス/水道料金を EHW+ サーバーに送信することに同意します",
+  "privacyBlock1Text": "アプリケーション (以下「アプリ」と呼びます) の開発者/プロバイダーは、ドイツのテレメディア法 (TMG) 第5条に従い、次のとおりです。\n\n{contact}",
+  "privacyBlock1Text2": "アプリのご利用には以下の利用規約への同意が必要です。必ずお読みください。",
+  "privacyBlock1Title": "開発者",
+  "privacyBlock2Text": "お客様のデータの保護は当社にとって非常に重要です。このプライバシー ポリシーでは、EHW+ が収集する個人データとその使用方法について説明します。プライバシー ポリシーが根本的に変更されることはまれですが、新しい機能、テクノロジー、または法的要件により随時改訂される場合があります。したがって、このページを時々チェックして最新の情報を入手してください。重大な変更を行う場合は、お客様に通知し、必要に応じてお客様の同意を得ます。",
+  "privacyBlock2Title": "一般的な",
+  "privacyBlock3Title": "{appNameShort} はどのようなデータを収集しますか?",
+  "privacyBlock3aText": "{appNameShort} を作成したのは、メーターの測定値をすばやく簡単に入力し、統計を使用して消費量、そのコスト、潜在的な節約額について詳しく知ることができるようにするためです。これは、一般に「コンテンツ」と呼ばれるあらゆるデータを{appNameShort}に入力、計算、保存できることを意味します。このデータは携帯電話にのみ保存されます。\n\nGoogleドライブと同期します。\nGoogle ドライブとの同期を有効にすると、コンテンツは Google ドライブ上の「{appNameShort}」というフォルダーにも自動的にバックアップされます。このフォルダーには自分だけがアクセスできます。Google でログインすると、あなたのメール アドレスが開発者に表示されます。",
+  "privacyBlock3bText": "{googleApiAgreement}\n\n位置データ。\nユーザーの行動を理解し、将来の機能のために、アプリは匿名化された使用状況データを送信します。\nデータは第三者と共有されません。\n発信元 (国および都市)、言語、オペレーティング システム、デバイスの種類、解像度、クリック動作、および使用期間に関する情報が収集される場合があります。\n\nデバイスデータ。\n当社は、サービスへの接続に使用するデバイスの数と種類に関するデータ、およびそれらのデバイスのオペレーティング システム (Android、iOS、Windows、macOS など) に関する情報を収集します。\n\nアプリを使用すると、上記のように匿名化されたデータの収集に同意したことになります。",
+  "privacyBlock4DataUsage": "収集された匿名化データはユーザー行動の評価に使用されます。それ以外の利用はありません。\n\n{syncDriveDataUsage}",
+  "privacyBlock4DataUsageTitle": "{appNameShort} は私のデータをどのように使用しますか?",
+  "privacyBlock5": "個人データの保存期間は、それぞれの法定保存期間 (例: 商法および税法の保存期間) によって決定されます。期間の満了後、契約の履行または開始に必要でなくなった場合、および/または当社が継続的な保管に対する正当な利益を持たなくなった場合、対応するデータは定期的に削除されます。",
+  "privacyBlock5Title": "個人データの保存期間",
+  "privacyBlock6": "お客様が（お問い合わせフォームや電子メールなどを通じて）当社に連絡すると、個人データが収集されます。お問い合わせフォームの場合に収集されたデータは、それぞれの問い合わせフォームで確認できます。このデータは、お客様のお問い合わせに回答するため、または連絡先および関連する技術管理を確立する目的のみに保存および使用されます。データ処理の法的根拠は、第 2 条に従ってお客様の要求に応じるという当社の正当な利益です。6パラ。1点灯。f GDPR。あなたの連絡が契約の締結を目的としている場合、処理のための追加の法的根拠は第 2 条にあります。6パラ。1点灯。b GDPR。あなたのデータは、あなたの問い合わせが処理された後に削除されます。これは、状況から問題が最終的に解明されたと推測でき、データを保持する法的義務がない場合に当てはまります。",
+  "privacyBlock6Title": "接触",
+  "privacyBlock7": "適用されるデータ保護法は、お客様の個人データの処理に関して、管理者に対してデータ主体としての包括的な権利 (情報および介入の権利) を付与します。これについては、以下でお知らせします。\n\n- 第 2 条に基づく情報に対する権利。15 GDPR: 特に、お客様は、当社が処理するお客様の個人データ、処理の目的、処理される個人データのカテゴリー、お客様のデータが開示された、または開示される受信者または受信者のカテゴリー、計画された保存期間または保存期間を決定する基準、修正、消去、処理の制限、処理に対する異議申し立て、監督当局への苦情の権利の有無、お客様のデータがお客様から当社によって収集されなかった場合のそのデータの出所、自動化されたデータの存在に関する情報を取得する権利を有します。プロファイリングを含む意思決定、および該当する場合には、関連するロジックとそのような処理の重要性および予想される結果に関する有意義な情報、ならびに第 2 条に従って存在する保証について知らされるお客様の権利。データが第三国に転送される場合の 46 GDPR。\n\n- 第 2 条に基づく修正を受ける権利。16 GDPR: あなたは、自分に関する不正確なデータを遅滞なく修正してもらう権利、および/または当社が保存している不完全なデータを完成させる権利を有します。\n\n- 第 2 条に基づく消去の権利。17 GDPR: 第 17 条の条件に該当する場合、お客様には個人データの消去を要求する権利があります。17(1) GDPR が満たされています。ただし、この権利は、表現および情報の自由の権利の行使、法的義務の遵守、公益上の理由、または法的請求の確立、行使、防御のために処理が必要な場合には特に適用されません。\n\n- 第 2 条に基づく処理の制限に対する権利。18 GDPR: お客様は、許容できないデータ処理を理由にデータの消去に異議を唱えた場合、データの正確性が検証されている限り、個人データの処理の制限を要求する権利を有します。代わりに、収集目的を達成するためにこのデータが必要なくなった後、法的請求の主張、行使、防御のためにデータが必要な場合、またはお客様が以下の事項に関連する理由で異議を申し立てた場合は、データの処理の制限を要求する権利を有します。当社の正当な理由が優先されるかどうかがまだ明らかでない限り、お客様の特定の状況。\n\n- 第 2 条に従って通知を受ける権利。19 GDPR: お客様が管理者に対して修正、消去、または処理の制限を求める権利を行使した場合、管理者は、不可能であることが証明されたり、不当な労力が必要な場合を除き、お客様の個人データが開示されたすべての受信者に、このデータの修正または削除、または処理の制限について通知する義務があります。あなたには、これらの受信者についての通知を受ける権利があります。\n\n- Art. に基づくデータポータビリティの権利。20 GDPR: お客様は、当社に提供した個人データを、構造化され、一般的に使用され、機械読み取り可能な形式で受け取る権利、または技術的に可能な場合には、別の管理者への転送を要求する権利を有します。\n\n- 第 2 条に従って付与された同意を撤回する権利。7(3) GDPR: あなたには、データ処理に対する同意をいつでも撤回する権利があり、将来にわたって有効です。撤回の場合、同意なしにさらなる処理が法的根拠に基づいて行われない限り、当社は当該データを遅滞なく削除します。同意の撤回は、撤回前の同意に基づく処理の合法性には影響しません。\n\n- 第 6 条に従って苦情を申し立てる権利。77 GDPR: お客様は、ご自身の個人データの処理が GDPR に違反していると思われる場合、他の行政的または司法的救済を損なうことなく、特にお客様の居住地、勤務先、または侵害の疑いのある加盟国の監督当局に苦情を申し立てる権利を有します。",
+  "privacyBlock7Title": "関係者の権利",
+  "privacyBlock8": "当社が利益の調整の一環として、当社の最優先の正当な利益に基づいてお客様の個人データを処理する場合、お客様は、お客様の特定の状況に起因する理由でいつでもこの処理に異議を申し立てる権利を有し、将来にわたりその影響を及ぼします。あなたが異議を唱える権利を行使した場合、当社は当該データの処理を停止します。ただし、お客様の利益、基本的権利および自由を無効にする処理の説得力のある正当な根拠を証明できる場合、または処理が法的請求の主張、行使、防御に役立つ場合、さらなる処理は留保されます。\n\n当社がダイレクト マーケティングの目的でお客様の個人データを処理する場合、お客様には、そのような広告の目的でお客様に関する個人データが処理されることにいつでも異議を申し立てる権利があります。上記のとおり、異議を申し立てる権利を行使することができます。\n\nあなたが異議を唱える権利を行使した場合、当社は直接的なマーケティング目的でのあなたに関するデータの処理を停止します。",
+  "privacyBlock8Title": "異議を唱える権利",
+  "privacyContractPriceSubmission": "ユーザーが契約データを維持すると、電気、水道、ガスの契約の単位あたりの価格が、国および連邦州とともにドイツの EHW+ サーバーに送信されます。このデータは、価格統計の計算に使用されます。アプリユーザーの場合、統計は契約ビューの価格比較の形式で表示されます。\n\nアプリを使用すると、前述の匿名化されたデータの収集に同意したことになります。",
+  "privacyTitle": "プライバシーポリシー",
+  "purchasesBuyNow": "今すぐ購入",
+  "purchasesDisabledOnIOS": "アプリ内購入が無効になっています",
+  "purchasesDisabledOnIOSDescription": "iPhone でアプリ内購入が無効になっているかどうかを確認してください ([設定] > [スクリーンタイム] > [制限] > [アプリのインストールと購入] > [アプリ内購入を許可])",
+  "purchasesDisabledOnIOSDescriptionTestflight": "アプリは Testflight 経由でインストールされました。App Store 経由でアプリをインストールした場合、購入はアプリ内でのみ機能することに注意してください。",
+  "purchasesEarlyBirdSubscription": "注: この初回顧客のサブスクリプションをキャンセルした場合、その後再度サブスクライブすることはできません。",
+  "purchasesExtensionMultipleObjectsDescription": "(1 つのオブジェクトだけではなく) 必要な数のアパート/家/オブジェクトのメーター測定値を入力します。",
+  "purchasesExtensionMultipleObjectsTitlePart": "複数のオブジェクトの管理",
+  "purchasesExtensionStatisticsDescription": "電気/ガス/水道などの年/月/週の使用量へのアクセス + 期間調整 + 詳細なコスト概要 + Excel エクスポート",
+  "purchasesExtensionStatisticsTitle": "高度な統計",
+  "purchasesExtensionsInWork": "さらなる拡張も計画されています。機能アンケートに参加して、ご意見をお聞かせください。",
+  "purchasesExtensionsSubtitle": "一度購入すれば永続的に使用可能 (サブスクリプションなし)",
+  "purchasesExtensionsTitle": "単一の拡張子",
+  "purchasesIOSRestorePurchases": "購入したものを復元する",
+  "purchasesIOSRestorePurchasesDescription": "過去に AppStore で何かを購入したことがある場合は、購入内容を復元できます。",
+  "purchasesPurchased": "購入済み",
+  "purchasesPurchasedIncludedInPremium": "プレミアムに含まれるもの",
+  "purchasesPurchasedSubscribed": "購読しました",
+  "purchasesRedeemCode": "コードを引き換える",
+  "purchasesStatisticsWithPremium": "プレミアムを利用すると、月ごとの比較{count, plural, =0{.}=1{.}other{にアクセスでき、{years} の履歴データも表示されます。}}",
+  "purchasesSubscribeNow": "今すぐ購読する",
+  "purchasesSubscribePremium": "プレミアムを購読する",
+  "purchasesSubscribePremiumMonthly": "月額 {price} のみのキャンセル可能な月額サブスクリプション",
+  "purchasesSubscribePremiumMonthlyWithNewPrice": "{priceNew} ではなく月額 {price} のロイヤリティ価格で、毎月キャンセル可能なサブスクリプション",
+  "purchasesSubscribePremiumTextLong": "サブスクリプション期間中および屋外温度中のすべての有料機能へのアクセス",
+  "purchasesSubscribePremiumYearly": "年間 {price} のみの年間キャンセル可能なサブスクリプション",
+  "purchasesSubscribePremiumYearlyWithNewPrice": "{priceNew} ではなく年間 {price} のロイヤルティ価格で、毎年キャンセル可能なサブスクリプション",
+  "purchasesUpgrade": "アップグレード",
+  "purchasesWebLegalNote": "法的な理由により、購入は PlayStore サービスを備えた iPhone または Android スマートフォンでのみ可能です。",
+  "purchasesWhyBuyText": "購入すると、アプリの公開によって私が発生するコストに参加し、さらなる開発をサポートすることになります。",
+  "purchasesWhyBuyTitle": "なぜ何かを買う必要があるのですか?",
+  "purchasesYourPurchases": "次のプレミアム パッケージにアクセスできます。",
+  "reading": "カウンタの読み取り値",
+  "readingDeleteConfirm": "読書を削除しますか?",
+  "readingNew": "新しい読書",
+  "readingPrefill": "オートフィルメーターの読み取り値",
+  "readingPrefillDescription": "以前のエントリに基づいた事前充填メーター測定値",
+  "readingPrefillDisableForAllCounters": "すべてのカウンターの自動入力を無効にする",
+  "readingPrefillDisabled": "自動入力が無効になっています",
+  "readingPrefillDisabledToast": "自動入力が無効になっています",
+  "readingPrefillEnableForAllCounters": "すべてのカウンターの自動入力を有効にする",
+  "readingReminder": "{count, plural, one {読書リマインダー} other {読書リマインダー}}",
+  "readingReminderDisabled": "読書リマインダーがアクティブになっていません",
+  "readingReminderMultiBody": "{count, plural, one {{count}メーターから測定値を今すぐ読み取ります} other {{count} メーターから測定値を今すぐ読み取ります}}",
+  "readingReminderSingleBody": "{counterName} 値を今すぐ読み取ります",
+  "readingReminders": "読書リマインダー",
+  "readingRemindersChannel": "読書リマインダー",
+  "readingSubmitted": "メーター測定値が提出されました",
+  "readingTime": "読書時間",
+  "readingUpdate": "読書を更新する",
+  "readingWithFactor": "係数付きカウンター読み取り値",
+  "reallyDeleteActivity": "本当にこのアクティビティを削除しますか?",
+  "reallyDeleteContract": "本当にこの契約を削除しますか?",
+  "reallyDeleteCounter": "カウンタを削除してもよろしいですか?",
+  "reallyDeleteCounterLink": "カウンタ間のリンクを削除してもよろしいですか?",
+  "reallyDeleteDetail": "本当にこの詳細を削除しますか?",
+  "reallyDeleteObject": "オブジェクトを削除してもよろしいですか?",
+  "reallyDeletePhoto": "検針写真を削除してもよろしいですか?",
+  "reallyDeleteValue": "本当にこの値を削除してもよろしいですか?",
+  "refund": "返金",
+  "reminderTime": "リマインダー時間",
+  "reminderWeekdayExplanation": "測定値は 1 日に 1 回までとするようリマインダーが表示されます。",
+  "reminderWeekdayExplanationSeasonal": "季節消費のあるメーターの場合、リマインダーは消費のある月にのみ送信されます (昨年の値が指定された場合にのみ機能します)。",
+  "requestAccess": "アクセスをリクエストする",
+  "reset": "リセット",
+  "resetActivities": "すべてのアクティビティをリセットする",
+  "residualConsumptionEstimated": "推定残存消費量",
+  "residualGenerationEstimated": "推定残留発生量",
+  "restoreDeletedCounter": "この削除されたメーターを復元しますか?",
+  "room": "部屋",
+  "roomBathroom": "バスルーム",
+  "roomBedroom": "寝室",
+  "roomChildrenRoom": "子供部屋",
+  "roomDeleteConfirm": "部屋を削除しますか?",
+  "roomDiningRoom": "ダイニングルーム",
+  "roomGarden": "庭",
+  "roomKitchen": "台所",
+  "roomLivingRoom": "リビングルーム",
+  "roomName": "部屋名",
+  "roomNameHint": "必要に応じて部屋名を割り当てます",
+  "roomNamePart": " {roomName}で",
+  "roomNew": "新しい部屋",
+  "roomOffice": "オフィス",
+  "roomOther": "他の",
+  "roomStoreRoom": "保管室",
+  "roomType": "部屋タイプ",
+  "roomWc": "トイレ",
+  "rooms": "客室",
+  "scanQrCode": "アクティベーション用 QR コードをスキャンします",
+  "seasonalCounter": "季節カウンター",
+  "seasonalElectricityCounter": "季節電力カウンター",
+  "selectedActivity": "選択されたアクティビティ「${activityName}」",
+  "selectedAtAppStart": "アプリの起動時に一番上のオブジェクトが選択されます",
+  "settingColor": "色",
+  "settingCounterTypeColor": "このカウンタータイプの色",
+  "settingCounterTypeColorAdvanced": "エキスパート向けのカラーピッカー",
+  "settingCounterTypeColorDescription": "このカウンター タイプのデフォルトの色が気に入らない場合は、別の色を割り当てることができます。",
+  "settingEAuto": "電気自動車",
+  "settingHouseholdSize": "世帯人数",
+  "settingHouseholdSizeDescription": "あなたの世帯の人数。",
+  "settingLanguageMode": "言語",
+  "settingLivingArea": "リビングエリア",
+  "settingObjectLocation": "位置",
+  "settingObjectLocationExplanation": "場所を入力すると、地域に合わせた洞察とサービスを調整することができます。",
+  "settingObjectLocationTitle": "あなたのオブジェクトはどこにありますか?",
+  "settingObjectType": "オブジェクトの種類",
+  "settingObjectTypeFlat": "アパート",
+  "settingObjectTypeHouse": "家",
+  "settingShowCounterReadingsChart": "測定値チャートを表示",
+  "settingShowHeatmap": "ヒートマップを表示する",
+  "settingShowPreliminaryCurve": "予備曲線を表示",
+  "settingUiColorPalette": "カラーパレット",
+  "settingUiMode": "ユーザーインターフェース",
+  "settingUiModeDark": "暗い",
+  "settingUiModeDarkOrLight": "ダーク/ライト ユーザー インターフェイス",
+  "settingUiModeLight": "ライト",
+  "settingUiModeOsDefault": "システム",
+  "settingWaterHeater": "給湯器",
+  "settingYearlyReset": "年に一度のリセット",
+  "settingYearlyResetOn": "の上",
+  "settings": "設定",
+  "settingsExternalServices": "外部サービス",
+  "settingsShowStromGedacht": "StromGedacht からの送電網に関するヒントを表示する必要がありますか?",
+  "settingsShowTabNewsDetailed": "「ニュース/ヒント」タブを表示する必要がありますか?",
+  "showAllYears": "すべての年を表示",
+  "signInWithApple": "Apple でサインインする",
+  "signInWithGithub": "GitHub でサインインする",
+  "signInWithGoogle": "Googleでサインイン",
+  "signInWithSocialAccount": "EHW+ アカウントの作成またはサインインにどのソーシャル アカウントを使用しますか?",
+  "sinceInitialReading": "最初に読んだときから",
+  "smartMeterCountersTitle": "無線式水道メーター",
   "smartMeterErrorNoData": "残念ながら、アプリで表示できるデータはありません。",
+  "smartMeterMisconfiguredWidgetCardButton": "スマートメーターを設置する",
+  "smartMeterMisconfiguredWidgetCardTitle": "スマートメーターを正しく設定してください。",
+  "smartMeterObtainDataAutomatically": "データを自動的に取得する",
+  "smartMeterProviderTibber": "ティバー",
+  "smartMeterProviderUndefined": "未設定",
+  "smartMeterProviderWwgl": "ヴァッサーヴェルク ゲラウアー ランド",
+  "smartMeterServiceProvider": "サービスプロバイダー",
   "smartMeterSettingsScreenSyncButton": "消費データを同期する",
+  "smartMeterSettingsScreenSyncingDialogError": "エラー",
+  "smartMeterSettingsScreenSyncingDialogErrorMessage": "同期中に次のエラーが発生しました: {errorMessage}",
+  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "わかりました",
   "smartMeterSettingsScreenSyncingDialogHeader": "同期中です",
   "smartMeterSettingsScreenSyncingDialogProgress": "進捗状況: {progressInPercent}%",
-  "smartMeterSettingsScreenSyncingDialogError": "エラー",
-  "smartMeterSettingsScreenSyncingDialogErrorOkButton": "わかりました",
-  "smartMeterSettingsScreenSyncingDialogErrorMessage": "同期中に次のエラーが発生しました: {errorMessage}",
-  "smartMeterMisconfiguredWidgetCardTitle": "スマートメーターを正しく設定してください。",
-  "smartMeterMisconfiguredWidgetCardButton": "スマートメーターを設置する",
   "smartMeterTabConsumptions": "消費量",
   "smartMeterTabProductions": "プロダクション",
-  "consumptionCacheManagementClearCacheButton": "キャッシュをクリアする",
-  "consumptionCacheManagementClearCacheAndSynchronizeButton": "クリアと同期",
-  "consumptionCacheManagementConfirmClearCacheTitle": "キャッシュをクリアしますか?",
-  "consumptionCacheManagementConfirmClearCacheMessage": "キャッシュされたすべての消費データは完全に削除されます。後で同期することもできます。",
-  "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "キャッシュをクリアして同期しますか?",
-  "consumptionCacheManagementConfirmClearCacheAndSyncMessage": "キャッシュされたデータはすべて削除され、サーバーから再ダウンロードされます。これには時間がかかる場合があります。",
-  "consumptionCacheManagementClearedSuccessfully": "キャッシュが正常にクリアされました",
+  "smartmeterInfocodeBannerText": "スマートメーター {smartmeterId} が情報コードを受信しました: {infocode}",
+  "smartmeterInfocodeBannerTextInfocodeFrost": "水道メーター {smartmeterId} の温度が 3°C を下回りました。霜が降りる恐れがあります！損傷を防ぐために、メーターとパイプを断熱するか、その領域を加熱してください。",
+  "smartmeterInfocodeBannerTextInfocodeLeckage": "水道メーター {smartmeterId} が継続的な水流を検出しました。これは漏れを示している可能性があります。ご家庭の設備に漏れがないか確認してください。トイレや蛇口の水漏れが一般的な原因です。",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "水道メーター {smartmeterId} が異常に高い水の消費量を検出しました。これはパイプの破裂を示している可能性があります。ご家庭の設備に大きな漏れや破損がないか確認してください。アラームは、大量の水を使用した場合にも表示されることがあります。プールを埋めるため。",
+  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "水道メーター {smartmeterId} が異常に高い水の消費量を検出しました。これは、パイプの破裂またはプールの満水のいずれかを示している可能性があります。ご家庭の設備に大きな漏れや破損がないか確認してください。",
+  "soFar": "これまでのところ",
+  "social": "ソーシャルメディア",
+  "socialEmail": "電子メール",
+  "socialFacebook": "フェイスブック",
+  "socialInstagram": "インスタグラム",
+  "socialLinkedIn": "リンクトイン",
+  "socialTwitter": "×",
+  "socialYouTube": "YouTube",
+  "solarThermalCollector": "太陽熱集熱器",
+  "sortActivities": "アクティビティの順序を変更する",
+  "source": "ソース：",
+  "stove": "レンジ",
+  "stromGedachtAgreement": "私は、StromGedacht 通知を取得するために私の郵便番号 (提供されている場合) が TransnetBW に送信されることに同意します。",
+  "subscribeToSmartMeterInfocodeEvents": "予期せぬ消費の通知を受け取りたい",
+  "supplementaryPayment": "追加支払い",
+  "support": "サポート/フィードバック",
+  "supportBug": "バグ",
+  "supportGivePraise": "褒める",
+  "supportGivePraiseLong": "アプリは好きですか？ありがとう！情報を広めましょう！",
+  "supportGivePraiseRating": "{store} でアプリを評価します。",
+  "supportGivePraiseRecommendation": "友人や家族にアプリを勧めてください。お勧めをありがとうございます!",
+  "supportMakeSuggestion": "何かを提案する",
+  "supportMakeSuggestionLong": "アプリはユーザーの提案に基づいて機能します。何か提案はありますか？",
+  "supportQuestion": "質問する",
+  "supportQuestionBox": "どんな御用でしょうか？",
+  "supportQuestionLong": "どのように機能するのでしょうか?そもそも可能でしょうか？答えは次のとおりです。",
+  "supportQuestionNotFound": "あなたの質問は解決されませんでしたか?喜んでお手伝いさせていただきます。",
+  "supportRecommend": "私は検針アプリ EHW+ を使用して、エネルギー消費量と関連コストを追跡しています。おそらくそれはあなたにとっても何かあるでしょうか？\n\n詳細については、https://www.ehwplus.com をご覧ください。",
+  "supportReportBug": "メールでバグを報告する",
+  "supportReportBugAffectedPages": "どのページでエラーが発生しますか?(該当する場合)",
+  "supportReportBugLong": "素晴らしいアプリです！しかし、確かに、物事はうまくいかない可能性があります。バグを報告すると、アプリが改善されます。",
+  "supportReportBugScreenshotsPlease": "できればエラーのマークを付けたスクリーンショットをメールに添付してください。",
+  "supportReportBugTextIs": "現在の誤った動作、つまりエラー自体を簡単に説明してください。",
+  "supportReportBugTextShould": "望ましい動作、つまり実際にどのようにあるべきかを簡単に説明してください。",
+  "swimmingPool": "スイミングプール",
+  "sync": "同期",
+  "syncAutomaticTitle": "ローカルデータが上書きされる可能性がある",
+  "syncDriveDataUsage": "EHW+ に Google ドライブへのアクセスを許可すると、アプリには、アプリ自体によって作成されたファイルへの読み取りおよび書き込みアクセスが与えられます。残念ながら、このアプリを通じて他の人が作成したファイルはアプリには表示されないため、Google ドライブを介して複数のアカウント間でデータを共有することはできません。",
+  "syncDriveLoggedIn": "データは複数のデバイス間で自動的に同期されます。次の Google アカウントが使用されます。",
+  "syncDriveLoggedInNoAuto": "変更後、データは自動的に Google ドライブにアップロードされます。オブジェクトをクリックしたときに、クラウドからの新しいデータのみがローカル データを上書きします。次の Google アカウントが使用されます。",
+  "syncObjectIsLocked": "オブジェクト データは更新中のため、この間は編集できません。",
+  "syncShareWithOthersNotInWeb": "アクセス権の付与は現在アプリ経由でのみ可能です。",
+  "syncShareWithOthersSubtitle": "他の Google ユーザーと一緒にメーター測定値を入力する場合は、EHW+ に Google ドライブへのフル アクセスを付与する必要があります。",
+  "syncShareWithOthersTitle": "他の人と共有しますか?",
+  "syncStatusFailedLong": "同期に失敗しました。編集は自己責任で行ってください",
+  "syncStatusFailedLongNoAutoSync": "同期に失敗しました。編集は自己責任で行ってください",
+  "syncStatusSyncRemoteHasLatest": "クラウド内のファイルはローカル ファイルよりも最新です",
+  "syncWithGoogleDriveDescription": "メーターの測定値が失われるのは残念なので、今すぐオブジェクトを Google ドライブと同期してください。",
+  "tabCounters": "メートル",
+  "tabNews": "ヒント/ニュース",
+  "tabObject": "物体",
+  "tabStatistics": "統計",
+  "taxRate": "税率",
+  "teaserPurchaseRenewableEnergies": "再生可能エネルギーカウンターにはプレミアムが必要です。",
+  "teaserPurchaseVirtualCounter": "Premium で仮想カウンターを追加します。",
+  "teaserPurchaseWaterExtractionCounter": "プレミアムで水抽出カウンターのロックを解除します。",
+  "termsOfUsageBlock1": "異議を唱える権利",
+  "termsOfUsageBlock1Title": "アプリの使用に関する一般的な利用規約",
+  "termsOfUsageBlock2": "アプリとその機能を悪用することはできません。本アプリは、法的に認められる範囲内で、当社の利用規約に従ってご利用ください。適用されるドイツの法律または当社の利用規約に違反した場合、プロバイダーはお客様によるアプリの使用を除外する権利を留保します。",
+  "termsOfUsageBlock2Title": "使用に関する一般的な情報",
+  "termsOfUsageBlock2a": "匿名化された使用状況データ\n私たちは独自の分析を使用してアプリを継続的に改善します。\n匿名化されたデータのみが送信されます。\nデータは第三者に渡されません。\n詳細については、「設定」>「プライバシー」>「{privacyBlock3Title}」に移動してください。",
+  "termsOfUsageBlock2b": "エラーレポート\nSentry (自己ホスト型) は、アプリを継続的に改善するために使用されます。\nエラーレポートは処理されず、第三者と共有されることもありません。\n詳細については、「設定」>「プライバシー」>「{privacyBlock3Title}」に移動してください。",
+  "termsOfUsageBlock2c": "個人情報\nGoogle Drive Sync を使用している場合でも、EHW+ は入力されたデータにアクセスできません。詳細については、「設定」>「プライバシー」>「{privacyBlock3Title}」に移動してください。",
+  "termsOfUsageBlock3": "プロバイダーは、アプリの可用性、信頼性、機能性、またはお客様の目的への適合性を保証しません。製造物責任法で義務付けられている場合を除き、故意、重大な過失、生命、身体、健康への損傷、品質保証の引き受け、欠陥の不正隠蔽、または重要な契約上の義務の違反による責任は除外されます。必須の契約上の義務とは、契約を適切に履行するためにその履行が不可欠であり、契約当事者がその遵守を定期的に信頼できる義務です。重要な契約上の義務の違反による損害賠償は、故意または重大な過失がない限り、この種の契約に典型的な予見可能な損害に限定されます。",
+  "termsOfUsageBlock3Title": "責任",
+  "termsOfUsageBlock4": "提供者は計算結果の正確性を保証しません。ユーザーは、生成される請求書が実際の支払額と一致していることを確認するために、アプリケーションに保存されている価格 (基本価格、消費価格など) を慎重かつ自己責任で更新する必要があります。",
+  "termsOfUsageBlock4Title": "ユーザーの責任",
+  "termsOfUsageTitle": "アプリの使用に関する一般的な利用規約",
+  "termsOfUsageTitleShort": "利用規約",
   "tibberAccessToken": "アクセストークン",
-  "tibberEnterAccessToken": "アクセストークンを入力してください",
-  "tibberMessageAccessTokenUpdated": "アクセストークンが正常に更新されました",
-  "tibberErrorAccessTokenInvalid": "アクセストークンが無効のようです",
-  "tibberErrorNoHomes": "このアカウントに関連付けられた家はありません",
-  "tibberErrorSmartMeterMisconfigured": "スマート メーターの設定が間違っているようです。",
-  "tibberErrorConnectivityShowCacheInstead": "最近の消費データを取得できません。代わりにキャッシュされた値を表示します。",
-  "tibberErrorUndefined": "予期しないエラーが発生しました: {error}",
-  "tibberErrorRateLimit": "Tibber API レート制限を超えました。少なくとも 5 分待ってから再試行してください。",
-  "tibberErrorNoSubscription": "API 経由で履歴データに完全にアクセスするには、選択した住宅でアクティブな Tibber 電力契約が必要です。",
+  "tibberActionSaveAuthorizationSettings": "認証設定を保存する",
   "tibberBasicAuth": "基本認証",
-  "tibberBasicAuthUsername": "ユーザー名",
-  "tibberBasicAuthPassword": "パスワード",
-  "tibberBasicAuthEnterUsername": "ユーザー名を入力してください",
   "tibberBasicAuthEnterPassword": "パスワードを入力してください",
+  "tibberBasicAuthEnterUsername": "ユーザー名を入力してください",
+  "tibberBasicAuthPassword": "パスワード",
+  "tibberBasicAuthUsername": "ユーザー名",
+  "tibberConsentScreenBenefit1Description": "消費量をリアルタイムで追跡し、隠れたエネルギー消費者を明らかにします。",
+  "tibberConsentScreenBenefit1Title": "電力消費量を表示する",
+  "tibberConsentScreenConfigureLaterButton": "後でセットアップする",
+  "tibberConsentScreenConfigureNowButton": "今すぐ Tibber Pulse をセットアップしてください",
+  "tibberConsentScreenDescription": "あなたは Tibber の顧客ですか、それとも顧客になる予定ですか?エネルギー監視を改善するために Pulse をサポートするようになりました。残念ながら、Pulse の履歴データは有効な Tibber 契約を持つ顧客のみが利用できることに注意してください。",
+  "tibberConsentScreenGoetheStudyBenefit1Description": "3 月 1 日以降の 1 時間あたりの消費量は匿名化され、ゲーテの研究に提供されます。",
+  "tibberConsentScreenGoetheStudyBenefit1Title": "ゲーテ研究に参加してみませんか？",
+  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "はい、ゲーテ研究に参加したいです",
+  "tibberConsentScreenGoetheStudySectionHeader": "研究プロジェクトへの参加",
+  "tibberConsentScreenHeader": "新機能: Tibber Pulse からの消費データ",
+  "tibberConsentScreenStoreLink": "Tiberのストアを表示",
   "tibberConsumptionEntryTotalCost": "総コスト: {totalCost}",
   "tibberConsumptionEntryTotalProfit": "総利益: {totalProfit}",
-  "tibberConsumptionEntryViewTimeSpanYear": "{year}年",
-  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "{year}から1年間",
+  "tibberConsumptionEntryViewTimeSpan24Hours": "{startTime} から {date} までの 24 時間",
+  "tibberConsumptionEntryViewTimeSpanDefault": "から: {startTime} から {endDate}",
   "tibberConsumptionEntryViewTimeSpanMonth": "{month}の月",
   "tibberConsumptionEntryViewTimeSpanMonthStartingAt": "{month}から1ヶ月",
-  "tibberConsumptionEntryViewTimeSpan24Hours": "{startTime} から {date} までの 24 時間",
   "tibberConsumptionEntryViewTimeSpanOneHour": "{date}の{startTime}から1時間",
-  "tibberConsumptionEntryViewTimeSpanDefault": "から: {startTime} から {endDate}",
-  "tibberWhereIsMyAccessToken": "「アクセストークン」はどこで見つけられますか?",
-  "tibberActionSaveAuthorizationSettings": "認証設定を保存する",
-  "tibberConsentScreenHeader": "新機能: Tibber Pulse からの消費データ",
-  "tibberConsentScreenDescription": "あなたは Tibber の顧客ですか、それとも顧客になる予定ですか?エネルギー監視を改善するために Pulse をサポートするようになりました。残念ながら、Pulse の履歴データは有効な Tibber 契約を持つ顧客のみが利用できることに注意してください。",
-  "tibberConsentScreenBenefit1Title": "電力消費量を表示する",
-  "tibberConsentScreenBenefit1Description": "消費量をリアルタイムで追跡し、隠れたエネルギー消費者を明らかにします。",
-  "tibberConsentScreenStoreLink": "Tiberのストアを表示",
-  "tibberConsentScreenConfigureNowButton": "今すぐ Tibber Pulse をセットアップしてください",
-  "tibberConsentScreenConfigureLaterButton": "後でセットアップする",
-  "tibberConsentScreenGoetheStudySectionHeader": "研究プロジェクトへの参加",
-  "tibberConsentScreenGoetheStudyParticipationConsentToggle": "はい、ゲーテ研究に参加したいです",
-  "tibberConsentScreenGoetheStudyBenefit1Title": "ゲーテ研究に参加してみませんか？",
-  "tibberConsentScreenGoetheStudyBenefit1Description": "3 月 1 日以降の 1 時間あたりの消費量は匿名化され、ゲーテの研究に提供されます。",
-  "tibberStatusWidgetTitle": "キャッシュ管理",
-  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber サブスクリプション ステータス",
-  "tibberSubscriptionStatusActive": "アクティブ",
-  "tibberSubscriptionStatusInactive": "非アクティブな",
-  "tibberSubscriptionStatusLoading": "読み込み中...",
-  "tibberLiveMeasurementCounterCardViewFooter": "ライブ測定",
-  "tibberLiveMeasurementsWidgetNotSupported": "この住宅ではライブ測定はサポートされていません。",
+  "tibberConsumptionEntryViewTimeSpanYear": "{year}年",
+  "tibberConsumptionEntryViewTimeSpanYearStartingAt": "{year}から1年間",
+  "tibberEnterAccessToken": "アクセストークンを入力してください",
+  "tibberErrorAccessTokenInvalid": "アクセストークンが無効のようです",
+  "tibberErrorConnectivityShowCacheInstead": "最近の消費データを取得できません。代わりにキャッシュされた値を表示します。",
+  "tibberErrorNoHomes": "このアカウントに関連付けられた家はありません",
+  "tibberErrorNoSubscription": "API 経由で履歴データに完全にアクセスするには、選択した住宅でアクティブな Tibber 電力契約が必要です。",
+  "tibberErrorRateLimit": "Tibber API レート制限を超えました。少なくとも 5 分待ってから再試行してください。",
+  "tibberErrorSmartMeterMisconfigured": "スマート メーターの設定が間違っているようです。",
+  "tibberErrorUndefined": "予期しないエラーが発生しました: {error}",
+  "tibberHomeSelectorHomeId": "ホームID:{homeId}",
+  "tibberHomeSelectorLabel": "家",
   "tibberLiveAndHistoricalMeasurementsWidgetNotSupported": "この住宅では、ライブ測定や過去の消費量データはサポートされていません。別のホームを選択してください。",
-  "tibberLiveMeasurementsWidgetConnecting": "Tibber Pulse に接続しています...",
-  "tibberLiveMeasurementsWidgetError": "Tibber Pulse への接続中にエラーが発生しました。アクセストークンとインターネット接続を確認してください。",
-  "tibberLiveMeasurementWidgetTitle": "{time}での消費電流/生産電流",
-  "tibberLiveMeasurementWidgetTimestamp": "タイムスタンプ",
-  "tibberLiveMeasurementWidgetPower": "力",
-  "tibberLiveMeasurementWidgetPowerProduction": "発電",
-  "tibberLiveMeasurementWidgetAveragePower": "平均電力",
-  "tibberLiveMeasurementWidgetMinPower": "最小電力",
-  "tibberLiveMeasurementWidgetMaxPower": "最大出力",
+  "tibberLiveMeasurementCounterCardViewFooter": "ライブ測定",
   "tibberLiveMeasurementWidgetAccumulatedConsumption": "総消費量（午前0時以降）",
-  "tibberLiveMeasurementWidgetAccumulatedProduction": "総生産量（午前0時以降）",
   "tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour": "消費量 (過去 1 時間)",
-  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "生産（過去 1 時間）",
-  "tibberLiveMeasurementWidgetLastMeterConsumption": "検針（消費量）",
-  "tibberLiveMeasurementWidgetLastMeterProduction": "検針（生産）",
   "tibberLiveMeasurementWidgetAccumulatedCost": "累積コスト",
+  "tibberLiveMeasurementWidgetAccumulatedProduction": "総生産量（午前0時以降）",
+  "tibberLiveMeasurementWidgetAccumulatedProductionLastHour": "生産（過去 1 時間）",
   "tibberLiveMeasurementWidgetAccumulatedReward": "累計報酬",
-  "tibberLiveMeasurementWidgetPowerFactor": "力率",
-  "tibberLiveMeasurementWidgetVoltagePhase1": "電圧 (フェーズ 1)",
-  "tibberLiveMeasurementWidgetVoltagePhase2": "電圧（フェーズ2）",
-  "tibberLiveMeasurementWidgetVoltagePhase3": "電圧(フェーズ3)",
+  "tibberLiveMeasurementWidgetAveragePower": "平均電力",
   "tibberLiveMeasurementWidgetCurrentL1": "電流(L1)",
   "tibberLiveMeasurementWidgetCurrentL2": "電流(L2)",
   "tibberLiveMeasurementWidgetCurrentL3": "電流(L3)",
+  "tibberLiveMeasurementWidgetLastMeterConsumption": "検針（消費量）",
+  "tibberLiveMeasurementWidgetLastMeterProduction": "検針（生産）",
+  "tibberLiveMeasurementWidgetMaxPower": "最大出力",
+  "tibberLiveMeasurementWidgetMinPower": "最小電力",
+  "tibberLiveMeasurementWidgetPower": "力",
+  "tibberLiveMeasurementWidgetPowerFactor": "力率",
+  "tibberLiveMeasurementWidgetPowerProduction": "発電",
+  "tibberLiveMeasurementWidgetTimestamp": "タイムスタンプ",
+  "tibberLiveMeasurementWidgetTitle": "{time}での消費電流/生産電流",
+  "tibberLiveMeasurementWidgetUnitA": "あ",
   "tibberLiveMeasurementWidgetUnitV": "V",
   "tibberLiveMeasurementWidgetUnitW": "W",
-  "tibberLiveMeasurementWidgetUnitA": "あ",
-  "tibberHomeSelectorHomeId": "ホームID:{homeId}",
-  "tibberHomeSelectorLabel": "家",
-  "scanQrCode": "アクティベーション用 QR コードをスキャンします",
-  "requestAccess": "アクセスをリクエストする",
-  "createAccount": "アカウントの作成/ログイン",
-  "watersupplierYourSupplier": "あなたの水道業者",
-  "watersupplierRadioMeterDefaultName": "無線式冷水メーター",
+  "tibberLiveMeasurementWidgetVoltagePhase1": "電圧 (フェーズ 1)",
+  "tibberLiveMeasurementWidgetVoltagePhase2": "電圧（フェーズ2）",
+  "tibberLiveMeasurementWidgetVoltagePhase3": "電圧(フェーズ3)",
+  "tibberLiveMeasurementsWidgetConnecting": "Tibber Pulse に接続しています...",
+  "tibberLiveMeasurementsWidgetError": "Tibber Pulse への接続中にエラーが発生しました。アクセストークンとインターネット接続を確認してください。",
+  "tibberLiveMeasurementsWidgetNotSupported": "この住宅ではライブ測定はサポートされていません。",
+  "tibberMessageAccessTokenUpdated": "アクセストークンが正常に更新されました",
+  "tibberStatusWidgetTibberSubscriptionStatus": "Tibber サブスクリプション ステータス",
+  "tibberStatusWidgetTitle": "キャッシュ管理",
+  "tibberSubscriptionStatusActive": "アクティブ",
+  "tibberSubscriptionStatusInactive": "非アクティブな",
+  "tibberSubscriptionStatusLoading": "読み込み中...",
+  "tibberWhereIsMyAccessToken": "「アクセストークン」はどこで見つけられますか?",
+  "timeBefore": "前に",
+  "timeDayAgo": "1日前",
+  "timeDays": "日",
+  "timeDaysAgo": "{days}日前",
+  "timeDaysWithin": "日",
+  "timeForFirstYear": "最初の1年間",
+  "timeFriday": "金曜日",
+  "timeFromDate": " {date}から",
+  "timeFromUndefined": "未定義",
+  "timeHours": "時間",
+  "timeHoursAgo": "{hours}時間前",
+  "timeInFuture": "将来",
+  "timeJustNow": "ちょうど今",
+  "timeLastUpdated": "最終更新日",
+  "timeMinutes": "分",
+  "timeMinutesAgo": "{minutes}分前",
+  "timeMonday": "月曜日",
+  "timeMonth": "月",
+  "timeMonths": "月",
+  "timeMonthsAgo": "{months}ヶ月前",
+  "timeMonthsWithin": "月",
+  "timePeriodYearStart": "毎年",
+  "timeReminderAtEnd": "最後に",
+  "timeReminderAtStart": "開始時",
+  "timeRightNow": "今すぐ",
+  "timeSaturday": "土曜日",
+  "timeSeconds": "秒",
+  "timeSunday": "日曜日",
+  "timeThursday": "木曜日",
+  "timeToday": "今日",
+  "timeTuesday": "火曜日",
+  "timeUntilDate": "{date}まで",
+  "timeUntilUnlimited": "無制限",
+  "timeWednesday": "水曜日",
+  "timeWeek": "週",
+  "timeWeeks": "週",
+  "timeWithin": " {duration}以内",
+  "timeYesterday": "昨日",
+  "unitCm": "cm",
+  "unitCmLong": "cm",
+  "unitCmShort": "cm",
+  "unitCubicMetersLong": "{count, plural, one {立方メートル (m3)} other {立方メートル (m3)}}",
+  "unitCubicMetersShort": "㎥",
+  "unitGJLong": "{count, plural, one {ギガジュール (GJ)} other {ギガジュール (GJ)}}",
+  "unitGJShort": "GJ",
+  "unitGigaByteLong": "GB",
+  "unitGigaByteShort": "GB",
+  "unitHoursLong": "{count, plural, one {時間} other {時間 (h)}}",
+  "unitHoursShort": "h",
+  "unitKWhLong": "{count, plural, one {キロワット時 (kWh)} other {キロワット時 (kWh)}}",
+  "unitKWhShort": "kWh",
+  "unitKgLong": "{count, plural, one {キログラム (kg)} other {キログラム (kg)}}",
+  "unitKgShort": "kg",
+  "unitLiters": "リットル",
+  "unitLitersLong": "{count, plural, one {リットル(ℓ)} other {リットル(ℓ)}}",
+  "unitLitersShort": "ℓ",
+  "unitMWhLong": "{count, plural, one {メガワット時 (MWh)} other {メガワット時 (MWh)}}",
+  "unitMWhShort": "MWh",
+  "unitMegaByteLong": "MB",
+  "unitMegaByteShort": "MB",
+  "unitNone": "なし",
+  "unitNoneFormatted": "{count, plural, one {ユニット} other {単位}}",
+  "unitPercentLong": "パーセント (%)",
+  "unitPercentShort": "%",
+  "unitSquareMeters": "平方メートル",
+  "unitSquareMetersLong": "{count, plural, one {平方メートル (m²)} other {平方メートル (m²)}}",
+  "unitSquareMetersShort": "㎡",
+  "updateAvailable": "アプリのバージョン{oldVersion}は最新ではありません。バージョン {newVersion} に更新できます。",
+  "updateObjectName": "オブジェクト名の変更",
+  "upgradeDescription": "アプリではさらに多くのことができます。より優れたコスト概要、より多くの統計、Excel エクスポート、より多くのカウンターなど...",
+  "useDismissibleSettings": "スワイプジェスチャーで削除",
+  "useDismissibleSettingsDetailed": "カウンターや契約書などは横スワイプで削除可能",
+  "usedForPaymentsRepayments": "前払い、基本価格、ボーナス",
+  "valueLess": "{value}未満",
+  "valueMore": "{value} もっと見る",
+  "versionIsUpToDate": "すべてのユーザーにリリースされたアプリの最新バージョンは {version} です。",
+  "virtualCounter": "仮想メーター",
+  "virtualCounterMasterCounter": "マスターメーター",
+  "virtualCounterMasterCounterAttach": "メインメーターを選択",
+  "virtualCounterMasterCounterDescription": "情報: メイン メーターは、主電力メーターや主水道メーターなどの仮想メーターの計算の基礎を形成します。",
+  "virtualCounterMetersToBeAdded": "追加されるメーター",
+  "virtualCounterMetersToBeAddedDescription": "どのメーター測定値をメインメーター (発電メーターなど) に追加する必要があります。",
+  "virtualCounterMetersToBeSubtracted": "減算されるメーター",
+  "virtualCounterMetersToBeSubtractedDescription": "「ヒートポンプメーター」、「電力フィードインメーター」など、どのメーター測定値をメインメーターから差し引く必要があるか。",
+  "virtualCounterNotConfigured": "仮想メーターの設定を確認してください。何も計算できません。",
+  "warmWater": "温水",
+  "warning": "警告",
+  "warningCounterReplacementDetected": "新しい値は、以前のメーター測定値よりも低くなります。メーターは交換されましたか？",
+  "warningNextReminderText": " 次のリマインダーは{date}です。",
+  "warningOutdatedSinceText": "{date}以降",
+  "warningReadingBiggerThanOldValue": "新しい値は前のメーター測定値よりも高くなります。{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "warningReadingBiggerThanOldValueOilVolume": "新しい値は、以前のメーター測定値よりも高くなります。タンクを補充しましたか？",
+  "warningReadingOutdatedForYearlyResetCounter": "{deviceTypeName} {roomNamePart} の年の {lastYear} の最後のメーター測定値がありません。これは、年間総消費量を正確に計算するために必要です。",
+  "warningReadingOutdatedFrequency": "{deviceTypeName} {roomNamePart} の最新のメーター測定値は古いです {outdatedSinceText}.{whenNotifyDateText}",
+  "warningReadingSeemsTooBig": "新しい価値はかなり高いです。測定値は正しく取得されましたか?",
+  "warningReadingSeemsTooSmall": "新しい値はかなり低いです。正しく読み取れましたか？",
+  "warningReadingSmallerThanOldValue2": "新しい値は、以前のメーター測定値よりも低くなります。測定値は正しく取得されましたか?",
+  "warningYearlyReset": "年始は読書ゼロ",
+  "wasteWaterPriceEnabled": "清水と廃水のコストは別々に表示されます（控除メーターに関連）",
+  "waterConsumption": "水の消費量",
+  "waterExtractionMinimumLevelLower": "消費が最小しきい値を下回っているため、差し引きは行われません。",
+  "waterMeterEventsInformation": "{count, plural, =1 {ワイヤレス水道メーター {waterSupplier} が予期せぬ消費を検出します。ご希望に応じて、そのような場合には通知を受け取ります。} other {ワイヤレス水道メーター {waterSupplier} は予期せぬ消費量を検出します。このような場合には、ご希望に応じて通知が届きます。}}",
   "watersupplierAccessRequestQ1": "あなたは水道の集水域にある不動産の所有者で、電波メーターの測定値にアクセスしたいですか?",
   "watersupplierAccessRequestQ2": "すでにアクセスをリクエストしましたか?次に、EHW+ ユーザー アカウントを作成する必要があります。",
   "watersupplierAccessRequestQ3": "すでにアクセスをリクエストして QR コードを受け取りましたか?",
   "watersupplierAccessRequestQ4": "たとえば、パイプの破裂やトイレの水洗などの場合に対応できるように、メーターのアラートを受け取りたいですか?",
-  "watersupplierOpenReminderSettings": "設定を開く",
-  "watersupplierScanQrCodeTitle": "電波メーターのアクティベーション",
-  "watersupplierScanQrCodeCommand": "左のQRコード（アクティベーションコード）をスキャンしてください！",
-  "watersupplierScanRevokeQrCodeCommand": "正しい QR コード (取り消しコード) をスキャンしてください。",
-  "watersupplierScanQrCodeValidation": "QR コードが検出されました。検証してみましょう。",
-  "watersupplierScanQrCodeValidationFailed": "申し訳ありませんが、コードが無効です。もう一度試してみますか?",
-  "watersupplierScanQrCodeValidationFailedRevokeScanned": "アクティベーション コードではなく、失効コードをスキャンしました。もう一度試してください。",
-  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "失効コードではなくアクティベーション コードをスキャンしました。もう一度試してください。",
-  "watersupplierScanQrCodeScanSuccessful": "わあ、アクティベーション コードはとても素敵ですね!メーターIDの下3桁を入力してください。",
-  "watersupplierMeterIdValidationStep": "メーターIDを確認中です。",
   "watersupplierCompleteMeterIdServerErrorTryAgain": "申し訳ありませんが、残念ながらうまくいきませんでした。それは私たちのサーバーが原因でした。後日もう一度試してみると良いでしょう。",
   "watersupplierCompleteMeterIdTryAgain": "通ることならず！メーターIDの下3桁を再度入力してください。",
-  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "注: 元のメーター ID には 8 文字を超える文字を含めることができます。",
-  "watersupplierScanQrCodeApprovalInProgress": "今後、電波メーターの測定値にアクセスできるように、アカウントを認証しています。",
-  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "うん！「冷水」タイプの無線水道メーターが正常に追加されました。他のメーターの中から見つけることができます。",
-  "watersupplierUnlinkRadioMeterTitle": "無線メーターへのアクセスを終了する",
-  "watersupplierUnlinkRadioMeterDescription1": "アクティベーション コードを無効にせずに電波メーターを削除しますか?",
-  "watersupplierUnlinkRadioMeterButtonDelete": "電波メーターを削除する",
-  "watersupplierUnlinkRadioMeterDescription2": "電波メーターのデータにアクセスしたくないですか?注意: 失効コードがスキャンされると、アクティベーション コードは無効になります。アクティベーション コードを使用したユーザー アカウントはアクセスできなくなります。",
-  "watersupplierUnlinkRadioMeterButtonRevoke": "取り消しコードをスキャンする",
-  "watersupplierScanQrCodeOffboardingSuccessful": "無線式水道メーターへのアクセスがキャンセルされました。",
+  "watersupplierMeterIdValidationStep": "メーターIDを確認中です。",
   "watersupplierNoAccess": "データを取得する権限がありません。",
   "watersupplierNoAccessDetailedMessage": "まだアクセスできるはずだと思われる場合は、アクティベーション コードをもう一度スキャンしてください。アクセス コードが有効でなくなった場合は、新しいアクセス リクエストを送信してください。",
-  "zipCode": "郵便番号",
-  "zipCodeValidationOnlyNumbers": "有効な郵便番号は数字のみで構成されます",
-  "zipCodeValidationLength": "{digits}桁の郵便番号を入力してください",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "houseName": "家名",
-  "houseNameDescription": "家の名前、例:通りの名前",
-  "marketLocationId": "市場の場所ID",
-  "marketLocationIdDescription": "市場の場所 ID は常に 11 桁で構成されます。通常、これは前回の電気またはガスの請求書に記載されています。",
-  "swimmingPool": "スイミングプール",
-  "smartmeterInfocodeBannerText": "スマートメーター {smartmeterId} が情報コードを受信しました: {infocode}",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "smartmeterId": {
-        "type": "String"
-      },
-      "infocode": {
-        "type": "String"
-      }
-    }
-  },
-  "smartmeterInfocodeBannerTextInfocodeLeckage": "水道メーター {smartmeterId} が継続的な水流を検出しました。これは漏れを示している可能性があります。ご家庭の設備に漏れがないか確認してください。トイレや蛇口の水漏れが一般的な原因です。",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruch": "水道メーター {smartmeterId} が異常に高い水の消費量を検出しました。これはパイプの破裂を示している可能性があります。ご家庭の設備に大きな漏れや破損がないか確認してください。アラームは、大量の水を使用した場合にも表示されることがあります。プールを埋めるため。",
-  "smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden": "水道メーター {smartmeterId} が異常に高い水の消費量を検出しました。これは、パイプの破裂またはプールの満水のいずれかを示している可能性があります。ご家庭の設備に大きな漏れや破損がないか確認してください。",
-  "smartmeterInfocodeBannerTextInfocodeFrost": "水道メーター {smartmeterId} の温度が 3°C を下回りました。霜が降りる恐れがあります！損傷を防ぐために、メーターとパイプを断熱するか、その領域を加熱してください。",
-  "smartMeterCountersTitle": "無線式水道メーター",
-  "counterOutdatedAndNextReminder": "カウンターの読み取り値は {date} 以降古いため、次回の読み取りリマインダーは {date2} です。",
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "waterMeterEventsInformation": "{count, plural, =1 {ワイヤレス水道メーター {waterSupplier} が予期せぬ消費を検出します。ご希望に応じて、そのような場合には通知を受け取ります。} other {ワイヤレス水道メーター {waterSupplier} は予期せぬ消費量を検出します。このような場合には、ご希望に応じて通知が届きます。}}",
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "subscribeToSmartMeterInfocodeEvents": "予期せぬ消費の通知を受け取りたい",
-  "completeButton": "完了",
-  "reset": "リセット",
-  "settingCounterTypeColor": "このカウンタータイプの色",
-  "settingCounterTypeColorDescription": "このカウンター タイプのデフォルトの色が気に入らない場合は、別の色を割り当てることができます。",
-  "settingCounterTypeColorAdvanced": "エキスパート向けのカラーピッカー",
-  "featureVotingUnderConstruction": "特徴調査は現在改訂中です。将来的には、EHW+ ユーザー アカウントが必要となり、アンケートではサードパーティ サーバーは使用されなくなります。ご理解のほどよろしくお願いいたします。",
-  "termsOfUsageTitle": "アプリの使用に関する一般的な利用規約",
-  "termsOfUsageBlock1Title": "アプリの使用に関する一般的な利用規約",
-  "termsOfUsageBlock1": "異議を唱える権利",
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2Title": "使用に関する一般的な情報",
-  "termsOfUsageBlock2": "アプリとその機能を悪用することはできません。本アプリは、法的に認められる範囲内で、当社の利用規約に従ってご利用ください。適用されるドイツの法律または当社の利用規約に違反した場合、プロバイダーはお客様によるアプリの使用を除外する権利を留保します。",
-  "termsOfUsageBlock2a": "匿名化された使用状況データ\n私たちは独自の分析を使用してアプリを継続的に改善します。\n匿名化されたデータのみが送信されます。\nデータは第三者に渡されません。\n詳細については、「設定」>「プライバシー」>「{privacyBlock3Title}」に移動してください。",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2b": "エラーレポート\nSentry (自己ホスト型) は、アプリを継続的に改善するために使用されます。\nエラーレポートは処理されず、第三者と共有されることもありません。\n詳細については、「設定」>「プライバシー」>「{privacyBlock3Title}」に移動してください。",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock2c": "個人情報\nGoogle Drive Sync を使用している場合でも、EHW+ は入力されたデータにアクセスできません。詳細については、「設定」>「プライバシー」>「{privacyBlock3Title}」に移動してください。",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "termsOfUsageBlock3Title": "責任",
-  "termsOfUsageBlock3": "プロバイダーは、アプリの可用性、信頼性、機能性、またはお客様の目的への適合性を保証しません。製造物責任法で義務付けられている場合を除き、故意、重大な過失、生命、身体、健康への損傷、品質保証の引き受け、欠陥の不正隠蔽、または重要な契約上の義務の違反による責任は除外されます。必須の契約上の義務とは、契約を適切に履行するためにその履行が不可欠であり、契約当事者がその遵守を定期的に信頼できる義務です。重要な契約上の義務の違反による損害賠償は、故意または重大な過失がない限り、この種の契約に典型的な予見可能な損害に限定されます。",
-  "termsOfUsageBlock4Title": "ユーザーの責任",
-  "termsOfUsageBlock4": "提供者は計算結果の正確性を保証しません。ユーザーは、生成される請求書が実際の支払額と一致していることを確認するために、アプリケーションに保存されている価格 (基本価格、消費価格など) を慎重かつ自己責任で更新する必要があります。",
-  "privacyBlock1Title": "開発者",
-  "privacyBlock1Text": "アプリケーション (以下「アプリ」と呼びます) の開発者/プロバイダーは、ドイツのテレメディア法 (TMG) の第 5 条に従い、次のとおりです。\n\nフォトケン0",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock1Text2": "アプリのご利用には以下の利用規約への同意が必要です。必ずお読みください。",
-  "privacyBlock2Title": "一般的な",
-  "privacyBlock2Text": "お客様のデータの保護は当社にとって非常に重要です。このプライバシー ポリシーでは、EHW+ が収集する個人データとその使用方法について説明します。プライバシー ポリシーが根本的に変更されることはまれですが、新しい機能、テクノロジー、または法的要件により随時改訂される場合があります。したがって、このページを時々チェックして最新の情報を入手してください。重大な変更を行う場合は、お客様に通知し、必要に応じてお客様の同意を得ます。",
-  "privacyBlock3Title": "{appNameShort} はどのようなデータを収集しますか?",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3aText": "{appNameShort} を作成したのは、メーターの測定値をすばやく簡単に入力し、統計を使用して消費量、そのコスト、潜在的な節約額について詳しく知ることができるようにするためです。これは、一般に「コンテンツ」と呼ばれるあらゆるデータを{appNameShort}に入力、計算、保存できることを意味します。このデータは携帯電話にのみ保存されます。\n\nGoogleドライブと同期します。\nGoogle ドライブとの同期を有効にすると、コンテンツは Google ドライブ上の「{appNameShort}」というフォルダーにも自動的にバックアップされます。このフォルダーには自分だけがアクセスできます。Google でログインすると、あなたのメール アドレスが開発者に表示されます。",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "googleApiAgreement": "{appNameShort} による Google API から受信した情報の使用および他のアプリへの転送は、限定使用要件を含む Google API サービスのユーザー データ ポリシーに準拠します。",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock3bText": "{googleApiAgreement}\n\n位置データ。\nユーザーの行動を理解し、将来の機能のために、アプリは匿名化された使用状況データを送信します。\nデータは第三者と共有されません。\n発信元 (国および都市)、言語、オペレーティング システム、デバイスの種類、解像度、クリック動作、および使用期間に関する情報が収集される場合があります。\n\nデバイスデータ。\n当社は、サービスへの接続に使用するデバイスの数と種類に関するデータ、およびそれらのデバイスのオペレーティング システム (Android、iOS、Windows、macOS など) に関する情報を収集します。\n\nアプリを使用すると、上記のように匿名化されたデータの収集に同意したことになります。",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyContractPriceSubmission": "ユーザーが契約データを維持すると、電気、水道、ガスの契約の単位あたりの価格が、国および連邦州とともにドイツの EHW+ サーバーに送信されます。このデータは、価格統計の計算に使用されます。アプリユーザーの場合、統計は契約ビューの価格比較の形式で表示されます。\n\nアプリを使用すると、前述の匿名化されたデータの収集に同意したことになります。",
-  "privacyBlock4DataUsageTitle": "{appNameShort} は私のデータをどのように使用しますか?",
-  "privacyBlock4DataUsage": "収集された匿名化されたデータは、ユーザーの行動を評価するために使用されます。これを超えて、データが使用されることはありません。\n\nフォトケン0",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "privacyBlock5Title": "個人データの保存期間",
-  "privacyBlock5": "個人データの保存期間は、それぞれの法定保存期間 (例: 商法および税法の保存期間) によって決定されます。期間の満了後、契約の履行または開始に必要でなくなった場合、および/または当社が継続的な保管に対する正当な利益を持たなくなった場合、対応するデータは定期的に削除されます。",
+  "watersupplierOpenReminderSettings": "設定を開く",
+  "watersupplierRadioMeterDefaultName": "無線式冷水メーター",
+  "watersupplierScanQrCodeApprovalInProgress": "今後、電波メーターの測定値にアクセスできるように、アカウントを認証しています。",
+  "watersupplierScanQrCodeCommand": "左のQRコード（アクティベーションコード）をスキャンしてください！",
+  "watersupplierScanQrCodeOffboardingSuccessful": "無線式水道メーターへのアクセスがキャンセルされました。",
+  "watersupplierScanQrCodeScanSuccessful": "わあ、アクティベーション コードはとても素敵ですね!メーターIDの下3桁を入力してください。",
+  "watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds": "注: 元のメーター ID には 8 文字を超える文字を含めることができます。",
+  "watersupplierScanQrCodeTitle": "電波メーターのアクティベーション",
+  "watersupplierScanQrCodeTitleColdWaterMeterAdded": "うん！「冷水」タイプの無線水道メーターが正常に追加されました。他のメーターの中から見つけることができます。",
+  "watersupplierScanQrCodeValidation": "QR コードが検出されました。検証してみましょう。",
+  "watersupplierScanQrCodeValidationFailed": "申し訳ありませんが、コードが無効です。もう一度試してみますか?",
+  "watersupplierScanQrCodeValidationFailedOnboardingScanned": "失効コードではなくアクティベーション コードをスキャンしました。もう一度試してください。",
+  "watersupplierScanQrCodeValidationFailedRevokeScanned": "アクティベーション コードではなく、失効コードをスキャンしました。もう一度試してください。",
+  "watersupplierScanRevokeQrCodeCommand": "正しい QR コード (取り消しコード) をスキャンしてください。",
+  "watersupplierUnlinkRadioMeterButtonDelete": "電波メーターを削除する",
+  "watersupplierUnlinkRadioMeterButtonRevoke": "取り消しコードをスキャンする",
+  "watersupplierUnlinkRadioMeterDescription1": "アクティベーション コードを無効にせずに電波メーターを削除しますか?",
+  "watersupplierUnlinkRadioMeterDescription2": "電波メーターのデータにアクセスしたくないですか?注意: 失効コードがスキャンされると、アクティベーション コードは無効になります。アクティベーション コードを使用したユーザー アカウントはアクセスできなくなります。",
+  "watersupplierUnlinkRadioMeterTitle": "無線メーターへのアクセスを終了する",
+  "watersupplierYourSupplier": "あなたの水道業者",
+  "yearlyConsumption": "これまでの年間消費量",
+  "yearlyCosts": "これまでの年間消費コスト",
   "youtubeConsent1": "埋め込まれた YouTube コンテンツを表示するには、あなたの同意が必要です。ワンクリックでこれ (およびアプリ内の他のすべての Youtube コンテンツ) を表示したり、再度非アクティブ化することもできます。",
   "youtubeConsent2": "YouTube コンテンツを常に表示する",
   "youtubeConsent3": "外部コンテンツが表示されることに同意します。これにより、個人データがサードパーティのプラットフォームに送信される可能性があります。詳細については、",
-  "privacyBlock6Title": "接触",
-  "privacyBlock6": "お客様が（お問い合わせフォームや電子メールなどを通じて）当社に連絡すると、個人データが収集されます。お問い合わせフォームの場合に収集されたデータは、それぞれの問い合わせフォームで確認できます。このデータは、お客様のお問い合わせに回答するため、または連絡先および関連する技術管理を確立する目的のみに保存および使用されます。データ処理の法的根拠は、第 2 条に従ってお客様の要求に応じるという当社の正当な利益です。6パラ。1点灯。f GDPR。あなたの連絡が契約の締結を目的としている場合、処理のための追加の法的根拠は第 2 条にあります。6パラ。1点灯。b GDPR。あなたのデータは、あなたの問い合わせが処理された後に削除されます。これは、状況から問題が最終的に解明されたと推測でき、データを保持する法的義務がない場合に当てはまります。",
-  "privacyBlock7Title": "関係者の権利",
-  "privacyBlock7": "適用されるデータ保護法は、お客様の個人データの処理に関して、管理者に対してデータ主体としての包括的な権利 (情報および介入の権利) を付与します。これについては、以下でお知らせします。\n\n- 第 2 条に基づく情報に対する権利。15 GDPR: 特に、お客様は、当社が処理するお客様の個人データ、処理の目的、処理される個人データのカテゴリー、お客様のデータが開示された、または開示される受信者または受信者のカテゴリー、計画された保存期間または保存期間を決定する基準、修正、消去、処理の制限、処理に対する異議申し立て、監督当局への苦情の権利の有無、お客様のデータがお客様から当社によって収集されなかった場合のそのデータの出所、自動化されたデータの存在に関する情報を取得する権利を有します。プロファイリングを含む意思決定、および該当する場合には、関連するロジックとそのような処理の重要性および予想される結果に関する有意義な情報、ならびに第 2 条に従って存在する保証について知らされるお客様の権利。データが第三国に転送される場合の 46 GDPR。\n\n- 第 2 条に基づく修正を受ける権利。16 GDPR: あなたは、自分に関する不正確なデータを遅滞なく修正してもらう権利、および/または当社が保存している不完全なデータを完成させる権利を有します。\n\n- 第 2 条に基づく消去の権利。17 GDPR: 第 17 条の条件に該当する場合、お客様には個人データの消去を要求する権利があります。17(1) GDPR が満たされています。ただし、この権利は、表現および情報の自由の権利の行使、法的義務の遵守、公益上の理由、または法的請求の確立、行使、防御のために処理が必要な場合には特に適用されません。\n\n- 第 2 条に基づく処理の制限に対する権利。18 GDPR: お客様は、許容できないデータ処理を理由にデータの消去に異議を唱えた場合、データの正確性が検証されている限り、個人データの処理の制限を要求する権利を有します。代わりに、収集目的を達成するためにこのデータが必要なくなった後、法的請求の主張、行使、防御のためにデータが必要な場合、またはお客様が以下の事項に関連する理由で異議を申し立てた場合は、データの処理の制限を要求する権利を有します。当社の正当な理由が優先されるかどうかがまだ明らかでない限り、お客様の特定の状況。\n\n- 第 2 条に従って通知を受ける権利。19 GDPR: お客様が管理者に対して修正、消去、または処理の制限を求める権利を行使した場合、管理者は、不可能であることが証明されたり、不当な労力が必要な場合を除き、お客様の個人データが開示されたすべての受信者に、このデータの修正または削除、または処理の制限について通知する義務があります。あなたには、これらの受信者についての通知を受ける権利があります。\n\n- Art. に基づくデータポータビリティの権利。20 GDPR: お客様は、当社に提供した個人データを、構造化され、一般的に使用され、機械読み取り可能な形式で受け取る権利、または技術的に可能な場合には、別の管理者への転送を要求する権利を有します。\n\n- 第 2 条に従って付与された同意を撤回する権利。7(3) GDPR: あなたには、データ処理に対する同意をいつでも撤回する権利があり、将来にわたって有効です。撤回の場合、同意なしにさらなる処理が法的根拠に基づいて行われない限り、当社は当該データを遅滞なく削除します。同意の撤回は、撤回前の同意に基づく処理の合法性には影響しません。\n\n- 第 6 条に従って苦情を申し立てる権利。77 GDPR: お客様は、ご自身の個人データの処理が GDPR に違反していると思われる場合、他の行政的または司法的救済を損なうことなく、特にお客様の居住地、勤務先、または侵害の疑いのある加盟国の監督当局に苦情を申し立てる権利を有します。",
-  "privacyBlock8Title": "異議を唱える権利",
-  "privacyBlock8": "当社が利益の調整の一環として、当社の最優先の正当な利益に基づいてお客様の個人データを処理する場合、お客様は、お客様の特定の状況に起因する理由でいつでもこの処理に異議を申し立てる権利を有し、将来にわたりその影響を及ぼします。あなたが異議を唱える権利を行使した場合、当社は当該データの処理を停止します。ただし、お客様の利益、基本的権利および自由を無効にする処理の説得力のある正当な根拠を証明できる場合、または処理が法的請求の主張、行使、防御に役立つ場合、さらなる処理は留保されます。\n\n当社がダイレクト マーケティングの目的でお客様の個人データを処理する場合、お客様には、そのような広告の目的でお客様に関する個人データが処理されることにいつでも異議を申し立てる権利があります。上記のとおり、異議を申し立てる権利を行使することができます。\n\nあなたが異議を唱える権利を行使した場合、当社は直接的なマーケティング目的でのあなたに関するデータの処理を停止します。",
-  "activityTitle": "活動",
-  "activitiesTitle": "私の活動",
-  "activitiesDescription": "水道メーターや電気メーターを使った洗濯など、メーターの測定値を活動にリンクします。",
-  "sortActivities": "アクティビティの順序を変更する",
-  "resetActivities": "すべてのアクティビティをリセットする",
-  "addActivity": "アクティビティの追加",
-  "activitySettings": "アクティビティ設定",
-  "activityOverview": "活動概要",
-  "activityNameLabel": "アクティビティ名",
-  "chooseActivity": "アクティビティを選択してください",
-  "selectedActivity": "選択されたアクティビティ「${activityName}」",
-  "chooseActivityIcon": "アイコンを選択してください",
-  "involvedCounters": "関係するカウンター",
-  "detailsTitle": "詳細",
-  "detailWithMultiSelect": "複数選択を許可する",
-  "addDetail": "詳細を追加",
-  "editDetailTitle": "詳細の編集",
-  "activityWithEnergyConsumption": "消費電力はアクティビティに対してのみ測定されます",
-  "consumptionIsNotExclusiveTitle": "消費は排他的ですか？",
-  "consumptionIsNotExclusive": "消費がこのアクティビティに限定されない場合は、警告として表示されます。",
-  "numberOfDetails": "{count, plural, one {1 詳細} other {{count}の詳細}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "reallyDeleteActivity": "本当にこのアクティビティを削除しますか?",
-  "reallyDeleteDetail": "本当にこの詳細を削除しますか?",
-  "reallyDeleteContract": "本当にこの契約を削除しますか?",
-  "contractCopyDialogTitle": "この契約書のコピーを作成しますか?",
-  "contractCopyDialogOptionYes": "はい、単価またはその他の値が変更されました。",
-  "contractCopyDialogOptionNo": "いいえ、キャンセルします。",
-  "contractCopyDialogWhen": "新価格はいつから適用されますか？",
-  "contractCosts": "単価",
-  "contractCostsFeedIn": "報酬価格/基本価格",
-  "counterWarmWaterPlusColdWater": "上水と廃水のコストを除く",
-  "advancePayment": "前払い",
-  "bonus": "ボーナス",
-  "bonusInfoTitle": "ボーナス料金に関する情報",
-  "bonusInfoText": "ボーナス付きの料金プランにより、プロバイダーを変更する際に特に大幅な節約が可能になることがよくあります。ただし、これは通常、1 回限りのボーナスによるものです。つまり、総コストが非常に低くなるのは、供給の初年度だけです。作業量や基本料金が高い場合、2 年目には明らかに高額な計算が行われます。したがって、ボーナス料金の場合は、1 年後に再度変更することを最初から計画する必要があります。この取り消しがまったく不可能な 2 年間の期間を持つボーナス料金は、特に厳しく疑問視されるべきです。",
-  "source": "ソース：",
-  "basePrice": "基本価格",
-  "gross": "きもい",
-  "net": "ネット",
-  "grossNetPrices": "総額または正味価格",
-  "taxRate": "税率",
-  "perUnit": "{unit}ごとに",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "wasteWaterPriceEnabled": "清水と廃水のコストは別々に表示されます（控除メーターに関連）",
-  "pricePerUnit": "ユニットあたりの価格",
-  "pricePerUnitFeedIn": "報酬価格",
-  "pricePerUnitWaterWarm": "給湯暖房費",
-  "pricePerUnitWaterCold": "冷水のコスト",
-  "pricePerUnitFreshWater": "淡水のコスト",
-  "pricePerUnitWasteWater": "排水料金",
-  "paidAdvancePayments": "前払い",
-  "supplementaryPayment": "追加支払い",
-  "refund": "返金",
-  "costs": "コスト",
-  "contract": "契約",
-  "contractDetails": "契約期間と詳細",
-  "usedForPaymentsRepayments": "前払い、基本価格、ボーナス",
-  "contractName": "プロバイダー/契約名",
-  "contractNumber": "契約番号",
-  "contractStart": "契約開始日",
-  "contractPeriod": "契約期間",
-  "cancellationPeriod": "キャンセル期間",
-  "activityWash": "洗浄",
-  "activityWashTemperature": "温度",
-  "activityWashDuration": "間隔",
-  "activityWashDuration2hrs": "2時間",
-  "activityWashRotations": "回転",
-  "activityWashShort": "ショートプログラム",
-  "activityShower": "シャワー",
-  "activityBath": "バス",
-  "activityDishWasher": "食器洗い機",
-  "activityIron": "アイロンがけ",
-  "errorNoInternet": "ネットワークなし",
-  "errorInvalidRange": "有効な範囲がありません",
-  "syncDriveLoggedIn": "データは複数のデバイス間で自動的に同期されます。次の Google アカウントが使用されます。",
-  "syncDriveLoggedInNoAuto": "変更後、データは自動的に Google ドライブにアップロードされます。オブジェクトをクリックしたときに、クラウドからの新しいデータのみがローカル データを上書きします。次の Google アカウントが使用されます。",
-  "syncDriveDataUsage": "EHW+ に Google ドライブへのアクセスを許可すると、アプリには、アプリ自体によって作成されたファイルへの読み取りおよび書き込みアクセスが与えられます。残念ながら、このアプリを通じて他の人が作成したファイルはアプリには表示されないため、Google ドライブを介して複数のアカウント間でデータを共有することはできません。",
-  "syncAutomaticTitle": "ローカルデータが上書きされる可能性がある",
-  "syncShareWithOthersTitle": "他の人と共有しますか?",
-  "syncShareWithOthersSubtitle": "他の Google ユーザーと一緒にメーター測定値を入力する場合は、EHW+ に Google ドライブへのフル アクセスを付与する必要があります。",
-  "syncShareWithOthersNotInWeb": "アクセス権の付与は現在アプリ経由でのみ可能です。",
-  "syncWithGoogleDriveDescription": "メーターの測定値が失われるのは残念なので、今すぐオブジェクトを Google ドライブと同期してください。",
-  "driveSyncStatusTitle": "同期ステータス",
-  "driveSyncStatusNotSynced": "同期されていません",
-  "driveSyncStatusFailed": "同期に失敗しました",
-  "driveSyncStatusComparing": "サーバー上のファイルとの比較",
-  "driveSyncStatusSyncing": "同期中です",
-  "driveSyncStatusLocalHasLatestNoCloud": "{localDate}からこのデバイスに保存されたファイルはクラウド内に保存されません",
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusLocalHasLatestWithCloud": "{localDate} からこのデバイスに保存されたファイルは、{cloudDate} からクラウドに保存されたファイルよりも最新です",
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      },
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestNoLocal": "{cloudDate} のクラウド上のファイルはこのデバイスに保存されていません",
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusRemoteHasLatestWithLocal": "{cloudDate} のクラウド内のファイルは、{localDate} のローカル ファイルよりも最新です",
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncStatusUpToDate": "{localDate} からの最新情報",
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "driveSyncWithGoogle": "Googleドライブ同期",
-  "driveSyncNow": "今すぐ同期する",
-  "driveSignInWithGoogle": "Googleでサインイン",
-  "signInWithGoogle": "Googleでサインイン",
-  "signInWithApple": "Apple でサインインする",
-  "signInWithGithub": "GitHub でサインインする",
-  "signInWithSocialAccount": "EHW+ アカウントの作成またはサインインにどのソーシャル アカウントを使用しますか?",
-  "syncStatusFailedLong": "同期に失敗しました。編集は自己責任で行ってください",
-  "syncStatusFailedLongNoAutoSync": "同期に失敗しました。編集は自己責任で行ってください",
-  "syncStatusSyncRemoteHasLatest": "クラウド内のファイルはローカル ファイルよりも最新です",
-  "syncObjectIsLocked": "オブジェクト データは更新中のため、この間は編集できません。",
-  "importExport": "バックアップ/復元",
-  "import": "輸入",
-  "importPickFile": "ファイルを選択",
-  "importSelectSingleCounter": "シングルカウンタ（CSVファイル）",
-  "importSelectJson": "JSONファイル（{appName}で作成）",
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "importWhichCounterForCsv": "どのカウンターを使用する必要がありますか?",
-  "importNewOrExistingCounter": "新規または既存のカウンターに追加しますか?",
-  "importConfirm": "インポートの確認",
-  "importTheObject": "インポートオブジェクト",
-  "importExplanation": "すでにカウンターの読み取りを行っており、それを挿入したいですか?",
-  "importCounterAsCsv": "単一のメーターをインポートしますか?メーターごとにサポートされているのは、時刻とメーター読み取り値の 2 つの列を含む CSV ファイルです。\n\nデータ例:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
-  "importSuccessful": "インポート成功",
-  "importNotPossible": "インポートできません",
-  "importErrorCsvIgnoredLines": "{count, plural, one {1 行が無視されました: {lines}} other {{count} 行は無視されました: {lines}}}",
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "importErrorCsvIgnoredColumns": "{columns, plural, one {最初の 2 つの列のみが使用されました。3 番目の列は無視されました。} other {最初の 2 つの列のみが使用され、{columns} 列は無視されました。}}",
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "consentTitle": "プライバシー設定",
-  "privacyTitle": "プライバシーポリシー",
-  "imprintTitle": "インプリント",
-  "faqTitle": "よくある質問",
-  "socialFacebook": "フェイスブック",
-  "socialInstagram": "インスタグラム",
-  "socialTwitter": "×",
-  "export": "輸出",
-  "exportExplanation": "たとえば、新しいデバイスに転送するために、どの既存のオブジェクトをエクスポートしますか?",
-  "exportWhere": "オブジェクトはどの形式でエクスポートする必要がありますか?",
-  "exportWhichValuesShouldBeExported": "どの値をエクスポートする必要がありますか?",
-  "exportOptionExcel": "Excelファイル",
-  "exportOptionPdf": "PDFファイル",
-  "exportOptionFileDescription": "オブジェクトは{fileType}ファイルとして共有されます",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "socialLinkedIn": "リンクトイン",
-  "socialYouTube": "YouTube",
-  "socialEmail": "電子メール",
-  "social": "ソーシャルメディア",
-  "support": "サポート/フィードバック",
-  "supportQuestion": "質問する",
-  "supportQuestionBox": "どんな御用でしょうか？",
-  "supportQuestionNotFound": "あなたの質問は解決されませんでしたか?喜んでお手伝いさせていただきます。",
-  "supportQuestionLong": "どのように機能するのでしょうか?そもそも可能でしょうか？答えは次のとおりです。",
-  "supportReportBug": "メールでバグを報告する",
-  "supportReportBugTextIs": "現在の誤った動作、つまりエラー自体を簡単に説明してください。",
-  "supportReportBugTextShould": "望ましい動作、つまり実際にどのようにあるべきかを簡単に説明してください。",
-  "supportReportBugAffectedPages": "どのページでエラーが発生しますか?(該当する場合)",
-  "supportReportBugScreenshotsPlease": "できればエラーのマークを付けたスクリーンショットをメールに添付してください。",
-  "supportBug": "バグ",
-  "supportReportBugLong": "素晴らしいアプリです！しかし、確かに、物事はうまくいかない可能性があります。バグを報告すると、アプリが改善されます。",
-  "supportGivePraise": "褒める",
-  "supportGivePraiseLong": "アプリは好きですか？ありがとう！情報を広めましょう！",
-  "supportGivePraiseRecommendation": "友人や家族にアプリを勧めてください。お勧めをありがとうございます!",
-  "supportRecommend": "私は検針アプリ EHW+ を使用して、エネルギー消費量と関連コストを追跡しています。おそらくそれはあなたにとっても何かあるでしょうか？\n\n詳細については、https://www.ehwplus.com をご覧ください。",
-  "supportGivePraiseRating": "{store} でアプリを評価します。",
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "electricityConsumption": "消費電力",
-  "waterExtractionMinimumLevelLower": "消費量がしきい値を下回っているため、減算が行われます。",
-  "outdatedCounters": "カウンターはもう使われていない",
-  "isOutdatedCounter": "カウンターは使われなくなりました",
-  "waterConsumption": "水の消費量",
-  "rooms": "客室",
-  "messageNoRooms": "まだ部屋がありません。部屋はグループメーターに役立ちます。",
-  "settingObjectType": "オブジェクトの種類",
-  "settingObjectTypeFlat": "アパート",
-  "settingObjectTypeHouse": "家",
-  "settingLivingArea": "リビングエリア",
-  "unitSquareMeters": "平方メートル",
-  "unitMWhShort": "MWh",
-  "unitMWhLong": "{count, plural, one {メガワット時 (MWh)} other {メガワット時 (MWh)}}",
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitKWhShort": "kWh",
-  "unitKWhLong": "{count, plural, one {キロワット時 (kWh)} other {キロワット時 (kWh)}}",
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitGJShort": "GJ",
-  "unitGJLong": "{count, plural, one {ギガジュール (GJ)} other {ギガジュール (GJ)}}",
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitLitersShort": "ℓ",
-  "unitLitersLong": "{count, plural, one {リットル(ℓ)} other {リットル(ℓ)}}",
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCmShort": "cm",
-  "unitCmLong": "cm",
-  "unitSquareMetersShort": "㎡",
-  "unitSquareMetersLong": "{count, plural, one {平方メートル (m²)} other {平方メートル (m²)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitCubicMetersShort": "㎥",
-  "unitCubicMetersLong": "{count, plural, one {立方メートル (m3)} other {立方メートル (m3)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitPercentShort": "%",
-  "unitPercentLong": "パーセント (%)",
-  "unitKgShort": "kg",
-  "unitKgLong": "{count, plural, one {キログラム (kg)} other {キログラム (kg)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitHoursShort": "h",
-  "unitHoursLong": "{count, plural, one {時間} other {時間 (h)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitNoneFormatted": "{count, plural, one {ユニット} other {単位}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "unitMegaByteShort": "MB",
-  "unitMegaByteLong": "MB",
-  "unitGigaByteShort": "GB",
-  "unitGigaByteLong": "GB",
-  "settingHouseholdSize": "世帯人数",
-  "settingHouseholdSizeDescription": "あなたの世帯の人数。",
-  "settingWaterHeater": "給湯器",
-  "settingEAuto": "電気自動車",
-  "settingObjectLocation": "位置",
-  "settingObjectLocationTitle": "あなたのオブジェクトはどこにありますか?",
-  "settingObjectLocationExplanation": "場所を入力すると、地域に合わせた洞察とサービスを調整することができます。",
-  "counterBackgroundImageOfObject": "オブジェクトの背景画像",
-  "manageMoreThanOneObjectStep1": "複数のオブジェクトを管理する - ステップ 1",
-  "manageMoreThanOneObjectStep2": "複数のオブジェクトを管理する - ステップ 2",
-  "contracts": "契約",
-  "messageNoContracts": "まだ契約はありません。",
-  "outdatedContracts": "期限切れの契約",
-  "contractType": "契約種類",
-  "electricity": "電気",
-  "electricityBack": "供給される電気",
-  "electricityGenerated": "発電した電力",
-  "heatPump": "ヒートポンプ",
-  "coldWater": "冷水",
-  "counterHeater": "ラジエターメーター",
-  "counterDistrictHeating": "地域暖房",
-  "counterOilHeating": "オイル暖房",
-  "counterGas": "ガスメーター",
-  "counterColdWater": "冷水メーター",
-  "counterWaterExtraction": "取水メーター（庭）",
-  "counterWaterExtractionExplanation": "減算メーターを使用すると、排水コストを削減できます。このアプリ内購入では、真水と廃水に異なるコストを指定でき、控除メーターからのメーターの読み取り値が水道料金に考慮されます。",
-  "warmWater": "温水",
-  "counterWarmWater": "温水メーター",
-  "counterElectricity": "電力メーター",
-  "counterElectricityBack": "電力フィードインメーター（PV）",
-  "counterElectricityGenerated": "発電量計",
-  "counterPvFeedInCounter": "再生可能エネルギー（太陽光発電と太陽光発電システムによる熱）",
-  "counterPvFeedInCounterExplanation": "電力供給メーターを使用して、発電および供給された電力を記録します。\n太陽光発電システム付き。結果として生じる収益は、次のコストと相殺されます。\n引かれた電気。",
-  "virtualCounter": "仮想メーター",
-  "heater": "ラジエーター",
-  "gas": "ガス",
-  "oil": "油",
-  "stove": "レンジ",
-  "networkCounter": "インターネットと電話",
-  "solarThermalCollector": "太陽熱集熱器",
-  "contractTypeElectricityProvider": "電力会社",
-  "contractTypeWaterFees": "水道料金",
-  "contractTypeHeatingFees": "光熱費",
-  "contractTypeOilProvider": "石油供給者",
-  "contractTypeGasProvider": "ガスプロバイダー",
-  "contractTypeStove": "レンジ",
-  "contractTypeNetwork": "インターネットと電話",
-  "currency": "通貨",
-  "costsUndefinedFor": "コストは未定義",
-  "exportOptionReadingsTitle": "読み取り値",
-  "exportOptionReadingsSubtitle": "通常は、不規則な間隔でのメーターの測定値または消費量です。",
-  "exportOptionConsumptionsTitle": "一日の消費量",
-  "exportOptionConsumptionsSubtitle": "最初の読み取り以降の毎日の消費値。",
-  "settings": "設定",
-  "roomOther": "他の",
-  "previouslyDeletedCounters": "最近削除されたメーター",
-  "restoreDeletedCounter": "この削除されたメーターを復元しますか?",
-  "localWriteTitle": "ローカルのダウンロードフォルダーに保存します",
-  "localWriteSubtitle": "変更するたびに、オブジェクトと写真をローカルの「{folder}」フォルダーに保存する必要がありますか?",
-  "settingUiMode": "ユーザーインターフェース",
-  "settingUiColorPalette": "カラーパレット",
-  "settingUiModeDarkOrLight": "ダーク/ライト ユーザー インターフェイス",
-  "settingLanguageMode": "言語",
-  "settingUiModeOsDefault": "システム",
-  "settingUiModeLight": "ライト",
-  "settingUiModeDark": "暗い",
-  "appBarExpandedMode": "背景画像付きのアプリバー",
-  "useDismissibleSettings": "スワイプジェスチャーで削除",
-  "useDismissibleSettingsDetailed": "カウンターや契約書などは横スワイプで削除可能",
-  "settingsExternalServices": "外部サービス",
-  "settingsShowTabNewsDetailed": "「ニュース/ヒント」タブを表示する必要がありますか?",
-  "settingsShowStromGedacht": "StromGedacht からの送電網に関するヒントを表示する必要がありますか?",
-  "lineChartAppearanceSettings": "折れ線グラフの外観",
-  "lineChartAppearanceSettingsShowSpots": "チャートの線上に（円形の）スポットを表示します",
-  "supportMakeSuggestion": "何かを提案する",
-  "supportMakeSuggestionLong": "アプリはユーザーの提案に基づいて機能します。何か提案はありますか？",
-  "featureVoting": "機能の投票",
-  "featureVotingOnlyOnGerman": "機能調査は他の言語に翻訳されません。",
-  "notifications": "通知",
-  "notificationsEmpty": "通知はありません",
-  "notificationsSmartMeterAlertFallback": "新しいスマート メーター アラートがあります。",
-  "readingNew": "新しい読書",
-  "readingUpdate": "読書を更新する",
-  "readingPrefill": "オートフィルメーターの読み取り値",
-  "readingPrefillDisabled": "自動入力が無効になっています",
-  "readingPrefillEnableForAllCounters": "すべてのカウンターの自動入力を有効にする",
-  "readingPrefillDisableForAllCounters": "すべてのカウンターの自動入力を無効にする",
-  "readingPrefillDescription": "以前のエントリに基づいた事前充填メーター測定値",
-  "readingPrefillDisabledToast": "自動入力が無効になっています",
-  "readingSubmitted": "メーター測定値が提出されました",
-  "readingDeleteConfirm": "読書を削除しますか?",
-  "reminderTime": "リマインダー時間",
-  "reminderWeekdayExplanation": "測定値は 1 日に 1 回までとするようリマインダーが表示されます。",
-  "reminderWeekdayExplanationSeasonal": "季節消費のあるメーターの場合、リマインダーは消費のある月にのみ送信されます (昨年の値が指定された場合にのみ機能します)。",
-  "readingReminder": "{count, plural, one {読書リマインダー} other {読書リマインダー}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "readingReminders": "読書リマインダー",
-  "readingReminderDisabled": "読書リマインダーがアクティブになっていません",
-  "readingRemindersChannel": "読書リマインダー",
-  "readingReminderSingleBody": "{counterName} 値を今すぐ読み取ります",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "readingReminderMultiBody": "{count, plural, one {{count}メーターから測定値を今すぐ読み取ります} other {{count} メーターから測定値を今すぐ読み取ります}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "contractReminder": "契約リマインダー",
-  "outdated": "時代遅れ",
-  "counterNew": "新しいカウンター",
-  "counterEdit": "カウンターの編集",
-  "counterGasConversionFactor": "換算係数",
-  "counterGasCalorificValue": "発熱量",
-  "counterGasConversionFactorHelpText": "Ca1.0。条件番号は、運転量を標準量に換算するために使用されます。動作条件はメーターでのガスの状態であり、圧力 (高度) と温度に依存します。",
-  "counterGasCalorificValueHelpText": "発熱量：測定されたガス体積をエネルギーに変換するための無次元係数。天然ガス：通常9.0～12.5kWh/m3、LPG：23.0～33.0kWh/m3",
-  "counterTypeLabel": "カウンタの種類",
-  "counterMeterId": "メーターID",
-  "counterName": "カウンター名",
-  "counterContractCurrentlyUsed": "現在ご利用中の契約書",
-  "counterSelected": "選択済み",
-  "counterNoContractSelected": "契約が選択されていません",
-  "counterOtherContracts": "その他の契約",
-  "counterExcludedContracts": "除外される契約",
-  "counterInclude": "含む",
-  "counterExclude": "除外する",
-  "counterTankCapacity": "タンク容量",
-  "counterTankFillHeight": "充填高さ",
-  "counterFactorDescription": "消費は比例配分でのみ割り当てられますか?割合を 0.1 (10%) ～ 1.0 (100%) の値で入力します。",
-  "counterTransducerFactor": "変圧比",
-  "counterProportionateConsumption": "比例した消費",
-  "counterFactor": "要素",
-  "counterTransducerFactorExplained": "変圧器を使用して電圧がメーターに到達する前に電圧を降圧する場合、正しい読み取り値を得るために新しい変換係数を適用する必要があります。例: メーターには換算係数 20 で 100,000 kWh が表示されます。正しい読み取り値は次のとおりです: 100,000 kWh x 20 = 2,000,000 kWh。",
-  "counterFractionDigits": "小数部の桁",
-  "counterDirection": "方向",
-  "counterDirectionExplanation": "値は使用とともに減少しますか (レベルインジケータなど)、または値は使用とともに増加しますか (バーナー時間、オイルメーターなど)、またはそれぞれの読み取り値は独立していますか (消費量/収量)?",
-  "counterConsiderForTotalElectricity": "総電力消費量を考慮する",
-  "counterConsiderForTotalWater": "総水使用量を考慮する",
-  "counterWaterExtractionMinimumLevel": "最低レベル",
-  "counterBackgroundImage": "カウンターの背景画像",
-  "counterShowReadingsChart": "測定値チャートを表示",
-  "counterShowHeatmap": "ヒートマップを表示する",
-  "counterShowPreliminaryCurve": "予備曲線を表示",
-  "seasonalCounter": "季節カウンター",
-  "seasonalElectricityCounter": "季節電力カウンター",
-  "counterExplainSeasonal": "夏の間、メーターの指示値を0に設定しますか?冬には、測定値は通常の消費パターンに従います。夏には平らになります。",
-  "counterIsOutdated": "カウンターが古い",
-  "counterLinkMoreRecent": "より最近のカウンターをリンクする",
-  "counterReplacedBy": "に置き換えられました",
-  "counterReallyDeleteLink": "リンクを削除しますか?",
-  "counterDeleteConfirm": "カウンタを削除しますか?",
-  "counterGasCalorificValueLabel": "発熱量※",
-  "counterGasConversionFactorLabel": "換算係数*",
-  "counterNoRoomConnection": "ルーム接続なし",
-  "counterRoom": "部屋",
-  "counterMessageRoomOptional": "部屋の割り当てはグループ化に役立ちますが、オプションです。",
-  "teaserPurchaseVirtualCounter": "Premium で仮想カウンターを追加します。",
-  "teaserPurchaseWaterExtractionCounter": "プレミアムで水抽出カウンターのロックを解除します。",
-  "teaserPurchaseRenewableEnergies": "再生可能エネルギーカウンターにはプレミアムが必要です。",
-  "settingYearlyReset": "年に一度のリセット",
-  "settingYearlyResetOn": "の上",
-  "settingShowCounterReadingsChart": "測定値チャートを表示",
-  "settingShowHeatmap": "ヒートマップを表示する",
-  "settingShowPreliminaryCurve": "予備曲線を表示",
-  "unitLiters": "リットル",
-  "unitCm": "cm",
-  "unitNone": "なし",
-  "roomType": "部屋タイプ",
-  "roomName": "部屋名",
-  "roomNameHint": "必要に応じて部屋名を割り当てます",
-  "roomNew": "新しい部屋",
-  "roomDeleteConfirm": "部屋を削除しますか?",
-  "settingColor": "色",
-  "counterNum": "{count}カウンター",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "timeInFuture": "将来",
-  "timeLastUpdated": "最終更新日",
-  "timeSeconds": "秒",
-  "timeMinutes": "分",
-  "timeHours": "時間",
-  "timeDays": "日",
-  "timeDaysWithin": "日",
-  "timeMonth": "月",
-  "timeMonths": "月",
-  "timeMonthsWithin": "月",
-  "timeJustNow": "ちょうど今",
-  "timeMinutesAgo": "{minutes}分前",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "timeHoursAgo": "{hours}時間前",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "timeToday": "今日",
-  "timeDayAgo": "1日前",
-  "timeDaysAgo": "{days}日前",
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "timeMonthsAgo": "{months}ヶ月前",
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "timeForFirstYear": "最初の1年間",
-  "timeWeek": "週",
-  "timeWeeks": "週",
-  "timeWithin": "{duration}内",
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "timeYesterday": "昨日",
-  "timeMonday": "月曜日",
-  "timeTuesday": "火曜日",
-  "timeWednesday": "水曜日",
-  "timeThursday": "木曜日",
-  "timeFriday": "金曜日",
-  "timeSaturday": "土曜日",
-  "timeSunday": "日曜日",
-  "timeFromUndefined": "未定義",
-  "timeUntilUnlimited": "無制限",
-  "timeUntilDate": "{date}まで",
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeFromDate": "{date}より",
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "timeReminderAtStart": "開始時",
-  "timeReminderAtEnd": "最後に",
-  "timePeriodYearStart": "毎年",
-  "timeRightNow": "今すぐ",
-  "timeBefore": "前に",
-  "purchasesUpgrade": "アップグレード",
-  "upgradeDescription": "アプリではさらに多くのことができます。より優れたコスト概要、より多くの統計、Excel エクスポート、より多くのカウンターなど...",
-  "purchasesWhyBuyTitle": "なぜ何かを買う必要があるのですか?",
-  "purchasesWhyBuyText": "購入すると、アプリの公開によって私が発生するコストに参加し、さらなる開発をサポートすることになります。",
-  "purchasesIOSRestorePurchases": "購入したものを復元する",
-  "purchasesIOSRestorePurchasesDescription": "過去に AppStore で何かを購入したことがある場合は、購入内容を復元できます。",
-  "purchasesDisabledOnIOS": "アプリ内購入が無効になっています",
-  "purchasesDisabledOnIOSDescription": "iPhone でアプリ内購入が無効になっているかどうかを確認してください ([設定] > [スクリーンタイム] > [制限] > [アプリのインストールと購入] > [アプリ内購入を許可])",
-  "purchasesDisabledOnIOSDescriptionTestflight": "アプリは Testflight 経由でインストールされました。App Store 経由でアプリをインストールした場合、購入はアプリ内でのみ機能することに注意してください。",
-  "purchasesSubscribePremium": "プレミアムを購読する",
-  "purchasesSubscribePremiumTextLong": "サブスクリプション期間中および屋外温度中のすべての有料機能へのアクセス",
-  "purchasesWebLegalNote": "法的な理由により、購入は PlayStore サービスを備えた iPhone または Android スマートフォンでのみ可能です。",
-  "purchasesYourPurchases": "次のプレミアム パッケージにアクセスできます。",
-  "purchasesExtensionsTitle": "単一の拡張子",
-  "purchasesExtensionsSubtitle": "一度購入すれば永続的に使用可能 (サブスクリプションなし)",
-  "purchasesExtensionStatisticsTitle": "高度な統計",
-  "purchasesExtensionMultipleObjectsTitlePart": "複数のオブジェクトの管理",
-  "purchasesExtensionMultipleObjectsDescription": "(1 つのオブジェクトだけではなく) 必要な数のアパート/家/オブジェクトのメーター測定値を入力します。",
-  "purchasesExtensionsInWork": "さらなる拡張も計画されています。機能アンケートに参加して、ご意見をお聞かせください。",
-  "purchasesSubscribeNow": "今すぐ購読する",
-  "purchasesBuyNow": "今すぐ購入",
-  "purchasesRedeemCode": "コードを引き換える",
-  "purchasesEarlyBirdSubscription": "注: この初回顧客のサブスクリプションをキャンセルした場合、その後再度サブスクライブすることはできません。",
-  "purchasesPurchasedIncludedInPremium": "プレミアムに含まれるもの",
-  "purchasesPurchasedSubscribed": "購読しました",
-  "purchasesPurchased": "購入済み",
-  "purchasesExtensionStatisticsDescription": "電気/ガス/水道などの年/月/週の使用量へのアクセス + 期間調整 + 詳細なコスト概要 + Excel エクスポート",
-  "commonAnd": "そして",
-  "purchasesSubscribePremiumMonthly": "月額 {price} のみのキャンセル可能な月額サブスクリプション",
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumMonthlyWithNewPrice": "{priceNew} ではなく月額 {price} のロイヤリティ価格で、毎月キャンセル可能なサブスクリプション",
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearly": "年間 {price} のみの年間キャンセル可能なサブスクリプション",
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesSubscribePremiumYearlyWithNewPrice": "{priceNew} ではなく年間 {price} のロイヤルティ価格で、毎年キャンセル可能なサブスクリプション",
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "purchasesStatisticsWithPremium": "プレミアムを利用すると、月ごとの比較{count, plural, =0{.}=1{.}other{にアクセスでき、{years} の履歴データも表示されます。}}",
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "years": {
-        "type": "String"
-      },
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "smartMeterProviderTibber": "ティバー",
-  "smartMeterProviderWwgl": "ヴァッサーヴェルク ゲラウアー ランド",
-  "smartMeterProviderUndefined": "未設定",
-  "sync": "同期",
-  "costsUndefinedForType": "未定義の場合は{type}",
-  "costsUndefinedElectricity": "電気料金",
-  "costsUndefinedColdWater": "冷水料金",
-  "costsUndefinedWarmWater": "温水料金",
-  "costsUndefinedHeater": "暖房費",
-  "costsUndefinedOilHeating": "オイル代",
-  "costsUndefinedGas": "ガス料金",
-  "costsUndefinedNetworkCounter": "インターネット料金",
-  "updateAvailable": "アプリのバージョン{oldVersion}は最新ではありません。バージョン {newVersion} に更新できます。",
-  "@updateAvailable": {
-    "placeholders": {
-      "oldVersion": {
-        "type": "String"
-      },
-      "newVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "versionIsUpToDate": "すべてのユーザーにリリースされたアプリの最新バージョンは {version} です。",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "messageNoCounters": "まだカウンターを作成していません。",
-  "messageNoCounterReadings": "まだカウンターの読み取り値を入力していません。",
-  "parsingObjectError": "オブジェクトを解析できません。開発者にお問い合わせください。アプリをアンインストールすると、データが失われる可能性があります。",
-  "reallyDeleteCounter": "カウンタを削除してもよろしいですか?",
-  "reallyDeletePhoto": "検針写真を削除してもよろしいですか?",
-  "reallyDeleteCounterLink": "カウンタ間のリンクを削除してもよろしいですか?",
-  "virtualCounterNotConfigured": "仮想メーターの設定を確認してください。何も計算できません。",
-  "virtualCounterMasterCounter": "マスターメーター",
-  "virtualCounterMasterCounterAttach": "メインメーターを選択",
-  "virtualCounterMasterCounterDescription": "情報: メイン メーターは、主電力メーターや主水道メーターなどの仮想メーターの計算の基礎を形成します。",
-  "virtualCounterMetersToBeSubtracted": "減算されるメーター",
-  "virtualCounterMetersToBeSubtractedDescription": "「ヒートポンプメーター」、「電力フィードインメーター」など、どのメーター測定値をメインメーターから差し引く必要があるか。",
-  "virtualCounterMetersToBeAdded": "追加されるメーター",
-  "virtualCounterMetersToBeAddedDescription": "どのメーター測定値をメインメーター (発電メーターなど) に追加する必要があります。",
-  "areYouSure": "本気ですか？",
-  "addNewValue": "新しい値を入力してください",
-  "reallyDeleteValue": "本当にこの値を削除してもよろしいですか?",
-  "warning": "警告",
-  "messageNotEnoughData": "グラフを表示するにはデータが不足しています",
-  "messageNoConsumptions": "十分な測定値が得られた場合、あるタイプのすべてのメーターの統計がここに表示されます。たとえば、2 つの冷水メーター、2 つの温水メーター、および 1 つの抽出メーターが 1 つの水統計に表示されます。",
-  "lastReading": "最後に読んだ本",
-  "chartDottedLinesNonSeasonal": "破線の曲線は前の期間を表します。たとえば、「過去 14 日間」を選択すると、過去 28 日間が表示され、古い 14 日間が破線で表示されます。",
-  "chartDottedLinesSeasonal": "破線の曲線は前の期間を表します。たとえば、「過去 14 日間」を選択すると、過去 28 日間が表示され、古い 14 日間が破線で表示されます。",
-  "chartHorizontalLines": "破線は、あなた自身の消費に関するフィードバックを提供することを目的としています。",
-  "chartHorizontalLineWater": "ドイツでは平均して、一人当たり毎日家庭で 127 リットルの飲料水を使用します。青線は冷水（60%）、赤線は温水（40%）を期間の日数と人数に外挿して表します。",
-  "chartHorizontalLineElectricityGas": "緑の線は非常に良好な消費を、黄色の線は良好な消費を、赤の線はドイツの平均消費を表しています。",
-  "per": "あたり",
-  "costSummary": "コストの概要",
-  "costSummaryYield": "報酬価格/-基本価格",
-  "soFar": "これまでのところ",
-  "forX": "のために",
-  "corresponds": "対応する",
-  "warningCounterReplacementDetected": "新しい値は、以前のメーター測定値よりも低くなります。メーターは交換されましたか？",
-  "warningYearlyReset": "年始は読書ゼロ",
-  "warningReadingSmallerThanOldValue2": "新しい値は、以前のメーター測定値よりも低くなります。測定値は正しく取得されましたか?",
-  "warningReadingBiggerThanOldValueOilVolume": "新しい値は、以前のメーター測定値よりも高くなります。タンクを補充しましたか？",
-  "warningReadingSeemsTooBig": "新しい価値はかなり高いです。測定値は正しく取得されましたか?",
-  "warningReadingSeemsTooSmall": "新しい値はかなり低いです。正しく読み取れましたか？",
-  "meterReadingsFilterAll": "すべて表示",
-  "meterReadingsFilterComments": "コメントのあるエントリのみを表示",
-  "meterReadingsFilterSubmitted": "「{state}」のみを表示",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "isLastEntryAtFilteredList": "フィルタリングされたリスト内の最も古い値",
-  "initialReading": "初期読み取り値",
-  "warningReadingBiggerThanOldValue": "新しい値は前のメーター測定値よりも高くなります。{isOilCounter, select, true { Have you refilled the tank?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedForYearlyResetCounter": "{deviceTypeName} {roomNamePart} の年の {lastYear} の最後のメーター測定値がありません。これは、年間総消費量を正確に計算するために必要です。",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "lastYear": {
-        "type": "String"
-      },
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "{deviceTypeName} {roomNamePart} の最新のメーター測定値は古いです {outdatedSinceText}.{whenNotifyDateText}",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "valueLess": "{value}未満",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "valueMore": "{value} もっと見る",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonNotEnoughData": "サイト {countryName} ({countryCode}) にはまだ十分な比較データがありません。",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      },
-      "countryCode": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonEqual": "{countryName} の平均とほぼ同じ金額を支払います。",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "priceComparisonDiff": "あなたは {countryName} の平均より {diffWithCurrency} {comparison, select, more {多く} less {少なく} other {多く}} 支払っています。",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "diffWithCurrency": {
-        "type": "String"
-      },
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "roomNamePart": "{roomName}で",
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "warningOutdatedSinceText": "{date}以降",
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "warningNextReminderText": "次のリマインダーは{date}です。",
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "counterConsiderForTotalConsumptions": "総消費量を考慮する"
+  "zipCode": "郵便番号",
+  "zipCodeValidationLength": "{digits}桁の郵便番号を入力してください",
+  "zipCodeValidationOnlyNumbers": "有効な郵便番号は数字のみで構成されます"
 }

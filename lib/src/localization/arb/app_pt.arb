@@ -107,8 +107,8 @@
   "consumptionYearlyDetailedAboutSame": "aproximadamente o mesmo que",
   "consumptionYearlyDetailedAverageHousehold": " um agregado médio com {householdSize} {personLabel}",
   "consumptionYearlyDetailedOptimalEnding": "Como consegue isso?",
-  "consumptionYearlyDetailedLevel1Suffix": "Faltam {nextToOptimal} kWh/mês para um consumo ideal.",
-  "consumptionYearlyDetailedLevel2Suffix": "Faltam {nextToOptimal} kWh/mês para um bom consumo.",
+  "consumptionYearlyDetailedLevel1Suffix": "Faltam {nextToOptimal} para um consumo ideal.",
+  "consumptionYearlyDetailedLevel2Suffix": "Faltam {nextToOptimal} para um bom consumo.",
   "consumptionPersonLabel": "{count, plural, one {pessoa} other {pessoas}}",
   "consumptionWaterPrefixSingle": "Consome ",
   "consumptionWaterPrefixPerPerson": "Por pessoa, cada um consome ",
@@ -889,5 +889,13 @@
   "warningOutdatedSinceText": "desde {date}",
   "warningNextReminderText": " O próximo lembrete é em {date}.",
   "costsUndefinedNetworkCounter": "Taxas de Internet",
-  "counterConsiderForTotalConsumptions": "Considerar para consumos totais"
+  "counterConsiderForTotalConsumptions": "Considerar para consumos totais",
+  "consumptionYearlyDetailedElectricity": "O seu consumo de electricidade {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/ano ≈ {monthlyConsumption} kWh/mês) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "O seu consumo de gás {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/ano ≈ {monthlyConsumption} kWh/mês) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Consome{verbSuffix} {percentage} menos do que um agregado médio com {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Consome{verbSuffix} {percentage} mais do que um agregado médio com {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Consome{verbSuffix} aproximadamente o mesmo que um agregado médio com {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Consome cerca de {dailyLiters} litros por dia (≈ {monthlyCubicMeters} {unitName} por mês).",
+  "consumptionWaterDailyMonthlyPerPerson": "Por pessoa, cada um consome cerca de {dailyLiters} litros por dia (≈ {monthlyCubicMeters} {unitName} por mês).",
+  "consumptionYearlyDetailedLevel2": "é normal."
 }

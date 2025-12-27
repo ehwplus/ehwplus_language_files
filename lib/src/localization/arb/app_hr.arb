@@ -107,8 +107,8 @@
   "consumptionYearlyDetailedAboutSame": "otprilike isto kao",
   "consumptionYearlyDetailedAverageHousehold": "prosječno kućanstvo s {householdSize} {personLabel}",
   "consumptionYearlyDetailedOptimalEnding": "Kako ti to uspijeva?",
-  "consumptionYearlyDetailedLevel1Suffix": "Za optimalnu potrošnju nedostaje {nextToOptimal} kWh/mj.",
-  "consumptionYearlyDetailedLevel2Suffix": "Za dobru potrošnju nedostaje {nextToOptimal} kWh/mj.",
+  "consumptionYearlyDetailedLevel1Suffix": "Za optimalnu potrošnju nedostaje {nextToOptimal}.",
+  "consumptionYearlyDetailedLevel2Suffix": "Za dobru potrošnju nedostaje {nextToOptimal}.",
   "consumptionPersonLabel": "{count, plural, one {osoba} other {osobe}}",
   "consumptionWaterPrefixSingle": "Trošite ",
   "consumptionWaterPrefixPerPerson": "Po osobi, svi konzumiraju",
@@ -917,5 +917,13 @@
   "priceComparisonDiff": "Plaćate {diffWithCurrency} {comparison, select, more {više od} less {manje od} other {više od}} prosjeka u {countryName}.",
   "roomNamePart": "u {roomName}",
   "warningOutdatedSinceText": "od {date}",
-  "warningNextReminderText": "Sljedeći podsjetnik je {date}."
+  "warningNextReminderText": "Sljedeći podsjetnik je {date}.",
+  "consumptionYearlyDetailedElectricity": "Vaša potrošnja električne energije {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/godina ≈ {monthlyConsumption} kWh/mjesec) {consumptionLevel}.",
+  "consumptionYearlyDetailedGas": "Vaša potrošnja plina {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/godina ≈ {monthlyConsumption} kWh/mjesec) {consumptionLevel}.",
+  "consumptionYearlyDetailedComparisonLess": "Trošite{verbSuffix} {percentage} manje od prosječno kućanstvo s {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonMore": "Trošite{verbSuffix} {percentage} više od prosječno kućanstvo s {householdSize} {personLabel}.",
+  "consumptionYearlyDetailedComparisonEqual": "Trošite{verbSuffix} otprilike isto kao prosječno kućanstvo s {householdSize} {personLabel}.",
+  "consumptionWaterDailyMonthlySingle": "Trošite oko {dailyLiters} litara dnevno (≈ {monthlyCubicMeters} {unitName} mjesečno).",
+  "consumptionWaterDailyMonthlyPerPerson": "Po osobi, svi konzumiraju oko {dailyLiters} litara dnevno (≈ {monthlyCubicMeters} {unitName} mjesečno).",
+  "consumptionYearlyDetailedLevel2": "je normalno."
 }
