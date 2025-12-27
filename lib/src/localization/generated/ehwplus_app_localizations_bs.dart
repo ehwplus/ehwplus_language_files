@@ -636,7 +636,7 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedLevel1 => 'je zaista nešto za vidjeti.';
 
   @override
-  String consumptionYearlyDetailedLevel1Suffix(num nextToOptimal) {
+  String consumptionYearlyDetailedLevel1Suffix(String nextToOptimal) {
     return '$nextToOptimal nedostaje za optimalnu potrošnju.';
   }
 
@@ -644,7 +644,7 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedLevel2 => 'je normalno.';
 
   @override
-  String consumptionYearlyDetailedLevel2Suffix(num nextToOptimal) {
+  String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
     return '$nextToOptimal nedostaje za dobru potrošnju.';
   }
 

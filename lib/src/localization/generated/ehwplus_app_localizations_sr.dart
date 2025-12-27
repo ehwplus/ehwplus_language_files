@@ -635,32 +635,16 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
       'је заиста нешто за посматрање.';
 
   @override
-  String consumptionYearlyDetailedLevel1Suffix(num nextToOptimal) {
-    String _temp0 = intl.Intl.pluralLogic(
-      nextToOptimal,
-      locale: localeName,
-      other: 'Optimalnu potrošnju biste postigli sa oko $nextToOptimal manje.',
-      many: 'Optimalnu potrošnju biste postigli sa oko $nextToOptimal manje.',
-      few: 'Optimalnu potrošnju biste postigli sa oko $nextToOptimal manje.',
-      one: 'Optimalnu potrošnju biste postigli sa oko $nextToOptimal manje.',
-    );
-    return '$_temp0';
+  String consumptionYearlyDetailedLevel1Suffix(String nextToOptimal) {
+    return 'Отприлике $nextToOptimal мања потрошња била би оптимална.';
   }
 
   @override
   String get consumptionYearlyDetailedLevel2 => 'је нормално.';
 
   @override
-  String consumptionYearlyDetailedLevel2Suffix(num nextToOptimal) {
-    String _temp0 = intl.Intl.pluralLogic(
-      nextToOptimal,
-      locale: localeName,
-      other: 'Približno $nextToOptimal nedostaje za dobru potrošnju.',
-      many: 'Približno $nextToOptimal nedostaje za dobru potrošnju.',
-      few: 'Približno $nextToOptimal nedostaju za dobru potrošnju.',
-      one: 'Približno $nextToOptimal nedostaje za dobru potrošnju.',
-    );
-    return '$_temp0';
+  String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
+    return 'Отприлике $nextToOptimal недостаје за добру потрошњу.';
   }
 
   @override

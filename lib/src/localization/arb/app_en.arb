@@ -780,6 +780,14 @@
   "consumptionYearlyDetailedLessThan": "{percentage} less than",
   "consumptionYearlyDetailedLevel0": "super low",
   "consumptionYearlyDetailedLevel1": "low",
+  "@consumptionYearlyDetailedLevel1Suffix": {
+    "placeholders": {
+      "nextToOptimal": {
+        "type": "String",
+        "value": "7%"
+      }
+    }
+  },
   "consumptionYearlyDetailedLevel1Suffix": "You would reach optimal consumption with about {nextToOptimal} less.",
   "consumptionYearlyDetailedLevel2": "within the normal range",
   "consumptionYearlyDetailedLevel2Suffix": "Approximately {nextToOptimal} is missing for good consumption.",
