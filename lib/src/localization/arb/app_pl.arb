@@ -1,804 +1,4 @@
 {
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "Object"
-      },
-      "monthlyCubicMeters": {
-        "type": "Object"
-      },
-      "unitName": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearly": {
-    "placeholders": {
-      "consumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "Object"
-      }
-    }
-  },
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "accountAbout": "Co potrafi konto użytkownika EHW+?",
   "accountBenefit1": "Bardziej niezawodne rozpoznawanie zakupów",
   "accountBenefit2": "Dostęp do wszystkich zakupionych rozszerzeń na wielu urządzeniach",
@@ -834,6 +34,9 @@
   "appBarExpandedMode": "Pasek aplikacji z obrazem tła",
   "appDescriptionLong": "<p>Witamy w <b>EHW+</b>, Twojej aplikacji do odczytu liczników dla <b>E</b>elektryczność, <b>H</b>eating i <b>W</b>ater. Dzięki nam możesz łatwo śledzić<b> <b>0ile używasz i ile to kosztuje<b>1 <b>2<b>3 za darmo.<b>4",
   "appDescriptionShort": "Dobre dla portfela, dobre dla klimatu",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
   "appName": "EHW+ | Zużycie i odczyty liczników",
   "appNameShort": "EHW+",
   "areYouSure": "Czy jesteś pewien?",
@@ -897,13 +100,48 @@
   "commonUpdateNow": "Zaktualizuj teraz",
   "commonUserLogin": "Logowanie użytkownika",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Korzystasz z konta EHW+. Nie można zapisać {notSubmitted} z zakupionych produktów {total} na serwerze EHW+. Mamy nadzieję, że wkrótce uda nam się rozwiązać ten problem.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Jeden zakup został zsynchronizowany poprzez konto EHW+.} other {Zakupy {count} zostały zsynchronizowane za pośrednictwem konta EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Korzystasz z konta EHW+. Jeśli w przyszłości kupisz produkty, zostaną one zsynchronizowane na wszystkich Twoich urządzeniach.} one {Korzystasz z konta EHW+. Zakupiony produkt {count} został zapisany na serwerze EHW+.} other {Korzystasz z konta EHW+. Zakupione produkty {count} zostały zapisane na serwerze EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionNotLoggedIn": "Czy korzystasz z aplikacji na wielu urządzeniach? Zalogowanie się do konta EHW+ pozwala na synchronizację ustawień i zakupionych produktów na wszystkich Twoich urządzeniach.",
   "commonYear": "rok",
   "commonYes": "Tak",
   "completeButton": "Kompletny",
   "confirmDeleteAtCloud": "Czy „{objectTitle}” również powinien zostać usunięty z Dysku Google?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
   "consent11AnalyticsTitle": "Dane analityczne",
   "consent12Analytics": "Aby ocenić skuteczność aplikacji lub poszczególnych funkcji, aplikacja przesyła anonimowe statystyki użytkowania. Dane nie są przekazywane podmiotom trzecim. Dane są wykorzystywane do dalszego rozwoju aplikacji.",
   "consent13StromGedacht": "StromGedacht, usługa świadczona przez TransnetBW, dostarcza informacji na temat stabilności sieci oraz zaleceń dotyczących preferencyjnego korzystania z energii elektrycznej. Ponieważ transformacja energetyczna staje się coraz większym wyzwaniem dla sieci przesyłowej, włączają się w nią gospodarstwa domowe w południowo-zachodnich Niemczech. Aby otrzymać informacje o Twojej lokalizacji, Twój kod pocztowy, jeśli zostanie wprowadzony w aplikacji, zostanie przesłany do API TransnetBW StromGedacht. Żadne inne dane nie są przesyłane ani łączone.",
@@ -927,35 +165,201 @@
   "consumptionHeatmap": "Mapa cieplna zużycia",
   "consumptionHeatmapYield": "Mapa cieplna plonów",
   "consumptionHeatpump": "Ponadto pobór mocy pompy ciepła wynosi {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
   "consumptionIsNotExclusive": "Jeśli zużycie nie dotyczy wyłącznie tej czynności, zostanie to pokazane jako ostrzeżenie.",
   "consumptionIsNotExclusiveTitle": "Czy konsumpcja jest wyłączna?",
   "consumptionPersonLabel": "{count, plural, one {osoby} other {osób}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "consumptionWaterColdEqual": "Zimna woda: mniej więcej taka sama jak w przeciętnym gospodarstwie domowym.",
   "consumptionWaterColdLess": "Zimna woda: {percentage} mniej niż przeciętne gospodarstwo domowe.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterColdMore": "Zimna woda: {percentage} więcej niż przeciętne gospodarstwo domowe.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthly": "około {dailyLiters} litrów dziennie (≈ {monthlyCubicMeters} {unitName} na miesiąc).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthlyPerPerson": "Na osobę to około {dailyLiters} litrów dziennie (≈ {monthlyCubicMeters} {unitName} w miesiącu).",
   "consumptionWaterDailyMonthlySingle": "Zużywasz około {dailyLiters} litrów dziennie (≈ {monthlyCubicMeters} {unitName} w miesiącu).",
   "consumptionWaterOverallEqual": "Twoje zużycie wody {ofRange} odpowiada zużyciu przeciętnego gospodarstwa domowego z {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallLess": "Twoje zużycie wody {ofRange} jest o {percentage} niższe niż w przeciętnym gospodarstwie domowym z {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallMore": "Twoje zużycie wody {ofRange} jest o {percentage} wyższe niż w przeciętnym gospodarstwie domowym z {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterPrefixPerPerson": "Na osobę konsumuje każdy",
   "consumptionWaterPrefixSingle": "Konsumujesz",
   "consumptionWaterRangeUnknown": "Twoje zużycie wody {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmEqual": "Ciepła woda: mniej więcej tyle samo, co w przeciętnym gospodarstwie domowym.",
   "consumptionWaterWarmLess": "Ciepła woda: {percentage} mniej niż przeciętne gospodarstwo domowe.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmMore": "Ciepła woda: {percentage} więcej niż przeciętne gospodarstwo domowe.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearly": "Twoje zużycie energii elektrycznej {ofRange} wynosi {consumption} kWh w ciągu roku.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedAboutSame": "mniej więcej tak samo jak",
   "consumptionYearlyDetailedAverageHousehold": " przeciętne gospodarstwo domowe składające się z {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedComparisonEqual": "Zużywasz{verbSuffix} mniej więcej tyle co przeciętne gospodarstwo domowe składające się z {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "Zużywasz{verbSuffix} {percentage} mniej niż przeciętne gospodarstwo domowe składające się z {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "Zużywasz{verbSuffix} {percentage} więcej niż przeciętne gospodarstwo domowe składające się z {householdSize} {personLabel}.",
   "consumptionYearlyDetailedElectricity": "Twoje zużycie energii elektrycznej {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/miesiąc) jest {consumptionLevel}.",
   "consumptionYearlyDetailedElectricityIntro": "Twoje zużycie energii elektrycznej {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/miesiąc)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedGas": "Twoje zużycie gazu {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/miesiąc) jest {consumptionLevel}.",
   "consumptionYearlyDetailedGasIntro": "Twoje zużycie gazu {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/rok ≈ {monthlyConsumption} kWh/miesiąc)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLessThan": "{percentage} mniej niż",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLevel0": "bardzo niskie",
   "consumptionYearlyDetailedLevel1": "raczej niskie",
   "consumptionYearlyDetailedLevel1Suffix": "Około {nextToOptimal} mniej zużycia byłoby optymalne.",
@@ -964,8 +368,22 @@
   "consumptionYearlyDetailedLevel3": "stosunkowo wysoki",
   "consumptionYearlyDetailedLevel4": "w normalnym zakresie",
   "consumptionYearlyDetailedMoreThan": "{percentage} więcej niż",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedOptimalEnding": "To świetnie!",
   "consumptionYearlyDetailedYouConsume": "Zużywasz{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYield": "Dawać",
   "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontakt\n\nTelefon: 06204/7383382\nPoczta: info@ehwplus.com",
   "contactTitle": "Reprezentowany przez:",
@@ -1020,6 +438,16 @@
   "counterDirectionDescending": "malejąco",
   "counterDirectionExplanation": "Czy wartość zmniejsza się wraz z użytkowaniem (wskaźnik poziomu itp.), czy wzrasta wraz z użytkowaniem (godziny pracy palnika, licznik oleju itp.), czy też każda wartość odczytu jest niezależna (zużycie/uzysk)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
   "counterDistrictHeating": "Ciepło Miejskie",
   "counterEdit": "Edytuj licznik",
   "counterElectricity": "Licznik energii elektrycznej",
@@ -1027,7 +455,6 @@
   "counterElectricityGenerated": "Licznik wytwarzania energii elektrycznej",
   "counterExclude": "Wykluczać",
   "counterExcludedContracts": "Wykluczone kontrakty",
-  "counterExplainSeasonal": "Latem ustawić odczyty liczników na 0? Zimą odczyty będą zgodne z normalnym schematem zużycia; latem pozostaną płaskie.",
   "counterFactor": "Czynnik",
   "counterFactorDescription": "Czy zużycie jest przydzielane Państwu wyłącznie proporcjonalnie? Wprowadź proporcję jako wartość z zakresu od 0,1 (10%) do 1,0 (100%).",
   "counterFractionDigits": "Cyfry ułamkowe",
@@ -1049,9 +476,26 @@
   "counterNoContractSelected": "Nie wybrano umowy",
   "counterNoRoomConnection": "Brak połączenia z pokojem",
   "counterNum": "Liczniki {count}",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "counterOilHeating": "Ogrzewanie olejowe",
   "counterOtherContracts": "Inne umowy",
   "counterOutdatedAndNextReminder": "Odczyt licznika nieaktualny od {date}, przypomnienie o następnym odczycie {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
   "counterProportionateConsumption": "Proporcjonalne zużycie",
   "counterPvFeedInCounter": "Energie odnawialne (energia słoneczna i ciepło z systemów fotowoltaicznych/słonecznych)",
   "counterPvFeedInCounterExplanation": "Do rejestrowania wytworzonej i dostarczonej energii elektrycznej należy użyć licznika poboru energii elektrycznej\nz instalacją fotowoltaiczną. Uzyskany przychód jest kompensowany z kosztami\npobieraną energię elektryczną.",
@@ -1079,6 +523,13 @@
   "csvImportWithFactor": "Czy odczyty licznika należy pomnożyć przez współczynnik inny niż 1,0? Na przykład, aby przeliczyć wartości z Wh na kWh, należy je pomnożyć przez 0,001.",
   "currency": "Waluta",
   "deleteObjectError": "Nie można usunąć tego obiektu (kod {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
   "detailWithMultiSelect": "Zezwalaj na wielokrotny wybór",
   "detailsTitle": "Bliższe dane",
   "difference": "Różnica",
@@ -1087,13 +538,54 @@
   "driveSyncStatusComparing": "Porównanie z plikiem na serwerze",
   "driveSyncStatusFailed": "Nie udało się zsynchronizować",
   "driveSyncStatusLocalHasLatestNoCloud": "Plik zapisany na tym urządzeniu z {localDate} nie jest zapisany w chmurze",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusLocalHasLatestWithCloud": "Plik zapisany na tym urządzeniu z {localDate} jest bardziej aktualny niż plik w chmurze z {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusNotSynced": "Brak synchronizacji",
   "driveSyncStatusRemoteHasLatestNoLocal": "Plik w chmurze z {cloudDate} nie jest zapisany na tym urządzeniu",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusRemoteHasLatestWithLocal": "Plik w chmurze z {cloudDate} jest bardziej aktualny niż plik lokalny z {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusSyncing": "Synchronizacja w toku",
   "driveSyncStatusTitle": "Stan synchronizacji",
   "driveSyncStatusUpToDate": "Aktualne od {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncWithGoogle": "Synchronizacja Dysku Google",
   "editDetailTitle": "Edytuj szczegół",
   "electricity": "Elektryczność",
@@ -1112,10 +604,33 @@
   "export": "Eksport",
   "exportExplanation": "Który istniejący obiekt chcesz wyeksportować, na przykład przenieść na nowe urządzenie?",
   "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionConsumptionsSubtitle": "Wartość zużycia na każdy dzień od pierwszego odczytu.",
   "exportOptionConsumptionsTitle": "Dzienne spożycie",
   "exportOptionExcel": "Plik Excela",
   "exportOptionFileDescription": "Obiekt jest udostępniany jako plik {fileType}",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionPdf": "Plik PDF",
   "exportOptionReadingsSubtitle": "Zazwyczaj odczyty liczników lub zużycie w nieregularnych odstępach czasu.",
   "exportOptionReadingsTitle": "Odczytywanie wartości",
@@ -1144,6 +659,13 @@
   "generated": "Wygenerowano",
   "googleAnalyticsAgreement": "Wyrażam zgodę na przesyłanie zanonimizowanych danych dotyczących korzystania z aplikacji do EHW+ Services GmbH.",
   "googleApiAgreement": "Używanie i przesyłanie przez {appNameShort} do dowolnej innej aplikacji informacji otrzymanych z interfejsów API Google będzie zgodne z Polityką dotyczącą danych użytkownika usług Google API, w tym wymaganiami dotyczącymi ograniczonego użytkowania.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "gross": "brutto",
   "grossNetPrices": "Cena brutto lub netto",
   "heatPump": "Pompa ciepła",
@@ -1156,13 +678,37 @@
   "importConfirm": "Potwierdź import",
   "importCounterAsCsv": "Czy chcesz zaimportować pojedynczy licznik? Obsługiwany dla licznika jest plik CSV z dwiema kolumnami, jedną zawierającą godzinę i drugą wskazującą stan licznika.\n\nPrzykładowe dane:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n„2020-04-01 23:02:00”,6812,036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Wykorzystano tylko dwie pierwsze kolumny. Trzecia kolumna została zignorowana.} other {Wykorzystano tylko dwie pierwsze kolumny, kolumny {columns} pominięto.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "importErrorCsvIgnoredLines": "{count, plural, one {Jedna linia została zignorowana: {lines}} other {Linie {count} zostały zignorowane: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
   "importExplanation": "Dokonałeś już odczytów liczników i chcesz je wstawić?",
   "importExport": "Kopia zapasowa/przywracanie",
   "importNewOrExistingCounter": "Dodać do nowego lub istniejącego licznika?",
   "importNotPossible": "Import nie jest możliwy",
   "importPickFile": "Wybierz plik",
   "importSelectJson": "Plik JSON (utworzony za pomocą {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
   "importSelectSingleCounter": "Licznik pojedynczy (plik CSV)",
   "importSuccessful": "Import pomyślny",
   "importTabErrorMessageFileWithExtensionNotSelected": "Aby kontynuować import, wymagany jest plik {extension}.",
@@ -1198,6 +744,13 @@
   "meterReadingsFilterAll": "Pokaż wszystko",
   "meterReadingsFilterComments": "Pokaż tylko wpisy z komentarzami",
   "meterReadingsFilterSubmitted": "Pokaż tylko „{state}”",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
   "myObjects": "Moje obiekty",
   "net": "internet",
   "networkCounter": "Internet i telefon",
@@ -1210,11 +763,53 @@
   "notificationsEmpty": "Brak powiadomień",
   "notificationsSmartMeterAlertFallback": "Masz nowy alert inteligentnego licznika.",
   "numCounters": "{count, plural, =0 {Licznik {count}} one {Licznik {count}} other {Liczniki {count}}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "numMeterReadings": "{readings, plural, one {# czytanie} other {# odczytów}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
   "numberOfDetails": "{count, plural, one {1 szczegół} other {Szczegóły {count}}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeFrom": "od {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
   "ofRangeLastDays": "z ostatnich {days} dni",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeLastMonths": "z ostatnich {months} miesięcy",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "oil": "Olej",
   "outdated": "Przestarzały",
   "outdatedContracts": "Przestarzałe umowy",
@@ -1223,6 +818,13 @@
   "parsingObjectError": "Nie można przeanalizować obiektu. Skontaktuj się z deweloperem. Odinstalowanie aplikacji może spowodować utratę danych.",
   "per": "za",
   "perUnit": "na {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "period": "Okres",
   "periodBimonthly": "dwumiesięczny",
   "periodBiweekly": "dwutygodniowy",
@@ -1236,8 +838,38 @@
   "periodYearly": "rocznie",
   "previouslyDeletedCounters": "Ostatnio usunięte liczniki",
   "priceComparisonDiff": "Płacisz {diffWithCurrency} {comparison, select, more {więcej niż} less {mniej niż} other {więcej niż}} niż średnia w {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonEqual": "Płacisz mniej więcej tyle, co średnia w {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonNotEnoughData": "Nie ma jeszcze wystarczających danych porównawczych dla witryny {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "pricePerUnit": "Cena za jednostkę",
   "pricePerUnitFeedIn": "Cena wynagrodzenia",
   "pricePerUnitFreshWater": "Koszty świeżej wody",
@@ -1246,14 +878,49 @@
   "pricePerUnitWaterWarm": "Koszty ogrzewania ciepłej wody",
   "priceSubmissionAgreement": "Wyrażam zgodę na przesyłanie cen prądu/gazu/wody za jednostkę do serwera EHW+",
   "privacyBlock1Text": "Twórcą/dostawcą aplikacji (zwanej dalej „aplikacją”) jest zgodnie z art. 5 niemieckiej ustawy o telemediach (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock1Text2": "Korzystanie z aplikacji wymaga wyrażenia zgody na poniższe warunki użytkowania. Przeczytaj je uważnie.",
   "privacyBlock1Title": "Wywoływacz",
   "privacyBlock2Text": "Ochrona Twoich danych jest dla nas bardzo ważna. Niniejsza polityka prywatności wyjaśnia, jakie dane osobowe gromadzi EHW+ i w jaki sposób je wykorzystuje. Zasadnicze zmiany w polityce prywatności są rzadkie, ale od czasu do czasu może ona zostać zmieniona ze względu na nowe funkcje, technologie lub wymagania prawne. Dlatego prosimy o sprawdzanie tej strony od czasu do czasu, aby być na bieżąco. Jeżeli dokonamy istotnych zmian, poinformujemy Cię o tym i w razie potrzeby uzyskamy Twoją zgodę.",
   "privacyBlock2Title": "Ogólny",
   "privacyBlock3Title": "Jakie dane gromadzi {appNameShort}?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3aText": "Stworzyliśmy {appNameShort}, abyś mógł szybko i łatwo wprowadzić odczyty liczników, a następnie skorzystać ze statystyk, aby dowiedzieć się więcej o swoim zużyciu, jego kosztach i potencjalnych oszczędnościach. Oznacza to, że możesz wprowadzać, obliczać lub zapisywać dowolne dane, które ogólnie nazywamy „treścią” w {appNameShort}. Dane te są zapisywane wyłącznie na Twoim telefonie komórkowym.\n\nSynchronizuj z Dyskiem Google.\nJeśli włączysz synchronizację z Dyskiem Google, kopia zapasowa zawartości zostanie również automatycznie utworzona w folderze o nazwie „{appNameShort}” na Twoim Dysku Google, do którego tylko Ty masz dostęp. Logując się za pomocą Google, Twój adres e-mail będzie widoczny dla programisty.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nDane lokalizacyjne.\nAby zrozumieć zachowanie użytkowników i wykorzystać przyszłe funkcje, aplikacja przesyła anonimowe dane dotyczące użytkowania.\nDane nie są udostępniane podmiotom trzecim.\nMogą być zbierane informacje o pochodzeniu (kraj i miasto), języku, systemie operacyjnym, typie urządzenia, rozdzielczości, kliknięciach i czasie użytkowania.\n\nDane urządzenia.\nZbieramy dane o liczbie i rodzaju urządzeń, za pomocą których łączysz się z usługą, a także informacje o systemie operacyjnym na tych urządzeniach (np. Android, iOS, Windows czy macOS).\n\nKorzystając z aplikacji, wyrażasz zgodę na gromadzenie zanonimizowanych danych w sposób opisany powyżej.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsage": "Zebrane zanonimizowane dane służą do oceny zachowań użytkowników. Poza tym nie ma dalszego wykorzystania danych.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsageTitle": "W jaki sposób {appNameShort} wykorzystuje moje dane?",
   "privacyBlock5": "Czas przechowywania danych osobowych zależy od odpowiedniego ustawowego okresu przechowywania (np. okresów przechowywania zgodnie z przepisami handlowymi i podatkowymi). Po upływie tego okresu odpowiednie dane są rutynowo usuwane, pod warunkiem, że nie są już potrzebne do wykonania lub rozpoczęcia umowy i/lub nie mamy już uzasadnionego interesu w ich dalszym przechowywaniu.",
   "privacyBlock5Title": "Czas przechowywania danych osobowych",
@@ -1284,13 +951,57 @@
   "purchasesPurchasedSubscribed": "Zasubskrybowano",
   "purchasesRedeemCode": "Wykorzystaj kod",
   "purchasesStatisticsWithPremium": "Dzięki Premium masz dostęp do miesięcznych porównań{count, plural, =0{.}=1{.}other{, a także widzisz dane historyczne dla {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribeNow": "Zapisz się teraz",
   "purchasesSubscribePremium": "Subskrybuj Premium",
   "purchasesSubscribePremiumMonthly": "Miesięczna subskrypcja z możliwością anulowania za jedyne {price} miesięcznie",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Miesięczna subskrypcja z możliwością anulowania w cenie lojalnościowej {price} miesięcznie zamiast {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumTextLong": "Dostęp do wszystkich płatnych funkcji w okresie abonamentowym + temperatury zewnętrzne",
   "purchasesSubscribePremiumYearly": "Roczna subskrypcja z możliwością anulowania za jedyne {price} rocznie",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Roczna subskrypcja z możliwością anulowania w cenie lojalnościowej {price} rocznie zamiast {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesUpgrade": "Aktualizacja",
   "purchasesWebLegalNote": "Ze względów prawnych zakup możliwy jest wyłącznie w przypadku telefonu iPhone lub telefonu z systemem Android i usługami PlayStore.",
   "purchasesWhyBuyText": "Dokonując zakupu uczestniczysz w kosztach jakie ponoszę wydając aplikację i wspierając jej dalszy rozwój.",
@@ -1306,9 +1017,31 @@
   "readingPrefillDisabledToast": "Automatyczne uzupełnianie wyłączone",
   "readingPrefillEnableForAllCounters": "Włącz automatyczne uzupełnianie dla wszystkich liczników",
   "readingReminder": "{count, plural, one {Przypomnienie o czytaniu} other {Czytanie przypomnień}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "readingReminderDisabled": "Przypomnienie o czytaniu nieaktywne",
   "readingReminderMultiBody": "{count, plural, one {Przeczytaj teraz odczyty z miernika {count}} other {Przeczytaj teraz odczyty z mierników {count}}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "readingReminderSingleBody": "Przeczytaj teraz wartość {counterName}",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
   "readingReminders": "Czytanie przypomnień",
   "readingRemindersChannel": "Czytanie przypomnień",
   "readingSubmitted": "Przesłano odczyt licznika",
@@ -1345,6 +1078,13 @@
   "roomName": "Nazwa pokoju",
   "roomNameHint": "Opcjonalnie przypisz nazwę pokoju",
   "roomNamePart": "w {roomName} ",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
   "roomNew": "Nowy pokój",
   "roomOffice": "Biuro",
   "roomOther": "Inny",
@@ -1421,6 +1161,16 @@
   "consumptionCacheToggleButtonTitle": "Użyj pamięci podręcznej zużycia",
   "consumptionCacheToggleButtonDescription": "Przechowuj obliczone zużycie w pamięci podręcznej i ponownie używaj w razie potrzeby",
   "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} otrzymał kod informacyjny: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "Temperatura wodomierza {smartmeterId} spadła poniżej 3°C. Istnieje ryzyko przymrozków! Zaizoluj licznik i rury lub ogrzej miejsce, aby zapobiec uszkodzeniom.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Twój wodomierz {smartmeterId} wykrył ciągły przepływ wody. Może to wskazywać na wyciek. Proszę sprawdzić instalację domową pod kątem wycieków. Toalety i cieknące krany są częstymi przyczynami.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Twój wodomierz {smartmeterId} wykrył wyjątkowo duże zużycie wody, co może wskazywać na pęknięcie rury. Sprawdź instalację domową pod kątem większych wycieków lub przerw. Alarm może pojawić się również w przypadku zużycia dużej ilości wody, np. w wodzie. do napełniania basenu.",
@@ -1445,6 +1195,13 @@
   "supportGivePraise": "Daj pochwałę",
   "supportGivePraiseLong": "Czy podoba Ci się aplikacja? Dziękuję! Rozpowszechniaj informacje!",
   "supportGivePraiseRating": "Oceń aplikację w {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
   "supportGivePraiseRecommendation": "Polecaj aplikację znajomym i rodzinie. Dziękujemy za każdą rekomendację!",
   "supportMakeSuggestion": "Zaproponuj coś",
   "supportMakeSuggestionLong": "Aplikacja żyje dzięki sugestiom użytkowników. Czy masz sugestię?",
@@ -1482,12 +1239,40 @@
   "teaserPurchaseVirtualCounter": "Dodaj wirtualne liczniki w wersji Premium.",
   "teaserPurchaseWaterExtractionCounter": "Odblokuj liczniki ekstrakcji wody za pomocą Premium.",
   "termsOfUsageBlock1": "Prawo sprzeciwu",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock1Title": "Ogólne warunki korzystania z aplikacji",
   "termsOfUsageBlock2": "Aplikacji i jej funkcji nie można używać w sposób stanowiący nadużycie. Prosimy o korzystanie z aplikacji wyłącznie w zakresie dozwolonym przez prawo i zgodnie z naszym regulaminem. W przypadku naruszenia obowiązującego prawa niemieckiego lub naszych warunków użytkowania, dostawca zastrzega sobie prawo do wykluczenia Cię z korzystania z aplikacji.",
   "termsOfUsageBlock2Title": "Ogólne informacje dotyczące użytkowania",
   "termsOfUsageBlock2a": "Zanonimizowane dane dotyczące użytkowania\nKorzystamy z własnych analiz, aby stale ulepszać aplikację.\nPrzesyłane są wyłącznie dane zanonimizowane.\nDane nie są przekazywane podmiotom trzecim.\nAby uzyskać więcej informacji, wybierz Ustawienia > Prywatność > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2b": "Raporty o błędach\nSentry (na własnym serwerze) służy do ciągłego ulepszania aplikacji.\nRaporty o błędach nie są przetwarzane ani udostępniane osobom trzecim.\nAby uzyskać więcej informacji, wybierz Ustawienia > Prywatność > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2c": "Dane osobowe\nJeśli korzystasz z Google Drive Sync, EHW+ nadal nie ma dostępu do wprowadzonych danych. Aby uzyskać więcej informacji, przejdź do Ustawienia > Prywatność > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock3": "Dostawca nie gwarantuje dostępności, niezawodności, funkcjonalności ani przydatności aplikacji do Twoich celów. Odpowiedzialność jest wykluczona, chyba że jest to wymagane zgodnie z ustawą o odpowiedzialności za produkt, z powodu umyślnego działania, rażącego niedbalstwa, naruszenia życia, ciała lub zdrowia, przejęcia gwarancji jakości, podstępnego zatajenia wady lub naruszenia istotnych zobowiązań umownych. Zasadnicze zobowiązania umowne to zobowiązania, których wypełnienie jest niezbędne do prawidłowego wykonania umowy i na których przestrzeganiu strony umowy mogą regularnie polegać. Odszkodowanie za naruszenie istotnych obowiązków umownych ogranicza się do przewidywalnych szkód typowych dla tego rodzaju umów, chyba że doszło do umyślnego działania lub rażącego niedbalstwa.",
   "termsOfUsageBlock3Title": "Obciążenie",
   "termsOfUsageBlock4": "Dostawca nie gwarantuje dokładności wyników obliczeń. Użytkownicy mają obowiązek starannie i na własną odpowiedzialność aktualizować ceny zapisane w aplikacji (ceny bazowe, ceny konsumpcyjne itp.), aby wygenerowane faktury odpowiadały faktycznie należnym kwotom.",
@@ -1572,22 +1357,57 @@
   "timeDayAgo": "jeden dzień temu",
   "timeDays": "dni",
   "timeDaysAgo": "{days} dni temu",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "timeDaysWithin": "dni",
   "timeForFirstYear": "przez pierwszy rok",
   "timeFriday": "Piątek",
   "timeFromDate": "Od {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeFromUndefined": "Nieokreślony",
   "timeHours": "godziny",
   "timeHoursAgo": "{hours} godzin temu",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "timeInFuture": "W przyszłości",
   "timeJustNow": "właśnie",
   "timeLastUpdated": "ostatnia aktualizacja",
   "timeMinutes": "protokół",
   "timeMinutesAgo": "{minutes} minut temu",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonday": "Poniedziałek",
   "timeMonth": "miesiąc",
   "timeMonths": "miesiące",
   "timeMonthsAgo": "{months} miesięcy temu",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonthsWithin": "miesiące",
   "timePeriodYearStart": "rocznie",
   "timeReminderAtEnd": "Na koniec",
@@ -1600,50 +1420,158 @@
   "timeToday": "Dzisiaj",
   "timeTuesday": "Wtorek",
   "timeUntilDate": "Do {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeUntilUnlimited": "Nieograniczony",
   "timeWednesday": "Środa",
   "timeWeek": "tydzień",
   "timeWeeks": "tygodnie",
   "timeWithin": "W ciągu {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
   "timeYesterday": "Wczoraj",
   "unitCm": "cm",
   "unitCmLong": "cm",
   "unitCmShort": "cm",
   "unitCubicMetersLong": "{count, plural, one {Metr sześcienny (m³)} other {Metry sześcienne (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitCubicMetersShort": "m³",
   "unitGJLong": "{count, plural, one {Gigadżul (GJ)} other {Gigadżule (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {Godzina} other {Godziny (godz.)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitHoursShort": "H",
   "unitKWhLong": "{count, plural, one {Kilowatogodzina (kWh)} other {Kilowatogodziny (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKWhShort": "kWh",
   "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogramy (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKgShort": "kg",
   "unitLiters": "litry",
   "unitLitersLong": "{count, plural, one {Litr (ℓ)} other {Litr (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Megawatogodzina (MWh)} other {Megawatogodziny (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitMWhShort": "MWh",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "nic",
   "unitNoneFormatted": "{count, plural, one {jednostka} other {jednostki}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitPercentLong": "Procent (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "mkw",
   "unitSquareMetersLong": "{count, plural, one {Metr kwadratowy (m²)} other {Metry kwadratowe (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitSquareMetersShort": "m²",
   "updateAvailable": "Wersja aplikacji {oldVersion} jest nieaktualna. Możesz zaktualizować do wersji {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
   "updateObjectName": "Zmień nazwy obiektów",
   "upgradeDescription": "Aplikacja może więcej. Lepszy przegląd kosztów, więcej statystyk, eksport do Excela, więcej liczników, ...",
   "useDismissibleSettings": "Usuń gestem machnięcia",
   "useDismissibleSettingsDetailed": "Liczniki, kontrakty itp. można usunąć ruchem bocznym",
   "usedForPaymentsRepayments": "Zaliczka, cena podstawowa i premia",
   "valueLess": "{value} mniej",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "valueMore": "{value} więcej",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "versionIsUpToDate": "Najnowsza wersja aplikacji udostępniona wszystkim użytkownikom to {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "virtualCounter": "Wirtualny licznik",
   "virtualCounterMasterCounter": "Mistrzowski licznik",
   "virtualCounterMasterCounterAttach": "Wybierz licznik główny",
@@ -1657,11 +1585,61 @@
   "warning": "Ostrzeżenie",
   "warningCounterReplacementDetected": "Nowa wartość jest niższa niż poprzedni odczyt licznika. Czy licznik był wymieniany?",
   "warningNextReminderText": " Następne przypomnienie nastąpi {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningOutdatedSinceText": "od {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValue": "Nowa wartość jest wyższa niż poprzedni odczyt licznika.{isOilCounter, select, true { Czy uzupełniłeś zbiornik?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValueOilVolume": "Nowa wartość jest wyższa niż poprzedni odczyt licznika. Czy napełniłeś zbiornik?",
   "warningReadingOutdatedForYearlyResetCounter": "Brakuje końcowego odczytu licznika za rok {lastYear} dla {deviceTypeName} {roomNamePart}. Jest to konieczne do prawidłowego obliczenia całkowitego rocznego zużycia.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingOutdatedFrequency": "Najnowszy odczyt licznika dla {deviceTypeName} {roomNamePart} jest nieaktualny {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingSeemsTooBig": "Nowa wartość jest dość wysoka. Czy odczyt został dokonany prawidłowo?",
   "warningReadingSeemsTooSmall": "Nowa wartość jest dość niska. Czy został poprawnie odczytany?",
   "warningReadingSmallerThanOldValue2": "Nowa wartość jest niższa niż poprzedni odczyt licznika. Czy odczyt został dokonany prawidłowo?",
@@ -1670,6 +1648,18 @@
   "waterConsumption": "Zużycie wody",
   "waterExtractionMinimumLevelLower": "Nie następuje odliczenie, ponieważ zużycie jest poniżej minimalnego progu.",
   "waterMeterEventsInformation": "{count, plural, =1 {Twój bezprzewodowy wodomierz {waterSupplier} wykrywa nieoczekiwane zużycie. Jeśli chcesz, otrzymasz powiadomienie w takim przypadku.} other {Twoje bezprzewodowe wodomierze {waterSupplier} wykrywają nieoczekiwane zużycie. W razie potrzeby otrzymasz powiadomienie w takich przypadkach.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
   "watersupplierAccessRequestQ1": "Jesteś właścicielem nieruchomości na terenie zlewni wodociągów i chciałbyś mieć dostęp do radiowych odczytów liczników?",
   "watersupplierAccessRequestQ2": "Czy poprosiłeś już o dostęp? Następnie musisz utworzyć konto użytkownika EHW+.",
   "watersupplierAccessRequestQ3": "Czy złożyłeś już wniosek o dostęp i otrzymałeś kod QR?",
@@ -1706,5 +1696,15 @@
   "youtubeConsent3": "Wyrażam zgodę na wyświetlanie mi treści zewnętrznych. Może to skutkować przesyłaniem danych osobowych do platform stron trzecich. Więcej na ten temat w naszym",
   "zipCode": "kod pocztowy",
   "zipCodeValidationLength": "Proszę wprowadzić {digits}-cyfrowy kod pocztowy",
-  "zipCodeValidationOnlyNumbers": "Prawidłowy kod pocztowy składa się wyłącznie z cyfr"
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "zipCodeValidationOnlyNumbers": "Prawidłowy kod pocztowy składa się wyłącznie z cyfr",
+  "counterExplainSeasonal": "W przypadku prognoz rozróżnia się liczniki sezonowe i niesezonowe. W zależności od tego prognoza jest obliczana w różny sposób.\n\nZa sezonowe uznaje się zawsze ogrzewanie, gaz i olej. Liczniki niesezonowe to liczniki energii elektrycznej i wody.\n\nW przypadku liczników niesezonowych decydujące znaczenie ma zużycie z ostatnich 90 dni.\n\nW przypadku liczników sezonowych uśrednia się dane z poprzednich lat (jeśli są dostępne), przy czym wszystkie miesiące poprzednich lat mają taką samą wagę. (Wyjątek: jeśli nie ma jeszcze danych za miesiąc poprzedniego roku, stosuje się poprzednią średnią)."
 }

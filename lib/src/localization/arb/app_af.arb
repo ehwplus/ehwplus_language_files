@@ -731,7 +731,6 @@
   "counterShowPreliminaryCurve": "Wys voorlopige kurwe",
   "seasonalCounter": "Seisoenale teller",
   "seasonalElectricityCounter": "Seisoenale elektrisiteitsmeter",
-  "counterExplainSeasonal": "Stel meterlesings op 0 gedurende die somer? In die winter sal die lesings jou normale verbruikspatroon volg; in die somer sal hulle plat bly.",
   "counterIsOutdated": "Teller is verouderd",
   "counterLinkMoreRecent": "Koppel meer onlangse teller",
   "counterReplacedBy": "Vervang deur",
@@ -906,5 +905,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Jy verbruik{verbSuffix} omtrent dieselfde as 'n gemiddelde huishouding met {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Jy verbruik ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
   "consumptionWaterDailyMonthlyPerPerson": "Per persoon verbruik elkeen ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
-  "consumptionYearlyDetailedLevel2": "is normaal."
+  "consumptionYearlyDetailedLevel2": "is normaal.",
+  "counterExplainSeasonal": "Vir voorspellings word daar 'n onderskeid gemaak tussen seisoenale en nie-seisoenale meters. Afhangend hiervan word die voorspelling anders bereken.\n\nVerhitting, gas en olie word altyd as seisoenaal geklassifiseer. Nie-seisoenale meters is elektrisiteit en water.\n\nVir nie-seisoenale meters is die verbruik van die afgelope 90 dae deurslaggewend.\n\nVir seisoenale meters word vorige jare gemiddeld bereken (indien beskikbaar), met alle maande van vorige jare wat dieselfde tel. (Uitsondering: daar is nog geen data vir die maand van die vorige jaar nie, dan word die vorige gemiddelde gebruik)."
 }

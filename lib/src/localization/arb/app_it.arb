@@ -730,7 +730,6 @@
   "counterShowPreliminaryCurve": "Mostra curva preliminare",
   "seasonalCounter": "Contatore stagionale",
   "seasonalElectricityCounter": "Contatore elettrico stagionale",
-  "counterExplainSeasonal": "Impostare le letture del contatore a 0 durante l'estate? In inverno il profilo seguirà il tuo consumo; in estate rimarrà piatto.",
   "counterIsOutdated": "Il contatore è obsoleto",
   "counterLinkMoreRecent": "Collega contatore più recente",
   "counterReplacedBy": "Sostituito da",
@@ -906,5 +905,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Consumi{verbSuffix} circa lo stesso di una famiglia media di {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Consumi circa {dailyLiters} litri al giorno (≈ {monthlyCubicMeters} {unitName} al mese).",
   "consumptionWaterDailyMonthlyPerPerson": "Per persona, ognuno consuma circa {dailyLiters} litri al giorno (≈ {monthlyCubicMeters} {unitName} al mese).",
-  "consumptionYearlyDetailedLevel2": "è normale."
+  "consumptionYearlyDetailedLevel2": "è normale.",
+  "counterExplainSeasonal": "Per le previsioni, si fa una distinzione tra contatori stagionali e non stagionali. A seconda di questo, la previsione viene calcolata in modo diverso.\n\nRiscaldamento, gas, olio sono sempre classificati come stagionali. I contatori non stagionali sono l'elettricità (anche NT/HT) e l'acqua.\n\nPer i contatori non stagionali, il consumo degli ultimi 90 giorni è decisivo.\n\nPer i contatori stagionali, si prende la media degli anni precedenti (se disponibile), con tutti i mesi degli anni precedenti che contano allo stesso modo. (Eccezione: non ci sono ancora dati per il mese dell'anno precedente, allora si usa la media precedente)."
 }

@@ -730,7 +730,6 @@
   "counterShowPreliminaryCurve": "Показать предварительную кривую",
   "seasonalCounter": "Сезонный счетчик",
   "seasonalElectricityCounter": "Сезонный счетчик электроэнергии",
-  "counterExplainSeasonal": "Установить показания счетчика на 0 летом? Зимой профиль следует вашему потреблению; летом остается плоским.",
   "counterIsOutdated": "Счетчик устарел",
   "counterLinkMoreRecent": "Связать более новый счетчик",
   "counterReplacedBy": "Заменен на",
@@ -906,5 +905,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Вы потребляете{verbSuffix} примерно столько же, сколько среднее домохозяйство из {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Вы потребляете примерно {dailyLiters} литров в день (≈ {monthlyCubicMeters} {unitName} в месяц).",
   "consumptionWaterDailyMonthlyPerPerson": "В пересчёте на одного человека каждый потребляет примерно {dailyLiters} литров в день (≈ {monthlyCubicMeters} {unitName} в месяц).",
-  "consumptionYearlyDetailedLevel2": "нормальное."
+  "consumptionYearlyDetailedLevel2": "нормальное.",
+  "counterExplainSeasonal": "Для прогнозов различают сезонные и несезонные счетчики. В зависимости от этого прогноз рассчитывается по-разному.\n\nОтопление, газ, нефть всегда классифицируются как сезонные. Несезонные счетчики - это электричество (также NT/HT) и вода.\n\nДля несезонных счетчиков определяющим является потребление за последние 90 дней.\n\nДля сезонных счетчиков берется среднее значение за предыдущие годы (если имеется), при этом все месяцы предыдущих лет считаются одинаково. (Исключение: пока нет данных за месяц предыдущего года, тогда используется предыдущее среднее значение)."
 }

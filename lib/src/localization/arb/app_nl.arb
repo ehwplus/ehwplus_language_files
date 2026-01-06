@@ -1,804 +1,4 @@
 {
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "Object"
-      },
-      "monthlyCubicMeters": {
-        "type": "Object"
-      },
-      "unitName": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearly": {
-    "placeholders": {
-      "consumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "Object"
-      }
-    }
-  },
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "accountAbout": "Wat kan het EHW+-gebruikersaccount doen?",
   "accountBenefit1": "Betrouwbaardere aankoopherkenning",
   "accountBenefit2": "Toegang tot alle gekochte uitbreidingen op meerdere apparaten",
@@ -834,6 +34,9 @@
   "appBarExpandedMode": "App-balk met achtergrondafbeelding",
   "appDescriptionLong": "<p>Welkom bij <b>EHW+</b>, uw meterstand-app voor <b>E</b>lektriciteit, <b>V</b>erwarming en <b>W</b>ater. Met ons kunt u eenvoudig bijhouden hoeveel u verbruikt en wat het kost, gratis.</p>",
   "appDescriptionShort": "Goed voor de portemonnee, goed voor het klimaat",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
   "appName": "EHW+ | Verbruik & meterstanden",
   "appNameShort": "EHW+",
   "areYouSure": "Weet u het zeker?",
@@ -897,13 +100,48 @@
   "commonUpdateNow": "Nu bijwerken",
   "commonUserLogin": "Gebruikerslogin",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "U gebruikt het EHW+-account. {notSubmitted} van {total} gekochte producten konden niet worden opgeslagen op de EHW+-server. We hopen het probleem snel op te lossen.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Eén aankoop is gesynchroniseerd via het EHW+-account.} other {{count} aankopen zijn gesynchroniseerd via het EHW+-account.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {U gebruikt het EHW+-account. Als u in de toekomst producten koopt, worden deze gesynchroniseerd op al uw apparaten.} one {U gebruikt het EHW+-account. {count} gekocht product is opgeslagen op de EHW+-server.} other {U gebruikt het EHW+-account. {count} gekochte producten zijn opgeslagen op de EHW+-server.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionNotLoggedIn": "Gebruikt u de app op meerdere apparaten? Inloggen op uw EHW+-account stelt u in staat om uw instellingen en gekochte producten op al uw apparaten te synchroniseren.",
   "commonYear": "jaar",
   "commonYes": "ja",
   "completeButton": "Voltooien",
   "confirmDeleteAtCloud": "Moet \"{objectTitle}\" ook worden verwijderd van Google Drive?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
   "consent11AnalyticsTitle": "Analysedata",
   "consent12Analytics": "Om het succes van de app of individuele functies te evalueren, verzendt de app geanonimiseerde gebruiksstatistieken. De gegevens worden niet aan derden doorgegeven. De gegevens worden gebruikt voor de verdere ontwikkeling van de app.",
   "consent13StromGedacht": "StromGedacht, een dienst van TransnetBW, biedt informatie over netstabiliteit en aanbevelingen over wanneer elektriciteit bij voorkeur moet worden gebruikt. Omdat de energietransitie steeds uitdagender wordt voor het transmissienet, worden huishoudens in Zuidwest-Duitsland betrokken. Om informatie voor uw locatie te ontvangen, wordt uw postcode, indien hier in de app ingevoerd, overgedragen aan de TransnetBW StromGedacht API. Geen andere gegevens worden overgedragen of gekoppeld.",
@@ -927,35 +165,201 @@
   "consumptionHeatmap": "Verbruik Heatmap",
   "consumptionHeatmapYield": "Opbrengst Heatmap",
   "consumptionHeatpump": "Daarnaast bedraagt het stroomverbruik van de warmtepomp {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
   "consumptionIsNotExclusive": "Als het verbruik niet exclusief is voor deze activiteit, wordt dit als waarschuwing weergegeven.",
   "consumptionIsNotExclusiveTitle": "Is verbruik exclusief?",
   "consumptionPersonLabel": "{count, plural, one {persoon} other {personen}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "consumptionWaterColdEqual": "Koud water: ongeveer hetzelfde als het gemiddelde huishouden.",
   "consumptionWaterColdLess": "Koud water: {percentage} minder dan het gemiddelde huishouden.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterColdMore": "Koud water: {percentage} meer dan het gemiddelde huishouden.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthly": "ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthlyPerPerson": "Per persoon verbruikt iedereen ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
   "consumptionWaterDailyMonthlySingle": "U verbruikt ongeveer {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per maand).",
   "consumptionWaterOverallEqual": "Uw waterverbruik {ofRange} komt overeen met dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallLess": "Uw waterverbruik {ofRange} is {percentage} lager dan dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallMore": "Uw waterverbruik {ofRange} is {percentage} hoger dan dat van een gemiddeld huishouden met {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterPrefixPerPerson": "Per persoon verbruikt iedereen ",
   "consumptionWaterPrefixSingle": "U verbruikt ",
   "consumptionWaterRangeUnknown": "Uw waterverbruik {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmEqual": "Warm water: ongeveer hetzelfde als het gemiddelde huishouden.",
   "consumptionWaterWarmLess": "Warm water: {percentage} minder dan het gemiddelde huishouden.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmMore": "Warm water: {percentage} meer dan het gemiddelde huishouden.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearly": "Uw elektriciteitsverbruik {ofRange} is {consumption} kWh voor het jaar.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedAboutSame": "ongeveer hetzelfde als",
   "consumptionYearlyDetailedAverageHousehold": " een gemiddeld huishouden met {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedComparisonEqual": "U verbruikt{verbSuffix} ongeveer hetzelfde als een gemiddeld huishouden met {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "U verbruikt{verbSuffix} {percentage} minder dan een gemiddeld huishouden met {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "U verbruikt{verbSuffix} {percentage} meer dan een gemiddeld huishouden met {householdSize} {personLabel}.",
   "consumptionYearlyDetailedElectricity": "Uw elektriciteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
   "consumptionYearlyDetailedElectricityIntro": "Uw elektriciteitsverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) ",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedGas": "Uw gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) {consumptionLevel}.",
   "consumptionYearlyDetailedGasIntro": "Uw gasverbruik {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/jaar ≈ {monthlyConsumption} kWh/maand) ",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLessThan": "{percentage} minder dan",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLevel0": "is super laag.",
   "consumptionYearlyDetailedLevel1": "is echt indrukwekkend.",
   "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} ontbreekt voor optimaal verbruik.",
@@ -964,8 +368,22 @@
   "consumptionYearlyDetailedLevel3": "is relatief hoog.",
   "consumptionYearlyDetailedLevel4": "is normaal.",
   "consumptionYearlyDetailedMoreThan": "{percentage} meer dan",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedOptimalEnding": "Hoe doet u dat?",
   "consumptionYearlyDetailedYouConsume": "U verbruikt{verbSuffix} ",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYield": "Opbrengst",
   "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nContact\n\nTelefoon: 06204/7383382\nE-mail: info@ehwplus.com",
   "contactTitle": "Vertegenwoordigd door:",
@@ -1020,6 +438,16 @@
   "counterDirectionDescending": "aflopend",
   "counterDirectionExplanation": "Neemt de waarde af bij gebruik (niveau-indicator etc.) of neemt de waarde toe bij gebruik (branderuren, oliemeter etc.) of is elke afleeswaarde onafhankelijk (verbruik/opbrengst)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
   "counterDistrictHeating": "Stadsverwarming",
   "counterEdit": "Meter bewerken",
   "counterElectricity": "Elektriciteitsmeter",
@@ -1027,7 +455,6 @@
   "counterElectricityGenerated": "Elektriciteitsopwekmeter",
   "counterExclude": "Uitsluiten",
   "counterExcludedContracts": "Uitgesloten contracten",
-  "counterExplainSeasonal": "Meterstanden op 0 zetten tijdens de zomer? In de winter volgen de aflezingen uw normale verbruikspatroon; in de zomer blijven ze vlak.",
   "counterFactor": "Factor",
   "counterFactorDescription": "Wordt het verbruik alleen pro rata aan u toegerekend? Voer het aandeel in als een waarde tussen 0,1 (10%) en 1,0 (100%).",
   "counterFractionDigits": "Decimale cijfers",
@@ -1049,9 +476,26 @@
   "counterNoContractSelected": "Geen contract geselecteerd",
   "counterNoRoomConnection": "Geen kamerverbinding",
   "counterNum": "{count} meters",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "counterOilHeating": "Olieverwarming",
   "counterOtherContracts": "Andere contracten",
   "counterOutdatedAndNextReminder": "Meterstand verouderd sinds {date}, volgende aflezing herinnering {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
   "counterProportionateConsumption": "Evenredig verbruik",
   "counterPvFeedInCounter": "Hernieuwbare energie (zonne-energie en warmte met PV/zonnesystemen)",
   "counterPvFeedInCounterExplanation": "\nGebruik een elektriciteits terugleveringsmeter om de opgewekte en teruggeleverde elektriciteit\nmet een fotovoltaïsch systeem vast te leggen. De resulterende opbrengst wordt verrekend met de kosten van\nde getrokken elektriciteit.",
@@ -1079,6 +523,13 @@
   "csvImportWithFactor": "Moeten de meterstanden worden vermenigvuldigd met een factor die niet gelijk is aan 1.0? Om bijvoorbeeld waarden van Wh naar kWh om te zetten, moeten ze worden vermenigvuldigd met 0.001.",
   "currency": "Valuta",
   "deleteObjectError": "Kan dit object niet verwijderen (Code {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
   "detailWithMultiSelect": "Meervoudige selectie toestaan",
   "detailsTitle": "Details",
   "difference": "Verschil",
@@ -1087,13 +538,54 @@
   "driveSyncStatusComparing": "Vergelijken met bestand op server",
   "driveSyncStatusFailed": "Synchroniseren mislukt",
   "driveSyncStatusLocalHasLatestNoCloud": "Het bestand opgeslagen op dit apparaat van {localDate} is niet opgeslagen in de cloud",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusLocalHasLatestWithCloud": "Het bestand opgeslagen op dit apparaat van {localDate} is actueler dan het bestand in de cloud van {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusNotSynced": "Niet gesynchroniseerd",
   "driveSyncStatusRemoteHasLatestNoLocal": "Het bestand in de cloud van {cloudDate} is niet opgeslagen op dit apparaat",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusRemoteHasLatestWithLocal": "Het bestand in de cloud van {cloudDate} is actueler dan het lokale bestand van {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusSyncing": "Synchroniseren in uitvoering",
   "driveSyncStatusTitle": "Synchronisatiestatus",
   "driveSyncStatusUpToDate": "Bijgewerkt vanaf {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncWithGoogle": "Google Drive Synchronisatie",
   "editDetailTitle": "Detail bewerken",
   "electricity": "Elektriciteit",
@@ -1112,10 +604,33 @@
   "export": "Exporteren",
   "exportExplanation": "Welk bestaand object wilt u exporteren, bijvoorbeeld om het over te dragen naar een nieuw apparaat?",
   "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionConsumptionsSubtitle": "Een verbruikswaarde voor elke dag sinds de eerste aflezing.",
   "exportOptionConsumptionsTitle": "Dagelijks verbruik",
   "exportOptionExcel": "Excel-bestand",
   "exportOptionFileDescription": "Het object wordt gedeeld als een {fileType} bestand",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionPdf": "PDF-bestand",
   "exportOptionReadingsSubtitle": "Meestal meterstanden of verbruik met onregelmatige intervallen.",
   "exportOptionReadingsTitle": "Aflezingwaarden",
@@ -1144,6 +659,13 @@
   "generated": "Gegenereerd",
   "googleAnalyticsAgreement": "Ik ga akkoord met de overdracht van geanonimiseerde gegevens over het gebruik van de app aan EHW+ Services GmbH.",
   "googleApiAgreement": "Het gebruik en de overdracht van informatie die {appNameShort} ontvangt van Google API's aan andere apps, voldoet aan het Google API Services User Data Policy, inclusief de beperkte gebruiksvereisten.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "gross": "bruto",
   "grossNetPrices": "Bruto- of nettoprijs",
   "heatPump": "Warmtepomp",
@@ -1156,13 +678,37 @@
   "importConfirm": "Import bevestigen",
   "importCounterAsCsv": "Wilt u een enkele meter importeren? Per meter wordt een CSV-bestand met twee kolommen ondersteund, één voor de tijd en één voor de meterstand.\n\nVoorbeeldgegevens:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Alleen de eerste twee kolommen werden gebruikt. De derde kolom werd genegeerd.} other {Alleen de eerste twee kolommen werden gebruikt, {columns} kolommen werden genegeerd.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "importErrorCsvIgnoredLines": "{count, plural, one {Eén regel werd genegeerd: {lines}} other {{count} regels werden genegeerd: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
   "importExplanation": "Heeft u al meterstanden gemaakt en wilt u deze invoegen?",
   "importExport": "Back-up/Herstellen",
   "importNewOrExistingCounter": "Toevoegen aan nieuwe of bestaande meter?",
   "importNotPossible": "Import niet mogelijk",
   "importPickFile": "Bestand selecteren",
   "importSelectJson": "JSON-bestand (gemaakt met {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
   "importSelectSingleCounter": "Enkele meter (CSV-bestand)",
   "importSuccessful": "Import succesvol",
   "importTabErrorMessageFileWithExtensionNotSelected": "Een {extension} bestand is vereist om door te gaan met importeren.",
@@ -1198,6 +744,13 @@
   "meterReadingsFilterAll": "Alles tonen",
   "meterReadingsFilterComments": "Toon alleen vermeldingen met opmerkingen",
   "meterReadingsFilterSubmitted": "Toon alleen \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
   "myObjects": "Mijn objecten",
   "net": "netto",
   "networkCounter": "Internet & telefoon",
@@ -1210,11 +763,53 @@
   "notificationsEmpty": "Geen meldingen",
   "notificationsSmartMeterAlertFallback": "U heeft een nieuwe slimme meter melding.",
   "numCounters": "{count, plural, =0 {{count} meter} one {{count} meter} other {{count} meters}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "numMeterReadings": "{readings, plural, one {# aflezing} other {# aflezingen}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
   "numberOfDetails": "{count, plural, one {1 detail} other {{count} details}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeFrom": "van {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
   "ofRangeLastDays": "van de laatste {days} dagen",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeLastMonths": "voor de laatste {months} maanden",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "oil": "Olie",
   "outdated": "Verouderd",
   "outdatedContracts": "Verouderde contracten",
@@ -1223,6 +818,13 @@
   "parsingObjectError": "Het object kan niet worden geparseerd. Neem contact op met de ontwikkelaar. Bij het verwijderen van de app kunnen de gegevens verloren gaan.",
   "per": "per",
   "perUnit": "per {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "period": "Periode",
   "periodBimonthly": "tweemaandelijks",
   "periodBiweekly": "tweewekelijks",
@@ -1236,8 +838,38 @@
   "periodYearly": "jaarlijks",
   "previouslyDeletedCounters": "Onlangs verwijderde meters",
   "priceComparisonDiff": "U betaalt {diffWithCurrency} {comparison, select, more {meer dan} less {minder dan} other {meer dan}} het gemiddelde in {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonEqual": "U betaalt ongeveer evenveel als het gemiddelde in {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonNotEnoughData": "Nog niet genoeg vergelijkingsgegevens voor de locatie {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "pricePerUnit": "Prijs per eenheid",
   "pricePerUnitFeedIn": "Vergoedingsprijs",
   "pricePerUnitFreshWater": "Kosten voor zoet water",
@@ -1246,14 +878,49 @@
   "pricePerUnitWaterWarm": "Kosten voor warmwaterverwarming",
   "priceSubmissionAgreement": "Ik ga akkoord met de overdracht van elektriciteit/gas/water prijzen per eenheid naar een EHW+-server",
   "privacyBlock1Text": "De ontwikkelaar/aanbieder van de applicatie (hierna te noemen \"app\") is, in overeenstemming met Sectie 5 van de Duitse Telemediawet (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock1Text2": "Gebruik van de app vereist dat u akkoord gaat met de volgende gebruiksvoorwaarden. Lees deze zorgvuldig door.",
   "privacyBlock1Title": "Ontwikkelaar",
   "privacyBlock2Text": "De bescherming van uw gegevens is erg belangrijk voor ons. Dit privacybeleid legt uit welke persoonlijke gegevens EHW+ verzamelt en hoe deze worden gebruikt. Fundamentele wijzigingen in het privacybeleid zijn zeldzaam, maar het kan van tijd tot tijd worden herzien vanwege nieuwe functies, technologieën of wettelijke vereisten. Controleer deze pagina dus van tijd tot tijd om op de hoogte te blijven. Als we belangrijke wijzigingen aanbrengen, zullen we u hiervan op de hoogte stellen en, indien nodig, uw toestemming verkrijgen.",
   "privacyBlock2Title": "Algemeen",
   "privacyBlock3Title": "Welke gegevens verzamelt {appNameShort}?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3aText": "We hebben {appNameShort} gemaakt zodat u snel en eenvoudig meterstanden kunt invoeren en vervolgens via statistieken meer kunt ontdekken over uw verbruik, de kosten en besparingsmogelijkheden. Dit betekent dat u willekeurige gegevens, die wij algemeen als \"inhoud\" aanduiden, in {appNameShort} kunt invoeren, berekenen of opslaan. Deze gegevens worden alleen op uw telefoon opgeslagen.\n\nSynchronisatie met Google Drive.\nAls u de synchronisatie met Google Drive activeert, worden de inhoud automatisch in het alleen voor u toegankelijke Google Drive-opslagruimte daarnaast opgeslagen in een map \"{appNameShort}\". Door in te loggen met Google wordt uw e-mailadres zichtbaar voor de ontwikkelaar.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nLocatiegegevens.\nOm het gebruikersgedrag te begrijpen en voor toekomstige functies verzendt de app geanonimiseerde gebruiksgegevens.\nDe gegevens worden niet gedeeld met derden.\nEr kan informatie worden verzameld over herkomst (land en stad), taal, besturingssysteem, apparaattype, resolutie, klikgedrag en gebruiksduur.\n\nApparaatgegevens.\nWe verzamelen gegevens over het aantal en het type apparaten dat u gebruikt om verbinding te maken met de dienst, evenals informatie over het besturingssysteem op die apparaten (bijvoorbeeld Android, iOS, Windows of macOS).\n\nDoor de app te gebruiken, geeft u toestemming voor het verzamelen van geanonimiseerde gegevens zoals hierboven beschreven.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsage": "\nVerzamelde geanonimiseerde gegevens worden gebruikt voor de evaluatie van gebruikersgedrag. Daarnaast is er geen gegevensgebruik.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsageTitle": "Hoe gebruikt {appNameShort} mijn gegevens?",
   "privacyBlock5": "De duur van de opslag van persoonlijke gegevens wordt bepaald op basis van de respectieve wettelijke bewaartermijn (bijv. handels- en belastingrechtelijke bewaartermijnen). Na het verstrijken van de termijn worden de betreffende gegevens routinematig verwijderd, tenzij ze niet meer nodig zijn voor contractuitvoering of contractsluiting en/of er aan onze kant geen gerechtvaardigd belang meer bestaat voor verdere opslag.",
   "privacyBlock5Title": "Duur van opslag van persoonlijke gegevens",
@@ -1284,13 +951,57 @@
   "purchasesPurchasedSubscribed": "Geabonneerd",
   "purchasesRedeemCode": "Code inwisselen",
   "purchasesStatisticsWithPremium": "Met Premium krijgt u toegang tot een maandelijkse vergelijking{count, plural, =0{.}=1{.}other{ en ziet u ook historische gegevens voor {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribeNow": "Abonneer je nu",
   "purchasesSubscribePremium": "Abonneer Premium",
   "purchasesSubscribePremiumMonthly": "Maandelijks opzegbaar abonnement voor slechts {price} per maand",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Maandelijks opzegbaar abonnement tegen de loyaliteitsprijs van {price} per maand in plaats van {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumTextLong": "Toegang tot alle betaalde functies gedurende de abonnementsperiode + buitentemperaturen",
   "purchasesSubscribePremiumYearly": "Jaarlijks opzegbaar abonnement voor slechts {price} per jaar",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Jaarlijks opzegbaar abonnement tegen de loyaliteitsprijs van {price} per jaar in plaats van {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesUpgrade": "Upgraden",
   "purchasesWebLegalNote": "Om juridische redenen is een aankoop alleen mogelijk voor een iPhone of Android-telefoon met PlayStore-diensten.",
   "purchasesWhyBuyText": "Met een aankoop draagt u bij aan de kosten die ik maak door de app te publiceren en ondersteunt u de verdere ontwikkeling.",
@@ -1306,9 +1017,31 @@
   "readingPrefillDisabledToast": "Automatisch invullen uitgeschakeld",
   "readingPrefillEnableForAllCounters": "Automatisch invullen inschakelen voor alle meters",
   "readingReminder": "{count, plural, one {Aflezingherinnering} other {Aflezingherinneringen}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "readingReminderDisabled": "Aflezingherinnering niet actief",
   "readingReminderMultiBody": "{count, plural, one {Lees nu de aflezingen van {count} meter} other {Lees nu de aflezingen van {count} meters}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "readingReminderSingleBody": "Lees nu de {counterName} waarde",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
   "readingReminders": "Aflezingherinneringen",
   "readingRemindersChannel": "Aflezingherinneringen",
   "readingSubmitted": "Meterstand ingediend",
@@ -1345,6 +1078,13 @@
   "roomName": "Kamernaam",
   "roomNameHint": "Optioneel een kamernaam toewijzen",
   "roomNamePart": "in de {roomName} ",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
   "roomNew": "Nieuwe kamer",
   "roomOffice": "Kantoor",
   "roomOther": "Anders",
@@ -1421,6 +1161,16 @@
   "consumptionCacheToggleButtonTitle": "Verbruikscache gebruiken",
   "consumptionCacheToggleButtonDescription": "Bereken verbruik in cache en hergebruik indien nodig",
   "smartmeterInfocodeBannerText": "Slimme meter {smartmeterId} heeft infocode ontvangen: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "De temperatuur van uw watermeter {smartmeterId} is onder 3°C gedaald. Er is een risico op vorst! Isoleer de meter en de leidingen of verwarm het gebied om schade te voorkomen.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Uw watermeter {smartmeterId} heeft een continue waterstroom gedetecteerd. Dit kan wijzen op een lek. Controleer uw huishoudelijke installatie op lekkages. Toiletten en druppelende kranen zijn veelvoorkomende oorzaken.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Uw watermeter {smartmeterId} heeft ongebruikelijk hoog waterverbruik gedetecteerd, wat kan wijzen op een leidingbreuk. Controleer uw huishoudelijke installatie op grote lekkages of breuken. Het alarm kan ook verschijnen als u een grote hoeveelheid water heeft gebruikt, bijvoorbeeld voor het vullen van een zwembad.",
@@ -1445,6 +1195,13 @@
   "supportGivePraise": "Geef lof",
   "supportGivePraiseLong": "Vindt u de app leuk? Bedankt! Verspreid het nieuws!",
   "supportGivePraiseRating": "Beoordeel de app in {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
   "supportGivePraiseRecommendation": "Beveel de app aan bij vrienden en familie. Bedankt voor elke aanbeveling!",
   "supportMakeSuggestion": "Stel iets voor",
   "supportMakeSuggestionLong": "De app leeft van gebruikerssuggesties. Heeft u een suggestie?",
@@ -1482,12 +1239,40 @@
   "teaserPurchaseVirtualCounter": "Voeg virtuele meters toe met Premium.",
   "teaserPurchaseWaterExtractionCounter": "Ontgrendel wateronttrekkingsmeters met Premium.",
   "termsOfUsageBlock1": "Bezwaarrecht",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock1Title": "Algemene gebruiksvoorwaarden voor het gebruik van de app",
   "termsOfUsageBlock2": "De app en zijn functies mogen niet op misbruikende wijze worden gebruikt. Gebruik de app alleen binnen het wettelijk toegestane kader en in overeenstemming met onze gebruiksvoorwaarden. In geval van schending van toepasselijk Duits recht of onze gebruiksvoorwaarden, behoudt de aanbieder zich het recht voor om u uit te sluiten van het gebruik van de app.",
   "termsOfUsageBlock2Title": "Algemene informatie over gebruik",
   "termsOfUsageBlock2a": "Geanonimiseerde gebruiksgegevens\nWe gebruiken onze eigen analyses om de app voortdurend te verbeteren.\nEr worden alleen geanonimiseerde gegevens verzonden.\nDe gegevens worden niet doorgegeven aan derden.\nGa voor meer informatie naar Instellingen > Privacy > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2b": "Foutrapporten\nSentry (zelf gehost) wordt gebruikt om de app voortdurend te verbeteren.\nFoutmeldingen worden niet verwerkt, noch gedeeld met derden.\nGa voor meer informatie naar Instellingen > Privacy > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2c": "Persoonlijke gegevens\nAls u de Google Drive-synchronisatie gebruikt, heeft EHW+ nog steeds geen toegang tot de door u ingevoerde gegevens. Meer informatie hierover vindt u onder Instellingen > Privacy > {privacyBlock3Title}",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock3": "De aanbieder neemt geen garanties aan met betrekking tot beschikbaarheid, betrouwbaarheid, functionaliteit of geschiktheid van de app voor uw doeleinden. Aansprakelijkheid is uitgesloten, voor zover niet krachtens de productaansprakelijkheidswet, wegens opzet, grove nalatigheid, wegens schending van leven, lichaam of gezondheid, wegens het aangaan van een kwaliteitsgarantie, wegens arglistig verzwijgen van een gebrek of wegens schending van essentiële contractuele verplichtingen verplicht wordt geaansprakelijk gesteld. Essentiële contractuele verplichtingen zijn die verplichtingen waarvan de vervulling de juiste uitvoering van een contract überhaupt mogelijk maakt en waarvan de contractpartijen regelmatig mogen vertrouwen op naleving. De schadevergoeding wegens schending van essentiële contractuele verplichtingen is beperkt tot de contracttypische, voorzienbare schade, tenzij opzet of grove nalatigheid aanwezig is.",
   "termsOfUsageBlock3Title": "Aansprakelijkheid",
   "termsOfUsageBlock4": "De aanbieder neemt geen garantie voor de juistheid van de berekeningsresultaten. Gebruikers worden verzocht de in de applicatie opgeslagen prijzen (basisprijzen, verbruiksprijzen, enz.) zelfstandig en zorgvuldig bij te werken om een overeenstemming tussen de gemaakte facturen en de werkelijke vorderingsbedragen te waarborgen.",
@@ -1572,22 +1357,57 @@
   "timeDayAgo": "een dag geleden",
   "timeDays": "dagen",
   "timeDaysAgo": "{days} dagen geleden",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "timeDaysWithin": "dagen",
   "timeForFirstYear": "voor het eerste jaar",
   "timeFriday": "vrijdag",
   "timeFromDate": "Van {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeFromUndefined": "Ongedefinieerd",
   "timeHours": "uren",
   "timeHoursAgo": "{hours} uren geleden",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "timeInFuture": "In de toekomst",
   "timeJustNow": "zojuist",
   "timeLastUpdated": "laatst bijgewerkt",
   "timeMinutes": "minuten",
   "timeMinutesAgo": "{minutes} minuten geleden",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonday": "maandag",
   "timeMonth": "maand",
   "timeMonths": "maanden",
   "timeMonthsAgo": "{months} maanden geleden",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonthsWithin": "maanden",
   "timePeriodYearStart": "jaarlijks",
   "timeReminderAtEnd": "Bij einde",
@@ -1600,50 +1420,158 @@
   "timeToday": "vandaag",
   "timeTuesday": "dinsdag",
   "timeUntilDate": "Tot {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeUntilUnlimited": "Onbeperkt",
   "timeWednesday": "woensdag",
   "timeWeek": "week",
   "timeWeeks": "weken",
   "timeWithin": "Binnen {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
   "timeYesterday": "gisteren",
   "unitCm": "cm",
   "unitCmLong": "cm",
   "unitCmShort": "cm",
   "unitCubicMetersLong": "{count, plural, one {Kubieke meter (m³)} other {Kubieke meters (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitCubicMetersShort": "m³",
   "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {Uur} other {Uren (u)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitHoursShort": "h",
   "unitKWhLong": "{count, plural, one {Kilowattuur (kWh)} other {Kilowattuur (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKWhShort": "kWh",
   "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKgShort": "kg",
   "unitLiters": "liter",
   "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Megawattuur (MWh)} other {Megawattuur (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitMWhShort": "MWh",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "geen",
   "unitNoneFormatted": "{count, plural, one {eenheid} other {eenheden}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitPercentLong": "Procent (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "sqm",
   "unitSquareMetersLong": "{count, plural, one {Vierkante meter (m²)} other {Vierkante meters (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitSquareMetersShort": "m²",
   "updateAvailable": "De app-versie {oldVersion} is niet up-to-date. U kunt updaten naar versie {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
   "updateObjectName": "Wijzig objectnamen",
   "upgradeDescription": "De app kan meer. Beter kostenoverzicht, meer statistieken, Excel-export, meer meters, ...",
   "useDismissibleSettings": "Verwijderen door veeggebaar",
   "useDismissibleSettingsDetailed": "Meters, contracten, enz. kunnen worden verwijderd met een zijwaartse veegbeweging",
   "usedForPaymentsRepayments": "Voorschot, basisprijs en bonus",
   "valueLess": "{value} minder",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "valueMore": "{value} meer",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "versionIsUpToDate": "De nieuwste app-versie die voor alle gebruikers is uitgebracht, is {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "virtualCounter": "Virtuele meter",
   "virtualCounterMasterCounter": "Hoofdmeter",
   "virtualCounterMasterCounterAttach": "Hoofdmeter selecteren",
@@ -1657,11 +1585,61 @@
   "warning": "Waarschuwing",
   "warningCounterReplacementDetected": "De nieuwe waarde is lager dan de vorige meterstand. Is de meter vervangen?",
   "warningNextReminderText": "De volgende herinnering is {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningOutdatedSinceText": "sinds {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValue": "De nieuwe waarde is hoger dan de vorige meterstand.{isOilCounter, select, true { Heeft u de tank bijgevuld?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValueOilVolume": "De nieuwe waarde is hoger dan de vorige meterstand. Heeft u de tank bijgevuld?",
   "warningReadingOutdatedForYearlyResetCounter": "De laatste meterstand voor het jaar {lastYear} voor de {deviceTypeName} {roomNamePart} ontbreekt. Dit is nodig voor een correcte berekening van het totale jaarlijkse verbruik.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingOutdatedFrequency": "De laatste meterstand voor de {deviceTypeName} {roomNamePart} is verouderd {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingSeemsTooBig": "De nieuwe waarde is vrij hoog. Is de meting correct uitgevoerd?",
   "warningReadingSeemsTooSmall": "De nieuwe waarde is vrij laag. Is deze correct afgelezen?",
   "warningReadingSmallerThanOldValue2": "De nieuwe waarde is lager dan de vorige meterstand. Is de meting correct uitgevoerd?",
@@ -1670,6 +1648,18 @@
   "waterConsumption": "Waterverbruik",
   "waterExtractionMinimumLevelLower": "Aftrek vindt plaats omdat het verbruik lager is dan de drempel.",
   "waterMeterEventsInformation": "{count, plural, =1 {Uw draadloze watermeter {waterSupplier} detecteert onverwacht verbruik. Indien gewenst ontvangt u in zo'n geval een melding.} other {Uw draadloze watermeters {waterSupplier} detecteren onverwacht verbruik. Indien gewenst ontvangt u in dergelijke gevallen een melding.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
   "watersupplierAccessRequestQ1": "Bent u eigenaar van een eigendom in het verzorgingsgebied van het waterbedrijf en wilt u toegang tot radiometerstanden?",
   "watersupplierAccessRequestQ2": "Heeft u al toegang aangevraagd? Vervolgens moet u een EHW+-gebruikersaccount aanmaken.",
   "watersupplierAccessRequestQ3": "Heeft u al toegang aangevraagd en uw QR-code ontvangen?",
@@ -1706,5 +1696,15 @@
   "youtubeConsent3": "Ik ga akkoord dat externe inhoud aan mij wordt weergegeven. Dit kan ertoe leiden dat persoonlijke gegevens worden verzonden naar platforms van derden. Meer hierover in onze ",
   "zipCode": "postcode",
   "zipCodeValidationLength": "Voer een {digits}-cijferige postcode in",
-  "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers"
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers",
+  "counterExplainSeasonal": "Voor prognoses wordt een onderscheid gemaakt tussen seizoensgebonden en niet-seizoensgebonden meters. Afhankelijk hiervan wordt de prognose anders berekend.\n\nAltijd als seizoensgebonden worden aangemerkt: verwarming, gas, olie. Niet-seizoensgebonden meters zijn elektriciteit en water.\n\nVoor niet-seizoensgebonden meters is het verbruik van de afgelopen 90 dagen bepalend.\n\nVoor seizoensgebonden meters wordt het gemiddelde genomen van voorgaande jaren (indien beschikbaar), waarbij alle maanden van voorgaande jaren even zwaar meetellen. (Uitzondering: als er nog geen gegevens beschikbaar zijn voor de maand van het voorgaande jaar, wordt het gemiddelde van voorgaande jaren gebruikt)."
 }

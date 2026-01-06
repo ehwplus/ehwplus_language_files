@@ -731,7 +731,6 @@
   "counterShowPreliminaryCurve": "Afficher la courbe préliminaire",
   "seasonalCounter": "Compteur saisonnier",
   "seasonalElectricityCounter": "Compteur d'électricité saisonnier",
-  "counterExplainSeasonal": "Mettre les relevés du compteur à 0 en été ? En hiver, le profil suit votre consommation ; en été, il reste plat.",
   "counterIsOutdated": "Le compteur est obsolète",
   "counterLinkMoreRecent": "Lier un compteur plus récent",
   "counterReplacedBy": "Remplacé par",
@@ -906,5 +905,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Vous consommez{verbSuffix} à peu près autant que la consommation d'un ménage moyen de {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Vous consommez environ {dailyLiters} litres par jour (≈ {monthlyCubicMeters} {unitName} par mois).",
   "consumptionWaterDailyMonthlyPerPerson": "Par personne, chacun consomme environ {dailyLiters} litres par jour (≈ {monthlyCubicMeters} {unitName} par mois).",
-  "consumptionYearlyDetailedLevel2": "est normale."
+  "consumptionYearlyDetailedLevel2": "est normale.",
+  "counterExplainSeasonal": "Pour les prévisions, on fait la distinction entre les compteurs saisonniers et les compteurs non saisonniers. En fonction de ces derniers, les prévisions sont calculées différemment.\n\nLe chauffage, le gaz et le fioul sont toujours considérés comme saisonniers. Les compteurs non saisonniers sont l'électricité (également BT/HT) et l'eau.\n\nPour les compteurs non saisonniers, c'est la consommation des 90 derniers jours qui est déterminante.\n\nPour les compteurs saisonniers, la moyenne des années précédentes est calculée (si elle existe), tous les mois des années précédentes comptant pour le même montant. (Exception : il n'y a pas encore de données pour le mois de l'année précédente, la moyenne précédente est alors utilisée)."
 }

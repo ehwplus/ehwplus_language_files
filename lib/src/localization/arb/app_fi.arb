@@ -759,7 +759,6 @@
   "counterShowPreliminaryCurve": "Näytä alustava käyrä",
   "seasonalCounter": "Kausilaskurin",
   "seasonalElectricityCounter": "Kausi sähkölaskuri",
-  "counterExplainSeasonal": "Asetetaanko mittarin lukemat nollaan kesän aikana?Talvella lukemat noudattavat normaalia kulutusta;kesällä ne pysyvät tasaisina.",
   "counterIsOutdated": "Laskuri on vanhentunut",
   "counterLinkMoreRecent": "Linkki uudempi laskuri",
   "counterReplacedBy": "Korvattu",
@@ -934,5 +933,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Kulutat{verbSuffix} suunnilleen sama kuin keskimääräinen kotitalous, jossa on {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Kulutat noin {dailyLiters} litraa päivässä (≈ {monthlyCubicMeters} {unitName} kuukaudessa).",
   "consumptionWaterDailyMonthlyPerPerson": "Per henkilö, kaikki kuluttavat noin {dailyLiters} litraa päivässä (≈ {monthlyCubicMeters} {unitName} kuukaudessa).",
-  "consumptionYearlyDetailedLevel2": "on normaalia."
+  "consumptionYearlyDetailedLevel2": "on normaalia.",
+  "counterExplainSeasonal": "Ennusteissa erotetaan toisistaan kausiluonteiset ja ei-kausiluonteiset mittarit. Ennuste lasketaan tämän perusteella eri tavalla.\n\nKausiluonteisiksi luokitellaan aina lämmitys, kaasu ja öljy. Ei-kausiluonteisia mittareita ovat sähkö ja vesi.\n\nEi-kausiluonteisten mittareiden osalta ratkaisevaa on viimeisten 90 päivän kulutus.\n\nKausiluonteisten mittareiden osalta lasketaan edellisten vuosien keskiarvo (jos saatavilla), jolloin kaikki edellisten vuosien kuukaudet lasketaan samalla tavalla. (Poikkeus: jos edellisen vuoden kuukaudesta ei ole vielä tietoja, käytetään edellisen keskiarvoa)."
 }

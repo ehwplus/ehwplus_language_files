@@ -759,7 +759,6 @@
   "counterShowPreliminaryCurve": "प्रारंभिक वक्र दिखाएँ",
   "seasonalCounter": "मौसमी काउंटर",
   "seasonalElectricityCounter": "मौसमी बिजली काउंटर",
-  "counterExplainSeasonal": "गर्मी के दौरान मीटर रीडिंग को 0 पर सेट करें?सर्दियों में, रीडिंग आपके सामान्य उपभोग पैटर्न का पालन करेगी;गर्मियों में, वे सपाट रहेंगे।",
   "counterIsOutdated": "काउंटर पुराना हो चुका है",
   "counterLinkMoreRecent": "अधिक नवीनतम काउंटर लिंक करें",
   "counterReplacedBy": "द्वारा प्रतिस्थापित",
@@ -934,5 +933,6 @@
   "consumptionYearlyDetailedComparisonEqual": "आप उपभोग करते हैं{verbSuffix} लगभग उसी के समान {householdSize} {personLabel} वाला एक औसत परिवार.",
   "consumptionWaterDailyMonthlySingle": "आप उपभोग करें लगभग {dailyLiters} किलो प्रति दिन (≈ {monthlyCubicMeters} {unitName} प्रति माह)।",
   "consumptionWaterDailyMonthlyPerPerson": "प्रति व्यक्ति, हर कोई उपभोग करता है लगभग {dailyLiters} किलो प्रति दिन (≈ {monthlyCubicMeters} {unitName} प्रति माह)।",
-  "consumptionYearlyDetailedLevel2": "सामान्य है."
+  "consumptionYearlyDetailedLevel2": "सामान्य है.",
+  "counterExplainSeasonal": "पूर्वानुमानों के लिए, मौसमी और गैर-मौसमी मीटरों के बीच अंतर किया जाता है। इसके आधार पर, पूर्वानुमान की गणना अलग-अलग तरीके से की जाती है।\n\nहीटिंग, गैस, तेल को हमेशा मौसमी के रूप में वर्गीकृत किया जाता है। गैर-मौसमी मीटर बिजली और पानी हैं।\n\nगैर-मौसमी मीटर के लिए, पिछले 90 दिनों की खपत निर्णायक होती है।\n\nमौसमी मीटर के लिए, पिछले वर्षों का औसत निकाला जाता है (यदि उपलब्ध हो), जिसमें पिछले वर्षों के सभी महीनों को समान रूप से गिना जाता है। (अपवाद: यदि पिछले वर्ष के महीने का अभी तक कोई डेटा नहीं है, तो पिछला औसत उपयोग किया जाता है)।"
 }

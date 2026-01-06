@@ -82,12 +82,25 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         final controller = _controllers[doc.locale];
         final newValue = controller?.text ?? '';
 
-        final shouldClear = _clearOtherLocales && !changedLocales.contains(doc.locale);
-        final targetValue = shouldClear ? '' : newValue;
+        final isChanged = changedLocales.contains(doc.locale);
+        if (_clearOtherLocales) {
+          final shouldClear = _clearOtherLocales && !changedLocales.contains(doc.locale);
+          final targetValue = shouldClear ? '' : newValue;
 
-        final existing = updatedEntries[widget.record.key];
-        updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: targetValue))
-            .copyWith(value: targetValue);
+          final existing = updatedEntries[widget.record.key];
+          updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: targetValue))
+              .copyWith(value: targetValue);
+        } else {
+          if (isChanged) {
+            if (newValue.trim().isEmpty) {
+              updatedEntries.remove(widget.record.key);
+            } else {
+              final existing = updatedEntries[widget.record.key];
+              updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: newValue))
+                  .copyWith(value: newValue);
+            }
+          }
+        }
 
         final updatedDoc = doc.copyWith(entries: updatedEntries);
         await widget.repository.saveDocument(updatedDoc);

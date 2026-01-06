@@ -1,805 +1,5 @@
 {
   "@@locale": "vi",
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "Object"
-      },
-      "monthlyCubicMeters": {
-        "type": "Object"
-      },
-      "unitName": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearly": {
-    "placeholders": {
-      "consumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "Object"
-      }
-    }
-  },
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "accountAbout": "Tài khoản người dùng EHW+ có thể làm gì?",
   "accountBenefit1": "Nhận dạng mua hàng đáng tin cậy hơn",
   "accountBenefit2": "Truy cập vào tất cả các tiện ích mở rộng đã mua trên nhiều thiết bị",
@@ -835,6 +35,9 @@
   "appBarExpandedMode": "Thanh ứng dụng có hình nền",
   "appDescriptionLong": "<p>Chào mừng bạn đến với <b>EHW+</b>, ứng dụng đọc đồng hồ của bạn cho <b>E</b>lectricity, <b>H</b>eating và <b>W</b>ater. Với chúng tôi, bạn có thể dễ dàng theo dõi<b> <b>0bạn sử dụng bao nhiêu và bao nhiêu<b>1<b>2chi phí<b>3 miễn phí.<b>4",
   "appDescriptionShort": "Tốt cho ví tiền, tốt cho khí hậu",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
   "appName": "EHW+ | Tiêu thụ và chỉ số đồng hồ",
   "appNameShort": "EHW+",
   "areYouSure": "Bạn có chắc không?",
@@ -898,13 +101,48 @@
   "commonUpdateNow": "Cập nhật ngay bây giờ",
   "commonUserLogin": "Đăng nhập người dùng",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Bạn đang sử dụng tài khoản EHW+. Không thể lưu {notSubmitted} trong số {total} sản phẩm đã mua trên máy chủ EHW+. Chúng tôi hy vọng sẽ sớm khắc phục được sự cố.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Một giao dịch mua đã được đồng bộ hóa qua tài khoản EHW+.} other {Các giao dịch mua {count} đã được đồng bộ hóa qua tài khoản EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Bạn đang sử dụng tài khoản EHW+. Nếu bạn mua sản phẩm trong tương lai, chúng sẽ được đồng bộ hóa trên tất cả các thiết bị của bạn.} one {Bạn đang sử dụng tài khoản EHW+. Sản phẩm mua {count} đã được lưu trên máy chủ EHW+.} other {Bạn đang sử dụng tài khoản EHW+. {count} sản phẩm đã mua đã được lưu trên máy chủ EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionNotLoggedIn": "Bạn có đang sử dụng ứng dụng trên nhiều thiết bị không? Đăng nhập vào tài khoản EHW+ cho phép bạn đồng bộ hóa cài đặt và sản phẩm đã mua trên tất cả các thiết bị của mình.",
   "commonYear": "năm",
   "commonYes": "Đúng",
   "completeButton": "Hoàn thành",
   "confirmDeleteAtCloud": "Có nên xóa \"{objectTitle}\" khỏi Google Drive không?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
   "consent11AnalyticsTitle": "Dữ liệu phân tích",
   "consent12Analytics": "Để đánh giá sự thành công của ứng dụng hoặc các chức năng riêng lẻ, ứng dụng sẽ truyền số liệu thống kê sử dụng ẩn danh. Dữ liệu không được truyền cho bên thứ ba. Dữ liệu được sử dụng để phát triển hơn nữa của ứng dụng.",
   "consent13StromGedacht": "StromGedacht, một dịch vụ do TransnetBW cung cấp, cung cấp thông tin về độ ổn định của lưới điện và các khuyến nghị về thời điểm nên ưu tiên sử dụng điện. Khi quá trình chuyển đổi năng lượng ngày càng trở nên khó khăn hơn đối với lưới điện truyền tải, các hộ gia đình ở Tây Nam nước Đức đang tham gia. Để nhận thông tin về vị trí của bạn, mã bưu chính của bạn, nếu được nhập vào đây trong ứng dụng, sẽ được truyền tới API TransnetBW StromGedacht. Không có dữ liệu nào khác được truyền đi hoặc liên kết.",
@@ -928,35 +166,201 @@
   "consumptionHeatmap": "Bản đồ nhiệt tiêu thụ",
   "consumptionHeatmapYield": "Bản đồ nhiệt năng suất",
   "consumptionHeatpump": "Ngoài ra, mức tiêu thụ điện năng của bơm nhiệt lên tới {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
   "consumptionIsNotExclusive": "Nếu mức tiêu thụ không dành riêng cho hoạt động này, nó sẽ được hiển thị dưới dạng cảnh báo.",
   "consumptionIsNotExclusiveTitle": "Tiêu dùng có độc quyền không?",
   "consumptionPersonLabel": "{count, plural, one {người} other {mọi người}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "consumptionWaterColdEqual": "Nước lạnh: tương đương với mức bình thường của một hộ gia đình.",
   "consumptionWaterColdLess": "Nước lạnh: {percentage} ít hơn mức trung bình của một hộ gia đình.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterColdMore": "Nước lạnh: {percentage} nhiều hơn mức trung bình của một hộ gia đình.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthly": "khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthlyPerPerson": "Mỗi người, mọi người tiêu dùng khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
   "consumptionWaterDailyMonthlySingle": "Bạn tiêu thụ khoảng {dailyLiters} lít mỗi ngày (≈ {monthlyCubicMeters} {unitName} mỗi tháng).",
   "consumptionWaterOverallEqual": "Mức tiêu thụ nước {ofRange} của bạn phù hợp với mức tiêu thụ nước của một hộ gia đình trung bình với {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallLess": "Mức tiêu thụ nước {ofRange} của bạn thấp hơn {percentage} so với mức tiêu thụ nước trung bình của một hộ gia đình có {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallMore": "Mức tiêu thụ nước {ofRange} của bạn cao hơn {percentage} so với mức tiêu thụ nước trung bình của một hộ gia đình có {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterPrefixPerPerson": "Mỗi người, mọi người tiêu dùng",
   "consumptionWaterPrefixSingle": "Bạn tiêu thụ",
   "consumptionWaterRangeUnknown": "Mức tiêu thụ nước của bạn {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmEqual": "Nước nóng: tương đương với mức bình thường của một hộ gia đình.",
   "consumptionWaterWarmLess": "Nước nóng: {percentage} ít hơn mức trung bình của một hộ gia đình.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmMore": "Nước nóng: {percentage} nhiều hơn mức trung bình của một hộ gia đình.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearly": "Mức tiêu thụ điện {ofRange} của bạn là {consumption} kWh trong năm.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedAboutSame": "về giống như",
   "consumptionYearlyDetailedAverageHousehold": "một hộ gia đình trung bình có {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedComparisonEqual": "Bạn tiêu thụ{verbSuffix} về giống như một hộ gia đình trung bình có {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "Bạn tiêu thụ{verbSuffix} {percentage} ít hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "Bạn tiêu thụ{verbSuffix} {percentage} hơn một hộ gia đình trung bình có {householdSize} {personLabel}.",
   "consumptionYearlyDetailedElectricity": "Mức tiêu thụ điện của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
   "consumptionYearlyDetailedElectricityIntro": "Mức tiêu thụ điện của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedGas": "Mức tiêu thụ khí đốt của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng) {consumptionLevel}.",
   "consumptionYearlyDetailedGasIntro": "Mức tiêu thụ khí đốt của bạn {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/năm ≈ {monthlyConsumption} kWh/tháng)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLessThan": "{percentage} ít hơn",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLevel0": "là siêu thấp.",
   "consumptionYearlyDetailedLevel1": "thực sự là một cái gì đó đáng chú ý.",
   "consumptionYearlyDetailedLevel1Suffix": "Thiếu {nextToOptimal} để tiêu thụ tối ưu.",
@@ -965,8 +369,22 @@
   "consumptionYearlyDetailedLevel3": "là tương đối cao.",
   "consumptionYearlyDetailedLevel4": "là bình thường.",
   "consumptionYearlyDetailedMoreThan": "{percentage} hơn",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedOptimalEnding": "Bạn đang làm việc đó như thế nào?",
   "consumptionYearlyDetailedYouConsume": "Bạn tiêu thụ{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYield": "Năng suất",
   "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nLiên hệ\n\nĐiện thoại: 06204/7383382\nThư: info@ewplus.com",
   "contactTitle": "Đại diện bởi:",
@@ -1021,6 +439,16 @@
   "counterDirectionDescending": "giảm dần",
   "counterDirectionExplanation": "Giá trị có giảm khi sử dụng (chỉ báo mức, v.v.) hay giá trị tăng khi sử dụng (số giờ đốt, đồng hồ đo dầu, v.v.) hay mỗi giá trị đọc độc lập (mức tiêu thụ/năng suất)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
   "counterDistrictHeating": "Hệ thống sưởi huyện",
   "counterEdit": "Chỉnh sửa bộ đếm",
   "counterElectricity": "Đồng hồ đo điện",
@@ -1028,7 +456,6 @@
   "counterElectricityGenerated": "Máy đo phát điện",
   "counterExclude": "Loại trừ",
   "counterExcludedContracts": "Hợp đồng bị loại trừ",
-  "counterExplainSeasonal": "Đặt chỉ số đồng hồ về 0 trong mùa hè? Vào mùa đông, các bài đọc sẽ tuân theo mô hình tiêu dùng bình thường của bạn; vào mùa hè, chúng sẽ phẳng lì.",
   "counterFactor": "Nhân tố",
   "counterFactorDescription": "Mức tiêu thụ chỉ được phân bổ cho bạn theo tỷ lệ? Nhập tỷ lệ dưới dạng giá trị từ 0,1 (10%) đến 1,0 (100%).",
   "counterFractionDigits": "chữ số phân số",
@@ -1050,9 +477,26 @@
   "counterNoContractSelected": "Không có hợp đồng nào được chọn",
   "counterNoRoomConnection": "Không có kết nối phòng",
   "counterNum": "Bộ đếm {count}",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "counterOilHeating": "Sưởi dầu",
   "counterOtherContracts": "Các hợp đồng khác",
   "counterOutdatedAndNextReminder": "Bộ đếm đã lỗi thời kể từ {date}, lời nhắc đọc tiếp theo {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
   "counterProportionateConsumption": "Tỷ lệ tiêu thụ tương ứng",
   "counterPvFeedInCounter": "Năng lượng tái tạo (năng lượng mặt trời và nhiệt với hệ thống PV/năng lượng mặt trời)",
   "counterPvFeedInCounterExplanation": "Sử dụng đồng hồ đo điện năng để ghi lại lượng điện năng được tạo ra và cung cấp vào\nvới hệ thống quang điện. Doanh thu thu được sẽ được bù đắp vào chi phí của\nđiện được rút ra.",
@@ -1080,6 +524,13 @@
   "csvImportWithFactor": "Có nên nhân số chỉ của đồng hồ với hệ số không bằng 1,0 không? Ví dụ: để chuyển đổi các giá trị từ Wh sang kWh, chúng sẽ phải nhân với 0,001.",
   "currency": "Tiền tệ",
   "deleteObjectError": "Không thể xóa đối tượng này (Mã {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
   "detailWithMultiSelect": "Cho phép chọn nhiều",
   "detailsTitle": "Chi tiết",
   "difference": "Sự khác biệt",
@@ -1088,13 +539,54 @@
   "driveSyncStatusComparing": "So sánh với tập tin trên máy chủ",
   "driveSyncStatusFailed": "Không thể đồng bộ hóa",
   "driveSyncStatusLocalHasLatestNoCloud": "Tệp được lưu trên thiết bị này từ {localDate} không được lưu trong đám mây",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusLocalHasLatestWithCloud": "Tệp được lưu trên thiết bị này từ {localDate} cập nhật hơn tệp trên đám mây từ {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusNotSynced": "Không được đồng bộ hóa",
   "driveSyncStatusRemoteHasLatestNoLocal": "Tệp trên đám mây từ {cloudDate} không được lưu trên thiết bị này",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusRemoteHasLatestWithLocal": "Tệp trên đám mây từ {cloudDate} được cập nhật nhiều hơn tệp cục bộ từ {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusSyncing": "Đang đồng bộ hóa",
   "driveSyncStatusTitle": "Trạng thái đồng bộ hóa",
   "driveSyncStatusUpToDate": "Cập nhật từ {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncWithGoogle": "Đồng bộ hóa Google Drive",
   "editDetailTitle": "Chỉnh sửa chi tiết",
   "electricity": "Điện",
@@ -1113,10 +605,33 @@
   "export": "Xuất khẩu",
   "exportExplanation": "Bạn muốn xuất đối tượng hiện có nào, chẳng hạn như để chuyển nó sang thiết bị mới?",
   "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionConsumptionsSubtitle": "Giá trị tiêu thụ mỗi ngày kể từ lần đọc đầu tiên.",
   "exportOptionConsumptionsTitle": "Tiêu thụ hàng ngày",
   "exportOptionExcel": "tập tin excel",
   "exportOptionFileDescription": "Đối tượng được chia sẻ dưới dạng tệp {fileType}",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionPdf": "tập tin PDF",
   "exportOptionReadingsSubtitle": "Thông thường số đọc hoặc mức tiêu thụ của đồng hồ đo có khoảng thời gian không đều.",
   "exportOptionReadingsTitle": "Đọc giá trị",
@@ -1145,6 +660,13 @@
   "generated": "Đã tạo",
   "googleAnalyticsAgreement": "Tôi đồng ý truyền dữ liệu ẩn danh về việc sử dụng ứng dụng tới EHW+ Services GmbH.",
   "googleApiAgreement": "Việc {appNameShort} sử dụng và chuyển thông tin nhận được từ API Google sang bất kỳ ứng dụng nào khác sẽ tuân thủ Chính sách dữ liệu người dùng Dịch vụ API của Google, bao gồm cả các yêu cầu về Sử dụng có giới hạn.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "gross": "tổng",
   "grossNetPrices": "Giá gộp hoặc giá ròng",
   "heatPump": "Bơm nhiệt",
@@ -1157,13 +679,37 @@
   "importConfirm": "Xác nhận nhập",
   "importCounterAsCsv": "Bạn có muốn nhập một mét không? Được hỗ trợ trên mỗi mét là một tệp CSV có hai cột, một cột cho thời gian và một cột cho chỉ số đồng hồ.\n\nDữ liệu ví dụ:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Chỉ có hai cột đầu tiên được sử dụng. Cột thứ ba đã bị bỏ qua.} other {Chỉ có hai cột đầu tiên được sử dụng, cột {columns} bị bỏ qua.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "importErrorCsvIgnoredLines": "{count, plural, one {Một dòng đã bị bỏ qua: {lines}} other {Các dòng {count} đã bị bỏ qua: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
   "importExplanation": "Bạn đã thực hiện các bài đọc truy cập và muốn chèn chúng?",
   "importExport": "Sao lưu/Khôi phục",
   "importNewOrExistingCounter": "Thêm vào bộ đếm mới hoặc hiện có?",
   "importNotPossible": "Không thể nhập khẩu",
   "importPickFile": "Chọn tập tin",
   "importSelectJson": "Tệp JSON (được tạo bằng {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
   "importSelectSingleCounter": "Bộ đếm đơn (tệp CSV)",
   "importSuccessful": "Nhập thành công",
   "importTabErrorMessageFileWithExtensionNotSelected": "Cần có tệp {extension} để tiến hành nhập.",
@@ -1199,6 +745,13 @@
   "meterReadingsFilterAll": "Hiển thị tất cả",
   "meterReadingsFilterComments": "Chỉ hiển thị các mục có nhận xét",
   "meterReadingsFilterSubmitted": "Chỉ hiển thị \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
   "myObjects": "Đồ vật của tôi",
   "net": "mạng lưới",
   "networkCounter": "Internet và điện thoại",
@@ -1211,11 +764,53 @@
   "notificationsEmpty": "Không có thông báo",
   "notificationsSmartMeterAlertFallback": "Bạn có cảnh báo đồng hồ thông minh mới.",
   "numCounters": "{count, plural, =0 {Bộ đếm {count}} one {Bộ đếm {count}} other {Bộ đếm {count}}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "numMeterReadings": "{readings, plural, one {# đọc} other {# bài đọc}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
   "numberOfDetails": "{count, plural, one {1 chi tiết} other {Chi tiết {count}}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeFrom": "từ {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
   "ofRangeLastDays": "trong số {days} ngày qua",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeLastMonths": "trong {months} tháng qua",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "oil": "Dầu",
   "outdated": "lỗi thời",
   "outdatedContracts": "Hợp đồng lỗi thời",
@@ -1224,6 +819,13 @@
   "parsingObjectError": "Đối tượng không thể được phân tích cú pháp. Vui lòng liên hệ với nhà phát triển. Khi gỡ cài đặt ứng dụng, dữ liệu có thể bị mất.",
   "per": "mỗi",
   "perUnit": "mỗi {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "period": "Giai đoạn",
   "periodBimonthly": "hai tháng một lần",
   "periodBiweekly": "hai tuần một lần",
@@ -1237,8 +839,38 @@
   "periodYearly": "hàng năm",
   "previouslyDeletedCounters": "Đồng hồ đo đã xóa gần đây",
   "priceComparisonDiff": "Bạn trả {diffWithCurrency} {comparison, select, more {nhiều hơn} less {ít hơn} other {nhiều hơn}} so với mức trung bình ở {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonEqual": "Bạn trả nhiều như mức trung bình trong {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonNotEnoughData": "Chưa đủ dữ liệu so sánh cho trang {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "pricePerUnit": "Giá mỗi đơn vị",
   "pricePerUnitFeedIn": "Giá thù lao",
   "pricePerUnitFreshWater": "Chi phí nước ngọt",
@@ -1247,14 +879,49 @@
   "pricePerUnitWaterWarm": "Chi phí sưởi ấm nước nóng",
   "priceSubmissionAgreement": "Tôi đồng ý với việc chuyển giá điện/gas/nước theo đơn vị tới máy chủ EHW+",
   "privacyBlock1Text": "Nhà phát triển/nhà cung cấp ứng dụng (sau đây gọi là “ứng dụng”) tuân theo Mục 5 của Đạo luật Telemedia của Đức (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock1Text2": "Việc sử dụng ứng dụng yêu cầu bạn phải đồng ý với các điều khoản sử dụng sau. Xin vui lòng đọc chúng một cách cẩn thận.",
   "privacyBlock1Title": "Nhà phát triển",
   "privacyBlock2Text": "Việc bảo vệ dữ liệu của bạn là rất quan trọng đối với chúng tôi. Chính sách quyền riêng tư này giải thích dữ liệu cá nhân nào EHW+ thu thập và cách sử dụng dữ liệu đó. Những thay đổi cơ bản đối với chính sách quyền riêng tư rất hiếm nhưng đôi khi có thể được sửa đổi do các tính năng, công nghệ mới hoặc yêu cầu pháp lý. Vì vậy thỉnh thoảng hãy kiểm tra trang này để cập nhật nhé. Nếu chúng tôi thực hiện bất kỳ thay đổi quan trọng nào, chúng tôi sẽ thông báo cho bạn và nếu cần thiết sẽ nhận được sự đồng ý của bạn.",
   "privacyBlock2Title": "Tổng quan",
   "privacyBlock3Title": "{appNameShort} thu thập dữ liệu gì?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3aText": "Chúng tôi đã tạo {appNameShort} để bạn có thể nhập chỉ số đồng hồ của mình một cách nhanh chóng và dễ dàng, sau đó sử dụng số liệu thống kê để tìm hiểu thêm về mức tiêu thụ, chi phí và khả năng tiết kiệm của bạn. Điều này có nghĩa là bạn có thể nhập, tính toán hoặc lưu bất kỳ dữ liệu nào mà chúng tôi thường gọi là ‘nội dung’ trong {appNameShort}. Dữ liệu này chỉ được lưu trữ trên điện thoại di động của bạn.\n\nĐồng bộ hóa với Google Drive.\nNếu bạn bật đồng bộ hóa với Google Drive, nội dung cũng sẽ được tự động sao lưu vào thư mục có tên ‘{appNameShort}’ trên Google Drive mà chỉ bạn mới có thể truy cập. Bằng cách đăng nhập bằng Google, địa chỉ email của bạn sẽ hiển thị với nhà phát triển.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nDữ liệu vị trí.\nĐể hiểu hành vi của người dùng và cho các tính năng trong tương lai, ứng dụng sẽ truyền dữ liệu sử dụng ẩn danh.\nDữ liệu không được chia sẻ với bên thứ ba.\nThông tin có thể được thu thập về nguồn gốc (quốc gia và thành phố), ngôn ngữ, hệ điều hành, loại thiết bị, độ phân giải, hành vi nhấp chuột và thời lượng sử dụng.\n\nDữ liệu thiết bị.\nChúng tôi thu thập dữ liệu về số lượng và loại thiết bị bạn sử dụng để kết nối với dịch vụ cũng như thông tin về hệ điều hành trên các thiết bị đó (ví dụ: Android, iOS, Windows hoặc macOS).\n\nBằng cách sử dụng ứng dụng, bạn đồng ý với việc thu thập dữ liệu ẩn danh như mô tả ở trên.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsage": "Dữ liệu ẩn danh được thu thập được sử dụng để đánh giá hành vi của người dùng. Ngoài ra, không có việc sử dụng dữ liệu nào nữa.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsageTitle": "{appNameShort} sử dụng dữ liệu của tôi như thế nào?",
   "privacyBlock5": "Thời lượng lưu trữ dữ liệu cá nhân được xác định theo thời gian lưu giữ theo luật định tương ứng (ví dụ: thời gian lưu giữ theo luật thương mại và thuế). Sau khi hết thời hạn, dữ liệu tương ứng sẽ bị xóa thường xuyên, với điều kiện là dữ liệu đó không còn cần thiết cho việc thực hiện hoặc bắt đầu hợp đồng và/hoặc chúng tôi không còn có lợi ích hợp pháp trong việc tiếp tục lưu trữ dữ liệu đó.",
   "privacyBlock5Title": "Thời lượng lưu trữ dữ liệu cá nhân",
@@ -1285,13 +952,57 @@
   "purchasesPurchasedSubscribed": "Đã đăng ký",
   "purchasesRedeemCode": "Đổi mã",
   "purchasesStatisticsWithPremium": "Với Premium, bạn có quyền truy cập vào bảng so sánh hàng tháng{count, plural, =0{.}=1{.}other{ và cũng xem dữ liệu lịch sử cho {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribeNow": "Đăng ký ngay bây giờ",
   "purchasesSubscribePremium": "Đăng ký trả phí",
   "purchasesSubscribePremiumMonthly": "Đăng ký có thể hủy hàng tháng chỉ với {price} mỗi tháng",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Đăng ký có thể hủy hàng tháng với mức giá trung thành {price} mỗi tháng thay vì {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumTextLong": "Truy cập vào tất cả các tính năng trả phí trong thời gian đăng ký + nhiệt độ ngoài trời",
   "purchasesSubscribePremiumYearly": "Đăng ký có thể hủy hàng năm chỉ với {price} mỗi năm",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Đăng ký có thể hủy hàng năm với mức giá trung thành {price} mỗi năm thay vì {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesUpgrade": "Nâng cấp",
   "purchasesWebLegalNote": "Vì lý do pháp lý, chỉ có thể mua hàng đối với điện thoại iPhone hoặc Android có dịch vụ PlayStore.",
   "purchasesWhyBuyText": "Khi mua hàng, bạn sẽ chịu các chi phí mà tôi phải gánh chịu khi xuất bản ứng dụng và hỗ trợ sự phát triển hơn nữa.",
@@ -1307,9 +1018,31 @@
   "readingPrefillDisabledToast": "Tự động điền bị vô hiệu hóa",
   "readingPrefillEnableForAllCounters": "Bật tự động điền cho tất cả các quầy",
   "readingReminder": "{count, plural, one {Lời nhắc đọc} other {Lời nhắc đọc sách}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "readingReminderDisabled": "Lời nhắc đọc không hoạt động",
   "readingReminderMultiBody": "{count, plural, one {Đọc số đọc từ máy {count} ngay bây giờ} other {Đọc số đọc từ {count} mét ngay bây giờ}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "readingReminderSingleBody": "Đọc giá trị {counterName} ngay bây giờ",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
   "readingReminders": "Lời nhắc đọc sách",
   "readingRemindersChannel": "Lời nhắc đọc sách",
   "readingSubmitted": "Đã gửi chỉ số đồng hồ",
@@ -1346,6 +1079,13 @@
   "roomName": "Tên phòng",
   "roomNameHint": "Tùy chọn gán tên phòng",
   "roomNamePart": "trong {roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
   "roomNew": "Phòng mới",
   "roomOffice": "Văn phòng",
   "roomOther": "Khác",
@@ -1422,6 +1162,16 @@
   "consumptionCacheToggleButtonTitle": "Sử dụng bộ nhớ cache tiêu thụ",
   "consumptionCacheToggleButtonDescription": "Lưu trữ tiêu thụ được tính toán và sử dụng lại khi cần",
   "smartmeterInfocodeBannerText": "Đồng hồ thông minh {smartmeterId} đã nhận được mã thông tin: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "Nhiệt độ của đồng hồ nước {smartmeterId} của bạn đã giảm xuống dưới 3°C. Có nguy cơ có sương giá! Cách nhiệt đồng hồ và đường ống hoặc làm nóng khu vực để tránh hư hỏng.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện dòng nước chảy liên tục. Điều này có thể chỉ ra sự rò rỉ. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình bạn xem có bị rò rỉ không. Nhà vệ sinh và vòi nước nhỏ giọt là nguyên nhân phổ biến.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Đồng hồ nước {smartmeterId} của bạn đã phát hiện mức tiêu thụ nước cao bất thường, điều này có thể cho thấy đường ống bị vỡ. Vui lòng kiểm tra hệ thống lắp đặt trong gia đình của bạn xem có rò rỉ hoặc hỏng hóc lớn không. Cảnh báo cũng có thể xuất hiện nếu bạn đã sử dụng một lượng lớn nước, ví dụ: để làm đầy một hồ bơi.",
@@ -1446,6 +1196,13 @@
   "supportGivePraise": "Khen ngợi",
   "supportGivePraiseLong": "Bạn có thích ứng dụng này không? Cảm ơn! Truyền bá!",
   "supportGivePraiseRating": "Đánh giá ứng dụng trong {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
   "supportGivePraiseRecommendation": "Giới thiệu ứng dụng cho bạn bè và gia đình. Cảm ơn bạn cho bất kỳ đề nghị!",
   "supportMakeSuggestion": "Đề xuất điều gì đó",
   "supportMakeSuggestionLong": "Ứng dụng này tồn tại nhờ đề xuất của người dùng. Bạn có gợi ý gì không?",
@@ -1483,12 +1240,40 @@
   "teaserPurchaseVirtualCounter": "Thêm bộ đếm ảo với Premium.",
   "teaserPurchaseWaterExtractionCounter": "Mở khóa quầy chiết nước bằng Premium.",
   "termsOfUsageBlock1": "Quyền phản đối",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock1Title": "Điều khoản sử dụng chung cho việc sử dụng ứng dụng",
   "termsOfUsageBlock2": "Không được sử dụng ứng dụng và các chức năng của nó theo cách lạm dụng. Vui lòng chỉ sử dụng ứng dụng trong phạm vi được pháp luật cho phép và tuân theo các điều khoản sử dụng của chúng tôi. Trong trường hợp vi phạm luật hiện hành của Đức hoặc điều khoản sử dụng của chúng tôi, nhà cung cấp có quyền loại bạn khỏi việc sử dụng ứng dụng.",
   "termsOfUsageBlock2Title": "Thông tin chung về sử dụng",
   "termsOfUsageBlock2a": "Dữ liệu sử dụng ẩn danh\nChúng tôi sử dụng phân tích của riêng mình để liên tục cải thiện ứng dụng.\nChỉ dữ liệu ẩn danh được truyền đi.\nDữ liệu không được chuyển cho bên thứ ba.\nĐể biết thêm thông tin, hãy đi tới Cài đặt > Bảo mật > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2b": "Báo cáo lỗi\nSentry (tự lưu trữ) được sử dụng để liên tục cải tiến ứng dụng.\nBáo cáo lỗi không được xử lý cũng như không chia sẻ với bên thứ ba.\nĐể biết thêm thông tin, hãy đi tới Cài đặt > Bảo mật > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2c": "Thông tin cá nhân\nNếu bạn sử dụng Google Drive Sync, EHW+ vẫn không có quyền truy cập vào dữ liệu bạn đã nhập. Để biết thêm thông tin, hãy đi tới Cài đặt > Quyền riêng tư > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock3": "Nhà cung cấp không đảm bảo tính khả dụng, độ tin cậy, chức năng hoặc sự phù hợp của ứng dụng cho mục đích của bạn. Trách nhiệm pháp lý được loại trừ trừ khi bắt buộc theo Đạo luật trách nhiệm pháp lý về sản phẩm, do cố ý, sơ suất nghiêm trọng, thương tích đến tính mạng, tay chân hoặc sức khỏe, giả định đảm bảo về chất lượng, che giấu sai sót một cách gian lận hoặc vi phạm các nghĩa vụ hợp đồng thiết yếu. Nghĩa vụ hợp đồng thiết yếu là những nghĩa vụ mà việc thực hiện là cần thiết để thực hiện đúng hợp đồng và các bên tham gia hợp đồng có thể thường xuyên dựa vào sự tuân thủ của chúng. Việc bồi thường thiệt hại do vi phạm các nghĩa vụ hợp đồng thiết yếu được giới hạn ở mức thiệt hại có thể thấy trước điển hình của loại hợp đồng này, trừ khi có cố ý hoặc sơ suất nghiêm trọng.",
   "termsOfUsageBlock3Title": "Trách nhiệm pháp lý",
   "termsOfUsageBlock4": "Nhà cung cấp không đảm bảo tính chính xác của kết quả tính toán. Người dùng phải cập nhật giá được lưu trong ứng dụng (giá cơ sở, giá tiêu thụ, v.v.) một cách cẩn thận và tự chịu trách nhiệm để đảm bảo rằng hóa đơn được tạo tương ứng với số tiền thực tế phải trả.",
@@ -1573,22 +1358,57 @@
   "timeDayAgo": "một ngày trước",
   "timeDays": "ngày",
   "timeDaysAgo": "{days} ngày trước",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "timeDaysWithin": "ngày",
   "timeForFirstYear": "trong năm đầu tiên",
   "timeFriday": "Thứ sáu",
   "timeFromDate": "Từ {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeFromUndefined": "Không xác định",
   "timeHours": "giờ",
   "timeHoursAgo": "{hours} giờ trước",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "timeInFuture": "trong tương lai",
   "timeJustNow": "ngay bây giờ",
   "timeLastUpdated": "cập nhật lần cuối",
   "timeMinutes": "phút",
   "timeMinutesAgo": "{minutes} phút trước",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonday": "Thứ hai",
   "timeMonth": "tháng",
   "timeMonths": "tháng",
   "timeMonthsAgo": "{months} tháng trước",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonthsWithin": "tháng",
   "timePeriodYearStart": "hàng năm",
   "timeReminderAtEnd": "Cuối cùng",
@@ -1601,50 +1421,158 @@
   "timeToday": "Hôm nay",
   "timeTuesday": "Thứ ba",
   "timeUntilDate": "Cho đến {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeUntilUnlimited": "Không giới hạn",
   "timeWednesday": "Thứ Tư",
   "timeWeek": "tuần",
   "timeWeeks": "tuần",
   "timeWithin": "Trong {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
   "timeYesterday": "Hôm qua",
   "unitCm": "cmt",
   "unitCmLong": "cmt",
   "unitCmShort": "cmt",
   "unitCubicMetersLong": "{count, plural, one {Mét khối (m³)} other {Mét khối (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitCubicMetersShort": "m³",
   "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {Giờ} other {Giờ (h)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitHoursShort": "h",
   "unitKWhLong": "{count, plural, one {Kilowatt giờ (kWh)} other {Kilowatt giờ (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKWhShort": "kWh",
   "unitKgLong": "{count, plural, one {Kilôgam (kg)} other {Kilôgam (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKgShort": "kg",
   "unitLiters": "lít",
   "unitLitersLong": "{count, plural, one {Lít (ℓ)} other {Lít (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Megawatt giờ (MWh)} other {Megawatt giờ (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitMWhShort": "MWh",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "không có",
   "unitNoneFormatted": "{count, plural, one {đơn vị} other {đơn vị}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitPercentLong": "Phần trăm (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "mét vuông",
   "unitSquareMetersLong": "{count, plural, one {Mét vuông (m2)} other {Mét vuông (m2)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitSquareMetersShort": "mét vuông",
   "updateAvailable": "Phiên bản ứng dụng {oldVersion} chưa cập nhật. Bạn có thể cập nhật lên phiên bản {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
   "updateObjectName": "Thay đổi tên đối tượng",
   "upgradeDescription": "Ứng dụng có thể làm được nhiều hơn thế. Tổng quan chi phí tốt hơn, thống kê nhiều hơn, xuất Excel, nhiều bộ đếm hơn, ...",
   "useDismissibleSettings": "Xóa bằng cử chỉ vuốt",
   "useDismissibleSettingsDetailed": "Bộ đếm, hợp đồng, v.v. có thể bị xóa bằng chuyển động vuốt sang bên",
   "usedForPaymentsRepayments": "Thanh toán trước, giá cơ bản và tiền thưởng",
   "valueLess": "{value} ít hơn",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "valueMore": "{value} thêm",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "versionIsUpToDate": "Phiên bản ứng dụng mới nhất được phát hành cho tất cả người dùng là {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "virtualCounter": "Máy đo ảo",
   "virtualCounterMasterCounter": "Đồng hồ đo chính",
   "virtualCounterMasterCounterAttach": "Chọn đồng hồ chính",
@@ -1658,11 +1586,61 @@
   "warning": "Cảnh báo",
   "warningCounterReplacementDetected": "Giá trị mới thấp hơn giá trị đo trước đó. Đồng hồ đã được thay thế chưa?",
   "warningNextReminderText": "Lời nhắc tiếp theo là {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningOutdatedSinceText": "kể từ {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValue": "Giá trị mới cao hơn chỉ số đồng hồ trước đó.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValueOilVolume": "Giá trị mới cao hơn số đọc của đồng hồ trước đó. Bạn đã đổ đầy bình chưa?",
   "warningReadingOutdatedForYearlyResetCounter": "Thiếu số đọc đồng hồ cuối cùng của năm {lastYear} cho {deviceTypeName} {roomNamePart}. Điều này là cần thiết để tính toán chính xác tổng lượng tiêu thụ hàng năm.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingOutdatedFrequency": "Chỉ số đồng hồ mới nhất cho {deviceTypeName} {roomNamePart} đã lỗi thời {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingSeemsTooBig": "Giá trị mới khá cao. Việc đọc có được thực hiện chính xác không?",
   "warningReadingSeemsTooSmall": "Giá trị mới khá thấp. Nó đã được đọc chính xác chưa?",
   "warningReadingSmallerThanOldValue2": "Giá trị mới thấp hơn giá trị đo trước đó. Việc đọc có được thực hiện chính xác không?",
@@ -1671,6 +1649,18 @@
   "waterConsumption": "Tiêu thụ nước",
   "waterExtractionMinimumLevelLower": "Việc khấu trừ diễn ra vì mức tiêu thụ thấp hơn ngưỡng.",
   "waterMeterEventsInformation": "{count, plural, =1 {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong trường hợp như vậy.} other {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong những trường hợp như vậy.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
   "watersupplierAccessRequestQ1": "Bạn có phải là chủ sở hữu của một bất động sản trong khu vực lưu vực của nhà máy nước và muốn có quyền truy cập vào số liệu của đồng hồ vô tuyến không?",
   "watersupplierAccessRequestQ2": "Bạn đã yêu cầu quyền truy cập chưa? Tiếp theo, bạn cần tạo tài khoản người dùng EHW+.",
   "watersupplierAccessRequestQ3": "Bạn đã yêu cầu quyền truy cập và nhận được mã QR của mình chưa?",
@@ -1707,5 +1697,15 @@
   "youtubeConsent3": "Tôi đồng ý với nội dung bên ngoài được hiển thị cho tôi. Điều này có thể dẫn đến việc dữ liệu cá nhân được truyền sang nền tảng của bên thứ ba. Thông tin thêm về điều này trong của chúng tôi",
   "zipCode": "mã vùng",
   "zipCodeValidationLength": "Vui lòng nhập mã bưu chính {digits} chữ số",
-  "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số"
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số",
+  "counterExplainSeasonal": "Đối với dự báo, người ta phân biệt giữa các đồng hồ đo theo mùa và không theo mùa. Tùy thuộc vào điều này, dự báo được tính toán theo cách khác nhau.\n\nLuôn được phân loại là theo mùa là các chỉ số tiêu thụ nhiệt, khí đốt và dầu. Các chỉ số không theo mùa là điện và nước.  \n\nĐối với các chỉ số không theo mùa, lượng tiêu thụ trong 90 ngày gần nhất là yếu tố quyết định.  \n\nĐối với các chỉ số theo mùa, lượng tiêu thụ của các năm trước được tính trung bình (nếu có dữ liệu), với tất cả các tháng của các năm trước được tính như nhau. (Trường hợp ngoại lệ: nếu chưa có dữ liệu cho tháng tương ứng của năm trước, thì sử dụng trung bình của năm trước)."
 }

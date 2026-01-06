@@ -759,7 +759,6 @@
   "counterShowPreliminaryCurve": "Prikaži preliminarnu krivulju",
   "seasonalCounter": "Sezonski brojač",
   "seasonalElectricityCounter": "Sezonsko brojilo električne energije",
-  "counterExplainSeasonal": "Postaviti očitanja brojila na 0 tijekom ljeta?Zimi će očitanja slijediti vaš uobičajeni obrazac potrošnje;ljeti će ostati ravne.",
   "counterIsOutdated": "Brojač je zastario",
   "counterLinkMoreRecent": "Link noviji brojač",
   "counterReplacedBy": "Zamijenjen sa",
@@ -934,5 +933,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Trošite{verbSuffix} otprilike isto kao prosječno kućanstvo s {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Trošite oko {dailyLiters} litara dnevno (≈ {monthlyCubicMeters} {unitName} mjesečno).",
   "consumptionWaterDailyMonthlyPerPerson": "Po osobi, svi konzumiraju oko {dailyLiters} litara dnevno (≈ {monthlyCubicMeters} {unitName} mjesečno).",
-  "consumptionYearlyDetailedLevel2": "je normalno."
+  "consumptionYearlyDetailedLevel2": "je normalno.",
+  "counterExplainSeasonal": "Za prognoze se razlikuju sezonski i ne-sezonski brojila. Ovisno o tome, prognoza se izračunava drugačije.\n\nUvijek se kao sezonski klasificiraju plin za grijanje, plin i nafta. Nesezonski brojila su struja i voda.\n\nZa nesezonska brojila odlučujuća je potrošnja u posljednjih 90 dana.\n\nZa sezonska brojila prosječne se vrijednosti iz prethodnih godina (ako su dostupne), pri čemu se svi mjeseci iz prethodnih godina računaju jednako. (Iznimka: ako za mjesec iz prethodne godine još nema podataka, koristi se prethodni prosjek)."
 }

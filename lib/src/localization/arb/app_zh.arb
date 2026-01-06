@@ -221,7 +221,6 @@
   "counterElectricityGenerated": "发电表",
   "counterExclude": "排除",
   "counterExcludedContracts": "排除的合同",
-  "counterExplainSeasonal": "夏天将仪表读数设置为 0？冬季，读数将遵循您的正常消费模式；在夏天，它们会保持平坦。",
   "counterFactor": "因素",
   "counterFactorDescription": "消费是按比例分配给您的吗？输入 0.1 (10%) 和 1.0 (100%) 之间的比例值。",
   "counterFractionDigits": "分数数字",
@@ -900,5 +899,6 @@
   "youtubeConsent3": "我同意向我显示外部内容。这可能会导致个人数据被传输到第三方平台。有关此内容的更多信息，请参阅我们的",
   "zipCode": "邮政编码",
   "zipCodeValidationLength": "请输入 {digits} 位邮政编码",
-  "zipCodeValidationOnlyNumbers": "有效的邮政编码仅由数字组成"
+  "zipCodeValidationOnlyNumbers": "有效的邮政编码仅由数字组成",
+  "counterExplainSeasonal": "在预测中，需区分季节性与非季节性计量表。根据此分类，预测计算方式各不相同。\n\n供暖、燃气、燃油计量表始终归类为季节性计量表。电力和水表则属于非季节性计量表。\n\n非季节性计量表的预测值取决于最近90天的消耗量。\n\n季节性计量表的预测值采用往年平均值（若数据可用），且往年所有月份数据权重相同。（例外情况：若往年同期尚无数据，则采用往年平均值作为基准）。"
 }

@@ -766,7 +766,6 @@
   "counterShowPreliminaryCurve": "Näita esialgset kõverat",
   "seasonalCounter": "Hooajaline arvesti",
   "seasonalElectricityCounter": "Hooajaline elektriarvesti",
-  "counterExplainSeasonal": "Kas seada suvel arvestinäidud 0‑ks? Talvel järgivad näidud tavalist tarbimist, suvel jäävad need stabiilseks.",
   "counterIsOutdated": "Arvesti on aegunud",
   "counterLinkMoreRecent": "Seo uuema arvestiga",
   "counterReplacedBy": "Asendatud",
@@ -941,5 +940,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Teie tarbite{verbSuffix} umbes sama kui keskmine {householdSize} {personLabel}-ga leibkond.",
   "consumptionWaterDailyMonthlySingle": "Teie tarbimine on umbes {dailyLiters} liitrit päevas (≈ {monthlyCubicMeters} {unitName} kuus).",
   "consumptionWaterDailyMonthlyPerPerson": "Inimese kohta tarbib igaüks umbes {dailyLiters} liitrit päevas (≈ {monthlyCubicMeters} {unitName} kuus).",
-  "consumptionYearlyDetailedLevel2": "on normaalne."
+  "consumptionYearlyDetailedLevel2": "on normaalne.",
+  "counterExplainSeasonal": "Prognooside puhul eristatakse hooajalisi ja mittehooajalisi arvestid. Sõltuvalt sellest arvutatakse prognoos erinevalt.\n\nAlati klassifitseeritakse hooajalisteks kütte, gaasi ja nafta tarbimise arvestid. Mittehooajalised arvestid on elektri ja vee arvestid.\n\nMittehooajaliste arvestite puhul on otsustavaks viimase 90 päeva tarbimine.\n\nHooajaliste arvestite puhul arvutatakse eelmiste aastate keskmine (kui see on kättesaadav), kusjuures kõik eelmiste aastate kuud loetakse võrdseks. (Erand: kui eelmise aasta kuu kohta veel andmeid ei ole, kasutatakse eelmise aasta keskmist)."
 }

@@ -760,7 +760,6 @@
   "counterShowPreliminaryCurve": "Zobrazit předběžnou křivku",
   "seasonalCounter": "Sezónní počítadlo",
   "seasonalElectricityCounter": "Sezónní počítadlo elektřiny",
-  "counterExplainSeasonal": "Nastavit odečty měřičů na 0 během léta? V zimě budou naměřené hodnoty odpovídat vašemu běžnému vzorci spotřeby; v létě zůstanou ploché.",
   "counterIsOutdated": "Počítadlo je zastaralé",
   "counterLinkMoreRecent": "Odkaz na novější počítadlo",
   "counterReplacedBy": "Nahrazeno uživatelem",
@@ -935,5 +934,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Spotřebujete{verbSuffix} zhruba stejně jako průměrná domácnost s {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Spotřebujete asi {dailyLiters} litrů za den (≈ {monthlyCubicMeters} {unitName} za měsíc).",
   "consumptionWaterDailyMonthlyPerPerson": "Na osobu spotřebují všichni asi {dailyLiters} litrů za den (≈ {monthlyCubicMeters} {unitName} za měsíc).",
-  "consumptionYearlyDetailedLevel2": "je normální."
+  "consumptionYearlyDetailedLevel2": "je normální.",
+  "counterExplainSeasonal": "U prognóz se rozlišuje mezi sezónními a nesezónními měřiči. V závislosti na tom se prognóza počítá odlišně.\n\nZa sezónní se vždy považují topení, plyn a ropa. Nesezónními měřiči jsou elektřina a voda.\n\nU nesezónních měřičů je rozhodující spotřeba za posledních 90 dní.\n\nU sezónních měřičů se průměrují předchozí roky (jsou-li k dispozici), přičemž všechny měsíce předchozích let se počítají stejně. (Výjimka: pokud ještě nejsou k dispozici údaje za měsíc předchozího roku, použije se předchozí průměr)."
 }
