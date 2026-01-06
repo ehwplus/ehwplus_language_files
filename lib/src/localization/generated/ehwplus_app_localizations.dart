@@ -3888,6 +3888,66 @@ abstract class EhwplusAppLocalizations {
   /// **'Productions'**
   String get smartMeterTabProductions;
 
+  /// No description provided for @consumptionCacheDebugViewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumptions Cache'**
+  String get consumptionCacheDebugViewTitle;
+
+  /// No description provided for @consumptionCacheDebugViewEntries.
+  ///
+  /// In en, this message translates to:
+  /// **'entries'**
+  String get consumptionCacheDebugViewEntries;
+
+  /// No description provided for @consumptionCacheDebugViewClearCache.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear Cache'**
+  String get consumptionCacheDebugViewClearCache;
+
+  /// No description provided for @consumptionCacheDebugViewClearCacheConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to clear all consumption cache for this object? All stored consumption data will be removed.'**
+  String get consumptionCacheDebugViewClearCacheConfirmation;
+
+  /// No description provided for @consumptionCacheDebugViewClear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get consumptionCacheDebugViewClear;
+
+  /// No description provided for @consumptionCacheDebugViewCacheCleared.
+  ///
+  /// In en, this message translates to:
+  /// **'Cache cleared successfully'**
+  String get consumptionCacheDebugViewCacheCleared;
+
+  /// No description provided for @consumptionCacheDebugViewError.
+  ///
+  /// In en, this message translates to:
+  /// **'Error'**
+  String get consumptionCacheDebugViewError;
+
+  /// No description provided for @consumptionCacheToggleButtonTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Use consumption cache'**
+  String get consumptionCacheToggleButtonTitle;
+
+  /// No description provided for @consumptionCacheToggleButtonDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Cache computed consumptions and re-use whenever necessary'**
+  String get consumptionCacheToggleButtonDescription;
+
+  /// No description provided for @tibberAccessToken.
+  ///
+  /// In en, this message translates to:
+  /// **'Access Token'**
+  String get tibberAccessToken;
+
   /// No description provided for @smartmeterInfocodeBannerText.
   ///
   /// In en, this message translates to:
@@ -4333,12 +4393,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Terms of use'**
   String get termsOfUsageTitleShort;
-
-  /// No description provided for @tibberAccessToken.
-  ///
-  /// In en, this message translates to:
-  /// **'Access Token'**
-  String get tibberAccessToken;
 
   /// No description provided for @tibberActionSaveAuthorizationSettings.
   ///

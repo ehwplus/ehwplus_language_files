@@ -2277,6 +2277,40 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkcje';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Pamięć podręczna zużycia';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'wpisy';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Wyczyść pamięć podręczną';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Czy na pewno chcesz wyczyścić całą pamięć podręczną zużycia dla tego obiektu? Wszystkie przechowywane dane zużycia zostaną usunięte.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Wyczyść';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Pamięć podręczna została pomyślnie wyczyszczona';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Błąd';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Użyj pamięci podręcznej zużycia';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Przechowuj obliczone zużycie w pamięci podręcznej i ponownie używaj w razie potrzeby';
+
+  @override
+  String get tibberAccessToken => 'Token dostępu';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId otrzymał kod informacyjny: $infocode';
   }
@@ -2550,9 +2584,6 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Warunki użytkowania';
-
-  @override
-  String get tibberAccessToken => 'Token dostępu';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

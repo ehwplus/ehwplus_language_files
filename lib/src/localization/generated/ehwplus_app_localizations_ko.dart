@@ -2207,6 +2207,38 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => '생산량';
 
   @override
+  String get consumptionCacheDebugViewTitle => '소비 캐시';
+
+  @override
+  String get consumptionCacheDebugViewEntries => '항목';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => '캐시 지우기';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      '이 개체에 대한 모든 소비 캐시를 지우시겠습니까? 저장된 모든 소비 데이터가 제거됩니다.';
+
+  @override
+  String get consumptionCacheDebugViewClear => '지우기';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => '캐시가 성공적으로 지워졌습니다';
+
+  @override
+  String get consumptionCacheDebugViewError => '오류';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => '소비 캐시 사용';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      '계산된 소비를 캐시하고 필요할 때마다 재사용';
+
+  @override
+  String get tibberAccessToken => '액세스 토큰';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return '스마트미터 $smartmeterId가 인포코드 $infocode를 수신했습니다';
   }
@@ -2464,9 +2496,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => '이용 약관';
-
-  @override
-  String get tibberAccessToken => '액세스 토큰';
 
   @override
   String get tibberActionSaveAuthorizationSettings => '인증 설정 저장';

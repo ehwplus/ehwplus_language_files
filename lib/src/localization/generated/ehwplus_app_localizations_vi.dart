@@ -2265,6 +2265,40 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Sản phẩm';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Bộ nhớ cache tiêu thụ';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'mục';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Xóa bộ nhớ cache';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Bạn có chắc chắn muốn xóa tất cả bộ nhớ cache tiêu thụ cho đối tượng này không? Tất cả dữ liệu tiêu thụ được lưu trữ sẽ bị xóa.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Xóa';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Bộ nhớ cache đã được xóa thành công';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Lỗi';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Sử dụng bộ nhớ cache tiêu thụ';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Lưu trữ tiêu thụ được tính toán và sử dụng lại khi cần';
+
+  @override
+  String get tibberAccessToken => 'Mã thông báo truy cập';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Đồng hồ thông minh $smartmeterId đã nhận được mã thông tin: $infocode';
   }
@@ -2537,9 +2571,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Điều khoản sử dụng';
-
-  @override
-  String get tibberAccessToken => 'Mã thông báo truy cập';
 
   @override
   String get tibberActionSaveAuthorizationSettings => 'Lưu cài đặt ủy quyền';

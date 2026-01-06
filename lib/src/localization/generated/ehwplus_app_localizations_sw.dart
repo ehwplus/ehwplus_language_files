@@ -2268,6 +2268,39 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Uzalishaji';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Hifadhi ya matumizi';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'maingizo';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Futa cache';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Je, una uhakika kwamba unataka kufuta hifadhi yote ya matumizi kwa kitu hiki? Data yote iliyohifadhiwa ya matumizi itaondolewa.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Futa';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache ilisafishwa kwa mafanikio';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Kosa';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Tumia hifadhi ya matumizi';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Hifadhi matumizi yaliyohesabiwa na watamiaji inapohitajika';
+
+  @override
+  String get tibberAccessToken => 'Ufikiaji wa ishara';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'SmartMeter Phtoken0 ilipokea InfoCode: PhToken1';
   }
@@ -2541,9 +2574,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Masharti ya Matumizi';
-
-  @override
-  String get tibberAccessToken => 'Ufikiaji wa ishara';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

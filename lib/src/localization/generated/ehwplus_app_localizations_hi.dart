@@ -2272,6 +2272,39 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'प्रस्तुतियों';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'खपत कैश';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'प्रविष्टियां';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'कैश साफ़ करें';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'क्या आप इस ऑब्जेक्ट के लिए सभी खपत कैश साफ़ करना सुनिश्चित हैं? सभी संग्रहीत खपत डेटा हटा दिया जाएगा।';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'साफ़ करें';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'कैश सफलतापूर्वक साफ़ हो गया';
+
+  @override
+  String get consumptionCacheDebugViewError => 'त्रुटि';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'खपत कैश का उपयोग करें';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'गणना की गई खपत को कैश करें और आवश्यकता पड़ने पर दोबारा उपयोग करें';
+
+  @override
+  String get tibberAccessToken => 'एक्सेस टोकन';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'स्मार्टमीटर $smartmeterId को सूचनाकोड प्राप्त हुआ: $infocode';
   }
@@ -2544,9 +2577,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'उपयोग की शर्तें';
-
-  @override
-  String get tibberAccessToken => 'एक्सेस टोकन';
 
   @override
   String get tibberActionSaveAuthorizationSettings => 'प्राधिकरण सेटिंग सहेजें';

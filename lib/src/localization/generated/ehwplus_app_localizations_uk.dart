@@ -2278,6 +2278,39 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Виробництва';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Кеш споживання';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'записи';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Очистити кеш';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Ви впевнені, що хочете очистити весь кеш споживання для цього об\'єкта? Усі збережені дані про споживання будуть видалені.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Очистити';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Кеш успішно очищено';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Помилка';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Використовувати кеш споживання';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Кешуйте обчислене споживання та повторно використовуйте за потреби';
+
+  @override
+  String get tibberAccessToken => 'Маркер доступу';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Смартметр $smartmeterId отримав інфокод: $infocode';
   }
@@ -2549,9 +2582,6 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Умови використання';
-
-  @override
-  String get tibberAccessToken => 'Маркер доступу';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

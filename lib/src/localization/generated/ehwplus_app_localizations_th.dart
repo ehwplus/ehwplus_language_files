@@ -2256,6 +2256,38 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'โปรดักชั่น';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'แคชการใช้งาน';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'รายการ';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'ล้างแคช';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'คุณแน่ใจหรือไม่ว่าต้องการล้างแคชการใช้งานทั้งหมดสำหรับออบเจกต์นี้ ข้อมูลการใช้งานที่บันทึกไว้ทั้งหมดจะถูกลบออก';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'ล้าง';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'ล้างแคชเรียบร้อยแล้ว';
+
+  @override
+  String get consumptionCacheDebugViewError => 'ข้อผิดพลาด';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'ใช้แคชการใช้งาน';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'แคชการใช้งานที่คำนวณและใช้ซ้ำตามต้องการ';
+
+  @override
+  String get tibberAccessToken => 'โทเค็นการเข้าถึง';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId ได้รับรหัสข้อมูล: $infocode';
   }
@@ -2526,9 +2558,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'เงื่อนไขการใช้งาน';
-
-  @override
-  String get tibberAccessToken => 'โทเค็นการเข้าถึง';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

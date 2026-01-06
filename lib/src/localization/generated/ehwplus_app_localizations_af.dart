@@ -2263,6 +2263,39 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produksies';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Verbruiks-kas';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'inskrywings';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Vee kas uit';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Is jy seker dat jy al verbruiks-kas vir hierdie voorwerp wil vee? Alle gestoor verbruiksdata sal verwyder word.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Vee uit';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Kas suksesvol skoongemaak';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Fout';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Gebruik verbruiks-kas';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Kas berekende verbruike en hergebruik wanneer nodig';
+
+  @override
+  String get tibberAccessToken => 'Toegangstoken';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Slimmeter $smartmeterId het infokode ontvang: $infocode';
   }
@@ -2536,9 +2569,6 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Gebruiksvoorwaardes';
-
-  @override
-  String get tibberAccessToken => 'Toegangstoken';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

@@ -2209,6 +2209,38 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'プロダクション';
 
   @override
+  String get consumptionCacheDebugViewTitle => '消費量キャッシュ';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'エントリ';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'キャッシュをクリア';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'このオブジェクトのすべての消費キャッシュをクリアしてもよろしいですか?保存されたすべての消費データが削除されます。';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'クリア';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'キャッシュが正常にクリアされました';
+
+  @override
+  String get consumptionCacheDebugViewError => 'エラー';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => '消費キャッシュを使用する';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      '計算された消費量をキャッシュし、必要に応じて再利用する';
+
+  @override
+  String get tibberAccessToken => 'アクセストークン';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'スマートメーター $smartmeterId が情報コードを受信しました: $infocode';
   }
@@ -2466,9 +2498,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => '利用規約';
-
-  @override
-  String get tibberAccessToken => 'アクセストークン';
 
   @override
   String get tibberActionSaveAuthorizationSettings => '認証設定を保存する';

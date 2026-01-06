@@ -2269,6 +2269,39 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkce';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Mezipaměť spotřeby';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'položky';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Vymazat mezipaměť';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Opravdu chcete vymazat všechnu mezipaměť spotřeby pro tento objekt? Všechna uložená data o spotřebě budou odstraněna.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Vymazat';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Mezipaměť byla úspěšně vymazána';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Chyba';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Použít mezipaměť spotřeby';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Mezipaměť vypočítané spotřeby a opětovné použití v případě potřeby';
+
+  @override
+  String get tibberAccessToken => 'Přístupový token';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId přijal informační kód: $infocode';
   }
@@ -2541,9 +2574,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Podmínky použití';
-
-  @override
-  String get tibberAccessToken => 'Přístupový token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

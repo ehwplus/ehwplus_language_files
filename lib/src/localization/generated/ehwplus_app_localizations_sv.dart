@@ -2272,6 +2272,39 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produktioner';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Förbrukningscache';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'poster';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Rensa cache';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Är du säker på att du vill rensa all förbrukningscache för detta objekt? All lagrad förbrukningsdata kommer att tas bort.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Rensa';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache rensades framgångsrikt';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Fel';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Använd förbrukningscache';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Cachelagra beräknad förbrukning och återanvänd vid behov';
+
+  @override
+  String get tibberAccessToken => 'Access Token';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId fick infokod: $infocode';
   }
@@ -2544,9 +2577,6 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Användarvillkor';
-
-  @override
-  String get tibberAccessToken => 'Access Token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
