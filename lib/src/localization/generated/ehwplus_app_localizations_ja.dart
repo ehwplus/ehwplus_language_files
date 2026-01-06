@@ -838,7 +838,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      '夏の間、メーターの指示値を0に設定しますか?冬には、測定値は通常の消費パターンに従います。夏には平らになります。';
+      '予測においては、季節性メーターと非季節性メーターが区別されます。これに基づき、予測の算出方法が異なります。\n\n季節変動計量器には、暖房、ガス、石油が常に分類されます。非季節変動計量器は電気と水道です。\n\n非季節変動計量器では、過去90日間の消費量が決定的となります。\n\n季節変動計量器では、前年度データが利用可能な場合、前年度の全月を均等に加味して平均化します（例外：前年度の該当月データが未取得の場合、前年度の平均値を使用）。';
 
   @override
   String get counterFactor => '要素';
@@ -2209,38 +2209,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'プロダクション';
 
   @override
-  String get consumptionCacheDebugViewTitle => '消費量キャッシュ';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'エントリ';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'キャッシュをクリア';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'このオブジェクトのすべての消費キャッシュをクリアしてもよろしいですか?保存されたすべての消費データが削除されます。';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'クリア';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'キャッシュが正常にクリアされました';
-
-  @override
-  String get consumptionCacheDebugViewError => 'エラー';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => '消費キャッシュを使用する';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      '計算された消費量をキャッシュし、必要に応じて再利用する';
-
-  @override
-  String get tibberAccessToken => 'アクセストークン';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'スマートメーター $smartmeterId が情報コードを受信しました: $infocode';
   }
@@ -2498,6 +2466,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => '利用規約';
+
+  @override
+  String get tibberAccessToken => 'アクセストークン';
 
   @override
   String get tibberActionSaveAuthorizationSettings => '認証設定を保存する';
@@ -3340,4 +3311,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

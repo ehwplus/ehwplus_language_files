@@ -864,8 +864,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get counterExcludedContracts => 'ဖယ်ထုတ်ထားစာချုပ်များ';
 
   @override
-  String get counterExplainSeasonal =>
-      'နွေရာသီကာလအတွင်းမီတာဖတ်ရန်ပြင်ဆင်ထားပါသလား။ ဆောင်းရာသီတွင်ဖတ်ခြင်းသည်သင်၏ပုံမှန်စားသုံးမှုပုံစံကိုလိုက်နာရမည်။ နွေရာသီမှာသူတို့ကပြားနေလိမ့်မယ်။';
+  String get counterExplainSeasonal => '';
 
   @override
   String get counterFactor => 'ဆူး';
@@ -2274,39 +2273,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'အဆောက်အအုံများ';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'စားသုံးမှု cache';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'ထည့်သွင်းမှုများ';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'cache ရှင်းလင်းပါ';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'ဤအရာအတွက် စားသုံးမှု cache အားလုံးကို ရှင်းလင်းလိုသည်မှာ သေချာပါသလား။ သိမ်းဆည်းထားသော စားသုံးမှု အချက်အလက် အားလုံးကို ဖျက်မည်။';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'ရှင်းလင်းပါ';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
-
-  @override
-  String get consumptionCacheDebugViewError => 'အမှားအယွင်း';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'စားသုံးမှု cache အသုံးပြုပါ';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'တွက်ချက်သောစားသုံးမှုကို cache ချ၍လိုအပ်လျှင်ပြန်လည်အသုံးပြုပါ';
-
-  @override
-  String get tibberAccessToken => 'access token';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'SmartMeter Phtoken0 ကို Phtoken ဒိုစာကိုလက်ခံရရှိသည်';
   }
@@ -2580,6 +2546,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'သတ်မှတ်ချက်များ';
+
+  @override
+  String get tibberAccessToken => 'access token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3451,4 +3420,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

@@ -863,7 +863,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Zählerstände im Sommer auf 0 setzen? Im Winter folgt der Verlauf deinem Verbrauch; im Sommer bleibt er flach.';
+      'Für Prognosen wird zwischen saisonalen Zählern und nicht-saisonalen Zählern unterschieden. Abhängig davon wird die Prognose anders berechnet.\n\nImmer als saisonal eingestuft werden Heizung, Gas, Öl. Nicht-saisonale Zähler sind Strom (auch NT/HT) und Wasser.\n\nFür nicht-saisonale Zähler ist der Verbrauch der letzten 30 Tage ausschlaggebend.\n\nFür saisonale Zähler wird der Durchschnitt der Vorjahre gebildet (falls die Erstablesung länger als 60 Tage her ist), wobei die Monate aktuellerer Jahre höher gewichtet werden. So wird zum Beispiel der Verbrauch/Ertrag des Vorvorjahres nur halb so stark gezählt wie der des Vorjahres. Ausnahme: Gibt es noch keine Daten für den Monat des Vorjahres, wird der Durchschnittsverbrauch der letzten 60 Tage verwendet.\n\nEinige Zähler wie Gas, Öl, Heizung werden automatisch als saisonale Zähler eingestuft. Stromzähler sind zunächst nicht-saisonale Zähler, können aber in den Einstellungen umgestellt werden.';
 
   @override
   String get counterFactor => 'Faktor';
@@ -2264,39 +2264,6 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Erträge';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Verbrauchscache';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'Einträge';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Cache leeren';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Möchtest du wirklich den gesamten Verbrauchscache für dieses Objekt löschen? Alle gespeicherten Verbrauchsdaten werden entfernt.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Löschen';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache erfolgreich geleert';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Fehler';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Verbrauchscache verwenden';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Zwischenspeicherung berechneter Verbräuche und Wiederverwendung bei Bedarf';
-
-  @override
-  String get tibberAccessToken => 'Access Token';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId hat folgenden Infocode erhalten: $infocode';
   }
@@ -2569,6 +2536,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Nutzungsbedingungen';
+
+  @override
+  String get tibberAccessToken => 'Access Token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3439,4 +3409,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Eine gültige Postleitzahl besteht nur aus Zahlen';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

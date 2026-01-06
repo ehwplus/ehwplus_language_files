@@ -861,7 +861,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Đặt chỉ số đồng hồ về 0 trong mùa hè? Vào mùa đông, các bài đọc sẽ tuân theo mô hình tiêu dùng bình thường của bạn; vào mùa hè, chúng sẽ phẳng lì.';
+      'Đối với dự báo, người ta phân biệt giữa các đồng hồ đo theo mùa và không theo mùa. Tùy thuộc vào điều này, dự báo được tính toán theo cách khác nhau.\n\nLuôn được phân loại là theo mùa là các chỉ số tiêu thụ nhiệt, khí đốt và dầu. Các chỉ số không theo mùa là điện và nước.  \n\nĐối với các chỉ số không theo mùa, lượng tiêu thụ trong 90 ngày gần nhất là yếu tố quyết định.  \n\nĐối với các chỉ số theo mùa, lượng tiêu thụ của các năm trước được tính trung bình (nếu có dữ liệu), với tất cả các tháng của các năm trước được tính như nhau. (Trường hợp ngoại lệ: nếu chưa có dữ liệu cho tháng tương ứng của năm trước, thì sử dụng trung bình của năm trước).';
 
   @override
   String get counterFactor => 'Nhân tố';
@@ -2265,40 +2265,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Sản phẩm';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Bộ nhớ cache tiêu thụ';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'mục';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Xóa bộ nhớ cache';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Bạn có chắc chắn muốn xóa tất cả bộ nhớ cache tiêu thụ cho đối tượng này không? Tất cả dữ liệu tiêu thụ được lưu trữ sẽ bị xóa.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Xóa';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Bộ nhớ cache đã được xóa thành công';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Lỗi';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Sử dụng bộ nhớ cache tiêu thụ';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Lưu trữ tiêu thụ được tính toán và sử dụng lại khi cần';
-
-  @override
-  String get tibberAccessToken => 'Mã thông báo truy cập';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Đồng hồ thông minh $smartmeterId đã nhận được mã thông tin: $infocode';
   }
@@ -2571,6 +2537,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Điều khoản sử dụng';
+
+  @override
+  String get tibberAccessToken => 'Mã thông báo truy cập';
 
   @override
   String get tibberActionSaveAuthorizationSettings => 'Lưu cài đặt ủy quyền';
@@ -3441,4 +3410,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Mã zip hợp lệ chỉ bao gồm các số';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

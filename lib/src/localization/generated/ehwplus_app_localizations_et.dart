@@ -859,7 +859,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Kas seada suvel arvestinäidud 0‑ks? Talvel järgivad näidud tavalist tarbimist, suvel jäävad need stabiilseks.';
+      'Prognooside puhul eristatakse hooajalisi ja mittehooajalisi arvestid. Sõltuvalt sellest arvutatakse prognoos erinevalt.\n\nAlati klassifitseeritakse hooajalisteks kütte, gaasi ja nafta tarbimise arvestid. Mittehooajalised arvestid on elektri ja vee arvestid.\n\nMittehooajaliste arvestite puhul on otsustavaks viimase 90 päeva tarbimine.\n\nHooajaliste arvestite puhul arvutatakse eelmiste aastate keskmine (kui see on kättesaadav), kusjuures kõik eelmiste aastate kuud loetakse võrdseks. (Erand: kui eelmise aasta kuu kohta veel andmeid ei ole, kasutatakse eelmise aasta keskmist).';
 
   @override
   String get counterFactor => 'Tegur';
@@ -2268,39 +2268,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Toodangud';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Tarbimise vahemälu';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'kirjed';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Kustuta vahemälu';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Kas olete kindel, et soovite kustutada selle objekti kogu tarbimise vahemälu? Kõik salvestatud tarbimisandmed kustutatakse.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Kustuta';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Vahemälu kustutati edukalt';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Viga';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Kasuta tarbimise vahemälu';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Arvutatud tarbimise vahemälus salvestamine ja vajadusel uuesti kasutamine';
-
-  @override
-  String get tibberAccessToken => 'Juurdepääsutoken';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Nutiarvesti $smartmeterId sai infokoodi: $infocode';
   }
@@ -2571,6 +2538,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Kasutustingimused';
+
+  @override
+  String get tibberAccessToken => 'Juurdepääsutoken';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3436,4 +3406,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Kehtiv postiindeks koosneb ainult numbritest';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

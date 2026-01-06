@@ -864,7 +864,7 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Meterstanden op 0 zetten tijdens de zomer? In de winter volgen de aflezingen uw normale verbruikspatroon; in de zomer blijven ze vlak.';
+      'Voor prognoses wordt een onderscheid gemaakt tussen seizoensgebonden en niet-seizoensgebonden meters. Afhankelijk hiervan wordt de prognose anders berekend.\n\nAltijd als seizoensgebonden worden aangemerkt: verwarming, gas, olie. Niet-seizoensgebonden meters zijn elektriciteit en water.\n\nVoor niet-seizoensgebonden meters is het verbruik van de afgelopen 90 dagen bepalend.\n\nVoor seizoensgebonden meters wordt het gemiddelde genomen van voorgaande jaren (indien beschikbaar), waarbij alle maanden van voorgaande jaren even zwaar meetellen. (Uitzondering: als er nog geen gegevens beschikbaar zijn voor de maand van het voorgaande jaar, wordt het gemiddelde van voorgaande jaren gebruikt).';
 
   @override
   String get counterFactor => 'Factor';
@@ -2282,38 +2282,6 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Productie';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Verbruikscache';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'ingangen';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Cache wissen';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Weet u zeker dat u alle verbruikscache voor dit object wilt wissen? Alle opgeslagen verbruiksgegevens worden verwijderd.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Wissen';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'Cache succesvol gewist';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Fout';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Verbruikscache gebruiken';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Bereken verbruik in cache en hergebruik indien nodig';
-
-  @override
-  String get tibberAccessToken => 'Toegangstoken';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Slimme meter $smartmeterId heeft infocode ontvangen: $infocode';
   }
@@ -2588,6 +2556,9 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Gebruiksvoorwaarden';
+
+  @override
+  String get tibberAccessToken => 'Toegangstoken';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3459,4 +3430,7 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Een geldige postcode bestaat alleen uit cijfers';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

@@ -900,5 +900,6 @@
   "youtubeConsent3": "Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden. Mehr dazu in unseren ",
   "zipCode": "Postleitzahl",
   "zipCodeValidationLength": "Bitte {digits}-stellige Postleitzahl eingeben",
-  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen"
+  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen",
+  "wallbox": "Wallbox"
 }

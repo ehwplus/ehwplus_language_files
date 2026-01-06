@@ -864,7 +864,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'വേനൽക്കാലത്ത് മീറ്റർ റീഡിംഗുകൾ 0 ആയി സജ്ജീകരിക്കണോ? ശൈത്യകാലത്ത്, വായനകൾ നിങ്ങളുടെ സാധാരണ ഉപഭോഗ രീതി പിന്തുടരും; വേനൽക്കാലത്ത് അവ പരന്നതായിരിക്കും.';
+      'പ്രവചനങ്ങൾക്കായി, സീസണൽ, നോൺ-സീസണൽ മീറ്ററുകൾ എന്നിങ്ങനെ വേർതിരിവ് വരുത്തുന്നു. ഇതിനെ ആശ്രയിച്ച്, പ്രവചനം വ്യത്യസ്ത രീതിയിലാണ് കണക്കാക്കുന്നത്.\n\nഹീറ്റിംഗ്, ഗ്യാസ്, ഓയിൽ എന്നിവയെ എപ്പോഴും സീസണലായി തരംതിരിക്കുന്നു. ഇലക്ട്രിസിറ്റി, വാട്ടർ എന്നിവ നോൺ-സീസണൽ മീറ്ററുകളാണ്.\n\nനോൺ-സീസണൽ മീറ്ററുകൾക്ക്, കഴിഞ്ഞ 90 ദിവസത്തെ ഉപഭോഗമാണ് നിർണ്ണായകം.\n\nസീസണൽ മീറ്ററുകൾക്ക്, മുൻ വർഷങ്ങളെ ശരാശരി ചെയ്യുന്നു (ലഭ്യമെങ്കിൽ), മുൻ വർഷങ്ങളിലെ എല്ലാ മാസങ്ങളും ഒരുപോലെ കണക്കാക്കുന്നു. (ഒഴികഴിവ്: മുൻ വർഷത്തെ ആ മാസത്തെ ഡാറ്റ ഇതുവരെ ലഭ്യമല്ലെങ്കിൽ, അപ്പോൾ മുൻപത്തെ ശരാശരി ഉപയോഗിക്കും).';
 
   @override
   String get counterFactor => 'ഘടകം';
@@ -2280,39 +2280,6 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'പ്രൊഡക്ഷൻസ്';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'ഉപഭോഗ കാഷെ';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'എന്ത്രികൾ';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'കാഷെ മായ്ച്ചുകൊടുക്കുക';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'ഈ ഒബ്ജക്റ്റിനുള്ള എല്ലാ ഉപഭോഗ കാഷെയും മായ്ച്ചുകൊടുക്കാൻ നിങ്ങൾ ഉറപ്പാണോ? സേവിച്ച എല്ലാ ഉപഭോഗ ഡാറ്റ നീക്കം ചെയ്യപ്പെടും.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'മായ്ച്ചുകൊടുക്കുക';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'കാഷെ വിജയകരമായി മായ്ച്ചു';
-
-  @override
-  String get consumptionCacheDebugViewError => 'പിശക്';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'ഉപഭോഗ കാഷെ ഉപയോഗിക്കുക';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'കണക്കാക്കിയ ഉപഭോഗം കാഷെ ചെയ്യുകയും ആവശ്യമായ സമയത്ത് പുനരുപയോഗം ചെയ്യുകയും ചെയ്യുക';
-
-  @override
-  String get tibberAccessToken => 'ആക്സസ് ടോക്കൺ';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'സ്മാർട്ട്മീറ്റർ $smartmeterId-ന് ഇൻഫോകോഡ് ലഭിച്ചു: $infocode';
   }
@@ -2586,6 +2553,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'ഉപയോഗ നിബന്ധനകൾ';
+
+  @override
+  String get tibberAccessToken => 'ആക്സസ് ടോക്കൺ';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3459,4 +3429,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'ഒരു സാധുവായ പിൻ കോഡിൽ അക്കങ്ങൾ മാത്രമേ അടങ്ങിയിട്ടുള്ളൂ';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

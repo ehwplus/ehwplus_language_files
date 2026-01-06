@@ -859,7 +859,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Weka usomaji wa mita hadi 0 wakati wa msimu wa joto? Katika msimu wa baridi, usomaji utafuata muundo wako wa kawaida wa matumizi; Katika msimu wa joto, watakaa gorofa.';
+      'Kwa makadirio, kuna utofauti kati ya kaunta za msimu na zisizo za msimu. Kulingana na hili, makadirio huhesabiwa tofauti.\n\nDaima zinazotambuliwa kuwa za msimu ni za kupasha joto, gesi, na mafuta. Mitambo isiyo ya msimu ni ya umeme na maji.\n\nKwa mitambo isiyo ya msimu, matumizi ya siku 90 zilizopita ndiyo huamua.\n\nKwa mitambo ya msimu, wastani wa miaka iliyopita hutumika (ikiwa unapatikana), huku miezi yote ya miaka iliyopita ikihesabiwa sawa. (Isipokuwa: hakuna data bado kwa mwezi wa mwaka uliopita, basi wastani wa awali hutumika).';
 
   @override
   String get counterFactor => 'Sababu';
@@ -2268,39 +2268,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Uzalishaji';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Hifadhi ya matumizi';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'maingizo';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Futa cache';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Je, una uhakika kwamba unataka kufuta hifadhi yote ya matumizi kwa kitu hiki? Data yote iliyohifadhiwa ya matumizi itaondolewa.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Futa';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache ilisafishwa kwa mafanikio';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Kosa';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Tumia hifadhi ya matumizi';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Hifadhi matumizi yaliyohesabiwa na watamiaji inapohitajika';
-
-  @override
-  String get tibberAccessToken => 'Ufikiaji wa ishara';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'SmartMeter Phtoken0 ilipokea InfoCode: PhToken1';
   }
@@ -2574,6 +2541,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Masharti ya Matumizi';
+
+  @override
+  String get tibberAccessToken => 'Ufikiaji wa ishara';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3442,4 +3412,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Nambari halali ya zip ina nambari tu';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

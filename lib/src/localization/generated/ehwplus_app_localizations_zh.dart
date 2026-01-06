@@ -831,7 +831,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      '夏天将仪表读数设置为 0？冬季，读数将遵循您的正常消费模式；在夏天，它们会保持平坦。';
+      '在预测中，需区分季节性与非季节性计量表。根据此分类，预测计算方式各不相同。\n\n供暖、燃气、燃油计量表始终归类为季节性计量表。电力和水表则属于非季节性计量表。\n\n非季节性计量表的预测值取决于最近90天的消耗量。\n\n季节性计量表的预测值采用往年平均值（若数据可用），且往年所有月份数据权重相同。（例外情况：若往年同期尚无数据，则采用往年平均值作为基准）。';
 
   @override
   String get counterFactor => '因素';
@@ -2190,37 +2190,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => '作品';
 
   @override
-  String get consumptionCacheDebugViewTitle => '消耗缓存';
-
-  @override
-  String get consumptionCacheDebugViewEntries => '条目';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => '清除缓存';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      '您确定要清除此对象的所有消耗缓存吗？所有存储的消耗数据将被删除。';
-
-  @override
-  String get consumptionCacheDebugViewClear => '清除';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => '缓存已成功清除';
-
-  @override
-  String get consumptionCacheDebugViewError => '错误';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => '使用消耗缓存';
-
-  @override
-  String get consumptionCacheToggleButtonDescription => '缓存计算的消耗量并在需要时重新使用';
-
-  @override
-  String get tibberAccessToken => '访问令牌';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return '智能电表 $smartmeterId 收到信息代码：$infocode';
   }
@@ -2473,6 +2442,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => '使用条款';
+
+  @override
+  String get tibberAccessToken => '访问令牌';
 
   @override
   String get tibberActionSaveAuthorizationSettings => '保存授权设置';
@@ -3295,4 +3267,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

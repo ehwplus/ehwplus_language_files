@@ -859,7 +859,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'قرائت متر را در تابستان روی 0 تنظیم کنید؟در زمستان، قرائت ها از الگوی مصرف عادی شما پیروی می کنند.در تابستان، آنها صاف می مانند.';
+      'برای پیش‌بینی‌ها، بین کنتورهای فصلی و غیرفصلی تمایز قائل می‌شوند. بسته به این موضوع، پیش‌بینی به شیوه‌های متفاوتی محاسبه می‌شود.\n\nمصرفی که برای گرمایش، گاز و نفت در نظر گرفته می‌شود، همیشه فصلی محسوب می‌شود. کنتورهای غیرفصلی شامل برق و آب هستند.\n\nبرای کنتورهای غیرفصلی، مصرف ۹۰ روز گذشته ملاک قرار می‌گیرد.\n\nبرای کنتورهای فصلی، سال‌های گذشته میانگین‌گیری می‌شوند (در صورت موجود بودن)، و تمام ماه‌های سال‌های گذشته به یک اندازه در نظر گرفته می‌شوند. (استثناء: اگر داده‌ای برای ماه مورد نظر در سال گذشته موجود نباشد، از میانگین سال گذشته استفاده می‌شود).';
 
   @override
   String get counterFactor => 'ضریب';
@@ -2268,39 +2268,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'تولیدات';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'حافظه پنهان مصرف';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'ورودی ها';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'پاک کردن حافظه پنهان';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'آیا مطمئن هستید که می‌خواهید تمام حافظه پنهان مصرف برای این شیء را پاک کنید؟ تمام داده‌های مصرف ذخیره شده حذف خواهند شد.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'پاک کردن';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'حافظه پنهان با موفقیت پاک شد';
-
-  @override
-  String get consumptionCacheDebugViewError => 'خطا';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'استفاده از حافظه پنهان مصرف';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'حافظه پنهان مصرف محاسبه شده و استفاده مجدد در صورت نیاز';
-
-  @override
-  String get tibberAccessToken => 'رمز دسترسی';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'سنج هوشمند $smartmeterId کد اطلاعات دریافت کرد: $infocode';
   }
@@ -2573,6 +2540,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'شرایط استفاده';
+
+  @override
+  String get tibberAccessToken => 'رمز دسترسی';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3437,4 +3407,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'یک کد پستی معتبر فقط از اعداد تشکیل شده است';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

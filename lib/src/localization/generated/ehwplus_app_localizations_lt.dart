@@ -859,7 +859,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Nustatyti skaitiklio rodmenis į 0 vasarą? Žiemą rodmenys atitiks įprastą vartojimo būdą; vasarą jie liks plokšti.';
+      'Prognozėse skiriami sezoniniai ir nesezoniniai skaitikliai. Priklausomai nuo to, prognozė skaičiuojama skirtingai.\n\nVisada sezoniniais laikomi šildymo, dujų, naftos skaitikliai. Nesezoniniai skaitikliai yra elektros ir vandens skaitikliai.\n\nNesezoninių skaitiklių atveju lemiamu laikomas pastarųjų 90 dienų suvartojimas.\n\nSezoninių skaitiklių atveju skaičiuojamas praėjusių metų vidurkis (jei yra duomenų), visus praėjusių metų mėnesius vertinant vienodai. (Išimtis: jei dar nėra praėjusių metų mėnesio duomenų, tuomet naudojamas ankstesnis vidurkis).';
 
   @override
   String get counterFactor => 'veiksnys';
@@ -2273,40 +2273,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkcijos';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Suvartojimo talpykla';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'įrašai';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Išvalyti talpyklą';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Ar tikrai norite išvalyti visą šio objekto suvartojimo talpyklą? Visi saugomi suvartojimo duomenys bus ištrinti.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Išvalyti';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Talpykla sėkmingai išvalyta';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Klaida';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Naudoti suvartojimo talpyklą';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Suvartojimo talpyklos kešavimas ir naudojimas iš naujo, kai reikia';
-
-  @override
-  String get tibberAccessToken => 'Prieigos prieigos raktas';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Išmanusis matuoklis $smartmeterId gavo infokodą: $infocode';
   }
@@ -2579,6 +2545,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Naudojimo sąlygos';
+
+  @override
+  String get tibberAccessToken => 'Prieigos prieigos raktas';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3449,4 +3418,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Galiojantį pašto kodą sudaro tik skaičiai';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

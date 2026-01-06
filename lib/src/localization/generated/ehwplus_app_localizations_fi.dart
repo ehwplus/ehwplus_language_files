@@ -860,7 +860,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Asetetaanko mittarin lukemat nollaan kesän aikana?Talvella lukemat noudattavat normaalia kulutusta;kesällä ne pysyvät tasaisina.';
+      'Ennusteissa erotetaan toisistaan kausiluonteiset ja ei-kausiluonteiset mittarit. Ennuste lasketaan tämän perusteella eri tavalla.\n\nKausiluonteisiksi luokitellaan aina lämmitys, kaasu ja öljy. Ei-kausiluonteisia mittareita ovat sähkö ja vesi.\n\nEi-kausiluonteisten mittareiden osalta ratkaisevaa on viimeisten 90 päivän kulutus.\n\nKausiluonteisten mittareiden osalta lasketaan edellisten vuosien keskiarvo (jos saatavilla), jolloin kaikki edellisten vuosien kuukaudet lasketaan samalla tavalla. (Poikkeus: jos edellisen vuoden kuukaudesta ei ole vielä tietoja, käytetään edellisen keskiarvoa).';
 
   @override
   String get counterFactor => 'Tekijä';
@@ -2277,40 +2277,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Tuotokset';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Kulutuksen välimuisti';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'merkinnät';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Tyhjennä välimuisti';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Oletko varma, että haluat poistaa koko kulutuksen välimuistin tähän objektiin? Kaikki tallennetut kulutustiedot poistetaan.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Tyhjennä';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Välimuisti tyhjennettiin onnistuneesti';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Virhe';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Käytä kulutuksen välimuistia';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Lasketun kulutuksen välimuistiin tallentaminen ja uudelleenkäyttö tarvittaessa';
-
-  @override
-  String get tibberAccessToken => 'Käyttöoikeustunnus';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Älymittari $smartmeterId vastaanotti tietokoodin: $infocode';
   }
@@ -2582,6 +2548,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Käyttöehdot';
+
+  @override
+  String get tibberAccessToken => 'Käyttöoikeustunnus';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3448,4 +3417,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Kelvollinen postinumero koostuu vain numeroista';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

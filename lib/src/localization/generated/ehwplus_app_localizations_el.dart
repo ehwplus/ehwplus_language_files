@@ -870,7 +870,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Θέλετε τις ενδείξεις του μετρητή στο 0 κατά τη διάρκεια του καλοκαιριού; Το χειμώνα, οι μετρήσεις θα ακολουθούν το κανονικό σας πρότυπο κατανάλωσης. το καλοκαίρι, θα μείνουν επίπεδη.';
+      'Για τις προβλέψεις, γίνεται διάκριση μεταξύ εποχιακών και μη εποχιακών μετρητών. Ανάλογα με αυτό, η πρόβλεψη υπολογίζεται διαφορετικά.\n\nΠάντα ταξινομούνται ως εποχιακοί οι μετρητές θέρμανσης, φυσικού αερίου και πετρελαίου. Μη εποχιακοί μετρητές είναι οι μετρητές ηλεκτρικού ρεύματος και νερού.\n\nΓια τους μη εποχιακούς μετρητές, καθοριστική είναι η κατανάλωση των τελευταίων 90 ημερών.\n\nΓια τους εποχιακούς μετρητές, υπολογίζεται ο μέσος όρος των προηγούμενων ετών (εάν είναι διαθέσιμος), με όλους τους μήνες των προηγούμενων ετών να μετράνε το ίδιο. (Εξαίρεση: εάν δεν υπάρχουν ακόμη δεδομένα για τον μήνα του προηγούμενου έτους, τότε χρησιμοποιείται ο προηγούμενος μέσος όρος).';
 
   @override
   String get counterFactor => 'Παράγοντας';
@@ -2295,41 +2295,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Παραγωγές';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Προσωρινή μνήμη κατανάλωσης';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'καταχωρήσεις';
-
-  @override
-  String get consumptionCacheDebugViewClearCache =>
-      'Διαγραφή προσωρινής μνήμης';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Είστε σίγουροι ότι θέλετε να διαγράψετε όλη την προσωρινή μνήμη κατανάλωσης για αυτό το αντικείμενο; Όλα τα αποθηκευμένα δεδομένα κατανάλωσης θα αφαιρεθούν.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Διαγραφή';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Η προσωρινή μνήμη διαγράφηκε με επιτυχία';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Σφάλμα';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Χρήση προσωρινής μνήμης κατανάλωσης';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Προσωρινή μνήμη υπολογισμένης κατανάλωσης και ανάχρησης όταν χρειάζεται';
-
-  @override
-  String get tibberAccessToken => 'Token πρόσβασης';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Το Smartmeter $smartmeterId έλαβε κωδικό πληροφοριών: $infocode';
   }
@@ -2604,6 +2569,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Όροι χρήσης';
+
+  @override
+  String get tibberAccessToken => 'Token πρόσβασης';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3475,4 +3443,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

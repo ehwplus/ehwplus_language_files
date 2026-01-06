@@ -864,7 +864,7 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      '¿Poner a 0 las lecturas del contador durante el verano? En invierno, el perfil seguirá tu consumo; en verano, se mantendrá plano.';
+      'Para las previsiones, se distingue entre contadores estacionales y contadores no estacionales. En función de esto, la previsión se calcula de forma diferente.\n\nLa calefacción, el gas y el petróleo se clasifican siempre como estacionales. Los contadores no estacionales son los de electricidad (también NT/HT) y agua.\n\nPara los contadores no estacionales, el consumo de los últimos 90 días es decisivo.\n\nPara los contadores estacionales, se toma la media de los años anteriores (si está disponible), contando todos los meses de los años anteriores por igual. (Excepción: si no hay datos todavía para el mes del año anterior, entonces se utiliza la media anterior).';
 
   @override
   String get counterFactor => 'Factor';
@@ -2272,39 +2272,6 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Producciones';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Caché de consumo';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'entradas';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Limpiar caché';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      '¿Está seguro de que desea limpiar todo el caché de consumo para este objeto? Se eliminarán todos los datos de consumo almacenados.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Limpiar';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Caché limpiado exitosamente';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Error';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Usar caché de consumo';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Almacenar en caché consumo calculado y reutilizar cuando sea necesario';
-
-  @override
-  String get tibberAccessToken => 'Token de acceso';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'El contador inteligente $smartmeterId recibió el infocode: $infocode';
   }
@@ -2577,6 +2544,9 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Condiciones de uso';
+
+  @override
+  String get tibberAccessToken => 'Token de acceso';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3448,4 +3418,7 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Un código postal válido solo contiene números';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

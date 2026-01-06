@@ -877,7 +877,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Установить показания счетчика на 0 летом? Зимой профиль следует вашему потреблению; летом остается плоским.';
+      'Для прогнозов различают сезонные и несезонные счетчики. В зависимости от этого прогноз рассчитывается по-разному.\n\nОтопление, газ, нефть всегда классифицируются как сезонные. Несезонные счетчики - это электричество (также NT/HT) и вода.\n\nДля несезонных счетчиков определяющим является потребление за последние 90 дней.\n\nДля сезонных счетчиков берется среднее значение за предыдущие годы (если имеется), при этом все месяцы предыдущих лет считаются одинаково. (Исключение: пока нет данных за месяц предыдущего года, тогда используется предыдущее среднее значение).';
 
   @override
   String get counterFactor => 'Фактор';
@@ -2280,39 +2280,6 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Производство';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Кэш потребления';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'записи';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Очистить кэш';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Вы уверены, что хотите очистить весь кэш потребления для этого объекта? Все сохраненные данные потребления будут удалены.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Очистить';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'Кэш успешно очищен';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Ошибка';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Использовать кэш потребления';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Кэшируйте рассчитанное потребление и переиспользуйте при необходимости';
-
-  @override
-  String get tibberAccessToken => 'Токен доступа';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Умный счетчик $smartmeterId получил код информации: $infocode';
   }
@@ -2585,6 +2552,9 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Условия использования';
+
+  @override
+  String get tibberAccessToken => 'Токен доступа';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3462,4 +3432,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Допустимый почтовый индекс состоит только из цифр';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

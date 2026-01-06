@@ -1561,7 +1561,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @counterExplainSeasonal.
   ///
   /// In en, this message translates to:
-  /// **'Set meter readings to 0 during the summer? In the winter, the readings will follow your normal consumption pattern; in summer, they will stay flat.'**
+  /// **'For forecasts, a distinction is made between seasonal and non-seasonal counters. Depending on this, the forecast is calculated differently.\n\nAlways classified as seasonal are heating, gas, oil. Non-seasonal meters are electricity and water.\n\nFor non-seasonal meters, the consumption of the last 90 days is decisive.\n\nFor seasonal meters, previous years are averaged (if available), with all months of previous years counting the same. (Exception: there is no data yet for the month of the previous year, then the previous average is used).'**
   String get counterExplainSeasonal;
 
   /// No description provided for @counterFactor.
@@ -3888,66 +3888,6 @@ abstract class EhwplusAppLocalizations {
   /// **'Productions'**
   String get smartMeterTabProductions;
 
-  /// No description provided for @consumptionCacheDebugViewTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Consumptions Cache'**
-  String get consumptionCacheDebugViewTitle;
-
-  /// No description provided for @consumptionCacheDebugViewEntries.
-  ///
-  /// In en, this message translates to:
-  /// **'entries'**
-  String get consumptionCacheDebugViewEntries;
-
-  /// No description provided for @consumptionCacheDebugViewClearCache.
-  ///
-  /// In en, this message translates to:
-  /// **'Clear Cache'**
-  String get consumptionCacheDebugViewClearCache;
-
-  /// No description provided for @consumptionCacheDebugViewClearCacheConfirmation.
-  ///
-  /// In en, this message translates to:
-  /// **'Are you sure you want to clear all consumption cache for this object? All stored consumption data will be removed.'**
-  String get consumptionCacheDebugViewClearCacheConfirmation;
-
-  /// No description provided for @consumptionCacheDebugViewClear.
-  ///
-  /// In en, this message translates to:
-  /// **'Clear'**
-  String get consumptionCacheDebugViewClear;
-
-  /// No description provided for @consumptionCacheDebugViewCacheCleared.
-  ///
-  /// In en, this message translates to:
-  /// **'Cache cleared successfully'**
-  String get consumptionCacheDebugViewCacheCleared;
-
-  /// No description provided for @consumptionCacheDebugViewError.
-  ///
-  /// In en, this message translates to:
-  /// **'Error'**
-  String get consumptionCacheDebugViewError;
-
-  /// No description provided for @consumptionCacheToggleButtonTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Use consumption cache'**
-  String get consumptionCacheToggleButtonTitle;
-
-  /// No description provided for @consumptionCacheToggleButtonDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'Cache computed consumptions and re-use whenever necessary'**
-  String get consumptionCacheToggleButtonDescription;
-
-  /// No description provided for @tibberAccessToken.
-  ///
-  /// In en, this message translates to:
-  /// **'Access Token'**
-  String get tibberAccessToken;
-
   /// No description provided for @smartmeterInfocodeBannerText.
   ///
   /// In en, this message translates to:
@@ -4393,6 +4333,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Terms of use'**
   String get termsOfUsageTitleShort;
+
+  /// No description provided for @tibberAccessToken.
+  ///
+  /// In en, this message translates to:
+  /// **'Access Token'**
+  String get tibberAccessToken;
 
   /// No description provided for @tibberActionSaveAuthorizationSettings.
   ///
@@ -5683,6 +5629,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'A valid zip code consists only of numbers'**
   String get zipCodeValidationOnlyNumbers;
+
+  /// No description provided for @wallbox.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallbox'**
+  String get wallbox;
 }
 
 class _EhwplusAppLocalizationsDelegate

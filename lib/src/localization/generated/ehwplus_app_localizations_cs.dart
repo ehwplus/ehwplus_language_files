@@ -860,7 +860,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Nastavit odečty měřičů na 0 během léta? V zimě budou naměřené hodnoty odpovídat vašemu běžnému vzorci spotřeby; v létě zůstanou ploché.';
+      'U prognóz se rozlišuje mezi sezónními a nesezónními měřiči. V závislosti na tom se prognóza počítá odlišně.\n\nZa sezónní se vždy považují topení, plyn a ropa. Nesezónními měřiči jsou elektřina a voda.\n\nU nesezónních měřičů je rozhodující spotřeba za posledních 90 dní.\n\nU sezónních měřičů se průměrují předchozí roky (jsou-li k dispozici), přičemž všechny měsíce předchozích let se počítají stejně. (Výjimka: pokud ještě nejsou k dispozici údaje za měsíc předchozího roku, použije se předchozí průměr).';
 
   @override
   String get counterFactor => 'Faktor';
@@ -2269,39 +2269,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkce';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Mezipaměť spotřeby';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'položky';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Vymazat mezipaměť';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Opravdu chcete vymazat všechnu mezipaměť spotřeby pro tento objekt? Všechna uložená data o spotřebě budou odstraněna.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Vymazat';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Mezipaměť byla úspěšně vymazána';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Chyba';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Použít mezipaměť spotřeby';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Mezipaměť vypočítané spotřeby a opětovné použití v případě potřeby';
-
-  @override
-  String get tibberAccessToken => 'Přístupový token';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId přijal informační kód: $infocode';
   }
@@ -2574,6 +2541,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Podmínky použití';
+
+  @override
+  String get tibberAccessToken => 'Přístupový token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3444,4 +3414,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Platné PSČ se skládá pouze z čísel';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

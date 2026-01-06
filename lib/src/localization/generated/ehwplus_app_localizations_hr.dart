@@ -862,7 +862,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Postaviti očitanja brojila na 0 tijekom ljeta?Zimi će očitanja slijediti vaš uobičajeni obrazac potrošnje;ljeti će ostati ravne.';
+      'Za prognoze se razlikuju sezonski i ne-sezonski brojila. Ovisno o tome, prognoza se izračunava drugačije.\n\nUvijek se kao sezonski klasificiraju plin za grijanje, plin i nafta. Nesezonski brojila su struja i voda.\n\nZa nesezonska brojila odlučujuća je potrošnja u posljednjih 90 dana.\n\nZa sezonska brojila prosječne se vrijednosti iz prethodnih godina (ako su dostupne), pri čemu se svi mjeseci iz prethodnih godina računaju jednako. (Iznimka: ako za mjesec iz prethodne godine još nema podataka, koristi se prethodni prosjek).';
 
   @override
   String get counterFactor => 'Faktor';
@@ -2278,40 +2278,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkcije';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Predmemorija potrošnje';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'stavke';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Obriši predmemoriju';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Jeste li sigurni da želite obrisati svu predmemoriju potrošnje za ovaj objekt? Svi pohranjeni podaci o potrošnji će biti izbrisani.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Obriši';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Predmemorija je uspješno izbrisana';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Greška';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Koristi predmemoriju potrošnje';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Predmemorija izračunane potrošnje i ponovno korištenje po potrebi';
-
-  @override
-  String get tibberAccessToken => 'Pristupni token';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId primio infocode: $infocode';
   }
@@ -2583,6 +2549,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Uvjeti korištenja';
+
+  @override
+  String get tibberAccessToken => 'Pristupni token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3452,4 +3421,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Važeći poštanski broj sastoji se samo od brojeva';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

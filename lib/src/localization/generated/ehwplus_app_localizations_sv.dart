@@ -857,7 +857,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Ställa mätarställningen på 0 under sommaren? På vintern kommer avläsningarna att följa ditt normala konsumtionsmönster; på sommaren kommer de att hålla sig platt.';
+      'För prognoser görs en åtskillnad mellan säsongsberoende och icke-säsongsberoende mätare. Beroende på detta beräknas prognosen på olika sätt.\n\nVärme, gas och olja klassificeras alltid som säsongsberoende. Icke-säsongsberoende mätare är el och vatten.\n\nFör icke-säsongsberoende mätare är förbrukningen under de senaste 90 dagarna avgörande.\n\nFör säsongsberoende mätare beräknas ett genomsnitt för tidigare år (om tillgängligt), där alla månader under tidigare år räknas lika. (Undantag: om det ännu inte finns några data för månaden föregående år används det tidigare genomsnittet).';
 
   @override
   String get counterFactor => 'Faktor';
@@ -2272,39 +2272,6 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produktioner';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Förbrukningscache';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'poster';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Rensa cache';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Är du säker på att du vill rensa all förbrukningscache för detta objekt? All lagrad förbrukningsdata kommer att tas bort.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Rensa';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache rensades framgångsrikt';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Fel';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Använd förbrukningscache';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Cachelagra beräknad förbrukning och återanvänd vid behov';
-
-  @override
-  String get tibberAccessToken => 'Access Token';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId fick infokod: $infocode';
   }
@@ -2577,6 +2544,9 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Användarvillkor';
+
+  @override
+  String get tibberAccessToken => 'Access Token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3444,4 +3414,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Ett giltigt postnummer består endast av nummer';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

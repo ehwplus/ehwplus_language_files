@@ -862,7 +862,7 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Impostare le letture del contatore a 0 durante l\'estate? In inverno il profilo seguirà il tuo consumo; in estate rimarrà piatto.';
+      'Per le previsioni, si fa una distinzione tra contatori stagionali e non stagionali. A seconda di questo, la previsione viene calcolata in modo diverso.\n\nRiscaldamento, gas, olio sono sempre classificati come stagionali. I contatori non stagionali sono l\'elettricità (anche NT/HT) e l\'acqua.\n\nPer i contatori non stagionali, il consumo degli ultimi 90 giorni è decisivo.\n\nPer i contatori stagionali, si prende la media degli anni precedenti (se disponibile), con tutti i mesi degli anni precedenti che contano allo stesso modo. (Eccezione: non ci sono ancora dati per il mese dell\'anno precedente, allora si usa la media precedente).';
 
   @override
   String get counterFactor => 'Fattore';
@@ -2268,39 +2268,6 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produzioni';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Cache dei consumi';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'voci';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Cancella cache';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Sei sicuro di voler cancellare tutta la cache di consumo per questo oggetto? Tutti i dati di consumo archiviati verranno rimossi.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Cancella';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache cancellata con successo';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Errore';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Usa cache dei consumi';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Cache del consumo calcolato e riutilizzo quando necessario';
-
-  @override
-  String get tibberAccessToken => 'Token di accesso';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId ha ricevuto il codice info: $infocode';
   }
@@ -2572,6 +2539,9 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Condizioni di utilizzo';
+
+  @override
+  String get tibberAccessToken => 'Token di accesso';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3446,4 +3416,7 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Un codice postale valido è composto solo da numeri';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

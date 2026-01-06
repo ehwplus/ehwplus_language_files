@@ -981,16 +981,6 @@
   "smartMeterSettingsScreenSyncingDialogProgress": "Progress: {progressInPercent}%",
   "smartMeterTabConsumptions": "Consumptions",
   "smartMeterTabProductions": "Productions",
-  "consumptionCacheDebugViewTitle": "Consumptions Cache",
-  "consumptionCacheDebugViewEntries": "entries",
-  "consumptionCacheDebugViewClearCache": "Clear Cache",
-  "consumptionCacheDebugViewClearCacheConfirmation": "Are you sure you want to clear all consumption cache for this object? All stored consumption data will be removed.",
-  "consumptionCacheDebugViewClear": "Clear",
-  "consumptionCacheDebugViewCacheCleared": "Cache cleared successfully",
-  "consumptionCacheDebugViewError": "Error",
-  "consumptionCacheToggleButtonTitle": "Use consumption cache",
-  "consumptionCacheToggleButtonDescription": "Cache computed consumptions and re-use whenever necessary",
-  "tibberAccessToken": "Access Token",
   "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} received infocode: {infocode}",
   "@smartmeterInfocodeBannerText": {
     "placeholders": {
@@ -1536,5 +1526,6 @@
       }
     }
   },
-  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers"
+  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
+  "wallbox": "Wallbox"
 }

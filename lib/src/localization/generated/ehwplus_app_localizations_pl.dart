@@ -863,7 +863,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Latem ustawić odczyty liczników na 0? Zimą odczyty będą zgodne z normalnym schematem zużycia; latem pozostaną płaskie.';
+      'W przypadku prognoz rozróżnia się liczniki sezonowe i niesezonowe. W zależności od tego prognoza jest obliczana w różny sposób.\n\nZa sezonowe uznaje się zawsze ogrzewanie, gaz i olej. Liczniki niesezonowe to liczniki energii elektrycznej i wody.\n\nW przypadku liczników niesezonowych decydujące znaczenie ma zużycie z ostatnich 90 dni.\n\nW przypadku liczników sezonowych uśrednia się dane z poprzednich lat (jeśli są dostępne), przy czym wszystkie miesiące poprzednich lat mają taką samą wagę. (Wyjątek: jeśli nie ma jeszcze danych za miesiąc poprzedniego roku, stosuje się poprzednią średnią).';
 
   @override
   String get counterFactor => 'Czynnik';
@@ -2277,40 +2277,6 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkcje';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Pamięć podręczna zużycia';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'wpisy';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Wyczyść pamięć podręczną';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Czy na pewno chcesz wyczyścić całą pamięć podręczną zużycia dla tego obiektu? Wszystkie przechowywane dane zużycia zostaną usunięte.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Wyczyść';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Pamięć podręczna została pomyślnie wyczyszczona';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Błąd';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Użyj pamięci podręcznej zużycia';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Przechowuj obliczone zużycie w pamięci podręcznej i ponownie używaj w razie potrzeby';
-
-  @override
-  String get tibberAccessToken => 'Token dostępu';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId otrzymał kod informacyjny: $infocode';
   }
@@ -2584,6 +2550,9 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Warunki użytkowania';
+
+  @override
+  String get tibberAccessToken => 'Token dostępu';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3454,4 +3423,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Prawidłowy kod pocztowy składa się wyłącznie z cyfr';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

@@ -864,7 +864,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Задаване на показанията на брояча на 0 през лятото? През зимата показанията ще следват нормалния ви модел на консумация; през лятото ще останат плоски.';
+      'При прогнозите се прави разграничение между сезонни и несезонни електромери. В зависимост от това прогнозата се изчислява по различен начин.\n\nВинаги се класифицират като сезонни отоплението, газът и петролът. Несезонни измервателни уреди са електроенергията и водата.\n\nЗа несезонните измервателни уреди е решаващо потреблението през последните 90 дни.\n\nЗа сезонните измервателни уреди се изчислява средната стойност за предходните години (ако е налична), като всички месеци от предходните години се отчитат по еднакъв начин. (Изключение: ако все още няма данни за месеца от предходната година, се използва предходната средна стойност).';
 
   @override
   String get counterFactor => 'Коефициент';
@@ -2289,40 +2289,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Производства';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Кеш на консумацията';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'записи';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Изчистване на кеша';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Сигурен ли си, че искаш да изчистиш целия кеш за потребление за този обект? Всички съхранени данни за потребление ще бъдат премахнати.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Изчистване';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Кешът е изчистен успешно';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Грешка';
-
-  @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Използване на кеш за потребление';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Кеш на изчислена потребление и повторно използване при необходимост';
-
-  @override
-  String get tibberAccessToken => 'Токен за достъп';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Интелигентен брояч $smartmeterId получи инфокод: $infocode';
   }
@@ -2595,6 +2561,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Условия за използване';
+
+  @override
+  String get tibberAccessToken => 'Токен за достъп';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3466,4 +3435,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Валиден пощенски код се състои само от цифри';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

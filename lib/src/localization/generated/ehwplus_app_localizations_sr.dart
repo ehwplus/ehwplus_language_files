@@ -862,7 +862,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'Подесите очитавање бројила на 0 током лета? Зими, очитавања ће пратити ваш уобичајени образац потрошње; лети ће остати равни.';
+      'За прогнозе се прави разлика између сезонских и несезонских бројила. У зависности од тога, прогноза се различитим начином израчунава.\n\nУвек се као сезонски класификују грејање, гас и нафта. Несезонски бројила су струја и вода.\n\nЗа несезонска бројила одлучујућа је потрошња у последњих 90 дана.\n\nЗа сезонска бројила просек се прави на основу претходних година (ако су подаци доступни), при чему се сви месеци претходних година рачунају подједнако. (Изузетак: ако за одређени месец претходне године још нема података, користи се претходни просек).';
 
   @override
   String get counterFactor => 'Фактор';
@@ -2278,38 +2278,6 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Продуцтионс';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Кеш потрошње';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'записи';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'Обриши кеш';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Да ли сте сигурни да желите да обришете сву кеш потрошњу за овај објекат? Сви сачувани подаци о потрошњи ће бити избрисани.';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'Обриши';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'Кеш је успешно обрисан';
-
-  @override
-  String get consumptionCacheDebugViewError => 'Грешка';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'Користите кеш потрошње';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Кешируј израчунату потрошњу и поново је користи по потреби';
-
-  @override
-  String get tibberAccessToken => 'Приступни токен';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Смартметар ПХТОКЕН0 је примио инфокод: ПХТОКЕН1';
   }
@@ -2581,6 +2549,9 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Услови коришћења';
+
+  @override
+  String get tibberAccessToken => 'Приступни токен';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>
@@ -3449,4 +3420,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Важећи поштански број се састоји само од бројева';
+
+  @override
+  String get wallbox => 'Wallbox';
 }

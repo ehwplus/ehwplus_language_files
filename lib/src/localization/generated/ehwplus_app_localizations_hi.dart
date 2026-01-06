@@ -860,7 +860,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get counterExplainSeasonal =>
-      'गर्मी के दौरान मीटर रीडिंग को 0 पर सेट करें?सर्दियों में, रीडिंग आपके सामान्य उपभोग पैटर्न का पालन करेगी;गर्मियों में, वे सपाट रहेंगे।';
+      'पूर्वानुमानों के लिए, मौसमी और गैर-मौसमी मीटरों के बीच अंतर किया जाता है। इसके आधार पर, पूर्वानुमान की गणना अलग-अलग तरीके से की जाती है।\n\nहीटिंग, गैस, तेल को हमेशा मौसमी के रूप में वर्गीकृत किया जाता है। गैर-मौसमी मीटर बिजली और पानी हैं।\n\nगैर-मौसमी मीटर के लिए, पिछले 90 दिनों की खपत निर्णायक होती है।\n\nमौसमी मीटर के लिए, पिछले वर्षों का औसत निकाला जाता है (यदि उपलब्ध हो), जिसमें पिछले वर्षों के सभी महीनों को समान रूप से गिना जाता है। (अपवाद: यदि पिछले वर्ष के महीने का अभी तक कोई डेटा नहीं है, तो पिछला औसत उपयोग किया जाता है)।';
 
   @override
   String get counterFactor => 'कारक';
@@ -2272,39 +2272,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'प्रस्तुतियों';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'खपत कैश';
-
-  @override
-  String get consumptionCacheDebugViewEntries => 'प्रविष्टियां';
-
-  @override
-  String get consumptionCacheDebugViewClearCache => 'कैश साफ़ करें';
-
-  @override
-  String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'क्या आप इस ऑब्जेक्ट के लिए सभी खपत कैश साफ़ करना सुनिश्चित हैं? सभी संग्रहीत खपत डेटा हटा दिया जाएगा।';
-
-  @override
-  String get consumptionCacheDebugViewClear => 'साफ़ करें';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'कैश सफलतापूर्वक साफ़ हो गया';
-
-  @override
-  String get consumptionCacheDebugViewError => 'त्रुटि';
-
-  @override
-  String get consumptionCacheToggleButtonTitle => 'खपत कैश का उपयोग करें';
-
-  @override
-  String get consumptionCacheToggleButtonDescription =>
-      'गणना की गई खपत को कैश करें और आवश्यकता पड़ने पर दोबारा उपयोग करें';
-
-  @override
-  String get tibberAccessToken => 'एक्सेस टोकन';
-
-  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'स्मार्टमीटर $smartmeterId को सूचनाकोड प्राप्त हुआ: $infocode';
   }
@@ -2577,6 +2544,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'उपयोग की शर्तें';
+
+  @override
+  String get tibberAccessToken => 'एक्सेस टोकन';
 
   @override
   String get tibberActionSaveAuthorizationSettings => 'प्राधिकरण सेटिंग सहेजें';
@@ -3441,4 +3411,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'एक वैध ज़िप कोड में केवल संख्याएँ होती हैं';
+
+  @override
+  String get wallbox => 'Wallbox';
 }
