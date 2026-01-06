@@ -2280,6 +2280,39 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'പ്രൊഡക്ഷൻസ്';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'ഉപഭോഗ കാഷെ';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'എന്ത്രികൾ';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'കാഷെ മായ്ച്ചുകൊടുക്കുക';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'ഈ ഒബ്ജക്റ്റിനുള്ള എല്ലാ ഉപഭോഗ കാഷെയും മായ്ച്ചുകൊടുക്കാൻ നിങ്ങൾ ഉറപ്പാണോ? സേവിച്ച എല്ലാ ഉപഭോഗ ഡാറ്റ നീക്കം ചെയ്യപ്പെടും.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'മായ്ച്ചുകൊടുക്കുക';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'കാഷെ വിജയകരമായി മായ്ച്ചു';
+
+  @override
+  String get consumptionCacheDebugViewError => 'പിശക്';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'ഉപഭോഗ കാഷെ ഉപയോഗിക്കുക';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'കണക്കാക്കിയ ഉപഭോഗം കാഷെ ചെയ്യുകയും ആവശ്യമായ സമയത്ത് പുനരുപയോഗം ചെയ്യുകയും ചെയ്യുക';
+
+  @override
+  String get tibberAccessToken => 'ആക്സസ് ടോക്കൺ';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'സ്മാർട്ട്മീറ്റർ $smartmeterId-ന് ഇൻഫോകോഡ് ലഭിച്ചു: $infocode';
   }
@@ -2553,9 +2586,6 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'ഉപയോഗ നിബന്ധനകൾ';
-
-  @override
-  String get tibberAccessToken => 'ആക്സസ് ടോക്കൺ';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

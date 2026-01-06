@@ -2268,6 +2268,39 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'تولیدات';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'حافظه پنهان مصرف';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'ورودی ها';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'پاک کردن حافظه پنهان';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'آیا مطمئن هستید که می‌خواهید تمام حافظه پنهان مصرف برای این شیء را پاک کنید؟ تمام داده‌های مصرف ذخیره شده حذف خواهند شد.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'پاک کردن';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'حافظه پنهان با موفقیت پاک شد';
+
+  @override
+  String get consumptionCacheDebugViewError => 'خطا';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'استفاده از حافظه پنهان مصرف';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'حافظه پنهان مصرف محاسبه شده و استفاده مجدد در صورت نیاز';
+
+  @override
+  String get tibberAccessToken => 'رمز دسترسی';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'سنج هوشمند $smartmeterId کد اطلاعات دریافت کرد: $infocode';
   }
@@ -2540,9 +2573,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'شرایط استفاده';
-
-  @override
-  String get tibberAccessToken => 'رمز دسترسی';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

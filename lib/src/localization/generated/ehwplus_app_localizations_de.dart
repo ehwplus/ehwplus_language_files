@@ -2264,6 +2264,39 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Erträge';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Verbrauchscache';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'Einträge';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Cache leeren';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Möchtest du wirklich den gesamten Verbrauchscache für dieses Objekt löschen? Alle gespeicherten Verbrauchsdaten werden entfernt.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Löschen';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache erfolgreich geleert';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Fehler';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Verbrauchscache verwenden';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Zwischenspeicherung berechneter Verbräuche und Wiederverwendung bei Bedarf';
+
+  @override
+  String get tibberAccessToken => 'Access Token';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmeter $smartmeterId hat folgenden Infocode erhalten: $infocode';
   }
@@ -2536,9 +2569,6 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Nutzungsbedingungen';
-
-  @override
-  String get tibberAccessToken => 'Access Token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

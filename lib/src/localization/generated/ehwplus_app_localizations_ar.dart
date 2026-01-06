@@ -2255,6 +2255,40 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'الإنتاجات';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'ذاكرة الاستهلاك المؤقتة';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'إدخالات';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'مسح الذاكرة المؤقتة';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'هل أنت متأكد من أنك تريد مسح جميع ذاكرة استهلاك الذاكرة المؤقتة لهذا الكائن؟ سيتم إزالة جميع بيانات الاستهلاك المخزنة.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'مسح';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'تم مسح الذاكرة المؤقتة بنجاح';
+
+  @override
+  String get consumptionCacheDebugViewError => 'خطأ';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'استخدام ذاكرة الاستهلاك المؤقتة';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'ذاكرة الاستهلاك المحسوبة وإعادة الاستخدام عند الحاجة';
+
+  @override
+  String get tibberAccessToken => 'رمز الوصول';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'العداد الذكي $smartmeterId تلقى رمز المعلومات: $infocode';
   }
@@ -2524,9 +2558,6 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'شروط الاستخدام';
-
-  @override
-  String get tibberAccessToken => 'رمز الوصول';
 
   @override
   String get tibberActionSaveAuthorizationSettings => 'حفظ إعدادات التفويض';

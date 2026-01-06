@@ -2272,6 +2272,40 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkcije';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Predpomnilnik porabe';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'vnosti';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Počisti predpomnilnik';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Ali ste prepričani, da želite počistiti ves predpomnilnik porabe za ta objekt? Vsi shranjeni podatki o porabi bodo izbrisani.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Počisti';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Predpomnilnik je uspešno počiščen';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Napaka';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Uporabi predpomnilnik porabe';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Predpomnilnik izračunane porabe in ponovno uporabi po potrebi';
+
+  @override
+  String get tibberAccessToken => 'Žeton za dostop';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Pametni merilnik $smartmeterId je prejel infokodo: $infocode';
   }
@@ -2543,9 +2577,6 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Pogoji uporabe';
-
-  @override
-  String get tibberAccessToken => 'Žeton za dostop';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

@@ -2273,6 +2273,40 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkcijos';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Suvartojimo talpykla';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'įrašai';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Išvalyti talpyklą';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Ar tikrai norite išvalyti visą šio objekto suvartojimo talpyklą? Visi saugomi suvartojimo duomenys bus ištrinti.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Išvalyti';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Talpykla sėkmingai išvalyta';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Klaida';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Naudoti suvartojimo talpyklą';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Suvartojimo talpyklos kešavimas ir naudojimas iš naujo, kai reikia';
+
+  @override
+  String get tibberAccessToken => 'Prieigos prieigos raktas';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Išmanusis matuoklis $smartmeterId gavo infokodą: $infocode';
   }
@@ -2545,9 +2579,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Naudojimo sąlygos';
-
-  @override
-  String get tibberAccessToken => 'Prieigos prieigos raktas';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

@@ -2282,6 +2282,38 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Produkcije';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Keš potrošnje';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'stavke';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Obriši keš';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Jeste li sigurni da želite obrisati svu keš potrošnje za ovaj objekt? Svi spremljeni podaci o potrošnji će biti uklonjeni.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Obriši';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Keš uspješno izbrisan';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Greška';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Koristi keš potrošnje';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Keš izračunate potrošnje i ponovno korištenje kada je potrebno';
+
+  @override
+  String get tibberAccessToken => 'Pristupni token';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Smartmetar $smartmeterId je primio infokod: $infocode';
   }
@@ -2553,9 +2585,6 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Uslovi korištenja';
-
-  @override
-  String get tibberAccessToken => 'Pristupni token';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

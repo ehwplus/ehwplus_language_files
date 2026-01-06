@@ -2289,6 +2289,40 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => 'Производства';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Кеш на консумацията';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'записи';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Изчистване на кеша';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Сигурен ли си, че искаш да изчистиш целия кеш за потребление за този обект? Всички съхранени данни за потребление ще бъдат премахнати.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Изчистване';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Кешът е изчистен успешно';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Грешка';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Използване на кеш за потребление';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Кеш на изчислена потребление и повторно използване при необходимост';
+
+  @override
+  String get tibberAccessToken => 'Токен за достъп';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return 'Интелигентен брояч $smartmeterId получи инфокод: $infocode';
   }
@@ -2561,9 +2595,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => 'Условия за използване';
-
-  @override
-  String get tibberAccessToken => 'Токен за достъп';
 
   @override
   String get tibberActionSaveAuthorizationSettings =>

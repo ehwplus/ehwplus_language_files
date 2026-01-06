@@ -2190,6 +2190,37 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get smartMeterTabProductions => '作品';
 
   @override
+  String get consumptionCacheDebugViewTitle => '消耗缓存';
+
+  @override
+  String get consumptionCacheDebugViewEntries => '条目';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => '清除缓存';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      '您确定要清除此对象的所有消耗缓存吗？所有存储的消耗数据将被删除。';
+
+  @override
+  String get consumptionCacheDebugViewClear => '清除';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => '缓存已成功清除';
+
+  @override
+  String get consumptionCacheDebugViewError => '错误';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => '使用消耗缓存';
+
+  @override
+  String get consumptionCacheToggleButtonDescription => '缓存计算的消耗量并在需要时重新使用';
+
+  @override
+  String get tibberAccessToken => '访问令牌';
+
+  @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
     return '智能电表 $smartmeterId 收到信息代码：$infocode';
   }
@@ -2442,9 +2473,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageTitleShort => '使用条款';
-
-  @override
-  String get tibberAccessToken => '访问令牌';
 
   @override
   String get tibberActionSaveAuthorizationSettings => '保存授权设置';
