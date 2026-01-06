@@ -221,7 +221,6 @@
   "counterElectricityGenerated": "Elektrik üretim sayacı",
   "counterExclude": "Hariç tutmak",
   "counterExcludedContracts": "Hariç tutulan sözleşmeler",
-  "counterExplainSeasonal": "Yaz aylarında sayaç okumaları 0'a mı ayarlansın? Kışın okumalar normal tüketim düzeninizi takip edecektir; yazın ise düz kalacaklar.",
   "counterFactor": "Faktör",
   "counterFactorDescription": "Tüketim size yalnızca orantısal olarak mı tahsis ediliyor? Oranı 0,1 (%10) ile 1,0 (%100) arasında bir değer olarak girin.",
   "counterFractionDigits": "Kesir basamakları",
@@ -891,5 +890,6 @@
   "youtubeConsent3": "Harici içeriğin bana gösterilmesini kabul ediyorum. Bu, kişisel verilerin üçüncü taraf platformlara aktarılmasına neden olabilir. Bu konuda daha fazla bilgi bizim",
   "zipCode": "posta kodu",
   "zipCodeValidationLength": "Lütfen {digits} haneli posta kodunu girin",
-  "zipCodeValidationOnlyNumbers": "Geçerli bir posta kodu yalnızca sayılardan oluşur"
+  "zipCodeValidationOnlyNumbers": "Geçerli bir posta kodu yalnızca sayılardan oluşur",
+  "counterExplainSeasonal": "Tahminler için mevsimsel ve mevsimsel olmayan sayaçlar arasında ayrım yapılır. Buna bağlı olarak tahmin farklı şekilde hesaplanır.\n\nIsıtma, gaz ve petrol her zaman mevsimsel olarak sınıflandırılır. Mevsimsel olmayan sayaçlar ise elektrik ve sudur.\n\nMevsimsel olmayan sayaçlar için son 90 günün tüketimi belirleyicidir.\n\nMevsimsel sayaçlar için, önceki yılların ortalaması alınır (varsa) ve önceki yılların tüm ayları eşit olarak sayılır. (İstisna: önceki yılın ayı için henüz veri yoksa, önceki ortalama kullanılır)."
 }

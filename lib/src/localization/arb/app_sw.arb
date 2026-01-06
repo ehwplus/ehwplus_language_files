@@ -221,7 +221,6 @@
   "counterElectricityGenerated": "Mita ya uzalishaji wa umeme",
   "counterExclude": "Tenga",
   "counterExcludedContracts": "Mikataba iliyotengwa",
-  "counterExplainSeasonal": "Weka usomaji wa mita hadi 0 wakati wa msimu wa joto? Katika msimu wa baridi, usomaji utafuata muundo wako wa kawaida wa matumizi; Katika msimu wa joto, watakaa gorofa.",
   "counterFactor": "Sababu",
   "counterFactorDescription": "Je, matumizi yamegawiwa wewe tu kwa misingi ya prorata? Weka uwiano kama thamani kati ya 0.1 (10%) na 1.0 (100%).",
   "counterFractionDigits": "Nambari za sehemu",
@@ -891,5 +890,6 @@
   "youtubeConsent3": "Ninakubali maudhui ya nje kuonyeshwa kwangu. Hii inaweza kusababisha data ya kibinafsi kupitishwa kwa majukwaa ya mtu wa tatu. Zaidi juu ya hii katika yetu",
   "zipCode": "nambari ya zip",
   "zipCodeValidationLength": "Tafadhali ingiza nambari ya posta ya nambari ya phtoken0",
-  "zipCodeValidationOnlyNumbers": "Nambari halali ya zip ina nambari tu"
+  "zipCodeValidationOnlyNumbers": "Nambari halali ya zip ina nambari tu",
+  "counterExplainSeasonal": "Kwa makadirio, kuna utofauti kati ya kaunta za msimu na zisizo za msimu. Kulingana na hili, makadirio huhesabiwa tofauti.\n\nDaima zinazotambuliwa kuwa za msimu ni za kupasha joto, gesi, na mafuta. Mitambo isiyo ya msimu ni ya umeme na maji.\n\nKwa mitambo isiyo ya msimu, matumizi ya siku 90 zilizopita ndiyo huamua.\n\nKwa mitambo ya msimu, wastani wa miaka iliyopita hutumika (ikiwa unapatikana), huku miezi yote ya miaka iliyopita ikihesabiwa sawa. (Isipokuwa: hakuna data bado kwa mwezi wa mwaka uliopita, basi wastani wa awali hutumika)."
 }

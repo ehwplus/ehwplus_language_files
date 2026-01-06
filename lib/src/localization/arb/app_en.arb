@@ -1,631 +1,4 @@
 {
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "accountAbout": "What can the EHW+ user account do?",
   "accountBenefit1": "More reliable purchase recognition",
   "accountBenefit2": "Access to all purchased expansions on multiple devices",
@@ -661,6 +34,9 @@
   "appBarExpandedMode": "App bar with background image",
   "appDescriptionLong": "<p>Welcome to <b>EHW+</b>, your meter reading app  for <b>E</b>lectricity, <b>H</b>eating and <b>W</b>ater. With us, you can easily track<b> </b>how much you use and what it<b> </b>costs</b> for free.</p>",
   "appDescriptionShort": "Good for the wallet, good for the climate",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
   "appName": "EHW+ | Consumption & meter readings",
   "appNameShort": "EHW+",
   "areYouSure": "Are you sure?",
@@ -724,13 +100,48 @@
   "commonUpdateNow": "Update now",
   "commonUserLogin": "User login",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "You are using the EHW+ account. {notSubmitted} out of {total} purchased products could not be saved on the EHW+ server. We hope to fix the issue soon.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {One purchase has been synchronized via the EHW+ account.} other {{count} purchases have been synchronized via the EHW+ account.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {You are using the EHW+ account. If you purchase products in the future, they will be synchronized across all your devices.} one {You are using the EHW+ account. {count} purchased product has been saved on the EHW+ server.} other {You are using the EHW+ account. {count} purchased products have been saved on the EHW+ server.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionNotLoggedIn": "Are you using the app on multiple devices? Logging into your EHW+ account allows you to synchronize your settings and purchased products across all your devices.",
   "commonYear": "year",
   "commonYes": "yes",
   "completeButton": "Complete",
   "confirmDeleteAtCloud": "Should \"{objectTitle}\" also be deleted from Google Drive?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
   "consent11AnalyticsTitle": "Analysis data",
   "consent12Analytics": "In order to evaluate the success of the app or individual functions, the app transmits anonymised usage statistics. The data is not transmitted to third parties. The data is used for the further development of the app.",
   "consent13StromGedacht": "StromGedacht, a service provided by TransnetBW, provides information on grid stability and recommendations on when electricity should be used preferentially. As the energy transition is becoming more and more challenging for the transmission grid, households in South-West Germany are being involved. To receive information for your location, your postal code, if entered here in the app, is transmitted to the TransnetBW StromGedacht API. No other data is transmitted or linked.",
@@ -754,6 +165,13 @@
   "consumptionHeatmap": "Consumption Heatmap",
   "consumptionHeatmapYield": "Yield Heatmap",
   "consumptionHeatpump": "In addition, the power consumption of the heat pump amounts to {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
   "consumptionIsNotExclusive": "If the consumption is not exclusive to this activity, it will be shown as a warning.",
   "consumptionIsNotExclusiveTitle": "Is consumption exclusive?",
   "consumptionPersonLabel": "{count, plural, one {person} other {people}}",
@@ -780,6 +198,7 @@
   "consumptionYearlyDetailedLessThan": "{percentage} less than",
   "consumptionYearlyDetailedLevel0": "super low",
   "consumptionYearlyDetailedLevel1": "low",
+  "consumptionYearlyDetailedLevel1Suffix": "You would reach optimal consumption with about {nextToOptimal} less.",
   "@consumptionYearlyDetailedLevel1Suffix": {
     "placeholders": {
       "nextToOptimal": {
@@ -788,7 +207,6 @@
       }
     }
   },
-  "consumptionYearlyDetailedLevel1Suffix": "You would reach optimal consumption with about {nextToOptimal} less.",
   "consumptionYearlyDetailedLevel2": "within the normal range",
   "consumptionYearlyDetailedLevel2Suffix": "Approximately {nextToOptimal} is missing for good consumption.",
   "consumptionYearlyDetailedLevel3": "relatively high",
@@ -849,6 +267,16 @@
   "counterDirectionDescending": "descending",
   "counterDirectionExplanation": "Does the value decrease with use (level indicator, etc.) or does the value increase with use (burner hours, oil meter, etc.) or is each reading value independent (consumption/yield)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
   "counterDistrictHeating": "District Heating",
   "counterEdit": "Edit counter",
   "counterElectricity": "Electricity meter",
@@ -856,7 +284,7 @@
   "counterElectricityGenerated": "Electricity generation meter",
   "counterExclude": "Exclude",
   "counterExcludedContracts": "Excluded contracts",
-  "counterExplainSeasonal": "Set meter readings to 0 during the summer? In the winter, the readings will follow your normal consumption pattern; in summer, they will stay flat.",
+  "counterExplainSeasonal": "For forecasts, a distinction is made between seasonal and non-seasonal counters. Depending on this, the forecast is calculated differently.\n\nAlways classified as seasonal are heating, gas, oil. Non-seasonal meters are electricity and water.\n\nFor non-seasonal meters, the consumption of the last 90 days is decisive.\n\nFor seasonal meters, previous years are averaged (if available), with all months of previous years counting the same. (Exception: there is no data yet for the month of the previous year, then the previous average is used).",
   "counterFactor": "Factor",
   "counterFactorDescription": "Is consumption only allocated to you on a pro rata basis? Enter the proportion as a value between 0.1 (10%) and 1.0 (100%).",
   "counterFractionDigits": "Fraction digits",
@@ -878,9 +306,26 @@
   "counterNoContractSelected": "No contract selected",
   "counterNoRoomConnection": "No room connection",
   "counterNum": "{count} counters",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "counterOilHeating": "Oil heating",
   "counterOtherContracts": "Other contracts",
   "counterOutdatedAndNextReminder": "Counter reading outdated since {date}, next reading reminder {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
   "counterProportionateConsumption": "Proportionate consumption",
   "counterPvFeedInCounter": "Renewable energies (solar power and heat with PV/solar systems)",
   "counterPvFeedInCounterExplanation": "\nUse an electricity feed-in meter to record the electricity generated and fed in\nwith a photovoltaic system. The resulting revenue is offset against the cost of\nthe electricity drawn.",
@@ -908,6 +353,13 @@
   "csvImportWithFactor": "Should the meter readings be multiplied by a factor not equal to 1.0? For example, to convert values from Wh to kWh, they would have to be multiplied by 0.001.",
   "currency": "Currency",
   "deleteObjectError": "Cannot delete this object (Code {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
   "detailWithMultiSelect": "Allow multi selection",
   "detailsTitle": "Details",
   "difference": "Difference",
@@ -916,13 +368,54 @@
   "driveSyncStatusComparing": "Comparing with file on server",
   "driveSyncStatusFailed": "Failed to synchronize",
   "driveSyncStatusLocalHasLatestNoCloud": "The file saved on this device from {localDate} is not saved inside the cloud",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusLocalHasLatestWithCloud": "The file saved on this device from {localDate} is more up-to-date than the file in the cloud from {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusNotSynced": "Not synchronized",
   "driveSyncStatusRemoteHasLatestNoLocal": "The file in the cloud from {cloudDate} is not saved on this device",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusRemoteHasLatestWithLocal": "The file in the cloud from {cloudDate} is more up-to-date than the local file from {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusSyncing": "Sync in progress",
   "driveSyncStatusTitle": "Synchronization status",
   "driveSyncStatusUpToDate": "Up to date from {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncWithGoogle": "Google Drive Sync",
   "editDetailTitle": "Edit detail",
   "electricity": "Electricity",
@@ -941,10 +434,33 @@
   "export": "Export",
   "exportExplanation": "Which existing object do you want to export, for example to transfer it to a new device?",
   "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionConsumptionsSubtitle": "A consumption value for each day since the first reading.",
   "exportOptionConsumptionsTitle": "Daily consumption",
   "exportOptionExcel": "Excel file",
   "exportOptionFileDescription": "The object is shared as an {fileType} file",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionPdf": "PDF file",
   "exportOptionReadingsSubtitle": "Typically meter readings or consumption with irregular intervals.",
   "exportOptionReadingsTitle": "Reading values",
@@ -973,6 +489,13 @@
   "generated": "Generated",
   "googleAnalyticsAgreement": "I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.",
   "googleApiAgreement": "{appNameShort}’s use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "gross": "gross",
   "grossNetPrices": "Gross or net price",
   "heatPump": "Heat pump",
@@ -985,13 +508,37 @@
   "importConfirm": "Confirm import",
   "importCounterAsCsv": "Do you want to import a single meter? Supported per meter is a CSV file with two columns, one for the time and one for the meter reading.\n\nExample data:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Only the first two columns were used. The third column was ignored.} other {Only the first two columns were used, {columns} columns were ignored.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "importErrorCsvIgnoredLines": "{count, plural, one {One line was ignored: {lines}} other {{count} lines were ignored: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
   "importExplanation": "You already made counter readings and want to insert them?",
   "importExport": "Backup/Restore",
   "importNewOrExistingCounter": "Add to new or existing counter?",
   "importNotPossible": "Import not possible",
   "importPickFile": "Select file",
   "importSelectJson": "JSON file (created with {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
   "importSelectSingleCounter": "Single counter (CSV file)",
   "importSuccessful": "Import successful",
   "importTabErrorMessageFileWithExtensionNotSelected": "A {extension} file is required to proceed with import.",
@@ -1027,6 +574,13 @@
   "meterReadingsFilterAll": "Show all",
   "meterReadingsFilterComments": "Show only entries with comments",
   "meterReadingsFilterSubmitted": "Show only \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
   "myObjects": "My objects",
   "net": "net",
   "networkCounter": "Internet & phone",
@@ -1039,11 +593,53 @@
   "notificationsEmpty": "No notifications",
   "notificationsSmartMeterAlertFallback": "You have a new smart meter alert.",
   "numCounters": "{count, plural, =0 {{count} counter} one {{count} counter} other {{count} counters}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "numMeterReadings": "{readings, plural, one {# reading} other {# readings}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
   "numberOfDetails": "{count, plural, one {1 detail} other {{count} details}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeFrom": "from {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
   "ofRangeLastDays": "of the last {days} days",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeLastMonths": "for the last {months} months",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "oil": "Oil",
   "outdated": "Outdated",
   "outdatedContracts": "Outdated contracts",
@@ -1052,6 +648,13 @@
   "parsingObjectError": "The object cannot be parsed. Please contact the developer. When uninstalling the app, the data may be lost.",
   "per": "per",
   "perUnit": "per {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "period": "Period",
   "periodBimonthly": "bi-monthly",
   "periodBiweekly": "bi-weekly",
@@ -1065,8 +668,38 @@
   "periodYearly": "yearly",
   "previouslyDeletedCounters": "Recently deleted meters",
   "priceComparisonDiff": "You pay {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} the average in {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonEqual": "You pay about as much as the average in {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonNotEnoughData": "Not yet enough comparative data for the site {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "pricePerUnit": "Price per unit",
   "pricePerUnitFeedIn": "Remuneration price",
   "pricePerUnitFreshWater": "Costs for fresh water",
@@ -1075,14 +708,49 @@
   "pricePerUnitWaterWarm": "Hot water heating costs",
   "priceSubmissionAgreement": "I agree with the transmission of electricity/gas/water prices per unit to an EHW+ server",
   "privacyBlock1Text": "The developer/provider of the application (hereinafter referred to as “app”) is, in accordance with Section 5 of the German Telemedia Act (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock1Text2": "Use of the app requires that you agree to the following terms of use. Please read them carefully.",
   "privacyBlock1Title": "Developer",
   "privacyBlock2Text": "The protection of your data is very important to us. This privacy policy explains what personal data EHW+ collects and how it is used. Fundamental changes to the privacy policy are rare, but it may be revised from time to time due to new features, technologies, or legal requirements. So please check this page from time to time to stay up to date. If we make any significant changes, we will notify you and, if necessary, obtain your consent.",
   "privacyBlock2Title": "General",
   "privacyBlock3Title": "What data does {appNameShort} collect?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3aText": "We created {appNameShort} so that you can quickly and easily enter your meter readings and then use statistics to find out more about your consumption, its costs and potential savings. This means that you can enter, calculate or save any data, which we generally refer to as ‘content’, in {appNameShort}. This data is only stored on your mobile phone.\n\nSync with Google Drive.\nIf you enable synchronisation with Google Drive, the content will also be automatically backed up in a folder called ‘{appNameShort}’ on your Google Drive, which only you can access. By logging in with Google, your email address will be visible to the developer.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nLocation data.\nIn order to understand user behaviour and for future features, the app transmits anonymised usage data. The data is not shared with third parties. Information may be collected about origin (country and city), language, operating system, device type, resolution, click behaviour, and duration of use. n\nDevice data.\nWe collect data about the number and type of devices you use to connect to the service, as well as information about the operating system on those devices (e.g. Android, iOS, Windows or macOS).\n\nBy using the app, you consent to the collection of anonymised data as described above.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsage": "\nCollected anonymised data is used to evaluate user behaviour. Beyond this, there is no further use of data.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsageTitle": "How does {appNameShort} use my data?",
   "privacyBlock5": "The duration of the storage of personal data is determined by the respective statutory retention period (e.g. commercial and tax law retention periods). After expiry of the period, the corresponding data is routinely deleted, provided that it is no longer required for the fulfilment or initiation of a contract and/or we no longer have a legitimate interest in its continued storage.",
   "privacyBlock5Title": "Duration of storage of personal data",
@@ -1113,13 +781,57 @@
   "purchasesPurchasedSubscribed": "Subscribed",
   "purchasesRedeemCode": "Redeem code",
   "purchasesStatisticsWithPremium": "With Premium, you get access to a monthly comparison{count, plural, =0{.}=1{.}other{ and also see historical data for {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribeNow": "Subscribe now",
   "purchasesSubscribePremium": "Subscribe Premium",
   "purchasesSubscribePremiumMonthly": "Monthly cancelable subscription for only {price} per month",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Monthly cancelable subscription at the loyalty price of {price} per month instead of {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumTextLong": "Access to all paid features during the subscription period + outdoor temperatures",
   "purchasesSubscribePremiumYearly": "Annually cancelable subscription for only {price} per year",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Yearly cancelable subscription at the loyalty price of {price} per year instead of {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesUpgrade": "Upgrade",
   "purchasesWebLegalNote": "For legal reasons, a purchase is only possible for an iPhone or Android phone with PlayStore services.",
   "purchasesWhyBuyText": "With a purchase you participate in the costs I incur by publishing the app and support the further development.",
@@ -1135,9 +847,31 @@
   "readingPrefillDisabledToast": "Auto-fill disabled",
   "readingPrefillEnableForAllCounters": "Enable auto-fill for all counters",
   "readingReminder": "{count, plural, one {Reading reminder} other {Reading reminders}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "readingReminderDisabled": "Reading reminder not active",
   "readingReminderMultiBody": "{count, plural, one {Read readings from {count} meter now} other {Read readings from {count} meters now}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "readingReminderSingleBody": "Read {counterName} value now",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
   "readingReminders": "Reading reminders",
   "readingRemindersChannel": "Reading reminders",
   "readingSubmitted": "Meter reading submitted",
@@ -1174,6 +908,13 @@
   "roomName": "Room name",
   "roomNameHint": "Optionally assign a room name",
   "roomNamePart": "in the {roomName} ",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
   "roomNew": "New room",
   "roomOffice": "Office",
   "roomOther": "Other",
@@ -1241,6 +982,16 @@
   "smartMeterTabConsumptions": "Consumptions",
   "smartMeterTabProductions": "Productions",
   "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} received infocode: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "The temperature of your water meter {smartmeterId} has dropped below 3°C. There is a risk of frost! Insulate the meter and the pipes or heat the area to prevent damage.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Your water meter {smartmeterId} has detected a continuous water flow. This could indicate a leak. Please check your household installation for leaks. Toilets and dripping taps are common causes.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Your water meter {smartmeterId} has detected unusually high water consumption, which may indicate a pipe burst. Please check your household installation for major leaks or breaks. The alarm may also appear if you have used a large amount of water, e.g. for filling a pool.",
@@ -1265,6 +1016,13 @@
   "supportGivePraise": "Give praise",
   "supportGivePraiseLong": "Do you like the app? Thank you! Spread the word!",
   "supportGivePraiseRating": "Rate the app in {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
   "supportGivePraiseRecommendation": "Recommend the app to friends and family. Thank you for any recommendation!",
   "supportMakeSuggestion": "Suggest something",
   "supportMakeSuggestionLong": "The app lives from user suggestions. Do you have a suggestion?",
@@ -1302,12 +1060,40 @@
   "teaserPurchaseVirtualCounter": "Add virtual counters with Premium.",
   "teaserPurchaseWaterExtractionCounter": "Unlock water extraction counters with Premium.",
   "termsOfUsageBlock1": "Right of objection",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock1Title": "General terms of use for the use of the app",
   "termsOfUsageBlock2": "The app and its functions may not be used in an abusive manner. Please use the app only within the legally permissible scope and in accordance with our terms of use. In the event of a breach of applicable German law or our terms of use, the provider reserves the right to exclude you from using the app.",
   "termsOfUsageBlock2Title": "General information on use",
   "termsOfUsageBlock2a": "Anonymised usage data\nWe use our own analytics to continuously improve the app. Only anonymised data is transmitted. The data is not passed on to third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2b": "Error reports\\nSentry (self-hosted) is used to continuously improve the app. Error reports are neither processed nor shared with third parties. For more information, go to Settings > Privacy > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2c": "Personal information\nIf you use Google Drive Sync, EHW+ still has no access to the data you have entered. For more information, go to Settings > Privacy > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock3": "The provider does not guarantee the availability, reliability, functionality or suitability of the app for your purposes. Liability is excluded unless mandatory under the Product Liability Act, due to intent, gross negligence, injury to life, limb or health, the assumption of a guarantee of quality, fraudulent concealment of a defect or the breach of essential contractual obligations. Essential contractual obligations are those obligations whose fulfilment is essential for the proper execution of a contract and on whose compliance the contracting parties may regularly rely. Compensation for damages due to breach of essential contractual obligations is limited to the foreseeable damage typical for this type of contract, unless there is intent or gross negligence.",
   "termsOfUsageBlock3Title": "Liability",
   "termsOfUsageBlock4": "The provider does not guarantee the accuracy of the calculation results. Users are required to update the prices stored in the application (base prices, consumption prices, etc.) carefully and on their own responsibility in order to ensure that the invoices generated correspond to the actual amounts due.",
@@ -1392,22 +1178,57 @@
   "timeDayAgo": "one day ago",
   "timeDays": "days",
   "timeDaysAgo": "{days} days ago",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "timeDaysWithin": "days",
   "timeForFirstYear": "for the first year",
   "timeFriday": "Friday",
   "timeFromDate": "From {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeFromUndefined": "Undefined",
   "timeHours": "hours",
   "timeHoursAgo": "{hours} hours ago",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "timeInFuture": "In the future",
   "timeJustNow": "just now",
   "timeLastUpdated": "last updated",
   "timeMinutes": "minutes",
   "timeMinutesAgo": "{minutes} minutes ago",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonday": "Monday",
   "timeMonth": "month",
   "timeMonths": "months",
   "timeMonthsAgo": "{months} months ago",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonthsWithin": "months",
   "timePeriodYearStart": "yearly",
   "timeReminderAtEnd": "At end",
@@ -1420,50 +1241,158 @@
   "timeToday": "today",
   "timeTuesday": "Tuesday",
   "timeUntilDate": "Until {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeUntilUnlimited": "Unlimited",
   "timeWednesday": "Wednesday",
   "timeWeek": "week",
   "timeWeeks": "weeks",
   "timeWithin": "Within {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
   "timeYesterday": "yesterday",
   "unitCm": "cm",
   "unitCmLong": "cm",
   "unitCmShort": "cm",
   "unitCubicMetersLong": "{count, plural, one {Cubic meter (m³)} other {Cubic meters (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitCubicMetersShort": "m³",
   "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoules (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {Hour} other {Hours (h)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitHoursShort": "h",
   "unitKWhLong": "{count, plural, one {Kilowatt hour (kWh)} other {Kilowatt hours (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKWhShort": "kWh",
   "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilograms (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKgShort": "kg",
   "unitLiters": "liters",
   "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Megawatt hour (MWh)} other {Megawatt hours (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitMWhShort": "MWh",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "none",
   "unitNoneFormatted": "{count, plural, one {unit} other {units}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitPercentLong": "Percent (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "sqm",
   "unitSquareMetersLong": "{count, plural, one {Square meter (m²)} other {Square meters (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitSquareMetersShort": "m²",
   "updateAvailable": "The app version {oldVersion} is not up to date. You can update to version {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
   "updateObjectName": "Change object names",
   "upgradeDescription": "The app can do more. Better cost overview, more statistics, Excel export, more counters, ...",
   "useDismissibleSettings": "Delete by swipe gesture",
   "useDismissibleSettingsDetailed": "Counters, contracts, etc. can be deleted by a side-swipe movement",
   "usedForPaymentsRepayments": "Advance payment, base price, and bonus",
   "valueLess": "{value} less",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "valueMore": "{value} more",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "versionIsUpToDate": "The latest app version released to all users is {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "virtualCounter": "Virtual meter",
   "virtualCounterMasterCounter": "Master meter",
   "virtualCounterMasterCounterAttach": "Select main meter",
@@ -1477,11 +1406,61 @@
   "warning": "Warning",
   "warningCounterReplacementDetected": "The new value is lower than the previous meter reading. Has the meter been replaced?",
   "warningNextReminderText": " The next reminder is {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningOutdatedSinceText": "since {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValue": "The new value is higher than the previous meter reading.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValueOilVolume": "The new value is higher than the previous meter reading. Have you refilled the tank?",
   "warningReadingOutdatedForYearlyResetCounter": "The final meter reading for the year {lastYear} for the {deviceTypeName} {roomNamePart}is missing. This is necessary for a correct calculation of the total annual consumption.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingOutdatedFrequency": "The latest meter reading for the {deviceTypeName} {roomNamePart}is outdated {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingSeemsTooBig": "The new value is quite high. Was the reading taken correctly?",
   "warningReadingSeemsTooSmall": "The new value is quite low. Was it read correctly?",
   "warningReadingSmallerThanOldValue2": "The new value is lower than the previous meter reading. Was the reading taken correctly?",
@@ -1490,6 +1469,18 @@
   "waterConsumption": "Water consumption",
   "waterExtractionMinimumLevelLower": "No deduction is applied because consumption is below the minimum threshold.",
   "waterMeterEventsInformation": "{count, plural, =1 {Your wireless water meter {waterSupplier} detects unexpected consumption. If desired, you will receive a notification in such a case.} other {Your wireless water meters {waterSupplier} detect unexpected consumption. If desired, you will receive a notification in such cases.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
   "watersupplierAccessRequestQ1": "Are you the owner of a property in the catchment area of the waterworks and would like to have access to radio meter readings?",
   "watersupplierAccessRequestQ2": "Have you already requested access? Next, you need to create an EHW+ user account.",
   "watersupplierAccessRequestQ3": "Have you already requested access and received your QR code?",
@@ -1526,5 +1517,14 @@
   "youtubeConsent3": "I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our ",
   "zipCode": "zip code",
   "zipCodeValidationLength": "Please enter a {digits}-digit postal code",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers"
 }

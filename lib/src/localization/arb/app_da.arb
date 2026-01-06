@@ -750,7 +750,6 @@
   "counterShowPreliminaryCurve": "Vis foreløbig kurve",
   "seasonalCounter": "Sæsontæller",
   "seasonalElectricityCounter": "Sæsonbestemt el-tæller",
-  "counterExplainSeasonal": "Indstille måleraflæsninger til 0 om sommeren? Om vinteren vil aflæsningerne følge dit normale forbrugsmønster; om sommeren vil de forblive flade.",
   "counterIsOutdated": "Tælleren er forældet",
   "counterLinkMoreRecent": "Link nyere tæller",
   "counterReplacedBy": "Erstattet af",
@@ -925,5 +924,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Du bruger {verbSuffix} omtrent det samme som en gennemsnitlig husstand med {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Du forbruger ca. {dailyLiters} liter pr. dag (≈ {monthlyCubicMeters} {unitName} pr. måned).",
   "consumptionWaterDailyMonthlyPerPerson": "Per person forbruger alle ca. {dailyLiters} liter pr. dag (≈ {monthlyCubicMeters} {unitName} pr. måned).",
-  "consumptionYearlyDetailedLevel2": "er normalt."
+  "consumptionYearlyDetailedLevel2": "er normalt.",
+  "counterExplainSeasonal": "Ved prognoser skelnes der mellem sæsonbestemte og ikke-sæsonbestemte målere. Afhængigt af dette beregnes prognosen forskelligt.\n\nOpvarmning, gas og olie klassificeres altid som sæsonbestemte. Ikke-sæsonbestemte målere er elektricitet og vand.\n\nFor ikke-sæsonbestemte målere er forbruget i de sidste 90 dage afgørende.\n\nFor sæsonbestemte målere beregnes gennemsnittet for de foregående år (hvis tilgængeligt), hvor alle måneder i de foregående år tæller lige meget. (Undtagelse: hvis der endnu ikke foreligger data for måneden i det foregående år, anvendes det foregående gennemsnit)."
 }

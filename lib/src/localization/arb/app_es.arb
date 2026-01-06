@@ -722,7 +722,6 @@
   "counterShowPreliminaryCurve": "Mostrar curva preliminar",
   "seasonalCounter": "Contador de temporada",
   "seasonalElectricityCounter": "Contador de electricidad de temporada",
-  "counterExplainSeasonal": "¿Poner a 0 las lecturas del contador durante el verano? En invierno, el perfil seguirá tu consumo; en verano, se mantendrá plano.",
   "counterIsOutdated": "El contador está obsoleto",
   "counterLinkMoreRecent": "Vincular contador más reciente",
   "counterReplacedBy": "Reemplazado por",
@@ -897,5 +896,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Consume{verbSuffix} aproximadamente lo mismo que un hogar promedio de {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Consume aprox. {dailyLiters} litros al día (≈ {monthlyCubicMeters} {unitName} al mes).",
   "consumptionWaterDailyMonthlyPerPerson": "Por persona, cada uno consume aprox. {dailyLiters} litros al día (≈ {monthlyCubicMeters} {unitName} al mes).",
-  "consumptionYearlyDetailedLevel2": "es normal."
+  "consumptionYearlyDetailedLevel2": "es normal.",
+  "counterExplainSeasonal": "Para las previsiones, se distingue entre contadores estacionales y contadores no estacionales. En función de esto, la previsión se calcula de forma diferente.\n\nLa calefacción, el gas y el petróleo se clasifican siempre como estacionales. Los contadores no estacionales son los de electricidad (también NT/HT) y agua.\n\nPara los contadores no estacionales, el consumo de los últimos 90 días es decisivo.\n\nPara los contadores estacionales, se toma la media de los años anteriores (si está disponible), contando todos los meses de los años anteriores por igual. (Excepción: si no hay datos todavía para el mes del año anterior, entonces se utiliza la media anterior)."
 }

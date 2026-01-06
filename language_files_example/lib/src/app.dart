@@ -1,6 +1,7 @@
 import 'package:ehwplus_language_files/ehwplus_language_files.dart';
 import 'package:flutter/material.dart';
 import 'package:language_files_example/src/model/arb_document.dart';
+import 'package:language_files_example/src/model/arb_entry.dart';
 import 'package:language_files_example/src/model/translation_record.dart';
 import 'package:language_files_example/src/page/translation_detail_page.dart';
 import 'package:language_files_example/src/repository/arb_repository.dart';
@@ -162,12 +163,65 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     }
   }
 
+  Future<void> _openAddTranslationDialog() async {
+    if (_availableLocales.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Keine ARB-Sprachen verfügbar.')));
+      return;
+    }
+
+    final result = await showDialog<_AddTranslationResult>(
+      context: context,
+      builder: (context) => _AddTranslationDialog(
+        availableLocales: _availableLocales.toList()..sort(),
+        existingKeys: _allRecords.map((record) => record.key).toSet(),
+      ),
+    );
+
+    if (result == null) return;
+
+    final documentIndex = _documents.indexWhere((doc) => doc.locale == result.locale);
+    if (documentIndex == -1) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('Locale ${result.locale} ist nicht verfügbar.')));
+      return;
+    }
+
+    if (_allRecords.any((record) => record.key == result.key)) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Key ${result.key} existiert bereits.')));
+      return;
+    }
+
+    final target = _documents[documentIndex];
+    final updatedEntries = Map<String, ArbEntry>.from(target.entries)
+      ..[result.key] = ArbEntry(key: result.key, value: result.value);
+
+    try {
+      await _repository.saveDocument(target.copyWith(entries: updatedEntries));
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Key ${result.key} wurde hinzugefügt.')));
+        await _loadData();
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Fehler beim Speichern: $e')));
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('ARB-Texte (EN / DE)'),
-        actions: [IconButton(tooltip: 'Neu laden', onPressed: _loadData, icon: const Icon(Icons.refresh))],
+        actions: [
+          IconButton(
+            tooltip: 'Neuen Key hinzufügen',
+            onPressed: _openAddTranslationDialog,
+            icon: const Icon(Icons.add),
+          ),
+          IconButton(tooltip: 'Neu laden', onPressed: _loadData, icon: const Icon(Icons.refresh)),
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
@@ -367,5 +421,109 @@ class _LocaleChipLabel extends StatelessWidget {
     } catch (_) {
       return null;
     }
+  }
+}
+
+class _AddTranslationResult {
+  const _AddTranslationResult({required this.key, required this.locale, required this.value});
+
+  final String key;
+  final String locale;
+  final String value;
+}
+
+class _AddTranslationDialog extends StatefulWidget {
+  const _AddTranslationDialog({required this.availableLocales, required this.existingKeys});
+
+  final List<String> availableLocales;
+  final Set<String> existingKeys;
+
+  @override
+  State<_AddTranslationDialog> createState() => _AddTranslationDialogState();
+}
+
+class _AddTranslationDialogState extends State<_AddTranslationDialog> {
+  late String _selectedLocale;
+  final TextEditingController _keyController = TextEditingController();
+  final TextEditingController _valueController = TextEditingController();
+  String? _error;
+
+  @override
+  void initState() {
+    super.initState();
+    _selectedLocale = _initialLocale(widget.availableLocales);
+  }
+
+  String _initialLocale(List<String> locales) {
+    if (locales.contains('en')) return 'en';
+    return locales.first;
+  }
+
+  @override
+  void dispose() {
+    _keyController.dispose();
+    _valueController.dispose();
+    super.dispose();
+  }
+
+  void _submit() {
+    final key = _keyController.text.trim();
+    final value = _valueController.text.trim();
+
+    if (key.isEmpty || value.isEmpty) {
+      setState(() => _error = 'Key und Text dürfen nicht leer sein.');
+      return;
+    }
+
+    if (widget.existingKeys.contains(key)) {
+      setState(() => _error = 'Key existiert bereits.');
+      return;
+    }
+
+    Navigator.of(context).pop(_AddTranslationResult(key: key, locale: _selectedLocale, value: value));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return AlertDialog(
+      title: const Text('Neuen Text hinzufügen'),
+      content: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: _keyController,
+              decoration: const InputDecoration(labelText: 'Key'),
+            ),
+            const SizedBox(height: 12),
+            DropdownButtonFormField<String>(
+              value: _selectedLocale,
+              items: widget.availableLocales
+                  .map((locale) => DropdownMenuItem(value: locale, child: Text(locale.toUpperCase())))
+                  .toList(),
+              onChanged: (value) => setState(() {
+                if (value != null) _selectedLocale = value;
+              }),
+              decoration: const InputDecoration(labelText: 'Sprache'),
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: _valueController,
+              maxLines: 3,
+              decoration: const InputDecoration(labelText: 'Text', alignLabelWithHint: true),
+            ),
+            if (_error != null) ...[
+              const SizedBox(height: 8),
+              Text(_error!, style: TextStyle(color: theme.colorScheme.error)),
+            ],
+          ],
+        ),
+      ),
+      actions: [
+        TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
+        FilledButton.icon(onPressed: _submit, icon: const Icon(Icons.add), label: const Text('Hinzufügen')),
+      ],
+    );
   }
 }

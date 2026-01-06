@@ -1,801 +1,4 @@
 {
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "Object"
-      },
-      "monthlyCubicMeters": {
-        "type": "Object"
-      },
-      "unitName": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearly": {
-    "placeholders": {
-      "consumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "Object"
-      }
-    }
-  },
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "accountAbout": "Ką gali padaryti EHW+ vartotojo abonementas?",
   "accountBenefit1": "Patikimesnis pirkinių atpažinimas",
   "accountBenefit2": "Prieiga prie visų įsigytų plėtinių keliuose įrenginiuose",
@@ -894,13 +97,48 @@
   "commonUpdateNow": "Atnaujinkite dabar",
   "commonUserLogin": "Vartotojo prisijungimas",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Naudojate EHW+ paskyrą. {notSubmitted} iš {total} įsigytų produktų nepavyko išsaugoti EHW+ serveryje. Tikimės greitai išspręsti problemą.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Vienas pirkinys buvo sinchronizuotas per EHW+ paskyrą.} other {{count} pirkiniai buvo sinchronizuoti per EHW+ paskyrą.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Naudojate EHW+ paskyrą. Jei ateityje įsigysite produktų, jie bus sinchronizuojami visuose jūsų įrenginiuose.} one {Naudojate EHW+ paskyrą. {count} įsigytas produktas buvo išsaugotas EHW+ serveryje.} other {Naudojate EHW+ paskyrą. {count} įsigytos prekės buvo išsaugotos EHW+ serveryje.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionNotLoggedIn": "Ar naudojate programą keliuose įrenginiuose? Prisijungę prie savo EHW+ paskyros galite sinchronizuoti nustatymus ir įsigytus produktus visuose įrenginiuose.",
   "commonYear": "metai",
   "commonYes": "Taip",
   "completeButton": "Užbaigti",
   "confirmDeleteAtCloud": "Ar „{objectTitle}“ taip pat turėtų būti ištrintas iš „Google“ disko?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
   "consent11AnalyticsTitle": "Analizės duomenys",
   "consent12Analytics": "Siekdama įvertinti programėlės ar atskirų funkcijų sėkmę, programėlė perduoda anoniminę naudojimo statistiką. Duomenys neperduodami trečiosioms šalims. Duomenys naudojami tolimesniam programėlės kūrimui.",
   "consent13StromGedacht": "„TransnetBW“ teikiama paslauga „StromGedacht“ teikia informaciją apie tinklo stabilumą ir rekomendacijas, kada geriausia naudoti elektros energiją. Kadangi energijos perėjimas perdavimo tinklui tampa vis sunkesnis, pietvakarių Vokietijoje dalyvauja namų ūkiai. Norint gauti informaciją apie savo buvimo vietą, jūsų pašto kodas, jei įvedėte čia, programėlėje, persiunčiamas į TransnetBW StromGedacht API. Jokie kiti duomenys neperduodami ar susieti.",
@@ -924,35 +162,201 @@
   "consumptionHeatmap": "Vartojimo šilumos žemėlapis",
   "consumptionHeatmapYield": "Išeiga Heatmap",
   "consumptionHeatpump": "Be to, šilumos siurblio energijos suvartojimas siekia {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
   "consumptionIsNotExclusive": "Jei vartojimas nėra išskirtinis šiai veiklai, jis bus rodomas kaip įspėjimas.",
   "consumptionIsNotExclusiveTitle": "Ar vartojimas išskirtinis?",
   "consumptionPersonLabel": "{count, plural, one {asmuo} other {žmonės}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "consumptionWaterColdEqual": "Šaltas vanduo: maždaug toks pat, kaip vidutiniame namų ūkyje.",
   "consumptionWaterColdLess": "Šaltas vanduo: {percentage} mažiau nei vidutiniame namų ūkyje.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterColdMore": "Šaltas vanduo: {percentage} daugiau nei vidutinis namų ūkis.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthly": "apie {dailyLiters} litrų per dieną (≈ {monthlyCubicMeters} {unitName} per mėnesį).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthlyPerPerson": "Vienam žmogui visi suvartoja apie {dailyLiters} litrų per dieną (≈ {monthlyCubicMeters} {unitName} per mėnesį).",
   "consumptionWaterDailyMonthlySingle": "Jūs vartojate apie {dailyLiters} litrų per dieną (≈ {monthlyCubicMeters} {unitName} per mėnesį).",
   "consumptionWaterOverallEqual": "Jūsų vandens suvartojimas {ofRange} atitinka vidutinį namų ūkį su {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallLess": "Jūsų vandens suvartojimas {ofRange} yra {percentage} mažesnis nei vidutinis namų ūkis su {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallMore": "Jūsų vandens suvartojimas {ofRange} yra {percentage} didesnis nei vidutiniame namų ūkyje su {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterPrefixPerPerson": "Vienam žmogui visi suvartoja",
   "consumptionWaterPrefixSingle": "Jūs vartojate",
   "consumptionWaterRangeUnknown": "Jūsų vandens suvartojimas {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmEqual": "Karštas vanduo: maždaug tiek pat, kiek vidutiniame namų ūkyje.",
   "consumptionWaterWarmLess": "Karštas vanduo: {percentage} mažiau nei vidutinis namų ūkis.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmMore": "Karštas vanduo: {percentage} daugiau nei vidutinis namų ūkis.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearly": "Jūsų elektros energijos suvartojimas {ofRange} yra {consumption} kWh per metus.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedAboutSame": "maždaug toks pat kaip",
   "consumptionYearlyDetailedAverageHousehold": "vidutinis namų ūkis su {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedComparisonEqual": "Jūs vartojate{verbSuffix} maždaug toks pat kaip vidutinis namų ūkis su {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "Jūs vartojate{verbSuffix} {percentage} mažiau nei vidutinis namų ūkis su {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "Jūs vartojate{verbSuffix} {percentage} daugiau nei vidutinis namų ūkis su {householdSize} {personLabel}.",
   "consumptionYearlyDetailedElectricity": "Jūsų elektros suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį) {consumptionLevel}.",
   "consumptionYearlyDetailedElectricityIntro": "Jūsų elektros suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedGas": "Jūsų dujų suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį) {consumptionLevel}.",
   "consumptionYearlyDetailedGasIntro": "Jūsų dujų suvartojimas {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh per metus ≈ {monthlyConsumption} kWh per mėnesį)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLessThan": "{percentage} mažiau nei",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLevel0": "yra super žemas.",
   "consumptionYearlyDetailedLevel1": "tikrai yra į ką pažiūrėti.",
   "consumptionYearlyDetailedLevel1Suffix": "Optimaliam suvartojimui trūksta {nextToOptimal}.",
@@ -961,8 +365,22 @@
   "consumptionYearlyDetailedLevel3": "yra palyginti aukštas.",
   "consumptionYearlyDetailedLevel4": "yra normalu.",
   "consumptionYearlyDetailedMoreThan": "{percentage} daugiau nei",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedOptimalEnding": "kaip tau sekasi?",
   "consumptionYearlyDetailedYouConsume": "Jūs vartojate{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYield": "Derlius",
   "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontaktai\n\nTelefonas: 06204/7383382\nEl. paštas: info@ehwplus.com",
   "contactTitle": "Atstovauja:",
@@ -1017,6 +435,16 @@
   "counterDirectionDescending": "nusileidžiantis",
   "counterDirectionExplanation": "Ar vertė mažėja naudojant (lygio indikatorius ir t. t.) ar didėja naudojant (degiklio valandos, alyvos skaitiklis ir pan.), ar kiekviena rodmenų reikšmė nepriklauso (sąnaudos / išeiga)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
   "counterDistrictHeating": "Centralizuotas šildymas",
   "counterEdit": "Redaguoti skaitiklį",
   "counterElectricity": "Elektros skaitiklis",
@@ -1024,7 +452,7 @@
   "counterElectricityGenerated": "Elektros gamybos skaitiklis",
   "counterExclude": "Išskirti",
   "counterExcludedContracts": "Neįtrauktos sutartys",
-  "counterExplainSeasonal": "Nustatyti skaitiklio rodmenis į 0 vasarą? Žiemą rodmenys atitiks įprastą vartojimo būdą; vasarą jie liks plokšti.",
+  "counterExplainSeasonal": "Prognozėse skiriami sezoniniai ir nesezoniniai skaitikliai. Priklausomai nuo to, prognozė skaičiuojama skirtingai.\n\nVisada sezoniniais laikomi šildymo, dujų, naftos skaitikliai. Nesezoniniai skaitikliai yra elektros ir vandens skaitikliai.\n\nNesezoninių skaitiklių atveju lemiamu laikomas pastarųjų 90 dienų suvartojimas.\n\nSezoninių skaitiklių atveju skaičiuojamas praėjusių metų vidurkis (jei yra duomenų), visus praėjusių metų mėnesius vertinant vienodai. (Išimtis: jei dar nėra praėjusių metų mėnesio duomenų, tuomet naudojamas ankstesnis vidurkis).",
   "counterFactor": "veiksnys",
   "counterFactorDescription": "Ar vartojimas jums paskirstomas tik proporcingai? Įveskite proporciją kaip reikšmę nuo 0,1 (10 %) iki 1,0 (100 %).",
   "counterFractionDigits": "Trupmenos skaitmenys",
@@ -1046,9 +474,26 @@
   "counterNoContractSelected": "Sutartis nepasirinkta",
   "counterNoRoomConnection": "Nėra kambario ryšio",
   "counterNum": "{count} skaitikliai",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "counterOilHeating": "Alyvos šildymas",
   "counterOtherContracts": "Kitos sutartys",
   "counterOutdatedAndNextReminder": "Skaitiklio rodmenys paseno nuo {date}, kito skaitymo priminimas {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
   "counterProportionateConsumption": "Proporcingas vartojimas",
   "counterPvFeedInCounter": "Atsinaujinanti energija (saulės energija ir šiluma su PV / saulės sistemomis)",
   "counterPvFeedInCounterExplanation": "Pagamintai ir tiekiamai elektros energijai registruoti naudokite elektros tiekimo skaitiklį\nsu fotovoltine sistema. Gautos pajamos kompensuojamos iš išlaidų\npaimta elektra.",
@@ -1076,6 +521,13 @@
   "csvImportWithFactor": "Ar skaitiklio rodmenis reikia padauginti iš koeficiento, kuris nėra lygus 1,0? Pavyzdžiui, norint konvertuoti reikšmes iš Wh į kWh, jas reikėtų padauginti iš 0,001.",
   "currency": "Valiuta",
   "deleteObjectError": "Nepavyko ištrinti šio objekto (kodas {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
   "detailWithMultiSelect": "Leisti kelis pasirinkimus",
   "detailsTitle": "Detalės",
   "difference": "Skirtumas",
@@ -1084,13 +536,54 @@
   "driveSyncStatusComparing": "Palyginimas su failu serveryje",
   "driveSyncStatusFailed": "Nepavyko sinchronizuoti",
   "driveSyncStatusLocalHasLatestNoCloud": "Šiame įrenginyje iš {localDate} išsaugotas failas nėra išsaugotas debesyje",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusLocalHasLatestWithCloud": "Šiame įrenginyje iš {localDate} išsaugotas failas yra naujesnis nei failas debesyje iš {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusNotSynced": "Nesinchronizuotas",
   "driveSyncStatusRemoteHasLatestNoLocal": "Failas debesyje iš {cloudDate} šiame įrenginyje neišsaugomas",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusRemoteHasLatestWithLocal": "Debesyje esantis failas iš {cloudDate} yra naujesnis nei vietinis failas iš {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusSyncing": "Vyksta sinchronizavimas",
   "driveSyncStatusTitle": "Sinchronizavimo būsena",
   "driveSyncStatusUpToDate": "Naujausia nuo {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncWithGoogle": "„Google“ disko sinchronizavimas",
   "editDetailTitle": "Redaguoti detales",
   "electricity": "Elektra",
@@ -1109,10 +602,33 @@
   "export": "Eksportuoti",
   "exportExplanation": "Kurį esamą objektą norite eksportuoti, pavyzdžiui, perkelti jį į naują įrenginį?",
   "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionConsumptionsSubtitle": "Vartojimo vertė kiekvienai dienai nuo pirmojo skaitymo.",
   "exportOptionConsumptionsTitle": "Kasdienis vartojimas",
   "exportOptionExcel": "Excel failas",
   "exportOptionFileDescription": "Objektas bendrinamas kaip {fileType} failas",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionPdf": "PDF failas",
   "exportOptionReadingsSubtitle": "Paprastai skaitiklių rodmenys arba suvartojimas nereguliariais intervalais.",
   "exportOptionReadingsTitle": "Vertybių skaitymas",
@@ -1141,6 +657,13 @@
   "generated": "Sukurta",
   "googleAnalyticsAgreement": "Sutinku, kad „EHW+ Services GmbH“ būtų perduoti anoniminiai duomenys apie programėlės naudojimą.",
   "googleApiAgreement": "{appNameShort} naudodamas ir perkeldamas į bet kurią kitą programėlę informaciją, gautą iš „Google“ API, laikysis „Google“ API paslaugų naudotojo duomenų politikos, įskaitant riboto naudojimo reikalavimus.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "gross": "grubus",
   "grossNetPrices": "Bruto arba neto kaina",
   "heatPump": "Šilumos siurblys",
@@ -1153,13 +676,37 @@
   "importConfirm": "Patvirtinkite importą",
   "importCounterAsCsv": "Ar norite importuoti vieną skaitiklį? Vienam metrui palaikomas CSV failas su dviem stulpeliais, vienas skirtas laikui ir vienas skaitiklio rodmenims.\n\nDuomenų pavyzdžiai:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\", 6812 036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Buvo naudojami tik pirmieji du stulpeliai. Trečiasis stulpelis buvo ignoruojamas.} other {Buvo naudojami tik pirmieji du stulpeliai, {columns} stulpeliai buvo ignoruojami.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "importErrorCsvIgnoredLines": "{count, plural, one {Viena eilutė buvo ignoruota: {lines}} other {{count} eilutės ignoruotos: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
   "importExplanation": "Jau atlikote skaitiklio rodmenis ir norite juos įterpti?",
   "importExport": "Atsarginė kopija / atkūrimas",
   "importNewOrExistingCounter": "Pridėti prie naujo ar esamo skaitiklio?",
   "importNotPossible": "Importuoti negalima",
   "importPickFile": "Pasirinkite failą",
   "importSelectJson": "JSON failas (sukurtas naudojant {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
   "importSelectSingleCounter": "Vienas skaitiklis (CSV failas)",
   "importSuccessful": "Importuoti pavyko",
   "importTabErrorMessageFileWithExtensionNotSelected": "Norint tęsti importavimą, reikalingas {extension} failas.",
@@ -1195,6 +742,13 @@
   "meterReadingsFilterAll": "Rodyti viską",
   "meterReadingsFilterComments": "Rodyti tik įrašus su komentarais",
   "meterReadingsFilterSubmitted": "Rodyti tik „{state}“",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
   "myObjects": "Mano objektai",
   "net": "neto",
   "networkCounter": "Internetas ir telefonas",
@@ -1207,11 +761,53 @@
   "notificationsEmpty": "Jokių pranešimų",
   "notificationsSmartMeterAlertFallback": "Turite naują išmaniojo skaitiklio įspėjimą.",
   "numCounters": "{count, plural, =0 {{count} skaitiklis} one {{count} skaitiklis} other {{count} skaitikliai}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "numMeterReadings": "{readings, plural, one {# nuskaitymas} other {# nuskaitymai}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
   "numberOfDetails": "{count, plural, one {1 detalė} other {{count} detalės}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeFrom": "nuo {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
   "ofRangeLastDays": "paskutinių {days} dienų",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeLastMonths": "už paskutinius {months} mėn",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "oil": "Aliejus",
   "outdated": "Pasenusi",
   "outdatedContracts": "Pasenusios sutartys",
@@ -1220,6 +816,13 @@
   "parsingObjectError": "Objekto negalima išanalizuoti. Susisiekite su kūrėju. Pašalinus programą, duomenys gali būti prarasti.",
   "per": "per",
   "perUnit": "už {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "period": "Laikotarpis",
   "periodBimonthly": "kas du mėnesius",
   "periodBiweekly": "kas dvi savaites",
@@ -1233,8 +836,38 @@
   "periodYearly": "kasmet",
   "previouslyDeletedCounters": "Neseniai ištrinti skaitikliai",
   "priceComparisonDiff": "Mokate {diffWithCurrency} {comparison, select, more {daugiau nei} less {mažiau nei} other {daugiau nei}} {countryName} vidurkį.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonEqual": "Mokate maždaug tiek pat, kiek vidutiniškai {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonNotEnoughData": "Dar nepakanka palyginamųjų duomenų svetainei {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "pricePerUnit": "Vieneto kaina",
   "pricePerUnitFeedIn": "Atlyginimo kaina",
   "pricePerUnitFreshWater": "Išlaidos už gėlą vandenį",
@@ -1243,14 +876,49 @@
   "pricePerUnitWaterWarm": "Karšto vandens šildymo išlaidos",
   "priceSubmissionAgreement": "Sutinku su elektros/dujų/vandens kainų už vienetą perdavimu į EHW+ serverį",
   "privacyBlock1Text": "Programos (toliau – programėlė) kūrėjas / teikėjas pagal Vokietijos telemedijos įstatymo (TMG) 5 skirsnį:\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock1Text2": "Norint naudoti programą, reikia sutikti su toliau pateiktomis naudojimo sąlygomis. Atidžiai juos perskaitykite.",
   "privacyBlock1Title": "Kūrėjas",
   "privacyBlock2Text": "Jūsų duomenų apsauga mums yra labai svarbi. Šioje privatumo politikoje paaiškinama, kokius asmens duomenis EHW+ renka ir kaip jie naudojami. Esminiai privatumo politikos pakeitimai yra reti, tačiau dėl naujų funkcijų, technologijų ar teisinių reikalavimų ji kartais gali būti peržiūrima. Todėl retkarčiais patikrinkite šį puslapį, kad gautumėte naujausią informaciją. Jei atliksime kokių nors reikšmingų pakeitimų, apie tai jus informuosime ir prireikus gausime jūsų sutikimą.",
   "privacyBlock2Title": "Generolas",
   "privacyBlock3Title": "Kokius duomenis renka {appNameShort}?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3aText": "{appNameShort} sukūrėme tam, kad galėtumėte greitai ir lengvai įvesti savo skaitiklių rodmenis, o vėliau naudodami statistiką sužinoti daugiau apie savo suvartojimą, jo išlaidas ir galimas sutaupymas. Tai reiškia, kad {appNameShort} galite įvesti, apskaičiuoti arba išsaugoti bet kokius duomenis, kuriuos paprastai vadiname „turiniu“. Šie duomenys saugomi tik jūsų mobiliajame telefone.\n\nSinchronizuoti su „Google“ disku.\nJei įgalinsite sinchronizavimą su „Google“ disku, turinio atsarginė kopija taip pat bus automatiškai sukurta jūsų „Google“ disko aplanke pavadinimu „{appNameShort}“, kurį galite pasiekti tik jūs. Prisijungus prie Google, jūsų el. pašto adresas bus matomas kūrėjui.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nVietos duomenys.\nSiekdama suprasti naudotojo elgesį ir ateities funkcijas, programa perduoda anoniminius naudojimo duomenis.\nDuomenys nėra bendrinami su trečiosiomis šalimis.\nGali būti renkama informacija apie kilmę (šalį ir miestą), kalbą, operacinę sistemą, įrenginio tipą, skiriamąją gebą, paspaudimų elgesį ir naudojimo trukmę.\n\nĮrenginio duomenys.\nRenkame duomenis apie įrenginių, kuriuos naudojate prisijungdami prie paslaugos, skaičių ir tipą, taip pat informaciją apie tų įrenginių operacinę sistemą (pvz., Android, iOS, Windows arba macOS).\n\nNaudodami programėlę sutinkate, kad būtų renkami anoniminiai duomenys, kaip aprašyta aukščiau.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsage": "Surinkti anoniminiai duomenys naudojami vartotojų elgesiui įvertinti. Be to, duomenys nebenaudojami.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsageTitle": "Kaip {appNameShort} naudoja mano duomenis?",
   "privacyBlock5": "Asmens duomenų saugojimo trukmė nustatoma pagal atitinkamą įstatymų nustatytą saugojimo laikotarpį (pvz., komercinės ir mokesčių teisės saugojimo laikotarpius). Pasibaigus laikotarpiui, atitinkami duomenys yra reguliariai ištrinami, jei jie nebereikalingi sutarčiai įvykdyti ar inicijuoti ir (arba) nebeturime teisėto intereso juos toliau saugoti.",
   "privacyBlock5Title": "Asmens duomenų saugojimo trukmė",
@@ -1281,13 +949,57 @@
   "purchasesPurchasedSubscribed": "Prenumeruoti",
   "purchasesRedeemCode": "Išpirkti kodą",
   "purchasesStatisticsWithPremium": "Naudodami „Premium“ gausite prieigą prie mėnesinio palyginimo{count, plural, =0{.}=1{.}other{ ir taip pat matysite istorinius {years} duomenis.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribeNow": "Prenumeruokite dabar",
   "purchasesSubscribePremium": "Prenumeruoti Premium",
   "purchasesSubscribePremiumMonthly": "Mėnesio atšaukiama prenumerata tik už {price} per mėnesį",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Mėnesio atšaukiama prenumerata lojalumo kaina {price} per mėnesį vietoj {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumTextLong": "Prieiga prie visų mokamų funkcijų prenumeratos laikotarpiu + lauko temperatūra",
   "purchasesSubscribePremiumYearly": "Kasmet atšaukiama prenumerata tik už {price} per metus",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Metinė atšaukiama prenumerata lojalumo kaina {price} per metus vietoj {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesUpgrade": "Atnaujinti",
   "purchasesWebLegalNote": "Dėl teisinių priežasčių pirkti galima tik iPhone arba Android telefoną su PlayStore paslaugomis.",
   "purchasesWhyBuyText": "Pirkdami dalyvaujate mano patirtuose išlaidoms paskelbti programėlę ir remiate tolesnę plėtrą.",
@@ -1303,9 +1015,31 @@
   "readingPrefillDisabledToast": "Automatinis pildymas išjungtas",
   "readingPrefillEnableForAllCounters": "Įgalinti visų skaitiklių automatinį pildymą",
   "readingReminder": "{count, plural, one {Skaitymo priminimas} other {Priminimų skaitymas}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "readingReminderDisabled": "Skaitymo priminimas neaktyvus",
   "readingReminderMultiBody": "{count, plural, one {Skaityti {count} matuoklio rodmenį dabar} other {Skaityti {count} matuoklio rodmenis dabar}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "readingReminderSingleBody": "Skaitykite {counterName} reikšmę dabar",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
   "readingReminders": "Priminimų skaitymas",
   "readingRemindersChannel": "Priminimų skaitymas",
   "readingSubmitted": "Pateiktas skaitiklio rodmuo",
@@ -1342,6 +1076,13 @@
   "roomName": "Kambario pavadinimas",
   "roomNameHint": "Pasirinktinai priskirkite kambario pavadinimą",
   "roomNamePart": "{roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
   "roomNew": "Naujas kambarys",
   "roomOffice": "Biuras",
   "roomOther": "Kita",
@@ -1409,6 +1150,16 @@
   "smartMeterTabConsumptions": "Vartojimas",
   "smartMeterTabProductions": "Produkcijos",
   "smartmeterInfocodeBannerText": "Išmanusis matuoklis {smartmeterId} gavo infokodą: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "Jūsų vandens skaitiklio {smartmeterId} temperatūra nukrito žemiau 3°C. Kyla šalčio pavojus! Izoliuokite skaitiklį ir vamzdžius arba šildykite plotą, kad nepažeistumėte.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Jūsų vandens skaitiklis {smartmeterId} aptiko nuolatinį vandens srautą. Tai gali reikšti nuotėkį. Patikrinkite, ar jūsų buityje nėra nuotėkio. Tualetai ir varvantys čiaupai yra dažnos priežastys.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Jūsų vandens skaitiklis {smartmeterId} aptiko neįprastai didelį vandens suvartojimą, o tai gali reikšti vamzdžio plyšimą. Patikrinkite, ar jūsų buityje nėra didelių nuotėkių ar lūžių. Signalas taip pat gali pasirodyti, jei išnaudojote didelį kiekį vandens, pvz. baseino užpildymui.",
@@ -1433,6 +1184,13 @@
   "supportGivePraise": "Pagirkite",
   "supportGivePraiseLong": "Ar jums patinka programa? Ačiū! Skleiskite žinią!",
   "supportGivePraiseRating": "Įvertinkite programą {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
   "supportGivePraiseRecommendation": "Rekomenduokite programą draugams ir šeimos nariams. Dėkojame už bet kokią rekomendaciją!",
   "supportMakeSuggestion": "Pasiūlykit ką nors",
   "supportMakeSuggestionLong": "Programa veikia iš naudotojų pasiūlymų. Ar turite pasiūlymą?",
@@ -1470,12 +1228,40 @@
   "teaserPurchaseVirtualCounter": "Pridėkite virtualius skaitiklius naudodami „Premium“.",
   "teaserPurchaseWaterExtractionCounter": "Atrakinkite vandens ištraukimo skaitiklius naudodami Premium.",
   "termsOfUsageBlock1": "Prieštaravimo teisė",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock1Title": "Bendrosios programėlės naudojimo sąlygos",
   "termsOfUsageBlock2": "Programa ir jos funkcijos negali būti naudojamos piktnaudžiaujant. Programą naudokite tik teisiškai leistinoje apimtyje ir pagal mūsų naudojimo sąlygas. Pažeidus galiojančius Vokietijos įstatymus arba mūsų naudojimo sąlygas, teikėjas pasilieka teisę neleisti jums naudotis programa.",
   "termsOfUsageBlock2Title": "Bendra informacija apie naudojimą",
   "termsOfUsageBlock2a": "Anonimizuoti naudojimo duomenys\nMes naudojame savo analizę, kad nuolat tobulintume programą.\nPersiunčiami tik anoniminiai duomenys.\nDuomenys neperduodami trečiosioms šalims.\nNorėdami gauti daugiau informacijos, eikite į Nustatymai > Privatumas > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2b": "Pranešimai apie klaidas\n„Sentry“ (savarankiškai priglobta) naudojamas nuolat tobulinti programėlę.\nKlaidų ataskaitos nėra apdorojamos ir nesidalinamos su trečiosiomis šalimis.\nNorėdami gauti daugiau informacijos, eikite į Nustatymai > Privatumas > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2c": "Asmeninė informacija\nJei naudojate „Google“ disko sinchronizavimą, EHW+ vis tiek neturi prieigos prie jūsų įvestų duomenų. Norėdami gauti daugiau informacijos, eikite į Nustatymai > Privatumas > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock3": "Teikėjas negarantuoja programėlės pasiekiamumo, patikimumo, funkcionalumo ar tinkamumo jūsų tikslams. Atsakomybė netaikoma, nebent tai yra privaloma pagal Prekės atsakomybės įstatymą, dėl tyčios, didelio neatsargumo, gyvybės, kūno ar sveikatos sužalojimo, kokybės garantijos prisiėmimo, nesąžiningo defekto nuslėpimo ar esminių sutartinių įsipareigojimų pažeidimo. Esminiai sutartiniai įsipareigojimai – tai prievolės, kurių įvykdymas yra būtinas tinkamam sutarties įvykdymui ir kurių vykdymu sutarties šalys gali reguliariai pasikliauti. Žalos, atsiradusios dėl esminių sutartinių įsipareigojimų pažeidimo, atlyginimas apsiriboja tokiai sutarčių rūšiai būdinga numatoma žala, nebent tai būtų tyčia ar didelis neatsargumas.",
   "termsOfUsageBlock3Title": "Atsakomybė",
   "termsOfUsageBlock4": "Teikėjas negarantuoja skaičiavimo rezultatų tikslumo. Vartotojai privalo atidžiai ir savo atsakomybe atnaujinti programėlėje saugomas kainas (bazines kainas, vartojimo kainas ir kt.), kad įsitikintų, jog surašytos sąskaitos atitinka faktines mokėtinas sumas.",
@@ -1560,22 +1346,57 @@
   "timeDayAgo": "prieš vieną dieną",
   "timeDays": "dienų",
   "timeDaysAgo": "Prieš {days} dienas",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "timeDaysWithin": "dienų",
   "timeForFirstYear": "pirmiems metams",
   "timeFriday": "penktadienis",
   "timeFromDate": "Nuo {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeFromUndefined": "Neapibrėžta",
   "timeHours": "valandų",
   "timeHoursAgo": "PHTOKEN prieš 0 val",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "timeInFuture": "Ateityje",
   "timeJustNow": "tik dabar",
   "timeLastUpdated": "paskutinį kartą atnaujinta",
   "timeMinutes": "minučių",
   "timeMinutesAgo": "Prieš {minutes} minutes",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonday": "pirmadienis",
   "timeMonth": "mėnuo",
   "timeMonths": "mėnesių",
   "timeMonthsAgo": "PHTOKEN prieš 0 mėnesių",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonthsWithin": "mėnesių",
   "timePeriodYearStart": "kasmet",
   "timeReminderAtEnd": "Pabaigoje",
@@ -1588,50 +1409,158 @@
   "timeToday": "šiandien",
   "timeTuesday": "antradienis",
   "timeUntilDate": "Iki {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeUntilUnlimited": "Neribota",
   "timeWednesday": "trečiadienis",
   "timeWeek": "savaitę",
   "timeWeeks": "savaites",
   "timeWithin": "{duration} viduje",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
   "timeYesterday": "vakar",
   "unitCm": "cm",
   "unitCmLong": "cm",
   "unitCmShort": "cm",
   "unitCubicMetersLong": "{count, plural, one {Kubinis metras (m³)} other {Kubiniai metrai (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitCubicMetersShort": "m³",
   "unitGJLong": "{count, plural, one {Gigadžaulis (GJ)} other {Gigadžauliai (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {Valanda} other {Valandos (h)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitHoursShort": "h",
   "unitKWhLong": "{count, plural, one {Kilovatvalandė (kWh)} other {Kilovatvalandės (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKWhShort": "kWh",
   "unitKgLong": "{count, plural, one {Kilogramas (kg)} other {Kilogramai (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKgShort": "kg",
   "unitLiters": "litrų",
   "unitLitersLong": "{count, plural, one {Litras (ℓ)} other {Litrai (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Megavatvalandė (MWh)} other {Megavatvalandės (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitMWhShort": "MWh",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "jokios",
   "unitNoneFormatted": "{count, plural, one {vienetas} other {vienetų}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitPercentLong": "Percent (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "kv.m",
   "unitSquareMetersLong": "{count, plural, one {Kvadratinis metras (m²)} other {Kvadratinių metrų (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitSquareMetersShort": "m²",
   "updateAvailable": "Programos versija {oldVersion} neatnaujinta. Galite atnaujinti į {newVersion} versiją.",
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
   "updateObjectName": "Keisti objektų pavadinimus",
   "upgradeDescription": "Programa gali padaryti daugiau. Geresnė išlaidų apžvalga, daugiau statistikos, „Excel“ eksportas, daugiau skaitiklių, ...",
   "useDismissibleSettings": "Ištrinkite braukdami gestu",
   "useDismissibleSettingsDetailed": "Skaitiklius, sutartis ir kt. galima ištrinti braukiant į šoną",
   "usedForPaymentsRepayments": "Avansas, bazinė kaina ir premija",
   "valueLess": "{value} mažiau",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "valueMore": "{value} daugiau",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "versionIsUpToDate": "Naujausia programos versija, išleista visiems vartotojams, yra {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "virtualCounter": "Virtualus matuoklis",
   "virtualCounterMasterCounter": "Meistras matuoklis",
   "virtualCounterMasterCounterAttach": "Pasirinkite pagrindinį matuoklį",
@@ -1645,11 +1574,61 @@
   "warning": "Įspėjimas",
   "warningCounterReplacementDetected": "Nauja vertė yra mažesnė nei ankstesnis skaitiklio rodmuo. Ar skaitiklis pakeistas?",
   "warningNextReminderText": "Kitas priminimas yra {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningOutdatedSinceText": "nuo {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValue": "Nauja vertė yra didesnė nei ankstesnis skaitiklio rodmuo.{isOilCounter, select, true { Ar papildėte baką?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValueOilVolume": "Nauja vertė yra didesnė nei ankstesnis skaitiklio rodmuo. Ar užpildėte baką?",
   "warningReadingOutdatedForYearlyResetCounter": "Nėra galutinio {lastYear} metų {deviceTypeName} {roomNamePart} skaitiklio rodmens. Tai būtina norint teisingai apskaičiuoti bendrą metinį suvartojimą.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingOutdatedFrequency": "Naujausias {deviceTypeName} {roomNamePart} skaitiklio rodmuo yra pasenęs {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingSeemsTooBig": "Nauja vertė yra gana didelė. Ar teisingai skaitote?",
   "warningReadingSeemsTooSmall": "Nauja vertė yra gana maža. Ar perskaityta teisingai?",
   "warningReadingSmallerThanOldValue2": "Nauja vertė yra mažesnė nei ankstesnis skaitiklio rodmuo. Ar teisingai skaitote?",
@@ -1658,6 +1637,18 @@
   "waterConsumption": "Vandens suvartojimas",
   "waterExtractionMinimumLevelLower": "Išskaitymas vyksta, nes suvartojimas yra mažesnis už ribą.",
   "waterMeterEventsInformation": "{count, plural, =1 {Jūsų belaidis vandens skaitiklis {waterSupplier} aptinka netikėtą suvartojimą. Jei pageidaujate, tokiu atveju gausite pranešimą.} other {Jūsų belaidžiai vandens skaitikliai {waterSupplier} aptinka netikėtą suvartojimą. Jei pageidaujate, tokiais atvejais gausite pranešimą.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
   "watersupplierAccessRequestQ1": "Ar esate vandens telkinio baseino teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte gauti radijo skaitiklių rodmenis?",
   "watersupplierAccessRequestQ2": "Ar jau paprašėte prieigos? Tada turite sukurti EHW+ vartotojo paskyrą.",
   "watersupplierAccessRequestQ3": "Ar jau paprašėte prieigos ir gavote QR kodą?",
@@ -1694,5 +1685,14 @@
   "youtubeConsent3": "Sutinku, kad man būtų rodomas išorinis turinys. Dėl to asmens duomenys gali būti perduodami trečiųjų šalių platformoms. Daugiau apie tai mūsų",
   "zipCode": "pašto kodas",
   "zipCodeValidationLength": "Įveskite {digits} skaitmenų pašto kodą",
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "zipCodeValidationOnlyNumbers": "Galiojantį pašto kodą sudaro tik skaičiai"
 }

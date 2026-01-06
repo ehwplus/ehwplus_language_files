@@ -221,7 +221,7 @@
   "counterElectricityGenerated": "Stromerzeugniszähler (PV)",
   "counterExclude": "Ausschließen",
   "counterExcludedContracts": "Ausgeschlossene Verträge",
-  "counterExplainSeasonal": "Zählerstände im Sommer auf 0 setzen? Im Winter folgt der Verlauf deinem Verbrauch; im Sommer bleibt er flach.",
+  "counterExplainSeasonal": "Für Prognosen wird zwischen saisonalen Zählern und nicht-saisonalen Zählern unterschieden. Abhängig davon wird die Prognose anders berechnet.\n\nImmer als saisonal eingestuft werden Heizung, Gas, Öl. Nicht-saisonale Zähler sind Strom (auch NT/HT) und Wasser.\n\nFür nicht-saisonale Zähler ist der Verbrauch der letzten 30 Tage ausschlaggebend.\n\nFür saisonale Zähler wird der Durchschnitt der Vorjahre gebildet (falls die Erstablesung länger als 60 Tage her ist), wobei die Monate aktuellerer Jahre höher gewichtet werden. So wird zum Beispiel der Verbrauch/Ertrag des Vorvorjahres nur halb so stark gezählt wie der des Vorjahres. Ausnahme: Gibt es noch keine Daten für den Monat des Vorjahres, wird der Durchschnittsverbrauch der letzten 60 Tage verwendet.\n\nEinige Zähler wie Gas, Öl, Heizung werden automatisch als saisonale Zähler eingestuft. Stromzähler sind zunächst nicht-saisonale Zähler, können aber in den Einstellungen umgestellt werden.",
   "counterFactor": "Faktor",
   "counterFactorDescription": "Der Verbrauch wird Ihnen nur anteilig zugeschrieben? Geben Sie den Anteil als Wert zwischen 0,1 (10%) und 1,0 (100%) ein.",
   "counterFractionDigits": "Nachkommastellen",

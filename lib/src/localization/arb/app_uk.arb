@@ -1,805 +1,5 @@
 {
   "@@locale": "uk",
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "Object"
-      },
-      "monthlyCubicMeters": {
-        "type": "Object"
-      },
-      "unitName": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearly": {
-    "placeholders": {
-      "consumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "Object"
-      }
-    }
-  },
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "accountAbout": "Що може робити обліковий запис користувача EHW+?",
   "accountBenefit1": "Більш надійне розпізнавання покупки",
   "accountBenefit2": "Доступ до всіх придбаних розширень на кількох пристроях",
@@ -835,6 +35,9 @@
   "appBarExpandedMode": "Панель програми з фоновим зображенням",
   "appDescriptionLong": "<p>Ласкаво просимо до <b>EHW+</b>, вашої програми для зчитування лічильників для <b>E</b>електрики, <b>H</b>їсти та <b>W</b>ater. З нами ви можете легко відстежувати<b> <b>0скільки ви використовуєте та скільки це коштує<b>1 <b>2коштує<b>3 безкоштовно.<b>4",
   "appDescriptionShort": "Добре для гаманця, добре для клімату",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
   "appName": "EHW+ | Споживання та показання лічильників",
   "appNameShort": "EHW+",
   "areYouSure": "Ви впевнені?",
@@ -898,13 +101,48 @@
   "commonUpdateNow": "Оновіть зараз",
   "commonUserLogin": "Вхід користувача",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Ви використовуєте обліковий запис EHW+. {notSubmitted} із придбаних продуктів {total} не вдалося зберегти на сервері EHW+. Сподіваємося, незабаром вирішимо проблему.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Одна покупка була синхронізована через обліковий запис EHW+.} other {Покупки {count} синхронізовано через обліковий запис EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Ви використовуєте обліковий запис EHW+. Якщо ви придбаєте продукти в майбутньому, вони будуть синхронізовані на всіх ваших пристроях.} one {Ви використовуєте обліковий запис EHW+. Придбаний продукт {count} збережено на сервері EHW+.} other {Ви використовуєте обліковий запис EHW+. Придбані продукти {count} збережено на сервері EHW+.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionNotLoggedIn": "Ви використовуєте додаток на кількох пристроях? Увійшовши у свій обліковий запис EHW+, ви зможете синхронізувати налаштування та придбані продукти на всіх своїх пристроях.",
   "commonYear": "рік",
   "commonYes": "так",
   "completeButton": "Повний",
   "confirmDeleteAtCloud": "Чи потрібно також видалити \"{objectTitle}\" з Google Drive?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
   "consent11AnalyticsTitle": "Дані аналізу",
   "consent12Analytics": "Щоб оцінити успішність програми або окремих функцій, програма передає анонімну статистику використання. Дані не передаються третім особам. Дані використовуються для подальшого розвитку програми.",
   "consent13StromGedacht": "StromGedacht, сервіс, який надає TransnetBW, надає інформацію про стабільність мережі та рекомендації щодо того, коли краще використовувати електроенергію. Оскільки енергетичний перехід стає все більш і більш складним для електромережі, домогосподарства Південно-Західної Німеччини беруть участь у цьому. Щоб отримати інформацію про ваше місцезнаходження, ваш поштовий індекс, якщо він введений тут у додатку, передається до TransnetBW StromGedacht API. Ніякі інші дані не передаються та не пов’язуються.",
@@ -928,35 +166,201 @@
   "consumptionHeatmap": "Теплова карта споживання",
   "consumptionHeatmapYield": "Теплова карта врожайності",
   "consumptionHeatpump": "Крім того, споживана потужність теплового насоса становить {formattedValue} кВт/год.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
   "consumptionIsNotExclusive": "Якщо споживання не стосується виключно цієї діяльності, це буде показано як попередження.",
   "consumptionIsNotExclusiveTitle": "Споживання виключно?",
   "consumptionPersonLabel": "{count, plural, one {людина} other {людей}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "consumptionWaterColdEqual": "Холодна вода: приблизно стільки ж, скільки в середньому по будинку.",
   "consumptionWaterColdLess": "Холодна вода: {percentage} менше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterColdMore": "Холодна вода: {percentage} більше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthly": "близько {dailyLiters} літрів на день (≈ {monthlyCubicMeters} {unitName} на місяць).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthlyPerPerson": "На людину споживають усі близько {dailyLiters} літрів на день (≈ {monthlyCubicMeters} {unitName} на місяць).",
   "consumptionWaterDailyMonthlySingle": "Ви споживаєте близько {dailyLiters} літрів на день (≈ {monthlyCubicMeters} {unitName} на місяць).",
   "consumptionWaterOverallEqual": "Ваше споживання води {ofRange} відповідає споживанню середньої домогосподарства з {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallLess": "Ваше споживання води {ofRange} на {percentage} менше, ніж у середньому домогосподарстві з {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallMore": "Ваше споживання води {ofRange} на {percentage} вище, ніж у середньому домогосподарстві з {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterPrefixPerPerson": "На людину споживають усі",
   "consumptionWaterPrefixSingle": "Ви споживаєте",
   "consumptionWaterRangeUnknown": "Ваше споживання води {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmEqual": "Гаряча вода: приблизно така ж, як і в середньому домогосподарстві.",
   "consumptionWaterWarmLess": "Гаряча вода: {percentage} менше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmMore": "Гаряча вода: {percentage} більше, ніж у середньому домогосподарстві.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearly": "Ваше споживання електроенергії {ofRange} становить {consumption} кВт/год на рік.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedAboutSame": "приблизно так само, як",
   "consumptionYearlyDetailedAverageHousehold": "середнє домогосподарство з {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedComparisonEqual": "Ви споживаєте{verbSuffix} приблизно так само, як середнє домогосподарство з {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "Ви споживаєте{verbSuffix} {percentage} менше ніж середнє домогосподарство з {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "Ви споживаєте{verbSuffix} {percentage} більше ніж середнє домогосподарство з {householdSize} {personLabel}.",
   "consumptionYearlyDetailedElectricity": "Ваше споживання електроенергії {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць) {consumptionLevel}.",
   "consumptionYearlyDetailedElectricityIntro": "Ваше споживання електроенергії {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedGas": "Ваше споживання газу {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць) {consumptionLevel}.",
   "consumptionYearlyDetailedGasIntro": "Ваше споживання газу {ofRange} ({totalConsumption} кВт-год ≈ {yearlyConsumption} кВт-год/рік ≈ {monthlyConsumption} кВт-год/місяць)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLessThan": "{percentage} менше ніж",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLevel0": "дуже низький.",
   "consumptionYearlyDetailedLevel1": "дійсно є на що подивитись.",
   "consumptionYearlyDetailedLevel1Suffix": "Для оптимального споживання бракує {nextToOptimal}.",
@@ -965,8 +369,22 @@
   "consumptionYearlyDetailedLevel3": "є відносно високим.",
   "consumptionYearlyDetailedLevel4": "це нормально.",
   "consumptionYearlyDetailedMoreThan": "{percentage} більше ніж",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedOptimalEnding": "як ти це робиш",
   "consumptionYearlyDetailedYouConsume": "Ви споживаєте{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYield": "Врожайність",
   "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Фірнгайм\n\nконтакт\n\nТелефон: 06204/7383382\nПошта: info@ehwplus.com",
   "contactTitle": "У особі:",
@@ -1021,6 +439,16 @@
   "counterDirectionDescending": "спадання",
   "counterDirectionExplanation": "Чи зменшується значення з використанням (індикатор рівня тощо) чи збільшується з використанням (години роботи пальника, лічильник масла тощо), чи кожне показання є незалежним (споживання/вихід)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
   "counterDistrictHeating": "Центральне теплопостачання",
   "counterEdit": "Редагувати лічильник",
   "counterElectricity": "Лічильник електроенергії",
@@ -1028,7 +456,6 @@
   "counterElectricityGenerated": "Лічильник електроенергії",
   "counterExclude": "Виключити",
   "counterExcludedContracts": "Виключені контракти",
-  "counterExplainSeasonal": "Поставити лічильники на 0 влітку? Взимку показники будуть відповідати вашій нормальній моделі споживання; влітку вони залишаться плоскими.",
   "counterFactor": "Фактор",
   "counterFactorDescription": "Чи розподіляється споживання лише на пропорційній основі? Введіть пропорцію у вигляді значення від 0,1 (10%) до 1,0 (100%).",
   "counterFractionDigits": "Цифри дробу",
@@ -1050,9 +477,26 @@
   "counterNoContractSelected": "Договір не вибрано",
   "counterNoRoomConnection": "Немає підключення до кімнати",
   "counterNum": "Лічильники {count}",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "counterOilHeating": "Масляне опалення",
   "counterOtherContracts": "Інші договори",
   "counterOutdatedAndNextReminder": "Зчитування лічильника застаріло з {date}, наступне нагадування про зчитування {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
   "counterProportionateConsumption": "Пропорційне споживання",
   "counterPvFeedInCounter": "Відновлювані джерела енергії (сонячна енергія та тепло з PV/сонячними системами)",
   "counterPvFeedInCounterExplanation": "Використовуйте лічильник подачі електроенергії, щоб реєструвати вироблену та подану електроенергію\nз фотоелектричною системою. Отриманий дохід компенсується витратами\nвитраченої електроенергії.",
@@ -1080,6 +524,13 @@
   "csvImportWithFactor": "Чи потрібно показники лічильника множити на коефіцієнт не рівний 1,0? Наприклад, щоб перевести значення з Вт-год у кВт-год, їх потрібно помножити на 0,001.",
   "currency": "Валюта",
   "deleteObjectError": "Неможливо видалити цей об'єкт (код {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
   "detailWithMultiSelect": "Дозволити багаторазовий вибір",
   "detailsTitle": "Подробиці",
   "difference": "Різниця",
@@ -1088,13 +539,54 @@
   "driveSyncStatusComparing": "Порівняння з файлом на сервері",
   "driveSyncStatusFailed": "Не вдалося синхронізувати",
   "driveSyncStatusLocalHasLatestNoCloud": "Файл, збережений на цьому пристрої з {localDate}, не зберігається в хмарі",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusLocalHasLatestWithCloud": "Файл, збережений на цьому пристрої з {localDate}, є більш актуальним, ніж файл у хмарі з {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusNotSynced": "Не синхронізовано",
   "driveSyncStatusRemoteHasLatestNoLocal": "Файл у хмарі з {cloudDate} не збережено на цьому пристрої",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusRemoteHasLatestWithLocal": "Файл у хмарі з {cloudDate} є більш актуальним, ніж локальний файл з {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusSyncing": "Виконується синхронізація",
   "driveSyncStatusTitle": "Статус синхронізації",
   "driveSyncStatusUpToDate": "Оновлено від {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncWithGoogle": "Google Drive Sync",
   "editDetailTitle": "Редагувати деталь",
   "electricity": "Електрика",
@@ -1113,10 +605,33 @@
   "export": "Експорт",
   "exportExplanation": "Який наявний об’єкт ви хочете експортувати, наприклад, щоб перенести його на новий пристрій?",
   "exportObjectDescription": "{countersText}, {meterReadings}, {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionConsumptionsSubtitle": "Значення споживання для кожного дня з моменту першого зчитування.",
   "exportOptionConsumptionsTitle": "Щоденне споживання",
   "exportOptionExcel": "Файл Excel",
   "exportOptionFileDescription": "Об’єкт використовується як файл {fileType}",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionPdf": "файл PDF",
   "exportOptionReadingsSubtitle": "Зазвичай показання лічильника або споживання з нерегулярними інтервалами.",
   "exportOptionReadingsTitle": "Читання значень",
@@ -1145,6 +660,13 @@
   "generated": "Сформований",
   "googleAnalyticsAgreement": "Я погоджуюся на передачу анонімних даних про використання програми EHW+ Services GmbH.",
   "googleApiAgreement": "Використання {appNameShort} і передача в будь-яку іншу програму інформації, отриманої від API Google, відповідатиме Політиці щодо даних користувачів служб API Google, включаючи вимоги щодо обмеженого використання.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "gross": "брутто",
   "grossNetPrices": "Ціна брутто або нетто",
   "heatPump": "Тепловий насос",
@@ -1157,13 +679,37 @@
   "importConfirm": "Підтвердити імпорт",
   "importCounterAsCsv": "Ви хочете імпортувати один лічильник? Для кожного лічильника підтримується файл CSV із двома стовпцями: один для часу та один для показань лічильника.\n\nПриклад даних:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Використовувалися лише перші дві колонки. Третя колонка була проігнорована.} other {Використовувалися лише перші два стовпці, стовпці {columns} ігнорувалися.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "importErrorCsvIgnoredLines": "{count, plural, one {Один рядок було проігноровано: {lines}} other {Рядки {count} були проігноровані: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
   "importExplanation": "Ви вже зробили показання лічильників і хочете їх вставити?",
   "importExport": "Резервне копіювання/відновлення",
   "importNewOrExistingCounter": "Додати до нового чи наявного лічильника?",
   "importNotPossible": "Імпорт неможливий",
   "importPickFile": "Виберіть файл",
   "importSelectJson": "Файл JSON (створений за допомогою {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
   "importSelectSingleCounter": "Єдиний лічильник (файл CSV)",
   "importSuccessful": "Імпорт успішний",
   "importTabErrorMessageFileWithExtensionNotSelected": "Для продовження імпорту потрібен файл {extension}.",
@@ -1199,6 +745,13 @@
   "meterReadingsFilterAll": "Показати все",
   "meterReadingsFilterComments": "Показати лише записи з коментарями",
   "meterReadingsFilterSubmitted": "Показати лише \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
   "myObjects": "Мої об'єкти",
   "net": "чистий",
   "networkCounter": "Інтернет і телефон",
@@ -1211,11 +764,53 @@
   "notificationsEmpty": "Немає повідомлень",
   "notificationsSmartMeterAlertFallback": "У вас є нове сповіщення смарт-лічильника.",
   "numCounters": "{count, plural, =0 {Лічильник {count}} one {Лічильник {count}} other {Лічильники {count}}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "numMeterReadings": "{readings, plural, one {# читання} other {# читання}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
   "numberOfDetails": "{count, plural, one {1 деталь} other {Деталі {count}}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeFrom": "від {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
   "ofRangeLastDays": "за останні {days} днів",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeLastMonths": "за останні {months} місяців",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "oil": "олія",
   "outdated": "Застаріла",
   "outdatedContracts": "Застарілі договори",
@@ -1224,6 +819,13 @@
   "parsingObjectError": "Об’єкт неможливо розібрати. Будь ласка, зв'яжіться з розробником. Під час видалення програми дані можуть бути втрачені.",
   "per": "пер",
   "perUnit": "за {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "period": "Крапка",
   "periodBimonthly": "раз на два місяці",
   "periodBiweekly": "кожні два тижні",
@@ -1237,8 +839,38 @@
   "periodYearly": "щорічно",
   "previouslyDeletedCounters": "Нещодавно видалені лічильники",
   "priceComparisonDiff": "Ви платите {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} середнє значення в {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonEqual": "Ви платите приблизно стільки ж, скільки в середньому в {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonNotEnoughData": "Поки недостатньо порівняльних даних для сайту {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "pricePerUnit": "Ціна за одиницю",
   "pricePerUnitFeedIn": "Ціна винагороди",
   "pricePerUnitFreshWater": "Витрати на прісну воду",
@@ -1247,14 +879,49 @@
   "pricePerUnitWaterWarm": "Витрати на підігрів гарячої води",
   "priceSubmissionAgreement": "Я згоден на передачу цін на електроенергію/газ/воду за одиницю на сервер EHW+",
   "privacyBlock1Text": "Розробник/постачальник програми (надалі «програма»), відповідно до розділу 5 Закону Німеччини про телемедіа (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock1Text2": "Для користування програмою ви повинні прийняти наведені нижче умови використання. Будь ласка, прочитайте їх уважно.",
   "privacyBlock1Title": "Розробник",
   "privacyBlock2Text": "Захист ваших даних дуже важливий для нас. Ця політика конфіденційності пояснює, які особисті дані EHW+ збирає та як вони використовуються. Фундаментальні зміни в політиці конфіденційності трапляються рідко, але час від часу вона може переглядатися через нові функції, технології або вимоги законодавства. Тому час від часу перевіряйте цю сторінку, щоб бути в курсі подій. Якщо ми внесемо будь-які значні зміни, ми повідомимо вас і, якщо необхідно, отримаємо вашу згоду.",
   "privacyBlock2Title": "Загальний",
   "privacyBlock3Title": "Які дані збирає {appNameShort}?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3aText": "Ми створили {appNameShort}, щоб ви могли швидко та легко вводити показання свого лічильника, а потім використовувати статистику, щоб дізнатися більше про своє споживання, витрати та потенційну економію. Це означає, що ви можете вводити, обчислювати або зберігати будь-які дані, які ми зазвичай називаємо «вмістом», у {appNameShort}. Ці дані зберігаються лише на вашому мобільному телефоні.\n\nСинхронізація з Google Drive.\nЯкщо ви ввімкнете синхронізацію з Google Диском, вміст також буде автоматично створено резервну копію в папці під назвою «{appNameShort}» на вашому Google Диску, доступ до якої маєте лише ви. Після входу в обліковий запис Google ваша адреса електронної пошти стане доступною для розробника.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nДані про місцезнаходження.\nЩоб зрозуміти поведінку користувачів і для майбутніх функцій, програма передає анонімні дані про використання.\nДані не передаються третім особам.\nМоже збиратися інформація про походження (країна та місто), мову, операційну систему, тип пристрою, роздільну здатність, поведінку при натисканні та тривалість використання.\n\nДані пристрою.\nМи збираємо дані про кількість і тип пристроїв, які ви використовуєте для підключення до служби, а також інформацію про операційну систему на цих пристроях (наприклад, Android, iOS, Windows або macOS).\n\nВикористовуючи програму, ви погоджуєтеся на збір анонімних даних, як описано вище.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsage": "Зібрані анонімні дані використовуються для оцінки поведінки користувачів. Крім цього, подальшого використання даних немає.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsageTitle": "Як {appNameShort} використовує мої дані?",
   "privacyBlock5": "Тривалість зберігання персональних даних визначається відповідним законодавчим терміном зберігання (наприклад, періоди зберігання комерційного та податкового законодавства). Після закінчення періоду відповідні дані регулярно видаляються, якщо вони більше не потрібні для виконання або ініціювання договору та/або ми більше не маємо законного інтересу в їх подальшому зберіганні.",
   "privacyBlock5Title": "Термін зберігання персональних даних",
@@ -1285,13 +952,57 @@
   "purchasesPurchasedSubscribed": "Підписався",
   "purchasesRedeemCode": "Активувати код",
   "purchasesStatisticsWithPremium": "З Premium ви отримуєте доступ до щомісячного порівняння{count, plural, =0{.}=1{.}other{, а також переглядаєте історичні дані для {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribeNow": "Підпишіться зараз",
   "purchasesSubscribePremium": "Підпишіться на Premium",
   "purchasesSubscribePremiumMonthly": "Щомісячна підписка, яку можна скасувати, лише за {price} на місяць",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Щомісячна підписка, яку можна скасувати, за ціною лояльності {price} на місяць замість {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumTextLong": "Доступ до всіх платних функцій протягом періоду підписки + зовнішні температури",
   "purchasesSubscribePremiumYearly": "Річна підписка, яку можна скасувати, лише за {price} на рік",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Річна підписка, яку можна скасувати, за ціною лояльності {price} на рік замість {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesUpgrade": "Оновлення",
   "purchasesWebLegalNote": "З юридичних причин покупка можлива лише для телефону iPhone або Android із послугами PlayStore.",
   "purchasesWhyBuyText": "Здійснюючи покупку, ви берете участь у моїх витратах на публікацію програми та підтримуєте подальший розвиток.",
@@ -1307,9 +1018,31 @@
   "readingPrefillDisabledToast": "Автозаповнення вимкнено",
   "readingPrefillEnableForAllCounters": "Увімкнути автозаповнення для всіх лічильників",
   "readingReminder": "{count, plural, one {Нагадування про читання} other {Читання нагадувань}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "readingReminderDisabled": "Нагадування про читання неактивне",
   "readingReminderMultiBody": "{count, plural, one {Зчитайте показання лічильника {count} зараз} other {Зчитайте показання лічильників {count} зараз}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "readingReminderSingleBody": "Прочитайте значення {counterName} зараз",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
   "readingReminders": "Читання нагадувань",
   "readingRemindersChannel": "Читання нагадувань",
   "readingSubmitted": "Показання лічильника подано",
@@ -1346,6 +1079,13 @@
   "roomName": "Назва кімнати",
   "roomNameHint": "За бажанням призначте назву кімнати",
   "roomNamePart": "у {roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
   "roomNew": "Нова кімната",
   "roomOffice": "Офіс",
   "roomOther": "інше",
@@ -1413,6 +1153,16 @@
   "smartMeterTabConsumptions": "Споживання",
   "smartMeterTabProductions": "Виробництва",
   "smartmeterInfocodeBannerText": "Смартметр {smartmeterId} отримав інфокод: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "Температура вашого лічильника води {smartmeterId} впала нижче 3°C. Є загроза заморозків! Ізолюйте лічильник і труби або обігрійте приміщення, щоб запобігти пошкодженню.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Ваш водомір {smartmeterId} виявив постійний потік води. Це може свідчити про витік. Будь ласка, перевірте вашу побутову установку на герметичність. Частими причинами є унітази та крани, що капають.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Ваш водомір {smartmeterId} виявив надзвичайно високе споживання води, що може свідчити про прорив труби. Будь ласка, перевірте вашу побутову установку на наявність серйозних витоків або поломок. Сигнал також може з’явитися, якщо ви використали велику кількість води, напр. для наповнення басейну.",
@@ -1437,6 +1187,13 @@
   "supportGivePraise": "Дайте похвалу",
   "supportGivePraiseLong": "Вам подобається додаток? дякую! Поширюйте інформацію!",
   "supportGivePraiseRating": "Оцініть додаток у {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
   "supportGivePraiseRecommendation": "Порекомендуйте додаток друзям і родині. Дякуємо за будь-які рекомендації!",
   "supportMakeSuggestion": "Запропонуйте щось",
   "supportMakeSuggestionLong": "Додаток живе пропозиціями користувачів. У вас є пропозиція?",
@@ -1474,12 +1231,40 @@
   "teaserPurchaseVirtualCounter": "Додайте віртуальні лічильники з Premium.",
   "teaserPurchaseWaterExtractionCounter": "Розблокуйте лічильники видобутку води за допомогою Premium.",
   "termsOfUsageBlock1": "Право на заперечення",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock1Title": "Загальні умови користування додатком",
   "termsOfUsageBlock2": "Додаток і його функції не можна використовувати в образливий спосіб. Будь ласка, використовуйте додаток лише в рамках дозволеного законодавством обсягу та відповідно до наших умов використання. У разі порушення чинного законодавства Німеччини або наших умов використання постачальник залишає за собою право виключити вас із використання програми.",
   "termsOfUsageBlock2Title": "Загальні відомості про використання",
   "termsOfUsageBlock2a": "Анонімні дані про використання\nМи використовуємо власну аналітику, щоб постійно вдосконалювати додаток.\nПередаються лише анонімні дані.\nДані не передаються третім особам.\nЩоб отримати додаткові відомості, перейдіть до Налаштування > Конфіденційність > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2b": "Звіти про помилки\nSentry (самостійне розміщення) використовується для постійного вдосконалення програми.\nЗвіти про помилки не обробляються та не передаються третім особам.\nЩоб отримати додаткові відомості, перейдіть до Налаштування > Конфіденційність > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2c": "Особиста інформація\nЯкщо ви використовуєте Google Drive Sync, EHW+ все одно не матиме доступу до введених вами даних. Щоб отримати додаткові відомості, перейдіть до Налаштування > Конфіденційність > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock3": "Постачальник не гарантує доступність, надійність, функціональність або придатність програми для ваших цілей. Відповідальність виключається, якщо вона не є обов’язковою відповідно до Закону про відповідальність за продукцію через умисел, грубу недбалість, травму життя, кінцівок або здоров’я, припущення гарантії якості, шахрайське приховування дефекту або порушення основних договірних зобов’язань. Істотні договірні зобов'язання - це зобов'язання, виконання яких є необхідним для належного виконання контракту і на дотримання яких сторони можуть регулярно покладатися. Компенсація за збитки внаслідок порушення суттєвих договірних зобов'язань обмежується передбачуваною шкодою, типовою для цього типу контракту, за винятком випадків умислу або грубої недбалості.",
   "termsOfUsageBlock3Title": "Відповідальність",
   "termsOfUsageBlock4": "Провайдер не гарантує точність результатів розрахунків. Користувачі зобов’язані обережно та під власну відповідальність оновлювати ціни, збережені в додатку (базові ціни, ціни споживання тощо), щоб переконатися, що створені рахунки відповідають фактичним сумам до сплати.",
@@ -1564,22 +1349,57 @@
   "timeDayAgo": "один день тому",
   "timeDays": "днів",
   "timeDaysAgo": "{days} днів тому",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "timeDaysWithin": "днів",
   "timeForFirstYear": "за перший рік",
   "timeFriday": "П'ятниця",
   "timeFromDate": "Від {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeFromUndefined": "Невизначено",
   "timeHours": "години",
   "timeHoursAgo": "{hours} годин тому",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "timeInFuture": "У майбутньому",
   "timeJustNow": "тільки зараз",
   "timeLastUpdated": "останнє оновлення",
   "timeMinutes": "хвилин",
   "timeMinutesAgo": "{minutes} хвилин тому",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonday": "понеділок",
   "timeMonth": "місяць",
   "timeMonths": "місяців",
   "timeMonthsAgo": "{months} місяців тому",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonthsWithin": "місяців",
   "timePeriodYearStart": "щорічно",
   "timeReminderAtEnd": "Наприкінці",
@@ -1592,50 +1412,158 @@
   "timeToday": "сьогодні",
   "timeTuesday": "вівторок",
   "timeUntilDate": "До {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeUntilUnlimited": "Необмежений",
   "timeWednesday": "Середа",
   "timeWeek": "тиждень",
   "timeWeeks": "тижнів",
   "timeWithin": "У межах {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
   "timeYesterday": "вчора",
   "unitCm": "см",
   "unitCmLong": "см",
   "unitCmShort": "см",
   "unitCubicMetersLong": "{count, plural, one {Кубічний метр (м³)} other {Кубічні метри (м³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitCubicMetersShort": "м³",
   "unitGJLong": "{count, plural, one {Гігаджоуль (ГДж)} other {Гігаджоулі (ГДж)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {годину} other {Години (год)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitHoursShort": "ч",
   "unitKWhLong": "{count, plural, one {Кіловат-година (кВт-год)} other {Кіловат-годин (кВт-год)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKWhShort": "кВт/год",
   "unitKgLong": "{count, plural, one {кілограм (кг)} other {кілограми (кг)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKgShort": "кг",
   "unitLiters": "літрів",
   "unitLitersLong": "{count, plural, one {Літр (л)} other {Літр (л)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Мегават-година (МВт-год)} other {Мегават-годин (МВт-год)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitMWhShort": "МВт*год",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "немає",
   "unitNoneFormatted": "{count, plural, one {одиниця} other {одиниць}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitPercentLong": "Відсоток (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "кв.м",
   "unitSquareMetersLong": "{count, plural, one {Квадратний метр (м²)} other {Квадратних метрів (м²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitSquareMetersShort": "м²",
   "updateAvailable": "Версія програми {oldVersion} не актуальна. Ви можете оновити до версії {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
   "updateObjectName": "Змінити назви об’єктів",
   "upgradeDescription": "Додаток може більше. Кращий огляд витрат, більше статистики, експорт Excel, більше лічильників, ...",
   "useDismissibleSettings": "Видалити жестом пальця",
   "useDismissibleSettingsDetailed": "Лічильники, контракти тощо можна видалити рухом збоку",
   "usedForPaymentsRepayments": "Передоплата, базова ціна та бонус",
   "valueLess": "{value} менше",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "valueMore": "більше {value}",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "versionIsUpToDate": "Остання версія програми, випущена для всіх користувачів, — {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "virtualCounter": "Віртуальний лічильник",
   "virtualCounterMasterCounter": "Майстер-лічильник",
   "virtualCounterMasterCounterAttach": "Виберіть основний лічильник",
@@ -1649,11 +1577,61 @@
   "warning": "УВАГА",
   "warningCounterReplacementDetected": "Нове значення нижче попереднього показника лічильника. Чи замінено лічильник?",
   "warningNextReminderText": "Наступне нагадування {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningOutdatedSinceText": "з {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValue": "Нове значення вище попереднього показання лічильника.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValueOilVolume": "Нове значення вище попереднього показання лічильника. Ви залили бак?",
   "warningReadingOutdatedForYearlyResetCounter": "Остаточний показник лічильника за рік {lastYear} для {deviceTypeName} {roomNamePart} відсутній. Це необхідно для правильного розрахунку загального річного споживання.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingOutdatedFrequency": "Останнє показання лічильника для {deviceTypeName} {roomNamePart} застаріло {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingSeemsTooBig": "Нове значення досить високе. Чи правильно прочитано?",
   "warningReadingSeemsTooSmall": "Нове значення досить низьке. Чи правильно це було прочитано?",
   "warningReadingSmallerThanOldValue2": "Нове значення нижче попереднього показника лічильника. Чи правильно прочитано?",
@@ -1662,6 +1640,18 @@
   "waterConsumption": "Споживання води",
   "waterExtractionMinimumLevelLower": "Відрахування відбувається, оскільки споживання нижче за порогове значення.",
   "waterMeterEventsInformation": "{count, plural, =1 {Ваш бездротовий лічильник води {waterSupplier} виявляє несподіване споживання. При бажанні в такому випадку ви отримаєте сповіщення.} other {Ваші бездротові лічильники води {waterSupplier} виявляють несподіване споживання. При бажанні в таких випадках ви отримаєте сповіщення.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
   "watersupplierAccessRequestQ1": "Ви є власником нерухомості в зоні водозбору і бажаєте отримати доступ до показань радіолічильників?",
   "watersupplierAccessRequestQ2": "Ви вже запитували доступ? Далі вам потрібно створити обліковий запис користувача EHW+.",
   "watersupplierAccessRequestQ3": "Ви вже подали запит на доступ і отримали свій QR-код?",
@@ -1698,5 +1688,15 @@
   "youtubeConsent3": "Я погоджуюся на відображення зовнішнього вмісту. Це може призвести до передачі особистих даних на сторонні платформи. Детальніше про це в нашому",
   "zipCode": "поштовий індекс",
   "zipCodeValidationLength": "Введіть {digits}-значний поштовий індекс",
-  "zipCodeValidationOnlyNumbers": "Дійсний поштовий індекс складається лише з цифр"
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "zipCodeValidationOnlyNumbers": "Дійсний поштовий індекс складається лише з цифр",
+  "counterExplainSeasonal": "Для прогнозів розрізняють сезонні та несезонні лічильники. Залежно від цього, прогноз розраховується по-різному.\n\nЗавжди класифікуються як сезонні опалення, газ, нафта. Несезонними лічильниками є електроенергія та вода.\n\nДля несезонних лічильників вирішальним є споживання за останні 90 днів.\n\nДля сезонних лічильників усереднюються попередні роки (якщо вони доступні), причому всі місяці попередніх років враховуються однаково. (Виняток: якщо даних за місяць попереднього року ще немає, то використовується попереднє середнє значення)."
 }

@@ -1,804 +1,4 @@
 {
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "Object"
-      },
-      "monthlyCubicMeters": {
-        "type": "Object"
-      },
-      "unitName": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearly": {
-    "placeholders": {
-      "consumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "Object"
-      }
-    }
-  },
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "accountAbout": "Vad kan EHW+-användarkontot göra?",
   "accountBenefit1": "Mer tillförlitlig köpigenkänning",
   "accountBenefit2": "Tillgång till alla köpta expansioner på flera enheter",
@@ -834,6 +34,9 @@
   "appBarExpandedMode": "App bar med bakgrundsbild",
   "appDescriptionLong": "<p>Välkommen till <b>EHW+</b>, din mätaravläsningsapp för <b>E</b>elektricitet, <b>H</b>ätande och <b>W</b>ater. Hos oss kan du enkelt spåra<b> <b>0hur mycket du använder och vad det<b>1 <b>2kostar<b>3 gratis.<b>4",
   "appDescriptionShort": "Bra för plånboken, bra för klimatet",
+  "@appDescriptionShort": {
+    "description": "Marketing claim"
+  },
   "appName": "EHW+ | Förbrukning & mätarställning",
   "appNameShort": "EHW+",
   "areYouSure": "Är du säker?",
@@ -897,13 +100,48 @@
   "commonUpdateNow": "Uppdatera nu",
   "commonUserLogin": "Användarinloggning",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Du använder EHW+-kontot. {notSubmitted} av {total} köpta produkter kunde inte sparas på EHW+-servern. Vi hoppas kunna lösa problemet snart.",
+  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
+    "placeholders": {
+      "notSubmitted": {
+        "example": "1",
+        "type": "int"
+      },
+      "total": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Ett köp har synkroniserats via EHW+-kontot.} other {{count}-köp har synkroniserats via EHW+-kontot.}}",
+  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Du använder EHW+-kontot. Om du köper produkter i framtiden kommer de att synkroniseras på alla dina enheter.} one {Du använder EHW+-kontot. {count} köpt produkt har sparats på EHW+-servern.} other {Du använder EHW+-kontot. {count} köpta produkter har sparats på EHW+-servern.}}",
+  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
+    "placeholders": {
+      "count": {
+        "example": "3",
+        "type": "int"
+      }
+    }
+  },
   "commonUserLoginDescriptionNotLoggedIn": "Använder du appen på flera enheter? Genom att logga in på ditt EHW+-konto kan du synkronisera dina inställningar och köpta produkter på alla dina enheter.",
   "commonYear": "år",
   "commonYes": "ja",
   "completeButton": "Komplett",
   "confirmDeleteAtCloud": "Bör \"{objectTitle}\" också raderas från Google Drive?",
+  "@confirmDeleteAtCloud": {
+    "placeholders": {
+      "objectTitle": {
+        "type": "String"
+      }
+    }
+  },
   "consent11AnalyticsTitle": "Analysdata",
   "consent12Analytics": "För att utvärdera framgången för appen eller enskilda funktioner överför appen anonymiserad användningsstatistik. Uppgifterna överförs inte till tredje part. Uppgifterna används för vidareutveckling av appen.",
   "consent13StromGedacht": "StromGedacht, en tjänst som tillhandahålls av TransnetBW, ger information om nätstabilitet och rekommendationer om när elektricitet bör användas i första hand. I takt med att energiomställningen blir mer och mer utmanande för transmissionsnätet, involveras hushållen i sydvästra Tyskland. För att få information om din plats skickas ditt postnummer, om det anges här i appen, till TransnetBW StromGedacht API. Ingen annan data överförs eller länkas.",
@@ -927,35 +165,201 @@
   "consumptionHeatmap": "Förbrukningsvärmekarta",
   "consumptionHeatmapYield": "Utbyte Heatmap",
   "consumptionHeatpump": "Dessutom uppgår värmepumpens strömförbrukning till {formattedValue} kWh.",
+  "@consumptionHeatpump": {
+    "placeholders": {
+      "formattedValue": {
+        "type": "String"
+      }
+    }
+  },
   "consumptionIsNotExclusive": "Om förbrukningen inte är exklusiv för denna aktivitet kommer den att visas som en varning.",
   "consumptionIsNotExclusiveTitle": "Är konsumtion exklusiv?",
   "consumptionPersonLabel": "{count, plural, one {person} other {personer}}",
+  "@consumptionPersonLabel": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "consumptionWaterColdEqual": "Kallt vatten: ungefär samma som det genomsnittliga hushållet.",
   "consumptionWaterColdLess": "Kallt vatten: {percentage} mindre än det genomsnittliga hushållet.",
+  "@consumptionWaterColdLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterColdMore": "Kallt vatten: {percentage} mer än genomsnittshushållet.",
+  "@consumptionWaterColdMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthly": "ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
+  "@consumptionWaterDailyMonthly": {
+    "placeholders": {
+      "dailyLiters": {
+        "type": "Object"
+      },
+      "monthlyCubicMeters": {
+        "type": "Object"
+      },
+      "unitName": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterDailyMonthlyPerPerson": "Per person konsumerar alla ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
   "consumptionWaterDailyMonthlySingle": "Du konsumerar ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per månad).",
   "consumptionWaterOverallEqual": "Din vattenförbrukning {ofRange} matchar den för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "@consumptionWaterOverallEqual": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallLess": "Din vattenförbrukning {ofRange} är {percentage} lägre än för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "@consumptionWaterOverallLess": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterOverallMore": "Din vattenförbrukning {ofRange} är {percentage} högre än för ett genomsnittligt hushåll med {householdSize} {personLabel}.",
+  "@consumptionWaterOverallMore": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "percentage": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterPrefixPerPerson": "Per person konsumerar alla",
   "consumptionWaterPrefixSingle": "Du konsumerar",
   "consumptionWaterRangeUnknown": "Din vattenförbrukning {ofRange} ...",
+  "@consumptionWaterRangeUnknown": {
+    "placeholders": {
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmEqual": "Varmvatten: ungefär samma som det genomsnittliga hushållet.",
   "consumptionWaterWarmLess": "Varmvatten: {percentage} mindre än det genomsnittliga hushållet.",
+  "@consumptionWaterWarmLess": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionWaterWarmMore": "Varmvatten: {percentage} mer än genomsnittshushållet.",
+  "@consumptionWaterWarmMore": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearly": "Din elförbrukning {ofRange} är {consumption} kWh för året.",
+  "@consumptionYearly": {
+    "placeholders": {
+      "consumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedAboutSame": "ungefär samma som",
   "consumptionYearlyDetailedAverageHousehold": "ett genomsnittligt hushåll med {householdSize} {personLabel}",
+  "@consumptionYearlyDetailedAverageHousehold": {
+    "placeholders": {
+      "householdSize": {
+        "type": "Object"
+      },
+      "personLabel": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedComparisonEqual": "Du konsumerar{verbSuffix} ungefär samma som ett genomsnittligt hushåll med {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "Du konsumerar{verbSuffix} {percentage} mindre än ett genomsnittligt hushåll med {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "Du konsumerar{verbSuffix} {percentage} mer än ett genomsnittligt hushåll med {householdSize} {personLabel}.",
   "consumptionYearlyDetailedElectricity": "Din elförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad) {consumptionLevel}.",
   "consumptionYearlyDetailedElectricityIntro": "Din elförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad)",
+  "@consumptionYearlyDetailedElectricityIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedGas": "Din gasförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad) {consumptionLevel}.",
   "consumptionYearlyDetailedGasIntro": "Din gasförbrukning {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/månad)",
+  "@consumptionYearlyDetailedGasIntro": {
+    "placeholders": {
+      "monthlyConsumption": {
+        "type": "Object"
+      },
+      "ofRange": {
+        "type": "Object"
+      },
+      "totalConsumption": {
+        "type": "Object"
+      },
+      "yearlyConsumption": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLessThan": "{percentage} mindre än",
+  "@consumptionYearlyDetailedLessThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedLevel0": "är superlågt.",
   "consumptionYearlyDetailedLevel1": "är verkligen något att se.",
   "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} saknas för optimal förbrukning.",
@@ -964,8 +368,22 @@
   "consumptionYearlyDetailedLevel3": "är relativt hög.",
   "consumptionYearlyDetailedLevel4": "är normalt.",
   "consumptionYearlyDetailedMoreThan": "{percentage} mer än",
+  "@consumptionYearlyDetailedMoreThan": {
+    "placeholders": {
+      "percentage": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYearlyDetailedOptimalEnding": "Hur gör du?",
   "consumptionYearlyDetailedYouConsume": "Du konsumerar{verbSuffix}",
+  "@consumptionYearlyDetailedYouConsume": {
+    "placeholders": {
+      "verbSuffix": {
+        "type": "Object"
+      }
+    }
+  },
   "consumptionYield": "Avkastning",
   "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontakta\n\nTelefon: 06204/7383382\nMaila: info@ehwplus.com",
   "contactTitle": "Representeras av:",
@@ -1020,6 +438,16 @@
   "counterDirectionDescending": "fallande",
   "counterDirectionExplanation": "Minskar värdet med användning (nivåindikator etc.) eller ökar värdet med användning (brännartimmar, oljemätare etc.) eller är varje avläsningsvärde oberoende (förbrukning/utbyte)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
+  "@counterDirectionNone": {
+    "placeholders": {
+      "consumptionElectricity": {
+        "type": "String"
+      },
+      "consumptionSolar": {
+        "type": "String"
+      }
+    }
+  },
   "counterDistrictHeating": "Fjärrvärme",
   "counterEdit": "Redigera räknare",
   "counterElectricity": "Elmätare",
@@ -1027,7 +455,6 @@
   "counterElectricityGenerated": "Elproduktionsmätare",
   "counterExclude": "Utesluta",
   "counterExcludedContracts": "Undantagna kontrakt",
-  "counterExplainSeasonal": "Ställa mätarställningen på 0 under sommaren? På vintern kommer avläsningarna att följa ditt normala konsumtionsmönster; på sommaren kommer de att hålla sig platt.",
   "counterFactor": "Faktor",
   "counterFactorDescription": "Tilldelas konsumtionen endast till dig på en pro rata-basis? Ange andelen som ett värde mellan 0,1 (10 %) och 1,0 (100 %).",
   "counterFractionDigits": "Bråktalssiffror",
@@ -1049,9 +476,26 @@
   "counterNoContractSelected": "Inget kontrakt valt",
   "counterNoRoomConnection": "Ingen rumsanslutning",
   "counterNum": "{count} räknare",
+  "@counterNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "counterOilHeating": "Oljeeldning",
   "counterOtherContracts": "Andra kontrakt",
   "counterOutdatedAndNextReminder": "Motläsning föråldrad sedan {date}, nästa läsningspåminnelse {date2}.",
+  "@counterOutdatedAndNextReminder": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "date2": {
+        "type": "String"
+      }
+    }
+  },
   "counterProportionateConsumption": "Proportionell konsumtion",
   "counterPvFeedInCounter": "Förnybar energi (solenergi och värme med PV/solsystem)",
   "counterPvFeedInCounterExplanation": "Använd en elinmatningsmätare för att registrera den el som genereras och matas in\nmed ett solcellssystem. De resulterande intäkterna kvittas mot kostnaden för\nelen som dras.",
@@ -1079,6 +523,13 @@
   "csvImportWithFactor": "Ska mätarställningen multipliceras med en faktor som inte är lika med 1,0? Till exempel, för att konvertera värden från Wh till kWh, måste de multipliceras med 0,001.",
   "currency": "Valuta",
   "deleteObjectError": "Kan inte ta bort detta objekt (kod {errorCode}).",
+  "@deleteObjectError": {
+    "placeholders": {
+      "errorCode": {
+        "type": "int"
+      }
+    }
+  },
   "detailWithMultiSelect": "Tillåt flerval",
   "detailsTitle": "Detaljer",
   "difference": "Skillnad",
@@ -1087,13 +538,54 @@
   "driveSyncStatusComparing": "Jämför med fil på server",
   "driveSyncStatusFailed": "Det gick inte att synkronisera",
   "driveSyncStatusLocalHasLatestNoCloud": "Filen som sparats på den här enheten från {localDate} sparas inte i molnet",
+  "@driveSyncStatusLocalHasLatestNoCloud": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusLocalHasLatestWithCloud": "Filen som sparats på den här enheten från {localDate} är mer uppdaterad än filen i molnet från {cloudDate}",
+  "@driveSyncStatusLocalHasLatestWithCloud": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusNotSynced": "Ej synkroniserad",
   "driveSyncStatusRemoteHasLatestNoLocal": "Filen i molnet från {cloudDate} sparas inte på den här enheten",
+  "@driveSyncStatusRemoteHasLatestNoLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusRemoteHasLatestWithLocal": "Filen i molnet från {cloudDate} är mer uppdaterad än den lokala filen från {localDate}",
+  "@driveSyncStatusRemoteHasLatestWithLocal": {
+    "placeholders": {
+      "cloudDate": {
+        "type": "String"
+      },
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncStatusSyncing": "Synkronisering pågår",
   "driveSyncStatusTitle": "Synkroniseringsstatus",
   "driveSyncStatusUpToDate": "Uppdaterad från {localDate}",
+  "@driveSyncStatusUpToDate": {
+    "placeholders": {
+      "localDate": {
+        "type": "String"
+      }
+    }
+  },
   "driveSyncWithGoogle": "Google Drive Sync",
   "editDetailTitle": "Redigera detalj",
   "electricity": "Elektricitet",
@@ -1112,10 +604,33 @@
   "export": "Exportera",
   "exportExplanation": "Vilket befintligt objekt vill du exportera, till exempel för att överföra det till en ny enhet?",
   "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
+  "@exportObjectDescription": {
+    "placeholders": {
+      "countersText": {
+        "type": "String"
+      },
+      "lastUpdated": {
+        "type": "String"
+      },
+      "meterReadings": {
+        "type": "String"
+      },
+      "timeLastUpdated": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionConsumptionsSubtitle": "Ett förbrukningsvärde för varje dag sedan den första avläsningen.",
   "exportOptionConsumptionsTitle": "Daglig konsumtion",
   "exportOptionExcel": "Excel-fil",
   "exportOptionFileDescription": "Objektet delas som en {fileType}-fil",
+  "@exportOptionFileDescription": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
   "exportOptionPdf": "PDF-fil",
   "exportOptionReadingsSubtitle": "Typiskt mätaravläsning eller förbrukning med oregelbundna intervall.",
   "exportOptionReadingsTitle": "Läsa värden",
@@ -1144,6 +659,13 @@
   "generated": "Genererad",
   "googleAnalyticsAgreement": "Jag samtycker till överföring av anonymiserade uppgifter om användningen av appen till EHW+ Services GmbH.",
   "googleApiAgreement": "{appNameShort}:s användning och överföring till någon annan app av information som tas emot från Googles API:er kommer att följa Googles API-tjänsters användardatapolicy, inklusive kraven för begränsad användning.",
+  "@googleApiAgreement": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "gross": "brutto",
   "grossNetPrices": "Brutto- eller nettopris",
   "heatPump": "Värmepump",
@@ -1156,13 +678,37 @@
   "importConfirm": "Bekräfta importen",
   "importCounterAsCsv": "Vill du importera en enda mätare? Stöd per meter är en CSV-fil med två kolumner, en för tiden och en för mätarställningen.\n\nExempeldata:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Endast de två första kolumnerna användes. Den tredje kolumnen ignorerades.} other {Endast de två första kolumnerna användes, {columns} kolumner ignorerades.}}",
+  "@importErrorCsvIgnoredColumns": {
+    "placeholders": {
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
   "importErrorCsvIgnoredLines": "{count, plural, one {En rad ignorerades: {lines}} other {{count} rader ignorerades: {lines}}}",
+  "@importErrorCsvIgnoredLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      }
+    }
+  },
   "importExplanation": "Du har redan gjort räknare och vill infoga dem?",
   "importExport": "Säkerhetskopiera/återställa",
   "importNewOrExistingCounter": "Lägg till i ny eller befintlig disk?",
   "importNotPossible": "Import inte möjlig",
   "importPickFile": "Välj fil",
   "importSelectJson": "JSON-fil (skapad med {appName})",
+  "@importSelectJson": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
   "importSelectSingleCounter": "Enkel räknare (CSV-fil)",
   "importSuccessful": "Importen lyckades",
   "importTabErrorMessageFileWithExtensionNotSelected": "En {extension}-fil krävs för att fortsätta med importen.",
@@ -1198,6 +744,13 @@
   "meterReadingsFilterAll": "Visa alla",
   "meterReadingsFilterComments": "Visa endast poster med kommentarer",
   "meterReadingsFilterSubmitted": "Visa endast \"{state}\"",
+  "@meterReadingsFilterSubmitted": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
   "myObjects": "Mina föremål",
   "net": "netto",
   "networkCounter": "Internet & telefon",
@@ -1210,11 +763,53 @@
   "notificationsEmpty": "Inga aviseringar",
   "notificationsSmartMeterAlertFallback": "Du har en ny larm för smartmätare.",
   "numCounters": "{count, plural, =0 {{count} räknare} one {{count} räknare} other {{count} räknare}}",
+  "@numCounters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "numMeterReadings": "{readings, plural, one {#läsning} other {# avläsningar}}",
+  "@numMeterReadings": {
+    "placeholders": {
+      "readings": {
+        "type": "int"
+      }
+    }
+  },
   "numberOfDetails": "{count, plural, one {1 detalj} other {{count} detaljer}}",
+  "@numberOfDetails": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeFrom": "från {range}",
+  "@ofRangeFrom": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
   "ofRangeLastDays": "av de senaste {days} dagarna",
+  "@ofRangeLastDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "ofRangeLastMonths": "för de senaste {months} månaderna",
+  "@ofRangeLastMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "oil": "Olja",
   "outdated": "Föråldrad",
   "outdatedContracts": "Föråldrade kontrakt",
@@ -1223,6 +818,13 @@
   "parsingObjectError": "Objektet kan inte analyseras. Kontakta utvecklaren. När du avinstallerar appen kan data gå förlorade.",
   "per": "per",
   "perUnit": "per {unit}",
+  "@perUnit": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "period": "Period",
   "periodBimonthly": "varannan månad",
   "periodBiweekly": "som utkommer varannan vecka",
@@ -1236,8 +838,38 @@
   "periodYearly": "årlig",
   "previouslyDeletedCounters": "Nyligen raderade mätare",
   "priceComparisonDiff": "Du betalar {diffWithCurrency} {comparison, select, more {mer än} less {mindre än} other {mer än}} genomsnittet i {countryName}.",
+  "@priceComparisonDiff": {
+    "placeholders": {
+      "comparison": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      },
+      "diffWithCurrency": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonEqual": "Du betalar ungefär lika mycket som genomsnittet i {countryName}.",
+  "@priceComparisonEqual": {
+    "placeholders": {
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "priceComparisonNotEnoughData": "Ännu inte tillräckligt med jämförande data för webbplatsen {countryName} ({countryCode}).",
+  "@priceComparisonNotEnoughData": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "countryName": {
+        "type": "String"
+      }
+    }
+  },
   "pricePerUnit": "Pris per enhet",
   "pricePerUnitFeedIn": "Ersättningspris",
   "pricePerUnitFreshWater": "Kostnader för färskvatten",
@@ -1246,14 +878,49 @@
   "pricePerUnitWaterWarm": "Varmvattenuppvärmningskostnader",
   "priceSubmissionAgreement": "Jag håller med om överföring av el/gas/vattenpriser per enhet till en EHW+-server",
   "privacyBlock1Text": "Utvecklaren/leverantören av applikationen (nedan kallad \"app\") är, i enlighet med § 5 i den tyska telemedialagen (TMG):\n\n{contact}",
+  "@privacyBlock1Text": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock1Text2": "Användning av appen kräver att du godkänner följande användarvillkor. Läs dem noggrant.",
   "privacyBlock1Title": "Framkallare",
   "privacyBlock2Text": "Skyddet av dina uppgifter är mycket viktigt för oss. Denna integritetspolicy förklarar vilka personuppgifter EHW+ samlar in och hur de används. Grundläggande ändringar av integritetspolicyn är sällsynta, men den kan revideras då och då på grund av nya funktioner, teknologier eller juridiska krav. Så vänligen kolla denna sida då och då för att hålla dig uppdaterad. Om vi ​​gör några väsentliga ändringar kommer vi att meddela dig och vid behov inhämta ditt samtycke.",
   "privacyBlock2Title": "Allmän",
   "privacyBlock3Title": "Vilken data samlar {appNameShort} in?",
+  "@privacyBlock3Title": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3aText": "Vi skapade {appNameShort} så att du snabbt och enkelt kan ange dina mätarställning och sedan använda statistik för att ta reda på mer om din förbrukning, dess kostnader och potentiella besparingar. Det betyder att du kan ange, beräkna eller spara vilken data som helst, som vi i allmänhet kallar \"innehåll\", i {appNameShort}. Denna data lagras endast på din mobiltelefon.\n\nSynkronisera med Google Drive.\nOm du aktiverar synkronisering med Google Drive kommer innehållet också automatiskt att säkerhetskopieras i en mapp som heter \"{appNameShort}\" på din Google Drive, som bara du kan komma åt. Genom att logga in med Google kommer din e-postadress att vara synlig för utvecklaren.",
+  "@privacyBlock3aText": {
+    "placeholders": {
+      "appNameShort": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nPlatsdata.\nFör att förstå användarbeteende och för framtida funktioner överför appen anonymiserad användningsdata.\nUppgifterna delas inte med tredje part.\nInformation kan samlas in om ursprung (land och stad), språk, operativsystem, enhetstyp, upplösning, klickbeteende och användningstid.\n\nEnhetsdata.\nVi samlar in data om antalet och typen av enheter du använder för att ansluta till tjänsten, samt information om operativsystemet på dessa enheter (t.ex. Android, iOS, Windows eller macOS).\n\nGenom att använda appen samtycker du till insamling av anonymiserad data enligt beskrivningen ovan.",
+  "@privacyBlock3bText": {
+    "placeholders": {
+      "googleApiAgreement": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsage": "Insamlad anonymiserad data används för att utvärdera användarnas beteende. Utöver detta finns ingen ytterligare användning av data.\n\n{syncDriveDataUsage}",
+  "@privacyBlock4DataUsage": {
+    "placeholders": {
+      "syncDriveDataUsage": {
+        "type": "String"
+      }
+    }
+  },
   "privacyBlock4DataUsageTitle": "Hur använder {appNameShort} min data?",
   "privacyBlock5": "Varaktigheten av lagringen av personuppgifter bestäms av respektive lagstadgad lagringsperiod (t.ex. kommersiella och skatterättsliga lagringsperioder). Efter utgången av perioden raderas motsvarande uppgifter rutinmässigt, förutsatt att de inte längre behövs för att fullgöra eller inleda ett avtal och/eller att vi inte längre har ett berättigat intresse av att den fortsätter att lagras.",
   "privacyBlock5Title": "Varaktighet för lagring av personuppgifter",
@@ -1284,13 +951,57 @@
   "purchasesPurchasedSubscribed": "Prenumererade",
   "purchasesRedeemCode": "Lös in kod",
   "purchasesStatisticsWithPremium": "Med Premium får du tillgång till en månatlig jämförelse{count, plural, =0{.}=1{.}other{ och även se historisk data för {years}.}}",
+  "@purchasesStatisticsWithPremium": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribeNow": "Prenumerera nu",
   "purchasesSubscribePremium": "Prenumerera Premium",
   "purchasesSubscribePremiumMonthly": "Månatlig uppsägningsbar prenumeration för endast {price} per månad",
+  "@purchasesSubscribePremiumMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Månatlig uppsägningsbar prenumeration till lojalitetspriset {price} per månad istället för {priceNew}",
+  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumTextLong": "Tillgång till alla betalfunktioner under prenumerationsperioden + utomhustemperaturer",
   "purchasesSubscribePremiumYearly": "Årlig uppsägningsbar prenumeration för endast {price} per år",
+  "@purchasesSubscribePremiumYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Årlig uppsägningsbar prenumeration till lojalitetspriset {price} per år istället för {priceNew}",
+  "@purchasesSubscribePremiumYearlyWithNewPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "priceNew": {
+        "type": "String"
+      }
+    }
+  },
   "purchasesUpgrade": "Uppgradera",
   "purchasesWebLegalNote": "Av juridiska skäl är ett köp endast möjligt för en iPhone eller Android-telefon med PlayStore-tjänster.",
   "purchasesWhyBuyText": "Med ett köp deltar du i de kostnader jag ådrar mig genom att publicera appen och stödjer vidareutvecklingen.",
@@ -1306,9 +1017,31 @@
   "readingPrefillDisabledToast": "Autofyll avaktiverad",
   "readingPrefillEnableForAllCounters": "Aktivera autofyll för alla räknare",
   "readingReminder": "{count, plural, one {Läspåminnelse} other {Läspåminnelser}}",
+  "@readingReminder": {
+    "placeholders": {
+      "count": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
   "readingReminderDisabled": "Läspåminnelse inte aktiv",
   "readingReminderMultiBody": "{count, plural, one {Läs avläsningar från {count}-mätaren nu} other {Läs avläsningar från {count} meter nu}}",
+  "@readingReminderMultiBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "readingReminderSingleBody": "Läs {counterName}-värdet nu",
+  "@readingReminderSingleBody": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
   "readingReminders": "Läspåminnelser",
   "readingRemindersChannel": "Läspåminnelser",
   "readingSubmitted": "Mätaravläsning inlämnad",
@@ -1345,6 +1078,13 @@
   "roomName": "Rumsnamn",
   "roomNameHint": "Tilldela eventuellt ett rumsnamn",
   "roomNamePart": "i {roomName}",
+  "@roomNamePart": {
+    "placeholders": {
+      "roomName": {
+        "type": "String"
+      }
+    }
+  },
   "roomNew": "Nytt rum",
   "roomOffice": "Kontor",
   "roomOther": "Andra",
@@ -1412,6 +1152,16 @@
   "smartMeterTabConsumptions": "Förbrukning",
   "smartMeterTabProductions": "Produktioner",
   "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} fick infokod: {infocode}",
+  "@smartmeterInfocodeBannerText": {
+    "placeholders": {
+      "infocode": {
+        "type": "String"
+      },
+      "smartmeterId": {
+        "type": "String"
+      }
+    }
+  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "Temperaturen på din vattenmätare {smartmeterId} har sjunkit under 3°C. Det finns risk för frost! Isolera mätaren och rören eller värm upp området för att förhindra skador.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Din vattenmätare {smartmeterId} har upptäckt ett kontinuerligt vattenflöde. Detta kan tyda på en läcka. Kontrollera din hushållsinstallation för läckor. Toaletter och droppande kranar är vanliga orsaker.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Din vattenmätare {smartmeterId} har upptäckt ovanligt hög vattenförbrukning, vilket kan tyda på ett rörsprängt. Kontrollera din hushållsinstallation för större läckor eller brott. Larmet kan även dyka upp om du har använt en stor mängd vatten, t.ex. för att fylla en pool.",
@@ -1436,6 +1186,13 @@
   "supportGivePraise": "Ge beröm",
   "supportGivePraiseLong": "Gillar du appen? Tack! Sprid ordet!",
   "supportGivePraiseRating": "Betygsätt appen i {store}.",
+  "@supportGivePraiseRating": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
   "supportGivePraiseRecommendation": "Rekommendera appen till vänner och familj. Tack för alla rekommendationer!",
   "supportMakeSuggestion": "Föreslå något",
   "supportMakeSuggestionLong": "Appen lever från användarförslag. Har du något förslag?",
@@ -1473,12 +1230,40 @@
   "teaserPurchaseVirtualCounter": "Lägg till virtuella räknare med Premium.",
   "teaserPurchaseWaterExtractionCounter": "Lås upp vattenutsugningsdiskar med Premium.",
   "termsOfUsageBlock1": "Invändningsrätt",
+  "@termsOfUsageBlock1": {
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock1Title": "Allmänna användarvillkor för användning av appen",
   "termsOfUsageBlock2": "Appen och dess funktioner får inte användas på ett kränkande sätt. Vänligen använd appen endast inom den lagligt tillåtna omfattningen och i enlighet med våra användarvillkor. I händelse av brott mot tillämplig tysk lag eller våra användarvillkor förbehåller sig leverantören rätten att utesluta dig från att använda appen.",
   "termsOfUsageBlock2Title": "Allmän information om användning",
   "termsOfUsageBlock2a": "Anonymiserad användningsdata\nVi använder vår egen analys för att kontinuerligt förbättra appen.\nEndast anonymiserade uppgifter överförs.\nUppgifterna lämnas inte vidare till tredje part.\nFör mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}",
+  "@termsOfUsageBlock2a": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2b": "Felrapporter\nSentry (självvärd) används för att kontinuerligt förbättra appen.\nFelrapporter varken behandlas eller delas med tredje part.\nFör mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}",
+  "@termsOfUsageBlock2b": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock2c": "Personlig information\nOm du använder Google Drive Sync har EHW+ fortfarande ingen åtkomst till den data du har angett. För mer information, gå till Inställningar > Sekretess > {privacyBlock3Title}.",
+  "@termsOfUsageBlock2c": {
+    "placeholders": {
+      "privacyBlock3Title": {
+        "type": "String"
+      }
+    }
+  },
   "termsOfUsageBlock3": "Leverantören garanterar inte tillgängligheten, tillförlitligheten, funktionaliteten eller lämpligheten av appen för dina ändamål. Ansvar är uteslutet såvida det inte är obligatoriskt enligt produktansvarslagen, på grund av uppsåt, grov vårdslöshet, skada på liv, lem eller hälsa, antagandet om kvalitetsgaranti, bedrägligt döljande av en defekt eller brott mot väsentliga avtalsförpliktelser. Väsentliga avtalsförpliktelser är de skyldigheter vars fullgörande är avgörande för ett korrekt genomförande av ett kontrakt och vars efterlevnad de avtalsslutande parterna regelbundet kan lita på. Ersättning för skador på grund av brott mot väsentliga avtalsförpliktelser är begränsad till den förutsebara skada som är typisk för denna typ av kontrakt, såvida det inte föreligger uppsåt eller grov vårdslöshet.",
   "termsOfUsageBlock3Title": "Ansvar",
   "termsOfUsageBlock4": "Leverantören garanterar inte att beräkningsresultaten är korrekta. Användare är skyldiga att uppdatera de priser som lagras i applikationen (baspriser, konsumtionspriser etc.) noggrant och på eget ansvar för att säkerställa att de fakturor som genereras motsvarar de faktiska belopp som ska betalas.",
@@ -1563,22 +1348,57 @@
   "timeDayAgo": "en dag sedan",
   "timeDays": "dagar",
   "timeDaysAgo": "{days} dagar sedan",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
   "timeDaysWithin": "dagar",
   "timeForFirstYear": "för det första året",
   "timeFriday": "fredag",
   "timeFromDate": "Från {date}",
+  "@timeFromDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeFromUndefined": "Odefinierad",
   "timeHours": "timmar",
   "timeHoursAgo": "{hours} timmar sedan",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
   "timeInFuture": "I framtiden",
   "timeJustNow": "just nu",
   "timeLastUpdated": "senast uppdaterad",
   "timeMinutes": "minuter",
   "timeMinutesAgo": "{minutes} minuter sedan",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonday": "måndag",
   "timeMonth": "månad",
   "timeMonths": "månader",
   "timeMonthsAgo": "{months} månader sedan",
+  "@timeMonthsAgo": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
   "timeMonthsWithin": "månader",
   "timePeriodYearStart": "årlig",
   "timeReminderAtEnd": "På slutet",
@@ -1591,50 +1411,158 @@
   "timeToday": "i dag",
   "timeTuesday": "tisdag",
   "timeUntilDate": "Fram till {date}",
+  "@timeUntilDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "timeUntilUnlimited": "Obegränsat",
   "timeWednesday": "onsdag",
   "timeWeek": "vecka",
   "timeWeeks": "veckor",
   "timeWithin": "Inom {duration}",
+  "@timeWithin": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
   "timeYesterday": "i går",
   "unitCm": "cm",
   "unitCmLong": "cm",
   "unitCmShort": "cm",
   "unitCubicMetersLong": "{count, plural, one {Kubikmeter (m³)} other {Kubikmeter (m³)}}",
+  "@unitCubicMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitCubicMetersShort": "m³",
   "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoule (GJ)}}",
+  "@unitGJLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {Timme} other {Timmar (h)}}",
+  "@unitHoursLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitHoursShort": "h",
   "unitKWhLong": "{count, plural, one {Kilowatt timme (kWh)} other {Kilowatt timmar (kWh)}}",
+  "@unitKWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKWhShort": "kWh",
   "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
+  "@unitKgLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitKgShort": "kg",
   "unitLiters": "liter",
   "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
+  "@unitLitersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Megawattimme (MWh)} other {Megawattimmar (MWh)}}",
+  "@unitMWhLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitMWhShort": "MWh",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "ingen",
   "unitNoneFormatted": "{count, plural, one {enhet} other {enheter}}",
+  "@unitNoneFormatted": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitPercentLong": "Procent (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "kvm",
   "unitSquareMetersLong": "{count, plural, one {Kvadratmeter (m²)} other {Kvadratmeter (m²)}}",
+  "@unitSquareMetersLong": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
   "unitSquareMetersShort": "m²",
   "updateAvailable": "Appversionen {oldVersion} är inte uppdaterad. Du kan uppdatera till version {newVersion}.",
+  "@updateAvailable": {
+    "placeholders": {
+      "newVersion": {
+        "type": "String"
+      },
+      "oldVersion": {
+        "type": "String"
+      }
+    }
+  },
   "updateObjectName": "Ändra objektnamn",
   "upgradeDescription": "Appen kan göra mer. Bättre kostnadsöversikt, mer statistik, Excel-export, fler räknare, ...",
   "useDismissibleSettings": "Ta bort genom svepgest",
   "useDismissibleSettingsDetailed": "Räknare, kontrakt etc. kan raderas genom en sidosveprörelse",
   "usedForPaymentsRepayments": "Förskottsbetalning, grundpris och bonus",
   "valueLess": "{value} mindre",
+  "@valueLess": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "valueMore": "{value} mer",
+  "@valueMore": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
   "versionIsUpToDate": "Den senaste appversionen som släppts för alla användare är {version}.",
+  "@versionIsUpToDate": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "virtualCounter": "Virtuell mätare",
   "virtualCounterMasterCounter": "Mästarmätare",
   "virtualCounterMasterCounterAttach": "Välj huvudmätare",
@@ -1648,11 +1576,61 @@
   "warning": "Varning",
   "warningCounterReplacementDetected": "Det nya värdet är lägre än föregående mätarställning. Har mätaren bytts ut?",
   "warningNextReminderText": "Nästa påminnelse är {date}.",
+  "@warningNextReminderText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningOutdatedSinceText": "sedan {date}",
+  "@warningOutdatedSinceText": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValue": "Det nya värdet är högre än föregående mätaravläsning.{isOilCounter, select, true { Har du fyllt på tanken?} other {}}",
+  "@warningReadingBiggerThanOldValue": {
+    "placeholders": {
+      "isOilCounter": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingBiggerThanOldValueOilVolume": "Det nya värdet är högre än föregående mätarställning. Har du fyllt på tanken?",
   "warningReadingOutdatedForYearlyResetCounter": "Den sista mätarställningen för året {lastYear} för {deviceTypeName} {roomNamePart} saknas. Detta är nödvändigt för en korrekt beräkning av den totala årsförbrukningen.",
+  "@warningReadingOutdatedForYearlyResetCounter": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "lastYear": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingOutdatedFrequency": "Den senaste mätarställningen för {deviceTypeName} {roomNamePart} är föråldrad {outdatedSinceText}.{whenNotifyDateText}",
+  "@warningReadingOutdatedFrequency": {
+    "placeholders": {
+      "deviceTypeName": {
+        "type": "String"
+      },
+      "outdatedSinceText": {
+        "type": "String"
+      },
+      "roomNamePart": {
+        "type": "String"
+      },
+      "whenNotifyDateText": {
+        "type": "String"
+      }
+    }
+  },
   "warningReadingSeemsTooBig": "Nyvärdet är ganska högt. Har avläsningen tagits korrekt?",
   "warningReadingSeemsTooSmall": "Nyvärdet är ganska lågt. Lästes det rätt?",
   "warningReadingSmallerThanOldValue2": "Det nya värdet är lägre än föregående mätarställning. Har avläsningen tagits korrekt?",
@@ -1661,6 +1639,18 @@
   "waterConsumption": "Vattenförbrukning",
   "waterExtractionMinimumLevelLower": "Avdrag sker för att konsumtionen är lägre än tröskeln.",
   "waterMeterEventsInformation": "{count, plural, =1 {Din trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du en avisering i sådant fall.} other {Dina trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du ett meddelande i sådana fall.}}",
+  "@waterMeterEventsInformation": {
+    "placeholders": {
+      "count": {
+        "example": "1",
+        "type": "num"
+      },
+      "waterSupplier": {
+        "example": "from Wasserwerk Gerauer Land",
+        "type": "String"
+      }
+    }
+  },
   "watersupplierAccessRequestQ1": "Är du ägare till en fastighet i vattenverkets upptagningsområde och vill ha tillgång till radiomätaravläsningar?",
   "watersupplierAccessRequestQ2": "Har du redan begärt åtkomst? Därefter måste du skapa ett EHW+-användarkonto.",
   "watersupplierAccessRequestQ3": "Har du redan begärt åtkomst och fått din QR-kod?",
@@ -1697,5 +1687,15 @@
   "youtubeConsent3": "Jag samtycker till att externt innehåll visas för mig. Detta kan leda till att personuppgifter överförs till tredje parts plattformar. Mer om detta i vår",
   "zipCode": "postnummer",
   "zipCodeValidationLength": "Vänligen ange ett {digits}-siffrigt postnummer",
-  "zipCodeValidationOnlyNumbers": "Ett giltigt postnummer består endast av nummer"
+  "@zipCodeValidationLength": {
+    "description": "Error message if the entered zip code length is invalid",
+    "placeholders": {
+      "digits": {
+        "example": "5",
+        "type": "int"
+      }
+    }
+  },
+  "zipCodeValidationOnlyNumbers": "Ett giltigt postnummer består endast av nummer",
+  "counterExplainSeasonal": "För prognoser görs en åtskillnad mellan säsongsberoende och icke-säsongsberoende mätare. Beroende på detta beräknas prognosen på olika sätt.\n\nVärme, gas och olja klassificeras alltid som säsongsberoende. Icke-säsongsberoende mätare är el och vatten.\n\nFör icke-säsongsberoende mätare är förbrukningen under de senaste 90 dagarna avgörande.\n\nFör säsongsberoende mätare beräknas ett genomsnitt för tidigare år (om tillgängligt), där alla månader under tidigare år räknas lika. (Undantag: om det ännu inte finns några data för månaden föregående år används det tidigare genomsnittet)."
 }

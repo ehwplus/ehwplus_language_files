@@ -750,7 +750,6 @@
   "counterShowPreliminaryCurve": "عرض المنحنى الأولي",
   "seasonalCounter": "عداد موسمي",
   "seasonalElectricityCounter": "عداد كهرباء موسمي",
-  "counterExplainSeasonal": "تعيين قراءات العداد إلى 0 خلال الصيف؟ في الشتاء، ستتبع القراءات نمط استهلاكك العادي؛ في الصيف، ستبقى ثابتة.",
   "counterIsOutdated": "العداد قديم",
   "counterLinkMoreRecent": "ربط عداد أحدث",
   "counterReplacedBy": "استبدل بـ",
@@ -925,5 +924,6 @@
   "consumptionYearlyDetailedComparisonEqual": "أنت تستهلك{verbSuffix} نفس الشيء تقريباً متوسط أسرة مع {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "أنت تستهلك حوالي {dailyLiters} لتر يومياً (≈ {monthlyCubicMeters} {unitName} شهرياً).",
   "consumptionWaterDailyMonthlyPerPerson": "لكل شخص، يستهلك الجميع حوالي {dailyLiters} لتر يومياً (≈ {monthlyCubicMeters} {unitName} شهرياً).",
-  "consumptionYearlyDetailedLevel2": "عادي."
+  "consumptionYearlyDetailedLevel2": "عادي.",
+  "counterExplainSeasonal": "بالنسبة للتوقعات، يتم التمييز بين العدادات الموسمية وغير الموسمية. وبناءً على ذلك، يتم حساب التوقعات بشكل مختلف.\n\nيتم تصنيف التدفئة والغاز والزيت دائمًا على أنها موسمية. العدادات غير الموسمية هي الكهرباء والمياه.\n\nبالنسبة للعدادات غير الموسمية، يكون استهلاك آخر 90 يومًا هو العامل الحاسم.\n\nبالنسبة للعدادات الموسمية، يتم حساب متوسط السنوات السابقة (إن وجدت)، مع احتساب جميع أشهر السنوات السابقة بنفس الطريقة. (استثناء: إذا لم تكن هناك بيانات بعد عن شهر السنة السابقة، يتم استخدام المتوسط السابق)."
 }

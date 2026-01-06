@@ -750,7 +750,6 @@
   "counterShowPreliminaryCurve": "예상 곡선 표시",
   "seasonalCounter": "계절용 계량기",
   "seasonalElectricityCounter": "계절용 전기 계량기",
-  "counterExplainSeasonal": "여름철에 계량기 지침을 0으로 설정하시겠습니까? 겨울에는 평소 소비 패턴을 따르고, 여름에는 값이 일정하게 유지됩니다.",
   "counterIsOutdated": "계량기가 오래되었습니다.",
   "counterLinkMoreRecent": "새 계량기와 연결",
   "counterReplacedBy": "다음으로 교체됨",
@@ -925,5 +924,6 @@
   "consumptionYearlyDetailedComparisonEqual": "귀하는 소비하고 있습니다{verbSuffix} 평균과 비슷하게 평균 {householdSize} {personLabel} 가구와 비교하여.",
   "consumptionWaterDailyMonthlySingle": "귀하는 소비합니다 하루 약 {dailyLiters}리터 (월 약 {monthlyCubicMeters} {unitName}).",
   "consumptionWaterDailyMonthlyPerPerson": "1인당 소비량은 하루 약 {dailyLiters}리터 (월 약 {monthlyCubicMeters} {unitName}).",
-  "consumptionYearlyDetailedLevel2": "은(는) 정상 범위입니다."
+  "consumptionYearlyDetailedLevel2": "은(는) 정상 범위입니다.",
+  "counterExplainSeasonal": "예측 시에는 계절성 계량기와 비계절성 계량기로 구분합니다. 이에 따라 예측 방식이 달라집니다.\n\n난방, 가스, 석유 계량기는 항상 계절성 계량기로 분류됩니다. 비계절성 계량기는 전기와 수도입니다.\n\n비계절성 계량기의 경우 최근 90일간의 소비량이 결정적입니다.\n\n계절성 계량기의 경우, 이전 연도 데이터가 있을 경우 이를 평균화하며, 이전 연도의 모든 월이 동일하게 반영됩니다. (예외: 해당 월의 이전 연도 데이터가 아직 없는 경우, 이전 연도 평균값을 사용합니다)."
 }

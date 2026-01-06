@@ -721,7 +721,6 @@
   "counterShowPreliminaryCurve": "Mostrar curva preliminar",
   "seasonalCounter": "Contador sazonal",
   "seasonalElectricityCounter": "Contador de eletricidade sazonal",
-  "counterExplainSeasonal": "Definir as leituras do contador para 0 durante o Verão? No Inverno, o perfil segue o seu consumo; no Verão, mantém-se plano.",
   "counterIsOutdated": "O contador está desactualizado",
   "counterLinkMoreRecent": "Ligar contador mais recente",
   "counterReplacedBy": "Substituído por",
@@ -897,5 +896,6 @@
   "consumptionYearlyDetailedComparisonEqual": "Consome{verbSuffix} aproximadamente o mesmo que um agregado médio com {householdSize} {personLabel}.",
   "consumptionWaterDailyMonthlySingle": "Consome cerca de {dailyLiters} litros por dia (≈ {monthlyCubicMeters} {unitName} por mês).",
   "consumptionWaterDailyMonthlyPerPerson": "Por pessoa, cada um consome cerca de {dailyLiters} litros por dia (≈ {monthlyCubicMeters} {unitName} por mês).",
-  "consumptionYearlyDetailedLevel2": "é normal."
+  "consumptionYearlyDetailedLevel2": "é normal.",
+  "counterExplainSeasonal": "Para previsões, é feita uma distinção entre balcões sazonais e balcões não sazonais. Dependendo disto, a previsão é calculada de forma diferente.\n\nAquecimento, gás, petróleo são sempre classificados como sazonais. Os contadores não sazonais são electricidade (também NT/HT) e água.\n\nPara os contadores não sazonais, o consumo dos últimos 90 dias é decisivo.\n\nPara os contadores sazonais, é tomada a média dos anos anteriores (se disponível), com todos os meses dos anos anteriores a contar igualmente. (Excepção: ainda não há dados para o mês do ano anterior, depois é utilizada a média anterior)."
 }
