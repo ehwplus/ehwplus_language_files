@@ -420,6 +420,29 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get consumption => 'Konsumpcja';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Pamięć podręczna zużycia';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'wpisy';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Wyczyść pamięć podręczną';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Czy na pewno chcesz wyczyścić całą pamięć podręczną zużycia dla tego obiektu? Wszystkie przechowywane dane zużycia zostaną usunięte.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Wyczyść';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Pamięć podręczna została pomyślnie wyczyszczona';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Błąd';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Wyczyść i zsynchronizuj';
 
@@ -446,6 +469,14 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Wyczyścić pamięć podręczną?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Przechowuj obliczone zużycie w pamięci podręcznej i ponownie używaj w razie potrzeby';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Użyj pamięci podręcznej zużycia';
 
   @override
   String get consumptionHeatmap => 'Mapa cieplna zużycia';

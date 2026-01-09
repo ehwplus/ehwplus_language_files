@@ -420,6 +420,29 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get consumption => 'Sự tiêu thụ';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Bộ nhớ cache tiêu thụ';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'mục';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Xóa bộ nhớ cache';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Bạn có chắc chắn muốn xóa tất cả bộ nhớ cache tiêu thụ cho đối tượng này không? Tất cả dữ liệu tiêu thụ được lưu trữ sẽ bị xóa.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Xóa';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Bộ nhớ cache đã được xóa thành công';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Lỗi';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Xóa và đồng bộ hóa';
 
@@ -445,6 +468,14 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Xóa bộ nhớ đệm?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Lưu trữ tiêu thụ được tính toán và sử dụng lại khi cần';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Sử dụng bộ nhớ cache tiêu thụ';
 
   @override
   String get consumptionHeatmap => 'Bản đồ nhiệt tiêu thụ';

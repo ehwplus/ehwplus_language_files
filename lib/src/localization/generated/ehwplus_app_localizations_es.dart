@@ -422,6 +422,29 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   String get consumption => 'Consumo';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Caché de consumo';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'entradas';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Limpiar caché';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      '¿Está seguro de que desea limpiar todo el caché de consumo para este objeto? Se eliminarán todos los datos de consumo almacenados.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Limpiar';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Caché limpiado exitosamente';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Error';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Limpiar y Sincronizar';
 
@@ -447,6 +470,13 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       '¿Limpiar caché?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Almacenar en caché consumo calculado y reutilizar cuando sea necesario';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Usar caché de consumo';
 
   @override
   String get consumptionHeatmap => 'Mapa de consumo';

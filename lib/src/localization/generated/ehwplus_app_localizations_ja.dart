@@ -407,6 +407,28 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get consumption => '消費';
 
   @override
+  String get consumptionCacheDebugViewTitle => '消費量キャッシュ';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'エントリ';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'キャッシュをクリア';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'このオブジェクトのすべての消費キャッシュをクリアしてもよろしいですか?保存されたすべての消費データが削除されます。';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'クリア';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'キャッシュが正常にクリアされました';
+
+  @override
+  String get consumptionCacheDebugViewError => 'エラー';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'クリアと同期';
 
@@ -432,6 +454,13 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'キャッシュをクリアしますか?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      '計算された消費量をキャッシュし、必要に応じて再利用する';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => '消費キャッシュを使用する';
 
   @override
   String get consumptionHeatmap => '消費ヒートマップ';

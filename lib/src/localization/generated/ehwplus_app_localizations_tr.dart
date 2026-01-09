@@ -421,6 +421,29 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get consumption => 'Tüketim';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Tüketim Önbelleği';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'girişler';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Önbelleği temizle';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Bu nesne için tüm tüketim önbelleğini temizlemek istediğinizden emin misiniz? Tüm depolanan tüketim verileri kaldırılacaktır.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Temizle';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Önbellek başarıyla temizlendi';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Hata';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Temizle ve senkronize et';
 
@@ -446,6 +469,13 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Önbellek temizlensin mi?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Hesaplanan tüketimi önbelleğe alın ve gerektiğinde yeniden kullanın';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Tüketim önbelleğini kullan';
 
   @override
   String get consumptionHeatmap => 'Tüketim Isı Haritası';

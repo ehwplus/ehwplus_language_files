@@ -418,6 +418,29 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get consumption => 'Konsumtion';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Förbrukningscache';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'poster';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Rensa cache';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Är du säker på att du vill rensa all förbrukningscache för detta objekt? All lagrad förbrukningsdata kommer att tas bort.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Rensa';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache rensades framgångsrikt';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Fel';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Rensa och synkronisera';
 
@@ -442,6 +465,13 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle => 'Rensa cache?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Cachelagra beräknad förbrukning och återanvänd vid behov';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Använd förbrukningscache';
 
   @override
   String get consumptionHeatmap => 'Förbrukningsvärmekarta';

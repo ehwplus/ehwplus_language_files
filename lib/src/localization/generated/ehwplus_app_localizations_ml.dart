@@ -424,6 +424,29 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get consumption => 'ഉപഭോഗം';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'ഉപഭോഗ കാഷെ';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'എന്ത്രികൾ';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'കാഷെ മായ്ച്ചുകൊടുക്കുക';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'ഈ ഒബ്ജക്റ്റിനുള്ള എല്ലാ ഉപഭോഗ കാഷെയും മായ്ച്ചുകൊടുക്കാൻ നിങ്ങൾ ഉറപ്പാണോ? സേവിച്ച എല്ലാ ഉപഭോഗ ഡാറ്റ നീക്കം ചെയ്യപ്പെടും.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'മായ്ച്ചുകൊടുക്കുക';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'കാഷെ വിജയകരമായി മായ്ച്ചു';
+
+  @override
+  String get consumptionCacheDebugViewError => 'പിശക്';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'മായ്‌ക്കുകയും സമന്വയിപ്പിക്കുകയും ചെയ്യുക';
 
@@ -449,6 +472,13 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'കാഷെ മായ്‌ക്കണോ?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'കണക്കാക്കിയ ഉപഭോഗം കാഷെ ചെയ്യുകയും ആവശ്യമായ സമയത്ത് പുനരുപയോഗം ചെയ്യുകയും ചെയ്യുക';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'ഉപഭോഗ കാഷെ ഉപയോഗിക്കുക';
 
   @override
   String get consumptionHeatmap => 'ഉപഭോഗ ഹീറ്റ്മാപ്പ്';
