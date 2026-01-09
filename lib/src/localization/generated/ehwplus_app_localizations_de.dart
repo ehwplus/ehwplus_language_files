@@ -2110,6 +2110,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Sprache';
 
   @override
+  String get startOfTheWeek => 'Beginn der Woche';
+
+  @override
   String get settingLivingArea => 'Wohnfläche';
 
   @override

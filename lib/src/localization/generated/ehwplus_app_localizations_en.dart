@@ -2116,6 +2116,9 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Language';
 
   @override
+  String get startOfTheWeek => 'Start of the week';
+
+  @override
   String get settingLivingArea => 'Living area';
 
   @override

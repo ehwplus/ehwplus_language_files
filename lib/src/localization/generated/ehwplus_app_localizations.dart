@@ -3610,6 +3610,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Language'**
   String get settingLanguageMode;
 
+  /// No description provided for @startOfTheWeek.
+  ///
+  /// In en, this message translates to:
+  /// **'Start of the week'**
+  String get startOfTheWeek => 'Start of the week';
+
   /// No description provided for @settingLivingArea.
   ///
   /// In en, this message translates to:
