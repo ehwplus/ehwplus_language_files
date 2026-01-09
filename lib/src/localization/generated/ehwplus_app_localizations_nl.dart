@@ -421,6 +421,28 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get consumption => 'Verbruik';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Verbruikscache';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'ingangen';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Cache wissen';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Weet u zeker dat u alle verbruikscache voor dit object wilt wissen? Alle opgeslagen verbruiksgegevens worden verwijderd.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Wissen';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Cache succesvol gewist';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Fout';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Wissen & synchroniseren';
 
@@ -446,6 +468,13 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Cache wissen?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Bereken verbruik in cache en hergebruik indien nodig';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Verbruikscache gebruiken';
 
   @override
   String get consumptionHeatmap => 'Verbruik Heatmap';

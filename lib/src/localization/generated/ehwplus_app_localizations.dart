@@ -880,6 +880,48 @@ abstract class EhwplusAppLocalizations {
   /// **'Consumption'**
   String get consumption;
 
+  /// No description provided for @consumptionCacheDebugViewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Verbrauchscache'**
+  String get consumptionCacheDebugViewTitle;
+
+  /// No description provided for @consumptionCacheDebugViewEntries.
+  ///
+  /// In en, this message translates to:
+  /// **'Einträge'**
+  String get consumptionCacheDebugViewEntries;
+
+  /// No description provided for @consumptionCacheDebugViewClearCache.
+  ///
+  /// In en, this message translates to:
+  /// **'Cache leeren'**
+  String get consumptionCacheDebugViewClearCache;
+
+  /// No description provided for @consumptionCacheDebugViewClearCacheConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Möchtest du wirklich den gesamten Verbrauchscache für dieses Objekt löschen? Alle gespeicherten Verbrauchsdaten werden entfernt.'**
+  String get consumptionCacheDebugViewClearCacheConfirmation;
+
+  /// No description provided for @consumptionCacheDebugViewClear.
+  ///
+  /// In en, this message translates to:
+  /// **'Löschen'**
+  String get consumptionCacheDebugViewClear;
+
+  /// No description provided for @consumptionCacheDebugViewCacheCleared.
+  ///
+  /// In en, this message translates to:
+  /// **'Cache erfolgreich geleert'**
+  String get consumptionCacheDebugViewCacheCleared;
+
+  /// No description provided for @consumptionCacheDebugViewError.
+  ///
+  /// In en, this message translates to:
+  /// **'Fehler'**
+  String get consumptionCacheDebugViewError;
+
   /// No description provided for @consumptionCacheManagementClearCacheAndSynchronizeButton.
   ///
   /// In en, this message translates to:
@@ -921,6 +963,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Clear cache?'**
   String get consumptionCacheManagementConfirmClearCacheTitle;
+
+  /// No description provided for @consumptionCacheToggleButtonDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Cache computed consumptions and re-use whenever necessary'**
+  String get consumptionCacheToggleButtonDescription;
+
+  /// No description provided for @consumptionCacheToggleButtonTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Verbrauchscache verwenden'**
+  String get consumptionCacheToggleButtonTitle;
 
   /// No description provided for @consumptionHeatmap.
   ///

@@ -430,6 +430,28 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get consumption => 'Потребление';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Кэш потребления';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'записи';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Очистить кэш';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Вы уверены, что хотите очистить весь кэш потребления для этого объекта? Все сохраненные данные потребления будут удалены.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Очистить';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Кэш успешно очищен';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Ошибка';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Очистить и Синхронизировать';
 
@@ -455,6 +477,14 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Очистить кэш?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Кэшируйте рассчитанное потребление и переиспользуйте при необходимости';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Использовать кэш потребления';
 
   @override
   String get consumptionHeatmap => 'Теплограмма потребления';

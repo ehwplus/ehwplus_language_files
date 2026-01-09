@@ -405,6 +405,28 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get consumption => '소비';
 
   @override
+  String get consumptionCacheDebugViewTitle => '소비 캐시';
+
+  @override
+  String get consumptionCacheDebugViewEntries => '항목';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => '캐시 지우기';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      '이 개체에 대한 모든 소비 캐시를 지우시겠습니까? 저장된 모든 소비 데이터가 제거됩니다.';
+
+  @override
+  String get consumptionCacheDebugViewClear => '지우기';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => '캐시가 성공적으로 지워졌습니다';
+
+  @override
+  String get consumptionCacheDebugViewError => '오류';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       '캐시 삭제 및 동기화';
 
@@ -430,6 +452,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       '캐시를 삭제하시겠습니까?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      '계산된 소비를 캐시하고 필요할 때마다 재사용';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => '소비 캐시 사용';
 
   @override
   String get consumptionHeatmap => '소비 히트맵';

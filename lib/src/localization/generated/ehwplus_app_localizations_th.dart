@@ -420,6 +420,28 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get consumption => 'การบริโภค';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'แคชการใช้งาน';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'รายการ';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'ล้างแคช';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'คุณแน่ใจหรือไม่ว่าต้องการล้างแคชการใช้งานทั้งหมดสำหรับออบเจกต์นี้ ข้อมูลการใช้งานที่บันทึกไว้ทั้งหมดจะถูกลบออก';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'ล้าง';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'ล้างแคชเรียบร้อยแล้ว';
+
+  @override
+  String get consumptionCacheDebugViewError => 'ข้อผิดพลาด';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'ล้างและซิงค์';
 
@@ -445,6 +467,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'ล้างแคชใช่ไหม';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'แคชการใช้งานที่คำนวณและใช้ซ้ำตามต้องการ';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'ใช้แคชการใช้งาน';
 
   @override
   String get consumptionHeatmap => 'แผนที่ความร้อนการบริโภค';

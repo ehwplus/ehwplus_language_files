@@ -420,6 +420,29 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get consumption => 'Poraba';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Predpomnilnik porabe';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'vnosti';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Počisti predpomnilnik';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Ali ste prepričani, da želite počistiti ves predpomnilnik porabe za ta objekt? Vsi shranjeni podatki o porabi bodo izbrisani.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Počisti';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Predpomnilnik je uspešno počiščen';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Napaka';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Počisti in sinhroniziraj';
 
@@ -446,6 +469,14 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Počisti predpomnilnik?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Predpomnilnik izračunane porabe in ponovno uporabi po potrebi';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Uporabi predpomnilnik porabe';
 
   @override
   String get consumptionHeatmap => 'Toplotni zemljevid porabe';

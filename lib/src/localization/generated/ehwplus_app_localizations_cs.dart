@@ -420,6 +420,29 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get consumption => 'Spotřeba';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Mezipaměť spotřeby';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'položky';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Vymazat mezipaměť';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Opravdu chcete vymazat všechnu mezipaměť spotřeby pro tento objekt? Všechna uložená data o spotřebě budou odstraněna.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Vymazat';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Mezipaměť byla úspěšně vymazána';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Chyba';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Vymazat a synchronizovat';
 
@@ -445,6 +468,13 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Vymazat mezipaměť?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Mezipaměť vypočítané spotřeby a opětovné použití v případě potřeby';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Použít mezipaměť spotřeby';
 
   @override
   String get consumptionHeatmap => 'Tepelná mapa spotřeby';

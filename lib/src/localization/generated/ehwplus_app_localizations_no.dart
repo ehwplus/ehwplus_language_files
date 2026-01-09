@@ -420,6 +420,28 @@ class EhwplusAppLocalizationsNo extends EhwplusAppLocalizations {
   String get consumption => 'Forbruk';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'ForbruksBuffer';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'oppføringer';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Tøm buffer';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Er du sikker på at du vil tømme all forbruksbuffer for dette objektet? Alle lagrede forbruksdata blir slettet.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Tøm';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared => 'Bufferen ble tømt';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Feil';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Slett og synkroniser';
 
@@ -445,6 +467,13 @@ class EhwplusAppLocalizationsNo extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Tømme bufferen?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Buffer beregnet forbruk og gjenbruk ved behov';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'Bruk forbruksbuffer';
 
   @override
   String get consumptionHeatmap => 'Forbruk varmekart';

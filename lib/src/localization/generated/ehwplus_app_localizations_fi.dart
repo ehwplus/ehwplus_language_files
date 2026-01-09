@@ -417,6 +417,29 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get consumption => 'Kulutus';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'Kulutuksen välimuisti';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'merkinnät';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'Tyhjennä välimuisti';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'Oletko varma, että haluat poistaa koko kulutuksen välimuistin tähän objektiin? Kaikki tallennetut kulutustiedot poistetaan.';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'Tyhjennä';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Välimuisti tyhjennettiin onnistuneesti';
+
+  @override
+  String get consumptionCacheDebugViewError => 'Virhe';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Tyhjennä ja synkronoi';
 
@@ -443,6 +466,14 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Tyhjennä välimuisti?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'Lasketun kulutuksen välimuistiin tallentaminen ja uudelleenkäyttö tarvittaessa';
+
+  @override
+  String get consumptionCacheToggleButtonTitle =>
+      'Käytä kulutuksen välimuistia';
 
   @override
   String get consumptionHeatmap => 'Kulutus lämpökartta';

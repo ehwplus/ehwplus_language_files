@@ -422,6 +422,29 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consumption => 'ကုန်စေခြင်း';
 
   @override
+  String get consumptionCacheDebugViewTitle => 'စားသုံးမှု cache';
+
+  @override
+  String get consumptionCacheDebugViewEntries => 'ထည့်သွင်းမှုများ';
+
+  @override
+  String get consumptionCacheDebugViewClearCache => 'cache ရှင်းလင်းပါ';
+
+  @override
+  String get consumptionCacheDebugViewClearCacheConfirmation =>
+      'ဤအရာအတွက် စားသုံးမှု cache အားလုံးကို ရှင်းလင်းလိုသည်မှာ သေချာပါသလား။ သိမ်းဆည်းထားသော စားသုံးမှု အချက်အလက် အားလုံးကို ဖျက်မည်။';
+
+  @override
+  String get consumptionCacheDebugViewClear => 'ရှင်းလင်းပါ';
+
+  @override
+  String get consumptionCacheDebugViewCacheCleared =>
+      'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
+
+  @override
+  String get consumptionCacheDebugViewError => 'အမှားအယွင်း';
+
+  @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
       'Clear & Sync';
 
@@ -448,6 +471,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
       'Clear cache ကို?';
+
+  @override
+  String get consumptionCacheToggleButtonDescription =>
+      'တွက်ချက်သောစားသုံးမှုကို cache ချ၍လိုအပ်လျှင်ပြန်လည်အသုံးပြုပါ';
+
+  @override
+  String get consumptionCacheToggleButtonTitle => 'စားသုံးမှု cache အသုံးပြုပါ';
 
   @override
   String get consumptionHeatmap => 'စားသုံးမှု HeTmap';
