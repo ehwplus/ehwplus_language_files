@@ -841,7 +841,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get counterConsiderForTotalWater =>
-      'erücksichtigen für Gesamtwasserverbrauch';
+      'Berücksichtigen für Gesamtwasserverbrauch';
 
   @override
   String get counterContractCurrentlyUsed => 'Aktuell verwendeter Vertrag';
