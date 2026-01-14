@@ -2171,6 +2171,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Γλώσσα';
 
   @override
+  String get startOfTheWeek => 'Αρχή της εβδομάδας';
+
+  @override
   String get settingLivingArea => 'Καθιστικό';
 
   @override
@@ -3290,10 +3293,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Η τελευταία ένδειξη μετρητή για το $deviceTypeName $roomNamePartείναι ξεπερασμένο $outdatedSinceText.$whenNotifyDateText';
+    return 'Η τελευταία ένδειξη του μετρητή για το $deviceTypeName είναι παλιά $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

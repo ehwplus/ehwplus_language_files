@@ -2143,6 +2143,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Sprog';
 
   @override
+  String get startOfTheWeek => 'Ugens start';
+
+  @override
   String get settingLivingArea => 'Opholdsstue';
 
   @override
@@ -3253,10 +3256,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Den seneste måleraflæsning for $deviceTypeName $roomNamePart er forældet $outdatedSinceText.$whenNotifyDateText';
+    return 'Den seneste måleraflæsning for $deviceTypeName er forældet $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

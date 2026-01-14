@@ -2147,6 +2147,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'भाषा';
 
   @override
+  String get startOfTheWeek => 'सप्ताह की शुरुआत';
+
+  @override
   String get settingLivingArea => 'लिविंग एरिया';
 
   @override
@@ -3257,10 +3260,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return '$deviceTypeName $roomNamePart के लिए नवीनतम मीटर रीडिंग पुरानी है $outdatedSinceText.$whenNotifyDateText';
+    return '$deviceTypeName के लिए नवीनतम मीटर रीडिंग पुरानी हो गई है $outdatedSinceText। $whenNotifyDateText';
   }
 
   @override
@@ -3443,5 +3445,5 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'एक वैध ज़िप कोड में केवल संख्याएँ होती हैं';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'वॉलबॉक्स';
 }

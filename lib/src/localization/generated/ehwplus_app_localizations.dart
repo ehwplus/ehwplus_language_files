@@ -3668,7 +3668,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Start of the week'**
-  String get startOfTheWeek => 'Start of the week';
+  String get startOfTheWeek;
 
   /// No description provided for @settingLivingArea.
   ///
@@ -5378,7 +5378,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @warningNextReminderText.
   ///
   /// In en, this message translates to:
-  /// **' The next reminder is {date}.'**
+  /// **'The next reminder is scheduled for {date}.'**
   String warningNextReminderText(String date);
 
   /// No description provided for @warningOutdatedSinceText.
@@ -5412,11 +5412,10 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @warningReadingOutdatedFrequency.
   ///
   /// In en, this message translates to:
-  /// **'The latest meter reading for the {deviceTypeName} {roomNamePart}is outdated {outdatedSinceText}.{whenNotifyDateText}'**
+  /// **'The latest meter reading for the {deviceTypeName} is outdated {outdatedSinceText}. {whenNotifyDateText}'**
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   );
 

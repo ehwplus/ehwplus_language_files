@@ -2154,6 +2154,9 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Язык';
 
   @override
+  String get startOfTheWeek => 'Начало недели';
+
+  @override
   String get settingLivingArea => 'Жилая площадь';
 
   @override
@@ -3239,7 +3242,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' Следующее напоминание: $date.';
+    return 'Следующее напоминание: $date.';
   }
 
   @override
@@ -3273,10 +3276,9 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Окончательные показания счетчика год отсутствуют ($deviceTypeName$roomNamePart).';
+    return 'Последнее показание счетчика для $deviceTypeName устарело $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3464,5 +3466,5 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Допустимый почтовый индекс состоит только из цифр';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Зарядная станция';
 }

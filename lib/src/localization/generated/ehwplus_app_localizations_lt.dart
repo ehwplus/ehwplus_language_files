@@ -2149,6 +2149,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Kalba';
 
   @override
+  String get startOfTheWeek => 'Savaitės pradžia';
+
+  @override
   String get settingLivingArea => 'Gyvenamasis plotas';
 
   @override
@@ -3264,10 +3267,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Naujausias $deviceTypeName $roomNamePart skaitiklio rodmuo yra pasenęs $outdatedSinceText.$whenNotifyDateText';
+    return 'Naujausi $deviceTypeName skaitiklio duomenys yra pasenę $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3451,5 +3453,5 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Galiojantį pašto kodą sudaro tik skaičiai';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Sieninė įkrovimo stotelė';
 }

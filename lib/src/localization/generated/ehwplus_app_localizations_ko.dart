@@ -2088,6 +2088,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get settingLanguageMode => '언어';
 
   @override
+  String get startOfTheWeek => '주의 시작';
+
+  @override
   String get settingLivingArea => '거주 면적';
 
   @override
@@ -3128,7 +3131,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' 다음 알림은 $date입니다.';
+    return ' 다음 알림은 $date에 예정되어 있습니다.';
   }
 
   @override
@@ -3162,10 +3165,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return '$deviceTypeName$roomNamePart의 최신 계량기 지침이 $outdatedSinceText 기준으로 오래되었습니다.$whenNotifyDateText';
+    return '$deviceTypeName의 최신 계량기 판독값이 $outdatedSinceText부터 최신이 아닙니다. $whenNotifyDateText';
   }
 
   @override
@@ -3337,5 +3339,5 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get zipCodeValidationOnlyNumbers => '유효한 우편번호는 숫자로만 구성됩니다';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => '월박스';
 }

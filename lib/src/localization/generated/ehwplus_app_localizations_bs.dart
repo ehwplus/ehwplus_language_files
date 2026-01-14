@@ -2155,6 +2155,9 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Jezik';
 
   @override
+  String get startOfTheWeek => 'Početak sedmice';
+
+  @override
   String get settingLivingArea => 'Stambeni prostor';
 
   @override
@@ -3270,10 +3273,9 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Najnovije očitanje brojila za $deviceTypeName $roomNamePart je zastarjelo $outdatedSinceText.$whenNotifyDateText';
+    return 'Najnovije očitavanje za $deviceTypeName je zastarjelo $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

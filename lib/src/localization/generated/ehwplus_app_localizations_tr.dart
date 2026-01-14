@@ -2152,6 +2152,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Dil';
 
   @override
+  String get startOfTheWeek => 'Haftanın başlangıcı';
+
+  @override
   String get settingLivingArea => 'Yaşam alanı';
 
   @override
@@ -3265,10 +3268,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return '$deviceTypeName $roomNamePart için en son sayaç okuması güncel değil $outdatedSinceText.$whenNotifyDateText';
+    return '$deviceTypeName için en son sayaç okuması $outdatedSinceText eskimiştir. $whenNotifyDateText';
   }
 
   @override

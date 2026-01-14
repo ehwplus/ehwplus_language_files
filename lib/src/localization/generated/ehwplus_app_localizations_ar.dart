@@ -2132,6 +2132,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'اللغة';
 
   @override
+  String get startOfTheWeek => 'بداية الأسبوع';
+
+  @override
   String get settingLivingArea => 'المساحة المعيشية';
 
   @override
@@ -3236,10 +3239,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'أحدث قراءة عداد لـ $deviceTypeName $roomNamePartقديمة $outdatedSinceText.$whenNotifyDateText';
+    return 'أحدث قراءة للعداد لجهاز الـ $deviceTypeName قديمة منذ $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3420,5 +3422,5 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'الرمز البريدي الصالح يتكون من أرقام فقط';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'والبوكس';
 }

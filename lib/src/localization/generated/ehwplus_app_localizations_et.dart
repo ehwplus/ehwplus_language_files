@@ -2145,6 +2145,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Keel';
 
   @override
+  String get startOfTheWeek => 'Nädalavahetus';
+
+  @override
   String get settingLivingArea => 'Elamispind';
 
   @override
@@ -3217,7 +3220,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' Järgmine meeldetuletus on $date.';
+    return 'Järgmine meeldetuletus on $date.';
   }
 
   @override
@@ -3251,10 +3254,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Seadme $deviceTypeName ${roomNamePart}viimane näit on aegunud $outdatedSinceText.$whenNotifyDateText';
+    return 'Viimane $deviceTypeName mõõtmistulemus on aegunud $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

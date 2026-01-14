@@ -2140,6 +2140,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Taal';
 
   @override
+  String get startOfTheWeek => 'Begin van die week';
+
+  @override
   String get settingLivingArea => 'Woonarea';
 
   @override
@@ -3222,7 +3225,7 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' Die volgende herinnering is $date.';
+    return 'Die volgende herinnering is $date.';
   }
 
   @override
@@ -3256,10 +3259,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Die nuutste meterlesing vir die $deviceTypeName ${roomNamePart}is verouderd $outdatedSinceText.$whenNotifyDateText';
+    return 'Die jongste meterlesing vir die $deviceTypeName is verouderd $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3442,5 +3444,5 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
       '\'n Geldige poskode bestaan slegs uit syfers';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Muurlaaier';
 }

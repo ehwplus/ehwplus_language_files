@@ -37,7 +37,7 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
       'Aurais-je toujours accès à mes achats sans compte utilisateur EHW+ ?';
 
   @override
-  String get accountFaqTitle => 'Questions fréquemment posées :';
+  String get accountFaqTitle => 'Questions fréquemmenft posées :';
 
   @override
   String get accountThankYouForPurchase =>
@@ -2162,6 +2162,9 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Langue';
 
   @override
+  String get startOfTheWeek => 'Début de la semaine';
+
+  @override
   String get settingLivingArea => 'Surface habitable';
 
   @override
@@ -3248,7 +3251,7 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' Le prochain rappel aura lieu le $date.';
+    return 'Le prochain rappel aura lieu le $date.';
   }
 
   @override
@@ -3282,10 +3285,9 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Le dernier relevé de compteur n\'est pas disponible ($deviceTypeName$roomNamePart).';
+    return 'La dernière relève du compteur pour le $deviceTypeName est obsolète depuis $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3470,5 +3472,5 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
       'Un code postal valide ne contient que des chiffres';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Borne de recharge';
 }

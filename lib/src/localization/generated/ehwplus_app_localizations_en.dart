@@ -3228,7 +3228,7 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' The next reminder is $date.';
+    return 'The next reminder is scheduled for $date.';
   }
 
   @override
@@ -3262,10 +3262,9 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'The latest meter reading for the $deviceTypeName ${roomNamePart}is outdated $outdatedSinceText.$whenNotifyDateText';
+    return 'The latest meter reading for the $deviceTypeName is outdated $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

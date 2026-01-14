@@ -2144,6 +2144,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Lugha';
 
   @override
+  String get startOfTheWeek => 'Mwanzo wa wiki';
+
+  @override
   String get settingLivingArea => 'Eneo la kuishi';
 
   @override
@@ -3228,7 +3231,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return 'Ukumbusho unaofuata ni phtoken0.';
+    return 'Kikumbusho kinachofuata kimepangwa kwa $date.';
   }
 
   @override
@@ -3258,10 +3261,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Usomaji wa hivi karibuni wa mita kwa phtoken0 phtoken1is iliyopitwa na phtoken2.phtoken3';
+    return 'Usomaji wa mita wa hivi karibuni kwa $deviceTypeName umepitwa na wakati $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

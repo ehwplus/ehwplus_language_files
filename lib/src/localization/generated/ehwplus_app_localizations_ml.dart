@@ -2154,6 +2154,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'ഭാഷ';
 
   @override
+  String get startOfTheWeek => 'ആഴ്ചയുടെ ആരംഭം';
+
+  @override
   String get settingLivingArea => 'താമസിക്കുന്ന പ്രദേശം';
 
   @override
@@ -3273,10 +3276,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return '$deviceTypeName $roomNamePart-ൻ്റെ ഏറ്റവും പുതിയ മീറ്റർ റീഡിംഗ് കാലഹരണപ്പെട്ട $outdatedSinceText.$whenNotifyDateText ആണ്';
+    return '$deviceTypeName-ൻ്റെ ഏറ്റവും പുതിയ മീറ്റർ റീഡിംഗ് $outdatedSinceText ആയി കാലഹരണപ്പെട്ടു. $whenNotifyDateText';
   }
 
   @override
@@ -3461,5 +3463,5 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
       'ഒരു സാധുവായ പിൻ കോഡിൽ അക്കങ്ങൾ മാത്രമേ അടങ്ങിയിട്ടുള്ളൂ';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'വാൾബോക്സ്';
 }

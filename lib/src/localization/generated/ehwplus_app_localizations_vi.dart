@@ -2143,6 +2143,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Ngôn ngữ';
 
   @override
+  String get startOfTheWeek => 'Ngày bắt đầu của tuần';
+
+  @override
   String get settingLivingArea => 'Khu sinh hoạt';
 
   @override
@@ -3258,10 +3261,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Chỉ số đồng hồ mới nhất cho $deviceTypeName $roomNamePart đã lỗi thời $outdatedSinceText.$whenNotifyDateText';
+    return 'Số đọc mới nhất cho $deviceTypeName đã cũ $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

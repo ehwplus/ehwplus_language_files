@@ -2147,6 +2147,9 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Språk';
 
   @override
+  String get startOfTheWeek => 'Veckans start';
+
+  @override
   String get settingLivingArea => 'Vardagsrum';
 
   @override
@@ -3261,10 +3264,9 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Den senaste mätarställningen för $deviceTypeName $roomNamePart är föråldrad $outdatedSinceText.$whenNotifyDateText';
+    return 'Den senaste mätaravläsningen för $deviceTypeName är inaktuell $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3446,5 +3448,5 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
       'Ett giltigt postnummer består endast av nummer';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Laddbox';
 }

@@ -2143,6 +2143,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'زبان';
 
   @override
+  String get startOfTheWeek => 'شروع هفته';
+
+  @override
   String get settingLivingArea => 'منطقه نشیمن';
 
   @override
@@ -3255,10 +3258,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'آخرین قرائت کنتور برای $deviceTypeName $roomNamePart منقضی شده است $outdatedSinceText.$whenNotifyDateText';
+    return 'آخرین خوانش کنتور برای $deviceTypeName قدیمی شده است $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3439,5 +3441,5 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'یک کد پستی معتبر فقط از اعداد تشکیل شده است';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'وال‌باکس';
 }

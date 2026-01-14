@@ -885,7 +885,8 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get counterExcludedContracts => 'สัญญาที่ไม่รวม';
 
   @override
-  String get counterExplainSeasonal => '';
+  String get counterExplainSeasonal =>
+      'สำหรับการพยากรณ์ จะมีการแบ่งมิเตอร์ออกเป็นมิเตอร์ตามฤดูกาลและไม่ตามฤดูกาล การคำนวณการพยากรณ์จะแตกต่างกันไปตามประเภทมิเตอร์ มิเตอร์ที่จัดเป็นแบบตามฤดูกาลเสมอคือความร้อน, แก๊ส, น้ำมัน มิเตอร์ที่ไม่ตามฤดูกาลคือไฟฟ้าและน้ำ สำหรับมิเตอร์ที่ไม่ตามฤดูกาล การบริโภคในช่วง 90 วันที่ผ่านมาเป็นปัจจัยสำคัญ สำหรับมิเตอร์ตามฤดูกาล จะนำค่าเฉลี่ยของปีก่อนหน้ามาใช้ (หากมี) โดยทุกเดือนของปีก่อนหน้าจะถูกนับเท่ากัน (ข้อยกเว้น: หากยังไม่มีข้อมูลสำหรับเดือนของปีก่อนหน้า จะใช้ค่าเฉลี่ยก่อนหน้านั้นแทน)';
 
   @override
   String get counterFactor => 'ปัจจัย';
@@ -2131,6 +2132,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'ภาษา';
 
   @override
+  String get startOfTheWeek => 'วันเริ่มต้นสัปดาห์';
+
+  @override
   String get settingLivingArea => 'พื้นที่นั่งเล่น';
 
   @override
@@ -3239,10 +3243,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'การอ่านมิเตอร์ล่าสุดสำหรับ $deviceTypeName $roomNamePart ล้าสมัย $outdatedSinceText.$whenNotifyDateText';
+    return 'การอ่านมิเตอร์ล่าสุดสำหรับ $deviceTypeName ล้าสมัยไปแล้ว $outdatedSinceText $whenNotifyDateText';
   }
 
   @override
@@ -3421,5 +3424,5 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'วอลล์บ็อกซ์';
 }

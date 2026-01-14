@@ -2072,6 +2072,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get settingLanguageMode => '语言';
 
   @override
+  String get startOfTheWeek => '一周的开始';
+
+  @override
   String get settingLivingArea => '生活区';
 
   @override
@@ -3132,10 +3135,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return '$deviceTypeName $roomNamePart 的最新仪表读数已过时 $outdatedSinceText.$whenNotifyDateText';
+    return '$deviceTypeName 的最新仪表读数已过时 $outdatedSinceText。$whenNotifyDateText';
   }
 
   @override
@@ -3297,5 +3299,5 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => '充电桩';
 }

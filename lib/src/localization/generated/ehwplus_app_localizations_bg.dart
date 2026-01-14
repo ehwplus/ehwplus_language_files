@@ -2163,6 +2163,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Език';
 
   @override
+  String get startOfTheWeek => 'Начало на седмицата';
+
+  @override
   String get settingLivingArea => 'Жило площ';
 
   @override
@@ -3246,7 +3249,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' Следващото напомняне е $date.';
+    return 'Следващото напомняне е $date.';
   }
 
   @override
@@ -3280,10 +3283,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Последното показание на брояча за $deviceTypeName $roomNamePartе остаряло $outdatedSinceText.$whenNotifyDateText';
+    return 'Последното отчитане на уреда за $deviceTypeName е остаряло $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3468,5 +3470,5 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Валиден пощенски код се състои само от цифри';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Зарядна станция';
 }

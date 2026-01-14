@@ -2155,6 +2155,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Kieli';
 
   @override
+  String get startOfTheWeek => 'Viikon alku';
+
+  @override
   String get settingLivingArea => 'Asuinalue';
 
   @override
@@ -3264,10 +3267,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Viimeisin mittarin lukema kohteelle $deviceTypeName $roomNamePart on vanhentunut $outdatedSinceText.$whenNotifyDateText';
+    return '$outdatedSinceText $whenNotifyDateText. Laitetyypin $deviceTypeName viimeisin mittarilukema on vanhentunut.';
   }
 
   @override

@@ -2153,6 +2153,9 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Język';
 
   @override
+  String get startOfTheWeek => 'Początek tygodnia';
+
+  @override
   String get settingLivingArea => 'Powierzchnia mieszkalna';
 
   @override
@@ -3234,7 +3237,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' Następne przypomnienie nastąpi $date.';
+    return 'Następne przypomnienie nastąpi $date.';
   }
 
   @override
@@ -3268,10 +3271,9 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Najnowszy odczyt licznika dla $deviceTypeName $roomNamePart jest nieaktualny $outdatedSinceText.$whenNotifyDateText';
+    return 'Ostatni odczyt licznika dla $deviceTypeName jest nieaktualny od $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override

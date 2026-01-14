@@ -2089,6 +2089,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get settingLanguageMode => '言語';
 
   @override
+  String get startOfTheWeek => '週の開始';
+
+  @override
   String get settingLivingArea => 'リビングエリア';
 
   @override
@@ -3132,7 +3135,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return ' 次のリマインダーは$dateです。';
+    return '次のリマインダーは$dateです。';
   }
 
   @override
@@ -3166,10 +3169,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return '$deviceTypeName $roomNamePart の最新のメーター測定値は古いです $outdatedSinceText.$whenNotifyDateText';
+    return '$deviceTypeName の最新のメーター読み取り値は $outdatedSinceText で古くなっています。$whenNotifyDateText';
   }
 
   @override
@@ -3342,5 +3344,5 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'ウォールボックス';
 }

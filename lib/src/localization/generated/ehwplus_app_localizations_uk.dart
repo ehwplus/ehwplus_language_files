@@ -2153,6 +2153,9 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Мова';
 
   @override
+  String get startOfTheWeek => 'Початок тижня';
+
+  @override
   String get settingLivingArea => 'Житлова площа';
 
   @override
@@ -3270,10 +3273,9 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Останнє показання лічильника для $deviceTypeName $roomNamePart застаріло $outdatedSinceText.$whenNotifyDateText';
+    return 'Останній показник лічильника для $deviceTypeName застарів $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3458,5 +3460,5 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
       'Дійсний поштовий індекс складається лише з цифр';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Зарядна станція';
 }

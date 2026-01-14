@@ -34,9 +34,6 @@
   "appBarExpandedMode": "App-linje med bakgrunnsbilde",
   "appDescriptionLong": "<p>Velkommen til <b>EHW+</b>, din måleravlesningsapp for <b>E</b>elektrisitet, <b>H</b>spising og <b>W</b>ater. Hos oss kan du enkelt spore<b> <b>0hvor mye du bruker og hva det<b>1 <b>2koster<b>3 gratis.<b>4",
   "appDescriptionShort": "Bra for lommeboken, bra for klimaet",
-  "@appDescriptionShort": {
-    "description": "Marketing claim"
-  },
   "appName": "EHW+ | Forbruk og måleravlesninger",
   "appNameShort": "EHW+",
   "areYouSure": "Er du sikker?",
@@ -100,48 +97,13 @@
   "commonUpdateNow": "Oppdater nå",
   "commonUserLogin": "Bruker pålogging",
   "commonUserLoginDescriptionLoggedInNotSubmittedPurchases": "Du bruker EHW+-kontoen. {notSubmitted} av {total} kjøpte produkter kunne ikke lagres på EHW+-serveren. Vi håper å fikse problemet snart.",
-  "@commonUserLoginDescriptionLoggedInNotSubmittedPurchases": {
-    "placeholders": {
-      "notSubmitted": {
-        "example": "1",
-        "type": "int"
-      },
-      "total": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "commonUserLoginDescriptionLoggedInRestoredPurchases": "{count, plural, one {Ett kjøp har blitt synkronisert via EHW+-kontoen.} other {{count}-kjøp har blitt synkronisert via EHW+-kontoen.}}",
-  "@commonUserLoginDescriptionLoggedInRestoredPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
   "commonUserLoginDescriptionLoggedInSavedPurchases": "{count, plural, =0 {Du bruker EHW+-kontoen. Hvis du kjøper produkter i fremtiden, vil de bli synkronisert på tvers av alle enhetene dine.} one {Du bruker EHW+-kontoen. {count} kjøpt produkt har blitt lagret på EHW+-serveren.} other {Du bruker EHW+-kontoen. {count} kjøpte produkter er lagret på EHW+-serveren.}}",
-  "@commonUserLoginDescriptionLoggedInSavedPurchases": {
-    "placeholders": {
-      "count": {
-        "example": "3",
-        "type": "int"
-      }
-    }
-  },
   "commonUserLoginDescriptionNotLoggedIn": "Bruker du appen på flere enheter? Ved å logge på EHW+-kontoen din kan du synkronisere innstillingene dine og kjøpte produkter på tvers av alle enhetene dine.",
   "commonYear": "år",
   "commonYes": "ja",
   "completeButton": "Fullstendig",
   "confirmDeleteAtCloud": "Bør \"{objectTitle}\" også slettes fra Google Disk?",
-  "@confirmDeleteAtCloud": {
-    "placeholders": {
-      "objectTitle": {
-        "type": "String"
-      }
-    }
-  },
   "consent11AnalyticsTitle": "Analysedata",
   "consent12Analytics": "For å evaluere suksessen til appen eller individuelle funksjoner, overfører appen anonymisert bruksstatistikk. Dataene overføres ikke til tredjeparter. Dataene brukes til videreutvikling av appen.",
   "consent13StromGedacht": "StromGedacht, en tjeneste levert av TransnetBW, gir informasjon om nettstabilitet og anbefalinger om når elektrisitet bør brukes fortrinnsvis. Ettersom energiomstillingen blir mer og mer utfordrende for overføringsnettet, blir husholdninger i Sørvest-Tyskland involvert. For å motta informasjon om posisjonen din, sendes postnummeret ditt, hvis det er skrevet inn her i appen, til TransnetBW StromGedacht API. Ingen andre data overføres eller kobles sammen.",
@@ -155,6 +117,13 @@
   "consent7ContractPricesPerUnit": "For å kunne anslå hvor mye du betaler i forhold til andre EHW+-brukere, overføres prisene til EHW+-serveren i Tyskland sammen med land og stat. Bare hvis du samtykker til overføringen, har du tilgang til prisstatistikken. For å sikre anonymitet kan statistikk kun vises etter et minimum antall overførte priser.",
   "consentTitle": "Personverninnstillinger",
   "consumption": "Forbruk",
+  "consumptionCacheDebugViewTitle": "ForbruksBuffer",
+  "consumptionCacheDebugViewEntries": "oppføringer",
+  "consumptionCacheDebugViewClearCache": "Tøm buffer",
+  "consumptionCacheDebugViewClearCacheConfirmation": "Er du sikker på at du vil tømme all forbruksbuffer for dette objektet? Alle lagrede forbruksdata blir slettet.",
+  "consumptionCacheDebugViewClear": "Tøm",
+  "consumptionCacheDebugViewCacheCleared": "Bufferen ble tømt",
+  "consumptionCacheDebugViewError": "Feil",
   "consumptionCacheManagementClearCacheAndSynchronizeButton": "Slett og synkroniser",
   "consumptionCacheManagementClearCacheButton": "Tøm hurtigbufferen",
   "consumptionCacheManagementClearedSuccessfully": "Bufferen ble tømt",
@@ -162,204 +131,35 @@
   "consumptionCacheManagementConfirmClearCacheAndSyncTitle": "Tømme buffer og synkronisere?",
   "consumptionCacheManagementConfirmClearCacheMessage": "Alle hurtigbufrede forbruksdata vil bli slettet permanent. Du kan synkronisere den senere.",
   "consumptionCacheManagementConfirmClearCacheTitle": "Tømme bufferen?",
+  "consumptionCacheToggleButtonDescription": "Buffer beregnet forbruk og gjenbruk ved behov",
+  "consumptionCacheToggleButtonTitle": "Bruk forbruksbuffer",
   "consumptionHeatmap": "Forbruk varmekart",
   "consumptionHeatmapYield": "Yield Heatmap",
   "consumptionHeatpump": "I tillegg utgjør strømforbruket til varmepumpen {formattedValue} kWh.",
-  "@consumptionHeatpump": {
-    "placeholders": {
-      "formattedValue": {
-        "type": "String"
-      }
-    }
-  },
   "consumptionIsNotExclusive": "Hvis forbruket ikke er eksklusivt for denne aktiviteten, vises det som en advarsel.",
   "consumptionIsNotExclusiveTitle": "Er forbruk eksklusivt?",
   "consumptionPersonLabel": "{count, plural, one {person} other {mennesker}}",
-  "@consumptionPersonLabel": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "consumptionWaterColdEqual": "Kaldt vann: omtrent det samme som gjennomsnittshusholdningen.",
   "consumptionWaterColdLess": "Kaldt vann: {percentage} mindre enn gjennomsnittshusholdningen.",
-  "@consumptionWaterColdLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionWaterColdMore": "Kaldt vann: {percentage} mer enn gjennomsnittshusholdningen.",
-  "@consumptionWaterColdMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
-  "consumptionWaterDailyMonthly": "ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per måned).",
-  "@consumptionWaterDailyMonthly": {
-    "placeholders": {
-      "dailyLiters": {
-        "type": "Object"
-      },
-      "monthlyCubicMeters": {
-        "type": "Object"
-      },
-      "unitName": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionWaterDailyMonthlyPerPerson": "Per person forbruker alle ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per måned).",
   "consumptionWaterDailyMonthlySingle": "du forbruker ca {dailyLiters} liter per dag (≈ {monthlyCubicMeters} {unitName} per måned).",
   "consumptionWaterOverallEqual": "Vannforbruket ditt {ofRange} samsvarer med en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
-  "@consumptionWaterOverallEqual": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionWaterOverallLess": "Vannforbruket ditt {ofRange} er {percentage} lavere enn for en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
-  "@consumptionWaterOverallLess": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionWaterOverallMore": "Vannforbruket ditt {ofRange} er {percentage} høyere enn for en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
-  "@consumptionWaterOverallMore": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "percentage": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
-  "consumptionWaterPrefixPerPerson": "Per person forbruker alle",
-  "consumptionWaterPrefixSingle": "du forbruker",
   "consumptionWaterRangeUnknown": "Vannforbruket ditt {ofRange} ...",
-  "@consumptionWaterRangeUnknown": {
-    "placeholders": {
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionWaterWarmEqual": "Varmtvann: omtrent det samme som gjennomsnittshusholdningen.",
   "consumptionWaterWarmLess": "Varmtvann: {percentage} mindre enn gjennomsnittshusholdningen.",
-  "@consumptionWaterWarmLess": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionWaterWarmMore": "Varmtvann: {percentage} mer enn gjennomsnittshusholdningen.",
-  "@consumptionWaterWarmMore": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYearly": "Ditt strømforbruk {ofRange} er {consumption} kWh for året.",
-  "@consumptionYearly": {
-    "placeholders": {
-      "consumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYearlyDetailedAboutSame": "omtrent det samme som",
   "consumptionYearlyDetailedAverageHousehold": "en gjennomsnittlig husholdning med {householdSize} {personLabel}",
-  "@consumptionYearlyDetailedAverageHousehold": {
-    "placeholders": {
-      "householdSize": {
-        "type": "Object"
-      },
-      "personLabel": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYearlyDetailedComparisonEqual": "Du bruker{verbSuffix} omtrent det samme som en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonLess": "Du bruker{verbSuffix} {percentage} mindre enn en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
   "consumptionYearlyDetailedComparisonMore": "Du bruker{verbSuffix} {percentage} mer enn en gjennomsnittlig husholdning med {householdSize} {personLabel}.",
   "consumptionYearlyDetailedElectricity": "Ditt strømforbruk {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned) {consumptionLevel}.",
-  "consumptionYearlyDetailedElectricityIntro": "Ditt strømforbruk {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned)",
-  "@consumptionYearlyDetailedElectricityIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYearlyDetailedGas": "Ditt gassforbruk {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned) {consumptionLevel}.",
-  "consumptionYearlyDetailedGasIntro": "Ditt gassforbruk {ofRange} ({totalConsumption} kWh ≈ {yearlyConsumption} kWh/år ≈ {monthlyConsumption} kWh/måned)",
-  "@consumptionYearlyDetailedGasIntro": {
-    "placeholders": {
-      "monthlyConsumption": {
-        "type": "Object"
-      },
-      "ofRange": {
-        "type": "Object"
-      },
-      "totalConsumption": {
-        "type": "Object"
-      },
-      "yearlyConsumption": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYearlyDetailedLessThan": "{percentage} mindre enn",
-  "@consumptionYearlyDetailedLessThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYearlyDetailedLevel0": "er super lav.",
   "consumptionYearlyDetailedLevel1": "er virkelig noe å se.",
   "consumptionYearlyDetailedLevel1Suffix": "{nextToOptimal} mangler for optimalt forbruk.",
@@ -368,22 +168,7 @@
   "consumptionYearlyDetailedLevel3": "er relativt høy.",
   "consumptionYearlyDetailedLevel4": "er normalt.",
   "consumptionYearlyDetailedMoreThan": "{percentage} mer enn",
-  "@consumptionYearlyDetailedMoreThan": {
-    "placeholders": {
-      "percentage": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYearlyDetailedOptimalEnding": "Hvordan har du det?",
-  "consumptionYearlyDetailedYouConsume": "Du bruker{verbSuffix}",
-  "@consumptionYearlyDetailedYouConsume": {
-    "placeholders": {
-      "verbSuffix": {
-        "type": "Object"
-      }
-    }
-  },
   "consumptionYield": "Avkastning",
   "contact": "EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nKontakt\n\nTelefon: 06204/7383382\nE-post: info@ehwplus.com",
   "contactTitle": "Representert av:",
@@ -438,16 +223,6 @@
   "counterDirectionDescending": "synkende",
   "counterDirectionExplanation": "Synker verdien med bruk (nivåindikator osv.) eller øker verdien med bruk (brennertimer, oljemåler osv.) eller er hver avlesningsverdi uavhengig (forbruk/utbytte)?",
   "counterDirectionNone": "{consumptionElectricity}/{consumptionSolar}",
-  "@counterDirectionNone": {
-    "placeholders": {
-      "consumptionElectricity": {
-        "type": "String"
-      },
-      "consumptionSolar": {
-        "type": "String"
-      }
-    }
-  },
   "counterDistrictHeating": "Fjernvarme",
   "counterEdit": "Rediger teller",
   "counterElectricity": "Strømmåler",
@@ -455,6 +230,7 @@
   "counterElectricityGenerated": "Strømproduksjonsmåler",
   "counterExclude": "Utelukke",
   "counterExcludedContracts": "Ekskluderte kontrakter",
+  "counterExplainSeasonal": "For prognoser skilles det mellom sesongbaserte og ikke-sesongbaserte målere. Avhengig av dette beregnes prognosen på forskjellig måte.\n\nOppvarming, gass og olje klassifiseres alltid som sesongavhengige. Ikke-sesongavhengige målere er strøm og vann.\n\nFor ikke-sesongavhengige målere er forbruket de siste 90 dagene avgjørende.\n\nFor sesongavhengige målere beregnes gjennomsnittet for tidligere år (hvis tilgjengelig), hvor alle måneder i tidligere år teller likt. (Unntak: hvis det ikke foreligger data for måneden i fjor, brukes gjennomsnittet fra året før).",
   "counterFactor": "Faktor",
   "counterFactorDescription": "Blir forbruket kun tildelt deg pro rata? Angi andelen som en verdi mellom 0,1 (10 %) og 1,0 (100 %).",
   "counterFractionDigits": "Brøksiffer",
@@ -476,26 +252,9 @@
   "counterNoContractSelected": "Ingen kontrakt valgt",
   "counterNoRoomConnection": "Ingen romforbindelse",
   "counterNum": "{count} tellere",
-  "@counterNum": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "counterOilHeating": "Oljeoppvarming",
   "counterOtherContracts": "Andre kontrakter",
   "counterOutdatedAndNextReminder": "Tellerlesing utdatert siden {date}, neste lesepåminnelse {date2}.",
-  "@counterOutdatedAndNextReminder": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      },
-      "date2": {
-        "type": "String"
-      }
-    }
-  },
   "counterProportionateConsumption": "Forholdsmessig forbruk",
   "counterPvFeedInCounter": "Fornybar energi (solkraft og varme med PV/solcelleanlegg)",
   "counterPvFeedInCounterExplanation": "Bruk en strømmåler for å registrere elektrisiteten som genereres og mates inn\nmed et solcelleanlegg. Den resulterende inntekten utlignes mot kostnadene ved\nstrømmen som trekkes.",
@@ -523,13 +282,6 @@
   "csvImportWithFactor": "Skal målerstandene multipliseres med en faktor som ikke er lik 1,0? For eksempel, for å konvertere verdier fra Wh til kWh, må de multipliseres med 0,001.",
   "currency": "Valuta",
   "deleteObjectError": "Kan ikke slette dette objektet (kode {errorCode}).",
-  "@deleteObjectError": {
-    "placeholders": {
-      "errorCode": {
-        "type": "int"
-      }
-    }
-  },
   "detailWithMultiSelect": "Tillat flervalg",
   "detailsTitle": "Detaljer",
   "difference": "Forskjell",
@@ -538,54 +290,13 @@
   "driveSyncStatusComparing": "Sammenligner med fil på server",
   "driveSyncStatusFailed": "Kunne ikke synkronisere",
   "driveSyncStatusLocalHasLatestNoCloud": "Filen som er lagret på denne enheten fra {localDate}, er ikke lagret i skyen",
-  "@driveSyncStatusLocalHasLatestNoCloud": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
   "driveSyncStatusLocalHasLatestWithCloud": "Filen som er lagret på denne enheten fra {localDate} er mer oppdatert enn filen i skyen fra {cloudDate}",
-  "@driveSyncStatusLocalHasLatestWithCloud": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
   "driveSyncStatusNotSynced": "Ikke synkronisert",
   "driveSyncStatusRemoteHasLatestNoLocal": "Filen i skyen fra {cloudDate} er ikke lagret på denne enheten",
-  "@driveSyncStatusRemoteHasLatestNoLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      }
-    }
-  },
   "driveSyncStatusRemoteHasLatestWithLocal": "Filen i skyen fra {cloudDate} er mer oppdatert enn den lokale filen fra {localDate}",
-  "@driveSyncStatusRemoteHasLatestWithLocal": {
-    "placeholders": {
-      "cloudDate": {
-        "type": "String"
-      },
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
   "driveSyncStatusSyncing": "Synkronisering pågår",
   "driveSyncStatusTitle": "Synkroniseringsstatus",
   "driveSyncStatusUpToDate": "Oppdatert fra {localDate}",
-  "@driveSyncStatusUpToDate": {
-    "placeholders": {
-      "localDate": {
-        "type": "String"
-      }
-    }
-  },
   "driveSyncWithGoogle": "Google Drive Sync",
   "editDetailTitle": "Rediger detalj",
   "electricity": "Elektrisitet",
@@ -604,33 +315,10 @@
   "export": "Eksport",
   "exportExplanation": "Hvilket eksisterende objekt vil du eksportere, for eksempel for å overføre det til en ny enhet?",
   "exportObjectDescription": "{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}",
-  "@exportObjectDescription": {
-    "placeholders": {
-      "countersText": {
-        "type": "String"
-      },
-      "lastUpdated": {
-        "type": "String"
-      },
-      "meterReadings": {
-        "type": "String"
-      },
-      "timeLastUpdated": {
-        "type": "String"
-      }
-    }
-  },
   "exportOptionConsumptionsSubtitle": "En forbruksverdi for hver dag siden første avlesning.",
   "exportOptionConsumptionsTitle": "Daglig forbruk",
   "exportOptionExcel": "Excel-fil",
   "exportOptionFileDescription": "Objektet deles som en {fileType}-fil",
-  "@exportOptionFileDescription": {
-    "placeholders": {
-      "fileType": {
-        "type": "String"
-      }
-    }
-  },
   "exportOptionPdf": "PDF-fil",
   "exportOptionReadingsSubtitle": "Typisk måleravlesning eller forbruk med ujevne intervaller.",
   "exportOptionReadingsTitle": "Lese verdier",
@@ -659,13 +347,6 @@
   "generated": "Generert",
   "googleAnalyticsAgreement": "Jeg godtar overføring av anonymiserte data om bruken av appen til EHW+ Services GmbH.",
   "googleApiAgreement": "{appNameShort}s bruk og overføring til en hvilken som helst annen app av informasjon mottatt fra Google APIer vil overholde Googles API-tjenesters brukerdataretningslinjer, inkludert kravene til begrenset bruk.",
-  "@googleApiAgreement": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
   "gross": "brutto",
   "grossNetPrices": "Brutto eller nettopris",
   "heatPump": "Varmepumpe",
@@ -678,37 +359,13 @@
   "importConfirm": "Bekreft import",
   "importCounterAsCsv": "Vil du importere en enkelt måler? Støttet per meter er en CSV-fil med to kolonner, en for klokkeslett og en for måleravlesning.\n\nEksempeldata:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036",
   "importErrorCsvIgnoredColumns": "{columns, plural, one {Bare de to første kolonnene ble brukt. Den tredje kolonnen ble ignorert.} other {Bare de to første kolonnene ble brukt, {columns}-kolonnene ble ignorert.}}",
-  "@importErrorCsvIgnoredColumns": {
-    "placeholders": {
-      "columns": {
-        "type": "int"
-      }
-    }
-  },
   "importErrorCsvIgnoredLines": "{count, plural, one {Én linje ble ignorert: {lines}} other {{count} linjer ble ignorert: {lines}}}",
-  "@importErrorCsvIgnoredLines": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "lines": {
-        "type": "String"
-      }
-    }
-  },
   "importExplanation": "Du har allerede gjort telleravlesninger og ønsker å sette dem inn?",
   "importExport": "Sikkerhetskopiering/gjenoppretting",
   "importNewOrExistingCounter": "Legge til i ny eller eksisterende teller?",
   "importNotPossible": "Import ikke mulig",
   "importPickFile": "Velg fil",
   "importSelectJson": "JSON-fil (opprettet med {appName})",
-  "@importSelectJson": {
-    "placeholders": {
-      "appName": {
-        "type": "String"
-      }
-    }
-  },
   "importSelectSingleCounter": "Enkelteller (CSV-fil)",
   "importSuccessful": "Importen var vellykket",
   "importTabErrorMessageFileWithExtensionNotSelected": "En {extension}-fil kreves for å fortsette med importen.",
@@ -744,13 +401,6 @@
   "meterReadingsFilterAll": "Vis alle",
   "meterReadingsFilterComments": "Vis kun oppføringer med kommentarer",
   "meterReadingsFilterSubmitted": "Vis bare «{state}»",
-  "@meterReadingsFilterSubmitted": {
-    "placeholders": {
-      "state": {
-        "type": "String"
-      }
-    }
-  },
   "myObjects": "Mine gjenstander",
   "net": "nett",
   "networkCounter": "Internett og telefon",
@@ -763,53 +413,11 @@
   "notificationsEmpty": "Ingen varsler",
   "notificationsSmartMeterAlertFallback": "Du har et nytt smartmålervarsel.",
   "numCounters": "{count, plural, =0 {{count} teller} one {{count} teller} other {{count} tellere}}",
-  "@numCounters": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "numMeterReadings": "{readings, plural, one {#lesing} other {# avlesninger}}",
-  "@numMeterReadings": {
-    "placeholders": {
-      "readings": {
-        "type": "int"
-      }
-    }
-  },
   "numberOfDetails": "{count, plural, one {1 detalj} other {{count} detaljer}}",
-  "@numberOfDetails": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "ofRangeFrom": "fra {range}",
-  "@ofRangeFrom": {
-    "placeholders": {
-      "range": {
-        "type": "String"
-      }
-    }
-  },
   "ofRangeLastDays": "av de siste {days} dagene",
-  "@ofRangeLastDays": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
   "ofRangeLastMonths": "for de siste {months} månedene",
-  "@ofRangeLastMonths": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
   "oil": "Olje",
   "outdated": "Foreldet",
   "outdatedContracts": "Utdaterte kontrakter",
@@ -818,13 +426,6 @@
   "parsingObjectError": "Objektet kan ikke analyseres. Ta kontakt med utvikleren. Når du avinstallerer appen, kan dataene gå tapt.",
   "per": "per",
   "perUnit": "per {unit}",
-  "@perUnit": {
-    "placeholders": {
-      "unit": {
-        "type": "String"
-      }
-    }
-  },
   "period": "Periode",
   "periodBimonthly": "annenhver måned",
   "periodBiweekly": "annenhver uke",
@@ -838,38 +439,8 @@
   "periodYearly": "årlig",
   "previouslyDeletedCounters": "Nylig slettede målere",
   "priceComparisonDiff": "Du betaler {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} gjennomsnittet i {countryName}.",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
   "priceComparisonEqual": "Du betaler omtrent like mye som gjennomsnittet i {countryName}.",
-  "@priceComparisonEqual": {
-    "placeholders": {
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
   "priceComparisonNotEnoughData": "Ikke nok komparative data for nettstedet {countryName} ({countryCode}).",
-  "@priceComparisonNotEnoughData": {
-    "placeholders": {
-      "countryCode": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      }
-    }
-  },
   "pricePerUnit": "Pris per enhet",
   "pricePerUnitFeedIn": "Vederlagspris",
   "pricePerUnitFreshWater": "Kostnader for ferskvann",
@@ -878,49 +449,14 @@
   "pricePerUnitWaterWarm": "Varmtvannskostnader",
   "priceSubmissionAgreement": "Jeg er enig i overføring av strøm/gass/vann priser per enhet til en EHW+ server",
   "privacyBlock1Text": "Utvikleren/leverandøren av applikasjonen (heretter referert til som \"app\") er, i samsvar med paragraf 5 i den tyske telemedieloven (TMG):\n\n{contact}",
-  "@privacyBlock1Text": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
   "privacyBlock1Text2": "Bruk av appen krever at du godtar følgende bruksvilkår. Vennligst les dem nøye.",
   "privacyBlock1Title": "Utvikler",
   "privacyBlock2Text": "Beskyttelse av dine data er svært viktig for oss. Denne personvernerklæringen forklarer hvilke personopplysninger EHW+ samler inn og hvordan de brukes. Grunnleggende endringer i personvernreglene er sjeldne, men de kan bli revidert fra tid til annen på grunn av nye funksjoner, teknologier eller juridiske krav. Så sjekk denne siden fra tid til annen for å holde deg oppdatert. Hvis vi gjør noen vesentlige endringer, vil vi varsle deg og om nødvendig innhente ditt samtykke.",
   "privacyBlock2Title": "General",
   "privacyBlock3Title": "Hvilke data samler {appNameShort} inn?",
-  "@privacyBlock3Title": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
   "privacyBlock3aText": "Vi har laget {appNameShort} slik at du raskt og enkelt kan legge inn målerstandene dine og deretter bruke statistikk for å finne ut mer om forbruket ditt, dets kostnader og potensielle besparelser. Dette betyr at du kan legge inn, beregne eller lagre data, som vi vanligvis refererer til som \"innhold\", i {appNameShort}. Disse dataene lagres kun på din mobiltelefon.\n\nSynkroniser med Google Disk.\nHvis du aktiverer synkronisering med Google Disk, vil innholdet også automatisk bli sikkerhetskopiert i en mappe kalt «{appNameShort}» på Google Disk, som bare du har tilgang til. Ved å logge på med Google vil e-postadressen din være synlig for utvikleren.",
-  "@privacyBlock3aText": {
-    "placeholders": {
-      "appNameShort": {
-        "type": "String"
-      }
-    }
-  },
   "privacyBlock3bText": "{googleApiAgreement}\n\nStedsdata.\nFor å forstå brukeratferd og for fremtidige funksjoner, overfører appen anonymiserte bruksdata.\nDataene deles ikke med tredjeparter.\nInformasjon kan samles inn om opprinnelse (land og by), språk, operativsystem, enhetstype, oppløsning, klikkatferd og bruksvarighet.\n\nEnhetsdata.\nVi samler inn data om antall og type enheter du bruker for å koble til tjenesten, samt informasjon om operativsystemet på disse enhetene (f.eks. Android, iOS, Windows eller macOS).\n\nVed å bruke appen samtykker du til innsamling av anonymiserte data som beskrevet ovenfor.",
-  "@privacyBlock3bText": {
-    "placeholders": {
-      "googleApiAgreement": {
-        "type": "String"
-      }
-    }
-  },
   "privacyBlock4DataUsage": "Innsamlede anonymiserte data brukes til å evaluere brukeratferd. Utover dette er det ingen videre bruk av data.\n\n{syncDriveDataUsage}",
-  "@privacyBlock4DataUsage": {
-    "placeholders": {
-      "syncDriveDataUsage": {
-        "type": "String"
-      }
-    }
-  },
   "privacyBlock4DataUsageTitle": "Hvordan bruker {appNameShort} dataene mine?",
   "privacyBlock5": "Varigheten av lagringen av personopplysninger bestemmes av den respektive lovbestemte oppbevaringsperioden (for eksempel kommersielle og skatterettslige oppbevaringsperioder). Etter utløpet av perioden slettes de tilsvarende dataene rutinemessig, forutsatt at de ikke lenger er nødvendige for oppfyllelse eller igangsetting av en kontrakt og/eller vi ikke lenger har en legitim interesse i fortsatt lagring.",
   "privacyBlock5Title": "Varighet av lagring av personopplysninger",
@@ -951,57 +487,13 @@
   "purchasesPurchasedSubscribed": "Abonner",
   "purchasesRedeemCode": "Løs inn kode",
   "purchasesStatisticsWithPremium": "Med Premium får du tilgang til en månedlig sammenligning{count, plural, =0{.}=1{.}other{ og også se historiske data for {years}.}}",
-  "@purchasesStatisticsWithPremium": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      },
-      "years": {
-        "type": "String"
-      }
-    }
-  },
   "purchasesSubscribeNow": "Abonner nå",
   "purchasesSubscribePremium": "Abonner Premium",
   "purchasesSubscribePremiumMonthly": "Månedlig oppsigelig abonnement for bare {price} per måned",
-  "@purchasesSubscribePremiumMonthly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
   "purchasesSubscribePremiumMonthlyWithNewPrice": "Månedlig oppsigelig abonnement til lojalitetsprisen på {price} per måned i stedet for {priceNew}",
-  "@purchasesSubscribePremiumMonthlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
   "purchasesSubscribePremiumTextLong": "Tilgang til alle betalte funksjoner i abonnementsperioden + utetemperaturer",
   "purchasesSubscribePremiumYearly": "Årlig oppsigelig abonnement for kun {price} per år",
-  "@purchasesSubscribePremiumYearly": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      }
-    }
-  },
   "purchasesSubscribePremiumYearlyWithNewPrice": "Årlig oppsigelig abonnement til lojalitetsprisen på {price} per år i stedet for {priceNew}",
-  "@purchasesSubscribePremiumYearlyWithNewPrice": {
-    "placeholders": {
-      "price": {
-        "type": "String"
-      },
-      "priceNew": {
-        "type": "String"
-      }
-    }
-  },
   "purchasesUpgrade": "Oppgrader",
   "purchasesWebLegalNote": "Av juridiske årsaker er et kjøp kun mulig for en iPhone eller Android-telefon med PlayStore-tjenester.",
   "purchasesWhyBuyText": "Ved et kjøp deltar du i kostnadene jeg pådrar meg ved å publisere appen og støtter videreutviklingen.",
@@ -1017,31 +509,9 @@
   "readingPrefillDisabledToast": "Autofyll er deaktivert",
   "readingPrefillEnableForAllCounters": "Aktiver autofyll for alle tellere",
   "readingReminder": "{count, plural, one {Lesepåminnelse} other {Lesepåminnelser}}",
-  "@readingReminder": {
-    "placeholders": {
-      "count": {
-        "example": "2",
-        "type": "int"
-      }
-    }
-  },
   "readingReminderDisabled": "Lesepåminnelse er ikke aktiv",
   "readingReminderMultiBody": "{count, plural, one {Les avlesninger fra {count} meter nå} other {Les målinger fra {count} meter nå}}",
-  "@readingReminderMultiBody": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "readingReminderSingleBody": "Les {counterName}-verdien nå",
-  "@readingReminderSingleBody": {
-    "placeholders": {
-      "counterName": {
-        "type": "String"
-      }
-    }
-  },
   "readingReminders": "Lesepåminnelser",
   "readingRemindersChannel": "Lesepåminnelser",
   "readingSubmitted": "Måleravlesning sendt inn",
@@ -1078,13 +548,6 @@
   "roomName": "Romnavn",
   "roomNameHint": "Du kan eventuelt tildele et romnavn",
   "roomNamePart": "i {roomName}",
-  "@roomNamePart": {
-    "placeholders": {
-      "roomName": {
-        "type": "String"
-      }
-    }
-  },
   "roomNew": "Nytt rom",
   "roomOffice": "Kontor",
   "roomOther": "Annen",
@@ -1105,6 +568,7 @@
   "settingHouseholdSize": "Husholdningsstørrelse",
   "settingHouseholdSizeDescription": "Antall personer i husstanden din.",
   "settingLanguageMode": "Språk",
+  "startOfTheWeek": "Ukestart",
   "settingLivingArea": "Stue",
   "settingObjectLocation": "Sted",
   "settingObjectLocationExplanation": "Å gå inn på stedet hjelper deg med å skreddersy innsikt og tjenester til ditt område.",
@@ -1151,26 +615,7 @@
   "smartMeterSettingsScreenSyncingDialogProgress": "Fremgang: {progressInPercent} %",
   "smartMeterTabConsumptions": "Forbruk",
   "smartMeterTabProductions": "Produksjoner",
-  "consumptionCacheDebugViewTitle": "ForbruksBuffer",
-  "consumptionCacheDebugViewEntries": "oppføringer",
-  "consumptionCacheDebugViewClearCache": "Tøm buffer",
-  "consumptionCacheDebugViewClearCacheConfirmation": "Er du sikker på at du vil tømme all forbruksbuffer for dette objektet? Alle lagrede forbruksdata blir slettet.",
-  "consumptionCacheDebugViewClear": "Tøm",
-  "consumptionCacheDebugViewCacheCleared": "Bufferen ble tømt",
-  "consumptionCacheDebugViewError": "Feil",
-  "consumptionCacheToggleButtonTitle": "Bruk forbruksbuffer",
-  "consumptionCacheToggleButtonDescription": "Buffer beregnet forbruk og gjenbruk ved behov",
   "smartmeterInfocodeBannerText": "Smartmeter {smartmeterId} mottok infokode: {infocode}",
-  "@smartmeterInfocodeBannerText": {
-    "placeholders": {
-      "infocode": {
-        "type": "String"
-      },
-      "smartmeterId": {
-        "type": "String"
-      }
-    }
-  },
   "smartmeterInfocodeBannerTextInfocodeFrost": "Temperaturen på vannmåleren {smartmeterId} har sunket under 3°C. Det er fare for frost! Isoler måleren og rørene eller varm opp området for å unngå skade.",
   "smartmeterInfocodeBannerTextInfocodeLeckage": "Vannmåleren din {smartmeterId} har oppdaget en kontinuerlig vannstrøm. Dette kan tyde på en lekkasje. Vennligst sjekk husholdningsinstallasjonen for lekkasjer. Toaletter og dryppende kraner er vanlige årsaker.",
   "smartmeterInfocodeBannerTextInfocodeRohrbruch": "Vannmåleren din {smartmeterId} har oppdaget uvanlig høyt vannforbruk, noe som kan indikere et rørbrudd. Vennligst sjekk husholdningsinstallasjonen for store lekkasjer eller brudd. Alarmen kan også vises hvis du har brukt mye vann, f.eks. for å fylle et basseng.",
@@ -1195,13 +640,6 @@
   "supportGivePraise": "Gi ros",
   "supportGivePraiseLong": "Liker du appen? Takk! Spre ordet!",
   "supportGivePraiseRating": "Vurder appen i {store}.",
-  "@supportGivePraiseRating": {
-    "placeholders": {
-      "store": {
-        "type": "String"
-      }
-    }
-  },
   "supportGivePraiseRecommendation": "Anbefal appen til venner og familie. Takk for enhver anbefaling!",
   "supportMakeSuggestion": "Foreslå noe",
   "supportMakeSuggestionLong": "Appen lever fra brukerforslag. Har du et forslag?",
@@ -1239,40 +677,12 @@
   "teaserPurchaseVirtualCounter": "Legg til virtuelle tellere med Premium.",
   "teaserPurchaseWaterExtractionCounter": "Lås opp vannuttaksdisker med Premium.",
   "termsOfUsageBlock1": "Innsigelsesrett",
-  "@termsOfUsageBlock1": {
-    "placeholders": {
-      "contact": {
-        "type": "String"
-      }
-    }
-  },
   "termsOfUsageBlock1Title": "Generelle bruksvilkår for bruk av appen",
   "termsOfUsageBlock2": "Appen og dens funksjoner kan ikke brukes på en fornærmende måte. Vennligst bruk appen kun innenfor det lovlig tillatte omfanget og i samsvar med våre brukervilkår. Ved brudd på gjeldende tysk lov eller våre brukervilkår, forbeholder leverandøren seg retten til å ekskludere deg fra å bruke appen.",
   "termsOfUsageBlock2Title": "Generell informasjon om bruk",
   "termsOfUsageBlock2a": "Anonymiserte bruksdata\nVi bruker vår egen analyse for å kontinuerlig forbedre appen.\nKun anonymiserte data overføres.\nDataene videreformidles ikke til tredjeparter.\nFor mer informasjon, gå til Innstillinger > Personvern > {privacyBlock3Title}",
-  "@termsOfUsageBlock2a": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
   "termsOfUsageBlock2b": "Feilmeldinger\nSentry (selvhostet) brukes til å kontinuerlig forbedre appen.\nFeilrapporter blir verken behandlet eller delt med tredjeparter.\nFor mer informasjon, gå til Innstillinger > Personvern > {privacyBlock3Title}",
-  "@termsOfUsageBlock2b": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
   "termsOfUsageBlock2c": "Personlig informasjon\nHvis du bruker Google Drive Sync, har EHW+ fortsatt ingen tilgang til dataene du har lagt inn. For mer informasjon, gå til Innstillinger > Personvern > {privacyBlock3Title}.",
-  "@termsOfUsageBlock2c": {
-    "placeholders": {
-      "privacyBlock3Title": {
-        "type": "String"
-      }
-    }
-  },
   "termsOfUsageBlock3": "Leverandøren garanterer ikke tilgjengeligheten, påliteligheten, funksjonaliteten eller egnetheten til appen for dine formål. Ansvar er utelukket med mindre det er obligatorisk i henhold til produktansvarsloven, på grunn av forsett, grov uaktsomhet, skade på liv, lem eller helse, antakelsen om kvalitetsgaranti, uredelig fortielse av en mangel eller brudd på vesentlige kontraktsforpliktelser. Vesentlige kontraktsforpliktelser er de forpliktelsene hvis oppfyllelse er avgjørende for riktig gjennomføring av en kontrakt og hvis overholdelse avtalepartene regelmessig kan stole på. Erstatning for skader på grunn av brudd på vesentlige kontraktsforpliktelser er begrenset til den påregnelige skade som er typisk for denne type kontrakt, med mindre det foreligger forsett eller grov uaktsomhet.",
   "termsOfUsageBlock3Title": "Ansvar",
   "termsOfUsageBlock4": "Leverandøren garanterer ikke nøyaktigheten av beregningsresultatene. Brukere er pålagt å oppdatere prisene som er lagret i applikasjonen (grunnpriser, forbrukspriser, etc.) nøye og på eget ansvar for å sikre at de genererte fakturaene samsvarer med de faktiske skyldige beløpene.",
@@ -1357,57 +767,22 @@
   "timeDayAgo": "en dag siden",
   "timeDays": "dager",
   "timeDaysAgo": "{days} dager siden",
-  "@timeDaysAgo": {
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
   "timeDaysWithin": "dager",
   "timeForFirstYear": "for det første året",
   "timeFriday": "fredag",
   "timeFromDate": "Fra {date}",
-  "@timeFromDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
   "timeFromUndefined": "Udefinert",
   "timeHours": "timer",
   "timeHoursAgo": "{hours} timer siden",
-  "@timeHoursAgo": {
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
   "timeInFuture": "I fremtiden",
   "timeJustNow": "akkurat nå",
   "timeLastUpdated": "sist oppdatert",
   "timeMinutes": "minutter",
   "timeMinutesAgo": "{minutes} minutter siden",
-  "@timeMinutesAgo": {
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
   "timeMonday": "mandag",
   "timeMonth": "måned",
   "timeMonths": "måneder",
   "timeMonthsAgo": "{months} måneder siden",
-  "@timeMonthsAgo": {
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
   "timeMonthsWithin": "måneder",
   "timePeriodYearStart": "årlig",
   "timeReminderAtEnd": "På slutten",
@@ -1420,158 +795,50 @@
   "timeToday": "i dag",
   "timeTuesday": "tirsdag",
   "timeUntilDate": "Frem til {date}",
-  "@timeUntilDate": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
   "timeUntilUnlimited": "Ubegrenset",
   "timeWednesday": "onsdag",
   "timeWeek": "uke",
   "timeWeeks": "uker",
   "timeWithin": "Innenfor {duration}",
-  "@timeWithin": {
-    "placeholders": {
-      "duration": {
-        "type": "String"
-      }
-    }
-  },
   "timeYesterday": "i går",
   "unitCm": "cm",
   "unitCmLong": "cm",
   "unitCmShort": "cm",
   "unitCubicMetersLong": "{count, plural, one {Kubikkmeter (m³)} other {Kubikkmeter (m³)}}",
-  "@unitCubicMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitCubicMetersShort": "m³",
   "unitGJLong": "{count, plural, one {Gigajoule (GJ)} other {Gigajoule (GJ)}}",
-  "@unitGJLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitGJShort": "GJ",
   "unitGigaByteLong": "GB",
   "unitGigaByteShort": "GB",
   "unitHoursLong": "{count, plural, one {Time} other {Timer (t)}}",
-  "@unitHoursLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitHoursShort": "h",
   "unitKWhLong": "{count, plural, one {Kilowatttime (kWh)} other {Kilowatttimer (kWh)}}",
-  "@unitKWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitKWhShort": "kWh",
   "unitKgLong": "{count, plural, one {Kilogram (kg)} other {Kilogram (kg)}}",
-  "@unitKgLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitKgShort": "kg",
   "unitLiters": "liter",
   "unitLitersLong": "{count, plural, one {Liter (ℓ)} other {Liter (ℓ)}}",
-  "@unitLitersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitLitersShort": "ℓ",
   "unitMWhLong": "{count, plural, one {Megawatt time (MWh)} other {Megawattimer (MWh)}}",
-  "@unitMWhLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitMWhShort": "MWh",
   "unitMegaByteLong": "MB",
   "unitMegaByteShort": "MB",
   "unitNone": "ingen",
   "unitNoneFormatted": "{count, plural, one {enhet} other {enheter}}",
-  "@unitNoneFormatted": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitPercentLong": "Prosent (%)",
   "unitPercentShort": "%",
   "unitSquareMeters": "kvm",
   "unitSquareMetersLong": "{count, plural, one {Kvadratmeter (m²)} other {Kvadratmeter (m²)}}",
-  "@unitSquareMetersLong": {
-    "placeholders": {
-      "count": {
-        "type": "num"
-      }
-    }
-  },
   "unitSquareMetersShort": "m²",
   "updateAvailable": "Appversjonen {oldVersion} er ikke oppdatert. Du kan oppdatere til versjon {newVersion}.",
-  "@updateAvailable": {
-    "placeholders": {
-      "newVersion": {
-        "type": "String"
-      },
-      "oldVersion": {
-        "type": "String"
-      }
-    }
-  },
   "updateObjectName": "Endre objektnavn",
   "upgradeDescription": "Appen kan gjøre mer. Bedre kostnadsoversikt, mer statistikk, Excel-eksport, flere tellere, ...",
   "useDismissibleSettings": "Slett med sveipebevegelse",
   "useDismissibleSettingsDetailed": "Tellere, kontrakter osv. kan slettes ved en side-sveip-bevegelse",
   "usedForPaymentsRepayments": "Forskuddsbetaling, grunnpris og bonus",
   "valueLess": "{value} mindre",
-  "@valueLess": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
   "valueMore": "{value} mer",
-  "@valueMore": {
-    "placeholders": {
-      "value": {
-        "type": "String"
-      }
-    }
-  },
   "versionIsUpToDate": "Den siste appversjonen utgitt til alle brukere er {version}.",
-  "@versionIsUpToDate": {
-    "placeholders": {
-      "version": {
-        "type": "String"
-      }
-    }
-  },
   "virtualCounter": "Virtuell måler",
   "virtualCounterMasterCounter": "Mestermåler",
   "virtualCounterMasterCounterAttach": "Velg hovedmåler",
@@ -1585,61 +852,11 @@
   "warning": "Advarsel",
   "warningCounterReplacementDetected": "Den nye verdien er lavere enn den forrige målerstanden. Er måleren skiftet?",
   "warningNextReminderText": "Neste påminnelse er {date}.",
-  "@warningNextReminderText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
   "warningOutdatedSinceText": "siden {date}",
-  "@warningOutdatedSinceText": {
-    "placeholders": {
-      "date": {
-        "type": "String"
-      }
-    }
-  },
   "warningReadingBiggerThanOldValue": "Den nye verdien er høyere enn forrige måleravlesning.{isOilCounter, select, true { Have you refilled the tank?} other {}}",
-  "@warningReadingBiggerThanOldValue": {
-    "placeholders": {
-      "isOilCounter": {
-        "type": "String"
-      }
-    }
-  },
   "warningReadingBiggerThanOldValueOilVolume": "Den nye verdien er høyere enn den forrige målerstanden. Har du fylt på tanken?",
   "warningReadingOutdatedForYearlyResetCounter": "Den siste måleravlesningen for året {lastYear} for {deviceTypeName} {roomNamePart} mangler. Dette er nødvendig for en korrekt beregning av det totale årsforbruket.",
-  "@warningReadingOutdatedForYearlyResetCounter": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "lastYear": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      }
-    }
-  },
-  "warningReadingOutdatedFrequency": "Den siste måleravlesningen for {deviceTypeName} {roomNamePart} er utdatert {outdatedSinceText}.{whenNotifyDateText}",
-  "@warningReadingOutdatedFrequency": {
-    "placeholders": {
-      "deviceTypeName": {
-        "type": "String"
-      },
-      "outdatedSinceText": {
-        "type": "String"
-      },
-      "roomNamePart": {
-        "type": "String"
-      },
-      "whenNotifyDateText": {
-        "type": "String"
-      }
-    }
-  },
+  "warningReadingOutdatedFrequency": "Den siste måleravlesningen for {deviceTypeName} er utdatert {outdatedSinceText}. {whenNotifyDateText}",
   "warningReadingSeemsTooBig": "Den nye verdien er ganske høy. Ble avlesningen tatt riktig?",
   "warningReadingSeemsTooSmall": "Den nye verdien er ganske lav. Ble den lest riktig?",
   "warningReadingSmallerThanOldValue2": "Den nye verdien er lavere enn den forrige målerstanden. Ble avlesningen tatt riktig?",
@@ -1648,18 +865,6 @@
   "waterConsumption": "Vannforbruk",
   "waterExtractionMinimumLevelLower": "Fradrag skjer fordi forbruket er lavere enn terskel.",
   "waterMeterEventsInformation": "{count, plural, =1 {Din trådløse vannmåler {waterSupplier} oppdager uventet forbruk. Om ønskelig vil du motta et varsel i et slikt tilfelle.} other {Dine trådløse vannmålere {waterSupplier} oppdager uventet forbruk. Om ønskelig vil du motta et varsel i slike tilfeller.}}",
-  "@waterMeterEventsInformation": {
-    "placeholders": {
-      "count": {
-        "example": "1",
-        "type": "num"
-      },
-      "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
-        "type": "String"
-      }
-    }
-  },
   "watersupplierAccessRequestQ1": "Er du eier av en eiendom i vannverkets nedbørfelt og vil gjerne ha tilgang til radiomåleravlesning?",
   "watersupplierAccessRequestQ2": "Har du allerede bedt om tilgang? Deretter må du opprette en EHW+ brukerkonto.",
   "watersupplierAccessRequestQ3": "Har du allerede bedt om tilgang og mottatt QR-koden din?",
@@ -1696,15 +901,6 @@
   "youtubeConsent3": "Jeg godtar at eksternt innhold vises for meg. Dette kan føre til at personopplysninger overføres til tredjepartsplattformer. Mer om dette i vår",
   "zipCode": "postnummer",
   "zipCodeValidationLength": "Vennligst skriv inn et {digits}-sifret postnummer",
-  "@zipCodeValidationLength": {
-    "description": "Error message if the entered zip code length is invalid",
-    "placeholders": {
-      "digits": {
-        "example": "5",
-        "type": "int"
-      }
-    }
-  },
   "zipCodeValidationOnlyNumbers": "Et gyldig postnummer består kun av tall",
-  "counterExplainSeasonal": "For prognoser skilles det mellom sesongbaserte og ikke-sesongbaserte målere. Avhengig av dette beregnes prognosen på forskjellig måte.\n\nOppvarming, gass og olje klassifiseres alltid som sesongavhengige. Ikke-sesongavhengige målere er strøm og vann.\n\nFor ikke-sesongavhengige målere er forbruket de siste 90 dagene avgjørende.\n\nFor sesongavhengige målere beregnes gjennomsnittet for tidligere år (hvis tilgjengelig), hvor alle måneder i tidligere år teller likt. (Unntak: hvis det ikke foreligger data for måneden i fjor, brukes gjennomsnittet fra året før)."
+  "wallbox": "Ladeboks"
 }

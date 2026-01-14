@@ -2154,6 +2154,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Jezik';
 
   @override
+  String get startOfTheWeek => 'Početak tjedna';
+
+  @override
   String get settingLivingArea => 'Dnevni boravak';
 
   @override
@@ -3268,10 +3271,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Najnovije očitanje brojila za $deviceTypeName ${roomNamePart}je zastarjelo $outdatedSinceText.$whenNotifyDateText';
+    return 'Najnovije očitanje brojila za $deviceTypeName je zastarjelo $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
@@ -3454,5 +3456,5 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
       'Važeći poštanski broj sastoji se samo od brojeva';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'Zidna kutija';
 }

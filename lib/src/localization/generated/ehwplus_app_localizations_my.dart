@@ -894,7 +894,8 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get counterExcludedContracts => 'ဖယ်ထုတ်ထားစာချုပ်များ';
 
   @override
-  String get counterExplainSeasonal => '';
+  String get counterExplainSeasonal =>
+      'ခန့်မှန်းချက်များအတွက် ရာသီအလိုက်နှင့် ရာသီအလိုက်မဟုတ်သော ကောင်တာများအကြား ကွာခြားချက်ကို ပြုလုပ်သည်။ ၎င်းပေါ်မူတည်၍ ခန့်မှန်းချက်ကို ကွဲပြားစွာ တွက်ချက်သည်။\n\nအပူပေးစနစ်၊ ဓာတ်ငွေ့၊ ရေနံများကို ရာသီအလိုက်အဖြစ် အမြဲတမ်း သတ်မှတ်သည်။ ရာသီအလိုက်မဟုတ်သော မီတာများမှာ လျှပ်စစ်နှင့် ရေတို့ဖြစ်သည်။\n\nရာသီအလိုက်မဟုတ်သော မီတာများအတွက် နောက်ဆုံး ရက် ၉၀ ၏ သုံးစွဲမှုသည် အဓိကကျသည်။\n\nရာသီအလိုက် မီတာများအတွက် ယခင်နှစ်များကို ပျမ်းမျှယူသည် (ရှိပါက)၊ ယခင်နှစ်များ၏ လများအားလုံးသည် တူညီစွာ ရေတွက်သည်။ (ခြွင်းချက်- ယခင်နှစ်၏ လအတွက် ဒေတာမရှိသေးပါက ယခင်ပျမ်းမျှကို အသုံးပြုသည်)။';
 
   @override
   String get counterFactor => 'ဆူး';
@@ -2149,6 +2150,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'ဘာသာစကား';
 
   @override
+  String get startOfTheWeek => 'တစ်ပတ်၏အစ';
+
+  @override
   String get settingLivingArea => 'နေထိုင်ရန်ရိယာ';
 
   @override
@@ -3233,7 +3237,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return 'နောက်သတိပေးချက်မှာ Phtoken0 ဖြစ်သည်။';
+    return 'അടുത്ത ഓർമ്മപ്പെടുത്തൽ $date-ന് ഷെഡ്യൂൾ ചെയ്തിട്ടുണ്ട്.';
   }
 
   @override
@@ -3267,10 +3271,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String warningReadingOutdatedFrequency(
     String deviceTypeName,
     String outdatedSinceText,
-    String roomNamePart,
     String whenNotifyDateText,
   ) {
-    return 'Phtoken1is အတွက်နောက်ဆုံးနေ့မီတာဖတ်ခြင်း Phtensen1is ခေတ်နောက်ကျ';
+    return '$deviceTypeName အတွက် နောက်ဆုံးမီတာဖတ်ရှုမှုသည် $outdatedSinceText ကြာမြင့်နေပြီဖြစ်၍ ခေတ်မမီတော့ပါ။ $whenNotifyDateText';
   }
 
   @override
@@ -3452,5 +3455,5 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
 
   @override
-  String get wallbox => 'Wallbox';
+  String get wallbox => 'နံရံအားသွင်းကိရိယာ';
 }
