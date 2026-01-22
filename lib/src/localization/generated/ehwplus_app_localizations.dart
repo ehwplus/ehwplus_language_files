@@ -27,8 +27,8 @@ import 'ehwplus_app_localizations_ko.dart';
 import 'ehwplus_app_localizations_lt.dart';
 import 'ehwplus_app_localizations_ml.dart';
 import 'ehwplus_app_localizations_my.dart';
+import 'ehwplus_app_localizations_nb.dart';
 import 'ehwplus_app_localizations_nl.dart';
-import 'ehwplus_app_localizations_no.dart';
 import 'ehwplus_app_localizations_pl.dart';
 import 'ehwplus_app_localizations_pt.dart';
 import 'ehwplus_app_localizations_ru.dart';
@@ -153,8 +153,8 @@ abstract class EhwplusAppLocalizations {
     Locale('lt'),
     Locale('ml'),
     Locale('my'),
+    Locale('nb'),
     Locale('nl'),
-    Locale('no'),
     Locale('pl'),
     Locale('pt'),
     Locale('ru'),
@@ -5731,8 +5731,8 @@ class _EhwplusAppLocalizationsDelegate
     'lt',
     'ml',
     'my',
+    'nb',
     'nl',
-    'no',
     'pl',
     'pt',
     'ru',
@@ -5798,10 +5798,10 @@ EhwplusAppLocalizations lookupEhwplusAppLocalizations(Locale locale) {
       return EhwplusAppLocalizationsMl();
     case 'my':
       return EhwplusAppLocalizationsMy();
+    case 'nb':
+      return EhwplusAppLocalizationsNb();
     case 'nl':
       return EhwplusAppLocalizationsNl();
-    case 'no':
-      return EhwplusAppLocalizationsNo();
     case 'pl':
       return EhwplusAppLocalizationsPl();
     case 'pt':

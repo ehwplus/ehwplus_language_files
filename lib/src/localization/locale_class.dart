@@ -24,7 +24,7 @@ enum LocaleClass {
   ml,
   my,
   nl,
-  no,
+  nb,
   pl,
   pt,
   ru,

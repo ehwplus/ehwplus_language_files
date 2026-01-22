@@ -332,7 +332,11 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
 
     final rows = _buildRowsData(records);
     manager.removeAllRows();
-    manager.appendRows(rows);
+    try {
+      manager.appendRows(rows);
+    } on Error catch (_) {
+      // Package does throw an error because of an internal state, if we remove a column. So we catch it here.
+    }
   }
 }
 

@@ -4,9 +4,9 @@ import 'ehwplus_app_localizations.dart';
 
 // ignore_for_file: type=lint
 
-/// The translations for Norwegian (`no`).
-class EhwplusAppLocalizationsNo extends EhwplusAppLocalizations {
-  EhwplusAppLocalizationsNo([String locale = 'no']) : super(locale);
+/// The translations for Norwegian Bokmål (`nb`).
+class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
+  EhwplusAppLocalizationsNb([String locale = 'nb']) : super(locale);
 
   @override
   String get accountAbout => 'Hva kan EHW+-brukerkontoen gjøre?';

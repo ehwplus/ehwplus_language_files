@@ -37,6 +37,7 @@ dependencies:
   flutter_svg: ^2.2.3
 
   trina_grid: ^2.1.1
+  http: ^1.2.0
 
 dev_dependencies:
   flutter_test:
