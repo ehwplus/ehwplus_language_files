@@ -903,5 +903,6 @@
   "zipCode": "mã vùng",
   "zipCodeValidationLength": "Vui lòng nhập mã bưu chính {digits} chữ số",
   "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "cuối tháng"
 }

@@ -902,5 +902,6 @@
   "zipCode": "کد پستی",
   "zipCodeValidationLength": "لطفاً یک کد پستی {digits}-رقمی وارد کنید",
   "zipCodeValidationOnlyNumbers": "یک کد پستی معتبر فقط از اعداد تشکیل شده است",
-  "wallbox": "وال‌باکس"
+  "wallbox": "وال‌باکس",
+  "monthEnd": "پایان ماه"
 }

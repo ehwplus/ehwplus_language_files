@@ -902,5 +902,6 @@
   "zipCode": "poštna številka",
   "zipCodeValidationLength": "Vnesite {digits}-mestno poštno številko",
   "zipCodeValidationOnlyNumbers": "Veljavna poštna številka je sestavljena samo iz številk",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "Konec meseca"
 }

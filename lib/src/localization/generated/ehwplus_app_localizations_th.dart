@@ -3425,4 +3425,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get wallbox => 'วอลล์บ็อกซ์';
+
+  @override
+  String get monthEnd => 'สิ้นเดือน';
 }

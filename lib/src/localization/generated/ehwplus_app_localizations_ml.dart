@@ -3464,4 +3464,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get wallbox => 'വാൾബോക്സ്';
+
+  @override
+  String get monthEnd => 'മാസാവസാനം';
 }

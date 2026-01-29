@@ -902,5 +902,6 @@
   "zipCode": "pašto kodas",
   "zipCodeValidationLength": "Įveskite {digits} skaitmenų pašto kodą",
   "zipCodeValidationOnlyNumbers": "Galiojantį pašto kodą sudaro tik skaičiai",
-  "wallbox": "Sieninė įkrovimo stotelė"
+  "wallbox": "Sieninė įkrovimo stotelė",
+  "monthEnd": "Mėnesio pabaiga"
 }

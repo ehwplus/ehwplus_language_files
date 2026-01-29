@@ -1534,5 +1534,6 @@
     }
   },
   "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "End of month"
 }

@@ -902,5 +902,6 @@
   "zipCode": "postiindeks",
   "zipCodeValidationLength": "Palun sisesta {digits}-kohaline postiindeks",
   "zipCodeValidationOnlyNumbers": "Kehtiv postiindeks koosneb ainult numbritest",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "Kuu lõpp"
 }

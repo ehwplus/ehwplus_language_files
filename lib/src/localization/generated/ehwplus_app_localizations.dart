@@ -5694,6 +5694,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Wallbox'**
   String get wallbox;
+
+  /// No description provided for @monthEnd.
+  ///
+  /// In en, this message translates to:
+  /// **'End of month'**
+  String get monthEnd;
 }
 
 class _EhwplusAppLocalizationsDelegate

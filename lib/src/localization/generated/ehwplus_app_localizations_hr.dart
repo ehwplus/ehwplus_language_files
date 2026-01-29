@@ -3457,4 +3457,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get wallbox => 'Zidna kutija';
+
+  @override
+  String get monthEnd => 'kraj mjeseca';
 }

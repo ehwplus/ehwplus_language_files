@@ -902,5 +902,6 @@
   "zipCode": "postinumero",
   "zipCodeValidationLength": "Syötä {digits} numeroinen postinumero",
   "zipCodeValidationOnlyNumbers": "Kelvollinen postinumero koostuu vain numeroista",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "Kuukauden lopussa"
 }

@@ -902,5 +902,6 @@
   "zipCode": "തപാൽ കോഡ്",
   "zipCodeValidationLength": "ദയവായി {digits}-അക്കമുള്ള തപാൽ കോഡ് നൽകുക",
   "zipCodeValidationOnlyNumbers": "ഒരു സാധുവായ പിൻ കോഡിൽ അക്കങ്ങൾ മാത്രമേ അടങ്ങിയിട്ടുള്ളൂ",
-  "wallbox": "വാൾബോക്സ്"
+  "wallbox": "വാൾബോക്സ്",
+  "monthEnd": "മാസാവസാനം"
 }

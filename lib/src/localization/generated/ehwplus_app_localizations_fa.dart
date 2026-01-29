@@ -3442,4 +3442,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get wallbox => 'وال‌باکس';
+
+  @override
+  String get monthEnd => 'پایان ماه';
 }

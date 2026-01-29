@@ -902,5 +902,6 @@
   "zipCode": "postnummer",
   "zipCodeValidationLength": "Vänligen ange ett {digits}-siffrigt postnummer",
   "zipCodeValidationOnlyNumbers": "Ett giltigt postnummer består endast av nummer",
-  "wallbox": "Laddbox"
+  "wallbox": "Laddbox",
+  "monthEnd": "Slutet av månaden"
 }

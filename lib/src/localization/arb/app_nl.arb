@@ -902,5 +902,6 @@
   "zipCode": "postcode",
   "zipCodeValidationLength": "Voer een {digits}-cijferige postcode in",
   "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers",
-  "wallbox": "Laadpaal"
+  "wallbox": "Laadpaal",
+  "monthEnd": "Einde maand"
 }

@@ -902,5 +902,6 @@
   "zipCode": "စာတိုက်သင်္ကေတ",
   "zipCodeValidationLength": "ကျေးဇူးပြုပြီး Phtoken0-digit စာတိုက်ကုဒ်ကိုရိုက်ထည့်ပါ",
   "zipCodeValidationOnlyNumbers": "ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်",
-  "wallbox": "နံရံအားသွင်းကိရိယာ"
+  "wallbox": "နံရံအားသွင်းကိရိယာ",
+  "monthEnd": "လကုန်"
 }

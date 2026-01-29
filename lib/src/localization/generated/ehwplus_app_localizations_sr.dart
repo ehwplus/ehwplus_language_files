@@ -3454,4 +3454,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get wallbox => 'Punjač za električna vozila';
+
+  @override
+  String get monthEnd => 'крај месеца';
 }

@@ -902,5 +902,6 @@
   "zipCode": "邮政编码",
   "zipCodeValidationLength": "请输入 {digits} 位邮政编码",
   "zipCodeValidationOnlyNumbers": "有效的邮政编码仅由数字组成",
-  "wallbox": "充电桩"
+  "wallbox": "充电桩",
+  "monthEnd": "月底"
 }

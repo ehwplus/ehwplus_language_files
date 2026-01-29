@@ -902,5 +902,6 @@
   "zipCode": "الرمز البريدي",
   "zipCodeValidationLength": "يرجى إدخال رمز بريدي مكون من {digits} أرقام",
   "zipCodeValidationOnlyNumbers": "الرمز البريدي الصالح يتكون من أرقام فقط",
-  "wallbox": "والبوكس"
+  "wallbox": "والبوكس",
+  "monthEnd": "نهاية الشهر"
 }

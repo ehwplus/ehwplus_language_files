@@ -902,5 +902,6 @@
   "zipCode": "postnummer",
   "zipCodeValidationLength": "Indtast venligst et {digits}-cifret postnummer",
   "zipCodeValidationOnlyNumbers": "Et gyldigt postnummer består kun af tal",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "I slutningen af måneden"
 }

@@ -902,5 +902,6 @@
   "zipCode": "Почтовый индекс",
   "zipCodeValidationLength": "Введите {digits}-значный почтовый индекс",
   "zipCodeValidationOnlyNumbers": "Допустимый почтовый индекс состоит только из цифр",
-  "wallbox": "Зарядная станция"
+  "wallbox": "Зарядная станция",
+  "monthEnd": "Конец месяца"
 }

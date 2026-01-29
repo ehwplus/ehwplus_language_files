@@ -902,5 +902,6 @@
   "zipCode": "Poštanski broj",
   "zipCodeValidationLength": "Molimo unesite {digits}-znamenkasti poštanski broj",
   "zipCodeValidationOnlyNumbers": "Važeći poštanski broj sastoji se samo od brojeva",
-  "wallbox": "Zidna kutija"
+  "wallbox": "Zidna kutija",
+  "monthEnd": "kraj mjeseca"
 }

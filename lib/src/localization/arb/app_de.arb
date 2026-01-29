@@ -902,5 +902,6 @@
   "zipCode": "Postleitzahl",
   "zipCodeValidationLength": "Bitte {digits}-stellige Postleitzahl eingeben",
   "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": ""
 }

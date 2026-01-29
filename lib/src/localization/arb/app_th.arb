@@ -902,5 +902,6 @@
   "zipCode": "รหัสไปรษณีย์",
   "zipCodeValidationLength": "กรุณากรอกรหัสไปรษณีย์ {digits} หลัก",
   "zipCodeValidationOnlyNumbers": "รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น",
-  "wallbox": "วอลล์บ็อกซ์"
+  "wallbox": "วอลล์บ็อกซ์",
+  "monthEnd": "สิ้นเดือน"
 }

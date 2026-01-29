@@ -902,5 +902,6 @@
   "zipCode": "우편번호",
   "zipCodeValidationLength": "{digits}자리 우편번호를 입력하세요",
   "zipCodeValidationOnlyNumbers": "유효한 우편번호는 숫자로만 구성됩니다",
-  "wallbox": "월박스"
+  "wallbox": "월박스",
+  "monthEnd": "월말"
 }

@@ -903,5 +903,6 @@
   "zipCode": "поштовий індекс",
   "zipCodeValidationLength": "Введіть {digits}-значний поштовий індекс",
   "zipCodeValidationOnlyNumbers": "Дійсний поштовий індекс складається лише з цифр",
-  "wallbox": "Зарядна станція"
+  "wallbox": "Зарядна станція",
+  "monthEnd": "Кінець місяця"
 }

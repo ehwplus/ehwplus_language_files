@@ -3454,4 +3454,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get wallbox => 'Sieninė įkrovimo stotelė';
+
+  @override
+  String get monthEnd => 'Mėnesio pabaiga';
 }

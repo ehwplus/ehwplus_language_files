@@ -902,5 +902,6 @@
   "zipCode": "Código postal",
   "zipCodeValidationLength": "Introduce un código postal de {digits} dígitos",
   "zipCodeValidationOnlyNumbers": "Un código postal válido solo contiene números",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "Fin de mes"
 }

@@ -902,5 +902,6 @@
   "zipCode": "nambari ya zip",
   "zipCodeValidationLength": "Tafadhali ingiza nambari ya posta ya nambari ya phtoken0",
   "zipCodeValidationOnlyNumbers": "Nambari halali ya zip ina nambari tu",
-  "wallbox": "Wallbox"
+  "wallbox": "Wallbox",
+  "monthEnd": "mwisho wa mwezi"
 }

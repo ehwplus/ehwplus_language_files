@@ -3445,4 +3445,7 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get wallbox => 'Muurlaaier';
+
+  @override
+  String get monthEnd => 'einde van die maand';
 }
