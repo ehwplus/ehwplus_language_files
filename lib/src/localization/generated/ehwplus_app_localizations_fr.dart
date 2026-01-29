@@ -3475,5 +3475,7 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get wallbox => 'Borne de recharge';
 
   @override
-  String get monthEnd => 'Fin de mois';
+  String monthEnd(Object month) {
+    return 'Fin du $month';
+  }
 }

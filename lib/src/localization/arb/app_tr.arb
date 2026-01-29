@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Lütfen {digits} haneli posta kodunu girin",
   "zipCodeValidationOnlyNumbers": "Geçerli bir posta kodu yalnızca sayılardan oluşur",
   "wallbox": "Wallbox",
-  "monthEnd": "Ay sonu"
+  "monthEnd": "Ay {month}"
 }

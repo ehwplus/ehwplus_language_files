@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Моля, въведете {digits}-цифрен пощенски код",
   "zipCodeValidationOnlyNumbers": "Валиден пощенски код се състои само от цифри",
   "wallbox": "Зарядна станция",
-  "monthEnd": "В края на месеца"
+  "monthEnd": "Край на {month}"
 }

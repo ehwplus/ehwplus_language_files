@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Voer asseblief 'n {digits}-syfer poskode in",
   "zipCodeValidationOnlyNumbers": "'n Geldige poskode bestaan slegs uit syfers",
   "wallbox": "Muurlaaier",
-  "monthEnd": "einde van die maand"
+  "monthEnd": "Einde van {month}"
 }

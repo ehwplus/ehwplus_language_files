@@ -3451,5 +3451,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get wallbox => 'Laddbox';
 
   @override
-  String get monthEnd => 'Slutet av månaden';
+  String monthEnd(Object month) {
+    return 'Slutet av $month';
+  }
 }

@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Palun sisesta {digits}-kohaline postiindeks",
   "zipCodeValidationOnlyNumbers": "Kehtiv postiindeks koosneb ainult numbritest",
   "wallbox": "Wallbox",
-  "monthEnd": "Kuu lõpp"
+  "monthEnd": "{month} lõpp"
 }

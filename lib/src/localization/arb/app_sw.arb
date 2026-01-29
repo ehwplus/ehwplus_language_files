@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Tafadhali ingiza nambari ya posta ya nambari ya phtoken0",
   "zipCodeValidationOnlyNumbers": "Nambari halali ya zip ina nambari tu",
   "wallbox": "Wallbox",
-  "monthEnd": "mwisho wa mwezi"
+  "monthEnd": "Mwisho wa {month}"
 }

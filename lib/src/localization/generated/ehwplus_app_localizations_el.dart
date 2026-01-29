@@ -3482,5 +3482,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get wallbox => 'Wallbox';
 
   @override
-  String get monthEnd => 'Τέλος του μήνα';
+  String monthEnd(Object month) {
+    return 'Τέλος του $month';
+  }
 }

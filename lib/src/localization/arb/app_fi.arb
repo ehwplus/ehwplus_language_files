@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Syötä {digits} numeroinen postinumero",
   "zipCodeValidationOnlyNumbers": "Kelvollinen postinumero koostuu vain numeroista",
   "wallbox": "Wallbox",
-  "monthEnd": "Kuukauden lopussa"
+  "monthEnd": "{month} loppu"
 }

@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Введите {digits}-значный почтовый индекс",
   "zipCodeValidationOnlyNumbers": "Допустимый почтовый индекс состоит только из цифр",
   "wallbox": "Зарядная станция",
-  "monthEnd": "Конец месяца"
+  "monthEnd": "Конец {month}"
 }

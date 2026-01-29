@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Veuillez saisir un code postal à {digits} chiffres",
   "zipCodeValidationOnlyNumbers": "Un code postal valide ne contient que des chiffres",
   "wallbox": "Borne de recharge",
-  "monthEnd": "Fin de mois"
+  "monthEnd": "Fin du {month}"
 }

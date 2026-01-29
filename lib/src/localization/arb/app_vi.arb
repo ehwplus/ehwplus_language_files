@@ -904,5 +904,5 @@
   "zipCodeValidationLength": "Vui lòng nhập mã bưu chính {digits} chữ số",
   "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số",
   "wallbox": "Wallbox",
-  "monthEnd": "cuối tháng"
+  "monthEnd": "Cuối tháng {month}"
 }

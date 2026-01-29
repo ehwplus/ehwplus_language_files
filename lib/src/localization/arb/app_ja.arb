@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "{digits}桁の郵便番号を入力してください",
   "zipCodeValidationOnlyNumbers": "有効な郵便番号は数字のみで構成されます",
   "wallbox": "ウォールボックス",
-  "monthEnd": "月末"
+  "monthEnd": "{month}の終わり"
 }

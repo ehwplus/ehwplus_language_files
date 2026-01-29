@@ -3462,5 +3462,7 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get wallbox => 'Wallbox';
 
   @override
-  String get monthEnd => 'kraj mjeseca';
+  String monthEnd(Object month) {
+    return 'Kraj $month';
+  }
 }

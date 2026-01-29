@@ -904,5 +904,5 @@
   "zipCodeValidationLength": "Zadejte prosím {digits}místné poštovní směrovací číslo",
   "zipCodeValidationOnlyNumbers": "Platné PSČ se skládá pouze z čísel",
   "wallbox": "Wallbox",
-  "monthEnd": "Konec měsíce"
+  "monthEnd": "Konec {month}"
 }

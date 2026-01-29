@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Унесите ПХТОКЕН0-цифрени поштански број",
   "zipCodeValidationOnlyNumbers": "Важећи поштански број се састоји само од бројева",
   "wallbox": "Punjač za električna vozila",
-  "monthEnd": "крај месеца"
+  "monthEnd": "Крај {month}"
 }

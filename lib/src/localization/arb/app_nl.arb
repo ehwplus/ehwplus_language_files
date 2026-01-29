@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "Voer een {digits}-cijferige postcode in",
   "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers",
   "wallbox": "Laadpaal",
-  "monthEnd": "Einde maand"
+  "monthEnd": "Einde {month}"
 }

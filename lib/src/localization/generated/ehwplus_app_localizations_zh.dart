@@ -3302,5 +3302,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get wallbox => '充电桩';
 
   @override
-  String get monthEnd => '月底';
+  String monthEnd(Object month) {
+    return '$month月末';
+  }
 }

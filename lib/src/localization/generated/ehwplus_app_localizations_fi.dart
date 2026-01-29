@@ -3455,5 +3455,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get wallbox => 'Wallbox';
 
   @override
-  String get monthEnd => 'Kuukauden lopussa';
+  String monthEnd(Object month) {
+    return '$month loppu';
+  }
 }

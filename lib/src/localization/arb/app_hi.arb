@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "कृपया {digits}-अंकीय डाक कोड दर्ज करें",
   "zipCodeValidationOnlyNumbers": "एक वैध ज़िप कोड में केवल संख्याएँ होती हैं",
   "wallbox": "वॉलबॉक्स",
-  "monthEnd": "महीने के अंत तक"
+  "monthEnd": "{month} का अंत"
 }

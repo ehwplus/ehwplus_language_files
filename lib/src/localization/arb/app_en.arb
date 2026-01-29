@@ -1535,5 +1535,5 @@
   },
   "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
   "wallbox": "Wallbox",
-  "monthEnd": "End of month"
+  "monthEnd": "End of {month}"
 }

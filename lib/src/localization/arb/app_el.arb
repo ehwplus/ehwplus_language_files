@@ -904,5 +904,5 @@
   "zipCodeValidationLength": "Εισαγάγετε έναν ταχυδρομικό κώδικα PHTOKEN 0 ψηφίων",
   "zipCodeValidationOnlyNumbers": "Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς",
   "wallbox": "Wallbox",
-  "monthEnd": "Τέλος του μήνα"
+  "monthEnd": "Τέλος του {month}"
 }

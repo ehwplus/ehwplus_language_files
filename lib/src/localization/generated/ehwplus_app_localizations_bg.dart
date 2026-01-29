@@ -3473,5 +3473,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get wallbox => 'Зарядна станция';
 
   @override
-  String get monthEnd => 'В края на месеца';
+  String monthEnd(Object month) {
+    return 'Край на $month';
+  }
 }

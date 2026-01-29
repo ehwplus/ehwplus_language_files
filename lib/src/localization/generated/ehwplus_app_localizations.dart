@@ -5698,8 +5698,8 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @monthEnd.
   ///
   /// In en, this message translates to:
-  /// **'End of month'**
-  String get monthEnd;
+  /// **'End of {month}'**
+  String monthEnd(Object month);
 }
 
 class _EhwplusAppLocalizationsDelegate

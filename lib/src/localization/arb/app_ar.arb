@@ -903,5 +903,5 @@
   "zipCodeValidationLength": "يرجى إدخال رمز بريدي مكون من {digits} أرقام",
   "zipCodeValidationOnlyNumbers": "الرمز البريدي الصالح يتكون من أرقام فقط",
   "wallbox": "والبوكس",
-  "monthEnd": "نهاية الشهر"
+  "monthEnd": "نهاية {month}"
 }
