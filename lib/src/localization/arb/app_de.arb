@@ -870,7 +870,7 @@
   "waterSupplier": "Wasserversorger",
   "waterSupplierHint": "Ihr Nahversorger für Wasser, z.B. Stadtwerke Musterstadt",
   "waterSupplierUnknown": "Ihr Wasserversorger ist uns leider noch nicht bekannt. Schreiben Sie uns gerne an. Anbieter, die nur Strom und Gas anbieten, erscheinen hier nicht.",
-  "watersupplierAccessRequestQ1": "",
+  "watersupplierAccessRequestQ1": "Sie sind Eigentümer einer Immobilie im Einzugsgebiet des Wasserversorgers und möchten Zugang zu Funkzählerständen haben?",
   "watersupplierAccessRequestQ2": "Sie haben bereits Zugriff beantragt? Als nächstes müssen Sie sich ein EHW+ Nutzerkonto erstellen.",
   "watersupplierAccessRequestQ3": "Sie haben bereits Zugriff beantragt und haben Ihren QR-Code erhalten?",
   "watersupplierAccessRequestQ4": "Sie möchten Zählerwarnungen bekommen, um z.B. im Fall eines Rohrbruchs oder einer nachlaufenden WC-Spülung reagieren zu können?",

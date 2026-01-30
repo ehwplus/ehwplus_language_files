@@ -3323,7 +3323,8 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Ihr Wasserversorger ist uns leider noch nicht bekannt. Schreiben Sie uns gerne an. Anbieter, die nur Strom und Gas anbieten, erscheinen hier nicht.';
 
   @override
-  String get watersupplierAccessRequestQ1 => '';
+  String get watersupplierAccessRequestQ1 =>
+      'Sie sind Eigentümer einer Immobilie im Einzugsgebiet des Wasserversorgers und möchten Zugang zu Funkzählerständen haben?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
