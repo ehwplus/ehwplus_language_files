@@ -418,10 +418,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get consumption => 'Tarbib';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Tarbimise vahemälu';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Vahemälu kustutati edukalt';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'kirjed';
+  String get consumptionCacheDebugViewClear => 'Kustuta';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Kustuta vahemälu';
@@ -431,14 +432,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Kas olete kindel, et soovite kustutada selle objekti kogu tarbimise vahemälu? Kõik salvestatud tarbimisandmed kustutatakse.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Kustuta';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Vahemälu kustutati edukalt';
+  String get consumptionCacheDebugViewEntries => 'kirjed';
 
   @override
   String get consumptionCacheDebugViewError => 'Viga';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Tarbimise vahemälu';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1503,6 +1503,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return '$month lõpp';
+  }
+
+  @override
   String get myObjects => 'Minu objektid';
 
   @override
@@ -2145,9 +2150,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Keel';
 
   @override
-  String get startOfTheWeek => 'Nädalavahetus';
-
-  @override
   String get settingLivingArea => 'Elamispind';
 
   @override
@@ -2359,6 +2361,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Allikas: ';
+
+  @override
+  String get startOfTheWeek => 'Nädalavahetus';
 
   @override
   String get stove => 'Pliit';
@@ -3209,6 +3214,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Kontrolli oma virtuaalarvesti sätteid. Midagi ei saa arvutada.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Soe vesi';
 
   @override
@@ -3297,6 +3305,17 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Veevarustaja';
+
+  @override
+  String get waterSupplierHint =>
+      'Teie kohalik veevarustaja, nt Stadtwerke Musterstadt.';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Kahjuks ei tea me veel teie veevarustajat. Palun kirjutage meile julgelt. Tarnijad, kes pakuvad ainult elektrit ja gaasi, ei ole siin kirjas.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3408,9 +3427,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Lõpeta raadionarvesti kasutus';
 
   @override
-  String get watersupplierYourSupplier => 'Veevarustaja';
-
-  @override
   String get yearlyConsumption => 'Seni aastane tarbimine';
 
   @override
@@ -3438,20 +3454,4 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Kehtiv postiindeks koosneb ainult numbritest';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return '$month lõpp';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Kahjuks ei tea me veel teie veevarustajat. Palun kirjutage meile julgelt. Tarnijad, kes pakuvad ainult elektrit ja gaasi, ei ole siin kirjas.';
-
-  @override
-  String get waterSupplierHint =>
-      'Teie kohalik veevarustaja, nt Stadtwerke Musterstadt.';
 }

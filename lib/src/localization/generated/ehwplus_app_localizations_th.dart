@@ -420,10 +420,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get consumption => 'การบริโภค';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'แคชการใช้งาน';
+  String get consumptionCacheDebugViewCacheCleared => 'ล้างแคชเรียบร้อยแล้ว';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'รายการ';
+  String get consumptionCacheDebugViewClear => 'ล้าง';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'ล้างแคช';
@@ -433,13 +433,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'คุณแน่ใจหรือไม่ว่าต้องการล้างแคชการใช้งานทั้งหมดสำหรับออบเจกต์นี้ ข้อมูลการใช้งานที่บันทึกไว้ทั้งหมดจะถูกลบออก';
 
   @override
-  String get consumptionCacheDebugViewClear => 'ล้าง';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'ล้างแคชเรียบร้อยแล้ว';
+  String get consumptionCacheDebugViewEntries => 'รายการ';
 
   @override
   String get consumptionCacheDebugViewError => 'ข้อผิดพลาด';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'แคชการใช้งาน';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1494,6 +1494,11 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'สิ้นสุด $month';
+  }
+
+  @override
   String get myObjects => 'วัตถุของฉัน';
 
   @override
@@ -2132,9 +2137,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'ภาษา';
 
   @override
-  String get startOfTheWeek => 'วันเริ่มต้นสัปดาห์';
-
-  @override
   String get settingLivingArea => 'พื้นที่นั่งเล่น';
 
   @override
@@ -2346,6 +2348,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get source => 'แหล่งที่มา:';
+
+  @override
+  String get startOfTheWeek => 'วันเริ่มต้นสัปดาห์';
 
   @override
   String get stove => 'เตา';
@@ -3198,6 +3203,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'โปรดตรวจสอบการตั้งค่ามิเตอร์เสมือนของคุณ ไม่มีอะไรสามารถคำนวณได้';
 
   @override
+  String get wallbox => 'วอลล์บ็อกซ์';
+
+  @override
   String get warmWater => 'น้ำอุ่น';
 
   @override
@@ -3286,6 +3294,17 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'ผู้จัดหาน้ำ';
+
+  @override
+  String get waterSupplierHint =>
+      'ผู้จัดหาน้ำประปาท้องถิ่นของคุณ เช่น การประปาเทศบาลเมืองม็อคทาวน์';
+
+  @override
+  String get waterSupplierUnknown =>
+      'ขออภัย ขณะนี้เรายังไม่ทราบผู้ให้บริการน้ำประปาของคุณ กรุณาเขียนถึงเราได้เลย ผู้ให้บริการที่เสนอเฉพาะไฟฟ้าและแก๊สจะไม่ปรากฏที่นี่';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3392,9 +3411,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'ยุติการเข้าถึงมิเตอร์วิทยุ';
 
   @override
-  String get watersupplierYourSupplier => 'ผู้จัดหาน้ำ';
-
-  @override
   String get yearlyConsumption => 'การบริโภคประจำปีจนถึงปัจจุบัน';
 
   @override
@@ -3422,20 +3438,4 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น';
-
-  @override
-  String get wallbox => 'วอลล์บ็อกซ์';
-
-  @override
-  String monthEnd(Object month) {
-    return 'สิ้นสุด $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'ขออภัย ขณะนี้เรายังไม่ทราบผู้ให้บริการน้ำประปาของคุณ กรุณาเขียนถึงเราได้เลย ผู้ให้บริการที่เสนอเฉพาะไฟฟ้าและแก๊สจะไม่ปรากฏที่นี่';
-
-  @override
-  String get waterSupplierHint =>
-      'ผู้จัดหาน้ำประปาท้องถิ่นของคุณ เช่น การประปาเทศบาลเมืองม็อคทาวน์';
 }

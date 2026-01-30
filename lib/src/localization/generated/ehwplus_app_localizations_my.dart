@@ -422,10 +422,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consumption => 'ကုန်စေခြင်း';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'စားသုံးမှု cache';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'ထည့်သွင်းမှုများ';
+  String get consumptionCacheDebugViewClear => 'ရှင်းလင်းပါ';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'cache ရှင်းလင်းပါ';
@@ -435,14 +436,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ဤအရာအတွက် စားသုံးမှု cache အားလုံးကို ရှင်းလင်းလိုသည်မှာ သေချာပါသလား။ သိမ်းဆည်းထားသော စားသုံးမှု အချက်အလက် အားလုံးကို ဖျက်မည်။';
 
   @override
-  String get consumptionCacheDebugViewClear => 'ရှင်းလင်းပါ';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
+  String get consumptionCacheDebugViewEntries => 'ထည့်သွင်းမှုများ';
 
   @override
   String get consumptionCacheDebugViewError => 'အမှားအယွင်း';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'စားသုံးမှု cache';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1515,6 +1515,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return '$month ၏ အဆုံး';
+  }
+
+  @override
   String get myObjects => 'ငါ့အရာဝတ်ထု';
 
   @override
@@ -2150,9 +2155,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'ဘာသာစကား';
 
   @override
-  String get startOfTheWeek => 'တစ်ပတ်၏အစ';
-
-  @override
   String get settingLivingArea => 'နေထိုင်ရန်ရိယာ';
 
   @override
@@ -2365,6 +2367,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get source => 'ရင်းမြစ်:';
+
+  @override
+  String get startOfTheWeek => 'တစ်ပတ်၏အစ';
 
   @override
   String get stove => 'မီးဖို';
@@ -3226,6 +3231,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ကျေးဇူးပြု. သင်၏ virtual မီတာ၏ချိန်ညှိချက်များကိုစစ်ဆေးပါ။ အဘယ်အရာကိုမျှတွက်ချက်နိုင်ပါသည်။';
 
   @override
+  String get wallbox => 'နံရံအားသွင်းကိရိယာ';
+
+  @override
   String get warmWater => 'ပူရေ';
 
   @override
@@ -3314,6 +3322,17 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'ရေပေးသွင်းသူ';
+
+  @override
+  String get waterSupplierHint =>
+      'သင့်ဒေသခံ ရေပေးဝေသူ၊ ဥပမာ Mock Town မြို့နယ် ရေပေးဝေမှုဌာန';
+
+  @override
+  String get waterSupplierUnknown =>
+      'မကံဆိုးစွာဖြင့် ကျွန်ုပ်တို့သည် သင့်ရေပေးသွင်းသူကို မသိသေးပါ။ ကျေးဇူးပြု၍ ကျွန်ုပ်တို့ထံ စာရေးရန် လွတ်လပ်စွာ ဆက်သွယ်နိုင်ပါသည်။ လျှပ်စစ်နှင့် ဓာတ်ငွေ့သာ ပေးသွင်းသည့် ပံ့ပိုးပေးသူများသည် ဤနေရာတွင် မပါဝင်ပါ။';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3423,9 +3442,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ';
 
   @override
-  String get watersupplierYourSupplier => 'ရေပေးသွင်းသူ';
-
-  @override
   String get yearlyConsumption => 'ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု';
 
   @override
@@ -3453,20 +3469,4 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
-
-  @override
-  String get wallbox => 'နံရံအားသွင်းကိရိယာ';
-
-  @override
-  String monthEnd(Object month) {
-    return '$month ၏ အဆုံး';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'မကံဆိုးစွာဖြင့် ကျွန်ုပ်တို့သည် သင့်ရေပေးသွင်းသူကို မသိသေးပါ။ ကျေးဇူးပြု၍ ကျွန်ုပ်တို့ထံ စာရေးရန် လွတ်လပ်စွာ ဆက်သွယ်နိုင်ပါသည်။ လျှပ်စစ်နှင့် ဓာတ်ငွေ့သာ ပေးသွင်းသည့် ပံ့ပိုးပေးသူများသည် ဤနေရာတွင် မပါဝင်ပါ။';
-
-  @override
-  String get waterSupplierHint =>
-      'သင့်ဒေသခံ ရေပေးဝေသူ၊ ဥပမာ Mock Town မြို့နယ် ရေပေးဝေမှုဌာန';
 }

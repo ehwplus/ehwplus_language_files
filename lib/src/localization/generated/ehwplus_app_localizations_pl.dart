@@ -420,10 +420,11 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get consumption => 'Konsumpcja';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Pamięć podręczna zużycia';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Pamięć podręczna została pomyślnie wyczyszczona';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'wpisy';
+  String get consumptionCacheDebugViewClear => 'Wyczyść';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Wyczyść pamięć podręczną';
@@ -433,14 +434,13 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Czy na pewno chcesz wyczyścić całą pamięć podręczną zużycia dla tego obiektu? Wszystkie przechowywane dane zużycia zostaną usunięte.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Wyczyść';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Pamięć podręczna została pomyślnie wyczyszczona';
+  String get consumptionCacheDebugViewEntries => 'wpisy';
 
   @override
   String get consumptionCacheDebugViewError => 'Błąd';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Pamięć podręczna zużycia';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1510,6 +1510,11 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Koniec $month';
+  }
+
+  @override
   String get myObjects => 'Moje obiekty';
 
   @override
@@ -2153,9 +2158,6 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Język';
 
   @override
-  String get startOfTheWeek => 'Początek tygodnia';
-
-  @override
   String get settingLivingArea => 'Powierzchnia mieszkalna';
 
   @override
@@ -2369,6 +2371,9 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Źródło:';
+
+  @override
+  String get startOfTheWeek => 'Początek tygodnia';
 
   @override
   String get stove => 'Kuchenka';
@@ -3226,6 +3231,9 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Proszę sprawdzić ustawienia swojego wirtualnego licznika. Nic nie da się obliczyć.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Ciepła woda';
 
   @override
@@ -3314,6 +3322,17 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Dostawca wody';
+
+  @override
+  String get waterSupplierHint =>
+      'Lokalny dostawca wody, np. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Niestety nie znamy jeszcze Twojego dostawcy wody. Napisz do nas. Dostawcy, którzy oferują tylko energię elektryczną i gaz, nie pojawiają się tutaj.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3426,9 +3445,6 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Zakończ dostęp do licznika radiowego';
 
   @override
-  String get watersupplierYourSupplier => 'Dostawca wody';
-
-  @override
   String get yearlyConsumption => 'Dotychczasowe roczne zużycie';
 
   @override
@@ -3456,20 +3472,4 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Prawidłowy kod pocztowy składa się wyłącznie z cyfr';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Koniec $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Niestety nie znamy jeszcze Twojego dostawcy wody. Napisz do nas. Dostawcy, którzy oferują tylko energię elektryczną i gaz, nie pojawiają się tutaj.';
-
-  @override
-  String get waterSupplierHint =>
-      'Lokalny dostawca wody, np. Stadtwerke Musterstadt';
 }

@@ -407,10 +407,10 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get consumption => '消費';
 
   @override
-  String get consumptionCacheDebugViewTitle => '消費量キャッシュ';
+  String get consumptionCacheDebugViewCacheCleared => 'キャッシュが正常にクリアされました';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'エントリ';
+  String get consumptionCacheDebugViewClear => 'クリア';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'キャッシュをクリア';
@@ -420,13 +420,13 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
       'このオブジェクトのすべての消費キャッシュをクリアしてもよろしいですか?保存されたすべての消費データが削除されます。';
 
   @override
-  String get consumptionCacheDebugViewClear => 'クリア';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'キャッシュが正常にクリアされました';
+  String get consumptionCacheDebugViewEntries => 'エントリ';
 
   @override
   String get consumptionCacheDebugViewError => 'エラー';
+
+  @override
+  String get consumptionCacheDebugViewTitle => '消費量キャッシュ';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1463,6 +1463,11 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return '$monthの終わり';
+  }
+
+  @override
   String get myObjects => '私のオブジェクト';
 
   @override
@@ -2089,9 +2094,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get settingLanguageMode => '言語';
 
   @override
-  String get startOfTheWeek => '週の開始';
-
-  @override
   String get settingLivingArea => 'リビングエリア';
 
   @override
@@ -2299,6 +2301,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get source => 'ソース：';
+
+  @override
+  String get startOfTheWeek => '週の開始';
 
   @override
   String get stove => 'レンジ';
@@ -3124,6 +3129,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get virtualCounterNotConfigured => '仮想メーターの設定を確認してください。何も計算できません。';
 
   @override
+  String get wallbox => 'ウォールボックス';
+
+  @override
   String get warmWater => '温水';
 
   @override
@@ -3209,6 +3217,16 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => '水サプライヤー';
+
+  @override
+  String get waterSupplierHint => '地元の水道業者（例：Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      '残念ながら、私たちはまだあなたの水供給会社を知りません。お気軽にお問い合わせください。電気とガスのみの供給業者は、ここには表示されません。';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3313,9 +3331,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '無線メーターへのアクセスを終了する';
 
   @override
-  String get watersupplierYourSupplier => '水サプライヤー';
-
-  @override
   String get yearlyConsumption => 'これまでの年間消費量';
 
   @override
@@ -3342,19 +3357,4 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
-
-  @override
-  String get wallbox => 'ウォールボックス';
-
-  @override
-  String monthEnd(Object month) {
-    return '$monthの終わり';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      '残念ながら、私たちはまだあなたの水供給会社を知りません。お気軽にお問い合わせください。電気とガスのみの供給業者は、ここには表示されません。';
-
-  @override
-  String get waterSupplierHint => '地元の水道業者（例：Stadtwerke Musterstadt';
 }

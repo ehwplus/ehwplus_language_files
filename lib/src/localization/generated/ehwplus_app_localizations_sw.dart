@@ -420,10 +420,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consumption => 'Matumizi';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Hifadhi ya matumizi';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache ilisafishwa kwa mafanikio';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'maingizo';
+  String get consumptionCacheDebugViewClear => 'Futa';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Futa cache';
@@ -433,14 +434,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Je, una uhakika kwamba unataka kufuta hifadhi yote ya matumizi kwa kitu hiki? Data yote iliyohifadhiwa ya matumizi itaondolewa.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Futa';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache ilisafishwa kwa mafanikio';
+  String get consumptionCacheDebugViewEntries => 'maingizo';
 
   @override
   String get consumptionCacheDebugViewError => 'Kosa';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Hifadhi ya matumizi';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1503,6 +1503,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Mwisho wa $month';
+  }
+
+  @override
   String get myObjects => 'Vitu vyangu';
 
   @override
@@ -2144,9 +2149,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Lugha';
 
   @override
-  String get startOfTheWeek => 'Mwanzo wa wiki';
-
-  @override
   String get settingLivingArea => 'Eneo la kuishi';
 
   @override
@@ -2359,6 +2361,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Chanzo:';
+
+  @override
+  String get startOfTheWeek => 'Mwanzo wa wiki';
 
   @override
   String get stove => 'Jiko';
@@ -3220,6 +3225,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Tafadhali angalia mipangilio ya mita yako ya kawaida. Hakuna kinachoweza kuhesabiwa.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Maji ya joto';
 
   @override
@@ -3304,6 +3312,17 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Mtoa maji';
+
+  @override
+  String get waterSupplierHint =>
+      'Mtoa maji wako wa eneo, k.m. Huduma za Manispaa za Mock Town';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Kwa bahati mbaya, bado hatujui msambazaji wako wa maji. Tafadhali jisikie huru kutuandikia. Watoa huduma wanaotoa umeme na gesi pekee hawapo hapa.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3414,9 +3433,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Kusitisha ufikiaji wa mita ya redio';
 
   @override
-  String get watersupplierYourSupplier => 'Mtoa maji';
-
-  @override
   String get yearlyConsumption => 'Matumizi ya kila mwaka hadi sasa';
 
   @override
@@ -3444,20 +3460,4 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Nambari halali ya zip ina nambari tu';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Mwisho wa $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Kwa bahati mbaya, bado hatujui msambazaji wako wa maji. Tafadhali jisikie huru kutuandikia. Watoa huduma wanaotoa umeme na gesi pekee hawapo hapa.';
-
-  @override
-  String get waterSupplierHint =>
-      'Mtoa maji wako wa eneo, k.m. Huduma za Manispaa za Mock Town';
 }

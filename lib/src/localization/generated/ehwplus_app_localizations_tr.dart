@@ -421,10 +421,11 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get consumption => 'Tüketim';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Tüketim Önbelleği';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Önbellek başarıyla temizlendi';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'girişler';
+  String get consumptionCacheDebugViewClear => 'Temizle';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Önbelleği temizle';
@@ -434,14 +435,13 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Bu nesne için tüm tüketim önbelleğini temizlemek istediğinizden emin misiniz? Tüm depolanan tüketim verileri kaldırılacaktır.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Temizle';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Önbellek başarıyla temizlendi';
+  String get consumptionCacheDebugViewEntries => 'girişler';
 
   @override
   String get consumptionCacheDebugViewError => 'Hata';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Tüketim Önbelleği';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1509,6 +1509,11 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Ay $month';
+  }
+
+  @override
   String get myObjects => 'Nesnelerim';
 
   @override
@@ -2152,9 +2157,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Dil';
 
   @override
-  String get startOfTheWeek => 'Haftanın başlangıcı';
-
-  @override
   String get settingLivingArea => 'Yaşam alanı';
 
   @override
@@ -2367,6 +2369,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Kaynak:';
+
+  @override
+  String get startOfTheWeek => 'Haftanın başlangıcı';
 
   @override
   String get stove => 'Soba';
@@ -3223,6 +3228,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Lütfen sanal ölçüm cihazınızın ayarlarını kontrol edin. Hiçbir şey hesaplanamaz.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Sıcak su';
 
   @override
@@ -3311,6 +3319,17 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Su tedarikçisi';
+
+  @override
+  String get waterSupplierHint =>
+      'Yerel su tedarikçiniz, örneğin Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Ne yazık ki su tedarikçinizi henüz bilmiyoruz. Lütfen bize yazmaktan çekinmeyin. Sadece elektrik ve gaz sunan tedarikçiler burada görünmemektedir.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3421,9 +3440,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Radyo Ölçer Erişimini Sonlandır';
 
   @override
-  String get watersupplierYourSupplier => 'Su tedarikçisi';
-
-  @override
   String get yearlyConsumption => 'Şu ana kadar yıllık tüketim';
 
   @override
@@ -3451,20 +3467,4 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Geçerli bir posta kodu yalnızca sayılardan oluşur';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Ay $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Ne yazık ki su tedarikçinizi henüz bilmiyoruz. Lütfen bize yazmaktan çekinmeyin. Sadece elektrik ve gaz sunan tedarikçiler burada görünmemektedir.';
-
-  @override
-  String get waterSupplierHint =>
-      'Yerel su tedarikçiniz, örneğin Stadtwerke Musterstadt';
 }

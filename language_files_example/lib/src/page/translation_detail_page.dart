@@ -27,12 +27,16 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   late final List<String> _locales;
   late final Map<String, String> _initialValues;
   late final TextEditingController _apiKeyController;
+  late String _currentKey;
 
   bool _saving = false;
+  bool _renaming = false;
   String? _error;
   bool _clearOtherLocales = true;
   final Set<String> _translatingLocales = {};
   bool _translatingAll = false;
+  bool _deleting = false;
+  bool _didMutate = false;
 
   @override
   void initState() {
@@ -41,6 +45,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     _locales = _orderedLocales(locales);
     _initialValues = Map<String, String>.from(widget.record.values);
     _apiKeyController = TextEditingController(text: _initialApiKey());
+    _currentKey = widget.record.key;
 
     for (final locale in _locales) {
       _controllers[locale] = TextEditingController(text: widget.record.values[locale] ?? '');
@@ -94,7 +99,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       }
 
       if (changedLocales.isEmpty) {
-        if (mounted) Navigator.of(context).pop(false);
+        if (mounted) Navigator.of(context).pop(_didMutate);
         return;
       }
 
@@ -108,16 +113,16 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
           final shouldClear = _clearOtherLocales && !changedLocales.contains(doc.locale);
           final targetValue = shouldClear ? '' : newValue;
 
-          final existing = updatedEntries[widget.record.key];
-          updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: targetValue))
+          final existing = updatedEntries[_currentKey];
+          updatedEntries[_currentKey] = (existing ?? ArbEntry(key: _currentKey, value: targetValue))
               .copyWith(value: targetValue);
         } else {
           if (isChanged) {
             if (newValue.trim().isEmpty) {
-              updatedEntries.remove(widget.record.key);
+              updatedEntries.remove(_currentKey);
             } else {
-              final existing = updatedEntries[widget.record.key];
-              updatedEntries[widget.record.key] = (existing ?? ArbEntry(key: widget.record.key, value: newValue))
+              final existing = updatedEntries[_currentKey];
+              updatedEntries[_currentKey] = (existing ?? ArbEntry(key: _currentKey, value: newValue))
                   .copyWith(value: newValue);
             }
           }
@@ -127,6 +132,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         await widget.repository.saveDocument(updatedDoc);
       }
 
+      await _regenerateLocalizations();
       if (mounted) {
         Navigator.of(context).pop(true);
       }
@@ -138,6 +144,64 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       if (mounted) {
         setState(() {
           _saving = false;
+        });
+      }
+    }
+  }
+
+  Future<void> _deleteKey() async {
+    if (_saving || _deleting || _translatingAll || _renaming) return;
+
+    final confirm = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Key löschen?'),
+        content: Text('Soll der Key "$_currentKey" aus allen ARB-Dateien entfernt werden?'),
+        actions: [
+          TextButton(onPressed: () => Navigator.of(context).pop(false), child: const Text('Abbrechen')),
+          FilledButton.icon(
+            onPressed: () => Navigator.of(context).pop(true),
+            icon: const Icon(Icons.delete),
+            label: const Text('Löschen'),
+          ),
+        ],
+      ),
+    );
+
+    if (confirm != true) return;
+
+    setState(() {
+      _deleting = true;
+      _error = null;
+    });
+
+    try {
+      var removed = false;
+      for (final doc in widget.documents) {
+        if (!doc.entries.containsKey(_currentKey)) continue;
+        final updatedEntries = Map<String, ArbEntry>.from(doc.entries)..remove(_currentKey);
+        final updatedDoc = doc.copyWith(entries: updatedEntries);
+        await widget.repository.saveDocument(updatedDoc);
+        removed = true;
+      }
+
+      if (removed) {
+        await _regenerateLocalizations();
+      }
+
+      if (mounted) {
+        Navigator.of(context).pop(true);
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() {
+          _error = e.toString();
+        });
+      }
+    } finally {
+      if (mounted) {
+        setState(() {
+          _deleting = false;
         });
       }
     }
@@ -280,6 +344,106 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(message)));
   }
 
+  Future<void> _renameKey() async {
+    if (_saving || _deleting || _translatingAll || _renaming) return;
+
+    final controller = TextEditingController(text: _currentKey);
+    String? errorText;
+
+    final newKey = await showDialog<String>(
+      context: context,
+      builder: (context) => StatefulBuilder(
+        builder: (context, setState) {
+          return AlertDialog(
+            title: const Text('Key bearbeiten'),
+            content: TextField(
+              controller: controller,
+              decoration: InputDecoration(
+                labelText: 'Key',
+                errorText: errorText,
+              ),
+            ),
+            actions: [
+              TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
+              FilledButton.icon(
+                onPressed: () {
+                  final value = controller.text.trim();
+                  if (value.isEmpty) {
+                    setState(() => errorText = 'Key darf nicht leer sein.');
+                    return;
+                  }
+                  if (value == _currentKey) {
+                    Navigator.of(context).pop();
+                    return;
+                  }
+                  final exists = widget.documents.any((doc) => doc.entries.containsKey(value));
+                  if (exists) {
+                    setState(() => errorText = 'Key existiert bereits.');
+                    return;
+                  }
+                  Navigator.of(context).pop(value);
+                },
+                icon: const Icon(Icons.save),
+                label: const Text('Speichern'),
+              ),
+            ],
+          );
+        },
+      ),
+    );
+
+    controller.dispose();
+
+    if (newKey == null || newKey == _currentKey) return;
+
+    setState(() {
+      _renaming = true;
+      _error = null;
+    });
+
+    try {
+      for (final doc in widget.documents) {
+        final existing = doc.entries[_currentKey];
+        if (existing == null) continue;
+        final updatedEntries = Map<String, ArbEntry>.from(doc.entries)
+          ..remove(_currentKey)
+          ..[newKey] = ArbEntry(key: newKey, value: existing.value, metadata: existing.metadata);
+        await widget.repository.saveDocument(doc.copyWith(entries: updatedEntries));
+      }
+
+      await _regenerateLocalizations();
+      if (mounted) {
+        setState(() {
+          _currentKey = newKey;
+          _didMutate = true;
+        });
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() => _error = e.toString());
+      }
+    } finally {
+      if (mounted) {
+        setState(() {
+          _renaming = false;
+        });
+      }
+    }
+  }
+
+  Future<void> _regenerateLocalizations() async {
+    try {
+      final ran = await widget.repository.regenerateDartFiles();
+      if (ran && mounted) {
+        _showSnack('Dart-Dateien wurden neu generiert.');
+      }
+    } catch (e) {
+      if (mounted) {
+        _showSnack('Regenerierung fehlgeschlagen: $e');
+      }
+    }
+  }
+
   Widget _buildApiKeyChip() {
     final hasKey = _apiKeyController.text.trim().isNotEmpty;
     return InputChip(
@@ -334,54 +498,68 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.record.key),
-        actions: [
-          _buildApiKeyChip(),
-          Row(
-            children: [
-              Switch(value: _clearOtherLocales, onChanged: (value) => setState(() => _clearOtherLocales = value)),
-              Text('Bei Änderung\nandere Werte löschen', style: Theme.of(context).textTheme.labelMedium),
-            ],
-          ),
-          TextButton.icon(
-            onPressed: _saving || _translatingAll ? null : _translateAll,
-            icon: _translatingAll
-                ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
-                : const Icon(Icons.translate),
-            label: const Text('Alle übersetzen'),
-          ),
-          TextButton.icon(
-            onPressed: _saving ? null : _save,
-            icon: _saving
-                ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
-                : const Icon(Icons.save),
-            label: const Text('Speichern'),
-          ),
-        ],
-      ),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: [
-          if (_error != null) ...[Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error))],
-          ..._locales.map(
-            (locale) => Padding(
-              padding: const EdgeInsets.only(bottom: 16),
-              child: TextField(
-                controller: _controllers[locale],
-                maxLines: null,
-                decoration: InputDecoration(
-                  labelText: 'Text für $locale',
-                  alignLabelWithHint: true,
-                  border: const OutlineInputBorder(),
-                  prefixIcon: _buildLocaleIcon(locale),
-                  suffixIcon: _buildTranslateAction(locale),
+    return WillPopScope(
+      onWillPop: () async {
+        if (!_didMutate) return true;
+        Navigator.of(context).pop(true);
+        return false;
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          title: _buildEditableTitle(),
+          actions: [
+            _buildApiKeyChip(),
+            Row(
+              children: [
+                Switch(value: _clearOtherLocales, onChanged: (value) => setState(() => _clearOtherLocales = value)),
+                Text('Bei Änderung\nandere Werte löschen', style: Theme.of(context).textTheme.labelMedium),
+              ],
+            ),
+            IconButton(
+              tooltip: 'Key löschen',
+              onPressed: _saving || _deleting || _translatingAll || _renaming ? null : _deleteKey,
+              icon: _deleting
+                  ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
+                  : const Icon(Icons.delete),
+            ),
+            TextButton.icon(
+              onPressed: _saving || _translatingAll || _renaming ? null : _translateAll,
+              icon: _translatingAll
+                  ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
+                  : const Icon(Icons.translate),
+              label: const Text('Alle übersetzen'),
+            ),
+            TextButton.icon(
+              onPressed: _saving || _renaming ? null : _save,
+              icon: _saving
+                  ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
+                  : const Icon(Icons.save),
+              label: const Text('Speichern'),
+            ),
+          ],
+        ),
+        body: ListView(
+          padding: const EdgeInsets.all(16),
+          children: [
+            if (_error != null) ...[Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error))],
+            ..._locales.map(
+              (locale) => Padding(
+                padding: const EdgeInsets.only(bottom: 16),
+                child: TextField(
+                  controller: _controllers[locale],
+                  maxLines: null,
+                  decoration: InputDecoration(
+                    labelText: 'Text für ${_localeLabel(locale)}',
+                    alignLabelWithHint: true,
+                    border: const OutlineInputBorder(),
+                    prefixIcon: _buildLocaleIcon(locale),
+                    suffixIcon: _buildTranslateAction(locale),
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -395,7 +573,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     }
 
     return IconButton(
-      tooltip: 'Mit DeepL nach $locale übersetzen',
+      tooltip: 'Mit DeepL nach ${_localeLabel(locale)} übersetzen',
       icon: const Icon(Icons.translate),
       onPressed: _saving || _translatingAll ? null : () => _translateLocale(locale),
     );
@@ -416,5 +594,41 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     } catch (_) {
       return null;
     }
+  }
+
+  String _localeLabel(String locale) {
+    final type = _iconForLocale(locale);
+    if (type == null) return locale;
+    return '${type.isoName} (${type.fileName})';
+  }
+
+  Widget _buildEditableTitle() {
+    final theme = Theme.of(context);
+    return InkWell(
+      borderRadius: BorderRadius.circular(4),
+      onTap: _saving || _deleting || _translatingAll || _renaming ? null : _renameKey,
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Flexible(
+            child: Text(
+              _currentKey,
+              overflow: TextOverflow.ellipsis,
+              style: theme.textTheme.titleLarge,
+            ),
+          ),
+          const SizedBox(width: 6),
+          Icon(
+            Icons.edit,
+            size: 18,
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+          if (_renaming) ...[
+            const SizedBox(width: 8),
+            const SizedBox(width: 14, height: 14, child: CircularProgressIndicator(strokeWidth: 2)),
+          ],
+        ],
+      ),
+    );
   }
 }

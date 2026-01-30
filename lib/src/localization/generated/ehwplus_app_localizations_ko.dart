@@ -405,10 +405,10 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get consumption => '소비';
 
   @override
-  String get consumptionCacheDebugViewTitle => '소비 캐시';
+  String get consumptionCacheDebugViewCacheCleared => '캐시가 성공적으로 지워졌습니다';
 
   @override
-  String get consumptionCacheDebugViewEntries => '항목';
+  String get consumptionCacheDebugViewClear => '지우기';
 
   @override
   String get consumptionCacheDebugViewClearCache => '캐시 지우기';
@@ -418,13 +418,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
       '이 개체에 대한 모든 소비 캐시를 지우시겠습니까? 저장된 모든 소비 데이터가 제거됩니다.';
 
   @override
-  String get consumptionCacheDebugViewClear => '지우기';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => '캐시가 성공적으로 지워졌습니다';
+  String get consumptionCacheDebugViewEntries => '항목';
 
   @override
   String get consumptionCacheDebugViewError => '오류';
+
+  @override
+  String get consumptionCacheDebugViewTitle => '소비 캐시';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1461,6 +1461,11 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return '$month 끝';
+  }
+
+  @override
   String get myObjects => '내 객체';
 
   @override
@@ -2088,9 +2093,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get settingLanguageMode => '언어';
 
   @override
-  String get startOfTheWeek => '주의 시작';
-
-  @override
   String get settingLivingArea => '거주 면적';
 
   @override
@@ -2297,6 +2299,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get source => '출처: ';
+
+  @override
+  String get startOfTheWeek => '주의 시작';
 
   @override
   String get stove => '난로';
@@ -3120,6 +3125,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
       '가상 계량기 설정을 확인하세요. 현재는 아무것도 계산할 수 없습니다.';
 
   @override
+  String get wallbox => '월박스';
+
+  @override
   String get warmWater => '온수';
 
   @override
@@ -3204,6 +3212,16 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => '물 공급업체';
+
+  @override
+  String get waterSupplierHint => '현지 수도 공급업체(예: Stadtwerke Musterstadt)';
+
+  @override
+  String get waterSupplierUnknown =>
+      '안타깝게도 아직 고객님의 물 공급업체를 알지 못합니다. 언제든지 문의해 주세요. 전기와 가스만 제공하는 공급업체는 여기에 표시되지 않습니다.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3308,9 +3326,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '무선 계량기 접근 종료';
 
   @override
-  String get watersupplierYourSupplier => '물 공급업체';
-
-  @override
   String get yearlyConsumption => '현재까지 연간 소비량';
 
   @override
@@ -3337,19 +3352,4 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '유효한 우편번호는 숫자로만 구성됩니다';
-
-  @override
-  String get wallbox => '월박스';
-
-  @override
-  String monthEnd(Object month) {
-    return '$month 끝';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      '안타깝게도 아직 고객님의 물 공급업체를 알지 못합니다. 언제든지 문의해 주세요. 전기와 가스만 제공하는 공급업체는 여기에 표시되지 않습니다.';
-
-  @override
-  String get waterSupplierHint => '현지 수도 공급업체(예: Stadtwerke Musterstadt)';
 }

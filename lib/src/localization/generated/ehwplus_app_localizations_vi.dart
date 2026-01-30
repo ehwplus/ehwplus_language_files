@@ -420,10 +420,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get consumption => 'Sự tiêu thụ';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Bộ nhớ cache tiêu thụ';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Bộ nhớ cache đã được xóa thành công';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'mục';
+  String get consumptionCacheDebugViewClear => 'Xóa';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Xóa bộ nhớ cache';
@@ -433,14 +434,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Bạn có chắc chắn muốn xóa tất cả bộ nhớ cache tiêu thụ cho đối tượng này không? Tất cả dữ liệu tiêu thụ được lưu trữ sẽ bị xóa.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Xóa';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Bộ nhớ cache đã được xóa thành công';
+  String get consumptionCacheDebugViewEntries => 'mục';
 
   @override
   String get consumptionCacheDebugViewError => 'Lỗi';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Bộ nhớ cache tiêu thụ';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1502,6 +1502,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Cuối tháng $month';
+  }
+
+  @override
   String get myObjects => 'Đồ vật của tôi';
 
   @override
@@ -2143,9 +2148,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Ngôn ngữ';
 
   @override
-  String get startOfTheWeek => 'Ngày bắt đầu của tuần';
-
-  @override
   String get settingLivingArea => 'Khu sinh hoạt';
 
   @override
@@ -2357,6 +2359,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Nguồn:';
+
+  @override
+  String get startOfTheWeek => 'Ngày bắt đầu của tuần';
 
   @override
   String get stove => 'Cái lò';
@@ -3216,6 +3221,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Vui lòng kiểm tra cài đặt của đồng hồ ảo của bạn. Không có gì có thể được tính toán.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Nước ấm';
 
   @override
@@ -3304,6 +3312,17 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Nhà cung cấp nước';
+
+  @override
+  String get waterSupplierHint =>
+      'Nhà cung cấp nước gần nhất của bạn, ví dụ: Công ty dịch vụ công cộng Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Chúng tôi chưa biết nhà cung cấp nước của bạn. Vui lòng gửi thư cho chúng tôi. Các nhà cung cấp chỉ cung cấp điện và gas sẽ không xuất hiện ở đây.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3414,9 +3433,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Chấm dứt quyền truy cập vào máy đo sóng vô tuyến';
 
   @override
-  String get watersupplierYourSupplier => 'Nhà cung cấp nước';
-
-  @override
   String get yearlyConsumption => 'Tiêu thụ hàng năm cho đến nay';
 
   @override
@@ -3443,20 +3459,4 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Mã zip hợp lệ chỉ bao gồm các số';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Cuối tháng $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Chúng tôi chưa biết nhà cung cấp nước của bạn. Vui lòng gửi thư cho chúng tôi. Các nhà cung cấp chỉ cung cấp điện và gas sẽ không xuất hiện ở đây.';
-
-  @override
-  String get waterSupplierHint =>
-      'Nhà cung cấp nước gần nhất của bạn, ví dụ: Công ty dịch vụ công cộng Musterstadt';
 }

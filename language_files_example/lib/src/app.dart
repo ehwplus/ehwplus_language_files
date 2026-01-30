@@ -199,6 +199,18 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
 
     try {
       await _repository.saveDocument(target.copyWith(entries: updatedEntries));
+      try {
+        final ran = await _repository.regenerateDartFiles();
+        if (ran && mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Dart-Dateien wurden neu generiert.')),
+          );
+        }
+      } catch (e) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Regenerierung fehlgeschlagen: $e')));
+        }
+      }
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Key ${result.key} wurde hinzugefügt.')));
         await _loadData();

@@ -155,13 +155,13 @@
   "consent7ContractPricesPerUnit": "In order to be able to estimate how much you are currently paying compared to other EHW+ users, the prices are transferred to the EHW+ server in Germany together with the country and state. Only if you agree to the transfer, you have access to the price statistics. To ensure anonymity, statistics can only be shown after a minimum number of transmitted prices.",
   "consentTitle": "Privacy Settings",
   "consumption": "Consumption",
-  "consumptionCacheDebugViewTitle": "Verbrauchscache",
-  "consumptionCacheDebugViewEntries": "Einträge",
+  "consumptionCacheDebugViewCacheCleared": "Cache erfolgreich geleert",
+  "consumptionCacheDebugViewClear": "Löschen",
   "consumptionCacheDebugViewClearCache": "Cache leeren",
   "consumptionCacheDebugViewClearCacheConfirmation": "Möchtest du wirklich den gesamten Verbrauchscache für dieses Objekt löschen? Alle gespeicherten Verbrauchsdaten werden entfernt.",
-  "consumptionCacheDebugViewClear": "Löschen",
-  "consumptionCacheDebugViewCacheCleared": "Cache erfolgreich geleert",
+  "consumptionCacheDebugViewEntries": "Einträge",
   "consumptionCacheDebugViewError": "Fehler",
+  "consumptionCacheDebugViewTitle": "Verbrauchscache",
   "consumptionCacheManagementClearCacheAndSynchronizeButton": "Clear & sync",
   "consumptionCacheManagementClearCacheButton": "Clear cache",
   "consumptionCacheManagementClearedSuccessfully": "Cache cleared successfully",
@@ -590,6 +590,7 @@
       }
     }
   },
+  "monthEnd": "End of {month}",
   "myObjects": "My objects",
   "net": "net",
   "networkCounter": "Internet & phone",
@@ -944,7 +945,6 @@
   "settingHouseholdSize": "Household size",
   "settingHouseholdSizeDescription": "Number of people in your household.",
   "settingLanguageMode": "Language",
-  "startOfTheWeek": "Start of the week",
   "settingLivingArea": "Living area",
   "settingObjectLocation": "Location",
   "settingObjectLocationExplanation": "Entering the location helps tailor insights and services to your area.",
@@ -1017,6 +1017,7 @@
   "solarThermalCollector": "Solar Thermal Collector",
   "sortActivities": "Modify the order of activities",
   "source": "Source: ",
+  "startOfTheWeek": "Start of the week",
   "stove": "Stove",
   "stromGedachtAgreement": "I agree that my postal code (if provided) will be transmitted to TransnetBW to retrieve StromGedacht notices.",
   "subscribeToSmartMeterInfocodeEvents": "I would like to be notified of unexpected consumption",
@@ -1412,6 +1413,7 @@
   "virtualCounterMetersToBeSubtracted": "Meters to be subtracted",
   "virtualCounterMetersToBeSubtractedDescription": "Which meter readings should be subtracted from the main meter, e.g., \"heat pump meters\", \"electricity feed-in meters\".",
   "virtualCounterNotConfigured": "Please check the settings of your virtual meter. Nothing can be calculated.",
+  "wallbox": "Wallbox",
   "warmWater": "Warm water",
   "warning": "Warning",
   "warningCounterReplacementDetected": "The new value is lower than the previous meter reading. Has the meter been replaced?",
@@ -1488,6 +1490,9 @@
       }
     }
   },
+  "waterSupplier": "Water supplier",
+  "waterSupplierHint": "Your local water supplier, e.g. Stadtwerke Musterstadt",
+  "waterSupplierUnknown": "Unfortunately, we do not yet know your water supplier. Please feel free to contact us. Suppliers who only offer electricity and gas do not appear here.",
   "watersupplierAccessRequestQ1": "Are you the owner of a property in the catchment area of the water supplier and would like to have access to radio meter readings?",
   "watersupplierAccessRequestQ2": "Have you already requested access? Next, you need to create an EHW+ user account.",
   "watersupplierAccessRequestQ3": "Have you already requested access and received your QR code?",
@@ -1516,7 +1521,6 @@
   "watersupplierUnlinkRadioMeterDescription1": "Do you want to delete the radio meter without invalidating the activation code?",
   "watersupplierUnlinkRadioMeterDescription2": "Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.",
   "watersupplierUnlinkRadioMeterTitle": "Terminate Radio Meter Access",
-  "watersupplierYourSupplier": "Water supplier",
   "yearlyConsumption": "Annual consumption so far",
   "yearlyCosts": "Annual consumption costs so far",
   "youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",
@@ -1533,9 +1537,5 @@
       }
     }
   },
-  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
-  "wallbox": "Wallbox",
-  "monthEnd": "End of {month}",
-  "waterSupplierUnknown": "Unfortunately, we do not yet know your water supplier. Please feel free to contact us. Suppliers who only offer electricity and gas do not appear here.",
-  "waterSupplierHint": "Your local water supplier, e.g. Stadtwerke Musterstadt"
+  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers"
 }

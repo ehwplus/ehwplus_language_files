@@ -416,10 +416,11 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get consumption => 'الاستهلاك';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'ذاكرة الاستهلاك المؤقتة';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'تم مسح الذاكرة المؤقتة بنجاح';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'إدخالات';
+  String get consumptionCacheDebugViewClear => 'مسح';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'مسح الذاكرة المؤقتة';
@@ -429,14 +430,13 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'هل أنت متأكد من أنك تريد مسح جميع ذاكرة استهلاك الذاكرة المؤقتة لهذا الكائن؟ سيتم إزالة جميع بيانات الاستهلاك المخزنة.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'مسح';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'تم مسح الذاكرة المؤقتة بنجاح';
+  String get consumptionCacheDebugViewEntries => 'إدخالات';
 
   @override
   String get consumptionCacheDebugViewError => 'خطأ';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'ذاكرة الاستهلاك المؤقتة';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1496,6 +1496,11 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'نهاية $month';
+  }
+
+  @override
   String get myObjects => 'كائناتي';
 
   @override
@@ -2132,9 +2137,6 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'اللغة';
 
   @override
-  String get startOfTheWeek => 'بداية الأسبوع';
-
-  @override
   String get settingLivingArea => 'المساحة المعيشية';
 
   @override
@@ -2347,6 +2349,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get source => 'المصدر: ';
+
+  @override
+  String get startOfTheWeek => 'بداية الأسبوع';
 
   @override
   String get stove => 'الموقد';
@@ -3194,6 +3199,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'يرجى التحقق من إعدادات عدادك الافتراضي. لا يمكن حساب أي شيء.';
 
   @override
+  String get wallbox => 'والبوكس';
+
+  @override
   String get warmWater => 'الماء الدافئ';
 
   @override
@@ -3282,6 +3290,17 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'مورد المياه';
+
+  @override
+  String get waterSupplierHint =>
+      'مورد المياه المحلي الخاص بك، مثل Stadtwererke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'للأسف، نحن لا نعرف حتى الآن مورد المياه الخاص بك. لا تتردد في مراسلتنا. الموردون الذين يقدمون الكهرباء والغاز فقط لا يظهرون هنا.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3390,9 +3409,6 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'إنهاء الوصول إلى العداد اللاسلكي';
 
   @override
-  String get watersupplierYourSupplier => 'مورد المياه';
-
-  @override
   String get yearlyConsumption => 'الاستهلاك السنوي حتى الآن';
 
   @override
@@ -3420,20 +3436,4 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'الرمز البريدي الصالح يتكون من أرقام فقط';
-
-  @override
-  String get wallbox => 'والبوكس';
-
-  @override
-  String monthEnd(Object month) {
-    return 'نهاية $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'للأسف، نحن لا نعرف حتى الآن مورد المياه الخاص بك. لا تتردد في مراسلتنا. الموردون الذين يقدمون الكهرباء والغاز فقط لا يظهرون هنا.';
-
-  @override
-  String get waterSupplierHint =>
-      'مورد المياه المحلي الخاص بك، مثل Stadtwererke Musterstadt';
 }

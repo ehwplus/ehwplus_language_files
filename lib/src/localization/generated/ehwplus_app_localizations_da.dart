@@ -421,10 +421,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get consumption => 'Forbrug';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Forbrug Cache';
+  String get consumptionCacheDebugViewCacheCleared => 'Cache blev slettet';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'poster';
+  String get consumptionCacheDebugViewClear => 'Ryd';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Ryd Cache';
@@ -434,13 +434,13 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Er du sikker på, at du vil rydde al forbrugscache for dette objekt? Alle gemte forbrugsdata vil blive slettet.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Ryd';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'Cache blev slettet';
+  String get consumptionCacheDebugViewEntries => 'poster';
 
   @override
   String get consumptionCacheDebugViewError => 'Fejl';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Forbrug Cache';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1503,6 +1503,11 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Slutning af $month';
+  }
+
+  @override
   String get myObjects => 'Mine genstande';
 
   @override
@@ -2143,9 +2148,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Sprog';
 
   @override
-  String get startOfTheWeek => 'Ugens start';
-
-  @override
   String get settingLivingArea => 'Opholdsstue';
 
   @override
@@ -2357,6 +2359,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Kilde:';
+
+  @override
+  String get startOfTheWeek => 'Ugens start';
 
   @override
   String get stove => 'Komfur';
@@ -3211,6 +3216,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Kontroller venligst indstillingerne for din virtuelle måler. Intet kan beregnes.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Varmt vand';
 
   @override
@@ -3299,6 +3307,17 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Leverandør af vand';
+
+  @override
+  String get waterSupplierHint =>
+      'Din lokale vandforsyning, f.eks. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Desværre kender vi endnu ikke din vandleverandør. Du er velkommen til at skrive til os. Leverandører, der kun tilbyder el og gas, vises ikke her.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3407,9 +3426,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Afslut radiomåleradgang';
 
   @override
-  String get watersupplierYourSupplier => 'Leverandør af vand';
-
-  @override
   String get yearlyConsumption => 'Årligt forbrug indtil videre';
 
   @override
@@ -3437,20 +3453,4 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Et gyldigt postnummer består kun af tal';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Slutning af $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Desværre kender vi endnu ikke din vandleverandør. Du er velkommen til at skrive til os. Leverandører, der kun tilbyder el og gas, vises ikke her.';
-
-  @override
-  String get waterSupplierHint =>
-      'Din lokale vandforsyning, f.eks. Stadtwerke Musterstadt';
 }

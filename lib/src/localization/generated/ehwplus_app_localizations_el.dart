@@ -423,10 +423,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get consumption => 'Κατανάλωση';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Προσωρινή μνήμη κατανάλωσης';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Η προσωρινή μνήμη διαγράφηκε με επιτυχία';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'καταχωρήσεις';
+  String get consumptionCacheDebugViewClear => 'Διαγραφή';
 
   @override
   String get consumptionCacheDebugViewClearCache =>
@@ -437,14 +438,13 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Είστε σίγουροι ότι θέλετε να διαγράψετε όλη την προσωρινή μνήμη κατανάλωσης για αυτό το αντικείμενο; Όλα τα αποθηκευμένα δεδομένα κατανάλωσης θα αφαιρεθούν.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Διαγραφή';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Η προσωρινή μνήμη διαγράφηκε με επιτυχία';
+  String get consumptionCacheDebugViewEntries => 'καταχωρήσεις';
 
   @override
   String get consumptionCacheDebugViewError => 'Σφάλμα';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Προσωρινή μνήμη κατανάλωσης';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1520,6 +1520,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Τέλος του $month';
+  }
+
+  @override
   String get myObjects => 'Τα αντικείμενά μου';
 
   @override
@@ -2171,9 +2176,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Γλώσσα';
 
   @override
-  String get startOfTheWeek => 'Αρχή της εβδομάδας';
-
-  @override
   String get settingLivingArea => 'Καθιστικό';
 
   @override
@@ -2388,6 +2390,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Πηγή:';
+
+  @override
+  String get startOfTheWeek => 'Αρχή της εβδομάδας';
 
   @override
   String get stove => 'Σόμπα';
@@ -3248,6 +3253,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Ελέγξτε τις ρυθμίσεις του εικονικού μετρητή σας. Τίποτα δεν μπορεί να υπολογιστεί.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Ζεστό νερό';
 
   @override
@@ -3336,6 +3344,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Προμηθευτής νερού';
+
+  @override
+  String get waterSupplierHint =>
+      'Ο τοπικός σας προμηθευτής νερού, π.χ. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Δυστυχώς, δεν γνωρίζουμε ακόμη τον προμηθευτή σας. Παρακαλούμε μη διστάσετε να μας γράψετε. Οι προμηθευτές που προσφέρουν μόνο ηλεκτρικό ρεύμα και φυσικό αέριο δεν εμφανίζονται εδώ.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3447,9 +3466,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Τερματισμός πρόσβασης μετρητή ραδιοφώνου';
 
   @override
-  String get watersupplierYourSupplier => 'Προμηθευτής νερού';
-
-  @override
   String get yearlyConsumption => 'Ετήσια κατανάλωση μέχρι τώρα';
 
   @override
@@ -3477,20 +3493,4 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Τέλος του $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Δυστυχώς, δεν γνωρίζουμε ακόμη τον προμηθευτή σας. Παρακαλούμε μη διστάσετε να μας γράψετε. Οι προμηθευτές που προσφέρουν μόνο ηλεκτρικό ρεύμα και φυσικό αέριο δεν εμφανίζονται εδώ.';
-
-  @override
-  String get waterSupplierHint =>
-      'Ο τοπικός σας προμηθευτής νερού, π.χ. Stadtwerke Musterstadt';
 }

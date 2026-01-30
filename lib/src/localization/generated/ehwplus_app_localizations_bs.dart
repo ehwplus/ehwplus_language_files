@@ -421,10 +421,10 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get consumption => 'Potrošnja';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Keš potrošnje';
+  String get consumptionCacheDebugViewCacheCleared => 'Keš uspješno izbrisan';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'stavke';
+  String get consumptionCacheDebugViewClear => 'Obriši';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Obriši keš';
@@ -434,13 +434,13 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
       'Jeste li sigurni da želite obrisati svu keš potrošnje za ovaj objekt? Svi spremljeni podaci o potrošnji će biti uklonjeni.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Obriši';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => 'Keš uspješno izbrisan';
+  String get consumptionCacheDebugViewEntries => 'stavke';
 
   @override
   String get consumptionCacheDebugViewError => 'Greška';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Keš potrošnje';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1508,6 +1508,11 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Kraj $month';
+  }
+
+  @override
   String get myObjects => 'Moji objekti';
 
   @override
@@ -2155,9 +2160,6 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Jezik';
 
   @override
-  String get startOfTheWeek => 'Početak sedmice';
-
-  @override
   String get settingLivingArea => 'Stambeni prostor';
 
   @override
@@ -2372,6 +2374,9 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Izvor:';
+
+  @override
+  String get startOfTheWeek => 'Početak sedmice';
 
   @override
   String get stove => 'Peć';
@@ -3228,6 +3233,9 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
       'Molimo provjerite postavke vašeg virtuelnog mjerača. Ništa se ne može izračunati.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Topla voda';
 
   @override
@@ -3316,6 +3324,17 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Snabdjevač vodom';
+
+  @override
+  String get waterSupplierHint =>
+      'Vaš lokalni dobavljač vode, npr. Mock Town Municipal Utilities';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Nažalost, još ne znamo ko vam je dobavljač vode. Slobodno nam pišite. Dobavljači koji nude samo struju i gas ovdje se ne prikazuju.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3427,9 +3446,6 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
       'Prekinite pristup radio mjeraču';
 
   @override
-  String get watersupplierYourSupplier => 'Snabdjevač vodom';
-
-  @override
   String get yearlyConsumption => 'Godišnja potrošnja do sada';
 
   @override
@@ -3457,20 +3473,4 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Važeći poštanski broj sastoji se samo od brojeva';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Kraj $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Nažalost, još ne znamo ko vam je dobavljač vode. Slobodno nam pišite. Dobavljači koji nude samo struju i gas ovdje se ne prikazuju.';
-
-  @override
-  String get waterSupplierHint =>
-      'Vaš lokalni dobavljač vode, npr. Mock Town Municipal Utilities';
 }

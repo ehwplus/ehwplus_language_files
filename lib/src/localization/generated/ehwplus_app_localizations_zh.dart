@@ -402,10 +402,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get consumption => '消耗';
 
   @override
-  String get consumptionCacheDebugViewTitle => '消耗缓存';
+  String get consumptionCacheDebugViewCacheCleared => '缓存已成功清除';
 
   @override
-  String get consumptionCacheDebugViewEntries => '条目';
+  String get consumptionCacheDebugViewClear => '清除';
 
   @override
   String get consumptionCacheDebugViewClearCache => '清除缓存';
@@ -415,13 +415,13 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
       '您确定要清除此对象的所有消耗缓存吗？所有存储的消耗数据将被删除。';
 
   @override
-  String get consumptionCacheDebugViewClear => '清除';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared => '缓存已成功清除';
+  String get consumptionCacheDebugViewEntries => '条目';
 
   @override
   String get consumptionCacheDebugViewError => '错误';
+
+  @override
+  String get consumptionCacheDebugViewTitle => '消耗缓存';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1452,6 +1452,11 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return '$month月末';
+  }
+
+  @override
   String get myObjects => '我的对象';
 
   @override
@@ -2072,9 +2077,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get settingLanguageMode => '语言';
 
   @override
-  String get startOfTheWeek => '一周的开始';
-
-  @override
   String get settingLivingArea => '生活区';
 
   @override
@@ -2279,6 +2281,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get source => '来源：';
+
+  @override
+  String get startOfTheWeek => '一周的开始';
 
   @override
   String get stove => '火炉';
@@ -3091,6 +3096,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get virtualCounterNotConfigured => '请检查您的虚拟电表的设置。没有什么可以计算的。';
 
   @override
+  String get wallbox => '充电桩';
+
+  @override
   String get warmWater => '温水';
 
   @override
@@ -3171,6 +3179,16 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => '水供应商';
+
+  @override
+  String get waterSupplierHint => '当地供水公司，如 Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      '很遗憾，我们还不知道您的供水商。请随时写信给我们。仅提供电力和燃气的供应商不在此处显示。';
 
   @override
   String get watersupplierAccessRequestQ1 => '您是否是供水公司集水区内房产的所有者，并希望获得无线电水表读数？';
@@ -3268,9 +3286,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '终止无线电计访问';
 
   @override
-  String get watersupplierYourSupplier => '水供应商';
-
-  @override
   String get yearlyConsumption => '至今年消费量';
 
   @override
@@ -3297,19 +3312,4 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
-
-  @override
-  String get wallbox => '充电桩';
-
-  @override
-  String monthEnd(Object month) {
-    return '$month月末';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      '很遗憾，我们还不知道您的供水商。请随时写信给我们。仅提供电力和燃气的供应商不在此处显示。';
-
-  @override
-  String get waterSupplierHint => '当地供水公司，如 Stadtwerke Musterstadt';
 }

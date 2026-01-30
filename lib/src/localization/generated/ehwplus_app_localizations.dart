@@ -880,17 +880,17 @@ abstract class EhwplusAppLocalizations {
   /// **'Consumption'**
   String get consumption;
 
-  /// No description provided for @consumptionCacheDebugViewTitle.
+  /// No description provided for @consumptionCacheDebugViewCacheCleared.
   ///
   /// In en, this message translates to:
-  /// **'Verbrauchscache'**
-  String get consumptionCacheDebugViewTitle;
+  /// **'Cache erfolgreich geleert'**
+  String get consumptionCacheDebugViewCacheCleared;
 
-  /// No description provided for @consumptionCacheDebugViewEntries.
+  /// No description provided for @consumptionCacheDebugViewClear.
   ///
   /// In en, this message translates to:
-  /// **'Einträge'**
-  String get consumptionCacheDebugViewEntries;
+  /// **'Löschen'**
+  String get consumptionCacheDebugViewClear;
 
   /// No description provided for @consumptionCacheDebugViewClearCache.
   ///
@@ -904,23 +904,23 @@ abstract class EhwplusAppLocalizations {
   /// **'Möchtest du wirklich den gesamten Verbrauchscache für dieses Objekt löschen? Alle gespeicherten Verbrauchsdaten werden entfernt.'**
   String get consumptionCacheDebugViewClearCacheConfirmation;
 
-  /// No description provided for @consumptionCacheDebugViewClear.
+  /// No description provided for @consumptionCacheDebugViewEntries.
   ///
   /// In en, this message translates to:
-  /// **'Löschen'**
-  String get consumptionCacheDebugViewClear;
-
-  /// No description provided for @consumptionCacheDebugViewCacheCleared.
-  ///
-  /// In en, this message translates to:
-  /// **'Cache erfolgreich geleert'**
-  String get consumptionCacheDebugViewCacheCleared;
+  /// **'Einträge'**
+  String get consumptionCacheDebugViewEntries;
 
   /// No description provided for @consumptionCacheDebugViewError.
   ///
   /// In en, this message translates to:
   /// **'Fehler'**
   String get consumptionCacheDebugViewError;
+
+  /// No description provided for @consumptionCacheDebugViewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Verbrauchscache'**
+  String get consumptionCacheDebugViewTitle;
 
   /// No description provided for @consumptionCacheManagementClearCacheAndSynchronizeButton.
   ///
@@ -2652,6 +2652,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Show only \"{state}\"'**
   String meterReadingsFilterSubmitted(String state);
 
+  /// No description provided for @monthEnd.
+  ///
+  /// In en, this message translates to:
+  /// **'End of {month}'**
+  String monthEnd(Object month);
+
   /// No description provided for @myObjects.
   ///
   /// In en, this message translates to:
@@ -3664,12 +3670,6 @@ abstract class EhwplusAppLocalizations {
   /// **'Language'**
   String get settingLanguageMode;
 
-  /// No description provided for @startOfTheWeek.
-  ///
-  /// In en, this message translates to:
-  /// **'Start of the week'**
-  String get startOfTheWeek;
-
   /// No description provided for @settingLivingArea.
   ///
   /// In en, this message translates to:
@@ -4045,6 +4045,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Source: '**
   String get source;
+
+  /// No description provided for @startOfTheWeek.
+  ///
+  /// In en, this message translates to:
+  /// **'Start of the week'**
+  String get startOfTheWeek;
 
   /// No description provided for @stove.
   ///
@@ -5357,6 +5363,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Please check the settings of your virtual meter. Nothing can be calculated.'**
   String get virtualCounterNotConfigured;
 
+  /// No description provided for @wallbox.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallbox'**
+  String get wallbox;
+
   /// No description provided for @warmWater.
   ///
   /// In en, this message translates to:
@@ -5466,6 +5478,24 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'{count, plural, =1 {Your wireless water meter {waterSupplier} detects unexpected consumption. If desired, you will receive a notification in such a case.} other {Your wireless water meters {waterSupplier} detect unexpected consumption. If desired, you will receive a notification in such cases.}}'**
   String waterMeterEventsInformation(num count, String waterSupplier);
+
+  /// No description provided for @waterSupplier.
+  ///
+  /// In en, this message translates to:
+  /// **'Water supplier'**
+  String get waterSupplier;
+
+  /// No description provided for @waterSupplierHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Your local water supplier, e.g. Stadtwerke Musterstadt'**
+  String get waterSupplierHint;
+
+  /// No description provided for @waterSupplierUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unfortunately, we do not yet know your water supplier. Please feel free to contact us. Suppliers who only offer electricity and gas do not appear here.'**
+  String get waterSupplierUnknown;
 
   /// No description provided for @watersupplierAccessRequestQ1.
   ///
@@ -5635,12 +5665,6 @@ abstract class EhwplusAppLocalizations {
   /// **'Terminate Radio Meter Access'**
   String get watersupplierUnlinkRadioMeterTitle;
 
-  /// No description provided for @watersupplierYourSupplier.
-  ///
-  /// In en, this message translates to:
-  /// **'Water supplier'**
-  String get watersupplierYourSupplier;
-
   /// No description provided for @yearlyConsumption.
   ///
   /// In en, this message translates to:
@@ -5688,30 +5712,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'A valid zip code consists only of numbers'**
   String get zipCodeValidationOnlyNumbers;
-
-  /// No description provided for @wallbox.
-  ///
-  /// In en, this message translates to:
-  /// **'Wallbox'**
-  String get wallbox;
-
-  /// No description provided for @monthEnd.
-  ///
-  /// In en, this message translates to:
-  /// **'End of {month}'**
-  String monthEnd(Object month);
-
-  /// No description provided for @waterSupplierUnknown.
-  ///
-  /// In en, this message translates to:
-  /// **'Unfortunately, we do not yet know your water supplier. Please feel free to contact us. Suppliers who only offer electricity and gas do not appear here.'**
-  String get waterSupplierUnknown;
-
-  /// No description provided for @waterSupplierHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Your local water supplier, e.g. Stadtwerke Musterstadt'**
-  String get waterSupplierHint;
 }
 
 class _EhwplusAppLocalizationsDelegate

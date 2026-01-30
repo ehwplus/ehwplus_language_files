@@ -420,10 +420,11 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get consumption => 'Spotřeba';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Mezipaměť spotřeby';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Mezipaměť byla úspěšně vymazána';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'položky';
+  String get consumptionCacheDebugViewClear => 'Vymazat';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Vymazat mezipaměť';
@@ -433,14 +434,13 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Opravdu chcete vymazat všechnu mezipaměť spotřeby pro tento objekt? Všechna uložená data o spotřebě budou odstraněna.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Vymazat';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Mezipaměť byla úspěšně vymazána';
+  String get consumptionCacheDebugViewEntries => 'položky';
 
   @override
   String get consumptionCacheDebugViewError => 'Chyba';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Mezipaměť spotřeby';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1506,6 +1506,11 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Konec $month';
+  }
+
+  @override
   String get myObjects => 'Moje předměty';
 
   @override
@@ -2144,9 +2149,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Jazyk';
 
   @override
-  String get startOfTheWeek => 'Začátek týdne';
-
-  @override
   String get settingLivingArea => 'Obytná plocha';
 
   @override
@@ -2360,6 +2362,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Zdroj:';
+
+  @override
+  String get startOfTheWeek => 'Začátek týdne';
 
   @override
   String get stove => 'Sporák';
@@ -3218,6 +3223,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Zkontrolujte prosím nastavení vašeho virtuálního měřiče. Nic se nedá spočítat.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Teplá voda';
 
   @override
@@ -3306,6 +3314,17 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Dodavatel vody';
+
+  @override
+  String get waterSupplierHint =>
+      'Váš místní dodavatel vody, např. Stadtwerke Musterstadt.';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Bohužel zatím neznáme vašeho dodavatele vody. Neváhejte nám napsat. Dodavatelé, kteří nabízejí pouze elektřinu a plyn, se zde nezobrazují.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3416,9 +3435,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Ukončete přístup k radiometru';
 
   @override
-  String get watersupplierYourSupplier => 'Dodavatel vody';
-
-  @override
   String get yearlyConsumption => 'Roční spotřeba zatím';
 
   @override
@@ -3446,20 +3462,4 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Platné PSČ se skládá pouze z čísel';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Konec $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Bohužel zatím neznáme vašeho dodavatele vody. Neváhejte nám napsat. Dodavatelé, kteří nabízejí pouze elektřinu a plyn, se zde nezobrazují.';
-
-  @override
-  String get waterSupplierHint =>
-      'Váš místní dodavatel vody, např. Stadtwerke Musterstadt.';
 }

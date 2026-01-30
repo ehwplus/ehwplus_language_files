@@ -94,7 +94,10 @@ class ArbRepository {
   Future<void> saveDocument(ArbDocument document) async {
     final data = <String, dynamic>{...document.globalMetadata};
 
-    for (final entry in document.entries.values) {
+    final sortedKeys = document.entries.keys.toList()..sort();
+    for (final key in sortedKeys) {
+      final entry = document.entries[key];
+      if (entry == null) continue;
       data[entry.key] = entry.value;
       if (entry.metadata != null) {
         data['@${entry.key}'] = entry.metadata;
@@ -106,8 +109,61 @@ class ArbRepository {
     await file.writeAsString(encoder.convert(data));
   }
 
+  Future<bool> regenerateDartFiles() async {
+    if (kIsWeb) return false;
+
+    final root = _findPubspecRoot(Directory(arbDirectory));
+    if (root == null) return false;
+
+    final commands = [
+      const ['flutter', 'gen-l10n'],
+      const ['flutter', 'pub', 'get'],
+      const ['dart', 'pub', 'get'],
+    ];
+
+    Object? lastError;
+    ProcessResult? lastResult;
+
+    for (final command in commands) {
+      try {
+        final result = await Process.run(
+          command.first,
+          command.sublist(1),
+          workingDirectory: root.path,
+        );
+        if (result.exitCode == 0) {
+          return true;
+        }
+        lastResult = result;
+      } on ProcessException catch (e) {
+        lastError = e;
+      }
+    }
+
+    if (lastResult != null) {
+      throw Exception((lastResult.stderr ?? lastResult.stdout).toString().trim());
+    }
+    if (lastError != null) {
+      throw Exception(lastError.toString());
+    }
+    return false;
+  }
+
   String _fileName(String path) {
     final segments = path.split(Platform.pathSeparator);
     return segments.isNotEmpty ? segments.last : path;
+  }
+
+  Directory? _findPubspecRoot(Directory start) {
+    var current = start;
+    for (var i = 0; i < 8; i += 1) {
+      final pubspec = File('${current.path}${Platform.pathSeparator}pubspec.yaml');
+      if (pubspec.existsSync()) {
+        return current;
+      }
+      if (current.parent.path == current.path) break;
+      current = current.parent;
+    }
+    return null;
   }
 }

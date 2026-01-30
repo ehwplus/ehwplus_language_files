@@ -422,10 +422,11 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get consumption => 'Verbrauch';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Verbrauchscache';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Cache erfolgreich geleert';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'Einträge';
+  String get consumptionCacheDebugViewClear => 'Löschen';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Cache leeren';
@@ -435,14 +436,13 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Möchtest du wirklich den gesamten Verbrauchscache für dieses Objekt löschen? Alle gespeicherten Verbrauchsdaten werden entfernt.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Löschen';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache erfolgreich geleert';
+  String get consumptionCacheDebugViewEntries => 'Einträge';
 
   @override
   String get consumptionCacheDebugViewError => 'Fehler';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Verbrauchscache';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1511,6 +1511,11 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Ende $month';
+  }
+
+  @override
   String get myObjects => 'Meine Objekte';
 
   @override
@@ -2140,9 +2145,6 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Sprache';
 
   @override
-  String get startOfTheWeek => 'Beginn der Woche';
-
-  @override
   String get settingLivingArea => 'Wohnfläche';
 
   @override
@@ -2355,6 +2357,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Quelle: ';
+
+  @override
+  String get startOfTheWeek => 'Beginn der Woche';
 
   @override
   String get stove => 'Kaminofen / Pelletheizung';
@@ -3214,6 +3219,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Bitte prüfen Sie die Einstellungen Ihres virtuellen Zählers. Es kann nichts berechnet werden.';
 
   @override
+  String get wallbox => 'Wallbox';
+
+  @override
   String get warmWater => 'Warmwasser';
 
   @override
@@ -3302,6 +3310,17 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Wasserversorger';
+
+  @override
+  String get waterSupplierHint =>
+      'Ihr Nahversorger für Wasser, z.B. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Ihr Wasserversorger ist uns leider noch nicht bekannt. Schreiben Sie uns gerne an. Anbieter, die nur Strom und Gas anbieten, erscheinen hier nicht.';
 
   @override
   String get watersupplierAccessRequestQ1 => '';
@@ -3410,9 +3429,6 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Funkzählerzugriff beenden';
 
   @override
-  String get watersupplierYourSupplier => 'Wasserversorger';
-
-  @override
   String get yearlyConsumption => 'Bisheriger Jahresverbrauch';
 
   @override
@@ -3440,20 +3456,4 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Eine gültige Postleitzahl besteht nur aus Zahlen';
-
-  @override
-  String get wallbox => 'Wallbox';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Ende $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Ihr Wasserversorger ist uns leider noch nicht bekannt. Schreiben Sie uns gerne an. Anbieter, die nur Strom und Gas anbieten, erscheinen hier nicht.';
-
-  @override
-  String get waterSupplierHint =>
-      'Ihr Nahversorger für Wasser, z.B. Stadtwerke Musterstadt';
 }

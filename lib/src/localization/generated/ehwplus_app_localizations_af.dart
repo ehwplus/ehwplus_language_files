@@ -417,10 +417,11 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get consumption => 'Verbruik';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Verbruiks-kas';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Kas suksesvol skoongemaak';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'inskrywings';
+  String get consumptionCacheDebugViewClear => 'Vee uit';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Vee kas uit';
@@ -430,14 +431,13 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
       'Is jy seker dat jy al verbruiks-kas vir hierdie voorwerp wil vee? Alle gestoor verbruiksdata sal verwyder word.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Vee uit';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Kas suksesvol skoongemaak';
+  String get consumptionCacheDebugViewEntries => 'inskrywings';
 
   @override
   String get consumptionCacheDebugViewError => 'Fout';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Verbruiks-kas';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1502,6 +1502,11 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Einde van $month';
+  }
+
+  @override
   String get myObjects => 'My objekte';
 
   @override
@@ -2140,9 +2145,6 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Taal';
 
   @override
-  String get startOfTheWeek => 'Begin van die week';
-
-  @override
   String get settingLivingArea => 'Woonarea';
 
   @override
@@ -2354,6 +2356,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Bron: ';
+
+  @override
+  String get startOfTheWeek => 'Begin van die week';
 
   @override
   String get stove => 'Stoof';
@@ -3214,6 +3219,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
       'Gaan asseblief die instellings van jou virtuele meter na. Niks kan bereken word nie.';
 
   @override
+  String get wallbox => 'Muurlaaier';
+
+  @override
   String get warmWater => 'Warm water';
 
   @override
@@ -3302,6 +3310,17 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Waterverskaffer';
+
+  @override
+  String get waterSupplierHint =>
+      'Jou plaaslike waterverskaffer, bv. Mock Town Munisipale Dienste';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Ongelukkig weet ons nog nie wie jou waterverskaffer is nie. Voel asseblief vry om aan ons te skryf. Verskaffers wat slegs elektrisiteit en gas aanbied, verskyn nie hier nie.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3412,9 +3431,6 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
       'Beëindig Radio Meter Toegang';
 
   @override
-  String get watersupplierYourSupplier => 'Waterverskaffer';
-
-  @override
   String get yearlyConsumption => 'Jaarlikse verbruik tot dusver';
 
   @override
@@ -3442,20 +3458,4 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       '\'n Geldige poskode bestaan slegs uit syfers';
-
-  @override
-  String get wallbox => 'Muurlaaier';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Einde van $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Ongelukkig weet ons nog nie wie jou waterverskaffer is nie. Voel asseblief vry om aan ons te skryf. Verskaffers wat slegs elektrisiteit en gas aanbied, verskyn nie hier nie.';
-
-  @override
-  String get waterSupplierHint =>
-      'Jou plaaslike waterverskaffer, bv. Mock Town Munisipale Dienste';
 }

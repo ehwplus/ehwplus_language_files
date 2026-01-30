@@ -419,10 +419,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consumption => 'Vartojimas';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Suvartojimo talpykla';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Talpykla sėkmingai išvalyta';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'įrašai';
+  String get consumptionCacheDebugViewClear => 'Išvalyti';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Išvalyti talpyklą';
@@ -432,14 +433,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Ar tikrai norite išvalyti visą šio objekto suvartojimo talpyklą? Visi saugomi suvartojimo duomenys bus ištrinti.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Išvalyti';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Talpykla sėkmingai išvalyta';
+  String get consumptionCacheDebugViewEntries => 'įrašai';
 
   @override
   String get consumptionCacheDebugViewError => 'Klaida';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Suvartojimo talpykla';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1507,6 +1507,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return '$month pabaiga';
+  }
+
+  @override
   String get myObjects => 'Mano objektai';
 
   @override
@@ -2149,9 +2154,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Kalba';
 
   @override
-  String get startOfTheWeek => 'Savaitės pradžia';
-
-  @override
   String get settingLivingArea => 'Gyvenamasis plotas';
 
   @override
@@ -2365,6 +2367,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Šaltinis:';
+
+  @override
+  String get startOfTheWeek => 'Savaitės pradžia';
 
   @override
   String get stove => 'Viryklė';
@@ -3222,6 +3227,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Patikrinkite savo virtualaus matuoklio nustatymus. Nieko negalima apskaičiuoti.';
 
   @override
+  String get wallbox => 'Sieninė įkrovimo stotelė';
+
+  @override
   String get warmWater => 'Šiltas vanduo';
 
   @override
@@ -3310,6 +3318,17 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Vandens tiekėjas';
+
+  @override
+  String get waterSupplierHint =>
+      'Jūsų vietinis vandens tiekėjas, pvz., Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'Deja, kol kas nežinome jūsų vandens tiekėjo. Nedvejodami rašykite mums. Tiekėjai, kurie siūlo tik elektros energiją ir dujas, čia nepateikiami.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3421,9 +3440,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Nutraukti radijo skaitiklio prieigą';
 
   @override
-  String get watersupplierYourSupplier => 'Vandens tiekėjas';
-
-  @override
   String get yearlyConsumption => 'Metinis suvartojimas iki šiol';
 
   @override
@@ -3451,20 +3467,4 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Galiojantį pašto kodą sudaro tik skaičiai';
-
-  @override
-  String get wallbox => 'Sieninė įkrovimo stotelė';
-
-  @override
-  String monthEnd(Object month) {
-    return '$month pabaiga';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'Deja, kol kas nežinome jūsų vandens tiekėjo. Nedvejodami rašykite mums. Tiekėjai, kurie siūlo tik elektros energiją ir dujas, čia nepateikiami.';
-
-  @override
-  String get waterSupplierHint =>
-      'Jūsų vietinis vandens tiekėjas, pvz., Stadtwerke Musterstadt';
 }

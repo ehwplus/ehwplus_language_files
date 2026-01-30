@@ -420,10 +420,11 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get consumption => 'उपभोग';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'खपत कैश';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'कैश सफलतापूर्वक साफ़ हो गया';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'प्रविष्टियां';
+  String get consumptionCacheDebugViewClear => 'साफ़ करें';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'कैश साफ़ करें';
@@ -433,14 +434,13 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'क्या आप इस ऑब्जेक्ट के लिए सभी खपत कैश साफ़ करना सुनिश्चित हैं? सभी संग्रहीत खपत डेटा हटा दिया जाएगा।';
 
   @override
-  String get consumptionCacheDebugViewClear => 'साफ़ करें';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'कैश सफलतापूर्वक साफ़ हो गया';
+  String get consumptionCacheDebugViewEntries => 'प्रविष्टियां';
 
   @override
   String get consumptionCacheDebugViewError => 'त्रुटि';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'खपत कैश';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1505,6 +1505,11 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return '$month का अंत';
+  }
+
+  @override
   String get myObjects => 'मेरी वस्तुएं';
 
   @override
@@ -2147,9 +2152,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'भाषा';
 
   @override
-  String get startOfTheWeek => 'सप्ताह की शुरुआत';
-
-  @override
   String get settingLivingArea => 'लिविंग एरिया';
 
   @override
@@ -2363,6 +2365,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get source => 'स्रोत:';
+
+  @override
+  String get startOfTheWeek => 'सप्ताह की शुरुआत';
 
   @override
   String get stove => 'चूल्हा';
@@ -3215,6 +3220,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'कृपया अपने वर्चुअल मीटर की सेटिंग्स जांचें।कुछ भी गणना नहीं की जा सकती.';
 
   @override
+  String get wallbox => 'वॉलबॉक्स';
+
+  @override
   String get warmWater => 'गर्म पानी';
 
   @override
@@ -3303,6 +3311,17 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'जल आपूर्तिकर्ता';
+
+  @override
+  String get waterSupplierHint =>
+      'आपका स्थानीय जल आपूर्तिकर्ता, उदाहरण के लिए मॉक टाउन नगर पालिका उपयोगिताएँ';
+
+  @override
+  String get waterSupplierUnknown =>
+      'दुर्भाग्यवश, हमें अभी तक आपके जल आपूर्तिकर्ता का पता नहीं है। कृपया बेझिझक हमें लिखें। केवल बिजली और गैस प्रदान करने वाले प्रदाता यहाँ नहीं दिखते।';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3413,9 +3432,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'रेडियो मीटर पहुंच समाप्त करें';
 
   @override
-  String get watersupplierYourSupplier => 'जल आपूर्तिकर्ता';
-
-  @override
   String get yearlyConsumption => 'अब तक की वार्षिक खपत';
 
   @override
@@ -3443,20 +3459,4 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'एक वैध ज़िप कोड में केवल संख्याएँ होती हैं';
-
-  @override
-  String get wallbox => 'वॉलबॉक्स';
-
-  @override
-  String monthEnd(Object month) {
-    return '$month का अंत';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'दुर्भाग्यवश, हमें अभी तक आपके जल आपूर्तिकर्ता का पता नहीं है। कृपया बेझिझक हमें लिखें। केवल बिजली और गैस प्रदान करने वाले प्रदाता यहाँ नहीं दिखते।';
-
-  @override
-  String get waterSupplierHint =>
-      'आपका स्थानीय जल आपूर्तिकर्ता, उदाहरण के लिए मॉक टाउन नगर पालिका उपयोगिताएँ';
 }

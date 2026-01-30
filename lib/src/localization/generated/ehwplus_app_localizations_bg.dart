@@ -422,10 +422,11 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get consumption => 'Консумация';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Кеш на консумацията';
+  String get consumptionCacheDebugViewCacheCleared =>
+      'Кешът е изчистен успешно';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'записи';
+  String get consumptionCacheDebugViewClear => 'Изчистване';
 
   @override
   String get consumptionCacheDebugViewClearCache => 'Изчистване на кеша';
@@ -435,14 +436,13 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Сигурен ли си, че искаш да изчистиш целия кеш за потребление за този обект? Всички съхранени данни за потребление ще бъдат премахнати.';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Изчистване';
-
-  @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Кешът е изчистен успешно';
+  String get consumptionCacheDebugViewEntries => 'записи';
 
   @override
   String get consumptionCacheDebugViewError => 'Грешка';
+
+  @override
+  String get consumptionCacheDebugViewTitle => 'Кеш на консумацията';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
@@ -1513,6 +1513,11 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   }
 
   @override
+  String monthEnd(Object month) {
+    return 'Край на $month';
+  }
+
+  @override
   String get myObjects => 'Моите обекти';
 
   @override
@@ -2163,9 +2168,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get settingLanguageMode => 'Език';
 
   @override
-  String get startOfTheWeek => 'Начало на седмицата';
-
-  @override
   String get settingLivingArea => 'Жило площ';
 
   @override
@@ -2381,6 +2383,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get source => 'Източник: ';
+
+  @override
+  String get startOfTheWeek => 'Начало на седмицата';
 
   @override
   String get stove => 'Печка';
@@ -3238,6 +3243,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Моля, проверете настройките на вашия виртуален брояч. Нищо не може да се изчисли.';
 
   @override
+  String get wallbox => 'Зарядна станция';
+
+  @override
   String get warmWater => 'Топла вода';
 
   @override
@@ -3326,6 +3334,17 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get waterSupplier => 'Доставчик на вода';
+
+  @override
+  String get waterSupplierHint =>
+      'Вашият местен доставчик на вода, напр. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierUnknown =>
+      'За съжаление все още не знаем какъв е вашият доставчик на вода. Моля, не се колебайте да ни пишете. Доставчиците, които предлагат само електричество и газ, не се появяват тук.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3438,9 +3457,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Прекратяване на достъпа до радио водомер';
 
   @override
-  String get watersupplierYourSupplier => 'Доставчик на вода';
-
-  @override
   String get yearlyConsumption => 'Годишна консумация досега';
 
   @override
@@ -3468,20 +3484,4 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   @override
   String get zipCodeValidationOnlyNumbers =>
       'Валиден пощенски код се състои само от цифри';
-
-  @override
-  String get wallbox => 'Зарядна станция';
-
-  @override
-  String monthEnd(Object month) {
-    return 'Край на $month';
-  }
-
-  @override
-  String get waterSupplierUnknown =>
-      'За съжаление все още не знаем какъв е вашият доставчик на вода. Моля, не се колебайте да ни пишете. Доставчиците, които предлагат само електричество и газ, не се появяват тук.';
-
-  @override
-  String get waterSupplierHint =>
-      'Вашият местен доставчик на вода, напр. Stadtwerke Musterstadt';
 }
