@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Haluatko poistaa radiomittarin mitätöimättä aktivointikoodia?",
   "watersupplierUnlinkRadioMeterDescription2": "Etkö enää halua käyttää radiomittaritietojasi?Huomaa: kun peruutuskoodi on skannattu, aktivointikoodi ei kelpaa.Kaikki aktivointikoodia käyttäneet käyttäjätilit menettävät pääsyn.",
   "watersupplierUnlinkRadioMeterTitle": "Lopeta radiomittarin käyttö",
-  "watersupplierYourSupplier": "Vedentoimittajasi",
+  "watersupplierYourSupplier": "Veden toimittaja",
   "yearlyConsumption": "Vuosikulutus tähän mennessä",
   "yearlyCosts": "Vuotuiset kulutuskustannukset toistaiseksi",
   "youtubeConsent1": "Tarvitsemme suostumuksesi upotetun Youtube-sisällön näyttämiseen.Voit näyttää tämän (ja siten myös kaiken muun sovelluksen Youtube-sisällön) yhdellä napsautuksella ja myös deaktivoida sen uudelleen.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Syötä {digits} numeroinen postinumero",
   "zipCodeValidationOnlyNumbers": "Kelvollinen postinumero koostuu vain numeroista",
   "wallbox": "Wallbox",
-  "monthEnd": "{month} loppu"
+  "monthEnd": "{month} loppu",
+  "waterSupplierUnknown": "Valitettavasti emme vielä tiedä veden toimittajaa. Voit vapaasti kirjoittaa meille. Toimittajat, jotka tarjoavat vain sähköä ja kaasua, eivät näy tässä.",
+  "waterSupplierHint": "Paikallinen vesilaitos, esim. Stadtwerke Musterstadt."
 }

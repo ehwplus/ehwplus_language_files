@@ -3314,7 +3314,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Su şebekesinin havza bölgesinde bir mülkün sahibi misiniz ve radyo sayaç okumalarına erişmek mi istiyorsunuz?';
+      'Su tedarikçisinin havza alanında bir mülkün sahibi misiniz ve telsiz sayaç okumalarına erişmek mi istiyorsunuz?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3421,7 +3421,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Radyo Ölçer Erişimini Sonlandır';
 
   @override
-  String get watersupplierYourSupplier => 'Su tedarikçiniz';
+  String get watersupplierYourSupplier => 'Su tedarikçisi';
 
   @override
   String get yearlyConsumption => 'Şu ana kadar yıllık tüketim';
@@ -3459,4 +3459,12 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Ay $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Ne yazık ki su tedarikçinizi henüz bilmiyoruz. Lütfen bize yazmaktan çekinmeyin. Sadece elektrik ve gaz sunan tedarikçiler burada görünmemektedir.';
+
+  @override
+  String get waterSupplierHint =>
+      'Yerel su tedarikçiniz, örneğin Stadtwerke Musterstadt';
 }

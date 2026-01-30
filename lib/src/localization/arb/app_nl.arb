@@ -865,7 +865,7 @@
   "waterConsumption": "Waterverbruik",
   "waterExtractionMinimumLevelLower": "Aftrek vindt plaats omdat het verbruik lager is dan de drempel.",
   "waterMeterEventsInformation": "{count, plural, =1 {Uw draadloze watermeter {waterSupplier} detecteert onverwacht verbruik. Indien gewenst ontvangt u in zo'n geval een melding.} other {Uw draadloze watermeters {waterSupplier} detecteren onverwacht verbruik. Indien gewenst ontvangt u in dergelijke gevallen een melding.}}",
-  "watersupplierAccessRequestQ1": "Bent u eigenaar van een eigendom in het verzorgingsgebied van het waterbedrijf en wilt u toegang tot radiometerstanden?",
+  "watersupplierAccessRequestQ1": "Bent u de eigenaar van een woning in het stroomgebied van de waterleverancier en wilt u toegang tot radiografische meterstanden?",
   "watersupplierAccessRequestQ2": "Heeft u al toegang aangevraagd? Vervolgens moet u een EHW+-gebruikersaccount aanmaken.",
   "watersupplierAccessRequestQ3": "Heeft u al toegang aangevraagd en uw QR-code ontvangen?",
   "watersupplierAccessRequestQ4": "Wilt u meterwaarschuwingen ontvangen zodat u kunt reageren bij bijvoorbeeld een leidingbreuk of een lopende toiletspoeling?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Wilt u de radiometer verwijderen zonder de activatiecode ongeldig te maken?",
   "watersupplierUnlinkRadioMeterDescription2": "Wilt u geen toegang meer tot uw radiometergegevens? Let op: zodra de intrekkingscode wordt gescand, wordt de activatiecode ongeldig. Elk gebruikersaccount dat de activatiecode heeft gebruikt, verliest toegang.",
   "watersupplierUnlinkRadioMeterTitle": "Radio Meter Toegang Beëindigen",
-  "watersupplierYourSupplier": "Uw waterleverancier",
+  "watersupplierYourSupplier": "Water leverancier",
   "yearlyConsumption": "Jaarlijks verbruik tot nu toe",
   "yearlyCosts": "Jaarlijkse verbruikskosten tot nu toe",
   "youtubeConsent1": "We hebben uw toestemming nodig om de ingesloten Youtube-inhoud weer te geven. U kunt dit (en dus ook alle andere Youtube-inhoud in de app) met één klik weergeven en ook weer deactiveren.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Voer een {digits}-cijferige postcode in",
   "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers",
   "wallbox": "Laadpaal",
-  "monthEnd": "Einde {month}"
+  "monthEnd": "Einde {month}",
+  "waterSupplierUnknown": "Helaas weten we uw waterleverancier nog niet. Schrijf ons gerust. Leveranciers die alleen elektriciteit en gas aanbieden, worden hier niet weergegeven.",
+  "waterSupplierHint": "Je plaatselijke waterleverancier, bijvoorbeeld Stadtwerke Musterstadt"
 }

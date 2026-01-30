@@ -3310,7 +3310,7 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Sei il proprietario di una proprietà nell\'area di raccolta delle acque e vorresti accedere alle letture dei radiocontatori?';
+      'Siete proprietari di un immobile nel bacino di utenza del fornitore dell\'acqua e desiderate avere accesso alle letture dei contatori radio?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3418,7 +3418,7 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Elimina contatore radio';
 
   @override
-  String get watersupplierYourSupplier => 'Il tuo fornitore d\'acqua';
+  String get watersupplierYourSupplier => 'Fornitore di acqua';
 
   @override
   String get yearlyConsumption => 'Consumo annuale ad oggi';
@@ -3456,4 +3456,12 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Fine del $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Purtroppo non conosciamo ancora il vostro fornitore di acqua. Non esitate a scriverci. I fornitori che offrono solo elettricità e gas non compaiono qui.';
+
+  @override
+  String get waterSupplierHint =>
+      'Il vostro fornitore di acqua locale, ad esempio Stadtwerke Musterstadt';
 }

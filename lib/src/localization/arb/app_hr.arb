@@ -865,7 +865,7 @@
   "waterConsumption": "Potrošnja vode",
   "waterExtractionMinimumLevelLower": "Do odbitka dolazi jer je potrošnja niža od praga.",
   "waterMeterEventsInformation": "{count, plural, =1 {Your wireless water meter {waterSupplier} otkriva neočekivanu potrošnju.Ako želite, primit ćete obavijest u tom slučaju.} other {Your wireless water meters {waterSupplier} otkriti neočekivanu potrošnju.Ako želite, primit ćete obavijest u takvim slučajevima.}}",
-  "watersupplierAccessRequestQ1": "Vlasnik ste nekretnine u slivu vodovoda i želite imati uvid u očitanja radiomjera?",
+  "watersupplierAccessRequestQ1": "Jeste li vlasnik nekretnine u zoni opskrbe vodom i želite li pristup radijskim očitanjima brojila?",
   "watersupplierAccessRequestQ2": "Jeste li već zatražili pristup?Zatim trebate kreirati EHW+ korisnički račun.",
   "watersupplierAccessRequestQ3": "Jeste li već zatražili pristup i primili svoj QR kod?",
   "watersupplierAccessRequestQ4": "Želite li primati upozorenja brojila kako biste mogli reagirati u slučaju npr. puknuća cijevi ili ispiranja WC školjke?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Želite li izbrisati radiometar bez poništavanja aktivacijskog koda?",
   "watersupplierUnlinkRadioMeterDescription2": "Ne želite više pristup podacima vašeg radiometra?Imajte na umu: nakon skeniranja koda za opoziv, aktivacijski kod postaje nevažeći.Svaki korisnički račun koji je koristio aktivacijski kod izgubit će pristup.",
   "watersupplierUnlinkRadioMeterTitle": "Prekinite pristup radio mjeraču",
-  "watersupplierYourSupplier": "Vaš dobavljač vode",
+  "watersupplierYourSupplier": "Pristavatelj vode",
   "yearlyConsumption": "Dosadašnja godišnja potrošnja",
   "yearlyCosts": "Dosadašnji godišnji troškovi potrošnje",
   "youtubeConsent1": "Potreban nam je vaš pristanak za prikazivanje ugrađenog Youtube sadržaja.Možete prikazati ovaj (a time i sav ostali Youtube sadržaj u aplikaciji) jednim klikom i ponovno ga deaktivirati.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Molimo unesite {digits}-znamenkasti poštanski broj",
   "zipCodeValidationOnlyNumbers": "Važeći poštanski broj sastoji se samo od brojeva",
   "wallbox": "Zidna kutija",
-  "monthEnd": "Kraj {month}"
+  "monthEnd": "Kraj {month}",
+  "waterSupplierUnknown": "Nažalost, još ne znamo tko vam je dobavljač vode. Slobodno nam pišite. Pružatelji usluga koji nude samo električnu energiju i plin ovdje se ne prikazuju.",
+  "waterSupplierHint": "Vaš lokalni dobavljač vode, npr. Mock Town Municipal Utilities"
 }

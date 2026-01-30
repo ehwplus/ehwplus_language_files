@@ -3317,7 +3317,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Jesteś właścicielem nieruchomości na terenie zlewni wodociągów i chciałbyś mieć dostęp do radiowych odczytów liczników?';
+      'Czy jesteś właścicielem nieruchomości w obszarze zlewni dostawcy wody i chciałbyś mieć dostęp do odczytów liczników radiowych?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3426,7 +3426,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Zakończ dostęp do licznika radiowego';
 
   @override
-  String get watersupplierYourSupplier => 'Twój dostawca wody';
+  String get watersupplierYourSupplier => 'Dostawca wody';
 
   @override
   String get yearlyConsumption => 'Dotychczasowe roczne zużycie';
@@ -3464,4 +3464,12 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Koniec $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Niestety nie znamy jeszcze Twojego dostawcy wody. Napisz do nas. Dostawcy, którzy oferują tylko energię elektryczną i gaz, nie pojawiają się tutaj.';
+
+  @override
+  String get waterSupplierHint =>
+      'Lokalny dostawca wody, np. Stadtwerke Musterstadt';
 }

@@ -865,7 +865,7 @@
   "waterConsumption": "Poraba vode",
   "waterExtractionMinimumLevelLower": "Odbitek se izvede, ker je poraba nižja od praga.",
   "waterMeterEventsInformation": "{count, plural, =1 {Vaš brezžični vodomer {waterSupplier} zazna nepričakovano porabo. Če želite, boste v takem primeru prejeli obvestilo.} other {Vaši brezžični vodomer {waterSupplier} zaznajo nepričakovano porabo. Če želite, boste v takih primerih prejeli obvestilo.}}",
-  "watersupplierAccessRequestQ1": "Ste lastnik nepremičnine v zajetju vodovoda in bi želeli imeti vpogled v radijske števce?",
+  "watersupplierAccessRequestQ1": "Ali ste lastnik nepremičnine na prispevnem območju dobavitelja vode in želite imeti dostop do odčitkov radijskih števcev?",
   "watersupplierAccessRequestQ2": "Ste že zahtevali dostop? Nato morate ustvariti uporabniški račun EHW+.",
   "watersupplierAccessRequestQ3": "Ste že zahtevali dostop in prejeli kodo QR?",
   "watersupplierAccessRequestQ4": "Ali želite prejemati opozorila števca, da se lahko odzovete na primer v primeru poka cevi ali tekočega splakovanja stranišča?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Ali želite izbrisati radijski merilnik, ne da bi razveljavili aktivacijsko kodo?",
   "watersupplierUnlinkRadioMeterDescription2": "Ne želite več dostopa do podatkov radijskega števca? Upoštevajte: ko je preklicna koda skenirana, aktivacijska koda postane neveljavna. Vsak uporabniški račun, ki je uporabil aktivacijsko kodo, bo izgubil dostop.",
   "watersupplierUnlinkRadioMeterTitle": "Prekinite dostop do radijskega merilnika",
-  "watersupplierYourSupplier": "Vaš dobavitelj vode",
+  "watersupplierYourSupplier": "Dobavitelj vode",
   "yearlyConsumption": "Dosedanja letna poraba",
   "yearlyCosts": "Dosedanji stroški letne porabe",
   "youtubeConsent1": "Za prikaz vdelane vsebine Youtube potrebujemo vaše soglasje. To (in s tem tudi vse druge Youtube vsebine v aplikaciji) lahko z enim klikom prikažete in tudi znova deaktivirate.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Vnesite {digits}-mestno poštno številko",
   "zipCodeValidationOnlyNumbers": "Veljavna poštna številka je sestavljena samo iz številk",
   "wallbox": "Wallbox",
-  "monthEnd": "Konec {month}"
+  "monthEnd": "Konec {month}",
+  "waterSupplierUnknown": "Žal še ne poznamo vašega dobavitelja vode. Prosimo, da nam pišete. Dobavitelji, ki ponujajo samo elektriko in plin, niso prikazani tukaj.",
+  "waterSupplierHint": "vaš lokalni dobavitelj vode, npr. Stadtwerke Musterstadt"
 }

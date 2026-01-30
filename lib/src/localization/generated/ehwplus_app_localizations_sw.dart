@@ -3307,7 +3307,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Je! Wewe ni mmiliki wa mali katika eneo la vifaa vya maji na ungependa kupata usomaji wa mita za redio?';
+      'Je, wewe ni mmiliki wa mali katika eneo la huduma ya mtoa maji na ungependa kupata ufikiaji wa usomaji wa mita kwa redio?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3414,7 +3414,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Kusitisha ufikiaji wa mita ya redio';
 
   @override
-  String get watersupplierYourSupplier => 'Muuzaji wako wa maji';
+  String get watersupplierYourSupplier => 'Mtoa maji';
 
   @override
   String get yearlyConsumption => 'Matumizi ya kila mwaka hadi sasa';
@@ -3452,4 +3452,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Mwisho wa $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Kwa bahati mbaya, bado hatujui msambazaji wako wa maji. Tafadhali jisikie huru kutuandikia. Watoa huduma wanaotoa umeme na gesi pekee hawapo hapa.';
+
+  @override
+  String get waterSupplierHint =>
+      'Mtoa maji wako wa eneo, k.m. Huduma za Manispaa za Mock Town';
 }

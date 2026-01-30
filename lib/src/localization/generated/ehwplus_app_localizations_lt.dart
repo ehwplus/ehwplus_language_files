@@ -3313,7 +3313,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Ar esate vandens telkinio baseino teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte gauti radijo skaitiklių rodmenis?';
+      'Ar esate vandens tiekėjo aptarnaujamoje teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte turėti prieigą prie radijo skaitiklių rodmenų?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3421,7 +3421,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Nutraukti radijo skaitiklio prieigą';
 
   @override
-  String get watersupplierYourSupplier => 'Jūsų vandens tiekėjas';
+  String get watersupplierYourSupplier => 'Vandens tiekėjas';
 
   @override
   String get yearlyConsumption => 'Metinis suvartojimas iki šiol';
@@ -3459,4 +3459,12 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month pabaiga';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Deja, kol kas nežinome jūsų vandens tiekėjo. Nedvejodami rašykite mums. Tiekėjai, kurie siūlo tik elektros energiją ir dujas, čia nepateikiami.';
+
+  @override
+  String get waterSupplierHint =>
+      'Jūsų vietinis vandens tiekėjas, pvz., Stadtwerke Musterstadt';
 }

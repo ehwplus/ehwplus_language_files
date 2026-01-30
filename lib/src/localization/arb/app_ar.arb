@@ -865,7 +865,7 @@
   "waterConsumption": "استهلاك الماء",
   "waterExtractionMinimumLevelLower": "يتم الخصم لأن الاستهلاك أقل من العتبة.",
   "waterMeterEventsInformation": "{count, plural, =1 {عداد الماء اللاسلكي الخاص بك {waterSupplier} يكتشف استهلاك غير متوقع. إذا رغبت، سوف تتلقى إشعاراً في مثل هذه الحالة.} other {عدادات الماء اللاسلكية الخاصة بك {waterSupplier} تكتشف استهلاك غير متوقع. إذا رغبت، سوف تتلقى إشعاراً في مثل هذه الحالات.}}",
-  "watersupplierAccessRequestQ1": "هل أنت مالك عقار في منطقة خدمة محطة المياه وترغب بالحصول على الوصول إلى قراءات العدادات اللاسلكية؟",
+  "watersupplierAccessRequestQ1": "هل أنت مالك عقار في منطقة تجميع مورد المياه وترغب في الحصول على قراءات العدادات اللاسلكية؟",
   "watersupplierAccessRequestQ2": "هل طلبت الوصول بالفعل؟ بعد ذلك، تحتاج إلى إنشاء حساب مستخدم EHW+.",
   "watersupplierAccessRequestQ3": "هل طلبت الوصول بالفعل وتلقيت رمز QR الخاص بك؟",
   "watersupplierAccessRequestQ4": "هل ترغب بتلقي تنبيهات العداد حتى تتمكن من التفاعل في حالة انفجار الأنبوب أو استمرار تدفق المرحاض، على سبيل المثال؟",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "هل تريد حذف العداد اللاسلكي دون إبطال رمز التفعيل؟",
   "watersupplierUnlinkRadioMeterDescription2": "هل لم تعد تريد الوصول إلى بيانات العداد اللاسلكي الخاص بك؟ يرجى ملاحظة: بمجرد مسح رمز الإلغاء، يصبح رمز التفعيل غير صالح. أي حساب مستخدم استخدم رمز التفعيل سيفقد الوصول.",
   "watersupplierUnlinkRadioMeterTitle": "إنهاء الوصول إلى العداد اللاسلكي",
-  "watersupplierYourSupplier": "مزود المياه الخاص بك",
+  "watersupplierYourSupplier": "مورد المياه",
   "yearlyConsumption": "الاستهلاك السنوي حتى الآن",
   "yearlyCosts": "تكاليف الاستهلاك السنوي حتى الآن",
   "youtubeConsent1": "نحتاج إلى موافقتك لعرض محتوى Youtube المضمن. يمكنك عرض هذا (وبالتالي أيضاً جميع محتويات Youtube الأخرى في التطبيق) بنقرة واحدة وإلغاء تفعيله مرة أخرى.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "يرجى إدخال رمز بريدي مكون من {digits} أرقام",
   "zipCodeValidationOnlyNumbers": "الرمز البريدي الصالح يتكون من أرقام فقط",
   "wallbox": "والبوكس",
-  "monthEnd": "نهاية {month}"
+  "monthEnd": "نهاية {month}",
+  "waterSupplierUnknown": "للأسف، نحن لا نعرف حتى الآن مورد المياه الخاص بك. لا تتردد في مراسلتنا. الموردون الذين يقدمون الكهرباء والغاز فقط لا يظهرون هنا.",
+  "waterSupplierHint": "مورد المياه المحلي الخاص بك، مثل Stadtwererke Musterstadt"
 }

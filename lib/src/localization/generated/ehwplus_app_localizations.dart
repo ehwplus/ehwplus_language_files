@@ -5470,7 +5470,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @watersupplierAccessRequestQ1.
   ///
   /// In en, this message translates to:
-  /// **'Are you the owner of a property in the catchment area of the waterworks and would like to have access to radio meter readings?'**
+  /// **'Are you the owner of a property in the catchment area of the water supplier and would like to have access to radio meter readings?'**
   String get watersupplierAccessRequestQ1;
 
   /// No description provided for @watersupplierAccessRequestQ2.
@@ -5638,7 +5638,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @watersupplierYourSupplier.
   ///
   /// In en, this message translates to:
-  /// **'Your water supplier'**
+  /// **'Water supplier'**
   String get watersupplierYourSupplier;
 
   /// No description provided for @yearlyConsumption.
@@ -5700,6 +5700,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'End of {month}'**
   String monthEnd(Object month);
+
+  /// No description provided for @waterSupplierUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unfortunately, we do not yet know your water supplier. Please feel free to contact us. Suppliers who only offer electricity and gas do not appear here.'**
+  String get waterSupplierUnknown;
+
+  /// No description provided for @waterSupplierHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Your local water supplier, e.g. Stadtwerke Musterstadt'**
+  String get waterSupplierHint;
 }
 
 class _EhwplusAppLocalizationsDelegate

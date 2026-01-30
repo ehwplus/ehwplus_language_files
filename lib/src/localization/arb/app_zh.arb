@@ -865,7 +865,7 @@
   "waterConsumption": "用水量",
   "waterExtractionMinimumLevelLower": "由于消费低于阈值，因此会发生扣除。",
   "waterMeterEventsInformation": "{count, plural, =1 {您的无线水表 {waterSupplier} 检测到意外消耗。如果需要，您将在这种情况下收到通知。} other {您的无线水表 {waterSupplier} 检测到意外消耗。如果需要，您将在这种情况下收到通知。}}",
-  "watersupplierAccessRequestQ1": "您是自来水厂集水区房产的所有者并希望获得无线电表读数吗？",
+  "watersupplierAccessRequestQ1": "您是否是供水公司集水区内房产的所有者，并希望获得无线电水表读数？",
   "watersupplierAccessRequestQ2": "您已经请求访问权限了吗？接下来，您需要创建一个 EHW+ 用户帐户。",
   "watersupplierAccessRequestQ3": "您是否已经请求访问并收到您的二维码？",
   "watersupplierAccessRequestQ4": "您是否希望收到仪表警报，以便在发生管道爆裂或马桶冲水等情况时做出反应？",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "您想删除无线电计而不使激活码失效吗？",
   "watersupplierUnlinkRadioMeterDescription2": "您不想再访问您的无线电计数据吗？请注意：一旦扫描撤销码，激活码即失效。任何使用激活码的用户帐户都将失去访问权限。",
   "watersupplierUnlinkRadioMeterTitle": "终止无线电计访问",
-  "watersupplierYourSupplier": "您的供水商",
+  "watersupplierYourSupplier": "水供应商",
   "yearlyConsumption": "至今年消费量",
   "yearlyCosts": "至今年消费成本",
   "youtubeConsent1": "我们需要您的同意才能显示嵌入的 YouTube 内容。您可以一键显示此内容（以及应用程序中的所有其他 Youtube 内容），也可以再次停用它。",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "请输入 {digits} 位邮政编码",
   "zipCodeValidationOnlyNumbers": "有效的邮政编码仅由数字组成",
   "wallbox": "充电桩",
-  "monthEnd": "{month}月末"
+  "monthEnd": "{month}月末",
+  "waterSupplierUnknown": "很遗憾，我们还不知道您的供水商。请随时写信给我们。仅提供电力和燃气的供应商不在此处显示。",
+  "waterSupplierHint": "当地供水公司，如 Stadtwerke Musterstadt"
 }

@@ -3420,7 +3420,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Lopeta radiomittarin käyttö';
 
   @override
-  String get watersupplierYourSupplier => 'Vedentoimittajasi';
+  String get watersupplierYourSupplier => 'Veden toimittaja';
 
   @override
   String get yearlyConsumption => 'Vuosikulutus tähän mennessä';
@@ -3458,4 +3458,12 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month loppu';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Valitettavasti emme vielä tiedä veden toimittajaa. Voit vapaasti kirjoittaa meille. Toimittajat, jotka tarjoavat vain sähköä ja kaasua, eivät näy tässä.';
+
+  @override
+  String get waterSupplierHint =>
+      'Paikallinen vesilaitos, esim. Stadtwerke Musterstadt.';
 }

@@ -3311,7 +3311,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Ste lastnik nepremičnine v zajetju vodovoda in bi želeli imeti vpogled v radijske števce?';
+      'Ali ste lastnik nepremičnine na prispevnem območju dobavitelja vode in želite imeti dostop do odčitkov radijskih števcev?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3419,7 +3419,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Prekinite dostop do radijskega merilnika';
 
   @override
-  String get watersupplierYourSupplier => 'Vaš dobavitelj vode';
+  String get watersupplierYourSupplier => 'Dobavitelj vode';
 
   @override
   String get yearlyConsumption => 'Dosedanja letna poraba';
@@ -3457,4 +3457,12 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Konec $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Žal še ne poznamo vašega dobavitelja vode. Prosimo, da nam pišete. Dobavitelji, ki ponujajo samo elektriko in plin, niso prikazani tukaj.';
+
+  @override
+  String get waterSupplierHint =>
+      'vaš lokalni dobavitelj vode, npr. Stadtwerke Musterstadt';
 }

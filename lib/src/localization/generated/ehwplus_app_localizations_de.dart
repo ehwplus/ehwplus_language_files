@@ -3304,8 +3304,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   }
 
   @override
-  String get watersupplierAccessRequestQ1 =>
-      'Sie sind Besitzer einer Immobilie im Einzugsgebiet vom Wasserwerk und möchten Zugriff auf Funkzählerstände erhalten?';
+  String get watersupplierAccessRequestQ1 => '';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3411,7 +3410,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Funkzählerzugriff beenden';
 
   @override
-  String get watersupplierYourSupplier => 'Ihr Wasserversorger';
+  String get watersupplierYourSupplier => 'Wasserversorger';
 
   @override
   String get yearlyConsumption => 'Bisheriger Jahresverbrauch';
@@ -3449,4 +3448,12 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Ende $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Ihr Wasserversorger ist uns leider noch nicht bekannt. Schreiben Sie uns gerne an. Anbieter, die nur Strom und Gas anbieten, erscheinen hier nicht.';
+
+  @override
+  String get waterSupplierHint =>
+      'Ihr Nahversorger für Wasser, z.B. Stadtwerke Musterstadt';
 }

@@ -3300,7 +3300,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Kas oled veetöötlusala kinnistu omanik ja soovid saada juurdepääsu raadionarvesti näitudele?';
+      'Kas te olete veevarustaja valgalal asuva kinnistu omanik ja soovite juurdepääsu raadiomeeterlugudele?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3408,7 +3408,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Lõpeta raadionarvesti kasutus';
 
   @override
-  String get watersupplierYourSupplier => 'Sinu vee-ettevõte';
+  String get watersupplierYourSupplier => 'Veevarustaja';
 
   @override
   String get yearlyConsumption => 'Seni aastane tarbimine';
@@ -3446,4 +3446,12 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month lõpp';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Kahjuks ei tea me veel teie veevarustajat. Palun kirjutage meile julgelt. Tarnijad, kes pakuvad ainult elektrit ja gaasi, ei ole siin kirjas.';
+
+  @override
+  String get waterSupplierHint =>
+      'Teie kohalik veevarustaja, nt Stadtwerke Musterstadt.';
 }

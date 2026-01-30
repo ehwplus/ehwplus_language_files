@@ -865,7 +865,7 @@
   "waterConsumption": "Wassernutzung",
   "waterExtractionMinimumLevelLower": "Es erfolgt noch kein Abzug, weil der Verbrauch unter dem Mindestverbrauch liegt.",
   "waterMeterEventsInformation": "{count, plural, =1 {Ihr Funkwasserzähler {waterSupplier} erkennt unerwartete Verbräuche. Falls gewünscht, erhalten Sie in so einem Fall eine Benachrichtigung.} other {Ihre Funkwasserzähler {waterSupplier} erkennen unerwartete Verbräuche. Falls gewünscht, erhalten Sie in so einem Fall eine Benachrichtigung.}}",
-  "watersupplierAccessRequestQ1": "Sie sind Besitzer einer Immobilie im Einzugsgebiet vom Wasserwerk und möchten Zugriff auf Funkzählerstände erhalten?",
+  "watersupplierAccessRequestQ1": "",
   "watersupplierAccessRequestQ2": "Sie haben bereits Zugriff beantragt? Als nächstes müssen Sie sich ein EHW+ Nutzerkonto erstellen.",
   "watersupplierAccessRequestQ3": "Sie haben bereits Zugriff beantragt und haben Ihren QR-Code erhalten?",
   "watersupplierAccessRequestQ4": "Sie möchten Zählerwarnungen bekommen, um z.B. im Fall eines Rohrbruchs oder einer nachlaufenden WC-Spülung reagieren zu können?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Sie möchten den Funkzähler nur löschen ohne dass der Aktivierungscode seine Gültigkeit verliert?",
   "watersupplierUnlinkRadioMeterDescription2": "Sie möchten nicht länger Zugriff auf die Daten Ihres Funkzählers haben? Bitte beachten Sie, nach Scannen des Widerrufscode verliert der Aktivierungscode seine Gültigkeit. Jedes Nutzerkonto, welches den Aktivierungscode verwendet hat, verliert den Zugriff.",
   "watersupplierUnlinkRadioMeterTitle": "Funkzählerzugriff beenden",
-  "watersupplierYourSupplier": "Ihr Wasserversorger",
+  "watersupplierYourSupplier": "Wasserversorger",
   "yearlyConsumption": "Bisheriger Jahresverbrauch",
   "yearlyCosts": "Bisherige Kosten für Verbrauch",
   "youtubeConsent1": "Wir benötigen Ihre Einwilligung, um den eingebundenen Youtube-Inhalt anzuzeigen. Sie können diesen (und damit auch alle weiteren Youtube-Inhalte in der App) mit einem Klick anzeigen lassen und auch wieder deaktivieren.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Bitte {digits}-stellige Postleitzahl eingeben",
   "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen",
   "wallbox": "Wallbox",
-  "monthEnd": "Ende {month}"
+  "monthEnd": "Ende {month}",
+  "waterSupplierUnknown": "Ihr Wasserversorger ist uns leider noch nicht bekannt. Schreiben Sie uns gerne an. Anbieter, die nur Strom und Gas anbieten, erscheinen hier nicht.",
+  "waterSupplierHint": "Ihr Nahversorger für Wasser, z.B. Stadtwerke Musterstadt"
 }

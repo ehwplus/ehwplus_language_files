@@ -3207,7 +3207,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      '수도사업소 관할 구역 내 부동산의 소유자이며 무선 계량기 지침 접근 권한을 받고 싶으신가요?';
+      '수도 공급업체의 집수 구역에 있는 부동산의 소유주이며 무선 검침에 액세스하고 싶으신가요?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3308,7 +3308,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '무선 계량기 접근 종료';
 
   @override
-  String get watersupplierYourSupplier => '귀하의 수도 공급자';
+  String get watersupplierYourSupplier => '물 공급업체';
 
   @override
   String get yearlyConsumption => '현재까지 연간 소비량';
@@ -3345,4 +3345,11 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month 끝';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      '안타깝게도 아직 고객님의 물 공급업체를 알지 못합니다. 언제든지 문의해 주세요. 전기와 가스만 제공하는 공급업체는 여기에 표시되지 않습니다.';
+
+  @override
+  String get waterSupplierHint => '현지 수도 공급업체(예: Stadtwerke Musterstadt)';
 }

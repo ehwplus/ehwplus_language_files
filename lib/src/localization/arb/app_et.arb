@@ -865,7 +865,7 @@
   "waterConsumption": "Veetarbimine",
   "waterExtractionMinimumLevelLower": "Summa arvestatakse maha, sest tarbimine on lävendist väiksem.",
   "waterMeterEventsInformation": "{count, plural, =1 {Sinu juhtmevaba veearvesti {waterSupplier} tuvastab ootamatu tarbimise. Soovi korral saad sellest teavituse.} other {Sinu juhtmevabad veearvestid {waterSupplier} tuvastavad ootamatut tarbimist. Soovi korral saad sellistel juhtudel teavituse.}}",
-  "watersupplierAccessRequestQ1": "Kas oled veetöötlusala kinnistu omanik ja soovid saada juurdepääsu raadionarvesti näitudele?",
+  "watersupplierAccessRequestQ1": "Kas te olete veevarustaja valgalal asuva kinnistu omanik ja soovite juurdepääsu raadiomeeterlugudele?",
   "watersupplierAccessRequestQ2": "Kas oled juba ligipääsu taotlenud? Seejärel pead looma EHW+ kasutajakonto.",
   "watersupplierAccessRequestQ3": "Kas oled juba ligipääsu taotlenud ja saanud oma QR-koodi?",
   "watersupplierAccessRequestQ4": "Kas soovid saada arvesti hoiatusi, et reageerida näiteks torupragule või jooksvatele tualettidele?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Kas soovid raadionarvesti kustutada ilma aktiveerimiskoodi tühistamata?",
   "watersupplierUnlinkRadioMeterDescription2": "Ei soovi enam juurdepääsu oma raadionarvesti andmetele? Pane tähele: kui tühistamiskood skannitakse, muutub aktiveerimiskood kehtetuks. Kõik kasutajakontod, mis koodi kasutasid, kaotavad ligipääsu.",
   "watersupplierUnlinkRadioMeterTitle": "Lõpeta raadionarvesti kasutus",
-  "watersupplierYourSupplier": "Sinu vee-ettevõte",
+  "watersupplierYourSupplier": "Veevarustaja",
   "yearlyConsumption": "Seni aastane tarbimine",
   "yearlyCosts": "Seni aastased tarbimiskulud",
   "youtubeConsent1": "Vajame sinu nõusolekut, et näidata manustatud Youtube'i sisu. Saad selle ühe klikiga kuvada (ja seeläbi ka muu Youtube'i sisu rakenduses) ning vajadusel uuesti keelata.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Palun sisesta {digits}-kohaline postiindeks",
   "zipCodeValidationOnlyNumbers": "Kehtiv postiindeks koosneb ainult numbritest",
   "wallbox": "Wallbox",
-  "monthEnd": "{month} lõpp"
+  "monthEnd": "{month} lõpp",
+  "waterSupplierUnknown": "Kahjuks ei tea me veel teie veevarustajat. Palun kirjutage meile julgelt. Tarnijad, kes pakuvad ainult elektrit ja gaasi, ei ole siin kirjas.",
+  "waterSupplierHint": "Teie kohalik veevarustaja, nt Stadtwerke Musterstadt."
 }

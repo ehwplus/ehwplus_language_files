@@ -865,7 +865,7 @@
   "waterConsumption": "Consumo d'acqua",
   "waterExtractionMinimumLevelLower": "Viene effettuata una detrazione perché il consumo è inferiore alla soglia.",
   "waterMeterEventsInformation": "{count, plural, =1 {Il tuo contatore acqua radio {waterSupplier} rileva un consumo anomalo. Se lo desideri, riceverai una notifica in tal caso.} other {I tuoi contatori acqua radio {waterSupplier} rilevano un consumo anomalo. Se lo desideri, riceverai una notifica in questi casi.}}",
-  "watersupplierAccessRequestQ1": "Sei il proprietario di una proprietà nell'area di raccolta delle acque e vorresti accedere alle letture dei radiocontatori?",
+  "watersupplierAccessRequestQ1": "Siete proprietari di un immobile nel bacino di utenza del fornitore dell'acqua e desiderate avere accesso alle letture dei contatori radio?",
   "watersupplierAccessRequestQ2": "Hai già chiesto l'accesso? Poi devi creare un account utente EHW+.",
   "watersupplierAccessRequestQ3": "Hai già fatto richiesta di accesso e ricevuto il tuo QR code?",
   "watersupplierAccessRequestQ4": "Vorresti ricevere avvisi sul contatore per poter reagire in caso di rottura di una tubatura o di uno sciacquone del water che perde, ad esempio?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Si desidera eliminare il contatore radio senza invalidare il codice di attivazione?",
   "watersupplierUnlinkRadioMeterDescription2": "Non si desidera più accedere ai dati del contatore radio? Nota: una volta scansionato il codice di revoca, il codice di attivazione non sarà più valido. Qualsiasi account utente che ha utilizzato il codice di attivazione perderà l'accesso.",
   "watersupplierUnlinkRadioMeterTitle": "Elimina contatore radio",
-  "watersupplierYourSupplier": "Il tuo fornitore d'acqua",
+  "watersupplierYourSupplier": "Fornitore di acqua",
   "yearlyConsumption": "Consumo annuale ad oggi",
   "yearlyCosts": "Costi di consumo fino ad oggi",
   "youtubeConsent1": "Abbiamo bisogno del tuo consenso per mostrare il contenuto incorporato di Youtube. Puoi visualizzarlo (e quindi tutto il contenuto Youtube nell'app) con un clic e disattivarlo di nuovo.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Inserisci un codice postale di {digits} cifre",
   "zipCodeValidationOnlyNumbers": "Un codice postale valido è composto solo da numeri",
   "wallbox": "Wallbox",
-  "monthEnd": "Fine del {month}"
+  "monthEnd": "Fine del {month}",
+  "waterSupplierUnknown": "Purtroppo non conosciamo ancora il vostro fornitore di acqua. Non esitate a scriverci. I fornitori che offrono solo elettricità e gas non compaiono qui.",
+  "waterSupplierHint": "Il vostro fornitore di acqua locale, ad esempio Stadtwerke Musterstadt"
 }

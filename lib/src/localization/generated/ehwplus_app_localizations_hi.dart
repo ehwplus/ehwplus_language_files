@@ -3306,7 +3306,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'क्या आप वाटरवर्क्स के जलग्रहण क्षेत्र में किसी संपत्ति के मालिक हैं और रेडियो मीटर रीडिंग तक पहुंच चाहते हैं?';
+      'क्या आप जल आपूर्तिकर्ता के कवरेज क्षेत्र में किसी संपत्ति के मालिक हैं और रेडियो मीटर रीडिंग्स तक पहुँच चाहते हैं?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3413,7 +3413,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'रेडियो मीटर पहुंच समाप्त करें';
 
   @override
-  String get watersupplierYourSupplier => 'आपका जल आपूर्तिकर्ता';
+  String get watersupplierYourSupplier => 'जल आपूर्तिकर्ता';
 
   @override
   String get yearlyConsumption => 'अब तक की वार्षिक खपत';
@@ -3451,4 +3451,12 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month का अंत';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'दुर्भाग्यवश, हमें अभी तक आपके जल आपूर्तिकर्ता का पता नहीं है। कृपया बेझिझक हमें लिखें। केवल बिजली और गैस प्रदान करने वाले प्रदाता यहाँ नहीं दिखते।';
+
+  @override
+  String get waterSupplierHint =>
+      'आपका स्थानीय जल आपूर्तिकर्ता, उदाहरण के लिए मॉक टाउन नगर पालिका उपयोगिताएँ';
 }

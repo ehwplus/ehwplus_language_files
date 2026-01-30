@@ -865,7 +865,7 @@
   "waterConsumption": "水の消費量",
   "waterExtractionMinimumLevelLower": "消費が最小しきい値を下回っているため、差し引きは行われません。",
   "waterMeterEventsInformation": "{count, plural, =1 {ワイヤレス水道メーター {waterSupplier} が予期せぬ消費を検出します。ご希望に応じて、そのような場合には通知を受け取ります。} other {ワイヤレス水道メーター {waterSupplier} は予期せぬ消費量を検出します。このような場合には、ご希望に応じて通知が届きます。}}",
-  "watersupplierAccessRequestQ1": "あなたは水道の集水域にある不動産の所有者で、電波メーターの測定値にアクセスしたいですか?",
+  "watersupplierAccessRequestQ1": "水道供給会社の集水域にある物件の所有者で、無線検針票の入手を希望されますか？",
   "watersupplierAccessRequestQ2": "すでにアクセスをリクエストしましたか?次に、EHW+ ユーザー アカウントを作成する必要があります。",
   "watersupplierAccessRequestQ3": "すでにアクセスをリクエストして QR コードを受け取りましたか?",
   "watersupplierAccessRequestQ4": "たとえば、パイプの破裂やトイレの水洗などの場合に対応できるように、メーターのアラートを受け取りたいですか?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "アクティベーション コードを無効にせずに電波メーターを削除しますか?",
   "watersupplierUnlinkRadioMeterDescription2": "電波メーターのデータにアクセスしたくないですか?注意: 失効コードがスキャンされると、アクティベーション コードは無効になります。アクティベーション コードを使用したユーザー アカウントはアクセスできなくなります。",
   "watersupplierUnlinkRadioMeterTitle": "無線メーターへのアクセスを終了する",
-  "watersupplierYourSupplier": "あなたの水道業者",
+  "watersupplierYourSupplier": "水サプライヤー",
   "yearlyConsumption": "これまでの年間消費量",
   "yearlyCosts": "これまでの年間消費コスト",
   "youtubeConsent1": "埋め込まれた YouTube コンテンツを表示するには、あなたの同意が必要です。ワンクリックでこれ (およびアプリ内の他のすべての Youtube コンテンツ) を表示したり、再度非アクティブ化することもできます。",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "{digits}桁の郵便番号を入力してください",
   "zipCodeValidationOnlyNumbers": "有効な郵便番号は数字のみで構成されます",
   "wallbox": "ウォールボックス",
-  "monthEnd": "{month}の終わり"
+  "monthEnd": "{month}の終わり",
+  "waterSupplierUnknown": "残念ながら、私たちはまだあなたの水供給会社を知りません。お気軽にお問い合わせください。電気とガスのみの供給業者は、ここには表示されません。",
+  "waterSupplierHint": "地元の水道業者（例：Stadtwerke Musterstadt"
 }

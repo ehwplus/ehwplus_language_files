@@ -3309,7 +3309,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Jste vlastníkem nemovitosti v povodí vodárny a chtěli byste mít přístup k odečtu radiometrů?';
+      'Jste vlastníkem nemovitosti v povodí dodavatele vody a chcete mít přístup k rádiovým odečtům?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3416,7 +3416,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Ukončete přístup k radiometru';
 
   @override
-  String get watersupplierYourSupplier => 'Váš dodavatel vody';
+  String get watersupplierYourSupplier => 'Dodavatel vody';
 
   @override
   String get yearlyConsumption => 'Roční spotřeba zatím';
@@ -3454,4 +3454,12 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Konec $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Bohužel zatím neznáme vašeho dodavatele vody. Neváhejte nám napsat. Dodavatelé, kteří nabízejí pouze elektřinu a plyn, se zde nezobrazují.';
+
+  @override
+  String get waterSupplierHint =>
+      'Váš místní dodavatel vody, např. Stadtwerke Musterstadt.';
 }

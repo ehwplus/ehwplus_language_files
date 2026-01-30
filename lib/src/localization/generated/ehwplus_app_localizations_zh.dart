@@ -3173,7 +3173,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get watersupplierAccessRequestQ1 => '您是自来水厂集水区房产的所有者并希望获得无线电表读数吗？';
+  String get watersupplierAccessRequestQ1 => '您是否是供水公司集水区内房产的所有者，并希望获得无线电水表读数？';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3268,7 +3268,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '终止无线电计访问';
 
   @override
-  String get watersupplierYourSupplier => '您的供水商';
+  String get watersupplierYourSupplier => '水供应商';
 
   @override
   String get yearlyConsumption => '至今年消费量';
@@ -3305,4 +3305,11 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month月末';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      '很遗憾，我们还不知道您的供水商。请随时写信给我们。仅提供电力和燃气的供应商不在此处显示。';
+
+  @override
+  String get waterSupplierHint => '当地供水公司，如 Stadtwerke Musterstadt';
 }

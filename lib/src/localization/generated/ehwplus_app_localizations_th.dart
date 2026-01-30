@@ -3289,7 +3289,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'คุณเป็นเจ้าของทรัพย์สินในพื้นที่รับน้ำของการประปาและต้องการเข้าถึงการอ่านมิเตอร์วิทยุหรือไม่?';
+      'คุณเป็นเจ้าของทรัพย์สินในพื้นที่ให้บริการของผู้จัดหาน้ำและต้องการเข้าถึงการอ่านค่ามิเตอร์วิทยุหรือไม่?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3392,7 +3392,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'ยุติการเข้าถึงมิเตอร์วิทยุ';
 
   @override
-  String get watersupplierYourSupplier => 'ผู้จำหน่ายน้ำของคุณ';
+  String get watersupplierYourSupplier => 'ผู้จัดหาน้ำ';
 
   @override
   String get yearlyConsumption => 'การบริโภคประจำปีจนถึงปัจจุบัน';
@@ -3430,4 +3430,12 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'สิ้นสุด $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'ขออภัย ขณะนี้เรายังไม่ทราบผู้ให้บริการน้ำประปาของคุณ กรุณาเขียนถึงเราได้เลย ผู้ให้บริการที่เสนอเฉพาะไฟฟ้าและแก๊สจะไม่ปรากฏที่นี่';
+
+  @override
+  String get waterSupplierHint =>
+      'ผู้จัดหาน้ำประปาท้องถิ่นของคุณ เช่น การประปาเทศบาลเมืองม็อคทาวน์';
 }

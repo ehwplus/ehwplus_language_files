@@ -865,7 +865,7 @@
   "waterConsumption": "수도 소비량",
   "waterExtractionMinimumLevelLower": "소비량이 기준치보다 낮아 차감이 발생합니다.",
   "waterMeterEventsInformation": "{count, plural, =1 {귀하의 무선 수도 계량기 {waterSupplier}가 예상치 못한 소비를 감지했습니다. 원하시면 이러한 경우 알림을 받을 수 있습니다.} other {귀하의 무선 수도 계량기들 {waterSupplier}가 예상치 못한 소비를 감지했습니다. 원하시면 이러한 경우 알림을 받을 수 있습니다.}}",
-  "watersupplierAccessRequestQ1": "수도사업소 관할 구역 내 부동산의 소유자이며 무선 계량기 지침 접근 권한을 받고 싶으신가요?",
+  "watersupplierAccessRequestQ1": "수도 공급업체의 집수 구역에 있는 부동산의 소유주이며 무선 검침에 액세스하고 싶으신가요?",
   "watersupplierAccessRequestQ2": "이미 접근 권한을 요청하셨나요? 다음 단계로 EHW+ 사용자 계정을 생성해야 합니다.",
   "watersupplierAccessRequestQ3": "접근 권한을 요청하고 QR 코드를 이미 받으셨나요?",
   "watersupplierAccessRequestQ4": "배관 파손이나 변기 물 흐름과 같은 상황에 대비하여 계량기 경고 알림을 받고 싶으신가요?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "활성화 코드를 무효화하지 않고 무선 계량기를 삭제하시겠습니까?",
   "watersupplierUnlinkRadioMeterDescription2": "무선 계량기 데이터 접근을 더 이상 원하지 않으시나요? 참고: 무효화 코드를 스캔하면 활성화 코드는 더 이상 유효하지 않습니다. 활성화 코드를 사용했던 모든 사용자 계정은 접근 권한을 잃습니다.",
   "watersupplierUnlinkRadioMeterTitle": "무선 계량기 접근 종료",
-  "watersupplierYourSupplier": "귀하의 수도 공급자",
+  "watersupplierYourSupplier": "물 공급업체",
   "yearlyConsumption": "현재까지 연간 소비량",
   "yearlyCosts": "현재까지 연간 비용",
   "youtubeConsent1": "내장된 Youtube 콘텐츠를 표시하기 위해 귀하의 동의가 필요합니다. 한 번 클릭으로 해당 콘텐츠(또한 앱의 모든 Youtube 콘텐츠)를 표시하거나 다시 비활성화할 수 있습니다.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "{digits}자리 우편번호를 입력하세요",
   "zipCodeValidationOnlyNumbers": "유효한 우편번호는 숫자로만 구성됩니다",
   "wallbox": "월박스",
-  "monthEnd": "{month} 끝"
+  "monthEnd": "{month} 끝",
+  "waterSupplierUnknown": "안타깝게도 아직 고객님의 물 공급업체를 알지 못합니다. 언제든지 문의해 주세요. 전기와 가스만 제공하는 공급업체는 여기에 표시되지 않습니다.",
+  "waterSupplierHint": "현지 수도 공급업체(예: Stadtwerke Musterstadt)"
 }

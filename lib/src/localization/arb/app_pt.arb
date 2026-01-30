@@ -865,7 +865,7 @@
   "waterConsumption": "Consumo de água",
   "waterExtractionMinimumLevelLower": "Há uma dedução porque o consumo está abaixo do limite.",
   "waterMeterEventsInformation": "{count, plural, =1 {Seu medidor de água sem fio {waterSupplier} detecta consumo inesperado. Se desejar, você receberá uma notificação nesse caso.} other {Seus medidores de água sem fio {waterSupplier} detectam consumo inesperado. Se desejar, você receberá uma notificação nesses casos.}}",
-  "watersupplierAccessRequestQ1": "Você é proprietário de um imóvel na área de captação de água e gostaria de ter acesso às leituras do rádio medidor?",
+  "watersupplierAccessRequestQ1": "É proprietário de uma propriedade na área de captação da empresa de abastecimento de água e gostaria de ter acesso às leituras dos contadores via rádio?",
   "watersupplierAccessRequestQ2": "Você já solicitou acesso? Em seguida, você precisa criar uma conta de usuário EHW+.",
   "watersupplierAccessRequestQ3": "Você já solicitou acesso e recebeu seu código QR?",
   "watersupplierAccessRequestQ4": "Você gostaria de receber alertas do medidor para poder reagir em caso de estouro de cano ou descarga de vaso sanitário, por exemplo?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Deseja excluir o medidor de rádio sem invalidar o código de ativação?",
   "watersupplierUnlinkRadioMeterDescription2": "Você não deseja mais acessar os dados do seu medidor de rádio? Observação: assim que o código de revogação for digitalizado, o código de ativação se tornará inválido. Qualquer conta de usuário que tenha usado o código de ativação perderá o acesso.",
   "watersupplierUnlinkRadioMeterTitle": "Excluir medidor de rádio",
-  "watersupplierYourSupplier": "Seu fornecedor de água",
+  "watersupplierYourSupplier": "Fornecedor de água",
   "yearlyConsumption": "Consumo anual até à data",
   "yearlyCosts": "Custos de consumo até à data",
   "youtubeConsent1": "Precisamos do seu consentimento para exibir o conteúdo incorporado do Youtube. Você pode exibi-lo (e assim todo o conteúdo do Youtube no app) com um clique e desativá-lo novamente.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Insira um código postal de {digits} dígitos",
   "zipCodeValidationOnlyNumbers": "Um código postal válido consiste apenas em números",
   "wallbox": "Wallbox",
-  "monthEnd": "Fim de {month}"
+  "monthEnd": "Fim de {month}",
+  "waterSupplierUnknown": "Infelizmente, ainda não sabemos qual é o seu fornecedor de água. Não hesite em contactar-nos. Os fornecedores que apenas oferecem eletricidade e gás não aparecem aqui.",
+  "waterSupplierHint": "O seu fornecedor de água local, por exemplo, Stadtwerke Musterstadt"
 }

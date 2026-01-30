@@ -3339,7 +3339,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Είστε ιδιοκτήτης ακινήτου στη λεκάνη απορροής του υδραγωγείου και θα θέλατε να έχετε πρόσβαση σε ενδείξεις μετρητών ραδιοφώνου;';
+      'Είστε ιδιοκτήτης ακινήτου στην περιοχή υδροληψίας του προμηθευτή νερού και θα θέλατε να έχετε πρόσβαση στις μετρήσεις των ραδιομετρητών;';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3447,7 +3447,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Τερματισμός πρόσβασης μετρητή ραδιοφώνου';
 
   @override
-  String get watersupplierYourSupplier => 'Ο προμηθευτής νερού σας';
+  String get watersupplierYourSupplier => 'Προμηθευτής νερού';
 
   @override
   String get yearlyConsumption => 'Ετήσια κατανάλωση μέχρι τώρα';
@@ -3485,4 +3485,12 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Τέλος του $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Δυστυχώς, δεν γνωρίζουμε ακόμη τον προμηθευτή σας. Παρακαλούμε μη διστάσετε να μας γράψετε. Οι προμηθευτές που προσφέρουν μόνο ηλεκτρικό ρεύμα και φυσικό αέριο δεν εμφανίζονται εδώ.';
+
+  @override
+  String get waterSupplierHint =>
+      'Ο τοπικός σας προμηθευτής νερού, π.χ. Stadtwerke Musterstadt';
 }

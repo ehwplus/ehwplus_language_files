@@ -865,7 +865,7 @@
   "waterConsumption": "Consumo de agua",
   "waterExtractionMinimumLevelLower": "Se realiza una deducción porque el consumo es inferior al umbral.",
   "waterMeterEventsInformation": "{count, plural, =1 {Su contador de agua inalámbrico {waterSupplier} detecta un consumo inesperado. Si lo desea, recibirá una notificación en tal caso.} other {Sus contadores de agua inalámbricos {waterSupplier} detectan un consumo inesperado. Si lo desea, recibirá una notificación en tales casos.}}",
-  "watersupplierAccessRequestQ1": "¿Es usted propietario de un inmueble en la zona de abastecimiento de la compañía de aguas y desea tener acceso a las lecturas de los contadores de radio?",
+  "watersupplierAccessRequestQ1": "¿Es usted propietario de un inmueble en la zona de captación del proveedor de agua y desea tener acceso a las lecturas de los contadores por radio?",
   "watersupplierAccessRequestQ2": "¿Ya ha solicitado el acceso? A continuación, debe crear una cuenta de usuario de EHW+.",
   "watersupplierAccessRequestQ3": "¿Ya ha solicitado el acceso y ha recibido su código QR?",
   "watersupplierAccessRequestQ4": "¿Le gustaría recibir alertas de su medidor para poder reaccionar en caso de una tubería rota o un inodoro con descarga continua, por ejemplo?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "¿Desea eliminar el medidor de radio sin invalidar el código de activación?",
   "watersupplierUnlinkRadioMeterDescription2": "¿Ya no desea acceder a los datos de su medidor de radio? Tenga en cuenta que una vez que se escanea el código de revocación, el código de activación deja de ser válido. Cualquier cuenta de usuario que haya utilizado el código de activación perderá el acceso.",
   "watersupplierUnlinkRadioMeterTitle": "Eliminar contador de radio",
-  "watersupplierYourSupplier": "Tu proveedor de agua",
+  "watersupplierYourSupplier": "Proveedor de agua",
   "yearlyConsumption": "Consumo anual hasta la fecha",
   "yearlyCosts": "Costes de consumo hasta la fecha",
   "youtubeConsent1": "Necesitamos tu consentimiento para mostrar el contenido incrustado de Youtube. Puedes mostrarlo (y con ello todo el contenido de Youtube en la app) con un clic y también desactivarlo de nuevo.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Introduce un código postal de {digits} dígitos",
   "zipCodeValidationOnlyNumbers": "Un código postal válido solo contiene números",
   "wallbox": "Wallbox",
-  "monthEnd": "Fin de {month}"
+  "monthEnd": "Fin de {month}",
+  "waterSupplierUnknown": "Lamentablemente, aún no conocemos a su proveedor de agua. No dude en escribirnos. Los proveedores que sólo ofrecen electricidad y gas no aparecen aquí.",
+  "waterSupplierHint": "Su proveedor local de agua, por ejemplo, Stadtwerke Musterstadt"
 }

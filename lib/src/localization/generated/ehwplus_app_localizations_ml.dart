@@ -3322,7 +3322,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'നിങ്ങൾ വാട്ടർ വർക്കിൻ്റെ വൃഷ്ടിപ്രദേശത്തുള്ള ഒരു വസ്തുവിൻ്റെ ഉടമയാണോ കൂടാതെ റേഡിയോ മീറ്റർ റീഡിംഗുകളിലേക്ക് പ്രവേശനം നേടാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?';
+      'നിങ്ങൾ ജലവിതരണ സ്ഥാപനത്തിന്റെ പരിധിയിലുള്ള ഒരു വസ്തുവിന്റെ ഉടമയാണോ, കൂടാതെ റേഡിയോ മീറ്റർ റീഡിംഗുകൾ ലഭ്യമാക്കാൻ ആഗ്രഹിക്കുന്നുണ്ടോ?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3431,7 +3431,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
       'റേഡിയോ മീറ്റർ ആക്സസ് അവസാനിപ്പിക്കുക';
 
   @override
-  String get watersupplierYourSupplier => 'നിങ്ങളുടെ ജലവിതരണക്കാരൻ';
+  String get watersupplierYourSupplier => 'ജലവിതരണക്കാരൻ';
 
   @override
   String get yearlyConsumption => 'ഇതുവരെയുള്ള വാർഷിക ഉപഭോഗം';
@@ -3469,4 +3469,12 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month അവസാനം';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'നിർഭാഗ്യവശാൽ, നിങ്ങളുടെ ജലവിതരണക്കാരനെക്കുറിച്ച് ഞങ്ങൾക്ക് ഇതുവരെ അറിയില്ല. ദയവായി ഞങ്ങൾക്ക് എഴുതാവുന്നതാണ്. വൈദ്യുതിയും ഗ്യാസും മാത്രം നൽകുന്ന വിതരണക്കാർ ഇവിടെ കാണിക്കുന്നില്ല.';
+
+  @override
+  String get waterSupplierHint =>
+      'നിങ്ങളുടെ പ്രാദേശിക ജലവിതരണക്കാരൻ, ഉദാ. മാക്ക് ടൗൺ മുനിസിപ്പൽ യൂട്ടിലിറ്റീസ്';
 }

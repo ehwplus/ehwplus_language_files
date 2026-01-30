@@ -3307,7 +3307,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Bạn có phải là chủ sở hữu của một bất động sản trong khu vực lưu vực của nhà máy nước và muốn có quyền truy cập vào số liệu của đồng hồ vô tuyến không?';
+      'Bạn là chủ sở hữu bất động sản trong khu vực cung cấp nước và muốn truy cập vào số liệu đồng hồ đo từ xa?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3414,7 +3414,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Chấm dứt quyền truy cập vào máy đo sóng vô tuyến';
 
   @override
-  String get watersupplierYourSupplier => 'Nhà cung cấp nước của bạn';
+  String get watersupplierYourSupplier => 'Nhà cung cấp nước';
 
   @override
   String get yearlyConsumption => 'Tiêu thụ hàng năm cho đến nay';
@@ -3451,4 +3451,12 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Cuối tháng $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Chúng tôi chưa biết nhà cung cấp nước của bạn. Vui lòng gửi thư cho chúng tôi. Các nhà cung cấp chỉ cung cấp điện và gas sẽ không xuất hiện ở đây.';
+
+  @override
+  String get waterSupplierHint =>
+      'Nhà cung cấp nước gần nhất của bạn, ví dụ: Công ty dịch vụ công cộng Musterstadt';
 }

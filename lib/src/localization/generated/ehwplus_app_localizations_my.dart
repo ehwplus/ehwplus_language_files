@@ -3317,7 +3317,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'သင်ဟာရေဒီယိုမှာရှိတဲ့နေရာမှာပစ္စည်းဥစ်စာပိုင်ဆိုင်မှုပိုင်ရှင်လား, ရေဒီယိုမီတာဖတ်တာကိုရချင်ပါသလား။';
+      'သင်သည် ရေပေးဝေသူ၏ ရေထောက်ပံ့ဧရိယာအတွင်းရှိ အိမ်ခြံမြေတစ်ခု၏ ပိုင်ရှင်ဖြစ်ပြီး ရေတိုင်းတာကိရိယာ (radio meter) ဖတ်ချက်များကို ဝင်ရောက်ကြည့်ရှုလိုပါသလား။';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3423,7 +3423,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ';
 
   @override
-  String get watersupplierYourSupplier => 'သင့်ရေပေးသွင်း';
+  String get watersupplierYourSupplier => 'ရေပေးသွင်းသူ';
 
   @override
   String get yearlyConsumption => 'ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု';
@@ -3461,4 +3461,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$month ၏ အဆုံး';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'မကံဆိုးစွာဖြင့် ကျွန်ုပ်တို့သည် သင့်ရေပေးသွင်းသူကို မသိသေးပါ။ ကျေးဇူးပြု၍ ကျွန်ုပ်တို့ထံ စာရေးရန် လွတ်လပ်စွာ ဆက်သွယ်နိုင်ပါသည်။ လျှပ်စစ်နှင့် ဓာတ်ငွေ့သာ ပေးသွင်းသည့် ပံ့ပိုးပေးသူများသည် ဤနေရာတွင် မပါဝင်ပါ။';
+
+  @override
+  String get waterSupplierHint =>
+      'သင့်ဒေသခံ ရေပေးဝေသူ၊ ဥပမာ Mock Town မြို့နယ် ရေပေးဝေမှုဌာန';
 }

@@ -866,7 +866,7 @@
   "waterConsumption": "Tiêu thụ nước",
   "waterExtractionMinimumLevelLower": "Việc khấu trừ diễn ra vì mức tiêu thụ thấp hơn ngưỡng.",
   "waterMeterEventsInformation": "{count, plural, =1 {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong trường hợp như vậy.} other {Đồng hồ nước không dây {waterSupplier} của bạn phát hiện mức tiêu thụ nước ngoài dự kiến. Nếu muốn, bạn sẽ nhận được thông báo trong những trường hợp như vậy.}}",
-  "watersupplierAccessRequestQ1": "Bạn có phải là chủ sở hữu của một bất động sản trong khu vực lưu vực của nhà máy nước và muốn có quyền truy cập vào số liệu của đồng hồ vô tuyến không?",
+  "watersupplierAccessRequestQ1": "Bạn là chủ sở hữu bất động sản trong khu vực cung cấp nước và muốn truy cập vào số liệu đồng hồ đo từ xa?",
   "watersupplierAccessRequestQ2": "Bạn đã yêu cầu quyền truy cập chưa? Tiếp theo, bạn cần tạo tài khoản người dùng EHW+.",
   "watersupplierAccessRequestQ3": "Bạn đã yêu cầu quyền truy cập và nhận được mã QR của mình chưa?",
   "watersupplierAccessRequestQ4": "Bạn có muốn nhận thông báo từ đồng hồ đo để bạn có thể phản ứng trong trường hợp vỡ đường ống hoặc xả bồn cầu chẳng hạn?",
@@ -894,7 +894,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Bạn có muốn xóa đồng hồ đo sóng vô tuyến mà không làm mất hiệu lực mã kích hoạt không?",
   "watersupplierUnlinkRadioMeterDescription2": "Bạn không còn muốn truy cập vào dữ liệu máy đo sóng vô tuyến của mình nữa? Xin lưu ý: sau khi quét mã hủy, mã kích hoạt sẽ không hợp lệ. Bất kỳ tài khoản người dùng nào sử dụng mã kích hoạt sẽ mất quyền truy cập.",
   "watersupplierUnlinkRadioMeterTitle": "Chấm dứt quyền truy cập vào máy đo sóng vô tuyến",
-  "watersupplierYourSupplier": "Nhà cung cấp nước của bạn",
+  "watersupplierYourSupplier": "Nhà cung cấp nước",
   "yearlyConsumption": "Tiêu thụ hàng năm cho đến nay",
   "yearlyCosts": "Chi phí tiêu thụ hàng năm cho đến nay",
   "youtubeConsent1": "Chúng tôi cần sự đồng ý của bạn để hiển thị nội dung Youtube được nhúng. Bạn có thể hiển thị nội dung này (và do đó cũng như tất cả nội dung Youtube khác trong ứng dụng) chỉ bằng một cú nhấp chuột và cũng có thể tắt nó một lần nữa.",
@@ -904,5 +904,7 @@
   "zipCodeValidationLength": "Vui lòng nhập mã bưu chính {digits} chữ số",
   "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số",
   "wallbox": "Wallbox",
-  "monthEnd": "Cuối tháng {month}"
+  "monthEnd": "Cuối tháng {month}",
+  "waterSupplierUnknown": "Chúng tôi chưa biết nhà cung cấp nước của bạn. Vui lòng gửi thư cho chúng tôi. Các nhà cung cấp chỉ cung cấp điện và gas sẽ không xuất hiện ở đây.",
+  "waterSupplierHint": "Nhà cung cấp nước gần nhất của bạn, ví dụ: Công ty dịch vụ công cộng Musterstadt"
 }

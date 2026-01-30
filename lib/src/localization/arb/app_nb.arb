@@ -865,7 +865,7 @@
   "waterConsumption": "Vannforbruk",
   "waterExtractionMinimumLevelLower": "Fradrag skjer fordi forbruket er lavere enn terskel.",
   "waterMeterEventsInformation": "{count, plural, =1 {Din trådløse vannmåler {waterSupplier} oppdager uventet forbruk. Om ønskelig vil du motta et varsel i et slikt tilfelle.} other {Dine trådløse vannmålere {waterSupplier} oppdager uventet forbruk. Om ønskelig vil du motta et varsel i slike tilfeller.}}",
-  "watersupplierAccessRequestQ1": "Er du eier av en eiendom i vannverkets nedbørfelt og vil gjerne ha tilgang til radiomåleravlesning?",
+  "watersupplierAccessRequestQ1": "Er du eier av en eiendom i vannleverandørens nedslagsfelt og ønsker å få tilgang til radioavlesning av vannmålerne?",
   "watersupplierAccessRequestQ2": "Har du allerede bedt om tilgang? Deretter må du opprette en EHW+ brukerkonto.",
   "watersupplierAccessRequestQ3": "Har du allerede bedt om tilgang og mottatt QR-koden din?",
   "watersupplierAccessRequestQ4": "Ønsker du å motta målervarsling slik at du kan reagere ved for eksempel et rørsprengning eller rennende toalettspyling?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Vil du slette radiomåleren uten å ugyldiggjøre aktiveringskoden?",
   "watersupplierUnlinkRadioMeterDescription2": "Vil du ikke lenger ha tilgang til radiomålerdataene dine? Vennligst merk: når tilbakekallingskoden er skannet, blir aktiveringskoden ugyldig. Enhver brukerkonto som brukte aktiveringskoden vil miste tilgangen.",
   "watersupplierUnlinkRadioMeterTitle": "Avslutt tilgang til radiomåler",
-  "watersupplierYourSupplier": "Din vannleverandør",
+  "watersupplierYourSupplier": "Vannleverandør",
   "yearlyConsumption": "Årlig forbruk så langt",
   "yearlyCosts": "Årlige forbrukskostnader så langt",
   "youtubeConsent1": "Vi trenger ditt samtykke for å vise det innebygde YouTube-innholdet. Du kan vise dette (og dermed også alt annet Youtube-innhold i appen) med ett klikk og også deaktivere det igjen.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Vennligst skriv inn et {digits}-sifret postnummer",
   "zipCodeValidationOnlyNumbers": "Et gyldig postnummer består kun av tall",
   "wallbox": "Ladeboks",
-  "monthEnd": "Slutten av {month}"
+  "monthEnd": "Slutten av {month}",
+  "waterSupplierUnknown": "Vi vet dessverre ikke hvilken vannleverandør du har. Du er velkommen til å skrive til oss. Leverandører som kun tilbyr strøm og gass, vises ikke her.",
+  "waterSupplierHint": "Din lokale vannleverandør, f.eks. Stadtwerke Musterstadt"
 }

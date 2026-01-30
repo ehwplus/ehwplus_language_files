@@ -3285,7 +3285,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'هل أنت مالك عقار في منطقة خدمة محطة المياه وترغب بالحصول على الوصول إلى قراءات العدادات اللاسلكية؟';
+      'هل أنت مالك عقار في منطقة تجميع مورد المياه وترغب في الحصول على قراءات العدادات اللاسلكية؟';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3390,7 +3390,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'إنهاء الوصول إلى العداد اللاسلكي';
 
   @override
-  String get watersupplierYourSupplier => 'مزود المياه الخاص بك';
+  String get watersupplierYourSupplier => 'مورد المياه';
 
   @override
   String get yearlyConsumption => 'الاستهلاك السنوي حتى الآن';
@@ -3428,4 +3428,12 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'نهاية $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'للأسف، نحن لا نعرف حتى الآن مورد المياه الخاص بك. لا تتردد في مراسلتنا. الموردون الذين يقدمون الكهرباء والغاز فقط لا يظهرون هنا.';
+
+  @override
+  String get waterSupplierHint =>
+      'مورد المياه المحلي الخاص بك، مثل Stadtwererke Musterstadt';
 }

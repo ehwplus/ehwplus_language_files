@@ -865,7 +865,7 @@
   "waterConsumption": "Vattenförbrukning",
   "waterExtractionMinimumLevelLower": "Avdrag sker för att konsumtionen är lägre än tröskeln.",
   "waterMeterEventsInformation": "{count, plural, =1 {Din trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du en avisering i sådant fall.} other {Dina trådlösa vattenmätare {waterSupplier} upptäcker oväntad förbrukning. Om så önskas får du ett meddelande i sådana fall.}}",
-  "watersupplierAccessRequestQ1": "Är du ägare till en fastighet i vattenverkets upptagningsområde och vill ha tillgång till radiomätaravläsningar?",
+  "watersupplierAccessRequestQ1": "Är du ägare till en fastighet i vattenleverantörens upptagningsområde och vill ha tillgång till radiomätaravläsningar?",
   "watersupplierAccessRequestQ2": "Har du redan begärt åtkomst? Därefter måste du skapa ett EHW+-användarkonto.",
   "watersupplierAccessRequestQ3": "Har du redan begärt åtkomst och fått din QR-kod?",
   "watersupplierAccessRequestQ4": "Vill du få mätarvarningar så att du kan reagera vid exempelvis ett rörsprängt eller rinnande toalettspolning?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Vill du radera radiomätaren utan att ogiltigförklara aktiveringskoden?",
   "watersupplierUnlinkRadioMeterDescription2": "Vill du inte längre ha tillgång till din radiomätardata? Observera: när återkallningskoden har skannats blir aktiveringskoden ogiltig. Alla användarkonton som använde aktiveringskoden kommer att förlora åtkomst.",
   "watersupplierUnlinkRadioMeterTitle": "Avsluta radiomätaråtkomst",
-  "watersupplierYourSupplier": "Din vattenleverantör",
+  "watersupplierYourSupplier": "Vattenleverantör",
   "yearlyConsumption": "Årlig konsumtion hittills",
   "yearlyCosts": "Årliga konsumtionskostnader hittills",
   "youtubeConsent1": "Vi behöver ditt samtycke för att visa det inbäddade YouTube-innehållet. Du kan visa detta (och därmed även allt annat Youtube-innehåll i appen) med ett klick och även avaktivera det igen.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Vänligen ange ett {digits}-siffrigt postnummer",
   "zipCodeValidationOnlyNumbers": "Ett giltigt postnummer består endast av nummer",
   "wallbox": "Laddbox",
-  "monthEnd": "Slutet av {month}"
+  "monthEnd": "Slutet av {month}",
+  "waterSupplierUnknown": "Tyvärr känner vi ännu inte till din vattenleverantör. Du är välkommen att skriva till oss. Leverantörer som endast erbjuder el och gas visas inte här.",
+  "waterSupplierHint": "Din lokala vattenleverantör, t.ex. Stadtwerke Musterstadt"
 }

@@ -865,7 +865,7 @@
   "waterConsumption": "Matumizi ya maji",
   "waterExtractionMinimumLevelLower": "Kupunguza hufanyika kwa sababu matumizi ni chini kuliko kizingiti.",
   "waterMeterEventsInformation": "{count, plural, =1 {Mita yako ya maji isiyo na waya phtoken0 hugundua matumizi yasiyotarajiwa. Ikiwa inataka, utapokea arifa katika kesi kama hiyo.} other {Mita yako ya maji isiyo na waya phtoken0 hugundua matumizi yasiyotarajiwa. Ikiwa inataka, utapokea arifa katika hali kama hizi.}}",
-  "watersupplierAccessRequestQ1": "Je! Wewe ni mmiliki wa mali katika eneo la vifaa vya maji na ungependa kupata usomaji wa mita za redio?",
+  "watersupplierAccessRequestQ1": "Je, wewe ni mmiliki wa mali katika eneo la huduma ya mtoa maji na ungependa kupata ufikiaji wa usomaji wa mita kwa redio?",
   "watersupplierAccessRequestQ2": "Je! Tayari umeomba ufikiaji? Ifuatayo, unahitaji kuunda akaunti ya mtumiaji ya EHW+.",
   "watersupplierAccessRequestQ3": "Je! Tayari umeomba ufikiaji na umepokea nambari yako ya QR?",
   "watersupplierAccessRequestQ4": "Je! Ungependa kupokea arifu za mita ili uweze kuguswa ikiwa kunaweza kupasuka kwa bomba au bomba la choo, kwa mfano?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Je! Unataka kufuta mita ya redio bila kudhibitisha nambari ya uanzishaji?",
   "watersupplierUnlinkRadioMeterDescription2": "Je! Hautaki ufikiaji wa data yako ya mita ya redio? Tafadhali kumbuka: Mara tu nambari ya uondoaji itakapokaguliwa, nambari ya uanzishaji inakuwa batili. Akaunti yoyote ya mtumiaji ambayo ilitumia nambari ya uanzishaji itapoteza ufikiaji.",
   "watersupplierUnlinkRadioMeterTitle": "Kusitisha ufikiaji wa mita ya redio",
-  "watersupplierYourSupplier": "Muuzaji wako wa maji",
+  "watersupplierYourSupplier": "Mtoa maji",
   "yearlyConsumption": "Matumizi ya kila mwaka hadi sasa",
   "yearlyCosts": "Gharama ya matumizi ya kila mwaka hadi sasa",
   "youtubeConsent1": "Tunahitaji idhini yako kuonyesha yaliyomo kwenye YouTube. Unaweza kuonyesha hii (na kwa hivyo pia maudhui mengine yote ya YouTube kwenye programu) kwa kubonyeza moja na pia kuizuia tena.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Tafadhali ingiza nambari ya posta ya nambari ya phtoken0",
   "zipCodeValidationOnlyNumbers": "Nambari halali ya zip ina nambari tu",
   "wallbox": "Wallbox",
-  "monthEnd": "Mwisho wa {month}"
+  "monthEnd": "Mwisho wa {month}",
+  "waterSupplierUnknown": "Kwa bahati mbaya, bado hatujui msambazaji wako wa maji. Tafadhali jisikie huru kutuandikia. Watoa huduma wanaotoa umeme na gesi pekee hawapo hapa.",
+  "waterSupplierHint": "Mtoa maji wako wa eneo, k.m. Huduma za Manispaa za Mock Town"
 }

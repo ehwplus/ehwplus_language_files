@@ -3212,7 +3212,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'あなたは水道の集水域にある不動産の所有者で、電波メーターの測定値にアクセスしたいですか?';
+      '水道供給会社の集水域にある物件の所有者で、無線検針票の入手を希望されますか？';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3313,7 +3313,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '無線メーターへのアクセスを終了する';
 
   @override
-  String get watersupplierYourSupplier => 'あなたの水道業者';
+  String get watersupplierYourSupplier => '水サプライヤー';
 
   @override
   String get yearlyConsumption => 'これまでの年間消費量';
@@ -3350,4 +3350,11 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return '$monthの終わり';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      '残念ながら、私たちはまだあなたの水供給会社を知りません。お気軽にお問い合わせください。電気とガスのみの供給業者は、ここには表示されません。';
+
+  @override
+  String get waterSupplierHint => '地元の水道業者（例：Stadtwerke Musterstadt';
 }

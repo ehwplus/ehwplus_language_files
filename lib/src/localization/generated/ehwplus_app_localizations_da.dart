@@ -3302,7 +3302,7 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Er du ejer af en ejendom i vandværkets opland og vil du gerne have adgang til radiomåleraflæsninger?';
+      'Er du ejer af en ejendom i vandforsyningens indvindingsområde og vil gerne have adgang til radioaflæsninger?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3407,7 +3407,7 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Afslut radiomåleradgang';
 
   @override
-  String get watersupplierYourSupplier => 'Din vandleverandør';
+  String get watersupplierYourSupplier => 'Leverandør af vand';
 
   @override
   String get yearlyConsumption => 'Årligt forbrug indtil videre';
@@ -3445,4 +3445,12 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Slutning af $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'Desværre kender vi endnu ikke din vandleverandør. Du er velkommen til at skrive til os. Leverandører, der kun tilbyder el og gas, vises ikke her.';
+
+  @override
+  String get waterSupplierHint =>
+      'Din lokale vandforsyning, f.eks. Stadtwerke Musterstadt';
 }

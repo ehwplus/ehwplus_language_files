@@ -1488,7 +1488,7 @@
       }
     }
   },
-  "watersupplierAccessRequestQ1": "Are you the owner of a property in the catchment area of the waterworks and would like to have access to radio meter readings?",
+  "watersupplierAccessRequestQ1": "Are you the owner of a property in the catchment area of the water supplier and would like to have access to radio meter readings?",
   "watersupplierAccessRequestQ2": "Have you already requested access? Next, you need to create an EHW+ user account.",
   "watersupplierAccessRequestQ3": "Have you already requested access and received your QR code?",
   "watersupplierAccessRequestQ4": "Would you like to receive meter alerts so you can react in case of a pipe burst or a running toilet flush, for example?",
@@ -1516,7 +1516,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Do you want to delete the radio meter without invalidating the activation code?",
   "watersupplierUnlinkRadioMeterDescription2": "Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.",
   "watersupplierUnlinkRadioMeterTitle": "Terminate Radio Meter Access",
-  "watersupplierYourSupplier": "Your water supplier",
+  "watersupplierYourSupplier": "Water supplier",
   "yearlyConsumption": "Annual consumption so far",
   "yearlyCosts": "Annual consumption costs so far",
   "youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",
@@ -1535,5 +1535,7 @@
   },
   "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
   "wallbox": "Wallbox",
-  "monthEnd": "End of {month}"
+  "monthEnd": "End of {month}",
+  "waterSupplierUnknown": "Unfortunately, we do not yet know your water supplier. Please feel free to contact us. Suppliers who only offer electricity and gas do not appear here.",
+  "waterSupplierHint": "Your local water supplier, e.g. Stadtwerke Musterstadt"
 }

@@ -3304,7 +3304,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'آیا شما مالک ملکی در حوضه آبریز آب هستید و می خواهید به قرائت کنتورهای رادیویی دسترسی داشته باشید؟';
+      'آیا شما مالک ملکی در محدوده تحت پوشش تأمین‌کننده آب هستید و مایلید به قرائت‌های رادیویی کنتور دسترسی داشته باشید؟';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3409,7 +3409,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'دسترسی به رادیو متر را خاتمه دهید';
 
   @override
-  String get watersupplierYourSupplier => 'تامین کننده آب شما';
+  String get watersupplierYourSupplier => 'تأمین‌کنندهٔ آب';
 
   @override
   String get yearlyConsumption => 'مصرف سالانه تا کنون';
@@ -3447,4 +3447,12 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'پایان $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'متأسفانه هنوز تأمین‌کنندهٔ آب شما را نمی‌دانیم. لطفاً آزاد باشید که برای ما بنویسید. تأمین‌کنندگانی که فقط برق و گاز ارائه می‌دهند، در اینجا نمایش داده نمی‌شوند.';
+
+  @override
+  String get waterSupplierHint =>
+      'تأمین‌کننده محلی آب شما، مثلاً خدمات شهری موک تاون';
 }

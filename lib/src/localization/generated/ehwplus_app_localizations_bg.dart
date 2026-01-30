@@ -3329,7 +3329,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ1 =>
-      'Собственик ли сте на имот в района на обхвата на водоснабдителната компания и искате да имате достъп до показанията на радио водомерите?';
+      'Собственик ли сте на имот във водоснабдителната зона на доставчика на вода и желаете ли да имате достъп до показанията на радиометри?';
 
   @override
   String get watersupplierAccessRequestQ2 =>
@@ -3438,7 +3438,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Прекратяване на достъпа до радио водомер';
 
   @override
-  String get watersupplierYourSupplier => 'Вашият доставчик на вода';
+  String get watersupplierYourSupplier => 'Доставчик на вода';
 
   @override
   String get yearlyConsumption => 'Годишна консумация досега';
@@ -3476,4 +3476,12 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String monthEnd(Object month) {
     return 'Край на $month';
   }
+
+  @override
+  String get waterSupplierUnknown =>
+      'За съжаление все още не знаем какъв е вашият доставчик на вода. Моля, не се колебайте да ни пишете. Доставчиците, които предлагат само електричество и газ, не се появяват тук.';
+
+  @override
+  String get waterSupplierHint =>
+      'Вашият местен доставчик на вода, напр. Stadtwerke Musterstadt';
 }

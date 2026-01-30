@@ -865,7 +865,7 @@
   "waterConsumption": "Consommation d'eau",
   "waterExtractionMinimumLevelLower": "Une déduction est effectuée car la consommation est inférieure au seuil.",
   "waterMeterEventsInformation": "{count, plural, =1 {Votre compteur d'eau sans fil {waterSupplier} détecte une consommation inattendue. Si vous le souhaitez, vous recevrez une notification dans ce cas.} other {Vos compteurs d'eau sans fil {waterSupplier} détectent une consommation inattendue. Si vous le souhaitez, vous recevrez une notification dans ces cas.}}",
-  "watersupplierAccessRequestQ1": "Êtes-vous propriétaire d'un bien immobilier dans la zone de captage du service des eaux et souhaitez-vous avoir accès aux relevés de compteurs radio ?",
+  "watersupplierAccessRequestQ1": "Vous êtes propriétaire d'un bien immobilier situé dans la zone de desserte du fournisseur d'eau et vous souhaitez avoir accès aux relevés de compteurs radio ?",
   "watersupplierAccessRequestQ2": "Avez-vous déjà demandé un accès ? Vous devez ensuite créer un compte utilisateur EHW+.",
   "watersupplierAccessRequestQ3": "Avez-vous déjà demandé un accès et reçu votre QR Code ?",
   "watersupplierAccessRequestQ4": "Souhaitez-vous recevoir des alertes de compteur pour pouvoir réagir en cas de rupture de conduite ou de chasse d'eau qui coule, par exemple ?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Voulez-vous supprimer le compteur radio sans invalider le code d'activation ?",
   "watersupplierUnlinkRadioMeterDescription2": "Vous ne souhaitez plus avoir accès aux données de votre compteur radio ? Remarque : une fois le code de révocation scanné, le code d'activation devient invalide. Tout compte utilisateur ayant utilisé le code d'activation perdra l'accès.",
   "watersupplierUnlinkRadioMeterTitle": "Supprimer le compteur radio",
-  "watersupplierYourSupplier": "Votre fournisseur d'eau",
+  "watersupplierYourSupplier": "Fournisseur d'eau",
   "yearlyConsumption": "Consommation annuelle actuelle",
   "yearlyCosts": "Coûts de consommation annuels",
   "youtubeConsent1": "Nous avons besoin de ton consentement pour afficher le contenu Youtube intégré. Tu peux l'afficher (et donc tout le contenu Youtube de l'application) d'un clic et le désactiver à nouveau.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Veuillez saisir un code postal à {digits} chiffres",
   "zipCodeValidationOnlyNumbers": "Un code postal valide ne contient que des chiffres",
   "wallbox": "Borne de recharge",
-  "monthEnd": "Fin du {month}"
+  "monthEnd": "Fin du {month}",
+  "waterSupplierUnknown": "Nous ne connaissons malheureusement pas encore votre fournisseur d'eau. N'hésitez pas à nous écrire. Les fournisseurs qui ne proposent que de l'électricité et du gaz n'apparaissent pas ici.",
+  "waterSupplierHint": "Votre fournisseur d'eau de proximité, p. ex. Stadtwerke Musterstadt"
 }

@@ -865,7 +865,7 @@
   "waterConsumption": "Vandens suvartojimas",
   "waterExtractionMinimumLevelLower": "Išskaitymas vyksta, nes suvartojimas yra mažesnis už ribą.",
   "waterMeterEventsInformation": "{count, plural, =1 {Jūsų belaidis vandens skaitiklis {waterSupplier} aptinka netikėtą suvartojimą. Jei pageidaujate, tokiu atveju gausite pranešimą.} other {Jūsų belaidžiai vandens skaitikliai {waterSupplier} aptinka netikėtą suvartojimą. Jei pageidaujate, tokiais atvejais gausite pranešimą.}}",
-  "watersupplierAccessRequestQ1": "Ar esate vandens telkinio baseino teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte gauti radijo skaitiklių rodmenis?",
+  "watersupplierAccessRequestQ1": "Ar esate vandens tiekėjo aptarnaujamoje teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte turėti prieigą prie radijo skaitiklių rodmenų?",
   "watersupplierAccessRequestQ2": "Ar jau paprašėte prieigos? Tada turite sukurti EHW+ vartotojo paskyrą.",
   "watersupplierAccessRequestQ3": "Ar jau paprašėte prieigos ir gavote QR kodą?",
   "watersupplierAccessRequestQ4": "Ar norėtumėte gauti skaitiklio įspėjimus, kad galėtumėte reaguoti, pavyzdžiui, sprogus vamzdžiui arba nuleidus tualetą?",
@@ -893,7 +893,7 @@
   "watersupplierUnlinkRadioMeterDescription1": "Ar norite ištrinti radijo matuoklį nepanaikindami aktyvinimo kodo?",
   "watersupplierUnlinkRadioMeterDescription2": "Ar nebenorite prieiti prie radijo skaitiklio duomenų? Atkreipkite dėmesį: kai atšaukimo kodas nuskaitomas, aktyvinimo kodas tampa negaliojantis. Bet kuri vartotojo paskyra, kuri naudojo aktyvinimo kodą, neteks prieigos.",
   "watersupplierUnlinkRadioMeterTitle": "Nutraukti radijo skaitiklio prieigą",
-  "watersupplierYourSupplier": "Jūsų vandens tiekėjas",
+  "watersupplierYourSupplier": "Vandens tiekėjas",
   "yearlyConsumption": "Metinis suvartojimas iki šiol",
   "yearlyCosts": "Kol kas metinės vartojimo išlaidos",
   "youtubeConsent1": "Mums reikia jūsų sutikimo, kad galėtume rodyti įterptą „YouTube“ turinį. Šį (taigi ir visą kitą programėlės Youtube turinį) galite parodyti vienu spustelėjimu ir vėl jį išjungti.",
@@ -903,5 +903,7 @@
   "zipCodeValidationLength": "Įveskite {digits} skaitmenų pašto kodą",
   "zipCodeValidationOnlyNumbers": "Galiojantį pašto kodą sudaro tik skaičiai",
   "wallbox": "Sieninė įkrovimo stotelė",
-  "monthEnd": "{month} pabaiga"
+  "monthEnd": "{month} pabaiga",
+  "waterSupplierUnknown": "Deja, kol kas nežinome jūsų vandens tiekėjo. Nedvejodami rašykite mums. Tiekėjai, kurie siūlo tik elektros energiją ir dujas, čia nepateikiami.",
+  "waterSupplierHint": "Jūsų vietinis vandens tiekėjas, pvz., Stadtwerke Musterstadt"
 }
