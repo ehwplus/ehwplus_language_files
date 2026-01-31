@@ -16,6 +16,7 @@ enum LocaleClass {
   fi,
   fr,
   hi,
+  hu,
   hr,
   it,
   ja,

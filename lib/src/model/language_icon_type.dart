@@ -13,6 +13,7 @@ enum LanguageIconType {
   langFi('fi', 'Finnish', 'Suomi'),
   langFr('fr', 'French', 'Français'),
   langHi('hi', 'Hindi', 'हिन्दी'),
+  langHu('hu', 'Hungarian', 'Magyar'),
   langGr('el', 'Greek', 'Νέα Ελληνικά'),
   langHr('hr', 'Croatian', 'Hrvatski'),
   langIt('it', 'Italian', 'Italiano'),

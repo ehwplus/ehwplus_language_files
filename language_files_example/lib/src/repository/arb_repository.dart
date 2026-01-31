@@ -10,6 +10,7 @@ class ArbRepository {
   ArbRepository({String? arbDirectory}) : arbDirectory = arbDirectory ?? _resolveDefaultArbDirectory();
 
   final String arbDirectory;
+  final ValueNotifier<bool> quotaExceeded = ValueNotifier<bool>(false);
 
   static String _resolveDefaultArbDirectory() {
     const compileTimePath = String.fromEnvironment('ARB_DIR');
@@ -165,5 +166,17 @@ class ArbRepository {
       current = current.parent;
     }
     return null;
+  }
+
+  void markQuotaExceeded() {
+    if (!quotaExceeded.value) {
+      quotaExceeded.value = true;
+    }
+  }
+
+  void resetQuotaExceeded() {
+    if (quotaExceeded.value) {
+      quotaExceeded.value = false;
+    }
   }
 }

@@ -108,10 +108,9 @@ class DeepLTranslationService {
     final hasPlaceholders = _placeholderRegex.hasMatch(text);
     final preparedText = hasPlaceholders ? _wrapIgnoredTags(text) : text;
     final uri = Uri.parse('$baseUrl/v2/translate');
-    final response = await _client.post(
+    final response = await _postTranslateWithBackoff(
       uri,
-      headers: {'Authorization': 'DeepL-Auth-Key $_apiKey', 'User-Agent': 'arb-editor/1.0'},
-      body: {
+      {
         'text': preparedText,
         'target_lang': _normalizeLang(targetLang),
         if (sourceLang != null && sourceLang.trim().isNotEmpty) 'source_lang': _normalizeLang(sourceLang),
@@ -124,6 +123,9 @@ class DeepLTranslationService {
     );
 
     if (response.statusCode < 200 || response.statusCode >= 300) {
+      if (response.statusCode == 456) {
+        throw DeepLQuotaExceededException(response.body);
+      }
       if (response.body.contains('Bad request. Reason: Value for ') && response.body.contains('not supported.')) {
         throw UnsupportedError('Target language "$targetLang" is not supported by DeepL');
       }
@@ -173,7 +175,34 @@ class DeepLTranslationService {
   void close() {
     _client.close();
   }
+
+  Future<http.Response> _postTranslateWithBackoff(Uri uri, Map<String, String> body) async {
+    var attempt = 0;
+    var delayMs = _initialBackoffMs;
+
+    while (true) {
+      final response = await _client
+          .post(
+            uri,
+            headers: {'Authorization': 'DeepL-Auth-Key $_apiKey', 'User-Agent': 'arb-editor/1.0'},
+            body: body,
+          )
+          .timeout(_requestTimeout);
+
+      if (response.statusCode != 429 || attempt >= _max429Retries) {
+        return response;
+      }
+
+      await Future.delayed(Duration(milliseconds: delayMs));
+      delayMs *= 2;
+      attempt += 1;
+    }
+  }
 }
+
+const int _initialBackoffMs = 1000;
+const int _max429Retries = 4;
+const Duration _requestTimeout = Duration(seconds: 30);
 
 _BraceMatch? _extractBrace(String text, int startIndex) {
   var depth = 0;
@@ -291,3 +320,12 @@ class _IcuOption {
 final _placeholderRegex = RegExp(r'\{[a-zA-Z0-9_]+\}');
 const String _ignoreTagName = 'arbvar';
 const Set<String> _icuTypes = {'plural', 'select', 'selectordinal'};
+
+class DeepLQuotaExceededException implements Exception {
+  DeepLQuotaExceededException(this.message);
+
+  final String message;
+
+  @override
+  String toString() => message.isEmpty ? 'DeepL-Quota überschritten.' : message;
+}

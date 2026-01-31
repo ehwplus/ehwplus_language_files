@@ -21,6 +21,7 @@ import 'ehwplus_app_localizations_fi.dart';
 import 'ehwplus_app_localizations_fr.dart';
 import 'ehwplus_app_localizations_hi.dart';
 import 'ehwplus_app_localizations_hr.dart';
+import 'ehwplus_app_localizations_hu.dart';
 import 'ehwplus_app_localizations_it.dart';
 import 'ehwplus_app_localizations_ja.dart';
 import 'ehwplus_app_localizations_ko.dart';
@@ -147,6 +148,7 @@ abstract class EhwplusAppLocalizations {
     Locale('fr'),
     Locale('hi'),
     Locale('hr'),
+    Locale('hu'),
     Locale('it'),
     Locale('ja'),
     Locale('ko'),
@@ -5743,6 +5745,7 @@ class _EhwplusAppLocalizationsDelegate
     'fr',
     'hi',
     'hr',
+    'hu',
     'it',
     'ja',
     'ko',
@@ -5804,6 +5807,8 @@ EhwplusAppLocalizations lookupEhwplusAppLocalizations(Locale locale) {
       return EhwplusAppLocalizationsHi();
     case 'hr':
       return EhwplusAppLocalizationsHr();
+    case 'hu':
+      return EhwplusAppLocalizationsHu();
     case 'it':
       return EhwplusAppLocalizationsIt();
     case 'ja':

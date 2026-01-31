@@ -28,6 +28,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   late final Map<String, String> _initialValues;
   late final TextEditingController _apiKeyController;
   late String _currentKey;
+  late final ValueNotifier<bool> _quotaNotifier;
 
   bool _saving = false;
   bool _renaming = false;
@@ -37,6 +38,10 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   bool _translatingAll = false;
   bool _deleting = false;
   bool _didMutate = false;
+  bool _quotaExceeded = false;
+  String? _statusMessage;
+  int _batchTotal = 0;
+  int _batchDone = 0;
 
   @override
   void initState() {
@@ -46,6 +51,9 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     _initialValues = Map<String, String>.from(widget.record.values);
     _apiKeyController = TextEditingController(text: _initialApiKey());
     _currentKey = widget.record.key;
+    _quotaNotifier = widget.repository.quotaExceeded;
+    _quotaExceeded = _quotaNotifier.value;
+    _quotaNotifier.addListener(_handleQuotaChange);
 
     for (final locale in _locales) {
       _controllers[locale] = TextEditingController(text: widget.record.values[locale] ?? '');
@@ -58,7 +66,15 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     for (final controller in _controllers.values) {
       controller.dispose();
     }
+    _quotaNotifier.removeListener(_handleQuotaChange);
     super.dispose();
+  }
+
+  void _handleQuotaChange() {
+    if (!mounted) return;
+    setState(() {
+      _quotaExceeded = _quotaNotifier.value;
+    });
   }
 
   List<String> _orderedLocales(Set<String> locales) {
@@ -149,6 +165,35 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     }
   }
 
+  Future<void> _persistLocales(Set<String> locales) async {
+    for (var i = 0; i < widget.documents.length; i += 1) {
+      final doc = widget.documents[i];
+      if (!locales.contains(doc.locale)) continue;
+      final controller = _controllers[doc.locale];
+      if (controller == null) continue;
+      final value = controller.text;
+      if (value.trim().isEmpty) continue;
+
+      final updatedEntries = Map<String, ArbEntry>.from(doc.entries);
+      final existing = updatedEntries[_currentKey];
+      updatedEntries[_currentKey] =
+          (existing ?? ArbEntry(key: _currentKey, value: value)).copyWith(value: value);
+
+      final updatedDoc = doc.copyWith(entries: updatedEntries);
+      await widget.repository.saveDocument(updatedDoc);
+
+      widget.documents[i] = updatedDoc;
+
+      _initialValues[doc.locale] = value;
+    }
+
+    if (mounted) {
+      setState(() {
+        _didMutate = true;
+      });
+    }
+  }
+
   Future<void> _deleteKey() async {
     if (_saving || _deleting || _translatingAll || _renaming) return;
 
@@ -213,6 +258,10 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       _showSnack('Bitte DeepL API-Key eintragen (DEEPL_AUTH_KEY).');
       return;
     }
+    if (_quotaExceeded) {
+      _showSnack('DeepL-Quota erreicht. Übersetzung nicht möglich.');
+      return;
+    }
 
     final sourceLocale = _findSourceLocale(targetLocale);
     if (sourceLocale == null) {
@@ -228,6 +277,9 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
 
     setState(() {
       _translatingLocales.add(targetLocale);
+      _statusMessage = 'Übersetze nach ${_localeLabel(targetLocale)}...';
+      _batchTotal = 0;
+      _batchDone = 0;
       _error = null;
     });
 
@@ -238,11 +290,23 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       if (!mounted) return;
       setState(() {
         _controllers[targetLocale]?.text = translated;
+        _statusMessage = 'Übersetzung für ${_localeLabel(targetLocale)} gespeichert.';
       });
+      await _persistLocales({targetLocale});
+      await _regenerateLocalizations();
+    } on DeepLQuotaExceededException catch (e) {
+      widget.repository.markQuotaExceeded();
+      if (mounted) {
+        setState(() {
+          _statusMessage = 'Abgebrochen: DeepL-Quota erreicht.';
+        });
+      }
+      _showSnack('DeepL-Quota erreicht: $e');
     } catch (e) {
       if (!mounted) return;
       setState(() {
         _error = e.toString();
+        _statusMessage = 'Fehler bei der Übersetzung.';
       });
       _showSnack('DeepL: $e');
     } finally {
@@ -259,6 +323,10 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     final apiKey = _apiKeyController.text.trim();
     if (apiKey.isEmpty) {
       _showSnack('Bitte DeepL API-Key eintragen (DEEPL_AUTH_KEY).');
+      return;
+    }
+    if (_quotaExceeded) {
+      _showSnack('DeepL-Quota erreicht. Übersetzung nicht möglich.');
       return;
     }
 
@@ -280,24 +348,46 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     setState(() {
       _translatingAll = true;
       _translatingLocales.addAll(targetsToTranslate);
+      _batchTotal = targetsToTranslate.length;
+      _batchDone = 0;
+      _statusMessage = 'Starte Übersetzung (${targetsToTranslate.length} Sprachen)...';
       _error = null;
     });
 
+    var didTranslate = false;
     for (final locale in targetsToTranslate) {
       final sourceText = _controllers[sourceLocale]?.text.trim() ?? '';
       if (sourceText.isEmpty) continue;
 
       try {
+        if (mounted) {
+          setState(() {
+            _statusMessage = 'Übersetze ${locale.toUpperCase()} (${_batchDone + 1}/$_batchTotal)';
+          });
+        }
         final translated = await service.translate(text: sourceText, targetLang: locale, sourceLang: sourceLocale);
 
         if (!mounted) return;
         setState(() {
           _controllers[locale]?.text = translated;
+          _batchDone += 1;
         });
+        await _persistLocales({locale});
+        didTranslate = true;
+      } on DeepLQuotaExceededException catch (e) {
+        widget.repository.markQuotaExceeded();
+        if (mounted) {
+          setState(() {
+            _statusMessage = 'Abgebrochen: DeepL-Quota erreicht.';
+          });
+        }
+        _showSnack('DeepL-Quota erreicht: $e');
+        break;
       } catch (e) {
         if (mounted) {
           setState(() {
             _error = e.toString();
+            _statusMessage = 'Fehler bei ${locale.toUpperCase()}.';
           });
         }
         _showSnack('DeepL: $e');
@@ -305,10 +395,16 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     }
 
     service.close();
+    if (didTranslate) {
+      await _regenerateLocalizations();
+    }
     if (mounted) {
       setState(() {
         _translatingAll = false;
         _translatingLocales.removeAll(targetsToTranslate);
+        if (!_quotaExceeded && didTranslate) {
+          _statusMessage = 'Übersetzung abgeschlossen.';
+        }
       });
     }
   }
@@ -493,6 +589,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       setState(() {
         _apiKeyController.text = result;
       });
+      widget.repository.resetQuotaExceeded();
     }
   }
 
@@ -523,7 +620,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
                   : const Icon(Icons.delete),
             ),
             TextButton.icon(
-              onPressed: _saving || _translatingAll || _renaming ? null : _translateAll,
+              onPressed: _saving || _translatingAll || _renaming || _quotaExceeded ? null : _translateAll,
               icon: _translatingAll
                   ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
                   : const Icon(Icons.translate),
@@ -538,13 +635,56 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
             ),
           ],
         ),
-        body: ListView(
-          padding: const EdgeInsets.all(16),
-          children: [
-            if (_error != null) ...[Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error))],
-            ..._locales.map(
-              (locale) => Padding(
-                padding: const EdgeInsets.only(bottom: 16),
+      body: ListView(
+        padding: const EdgeInsets.all(16),
+        children: [
+          if (_error != null && !_translatingAll && _translatingLocales.isEmpty)
+            ...[Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error))],
+          if (_statusMessage != null || _translatingAll || _translatingLocales.isNotEmpty)
+            Container(
+              margin: const EdgeInsets.only(bottom: 16),
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.surfaceContainerHighest,
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      if (_translatingAll || _translatingLocales.isNotEmpty) ...[
+                        const SizedBox(
+                          width: 18,
+                          height: 18,
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        ),
+                        const SizedBox(width: 8),
+                      ] else
+                        Icon(Icons.info, color: Theme.of(context).colorScheme.onSurfaceVariant),
+                      Expanded(
+                        child: Text(
+                          _statusMessage ?? 'Status',
+                          style: Theme.of(context).textTheme.bodyMedium,
+                        ),
+                      ),
+                      if (_batchTotal > 0)
+                        Text(
+                          '${_batchDone.clamp(0, _batchTotal)}/$_batchTotal',
+                          style: Theme.of(context).textTheme.labelMedium,
+                        ),
+                    ],
+                  ),
+                  if (_batchTotal > 0) ...[
+                    const SizedBox(height: 8),
+                    LinearProgressIndicator(value: _batchDone / _batchTotal),
+                  ],
+                ],
+              ),
+            ),
+          ..._locales.map(
+            (locale) => Padding(
+              padding: const EdgeInsets.only(bottom: 16),
                 child: TextField(
                   controller: _controllers[locale],
                   maxLines: null,
@@ -575,7 +715,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     return IconButton(
       tooltip: 'Mit DeepL nach ${_localeLabel(locale)} übersetzen',
       icon: const Icon(Icons.translate),
-      onPressed: _saving || _translatingAll ? null : () => _translateLocale(locale),
+      onPressed: _saving || _translatingAll || _quotaExceeded ? null : () => _translateLocale(locale),
     );
   }
 
