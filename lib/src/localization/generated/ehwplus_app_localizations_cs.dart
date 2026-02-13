@@ -1971,9 +1971,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Čtení upomínek';
-
-  @override
   String get readingRemindersChannel => 'Čtení upomínek';
 
   @override
@@ -2015,6 +2012,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Vrácení peněz';
+
+  @override
+  String get reminderPeriod => 'Připomínkové období';
 
   @override
   String get reminderTime => 'Čas připomenutí';

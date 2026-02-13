@@ -1973,9 +1973,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Priminimų skaitymas';
-
-  @override
   String get readingRemindersChannel => 'Priminimų skaitymas';
 
   @override
@@ -2018,6 +2015,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Grąžinti pinigus';
+
+  @override
+  String get reminderPeriod => 'Priminimo laikotarpis';
 
   @override
   String get reminderTime => 'Priminimo laikas';

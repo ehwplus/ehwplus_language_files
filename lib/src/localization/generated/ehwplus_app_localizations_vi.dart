@@ -1968,9 +1968,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Lời nhắc đọc sách';
-
-  @override
   String get readingRemindersChannel => 'Lời nhắc đọc sách';
 
   @override
@@ -2013,6 +2010,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Đền bù';
+
+  @override
+  String get reminderPeriod => 'Thời gian ghi nhớ';
 
   @override
   String get reminderTime => 'Thời gian nhắc nhở';

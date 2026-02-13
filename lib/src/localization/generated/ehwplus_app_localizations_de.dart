@@ -1957,16 +1957,19 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String readingReminderMultiBody(int count) {
-    return 'Jetzt Werte von $count Zählern ablesen';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Jetzt Werte von $count Zählern ablesen',
+      one: 'Jetzt Wert von einem Zähler ablesen',
+    );
+    return '$_temp0';
   }
 
   @override
   String readingReminderSingleBody(String counterName) {
     return 'Jetzt $counterName-Wert ablesen';
   }
-
-  @override
-  String get readingReminders => 'Ableseerinnerungen';
 
   @override
   String get readingRemindersChannel => 'Ableseerinnerungen';
@@ -2011,6 +2014,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Rückerstattung';
+
+  @override
+  String get reminderPeriod => 'Erinnerungszeitraum';
 
   @override
   String get reminderTime => 'Erinnerungszeit';

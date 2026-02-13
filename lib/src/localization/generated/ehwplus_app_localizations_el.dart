@@ -1991,9 +1991,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Υπενθυμίσεις ανάγνωσης';
-
-  @override
   String get readingRemindersChannel => 'Υπενθυμίσεις ανάγνωσης';
 
   @override
@@ -2041,6 +2038,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Επιστροφή χρημάτων';
+
+  @override
+  String get reminderPeriod => 'Περίοδος υπενθύμισης';
 
   @override
   String get reminderTime => 'Χρόνος υπενθύμισης';

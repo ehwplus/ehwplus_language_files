@@ -1960,9 +1960,6 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'تذكيرات القراءة';
-
-  @override
   String get readingRemindersChannel => 'تذكيرات القراءة';
 
   @override
@@ -2005,6 +2002,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'الاسترداد';
+
+  @override
+  String get reminderPeriod => 'فترة التذكير';
 
   @override
   String get reminderTime => 'وقت التذكير';

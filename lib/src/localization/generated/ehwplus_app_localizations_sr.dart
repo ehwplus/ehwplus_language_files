@@ -1973,9 +1973,6 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Читање подсетника';
-
-  @override
   String get readingRemindersChannel => 'Читање подсетника';
 
   @override
@@ -2022,6 +2019,9 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Рефунд';
+
+  @override
+  String get reminderPeriod => 'период повраћаја';
 
   @override
   String get reminderTime => 'Време подсетника';

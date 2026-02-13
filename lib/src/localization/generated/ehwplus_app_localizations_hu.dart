@@ -1979,9 +1979,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Olvasási emlékeztetők';
-
-  @override
   String get readingRemindersChannel => 'Olvasási emlékeztetők';
 
   @override
@@ -2025,6 +2022,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Visszatérítés';
+
+  @override
+  String get reminderPeriod => 'Emlékeztető időszak';
 
   @override
   String get reminderTime => 'Emlékeztető idő';

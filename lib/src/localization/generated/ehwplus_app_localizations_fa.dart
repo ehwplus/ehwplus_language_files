@@ -1968,9 +1968,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'یادآوری‌های قرائت';
-
-  @override
   String get readingRemindersChannel => 'یادآوری‌های قرائت';
 
   @override
@@ -2015,6 +2012,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'بازپرداخت';
+
+  @override
+  String get reminderPeriod => 'دورهٔ فراخوان';
 
   @override
   String get reminderTime => 'زمان یادآوری';

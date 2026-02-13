@@ -3327,7 +3327,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @readingReminderMultiBody.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one {Read readings from {count} meter now} other {Read readings from {count} meters now}}'**
+  /// **'{count, plural, one {Read reading from {count} meter now} other {Read readings from {count} meters now}}'**
   String readingReminderMultiBody(int count);
 
   /// No description provided for @readingReminderSingleBody.
@@ -3335,12 +3335,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Read {counterName} value now'**
   String readingReminderSingleBody(String counterName);
-
-  /// No description provided for @readingReminders.
-  ///
-  /// In en, this message translates to:
-  /// **'Reading reminders'**
-  String get readingReminders;
 
   /// No description provided for @readingRemindersChannel.
   ///
@@ -3425,6 +3419,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Refund'**
   String get refund;
+
+  /// No description provided for @reminderPeriod.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder period'**
+  String get reminderPeriod;
 
   /// No description provided for @reminderTime.
   ///

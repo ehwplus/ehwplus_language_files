@@ -866,7 +866,7 @@
     }
   },
   "readingReminderDisabled": "Reading reminder not active",
-  "readingReminderMultiBody": "{count, plural, one {Read readings from {count} meter now} other {Read readings from {count} meters now}}",
+  "readingReminderMultiBody": "{count, plural, one {Read reading from {count} meter now} other {Read readings from {count} meters now}}",
   "@readingReminderMultiBody": {
     "placeholders": {
       "count": {
@@ -882,7 +882,6 @@
       }
     }
   },
-  "readingReminders": "Reading reminders",
   "readingRemindersChannel": "Reading reminders",
   "readingSubmitted": "Meter reading submitted",
   "readingTime": "Reading time",
@@ -897,6 +896,7 @@
   "reallyDeletePhoto": "Are you sure you want to delete the meter reading photo?",
   "reallyDeleteValue": "Do you really want to delete this value?",
   "refund": "Refund",
+  "reminderPeriod": "Reminder period",
   "reminderTime": "Reminder time",
   "reminderWeekdayExplanation": "There is a reminder to take a reading no more than once a day.",
   "reminderWeekdayExplanationSeasonal": "For meters with seasonal consumption, reminders are only sent in months with consumption (works only if values of the last year are given).",

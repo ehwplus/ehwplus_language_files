@@ -1969,9 +1969,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Kusoma ukumbusho';
-
-  @override
   String get readingRemindersChannel => 'Kusoma ukumbusho';
 
   @override
@@ -2014,6 +2011,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Malipo';
+
+  @override
+  String get reminderPeriod => 'Kipindi cha kumbukumbu';
 
   @override
   String get reminderTime => 'Wakati wa ukumbusho';

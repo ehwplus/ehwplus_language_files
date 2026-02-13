@@ -1920,9 +1920,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => '読書リマインダー';
-
-  @override
   String get readingRemindersChannel => '読書リマインダー';
 
   @override
@@ -1963,6 +1960,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get refund => '返金';
+
+  @override
+  String get reminderPeriod => 'リマインダー期間';
 
   @override
   String get reminderTime => 'リマインダー時間';

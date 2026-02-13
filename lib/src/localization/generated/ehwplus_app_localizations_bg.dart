@@ -1982,9 +1982,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Напомняния за отчитане';
-
-  @override
   String get readingRemindersChannel => 'Напомняния за отчитане';
 
   @override
@@ -2033,6 +2030,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Възстановяване';
+
+  @override
+  String get reminderPeriod => 'Период на напомняне';
 
   @override
   String get reminderTime => 'Време за напомняне';

@@ -1958,7 +1958,7 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
       count,
       locale: localeName,
       other: 'Read readings from $count meters now',
-      one: 'Read readings from $count meter now',
+      one: 'Read reading from $count meter now',
     );
     return '$_temp0';
   }
@@ -1967,9 +1967,6 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String readingReminderSingleBody(String counterName) {
     return 'Read $counterName value now';
   }
-
-  @override
-  String get readingReminders => 'Reading reminders';
 
   @override
   String get readingRemindersChannel => 'Reading reminders';
@@ -2016,6 +2013,9 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Refund';
+
+  @override
+  String get reminderPeriod => 'Reminder period';
 
   @override
   String get reminderTime => 'Reminder time';

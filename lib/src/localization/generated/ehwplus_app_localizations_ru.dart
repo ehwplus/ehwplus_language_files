@@ -1969,16 +1969,19 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String readingReminderMultiBody(int count) {
-    return 'Считывание показаний с $count счетчиков в настоящее время';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Считайте показания счетчиков $count прямо сейчас',
+      one: 'Прочитать показания счетчика $count сейчас',
+    );
+    return '$_temp0';
   }
 
   @override
   String readingReminderSingleBody(String counterName) {
     return 'Считать показания счетчика $counterName сейчас';
   }
-
-  @override
-  String get readingReminders => 'Руководство по считыванию';
 
   @override
   String get readingRemindersChannel => 'Руководство по считыванию';
@@ -2024,6 +2027,9 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Погашение';
+
+  @override
+  String get reminderPeriod => 'Период напоминания';
 
   @override
   String get reminderTime => 'Время памяти';

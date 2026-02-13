@@ -1967,9 +1967,6 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'Lesing herinnerings';
-
-  @override
   String get readingRemindersChannel => 'Lesing herinnerings';
 
   @override
@@ -2012,6 +2009,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'Terugbetaling';
+
+  @override
+  String get reminderPeriod => 'terugroepperiode';
 
   @override
   String get reminderTime => 'Herinneringstyd';

@@ -1959,9 +1959,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => 'คำเตือนการอ่าน';
-
-  @override
   String get readingRemindersChannel => 'คำเตือนการอ่าน';
 
   @override
@@ -2004,6 +2001,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get refund => 'คืนเงิน';
+
+  @override
+  String get reminderPeriod => 'ระยะเวลาการระลึกถึง';
 
   @override
   String get reminderTime => 'เวลาเตือนความจำ';

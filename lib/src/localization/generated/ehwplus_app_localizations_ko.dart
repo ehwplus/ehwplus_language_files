@@ -1919,9 +1919,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   }
 
   @override
-  String get readingReminders => '지침 알림';
-
-  @override
   String get readingRemindersChannel => '지침 알림';
 
   @override
@@ -1962,6 +1959,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get refund => '환불';
+
+  @override
+  String get reminderPeriod => '알림 기간';
 
   @override
   String get reminderTime => '알림 시각';
