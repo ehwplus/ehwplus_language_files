@@ -12,55 +12,55 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get accountAbout => 'Τι μπορεί να κάνει ο λογαριασμός χρήστη EHW+;';
 
   @override
-  String get accountBenefit1 => 'Πιο αξιόπιστη αναγνώριση αγοράς';
+  String get accountBenefit1 => 'Πιο αξιόπιστη αναγνώριση αγορών';
 
   @override
   String get accountBenefit2 =>
-      'Πρόσβαση σε όλες τις αγορασμένες επεκτάσεις σε πολλές συσκευές';
+      'Πρόσβαση σε όλες τις αγορασμένες επεκτάσεις σε πολλαπλές συσκευές';
 
   @override
   String get accountButtonSetup => 'Ρύθμιση λογαριασμού χρήστη EHW+';
 
   @override
   String get accountFaqA1 =>
-      'Ο λογαριασμός χρήστη EHW+ προσφέρει μια εναλλακτική μέθοδο για την επαναφορά αγορών όταν η επαναφορά μέσω του App Store δεν είναι δυνατή, αυξάνοντας την αξιοπιστία. Επιπλέον, επιτρέπει την επαναφορά αγορών σε μια συσκευή όπου η αγορά δεν πραγματοποιήθηκε αρχικά. Στο μέλλον, θα είναι επίσης δυνατή η αποθήκευση ρυθμίσεων και πολλά άλλα.';
+      'Ο λογαριασμός χρήστη EHW+ προσφέρει μια εναλλακτική μέθοδο για την επαναφορά αγορών όταν δεν είναι δυνατή η επαναφορά μέσω του App Store, αυξάνοντας την αξιοπιστία. Επιπλέον, επιτρέπει την αποκατάσταση των αγορών σε μια συσκευή στην οποία η αγορά δεν πραγματοποιήθηκε αρχικά. Στο μέλλον, θα είναι επίσης δυνατή η αποθήκευση ρυθμίσεων και άλλα.';
 
   @override
   String get accountFaqA2 =>
-      'Ναι, οι αγορές μπορούν ακόμα να αποκατασταθούν σε μια συσκευή Android μέσω του Play Store ή σε ένα iPhone μέσω του App Store. Ο λογαριασμός χρήστη EHW+ παρέχει μια εναλλακτική μέθοδο για την επαναφορά αγορών όταν η επαναφορά μέσω του App Store δεν είναι δυνατή, αυξάνοντας την αξιοπιστία. Επιπλέον, επιτρέπει την επαναφορά αγορών σε μια συσκευή όπου η αγορά δεν πραγματοποιήθηκε αρχικά.';
+      'Ναι, οι αγορές μπορούν ακόμα να αποκατασταθούν σε μια συσκευή Android μέσω του Play Store ή σε ένα iPhone μέσω του App Store. Ο λογαριασμός χρήστη EHW+ παρέχει μια εναλλακτική μέθοδο για την αποκατάσταση αγορών όταν δεν είναι δυνατή η αποκατάσταση μέσω του App Store, αυξάνοντας την αξιοπιστία. Επιπλέον, επιτρέπει την αποκατάσταση των αγορών σε μια συσκευή στην οποία η αγορά δεν πραγματοποιήθηκε αρχικά.';
 
   @override
   String get accountFaqQ1 => 'Τι είναι ο λογαριασμός χρήστη EHW+;';
 
   @override
   String get accountFaqQ2 =>
-      'Θα εξακολουθώ να έχω πρόσβαση στις αγορές μου χωρίς λογαριασμό χρήστη EHW+;';
+      'Θα εξακολουθήσω να έχω πρόσβαση στις αγορές μου χωρίς λογαριασμό χρήστη EHW+;';
 
   @override
-  String get accountFaqTitle => 'Συχνές Ερωτήσεις:';
+  String get accountFaqTitle => 'Συχνές ερωτήσεις:';
 
   @override
   String get accountThankYouForPurchase =>
-      'Σας ευχαριστώ! Θέλετε να εξασφαλίσετε την αγορά στον λογαριασμό χρήστη EHW+ τώρα;';
+      'Σας ευχαριστώ! Θα θέλατε να εξασφαλίσετε την αγορά στο λογαριασμό σας στο EHW+ τώρα;';
 
   @override
   String get accountUpdateInfo => 'Νέο: Ο λογαριασμός χρήστη EHW+';
 
   @override
   String get activitiesDescription =>
-      'Συνδέστε τις ενδείξεις των μετρητών με δραστηριότητες, π.χ. πλύσιμο με μετρητές κρύου νερού και μετρητές ρεύματος.';
+      'Συνδέστε τις ενδείξεις των μετρητών με δραστηριότητες, π.χ. πλύσιμο με μετρητές κρύου νερού και μετρητές ηλεκτρικής ενέργειας.';
 
   @override
   String get activitiesTitle => 'Οι δραστηριότητές μου';
 
   @override
-  String get activityBath => 'Λούτρο';
+  String get activityBath => 'Μπάνιο';
 
   @override
   String get activityDishWasher => 'Πλυντήριο πιάτων';
 
   @override
-  String get activityIron => 'Σινέρωμα';
+  String get activityIron => 'Σιδέρωμα';
 
   @override
   String get activityNameLabel => 'Όνομα δραστηριότητας';
@@ -97,7 +97,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get activityWithEnergyConsumption =>
-      'Η κατανάλωση ενέργειας μετράται μόνο για δραστηριότητα';
+      'Η κατανάλωση ισχύος μετράται μόνο για τη δραστηριότητα';
 
   @override
   String get addActivity => 'Προσθήκη δραστηριότητας';
@@ -106,23 +106,23 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get addDetail => 'Προσθέστε λεπτομέρεια';
 
   @override
-  String get addNewValue => 'Εισαγάγετε νέα τιμή';
+  String get addNewValue => 'Εισάγετε νέα τιμή';
 
   @override
   String get advancePayment => 'Προκαταβολή';
 
   @override
-  String get appBarExpandedMode => 'Γραμμή εφαρμογών με εικόνα φόντου';
+  String get appBarExpandedMode => 'Μπάρα εφαρμογών με εικόνα φόντου';
 
   @override
   String get appDescriptionLong =>
-      '<p>Καλώς ήρθατε στο <b>EHW+</b>, την εφαρμογή ανάγνωσης μετρητών για <b>E</b>ηλεκτρισμό, <b>H</b>φαγία και <b>W</b>ater. Μαζί μας, μπορείτε να παρακολουθείτε εύκολα<b> <b>0 πόσο χρησιμοποιείτε και τι κοστίζει<b>1 <b>2<b>3 δωρεάν.<b>4';
+      '<p>Καλώς ήρθατε στο <b>EHW+</b>, την εφαρμογή ανάγνωσης μετρητών για <b>E</b>ηλεκτρική ενέργεια, <b>H</b>φαγητό και <b>W</b>τρόφιμα. Μαζί μας, μπορείτε εύκολα να παρακολουθείτε<b> </b>πόσο καταναλώνετε και τι<b> </b> κοστίζει</b> δωρεάν.</p>';
 
   @override
   String get appDescriptionShort => 'Καλό για το πορτοφόλι, καλό για το κλίμα';
 
   @override
-  String get appName => 'EHW+ | Κατανάλωση & ενδείξεις μετρητών';
+  String get appName => 'EHW+ | Κατανάλωση & μετρήσεις μετρητών';
 
   @override
   String get appNameShort => 'EHW+';
@@ -131,24 +131,24 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get areYouSure => 'Είσαι σίγουρος;';
 
   @override
-  String get basePrice => 'Τιμή βάσης';
+  String get basePrice => 'Βασική τιμή';
 
   @override
-  String get bonus => 'Δώρο';
+  String get bonus => 'Μπόνους';
 
   @override
   String get bonusInfoText =>
-      'Τα τιμολόγια με μπόνους συχνά επιτρέπουν ιδιαίτερα υψηλές εξοικονομήσεις κατά την αλλαγή παρόχου. Ωστόσο, αυτό συνήθως προκύπτει αποκλειστικά από το εφάπαξ μπόνους. Αυτό σημαίνει: Το συνολικό κόστος είναι τόσο χαμηλό μόνο κατά το πρώτο έτος προσφοράς. Η υψηλή εργασία ή/και οι βασικές τιμές παρέχουν κατά το δεύτερο έτος σαφώς υψηλότερο υπολογισμό. Επομένως, με τις τιμές μπόνους θα πρέπει να σχεδιάσετε από την αρχή να αλλάξετε ξανά μετά από ένα χρόνο. Τα τιμολόγια μπόνους με διάρκεια δύο ετών, όπου αυτή η ακύρωση δεν είναι καθόλου δυνατή, θα πρέπει να αμφισβητηθούν ιδιαίτερα επικριτικά.';
+      'Τα τιμολόγια με μπόνους συχνά επιτρέπουν ιδιαίτερα υψηλές εξοικονομήσεις κατά την αλλαγή παρόχου. Ωστόσο, αυτό προκύπτει συνήθως αποκλειστικά από το εφάπαξ μπόνους. Αυτό σημαίνει ότι: Το συνολικό κόστος είναι τόσο χαμηλό μόνο κατά το πρώτο έτος της παροχής. Οι υψηλές εργασίες ή/και οι βασικές τιμές προβλέπουν κατά το δεύτερο έτος σαφώς υψηλότερο υπολογισμό. Επομένως, με τα τιμολόγια μπόνους θα πρέπει να προγραμματίσετε εξαρχής να αλλάξετε και πάλι μετά από ένα έτος. Τα τιμολόγια μπόνους με διάρκεια δύο ετών, όπου αυτή η ακύρωση δεν είναι καθόλου δυνατή, θα πρέπει να αμφισβητούνται ιδιαίτερα κριτικά.';
 
   @override
-  String get bonusInfoTitle => 'Πληροφορίες σχετικά με τις τιμές μπόνους';
+  String get bonusInfoTitle => 'Πληροφορίες σχετικά με τα τιμολόγια μπόνους';
 
   @override
   String get cancellationPeriod => 'Περίοδος ακύρωσης';
 
   @override
   String get changeCounterOrder =>
-      'Εάν είναι απαραίτητο, μπορείτε να αλλάξετε την παραγγελία';
+      'Εάν είναι απαραίτητο, μπορείτε να αλλάξετε τη σειρά';
 
   @override
   String get chartDottedLinesNonSeasonal =>
@@ -160,15 +160,15 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get chartHorizontalLineElectricityGas =>
-      'Η πράσινη γραμμή σημαίνει πολύ καλή κατανάλωση, η κίτρινη γραμμή για καλή κατανάλωση, η κόκκινη γραμμή για τη γερμανική μέση κατανάλωση.';
+      'Η πράσινη γραμμή αντιπροσωπεύει την πολύ καλή κατανάλωση, η κίτρινη γραμμή την καλή κατανάλωση και η κόκκινη γραμμή τη μέση κατανάλωση της Γερμανίας.';
 
   @override
   String get chartHorizontalLineWater =>
-      'Κατά μέσο όρο, κάθε άτομο στη Γερμανία χρησιμοποιεί 127 λίτρα πόσιμου νερού στο νοικοκυριό κάθε μέρα. Η μπλε γραμμή αντιπροσωπεύει κρύο νερό (60%), η κόκκινη γραμμή ζεστό νερό (40%), με παρέκταση στον αριθμό των ημερών της περιόδου και στον αριθμό των ατόμων.';
+      'Κατά μέσο όρο, κάθε άτομο στη Γερμανία χρησιμοποιεί 127 λίτρα πόσιμου νερού στο νοικοκυριό του κάθε μέρα. Η μπλε γραμμή αντιπροσωπεύει το κρύο νερό (60%), η κόκκινη γραμμή το ζεστό νερό (40%), προεκτιμημένη με βάση τον αριθμό των ημερών της περιόδου και τον αριθμό των ατόμων.';
 
   @override
   String get chartHorizontalLines =>
-      'Οι διακεκομμένες γραμμές προορίζονται να παρέχουν σχόλια για τη δική σας κατανάλωση.';
+      'Οι διακεκομμένες γραμμές έχουν ως στόχο να παρέχουν ανατροφοδότηση σχετικά με τη δική σας κατανάλωση.';
 
   @override
   String get chooseActivity => 'Επιλέξτε δραστηριότητα';
@@ -180,7 +180,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get coldWater => 'Κρύο νερό';
 
   @override
-  String get cometConsentScreenAcceptButton => 'Θέλω να δώσω σχόλια';
+  String get cometConsentScreenAcceptButton => 'Θέλω να δώσω ανατροφοδότηση';
 
   @override
   String get cometConsentScreenDataCanBeUsedForTraining =>
@@ -191,11 +191,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get cometConsentScreenFeedbackDescription =>
-      'Η χρήση της πρόβλεψης είναι δωρεάν, αλλά η ερευνητική ομάδα χρειάζεται σχόλια για το πόσο καλά λειτουργεί η υπηρεσία.';
+      'Η χρήση της πρόβλεψης είναι δωρεάν, αλλά η ερευνητική ομάδα χρειάζεται ανατροφοδότηση σχετικά με το πόσο καλά λειτουργεί η υπηρεσία.';
 
   @override
   String get cometConsentScreenFeedbackMethod =>
-      'Τα σχόλια παρέχονται αυτόματα όταν χρησιμοποιείτε την υπηρεσία πρόβλεψης και συμφωνείτε με τη βελτιστοποίηση.';
+      'Η ανατροφοδότηση παρέχεται αυτόματα όταν χρησιμοποιείτε την υπηρεσία πρόβλεψης και συμφωνείτε με τη βελτιστοποίηση.';
 
   @override
   String get cometConsentScreenFeedbackTitle =>
@@ -210,30 +210,29 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get cometConsentScreenOfflineDescription =>
-      'Μια απλοποιημένη τοπική πρόβλεψη θα υπολογιστεί στη συσκευή σας.';
+      'Μια απλοποιημένη τοπική πρόγνωση θα υπολογιστεί στη συσκευή σας.';
 
   @override
   String get cometConsentScreenOfflineDescriptionTitle =>
-      'Χωρίς σύνδεση στο Διαδίκτυο:';
+      'Χωρίς σύνδεση στο Internet:';
 
   @override
   String get cometConsentScreenOnlineDescription =>
-      'Τα δεδομένα κατανάλωσής σας θα σταλούν στο Πανεπιστήμιο Goethe της Φρανκφούρτης, όπου θα δημιουργηθεί μια μεμονωμένη πρόβλεψη και θα εμφανιστεί στην εφαρμογή.';
+      'Τα δεδομένα της κατανάλωσής σας θα αποσταλούν στο Πανεπιστήμιο Goethe της Φρανκφούρτης, όπου θα δημιουργηθεί μια ατομική πρόβλεψη και θα εμφανιστεί στην εφαρμογή.';
 
   @override
   String get cometConsentScreenOnlineDescriptionTitle =>
-      'Με σύνδεση στο Διαδίκτυο:';
+      'Με σύνδεση στο Internet:';
 
   @override
-  String get cometConsentScreenToggleLabel =>
-      'Χρησιμοποιήστε την υπηρεσία πρόβλεψης';
+  String get cometConsentScreenToggleLabel => 'Χρήση υπηρεσίας πρόβλεψης';
 
   @override
   String get cometSettingsIsPredictionsApiEnabled =>
-      'Χρησιμοποιήστε το COMET Forecast API από το Ινστιτούτο Γκαίτε';
+      'Χρησιμοποιήστε το COMET Forecast API από το Ινστιτούτο Goethe';
 
   @override
-  String get comment => 'Bote';
+  String get comment => 'Σημείωση';
 
   @override
   String get commonAnd => 'και';
@@ -242,31 +241,31 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get commonBack => 'Πίσω';
 
   @override
-  String get commonCancel => 'Ματαίωση';
+  String get commonCancel => 'Ακύρωση';
 
   @override
   String get commonChange => 'Αλλαγή';
 
   @override
-  String get commonChangeSaved => 'Η αλλαγή αποθηκεύτηκε';
+  String get commonChangeSaved => 'Αλλαγή αποθηκευμένη';
 
   @override
-  String get commonClose => 'Κοντά';
+  String get commonClose => 'Κλείστε το';
 
   @override
   String get commonCollapse => 'Κατάρρευση';
 
   @override
-  String get commonContinue => 'Συνεχίζω';
+  String get commonContinue => 'Συνεχίστε';
 
   @override
-  String get commonCopiedToClipboard => 'Αντιγράφηκε στο πρόχειρο';
+  String get commonCopiedToClipboard => 'Αντιγραφή στο πρόχειρο';
 
   @override
   String get commonDay => 'ημέρα';
 
   @override
-  String get commonDelete => 'Διαγράφω';
+  String get commonDelete => 'Διαγραφή';
 
   @override
   String get commonLearnMore => 'Μάθετε περισσότερα';
@@ -275,16 +274,16 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get commonLoadingData => 'Φόρτωση δεδομένων';
 
   @override
-  String get commonLoggingIn => 'Σύνδεσή σας...';
+  String get commonLoggingIn => 'Σας συνδέω...';
 
   @override
-  String get commonLoggingOut => 'Αποσύνδεσή σας...';
+  String get commonLoggingOut => 'Σε υπογράφω...';
 
   @override
   String get commonLogin => 'Συνδεθείτε';
 
   @override
-  String get commonLogout => 'Αποσυνδεθείτε';
+  String get commonLogout => 'Υπογράψτε έξω';
 
   @override
   String get commonMaximum => 'Υψηλότερη ημερήσια αξία';
@@ -296,41 +295,41 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get commonMonth => 'μήνας';
 
   @override
-  String get commonMore => 'Περισσότερο';
+  String get commonMore => 'Περισσότερα';
 
   @override
-  String get commonNo => 'Όχι';
+  String get commonNo => 'όχι';
 
   @override
   String get commonNotAuthenticated => 'Δεν έχετε πιστοποιηθεί.';
 
   @override
-  String get commonOk => 'ΕΝΤΑΞΕΙ';
+  String get commonOk => 'OK';
 
   @override
-  String get commonOpen => 'Ανοιχτό';
+  String get commonOpen => 'Ανοίξτε το';
 
   @override
-  String get commonSave => 'Εκτός';
+  String get commonSave => 'Αποθήκευση';
 
   @override
-  String get commonSend => 'Υποτάσσομαι';
+  String get commonSend => 'Υποβολή';
 
   @override
-  String get commonShare => 'Μερίδιο';
+  String get commonShare => 'Μοιραστείτε το';
 
   @override
   String get commonUpdateNow => 'Ενημέρωση τώρα';
 
   @override
-  String get commonUserLogin => 'Είσοδος χρήστη';
+  String get commonUserLogin => 'Σύνδεση χρήστη';
 
   @override
   String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
     int notSubmitted,
     int total,
   ) {
-    return 'Χρησιμοποιείτε τον λογαριασμό EHW+. Δεν ήταν δυνατή η αποθήκευση $notSubmitted από τα προϊόντα $total που αγοράστηκαν στον διακομιστή EHW+. Ελπίζουμε να διορθώσουμε το πρόβλημα σύντομα.';
+    return 'Χρησιμοποιείτε τον λογαριασμό EHW+. $notSubmitted από τα προϊόντα που αγοράστηκαν στο $total δεν μπόρεσαν να αποθηκευτούν στον διακομιστή EHW+. Ελπίζουμε να επιλύσουμε το πρόβλημα σύντομα.';
   }
 
   @override
@@ -338,7 +337,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Οι αγορές $count έχουν συγχρονιστεί μέσω του λογαριασμού EHW+.',
+      other: '$count Οι αγορές έχουν συγχρονιστεί μέσω του λογαριασμού EHW+.',
       one: 'Μία αγορά έχει συγχρονιστεί μέσω του λογαριασμού EHW+.',
     );
     return '$_temp0';
@@ -350,31 +349,31 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       count,
       locale: localeName,
       other:
-          'Χρησιμοποιείτε τον λογαριασμό EHW+. Τα προϊόντα που αγοράσατε $count έχουν αποθηκευτεί στον διακομιστή EHW+.',
+          'Χρησιμοποιείτε τον λογαριασμό EHW+. Τα προϊόντα που αγοράσατε από το $count έχουν αποθηκευτεί στον διακομιστή EHW+.',
       one:
-          'Χρησιμοποιείτε τον λογαριασμό EHW+. Το προϊόν που αγοράσατε $count έχει αποθηκευτεί στον διακομιστή EHW+.',
+          'Χρησιμοποιείτε τον λογαριασμό EHW+. Το προϊόν που αγοράσατε από το $count έχει αποθηκευτεί στον διακομιστή EHW+.',
       zero:
-          'Χρησιμοποιείτε τον λογαριασμό EHW+. Εάν αγοράσετε προϊόντα στο μέλλον, θα συγχρονιστούν σε όλες τις συσκευές σας.',
+          'Χρησιμοποιείτε τον λογαριασμό EHW+. Εάν αγοράσετε προϊόντα στο μέλλον, αυτά θα συγχρονιστούν σε όλες τις συσκευές σας.',
     );
     return '$_temp0';
   }
 
   @override
   String get commonUserLoginDescriptionNotLoggedIn =>
-      'Χρησιμοποιείτε την εφαρμογή σε πολλές συσκευές; Η σύνδεση στον λογαριασμό σας EHW+ σάς επιτρέπει να συγχρονίζετε τις ρυθμίσεις σας και τα προϊόντα που αγοράσατε σε όλες τις συσκευές σας.';
+      'Χρησιμοποιείτε την εφαρμογή σε πολλές συσκευές; Η σύνδεση στο λογαριασμό σας EHW+ σας επιτρέπει να συγχρονίσετε τις ρυθμίσεις σας και τα προϊόντα που έχετε αγοράσει σε όλες τις συσκευές σας.';
 
   @override
   String get commonYear => 'έτος';
 
   @override
-  String get commonYes => 'Ναί';
+  String get commonYes => 'ναι';
 
   @override
   String get completeButton => 'Πλήρης';
 
   @override
   String confirmDeleteAtCloud(String objectTitle) {
-    return 'Θα πρέπει επίσης να διαγραφεί το \"$objectTitle\" από το Google Drive;';
+    return 'Πρέπει να διαγραφεί και το αρχείο \"$objectTitle\" από το Google Drive;';
   }
 
   @override
@@ -382,18 +381,18 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get consent12Analytics =>
-      'Προκειμένου να αξιολογηθεί η επιτυχία της εφαρμογής ή των μεμονωμένων λειτουργιών, η εφαρμογή μεταδίδει ανώνυμα στατιστικά στοιχεία χρήσης. Τα δεδομένα δεν διαβιβάζονται σε τρίτους. Τα δεδομένα χρησιμοποιούνται για την περαιτέρω ανάπτυξη της εφαρμογής.';
+      'Προκειμένου να αξιολογηθεί η επιτυχία της εφαρμογής ή μεμονωμένων λειτουργιών, η εφαρμογή διαβιβάζει ανώνυμα στατιστικά στοιχεία χρήσης. Τα δεδομένα δεν διαβιβάζονται σε τρίτους. Τα δεδομένα χρησιμοποιούνται για την περαιτέρω ανάπτυξη της εφαρμογής.';
 
   @override
   String get consent13StromGedacht =>
-      'Η StromGedacht, μια υπηρεσία που παρέχεται από την TransnetBW, παρέχει πληροφορίες σχετικά με τη σταθερότητα του δικτύου και συστάσεις για το πότε πρέπει να χρησιμοποιείται κατά προτίμηση η ηλεκτρική ενέργεια. Καθώς η ενεργειακή μετάβαση γίνεται όλο και πιο δύσκολη για το δίκτυο μεταφοράς, εμπλέκονται νοικοκυριά στη Νοτιοδυτική Γερμανία. Για να λαμβάνετε πληροφορίες για την τοποθεσία σας, ο ταχυδρομικός σας κώδικας, εάν εισαχθεί εδώ στην εφαρμογή, μεταδίδεται στο TransnetBW StromGedacht API. Δεν μεταδίδονται ή συνδέονται άλλα δεδομένα.';
+      'Το StromGedacht, μια υπηρεσία που παρέχεται από την TransnetBW, παρέχει πληροφορίες σχετικά με τη σταθερότητα του δικτύου και συστάσεις για το πότε πρέπει να χρησιμοποιείται κατά προτεραιότητα η ηλεκτρική ενέργεια. Καθώς η ενεργειακή μετάβαση γίνεται όλο και πιο δύσκολη για το δίκτυο μεταφοράς, τα νοικοκυριά στη Νοτιοδυτική Γερμανία εμπλέκονται. Για να λαμβάνετε πληροφορίες για την τοποθεσία σας, ο ταχυδρομικός σας κώδικας, εάν έχει εισαχθεί εδώ στην εφαρμογή, μεταδίδεται στο API StromGedacht της TransnetBW. Δεν διαβιβάζονται ούτε συνδέονται άλλα δεδομένα.';
 
   @override
   String get consent13StromGedachtTitle =>
-      'Ειδοποιήσεις σταθερότητας πλέγματος από το StromGedacht';
+      'Ανακοινώσεις για τη σταθερότητα του δικτύου από την StromGedacht';
 
   @override
-  String get consent1Hello => 'Γειά σου';
+  String get consent1Hello => 'Γεια σας';
 
   @override
   String get consent2ThankYou => 'Σας ευχαριστούμε που χρησιμοποιείτε το EHW+!';
@@ -403,18 +402,18 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Θα θέλατε να παρακολουθήσετε ένα σύντομο εισαγωγικό βίντεο;';
 
   @override
-  String get consent4BeforeYouCanContinue => 'Προτού μπορέσετε να συνεχίσετε';
+  String get consent4BeforeYouCanContinue => 'Πριν μπορέσετε να συνεχίσετε';
 
   @override
   String get consent5ErrorReportingTitle => 'Αναφορές σφαλμάτων';
 
   @override
   String get consent6ContractPricesPerUnitTitle =>
-      'Τιμές ρεύματος / νερού / φυσικού αερίου';
+      'Τιμές ηλεκτρικού ρεύματος/νερού/αερίου';
 
   @override
   String get consent7ContractPricesPerUnit =>
-      'Για να μπορείτε να υπολογίσετε πόσα πληρώνετε αυτήν τη στιγμή σε σύγκριση με άλλους χρήστες EHW+, οι τιμές μεταφέρονται στον διακομιστή EHW+ στη Γερμανία μαζί με τη χώρα και την πολιτεία. Μόνο εάν συμφωνήσετε με τη μεταφορά, έχετε πρόσβαση στα στατιστικά στοιχεία τιμών. Για να διασφαλιστεί η ανωνυμία, τα στατιστικά στοιχεία μπορούν να εμφανίζονται μόνο μετά από έναν ελάχιστο αριθμό μεταδιδόμενων τιμών.';
+      'Για να μπορείτε να εκτιμήσετε πόσο πληρώνετε σήμερα σε σύγκριση με άλλους χρήστες του EHW+, οι τιμές μεταφέρονται στον διακομιστή του EHW+ στη Γερμανία μαζί με τη χώρα και το κρατίδιο. Μόνο αν συμφωνήσετε με τη μεταφορά, έχετε πρόσβαση στα στατιστικά στοιχεία τιμών. Για να διασφαλιστεί η ανωνυμία, τα στατιστικά στοιχεία μπορούν να εμφανιστούν μόνο μετά από έναν ελάχιστο αριθμό μεταβιβαζόμενων τιμών.';
 
   @override
   String get consentTitle => 'Ρυθμίσεις απορρήτου';
@@ -424,63 +423,61 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get consumptionCacheDebugViewCacheCleared =>
-      'Η προσωρινή μνήμη διαγράφηκε με επιτυχία';
+      'Cache erfolgreich geleert';
 
   @override
-  String get consumptionCacheDebugViewClear => 'Διαγραφή';
+  String get consumptionCacheDebugViewClear => 'Löschen';
 
   @override
-  String get consumptionCacheDebugViewClearCache =>
-      'Διαγραφή προσωρινής μνήμης';
+  String get consumptionCacheDebugViewClearCache => 'Cache leeren';
 
   @override
   String get consumptionCacheDebugViewClearCacheConfirmation =>
-      'Είστε σίγουροι ότι θέλετε να διαγράψετε όλη την προσωρινή μνήμη κατανάλωσης για αυτό το αντικείμενο; Όλα τα αποθηκευμένα δεδομένα κατανάλωσης θα αφαιρεθούν.';
+      'Μπορείς να διαγράψεις πραγματικά το συνολικό Verbrauchscache για αυτό το αντικείμενο; Όλα τα αποθηκευμένα δεδομένα κατανάλωσης θα απομακρυνθούν.';
 
   @override
-  String get consumptionCacheDebugViewEntries => 'καταχωρήσεις';
+  String get consumptionCacheDebugViewEntries => 'Einträge';
 
   @override
-  String get consumptionCacheDebugViewError => 'Σφάλμα';
+  String get consumptionCacheDebugViewError => 'Fehler';
 
   @override
-  String get consumptionCacheDebugViewTitle => 'Προσωρινή μνήμη κατανάλωσης';
+  String get consumptionCacheDebugViewTitle => 'Verbrauchscache';
 
   @override
   String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'Εκκαθάριση και συγχρονισμός';
+      'Καθαρισμός & συγχρονισμός';
 
   @override
   String get consumptionCacheManagementClearCacheButton =>
-      'Εκκαθάριση προσωρινής μνήμης';
+      'Εκκαθάριση προσωρινής μνήμης cache';
 
   @override
   String get consumptionCacheManagementClearedSuccessfully =>
-      'Η προσωρινή μνήμη διαγράφηκε με επιτυχία';
+      'Η μνήμη cache εκκαθαρίστηκε επιτυχώς';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
-      'Όλα τα δεδομένα προσωρινής αποθήκευσης θα διαγραφούν και θα ληφθούν ξανά από τον διακομιστή. Αυτό μπορεί να πάρει κάποιο χρόνο.';
+      'Όλα τα αποθηκευμένα δεδομένα θα διαγραφούν και θα μεταφορτωθούν εκ νέου από το διακομιστή. Αυτό μπορεί να διαρκέσει λίγο χρόνο.';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'Διαγραφή προσωρινής μνήμης και συγχρονισμός;';
+      'Εκκαθάριση προσωρινής μνήμης και συγχρονισμός;';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
-      'Όλα τα αποθηκευμένα δεδομένα κατανάλωσης θα διαγραφούν οριστικά. Μπορείτε να το συγχρονίσετε αργότερα.';
+      'Όλα τα αποθηκευμένα στην προσωρινή μνήμη δεδομένα κατανάλωσης θα διαγραφούν οριστικά. Μπορείτε να τα συγχρονίσετε αργότερα.';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheTitle =>
-      'Εκκαθάριση προσωρινής μνήμης;';
+      'Καθαρίστε την προσωρινή μνήμη?';
 
   @override
   String get consumptionCacheToggleButtonDescription =>
-      'Προσωρινή μνήμη υπολογισμένης κατανάλωσης και ανάχρησης όταν χρειάζεται';
+      'Προσωρινή αποθήκευση υπολογισμένων καταναλώσεων και επαναχρησιμοποίηση όποτε χρειάζεται';
 
   @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Χρήση προσωρινής μνήμης κατανάλωσης';
+  String get consumptionCacheToggleButtonTitle => 'Verbrauchscache verwenden';
 
   @override
   String get consumptionHeatmap => 'Χάρτης θερμότητας κατανάλωσης';
@@ -495,11 +492,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get consumptionIsNotExclusive =>
-      'Εάν η κατανάλωση δεν είναι αποκλειστική σε αυτή τη δραστηριότητα, θα εμφανίζεται ως προειδοποίηση.';
+      'Εάν η κατανάλωση δεν αφορά αποκλειστικά αυτή τη δραστηριότητα, θα εμφανιστεί ως προειδοποίηση.';
 
   @override
   String get consumptionIsNotExclusiveTitle =>
-      'Είναι αποκλειστική η κατανάλωση;';
+      'Είναι η κατανάλωση αποκλειστική;';
 
   @override
   String consumptionPersonLabel(num count) {
@@ -514,16 +511,16 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get consumptionWaterColdEqual =>
-      'Κρύο νερό: περίπου το ίδιο με το μέσο νοικοκυριό.';
+      'Κρύο νερό: περίπου όσο ένα μέσο νοικοκυριό.';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
-    return 'Κρύο νερό: $percentage λιγότερο από το μέσο νοικοκυριό.';
+    return 'Κρύο νερό: $percentage λιγότερο από ένα μέσο νοικοκυριό.';
   }
 
   @override
   String consumptionWaterColdMore(Object percentage) {
-    return 'Κρύο νερό: $percentage περισσότερο από το μέσο νοικοκυριό.';
+    return 'Κρύο νερό: $percentage περισσότερο από ένα μέσο νοικοκυριό.';
   }
 
   @override
@@ -532,7 +529,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object monthlyCubicMeters,
     Object unitName,
   ) {
-    return 'Ανά άτομο καταναλώνουν όλοι περίπου $dailyLiters λίτρα την ημέρα (≈ $monthlyCubicMeters $unitName ανά μήνα).';
+    return 'Αυτό ισοδυναμεί με περίπου $dailyLiters λίτρα ανά ημέρα (≈ $monthlyCubicMeters $unitName ανά μήνα) ανά άτομο.';
   }
 
   @override
@@ -541,7 +538,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object monthlyCubicMeters,
     Object unitName,
   ) {
-    return 'Καταναλώνεις περίπου $dailyLiters λίτρα την ημέρα (≈ $monthlyCubicMeters $unitName ανά μήνα).';
+    return 'Καταναλώνετε περίπου $dailyLiters λίτρα την ημέρα (≈ $monthlyCubicMeters $unitName το μήνα).';
   }
 
   @override
@@ -550,7 +547,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object ofRange,
     Object personLabel,
   ) {
-    return 'Η κατανάλωση νερού $ofRange ταιριάζει με αυτή ενός μέσου νοικοκυριού με $householdSize $personLabel.';
+    return 'Η κατανάλωση νερού σας $ofRange είναι ίση με αυτή ενός μέσου νοικοκυριού με $householdSize $personLabel.';
   }
 
   @override
@@ -560,7 +557,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object percentage,
     Object personLabel,
   ) {
-    return 'Η κατανάλωση νερού $ofRange είναι $percentage χαμηλότερη από αυτή ενός μέσου νοικοκυριού με $householdSize $personLabel.';
+    return 'Η κατανάλωση νερού σας $ofRange είναι $percentage χαμηλότερη από αυτή ενός μέσου νοικοκυριού με $householdSize $personLabel.';
   }
 
   @override
@@ -570,31 +567,31 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object percentage,
     Object personLabel,
   ) {
-    return 'Η κατανάλωση νερού $ofRange είναι $percentage υψηλότερη από αυτή ενός μέσου νοικοκυριού με $householdSize $personLabel.';
+    return 'Η κατανάλωση νερού σας $ofRange είναι $percentage υψηλότερη από αυτή ενός μέσου νοικοκυριού με $householdSize $personLabel.';
   }
 
   @override
   String consumptionWaterRangeUnknown(Object ofRange) {
-    return 'Η κατανάλωση νερού σας $ofRange...';
+    return 'Η κατανάλωση νερού σας $ofRange ...';
   }
 
   @override
   String get consumptionWaterWarmEqual =>
-      'Ζεστό νερό: περίπου το ίδιο με το μέσο νοικοκυριό.';
+      'Ζεστό νερό: περίπου όσο ένα μέσο νοικοκυριό.';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
-    return 'Ζεστό νερό: $percentage λιγότερο από το μέσο νοικοκυριό.';
+    return 'Ζεστό νερό: $percentage λιγότερο από ένα μέσο νοικοκυριό.';
   }
 
   @override
   String consumptionWaterWarmMore(Object percentage) {
-    return 'Ζεστό νερό: $percentage περισσότερο από το μέσο νοικοκυριό.';
+    return 'Ζεστό νερό: $percentage περισσότερο από ένα μέσο νοικοκυριό.';
   }
 
   @override
   String consumptionYearly(Object consumption, Object ofRange) {
-    return 'Η κατανάλωση ηλεκτρικής ενέργειας $ofRange είναι $consumption kWh για το έτος.';
+    return 'Η κατανάλωση ηλεκτρικής ενέργειας $ofRange ανέρχεται σε $consumption kWh ετησίως.';
   }
 
   @override
@@ -614,7 +611,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object personLabel,
     Object verbSuffix,
   ) {
-    return 'Καταναλώνετε$verbSuffix περίπου το ίδιο με ένα μέσο νοικοκυριό με $householdSize $personLabel.';
+    return 'Καταναλώνετε $verbSuffix περίπου όσο ένα μέσο νοικοκυριό με $householdSize $personLabel.';
   }
 
   @override
@@ -624,7 +621,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object personLabel,
     Object verbSuffix,
   ) {
-    return 'Καταναλώνετε$verbSuffix $percentage λιγότερο από ένα μέσο νοικοκυριό με $householdSize $personLabel.';
+    return 'Καταναλώνετε $verbSuffix $percentage λιγότερο από ένα μέσο νοικοκυριό με $householdSize $personLabel.';
   }
 
   @override
@@ -634,7 +631,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object personLabel,
     Object verbSuffix,
   ) {
-    return 'Καταναλώνετε$verbSuffix $percentage περισσότερο από ένα μέσο νοικοκυριό με $householdSize $personLabel.';
+    return 'Καταναλώνετε $verbSuffix $percentage περισσότερο από ένα μέσο νοικοκυριό με $householdSize $personLabel.';
   }
 
   @override
@@ -645,7 +642,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object totalConsumption,
     Object yearlyConsumption,
   ) {
-    return 'Η κατανάλωση ηλεκτρικής ενέργειας σας $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα) $consumptionLevel.';
+    return 'Η κατανάλωση ηλεκτρικής ενέργειας $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα) είναι $consumptionLevel.';
   }
 
   @override
@@ -656,7 +653,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object totalConsumption,
     Object yearlyConsumption,
   ) {
-    return 'Η κατανάλωση αερίου σας $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα) $consumptionLevel.';
+    return 'Η κατανάλωση φυσικού αερίου $ofRange ($totalConsumption kWh ≈ $yearlyConsumption kWh/έτος ≈ $monthlyConsumption kWh/μήνα) είναι $consumptionLevel.';
   }
 
   @override
@@ -665,30 +662,29 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionYearlyDetailedLevel0 => 'είναι εξαιρετικά χαμηλό.';
+  String get consumptionYearlyDetailedLevel0 => 'πολύ χαμηλά';
 
   @override
-  String get consumptionYearlyDetailedLevel1 =>
-      'είναι πραγματικά κάτι που πρέπει να δεις.';
+  String get consumptionYearlyDetailedLevel1 => 'χαμηλή';
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(String nextToOptimal) {
-    return 'Λείπει $nextToOptimal για βέλτιστη κατανάλωση.';
+    return 'Θα επιτύχετε τη βέλτιστη κατανάλωση με περίπου $nextToOptimal λιγότερο.';
   }
 
   @override
-  String get consumptionYearlyDetailedLevel2 => 'είναι φυσιολογικό.';
+  String get consumptionYearlyDetailedLevel2 => 'εντός του φυσιολογικού εύρους';
 
   @override
   String consumptionYearlyDetailedLevel2Suffix(Object nextToOptimal) {
-    return 'Λείπει $nextToOptimal για καλή κατανάλωση.';
+    return 'Για καλή κατανάλωση, λείπουν περίπου $nextToOptimal.';
   }
 
   @override
-  String get consumptionYearlyDetailedLevel3 => 'είναι σχετικά υψηλό.';
+  String get consumptionYearlyDetailedLevel3 => 'σχετικά υψηλή';
 
   @override
-  String get consumptionYearlyDetailedLevel4 => 'είναι φυσιολογικό.';
+  String get consumptionYearlyDetailedLevel4 => 'εντός του φυσιολογικού εύρους';
 
   @override
   String consumptionYearlyDetailedMoreThan(Object percentage) {
@@ -696,39 +692,39 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionYearlyDetailedOptimalEnding => 'Πώς το κάνεις;';
+  String get consumptionYearlyDetailedOptimalEnding => 'Αυτό είναι υπέροχο!';
 
   @override
-  String get consumptionYield => 'Απόδοση παραγωγής';
+  String get consumptionYield => 'Απόδοση';
 
   @override
   String get contact =>
-      'EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nΕπικοινωνία\n\nΤηλέφωνο: 06204/7383382\nΤαχυδρομείο: info@ehwplus.com';
+      'EHW+ Services GmbH\nGeorg-Herbert-Straße 8\n68519 Viernheim\n\nΕπικοινωνία\n\nΤηλ: 06204/7383382\nΤαχυδρομείο: info@ehwplus.com';
 
   @override
   String get contactTitle => 'Εκπροσωπείται από:';
 
   @override
   String get continueAcceptPart1 =>
-      'Χρησιμοποιώντας την εφαρμογή EHW+, συμφωνείτε με το';
+      'Χρησιμοποιώντας την εφαρμογή EHW+, συμφωνείτε με τα εξής';
 
   @override
   String get continueAcceptPart2 =>
-      '. Για περισσότερες πληροφορίες σχετικά με τη συλλογή και χρήση ανώνυμων και προσωπικών δεδομένων, ανατρέξτε στο';
+      '. Για περισσότερες πληροφορίες σχετικά με τη συλλογή και τη χρήση ανωνυμοποιημένων και προσωπικών δεδομένων, ανατρέξτε στο';
 
   @override
   String get contract => 'Σύμβαση';
 
   @override
-  String get contractCopyDialogOptionNo => 'Όχι, ακύρωση.';
+  String get contractCopyDialogOptionNo => 'Όχι, ακυρώστε.';
 
   @override
   String get contractCopyDialogOptionYes =>
-      'Ναι, η τιμή μονάδας ή άλλη τιμή έχει αλλάξει.';
+      'Ναι, η τιμή μονάδας ή κάποια άλλη τιμή έχει αλλάξει.';
 
   @override
   String get contractCopyDialogTitle =>
-      'Θέλετε να δημιουργήσετε ένα αντίγραφο αυτής της σύμβασης;';
+      'Θέλετε να φτιάξετε ένα αντίγραφο αυτής της σύμβασης;';
 
   @override
   String get contractCopyDialogWhen => 'Από πότε ισχύει η νέα τιμή;';
@@ -737,10 +733,10 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get contractCosts => 'Τιμή μονάδας';
 
   @override
-  String get contractCostsFeedIn => 'Τιμή αμοιβής/τιμή βάσης';
+  String get contractCostsFeedIn => 'Τιμή αμοιβής/βασική τιμή';
 
   @override
-  String get contractDetails => 'Διάρκεια σύμβασης και λεπτομέρειες';
+  String get contractDetails => 'Διάρκεια και λεπτομέρειες της σύμβασης';
 
   @override
   String get contractName => 'Όνομα παρόχου/συμβολαίου';
@@ -749,7 +745,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get contractNumber => 'Αριθμός σύμβασης';
 
   @override
-  String get contractPeriod => 'Διάρκεια σύμβασης';
+  String get contractPeriod => 'Περίοδος σύμβασης';
 
   @override
   String get contractReminder => 'Υπενθύμιση συμβολαίου';
@@ -758,19 +754,19 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get contractStart => 'Ημερομηνία έναρξης της σύμβασης';
 
   @override
-  String get contractType => 'Είδος σύμβασης';
+  String get contractType => 'Τύπος σύμβασης';
 
   @override
-  String get contractTypeElectricityProvider => 'πάροχος ηλεκτρικής ενέργειας';
+  String get contractTypeElectricityProvider => 'Πάροχος ηλεκτρικής ενέργειας';
 
   @override
-  String get contractTypeGasProvider => 'πάροχος φυσικού αερίου';
+  String get contractTypeGasProvider => 'Πάροχος αερίου';
 
   @override
   String get contractTypeHeatingFees => 'Τέλη θέρμανσης';
 
   @override
-  String get contractTypeNetwork => 'Διαδίκτυο & τηλέφωνο';
+  String get contractTypeNetwork => 'Internet & τηλέφωνο';
 
   @override
   String get contractTypeOilProvider => 'Πάροχος πετρελαίου';
@@ -782,39 +778,39 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get contractTypeWaterFees => 'Τέλη νερού';
 
   @override
-  String get contracts => 'Συμβόλαια';
+  String get contracts => 'Συμβάσεις';
 
   @override
   String get corresponds => 'αντιστοιχεί';
 
   @override
-  String get costSummary => 'Περίληψη κόστους';
+  String get costSummary => 'Σύνοψη κόστους';
 
   @override
-  String get costSummaryYield => 'Τιμή αμοιβής/-τιμή βάσης';
+  String get costSummaryYield => 'Τιμή αμοιβής/βασική τιμή';
 
   @override
-  String get costs => 'Δικαστικά έξοδα';
+  String get costs => 'Κόστος';
 
   @override
   String get costsUndefinedColdWater => 'Τέλη κρύου νερού';
 
   @override
-  String get costsUndefinedElectricity => 'Τέλη ηλεκτρικού ρεύματος';
+  String get costsUndefinedElectricity => 'Τέλη ηλεκτρικής ενέργειας';
 
   @override
   String get costsUndefinedFor => 'Κόστος απροσδιόριστο';
 
   @override
   String costsUndefinedForType(Object type) {
-    return '$type για απροσδιόριστο';
+    return '$type για ακαθόριστο';
   }
 
   @override
   String get costsUndefinedGas => 'Τέλη φυσικού αερίου';
 
   @override
-  String get costsUndefinedHeater => 'Τέλη θερμαντήρα';
+  String get costsUndefinedHeater => 'Τέλη θέρμανσης';
 
   @override
   String get costsUndefinedNetworkCounter => 'Τέλη Διαδικτύου';
@@ -829,29 +825,30 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get counter => 'Μετρητής';
 
   @override
-  String get counterBackgroundImage => 'Εικόνα φόντου για μετρητή';
+  String get counterBackgroundImage => 'Εικόνα φόντου για τον μετρητή';
 
   @override
-  String get counterBackgroundImageOfObject => 'Εικόνα φόντου για αντικείμενο';
+  String get counterBackgroundImageOfObject =>
+      'Εικόνα φόντου για το αντικείμενο';
 
   @override
   String get counterColdWater => 'Μετρητής κρύου νερού';
 
   @override
   String get counterConsiderForTotalConsumptions =>
-      'Συνυπολογισμός για συνολικές καταναλώσεις';
+      'Εξετάστε για τις συνολικές καταναλώσεις';
 
   @override
   String get counterConsiderForTotalElectricity =>
-      'Λάβετε υπόψη τη συνολική κατανάλωση ηλεκτρικής ενέργειας';
+      'Εξετάστε τη συνολική κατανάλωση ηλεκτρικής ενέργειας';
 
   @override
   String get counterConsiderForTotalWater =>
-      'Συνυπολογισμός για συνολική κατανάλωση νερού';
+      'Εξετάστε τη συνολική κατανάλωση νερού';
 
   @override
   String get counterContractCurrentlyUsed =>
-      'Συμβόλαιο που χρησιμοποιείται σήμερα';
+      'Επί του παρόντος χρησιμοποιούμενη σύμβαση';
 
   @override
   String get counterDeleteConfirm => 'Διαγραφή μετρητή;';
@@ -860,14 +857,14 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get counterDirection => 'Κατεύθυνση';
 
   @override
-  String get counterDirectionAscending => 'ανερχόμενος';
+  String get counterDirectionAscending => 'αύξουσα';
 
   @override
-  String get counterDirectionDescending => 'φθίνων';
+  String get counterDirectionDescending => 'φθίνουσα';
 
   @override
   String get counterDirectionExplanation =>
-      'Μειώνεται η τιμή με τη χρήση (δείκτης στάθμης, κ.λπ.) ή αυξάνεται η τιμή με τη χρήση (ώρες λειτουργίας καυστήρα, μετρητής λαδιού, κ.λπ.) ή είναι κάθε τιμή ανάγνωσης ανεξάρτητη (κατανάλωση/απόδοση);';
+      'Η τιμή μειώνεται με τη χρήση (δείκτης στάθμης κ.λπ.) ή η τιμή αυξάνεται με τη χρήση (ώρες καυστήρα, μετρητής πετρελαίου κ.λπ.) ή κάθε τιμή ανάγνωσης είναι ανεξάρτητη (κατανάλωση/απόδοση);';
 
   @override
   String counterDirectionNone(
@@ -888,31 +885,31 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricityBack =>
-      'Μετρητής τροφοδοσίας ηλεκτρικής ενέργειας (PV)';
+      'Μετρητής τροφοδότησης ηλεκτρικής ενέργειας (Φ/Β)';
 
   @override
   String get counterElectricityGenerated =>
       'Μετρητής παραγωγής ηλεκτρικής ενέργειας';
 
   @override
-  String get counterExclude => 'Αποκλείω';
+  String get counterExclude => 'Εξαίρεση';
 
   @override
   String get counterExcludedContracts => 'Εξαιρούμενες συμβάσεις';
 
   @override
   String get counterExplainSeasonal =>
-      'Για τις προβλέψεις, γίνεται διάκριση μεταξύ εποχιακών και μη εποχιακών μετρητών. Ανάλογα με αυτό, η πρόβλεψη υπολογίζεται διαφορετικά.\n\nΠάντα ταξινομούνται ως εποχιακοί οι μετρητές θέρμανσης, φυσικού αερίου και πετρελαίου. Μη εποχιακοί μετρητές είναι οι μετρητές ηλεκτρικού ρεύματος και νερού.\n\nΓια τους μη εποχιακούς μετρητές, καθοριστική είναι η κατανάλωση των τελευταίων 90 ημερών.\n\nΓια τους εποχιακούς μετρητές, υπολογίζεται ο μέσος όρος των προηγούμενων ετών (εάν είναι διαθέσιμος), με όλους τους μήνες των προηγούμενων ετών να μετράνε το ίδιο. (Εξαίρεση: εάν δεν υπάρχουν ακόμη δεδομένα για τον μήνα του προηγούμενου έτους, τότε χρησιμοποιείται ο προηγούμενος μέσος όρος).';
+      'Για τις προβλέψεις, γίνεται διάκριση μεταξύ εποχιακών και μη εποχιακών μετρητών. Ανάλογα με αυτό, η πρόβλεψη υπολογίζεται διαφορετικά.\n\nΠάντα ταξινομούνται ως εποχικοί οι μετρητές θέρμανσης, φυσικού αερίου, πετρελαίου. Μη εποχικοί μετρητές είναι ο ηλεκτρισμός και το νερό.\n\nΓια τους μη εποχικούς μετρητές, καθοριστική είναι η κατανάλωση των τελευταίων 90 ημερών.\n\nΓια τους εποχιακούς μετρητές, υπολογίζεται ο μέσος όρος των προηγούμενων ετών (εφόσον υπάρχει), με όλους τους μήνες των προηγούμενων ετών να υπολογίζονται το ίδιο. (Εξαίρεση: δεν υπάρχουν ακόμη στοιχεία για τον μήνα του προηγούμενου έτους, τότε χρησιμοποιείται ο προηγούμενος μέσος όρος).';
 
   @override
   String get counterFactor => 'Παράγοντας';
 
   @override
   String get counterFactorDescription =>
-      'Κατανέμεται η κατανάλωση μόνο σε εσάς αναλογικά; Εισαγάγετε την αναλογία ως τιμή μεταξύ 0,1 (10%) και 1,0 (100%).';
+      'Η κατανάλωση κατανέμεται σε εσάς μόνο κατ\' αναλογία; Εισάγετε την αναλογία ως τιμή μεταξύ 0,1 (10%) και 1,0 (100%).';
 
   @override
-  String get counterFractionDigits => 'Κλασματικά ψηφία';
+  String get counterFractionDigits => 'Αριθμητικά ψηφία κλάσματος';
 
   @override
   String get counterGas => 'Μετρητής αερίου';
@@ -922,17 +919,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get counterGasCalorificValueHelpText =>
-      'Τιμή θέρμανσης: Αδιάστατος παράγοντας για τη μετατροπή του μετρούμενου όγκου αερίου σε ενέργεια. Φυσικό αέριο: συνήθως μεταξύ 9,0 και 12,5 kWh/m³, LPG: μεταξύ 23,0 και 33,0 kWh/m³';
+      'Αξία θέρμανσης: Συντελεστής χωρίς διαστάσεις για τη μετατροπή του μετρούμενου όγκου αερίου σε ενέργεια. Φυσικό αέριο: συνήθως μεταξύ 9,0 και 12,5 kWh/m³, υγραέριο: μεταξύ 23,0 και 33,0 kWh/m³.';
 
   @override
-  String get counterGasCalorificValueLabel => 'θερμιδική αξία*';
+  String get counterGasCalorificValueLabel => 'Θερμιδική αξία*';
 
   @override
   String get counterGasConversionFactor => 'Συντελεστής μετατροπής';
 
   @override
   String get counterGasConversionFactorHelpText =>
-      'Περίπου 1,0. Ο αριθμός συνθήκης χρησιμοποιείται για τη μετατροπή του όγκου λειτουργίας σε τυπικό όγκο. Η κατάσταση λειτουργίας είναι η κατάσταση του αερίου στο μετρητή και εξαρτάται από την πίεση (υψόμετρο) και τη θερμοκρασία που υπάρχει.';
+      'Ca 1.0. Ο αριθμός κατάστασης χρησιμοποιείται για τη μετατροπή του όγκου λειτουργίας σε τυπικό όγκο. Η κατάσταση λειτουργίας είναι η κατάσταση του αερίου στο μετρητή και εξαρτάται από την πίεση (υψόμετρο) και τη θερμοκρασία που επικρατεί.';
 
   @override
   String get counterGasConversionFactorLabel => 'Συντελεστής μετατροπής*';
@@ -941,20 +938,20 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get counterHeater => 'Μετρητής καλοριφέρ';
 
   @override
-  String get counterInclude => 'Συμπεριλαμβάνω';
+  String get counterInclude => 'Συμπεριλάβετε το';
 
   @override
   String get counterIsOutdated => 'Ο μετρητής είναι ξεπερασμένος';
 
   @override
-  String get counterLinkMoreRecent => 'Σύνδεση πιο πρόσφατου μετρητή';
+  String get counterLinkMoreRecent => 'Σύνδεσμος πιο πρόσφατου μετρητή';
 
   @override
   String get counterMessageRoomOptional =>
       'Η ανάθεση δωματίου βοηθά στην ομαδοποίηση, αλλά είναι προαιρετική.';
 
   @override
-  String get counterMeterId => 'Ταυτότητα μετρητή';
+  String get counterMeterId => 'Αναγνωριστικό μετρητή';
 
   @override
   String get counterName => 'Όνομα μετρητή';
@@ -963,37 +960,37 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get counterNew => 'Νέος μετρητής';
 
   @override
-  String get counterNoContractSelected => 'Δεν επιλέχθηκε συμβόλαιο';
+  String get counterNoContractSelected => 'Δεν έχει επιλεγεί σύμβαση';
 
   @override
   String get counterNoRoomConnection => 'Δεν υπάρχει σύνδεση δωματίου';
 
   @override
   String counterNum(int count) {
-    return 'Μετρητές $count';
+    return '$count μετρητές';
   }
 
   @override
-  String get counterOilHeating => 'Θέρμανση πετρελαίου';
+  String get counterOilHeating => 'Θέρμανση με πετρέλαιο';
 
   @override
   String get counterOtherContracts => 'Άλλες συμβάσεις';
 
   @override
   String counterOutdatedAndNextReminder(String date, String date2) {
-    return 'Η ένδειξη μετρητή είναι ξεπερασμένη από το $date, υπενθύμιση επόμενης ανάγνωσης $date2.';
+    return 'Η μέτρηση του μετρητή είναι παλιά από τις $date , υπενθύμιση για την επόμενη μέτρηση $date2.';
   }
 
   @override
-  String get counterProportionateConsumption => 'Ανάλογη κατανάλωση';
+  String get counterProportionateConsumption => 'Αναλογική κατανάλωση';
 
   @override
   String get counterPvFeedInCounter =>
-      'Ανανεώσιμες πηγές ενέργειας (ηλιακή ενέργεια και θερμότητα με Φ/Β/ηλιακά συστήματα)';
+      'Ανανεώσιμες πηγές ενέργειας (ηλιακή ενέργεια και θερμότητα με φωτοβολταϊκά/ηλιακά συστήματα)';
 
   @override
   String get counterPvFeedInCounterExplanation =>
-      'Χρησιμοποιήστε έναν μετρητή τροφοδοσίας ηλεκτρικής ενέργειας για να καταγράψετε την ηλεκτρική ενέργεια που παράγεται και τροφοδοτείται\nμε φωτοβολταϊκό σύστημα. Τα έσοδα που προκύπτουν αντισταθμίζονται με το κόστος\nτο ρεύμα που αντλήθηκε.';
+      'Χρησιμοποιήστε μετρητή τροφοδότησης ηλεκτρικής ενέργειας για να καταγράψετε την παραγόμενη και τροφοδοτούμενη ηλεκτρική ενέργεια.\nμε ένα φωτοβολταϊκό σύστημα. Τα έσοδα που προκύπτουν συμψηφίζονται με το κόστος\nτης καταναλισκόμενης ηλεκτρικής ενέργειας.';
 
   @override
   String get counterReadings => 'Αναγνώσεις';
@@ -1008,7 +1005,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get counterRoom => 'Δωμάτιο';
 
   @override
-  String get counterSelected => 'Επιλεγμένο';
+  String get counterSelected => 'Επιλεγμένα';
 
   @override
   String get counterShowHeatmap => 'Εμφάνιση χάρτη θερμότητας';
@@ -1017,7 +1014,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get counterShowPreliminaryCurve => 'Εμφάνιση προκαταρκτικής καμπύλης';
 
   @override
-  String get counterShowReadingsChart => 'Εμφάνιση γραφήματος αναγνώσεων';
+  String get counterShowReadingsChart => 'Εμφάνιση διαγράμματος αναγνώσεων';
 
   @override
   String get counterTankCapacity => 'Χωρητικότητα δεξαμενής';
@@ -1030,7 +1027,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get counterTransducerFactorExplained =>
-      'Εάν χρησιμοποιείται μετασχηματιστής τάσης για να μειώσει την τάση πριν φτάσει στο μετρητή, πρέπει να εφαρμοστεί ένας νέος συντελεστής μετατροπής για να ληφθούν οι σωστές μετρήσεις. Παράδειγμα: ο μετρητής εμφανίζει 100.000 kWh με συντελεστή μετατροπής 20. Η σωστή ένδειξη είναι: 100.000 kWh x 20 = 2.000.000 kWh.';
+      'Εάν χρησιμοποιείται μετασχηματιστής τάσης για την υποβιβασμό της τάσης πριν φτάσει στον μετρητή, πρέπει να εφαρμοστεί νέος συντελεστής μετατροπής για να ληφθούν οι σωστές ενδείξεις. Παράδειγμα: ο μετρητής δείχνει 100.000 kWh με συντελεστή μετατροπής 20. Η σωστή ένδειξη είναι: 100.000 kWh x 20 = 2.000.000 kWh.';
 
   @override
   String get counterTypeLabel => 'Τύπος μετρητή';
@@ -1040,17 +1037,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get counterWarmWaterPlusColdWater =>
-      'Εξαιρουμένου του κόστους γλυκού νερού και λυμάτων';
+      'Εξαιρουμένων των δαπανών για γλυκό νερό και λύματα';
 
   @override
   String get counterWater => 'Μετρητές νερού';
 
   @override
-  String get counterWaterExtraction => 'Μετρητής εξόρυξης νερού (κήπος)';
+  String get counterWaterExtraction => 'Μετρητής εξαγωγής νερού (κήπος)';
 
   @override
   String get counterWaterExtractionExplanation =>
-      'Με έναν μετρητή έκπτωσης το κόστος των λυμάτων μπορεί να μειωθεί. Με αυτήν την αγορά εντός εφαρμογής, μπορείτε να καθορίσετε διαφορετικά κόστη για γλυκό νερό και λύματα και η ένδειξη του μετρητή από τον μετρητή έκπτωσης θα ληφθεί υπόψη στο κόστος του νερού.';
+      'Με έναν μετρητή παρακράτησης μπορεί να μειωθεί το κόστος των λυμάτων. Με αυτή την αγορά εντός της εφαρμογής μπορείτε να καθορίσετε διαφορετικά κόστη για το γλυκό νερό και τα λύματα και η ένδειξη του μετρητή από τον μετρητή αφαίρεσης θα λαμβάνεται υπόψη στα κόστη νερού.';
 
   @override
   String get counterWaterExtractionMinimumLevel => 'Ελάχιστο επίπεδο';
@@ -1059,25 +1056,26 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get counters => 'Μετρητές';
 
   @override
-  String get createAccount => 'Δημιουργία λογαριασμού/σύνδεση';
+  String get createAccount => 'Δημιουργία λογαριασμού/είσοδος';
 
   @override
   String get csvImportWithFactor =>
-      'Πρέπει οι ενδείξεις του μετρητή να πολλαπλασιαστούν με έναν παράγοντα όχι ίσο με 1,0; Για παράδειγμα, για να μετατραπούν τιμές από Wh σε kWh, θα πρέπει να πολλαπλασιαστούν με 0,001.';
+      'Πρέπει οι ενδείξεις των μετρητών να πολλαπλασιάζονται με συντελεστή που δεν ισούται με 1,0; Για παράδειγμα, για να μετατραπούν οι τιμές από Wh σε kWh, θα πρέπει να πολλαπλασιαστούν με 0,001.';
 
   @override
   String get currency => 'Νόμισμα';
 
   @override
   String deleteObjectError(int errorCode) {
-    return 'Δεν είναι δυνατή η διαγραφή αυτού του αντικειμένου (Κωδικός $errorCode).';
+    return 'Δεν είναι δυνατή η διαγραφή αυτού του αντικειμένου (Κωδικός$errorCode).';
   }
 
   @override
-  String get detailWithMultiSelect => 'Να επιτρέπεται η πολλαπλή επιλογή';
+  String get detailWithMultiSelect =>
+      'Επιτρέψτε την επιλογή πολλαπλών επιλογών';
 
   @override
-  String get detailsTitle => 'Καθέκαστα';
+  String get detailsTitle => 'Λεπτομέρειες';
 
   @override
   String get difference => 'Διαφορά';
@@ -1089,14 +1087,14 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get driveSyncNow => 'Συγχρονισμός τώρα';
 
   @override
-  String get driveSyncStatusComparing => 'Σύγκριση με αρχείο στον διακομιστή';
+  String get driveSyncStatusComparing => 'Σύγκριση με αρχείο στο διακομιστή';
 
   @override
-  String get driveSyncStatusFailed => 'Ο συγχρονισμός απέτυχε';
+  String get driveSyncStatusFailed => 'Αποτυχία συγχρονισμού';
 
   @override
   String driveSyncStatusLocalHasLatestNoCloud(String localDate) {
-    return 'Το αρχείο που είναι αποθηκευμένο σε αυτήν τη συσκευή από το $localDate δεν αποθηκεύεται στο cloud';
+    return 'Το αρχείο που αποθηκεύτηκε σε αυτή τη συσκευή από το $localDate δεν αποθηκεύεται στο cloud.';
   }
 
   @override
@@ -1104,15 +1102,15 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String cloudDate,
     String localDate,
   ) {
-    return 'Το αρχείο που είναι αποθηκευμένο σε αυτήν τη συσκευή από το $localDate είναι πιο ενημερωμένο από το αρχείο στο cloud από το $cloudDate';
+    return 'Το αρχείο που αποθηκεύτηκε σε αυτή τη συσκευή από το $localDate είναι πιο ενημερωμένο από το αρχείο στο cloud από το $cloudDate';
   }
 
   @override
-  String get driveSyncStatusNotSynced => 'Μη συγχρονισμένο';
+  String get driveSyncStatusNotSynced => 'Δεν συγχρονίζεται';
 
   @override
   String driveSyncStatusRemoteHasLatestNoLocal(String cloudDate) {
-    return 'Το αρχείο στο cloud από το $cloudDate δεν είναι αποθηκευμένο σε αυτήν τη συσκευή';
+    return 'Το αρχείο στο cloud από το $cloudDate δεν είναι αποθηκευμένο σε αυτή τη συσκευή.';
   }
 
   @override
@@ -1131,32 +1129,32 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String driveSyncStatusUpToDate(String localDate) {
-    return 'Ενημερωμένο από το $localDate';
+    return 'Ενημερωμένο από $localDate';
   }
 
   @override
-  String get driveSyncWithGoogle => 'Google Drive Sync';
+  String get driveSyncWithGoogle => 'Συγχρονισμός Google Drive';
 
   @override
   String get editDetailTitle => 'Επεξεργασία λεπτομέρειας';
 
   @override
-  String get electricity => 'Ηλεκτρισμός';
+  String get electricity => 'Ηλεκτρική ενέργεια';
 
   @override
-  String get electricityBack => 'Τροφοδοσία ρεύματος';
+  String get electricityBack => 'Ηλεκτρική ενέργεια που τροφοδοτείται';
 
   @override
-  String get electricityConsumption => 'Κατανάλωση ρεύματος';
+  String get electricityConsumption => 'Κατανάλωση ενέργειας';
 
   @override
-  String get electricityGenerated => 'Παράγεται ηλεκτρική ενέργεια';
+  String get electricityGenerated => 'Παραγόμενη ηλεκτρική ενέργεια';
 
   @override
-  String get enterComment => 'Εισαγάγετε μια σημείωση';
+  String get enterComment => 'Εισάγετε μια σημείωση';
 
   @override
-  String get enterExistingReadingAgain => 'Εισαγάγετε ξανά την παλιά ανάγνωση';
+  String get enterExistingReadingAgain => 'Επανεισαγωγή παλαιάς ανάγνωσης';
 
   @override
   String get enterObjectName => 'Ονομάστε το νέο αντικείμενο';
@@ -1165,29 +1163,29 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get errorInvalidRange => 'Δεν υπάρχει έγκυρο εύρος';
 
   @override
-  String get errorNoInternet => 'Χωρίς δίκτυο';
+  String get errorNoInternet => 'Δεν υπάρχει δίκτυο';
 
   @override
   String get euDisputeResolution =>
-      'Επίλυση διαφορών ΕΕ\n\nΗ Ευρωπαϊκή Επιτροπή παρέχει μια πλατφόρμα για την ηλεκτρονική επίλυση διαφορών (OS): https://ec.europa.eu/consumers/odr/.\nΜπορείτε να βρείτε τη διεύθυνση e-mail μας στο παραπάνω αποτύπωμα.\n\nόργανο επίλυσης διαφορών καταναλωτών/καθολικό όργανο επίλυσης διαφορών\n\nΔεν είμαστε πρόθυμοι ή υποχρεωμένοι να συμμετάσχουμε σε διαδικασίες επίλυσης διαφορών ενώπιον ενός συμβουλίου διαιτησίας καταναλωτών.';
+      'Επίλυση διαφορών στην ΕΕ\n\nΗ Ευρωπαϊκή Επιτροπή παρέχει μια πλατφόρμα για την ηλεκτρονική επίλυση διαφορών (OS): https://ec.europa.eu/consumers/odr/.\nΜπορείτε να βρείτε τη διεύθυνση ηλεκτρονικού ταχυδρομείου μας στο παραπάνω αποτύπωμα.\n\nΦορέας επίλυσης καταναλωτικών διαφορών/οικουμενικός φορέας επίλυσης διαφορών\n\nΔεν είμαστε πρόθυμοι ή υποχρεωμένοι να συμμετάσχουμε σε διαδικασίες επίλυσης διαφορών ενώπιον επιτροπής διαιτησίας καταναλωτών.';
 
   @override
   String get existingPhoto => 'Επισυνάψτε υπάρχουσα φωτογραφία';
 
   @override
   String get existingPhotoOfMeterReading =>
-      'Θέλετε να επισυνάψετε μια υπάρχουσα φωτογραφία της ένδειξης του μετρητή;';
+      'Θα θέλατε να επισυνάψετε μια υπάρχουσα φωτογραφία της ένδειξης του μετρητή;';
 
   @override
   String get explanationManageMoreThanOneObject =>
-      'Έχετε περισσότερα από ένα ακίνητα που θέλετε να διαχειριστείτε; Στη συνέχεια, ονομάστε το τρέχον αντικείμενο και, στη συνέχεια, δημιουργήστε ένα άλλο αντικείμενο.';
+      'Έχετε περισσότερα από ένα ακίνητα που θέλετε να διαχειριστείτε; Τότε ονομάστε το τρέχον αντικείμενο και στη συνέχεια δημιουργήστε ένα άλλο αντικείμενο.';
 
   @override
   String get export => 'Εξαγωγή';
 
   @override
   String get exportExplanation =>
-      'Ποιο υπάρχον αντικείμενο θέλετε να εξαγάγετε, για παράδειγμα να το μεταφέρετε σε μια νέα συσκευή;';
+      'Ποιο υπάρχον αντικείμενο θέλετε να εξαγάγετε, για παράδειγμα για να το μεταφέρετε σε μια νέα συσκευή;';
 
   @override
   String exportObjectDescription(
@@ -1207,45 +1205,45 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get exportOptionConsumptionsTitle => 'Ημερήσια κατανάλωση';
 
   @override
-  String get exportOptionExcel => 'αρχείο Excel';
+  String get exportOptionExcel => 'Αρχείο Excel';
 
   @override
   String exportOptionFileDescription(String fileType) {
-    return 'Το αντικείμενο είναι κοινόχρηστο ως αρχείο $fileType';
+    return 'Το αντικείμενο μοιράζεται ως αρχείο$fileType.';
   }
 
   @override
-  String get exportOptionPdf => 'αρχείο PDF';
+  String get exportOptionPdf => 'Αρχείο PDF';
 
   @override
   String get exportOptionReadingsSubtitle =>
-      'Τυπικά ενδείξεις μετρητών ή κατανάλωση με ακανόνιστα διαστήματα.';
+      'Συνήθως ενδείξεις μετρητών ή κατανάλωση με ακανόνιστα διαστήματα.';
 
   @override
-  String get exportOptionReadingsTitle => 'Αξίες ανάγνωσης';
+  String get exportOptionReadingsTitle => 'Ανάγνωση τιμών';
 
   @override
-  String get exportTabHowToExport => 'Πώς θα θέλατε να εξαγάγετε τα δεδομένα;';
+  String get exportTabHowToExport => 'Πώς θα θέλατε να εξάγετε τα δεδομένα;';
 
   @override
   String exportTabHowToExportOptionSaveToDownloads(Object folder) {
-    return 'Αποθήκευση στο φάκελο $folder';
+    return 'Αποθήκευση στο φάκελο$folder';
   }
 
   @override
   String get exportTabHowToExportOptionShare =>
-      'Μοιραστείτε με άλλες εφαρμογές';
+      'Κοινή χρήση με άλλες εφαρμογές';
 
   @override
   String get exportTabSnackBarSaveResultMessageError =>
-      'Παρουσιάστηκε σφάλμα κατά την αποθήκευση των δεδομένων';
+      'Εμφανίστηκε σφάλμα κατά την αποθήκευση των δεδομένων';
 
   @override
   String exportTabSnackBarSaveResultMessageSuccess(
     Object fileName,
     Object folder,
   ) {
-    return 'Τα δεδομένα αποθηκεύτηκαν με επιτυχία ως $fileName στον φάκελο $folder';
+    return 'Τα δεδομένα αποθηκεύτηκαν με επιτυχία ως $fileName στο φάκελο $folder';
   }
 
   @override
@@ -1253,19 +1251,19 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get exportWhichValuesShouldBeExported =>
-      'Ποιες αξίες πρέπει να εξαχθούν;';
+      'Ποιες τιμές πρέπει να εξαχθούν;';
 
   @override
   String get faqAboutDeveloperBody1 =>
-      'Σας ευχαριστούμε για το ενδιαφέρον σας για το EHW+. Το EHW+ κυκλοφόρησε από εμένα, τον Timo Bähr, τον Δεκέμβριο του 2020. Είμαι προγραμματιστής εφαρμογών πλήρους απασχόλησης και εργάζομαι στο EHW+ στον ελεύθερο χρόνο μου για να συμβάλλω στην προστασία του περιβάλλοντος. Από τον Μάιο του 2022, ένας δεύτερος προγραμματιστής επιβλέπει τη δουλειά μου, ο Thomas Hesse δημιουργεί backends για το EHW+. Από τον Απρίλιο του 2023, η Janine Sinner χειρίζεται τα πολυάριθμα σχόλια πελατών. Από τον Ιούλιο του 2024, ο Artem Yuzhakov εντάχθηκε ως προγραμματιστής εφαρμογών.';
+      'Σας ευχαριστούμε για το ενδιαφέρον σας για το EHW+. Το EHW+ κυκλοφόρησε από εμένα, τον Timo Bähr, τον Δεκέμβριο του 2020. Είμαι προγραμματιστής εφαρμογών πλήρους απασχόλησης και εργάζομαι στο EHW+ στον ελεύθερο χρόνο μου για να συμβάλλω στην προστασία του περιβάλλοντος. Από τον Μάιο του 2022, ένας δεύτερος προγραμματιστής επιβλέπει το έργο μου, ο Thomas Hesse κατασκευάζει backends για το EHW+. Από τον Απρίλιο του 2023, η Janine Sinner χειρίζεται τα πολυάριθμα σχόλια των πελατών. Από τον Ιούλιο του 2024, ο Artem Yuzhakov έχει ενταχθεί ως προγραμματιστής εφαρμογών.';
 
   @override
   String get faqAboutDeveloperBody2 =>
-      'Πάνω από το 26% όλων των εκπομπών CO2 στη Γερμανία προκαλούνται από ιδιωτικά νοικοκυριά. Αν ο καθένας μπορεί να μειώσει έστω και λίγο την κατανάλωσή του, θα έχουν επιτευχθεί πολλά. Σας ευχαριστούμε πολύ για τη συνεισφορά σας!';
+      'Πάνω από το 26% των συνολικών εκπομπών CO2 στη Γερμανία προκαλείται από τα ιδιωτικά νοικοκυριά. Αν όλοι μπορούν να μειώσουν έστω και λίγο την κατανάλωσή τους, θα έχουν επιτευχθεί πολλά. Σας ευχαριστούμε πολύ για τη συμβολή σας!';
 
   @override
   String get faqAboutDeveloperBody3 =>
-      'Χαιρετίζουμε προτάσεις για το πώς να βελτιώσετε την εφαρμογή.';
+      'Χαιρετίζουμε προτάσεις για τη βελτίωση της εφαρμογής.';
 
   @override
   String get faqAboutDeveloperBody4 =>
@@ -1275,51 +1273,51 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get faqAboutDeveloperTitle => 'Ποιος βρίσκεται πίσω από το EHW+;';
 
   @override
-  String get faqTitle => 'FAQ';
+  String get faqTitle => 'ΣΥΧΝΈΣ ΕΡΩΤΉΣΕΙΣ';
 
   @override
   String get featureVoting => 'Ψηφοφορία χαρακτηριστικών';
 
   @override
   String get featureVotingOnlyOnGerman =>
-      'Η έρευνα χαρακτηριστικών δεν μεταφράζεται σε άλλες γλώσσες.';
+      'Η έρευνα χαρακτηριστικών δεν έχει μεταφραστεί σε άλλες γλώσσες.';
 
   @override
   String get featureVotingUnderConstruction =>
-      'Η έρευνα χαρακτηριστικών είναι αυτή τη στιγμή υπό αναθεώρηση. Στο μέλλον, θα απαιτείται λογαριασμός χρήστη EHW+ και η έρευνα δεν θα χρησιμοποιεί πλέον διακομιστές τρίτων. Εκτιμούμε την υπομονή σας.';
+      'Η έρευνα χαρακτηριστικών αναθεωρείται επί του παρόντος. Στο μέλλον, θα απαιτείται λογαριασμός χρήστη EHW+ και η έρευνα δεν θα χρησιμοποιεί πλέον διακομιστές τρίτων. Εκτιμούμε την υπομονή σας.';
 
   @override
-  String get fedIn => 'Τροφοδοτημένος';
+  String get fedIn => 'Fed in';
 
   @override
   String get firstReadingConsumption => 'Εισάγετε την πρώτη κατανάλωση τώρα.';
 
   @override
-  String get firstReadingCounter => 'Εισαγάγετε την πρώτη ένδειξη μετρητή.';
+  String get firstReadingCounter => 'Εισάγετε την πρώτη ένδειξη του μετρητή.';
 
   @override
-  String get firstReadingYield => 'Εισαγάγετε την πρώτη απόδοση τώρα.';
+  String get firstReadingYield => 'Εισάγετε την πρώτη απόδοση τώρα.';
 
   @override
-  String get forX => 'για';
+  String get forX => 'για το';
 
   @override
   String get gas => 'Αέριο';
 
   @override
-  String get generated => 'Δημιουργήθηκε';
+  String get generated => 'Παραγωγή';
 
   @override
   String get googleAnalyticsAgreement =>
-      'Συμφωνώ με τη μετάδοση ανώνυμων δεδομένων σχετικά με τη χρήση της εφαρμογής στην EHW+ Services GmbH.';
+      'Συμφωνώ με τη διαβίβαση ανώνυμων δεδομένων σχετικά με τη χρήση της εφαρμογής στην EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
-    return 'Η χρήση και μεταφορά του $appNameShort σε οποιαδήποτε άλλη εφαρμογή πληροφοριών που λαμβάνονται από τα API της Google θα συμμορφώνεται με την Πολιτική δεδομένων χρήστη των Υπηρεσιών API της Google, συμπεριλαμβανομένων των απαιτήσεων περιορισμένης χρήσης.';
+    return 'Η χρήση και η μεταφορά από την $appNameShort σε οποιαδήποτε άλλη εφαρμογή των πληροφοριών που λαμβάνονται από τα API της Google θα συμμορφώνεται με την Πολιτική δεδομένων χρήστη των υπηρεσιών API της Google, συμπεριλαμβανομένων των απαιτήσεων περιορισμένης χρήσης.';
   }
 
   @override
-  String get gross => 'μικτός';
+  String get gross => 'ακαθάριστο';
 
   @override
   String get grossNetPrices => 'Ακαθάριστη ή καθαρή τιμή';
@@ -1328,20 +1326,20 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get heatPump => 'Αντλία θερμότητας';
 
   @override
-  String get heater => 'Καλοριφέρ';
+  String get heater => 'Ψυγείο';
 
   @override
   String get heatmapLegendDisclaimer =>
-      'Πληροφορίες: Τα σκιασμένα πλαίσια περιέχουν μια εκτιμώμενη τιμή. Για να διαβάσετε την πραγματική κατανάλωση/έξοδο, συμπληρώστε τις ενδείξεις του μετρητή που λείπουν εάν είναι δυνατόν.';
+      'Πληροφορίες: Τα σκιασμένα πλαίσια περιέχουν μια εκτιμώμενη τιμή. Για να διαβάσετε την πραγματική κατανάλωση/απόδοση, συμπληρώστε τις ενδείξεις των μετρητών που λείπουν αν είναι δυνατόν.';
 
   @override
-  String get heatmapLegendTitle => 'Περισσότερα για το Heatmap';
+  String get heatmapLegendTitle => 'Περισσότερα για τον χάρτη θερμότητας';
 
   @override
   String get houseName => 'Όνομα σπιτιού';
 
   @override
-  String get houseNameDescription => 'Όνομα σπιτιού, π.χ. όνομα δρόμου';
+  String get houseNameDescription => 'Όνομα σπιτιού, π.χ. όνομα οδού';
 
   @override
   String get import => 'Εισαγωγή';
@@ -1351,7 +1349,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get importCounterAsCsv =>
-      'Θέλετε να εισάγετε έναν μόνο μετρητή; Υποστηρίζεται ανά μέτρο ένα αρχείο CSV με δύο στήλες, μία για την ώρα και μία για την ένδειξη του μετρητή.\n\nΠαραδείγματα δεδομένων:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812.036';
+      'Θέλετε να εισαγάγετε έναν μεμονωμένο μετρητή; Υποστηρίζεται ανά μετρητή ένα αρχείο CSV με δύο στήλες, μία για την ώρα και μία για την ένδειξη του μετρητή.\n\nΠαράδειγμα δεδομένων:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421\n2020-04-01 22:22,6803.435\n20120401 13:27:00,6807.467\n2012-04-01,13:27:00,6807.467\n\"2020-04-01 23:02:00\",6812,036';
 
   @override
   String importErrorCsvIgnoredColumns(int columns) {
@@ -1359,7 +1357,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       columns,
       locale: localeName,
       other:
-          'Χρησιμοποιήθηκαν μόνο οι δύο πρώτες στήλες, οι στήλες $columns αγνοήθηκαν.',
+          'Χρησιμοποιήθηκαν μόνο οι δύο πρώτες στήλες, ενώ οι στήλες «$columns» αγνοήθηκαν.',
       one:
           'Χρησιμοποιήθηκαν μόνο οι δύο πρώτες στήλες. Η τρίτη στήλη αγνοήθηκε.',
     );
@@ -1371,21 +1369,22 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Οι γραμμές $count αγνοήθηκαν: $lines',
-      one: 'Μία γραμμή αγνοήθηκε: $lines',
+      other: '$count οι γραμμές αγνοήθηκαν: $lines',
+      one: 'Μια γραμμή αγνοήθηκε: $lines',
     );
     return '$_temp0';
   }
 
   @override
   String get importExplanation =>
-      'Έχετε κάνει ήδη μετρήσεις και θέλετε να τις εισάγετε;';
+      'Έχετε ήδη προβεί σε αντίστροφες μετρήσεις και θέλετε να τις εισάγετε;';
 
   @override
-  String get importExport => 'Δημιουργία αντιγράφων ασφαλείας/Επαναφορά';
+  String get importExport => 'Δημιουργία αντιγράφων ασφαλείας/επαναφορά';
 
   @override
-  String get importNewOrExistingCounter => 'Προσθήκη σε νέο ή υπάρχον μετρητή;';
+  String get importNewOrExistingCounter =>
+      'Προσθήκη σε νέο ή υπάρχοντα μετρητή;';
 
   @override
   String get importNotPossible => 'Δεν είναι δυνατή η εισαγωγή';
@@ -1395,35 +1394,35 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String importSelectJson(String appName) {
-    return 'Αρχείο JSON (δημιουργήθηκε με $appName)';
+    return 'Αρχείο JSON (δημιουργημένο με το $appName)';
   }
 
   @override
-  String get importSelectSingleCounter => 'Μονός μετρητής (αρχείο CSV)';
+  String get importSelectSingleCounter => 'Ενιαίος μετρητής (αρχείο CSV)';
 
   @override
   String get importSuccessful => 'Επιτυχής εισαγωγή';
 
   @override
   String importTabErrorMessageFileWithExtensionNotSelected(Object extension) {
-    return 'Απαιτείται ένα αρχείο $extension για να προχωρήσετε στην εισαγωγή.';
+    return 'Για να προχωρήσετε στην εισαγωγή, απαιτείται ένα αρχείο $extension.';
   }
 
   @override
-  String get importTheObject => 'Εισαγωγή αντικειμένου';
+  String get importTheObject => 'Αντικείμενο εισαγωγής';
 
   @override
   String get importWhichCounterForCsv =>
       'Ποιος μετρητής πρέπει να χρησιμοποιηθεί;';
 
   @override
-  String get imprintTitle => 'Αποτύπωμα';
+  String get imprintTitle => 'Εκτύπωση';
 
   @override
   String get initialReading => 'Αρχική ανάγνωση';
 
   @override
-  String get involvedCounters => 'Εμπλέκονται μετρητές';
+  String get involvedCounters => 'Εμπλεκόμενοι μετρητές';
 
   @override
   String get isLastEntryAtFilteredList =>
@@ -1452,11 +1451,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get lineChartAppearanceSettingsShowSpots =>
-      'Εμφάνιση (κυκλικών) σημείων στις γραμμές των γραφημάτων';
+      'Εμφάνιση (κυκλικών) σημείων στις γραμμές των διαγραμμάτων';
 
   @override
   String localWriteSubtitle(Object folder) {
-    return 'Πρέπει τα αντικείμενα και οι φωτογραφίες να αποθηκεύονται στον τοπικό φάκελο \"$folder\" με κάθε αλλαγή;';
+    return 'Πρέπει τα αντικείμενα και οι φωτογραφίες να αποθηκεύονται στον τοπικό φάκελο «$folder» με κάθε αλλαγή;';
   }
 
   @override
@@ -1464,59 +1463,60 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get manageMoreThanOneObjectStep1 =>
-      'Διαχειριστείτε περισσότερα από ένα αντικείμενα - Βήμα 1';
+      'Διαχείριση περισσότερων από ένα αντικειμένων - Βήμα 1';
 
   @override
   String get manageMoreThanOneObjectStep2 =>
-      'Διαχειριστείτε περισσότερα από ένα αντικείμενα - Βήμα 2';
+      'Διαχείριση περισσότερων από ένα αντικειμένων - Βήμα 2';
 
   @override
-  String get marketLocationId => 'Αναγνωριστικό τοποθεσίας αγοράς';
+  String get marketLocationId => 'Αναγνωριστικό θέσης αγοράς';
 
   @override
   String get marketLocationIdDescription =>
-      'Το αναγνωριστικό τοποθεσίας αγοράς αποτελείται πάντα από 11 ψηφία. Μπορείτε να το βρείτε συνήθως στον τελευταίο σας λογαριασμό ρεύματος ή φυσικού αερίου.';
+      'Το αναγνωριστικό θέσης αγοράς αποτελείται πάντα από 11 ψηφία. Συνήθως μπορείτε να το βρείτε στον τελευταίο σας λογαριασμό ηλεκτρικού ρεύματος ή φυσικού αερίου.';
 
   @override
   String get messageNoConsumptions =>
-      'Τα στατιστικά στοιχεία για όλους τους μετρητές ενός τύπου εμφανίζονται εδώ εάν έχουν γίνει αρκετές μετρήσεις. Για παράδειγμα, δύο μετρητές κρύου νερού, δύο μετρητές ζεστού νερού και ένας μετρητής εξαγωγής νερού εμφανίζονται σε μία στατιστική νερού.';
+      'Εδώ εμφανίζονται στατιστικά στοιχεία για όλους τους μετρητές ενός τύπου, εάν έχουν ληφθεί αρκετές μετρήσεις. Για παράδειγμα, δύο μετρητές κρύου νερού, δύο μετρητές ζεστού νερού και ένας μετρητής εξαγωγής νερού εμφανίζονται σε μία στατιστική νερού.';
 
   @override
-  String get messageNoContracts => 'Δεν υπάρχουν συμβόλαια ακόμα.';
+  String get messageNoContracts => 'Δεν υπάρχουν ακόμη συμβόλαια.';
 
   @override
   String get messageNoCounterReadings =>
-      'Δεν έχετε εισαγάγει ακόμη ανάγνωση μετρητή.';
+      'Δεν έχετε εισάγει ακόμη ένδειξη μετρητή.';
 
   @override
-  String get messageNoCounters => 'Δεν έχετε δημιουργήσει ακόμη μετρητή.';
+  String get messageNoCounters => 'Δεν έχετε ακόμη δημιουργήσει έναν μετρητή.';
 
   @override
   String get messageNoRooms =>
-      'Δεν υπάρχουν ακόμη δωμάτια. Τα δωμάτια βοηθούν τους ομαδικούς μετρητές.';
+      'Δεν υπάρχουν δωμάτια ακόμα. Τα δωμάτια βοηθούν τους μετρητές της ομάδας.';
 
   @override
   String get messageNotEnoughData =>
-      'Δεν υπάρχουν αρκετά δεδομένα για την εμφάνιση του γραφήματος';
+      'Δεν υπάρχουν αρκετά δεδομένα για την εμφάνιση του διαγράμματος';
 
   @override
-  String get meterCardLastUpdatedLabel => 'Ενημερώθηκε';
+  String get meterCardLastUpdatedLabel => 'Ενημερωμένο';
 
   @override
-  String get meterId => 'Ταυτότητα μετρητή';
+  String get meterId => 'ID μετρητή';
 
   @override
-  String get meterReadingSubmitted => 'Μεταδόθηκε στον πάροχο';
+  String get meterReadingSubmitted => 'Διαβιβάζεται στον πάροχο';
 
   @override
   String get meterReadingsFilterAll => 'Εμφάνιση όλων';
 
   @override
-  String get meterReadingsFilterComments => 'Εμφάνιση μόνο εγγραφών με σχόλια';
+  String get meterReadingsFilterComments =>
+      'Εμφάνιση μόνο καταχωρήσεων με σχόλια';
 
   @override
   String meterReadingsFilterSubmitted(String state) {
-    return 'Εμφάνιση μόνο \"$state\"';
+    return 'Εμφάνιση μόνο «$state»';
   }
 
   @override
@@ -1528,23 +1528,23 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get myObjects => 'Τα αντικείμενά μου';
 
   @override
-  String get net => 'καθαρά';
+  String get net => 'net';
 
   @override
-  String get networkCounter => 'Διαδίκτυο & τηλέφωνο';
+  String get networkCounter => 'Internet & τηλέφωνο';
 
   @override
-  String get newCounter => 'Δημιουργήστε έναν νέο μετρητή';
+  String get newCounter => 'Δημιουργία νέου μετρητή';
 
   @override
-  String get newPhoto => 'Βγάλε μια νέα φωτογραφία';
+  String get newPhoto => 'Τραβήξτε μια νέα φωτογραφία';
 
   @override
   String get newPhotoOfMeterReading =>
       'Θα θέλατε να τραβήξετε μια φωτογραφία της ένδειξης του μετρητή;';
 
   @override
-  String get newReading => 'Εισαγάγετε την τρέχουσα ένδειξη';
+  String get newReading => 'Εισάγετε την τρέχουσα ένδειξη';
 
   @override
   String get newReadingShort => 'Νέα ανάγνωση';
@@ -1564,9 +1564,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Μετρητές $count',
-      one: 'Μετρητής $count',
-      zero: 'Μετρητής $count',
+      other: '$count μετρητές',
+      one: '$count μετρητής',
+      zero: '$count μετρητής',
     );
     return '$_temp0';
   }
@@ -1576,8 +1576,8 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       readings,
       locale: localeName,
-      other: '# αναγνώσεις',
-      one: '#διάβασμα',
+      other: '# readings',
+      one: '# reading',
     );
     return '$_temp0';
   }
@@ -1587,7 +1587,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Λεπτομέρειες $count',
+      other: '$count λεπτομέρειες',
       one: '1 λεπτομέρεια',
     );
     return '$_temp0';
@@ -1600,7 +1600,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String ofRangeLastDays(int days) {
-    return 'των τελευταίων $days ημερών';
+    return 'των τελευταίων ημερών του $days';
   }
 
   @override
@@ -1609,23 +1609,23 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get oil => 'Ελαιο';
+  String get oil => 'Λάδι';
 
   @override
-  String get outdated => 'Απαρχαιωμένος';
+  String get outdated => 'Ξεπερασμένο';
 
   @override
   String get outdatedContracts => 'Ξεπερασμένες συμβάσεις';
 
   @override
-  String get outdatedCounters => 'Οι μετρητές δεν χρησιμοποιούνται πλέον';
+  String get outdatedCounters => 'Μετρητές που δεν χρησιμοποιούνται πλέον';
 
   @override
   String get paidAdvancePayments => 'Προκαταβολές';
 
   @override
   String get parsingObjectError =>
-      'Το αντικείμενο δεν μπορεί να αναλυθεί. Επικοινωνήστε με τον προγραμματιστή. Κατά την απεγκατάσταση της εφαρμογής, τα δεδομένα ενδέχεται να χαθούν.';
+      'Το αντικείμενο δεν μπορεί να αναλυθεί. Παρακαλούμε επικοινωνήστε με τον προγραμματιστή. Κατά την απεγκατάσταση της εφαρμογής, ενδέχεται να χαθούν τα δεδομένα.';
 
   @override
   String get per => 'ανά';
@@ -1639,13 +1639,13 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get period => 'Περίοδος';
 
   @override
-  String get periodBimonthly => 'διμηνιαίος';
+  String get periodBimonthly => 'διμηνιαία';
 
   @override
-  String get periodBiweekly => 'ανά δύο εβδομάδες';
+  String get periodBiweekly => 'ανά δεκαπενθήμερο';
 
   @override
-  String get periodCustom => 'Ορίζεται από το χρήστη';
+  String get periodCustom => 'Ορίζεται από τον χρήστη';
 
   @override
   String get periodDaily => 'καθημερινά';
@@ -1654,22 +1654,22 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get periodHalfYearly => 'εξαμηνιαία';
 
   @override
-  String get periodHourly => 'ωριαίος';
+  String get periodHourly => 'ωριαία';
 
   @override
-  String get periodMonthly => 'μηνιαίος';
+  String get periodMonthly => 'μηνιαία';
 
   @override
-  String get periodQuarterly => 'τριμηνιαίος';
+  String get periodQuarterly => 'τριμηνιαία';
 
   @override
-  String get periodWeekly => 'εβδομαδιαίος';
+  String get periodWeekly => 'εβδομαδιαία';
 
   @override
   String get periodYearly => 'ετήσια';
 
   @override
-  String get previouslyDeletedCounters => 'Μετρητές που διαγράφηκαν πρόσφατα';
+  String get previouslyDeletedCounters => 'Πρόσφατα διαγραμμένοι μετρητές';
 
   @override
   String priceComparisonDiff(
@@ -1678,21 +1678,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String diffWithCurrency,
   ) {
     String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'περισσότερα από',
-      'less': 'λιγότερα από',
-      'other': 'περισσότερα από',
+      'more': 'περισσότερο από',
+      'less': 'λιγότερο από',
+      'other': 'περισσότερο από',
     });
-    return 'Πληρώνετε $diffWithCurrency $_temp0 τον μέσο όρο σε $countryName.';
+    return 'Πληρώνετε $diffWithCurrency $_temp0 ο μέσος όρος στο $countryName.';
   }
 
   @override
   String priceComparisonEqual(String countryName) {
-    return 'Πληρώνετε περίπου όσο ο μέσος όρος σε $countryName.';
+    return 'Πληρώνετε περίπου όσο και ο μέσος όρος στο $countryName.';
   }
 
   @override
   String priceComparisonNotEnoughData(String countryCode, String countryName) {
-    return 'Δεν υπάρχουν ακόμη αρκετά συγκριτικά δεδομένα για τον ιστότοπο $countryName ($countryCode).';
+    return 'Δεν υπάρχουν ακόμη αρκετά συγκριτικά στοιχεία για τον ιστότοπο $countryName ($countryCode).';
   }
 
   @override
@@ -1702,7 +1702,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get pricePerUnitFeedIn => 'Τιμή αμοιβής';
 
   @override
-  String get pricePerUnitFreshWater => 'Κόστος για γλυκό νερό';
+  String get pricePerUnitFreshWater => 'Κόστος για το γλυκό νερό';
 
   @override
   String get pricePerUnitWasteWater => 'Τιμή λυμάτων';
@@ -1715,83 +1715,84 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get priceSubmissionAgreement =>
-      'Συμφωνώ με τη μετάδοση των τιμών ηλεκτρικής ενέργειας/φυσικού αερίου/νερού ανά μονάδα σε διακομιστή EHW+';
+      'Συμφωνώ με τη διαβίβαση των τιμών ηλεκτρικής ενέργειας/αερίου/νερού ανά μονάδα σε έναν διακομιστή EHW+.';
 
   @override
   String privacyBlock1Text(String contact) {
-    return 'Ο προγραμματιστής/πάροχος της εφαρμογής (εφεξής «εφαρμογή») είναι, σύμφωνα με την Ενότητα 5 του Γερμανικού Νόμου για τα Telemedia (TMG):\n\n$contact';
+    return 'Ο προγραμματιστής/πάροχος της εφαρμογής (εφεξής «εφαρμογή») είναι, σύμφωνα με το άρθρο 5 του γερμανικού νόμου περί τηλεπικοινωνιών (TMG):\n\n$contact';
   }
 
   @override
   String get privacyBlock1Text2 =>
-      'Η χρήση της εφαρμογής προϋποθέτει ότι συμφωνείτε με τους ακόλουθους όρους χρήσης. Παρακαλώ διαβάστε τα προσεκτικά.';
+      'Η χρήση της εφαρμογής προϋποθέτει ότι συμφωνείτε με τους ακόλουθους όρους χρήσης. Παρακαλούμε διαβάστε τους προσεκτικά.';
 
   @override
   String get privacyBlock1Title => 'Προγραμματιστής';
 
   @override
   String get privacyBlock2Text =>
-      'Η προστασία των δεδομένων σας είναι πολύ σημαντική για εμάς. Αυτή η πολιτική απορρήτου εξηγεί ποια προσωπικά δεδομένα συλλέγει η EHW+ και πώς χρησιμοποιούνται. Οι θεμελιώδεις αλλαγές στην πολιτική απορρήτου είναι σπάνιες, αλλά ενδέχεται να αναθεωρούνται από καιρό σε καιρό λόγω νέων χαρακτηριστικών, τεχνολογιών ή νομικών απαιτήσεων. Επομένως, παρακαλούμε να ελέγχετε αυτή τη σελίδα από καιρό σε καιρό για να είστε ενημερωμένοι. Εάν κάνουμε σημαντικές αλλαγές, θα σας ειδοποιήσουμε και, εάν είναι απαραίτητο, θα λάβουμε τη συγκατάθεσή σας.';
+      'Η προστασία των δεδομένων σας είναι πολύ σημαντική για εμάς. Η παρούσα πολιτική απορρήτου εξηγεί ποια προσωπικά δεδομένα συλλέγει η EHW+ και πώς χρησιμοποιούνται. Οι θεμελιώδεις αλλαγές στην πολιτική απορρήτου είναι σπάνιες, αλλά ενδέχεται να αναθεωρείται κατά καιρούς λόγω νέων χαρακτηριστικών, τεχνολογιών ή νομικών απαιτήσεων. Επομένως, παρακαλούμε να ελέγχετε αυτή τη σελίδα από καιρό σε καιρό για να παραμένετε ενημερωμένοι. Εάν προβούμε σε σημαντικές αλλαγές, θα σας ενημερώσουμε και, εάν είναι απαραίτητο, θα λάβουμε τη συγκατάθεσή σας.';
 
   @override
-  String get privacyBlock2Title => 'Γενικός';
+  String get privacyBlock2Title => 'Γενικά';
 
   @override
   String privacyBlock3Title(String appNameShort) {
-    return 'Ποια δεδομένα συλλέγει το $appNameShort;';
+    return 'Ποια δεδομένα συλλέγει η $appNameShort;';
   }
 
   @override
   String privacyBlock3aText(String appNameShort) {
-    return 'Δημιουργήσαμε το $appNameShort για να μπορείτε να εισάγετε γρήγορα και εύκολα τις ενδείξεις του μετρητή σας και στη συνέχεια να χρησιμοποιείτε στατιστικά στοιχεία για να μάθετε περισσότερα σχετικά με την κατανάλωσή σας, το κόστος και τις πιθανές εξοικονομήσεις. Αυτό σημαίνει ότι μπορείτε να εισαγάγετε, να υπολογίσετε ή να αποθηκεύσετε οποιαδήποτε δεδομένα, τα οποία γενικά αποκαλούμε «περιεχόμενο», στο $appNameShort. Αυτά τα δεδομένα αποθηκεύονται μόνο στο κινητό σας τηλέφωνο.\n\nΣυγχρονισμός με το Google Drive.\nΕάν ενεργοποιήσετε το συγχρονισμό με το Google Drive, το περιεχόμενο θα δημιουργηθεί επίσης αυτόματα αντίγραφα ασφαλείας σε έναν φάκελο που ονομάζεται \"$appNameShort\" στο Google Drive σας, στον οποίο μόνο εσείς έχετε πρόσβαση. Με τη σύνδεση με το Google, η διεύθυνση ηλεκτρονικού ταχυδρομείου σας θα είναι ορατή στον προγραμματιστή.';
+    return 'Δημιουργήσαμε το $appNameShort ώστε να μπορείτε να εισάγετε γρήγορα και εύκολα τις ενδείξεις του μετρητή σας και στη συνέχεια να χρησιμοποιήσετε στατιστικά στοιχεία για να μάθετε περισσότερα σχετικά με την κατανάλωσή σας, το κόστος της και τις πιθανές εξοικονομήσεις. Αυτό σημαίνει ότι μπορείτε να εισάγετε, να υπολογίσετε ή να αποθηκεύσετε οποιαδήποτε δεδομένα, τα οποία γενικά αναφερόμαστε ως «περιεχόμενο», στο $appNameShort. Αυτά τα δεδομένα αποθηκεύονται μόνο στο κινητό σας τηλέφωνο.\n\nΣυγχρονισμός με το Google Drive.\nΕάν ενεργοποιήσετε τη συγχρονιση με το Google Drive, το περιεχόμενο θα αποθηκευτεί αυτόματα σε ένα φάκελο με την ονομασία «$appNameShort» στο Google Drive, στον οποίο έχετε πρόσβαση μόνο εσείς. Με τη σύνδεση μέσω Google, η διεύθυνση email σας θα είναι ορατή στον προγραμματιστή.';
   }
 
   @override
   String privacyBlock3bText(String googleApiAgreement) {
-    return '$googleApiAgreement\n\nΔεδομένα τοποθεσίας.\nΠροκειμένου να κατανοηθεί η συμπεριφορά των χρηστών και για μελλοντικές λειτουργίες, η εφαρμογή μεταδίδει ανώνυμα δεδομένα χρήσης.\nΤα δεδομένα δεν κοινοποιούνται σε τρίτους.\nΕνδέχεται να συλλέγονται πληροφορίες σχετικά με την προέλευση (χώρα και πόλη), τη γλώσσα, το λειτουργικό σύστημα, τον τύπο συσκευής, την ανάλυση, τη συμπεριφορά κλικ και τη διάρκεια χρήσης.\n\nΔεδομένα συσκευής.\nΣυλλέγουμε δεδομένα σχετικά με τον αριθμό και τον τύπο των συσκευών που χρησιμοποιείτε για να συνδεθείτε στην υπηρεσία, καθώς και πληροφορίες σχετικά με το λειτουργικό σύστημα σε αυτές τις συσκευές (π.χ. Android, iOS, Windows ή macOS).\n\nΧρησιμοποιώντας την εφαρμογή, συναινείτε στη συλλογή ανώνυμων δεδομένων όπως περιγράφεται παραπάνω.';
+    return '$googleApiAgreement\n\nΔεδομένα τοποθεσίας.\nΠροκειμένου να κατανοήσουμε τη συμπεριφορά των χρηστών και για μελλοντικές λειτουργίες, η εφαρμογή μεταδίδει ανώνυμα δεδομένα χρήσης. Τα δεδομένα δεν κοινοποιούνται σε τρίτους. Μπορούν να συλλέγονται πληροφορίες σχετικά με την προέλευση (χώρα και πόλη), τη γλώσσα, το λειτουργικό σύστημα, τον τύπο της συσκευής, την ανάλυση, τη συμπεριφορά κλικ και τη διάρκεια χρήσης. n\nΔεδομένα συσκευής.\nΣυλλέγουμε δεδομένα σχετικά με τον αριθμό και τον τύπο των συσκευών που χρησιμοποιείτε για να συνδεθείτε στην υπηρεσία, καθώς και πληροφορίες σχετικά με το λειτουργικό σύστημα αυτών των συσκευών (π.χ. Android, iOS, Windows ή macOS).\n\nΧρησιμοποιώντας την εφαρμογή, συναινείτε στη συλλογή ανώνυμων δεδομένων όπως περιγράφεται παραπάνω.';
   }
 
   @override
   String privacyBlock4DataUsage(String syncDriveDataUsage) {
-    return 'Τα συλλεγμένα ανώνυμα δεδομένα χρησιμοποιούνται για την αξιολόγηση της συμπεριφοράς των χρηστών. Πέρα από αυτό, δεν υπάρχει περαιτέρω χρήση δεδομένων.\n\n$syncDriveDataUsage';
+    return 'Τα ανώνυμα δεδομένα που συλλέγονται χρησιμοποιούνται για την αξιολόγηση της συμπεριφοράς των χρηστών. Πέραν αυτού, δεν γίνεται καμία άλλη χρήση των δεδομένων.\n\n$syncDriveDataUsage';
   }
 
   @override
   String privacyBlock4DataUsageTitle(Object appNameShort) {
-    return 'Πώς χρησιμοποιεί το $appNameShort τα δεδομένα μου;';
+    return 'Πώς χρησιμοποιεί τα δεδομένα μου η $appNameShort;';
   }
 
   @override
   String get privacyBlock5 =>
-      'Η διάρκεια αποθήκευσης των προσωπικών δεδομένων καθορίζεται από την εκάστοτε νόμιμη περίοδο διατήρησης (π.χ. περίοδοι διατήρησης εμπορικής και φορολογικής νομοθεσίας). Μετά τη λήξη της περιόδου, τα αντίστοιχα δεδομένα διαγράφονται τακτικά, υπό την προϋπόθεση ότι δεν απαιτούνται πλέον για την εκπλήρωση ή την έναρξη μιας σύμβασης ή/και δεν έχουμε πλέον έννομο συμφέρον για τη συνέχιση της αποθήκευσής της.';
+      'Η διάρκεια της αποθήκευσης των προσωπικών δεδομένων καθορίζεται από την αντίστοιχη νόμιμη περίοδο διατήρησης (π.χ. περίοδοι διατήρησης της εμπορικής και φορολογικής νομοθεσίας). Μετά τη λήξη της περιόδου αυτής, τα αντίστοιχα δεδομένα διαγράφονται κανονικά, εφόσον δεν απαιτούνται πλέον για την εκπλήρωση ή την έναρξη μιας σύμβασης ή/και δεν έχουμε πλέον έννομο συμφέρον για τη συνέχιση της φύλαξής τους.';
 
   @override
-  String get privacyBlock5Title => 'Διάρκεια αποθήκευσης προσωπικών δεδομένων';
+  String get privacyBlock5Title =>
+      'Διάρκεια αποθήκευσης δεδομένων προσωπικού χαρακτήρα';
 
   @override
   String get privacyBlock6 =>
-      'Όταν επικοινωνείτε μαζί μας (π.χ. μέσω φόρμας επικοινωνίας ή email), συλλέγονται προσωπικά δεδομένα. Τα δεδομένα που συλλέγονται σε περίπτωση φόρμας επικοινωνίας μπορείτε να τα δείτε στην αντίστοιχη φόρμα επικοινωνίας. Αυτά τα δεδομένα αποθηκεύονται και χρησιμοποιούνται αποκλειστικά για τους σκοπούς της απάντησης στο ερώτημά σας ή για τη δημιουργία επαφής και της σχετικής τεχνικής διοίκησης. Η νομική βάση για την επεξεργασία των δεδομένων είναι το έννομο συμφέρον μας να ανταποκριθούμε στο αίτημά σας σύμφωνα με το άρθρο. 6 παράγρ. 1 λιτ. στ GDPR. Εάν η επαφή σας αποσκοπεί στη σύναψη σύμβασης, η πρόσθετη νομική βάση για την επεξεργασία είναι το άρθρο. 6 παράγρ. 1 λιτ. β GDPR. Τα δεδομένα σας θα διαγραφούν μετά την επεξεργασία του ερωτήματός σας, κάτι που συμβαίνει εάν από τις περιστάσεις μπορεί να συναχθεί ότι το εν λόγω θέμα έχει οριστικά διευκρινιστεί και υπό την προϋπόθεση ότι δεν υπάρχουν νομικές υποχρεώσεις διατήρησης δεδομένων.';
+      'Όταν επικοινωνείτε μαζί μας (π.χ. μέσω φόρμας επικοινωνίας ή ηλεκτρονικού ταχυδρομείου), συλλέγονται προσωπικά δεδομένα. Τα δεδομένα που συλλέγονται σε περίπτωση φόρμας επικοινωνίας μπορείτε να τα δείτε στην αντίστοιχη φόρμα επικοινωνίας. Τα δεδομένα αυτά αποθηκεύονται και χρησιμοποιούνται αποκλειστικά και μόνο για τον σκοπό της απάντησης στο ερώτημά σας ή για τη δημιουργία επαφής και τη σχετική τεχνική διαχείριση. Η νομική βάση για την επεξεργασία των δεδομένων είναι το έννομο συμφέρον μας να ανταποκριθούμε στο αίτημά σας σύμφωνα με το άρθρο 3 του ν. 6 παρ. 1 lit. f ΓΚΠΔ. Εάν η επικοινωνία σας αποσκοπεί στη σύναψη σύμβασης, η πρόσθετη νομική βάση για την επεξεργασία είναι το άρθρο 3 του Συντάγματος. 6 παρ. 1 στοιχ. β ΓΚΠΔ. Τα δεδομένα σας θα διαγραφούν μετά την επεξεργασία του ερωτήματός σας, πράγμα που συμβαίνει εάν από τις περιστάσεις μπορεί να συναχθεί ότι το εν λόγω ζήτημα έχει οριστικά διευκρινιστεί και υπό την προϋπόθεση ότι δεν υπάρχουν νομικές υποχρεώσεις διατήρησης δεδομένων.';
 
   @override
-  String get privacyBlock6Title => 'Επαφή';
+  String get privacyBlock6Title => 'Επικοινωνία';
 
   @override
   String get privacyBlock7 =>
-      'Η ισχύουσα νομοθεσία περί προστασίας δεδομένων σας παρέχει ολοκληρωμένα δικαιώματα ως υποκείμενο των δεδομένων (δικαιώματα ενημέρωσης και παρέμβασης) έναντι του υπεύθυνου επεξεργασίας σχετικά με την επεξεργασία των προσωπικών σας δεδομένων, για τα οποία θα σας ενημερώσουμε παρακάτω:\n\n- Δικαίωμα ενημέρωσης σύμφωνα με το άρθρο. 15 GDPR: Ειδικότερα, έχετε το δικαίωμα να λάβετε πληροφορίες σχετικά με τα προσωπικά σας δεδομένα που υποβλήθηκαν σε επεξεργασία από εμάς, τους σκοπούς της επεξεργασίας, τις κατηγορίες προσωπικών δεδομένων που υποβλήθηκαν σε επεξεργασία, τους παραλήπτες ή τις κατηγορίες παραληπτών στους οποίους έχουν αποκαλυφθεί ή πρόκειται να αποκαλυφθούν τα δεδομένα σας, την προγραμματισμένη περίοδο αποθήκευσης ή τα κριτήρια για τον καθορισμό της περιόδου αποθήκευσης, την ύπαρξη δικαιώματος διόρθωσης σε αντικείμενο επεξεργασίας, διαγραφή, αρχή, την προέλευση των δεδομένων σας, εάν δεν συλλέχθηκαν από εμάς από εσάς, την ύπαρξη αυτοματοποιημένης λήψης αποφάσεων, συμπεριλαμβανομένης της δημιουργίας προφίλ, και, κατά περίπτωση, ουσιαστικών πληροφοριών σχετικά με τη λογική και τη σημασία και τις προβλεπόμενες συνέπειες αυτής της επεξεργασίας για εσάς, καθώς και το δικαίωμά σας να ενημερώνεστε για τις εγγυήσεις που υπάρχουν σύμφωνα με το άρθρο. 46 GDPR όταν τα δεδομένα σας μεταφέρονται σε τρίτες χώρες.\n\n- Δικαίωμα διόρθωσης σύμφωνα με το άρθρο. 16 GDPR: Έχετε το δικαίωμα να διορθώσετε ανακριβή δεδομένα που σας αφορούν χωρίς καθυστέρηση ή/και να συμπληρώσετε τα ελλιπή δεδομένα που έχουν αποθηκευτεί από εμάς.\n\n- Δικαίωμα διαγραφής σύμφωνα με το άρθρο. 17 GDPR: Έχετε το δικαίωμα να ζητήσετε τη διαγραφή των προσωπικών σας δεδομένων εάν οι προϋποθέσεις του άρθρου. Τηρούνται το 17(1) GDPR. Ωστόσο, το δικαίωμα αυτό δεν ισχύει ιδιαίτερα εάν η επεξεργασία είναι απαραίτητη για την άσκηση του δικαιώματος της ελευθερίας έκφρασης και ενημέρωσης, για συμμόρφωση με νομική υποχρέωση, για λόγους δημοσίου συμφέροντος ή για τη θεμελίωση, άσκηση ή υπεράσπιση νομικών αξιώσεων.\n\n- Δικαίωμα περιορισμού της επεξεργασίας σύμφωνα με το άρθρο. 18 GDPR: Έχετε το δικαίωμα να ζητήσετε τον περιορισμό της επεξεργασίας των προσωπικών σας δεδομένων για όσο διάστημα επαληθεύεται η ακρίβεια των δεδομένων σας, εάν έχετε αντιταχθεί στη διαγραφή των δεδομένων σας για λόγους απαράδεκτης επεξεργασίας δεδομένων και αντ\' αυτού να ζητήσετε τον περιορισμό της επεξεργασίας των δεδομένων σας εάν χρειάζεστε τα δεδομένα σας για τη διεκδίκηση, άσκηση ή υπεράσπιση των δεδομένων σας. έχετε υποβάλει ένσταση για λόγους που σχετίζονται με την ιδιαίτερη κατάστασή σας, εφόσον δεν είναι ακόμη σαφές εάν υπερισχύουν οι νόμιμοι λόγοι μας·\n\n- Δικαίωμα ενημέρωσης σύμφωνα με το άρθρο. 19 GDPR: Εάν έχετε ασκήσει το δικαίωμά σας για διόρθωση, διαγραφή ή περιορισμό επεξεργασίας έναντι του υπεύθυνου επεξεργασίας, ο υπεύθυνος επεξεργασίας είναι υποχρεωμένος να ειδοποιήσει όλους τους παραλήπτες στους οποίους έχουν αποκαλυφθεί τα προσωπικά σας δεδομένα για αυτήν τη διόρθωση ή διαγραφή των δεδομένων ή περιορισμό επεξεργασίας, εκτός εάν αυτό αποδειχθεί αδύνατο ή συνεπάγεται δυσανάλογη προσπάθεια. Έχετε το δικαίωμα να ενημερώνεστε για αυτούς τους παραλήπτες.\n\n- Δικαίωμα φορητότητας δεδομένων σύμφωνα με το άρθρο. 20 GDPR: Έχετε το δικαίωμα να λάβετε τα προσωπικά σας δεδομένα που μας έχετε παράσχει σε δομημένη, ευρέως χρησιμοποιούμενη και αναγνώσιμη από μηχανήματα μορφή ή να ζητήσετε τη μεταφορά τους σε άλλον ελεγκτή, όπου είναι τεχνικά εφικτό.\n\n- Δικαίωμα ανάκλησης της συγκατάθεσης που χορηγήθηκε σύμφωνα με το άρθρο. 7(3) GDPR: Έχετε το δικαίωμα να αποσύρετε τη συγκατάθεσή σας για την επεξεργασία δεδομένων ανά πάσα στιγμή με ισχύ για το μέλλον. Σε περίπτωση απόσυρσης, θα διαγράψουμε τα σχετικά δεδομένα χωρίς καθυστέρηση, εκτός εάν η περαιτέρω επεξεργασία μπορεί να βασίζεται σε νομική βάση για επεξεργασία χωρίς συναίνεση. Η ανάκληση της συγκατάθεσης δεν επηρεάζει τη νομιμότητα της επεξεργασίας που βασίζεται στη συγκατάθεση πριν από την ανάκλησή της.\n\n- Δικαίωμα υποβολής καταγγελίας σύμφωνα με το άρθρο. 77 GDPR: Εάν πιστεύετε ότι η επεξεργασία των προσωπικών σας δεδομένων παραβιάζει τον GDPR, έχετε το δικαίωμα να υποβάλετε καταγγελία σε εποπτική αρχή, ιδίως στο κράτος μέλος της κατοικίας σας, στον τόπο εργασίας σας ή στον τόπο της εικαζόμενης παράβασης, με την επιφύλαξη οποιουδήποτε άλλου διοικητικού ή δικαστικού μέσου.';
+      'Η ισχύουσα νομοθεσία περί προστασίας δεδομένων σας παρέχει πλήρη δικαιώματα ως υποκείμενο των δεδομένων (δικαιώματα ενημέρωσης και παρέμβασης) έναντι του υπεύθυνου επεξεργασίας όσον αφορά την επεξεργασία των προσωπικών σας δεδομένων, για τα οποία θα σας ενημερώσουμε παρακάτω:\n\n- Δικαίωμα ενημέρωσης σύμφωνα με το άρθρο 1 του ν. 15 ΓΚΠΔ: Ειδικότερα, έχετε το δικαίωμα να λάβετε πληροφορίες σχετικά με τα προσωπικά σας δεδομένα που επεξεργαζόμαστε, τους σκοπούς της επεξεργασίας, τις κατηγορίες δεδομένων προσωπικού χαρακτήρα που υποβάλλονται σε επεξεργασία, τους αποδέκτες ή τις κατηγορίες αποδεκτών στους οποίους έχουν γνωστοποιηθεί ή θα γνωστοποιηθούν τα δεδομένα σας, την προβλεπόμενη περίοδο αποθήκευσης ή τα κριτήρια για τον καθορισμό της περιόδου αποθήκευσης, την ύπαρξη δικαιώματος διόρθωσης, διαγραφής, περιορισμού της επεξεργασίας, ένστασης κατά της επεξεργασίας, καταγγελίας σε εποπτική αρχή, την προέλευση των δεδομένων σας, εάν αυτά δεν συλλέχθηκαν από εμάς από εσάς, την ύπαρξη αυτοματοποιημένης λήψης αποφάσεων, συμπεριλαμβανομένης της κατάρτισης προφίλ, και, κατά περίπτωση, ουσιαστικές πληροφορίες σχετικά με τη σχετική λογική και τη σημασία και τις προβλεπόμενες συνέπειες της εν λόγω επεξεργασίας για εσάς, καθώς και το δικαίωμά σας να ενημερώνεστε για τις εγγυήσεις που υπάρχουν σύμφωνα με το άρθρο 4 του ν. 4412/2016. 46 ΓΚΠΔ όταν τα δεδομένα σας διαβιβάζονται σε τρίτες χώρες,\n\n- Δικαίωμα διόρθωσης σύμφωνα με το άρθρο 3 του ν. 16 ΓΚΠΔ: Έχετε το δικαίωμα να διορθώσετε χωρίς καθυστέρηση τα ανακριβή δεδομένα που σας αφορούν ή/και να συμπληρώσετε τα ελλιπή δεδομένα που έχουμε αποθηκεύσει.\n\n- Δικαίωμα διαγραφής σύμφωνα με το άρθρο 3 του ΓΚΠΔ. 17 ΓΚΠΔ: Έχετε το δικαίωμα να ζητήσετε τη διαγραφή των προσωπικών σας δεδομένων, εάν πληρούνται οι προϋποθέσεις του άρθρ. 17(1) ΓΚΠΔ πληρούνται. Ωστόσο, το δικαίωμα αυτό δεν ισχύει ιδίως εάν η επεξεργασία είναι απαραίτητη για την άσκηση του δικαιώματος της ελευθερίας της έκφρασης και της πληροφόρησης, για τη συμμόρφωση με νομική υποχρέωση, για λόγους δημοσίου συμφέροντος ή για τη θεμελίωση, άσκηση ή υπεράσπιση νομικών αξιώσεων.\n\n- Δικαίωμα περιορισμού της επεξεργασίας σύμφωνα με το άρθρο 1 του Συντάγματος. 18 ΓΚΠΔ: Έχετε το δικαίωμα να ζητήσετε τον περιορισμό της επεξεργασίας των προσωπικών σας δεδομένων για όσο διάστημα ελέγχεται η ακρίβεια των δεδομένων σας, εάν έχετε αντιταχθεί στη διαγραφή των δεδομένων σας για λόγους απαράδεκτης επεξεργασίας δεδομένων και αντ\' αυτού ζητάτε τον περιορισμό της επεξεργασίας των δεδομένων σας, εάν χρειάζεστε τα δεδομένα σας για τη διεκδίκηση, άσκηση ή υπεράσπιση νομικών αξιώσεων, αφού δεν χρειαζόμαστε πλέον τα δεδομένα αυτά για την εκπλήρωση του σκοπού για τον οποίο συλλέχθηκαν ή εάν έχετε υποβάλει αντίρρηση για λόγους που σχετίζονται με την ιδιαίτερη κατάστασή σας, εφόσον δεν είναι ακόμη σαφές εάν υπερισχύουν οι νόμιμοι λόγοι μας,\n\n- Δικαίωμα ενημέρωσης σύμφωνα με το άρθρο 1 του Συντάγματος. 19 ΓΚΠΔ: Εάν έχετε ασκήσει το δικαίωμά σας για διόρθωση, διαγραφή ή περιορισμό της επεξεργασίας έναντι του υπευθύνου επεξεργασίας, ο υπεύθυνος επεξεργασίας υποχρεούται να ενημερώσει όλους τους αποδέκτες στους οποίους έχουν γνωστοποιηθεί τα δεδομένα σας προσωπικού χαρακτήρα για τη διόρθωση ή τη διαγραφή των δεδομένων ή τον περιορισμό της επεξεργασίας, εκτός εάν αυτό αποδεικνύεται αδύνατο ή συνεπάγεται δυσανάλογη προσπάθεια. Έχετε το δικαίωμα να ενημερωθείτε σχετικά με αυτούς τους αποδέκτες.\n\n- Δικαίωμα φορητότητας των δεδομένων σύμφωνα με το άρθρο 1 του ν. 20 ΓΚΠΔ: Έχετε το δικαίωμα να λάβετε τα προσωπικά σας δεδομένα που μας έχετε παράσχει σε δομημένο, κοινώς χρησιμοποιούμενο και αναγνώσιμο από μηχανήματα μορφότυπο ή να ζητήσετε τη διαβίβασή τους σε άλλον υπεύθυνο επεξεργασίας, εφόσον αυτό είναι τεχνικά εφικτό.\n\n- Δικαίωμα ανάκλησης της συγκατάθεσης που χορηγείται σύμφωνα με το άρθρο 3 του ΓΚΠΔ. 7(3) ΓΚΠΔ: Έχετε το δικαίωμα να ανακαλέσετε τη συγκατάθεσή σας για την επεξεργασία των δεδομένων ανά πάσα στιγμή με ισχύ για το μέλλον. Σε περίπτωση ανάκλησης, θα διαγράψουμε τα σχετικά δεδομένα χωρίς καθυστέρηση, εκτός εάν η περαιτέρω επεξεργασία μπορεί να βασιστεί σε νομική βάση για επεξεργασία χωρίς συγκατάθεση. Η ανάκληση της συγκατάθεσης δεν επηρεάζει τη νομιμότητα της επεξεργασίας που βασίστηκε στη συγκατάθεση πριν από την ανάκλησή της.\n\n- Δικαίωμα υποβολής καταγγελίας σύμφωνα με το άρθρο 1 του ν. 77 ΓΚΠΔ: Εάν πιστεύετε ότι η επεξεργασία των προσωπικών σας δεδομένων παραβιάζει τον ΓΚΠΔ, έχετε το δικαίωμα να υποβάλετε καταγγελία σε εποπτική αρχή, ιδίως στο κράτος μέλος της κατοικίας σας, του τόπου εργασίας σας ή του τόπου της εικαζόμενης παράβασης, με την επιφύλαξη άλλων διοικητικών ή δικαστικών μέσων.';
 
   @override
   String get privacyBlock7Title => 'Δικαιώματα του ενδιαφερομένου';
 
   @override
   String get privacyBlock8 =>
-      'ΕΑΝ ΕΠΕΞΕΡΓΑΣΤΟΥΜΕ ΤΑ ΠΡΟΣΩΠΙΚΑ ΣΑΣ ΔΕΔΟΜΕΝΑ ΜΕ ΒΑΣΗ ΤΟΥ ΑΠΙΣΤΕΥΤΟΥ ΝΟΜΙΜΟΥ ΣΥΜΦΕΡΟΝΤΟΣ ΜΑΣ ΩΣ ΜΕΡΟΣ ΤΗΣ ΙΣΟΡΡΟΠΗΣΗΣ ΣΥΜΦΕΡΟΝΤΩΝ, ΕΧΕΤΕ ΤΟ ΔΙΚΑΙΩΜΑ ΝΑ ΑΝΤΑΤΕΘΕΙΤΕ ΣΕ ΑΥΤΗ ΤΗΝ ΕΠΕΞΕΡΓΑΣΙΑ ΟΠΟΙΑΔΗΠΟΤΕ ΣΤΙΓΜΗ ΓΙΑ ΛΟΓΟΥΣ ΕΠΙΔΡΑΣΗ ΓΙΑ ΤΟ ΜΕΛΛΟΝ. ΕΑΝ ΑΣΚΗΣΕΤΕ ΤΟ ΔΙΚΑΙΩΜΑ ΣΑΣ ΓΙΑ ΑΝΤΙΤΑΣΗ, ΘΑ ΣΤΑΜΑΤΗΣΟΥΜΕ ΤΗΝ ΕΠΕΞΕΡΓΑΣΙΑ ΤΩΝ ΣΧΕΤΙΚΩΝ ΔΕΔΟΜΕΝΩΝ. ΕΝΤΟΣΟ, ΠΕΡΑΙΤΕΡΩ ΕΠΕΞΕΡΓΑΣΙΑ ΠΑΡΑΜΕΝΕΙ ΕΠΙΦΥΛΑΜΕΝΗ ΕΑΝ ΜΠΟΡΟΥΜΕ ΝΑ ΑΠΟΔΕΙΞΟΥΜΕ ΕΠΑΓΓΕΛΤΙΚΟΥΣ ΝΟΜΙΜΟΥΣ ΛΟΓΟΥΣ ΓΙΑ ΤΗΝ ΕΠΕΞΕΡΓΑΣΙΑ ΠΟΥ ΥΠΕΡΓΑΖΟΥΝ ΤΑ ΣΥΜΦΕΡΟΝΤΑ, τα θεμελιώδη δικαιώματα και τις ελευθερίες ΣΑΣ ή εάν η επεξεργασία χρησιμεύει για τη διεκδίκηση, άσκηση ή υπεράσπιση νομικών αξιώσεων.\n\nΕΑΝ ΕΠΕΞΕΡΓΑΣΤΟΥΜΕ ΤΑ ΠΡΟΣΩΠΙΚΑ ΣΑΣ ΔΕΔΟΜΕΝΑ ΓΙΑ ΣΚΟΠΟΥΣ ΑΜΕΣΟΥ ΜΑΡΚΕΤΙΝΓΚ, ΕΧΕΤΕ ΤΟ ΔΙΚΑΙΩΜΑ ΝΑ ΑΝΤΑΤΕΘΕΙΤΕ ΟΠΟΙΑΔΗΠΟΤΕ ΣΤΙΓΜΗ ΣΤΗΝ ΕΠΕΞΕΡΓΑΣΙΑ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ ΠΟΥ ΣΑΣ ΑΦΟΡΟΥΝ ΓΙΑ ΤΟΥΣ ΣΚΟΠΟΥΣ ΤΕΤΟΥΣ ΔΙΑΦΗΜΙΣΗΣ. ΜΠΟΡΕΙΤΕ ΝΑ ΑΣΚΗΣΕΤΕ ΤΟ ΔΙΚΑΙΩΜΑ ΣΑΣ ΓΙΑ ΑΝΤΙΤΑΣΗ ΟΠΩΣ ΠΕΡΙΓΡΑΦΕΤΑΙ ΠΑΡΑΠΑΝΩ.\n\nΕΑΝ ΑΣΚΗΣΕΤΕ ΤΟ ΔΙΚΑΙΩΜΑ ΣΑΣ ΕΝΤΑΞΗΣ, ΘΑ ΣΤΑΜΑΤΗΣΟΥΜΕ ΤΗΝ ΕΠΕΞΕΡΓΑΣΙΑ ΤΩΝ ΔΕΔΟΜΕΝΩΝ ΠΟΥ ΣΑΣ ΑΦΟΡΟΥΝ ΓΙΑ ΣΚΟΠΟΥΣ ΑΜΕΣΟΥ ΜΑΡΚΕΤΙΝΓΚ.';
+      'ΕΆΝ ΕΠΕΞΕΡΓΑΖΌΜΑΣΤΕ ΤΑ ΠΡΟΣΩΠΙΚΆ ΣΑΣ ΔΕΔΟΜΈΝΑ ΒΆΣΕΙ ΤΟΥ ΥΠΈΡΤΕΡΟΥ ΈΝΝΟΜΟΥ ΣΥΜΦΈΡΟΝΤΌΣ ΜΑΣ ΣΤΟ ΠΛΑΊΣΙΟ ΤΗΣ ΕΞΙΣΟΡΡΌΠΗΣΗΣ ΣΥΜΦΕΡΌΝΤΩΝ, ΈΧΕΤΕ ΤΟ ΔΙΚΑΊΩΜΑ ΝΑ ΑΝΤΙΤΑΧΘΕΊΤΕ ΣΤΗΝ ΕΠΕΞΕΡΓΑΣΊΑ ΑΥΤΉ ΑΝΆ ΠΆΣΑ ΣΤΙΓΜΉ ΓΙΑ ΛΌΓΟΥΣ ΠΟΥ ΑΠΟΡΡΈΟΥΝ ΑΠΌ ΤΗΝ ΙΔΙΑΊΤΕΡΗ ΚΑΤΆΣΤΑΣΉ ΣΑΣ, ΜΕ ΙΣΧΎ ΓΙΑ ΤΟ ΜΈΛΛΟΝ. ΕΆΝ ΑΣΚΉΣΕΤΕ ΤΟ ΔΙΚΑΊΩΜΆ ΣΑΣ ΝΑ ΑΝΤΙΤΑΧΘΕΊΤΕ, ΘΑ ΣΤΑΜΑΤΉΣΟΥΜΕ ΤΗΝ ΕΠΕΞΕΡΓΑΣΊΑ ΤΩΝ ΣΧΕΤΙΚΏΝ ΔΕΔΟΜΈΝΩΝ. ΩΣΤΟΣΟ, Η ΠΕΡΑΙΤΕΡΩ ΕΠΕΞΕΡΓΑΣΙΑ ΕΠΙΒΑΛΛΕΤΑΙ ΕΑΝ ΜΠΟΡΟΥΜΕ ΝΑ ΑΠΟΔΕΙΞΟΥΜΕ ΑΠΑΡΑΙΤΗΤΟΥΣ ΝΟΜΙΜΟΥΣ ΛΟΓΟΥΣ ΓΙΑ ΤΗΝ ΕΠΕΞΕΡΓΑΣΙΑ, ΟΙ ΟΠΟΙΟΙ ΥΠΕΡΒΑΛΛΟΥΝ ΤΑ ΣΥΜΦΕΡΟΝΤΑ ΣΑΣ, τα θεμελιώδη δικαιώματα και τις ελευθερίες σας ή εάν η επεξεργασία εξυπηρετεί τη διεκδίκηση, άσκηση ή υπεράσπιση νομικών αξιώσεων.\n\nΕΆΝ ΕΠΕΞΕΡΓΑΖΌΜΑΣΤΕ ΤΑ ΠΡΟΣΩΠΙΚΆ ΣΑΣ ΔΕΔΟΜΈΝΑ ΓΙΑ ΣΚΟΠΟΎΣ ΆΜΕΣΗΣ ΕΜΠΟΡΙΚΉΣ ΠΡΟΏΘΗΣΗΣ, ΈΧΕΤΕ ΤΟ ΔΙΚΑΊΩΜΑ ΝΑ ΑΝΤΙΤΑΧΘΕΊΤΕ ΑΝΆ ΠΆΣΑ ΣΤΙΓΜΉ ΣΤΗΝ ΕΠΕΞΕΡΓΑΣΊΑ ΤΩΝ ΠΡΟΣΩΠΙΚΏΝ ΔΕΔΟΜΈΝΩΝ ΠΟΥ ΣΑΣ ΑΦΟΡΟΎΝ ΓΙΑ ΤΟΥΣ ΣΚΟΠΟΎΣ ΤΗΣ ΕΝ ΛΌΓΩ ΔΙΑΦΉΜΙΣΗΣ. ΜΠΟΡΕΊΤΕ ΝΑ ΑΣΚΉΣΕΤΕ ΤΟ ΔΙΚΑΊΩΜΆ ΣΑΣ ΝΑ ΑΝΤΙΤΑΧΘΕΊΤΕ ΌΠΩΣ ΠΕΡΙΓΡΆΦΕΤΑΙ ΠΑΡΑΠΆΝΩ.\n\nΕΆΝ ΑΣΚΉΣΕΤΕ ΤΟ ΔΙΚΑΊΩΜΆ ΣΑΣ ΝΑ ΑΝΤΙΤΑΧΘΕΊΤΕ, ΘΑ ΣΤΑΜΑΤΉΣΟΥΜΕ ΤΗΝ ΕΠΕΞΕΡΓΑΣΊΑ ΤΩΝ ΔΕΔΟΜΈΝΩΝ ΠΟΥ ΣΑΣ ΑΦΟΡΟΎΝ ΓΙΑ ΣΚΟΠΟΎΣ ΆΜΕΣΗΣ ΕΜΠΟΡΙΚΉΣ ΠΡΟΏΘΗΣΗΣ.';
 
   @override
-  String get privacyBlock8Title => 'Δικαίωμα αντίρρησης';
+  String get privacyBlock8Title => 'Δικαίωμα ένστασης';
 
   @override
   String get privacyContractPriceSubmission =>
-      'Όταν εσείς, ως χρήστης, διατηρείτε τα δεδομένα του συμβολαίου σας, η τιμή ανά μονάδα για συμβόλαια ηλεκτρικής ενέργειας, νερού και αερίου μεταδίδεται σε έναν διακομιστή EHW+ στη Γερμανία μαζί με τη χώρα και το ομοσπονδιακό κράτος. Αυτά τα δεδομένα χρησιμοποιούνται για τον υπολογισμό των στατιστικών τιμών. Για τους χρήστες εφαρμογών, τα στατιστικά στοιχεία είναι ορατά με τη μορφή σύγκρισης τιμών στην προβολή συμβολαίου.\n\nΧρησιμοποιώντας την εφαρμογή, συναινείτε στην προαναφερθείσα συλλογή ανώνυμων δεδομένων.';
+      'Όταν εσείς, ως χρήστης, διατηρείτε τα δεδομένα των συμβολαίων σας, η τιμή ανά μονάδα για τα συμβόλαια ηλεκτρικής ενέργειας, νερού και φυσικού αερίου διαβιβάζεται σε έναν διακομιστή EHW+ στη Γερμανία μαζί με τη χώρα και το ομόσπονδο κρατίδιο. Τα δεδομένα αυτά χρησιμοποιούνται για τον υπολογισμό στατιστικών τιμών. Για τους χρήστες της εφαρμογής, τα στατιστικά στοιχεία είναι ορατά με τη μορφή σύγκρισης τιμών στην προβολή συμβολαίου.\n\nΜε τη χρήση της εφαρμογής, συναινείτε στην προαναφερθείσα συλλογή ανώνυμων δεδομένων.';
 
   @override
   String get privacyTitle => 'Πολιτική απορρήτου';
@@ -1801,52 +1802,52 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get purchasesDisabledOnIOS =>
-      'Οι αγορές εντός εφαρμογής απενεργοποιήθηκαν';
+      'Αγορές εντός εφαρμογής απενεργοποιημένες';
 
   @override
   String get purchasesDisabledOnIOSDescription =>
-      'Ελέγξτε εάν οι αγορές εντός εφαρμογής είναι απενεργοποιημένες στο iPhone σας (Ρυθμίσεις > Χρόνος οθόνης > Περιορισμοί > Εγκαταστάσεις και αγορές εφαρμογών > Να επιτρέπονται οι αγορές εντός εφαρμογής)';
+      'Ελέγξτε αν οι αγορές εντός εφαρμογών είναι απενεργοποιημένες στο iPhone σας (Ρυθμίσεις > Χρόνος οθόνης > Περιορισμοί > Εγκαταστάσεις και αγορές εφαρμογών > Επιτρέπονται οι αγορές εντός εφαρμογών).';
 
   @override
   String get purchasesDisabledOnIOSDescriptionTestflight =>
-      'Η εφαρμογή εγκαταστάθηκε μέσω Testflight. Λάβετε υπόψη ότι οι αγορές λειτουργούν μόνο στην εφαρμογή εάν εγκαταστήσετε την εφαρμογή μέσω του App Store.';
+      'Η εφαρμογή εγκαταστάθηκε μέσω του Testflight. Σημειώστε ότι οι αγορές λειτουργούν στην εφαρμογή μόνο αν εγκαταστήσετε την εφαρμογή μέσω του App Store.';
 
   @override
   String get purchasesEarlyBirdSubscription =>
-      'Σημείωση: Εάν αυτή η συνδρομή για πρώτη φορά πελάτη ακυρωθεί, δεν μπορεί να εγγραφεί ξανά στη συνέχεια.';
+      'Σημείωση: Εάν ακυρωθεί αυτή η συνδρομή για πρώτη φορά, δεν είναι δυνατή η εκ νέου συνδρομή στη συνέχεια.';
 
   @override
   String get purchasesExtensionMultipleObjectsDescription =>
-      'Εισαγάγετε τις ενδείξεις του μετρητή για όσα διαμερίσματα/σπίτια/αντικείμενα θέλετε (αντί μόνο για ένα αντικείμενο)';
+      'Εισάγετε τις ενδείξεις των μετρητών για όσα διαμερίσματα/σπίτια/αντικείμενα θέλετε (αντί για ένα μόνο αντικείμενο).';
 
   @override
   String get purchasesExtensionMultipleObjectsTitlePart =>
-      'Διαχείριση πολλών αντικειμένων';
+      'Διαχείριση πολλαπλών αντικειμένων';
 
   @override
   String get purchasesExtensionStatisticsDescription =>
-      'Πρόσβαση σε ετήσια/μηνιαία/εβδομαδιαία κατανάλωση ηλεκτρικής ενέργειας/φυσικού αερίου/νερού/... + προσαρμογές περιόδου + αναλυτική επισκόπηση κόστους + εξαγωγή Excel';
+      'Πρόσβαση στην ετήσια/μηνιαία/εβδομαδιαία κατανάλωση ηλεκτρικής ενέργειας/αερίου/νερού/... + προσαρμογές περιόδου + λεπτομερής επισκόπηση κόστους + εξαγωγή Excel';
 
   @override
-  String get purchasesExtensionStatisticsTitle => 'Προηγμένες στατιστικές';
+  String get purchasesExtensionStatisticsTitle => 'Προχωρημένες στατιστικές';
 
   @override
   String get purchasesExtensionsInWork =>
-      'Σχεδιάζονται περαιτέρω επεκτάσεις. Λάβετε μέρος στην έρευνα χαρακτηριστικών για να πείτε τη γνώμη σας.';
+      'Σχεδιάζονται περαιτέρω επεκτάσεις. Πάρτε μέρος στην έρευνα για τις δυνατότητες για να πείτε τη γνώμη σας.';
 
   @override
   String get purchasesExtensionsSubtitle =>
-      'Αγορά μία φορά, χρήση μόνιμα (χωρίς συνδρομή)';
+      'Αγοράστε μία φορά, χρησιμοποιήστε μόνιμα (χωρίς συνδρομή)';
 
   @override
-  String get purchasesExtensionsTitle => 'Μονές επεκτάσεις';
+  String get purchasesExtensionsTitle => 'Ενιαίες επεκτάσεις';
 
   @override
   String get purchasesIOSRestorePurchases => 'Επαναφορά αγορών';
 
   @override
   String get purchasesIOSRestorePurchasesDescription =>
-      'Εάν έχετε ήδη αγοράσει κάτι στο AppStore στο παρελθόν, μπορείτε να επαναφέρετε τις αγορές.';
+      'Αν έχετε ήδη αγοράσει κάτι στο AppStore στο παρελθόν, μπορείτε να επαναφέρετε τις αγορές σας.';
 
   @override
   String get purchasesPurchased => 'Αγορασμένο';
@@ -1856,32 +1857,32 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Περιλαμβάνεται στο Premium';
 
   @override
-  String get purchasesPurchasedSubscribed => 'Εγγεγραμμένος';
+  String get purchasesPurchasedSubscribed => 'Συνδρομημένος';
 
   @override
-  String get purchasesRedeemCode => 'Εξαργυρώστε τον κωδικό';
+  String get purchasesRedeemCode => 'Κωδικός εξαργύρωσης';
 
   @override
   String purchasesStatisticsWithPremium(int count, String years) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: ' και επίσης βλέπετε ιστορικά δεδομένα για $years.',
+      other: ' και δείτε επίσης τα ιστορικά δεδομένα για το $years.',
       one: '.',
       zero: '.',
     );
-    return 'Με το Premium, έχετε πρόσβαση σε μια μηνιαία σύγκριση$_temp0';
+    return 'Με το Premium, έχετε πρόσβαση σε μηνιαία σύγκριση$_temp0';
   }
 
   @override
   String get purchasesSubscribeNow => 'Εγγραφείτε τώρα';
 
   @override
-  String get purchasesSubscribePremium => 'Εγγραφείτε στο Premium';
+  String get purchasesSubscribePremium => 'Εγγραφή Premium';
 
   @override
   String purchasesSubscribePremiumMonthly(String price) {
-    return 'Μηνιαία ακυρώσιμη συνδρομή μόνο για $price ανά μήνα';
+    return 'Μηνιαία συνδρομή με δυνατότητα ακύρωσης για μόνο $price ανά μήνα';
   }
 
   @override
@@ -1889,16 +1890,16 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String price,
     String priceNew,
   ) {
-    return 'Μηνιαία ακυρώσιμη συνδρομή στην τιμή επιβράβευσης $price ανά μήνα αντί για $priceNew';
+    return 'Μηνιαία συνδρομή με δυνατότητα ακύρωσης στην τιμή $price ανά μήνα αντί για $priceNew';
   }
 
   @override
   String get purchasesSubscribePremiumTextLong =>
-      'Πρόσβαση σε όλες τις λειτουργίες επί πληρωμή κατά τη διάρκεια της περιόδου συνδρομής + εξωτερικές θερμοκρασίες';
+      'Πρόσβαση σε όλες τις πληρωμένες λειτουργίες κατά τη διάρκεια της περιόδου συνδρομής + εξωτερικές θερμοκρασίες';
 
   @override
   String purchasesSubscribePremiumYearly(String price) {
-    return 'Ετήσια ακυρώσιμη συνδρομή μόνο για $price ετησίως';
+    return 'Ετήσια συνδρομή με δυνατότητα ακύρωσης για μόνο $price ανά έτος';
   }
 
   @override
@@ -1906,29 +1907,29 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String price,
     String priceNew,
   ) {
-    return 'Ετήσια ακυρώσιμη συνδρομή στην τιμή επιβράβευσης $price ανά έτος αντί για $priceNew';
+    return 'Ετήσια συνδρομή με δυνατότητα ακύρωσης στην τιμή $price ανά έτος αντί για $priceNew';
   }
 
   @override
-  String get purchasesUpgrade => 'Αναβαθμίζω';
+  String get purchasesUpgrade => 'Αναβάθμιση';
 
   @override
   String get purchasesWebLegalNote =>
-      'Για νομικούς λόγους, η αγορά είναι δυνατή μόνο για τηλέφωνο iPhone ή Android με υπηρεσίες PlayStore.';
+      'Για νομικούς λόγους, η αγορά είναι δυνατή μόνο για ένα τηλέφωνο iPhone ή Android με υπηρεσίες PlayStore.';
 
   @override
   String get purchasesWhyBuyText =>
-      'Με μια αγορά συμμετέχετε στο κόστος που επιβαρύνομαι με τη δημοσίευση της εφαρμογής και υποστηρίζετε την περαιτέρω ανάπτυξη.';
+      'Με μια αγορά συμμετέχετε στα έξοδα που προκύπτουν από την έκδοση της εφαρμογής και στηρίζετε την περαιτέρω ανάπτυξή της.';
 
   @override
   String get purchasesWhyBuyTitle => 'Γιατί να αγοράσω κάτι;';
 
   @override
   String get purchasesYourPurchases =>
-      'Έχετε πρόσβαση στα ακόλουθα πακέτα premium:';
+      'Έχετε πρόσβαση στα ακόλουθα premium πακέτα:';
 
   @override
-  String get reading => 'αντίθετη ανάγνωση';
+  String get reading => 'Ανάγνωση μετρητή';
 
   @override
   String get readingDeleteConfirm => 'Διαγραφή ανάγνωσης;';
@@ -1937,22 +1938,22 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get readingNew => 'Νέα ανάγνωση';
 
   @override
-  String get readingPrefill => 'Ανάγνωση μετρητή αυτόματης πλήρωσης';
+  String get readingPrefill => 'Αυτόματη συμπλήρωση της ανάγνωσης του μετρητή';
 
   @override
   String get readingPrefillDescription =>
-      'Ενδείξεις μετρητή προγεμίσματος με βάση προηγούμενες καταχωρήσεις';
+      'Προ-γεμίστε τις ενδείξεις του μετρητή με βάση προηγούμενες καταχωρήσεις';
 
   @override
   String get readingPrefillDisableForAllCounters =>
-      'Απενεργοποιήστε την αυτόματη συμπλήρωση για όλους τους μετρητές';
+      'Απενεργοποίηση της αυτόματης συμπλήρωσης για όλους τους μετρητές';
 
   @override
-  String get readingPrefillDisabled => 'Η αυτόματη συμπλήρωση απενεργοποιήθηκε';
+  String get readingPrefillDisabled => 'Αυτόματη συμπλήρωση απενεργοποιημένη';
 
   @override
   String get readingPrefillDisabledToast =>
-      'Η αυτόματη συμπλήρωση απενεργοποιήθηκε';
+      'Αυτόματη συμπλήρωση απενεργοποιημένη';
 
   @override
   String get readingPrefillEnableForAllCounters =>
@@ -1963,7 +1964,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Ανάγνωση υπενθυμίσεων',
+      other: 'Υπενθυμίσεις ανάγνωσης',
       one: 'Υπενθύμιση ανάγνωσης',
     );
     return '$_temp0';
@@ -1978,81 +1979,82 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Διαβάστε μετρήσεις από $count μέτρα τώρα',
-      one: 'Διαβάστε τις ενδείξεις από το μετρητή $count τώρα',
+      other: 'Διαβάστε τώρα τις ενδείξεις των μετρητών $count',
+      one: 'Διαβάστε τώρα τις ενδείξεις του μετρητή $count',
     );
     return '$_temp0';
   }
 
   @override
   String readingReminderSingleBody(String counterName) {
-    return 'Διαβάστε την τιμή $counterName τώρα';
+    return 'Διαβάστε την τιμή του $counterName τώρα';
   }
 
   @override
-  String get readingReminders => 'Ανάγνωση υπενθυμίσεων';
+  String get readingReminders => 'Υπενθυμίσεις ανάγνωσης';
 
   @override
-  String get readingRemindersChannel => 'Ανάγνωση υπενθυμίσεων';
+  String get readingRemindersChannel => 'Υπενθυμίσεις ανάγνωσης';
 
   @override
-  String get readingSubmitted => 'Υποβλήθηκε ένδειξη μετρητή';
+  String get readingSubmitted => 'Υποβληθείσα ανάγνωση μετρητή';
 
   @override
-  String get readingTime => 'Ώρα ανάγνωσης';
+  String get readingTime => 'Χρόνος ανάγνωσης';
 
   @override
   String get readingUpdate => 'Ενημέρωση ανάγνωσης';
 
   @override
-  String get readingWithFactor => 'Αντίμετρη ανάγνωση με συντελεστή';
+  String get readingWithFactor => 'Ανάγνωση μετρητή με παράγοντα';
 
   @override
   String get reallyDeleteActivity =>
-      'Να διαγραφεί πραγματικά αυτή η δραστηριότητα;';
+      'Πραγματικά να διαγράψετε αυτή τη δραστηριότητα;';
 
   @override
-  String get reallyDeleteContract => 'Αλήθεια να διαγραφεί αυτό το συμβόλαιο;';
+  String get reallyDeleteContract =>
+      'Πραγματικά να διαγράψετε αυτό το συμβόλαιο;';
 
   @override
   String get reallyDeleteCounter =>
-      'Είστε βέβαιοι ότι θέλετε να διαγράψετε τον μετρητή;';
+      'Είστε σίγουροι ότι θέλετε να διαγράψετε τον μετρητή;';
 
   @override
   String get reallyDeleteCounterLink =>
-      'Είστε βέβαιοι ότι θέλετε να διαγράψετε τη σύνδεση μεταξύ των μετρητών;';
+      'Σίγουρα θέλετε να διαγράψετε τη σύνδεση μεταξύ των μετρητών;';
 
   @override
-  String get reallyDeleteDetail => 'Αλήθεια να διαγραφεί αυτή η λεπτομέρεια;';
+  String get reallyDeleteDetail => 'Πραγματικά διαγράφετε αυτή τη λεπτομέρεια;';
 
   @override
   String get reallyDeleteObject =>
-      'Είστε βέβαιοι ότι θέλετε να διαγράψετε το αντικείμενο;';
+      'Είστε σίγουροι ότι θέλετε να διαγράψετε το αντικείμενο;';
 
   @override
   String get reallyDeletePhoto =>
-      'Είστε βέβαιοι ότι θέλετε να διαγράψετε τη φωτογραφία ανάγνωσης του μετρητή;';
+      'Είστε σίγουροι ότι θέλετε να διαγράψετε τη φωτογραφία ανάγνωσης του μετρητή;';
 
   @override
   String get reallyDeleteValue =>
-      'Θέλετε πραγματικά να διαγράψετε αυτήν την τιμή;';
+      'Θέλετε πραγματικά να διαγράψετε αυτή την τιμή;';
 
   @override
   String get refund => 'Επιστροφή χρημάτων';
 
   @override
-  String get reminderTime => 'Ώρα υπενθύμισης';
+  String get reminderTime => 'Χρόνος υπενθύμισης';
 
   @override
   String get reminderWeekdayExplanation =>
-      'Υπάρχει μια υπενθύμιση να διαβάζετε όχι περισσότερο από μία φορά την ημέρα.';
+      'Υπάρχει μια υπενθύμιση για να κάνετε ανάγνωση το πολύ μία φορά την ημέρα.';
 
   @override
   String get reminderWeekdayExplanationSeasonal =>
-      'Για μετρητές με εποχική κατανάλωση, οι υπενθυμίσεις αποστέλλονται μόνο σε μήνες με κατανάλωση (λειτουργεί μόνο εάν δίνονται τιμές του τελευταίου έτους).';
+      'Για μετρητές με εποχιακή κατανάλωση, οι υπενθυμίσεις αποστέλλονται μόνο κατά τους μήνες με κατανάλωση (λειτουργεί μόνο εάν δίνονται τιμές του προηγούμενου έτους).';
 
   @override
-  String get requestAccess => 'Ζητήστε πρόσβαση';
+  String get requestAccess => 'Αίτηση πρόσβασης';
 
   @override
   String get reset => 'Επαναφορά';
@@ -2065,17 +2067,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Εκτιμώμενη υπολειμματική κατανάλωση';
 
   @override
-  String get residualGenerationEstimated => 'Εκτιμώμενη υπολειπόμενη παραγωγή';
+  String get residualGenerationEstimated => 'Εκτιμώμενη υπολειμματική παραγωγή';
 
   @override
   String get restoreDeletedCounter =>
-      'Θέλετε να επαναφέρετε αυτόν τον διαγραμμένο μετρητή;';
+      'Θα θέλατε να επαναφέρετε αυτόν τον διαγραμμένο μετρητή;';
 
   @override
   String get room => 'Δωμάτιο';
 
   @override
-  String get roomBathroom => 'Τουαλέτα';
+  String get roomBathroom => 'Μπάνιο';
 
   @override
   String get roomBedroom => 'Υπνοδωμάτιο';
@@ -2096,17 +2098,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get roomKitchen => 'Κουζίνα';
 
   @override
-  String get roomLivingRoom => 'Καθιστικό';
+  String get roomLivingRoom => 'Σαλόνι';
 
   @override
   String get roomName => 'Όνομα δωματίου';
 
   @override
-  String get roomNameHint => 'Προαιρετικά ορίστε ένα όνομα δωματίου';
+  String get roomNameHint => 'Προαιρετικά εκχωρήστε ένα όνομα δωματίου';
 
   @override
   String roomNamePart(String roomName) {
-    return 'στο $roomName';
+    return 'στην εφημερίδα$roomName';
   }
 
   @override
@@ -2116,7 +2118,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get roomOffice => 'Γραφείο';
 
   @override
-  String get roomOther => 'Αλλος';
+  String get roomOther => 'Άλλα';
 
   @override
   String get roomStoreRoom => 'Αποθήκη';
@@ -2125,7 +2127,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get roomType => 'Τύπος δωματίου';
 
   @override
-  String get roomWc => 'αποχωρητήριο';
+  String get roomWc => 'WC';
 
   @override
   String get rooms => 'Δωμάτια';
@@ -2134,19 +2136,20 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get scanQrCode => 'Σάρωση κωδικού qr ενεργοποίησης';
 
   @override
-  String get seasonalCounter => 'Εποχιακός πάγκος';
+  String get seasonalCounter => 'Εποχιακός μετρητής';
 
   @override
-  String get seasonalElectricityCounter => 'Εποχιακός μετρητής ρεύματος';
+  String get seasonalElectricityCounter =>
+      'Εποχιακός μετρητής ηλεκτρικής ενέργειας';
 
   @override
   String selectedActivity(Object activityName) {
-    return 'Επιλεγμένη δραστηριότητα \"\$$activityName\"';
+    return 'Επιλεγμένη δραστηριότητα «$activityName»';
   }
 
   @override
   String get selectedAtAppStart =>
-      'Το ανώτατο αντικείμενο επιλέγεται κατά την έναρξη της εφαρμογής';
+      'Το πιο πάνω αντικείμενο επιλέγεται κατά την έναρξη της εφαρμογής';
 
   @override
   String get settingColor => 'Χρώμα';
@@ -2155,18 +2158,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get settingCounterTypeColor => 'Χρώμα για αυτόν τον τύπο μετρητή';
 
   @override
-  String get settingCounterTypeColorAdvanced =>
-      'Επιλογέας χρώματος για ειδικούς';
+  String get settingCounterTypeColorAdvanced => 'Επιλογή χρώματος για ειδικούς';
 
   @override
   String get settingCounterTypeColorDescription =>
-      'Εάν δεν σας αρέσει το προεπιλεγμένο χρώμα για αυτόν τον τύπο μετρητή, μπορείτε να αντιστοιχίσετε ένα διαφορετικό χρώμα.';
+      'Εάν δεν σας αρέσει το προεπιλεγμένο χρώμα για αυτόν τον τύπο μετρητή, μπορείτε να ορίσετε ένα διαφορετικό χρώμα.';
 
   @override
   String get settingEAuto => 'Ηλεκτρικό αυτοκίνητο';
 
   @override
-  String get settingHouseholdSize => 'Οικιακό μέγεθος';
+  String get settingHouseholdSize => 'Μέγεθος νοικοκυριού';
 
   @override
   String get settingHouseholdSizeDescription =>
@@ -2183,7 +2185,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get settingObjectLocationExplanation =>
-      'Η εισαγωγή της τοποθεσίας βοηθά στην προσαρμογή πληροφοριών και υπηρεσιών στην περιοχή σας.';
+      'Η εισαγωγή της τοποθεσίας βοηθά στην προσαρμογή των πληροφοριών και των υπηρεσιών στην περιοχή σας.';
 
   @override
   String get settingObjectLocationTitle => 'Πού βρίσκεται το αντικείμενό σας;';
@@ -2199,7 +2201,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get settingShowCounterReadingsChart =>
-      'Εμφάνιση γραφήματος αναγνώσεων';
+      'Εμφάνιση διαγράμματος αναγνώσεων';
 
   @override
   String get settingShowHeatmap => 'Εμφάνιση χάρτη θερμότητας';
@@ -2214,10 +2216,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get settingUiMode => 'Διεπαφή χρήστη';
 
   @override
-  String get settingUiModeDark => 'Σκοτάδι';
+  String get settingUiModeDark => 'Σκούρο';
 
   @override
-  String get settingUiModeDarkOrLight => 'Σκοτεινό/ανοιχτό περιβάλλον χρήστη';
+  String get settingUiModeDarkOrLight =>
+      'Σκούρο/φωτεινό περιβάλλον εργασίας χρήστη';
 
   @override
   String get settingUiModeLight => 'Φως';
@@ -2226,13 +2229,13 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get settingUiModeOsDefault => 'Σύστημα';
 
   @override
-  String get settingWaterHeater => 'Θερμοσίφωνας';
+  String get settingWaterHeater => 'Θερμοσίφωνας νερού';
 
   @override
   String get settingYearlyReset => 'Ετήσια επαναφορά';
 
   @override
-  String get settingYearlyResetOn => 'επί';
+  String get settingYearlyResetOn => 'στο';
 
   @override
   String get settings => 'Ρυθμίσεις';
@@ -2242,11 +2245,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get settingsShowStromGedacht =>
-      'Πρέπει να εμφανίζονται συμβουλές από το StromGedacht σχετικά με το ηλεκτρικό δίκτυο;';
+      'Θα πρέπει να εμφανίζονται συμβουλές από την StromGedacht σχετικά με το δίκτυο ηλεκτρικής ενέργειας;';
 
   @override
   String get settingsShowTabNewsDetailed =>
-      'Πρέπει να είναι ορατή η καρτέλα Ειδήσεις/Συμβουλές;';
+      'Θα πρέπει να είναι ορατή η καρτέλα Νέα/Συμβουλές;';
 
   @override
   String get showAllYears => 'Εμφάνιση όλων των ετών';
@@ -2262,7 +2265,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get signInWithSocialAccount =>
-      'Ποιον λογαριασμό κοινωνικής δικτύωσης θέλετε να χρησιμοποιήσετε για να δημιουργήσετε ή να συνδεθείτε στον λογαριασμό σας EHW+;';
+      'Ποιον κοινωνικό λογαριασμό θέλετε να χρησιμοποιήσετε για να δημιουργήσετε ή να συνδεθείτε στο λογαριασμό EHW+;';
 
   @override
   String get sinceInitialReading => 'Από την αρχική ανάγνωση';
@@ -2280,10 +2283,10 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle =>
-      'Ρυθμίστε σωστά τον έξυπνο μετρητή σας.';
+      'Παρακαλούμε ρυθμίστε σωστά τον έξυπνο μετρητή σας.';
 
   @override
-  String get smartMeterObtainDataAutomatically => 'Λήψη δεδομένων αυτόματα';
+  String get smartMeterObtainDataAutomatically => 'Αυτόματη λήψη δεδομένων';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';
@@ -2295,7 +2298,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
-  String get smartMeterServiceProvider => 'Πάροχος Υπηρεσιών';
+  String get smartMeterServiceProvider => 'Πάροχος υπηρεσιών';
 
   @override
   String get smartMeterSettingsScreenSyncButton =>
@@ -2308,7 +2311,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String smartMeterSettingsScreenSyncingDialogErrorMessage(
     Object errorMessage,
   ) {
-    return 'Παρουσιάστηκε το ακόλουθο σφάλμα κατά τον συγχρονισμό: $errorMessage';
+    return 'Κατά τη διάρκεια του συγχρονισμού προέκυψε το ακόλουθο σφάλμα: $errorMessage';
   }
 
   @override
@@ -2322,7 +2325,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String smartMeterSettingsScreenSyncingDialogProgress(
     Object progressInPercent,
   ) {
-    return 'Πρόοδος: $progressInPercent%';
+    return 'Πρόοδος: $progressInPercent %';
   }
 
   @override
@@ -2333,39 +2336,39 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String smartmeterInfocodeBannerText(String infocode, String smartmeterId) {
-    return 'Το Smartmeter $smartmeterId έλαβε κωδικό πληροφοριών: $infocode';
+    return 'Ο έξυπνος μετρητής $smartmeterId έλαβε τον κωδικό πληροφοριών: $infocode';
   }
 
   @override
   String smartmeterInfocodeBannerTextInfocodeFrost(Object smartmeterId) {
-    return 'Η θερμοκρασία του μετρητή νερού σας $smartmeterId έχει πέσει κάτω από 3°C. Υπάρχει κίνδυνος παγετού! Μονώστε το μετρητή και τους σωλήνες ή θερμάνετε την περιοχή για να αποφύγετε ζημιές.';
+    return 'Η θερμοκρασία του μετρητή νερού $smartmeterId έχει πέσει κάτω από τους 3 °C. Υπάρχει κίνδυνος παγετού! Μονώστε τον μετρητή και τους σωλήνες ή θερμάνετε την περιοχή για να αποφύγετε ζημιές.';
   }
 
   @override
   String smartmeterInfocodeBannerTextInfocodeLeckage(Object smartmeterId) {
-    return 'Ο μετρητής νερού σας $smartmeterId ανίχνευσε συνεχή ροή νερού. Αυτό μπορεί να υποδηλώνει διαρροή. Ελέγξτε την οικιακή σας εγκατάσταση για διαρροές. Οι τουαλέτες και οι βρύσες που στάζουν είναι κοινές αιτίες.';
+    return 'Ο μετρητής νερού σας $smartmeterId εντόπισε συνεχή ροή νερού. Αυτό μπορεί να υποδηλώνει διαρροή. Ελέγξτε τις εγκαταστάσεις του σπιτιού σας για διαρροές. Συχνές αιτίες είναι οι τουαλέτες και οι βρύσες που στάζουν.';
   }
 
   @override
   String smartmeterInfocodeBannerTextInfocodeRohrbruch(Object smartmeterId) {
-    return 'Ο μετρητής νερού σας $smartmeterId εντόπισε ασυνήθιστα υψηλή κατανάλωση νερού, η οποία μπορεί να υποδηλώνει σκάσιμο σωλήνα. Ελέγξτε την οικιακή σας εγκατάσταση για μεγάλες διαρροές ή σπασίματα. Ο συναγερμός μπορεί επίσης να εμφανιστεί εάν έχετε χρησιμοποιήσει μεγάλη ποσότητα νερού, π.χ. για γέμισμα πισίνας.';
+    return 'Ο μετρητής νερού σας $smartmeterId εντόπισε ασυνήθιστα υψηλή κατανάλωση νερού, κάτι που μπορεί να υποδηλώνει ρήξη σωλήνα. Ελέγξτε τις εγκαταστάσεις του σπιτιού σας για τυχόν σημαντικές διαρροές ή ρήξεις. Ο συναγερμός μπορεί επίσης να ενεργοποιηθεί εάν έχετε χρησιμοποιήσει μεγάλη ποσότητα νερού, π.χ. για να γεμίσετε μια πισίνα.';
   }
 
   @override
   String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
     Object smartmeterId,
   ) {
-    return 'Ο μετρητής νερού σας $smartmeterId εντόπισε ασυνήθιστα υψηλή κατανάλωση νερού, η οποία μπορεί να υποδηλώνει είτε σκάσιμο σωλήνα είτε πλήρωση πισίνας. Ελέγξτε την οικιακή σας εγκατάσταση για μεγάλες διαρροές ή σπασίματα.';
+    return 'Ο μετρητής νερού σας $smartmeterId εντόπισε ασυνήθιστα υψηλή κατανάλωση νερού, η οποία μπορεί να υποδηλώνει είτε ρήξη σωλήνα είτε πλήρωση πισίνας. Ελέγξτε τις εγκαταστάσεις του σπιτιού σας για σημαντικές διαρροές ή ρήξεις.';
   }
 
   @override
-  String get soFar => 'μέχρι εδώ';
+  String get soFar => 'μέχρι στιγμής';
 
   @override
-  String get social => 'Μέσα κοινωνικής δικτύωσης';
+  String get social => 'Social Media';
 
   @override
-  String get socialEmail => 'E-mail';
+  String get socialEmail => 'Ηλεκτρονικό ταχυδρομείο';
 
   @override
   String get socialFacebook => 'Facebook';
@@ -2377,61 +2380,61 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get socialLinkedIn => 'LinkedIn';
 
   @override
-  String get socialTwitter => 'Χ';
+  String get socialTwitter => 'X';
 
   @override
   String get socialYouTube => 'YouTube';
 
   @override
-  String get solarThermalCollector => 'Ηλιακός Θερμικός Συλλέκτης';
+  String get solarThermalCollector => 'Ηλιακός θερμικός συλλέκτης';
 
   @override
-  String get sortActivities => 'Τροποποιήστε τη σειρά των δραστηριοτήτων';
+  String get sortActivities => 'Τροποποίηση της σειράς των δραστηριοτήτων';
 
   @override
   String get source => 'Πηγή:';
 
   @override
-  String get startOfTheWeek => 'Αρχή της εβδομάδας';
+  String get startOfTheWeek => 'Έναρξη της εβδομάδας';
 
   @override
   String get stove => 'Σόμπα';
 
   @override
   String get stromGedachtAgreement =>
-      'Συμφωνώ ότι ο ταχυδρομικός μου κώδικας (εάν παρέχεται) θα μεταδοθεί στο TransnetBW για την ανάκτηση των ειδοποιήσεων StromGedacht.';
+      'Συμφωνώ ότι ο ταχυδρομικός μου κώδικας (εάν παρέχεται) θα διαβιβαστεί στην TransnetBW για την ανάκτηση των ειδοποιήσεων StromGedacht.';
 
   @override
   String get subscribeToSmartMeterInfocodeEvents =>
-      'Θα ήθελα να ενημερωθώ για απροσδόκητη κατανάλωση';
+      'Θα ήθελα να ειδοποιούμαι για απροσδόκητη κατανάλωση';
 
   @override
   String get supplementaryPayment => 'Συμπληρωματική πληρωμή';
 
   @override
-  String get support => 'Υποστήριξη/Σχόλια';
+  String get support => 'Υποστήριξη/ανατροφοδότηση';
 
   @override
-  String get supportBug => 'Εντομο';
+  String get supportBug => 'Σφάλμα';
 
   @override
   String get supportGivePraise => 'Δώστε έπαινο';
 
   @override
   String get supportGivePraiseLong =>
-      'Σας αρέσει η εφαρμογή; Σας ευχαριστώ! Διαδώστε τη λέξη!';
+      'Σας αρέσει η εφαρμογή; Σας ευχαριστούμε! Διαδώστε τη λέξη!';
 
   @override
   String supportGivePraiseRating(String store) {
-    return 'Βαθμολογήστε την εφαρμογή σε $store.';
+    return 'Αξιολογήστε την εφαρμογή στο $store.';
   }
 
   @override
   String get supportGivePraiseRecommendation =>
-      'Προτείνετε την εφαρμογή σε φίλους και συγγενείς. Ευχαριστώ για οποιαδήποτε σύσταση!';
+      'Προτείνετε την εφαρμογή σε φίλους και συγγενείς. Σας ευχαριστούμε για κάθε σύσταση!';
 
   @override
-  String get supportMakeSuggestion => 'Πρότεινε κάτι';
+  String get supportMakeSuggestion => 'Προτείνετε κάτι';
 
   @override
   String get supportMakeSuggestionLong =>
@@ -2445,30 +2448,30 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get supportQuestionLong =>
-      'Πώς λειτουργεί; Είναι καθόλου δυνατόν; Εδώ είναι οι απαντήσεις.';
+      'Πώς λειτουργεί; Είναι καθόλου δυνατό; Εδώ είναι οι απαντήσεις.';
 
   @override
   String get supportQuestionNotFound =>
-      'Δεν απαντήθηκε η ερώτησή σας; Θα χαρώ να βοηθήσω.';
+      'Η ερώτησή σας δεν απαντήθηκε; Θα χαρώ να σας βοηθήσω.';
 
   @override
   String get supportRecommend =>
-      'Χρησιμοποιώ την εφαρμογή ανάγνωσης μετρητών EHW+ για να παρακολουθώ την κατανάλωση ενέργειας και το σχετικό κόστος. Ίσως αυτό να ήταν κάτι και για σένα;\n\nΠερισσότερες πληροφορίες στο https://www.ehwplus.com';
+      'Χρησιμοποιώ την εφαρμογή ανάγνωσης μετρητών EHW+ για να παρακολουθώ την κατανάλωση ενέργειας και το σχετικό κόστος. Ίσως αυτό να είναι κάτι και για εσάς;\n\nΠερισσότερες πληροφορίες στο https://www.ehwplus.com';
 
   @override
-  String get supportReportBug => 'Αναφορά σφάλματος μέσω ταχυδρομείου';
+  String get supportReportBug => 'Αναφέρετε ένα σφάλμα μέσω ταχυδρομείου';
 
   @override
   String get supportReportBugAffectedPages =>
-      'Σε ποιες σελίδες παρουσιάζεται το σφάλμα; (αν ισχύει)';
+      'Σε ποιες σελίδες εμφανίζεται το σφάλμα; (κατά περίπτωση)';
 
   @override
   String get supportReportBugLong =>
-      'Μεγάλη εφαρμογή! Αλλά σίγουρα, τα πράγματα μπορεί να πάνε στραβά. Εάν αναφέρετε σφάλματα, βελτιώνετε την εφαρμογή.';
+      'Υπέροχη εφαρμογή! Αλλά σίγουρα, τα πράγματα μπορούν να πάνε στραβά. Αν αναφέρετε σφάλματα, κάνετε την εφαρμογή καλύτερη.';
 
   @override
   String get supportReportBugScreenshotsPlease =>
-      'Επισυνάψτε ένα στιγμιότυπο οθόνης στο ταχυδρομείο, κατά προτίμηση με σήμανση του σφάλματος.';
+      'Παρακαλούμε επισυνάψτε ένα στιγμιότυπο οθόνης στο μήνυμα, κατά προτίμηση με την επισήμανση του σφάλματος.';
 
   @override
   String get supportReportBugTextIs =>
@@ -2476,7 +2479,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get supportReportBugTextShould =>
-      'Περιγράψτε εν συντομία την επιθυμητή συμπεριφορά, δηλαδή πώς θα έπρεπε να είναι στην πραγματικότητα.';
+      'Περιγράψτε εν συντομία την επιθυμητή συμπεριφορά, δηλαδή πώς θα πρέπει να είναι στην πραγματικότητα.';
 
   @override
   String get swimmingPool => 'Πισίνα';
@@ -2486,42 +2489,42 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get syncAutomaticTitle =>
-      'Τα τοπικά δεδομένα ενδέχεται να αντικατασταθούν';
+      'Τα τοπικά δεδομένα μπορεί να αντικατασταθούν';
 
   @override
   String get syncDriveDataUsage =>
-      'Εάν παραχωρήσετε πρόσβαση στο EHW+ στο Google Drive, η εφαρμογή θα έχει πρόσβαση ανάγνωσης και εγγραφής σε αρχεία που δημιουργούνται από την ίδια την εφαρμογή. Δυστυχώς, τα αρχεία που δημιουργούνται από άλλους μέσω αυτής της εφαρμογής δεν είναι ορατά στην εφαρμογή, πράγμα που σημαίνει ότι δεν είναι δυνατή η κοινή χρήση δεδομένων μεταξύ πολλών λογαριασμών μέσω του Google Drive.';
+      'Εάν επιτρέψετε στο EHW+ πρόσβαση στο Google Drive, η εφαρμογή θα έχει πρόσβαση ανάγνωσης και εγγραφής σε αρχεία που έχουν δημιουργηθεί από την ίδια την εφαρμογή. Δυστυχώς, τα αρχεία που δημιουργούνται από άλλους μέσω αυτής της εφαρμογής δεν είναι ορατά στην εφαρμογή, πράγμα που σημαίνει ότι δεν είναι δυνατή η κοινή χρήση δεδομένων μεταξύ πολλαπλών λογαριασμών μέσω του Google Drive.';
 
   @override
   String get syncDriveLoggedIn =>
-      'Τα δεδομένα σας συγχρονίζονται αυτόματα σε πολλές συσκευές. Χρησιμοποιείται ο παρακάτω λογαριασμός Google:';
+      'Τα δεδομένα σας συγχρονίζονται αυτόματα σε πολλαπλές συσκευές. Χρησιμοποιείται ο ακόλουθος λογαριασμός Google:';
 
   @override
   String get syncDriveLoggedInNoAuto =>
-      'Τα δεδομένα σας μεταφορτώνονται αυτόματα στο Google Drive μετά από μια αλλαγή. Τα νεότερα δεδομένα από το cloud αντικαθιστούν τοπικά δεδομένα μόνο όταν κάνετε κλικ στο αντικείμενο. Χρησιμοποιείται ο παρακάτω λογαριασμός Google:';
+      'Τα δεδομένα σας μεταφορτώνονται αυτόματα στο Google Drive μετά από μια αλλαγή. Τα νεότερα δεδομένα από το σύννεφο αντικαθιστούν τα τοπικά δεδομένα μόνο όταν κάνετε κλικ στο αντικείμενο. Χρησιμοποιείται ο ακόλουθος λογαριασμός Google:';
 
   @override
   String get syncObjectIsLocked =>
-      'Τα δεδομένα αντικειμένου ενημερώνονται και δεν είναι δυνατή η επεξεργασία τους κατά τη διάρκεια αυτής της περιόδου.';
+      'Τα δεδομένα του αντικειμένου ενημερώνονται και δεν είναι δυνατή η επεξεργασία τους κατά τη διάρκεια αυτής της περιόδου.';
 
   @override
   String get syncShareWithOthersNotInWeb =>
-      'Η παραχώρηση πρόσβασης είναι προς το παρόν δυνατή μόνο μέσω εφαρμογής.';
+      'Η χορήγηση πρόσβασης είναι επί του παρόντος δυνατή μόνο μέσω της εφαρμογής.';
 
   @override
   String get syncShareWithOthersSubtitle =>
-      'Εάν θέλετε να εισαγάγετε ενδείξεις μετρητών μαζί με άλλους χρήστες Google, πρέπει να παραχωρηθεί στο EHW+ πλήρης πρόσβαση στο Google Drive.';
+      'Εάν θέλετε να καταχωρήσετε μετρήσεις μετρητών μαζί με άλλους χρήστες της Google, πρέπει να δοθεί πλήρης πρόσβαση στο Google Drive στο EHW+.';
 
   @override
-  String get syncShareWithOthersTitle => 'Κοινή χρήση με άλλους;';
+  String get syncShareWithOthersTitle => 'Μοιραστείτε το με άλλους;';
 
   @override
   String get syncStatusFailedLong =>
-      'Ο συγχρονισμός απέτυχε, η επεξεργασία γίνεται με δική σας ευθύνη';
+      'Απέτυχε ο συγχρονισμός, η επεξεργασία γίνεται με δική σας ευθύνη';
 
   @override
   String get syncStatusFailedLongNoAutoSync =>
-      'Ο συγχρονισμός απέτυχε, η επεξεργασία γίνεται με δική σας ευθύνη';
+      'Απέτυχε ο συγχρονισμός, η επεξεργασία γίνεται με δική σας ευθύνη';
 
   @override
   String get syncStatusSyncRemoteHasLatest =>
@@ -2529,19 +2532,19 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get syncWithGoogleDriveDescription =>
-      'Επειδή θα ήταν κρίμα να χαθούν οι ενδείξεις του μετρητή, συγχρονίστε τα αντικείμενά σας με το Google Drive τώρα!';
+      'Επειδή θα ήταν κρίμα να χαθούν οι ενδείξεις των μετρητών, συγχρονίστε τώρα τα αντικείμενά σας με το Google Drive!';
 
   @override
   String get tabCounters => 'Μετρητές';
 
   @override
-  String get tabNews => 'Συμβουλές/Ειδήσεις';
+  String get tabNews => 'Συμβουλές/Νέα';
 
   @override
   String get tabObject => 'Αντικείμενο';
 
   @override
-  String get tabStatistics => 'Στατιστική';
+  String get tabStatistics => 'Στατιστικά στοιχεία';
 
   @override
   String get taxRate => 'Φορολογικός συντελεστής';
@@ -2556,11 +2559,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get teaserPurchaseWaterExtractionCounter =>
-      'Ξεκλειδώστε τους μετρητές εξαγωγής νερού με Premium.';
+      'Ξεκλειδώστε τους μετρητές εξαγωγής νερού με το Premium.';
 
   @override
   String termsOfUsageBlock1(String contact) {
-    return 'Δικαίωμα αντίρρησης';
+    return 'Δικαίωμα ένστασης';
   }
 
   @override
@@ -2569,36 +2572,36 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get termsOfUsageBlock2 =>
-      'Η εφαρμογή και οι λειτουργίες της δεν επιτρέπεται να χρησιμοποιούνται με καταχρηστικό τρόπο. Χρησιμοποιήστε την εφαρμογή μόνο εντός του νομικά επιτρεπόμενου πεδίου εφαρμογής και σύμφωνα με τους όρους χρήσης μας. Σε περίπτωση παραβίασης της ισχύουσας γερμανικής νομοθεσίας ή των όρων χρήσης μας, ο πάροχος διατηρεί το δικαίωμα να σας αποκλείσει από τη χρήση της εφαρμογής.';
+      'Η εφαρμογή και οι λειτουργίες της δεν επιτρέπεται να χρησιμοποιούνται με καταχρηστικό τρόπο. Παρακαλούμε να χρησιμοποιείτε την εφαρμογή μόνο εντός του νομικά επιτρεπτού πλαισίου και σύμφωνα με τους όρους χρήσης μας. Σε περίπτωση παραβίασης της ισχύουσας γερμανικής νομοθεσίας ή των όρων χρήσης μας, ο πάροχος διατηρεί το δικαίωμα να σας αποκλείσει από τη χρήση της εφαρμογής.';
 
   @override
   String get termsOfUsageBlock2Title => 'Γενικές πληροφορίες για τη χρήση';
 
   @override
   String termsOfUsageBlock2a(String privacyBlock3Title) {
-    return 'Ανώνυμα δεδομένα χρήσης\nΧρησιμοποιούμε τα δικά μας αναλυτικά στοιχεία για να βελτιώνουμε συνεχώς την εφαρμογή.\nΜεταδίδονται μόνο ανώνυμα δεδομένα.\nΤα δεδομένα δεν διαβιβάζονται σε τρίτους.\nΓια περισσότερες πληροφορίες, μεταβείτε στις Ρυθμίσεις > Απόρρητο > $privacyBlock3Title';
+    return 'Ανώνυμα δεδομένα χρήσης\nΧρησιμοποιούμε τα δικά μας αναλυτικά στοιχεία για τη συνεχή βελτίωση της εφαρμογής. Μεταδίδονται μόνο ανώνυμα δεδομένα. Τα δεδομένα δεν διαβιβάζονται σε τρίτους. Για περισσότερες πληροφορίες, μεταβείτε στις Ρυθμίσεις &gt; Απόρρητο &gt; $privacyBlock3Title';
   }
 
   @override
   String termsOfUsageBlock2b(String privacyBlock3Title) {
-    return 'Αναφορές σφαλμάτων\nΤο Sentry (self-hosted) χρησιμοποιείται για τη συνεχή βελτίωση της εφαρμογής.\nΟι αναφορές σφαλμάτων δεν υποβάλλονται σε επεξεργασία ούτε κοινοποιούνται σε τρίτα μέρη.\nΓια περισσότερες πληροφορίες, μεταβείτε στις Ρυθμίσεις > Απόρρητο > $privacyBlock3Title';
+    return 'Αναφορές σφαλμάτων\\nΤο Sentry (αυτο-φιλοξενούμενο) χρησιμοποιείται για τη συνεχή βελτίωση της εφαρμογής. Οι αναφορές σφαλμάτων δεν υποβάλλονται σε επεξεργασία ούτε κοινοποιούνται σε τρίτους. Για περισσότερες πληροφορίες, μεταβείτε στις Ρυθμίσεις &gt; Απόρρητο &gt; $privacyBlock3Title';
   }
 
   @override
   String termsOfUsageBlock2c(String privacyBlock3Title) {
-    return 'Προσωπικές πληροφορίες\nΕάν χρησιμοποιείτε το Google Drive Sync, το EHW+ εξακολουθεί να μην έχει πρόσβαση στα δεδομένα που έχετε εισαγάγει. Για περισσότερες πληροφορίες, μεταβείτε στις Ρυθμίσεις > Απόρρητο > $privacyBlock3Title.';
+    return 'Προσωπικές πληροφορίες\nΕάν χρησιμοποιείτε το Google Drive Sync, το EHW+ εξακολουθεί να μην έχει πρόσβαση στα δεδομένα που έχετε εισαγάγει. Για περισσότερες πληροφορίες, μεταβείτε στις Ρυθμίσεις &gt; Απόρρητο &gt; $privacyBlock3Title.';
   }
 
   @override
   String get termsOfUsageBlock3 =>
-      'Ο πάροχος δεν εγγυάται τη διαθεσιμότητα, την αξιοπιστία, τη λειτουργικότητα ή την καταλληλότητα της εφαρμογής για τους σκοπούς σας. Η ευθύνη αποκλείεται εκτός εάν είναι υποχρεωτική βάσει του νόμου περί ευθύνης προϊόντων, λόγω πρόθεσης, βαριάς αμέλειας, τραυματισμού ζωής, άκρων ή υγείας, ανάληψης εγγύησης ποιότητας, δόλιας απόκρυψης ελαττώματος ή παράβασης βασικών συμβατικών υποχρεώσεων. Βασικές συμβατικές υποχρεώσεις είναι εκείνες οι υποχρεώσεις των οποίων η εκπλήρωση είναι απαραίτητη για την ορθή εκτέλεση μιας σύμβασης και στη συμμόρφωση των οποίων μπορούν να βασίζονται τακτικά τα συμβαλλόμενα μέρη. Η αποζημίωση για ζημίες λόγω παραβίασης βασικών συμβατικών υποχρεώσεων περιορίζεται στην προβλέψιμη ζημία που είναι τυπική για αυτό το είδος σύμβασης, εκτός εάν υπάρχει δόλος ή βαριά αμέλεια.';
+      'Ο πάροχος δεν εγγυάται τη διαθεσιμότητα, την αξιοπιστία, τη λειτουργικότητα ή την καταλληλότητα της εφαρμογής για τους σκοπούς σας. Αποκλείεται η ευθύνη, εκτός εάν είναι υποχρεωτική βάσει του νόμου περί ευθύνης για τα προϊόντα, λόγω πρόθεσης, βαριάς αμέλειας, τραυματισμού της ζωής, της σωματικής ακεραιότητας ή της υγείας, ανάληψης εγγύησης ποιότητας, δόλιας απόκρυψης ελαττώματος ή παραβίασης ουσιωδών συμβατικών υποχρεώσεων. Ουσιώδεις συμβατικές υποχρεώσεις είναι οι υποχρεώσεις των οποίων η εκπλήρωση είναι απαραίτητη για την ορθή εκτέλεση της σύμβασης και στην τήρηση των οποίων τα συμβαλλόμενα μέρη μπορούν να βασίζονται τακτικά. Η αποζημίωση για ζημίες που οφείλονται σε παραβίαση ουσιωδών συμβατικών υποχρεώσεων περιορίζεται στην προβλέψιμη ζημία που είναι τυπική για αυτό το είδος σύμβασης, εκτός εάν υπάρχει πρόθεση ή βαριά αμέλεια.';
 
   @override
   String get termsOfUsageBlock3Title => 'Ευθύνη';
 
   @override
   String get termsOfUsageBlock4 =>
-      'Ο πάροχος δεν εγγυάται την ακρίβεια των αποτελεσμάτων υπολογισμού. Οι χρήστες υποχρεούνται να ενημερώνουν προσεκτικά και με δική τους ευθύνη τις τιμές που είναι αποθηκευμένες στην εφαρμογή (βασικές τιμές, τιμές κατανάλωσης κ.λπ.), προκειμένου να διασφαλίσουν ότι τα τιμολόγια που δημιουργούνται αντιστοιχούν στα πραγματικά οφειλόμενα ποσά.';
+      'Ο πάροχος δεν εγγυάται την ακρίβεια των αποτελεσμάτων των υπολογισμών. Οι χρήστες οφείλουν να ενημερώνουν προσεκτικά και με δική τους ευθύνη τις τιμές που είναι αποθηκευμένες στην εφαρμογή (τιμές βάσης, τιμές κατανάλωσης κ.λπ.), ώστε να διασφαλίζεται ότι τα παραγόμενα τιμολόγια αντιστοιχούν στα πραγματικά οφειλόμενα ποσά.';
 
   @override
   String get termsOfUsageBlock4Title => 'Ευθύνες του χρήστη';
@@ -2618,23 +2621,25 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Αποθήκευση ρυθμίσεων εξουσιοδότησης';
 
   @override
-  String get tibberBasicAuth => 'Βασικό Auth';
+  String get tibberBasicAuth => 'Βασική εξουσιοδότηση';
 
   @override
-  String get tibberBasicAuthEnterPassword => 'Εισαγάγετε κωδικό πρόσβασης';
+  String get tibberBasicAuthEnterPassword =>
+      'Παρακαλώ εισάγετε κωδικό πρόσβασης';
 
   @override
-  String get tibberBasicAuthEnterUsername => 'Εισαγάγετε όνομα χρήστη';
+  String get tibberBasicAuthEnterUsername =>
+      'Παρακαλώ εισάγετε το όνομα χρήστη';
 
   @override
-  String get tibberBasicAuthPassword => 'Σύνθημα';
+  String get tibberBasicAuthPassword => 'Κωδικός πρόσβασης';
 
   @override
   String get tibberBasicAuthUsername => 'Όνομα χρήστη';
 
   @override
   String get tibberConsentScreenBenefit1Description =>
-      'Παρακολουθήστε την κατανάλωσή σας σε πραγματικό χρόνο και αποκαλύψτε κρυμμένους φυσαλίδες ενέργειας.';
+      'Παρακολουθήστε την κατανάλωσή σας σε πραγματικό χρόνο και αποκαλύψτε κρυφές πηγές ενέργειας.';
 
   @override
   String get tibberConsentScreenBenefit1Title =>
@@ -2645,23 +2650,23 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get tibberConsentScreenConfigureNowButton =>
-      'Ρυθμίστε τώρα το Tibber Pulse';
+      'Ρυθμίστε το Tibber Pulse τώρα';
 
   @override
   String get tibberConsentScreenDescription =>
-      'Είστε πελάτης της Tibber ή σχεδιάζετε να γίνετε; Τώρα υποστηρίζουμε το Pulse για βελτιωμένη παρακολούθηση ενέργειας. Λάβετε υπόψη ότι τα ιστορικά δεδομένα από το Pulse είναι δυστυχώς διαθέσιμα μόνο σε πελάτες με ενεργό συμβόλαιο Tibber.';
+      'Είστε πελάτης της Tibber ή σκοπεύετε να γίνετε; Υποστηρίζουμε τώρα το Pulse για βελτιωμένη παρακολούθηση της ενέργειας. Σημειώστε ότι τα ιστορικά δεδομένα από το Pulse είναι δυστυχώς διαθέσιμα μόνο σε πελάτες με ενεργό συμβόλαιο Tibber.';
 
   @override
   String get tibberConsentScreenGoetheStudyBenefit1Description =>
-      'Η ωριαία κατανάλωσή σας από την 1η Μαρτίου θα είναι ανώνυμη και θα παρέχεται για τη μελέτη Goethe.';
+      'Η ωριαία κατανάλωσή σας από την 1η Μαρτίου θα είναι ανώνυμη και θα παρασχεθεί για τη μελέτη Goethe.';
 
   @override
   String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'Θα θέλατε να συμμετάσχετε στη Μελέτη Γκαίτε;';
+      'Θα θέλατε να συμμετάσχετε στη μελέτη Goethe;';
 
   @override
   String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
-      'Ναι, θέλω να συμμετάσχω στη Μελέτη Γκαίτε';
+      'Ναι, θέλω να συμμετάσχω στη μελέτη Goethe';
 
   @override
   String get tibberConsentScreenGoetheStudySectionHeader =>
@@ -2669,7 +2674,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get tibberConsentScreenHeader =>
-      'Νέα δυνατότητα: Δεδομένα κατανάλωσης από το Tibber Pulse';
+      'Νέο χαρακτηριστικό: Tibber Pulse: Δεδομένα κατανάλωσης από το Tibber Pulse';
 
   @override
   String get tibberConsentScreenStoreLink => 'Επισκεφθείτε το κατάστημα Tibber';
@@ -2697,17 +2702,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     Object endDate,
     Object startTime,
   ) {
-    return 'Από: $startTime έως $endDate';
+    return 'Από: $startTime προς $endDate';
   }
 
   @override
   String tibberConsumptionEntryViewTimeSpanMonth(Object month) {
-    return 'Ο μήνας $month';
+    return 'Ο μήνας του «$month»';
   }
 
   @override
   String tibberConsumptionEntryViewTimeSpanMonthStartingAt(Object month) {
-    return 'Ένα μήνα έναρξης $month';
+    return 'Ένας μήνας ξεκινώντας από το $month';
   }
 
   @override
@@ -2725,52 +2730,53 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String tibberConsumptionEntryViewTimeSpanYearStartingAt(Object year) {
-    return 'Ένα χρόνο από το $year';
+    return 'Ένα έτος από την ημερομηνία $year';
   }
 
   @override
-  String get tibberEnterAccessToken => 'Εισαγάγετε το διακριτικό πρόσβασης';
+  String get tibberEnterAccessToken =>
+      'Παρακαλώ εισάγετε το διακριτικό πρόσβασης';
 
   @override
   String get tibberErrorAccessTokenInvalid =>
-      'Φαίνεται ότι το διακριτικό πρόσβασης δεν είναι έγκυρο';
+      'Φαίνεται ότι το κουπόνι πρόσβασης είναι άκυρο';
 
   @override
   String get tibberErrorConnectivityShowCacheInstead =>
-      'Δεν είναι δυνατή η ανάκτηση πρόσφατων δεδομένων κατανάλωσης. Αντ\' αυτού εμφανίζονται αποθηκευμένες τιμές.';
+      'Αδυναμία ανάκτησης πρόσφατων δεδομένων κατανάλωσης. Εμφανίζει τιμές που έχουν αποθηκευτεί στην προσωρινή μνήμη.';
 
   @override
   String get tibberErrorNoHomes =>
-      'Δεν υπάρχουν κατοικίες που να σχετίζονται με αυτόν τον λογαριασμό';
+      'Δεν υπάρχουν σπίτια που σχετίζονται με αυτόν τον λογαριασμό';
 
   @override
   String get tibberErrorNoSubscription =>
-      'Για να αποκτήσετε πλήρη πρόσβαση στα ιστορικά δεδομένα μέσω του API, χρειάζεστε ένα ενεργό συμβόλαιο ηλεκτρικής ενέργειας Tibber για το επιλεγμένο σπίτι.';
+      'Για να αποκτήσετε πλήρη πρόσβαση σε ιστορικά δεδομένα μέσω του API, χρειάζεστε ένα ενεργό συμβόλαιο ηλεκτρικής ενέργειας της Tibber για την επιλεγμένη κατοικία.';
 
   @override
   String get tibberErrorRateLimit =>
-      'Υπέρβαση του ορίου ρυθμού Tibber API. Περιμένετε τουλάχιστον 5 λεπτά πριν δοκιμάσετε ξανά.';
+      'Υπέρβαση του ορίου ρυθμού API του Tibber. Περιμένετε τουλάχιστον 5 λεπτά πριν ξαναπροσπαθήσετε.';
 
   @override
   String get tibberErrorSmartMeterMisconfigured =>
-      'Ο έξυπνος μετρητής σας φαίνεται να έχει διαμορφωθεί εσφαλμένα.';
+      'Ο έξυπνος μετρητής σας φαίνεται να είναι λανθασμένα ρυθμισμένος.';
 
   @override
   String tibberErrorUndefined(Object error) {
-    return 'Παρουσιάστηκε ένα μη αναμενόμενο σφάλμα: $error';
+    return 'Παρουσιάστηκε ένα απροσδόκητο σφάλμα: $error';
   }
 
   @override
   String tibberHomeSelectorHomeId(Object homeId) {
-    return 'Ταυτότητα σπιτιού: $homeId';
+    return 'Αριθμός κατοικίας: $homeId';
   }
 
   @override
-  String get tibberHomeSelectorLabel => 'Σπίτι';
+  String get tibberHomeSelectorLabel => 'Αρχική σελίδα';
 
   @override
   String get tibberLiveAndHistoricalMeasurementsWidgetNotSupported =>
-      'Αυτό το σπίτι δεν υποστηρίζει ζωντανές μετρήσεις ή ιστορικά δεδομένα κατανάλωσης. Επιλέξτε άλλο σπίτι.';
+      'Αυτό το σπίτι δεν υποστηρίζει ζωντανές μετρήσεις ή ιστορικά δεδομένα κατανάλωσης. Παρακαλούμε επιλέξτε άλλο σπίτι.';
 
   @override
   String get tibberLiveMeasurementCounterCardViewFooter => 'Ζωντανή μέτρηση';
@@ -2785,7 +2791,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get tibberLiveMeasurementWidgetAccumulatedCost =>
-      'Συσσωρευμένο Κόστος';
+      'Συσσωρευμένο κόστος';
 
   @override
   String get tibberLiveMeasurementWidgetAccumulatedProduction =>
@@ -2800,33 +2806,33 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Συσσωρευμένη ανταμοιβή';
 
   @override
-  String get tibberLiveMeasurementWidgetAveragePower => 'Μέση Ισχύς';
+  String get tibberLiveMeasurementWidgetAveragePower => 'Μέση ισχύς';
 
   @override
-  String get tibberLiveMeasurementWidgetCurrentL1 => 'Τρέχον (L1)';
+  String get tibberLiveMeasurementWidgetCurrentL1 => 'Ρεύμα (L1)';
 
   @override
-  String get tibberLiveMeasurementWidgetCurrentL2 => 'Τρέχον (L2)';
+  String get tibberLiveMeasurementWidgetCurrentL2 => 'Ρεύμα (L2)';
 
   @override
-  String get tibberLiveMeasurementWidgetCurrentL3 => 'Τρέχον (L3)';
+  String get tibberLiveMeasurementWidgetCurrentL3 => 'Ρεύμα (L3)';
 
   @override
   String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'Ενδείξεις μετρητών (Κατανάλωση)';
+      'Ανάγνωση μετρητή (Κατανάλωση)';
 
   @override
   String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'Ανάγνωση μετρητών (Παραγωγή)';
+      'Ανάγνωση μετρητών (παραγωγή)';
 
   @override
-  String get tibberLiveMeasurementWidgetMaxPower => 'Max Power';
+  String get tibberLiveMeasurementWidgetMaxPower => 'Μέγιστη ισχύς';
 
   @override
   String get tibberLiveMeasurementWidgetMinPower => 'Ελάχιστη ισχύς';
 
   @override
-  String get tibberLiveMeasurementWidgetPower => 'Εξουσία';
+  String get tibberLiveMeasurementWidgetPower => 'Ισχύς';
 
   @override
   String get tibberLiveMeasurementWidgetPowerFactor => 'Συντελεστής ισχύος';
@@ -2835,7 +2841,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetPowerProduction => 'Παραγωγή ενέργειας';
 
   @override
-  String get tibberLiveMeasurementWidgetTimestamp => 'Χρονική σήμανση';
+  String get tibberLiveMeasurementWidgetTimestamp => 'Χρονοσφραγίδα';
 
   @override
   String tibberLiveMeasurementWidgetTitle(Object time) {
@@ -2843,7 +2849,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get tibberLiveMeasurementWidgetUnitA => 'ΕΝΑ';
+  String get tibberLiveMeasurementWidgetUnitA => 'A';
 
   @override
   String get tibberLiveMeasurementWidgetUnitV => 'V';
@@ -2852,21 +2858,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetUnitW => 'W';
 
   @override
-  String get tibberLiveMeasurementWidgetVoltagePhase1 => 'Τάση (Φάση 1)';
+  String get tibberLiveMeasurementWidgetVoltagePhase1 => 'Τάση (φάση 1)';
 
   @override
-  String get tibberLiveMeasurementWidgetVoltagePhase2 => 'Τάση (Φάση 2)';
+  String get tibberLiveMeasurementWidgetVoltagePhase2 => 'Τάση (φάση 2)';
 
   @override
-  String get tibberLiveMeasurementWidgetVoltagePhase3 => 'Τάση (Φάση 3)';
+  String get tibberLiveMeasurementWidgetVoltagePhase3 => 'Τάση (φάση 3)';
 
   @override
   String get tibberLiveMeasurementsWidgetConnecting =>
-      'Σύνδεση στο Tibber Pulse...';
+      'Σύνδεση με το Tibber Pulse...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
-      'Παρουσιάστηκε σφάλμα κατά τη σύνδεση στο Tibber Pulse. Ελέγξτε το διακριτικό πρόσβασής σας και τη σύνδεσή σας στο Διαδίκτυο.';
+      'Προέκυψε σφάλμα κατά τη σύνδεση με το Tibber Pulse. Ελέγξτε το διακριτικό πρόσβασης και τη σύνδεσή σας στο διαδίκτυο.';
 
   @override
   String get tibberLiveMeasurementsWidgetNotSupported =>
@@ -2874,20 +2880,20 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get tibberMessageAccessTokenUpdated =>
-      'Το διακριτικό πρόσβασης ενημερώθηκε με επιτυχία';
+      'Επιτυχής ενημέρωση του κουπονιού πρόσβασης';
 
   @override
   String get tibberStatusWidgetTibberSubscriptionStatus =>
       'Κατάσταση συνδρομής Tibber';
 
   @override
-  String get tibberStatusWidgetTitle => 'Διαχείριση προσωρινής μνήμης';
+  String get tibberStatusWidgetTitle => 'Διαχείριση κρυφής μνήμης';
 
   @override
-  String get tibberSubscriptionStatusActive => 'ενεργός';
+  String get tibberSubscriptionStatusActive => 'ενεργό';
 
   @override
-  String get tibberSubscriptionStatusInactive => 'αδρανής';
+  String get tibberSubscriptionStatusInactive => 'ανενεργό';
 
   @override
   String get tibberSubscriptionStatusLoading => 'φόρτωση...';
@@ -2897,24 +2903,24 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Πού μπορώ να βρω το \"κουπόνι πρόσβασης\" μου;';
 
   @override
-  String get timeBefore => 'Προτού';
+  String get timeBefore => 'Πριν από το';
 
   @override
-  String get timeDayAgo => 'πριν μια μέρα';
+  String get timeDayAgo => 'πριν από μία ημέρα';
 
   @override
   String get timeDays => 'ημέρες';
 
   @override
   String timeDaysAgo(int days) {
-    return 'PHTOKEN πριν από 0 ημέρες';
+    return '$days πριν από ημέρες';
   }
 
   @override
   String get timeDaysWithin => 'ημέρες';
 
   @override
-  String get timeForFirstYear => 'για τον πρώτο χρόνο';
+  String get timeForFirstYear => 'για το πρώτο έτος';
 
   @override
   String get timeFriday => 'Παρασκευή';
@@ -2925,14 +2931,14 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get timeFromUndefined => 'Απροσδιόριστος';
+  String get timeFromUndefined => 'Απροσδιόριστο';
 
   @override
   String get timeHours => 'ώρες';
 
   @override
   String timeHoursAgo(int hours) {
-    return 'PHTOKEN πριν από 0 ώρες';
+    return '$hours πριν από ώρες';
   }
 
   @override
@@ -2945,11 +2951,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get timeLastUpdated => 'τελευταία ενημέρωση';
 
   @override
-  String get timeMinutes => 'πρακτικά';
+  String get timeMinutes => 'λεπτά';
 
   @override
   String timeMinutesAgo(int minutes) {
-    return 'PHTOKEN πριν από 0 λεπτά';
+    return '$minutes πριν από λίγα λεπτά';
   }
 
   @override
@@ -2963,7 +2969,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String timeMonthsAgo(int months) {
-    return 'PHTOKEN πριν από 0 μήνες';
+    return '$months μήνες πριν';
   }
 
   @override
@@ -2976,7 +2982,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get timeReminderAtEnd => 'Στο τέλος';
 
   @override
-  String get timeReminderAtStart => 'Στην αρχή';
+  String get timeReminderAtStart => 'Κατά την έναρξη';
 
   @override
   String get timeRightNow => 'Αυτή τη στιγμή';
@@ -2985,7 +2991,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get timeSaturday => 'Σάββατο';
 
   @override
-  String get timeSeconds => 'δευτ';
+  String get timeSeconds => 'sec';
 
   @override
   String get timeSunday => 'Κυριακή';
@@ -3005,7 +3011,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get timeUntilUnlimited => 'Απεριόριστος';
+  String get timeUntilUnlimited => 'Απεριόριστα';
 
   @override
   String get timeWednesday => 'Τετάρτη';
@@ -3018,20 +3024,20 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String timeWithin(String duration) {
-    return 'Μέσα στο $duration';
+    return '$duration';
   }
 
   @override
-  String get timeYesterday => 'εχθές';
+  String get timeYesterday => 'χθες';
 
   @override
-  String get unitCm => 'εκ';
+  String get unitCm => 'cm';
 
   @override
-  String get unitCmLong => 'εκ';
+  String get unitCmLong => 'cm';
 
   @override
-  String get unitCmShort => 'εκ';
+  String get unitCmShort => 'cm';
 
   @override
   String unitCubicMetersLong(num count) {
@@ -3062,24 +3068,24 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get unitGJShort => 'GJ';
 
   @override
-  String get unitGigaByteLong => 'γιγαμπάιτ';
+  String get unitGigaByteLong => 'GB';
 
   @override
-  String get unitGigaByteShort => 'γιγαμπάιτ';
+  String get unitGigaByteShort => 'GB';
 
   @override
   String unitHoursLong(num count) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Ώρες (ω)',
-      one: 'Ωρα',
+      other: 'Ώρες (h)',
+      one: 'Ώρα',
     );
     return '$_temp0';
   }
 
   @override
-  String get unitHoursShort => 'η';
+  String get unitHoursShort => 'h';
 
   @override
   String unitKWhLong(num count) {
@@ -3100,14 +3106,14 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'κιλά (kg)',
-      one: 'κιλό (kg)',
+      other: 'Κιλά (kg)',
+      one: 'Χιλιόγραμμα (kg)',
     );
     return '$_temp0';
   }
 
   @override
-  String get unitKgShort => 'κιλά';
+  String get unitKgShort => 'kg';
 
   @override
   String get unitLiters => 'λίτρα';
@@ -3167,7 +3173,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get unitPercentShort => '%';
 
   @override
-  String get unitSquareMeters => 'τ.μ';
+  String get unitSquareMeters => 'τ.μ.';
 
   @override
   String unitSquareMetersLong(num count) {
@@ -3185,7 +3191,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String updateAvailable(String newVersion, String oldVersion) {
-    return 'Η έκδοση της εφαρμογής $oldVersion δεν είναι ενημερωμένη. Μπορείτε να ενημερώσετε την έκδοση $newVersion.';
+    return 'Η έκδοση της εφαρμογής $oldVersion δεν είναι ενημερωμένη. Μπορείτε να την ενημερώσετε στην έκδοση $newVersion.';
   }
 
   @override
@@ -3193,17 +3199,18 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get upgradeDescription =>
-      'Η εφαρμογή μπορεί να κάνει περισσότερα. Καλύτερη επισκόπηση κόστους, περισσότερα στατιστικά στοιχεία, εξαγωγή Excel, περισσότεροι μετρητές, ...';
+      'Η εφαρμογή μπορεί να κάνει περισσότερα. Καλύτερη επισκόπηση του κόστους, περισσότερα στατιστικά στοιχεία, εξαγωγή στο Excel, περισσότεροι μετρητές, ...';
 
   @override
-  String get useDismissibleSettings => 'Διαγραφή με κίνηση ολίσθησης';
+  String get useDismissibleSettings => 'Διαγραφή με χειρονομία swipe';
 
   @override
   String get useDismissibleSettingsDetailed =>
-      'Μετρητές, συμβόλαια κ.λπ. μπορούν να διαγραφούν με μια κίνηση πλάγιας ολίσθησης';
+      'Μετρητές, συμβόλαια κ.λπ. μπορούν να διαγραφούν με μια κίνηση πλαϊνού σκουπίσματος.';
 
   @override
-  String get usedForPaymentsRepayments => 'Προκαταβολή, τιμή βάσης και μπόνους';
+  String get usedForPaymentsRepayments =>
+      'Προκαταβολή, βασική τιμή και μπόνους';
 
   @override
   String valueLess(String value) {
@@ -3217,7 +3224,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String versionIsUpToDate(String version) {
-    return 'Η τελευταία έκδοση της εφαρμογής που κυκλοφόρησε σε όλους τους χρήστες είναι το $version.';
+    return 'Η τελευταία έκδοση της εφαρμογής που έχει κυκλοφορήσει για όλους τους χρήστες είναι η $version.';
   }
 
   @override
@@ -3231,22 +3238,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get virtualCounterMasterCounterDescription =>
-      'Πληροφορίες: Ο κύριος μετρητής αποτελεί τη βάση για τον υπολογισμό του εικονικού μετρητή, π.χ., ο κύριος μετρητής ηλεκτρικής ενέργειας ή ο κύριος μετρητής νερού.';
+      'Πληροφορίες: π.χ. ο κύριος μετρητής ηλεκτρικής ενέργειας ή ο κύριος μετρητής νερού.';
 
   @override
-  String get virtualCounterMetersToBeAdded => 'Μετρητές που θα προστεθούν';
+  String get virtualCounterMetersToBeAdded => 'Μετρητές προς προσθήκη';
 
   @override
   String get virtualCounterMetersToBeAddedDescription =>
-      'Ποιες ενδείξεις μετρητών πρέπει να προστεθούν στον κύριο μετρητή, π.χ. μετρητές παραγωγής ενέργειας.';
+      'Ποιες ενδείξεις μετρητών πρέπει να προστίθενται στον κύριο μετρητή, π.χ. μετρητές παραγωγής ενέργειας.';
 
   @override
-  String get virtualCounterMetersToBeSubtracted =>
-      'Μέτρα που πρέπει να αφαιρεθούν';
+  String get virtualCounterMetersToBeSubtracted => 'Μέτρα προς αφαίρεση';
 
   @override
   String get virtualCounterMetersToBeSubtractedDescription =>
-      'Ποιες ενδείξεις του μετρητή πρέπει να αφαιρεθούν από τον κύριο μετρητή, π.χ. \"μετρητές αντλίας θερμότητας\", \"μετρητές τροφοδοσίας ηλεκτρικής ενέργειας\".';
+      'Ποιες ενδείξεις μετρητών πρέπει να αφαιρούνται από τον κύριο μετρητή, π.χ. \"μετρητές αντλιών θερμότητας\", \"μετρητές τροφοδότησης ηλεκτρικής ενέργειας\".';
 
   @override
   String get virtualCounterNotConfigured =>
@@ -3267,7 +3273,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String warningNextReminderText(String date) {
-    return 'Η επόμενη υπενθύμιση είναι $date.';
+    return 'Η επόμενη υπενθύμιση έχει προγραμματιστεί για τις $date.';
   }
 
   @override
@@ -3278,7 +3284,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   @override
   String warningReadingBiggerThanOldValue(String isOilCounter) {
     String _temp0 = intl.Intl.selectLogic(isOilCounter, {
-      'true': ' Έχετε ξαναγεμίσει τη δεξαμενή;',
+      'true': ' Γεμίσατε το ρεζερβουάρ;',
       'other': '',
     });
     return 'Η νέα τιμή είναι υψηλότερη από την προηγούμενη ένδειξη του μετρητή.$_temp0';
@@ -3286,7 +3292,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get warningReadingBiggerThanOldValueOilVolume =>
-      'Η νέα τιμή είναι υψηλότερη από την προηγούμενη ένδειξη του μετρητή. Έχεις ξαναγεμίσει το ντεπόζιτο;';
+      'Η νέα τιμή είναι υψηλότερη από την προηγούμενη ένδειξη του μετρητή. Γεμίσατε ξανά τη δεξαμενή;';
 
   @override
   String warningReadingOutdatedForYearlyResetCounter(
@@ -3294,7 +3300,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String lastYear,
     String roomNamePart,
   ) {
-    return 'Η τελική ένδειξη του μετρητή για το έτος $lastYear για το $deviceTypeName $roomNamePart λείπει. Αυτό είναι απαραίτητο για τον σωστό υπολογισμό της συνολικής ετήσιας κατανάλωσης.';
+    return 'Λείπει η τελική ένδειξη του μετρητή για το έτος $lastYear για το $deviceTypeName $roomNamePart. Αυτό είναι απαραίτητο για τον σωστό υπολογισμό της συνολικής ετήσιας κατανάλωσης.';
   }
 
   @override
@@ -3303,12 +3309,12 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
     String outdatedSinceText,
     String whenNotifyDateText,
   ) {
-    return 'Η τελευταία ένδειξη του μετρητή για το $deviceTypeName είναι παλιά $outdatedSinceText. $whenNotifyDateText';
+    return 'Η τελευταία μέτρηση του μετρητή για το $deviceTypeName είναι παλιά $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
   String get warningReadingSeemsTooBig =>
-      'Η νέα τιμή είναι αρκετά υψηλή. Έγινε σωστά η ανάγνωση;';
+      'Η νέα τιμή είναι αρκετά υψηλή. Η μέτρηση έγινε σωστά;';
 
   @override
   String get warningReadingSeemsTooSmall =>
@@ -3316,21 +3322,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get warningReadingSmallerThanOldValue2 =>
-      'Η νέα τιμή είναι χαμηλότερη από την προηγούμενη ένδειξη του μετρητή. Έγινε σωστά η ανάγνωση;';
+      'Η νέα τιμή είναι χαμηλότερη από την προηγούμενη ένδειξη του μετρητή. Έγινε σωστά η μέτρηση;';
 
   @override
-  String get warningYearlyReset => 'Μηδενική ανάγνωση στην αρχή της χρονιάς';
+  String get warningYearlyReset => 'Μηδενική ανάγνωση στην αρχή του έτους';
 
   @override
   String get wasteWaterPriceEnabled =>
-      'Το κόστος γλυκού νερού και λυμάτων εμφανίζονται χωριστά (σχετικά με τους μετρητές έκπτωσης)';
+      'Το κόστος γλυκού νερού και λυμάτων εμφανίζεται χωριστά (αφορά τους μετρητές αφαίρεσης).';
 
   @override
   String get waterConsumption => 'Κατανάλωση νερού';
 
   @override
   String get waterExtractionMinimumLevelLower =>
-      'Η αφαίρεση γίνεται επειδή η κατανάλωση είναι χαμηλότερη από το όριο.';
+      'Δεν εφαρμόζεται καμία έκπτωση επειδή η κατανάλωση είναι κάτω από το ελάχιστο όριο.';
 
   @override
   String waterMeterEventsInformation(num count, String waterSupplier) {
@@ -3338,9 +3344,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       count,
       locale: localeName,
       other:
-          'Οι ασύρματοι μετρητές νερού σας $waterSupplier ανιχνεύουν απροσδόκητη κατανάλωση. Εάν το επιθυμείτε, θα λάβετε ειδοποίηση σε τέτοιες περιπτώσεις.',
+          'Οι ασύρματοι μετρητές νερού $waterSupplier ανιχνεύουν απροσδόκητη κατανάλωση. Εάν το επιθυμείτε, θα λαμβάνετε ειδοποίηση σε τέτοιες περιπτώσεις.',
       one:
-          'Ο ασύρματος μετρητής νερού σας $waterSupplier ανιχνεύει απροσδόκητη κατανάλωση. Εάν το επιθυμείτε, θα λάβετε ειδοποίηση σε μια τέτοια περίπτωση.',
+          'Ο ασύρματος μετρητής νερού $waterSupplier ανιχνεύει απροσδόκητη κατανάλωση. Εάν το επιθυμείτε, θα λάβετε μια ειδοποίηση σε μια τέτοια περίπτωση.',
     );
     return '$_temp0';
   }
@@ -3354,7 +3360,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get waterSupplierUnknown =>
-      'Δυστυχώς, δεν γνωρίζουμε ακόμη τον προμηθευτή σας. Παρακαλούμε μη διστάσετε να μας γράψετε. Οι προμηθευτές που προσφέρουν μόνο ηλεκτρικό ρεύμα και φυσικό αέριο δεν εμφανίζονται εδώ.';
+      'Δυστυχώς, δεν γνωρίζουμε ακόμη τον προμηθευτή σας. Παρακαλούμε επικοινωνήστε μαζί μας. Οι προμηθευτές που προσφέρουν μόνο ηλεκτρικό ρεύμα και φυσικό αέριο δεν εμφανίζονται εδώ.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3366,19 +3372,19 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestQ3 =>
-      'Έχετε ήδη ζητήσει πρόσβαση και έχετε λάβει τον κωδικό QR σας;';
+      'Έχετε ήδη ζητήσει πρόσβαση και έχετε λάβει τον κωδικό QR;';
 
   @override
   String get watersupplierAccessRequestQ4 =>
-      'Θέλετε να λαμβάνετε ειδοποιήσεις μετρητών, ώστε να μπορείτε να αντιδράτε σε περίπτωση που σκάσει σωλήνα ή τρέχει ξέπλυμα της τουαλέτας, για παράδειγμα;';
+      'Θα θέλατε να λαμβάνετε ειδοποιήσεις μετρητών, ώστε να μπορείτε να αντιδράσετε σε περίπτωση ρήξης σωλήνα ή καζανάκι τουαλέτας που τρέχει, για παράδειγμα;';
 
   @override
   String get watersupplierCompleteMeterIdServerErrorTryAgain =>
-      'Συγγνώμη, δυστυχώς δεν λειτούργησε. Οφείλονταν στον διακομιστή μας. Καλύτερα να προσπαθήσετε ξανά σε μεταγενέστερη ημερομηνία!';
+      'Συγγνώμη, δυστυχώς αυτό δεν λειτούργησε. Οφείλεται στον διακομιστή μας. Καλύτερα να δοκιμάσετε ξανά σε μεταγενέστερη ημερομηνία!';
 
   @override
   String get watersupplierCompleteMeterIdTryAgain =>
-      'Δεν θα περάσεις! Εισαγάγετε ξανά τα τρία τελευταία ψηφία του αναγνωριστικού του μετρητή σας!';
+      'Δεν θα περάσετε! Παρακαλώ εισάγετε ξανά τα τρία τελευταία ψηφία του κωδικού μετρητή σας!';
 
   @override
   String get watersupplierMeterIdValidationStep =>
@@ -3386,21 +3392,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierNoAccess =>
-      'Δεν έχετε πλέον εξουσιοδότηση για ανάκτηση δεδομένων.';
+      'Δεν έχετε πλέον εξουσιοδότηση για την ανάκτηση δεδομένων.';
 
   @override
   String get watersupplierNoAccessDetailedMessage =>
-      'Εάν πιστεύετε ότι θα πρέπει να έχετε ακόμα πρόσβαση, σαρώστε ξανά τον κωδικό ενεργοποίησής σας. Εάν ο κωδικός πρόσβασης δεν είναι πλέον έγκυρος, υποβάλετε νέο αίτημα πρόσβασης.';
+      'Αν πιστεύετε ότι θα πρέπει να έχετε ακόμα πρόσβαση, σαρώστε ξανά τον κωδικό ενεργοποίησής σας. Εάν ο κωδικός πρόσβασης δεν είναι πλέον έγκυρος, παρακαλούμε υποβάλετε νέα αίτηση πρόσβασης.';
 
   @override
-  String get watersupplierOpenReminderSettings => 'Ανοίξτε τις ρυθμίσεις';
+  String get watersupplierOpenReminderSettings => 'Άνοιγμα ρυθμίσεων';
 
   @override
   String get watersupplierRadioMeterDefaultName => 'Ραδιομετρητής κρύου νερού';
 
   @override
   String get watersupplierScanQrCodeApprovalInProgress =>
-      'Τώρα εξουσιοδοτούμε τον λογαριασμό σας, ώστε να έχετε πρόσβαση στις ενδείξεις του μετρητή ραδιοφώνου στο μέλλον.';
+      'Εξουσιοδοτούμε τώρα το λογαριασμό σας, ώστε να μπορείτε να έχετε πρόσβαση στις μετρήσεις των ραδιομέτρων στο μέλλον.';
 
   @override
   String get watersupplierScanQrCodeCommand =>
@@ -3408,22 +3414,22 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierScanQrCodeOffboardingSuccessful =>
-      'Η πρόσβαση στο ραδιομετρητή νερού σας έχει ακυρωθεί.';
+      'Η πρόσβαση στον ασύρματο μετρητή νερού ακυρώθηκε.';
 
   @override
   String get watersupplierScanQrCodeScanSuccessful =>
-      'Ουάου, ο κωδικός ενεργοποίησης φαίνεται πολύ ωραίος! Εισαγάγετε τα τρία τελευταία ψηφία του αναγνωριστικού του μετρητή σας!';
+      'Ουάου, ο κωδικός ενεργοποίησης φαίνεται τόσο ωραίος! Παρακαλώ εισάγετε τα τρία τελευταία ψηφία του κωδικού μετρητή σας!';
 
   @override
   String get watersupplierScanQrCodeScanSuccessfulNoteAboutMeterIds =>
-      'Σημείωση: Το αρχικό αναγνωριστικό του μετρητή σας μπορεί να έχει περισσότερους από 8 χαρακτήρες.';
+      'Σημείωση: Το αρχικό αναγνωριστικό μετρητή σας μπορεί να έχει περισσότερους από 8 χαρακτήρες.';
 
   @override
-  String get watersupplierScanQrCodeTitle => 'Ενεργοποίηση μετρητή ραδιοφώνου';
+  String get watersupplierScanQrCodeTitle => 'Ενεργοποίηση ραδιομέτρου';
 
   @override
   String get watersupplierScanQrCodeTitleColdWaterMeterAdded =>
-      'Ναι! Ο ραδιομετρητής νερού τύπου \"Cold Water\" προστέθηκε με επιτυχία. Μπορείτε να το βρείτε ανάμεσα στα άλλα μέτρα.';
+      'Ναι! Ο ραδιομετρητής νερού του τύπου \"Κρύο νερό\" προστέθηκε επιτυχώς. Μπορείτε να τον βρείτε ανάμεσα στους άλλους μετρητές.';
 
   @override
   String get watersupplierScanQrCodeValidation =>
@@ -3431,23 +3437,23 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierScanQrCodeValidationFailed =>
-      'Λυπούμαστε, ο κωδικός δεν είναι έγκυρος. Θέλετε να δοκιμάσετε ξανά;';
+      'Λυπάμαι, ο κωδικός είναι άκυρος. Θέλετε να δοκιμάσετε ξανά;';
 
   @override
   String get watersupplierScanQrCodeValidationFailedOnboardingScanned =>
-      'Σαρώσατε τον κωδικό ενεργοποίησης αντί για τον κωδικό ανάκλησης. Παρακαλώ δοκιμάστε ξανά!';
+      'Σαρώσατε τον κωδικό ενεργοποίησης αντί για τον κωδικό ανάκλησης. Προσπαθήστε ξανά!';
 
   @override
   String get watersupplierScanQrCodeValidationFailedRevokeScanned =>
-      'Σαρώσατε τον κωδικό ανάκλησης αντί για τον κωδικό ενεργοποίησης. Παρακαλώ δοκιμάστε ξανά!';
+      'Σαρώσατε τον κωδικό ανάκλησης αντί για τον κωδικό ενεργοποίησης. Προσπαθήστε ξανά!';
 
   @override
   String get watersupplierScanRevokeQrCodeCommand =>
-      'Σαρώστε τον σωστό κωδικό QR (ανάκληση κωδικού)!';
+      'Σαρώστε τον σωστό κωδικό QR (κωδικός ανάκλησης)!';
 
   @override
   String get watersupplierUnlinkRadioMeterButtonDelete =>
-      'Διαγραφή ραδιομετρητή';
+      'Διαγραφή μετρητή ραδιοφώνου';
 
   @override
   String get watersupplierUnlinkRadioMeterButtonRevoke =>
@@ -3455,39 +3461,39 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierUnlinkRadioMeterDescription1 =>
-      'Θέλετε να διαγράψετε το ραδιομετρητή χωρίς να ακυρώσετε τον κωδικό ενεργοποίησης;';
+      'Θέλετε να διαγράψετε τον ραδιομετρητή χωρίς να ακυρώσετε τον κωδικό ενεργοποίησης;';
 
   @override
   String get watersupplierUnlinkRadioMeterDescription2 =>
-      'Δεν θέλετε πλέον πρόσβαση στα δεδομένα του ραδιομετρητή σας; Σημείωση: μόλις σαρωθεί ο κωδικός ανάκλησης, ο κωδικός ενεργοποίησης καθίσταται άκυρος. Οποιοσδήποτε λογαριασμός χρήστη που χρησιμοποίησε τον κωδικό ενεργοποίησης θα χάσει την πρόσβαση.';
+      'Δεν θέλετε πλέον να έχετε πρόσβαση στα δεδομένα του ραδιομετρητή σας; Παρακαλούμε σημειώστε: μόλις σαρώσετε τον κωδικό ανάκλησης, ο κωδικός ενεργοποίησης καθίσταται άκυρος. Κάθε λογαριασμός χρήστη που χρησιμοποίησε τον κωδικό ενεργοποίησης θα χάσει την πρόσβαση.';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle =>
-      'Τερματισμός πρόσβασης μετρητή ραδιοφώνου';
+      'Τερματισμός πρόσβασης ραδιομέτρου';
 
   @override
-  String get yearlyConsumption => 'Ετήσια κατανάλωση μέχρι τώρα';
+  String get yearlyConsumption => 'Ετήσια κατανάλωση μέχρι στιγμής';
 
   @override
   String get yearlyCosts => 'Ετήσιο κόστος κατανάλωσης μέχρι στιγμής';
 
   @override
   String get youtubeConsent1 =>
-      'Χρειαζόμαστε τη συγκατάθεσή σας για την εμφάνιση του ενσωματωμένου περιεχομένου YouTube. Μπορείτε να εμφανίσετε αυτό (και επομένως και όλο το άλλο περιεχόμενο Youtube στην εφαρμογή) με ένα κλικ και επίσης να το απενεργοποιήσετε ξανά.';
+      'Χρειαζόμαστε τη συγκατάθεσή σας για την προβολή του ενσωματωμένου περιεχομένου του Youtube. Μπορείτε να το εμφανίσετε (και συνεπώς και όλο το υπόλοιπο περιεχόμενο Youtube στην εφαρμογή) με ένα κλικ και επίσης να το απενεργοποιήσετε ξανά.';
 
   @override
-  String get youtubeConsent2 => 'Να εμφανίζεται πάντα περιεχόμενο στο Youtube';
+  String get youtubeConsent2 => 'Να εμφανίζετε πάντα περιεχόμενο Youtube';
 
   @override
   String get youtubeConsent3 =>
-      'Συμφωνώ να εμφανίζεται σε εμένα εξωτερικό περιεχόμενο. Αυτό μπορεί να έχει ως αποτέλεσμα τη μετάδοση προσωπικών δεδομένων σε πλατφόρμες τρίτων. Περισσότερα για αυτό στο δικό μας';
+      'Συμφωνώ να μου εμφανίζεται εξωτερικό περιεχόμενο. Αυτό μπορεί να έχει ως αποτέλεσμα τη διαβίβαση προσωπικών δεδομένων σε πλατφόρμες τρίτων. Περισσότερα σχετικά με αυτό στο';
 
   @override
-  String get zipCode => 'Τ.Κ.';
+  String get zipCode => 'ταχυδρομικός κώδικας';
 
   @override
   String zipCodeValidationLength(int digits) {
-    return 'Εισαγάγετε έναν ταχυδρομικό κώδικα PHTOKEN 0 ψηφίων';
+    return 'Εισάγετε έναν ταχυδρομικό κώδικα $digits ψηφίων.';
   }
 
   @override
