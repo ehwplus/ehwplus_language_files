@@ -782,10 +782,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get corresponds => '≙';
 
   @override
-  String get costSummary => 'Kostenüberblick';
+  String get costSummary => 'Kosten­überblick';
 
   @override
-  String get costSummaryYield => 'Ertragsüberblick';
+  String get costSummaryYield => 'Ertrags­überblick';
 
   @override
   String get costs => 'Kosten';
