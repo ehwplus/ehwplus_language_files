@@ -1515,6 +1515,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'ဤမီတာဟောင်းသွားပြီလား၊ အသစ်တစ်ခုနဲ့ အစားထိုးပြီးပြီလား။';
+
+  @override
   String monthEnd(Object month) {
     return '$month ၏ အဆုံး';
   }
@@ -1629,6 +1633,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'Phtook0 နှုန်း';
   }
+
+  @override
+  String get performMeterReplacement => 'မီတာအစားထိုးခြင်း ဆောင်ရွက်ပါ။';
 
   @override
   String get period => 'ကာလ';

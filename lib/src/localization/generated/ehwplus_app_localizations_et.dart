@@ -1503,6 +1503,10 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Kas see arvesti on vananenud ja kas see on asendatud uue arvesti vastu?';
+
+  @override
   String monthEnd(Object month) {
     return '$month lõpp';
   }
@@ -1618,6 +1622,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return '$unit kohta';
   }
+
+  @override
+  String get performMeterReplacement => 'Teostage arvesti asendamine';
 
   @override
   String get period => 'Periood';

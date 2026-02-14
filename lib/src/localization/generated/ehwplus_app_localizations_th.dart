@@ -1494,6 +1494,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'มิเตอร์นี้ล้าสมัยแล้วหรือยัง และได้มีการเปลี่ยนเป็นมิเตอร์ใหม่แล้วหรือไม่?';
+
+  @override
   String monthEnd(Object month) {
     return 'สิ้นสุด $month';
   }
@@ -1608,6 +1612,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'ต่อ $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'ดำเนินการเปลี่ยนมิเตอร์';
 
   @override
   String get period => 'ระยะเวลา';

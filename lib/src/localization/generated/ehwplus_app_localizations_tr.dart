@@ -1509,6 +1509,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Bu sayaç eski mi ve yeni bir sayaçla değiştirildi mi?';
+
+  @override
   String monthEnd(Object month) {
     return 'Ay $month';
   }
@@ -1623,6 +1627,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return '$unit başına';
   }
+
+  @override
+  String get performMeterReplacement => 'Sayaç değişimi gerçekleştirin';
 
   @override
   String get period => 'Dönem';

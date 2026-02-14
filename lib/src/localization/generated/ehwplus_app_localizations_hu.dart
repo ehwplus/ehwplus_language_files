@@ -1512,6 +1512,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Ez a mérő elavult, és már lecserélték egy új mérőre?';
+
+  @override
   String monthEnd(Object month) {
     return '$month vége';
   }
@@ -1626,6 +1630,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return '$unit szerint';
   }
+
+  @override
+  String get performMeterReplacement => 'Végezze el a mérő cseréjét';
 
   @override
   String get period => 'Időszak';

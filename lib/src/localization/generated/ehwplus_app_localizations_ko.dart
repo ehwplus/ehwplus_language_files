@@ -1461,6 +1461,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription => '이 계량기가 오래되어 새 계량기로 교체했나요?';
+
+  @override
   String monthEnd(Object month) {
     return '$month 끝';
   }
@@ -1573,6 +1576,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return '단위당 $unit';
   }
+
+  @override
+  String get performMeterReplacement => '계량기 교체 수행';
 
   @override
   String get period => '기간';

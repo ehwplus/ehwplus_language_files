@@ -1502,6 +1502,10 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'آیا این کنتور منسوخ شده و با کنتور جدید جایگزین شده است؟';
+
+  @override
   String monthEnd(Object month) {
     return 'پایان $month';
   }
@@ -1616,6 +1620,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'برای هر $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'تعویض کنتور را انجام دهید';
 
   @override
   String get period => 'نقطه';

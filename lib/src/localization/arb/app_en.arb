@@ -590,6 +590,7 @@
       }
     }
   },
+  "meterReplacementDescription": "Is this meter outdated and has it been replaced by a new meter?",
   "monthEnd": "End of {month}",
   "myObjects": "My objects",
   "net": "net",
@@ -665,6 +666,7 @@
       }
     }
   },
+  "performMeterReplacement": "Perform meter replacement",
   "period": "Period",
   "periodBimonthly": "bi-monthly",
   "periodBiweekly": "bi-weekly",

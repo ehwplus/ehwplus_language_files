@@ -1527,6 +1527,10 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Ce compteur est-il obsolète et a-t-il été remplacé par un nouveau compteur ?';
+
+  @override
   String monthEnd(Object month) {
     return 'Fin du $month';
   }
@@ -1635,6 +1639,9 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'par $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Remplacement des compteurs';
 
   @override
   String get period => 'Période';

@@ -1515,6 +1515,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'ഈ മീറ്റർ കാലഹരണപ്പെട്ടോ, പുതിയൊരെണ്ണം സ്ഥാപിച്ചോ?';
+
+  @override
   String monthEnd(Object month) {
     return '$month അവസാനം';
   }
@@ -1629,6 +1633,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'ഓരോ $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'മീറ്റർ മാറ്റിവയ്ക്കുക';
 
   @override
   String get period => 'കാലയളവ്';

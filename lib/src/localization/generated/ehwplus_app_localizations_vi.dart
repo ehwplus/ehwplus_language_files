@@ -1502,6 +1502,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Đồng hồ này đã cũ và được thay thế bằng đồng hồ mới?';
+
+  @override
   String monthEnd(Object month) {
     return 'Cuối tháng $month';
   }
@@ -1616,6 +1620,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'mỗi $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Thực hiện việc thay thế đồng hồ đo';
 
   @override
   String get period => 'Giai đoạn';

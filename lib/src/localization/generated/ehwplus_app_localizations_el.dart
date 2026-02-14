@@ -1520,6 +1520,10 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Είναι αυτός ο μετρητής ξεπερασμένος και έχει αντικατασταθεί από νέο μετρητή;';
+
+  @override
   String monthEnd(Object month) {
     return 'Τέλος του $month';
   }
@@ -1634,6 +1638,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'ανά $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Εκτέλεση αντικατάστασης μετρητή';
 
   @override
   String get period => 'Περίοδος';

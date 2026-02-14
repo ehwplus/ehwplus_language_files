@@ -2654,6 +2654,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Show only \"{state}\"'**
   String meterReadingsFilterSubmitted(String state);
 
+  /// No description provided for @meterReplacementDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Is this meter outdated and has it been replaced by a new meter?'**
+  String get meterReplacementDescription;
+
   /// No description provided for @monthEnd.
   ///
   /// In en, this message translates to:
@@ -2809,6 +2815,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'per {unit}'**
   String perUnit(String unit);
+
+  /// No description provided for @performMeterReplacement.
+  ///
+  /// In en, this message translates to:
+  /// **'Perform meter replacement'**
+  String get performMeterReplacement;
 
   /// No description provided for @period.
   ///

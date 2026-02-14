@@ -1503,6 +1503,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Je, mita hii imepitwa na wakati na imebadilishwa na mita mpya?';
+
+  @override
   String monthEnd(Object month) {
     return 'Mwisho wa $month';
   }
@@ -1617,6 +1621,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'kwa phtoken0';
   }
+
+  @override
+  String get performMeterReplacement => 'Fanya uingizaji wa mita';
 
   @override
   String get period => 'Kipindi';

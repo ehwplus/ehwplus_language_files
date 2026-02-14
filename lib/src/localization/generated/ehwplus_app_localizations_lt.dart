@@ -1507,6 +1507,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Ar šis skaitiklis yra pasenęs ir ar jis buvo pakeistas nauju skaitikliu?';
+
+  @override
   String monthEnd(Object month) {
     return '$month pabaiga';
   }
@@ -1621,6 +1625,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'už $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Atlikti skaitiklio keitimą';
 
   @override
   String get period => 'Laikotarpis';

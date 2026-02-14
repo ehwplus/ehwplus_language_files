@@ -1513,6 +1513,10 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Този измервателен уред остарял ли е и заменен ли е с нов?';
+
+  @override
   String monthEnd(Object month) {
     return 'Край на $month';
   }
@@ -1627,6 +1631,10 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'на $unit';
   }
+
+  @override
+  String get performMeterReplacement =>
+      'Извършване на подмяна на измервателни уреди';
 
   @override
   String get period => 'Период';

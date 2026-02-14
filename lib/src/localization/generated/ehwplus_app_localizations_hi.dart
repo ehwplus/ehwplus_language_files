@@ -1505,6 +1505,10 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'क्या यह मीटर अप्रचलित हो गया है और इसे नए मीटर से बदल दिया गया है?';
+
+  @override
   String monthEnd(Object month) {
     return '$month का अंत';
   }
@@ -1619,6 +1623,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'प्रति $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'मीटर प्रतिस्थापन करें';
 
   @override
   String get period => 'अवधि';

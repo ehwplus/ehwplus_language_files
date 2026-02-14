@@ -1452,6 +1452,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription => '这台仪表是否已经过时，是否已被新仪表取代？';
+
+  @override
   String monthEnd(Object month) {
     return '$month月末';
   }
@@ -1563,6 +1566,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return '每个 $unit';
   }
+
+  @override
+  String get performMeterReplacement => '进行仪表更换';
 
   @override
   String get period => '时期';

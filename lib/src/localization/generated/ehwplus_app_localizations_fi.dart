@@ -1507,6 +1507,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Onko tämä mittari vanhentunut ja onko se korvattu uudella mittarilla?';
+
+  @override
   String monthEnd(Object month) {
     return '$month loppu';
   }
@@ -1621,6 +1625,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'per $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Suorita mittarin vaihto';
 
   @override
   String get period => 'Jakso';

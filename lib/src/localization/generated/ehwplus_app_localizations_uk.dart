@@ -1511,6 +1511,10 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Чи застарів цей лічильник і чи був він замінений на новий?';
+
+  @override
   String monthEnd(Object month) {
     return 'Кінець $month';
   }
@@ -1625,6 +1629,9 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'за $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Виконати заміну лічильника';
 
   @override
   String get period => 'Крапка';

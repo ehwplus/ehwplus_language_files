@@ -1506,6 +1506,10 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Je tento měřič zastaralý a byl nahrazen novým?';
+
+  @override
   String monthEnd(Object month) {
     return 'Konec $month';
   }
@@ -1619,6 +1623,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'za 0 PHTOKEN';
   }
+
+  @override
+  String get performMeterReplacement => 'Provádění výměny měřidel';
 
   @override
   String get period => 'Období';

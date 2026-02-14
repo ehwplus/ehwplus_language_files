@@ -1508,6 +1508,10 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Da li je ovaj brojilac zastario i da li je zamijenjen novim brojilom?';
+
+  @override
   String monthEnd(Object month) {
     return 'Kraj $month';
   }
@@ -1621,6 +1625,9 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'po $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Obaviti zamjenu mjerača';
 
   @override
   String get period => 'Razdoblje';

@@ -1503,6 +1503,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementDescription =>
+      'Er denne måler forældet, og er den blevet erstattet af en ny måler?';
+
+  @override
   String monthEnd(Object month) {
     return 'Slutning af $month';
   }
@@ -1616,6 +1620,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String perUnit(String unit) {
     return 'pr $unit';
   }
+
+  @override
+  String get performMeterReplacement => 'Udfør udskiftning af målere';
 
   @override
   String get period => 'Periode';
