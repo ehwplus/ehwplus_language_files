@@ -1513,6 +1513,10 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Създаване на последващ измервателен уред от същия тип';
+
+  @override
   String get meterReplacementDescription =>
       'Този измервателен уред остарял ли е и заменен ли е с нов?';
 

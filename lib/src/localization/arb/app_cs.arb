@@ -402,6 +402,7 @@
   "meterReadingsFilterAll": "Zobrazit vše",
   "meterReadingsFilterComments": "Zobrazit pouze záznamy s komentáři",
   "meterReadingsFilterSubmitted": "Zobrazit pouze „{state}“",
+  "meterReplacementCreateNew": "Vytvoření následného měřidla stejného typu",
   "meterReplacementDescription": "Je tento měřič zastaralý a byl nahrazen novým?",
   "monthEnd": "Konec {month}",
   "myObjects": "Moje předměty",

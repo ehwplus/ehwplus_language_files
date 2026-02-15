@@ -1494,6 +1494,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'สร้างมิเตอร์ถัดไปประเภทเดียวกัน';
+
+  @override
   String get meterReplacementDescription =>
       'มิเตอร์นี้ล้าสมัยแล้วหรือยัง และได้มีการเปลี่ยนเป็นมิเตอร์ใหม่แล้วหรือไม่?';
 

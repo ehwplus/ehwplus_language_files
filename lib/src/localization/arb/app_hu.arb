@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Mindent megmutatni",
   "meterReadingsFilterComments": "Csak a megjegyzésekkel ellátott bejegyzések megjelenítése",
   "meterReadingsFilterSubmitted": "Csak a „{state}” megjelenítése",
+  "meterReplacementCreateNew": "Későbbi azonos típusú mérő létrehozása",
   "meterReplacementDescription": "Ez a mérő elavult, és már lecserélték egy új mérőre?",
   "monthEnd": "{month} vége",
   "myObjects": "A tárgyaim",

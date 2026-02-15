@@ -1503,6 +1503,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'Looge sama tüüpi järgmine arvesti';
+
+  @override
   String get meterReplacementDescription =>
       'Kas see arvesti on vananenud ja kas see on asendatud uue arvesti vastu?';
 

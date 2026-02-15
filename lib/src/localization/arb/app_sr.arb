@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Прикажи све",
   "meterReadingsFilterComments": "Прикажи само уносе са коментарима",
   "meterReadingsFilterSubmitted": "Прикажи само „ПХТОКЕН0“",
+  "meterReplacementCreateNew": "Креирајте следећи мерач истог типа",
   "meterReplacementDescription": "Да ли је овај мерач застарео и да ли је замењен новим мерачем?",
   "monthEnd": "Крај {month}",
   "myObjects": "Моји објекти",

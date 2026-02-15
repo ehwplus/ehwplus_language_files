@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Afficher tout",
   "meterReadingsFilterComments": "Afficher uniquement les entrées avec des commentaires",
   "meterReadingsFilterSubmitted": "Afficher uniquement les \"{state}\"",
+  "meterReplacementCreateNew": "Création d'un compteur ultérieur du même type",
   "meterReplacementDescription": "Ce compteur est-il obsolète et a-t-il été remplacé par un nouveau compteur ?",
   "monthEnd": "Fin du {month}",
   "myObjects": "Mes biens",

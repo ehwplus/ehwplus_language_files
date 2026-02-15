@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "အားလုံးကိုပြပါ",
   "meterReadingsFilterComments": "မှတ်ချက်များနှင့်သာ entries တွေကိုပြပါ",
   "meterReadingsFilterSubmitted": "\"Phtoken0\" ကိုသာပြပါ",
+  "meterReplacementCreateNew": "တူညီသောအမျိုးအစားရှိ နောက်ထပ် မီတာ ဖန်တီးပါ။",
   "meterReplacementDescription": "ဤမီတာဟောင်းသွားပြီလား၊ အသစ်တစ်ခုနဲ့ အစားထိုးပြီးပြီလား။",
   "monthEnd": "{month} ၏ အဆုံး",
   "myObjects": "ငါ့အရာဝတ်ထု",

@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Wys alles",
   "meterReadingsFilterComments": "Wys slegs inskrywings met kommentaar",
   "meterReadingsFilterSubmitted": "Wys slegs \"{state}\"",
+  "meterReplacementCreateNew": "Skep 'n daaropvolgende meter van dieselfde tipe",
   "meterReplacementDescription": "Is hierdie meter verouderd en is dit vervang deur 'n nuwe meter?",
   "monthEnd": "Einde van {month}",
   "myObjects": "My objekte",

@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Prikaži vse",
   "meterReadingsFilterComments": "Pokaži samo vnose s komentarji",
   "meterReadingsFilterSubmitted": "Prikaži samo \"{state}\"",
+  "meterReplacementCreateNew": "Ustvari naslednji števec iste vrste",
   "meterReplacementDescription": "Ali je ta števec zastarel in ali je bil zamenjan z novim?",
   "monthEnd": "Konec {month}",
   "myObjects": "Moji predmeti",

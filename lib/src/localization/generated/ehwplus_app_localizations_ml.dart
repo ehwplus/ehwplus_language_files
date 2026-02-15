@@ -1515,6 +1515,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'അതേ തരത്തിലുള്ള അടുത്ത മീറ്റർ ഉണ്ടാക്കുക';
+
+  @override
   String get meterReplacementDescription =>
       'ഈ മീറ്റർ കാലഹരണപ്പെട്ടോ, പുതിയൊരെണ്ണം സ്ഥാപിച്ചോ?';
 

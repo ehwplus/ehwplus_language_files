@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Pokaż wszystko",
   "meterReadingsFilterComments": "Pokaż tylko wpisy z komentarzami",
   "meterReadingsFilterSubmitted": "Pokaż tylko „{state}”",
+  "meterReplacementCreateNew": "Utwórz kolejny licznik tego samego typu",
   "meterReplacementDescription": "Czy ten licznik jest przestarzały i czy został wymieniony na nowy?",
   "monthEnd": "Koniec {month}",
   "myObjects": "Moje przedmioty",

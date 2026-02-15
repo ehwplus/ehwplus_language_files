@@ -402,6 +402,7 @@
   "meterReadingsFilterAll": "Prikaži sve",
   "meterReadingsFilterComments": "Prikaži samo unose sa komentarima",
   "meterReadingsFilterSubmitted": "Prikaži samo \"{state}\"",
+  "meterReplacementCreateNew": "Kreirajte sljedeći brojčanik iste vrste",
   "meterReplacementDescription": "Da li je ovaj brojilac zastario i da li je zamijenjen novim brojilom?",
   "monthEnd": "Kraj {month}",
   "myObjects": "Moji objekti",

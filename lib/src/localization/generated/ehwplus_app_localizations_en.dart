@@ -1503,6 +1503,10 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Create subsequent meter of same type';
+
+  @override
   String get meterReplacementDescription =>
       'Is this meter outdated and has it been replaced by a new meter?';
 

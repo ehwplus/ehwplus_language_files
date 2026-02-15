@@ -1502,6 +1502,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'ایجاد متر بعدی از همان نوع';
+
+  @override
   String get meterReplacementDescription =>
       'آیا این کنتور منسوخ شده و با کنتور جدید جایگزین شده است؟';
 

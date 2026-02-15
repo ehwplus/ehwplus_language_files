@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Alles tonen",
   "meterReadingsFilterComments": "Toon alleen vermeldingen met opmerkingen",
   "meterReadingsFilterSubmitted": "Toon alleen \"{state}\"",
+  "meterReplacementCreateNew": "Maak volgende meters van hetzelfde type",
   "meterReplacementDescription": "Is deze meter verouderd en is hij vervangen door een nieuwe meter?",
   "monthEnd": "Einde {month}",
   "myObjects": "Mijn objecten",

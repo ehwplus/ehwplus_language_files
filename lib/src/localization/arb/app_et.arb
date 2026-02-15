@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Näita kõiki",
   "meterReadingsFilterComments": "Näita ainult kommentaaridega kirjeid",
   "meterReadingsFilterSubmitted": "Näita ainult olekut \"{state}\"",
+  "meterReplacementCreateNew": "Looge sama tüüpi järgmine arvesti",
   "meterReplacementDescription": "Kas see arvesti on vananenud ja kas see on asendatud uue arvesti vastu?",
   "monthEnd": "{month} lõpp",
   "myObjects": "Minu objektid",

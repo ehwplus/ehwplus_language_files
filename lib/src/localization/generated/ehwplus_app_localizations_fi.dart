@@ -1507,6 +1507,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Luo seuraavat samantyyppiset mittarit';
+
+  @override
   String get meterReplacementDescription =>
       'Onko tämä mittari vanhentunut ja onko se korvattu uudella mittarilla?';
 

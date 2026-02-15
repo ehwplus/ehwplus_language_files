@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "すべて表示",
   "meterReadingsFilterComments": "コメントのあるエントリのみを表示",
   "meterReadingsFilterSubmitted": "「{state}」のみを表示",
+  "meterReplacementCreateNew": "同じタイプの後続メーターを作成する",
   "meterReplacementDescription": "このメーターは古く、新しいメーターに交換されましたか？",
   "monthEnd": "{month}の終わり",
   "myObjects": "私のオブジェクト",

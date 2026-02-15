@@ -1502,6 +1502,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'Tạo đồng hồ đo tiếp theo cùng loại';
+
+  @override
   String get meterReplacementDescription =>
       'Đồng hồ này đã cũ và được thay thế bằng đồng hồ mới?';
 

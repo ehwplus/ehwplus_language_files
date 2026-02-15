@@ -1509,6 +1509,10 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Stvorite sljedeći brojila istog tipa';
+
+  @override
   String get meterReplacementDescription =>
       'Je li ovaj brojilac zastario i je li zamijenjen novim brojilom?';
 

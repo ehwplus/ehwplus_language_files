@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "แสดงทั้งหมด",
   "meterReadingsFilterComments": "แสดงเฉพาะรายการที่มีความคิดเห็น",
   "meterReadingsFilterSubmitted": "แสดงเฉพาะ \"{state}\"",
+  "meterReplacementCreateNew": "สร้างมิเตอร์ถัดไปประเภทเดียวกัน",
   "meterReplacementDescription": "มิเตอร์นี้ล้าสมัยแล้วหรือยัง และได้มีการเปลี่ยนเป็นมิเตอร์ใหม่แล้วหรือไม่?",
   "monthEnd": "สิ้นสุด {month}",
   "myObjects": "วัตถุของฉัน",

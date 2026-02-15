@@ -1522,6 +1522,10 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Создайте последующий счетчик того же типа';
+
+  @override
   String get meterReplacementDescription =>
       'Устарел ли этот счетчик и был ли он заменен на новый?';
 

@@ -1507,6 +1507,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Sukurti vėlesnius to paties tipo skaitiklius';
+
+  @override
   String get meterReplacementDescription =>
       'Ar šis skaitiklis yra pasenęs ir ar jis buvo pakeistas nauju skaitikliu?';
 

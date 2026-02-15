@@ -1503,6 +1503,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Opret efterfølgende måler af samme type';
+
+  @override
   String get meterReplacementDescription =>
       'Er denne måler forældet, og er den blevet erstattet af en ny måler?';
 

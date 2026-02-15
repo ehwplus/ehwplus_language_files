@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Εμφάνιση όλων",
   "meterReadingsFilterComments": "Εμφάνιση μόνο καταχωρήσεων με σχόλια",
   "meterReadingsFilterSubmitted": "Εμφάνιση μόνο «{state}»",
+  "meterReplacementCreateNew": "Δημιουργία επόμενου μετρητή του ίδιου τύπου",
   "meterReplacementDescription": "Είναι αυτός ο μετρητής ξεπερασμένος και έχει αντικατασταθεί από νέο μετρητή;",
   "monthEnd": "Τέλος του {month}",
   "myObjects": "Τα αντικείμενά μου",

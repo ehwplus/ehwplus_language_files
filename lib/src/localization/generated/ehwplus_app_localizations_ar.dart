@@ -1496,6 +1496,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'إنشاء عداد لاحق من نفس النوع';
+
+  @override
   String get meterReplacementDescription =>
       'هل هذا العداد قديم وهل تم استبداله بعداد جديد؟';
 

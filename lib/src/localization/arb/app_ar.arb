@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "عرض الكل",
   "meterReadingsFilterComments": "عرض الإدخالات مع التعليقات فقط",
   "meterReadingsFilterSubmitted": "عرض \"{state}\" فقط",
+  "meterReplacementCreateNew": "إنشاء عداد لاحق من نفس النوع",
   "meterReplacementDescription": "هل هذا العداد قديم وهل تم استبداله بعداد جديد؟",
   "monthEnd": "نهاية {month}",
   "myObjects": "كائناتي",

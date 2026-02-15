@@ -1503,6 +1503,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Tengeneza mita inayofuata ya aina ile ile';
+
+  @override
   String get meterReplacementDescription =>
       'Je, mita hii imepitwa na wakati na imebadilishwa na mita mpya?';
 

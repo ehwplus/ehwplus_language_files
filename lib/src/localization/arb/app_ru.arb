@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Показать все",
   "meterReadingsFilterComments": "Только записи с комментариями",
   "meterReadingsFilterSubmitted": "Только \"{state}\"",
+  "meterReplacementCreateNew": "Создайте последующий счетчик того же типа",
   "meterReplacementDescription": "Устарел ли этот счетчик и был ли он заменен на новый?",
   "monthEnd": "Конец {month}",
   "myObjects": "Мои предметы",

@@ -402,6 +402,7 @@
   "meterReadingsFilterAll": "Показати все",
   "meterReadingsFilterComments": "Показати лише записи з коментарями",
   "meterReadingsFilterSubmitted": "Показати лише \"{state}\"",
+  "meterReplacementCreateNew": "Створіть наступний лічильник того ж типу",
   "meterReplacementDescription": "Чи застарів цей лічильник і чи був він замінений на новий?",
   "monthEnd": "Кінець {month}",
   "myObjects": "Мої об'єкти",

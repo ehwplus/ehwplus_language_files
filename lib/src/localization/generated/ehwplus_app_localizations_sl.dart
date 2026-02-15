@@ -1503,6 +1503,9 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'Ustvari naslednji števec iste vrste';
+
+  @override
   String get meterReplacementDescription =>
       'Ali je ta števec zastarel in ali je bil zamenjan z novim?';
 

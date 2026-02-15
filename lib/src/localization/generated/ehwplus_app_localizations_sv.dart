@@ -1503,6 +1503,10 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Skapa efterföljande mätare av samma typ';
+
+  @override
   String get meterReplacementDescription =>
       'Är denna mätare föråldrad och har den ersatts av en ny mätare?';
 

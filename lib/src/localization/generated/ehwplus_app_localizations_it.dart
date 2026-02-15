@@ -1510,6 +1510,10 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Creare contatori successivi dello stesso tipo';
+
+  @override
   String get meterReplacementDescription =>
       'Il contatore è obsoleto ed è stato sostituito da un nuovo contatore?';
 

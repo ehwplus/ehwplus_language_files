@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "显示全部",
   "meterReadingsFilterComments": "仅显示带有评论的条目",
   "meterReadingsFilterSubmitted": "仅显示“{state}”",
+  "meterReplacementCreateNew": "创建同一类型的后续仪表",
   "meterReplacementDescription": "这台仪表是否已经过时，是否已被新仪表取代？",
   "monthEnd": "{month}月末",
   "myObjects": "我的对象",

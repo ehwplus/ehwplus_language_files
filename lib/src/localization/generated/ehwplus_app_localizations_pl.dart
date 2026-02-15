@@ -1513,6 +1513,10 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Utwórz kolejny licznik tego samego typu';
+
+  @override
   String get meterReplacementDescription =>
       'Czy ten licznik jest przestarzały i czy został wymieniony na nowy?';
 

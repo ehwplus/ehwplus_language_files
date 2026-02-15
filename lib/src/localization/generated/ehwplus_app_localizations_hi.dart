@@ -1505,6 +1505,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'एक ही प्रकार का अगला मीटर बनाएँ';
+
+  @override
   String get meterReplacementDescription =>
       'क्या यह मीटर अप्रचलित हो गया है और इसे नए मीटर से बदल दिया गया है?';
 

@@ -1506,6 +1506,10 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Criar contador subsequente do mesmo tipo';
+
+  @override
   String get meterReplacementDescription =>
       'Este contador está desatualizado e foi substituído por um novo?';
 

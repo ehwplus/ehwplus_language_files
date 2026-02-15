@@ -1508,6 +1508,10 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Kreirajte sljedeći brojčanik iste vrste';
+
+  @override
   String get meterReplacementDescription =>
       'Da li je ovaj brojilac zastario i da li je zamijenjen novim brojilom?';
 

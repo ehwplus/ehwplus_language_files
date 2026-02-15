@@ -1511,6 +1511,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => 'Folgezähler gleichen Typs anlegen';
+
+  @override
   String get meterReplacementDescription =>
       'Ist dieser Zähler veraltet und wurde durch einen neuen Zähler ersetzt?';
 

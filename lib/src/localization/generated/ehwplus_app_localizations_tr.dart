@@ -1509,6 +1509,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Aynı türde sonraki sayaçları oluşturun';
+
+  @override
   String get meterReplacementDescription =>
       'Bu sayaç eski mi ve yeni bir sayaçla değiştirildi mi?';
 

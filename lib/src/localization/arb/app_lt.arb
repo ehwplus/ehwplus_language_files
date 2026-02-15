@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Rodyti viską",
   "meterReadingsFilterComments": "Rodyti tik įrašus su komentarais",
   "meterReadingsFilterSubmitted": "Rodyti tik „{state}“",
+  "meterReplacementCreateNew": "Sukurti vėlesnius to paties tipo skaitiklius",
   "meterReplacementDescription": "Ar šis skaitiklis yra pasenęs ir ar jis buvo pakeistas nauju skaitikliu?",
   "monthEnd": "{month} pabaiga",
   "myObjects": "Mano objektai",

@@ -2654,6 +2654,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Show only \"{state}\"'**
   String meterReadingsFilterSubmitted(String state);
 
+  /// No description provided for @meterReplacementCreateNew.
+  ///
+  /// In en, this message translates to:
+  /// **'Create subsequent meter of same type'**
+  String get meterReplacementCreateNew;
+
   /// No description provided for @meterReplacementDescription.
   ///
   /// In en, this message translates to:

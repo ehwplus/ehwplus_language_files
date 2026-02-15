@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Mostrar todo",
   "meterReadingsFilterComments": "Mostrar solo entradas con comentarios",
   "meterReadingsFilterSubmitted": "Mostrar solo \"{state}\"",
+  "meterReplacementCreateNew": "Crear un contador posterior del mismo tipo",
   "meterReplacementDescription": "¿Este contador está anticuado y ha sido sustituido por uno nuevo?",
   "monthEnd": "Fin de {month}",
   "myObjects": "Mis objetos",

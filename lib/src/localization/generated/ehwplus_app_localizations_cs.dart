@@ -1506,6 +1506,10 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Vytvoření následného měřidla stejného typu';
+
+  @override
   String get meterReplacementDescription =>
       'Je tento měřič zastaralý a byl nahrazen novým?';
 

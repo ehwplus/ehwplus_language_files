@@ -1463,6 +1463,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => '同じタイプの後続メーターを作成する';
+
+  @override
   String get meterReplacementDescription => 'このメーターは古く、新しいメーターに交換されましたか？';
 
   @override

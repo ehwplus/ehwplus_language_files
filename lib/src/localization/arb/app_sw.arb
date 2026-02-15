@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Onyesha yote",
   "meterReadingsFilterComments": "Onyesha maingizo tu na maoni",
   "meterReadingsFilterSubmitted": "Onyesha tu \"phtoken0\"",
+  "meterReplacementCreateNew": "Tengeneza mita inayofuata ya aina ile ile",
   "meterReplacementDescription": "Je, mita hii imepitwa na wakati na imebadilishwa na mita mpya?",
   "monthEnd": "Mwisho wa {month}",
   "myObjects": "Vitu vyangu",

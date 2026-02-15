@@ -1515,6 +1515,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'တူညီသောအမျိုးအစားရှိ နောက်ထပ် မီတာ ဖန်တီးပါ။';
+
+  @override
   String get meterReplacementDescription =>
       'ဤမီတာဟောင်းသွားပြီလား၊ အသစ်တစ်ခုနဲ့ အစားထိုးပြီးပြီလား။';
 

@@ -1452,6 +1452,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => '创建同一类型的后续仪表';
+
+  @override
   String get meterReplacementDescription => '这台仪表是否已经过时，是否已被新仪表取代？';
 
   @override

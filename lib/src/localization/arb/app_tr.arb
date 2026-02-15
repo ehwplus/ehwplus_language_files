@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Tümünü göster",
   "meterReadingsFilterComments": "Yalnızca yorum içeren girişleri göster",
   "meterReadingsFilterSubmitted": "Yalnızca \"{state}\"ı göster",
+  "meterReplacementCreateNew": "Aynı türde sonraki sayaçları oluşturun",
   "meterReplacementDescription": "Bu sayaç eski mi ve yeni bir sayaçla değiştirildi mi?",
   "monthEnd": "Ay {month}",
   "myObjects": "Nesnelerim",

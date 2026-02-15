@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Visa alla",
   "meterReadingsFilterComments": "Visa endast poster med kommentarer",
   "meterReadingsFilterSubmitted": "Visa endast \"{state}\"",
+  "meterReplacementCreateNew": "Skapa efterföljande mätare av samma typ",
   "meterReplacementDescription": "Är denna mätare föråldrad och har den ersatts av en ny mätare?",
   "monthEnd": "Slutet av {month}",
   "myObjects": "Mina föremål",

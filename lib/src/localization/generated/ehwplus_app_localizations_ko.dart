@@ -1461,6 +1461,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew => '동일한 유형의 후속 미터 생성';
+
+  @override
   String get meterReplacementDescription => '이 계량기가 오래되어 새 계량기로 교체했나요?';
 
   @override

@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "Vis alle",
   "meterReadingsFilterComments": "Vis kun oppføringer med kommentarer",
   "meterReadingsFilterSubmitted": "Vis bare «{state}»",
+  "meterReplacementCreateNew": "Opprett påfølgende måler av samme type",
   "meterReplacementDescription": "Er denne måleren utdatert, og har den blitt erstattet av en ny måler?",
   "monthEnd": "Slutten av {month}",
   "myObjects": "Mine gjenstander",

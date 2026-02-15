@@ -1511,6 +1511,10 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Створіть наступний лічильник того ж типу';
+
+  @override
   String get meterReplacementDescription =>
       'Чи застарів цей лічильник і чи був він замінений на новий?';
 

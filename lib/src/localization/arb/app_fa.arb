@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "نمایش همه",
   "meterReadingsFilterComments": "فقط ورودی های دارای نظر نمایش داده شود",
   "meterReadingsFilterSubmitted": "نمایش فقط \"{state}\"",
+  "meterReplacementCreateNew": "ایجاد متر بعدی از همان نوع",
   "meterReplacementDescription": "آیا این کنتور منسوخ شده و با کنتور جدید جایگزین شده است؟",
   "monthEnd": "پایان {month}",
   "myObjects": "اشیای من",

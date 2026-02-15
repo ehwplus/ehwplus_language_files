@@ -402,6 +402,7 @@
   "meterReadingsFilterAll": "Hiển thị tất cả",
   "meterReadingsFilterComments": "Chỉ hiển thị các mục có nhận xét",
   "meterReadingsFilterSubmitted": "Chỉ hiển thị \"{state}\"",
+  "meterReplacementCreateNew": "Tạo đồng hồ đo tiếp theo cùng loại",
   "meterReplacementDescription": "Đồng hồ này đã cũ và được thay thế bằng đồng hồ mới?",
   "monthEnd": "Cuối tháng {month}",
   "myObjects": "Đồ vật của tôi",

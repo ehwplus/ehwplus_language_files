@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "모두 표시",
   "meterReadingsFilterComments": "메모가 있는 항목만 표시",
   "meterReadingsFilterSubmitted": "\"{state}\"만 표시",
+  "meterReplacementCreateNew": "동일한 유형의 후속 미터 생성",
   "meterReplacementDescription": "이 계량기가 오래되어 새 계량기로 교체했나요?",
   "monthEnd": "{month} 끝",
   "myObjects": "내 객체",

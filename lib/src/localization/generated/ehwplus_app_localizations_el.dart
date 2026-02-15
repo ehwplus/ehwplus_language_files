@@ -1520,6 +1520,10 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Δημιουργία επόμενου μετρητή του ίδιου τύπου';
+
+  @override
   String get meterReplacementDescription =>
       'Είναι αυτός ο μετρητής ξεπερασμένος και έχει αντικατασταθεί από νέο μετρητή;';
 

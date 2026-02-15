@@ -401,6 +401,7 @@
   "meterReadingsFilterAll": "എല്ലാം കാണിക്കുക",
   "meterReadingsFilterComments": "അഭിപ്രായങ്ങളുള്ള എൻട്രികൾ മാത്രം കാണിക്കുക",
   "meterReadingsFilterSubmitted": "\"{state}\" മാത്രം കാണിക്കുക",
+  "meterReplacementCreateNew": "അതേ തരത്തിലുള്ള അടുത്ത മീറ്റർ ഉണ്ടാക്കുക",
   "meterReplacementDescription": "ഈ മീറ്റർ കാലഹരണപ്പെട്ടോ, പുതിയൊരെണ്ണം സ്ഥാപിച്ചോ?",
   "monthEnd": "{month} അവസാനം",
   "myObjects": "എന്റെ ഒബ്‌ജക്റ്റുകൾ",

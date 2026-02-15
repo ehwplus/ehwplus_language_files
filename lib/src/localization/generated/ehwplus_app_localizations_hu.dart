@@ -1512,6 +1512,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
+  String get meterReplacementCreateNew =>
+      'Későbbi azonos típusú mérő létrehozása';
+
+  @override
   String get meterReplacementDescription =>
       'Ez a mérő elavult, és már lecserélték egy új mérőre?';
 
