@@ -2991,6 +2991,9 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get timeWeeks => 'uker';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'uke';
+
+  @override
   String timeWithin(String duration) {
     return 'Innenfor $duration';
   }

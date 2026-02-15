@@ -803,6 +803,7 @@
   "timeWednesday": "sreda",
   "timeWeek": "teden",
   "timeWeeks": "tedne",
+  "timeCalendarWeekAbbreviation": "ted.",
   "timeWithin": "Znotraj {duration}",
   "timeYesterday": "včeraj",
   "unitCm": "cm",

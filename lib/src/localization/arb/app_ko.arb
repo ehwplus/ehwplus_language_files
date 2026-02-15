@@ -803,6 +803,7 @@
   "timeWednesday": "수요일",
   "timeWeek": "주",
   "timeWeeks": "주",
+  "timeCalendarWeekAbbreviation": "주",
   "timeWithin": "{duration} 이내",
   "timeYesterday": "어제",
   "unitCm": "cm",

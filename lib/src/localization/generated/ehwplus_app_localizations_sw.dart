@@ -3000,6 +3000,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get timeWeeks => 'wiki';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'wk';
+
+  @override
   String timeWithin(String duration) {
     return 'Ndani ya phtoken0';
   }

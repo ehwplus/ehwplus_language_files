@@ -803,6 +803,7 @@
   "timeWednesday": "onsdag",
   "timeWeek": "vecka",
   "timeWeeks": "veckor",
+  "timeCalendarWeekAbbreviation": "v.",
   "timeWithin": "Inom {duration}",
   "timeYesterday": "i går",
   "unitCm": "cm",

@@ -2999,6 +2999,9 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get timeWeeks => 'veckor';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'v.';
+
+  @override
   String timeWithin(String duration) {
     return 'Inom $duration';
   }

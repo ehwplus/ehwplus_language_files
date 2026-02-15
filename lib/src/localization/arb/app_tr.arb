@@ -803,6 +803,7 @@
   "timeWednesday": "Çarşamba",
   "timeWeek": "hafta",
   "timeWeeks": "haftalar",
+  "timeCalendarWeekAbbreviation": "hf.",
   "timeWithin": "{duration} içinde",
   "timeYesterday": "Dün",
   "unitCm": "santimetre",

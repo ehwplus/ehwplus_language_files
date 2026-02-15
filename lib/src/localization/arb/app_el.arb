@@ -803,6 +803,7 @@
   "timeWednesday": "Τετάρτη",
   "timeWeek": "εβδομάδα",
   "timeWeeks": "εβδομάδες",
+  "timeCalendarWeekAbbreviation": "εβδ.",
   "timeWithin": "{duration}",
   "timeYesterday": "χθες",
   "unitCm": "cm",

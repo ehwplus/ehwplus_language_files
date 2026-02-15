@@ -803,6 +803,7 @@
   "timeWednesday": "kolmapäev",
   "timeWeek": "nädal",
   "timeWeeks": "nädalat",
+  "timeCalendarWeekAbbreviation": "näd.",
   "timeWithin": "{duration} jooksul",
   "timeYesterday": "eile",
   "unitCm": "cm",

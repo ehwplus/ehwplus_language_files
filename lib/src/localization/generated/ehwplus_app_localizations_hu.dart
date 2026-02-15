@@ -3015,6 +3015,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get timeWeeks => 'hetek';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'hét';
+
+  @override
   String timeWithin(String duration) {
     return '$duration';
   }

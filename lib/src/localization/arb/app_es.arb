@@ -803,6 +803,7 @@
   "timeWednesday": "Miércoles",
   "timeWeek": "Semana",
   "timeWeeks": "Semanas",
+  "timeCalendarWeekAbbreviation": "sem.",
   "timeWithin": "Dentro de {duration}",
   "timeYesterday": "ayer",
   "unitCm": "cm",

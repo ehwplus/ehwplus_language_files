@@ -3006,6 +3006,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get timeWeeks => 'သီတင်း';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'ပတ်';
+
+  @override
   String timeWithin(String duration) {
     return 'Phtoken0 အတွင်း';
   }

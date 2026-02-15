@@ -804,6 +804,7 @@
   "timeWednesday": "středa",
   "timeWeek": "týden",
   "timeWeeks": "týdnů",
+  "timeCalendarWeekAbbreviation": "týd.",
   "timeWithin": "V rámci {duration}",
   "timeYesterday": "včera",
   "unitCm": "cm",

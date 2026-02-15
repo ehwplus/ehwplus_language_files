@@ -5089,6 +5089,12 @@ abstract class EhwplusAppLocalizations {
   /// **'weeks'**
   String get timeWeeks;
 
+  /// No description provided for @timeCalendarWeekAbbreviation.
+  ///
+  /// In en, this message translates to:
+  /// **'wk'**
+  String get timeCalendarWeekAbbreviation;
+
   /// No description provided for @timeWithin.
   ///
   /// In en, this message translates to:

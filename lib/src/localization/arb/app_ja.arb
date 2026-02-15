@@ -803,6 +803,7 @@
   "timeWednesday": "水曜日",
   "timeWeek": "週",
   "timeWeeks": "週",
+  "timeCalendarWeekAbbreviation": "週",
   "timeWithin": " {duration}以内",
   "timeYesterday": "昨日",
   "unitCm": "cm",

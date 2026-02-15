@@ -803,6 +803,7 @@
   "timeWednesday": "onsdag",
   "timeWeek": "uge",
   "timeWeeks": "uger",
+  "timeCalendarWeekAbbreviation": "uge",
   "timeWithin": "Inden for {duration}",
   "timeYesterday": "i går",
   "unitCm": "cm",

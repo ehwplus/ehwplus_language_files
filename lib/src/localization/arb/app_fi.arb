@@ -803,6 +803,7 @@
   "timeWednesday": "keskiviikko",
   "timeWeek": "viikko",
   "timeWeeks": "viikkoa",
+  "timeCalendarWeekAbbreviation": "vk",
   "timeWithin": "{duration} sisällä",
   "timeYesterday": "eilen",
   "unitCm": "cm",

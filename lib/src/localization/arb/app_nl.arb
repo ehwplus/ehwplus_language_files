@@ -803,6 +803,7 @@
   "timeWednesday": "woensdag",
   "timeWeek": "week",
   "timeWeeks": "weken",
+  "timeCalendarWeekAbbreviation": "wk",
   "timeWithin": "Binnen {duration}",
   "timeYesterday": "gisteren",
   "unitCm": "cm",

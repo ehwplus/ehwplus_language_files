@@ -2997,6 +2997,9 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get timeWeeks => 'weeks';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'wk';
+
+  @override
   String timeWithin(String duration) {
     return 'Within $duration';
   }

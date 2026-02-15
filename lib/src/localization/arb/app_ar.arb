@@ -803,6 +803,7 @@
   "timeWednesday": "الأربعاء",
   "timeWeek": "أسبوع",
   "timeWeeks": "أسابيع",
+  "timeCalendarWeekAbbreviation": "أسب.",
   "timeWithin": "خلال {duration}",
   "timeYesterday": "أمس",
   "unitCm": "سم",

@@ -803,6 +803,7 @@
   "timeWednesday": "Srijeda",
   "timeWeek": "tjedan",
   "timeWeeks": "tjedna",
+  "timeCalendarWeekAbbreviation": "tj.",
   "timeWithin": "Unutar {duration}",
   "timeYesterday": "jučer",
   "unitCm": "cm",

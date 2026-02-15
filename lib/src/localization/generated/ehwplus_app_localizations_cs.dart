@@ -2997,6 +2997,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get timeWeeks => 'týdnů';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'týd.';
+
+  @override
   String timeWithin(String duration) {
     return 'V rámci $duration';
   }

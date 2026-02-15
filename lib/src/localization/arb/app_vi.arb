@@ -804,6 +804,7 @@
   "timeWednesday": "Thứ Tư",
   "timeWeek": "tuần",
   "timeWeeks": "tuần",
+  "timeCalendarWeekAbbreviation": "tuần",
   "timeWithin": "Trong {duration}",
   "timeYesterday": "Hôm qua",
   "unitCm": "cmt",

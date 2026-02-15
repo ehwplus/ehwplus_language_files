@@ -3003,6 +3003,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get timeWeeks => 'viikkoa';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'vk';
+
+  @override
   String timeWithin(String duration) {
     return '$duration sisällä';
   }

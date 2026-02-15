@@ -2993,6 +2993,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get timeWeeks => 'هفته‌ها';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'هف.';
+
+  @override
   String timeWithin(String duration) {
     return 'در مدت $duration';
   }

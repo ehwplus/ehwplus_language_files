@@ -804,6 +804,7 @@
   "timeWednesday": "srijeda",
   "timeWeek": "sedmica",
   "timeWeeks": "sedmice",
+  "timeCalendarWeekAbbreviation": "sed.",
   "timeWithin": "Unutar {duration}",
   "timeYesterday": "juče",
   "unitCm": "cm",

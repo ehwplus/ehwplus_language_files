@@ -803,6 +803,7 @@
   "timeWednesday": "Сряда",
   "timeWeek": "седмица",
   "timeWeeks": "седмици",
+  "timeCalendarWeekAbbreviation": "седм.",
   "timeWithin": "В рамките на {duration}",
   "timeYesterday": "вчера",
   "unitCm": "см",

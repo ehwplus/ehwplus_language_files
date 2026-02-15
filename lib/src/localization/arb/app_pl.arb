@@ -803,6 +803,7 @@
   "timeWednesday": "Środa",
   "timeWeek": "tydzień",
   "timeWeeks": "tygodnie",
+  "timeCalendarWeekAbbreviation": "tydz.",
   "timeWithin": "W ramach programu „{duration}”",
   "timeYesterday": "wczoraj",
   "unitCm": "cm",

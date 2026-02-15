@@ -803,6 +803,7 @@
   "timeWednesday": "چهارشنبه",
   "timeWeek": "هفته",
   "timeWeeks": "هفته‌ها",
+  "timeCalendarWeekAbbreviation": "هف.",
   "timeWithin": "در مدت {duration}",
   "timeYesterday": "دیروز",
   "unitCm": "سانتی‌متر",

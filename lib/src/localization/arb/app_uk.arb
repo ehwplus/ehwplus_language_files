@@ -804,6 +804,7 @@
   "timeWednesday": "Середа",
   "timeWeek": "тиждень",
   "timeWeeks": "тижнів",
+  "timeCalendarWeekAbbreviation": "тиж.",
   "timeWithin": "У межах {duration}",
   "timeYesterday": "вчора",
   "unitCm": "см",

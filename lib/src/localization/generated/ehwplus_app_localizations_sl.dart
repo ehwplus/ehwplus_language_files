@@ -2999,6 +2999,9 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get timeWeeks => 'tedne';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'ted.';
+
+  @override
   String timeWithin(String duration) {
     return 'Znotraj $duration';
   }

@@ -803,6 +803,7 @@
   "timeWednesday": "बुधवार",
   "timeWeek": "सप्ताह",
   "timeWeeks": "हफ्तों",
+  "timeCalendarWeekAbbreviation": "सप्.",
   "timeWithin": "{duration} के भीतर",
   "timeYesterday": "कल",
   "unitCm": "सेमी",

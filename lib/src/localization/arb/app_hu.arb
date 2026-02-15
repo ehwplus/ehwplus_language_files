@@ -803,6 +803,7 @@
   "timeWednesday": "Szerda",
   "timeWeek": "hét",
   "timeWeeks": "hetek",
+  "timeCalendarWeekAbbreviation": "hét",
   "timeWithin": "{duration}",
   "timeYesterday": "tegnap",
   "unitCm": "cm",

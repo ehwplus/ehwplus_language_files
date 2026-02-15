@@ -803,6 +803,7 @@
   "timeWednesday": "trečiadienis",
   "timeWeek": "savaitę",
   "timeWeeks": "savaites",
+  "timeCalendarWeekAbbreviation": "sav.",
   "timeWithin": "{duration} viduje",
   "timeYesterday": "vakar",
   "unitCm": "cm",

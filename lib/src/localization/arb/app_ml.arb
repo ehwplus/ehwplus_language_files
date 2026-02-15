@@ -803,6 +803,7 @@
   "timeWednesday": "ബുധനാഴ്ച",
   "timeWeek": "ആഴ്ച",
   "timeWeeks": "ആഴ്ചകൾ",
+  "timeCalendarWeekAbbreviation": "ആഴ്.",
   "timeWithin": "{duration}-നുള്ളിൽ",
   "timeYesterday": "ഇന്നലെ",
   "unitCm": "cm",

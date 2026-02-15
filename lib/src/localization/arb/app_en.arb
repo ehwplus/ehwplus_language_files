@@ -1266,6 +1266,7 @@
   "timeWednesday": "Wednesday",
   "timeWeek": "week",
   "timeWeeks": "weeks",
+  "timeCalendarWeekAbbreviation": "wk",
   "timeWithin": "Within {duration}",
   "@timeWithin": {
     "placeholders": {

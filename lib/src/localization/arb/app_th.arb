@@ -803,6 +803,7 @@
   "timeWednesday": "วันพุธ",
   "timeWeek": "สัปดาห์",
   "timeWeeks": "สัปดาห์",
+  "timeCalendarWeekAbbreviation": "สัปด.",
   "timeWithin": "ภายใน {duration}",
   "timeYesterday": "เมื่อวาน",
   "unitCm": "ซม",
