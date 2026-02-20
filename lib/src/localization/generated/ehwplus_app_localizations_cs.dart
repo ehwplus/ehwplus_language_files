@@ -2163,7 +2163,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Obytná plocha';
 
   @override
-  String get settingObjectLocation => 'Umístění';
+  String get settingObjectLocation => 'Podrobnosti o objektu';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2880,6 +2880,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get timeBefore => 'Před';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'týd.';
+
+  @override
   String get timeDayAgo => 'před jedním dnem';
 
   @override
@@ -2995,9 +2998,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'týdnů';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'týd.';
 
   @override
   String timeWithin(String duration) {

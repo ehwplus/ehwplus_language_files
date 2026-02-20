@@ -2165,7 +2165,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get settingLivingArea => 'लिविंग एरिया';
 
   @override
-  String get settingObjectLocation => 'जगह';
+  String get settingObjectLocation => 'संपत्ति का विवरण';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2878,6 +2878,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get timeBefore => 'पहले';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'सप्.';
+
+  @override
   String get timeDayAgo => 'एक दिन पहले';
 
   @override
@@ -2993,9 +2996,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'हफ्तों';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'सप्.';
 
   @override
   String timeWithin(String duration) {

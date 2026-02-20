@@ -2089,7 +2089,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get settingLivingArea => '生活区';
 
   @override
-  String get settingObjectLocation => '地点';
+  String get settingObjectLocation => '对象详情';
 
   @override
   String get settingObjectLocationExplanation => '输入位置有助于为您所在的区域定制见解和服务。';
@@ -2755,6 +2755,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get timeBefore => '前';
 
   @override
+  String get timeCalendarWeekAbbreviation => '周';
+
+  @override
   String get timeDayAgo => '一天前';
 
   @override
@@ -2870,9 +2873,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => '周';
-
-  @override
-  String get timeCalendarWeekAbbreviation => '周';
 
   @override
   String timeWithin(String duration) {

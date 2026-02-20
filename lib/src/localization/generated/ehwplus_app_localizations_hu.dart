@@ -2174,7 +2174,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Nappali';
 
   @override
-  String get settingObjectLocation => 'Helyszín';
+  String get settingObjectLocation => 'Objektum részletei';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2898,6 +2898,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get timeBefore => 'A  előtt';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'hét';
+
+  @override
   String get timeDayAgo => 'egy nappal ezelőtt';
 
   @override
@@ -3013,9 +3016,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'hetek';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'hét';
 
   @override
   String timeWithin(String duration) {

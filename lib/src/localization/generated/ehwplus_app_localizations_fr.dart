@@ -2187,7 +2187,7 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Surface habitable';
 
   @override
-  String get settingObjectLocation => 'Lieu';
+  String get settingObjectLocation => 'Détails de l\'objet';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2908,6 +2908,9 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get timeBefore => 'Avant';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'sem.';
+
+  @override
   String get timeDayAgo => 'un jour';
 
   @override
@@ -3023,9 +3026,6 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'semaines';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'sem.';
 
   @override
   String timeWithin(String duration) {

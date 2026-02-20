@@ -949,7 +949,7 @@
   "settingHouseholdSizeDescription": "Number of people in your household.",
   "settingLanguageMode": "Language",
   "settingLivingArea": "Living area",
-  "settingObjectLocation": "Location",
+  "settingObjectLocation": "Object details",
   "settingObjectLocationExplanation": "Entering the location helps tailor insights and services to your area.",
   "settingObjectLocationTitle": "Where is your object located?",
   "settingObjectType": "Object type",
@@ -1189,6 +1189,7 @@
   "tibberSubscriptionStatusLoading": "loading...",
   "tibberWhereIsMyAccessToken": "Where can I find my \"access token\"?",
   "timeBefore": "Before",
+  "timeCalendarWeekAbbreviation": "wk",
   "timeDayAgo": "one day ago",
   "timeDays": "days",
   "timeDaysAgo": "{days} days ago",
@@ -1266,7 +1267,6 @@
   "timeWednesday": "Wednesday",
   "timeWeek": "week",
   "timeWeeks": "weeks",
-  "timeCalendarWeekAbbreviation": "wk",
   "timeWithin": "Within {duration}",
   "@timeWithin": {
     "placeholders": {

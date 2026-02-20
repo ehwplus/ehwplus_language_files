@@ -2162,7 +2162,7 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Opholdsstue';
 
   @override
-  String get settingObjectLocation => 'Beliggenhed';
+  String get settingObjectLocation => 'Detaljer om objektet';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2875,6 +2875,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get timeBefore => 'Før';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'uge';
+
+  @override
   String get timeDayAgo => 'en dag siden';
 
   @override
@@ -2990,9 +2993,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'uger';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'uge';
 
   @override
   String timeWithin(String duration) {

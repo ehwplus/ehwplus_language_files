@@ -2161,7 +2161,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Khu sinh hoạt';
 
   @override
-  String get settingObjectLocation => 'Vị trí';
+  String get settingObjectLocation => 'Chi tiết đối tượng';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2878,6 +2878,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get timeBefore => 'Trước';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'tuần';
+
+  @override
   String get timeDayAgo => 'một ngày trước';
 
   @override
@@ -2993,9 +2996,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'tuần';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'tuần';
 
   @override
   String timeWithin(String duration) {

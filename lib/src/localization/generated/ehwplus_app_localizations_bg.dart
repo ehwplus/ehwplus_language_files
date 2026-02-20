@@ -2183,7 +2183,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Жило площ';
 
   @override
-  String get settingObjectLocation => 'Местоположение';
+  String get settingObjectLocation => 'Подробности за обекта';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2902,6 +2902,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get timeBefore => 'Преди';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'седм.';
+
+  @override
   String get timeDayAgo => 'преди един ден';
 
   @override
@@ -3017,9 +3020,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'седмици';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'седм.';
 
   @override
   String timeWithin(String duration) {

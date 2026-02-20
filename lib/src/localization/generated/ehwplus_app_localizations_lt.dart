@@ -2168,7 +2168,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Gyvenamasis plotas';
 
   @override
-  String get settingObjectLocation => 'Vieta';
+  String get settingObjectLocation => 'Objekto informacija';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2885,6 +2885,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get timeBefore => 'Prieš';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'sav.';
+
+  @override
   String get timeDayAgo => 'prieš vieną dieną';
 
   @override
@@ -3000,9 +3003,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'savaites';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'sav.';
 
   @override
   String timeWithin(String duration) {

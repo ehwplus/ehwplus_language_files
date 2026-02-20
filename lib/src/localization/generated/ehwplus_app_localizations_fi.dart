@@ -2174,7 +2174,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Asuinalue';
 
   @override
-  String get settingObjectLocation => 'Sijainti';
+  String get settingObjectLocation => 'Kohteen tiedot';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2886,6 +2886,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get timeBefore => 'Ennen';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'vk';
+
+  @override
   String get timeDayAgo => 'yksi päivä sitten';
 
   @override
@@ -3001,9 +3004,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'viikkoa';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'vk';
 
   @override
   String timeWithin(String duration) {

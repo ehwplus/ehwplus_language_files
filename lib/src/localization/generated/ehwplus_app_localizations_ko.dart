@@ -2105,7 +2105,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get settingLivingArea => '거주 면적';
 
   @override
-  String get settingObjectLocation => '위치';
+  String get settingObjectLocation => '개체 세부 정보';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2782,6 +2782,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get timeBefore => '이전';
 
   @override
+  String get timeCalendarWeekAbbreviation => '주';
+
+  @override
   String get timeDayAgo => '하루 전';
 
   @override
@@ -2897,9 +2900,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => '주';
-
-  @override
-  String get timeCalendarWeekAbbreviation => '주';
 
   @override
   String timeWithin(String duration) {

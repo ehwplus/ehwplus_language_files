@@ -2163,7 +2163,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Eneo la kuishi';
 
   @override
-  String get settingObjectLocation => 'Mahali';
+  String get settingObjectLocation => 'Maelezo ya mali';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2883,6 +2883,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get timeBefore => 'Kabla';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'wk';
+
+  @override
   String get timeDayAgo => 'siku moja iliyopita';
 
   @override
@@ -2998,9 +3001,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'wiki';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'wk';
 
   @override
   String timeWithin(String duration) {

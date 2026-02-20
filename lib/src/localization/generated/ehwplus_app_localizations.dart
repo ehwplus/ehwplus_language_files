@@ -3699,7 +3699,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @settingObjectLocation.
   ///
   /// In en, this message translates to:
-  /// **'Location'**
+  /// **'Object details'**
   String get settingObjectLocation;
 
   /// No description provided for @settingObjectLocationExplanation.
@@ -4879,6 +4879,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Before'**
   String get timeBefore;
 
+  /// No description provided for @timeCalendarWeekAbbreviation.
+  ///
+  /// In en, this message translates to:
+  /// **'wk'**
+  String get timeCalendarWeekAbbreviation;
+
   /// No description provided for @timeDayAgo.
   ///
   /// In en, this message translates to:
@@ -5088,12 +5094,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'weeks'**
   String get timeWeeks;
-
-  /// No description provided for @timeCalendarWeekAbbreviation.
-  ///
-  /// In en, this message translates to:
-  /// **'wk'**
-  String get timeCalendarWeekAbbreviation;
 
   /// No description provided for @timeWithin.
   ///

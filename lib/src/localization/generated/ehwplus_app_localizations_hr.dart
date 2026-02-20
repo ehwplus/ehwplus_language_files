@@ -2173,7 +2173,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Dnevni boravak';
 
   @override
-  String get settingObjectLocation => 'Mjesto';
+  String get settingObjectLocation => 'Detalji nekretnine';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2889,6 +2889,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get timeBefore => 'Prije';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'tj.';
+
+  @override
   String get timeDayAgo => 'prije jednog dana';
 
   @override
@@ -3004,9 +3007,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'tjedna';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'tj.';
 
   @override
   String timeWithin(String duration) {

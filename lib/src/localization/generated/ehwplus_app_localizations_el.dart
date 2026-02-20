@@ -2192,7 +2192,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get settingLivingArea => 'Καθιστικό';
 
   @override
-  String get settingObjectLocation => 'Τοποθεσία';
+  String get settingObjectLocation => 'Λεπτομέρειες αντικειμένου';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2917,6 +2917,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get timeBefore => 'Πριν από το';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'εβδ.';
+
+  @override
   String get timeDayAgo => 'πριν από μία ημέρα';
 
   @override
@@ -3032,9 +3035,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'εβδομάδες';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'εβδ.';
 
   @override
   String timeWithin(String duration) {

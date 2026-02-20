@@ -2169,7 +2169,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get settingLivingArea => 'နေထိုင်ရန်ရိယာ';
 
   @override
-  String get settingObjectLocation => 'တည်ရှိမှု';
+  String get settingObjectLocation => 'ပိုင်ဆိုင်မှုအသေးစိတ်';
 
   @override
   String get settingObjectLocationExplanation =>
@@ -2889,6 +2889,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get timeBefore => 'ဉီးစွာ';
 
   @override
+  String get timeCalendarWeekAbbreviation => 'ပတ်';
+
+  @override
   String get timeDayAgo => 'တနေ့က';
 
   @override
@@ -3004,9 +3007,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get timeWeeks => 'သီတင်း';
-
-  @override
-  String get timeCalendarWeekAbbreviation => 'ပတ်';
 
   @override
   String timeWithin(String duration) {
