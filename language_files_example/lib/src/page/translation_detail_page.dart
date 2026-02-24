@@ -130,16 +130,18 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
           final targetValue = shouldClear ? '' : newValue;
 
           final existing = updatedEntries[_currentKey];
-          updatedEntries[_currentKey] = (existing ?? ArbEntry(key: _currentKey, value: targetValue))
-              .copyWith(value: targetValue);
+          updatedEntries[_currentKey] = (existing ?? ArbEntry(key: _currentKey, value: targetValue)).copyWith(
+            value: targetValue,
+          );
         } else {
           if (isChanged) {
             if (newValue.trim().isEmpty) {
               updatedEntries.remove(_currentKey);
             } else {
               final existing = updatedEntries[_currentKey];
-              updatedEntries[_currentKey] = (existing ?? ArbEntry(key: _currentKey, value: newValue))
-                  .copyWith(value: newValue);
+              updatedEntries[_currentKey] = (existing ?? ArbEntry(key: _currentKey, value: newValue)).copyWith(
+                value: newValue,
+              );
             }
           }
         }
@@ -176,8 +178,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
 
       final updatedEntries = Map<String, ArbEntry>.from(doc.entries);
       final existing = updatedEntries[_currentKey];
-      updatedEntries[_currentKey] =
-          (existing ?? ArbEntry(key: _currentKey, value: value)).copyWith(value: value);
+      updatedEntries[_currentKey] = (existing ?? ArbEntry(key: _currentKey, value: value)).copyWith(value: value);
 
       final updatedDoc = doc.copyWith(entries: updatedEntries);
       await widget.repository.saveDocument(updatedDoc);
@@ -454,10 +455,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
             title: const Text('Key bearbeiten'),
             content: TextField(
               controller: controller,
-              decoration: InputDecoration(
-                labelText: 'Key',
-                errorText: errorText,
-              ),
+              decoration: InputDecoration(labelText: 'Key', errorText: errorText),
             ),
             actions: [
               TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
@@ -635,56 +633,50 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
             ),
           ],
         ),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: [
-          if (_error != null && !_translatingAll && _translatingLocales.isEmpty)
-            ...[Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error))],
-          if (_statusMessage != null || _translatingAll || _translatingLocales.isNotEmpty)
-            Container(
-              margin: const EdgeInsets.only(bottom: 16),
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.surfaceContainerHighest,
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      if (_translatingAll || _translatingLocales.isNotEmpty) ...[
-                        const SizedBox(
-                          width: 18,
-                          height: 18,
-                          child: CircularProgressIndicator(strokeWidth: 2),
+        body: ListView(
+          padding: const EdgeInsets.all(16),
+          children: [
+            if (_error != null && !_translatingAll && _translatingLocales.isEmpty) ...[
+              Text(_error!, style: TextStyle(color: Theme.of(context).colorScheme.error)),
+            ],
+            if (_statusMessage != null || _translatingAll || _translatingLocales.isNotEmpty)
+              Container(
+                margin: const EdgeInsets.only(bottom: 16),
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.surfaceContainerHighest,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        if (_translatingAll || _translatingLocales.isNotEmpty) ...[
+                          const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2)),
+                          const SizedBox(width: 8),
+                        ] else
+                          Icon(Icons.info, color: Theme.of(context).colorScheme.onSurfaceVariant),
+                        Expanded(
+                          child: Text(_statusMessage ?? 'Status', style: Theme.of(context).textTheme.bodyMedium),
                         ),
-                        const SizedBox(width: 8),
-                      ] else
-                        Icon(Icons.info, color: Theme.of(context).colorScheme.onSurfaceVariant),
-                      Expanded(
-                        child: Text(
-                          _statusMessage ?? 'Status',
-                          style: Theme.of(context).textTheme.bodyMedium,
-                        ),
-                      ),
-                      if (_batchTotal > 0)
-                        Text(
-                          '${_batchDone.clamp(0, _batchTotal)}/$_batchTotal',
-                          style: Theme.of(context).textTheme.labelMedium,
-                        ),
+                        if (_batchTotal > 0)
+                          Text(
+                            '${_batchDone.clamp(0, _batchTotal)}/$_batchTotal',
+                            style: Theme.of(context).textTheme.labelMedium,
+                          ),
+                      ],
+                    ),
+                    if (_batchTotal > 0) ...[
+                      const SizedBox(height: 8),
+                      LinearProgressIndicator(value: _batchDone / _batchTotal),
                     ],
-                  ),
-                  if (_batchTotal > 0) ...[
-                    const SizedBox(height: 8),
-                    LinearProgressIndicator(value: _batchDone / _batchTotal),
                   ],
-                ],
+                ),
               ),
-            ),
-          ..._locales.map(
-            (locale) => Padding(
-              padding: const EdgeInsets.only(bottom: 16),
+            ..._locales.map(
+              (locale) => Padding(
+                padding: const EdgeInsets.only(bottom: 16),
                 child: TextField(
                   controller: _controllers[locale],
                   maxLines: null,
@@ -751,18 +743,10 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         mainAxisSize: MainAxisSize.min,
         children: [
           Flexible(
-            child: Text(
-              _currentKey,
-              overflow: TextOverflow.ellipsis,
-              style: theme.textTheme.titleLarge,
-            ),
+            child: Text(_currentKey, overflow: TextOverflow.ellipsis, style: theme.textTheme.titleLarge),
           ),
           const SizedBox(width: 6),
-          Icon(
-            Icons.edit,
-            size: 18,
-            color: theme.colorScheme.onSurfaceVariant,
-          ),
+          Icon(Icons.edit, size: 18, color: theme.colorScheme.onSurfaceVariant),
           if (_renaming) ...[
             const SizedBox(width: 8),
             const SizedBox(width: 14, height: 14, child: CircularProgressIndicator(strokeWidth: 2)),
