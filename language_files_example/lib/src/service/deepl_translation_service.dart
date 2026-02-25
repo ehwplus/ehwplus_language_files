@@ -81,11 +81,7 @@ class DeepLTranslationService {
     return buffer.toString();
   }
 
-  Future<String> _translateIcuBlock(
-    _IcuBlock block, {
-    required String targetLang,
-    String? sourceLang,
-  }) async {
+  Future<String> _translateIcuBlock(_IcuBlock block, {required String targetLang, String? sourceLang}) async {
     final optionsBuffer = StringBuffer();
     if (block.offset != null) {
       optionsBuffer.write(block.offset);
@@ -108,19 +104,12 @@ class DeepLTranslationService {
     final hasPlaceholders = _placeholderRegex.hasMatch(text);
     final preparedText = hasPlaceholders ? _wrapIgnoredTags(text) : text;
     final uri = Uri.parse('$baseUrl/v2/translate');
-    final response = await _postTranslateWithBackoff(
-      uri,
-      {
-        'text': preparedText,
-        'target_lang': _normalizeLang(targetLang),
-        if (sourceLang != null && sourceLang.trim().isNotEmpty) 'source_lang': _normalizeLang(sourceLang),
-        if (hasPlaceholders) ...{
-          'tag_handling': 'xml',
-          'ignore_tags': _ignoreTagName,
-          'tag_handling_version': 'v2',
-        },
-      },
-    );
+    final response = await _postTranslateWithBackoff(uri, {
+      'text': preparedText,
+      'target_lang': _normalizeLang(targetLang),
+      if (sourceLang != null && sourceLang.trim().isNotEmpty) 'source_lang': _normalizeLang(sourceLang),
+      if (hasPlaceholders) ...{'tag_handling': 'xml', 'ignore_tags': _ignoreTagName, 'tag_handling_version': 'v2'},
+    });
 
     if (response.statusCode < 200 || response.statusCode >= 300) {
       if (response.statusCode == 456) {
@@ -162,10 +151,7 @@ class DeepLTranslationService {
   static String _sanitize(String key) => key.trim();
 
   String _wrapIgnoredTags(String text) {
-    return text.replaceAllMapped(
-      _placeholderRegex,
-      (match) => '<$_ignoreTagName>${match.group(0)}</$_ignoreTagName>',
-    );
+    return text.replaceAllMapped(_placeholderRegex, (match) => '<$_ignoreTagName>${match.group(0)}</$_ignoreTagName>');
   }
 
   String _unwrapIgnoredTags(String text) {
@@ -182,11 +168,7 @@ class DeepLTranslationService {
 
     while (true) {
       final response = await _client
-          .post(
-            uri,
-            headers: {'Authorization': 'DeepL-Auth-Key $_apiKey', 'User-Agent': 'arb-editor/1.0'},
-            body: body,
-          )
+          .post(uri, headers: {'Authorization': 'DeepL-Auth-Key $_apiKey', 'User-Agent': 'arb-editor/1.0'}, body: body)
           .timeout(_requestTimeout);
 
       if (response.statusCode != 429 || attempt >= _max429Retries) {

@@ -342,11 +342,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
             });
           }
           try {
-            final translated = await service.translate(
-              text: sourceText,
-              targetLang: locale,
-              sourceLang: sourceLocale,
-            );
+            final translated = await service.translate(text: sourceText, targetLang: locale, sourceLang: sourceLocale);
             await _saveTranslation(record.key, locale, translated);
             didTranslate = true;
             if (mounted) {
@@ -486,9 +482,9 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       try {
         final ran = await _repository.regenerateDartFiles();
         if (ran && mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Dart-Dateien wurden neu generiert.')),
-          );
+          ScaffoldMessenger.of(
+            context,
+          ).showSnackBar(const SnackBar(content: Text('Dart-Dateien wurden neu generiert.')));
         }
       } catch (e) {
         if (mounted) {
@@ -546,9 +542,9 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
                     Expanded(
                       child: Text(
                         'DeepL-Quota erreicht. Übersetzungen sind aktuell deaktiviert.',
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: Theme.of(context).colorScheme.onErrorContainer,
-                        ),
+                        style: Theme.of(
+                          context,
+                        ).textTheme.bodyMedium?.copyWith(color: Theme.of(context).colorScheme.onErrorContainer),
                       ),
                     ),
                   ],
@@ -568,19 +564,12 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
                     Row(
                       children: [
                         if (_translatingMissing) ...[
-                          const SizedBox(
-                            width: 18,
-                            height: 18,
-                            child: CircularProgressIndicator(strokeWidth: 2),
-                          ),
+                          const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2)),
                           const SizedBox(width: 8),
                         ] else
                           Icon(Icons.info, color: Theme.of(context).colorScheme.onSurfaceVariant),
                         Expanded(
-                          child: Text(
-                            _missingStatus ?? 'Status',
-                            style: Theme.of(context).textTheme.bodyMedium,
-                          ),
+                          child: Text(_missingStatus ?? 'Status', style: Theme.of(context).textTheme.bodyMedium),
                         ),
                         if (_missingTotal > 0)
                           Text(
@@ -601,16 +590,11 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
                     ],
                     if (_missingTotal > 0) ...[
                       const SizedBox(height: 8),
-                      LinearProgressIndicator(
-                        value: _missingTotal == 0 ? null : _missingDone / _missingTotal,
-                      ),
+                      LinearProgressIndicator(value: _missingTotal == 0 ? null : _missingDone / _missingTotal),
                     ],
                     if (_missingError != null && !_translatingMissing) ...[
                       const SizedBox(height: 8),
-                      Text(
-                        _missingError!,
-                        style: TextStyle(color: Theme.of(context).colorScheme.error),
-                      ),
+                      Text(_missingError!, style: TextStyle(color: Theme.of(context).colorScheme.error)),
                     ],
                   ],
                 ),

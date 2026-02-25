@@ -127,11 +127,7 @@ class ArbRepository {
 
     for (final command in commands) {
       try {
-        final result = await Process.run(
-          command.first,
-          command.sublist(1),
-          workingDirectory: root.path,
-        );
+        final result = await Process.run(command.first, command.sublist(1), workingDirectory: root.path);
         if (result.exitCode == 0) {
           return true;
         }
