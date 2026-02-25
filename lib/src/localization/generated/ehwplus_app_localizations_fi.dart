@@ -15,8 +15,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get accountBenefit1 => 'Luotettavampi ostojen tunnistaminen';
 
   @override
-  String get accountBenefit2 =>
-      'Pääsy kaikkiin ostettuihin laajennuksiin useilla laitteilla';
+  String get accountBenefit2 => 'Pääsy kaikkiin ostettuihin laajennuksiin useilla laitteilla';
 
   @override
   String get accountButtonSetup => 'EHW+-käyttäjätilin määrittäminen';
@@ -33,15 +32,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get accountFaqQ1 => 'Mikä on EHW+-käyttäjätili?';
 
   @override
-  String get accountFaqQ2 =>
-      'Pääsenkö edelleen ostoksiini käsiksi ilman EHW+-käyttäjätiliä?';
+  String get accountFaqQ2 => 'Pääsenkö edelleen ostoksiini käsiksi ilman EHW+-käyttäjätiliä?';
 
   @override
   String get accountFaqTitle => 'Usein kysytyt kysymykset:';
 
   @override
-  String get accountThankYouForPurchase =>
-      'Kiitos! Haluatko varmistaa ostoksen EHW+-käyttäjätililläsi nyt?';
+  String get accountThankYouForPurchase => 'Kiitos! Haluatko varmistaa ostoksen EHW+-käyttäjätililläsi nyt?';
 
   @override
   String get accountUpdateInfo => 'Uusi: EHW+-käyttäjätili';
@@ -96,8 +93,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get activityWashTemperature => 'Lämpötila';
 
   @override
-  String get activityWithEnergyConsumption =>
-      'Virrankulutusta mitataan vain aktiivisuuden osalta';
+  String get activityWithEnergyConsumption => 'Virrankulutusta mitataan vain aktiivisuuden osalta';
 
   @override
   String get addActivity => 'Lisää toimintaa';
@@ -166,8 +162,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Jokainen saksalainen käyttää keskimäärin 127 litraa juomavettä kotitaloudessa päivittäin.Sininen viiva edustaa kylmää vettä (60 %), punainen viiva kuumaa vettä (40 %), ekstrapoloituna ajanjakson päivien ja ihmisten lukumäärään.';
 
   @override
-  String get chartHorizontalLines =>
-      'Katkoviivat on tarkoitettu antamaan palautetta omasta kulutuksestasi.';
+  String get chartHorizontalLines => 'Katkoviivat on tarkoitettu antamaan palautetta omasta kulutuksestasi.';
 
   @override
   String get chooseActivity => 'Valitse aktiviteetti';
@@ -197,8 +192,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Palaute annetaan automaattisesti, kun käytät ennustepalvelua ja hyväksyt optimoinnin.';
 
   @override
-  String get cometConsentScreenFeedbackTitle =>
-      'Goethe-yliopisto tarvitsee palautettasi:';
+  String get cometConsentScreenFeedbackTitle => 'Goethe-yliopisto tarvitsee palautettasi:';
 
   @override
   String get cometConsentScreenHeader => 'Uutta: Paremmat kulutusennusteet';
@@ -207,12 +201,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get cometConsentScreenHowItWorksTitle => 'Miten se toimii?';
 
   @override
-  String get cometConsentScreenOfflineDescription =>
-      'Yksinkertaistettu paikallinen ennuste lasketaan laitteellesi.';
+  String get cometConsentScreenOfflineDescription => 'Yksinkertaistettu paikallinen ennuste lasketaan laitteellesi.';
 
   @override
-  String get cometConsentScreenOfflineDescriptionTitle =>
-      'Ilman Internet-yhteyttä:';
+  String get cometConsentScreenOfflineDescriptionTitle => 'Ilman Internet-yhteyttä:';
 
   @override
   String get cometConsentScreenOnlineDescription =>
@@ -225,8 +217,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get cometConsentScreenToggleLabel => 'Käytä ennustepalvelua';
 
   @override
-  String get cometSettingsIsPredictionsApiEnabled =>
-      'Käytä Goethe-instituutin COMET Forecast APIa';
+  String get cometSettingsIsPredictionsApiEnabled => 'Käytä Goethe-instituutin COMET Forecast APIa';
 
   @override
   String get comment => 'Bote';
@@ -322,10 +313,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get commonUserLogin => 'Käyttäjätunnus';
 
   @override
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  ) {
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total) {
     return 'Käytät EHW+ -tiliä.$notSubmitted $total ostetusta tuotteesta ei voitu tallentaa EHW+ -palvelimelle.Toivomme korjaavamme ongelman pian.';
   }
 
@@ -345,12 +333,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          'Käytät EHW+-tiliä. $count ostettua tuotetta on tallennettu EHW+-palvelimelle.',
-      one:
-          'Käytät EHW+-tiliä. $count ostettu tuote on tallennettu EHW+-palvelimelle.',
-      zero:
-          'Käytät EHW+-tiliä. Jos ostat jatkossa tuotteita, ne synkronoidaan kaikille laitteillesi.',
+      other: 'Käytät EHW+-tiliä. $count ostettua tuotetta on tallennettu EHW+-palvelimelle.',
+      one: 'Käytät EHW+-tiliä. $count ostettu tuote on tallennettu EHW+-palvelimelle.',
+      zero: 'Käytät EHW+-tiliä. Jos ostat jatkossa tuotteita, ne synkronoidaan kaikille laitteillesi.',
     );
     return '$_temp0';
   }
@@ -385,8 +370,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'TransnetBW:n tarjoama StromGedacht tarjoaa tietoa verkon vakaudesta ja suosituksia siitä, milloin sähköä tulisi käyttää ensisijaisesti.Kun energiasiirtymä on yhä haastavampi kantaverkolle, Lounais-Saksan kotitaloudet ovat mukana.Jos haluat saada tietoja sijainnistasi, postinumerosi, jos se on syötetty tähän sovellukseen, lähetetään TransnetBW StromGedacht API:lle.Muita tietoja ei lähetetä tai linkitetä.';
 
   @override
-  String get consent13StromGedachtTitle =>
-      'StromGedachtin verkon vakausilmoitukset';
+  String get consent13StromGedachtTitle => 'StromGedachtin verkon vakausilmoitukset';
 
   @override
   String get consent1Hello => 'Hei';
@@ -417,8 +401,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get consumption => 'Kulutus';
 
   @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Välimuisti tyhjennettiin onnistuneesti';
+  String get consumptionCacheDebugViewCacheCleared => 'Välimuisti tyhjennettiin onnistuneesti';
 
   @override
   String get consumptionCacheDebugViewClear => 'Tyhjennä';
@@ -440,40 +423,34 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get consumptionCacheDebugViewTitle => 'Kulutuksen välimuisti';
 
   @override
-  String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'Tyhjennä ja synkronoi';
+  String get consumptionCacheManagementClearCacheAndSynchronizeButton => 'Tyhjennä ja synkronoi';
 
   @override
-  String get consumptionCacheManagementClearCacheButton =>
-      'Tyhjennä välimuisti';
+  String get consumptionCacheManagementClearCacheButton => 'Tyhjennä välimuisti';
 
   @override
-  String get consumptionCacheManagementClearedSuccessfully =>
-      'Välimuisti tyhjennetty onnistuneesti';
+  String get consumptionCacheManagementClearedSuccessfully => 'Välimuisti tyhjennetty onnistuneesti';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
       'Kaikki välimuistissa olevat tiedot poistetaan ja ladataan uudelleen palvelimelta.Tämä voi kestää jonkin aikaa.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'Tyhjennetäänkö välimuisti ja synkronoidaanko?';
+  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle => 'Tyhjennetäänkö välimuisti ja synkronoidaanko?';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
       'Kaikki välimuistissa olevat kulutustiedot poistetaan pysyvästi.Voit synkronoida sen myöhemmin.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheTitle =>
-      'Tyhjennä välimuisti?';
+  String get consumptionCacheManagementConfirmClearCacheTitle => 'Tyhjennä välimuisti?';
 
   @override
   String get consumptionCacheToggleButtonDescription =>
       'Lasketun kulutuksen välimuistiin tallentaminen ja uudelleenkäyttö tarvittaessa';
 
   @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Käytä kulutuksen välimuistia';
+  String get consumptionCacheToggleButtonTitle => 'Käytä kulutuksen välimuistia';
 
   @override
   String get consumptionHeatmap => 'Kulutus lämpökartta';
@@ -487,26 +464,19 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionIsNotExclusive =>
-      'Jos kulutus ei liity tähän toimintaan, se näytetään varoituksena.';
+  String get consumptionIsNotExclusive => 'Jos kulutus ei liity tähän toimintaan, se näytetään varoituksena.';
 
   @override
   String get consumptionIsNotExclusiveTitle => 'Onko kulutus yksinomainen?';
 
   @override
   String consumptionPersonLabel(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'henkilöä',
-      one: 'henkilö',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'henkilöä', one: 'henkilö');
     return '$_temp0';
   }
 
   @override
-  String get consumptionWaterColdEqual =>
-      'Kylmä vesi: suunnilleen sama kuin tavallisessa kotitaloudessa.';
+  String get consumptionWaterColdEqual => 'Kylmä vesi: suunnilleen sama kuin tavallisessa kotitaloudessa.';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
@@ -519,49 +489,27 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Per henkilö, kaikki kuluttavat noin $dailyLiters litraa päivässä (≈ $monthlyCubicMeters $unitName kuukaudessa).';
   }
 
   @override
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Kulutat noin $dailyLiters litraa päivässä (≈ $monthlyCubicMeters $unitName kuukaudessa).';
   }
 
   @override
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel) {
     return 'Vedenkulutuksesi $ofRange vastaa keskimääräisen kotitalouden kulutusta $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Vedenkulutuksesi $ofRange on $percentage pienempi kuin tavallisessa kotitaloudessa, jonka kulutus on $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Vedenkulutuksesi $ofRange on $percentage korkeampi kuin tavallisessa kotitaloudessa, jonka kulutus on $householdSize $personLabel.';
   }
 
@@ -571,8 +519,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionWaterWarmEqual =>
-      'Kuuma vesi: suunnilleen sama kuin tavallisessa kotitaloudessa.';
+  String get consumptionWaterWarmEqual => 'Kuuma vesi: suunnilleen sama kuin tavallisessa kotitaloudessa.';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
@@ -593,19 +540,12 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedAboutSame => 'suunnilleen sama kuin';
 
   @override
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  ) {
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel) {
     return 'keskimääräinen kotitalous, jossa on $householdSize $personLabel';
   }
 
   @override
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  ) {
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix) {
     return 'Kulutat$verbSuffix suunnilleen sama kuin keskimääräinen kotitalous, jossa on $householdSize $personLabel.';
   }
 
@@ -713,16 +653,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Ei, peruuta.';
 
   @override
-  String get contractCopyDialogOptionYes =>
-      'Kyllä, yksikköhinta tai muu arvo on muuttunut.';
+  String get contractCopyDialogOptionYes => 'Kyllä, yksikköhinta tai muu arvo on muuttunut.';
 
   @override
-  String get contractCopyDialogTitle =>
-      'Haluatko tehdä kopion tästä sopimuksesta?';
+  String get contractCopyDialogTitle => 'Haluatko tehdä kopion tästä sopimuksesta?';
 
   @override
-  String get contractCopyDialogWhen =>
-      'Mistä lähtien uusi hinta tulee voimaan?';
+  String get contractCopyDialogWhen => 'Mistä lähtien uusi hinta tulee voimaan?';
 
   @override
   String get contractCosts => 'Yksikköhinta';
@@ -829,20 +766,16 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get counterColdWater => 'Kylmän veden mittari';
 
   @override
-  String get counterConsiderForTotalConsumptions =>
-      'Ota huomioon kokonaiskulutuksissa';
+  String get counterConsiderForTotalConsumptions => 'Ota huomioon kokonaiskulutuksissa';
 
   @override
-  String get counterConsiderForTotalElectricity =>
-      'Ota huomioon sähkön kokonaiskulutus';
+  String get counterConsiderForTotalElectricity => 'Ota huomioon sähkön kokonaiskulutus';
 
   @override
-  String get counterConsiderForTotalWater =>
-      'Ota huomioon kokonaisvedenkulutuksissa';
+  String get counterConsiderForTotalWater => 'Ota huomioon kokonaisvedenkulutuksissa';
 
   @override
-  String get counterContractCurrentlyUsed =>
-      'Tällä hetkellä käytössä oleva sopimus';
+  String get counterContractCurrentlyUsed => 'Tällä hetkellä käytössä oleva sopimus';
 
   @override
   String get counterDeleteConfirm => 'Poistetaanko mittari?';
@@ -861,10 +794,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Väheneekö arvo käytön myötä (tason ilmaisin jne.), kasvaako arvo käytön myötä (polttoainetunnit, öljymittari jne.) vai onko jokainen lukema itsenäinen (kulutus/tuotto)?';
 
   @override
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  ) {
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar) {
     return '$consumptionElectricity/$consumptionSolar';
   }
 
@@ -939,8 +869,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get counterLinkMoreRecent => 'Linkki uudempi laskuri';
 
   @override
-  String get counterMessageRoomOptional =>
-      'Huonetehtävä auttaa ryhmittelyssä, mutta on valinnainen.';
+  String get counterMessageRoomOptional => 'Huonetehtävä auttaa ryhmittelyssä, mutta on valinnainen.';
 
   @override
   String get counterMeterId => 'Mittarin tunnus';
@@ -977,8 +906,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get counterProportionateConsumption => 'Suhteutettu kulutus';
 
   @override
-  String get counterPvFeedInCounter =>
-      'Uusiutuvat energiat (aurinkosähkö ja lämpö aurinkosähköjärjestelmillä)';
+  String get counterPvFeedInCounter => 'Uusiutuvat energiat (aurinkosähkö ja lämpö aurinkosähköjärjestelmillä)';
 
   @override
   String get counterPvFeedInCounterExplanation =>
@@ -1028,8 +956,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get counterWarmWater => 'Lämpimän veden mittari';
 
   @override
-  String get counterWarmWaterPlusColdWater =>
-      'Ei sisällä makean veden ja jäteveden kustannuksia';
+  String get counterWarmWaterPlusColdWater => 'Ei sisällä makean veden ja jäteveden kustannuksia';
 
   @override
   String get counterWater => 'Vesimittarit';
@@ -1078,8 +1005,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get driveSyncNow => 'Synkronoi nyt';
 
   @override
-  String get driveSyncStatusComparing =>
-      'Vertaaminen palvelimella olevaan tiedostoon';
+  String get driveSyncStatusComparing => 'Vertaaminen palvelimella olevaan tiedostoon';
 
   @override
   String get driveSyncStatusFailed => 'Synkronointi epäonnistui';
@@ -1090,10 +1016,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate) {
     return 'Tälle laitteelle tiedostosta $localDate tallennettu tiedosto on ajantasaisempi kuin pilvessä oleva tiedosto osoitteesta $cloudDate';
   }
 
@@ -1106,10 +1029,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate) {
     return 'Pilvessä oleva tiedosto osoitteesta $cloudDate on ajantasaisempi kuin paikallinen tiedosto osoitteesta $localDate';
   }
 
@@ -1165,8 +1085,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get existingPhoto => 'Liitä olemassa oleva kuva';
 
   @override
-  String get existingPhotoOfMeterReading =>
-      'Haluatko liittää olemassa olevan kuvan mittarin lukemasta?';
+  String get existingPhotoOfMeterReading => 'Haluatko liittää olemassa olevan kuvan mittarin lukemasta?';
 
   @override
   String get explanationManageMoreThanOneObject =>
@@ -1190,8 +1109,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get exportOptionConsumptionsSubtitle =>
-      'Kulutusarvo jokaiselle päivälle ensimmäisestä lukemasta lähtien.';
+  String get exportOptionConsumptionsSubtitle => 'Kulutusarvo jokaiselle päivälle ensimmäisestä lukemasta lähtien.';
 
   @override
   String get exportOptionConsumptionsTitle => 'Päivittäinen kulutus';
@@ -1208,8 +1126,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get exportOptionPdf => 'PDF-tiedosto';
 
   @override
-  String get exportOptionReadingsSubtitle =>
-      'Tyypillisesti mittarilukemat tai kulutus epäsäännöllisin väliajoin.';
+  String get exportOptionReadingsSubtitle => 'Tyypillisesti mittarilukemat tai kulutus epäsäännöllisin väliajoin.';
 
   @override
   String get exportOptionReadingsTitle => 'Arvojen lukeminen';
@@ -1226,14 +1143,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'Jaa muiden sovellusten kanssa';
 
   @override
-  String get exportTabSnackBarSaveResultMessageError =>
-      'Dataa tallennettaessa tapahtui virhe';
+  String get exportTabSnackBarSaveResultMessageError => 'Dataa tallennettaessa tapahtui virhe';
 
   @override
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  ) {
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder) {
     return 'Tiedot on tallennettu onnistuneesti nimellä $fileName kansioon $folder';
   }
 
@@ -1252,8 +1165,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Yli 26 % kaikista Saksan hiilidioksidipäästöistä aiheutuu yksityisistä kotitalouksista.Jos jokainen voi vähentää kulutustaan ​​edes vähän, on saavutettu paljon.Kiitos paljon panoksestasi!';
 
   @override
-  String get faqAboutDeveloperBody3 =>
-      'Otamme mielellämme vastaan ​​ehdotuksia sovelluksen parantamiseksi.';
+  String get faqAboutDeveloperBody3 => 'Otamme mielellämme vastaan ​​ehdotuksia sovelluksen parantamiseksi.';
 
   @override
   String get faqAboutDeveloperBody4 =>
@@ -1269,8 +1181,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get featureVoting => 'Ominaisuusäänestys';
 
   @override
-  String get featureVotingOnlyOnGerman =>
-      'Ominaisuuskyselyä ei ole käännetty muille kielille.';
+  String get featureVotingOnlyOnGerman => 'Ominaisuuskyselyä ei ole käännetty muille kielille.';
 
   @override
   String get featureVotingUnderConstruction =>
@@ -1346,10 +1257,8 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       columns,
       locale: localeName,
-      other:
-          'Vain kahta ensimmäistä saraketta käytettiin, $columns saraketta ohitettiin.',
-      one:
-          'Vain kahta ensimmäistä saraketta käytettiin. Kolmas sarake ohitettiin.',
+      other: 'Vain kahta ensimmäistä saraketta käytettiin, $columns saraketta ohitettiin.',
+      one: 'Vain kahta ensimmäistä saraketta käytettiin. Kolmas sarake ohitettiin.',
     );
     return '$_temp0';
   }
@@ -1366,15 +1275,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get importExplanation =>
-      'Oletko jo tehnyt laskurin lukemia ja haluat lisätä ne?';
+  String get importExplanation => 'Oletko jo tehnyt laskurin lukemia ja haluat lisätä ne?';
 
   @override
   String get importExport => 'Varmuuskopioi/Palauta';
 
   @override
-  String get importNewOrExistingCounter =>
-      'Lisätäänkö uuteen vai olemassa olevaan laskuriin?';
+  String get importNewOrExistingCounter => 'Lisätäänkö uuteen vai olemassa olevaan laskuriin?';
 
   @override
   String get importNotPossible => 'Tuonti ei ole mahdollista';
@@ -1438,8 +1345,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get lineChartAppearanceSettings => 'Viivakaavioiden ulkonäkö';
 
   @override
-  String get lineChartAppearanceSettingsShowSpots =>
-      'Näytä (pyöreät) pisteet kaavioiden viivoilla';
+  String get lineChartAppearanceSettingsShowSpots => 'Näytä (pyöreät) pisteet kaavioiden viivoilla';
 
   @override
   String localWriteSubtitle(Object folder) {
@@ -1450,12 +1356,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get localWriteTitle => 'Tallenna paikalliseen latauskansioon';
 
   @override
-  String get manageMoreThanOneObjectStep1 =>
-      'Hallinnoi useampaa kuin yhtä objektia – Vaihe 1';
+  String get manageMoreThanOneObjectStep1 => 'Hallinnoi useampaa kuin yhtä objektia – Vaihe 1';
 
   @override
-  String get manageMoreThanOneObjectStep2 =>
-      'Hallinnoi useampaa kuin yhtä objektia – Vaihe 2';
+  String get manageMoreThanOneObjectStep2 => 'Hallinnoi useampaa kuin yhtä objektia – Vaihe 2';
 
   @override
   String get marketLocationId => 'Markkinapaikan tunnus';
@@ -1472,15 +1376,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get messageNoContracts => 'Ei vielä sopimuksia.';
 
   @override
-  String get messageNoCounterReadings =>
-      'Et ole vielä syöttänyt laskurin lukemaa.';
+  String get messageNoCounterReadings => 'Et ole vielä syöttänyt laskurin lukemaa.';
 
   @override
   String get messageNoCounters => 'Et ole vielä luonut laskuria.';
 
   @override
-  String get messageNoRooms =>
-      'Ei vielä huoneita. Huoneet auttavat ryhmittelemään mittareita.';
+  String get messageNoRooms => 'Ei vielä huoneita. Huoneet auttavat ryhmittelemään mittareita.';
 
   @override
   String get messageNotEnoughData => 'Data ei riitä kaavion näyttämiseen';
@@ -1498,8 +1400,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get meterReadingsFilterAll => 'Näytä kaikki';
 
   @override
-  String get meterReadingsFilterComments =>
-      'Näytä vain kommentit sisältävät merkinnät';
+  String get meterReadingsFilterComments => 'Näytä vain kommentit sisältävät merkinnät';
 
   @override
   String meterReadingsFilterSubmitted(String state) {
@@ -1507,12 +1408,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get meterReplacementCreateNew =>
-      'Luo seuraavat samantyyppiset mittarit';
+  String get meterReplacementCreateNew => 'Luo seuraavat samantyyppiset mittarit';
 
   @override
-  String get meterReplacementDescription =>
-      'Onko tämä mittari vanhentunut ja onko se korvattu uudella mittarilla?';
+  String get meterReplacementDescription => 'Onko tämä mittari vanhentunut ja onko se korvattu uudella mittarilla?';
 
   @override
   String monthEnd(Object month) {
@@ -1535,8 +1434,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get newPhoto => 'Ota uusi valokuva';
 
   @override
-  String get newPhotoOfMeterReading =>
-      'Haluatko ottaa kuvan mittarin lukemasta?';
+  String get newPhotoOfMeterReading => 'Haluatko ottaa kuvan mittarin lukemasta?';
 
   @override
   String get newReading => 'Syötä nykyinen lukema';
@@ -1551,8 +1449,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get notificationsEmpty => 'Ei ilmoituksia';
 
   @override
-  String get notificationsSmartMeterAlertFallback =>
-      'Sinulla on uusi älymittarin hälytys.';
+  String get notificationsSmartMeterAlertFallback => 'Sinulla on uusi älymittarin hälytys.';
 
   @override
   String numCounters(int count) {
@@ -1568,23 +1465,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(
-      readings,
-      locale: localeName,
-      other: '# lukemaa',
-      one: '# lukema',
-    );
+    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# lukemaa', one: '# lukema');
     return '$_temp0';
   }
 
   @override
   String numberOfDetails(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: '$count tietoa',
-      one: '1 tieto',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: '$count tietoa', one: '1 tieto');
     return '$_temp0';
   }
 
@@ -1708,8 +1595,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get pricePerUnitWaterWarm => 'Kuuman veden lämmityskulut';
 
   @override
-  String get priceSubmissionAgreement =>
-      'Hyväksyn sähkön/kaasun/veden yksikköhinnan siirtämisen EHW+ -palvelimelle';
+  String get priceSubmissionAgreement => 'Hyväksyn sähkön/kaasun/veden yksikköhinnan siirtämisen EHW+ -palvelimelle';
 
   @override
   String privacyBlock1Text(String contact) {
@@ -1794,8 +1680,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get purchasesBuyNow => 'Osta nyt';
 
   @override
-  String get purchasesDisabledOnIOS =>
-      'Sovelluksen sisäiset ostokset poistettu käytöstä';
+  String get purchasesDisabledOnIOS => 'Sovelluksen sisäiset ostokset poistettu käytöstä';
 
   @override
   String get purchasesDisabledOnIOSDescription =>
@@ -1814,8 +1699,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Syötä niin monen asunnon/talon/kohteen mittarilukemat kuin haluat (ei vain yhden kohteen)';
 
   @override
-  String get purchasesExtensionMultipleObjectsTitlePart =>
-      'Useiden kohteiden hallinta';
+  String get purchasesExtensionMultipleObjectsTitlePart => 'Useiden kohteiden hallinta';
 
   @override
   String get purchasesExtensionStatisticsDescription =>
@@ -1829,8 +1713,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Lisää laajennuksia on suunnitteilla.Osallistu ominaisuuskyselyyn ja kerro mielipiteesi.';
 
   @override
-  String get purchasesExtensionsSubtitle =>
-      'Osta kerran, käytä pysyvästi (ei tilausta)';
+  String get purchasesExtensionsSubtitle => 'Osta kerran, käytä pysyvästi (ei tilausta)';
 
   @override
   String get purchasesExtensionsTitle => 'Yksittäiset laajennukset';
@@ -1878,10 +1761,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew) {
     return 'Kuukausittainen peruutettava tilaus kanta-asiakashinnalla $price kuukaudessa $priceNew sijaan';
   }
 
@@ -1895,10 +1775,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew) {
     return 'Vuosittainen peruutettava tilaus kanta-asiakashinnalla $price vuodessa $priceNew sijaan';
   }
 
@@ -1917,8 +1794,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get purchasesWhyBuyTitle => 'Miksi minun pitäisi ostaa jotain?';
 
   @override
-  String get purchasesYourPurchases =>
-      'Sinulla on pääsy seuraaviin premium-paketteihin:';
+  String get purchasesYourPurchases => 'Sinulla on pääsy seuraaviin premium-paketteihin:';
 
   @override
   String get reading => 'Laskurin lukeminen';
@@ -1933,24 +1809,19 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get readingPrefill => 'Automaattinen täyttömittarin lukema';
 
   @override
-  String get readingPrefillDescription =>
-      'Esitäytä mittarin lukemat aikaisempien merkintöjen perusteella';
+  String get readingPrefillDescription => 'Esitäytä mittarin lukemat aikaisempien merkintöjen perusteella';
 
   @override
-  String get readingPrefillDisableForAllCounters =>
-      'Poista kaikkien laskurien automaattinen täyttö käytöstä';
+  String get readingPrefillDisableForAllCounters => 'Poista kaikkien laskurien automaattinen täyttö käytöstä';
 
   @override
-  String get readingPrefillDisabled =>
-      'Automaattinen täyttö poistettu käytöstä';
+  String get readingPrefillDisabled => 'Automaattinen täyttö poistettu käytöstä';
 
   @override
-  String get readingPrefillDisabledToast =>
-      'Automaattinen täyttö poistettu käytöstä';
+  String get readingPrefillDisabledToast => 'Automaattinen täyttö poistettu käytöstä';
 
   @override
-  String get readingPrefillEnableForAllCounters =>
-      'Ota automaattinen täyttö käyttöön kaikille laskureille';
+  String get readingPrefillEnableForAllCounters => 'Ota automaattinen täyttö käyttöön kaikille laskureille';
 
   @override
   String readingReminder(int count) {
@@ -1998,30 +1869,25 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get readingWithFactor => 'Laskurilukema tekijällä';
 
   @override
-  String get reallyDeleteActivity =>
-      'Haluatko todella poistaa tämän toiminnan?';
+  String get reallyDeleteActivity => 'Haluatko todella poistaa tämän toiminnan?';
 
   @override
-  String get reallyDeleteContract =>
-      'Haluatko todella poistaa tämän sopimuksen?';
+  String get reallyDeleteContract => 'Haluatko todella poistaa tämän sopimuksen?';
 
   @override
   String get reallyDeleteCounter => 'Haluatko varmasti poistaa laskurin?';
 
   @override
-  String get reallyDeleteCounterLink =>
-      'Haluatko varmasti poistaa laskureiden välisen linkin?';
+  String get reallyDeleteCounterLink => 'Haluatko varmasti poistaa laskureiden välisen linkin?';
 
   @override
-  String get reallyDeleteDetail =>
-      'Haluatko todella poistaa tämän yksityiskohdan?';
+  String get reallyDeleteDetail => 'Haluatko todella poistaa tämän yksityiskohdan?';
 
   @override
   String get reallyDeleteObject => 'Haluatko varmasti poistaa kohteen?';
 
   @override
-  String get reallyDeletePhoto =>
-      'Haluatko varmasti poistaa mittarin lukukuvan?';
+  String get reallyDeletePhoto => 'Haluatko varmasti poistaa mittarin lukukuvan?';
 
   @override
   String get reallyDeleteValue => 'Haluatko todella poistaa tämän arvon?';
@@ -2059,8 +1925,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get residualGenerationEstimated => 'Arvioitu jäännöstuotanto';
 
   @override
-  String get restoreDeletedCounter =>
-      'Haluatko palauttaa tämän poistetun mittarin?';
+  String get restoreDeletedCounter => 'Haluatko palauttaa tämän poistetun mittarin?';
 
   @override
   String get room => 'Huone';
@@ -2136,8 +2001,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get selectedAtAppStart =>
-      'Ylin kohde valitaan sovelluksen käynnistyksen yhteydessä';
+  String get selectedAtAppStart => 'Ylin kohde valitaan sovelluksen käynnistyksen yhteydessä';
 
   @override
   String get settingColor => 'Väri';
@@ -2146,8 +2010,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get settingCounterTypeColor => 'Väri tälle laskurityypille';
 
   @override
-  String get settingCounterTypeColorAdvanced =>
-      'Värinvalitsin asiantuntijoille';
+  String get settingCounterTypeColorAdvanced => 'Värinvalitsin asiantuntijoille';
 
   @override
   String get settingCounterTypeColorDescription =>
@@ -2160,8 +2023,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get settingHouseholdSize => 'Kotitalouden koko';
 
   @override
-  String get settingHouseholdSizeDescription =>
-      'Kotitaloudessasi olevien ihmisten lukumäärä.';
+  String get settingHouseholdSizeDescription => 'Kotitaloudessasi olevien ihmisten lukumäärä.';
 
   @override
   String get settingLanguageMode => 'Kieli';
@@ -2231,12 +2093,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Ulkoiset palvelut';
 
   @override
-  String get settingsShowStromGedacht =>
-      'Pitäisikö StromGedachtin sähköverkkoon liittyviä vinkkejä näyttää?';
+  String get settingsShowStromGedacht => 'Pitäisikö StromGedachtin sähköverkkoon liittyviä vinkkejä näyttää?';
 
   @override
-  String get settingsShowTabNewsDetailed =>
-      'Pitäisikö Uutiset/Vinkit-välilehden olla näkyvissä?';
+  String get settingsShowTabNewsDetailed => 'Pitäisikö Uutiset/Vinkit-välilehden olla näkyvissä?';
 
   @override
   String get showAllYears => 'Näytä kaikki vuodet';
@@ -2261,15 +2121,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radio vesimittarit';
 
   @override
-  String get smartMeterErrorNoData =>
-      'Valitettavasti ei ole tietoja, joita sovellus voisi näyttää.';
+  String get smartMeterErrorNoData => 'Valitettavasti ei ole tietoja, joita sovellus voisi näyttää.';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Aseta älymittari';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardTitle =>
-      'Asenna älymittarisi oikein.';
+  String get smartMeterMisconfiguredWidgetCardTitle => 'Asenna älymittarisi oikein.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Hae tiedot automaattisesti';
@@ -2293,9 +2151,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogError => 'Virhe';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogErrorMessage(
-    Object errorMessage,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogErrorMessage(Object errorMessage) {
     return 'Synkronoinnin aikana tapahtui seuraava virhe: $errorMessage';
   }
 
@@ -2303,13 +2159,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogErrorOkButton => 'Ok';
 
   @override
-  String get smartMeterSettingsScreenSyncingDialogHeader =>
-      'Synkronointi käynnissä';
+  String get smartMeterSettingsScreenSyncingDialogHeader => 'Synkronointi käynnissä';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent) {
     return 'Edistyminen: $progressInPercent%';
   }
 
@@ -2340,9 +2193,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  ) {
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId) {
     return 'Vesimittarisi $smartmeterId on havainnut epätavallisen korkean vedenkulutuksen, mikä voi viitata joko putken rikkoutumiseen tai uima-altaan täyttymiseen.Tarkista kotitaloutesi asennukset suurien vuotojen tai katkosten varalta.';
   }
 
@@ -2390,8 +2241,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Hyväksyn, että postinumeroni (jos annettu) välitetään TransnetBW:lle StromGedacht-ilmoitusten noutamiseksi.';
 
   @override
-  String get subscribeToSmartMeterInfocodeEvents =>
-      'Haluan saada ilmoituksen odottamattomasta kulutuksesta';
+  String get subscribeToSmartMeterInfocodeEvents => 'Haluan saada ilmoituksen odottamattomasta kulutuksesta';
 
   @override
   String get supplementaryPayment => 'Lisämaksu';
@@ -2406,8 +2256,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get supportGivePraise => 'Anna kiitosta';
 
   @override
-  String get supportGivePraiseLong =>
-      'Pidätkö sovelluksesta?Kiitos!Levitä sanaa!';
+  String get supportGivePraiseLong => 'Pidätkö sovelluksesta?Kiitos!Levitä sanaa!';
 
   @override
   String supportGivePraiseRating(String store) {
@@ -2422,8 +2271,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get supportMakeSuggestion => 'Ehdota jotakin';
 
   @override
-  String get supportMakeSuggestionLong =>
-      'Sovellus elää käyttäjien ehdotuksista.Onko sinulla ehdotus?';
+  String get supportMakeSuggestionLong => 'Sovellus elää käyttäjien ehdotuksista.Onko sinulla ehdotus?';
 
   @override
   String get supportQuestion => 'Esitä kysymys';
@@ -2432,12 +2280,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get supportQuestionBox => 'Kuinka voin auttaa?';
 
   @override
-  String get supportQuestionLong =>
-      'Miten se toimii?Onko se ollenkaan mahdollista?Tässä on vastauksia.';
+  String get supportQuestionLong => 'Miten se toimii?Onko se ollenkaan mahdollista?Tässä on vastauksia.';
 
   @override
-  String get supportQuestionNotFound =>
-      'Eikö kysymykseesi vastattu?Autan mielelläni.';
+  String get supportQuestionNotFound => 'Eikö kysymykseesi vastattu?Autan mielelläni.';
 
   @override
   String get supportRecommend =>
@@ -2447,20 +2293,17 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get supportReportBug => 'Ilmoita virheestä sähköpostitse';
 
   @override
-  String get supportReportBugAffectedPages =>
-      'Millä sivuilla virhe ilmenee?(jos sovellettavissa)';
+  String get supportReportBugAffectedPages => 'Millä sivuilla virhe ilmenee?(jos sovellettavissa)';
 
   @override
   String get supportReportBugLong =>
       'Hieno sovellus!Mutta toki asiat voivat mennä pieleen.Jos ilmoitat virheistä, teet sovelluksesta paremman.';
 
   @override
-  String get supportReportBugScreenshotsPlease =>
-      'Liitä sähköpostiin kuvakaappaus mieluiten virhemerkinnällä.';
+  String get supportReportBugScreenshotsPlease => 'Liitä sähköpostiin kuvakaappaus mieluiten virhemerkinnällä.';
 
   @override
-  String get supportReportBugTextIs =>
-      'Kuvaile lyhyesti nykyistä virheellistä toimintaa eli itse virhettä.';
+  String get supportReportBugTextIs => 'Kuvaile lyhyesti nykyistä virheellistä toimintaa eli itse virhettä.';
 
   @override
   String get supportReportBugTextShould =>
@@ -2488,8 +2331,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Tietosi ladataan automaattisesti Google Driveen muutoksen jälkeen.Uudemmat pilven tiedot korvaavat vain paikalliset tiedot, kun napsautat objektia.Käytössä on seuraava Google-tili:';
 
   @override
-  String get syncObjectIsLocked =>
-      'Objektitietoja päivitetään, eikä niitä voi muokata tänä aikana.';
+  String get syncObjectIsLocked => 'Objektitietoja päivitetään, eikä niitä voi muokata tänä aikana.';
 
   @override
   String get syncShareWithOthersNotInWeb =>
@@ -2503,16 +2345,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get syncShareWithOthersTitle => 'Jaa muiden kanssa?';
 
   @override
-  String get syncStatusFailedLong =>
-      'Synkronointi epäonnistui, muokkaaminen on omalla vastuullasi';
+  String get syncStatusFailedLong => 'Synkronointi epäonnistui, muokkaaminen on omalla vastuullasi';
 
   @override
-  String get syncStatusFailedLongNoAutoSync =>
-      'Synkronointi epäonnistui, muokkaaminen on omalla vastuullasi';
+  String get syncStatusFailedLongNoAutoSync => 'Synkronointi epäonnistui, muokkaaminen on omalla vastuullasi';
 
   @override
-  String get syncStatusSyncRemoteHasLatest =>
-      'Pilvessä oleva tiedosto on ajantasaisempi kuin paikallinen tiedosto';
+  String get syncStatusSyncRemoteHasLatest => 'Pilvessä oleva tiedosto on ajantasaisempi kuin paikallinen tiedosto';
 
   @override
   String get syncWithGoogleDriveDescription =>
@@ -2534,16 +2373,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get taxRate => 'Veroprosentti';
 
   @override
-  String get teaserPurchaseRenewableEnergies =>
-      'Uusiutuvan energian laskurit vaativat Premiumin.';
+  String get teaserPurchaseRenewableEnergies => 'Uusiutuvan energian laskurit vaativat Premiumin.';
 
   @override
-  String get teaserPurchaseVirtualCounter =>
-      'Lisää virtuaalisia laskureita Premiumilla.';
+  String get teaserPurchaseVirtualCounter => 'Lisää virtuaalisia laskureita Premiumilla.';
 
   @override
-  String get teaserPurchaseWaterExtractionCounter =>
-      'Avaa vedenottolaskurit Premiumilla.';
+  String get teaserPurchaseWaterExtractionCounter => 'Avaa vedenottolaskurit Premiumilla.';
 
   @override
   String termsOfUsageBlock1(String contact) {
@@ -2599,8 +2435,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get tibberAccessToken => 'Käyttöoikeustunnus';
 
   @override
-  String get tibberActionSaveAuthorizationSettings =>
-      'Tallenna valtuutusasetukset';
+  String get tibberActionSaveAuthorizationSettings => 'Tallenna valtuutusasetukset';
 
   @override
   String get tibberBasicAuth => 'Perustodennus';
@@ -2628,8 +2463,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get tibberConsentScreenConfigureLaterButton => 'Määritä myöhemmin';
 
   @override
-  String get tibberConsentScreenConfigureNowButton =>
-      'Ota Tibber Pulse käyttöön nyt';
+  String get tibberConsentScreenConfigureNowButton => 'Ota Tibber Pulse käyttöön nyt';
 
   @override
   String get tibberConsentScreenDescription =>
@@ -2640,20 +2474,16 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Tuntikulutuksesi 1. maaliskuuta alkaen anonymisoidaan ja tarjotaan Goethen tutkimukseen.';
 
   @override
-  String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'Haluatko osallistua Goethe-tutkimukseen?';
+  String get tibberConsentScreenGoetheStudyBenefit1Title => 'Haluatko osallistua Goethe-tutkimukseen?';
 
   @override
-  String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
-      'Kyllä, haluan osallistua Goethe-tutkimukseen';
+  String get tibberConsentScreenGoetheStudyParticipationConsentToggle => 'Kyllä, haluan osallistua Goethe-tutkimukseen';
 
   @override
-  String get tibberConsentScreenGoetheStudySectionHeader =>
-      'Osallistuminen tutkimusprojektiin';
+  String get tibberConsentScreenGoetheStudySectionHeader => 'Osallistuminen tutkimusprojektiin';
 
   @override
-  String get tibberConsentScreenHeader =>
-      'Uusi ominaisuus: Tibber Pulsen kulutustiedot';
+  String get tibberConsentScreenHeader => 'Uusi ominaisuus: Tibber Pulsen kulutustiedot';
 
   @override
   String get tibberConsentScreenStoreLink => 'Visit Tibber Store';
@@ -2669,18 +2499,12 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime) {
     return '24 tuntia $startTime $date';
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime) {
     return 'Alkaen: $startTime - $endDate';
   }
 
@@ -2695,10 +2519,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime) {
     return 'Yksi tunti $startTime $date';
   }
 
@@ -2716,8 +2537,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get tibberEnterAccessToken => 'Anna käyttöoikeustunnus';
 
   @override
-  String get tibberErrorAccessTokenInvalid =>
-      'Näyttää siltä, ​​että käyttöoikeustunnus on virheellinen';
+  String get tibberErrorAccessTokenInvalid => 'Näyttää siltä, ​​että käyttöoikeustunnus on virheellinen';
 
   @override
   String get tibberErrorConnectivityShowCacheInstead =>
@@ -2735,8 +2555,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Tibber API -nopeusraja ylitetty.Odota vähintään 5 minuuttia ennen kuin yrität uudelleen.';
 
   @override
-  String get tibberErrorSmartMeterMisconfigured =>
-      'Älykäs mittarisi näyttää olevan väärin määritetty.';
+  String get tibberErrorSmartMeterMisconfigured => 'Älykäs mittarisi näyttää olevan väärin määritetty.';
 
   @override
   String tibberErrorUndefined(Object error) {
@@ -2759,28 +2578,22 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementCounterCardViewFooter => 'Live-mittaus';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumption =>
-      'Kokonaiskulutus (keskiyön jälkeen)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumption => 'Kokonaiskulutus (keskiyön jälkeen)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour =>
-      'Kulutus (viimeinen tunti)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour => 'Kulutus (viimeinen tunti)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedCost =>
-      'Kertyneet kustannukset';
+  String get tibberLiveMeasurementWidgetAccumulatedCost => 'Kertyneet kustannukset';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProduction =>
-      'Kokonaistuotanto (keskiyön jälkeen)';
+  String get tibberLiveMeasurementWidgetAccumulatedProduction => 'Kokonaistuotanto (keskiyön jälkeen)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour =>
-      'Tuotanto (viime tunti)';
+  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour => 'Tuotanto (viime tunti)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedReward =>
-      'Kertynyt palkinto';
+  String get tibberLiveMeasurementWidgetAccumulatedReward => 'Kertynyt palkinto';
 
   @override
   String get tibberLiveMeasurementWidgetAveragePower => 'Keskimääräinen teho';
@@ -2795,12 +2608,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetCurrentL3 => 'Nykyinen (L3)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'Mittarin lukema (kulutus)';
+  String get tibberLiveMeasurementWidgetLastMeterConsumption => 'Mittarin lukema (kulutus)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'Mittarinluku (tuotanto)';
+  String get tibberLiveMeasurementWidgetLastMeterProduction => 'Mittarinluku (tuotanto)';
 
   @override
   String get tibberLiveMeasurementWidgetMaxPower => 'Max teho';
@@ -2844,24 +2655,20 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetVoltagePhase3 => 'Jännite (vaihe 3)';
 
   @override
-  String get tibberLiveMeasurementsWidgetConnecting =>
-      'Yhdistetään Tibber Pulseen...';
+  String get tibberLiveMeasurementsWidgetConnecting => 'Yhdistetään Tibber Pulseen...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
       'Tapahtui virhe muodostettaessa yhteyttä Tibber Pulseen.Tarkista käyttöoikeustunnuksesi ja Internet-yhteytesi.';
 
   @override
-  String get tibberLiveMeasurementsWidgetNotSupported =>
-      'Reaaliaikaisia ​​mittauksia ei tueta tässä kodissa.';
+  String get tibberLiveMeasurementsWidgetNotSupported => 'Reaaliaikaisia ​​mittauksia ei tueta tässä kodissa.';
 
   @override
-  String get tibberMessageAccessTokenUpdated =>
-      'Käyttöoikeustunnuksen päivitys onnistui';
+  String get tibberMessageAccessTokenUpdated => 'Käyttöoikeustunnuksen päivitys onnistui';
 
   @override
-  String get tibberStatusWidgetTibberSubscriptionStatus =>
-      'Tibber-tilauksen tila';
+  String get tibberStatusWidgetTibberSubscriptionStatus => 'Tibber-tilauksen tila';
 
   @override
   String get tibberStatusWidgetTitle => 'Välimuistin hallinta';
@@ -3034,12 +2841,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String unitGJLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Gigajoulea (GJ)',
-      one: 'Gigajoule (GJ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Gigajoulea (GJ)', one: 'Gigajoule (GJ)');
     return '$_temp0';
   }
 
@@ -3054,12 +2856,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String unitHoursLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Tuntia (h)',
-      one: 'Tunti',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Tuntia (h)', one: 'Tunti');
     return '$_temp0';
   }
 
@@ -3082,12 +2879,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String unitKgLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Kilogrammaa (kg)',
-      one: 'Kilogramma (kg)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Kilogrammaa (kg)', one: 'Kilogramma (kg)');
     return '$_temp0';
   }
 
@@ -3099,12 +2891,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String unitLitersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Litraa (ℓ)',
-      one: 'Litra (ℓ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Litraa (ℓ)', one: 'Litra (ℓ)');
     return '$_temp0';
   }
 
@@ -3136,12 +2923,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String unitNoneFormatted(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'yksikköä',
-      one: 'yksikkö',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'yksikköä', one: 'yksikkö');
     return '$_temp0';
   }
 
@@ -3156,12 +2938,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String unitSquareMetersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Neliömetriä (m²)',
-      one: 'Neliömetri (m²)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Neliömetriä (m²)', one: 'Neliömetri (m²)');
     return '$_temp0';
   }
 
@@ -3184,8 +2961,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get useDismissibleSettings => 'Poista pyyhkäisyllä';
 
   @override
-  String get useDismissibleSettingsDetailed =>
-      'Laskurit, sopimukset jne. voidaan poistaa pyyhkäisemällä sivulle';
+  String get useDismissibleSettingsDetailed => 'Laskurit, sopimukset jne. voidaan poistaa pyyhkäisemällä sivulle';
 
   @override
   String get usedForPaymentsRepayments => 'Ennakkomaksu, perushinta ja bonus';
@@ -3233,8 +3009,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Mitkä mittarin lukemat tulee vähentää päämittarista, esim. \"lämpöpumppumittarit\", \"sähkönsyöttömittarit\".';
 
   @override
-  String get virtualCounterNotConfigured =>
-      'Tarkista virtuaalimittarisi asetukset.Mitään ei voi laskea.';
+  String get virtualCounterNotConfigured => 'Tarkista virtuaalimittarisi asetukset.Mitään ei voi laskea.';
 
   @override
   String get wallbox => 'Wallbox';
@@ -3261,10 +3036,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String warningReadingBiggerThanOldValue(String isOilCounter) {
-    String _temp0 = intl.Intl.selectLogic(isOilCounter, {
-      'true': ' Oletko täyttänyt säiliön?',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(isOilCounter, {'true': ' Oletko täyttänyt säiliön?', 'other': ''});
     return 'Uusi arvo on suurempi kuin edellinen mittarin lukema.$_temp0';
   }
 
@@ -3273,30 +3045,20 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Uusi arvo on suurempi kuin edellinen mittarin lukema.Oletko täyttänyt tankin?';
 
   @override
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  ) {
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart) {
     return 'Vuoden $lastYear lopullinen mittarin lukema $deviceTypeName $roomNamePart puuttuu.Tämä on tarpeen vuotuisen kokonaiskulutuksen oikean laskemisen kannalta.';
   }
 
   @override
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  ) {
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText) {
     return '$outdatedSinceText $whenNotifyDateText. Laitetyypin $deviceTypeName viimeisin mittarilukema on vanhentunut.';
   }
 
   @override
-  String get warningReadingSeemsTooBig =>
-      'Uusi arvo on melko korkea.Onko lukema otettu oikein?';
+  String get warningReadingSeemsTooBig => 'Uusi arvo on melko korkea.Onko lukema otettu oikein?';
 
   @override
-  String get warningReadingSeemsTooSmall =>
-      'Uusi arvo on melko alhainen.Oliko se luettu oikein?';
+  String get warningReadingSeemsTooSmall => 'Uusi arvo on melko alhainen.Oliko se luettu oikein?';
 
   @override
   String get warningReadingSmallerThanOldValue2 =>
@@ -3313,8 +3075,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get waterConsumption => 'Vedenkulutus';
 
   @override
-  String get waterExtractionMinimumLevelLower =>
-      'Vähennys tapahtuu, koska kulutus on alle kynnyksen.';
+  String get waterExtractionMinimumLevelLower => 'Vähennys tapahtuu, koska kulutus on alle kynnyksen.';
 
   @override
   String waterMeterEventsInformation(num count, String waterSupplier) {
@@ -3333,8 +3094,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get waterSupplier => 'Veden toimittaja';
 
   @override
-  String get waterSupplierHint =>
-      'Paikallinen vesilaitos, esim. Stadtwerke Musterstadt.';
+  String get waterSupplierHint => 'Paikallinen vesilaitos, esim. Stadtwerke Musterstadt.';
 
   @override
   String get waterSupplierUnknown =>
@@ -3349,8 +3109,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Oletko jo pyytänyt käyttöoikeutta?Seuraavaksi sinun on luotava EHW+ -käyttäjätili.';
 
   @override
-  String get watersupplierAccessRequestQ3 =>
-      'Oletko jo pyytänyt käyttöoikeutta ja saanut QR-koodisi?';
+  String get watersupplierAccessRequestQ3 => 'Oletko jo pyytänyt käyttöoikeutta ja saanut QR-koodisi?';
 
   @override
   String get watersupplierAccessRequestQ4 =>
@@ -3365,12 +3124,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Et pääse ohi!Syötä mittaritunnuksesi kolme viimeistä numeroa uudelleen!';
 
   @override
-  String get watersupplierMeterIdValidationStep =>
-      'Tarkistamme mittarisi tunnuksesi.';
+  String get watersupplierMeterIdValidationStep => 'Tarkistamme mittarisi tunnuksesi.';
 
   @override
-  String get watersupplierNoAccess =>
-      'Sinulla ei ole enää lupaa hakea tietoja.';
+  String get watersupplierNoAccess => 'Sinulla ei ole enää lupaa hakea tietoja.';
 
   @override
   String get watersupplierNoAccessDetailedMessage =>
@@ -3387,12 +3144,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Valtuutamme nyt tilisi, jotta voit käyttää radiomittarin lukemia tulevaisuudessa.';
 
   @override
-  String get watersupplierScanQrCodeCommand =>
-      'Skannaa vasen QR-koodi (aktivointikoodi)!';
+  String get watersupplierScanQrCodeCommand => 'Skannaa vasen QR-koodi (aktivointikoodi)!';
 
   @override
-  String get watersupplierScanQrCodeOffboardingSuccessful =>
-      'Pääsy radiovesimittariisi on peruutettu.';
+  String get watersupplierScanQrCodeOffboardingSuccessful => 'Pääsy radiovesimittariisi on peruutettu.';
 
   @override
   String get watersupplierScanQrCodeScanSuccessful =>
@@ -3410,12 +3165,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Joo!\"Cold Water\" -tyyppinen radiovesimittarisi on lisätty onnistuneesti.Löydät sen muiden mittarien joukosta.';
 
   @override
-  String get watersupplierScanQrCodeValidation =>
-      'QR-koodi havaittu, tarkistetaan se.';
+  String get watersupplierScanQrCodeValidation => 'QR-koodi havaittu, tarkistetaan se.';
 
   @override
-  String get watersupplierScanQrCodeValidationFailed =>
-      'Koodi on virheellinen.Haluatko yrittää uudelleen?';
+  String get watersupplierScanQrCodeValidationFailed => 'Koodi on virheellinen.Haluatko yrittää uudelleen?';
 
   @override
   String get watersupplierScanQrCodeValidationFailedOnboardingScanned =>
@@ -3426,15 +3179,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Skannatut peruutuskoodin aktivointikoodin sijaan.Yritä uudelleen!';
 
   @override
-  String get watersupplierScanRevokeQrCodeCommand =>
-      'Skannaa oikea QR-koodi (peruuta koodi)!';
+  String get watersupplierScanRevokeQrCodeCommand => 'Skannaa oikea QR-koodi (peruuta koodi)!';
 
   @override
   String get watersupplierUnlinkRadioMeterButtonDelete => 'Poista radiolaskuri';
 
   @override
-  String get watersupplierUnlinkRadioMeterButtonRevoke =>
-      'Skannaa peruutuskoodi';
+  String get watersupplierUnlinkRadioMeterButtonRevoke => 'Skannaa peruutuskoodi';
 
   @override
   String get watersupplierUnlinkRadioMeterDescription1 =>
@@ -3445,8 +3196,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Etkö enää halua käyttää radiomittaritietojasi?Huomaa: kun peruutuskoodi on skannattu, aktivointikoodi ei kelpaa.Kaikki aktivointikoodia käyttäneet käyttäjätilit menettävät pääsyn.';
 
   @override
-  String get watersupplierUnlinkRadioMeterTitle =>
-      'Lopeta radiomittarin käyttö';
+  String get watersupplierUnlinkRadioMeterTitle => 'Lopeta radiomittarin käyttö';
 
   @override
   String get yearlyConsumption => 'Vuosikulutus tähän mennessä';
@@ -3474,6 +3224,5 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get zipCodeValidationOnlyNumbers =>
-      'Kelvollinen postinumero koostuu vain numeroista';
+  String get zipCodeValidationOnlyNumbers => 'Kelvollinen postinumero koostuu vain numeroista';
 }

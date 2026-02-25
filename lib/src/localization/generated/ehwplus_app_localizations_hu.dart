@@ -15,8 +15,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get accountBenefit1 => 'Megbízhatóbb vásárlási felismerés';
 
   @override
-  String get accountBenefit2 =>
-      'Hozzáférés minden megvásárolt bővítményhez több eszközön is';
+  String get accountBenefit2 => 'Hozzáférés minden megvásárolt bővítményhez több eszközön is';
 
   @override
   String get accountButtonSetup => 'EHW+ felhasználói fiók beállítása';
@@ -33,8 +32,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get accountFaqQ1 => 'Mi az EHW+ felhasználói fiók?';
 
   @override
-  String get accountFaqQ2 =>
-      'EHW+ felhasználói fiók nélkül is hozzáférhetek a vásárlásaimhoz?';
+  String get accountFaqQ2 => 'EHW+ felhasználói fiók nélkül is hozzáférhetek a vásárlásaimhoz?';
 
   @override
   String get accountFaqTitle => 'Gyakran ismételt kérdések:';
@@ -96,8 +94,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get activityWashTemperature => 'Hőmérséklet';
 
   @override
-  String get activityWithEnergyConsumption =>
-      'Az energiafogyasztást csak a tevékenységhez mérik';
+  String get activityWithEnergyConsumption => 'Az energiafogyasztást csak a tevékenységhez mérik';
 
   @override
   String get addActivity => 'Tevékenység hozzáadása';
@@ -147,8 +144,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get cancellationPeriod => 'Lemondási időszak';
 
   @override
-  String get changeCounterOrder =>
-      'Ha szükséges, megváltoztathatja a sorrendet';
+  String get changeCounterOrder => 'Ha szükséges, megváltoztathatja a sorrendet';
 
   @override
   String get chartDottedLinesNonSeasonal =>
@@ -167,8 +163,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Németországban átlagosan minden egyes ember naponta 127 liter ivóvizet használ a háztartásában. A kék vonal a hideg vizet (60%), a piros vonal a meleg vizet (40%) jelöli, extrapolálva az adott időszak napjainak és a személyek számának függvényében.';
 
   @override
-  String get chartHorizontalLines =>
-      'A szaggatott vonalak célja, hogy visszajelzést adjon a saját fogyasztásáról.';
+  String get chartHorizontalLines => 'A szaggatott vonalak célja, hogy visszajelzést adjon a saját fogyasztásáról.';
 
   @override
   String get chooseActivity => 'Válasszon tevékenységet';
@@ -198,12 +193,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'A visszajelzés automatikusan megtörténik, amikor Ön használja az előrejelző szolgáltatást, és beleegyezik az optimalizálásba.';
 
   @override
-  String get cometConsentScreenFeedbackTitle =>
-      'A Goethe Egyetemnek szüksége van a visszajelzéseire:';
+  String get cometConsentScreenFeedbackTitle => 'A Goethe Egyetemnek szüksége van a visszajelzéseire:';
 
   @override
-  String get cometConsentScreenHeader =>
-      'Újdonság: jobb fogyasztási előrejelzések';
+  String get cometConsentScreenHeader => 'Újdonság: jobb fogyasztási előrejelzések';
 
   @override
   String get cometConsentScreenHowItWorksTitle => 'Hogyan működik?';
@@ -213,24 +206,20 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Egy egyszerűsített helyi előrejelzés kerül kiszámításra az Ön készülékén.';
 
   @override
-  String get cometConsentScreenOfflineDescriptionTitle =>
-      'Internetkapcsolat nélkül:';
+  String get cometConsentScreenOfflineDescriptionTitle => 'Internetkapcsolat nélkül:';
 
   @override
   String get cometConsentScreenOnlineDescription =>
       'Az Ön fogyasztási adatait elküldjük a Goethe Egyetem Frankfurtba, ahol egyéni előrejelzés készül, és megjelenik az alkalmazásban.';
 
   @override
-  String get cometConsentScreenOnlineDescriptionTitle =>
-      'Internetkapcsolattal:';
+  String get cometConsentScreenOnlineDescriptionTitle => 'Internetkapcsolattal:';
 
   @override
-  String get cometConsentScreenToggleLabel =>
-      'Előrejelző szolgáltatás használata';
+  String get cometConsentScreenToggleLabel => 'Előrejelző szolgáltatás használata';
 
   @override
-  String get cometSettingsIsPredictionsApiEnabled =>
-      'A Goethe Intézet COMET Forecast API-jának használata';
+  String get cometSettingsIsPredictionsApiEnabled => 'A Goethe Intézet COMET Forecast API-jának használata';
 
   @override
   String get comment => 'Megjegyzés';
@@ -326,10 +315,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get commonUserLogin => 'Felhasználói bejelentkezés';
 
   @override
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  ) {
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total) {
     return 'Az EHW+ fiókot használja. Az $total webhelyen vásárolt termékek közül $notSubmitted nem menthető az EHW+ szerverre. Reméljük, hogy a problémát hamarosan megoldjuk.';
   }
 
@@ -338,8 +324,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          '$count a vásárlások az EHW+ fiókon keresztül szinkronizálva lettek.',
+      other: '$count a vásárlások az EHW+ fiókon keresztül szinkronizálva lettek.',
       one: 'Egy vásárlás szinkronizálásra került az EHW+ fiókon keresztül.',
     );
     return '$_temp0';
@@ -350,12 +335,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          'Az EHW+ fiókot használja. Az $count webhelyen vásárolt termékek az EHW+ szerverre lettek mentve.',
-      one:
-          'Az EHW+ fiókot használja. Az $count vásárolt termék az EHW+ szerveren lett elmentve.',
-      zero:
-          'Ön az EHW+ fiókot használja. Ha a jövőben termékeket vásárol, azok szinkronizálódnak az összes eszközén.',
+      other: 'Az EHW+ fiókot használja. Az $count webhelyen vásárolt termékek az EHW+ szerverre lettek mentve.',
+      one: 'Az EHW+ fiókot használja. Az $count vásárolt termék az EHW+ szerveren lett elmentve.',
+      zero: 'Ön az EHW+ fiókot használja. Ha a jövőben termékeket vásárol, azok szinkronizálódnak az összes eszközén.',
     );
     return '$_temp0';
   }
@@ -390,8 +372,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'A TransnetBW által nyújtott StromGedacht szolgáltatás információt nyújt a hálózat stabilitásáról és ajánlásokat tesz arra vonatkozóan, hogy mikor érdemes előnyben részesíteni az áram felhasználását. Mivel az energiaátállás egyre nagyobb kihívást jelent az átviteli hálózat számára, a délnyugat-németországi háztartásokat is bevonják. Az Ön tartózkodási helyére vonatkozó információkhoz az irányítószámát, ha itt adja meg az alkalmazásban, továbbítja a TransnetBW StromGedacht API-nak. Más adat nem kerül továbbításra vagy összekapcsolásra.';
 
   @override
-  String get consent13StromGedachtTitle =>
-      'Hálózati stabilitási értesítések a StromGedacht-tól';
+  String get consent13StromGedachtTitle => 'Hálózati stabilitási értesítések a StromGedacht-tól';
 
   @override
   String get consent1Hello => 'Hello';
@@ -422,8 +403,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get consumption => 'Fogyasztás';
 
   @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache erfolgreich geleert';
+  String get consumptionCacheDebugViewCacheCleared => 'Cache erfolgreich geleert';
 
   @override
   String get consumptionCacheDebugViewClear => 'Löschen';
@@ -445,32 +425,27 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get consumptionCacheDebugViewTitle => 'Verbrauchscache';
 
   @override
-  String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'Clear & sync';
+  String get consumptionCacheManagementClearCacheAndSynchronizeButton => 'Clear & sync';
 
   @override
-  String get consumptionCacheManagementClearCacheButton =>
-      'Gyorsítótár törlése';
+  String get consumptionCacheManagementClearCacheButton => 'Gyorsítótár törlése';
 
   @override
-  String get consumptionCacheManagementClearedSuccessfully =>
-      'A gyorsítótár sikeresen törlődött';
+  String get consumptionCacheManagementClearedSuccessfully => 'A gyorsítótár sikeresen törlődött';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
       'Minden gyorsítótárazott adat törlődik és újra letöltődik a szerverről. Ez eltarthat egy ideig.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'Cache törlése és szinkronizálás?';
+  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle => 'Cache törlése és szinkronizálás?';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
       'Minden gyorsítótárazott fogyasztási adat véglegesen törlődik. Később szinkronizálhatja őket.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheTitle =>
-      'Törölje a gyorsítótárat?';
+  String get consumptionCacheManagementConfirmClearCacheTitle => 'Törölje a gyorsítótárat?';
 
   @override
   String get consumptionCacheToggleButtonDescription =>
@@ -499,18 +474,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String consumptionPersonLabel(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'emberek',
-      one: 'személy',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'emberek', one: 'személy');
     return '$_temp0';
   }
 
   @override
-  String get consumptionWaterColdEqual =>
-      'Hideg víz: körülbelül annyi, mint egy átlagos háztartásban.';
+  String get consumptionWaterColdEqual => 'Hideg víz: körülbelül annyi, mint egy átlagos háztartásban.';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
@@ -523,49 +492,27 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Ez fejenként körülbelül $dailyLiters liter naponta (≈ $monthlyCubicMeters $unitName havonta) felel meg.';
   }
 
   @override
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Naponta körülbelül $dailyLiters liter folyadékot fogyaszt (≈ $monthlyCubicMeters $unitName havonta).';
   }
 
   @override
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel) {
     return 'A vízfogyasztása $ofRange megegyezik egy átlagos háztartás vízfogyasztásával $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'A vízfogyasztása $ofRange $percentage alacsonyabb, mint egy átlagos háztartásé $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'A vízfogyasztása $ofRange $percentage magasabb, mint egy átlagos háztartásé $householdSize $personLabel.';
   }
 
@@ -575,8 +522,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionWaterWarmEqual =>
-      'Melegvíz: körülbelül annyi, mint egy átlagos háztartásban.';
+  String get consumptionWaterWarmEqual => 'Melegvíz: körülbelül annyi, mint egy átlagos háztartásban.';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
@@ -594,23 +540,15 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionYearlyDetailedAboutSame =>
-      'körülbelül ugyanannyi, mint';
+  String get consumptionYearlyDetailedAboutSame => 'körülbelül ugyanannyi, mint';
 
   @override
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  ) {
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel) {
     return 'egy átlagos háztartás, amelynek tagjai $householdSize $personLabel';
   }
 
   @override
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  ) {
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix) {
     return '$verbSuffix-t fogyaszt, ami körülbelül egy átlagos háztartás fogyasztásának felel meg ($householdSize $personLabel).';
   }
 
@@ -705,8 +643,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get contactTitle => 'Képviseli:';
 
   @override
-  String get continueAcceptPart1 =>
-      'Az EHW+ alkalmazás használatával Ön elfogadja a következőket';
+  String get continueAcceptPart1 => 'Az EHW+ alkalmazás használatával Ön elfogadja a következőket';
 
   @override
   String get continueAcceptPart2 =>
@@ -719,12 +656,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Nem, törölje.';
 
   @override
-  String get contractCopyDialogOptionYes =>
-      'Igen, az egységár vagy más érték megváltozott.';
+  String get contractCopyDialogOptionYes => 'Igen, az egységár vagy más érték megváltozott.';
 
   @override
-  String get contractCopyDialogTitle =>
-      'Szeretne másolatot készíteni erről a szerződésről?';
+  String get contractCopyDialogTitle => 'Szeretne másolatot készíteni erről a szerződésről?';
 
   @override
   String get contractCopyDialogWhen => 'Mikortól érvényes az új ár?';
@@ -834,16 +769,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get counterColdWater => 'Hidegvízmérő';
 
   @override
-  String get counterConsiderForTotalConsumptions =>
-      'Tekintsük a teljes fogyasztást';
+  String get counterConsiderForTotalConsumptions => 'Tekintsük a teljes fogyasztást';
 
   @override
-  String get counterConsiderForTotalElectricity =>
-      'Tekintsük a teljes villamosenergia-fogyasztást';
+  String get counterConsiderForTotalElectricity => 'Tekintsük a teljes villamosenergia-fogyasztást';
 
   @override
-  String get counterConsiderForTotalWater =>
-      'Tekintsük a teljes vízfogyasztást';
+  String get counterConsiderForTotalWater => 'Tekintsük a teljes vízfogyasztást';
 
   @override
   String get counterContractCurrentlyUsed => 'Jelenleg használt szerződés';
@@ -865,10 +797,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Az érték a használattal csökken (szintjelző stb.), vagy az érték a használattal nő (égőórák, olajmérő stb.), vagy az egyes leolvasási értékek függetlenek (fogyasztás/hozam)?';
 
   @override
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  ) {
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar) {
     return '$consumptionElectricity/$consumptionSolar';
   }
 
@@ -943,8 +872,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get counterLinkMoreRecent => 'Link újabb számláló';
 
   @override
-  String get counterMessageRoomOptional =>
-      'A szobabeosztás segít a csoportosításban, de nem kötelező.';
+  String get counterMessageRoomOptional => 'A szobabeosztás segít a csoportosításban, de nem kötelező.';
 
   @override
   String get counterMeterId => 'Mérőazonosító';
@@ -981,8 +909,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get counterProportionateConsumption => 'Arányos fogyasztás';
 
   @override
-  String get counterPvFeedInCounter =>
-      'Megújuló energiák (napenergia és hő PV/napelemes rendszerekkel)';
+  String get counterPvFeedInCounter => 'Megújuló energiák (napenergia és hő PV/napelemes rendszerekkel)';
 
   @override
   String get counterPvFeedInCounterExplanation =>
@@ -1032,8 +959,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get counterWarmWater => 'Melegvíz-mérő';
 
   @override
-  String get counterWarmWaterPlusColdWater =>
-      'Az édesvíz- és szennyvízköltségek nélkül';
+  String get counterWarmWaterPlusColdWater => 'Az édesvíz- és szennyvízköltségek nélkül';
 
   @override
   String get counterWater => 'Vízmérők';
@@ -1082,8 +1008,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get driveSyncNow => 'Szinkronizálás most';
 
   @override
-  String get driveSyncStatusComparing =>
-      'Összehasonlítás a kiszolgálón lévő fájlokkal';
+  String get driveSyncStatusComparing => 'Összehasonlítás a kiszolgálón lévő fájlokkal';
 
   @override
   String get driveSyncStatusFailed => 'Nem sikerült szinkronizálni';
@@ -1094,10 +1019,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate) {
     return 'Az $localDate webhelyről erre az eszközre mentett fájl naprakészebb, mint a $cloudDate webhelyről a felhőbe mentett fájl.';
   }
 
@@ -1110,10 +1032,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate) {
     return 'A $cloudDate felhőben található fájl naprakészebb, mint a $localDate helyi fájl.';
   }
 
@@ -1169,8 +1088,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get existingPhoto => 'Csatolja a meglévő fényképet';
 
   @override
-  String get existingPhotoOfMeterReading =>
-      'Szeretne csatolni egy meglévő fényképet a mérőórák leolvasásáról?';
+  String get existingPhotoOfMeterReading => 'Szeretne csatolni egy meglévő fényképet a mérőórák leolvasásáról?';
 
   @override
   String get explanationManageMoreThanOneObject =>
@@ -1230,14 +1148,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'Megosztás más alkalmazásokkal';
 
   @override
-  String get exportTabSnackBarSaveResultMessageError =>
-      'Hiba történt az adatok mentése közben';
+  String get exportTabSnackBarSaveResultMessageError => 'Hiba történt az adatok mentése közben';
 
   @override
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  ) {
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder) {
     return 'Az adatok sikeresen lettek mentve a $fileName néven a $folder mappába.';
   }
 
@@ -1245,8 +1159,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get exportWhere => 'Milyen formátumban kell exportálni az objektumot?';
 
   @override
-  String get exportWhichValuesShouldBeExported =>
-      'Mely értékeket kell exportálni?';
+  String get exportWhichValuesShouldBeExported => 'Mely értékeket kell exportálni?';
 
   @override
   String get faqAboutDeveloperBody1 =>
@@ -1257,8 +1170,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'A németországi CO2-kibocsátás több mint 26%-át a magánháztartások okozzák. Ha mindenki csak egy kicsit is csökkenteni tudja a fogyasztását, máris sokat elértünk. Köszönjük szépen a hozzájárulását!';
 
   @override
-  String get faqAboutDeveloperBody3 =>
-      'Szívesen fogadjuk az alkalmazás fejlesztésére vonatkozó javaslatokat.';
+  String get faqAboutDeveloperBody3 => 'Szívesen fogadjuk az alkalmazás fejlesztésére vonatkozó javaslatokat.';
 
   @override
   String get faqAboutDeveloperBody4 =>
@@ -1274,8 +1186,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get featureVoting => 'Jellemző szavazás';
 
   @override
-  String get featureVotingOnlyOnGerman =>
-      'A funkciófelmérés nincs lefordítva más nyelvekre.';
+  String get featureVotingOnlyOnGerman => 'A funkciófelmérés nincs lefordítva más nyelvekre.';
 
   @override
   String get featureVotingUnderConstruction =>
@@ -1351,10 +1262,8 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       columns,
       locale: localeName,
-      other:
-          'Csak az első két oszlopot használták, a $columns oszlopokat figyelmen kívül hagyták.',
-      one:
-          'Csak az első két oszlopot használták fel. A harmadik oszlopot figyelmen kívül hagytuk.',
+      other: 'Csak az első két oszlopot használták, a $columns oszlopokat figyelmen kívül hagyták.',
+      one: 'Csak az első két oszlopot használták fel. A harmadik oszlopot figyelmen kívül hagytuk.',
     );
     return '$_temp0';
   }
@@ -1371,15 +1280,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get importExplanation =>
-      'Már elkészítette az ellenértékeket, és be akarja illeszteni őket?';
+  String get importExplanation => 'Már elkészítette az ellenértékeket, és be akarja illeszteni őket?';
 
   @override
   String get importExport => 'Biztonsági mentés/visszaállítás';
 
   @override
-  String get importNewOrExistingCounter =>
-      'Új vagy meglévő számlálóhoz hozzáadni?';
+  String get importNewOrExistingCounter => 'Új vagy meglévő számlálóhoz hozzáadni?';
 
   @override
   String get importNotPossible => 'Importálás nem lehetséges';
@@ -1443,8 +1350,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get lineChartAppearanceSettings => 'Vonaldiagramok megjelenése';
 
   @override
-  String get lineChartAppearanceSettingsShowSpots =>
-      '(Kör alakú) foltok megjelenítése a diagramok vonalain';
+  String get lineChartAppearanceSettingsShowSpots => '(Kör alakú) foltok megjelenítése a diagramok vonalain';
 
   @override
   String localWriteSubtitle(Object folder) {
@@ -1455,12 +1361,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get localWriteTitle => 'Mentés a helyi letöltési mappába';
 
   @override
-  String get manageMoreThanOneObjectStep1 =>
-      'Több objektum kezelése - 1. lépés';
+  String get manageMoreThanOneObjectStep1 => 'Több objektum kezelése - 1. lépés';
 
   @override
-  String get manageMoreThanOneObjectStep2 =>
-      'Több objektum kezelése - 2. lépés';
+  String get manageMoreThanOneObjectStep2 => 'Több objektum kezelése - 2. lépés';
 
   @override
   String get marketLocationId => 'Piaci hely azonosítója';
@@ -1483,12 +1387,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Ön még nem hozott létre számlálót.';
 
   @override
-  String get messageNoRooms =>
-      'Még nincsenek szobák. Szobák segítenek a csoportos mérők.';
+  String get messageNoRooms => 'Még nincsenek szobák. Szobák segítenek a csoportos mérők.';
 
   @override
-  String get messageNotEnoughData =>
-      'Nincs elég adat a diagram megjelenítéséhez';
+  String get messageNotEnoughData => 'Nincs elég adat a diagram megjelenítéséhez';
 
   @override
   String get meterCardLastUpdatedLabel => 'Frissített';
@@ -1503,8 +1405,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get meterReadingsFilterAll => 'Mindent megmutatni';
 
   @override
-  String get meterReadingsFilterComments =>
-      'Csak a megjegyzésekkel ellátott bejegyzések megjelenítése';
+  String get meterReadingsFilterComments => 'Csak a megjegyzésekkel ellátott bejegyzések megjelenítése';
 
   @override
   String meterReadingsFilterSubmitted(String state) {
@@ -1512,12 +1413,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get meterReplacementCreateNew =>
-      'Későbbi azonos típusú mérő létrehozása';
+  String get meterReplacementCreateNew => 'Későbbi azonos típusú mérő létrehozása';
 
   @override
-  String get meterReplacementDescription =>
-      'Ez a mérő elavult, és már lecserélték egy új mérőre?';
+  String get meterReplacementDescription => 'Ez a mérő elavult, és már lecserélték egy új mérőre?';
 
   @override
   String monthEnd(Object month) {
@@ -1540,8 +1439,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get newPhoto => 'Új fénykép készítése';
 
   @override
-  String get newPhotoOfMeterReading =>
-      'Szeretne fényképet készíteni a mérőóráról?';
+  String get newPhotoOfMeterReading => 'Szeretne fényképet készíteni a mérőóráról?';
 
   @override
   String get newReading => 'Adja meg az aktuális értéket';
@@ -1556,8 +1454,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get notificationsEmpty => 'Nincsenek értesítések';
 
   @override
-  String get notificationsSmartMeterAlertFallback =>
-      'Új intelligens mérőóra riasztása van.';
+  String get notificationsSmartMeterAlertFallback => 'Új intelligens mérőóra riasztása van.';
 
   @override
   String numCounters(int count) {
@@ -1573,23 +1470,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(
-      readings,
-      locale: localeName,
-      other: '# readings',
-      one: '# reading',
-    );
+    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# readings', one: '# reading');
     return '$_temp0';
   }
 
   @override
   String numberOfDetails(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: '$count részletek',
-      one: '1 részlet',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: '$count részletek', one: '1 részlet');
     return '$_temp0';
   }
 
@@ -1799,8 +1686,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get purchasesBuyNow => 'Vásároljon most';
 
   @override
-  String get purchasesDisabledOnIOS =>
-      'Alkalmazáson belüli vásárlások letiltva';
+  String get purchasesDisabledOnIOS => 'Alkalmazáson belüli vásárlások letiltva';
 
   @override
   String get purchasesDisabledOnIOSDescription =>
@@ -1819,8 +1705,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Adja meg a mérőórák leolvasását tetszőleges számú lakás/ház/objektum esetében (nem csak egy objektum esetében).';
 
   @override
-  String get purchasesExtensionMultipleObjectsTitlePart =>
-      'Több objektum kezelése';
+  String get purchasesExtensionMultipleObjectsTitlePart => 'Több objektum kezelése';
 
   @override
   String get purchasesExtensionStatisticsDescription =>
@@ -1834,8 +1719,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'További bővítéseket terveznek. Vegyen részt a funkciókra vonatkozó felmérésben, hogy elmondhassa véleményét.';
 
   @override
-  String get purchasesExtensionsSubtitle =>
-      'Egyszeri vásárlás, állandó használat (nincs előfizetés)';
+  String get purchasesExtensionsSubtitle => 'Egyszeri vásárlás, állandó használat (nincs előfizetés)';
 
   @override
   String get purchasesExtensionsTitle => 'Egyszeri kiterjesztések';
@@ -1883,10 +1767,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew) {
     return 'Havi előfizetés, amely havonta lemondható, hűségáron: $price helyett $priceNew';
   }
 
@@ -1900,10 +1781,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew) {
     return 'Évente felmondható előfizetés hűségáron: $price évente, ahelyett, hogy $priceNew';
   }
 
@@ -1922,8 +1800,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get purchasesWhyBuyTitle => 'Miért kellene vásárolnom valamit?';
 
   @override
-  String get purchasesYourPurchases =>
-      'A következő prémium csomagokhoz férhet hozzá:';
+  String get purchasesYourPurchases => 'A következő prémium csomagokhoz férhet hozzá:';
 
   @override
   String get reading => 'Számláló olvasás';
@@ -1938,12 +1815,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get readingPrefill => 'Automatikusan kitöltődő mérőóra-leolvasás';
 
   @override
-  String get readingPrefillDescription =>
-      'Előre feltöltött mérőórák leolvasása a korábbi bejegyzések alapján';
+  String get readingPrefillDescription => 'Előre feltöltött mérőórák leolvasása a korábbi bejegyzések alapján';
 
   @override
-  String get readingPrefillDisableForAllCounters =>
-      'Automatikus kitöltés kikapcsolása minden számláló esetében';
+  String get readingPrefillDisableForAllCounters => 'Automatikus kitöltés kikapcsolása minden számláló esetében';
 
   @override
   String get readingPrefillDisabled => 'Automatikus kitöltés letiltva';
@@ -1952,8 +1827,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get readingPrefillDisabledToast => 'Automatikus kitöltés letiltva';
 
   @override
-  String get readingPrefillEnableForAllCounters =>
-      'Automatikus kitöltés engedélyezése minden számlálóhoz';
+  String get readingPrefillEnableForAllCounters => 'Automatikus kitöltés engedélyezése minden számlálóhoz';
 
   @override
   String readingReminder(int count) {
@@ -2010,19 +1884,16 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get reallyDeleteCounter => 'Biztos, hogy törölni akarja a számlálót?';
 
   @override
-  String get reallyDeleteCounterLink =>
-      'Biztos, hogy törölni akarja a számlálók közötti kapcsolatot?';
+  String get reallyDeleteCounterLink => 'Biztos, hogy törölni akarja a számlálók közötti kapcsolatot?';
 
   @override
   String get reallyDeleteDetail => 'Tényleg törölni ezt a részletet?';
 
   @override
-  String get reallyDeleteObject =>
-      'Biztos, hogy törölni szeretné az objektumot?';
+  String get reallyDeleteObject => 'Biztos, hogy törölni szeretné az objektumot?';
 
   @override
-  String get reallyDeletePhoto =>
-      'Biztos, hogy törölni akarja a mérőóra-leolvasó fotót?';
+  String get reallyDeletePhoto => 'Biztos, hogy törölni akarja a mérőóra-leolvasó fotót?';
 
   @override
   String get reallyDeleteValue => 'Tényleg törölni szeretné ezt az értéket?';
@@ -2037,8 +1908,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get reminderTime => 'Emlékeztető idő';
 
   @override
-  String get reminderWeekdayExplanation =>
-      'Emlékeztető, hogy naponta legfeljebb egyszer kell leolvasni a mérőszámot.';
+  String get reminderWeekdayExplanation => 'Emlékeztető, hogy naponta legfeljebb egyszer kell leolvasni a mérőszámot.';
 
   @override
   String get reminderWeekdayExplanationSeasonal =>
@@ -2060,8 +1930,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get residualGenerationEstimated => 'Becsült maradványtermelés';
 
   @override
-  String get restoreDeletedCounter =>
-      'Szeretné visszaállítani ezt a törölt mérőórát?';
+  String get restoreDeletedCounter => 'Szeretné visszaállítani ezt a törölt mérőórát?';
 
   @override
   String get room => 'Szoba';
@@ -2137,8 +2006,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get selectedAtAppStart =>
-      'Az alkalmazás indításakor a legfelső objektum van kiválasztva';
+  String get selectedAtAppStart => 'Az alkalmazás indításakor a legfelső objektum van kiválasztva';
 
   @override
   String get settingColor => 'Színes';
@@ -2147,8 +2015,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get settingCounterTypeColor => 'Szín ehhez a számlálótípushoz';
 
   @override
-  String get settingCounterTypeColorAdvanced =>
-      'Színválasztó szakértők számára';
+  String get settingCounterTypeColorAdvanced => 'Színválasztó szakértők számára';
 
   @override
   String get settingCounterTypeColorDescription =>
@@ -2189,8 +2056,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => 'Ház';
 
   @override
-  String get settingShowCounterReadingsChart =>
-      'Leolvasási diagram megjelenítése';
+  String get settingShowCounterReadingsChart => 'Leolvasási diagram megjelenítése';
 
   @override
   String get settingShowHeatmap => 'Hőtérkép megjelenítése';
@@ -2236,8 +2102,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Meg kell-e jeleníteni a StromGedachtól származó, az elektromos hálózatra vonatkozó tippeket?';
 
   @override
-  String get settingsShowTabNewsDetailed =>
-      'Legyen látható a Hírek/Tippek fül?';
+  String get settingsShowTabNewsDetailed => 'Legyen látható a Hírek/Tippek fül?';
 
   @override
   String get showAllYears => 'Minden év megjelenítése';
@@ -2262,16 +2127,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Rádiós vízmérők';
 
   @override
-  String get smartMeterErrorNoData =>
-      'Sajnos nincsenek olyan adatok, amelyeket az alkalmazás meg tudna jeleníteni.';
+  String get smartMeterErrorNoData => 'Sajnos nincsenek olyan adatok, amelyeket az alkalmazás meg tudna jeleníteni.';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardButton =>
-      'Állítsa be az intelligens mérőórát';
+  String get smartMeterMisconfiguredWidgetCardButton => 'Állítsa be az intelligens mérőórát';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardTitle =>
-      'Kérjük, állítsa be helyesen az intelligens fogyasztásmérőt.';
+  String get smartMeterMisconfiguredWidgetCardTitle => 'Kérjük, állítsa be helyesen az intelligens fogyasztásmérőt.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Automatikus adatszerzés';
@@ -2289,16 +2151,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get smartMeterServiceProvider => 'Szolgáltató';
 
   @override
-  String get smartMeterSettingsScreenSyncButton =>
-      'Fogyasztási adatok szinkronizálása';
+  String get smartMeterSettingsScreenSyncButton => 'Fogyasztási adatok szinkronizálása';
 
   @override
   String get smartMeterSettingsScreenSyncingDialogError => 'Hiba';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogErrorMessage(
-    Object errorMessage,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogErrorMessage(Object errorMessage) {
     return 'A szinkronizálás során a következő hiba történt: $errorMessage';
   }
 
@@ -2306,13 +2165,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogErrorOkButton => 'Oké';
 
   @override
-  String get smartMeterSettingsScreenSyncingDialogHeader =>
-      'Szinkronizálás folyamatban';
+  String get smartMeterSettingsScreenSyncingDialogHeader => 'Szinkronizálás folyamatban';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent) {
     return 'Haladás: $progressInPercent %';
   }
 
@@ -2343,9 +2199,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  ) {
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId) {
     return 'A vízórád $smartmeterId szokatlanul magas vízfogyasztást észlelt, ami csőtörésre vagy úszómedence feltöltésére utalhat. Kérjük, ellenőrizd a háztartásod vízvezeték-rendszerét, hogy nincs-e nagyobb szivárgás vagy törés.';
   }
 
@@ -2393,8 +2247,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Hozzájárulok ahhoz, hogy az irányítószámomat (ha megadom) továbbítsák a TransnetBW-nek a StromGedacht értesítések lekérdezése céljából.';
 
   @override
-  String get subscribeToSmartMeterInfocodeEvents =>
-      'Szeretnék értesítést kapni a váratlan fogyasztásról';
+  String get subscribeToSmartMeterInfocodeEvents => 'Szeretnék értesítést kapni a váratlan fogyasztásról';
 
   @override
   String get supplementaryPayment => 'Kiegészítő kifizetés';
@@ -2409,8 +2262,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get supportGivePraise => 'Adj dicséretet';
 
   @override
-  String get supportGivePraiseLong =>
-      'Tetszik az alkalmazás? Köszönjük! Terjessze az igét!';
+  String get supportGivePraiseLong => 'Tetszik az alkalmazás? Köszönjük! Terjessze az igét!';
 
   @override
   String supportGivePraiseRating(String store) {
@@ -2425,8 +2277,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get supportMakeSuggestion => 'Javasoljon valamit';
 
   @override
-  String get supportMakeSuggestionLong =>
-      'Az alkalmazás a felhasználók javaslataiból él. Van javaslata?';
+  String get supportMakeSuggestionLong => 'Az alkalmazás a felhasználók javaslataiból él. Van javaslata?';
 
   @override
   String get supportQuestion => 'Kérdezzen';
@@ -2435,12 +2286,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get supportQuestionBox => 'Miben segíthetek?';
 
   @override
-  String get supportQuestionLong =>
-      'Hogyan működik? Lehetséges ez egyáltalán? Íme a válaszok.';
+  String get supportQuestionLong => 'Hogyan működik? Lehetséges ez egyáltalán? Íme a válaszok.';
 
   @override
-  String get supportQuestionNotFound =>
-      'Nem kaptál választ a kérdésedre? Szívesen segítek.';
+  String get supportQuestionNotFound => 'Nem kaptál választ a kérdésedre? Szívesen segítek.';
 
   @override
   String get supportRecommend =>
@@ -2450,8 +2299,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get supportReportBug => 'Hibajelentés e-mailben';
 
   @override
-  String get supportReportBugAffectedPages =>
-      'Mely oldalakon jelentkezik a hiba? (ha van ilyen)';
+  String get supportReportBugAffectedPages => 'Mely oldalakon jelentkezik a hiba? (ha van ilyen)';
 
   @override
   String get supportReportBugLong =>
@@ -2462,8 +2310,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Kérjük, csatoljon egy képernyőképet a levélben, lehetőleg a hiba megjelölésével.';
 
   @override
-  String get supportReportBugTextIs =>
-      'Kérjük, röviden írja le a jelenlegi hibás viselkedést, azaz magát a hibát.';
+  String get supportReportBugTextIs => 'Kérjük, röviden írja le a jelenlegi hibás viselkedést, azaz magát a hibát.';
 
   @override
   String get supportReportBugTextShould =>
@@ -2491,8 +2338,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Az adatok a módosítás után automatikusan feltöltődnek a Google Drive-ra. A felhőből származó újabb adatok csak akkor írják felül a helyi adatokat, ha rákattint az objektumra. A következő Google-fiókot használja:';
 
   @override
-  String get syncObjectIsLocked =>
-      'Az objektumadatok frissítés alatt állnak, és ez idő alatt nem szerkeszthetők.';
+  String get syncObjectIsLocked => 'Az objektumadatok frissítés alatt állnak, és ez idő alatt nem szerkeszthetők.';
 
   @override
   String get syncShareWithOthersNotInWeb =>
@@ -2506,16 +2352,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get syncShareWithOthersTitle => 'Megosztani másokkal?';
 
   @override
-  String get syncStatusFailedLong =>
-      'Nem sikerült szinkronizálni, a szerkesztés saját felelősségre történik';
+  String get syncStatusFailedLong => 'Nem sikerült szinkronizálni, a szerkesztés saját felelősségre történik';
 
   @override
-  String get syncStatusFailedLongNoAutoSync =>
-      'Nem sikerült szinkronizálni, a szerkesztés saját felelősségre történik';
+  String get syncStatusFailedLongNoAutoSync => 'Nem sikerült szinkronizálni, a szerkesztés saját felelősségre történik';
 
   @override
-  String get syncStatusSyncRemoteHasLatest =>
-      'A felhőben lévő fájl naprakészebb, mint a helyi fájl';
+  String get syncStatusSyncRemoteHasLatest => 'A felhőben lévő fájl naprakészebb, mint a helyi fájl';
 
   @override
   String get syncWithGoogleDriveDescription =>
@@ -2537,16 +2380,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get taxRate => 'Adókulcs';
 
   @override
-  String get teaserPurchaseRenewableEnergies =>
-      'A megújuló energia számlálói prémiumot igényelnek.';
+  String get teaserPurchaseRenewableEnergies => 'A megújuló energia számlálói prémiumot igényelnek.';
 
   @override
-  String get teaserPurchaseVirtualCounter =>
-      'Virtuális számlálók hozzáadása a Prémiummal.';
+  String get teaserPurchaseVirtualCounter => 'Virtuális számlálók hozzáadása a Prémiummal.';
 
   @override
-  String get teaserPurchaseWaterExtractionCounter =>
-      'Oldja fel a vízkivételi számlálókat a Prémiummal.';
+  String get teaserPurchaseWaterExtractionCounter => 'Oldja fel a vízkivételi számlálókat a Prémiummal.';
 
   @override
   String termsOfUsageBlock1(String contact) {
@@ -2554,8 +2394,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get termsOfUsageBlock1Title =>
-      'Az alkalmazás használatának általános feltételei';
+  String get termsOfUsageBlock1Title => 'Az alkalmazás használatának általános feltételei';
 
   @override
   String get termsOfUsageBlock2 =>
@@ -2594,8 +2433,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get termsOfUsageBlock4Title => 'A felhasználó felelősségei';
 
   @override
-  String get termsOfUsageTitle =>
-      'Az alkalmazás használatának általános feltételei';
+  String get termsOfUsageTitle => 'Az alkalmazás használatának általános feltételei';
 
   @override
   String get termsOfUsageTitleShort => 'Használati feltételek';
@@ -2604,8 +2442,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get tibberAccessToken => 'Hozzáférési jelszó';
 
   @override
-  String get tibberActionSaveAuthorizationSettings =>
-      'Engedélyezési beállítások mentése';
+  String get tibberActionSaveAuthorizationSettings => 'Engedélyezési beállítások mentése';
 
   @override
   String get tibberBasicAuth => 'Alapvető engedélyezés';
@@ -2614,8 +2451,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get tibberBasicAuthEnterPassword => 'Kérjük, adja meg a jelszót';
 
   @override
-  String get tibberBasicAuthEnterUsername =>
-      'Kérjük, adja meg a felhasználónevét';
+  String get tibberBasicAuthEnterUsername => 'Kérjük, adja meg a felhasználónevét';
 
   @override
   String get tibberBasicAuthPassword => 'Jelszó';
@@ -2628,15 +2464,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Kövesse nyomon fogyasztását valós időben, és fedezze fel a rejtett energiafalókat.';
 
   @override
-  String get tibberConsentScreenBenefit1Title =>
-      'A villamosenergia-fogyasztás megtekintése';
+  String get tibberConsentScreenBenefit1Title => 'A villamosenergia-fogyasztás megtekintése';
 
   @override
   String get tibberConsentScreenConfigureLaterButton => 'Későbbi beállítások';
 
   @override
-  String get tibberConsentScreenConfigureNowButton =>
-      'Állítsa be a Tibber Pulse-t most';
+  String get tibberConsentScreenConfigureNowButton => 'Állítsa be a Tibber Pulse-t most';
 
   @override
   String get tibberConsentScreenDescription =>
@@ -2647,20 +2481,17 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'A március 1-jei óránkénti fogyasztásodat anonimizáljuk, és a Goethe-tanulmányhoz biztosítjuk.';
 
   @override
-  String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'Szeretne részt venni a Goethe-tanulmányban?';
+  String get tibberConsentScreenGoetheStudyBenefit1Title => 'Szeretne részt venni a Goethe-tanulmányban?';
 
   @override
   String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
       'Igen, részt kívánok venni a Goethe-tanulmányban';
 
   @override
-  String get tibberConsentScreenGoetheStudySectionHeader =>
-      'Részvétel a kutatási projektben';
+  String get tibberConsentScreenGoetheStudySectionHeader => 'Részvétel a kutatási projektben';
 
   @override
-  String get tibberConsentScreenHeader =>
-      'Új funkció: Tibber Pulse fogyasztási adatai';
+  String get tibberConsentScreenHeader => 'Új funkció: Tibber Pulse fogyasztási adatai';
 
   @override
   String get tibberConsentScreenStoreLink => 'Látogasson el a Tibber üzletbe';
@@ -2676,18 +2507,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime) {
     return '24 óra az $startTime weboldalról: $date';
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime) {
     return 'Feladó: $startTime címzett: $endDate';
   }
 
@@ -2702,10 +2527,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime) {
     return '$startTime-tól egy órányira, $date';
   }
 
@@ -2723,16 +2545,14 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get tibberEnterAccessToken => 'Kérjük, adja meg a hozzáférési jelszót';
 
   @override
-  String get tibberErrorAccessTokenInvalid =>
-      'Úgy tűnik, hogy a hozzáférési token érvénytelen.';
+  String get tibberErrorAccessTokenInvalid => 'Úgy tűnik, hogy a hozzáférési token érvénytelen.';
 
   @override
   String get tibberErrorConnectivityShowCacheInstead =>
       'Nem sikerült lekérdezni a legutóbbi fogyasztási adatokat. Ehelyett a gyorsítótárazott értékeket mutatja.';
 
   @override
-  String get tibberErrorNoHomes =>
-      'Ehhez a számlához nincsenek otthonok társítva';
+  String get tibberErrorNoHomes => 'Ehhez a számlához nincsenek otthonok társítva';
 
   @override
   String get tibberErrorNoSubscription =>
@@ -2767,28 +2587,22 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementCounterCardViewFooter => 'Élő mérés';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumption =>
-      'Teljes fogyasztás (éjfél óta)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumption => 'Teljes fogyasztás (éjfél óta)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour =>
-      'Fogyasztás (utolsó óra)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour => 'Fogyasztás (utolsó óra)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedCost =>
-      'Felhalmozott költség';
+  String get tibberLiveMeasurementWidgetAccumulatedCost => 'Felhalmozott költség';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProduction =>
-      'Teljes termelés (éjfél óta)';
+  String get tibberLiveMeasurementWidgetAccumulatedProduction => 'Teljes termelés (éjfél óta)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour =>
-      'Termelés (utolsó óra)';
+  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour => 'Termelés (utolsó óra)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedReward =>
-      'Felhalmozott jutalom';
+  String get tibberLiveMeasurementWidgetAccumulatedReward => 'Felhalmozott jutalom';
 
   @override
   String get tibberLiveMeasurementWidgetAveragePower => 'Átlagos teljesítmény';
@@ -2803,12 +2617,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetCurrentL3 => 'Áram (L3)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'Mérőállás (fogyasztás)';
+  String get tibberLiveMeasurementWidgetLastMeterConsumption => 'Mérőállás (fogyasztás)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'Mérőórák leolvasása (termelés)';
+  String get tibberLiveMeasurementWidgetLastMeterProduction => 'Mérőórák leolvasása (termelés)';
 
   @override
   String get tibberLiveMeasurementWidgetMaxPower => 'Maximális teljesítmény';
@@ -2843,36 +2655,29 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetUnitW => 'W';
 
   @override
-  String get tibberLiveMeasurementWidgetVoltagePhase1 =>
-      'Feszültség (1. fázis)';
+  String get tibberLiveMeasurementWidgetVoltagePhase1 => 'Feszültség (1. fázis)';
 
   @override
-  String get tibberLiveMeasurementWidgetVoltagePhase2 =>
-      'Feszültség (2. fázis)';
+  String get tibberLiveMeasurementWidgetVoltagePhase2 => 'Feszültség (2. fázis)';
 
   @override
-  String get tibberLiveMeasurementWidgetVoltagePhase3 =>
-      'Feszültség (3. fázis)';
+  String get tibberLiveMeasurementWidgetVoltagePhase3 => 'Feszültség (3. fázis)';
 
   @override
-  String get tibberLiveMeasurementsWidgetConnecting =>
-      'Csatlakozás a Tibber Pulse-hoz...';
+  String get tibberLiveMeasurementsWidgetConnecting => 'Csatlakozás a Tibber Pulse-hoz...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
       'Hiba történt a Tibber Pulse-hoz való csatlakozás közben. Kérjük, ellenőrizze a hozzáférési jelszót és az internetkapcsolatot.';
 
   @override
-  String get tibberLiveMeasurementsWidgetNotSupported =>
-      'Az élő mérések nem támogatottak ebben az otthonban.';
+  String get tibberLiveMeasurementsWidgetNotSupported => 'Az élő mérések nem támogatottak ebben az otthonban.';
 
   @override
-  String get tibberMessageAccessTokenUpdated =>
-      'Sikeresen frissítette a hozzáférési tokent';
+  String get tibberMessageAccessTokenUpdated => 'Sikeresen frissítette a hozzáférési tokent';
 
   @override
-  String get tibberStatusWidgetTibberSubscriptionStatus =>
-      'Tibber előfizetés állapota';
+  String get tibberStatusWidgetTibberSubscriptionStatus => 'Tibber előfizetés állapota';
 
   @override
   String get tibberStatusWidgetTitle => 'Cache kezelés';
@@ -2887,8 +2692,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get tibberSubscriptionStatusLoading => 'betöltés...';
 
   @override
-  String get tibberWhereIsMyAccessToken =>
-      'Hol találom a \"hozzáférési jelszavamat\"?';
+  String get tibberWhereIsMyAccessToken => 'Hol találom a \"hozzáférési jelszavamat\"?';
 
   @override
   String get timeBefore => 'A  előtt';
@@ -3032,12 +2836,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String unitCubicMetersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Köbméter (m³)',
-      one: 'Köbméter (m³)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Köbméter (m³)', one: 'Köbméter (m³)');
     return '$_temp0';
   }
 
@@ -3046,12 +2845,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String unitGJLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Gigajoule (GJ)',
-      one: 'Gigajoule (GJ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Gigajoule (GJ)', one: 'Gigajoule (GJ)');
     return '$_temp0';
   }
 
@@ -3066,12 +2860,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String unitHoursLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Órák (h)',
-      one: 'Óra',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Órák (h)', one: 'Óra');
     return '$_temp0';
   }
 
@@ -3094,12 +2883,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String unitKgLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Kilogramm (kg)',
-      one: 'Kilogramm (kg)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Kilogramm (kg)', one: 'Kilogramm (kg)');
     return '$_temp0';
   }
 
@@ -3111,12 +2895,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String unitLitersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Liter (ℓ)',
-      one: 'Liter (ℓ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Liter (ℓ)', one: 'Liter (ℓ)');
     return '$_temp0';
   }
 
@@ -3148,12 +2927,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String unitNoneFormatted(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'egységek',
-      one: 'egység',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'egységek', one: 'egység');
     return '$_temp0';
   }
 
@@ -3196,8 +2970,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get useDismissibleSettings => 'Törlés húzás mozdulattal';
 
   @override
-  String get useDismissibleSettingsDetailed =>
-      'A számlálók, szerződések stb. törölhetők egy oldalsó mozdulattal.';
+  String get useDismissibleSettingsDetailed => 'A számlálók, szerződések stb. törölhetők egy oldalsó mozdulattal.';
 
   @override
   String get usedForPaymentsRepayments => 'Előleg, alapár és bónusz';
@@ -3224,8 +2997,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get virtualCounterMasterCounter => 'Főmérő';
 
   @override
-  String get virtualCounterMasterCounterAttach =>
-      'Válassza ki a fő mérőeszközt';
+  String get virtualCounterMasterCounterAttach => 'Válassza ki a fő mérőeszközt';
 
   @override
   String get virtualCounterMasterCounterDescription =>
@@ -3274,10 +3046,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String warningReadingBiggerThanOldValue(String isOilCounter) {
-    String _temp0 = intl.Intl.selectLogic(isOilCounter, {
-      'true': ' Feltöltötte a tankot?',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(isOilCounter, {'true': ' Feltöltötte a tankot?', 'other': ''});
     return 'Az új érték magasabb, mint az előző mérőállás.$_temp0';
   }
 
@@ -3286,30 +3055,20 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Az új érték magasabb, mint az előző mérőállás. Feltöltötte a tartályt?';
 
   @override
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  ) {
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart) {
     return 'Hiányzik az év végi mérőállás ($lastYear) a $deviceTypeName $roomNamePart számláról. Ez szükséges az éves teljes fogyasztás helyes kiszámításához.';
   }
 
   @override
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  ) {
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText) {
     return 'A $deviceTypeName legutóbbi mérőállása elavult $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
-  String get warningReadingSeemsTooBig =>
-      'Az új érték meglehetősen magas. Helyesen végezték el a leolvasást?';
+  String get warningReadingSeemsTooBig => 'Az új érték meglehetősen magas. Helyesen végezték el a leolvasást?';
 
   @override
-  String get warningReadingSeemsTooSmall =>
-      'Az új érték meglehetősen alacsony. Helyesen olvasták le?';
+  String get warningReadingSeemsTooSmall => 'Az új érték meglehetősen alacsony. Helyesen olvasták le?';
 
   @override
   String get warningReadingSmallerThanOldValue2 =>
@@ -3346,8 +3105,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get waterSupplier => 'Vízszolgáltató';
 
   @override
-  String get waterSupplierHint =>
-      'Az Ön helyi vízszolgáltatója, pl. Stadtwerke Musterstadt';
+  String get waterSupplierHint => 'Az Ön helyi vízszolgáltatója, pl. Stadtwerke Musterstadt';
 
   @override
   String get waterSupplierUnknown =>
@@ -3362,8 +3120,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Kért már hozzáférést? Ezután létre kell hoznia egy EHW+ felhasználói fiókot.';
 
   @override
-  String get watersupplierAccessRequestQ3 =>
-      'Már igényelt hozzáférést és megkapta a QR-kódot?';
+  String get watersupplierAccessRequestQ3 => 'Már igényelt hozzáférést és megkapta a QR-kódot?';
 
   @override
   String get watersupplierAccessRequestQ4 =>
@@ -3378,12 +3135,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Nem mehetsz át! Kérjük, adja meg újra a mérőóra azonosítójának utolsó három számjegyét!';
 
   @override
-  String get watersupplierMeterIdValidationStep =>
-      'Ellenőrizzük a mérőóra azonosítóját.';
+  String get watersupplierMeterIdValidationStep => 'Ellenőrizzük a mérőóra azonosítóját.';
 
   @override
-  String get watersupplierNoAccess =>
-      'Már nincs jogosultsága az adatok lekérdezésére.';
+  String get watersupplierNoAccess => 'Már nincs jogosultsága az adatok lekérdezésére.';
 
   @override
   String get watersupplierNoAccessDetailedMessage =>
@@ -3400,12 +3155,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Most engedélyezzük a fiókját, hogy a jövőben hozzáférhessen a rádiós mérőórák leolvasásához.';
 
   @override
-  String get watersupplierScanQrCodeCommand =>
-      'Szkennelje be a bal oldali QR-kódot (aktiváló kód)!';
+  String get watersupplierScanQrCodeCommand => 'Szkennelje be a bal oldali QR-kódot (aktiváló kód)!';
 
   @override
-  String get watersupplierScanQrCodeOffboardingSuccessful =>
-      'A rádiós vízmérőjéhez való hozzáférést törölték.';
+  String get watersupplierScanQrCodeOffboardingSuccessful => 'A rádiós vízmérőjéhez való hozzáférést törölték.';
 
   @override
   String get watersupplierScanQrCodeScanSuccessful =>
@@ -3423,12 +3176,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Ez az! A \"Hideg víz\" típusú rádiós vízmérődet sikeresen hozzáadtuk. Megtalálható a többi vízmérő között.';
 
   @override
-  String get watersupplierScanQrCodeValidation =>
-      'QR-kódot észleltünk, validáljuk.';
+  String get watersupplierScanQrCodeValidation => 'QR-kódot észleltünk, validáljuk.';
 
   @override
-  String get watersupplierScanQrCodeValidationFailed =>
-      'Sajnálom, a kód érvénytelen. Szeretné újra megpróbálni?';
+  String get watersupplierScanQrCodeValidationFailed => 'Sajnálom, a kód érvénytelen. Szeretné újra megpróbálni?';
 
   @override
   String get watersupplierScanQrCodeValidationFailedOnboardingScanned =>
@@ -3439,15 +3190,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Az aktiváló kód helyett a visszavonási kódot olvasta be. Kérjük, próbálja meg újra!';
 
   @override
-  String get watersupplierScanRevokeQrCodeCommand =>
-      'Szkennelje be a megfelelő QR-kódot (visszavonó kód)!';
+  String get watersupplierScanRevokeQrCodeCommand => 'Szkennelje be a megfelelő QR-kódot (visszavonó kód)!';
 
   @override
   String get watersupplierUnlinkRadioMeterButtonDelete => 'Rádiómérő törlése';
 
   @override
-  String get watersupplierUnlinkRadioMeterButtonRevoke =>
-      'Visszavonási kód beolvasása';
+  String get watersupplierUnlinkRadioMeterButtonRevoke => 'Visszavonási kód beolvasása';
 
   @override
   String get watersupplierUnlinkRadioMeterDescription1 =>
@@ -3458,8 +3207,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Nem szeretne többé hozzáférni a rádiómérő adataihoz? Kérjük, vegye figyelembe: a visszavonási kód beolvasása után az aktiváló kód érvénytelenné válik. Minden olyan felhasználói fiók, amely az aktiváló kódot használta, elveszíti a hozzáférést.';
 
   @override
-  String get watersupplierUnlinkRadioMeterTitle =>
-      'Rádiómérő hozzáférésének megszüntetése';
+  String get watersupplierUnlinkRadioMeterTitle => 'Rádiómérő hozzáférésének megszüntetése';
 
   @override
   String get yearlyConsumption => 'Eddigi éves fogyasztás';
@@ -3487,6 +3235,5 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get zipCodeValidationOnlyNumbers =>
-      'Az érvényes irányítószám csak számokból áll';
+  String get zipCodeValidationOnlyNumbers => 'Az érvényes irányítószám csak számokból áll';
 }

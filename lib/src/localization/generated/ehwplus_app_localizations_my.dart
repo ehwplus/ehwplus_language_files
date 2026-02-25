@@ -15,8 +15,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get accountBenefit1 => 'ပိုပြီးယုံကြည်စိတ်ချရသောဝယ်ယူအသိအမှတ်ပြုမှု';
 
   @override
-  String get accountBenefit2 =>
-      'အမျိုးမျိုးသော devices များပေါ်တွင်ဝယ်ယူထားသောတိုးချဲ့မှုအားလုံးကိုရယူပါ';
+  String get accountBenefit2 => 'အမျိုးမျိုးသော devices များပေါ်တွင်ဝယ်ယူထားသောတိုးချဲ့မှုအားလုံးကိုရယူပါ';
 
   @override
   String get accountButtonSetup => 'EHW + အသုံးပြုသူအကောင့်ကိုသတ်မှတ်ပါ';
@@ -40,8 +39,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get accountFaqTitle => 'မကြာခဏမေးသောမေးခွန်းများ -';
 
   @override
-  String get accountThankYouForPurchase =>
-      'ကျေးဇူးတင်ပါသည်! သင်၏ EHW + အသုံးပြုသူအကောင့်တွင် 0 ယ်ယူလိုပါသလား။';
+  String get accountThankYouForPurchase => 'ကျေးဇူးတင်ပါသည်! သင်၏ EHW + အသုံးပြုသူအကောင့်တွင် 0 ယ်ယူလိုပါသလား။';
 
   @override
   String get accountUpdateInfo => 'New: EHW + အသုံးပြုသူအကောင့်';
@@ -96,8 +94,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get activityWashTemperature => 'အပူအအေး';
 
   @override
-  String get activityWithEnergyConsumption =>
-      'ပါဝါစားသုံးမှုကိုလှုပ်ရှားမှုအတွက်သာတိုင်းတာသည်';
+  String get activityWithEnergyConsumption => 'ပါဝါစားသုံးမှုကိုလှုပ်ရှားမှုအတွက်သာတိုင်းတာသည်';
 
   @override
   String get addActivity => 'လှုပ်ရှားမှုထည့်ပါ';
@@ -119,8 +116,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'Phtenkehw + Phtageli သို့ Phtenoke3HWw + Phtokention2, Phtobenkephtttokenokenokenokenokenokenokenletrutrutruture အတွက် Phtoboke3HHT ကဟူရှုခြင်း, ကျွန်ုပ်တို့နှင့်အတူ, သင်အလွယ်တကူ phtoked10hohhoked ကိုသင်အလွယ်တကူသုံးနိုင်သည်။ Free.Phoke14 အတွက် Itphtleok11 Phtoken12Costsphter13';
 
   @override
-  String get appDescriptionShort =>
-      'ပိုက်ဆံအိတ်အတွက်ကောင်းသော, ရာသီဥတုအတွက်ကောင်းသော';
+  String get appDescriptionShort => 'ပိုက်ဆံအိတ်အတွက်ကောင်းသော, ရာသီဥတုအတွက်ကောင်းသော';
 
   @override
   String get appName => 'ehw + | စားသုံးမှု & မီတာဖတ်ခြင်း';
@@ -198,12 +194,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင်ခန့်မှန်းတွက်ချက်မှု 0 န်ဆောင်မှုကိုအသုံးပြုသောအခါတုံ့ပြန်ချက်များကိုအလိုအလျောက်ထောက်ပံ့ပေးပြီးအကောင်းမြင်ရန်သဘောတူသည်။';
 
   @override
-  String get cometConsentScreenFeedbackTitle =>
-      'Goethe တက္ကသိုလ်သည်သင်၏တုံ့ပြန်ချက်ကိုလိုအပ်သည်။';
+  String get cometConsentScreenFeedbackTitle => 'Goethe တက္ကသိုလ်သည်သင်၏တုံ့ပြန်ချက်ကိုလိုအပ်သည်။';
 
   @override
-  String get cometConsentScreenHeader =>
-      'New: ပိုကောင်းတဲ့စားသုံးမှုကြိုတင်ခန့်မှန်းချက်';
+  String get cometConsentScreenHeader => 'New: ပိုကောင်းတဲ့စားသုံးမှုကြိုတင်ခန့်မှန်းချက်';
 
   @override
   String get cometConsentScreenHowItWorksTitle => 'ဘယ်လိုအလုပ်လုပ်သလဲ';
@@ -213,24 +207,20 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ရိုးရှင်းသောဒေသခံခန့်မှန်းချက်ကိုသင်၏စက်ပေါ်တွင်တွက်ချက်လိမ့်မည်။';
 
   @override
-  String get cometConsentScreenOfflineDescriptionTitle =>
-      'အင်တာနက်ဆက်သွယ်မှုမရှိရင်';
+  String get cometConsentScreenOfflineDescriptionTitle => 'အင်တာနက်ဆက်သွယ်မှုမရှိရင်';
 
   @override
   String get cometConsentScreenOnlineDescription =>
       'သင်၏စားသုံးမှုအချက်အလက်များကို Goethe Univers Frankfurt သို့ပို့ပေးပါလိမ့်မည်။';
 
   @override
-  String get cometConsentScreenOnlineDescriptionTitle =>
-      'အင်တာနက်ဆက်သွယ်မှုနှင့်အတူ:';
+  String get cometConsentScreenOnlineDescriptionTitle => 'အင်တာနက်ဆက်သွယ်မှုနှင့်အတူ:';
 
   @override
-  String get cometConsentScreenToggleLabel =>
-      'ခန့်မှန်းချက်ဝန်ဆောင်မှုကိုသုံးပါ';
+  String get cometConsentScreenToggleLabel => 'ခန့်မှန်းချက်ဝန်ဆောင်မှုကိုသုံးပါ';
 
   @override
-  String get cometSettingsIsPredictionsApiEnabled =>
-      'Goethe Institute မှကြယ်တံခွန်ခန့်မှန်းချက် API ကိုသုံးပါ';
+  String get cometSettingsIsPredictionsApiEnabled => 'Goethe Institute မှကြယ်တံခွန်ခန့်မှန်းချက် API ကိုသုံးပါ';
 
   @override
   String get comment => 'ဘီလီဂိုဏ်း';
@@ -326,10 +316,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get commonUserLogin => 'အသုံးပြုသူ login';
 
   @override
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  ) {
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total) {
     return 'သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken ဒယ်ဝါဝယ်ယူထားသော Phtokened ထုတ်ကုန်များထဲမှ Phtoken0 ကို EHW + ဆာဗာတွင်သိမ်းဆည်း ထား. မရပါ။ ကျနော်တို့မကြာမီပြ issue နာကိုဖြေရှင်းရန်မျှော်လင့်ပါတယ်။';
   }
 
@@ -349,10 +336,8 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          'သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 0 ယ်ယူထားသောထုတ်ကုန်များကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။',
-      one:
-          'သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 ဝယ်ယူထားသောထုတ်ကုန်ကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။',
+      other: 'သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 0 ယ်ယူထားသောထုတ်ကုန်များကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။',
+      one: 'သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ Phtoken0 ဝယ်ယူထားသောထုတ်ကုန်ကို EHW + ဆာဗာတွင်သိမ်းဆည်းထားသည်။',
       zero:
           'သင် EHW + အကောင့်ကိုအသုံးပြုနေသည်။ အကယ်. သင်သည်အနာဂတ်တွင်ထုတ်ကုန်များကို 0 ယ်ယူပါကသင်၏ကိရိယာများအားလုံးကိုတစ်ပြိုင်တည်းချိန်ကိုက်လိမ့်မည်။',
     );
@@ -389,8 +374,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'Transnetbw မှပေးသော 0 န်ဆောင်မှုတစ်ခုသည်လျှပ်စစ်ဓာတ်အားကိုအသုံးပြုသင့်သည့်လျှပ်စစ်ဓာတ်အားသုံးစွဲသင့်သည့်အတွက်ဇယားကွက်တည်ငြိမ်အေးချမ်းရေးအတွက်သတင်းအချက်အလက်များကိုပေးသည်။ စွမ်းအင်အသွင်ကူးပြောင်းမှုသည်ဂီယာဇယားကွက်အတွက်ပိုမိုစိန်ခေါ်မှုများဖြစ်လာသည်နှင့်အမျှတရုတ်ဆန်တန်လီယန်ရှိအိမ်ထောင်စုများသည်ပါ 0 င်ပတ်သက်နေသည်။ သင်၏တည်နေရာအတွက်သတင်းအချက်အလက်များကိုလက်ခံရရှိရန်သင်၏စာတိုက်ကုဒ်သည်ဤအက်ပလီကေးရှင်းတွင်ဤနေရာတွင် 0 င်ပါက transnetbw stromed transped api သို့ကူးစက်သည်။ အခြားဒေတာများကိုမည်သည့်အချက်အလက်မျှမကူးစက်ပါ။';
 
   @override
-  String get consent13StromGedachtTitle =>
-      'strodedacht ကနေ Grid တည်ငြိမ်မှုသတိပေးချက်များ';
+  String get consent13StromGedachtTitle => 'strodedacht ကနေ Grid တည်ငြိမ်မှုသတိပေးချက်များ';
 
   @override
   String get consent1Hello => 'မင်္ဂလာပါ';
@@ -408,8 +392,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'အမှားအစီရင်ခံစာများ';
 
   @override
-  String get consent6ContractPricesPerUnitTitle =>
-      'လျှပ်စစ် / ရေ / သဘာဝဓာတ်ငွေ့ဈေးနှုန်းများ';
+  String get consent6ContractPricesPerUnitTitle => 'လျှပ်စစ် / ရေ / သဘာဝဓာတ်ငွေ့ဈေးနှုန်းများ';
 
   @override
   String get consent7ContractPricesPerUnit =>
@@ -422,8 +405,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consumption => 'ကုန်စေခြင်း';
 
   @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
+  String get consumptionCacheDebugViewCacheCleared => 'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
 
   @override
   String get consumptionCacheDebugViewClear => 'ရှင်းလင်းပါ';
@@ -445,32 +427,27 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consumptionCacheDebugViewTitle => 'စားသုံးမှု cache';
 
   @override
-  String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'Clear & Sync';
+  String get consumptionCacheManagementClearCacheAndSynchronizeButton => 'Clear & Sync';
 
   @override
-  String get consumptionCacheManagementClearCacheButton =>
-      'cache ကိုရှင်းရှင်းလင်းလင်း';
+  String get consumptionCacheManagementClearCacheButton => 'cache ကိုရှင်းရှင်းလင်းလင်း';
 
   @override
-  String get consumptionCacheManagementClearedSuccessfully =>
-      'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
+  String get consumptionCacheManagementClearedSuccessfully => 'cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
       'သိမ်းဆည်းထားသောဒေတာအားလုံးကိုဖျက်ပြီးဆာဗာမှ re-download လုပ်လိမ့်မည်။ ဒါကအချိန်အနည်းငယ်ယူကောင်းသွားနိုင်တယ်။';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'cache ကို Cache & Synchronize?';
+  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle => 'cache ကို Cache & Synchronize?';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
       'cacheed စားသုံးမှုဒေတာများကိုအမြဲတမ်းဖျက်ပစ်လိမ့်မည်။ သင်နောက်မှထပ်တူပြုနိုင်သည်။';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheTitle =>
-      'Clear cache ကို?';
+  String get consumptionCacheManagementConfirmClearCacheTitle => 'Clear cache ကို?';
 
   @override
   String get consumptionCacheToggleButtonDescription =>
@@ -499,18 +476,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String consumptionPersonLabel(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'လူထု',
-      one: 'လူ',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'လူထု', one: 'လူ');
     return '$_temp0';
   }
 
   @override
-  String get consumptionWaterColdEqual =>
-      'ရေအေး - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။';
+  String get consumptionWaterColdEqual => 'ရေအေး - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
@@ -523,49 +494,27 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'လူတစ် ဦး လျှင်လူတိုင်းစားသုံးသည် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။';
   }
 
   @override
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'သင်လောင် တစ်နေ့လျှင် Phtoken0 လီတာ (တစ်လလျှင် Phtoken1 Phtoken2) ။';
   }
 
   @override
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel) {
     return 'သင်၏ရေစားသုံးမှု Phtoken0 သည် Phtoken1 Phtokenw2 နှင့်အတူပျမ်းမျှအိမ်ထောင်စုတစ်စု၏ပွဲစဉ်လိုက်ဖက်သည်။';
   }
 
   @override
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'သင်၏ရေသုံးစွဲမှု Phtoken0 သည် Phtens2 Phtokenk3 နှင့်အတူပျမ်းမျှအိမ်ထောင်စုထက် Phtoken1 နိမ့်ကျသည်။';
   }
 
   @override
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'သင်၏ရေစားသုံးမှု Phtoken0 သည် Phtokens2 Phtokenk3 နှင့်အတူ Phtoken1 ထက် Phtoken1 ထက်ပိုမိုမြင့်မားသည်။';
   }
 
@@ -575,8 +524,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionWaterWarmEqual =>
-      'ရေပူ - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။';
+  String get consumptionWaterWarmEqual => 'ရေပူ - ပျမ်းမျှအိမ်ထောင်စုနှင့်အတူတူပင်ဖြစ်သည်။';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
@@ -597,19 +545,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedAboutSame => 'အတူတူပင်အကြောင်းကို';
 
   @override
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  ) {
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel) {
     return 'Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု';
   }
 
   @override
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  ) {
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix) {
     return 'သငျသညျ Consumephod0 အတူတူပင်အကြောင်းကို Phtoken0 Phtoked1 နှင့်အတူပျမ်းမျှအိမ်ထောင်စု.';
   }
 
@@ -664,8 +605,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedLevel0 => 'စူပါနိမ့်သည်။';
 
   @override
-  String get consumptionYearlyDetailedLevel1 =>
-      'တကယ်ကြည့်ဖို့တကယ့်ကိုတစ်ခုခုပါ။';
+  String get consumptionYearlyDetailedLevel1 => 'တကယ်ကြည့်ဖို့တကယ့်ကိုတစ်ခုခုပါ။';
 
   @override
   String consumptionYearlyDetailedLevel1Suffix(String nextToOptimal) {
@@ -705,8 +645,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get contactTitle => 'ကိုယ်စားပြုသည်:';
 
   @override
-  String get continueAcceptPart1 =>
-      'ehw + app ကိုအသုံးပြုခြင်းအားဖြင့်သင်သဘောတူသည်';
+  String get continueAcceptPart1 => 'ehw + app ကိုအသုံးပြုခြင်းအားဖြင့်သင်သဘောတူသည်';
 
   @override
   String get continueAcceptPart2 =>
@@ -719,12 +658,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'အဘယ်သူမျှမ, ပယ်ဖျက်ပါ။';
 
   @override
-  String get contractCopyDialogOptionYes =>
-      'ဟုတ်ပါတယ်, ယူနစ်စျေးနှုန်းသို့မဟုတ်အခြားတန်ဖိုးပြောင်းလဲသွားပြီ။';
+  String get contractCopyDialogOptionYes => 'ဟုတ်ပါတယ်, ယူနစ်စျေးနှုန်းသို့မဟုတ်အခြားတန်ဖိုးပြောင်းလဲသွားပြီ။';
 
   @override
-  String get contractCopyDialogTitle =>
-      'ဒီစာချုပ်ရဲ့မိတ္တူကိုသင်လုပ်ချင်ပါသလား။';
+  String get contractCopyDialogTitle => 'ဒီစာချုပ်ရဲ့မိတ္တူကိုသင်လုပ်ချင်ပါသလား။';
 
   @override
   String get contractCopyDialogWhen => 'စျေးနှုန်းအသစ်ကဘယ်အချိန်မှာလဲ။';
@@ -834,16 +771,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get counterColdWater => 'ရေအေးမီတာ';
 
   @override
-  String get counterConsiderForTotalConsumptions =>
-      'စုစုပေါင်းစားသုံးမှုများအတွက် စဉ်းစားပါ။';
+  String get counterConsiderForTotalConsumptions => 'စုစုပေါင်းစားသုံးမှုများအတွက် စဉ်းစားပါ။';
 
   @override
-  String get counterConsiderForTotalElectricity =>
-      'စုစုပေါင်းလျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုစဉ်းစားပါ';
+  String get counterConsiderForTotalElectricity => 'စုစုပေါင်းလျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုစဉ်းစားပါ';
 
   @override
-  String get counterConsiderForTotalWater =>
-      'စုစုပေါင်းရေသုံးစွဲမှုအတွက် စဉ်းစားပါ။';
+  String get counterConsiderForTotalWater => 'စုစုပေါင်းရေသုံးစွဲမှုအတွက် စဉ်းစားပါ။';
 
   @override
   String get counterContractCurrentlyUsed => 'လက်ရှိတွင်စာချုပ်အသုံးပြုခဲ့သည်';
@@ -865,10 +799,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'အသုံးပြုမှု (အဆင့်ညွှန်ပြချက်၊ စသည်ဖြင့်) တန်ဖိုးသည် ကျဆင်းသွားသလား သို့မဟုတ် အသုံးပြုမှု (မီးစက်နာရီများ၊ ဆီမီတာ စသည်ဖြင့်) တန်ဖိုး တိုးလာသလား သို့မဟုတ် ဖတ်ရှုမှုတန်ဖိုးတစ်ခုစီသည် သီးခြား (စားသုံးမှု/အထွက်နှုန်း) ရှိပါသလား။';
 
   @override
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  ) {
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar) {
     return 'Phtoken0 / Phtoken1';
   }
 
@@ -943,8 +874,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get counterLinkMoreRecent => 'လတ်တလောတရုတ်ကောင်တာ link';
 
   @override
-  String get counterMessageRoomOptional =>
-      'အခန်းတစ်ခန်းတာ 0 န်သည်အုပ်စုဖွဲ့ခြင်းနှင့်အတူကူညီသည်။';
+  String get counterMessageRoomOptional => 'အခန်းတစ်ခန်းတာ 0 န်သည်အုပ်စုဖွဲ့ခြင်းနှင့်အတူကူညီသည်။';
 
   @override
   String get counterMeterId => 'မီတာအိုင်ဒီ';
@@ -1032,8 +962,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get counterWarmWater => 'ပူနွေးသောရေမီတာ';
 
   @override
-  String get counterWarmWaterPlusColdWater =>
-      'လတ်ဆတ်သောရေကိုဖယ်ထုတ်ပြီးရေကုန်သည်များကိုစွန့်ပစ်သည်';
+  String get counterWarmWaterPlusColdWater => 'လတ်ဆတ်သောရေကိုဖယ်ထုတ်ပြီးရေကုန်သည်များကိုစွန့်ပစ်သည်';
 
   @override
   String get counterWater => 'ရေမီတာ';
@@ -1082,8 +1011,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get driveSyncNow => 'ယခုစည်းညှိ';
 
   @override
-  String get driveSyncStatusComparing =>
-      'ဆာဗာပေါ်ရှိဖိုင်နှင့်နှိုင်းယှဉ်ခြင်း';
+  String get driveSyncStatusComparing => 'ဆာဗာပေါ်ရှိဖိုင်နှင့်နှိုင်းယှဉ်ခြင်း';
 
   @override
   String get driveSyncStatusFailed => 'တစ်ပြိုင်တည်းချိန်ကိုက်ရန်ပျက်ကွက်';
@@ -1094,10 +1022,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate) {
     return 'Phtoken0 မှဤစက်ပစ္စည်းတွင်သိမ်းဆည်းထားသောဖိုင်သည် Phtoked1 မှ Cloud ရှိဖိုင်ထက်နောက်ဆုံးပေါ်ဖြစ်သည်';
   }
 
@@ -1110,10 +1035,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate) {
     return 'Phtoked0 မှ Cloud ရှိဖိုင်သည် Phtoked1 မှ local file ထက်နောက်ဆုံးပေါ်ဖြစ်သည်';
   }
 
@@ -1169,8 +1091,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get existingPhoto => 'ရှိပြီးသားဓာတ်ပုံကိုပူးတွဲပါ';
 
   @override
-  String get existingPhotoOfMeterReading =>
-      'မီတာဖတ်နေသည့်နေရာတွင်ရှိပြီးသားဓာတ်ပုံကိုသင်ပူးတွဲလိုပါသလား။';
+  String get existingPhotoOfMeterReading => 'မီတာဖတ်နေသည့်နေရာတွင်ရှိပြီးသားဓာတ်ပုံကိုသင်ပူးတွဲလိုပါသလား။';
 
   @override
   String get explanationManageMoreThanOneObject =>
@@ -1194,8 +1115,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get exportOptionConsumptionsSubtitle =>
-      'ပထမစာဖတ်ခြင်းကတည်းကနေ့တိုင်းစားသုံးမှုတန်ဖိုး။';
+  String get exportOptionConsumptionsSubtitle => 'ပထမစာဖတ်ခြင်းကတည်းကနေ့တိုင်းစားသုံးမှုတန်ဖိုး။';
 
   @override
   String get exportOptionConsumptionsTitle => 'နေ့စဉ်စားသုံးမှု';
@@ -1230,14 +1150,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'အခြားအက်ပ်များနှင့်မျှဝေပါ';
 
   @override
-  String get exportTabSnackBarSaveResultMessageError =>
-      'အချက်အလက်များကိုသိမ်းဆည်းနေစဉ်အမှားဖြစ်ပွားခဲ့သည်';
+  String get exportTabSnackBarSaveResultMessageError => 'အချက်အလက်များကိုသိမ်းဆည်းနေစဉ်အမှားဖြစ်ပွားခဲ့သည်';
 
   @override
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  ) {
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder) {
     return 'Phtoken1 တွင် Phtoked1 တွင် Phtoken0 အဖြစ်ဒေတာများကိုအောင်မြင်စွာသိမ်းဆည်းထားပြီးဖြစ်သည်';
   }
 
@@ -1245,8 +1161,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get exportWhere => 'အရာဝတ်ထုကိုမည်သည့်ပုံစံဖြင့်တင်ပို့သင့်သနည်း။';
 
   @override
-  String get exportWhichValuesShouldBeExported =>
-      'ဘယ်တန်ဖိုးတွေကိုတင်ပို့သင့်သလဲ။';
+  String get exportWhichValuesShouldBeExported => 'ဘယ်တန်ဖိုးတွေကိုတင်ပို့သင့်သလဲ။';
 
   @override
   String get faqAboutDeveloperBody1 =>
@@ -1274,8 +1189,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get featureVoting => 'မဲပေးခြင်း';
 
   @override
-  String get featureVotingOnlyOnGerman =>
-      'အဆိုပါ feature ကိုစစ်တမ်းကိုအခြားဘာသာစကားများသို့ပြန်ဆိုမထားဘူး။';
+  String get featureVotingOnlyOnGerman => 'အဆိုပါ feature ကိုစစ်တမ်းကိုအခြားဘာသာစကားများသို့ပြန်ဆိုမထားဘူး။';
 
   @override
   String get featureVotingUnderConstruction =>
@@ -1285,8 +1199,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get fedIn => 'ကျွေးမွေး';
 
   @override
-  String get firstReadingConsumption =>
-      'ပထမ ဦး ဆုံးစားသုံးမှုကိုယခုရိုက်ထည့်ပါ။';
+  String get firstReadingConsumption => 'ပထမ ဦး ဆုံးစားသုံးမှုကိုယခုရိုက်ထည့်ပါ။';
 
   @override
   String get firstReadingCounter => 'ပထမကောင်တာစာဖတ်ခြင်းကိုရိုက်ထည့်ပါ။';
@@ -1352,10 +1265,8 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       columns,
       locale: localeName,
-      other:
-          'ပထမကော်လံနှစ်ခုကိုသာအသုံးပြုခဲ့သည့် Phtoken0 ကော်လံများကိုလျစ်လျူရှုခဲ့သည်။',
-      one:
-          'ပထမ ဦး ဆုံးကော်လံနှစ်ခုသာအသုံးပြုခဲ့သည်။ တတိယကော်လံကိုလျစ်လျူရှုခဲ့သည်။',
+      other: 'ပထမကော်လံနှစ်ခုကိုသာအသုံးပြုခဲ့သည့် Phtoken0 ကော်လံများကိုလျစ်လျူရှုခဲ့သည်။',
+      one: 'ပထမ ဦး ဆုံးကော်လံနှစ်ခုသာအသုံးပြုခဲ့သည်။ တတိယကော်လံကိုလျစ်လျူရှုခဲ့သည်။',
     );
     return '$_temp0';
   }
@@ -1372,15 +1283,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get importExplanation =>
-      'သငျသညျတန်ပြန် counter ဖတ်ပြီးသူတို့ကိုထည့်သွင်းချင်ပါသလား?';
+  String get importExplanation => 'သငျသညျတန်ပြန် counter ဖတ်ပြီးသူတို့ကိုထည့်သွင်းချင်ပါသလား?';
 
   @override
   String get importExport => 'backup / restore';
 
   @override
-  String get importNewOrExistingCounter =>
-      'အသစ်သို့မဟုတ်လက်ရှိကောင်တာမှထည့်သွင်း?';
+  String get importNewOrExistingCounter => 'အသစ်သို့မဟုတ်လက်ရှိကောင်တာမှထည့်သွင်း?';
 
   @override
   String get importNotPossible => 'သွင်းကုန်မဖြစ်နိုင်ပါ';
@@ -1420,8 +1329,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get involvedCounters => 'ပါဝင်ပတ်သက်ကောင်တာ';
 
   @override
-  String get isLastEntryAtFilteredList =>
-      'ရှေးအကျဆုံးတန်ဖိုးကို filtered list ထဲမှာ';
+  String get isLastEntryAtFilteredList => 'ရှေးအကျဆုံးတန်ဖိုးကို filtered list ထဲမှာ';
 
   @override
   String get isOutdatedCounter => 'ကောင်တာမရှိတော့ဘူး';
@@ -1445,8 +1353,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get lineChartAppearanceSettings => 'Line Charts အသွင်အပြင်';
 
   @override
-  String get lineChartAppearanceSettingsShowSpots =>
-      'ဇယား၏လိုင်းများပေါ်တွင် (မြို့ပတ်ရထား) အစက်အပြောက်';
+  String get lineChartAppearanceSettingsShowSpots => 'ဇယား၏လိုင်းများပေါ်တွင် (မြို့ပတ်ရထား) အစက်အပြောက်';
 
   @override
   String localWriteSubtitle(Object folder) {
@@ -1457,12 +1364,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get localWriteTitle => 'local download folder ထဲမှာသိမ်းဆည်းပါ';
 
   @override
-  String get manageMoreThanOneObjectStep1 =>
-      'အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 1';
+  String get manageMoreThanOneObjectStep1 => 'အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 1';
 
   @override
-  String get manageMoreThanOneObjectStep2 =>
-      'အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 2';
+  String get manageMoreThanOneObjectStep2 => 'အရာဝတ်ထုတစ်ခုထက်ပိုပြီးစီမံပါ - အဆင့် 2';
 
   @override
   String get marketLocationId => 'စျေးကွက်တည်နေရာ ID';
@@ -1479,19 +1384,16 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get messageNoContracts => 'စာချုပ်များမရှိသေးပါ။';
 
   @override
-  String get messageNoCounterReadings =>
-      'သငျသညျသေးနားပြီစာဖတ်ခြင်းထဲသို့မဝင်ရသေး။';
+  String get messageNoCounterReadings => 'သငျသညျသေးနားပြီစာဖတ်ခြင်းထဲသို့မဝင်ရသေး။';
 
   @override
   String get messageNoCounters => 'မင်းကကောင်တာကိုမဖန်တီးသေးဘူး';
 
   @override
-  String get messageNoRooms =>
-      'အခန်းများမရှိသေးပါ။ အခန်းများသည်အုပ်စုမီတာကိုကူညီပါ။';
+  String get messageNoRooms => 'အခန်းများမရှိသေးပါ။ အခန်းများသည်အုပ်စုမီတာကိုကူညီပါ။';
 
   @override
-  String get messageNotEnoughData =>
-      'ဇယားကိုပြရန်လုံလောက်သောအချက်အလက်များမရှိပါ';
+  String get messageNotEnoughData => 'ဇယားကိုပြရန်လုံလောက်သောအချက်အလက်များမရှိပါ';
 
   @override
   String get meterCardLastUpdatedLabel => 'အသစ်ပြောင်းခြင်း';
@@ -1506,8 +1408,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get meterReadingsFilterAll => 'အားလုံးကိုပြပါ';
 
   @override
-  String get meterReadingsFilterComments =>
-      'မှတ်ချက်များနှင့်သာ entries တွေကိုပြပါ';
+  String get meterReadingsFilterComments => 'မှတ်ချက်များနှင့်သာ entries တွေကိုပြပါ';
 
   @override
   String meterReadingsFilterSubmitted(String state) {
@@ -1515,12 +1416,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get meterReplacementCreateNew =>
-      'တူညီသောအမျိုးအစားရှိ နောက်ထပ် မီတာ ဖန်တီးပါ။';
+  String get meterReplacementCreateNew => 'တူညီသောအမျိုးအစားရှိ နောက်ထပ် မီတာ ဖန်တီးပါ။';
 
   @override
-  String get meterReplacementDescription =>
-      'ဤမီတာဟောင်းသွားပြီလား၊ အသစ်တစ်ခုနဲ့ အစားထိုးပြီးပြီလား။';
+  String get meterReplacementDescription => 'ဤမီတာဟောင်းသွားပြီလား၊ အသစ်တစ်ခုနဲ့ အစားထိုးပြီးပြီလား။';
 
   @override
   String monthEnd(Object month) {
@@ -1543,8 +1442,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get newPhoto => 'ဓာတ်ပုံအသစ်တစ်ခုယူပါ';
 
   @override
-  String get newPhotoOfMeterReading =>
-      'မီတာစာဖတ်ခြင်းကိုဓာတ်ပုံရိုက်ချင်ပါသလား။';
+  String get newPhotoOfMeterReading => 'မီတာစာဖတ်ခြင်းကိုဓာတ်ပုံရိုက်ချင်ပါသလား။';
 
   @override
   String get newReading => 'လက်ရှိစာဖတ်ခြင်းကိုရိုက်ထည့်ပါ';
@@ -1559,8 +1457,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get notificationsEmpty => 'အသိပေးချက်မရှိပါ';
 
   @override
-  String get notificationsSmartMeterAlertFallback =>
-      'သင့်တွင်စမတ်မီတာအသစ်တစ်ခုရှိသည်။';
+  String get notificationsSmartMeterAlertFallback => 'သင့်တွင်စမတ်မီတာအသစ်တစ်ခုရှိသည်။';
 
   @override
   String numCounters(int count) {
@@ -1576,23 +1473,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(
-      readings,
-      locale: localeName,
-      other: '# ဖတ်ခြင်း',
-      one: '# စာဖတ်ခြင်း',
-    );
+    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# ဖတ်ခြင်း', one: '# စာဖတ်ခြင်း');
     return '$_temp0';
   }
 
   @override
   String numberOfDetails(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Phtoken0 အသေးစိတ်',
-      one: '1 အသေးစိတ်',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Phtoken0 အသေးစိတ်', one: '1 အသေးစိတ်');
     return '$_temp0';
   }
 
@@ -1768,8 +1655,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုသိုလှောင်ခြင်းကာလကိုသက်ဆိုင်ရာစာရင်းဇယားထိန်းသိမ်းရေးကာလ (ဥပမာစီးပွားဖြစ်နှင့်အခွန်ဥပဒေထိန်းသိမ်းရေးကာလ) ကဆုံးဖြတ်သည်။ အချိန်ကာလကုန်ဆုံးပြီးနောက်, စာနယ်ဇင်းများပြည့်စုံခြင်းနှင့် / သို့မဟုတ်ကျွန်ုပ်တို့ဆက်လက်သိုလှောင်မှုအတွက်တရားဝင်အကျိုးစီးပွားအတွက်တရားဝင်အကျိုးစီးပွားအတွက်မလိုအပ်တော့ကြောင်းသက်ဆိုင်ရာအချက်အလက်များကိုပုံမှန်ဖျက်ပစ်ခြင်းကိုပုံမှန်ဖျက်ပစ်သည်။';
 
   @override
-  String get privacyBlock5Title =>
-      'ကိုယ်ရေးကိုယ်တာအချက်အလက်များ၏သိုလှောင်မှုကြာချိန်';
+  String get privacyBlock5Title => 'ကိုယ်ရေးကိုယ်တာအချက်အလက်များ၏သိုလှောင်မှုကြာချိန်';
 
   @override
   String get privacyBlock6 =>
@@ -1822,8 +1708,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'မီတာဖတ်ခြင်း / အိမ်များ / အရာဝတ်ထုများကိုသင်ကြိုက်နှစ်သက်သည့်အခန်းများ / အရာဝတ်ထုများ (အရာဝတ်ထုတစ်ခုအတွက်သာ) သင်ကြိုက်နှစ်သက်သည့်တိုက်ခန်းများ,';
 
   @override
-  String get purchasesExtensionMultipleObjectsTitlePart =>
-      'မျိုးစုံအရာဝတ်ထုများကိုစီမံခြင်း';
+  String get purchasesExtensionMultipleObjectsTitlePart => 'မျိုးစုံအရာဝတ်ထုများကိုစီမံခြင်း';
 
   @override
   String get purchasesExtensionStatisticsDescription =>
@@ -1837,8 +1722,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'နောက်ထပ် extension များစီစဉ်ထားသည်။ သင့်ရဲ့ပြောဆိုရန် feature ကိုစစ်တမ်း၌ပါ 0 င်ပါ။';
 
   @override
-  String get purchasesExtensionsSubtitle =>
-      'တစ်ကြိမ်ဝယ်ပါ, အမြဲတမ်းသုံးပါ (စာရင်းသွင်းခြင်းမရှိပါ)';
+  String get purchasesExtensionsSubtitle => 'တစ်ကြိမ်ဝယ်ပါ, အမြဲတမ်းသုံးပါ (စာရင်းသွင်းခြင်းမရှိပါ)';
 
   @override
   String get purchasesExtensionsTitle => 'တစ်ခုတည်း extensions များ';
@@ -1879,10 +1763,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew) {
     return 'Phtoken1 အစား Phtoken0 ၏သစ္စာရှိရှိစျေးနှုန်းဖြင့်လစဉ်လစဉ်ဖျက်သိမ်းခြင်း';
   }
 
@@ -1896,10 +1777,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew) {
     return 'Phtoked1 အစား Phtoked0 ၏သစ္စာရှိမှုစျေးနှုန်းဖြင့်နှစ်စဉ်လွဲမှားသော Subscription';
   }
 
@@ -1918,8 +1796,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get purchasesWhyBuyTitle => 'ငါဘာကြောင့်တစ်ခုခုဝယ်သင့်သလဲ';
 
   @override
-  String get purchasesYourPurchases =>
-      'သင်သည်အောက်ပါပရီမီယံ package များကိုဝင်ရောက်ခွင့်ရှိသည်။';
+  String get purchasesYourPurchases => 'သင်သည်အောက်ပါပရီမီယံ package များကိုဝင်ရောက်ခွင့်ရှိသည်။';
 
   @override
   String get reading => 'ကောင်တာစာဖတ်ခြင်း';
@@ -1934,12 +1811,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get readingPrefill => 'အလိုအလျောက်မီတာဖတ်ခြင်း';
 
   @override
-  String get readingPrefillDescription =>
-      'ယခင် entries တွေကိုအပေါ်အခြေခံပြီးမီတာကြိုတင်မဲမျက်နှာစာ';
+  String get readingPrefillDescription => 'ယခင် entries တွေကိုအပေါ်အခြေခံပြီးမီတာကြိုတင်မဲမျက်နှာစာ';
 
   @override
-  String get readingPrefillDisableForAllCounters =>
-      'အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ';
+  String get readingPrefillDisableForAllCounters => 'အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ';
 
   @override
   String get readingPrefillDisabled => 'အလိုအလျောက်ပိတ်ထားသည်';
@@ -1948,8 +1823,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get readingPrefillDisabledToast => 'အလိုအလျောက်ပိတ်ထားသည်';
 
   @override
-  String get readingPrefillEnableForAllCounters =>
-      'အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ';
+  String get readingPrefillEnableForAllCounters => 'အားလုံးကောင်တာအားလုံးအတွက်အလိုအလျောက်ဖြည့်ပါ';
 
   @override
   String readingReminder(int count) {
@@ -2006,8 +1880,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get reallyDeleteCounter => 'ကောင်တာကိုသင်ဖျက်ချင်ပါသလား။';
 
   @override
-  String get reallyDeleteCounterLink =>
-      'ကောင်တာအကြားလင့်ခ်ကိုသင်ဖျက်ချင်ပါသလား။';
+  String get reallyDeleteCounterLink => 'ကောင်တာအကြားလင့်ခ်ကိုသင်ဖျက်ချင်ပါသလား။';
 
   @override
   String get reallyDeleteDetail => 'ဒီအသေးစိတ်ကိုတကယ်ပဲဖျက်ပစ်ပါ။';
@@ -2031,8 +1904,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get reminderTime => 'သတိပေးအချိန်';
 
   @override
-  String get reminderWeekdayExplanation =>
-      'တစ်ရက်ထက်မပိုသောစာဖတ်ခြင်းကိုယူရန်သတိပေးချက်တစ်ခုရှိသည်။';
+  String get reminderWeekdayExplanation => 'တစ်ရက်ထက်မပိုသောစာဖတ်ခြင်းကိုယူရန်သတိပေးချက်တစ်ခုရှိသည်။';
 
   @override
   String get reminderWeekdayExplanationSeasonal =>
@@ -2048,8 +1920,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get resetActivities => 'လှုပ်ရှားမှုအားလုံးကိုပြန်လည်သတ်မှတ်ပါ';
 
   @override
-  String get residualConsumptionEstimated =>
-      'အကြွင်းအကျန်သုံးစွဲမှုခန့်မှန်းထားသည်';
+  String get residualConsumptionEstimated => 'အကြွင်းအကျန်သုံးစွဲမှုခန့်မှန်းထားသည်';
 
   @override
   String get residualGenerationEstimated => 'အကြွင်းအကျန်မျိုးဆက်ခန့်မှန်းခြေ';
@@ -2131,8 +2002,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get selectedAtAppStart =>
-      'အမြင့်ဆုံးအရာဝတ်ထုကို app start မှာရွေးချယ်သည်';
+  String get selectedAtAppStart => 'အမြင့်ဆုံးအရာဝတ်ထုကို app start မှာရွေးချယ်သည်';
 
   @override
   String get settingColor => 'အရောင်';
@@ -2141,8 +2011,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get settingCounterTypeColor => 'ဒီကောင်တာအမျိုးအစားအတွက်အရောင်';
 
   @override
-  String get settingCounterTypeColorAdvanced =>
-      'ကျွမ်းကျင်သူများအတွက်အရောင်ရွေးသူ';
+  String get settingCounterTypeColorAdvanced => 'ကျွမ်းကျင်သူများအတွက်အရောင်ရွေးသူ';
 
   @override
   String get settingCounterTypeColorDescription =>
@@ -2155,8 +2024,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get settingHouseholdSize => 'အိမ်ထောင်စုအရွယ်အစား';
 
   @override
-  String get settingHouseholdSizeDescription =>
-      'သင့်အိမ်ထောင်စုရှိလူ ဦး ရေအရေအတွက်။';
+  String get settingHouseholdSizeDescription => 'သင့်အိမ်ထောင်စုရှိလူ ဦး ရေအရေအတွက်။';
 
   @override
   String get settingLanguageMode => 'ဘာသာစကား';
@@ -2226,12 +2094,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'ပြင်ပဝန်ဆောင်မှုများ';
 
   @override
-  String get settingsShowStromGedacht =>
-      'စွမ်းအင်ဇယားကွက်နှင့် ပတ်သက်. stromedgedtt မှအကြံဥာဏ်များပြသင့်ပါသလား။';
+  String get settingsShowStromGedacht => 'စွမ်းအင်ဇယားကွက်နှင့် ပတ်သက်. stromedgedtt မှအကြံဥာဏ်များပြသင့်ပါသလား။';
 
   @override
-  String get settingsShowTabNewsDetailed =>
-      'သတင်း / သိန်းစိရှိသည့် tab ကိုမြင်နိုင်သင့်ပါသလား။';
+  String get settingsShowTabNewsDetailed => 'သတင်း / သိန်းစိရှိသည့် tab ကိုမြင်နိုင်သင့်ပါသလား။';
 
   @override
   String get showAllYears => 'နှစ်ပေါင်းများစွာပြပါ';
@@ -2256,15 +2122,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'ရေဒီယိုရေမီတာ';
 
   @override
-  String get smartMeterErrorNoData =>
-      'ကံမကောင်းစွာဖြင့်အက်ပလီကေးရှင်းပြနိုင်သည့်အချက်အလက်မရှိပါ။';
+  String get smartMeterErrorNoData => 'ကံမကောင်းစွာဖြင့်အက်ပလီကေးရှင်းပြနိုင်သည့်အချက်အလက်မရှိပါ။';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'စမတ်မီတာကို set up';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardTitle =>
-      'ကျေးဇူးပြု. သင်၏စမတ်မီတာကိုမှန်ကန်စွာတည်ဆောက်ပါ။';
+  String get smartMeterMisconfiguredWidgetCardTitle => 'ကျေးဇူးပြု. သင်၏စမတ်မီတာကိုမှန်ကန်စွာတည်ဆောက်ပါ။';
 
   @override
   String get smartMeterObtainDataAutomatically => 'ဒေတာကိုအလိုအလျောက်ရယူပါ';
@@ -2282,16 +2146,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get smartMeterServiceProvider => 'ဝန်ဆောင်မှုပေးသူ';
 
   @override
-  String get smartMeterSettingsScreenSyncButton =>
-      'စားသုံးမှုဒေတာများကိုထပ်တူပြုခြင်း';
+  String get smartMeterSettingsScreenSyncButton => 'စားသုံးမှုဒေတာများကိုထပ်တူပြုခြင်း';
 
   @override
   String get smartMeterSettingsScreenSyncingDialogError => 'အမှား';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogErrorMessage(
-    Object errorMessage,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogErrorMessage(Object errorMessage) {
     return 'ထပ်တူပြုခြင်းသည်ထပ်တူပြုခြင်းဖြင့်အောက်ပါအမှား - Phtoken0';
   }
 
@@ -2299,13 +2160,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogErrorOkButton => 'အိုကေ';
 
   @override
-  String get smartMeterSettingsScreenSyncingDialogHeader =>
-      'တိုးတက်မှုအတွက်စည်းညှိ';
+  String get smartMeterSettingsScreenSyncingDialogHeader => 'တိုးတက်မှုအတွက်စည်းညှိ';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent) {
     return 'တိုးတက်မှု: PHTED0%';
   }
 
@@ -2336,9 +2194,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  ) {
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId) {
     return 'သင်၏ရေမီတာ Phtoked0 သည်ပုံမှန်မဟုတ်သောရေသုံးစွဲမှုကိုရှာဖွေတွေ့ရှိခဲ့သည်။ ကျေးဇူးပြု. သင်၏အိမ်ေထာင်စုတပ်ဆင်ခြင်းကိုအဓိကယိုစိမ့်မှုသို့မဟုတ်အားလပ်ချိန်များတွင်စစ်ဆေးပါ။';
   }
 
@@ -2386,8 +2242,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ကျွန်ုပ်၏စာတိုက်သင်္ကေတ (အကယ်. ထောက်ပံ့ပေးထားလျှင်) ကို transnetbw သတိပေးချက်များကို transnetbw သို့ပို့ပေးလိမ့်မည်ဟုကျွန်ုပ်သဘောတူသည်။';
 
   @override
-  String get subscribeToSmartMeterInfocodeEvents =>
-      'မမျှော်လင့်တဲ့စားသုံးမှုအကြောင်းကြားချင်ပါတယ်';
+  String get subscribeToSmartMeterInfocodeEvents => 'မမျှော်လင့်တဲ့စားသုံးမှုအကြောင်းကြားချင်ပါတယ်';
 
   @override
   String get supplementaryPayment => 'ဖြည့်စွက်ငွေပေးချေမှု';
@@ -2402,8 +2257,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get supportGivePraise => 'ချီးမွမ်းကြလော့';
 
   @override
-  String get supportGivePraiseLong =>
-      'ဒီ app ကိုကြိုက်လား? ကျေးဇူးတင်ပါသည်! စကားလုံးဖြန့်ပါ!';
+  String get supportGivePraiseLong => 'ဒီ app ကိုကြိုက်လား? ကျေးဇူးတင်ပါသည်! စကားလုံးဖြန့်ပါ!';
 
   @override
   String supportGivePraiseRating(String store) {
@@ -2428,12 +2282,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get supportQuestionBox => 'ကျွန်တော်ဘယ်လိုကူညီရမလဲ?';
 
   @override
-  String get supportQuestionLong =>
-      'ဘယ်လိုအလုပ်လုပ်သလဲ အားလုံးမှာဖြစ်နိုင်သလား? ဒီမှာအဖြေတွေကိုရှိပါတယ်။';
+  String get supportQuestionLong => 'ဘယ်လိုအလုပ်လုပ်သလဲ အားလုံးမှာဖြစ်နိုင်သလား? ဒီမှာအဖြေတွေကိုရှိပါတယ်။';
 
   @override
-  String get supportQuestionNotFound =>
-      'သင့်ရဲ့မေးခွန်းကိုဖြေကြားခြင်းမရှိသေးပေ? ငါကူညီရတာဝမ်းသာပါတယ်';
+  String get supportQuestionNotFound => 'သင့်ရဲ့မေးခွန်းကိုဖြေကြားခြင်းမရှိသေးပေ? ငါကူညီရတာဝမ်းသာပါတယ်';
 
   @override
   String get supportRecommend =>
@@ -2443,24 +2295,21 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get supportReportBug => 'mail မှတစ်ဆင့် bug ကိုသတင်းပို့ပါ';
 
   @override
-  String get supportReportBugAffectedPages =>
-      'မည်သည့်စာမျက်နှာပေါ်တွင်အမှားအယွင်းရှိသနည်း။ (ရှိလျှင်)';
+  String get supportReportBugAffectedPages => 'မည်သည့်စာမျက်နှာပေါ်တွင်အမှားအယွင်းရှိသနည်း။ (ရှိလျှင်)';
 
   @override
   String get supportReportBugLong =>
       'ဂရိတ်အက်ပ်! ဒါပေမယ့်သေချာတာပေါ့, အမှုအရာမှားသွားနိုင်ပါတယ်။ bug များကိုသင်အစီရင်ခံပါကအက်ပလီကေးရှင်းကိုပိုမိုကောင်းမွန်အောင်ပြုလုပ်ပါ။';
 
   @override
-  String get supportReportBugScreenshotsPlease =>
-      'ကျေးဇူးပြုပြီးစာတိုက်တွင် screenshot တစ်ခုပူးတွဲပါ,';
+  String get supportReportBugScreenshotsPlease => 'ကျေးဇူးပြုပြီးစာတိုက်တွင် screenshot တစ်ခုပူးတွဲပါ,';
 
   @override
   String get supportReportBugTextIs =>
       'ကျေးဇူးပြု. လက်ရှိမမှန်ကန်သောအပြုအမူကိုအတိုချုပ်ဖော်ပြပါ။ I.E. အမှားကိုယ်နှိုက်ကိုဖော်ပြပါ။';
 
   @override
-  String get supportReportBugTextShould =>
-      'ကျေးဇူးပြု. လိုချင်သောအပြုအမူကိုအတိုချုပ်ဖော်ပြပါ။ i.e.';
+  String get supportReportBugTextShould => 'ကျေးဇူးပြု. လိုချင်သောအပြုအမူကိုအတိုချုပ်ဖော်ပြပါ။ i.e.';
 
   @override
   String get swimmingPool => 'ရေကူးကန်';
@@ -2484,12 +2333,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင်၏အချက်အလက်များကိုပြောင်းလဲပြီးနောက် Google Drive သို့အလိုအလျောက်တင်သည်။ သင်အရာဝတ်ထုကိုနှိပ်သောအခါ Cloud မှအချက်အလက်အသစ်များကိုသာ overwries overwries ။ အောက်ပါဂူဂဲလ်အကောင့်ကိုအသုံးပြုသည်။';
 
   @override
-  String get syncObjectIsLocked =>
-      'အရာဝတ်ထုဒေတာကိုအသစ်ပြောင်းခြင်းနှင့်ဤအချိန်ကာလအတွင်း edited မရနိုင်ပါ။';
+  String get syncObjectIsLocked => 'အရာဝတ်ထုဒေတာကိုအသစ်ပြောင်းခြင်းနှင့်ဤအချိန်ကာလအတွင်း edited မရနိုင်ပါ။';
 
   @override
-  String get syncShareWithOthersNotInWeb =>
-      'ဝင်ရောက်ခွင့်ပေးခြင်းသည်လက်ရှိတွင် app မှတဆင့်သာဖြစ်နိုင်သည်။';
+  String get syncShareWithOthersNotInWeb => 'ဝင်ရောက်ခွင့်ပေးခြင်းသည်လက်ရှိတွင် app မှတဆင့်သာဖြစ်နိုင်သည်။';
 
   @override
   String get syncShareWithOthersSubtitle =>
@@ -2499,16 +2346,14 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get syncShareWithOthersTitle => 'အခြားသူများနှင့်မျှဝေပါလား။';
 
   @override
-  String get syncStatusFailedLong =>
-      'ထပ်တူပြုခြင်းကိုမအောင်မြင်ပါ, တည်းဖြတ်ခြင်းသည်သင်၏ကိုယ်ပိုင်အန္တရာယ်ရှိသည်';
+  String get syncStatusFailedLong => 'ထပ်တူပြုခြင်းကိုမအောင်မြင်ပါ, တည်းဖြတ်ခြင်းသည်သင်၏ကိုယ်ပိုင်အန္တရာယ်ရှိသည်';
 
   @override
   String get syncStatusFailedLongNoAutoSync =>
       'ထပ်တူပြုခြင်းကိုမအောင်မြင်ပါ, တည်းဖြတ်ခြင်းသည်သင်၏ကိုယ်ပိုင်အန္တရာယ်ရှိသည်';
 
   @override
-  String get syncStatusSyncRemoteHasLatest =>
-      'Cloud ရှိဖိုင်သည် local file ထက်နောက်ဆုံးပေါ်ခေတ်မီပြီးဖြစ်သည်';
+  String get syncStatusSyncRemoteHasLatest => 'Cloud ရှိဖိုင်သည် local file ထက်နောက်ဆုံးပေါ်ခေတ်မီပြီးဖြစ်သည်';
 
   @override
   String get syncWithGoogleDriveDescription =>
@@ -2530,16 +2375,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get taxRate => 'အခွန်နှုန်း';
 
   @override
-  String get teaserPurchaseRenewableEnergies =>
-      'ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်ကောင်တာများသည်ပရီမီယံလိုအပ်သည်။';
+  String get teaserPurchaseRenewableEnergies => 'ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်ကောင်တာများသည်ပရီမီယံလိုအပ်သည်။';
 
   @override
-  String get teaserPurchaseVirtualCounter =>
-      'virtual ကောင်တာများကိုပရီမီယံဖြင့်ထည့်ပါ။';
+  String get teaserPurchaseVirtualCounter => 'virtual ကောင်တာများကိုပရီမီယံဖြင့်ထည့်ပါ။';
 
   @override
-  String get teaserPurchaseWaterExtractionCounter =>
-      'ရေပရီမီယံနှင့်အတူရေထုတ်ယူကောင်တာများကိုသော့ဖွင့်ပါ။';
+  String get teaserPurchaseWaterExtractionCounter => 'ရေပရီမီယံနှင့်အတူရေထုတ်ယူကောင်တာများကိုသော့ဖွင့်ပါ။';
 
   @override
   String termsOfUsageBlock1(String contact) {
@@ -2547,8 +2389,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get termsOfUsageBlock1Title =>
-      'app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ';
+  String get termsOfUsageBlock1Title => 'app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ';
 
   @override
   String get termsOfUsageBlock2 =>
@@ -2587,8 +2428,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get termsOfUsageBlock4Title => 'အသုံးပြုသူ၏တာဝန်များ';
 
   @override
-  String get termsOfUsageTitle =>
-      'app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ';
+  String get termsOfUsageTitle => 'app ကိုအသုံးပြုခြင်းအတွက်အထွေထွေအသုံးအနှုန်းများ';
 
   @override
   String get termsOfUsageTitleShort => 'သတ်မှတ်ချက်များ';
@@ -2597,19 +2437,16 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get tibberAccessToken => 'access token';
 
   @override
-  String get tibberActionSaveAuthorizationSettings =>
-      'ခွင့်ပြုချက်ဆက်တင်များကိုသိမ်းဆည်းပါ';
+  String get tibberActionSaveAuthorizationSettings => 'ခွင့်ပြုချက်ဆက်တင်များကိုသိမ်းဆည်းပါ';
 
   @override
   String get tibberBasicAuth => 'အခြေခံ Auth';
 
   @override
-  String get tibberBasicAuthEnterPassword =>
-      'ကျေးဇူးပြု. စကားဝှက်ကိုရိုက်ထည့်ပါ';
+  String get tibberBasicAuthEnterPassword => 'ကျေးဇူးပြု. စကားဝှက်ကိုရိုက်ထည့်ပါ';
 
   @override
-  String get tibberBasicAuthEnterUsername =>
-      'ကျေးဇူးပြု. Username ကိုရိုက်ထည့်ပါ';
+  String get tibberBasicAuthEnterUsername => 'ကျေးဇူးပြု. Username ကိုရိုက်ထည့်ပါ';
 
   @override
   String get tibberBasicAuthPassword => 'လှျို့ဝှက်စကား';
@@ -2622,15 +2459,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင်၏စားသုံးမှုကိုအချိန်နှင့်တပြေးညီစစ်ဆေးရန်နှင့်ဖုံးကွယ်ထားသောစွမ်းအင် Guzzleers များကိုရှာဖွေပါ။';
 
   @override
-  String get tibberConsentScreenBenefit1Title =>
-      'သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုကြည့်ပါ';
+  String get tibberConsentScreenBenefit1Title => 'သင်၏လျှပ်စစ်ဓာတ်အားသုံးစွဲမှုကိုကြည့်ပါ';
 
   @override
   String get tibberConsentScreenConfigureLaterButton => 'နောက်မှ set up';
 
   @override
-  String get tibberConsentScreenConfigureNowButton =>
-      'ယခု Tibber Pulse ကို set up';
+  String get tibberConsentScreenConfigureNowButton => 'ယခု Tibber Pulse ကို set up';
 
   @override
   String get tibberConsentScreenDescription =>
@@ -2641,20 +2476,16 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'မတ်လ 1 ရက်မှသင်၏အလုပ်ချိန်ရက်သည် Anonyte ကိုလေ့လာရန်နှင့် Goethe လေ့လာမှုအတွက်ထောက်ပံ့ပေးလိမ့်မည်။';
 
   @override
-  String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'သင် Goethe လေ့လာမှုတွင်ပါ 0 င်လိုပါသလား။';
+  String get tibberConsentScreenGoetheStudyBenefit1Title => 'သင် Goethe လေ့လာမှုတွင်ပါ 0 င်လိုပါသလား။';
 
   @override
-  String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
-      'ဟုတ်ကဲ့, ငါ Goethe လေ့လာမှုတွင်ပါ 0 င်လိုသည်';
+  String get tibberConsentScreenGoetheStudyParticipationConsentToggle => 'ဟုတ်ကဲ့, ငါ Goethe လေ့လာမှုတွင်ပါ 0 င်လိုသည်';
 
   @override
-  String get tibberConsentScreenGoetheStudySectionHeader =>
-      'သုတေသနစီမံကိန်းတွင်ပါ 0 င်မှု';
+  String get tibberConsentScreenGoetheStudySectionHeader => 'သုတေသနစီမံကိန်းတွင်ပါ 0 င်မှု';
 
   @override
-  String get tibberConsentScreenHeader =>
-      'အသစ်သောအင်္ဂါရပ် - Tibber Pulse မှစားသုံးမှုအချက်အလက်များ';
+  String get tibberConsentScreenHeader => 'အသစ်သောအင်္ဂါရပ် - Tibber Pulse မှစားသုံးမှုအချက်အလက်များ';
 
   @override
   String get tibberConsentScreenStoreLink => 'Tibber စတိုးကိုသွားပါ';
@@ -2670,18 +2501,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime) {
     return 'Phtoked1 မှ Phtoked0 မှ 24 နာရီ';
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime) {
     return 'Phtoken. မှ Phtoken.1 မှ';
   }
 
@@ -2696,10 +2521,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime) {
     return 'Phtoked1 မှ Phtoked0 မှတစ်နာရီ';
   }
 
@@ -2714,12 +2536,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get tibberEnterAccessToken =>
-      'ကျေးဇူးပြုပြီး access token ရိုက်ထည့်ပါ';
+  String get tibberEnterAccessToken => 'ကျေးဇူးပြုပြီး access token ရိုက်ထည့်ပါ';
 
   @override
-  String get tibberErrorAccessTokenInvalid =>
-      'Access Token သည်မမှန်ကန်ကြောင်းနှင့်တူသည်';
+  String get tibberErrorAccessTokenInvalid => 'Access Token သည်မမှန်ကန်ကြောင်းနှင့်တူသည်';
 
   @override
   String get tibberErrorConnectivityShowCacheInstead =>
@@ -2737,8 +2557,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'Tibber API နှုန်းကန့်သတ်ချက်ကျော်လွန်သွားသည်။ ကျေးဇူးပြု. မပြန်မီအနည်းဆုံး 5 မိနစ်စောင့်ပါ။';
 
   @override
-  String get tibberErrorSmartMeterMisconfigured =>
-      'သင်၏စမတ်မီတာသည်အချည်းနှီးဖြစ်ပုံရသည်။';
+  String get tibberErrorSmartMeterMisconfigured => 'သင်၏စမတ်မီတာသည်အချည်းနှီးဖြစ်ပုံရသည်။';
 
   @override
   String tibberErrorUndefined(Object error) {
@@ -2758,28 +2577,22 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ဤအိမ်သည်တိုက်ရိုက်တိုင်းတာမှုများသို့မဟုတ်သမိုင်းဝင်စားသုံးမှုအချက်အလက်များကိုမထောက်ပံ့ပါ။ အခြားအိမ်ကိုရွေးချယ်ပါ။';
 
   @override
-  String get tibberLiveMeasurementCounterCardViewFooter =>
-      'တိုက်ရိုက်တိုင်းတာခြင်း';
+  String get tibberLiveMeasurementCounterCardViewFooter => 'တိုက်ရိုက်တိုင်းတာခြင်း';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumption =>
-      'စုစုပေါင်းစားသုံးမှု (ညသန်းခေါင် မှစ. )';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumption => 'စုစုပေါင်းစားသုံးမှု (ညသန်းခေါင် မှစ. )';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour =>
-      'စားသုံးမှု (နောက်ဆုံးနာရီ)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour => 'စားသုံးမှု (နောက်ဆုံးနာရီ)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedCost =>
-      'စုဆောင်းကုန်ကျစရိတ်';
+  String get tibberLiveMeasurementWidgetAccumulatedCost => 'စုဆောင်းကုန်ကျစရိတ်';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProduction =>
-      'စုစုပေါင်းထုတ်လုပ်မှု (ညသန်းခေါင် မှစ. )';
+  String get tibberLiveMeasurementWidgetAccumulatedProduction => 'စုစုပေါင်းထုတ်လုပ်မှု (ညသန်းခေါင် မှစ. )';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour =>
-      'ထုတ်လုပ်မှု (နောက်ဆုံးနာရီ)';
+  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour => 'ထုတ်လုပ်မှု (နောက်ဆုံးနာရီ)';
 
   @override
   String get tibberLiveMeasurementWidgetAccumulatedReward => 'စုဆောင်းဆုလာဘ်';
@@ -2797,12 +2610,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetCurrentL3 => 'လက်ရှိ (L3)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'မီတာဖတ်ခြင်း (စားသုံးမှု)';
+  String get tibberLiveMeasurementWidgetLastMeterConsumption => 'မီတာဖတ်ခြင်း (စားသုံးမှု)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'မီတာစာဖတ်ခြင်း (ထုတ်လုပ်မှု)';
+  String get tibberLiveMeasurementWidgetLastMeterProduction => 'မီတာစာဖတ်ခြင်း (ထုတ်လုပ်မှု)';
 
   @override
   String get tibberLiveMeasurementWidgetMaxPower => 'အများဆုံးပါဝါ';
@@ -2846,24 +2657,20 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetVoltagePhase3 => 'ဗို့အား (အဆင့် 3)';
 
   @override
-  String get tibberLiveMeasurementsWidgetConnecting =>
-      'Tibber Pulse သို့ဆက်သွယ်ခြင်း ...';
+  String get tibberLiveMeasurementsWidgetConnecting => 'Tibber Pulse သို့ဆက်သွယ်ခြင်း ...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
       'Tibber Pulse ကိုဆက်သွယ်စဉ်အမှားတစ်ခုဖြစ်ပွားခဲ့သည်။ ကျေးဇူးပြု. သင်၏ Access Token နှင့် Internet Connection ကိုစစ်ဆေးပါ။';
 
   @override
-  String get tibberLiveMeasurementsWidgetNotSupported =>
-      'Live တိုင်းတာမှုများသည်ဤအိမ်အတွက်မထောက်ပံ့ပါ။';
+  String get tibberLiveMeasurementsWidgetNotSupported => 'Live တိုင်းတာမှုများသည်ဤအိမ်အတွက်မထောက်ပံ့ပါ။';
 
   @override
-  String get tibberMessageAccessTokenUpdated =>
-      'Access Token ကိုအောင်မြင်စွာ update လုပ်ပါ';
+  String get tibberMessageAccessTokenUpdated => 'Access Token ကိုအောင်မြင်စွာ update လုပ်ပါ';
 
   @override
-  String get tibberStatusWidgetTibberSubscriptionStatus =>
-      'tibber subscription status ကို';
+  String get tibberStatusWidgetTibberSubscriptionStatus => 'tibber subscription status ကို';
 
   @override
   String get tibberStatusWidgetTitle => 'cache စီမံခန့်ခွဲမှု';
@@ -2878,8 +2685,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get tibberSubscriptionStatusLoading => 'တင် ...';
 
   @override
-  String get tibberWhereIsMyAccessToken =>
-      'ကျွန်ုပ်၏ \"Access Token\" ကိုဘယ်မှာရှာရမလဲ။';
+  String get tibberWhereIsMyAccessToken => 'ကျွန်ုပ်၏ \"Access Token\" ကိုဘယ်မှာရှာရမလဲ။';
 
   @override
   String get timeBefore => 'ဉီးစွာ';
@@ -3023,12 +2829,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String unitCubicMetersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'ကုဗမီတာ (M³)',
-      one: 'ကုဗမီတာ (m³)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'ကုဗမီတာ (M³)', one: 'ကုဗမီတာ (m³)');
     return '$_temp0';
   }
 
@@ -3037,12 +2838,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String unitGJLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Gigajoules (GJ)',
-      one: 'Gigajoule (GJ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Gigajoules (GJ)', one: 'Gigajoule (GJ)');
     return '$_temp0';
   }
 
@@ -3057,12 +2853,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String unitHoursLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'နာရီ (ဇ)',
-      one: 'နာရီ',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'နာရီ (ဇ)', one: 'နာရီ');
     return '$_temp0';
   }
 
@@ -3102,12 +2893,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String unitLitersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'လီတာ (ℓ)',
-      one: 'လီတာ (ℓ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'လီတာ (ℓ)', one: 'လီတာ (ℓ)');
     return '$_temp0';
   }
 
@@ -3139,12 +2925,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String unitNoneFormatted(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'ယူနစ်',
-      one: 'တခု',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'ယူနစ်', one: 'တခု');
     return '$_temp0';
   }
 
@@ -3191,8 +2972,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ကောင်တာများ, ကန်ထရိုက်များ, စသည်တို့ကိုဘေးတိုက်ပွတ်ဆွဲခြင်းဖြင့်ဖျက်နိုင်သည်';
 
   @override
-  String get usedForPaymentsRepayments =>
-      'ကြိုတင်ငွေပေးချေမှု, အခြေခံစျေးနှုန်းနှင့်အပိုဆုကြေး';
+  String get usedForPaymentsRepayments => 'ကြိုတင်ငွေပေးချေမှု, အခြေခံစျေးနှုန်းနှင့်အပိုဆုကြေး';
 
   @override
   String valueLess(String value) {
@@ -3226,15 +3006,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get virtualCounterMetersToBeAdded => 'မီတာထည့်သွင်းခံရဖို့မီတာ';
 
   @override
-  String get virtualCounterMetersToBeAddedDescription =>
-      'မည်သည့်မီတာသည် Main Meter, E.G. , E.G. , E.G. , E.G. ,';
+  String get virtualCounterMetersToBeAddedDescription => 'မည်သည့်မီတာသည် Main Meter, E.G. , E.G. , E.G. , E.G. ,';
 
   @override
   String get virtualCounterMetersToBeSubtracted => 'meters နုတ်ဖို့မီတာ';
 
   @override
-  String get virtualCounterMetersToBeSubtractedDescription =>
-      'မည်သည့်မီတာဖတ်ခြင်းများကိုအဓိကမီတာမှနုတ်ယူသင့်သည်။';
+  String get virtualCounterMetersToBeSubtractedDescription => 'မည်သည့်မီတာဖတ်ခြင်းများကိုအဓိကမီတာမှနုတ်ယူသင့်သည်။';
 
   @override
   String get virtualCounterNotConfigured =>
@@ -3265,10 +3043,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String warningReadingBiggerThanOldValue(String isOilCounter) {
-    String _temp0 = intl.Intl.selectLogic(isOilCounter, {
-      'true': ' ထရက်ကို ပြန်ဖြည့်ပြီးပြီလား?',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(isOilCounter, {'true': ' ထရက်ကို ပြန်ဖြည့်ပြီးပြီလား?', 'other': ''});
     return 'တန်ဖိုးအသစ်သည် ယခင်မီတာစာဖတ်ခြင်းထက်ပိုမိုမြင့်မားသည်။$_temp0';
   }
 
@@ -3277,30 +3052,20 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'တန်ဖိုးအသစ်သည်ယခင်မီတာစာဖတ်ခြင်းထက်ပိုမိုမြင့်မားသည်။ မင်းအကြံပေးအဖွဲ့ကိုဖြည့်ပါသလား';
 
   @override
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  ) {
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart) {
     return 'Phtoken.1is ပျောက်ဆုံးနေသောနှစ် Phtoken0 အတွက်နောက်ဆုံးမီတာစာဖတ်ခြင်း။ ဤသည်စုစုပေါင်းနှစ်စဉ်စားသုံးမှု၏မှန်ကန်သောတွက်ချက်မှုများအတွက်လိုအပ်သောဖြစ်ပါတယ်။';
   }
 
   @override
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  ) {
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText) {
     return '$deviceTypeName အတွက် နောက်ဆုံးမီတာဖတ်ရှုမှုသည် $outdatedSinceText ကြာမြင့်နေပြီဖြစ်၍ ခေတ်မမီတော့ပါ။ $whenNotifyDateText';
   }
 
   @override
-  String get warningReadingSeemsTooBig =>
-      'တန်ဖိုးအသစ်သည်အတော်လေးမြင့်မားသည်။ စာဖတ်ခြင်းမှန်ကန်စွာယူခဲ့သလဲ';
+  String get warningReadingSeemsTooBig => 'တန်ဖိုးအသစ်သည်အတော်လေးမြင့်မားသည်။ စာဖတ်ခြင်းမှန်ကန်စွာယူခဲ့သလဲ';
 
   @override
-  String get warningReadingSeemsTooSmall =>
-      'တန်ဖိုးအသစ်သည်အတော်လေးနိမ့်သည်။ မှန်ကန်စွာဖတ်ခဲ့သလား';
+  String get warningReadingSeemsTooSmall => 'တန်ဖိုးအသစ်သည်အတော်လေးနိမ့်သည်။ မှန်ကန်စွာဖတ်ခဲ့သလား';
 
   @override
   String get warningReadingSmallerThanOldValue2 =>
@@ -3337,8 +3102,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get waterSupplier => 'ရေပေးသွင်းသူ';
 
   @override
-  String get waterSupplierHint =>
-      'သင့်ဒေသခံ ရေပေးဝေသူ၊ ဥပမာ Mock Town မြို့နယ် ရေပေးဝေမှုဌာန';
+  String get waterSupplierHint => 'သင့်ဒေသခံ ရေပေးဝေသူ၊ ဥပမာ Mock Town မြို့နယ် ရေပေးဝေမှုဌာန';
 
   @override
   String get waterSupplierUnknown =>
@@ -3353,8 +3117,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင်ဝင်ရောက်ခွင့်ကိုတောင်းခံပြီးပြီလား ထို့နောက် EHW + အသုံးပြုသူအကောင့်တစ်ခုကိုဖန်တီးရန်လိုအပ်သည်။';
 
   @override
-  String get watersupplierAccessRequestQ3 =>
-      'သင့် QR ကုဒ်ကိုရယူပြီးလက်ခံပြီးဖြစ်သည်။';
+  String get watersupplierAccessRequestQ3 => 'သင့် QR ကုဒ်ကိုရယူပြီးလက်ခံပြီးဖြစ်သည်။';
 
   @override
   String get watersupplierAccessRequestQ4 =>
@@ -3369,12 +3132,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင်မဖြတ်သန်းသင့်ပါ! ကျေးဇူးပြု. သင့် Meter ID ၏နောက်ဆုံးဂဏန်းသုံးလုံးကိုထပ်ထည့်ပါ။';
 
   @override
-  String get watersupplierMeterIdValidationStep =>
-      'သင်၏မီတာ ID ကိုစစ်ဆေးနေသည်။';
+  String get watersupplierMeterIdValidationStep => 'သင်၏မီတာ ID ကိုစစ်ဆေးနေသည်။';
 
   @override
-  String get watersupplierNoAccess =>
-      'အချက်အလက်များကိုပြန်လည်ရယူရန်ခွင့်ပြုချက်မရတော့ပါ။';
+  String get watersupplierNoAccess => 'အချက်အလက်များကိုပြန်လည်ရယူရန်ခွင့်ပြုချက်မရတော့ပါ။';
 
   @override
   String get watersupplierNoAccessDetailedMessage =>
@@ -3391,12 +3152,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ယခုကျွန်ုပ်တို့သည်သင်၏အကောင့်ကိုအနာဂတ်အတွက်ရေဒီယိုမီတာဖတ်ရှုနိုင်ရန်အတွက်သင်၏အကောင့်ကိုခွင့်ပြုထားသည်။';
 
   @override
-  String get watersupplierScanQrCodeCommand =>
-      'ဘယ်ဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။';
+  String get watersupplierScanQrCodeCommand => 'ဘယ်ဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။';
 
   @override
-  String get watersupplierScanQrCodeOffboardingSuccessful =>
-      'သင့်ရေဒီယိုရေကိုလက်လှမ်းမီမှုကိုဖျက်သိမ်းလိုက်သည်။';
+  String get watersupplierScanQrCodeOffboardingSuccessful => 'သင့်ရေဒီယိုရေကိုလက်လှမ်းမီမှုကိုဖျက်သိမ်းလိုက်သည်။';
 
   @override
   String get watersupplierScanQrCodeScanSuccessful =>
@@ -3414,12 +3173,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ဟုတ်တယ်! သင်၏ရေဒီယိုရေမီတာ \"ရေအေး\" ကိုအောင်မြင်စွာထည့်သွင်းထားသည်။ သင်ကအခြားမီတာအကြားရှာတွေ့နိုင်ပါသည်။';
 
   @override
-  String get watersupplierScanQrCodeValidation =>
-      'QR Code ကိုရှာဖွေတွေ့ရှိကြစို့။';
+  String get watersupplierScanQrCodeValidation => 'QR Code ကိုရှာဖွေတွေ့ရှိကြစို့။';
 
   @override
-  String get watersupplierScanQrCodeValidationFailed =>
-      'တောင်းပန်ပါတယ်, ကုဒ်မမှန်ကန်ပါ။ သင်ထပ်ကြိုးစားချင်ပါသလား';
+  String get watersupplierScanQrCodeValidationFailed => 'တောင်းပန်ပါတယ်, ကုဒ်မမှန်ကန်ပါ။ သင်ထပ်ကြိုးစားချင်ပါသလား';
 
   @override
   String get watersupplierScanQrCodeValidationFailedOnboardingScanned =>
@@ -3430,8 +3187,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'activation code အစား revocation code ကိုသင်စကင်ဖတ်စစ်ဆေးသည်။ ကျေးဇူးပြုပြီးထပ်ကြိုးစားပါ';
 
   @override
-  String get watersupplierScanRevokeQrCodeCommand =>
-      'ညာဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။';
+  String get watersupplierScanRevokeQrCodeCommand => 'ညာဘက် QR Code ကိုစကင်ဖတ်စစ်ဆေးပါ။';
 
   @override
   String get watersupplierUnlinkRadioMeterButtonDelete => 'ရေဒီယိုကိုဖျက်ပါ';
@@ -3448,8 +3204,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင်၏ရေဒီယိုမီတာဒေတာများကိုသင်လက်လှမ်းမမီချင်ပါသလော။ ကျေးဇူးပြု. မှတ်သားပါ။ ပြန်လည်ရုပ်သိမ်းခြင်းကုဒ်ကိုစကင်ဖတ်စစ်ဆေးသည်နှင့်တပြိုင်နက်, activation code သည်မမှန်ကန်ပါ။ activation code ကိုအသုံးပြုသောအသုံးပြုသူအကောင့်သည်ဝင်ရောက်ခွင့်ပြုလိမ့်မည်။';
 
   @override
-  String get watersupplierUnlinkRadioMeterTitle =>
-      'ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ';
+  String get watersupplierUnlinkRadioMeterTitle => 'ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ';
 
   @override
   String get yearlyConsumption => 'ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု';
@@ -3477,6 +3232,5 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
-  String get zipCodeValidationOnlyNumbers =>
-      'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
+  String get zipCodeValidationOnlyNumbers => 'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
 }

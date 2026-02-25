@@ -9,15 +9,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   EhwplusAppLocalizationsSw([String locale = 'sw']) : super(locale);
 
   @override
-  String get accountAbout =>
-      'Je! Akaunti ya mtumiaji ya EHW+ inaweza kufanya nini?';
+  String get accountAbout => 'Je! Akaunti ya mtumiaji ya EHW+ inaweza kufanya nini?';
 
   @override
   String get accountBenefit1 => 'Utambuzi wa ununuzi wa kuaminika zaidi';
 
   @override
-  String get accountBenefit2 =>
-      'Upataji wa upanuzi wote ulionunuliwa kwenye vifaa vingi';
+  String get accountBenefit2 => 'Upataji wa upanuzi wote ulionunuliwa kwenye vifaa vingi';
 
   @override
   String get accountButtonSetup => 'Sanidi akaunti ya mtumiaji ya EHW+';
@@ -34,8 +32,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get accountFaqQ1 => 'Je! Akaunti ya mtumiaji ya EHW+ ni nini?';
 
   @override
-  String get accountFaqQ2 =>
-      'Je! Bado nitapata ununuzi wangu bila akaunti ya mtumiaji ya EHW+?';
+  String get accountFaqQ2 => 'Je! Bado nitapata ununuzi wangu bila akaunti ya mtumiaji ya EHW+?';
 
   @override
   String get accountFaqTitle => 'Maswali yanayoulizwa mara kwa mara:';
@@ -97,8 +94,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get activityWashTemperature => 'Joto';
 
   @override
-  String get activityWithEnergyConsumption =>
-      'Matumizi ya nguvu hupimwa tu kwa shughuli';
+  String get activityWithEnergyConsumption => 'Matumizi ya nguvu hupimwa tu kwa shughuli';
 
   @override
   String get addActivity => 'Ongeza shughuli';
@@ -167,8 +163,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Kwa wastani, kila mtu nchini Ujerumani hutumia lita 127 za maji ya kunywa katika kaya kila siku. Mstari wa bluu unawakilisha maji baridi (60%), maji nyekundu ya moto (40%), yameongezwa kwa idadi ya siku katika kipindi na idadi ya watu.';
 
   @override
-  String get chartHorizontalLines =>
-      'Mistari iliyopigwa imekusudiwa kutoa maoni juu ya matumizi yako mwenyewe.';
+  String get chartHorizontalLines => 'Mistari iliyopigwa imekusudiwa kutoa maoni juu ya matumizi yako mwenyewe.';
 
   @override
   String get chooseActivity => 'Chagua shughuli';
@@ -183,8 +178,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get cometConsentScreenAcceptButton => 'Nataka kutoa maoni';
 
   @override
-  String get cometConsentScreenDataCanBeUsedForTraining =>
-      'Takwimu zinaweza kutumika kuongeza utabiri wa siku zijazo';
+  String get cometConsentScreenDataCanBeUsedForTraining => 'Takwimu zinaweza kutumika kuongeza utabiri wa siku zijazo';
 
   @override
   String get cometConsentScreenDeclineButton => 'Sitaki kutoa maoni';
@@ -198,8 +192,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Maoni hutolewa kiatomati wakati unatumia huduma ya utabiri na unakubali optimization.';
 
   @override
-  String get cometConsentScreenFeedbackTitle =>
-      'Chuo Kikuu cha Goethe kinahitaji maoni yako:';
+  String get cometConsentScreenFeedbackTitle => 'Chuo Kikuu cha Goethe kinahitaji maoni yako:';
 
   @override
   String get cometConsentScreenHeader => 'Mpya: Utabiri bora wa matumizi';
@@ -208,27 +201,23 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get cometConsentScreenHowItWorksTitle => 'Inafanyaje kazi?';
 
   @override
-  String get cometConsentScreenOfflineDescription =>
-      'Utabiri rahisi wa ndani utahesabiwa kwenye kifaa chako.';
+  String get cometConsentScreenOfflineDescription => 'Utabiri rahisi wa ndani utahesabiwa kwenye kifaa chako.';
 
   @override
-  String get cometConsentScreenOfflineDescriptionTitle =>
-      'Bila unganisho la mtandao:';
+  String get cometConsentScreenOfflineDescriptionTitle => 'Bila unganisho la mtandao:';
 
   @override
   String get cometConsentScreenOnlineDescription =>
       'Takwimu zako za matumizi zitatumwa kwa Chuo Kikuu cha Goethe Frankfurt, ambapo utabiri wa mtu binafsi utaundwa na kuonyeshwa kwenye programu.';
 
   @override
-  String get cometConsentScreenOnlineDescriptionTitle =>
-      'Na unganisho la mtandao:';
+  String get cometConsentScreenOnlineDescriptionTitle => 'Na unganisho la mtandao:';
 
   @override
   String get cometConsentScreenToggleLabel => 'Tumia huduma ya utabiri';
 
   @override
-  String get cometSettingsIsPredictionsApiEnabled =>
-      'Tumia API ya utabiri wa Comet kutoka Taasisi ya Goethe';
+  String get cometSettingsIsPredictionsApiEnabled => 'Tumia API ya utabiri wa Comet kutoka Taasisi ya Goethe';
 
   @override
   String get comment => 'Bote';
@@ -324,10 +313,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get commonUserLogin => 'Kuingia kwa mtumiaji';
 
   @override
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  ) {
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total) {
     return 'Unatumia akaunti ya EHW+. Phtoken0 kati ya bidhaa zilizonunuliwa za phtoken1 hazikuweza kuokolewa kwenye seva ya EHW+. Tunatumai kurekebisha suala hilo hivi karibuni.';
   }
 
@@ -347,12 +333,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          'Unatumia akaunti ya EHW+. Bidhaa zilizonunuliwa za phtoken0 zimehifadhiwa kwenye seva ya EHW+.',
-      one:
-          'Unatumia akaunti ya EHW+. Bidhaa iliyonunuliwa ya phtoken0 imehifadhiwa kwenye seva ya EHW+.',
-      zero:
-          'Unatumia akaunti ya EHW+. Ikiwa unununua bidhaa katika siku zijazo, zitasawazishwa kwa vifaa vyako vyote.',
+      other: 'Unatumia akaunti ya EHW+. Bidhaa zilizonunuliwa za phtoken0 zimehifadhiwa kwenye seva ya EHW+.',
+      one: 'Unatumia akaunti ya EHW+. Bidhaa iliyonunuliwa ya phtoken0 imehifadhiwa kwenye seva ya EHW+.',
+      zero: 'Unatumia akaunti ya EHW+. Ikiwa unununua bidhaa katika siku zijazo, zitasawazishwa kwa vifaa vyako vyote.',
     );
     return '$_temp0';
   }
@@ -387,8 +370,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Stromgedacht, huduma iliyotolewa na TransnetBW, hutoa habari juu ya utulivu wa gridi ya taifa na mapendekezo juu ya wakati umeme unapaswa kutumiwa kwa upendeleo. Wakati mabadiliko ya nishati yanazidi kuwa ngumu zaidi kwa gridi ya maambukizi, kaya za kusini-magharibi mwa Ujerumani zinahusika. Ili kupokea habari kwa eneo lako, nambari yako ya posta, ikiwa imeingizwa hapa kwenye programu, hupitishwa kwa API ya TransnetBW Stromgedacht. Hakuna data nyingine inayopitishwa au kuunganishwa.';
 
   @override
-  String get consent13StromGedachtTitle =>
-      'Arifa za utulivu wa gridi ya taifa kutoka Stromgedacht';
+  String get consent13StromGedachtTitle => 'Arifa za utulivu wa gridi ya taifa kutoka Stromgedacht';
 
   @override
   String get consent1Hello => 'Hello';
@@ -397,8 +379,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consent2ThankYou => 'Asante kwa kutumia EHW+!';
 
   @override
-  String get consent3Video =>
-      'Je! Ungependa kutazama video fupi ya utangulizi?';
+  String get consent3Video => 'Je! Ungependa kutazama video fupi ya utangulizi?';
 
   @override
   String get consent4BeforeYouCanContinue => 'Kabla ya kuendelea';
@@ -420,8 +401,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consumption => 'Matumizi';
 
   @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Cache ilisafishwa kwa mafanikio';
+  String get consumptionCacheDebugViewCacheCleared => 'Cache ilisafishwa kwa mafanikio';
 
   @override
   String get consumptionCacheDebugViewClear => 'Futa';
@@ -443,23 +423,20 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consumptionCacheDebugViewTitle => 'Hifadhi ya matumizi';
 
   @override
-  String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'Wazi na Usawazishaji';
+  String get consumptionCacheManagementClearCacheAndSynchronizeButton => 'Wazi na Usawazishaji';
 
   @override
   String get consumptionCacheManagementClearCacheButton => 'Kashe wazi';
 
   @override
-  String get consumptionCacheManagementClearedSuccessfully =>
-      'Cache ilisafishwa kwa mafanikio';
+  String get consumptionCacheManagementClearedSuccessfully => 'Cache ilisafishwa kwa mafanikio';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
       'Takwimu zote zilizohifadhiwa zitafutwa na kupakuliwa tena kutoka kwa seva. Hii inaweza kuchukua muda.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'Futa kashe na usawazisha?';
+  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle => 'Futa kashe na usawazisha?';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
@@ -469,8 +446,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consumptionCacheManagementConfirmClearCacheTitle => 'Kashe wazi?';
 
   @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Hifadhi matumizi yaliyohesabiwa na watamiaji inapohitajika';
+  String get consumptionCacheToggleButtonDescription => 'Hifadhi matumizi yaliyohesabiwa na watamiaji inapohitajika';
 
   @override
   String get consumptionCacheToggleButtonTitle => 'Tumia hifadhi ya matumizi';
@@ -487,26 +463,19 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionIsNotExclusive =>
-      'Ikiwa matumizi sio ya kipekee kwa shughuli hii, itaonyeshwa kama onyo.';
+  String get consumptionIsNotExclusive => 'Ikiwa matumizi sio ya kipekee kwa shughuli hii, itaonyeshwa kama onyo.';
 
   @override
   String get consumptionIsNotExclusiveTitle => 'Je! Matumizi ni ya kipekee?';
 
   @override
   String consumptionPersonLabel(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'watu',
-      one: 'mtu',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'watu', one: 'mtu');
     return '$_temp0';
   }
 
   @override
-  String get consumptionWaterColdEqual =>
-      'Maji baridi: sawa na kaya ya wastani.';
+  String get consumptionWaterColdEqual => 'Maji baridi: sawa na kaya ya wastani.';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
@@ -519,49 +488,27 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Kwa kila mtu, kila mtu hutumia kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).';
   }
 
   @override
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Unatumia kuhusu lita za phtoken0 kwa siku (≈ phtoken1 phtoken2 kwa mwezi).';
   }
 
   @override
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel) {
     return 'Matumizi yako ya maji phtoken0 yanafanana na kaya ya wastani na phtoken1 phtoken2.';
   }
 
   @override
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Matumizi yako ya maji phtoken0 ni phtoken1 chini kuliko ile ya kaya ya wastani na phtoken2 phtoken3.';
   }
 
   @override
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Matumizi yako ya maji phtoken0 ni phtoken1 juu kuliko ile ya wastani wa kaya na phtoken2 phtoken3.';
   }
 
@@ -571,8 +518,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionWaterWarmEqual =>
-      'Maji ya moto: sawa na kaya ya wastani.';
+  String get consumptionWaterWarmEqual => 'Maji ya moto: sawa na kaya ya wastani.';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
@@ -593,19 +539,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedAboutSame => 'karibu sawa na';
 
   @override
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  ) {
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel) {
     return 'Kaya ya wastani na phtoken0 phtoken1';
   }
 
   @override
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  ) {
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix) {
     return 'Wewe matumizi ya matumizi0 karibu sawa na Kaya ya wastani na phtoken0 phtoken1.';
   }
 
@@ -713,12 +652,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Hapana, Ghairi.';
 
   @override
-  String get contractCopyDialogOptionYes =>
-      'Ndio, bei ya kitengo au thamani nyingine imebadilika.';
+  String get contractCopyDialogOptionYes => 'Ndio, bei ya kitengo au thamani nyingine imebadilika.';
 
   @override
-  String get contractCopyDialogTitle =>
-      'Je! Unataka kufanya nakala ya mkataba huu?';
+  String get contractCopyDialogTitle => 'Je! Unataka kufanya nakala ya mkataba huu?';
 
   @override
   String get contractCopyDialogWhen => 'Je! Bei mpya inatumika lini?';
@@ -828,16 +765,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get counterColdWater => 'Mita baridi ya maji';
 
   @override
-  String get counterConsiderForTotalConsumptions =>
-      'Fikiria kwa matumizi ya jumla';
+  String get counterConsiderForTotalConsumptions => 'Fikiria kwa matumizi ya jumla';
 
   @override
-  String get counterConsiderForTotalElectricity =>
-      'Fikiria kwa matumizi ya jumla ya umeme';
+  String get counterConsiderForTotalElectricity => 'Fikiria kwa matumizi ya jumla ya umeme';
 
   @override
-  String get counterConsiderForTotalWater =>
-      'Fikiria matumizi ya jumla ya maji';
+  String get counterConsiderForTotalWater => 'Fikiria matumizi ya jumla ya maji';
 
   @override
   String get counterContractCurrentlyUsed => 'Mkataba unaotumika sasa';
@@ -859,10 +793,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Je, thamani hupungua kwa matumizi (kiashirio cha kiwango, n.k.) au je, thamani huongezeka kwa matumizi (saa za kichomaji, mita ya mafuta, n.k.) au je, kila thamani ya usomaji inajitegemea (matumizi/mavuno)?';
 
   @override
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  ) {
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar) {
     return 'Phtoken0/phtoken1';
   }
 
@@ -937,8 +868,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get counterLinkMoreRecent => 'Unganisha kaunta ya hivi karibuni';
 
   @override
-  String get counterMessageRoomOptional =>
-      'Mgawo wa chumba husaidia kwa kuweka vikundi lakini ni hiari.';
+  String get counterMessageRoomOptional => 'Mgawo wa chumba husaidia kwa kuweka vikundi lakini ni hiari.';
 
   @override
   String get counterMeterId => 'Kitambulisho cha mita';
@@ -975,8 +905,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get counterProportionateConsumption => 'Matumizi ya sehemu';
 
   @override
-  String get counterPvFeedInCounter =>
-      'Nguvu zinazoweza kurejeshwa (nguvu ya jua na joto na mifumo ya PV/jua)';
+  String get counterPvFeedInCounter => 'Nguvu zinazoweza kurejeshwa (nguvu ya jua na joto na mifumo ya PV/jua)';
 
   @override
   String get counterPvFeedInCounterExplanation =>
@@ -1026,8 +955,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get counterWarmWater => 'Mita ya maji ya joto';
 
   @override
-  String get counterWarmWaterPlusColdWater =>
-      'Ukiondoa maji safi na gharama ya maji ya taka';
+  String get counterWarmWaterPlusColdWater => 'Ukiondoa maji safi na gharama ya maji ya taka';
 
   @override
   String get counterWater => 'Mita za maji';
@@ -1087,10 +1015,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate) {
     return 'Faili iliyohifadhiwa kwenye kifaa hiki kutoka phtoken0 ni ya kisasa zaidi kuliko faili kwenye wingu kutoka phtoken1';
   }
 
@@ -1103,10 +1028,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate) {
     return 'Faili kwenye wingu kutoka PhToken0 ni ya kisasa zaidi kuliko faili ya ndani kutoka PhToken1';
   }
 
@@ -1162,8 +1084,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get existingPhoto => 'Ambatisha picha iliyopo';
 
   @override
-  String get existingPhotoOfMeterReading =>
-      'Je! Ungependa kushikamana na picha iliyopo ya usomaji wa mita?';
+  String get existingPhotoOfMeterReading => 'Je! Ungependa kushikamana na picha iliyopo ya usomaji wa mita?';
 
   @override
   String get explanationManageMoreThanOneObject =>
@@ -1173,8 +1094,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get export => 'Kuuza nje';
 
   @override
-  String get exportExplanation =>
-      'Je! Ni kitu gani kilichopo unataka kuuza nje, kwa mfano kuihamisha kwa kifaa kipya?';
+  String get exportExplanation => 'Je! Ni kitu gani kilichopo unataka kuuza nje, kwa mfano kuihamisha kwa kifaa kipya?';
 
   @override
   String exportObjectDescription(
@@ -1187,8 +1107,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get exportOptionConsumptionsSubtitle =>
-      'Thamani ya matumizi kwa kila siku tangu usomaji wa kwanza.';
+  String get exportOptionConsumptionsSubtitle => 'Thamani ya matumizi kwa kila siku tangu usomaji wa kwanza.';
 
   @override
   String get exportOptionConsumptionsTitle => 'Matumizi ya kila siku';
@@ -1205,8 +1124,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get exportOptionPdf => 'Faili ya PDF';
 
   @override
-  String get exportOptionReadingsSubtitle =>
-      'Kawaida usomaji wa mita au matumizi na vipindi visivyo kawaida.';
+  String get exportOptionReadingsSubtitle => 'Kawaida usomaji wa mita au matumizi na vipindi visivyo kawaida.';
 
   @override
   String get exportOptionReadingsTitle => 'Maadili ya kusoma';
@@ -1223,24 +1141,18 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'Shiriki na programu zingine';
 
   @override
-  String get exportTabSnackBarSaveResultMessageError =>
-      'Hitilafu ilitokea wakati wa kuokoa data';
+  String get exportTabSnackBarSaveResultMessageError => 'Hitilafu ilitokea wakati wa kuokoa data';
 
   @override
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  ) {
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder) {
     return 'Takwimu zimehifadhiwa kwa mafanikio kama phtoken0 kwenye folda phtoken1';
   }
 
   @override
-  String get exportWhere =>
-      'Je! Kitu hicho kinapaswa kusafirishwa katika muundo gani?';
+  String get exportWhere => 'Je! Kitu hicho kinapaswa kusafirishwa katika muundo gani?';
 
   @override
-  String get exportWhichValuesShouldBeExported =>
-      'Je! Ni maadili gani yanayopaswa kusafirishwa?';
+  String get exportWhichValuesShouldBeExported => 'Je! Ni maadili gani yanayopaswa kusafirishwa?';
 
   @override
   String get faqAboutDeveloperBody1 =>
@@ -1251,8 +1163,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Zaidi ya 26% ya uzalishaji wote wa CO2 nchini Ujerumani husababishwa na kaya za kibinafsi. Ikiwa kila mtu anaweza kupunguza matumizi yao hata kidogo, mengi yatakuwa yamepatikana. Asante sana kwa mchango wako!';
 
   @override
-  String get faqAboutDeveloperBody3 =>
-      'Tunakaribisha maoni juu ya jinsi ya kuboresha programu.';
+  String get faqAboutDeveloperBody3 => 'Tunakaribisha maoni juu ya jinsi ya kuboresha programu.';
 
   @override
   String get faqAboutDeveloperBody4 =>
@@ -1268,8 +1179,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get featureVoting => 'Upigaji kura';
 
   @override
-  String get featureVotingOnlyOnGerman =>
-      'Utafiti wa kipengele haujatafsiriwa kwa lugha zingine.';
+  String get featureVotingOnlyOnGerman => 'Utafiti wa kipengele haujatafsiriwa kwa lugha zingine.';
 
   @override
   String get featureVotingUnderConstruction =>
@@ -1345,8 +1255,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       columns,
       locale: localeName,
-      other:
-          'Nguzo mbili tu za kwanza zilitumika, nguzo za PhToken0 zilipuuzwa.',
+      other: 'Nguzo mbili tu za kwanza zilitumika, nguzo za PhToken0 zilipuuzwa.',
       one: 'Nguzo mbili tu za kwanza zilitumika. Safu ya tatu ilipuuzwa.',
     );
     return '$_temp0';
@@ -1364,8 +1273,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get importExplanation =>
-      'Tayari umefanya usomaji wa kukabiliana na unataka kuziingiza?';
+  String get importExplanation => 'Tayari umefanya usomaji wa kukabiliana na unataka kuziingiza?';
 
   @override
   String get importExport => 'Chelezo/rejesha';
@@ -1411,8 +1319,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get involvedCounters => 'Hesabu zinazohusika';
 
   @override
-  String get isLastEntryAtFilteredList =>
-      'Thamani ya zamani zaidi katika orodha iliyochujwa';
+  String get isLastEntryAtFilteredList => 'Thamani ya zamani zaidi katika orodha iliyochujwa';
 
   @override
   String get isOutdatedCounter => 'Counter haitumiki tena';
@@ -1436,8 +1343,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get lineChartAppearanceSettings => 'Chati za mstari';
 
   @override
-  String get lineChartAppearanceSettingsShowSpots =>
-      'Onyesha (mviringo) matangazo kwenye mistari ya chati';
+  String get lineChartAppearanceSettingsShowSpots => 'Onyesha (mviringo) matangazo kwenye mistari ya chati';
 
   @override
   String localWriteSubtitle(Object folder) {
@@ -1448,12 +1354,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get localWriteTitle => 'Hifadhi kwenye folda ya kupakua ya ndani';
 
   @override
-  String get manageMoreThanOneObjectStep1 =>
-      'Dhibiti zaidi ya kitu kimoja - Hatua ya 1';
+  String get manageMoreThanOneObjectStep1 => 'Dhibiti zaidi ya kitu kimoja - Hatua ya 1';
 
   @override
-  String get manageMoreThanOneObjectStep2 =>
-      'Dhibiti zaidi ya kitu kimoja - Hatua ya 2';
+  String get manageMoreThanOneObjectStep2 => 'Dhibiti zaidi ya kitu kimoja - Hatua ya 2';
 
   @override
   String get marketLocationId => 'Kitambulisho cha eneo la soko';
@@ -1476,8 +1380,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Bado haujaunda counter.';
 
   @override
-  String get messageNoRooms =>
-      'Hakuna vyumba bado. Vyumba husaidia mita za kikundi.';
+  String get messageNoRooms => 'Hakuna vyumba bado. Vyumba husaidia mita za kikundi.';
 
   @override
   String get messageNotEnoughData => 'Haitoshi data kuonyesha chati';
@@ -1503,12 +1406,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get meterReplacementCreateNew =>
-      'Tengeneza mita inayofuata ya aina ile ile';
+  String get meterReplacementCreateNew => 'Tengeneza mita inayofuata ya aina ile ile';
 
   @override
-  String get meterReplacementDescription =>
-      'Je, mita hii imepitwa na wakati na imebadilishwa na mita mpya?';
+  String get meterReplacementDescription => 'Je, mita hii imepitwa na wakati na imebadilishwa na mita mpya?';
 
   @override
   String monthEnd(Object month) {
@@ -1531,8 +1432,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get newPhoto => 'Chukua picha mpya';
 
   @override
-  String get newPhotoOfMeterReading =>
-      'Je! Ungependa kuchukua picha ya usomaji wa mita?';
+  String get newPhotoOfMeterReading => 'Je! Ungependa kuchukua picha ya usomaji wa mita?';
 
   @override
   String get newReading => 'Ingiza usomaji wa sasa';
@@ -1547,8 +1447,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get notificationsEmpty => 'Hakuna arifa';
 
   @override
-  String get notificationsSmartMeterAlertFallback =>
-      'Una tahadhari mpya ya mita smart.';
+  String get notificationsSmartMeterAlertFallback => 'Una tahadhari mpya ya mita smart.';
 
   @override
   String numCounters(int count) {
@@ -1564,23 +1463,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(
-      readings,
-      locale: localeName,
-      other: '# Usomaji',
-      one: '# kusoma',
-    );
+    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# Usomaji', one: '# kusoma');
     return '$_temp0';
   }
 
   @override
   String numberOfDetails(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Maelezo ya phtoken0',
-      one: 'Maelezo 1',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Maelezo ya phtoken0', one: 'Maelezo 1');
     return '$_temp0';
   }
 
@@ -1809,8 +1698,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Ingiza usomaji wa mita kwa vyumba vingi/nyumba/vitu kama unavyopenda (badala ya kitu kimoja tu)';
 
   @override
-  String get purchasesExtensionMultipleObjectsTitlePart =>
-      'Kusimamia vitu vingi';
+  String get purchasesExtensionMultipleObjectsTitlePart => 'Kusimamia vitu vingi';
 
   @override
   String get purchasesExtensionStatisticsDescription =>
@@ -1820,12 +1708,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get purchasesExtensionStatisticsTitle => 'Takwimu za hali ya juu';
 
   @override
-  String get purchasesExtensionsInWork =>
-      'Viongezeo zaidi vimepangwa. Shiriki katika uchunguzi wa huduma ili kusema.';
+  String get purchasesExtensionsInWork => 'Viongezeo zaidi vimepangwa. Shiriki katika uchunguzi wa huduma ili kusema.';
 
   @override
-  String get purchasesExtensionsSubtitle =>
-      'Nunua mara moja, tumia kabisa (hakuna usajili)';
+  String get purchasesExtensionsSubtitle => 'Nunua mara moja, tumia kabisa (hakuna usajili)';
 
   @override
   String get purchasesExtensionsTitle => 'Viongezeo moja';
@@ -1873,16 +1759,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew) {
     return 'Usajili unaoweza kufutwa kila mwezi kwa bei ya uaminifu ya phtoken0 kwa mwezi badala ya phtoken1';
   }
 
   @override
-  String get purchasesSubscribePremiumTextLong =>
-      'Upataji wa huduma zote zilizolipwa wakati wa usajili + joto la nje';
+  String get purchasesSubscribePremiumTextLong => 'Upataji wa huduma zote zilizolipwa wakati wa usajili + joto la nje';
 
   @override
   String purchasesSubscribePremiumYearly(String price) {
@@ -1890,10 +1772,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew) {
     return 'Usajili unaoweza kufutwa kwa kila mwaka kwa bei ya uaminifu ya phtoken0 kwa mwaka badala ya phtoken1';
   }
 
@@ -1912,8 +1791,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get purchasesWhyBuyTitle => 'Kwa nini ninunue kitu?';
 
   @override
-  String get purchasesYourPurchases =>
-      'Una ufikiaji wa vifurushi vifuatavyo vya malipo:';
+  String get purchasesYourPurchases => 'Una ufikiaji wa vifurushi vifuatavyo vya malipo:';
 
   @override
   String get reading => 'Kusoma kaunta';
@@ -1928,12 +1806,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get readingPrefill => 'Usomaji wa mita za kujaza kiotomatiki';
 
   @override
-  String get readingPrefillDescription =>
-      'Usomaji wa mita kabla ya kujaza kulingana na viingilio vya zamani';
+  String get readingPrefillDescription => 'Usomaji wa mita kabla ya kujaza kulingana na viingilio vya zamani';
 
   @override
-  String get readingPrefillDisableForAllCounters =>
-      'Lemaza kujaza kiotomatiki kwa hesabu zote';
+  String get readingPrefillDisableForAllCounters => 'Lemaza kujaza kiotomatiki kwa hesabu zote';
 
   @override
   String get readingPrefillDisabled => 'Kujaza kiotomatiki';
@@ -1942,8 +1818,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get readingPrefillDisabledToast => 'Kujaza kiotomatiki';
 
   @override
-  String get readingPrefillEnableForAllCounters =>
-      'Wezesha kujaza kiotomatiki kwa hesabu zote';
+  String get readingPrefillEnableForAllCounters => 'Wezesha kujaza kiotomatiki kwa hesabu zote';
 
   @override
   String readingReminder(int count) {
@@ -2000,8 +1875,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get reallyDeleteCounter => 'Je! Una uhakika unataka kufuta kaunta?';
 
   @override
-  String get reallyDeleteCounterLink =>
-      'Je! Una uhakika unataka kufuta kiunga kati ya hesabu?';
+  String get reallyDeleteCounterLink => 'Je! Una uhakika unataka kufuta kiunga kati ya hesabu?';
 
   @override
   String get reallyDeleteDetail => 'Futa kweli maelezo haya?';
@@ -2010,8 +1884,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get reallyDeleteObject => 'Je! Una uhakika unataka kufuta kitu hicho?';
 
   @override
-  String get reallyDeletePhoto =>
-      'Je! Una uhakika unataka kufuta picha ya kusoma mita?';
+  String get reallyDeletePhoto => 'Je! Una uhakika unataka kufuta picha ya kusoma mita?';
 
   @override
   String get reallyDeleteValue => 'Je! Unataka kweli kufuta thamani hii?';
@@ -2026,8 +1899,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get reminderTime => 'Wakati wa ukumbusho';
 
   @override
-  String get reminderWeekdayExplanation =>
-      'Kuna ukumbusho wa kuchukua kusoma sio zaidi ya mara moja kwa siku.';
+  String get reminderWeekdayExplanation => 'Kuna ukumbusho wa kuchukua kusoma sio zaidi ya mara moja kwa siku.';
 
   @override
   String get reminderWeekdayExplanationSeasonal =>
@@ -2049,8 +1921,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get residualGenerationEstimated => 'Kizazi cha mabaki kinakadiriwa';
 
   @override
-  String get restoreDeletedCounter =>
-      'Je! Ungependa kurejesha mita hii iliyofutwa?';
+  String get restoreDeletedCounter => 'Je! Ungependa kurejesha mita hii iliyofutwa?';
 
   @override
   String get room => 'Chumba';
@@ -2126,8 +1997,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get selectedAtAppStart =>
-      'Kitu cha juu kabisa huchaguliwa katika Anza ya Programu';
+  String get selectedAtAppStart => 'Kitu cha juu kabisa huchaguliwa katika Anza ya Programu';
 
   @override
   String get settingColor => 'Rangi';
@@ -2149,8 +2019,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get settingHouseholdSize => 'Saizi ya kaya';
 
   @override
-  String get settingHouseholdSizeDescription =>
-      'Idadi ya watu katika kaya yako.';
+  String get settingHouseholdSizeDescription => 'Idadi ya watu katika kaya yako.';
 
   @override
   String get settingLanguageMode => 'Lugha';
@@ -2162,8 +2031,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get settingObjectLocation => 'Maelezo ya mali';
 
   @override
-  String get settingObjectLocationExplanation =>
-      'Kuingia eneo husaidia ufahamu na huduma kwa eneo lako.';
+  String get settingObjectLocationExplanation => 'Kuingia eneo husaidia ufahamu na huduma kwa eneo lako.';
 
   @override
   String get settingObjectLocationTitle => 'Kitu chako kiko wapi?';
@@ -2196,8 +2064,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get settingUiModeDark => 'Giza';
 
   @override
-  String get settingUiModeDarkOrLight =>
-      'Kiingiliano cha Mtumiaji wa Giza/Nuru';
+  String get settingUiModeDarkOrLight => 'Kiingiliano cha Mtumiaji wa Giza/Nuru';
 
   @override
   String get settingUiModeLight => 'Mwanga';
@@ -2221,12 +2088,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Huduma za nje';
 
   @override
-  String get settingsShowStromGedacht =>
-      'Je! Vidokezo kutoka Stromgedacht juu ya gridi ya nguvu kuonyeshwa?';
+  String get settingsShowStromGedacht => 'Je! Vidokezo kutoka Stromgedacht juu ya gridi ya nguvu kuonyeshwa?';
 
   @override
-  String get settingsShowTabNewsDetailed =>
-      'Je! Tabo ya Habari/Vidokezo inapaswa kuonekana?';
+  String get settingsShowTabNewsDetailed => 'Je! Tabo ya Habari/Vidokezo inapaswa kuonekana?';
 
   @override
   String get showAllYears => 'Onyesha miaka yote';
@@ -2251,15 +2116,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Mita za maji ya redio';
 
   @override
-  String get smartMeterErrorNoData =>
-      'Kwa bahati mbaya, hakuna data ambayo programu inaweza kuonyesha.';
+  String get smartMeterErrorNoData => 'Kwa bahati mbaya, hakuna data ambayo programu inaweza kuonyesha.';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Sanidi mita smart';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardTitle =>
-      'Tafadhali weka mita yako nzuri kwa usahihi.';
+  String get smartMeterMisconfiguredWidgetCardTitle => 'Tafadhali weka mita yako nzuri kwa usahihi.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Pata data kiatomati';
@@ -2283,9 +2146,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogError => 'Kosa';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogErrorMessage(
-    Object errorMessage,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogErrorMessage(Object errorMessage) {
     return 'Kufuatia kosa kulitokea wakati wa maingiliano: phtoken0';
   }
 
@@ -2293,13 +2154,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogErrorOkButton => 'Sawa';
 
   @override
-  String get smartMeterSettingsScreenSyncingDialogHeader =>
-      'Usawazishaji unaendelea';
+  String get smartMeterSettingsScreenSyncingDialogHeader => 'Usawazishaji unaendelea';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent) {
     return 'Maendeleo: phtoken0%';
   }
 
@@ -2330,9 +2188,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  ) {
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId) {
     return 'Mita yako ya maji phtoken0 imegundua matumizi ya juu ya maji, ambayo inaweza kuonyesha kupasuka kwa bomba au kujaza bwawa la kuogelea. Tafadhali angalia usanikishaji wa kaya yako kwa uvujaji mkubwa au mapumziko.';
   }
 
@@ -2380,8 +2236,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Ninakubali kwamba nambari yangu ya posta (ikiwa imetolewa) itapitishwa kwa TransnetBW kupata arifa za Stromgedacht.';
 
   @override
-  String get subscribeToSmartMeterInfocodeEvents =>
-      'Napenda kuarifiwa juu ya matumizi yasiyotarajiwa';
+  String get subscribeToSmartMeterInfocodeEvents => 'Napenda kuarifiwa juu ya matumizi yasiyotarajiwa';
 
   @override
   String get supplementaryPayment => 'Malipo ya ziada';
@@ -2396,8 +2251,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get supportGivePraise => 'Toa sifa';
 
   @override
-  String get supportGivePraiseLong =>
-      'Je! Unapenda programu? Asante! Kueneza neno!';
+  String get supportGivePraiseLong => 'Je! Unapenda programu? Asante! Kueneza neno!';
 
   @override
   String supportGivePraiseRating(String store) {
@@ -2412,8 +2266,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get supportMakeSuggestion => 'Pendekeza kitu';
 
   @override
-  String get supportMakeSuggestionLong =>
-      'Programu inaishi kutoka kwa maoni ya watumiaji. Je! Una maoni?';
+  String get supportMakeSuggestionLong => 'Programu inaishi kutoka kwa maoni ya watumiaji. Je! Una maoni?';
 
   @override
   String get supportQuestion => 'Uliza swali';
@@ -2422,12 +2275,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get supportQuestionBox => 'Ninawezaje kukusaidia?';
 
   @override
-  String get supportQuestionLong =>
-      'Inafanyaje kazi? Inawezekana kabisa? Hapa kuna majibu.';
+  String get supportQuestionLong => 'Inafanyaje kazi? Inawezekana kabisa? Hapa kuna majibu.';
 
   @override
-  String get supportQuestionNotFound =>
-      'Swali lako halikujibiwa? Ningefurahi kusaidia.';
+  String get supportQuestionNotFound => 'Swali lako halikujibiwa? Ningefurahi kusaidia.';
 
   @override
   String get supportRecommend =>
@@ -2437,8 +2288,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get supportReportBug => 'Ripoti mdudu kupitia barua';
 
   @override
-  String get supportReportBugAffectedPages =>
-      'Je! Kosa linatokea kwa kurasa zipi? (ikiwa inatumika)';
+  String get supportReportBugAffectedPages => 'Je! Kosa linatokea kwa kurasa zipi? (ikiwa inatumika)';
 
   @override
   String get supportReportBugLong =>
@@ -2449,12 +2299,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Tafadhali ambatisha skrini kwenye barua, ikiwezekana na alama ya kosa.';
 
   @override
-  String get supportReportBugTextIs =>
-      'Tafadhali eleza kwa kifupi tabia isiyo sahihi ya sasa, i.e. kosa lenyewe.';
+  String get supportReportBugTextIs => 'Tafadhali eleza kwa kifupi tabia isiyo sahihi ya sasa, i.e. kosa lenyewe.';
 
   @override
-  String get supportReportBugTextShould =>
-      'Tafadhali eleza kwa ufupi tabia inayotaka, i.e. jinsi inapaswa kuwa kweli.';
+  String get supportReportBugTextShould => 'Tafadhali eleza kwa ufupi tabia inayotaka, i.e. jinsi inapaswa kuwa kweli.';
 
   @override
   String get swimmingPool => 'Dimbwi la kuogelea';
@@ -2478,12 +2326,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Takwimu zako zimepakiwa kiotomatiki kwenye Hifadhi ya Google baada ya mabadiliko. Takwimu mpya kutoka kwa wingu huondoa tu data za kawaida wakati bonyeza kitu hicho. Akaunti ifuatayo ya Google inatumika:';
 
   @override
-  String get syncObjectIsLocked =>
-      'Takwimu za kitu zinasasishwa na haziwezi kuhaririwa wakati huu.';
+  String get syncObjectIsLocked => 'Takwimu za kitu zinasasishwa na haziwezi kuhaririwa wakati huu.';
 
   @override
-  String get syncShareWithOthersNotInWeb =>
-      'Kutoa ufikiaji kwa sasa inawezekana tu kupitia programu.';
+  String get syncShareWithOthersNotInWeb => 'Kutoa ufikiaji kwa sasa inawezekana tu kupitia programu.';
 
   @override
   String get syncShareWithOthersSubtitle =>
@@ -2493,16 +2339,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get syncShareWithOthersTitle => 'Shiriki na wengine?';
 
   @override
-  String get syncStatusFailedLong =>
-      'Imeshindwa kusawazisha, uhariri uko katika hatari yako mwenyewe';
+  String get syncStatusFailedLong => 'Imeshindwa kusawazisha, uhariri uko katika hatari yako mwenyewe';
 
   @override
-  String get syncStatusFailedLongNoAutoSync =>
-      'Imeshindwa kusawazisha, uhariri uko katika hatari yako mwenyewe';
+  String get syncStatusFailedLongNoAutoSync => 'Imeshindwa kusawazisha, uhariri uko katika hatari yako mwenyewe';
 
   @override
-  String get syncStatusSyncRemoteHasLatest =>
-      'Faili kwenye wingu ni ya kisasa zaidi kuliko faili ya ndani';
+  String get syncStatusSyncRemoteHasLatest => 'Faili kwenye wingu ni ya kisasa zaidi kuliko faili ya ndani';
 
   @override
   String get syncWithGoogleDriveDescription =>
@@ -2524,16 +2367,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get taxRate => 'Kiwango cha ushuru';
 
   @override
-  String get teaserPurchaseRenewableEnergies =>
-      'Vipimo vya nishati mbadala vinahitaji malipo.';
+  String get teaserPurchaseRenewableEnergies => 'Vipimo vya nishati mbadala vinahitaji malipo.';
 
   @override
-  String get teaserPurchaseVirtualCounter =>
-      'Ongeza hesabu za kawaida na malipo.';
+  String get teaserPurchaseVirtualCounter => 'Ongeza hesabu za kawaida na malipo.';
 
   @override
-  String get teaserPurchaseWaterExtractionCounter =>
-      'Fungua hesabu za uchimbaji wa maji na malipo.';
+  String get teaserPurchaseWaterExtractionCounter => 'Fungua hesabu za uchimbaji wa maji na malipo.';
 
   @override
   String termsOfUsageBlock1(String contact) {
@@ -2541,8 +2381,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get termsOfUsageBlock1Title =>
-      'Masharti ya Jumla ya Matumizi kwa matumizi ya programu';
+  String get termsOfUsageBlock1Title => 'Masharti ya Jumla ya Matumizi kwa matumizi ya programu';
 
   @override
   String get termsOfUsageBlock2 =>
@@ -2581,8 +2420,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get termsOfUsageBlock4Title => 'Majukumu ya mtumiaji';
 
   @override
-  String get termsOfUsageTitle =>
-      'Masharti ya Jumla ya Matumizi kwa matumizi ya programu';
+  String get termsOfUsageTitle => 'Masharti ya Jumla ya Matumizi kwa matumizi ya programu';
 
   @override
   String get termsOfUsageTitleShort => 'Masharti ya Matumizi';
@@ -2591,8 +2429,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get tibberAccessToken => 'Ufikiaji wa ishara';
 
   @override
-  String get tibberActionSaveAuthorizationSettings =>
-      'Hifadhi mipangilio ya idhini';
+  String get tibberActionSaveAuthorizationSettings => 'Hifadhi mipangilio ya idhini';
 
   @override
   String get tibberBasicAuth => 'Mwandishi wa kimsingi';
@@ -2601,8 +2438,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get tibberBasicAuthEnterPassword => 'Tafadhali ingiza nywila';
 
   @override
-  String get tibberBasicAuthEnterUsername =>
-      'Tafadhali ingiza jina la mtumiaji';
+  String get tibberBasicAuthEnterUsername => 'Tafadhali ingiza jina la mtumiaji';
 
   @override
   String get tibberBasicAuthPassword => 'Nenosiri';
@@ -2615,15 +2451,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Fuatilia utumiaji wako kwa wakati halisi na fungua Guzzlers za Nishati zilizofichwa.';
 
   @override
-  String get tibberConsentScreenBenefit1Title =>
-      'Angalia matumizi yako ya umeme';
+  String get tibberConsentScreenBenefit1Title => 'Angalia matumizi yako ya umeme';
 
   @override
   String get tibberConsentScreenConfigureLaterButton => 'Sanidi baadaye';
 
   @override
-  String get tibberConsentScreenConfigureNowButton =>
-      'Sanidi mapigo ya Tibber sasa';
+  String get tibberConsentScreenConfigureNowButton => 'Sanidi mapigo ya Tibber sasa';
 
   @override
   String get tibberConsentScreenDescription =>
@@ -2634,20 +2468,17 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Matumizi yako ya saa kutoka Machi 1 hayatajulikana na kutolewa kwa masomo ya Goethe.';
 
   @override
-  String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'Je! Ungependa kushiriki katika masomo ya Goethe?';
+  String get tibberConsentScreenGoetheStudyBenefit1Title => 'Je! Ungependa kushiriki katika masomo ya Goethe?';
 
   @override
   String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
       'Ndio, nataka kushiriki katika masomo ya Goethe';
 
   @override
-  String get tibberConsentScreenGoetheStudySectionHeader =>
-      'Ushiriki katika mradi wa utafiti';
+  String get tibberConsentScreenGoetheStudySectionHeader => 'Ushiriki katika mradi wa utafiti';
 
   @override
-  String get tibberConsentScreenHeader =>
-      'Kipengele kipya: data ya matumizi kutoka kwa Tibber Pulse';
+  String get tibberConsentScreenHeader => 'Kipengele kipya: data ya matumizi kutoka kwa Tibber Pulse';
 
   @override
   String get tibberConsentScreenStoreLink => 'Tembelea Duka la Tibber';
@@ -2663,18 +2494,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime) {
     return 'Masaa 24 kutoka phtoken0 kwenye phtoken1';
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime) {
     return 'Kutoka: phtoken0 hadi phtoken1';
   }
 
@@ -2689,10 +2514,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime) {
     return 'Saa moja kutoka phtoken0 kwenye phtoken1';
   }
 
@@ -2710,8 +2532,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get tibberEnterAccessToken => 'Tafadhali ingiza ishara ya ufikiaji';
 
   @override
-  String get tibberErrorAccessTokenInvalid =>
-      'Inaonekana kama ishara ya ufikiaji sio sahihi';
+  String get tibberErrorAccessTokenInvalid => 'Inaonekana kama ishara ya ufikiaji sio sahihi';
 
   @override
   String get tibberErrorConnectivityShowCacheInstead =>
@@ -2729,8 +2550,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Kiwango cha kiwango cha API cha Tibber kilizidi. Tafadhali subiri angalau dakika 5 kabla ya kujaribu tena.';
 
   @override
-  String get tibberErrorSmartMeterMisconfigured =>
-      'Mita yako smart inaonekana kuwa mbaya.';
+  String get tibberErrorSmartMeterMisconfigured => 'Mita yako smart inaonekana kuwa mbaya.';
 
   @override
   String tibberErrorUndefined(Object error) {
@@ -2750,32 +2570,25 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Nyumba hii haiungi mkono vipimo vya moja kwa moja au data ya kihistoria. Tafadhali chagua nyumba nyingine.';
 
   @override
-  String get tibberLiveMeasurementCounterCardViewFooter =>
-      'Kipimo cha moja kwa moja';
+  String get tibberLiveMeasurementCounterCardViewFooter => 'Kipimo cha moja kwa moja';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumption =>
-      'Jumla ya matumizi (tangu usiku wa manane)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumption => 'Jumla ya matumizi (tangu usiku wa manane)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour =>
-      'Matumizi (saa ya mwisho)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour => 'Matumizi (saa ya mwisho)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedCost =>
-      'Gharama iliyokusanywa';
+  String get tibberLiveMeasurementWidgetAccumulatedCost => 'Gharama iliyokusanywa';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProduction =>
-      'Jumla ya uzalishaji (tangu usiku wa manane)';
+  String get tibberLiveMeasurementWidgetAccumulatedProduction => 'Jumla ya uzalishaji (tangu usiku wa manane)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour =>
-      'Uzalishaji (Saa ya Mwisho)';
+  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour => 'Uzalishaji (Saa ya Mwisho)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedReward =>
-      'Thawabu iliyokusanywa';
+  String get tibberLiveMeasurementWidgetAccumulatedReward => 'Thawabu iliyokusanywa';
 
   @override
   String get tibberLiveMeasurementWidgetAveragePower => 'Nguvu ya wastani';
@@ -2790,12 +2603,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetCurrentL3 => 'Sasa (L3)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'Usomaji wa Mita (Matumizi)';
+  String get tibberLiveMeasurementWidgetLastMeterConsumption => 'Usomaji wa Mita (Matumizi)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'Usomaji wa Mita (Uzalishaji)';
+  String get tibberLiveMeasurementWidgetLastMeterProduction => 'Usomaji wa Mita (Uzalishaji)';
 
   @override
   String get tibberLiveMeasurementWidgetMaxPower => 'Nguvu kubwa';
@@ -2810,8 +2621,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetPowerFactor => 'Sababu ya nguvu';
 
   @override
-  String get tibberLiveMeasurementWidgetPowerProduction =>
-      'Uzalishaji wa nguvu';
+  String get tibberLiveMeasurementWidgetPowerProduction => 'Uzalishaji wa nguvu';
 
   @override
   String get tibberLiveMeasurementWidgetTimestamp => 'Timestamp';
@@ -2840,24 +2650,20 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetVoltagePhase3 => 'Voltage (Awamu ya 3)';
 
   @override
-  String get tibberLiveMeasurementsWidgetConnecting =>
-      'Kuunganisha kwa Pulse ya Tibber ...';
+  String get tibberLiveMeasurementsWidgetConnecting => 'Kuunganisha kwa Pulse ya Tibber ...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
       'Hitilafu ilitokea wakati wa kuunganisha na kunde wa Tibber. Tafadhali angalia ishara yako ya ufikiaji na unganisho la mtandao.';
 
   @override
-  String get tibberLiveMeasurementsWidgetNotSupported =>
-      'Vipimo vya moja kwa moja haviungwa mkono kwa nyumba hii.';
+  String get tibberLiveMeasurementsWidgetNotSupported => 'Vipimo vya moja kwa moja haviungwa mkono kwa nyumba hii.';
 
   @override
-  String get tibberMessageAccessTokenUpdated =>
-      'Ilifanikiwa kusasisha ishara ya ufikiaji';
+  String get tibberMessageAccessTokenUpdated => 'Ilifanikiwa kusasisha ishara ya ufikiaji';
 
   @override
-  String get tibberStatusWidgetTibberSubscriptionStatus =>
-      'Hali ya usajili wa Tibber';
+  String get tibberStatusWidgetTibberSubscriptionStatus => 'Hali ya usajili wa Tibber';
 
   @override
   String get tibberStatusWidgetTitle => 'Usimamizi wa kache';
@@ -2872,8 +2678,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get tibberSubscriptionStatusLoading => 'Inapakia ...';
 
   @override
-  String get tibberWhereIsMyAccessToken =>
-      'Ninaweza kupata wapi \"ishara ya ufikiaji\"?';
+  String get tibberWhereIsMyAccessToken => 'Ninaweza kupata wapi \"ishara ya ufikiaji\"?';
 
   @override
   String get timeBefore => 'Kabla';
@@ -3031,12 +2836,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String unitGJLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Gigajoules (GJ)',
-      one: 'Gigajoule (GJ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Gigajoules (GJ)', one: 'Gigajoule (GJ)');
     return '$_temp0';
   }
 
@@ -3051,12 +2851,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String unitHoursLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Masaa (H)',
-      one: 'Saa',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Masaa (H)', one: 'Saa');
     return '$_temp0';
   }
 
@@ -3079,12 +2874,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String unitKgLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Kilo (kilo)',
-      one: 'Kilo (kilo)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Kilo (kilo)', one: 'Kilo (kilo)');
     return '$_temp0';
   }
 
@@ -3096,12 +2886,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String unitLitersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Lita (ℓ)',
-      one: 'Lita (ℓ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Lita (ℓ)', one: 'Lita (ℓ)');
     return '$_temp0';
   }
 
@@ -3133,12 +2918,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String unitNoneFormatted(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'vitengo',
-      one: 'Sehemu',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'vitengo', one: 'Sehemu');
     return '$_temp0';
   }
 
@@ -3185,8 +2965,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Vihesabu, mikataba, nk zinaweza kufutwa na harakati za kubonyeza upande';
 
   @override
-  String get usedForPaymentsRepayments =>
-      'Malipo ya mapema, bei ya msingi, na bonasi';
+  String get usedForPaymentsRepayments => 'Malipo ya mapema, bei ya msingi, na bonasi';
 
   @override
   String valueLess(String value) {
@@ -3267,30 +3046,20 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Thamani mpya ni kubwa kuliko usomaji wa mita uliopita. Je! Umejaza tank?';
 
   @override
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  ) {
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart) {
     return 'Usomaji wa mita ya mwisho kwa mwaka phtoken0 kwa phtoken1 phtoken2is haipo. Hii ni muhimu kwa hesabu sahihi ya matumizi ya jumla ya kila mwaka.';
   }
 
   @override
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  ) {
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText) {
     return 'Usomaji wa mita wa hivi karibuni kwa $deviceTypeName umepitwa na wakati $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
-  String get warningReadingSeemsTooBig =>
-      'Thamani mpya ni ya juu kabisa. Je! Usomaji ulichukuliwa kwa usahihi?';
+  String get warningReadingSeemsTooBig => 'Thamani mpya ni ya juu kabisa. Je! Usomaji ulichukuliwa kwa usahihi?';
 
   @override
-  String get warningReadingSeemsTooSmall =>
-      'Thamani mpya ni ya chini kabisa. Ilisomwa kwa usahihi?';
+  String get warningReadingSeemsTooSmall => 'Thamani mpya ni ya chini kabisa. Ilisomwa kwa usahihi?';
 
   @override
   String get warningReadingSmallerThanOldValue2 =>
@@ -3307,8 +3076,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get waterConsumption => 'Matumizi ya maji';
 
   @override
-  String get waterExtractionMinimumLevelLower =>
-      'Kupunguza hufanyika kwa sababu matumizi ni chini kuliko kizingiti.';
+  String get waterExtractionMinimumLevelLower => 'Kupunguza hufanyika kwa sababu matumizi ni chini kuliko kizingiti.';
 
   @override
   String waterMeterEventsInformation(num count, String waterSupplier) {
@@ -3327,8 +3095,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get waterSupplier => 'Mtoa maji';
 
   @override
-  String get waterSupplierHint =>
-      'Mtoa maji wako wa eneo, k.m. Huduma za Manispaa za Mock Town';
+  String get waterSupplierHint => 'Mtoa maji wako wa eneo, k.m. Huduma za Manispaa za Mock Town';
 
   @override
   String get waterSupplierUnknown =>
@@ -3343,8 +3110,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Je! Tayari umeomba ufikiaji? Ifuatayo, unahitaji kuunda akaunti ya mtumiaji ya EHW+.';
 
   @override
-  String get watersupplierAccessRequestQ3 =>
-      'Je! Tayari umeomba ufikiaji na umepokea nambari yako ya QR?';
+  String get watersupplierAccessRequestQ3 => 'Je! Tayari umeomba ufikiaji na umepokea nambari yako ya QR?';
 
   @override
   String get watersupplierAccessRequestQ4 =>
@@ -3359,8 +3125,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Hautapita! Tafadhali ingiza nambari tatu za mwisho za kitambulisho cha mita tena!';
 
   @override
-  String get watersupplierMeterIdValidationStep =>
-      'Tunaangalia kitambulisho chako cha mita.';
+  String get watersupplierMeterIdValidationStep => 'Tunaangalia kitambulisho chako cha mita.';
 
   @override
   String get watersupplierNoAccess => 'Huna tena idhini ya kupata data.';
@@ -3373,20 +3138,17 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get watersupplierOpenReminderSettings => 'Mipangilio ya Fungua';
 
   @override
-  String get watersupplierRadioMeterDefaultName =>
-      'Mita ya maji baridi ya redio';
+  String get watersupplierRadioMeterDefaultName => 'Mita ya maji baridi ya redio';
 
   @override
   String get watersupplierScanQrCodeApprovalInProgress =>
       'Sasa tunaidhinisha akaunti yako ili uweze kupata usomaji wa mita za redio katika siku zijazo.';
 
   @override
-  String get watersupplierScanQrCodeCommand =>
-      'Scan nambari ya kushoto ya QR (nambari ya uanzishaji)!';
+  String get watersupplierScanQrCodeCommand => 'Scan nambari ya kushoto ya QR (nambari ya uanzishaji)!';
 
   @override
-  String get watersupplierScanQrCodeOffboardingSuccessful =>
-      'Upataji wa mita yako ya maji ya redio umefutwa.';
+  String get watersupplierScanQrCodeOffboardingSuccessful => 'Upataji wa mita yako ya maji ya redio umefutwa.';
 
   @override
   String get watersupplierScanQrCodeScanSuccessful =>
@@ -3404,12 +3166,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Ndio! Mita yako ya maji ya redio ya \"maji baridi\" imeongezwa kwa mafanikio. Unaweza kuipata kati ya mita zingine.';
 
   @override
-  String get watersupplierScanQrCodeValidation =>
-      'Nambari ya QR imegunduliwa, wacha tuithibitishe.';
+  String get watersupplierScanQrCodeValidation => 'Nambari ya QR imegunduliwa, wacha tuithibitishe.';
 
   @override
-  String get watersupplierScanQrCodeValidationFailed =>
-      'Samahani, nambari hiyo sio sahihi. Je! Unataka kujaribu tena?';
+  String get watersupplierScanQrCodeValidationFailed => 'Samahani, nambari hiyo sio sahihi. Je! Unataka kujaribu tena?';
 
   @override
   String get watersupplierScanQrCodeValidationFailedOnboardingScanned =>
@@ -3420,15 +3180,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Uligundua nambari ya kufutwa badala ya nambari ya uanzishaji. Tafadhali jaribu tena!';
 
   @override
-  String get watersupplierScanRevokeQrCodeCommand =>
-      'Scan nambari ya kulia ya QR (Rudia nambari)!';
+  String get watersupplierScanRevokeQrCodeCommand => 'Scan nambari ya kulia ya QR (Rudia nambari)!';
 
   @override
   String get watersupplierUnlinkRadioMeterButtonDelete => 'Futa mita ya redio';
 
   @override
-  String get watersupplierUnlinkRadioMeterButtonRevoke =>
-      'Scan Reflecation Code';
+  String get watersupplierUnlinkRadioMeterButtonRevoke => 'Scan Reflecation Code';
 
   @override
   String get watersupplierUnlinkRadioMeterDescription1 =>
@@ -3439,8 +3197,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Je! Hautaki ufikiaji wa data yako ya mita ya redio? Tafadhali kumbuka: Mara tu nambari ya uondoaji itakapokaguliwa, nambari ya uanzishaji inakuwa batili. Akaunti yoyote ya mtumiaji ambayo ilitumia nambari ya uanzishaji itapoteza ufikiaji.';
 
   @override
-  String get watersupplierUnlinkRadioMeterTitle =>
-      'Kusitisha ufikiaji wa mita ya redio';
+  String get watersupplierUnlinkRadioMeterTitle => 'Kusitisha ufikiaji wa mita ya redio';
 
   @override
   String get yearlyConsumption => 'Matumizi ya kila mwaka hadi sasa';
@@ -3468,6 +3225,5 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
-  String get zipCodeValidationOnlyNumbers =>
-      'Nambari halali ya zip ina nambari tu';
+  String get zipCodeValidationOnlyNumbers => 'Nambari halali ya zip ina nambari tu';
 }

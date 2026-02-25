@@ -26,6 +26,7 @@ enum LanguageIconType {
   langNo('nb', 'Norwegian Bokmål', 'Norsk'),
   langPl('pl', 'Polish', 'Polski'),
   langPt('pt', 'Portuguese', 'Português'),
+  langRo('ro', 'Romanian', 'Română'),
   langRu('ru', 'Russian', 'Русский язык'),
   langSl('sl', 'Slovenian', 'Slovenščina'),
   langSr('sr', 'Serbian', 'Српски'),

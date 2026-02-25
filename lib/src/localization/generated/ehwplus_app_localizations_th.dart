@@ -15,8 +15,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get accountBenefit1 => 'การรับรู้การซื้อที่เชื่อถือได้มากขึ้น';
 
   @override
-  String get accountBenefit2 =>
-      'เข้าถึงส่วนขยายที่ซื้อทั้งหมดบนอุปกรณ์หลายเครื่อง';
+  String get accountBenefit2 => 'เข้าถึงส่วนขยายที่ซื้อทั้งหมดบนอุปกรณ์หลายเครื่อง';
 
   @override
   String get accountButtonSetup => 'ตั้งค่าบัญชีผู้ใช้ EHW+';
@@ -33,15 +32,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get accountFaqQ1 => 'บัญชีผู้ใช้ EHW+ คืออะไร?';
 
   @override
-  String get accountFaqQ2 =>
-      'ฉันจะยังสามารถเข้าถึงการซื้อของฉันโดยไม่มีบัญชีผู้ใช้ EHW+ หรือไม่';
+  String get accountFaqQ2 => 'ฉันจะยังสามารถเข้าถึงการซื้อของฉันโดยไม่มีบัญชีผู้ใช้ EHW+ หรือไม่';
 
   @override
   String get accountFaqTitle => 'คำถามที่พบบ่อย:';
 
   @override
-  String get accountThankYouForPurchase =>
-      'ขอบคุณ! คุณต้องการซื้ออย่างปลอดภัยในบัญชีผู้ใช้ EHW+ ของคุณตอนนี้หรือไม่?';
+  String get accountThankYouForPurchase => 'ขอบคุณ! คุณต้องการซื้ออย่างปลอดภัยในบัญชีผู้ใช้ EHW+ ของคุณตอนนี้หรือไม่?';
 
   @override
   String get accountUpdateInfo => 'ใหม่: บัญชีผู้ใช้ EHW+';
@@ -96,8 +93,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get activityWashTemperature => 'อุณหภูมิ';
 
   @override
-  String get activityWithEnergyConsumption =>
-      'การใช้พลังงานวัดจากกิจกรรมเท่านั้น';
+  String get activityWithEnergyConsumption => 'การใช้พลังงานวัดจากกิจกรรมเท่านั้น';
 
   @override
   String get addActivity => 'เพิ่มกิจกรรม';
@@ -166,8 +162,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'โดยเฉลี่ยแล้ว แต่ละคนในเยอรมนีใช้น้ำดื่ม 127 ลิตรในครัวเรือนทุกวัน เส้นสีน้ำเงินหมายถึงน้ำเย็น (60%) เส้นสีแดงน้ำร้อน (40%) คาดการณ์จำนวนวันในช่วงเวลานั้นและจำนวนคน';
 
   @override
-  String get chartHorizontalLines =>
-      'เส้นประมีไว้เพื่อให้ข้อเสนอแนะเกี่ยวกับการบริโภคของคุณเอง';
+  String get chartHorizontalLines => 'เส้นประมีไว้เพื่อให้ข้อเสนอแนะเกี่ยวกับการบริโภคของคุณเอง';
 
   @override
   String get chooseActivity => 'เลือกกิจกรรม';
@@ -182,12 +177,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get cometConsentScreenAcceptButton => 'ฉันต้องการที่จะให้ข้อเสนอแนะ';
 
   @override
-  String get cometConsentScreenDataCanBeUsedForTraining =>
-      'ข้อมูลอาจถูกนำมาใช้เพื่อเพิ่มประสิทธิภาพการคาดการณ์ในอนาคต';
+  String get cometConsentScreenDataCanBeUsedForTraining => 'ข้อมูลอาจถูกนำมาใช้เพื่อเพิ่มประสิทธิภาพการคาดการณ์ในอนาคต';
 
   @override
-  String get cometConsentScreenDeclineButton =>
-      'ฉันไม่ต้องการที่จะให้ข้อเสนอแนะ';
+  String get cometConsentScreenDeclineButton => 'ฉันไม่ต้องการที่จะให้ข้อเสนอแนะ';
 
   @override
   String get cometConsentScreenFeedbackDescription =>
@@ -198,8 +191,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ข้อเสนอแนะจะได้รับโดยอัตโนมัติเมื่อคุณใช้บริการการทำนายและตกลงที่จะเพิ่มประสิทธิภาพ';
 
   @override
-  String get cometConsentScreenFeedbackTitle =>
-      'มหาวิทยาลัยเกอเธ่ต้องการคำติชมของคุณ:';
+  String get cometConsentScreenFeedbackTitle => 'มหาวิทยาลัยเกอเธ่ต้องการคำติชมของคุณ:';
 
   @override
   String get cometConsentScreenHeader => 'ใหม่: การคาดการณ์การบริโภคที่ดีขึ้น';
@@ -208,27 +200,23 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get cometConsentScreenHowItWorksTitle => 'มันทำงานอย่างไร?';
 
   @override
-  String get cometConsentScreenOfflineDescription =>
-      'การคาดการณ์ในท้องถิ่นแบบง่ายจะถูกคำนวณบนอุปกรณ์ของคุณ';
+  String get cometConsentScreenOfflineDescription => 'การคาดการณ์ในท้องถิ่นแบบง่ายจะถูกคำนวณบนอุปกรณ์ของคุณ';
 
   @override
-  String get cometConsentScreenOfflineDescriptionTitle =>
-      'โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต:';
+  String get cometConsentScreenOfflineDescriptionTitle => 'โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต:';
 
   @override
   String get cometConsentScreenOnlineDescription =>
       'ข้อมูลการบริโภคของคุณจะถูกส่งไปยังมหาวิทยาลัยเกอเธ่ แฟรงก์เฟิร์ต ซึ่งจะมีการสร้างและแสดงการคาดการณ์แต่ละรายการในแอป';
 
   @override
-  String get cometConsentScreenOnlineDescriptionTitle =>
-      'ด้วยการเชื่อมต่ออินเทอร์เน็ต:';
+  String get cometConsentScreenOnlineDescriptionTitle => 'ด้วยการเชื่อมต่ออินเทอร์เน็ต:';
 
   @override
   String get cometConsentScreenToggleLabel => 'ใช้บริการพยากรณ์';
 
   @override
-  String get cometSettingsIsPredictionsApiEnabled =>
-      'ใช้ COMET Forecast API จากสถาบันเกอเธ่';
+  String get cometSettingsIsPredictionsApiEnabled => 'ใช้ COMET Forecast API จากสถาบันเกอเธ่';
 
   @override
   String get comment => 'โบเต้';
@@ -324,10 +312,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get commonUserLogin => 'เข้าสู่ระบบของผู้ใช้';
 
   @override
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  ) {
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total) {
     return 'คุณกำลังใช้บัญชี EHW+ $notSubmitted จากผลิตภัณฑ์ที่ซื้อ $total ไม่สามารถบันทึกบนเซิร์ฟเวอร์ EHW+ เราหวังว่าจะแก้ไขปัญหาได้ในเร็วๆ นี้';
   }
 
@@ -347,12 +332,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          'คุณกำลังใช้บัญชี EHW+ ผลิตภัณฑ์ที่ซื้อ $count ได้รับการบันทึกไว้บนเซิร์ฟเวอร์ EHW+',
-      one:
-          'คุณกำลังใช้บัญชี EHW+ ผลิตภัณฑ์ที่ซื้อ $count ได้รับการบันทึกบนเซิร์ฟเวอร์ EHW+',
-      zero:
-          'คุณกำลังใช้บัญชี EHW+ หากคุณซื้อผลิตภัณฑ์ในอนาคต สินค้าเหล่านั้นจะถูกซิงโครไนซ์กับทุกอุปกรณ์ของคุณ',
+      other: 'คุณกำลังใช้บัญชี EHW+ ผลิตภัณฑ์ที่ซื้อ $count ได้รับการบันทึกไว้บนเซิร์ฟเวอร์ EHW+',
+      one: 'คุณกำลังใช้บัญชี EHW+ ผลิตภัณฑ์ที่ซื้อ $count ได้รับการบันทึกบนเซิร์ฟเวอร์ EHW+',
+      zero: 'คุณกำลังใช้บัญชี EHW+ หากคุณซื้อผลิตภัณฑ์ในอนาคต สินค้าเหล่านั้นจะถูกซิงโครไนซ์กับทุกอุปกรณ์ของคุณ',
     );
     return '$_temp0';
   }
@@ -387,8 +369,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'StromGedacht ซึ่งเป็นบริการของ TransnetBW ให้ข้อมูลเกี่ยวกับเสถียรภาพของโครงข่ายไฟฟ้าและคำแนะนำว่าควรใช้ไฟฟ้าเมื่อใดเป็นพิเศษ เนื่องจากการเปลี่ยนแปลงด้านพลังงานมีความท้าทายมากขึ้นเรื่อยๆ สำหรับโครงข่ายส่งไฟฟ้า ครัวเรือนต่างๆ ในเยอรมนีตะวันตกเฉียงใต้ก็เข้ามามีส่วนร่วมด้วย หากต้องการรับข้อมูลตำแหน่งของคุณ รหัสไปรษณีย์ของคุณ (หากป้อนที่นี่ในแอป) จะถูกส่งไปยัง TransnetBW StromGedacht API ไม่มีการส่งหรือเชื่อมโยงข้อมูลอื่นใด';
 
   @override
-  String get consent13StromGedachtTitle =>
-      'ประกาศความเสถียรของกริดจาก StromGedacht';
+  String get consent13StromGedachtTitle => 'ประกาศความเสถียรของกริดจาก StromGedacht';
 
   @override
   String get consent1Hello => 'สวัสดี';
@@ -400,8 +381,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get consent3Video => 'คุณต้องการชมวิดีโอแนะนำสั้น ๆ หรือไม่?';
 
   @override
-  String get consent4BeforeYouCanContinue =>
-      'ก่อนที่คุณจะสามารถดำเนินการต่อได้';
+  String get consent4BeforeYouCanContinue => 'ก่อนที่คุณจะสามารถดำเนินการต่อได้';
 
   @override
   String get consent5ErrorReportingTitle => 'รายงานข้อผิดพลาด';
@@ -442,35 +422,30 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get consumptionCacheDebugViewTitle => 'แคชการใช้งาน';
 
   @override
-  String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'ล้างและซิงค์';
+  String get consumptionCacheManagementClearCacheAndSynchronizeButton => 'ล้างและซิงค์';
 
   @override
   String get consumptionCacheManagementClearCacheButton => 'ล้างแคช';
 
   @override
-  String get consumptionCacheManagementClearedSuccessfully =>
-      'ล้างแคชเรียบร้อยแล้ว';
+  String get consumptionCacheManagementClearedSuccessfully => 'ล้างแคชเรียบร้อยแล้ว';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
       'ข้อมูลแคชทั้งหมดจะถูกลบและดาวน์โหลดใหม่จากเซิร์ฟเวอร์ การดำเนินการนี้อาจใช้เวลาสักครู่';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'ล้างแคชและซิงโครไนซ์ไหม';
+  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle => 'ล้างแคชและซิงโครไนซ์ไหม';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
       'ข้อมูลการใช้แคชทั้งหมดจะถูกลบอย่างถาวร คุณสามารถซิงโครไนซ์ได้ในภายหลัง';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheTitle =>
-      'ล้างแคชใช่ไหม';
+  String get consumptionCacheManagementConfirmClearCacheTitle => 'ล้างแคชใช่ไหม';
 
   @override
-  String get consumptionCacheToggleButtonDescription =>
-      'แคชการใช้งานที่คำนวณและใช้ซ้ำตามต้องการ';
+  String get consumptionCacheToggleButtonDescription => 'แคชการใช้งานที่คำนวณและใช้ซ้ำตามต้องการ';
 
   @override
   String get consumptionCacheToggleButtonTitle => 'ใช้แคชการใช้งาน';
@@ -487,26 +462,19 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionIsNotExclusive =>
-      'หากการใช้ไม่ได้จำกัดเฉพาะกิจกรรมนี้ ก็จะแสดงเป็นคำเตือน';
+  String get consumptionIsNotExclusive => 'หากการใช้ไม่ได้จำกัดเฉพาะกิจกรรมนี้ ก็จะแสดงเป็นคำเตือน';
 
   @override
   String get consumptionIsNotExclusiveTitle => 'การบริโภคไม่รวมอยู่หรือไม่?';
 
   @override
   String consumptionPersonLabel(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'ประชากร',
-      one: 'บุคคล',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'ประชากร', one: 'บุคคล');
     return '$_temp0';
   }
 
   @override
-  String get consumptionWaterColdEqual =>
-      'น้ำเย็น: ใกล้เคียงกับครัวเรือนทั่วไป';
+  String get consumptionWaterColdEqual => 'น้ำเย็น: ใกล้เคียงกับครัวเรือนทั่วไป';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
@@ -519,49 +487,27 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'ต่อคนทุกคนบริโภค ประมาณ $dailyLiters ลิตรต่อวัน (เท่ากับ $monthlyCubicMeters $unitName ต่อเดือน)';
   }
 
   @override
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'คุณบริโภค ประมาณ $dailyLiters ลิตรต่อวัน (เท่ากับ $monthlyCubicMeters $unitName ต่อเดือน)';
   }
 
   @override
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel) {
     return 'ปริมาณการใช้น้ำของคุณ $ofRange ตรงกับปริมาณการใช้น้ำของครัวเรือนทั่วไปด้วย $householdSize $personLabel';
   }
 
   @override
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'ปริมาณการใช้น้ำของคุณ $ofRange คือ $percentage ต่ำกว่าครัวเรือนทั่วไปที่มี $householdSize $personLabel';
   }
 
   @override
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'ปริมาณการใช้น้ำของคุณ $ofRange คือ $percentage สูงกว่าครัวเรือนทั่วไปที่มี $householdSize $personLabel';
   }
 
@@ -571,8 +517,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionWaterWarmEqual =>
-      'น้ำร้อน: ประมาณเท่ากับครัวเรือนทั่วไป';
+  String get consumptionWaterWarmEqual => 'น้ำร้อน: ประมาณเท่ากับครัวเรือนทั่วไป';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
@@ -593,19 +538,12 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedAboutSame => 'ประมาณเดียวกันกับ';
 
   @override
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  ) {
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel) {
     return 'ครัวเรือนโดยเฉลี่ยที่มี $householdSize $personLabel';
   }
 
   @override
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  ) {
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix) {
     return 'คุณใช้$verbSuffix ประมาณเดียวกันกับ ครัวเรือนโดยเฉลี่ยที่มี $householdSize $personLabel.';
   }
 
@@ -713,8 +651,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'ไม่ ยกเลิก';
 
   @override
-  String get contractCopyDialogOptionYes =>
-      'ใช่ ราคาต่อหน่วยหรือมูลค่าอื่นมีการเปลี่ยนแปลง';
+  String get contractCopyDialogOptionYes => 'ใช่ ราคาต่อหน่วยหรือมูลค่าอื่นมีการเปลี่ยนแปลง';
 
   @override
   String get contractCopyDialogTitle => 'คุณต้องการทำสำเนาสัญญานี้หรือไม่?';
@@ -830,8 +767,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get counterConsiderForTotalConsumptions => 'พิจารณาการบริโภคทั้งหมด';
 
   @override
-  String get counterConsiderForTotalElectricity =>
-      'พิจารณาปริมาณการใช้ไฟฟ้าทั้งหมด';
+  String get counterConsiderForTotalElectricity => 'พิจารณาปริมาณการใช้ไฟฟ้าทั้งหมด';
 
   @override
   String get counterConsiderForTotalWater => 'พิจารณาปริมาณการใช้น้ำทั้งหมด';
@@ -856,10 +792,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ค่าลดลงตามการใช้งาน (ตัวบ่งชี้ระดับ ฯลฯ) หรือมูลค่าเพิ่มขึ้นตามการใช้งาน (ชั่วโมงเตาเผา มาตรวัดน้ำมัน ฯลฯ) หรือค่าการอ่านแต่ละค่าแยกกัน (ปริมาณการใช้/ผลผลิต) หรือไม่';
 
   @override
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  ) {
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar) {
     return '$consumptionElectricity/$consumptionSolar';
   }
 
@@ -934,8 +867,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get counterLinkMoreRecent => 'เชื่อมโยงตัวนับล่าสุด';
 
   @override
-  String get counterMessageRoomOptional =>
-      'การกำหนดห้องช่วยในการจัดกลุ่มแต่เป็นทางเลือก';
+  String get counterMessageRoomOptional => 'การกำหนดห้องช่วยในการจัดกลุ่มแต่เป็นทางเลือก';
 
   @override
   String get counterMeterId => 'รหัสมิเตอร์';
@@ -972,8 +904,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get counterProportionateConsumption => 'การบริโภคอย่างเป็นสัดส่วน';
 
   @override
-  String get counterPvFeedInCounter =>
-      'พลังงานทดแทน (พลังงานแสงอาทิตย์และความร้อนด้วย PV/ระบบพลังงานแสงอาทิตย์)';
+  String get counterPvFeedInCounter => 'พลังงานทดแทน (พลังงานแสงอาทิตย์และความร้อนด้วย PV/ระบบพลังงานแสงอาทิตย์)';
 
   @override
   String get counterPvFeedInCounterExplanation =>
@@ -1083,10 +1014,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate) {
     return 'ไฟล์ที่บันทึกไว้ในอุปกรณ์นี้จาก $localDate เป็นเวอร์ชันล่าสุดมากกว่าไฟล์ในระบบคลาวด์จาก $cloudDate';
   }
 
@@ -1099,10 +1027,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate) {
     return 'ไฟล์ในระบบคลาวด์จาก $cloudDate นั้นอัปเดตมากกว่าไฟล์ในเครื่องจาก $localDate';
   }
 
@@ -1158,8 +1083,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get existingPhoto => 'แนบรูปภาพที่มีอยู่';
 
   @override
-  String get existingPhotoOfMeterReading =>
-      'คุณต้องการแนบรูปภาพการอ่านมิเตอร์ที่มีอยู่หรือไม่';
+  String get existingPhotoOfMeterReading => 'คุณต้องการแนบรูปภาพการอ่านมิเตอร์ที่มีอยู่หรือไม่';
 
   @override
   String get explanationManageMoreThanOneObject =>
@@ -1169,8 +1093,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get export => 'ส่งออก';
 
   @override
-  String get exportExplanation =>
-      'คุณต้องการส่งออกออบเจ็กต์ใดที่มีอยู่ เช่น เพื่อถ่ายโอนไปยังอุปกรณ์ใหม่';
+  String get exportExplanation => 'คุณต้องการส่งออกออบเจ็กต์ใดที่มีอยู่ เช่น เพื่อถ่ายโอนไปยังอุปกรณ์ใหม่';
 
   @override
   String exportObjectDescription(
@@ -1183,8 +1106,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get exportOptionConsumptionsSubtitle =>
-      'ค่าการบริโภคในแต่ละวันตั้งแต่การอ่านครั้งแรก';
+  String get exportOptionConsumptionsSubtitle => 'ค่าการบริโภคในแต่ละวันตั้งแต่การอ่านครั้งแรก';
 
   @override
   String get exportOptionConsumptionsTitle => 'การบริโภคประจำวัน';
@@ -1201,8 +1123,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get exportOptionPdf => 'ไฟล์ PDF';
 
   @override
-  String get exportOptionReadingsSubtitle =>
-      'โดยทั่วไปแล้วการอ่านมิเตอร์หรือการบริโภคโดยมีช่วงเวลาที่ไม่สม่ำเสมอ';
+  String get exportOptionReadingsSubtitle => 'โดยทั่วไปแล้วการอ่านมิเตอร์หรือการบริโภคโดยมีช่วงเวลาที่ไม่สม่ำเสมอ';
 
   @override
   String get exportOptionReadingsTitle => 'การอ่านค่า';
@@ -1219,14 +1140,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'แชร์กับแอปอื่นๆ';
 
   @override
-  String get exportTabSnackBarSaveResultMessageError =>
-      'เกิดข้อผิดพลาดขณะบันทึกข้อมูล';
+  String get exportTabSnackBarSaveResultMessageError => 'เกิดข้อผิดพลาดขณะบันทึกข้อมูล';
 
   @override
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  ) {
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder) {
     return 'บันทึกข้อมูลเป็น $fileName ในโฟลเดอร์ $folder สำเร็จแล้ว';
   }
 
@@ -1245,8 +1162,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'มากกว่า 26% ของการปล่อย CO2 ทั้งหมดในเยอรมนีเกิดจากครัวเรือนส่วนตัว หากทุกคนสามารถลดการบริโภคลงได้แม้แต่น้อยก็จะประสบความสำเร็จมากมาย ขอบคุณมากสำหรับการสนับสนุนของคุณ!';
 
   @override
-  String get faqAboutDeveloperBody3 =>
-      'เรายินดีรับข้อเสนอแนะเกี่ยวกับวิธีการปรับปรุงแอป';
+  String get faqAboutDeveloperBody3 => 'เรายินดีรับข้อเสนอแนะเกี่ยวกับวิธีการปรับปรุงแอป';
 
   @override
   String get faqAboutDeveloperBody4 =>
@@ -1262,8 +1178,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get featureVoting => 'การลงคะแนนคุณลักษณะ';
 
   @override
-  String get featureVotingOnlyOnGerman =>
-      'แบบสำรวจคุณลักษณะไม่ได้รับการแปลเป็นภาษาอื่น';
+  String get featureVotingOnlyOnGerman => 'แบบสำรวจคุณลักษณะไม่ได้รับการแปลเป็นภาษาอื่น';
 
   @override
   String get featureVotingUnderConstruction =>
@@ -1363,8 +1278,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get importExport => 'สำรอง/กู้คืน';
 
   @override
-  String get importNewOrExistingCounter =>
-      'เพิ่มไปยังเคาน์เตอร์ใหม่หรือที่มีอยู่?';
+  String get importNewOrExistingCounter => 'เพิ่มไปยังเคาน์เตอร์ใหม่หรือที่มีอยู่?';
 
   @override
   String get importNotPossible => 'ไม่สามารถนำเข้าได้';
@@ -1428,8 +1342,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get lineChartAppearanceSettings => 'ลักษณะแผนภูมิเส้น';
 
   @override
-  String get lineChartAppearanceSettingsShowSpots =>
-      'แสดงจุด (วงกลม) บนเส้นของแผนภูมิ';
+  String get lineChartAppearanceSettingsShowSpots => 'แสดงจุด (วงกลม) บนเส้นของแผนภูมิ';
 
   @override
   String localWriteSubtitle(Object folder) {
@@ -1440,12 +1353,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get localWriteTitle => 'บันทึกในโฟลเดอร์ดาวน์โหลดในเครื่อง';
 
   @override
-  String get manageMoreThanOneObjectStep1 =>
-      'จัดการมากกว่าหนึ่งวัตถุ - ขั้นตอนที่ 1';
+  String get manageMoreThanOneObjectStep1 => 'จัดการมากกว่าหนึ่งวัตถุ - ขั้นตอนที่ 1';
 
   @override
-  String get manageMoreThanOneObjectStep2 =>
-      'จัดการมากกว่าหนึ่งวัตถุ - ขั้นตอนที่ 2';
+  String get manageMoreThanOneObjectStep2 => 'จัดการมากกว่าหนึ่งวัตถุ - ขั้นตอนที่ 2';
 
   @override
   String get marketLocationId => 'รหัสที่ตั้งตลาด';
@@ -1521,8 +1432,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get newPhoto => 'ถ่ายรูปใหม่ครับ';
 
   @override
-  String get newPhotoOfMeterReading =>
-      'คุณต้องการถ่ายภาพการอ่านมิเตอร์หรือไม่?';
+  String get newPhotoOfMeterReading => 'คุณต้องการถ่ายภาพการอ่านมิเตอร์หรือไม่?';
 
   @override
   String get newReading => 'ป้อนการอ่านปัจจุบัน';
@@ -1537,8 +1447,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get notificationsEmpty => 'ไม่มีการแจ้งเตือน';
 
   @override
-  String get notificationsSmartMeterAlertFallback =>
-      'คุณมีการแจ้งเตือนมิเตอร์อัจฉริยะใหม่';
+  String get notificationsSmartMeterAlertFallback => 'คุณมีการแจ้งเตือนมิเตอร์อัจฉริยะใหม่';
 
   @override
   String numCounters(int count) {
@@ -1554,23 +1463,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(
-      readings,
-      locale: localeName,
-      other: '# การอ่าน',
-      one: '# การอ่าน',
-    );
+    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# การอ่าน', one: '# การอ่าน');
     return '$_temp0';
   }
 
   @override
   String numberOfDetails(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'รายละเอียด $count',
-      one: '1 รายละเอียด',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'รายละเอียด $count', one: '1 รายละเอียด');
     return '$_temp0';
   }
 
@@ -1694,8 +1593,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get pricePerUnitWaterWarm => 'ค่าใช้จ่ายในการทำความร้อนน้ำร้อน';
 
   @override
-  String get priceSubmissionAgreement =>
-      'ฉันเห็นด้วยกับการส่งราคาไฟฟ้า/ก๊าซ/น้ำต่อหน่วยไปยังเซิร์ฟเวอร์ EHW+';
+  String get priceSubmissionAgreement => 'ฉันเห็นด้วยกับการส่งราคาไฟฟ้า/ก๊าซ/น้ำต่อหน่วยไปยังเซิร์ฟเวอร์ EHW+';
 
   @override
   String privacyBlock1Text(String contact) {
@@ -1703,8 +1601,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get privacyBlock1Text2 =>
-      'การใช้แอปกำหนดให้คุณยอมรับข้อกำหนดการใช้งานต่อไปนี้ โปรดอ่านอย่างละเอียด';
+  String get privacyBlock1Text2 => 'การใช้แอปกำหนดให้คุณยอมรับข้อกำหนดการใช้งานต่อไปนี้ โปรดอ่านอย่างละเอียด';
 
   @override
   String get privacyBlock1Title => 'นักพัฒนา';
@@ -1813,8 +1710,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'มีการวางแผนการขยายเวลาเพิ่มเติม เข้าร่วมการสำรวจคุณสมบัติเพื่อแสดงความคิดเห็นของคุณ';
 
   @override
-  String get purchasesExtensionsSubtitle =>
-      'ซื้อครั้งเดียวใช้ถาวร (ไม่ต้องสมัครสมาชิก)';
+  String get purchasesExtensionsSubtitle => 'ซื้อครั้งเดียวใช้ถาวร (ไม่ต้องสมัครสมาชิก)';
 
   @override
   String get purchasesExtensionsTitle => 'นามสกุลเดียว';
@@ -1862,10 +1758,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew) {
     return 'การสมัครสมาชิกรายเดือนที่ยกเลิกได้ในราคาสมาชิก $price ต่อเดือน แทนที่จะเป็น $priceNew';
   }
 
@@ -1879,10 +1772,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew) {
     return 'การสมัครสมาชิกรายปีที่ยกเลิกได้ในราคาสมาชิก $price ต่อปี แทนที่จะเป็น $priceNew';
   }
 
@@ -1901,8 +1791,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get purchasesWhyBuyTitle => 'ทำไมฉันถึงต้องซื้ออะไรบางอย่าง?';
 
   @override
-  String get purchasesYourPurchases =>
-      'คุณสามารถเข้าถึงแพ็คเกจพรีเมี่ยมดังต่อไปนี้:';
+  String get purchasesYourPurchases => 'คุณสามารถเข้าถึงแพ็คเกจพรีเมี่ยมดังต่อไปนี้:';
 
   @override
   String get reading => 'การอ่านแบบเคาน์เตอร์';
@@ -1917,12 +1806,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get readingPrefill => 'อ่านมิเตอร์เติมอัตโนมัติ';
 
   @override
-  String get readingPrefillDescription =>
-      'เติมการอ่านมิเตอร์ล่วงหน้าตามรายการก่อนหน้า';
+  String get readingPrefillDescription => 'เติมการอ่านมิเตอร์ล่วงหน้าตามรายการก่อนหน้า';
 
   @override
-  String get readingPrefillDisableForAllCounters =>
-      'ปิดใช้งานการป้อนอัตโนมัติสำหรับตัวนับทั้งหมด';
+  String get readingPrefillDisableForAllCounters => 'ปิดใช้งานการป้อนอัตโนมัติสำหรับตัวนับทั้งหมด';
 
   @override
   String get readingPrefillDisabled => 'ปิดใช้งานการป้อนอัตโนมัติแล้ว';
@@ -1931,8 +1818,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get readingPrefillDisabledToast => 'ปิดใช้งานการป้อนอัตโนมัติแล้ว';
 
   @override
-  String get readingPrefillEnableForAllCounters =>
-      'เปิดใช้งานการกรอกอัตโนมัติสำหรับตัวนับทั้งหมด';
+  String get readingPrefillEnableForAllCounters => 'เปิดใช้งานการกรอกอัตโนมัติสำหรับตัวนับทั้งหมด';
 
   @override
   String readingReminder(int count) {
@@ -1989,8 +1875,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get reallyDeleteCounter => 'คุณแน่ใจหรือไม่ว่าต้องการลบตัวนับ';
 
   @override
-  String get reallyDeleteCounterLink =>
-      'คุณแน่ใจหรือไม่ว่าต้องการลบลิงก์ระหว่างตัวนับ';
+  String get reallyDeleteCounterLink => 'คุณแน่ใจหรือไม่ว่าต้องการลบลิงก์ระหว่างตัวนับ';
 
   @override
   String get reallyDeleteDetail => 'ต้องการลบรายละเอียดนี้จริงหรือ?';
@@ -1999,8 +1884,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get reallyDeleteObject => 'คุณแน่ใจหรือไม่ว่าต้องการลบวัตถุนี้';
 
   @override
-  String get reallyDeletePhoto =>
-      'คุณแน่ใจหรือไม่ว่าต้องการลบรูปภาพการอ่านมิเตอร์';
+  String get reallyDeletePhoto => 'คุณแน่ใจหรือไม่ว่าต้องการลบรูปภาพการอ่านมิเตอร์';
 
   @override
   String get reallyDeleteValue => 'คุณต้องการลบค่านี้จริง ๆ หรือไม่?';
@@ -2015,8 +1899,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get reminderTime => 'เวลาเตือนความจำ';
 
   @override
-  String get reminderWeekdayExplanation =>
-      'มีการเตือนให้อ่านหนังสือไม่เกินวันละครั้ง';
+  String get reminderWeekdayExplanation => 'มีการเตือนให้อ่านหนังสือไม่เกินวันละครั้ง';
 
   @override
   String get reminderWeekdayExplanationSeasonal =>
@@ -2038,8 +1921,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get residualGenerationEstimated => 'ประมาณการการสร้างสารตกค้าง';
 
   @override
-  String get restoreDeletedCounter =>
-      'คุณต้องการกู้คืนมิเตอร์ที่ถูกลบนี้หรือไม่';
+  String get restoreDeletedCounter => 'คุณต้องการกู้คืนมิเตอร์ที่ถูกลบนี้หรือไม่';
 
   @override
   String get room => 'ห้อง';
@@ -2207,12 +2089,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'บริการภายนอก';
 
   @override
-  String get settingsShowStromGedacht =>
-      'ควรแสดงคำแนะนำจาก StromGedacht เกี่ยวกับโครงข่ายไฟฟ้าหรือไม่';
+  String get settingsShowStromGedacht => 'ควรแสดงคำแนะนำจาก StromGedacht เกี่ยวกับโครงข่ายไฟฟ้าหรือไม่';
 
   @override
-  String get settingsShowTabNewsDetailed =>
-      'ควรมองเห็นแท็บข่าวสาร/เคล็ดลับหรือไม่';
+  String get settingsShowTabNewsDetailed => 'ควรมองเห็นแท็บข่าวสาร/เคล็ดลับหรือไม่';
 
   @override
   String get showAllYears => 'แสดงทุกปี';
@@ -2227,8 +2107,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get signInWithGoogle => 'ลงชื่อเข้าใช้งานด้วย Google';
 
   @override
-  String get signInWithSocialAccount =>
-      'คุณต้องการใช้บัญชีโซเชียลใดเพื่อสร้างหรือลงชื่อเข้าใช้บัญชี EHW+ ของคุณ';
+  String get signInWithSocialAccount => 'คุณต้องการใช้บัญชีโซเชียลใดเพื่อสร้างหรือลงชื่อเข้าใช้บัญชี EHW+ ของคุณ';
 
   @override
   String get sinceInitialReading => 'ตั้งแต่อ่านครั้งแรก';
@@ -2240,12 +2119,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'ขออภัย ไม่มีข้อมูลที่แอปสามารถแสดงได้';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardButton =>
-      'ตั้งค่ามิเตอร์อัจฉริยะ';
+  String get smartMeterMisconfiguredWidgetCardButton => 'ตั้งค่ามิเตอร์อัจฉริยะ';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardTitle =>
-      'โปรดตั้งค่ามิเตอร์อัจฉริยะของคุณอย่างถูกต้อง';
+  String get smartMeterMisconfiguredWidgetCardTitle => 'โปรดตั้งค่ามิเตอร์อัจฉริยะของคุณอย่างถูกต้อง';
 
   @override
   String get smartMeterObtainDataAutomatically => 'รับข้อมูลโดยอัตโนมัติ';
@@ -2269,9 +2146,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogError => 'ข้อผิดพลาด';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogErrorMessage(
-    Object errorMessage,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogErrorMessage(Object errorMessage) {
     return 'เกิดข้อผิดพลาดต่อไปนี้ในระหว่างการซิงโครไนซ์: $errorMessage';
   }
 
@@ -2279,13 +2154,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogErrorOkButton => 'ตกลง';
 
   @override
-  String get smartMeterSettingsScreenSyncingDialogHeader =>
-      'อยู่ระหว่างการซิงค์';
+  String get smartMeterSettingsScreenSyncingDialogHeader => 'อยู่ระหว่างการซิงค์';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent) {
     return 'ความคืบหน้า: $progressInPercent%';
   }
 
@@ -2316,9 +2188,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  ) {
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId) {
     return 'มาตรวัดน้ำ $smartmeterId ตรวจพบปริมาณการใช้น้ำที่สูงผิดปกติ ซึ่งอาจบ่งบอกถึงท่อแตกหรือการเติมน้ำในสระว่ายน้ำ โปรดตรวจสอบการติดตั้งในครัวเรือนของคุณว่ามีรอยรั่วหรือการแตกหักรุนแรงหรือไม่';
   }
 
@@ -2366,8 +2236,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ฉันยอมรับว่ารหัสไปรษณีย์ของฉัน (หากระบุ) จะถูกส่งไปยัง TransnetBW เพื่อดึงประกาศ StromGedacht';
 
   @override
-  String get subscribeToSmartMeterInfocodeEvents =>
-      'ฉันต้องการรับการแจ้งเตือนเกี่ยวกับการบริโภคที่ไม่คาดคิด';
+  String get subscribeToSmartMeterInfocodeEvents => 'ฉันต้องการรับการแจ้งเตือนเกี่ยวกับการบริโภคที่ไม่คาดคิด';
 
   @override
   String get supplementaryPayment => 'การชำระเงินเสริม';
@@ -2390,15 +2259,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get supportGivePraiseRecommendation =>
-      'แนะนำแอปให้กับเพื่อนและครอบครัว ขอบคุณสำหรับคำแนะนำใด ๆ !';
+  String get supportGivePraiseRecommendation => 'แนะนำแอปให้กับเพื่อนและครอบครัว ขอบคุณสำหรับคำแนะนำใด ๆ !';
 
   @override
   String get supportMakeSuggestion => 'แนะนำอะไรบางอย่าง';
 
   @override
-  String get supportMakeSuggestionLong =>
-      'แอพนี้ใช้งานได้ตามคำแนะนำของผู้ใช้ คุณมีข้อเสนอแนะหรือไม่?';
+  String get supportMakeSuggestionLong => 'แอพนี้ใช้งานได้ตามคำแนะนำของผู้ใช้ คุณมีข้อเสนอแนะหรือไม่?';
 
   @override
   String get supportQuestion => 'ถามคำถาม';
@@ -2407,12 +2274,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get supportQuestionBox => 'ฉันจะช่วยคุณได้อย่างไร?';
 
   @override
-  String get supportQuestionLong =>
-      'มันทำงานอย่างไร? เป็นไปได้ไหม? นี่คือคำตอบ';
+  String get supportQuestionLong => 'มันทำงานอย่างไร? เป็นไปได้ไหม? นี่คือคำตอบ';
 
   @override
-  String get supportQuestionNotFound =>
-      'คำถามของคุณไม่ได้รับคำตอบ? ฉันยินดีที่จะช่วย';
+  String get supportQuestionNotFound => 'คำถามของคุณไม่ได้รับคำตอบ? ฉันยินดีที่จะช่วย';
 
   @override
   String get supportRecommend =>
@@ -2437,8 +2302,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'โปรดอธิบายสั้นๆ เกี่ยวกับพฤติกรรมที่ไม่ถูกต้องในปัจจุบัน เช่น ข้อผิดพลาดนั่นเอง';
 
   @override
-  String get supportReportBugTextShould =>
-      'โปรดอธิบายสั้นๆ ถึงพฤติกรรมที่ต้องการ เช่น จริงๆ แล้วควรเป็นอย่างไร';
+  String get supportReportBugTextShould => 'โปรดอธิบายสั้นๆ ถึงพฤติกรรมที่ต้องการ เช่น จริงๆ แล้วควรเป็นอย่างไร';
 
   @override
   String get swimmingPool => 'สระว่ายน้ำ';
@@ -2462,12 +2326,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ข้อมูลของคุณจะถูกอัปโหลดไปยัง Google Drive โดยอัตโนมัติหลังจากการเปลี่ยนแปลง ข้อมูลที่ใหม่กว่าจากคลาวด์จะเขียนทับข้อมูลในเครื่องเมื่อคุณคลิกที่ออบเจ็กต์เท่านั้น มีการใช้บัญชี Google ต่อไปนี้:';
 
   @override
-  String get syncObjectIsLocked =>
-      'ข้อมูลออบเจ็กต์อยู่ระหว่างการอัปเดตและไม่สามารถแก้ไขได้ในช่วงเวลานี้';
+  String get syncObjectIsLocked => 'ข้อมูลออบเจ็กต์อยู่ระหว่างการอัปเดตและไม่สามารถแก้ไขได้ในช่วงเวลานี้';
 
   @override
-  String get syncShareWithOthersNotInWeb =>
-      'ขณะนี้การให้สิทธิ์เข้าถึงทำได้ผ่านแอปเท่านั้น';
+  String get syncShareWithOthersNotInWeb => 'ขณะนี้การให้สิทธิ์เข้าถึงทำได้ผ่านแอปเท่านั้น';
 
   @override
   String get syncShareWithOthersSubtitle =>
@@ -2477,16 +2339,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get syncShareWithOthersTitle => 'แชร์กับคนอื่นๆ ไหม?';
 
   @override
-  String get syncStatusFailedLong =>
-      'ไม่สามารถซิงโครไนซ์ได้ การแก้ไขถือเป็นความเสี่ยงของคุณเอง';
+  String get syncStatusFailedLong => 'ไม่สามารถซิงโครไนซ์ได้ การแก้ไขถือเป็นความเสี่ยงของคุณเอง';
 
   @override
-  String get syncStatusFailedLongNoAutoSync =>
-      'ไม่สามารถซิงโครไนซ์ได้ การแก้ไขถือเป็นความเสี่ยงของคุณเอง';
+  String get syncStatusFailedLongNoAutoSync => 'ไม่สามารถซิงโครไนซ์ได้ การแก้ไขถือเป็นความเสี่ยงของคุณเอง';
 
   @override
-  String get syncStatusSyncRemoteHasLatest =>
-      'ไฟล์ในระบบคลาวด์อัปเดตมากกว่าไฟล์ในเครื่อง';
+  String get syncStatusSyncRemoteHasLatest => 'ไฟล์ในระบบคลาวด์อัปเดตมากกว่าไฟล์ในเครื่อง';
 
   @override
   String get syncWithGoogleDriveDescription =>
@@ -2508,16 +2367,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get taxRate => 'อัตราภาษี';
 
   @override
-  String get teaserPurchaseRenewableEnergies =>
-      'เคาน์เตอร์พลังงานทดแทนต้องใช้ระดับพรีเมียม';
+  String get teaserPurchaseRenewableEnergies => 'เคาน์เตอร์พลังงานทดแทนต้องใช้ระดับพรีเมียม';
 
   @override
-  String get teaserPurchaseVirtualCounter =>
-      'เพิ่มตัวนับเสมือนจริงด้วย Premium';
+  String get teaserPurchaseVirtualCounter => 'เพิ่มตัวนับเสมือนจริงด้วย Premium';
 
   @override
-  String get teaserPurchaseWaterExtractionCounter =>
-      'ปลดล็อคเคาน์เตอร์สกัดน้ำด้วย Premium';
+  String get teaserPurchaseWaterExtractionCounter => 'ปลดล็อคเคาน์เตอร์สกัดน้ำด้วย Premium';
 
   @override
   String termsOfUsageBlock1(String contact) {
@@ -2525,8 +2381,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get termsOfUsageBlock1Title =>
-      'เงื่อนไขการใช้งานทั่วไปสำหรับการใช้แอป';
+  String get termsOfUsageBlock1Title => 'เงื่อนไขการใช้งานทั่วไปสำหรับการใช้แอป';
 
   @override
   String get termsOfUsageBlock2 =>
@@ -2574,8 +2429,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get tibberAccessToken => 'โทเค็นการเข้าถึง';
 
   @override
-  String get tibberActionSaveAuthorizationSettings =>
-      'บันทึกการตั้งค่าการอนุญาต';
+  String get tibberActionSaveAuthorizationSettings => 'บันทึกการตั้งค่าการอนุญาต';
 
   @override
   String get tibberBasicAuth => 'การรับรองความถูกต้องขั้นพื้นฐาน';
@@ -2603,8 +2457,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get tibberConsentScreenConfigureLaterButton => 'ตั้งค่าในภายหลัง';
 
   @override
-  String get tibberConsentScreenConfigureNowButton =>
-      'ตั้งค่า Tibber Pulse ทันที';
+  String get tibberConsentScreenConfigureNowButton => 'ตั้งค่า Tibber Pulse ทันที';
 
   @override
   String get tibberConsentScreenDescription =>
@@ -2615,20 +2468,16 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'การบริโภครายชั่วโมงของคุณตั้งแต่วันที่ 1 มีนาคมจะไม่เปิดเผยชื่อและมีไว้สำหรับการศึกษาของเกอเธ่';
 
   @override
-  String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'คุณต้องการเข้าร่วม Goethe Study หรือไม่?';
+  String get tibberConsentScreenGoetheStudyBenefit1Title => 'คุณต้องการเข้าร่วม Goethe Study หรือไม่?';
 
   @override
-  String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
-      'ใช่ ฉันต้องการเข้าร่วม Goethe Study';
+  String get tibberConsentScreenGoetheStudyParticipationConsentToggle => 'ใช่ ฉันต้องการเข้าร่วม Goethe Study';
 
   @override
-  String get tibberConsentScreenGoetheStudySectionHeader =>
-      'การเข้าร่วมโครงการวิจัย';
+  String get tibberConsentScreenGoetheStudySectionHeader => 'การเข้าร่วมโครงการวิจัย';
 
   @override
-  String get tibberConsentScreenHeader =>
-      'คุณสมบัติใหม่: ข้อมูลการบริโภคจาก Tibber Pulse';
+  String get tibberConsentScreenHeader => 'คุณสมบัติใหม่: ข้อมูลการบริโภคจาก Tibber Pulse';
 
   @override
   String get tibberConsentScreenStoreLink => 'เยี่ยมชมร้าน Tibber';
@@ -2644,18 +2493,12 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime) {
     return '24 ชั่วโมงจาก $startTime บน $date';
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime) {
     return 'จาก: $startTime ถึง $endDate';
   }
 
@@ -2670,10 +2513,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime) {
     return 'หนึ่งชั่วโมงจาก $startTime บน $date';
   }
 
@@ -2691,12 +2531,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get tibberEnterAccessToken => 'กรุณาใส่โทเค็นการเข้าถึง';
 
   @override
-  String get tibberErrorAccessTokenInvalid =>
-      'ดูเหมือนว่าโทเค็นการเข้าถึงไม่ถูกต้อง';
+  String get tibberErrorAccessTokenInvalid => 'ดูเหมือนว่าโทเค็นการเข้าถึงไม่ถูกต้อง';
 
   @override
-  String get tibberErrorConnectivityShowCacheInstead =>
-      'ไม่สามารถดึงข้อมูลการบริโภคล่าสุดได้ แสดงค่าแคชแทน';
+  String get tibberErrorConnectivityShowCacheInstead => 'ไม่สามารถดึงข้อมูลการบริโภคล่าสุดได้ แสดงค่าแคชแทน';
 
   @override
   String get tibberErrorNoHomes => 'ไม่มีบ้านที่เชื่อมโยงกับบัญชีนี้';
@@ -2706,12 +2544,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'หากต้องการเข้าถึงข้อมูลประวัติโดยสมบูรณ์ผ่าน API คุณต้องมีสัญญาไฟฟ้า Tibber ที่ใช้งานได้สำหรับบ้านที่เลือก';
 
   @override
-  String get tibberErrorRateLimit =>
-      'เกินขีดจำกัดอัตรา Tibber API โปรดรออย่างน้อย 5 นาทีก่อนลองอีกครั้ง';
+  String get tibberErrorRateLimit => 'เกินขีดจำกัดอัตรา Tibber API โปรดรออย่างน้อย 5 นาทีก่อนลองอีกครั้ง';
 
   @override
-  String get tibberErrorSmartMeterMisconfigured =>
-      'ดูเหมือนว่ามิเตอร์อัจฉริยะของคุณได้รับการกำหนดค่าไม่ถูกต้อง';
+  String get tibberErrorSmartMeterMisconfigured => 'ดูเหมือนว่ามิเตอร์อัจฉริยะของคุณได้รับการกำหนดค่าไม่ถูกต้อง';
 
   @override
   String tibberErrorUndefined(Object error) {
@@ -2734,23 +2570,19 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementCounterCardViewFooter => 'การวัดสด';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumption =>
-      'ปริมาณการใช้ทั้งหมด (ตั้งแต่เที่ยงคืน)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumption => 'ปริมาณการใช้ทั้งหมด (ตั้งแต่เที่ยงคืน)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour =>
-      'การบริโภค (ชั่วโมงที่แล้ว)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour => 'การบริโภค (ชั่วโมงที่แล้ว)';
 
   @override
   String get tibberLiveMeasurementWidgetAccumulatedCost => 'ต้นทุนสะสม';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProduction =>
-      'ยอดการผลิตทั้งหมด (ตั้งแต่เที่ยงคืน)';
+  String get tibberLiveMeasurementWidgetAccumulatedProduction => 'ยอดการผลิตทั้งหมด (ตั้งแต่เที่ยงคืน)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour =>
-      'การผลิต (ชั่วโมงที่แล้ว)';
+  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour => 'การผลิต (ชั่วโมงที่แล้ว)';
 
   @override
   String get tibberLiveMeasurementWidgetAccumulatedReward => 'รางวัลสะสม';
@@ -2768,12 +2600,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetCurrentL3 => 'ปัจจุบัน (L3)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'การอ่านมิเตอร์ (การบริโภค)';
+  String get tibberLiveMeasurementWidgetLastMeterConsumption => 'การอ่านมิเตอร์ (การบริโภค)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'การอ่านมิเตอร์ (การผลิต)';
+  String get tibberLiveMeasurementWidgetLastMeterProduction => 'การอ่านมิเตอร์ (การผลิต)';
 
   @override
   String get tibberLiveMeasurementWidgetMaxPower => 'พลังสูงสุด';
@@ -2817,24 +2647,20 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetVoltagePhase3 => 'แรงดันไฟฟ้า (เฟส 3)';
 
   @override
-  String get tibberLiveMeasurementsWidgetConnecting =>
-      'กำลังเชื่อมต่อกับ Tibber Pulse...';
+  String get tibberLiveMeasurementsWidgetConnecting => 'กำลังเชื่อมต่อกับ Tibber Pulse...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
       'เกิดข้อผิดพลาดขณะเชื่อมต่อกับ Tibber Pulse โปรดตรวจสอบโทเค็นการเข้าถึงและการเชื่อมต่ออินเทอร์เน็ตของคุณ';
 
   @override
-  String get tibberLiveMeasurementsWidgetNotSupported =>
-      'บ้านนี้ไม่รองรับการวัดผลแบบเรียลไทม์';
+  String get tibberLiveMeasurementsWidgetNotSupported => 'บ้านนี้ไม่รองรับการวัดผลแบบเรียลไทม์';
 
   @override
-  String get tibberMessageAccessTokenUpdated =>
-      'อัปเดตโทเค็นการเข้าถึงเรียบร้อยแล้ว';
+  String get tibberMessageAccessTokenUpdated => 'อัปเดตโทเค็นการเข้าถึงเรียบร้อยแล้ว';
 
   @override
-  String get tibberStatusWidgetTibberSubscriptionStatus =>
-      'สถานะการสมัครสมาชิก Tibber';
+  String get tibberStatusWidgetTibberSubscriptionStatus => 'สถานะการสมัครสมาชิก Tibber';
 
   @override
   String get tibberStatusWidgetTitle => 'การจัดการแคช';
@@ -2849,8 +2675,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get tibberSubscriptionStatusLoading => 'กำลังโหลด...';
 
   @override
-  String get tibberWhereIsMyAccessToken =>
-      'ฉันจะหา \"โทเค็นการเข้าถึง\" ของฉันได้ที่ไหน';
+  String get tibberWhereIsMyAccessToken => 'ฉันจะหา \"โทเค็นการเข้าถึง\" ของฉันได้ที่ไหน';
 
   @override
   String get timeBefore => 'ก่อน';
@@ -3008,12 +2833,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String unitGJLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'กิกะจูล (GJ)',
-      one: 'กิกะจูล (GJ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'กิกะจูล (GJ)', one: 'กิกะจูล (GJ)');
     return '$_temp0';
   }
 
@@ -3028,12 +2848,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String unitHoursLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'ชั่วโมง (ชม.)',
-      one: 'ชั่วโมง',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'ชั่วโมง (ชม.)', one: 'ชั่วโมง');
     return '$_temp0';
   }
 
@@ -3056,12 +2871,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String unitKgLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'กิโลกรัม (กก.)',
-      one: 'กิโลกรัม (กก.)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'กิโลกรัม (กก.)', one: 'กิโลกรัม (กก.)');
     return '$_temp0';
   }
 
@@ -3073,12 +2883,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String unitLitersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'ลิตร (ลิตร)',
-      one: 'ลิตร (ลิตร)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'ลิตร (ลิตร)', one: 'ลิตร (ลิตร)');
     return '$_temp0';
   }
 
@@ -3110,12 +2915,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String unitNoneFormatted(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'หน่วย',
-      one: 'หน่วย',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'หน่วย', one: 'หน่วย');
     return '$_temp0';
   }
 
@@ -3158,12 +2958,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get useDismissibleSettings => 'ลบโดยการปัดนิ้ว';
 
   @override
-  String get useDismissibleSettingsDetailed =>
-      'ตัวนับ สัญญา ฯลฯ สามารถลบได้โดยการปัดนิ้วด้านข้าง';
+  String get useDismissibleSettingsDetailed => 'ตัวนับ สัญญา ฯลฯ สามารถลบได้โดยการปัดนิ้วด้านข้าง';
 
   @override
-  String get usedForPaymentsRepayments =>
-      'การจ่ายเงินล่วงหน้า ราคาพื้นฐาน และโบนัส';
+  String get usedForPaymentsRepayments => 'การจ่ายเงินล่วงหน้า ราคาพื้นฐาน และโบนัส';
 
   @override
   String valueLess(String value) {
@@ -3208,8 +3006,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ค่ามิเตอร์ใดที่ควรลบออกจากมิเตอร์หลัก เช่น \"มิเตอร์ปั๊มความร้อน\" \"มิเตอร์ป้อนเข้าไฟฟ้า\"';
 
   @override
-  String get virtualCounterNotConfigured =>
-      'โปรดตรวจสอบการตั้งค่ามิเตอร์เสมือนของคุณ ไม่มีอะไรสามารถคำนวณได้';
+  String get virtualCounterNotConfigured => 'โปรดตรวจสอบการตั้งค่ามิเตอร์เสมือนของคุณ ไม่มีอะไรสามารถคำนวณได้';
 
   @override
   String get wallbox => 'วอลล์บ็อกซ์';
@@ -3221,8 +3018,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get warning => 'คำเตือน';
 
   @override
-  String get warningCounterReplacementDetected =>
-      'ค่าใหม่ต่ำกว่าการอ่านมิเตอร์ครั้งก่อน เปลี่ยนมิเตอร์แล้วหรือยัง?';
+  String get warningCounterReplacementDetected => 'ค่าใหม่ต่ำกว่าการอ่านมิเตอร์ครั้งก่อน เปลี่ยนมิเตอร์แล้วหรือยัง?';
 
   @override
   String warningNextReminderText(String date) {
@@ -3236,60 +3032,43 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String warningReadingBiggerThanOldValue(String isOilCounter) {
-    String _temp0 = intl.Intl.selectLogic(isOilCounter, {
-      'true': ' Have you refilled the tank?',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(isOilCounter, {'true': ' Have you refilled the tank?', 'other': ''});
     return 'ค่าใหม่สูงกว่าการอ่านมิเตอร์ครั้งก่อน $_temp0';
   }
 
   @override
-  String get warningReadingBiggerThanOldValueOilVolume =>
-      'ค่าใหม่สูงกว่าการอ่านมิเตอร์ครั้งก่อน เติมถังแล้วหรือยัง?';
+  String get warningReadingBiggerThanOldValueOilVolume => 'ค่าใหม่สูงกว่าการอ่านมิเตอร์ครั้งก่อน เติมถังแล้วหรือยัง?';
 
   @override
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  ) {
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart) {
     return 'การอ่านค่ามิเตอร์สุดท้ายของปี $lastYear สำหรับ $deviceTypeName $roomNamePart หายไป นี่เป็นสิ่งจำเป็นสำหรับการคำนวณปริมาณการใช้รวมต่อปีที่ถูกต้อง';
   }
 
   @override
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  ) {
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText) {
     return 'การอ่านมิเตอร์ล่าสุดสำหรับ $deviceTypeName ล้าสมัยไปแล้ว $outdatedSinceText $whenNotifyDateText';
   }
 
   @override
-  String get warningReadingSeemsTooBig =>
-      'มูลค่าใหม่ค่อนข้างสูง การอ่านถูกต้องหรือไม่?';
+  String get warningReadingSeemsTooBig => 'มูลค่าใหม่ค่อนข้างสูง การอ่านถูกต้องหรือไม่?';
 
   @override
-  String get warningReadingSeemsTooSmall =>
-      'ค่าใหม่ค่อนข้างต่ำ อ่านถูกต้องหรือไม่?';
+  String get warningReadingSeemsTooSmall => 'ค่าใหม่ค่อนข้างต่ำ อ่านถูกต้องหรือไม่?';
 
   @override
-  String get warningReadingSmallerThanOldValue2 =>
-      'ค่าใหม่ต่ำกว่าการอ่านมิเตอร์ครั้งก่อน การอ่านถูกต้องหรือไม่?';
+  String get warningReadingSmallerThanOldValue2 => 'ค่าใหม่ต่ำกว่าการอ่านมิเตอร์ครั้งก่อน การอ่านถูกต้องหรือไม่?';
 
   @override
   String get warningYearlyReset => 'การอ่านเป็นศูนย์เมื่อต้นปี';
 
   @override
-  String get wasteWaterPriceEnabled =>
-      'ค่าใช้จ่ายน้ำจืดและน้ำเสียจะแสดงแยกกัน (เกี่ยวข้องกับมิเตอร์ที่หัก)';
+  String get wasteWaterPriceEnabled => 'ค่าใช้จ่ายน้ำจืดและน้ำเสียจะแสดงแยกกัน (เกี่ยวข้องกับมิเตอร์ที่หัก)';
 
   @override
   String get waterConsumption => 'ปริมาณการใช้น้ำ';
 
   @override
-  String get waterExtractionMinimumLevelLower =>
-      'การหักเกิดขึ้นเนื่องจากปริมาณการใช้ต่ำกว่าเกณฑ์';
+  String get waterExtractionMinimumLevelLower => 'การหักเกิดขึ้นเนื่องจากปริมาณการใช้ต่ำกว่าเกณฑ์';
 
   @override
   String waterMeterEventsInformation(num count, String waterSupplier) {
@@ -3308,8 +3087,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get waterSupplier => 'ผู้จัดหาน้ำ';
 
   @override
-  String get waterSupplierHint =>
-      'ผู้จัดหาน้ำประปาท้องถิ่นของคุณ เช่น การประปาเทศบาลเมืองม็อคทาวน์';
+  String get waterSupplierHint => 'ผู้จัดหาน้ำประปาท้องถิ่นของคุณ เช่น การประปาเทศบาลเมืองม็อคทาวน์';
 
   @override
   String get waterSupplierUnknown =>
@@ -3320,12 +3098,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'คุณเป็นเจ้าของทรัพย์สินในพื้นที่ให้บริการของผู้จัดหาน้ำและต้องการเข้าถึงการอ่านค่ามิเตอร์วิทยุหรือไม่?';
 
   @override
-  String get watersupplierAccessRequestQ2 =>
-      'คุณได้ร้องขอการเข้าถึงแล้วหรือยัง? ถัดไป คุณต้องสร้างบัญชีผู้ใช้ EHW+';
+  String get watersupplierAccessRequestQ2 => 'คุณได้ร้องขอการเข้าถึงแล้วหรือยัง? ถัดไป คุณต้องสร้างบัญชีผู้ใช้ EHW+';
 
   @override
-  String get watersupplierAccessRequestQ3 =>
-      'คุณได้ร้องขอการเข้าถึงและได้รับรหัส QR ของคุณแล้วหรือยัง?';
+  String get watersupplierAccessRequestQ3 => 'คุณได้ร้องขอการเข้าถึงและได้รับรหัส QR ของคุณแล้วหรือยัง?';
 
   @override
   String get watersupplierAccessRequestQ4 =>
@@ -3336,12 +3112,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ขออภัย น่าเสียดาย ที่ไม่ได้ผล มันเป็นเพราะเซิร์ฟเวอร์ของเรา ดีกว่าลองอีกครั้งในภายหลัง!';
 
   @override
-  String get watersupplierCompleteMeterIdTryAgain =>
-      'คุณจะไม่ผ่าน! กรุณากรอกรหัสมิเตอร์สามหลักสุดท้ายอีกครั้ง!';
+  String get watersupplierCompleteMeterIdTryAgain => 'คุณจะไม่ผ่าน! กรุณากรอกรหัสมิเตอร์สามหลักสุดท้ายอีกครั้ง!';
 
   @override
-  String get watersupplierMeterIdValidationStep =>
-      'เรากำลังตรวจสอบรหัสมิเตอร์ของคุณ';
+  String get watersupplierMeterIdValidationStep => 'เรากำลังตรวจสอบรหัสมิเตอร์ของคุณ';
 
   @override
   String get watersupplierNoAccess => 'คุณไม่ได้รับอนุญาตให้ดึงข้อมูลอีกต่อไป';
@@ -3361,12 +3135,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ขณะนี้เรากำลังให้สิทธิ์บัญชีของคุณเพื่อให้คุณสามารถเข้าถึงการอ่านมิเตอร์วิทยุได้ในอนาคต';
 
   @override
-  String get watersupplierScanQrCodeCommand =>
-      'สแกนรหัส QR ด้านซ้าย (รหัสเปิดใช้งาน)!';
+  String get watersupplierScanQrCodeCommand => 'สแกนรหัส QR ด้านซ้าย (รหัสเปิดใช้งาน)!';
 
   @override
-  String get watersupplierScanQrCodeOffboardingSuccessful =>
-      'การเข้าถึงมิเตอร์น้ำวิทยุของคุณถูกยกเลิก';
+  String get watersupplierScanQrCodeOffboardingSuccessful => 'การเข้าถึงมิเตอร์น้ำวิทยุของคุณถูกยกเลิก';
 
   @override
   String get watersupplierScanQrCodeScanSuccessful =>
@@ -3387,8 +3159,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get watersupplierScanQrCodeValidation => 'ตรวจพบโค้ด QR มาตรวจสอบกัน';
 
   @override
-  String get watersupplierScanQrCodeValidationFailed =>
-      'ขออภัย รหัสไม่ถูกต้อง คุณต้องการลองอีกครั้งหรือไม่?';
+  String get watersupplierScanQrCodeValidationFailed => 'ขออภัย รหัสไม่ถูกต้อง คุณต้องการลองอีกครั้งหรือไม่?';
 
   @override
   String get watersupplierScanQrCodeValidationFailedOnboardingScanned =>
@@ -3399,8 +3170,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'คุณสแกนรหัสเพิกถอนแทนรหัสเปิดใช้งาน โปรดลองอีกครั้ง!';
 
   @override
-  String get watersupplierScanRevokeQrCodeCommand =>
-      'สแกนรหัส QR ที่ถูกต้อง (เพิกถอนรหัส)!';
+  String get watersupplierScanRevokeQrCodeCommand => 'สแกนรหัส QR ที่ถูกต้อง (เพิกถอนรหัส)!';
 
   @override
   String get watersupplierUnlinkRadioMeterButtonDelete => 'ลบมิเตอร์วิทยุ';
@@ -3445,6 +3215,5 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get zipCodeValidationOnlyNumbers =>
-      'รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น';
+  String get zipCodeValidationOnlyNumbers => 'รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น';
 }

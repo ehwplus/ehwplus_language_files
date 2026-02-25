@@ -15,8 +15,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get accountBenefit1 => 'Zanesljivejša prepoznava nakupa';
 
   @override
-  String get accountBenefit2 =>
-      'Dostop do vseh kupljenih razširitev na več napravah';
+  String get accountBenefit2 => 'Dostop do vseh kupljenih razširitev na več napravah';
 
   @override
   String get accountButtonSetup => 'Nastavite uporabniški račun EHW+';
@@ -33,15 +32,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get accountFaqQ1 => 'Kaj je uporabniški račun EHW+?';
 
   @override
-  String get accountFaqQ2 =>
-      'Ali bom še vedno imel dostop do svojih nakupov brez uporabniškega računa EHW+?';
+  String get accountFaqQ2 => 'Ali bom še vedno imel dostop do svojih nakupov brez uporabniškega računa EHW+?';
 
   @override
   String get accountFaqTitle => 'Pogosta vprašanja:';
 
   @override
-  String get accountThankYouForPurchase =>
-      'Hvala! Ali želite zavarovati nakup v svojem uporabniškem računu EHW+ zdaj?';
+  String get accountThankYouForPurchase => 'Hvala! Ali želite zavarovati nakup v svojem uporabniškem računu EHW+ zdaj?';
 
   @override
   String get accountUpdateInfo => 'Novo: uporabniški račun EHW+';
@@ -96,8 +93,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get activityWashTemperature => 'Temperatura';
 
   @override
-  String get activityWithEnergyConsumption =>
-      'Poraba energije se meri samo za aktivnost';
+  String get activityWithEnergyConsumption => 'Poraba energije se meri samo za aktivnost';
 
   @override
   String get addActivity => 'Dodajte dejavnost';
@@ -166,8 +162,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'V povprečju vsak Nemec v gospodinjstvu vsak dan porabi 127 litrov pitne vode. Modra črta predstavlja hladno vodo (60 %), rdeča črta toplo vodo (40 %), ekstrapolirano na število dni v obdobju in število ljudi.';
 
   @override
-  String get chartHorizontalLines =>
-      'Črtkane črte so namenjene podajanju povratnih informacij o vaši lastni porabi.';
+  String get chartHorizontalLines => 'Črtkane črte so namenjene podajanju povratnih informacij o vaši lastni porabi.';
 
   @override
   String get chooseActivity => 'Izberite dejavnost';
@@ -179,16 +174,14 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get coldWater => 'Hladna voda';
 
   @override
-  String get cometConsentScreenAcceptButton =>
-      'Želim dati povratne informacije';
+  String get cometConsentScreenAcceptButton => 'Želim dati povratne informacije';
 
   @override
   String get cometConsentScreenDataCanBeUsedForTraining =>
       'Podatki se lahko uporabijo za optimizacijo prihodnjih napovedi';
 
   @override
-  String get cometConsentScreenDeclineButton =>
-      'Ne želim dajati povratnih informacij';
+  String get cometConsentScreenDeclineButton => 'Ne želim dajati povratnih informacij';
 
   @override
   String get cometConsentScreenFeedbackDescription =>
@@ -199,8 +192,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Povratne informacije so zagotovljene samodejno, ko uporabljate storitev napovedi in se strinjate z optimizacijo.';
 
   @override
-  String get cometConsentScreenFeedbackTitle =>
-      'Univerza Goethe potrebuje vaše povratne informacije:';
+  String get cometConsentScreenFeedbackTitle => 'Univerza Goethe potrebuje vaše povratne informacije:';
 
   @override
   String get cometConsentScreenHeader => 'Novo: boljše napovedi porabe';
@@ -209,27 +201,23 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get cometConsentScreenHowItWorksTitle => 'kako deluje';
 
   @override
-  String get cometConsentScreenOfflineDescription =>
-      'Na vaši napravi bo izračunana poenostavljena lokalna napoved.';
+  String get cometConsentScreenOfflineDescription => 'Na vaši napravi bo izračunana poenostavljena lokalna napoved.';
 
   @override
-  String get cometConsentScreenOfflineDescriptionTitle =>
-      'Brez internetne povezave:';
+  String get cometConsentScreenOfflineDescriptionTitle => 'Brez internetne povezave:';
 
   @override
   String get cometConsentScreenOnlineDescription =>
       'Vaši podatki o porabi bodo poslani Goethe University Frankfurt, kjer bo ustvarjena individualna napoved in prikazana v aplikaciji.';
 
   @override
-  String get cometConsentScreenOnlineDescriptionTitle =>
-      'Z internetno povezavo:';
+  String get cometConsentScreenOnlineDescriptionTitle => 'Z internetno povezavo:';
 
   @override
   String get cometConsentScreenToggleLabel => 'Uporabite storitev napovedi';
 
   @override
-  String get cometSettingsIsPredictionsApiEnabled =>
-      'Uporabite COMET Forecast API Goethe Instituta';
+  String get cometSettingsIsPredictionsApiEnabled => 'Uporabite COMET Forecast API Goethe Instituta';
 
   @override
   String get comment => 'Bote';
@@ -325,10 +313,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get commonUserLogin => 'Prijava uporabnika';
 
   @override
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  ) {
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total) {
     return 'Uporabljate račun EHW+. $notSubmitted od kupljenih izdelkov $total ni bilo mogoče shraniti na strežnik EHW+. Upamo, da bomo težavo kmalu odpravili.';
   }
 
@@ -348,10 +333,8 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          'Uporabljate račun EHW+. Kupljeni izdelki $count so bili shranjeni na strežniku EHW+.',
-      one:
-          'Uporabljate račun EHW+. $count kupljen izdelek je shranjen na strežniku EHW+.',
+      other: 'Uporabljate račun EHW+. Kupljeni izdelki $count so bili shranjeni na strežniku EHW+.',
+      one: 'Uporabljate račun EHW+. $count kupljen izdelek je shranjen na strežniku EHW+.',
       zero:
           'Uporabljate račun EHW+. Če boste izdelke kupili v prihodnosti, bodo ti sinhronizirani v vseh vaših napravah.',
     );
@@ -388,8 +371,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Storitev StromGedacht, ki jo zagotavlja TransnetBW, zagotavlja informacije o stabilnosti omrežja in priporočila o tem, kdaj naj se električna energija uporablja prednostno. Ker energetski prehod postaja vse večji izziv za prenosno omrežje, so vključena gospodinjstva v jugozahodni Nemčiji. Če želite prejeti informacije o vaši lokaciji, se vaša poštna številka, če je vnesena tukaj v aplikaciji, prenese v API TransnetBW StromGedacht. Nobeni drugi podatki se ne prenašajo ali povezujejo.';
 
   @override
-  String get consent13StromGedachtTitle =>
-      'Obvestila o stabilnosti omrežja podjetja StromGedacht';
+  String get consent13StromGedachtTitle => 'Obvestila o stabilnosti omrežja podjetja StromGedacht';
 
   @override
   String get consent1Hello => 'zdravo';
@@ -420,8 +402,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get consumption => 'Poraba';
 
   @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Predpomnilnik je uspešno počiščen';
+  String get consumptionCacheDebugViewCacheCleared => 'Predpomnilnik je uspešno počiščen';
 
   @override
   String get consumptionCacheDebugViewClear => 'Počisti';
@@ -443,40 +424,33 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get consumptionCacheDebugViewTitle => 'Predpomnilnik porabe';
 
   @override
-  String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'Počisti in sinhroniziraj';
+  String get consumptionCacheManagementClearCacheAndSynchronizeButton => 'Počisti in sinhroniziraj';
 
   @override
-  String get consumptionCacheManagementClearCacheButton =>
-      'Počisti predpomnilnik';
+  String get consumptionCacheManagementClearCacheButton => 'Počisti predpomnilnik';
 
   @override
-  String get consumptionCacheManagementClearedSuccessfully =>
-      'Predpomnilnik je uspešno počiščen';
+  String get consumptionCacheManagementClearedSuccessfully => 'Predpomnilnik je uspešno počiščen';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
       'Vsi predpomnjeni podatki bodo izbrisani in znova preneseni s strežnika. To lahko traja nekaj časa.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'Počistiti predpomnilnik in sinhronizirati?';
+  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle => 'Počistiti predpomnilnik in sinhronizirati?';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
       'Vsi predpomnjeni podatki o porabi bodo trajno izbrisani. Pozneje ga lahko sinhronizirate.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheTitle =>
-      'Počisti predpomnilnik?';
+  String get consumptionCacheManagementConfirmClearCacheTitle => 'Počisti predpomnilnik?';
 
   @override
-  String get consumptionCacheToggleButtonDescription =>
-      'Predpomnilnik izračunane porabe in ponovno uporabi po potrebi';
+  String get consumptionCacheToggleButtonDescription => 'Predpomnilnik izračunane porabe in ponovno uporabi po potrebi';
 
   @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Uporabi predpomnilnik porabe';
+  String get consumptionCacheToggleButtonTitle => 'Uporabi predpomnilnik porabe';
 
   @override
   String get consumptionHeatmap => 'Toplotni zemljevid porabe';
@@ -490,26 +464,19 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionIsNotExclusive =>
-      'Če poraba ni izključna za to dejavnost, bo prikazana kot opozorilo.';
+  String get consumptionIsNotExclusive => 'Če poraba ni izključna za to dejavnost, bo prikazana kot opozorilo.';
 
   @override
   String get consumptionIsNotExclusiveTitle => 'Je poraba izključna?';
 
   @override
   String consumptionPersonLabel(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'ljudi',
-      one: 'oseba',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'ljudi', one: 'oseba');
     return '$_temp0';
   }
 
   @override
-  String get consumptionWaterColdEqual =>
-      'Hladna voda: približno enako kot v povprečnem gospodinjstvu.';
+  String get consumptionWaterColdEqual => 'Hladna voda: približno enako kot v povprečnem gospodinjstvu.';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
@@ -522,49 +489,27 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Na osebo porabijo vsi približno $dailyLiters litrov na dan (≈ $monthlyCubicMeters $unitName na mesec).';
   }
 
   @override
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Porabiš približno $dailyLiters litrov na dan (≈ $monthlyCubicMeters $unitName na mesec).';
   }
 
   @override
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel) {
     return 'Vaša poraba vode $ofRange se ujema s porabo povprečnega gospodinjstva s $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Vaša poraba vode $ofRange je $percentage nižja kot v povprečnem gospodinjstvu s $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Vaša poraba vode $ofRange je $percentage večja kot v povprečnem gospodinjstvu s $householdSize $personLabel.';
   }
 
@@ -574,8 +519,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionWaterWarmEqual =>
-      'Topla voda: približno enako kot v povprečnem gospodinjstvu.';
+  String get consumptionWaterWarmEqual => 'Topla voda: približno enako kot v povprečnem gospodinjstvu.';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
@@ -596,19 +540,12 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedAboutSame => 'približno enako kot';
 
   @override
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  ) {
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel) {
     return 'povprečno gospodinjstvo s $householdSize $personLabel';
   }
 
   @override
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  ) {
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix) {
     return 'Zaužijete$verbSuffix približno enako kot povprečno gospodinjstvo s $householdSize $personLabel.';
   }
 
@@ -716,12 +653,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Ne, prekliči.';
 
   @override
-  String get contractCopyDialogOptionYes =>
-      'Da, cena na enoto ali druga vrednost se je spremenila.';
+  String get contractCopyDialogOptionYes => 'Da, cena na enoto ali druga vrednost se je spremenila.';
 
   @override
-  String get contractCopyDialogTitle =>
-      'Ali želite narediti kopijo te pogodbe?';
+  String get contractCopyDialogTitle => 'Ali želite narediti kopijo te pogodbe?';
 
   @override
   String get contractCopyDialogWhen => 'Od kdaj velja nova cena?';
@@ -834,8 +769,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get counterConsiderForTotalConsumptions => 'Upoštevajte skupno porabo';
 
   @override
-  String get counterConsiderForTotalElectricity =>
-      'Upoštevajte skupno porabo električne energije';
+  String get counterConsiderForTotalElectricity => 'Upoštevajte skupno porabo električne energije';
 
   @override
   String get counterConsiderForTotalWater => 'Upoštevajte skupno porabo vode';
@@ -860,10 +794,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Ali se vrednost zmanjšuje z uporabo (indikator nivoja itd.) ali se vrednost povečuje z uporabo (ure gorilnika, števec olja itd.) ali pa je vsaka odčitana vrednost neodvisna (poraba/donos)?';
 
   @override
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  ) {
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar) {
     return '$consumptionElectricity/$consumptionSolar';
   }
 
@@ -938,8 +869,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get counterLinkMoreRecent => 'Povežite novejši števec';
 
   @override
-  String get counterMessageRoomOptional =>
-      'Dodelitev sobe pomaga pri združevanju, vendar ni obvezna.';
+  String get counterMessageRoomOptional => 'Dodelitev sobe pomaga pri združevanju, vendar ni obvezna.';
 
   @override
   String get counterMeterId => 'ID števca';
@@ -976,8 +906,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get counterProportionateConsumption => 'Sorazmerna poraba';
 
   @override
-  String get counterPvFeedInCounter =>
-      'Obnovljivi viri energije (sončna energija in toplota s PV/sončnimi sistemi)';
+  String get counterPvFeedInCounter => 'Obnovljivi viri energije (sončna energija in toplota s PV/sončnimi sistemi)';
 
   @override
   String get counterPvFeedInCounterExplanation =>
@@ -1027,8 +956,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get counterWarmWater => 'Merilnik tople vode';
 
   @override
-  String get counterWarmWaterPlusColdWater =>
-      'Brez stroškov sveže vode in odpadne vode';
+  String get counterWarmWaterPlusColdWater => 'Brez stroškov sveže vode in odpadne vode';
 
   @override
   String get counterWater => 'Merilniki vode';
@@ -1088,10 +1016,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate) {
     return 'Datoteka, shranjena v tej napravi iz $localDate, je posodobljenejša od datoteke v oblaku iz $cloudDate';
   }
 
@@ -1104,10 +1029,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate) {
     return 'Datoteka v oblaku iz $cloudDate je bolj posodobljena kot lokalna datoteka iz $localDate';
   }
 
@@ -1163,8 +1085,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get existingPhoto => 'Priloži obstoječo fotografijo';
 
   @override
-  String get existingPhotoOfMeterReading =>
-      'Ali želite priložiti obstoječo fotografijo stanja števca?';
+  String get existingPhotoOfMeterReading => 'Ali želite priložiti obstoječo fotografijo stanja števca?';
 
   @override
   String get explanationManageMoreThanOneObject =>
@@ -1174,8 +1095,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get export => 'Izvozi';
 
   @override
-  String get exportExplanation =>
-      'Kateri obstoječi predmet želite izvoziti, na primer za prenos v novo napravo?';
+  String get exportExplanation => 'Kateri obstoječi predmet želite izvoziti, na primer za prenos v novo napravo?';
 
   @override
   String exportObjectDescription(
@@ -1188,8 +1108,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get exportOptionConsumptionsSubtitle =>
-      'Vrednost porabe za vsak dan od prvega odčitka.';
+  String get exportOptionConsumptionsSubtitle => 'Vrednost porabe za vsak dan od prvega odčitka.';
 
   @override
   String get exportOptionConsumptionsTitle => 'Dnevna poraba';
@@ -1206,8 +1125,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get exportOptionPdf => 'PDF datoteka';
 
   @override
-  String get exportOptionReadingsSubtitle =>
-      'Običajno odčitki števca ali poraba z neenakomernimi intervali.';
+  String get exportOptionReadingsSubtitle => 'Običajno odčitki števca ali poraba z neenakomernimi intervali.';
 
   @override
   String get exportOptionReadingsTitle => 'Branje vrednosti';
@@ -1224,14 +1142,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'Delite z drugimi aplikacijami';
 
   @override
-  String get exportTabSnackBarSaveResultMessageError =>
-      'Med shranjevanjem podatkov je prišlo do napake';
+  String get exportTabSnackBarSaveResultMessageError => 'Med shranjevanjem podatkov je prišlo do napake';
 
   @override
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  ) {
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder) {
     return 'Podatki so bili uspešno shranjeni kot $fileName v mapi $folder';
   }
 
@@ -1239,8 +1153,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get exportWhere => 'V kateri obliki naj se predmet izvozi?';
 
   @override
-  String get exportWhichValuesShouldBeExported =>
-      'Katere vrednosti je treba izvoziti?';
+  String get exportWhichValuesShouldBeExported => 'Katere vrednosti je treba izvoziti?';
 
   @override
   String get faqAboutDeveloperBody1 =>
@@ -1251,8 +1164,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Več kot 26 % vseh emisij CO2 v Nemčiji povzročijo zasebna gospodinjstva. Če lahko vsak vsaj malo zmanjša porabo, se bo veliko doseglo. Najlepša hvala za vaš prispevek!';
 
   @override
-  String get faqAboutDeveloperBody3 =>
-      'Veseli bomo predlogov, kako izboljšati aplikacijo.';
+  String get faqAboutDeveloperBody3 => 'Veseli bomo predlogov, kako izboljšati aplikacijo.';
 
   @override
   String get faqAboutDeveloperBody4 =>
@@ -1268,8 +1180,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get featureVoting => 'Glasovanje o funkciji';
 
   @override
-  String get featureVotingOnlyOnGerman =>
-      'Anketa o funkciji ni prevedena v druge jezike.';
+  String get featureVotingOnlyOnGerman => 'Anketa o funkciji ni prevedena v druge jezike.';
 
   @override
   String get featureVotingUnderConstruction =>
@@ -1345,10 +1256,8 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       columns,
       locale: localeName,
-      other:
-          'Uporabljena sta bila samo prva dva stolpca, stolpci $columns so bili prezrti.',
-      one:
-          'Uporabljena sta bila samo prva dva stolpca. Tretji stolpec je bil prezrt.',
+      other: 'Uporabljena sta bila samo prva dva stolpca, stolpci $columns so bili prezrti.',
+      one: 'Uporabljena sta bila samo prva dva stolpca. Tretji stolpec je bil prezrt.',
     );
     return '$_temp0';
   }
@@ -1365,8 +1274,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get importExplanation =>
-      'Ste že opravili odčitke števca in jih želite vstaviti?';
+  String get importExplanation => 'Ste že opravili odčitke števca in jih želite vstaviti?';
 
   @override
   String get importExport => 'Varnostno kopiranje/obnovitev';
@@ -1412,8 +1320,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get involvedCounters => 'Vključeni števci';
 
   @override
-  String get isLastEntryAtFilteredList =>
-      'Najstarejša vrednost na filtriranem seznamu';
+  String get isLastEntryAtFilteredList => 'Najstarejša vrednost na filtriranem seznamu';
 
   @override
   String get isOutdatedCounter => 'Števec se ne uporablja več';
@@ -1437,8 +1344,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get lineChartAppearanceSettings => 'Videz črtnih grafikonov';
 
   @override
-  String get lineChartAppearanceSettingsShowSpots =>
-      'Pokažite (krožne) lise na črtah grafikonov';
+  String get lineChartAppearanceSettingsShowSpots => 'Pokažite (krožne) lise na črtah grafikonov';
 
   @override
   String localWriteSubtitle(Object folder) {
@@ -1449,12 +1355,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get localWriteTitle => 'Shranite v lokalno mapo za prenos';
 
   @override
-  String get manageMoreThanOneObjectStep1 =>
-      'Upravljanje več kot enega predmeta – 1. korak';
+  String get manageMoreThanOneObjectStep1 => 'Upravljanje več kot enega predmeta – 1. korak';
 
   @override
-  String get manageMoreThanOneObjectStep2 =>
-      'Upravljanje več kot enega predmeta – 2. korak';
+  String get manageMoreThanOneObjectStep2 => 'Upravljanje več kot enega predmeta – 2. korak';
 
   @override
   String get marketLocationId => 'ID tržne lokacije';
@@ -1506,8 +1410,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get meterReplacementCreateNew => 'Ustvari naslednji števec iste vrste';
 
   @override
-  String get meterReplacementDescription =>
-      'Ali je ta števec zastarel in ali je bil zamenjan z novim?';
+  String get meterReplacementDescription => 'Ali je ta števec zastarel in ali je bil zamenjan z novim?';
 
   @override
   String monthEnd(Object month) {
@@ -1545,8 +1448,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get notificationsEmpty => 'Brez obvestil';
 
   @override
-  String get notificationsSmartMeterAlertFallback =>
-      'Imate novo opozorilo pametnega števca.';
+  String get notificationsSmartMeterAlertFallback => 'Imate novo opozorilo pametnega števca.';
 
   @override
   String numCounters(int count) {
@@ -1562,23 +1464,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(
-      readings,
-      locale: localeName,
-      other: '# branja',
-      one: '# branje',
-    );
+    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# branja', one: '# branje');
     return '$_temp0';
   }
 
   @override
   String numberOfDetails(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: '$count podrobnosti',
-      one: '1 podrobnost',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: '$count podrobnosti', one: '1 podrobnost');
     return '$_temp0';
   }
 
@@ -1702,8 +1594,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get pricePerUnitWaterWarm => 'Stroški ogrevanja sanitarne vode';
 
   @override
-  String get priceSubmissionAgreement =>
-      'Strinjam se s prenosom cen elektrike/plina/vode na enoto na strežnik EHW+';
+  String get priceSubmissionAgreement => 'Strinjam se s prenosom cen elektrike/plina/vode na enoto na strežnik EHW+';
 
   @override
   String privacyBlock1Text(String contact) {
@@ -1807,8 +1698,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Vnesite števce za poljubno število stanovanj/hiš/objektov (namesto samo za en objekt)';
 
   @override
-  String get purchasesExtensionMultipleObjectsTitlePart =>
-      'Upravljanje več predmetov';
+  String get purchasesExtensionMultipleObjectsTitlePart => 'Upravljanje več predmetov';
 
   @override
   String get purchasesExtensionStatisticsDescription =>
@@ -1822,8 +1712,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Načrtovane so nadaljnje razširitve. Sodelujte v anketi o funkciji in povejte svoje mnenje.';
 
   @override
-  String get purchasesExtensionsSubtitle =>
-      'Kupite enkrat, uporabite trajno (brez naročnine)';
+  String get purchasesExtensionsSubtitle => 'Kupite enkrat, uporabite trajno (brez naročnine)';
 
   @override
   String get purchasesExtensionsTitle => 'Enojni podaljški';
@@ -1871,10 +1760,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew) {
     return 'Mesečna preklicna naročnina po ceni zvestobe $price na mesec namesto $priceNew';
   }
 
@@ -1888,10 +1774,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew) {
     return 'Letna preklicna naročnina po ceni zvestobe $price na leto namesto $priceNew';
   }
 
@@ -1910,8 +1793,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get purchasesWhyBuyTitle => 'Zakaj bi moral nekaj kupiti?';
 
   @override
-  String get purchasesYourPurchases =>
-      'Imate dostop do naslednjih premium paketov:';
+  String get purchasesYourPurchases => 'Imate dostop do naslednjih premium paketov:';
 
   @override
   String get reading => 'Branje števca';
@@ -1926,23 +1808,19 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get readingPrefill => 'Samodejno polnjenje števca';
 
   @override
-  String get readingPrefillDescription =>
-      'Odčitki merilnika pred polnjenjem na podlagi prejšnjih vnosov';
+  String get readingPrefillDescription => 'Odčitki merilnika pred polnjenjem na podlagi prejšnjih vnosov';
 
   @override
-  String get readingPrefillDisableForAllCounters =>
-      'Onemogoči samodejno izpolnjevanje za vse števce';
+  String get readingPrefillDisableForAllCounters => 'Onemogoči samodejno izpolnjevanje za vse števce';
 
   @override
   String get readingPrefillDisabled => 'Samodejno izpolnjevanje onemogočeno';
 
   @override
-  String get readingPrefillDisabledToast =>
-      'Samodejno izpolnjevanje onemogočeno';
+  String get readingPrefillDisabledToast => 'Samodejno izpolnjevanje onemogočeno';
 
   @override
-  String get readingPrefillEnableForAllCounters =>
-      'Omogoči samodejno izpolnjevanje za vse števce';
+  String get readingPrefillEnableForAllCounters => 'Omogoči samodejno izpolnjevanje za vse števce';
 
   @override
   String readingReminder(int count) {
@@ -1996,23 +1874,19 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get reallyDeleteContract => 'Ali res želite izbrisati to pogodbo?';
 
   @override
-  String get reallyDeleteCounter =>
-      'Ali ste prepričani, da želite izbrisati števec?';
+  String get reallyDeleteCounter => 'Ali ste prepričani, da želite izbrisati števec?';
 
   @override
-  String get reallyDeleteCounterLink =>
-      'Ali ste prepričani, da želite izbrisati povezavo med števci?';
+  String get reallyDeleteCounterLink => 'Ali ste prepričani, da želite izbrisati povezavo med števci?';
 
   @override
   String get reallyDeleteDetail => 'Res želite izbrisati to podrobnost?';
 
   @override
-  String get reallyDeleteObject =>
-      'Ali ste prepričani, da želite izbrisati predmet?';
+  String get reallyDeleteObject => 'Ali ste prepričani, da želite izbrisati predmet?';
 
   @override
-  String get reallyDeletePhoto =>
-      'Ali ste prepričani, da želite izbrisati sliko števca?';
+  String get reallyDeletePhoto => 'Ali ste prepričani, da želite izbrisati sliko števca?';
 
   @override
   String get reallyDeleteValue => 'Ali res želite izbrisati to vrednost?';
@@ -2027,8 +1901,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get reminderTime => 'Čas opomnika';
 
   @override
-  String get reminderWeekdayExplanation =>
-      'Obstaja opomnik, da je treba branje opraviti največ enkrat na dan.';
+  String get reminderWeekdayExplanation => 'Obstaja opomnik, da je treba branje opraviti največ enkrat na dan.';
 
   @override
   String get reminderWeekdayExplanationSeasonal =>
@@ -2050,8 +1923,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get residualGenerationEstimated => 'Ocenjena preostala proizvodnja';
 
   @override
-  String get restoreDeletedCounter =>
-      'Ali želite obnoviti ta izbrisani števec?';
+  String get restoreDeletedCounter => 'Ali želite obnoviti ta izbrisani števec?';
 
   @override
   String get room => 'soba';
@@ -2119,8 +1991,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get seasonalCounter => 'Sezonski števec';
 
   @override
-  String get seasonalElectricityCounter =>
-      'Sezonski števec električne energije';
+  String get seasonalElectricityCounter => 'Sezonski števec električne energije';
 
   @override
   String selectedActivity(Object activityName) {
@@ -2128,8 +1999,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get selectedAtAppStart =>
-      'Najvišji predmet je izbran ob zagonu aplikacije';
+  String get selectedAtAppStart => 'Najvišji predmet je izbran ob zagonu aplikacije';
 
   @override
   String get settingColor => 'barva';
@@ -2151,8 +2021,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get settingHouseholdSize => 'Velikost gospodinjstva';
 
   @override
-  String get settingHouseholdSizeDescription =>
-      'Število ljudi v vašem gospodinjstvu.';
+  String get settingHouseholdSizeDescription => 'Število ljudi v vašem gospodinjstvu.';
 
   @override
   String get settingLanguageMode => 'Jezik';
@@ -2222,12 +2091,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Zunanje storitve';
 
   @override
-  String get settingsShowStromGedacht =>
-      'Ali naj bodo prikazani nasveti podjetja StromGedacht o električnem omrežju?';
+  String get settingsShowStromGedacht => 'Ali naj bodo prikazani nasveti podjetja StromGedacht o električnem omrežju?';
 
   @override
-  String get settingsShowTabNewsDetailed =>
-      'Ali naj bo zavihek Novice/Namigi viden?';
+  String get settingsShowTabNewsDetailed => 'Ali naj bo zavihek Novice/Namigi viden?';
 
   @override
   String get showAllYears => 'Pokaži vsa leta';
@@ -2252,20 +2119,16 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radijski vodomer';
 
   @override
-  String get smartMeterErrorNoData =>
-      'Na žalost ni podatkov, ki bi jih aplikacija lahko prikazala.';
+  String get smartMeterErrorNoData => 'Na žalost ni podatkov, ki bi jih aplikacija lahko prikazala.';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardButton =>
-      'Nastavite pametni števec';
+  String get smartMeterMisconfiguredWidgetCardButton => 'Nastavite pametni števec';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardTitle =>
-      'Prosimo, da pravilno nastavite pametni števec.';
+  String get smartMeterMisconfiguredWidgetCardTitle => 'Prosimo, da pravilno nastavite pametni števec.';
 
   @override
-  String get smartMeterObtainDataAutomatically =>
-      'Samodejno pridobivanje podatkov';
+  String get smartMeterObtainDataAutomatically => 'Samodejno pridobivanje podatkov';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';
@@ -2280,16 +2143,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get smartMeterServiceProvider => 'Ponudnik storitev';
 
   @override
-  String get smartMeterSettingsScreenSyncButton =>
-      'Sinhronizirajte podatke o porabi';
+  String get smartMeterSettingsScreenSyncButton => 'Sinhronizirajte podatke o porabi';
 
   @override
   String get smartMeterSettingsScreenSyncingDialogError => 'Napaka';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogErrorMessage(
-    Object errorMessage,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogErrorMessage(Object errorMessage) {
     return 'Med sinhronizacijo je prišlo do naslednje napake: $errorMessage';
   }
 
@@ -2297,13 +2157,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogErrorOkButton => 'OK';
 
   @override
-  String get smartMeterSettingsScreenSyncingDialogHeader =>
-      'Sinhronizacija v teku';
+  String get smartMeterSettingsScreenSyncingDialogHeader => 'Sinhronizacija v teku';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent) {
     return 'Napredek: $progressInPercent%';
   }
 
@@ -2334,9 +2191,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  ) {
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId) {
     return 'Vaš vodomer $smartmeterId je zaznal nenavadno visoko porabo vode, kar lahko pomeni pokanje cevi ali polnjenje bazena. Prosimo, preverite vašo gospodinjsko instalacijo glede večjih puščanj ali zlomov.';
   }
 
@@ -2384,8 +2239,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Strinjam se, da se moja poštna številka (če je navedena) posreduje TransnetBW za pridobivanje obvestil StromGedacht.';
 
   @override
-  String get subscribeToSmartMeterInfocodeEvents =>
-      'Želim biti obveščen o nepričakovani porabi';
+  String get subscribeToSmartMeterInfocodeEvents => 'Želim biti obveščen o nepričakovani porabi';
 
   @override
   String get supplementaryPayment => 'Doplačilo';
@@ -2400,8 +2254,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get supportGivePraise => 'Pohvalite';
 
   @override
-  String get supportGivePraiseLong =>
-      'Vam je aplikacija všeč? Hvala! Razširite besedo!';
+  String get supportGivePraiseLong => 'Vam je aplikacija všeč? Hvala! Razširite besedo!';
 
   @override
   String supportGivePraiseRating(String store) {
@@ -2416,8 +2269,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get supportMakeSuggestion => 'Predlagaj nekaj';
 
   @override
-  String get supportMakeSuggestionLong =>
-      'Aplikacija živi od predlogov uporabnikov. Imate kakšen predlog?';
+  String get supportMakeSuggestionLong => 'Aplikacija živi od predlogov uporabnikov. Imate kakšen predlog?';
 
   @override
   String get supportQuestion => 'Postavite vprašanje';
@@ -2426,12 +2278,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get supportQuestionBox => 'Kako ti lahko pomagam?';
 
   @override
-  String get supportQuestionLong =>
-      'kako deluje Je to sploh mogoče? Tukaj so odgovori.';
+  String get supportQuestionLong => 'kako deluje Je to sploh mogoče? Tukaj so odgovori.';
 
   @override
-  String get supportQuestionNotFound =>
-      'Vaše vprašanje ni bilo odgovorjeno? Z veseljem vam bom pomagal.';
+  String get supportQuestionNotFound => 'Vaše vprašanje ni bilo odgovorjeno? Z veseljem vam bom pomagal.';
 
   @override
   String get supportRecommend =>
@@ -2441,20 +2291,17 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get supportReportBug => 'Prijavite napako po pošti';
 
   @override
-  String get supportReportBugAffectedPages =>
-      'Na katerih straneh se pojavi napaka? (če je primerno)';
+  String get supportReportBugAffectedPages => 'Na katerih straneh se pojavi napaka? (če je primerno)';
 
   @override
   String get supportReportBugLong =>
       'Odlična aplikacija! Seveda pa gre lahko kaj narobe. Če prijavite napake, izboljšate aplikacijo.';
 
   @override
-  String get supportReportBugScreenshotsPlease =>
-      'Pošti priložite posnetek zaslona, ​​po možnosti z oznako napake.';
+  String get supportReportBugScreenshotsPlease => 'Pošti priložite posnetek zaslona, ​​po možnosti z oznako napake.';
 
   @override
-  String get supportReportBugTextIs =>
-      'Na kratko opišite trenutno nepravilno vedenje, torej samo napako.';
+  String get supportReportBugTextIs => 'Na kratko opišite trenutno nepravilno vedenje, torej samo napako.';
 
   @override
   String get supportReportBugTextShould =>
@@ -2482,12 +2329,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Vaši podatki se po spremembi samodejno naložijo v Google Drive. Novejši podatki iz oblaka samo prepišejo lokalne podatke, ko kliknete predmet. Uporablja se naslednji Google Račun:';
 
   @override
-  String get syncObjectIsLocked =>
-      'Podatki o predmetu se posodabljajo in jih v tem času ni mogoče urejati.';
+  String get syncObjectIsLocked => 'Podatki o predmetu se posodabljajo in jih v tem času ni mogoče urejati.';
 
   @override
-  String get syncShareWithOthersNotInWeb =>
-      'Dodeljevanje dostopa je trenutno možno le prek aplikacije.';
+  String get syncShareWithOthersNotInWeb => 'Dodeljevanje dostopa je trenutno možno le prek aplikacije.';
 
   @override
   String get syncShareWithOthersSubtitle =>
@@ -2497,16 +2342,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get syncShareWithOthersTitle => 'Deliti z drugimi?';
 
   @override
-  String get syncStatusFailedLong =>
-      'Sinhronizacija ni uspela, urejanje je na lastno odgovornost';
+  String get syncStatusFailedLong => 'Sinhronizacija ni uspela, urejanje je na lastno odgovornost';
 
   @override
-  String get syncStatusFailedLongNoAutoSync =>
-      'Sinhronizacija ni uspela, urejanje je na lastno odgovornost';
+  String get syncStatusFailedLongNoAutoSync => 'Sinhronizacija ni uspela, urejanje je na lastno odgovornost';
 
   @override
-  String get syncStatusSyncRemoteHasLatest =>
-      'Datoteka v oblaku je bolj posodobljena kot lokalna datoteka';
+  String get syncStatusSyncRemoteHasLatest => 'Datoteka v oblaku je bolj posodobljena kot lokalna datoteka';
 
   @override
   String get syncWithGoogleDriveDescription =>
@@ -2528,16 +2370,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get taxRate => 'Davčna stopnja';
 
   @override
-  String get teaserPurchaseRenewableEnergies =>
-      'Števci obnovljive energije zahtevajo Premium.';
+  String get teaserPurchaseRenewableEnergies => 'Števci obnovljive energije zahtevajo Premium.';
 
   @override
-  String get teaserPurchaseVirtualCounter =>
-      'Dodajte virtualne števce z Premium.';
+  String get teaserPurchaseVirtualCounter => 'Dodajte virtualne števce z Premium.';
 
   @override
-  String get teaserPurchaseWaterExtractionCounter =>
-      'Odklenite števce črpanja vode z Premium.';
+  String get teaserPurchaseWaterExtractionCounter => 'Odklenite števce črpanja vode z Premium.';
 
   @override
   String termsOfUsageBlock1(String contact) {
@@ -2593,8 +2432,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get tibberAccessToken => 'Žeton za dostop';
 
   @override
-  String get tibberActionSaveAuthorizationSettings =>
-      'Shranite nastavitve avtorizacije';
+  String get tibberActionSaveAuthorizationSettings => 'Shranite nastavitve avtorizacije';
 
   @override
   String get tibberBasicAuth => 'Osnovna avt';
@@ -2616,15 +2454,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Spremljajte svojo porabo v realnem času in odkrijte skrite požrešce energije.';
 
   @override
-  String get tibberConsentScreenBenefit1Title =>
-      'Oglejte si svojo porabo električne energije';
+  String get tibberConsentScreenBenefit1Title => 'Oglejte si svojo porabo električne energije';
 
   @override
   String get tibberConsentScreenConfigureLaterButton => 'Nastavite pozneje';
 
   @override
-  String get tibberConsentScreenConfigureNowButton =>
-      'Nastavite Tibber Pulse zdaj';
+  String get tibberConsentScreenConfigureNowButton => 'Nastavite Tibber Pulse zdaj';
 
   @override
   String get tibberConsentScreenDescription =>
@@ -2635,20 +2471,16 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Vaša urna poraba od 1. marca bo anonimizirana in posredovana Goethejevi študiji.';
 
   @override
-  String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'Bi radi sodelovali pri Goethejevi študiji?';
+  String get tibberConsentScreenGoetheStudyBenefit1Title => 'Bi radi sodelovali pri Goethejevi študiji?';
 
   @override
-  String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
-      'Da, želim sodelovati pri Goethejevi študiji';
+  String get tibberConsentScreenGoetheStudyParticipationConsentToggle => 'Da, želim sodelovati pri Goethejevi študiji';
 
   @override
-  String get tibberConsentScreenGoetheStudySectionHeader =>
-      'Sodelovanje v raziskovalnem projektu';
+  String get tibberConsentScreenGoetheStudySectionHeader => 'Sodelovanje v raziskovalnem projektu';
 
   @override
-  String get tibberConsentScreenHeader =>
-      'Nova funkcija: podatki o porabi iz Tibber Pulse';
+  String get tibberConsentScreenHeader => 'Nova funkcija: podatki o porabi iz Tibber Pulse';
 
   @override
   String get tibberConsentScreenStoreLink => 'Obiščite trgovino Tibber';
@@ -2664,18 +2496,12 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime) {
     return '24 ur od $startTime do $date';
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime) {
     return 'Od: $startTime do $endDate';
   }
 
@@ -2690,10 +2516,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime) {
     return 'Ena ura od $startTime na $date';
   }
 
@@ -2711,8 +2534,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get tibberEnterAccessToken => 'Vnesite žeton za dostop';
 
   @override
-  String get tibberErrorAccessTokenInvalid =>
-      'Videti je, da žeton za dostop ni veljaven';
+  String get tibberErrorAccessTokenInvalid => 'Videti je, da žeton za dostop ni veljaven';
 
   @override
   String get tibberErrorConnectivityShowCacheInstead =>
@@ -2730,8 +2552,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Omejitev stopnje Tibber API je presežena. Pred ponovnim poskusom počakajte vsaj 5 minut.';
 
   @override
-  String get tibberErrorSmartMeterMisconfigured =>
-      'Zdi se, da je vaš pametni števec napačno konfiguriran.';
+  String get tibberErrorSmartMeterMisconfigured => 'Zdi se, da je vaš pametni števec napačno konfiguriran.';
 
   @override
   String tibberErrorUndefined(Object error) {
@@ -2754,24 +2575,19 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementCounterCardViewFooter => 'Merjenje v živo';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumption =>
-      'Skupna poraba (od polnoči)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumption => 'Skupna poraba (od polnoči)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour =>
-      'Poraba (zadnja ura)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour => 'Poraba (zadnja ura)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedCost =>
-      'Akumulirani stroški';
+  String get tibberLiveMeasurementWidgetAccumulatedCost => 'Akumulirani stroški';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProduction =>
-      'Skupna proizvodnja (od polnoči)';
+  String get tibberLiveMeasurementWidgetAccumulatedProduction => 'Skupna proizvodnja (od polnoči)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour =>
-      'Produkcija (zadnja ura)';
+  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour => 'Produkcija (zadnja ura)';
 
   @override
   String get tibberLiveMeasurementWidgetAccumulatedReward => 'Zbrana nagrada';
@@ -2789,12 +2605,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetCurrentL3 => 'Tok (L3)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'Odčitek števca (poraba)';
+  String get tibberLiveMeasurementWidgetLastMeterConsumption => 'Odčitek števca (poraba)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'Odčitavanje števca (proizvodnja)';
+  String get tibberLiveMeasurementWidgetLastMeterProduction => 'Odčitavanje števca (proizvodnja)';
 
   @override
   String get tibberLiveMeasurementWidgetMaxPower => 'Največja moč';
@@ -2809,8 +2623,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetPowerFactor => 'Faktor moči';
 
   @override
-  String get tibberLiveMeasurementWidgetPowerProduction =>
-      'Proizvodnja električne energije';
+  String get tibberLiveMeasurementWidgetPowerProduction => 'Proizvodnja električne energije';
 
   @override
   String get tibberLiveMeasurementWidgetTimestamp => 'Časovni žig';
@@ -2839,24 +2652,20 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetVoltagePhase3 => 'Napetost (3. faza)';
 
   @override
-  String get tibberLiveMeasurementsWidgetConnecting =>
-      'Povezovanje s Tibber Pulse ...';
+  String get tibberLiveMeasurementsWidgetConnecting => 'Povezovanje s Tibber Pulse ...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
       'Med povezovanjem s Tibber Pulse je prišlo do napake. Preverite žeton za dostop in internetno povezavo.';
 
   @override
-  String get tibberLiveMeasurementsWidgetNotSupported =>
-      'Meritve v živo za ta dom niso podprte.';
+  String get tibberLiveMeasurementsWidgetNotSupported => 'Meritve v živo za ta dom niso podprte.';
 
   @override
-  String get tibberMessageAccessTokenUpdated =>
-      'Žeton za dostop je bil uspešno posodobljen';
+  String get tibberMessageAccessTokenUpdated => 'Žeton za dostop je bil uspešno posodobljen';
 
   @override
-  String get tibberStatusWidgetTibberSubscriptionStatus =>
-      'Stanje naročnine na Tibber';
+  String get tibberStatusWidgetTibberSubscriptionStatus => 'Stanje naročnine na Tibber';
 
   @override
   String get tibberStatusWidgetTitle => 'Upravljanje predpomnilnika';
@@ -2871,8 +2680,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get tibberSubscriptionStatusLoading => 'nalaganje...';
 
   @override
-  String get tibberWhereIsMyAccessToken =>
-      'Kje lahko najdem svoj \"žeton za dostop\"?';
+  String get tibberWhereIsMyAccessToken => 'Kje lahko najdem svoj \"žeton za dostop\"?';
 
   @override
   String get timeBefore => 'prej';
@@ -3030,12 +2838,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String unitGJLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Gigadžuli (GJ)',
-      one: 'gigadžul (GJ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Gigadžuli (GJ)', one: 'gigadžul (GJ)');
     return '$_temp0';
   }
 
@@ -3050,12 +2853,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String unitHoursLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'ure (h)',
-      one: 'ura',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'ure (h)', one: 'ura');
     return '$_temp0';
   }
 
@@ -3078,12 +2876,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String unitKgLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Kilogrami (kg)',
-      one: 'Kilogram (kg)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Kilogrami (kg)', one: 'Kilogram (kg)');
     return '$_temp0';
   }
 
@@ -3095,12 +2888,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String unitLitersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'liter (l)',
-      one: 'liter (l)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'liter (l)', one: 'liter (l)');
     return '$_temp0';
   }
 
@@ -3132,12 +2920,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String unitNoneFormatted(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'enote',
-      one: 'enota',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'enote', one: 'enota');
     return '$_temp0';
   }
 
@@ -3180,8 +2963,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get useDismissibleSettings => 'Izbriši s potezo';
 
   @override
-  String get useDismissibleSettingsDetailed =>
-      'Števce, pogodbe itd. lahko izbrišete s stranskim potegom';
+  String get useDismissibleSettingsDetailed => 'Števce, pogodbe itd. lahko izbrišete s stranskim potegom';
 
   @override
   String get usedForPaymentsRepayments => 'Predplačilo, osnovna cena in bonus';
@@ -3222,16 +3004,14 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Kateri odčitki števca naj se dodajo glavnemu števcu, npr. števci električne energije.';
 
   @override
-  String get virtualCounterMetersToBeSubtracted =>
-      'Metri, ki jih je treba odšteti';
+  String get virtualCounterMetersToBeSubtracted => 'Metri, ki jih je treba odšteti';
 
   @override
   String get virtualCounterMetersToBeSubtractedDescription =>
       'Kateri odčitki števca je treba odšteti od glavnega števca, npr. \"števci toplotne črpalke\", \"števci dovoda električne energije\".';
 
   @override
-  String get virtualCounterNotConfigured =>
-      'Preverite nastavitve vašega virtualnega števca. Nič se ne da izračunati.';
+  String get virtualCounterNotConfigured => 'Preverite nastavitve vašega virtualnega števca. Nič se ne da izračunati.';
 
   @override
   String get wallbox => 'Wallbox';
@@ -3258,10 +3038,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String warningReadingBiggerThanOldValue(String isOilCounter) {
-    String _temp0 = intl.Intl.selectLogic(isOilCounter, {
-      'true': ' Have you refilled the tank?',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(isOilCounter, {'true': ' Have you refilled the tank?', 'other': ''});
     return 'Nova vrednost je višja od prejšnjega odčitka števca.$_temp0';
   }
 
@@ -3270,30 +3047,20 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Nova vrednost je višja od prejšnje vrednosti števca. Ste ponovno napolnili rezervoar?';
 
   @override
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  ) {
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart) {
     return 'Končni odčitek števca za leto $lastYear za $deviceTypeName $roomNamePart manjka. To je potrebno za pravilen izračun skupne letne porabe.';
   }
 
   @override
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  ) {
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText) {
     return 'Najnovejši odčitek števca za $deviceTypeName je zastarel $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
-  String get warningReadingSeemsTooBig =>
-      'Nova vrednost je precej visoka. Ali je bil odčitek pravilno?';
+  String get warningReadingSeemsTooBig => 'Nova vrednost je precej visoka. Ali je bil odčitek pravilno?';
 
   @override
-  String get warningReadingSeemsTooSmall =>
-      'Nova vrednost je precej nizka. Je bilo prebrano pravilno?';
+  String get warningReadingSeemsTooSmall => 'Nova vrednost je precej nizka. Je bilo prebrano pravilno?';
 
   @override
   String get warningReadingSmallerThanOldValue2 =>
@@ -3310,8 +3077,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get waterConsumption => 'Poraba vode';
 
   @override
-  String get waterExtractionMinimumLevelLower =>
-      'Odbitek se izvede, ker je poraba nižja od praga.';
+  String get waterExtractionMinimumLevelLower => 'Odbitek se izvede, ker je poraba nižja od praga.';
 
   @override
   String waterMeterEventsInformation(num count, String waterSupplier) {
@@ -3330,8 +3096,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get waterSupplier => 'Dobavitelj vode';
 
   @override
-  String get waterSupplierHint =>
-      'vaš lokalni dobavitelj vode, npr. Stadtwerke Musterstadt';
+  String get waterSupplierHint => 'vaš lokalni dobavitelj vode, npr. Stadtwerke Musterstadt';
 
   @override
   String get waterSupplierUnknown =>
@@ -3342,12 +3107,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Ali ste lastnik nepremičnine na prispevnem območju dobavitelja vode in želite imeti dostop do odčitkov radijskih števcev?';
 
   @override
-  String get watersupplierAccessRequestQ2 =>
-      'Ste že zahtevali dostop? Nato morate ustvariti uporabniški račun EHW+.';
+  String get watersupplierAccessRequestQ2 => 'Ste že zahtevali dostop? Nato morate ustvariti uporabniški račun EHW+.';
 
   @override
-  String get watersupplierAccessRequestQ3 =>
-      'Ste že zahtevali dostop in prejeli kodo QR?';
+  String get watersupplierAccessRequestQ3 => 'Ste že zahtevali dostop in prejeli kodo QR?';
 
   @override
   String get watersupplierAccessRequestQ4 =>
@@ -3358,15 +3121,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Žal to ni delovalo. To je bilo zaradi našega strežnika. Raje poskusite znova pozneje!';
 
   @override
-  String get watersupplierCompleteMeterIdTryAgain =>
-      'Ne boš mimo! Ponovno vnesite zadnje tri številke števca!';
+  String get watersupplierCompleteMeterIdTryAgain => 'Ne boš mimo! Ponovno vnesite zadnje tri številke števca!';
 
   @override
   String get watersupplierMeterIdValidationStep => 'Preverjamo vaš števčni ID.';
 
   @override
-  String get watersupplierNoAccess =>
-      'Nimate več pooblastila za pridobivanje podatkov.';
+  String get watersupplierNoAccess => 'Nimate več pooblastila za pridobivanje podatkov.';
 
   @override
   String get watersupplierNoAccessDetailedMessage =>
@@ -3376,16 +3137,14 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get watersupplierOpenReminderSettings => 'Odprite nastavitve';
 
   @override
-  String get watersupplierRadioMeterDefaultName =>
-      'Radijski merilnik hladne vode';
+  String get watersupplierRadioMeterDefaultName => 'Radijski merilnik hladne vode';
 
   @override
   String get watersupplierScanQrCodeApprovalInProgress =>
       'Zdaj avtoriziramo vaš račun, da boste lahko v prihodnje dostopali do odčitkov radijskega števca.';
 
   @override
-  String get watersupplierScanQrCodeCommand =>
-      'Skenirajte levo QR kodo (aktivacijsko kodo)!';
+  String get watersupplierScanQrCodeCommand => 'Skenirajte levo QR kodo (aktivacijsko kodo)!';
 
   @override
   String get watersupplierScanQrCodeOffboardingSuccessful =>
@@ -3407,12 +3166,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'ja! Vaš radijski vodomer tipa \"Hladna voda\" je bil uspešno dodan. Najdete ga med drugimi merilniki.';
 
   @override
-  String get watersupplierScanQrCodeValidation =>
-      'Koda QR je bila zaznana, preverimo jo.';
+  String get watersupplierScanQrCodeValidation => 'Koda QR je bila zaznana, preverimo jo.';
 
   @override
-  String get watersupplierScanQrCodeValidationFailed =>
-      'Oprostite, koda je neveljavna. Ali želite poskusiti znova?';
+  String get watersupplierScanQrCodeValidationFailed => 'Oprostite, koda je neveljavna. Ali želite poskusiti znova?';
 
   @override
   String get watersupplierScanQrCodeValidationFailedOnboardingScanned =>
@@ -3423,16 +3180,13 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Namesto aktivacijske kode ste skenirali kodo za preklic. Poskusite ponovno!';
 
   @override
-  String get watersupplierScanRevokeQrCodeCommand =>
-      'Skenirajte pravo kodo QR (preklic kode)!';
+  String get watersupplierScanRevokeQrCodeCommand => 'Skenirajte pravo kodo QR (preklic kode)!';
 
   @override
-  String get watersupplierUnlinkRadioMeterButtonDelete =>
-      'Izbriši radijski števec';
+  String get watersupplierUnlinkRadioMeterButtonDelete => 'Izbriši radijski števec';
 
   @override
-  String get watersupplierUnlinkRadioMeterButtonRevoke =>
-      'Skenirajte kodo za preklic';
+  String get watersupplierUnlinkRadioMeterButtonRevoke => 'Skenirajte kodo za preklic';
 
   @override
   String get watersupplierUnlinkRadioMeterDescription1 =>
@@ -3443,8 +3197,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Ne želite več dostopa do podatkov radijskega števca? Upoštevajte: ko je preklicna koda skenirana, aktivacijska koda postane neveljavna. Vsak uporabniški račun, ki je uporabil aktivacijsko kodo, bo izgubil dostop.';
 
   @override
-  String get watersupplierUnlinkRadioMeterTitle =>
-      'Prekinite dostop do radijskega merilnika';
+  String get watersupplierUnlinkRadioMeterTitle => 'Prekinite dostop do radijskega merilnika';
 
   @override
   String get yearlyConsumption => 'Dosedanja letna poraba';
@@ -3472,6 +3225,5 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
-  String get zipCodeValidationOnlyNumbers =>
-      'Veljavna poštna številka je sestavljena samo iz številk';
+  String get zipCodeValidationOnlyNumbers => 'Veljavna poštna številka je sestavljena samo iz številk';
 }

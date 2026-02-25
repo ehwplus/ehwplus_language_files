@@ -32,6 +32,7 @@ import 'ehwplus_app_localizations_nb.dart';
 import 'ehwplus_app_localizations_nl.dart';
 import 'ehwplus_app_localizations_pl.dart';
 import 'ehwplus_app_localizations_pt.dart';
+import 'ehwplus_app_localizations_ro.dart';
 import 'ehwplus_app_localizations_ru.dart';
 import 'ehwplus_app_localizations_sl.dart';
 import 'ehwplus_app_localizations_sr.dart';
@@ -97,20 +98,15 @@ import 'ehwplus_app_localizations_zh.dart';
 /// be consistent with the languages listed in the EhwplusAppLocalizations.supportedLocales
 /// property.
 abstract class EhwplusAppLocalizations {
-  EhwplusAppLocalizations(String locale)
-    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  EhwplusAppLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
   static EhwplusAppLocalizations? of(BuildContext context) {
-    return Localizations.of<EhwplusAppLocalizations>(
-      context,
-      EhwplusAppLocalizations,
-    );
+    return Localizations.of<EhwplusAppLocalizations>(context, EhwplusAppLocalizations);
   }
 
-  static const LocalizationsDelegate<EhwplusAppLocalizations> delegate =
-      _EhwplusAppLocalizationsDelegate();
+  static const LocalizationsDelegate<EhwplusAppLocalizations> delegate = _EhwplusAppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -122,13 +118,12 @@ abstract class EhwplusAppLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
-      <LocalizationsDelegate<dynamic>>[
-        delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ];
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+    delegate,
+    GlobalMaterialLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+  ];
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
@@ -159,6 +154,7 @@ abstract class EhwplusAppLocalizations {
     Locale('nl'),
     Locale('pl'),
     Locale('pt'),
+    Locale('ro'),
     Locale('ru'),
     Locale('sl'),
     Locale('sr'),
@@ -757,10 +753,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'You are using the EHW+ account. {notSubmitted} out of {total} purchased products could not be saved on the EHW+ server. We hope to fix the issue soon.'**
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  );
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total);
 
   /// No description provided for @commonUserLoginDescriptionLoggedInRestoredPurchases.
   ///
@@ -1036,53 +1029,31 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Per person, this equals about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).'**
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  );
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName);
 
   /// No description provided for @consumptionWaterDailyMonthlySingle.
   ///
   /// In en, this message translates to:
   /// **'You consume about {dailyLiters} liters per day (≈ {monthlyCubicMeters} {unitName} per month).'**
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  );
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName);
 
   /// No description provided for @consumptionWaterOverallEqual.
   ///
   /// In en, this message translates to:
   /// **'Your water consumption {ofRange} is equal to that of an average household with {householdSize} {personLabel}.'**
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  );
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel);
 
   /// No description provided for @consumptionWaterOverallLess.
   ///
   /// In en, this message translates to:
   /// **'Your water consumption {ofRange} is {percentage} lower than that of an average household with {householdSize} {personLabel}.'**
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  );
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel);
 
   /// No description provided for @consumptionWaterOverallMore.
   ///
   /// In en, this message translates to:
   /// **'Your water consumption {ofRange} is {percentage} higher than that of an average household with {householdSize} {personLabel}.'**
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  );
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel);
 
   /// No description provided for @consumptionWaterRangeUnknown.
   ///
@@ -1124,20 +1095,13 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **' an average household with {householdSize} {personLabel}'**
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  );
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel);
 
   /// No description provided for @consumptionYearlyDetailedComparisonEqual.
   ///
   /// In en, this message translates to:
   /// **'You consume{verbSuffix} about as much as an average household with {householdSize} {personLabel}.'**
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  );
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix);
 
   /// No description provided for @consumptionYearlyDetailedComparisonLess.
   ///
@@ -1567,10 +1531,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'{consumptionElectricity}/{consumptionSolar}'**
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  );
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar);
 
   /// No description provided for @counterDistrictHeating.
   ///
@@ -1978,10 +1939,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'The file saved on this device from {localDate} is more up-to-date than the file in the cloud from {cloudDate}'**
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  );
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate);
 
   /// No description provided for @driveSyncStatusNotSynced.
   ///
@@ -1999,10 +1957,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'The file in the cloud from {cloudDate} is more up-to-date than the local file from {localDate}'**
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  );
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate);
 
   /// No description provided for @driveSyncStatusSyncing.
   ///
@@ -2128,12 +2083,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'{countersText}, {meterReadings} , {timeLastUpdated} {lastUpdated}'**
-  String exportObjectDescription(
-    String countersText,
-    String lastUpdated,
-    String meterReadings,
-    String timeLastUpdated,
-  );
+  String exportObjectDescription(String countersText, String lastUpdated, String meterReadings, String timeLastUpdated);
 
   /// No description provided for @exportOptionConsumptionsSubtitle.
   ///
@@ -2205,10 +2155,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Data has been successfully saved as {fileName} in folder {folder}'**
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  );
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder);
 
   /// No description provided for @exportWhere.
   ///
@@ -3222,10 +3169,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Monthly cancelable subscription at the loyalty price of {price} per month instead of {priceNew}'**
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  );
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew);
 
   /// No description provided for @purchasesSubscribePremiumTextLong.
   ///
@@ -3243,10 +3187,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Yearly cancelable subscription at the loyalty price of {price} per year instead of {priceNew}'**
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  );
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew);
 
   /// No description provided for @purchasesUpgrade.
   ///
@@ -3954,9 +3895,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Progress: {progressInPercent}%'**
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  );
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent);
 
   /// No description provided for @smartMeterTabConsumptions.
   ///
@@ -3998,9 +3937,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Your water meter {smartmeterId} has detected unusually high water consumption, which may indicate either a pipe burst or swimming pool filling. Please check your household installation for major leaks or breaks.'**
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  );
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId);
 
   /// No description provided for @soFar.
   ///
@@ -4546,19 +4483,13 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'24 hours from {startTime} on {date}'**
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  );
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime);
 
   /// No description provided for @tibberConsumptionEntryViewTimeSpanDefault.
   ///
   /// In en, this message translates to:
   /// **'From: {startTime} to {endDate}'**
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  );
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime);
 
   /// No description provided for @tibberConsumptionEntryViewTimeSpanMonth.
   ///
@@ -4576,10 +4507,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'One hour from {startTime} on {date}'**
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  );
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime);
 
   /// No description provided for @tibberConsumptionEntryViewTimeSpanYear.
   ///
@@ -5443,21 +5371,13 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'The final meter reading for the year {lastYear} for the {deviceTypeName} {roomNamePart}is missing. This is necessary for a correct calculation of the total annual consumption.'**
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  );
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart);
 
   /// No description provided for @warningReadingOutdatedFrequency.
   ///
   /// In en, this message translates to:
   /// **'The latest meter reading for the {deviceTypeName} is outdated {outdatedSinceText}. {whenNotifyDateText}'**
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  );
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText);
 
   /// No description provided for @warningReadingSeemsTooBig.
   ///
@@ -5742,15 +5662,12 @@ abstract class EhwplusAppLocalizations {
   String get zipCodeValidationOnlyNumbers;
 }
 
-class _EhwplusAppLocalizationsDelegate
-    extends LocalizationsDelegate<EhwplusAppLocalizations> {
+class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {
   const _EhwplusAppLocalizationsDelegate();
 
   @override
   Future<EhwplusAppLocalizations> load(Locale locale) {
-    return SynchronousFuture<EhwplusAppLocalizations>(
-      lookupEhwplusAppLocalizations(locale),
-    );
+    return SynchronousFuture<EhwplusAppLocalizations>(lookupEhwplusAppLocalizations(locale));
   }
 
   @override
@@ -5782,6 +5699,7 @@ class _EhwplusAppLocalizationsDelegate
     'nl',
     'pl',
     'pt',
+    'ro',
     'ru',
     'sl',
     'sr',
@@ -5855,6 +5773,8 @@ EhwplusAppLocalizations lookupEhwplusAppLocalizations(Locale locale) {
       return EhwplusAppLocalizationsPl();
     case 'pt':
       return EhwplusAppLocalizationsPt();
+    case 'ro':
+      return EhwplusAppLocalizationsRo();
     case 'ru':
       return EhwplusAppLocalizationsRu();
     case 'sl':

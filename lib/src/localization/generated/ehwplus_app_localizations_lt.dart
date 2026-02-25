@@ -15,8 +15,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get accountBenefit1 => 'Patikimesnis pirkinių atpažinimas';
 
   @override
-  String get accountBenefit2 =>
-      'Prieiga prie visų įsigytų plėtinių keliuose įrenginiuose';
+  String get accountBenefit2 => 'Prieiga prie visų įsigytų plėtinių keliuose įrenginiuose';
 
   @override
   String get accountButtonSetup => 'Nustatykite EHW+ vartotojo abonementą';
@@ -33,15 +32,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get accountFaqQ1 => 'Kas yra EHW+ vartotojo abonementas?';
 
   @override
-  String get accountFaqQ2 =>
-      'Ar vis tiek turėsiu prieigą prie savo pirkinių be EHW+ vartotojo paskyros?';
+  String get accountFaqQ2 => 'Ar vis tiek turėsiu prieigą prie savo pirkinių be EHW+ vartotojo paskyros?';
 
   @override
   String get accountFaqTitle => 'Dažniausiai užduodami klausimai:';
 
   @override
-  String get accountThankYouForPurchase =>
-      'Ačiū! Ar norite apsaugoti pirkinį savo EHW+ vartotojo paskyroje dabar?';
+  String get accountThankYouForPurchase => 'Ačiū! Ar norite apsaugoti pirkinį savo EHW+ vartotojo paskyroje dabar?';
 
   @override
   String get accountUpdateInfo => 'Naujiena: EHW+ vartotojo paskyra';
@@ -96,8 +93,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get activityWashTemperature => 'Temperatūra';
 
   @override
-  String get activityWithEnergyConsumption =>
-      'Energijos suvartojimas matuojamas tik veiklai';
+  String get activityWithEnergyConsumption => 'Energijos suvartojimas matuojamas tik veiklai';
 
   @override
   String get addActivity => 'Pridėti veiklą';
@@ -166,8 +162,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Vidutiniškai kiekvienas Vokietijos gyventojas per dieną namuose sunaudoja 127 litrus geriamojo vandens. Mėlyna linija žymi šaltą vandenį (60%), raudona linija karštą vandenį (40%), ekstrapoliuota į laikotarpio dienų skaičių ir žmonių skaičių.';
 
   @override
-  String get chartHorizontalLines =>
-      'Brūkšninės linijos skirtos pateikti atsiliepimą apie jūsų suvartojimą.';
+  String get chartHorizontalLines => 'Brūkšninės linijos skirtos pateikti atsiliepimą apie jūsų suvartojimą.';
 
   @override
   String get chooseActivity => 'Pasirinkite veiklą';
@@ -197,19 +192,16 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Atsiliepimai pateikiami automatiškai, kai naudojatės numatymo paslauga ir sutinkate su optimizavimu.';
 
   @override
-  String get cometConsentScreenFeedbackTitle =>
-      'Goethe universitetui reikia jūsų atsiliepimų:';
+  String get cometConsentScreenFeedbackTitle => 'Goethe universitetui reikia jūsų atsiliepimų:';
 
   @override
-  String get cometConsentScreenHeader =>
-      'Naujiena: geresnės vartojimo prognozės';
+  String get cometConsentScreenHeader => 'Naujiena: geresnės vartojimo prognozės';
 
   @override
   String get cometConsentScreenHowItWorksTitle => 'Kaip tai veikia?';
 
   @override
-  String get cometConsentScreenOfflineDescription =>
-      'Jūsų įrenginyje bus apskaičiuota supaprastinta vietinė prognozė.';
+  String get cometConsentScreenOfflineDescription => 'Jūsų įrenginyje bus apskaičiuota supaprastinta vietinė prognozė.';
 
   @override
   String get cometConsentScreenOfflineDescriptionTitle => 'Be interneto ryšio:';
@@ -225,8 +217,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get cometConsentScreenToggleLabel => 'Naudokite prognozių paslaugą';
 
   @override
-  String get cometSettingsIsPredictionsApiEnabled =>
-      'Naudokite Gėtės instituto COMET Forecast API';
+  String get cometSettingsIsPredictionsApiEnabled => 'Naudokite Gėtės instituto COMET Forecast API';
 
   @override
   String get comment => 'Bote';
@@ -322,10 +313,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get commonUserLogin => 'Vartotojo prisijungimas';
 
   @override
-  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(
-    int notSubmitted,
-    int total,
-  ) {
+  String commonUserLoginDescriptionLoggedInNotSubmittedPurchases(int notSubmitted, int total) {
     return 'Naudojate EHW+ paskyrą. $notSubmitted iš $total įsigytų produktų nepavyko išsaugoti EHW+ serveryje. Tikimės greitai išspręsti problemą.';
   }
 
@@ -345,10 +333,8 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other:
-          'Naudojate EHW+ paskyrą. $count įsigytos prekės buvo išsaugotos EHW+ serveryje.',
-      one:
-          'Naudojate EHW+ paskyrą. $count įsigytas produktas buvo išsaugotas EHW+ serveryje.',
+      other: 'Naudojate EHW+ paskyrą. $count įsigytos prekės buvo išsaugotos EHW+ serveryje.',
+      one: 'Naudojate EHW+ paskyrą. $count įsigytas produktas buvo išsaugotas EHW+ serveryje.',
       zero:
           'Naudojate EHW+ paskyrą. Jei ateityje įsigysite produktų, jie bus sinchronizuojami visuose jūsų įrenginiuose.',
     );
@@ -385,8 +371,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       '„TransnetBW“ teikiama paslauga „StromGedacht“ teikia informaciją apie tinklo stabilumą ir rekomendacijas, kada geriausia naudoti elektros energiją. Kadangi energijos perėjimas perdavimo tinklui tampa vis sunkesnis, pietvakarių Vokietijoje dalyvauja namų ūkiai. Norint gauti informaciją apie savo buvimo vietą, jūsų pašto kodas, jei įvedėte čia, programėlėje, persiunčiamas į TransnetBW StromGedacht API. Jokie kiti duomenys neperduodami ar susieti.';
 
   @override
-  String get consent13StromGedachtTitle =>
-      'Tinklo stabilumo pranešimai iš StromGedacht';
+  String get consent13StromGedachtTitle => 'Tinklo stabilumo pranešimai iš StromGedacht';
 
   @override
   String get consent1Hello => 'Sveiki';
@@ -395,8 +380,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consent2ThankYou => 'Dėkojame, kad naudojatės EHW+!';
 
   @override
-  String get consent3Video =>
-      'Ar norėtumėte pažiūrėti trumpą pristatomąjį vaizdo įrašą?';
+  String get consent3Video => 'Ar norėtumėte pažiūrėti trumpą pristatomąjį vaizdo įrašą?';
 
   @override
   String get consent4BeforeYouCanContinue => 'Prieš pradėdami tęsti';
@@ -405,8 +389,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Pranešimai apie klaidas';
 
   @override
-  String get consent6ContractPricesPerUnitTitle =>
-      'Elektros/vanduo/dujų kainos';
+  String get consent6ContractPricesPerUnitTitle => 'Elektros/vanduo/dujų kainos';
 
   @override
   String get consent7ContractPricesPerUnit =>
@@ -419,8 +402,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consumption => 'Vartojimas';
 
   @override
-  String get consumptionCacheDebugViewCacheCleared =>
-      'Talpykla sėkmingai išvalyta';
+  String get consumptionCacheDebugViewCacheCleared => 'Talpykla sėkmingai išvalyta';
 
   @override
   String get consumptionCacheDebugViewClear => 'Išvalyti';
@@ -442,39 +424,34 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consumptionCacheDebugViewTitle => 'Suvartojimo talpykla';
 
   @override
-  String get consumptionCacheManagementClearCacheAndSynchronizeButton =>
-      'Išvalyti ir sinchronizuoti';
+  String get consumptionCacheManagementClearCacheAndSynchronizeButton => 'Išvalyti ir sinchronizuoti';
 
   @override
   String get consumptionCacheManagementClearCacheButton => 'Išvalyti talpyklą';
 
   @override
-  String get consumptionCacheManagementClearedSuccessfully =>
-      'Talpykla sėkmingai išvalyta';
+  String get consumptionCacheManagementClearedSuccessfully => 'Talpykla sėkmingai išvalyta';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheAndSyncMessage =>
       'Visi talpykloje saugomi duomenys bus ištrinti ir iš naujo atsisiųsti iš serverio. Tai gali užtrukti šiek tiek laiko.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle =>
-      'Išvalyti talpyklą ir sinchronizuoti?';
+  String get consumptionCacheManagementConfirmClearCacheAndSyncTitle => 'Išvalyti talpyklą ir sinchronizuoti?';
 
   @override
   String get consumptionCacheManagementConfirmClearCacheMessage =>
       'Visi talpykloje saugomi vartojimo duomenys bus visam laikui ištrinti. Vėliau galėsite sinchronizuoti.';
 
   @override
-  String get consumptionCacheManagementConfirmClearCacheTitle =>
-      'Išvalyti talpyklą?';
+  String get consumptionCacheManagementConfirmClearCacheTitle => 'Išvalyti talpyklą?';
 
   @override
   String get consumptionCacheToggleButtonDescription =>
       'Suvartojimo talpyklos kešavimas ir naudojimas iš naujo, kai reikia';
 
   @override
-  String get consumptionCacheToggleButtonTitle =>
-      'Naudoti suvartojimo talpyklą';
+  String get consumptionCacheToggleButtonTitle => 'Naudoti suvartojimo talpyklą';
 
   @override
   String get consumptionHeatmap => 'Vartojimo šilumos žemėlapis';
@@ -496,18 +473,12 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String consumptionPersonLabel(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'žmonės',
-      one: 'asmuo',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'žmonės', one: 'asmuo');
     return '$_temp0';
   }
 
   @override
-  String get consumptionWaterColdEqual =>
-      'Šaltas vanduo: maždaug toks pat, kaip vidutiniame namų ūkyje.';
+  String get consumptionWaterColdEqual => 'Šaltas vanduo: maždaug toks pat, kaip vidutiniame namų ūkyje.';
 
   @override
   String consumptionWaterColdLess(Object percentage) {
@@ -520,49 +491,27 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String consumptionWaterDailyMonthlyPerPerson(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlyPerPerson(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Vienam žmogui visi suvartoja apie $dailyLiters litrų per dieną (≈ $monthlyCubicMeters $unitName per mėnesį).';
   }
 
   @override
-  String consumptionWaterDailyMonthlySingle(
-    Object dailyLiters,
-    Object monthlyCubicMeters,
-    Object unitName,
-  ) {
+  String consumptionWaterDailyMonthlySingle(Object dailyLiters, Object monthlyCubicMeters, Object unitName) {
     return 'Jūs vartojate apie $dailyLiters litrų per dieną (≈ $monthlyCubicMeters $unitName per mėnesį).';
   }
 
   @override
-  String consumptionWaterOverallEqual(
-    Object householdSize,
-    Object ofRange,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallEqual(Object householdSize, Object ofRange, Object personLabel) {
     return 'Jūsų vandens suvartojimas $ofRange atitinka vidutinį namų ūkį su $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallLess(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallLess(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Jūsų vandens suvartojimas $ofRange yra $percentage mažesnis nei vidutinis namų ūkis su $householdSize $personLabel.';
   }
 
   @override
-  String consumptionWaterOverallMore(
-    Object householdSize,
-    Object ofRange,
-    Object percentage,
-    Object personLabel,
-  ) {
+  String consumptionWaterOverallMore(Object householdSize, Object ofRange, Object percentage, Object personLabel) {
     return 'Jūsų vandens suvartojimas $ofRange yra $percentage didesnis nei vidutiniame namų ūkyje su $householdSize $personLabel.';
   }
 
@@ -572,8 +521,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get consumptionWaterWarmEqual =>
-      'Karštas vanduo: maždaug tiek pat, kiek vidutiniame namų ūkyje.';
+  String get consumptionWaterWarmEqual => 'Karštas vanduo: maždaug tiek pat, kiek vidutiniame namų ūkyje.';
 
   @override
   String consumptionWaterWarmLess(Object percentage) {
@@ -594,19 +542,12 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consumptionYearlyDetailedAboutSame => 'maždaug toks pat kaip';
 
   @override
-  String consumptionYearlyDetailedAverageHousehold(
-    Object householdSize,
-    Object personLabel,
-  ) {
+  String consumptionYearlyDetailedAverageHousehold(Object householdSize, Object personLabel) {
     return 'vidutinis namų ūkis su $householdSize $personLabel';
   }
 
   @override
-  String consumptionYearlyDetailedComparisonEqual(
-    Object householdSize,
-    Object personLabel,
-    Object verbSuffix,
-  ) {
+  String consumptionYearlyDetailedComparisonEqual(Object householdSize, Object personLabel, Object verbSuffix) {
     return 'Jūs vartojate$verbSuffix maždaug toks pat kaip vidutinis namų ūkis su $householdSize $personLabel.';
   }
 
@@ -714,12 +655,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Ne, atšaukti.';
 
   @override
-  String get contractCopyDialogOptionYes =>
-      'Taip, pasikeitė vieneto kaina arba kita vertė.';
+  String get contractCopyDialogOptionYes => 'Taip, pasikeitė vieneto kaina arba kita vertė.';
 
   @override
-  String get contractCopyDialogTitle =>
-      'Ar norite padaryti šios sutarties kopiją?';
+  String get contractCopyDialogTitle => 'Ar norite padaryti šios sutarties kopiją?';
 
   @override
   String get contractCopyDialogWhen => 'Nuo kada galioja nauja kaina?';
@@ -829,16 +768,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get counterColdWater => 'Šalto vandens skaitiklis';
 
   @override
-  String get counterConsiderForTotalConsumptions =>
-      'Atsižvelkite į bendrą suvartojimą';
+  String get counterConsiderForTotalConsumptions => 'Atsižvelkite į bendrą suvartojimą';
 
   @override
-  String get counterConsiderForTotalElectricity =>
-      'Atsižvelkite į bendrą elektros suvartojimą';
+  String get counterConsiderForTotalElectricity => 'Atsižvelkite į bendrą elektros suvartojimą';
 
   @override
-  String get counterConsiderForTotalWater =>
-      'Atsižvelkite į bendrą vandens suvartojimą';
+  String get counterConsiderForTotalWater => 'Atsižvelkite į bendrą vandens suvartojimą';
 
   @override
   String get counterContractCurrentlyUsed => 'Šiuo metu naudojama sutartis';
@@ -860,10 +796,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Ar vertė mažėja naudojant (lygio indikatorius ir t. t.) ar didėja naudojant (degiklio valandos, alyvos skaitiklis ir pan.), ar kiekviena rodmenų reikšmė nepriklauso (sąnaudos / išeiga)?';
 
   @override
-  String counterDirectionNone(
-    String consumptionElectricity,
-    String consumptionSolar,
-  ) {
+  String counterDirectionNone(String consumptionElectricity, String consumptionSolar) {
     return '$consumptionElectricity/$consumptionSolar';
   }
 
@@ -938,8 +871,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get counterLinkMoreRecent => 'Susieti naujesnį skaitiklį';
 
   @override
-  String get counterMessageRoomOptional =>
-      'Kambario užduotis padeda grupuoti, bet yra neprivaloma.';
+  String get counterMessageRoomOptional => 'Kambario užduotis padeda grupuoti, bet yra neprivaloma.';
 
   @override
   String get counterMeterId => 'Skaitiklio ID';
@@ -976,8 +908,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get counterProportionateConsumption => 'Proporcingas vartojimas';
 
   @override
-  String get counterPvFeedInCounter =>
-      'Atsinaujinanti energija (saulės energija ir šiluma su PV / saulės sistemomis)';
+  String get counterPvFeedInCounter => 'Atsinaujinanti energija (saulės energija ir šiluma su PV / saulės sistemomis)';
 
   @override
   String get counterPvFeedInCounterExplanation =>
@@ -1027,8 +958,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get counterWarmWater => 'Šilto vandens skaitiklis';
 
   @override
-  String get counterWarmWaterPlusColdWater =>
-      'Išskyrus gėlo vandens ir nuotekų išlaidas';
+  String get counterWarmWaterPlusColdWater => 'Išskyrus gėlo vandens ir nuotekų išlaidas';
 
   @override
   String get counterWater => 'Vandens skaitikliai';
@@ -1088,10 +1018,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusLocalHasLatestWithCloud(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusLocalHasLatestWithCloud(String cloudDate, String localDate) {
     return 'Šiame įrenginyje iš $localDate išsaugotas failas yra naujesnis nei failas debesyje iš $cloudDate';
   }
 
@@ -1104,10 +1031,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String driveSyncStatusRemoteHasLatestWithLocal(
-    String cloudDate,
-    String localDate,
-  ) {
+  String driveSyncStatusRemoteHasLatestWithLocal(String cloudDate, String localDate) {
     return 'Debesyje esantis failas iš $cloudDate yra naujesnis nei vietinis failas iš $localDate';
   }
 
@@ -1163,8 +1087,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get existingPhoto => 'Pridėkite esamą nuotrauką';
 
   @override
-  String get existingPhotoOfMeterReading =>
-      'Ar norėtumėte pridėti esamą skaitiklio rodmenų nuotrauką?';
+  String get existingPhotoOfMeterReading => 'Ar norėtumėte pridėti esamą skaitiklio rodmenų nuotrauką?';
 
   @override
   String get explanationManageMoreThanOneObject =>
@@ -1174,8 +1097,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get export => 'Eksportuoti';
 
   @override
-  String get exportExplanation =>
-      'Kurį esamą objektą norite eksportuoti, pavyzdžiui, perkelti jį į naują įrenginį?';
+  String get exportExplanation => 'Kurį esamą objektą norite eksportuoti, pavyzdžiui, perkelti jį į naują įrenginį?';
 
   @override
   String exportObjectDescription(
@@ -1188,8 +1110,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get exportOptionConsumptionsSubtitle =>
-      'Vartojimo vertė kiekvienai dienai nuo pirmojo skaitymo.';
+  String get exportOptionConsumptionsSubtitle => 'Vartojimo vertė kiekvienai dienai nuo pirmojo skaitymo.';
 
   @override
   String get exportOptionConsumptionsTitle => 'Kasdienis vartojimas';
@@ -1221,18 +1142,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get exportTabHowToExportOptionShare =>
-      'Bendrinkite su kitomis programomis';
+  String get exportTabHowToExportOptionShare => 'Bendrinkite su kitomis programomis';
 
   @override
-  String get exportTabSnackBarSaveResultMessageError =>
-      'Išsaugant duomenis įvyko klaida';
+  String get exportTabSnackBarSaveResultMessageError => 'Išsaugant duomenis įvyko klaida';
 
   @override
-  String exportTabSnackBarSaveResultMessageSuccess(
-    Object fileName,
-    Object folder,
-  ) {
+  String exportTabSnackBarSaveResultMessageSuccess(Object fileName, Object folder) {
     return 'Duomenys sėkmingai išsaugoti kaip $fileName aplanke $folder';
   }
 
@@ -1240,8 +1156,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get exportWhere => 'Kokiu formatu reikia eksportuoti objektą?';
 
   @override
-  String get exportWhichValuesShouldBeExported =>
-      'Kokias vertes reikėtų eksportuoti?';
+  String get exportWhichValuesShouldBeExported => 'Kokias vertes reikėtų eksportuoti?';
 
   @override
   String get faqAboutDeveloperBody1 =>
@@ -1252,8 +1167,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Daugiau nei 26 % visų CO2 emisijų Vokietijoje sukelia privatūs namų ūkiai. Jei kiekvienas galės nors šiek tiek sumažinti suvartojimą, bus pasiekta daug. Labai ačiū už jūsų indėlį!';
 
   @override
-  String get faqAboutDeveloperBody3 =>
-      'Laukiame pasiūlymų, kaip patobulinti programėlę.';
+  String get faqAboutDeveloperBody3 => 'Laukiame pasiūlymų, kaip patobulinti programėlę.';
 
   @override
   String get faqAboutDeveloperBody4 =>
@@ -1269,8 +1183,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get featureVoting => 'Balsavimas už funkciją';
 
   @override
-  String get featureVotingOnlyOnGerman =>
-      'Funkcijų apklausa nėra išversta į kitas kalbas.';
+  String get featureVotingOnlyOnGerman => 'Funkcijų apklausa nėra išversta į kitas kalbas.';
 
   @override
   String get featureVotingUnderConstruction =>
@@ -1346,10 +1259,8 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       columns,
       locale: localeName,
-      other:
-          'Buvo naudojami tik pirmieji du stulpeliai, $columns stulpeliai buvo ignoruojami.',
-      one:
-          'Buvo naudojami tik pirmieji du stulpeliai. Trečiasis stulpelis buvo ignoruojamas.',
+      other: 'Buvo naudojami tik pirmieji du stulpeliai, $columns stulpeliai buvo ignoruojami.',
+      one: 'Buvo naudojami tik pirmieji du stulpeliai. Trečiasis stulpelis buvo ignoruojamas.',
     );
     return '$_temp0';
   }
@@ -1366,15 +1277,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get importExplanation =>
-      'Jau atlikote skaitiklio rodmenis ir norite juos įterpti?';
+  String get importExplanation => 'Jau atlikote skaitiklio rodmenis ir norite juos įterpti?';
 
   @override
   String get importExport => 'Atsarginė kopija / atkūrimas';
 
   @override
-  String get importNewOrExistingCounter =>
-      'Pridėti prie naujo ar esamo skaitiklio?';
+  String get importNewOrExistingCounter => 'Pridėti prie naujo ar esamo skaitiklio?';
 
   @override
   String get importNotPossible => 'Importuoti negalima';
@@ -1402,8 +1311,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get importTheObject => 'Importuoti objektą';
 
   @override
-  String get importWhichCounterForCsv =>
-      'Kuris skaitiklis turėtų būti naudojamas?';
+  String get importWhichCounterForCsv => 'Kuris skaitiklis turėtų būti naudojamas?';
 
   @override
   String get imprintTitle => 'Įspaudas';
@@ -1415,8 +1323,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get involvedCounters => 'Dalyvauja skaitikliai';
 
   @override
-  String get isLastEntryAtFilteredList =>
-      'Seniausia reikšmė filtruotame sąraše';
+  String get isLastEntryAtFilteredList => 'Seniausia reikšmė filtruotame sąraše';
 
   @override
   String get isOutdatedCounter => 'Skaitiklis nebenaudojamas';
@@ -1440,8 +1347,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get lineChartAppearanceSettings => 'Linijinių diagramų išvaizda';
 
   @override
-  String get lineChartAppearanceSettingsShowSpots =>
-      'Rodyti (apvalias) dėmes diagramų linijose';
+  String get lineChartAppearanceSettingsShowSpots => 'Rodyti (apvalias) dėmes diagramų linijose';
 
   @override
   String localWriteSubtitle(Object folder) {
@@ -1452,12 +1358,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get localWriteTitle => 'Išsaugokite vietiniame atsisiuntimo aplanke';
 
   @override
-  String get manageMoreThanOneObjectStep1 =>
-      'Tvarkykite daugiau nei vieną objektą – 1 veiksmas';
+  String get manageMoreThanOneObjectStep1 => 'Tvarkykite daugiau nei vieną objektą – 1 veiksmas';
 
   @override
-  String get manageMoreThanOneObjectStep2 =>
-      'Valdykite daugiau nei vieną objektą – 2 veiksmas';
+  String get manageMoreThanOneObjectStep2 => 'Valdykite daugiau nei vieną objektą – 2 veiksmas';
 
   @override
   String get marketLocationId => 'Rinkos vietos ID';
@@ -1480,8 +1384,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Dar nesukūrėte skaitiklio.';
 
   @override
-  String get messageNoRooms =>
-      'Kambarių dar nėra.Kambariai pagalbiniai grupiniai matuokliai.';
+  String get messageNoRooms => 'Kambarių dar nėra.Kambariai pagalbiniai grupiniai matuokliai.';
 
   @override
   String get messageNotEnoughData => 'Nepakanka duomenų diagramai rodyti';
@@ -1507,12 +1410,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get meterReplacementCreateNew =>
-      'Sukurti vėlesnius to paties tipo skaitiklius';
+  String get meterReplacementCreateNew => 'Sukurti vėlesnius to paties tipo skaitiklius';
 
   @override
-  String get meterReplacementDescription =>
-      'Ar šis skaitiklis yra pasenęs ir ar jis buvo pakeistas nauju skaitikliu?';
+  String get meterReplacementDescription => 'Ar šis skaitiklis yra pasenęs ir ar jis buvo pakeistas nauju skaitikliu?';
 
   @override
   String monthEnd(Object month) {
@@ -1535,8 +1436,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get newPhoto => 'Padarykite naują nuotrauką';
 
   @override
-  String get newPhotoOfMeterReading =>
-      'Ar norėtumėte nufotografuoti skaitiklio rodmenis?';
+  String get newPhotoOfMeterReading => 'Ar norėtumėte nufotografuoti skaitiklio rodmenis?';
 
   @override
   String get newReading => 'Įveskite dabartinį rodmenį';
@@ -1551,8 +1451,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get notificationsEmpty => 'Jokių pranešimų';
 
   @override
-  String get notificationsSmartMeterAlertFallback =>
-      'Turite naują išmaniojo skaitiklio įspėjimą.';
+  String get notificationsSmartMeterAlertFallback => 'Turite naują išmaniojo skaitiklio įspėjimą.';
 
   @override
   String numCounters(int count) {
@@ -1568,23 +1467,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(
-      readings,
-      locale: localeName,
-      other: '# nuskaitymai',
-      one: '# nuskaitymas',
-    );
+    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# nuskaitymai', one: '# nuskaitymas');
     return '$_temp0';
   }
 
   @override
   String numberOfDetails(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: '$count detalės',
-      one: '1 detalė',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: '$count detalės', one: '1 detalė');
     return '$_temp0';
   }
 
@@ -1708,8 +1597,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get pricePerUnitWaterWarm => 'Karšto vandens šildymo išlaidos';
 
   @override
-  String get priceSubmissionAgreement =>
-      'Sutinku su elektros/dujų/vandens kainų už vienetą perdavimu į EHW+ serverį';
+  String get priceSubmissionAgreement => 'Sutinku su elektros/dujų/vandens kainų už vienetą perdavimu į EHW+ serverį';
 
   @override
   String privacyBlock1Text(String contact) {
@@ -1813,8 +1701,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Įveskite kiek norite butų/namų/objektų skaitiklių rodmenis (o ne tik vieno objekto)';
 
   @override
-  String get purchasesExtensionMultipleObjectsTitlePart =>
-      'Kelių objektų valdymas';
+  String get purchasesExtensionMultipleObjectsTitlePart => 'Kelių objektų valdymas';
 
   @override
   String get purchasesExtensionStatisticsDescription =>
@@ -1828,8 +1715,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Planuojami tolesni pratęsimai. Dalyvaukite funkcijų apklausoje ir išsakykite savo nuomonę.';
 
   @override
-  String get purchasesExtensionsSubtitle =>
-      'Pirkite vieną kartą, naudokite visam laikui (be prenumeratos)';
+  String get purchasesExtensionsSubtitle => 'Pirkite vieną kartą, naudokite visam laikui (be prenumeratos)';
 
   @override
   String get purchasesExtensionsTitle => 'Pavieniai plėtiniai';
@@ -1877,10 +1763,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumMonthlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumMonthlyWithNewPrice(String price, String priceNew) {
     return 'Mėnesio atšaukiama prenumerata lojalumo kaina $price per mėnesį vietoj $priceNew';
   }
 
@@ -1894,10 +1777,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String purchasesSubscribePremiumYearlyWithNewPrice(
-    String price,
-    String priceNew,
-  ) {
+  String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew) {
     return 'Metinė atšaukiama prenumerata lojalumo kaina $price per metus vietoj $priceNew';
   }
 
@@ -1916,8 +1796,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get purchasesWhyBuyTitle => 'Kodėl turėčiau ką nors nusipirkti?';
 
   @override
-  String get purchasesYourPurchases =>
-      'Turite prieigą prie šių aukščiausios kokybės paketų:';
+  String get purchasesYourPurchases => 'Turite prieigą prie šių aukščiausios kokybės paketų:';
 
   @override
   String get reading => 'Skaitiklio skaitymas';
@@ -1932,12 +1811,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get readingPrefill => 'Automatinio užpildymo skaitiklio rodmuo';
 
   @override
-  String get readingPrefillDescription =>
-      'Iš anksto užpildykite skaitiklio rodmenis pagal ankstesnius įrašus';
+  String get readingPrefillDescription => 'Iš anksto užpildykite skaitiklio rodmenis pagal ankstesnius įrašus';
 
   @override
-  String get readingPrefillDisableForAllCounters =>
-      'Išjungti visų skaitiklių automatinį pildymą';
+  String get readingPrefillDisableForAllCounters => 'Išjungti visų skaitiklių automatinį pildymą';
 
   @override
   String get readingPrefillDisabled => 'Automatinis pildymas išjungtas';
@@ -1946,8 +1823,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get readingPrefillDisabledToast => 'Automatinis pildymas išjungtas';
 
   @override
-  String get readingPrefillEnableForAllCounters =>
-      'Įgalinti visų skaitiklių automatinį pildymą';
+  String get readingPrefillEnableForAllCounters => 'Įgalinti visų skaitiklių automatinį pildymą';
 
   @override
   String readingReminder(int count) {
@@ -2004,8 +1880,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get reallyDeleteCounter => 'Ar tikrai norite ištrinti skaitiklį?';
 
   @override
-  String get reallyDeleteCounterLink =>
-      'Ar tikrai norite ištrinti nuorodą tarp skaitiklių?';
+  String get reallyDeleteCounterLink => 'Ar tikrai norite ištrinti nuorodą tarp skaitiklių?';
 
   @override
   String get reallyDeleteDetail => 'Tikrai ištrinti šią informaciją?';
@@ -2014,8 +1889,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get reallyDeleteObject => 'Ar tikrai norite ištrinti objektą?';
 
   @override
-  String get reallyDeletePhoto =>
-      'Ar tikrai norite ištrinti skaitiklio rodmenų nuotrauką?';
+  String get reallyDeletePhoto => 'Ar tikrai norite ištrinti skaitiklio rodmenų nuotrauką?';
 
   @override
   String get reallyDeleteValue => 'Ar tikrai norite ištrinti šią vertę?';
@@ -2030,8 +1904,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get reminderTime => 'Priminimo laikas';
 
   @override
-  String get reminderWeekdayExplanation =>
-      'Yra priminimas skaityti ne dažniau kaip kartą per dieną.';
+  String get reminderWeekdayExplanation => 'Yra priminimas skaityti ne dažniau kaip kartą per dieną.';
 
   @override
   String get reminderWeekdayExplanationSeasonal =>
@@ -2047,15 +1920,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get resetActivities => 'Iš naujo nustatykite visas veiklas';
 
   @override
-  String get residualConsumptionEstimated =>
-      'Apskaičiuotas likutinis suvartojimas';
+  String get residualConsumptionEstimated => 'Apskaičiuotas likutinis suvartojimas';
 
   @override
   String get residualGenerationEstimated => 'Apskaičiuota likutinė generacija';
 
   @override
-  String get restoreDeletedCounter =>
-      'Ar norėtumėte atkurti šį ištrintą matuoklį?';
+  String get restoreDeletedCounter => 'Ar norėtumėte atkurti šį ištrintą matuoklį?';
 
   @override
   String get room => 'Kambarys';
@@ -2131,8 +2002,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get selectedAtAppStart =>
-      'Paleidžiant programą pasirenkamas aukščiausias objektas';
+  String get selectedAtAppStart => 'Paleidžiant programą pasirenkamas aukščiausias objektas';
 
   @override
   String get settingColor => 'Spalva';
@@ -2154,8 +2024,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get settingHouseholdSize => 'Namų ūkio dydis';
 
   @override
-  String get settingHouseholdSizeDescription =>
-      'Jūsų namų ūkio žmonių skaičius.';
+  String get settingHouseholdSizeDescription => 'Jūsų namų ūkio žmonių skaičius.';
 
   @override
   String get settingLanguageMode => 'Kalba';
@@ -2225,12 +2094,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Išorinės paslaugos';
 
   @override
-  String get settingsShowStromGedacht =>
-      'Ar turėtų būti rodomi StromGedacht patarimai apie elektros tinklą?';
+  String get settingsShowStromGedacht => 'Ar turėtų būti rodomi StromGedacht patarimai apie elektros tinklą?';
 
   @override
-  String get settingsShowTabNewsDetailed =>
-      'Ar turėtų būti matomas skirtukas Naujienos / patarimai?';
+  String get settingsShowTabNewsDetailed => 'Ar turėtų būti matomas skirtukas Naujienos / patarimai?';
 
   @override
   String get showAllYears => 'Rodyti visus metus';
@@ -2255,20 +2122,16 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radijo vandens skaitikliai';
 
   @override
-  String get smartMeterErrorNoData =>
-      'Deja, nėra duomenų, kuriuos programa galėtų rodyti.';
+  String get smartMeterErrorNoData => 'Deja, nėra duomenų, kuriuos programa galėtų rodyti.';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardButton =>
-      'Nustatykite išmanųjį skaitiklį';
+  String get smartMeterMisconfiguredWidgetCardButton => 'Nustatykite išmanųjį skaitiklį';
 
   @override
-  String get smartMeterMisconfiguredWidgetCardTitle =>
-      'Teisingai nustatykite išmanųjį skaitiklį.';
+  String get smartMeterMisconfiguredWidgetCardTitle => 'Teisingai nustatykite išmanųjį skaitiklį.';
 
   @override
-  String get smartMeterObtainDataAutomatically =>
-      'Gaukite duomenis automatiškai';
+  String get smartMeterObtainDataAutomatically => 'Gaukite duomenis automatiškai';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';
@@ -2283,16 +2146,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterServiceProvider => 'Paslaugų teikėjas';
 
   @override
-  String get smartMeterSettingsScreenSyncButton =>
-      'Sinchronizuoti suvartojimo duomenis';
+  String get smartMeterSettingsScreenSyncButton => 'Sinchronizuoti suvartojimo duomenis';
 
   @override
   String get smartMeterSettingsScreenSyncingDialogError => 'Klaida';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogErrorMessage(
-    Object errorMessage,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogErrorMessage(Object errorMessage) {
     return 'Sinchronizuojant įvyko ši klaida: $errorMessage';
   }
 
@@ -2303,9 +2163,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterSettingsScreenSyncingDialogHeader => 'Sinchronizuojama';
 
   @override
-  String smartMeterSettingsScreenSyncingDialogProgress(
-    Object progressInPercent,
-  ) {
+  String smartMeterSettingsScreenSyncingDialogProgress(Object progressInPercent) {
     return 'Pažanga: $progressInPercent %';
   }
 
@@ -2336,9 +2194,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(
-    Object smartmeterId,
-  ) {
+  String smartmeterInfocodeBannerTextInfocodeRohrbruchPoolVorhanden(Object smartmeterId) {
     return 'Jūsų vandens skaitiklis $smartmeterId aptiko neįprastai didelį vandens suvartojimą, o tai gali reikšti vamzdžio plyšimą arba baseino prisipildymą. Patikrinkite, ar jūsų buityje nėra didelių nuotėkių ar lūžių.';
   }
 
@@ -2386,8 +2242,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Sutinku, kad mano pašto kodas (jei nurodytas) būtų perduotas TransnetBW, kad būtų galima gauti StromGedacht pranešimus.';
 
   @override
-  String get subscribeToSmartMeterInfocodeEvents =>
-      'Norėčiau būti pranešta apie netikėtą vartojimą';
+  String get subscribeToSmartMeterInfocodeEvents => 'Norėčiau būti pranešta apie netikėtą vartojimą';
 
   @override
   String get supplementaryPayment => 'Papildomas mokėjimas';
@@ -2402,8 +2257,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get supportGivePraise => 'Pagirkite';
 
   @override
-  String get supportGivePraiseLong =>
-      'Ar jums patinka programa? Ačiū! Skleiskite žinią!';
+  String get supportGivePraiseLong => 'Ar jums patinka programa? Ačiū! Skleiskite žinią!';
 
   @override
   String supportGivePraiseRating(String store) {
@@ -2418,8 +2272,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get supportMakeSuggestion => 'Pasiūlykit ką nors';
 
   @override
-  String get supportMakeSuggestionLong =>
-      'Programa veikia iš naudotojų pasiūlymų. Ar turite pasiūlymą?';
+  String get supportMakeSuggestionLong => 'Programa veikia iš naudotojų pasiūlymų. Ar turite pasiūlymą?';
 
   @override
   String get supportQuestion => 'Užduokite klausimą';
@@ -2428,12 +2281,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get supportQuestionBox => 'Kaip galiu tau padėti?';
 
   @override
-  String get supportQuestionLong =>
-      'Kaip tai veikia? Ar tai apskritai įmanoma? Štai atsakymai.';
+  String get supportQuestionLong => 'Kaip tai veikia? Ar tai apskritai įmanoma? Štai atsakymai.';
 
   @override
-  String get supportQuestionNotFound =>
-      'Jūsų klausimas nebuvo atsakytas? mielai padėčiau.';
+  String get supportQuestionNotFound => 'Jūsų klausimas nebuvo atsakytas? mielai padėčiau.';
 
   @override
   String get supportRecommend =>
@@ -2443,20 +2294,17 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get supportReportBug => 'Pranešti apie klaidą el. paštu';
 
   @override
-  String get supportReportBugAffectedPages =>
-      'Kuriuose puslapiuose atsiranda klaida? (jei taikoma)';
+  String get supportReportBugAffectedPages => 'Kuriuose puslapiuose atsiranda klaida? (jei taikoma)';
 
   @override
   String get supportReportBugLong =>
       'Puiki programėlė! Bet žinoma, viskas gali suklysti. Jei pranešate apie klaidas, patobulinsite programą.';
 
   @override
-  String get supportReportBugScreenshotsPlease =>
-      'Paštu pridėkite ekrano kopiją, pageidautina su klaidos žymėjimu.';
+  String get supportReportBugScreenshotsPlease => 'Paštu pridėkite ekrano kopiją, pageidautina su klaidos žymėjimu.';
 
   @override
-  String get supportReportBugTextIs =>
-      'Prašome trumpai apibūdinti dabartinį neteisingą elgesį, t. y. pačią klaidą.';
+  String get supportReportBugTextIs => 'Prašome trumpai apibūdinti dabartinį neteisingą elgesį, t. y. pačią klaidą.';
 
   @override
   String get supportReportBugTextShould =>
@@ -2484,12 +2332,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Po pakeitimo jūsų duomenys automatiškai įkeliami į „Google“ diską. Naujesni duomenys iš debesies perrašo vietinius duomenis tik spustelėjus objektą. Naudojama ši Google paskyra:';
 
   @override
-  String get syncObjectIsLocked =>
-      'Objekto duomenys atnaujinami ir per šį laiką jų redaguoti negalima.';
+  String get syncObjectIsLocked => 'Objekto duomenys atnaujinami ir per šį laiką jų redaguoti negalima.';
 
   @override
-  String get syncShareWithOthersNotInWeb =>
-      'Suteikti prieigą šiuo metu galima tik naudojant programą.';
+  String get syncShareWithOthersNotInWeb => 'Suteikti prieigą šiuo metu galima tik naudojant programą.';
 
   @override
   String get syncShareWithOthersSubtitle =>
@@ -2499,16 +2345,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get syncShareWithOthersTitle => 'Bendrinti su kitais?';
 
   @override
-  String get syncStatusFailedLong =>
-      'Nepavyko sinchronizuoti, redaguojate patys';
+  String get syncStatusFailedLong => 'Nepavyko sinchronizuoti, redaguojate patys';
 
   @override
-  String get syncStatusFailedLongNoAutoSync =>
-      'Nepavyko sinchronizuoti, redaguojate patys';
+  String get syncStatusFailedLongNoAutoSync => 'Nepavyko sinchronizuoti, redaguojate patys';
 
   @override
-  String get syncStatusSyncRemoteHasLatest =>
-      'Debesyje esantis failas yra naujesnis nei vietinis failas';
+  String get syncStatusSyncRemoteHasLatest => 'Debesyje esantis failas yra naujesnis nei vietinis failas';
 
   @override
   String get syncWithGoogleDriveDescription =>
@@ -2530,16 +2373,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get taxRate => 'Mokesčio tarifas';
 
   @override
-  String get teaserPurchaseRenewableEnergies =>
-      'Atsinaujinančios energijos skaitikliai reikalauja Premium.';
+  String get teaserPurchaseRenewableEnergies => 'Atsinaujinančios energijos skaitikliai reikalauja Premium.';
 
   @override
-  String get teaserPurchaseVirtualCounter =>
-      'Pridėkite virtualius skaitiklius naudodami „Premium“.';
+  String get teaserPurchaseVirtualCounter => 'Pridėkite virtualius skaitiklius naudodami „Premium“.';
 
   @override
-  String get teaserPurchaseWaterExtractionCounter =>
-      'Atrakinkite vandens ištraukimo skaitiklius naudodami Premium.';
+  String get teaserPurchaseWaterExtractionCounter => 'Atrakinkite vandens ištraukimo skaitiklius naudodami Premium.';
 
   @override
   String termsOfUsageBlock1(String contact) {
@@ -2547,8 +2387,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get termsOfUsageBlock1Title =>
-      'Bendrosios programėlės naudojimo sąlygos';
+  String get termsOfUsageBlock1Title => 'Bendrosios programėlės naudojimo sąlygos';
 
   @override
   String get termsOfUsageBlock2 =>
@@ -2596,8 +2435,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get tibberAccessToken => 'Prieigos prieigos raktas';
 
   @override
-  String get tibberActionSaveAuthorizationSettings =>
-      'Išsaugokite autorizacijos nustatymus';
+  String get tibberActionSaveAuthorizationSettings => 'Išsaugokite autorizacijos nustatymus';
 
   @override
   String get tibberBasicAuth => 'Pagrindinis Auth';
@@ -2619,15 +2457,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Stebėkite savo suvartojimą realiu laiku ir atraskite paslėptus energijos nešiklius.';
 
   @override
-  String get tibberConsentScreenBenefit1Title =>
-      'Peržiūrėkite savo elektros energijos suvartojimą';
+  String get tibberConsentScreenBenefit1Title => 'Peržiūrėkite savo elektros energijos suvartojimą';
 
   @override
   String get tibberConsentScreenConfigureLaterButton => 'Nustatykite vėliau';
 
   @override
-  String get tibberConsentScreenConfigureNowButton =>
-      'Dabar nustatykite „Tibber Pulse“.';
+  String get tibberConsentScreenConfigureNowButton => 'Dabar nustatykite „Tibber Pulse“.';
 
   @override
   String get tibberConsentScreenDescription =>
@@ -2638,20 +2474,16 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Valandinis suvartojimas nuo kovo 1 d. bus anonimizuotas ir įtrauktas į Goethe tyrimą.';
 
   @override
-  String get tibberConsentScreenGoetheStudyBenefit1Title =>
-      'Ar norėtumėte dalyvauti Goethe tyrime?';
+  String get tibberConsentScreenGoetheStudyBenefit1Title => 'Ar norėtumėte dalyvauti Goethe tyrime?';
 
   @override
-  String get tibberConsentScreenGoetheStudyParticipationConsentToggle =>
-      'Taip, aš noriu dalyvauti Goethe\'s tyrime';
+  String get tibberConsentScreenGoetheStudyParticipationConsentToggle => 'Taip, aš noriu dalyvauti Goethe\'s tyrime';
 
   @override
-  String get tibberConsentScreenGoetheStudySectionHeader =>
-      'Dalyvavimas tyrimo projekte';
+  String get tibberConsentScreenGoetheStudySectionHeader => 'Dalyvavimas tyrimo projekte';
 
   @override
-  String get tibberConsentScreenHeader =>
-      'Nauja funkcija: „Tibber Pulse“ suvartojimo duomenys';
+  String get tibberConsentScreenHeader => 'Nauja funkcija: „Tibber Pulse“ suvartojimo duomenys';
 
   @override
   String get tibberConsentScreenStoreLink => 'Visit Tibber Store';
@@ -2667,18 +2499,12 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpan24Hours(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpan24Hours(Object date, Object startTime) {
     return '24 valandos nuo $startTime per $date';
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanDefault(
-    Object endDate,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanDefault(Object endDate, Object startTime) {
     return 'Nuo: $startTime iki $endDate';
   }
 
@@ -2693,10 +2519,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String tibberConsumptionEntryViewTimeSpanOneHour(
-    Object date,
-    Object startTime,
-  ) {
+  String tibberConsumptionEntryViewTimeSpanOneHour(Object date, Object startTime) {
     return 'Viena valanda nuo $startTime per $date';
   }
 
@@ -2714,8 +2537,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get tibberEnterAccessToken => 'Įveskite prieigos raktą';
 
   @override
-  String get tibberErrorAccessTokenInvalid =>
-      'Panašu, kad prieigos raktas netinkamas';
+  String get tibberErrorAccessTokenInvalid => 'Panašu, kad prieigos raktas netinkamas';
 
   @override
   String get tibberErrorConnectivityShowCacheInstead =>
@@ -2733,8 +2555,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Viršytas Tibber API greičio limitas. Prieš bandydami dar kartą palaukite bent 5 minutes.';
 
   @override
-  String get tibberErrorSmartMeterMisconfigured =>
-      'Panašu, kad išmanusis skaitiklis sukonfigūruotas netinkamai.';
+  String get tibberErrorSmartMeterMisconfigured => 'Panašu, kad išmanusis skaitiklis sukonfigūruotas netinkamai.';
 
   @override
   String tibberErrorUndefined(Object error) {
@@ -2754,31 +2575,25 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Šiuose namuose nepalaikomi tiesioginiai matavimai arba istoriniai suvartojimo duomenys. Pasirinkite kitą namą.';
 
   @override
-  String get tibberLiveMeasurementCounterCardViewFooter =>
-      'Tiesioginis matavimas';
+  String get tibberLiveMeasurementCounterCardViewFooter => 'Tiesioginis matavimas';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumption =>
-      'Bendras suvartojimas (nuo vidurnakčio)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumption => 'Bendras suvartojimas (nuo vidurnakčio)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour =>
-      'Vartojimas (paskutinė valanda)';
+  String get tibberLiveMeasurementWidgetAccumulatedConsumptionLastHour => 'Vartojimas (paskutinė valanda)';
 
   @override
   String get tibberLiveMeasurementWidgetAccumulatedCost => 'Sukauptos išlaidos';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProduction =>
-      'Visa produkcija (nuo vidurnakčio)';
+  String get tibberLiveMeasurementWidgetAccumulatedProduction => 'Visa produkcija (nuo vidurnakčio)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour =>
-      'Gamyba (praėjusią valandą)';
+  String get tibberLiveMeasurementWidgetAccumulatedProductionLastHour => 'Gamyba (praėjusią valandą)';
 
   @override
-  String get tibberLiveMeasurementWidgetAccumulatedReward =>
-      'Sukauptas atlygis';
+  String get tibberLiveMeasurementWidgetAccumulatedReward => 'Sukauptas atlygis';
 
   @override
   String get tibberLiveMeasurementWidgetAveragePower => 'Vidutinė galia';
@@ -2793,12 +2608,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetCurrentL3 => 'Dabartinė (L3)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterConsumption =>
-      'Skaitiklio rodmenys (sunaudojimas)';
+  String get tibberLiveMeasurementWidgetLastMeterConsumption => 'Skaitiklio rodmenys (sunaudojimas)';
 
   @override
-  String get tibberLiveMeasurementWidgetLastMeterProduction =>
-      'Skaitiklio rodmenys (gamyba)';
+  String get tibberLiveMeasurementWidgetLastMeterProduction => 'Skaitiklio rodmenys (gamyba)';
 
   @override
   String get tibberLiveMeasurementWidgetMaxPower => 'Maksimali galia';
@@ -2842,24 +2655,20 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get tibberLiveMeasurementWidgetVoltagePhase3 => 'Įtampa (3 fazė)';
 
   @override
-  String get tibberLiveMeasurementsWidgetConnecting =>
-      'Prisijungiama prie Tibber Pulse...';
+  String get tibberLiveMeasurementsWidgetConnecting => 'Prisijungiama prie Tibber Pulse...';
 
   @override
   String get tibberLiveMeasurementsWidgetError =>
       'Prisijungiant prie „Tibber Pulse“ įvyko klaida. Patikrinkite prieigos raktą ir interneto ryšį.';
 
   @override
-  String get tibberLiveMeasurementsWidgetNotSupported =>
-      'Tiesioginiai matavimai šiame namuose nepalaikomi.';
+  String get tibberLiveMeasurementsWidgetNotSupported => 'Tiesioginiai matavimai šiame namuose nepalaikomi.';
 
   @override
-  String get tibberMessageAccessTokenUpdated =>
-      'Prieigos prieigos raktas sėkmingai atnaujintas';
+  String get tibberMessageAccessTokenUpdated => 'Prieigos prieigos raktas sėkmingai atnaujintas';
 
   @override
-  String get tibberStatusWidgetTibberSubscriptionStatus =>
-      '„Tibber“ prenumeratos būsena';
+  String get tibberStatusWidgetTibberSubscriptionStatus => '„Tibber“ prenumeratos būsena';
 
   @override
   String get tibberStatusWidgetTitle => 'Talpyklos valdymas';
@@ -2874,8 +2683,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get tibberSubscriptionStatusLoading => 'įkeliama...';
 
   @override
-  String get tibberWhereIsMyAccessToken =>
-      'Kur galiu rasti savo „prieigos prieigos raktą“?';
+  String get tibberWhereIsMyAccessToken => 'Kur galiu rasti savo „prieigos prieigos raktą“?';
 
   @override
   String get timeBefore => 'Prieš';
@@ -3053,12 +2861,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String unitHoursLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Valandos (h)',
-      one: 'Valanda',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Valandos (h)', one: 'Valanda');
     return '$_temp0';
   }
 
@@ -3081,12 +2884,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String unitKgLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Kilogramai (kg)',
-      one: 'Kilogramas (kg)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Kilogramai (kg)', one: 'Kilogramas (kg)');
     return '$_temp0';
   }
 
@@ -3098,12 +2896,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String unitLitersLong(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Litrai (ℓ)',
-      one: 'Litras (ℓ)',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'Litrai (ℓ)', one: 'Litras (ℓ)');
     return '$_temp0';
   }
 
@@ -3135,12 +2928,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String unitNoneFormatted(num count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'vienetų',
-      one: 'vienetas',
-    );
+    String _temp0 = intl.Intl.pluralLogic(count, locale: localeName, other: 'vienetų', one: 'vienetas');
     return '$_temp0';
   }
 
@@ -3183,8 +2971,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get useDismissibleSettings => 'Ištrinkite braukdami gestu';
 
   @override
-  String get useDismissibleSettingsDetailed =>
-      'Skaitiklius, sutartis ir kt. galima ištrinti braukiant į šoną';
+  String get useDismissibleSettingsDetailed => 'Skaitiklius, sutartis ir kt. galima ištrinti braukiant į šoną';
 
   @override
   String get usedForPaymentsRepayments => 'Avansas, bazinė kaina ir premija';
@@ -3211,8 +2998,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get virtualCounterMasterCounter => 'Meistras matuoklis';
 
   @override
-  String get virtualCounterMasterCounterAttach =>
-      'Pasirinkite pagrindinį matuoklį';
+  String get virtualCounterMasterCounterAttach => 'Pasirinkite pagrindinį matuoklį';
 
   @override
   String get virtualCounterMasterCounterDescription =>
@@ -3261,10 +3047,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String warningReadingBiggerThanOldValue(String isOilCounter) {
-    String _temp0 = intl.Intl.selectLogic(isOilCounter, {
-      'true': ' Ar papildėte baką?',
-      'other': '',
-    });
+    String _temp0 = intl.Intl.selectLogic(isOilCounter, {'true': ' Ar papildėte baką?', 'other': ''});
     return 'Nauja vertė yra didesnė nei ankstesnis skaitiklio rodmuo.$_temp0';
   }
 
@@ -3273,30 +3056,20 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Nauja vertė yra didesnė nei ankstesnis skaitiklio rodmuo. Ar užpildėte baką?';
 
   @override
-  String warningReadingOutdatedForYearlyResetCounter(
-    String deviceTypeName,
-    String lastYear,
-    String roomNamePart,
-  ) {
+  String warningReadingOutdatedForYearlyResetCounter(String deviceTypeName, String lastYear, String roomNamePart) {
     return 'Nėra galutinio $lastYear metų $deviceTypeName $roomNamePart skaitiklio rodmens. Tai būtina norint teisingai apskaičiuoti bendrą metinį suvartojimą.';
   }
 
   @override
-  String warningReadingOutdatedFrequency(
-    String deviceTypeName,
-    String outdatedSinceText,
-    String whenNotifyDateText,
-  ) {
+  String warningReadingOutdatedFrequency(String deviceTypeName, String outdatedSinceText, String whenNotifyDateText) {
     return 'Naujausi $deviceTypeName skaitiklio duomenys yra pasenę $outdatedSinceText. $whenNotifyDateText';
   }
 
   @override
-  String get warningReadingSeemsTooBig =>
-      'Nauja vertė yra gana didelė. Ar teisingai skaitote?';
+  String get warningReadingSeemsTooBig => 'Nauja vertė yra gana didelė. Ar teisingai skaitote?';
 
   @override
-  String get warningReadingSeemsTooSmall =>
-      'Nauja vertė yra gana maža. Ar perskaityta teisingai?';
+  String get warningReadingSeemsTooSmall => 'Nauja vertė yra gana maža. Ar perskaityta teisingai?';
 
   @override
   String get warningReadingSmallerThanOldValue2 =>
@@ -3313,8 +3086,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get waterConsumption => 'Vandens suvartojimas';
 
   @override
-  String get waterExtractionMinimumLevelLower =>
-      'Išskaitymas vyksta, nes suvartojimas yra mažesnis už ribą.';
+  String get waterExtractionMinimumLevelLower => 'Išskaitymas vyksta, nes suvartojimas yra mažesnis už ribą.';
 
   @override
   String waterMeterEventsInformation(num count, String waterSupplier) {
@@ -3333,8 +3105,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get waterSupplier => 'Vandens tiekėjas';
 
   @override
-  String get waterSupplierHint =>
-      'Jūsų vietinis vandens tiekėjas, pvz., Stadtwerke Musterstadt';
+  String get waterSupplierHint => 'Jūsų vietinis vandens tiekėjas, pvz., Stadtwerke Musterstadt';
 
   @override
   String get waterSupplierUnknown =>
@@ -3345,12 +3116,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Ar esate vandens tiekėjo aptarnaujamoje teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte turėti prieigą prie radijo skaitiklių rodmenų?';
 
   @override
-  String get watersupplierAccessRequestQ2 =>
-      'Ar jau paprašėte prieigos? Tada turite sukurti EHW+ vartotojo paskyrą.';
+  String get watersupplierAccessRequestQ2 => 'Ar jau paprašėte prieigos? Tada turite sukurti EHW+ vartotojo paskyrą.';
 
   @override
-  String get watersupplierAccessRequestQ3 =>
-      'Ar jau paprašėte prieigos ir gavote QR kodą?';
+  String get watersupplierAccessRequestQ3 => 'Ar jau paprašėte prieigos ir gavote QR kodą?';
 
   @override
   String get watersupplierAccessRequestQ4 =>
@@ -3365,8 +3134,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Tu nepraleisi! Dar kartą įveskite tris paskutinius skaitiklio ID skaitmenis!';
 
   @override
-  String get watersupplierMeterIdValidationStep =>
-      'Mes tikriname jūsų skaitiklio ID.';
+  String get watersupplierMeterIdValidationStep => 'Mes tikriname jūsų skaitiklio ID.';
 
   @override
   String get watersupplierNoAccess => 'Nebeturite leidimo gauti duomenų.';
@@ -3379,20 +3147,17 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get watersupplierOpenReminderSettings => 'Atidarykite nustatymus';
 
   @override
-  String get watersupplierRadioMeterDefaultName =>
-      'Radijo šalto vandens skaitiklis';
+  String get watersupplierRadioMeterDefaultName => 'Radijo šalto vandens skaitiklis';
 
   @override
   String get watersupplierScanQrCodeApprovalInProgress =>
       'Dabar autorizuojame jūsų paskyrą, kad ateityje galėtumėte pasiekti radijo skaitiklio rodmenis.';
 
   @override
-  String get watersupplierScanQrCodeCommand =>
-      'Nuskaitykite kairįjį QR kodą (aktyvinimo kodą)!';
+  String get watersupplierScanQrCodeCommand => 'Nuskaitykite kairįjį QR kodą (aktyvinimo kodą)!';
 
   @override
-  String get watersupplierScanQrCodeOffboardingSuccessful =>
-      'Prieiga prie radijo vandens skaitiklio buvo atšaukta.';
+  String get watersupplierScanQrCodeOffboardingSuccessful => 'Prieiga prie radijo vandens skaitiklio buvo atšaukta.';
 
   @override
   String get watersupplierScanQrCodeScanSuccessful =>
@@ -3410,8 +3175,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Taip! Jūsų radijo vandens skaitiklis „Cold Water“ tipo sėkmingai pridėtas. Jį galite rasti tarp kitų skaitiklių.';
 
   @override
-  String get watersupplierScanQrCodeValidation =>
-      'Aptiktas QR kodas, patvirtinkime jį.';
+  String get watersupplierScanQrCodeValidation => 'Aptiktas QR kodas, patvirtinkime jį.';
 
   @override
   String get watersupplierScanQrCodeValidationFailed =>
@@ -3426,16 +3190,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Vietoj aktyvinimo kodo nuskaitėte atšaukimo kodą. Bandykite dar kartą!';
 
   @override
-  String get watersupplierScanRevokeQrCodeCommand =>
-      'Nuskaitykite tinkamą QR kodą (atšaukkite kodą)!';
+  String get watersupplierScanRevokeQrCodeCommand => 'Nuskaitykite tinkamą QR kodą (atšaukkite kodą)!';
 
   @override
-  String get watersupplierUnlinkRadioMeterButtonDelete =>
-      'Ištrinti radijo matuoklį';
+  String get watersupplierUnlinkRadioMeterButtonDelete => 'Ištrinti radijo matuoklį';
 
   @override
-  String get watersupplierUnlinkRadioMeterButtonRevoke =>
-      'Nuskaitykite atšaukimo kodą';
+  String get watersupplierUnlinkRadioMeterButtonRevoke => 'Nuskaitykite atšaukimo kodą';
 
   @override
   String get watersupplierUnlinkRadioMeterDescription1 =>
@@ -3446,8 +3207,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Ar nebenorite prieiti prie radijo skaitiklio duomenų? Atkreipkite dėmesį: kai atšaukimo kodas nuskaitomas, aktyvinimo kodas tampa negaliojantis. Bet kuri vartotojo paskyra, kuri naudojo aktyvinimo kodą, neteks prieigos.';
 
   @override
-  String get watersupplierUnlinkRadioMeterTitle =>
-      'Nutraukti radijo skaitiklio prieigą';
+  String get watersupplierUnlinkRadioMeterTitle => 'Nutraukti radijo skaitiklio prieigą';
 
   @override
   String get yearlyConsumption => 'Metinis suvartojimas iki šiol';
@@ -3475,6 +3235,5 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get zipCodeValidationOnlyNumbers =>
-      'Galiojantį pašto kodą sudaro tik skaičiai';
+  String get zipCodeValidationOnlyNumbers => 'Galiojantį pašto kodą sudaro tik skaičiai';
 }
