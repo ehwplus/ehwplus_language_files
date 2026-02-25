@@ -1252,6 +1252,13 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get featureVoting => 'फ़ीचर वोटिंग';
 
   @override
+  String get featureVotingIntro =>
+      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+
+  @override
+  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+
+  @override
   String get featureVotingOnlyOnGerman => 'फीचर सर्वेक्षण का अन्य भाषाओं में अनुवाद नहीं किया गया है।';
 
   @override

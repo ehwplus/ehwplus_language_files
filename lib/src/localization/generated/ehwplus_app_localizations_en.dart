@@ -1250,11 +1250,18 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get featureVoting => 'Feature voting';
 
   @override
+  String get featureVotingIntro =>
+      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+
+  @override
+  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+
+  @override
   String get featureVotingOnlyOnGerman => 'The feature survey is not translated into other languages.';
 
   @override
   String get featureVotingUnderConstruction =>
-      'The feature survey is currently being revised. In the future, an EHW+ user account will be required, and the survey will no longer use third-party servers. We appreciate your patience.';
+      'Vote for the features you would like to see next. You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
 
   @override
   String get fedIn => 'Fed in';

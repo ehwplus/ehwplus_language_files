@@ -1250,6 +1250,13 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get featureVoting => 'Funksie stem';
 
   @override
+  String get featureVotingIntro =>
+      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+
+  @override
+  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+
+  @override
   String get featureVotingOnlyOnGerman => 'Die funksie-opname is nie in ander tale vertaal nie.';
 
   @override

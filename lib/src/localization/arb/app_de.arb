@@ -424,6 +424,8 @@
   "faqAboutDeveloperTitle": "Wer steht hinter EHW+?",
   "faqTitle": "FAQ (häufig gefragt)",
   "featureVoting": "Feature-Abstimmung",
+  "featureVotingIntro": "Sie können sich jederzeit umentscheiden. Außerdem wird eine Stimme wieder frei, wenn das von Ihnen gewünschte Feature umgesetzt wurde.",
+  "featureVotingLoginRequired": "Melden Sie sich mit Ihrem EHW+ Konto an, um Vorschläge anzuzeigen und abzustimmen.",
   "featureVotingOnlyOnGerman": "Die Feature-Umfrage ist nicht in andere Sprachen übersetzt.",
   "featureVotingUnderConstruction": "Die Feature-Umfrage wird aktuell überarbeitet. Künftig ist ein EHW+ Nutzerkonto erforderlich und die Umfrage vewendet keine Server von Drittanbietern mehr. Wir bitten um Geduld.",
   "fedIn": "Eingespeist",

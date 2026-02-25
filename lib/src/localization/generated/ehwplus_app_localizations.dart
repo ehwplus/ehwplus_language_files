@@ -2313,6 +2313,18 @@ abstract class EhwplusAppLocalizations {
   /// **'Feature voting'**
   String get featureVoting;
 
+  /// No description provided for @featureVotingIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.'**
+  String get featureVotingIntro;
+
+  /// No description provided for @featureVotingLoginRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in with your EHW+ account to view and vote on feature suggestions.'**
+  String get featureVotingLoginRequired;
+
   /// No description provided for @featureVotingOnlyOnGerman.
   ///
   /// In en, this message translates to:
@@ -2322,7 +2334,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @featureVotingUnderConstruction.
   ///
   /// In en, this message translates to:
-  /// **'The feature survey is currently being revised. In the future, an EHW+ user account will be required, and the survey will no longer use third-party servers. We appreciate your patience.'**
+  /// **'Vote for the features you would like to see next. You can change your mind at any time. A vote is freed when a feature you voted for is implemented.'**
   String get featureVotingUnderConstruction;
 
   /// No description provided for @fedIn.

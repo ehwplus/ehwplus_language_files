@@ -1254,6 +1254,14 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get featureVoting => 'Feature-Abstimmung';
 
   @override
+  String get featureVotingIntro =>
+      'Sie können sich jederzeit umentscheiden. Außerdem wird eine Stimme wieder frei, wenn das von Ihnen gewünschte Feature umgesetzt wurde.';
+
+  @override
+  String get featureVotingLoginRequired =>
+      'Melden Sie sich mit Ihrem EHW+ Konto an, um Vorschläge anzuzeigen und abzustimmen.';
+
+  @override
   String get featureVotingOnlyOnGerman => 'Die Feature-Umfrage ist nicht in andere Sprachen übersetzt.';
 
   @override

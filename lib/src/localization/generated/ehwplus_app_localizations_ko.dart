@@ -1234,6 +1234,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get featureVoting => '기능 투표';
 
   @override
+  String get featureVotingIntro =>
+      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+
+  @override
+  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+
+  @override
   String get featureVotingOnlyOnGerman => '기능 설문은 다른 언어로 번역되어 있지 않습니다.';
 
   @override
