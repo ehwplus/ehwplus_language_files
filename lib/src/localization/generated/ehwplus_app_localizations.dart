@@ -2900,15 +2900,17 @@ abstract class EhwplusAppLocalizations {
   /// **'Recently deleted meters'**
   String get previouslyDeletedCounters;
 
-  /// No description provided for @priceComparisonDiff.
+  /// No description provided for @priceComparisonDiffLess.
   ///
   /// In en, this message translates to:
-  /// **'You pay {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} the average in {countryName}.'**
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  );
+  /// **'You pay less than the average at {diffWithCurrency} in {countryName}.'**
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency);
+
+  /// No description provided for @priceComparisonDiffMore.
+  ///
+  /// In en, this message translates to:
+  /// **'You pay {diffWithCurrency} more than the average in {countryName}.'**
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency);
 
   /// No description provided for @priceComparisonEqual.
   ///

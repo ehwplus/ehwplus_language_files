@@ -1678,17 +1678,13 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'സമീപകാലത്ത് ഇല്ലാതാക്കിയ മീറ്ററുകൾ';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'more than',
-      'less': 'less than',
-      'other': 'more than',
-    });
-    return 'നിങ്ങൾ $countryName-ൽ ശരാശരിയേക്കാൾ $diffWithCurrency $_temp0 അടയ്ക്കുന്നു.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '$countryName-ലെ $diffWithCurrency-ൽ നിങ്ങൾ ശരാശരിയേക്കാൾ കുറഞ്ഞ വില നൽകുന്നു.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return '$countryName-ലെ ശരാശരിയേക്കാൾ കൂടുതൽ നിങ്ങൾ $diffWithCurrency നൽകുന്നു.';
   }
 
   @override

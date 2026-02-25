@@ -1620,17 +1620,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => '최근에 삭제된 계량기';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': '더 많이',
-      'less': '더 적게',
-      'other': '더 많이',
-    });
-    return '$countryName의 평균보다 $diffWithCurrency만큼 $_temp0 지불하고 있습니다.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '귀하는 $diffWithCurrency에서 $countryName의 평균보다 낮은 금액을 지불합니다.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return '그들은 $diffWithCurrency에서 $countryName의 평균보다 더 많은 금액을 지불합니다.';
   }
 
   @override

@@ -1683,17 +1683,13 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Πρόσφατα διαγραμμένοι μετρητές';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'περισσότερο από',
-      'less': 'λιγότερο από',
-      'other': 'περισσότερο από',
-    });
-    return 'Πληρώνετε $diffWithCurrency $_temp0 ο μέσος όρος στο $countryName.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return 'Πληρώνετε $diffWithCurrency λιγότερο από τον μέσο όρο στο $countryName.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'Πληρώνετε $diffWithCurrency περισσότερο από τον μέσο όρο στο $countryName.';
   }
 
   @override

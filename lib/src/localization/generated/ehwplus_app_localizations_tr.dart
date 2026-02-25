@@ -1672,17 +1672,13 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Yakın zamanda silinen sayaçlar';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'daha fazla',
-      'less': 'daha az',
-      'other': 'daha fazla',
-    });
-    return '$countryName ortalamasından $diffWithCurrency $_temp0 ödüyorsunuz.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '$diffWithCurrency\'da $countryName ortalamasından daha az ödüyorsunuz.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return '$diffWithCurrency\'da $countryName\'daki ortalamadan daha fazla ödüyorsunuz.';
   }
 
   @override

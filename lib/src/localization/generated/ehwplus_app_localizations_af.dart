@@ -1664,17 +1664,13 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Onlangs uitgevee tellers';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'meer as',
-      'less': 'minder as',
-      'other': 'meer as',
-    });
-    return 'Jy betaal $diffWithCurrency $_temp0 die gemiddelde in $countryName.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return 'Jy betaal minder as die gemiddelde by $diffWithCurrency in $countryName.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'Jy betaal $diffWithCurrency meer as die gemiddelde in $countryName.';
   }
 
   @override

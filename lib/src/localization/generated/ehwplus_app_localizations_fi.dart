@@ -1670,17 +1670,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Äskettäin poistetut mittarit';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'enemmän kuin',
-      'less': 'vähemmän kuin',
-      'other': 'enemmän kuin',
-    });
-    return 'Maksat $diffWithCurrency $_temp0 keskimäärin $countryName.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '${diffWithCurrency}issa maksat vähemmän kuin keskimäärin ${countryName}issa.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'He maksavat $diffWithCurrency enemmän kuin keskimääräinen $countryName.';
   }
 
   @override

@@ -1666,17 +1666,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Mita iliyofutwa hivi karibuni';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'zaidi kuliko',
-      'less': 'kidogo kuliko',
-      'other': 'zaidi kuliko',
-    });
-    return 'Unalipa $diffWithCurrency $_temp0 wastani nchini $countryName.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return 'Unalipa chini ya wastani katika $diffWithCurrency huko $countryName.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'Unalip$diffWithCurrency, zaidi ya wastani katika $countryName.';
   }
 
   @override

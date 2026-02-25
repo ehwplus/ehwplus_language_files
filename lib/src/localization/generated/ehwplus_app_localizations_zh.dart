@@ -1610,17 +1610,13 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => '最近删除的仪表';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': '高于',
-      'less': '低于',
-      'other': '高于',
-    });
-    return '您支付 $diffWithCurrency $_temp0 $countryName 的平均值。';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '您支付的$diffWithCurrency低于$countryName的平均价格。';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return '您支付的$diffWithCurrency比$countryName的平均价格更高。';
   }
 
   @override

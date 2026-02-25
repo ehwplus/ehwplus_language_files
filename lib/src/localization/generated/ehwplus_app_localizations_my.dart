@@ -1678,17 +1678,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'မကြာသေးမီကဖျက်ပစ်မီတာဖျက်ခဲ့ကြသည်';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'ပို ပေးချေသည်',
-      'less': 'နည်း ပေးချေသည်',
-      'other': 'ပို ပေးချေသည်',
-    });
-    return 'သင်သည် $countryName ၏ ပျှမ်းမျှနှုန်းထက် $diffWithCurrency $_temp0 ပေးဆောင်နေသည်။';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '$countryName တွင် $diffWithCurrency တွင် ပျမ်းမျှဈေးနှုန်းထက် သင် ပိုနည်းစွာ ပေးဆောင်ရပါသည်။';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return '$countryName တွင် ပျမ်းမျှထက် သင်သည် $diffWithCurrency ပိုပေးဆောင်ရသည်။';
   }
 
   @override

@@ -1670,17 +1670,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Neseniai ištrinti skaitikliai';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'daugiau nei',
-      'less': 'mažiau nei',
-      'other': 'daugiau nei',
-    });
-    return 'Mokate $diffWithCurrency $_temp0 $countryName vidurkį.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return 'Jūs mokate $diffWithCurrency mažiau nei vidutiniškai $countryName.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'Jūs mokate $diffWithCurrency daugiau nei vidutiniškai $countryName.';
   }
 
   @override

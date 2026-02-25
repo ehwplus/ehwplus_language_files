@@ -1664,17 +1664,13 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Nylig slettede målere';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'more than',
-      'less': 'less than',
-      'other': 'more than',
-    });
-    return 'Du betaler $diffWithCurrency $_temp0 gjennomsnittet i $countryName.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return 'Du betaler $diffWithCurrency mindre enn gjennomsnittet i $countryName.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'De betaler $diffWithCurrency mer enn gjennomsnittet i $countryName.';
   }
 
   @override

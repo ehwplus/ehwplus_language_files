@@ -1674,17 +1674,13 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Нещодавно видалені лічильники';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'more than',
-      'less': 'less than',
-      'other': 'more than',
-    });
-    return 'Ви платите $diffWithCurrency $_temp0 середнє значення в $countryName.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return 'Ви платите $diffWithCurrency менше, ніж в середньому в $countryName.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'Ви платите $diffWithCurrency більше, ніж в середньому в $countryName.';
   }
 
   @override

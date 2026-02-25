@@ -1664,17 +1664,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Đồng hồ đo đã xóa gần đây';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'nhiều hơn',
-      'less': 'ít hơn',
-      'other': 'nhiều hơn',
-    });
-    return 'Bạn trả $diffWithCurrency $_temp0 so với mức trung bình ở $countryName.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return 'Bạn sẽ trả ít hơn mức trung bình tại $countryName ($diffWithCurrency).';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'Bạn trả $diffWithCurrency nhiều hơn mức trung bình ở $countryName.';
   }
 
   @override

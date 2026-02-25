@@ -1675,17 +1675,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Nemrégiben törölt mérők';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'több mint',
-      'less': 'kevesebb, mint',
-      'other': 'több mint',
-    });
-    return '$diffWithCurrency $_temp0 $countryName átlaga.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '$diffWithCurrency-ban kevesebbet fizet, mint az átlag $countryName-ban.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return '$diffWithCurrency-ban többet fizetnek, mint az átlag $countryName-ban.';
   }
 
   @override

@@ -680,20 +680,8 @@
   "periodWeekly": "weekly",
   "periodYearly": "yearly",
   "previouslyDeletedCounters": "Recently deleted meters",
-  "priceComparisonDiff": "You pay {diffWithCurrency} {comparison, select, more {more than} less {less than} other {more than}} the average in {countryName}.",
-  "@priceComparisonDiff": {
-    "placeholders": {
-      "comparison": {
-        "type": "String"
-      },
-      "countryName": {
-        "type": "String"
-      },
-      "diffWithCurrency": {
-        "type": "String"
-      }
-    }
-  },
+  "priceComparisonDiffLess": "You pay less than the average at {diffWithCurrency} in {countryName}.",
+  "priceComparisonDiffMore": "You pay {diffWithCurrency} more than the average in {countryName}.",
   "priceComparisonEqual": "You pay about as much as the average in {countryName}.",
   "@priceComparisonEqual": {
     "placeholders": {

@@ -1666,17 +1666,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get previouslyDeletedCounters => 'Hiljuti kustutatud arvestid';
 
   @override
-  String priceComparisonDiff(
-    String comparison,
-    String countryName,
-    String diffWithCurrency,
-  ) {
-    String _temp0 = intl.Intl.selectLogic(comparison, {
-      'more': 'rohkem',
-      'less': 'vähem',
-      'other': 'rohkem',
-    });
-    return 'Maksad $diffWithCurrency $_temp0 kui keskmine $countryName piirkonnas.';
+  String priceComparisonDiffLess(Object countryName, Object diffWithCurrency) {
+    return '${diffWithCurrency}is maksate vähem kui keskmiselt $countryName.';
+  }
+
+  @override
+  String priceComparisonDiffMore(Object countryName, Object diffWithCurrency) {
+    return 'Nad maksavad $diffWithCurrency rohkem kui keskmine $countryName.';
   }
 
   @override
