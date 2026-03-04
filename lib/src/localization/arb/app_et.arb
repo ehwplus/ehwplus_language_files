@@ -416,7 +416,7 @@
   "notificationsEmpty": "Teavitusi pole",
   "notificationsSmartMeterAlertFallback": "Sul on uus nutiarvesti hoiatus.",
   "numCounters": "{count, plural, =0 {0 arvestit} one {1 arvesti} few {# arvestit} many {# arvestit} other {# arvestit}}",
-  "numMeterReadings": "{readings, plural, one {# näit} other {# näitu}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Arvestite näidud} one {1 Mõõturi näit} other {{readings} Arvestite näidud}}",
   "numberOfDetails": "{count, plural, one {1 detail} other {{count} detaili}}",
   "ofRangeFrom": "alates {range}",
   "ofRangeLastDays": "viimase {days} päeva kohta",

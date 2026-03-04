@@ -416,7 +416,7 @@
   "notificationsEmpty": "Ingen varsler",
   "notificationsSmartMeterAlertFallback": "Du har et nytt smartmålervarsel.",
   "numCounters": "{count, plural, =0 {{count} teller} one {{count} teller} other {{count} tellere}}",
-  "numMeterReadings": "{readings, plural, one {#lesing} other {# avlesninger}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Måleravlesninger} one {1 Måleravlesning} other {{readings} Måleravlesninger}}",
   "numberOfDetails": "{count, plural, one {1 detalj} other {{count} detaljer}}",
   "ofRangeFrom": "fra {range}",
   "ofRangeLastDays": "av de siste {days} dagene",

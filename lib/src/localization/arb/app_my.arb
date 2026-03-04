@@ -416,7 +416,7 @@
   "notificationsEmpty": "အသိပေးချက်မရှိပါ",
   "notificationsSmartMeterAlertFallback": "သင့်တွင်စမတ်မီတာအသစ်တစ်ခုရှိသည်။",
   "numCounters": "{count, plural, =0 {Phtoken0 ကောင်တာ} one {Phtoken0 ကောင်တာ} other {Phtoken0 ကောင်တာ}}",
-  "numMeterReadings": "{readings, plural, one {# စာဖတ်ခြင်း} other {# ဖတ်ခြင်း}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} မီတာဖတ်ချက်များ} one {၁ မီတာ ဖတ်ချက်} other {{readings} မီတာဖတ်ချက်များ}}",
   "numberOfDetails": "{count, plural, one {1 အသေးစိတ်} other {Phtoken0 အသေးစိတ်}}",
   "ofRangeFrom": "Phtoked0 မှ",
   "ofRangeLastDays": "နောက်ဆုံး Phtoken0 ရက်ပေါင်း၏",

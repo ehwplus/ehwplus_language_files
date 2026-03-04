@@ -416,7 +416,7 @@
   "notificationsEmpty": "Keine Benachrichtigungen",
   "notificationsSmartMeterAlertFallback": "Es gibt eine neue Smartmeter-Meldung.",
   "numCounters": "{count} Zähler",
-  "numMeterReadings": "{readings, plural, =0 {# Zähler­stände} one {# Zählerstand} other {# Zähler­stände}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Zähler­stände} one {1 Zählerstand} other {{readings} Zähler­stände}}",
   "numberOfDetails": "{count, plural, one {1 Detail} other {{count} Details}}",
   "ofRangeFrom": "vom {range}",
   "ofRangeLastDays": "der letzten {days} Tage",

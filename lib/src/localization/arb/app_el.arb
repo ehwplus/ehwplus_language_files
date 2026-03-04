@@ -416,7 +416,7 @@
   "notificationsEmpty": "Δεν υπάρχουν ειδοποιήσεις",
   "notificationsSmartMeterAlertFallback": "Έχετε μια νέα ειδοποίηση έξυπνου μετρητή.",
   "numCounters": "{count, plural, =0 {{count} μετρητής} one {{count} μετρητής} other {{count} μετρητές}}",
-  "numMeterReadings": "{readings, plural, one {# reading} other {# readings}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Μετρήσεις μετρητών} one {1 Ανάγνωση μετρητή} other {{readings} Μετρήσεις μετρητών}}",
   "numberOfDetails": "{count, plural, one {1 λεπτομέρεια} other {{count} λεπτομέρειες}}",
   "ofRangeFrom": "από το {range}",
   "ofRangeLastDays": "των τελευταίων ημερών του {days}",

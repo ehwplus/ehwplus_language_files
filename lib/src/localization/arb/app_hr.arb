@@ -416,7 +416,7 @@
   "notificationsEmpty": "Nema obavijesti",
   "notificationsSmartMeterAlertFallback": "Imate novo upozorenje pametnog brojila.",
   "numCounters": "{count, plural, =0 {{count} brojač} one {{count} brojač} other {{count} brojača}}",
-  "numMeterReadings": "{readings, plural, one {# očitanje} other {# očitanja}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Očitanja brojila} one {1 očitanje} other {{readings} Očitanja brojila}}",
   "numberOfDetails": "{count, plural, one {1 detalj} other {{count} detalja}}",
   "ofRangeFrom": "od {range}",
   "ofRangeLastDays": "zadnjih {days} dana",

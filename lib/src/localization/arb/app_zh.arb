@@ -416,7 +416,7 @@
   "notificationsEmpty": "无通知",
   "notificationsSmartMeterAlertFallback": "您有一个新的智能电表警报。",
   "numCounters": "{count, plural, =0 {{count} 计数器} one {{count} 计数器} other {{count} 计数器}}",
-  "numMeterReadings": "{readings, plural, one {＃ 阅读} other {# 读数}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} 电表读数} one {1 电表读数} other {{readings} 电表读数}}",
   "numberOfDetails": "{count, plural, one {1 细节} other {{count} 详细信息}}",
   "ofRangeFrom": "来自 {range}",
   "ofRangeLastDays": "过去 {days} 天的",

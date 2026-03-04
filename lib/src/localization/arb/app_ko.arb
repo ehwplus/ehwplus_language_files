@@ -416,7 +416,7 @@
   "notificationsEmpty": "알림이 없습니다.",
   "notificationsSmartMeterAlertFallback": "새 스마트 미터 알림이 있습니다.",
   "numCounters": "{count, plural, =0 {{count}개 계량기} one {{count}개 계량기} other {{count}개 계량기}}",
-  "numMeterReadings": "{readings, plural, one {#회 지침} other {#회 지침}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} 계량기 수치} one {1 계량기 검침} other {{readings} 계량기 수치}}",
   "numberOfDetails": "{count, plural, one {1개 세부 정보} other {{count}개 세부 정보}}",
   "ofRangeFrom": "{range}부터",
   "ofRangeLastDays": "최근 {days}일 동안",

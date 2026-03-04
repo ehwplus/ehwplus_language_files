@@ -416,7 +416,7 @@
   "notificationsEmpty": "Brak powiadomień",
   "notificationsSmartMeterAlertFallback": "Masz nowy alert inteligentnego licznika.",
   "numCounters": "{count, plural, =0 {{count} licznik} one {{count} licznik} other {{count} liczniki}}",
-  "numMeterReadings": "{readings, plural, one {# czytanie} other {# odczyty}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} odczyty liczników} one {1 Odczyt licznika} other {{readings} odczyty liczników}}",
   "numberOfDetails": "{count, plural, one {1 szczegół} other {{count} szczegóły}}",
   "ofRangeFrom": "z {range}",
   "ofRangeLastDays": "z ostatnich {days} dni",

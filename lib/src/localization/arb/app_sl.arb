@@ -416,7 +416,7 @@
   "notificationsEmpty": "Brez obvestil",
   "notificationsSmartMeterAlertFallback": "Imate novo opozorilo pametnega števca.",
   "numCounters": "{count, plural, =0 {Števec {count}} one {Števec {count}} other {Števci {count}}}",
-  "numMeterReadings": "{readings, plural, one {# branje} other {# branja}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Stanje števcev} one {1 Odčitavanje metrov} other {{readings} Stanje števcev}}",
   "numberOfDetails": "{count, plural, one {1 podrobnost} other {{count} podrobnosti}}",
   "ofRangeFrom": "iz {range}",
   "ofRangeLastDays": "zadnjih {days} dni",

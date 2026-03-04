@@ -1468,7 +1468,13 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    String _temp0 = intl.Intl.pluralLogic(readings, locale: localeName, other: '# रीडिंग', one: '# रीडिंग');
+    String _temp0 = intl.Intl.pluralLogic(
+      readings,
+      locale: localeName,
+      other: '$readings मीटर रीडिंग्स',
+      one: '1 मीटर रीडिंग',
+      zero: '$readings मीटर रीडिंग्स',
+    );
     return '$_temp0';
   }
 

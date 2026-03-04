@@ -417,7 +417,7 @@
   "notificationsEmpty": "Žádná upozornění",
   "notificationsSmartMeterAlertFallback": "Máte nové upozornění na chytrý měřič.",
   "numCounters": "{count, plural, =0 {Počítadlo {count}} one {Počítadlo {count}} other {{count} čítače}}",
-  "numMeterReadings": "{readings, plural, one {#čtení} other {# čtení}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Stav měřičů} one {1 odečet měřidla} other {{readings} Stav měřičů}}",
   "numberOfDetails": "{count, plural, one {1 detail} other {Podrobnosti {count}}}",
   "ofRangeFrom": "od {range}",
   "ofRangeLastDays": "z posledních {days} dnů",

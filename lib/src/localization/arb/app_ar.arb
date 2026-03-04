@@ -416,7 +416,7 @@
   "notificationsEmpty": "لا توجد إشعارات",
   "notificationsSmartMeterAlertFallback": "لديك تنبيه عداد ذكي جديد.",
   "numCounters": "{count, plural, =0 {{count} عداد} one {{count} عداد} other {{count} عدادات}}",
-  "numMeterReadings": "{readings, plural, one {# قراءة} other {# قراءات}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} قراءات العدادات} one {1 قراءة العداد} other {{readings} قراءات العدادات}}",
   "numberOfDetails": "{count, plural, one {1 تفصيل} other {{count} تفاصيل}}",
   "ofRangeFrom": "من {range}",
   "ofRangeLastDays": "من آخر {days} يوم",

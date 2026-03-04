@@ -416,7 +416,7 @@
   "notificationsEmpty": "Hakuna arifa",
   "notificationsSmartMeterAlertFallback": "Una tahadhari mpya ya mita smart.",
   "numCounters": "{count, plural, =0 {Phtoken0 counter} one {Phtoken0 counter} other {Hesabu za phtoken0}}",
-  "numMeterReadings": "{readings, plural, one {# kusoma} other {# Usomaji}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Soma mita} one {Usomaji wa mita 1} other {{readings} Soma mita}}",
   "numberOfDetails": "{count, plural, one {Maelezo 1} other {Maelezo ya phtoken0}}",
   "ofRangeFrom": "kutoka phtoken0",
   "ofRangeLastDays": "ya siku za mwisho za phtoken0",

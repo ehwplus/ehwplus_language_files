@@ -2694,7 +2694,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @numMeterReadings.
   ///
   /// In en, this message translates to:
-  /// **'{readings, plural, one {# reading} other {# readings}}'**
+  /// **'{readings, plural, =0 {{readings} meter readings} one {1 Meter reading} other {{readings} meter readings}}'**
   String numMeterReadings(int readings);
 
   /// No description provided for @numberOfDetails.

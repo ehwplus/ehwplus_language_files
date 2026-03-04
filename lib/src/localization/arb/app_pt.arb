@@ -416,7 +416,7 @@
   "notificationsEmpty": "Sem notificações",
   "notificationsSmartMeterAlertFallback": "Você tem um novo alerta do medidor inteligente.",
   "numCounters": "{count} metros",
-  "numMeterReadings": "{readings, plural, =0 {leituras de # metros} one {# leitura de metro} other {leituras de # metros}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} leituras de medidores} one {1 Leitura do contador} other {{readings} leituras de medidores}}",
   "numberOfDetails": "{count, plural, one {1 detalhe} other {{count} detalhes}}",
   "ofRangeFrom": "durante {range}",
   "ofRangeLastDays": "dos últimos {days} dias",

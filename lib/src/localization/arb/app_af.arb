@@ -416,7 +416,7 @@
   "notificationsEmpty": "Geen kennisgewings",
   "notificationsSmartMeterAlertFallback": "Jy het 'n nuwe slimmeter waarskuwing.",
   "numCounters": "{count, plural, one {{count} meter} other {{count} meters}}",
-  "numMeterReadings": "{readings, plural, one {{readings} lesing} other {{readings} lesings}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} meteraflesings} one {1 meter-afleesing} other {{readings} meteraflesings}}",
   "numberOfDetails": "{count, plural, one {1 besonderheid} other {{count} besonderhede}}",
   "ofRangeFrom": "vanaf {range}",
   "ofRangeLastDays": "van die laaste {days} dae",

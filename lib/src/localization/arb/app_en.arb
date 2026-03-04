@@ -612,7 +612,7 @@
       }
     }
   },
-  "numMeterReadings": "{readings, plural, one {# reading} other {# readings}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} meter readings} one {1 Meter reading} other {{readings} meter readings}}",
   "@numMeterReadings": {
     "placeholders": {
       "readings": {

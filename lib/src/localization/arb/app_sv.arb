@@ -416,7 +416,7 @@
   "notificationsEmpty": "Inga aviseringar",
   "notificationsSmartMeterAlertFallback": "Du har en ny larm för smartmätare.",
   "numCounters": "{count, plural, =0 {{count} räknare} one {{count} räknare} other {{count} räknare}}",
-  "numMeterReadings": "{readings, plural, one {#läsning} other {# avläsningar}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Mätaravläsningar} one {1 Mätaravläsning} other {{readings} Mätaravläsningar}}",
   "numberOfDetails": "{count, plural, one {1 detalj} other {{count} detaljer}}",
   "ofRangeFrom": "från {range}",
   "ofRangeLastDays": "av de senaste {days} dagarna",

@@ -416,7 +416,7 @@
   "notificationsEmpty": "通知はありません",
   "notificationsSmartMeterAlertFallback": "新しいスマート メーター アラートがあります。",
   "numCounters": "{count, plural, =0 {{count}カウンター} one {{count}カウンター} other {{count}カウンター}}",
-  "numMeterReadings": "{readings, plural, one {# 件の読み取り} other {# 件の読み取り}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} メーター読み} one {1 メーター読み取り} other {{readings} メーター読み}}",
   "numberOfDetails": "{count, plural, one {1 詳細} other {{count}の詳細}}",
   "ofRangeFrom": "{range}から",
   "ofRangeLastDays": "過去 {days} 日間",

@@ -416,7 +416,7 @@
   "notificationsEmpty": "Нет уведомлений",
   "notificationsSmartMeterAlertFallback": "У вас новое уведомление смарт-счетчика.",
   "numCounters": "{count} метра",
-  "numMeterReadings": "{readings, plural, =0 {показания # метров} one {показания одного метра} other {показания # метров}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Показания счетчиков} one {1 Показания счетчика} other {{readings} Показания счетчиков}}",
   "numberOfDetails": "{count, plural, one {1 деталь} few {{count} детали} many {{count} деталей} other {{count} деталей}}",
   "ofRangeFrom": "за {range}",
   "ofRangeLastDays": "за последние {days} дней",

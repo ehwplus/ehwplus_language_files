@@ -417,7 +417,7 @@
   "notificationsEmpty": "Немає повідомлень",
   "notificationsSmartMeterAlertFallback": "У вас є нове сповіщення смарт-лічильника.",
   "numCounters": "{count, plural, =0 {Лічильник {count}} one {Лічильник {count}} other {Лічильники {count}}}",
-  "numMeterReadings": "{readings, plural, one {# читання} other {# читання}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Показання лічильників} one {1 Показання лічильника} other {{readings} Показання лічильників}}",
   "numberOfDetails": "{count, plural, one {1 деталь} other {Деталі {count}}}",
   "ofRangeFrom": "від {range}",
   "ofRangeLastDays": "за останні {days} днів",

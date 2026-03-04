@@ -416,7 +416,7 @@
   "notificationsEmpty": "Nincsenek értesítések",
   "notificationsSmartMeterAlertFallback": "Új intelligens mérőóra riasztása van.",
   "numCounters": "{count, plural, =0 {{count} pult} one {{count} pult} other {{count} pultok}}",
-  "numMeterReadings": "{readings, plural, one {# reading} other {# readings}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Mérőállások} one {1 Mérőállás leolvasása} other {{readings} Mérőállások}}",
   "numberOfDetails": "{count, plural, one {1 részlet} other {{count} részletek}}",
   "ofRangeFrom": "{range}",
   "ofRangeLastDays": "az elmúlt {days} napok",

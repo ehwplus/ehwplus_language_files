@@ -416,7 +416,7 @@
   "notificationsEmpty": "بدون اعلان",
   "notificationsSmartMeterAlertFallback": "شما یک هشدار کنتور هوشمند جدید دارید.",
   "numCounters": "{count, plural, =0 {{count} شمارنده} one {{count} شمارنده} other {{count} شمارنده}}",
-  "numMeterReadings": "{readings, plural, one {# قرائت} other {# قرائت}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} قرائت‌های کنتور} one {یک متر خوانش} other {{readings} قرائت‌های کنتور}}",
   "numberOfDetails": "{count, plural, one {1 جزئیات} other {{count} جزئیات}}",
   "ofRangeFrom": "از {range}",
   "ofRangeLastDays": "از {days} روز گذشته",

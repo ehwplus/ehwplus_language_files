@@ -417,7 +417,7 @@
   "notificationsEmpty": "Không có thông báo",
   "notificationsSmartMeterAlertFallback": "Bạn có cảnh báo đồng hồ thông minh mới.",
   "numCounters": "{count, plural, =0 {Bộ đếm {count}} one {Bộ đếm {count}} other {Bộ đếm {count}}}",
-  "numMeterReadings": "{readings, plural, one {# đọc} other {# bài đọc}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Số liệu đồng hồ} one {1 chỉ số đồng hồ} other {{readings} Số liệu đồng hồ}}",
   "numberOfDetails": "{count, plural, one {1 chi tiết} other {Chi tiết {count}}}",
   "ofRangeFrom": "từ {range}",
   "ofRangeLastDays": "trong số {days} ngày qua",

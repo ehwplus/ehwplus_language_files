@@ -416,7 +416,7 @@
   "notificationsEmpty": "അറിയിപ്പുകളൊന്നുമില്ല",
   "notificationsSmartMeterAlertFallback": "നിങ്ങൾക്ക് ഒരു പുതിയ സ്മാർട്ട് മീറ്റർ അലേർട്ട് ഉണ്ട്.",
   "numCounters": "{count, plural, =0 {{count} കൗണ്ടർ} one {{count} കൗണ്ടർ} other {{count} കൗണ്ടറുകൾ}}",
-  "numMeterReadings": "{readings, plural, one {# റീഡിംഗ്} other {# റീഡിംഗുകൾ}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} മീറ്റർ റീഡിംഗുകൾ} one {1 മീറ്റർ റീഡിംഗ്} other {{readings} മീറ്റർ റീഡിംഗുകൾ}}",
   "numberOfDetails": "{count, plural, one {1 detail} other {{count} വിശദാംശങ്ങൾ}}",
   "ofRangeFrom": "{range} മുതൽ",
   "ofRangeLastDays": "കഴിഞ്ഞ {days} ദിവസങ്ങളിൽ",

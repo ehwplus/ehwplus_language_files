@@ -1465,9 +1465,9 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       readings,
       locale: localeName,
-      other: '# lecturas de contadores',
-      one: '# lectura de contadore',
-      zero: '# lecturas de contadores',
+      other: '$readings Lecturas de contadores',
+      one: '1 Lectura del contador',
+      zero: '$readings Lecturas de contadores',
     );
     return '$_temp0';
   }

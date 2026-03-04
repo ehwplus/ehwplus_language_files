@@ -416,7 +416,7 @@
   "notificationsEmpty": "ไม่มีการแจ้งเตือน",
   "notificationsSmartMeterAlertFallback": "คุณมีการแจ้งเตือนมิเตอร์อัจฉริยะใหม่",
   "numCounters": "{count, plural, =0 {ตัวนับ {count}} one {ตัวนับ {count}} other {เคาน์เตอร์ {count}}}",
-  "numMeterReadings": "{readings, plural, one {# การอ่าน} other {# การอ่าน}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} การอ่านค่ามิเตอร์} one {การอ่านค่า 1 เมตร} other {{readings} การอ่านค่ามิเตอร์}}",
   "numberOfDetails": "{count, plural, one {1 รายละเอียด} other {รายละเอียด {count}}}",
   "ofRangeFrom": "จาก {range}",
   "ofRangeLastDays": "ของ {days} วันที่ผ่านมา",

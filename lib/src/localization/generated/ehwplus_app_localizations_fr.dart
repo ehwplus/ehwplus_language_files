@@ -1472,9 +1472,9 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       readings,
       locale: localeName,
-      other: '# relevés de compteurs',
-      one: '# relevé de compteur',
-      zero: '# relevés de compteurs',
+      other: '$readings relevés de compteurs',
+      one: '1 relevé de compteur',
+      zero: '$readings relevés de compteurs',
     );
     return '$_temp0';
   }

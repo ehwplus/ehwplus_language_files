@@ -416,7 +416,7 @@
   "notificationsEmpty": "कोई सूचना नहीं",
   "notificationsSmartMeterAlertFallback": "आपके पास एक नया स्मार्ट मीटर अलर्ट है।",
   "numCounters": "{count, plural, =0 {{count} मीटर} one {{count} मीटर} other {{count} मीटर}}",
-  "numMeterReadings": "{readings, plural, one {# रीडिंग} other {# रीडिंग}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} मीटर रीडिंग्स} one {1 मीटर रीडिंग} other {{readings} मीटर रीडिंग्स}}",
   "numberOfDetails": "{count, plural, one {1 विवरण} other {{count} विवरण}}",
   "ofRangeFrom": "{range} से",
   "ofRangeLastDays": "पिछले {days} दिनों का",

@@ -1466,7 +1466,14 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
 
   @override
   String numMeterReadings(int readings) {
-    return '$readings ';
+    String _temp0 = intl.Intl.pluralLogic(
+      readings,
+      locale: localeName,
+      other: '$readings Letture dei contatori',
+      one: '1 Lettura del contatore',
+      zero: '$readings Letture dei contatori',
+    );
+    return '$_temp0';
   }
 
   @override

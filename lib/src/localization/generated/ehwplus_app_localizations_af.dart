@@ -1462,8 +1462,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       readings,
       locale: localeName,
-      other: '$readings lesings',
-      one: '$readings lesing',
+      other: '$readings meteraflesings',
+      one: '1 meter-afleesing',
+      zero: '$readings meteraflesings',
     );
     return '$_temp0';
   }

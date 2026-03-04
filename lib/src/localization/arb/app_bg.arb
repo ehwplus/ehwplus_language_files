@@ -416,7 +416,7 @@
   "notificationsEmpty": "Няма известия",
   "notificationsSmartMeterAlertFallback": "Имате ново известие за интелигентен брояч.",
   "numCounters": "{count, plural, =0 {{count} брояч} one {{count} брояч} other {{count} брояча}}",
-  "numMeterReadings": "{readings, plural, one {# отчитане} other {# отчитания}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Считателни показания} one {1 Отчитане на метър} other {{readings} Считателни показания}}",
   "numberOfDetails": "{count, plural, one {1 детайл} other {{count} детайла}}",
   "ofRangeFrom": "от {range}",
   "ofRangeLastDays": "от последните {days} дни",

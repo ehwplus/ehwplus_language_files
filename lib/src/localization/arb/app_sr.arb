@@ -416,7 +416,7 @@
   "notificationsEmpty": "Нема обавештења",
   "notificationsSmartMeterAlertFallback": "Имате ново упозорење о паметном мерачу.",
   "numCounters": "{count, plural, =0 {ПХТОКЕН0 цоунтер} one {ПХТОКЕН0 цоунтер} other {ПХТОКЕН0 бројачи}}",
-  "numMeterReadings": "{readings, plural, one {# читање} other {# читања}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} очитавања бројила} one {1 метролошко очитање} other {{readings} очитавања бројила}}",
   "numberOfDetails": "{count, plural, one {1 детаљ} other {ПХТОКЕН0 детаљи}}",
   "ofRangeFrom": "од ПХТОКЕН0",
   "ofRangeLastDays": "последњих ПХТОКЕН0 дана",

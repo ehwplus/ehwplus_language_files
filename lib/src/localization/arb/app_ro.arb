@@ -416,7 +416,7 @@
   "notificationsEmpty": "Nu există notificări",
   "notificationsSmartMeterAlertFallback": "Aveți o nouă alertă de contor inteligent.",
   "numCounters": "{count, plural, =0 {{count} contor} one {{count} contor} other {{count} contoare}}",
-  "numMeterReadings": "{readings, plural, one {# lectură} other {# lecturi}}",
+  "numMeterReadings": "{readings, plural, =0 {{readings} Contorul de energie electrică} one {1 Citirea contorului} other {{readings} Contorul de energie electrică}}",
   "numberOfDetails": "{count, plural, one {1 detaliu} other {{count} detalii}}",
   "ofRangeFrom": "de pe {range}",
   "ofRangeLastDays": "din ultimele zile „{days}”",
