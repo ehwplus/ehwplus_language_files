@@ -535,7 +535,7 @@
   "reminderTime": "Erinnerungszeit",
   "reminderWeekdayExplanation": "Es wird maximal einmal pro Tag an eine Ablesung erinnert.",
   "reminderWeekdayExplanationSeasonal": "Für Zähler mit saisonalem Verbrauch wird nur innerhalb Monate mit Verbrauch erinnert (funktioniert nur, wenn Werte des letzten Jahres eingetragen wurden).",
-  "requestAccess": "Zugriffsanfrage stellen",
+  "requestAccess": "Zugriff anfordern",
   "reset": "Zurücksetzen",
   "resetActivities": "Alle Aktivitäten zurücksetzen",
   "residualConsumptionEstimated": "Restverbrauch geschätzt",

@@ -1912,7 +1912,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Für Zähler mit saisonalem Verbrauch wird nur innerhalb Monate mit Verbrauch erinnert (funktioniert nur, wenn Werte des letzten Jahres eingetragen wurden).';
 
   @override
-  String get requestAccess => 'Zugriffsanfrage stellen';
+  String get requestAccess => 'Zugriff anfordern';
 
   @override
   String get reset => 'Zurücksetzen';
