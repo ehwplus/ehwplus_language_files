@@ -1497,6 +1497,9 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   String get oil => 'Aceite';
 
   @override
+  String get openNewCounter => 'Abrir nuevo mostrador';
+
+  @override
   String get outdated => 'Desactualizado';
 
   @override

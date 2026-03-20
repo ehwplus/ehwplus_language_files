@@ -1515,6 +1515,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get oil => 'Λάδι';
 
   @override
+  String get openNewCounter => 'Άνοιγμα νέου μετρητή';
+
+  @override
   String get outdated => 'Ξεπερασμένο';
 
   @override

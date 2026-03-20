@@ -1512,6 +1512,9 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get oil => 'Масло';
 
   @override
+  String get openNewCounter => 'Открыть новый счетчик';
+
+  @override
   String get outdated => 'Устарело';
 
   @override

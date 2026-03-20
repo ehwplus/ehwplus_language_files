@@ -1498,6 +1498,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get oil => 'น้ำมัน';
 
   @override
+  String get openNewCounter => 'เปิดมิเตอร์ใหม่';
+
+  @override
   String get outdated => 'ล้าสมัย';
 
   @override

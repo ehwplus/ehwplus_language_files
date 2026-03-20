@@ -422,6 +422,7 @@
   "ofRangeLastDays": "az elmúlt {days} napok",
   "ofRangeLastMonths": "{months} hónapja",
   "oil": "Olaj",
+  "openNewCounter": "Új számláló megnyitása",
   "outdated": "Elavult",
   "outdatedContracts": "Elavult szerződések",
   "outdatedCounters": "Már nem használt számlálók",

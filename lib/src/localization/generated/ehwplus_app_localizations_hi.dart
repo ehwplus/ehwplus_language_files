@@ -1503,6 +1503,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get oil => 'तेल';
 
   @override
+  String get openNewCounter => 'नया मीटर खोलें';
+
+  @override
   String get outdated => 'रगड़ा हुआ';
 
   @override

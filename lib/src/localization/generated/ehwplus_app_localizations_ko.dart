@@ -1482,6 +1482,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get oil => '유류';
 
   @override
+  String get openNewCounter => '새 카운터 열기';
+
+  @override
   String get outdated => '오래됨';
 
   @override

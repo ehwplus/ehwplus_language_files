@@ -1499,6 +1499,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get oil => 'نفت';
 
   @override
+  String get openNewCounter => 'گشایش کنتور جدید';
+
+  @override
   String get outdated => 'منسوخ شده';
 
   @override

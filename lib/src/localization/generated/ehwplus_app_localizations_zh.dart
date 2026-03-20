@@ -1462,6 +1462,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get oil => '油';
 
   @override
+  String get openNewCounter => '打开新柜台';
+
+  @override
   String get outdated => '过时的';
 
   @override

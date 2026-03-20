@@ -1503,6 +1503,9 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get oil => 'уље';
 
   @override
+  String get openNewCounter => 'Отворите нови мерач';
+
+  @override
   String get outdated => 'Застарело';
 
   @override

@@ -653,6 +653,7 @@
     }
   },
   "oil": "Oil",
+  "openNewCounter": "Open new counter",
   "outdated": "Outdated",
   "outdatedContracts": "Outdated contracts",
   "outdatedCounters": "Counters no longer in use",

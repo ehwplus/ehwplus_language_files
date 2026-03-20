@@ -1500,6 +1500,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get oil => 'Olie';
 
   @override
+  String get openNewCounter => 'Åbn en ny skranke';
+
+  @override
   String get outdated => 'Forældet';
 
   @override

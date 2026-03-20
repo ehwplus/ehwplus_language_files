@@ -1505,6 +1505,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get oil => 'Ulei';
 
   @override
+  String get openNewCounter => 'Deschideți un contor nou';
+
+  @override
   String get outdated => 'Depășit';
 
   @override

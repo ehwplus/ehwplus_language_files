@@ -1499,6 +1499,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get oil => 'Olie';
 
   @override
+  String get openNewCounter => 'Maak \'n nuwe meter oop';
+
+  @override
   String get outdated => 'Verouderd';
 
   @override

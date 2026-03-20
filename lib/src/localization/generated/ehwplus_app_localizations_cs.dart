@@ -1500,6 +1500,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get oil => 'Olej';
 
   @override
+  String get openNewCounter => 'Otevření nové přepážky';
+
+  @override
   String get outdated => 'Zastaralý';
 
   @override

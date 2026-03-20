@@ -1505,6 +1505,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get oil => 'Olaj';
 
   @override
+  String get openNewCounter => 'Új számláló megnyitása';
+
+  @override
   String get outdated => 'Elavult';
 
   @override

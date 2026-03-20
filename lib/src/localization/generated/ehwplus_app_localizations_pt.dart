@@ -1493,6 +1493,9 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get oil => 'Óleo';
 
   @override
+  String get openNewCounter => 'Abrir novo balcão';
+
+  @override
   String get outdated => 'Desatualizado';
 
   @override

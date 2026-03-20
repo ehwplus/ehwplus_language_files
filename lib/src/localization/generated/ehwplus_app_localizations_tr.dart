@@ -1505,6 +1505,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get oil => 'Yağ';
 
   @override
+  String get openNewCounter => 'Yeni sayaç açın';
+
+  @override
   String get outdated => 'Modası geçmiş';
 
   @override

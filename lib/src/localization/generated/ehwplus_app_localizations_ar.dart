@@ -1497,6 +1497,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get oil => 'الزيت';
 
   @override
+  String get openNewCounter => 'فتح عداد جديد';
+
+  @override
   String get outdated => 'قديم';
 
   @override

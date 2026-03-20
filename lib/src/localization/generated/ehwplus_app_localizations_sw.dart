@@ -1498,6 +1498,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get oil => 'Mafuta';
 
   @override
+  String get openNewCounter => 'Fungua mita mpya';
+
+  @override
   String get outdated => 'Zamani';
 
   @override

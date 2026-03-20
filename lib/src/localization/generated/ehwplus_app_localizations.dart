@@ -2727,6 +2727,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Oil'**
   String get oil;
 
+  /// No description provided for @openNewCounter.
+  ///
+  /// In en, this message translates to:
+  /// **'Open new counter'**
+  String get openNewCounter;
+
   /// No description provided for @outdated.
   ///
   /// In en, this message translates to:

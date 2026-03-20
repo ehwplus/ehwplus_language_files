@@ -1508,6 +1508,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get oil => 'ဆီ';
 
   @override
+  String get openNewCounter => 'မီတာအသစ်တစ်လုံးဖွင့်ပါ';
+
+  @override
   String get outdated => 'ခေတ်မလိုက်သော';
 
   @override

@@ -1502,6 +1502,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get oil => 'Ulje';
 
   @override
+  String get openNewCounter => 'Otvorite novi brojilac';
+
+  @override
   String get outdated => 'Zastario';
 
   @override

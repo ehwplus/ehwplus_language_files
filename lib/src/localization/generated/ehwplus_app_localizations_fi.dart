@@ -1500,6 +1500,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get oil => 'Öljy';
 
   @override
+  String get openNewCounter => 'Avaa uusi laskuri';
+
+  @override
   String get outdated => 'Vanhentunut';
 
   @override

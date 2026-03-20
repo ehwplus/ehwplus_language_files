@@ -422,6 +422,7 @@
   "ofRangeLastDays": "최근 {days}일 동안",
   "ofRangeLastMonths": "최근 {months}개월 동안",
   "oil": "유류",
+  "openNewCounter": "새 카운터 열기",
   "outdated": "오래됨",
   "outdatedContracts": "만료된 계약",
   "outdatedCounters": "더 이상 사용되지 않는 계량기",

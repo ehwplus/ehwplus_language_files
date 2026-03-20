@@ -1480,6 +1480,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get oil => '油';
 
   @override
+  String get openNewCounter => '新しいカウンターを開く';
+
+  @override
   String get outdated => '時代遅れ';
 
   @override

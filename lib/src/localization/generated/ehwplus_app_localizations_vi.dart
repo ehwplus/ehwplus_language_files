@@ -1505,6 +1505,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get oil => 'Dầu';
 
   @override
+  String get openNewCounter => 'Mở tài khoản mới';
+
+  @override
   String get outdated => 'lỗi thời';
 
   @override

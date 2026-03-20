@@ -422,6 +422,7 @@
   "ofRangeLastDays": "viimeisestä {days} päivästä",
   "ofRangeLastMonths": "viimeisten {months} kuukauden aikana",
   "oil": "Öljy",
+  "openNewCounter": "Avaa uusi laskuri",
   "outdated": "Vanhentunut",
   "outdatedContracts": "Vanhentuneet sopimukset",
   "outdatedCounters": "Laskurit eivät ole enää käytössä",

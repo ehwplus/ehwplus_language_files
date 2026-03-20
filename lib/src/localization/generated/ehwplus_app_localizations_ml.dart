@@ -1507,6 +1507,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get oil => 'എണ്ണ';
 
   @override
+  String get openNewCounter => 'പുതിയ മീറ്റർ എടുക്കുക';
+
+  @override
   String get outdated => 'കാലഹരണപ്പെട്ടതാണ്';
 
   @override

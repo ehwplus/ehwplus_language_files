@@ -1500,6 +1500,9 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get oil => 'Olje';
 
   @override
+  String get openNewCounter => 'Åpne ny skranke';
+
+  @override
   String get outdated => 'Foreldet';
 
   @override
