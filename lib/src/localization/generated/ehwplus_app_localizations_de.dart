@@ -981,6 +981,17 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get createAccount => 'Nutzerkonto erstellen/anmelden';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Sie sind bereits angemeldet.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Bitte erstellen Sie ein EHW+ Nutzerkonto bzw. melden Sie sich an, damit Sie fortfahren können.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Bitte melden Sie sich erneut an, um Ihre vorhandenen Funkwasserzähler weiter zu nutzen.';
+
+  @override
   String get csvImportWithFactor =>
       'Sollen die Ablesewerte mit einem Faktor ungleich 1,0 multipliziert werden? Um z.B. Werte von Wh in kWh umzurechnen, müsste mit 0,001 multipliziert werden.';
 

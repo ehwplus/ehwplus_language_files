@@ -955,6 +955,15 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get createAccount => '创建帐户/登录';
 
   @override
+  String get waterSupplierAlreadySignedIn => '您已登录。';
+
+  @override
+  String get waterSupplierCreateAccountRequired => '请创建 EHW+ 账户或登录，以便继续。';
+
+  @override
+  String get waterSupplierReauthenticationRequired => '请再次登录以继续使用现有的智能水表。';
+
+  @override
   String get csvImportWithFactor => '仪表读数是否应该乘以不等于 1.0 的系数？例如，要将值从 Wh 转换为 kWh，必须乘以 0.001。';
 
   @override

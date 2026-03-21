@@ -978,6 +978,16 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get createAccount => 'Opprett konto/logg inn';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Du er allerede logget inn.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Opprett en EHW+-konto eller logg inn for å fortsette.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Vennligst logg inn på nytt for å fortsette å bruke dine eksisterende smarte vannmålere.';
+
+  @override
   String get csvImportWithFactor =>
       'Skal målerstandene multipliseres med en faktor som ikke er lik 1,0? For eksempel, for å konvertere verdier fra Wh til kWh, må de multipliseres med 0,001.';
 

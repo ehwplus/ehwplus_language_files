@@ -979,6 +979,16 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get createAccount => 'Create account/login';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'You are already signed in.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Please create an EHW+ account or sign in so you can continue.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Please sign in again to continue using your existing smart water meters.';
+
+  @override
   String get csvImportWithFactor =>
       'Should the meter readings be multiplied by a factor not equal to 1.0? For example, to convert values from Wh to kWh, they would have to be multiplied by 0.001.';
 

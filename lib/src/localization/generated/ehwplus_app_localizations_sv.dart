@@ -978,6 +978,16 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get createAccount => 'Skapa konto/logga in';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Du är redan inloggad.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Skapa ett EHW+-konto eller logga in så att du kan fortsätta.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Logga in igen för att fortsätta använda dina befintliga smarta vattenmätare.';
+
+  @override
   String get csvImportWithFactor =>
       'Ska mätarställningen multipliceras med en faktor som inte är lika med 1,0? Till exempel, för att konvertera värden från Wh till kWh, måste de multipliceras med 0,001.';
 

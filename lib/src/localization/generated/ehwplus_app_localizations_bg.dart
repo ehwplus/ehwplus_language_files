@@ -983,6 +983,17 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get createAccount => 'Създаване на акаунт/вход';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Вече сте влезли в системата.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Моля, създайте акаунт в EHW+ или влезте в него, за да можете да продължите.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Моля, влезте отново, за да продължите да използвате съществуващите си интелигентни водомери.';
+
+  @override
   String get csvImportWithFactor =>
       'Трябва ли показанията на брояча да се умножат по коефициент, различен от 1.0? Например, за да конвертирате стойности от Wh в kWh, те трябва да се умножат по 0.001.';
 

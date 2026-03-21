@@ -984,6 +984,17 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get createAccount => 'Kreirajte nalog/prijavite se';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Već ste prijavljeni.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Molimo kreirajte EHW+ račun ili se prijavite kako biste mogli nastaviti.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Molimo prijavite se ponovo kako biste nastavili koristiti postojeće pametne vodomjere.';
+
+  @override
   String get csvImportWithFactor =>
       'Da li očitanja brojila treba pomnožiti sa faktorom koji nije jednak 1,0? Na primjer, da biste pretvorili vrijednosti iz Wh u kWh, one bi se morale pomnožiti sa 0,001.';
 

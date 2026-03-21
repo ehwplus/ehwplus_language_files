@@ -978,6 +978,16 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get createAccount => 'Luo tili/kirjaudu sisään';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Olet jo kirjautunut sisään.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Luo EHW+-tili tai kirjaudu sisään, jotta voit jatkaa.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Kirjaudu uudelleen sisään jatkaaksesi nykyisten älykkäiden vesimittareidesi käyttöä.';
+
+  @override
   String get csvImportWithFactor =>
       'Pitäisikö mittarin lukemat kertoa kertoimella, joka ei ole yhtä suuri kuin 1,0?Esimerkiksi Wh-arvojen muuntamiseksi kWh:iksi ne on kerrottava 0,001:llä.';
 

@@ -978,6 +978,16 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get createAccount => 'Criar conta';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Já tem sessão iniciada.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Crie uma conta EHW+ ou inicie sessão para poder continuar.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Inicie novamente a sessão para continuar a utilizar os seus contadores de água inteligentes existentes.';
+
+  @override
   String get csvImportWithFactor =>
       'As leituras dos contadores devem ser multiplicadas por um fator não igual a 1,0? Por exemplo, para converter valores de Wh para kWh, teriam de ser multiplicados por 0,001.';
 

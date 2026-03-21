@@ -983,6 +983,16 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get createAccount => 'Tạo tài khoản/đăng nhập';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Bạn đã đăng nhập rồi.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Vui lòng tạo tài khoản EHW+ hoặc đăng nhập để tiếp tục.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Vui lòng đăng nhập lại để tiếp tục sử dụng đồng hồ nước thông minh hiện tại của quý khách.';
+
+  @override
   String get csvImportWithFactor =>
       'Có nên nhân số chỉ của đồng hồ với hệ số không bằng 1,0 không? Ví dụ: để chuyển đổi các giá trị từ Wh sang kWh, chúng sẽ phải nhân với 0,001.';
 

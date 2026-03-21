@@ -976,6 +976,16 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get createAccount => 'إنشاء حساب/تسجيل الدخول';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'لقد قمت بتسجيل الدخول بالفعل.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'يرجى إنشاء حساب EHW+ أو تسجيل الدخول حتى تتمكن من المتابعة.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'يرجى تسجيل الدخول مرة أخرى لمواصلة استخدام عدادات المياه الذكية الحالية.';
+
+  @override
   String get csvImportWithFactor =>
       'هل يجب ضرب قراءات العدادات بعامل لا يساوي 1.0؟ على سبيل المثال، لتحويل القيم من Wh إلى kWh، يجب ضربها بـ 0.001.';
 

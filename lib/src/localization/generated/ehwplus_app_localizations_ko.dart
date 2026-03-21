@@ -967,6 +967,15 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get createAccount => '계정 생성/로그인';
 
   @override
+  String get waterSupplierAlreadySignedIn => '이미 로그인되어 있습니다.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => '계속하려면 EHW+ 계정을 만들거나 로그인하세요.';
+
+  @override
+  String get waterSupplierReauthenticationRequired => '기존 스마트 수도 계량기를 계속 사용하려면 다시 로그인하세요.';
+
+  @override
   String get csvImportWithFactor => '계량기 지침값에 1.0이 아닌 변환 계수를 곱해야 합니까? 예를 들어 Wh 값을 kWh로 변환하려면 0.001을 곱해야 합니다.';
 
   @override

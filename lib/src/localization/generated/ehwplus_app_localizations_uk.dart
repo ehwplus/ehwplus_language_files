@@ -983,6 +983,17 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get createAccount => 'Створити обліковий запис/ввійти';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Ви вже зареєстровані.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Будь ласка, створіть обліковий запис EHW+ або увійдіть, щоб продовжити.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Будь ласка, увійдіть знову, щоб продовжити користуватися наявними розумними лічильниками води.';
+
+  @override
   String get csvImportWithFactor =>
       'Чи потрібно показники лічильника множити на коефіцієнт не рівний 1,0? Наприклад, щоб перевести значення з Вт-год у кВт-год, їх потрібно помножити на 0,001.';
 

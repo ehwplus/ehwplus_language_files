@@ -981,6 +981,17 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get createAccount => 'Fiók létrehozása/bejelentkezés';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Ön már bejelentkezett.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Kérjük, hozzon létre egy EHW+ fiókot, vagy jelentkezzen be, hogy folytatni tudja.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Kérjük, jelentkezzen be újra, hogy továbbra is használhassa meglévő intelligens vízmérőit.';
+
+  @override
   String get csvImportWithFactor =>
       'Meg kell-e szorozni a leolvasott értékeket egy olyan tényezővel, amely nem egyenlő 1,0-val? Például a Wh-ból kWh-ra történő átváltáshoz az értékeket 0,001-gyel kellene megszorozni.';
 

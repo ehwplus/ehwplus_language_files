@@ -986,6 +986,17 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get createAccount => 'Δημιουργία λογαριασμού/είσοδος';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Έχετε ήδη συνδεθεί.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Παρακαλούμε δημιουργήστε έναν λογαριασμό EHW+ ή συνδεθείτε για να μπορέσετε να συνεχίσετε.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Παρακαλούμε συνδεθείτε ξανά για να συνεχίσετε να χρησιμοποιείτε τους υπάρχοντες έξυπνους μετρητές νερού.';
+
+  @override
   String get csvImportWithFactor =>
       'Πρέπει οι ενδείξεις των μετρητών να πολλαπλασιάζονται με συντελεστή που δεν ισούται με 1,0; Για παράδειγμα, για να μετατραπούν οι τιμές από Wh σε kWh, θα πρέπει να πολλαπλασιαστούν με 0,001.';
 

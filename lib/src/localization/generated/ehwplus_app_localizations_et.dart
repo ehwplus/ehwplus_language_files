@@ -982,6 +982,16 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get createAccount => 'Loo konto/logi sisse';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Te olete juba sisse logitud.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Palun looge EHW+ konto või logige sisse, et saaksite jätkata.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Palun logige uuesti sisse, et jätkata oma olemasolevate arukate veemõõtjate kasutamist.';
+
+  @override
   String get csvImportWithFactor =>
       'Kas arvesti näite tuleks korrutada teguriga, mis ei ole 1.0? Näiteks Wh muundamiseks kWh-ks tuleks neid korrutada 0.001-ga.';
 

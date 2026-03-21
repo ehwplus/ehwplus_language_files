@@ -978,6 +978,16 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get createAccount => 'ایجاد حساب کاربری / ورود به سیستم';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'شما قبلاً وارد شده‌اید.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'لطفاً یک حساب EHW+ ایجاد کنید یا وارد شوید تا بتوانید ادامه دهید.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'لطفاً برای ادامه استفاده از کنتورهای هوشمند آب موجود، مجدداً وارد شوید.';
+
+  @override
   String get csvImportWithFactor =>
       'آیا قرائت های کنتور باید در ضریب 1.0 ضرب شود؟به عنوان مثال، برای تبدیل مقادیر از Wh به کیلووات ساعت، آنها باید در 0.001 ضرب شوند.';
 

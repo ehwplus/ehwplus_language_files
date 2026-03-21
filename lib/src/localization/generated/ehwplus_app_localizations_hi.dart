@@ -981,6 +981,16 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get createAccount => 'खाता बनाएं/लॉगिन करें';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'आप पहले से ही साइन इन हैं।';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'कृपया जारी रखने के लिए एक EHW+ खाता बनाएँ या साइन इन करें।';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'कृपया अपने मौजूदा स्मार्ट वॉटर मीटर का उपयोग जारी रखने के लिए फिर से साइन इन करें।';
+
+  @override
   String get csvImportWithFactor =>
       'क्या मीटर रीडिंग को ऐसे कारक से गुणा किया जाना चाहिए जो 1.0 के बराबर न हो?उदाहरण के लिए, मानों को Wh से kWh में बदलने के लिए, उन्हें 0.001 से गुणा करना होगा।';
 

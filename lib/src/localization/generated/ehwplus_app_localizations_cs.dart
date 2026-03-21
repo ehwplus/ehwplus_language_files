@@ -978,6 +978,17 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get createAccount => 'Vytvořit účet/přihlásit se';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Jste již přihlášeni.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Vytvořte si prosím účet EHW+ nebo se přihlaste, abyste mohli pokračovat.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Chcete-li nadále používat své stávající inteligentní vodoměry, znovu se přihlaste.';
+
+  @override
   String get csvImportWithFactor =>
       'Měly by být odečty měřiče vynásobeny faktorem, který se nerovná 1,0? Například pro převod hodnot z Wh na kWh by se musely vynásobit 0,001.';
 

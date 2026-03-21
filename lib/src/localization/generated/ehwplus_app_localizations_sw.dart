@@ -977,6 +977,16 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get createAccount => 'Unda Akaunti/Ingia';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Tayari umeingia.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Tafadhali tengeneza akaunti ya EHW+ au ingia ili uendelee.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Tafadhali ingia tena ili kuendelea kutumia mita zako za maji za kisasa zilizopo.';
+
+  @override
   String get csvImportWithFactor =>
       'Je! Usomaji wa mita unapaswa kuzidishwa na sababu sio sawa na 1.0? Kwa mfano, kubadilisha maadili kutoka kwa KWH, ingelazimika kuzidishwa na 0.001.';
 
