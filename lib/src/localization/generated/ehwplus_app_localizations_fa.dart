@@ -978,16 +978,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get createAccount => 'ایجاد حساب کاربری / ورود به سیستم';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'شما قبلاً وارد شده‌اید.';
-
-  @override
-  String get waterSupplierCreateAccountRequired => 'لطفاً یک حساب EHW+ ایجاد کنید یا وارد شوید تا بتوانید ادامه دهید.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'لطفاً برای ادامه استفاده از کنتورهای هوشمند آب موجود، مجدداً وارد شوید.';
-
-  @override
   String get csvImportWithFactor =>
       'آیا قرائت های کنتور باید در ضریب 1.0 ضرب شود؟به عنوان مثال، برای تبدیل مقادیر از Wh به کیلووات ساعت، آنها باید در 0.001 ضرب شوند.';
 
@@ -1071,6 +1061,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'برق تولید کرد';
+
+  @override
+  String get enableCounterViewsMerging => 'کنتورهای برق گروهی با شماره کنتور یکسان';
 
   @override
   String get enterComment => 'یک یادداشت وارد کنید';
@@ -3098,7 +3091,17 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get waterSupplier => 'تأمین‌کنندهٔ آب';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'شما قبلاً وارد شده‌اید.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'لطفاً یک حساب EHW+ ایجاد کنید یا وارد شوید تا بتوانید ادامه دهید.';
+
+  @override
   String get waterSupplierHint => 'تأمین‌کننده محلی آب شما، مثلاً خدمات شهری موک تاون';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'لطفاً برای ادامه استفاده از کنتورهای هوشمند آب موجود، مجدداً وارد شوید.';
 
   @override
   String get waterSupplierUnknown =>

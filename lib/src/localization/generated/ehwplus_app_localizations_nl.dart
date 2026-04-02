@@ -980,17 +980,6 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get createAccount => 'Account aanmaken/inloggen';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'U bent al aangemeld.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Maak een EHW+ account aan of meld je aan zodat je verder kunt gaan.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Meld u opnieuw aan om uw bestaande slimme watermeters te blijven gebruiken.';
-
-  @override
   String get csvImportWithFactor =>
       'Moeten de meterstanden worden vermenigvuldigd met een factor die niet gelijk is aan 1.0? Om bijvoorbeeld waarden van Wh naar kWh om te zetten, moeten ze worden vermenigvuldigd met 0.001.';
 
@@ -1074,6 +1063,9 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Opgewekte elektriciteit';
+
+  @override
+  String get enableCounterViewsMerging => 'Elektriciteitsmeters met hetzelfde meternummer samenvatten';
 
   @override
   String get enterComment => 'Voer een notitie in';
@@ -3124,7 +3116,18 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get waterSupplier => 'Water leverancier';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'U bent al aangemeld.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Maak een EHW+ account aan of meld je aan zodat je verder kunt gaan.';
+
+  @override
   String get waterSupplierHint => 'Je plaatselijke waterleverancier, bijvoorbeeld Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Meld u opnieuw aan om uw bestaande slimme watermeters te blijven gebruiken.';
 
   @override
   String get waterSupplierUnknown =>

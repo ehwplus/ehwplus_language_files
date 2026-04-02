@@ -303,6 +303,7 @@
   "electricityBack": "Elektriciteit teruggeleverd",
   "electricityConsumption": "Stroomverbruik",
   "electricityGenerated": "Opgewekte elektriciteit",
+  "enableCounterViewsMerging": "Elektriciteitsmeters met hetzelfde meternummer samenvatten",
   "enterComment": "Voer een notitie in",
   "enterExistingReadingAgain": "Voer oude aflezing opnieuw in",
   "enterObjectName": "Geef het nieuwe object een naam",

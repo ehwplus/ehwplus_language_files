@@ -981,17 +981,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get createAccount => 'Fiók létrehozása/bejelentkezés';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Ön már bejelentkezett.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Kérjük, hozzon létre egy EHW+ fiókot, vagy jelentkezzen be, hogy folytatni tudja.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Kérjük, jelentkezzen be újra, hogy továbbra is használhassa meglévő intelligens vízmérőit.';
-
-  @override
   String get csvImportWithFactor =>
       'Meg kell-e szorozni a leolvasott értékeket egy olyan tényezővel, amely nem egyenlő 1,0-val? Például a Wh-ból kWh-ra történő átváltáshoz az értékeket 0,001-gyel kellene megszorozni.';
 
@@ -1075,6 +1064,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Termelt villamos energia';
+
+  @override
+  String get enableCounterViewsMerging => 'Az azonos mérőszámmal rendelkező villamosenergia-mérők összesítése';
 
   @override
   String get enterComment => 'Adjon meg egy jegyzetet';
@@ -3125,7 +3117,18 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get waterSupplier => 'Vízszolgáltató';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Ön már bejelentkezett.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Kérjük, hozzon létre egy EHW+ fiókot, vagy jelentkezzen be, hogy folytatni tudja.';
+
+  @override
   String get waterSupplierHint => 'Az Ön helyi vízszolgáltatója, pl. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Kérjük, jelentkezzen be újra, hogy továbbra is használhassa meglévő intelligens vízmérőit.';
 
   @override
   String get waterSupplierUnknown =>

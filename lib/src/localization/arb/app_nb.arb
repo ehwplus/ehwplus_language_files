@@ -303,6 +303,7 @@
   "electricityBack": "Elektrisitet matet inn",
   "electricityConsumption": "Strømforbruk",
   "electricityGenerated": "Generert elektrisitet",
+  "enableCounterViewsMerging": "Oppsummering av strømmålere med samme målernummer",
   "enterComment": "Skriv inn et notat",
   "enterExistingReadingAgain": "Gå inn i gammel lesing på nytt",
   "enterObjectName": "Gi det nye objektet et navn",

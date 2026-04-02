@@ -303,6 +303,7 @@
   "electricityBack": "बिजली आ गई",
   "electricityConsumption": "बिजली की खपत",
   "electricityGenerated": "बिजली पैदा की",
+  "enableCounterViewsMerging": "एक ही मीटर नंबर वाले बिजली मीटरों को समूहबद्ध करें",
   "enterComment": "एक नोट दर्ज करें",
   "enterExistingReadingAgain": "पुरानी रीडिंग दोबारा दर्ज करें",
   "enterObjectName": "नई वस्तु को नाम दें",

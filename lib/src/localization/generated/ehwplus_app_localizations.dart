@@ -1869,24 +1869,6 @@ abstract class EhwplusAppLocalizations {
   /// **'Create account/login'**
   String get createAccount;
 
-  /// No description provided for @waterSupplierAlreadySignedIn.
-  ///
-  /// In en, this message translates to:
-  /// **'You are already signed in.'**
-  String get waterSupplierAlreadySignedIn;
-
-  /// No description provided for @waterSupplierCreateAccountRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'Please create an EHW+ account or sign in so you can continue.'**
-  String get waterSupplierCreateAccountRequired;
-
-  /// No description provided for @waterSupplierReauthenticationRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'Please sign in again to continue using your existing smart water meters.'**
-  String get waterSupplierReauthenticationRequired;
-
   /// No description provided for @csvImportWithFactor.
   ///
   /// In en, this message translates to:
@@ -2030,6 +2012,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Generated electricity'**
   String get electricityGenerated;
+
+  /// No description provided for @enableCounterViewsMerging.
+  ///
+  /// In en, this message translates to:
+  /// **'Combine electricity meters with the same meter number'**
+  String get enableCounterViewsMerging;
 
   /// No description provided for @enterComment.
   ///
@@ -5457,11 +5445,29 @@ abstract class EhwplusAppLocalizations {
   /// **'Water supplier'**
   String get waterSupplier;
 
+  /// No description provided for @waterSupplierAlreadySignedIn.
+  ///
+  /// In en, this message translates to:
+  /// **'You are already signed in.'**
+  String get waterSupplierAlreadySignedIn;
+
+  /// No description provided for @waterSupplierCreateAccountRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please create an EHW+ account or sign in so you can continue.'**
+  String get waterSupplierCreateAccountRequired;
+
   /// No description provided for @waterSupplierHint.
   ///
   /// In en, this message translates to:
   /// **'Your local water supplier, e.g. Stadtwerke Musterstadt'**
   String get waterSupplierHint;
+
+  /// No description provided for @waterSupplierReauthenticationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please sign in again to continue using your existing smart water meters.'**
+  String get waterSupplierReauthenticationRequired;
 
   /// No description provided for @waterSupplierUnknown.
   ///

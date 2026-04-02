@@ -304,6 +304,7 @@
   "electricityBack": "Přivedena elektřina",
   "electricityConsumption": "Spotřeba energie",
   "electricityGenerated": "Vyrobená elektřina",
+  "enableCounterViewsMerging": "Souhrn elektroměrů se stejným číslem elektroměru",
   "enterComment": "Zadejte poznámku",
   "enterExistingReadingAgain": "Znovu zadejte staré čtení",
   "enterObjectName": "Pojmenujte nový objekt",

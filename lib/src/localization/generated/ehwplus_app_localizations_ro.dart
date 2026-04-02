@@ -983,17 +983,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get createAccount => 'Creați cont/login';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Sunteți deja conectat.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Vă rugăm să creați un cont EHW+ sau să vă conectați pentru a putea continua.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Vă rugăm să vă autentificați din nou pentru a continua să utilizați contoarele inteligente de apă existente.';
-
-  @override
   String get csvImportWithFactor =>
       'Ar trebui ca citirile contorului să fie înmulțite cu un factor care nu este egal cu 1,0? De exemplu, pentru a converti valorile din Wh în kWh, acestea ar trebui să fie înmulțite cu 0,001.';
 
@@ -1077,6 +1066,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Electricitate generată';
+
+  @override
+  String get enableCounterViewsMerging => 'Sumarizarea contoarelor de energie electrică cu același număr de contor';
 
   @override
   String get enterComment => 'Introduceți o notă';
@@ -3124,7 +3116,18 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get waterSupplier => 'Furnizor de apă';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Sunteți deja conectat.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Vă rugăm să creați un cont EHW+ sau să vă conectați pentru a putea continua.';
+
+  @override
   String get waterSupplierHint => 'Furnizorul dumneavoastră local de apă, de exemplu Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Vă rugăm să vă autentificați din nou pentru a continua să utilizați contoarele inteligente de apă existente.';
 
   @override
   String get waterSupplierUnknown =>

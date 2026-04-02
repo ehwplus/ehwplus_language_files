@@ -303,6 +303,7 @@
   "electricityBack": "လျှပ်စစ်ဓာတ်အားအတွက်ကျွေးမွေး",
   "electricityConsumption": "စွမ်းအင်သုံးစွဲမှု",
   "electricityGenerated": "လျှပ်စစ်ဓာတ်အားထုတ်လုပ်လိုက်ပါတယ်",
+  "enableCounterViewsMerging": "မီတာနံပါတ်တူသော အုပ်စုအလိုက် လျှပ်စစ်မီတာများ",
   "enterComment": "မှတ်စုတစ်ခုထည့်ပါ",
   "enterExistingReadingAgain": "စာဖတ်ခြင်းကိုပြန်လည်ထည့်သွင်းပါ",
   "enterObjectName": "အရာဝတ်ထုအသစ်ကိုဖော်ပြပါ",

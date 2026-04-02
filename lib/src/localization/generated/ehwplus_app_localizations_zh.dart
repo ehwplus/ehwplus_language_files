@@ -955,15 +955,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get createAccount => '创建帐户/登录';
 
   @override
-  String get waterSupplierAlreadySignedIn => '您已登录。';
-
-  @override
-  String get waterSupplierCreateAccountRequired => '请创建 EHW+ 账户或登录，以便继续。';
-
-  @override
-  String get waterSupplierReauthenticationRequired => '请再次登录以继续使用现有的智能水表。';
-
-  @override
   String get csvImportWithFactor => '仪表读数是否应该乘以不等于 1.0 的系数？例如，要将值从 Wh 转换为 kWh，必须乘以 0.001。';
 
   @override
@@ -1046,6 +1037,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => '发电量';
+
+  @override
+  String get enableCounterViewsMerging => '汇总具有相同电表编号的电表';
 
   @override
   String get enterComment => '输入注释';
@@ -3009,7 +3003,16 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get waterSupplier => '水供应商';
 
   @override
+  String get waterSupplierAlreadySignedIn => '您已登录。';
+
+  @override
+  String get waterSupplierCreateAccountRequired => '请创建 EHW+ 账户或登录，以便继续。';
+
+  @override
   String get waterSupplierHint => '当地供水公司，如 Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired => '请再次登录以继续使用现有的智能水表。';
 
   @override
   String get waterSupplierUnknown => '很遗憾，我们还不知道您的供水商。请随时写信给我们。仅提供电力和燃气的供应商不在此处显示。';

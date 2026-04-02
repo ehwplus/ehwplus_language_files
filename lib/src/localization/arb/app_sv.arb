@@ -303,6 +303,7 @@
   "electricityBack": "El matas in",
   "electricityConsumption": "Energiförbrukning",
   "electricityGenerated": "Genererad el",
+  "enableCounterViewsMerging": "Sammanfatta elmätare med samma mätarnummer",
   "enterComment": "Ange en anteckning",
   "enterExistingReadingAgain": "Gå in i gammal läsning igen",
   "enterObjectName": "Ge det nya objektet ett namn",

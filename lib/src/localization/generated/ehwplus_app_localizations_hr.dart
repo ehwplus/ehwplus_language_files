@@ -981,17 +981,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get createAccount => 'Kreirajte račun/prijavite se';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Već ste prijavljeni.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Molimo, otvorite EHW+ račun ili se prijavite kako biste mogli nastaviti.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Molimo prijavite se ponovno kako biste nastavili koristiti postojeće pametne vodomjere.';
-
-  @override
   String get csvImportWithFactor =>
       'Trebaju li očitanja brojila pomnožiti faktorom koji nije jednak 1,0?Na primjer, da biste pretvorili vrijednosti iz Wh u kWh, one bi se morale pomnožiti s 0,001.';
 
@@ -1075,6 +1064,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Proizvedena električna energija';
+
+  @override
+  String get enableCounterViewsMerging => 'Grupni električni brojila s istim brojem brojila';
 
   @override
   String get enterComment => 'Unesite bilješku';
@@ -3119,7 +3111,18 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get waterSupplier => 'Pristavatelj vode';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Već ste prijavljeni.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Molimo, otvorite EHW+ račun ili se prijavite kako biste mogli nastaviti.';
+
+  @override
   String get waterSupplierHint => 'Vaš lokalni dobavljač vode, npr. Mock Town Municipal Utilities';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Molimo prijavite se ponovno kako biste nastavili koristiti postojeće pametne vodomjere.';
 
   @override
   String get waterSupplierUnknown =>

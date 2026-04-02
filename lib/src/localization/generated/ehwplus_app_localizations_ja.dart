@@ -965,15 +965,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get createAccount => 'アカウントの作成/ログイン';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'すでにサインインしています。';
-
-  @override
-  String get waterSupplierCreateAccountRequired => 'EHW+アカウントを作成するか、サインインしてください。';
-
-  @override
-  String get waterSupplierReauthenticationRequired => '既存のスマート水道メーターを引き続き使用するには、再度サインインしてください。';
-
-  @override
   String get csvImportWithFactor => 'メーターの測定値に 1.0 以外の係数を掛ける必要がありますか?たとえば、値を Wh から kWh に変換するには、0.001 を掛ける必要があります。';
 
   @override
@@ -1056,6 +1047,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => '発電した電力';
+
+  @override
+  String get enableCounterViewsMerging => '同じメーター番号の電気メーターをまとめる';
 
   @override
   String get enterComment => 'メモを入力してください';
@@ -3035,7 +3029,16 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get waterSupplier => '水サプライヤー';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'すでにサインインしています。';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'EHW+アカウントを作成するか、サインインしてください。';
+
+  @override
   String get waterSupplierHint => '地元の水道業者（例：Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired => '既存のスマート水道メーターを引き続き使用するには、再度サインインしてください。';
 
   @override
   String get waterSupplierUnknown => '残念ながら、私たちはまだあなたの水供給会社を知りません。お気軽にお問い合わせください。電気とガスのみの供給業者は、ここには表示されません。';

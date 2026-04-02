@@ -984,16 +984,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get createAccount => 'အကောင့် / login လုပ်ပါ';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'သင်သည် ယခုဝင်ရောက်ထားပြီးဖြစ်သည်။';
-
-  @override
-  String get waterSupplierCreateAccountRequired => 'ဆက်လက်ရန် EHW+ အကောင့်တစ်ခု ဖန်တီးပါ သို့မဟုတ် လော့ဂ်အင်ဝင်ပါ။';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'သင့်လက်ရှိ အသုံးပြုနေသော စမတ်ရေပမာဏတိုင်းတာကိရိယာများကို ဆက်လက်အသုံးပြုရန် ထပ်မံဝင်ရောက်ပါ။';
-
-  @override
   String get csvImportWithFactor =>
       '1.0 နှင့်ညီမျှသောအချက်တစ်ချက်ဖြင့်မီတာဖတ်သင့်သလား။ ဥပမာအားဖြင့်, တန်ဖိုးများကို WH မှ KWH သို့ပြောင်းရန် 0.001 မှမြှောက်ရန်လိုသည်။';
 
@@ -1077,6 +1067,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'လျှပ်စစ်ဓာတ်အားထုတ်လုပ်လိုက်ပါတယ်';
+
+  @override
+  String get enableCounterViewsMerging => 'မီတာနံပါတ်တူသော အုပ်စုအလိုက် လျှပ်စစ်မီတာများ';
 
   @override
   String get enterComment => 'မှတ်စုတစ်ခုထည့်ပါ';
@@ -3121,7 +3114,17 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get waterSupplier => 'ရေပေးသွင်းသူ';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'သင်သည် ယခုဝင်ရောက်ထားပြီးဖြစ်သည်။';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'ဆက်လက်ရန် EHW+ အကောင့်တစ်ခု ဖန်တီးပါ သို့မဟုတ် လော့ဂ်အင်ဝင်ပါ။';
+
+  @override
   String get waterSupplierHint => 'သင့်ဒေသခံ ရေပေးဝေသူ၊ ဥပမာ Mock Town မြို့နယ် ရေပေးဝေမှုဌာန';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'သင့်လက်ရှိ အသုံးပြုနေသော စမတ်ရေပမာဏတိုင်းတာကိရိယာများကို ဆက်လက်အသုံးပြုရန် ထပ်မံဝင်ရောက်ပါ။';
 
   @override
   String get waterSupplierUnknown =>

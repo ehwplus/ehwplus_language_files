@@ -985,17 +985,6 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get createAccount => 'Créer un compte';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Vous êtes déjà connecté.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Veuillez créer un compte CEP+ ou vous connecter pour pouvoir continuer.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Veuillez vous connecter à nouveau pour continuer à utiliser vos compteurs d\'eau intelligents existants.';
-
-  @override
   String get csvImportWithFactor =>
       'Les valeurs des compteurs doivent-elles être multipliées par un facteur différent de 1,0 ? Par exemple, pour convertir des valeurs de Wh en kWh, il faudrait multiplier par 0,001.';
 
@@ -1079,6 +1068,9 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Électricité produite';
+
+  @override
+  String get enableCounterViewsMerging => 'Regrouper les compteurs d\'électricité ayant le même numéro de compteur';
 
   @override
   String get enterComment => 'Saisir une note';
@@ -3131,7 +3123,18 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get waterSupplier => 'Fournisseur d\'eau';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Vous êtes déjà connecté.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Veuillez créer un compte CEP+ ou vous connecter pour pouvoir continuer.';
+
+  @override
   String get waterSupplierHint => 'Votre fournisseur d\'eau de proximité, p. ex. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Veuillez vous connecter à nouveau pour continuer à utiliser vos compteurs d\'eau intelligents existants.';
 
   @override
   String get waterSupplierUnknown =>

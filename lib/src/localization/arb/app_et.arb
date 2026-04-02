@@ -303,6 +303,7 @@
   "electricityBack": "Võrku antud elekter",
   "electricityConsumption": "Elektritarbimine",
   "electricityGenerated": "Toodetud elekter",
+  "enableCounterViewsMerging": "Sama arvesti numbriga elektriarvestite kokkuvõte",
   "enterComment": "Sisesta märkus",
   "enterExistingReadingAgain": "Sisesta vana näit uuesti",
   "enterObjectName": "Nimeta uus objekt",

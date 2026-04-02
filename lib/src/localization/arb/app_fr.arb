@@ -303,6 +303,7 @@
   "electricityBack": "Électricité injectée",
   "electricityConsumption": "Consommation d'électricité",
   "electricityGenerated": "Électricité produite",
+  "enableCounterViewsMerging": "Regrouper les compteurs d'électricité ayant le même numéro de compteur",
   "enterComment": "Saisir une note",
   "enterExistingReadingAgain": "Rentrer l'ancienne valeur",
   "enterObjectName": "Comment le bien doit-il être appelé ?",

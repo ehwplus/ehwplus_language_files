@@ -303,6 +303,7 @@
   "electricityBack": "电力输入",
   "electricityConsumption": "功耗",
   "electricityGenerated": "发电量",
+  "enableCounterViewsMerging": "汇总具有相同电表编号的电表",
   "enterComment": "输入注释",
   "enterExistingReadingAgain": "重新进入旧阅读",
   "enterObjectName": "为新对象命名",

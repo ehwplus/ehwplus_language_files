@@ -983,17 +983,6 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get createAccount => 'Створити обліковий запис/ввійти';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Ви вже зареєстровані.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Будь ласка, створіть обліковий запис EHW+ або увійдіть, щоб продовжити.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Будь ласка, увійдіть знову, щоб продовжити користуватися наявними розумними лічильниками води.';
-
-  @override
   String get csvImportWithFactor =>
       'Чи потрібно показники лічильника множити на коефіцієнт не рівний 1,0? Наприклад, щоб перевести значення з Вт-год у кВт-год, їх потрібно помножити на 0,001.';
 
@@ -1077,6 +1066,9 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Вироблена електроенергія';
+
+  @override
+  String get enableCounterViewsMerging => 'Підсумовувати лічильники електроенергії з однаковим номером лічильника';
 
   @override
   String get enterComment => 'Введіть примітку';
@@ -3133,7 +3125,18 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get waterSupplier => 'Постачальник води';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Ви вже зареєстровані.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Будь ласка, створіть обліковий запис EHW+ або увійдіть, щоб продовжити.';
+
+  @override
   String get waterSupplierHint => 'Місцевий постачальник води, наприклад, Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Будь ласка, увійдіть знову, щоб продовжити користуватися наявними розумними лічильниками води.';
 
   @override
   String get waterSupplierUnknown =>

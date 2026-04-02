@@ -303,6 +303,7 @@
   "electricityBack": "Электроэнергия, подаваемая в сеть",
   "electricityConsumption": "Потребляемая мощность",
   "electricityGenerated": "Выработанная электроэнергия",
+  "enableCounterViewsMerging": "Суммируйте показания счетчиков электроэнергии с одинаковыми номерами",
   "enterComment": "Введите примечание",
   "enterExistingReadingAgain": "Повторно ввести старое показание счетчика",
   "enterObjectName": "Как должен называться новый объект?",

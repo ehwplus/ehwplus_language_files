@@ -983,17 +983,6 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get createAccount => 'അക്കൗണ്ട്/ലോഗിൻ സൃഷ്ടിക്കുക';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'നിങ്ങൾ ഇതിനകം സൈൻ ഇൻ ചെയ്തിട്ടുണ്ട്.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'തുടരുന്നതിന് ദയവായി ഒരു EHW+ അക്കൗണ്ട് ഉണ്ടാക്കുകയോ സൈൻ ഇൻ ചെയ്യുകയോ ചെയ്യുക.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'നിങ്ങളുടെ നിലവിലുള്ള സ്മാർട്ട് വാട്ടർ മീറ്ററുകൾ തുടർന്നും ഉപയോഗിക്കുന്നതിന് ദയവായി വീണ്ടും സൈൻ ഇൻ ചെയ്യുക.';
-
-  @override
   String get csvImportWithFactor =>
       'മീറ്റർ റീഡിംഗുകൾ 1.0 ന് തുല്യമല്ലാത്ത ഒരു ഘടകം കൊണ്ട് ഗുണിക്കണോ? ഉദാഹരണത്തിന്, മൂല്യങ്ങളെ Wh-ൽ നിന്ന് kWh-ലേക്ക് പരിവർത്തനം ചെയ്യുന്നതിന്, അവയെ 0.001 കൊണ്ട് ഗുണിക്കേണ്ടതുണ്ട്.';
 
@@ -1077,6 +1066,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'വൈദ്യുതി ഉൽപാദിപ്പിച്ചു';
+
+  @override
+  String get enableCounterViewsMerging => 'ഒരേ മീറ്റർ നമ്പറുള്ള ഇലക്ട്രിസിറ്റി മീറ്ററുകൾ ഗ്രൂപ്പ് ചെയ്യുക';
 
   @override
   String get enterComment => 'ഒരു കുറിപ്പ് നൽകുക';
@@ -3121,7 +3113,18 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get waterSupplier => 'ജലവിതരണക്കാരൻ';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'നിങ്ങൾ ഇതിനകം സൈൻ ഇൻ ചെയ്തിട്ടുണ്ട്.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'തുടരുന്നതിന് ദയവായി ഒരു EHW+ അക്കൗണ്ട് ഉണ്ടാക്കുകയോ സൈൻ ഇൻ ചെയ്യുകയോ ചെയ്യുക.';
+
+  @override
   String get waterSupplierHint => 'നിങ്ങളുടെ പ്രാദേശിക ജലവിതരണക്കാരൻ, ഉദാ. മാക്ക് ടൗൺ മുനിസിപ്പൽ യൂട്ടിലിറ്റീസ്';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'നിങ്ങളുടെ നിലവിലുള്ള സ്മാർട്ട് വാട്ടർ മീറ്ററുകൾ തുടർന്നും ഉപയോഗിക്കുന്നതിന് ദയവായി വീണ്ടും സൈൻ ഇൻ ചെയ്യുക.';
 
   @override
   String get waterSupplierUnknown =>

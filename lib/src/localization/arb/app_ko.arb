@@ -303,6 +303,7 @@
   "electricityBack": "전기 역송전",
   "electricityConsumption": "전력 소비",
   "electricityGenerated": "전기 생산",
+  "enableCounterViewsMerging": "계량기 번호가 같은 전기 계량기 합산하기",
   "enterComment": "메모 입력",
   "enterExistingReadingAgain": "이전 지침 재입력",
   "enterObjectName": "새 객체의 이름을 입력하세요",

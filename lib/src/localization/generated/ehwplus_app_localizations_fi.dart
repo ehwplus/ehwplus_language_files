@@ -978,16 +978,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get createAccount => 'Luo tili/kirjaudu sisään';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Olet jo kirjautunut sisään.';
-
-  @override
-  String get waterSupplierCreateAccountRequired => 'Luo EHW+-tili tai kirjaudu sisään, jotta voit jatkaa.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Kirjaudu uudelleen sisään jatkaaksesi nykyisten älykkäiden vesimittareidesi käyttöä.';
-
-  @override
   String get csvImportWithFactor =>
       'Pitäisikö mittarin lukemat kertoa kertoimella, joka ei ole yhtä suuri kuin 1,0?Esimerkiksi Wh-arvojen muuntamiseksi kWh:iksi ne on kerrottava 0,001:llä.';
 
@@ -1071,6 +1061,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Tuotettu sähkö';
+
+  @override
+  String get enableCounterViewsMerging => 'Yhteenveto sähkömittareista, joilla on sama mittarinumero.';
 
   @override
   String get enterComment => 'Kirjoita muistiinpano';
@@ -3113,7 +3106,17 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get waterSupplier => 'Veden toimittaja';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Olet jo kirjautunut sisään.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Luo EHW+-tili tai kirjaudu sisään, jotta voit jatkaa.';
+
+  @override
   String get waterSupplierHint => 'Paikallinen vesilaitos, esim. Stadtwerke Musterstadt.';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Kirjaudu uudelleen sisään jatkaaksesi nykyisten älykkäiden vesimittareidesi käyttöä.';
 
   @override
   String get waterSupplierUnknown =>

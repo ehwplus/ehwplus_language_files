@@ -303,6 +303,7 @@
   "electricityBack": "Elektricitet tilført",
   "electricityConsumption": "Strømforbrug",
   "electricityGenerated": "Genereret elektricitet",
+  "enableCounterViewsMerging": "Opsummering af elmålere med samme målernummer",
   "enterComment": "Indtast en note",
   "enterExistingReadingAgain": "Indtast gammel læsning igen",
   "enterObjectName": "Navngiv det nye objekt",

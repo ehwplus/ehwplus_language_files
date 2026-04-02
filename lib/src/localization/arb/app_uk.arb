@@ -304,6 +304,7 @@
   "electricityBack": "Підведена електрика",
   "electricityConsumption": "Споживана потужність",
   "electricityGenerated": "Вироблена електроенергія",
+  "enableCounterViewsMerging": "Підсумовувати лічильники електроенергії з однаковим номером лічильника",
   "enterComment": "Введіть примітку",
   "enterExistingReadingAgain": "Повторно введіть старе читання",
   "enterObjectName": "Назвіть новий об’єкт",

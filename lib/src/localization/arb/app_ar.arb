@@ -303,6 +303,7 @@
   "electricityBack": "الكهرباء المُدخلة",
   "electricityConsumption": "استهلاك الطاقة",
   "electricityGenerated": "الكهرباء المُولدة",
+  "enableCounterViewsMerging": "تلخيص عدادات الكهرباء التي تحمل نفس رقم العداد",
   "enterComment": "أدخل ملاحظة",
   "enterExistingReadingAgain": "أعد إدخال القراءة القديمة",
   "enterObjectName": "اسم الكائن الجديد",

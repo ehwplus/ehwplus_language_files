@@ -991,17 +991,6 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get createAccount => 'Создать учётную запись';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Вы уже вошли в систему.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Пожалуйста, создайте учетную запись EHW+ или войдите в систему, чтобы продолжить.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Пожалуйста, войдите в систему еще раз, чтобы продолжить использование имеющихся интеллектуальных счетчиков воды.';
-
-  @override
   String get csvImportWithFactor =>
       'Должны ли показания счетчика умножаться на коэффициент, не равный 1,0? Например, для перевода значений из Вт-ч в кВт-ч их необходимо умножить на 0,001.';
 
@@ -1085,6 +1074,9 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Выработанная электроэнергия';
+
+  @override
+  String get enableCounterViewsMerging => 'Суммируйте показания счетчиков электроэнергии с одинаковыми номерами';
 
   @override
   String get enterComment => 'Введите примечание';
@@ -3148,7 +3140,18 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get waterSupplier => 'Поставщик воды';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Вы уже вошли в систему.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Пожалуйста, создайте учетную запись EHW+ или войдите в систему, чтобы продолжить.';
+
+  @override
   String get waterSupplierHint => 'Ваш местный поставщик воды, например, Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Пожалуйста, войдите в систему еще раз, чтобы продолжить использование имеющихся интеллектуальных счетчиков воды.';
 
   @override
   String get waterSupplierUnknown =>

@@ -303,6 +303,7 @@
   "electricityBack": "برق تغذیه شده",
   "electricityConsumption": "مصرف برق",
   "electricityGenerated": "برق تولید کرد",
+  "enableCounterViewsMerging": "کنتورهای برق گروهی با شماره کنتور یکسان",
   "enterComment": "یک یادداشت وارد کنید",
   "enterExistingReadingAgain": "قرائت قدیمی را دوباره وارد کنید",
   "enterObjectName": "شی جدید را نام ببرید",

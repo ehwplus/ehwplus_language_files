@@ -303,6 +303,7 @@
   "electricityBack": "Įvesta elektra",
   "electricityConsumption": "Energijos suvartojimas",
   "electricityGenerated": "Gaminama elektra",
+  "enableCounterViewsMerging": "Apibendrinti elektros skaitiklius, turinčius tą patį skaitiklio numerį",
   "enterComment": "Įveskite pastabą",
   "enterExistingReadingAgain": "Iš naujo įveskite seną skaitymą",
   "enterObjectName": "Pavadinkite naują objektą",

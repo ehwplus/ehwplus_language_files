@@ -980,17 +980,6 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   String get createAccount => 'Crear cuenta';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Ya has iniciado sesión.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Por favor, crea una cuenta EHW+ o inicia sesión para poder continuar.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Inicie sesión de nuevo para seguir utilizando sus contadores de agua inteligentes actuales.';
-
-  @override
   String get csvImportWithFactor =>
       '¿Hay que multiplicar las lecturas de los contadores por un factor que no sea igual a 1,0? Por ejemplo, para convertir los valores de Wh a kWh, habría que multiplicarlos por 0,001.';
 
@@ -1074,6 +1063,9 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Electricidad generada';
+
+  @override
+  String get enableCounterViewsMerging => 'Resumir los contadores de electricidad con el mismo número de contador';
 
   @override
   String get enterComment => 'Introduzca la nota';
@@ -3113,7 +3105,18 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   String get waterSupplier => 'Proveedor de agua';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Ya has iniciado sesión.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Por favor, crea una cuenta EHW+ o inicia sesión para poder continuar.';
+
+  @override
   String get waterSupplierHint => 'Su proveedor local de agua, por ejemplo, Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Inicie sesión de nuevo para seguir utilizando sus contadores de agua inteligentes actuales.';
 
   @override
   String get waterSupplierUnknown =>

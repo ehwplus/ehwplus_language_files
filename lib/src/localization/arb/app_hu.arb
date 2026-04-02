@@ -303,6 +303,7 @@
   "electricityBack": "Betáplált villamos energia",
   "electricityConsumption": "Energiafogyasztás",
   "electricityGenerated": "Termelt villamos energia",
+  "enableCounterViewsMerging": "Az azonos mérőszámmal rendelkező villamosenergia-mérők összesítése",
   "enterComment": "Adjon meg egy jegyzetet",
   "enterExistingReadingAgain": "Régi olvasás újbóli bevitele",
   "enterObjectName": "Az új objektum neve",

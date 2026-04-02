@@ -303,6 +303,7 @@
   "electricityBack": "Уведена струја",
   "electricityConsumption": "Потрошња енергије",
   "electricityGenerated": "Произведена електрична енергија",
+  "enableCounterViewsMerging": "Групе електричних бројила са истим бројем бројила",
   "enterComment": "Унесите белешку",
   "enterExistingReadingAgain": "Поново унесите старо читање",
   "enterObjectName": "Именујте нови објекат",

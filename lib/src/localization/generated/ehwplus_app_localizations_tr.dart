@@ -982,17 +982,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get createAccount => 'Hesap oluştur/giriş yap';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Zaten oturum açtınız.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Devam edebilmek için lütfen bir EHW+ hesabı oluşturun veya oturum açın.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Mevcut akıllı su sayaçlarınızı kullanmaya devam etmek için lütfen tekrar oturum açın.';
-
-  @override
   String get csvImportWithFactor =>
       'Sayaç okumaları 1,0\'a eşit olmayan bir faktörle çarpılmalı mı? Örneğin, değerleri Wh\'den kWh\'ye dönüştürmek için bunların 0,001 ile çarpılması gerekir.';
 
@@ -1076,6 +1065,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Üretilen elektrik';
+
+  @override
+  String get enableCounterViewsMerging => 'Aynı sayaç numarasına sahip elektrik sayaçlarını özetleyin';
 
   @override
   String get enterComment => 'Bir not girin';
@@ -3115,7 +3107,18 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get waterSupplier => 'Su tedarikçisi';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Zaten oturum açtınız.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Devam edebilmek için lütfen bir EHW+ hesabı oluşturun veya oturum açın.';
+
+  @override
   String get waterSupplierHint => 'Yerel su tedarikçiniz, örneğin Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Mevcut akıllı su sayaçlarınızı kullanmaya devam etmek için lütfen tekrar oturum açın.';
 
   @override
   String get waterSupplierUnknown =>

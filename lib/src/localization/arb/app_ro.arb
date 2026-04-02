@@ -303,6 +303,7 @@
   "electricityBack": "Electricitate introdusă",
   "electricityConsumption": "Consumul de energie",
   "electricityGenerated": "Electricitate generată",
+  "enableCounterViewsMerging": "Sumarizarea contoarelor de energie electrică cu același număr de contor",
   "enterComment": "Introduceți o notă",
   "enterExistingReadingAgain": "Reintroduceți vechea lectură",
   "enterObjectName": "Numiți noul obiect",

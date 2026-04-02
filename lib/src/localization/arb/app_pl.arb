@@ -303,6 +303,7 @@
   "electricityBack": "Zasilanie elektryczne",
   "electricityConsumption": "Zużycie energii",
   "electricityGenerated": "Wytworzona energia elektryczna",
+  "enableCounterViewsMerging": "Zestawienie liczników energii elektrycznej z tym samym numerem licznika",
   "enterComment": "Wprowadź notatkę",
   "enterExistingReadingAgain": "Ponowne wprowadzenie starego odczytu",
   "enterObjectName": "Nazwa nowego obiektu",

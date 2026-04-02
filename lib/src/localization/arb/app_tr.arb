@@ -303,6 +303,7 @@
   "electricityBack": "Elektrik beslendi",
   "electricityConsumption": "Güç tüketimi",
   "electricityGenerated": "Üretilen elektrik",
+  "enableCounterViewsMerging": "Aynı sayaç numarasına sahip elektrik sayaçlarını özetleyin",
   "enterComment": "Bir not girin",
   "enterExistingReadingAgain": "Eski okumaya yeniden girin",
   "enterObjectName": "Yeni nesneyi adlandırın",

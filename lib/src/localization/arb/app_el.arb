@@ -303,6 +303,7 @@
   "electricityBack": "Ηλεκτρική ενέργεια που τροφοδοτείται",
   "electricityConsumption": "Κατανάλωση ενέργειας",
   "electricityGenerated": "Παραγόμενη ηλεκτρική ενέργεια",
+  "enableCounterViewsMerging": "Συγκεντρωτικοί μετρητές ηλεκτρικής ενέργειας με τον ίδιο αριθμό μετρητή",
   "enterComment": "Εισάγετε μια σημείωση",
   "enterExistingReadingAgain": "Επανεισαγωγή παλαιάς ανάγνωσης",
   "enterObjectName": "Ονομάστε το νέο αντικείμενο",

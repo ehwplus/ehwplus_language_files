@@ -976,16 +976,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get createAccount => 'สร้างบัญชี/เข้าสู่ระบบ';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'คุณได้ลงชื่อเข้าใช้แล้ว';
-
-  @override
-  String get waterSupplierCreateAccountRequired => 'กรุณาสร้างบัญชี EHW+ หรือลงชื่อเข้าใช้เพื่อดำเนินการต่อ';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'กรุณาลงชื่อเข้าใช้ใหม่เพื่อดำเนินการต่อในการใช้มาตรวัดน้ำอัจฉริยะของคุณ';
-
-  @override
   String get csvImportWithFactor =>
       'การอ่านค่ามิเตอร์ควรคูณด้วยปัจจัยที่ไม่เท่ากับ 1.0 หรือไม่? ตัวอย่างเช่น หากต้องการแปลงค่าจาก Wh เป็น kWh จะต้องคูณด้วย 0.001';
 
@@ -1069,6 +1059,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'ผลิตไฟฟ้า';
+
+  @override
+  String get enableCounterViewsMerging => 'มิเตอร์ไฟฟ้าแบบกลุ่มที่มีหมายเลขมิเตอร์เดียวกัน';
 
   @override
   String get enterComment => 'ป้อนบันทึก';
@@ -3106,7 +3099,17 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get waterSupplier => 'ผู้จัดหาน้ำ';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'คุณได้ลงชื่อเข้าใช้แล้ว';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'กรุณาสร้างบัญชี EHW+ หรือลงชื่อเข้าใช้เพื่อดำเนินการต่อ';
+
+  @override
   String get waterSupplierHint => 'ผู้จัดหาน้ำประปาท้องถิ่นของคุณ เช่น การประปาเทศบาลเมืองม็อคทาวน์';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'กรุณาลงชื่อเข้าใช้ใหม่เพื่อดำเนินการต่อในการใช้มาตรวัดน้ำอัจฉริยะของคุณ';
 
   @override
   String get waterSupplierUnknown =>

@@ -303,6 +303,7 @@
   "electricityBack": "Elektrisiteit ingevoer",
   "electricityConsumption": "Kragverbruik",
   "electricityGenerated": "Gegenereerde elektrisiteit",
+  "enableCounterViewsMerging": "Groep elektrisiteitsmeters met dieselfde meter nommer",
   "enterComment": "Voer 'n nota in",
   "enterExistingReadingAgain": "Voer ou lesing weer in",
   "enterObjectName": "Noem die nuwe objek",

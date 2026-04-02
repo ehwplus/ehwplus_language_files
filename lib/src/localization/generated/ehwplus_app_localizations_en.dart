@@ -979,16 +979,6 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get createAccount => 'Create account/login';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'You are already signed in.';
-
-  @override
-  String get waterSupplierCreateAccountRequired => 'Please create an EHW+ account or sign in so you can continue.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Please sign in again to continue using your existing smart water meters.';
-
-  @override
   String get csvImportWithFactor =>
       'Should the meter readings be multiplied by a factor not equal to 1.0? For example, to convert values from Wh to kWh, they would have to be multiplied by 0.001.';
 
@@ -1072,6 +1062,9 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Generated electricity';
+
+  @override
+  String get enableCounterViewsMerging => 'Combine electricity meters with the same meter number';
 
   @override
   String get enterComment => 'Enter a note';
@@ -3121,7 +3114,17 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get waterSupplier => 'Water supplier';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'You are already signed in.';
+
+  @override
+  String get waterSupplierCreateAccountRequired => 'Please create an EHW+ account or sign in so you can continue.';
+
+  @override
   String get waterSupplierHint => 'Your local water supplier, e.g. Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Please sign in again to continue using your existing smart water meters.';
 
   @override
   String get waterSupplierUnknown =>

@@ -303,6 +303,7 @@
   "electricityBack": "വൈദ്യുതി വിതരണം ചെയ്തു",
   "electricityConsumption": "വൈദ്യുതി ഉപഭോഗം",
   "electricityGenerated": "വൈദ്യുതി ഉൽപാദിപ്പിച്ചു",
+  "enableCounterViewsMerging": "ഒരേ മീറ്റർ നമ്പറുള്ള ഇലക്ട്രിസിറ്റി മീറ്ററുകൾ ഗ്രൂപ്പ് ചെയ്യുക",
   "enterComment": "ഒരു കുറിപ്പ് നൽകുക",
   "enterExistingReadingAgain": "പഴയ വായന വീണ്ടും നൽകുക",
   "enterObjectName": "പുതിയ വസ്തുവിന് പേര് നൽകുക",

@@ -303,6 +303,7 @@
   "electricityBack": "Подаден ток",
   "electricityConsumption": "Консумация на енергия",
   "electricityGenerated": "Произведен ток",
+  "enableCounterViewsMerging": "Обобщаване на електромери с един и същ номер на електромера",
   "enterComment": "Въведете бележка",
   "enterExistingReadingAgain": "Въведете отново старото отчитане",
   "enterObjectName": "Наименувайте новия обект",

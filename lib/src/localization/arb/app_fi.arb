@@ -303,6 +303,7 @@
   "electricityBack": "Sähkö syötetty",
   "electricityConsumption": "Virrankulutus",
   "electricityGenerated": "Tuotettu sähkö",
+  "enableCounterViewsMerging": "Yhteenveto sähkömittareista, joilla on sama mittarinumero.",
   "enterComment": "Kirjoita muistiinpano",
   "enterExistingReadingAgain": "Syötä vanha lukema uudelleen",
   "enterObjectName": "Nimeä uusi kohde",

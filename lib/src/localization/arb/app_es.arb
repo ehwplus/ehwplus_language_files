@@ -303,6 +303,7 @@
   "electricityBack": "Electricidad inyectada",
   "electricityConsumption": "Consumo de energía",
   "electricityGenerated": "Electricidad generada",
+  "enableCounterViewsMerging": "Resumir los contadores de electricidad con el mismo número de contador",
   "enterComment": "Introduzca la nota",
   "enterExistingReadingAgain": "Volver el valor anterior",
   "enterObjectName": "¿Cómo debe llamarse el nuevo objeto?",

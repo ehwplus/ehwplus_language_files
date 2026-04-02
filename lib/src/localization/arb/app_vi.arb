@@ -304,6 +304,7 @@
   "electricityBack": "Điện đưa vào",
   "electricityConsumption": "Tiêu thụ điện năng",
   "electricityGenerated": "Điện được tạo ra",
+  "enableCounterViewsMerging": "Gộp các đồng hồ điện có cùng số đồng hồ",
   "enterComment": "Nhập ghi chú",
   "enterExistingReadingAgain": "Nhập lại bài đọc cũ",
   "enterObjectName": "Đặt tên cho đối tượng mới",

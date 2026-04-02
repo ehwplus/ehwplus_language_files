@@ -303,6 +303,7 @@
   "electricityBack": "ไฟฟ้าป้อนเข้า",
   "electricityConsumption": "การใช้พลังงาน",
   "electricityGenerated": "ผลิตไฟฟ้า",
+  "enableCounterViewsMerging": "มิเตอร์ไฟฟ้าแบบกลุ่มที่มีหมายเลขมิเตอร์เดียวกัน",
   "enterComment": "ป้อนบันทึก",
   "enterExistingReadingAgain": "เข้าสู่การอ่านเก่าอีกครั้ง",
   "enterObjectName": "ตั้งชื่อวัตถุใหม่",

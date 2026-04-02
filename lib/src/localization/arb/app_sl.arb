@@ -303,6 +303,7 @@
   "electricityBack": "Napajana elektrika",
   "electricityConsumption": "Poraba energije",
   "electricityGenerated": "Proizvedena električna energija",
+  "enableCounterViewsMerging": "Povzetek števcev električne energije z isto številko števca",
   "enterComment": "Vnesite opombo",
   "enterExistingReadingAgain": "Ponovno vnesite staro branje",
   "enterObjectName": "Poimenujte nov predmet",

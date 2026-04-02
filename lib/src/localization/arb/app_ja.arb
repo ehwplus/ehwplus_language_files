@@ -303,6 +303,7 @@
   "electricityBack": "供給される電気",
   "electricityConsumption": "消費電力",
   "electricityGenerated": "発電した電力",
+  "enableCounterViewsMerging": "同じメーター番号の電気メーターをまとめる",
   "enterComment": "メモを入力してください",
   "enterExistingReadingAgain": "古い読みを再入力します",
   "enterObjectName": "新しいオブジェクトに名前を付けます",

@@ -980,17 +980,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get createAccount => 'Sukurti paskyrą/prisijungti';
 
   @override
-  String get waterSupplierAlreadySignedIn => 'Jau esate prisijungę.';
-
-  @override
-  String get waterSupplierCreateAccountRequired =>
-      'Sukurkite \"EHW+\" paskyrą arba prisijunkite, kad galėtumėte tęsti.';
-
-  @override
-  String get waterSupplierReauthenticationRequired =>
-      'Norint toliau naudotis esamais išmaniaisiais vandens skaitikliais, prisijunkite dar kartą.';
-
-  @override
   String get csvImportWithFactor =>
       'Ar skaitiklio rodmenis reikia padauginti iš koeficiento, kuris nėra lygus 1,0? Pavyzdžiui, norint konvertuoti reikšmes iš Wh į kWh, jas reikėtų padauginti iš 0,001.';
 
@@ -1074,6 +1063,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Gaminama elektra';
+
+  @override
+  String get enableCounterViewsMerging => 'Apibendrinti elektros skaitiklius, turinčius tą patį skaitiklio numerį';
 
   @override
   String get enterComment => 'Įveskite pastabą';
@@ -3125,7 +3117,18 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get waterSupplier => 'Vandens tiekėjas';
 
   @override
+  String get waterSupplierAlreadySignedIn => 'Jau esate prisijungę.';
+
+  @override
+  String get waterSupplierCreateAccountRequired =>
+      'Sukurkite \"EHW+\" paskyrą arba prisijunkite, kad galėtumėte tęsti.';
+
+  @override
   String get waterSupplierHint => 'Jūsų vietinis vandens tiekėjas, pvz., Stadtwerke Musterstadt';
+
+  @override
+  String get waterSupplierReauthenticationRequired =>
+      'Norint toliau naudotis esamais išmaniaisiais vandens skaitikliais, prisijunkite dar kartą.';
 
   @override
   String get waterSupplierUnknown =>
