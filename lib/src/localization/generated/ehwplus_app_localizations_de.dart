@@ -222,6 +222,111 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'COMET-Vorhersage-API vom Goethe-Institut verwenden';
 
   @override
+  String get goetheDataDonationHeader => 'Datenanfragen';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Entscheiden Sie, ob Sie Datenanfragen erhalten möchten und von welchen Arten von Organisationen bzw. zu welchen Zwecken diese kommen dürfen.';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Möchten Sie Datenanfragen erhalten?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Datenanfragen erhalten';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Alle Datenanfragen stehen im Kontext eines Forschungsprojekts. Es ist mit einer kleinen einstelligen Anzahl von Datenanfragen zu rechnen. Wird eine Datenanfrage akzeptiert, werden nur einmalig Daten übermittelt. Geteilt werden können Tagesverbrauchsreihen für einzelne Zähler.';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Wer darf Datenanfragen stellen?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitutes => 'Forschungsinstitute';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitCompanies => 'Gemeinnützige Firmen';
+
+  @override
+  String get goetheDataDonationAudienceCommercialCompanies => 'Sonstige Firmen';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Welche Zwecke?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Forschung';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Produktentwicklung';
+
+  @override
+  String get goetheDataDonationDisabled => 'Datenanfragen sind aktuell nicht verfügbar.';
+
+  @override
+  String get goetheDataDonationBackHome => 'Zur Startseite';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Es gibt neue Datenanfragen.';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Datenanfragen';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Die Datenanfragen konnten nicht geladen werden.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Aktivieren Sie zunächst Datenanfragen in den Einstellungen, um Anfragen sehen und bearbeiten zu können.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Einstellungen öffnen';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Aktuell gibt es keine Datenanfragen.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Unbearbeitete Datenanfragen';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Keine unbearbeiteten Datenanfragen.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Bestätigte Datenanfragen';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Keine bestätigten Datenanfragen.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Abgelehnte Datenanfragen';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Keine abgelehnten Datenanfragen.';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Ablehnen';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Bestätigen';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Datenanfragen';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Goethe-Research-Datenanfragen verwalten';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Datenanfrage';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Zähler';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adresse';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Erstellt am';
+
+  @override
   String get comment => 'Notiz';
 
   @override
