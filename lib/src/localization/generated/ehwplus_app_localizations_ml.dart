@@ -391,6 +391,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'പിശക് റിപ്പോർട്ടുകൾ';
 
   @override
+  String get consent5ErrorReporting =>
+      'ആപ്പ് വിശ്വസനീയമായി മെച്ചപ്പെടുത്തുന്നതിനായി, സാങ്കേതിക പിശക് റിപ്പോർട്ടുകൾ Sentry (സ്വയം ഹോസ്റ്റ് ചെയ്തത്) വഴി EHW+-ലേക്ക് അയയ്ക്കുന്നു. നിങ്ങൾ പിശക് റിപ്പോർട്ടിംഗ് പ്രവർത്തനരഹിതമാക്കുകയാണെങ്കിൽ, സംഭവിക്കുന്ന പിശകുകൾ ഞങ്ങളുടെ ശ്രദ്ധയിൽപ്പെടുകയില്ല, അതിനാൽ അവ പരിഹരിക്കാൻ ഞങ്ങൾക്ക് കഴിഞ്ഞേക്കില്ല.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'വൈദ്യുതി / വെള്ളം / ഗ്യാസ് വിലകൾ';
 
   @override
@@ -1221,6 +1225,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'EHW+ Services GmbH-ലേക്ക് ആപ്പിൻ്റെ ഉപയോഗത്തെക്കുറിച്ചുള്ള അജ്ഞാത ഡാറ്റ കൈമാറുന്നത് ഞാൻ അംഗീകരിക്കുന്നു.';
+
+  @override
+  String get errorReportingAgreement =>
+      'EHW+ സർവീസസ് GmbH-യിലേക്ക് സാങ്കേതിക പിശക് റിപ്പോർട്ടുകൾ കൈമാറുന്നതിനോട് ഞാൻ സമ്മതിക്കുന്നു.';
 
   @override
   String googleApiAgreement(String appNameShort) {

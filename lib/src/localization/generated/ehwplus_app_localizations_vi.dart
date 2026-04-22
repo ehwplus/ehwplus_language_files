@@ -392,6 +392,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Báo cáo lỗi';
 
   @override
+  String get consent5ErrorReporting =>
+      'Để cải thiện ứng dụng một cách hiệu quả, các báo cáo lỗi kỹ thuật sẽ được gửi đến EHW+ thông qua Sentry (phiên bản tự lưu trữ). Nếu bạn tắt tính năng báo cáo lỗi, chúng tôi có thể không phát hiện được các lỗi đang xảy ra và do đó có thể không khắc phục được chúng.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Giá điện/nước/gas';
 
   @override
@@ -1219,6 +1223,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Tôi đồng ý truyền dữ liệu ẩn danh về việc sử dụng ứng dụng tới EHW+ Services GmbH.';
+
+  @override
+  String get errorReportingAgreement => 'Tôi đồng ý với việc gửi các báo cáo lỗi kỹ thuật đến EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {

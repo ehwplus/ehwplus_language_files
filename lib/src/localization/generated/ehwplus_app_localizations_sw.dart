@@ -388,6 +388,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Ripoti za makosa';
 
   @override
+  String get consent5ErrorReporting =>
+      'Ili kuboresha programu kwa uhakika, ripoti za makosa ya kiufundi zinatumwa kwa EHW+ kupitia Sentry (iliyohifadhiwa wenyewe). Ikiwa utazima utoaji wa ripoti za makosa, huenda hatutagundua makosa yanayotokea na kwa hivyo huenda tusipate uwezo wa kuyarekebisha.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Bei ya umeme / maji / gesi';
 
   @override
@@ -1212,6 +1216,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Ninakubali utumaji wa data isiyojulikana kuhusu matumizi ya programu kwa EHW+ Services GmbH.';
+
+  @override
+  String get errorReportingAgreement => 'Nakubali utumaji wa ripoti za makosa ya kiufundi kwa EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {

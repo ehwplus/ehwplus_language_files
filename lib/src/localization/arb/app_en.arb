@@ -151,6 +151,7 @@
   "consent3Video": "Would you like to watch a short introduction video?",
   "consent4BeforeYouCanContinue": "Before you can continue",
   "consent5ErrorReportingTitle": "Error reports",
+  "consent5ErrorReporting": "To improve the app reliably, technical error reports are sent to EHW+ via Sentry (self-hosted). If you disable error reporting, we may not notice occurring errors and therefore may not be able to fix them.",
   "consent6ContractPricesPerUnitTitle": "Electricity / water / gas prices",
   "consent7ContractPricesPerUnit": "In order to be able to estimate how much you are currently paying compared to other EHW+ users, the prices are transferred to the EHW+ server in Germany together with the country and state. Only if you agree to the transfer, you have access to the price statistics. To ensure anonymity, statistics can only be shown after a minimum number of transmitted prices.",
   "consentTitle": "Privacy Settings",
@@ -498,6 +499,7 @@
   "gas": "Gas",
   "generated": "Generated",
   "googleAnalyticsAgreement": "I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.",
+  "errorReportingAgreement": "I agree to the transmission of technical error reports to EHW+ Services GmbH.",
   "googleApiAgreement": "{appNameShort}’s use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.",
   "@googleApiAgreement": {
     "placeholders": {

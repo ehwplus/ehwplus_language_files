@@ -388,6 +388,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Virheraportit';
 
   @override
+  String get consent5ErrorReporting =>
+      'Jotta sovellusta voidaan parantaa luotettavasti, tekniset virheilmoitukset lähetetään EHW+:lle Sentryn kautta (itse isännöity). Jos poistat virheraportoinnin käytöstä, emme välttämättä huomaa esiintyviä virheitä emmekä siksi pysty korjaamaan niitä.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Sähkön/veden/kaasun hinnat';
 
   @override
@@ -1214,6 +1218,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Hyväksyn sovelluksen käyttöä koskevien anonymisoitujen tietojen siirtämisen EHW+ Services GmbH:lle.';
+
+  @override
+  String get errorReportingAgreement => 'Hyväksyn teknisten vikailmoitusten lähettämisen EHW+ Services GmbH:lle.';
 
   @override
   String googleApiAgreement(String appNameShort) {

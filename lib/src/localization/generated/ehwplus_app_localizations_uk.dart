@@ -391,6 +391,10 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Звіти про помилки';
 
   @override
+  String get consent5ErrorReporting =>
+      'Для надійного покращення додатку, звіти про технічні помилки надсилаються до EHW+ через Sentry (на власному хостингу). Якщо ви вимкнете повідомлення про помилки, ми можемо не помітити помилки, що виникають, і, відповідно, не зможемо їх виправити.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Ціни на електроенергію/воду/газ';
 
   @override
@@ -1220,6 +1224,9 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Я погоджуюся на передачу анонімних даних про використання програми EHW+ Services GmbH.';
+
+  @override
+  String get errorReportingAgreement => 'Я погоджуюся на передачу звітів про технічні помилки до EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {

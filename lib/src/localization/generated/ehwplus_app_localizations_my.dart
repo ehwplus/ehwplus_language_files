@@ -392,6 +392,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'အမှားအစီရင်ခံစာများ';
 
   @override
+  String get consent5ErrorReporting =>
+      'အက်ပ်ကို ယုံကြည်စိတ်ချစွာ တိုးတက်ကောင်းမွန်အောင် ပြုလုပ်ရန် Sentry (ကိုယ်ပိုင်ဟိုစ့်) မှတဆင့် နည်းပညာဆိုင်ရာ အမှားအစီရင်ခံစာများကို EHW+ သို့ ပို့ဆောင်ပါသည်။ အမှားအစီရင်ခံတင်ပြခြင်းကို ပိတ်ထားပါက ဖြစ်ပေါ်နေသော အမှားများကို မသိရှိနိုင်သဖြင့် ပြင်ဆင်၍ မရနိုင်ပါ။';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'လျှပ်စစ် / ရေ / သဘာဝဓာတ်ငွေ့ဈေးနှုန်းများ';
 
   @override
@@ -1222,6 +1226,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'EHW+ Services GmbH သို့ အက်ပ်အသုံးပြုမှုနှင့်ပတ်သက်သည့် အမည်မသိဒေတာများ ပေးပို့ခြင်းကို ကျွန်ုပ်သဘောတူပါသည်။';
+
+  @override
+  String get errorReportingAgreement =>
+      'ကျွန်ုပ်သည် နည်းပညာဆိုင်ရာ အမှားအစီရင်ခံစာများကို EHW+ Services GmbH သို့ ပို့ဆောင်ခြင်းကို သဘောတူပါသည်။';
 
   @override
   String googleApiAgreement(String appNameShort) {

@@ -390,6 +390,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Hibajelentések';
 
   @override
+  String get consent5ErrorReporting =>
+      'Az alkalmazás megbízható javítása érdekében a technikai hibajelentéseket a Sentryn keresztül (saját tárhelyen) küldi az EHW+-nak. Ha kikapcsolja a hibajelentést, előfordulhat, hogy nem vesszük észre az előforduló hibákat, és ezért nem tudjuk kijavítani azokat.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Villany / víz / gáz ára';
 
   @override
@@ -1219,6 +1223,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Hozzájárulok az alkalmazás használatával kapcsolatos anonimizált adatok továbbításához az EHW+ Services GmbH részére.';
+
+  @override
+  String get errorReportingAgreement =>
+      'Hozzájárulok a technikai hibajelentések továbbításához az EHW+ Services GmbH részére.';
 
   @override
   String googleApiAgreement(String appNameShort) {

@@ -389,6 +389,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Pranešimai apie klaidas';
 
   @override
+  String get consent5ErrorReporting =>
+      'Siekiant patikimai tobulinti programėlę, techninės klaidų ataskaitos siunčiamos į \"EHW+\" per \"Sentry\" (savarankiškai). Jei išjungsite pranešimus apie klaidas, galime nepastebėti atsiradusių klaidų ir todėl negalėsime jų ištaisyti.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Elektros/vanduo/dujų kainos';
 
   @override
@@ -1216,6 +1220,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Sutinku, kad „EHW+ Services GmbH“ būtų perduoti anoniminiai duomenys apie programėlės naudojimą.';
+
+  @override
+  String get errorReportingAgreement =>
+      'Sutinku, kad pranešimai apie technines klaidas būtų perduodami bendrovei \"EHW+ Services GmbH\".';
 
   @override
   String googleApiAgreement(String appNameShort) {

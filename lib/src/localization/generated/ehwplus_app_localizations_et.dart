@@ -386,6 +386,10 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Vigade aruanded';
 
   @override
+  String get consent5ErrorReporting =>
+      'Rakenduse usaldusväärseks parandamiseks saadetakse tehnilised veateated EHW+-le Sentry kaudu (isehostitav). Kui te keelate veateavituse, ei pruugi me tekkivaid vigu märgata ja seetõttu ei pruugi me neid parandada.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Elektri / vee / gaasi hinnad';
 
   @override
@@ -1218,6 +1222,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Nõustun rakenduse kasutamise kohta anonüümseks muudetud andmete edastamisega ettevõttele EHW+ Services GmbH.';
+
+  @override
+  String get errorReportingAgreement => 'Nõustun tehniliste veateadete edastamisega EHW+ Services GmbH-le.';
 
   @override
   String googleApiAgreement(String appNameShort) {

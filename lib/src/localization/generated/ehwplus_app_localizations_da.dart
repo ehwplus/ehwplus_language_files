@@ -388,6 +388,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Fejlrapporter';
 
   @override
+  String get consent5ErrorReporting =>
+      'For at forbedre appen på en pålidelig måde sendes tekniske fejlrapporter til EHW+ via Sentry (self-hosted). Hvis du deaktiverer fejlrapportering, opdager vi muligvis ikke fejl, der opstår, og kan derfor ikke rette dem.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'El / vand / gas priser';
 
   @override
@@ -1214,6 +1218,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Jeg accepterer overførsel af anonymiserede data om brugen af ​​appen til EHW+ Services GmbH.';
+
+  @override
+  String get errorReportingAgreement => 'Jeg accepterer overførslen af tekniske fejlrapporter til EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {

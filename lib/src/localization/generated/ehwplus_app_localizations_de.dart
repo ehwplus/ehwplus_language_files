@@ -391,6 +391,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => 'Fehlerberichte';
 
   @override
+  String get consent5ErrorReporting =>
+      'Für die zuverlässige Weiterentwicklung der App werden technische Fehlerberichte über Sentry (self-hosted) an EHW+ übermittelt. Wenn Sie Fehlerberichte deaktivieren, können wir auftretende Fehler möglicherweise nicht erkennen und dadurch nicht gezielt korrigieren.';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => 'Strom-/Wasser-/Gaspreise';
 
   @override
@@ -1217,6 +1221,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Ich bin mit der Übertragung von anonymisierter Daten über die Nutzung der App an EHW+ Services GmbH einverstanden.';
+
+  @override
+  String get errorReportingAgreement =>
+      'Ich stimme der Übermittlung technischer Fehlerberichte an EHW+ Services GmbH zu.';
 
   @override
   String googleApiAgreement(String appNameShort) {

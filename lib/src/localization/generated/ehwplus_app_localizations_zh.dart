@@ -376,6 +376,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get consent5ErrorReportingTitle => '错误报告';
 
   @override
+  String get consent5ErrorReporting =>
+      '为了可靠地改进应用程序，技术错误报告将通过 Sentry（自托管）发送至 EHW+。如果您禁用错误报告功能，我们可能无法注意到发生的错误，从而无法修复这些错误。';
+
+  @override
   String get consent6ContractPricesPerUnitTitle => '电/水/气价格';
 
   @override
@@ -1184,6 +1188,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get googleAnalyticsAgreement => '我同意将有关应用程序使用的匿名数据传输给 EHW+ Services GmbH。';
+
+  @override
+  String get errorReportingAgreement => '我同意向 EHW+ Services GmbH 发送技术错误报告。';
 
   @override
   String googleApiAgreement(String appNameShort) {

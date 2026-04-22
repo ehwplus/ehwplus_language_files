@@ -851,6 +851,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Error reports'**
   String get consent5ErrorReportingTitle;
 
+  /// No description provided for @consent5ErrorReporting.
+  ///
+  /// In en, this message translates to:
+  /// **'To improve the app reliably, technical error reports are sent to EHW+ via Sentry (self-hosted). If you disable error reporting, we may not notice occurring errors and therefore may not be able to fix them.'**
+  String get consent5ErrorReporting;
+
   /// No description provided for @consent6ContractPricesPerUnitTitle.
   ///
   /// In en, this message translates to:
@@ -2276,6 +2282,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.'**
   String get googleAnalyticsAgreement;
+
+  /// No description provided for @errorReportingAgreement.
+  ///
+  /// In en, this message translates to:
+  /// **'I agree to the transmission of technical error reports to EHW+ Services GmbH.'**
+  String get errorReportingAgreement;
 
   /// No description provided for @googleApiAgreement.
   ///
