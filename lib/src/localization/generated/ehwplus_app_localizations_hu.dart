@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Ajánlott havi előlegfizetés: $recommendedAmount a $currentAmount helyett';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount előlegének fizetési határideje a hónap $day. napja, $cadence.';
   }
@@ -766,6 +771,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Költségek összefoglalása';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Megtörtént előlegfizetések';
+
+  @override
+  String get costOverviewContractCostsBar =>
+      'Fogyasztás alapú költségek + alapdíjak a szerződéses időszakra vonatkozóan';
 
   @override
   String get costSummaryYield => 'Javadalmazási ár/alapár';

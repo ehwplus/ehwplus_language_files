@@ -143,6 +143,11 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return '建议的每月预付款金额：$recommendedAmount，而非 $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount 的预付款金额应于 $cadence 月份的第 $day 天支付。';
   }
@@ -745,6 +750,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => '费用汇总';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => '预付款';
+
+  @override
+  String get costOverviewContractCostsBar => '基于消耗的费用 + 合同期的基本费用';
 
   @override
   String get costSummaryYield => '报酬价格/-基本价格';

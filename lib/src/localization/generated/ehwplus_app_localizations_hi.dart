@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'अनुशंसित मासिक अग्रिम भुगतान: $recommendedAmount, $currentAmount के बजाय';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount की अग्रिम भुगतान राशि माह के $cadence दिन, $day को देय है।';
   }
@@ -766,6 +771,12 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'लागत सारांश';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'अग्रिम भुगतान किए गए';
+
+  @override
+  String get costOverviewContractCostsBar => 'उपभोग-आधारित लागतें + अनुबंध अवधि के लिए आधार शुल्क';
 
   @override
   String get costSummaryYield => 'पारिश्रमिक मूल्य/-आधार मूल्य';

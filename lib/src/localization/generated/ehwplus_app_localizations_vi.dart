@@ -148,6 +148,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Số tiền trả trước hàng tháng được khuyến nghị: $recommendedAmount thay vì $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Số tiền thanh toán trước của $amount phải được thanh toán vào ngày $day của tháng, $cadence.';
   }
@@ -768,6 +773,12 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Tóm tắt chi phí';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Các khoản thanh toán trước đã thực hiện';
+
+  @override
+  String get costOverviewContractCostsBar => 'Chi phí theo mức tiêu thụ + phí cơ bản trong thời gian hợp đồng';
 
   @override
   String get costSummaryYield => 'Giá thù lao/-giá cơ sở';

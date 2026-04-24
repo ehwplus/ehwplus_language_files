@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Önerilen aylık ön ödeme: $currentAmount yerine $recommendedAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount\'ın peşinat tutarı, $cadence adresindeki ayın $day. günü ödenmelidir.';
   }
@@ -767,6 +772,12 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Maliyet özeti';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Yapılan avans ödemeleri';
+
+  @override
+  String get costOverviewContractCostsBar => 'Tüketim bazlı maliyetler + sözleşme dönemi için baz ücretler';
 
   @override
   String get costSummaryYield => 'Ücret fiyatı/taban fiyatı';

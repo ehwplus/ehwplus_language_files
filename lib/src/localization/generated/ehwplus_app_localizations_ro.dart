@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Plata anticipată lunară recomandată: $recommendedAmount în loc de $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Suma avansului de la $amount trebuie achitată în ziua de $day a lunii, $cadence.';
   }
@@ -767,6 +772,12 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Rezumatul costurilor';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Plăți în avans efectuate';
+
+  @override
+  String get costOverviewContractCostsBar => 'Costuri bazate pe consum + taxe de bază pentru perioada contractuală';
 
   @override
   String get costSummaryYield => 'Prețul remunerației/prețul de bază';

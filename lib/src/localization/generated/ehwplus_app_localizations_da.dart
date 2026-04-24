@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Anbefalet månedligt forskud: $recommendedAmount i stedet for $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Forskuddet på $amount skal betales den $day. i måneden, $cadence.';
   }
@@ -764,6 +769,12 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Omkostningsoversigt';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Forudbetalinger foretaget';
+
+  @override
+  String get costOverviewContractCostsBar => 'Forbrugsbaserede omkostninger + basisgebyrer for kontraktperioden';
 
   @override
   String get costSummaryYield => 'Vederlagspris/-basispris';

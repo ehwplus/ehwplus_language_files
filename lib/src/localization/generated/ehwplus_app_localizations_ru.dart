@@ -145,6 +145,11 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Рекомендуемый ежемесячный авансовый платеж: $recommendedAmount вместо $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Сумма авансового платежа по адресу $amount подлежит уплате в день $day текущего месяца, $cadence.';
   }
@@ -776,6 +781,13 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Обзор расходов';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Авансовые платежи';
+
+  @override
+  String get costOverviewContractCostsBar =>
+      'Расходы на основе потребления + базовые платежи за период действия договора';
 
   @override
   String get costSummaryYield => 'Цена вознаграждения/- базовая цена';

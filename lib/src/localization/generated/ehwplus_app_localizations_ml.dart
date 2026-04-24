@@ -148,6 +148,11 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'ശുപാർശ ചെയ്യുന്ന പ്രതിമാസ മുൻകൂറടവ: $currentAmount എന്നതിന് പകരം $recommendedAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount-ൻ്റെ മുൻകൂറുള്ള തുക, $cadence-ലെ $day-ാം തീയതി നൽകേണ്ടതാണ്.';
   }
@@ -768,6 +773,12 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'ചെലവ് സംഗ്രഹം';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'മുൻകൂറായി അടവുകൾ നൽകിയിരിക്കുന്നു';
+
+  @override
+  String get costOverviewContractCostsBar => 'ഉപഭോഗം അടിസ്ഥാനമാക്കിയുള്ള ചെലവുകൾ + കരാർ കാലയളവിലെ അടിസ്ഥാന ഫീസുകൾ';
 
   @override
   String get costSummaryYield => 'പ്രതിഫല വില/-അടിസ്ഥാന വില';

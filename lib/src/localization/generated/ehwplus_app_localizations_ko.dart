@@ -144,6 +144,11 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return '권장 월 선납금: $currentAmount 대신 $recommendedAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount의 선불금은 $cadence년 월 $day일에 납부해야 합니다.';
   }
@@ -753,6 +758,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => '비용 요약';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => '선불 결제';
+
+  @override
+  String get costOverviewContractCostsBar => '사용량 기반 비용 + 계약 기간 동안의 기본 요금';
 
   @override
   String get costSummaryYield => '보상 단가/기본 요금';

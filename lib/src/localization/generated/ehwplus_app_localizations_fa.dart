@@ -145,6 +145,11 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'پرداخت ماهانه پیشنهادی: $recommendedAmount به جای $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'مبلغ پیش‌پرداخت $amount در روز $day ماه $cadence سررسید می‌شود.';
   }
@@ -763,6 +768,12 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'خلاصه هزینه';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'پرداخت‌های پیش‌پرداخت انجام شد';
+
+  @override
+  String get costOverviewContractCostsBar => 'هزینه‌های مبتنی بر مصرف + هزینه‌های پایه برای دوره قرارداد';
 
   @override
   String get costSummaryYield => 'قیمت جبرانی/قیمت پایه';

@@ -145,6 +145,11 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Pagamento anticipato mensile consigliato: $recommendedAmount anziché $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'L\'importo dell\'acconto di $amount deve essere versato il giorno $day del mese, $cadence.';
   }
@@ -765,6 +770,12 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Panoramica dei costi';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Pagamenti anticipati effettuati';
+
+  @override
+  String get costOverviewContractCostsBar => 'Costi basati sul consumo + canoni base per il periodo contrattuale';
 
   @override
   String get costSummaryYield => 'Prezzo di remunerazione/-prezzo base';

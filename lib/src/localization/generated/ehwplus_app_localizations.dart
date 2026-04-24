@@ -413,6 +413,12 @@ abstract class EhwplusAppLocalizations {
   /// **'The advance payment amount of {amount} is due on the last day of the month, {cadence}.'**
   String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence);
 
+  /// No description provided for @advancePaymentRecommendationMonthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended monthly advance payment: {recommendedAmount} instead of {currentAmount}'**
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount);
+
   /// No description provided for @advancePaymentRecurringDueWithAmount.
   ///
   /// In en, this message translates to:
@@ -1448,6 +1454,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Cost summary'**
   String get costSummary;
+
+  /// No description provided for @costOverviewAdvancePaymentsBar.
+  ///
+  /// In en, this message translates to:
+  /// **'Advance payments made'**
+  String get costOverviewAdvancePaymentsBar;
+
+  /// No description provided for @costOverviewContractCostsBar.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumption-based costs + base fees for the contract period'**
+  String get costOverviewContractCostsBar;
 
   /// No description provided for @costSummaryYield.
   ///

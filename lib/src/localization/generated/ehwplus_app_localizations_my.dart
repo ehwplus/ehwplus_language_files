@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'အကြံပြုလစဉ် ကြိုပေးချေမှု: $recommendedAmount ($currentAmount မဟုတ်)';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount အတွက် ကြိုပေးချေရမည့် ငွေပမာဏကို $cadence လ၏ $day ရက်နေ့တွင် ပေးဆောင်ရမည်။';
   }
@@ -768,6 +773,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'ကုန်ကျစရိတ်အကျဉ်းချုပ်';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'ကြိုပေးချေမှုများ ပြုလုပ်ပြီးပါပြီ။';
+
+  @override
+  String get costOverviewContractCostsBar => 'အသုံးပြုမှုအခြေပြုကုန်ကျစရိတ်များ + စာချုပ်ကာလအတွက် အခြေခံကြေးများ';
 
   @override
   String get costSummaryYield => 'လစာစျေးနှုန်း / -base စျေးနှုန်း';

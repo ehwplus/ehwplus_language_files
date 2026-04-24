@@ -81,6 +81,17 @@
       }
     }
   },
+  "advancePaymentRecommendationMonthly": "Recommended monthly advance payment: {recommendedAmount} instead of {currentAmount}",
+  "@advancePaymentRecommendationMonthly": {
+    "placeholders": {
+      "recommendedAmount": {
+        "type": "String"
+      },
+      "currentAmount": {
+        "type": "String"
+      }
+    }
+  },
   "advancePaymentRecurringDueWithAmount": "The advance payment amount of {amount} is due on day {day} of the month, {cadence}.",
   "@advancePaymentRecurringDueWithAmount": {
     "placeholders": {
@@ -316,6 +327,8 @@
   "contracts": "Contracts",
   "corresponds": "corresponds",
   "costSummary": "Cost summary",
+  "costOverviewAdvancePaymentsBar": "Advance payments made",
+  "costOverviewContractCostsBar": "Consumption-based costs + base fees for the contract period",
   "costSummaryYield": "Remuneration price/-base price",
   "costs": "Costs",
   "costsUndefinedColdWater": "Cold water fees",

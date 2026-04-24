@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Препоручена месечна унапред уплата: $recommendedAmount уместо $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Износ аванса од $amount доспева $day-ог дана у месецу $cadence.';
   }
@@ -765,6 +770,12 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Резиме трошкова';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Уплате извршене';
+
+  @override
+  String get costOverviewContractCostsBar => 'Трошкови засновани на потрошњи + основне накнаде за уговорни период';
 
   @override
   String get costSummaryYield => 'Цена накнаде/-основна цена';

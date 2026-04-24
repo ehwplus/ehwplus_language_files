@@ -81,6 +81,17 @@
       }
     }
   },
+  "advancePaymentRecommendationMonthly": "Empfohlener monatlicher Abschlag: {recommendedAmount} anstelle {currentAmount}",
+  "@advancePaymentRecommendationMonthly": {
+    "placeholders": {
+      "recommendedAmount": {
+        "type": "String"
+      },
+      "currentAmount": {
+        "type": "String"
+      }
+    }
+  },
   "advancePaymentRecurringDueWithAmount": "Der Abschlagsbetrag in Höhe von {amount} wird am {day}. Tag des Monats {cadence} fällig.",
   "@advancePaymentRecurringDueWithAmount": {
     "placeholders": {
@@ -263,6 +274,8 @@
   "contracts": "Verträge",
   "corresponds": "≙",
   "costSummary": "Kosten­überblick",
+  "costOverviewAdvancePaymentsBar": "Geleistete Vorauszahlungen",
+  "costOverviewContractCostsBar": "Verbrauchsabhängige Kosten + Grundgebühren für den Vertragszeitraum",
   "costSummaryYield": "Ertrags­überblick",
   "costs": "Kosten",
   "costsUndefinedColdWater": "Gebühren für Kaltwasser",

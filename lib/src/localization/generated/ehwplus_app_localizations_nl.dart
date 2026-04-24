@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Aanbevolen maandelijkse vooruitbetaling: $recommendedAmount in plaats van $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Het voorschotbedrag van $amount moet worden voldaan op dag $day van de maand, $cadence.';
   }
@@ -766,6 +771,13 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Kostenoverzicht';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Betaalde voorschotten';
+
+  @override
+  String get costOverviewContractCostsBar =>
+      'Op verbruik gebaseerde kosten + basisvergoedingen voor de contractperiode';
 
   @override
   String get costSummaryYield => 'Vergoedingsprijs/-basisprijs';

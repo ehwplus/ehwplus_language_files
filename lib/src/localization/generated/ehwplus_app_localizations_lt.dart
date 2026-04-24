@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Rekomenduojamas mėnesinis išankstinis mokėjimas: $recommendedAmount vietoj $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '„$amount“ avanso suma turi būti sumokėta kiekvieno mėnesio $day dieną, $cadence.';
   }
@@ -766,6 +771,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Išlaidų suvestinė';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Atlikti išankstiniai mokėjimai';
+
+  @override
+  String get costOverviewContractCostsBar =>
+      'Suvartojimu pagrįstos išlaidos + baziniai mokesčiai už sutarties laikotarpį';
 
   @override
   String get costSummaryYield => 'Atlyginimo kaina/-bazinė kaina';

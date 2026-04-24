@@ -145,6 +145,11 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'การชำระเงินล่วงหน้าแนะนำรายเดือน: $recommendedAmount แทนที่ $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'จำนวนเงินที่ต้องชำระล่วงหน้าของ $amount คือ  บาท ซึ่งต้องชำระในวันที่ $day ของเดือน $cadence';
   }
@@ -761,6 +766,12 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'สรุปค่าใช้จ่าย';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'การชำระเงินล่วงหน้า';
+
+  @override
+  String get costOverviewContractCostsBar => 'ค่าใช้จ่ายตามการบริโภค + ค่าธรรมเนียมพื้นฐานสำหรับระยะเวลาสัญญา';
 
   @override
   String get costSummaryYield => 'ราคาค่าตอบแทน/-ราคาฐาน';

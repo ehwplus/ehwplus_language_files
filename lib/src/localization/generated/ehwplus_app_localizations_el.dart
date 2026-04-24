@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Συνιστώμενη μηνιαία προκαταβολή: $recommendedAmount αντί για $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Το ποσό της προκαταβολής για το $amount πρέπει να καταβληθεί την ημέρα $day του μήνα, $cadence.';
   }
@@ -770,6 +775,12 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Σύνοψη κόστους';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Πραγματοποιηθείσες προκαταβολές';
+
+  @override
+  String get costOverviewContractCostsBar => 'Κόστος βάσει κατανάλωσης + βασικές αμοιβές για την περίοδο της σύμβασης';
 
   @override
   String get costSummaryYield => 'Τιμή αμοιβής/βασική τιμή';

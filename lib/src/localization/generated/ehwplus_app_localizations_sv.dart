@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Rekommenderad månatlig förskottsbetalning: $recommendedAmount istället för $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Förskottsbeloppet på $amount ska betalas den $day i månaden, $cadence.';
   }
@@ -764,6 +769,12 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Kostnadssammanställning';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Betalda förskott';
+
+  @override
+  String get costOverviewContractCostsBar => 'Förbrukningsbaserade kostnader + grundavgifter för avtalsperioden';
 
   @override
   String get costSummaryYield => 'Ersättningspris/-baspris';

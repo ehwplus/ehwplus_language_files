@@ -145,6 +145,11 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'الدفعة الشهرية الموصى بها: $recommendedAmount بدلاً من $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'يستحق دفع مبلغ الدفعة المسبقة لـ $amount في اليوم $day من الشهر $cadence.';
   }
@@ -761,6 +766,12 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'ملخص التكاليف';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'الدفعات المقدمة المدفوعة مقدماً';
+
+  @override
+  String get costOverviewContractCostsBar => 'التكاليف القائمة على الاستهلاك + الرسوم الأساسية لفترة العقد';
 
   @override
   String get costSummaryYield => 'سعر التعويض/السعر الأساسي';

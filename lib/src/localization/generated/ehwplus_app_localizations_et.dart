@@ -144,6 +144,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Soovitatav igakuine ettemakse: $recommendedAmount asemel $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '${amount}i ettemakse tuleb tasuda kuu $day. kuupäeval, $cadence.';
   }
@@ -767,6 +772,12 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Kulude kokkuvõte';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Tehtud ettemaksed';
+
+  @override
+  String get costOverviewContractCostsBar => 'Tarbimisepõhised kulud + põhitasud lepinguperioodi eest';
 
   @override
   String get costSummaryYield => 'Tasu hind/põhihind';

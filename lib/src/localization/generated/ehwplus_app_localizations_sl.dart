@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Priporočeni mesečni predplačni znesek: $recommendedAmount namesto $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Znesek predplačila v višini $amount je zapadel na dan $day v mesecu $cadence.';
   }
@@ -764,6 +769,12 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Povzetek stroškov';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Plačani predujmi';
+
+  @override
+  String get costOverviewContractCostsBar => 'Stroški na podlagi porabe + osnovne pristojbine za pogodbeno obdobje';
 
   @override
   String get costSummaryYield => 'Cena plačila/osnovna cena';

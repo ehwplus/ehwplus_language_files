@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Zalecana miesięczna przedpłata: $recommendedAmount zamiast $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Kwota zaliczki w wysokości $amount jest wymagalna w dniu $day bieżącego miesiąca, $cadence.';
   }
@@ -768,6 +773,13 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Podsumowanie kosztów';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Wpłacone zaliczki';
+
+  @override
+  String get costOverviewContractCostsBar =>
+      'Koszty oparte na zużyciu + opłaty podstawowe za okres obowiązywania umowy';
 
   @override
   String get costSummaryYield => 'Cena wynagrodzenia/cena bazowa';

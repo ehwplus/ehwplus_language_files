@@ -147,6 +147,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Malipo ya awali ya kila mwezi yanayopendekezwa: $recommendedAmount badala ya $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Kiasi cha malipo ya awali cha $amount kinapaswa kulipwa siku ya $day ya mwezi wa $cadence.';
   }
@@ -763,6 +768,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Muhtasari wa gharama';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Malipo ya awali yamefanywa';
+
+  @override
+  String get costOverviewContractCostsBar => 'Gharama zinazotegemea matumizi + ada za msingi kwa kipindi cha mkataba';
 
   @override
   String get costSummaryYield => 'Bei ya malipo/-Base Bei';

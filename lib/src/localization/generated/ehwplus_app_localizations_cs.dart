@@ -145,6 +145,11 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Doporučená měsíční záloha: $recommendedAmount namísto $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Částka zálohy ve výši $amount je splatná d$day. dne v měsíci, $cadence.';
   }
@@ -763,6 +768,12 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Přehled nákladů';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Poskytnuté zálohy';
+
+  @override
+  String get costOverviewContractCostsBar => 'Náklady na základě spotřeby + základní poplatky za smluvní období';
 
   @override
   String get costSummaryYield => 'Cena odměny/-základní cena';

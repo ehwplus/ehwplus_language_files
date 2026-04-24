@@ -144,6 +144,11 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return '推奨される毎月の前払い額：$currentAmount ではなく $recommendedAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amountの事前支払額は、$cadenceの当月$day日に支払期日が到来します。';
   }
@@ -751,6 +756,12 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'コストの概要';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => '前払い';
+
+  @override
+  String get costOverviewContractCostsBar => '消費ベースコスト＋契約期間中の基本料金';
 
   @override
   String get costSummaryYield => '報酬価格/-基本価格';

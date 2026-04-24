@@ -147,6 +147,11 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Рекомендована щомісячна передоплата: $recommendedAmount замість $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Сума авансового платежу за адресою $amount підлягає сплаті $day числа поточного місяця за адресою $cadence.';
   }
@@ -768,6 +773,12 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Підсумок витрат';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Здійснені авансові платежі';
+
+  @override
+  String get costOverviewContractCostsBar => 'Витрати на основі споживання + базова плата за період дії договору';
 
   @override
   String get costSummaryYield => 'Ціна винагороди/-базова ціна';

@@ -146,6 +146,11 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Suositeltu kuukausittainen ennakkomaksu: $recommendedAmount ($currentAmount:n sijaan)';
+  }
+
+  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amount:n ennakkomaksu erääntyy maksettavaksi kyseisen kuukauden päivänä $day, $cadence.';
   }
@@ -764,6 +769,12 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Kustannusten yhteenveto';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Maksetut ennakot';
+
+  @override
+  String get costOverviewContractCostsBar => 'Kulutusperusteiset kustannukset + perusmaksut sopimuskaudella';
 
   @override
   String get costSummaryYield => 'Palkkahinta/perushinta';
