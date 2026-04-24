@@ -110,6 +110,49 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get advancePayment => 'Thanh toán tạm ứng';
 
   @override
+  String get advancePaymentDueDay => 'Ngày đến hạn';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Ngày thứ$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Cuối tháng';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Ngày đến hạn đầu tiên (tùy chọn)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'Khoản thanh toán tạm ứng đầu tiên phải được thanh toán trong tháng bắt đầu hợp đồng.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Kỳ thanh toán tạm ứng đầu tiên phải được thực hiện vào ngày $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Hạn chót là ngày $day của tháng, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Hạn chót là ngày cuối cùng của tháng, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Số tiền thanh toán tạm ứng của $amount phải được thanh toán vào ngày cuối cùng của tháng, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Số tiền thanh toán trước của $amount phải được thanh toán vào ngày $day của tháng, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Thanh ứng dụng có hình nền';
 
   @override
@@ -389,11 +432,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Trước khi bạn có thể tiếp tục';
 
   @override
-  String get consent5ErrorReportingTitle => 'Báo cáo lỗi';
-
-  @override
   String get consent5ErrorReporting =>
       'Để cải thiện ứng dụng một cách hiệu quả, các báo cáo lỗi kỹ thuật sẽ được gửi đến EHW+ thông qua Sentry (phiên bản tự lưu trữ). Nếu bạn tắt tính năng báo cáo lỗi, chúng tôi có thể không phát hiện được các lỗi đang xảy ra và do đó có thể không khắc phục được chúng.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Báo cáo lỗi';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Giá điện/nước/gas';
@@ -661,13 +704,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Không, hủy bỏ.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Có, đơn giá hoặc giá trị khác đã thay đổi.';
+  String get contractCopyDialogOptionYes => 'Đúng';
 
   @override
   String get contractCopyDialogTitle => 'Bạn có muốn sao chép hợp đồng này không?';
 
   @override
-  String get contractCopyDialogWhen => 'Giá mới áp dụng từ khi nào?';
+  String get contractCopyDialogWhen => 'Hợp đồng mới có hiệu lực từ khi nào?';
 
   @override
   String get contractCosts => 'Đơn giá';
@@ -1090,6 +1133,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Không có mạng';
 
   @override
+  String get errorReportingAgreement => 'Tôi đồng ý với việc gửi các báo cáo lỗi kỹ thuật đến EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'Giải quyết tranh chấp ở Liên minh Châu Âu\n\nỦy ban Châu Âu cung cấp nền tảng giải quyết tranh chấp trực tuyến (OS): https://ec.europa.eu/consumers/odr/.\nBạn có thể tìm thấy địa chỉ email của chúng tôi trong dấu ấn ở trên.\n\nCơ quan giải quyết tranh chấp người tiêu dùng/cơ quan giải quyết tranh chấp chung\n\nChúng tôi không sẵn sàng hoặc bắt buộc phải tham gia vào các thủ tục giải quyết tranh chấp trước hội đồng trọng tài người tiêu dùng.';
 
@@ -1223,9 +1269,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Tôi đồng ý truyền dữ liệu ẩn danh về việc sử dụng ứng dụng tới EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement => 'Tôi đồng ý với việc gửi các báo cáo lỗi kỹ thuật đến EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1558,6 +1601,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'hằng ngày';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'cứ sau $number tháng';
+  }
 
   @override
   String get periodHalfYearly => 'nửa năm một lần';
@@ -2980,7 +3028,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Bộ đếm, hợp đồng, v.v. có thể bị xóa bằng chuyển động vuốt sang bên';
 
   @override
-  String get usedForPaymentsRepayments => 'Thanh toán trước, giá cơ bản và tiền thưởng';
+  String get usedForPaymentsRepayments => 'Giá cơ bản và tiền thưởng';
 
   @override
   String valueLess(String value) {

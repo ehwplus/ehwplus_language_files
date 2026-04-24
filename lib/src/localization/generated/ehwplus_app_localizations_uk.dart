@@ -109,6 +109,49 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get advancePayment => 'Попередня оплата';
 
   @override
+  String get advancePaymentDueDay => 'День сплати';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'День №$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Кінець місяця';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Перший день сплати (необов\'язково)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'Перший авансовий платіж сплачується в місяці початку дії контракту.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Перший авансовий платіж необхідно здійснити до $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Термін оплати — $day-го числа місяця, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Термін оплати — останній день місяця, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Сума авансового платежу за програмою «$amount» підлягає сплаті в останній день місяця, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Сума авансового платежу за адресою $amount підлягає сплаті $day числа поточного місяця за адресою $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Панель програми з фоновим зображенням';
 
   @override
@@ -388,11 +431,11 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Перш ніж ви зможете продовжити';
 
   @override
-  String get consent5ErrorReportingTitle => 'Звіти про помилки';
-
-  @override
   String get consent5ErrorReporting =>
       'Для надійного покращення додатку, звіти про технічні помилки надсилаються до EHW+ через Sentry (на власному хостингу). Якщо ви вимкнете повідомлення про помилки, ми можемо не помітити помилки, що виникають, і, відповідно, не зможемо їх виправити.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Звіти про помилки';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Ціни на електроенергію/воду/газ';
@@ -661,13 +704,13 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Ні, скасувати.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Так, ціна за одиницю або інше значення змінилося.';
+  String get contractCopyDialogOptionYes => 'Так.';
 
   @override
   String get contractCopyDialogTitle => 'Ви хочете зробити копію цього договору?';
 
   @override
-  String get contractCopyDialogWhen => 'З якого часу діє нова ціна?';
+  String get contractCopyDialogWhen => 'Коли починається новий контракт?';
 
   @override
   String get contractCosts => 'Ціна за одиницю';
@@ -1090,6 +1133,9 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Немає мережі';
 
   @override
+  String get errorReportingAgreement => 'Я погоджуюся на передачу звітів про технічні помилки до EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'Вирішення суперечок ЄС\n\nЄвропейська комісія надає платформу для онлайн-розв’язання суперечок (OS): https://ec.europa.eu/consumers/odr/.\nВи можете знайти нашу електронну адресу у вихідних даних вище.\n\nВирішення споживчих спорів/універсальний орган вирішення спорів\n\nМи не бажаємо та не зобов’язані брати участь у розгляді спорів у арбітражній раді споживачів.';
 
@@ -1224,9 +1270,6 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Я погоджуюся на передачу анонімних даних про використання програми EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement => 'Я погоджуюся на передачу звітів про технічні помилки до EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1559,6 +1602,11 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'щодня';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'кожні $number місяців';
+  }
 
   @override
   String get periodHalfYearly => 'піврічна';
@@ -3000,7 +3048,7 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Лічильники, контракти тощо можна видалити рухом збоку';
 
   @override
-  String get usedForPaymentsRepayments => 'Передоплата, базова ціна та бонус';
+  String get usedForPaymentsRepayments => 'Базова ціна та бонус';
 
   @override
   String valueLess(String value) {

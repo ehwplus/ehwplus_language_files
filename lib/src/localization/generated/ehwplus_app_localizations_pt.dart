@@ -107,6 +107,49 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get advancePayment => 'Montante da prestação';
 
   @override
+  String get advancePaymentDueDay => 'Dia de vencimento';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Dia $day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Fim do mês';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Primeiro dia de vencimento (facultativo)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'O primeiro adiantamento deve ser pago no mês de início do contrato.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'O primeiro pagamento antecipado vence no dia $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'O prazo de pagamento é no dia $day do mês, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'O prazo termina no último dia do mês, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'O montante do adiantamento de $amount vence no último dia do mês, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'O montante do adiantamento de $amount vence no dia $day do mês, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Barra de aplicação com imagem de fundo';
 
   @override
@@ -385,11 +428,11 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Antes de poder continuar';
 
   @override
-  String get consent5ErrorReportingTitle => 'Relatórios de erros';
-
-  @override
   String get consent5ErrorReporting =>
       'Para melhorar a aplicação de forma fiável, são enviados relatórios de erros técnicos para o EHW+ através do Sentry (auto-hospedado). Se desativar a comunicação de erros, poderemos não reparar nos erros que ocorrem e, por conseguinte, não os poderemos corrigir.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Relatórios de erros';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Preços da electricidade / água / gás';
@@ -657,13 +700,13 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Não, abortar.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Sim, o preço unitário ou outro valor mudou.';
+  String get contractCopyDialogOptionYes => 'Sim';
 
   @override
   String get contractCopyDialogTitle => 'Quer fazer uma cópia deste contrato?';
 
   @override
-  String get contractCopyDialogWhen => 'Quando é que se aplica o novo preço?';
+  String get contractCopyDialogWhen => 'Quando começa o novo contrato?';
 
   @override
   String get contractCosts => 'Preço por unidade';
@@ -1085,6 +1128,10 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Sem internet';
 
   @override
+  String get errorReportingAgreement =>
+      'Concordo com a transmissão de relatórios de erros técnicos à EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       '\\n\\nResolução de litígios da UE\\n\\nA Comissão Europeia fornece uma plataforma para a resolução de litígios em linha (OS): https://ec.europa.eu/consumers/odr/.\\nPode encontrar o nosso endereço de correio electrónico na impressão acima.\\n\\nOrganismo de resolução de litígios de consumo/universal de litígios\\n\\nNão estamos dispostos ou obrigados a participar em processos de resolução de litígios perante uma comissão de arbitragem de consumidores.';
 
@@ -1218,10 +1265,6 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Concordo com a transmissão de dados anónimos sobre a utilização da aplicação à EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement =>
-      'Concordo com a transmissão de relatórios de erros técnicos à EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1547,6 +1590,11 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'diário';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'a cada $number meses';
+  }
 
   @override
   String get periodHalfYearly => 'semestral';
@@ -2978,7 +3026,7 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
       'Os contadores, contratos, etc. podem ser eliminados com um movimento lateral';
 
   @override
-  String get usedForPaymentsRepayments => 'Pagamento antecipado, preço base e bônus';
+  String get usedForPaymentsRepayments => 'Preço base e bónus';
 
   @override
   String valueLess(String value) {

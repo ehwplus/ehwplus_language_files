@@ -109,6 +109,48 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get advancePayment => 'Προκαταβολή';
 
   @override
+  String get advancePaymentDueDay => 'Ημέρα λήξης';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Ημέρα $day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Τέλος του μήνα';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Πρώτη απαιτητή ημέρα (προαιρετικά)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'Η πρώτη προκαταβολή οφείλεται τον μήνα έναρξης της σύμβασης.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Η πρώτη προκαταβολή πρέπει να καταβληθεί στις $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Η προθεσμία λήγει την ημέρα $day του μήνα, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Η προθεσμία λήγει την τελευταία ημέρα του μήνα, στις $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Το ποσό της προκαταβολής για το πρόγραμμα «$amount» πρέπει να καταβληθεί την τελευταία ημέρα του μήνα, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Το ποσό της προκαταβολής για το $amount πρέπει να καταβληθεί την ημέρα $day του μήνα, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Μπάρα εφαρμογών με εικόνα φόντου';
 
   @override
@@ -390,11 +432,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Πριν μπορέσετε να συνεχίσετε';
 
   @override
-  String get consent5ErrorReportingTitle => 'Αναφορές σφαλμάτων';
-
-  @override
   String get consent5ErrorReporting =>
       'Για την αξιόπιστη βελτίωση της εφαρμογής, οι αναφορές τεχνικών σφαλμάτων αποστέλλονται στο EHW+ μέσω του Sentry (self-hosted). Εάν απενεργοποιήσετε την αναφορά σφαλμάτων, ενδέχεται να μην παρατηρήσουμε τα σφάλματα που συμβαίνουν και συνεπώς να μην είμαστε σε θέση να τα διορθώσουμε.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Αναφορές σφαλμάτων';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Τιμές ηλεκτρικού ρεύματος/νερού/αερίου';
@@ -664,13 +706,13 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Όχι, ακυρώστε.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Ναι, η τιμή μονάδας ή κάποια άλλη τιμή έχει αλλάξει.';
+  String get contractCopyDialogOptionYes => 'Ναι';
 
   @override
   String get contractCopyDialogTitle => 'Θέλετε να φτιάξετε ένα αντίγραφο αυτής της σύμβασης;';
 
   @override
-  String get contractCopyDialogWhen => 'Από πότε ισχύει η νέα τιμή;';
+  String get contractCopyDialogWhen => 'Πότε αρχίζει η νέα σύμβαση;';
 
   @override
   String get contractCosts => 'Τιμή μονάδας';
@@ -1093,6 +1135,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Δεν υπάρχει δίκτυο';
 
   @override
+  String get errorReportingAgreement => 'Συμφωνώ με τη διαβίβαση αναφορών τεχνικών σφαλμάτων στην EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'Επίλυση διαφορών στην ΕΕ\n\nΗ Ευρωπαϊκή Επιτροπή παρέχει μια πλατφόρμα για την ηλεκτρονική επίλυση διαφορών (OS): https://ec.europa.eu/consumers/odr/.\nΜπορείτε να βρείτε τη διεύθυνση ηλεκτρονικού ταχυδρομείου μας στο παραπάνω αποτύπωμα.\n\nΦορέας επίλυσης καταναλωτικών διαφορών/οικουμενικός φορέας επίλυσης διαφορών\n\nΔεν είμαστε πρόθυμοι ή υποχρεωμένοι να συμμετάσχουμε σε διαδικασίες επίλυσης διαφορών ενώπιον επιτροπής διαιτησίας καταναλωτών.';
 
@@ -1227,9 +1272,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Συμφωνώ με τη διαβίβαση ανώνυμων δεδομένων σχετικά με τη χρήση της εφαρμογής στην EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement => 'Συμφωνώ με τη διαβίβαση αναφορών τεχνικών σφαλμάτων στην EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1568,6 +1610,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'καθημερινά';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'κάθε $number μήνες';
+  }
 
   @override
   String get periodHalfYearly => 'εξαμηνιαία';
@@ -3008,7 +3055,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Μετρητές, συμβόλαια κ.λπ. μπορούν να διαγραφούν με μια κίνηση πλαϊνού σκουπίσματος.';
 
   @override
-  String get usedForPaymentsRepayments => 'Προκαταβολή, βασική τιμή και μπόνους';
+  String get usedForPaymentsRepayments => 'Βασική τιμή και μπόνους';
 
   @override
   String valueLess(String value) {

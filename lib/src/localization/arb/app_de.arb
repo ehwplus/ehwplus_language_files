@@ -31,6 +31,70 @@
   "addDetail": "Detail hinzufügen",
   "addNewValue": "Neuen Wert eintragen",
   "advancePayment": "Abschlagsbetrag",
+  "advancePaymentDueDay": "Zahltag",
+  "advancePaymentDueDayOptionDay": "Tag {day}",
+  "@advancePaymentDueDayOptionDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "advancePaymentDueDayOptionEndOfMonth": "Monatsende",
+  "advancePaymentFirstDueDateOptional": "Erster Zahltag (optional)",
+  "advancePaymentFirstDueInStartMonth": "Der Abschlagsbetrag wird erstmals im Monat des Vertragsbeginns fällig.",
+  "advancePaymentFirstDueOnDate": "Der Abschlagsbetrag wird erstmals am {date} fällig.",
+  "@advancePaymentFirstDueOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDue": "Er wird am {day}. Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDue": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonth": "Er wird am letzten Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDueEndOfMonth": {
+    "placeholders": {
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonthWithAmount": "Der Abschlagsbetrag in Höhe von {amount} wird am letzten Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDueEndOfMonthWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueWithAmount": "Der Abschlagsbetrag in Höhe von {amount} wird am {day}. Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDueWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
   "appBarExpandedMode": "App-Bar mit Hintergrundbild",
   "appDescriptionLong": "<p>Herzlich willkommen bei <b>EHW+</b>, Ihrer Zählerstands-App für Elektrizität, Heizung und Wasser. Mit uns können Sie kostenlos und unkompliziert nachvollziehen, wie viel Sie verbrauchen und was es kostet.</p>",
   "appDescriptionShort": "Gut für den Geldbeutel, gut für das Klima",
@@ -112,8 +176,8 @@
   "consent2ThankYou": "Danke, dass Sie EHW+ nutzen!",
   "consent3Video": "Möchten Sie ein kurzes Einführungsvideo ansehen?",
   "consent4BeforeYouCanContinue": "Bevor Sie loslegen können",
-  "consent5ErrorReportingTitle": "Fehlerberichte",
   "consent5ErrorReporting": "Für die zuverlässige Weiterentwicklung der App werden technische Fehlerberichte über Sentry (self-hosted) an EHW+ übermittelt. Wenn Sie Fehlerberichte deaktivieren, können wir auftretende Fehler möglicherweise nicht erkennen und dadurch nicht gezielt korrigieren.",
+  "consent5ErrorReportingTitle": "Fehlerberichte",
   "consent6ContractPricesPerUnitTitle": "Strom-/Wasser-/Gaspreise",
   "consent7ContractPricesPerUnit": "Um einschätzen zu können, wie viel man aktuell im Vergleich zu anderen EHW+ Nutzern zahlt, werden die Preise zusammen mit Land und Bundesland an den EHW+ Server in Deutschland übertragen. Nur wenn Sie der Übertragung zustimmen, haben Sie Zugriff auf die Preisstatistiken. Zur Sicherstellung der Anonymität können Statistiken erst ab einer Mindestanzahl übermittelter Preise angezeigt werden.",
   "consentTitle": "Datenschutzeinstellungen",
@@ -177,9 +241,9 @@
   "continueAcceptPart2": " einverstanden. Weitere Informationen zur Erfassung und Nutzung anonymisierter und persönlicher Daten finden Sie in der ",
   "contract": "Vertrag",
   "contractCopyDialogOptionNo": "Nein, abbrechen.",
-  "contractCopyDialogOptionYes": "Ja, der Arbeitspreis oder ein anderer Wert hat sich geändert.",
+  "contractCopyDialogOptionYes": "Ja",
   "contractCopyDialogTitle": "Wollen Sie eine Kopie dieses Vertrags erstellen?",
-  "contractCopyDialogWhen": "Ab wann gilt der neue Preis?",
+  "contractCopyDialogWhen": "Wann beginnt der neue Vertrag?",
   "contractCosts": "Arbeitspreis",
   "contractCostsFeedIn": "Vergütung abzüglich Grundpreis",
   "contractDetails": "Vertragslaufzeit und Details",
@@ -310,6 +374,7 @@
   "enterObjectName": "Wie soll das neue Objekt heißen?",
   "errorInvalidRange": "Kein gültiger Zeitraum",
   "errorNoInternet": "Kein Internet",
+  "errorReportingAgreement": "Ich stimme der Übermittlung technischer Fehlerberichte an EHW+ Services GmbH zu.",
   "euDisputeResolution": "\n\nEU-Streitschlichtung\n\nDie Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.\nUnsere E-Mail-Adresse finden Sie oben im Impressum.\n\nVerbraucher­streit­beilegung/Universal­schlichtungs­stelle\n\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
   "existingPhoto": "Existierendes Foto anhängen",
   "existingPhotoOfMeterReading": "Möchten Sie ein bestehendes Foto des Zählerstands anhängen?",
@@ -348,7 +413,6 @@
   "gas": "Gas",
   "generated": "Erzeugt",
   "googleAnalyticsAgreement": "Ich bin mit der Übertragung von anonymisierter Daten über die Nutzung der App an EHW+ Services GmbH einverstanden.",
-  "errorReportingAgreement": "Ich stimme der Übermittlung technischer Fehlerberichte an EHW+ Services GmbH zu.",
   "googleApiAgreement": "Die Nutzung der von Google APIs erhaltenen Informationen durch {appNameShort} und deren Weitergabe an andere Apps erfolgt unter Einhaltung der Google API Services User Data Policy, einschließlich der Bestimmungen zur eingeschränkten Nutzung.",
   "gross": "brutto",
   "grossNetPrices": "Brutto- oder Nettopreis",
@@ -439,6 +503,14 @@
   "periodBiweekly": "zweiwöchentlich",
   "periodCustom": "Benutzerdefiniert",
   "periodDaily": "täglich",
+  "periodEveryXMonths": "alle {number} Monate",
+  "@periodEveryXMonths": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
   "periodHalfYearly": "halbjährlich",
   "periodHourly": "stündlich",
   "periodMonthly": "monatlich",
@@ -845,7 +917,7 @@
   "upgradeDescription": "Die App kann mehr. Besserer Kostenüberblick, mehr Statistiken, Excel-Export, mehr Zähler, ...",
   "useDismissibleSettings": "Löschen per Wischgeste",
   "useDismissibleSettingsDetailed": "Zähler, Verträge, usw. können durch eine Seitwischbewegung gelöscht werden",
-  "usedForPaymentsRepayments": "Abschlagsbetrag, Grundpreis und Bonus",
+  "usedForPaymentsRepayments": "Grundpreis und Bonus",
   "valueLess": "{value} weniger",
   "valueMore": "{value} mehr",
   "versionIsUpToDate": "Die zuletzt für alle Nutzer freigebene App-Version ist {version}.",

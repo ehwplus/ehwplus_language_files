@@ -108,6 +108,48 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get advancePayment => 'Platba předem';
 
   @override
+  String get advancePaymentDueDay => 'Den splatnosti';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Den č.$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Konec měsíce';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'První den splatnosti (nepovinné)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'První záloha je splatná v měsíci, kdy smlouva začne platit.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'První záloha je splatná dne $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Splatnost je $day. dne v měsíci, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Splatnost je poslední den v měsíci, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Částka zálohy ve výši $amount je splatná poslední den v měsíci, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Částka zálohy ve výši $amount je splatná d$day. dne v měsíci, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Lišta aplikací s obrázkem na pozadí';
 
   @override
@@ -385,11 +427,11 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Než budete moci pokračovat';
 
   @override
-  String get consent5ErrorReportingTitle => 'Hlášení o chybách';
-
-  @override
   String get consent5ErrorReporting =>
       'Aby bylo možné aplikaci spolehlivě vylepšovat, jsou hlášení o technických chybách zasílána do EHW+ prostřednictvím služby Sentry (selfhosting). Pokud hlášení chyb zakážete, může se stát, že si vyskytujících se chyb nevšimneme, a proto je nebudeme moci opravit.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Hlášení o chybách';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Ceny elektřiny / vody / plynu';
@@ -657,13 +699,13 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Ne, zrušit.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Ano, jednotková cena nebo jiná hodnota se změnila.';
+  String get contractCopyDialogOptionYes => 'Ano';
 
   @override
   String get contractCopyDialogTitle => 'Přejete si vytvořit kopii této smlouvy?';
 
   @override
-  String get contractCopyDialogWhen => 'Od kdy platí nová cena?';
+  String get contractCopyDialogWhen => 'Kdy začne platit nová smlouva?';
 
   @override
   String get contractCosts => 'Jednotková cena';
@@ -1085,6 +1127,10 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Žádná síť';
 
   @override
+  String get errorReportingAgreement =>
+      'Souhlasím s předáváním hlášení o technických chybách společnosti EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'Řešení sporů EU\n\nEvropská komise poskytuje platformu pro online řešení sporů (OS): https://ec.europa.eu/consumers/odr/.\nNaši e-mailovou adresu najdete v tiráži výše.\n\nOrgán pro řešení spotřebitelských sporů/univerzální orgán pro řešení sporů\n\nNejsme ochotni ani povinni se účastnit řízení o řešení sporů před spotřebitelským rozhodčím senátem.';
 
@@ -1218,10 +1264,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Souhlasím s předáním anonymizovaných údajů o používání aplikace společnosti EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement =>
-      'Souhlasím s předáváním hlášení o technických chybách společnosti EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1554,6 +1596,11 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'denní';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'každých $number měsíců';
+  }
 
   @override
   String get periodHalfYearly => 'pololetně';
@@ -2984,7 +3031,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Počítadla, smlouvy atd. lze smazat pohybem přejetím do strany';
 
   @override
-  String get usedForPaymentsRepayments => 'Platba předem, základní cena a bonus';
+  String get usedForPaymentsRepayments => 'Základní cena a bonus';
 
   @override
   String valueLess(String value) {

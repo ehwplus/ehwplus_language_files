@@ -31,6 +31,70 @@
   "addDetail": "Add detail",
   "addNewValue": "Enter new value",
   "advancePayment": "Advance payment",
+  "advancePaymentDueDay": "Due day",
+  "advancePaymentDueDayOptionDay": "Day {day}",
+  "@advancePaymentDueDayOptionDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "advancePaymentDueDayOptionEndOfMonth": "End of month",
+  "advancePaymentFirstDueDateOptional": "First due day (optional)",
+  "advancePaymentFirstDueInStartMonth": "The first advance payment is due in the month the contract starts.",
+  "advancePaymentFirstDueOnDate": "The first advance payment is due on {date}.",
+  "@advancePaymentFirstDueOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDue": "It is due on day {day} of the month, {cadence}.",
+  "@advancePaymentRecurringDue": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonth": "It is due on the last day of the month, {cadence}.",
+  "@advancePaymentRecurringDueEndOfMonth": {
+    "placeholders": {
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonthWithAmount": "The advance payment amount of {amount} is due on the last day of the month, {cadence}.",
+  "@advancePaymentRecurringDueEndOfMonthWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueWithAmount": "The advance payment amount of {amount} is due on day {day} of the month, {cadence}.",
+  "@advancePaymentRecurringDueWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
   "appBarExpandedMode": "App bar with background image",
   "appDescriptionLong": "<p>Welcome to <b>EHW+</b>, your meter reading app  for <b>E</b>lectricity, <b>H</b>eating and <b>W</b>ater. With us, you can easily track<b> </b>how much you use and what it<b> </b>costs</b> for free.</p>",
   "appDescriptionShort": "Good for the wallet, good for the climate",
@@ -150,8 +214,8 @@
   "consent2ThankYou": "Thank you for using EHW+!",
   "consent3Video": "Would you like to watch a short introduction video?",
   "consent4BeforeYouCanContinue": "Before you can continue",
-  "consent5ErrorReportingTitle": "Error reports",
   "consent5ErrorReporting": "To improve the app reliably, technical error reports are sent to EHW+ via Sentry (self-hosted). If you disable error reporting, we may not notice occurring errors and therefore may not be able to fix them.",
+  "consent5ErrorReportingTitle": "Error reports",
   "consent6ContractPricesPerUnitTitle": "Electricity / water / gas prices",
   "consent7ContractPricesPerUnit": "In order to be able to estimate how much you are currently paying compared to other EHW+ users, the prices are transferred to the EHW+ server in Germany together with the country and state. Only if you agree to the transfer, you have access to the price statistics. To ensure anonymity, statistics can only be shown after a minimum number of transmitted prices.",
   "consentTitle": "Privacy Settings",
@@ -230,9 +294,9 @@
   "continueAcceptPart2": ". For more information on the collection and use of anonymised and personal data, please refer to the ",
   "contract": "Contract",
   "contractCopyDialogOptionNo": "No, cancel.",
-  "contractCopyDialogOptionYes": "Yes, the unit price or another value has changed.",
+  "contractCopyDialogOptionYes": "Yes",
   "contractCopyDialogTitle": "Do you want to make a copy of this contract?",
-  "contractCopyDialogWhen": "From when does the new price apply?",
+  "contractCopyDialogWhen": "When does the new contract start?",
   "contractCosts": "Unit price",
   "contractCostsFeedIn": "Remuneration price/base price",
   "contractDetails": "Contract duration and details",
@@ -438,6 +502,7 @@
   "enterObjectName": "Name the new object",
   "errorInvalidRange": "No valid range",
   "errorNoInternet": "No network",
+  "errorReportingAgreement": "I agree to the transmission of technical error reports to EHW+ Services GmbH.",
   "euDisputeResolution": "\n\nEU Dispute Resolution\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/.\nYou can find our e-mail address in the imprint above.\n\nConsumer dispute resolution/universal dispute resolution body\n\nWe are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
   "existingPhoto": "Attach existing photo",
   "existingPhotoOfMeterReading": "Would you like to attach an existing photo of the meter reading?",
@@ -499,7 +564,6 @@
   "gas": "Gas",
   "generated": "Generated",
   "googleAnalyticsAgreement": "I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.",
-  "errorReportingAgreement": "I agree to the transmission of technical error reports to EHW+ Services GmbH.",
   "googleApiAgreement": "{appNameShort}’s use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.",
   "@googleApiAgreement": {
     "placeholders": {
@@ -677,6 +741,14 @@
   "periodBiweekly": "bi-weekly",
   "periodCustom": "User defined",
   "periodDaily": "daily",
+  "periodEveryXMonths": "every {number} months",
+  "@periodEveryXMonths": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
   "periodHalfYearly": "half-yearly",
   "periodHourly": "hourly",
   "periodMonthly": "monthly",
@@ -1375,7 +1447,7 @@
   "upgradeDescription": "The app can do more. Better cost overview, more statistics, Excel export, more counters, ...",
   "useDismissibleSettings": "Delete by swipe gesture",
   "useDismissibleSettingsDetailed": "Counters, contracts, etc. can be deleted by a side-swipe movement",
-  "usedForPaymentsRepayments": "Advance payment, base price, and bonus",
+  "usedForPaymentsRepayments": "Base price and bonus",
   "valueLess": "{value} less",
   "@valueLess": {
     "placeholders": {

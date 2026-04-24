@@ -109,6 +109,49 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get advancePayment => 'Malipo ya mapema';
 
   @override
+  String get advancePaymentDueDay => 'Tarehe ya mwisho';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Siku$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Mwisho wa mwezi';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Tarehe ya mwanzo ya malipo (hiari)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'Malipo ya awali ya kwanza yanapaswa kufanywa mwezi mkataba unapoanza.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Malipo ya awali ya kwanza yanapaswa kufanywa tarehe $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Inatakiwa kulipwa siku ya $day ya mwezi, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Inatakiwa kulipwa siku ya mwisho ya mwezi, tarehe $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Kiasi cha malipo ya awali cha $amount kinapaswa kulipwa siku ya mwisho ya mwezi, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Kiasi cha malipo ya awali cha $amount kinapaswa kulipwa siku ya $day ya mwezi wa $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Baa ya programu na picha ya nyuma';
 
   @override
@@ -385,11 +428,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Kabla ya kuendelea';
 
   @override
-  String get consent5ErrorReportingTitle => 'Ripoti za makosa';
-
-  @override
   String get consent5ErrorReporting =>
       'Ili kuboresha programu kwa uhakika, ripoti za makosa ya kiufundi zinatumwa kwa EHW+ kupitia Sentry (iliyohifadhiwa wenyewe). Ikiwa utazima utoaji wa ripoti za makosa, huenda hatutagundua makosa yanayotokea na kwa hivyo huenda tusipate uwezo wa kuyarekebisha.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Ripoti za makosa';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Bei ya umeme / maji / gesi';
@@ -656,13 +699,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Hapana, Ghairi.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Ndio, bei ya kitengo au thamani nyingine imebadilika.';
+  String get contractCopyDialogOptionYes => 'Ndio';
 
   @override
   String get contractCopyDialogTitle => 'Je! Unataka kufanya nakala ya mkataba huu?';
 
   @override
-  String get contractCopyDialogWhen => 'Je! Bei mpya inatumika lini?';
+  String get contractCopyDialogWhen => 'Mkataba mpya unaanza lini?';
 
   @override
   String get contractCosts => 'Bei ya kitengo';
@@ -1084,6 +1127,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Hakuna mtandao';
 
   @override
+  String get errorReportingAgreement => 'Nakubali utumaji wa ripoti za makosa ya kiufundi kwa EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'Azimio la mzozo wa EU\n\nTume ya Ulaya hutoa jukwaa la Azimio la Mzozo wa Mkondoni (OS): https://ec.europa.eu/consumers/odr/.\nUnaweza kupata anwani yetu ya barua-pepe katika uingizwaji hapo juu.\n\nAzimio la Mzozo wa Watumiaji/Baraza la Utatuzi wa Mzozo wa Universal\n\nHatuko tayari au tunalazimika kushiriki katika kesi za utatuzi wa mzozo mbele ya bodi ya usuluhishi ya watumiaji.';
 
@@ -1216,9 +1262,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Ninakubali utumaji wa data isiyojulikana kuhusu matumizi ya programu kwa EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement => 'Nakubali utumaji wa ripoti za makosa ya kiufundi kwa EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1551,6 +1594,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'kila siku';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'kila miezi $number';
+  }
 
   @override
   String get periodHalfYearly => 'nusu ya mwaka';
@@ -2984,7 +3032,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Vihesabu, mikataba, nk zinaweza kufutwa na harakati za kubonyeza upande';
 
   @override
-  String get usedForPaymentsRepayments => 'Malipo ya mapema, bei ya msingi, na bonasi';
+  String get usedForPaymentsRepayments => 'Bei ya msingi na bonasi';
 
   @override
   String valueLess(String value) {

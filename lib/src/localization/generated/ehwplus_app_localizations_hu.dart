@@ -109,6 +109,48 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get advancePayment => 'Előlegfizetés';
 
   @override
+  String get advancePaymentDueDay => 'Esedékes nap';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '$day. nap';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Hónap vége';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Első esedékesség napja (nem kötelező)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'Az első előlegfizetés a szerződés kezdetének hónapjában esedékes.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Az első előleg fizetési határideje: $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'A fizetési határidő a hónap $day. napja, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'A fizetési határidő a hónap utolsó napja, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amount előlegét a hónap utolsó napján, $cadence kell befizetni.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amount előlegének fizetési határideje a hónap $day. napja, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Alkalmazás sáv háttérképpel';
 
   @override
@@ -387,11 +429,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Mielőtt folytathatná';
 
   @override
-  String get consent5ErrorReportingTitle => 'Hibajelentések';
-
-  @override
   String get consent5ErrorReporting =>
       'Az alkalmazás megbízható javítása érdekében a technikai hibajelentéseket a Sentryn keresztül (saját tárhelyen) küldi az EHW+-nak. Ha kikapcsolja a hibajelentést, előfordulhat, hogy nem vesszük észre az előforduló hibákat, és ezért nem tudjuk kijavítani azokat.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Hibajelentések';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Villany / víz / gáz ára';
@@ -660,13 +702,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Nem, törölje.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Igen, az egységár vagy más érték megváltozott.';
+  String get contractCopyDialogOptionYes => 'Igen';
 
   @override
   String get contractCopyDialogTitle => 'Szeretne másolatot készíteni erről a szerződésről?';
 
   @override
-  String get contractCopyDialogWhen => 'Mikortól érvényes az új ár?';
+  String get contractCopyDialogWhen => 'Mikor kezdődik az új szerződés?';
 
   @override
   String get contractCosts => 'Egységár';
@@ -1088,6 +1130,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Nincs hálózat';
 
   @override
+  String get errorReportingAgreement =>
+      'Hozzájárulok a technikai hibajelentések továbbításához az EHW+ Services GmbH részére.';
+
+  @override
   String get euDisputeResolution =>
       'Uniós vitarendezés\n\nAz Európai Bizottság online vitarendezési platformot biztosít: https://ec.europa.eu/consumers/odr/.\nE-mail címünket a fenti impresszumban találja.\n\nFogyasztói vitarendezés/univerzális vitarendezési szerv\n\nNem vagyunk hajlandóak vagy kötelesek részt venni fogyasztói békéltető testület előtti vitarendezési eljárásban.';
 
@@ -1223,10 +1269,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Hozzájárulok az alkalmazás használatával kapcsolatos anonimizált adatok továbbításához az EHW+ Services GmbH részére.';
-
-  @override
-  String get errorReportingAgreement =>
-      'Hozzájárulok a technikai hibajelentések továbbításához az EHW+ Services GmbH részére.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1559,6 +1601,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'napi';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return '$number-es hónapokban';
+  }
 
   @override
   String get periodHalfYearly => 'félévente';
@@ -2993,7 +3040,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'A számlálók, szerződések stb. törölhetők egy oldalsó mozdulattal.';
 
   @override
-  String get usedForPaymentsRepayments => 'Előleg, alapár és bónusz';
+  String get usedForPaymentsRepayments => 'Alapár és bónusz';
 
   @override
   String valueLess(String value) {

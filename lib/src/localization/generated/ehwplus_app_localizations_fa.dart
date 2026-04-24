@@ -108,6 +108,48 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get advancePayment => 'پیش‌پرداخت';
 
   @override
+  String get advancePaymentDueDay => 'تاریخ سررسید';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'روز $day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'پایان ماه';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'اولین مهلت (اختیاری)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'اولین پیش‌پرداخت در ماه شروع قرارداد سررسید می‌شود.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'اولین پیش‌پرداخت باید در تاریخ $date پرداخت شود.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'سررسید آن در روز $day ماه $cadence است.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'سررسید آن در آخرین روز ماه، $cadence است.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'مبلغ پیش‌پرداخت $amount در آخرین روز ماه، $cadence، سررسید می‌شود.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'مبلغ پیش‌پرداخت $amount در روز $day ماه $cadence سررسید می‌شود.';
+  }
+
+  @override
   String get appBarExpandedMode => 'نوار برنامه با تصویر پس‌زمینه';
 
   @override
@@ -386,11 +428,11 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'قبل از اینکه بتوانید ادامه دهید';
 
   @override
-  String get consent5ErrorReportingTitle => 'گزارش های خطا';
-
-  @override
   String get consent5ErrorReporting =>
       'برای بهبود قابل‌اعتماد اپلیکیشن، گزارش‌های خطای فنی از طریق Sentry (میزبان خود) به EHW+ ارسال می‌شوند. اگر گزارش‌گیری خطا را غیرفعال کنید، ممکن است خطاهای رخ‌داده را متوجه نشویم و در نتیجه نتوانیم آن‌ها را رفع کنیم.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'گزارش های خطا';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'قیمت برق / آب / گاز';
@@ -657,13 +699,13 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'خیر، انصراف.';
 
   @override
-  String get contractCopyDialogOptionYes => 'بله، قیمت واحد یا مقدار دیگری تغییر کرده است.';
+  String get contractCopyDialogOptionYes => 'بله';
 
   @override
   String get contractCopyDialogTitle => 'آیا می خواهید یک کپی از این قرارداد تهیه کنید؟';
 
   @override
-  String get contractCopyDialogWhen => 'قیمت جدید از چه زمانی اعمال می‌شود؟';
+  String get contractCopyDialogWhen => 'قرارداد جدید از چه زمانی شروع می‌شود؟';
 
   @override
   String get contractCosts => 'قیمت واحد';
@@ -1085,6 +1127,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get errorNoInternet => 'بدون اینترنت';
 
   @override
+  String get errorReportingAgreement => 'من با ارسال گزارش‌های خطای فنی به شرکت EHW+ Services GmbH موافقت می‌کنم.';
+
+  @override
   String get euDisputeResolution =>
       '\n\nحل اختلاف اتحادیه اروپا\n\nکمیسیون اروپا بستری را برای حل اختلاف آنلاین (OS) فراهم می کند: https://ec.europa.eu/consumers/odr/.\nآدرس ایمیل ما را در بخش شرح بالا خواهید یافت.\n\nحل اختلاف مصرف کننده / نهاد حل اختلاف جهانی\n\nما تمایلی به شرکت در مراحل حل اختلاف در مقابل یک هیئت داوری مصرف کننده نداریم و همچنین موظف به انجام آن نیستیم.';
 
@@ -1217,9 +1262,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'من با انتقال داده‌های ناشناس درباره استفاده از برنامه به EHW+ Services GmbH موافقت می‌کنم.';
-
-  @override
-  String get errorReportingAgreement => 'من با ارسال گزارش‌های خطای فنی به شرکت EHW+ Services GmbH موافقت می‌کنم.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1552,6 +1594,11 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'روزانه';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'هر $number ماه';
+  }
 
   @override
   String get periodHalfYearly => 'به صورت نیم ساله';
@@ -2969,7 +3016,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'شمارنده ها، قراردادها و غیره را می توان با یک حرکت سوایپ به سمت حذف کرد';
 
   @override
-  String get usedForPaymentsRepayments => 'پیش‌پرداخت، قیمت پایه و پاداش';
+  String get usedForPaymentsRepayments => 'قیمت پایه و پاداش';
 
   @override
   String valueLess(String value) {

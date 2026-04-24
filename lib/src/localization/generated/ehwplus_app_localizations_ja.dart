@@ -107,6 +107,48 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get advancePayment => '前払い';
 
   @override
+  String get advancePaymentDueDay => '期日';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '$day日目';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => '月末';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => '最初の期日（任意）';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => '最初の前払い金は契約開始月に支払う。';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return '初回のお支払期限は$dateです。';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return '支払期限は、$cadence の$day日です。';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return '支払期限は月末です。$cadence。';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amountの前払い金は、$cadenceの月末日までに支払う必要があります。';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amountの事前支払額は、$cadenceの当月$day日に支払期日が到来します。';
+  }
+
+  @override
   String get appBarExpandedMode => '背景画像付きのアプリバー';
 
   @override
@@ -376,11 +418,11 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => '続行する前に';
 
   @override
-  String get consent5ErrorReportingTitle => 'エラーレポート';
-
-  @override
   String get consent5ErrorReporting =>
       'アプリを確実に改善するため、技術的なエラーレポートはSentry（セルフホスト）を介してEHW+に送信されます。エラー報告を無効にした場合、発生したエラーに気づかず、修正できない可能性があります。';
+
+  @override
+  String get consent5ErrorReportingTitle => 'エラーレポート';
 
   @override
   String get consent6ContractPricesPerUnitTitle => '電気・水道・ガス料金';
@@ -645,13 +687,13 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'いいえ、キャンセルします。';
 
   @override
-  String get contractCopyDialogOptionYes => 'はい、単価またはその他の値が変更されました。';
+  String get contractCopyDialogOptionYes => 'はい';
 
   @override
   String get contractCopyDialogTitle => 'この契約書のコピーを作成しますか?';
 
   @override
-  String get contractCopyDialogWhen => '新価格はいつから適用されますか？';
+  String get contractCopyDialogWhen => '新しい契約はいつ始まるのですか？';
 
   @override
   String get contractCosts => '単価';
@@ -1071,6 +1113,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get errorNoInternet => 'ネットワークなし';
 
   @override
+  String get errorReportingAgreement => 'EHW+ Services GmbHへのテクニカルエラーレポートの送信に同意します。';
+
+  @override
   String get euDisputeResolution =>
       'EUの紛争解決\n\n欧州委員会は、オンライン紛争解決 (OS) のプラットフォームを提供しています: https://ec.europa.eu/consumers/odr/。\n私たちの電子メール アドレスは、上記の奥付に記載されています。\n\n消費者紛争解決・普遍的紛争解決機関\n\n当社は、消費者仲裁委員会における紛争解決手続きに参加する意思も義務もありません。';
 
@@ -1200,9 +1245,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get googleAnalyticsAgreement => 'アプリの使用に関する匿名化されたデータを EHW+ Services GmbH に送信することに同意します。';
-
-  @override
-  String get errorReportingAgreement => 'EHW+ Services GmbHへのテクニカルエラーレポートの送信に同意します。';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1532,6 +1574,11 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => '毎日';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return '$numberヶ月ごと';
+  }
 
   @override
   String get periodHalfYearly => '半年ごと';
@@ -2914,7 +2961,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'カウンターや契約書などは横スワイプで削除可能';
 
   @override
-  String get usedForPaymentsRepayments => '前払い、基本価格、ボーナス';
+  String get usedForPaymentsRepayments => '基本価格とボーナス';
 
   @override
   String valueLess(String value) {

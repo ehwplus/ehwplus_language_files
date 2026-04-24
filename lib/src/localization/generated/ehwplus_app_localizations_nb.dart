@@ -108,6 +108,49 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get advancePayment => 'Forskuddsbetaling';
 
   @override
+  String get advancePaymentDueDay => 'Forfallsdag';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Dag $day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Slutten av måneden';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Første forfallsdag (valgfritt)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'Første forskuddsbetaling forfaller i den måneden kontrakten starter.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Første forskuddsbetaling forfaller den $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Forfall er den $day. i måneden, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Forfall er den siste dagen i måneden, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Forskuddsbeløpet på $amount forfaller den siste dagen i måneden, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Forskuddsbeløpet på $amount forfaller den $day. i måneden, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'App-linje med bakgrunnsbilde';
 
   @override
@@ -385,11 +428,11 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Før du kan fortsette';
 
   @override
-  String get consent5ErrorReportingTitle => 'Feilmeldinger';
-
-  @override
   String get consent5ErrorReporting =>
       'For å kunne forbedre appen på en pålitelig måte, sendes tekniske feilrapporter til EHW+ via Sentry (selv-hostet). Hvis du deaktiverer feilrapportering, kan det hende at vi ikke oppdager feil som oppstår, og at vi derfor ikke kan rette dem.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Feilmeldinger';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Elektrisitet / vann / gass priser';
@@ -657,13 +700,13 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Nei, avbryt.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Ja, enhetsprisen eller en annen verdi har endret seg.';
+  String get contractCopyDialogOptionYes => 'Ja';
 
   @override
   String get contractCopyDialogTitle => 'Vil du lage en kopi av denne kontrakten?';
 
   @override
-  String get contractCopyDialogWhen => 'Fra når gjelder den nye prisen?';
+  String get contractCopyDialogWhen => 'Når begynner den nye kontrakten å gjelde?';
 
   @override
   String get contractCosts => 'Enhetspris';
@@ -1085,6 +1128,9 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Ikke noe nettverk';
 
   @override
+  String get errorReportingAgreement => 'Jeg samtykker til at tekniske feilrapporter sendes til EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'EU-tvisteløsning\n\nEU-kommisjonen tilbyr en plattform for online tvisteløsning (OS): https://ec.europa.eu/consumers/odr/.\nDu finner vår e-postadresse i forlaget ovenfor.\n\nForbrukertvistløsning/universelt tvisteløsningsorgan\n\nVi er ikke villige eller forpliktet til å delta i tvisteløsningssaker for en forbrukervoldgiftsnemnd.';
 
@@ -1218,9 +1264,6 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Jeg godtar overføring av anonymiserte data om bruken av appen til EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement => 'Jeg samtykker til at tekniske feilrapporter sendes til EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1553,6 +1596,11 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'daglig';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'hver $number. måned';
+  }
 
   @override
   String get periodHalfYearly => 'halvårlig';
@@ -2978,7 +3026,7 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Tellere, kontrakter osv. kan slettes ved en side-sveip-bevegelse';
 
   @override
-  String get usedForPaymentsRepayments => 'Forskuddsbetaling, grunnpris og bonus';
+  String get usedForPaymentsRepayments => 'Grunnpris og bonus';
 
   @override
   String valueLess(String value) {

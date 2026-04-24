@@ -109,6 +109,48 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get advancePayment => 'Peşin ödeme';
 
   @override
+  String get advancePaymentDueDay => 'Son gün';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '$day. Gün';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Ay sonu';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'İlk vade günü (isteğe bağlı)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'İlk avans ödemesi sözleşmenin başladığı ay yapılmalıdır.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'İlk taksit ödemesi $date tarihinde yapılmalıdır.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Ödeme tarihi, $cadence adresinde belirtilen ayın $day. günü.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Ödeme tarihi, ayın son günü olan $cadence\'dir.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amount\'ın peşin ödeme tutarı, $cadence adresinde belirtilen ayın son günü ödenmelidir.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amount\'ın peşinat tutarı, $cadence adresindeki ayın $day. günü ödenmelidir.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Arka plan resmine sahip uygulama çubuğu';
 
   @override
@@ -388,11 +430,11 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Devam etmeden önce';
 
   @override
-  String get consent5ErrorReportingTitle => 'Hata raporları';
-
-  @override
   String get consent5ErrorReporting =>
       'Uygulamayı güvenilir bir şekilde geliştirmek için, teknik hata raporları Sentry (self-hosted) aracılığıyla EHW+\'ya gönderilir. Hata raporlamayı devre dışı bırakırsanız, meydana gelen hataları fark edemeyebiliriz ve bu nedenle bunları düzeltemeyebiliriz.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Hata raporları';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Elektrik/su/gaz fiyatları';
@@ -661,13 +703,13 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Hayır, iptal et.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Evet birim fiyat veya başka bir değer değişti.';
+  String get contractCopyDialogOptionYes => 'Evet';
 
   @override
   String get contractCopyDialogTitle => 'Bu sözleşmenin bir kopyasını çıkarmak ister misiniz?';
 
   @override
-  String get contractCopyDialogWhen => 'Yeni fiyat ne zamandan itibaren geçerli olacak?';
+  String get contractCopyDialogWhen => 'Yeni sözleşme ne zaman başlıyor?';
 
   @override
   String get contractCosts => 'Birim fiyatı';
@@ -1089,6 +1131,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Ağ yok';
 
   @override
+  String get errorReportingAgreement => 'Teknik hata raporlarının EHW+ Services GmbH\'ye iletilmesini kabul ediyorum.';
+
+  @override
   String get euDisputeResolution =>
       'AB Uyuşmazlık Çözümü\n\nAvrupa Komisyonu, çevrimiçi anlaşmazlık çözümü (OS) için bir platform sunmaktadır: https://ec.europa.eu/consumers/odr/.\nE-posta adresimizi yukarıdaki künyede bulabilirsiniz.\n\nTüketici anlaşmazlık çözümü/evrensel anlaşmazlık çözüm organı\n\nTüketici hakem heyeti önündeki uyuşmazlık çözüm süreçlerine katılmaya istekli veya yükümlü değiliz.';
 
@@ -1223,9 +1268,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Uygulamanın kullanımına ilişkin anonimleştirilmiş verilerin EHW+ Services GmbH\'ye iletilmesini kabul ediyorum.';
-
-  @override
-  String get errorReportingAgreement => 'Teknik hata raporlarının EHW+ Services GmbH\'ye iletilmesini kabul ediyorum.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1558,6 +1600,11 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'günlük';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return '$number\'da bir';
+  }
 
   @override
   String get periodHalfYearly => 'altı ayda bir';
@@ -2983,7 +3030,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Sayaçlar, sözleşmeler vb. yandan kaydırma hareketi ile silinebilir';
 
   @override
-  String get usedForPaymentsRepayments => 'Peşin ödeme, taban fiyat ve bonus';
+  String get usedForPaymentsRepayments => 'Baz fiyat ve ikramiye';
 
   @override
   String valueLess(String value) {

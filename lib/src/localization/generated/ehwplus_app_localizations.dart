@@ -359,6 +359,66 @@ abstract class EhwplusAppLocalizations {
   /// **'Advance payment'**
   String get advancePayment;
 
+  /// No description provided for @advancePaymentDueDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Due day'**
+  String get advancePaymentDueDay;
+
+  /// No description provided for @advancePaymentDueDayOptionDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Day {day}'**
+  String advancePaymentDueDayOptionDay(int day);
+
+  /// No description provided for @advancePaymentDueDayOptionEndOfMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'End of month'**
+  String get advancePaymentDueDayOptionEndOfMonth;
+
+  /// No description provided for @advancePaymentFirstDueDateOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'First due day (optional)'**
+  String get advancePaymentFirstDueDateOptional;
+
+  /// No description provided for @advancePaymentFirstDueInStartMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'The first advance payment is due in the month the contract starts.'**
+  String get advancePaymentFirstDueInStartMonth;
+
+  /// No description provided for @advancePaymentFirstDueOnDate.
+  ///
+  /// In en, this message translates to:
+  /// **'The first advance payment is due on {date}.'**
+  String advancePaymentFirstDueOnDate(String date);
+
+  /// No description provided for @advancePaymentRecurringDue.
+  ///
+  /// In en, this message translates to:
+  /// **'It is due on day {day} of the month, {cadence}.'**
+  String advancePaymentRecurringDue(int day, String cadence);
+
+  /// No description provided for @advancePaymentRecurringDueEndOfMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'It is due on the last day of the month, {cadence}.'**
+  String advancePaymentRecurringDueEndOfMonth(String cadence);
+
+  /// No description provided for @advancePaymentRecurringDueEndOfMonthWithAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'The advance payment amount of {amount} is due on the last day of the month, {cadence}.'**
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence);
+
+  /// No description provided for @advancePaymentRecurringDueWithAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'The advance payment amount of {amount} is due on day {day} of the month, {cadence}.'**
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence);
+
   /// No description provided for @appBarExpandedMode.
   ///
   /// In en, this message translates to:
@@ -845,17 +905,17 @@ abstract class EhwplusAppLocalizations {
   /// **'Before you can continue'**
   String get consent4BeforeYouCanContinue;
 
-  /// No description provided for @consent5ErrorReportingTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Error reports'**
-  String get consent5ErrorReportingTitle;
-
   /// No description provided for @consent5ErrorReporting.
   ///
   /// In en, this message translates to:
   /// **'To improve the app reliably, technical error reports are sent to EHW+ via Sentry (self-hosted). If you disable error reporting, we may not notice occurring errors and therefore may not be able to fix them.'**
   String get consent5ErrorReporting;
+
+  /// No description provided for @consent5ErrorReportingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Error reports'**
+  String get consent5ErrorReportingTitle;
 
   /// No description provided for @consent6ContractPricesPerUnitTitle.
   ///
@@ -1260,7 +1320,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @contractCopyDialogOptionYes.
   ///
   /// In en, this message translates to:
-  /// **'Yes, the unit price or another value has changed.'**
+  /// **'Yes'**
   String get contractCopyDialogOptionYes;
 
   /// No description provided for @contractCopyDialogTitle.
@@ -1272,7 +1332,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @contractCopyDialogWhen.
   ///
   /// In en, this message translates to:
-  /// **'From when does the new price apply?'**
+  /// **'When does the new contract start?'**
   String get contractCopyDialogWhen;
 
   /// No description provided for @contractCosts.
@@ -2055,6 +2115,12 @@ abstract class EhwplusAppLocalizations {
   /// **'No network'**
   String get errorNoInternet;
 
+  /// No description provided for @errorReportingAgreement.
+  ///
+  /// In en, this message translates to:
+  /// **'I agree to the transmission of technical error reports to EHW+ Services GmbH.'**
+  String get errorReportingAgreement;
+
   /// No description provided for @euDisputeResolution.
   ///
   /// In en, this message translates to:
@@ -2282,12 +2348,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'I agree to the transmission of anonymised data about the use of the app to EHW+ Services GmbH.'**
   String get googleAnalyticsAgreement;
-
-  /// No description provided for @errorReportingAgreement.
-  ///
-  /// In en, this message translates to:
-  /// **'I agree to the transmission of technical error reports to EHW+ Services GmbH.'**
-  String get errorReportingAgreement;
 
   /// No description provided for @googleApiAgreement.
   ///
@@ -2828,6 +2888,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'daily'**
   String get periodDaily;
+
+  /// No description provided for @periodEveryXMonths.
+  ///
+  /// In en, this message translates to:
+  /// **'every {number} months'**
+  String periodEveryXMonths(String number);
 
   /// No description provided for @periodHalfYearly.
   ///
@@ -5268,7 +5334,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @usedForPaymentsRepayments.
   ///
   /// In en, this message translates to:
-  /// **'Advance payment, base price, and bonus'**
+  /// **'Base price and bonus'**
   String get usedForPaymentsRepayments;
 
   /// No description provided for @valueLess.

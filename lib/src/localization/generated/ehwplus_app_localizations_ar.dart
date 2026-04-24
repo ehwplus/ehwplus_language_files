@@ -108,6 +108,48 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get advancePayment => 'الدفع المقدم';
 
   @override
+  String get advancePaymentDueDay => 'يوم الاستحقاق';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'اليوم السابع$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'نهاية الشهر';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'يوم الاستحقاق الأول (اختياري)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'تستحق الدفعة المقدمة الأولى في الشهر الذي يبدأ فيه العقد.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'يجب سداد الدفعة الأولى في $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'موعد السداد هو اليوم $day من الشهر، $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'موعد السداد هو آخر يوم من الشهر، $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'يستحق سداد مبلغ الدفعة المسبقة الخاصة بـ$amount في آخر يوم من الشهر، $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'يستحق دفع مبلغ الدفعة المسبقة لـ $amount في اليوم $day من الشهر $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'شريط التطبيق مع صورة الخلفية';
 
   @override
@@ -384,11 +426,11 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'قبل أن تتمكن من المتابعة';
 
   @override
-  String get consent5ErrorReportingTitle => 'تقارير الأخطاء';
-
-  @override
   String get consent5ErrorReporting =>
       'لتحسين التطبيق بشكل موثوق به، يتم إرسال تقارير الأخطاء الفنية إلى EHW+ عبر Sentry (مستضاف ذاتيًا). إذا قمت بتعطيل الإبلاغ عن الأخطاء، فقد لا نلاحظ حدوث أخطاء وبالتالي قد لا نتمكن من إصلاحها.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'تقارير الأخطاء';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'أسعار الكهرباء / الماء / الغاز';
@@ -655,13 +697,13 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'لا، إلغاء.';
 
   @override
-  String get contractCopyDialogOptionYes => 'نعم، تغير سعر الوحدة أو قيمة أخرى.';
+  String get contractCopyDialogOptionYes => 'نعم';
 
   @override
   String get contractCopyDialogTitle => 'هل تريد عمل نسخة من هذا العقد؟';
 
   @override
-  String get contractCopyDialogWhen => 'من متى ينطبق السعر الجديد؟';
+  String get contractCopyDialogWhen => 'متى يبدأ العقد الجديد؟';
 
   @override
   String get contractCosts => 'سعر الوحدة';
@@ -1083,6 +1125,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get errorNoInternet => 'لا يوجد اتصال بالشبكة';
 
   @override
+  String get errorReportingAgreement => 'أوافق على إرسال تقارير الأخطاء الفنية إلى شركة EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       '\n\nتسوية نزاعات الاتحاد الأوروبي\n\nتوفر المفوضية الأوروبية منصة لتسوية النزاعات عبر الإنترنت (OS): https://ec.europa.eu/consumers/odr/.\nيمكنك العثور على عنوان بريدنا الإلكتروني في الطابع أعلاه.\n\nتسوية نزاعات المستهلكين/هيئة تسوية النزاعات العامة\n\nنحن غير مستعدين أو ملزمين بالمشاركة في إجراءات تسوية النزاعات أمام مجلس تحكيم المستهلكين.';
 
@@ -1215,9 +1260,6 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'أوافق على نقل البيانات مجهولة المصدر حول استخدام التطبيق إلى EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement => 'أوافق على إرسال تقارير الأخطاء الفنية إلى شركة EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1550,6 +1592,11 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'يومي';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'كل $number أشهر';
+  }
 
   @override
   String get periodHalfYearly => 'نصف سنوي';
@@ -2957,7 +3004,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'يمكن حذف العدادات والعقود وما إلى ذلك بحركة سحب جانبية';
 
   @override
-  String get usedForPaymentsRepayments => 'الدفع المقدم، السعر الأساسي، والمكافأة';
+  String get usedForPaymentsRepayments => 'السعر الأساسي والمكافأة';
 
   @override
   String valueLess(String value) {

@@ -109,6 +109,48 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get advancePayment => 'ကြိုတင်ငွေပေးချေမှု';
 
   @override
+  String get advancePaymentDueDay => 'ပေးရမည့်နေ့';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'နေ့$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'လကုန်';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'ပထမဆုံးပေးဆောင်ရမည့်နေ့ (ရွေးချယ်နိုင်သည်)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'ပထမဆုံး ကြိုပေးချေမှုကို စာချုပ်စတင်သည့်လတွင် ပေးဆောင်ရမည်။';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'ပထမ ကြိုပေးချေမှုကို $date ရက်နေ့တွင် ပေးဆောင်ရမည်။';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'လစဉ် $cadence ရက်နေ့တွင် ပေးဆောင်ရမည်။';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'ဤငွေပေးချေမှုကို လ၏ နောက်ဆုံးနေ့ဖြစ်သည့် $cadence ရက်နေ့တွင် ပေးဆောင်ရမည်။';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amount ၏ ကြိုပေးငွေပမာဏကို လ၏ နောက်ဆုံးနေ့ဖြစ်သည့် $cadence တွင် ပေးဆောင်ရမည်။';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amount အတွက် ကြိုပေးချေရမည့် ငွေပမာဏကို $cadence လ၏ $day ရက်နေ့တွင် ပေးဆောင်ရမည်။';
+  }
+
+  @override
   String get appBarExpandedMode => 'နောက်ခံပုံနှင့်အတူ App Bar';
 
   @override
@@ -389,11 +431,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'သင်ဆက်လက်မနိုင်မီ';
 
   @override
-  String get consent5ErrorReportingTitle => 'အမှားအစီရင်ခံစာများ';
-
-  @override
   String get consent5ErrorReporting =>
       'အက်ပ်ကို ယုံကြည်စိတ်ချစွာ တိုးတက်ကောင်းမွန်အောင် ပြုလုပ်ရန် Sentry (ကိုယ်ပိုင်ဟိုစ့်) မှတဆင့် နည်းပညာဆိုင်ရာ အမှားအစီရင်ခံစာများကို EHW+ သို့ ပို့ဆောင်ပါသည်။ အမှားအစီရင်ခံတင်ပြခြင်းကို ပိတ်ထားပါက ဖြစ်ပေါ်နေသော အမှားများကို မသိရှိနိုင်သဖြင့် ပြင်ဆင်၍ မရနိုင်ပါ။';
+
+  @override
+  String get consent5ErrorReportingTitle => 'အမှားအစီရင်ခံစာများ';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'လျှပ်စစ် / ရေ / သဘာဝဓာတ်ငွေ့ဈေးနှုန်းများ';
@@ -662,13 +704,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'အဘယ်သူမျှမ, ပယ်ဖျက်ပါ။';
 
   @override
-  String get contractCopyDialogOptionYes => 'ဟုတ်ပါတယ်, ယူနစ်စျေးနှုန်းသို့မဟုတ်အခြားတန်ဖိုးပြောင်းလဲသွားပြီ။';
+  String get contractCopyDialogOptionYes => 'ဟုတ်ကဲ့';
 
   @override
   String get contractCopyDialogTitle => 'ဒီစာချုပ်ရဲ့မိတ္တူကိုသင်လုပ်ချင်ပါသလား။';
 
   @override
-  String get contractCopyDialogWhen => 'စျေးနှုန်းအသစ်ကဘယ်အချိန်မှာလဲ။';
+  String get contractCopyDialogWhen => 'စာချုပ်အသစ် ဘယ်အချိန်မှာ စတင်မလဲ?';
 
   @override
   String get contractCosts => 'ယူနစ်စျေးနှုန်း';
@@ -1091,6 +1133,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get errorNoInternet => 'ကွန်ယက်မရှိပါ';
 
   @override
+  String get errorReportingAgreement =>
+      'ကျွန်ုပ်သည် နည်းပညာဆိုင်ရာ အမှားအစီရင်ခံစာများကို EHW+ Services GmbH သို့ ပို့ဆောင်ခြင်းကို သဘောတူပါသည်။';
+
+  @override
   String get euDisputeResolution =>
       'အီးယူအငြင်းပွားမှုဖြေရှင်းရေး\n\nဥရောပကော်မရှင်သည်အွန်လိုင်းအငြင်းပွားမှုဖြေရှင်းရေး (OS) အတွက်ပလက်ဖောင်းတစ်ခုပေးသည်။ Https://ec.eurocoPa.eu/consumers/odr/Odr/ ။\nသင်၏အီးမေးလ်လိပ်စာကိုအထက်တွင်ဖော်ပြရန်သင်ရှာနိုင်သည်။\n\nစားသုံးသူအငြင်းပွားမှုဖြေရှင်းခြင်း / Universal အငြင်းပွားမှုဖြေရှင်းရေးအဖွဲ့\n\nစားသုံးသူခုံသမာဓိဖြင့်စီရင်ဆုံးဖြတ်ခြင်းဘုတ်အဖွဲ့မတိုင်မီအငြင်းပွားမှုဖြေရှင်းရေးဆိုင်ရာတရားစွဲဆိုမှုများတွင်ပါ 0 င်ရန်ကျွန်ုပ်တို့ဆန္ဒရှိသို့မဟုတ်တာဝန်ရှိသည်မဟုတ်ပါ။';
 
@@ -1226,10 +1272,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'EHW+ Services GmbH သို့ အက်ပ်အသုံးပြုမှုနှင့်ပတ်သက်သည့် အမည်မသိဒေတာများ ပေးပို့ခြင်းကို ကျွန်ုပ်သဘောတူပါသည်။';
-
-  @override
-  String get errorReportingAgreement =>
-      'ကျွန်ုပ်သည် နည်းပညာဆိုင်ရာ အမှားအစီရင်ခံစာများကို EHW+ Services GmbH သို့ ပို့ဆောင်ခြင်းကို သဘောတူပါသည်။';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1562,6 +1604,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'နေ့စဉ်';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return '$number လတိုင်း';
+  }
 
   @override
   String get periodHalfYearly => 'နှစ်ဝက်';
@@ -2992,7 +3039,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ကောင်တာများ, ကန်ထရိုက်များ, စသည်တို့ကိုဘေးတိုက်ပွတ်ဆွဲခြင်းဖြင့်ဖျက်နိုင်သည်';
 
   @override
-  String get usedForPaymentsRepayments => 'ကြိုတင်ငွေပေးချေမှု, အခြေခံစျေးနှုန်းနှင့်အပိုဆုကြေး';
+  String get usedForPaymentsRepayments => 'အခြေခံစျေးနှုန်းနှင့် အပိုဆု';
 
   @override
   String valueLess(String value) {

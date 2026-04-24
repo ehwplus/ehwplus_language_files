@@ -109,6 +109,48 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get advancePayment => 'Плаћање унапред';
 
   @override
+  String get advancePaymentDueDay => 'Рок';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Дан$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Крај месеца';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Први рок за плаћање (опционално)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'Прва авансна уплата доспева у месецу када уговор почиње.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Прво авансно плаћање је доспело $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Рок плаћања је $day-ог дана у месецу, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Рок је последњег дана у месецу, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Износ аванса од $amount доспева последњег дана у месецу, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Износ аванса од $amount доспева $day-ог дана у месецу $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Трака апликација са сликом у позадини';
 
   @override
@@ -388,11 +430,11 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Пре него што наставите';
 
   @override
-  String get consent5ErrorReportingTitle => 'Извештаји о грешкама';
-
-  @override
   String get consent5ErrorReporting =>
       'Да бисмо поуздано унапредили апликацију, технички извештаји о грешкама се шаљу EHW+ преко Sentry-а (самостално хостованог). Ако онемогућите извештавање о грешкама, можда нећемо приметити грешке које се јављају и стога нећемо моћи да их исправимо.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Извештаји о грешкама';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Цене струје/воде/гаса';
@@ -659,13 +701,13 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Не, откажи.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Да, јединична цена или друга вредност се променила.';
+  String get contractCopyDialogOptionYes => 'Да';
 
   @override
   String get contractCopyDialogTitle => 'Да ли желите да направите копију овог уговора?';
 
   @override
-  String get contractCopyDialogWhen => 'Од када се примењује нова цена?';
+  String get contractCopyDialogWhen => 'Када почиње нови уговор?';
 
   @override
   String get contractCosts => 'Јединична цена';
@@ -1088,6 +1130,10 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Нема мреже';
 
   @override
+  String get errorReportingAgreement =>
+      'Слажем се са слањем извештаја о техничким грешкама компанији EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'Решавање спорова ЕУ\n\nЕвропска комисија обезбеђује платформу за онлајн решавање спорова (ОС): хттпс://ец.еуропа.еу/цонсумерс/одр/.\nНашу е-маил адресу можете пронаћи у импресуму изнад.\n\nРешавање потрошачких спорова/универзално тело за решавање спорова\n\nНисмо вољни или обавезни да учествујемо у поступцима решавања спорова пред арбитражним одбором потрошача.';
 
@@ -1221,10 +1267,6 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Слажем се са преносом анонимних података о коришћењу апликације ЕХВ+ Сервицес ГмбХ.';
-
-  @override
-  String get errorReportingAgreement =>
-      'Слажем се са слањем извештаја о техничким грешкама компанији EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1557,6 +1599,11 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'дневно';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'сваких $number месеци';
+  }
 
   @override
   String get periodHalfYearly => 'полугодишње';
@@ -2992,7 +3039,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Бројачи, уговори итд. могу се обрисати бочним превлачењем';
 
   @override
-  String get usedForPaymentsRepayments => 'Плаћање унапред, основна цена и бонус';
+  String get usedForPaymentsRepayments => 'Основна цена и бонус';
 
   @override
   String valueLess(String value) {

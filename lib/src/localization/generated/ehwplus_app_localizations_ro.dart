@@ -109,6 +109,48 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get advancePayment => 'Plata în avans';
 
   @override
+  String get advancePaymentDueDay => 'Ziua scadentă';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Ziua $day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Sfârșitul lunii';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Prima zi scadentă (opțional)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'Primul avans este datorat în luna în care începe contractul.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Prima tranșă trebuie achitată până la data de $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Termenul de plată este în ziua de $day a lunii, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Termenul de plată este în ultima zi a lunii, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Suma avansului pentru „$amount” trebuie achitată în ultima zi a lunii, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Suma avansului de la $amount trebuie achitată în ziua de $day a lunii, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Bara de aplicații cu imagine de fundal';
 
   @override
@@ -388,11 +430,11 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Înainte de a putea continua';
 
   @override
-  String get consent5ErrorReportingTitle => 'Rapoarte de eroare';
-
-  @override
   String get consent5ErrorReporting =>
       'Pentru a îmbunătăți aplicația în mod fiabil, rapoartele de erori tehnice sunt trimise către EHW+ prin Sentry (găzduit automat). Dacă dezactivați raportarea erorilor, este posibil să nu observăm apariția erorilor și, prin urmare, este posibil să nu le putem remedia.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Rapoarte de eroare';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Prețurile la electricitate / apă / gaz';
@@ -661,13 +703,13 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Nu, anulați.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Da, prețul unitar sau o altă valoare s-a modificat.';
+  String get contractCopyDialogOptionYes => 'Da';
 
   @override
   String get contractCopyDialogTitle => 'Doriți să faceți o copie a acestui contract?';
 
   @override
-  String get contractCopyDialogWhen => 'De când se aplică noul preț?';
+  String get contractCopyDialogWhen => 'Când începe noul contract?';
 
   @override
   String get contractCosts => 'Preț unitar';
@@ -1090,6 +1132,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Fără rețea';
 
   @override
+  String get errorReportingAgreement =>
+      'Sunt de acord cu transmiterea rapoartelor de erori tehnice către EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       'Soluționarea litigiilor UE\n\nComisia Europeană pune la dispoziție o platformă pentru soluționarea online a litigiilor (OS): https://ec.europa.eu/consumers/odr/.\nPuteți găsi adresa noastră de e-mail în amprenta de mai sus.\n\nOrganism de soluționare a litigiilor în materie de consum/universal\n\nNu suntem dispuși sau obligați să participăm la proceduri de soluționare a litigiilor în fața unui organism de arbitraj al consumatorilor.';
 
@@ -1223,10 +1269,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Sunt de acord cu transmiterea de date anonime despre utilizarea aplicației către EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement =>
-      'Sunt de acord cu transmiterea rapoartelor de erori tehnice către EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1559,6 +1601,11 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'zilnic';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'la fiecare $number luni';
+  }
 
   @override
   String get periodHalfYearly => 'semestrial';
@@ -2993,7 +3040,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Contoarele, contractele etc. pot fi șterse printr-o mișcare laterală';
 
   @override
-  String get usedForPaymentsRepayments => 'Plata în avans, prețul de bază și bonusul';
+  String get usedForPaymentsRepayments => 'Preț de bază și bonus';
 
   @override
   String valueLess(String value) {

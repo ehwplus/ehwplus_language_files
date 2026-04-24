@@ -110,6 +110,49 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get advancePayment => 'മുൻകൂർ പണമടയ്ക്കൽ';
 
   @override
+  String get advancePaymentDueDay => 'അവസാന തീയതി';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'ദിവസം$day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'മാസാവസാനം';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'ആദ്യ ഗഡു അടയ്‌ക്കേണ്ട തീയതി (ഐച്ഛികം)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'കരാർ ആരംഭിക്കുന്ന മാസം ആദ്യത്തെ അഡ്വാൻസ് പേയ്മെൻ്റ് അടയ്ക്കേണ്ടതാണ്.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'ആദ്യത്തെ അഡ്വാൻസ് പേയ്മെൻ്റ് $date-ന് മുൻപായി അടയ്ക്കേണ്ടതാണ്.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'ഇത് മാസത്തിലെ $day-ാം തീയതി, $cadence-ന് നൽകേണ്ടതാണ്.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'ഇത് മാസാവസാന ദിവസമായ $cadence-ന് നൽകേണ്ടതാണ്.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amount-ൻ്റെ മുൻകൂറായി നൽകേണ്ട തുക, മാസത്തിലെ അവസാന ദിവസമായ $cadence-നാണ് അടയ്ക്കേണ്ടത്.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amount-ൻ്റെ മുൻകൂറുള്ള തുക, $cadence-ലെ $day-ാം തീയതി നൽകേണ്ടതാണ്.';
+  }
+
+  @override
   String get appBarExpandedMode => 'പശ്ചാത്തല ചിത്രമുള്ള ആപ്പ് ബാർ';
 
   @override
@@ -388,11 +431,11 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'നിങ്ങൾക്ക് തുടരുന്നതിന് മുമ്പ്';
 
   @override
-  String get consent5ErrorReportingTitle => 'പിശക് റിപ്പോർട്ടുകൾ';
-
-  @override
   String get consent5ErrorReporting =>
       'ആപ്പ് വിശ്വസനീയമായി മെച്ചപ്പെടുത്തുന്നതിനായി, സാങ്കേതിക പിശക് റിപ്പോർട്ടുകൾ Sentry (സ്വയം ഹോസ്റ്റ് ചെയ്തത്) വഴി EHW+-ലേക്ക് അയയ്ക്കുന്നു. നിങ്ങൾ പിശക് റിപ്പോർട്ടിംഗ് പ്രവർത്തനരഹിതമാക്കുകയാണെങ്കിൽ, സംഭവിക്കുന്ന പിശകുകൾ ഞങ്ങളുടെ ശ്രദ്ധയിൽപ്പെടുകയില്ല, അതിനാൽ അവ പരിഹരിക്കാൻ ഞങ്ങൾക്ക് കഴിഞ്ഞേക്കില്ല.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'പിശക് റിപ്പോർട്ടുകൾ';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'വൈദ്യുതി / വെള്ളം / ഗ്യാസ് വിലകൾ';
@@ -661,13 +704,13 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'ഇല്ല, റദ്ദാക്കുക.';
 
   @override
-  String get contractCopyDialogOptionYes => 'അതെ, യൂണിറ്റ് വിലയോ മറ്റൊരു മൂല്യമോ മാറിയിരിക്കുന്നു.';
+  String get contractCopyDialogOptionYes => 'അതെ';
 
   @override
   String get contractCopyDialogTitle => 'ഈ കരാറിൻ്റെ ഒരു പകർപ്പ് ഉണ്ടാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?';
 
   @override
-  String get contractCopyDialogWhen => 'എപ്പോൾ മുതൽ പുതിയ വില ബാധകമാകും?';
+  String get contractCopyDialogWhen => 'പുതിയ കരാർ എപ്പോൾ ആരംഭിക്കും?';
 
   @override
   String get contractCosts => 'യൂണിറ്റ് വില';
@@ -1090,6 +1133,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get errorNoInternet => 'നെറ്റ്‌വർക്ക് ഇല്ല';
 
   @override
+  String get errorReportingAgreement =>
+      'EHW+ സർവീസസ് GmbH-യിലേക്ക് സാങ്കേതിക പിശക് റിപ്പോർട്ടുകൾ കൈമാറുന്നതിനോട് ഞാൻ സമ്മതിക്കുന്നു.';
+
+  @override
   String get euDisputeResolution =>
       '\n\nEU തർക്ക പരിഹാരം\n\nയൂറോപ്യൻ കമ്മീഷൻ ഓൺലൈൻ തർക്ക പരിഹാരത്തിനായി (OS) ഒരു പ്ലാറ്റ്ഫോം നൽകുന്നു: https://ec.europa.eu/consumers/odr/.\nനിങ്ങളുടെ ഇമെയിൽ വിലാസം മുകളിലെ ഇംപ്രിന്റിൽ കണ്ടെത്താം.\n\nഉപഭോക്തൃ തർക്ക പരിഹാരം/യൂണിവേഴ്സൽ തർക്ക പരിഹാര ബോഡി\n\nഉപഭോക്തൃ തർക്ക പരിഹാര ബോർഡിന് മുമ്പാകെ തർക്ക പരിഹാര നടപടികളിൽ പങ്കെടുക്കാൻ ഞങ്ങൾ തയ്യാറാകുന്നില്ല അല്ലെങ്കിൽ ബാധ്യസ്ഥരല്ല.';
 
@@ -1225,10 +1272,6 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'EHW+ Services GmbH-ലേക്ക് ആപ്പിൻ്റെ ഉപയോഗത്തെക്കുറിച്ചുള്ള അജ്ഞാത ഡാറ്റ കൈമാറുന്നത് ഞാൻ അംഗീകരിക്കുന്നു.';
-
-  @override
-  String get errorReportingAgreement =>
-      'EHW+ സർവീസസ് GmbH-യിലേക്ക് സാങ്കേതിക പിശക് റിപ്പോർട്ടുകൾ കൈമാറുന്നതിനോട് ഞാൻ സമ്മതിക്കുന്നു.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1561,6 +1604,11 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'ദിനേന';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'എല്ലാ $number മാസത്തിലും';
+  }
 
   @override
   String get periodHalfYearly => 'അർദ്ധ വാർഷികം';
@@ -2990,7 +3038,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'കൗണ്ടറുകൾ, കരാറുകൾ മുതലായവ ഒരു സൈഡ്-സ്വൈപ്പ് ചലനത്തിലൂടെ ഇല്ലാതാക്കാം';
 
   @override
-  String get usedForPaymentsRepayments => 'മുൻകൂർ പേയ്മെൻ്റ്, അടിസ്ഥാന വില, ബോണസ്';
+  String get usedForPaymentsRepayments => 'അടിസ്ഥാന വിലയും ബോണസും';
 
   @override
   String valueLess(String value) {

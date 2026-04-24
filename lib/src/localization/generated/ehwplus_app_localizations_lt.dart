@@ -108,6 +108,49 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get advancePayment => 'Avansinis mokėjimas';
 
   @override
+  String get advancePaymentDueDay => 'Atitinkama diena';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '$day diena';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Mėnesio pabaiga';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Pirmoji mokėjimo diena (neprivaloma)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'Pirmasis išankstinis mokėjimas turi būti sumokėtas tą mėnesį, kai pradedama vykdyti sutartis.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Pirmasis avansinis mokėjimas turi būti atliktas iki $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Mokėjimo terminas – mėnesio $day diena, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Jį reikia sumokėti paskutinę mėnesio dieną, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '„$amount“ avanso suma turi būti sumokėta paskutinę mėnesio dieną, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '„$amount“ avanso suma turi būti sumokėta kiekvieno mėnesio $day dieną, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Programų juosta su fono paveikslėliu';
 
   @override
@@ -386,11 +429,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Prieš pradėdami tęsti';
 
   @override
-  String get consent5ErrorReportingTitle => 'Pranešimai apie klaidas';
-
-  @override
   String get consent5ErrorReporting =>
       'Siekiant patikimai tobulinti programėlę, techninės klaidų ataskaitos siunčiamos į \"EHW+\" per \"Sentry\" (savarankiškai). Jei išjungsite pranešimus apie klaidas, galime nepastebėti atsiradusių klaidų ir todėl negalėsime jų ištaisyti.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Pranešimai apie klaidas';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Elektros/vanduo/dujų kainos';
@@ -659,13 +702,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Ne, atšaukti.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Taip, pasikeitė vieneto kaina arba kita vertė.';
+  String get contractCopyDialogOptionYes => 'Taip';
 
   @override
   String get contractCopyDialogTitle => 'Ar norite padaryti šios sutarties kopiją?';
 
   @override
-  String get contractCopyDialogWhen => 'Nuo kada galioja nauja kaina?';
+  String get contractCopyDialogWhen => 'Kada pradedama taikyti nauja sutartis?';
 
   @override
   String get contractCosts => 'Vieneto kaina';
@@ -1087,6 +1130,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Nėra tinklo';
 
   @override
+  String get errorReportingAgreement =>
+      'Sutinku, kad pranešimai apie technines klaidas būtų perduodami bendrovei \"EHW+ Services GmbH\".';
+
+  @override
   String get euDisputeResolution =>
       '\n\nES ginčų sprendimas\n\nEuropos Komisija teikia internetinių ginčų sprendimo (OS) platformą: https://ec.europa.eu/consumers/odr/.\nMūsų el. pašto adresą rasite aukščiau pateiktame atspaudyje.\n\nKulietuvių ginčų sprendimas/universali ginčų sprendimo institucija\n\nMes nenorime ir neprivalome dalyvauti ginčų sprendimo procedūrose prieš vartotojų arbitražo komisiją.';
 
@@ -1220,10 +1267,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Sutinku, kad „EHW+ Services GmbH“ būtų perduoti anoniminiai duomenys apie programėlės naudojimą.';
-
-  @override
-  String get errorReportingAgreement =>
-      'Sutinku, kad pranešimai apie technines klaidas būtų perduodami bendrovei \"EHW+ Services GmbH\".';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1556,6 +1599,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'kasdien';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'kas $number mėnesius';
+  }
 
   @override
   String get periodHalfYearly => 'kas pusę metų';
@@ -2994,7 +3042,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Skaitiklius, sutartis ir kt. galima ištrinti braukiant į šoną';
 
   @override
-  String get usedForPaymentsRepayments => 'Avansas, bazinė kaina ir premija';
+  String get usedForPaymentsRepayments => 'Bazinė kaina ir premija';
 
   @override
   String valueLess(String value) {

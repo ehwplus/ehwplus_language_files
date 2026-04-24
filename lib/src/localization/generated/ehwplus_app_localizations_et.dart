@@ -107,6 +107,48 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get advancePayment => 'Ettemaks';
 
   @override
+  String get advancePaymentDueDay => 'Tähtaeg';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '$day. päev';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Kuu lõpp';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Esimene tähtpäev (vabatahtlik)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'Esimene ettemakse tuleb tasuda lepingu alguskuul.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Esimene ettemakse tuleb tasuda $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Makse tähtaeg on kuu $day. päeval, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Makse tähtaeg on kuu viimasel päeval, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '${amount}i ettemakse tuleb tasuda kuu viimasel päeval, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '${amount}i ettemakse tuleb tasuda kuu $day. kuupäeval, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Taustapildiga rakendusriba';
 
   @override
@@ -383,11 +425,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Enne jätkamist';
 
   @override
-  String get consent5ErrorReportingTitle => 'Vigade aruanded';
-
-  @override
   String get consent5ErrorReporting =>
       'Rakenduse usaldusväärseks parandamiseks saadetakse tehnilised veateated EHW+-le Sentry kaudu (isehostitav). Kui te keelate veateavituse, ei pruugi me tekkivaid vigu märgata ja seetõttu ei pruugi me neid parandada.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Vigade aruanded';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Elektri / vee / gaasi hinnad';
@@ -661,13 +703,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Ei, tühista.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Jah, ühikuhind või mõni muu väärtus muutus.';
+  String get contractCopyDialogOptionYes => 'Jah';
 
   @override
   String get contractCopyDialogTitle => 'Kas soovid selle lepingu koopia teha?';
 
   @override
-  String get contractCopyDialogWhen => 'Millal uus hind kehtima hakkab?';
+  String get contractCopyDialogWhen => 'Millal algab uus leping?';
 
   @override
   String get contractCosts => 'Ühiku hind';
@@ -1089,6 +1131,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Võrku pole';
 
   @override
+  String get errorReportingAgreement => 'Nõustun tehniliste veateadete edastamisega EHW+ Services GmbH-le.';
+
+  @override
   String get euDisputeResolution =>
       '\n\nELi vaidluste lahendamine\n\nEuroopa Komisjon pakub veebipõhist vaidluste lahendamise platvormi (OS): https://ec.europa.eu/consumers/odr/.\nMeie e-posti aadressi leiate ülaltoodud juriidilisest teabest.\n\nTarbiija vaidluste lahendamine/üldine vaidluste lahendamise organ\n\nMe ei ole valmis ega kohustatud osalema vaidluste lahendamise menetlustes tarbija vahekohtu ees.';
 
@@ -1222,9 +1267,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Nõustun rakenduse kasutamise kohta anonüümseks muudetud andmete edastamisega ettevõttele EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement => 'Nõustun tehniliste veateadete edastamisega EHW+ Services GmbH-le.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1559,6 +1601,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'päevane';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'iga $number kuud';
+  }
 
   @override
   String get periodHalfYearly => 'poolaasta';
@@ -2977,7 +3024,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Arvesteid, lepinguid jms saab kustutada külgnihkega';
 
   @override
-  String get usedForPaymentsRepayments => 'Ettemaks, põhihind ja boonus';
+  String get usedForPaymentsRepayments => 'Baashind ja boonus';
 
   @override
   String valueLess(String value) {

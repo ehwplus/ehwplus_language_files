@@ -107,6 +107,49 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get advancePayment => 'Сумма взноса';
 
   @override
+  String get advancePaymentDueDay => 'День исполнения';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'День $day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Конец месяца';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Первый день оплаты (необязательно)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'Первый авансовый платеж вносится в месяц начала действия контракта.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Первый авансовый платеж необходимо внести $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Срок оплаты наступает в день $day месяца, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Срок оплаты — последний день месяца, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Сумма авансового платежа по счету № $amount подлежит уплате в последний день месяца, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Сумма авансового платежа по адресу $amount подлежит уплате в день $day текущего месяца, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Панель приложений с фоновым изображением';
 
   @override
@@ -389,11 +432,11 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Прежде чем вы сможете продолжить';
 
   @override
-  String get consent5ErrorReportingTitle => 'Отчеты об ошибках';
-
-  @override
   String get consent5ErrorReporting =>
       'Чтобы надежно улучшить приложение, отчеты о технических ошибках отправляются в EHW+ через Sentry (самостоятельный хостинг). Если вы отключите отправку сообщений об ошибках, мы можем не заметить возникающие ошибки и, следовательно, не сможем их исправить.';
+
+  @override
+  String get consent5ErrorReportingTitle => 'Отчеты об ошибках';
 
   @override
   String get consent6ContractPricesPerUnitTitle => 'Цены на электроэнергию / воду / газ';
@@ -669,13 +712,13 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Нет, прервать.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Да, единичная цена или другое значение изменились.';
+  String get contractCopyDialogOptionYes => 'Да';
 
   @override
   String get contractCopyDialogTitle => 'Хотите ли вы сделать копию этого контракта?';
 
   @override
-  String get contractCopyDialogWhen => 'Когда применяется новая цена?';
+  String get contractCopyDialogWhen => 'Когда начинается действие нового контракта?';
 
   @override
   String get contractCosts => 'Единичная цена';
@@ -1098,6 +1141,10 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get errorNoInternet => 'Нет интернета';
 
   @override
+  String get errorReportingAgreement =>
+      'Я согласен на передачу сообщений о технических ошибках в компанию EHW+ Services GmbH.';
+
+  @override
   String get euDisputeResolution =>
       '\\n\\nРазрешение споров в ЕС\\n\\nЕвропейская комиссия предоставляет платформу для онлайн-разрешения споров (ОС): https://ec.europa.eu/consumers/odr/.\\nНаш адрес электронной почты вы можете найти в разделе «Выходные данные» выше.\\n\\nРазрешение потребительских споров/универсальный орган по разрешению споров\\n\\nМы не желаем и не обязаны участвовать в процедурах разрешения споров перед арбитражным советом по потребительским спорам.';
 
@@ -1231,10 +1278,6 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   @override
   String get googleAnalyticsAgreement =>
       'Я согласен на передачу анонимных данных об использовании приложения в компанию EHW+ Services GmbH.';
-
-  @override
-  String get errorReportingAgreement =>
-      'Я согласен на передачу сообщений о технических ошибках в компанию EHW+ Services GmbH.';
 
   @override
   String googleApiAgreement(String appNameShort) {
@@ -1566,6 +1609,11 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'ежедневно';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'каждые $number месяцев';
+  }
 
   @override
   String get periodHalfYearly => 'раз в полгода';
@@ -3013,7 +3061,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'Счетчики, контракты и т.д. могут быть удалены движением вбок';
 
   @override
-  String get usedForPaymentsRepayments => 'Авансовый платеж, базовая цена и бонус';
+  String get usedForPaymentsRepayments => 'Базовая цена и бонус';
 
   @override
   String valueLess(String value) {
