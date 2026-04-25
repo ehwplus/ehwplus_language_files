@@ -178,6 +178,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get basePrice => 'Bazinė kaina';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Taigi bazinė kaina sudaro $amount per mėnesį.';
+  }
+
+  @override
   String get bonus => 'Premija';
 
   @override

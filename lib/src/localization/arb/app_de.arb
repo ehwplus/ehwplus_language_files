@@ -113,6 +113,14 @@
   "appNameShort": "EHW+",
   "areYouSure": "Sind Sie sich sicher?",
   "basePrice": "Grundpreis",
+  "basePriceMonthlyResult": "Es ergibt sich ein Grundpreis von {amount} monatlich.",
+  "@basePriceMonthlyResult": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "bonus": "Bonus",
   "bonusInfoText": "Tarife mit Bonus ermöglichen häufig eine Ersparnis beim Anbieterwechsel. Diese ergibt sich aber meist ausschließlich aus dem einmaligen Bonus.\n\nDas heißt: Die Gesamtkosten sind nur im ersten Belieferungsjahr so niedrig. Hohe Arbeits- und/oder Grundpreise sorgen im zweiten Jahr für eine deutlich höhere Rechnung.\n\nDeshalb sollten Sie bei Bonus-Tarifen von vornherein einplanen, nach einem Jahr erneut zu wechseln.\n\nBonus-Tarife mit einer Laufzeit von zwei Jahren, bei denen diese Kündigung gar nicht möglich ist, sollten Sie besonders kritisch hinterfragen.",
   "bonusInfoTitle": "Infos zu Bonus-Tarifen",

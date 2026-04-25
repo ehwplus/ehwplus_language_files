@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Er du sikker?",
   "basePrice": "Grundpris",
+  "basePriceMonthlyResult": "Det giver en basispris på {amount} om måneden.",
   "bonus": "Bonus",
   "bonusInfoText": "Takster med bonus giver ofte mulighed for særligt høje besparelser ved udbyderskift. Dette skyldes dog normalt udelukkende engangsbonussen. Det betyder: De samlede omkostninger er kun så lave i det første leveringsår. Højt arbejde og/eller grundpriser giver i andet år en klart højere beregning. Derfor bør du med bonustariffer planlægge fra starten at ændre igen efter et år. Bonustariffer med en løbetid på to år, hvor denne annullering slet ikke er mulig, bør stilles særligt kritiske spørgsmålstegn ved.",
   "bonusInfoTitle": "Information om bonustakster",

@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Biztos vagy benne?",
   "basePrice": "Alapár",
+  "basePriceMonthlyResult": "Ez azt jelenti, hogy az alapár havi {amount}.",
   "bonus": "Bónusz",
   "bonusInfoText": "A bónuszos tarifák gyakran különösen nagy megtakarítást tesznek lehetővé a szolgáltatóváltáskor. Ez azonban általában kizárólag az egyszeri bónuszból adódik.  A teljes költség csak az ellátás első évében ilyen alacsony. A magas munka- és/vagy alapárak a második évben egyértelműen magasabb kalkulációt biztosítanak. Ezért a bónusz tarifáknál már a kezdetektől fogva terveznie kell, hogy egy év után ismét váltani fog. Különösen kritikusan kell megkérdőjelezni a kétéves futamidejű bónusz tarifákat, ahol ez a felmondás egyáltalán nem lehetséges.",
   "bonusInfoTitle": "Információk a bónusz tarifákról",

@@ -467,6 +467,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Base price'**
   String get basePrice;
 
+  /// No description provided for @basePriceMonthlyResult.
+  ///
+  /// In en, this message translates to:
+  /// **'This results in a base price of {amount} monthly.'**
+  String basePriceMonthlyResult(String amount);
+
   /// No description provided for @bonus.
   ///
   /// In en, this message translates to:

@@ -179,6 +179,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get basePrice => 'Bei ya msingi';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Hii inasababisha bei ya msingi ya $amount kwa mwezi.';
+  }
+
+  @override
   String get bonus => 'Bonasi';
 
   @override

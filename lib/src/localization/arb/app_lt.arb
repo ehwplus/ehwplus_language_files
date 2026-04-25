@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Ar esi tikras?",
   "basePrice": "Bazinė kaina",
+  "basePriceMonthlyResult": "Taigi bazinė kaina sudaro {amount} per mėnesį.",
   "bonus": "Premija",
   "bonusInfoText": "Tarifai su priemoka dažnai leidžia ypač daug sutaupyti keičiant teikėją. Tačiau tai paprastai atsiranda tik dėl vienkartinės premijos. Tai reiškia: bendros išlaidos yra tokios mažos tik pirmaisiais tiekimo metais. Aukštos darbo ir (arba) bazinės kainos antraisiais metais suteikia aiškiai didesnį skaičiavimą. Todėl naudodami premijų tarifus turėtumėte nuo pat pradžių planuoti, kad po vienerių metų vėl pakeisite. Ypač kritiškai reikėtų suabejoti premijiniais tarifais, kurių terminas yra dveji metai, kai toks atšaukimas apskritai nėra įmanomas.",
   "bonusInfoTitle": "Informacija apie premijų tarifus",

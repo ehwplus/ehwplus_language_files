@@ -116,6 +116,14 @@
   "appNameShort": "EHW+",
   "areYouSure": "Are you sure?",
   "basePrice": "Base price",
+  "basePriceMonthlyResult": "This results in a base price of {amount} monthly.",
+  "@basePriceMonthlyResult": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "bonus": "Bonus",
   "bonusInfoText": "Tariffs with bonus often allow for particularly high savings when changing providers. However, this usually results exclusively from the one-time bonus. That means: The total costs are so low only in the first year of supply. High work and/or basic prices provide in the second year for a clearly higher calculation. Therefore, with bonus tariffs you should plan from the outset to change again after one year. Bonus tariffs with a term of two years, where this cancellation is not possible at all, should be questioned particularly critically.",
   "bonusInfoTitle": "Information about bonus tariffs",

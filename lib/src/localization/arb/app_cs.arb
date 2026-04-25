@@ -50,6 +50,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "jsi si jistý?",
   "basePrice": "Základní cena",
+  "basePriceMonthlyResult": "Výsledkem je základní cena {amount} měsíčně.",
   "bonus": "Bonus",
   "bonusInfoText": "Tarify s bonusem často umožňují obzvlášť vysoké úspory při změně poskytovatele. To však obvykle vyplývá výhradně z jednorázového bonusu. To znamená: Celkové náklady jsou tak nízké pouze v prvním roce dodávky. Vysoké ceny práce a/nebo základní ceny poskytují ve druhém roce zřetelně vyšší kalkulaci. U bonusových tarifů byste proto měli od začátku plánovat změnu po roce. Zvláště kriticky by měly být zpochybněny bonusové tarify s dobou platnosti na dva roky, kde toto zrušení není vůbec možné.",
   "bonusInfoTitle": "Informace o bonusových tarifech",

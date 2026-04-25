@@ -179,6 +179,11 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get basePrice => 'Базова цена';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'В резултат на това базовата цена възлиза на $amount на месец.';
+  }
+
+  @override
   String get bonus => 'Бонус';
 
   @override

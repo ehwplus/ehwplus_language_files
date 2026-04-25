@@ -178,6 +178,11 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get basePrice => 'Perushinta';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Tämän seurauksena perushinta on $amount kuukaudessa.';
+  }
+
+  @override
   String get bonus => 'Bonus';
 
   @override

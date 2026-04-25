@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Êtes-vous sûr ?",
   "basePrice": "Prix de base",
+  "basePriceMonthlyResult": "Cela donne un prix de base de {amount} par mois.",
   "bonus": "Prime",
   "bonusInfoText": "Les tarifs avec bonus permettent souvent de réaliser des économies particulièrement importantes lors d'un changement de fournisseur. Toutefois, cela résulte généralement exclusivement d'une prime unique. Cela signifie que les coûts totaux ne sont pas aussi bas au cours de la première année de livraison. Les prix de base et/ou de travail élevés entraînent une facture nettement plus élevée la deuxième année. C'est pourquoi, avec les tarifs majorés, vous devez prévoir dès le départ de changer à nouveau au bout d'un an. Vous devez être particulièrement critique à l'égard des tarifs bonus d'une durée de deux ans, lorsque cette annulation n'est pas du tout possible.",
   "bonusInfoTitle": "Informations sur les taux de bonus",

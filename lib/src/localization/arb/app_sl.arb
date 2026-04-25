@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Ste prepričani?",
   "basePrice": "Osnovna cena",
+  "basePriceMonthlyResult": "Tako znaša osnovna cena {amount} na mesec.",
   "bonus": "Bonus",
   "bonusInfoText": "Tarife z bonusi pogosto omogočajo še posebej visoke prihranke pri menjavi ponudnika. Vendar je to običajno posledica izključno enkratnega bonusa. To pomeni: skupni stroški so tako nizki le v prvem letu dobave. Visoke cene dela in/ali osnovne cene zagotavljajo v drugem letu očitno višji izračun. Zato bi morali z bonus tarifami že od samega začetka načrtovati, da jih po enem letu znova spremenite. Posebej kritično je treba vprašati bonusne tarife z rokom trajanja dveh let, kjer ta odpoved sploh ni mogoča.",
   "bonusInfoTitle": "Informacije o bonus tarifah",

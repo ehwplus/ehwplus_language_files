@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Jeste li sigurni?",
   "basePrice": "Osnovna cijena",
+  "basePriceMonthlyResult": "To rezultira osnovnom cijenom od {amount} mjesečno.",
   "bonus": "Bonus",
   "bonusInfoText": "Tarife s bonusom često omogućuju posebno velike uštede pri promjeni pružatelja usluga.Međutim, to obično proizlazi isključivo iz jednokratnog bonusa.To znači: ukupni troškovi su tako niski samo u prvoj godini opskrbe.Visoke cijene rada i/ili osnovne cijene osiguravaju u drugoj godini znatno viši obračun.Stoga biste s bonus tarifama trebali od samog početka planirati ponovnu promjenu nakon jedne godine.Posebno kritično treba propitivati ​​bonus tarife s rokom trajanja od dvije godine, kod kojih to ukidanje uopće nije moguće.",
   "bonusInfoTitle": "Informacije o bonus tarifama",

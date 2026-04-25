@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Si vuole davvero cancellare?",
   "basePrice": "Prezzo base",
+  "basePriceMonthlyResult": "Il prezzo base è quindi di {amount} al mese.",
   "bonus": "Bonus",
   "bonusInfoText": "Le tariffe con un bonus spesso permettono di risparmiare denaro quando si cambia fornitore. Tuttavia, questo di solito risulta esclusivamente dal bonus una tantum.\n\nQuesto significa che i costi totali sono così bassi solo nel primo anno di fornitura. I prezzi elevati della manodopera e/o dei prezzi di base comportano una fattura significativamente più alta nel secondo anno.\n\nEcco perché dovresti pianificare fin dall'inizio di cambiare di nuovo dopo un anno con le tariffe bonus.\n\nLe tariffe bonus con una durata di due anni, in cui questa cancellazione non è affatto possibile, dovrebbero essere esaminate in modo particolarmente critico.",
   "bonusInfoTitle": "Informazioni sulle tariffe bonus",

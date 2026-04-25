@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "¿Está seguro?",
   "basePrice": "Precio base",
+  "basePriceMonthlyResult": "Esto da como resultado un precio base de {amount} al mes.",
   "bonus": "Bono",
   "bonusInfoText": "Los aranceles con bonificación suelen permitir un ahorro especialmente elevado al cambiar de proveedor. Sin embargo, esto suele ser el resultado exclusivo de la bonificación única. Eso significa que: Los costos totales son tan bajos sólo en el primer año de suministro. Los altos precios de trabajo y/o básicos proporcionan en el segundo año un cálculo claramente más alto. Por lo tanto, con las tarifas de bonificación se debe planificar desde el principio para cambiar de nuevo después de un año. Las tarifas de bonificación con un plazo de dos años, donde esta cancelación no es posible en absoluto, deben ser cuestionadas de manera particularmente crítica.",
   "bonusInfoTitle": "Información sobre los aranceles de los bonos",

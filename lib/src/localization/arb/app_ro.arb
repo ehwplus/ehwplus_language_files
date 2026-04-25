@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Sunteți sigur?",
   "basePrice": "Preț de bază",
+  "basePriceMonthlyResult": "Astfel, prețul de bază este de {amount} pe lună.",
   "bonus": "Bonus",
   "bonusInfoText": "Tarifele cu bonus permit adesea economii deosebit de mari la schimbarea furnizorului. Cu toate acestea, acest lucru rezultă de obicei exclusiv din bonusul unic. Aceasta înseamnă că: Costurile totale sunt atât de scăzute numai în primul an de furnizare. Munca ridicată și/sau prețurile de bază prevăd în al doilea an un calcul clar mai mare. Prin urmare, cu tarifele bonus ar trebui să planificați de la început să schimbați din nou după un an. Tarifele bonus cu o durată de doi ani, unde această anulare nu este deloc posibilă, ar trebui să fie analizate în mod deosebit de critic.",
   "bonusInfoTitle": "Informații despre tarifele bonus",

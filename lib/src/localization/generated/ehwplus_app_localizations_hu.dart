@@ -178,6 +178,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get basePrice => 'Alapár';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Ez azt jelenti, hogy az alapár havi $amount.';
+  }
+
+  @override
   String get bonus => 'Bónusz';
 
   @override

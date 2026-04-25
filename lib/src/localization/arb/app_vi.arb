@@ -50,6 +50,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Bạn có chắc không?",
   "basePrice": "Giá cơ bản",
+  "basePriceMonthlyResult": "Do đó, giá cơ bản là {amount} mỗi tháng.",
   "bonus": "Thưởng",
   "bonusInfoText": "Biểu giá có thưởng thường cho phép tiết kiệm đặc biệt cao khi thay đổi nhà cung cấp. Tuy nhiên, điều này thường chỉ là kết quả của tiền thưởng một lần. Điều đó có nghĩa là: Tổng chi phí chỉ ở mức thấp trong năm đầu tiên cung cấp. Công việc cao và/hoặc giá cơ bản mang lại tính toán cao hơn rõ ràng trong năm thứ hai. Vì vậy, với mức thưởng, bạn nên lên kế hoạch thay đổi ngay từ đầu sau một năm. Các mức thuế thưởng có thời hạn hai năm, trong trường hợp việc hủy bỏ này hoàn toàn không thể thực hiện được, cần được đặt câu hỏi đặc biệt nghiêm túc.",
   "bonusInfoTitle": "Thông tin về mức thưởng",

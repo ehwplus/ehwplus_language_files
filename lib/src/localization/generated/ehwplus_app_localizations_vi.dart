@@ -180,6 +180,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get basePrice => 'Giá cơ bản';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Do đó, giá cơ bản là $amount mỗi tháng.';
+  }
+
+  @override
   String get bonus => 'Thưởng';
 
   @override

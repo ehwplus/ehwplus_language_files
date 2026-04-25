@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Tem a certeza?",
   "basePrice": "Preço base",
+  "basePriceMonthlyResult": "Isso resulta num preço base de {amount} por mês.",
   "bonus": "Bónus",
   "bonusInfoText": "As tarifas com bónus permitem muitas vezes poupanças particularmente elevadas quando se muda de fornecedor. No entanto, isto resulta normalmente exclusivamente do bónus único. Isto significa: Os custos totais são tão baixos apenas no primeiro ano de fornecimento. O trabalho elevado e/ou os preços básicos fornecem no segundo ano para um cálculo claramente mais elevado. Portanto, com tarifas de bónus deve planear desde o início a mudança de novo após um ano. As tarifas de bónus com um prazo de dois anos, onde este cancelamento não é de todo possível, devem ser questionadas de forma particularmente crítica.",
   "bonusInfoTitle": "Informação sobre tarifas bónus",

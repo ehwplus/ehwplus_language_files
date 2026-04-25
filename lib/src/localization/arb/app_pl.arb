@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Jesteś pewien?",
   "basePrice": "Cena podstawowa",
+  "basePriceMonthlyResult": "W rezultacie cena podstawowa wynosi {amount} miesięcznie.",
   "bonus": "Bonus",
   "bonusInfoText": "Taryfy z bonusem często pozwalają na szczególnie wysokie oszczędności przy zmianie operatora. Zazwyczaj wynika to jednak wyłącznie z jednorazowego bonusu. Oznacza to, że: Całkowite koszty są tak niskie tylko w pierwszym roku dostaw. Wysoka praca i/lub ceny podstawowe zapewniają w drugim roku wyraźnie wyższą kalkulację. Dlatego w przypadku taryf premiowych należy od samego początku zaplanować ponowną zmianę po roku. Taryfy premiowe z okresem obowiązywania wynoszącym dwa lata, w przypadku których rezygnacja nie jest w ogóle możliwa, należy poddać szczególnie krytycznej analizie.",
   "bonusInfoTitle": "Informacje o taryfach bonusowych",

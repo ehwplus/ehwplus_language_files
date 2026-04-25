@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Kas oled kindel?",
   "basePrice": "Põhihind",
+  "basePriceMonthlyResult": "Selle tulemusena on baashind {amount} kuus.",
   "bonus": "Boonus",
   "bonusInfoText": "Boonusega tariifid võimaldavad pakkujat vahetades sageli eriti suurt kokkuhoidu, kuid tavaliselt tuleneb see üksnes ühekordsest boonusest. See tähendab: kogukulud on madalad ainult esimesel tarneaastal. Kõrged töö- ja/või põhihinnad toovad teisel aastal kaasa selgelt suurema arve. Seega tasub boonustariifide puhul juba alguses planeerida, et aasta pärast taas pakkujat vahetada. Kaheaastase tähtajaga boonustariifid, kus see pole võimalik, tuleks eriti kriitiliselt üle vaadata.",
   "bonusInfoTitle": "Teave boonustariifide kohta",

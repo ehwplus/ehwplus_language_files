@@ -50,6 +50,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Jeste li sigurni?",
   "basePrice": "Osnovna cijena",
+  "basePriceMonthlyResult": "Ovo rezultira osnovnom cijenom od {amount} mjesečno.",
   "bonus": "Bonus",
   "bonusInfoText": "Tarife sa bonusom često omogućavaju posebno velike uštede prilikom promjene provajdera. Međutim, to obično proizlazi isključivo iz jednokratnog bonusa. To znači: Ukupni troškovi su tako niski samo u prvoj godini isporuke. Visoki rad i/ili osnovne cijene omogućavaju u drugoj godini jasno veći obračun. Stoga, uz bonus tarife, trebali biste od samog početka planirati ponovnu promjenu nakon godinu dana. Posebno kritički treba preispitivati ​​bonus tarife sa rokom od dvije godine, gdje ovo ukidanje uopće nije moguće.",
   "bonusInfoTitle": "Informacije o bonus tarifama",

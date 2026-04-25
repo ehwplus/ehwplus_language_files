@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Emin misin?",
   "basePrice": "Taban fiyat",
+  "basePriceMonthlyResult": "Bunun sonucunda aylık {amount} tutarında bir temel fiyat ortaya çıkıyor.",
   "bonus": "Bonus",
   "bonusInfoText": "Bonuslu tarifeler genellikle sağlayıcı değiştirirken özellikle yüksek tasarruflara olanak tanır. Ancak bu genellikle yalnızca bir kerelik bonustan kaynaklanır. Bunun anlamı şudur: Toplam maliyetler yalnızca tedarikin ilk yılında çok düşüktür. Yüksek iş ve/veya temel fiyatlar, ikinci yılda açıkça daha yüksek bir hesaplama yapılmasını sağlar. Bu nedenle bonus tarifelerde bir yıl sonra tekrar değişiklik yapmayı baştan planlamalısınız. Bu iptalin hiçbir şekilde mümkün olmadığı iki yıl vadeli bonus tarifelerinin özellikle ciddi bir şekilde sorgulanması gerekiyor.",
   "bonusInfoTitle": "Bonus tarifeleri hakkında bilgi",

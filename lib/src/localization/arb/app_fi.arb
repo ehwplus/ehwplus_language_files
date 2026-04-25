@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Oletko varma?",
   "basePrice": "Perushinta",
+  "basePriceMonthlyResult": "Tämän seurauksena perushinta on {amount} kuukaudessa.",
   "bonus": "Bonus",
   "bonusInfoText": "Bonuksella varustetut tariffit mahdollistavat usein erityisen suuria säästöjä palveluntarjoajan vaihdossa.Tämä johtuu kuitenkin yleensä yksinomaan kertaluonteisesta bonuksesta.Tämä tarkoittaa: kokonaiskustannukset ovat niin alhaiset vain ensimmäisen toimitusvuoden aikana.Korkeat työ- ja/tai perushinnat antavat toisena vuonna selvästi korkeamman laskelman.Siksi bonustariffien kanssa kannattaa alusta alkaen suunnitella muutosta vuoden kuluttua.Erityisen kriittisesti tulee kyseenalaistaa kahden vuoden bonustariffit, joissa tämä peruuttaminen ei ole ollenkaan mahdollista.",
   "bonusInfoTitle": "Tietoja bonustariffeista",

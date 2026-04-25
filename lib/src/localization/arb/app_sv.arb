@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Är du säker?",
   "basePrice": "Grundpris",
+  "basePriceMonthlyResult": "Detta ger ett grundpris på {amount} per månad.",
   "bonus": "Bonus",
   "bonusInfoText": "Tariffer med bonus ger ofta extra höga besparingar vid byte av leverantör. Detta beror dock vanligtvis uteslutande på engångsbonusen. Det betyder: De totala kostnaderna är så låga bara under det första leveransåret. Högt arbete och/eller grundpriser ger under andra året en klart högre kalkyl. Därför bör du med bonustariffer redan från början planera för att ändra igen efter ett år. Bonustariffer med en löptid på två år, där denna uppsägning inte alls är möjlig, bör ifrågasättas särskilt kritiskt.",
   "bonusInfoTitle": "Information om bonustariffer",

@@ -176,6 +176,11 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get basePrice => '기본 요금';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return '이에 따라 월 기본 요금은 $amount가 됩니다.';
+  }
+
+  @override
   String get bonus => '보너스';
 
   @override

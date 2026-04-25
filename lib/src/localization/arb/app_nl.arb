@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Weet u het zeker?",
   "basePrice": "Basisprijs",
+  "basePriceMonthlyResult": "Dit komt neer op een basisprijs van {amount} per maand.",
   "bonus": "Bonus",
   "bonusInfoText": "Tarieven met bonus maken vaak bijzonder hoge besparingen mogelijk bij het wisselen van leverancier. Dit komt echter meestal uitsluitend door de eenmalige bonus. Dat betekent: De totale kosten zijn alleen in het eerste leveringsjaar zo laag. Hoge werk- en/of basisprijzen zorgen in het tweede jaar voor een duidelijk hogere berekening. Daarom moet u bij bonustarieven vanaf het begin plannen om na een jaar opnieuw te wisselen. Bonustarieven met een looptijd van twee jaar, waarbij deze opzegging helemaal niet mogelijk is, moeten bijzonder kritisch worden beoordeeld.",
   "bonusInfoTitle": "Informatie over bonustarieven",

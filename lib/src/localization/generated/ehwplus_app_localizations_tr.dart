@@ -178,6 +178,11 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get basePrice => 'Taban fiyat';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Bunun sonucunda aylık $amount tutarında bir temel fiyat ortaya çıkıyor.';
+  }
+
+  @override
   String get bonus => 'Bonus';
 
   @override

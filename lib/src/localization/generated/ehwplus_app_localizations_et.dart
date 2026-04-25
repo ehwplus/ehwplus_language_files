@@ -176,6 +176,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get basePrice => 'Põhihind';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Selle tulemusena on baashind $amount kuus.';
+  }
+
+  @override
   String get bonus => 'Boonus';
 
   @override

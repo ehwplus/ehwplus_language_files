@@ -178,6 +178,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get basePrice => 'အခြေခံစျေးနှုန်း';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'ဤကြောင့် လစဉ် အခြေခံစျေးနှုန်းမှာ $amount ဖြစ်ပါသည်။';
+  }
+
+  @override
   String get bonus => 'ဆုငေှ';
 
   @override

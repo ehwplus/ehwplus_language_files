@@ -177,6 +177,11 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get basePrice => 'Základní cena';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Výsledkem je základní cena $amount měsíčně.';
+  }
+
+  @override
   String get bonus => 'Bonus';
 
   @override

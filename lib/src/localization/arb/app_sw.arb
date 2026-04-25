@@ -49,6 +49,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Una uhakika?",
   "basePrice": "Bei ya msingi",
+  "basePriceMonthlyResult": "Hii inasababisha bei ya msingi ya {amount} kwa mwezi.",
   "bonus": "Bonasi",
   "bonusInfoText": "Ushuru na bonasi mara nyingi huruhusu akiba ya juu wakati wa kubadilisha watoa huduma. Walakini, hii kawaida hutokana na bonasi ya wakati mmoja. Hiyo inamaanisha: Gharama za jumla ni chini sana katika mwaka wa kwanza wa usambazaji. Kazi ya juu na/au bei ya msingi hutoa katika mwaka wa pili kwa hesabu ya juu kabisa. Kwa hivyo, na ushuru wa ziada unapaswa kupanga kutoka mwanzo kubadilika tena baada ya mwaka mmoja. Ushuru wa bonasi na muda wa miaka mbili, ambapo kufutwa kwa kazi hii haiwezekani kabisa, inapaswa kuhojiwa haswa.",
   "bonusInfoTitle": "Habari juu ya ushuru wa bonasi",

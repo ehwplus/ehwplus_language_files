@@ -178,6 +178,11 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get basePrice => 'Preț de bază';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Astfel, prețul de bază este de $amount pe lună.';
+  }
+
+  @override
   String get bonus => 'Bonus';
 
   @override

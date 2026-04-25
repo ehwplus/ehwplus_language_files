@@ -180,6 +180,11 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get basePrice => 'അടിസ്ഥാന വില';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'ഇതിന്റെ ഫലമായി പ്രതിമാസം $amount രൂപ അടിസ്ഥാന വില വരുന്നു.';
+  }
+
+  @override
   String get bonus => 'ബോണസ്';
 
   @override

@@ -178,6 +178,11 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get basePrice => 'Basisprijs';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Dit komt neer op een basisprijs van $amount per maand.';
+  }
+
+  @override
   String get bonus => 'Bonus';
 
   @override

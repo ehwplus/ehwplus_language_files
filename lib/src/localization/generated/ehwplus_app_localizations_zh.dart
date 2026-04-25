@@ -175,6 +175,11 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get basePrice => '基价';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return '因此，基础月费为$amount。';
+  }
+
+  @override
   String get bonus => '奖金';
 
   @override

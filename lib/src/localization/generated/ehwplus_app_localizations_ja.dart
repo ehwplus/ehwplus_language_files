@@ -176,6 +176,11 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get basePrice => '基本価格';
 
   @override
+  String basePriceMonthlyResult(String amount) {
+    return 'これにより、基本料金は月額$amountとなります。';
+  }
+
+  @override
   String get bonus => 'ボーナス';
 
   @override
