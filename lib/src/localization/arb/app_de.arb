@@ -69,14 +69,21 @@
   "goetheDataDonationIntro": "Entscheiden Sie, ob Sie Datenanfragen erhalten möchten und von welchen Arten von Organisationen bzw. zu welchen Zwecken diese kommen dürfen.",
   "goetheDataDonationReceiveQuestion": "Möchten Sie Datenanfragen erhalten?",
   "goetheDataDonationReceiveToggle": "Datenanfragen erhalten",
-  "goetheDataDonationExplanation": "Alle Datenanfragen stehen im Kontext eines Forschungsprojekts. Es ist mit einer kleinen einstelligen Anzahl von Datenanfragen zu rechnen. Wird eine Datenanfrage akzeptiert, werden nur einmalig Daten übermittelt. Geteilt werden können Tagesverbrauchsreihen für einzelne Zähler.",
+  "goetheDataDonationExplanation": "Alle Datenanfragen stehen im Kontext des Forschungsprojekts COMET. Das Projekt endet Ende August. Es ist mit einer kleinen einstelligen Anzahl von Datenanfragen zu rechnen. Wird eine Datenanfrage akzeptiert, werden nur einmalig Daten übermittelt. Geteilt werden können Tagesverbrauchsreihen für einzelne Zähler.",
   "goetheDataDonationAudienceQuestion": "Wer darf Datenanfragen stellen?",
-  "goetheDataDonationAudienceResearchInstitutes": "Forschungsinstitute",
-  "goetheDataDonationAudienceNonprofitCompanies": "Gemeinnützige Firmen",
-  "goetheDataDonationAudienceCommercialCompanies": "Sonstige Firmen",
+  "goetheDataDonationAudiencePrivateResearchInstitute": "Privates Forschungsinstitut",
+  "goetheDataDonationAudienceResearchInstitute": "Forschungsinstitut",
+  "goetheDataDonationAudienceUniversity": "Universität",
+  "goetheDataDonationAudiencePrivateCompany": "Privatunternehmen",
+  "goetheDataDonationAudienceNonprofitOrganization": "Gemeinnützige Organisation",
+  "goetheDataDonationAudienceGovernmentalInstitution": "Staatliche Institution",
+  "goetheDataDonationAudienceOther": "Sonstige",
   "goetheDataDonationPurposeQuestion": "Welche Zwecke?",
   "goetheDataDonationPurposeResearch": "Forschung",
   "goetheDataDonationPurposeProductDevelopment": "Produktentwicklung",
+  "goetheDataDonationPurposeAiTraining": "KI-Training",
+  "goetheDataDonationPurposePersonalizedMarketing": "Personalisiertes Marketing",
+  "goetheDataDonationPurposeMarketResearch": "Marktforschung",
   "goetheDataDonationDisabled": "Datenanfragen sind aktuell nicht verfügbar.",
   "goetheDataDonationBackHome": "Zur Startseite",
   "goetheDataDonationBannerPending": "Es gibt neue Datenanfragen.",
@@ -93,6 +100,30 @@
   "goetheDataDonationRequestsRejectedEmpty": "Keine abgelehnten Datenanfragen.",
   "goetheDataDonationRejectButton": "Ablehnen",
   "goetheDataDonationApproveButton": "Bestätigen",
+  "goetheDataDonationResetDecisionButton": "Zurückstellen",
+  "goetheDataDonationUploadPreparing": "Datenanfragen werden für den Upload vorbereitet.",
+  "goetheDataDonationUploadProgress": "{current} von {total} Datenanfragen werden hochgeladen.",
+  "@goetheDataDonationUploadProgress": {
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+  "goetheDataDonationUploadCompleted": "{completed} von {total} Datenanfragen wurden hochgeladen.",
+  "@goetheDataDonationUploadCompleted": {
+    "placeholders": {
+      "completed": {},
+      "total": {}
+    }
+  },
+  "goetheDataDonationUploadFailed": "{completed} von {total} Datenanfragen wurden hochgeladen, {failed} sind fehlgeschlagen.",
+  "@goetheDataDonationUploadFailed": {
+    "placeholders": {
+      "completed": {},
+      "total": {},
+      "failed": {}
+    }
+  },
   "goetheDataDonationSettingsTitle": "Datenanfragen",
   "goetheDataDonationSettingsSubtitle": "Goethe-Research-Datenanfragen verwalten",
   "goetheDataDonationRequestFallbackTitle": "Datenanfrage",

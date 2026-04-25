@@ -236,19 +236,31 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get goetheDataDonationExplanation =>
-      'All data requests are related to a research project. Only a small single-digit number of requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.';
+      'All data requests are made in the context of the COMET research project. The project ends at the end of August. Only a small single-digit number of data requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.';
 
   @override
   String get goetheDataDonationAudienceQuestion => 'Who may submit data requests?';
 
   @override
-  String get goetheDataDonationAudienceResearchInstitutes => 'Research institutes';
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Private research institute';
 
   @override
-  String get goetheDataDonationAudienceNonprofitCompanies => 'Non-profit companies';
+  String get goetheDataDonationAudienceResearchInstitute => 'Research institute';
 
   @override
-  String get goetheDataDonationAudienceCommercialCompanies => 'Commercial companies';
+  String get goetheDataDonationAudienceUniversity => 'University';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Private company';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Non-profit organization';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Governmental institution';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Other';
 
   @override
   String get goetheDataDonationPurposeQuestion => 'For which purposes?';
@@ -258,6 +270,15 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get goetheDataDonationPurposeProductDevelopment => 'Product development';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'AI training';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalized marketing';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Market research';
 
   @override
   String get goetheDataDonationDisabled => 'Data requests are currently unavailable.';
@@ -307,6 +328,27 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get goetheDataDonationApproveButton => 'Approve';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Mark as pending';
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Preparing data requests for upload.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Uploading data requests $current of $total.';
+  }
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Uploaded $completed of $total data requests.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Uploaded $completed of $total data requests, $failed failed.';
+  }
 
   @override
   String get goetheDataDonationSettingsTitle => 'Data requests';

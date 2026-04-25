@@ -236,19 +236,31 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get goetheDataDonationExplanation =>
-      'Alle Datenanfragen stehen im Kontext eines Forschungsprojekts. Es ist mit einer kleinen einstelligen Anzahl von Datenanfragen zu rechnen. Wird eine Datenanfrage akzeptiert, werden nur einmalig Daten übermittelt. Geteilt werden können Tagesverbrauchsreihen für einzelne Zähler.';
+      'Alle Datenanfragen stehen im Kontext des Forschungsprojekts COMET. Das Projekt endet Ende August. Es ist mit einer kleinen einstelligen Anzahl von Datenanfragen zu rechnen. Wird eine Datenanfrage akzeptiert, werden nur einmalig Daten übermittelt. Geteilt werden können Tagesverbrauchsreihen für einzelne Zähler.';
 
   @override
   String get goetheDataDonationAudienceQuestion => 'Wer darf Datenanfragen stellen?';
 
   @override
-  String get goetheDataDonationAudienceResearchInstitutes => 'Forschungsinstitute';
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privates Forschungsinstitut';
 
   @override
-  String get goetheDataDonationAudienceNonprofitCompanies => 'Gemeinnützige Firmen';
+  String get goetheDataDonationAudienceResearchInstitute => 'Forschungsinstitut';
 
   @override
-  String get goetheDataDonationAudienceCommercialCompanies => 'Sonstige Firmen';
+  String get goetheDataDonationAudienceUniversity => 'Universität';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Privatunternehmen';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Gemeinnützige Organisation';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Staatliche Institution';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Sonstige';
 
   @override
   String get goetheDataDonationPurposeQuestion => 'Welche Zwecke?';
@@ -258,6 +270,15 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get goetheDataDonationPurposeProductDevelopment => 'Produktentwicklung';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'KI-Training';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalisiertes Marketing';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Marktforschung';
 
   @override
   String get goetheDataDonationDisabled => 'Datenanfragen sind aktuell nicht verfügbar.';
@@ -307,6 +328,27 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get goetheDataDonationApproveButton => 'Bestätigen';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Zurückstellen';
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Datenanfragen werden für den Upload vorbereitet.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return '$current von $total Datenanfragen werden hochgeladen.';
+  }
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return '$completed von $total Datenanfragen wurden hochgeladen.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return '$completed von $total Datenanfragen wurden hochgeladen, $failed sind fehlgeschlagen.';
+  }
 
   @override
   String get goetheDataDonationSettingsTitle => 'Datenanfragen';

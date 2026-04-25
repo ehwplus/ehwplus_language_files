@@ -590,7 +590,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @goetheDataDonationExplanation.
   ///
   /// In en, this message translates to:
-  /// **'All data requests are related to a research project. Only a small single-digit number of requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.'**
+  /// **'All data requests are made in the context of the COMET research project. The project ends at the end of August. Only a small single-digit number of data requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.'**
   String get goetheDataDonationExplanation;
 
   /// No description provided for @goetheDataDonationAudienceQuestion.
@@ -599,23 +599,47 @@ abstract class EhwplusAppLocalizations {
   /// **'Who may submit data requests?'**
   String get goetheDataDonationAudienceQuestion;
 
-  /// No description provided for @goetheDataDonationAudienceResearchInstitutes.
+  /// No description provided for @goetheDataDonationAudiencePrivateResearchInstitute.
   ///
   /// In en, this message translates to:
-  /// **'Research institutes'**
-  String get goetheDataDonationAudienceResearchInstitutes;
+  /// **'Private research institute'**
+  String get goetheDataDonationAudiencePrivateResearchInstitute;
 
-  /// No description provided for @goetheDataDonationAudienceNonprofitCompanies.
+  /// No description provided for @goetheDataDonationAudienceResearchInstitute.
   ///
   /// In en, this message translates to:
-  /// **'Non-profit companies'**
-  String get goetheDataDonationAudienceNonprofitCompanies;
+  /// **'Research institute'**
+  String get goetheDataDonationAudienceResearchInstitute;
 
-  /// No description provided for @goetheDataDonationAudienceCommercialCompanies.
+  /// No description provided for @goetheDataDonationAudienceUniversity.
   ///
   /// In en, this message translates to:
-  /// **'Commercial companies'**
-  String get goetheDataDonationAudienceCommercialCompanies;
+  /// **'University'**
+  String get goetheDataDonationAudienceUniversity;
+
+  /// No description provided for @goetheDataDonationAudiencePrivateCompany.
+  ///
+  /// In en, this message translates to:
+  /// **'Private company'**
+  String get goetheDataDonationAudiencePrivateCompany;
+
+  /// No description provided for @goetheDataDonationAudienceNonprofitOrganization.
+  ///
+  /// In en, this message translates to:
+  /// **'Non-profit organization'**
+  String get goetheDataDonationAudienceNonprofitOrganization;
+
+  /// No description provided for @goetheDataDonationAudienceGovernmentalInstitution.
+  ///
+  /// In en, this message translates to:
+  /// **'Governmental institution'**
+  String get goetheDataDonationAudienceGovernmentalInstitution;
+
+  /// No description provided for @goetheDataDonationAudienceOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Other'**
+  String get goetheDataDonationAudienceOther;
 
   /// No description provided for @goetheDataDonationPurposeQuestion.
   ///
@@ -634,6 +658,24 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Product development'**
   String get goetheDataDonationPurposeProductDevelopment;
+
+  /// No description provided for @goetheDataDonationPurposeAiTraining.
+  ///
+  /// In en, this message translates to:
+  /// **'AI training'**
+  String get goetheDataDonationPurposeAiTraining;
+
+  /// No description provided for @goetheDataDonationPurposePersonalizedMarketing.
+  ///
+  /// In en, this message translates to:
+  /// **'Personalized marketing'**
+  String get goetheDataDonationPurposePersonalizedMarketing;
+
+  /// No description provided for @goetheDataDonationPurposeMarketResearch.
+  ///
+  /// In en, this message translates to:
+  /// **'Market research'**
+  String get goetheDataDonationPurposeMarketResearch;
 
   /// No description provided for @goetheDataDonationDisabled.
   ///
@@ -730,6 +772,36 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Approve'**
   String get goetheDataDonationApproveButton;
+
+  /// No description provided for @goetheDataDonationResetDecisionButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Mark as pending'**
+  String get goetheDataDonationResetDecisionButton;
+
+  /// No description provided for @goetheDataDonationUploadPreparing.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing data requests for upload.'**
+  String get goetheDataDonationUploadPreparing;
+
+  /// No description provided for @goetheDataDonationUploadProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploading data requests {current} of {total}.'**
+  String goetheDataDonationUploadProgress(Object current, Object total);
+
+  /// No description provided for @goetheDataDonationUploadCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded {completed} of {total} data requests.'**
+  String goetheDataDonationUploadCompleted(Object completed, Object total);
+
+  /// No description provided for @goetheDataDonationUploadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded {completed} of {total} data requests, {failed} failed.'**
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed);
 
   /// No description provided for @goetheDataDonationSettingsTitle.
   ///
