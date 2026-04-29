@@ -2415,6 +2415,30 @@ abstract class EhwplusAppLocalizations {
   /// **'More about the heatmap'**
   String get heatmapLegendTitle;
 
+  /// No description provided for @addressAdministrativeArea.
+  ///
+  /// In en, this message translates to:
+  /// **'State / region / province'**
+  String get addressAdministrativeArea;
+
+  /// No description provided for @addressLocality.
+  ///
+  /// In en, this message translates to:
+  /// **'City / locality'**
+  String get addressLocality;
+
+  /// No description provided for @addressStreet.
+  ///
+  /// In en, this message translates to:
+  /// **'Street / address line'**
+  String get addressStreet;
+
+  /// No description provided for @addressValidationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter {field}'**
+  String addressValidationRequired(String field);
+
   /// No description provided for @houseName.
   ///
   /// In en, this message translates to:
@@ -5792,6 +5816,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'A valid zip code consists only of numbers'**
   String get zipCodeValidationOnlyNumbers;
+
+  /// No description provided for @zipCodeValidationGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid postal code'**
+  String get zipCodeValidationGeneral;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

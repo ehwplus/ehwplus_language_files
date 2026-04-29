@@ -1302,6 +1302,20 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'المزيد عن خريطة الحرارة';
 
   @override
+  String get addressAdministrativeArea => 'الولاية/المنطقة/المقاطعة';
+
+  @override
+  String get addressLocality => 'المدينة/المحلية';
+
+  @override
+  String get addressStreet => 'خط الشارع / العنوان';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'يرجى إدخال $field';
+  }
+
+  @override
   String get houseName => 'اسم المنزل';
 
   @override
@@ -3287,4 +3301,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'الرمز البريدي الصالح يتكون من أرقام فقط';
+
+  @override
+  String get zipCodeValidationGeneral => 'الرجاء إدخال رمز بريدي صالح';
 }

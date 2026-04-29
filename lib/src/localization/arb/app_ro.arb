@@ -30,6 +30,10 @@
   "addActivity": "Adăugați activitate",
   "addDetail": "Adaugă detalii",
   "addNewValue": "Introduceți noua valoare",
+  "addressAdministrativeArea": "Stat / regiune / provincie",
+  "addressLocality": "Oraș / localitate",
+  "addressStreet": "Strada / linia de adresă",
+  "addressValidationRequired": "Vă rugăm să introduceți {field}",
   "advancePayment": "Plata în avans",
   "advancePaymentDueDay": "Ziua scadentă",
   "advancePaymentDueDayOptionDay": "Ziua {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Afișați întotdeauna conținut Youtube",
   "youtubeConsent3": "Sunt de acord să mi se afișeze conținut extern. Acest lucru poate duce la transmiterea datelor personale către platforme terțe. Mai multe despre acest lucru în",
   "zipCode": "cod poștal",
+  "zipCodeValidationGeneral": "Vă rugăm să introduceți un cod poștal valabil",
   "zipCodeValidationLength": "Vă rugăm să introduceți un cod poștal format din {digits} cifre.",
   "zipCodeValidationOnlyNumbers": "Un cod poștal valabil constă numai din numere"
 }

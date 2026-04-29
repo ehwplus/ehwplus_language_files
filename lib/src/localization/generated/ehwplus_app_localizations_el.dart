@@ -1314,6 +1314,20 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Περισσότερα για τον χάρτη θερμότητας';
 
   @override
+  String get addressAdministrativeArea => 'Πολιτεία / περιφέρεια / επαρχία';
+
+  @override
+  String get addressLocality => 'Πόλη/τοποθεσία';
+
+  @override
+  String get addressStreet => 'Οδός / γραμμή διεύθυνσης';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Παρακαλώ πληκτρολογήστε $field';
+  }
+
+  @override
   String get houseName => 'Όνομα σπιτιού';
 
   @override
@@ -3345,4 +3359,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς';
+
+  @override
+  String get zipCodeValidationGeneral => 'Παρακαλώ εισάγετε έναν έγκυρο ταχυδρομικό κώδικα';
 }

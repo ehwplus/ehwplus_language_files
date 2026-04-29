@@ -1310,6 +1310,20 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Isı haritası hakkında daha fazla bilgi';
 
   @override
+  String get addressAdministrativeArea => 'Eyalet / bölge / il';
+
+  @override
+  String get addressLocality => 'Şehir / bölge';
+
+  @override
+  String get addressStreet => 'Sokak / adres satırı';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Lütfen $field adresini girin';
+  }
+
+  @override
   String get houseName => 'Ev adı';
 
   @override
@@ -3319,4 +3333,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Geçerli bir posta kodu yalnızca sayılardan oluşur';
+
+  @override
+  String get zipCodeValidationGeneral => 'Lütfen geçerli bir posta kodu girin';
 }

@@ -1306,6 +1306,20 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Více o teplotní mapě';
 
   @override
+  String get addressAdministrativeArea => 'Stát / region / provincie';
+
+  @override
+  String get addressLocality => 'Město / lokalita';
+
+  @override
+  String get addressStreet => 'Ulice/adresní řádek';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Zadejte prosím $field';
+  }
+
+  @override
   String get houseName => 'Jméno domu';
 
   @override
@@ -3319,4 +3333,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Platné PSČ se skládá pouze z čísel';
+
+  @override
+  String get zipCodeValidationGeneral => 'Zadejte prosím platné poštovní směrovací číslo';
 }

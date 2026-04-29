@@ -30,6 +30,10 @@
   "addActivity": "Etkinlik ekle",
   "addDetail": "Ayrıntı ekle",
   "addNewValue": "Yeni değer girin",
+  "addressAdministrativeArea": "Eyalet / bölge / il",
+  "addressLocality": "Şehir / bölge",
+  "addressStreet": "Sokak / adres satırı",
+  "addressValidationRequired": "Lütfen {field} adresini girin",
   "advancePayment": "Peşin ödeme",
   "advancePaymentDueDay": "Son gün",
   "advancePaymentDueDayOptionDay": "{day}. Gün",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Youtube içeriğini her zaman göster",
   "youtubeConsent3": "Harici içeriğin bana gösterilmesini kabul ediyorum. Bu, kişisel verilerin üçüncü taraf platformlara aktarılmasına neden olabilir. Bu konuda daha fazla bilgi bizim",
   "zipCode": "posta kodu",
+  "zipCodeValidationGeneral": "Lütfen geçerli bir posta kodu girin",
   "zipCodeValidationLength": "Lütfen {digits} haneli posta kodunu girin",
   "zipCodeValidationOnlyNumbers": "Geçerli bir posta kodu yalnızca sayılardan oluşur"
 }

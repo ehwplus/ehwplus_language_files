@@ -30,6 +30,10 @@
   "addActivity": "പ്രവർത്തനം ചേർക്കുക",
   "addDetail": "വിശദാംശം ചേർക്കുക",
   "addNewValue": "പുതിയ മൂല്യം നൽകുക",
+  "addressAdministrativeArea": "സംസ്ഥാനം / മേഖല / പ്രവിശ്യ",
+  "addressLocality": "നഗരം / പ്രദേശം",
+  "addressStreet": "വഴി / വിലാസ വര",
+  "addressValidationRequired": "ദയവായി {field} നൽകുക",
   "advancePayment": "മുൻകൂർ പണമടയ്ക്കൽ",
   "advancePaymentDueDay": "അവസാന തീയതി",
   "advancePaymentDueDayOptionDay": "ദിവസം{day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "എപ്പോഴും Youtube ഉള്ളടക്കം കാണിക്കുക",
   "youtubeConsent3": "എനിക്ക് ദൃശ്യമാകുന്ന ബാഹ്യ ഉള്ളടക്കം ഞാൻ അംഗീകരിക്കുന്നു. ഇത് മൂന്നാം കക്ഷി പ്ലാറ്റ്‌ഫോമുകളിലേക്ക് വ്യക്തിഗത ഡാറ്റ കൈമാറുന്നതിൽ കലാശിച്ചേക്കാം. ഇതിനെക്കുറിച്ച് കൂടുതൽ ഞങ്ങളുടെ",
   "zipCode": "തപാൽ കോഡ്",
+  "zipCodeValidationGeneral": "ദയവായി സാധുവായ ഒരു പോസ്റ്റൽ കോഡ് നൽകുക",
   "zipCodeValidationLength": "ദയവായി {digits}-അക്കമുള്ള തപാൽ കോഡ് നൽകുക",
   "zipCodeValidationOnlyNumbers": "ഒരു സാധുവായ പിൻ കോഡിൽ അക്കങ്ങൾ മാത്രമേ അടങ്ങിയിട്ടുള്ളൂ"
 }

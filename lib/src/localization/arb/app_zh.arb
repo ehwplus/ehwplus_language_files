@@ -30,6 +30,10 @@
   "addActivity": "添加活动",
   "addDetail": "添加细节",
   "addNewValue": "输入新值",
+  "addressAdministrativeArea": "州/地区/省",
+  "addressLocality": "城市/地区",
+  "addressStreet": "街道/地址栏",
+  "addressValidationRequired": "请输入 {field}",
   "advancePayment": "预付款",
   "advancePaymentDueDay": "到期日",
   "advancePaymentDueDayOptionDay": "第{day}天",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "始终显示 YouTube 内容",
   "youtubeConsent3": "我同意向我显示外部内容。这可能会导致个人数据被传输到第三方平台。有关此内容的更多信息，请参阅我们的",
   "zipCode": "邮政编码",
+  "zipCodeValidationGeneral": "请输入有效的邮政编码",
   "zipCodeValidationLength": "请输入 {digits} 位邮政编码",
   "zipCodeValidationOnlyNumbers": "有效的邮政编码仅由数字组成"
 }

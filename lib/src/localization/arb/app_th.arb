@@ -30,6 +30,10 @@
   "addActivity": "เพิ่มกิจกรรม",
   "addDetail": "เพิ่มรายละเอียด",
   "addNewValue": "ป้อนค่าใหม่",
+  "addressAdministrativeArea": "รัฐ / ภูมิภาค / จังหวัด",
+  "addressLocality": "เมือง / เขต",
+  "addressStreet": "ถนน / บรรทัดที่อยู่",
+  "addressValidationRequired": "กรุณาป้อน {field}",
   "advancePayment": "ชำระเงินล่วงหน้า",
   "advancePaymentDueDay": "วันครบกำหนด",
   "advancePaymentDueDayOptionDay": "วันที่{day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "แสดงเนื้อหา Youtube เสมอ",
   "youtubeConsent3": "ฉันยินยอมให้แสดงเนื้อหาภายนอกแก่ฉัน ซึ่งอาจส่งผลให้ข้อมูลส่วนบุคคลถูกส่งไปยังแพลตฟอร์มของบุคคลที่สาม เพิ่มเติมเกี่ยวกับเรื่องนี้ในของเรา",
   "zipCode": "รหัสไปรษณีย์",
+  "zipCodeValidationGeneral": "กรุณาป้อนรหัสไปรษณีย์ที่ถูกต้อง",
   "zipCodeValidationLength": "กรุณากรอกรหัสไปรษณีย์ {digits} หลัก",
   "zipCodeValidationOnlyNumbers": "รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น"
 }

@@ -1310,6 +1310,20 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Daugiau apie šilumos žemėlapį';
 
   @override
+  String get addressAdministrativeArea => 'Valstybė / regionas / provincija';
+
+  @override
+  String get addressLocality => 'Miestas / vietovė';
+
+  @override
+  String get addressStreet => 'Gatvė / adreso eilutė';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Įveskite $field';
+  }
+
+  @override
   String get houseName => 'Namo pavadinimas';
 
   @override
@@ -3332,4 +3346,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Galiojantį pašto kodą sudaro tik skaičiai';
+
+  @override
+  String get zipCodeValidationGeneral => 'Įveskite galiojantį pašto kodą';
 }

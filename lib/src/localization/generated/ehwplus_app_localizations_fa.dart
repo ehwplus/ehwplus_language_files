@@ -1304,6 +1304,20 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'اطلاعات بیشتر در مورد نقشه حرارتی';
 
   @override
+  String get addressAdministrativeArea => 'ایالت / منطقه / استان';
+
+  @override
+  String get addressLocality => 'شهر / محل';
+
+  @override
+  String get addressStreet => 'خیابان / خط آدرس';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'لطفاً $field را وارد کنید.';
+  }
+
+  @override
   String get houseName => 'نام خانه';
 
   @override
@@ -3301,4 +3315,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'یک کد پستی معتبر فقط از اعداد تشکیل شده است';
+
+  @override
+  String get zipCodeValidationGeneral => 'لطفاً یک کد پستی معتبر وارد کنید';
 }

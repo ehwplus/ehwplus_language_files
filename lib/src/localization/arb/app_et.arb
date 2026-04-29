@@ -30,6 +30,10 @@
   "addActivity": "Lisa tegevus",
   "addDetail": "Lisa detail",
   "addNewValue": "Sisesta uus väärtus",
+  "addressAdministrativeArea": "Riik/piirkond/provints",
+  "addressLocality": "Linn / paikkond",
+  "addressStreet": "Tänav / aadressi rida",
+  "addressValidationRequired": "Palun sisestage {field}",
   "advancePayment": "Ettemaks",
   "advancePaymentDueDay": "Tähtaeg",
   "advancePaymentDueDayOptionDay": "{day}. päev",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Näita alati Youtube'i sisu",
   "youtubeConsent3": "Nõustun, et mulle kuvatakse välissisu. See võib tähendada isikuandmete edastamist kolmandate osapoolte platvormidele. Lisateave meie ",
   "zipCode": "postiindeks",
+  "zipCodeValidationGeneral": "Palun sisestage kehtiv postiindeks",
   "zipCodeValidationLength": "Palun sisesta {digits}-kohaline postiindeks",
   "zipCodeValidationOnlyNumbers": "Kehtiv postiindeks koosneb ainult numbritest"
 }

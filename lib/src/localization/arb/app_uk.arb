@@ -31,6 +31,10 @@
   "addActivity": "Додати активність",
   "addDetail": "Додайте деталі",
   "addNewValue": "Введіть нове значення",
+  "addressAdministrativeArea": "Держава / регіон / область",
+  "addressLocality": "Місто / населений пункт",
+  "addressStreet": "Вулиця / адресний рядок",
+  "addressValidationRequired": "Введіть, будь ласка, {field}",
   "advancePayment": "Попередня оплата",
   "advancePaymentDueDay": "День сплати",
   "advancePaymentDueDayOptionDay": "День №{day}",
@@ -932,6 +936,7 @@
   "youtubeConsent2": "Завжди показувати вміст Youtube",
   "youtubeConsent3": "Я погоджуюся на відображення зовнішнього вмісту. Це може призвести до передачі особистих даних на сторонні платформи. Детальніше про це в нашому",
   "zipCode": "поштовий індекс",
+  "zipCodeValidationGeneral": "Будь ласка, введіть дійсний поштовий індекс",
   "zipCodeValidationLength": "Введіть {digits}-значний поштовий індекс",
   "zipCodeValidationOnlyNumbers": "Дійсний поштовий індекс складається лише з цифр"
 }

@@ -30,6 +30,10 @@
   "addActivity": "Activiteit toevoegen",
   "addDetail": "Detail toevoegen",
   "addNewValue": "Voer nieuwe waarde in",
+  "addressAdministrativeArea": "Staat / regio / provincie",
+  "addressLocality": "Stad / plaats",
+  "addressStreet": "Straat/adresregel",
+  "addressValidationRequired": "Voer {field} in",
   "advancePayment": "Voorschot",
   "advancePaymentDueDay": "Vervallen dag",
   "advancePaymentDueDayOptionDay": "Dag {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Youtube-inhoud altijd tonen",
   "youtubeConsent3": "Ik ga akkoord dat externe inhoud aan mij wordt weergegeven. Dit kan ertoe leiden dat persoonlijke gegevens worden verzonden naar platforms van derden. Meer hierover in onze ",
   "zipCode": "postcode",
+  "zipCodeValidationGeneral": "Voer een geldige postcode in",
   "zipCodeValidationLength": "Voer een {digits}-cijferige postcode in",
   "zipCodeValidationOnlyNumbers": "Een geldige postcode bestaat alleen uit cijfers"
 }

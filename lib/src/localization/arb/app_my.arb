@@ -30,6 +30,10 @@
   "addActivity": "လှုပ်ရှားမှုထည့်ပါ",
   "addDetail": "အသေးစိတ်ထည့်ပါ",
   "addNewValue": "တန်ဖိုးအသစ်ကိုထည့်ပါ",
+  "addressAdministrativeArea": "ပြည်နယ်/ဒေသ/တိုင်းဒေသကြီး",
+  "addressLocality": "မြို့/ဒေသ",
+  "addressStreet": "လမ်း/လိပ်စာကြောင်း",
+  "addressValidationRequired": "{field} ကို ထည့်ပါ။",
   "advancePayment": "ကြိုတင်ငွေပေးချေမှု",
   "advancePaymentDueDay": "ပေးရမည့်နေ့",
   "advancePaymentDueDayOptionDay": "နေ့{day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "အမြဲတမ်း YouTube အကြောင်းအရာကိုပြပါ",
   "youtubeConsent3": "ငါမှပြသထားသောပြင်ပအကြောင်းအရာကိုသဘောတူသည်။ ၎င်းသည်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုတတိယပါတီပလက်ဖောင်းများသို့ကူးစက်စေနိုင်သည်။ ငါတို့အပေါ်မှာဒီအပေါ်ပိုပြီး",
   "zipCode": "စာတိုက်သင်္ကေတ",
+  "zipCodeValidationGeneral": "ကျေးဇူးပြု၍ မှန်ကန်သော စာတိုက်ကုဒ်ကို ထည့်ပါ။",
   "zipCodeValidationLength": "ကျေးဇူးပြုပြီး Phtoken0-digit စာတိုက်ကုဒ်ကိုရိုက်ထည့်ပါ",
   "zipCodeValidationOnlyNumbers": "ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်"
 }

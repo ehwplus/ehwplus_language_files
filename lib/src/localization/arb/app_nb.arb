@@ -30,6 +30,10 @@
   "addActivity": "Legg til aktivitet",
   "addDetail": "Legg til detaljer",
   "addNewValue": "Skriv inn ny verdi",
+  "addressAdministrativeArea": "Delstat/region/provins",
+  "addressLocality": "By/lokalitet",
+  "addressStreet": "Gate/adresselinje",
+  "addressValidationRequired": "Vennligst skriv inn {field}",
   "advancePayment": "Forskuddsbetaling",
   "advancePaymentDueDay": "Forfallsdag",
   "advancePaymentDueDayOptionDay": "Dag {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Vis alltid YouTube-innhold",
   "youtubeConsent3": "Jeg godtar at eksternt innhold vises for meg. Dette kan føre til at personopplysninger overføres til tredjepartsplattformer. Mer om dette i vår",
   "zipCode": "postnummer",
+  "zipCodeValidationGeneral": "Vennligst skriv inn et gyldig postnummer",
   "zipCodeValidationLength": "Vennligst skriv inn et {digits}-sifret postnummer",
   "zipCodeValidationOnlyNumbers": "Et gyldig postnummer består kun av tall"
 }

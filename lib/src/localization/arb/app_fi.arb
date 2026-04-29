@@ -30,6 +30,10 @@
   "addActivity": "Lisää toimintaa",
   "addDetail": "Lisää yksityiskohtia",
   "addNewValue": "Syötä uusi arvo",
+  "addressAdministrativeArea": "Valtio / alue / maakunta",
+  "addressLocality": "Kaupunki / paikkakunta",
+  "addressStreet": "Katu / osoiteriville",
+  "addressValidationRequired": "Kirjoita osoitteeksi {field}",
   "advancePayment": "Ennakkomaksu",
   "advancePaymentDueDay": "Eräpäivä",
   "advancePaymentDueDayOptionDay": "Päivä {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Näytä aina Youtube-sisältöä",
   "youtubeConsent3": "Hyväksyn ulkoisen sisällön näyttämisen minulle.Tämä voi johtaa henkilötietojen siirtämiseen kolmansien osapuolien alustoille.Tästä lisää meidän",
   "zipCode": "postinumero",
+  "zipCodeValidationGeneral": "Syötä voimassa oleva postinumero",
   "zipCodeValidationLength": "Syötä {digits} numeroinen postinumero",
   "zipCodeValidationOnlyNumbers": "Kelvollinen postinumero koostuu vain numeroista"
 }

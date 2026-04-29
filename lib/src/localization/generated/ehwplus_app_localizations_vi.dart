@@ -1311,6 +1311,20 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Thông tin thêm về bản đồ nhiệt';
 
   @override
+  String get addressAdministrativeArea => 'Tỉnh / khu vực / tỉnh';
+
+  @override
+  String get addressLocality => 'Thành phố / địa phương';
+
+  @override
+  String get addressStreet => 'Đường / Dòng địa chỉ';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Vui lòng nhập $field';
+  }
+
+  @override
   String get houseName => 'Tên nhà';
 
   @override
@@ -3317,4 +3331,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Mã zip hợp lệ chỉ bao gồm các số';
+
+  @override
+  String get zipCodeValidationGeneral => 'Vui lòng nhập mã bưu chính hợp lệ';
 }

@@ -1312,6 +1312,20 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'További információk a hőtérképről';
 
   @override
+  String get addressAdministrativeArea => 'Állam / régió / tartomány';
+
+  @override
+  String get addressLocality => 'Város / település';
+
+  @override
+  String get addressStreet => 'Utca / címsor';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Kérjük, írja be: $field';
+  }
+
+  @override
   String get houseName => 'Ház neve';
 
   @override
@@ -3331,4 +3345,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Az érvényes irányítószám csak számokból áll';
+
+  @override
+  String get zipCodeValidationGeneral => 'Kérjük, adjon meg egy érvényes irányítószámot';
 }

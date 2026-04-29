@@ -1311,6 +1311,20 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Повече за топлинната карта';
 
   @override
+  String get addressAdministrativeArea => 'Държава/регион/провинция';
+
+  @override
+  String get addressLocality => 'Град / населено място';
+
+  @override
+  String get addressStreet => 'Улица / адресна линия';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Моля, въведете $field';
+  }
+
+  @override
   String get houseName => 'Име на къщата';
 
   @override
@@ -3333,4 +3347,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Валиден пощенски код се състои само от цифри';
+
+  @override
+  String get zipCodeValidationGeneral => 'Моля, въведете валиден пощенски код';
 }

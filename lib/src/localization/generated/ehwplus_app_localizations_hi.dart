@@ -1308,6 +1308,20 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'हीटमैप के बारे में अधिक जानकारी';
 
   @override
+  String get addressAdministrativeArea => 'राज्य / क्षेत्र / प्रांत';
+
+  @override
+  String get addressLocality => 'शहर / इलाका';
+
+  @override
+  String get addressStreet => 'सड़क / पता पंक्ति';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'कृपया $field दर्ज करें।';
+  }
+
+  @override
   String get houseName => 'घर का नाम';
 
   @override
@@ -3312,4 +3326,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'एक वैध ज़िप कोड में केवल संख्याएँ होती हैं';
+
+  @override
+  String get zipCodeValidationGeneral => 'कृपया एक मान्य डाक कोड दर्ज करें।';
 }

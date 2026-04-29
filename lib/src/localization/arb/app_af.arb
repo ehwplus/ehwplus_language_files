@@ -30,6 +30,10 @@
   "addActivity": "Voeg aktiwiteit by",
   "addDetail": "Voeg besonderheid by",
   "addNewValue": "Voer nuwe waarde in",
+  "addressAdministrativeArea": "Staat / streek / provinsie",
+  "addressLocality": "Stad / lokaliteit",
+  "addressStreet": "Straat / adreslyn",
+  "addressValidationRequired": "Voer asseblief {field} in",
   "advancePayment": "Voorskotbetaling",
   "advancePaymentDueDay": "Verskuldigde dag",
   "advancePaymentDueDayOptionDay": "Dag{day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Wys altyd Youtube-inhoud",
   "youtubeConsent3": "Ek stem in tot eksterne inhoud wat aan my vertoon word. Dit kan lei tot persoonlike data wat na derdeparty-platforms oorgedra word. Meer hieroor in ons ",
   "zipCode": "poskode",
+  "zipCodeValidationGeneral": "Voer asseblief 'n geldige poskode in.",
   "zipCodeValidationLength": "Voer asseblief 'n {digits}-syfer poskode in",
   "zipCodeValidationOnlyNumbers": "'n Geldige poskode bestaan slegs uit syfers"
 }

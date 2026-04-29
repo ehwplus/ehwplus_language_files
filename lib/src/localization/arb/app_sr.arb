@@ -30,6 +30,10 @@
   "addActivity": "Додајте активност",
   "addDetail": "Додајте детаље",
   "addNewValue": "Унесите нову вредност",
+  "addressAdministrativeArea": "Држава / регион / покрајина",
+  "addressLocality": "Град / локалитет",
+  "addressStreet": "Улица / линија адресе",
+  "addressValidationRequired": "Молимо унесите {field}",
   "advancePayment": "Плаћање унапред",
   "advancePaymentDueDay": "Рок",
   "advancePaymentDueDayOptionDay": "Дан{day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Увек прикажи ИоуТубе садржај",
   "youtubeConsent3": "Слажем се да ми се приказује спољни садржај. Ово може довести до тога да се лични подаци пренесу на платформе трећих страна. Више о овоме у нашој",
   "zipCode": "поштански број",
+  "zipCodeValidationGeneral": "Молимо унесите важећи поштански број.",
   "zipCodeValidationLength": "Унесите ПХТОКЕН0-цифрени поштански број",
   "zipCodeValidationOnlyNumbers": "Важећи поштански број се састоји само од бројева"
 }

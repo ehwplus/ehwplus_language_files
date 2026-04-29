@@ -1307,6 +1307,20 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mais informações sobre o mapa térmico';
 
   @override
+  String get addressAdministrativeArea => 'Estado / região / província';
+
+  @override
+  String get addressLocality => 'Cidade / localidade';
+
+  @override
+  String get addressStreet => 'Rua / linha de endereço';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Por favor, introduza $field';
+  }
+
+  @override
   String get houseName => 'Nome da casa';
 
   @override
@@ -3314,4 +3328,7 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Um código postal válido consiste apenas em números';
+
+  @override
+  String get zipCodeValidationGeneral => 'Introduza um código postal válido';
 }

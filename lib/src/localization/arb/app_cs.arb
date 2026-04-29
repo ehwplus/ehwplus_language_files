@@ -31,6 +31,10 @@
   "addActivity": "Přidat aktivitu",
   "addDetail": "Přidat detail",
   "addNewValue": "Zadejte novou hodnotu",
+  "addressAdministrativeArea": "Stát / region / provincie",
+  "addressLocality": "Město / lokalita",
+  "addressStreet": "Ulice/adresní řádek",
+  "addressValidationRequired": "Zadejte prosím {field}",
   "advancePayment": "Platba předem",
   "advancePaymentDueDay": "Den splatnosti",
   "advancePaymentDueDayOptionDay": "Den č.{day}",
@@ -932,6 +936,7 @@
   "youtubeConsent2": "Vždy zobrazovat obsah YouTube",
   "youtubeConsent3": "Souhlasím se zobrazováním externího obsahu. To může vést k přenosu osobních údajů na platformy třetích stran. Více o tom v našem",
   "zipCode": "PSČ",
+  "zipCodeValidationGeneral": "Zadejte prosím platné poštovní směrovací číslo",
   "zipCodeValidationLength": "Zadejte prosím {digits}místné poštovní směrovací číslo",
   "zipCodeValidationOnlyNumbers": "Platné PSČ se skládá pouze z čísel"
 }

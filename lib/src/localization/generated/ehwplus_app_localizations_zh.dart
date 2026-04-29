@@ -1274,6 +1274,20 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => '有关热图的更多信息';
 
   @override
+  String get addressAdministrativeArea => '州/地区/省';
+
+  @override
+  String get addressLocality => '城市/地区';
+
+  @override
+  String get addressStreet => '街道/地址栏';
+
+  @override
+  String addressValidationRequired(String field) {
+    return '请输入 $field';
+  }
+
+  @override
   String get houseName => '房屋名称';
 
   @override
@@ -3196,4 +3210,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
+
+  @override
+  String get zipCodeValidationGeneral => '请输入有效的邮政编码';
 }

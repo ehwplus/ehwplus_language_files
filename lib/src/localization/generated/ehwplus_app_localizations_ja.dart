@@ -1286,6 +1286,20 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'ヒートマップの詳細';
 
   @override
+  String get addressAdministrativeArea => '州／地域／県';
+
+  @override
+  String get addressLocality => '市町村';
+
+  @override
+  String get addressStreet => 'ストリート/アドレス行';
+
+  @override
+  String addressValidationRequired(String field) {
+    return '$field を入力してください';
+  }
+
+  @override
   String get houseName => '家名';
 
   @override
@@ -3226,4 +3240,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
+
+  @override
+  String get zipCodeValidationGeneral => '有効な郵便番号を入力してください。';
 }

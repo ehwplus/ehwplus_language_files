@@ -30,6 +30,10 @@
   "addActivity": "Добавяне на дейност",
   "addDetail": "Добавяне на детайл",
   "addNewValue": "Въведете нова стойност",
+  "addressAdministrativeArea": "Държава/регион/провинция",
+  "addressLocality": "Град / населено място",
+  "addressStreet": "Улица / адресна линия",
+  "addressValidationRequired": "Моля, въведете {field}",
   "advancePayment": "Авансово плащане",
   "advancePaymentDueDay": "Ден на падежа",
   "advancePaymentDueDayOptionDay": "Ден {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Винаги показвай съдържание от Youtube",
   "youtubeConsent3": "Съгласен съм външно съдържание да ми се показва. Това може да доведе до предаване на лични данни към платформи на трети страни. Повече за това в нашата ",
   "zipCode": "пощенски код",
+  "zipCodeValidationGeneral": "Моля, въведете валиден пощенски код",
   "zipCodeValidationLength": "Моля, въведете {digits}-цифрен пощенски код",
   "zipCodeValidationOnlyNumbers": "Валиден пощенски код се състои само от цифри"
 }

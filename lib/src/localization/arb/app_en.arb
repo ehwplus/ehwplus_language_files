@@ -599,6 +599,17 @@
   "heater": "Radiator",
   "heatmapLegendDisclaimer": "Info: Shaded boxes contain an estimated value. To read the actual consumption/output, please fill in the missing meter readings if possible.",
   "heatmapLegendTitle": "More about the heatmap",
+  "addressAdministrativeArea": "State / region / province",
+  "addressLocality": "City / locality",
+  "addressStreet": "Street / address line",
+  "addressValidationRequired": "Please enter {field}",
+  "@addressValidationRequired": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
   "houseName": "House name",
   "houseNameDescription": "House name, e.g. street name",
   "import": "Import",
@@ -1629,5 +1640,6 @@
       }
     }
   },
-  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers"
+  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
+  "zipCodeValidationGeneral": "Please enter a valid postal code"
 }

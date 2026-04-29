@@ -30,6 +30,10 @@
   "addActivity": "Добавить активность",
   "addDetail": "Добавить деталь",
   "addNewValue": "Введите новое значение",
+  "addressAdministrativeArea": "Государство / регион / провинция",
+  "addressLocality": "Город / населенный пункт",
+  "addressStreet": "Улица / адресная линия",
+  "addressValidationRequired": "Введите {field}",
   "advancePayment": "Сумма взноса",
   "advancePaymentDueDay": "День исполнения",
   "advancePaymentDueDayOptionDay": "День {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Всегда показывать контент Youtube",
   "youtubeConsent3": "Я согласен на показ внешнего контента. При этом персональные данные могут передаваться сторонним платформам. Подробнее об этом в нашей ",
   "zipCode": "Почтовый индекс",
+  "zipCodeValidationGeneral": "Пожалуйста, введите действительный почтовый индекс",
   "zipCodeValidationLength": "Введите {digits}-значный почтовый индекс",
   "zipCodeValidationOnlyNumbers": "Допустимый почтовый индекс состоит только из цифр"
 }

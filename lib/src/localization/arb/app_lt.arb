@@ -30,6 +30,10 @@
   "addActivity": "Pridėti veiklą",
   "addDetail": "Pridėti detalę",
   "addNewValue": "Įveskite naują vertę",
+  "addressAdministrativeArea": "Valstybė / regionas / provincija",
+  "addressLocality": "Miestas / vietovė",
+  "addressStreet": "Gatvė / adreso eilutė",
+  "addressValidationRequired": "Įveskite {field}",
   "advancePayment": "Avansinis mokėjimas",
   "advancePaymentDueDay": "Atitinkama diena",
   "advancePaymentDueDayOptionDay": "{day} diena",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Visada rodyti Youtube turinį",
   "youtubeConsent3": "Sutinku, kad man būtų rodomas išorinis turinys. Dėl to asmens duomenys gali būti perduodami trečiųjų šalių platformoms. Daugiau apie tai mūsų",
   "zipCode": "pašto kodas",
+  "zipCodeValidationGeneral": "Įveskite galiojantį pašto kodą",
   "zipCodeValidationLength": "Įveskite {digits} skaitmenų pašto kodą",
   "zipCodeValidationOnlyNumbers": "Galiojantį pašto kodą sudaro tik skaičiai"
 }

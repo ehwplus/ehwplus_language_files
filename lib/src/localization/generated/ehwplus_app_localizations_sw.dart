@@ -1304,6 +1304,20 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Zaidi juu ya joto';
 
   @override
+  String get addressAdministrativeArea => 'Jimbo / kanda / mkoa';
+
+  @override
+  String get addressLocality => 'Mji / eneo';
+
+  @override
+  String get addressStreet => 'Mtaa / mstari wa anwani';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Tafadhali ingiza $field';
+  }
+
+  @override
   String get houseName => 'Jina la nyumba';
 
   @override
@@ -3319,4 +3333,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Nambari halali ya zip ina nambari tu';
+
+  @override
+  String get zipCodeValidationGeneral => 'Tafadhali ingiza nambari ya posta halali.';
 }

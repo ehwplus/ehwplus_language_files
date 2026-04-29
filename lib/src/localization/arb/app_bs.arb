@@ -31,6 +31,10 @@
   "addActivity": "Dodajte aktivnost",
   "addDetail": "Dodajte detalje",
   "addNewValue": "Unesite novu vrijednost",
+  "addressAdministrativeArea": "Država / regija / pokrajina",
+  "addressLocality": "Grad / naselje",
+  "addressStreet": "Ulica / adresna linija",
+  "addressValidationRequired": "Molimo unesite {field}",
   "advancePayment": "Plaćanje unaprijed",
   "advancePaymentDueDay": "Rok isporuke",
   "advancePaymentDueDayOptionDay": "Dan{day}",
@@ -932,6 +936,7 @@
   "youtubeConsent2": "Uvijek prikaži Youtube sadržaj",
   "youtubeConsent3": "Slažem se da mi se prikazuje vanjski sadržaj. To može dovesti do prenošenja ličnih podataka na platforme trećih strana. Više o tome u našoj",
   "zipCode": "poštanski broj",
+  "zipCodeValidationGeneral": "Molimo unesite važeći poštanski broj.",
   "zipCodeValidationLength": "Unesite {digits}-cifreni poštanski broj",
   "zipCodeValidationOnlyNumbers": "Važeći poštanski broj sastoji se samo od brojeva"
 }

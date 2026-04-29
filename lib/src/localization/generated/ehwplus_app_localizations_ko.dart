@@ -1288,6 +1288,20 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => '히트맵 정보';
 
   @override
+  String get addressAdministrativeArea => '주/지역/도';
+
+  @override
+  String get addressLocality => '도시/지역';
+
+  @override
+  String get addressStreet => '거리/주소 라인';
+
+  @override
+  String addressValidationRequired(String field) {
+    return '$field을 입력해 주세요';
+  }
+
+  @override
   String get houseName => '주택 이름';
 
   @override
@@ -3228,4 +3242,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '유효한 우편번호는 숫자로만 구성됩니다';
+
+  @override
+  String get zipCodeValidationGeneral => '유효한 우편 번호를 입력하세요.';
 }

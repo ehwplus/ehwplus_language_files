@@ -30,6 +30,10 @@
   "addActivity": "افزودن فعالیت",
   "addDetail": "افزودن جزئیات",
   "addNewValue": "مقدار جدید وارد کنید",
+  "addressAdministrativeArea": "ایالت / منطقه / استان",
+  "addressLocality": "شهر / محل",
+  "addressStreet": "خیابان / خط آدرس",
+  "addressValidationRequired": "لطفاً {field} را وارد کنید.",
   "advancePayment": "پیش‌پرداخت",
   "advancePaymentDueDay": "تاریخ سررسید",
   "advancePaymentDueDayOptionDay": "روز {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "همیشه محتوای یوتیوب را نشان دهید",
   "youtubeConsent3": "موافقم که محتوای خارجی برای من نمایش داده شود.این ممکن است منجر به انتقال داده های شخصی به سیستم عامل های شخص ثالث شود.بیشتر در این مورد در ما",
   "zipCode": "کد پستی",
+  "zipCodeValidationGeneral": "لطفاً یک کد پستی معتبر وارد کنید",
   "zipCodeValidationLength": "لطفاً یک کد پستی {digits}-رقمی وارد کنید",
   "zipCodeValidationOnlyNumbers": "یک کد پستی معتبر فقط از اعداد تشکیل شده است"
 }

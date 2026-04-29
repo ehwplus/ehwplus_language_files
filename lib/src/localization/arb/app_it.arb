@@ -30,6 +30,10 @@
   "addActivity": "Aggiungi attività",
   "addDetail": "Aggiungi dettaglio",
   "addNewValue": "Inserisci un nuovo valore",
+  "addressAdministrativeArea": "Stato / regione / provincia",
+  "addressLocality": "Città / località",
+  "addressStreet": "Via / indirizzo",
+  "addressValidationRequired": "Inserisci {field}",
   "advancePayment": "Importo della rata",
   "advancePaymentDueDay": "Giorno di scadenza",
   "advancePaymentDueDayOptionDay": "Giorno {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Mostra sempre i contenuti Youtube",
   "youtubeConsent3": "Accetto che mi vengano mostrati contenuti esterni. Questo può comportare la trasmissione di dati personali a piattaforme di terzi. Maggiori informazioni nella nostra ",
   "zipCode": "Codice postale",
+  "zipCodeValidationGeneral": "Inserire un codice postale valido",
   "zipCodeValidationLength": "Inserisci un codice postale di {digits} cifre",
   "zipCodeValidationOnlyNumbers": "Un codice postale valido è composto solo da numeri"
 }

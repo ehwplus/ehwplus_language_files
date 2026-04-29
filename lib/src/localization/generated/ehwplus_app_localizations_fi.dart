@@ -1306,6 +1306,20 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Lisää lämpökartasta';
 
   @override
+  String get addressAdministrativeArea => 'Valtio / alue / maakunta';
+
+  @override
+  String get addressLocality => 'Kaupunki / paikkakunta';
+
+  @override
+  String get addressStreet => 'Katu / osoiteriville';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Kirjoita osoitteeksi $field';
+  }
+
+  @override
   String get houseName => 'Talon nimi';
 
   @override
@@ -3318,4 +3332,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kelvollinen postinumero koostuu vain numeroista';
+
+  @override
+  String get zipCodeValidationGeneral => 'Syötä voimassa oleva postinumero';
 }

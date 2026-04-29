@@ -31,6 +31,10 @@
   "addActivity": "Thêm hoạt động",
   "addDetail": "Thêm chi tiết",
   "addNewValue": "Nhập giá trị mới",
+  "addressAdministrativeArea": "Tỉnh / khu vực / tỉnh",
+  "addressLocality": "Thành phố / địa phương",
+  "addressStreet": "Đường / Dòng địa chỉ",
+  "addressValidationRequired": "Vui lòng nhập {field}",
   "advancePayment": "Thanh toán tạm ứng",
   "advancePaymentDueDay": "Ngày đến hạn",
   "advancePaymentDueDayOptionDay": "Ngày thứ{day}",
@@ -932,6 +936,7 @@
   "youtubeConsent2": "Luôn hiển thị nội dung Youtube",
   "youtubeConsent3": "Tôi đồng ý với nội dung bên ngoài được hiển thị cho tôi. Điều này có thể dẫn đến việc dữ liệu cá nhân được truyền sang nền tảng của bên thứ ba. Thông tin thêm về điều này trong của chúng tôi",
   "zipCode": "mã vùng",
+  "zipCodeValidationGeneral": "Vui lòng nhập mã bưu chính hợp lệ",
   "zipCodeValidationLength": "Vui lòng nhập mã bưu chính {digits} chữ số",
   "zipCodeValidationOnlyNumbers": "Mã zip hợp lệ chỉ bao gồm các số"
 }

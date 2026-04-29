@@ -1311,6 +1311,20 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mai multe despre harta termică';
 
   @override
+  String get addressAdministrativeArea => 'Stat / regiune / provincie';
+
+  @override
+  String get addressLocality => 'Oraș / localitate';
+
+  @override
+  String get addressStreet => 'Strada / linia de adresă';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Vă rugăm să introduceți $field';
+  }
+
+  @override
   String get houseName => 'Numele casei';
 
   @override
@@ -3330,4 +3344,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Un cod poștal valabil constă numai din numere';
+
+  @override
+  String get zipCodeValidationGeneral => 'Vă rugăm să introduceți un cod poștal valabil';
 }

@@ -1302,6 +1302,20 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'ข้อมูลเพิ่มเติมเกี่ยวกับแผนที่ความร้อน';
 
   @override
+  String get addressAdministrativeArea => 'รัฐ / ภูมิภาค / จังหวัด';
+
+  @override
+  String get addressLocality => 'เมือง / เขต';
+
+  @override
+  String get addressStreet => 'ถนน / บรรทัดที่อยู่';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'กรุณาป้อน $field';
+  }
+
+  @override
   String get houseName => 'ชื่อบ้าน';
 
   @override
@@ -3308,4 +3322,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น';
+
+  @override
+  String get zipCodeValidationGeneral => 'กรุณาป้อนรหัสไปรษณีย์ที่ถูกต้อง';
 }

@@ -1312,6 +1312,20 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Детальніше про теплову карту';
 
   @override
+  String get addressAdministrativeArea => 'Держава / регіон / область';
+
+  @override
+  String get addressLocality => 'Місто / населений пункт';
+
+  @override
+  String get addressStreet => 'Вулиця / адресний рядок';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Введіть, будь ласка, $field';
+  }
+
+  @override
   String get houseName => 'Назва будинку';
 
   @override
@@ -3338,4 +3352,7 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Дійсний поштовий індекс складається лише з цифр';
+
+  @override
+  String get zipCodeValidationGeneral => 'Будь ласка, введіть дійсний поштовий індекс';
 }

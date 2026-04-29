@@ -30,6 +30,10 @@
   "addActivity": "Προσθήκη δραστηριότητας",
   "addDetail": "Προσθέστε λεπτομέρεια",
   "addNewValue": "Εισάγετε νέα τιμή",
+  "addressAdministrativeArea": "Πολιτεία / περιφέρεια / επαρχία",
+  "addressLocality": "Πόλη/τοποθεσία",
+  "addressStreet": "Οδός / γραμμή διεύθυνσης",
+  "addressValidationRequired": "Παρακαλώ πληκτρολογήστε {field}",
   "advancePayment": "Προκαταβολή",
   "advancePaymentDueDay": "Ημέρα λήξης",
   "advancePaymentDueDayOptionDay": "Ημέρα {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Να εμφανίζετε πάντα περιεχόμενο Youtube",
   "youtubeConsent3": "Συμφωνώ να μου εμφανίζεται εξωτερικό περιεχόμενο. Αυτό μπορεί να έχει ως αποτέλεσμα τη διαβίβαση προσωπικών δεδομένων σε πλατφόρμες τρίτων. Περισσότερα σχετικά με αυτό στο",
   "zipCode": "ταχυδρομικός κώδικας",
+  "zipCodeValidationGeneral": "Παρακαλώ εισάγετε έναν έγκυρο ταχυδρομικό κώδικα",
   "zipCodeValidationLength": "Εισάγετε έναν ταχυδρομικό κώδικα {digits} ψηφίων.",
   "zipCodeValidationOnlyNumbers": "Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς"
 }

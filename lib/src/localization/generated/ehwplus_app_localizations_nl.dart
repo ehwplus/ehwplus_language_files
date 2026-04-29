@@ -1310,6 +1310,20 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Meer over de heatmap';
 
   @override
+  String get addressAdministrativeArea => 'Staat / regio / provincie';
+
+  @override
+  String get addressLocality => 'Stad / plaats';
+
+  @override
+  String get addressStreet => 'Straat/adresregel';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Voer $field in';
+  }
+
+  @override
   String get houseName => 'Huisnaam';
 
   @override
@@ -3331,4 +3345,7 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Een geldige postcode bestaat alleen uit cijfers';
+
+  @override
+  String get zipCodeValidationGeneral => 'Voer een geldige postcode in';
 }

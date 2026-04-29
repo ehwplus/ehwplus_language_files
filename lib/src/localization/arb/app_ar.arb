@@ -30,6 +30,10 @@
   "addActivity": "إضافة نشاط",
   "addDetail": "إضافة تفصيل",
   "addNewValue": "أدخل قيمة جديدة",
+  "addressAdministrativeArea": "الولاية/المنطقة/المقاطعة",
+  "addressLocality": "المدينة/المحلية",
+  "addressStreet": "خط الشارع / العنوان",
+  "addressValidationRequired": "يرجى إدخال {field}",
   "advancePayment": "الدفع المقدم",
   "advancePaymentDueDay": "يوم الاستحقاق",
   "advancePaymentDueDayOptionDay": "اليوم السابع{day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "عرض محتوى Youtube دائماً",
   "youtubeConsent3": "أوافق على عرض المحتوى الخارجي لي. قد يؤدي هذا إلى نقل البيانات الشخصية إلى منصات الطرف الثالث. المزيد حول هذا في ",
   "zipCode": "الرمز البريدي",
+  "zipCodeValidationGeneral": "الرجاء إدخال رمز بريدي صالح",
   "zipCodeValidationLength": "يرجى إدخال رمز بريدي مكون من {digits} أرقام",
   "zipCodeValidationOnlyNumbers": "الرمز البريدي الصالح يتكون من أرقام فقط"
 }

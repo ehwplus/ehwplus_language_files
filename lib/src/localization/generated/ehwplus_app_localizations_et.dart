@@ -1309,6 +1309,20 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Rohkem soojustabeli kohta';
 
   @override
+  String get addressAdministrativeArea => 'Riik/piirkond/provints';
+
+  @override
+  String get addressLocality => 'Linn / paikkond';
+
+  @override
+  String get addressStreet => 'Tänav / aadressi rida';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Palun sisestage $field';
+  }
+
+  @override
   String get houseName => 'Maja nimi';
 
   @override
@@ -3310,4 +3324,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kehtiv postiindeks koosneb ainult numbritest';
+
+  @override
+  String get zipCodeValidationGeneral => 'Palun sisestage kehtiv postiindeks';
 }

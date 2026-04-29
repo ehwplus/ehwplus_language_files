@@ -30,6 +30,10 @@
   "addActivity": "활동 추가",
   "addDetail": "세부 정보 추가",
   "addNewValue": "새 값 입력",
+  "addressAdministrativeArea": "주/지역/도",
+  "addressLocality": "도시/지역",
+  "addressStreet": "거리/주소 라인",
+  "addressValidationRequired": "{field}을 입력해 주세요",
   "advancePayment": "선납금",
   "advancePaymentDueDay": "마감일",
   "advancePaymentDueDayOptionDay": "{day}일",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "항상 Youtube 콘텐츠 표시",
   "youtubeConsent3": "외부 콘텐츠 표시를 허용합니다. 이로 인해 개인 데이터가 제3자 플랫폼으로 전송될 수 있습니다. 자세한 내용은 당사의 개인정보 보호정책을 참조하세요.",
   "zipCode": "우편번호",
+  "zipCodeValidationGeneral": "유효한 우편 번호를 입력하세요.",
   "zipCodeValidationLength": "{digits}자리 우편번호를 입력하세요",
   "zipCodeValidationOnlyNumbers": "유효한 우편번호는 숫자로만 구성됩니다"
 }

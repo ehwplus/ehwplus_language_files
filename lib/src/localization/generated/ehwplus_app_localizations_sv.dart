@@ -1306,6 +1306,20 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mer om värmekartan';
 
   @override
+  String get addressAdministrativeArea => 'Stat / region / provins';
+
+  @override
+  String get addressLocality => 'Stad / ort';
+
+  @override
+  String get addressStreet => 'Gata / adresslinje';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Ange $field';
+  }
+
+  @override
   String get houseName => 'Husets namn';
 
   @override
@@ -3313,4 +3327,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Ett giltigt postnummer består endast av nummer';
+
+  @override
+  String get zipCodeValidationGeneral => 'Vänligen ange ett giltigt postnummer';
 }

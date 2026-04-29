@@ -441,6 +441,17 @@
   "heater": "Heizung",
   "heatmapLegendDisclaimer": "Info: Schraffierte Boxen enthalten einen Schätzwert. Um den tatsächlichen Verbrauch/Ertrag abzulesen, bitte falls möglich, die fehlenden Werte nachtragen.",
   "heatmapLegendTitle": "Mehr über die Heatmap",
+  "addressAdministrativeArea": "Bundesland / Region / Provinz",
+  "addressLocality": "Ort / Stadt",
+  "addressStreet": "Straße / Adresszeile",
+  "addressValidationRequired": "Bitte {field} eingeben",
+  "@addressValidationRequired": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
   "houseName": "Hausbezeichnung",
   "houseNameDescription": "Hausbezeichnung, z.B. Straßenname",
   "import": "Import",
@@ -1010,5 +1021,6 @@
   "youtubeConsent3": "Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden. Mehr dazu in unseren ",
   "zipCode": "Postleitzahl",
   "zipCodeValidationLength": "Bitte {digits}-stellige Postleitzahl eingeben",
-  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen"
+  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen",
+  "zipCodeValidationGeneral": "Bitte eine gültige Postleitzahl eingeben"
 }

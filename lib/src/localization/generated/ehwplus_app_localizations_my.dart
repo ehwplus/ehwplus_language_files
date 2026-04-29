@@ -1314,6 +1314,20 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'HeTmap အကြောင်းပို';
 
   @override
+  String get addressAdministrativeArea => 'ပြည်နယ်/ဒေသ/တိုင်းဒေသကြီး';
+
+  @override
+  String get addressLocality => 'မြို့/ဒေသ';
+
+  @override
+  String get addressStreet => 'လမ်း/လိပ်စာကြောင်း';
+
+  @override
+  String addressValidationRequired(String field) {
+    return '$field ကို ထည့်ပါ။';
+  }
+
+  @override
   String get houseName => 'အိမ်အမည်';
 
   @override
@@ -3326,4 +3340,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
+
+  @override
+  String get zipCodeValidationGeneral => 'ကျေးဇူးပြု၍ မှန်ကန်သော စာတိုက်ကုဒ်ကို ထည့်ပါ။';
 }

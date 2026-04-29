@@ -30,6 +30,10 @@
   "addActivity": "Adicionar atividade",
   "addDetail": "Adicionar detalhe",
   "addNewValue": "Inserir novo valor",
+  "addressAdministrativeArea": "Estado / região / província",
+  "addressLocality": "Cidade / localidade",
+  "addressStreet": "Rua / linha de endereço",
+  "addressValidationRequired": "Por favor, introduza {field}",
   "advancePayment": "Montante da prestação",
   "advancePaymentDueDay": "Dia de vencimento",
   "advancePaymentDueDayOptionDay": "Dia {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Sempre mostrar conteúdo do Youtube",
   "youtubeConsent3": "Concordo que conteúdo externo seja exibido para mim. Isso pode resultar na transmissão de dados pessoais para plataformas de terceiros. Mais detalhes em nossa ",
   "zipCode": "CEP",
+  "zipCodeValidationGeneral": "Introduza um código postal válido",
   "zipCodeValidationLength": "Insira um código postal de {digits} dígitos",
   "zipCodeValidationOnlyNumbers": "Um código postal válido consiste apenas em números"
 }

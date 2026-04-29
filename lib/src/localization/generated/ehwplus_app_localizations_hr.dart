@@ -1308,6 +1308,20 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Više o toplinskoj karti';
 
   @override
+  String get addressAdministrativeArea => 'Država / regija / pokrajina';
+
+  @override
+  String get addressLocality => 'Grad / naselje';
+
+  @override
+  String get addressStreet => 'Ulica / adresna linija';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Molimo unesite $field';
+  }
+
+  @override
   String get houseName => 'Ime kuće';
 
   @override
@@ -3324,4 +3338,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Važeći poštanski broj sastoji se samo od brojeva';
+
+  @override
+  String get zipCodeValidationGeneral => 'Molimo unesite važeći poštanski broj.';
 }

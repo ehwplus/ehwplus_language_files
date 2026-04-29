@@ -1314,6 +1314,20 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'ഹീറ്റ്മാപ്പിനെക്കുറിച്ച് കൂടുതൽ';
 
   @override
+  String get addressAdministrativeArea => 'സംസ്ഥാനം / മേഖല / പ്രവിശ്യ';
+
+  @override
+  String get addressLocality => 'നഗരം / പ്രദേശം';
+
+  @override
+  String get addressStreet => 'വഴി / വിലാസ വര';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'ദയവായി $field നൽകുക';
+  }
+
+  @override
   String get houseName => 'വീടിൻ്റെ പേര്';
 
   @override
@@ -3329,4 +3343,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'ഒരു സാധുവായ പിൻ കോഡിൽ അക്കങ്ങൾ മാത്രമേ അടങ്ങിയിട്ടുള്ളൂ';
+
+  @override
+  String get zipCodeValidationGeneral => 'ദയവായി സാധുവായ ഒരു പോസ്റ്റൽ കോഡ് നൽകുക';
 }

@@ -30,6 +30,10 @@
   "addActivity": "Tevékenység hozzáadása",
   "addDetail": "Részletek hozzáadása",
   "addNewValue": "Új érték megadása",
+  "addressAdministrativeArea": "Állam / régió / tartomány",
+  "addressLocality": "Város / település",
+  "addressStreet": "Utca / címsor",
+  "addressValidationRequired": "Kérjük, írja be: {field}",
   "advancePayment": "Előlegfizetés",
   "advancePaymentDueDay": "Esedékes nap",
   "advancePaymentDueDayOptionDay": "{day}. nap",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Mindig mutasson Youtube tartalmat",
   "youtubeConsent3": "Hozzájárulok ahhoz, hogy külső tartalom jelenjen meg számomra. Ez azt eredményezheti, hogy személyes adatokat továbbítanak harmadik fél platformjaira. Erről bővebben a",
   "zipCode": "irányítószám",
+  "zipCodeValidationGeneral": "Kérjük, adjon meg egy érvényes irányítószámot",
   "zipCodeValidationLength": "Kérjük, adja meg a {digits} -jegyű irányítószámot",
   "zipCodeValidationOnlyNumbers": "Az érvényes irányítószám csak számokból áll"
 }

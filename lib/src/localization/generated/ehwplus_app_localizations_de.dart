@@ -1310,6 +1310,20 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mehr über die Heatmap';
 
   @override
+  String get addressAdministrativeArea => 'Bundesland / Region / Provinz';
+
+  @override
+  String get addressLocality => 'Ort / Stadt';
+
+  @override
+  String get addressStreet => 'Straße / Adresszeile';
+
+  @override
+  String addressValidationRequired(String field) {
+    return 'Bitte $field eingeben';
+  }
+
+  @override
   String get houseName => 'Hausbezeichnung';
 
   @override
@@ -3328,4 +3342,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Eine gültige Postleitzahl besteht nur aus Zahlen';
+
+  @override
+  String get zipCodeValidationGeneral => 'Bitte eine gültige Postleitzahl eingeben';
 }

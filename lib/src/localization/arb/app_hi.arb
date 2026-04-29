@@ -30,6 +30,10 @@
   "addActivity": "गतिविधि जोड़ें",
   "addDetail": "विवरण जोड़ें",
   "addNewValue": "नया मान दर्ज करें",
+  "addressAdministrativeArea": "राज्य / क्षेत्र / प्रांत",
+  "addressLocality": "शहर / इलाका",
+  "addressStreet": "सड़क / पता पंक्ति",
+  "addressValidationRequired": "कृपया {field} दर्ज करें।",
   "advancePayment": "अग्रिम भुगतान",
   "advancePaymentDueDay": "अंतिम तिथि",
   "advancePaymentDueDayOptionDay": "{day} दिन",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "हमेशा यूट्यूब सामग्री दिखाएं",
   "youtubeConsent3": "मैं इस बात से सहमत हूं कि मुझे बाहरी सामग्री दिखाई जाएगी।इसके परिणामस्वरूप व्यक्तिगत डेटा तीसरे पक्ष के प्लेटफ़ॉर्म पर प्रेषित हो सकता है।इस पर हमारे में और अधिक",
   "zipCode": "ज़िप कोड",
+  "zipCodeValidationGeneral": "कृपया एक मान्य डाक कोड दर्ज करें।",
   "zipCodeValidationLength": "कृपया {digits}-अंकीय डाक कोड दर्ज करें",
   "zipCodeValidationOnlyNumbers": "एक वैध ज़िप कोड में केवल संख्याएँ होती हैं"
 }

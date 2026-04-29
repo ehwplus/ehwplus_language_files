@@ -30,6 +30,10 @@
   "addActivity": "Lägg till aktivitet",
   "addDetail": "Lägg till detaljer",
   "addNewValue": "Ange nytt värde",
+  "addressAdministrativeArea": "Stat / region / provins",
+  "addressLocality": "Stad / ort",
+  "addressStreet": "Gata / adresslinje",
+  "addressValidationRequired": "Ange {field}",
   "advancePayment": "Förskottsbetalning",
   "advancePaymentDueDay": "Förfallodag",
   "advancePaymentDueDayOptionDay": "Dag {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Visa alltid YouTube-innehåll",
   "youtubeConsent3": "Jag samtycker till att externt innehåll visas för mig. Detta kan leda till att personuppgifter överförs till tredje parts plattformar. Mer om detta i vår",
   "zipCode": "postnummer",
+  "zipCodeValidationGeneral": "Vänligen ange ett giltigt postnummer",
   "zipCodeValidationLength": "Vänligen ange ett {digits}-siffrigt postnummer",
   "zipCodeValidationOnlyNumbers": "Ett giltigt postnummer består endast av nummer"
 }

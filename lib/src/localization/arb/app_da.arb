@@ -30,6 +30,10 @@
   "addActivity": "Tilføj aktivitet",
   "addDetail": "Tilføj detaljer",
   "addNewValue": "Indtast ny værdi",
+  "addressAdministrativeArea": "Stat/region/provins",
+  "addressLocality": "By / lokalitet",
+  "addressStreet": "Gade/adresselinje",
+  "addressValidationRequired": "Indtast venligst {field}",
   "advancePayment": "Forudbetaling",
   "advancePaymentDueDay": "Forfaldsdag",
   "advancePaymentDueDayOptionDay": "Dag {day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Vis altid YouTube-indhold",
   "youtubeConsent3": "Jeg accepterer, at eksternt indhold vises for mig. Dette kan resultere i, at personlige data overføres til tredjepartsplatforme. Mere om dette i vores",
   "zipCode": "postnummer",
+  "zipCodeValidationGeneral": "Indtast venligst et gyldigt postnummer",
   "zipCodeValidationLength": "Indtast venligst et {digits}-cifret postnummer",
   "zipCodeValidationOnlyNumbers": "Et gyldigt postnummer består kun af tal"
 }

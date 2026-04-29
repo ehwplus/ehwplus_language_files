@@ -30,6 +30,10 @@
   "addActivity": "Ongeza shughuli",
   "addDetail": "Ongeza undani",
   "addNewValue": "Ingiza thamani mpya",
+  "addressAdministrativeArea": "Jimbo / kanda / mkoa",
+  "addressLocality": "Mji / eneo",
+  "addressStreet": "Mtaa / mstari wa anwani",
+  "addressValidationRequired": "Tafadhali ingiza {field}",
   "advancePayment": "Malipo ya mapema",
   "advancePaymentDueDay": "Tarehe ya mwisho",
   "advancePaymentDueDayOptionDay": "Siku{day}",
@@ -931,6 +935,7 @@
   "youtubeConsent2": "Daima onyesha yaliyomo kwenye YouTube",
   "youtubeConsent3": "Ninakubali maudhui ya nje kuonyeshwa kwangu. Hii inaweza kusababisha data ya kibinafsi kupitishwa kwa majukwaa ya mtu wa tatu. Zaidi juu ya hii katika yetu",
   "zipCode": "nambari ya zip",
+  "zipCodeValidationGeneral": "Tafadhali ingiza nambari ya posta halali.",
   "zipCodeValidationLength": "Tafadhali ingiza nambari ya posta ya nambari ya phtoken0",
   "zipCodeValidationOnlyNumbers": "Nambari halali ya zip ina nambari tu"
 }
