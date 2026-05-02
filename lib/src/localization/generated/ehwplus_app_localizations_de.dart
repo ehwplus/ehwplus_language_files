@@ -1321,15 +1321,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get addressAdministrativeArea => 'Bundesland / Region / Provinz';
 
   @override
-  String get addressLocality => 'Ort';
+  String get addressLocality => 'Ort / Stadt';
 
   @override
-  String get addressStreet => 'Straße';
-
-  @override
-  String addressValidationRequired(String label, Object field) {
-    return '$label ist erforderlich';
-  }
+  String get addressStreet => 'Straße / Adresszeile';
 
   @override
   String get houseName => 'Hausbezeichnung';
@@ -3344,10 +3339,12 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden. Mehr dazu in unseren ';
 
   @override
-  String get zipCode => 'Postleitzahl';
+  String addressValidationRequired(String label, Object field) {
+    return '$label ist erforderlich';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Bitte eine gültige Postleitzahl eingeben';
+  String get zipCode => 'Postleitzahl';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3356,4 +3353,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Eine gültige Postleitzahl besteht nur aus Zahlen';
+
+  @override
+  String get zipCodeValidationGeneral => 'Bitte eine gültige Postleitzahl eingeben';
 }

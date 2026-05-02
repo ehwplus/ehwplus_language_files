@@ -1327,11 +1327,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get addressStreet => 'Sokak / adres satırı';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Lütfen $field adresini girin';
-  }
-
-  @override
   String get houseName => 'Ev adı';
 
   @override
@@ -3335,10 +3330,12 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Harici içeriğin bana gösterilmesini kabul ediyorum. Bu, kişisel verilerin üçüncü taraf platformlara aktarılmasına neden olabilir. Bu konuda daha fazla bilgi bizim';
 
   @override
-  String get zipCode => 'posta kodu';
+  String addressValidationRequired(String label, Object field) {
+    return 'Lütfen $field adresini girin';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Lütfen geçerli bir posta kodu girin';
+  String get zipCode => 'posta kodu';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3347,4 +3344,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Geçerli bir posta kodu yalnızca sayılardan oluşur';
+
+  @override
+  String get zipCodeValidationGeneral => 'Lütfen geçerli bir posta kodu girin';
 }

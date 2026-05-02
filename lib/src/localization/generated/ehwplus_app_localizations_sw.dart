@@ -1321,11 +1321,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get addressStreet => 'Mtaa / mstari wa anwani';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Tafadhali ingiza $field';
-  }
-
-  @override
   String get houseName => 'Jina la nyumba';
 
   @override
@@ -3335,10 +3330,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Ninakubali maudhui ya nje kuonyeshwa kwangu. Hii inaweza kusababisha data ya kibinafsi kupitishwa kwa majukwaa ya mtu wa tatu. Zaidi juu ya hii katika yetu';
 
   @override
-  String get zipCode => 'nambari ya zip';
+  String addressValidationRequired(String label, Object field) {
+    return 'Tafadhali ingiza $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Tafadhali ingiza nambari ya posta halali.';
+  String get zipCode => 'nambari ya zip';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3347,4 +3344,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Nambari halali ya zip ina nambari tu';
+
+  @override
+  String get zipCodeValidationGeneral => 'Tafadhali ingiza nambari ya posta halali.';
 }

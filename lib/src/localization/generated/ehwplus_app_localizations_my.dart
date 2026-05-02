@@ -1331,11 +1331,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get addressStreet => 'လမ်း/လိပ်စာကြောင်း';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '$field ကို ထည့်ပါ။';
-  }
-
-  @override
   String get houseName => 'အိမ်အမည်';
 
   @override
@@ -3342,10 +3337,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ငါမှပြသထားသောပြင်ပအကြောင်းအရာကိုသဘောတူသည်။ ၎င်းသည်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုတတိယပါတီပလက်ဖောင်းများသို့ကူးစက်စေနိုင်သည်။ ငါတို့အပေါ်မှာဒီအပေါ်ပိုပြီး';
 
   @override
-  String get zipCode => 'စာတိုက်သင်္ကေတ';
+  String addressValidationRequired(String label, Object field) {
+    return '$field ကို ထည့်ပါ။';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'ကျေးဇူးပြု၍ မှန်ကန်သော စာတိုက်ကုဒ်ကို ထည့်ပါ။';
+  String get zipCode => 'စာတိုက်သင်္ကေတ';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3354,4 +3351,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
+
+  @override
+  String get zipCodeValidationGeneral => 'ကျေးဇူးပြု၍ မှန်ကန်သော စာတိုက်ကုဒ်ကို ထည့်ပါ။';
 }

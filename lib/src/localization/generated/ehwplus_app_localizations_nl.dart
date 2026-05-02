@@ -1327,11 +1327,6 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get addressStreet => 'Straat/adresregel';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Voer $field in';
-  }
-
-  @override
   String get houseName => 'Huisnaam';
 
   @override
@@ -3347,10 +3342,12 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
       'Ik ga akkoord dat externe inhoud aan mij wordt weergegeven. Dit kan ertoe leiden dat persoonlijke gegevens worden verzonden naar platforms van derden. Meer hierover in onze ';
 
   @override
-  String get zipCode => 'postcode';
+  String addressValidationRequired(String label, Object field) {
+    return 'Voer $field in';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Voer een geldige postcode in';
+  String get zipCode => 'postcode';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3359,4 +3356,7 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Een geldige postcode bestaat alleen uit cijfers';
+
+  @override
+  String get zipCodeValidationGeneral => 'Voer een geldige postcode in';
 }

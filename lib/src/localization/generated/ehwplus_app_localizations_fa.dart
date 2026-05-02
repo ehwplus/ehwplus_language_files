@@ -1320,11 +1320,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get addressStreet => 'خیابان / خط آدرس';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'لطفاً $field را وارد کنید.';
-  }
-
-  @override
   String get houseName => 'نام خانه';
 
   @override
@@ -3316,10 +3311,12 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'موافقم که محتوای خارجی برای من نمایش داده شود.این ممکن است منجر به انتقال داده های شخصی به سیستم عامل های شخص ثالث شود.بیشتر در این مورد در ما';
 
   @override
-  String get zipCode => 'کد پستی';
+  String addressValidationRequired(String label, Object field) {
+    return 'لطفاً $field را وارد کنید.';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'لطفاً یک کد پستی معتبر وارد کنید';
+  String get zipCode => 'کد پستی';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3328,4 +3325,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'یک کد پستی معتبر فقط از اعداد تشکیل شده است';
+
+  @override
+  String get zipCodeValidationGeneral => 'لطفاً یک کد پستی معتبر وارد کنید';
 }

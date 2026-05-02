@@ -1319,11 +1319,6 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get addressStreet => 'خط الشارع / العنوان';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'يرجى إدخال $field';
-  }
-
-  @override
   String get houseName => 'اسم المنزل';
 
   @override
@@ -3303,10 +3298,12 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'أوافق على عرض المحتوى الخارجي لي. قد يؤدي هذا إلى نقل البيانات الشخصية إلى منصات الطرف الثالث. المزيد حول هذا في ';
 
   @override
-  String get zipCode => 'الرمز البريدي';
+  String addressValidationRequired(String label, Object field) {
+    return 'يرجى إدخال $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'الرجاء إدخال رمز بريدي صالح';
+  String get zipCode => 'الرمز البريدي';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3315,4 +3312,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'الرمز البريدي الصالح يتكون من أرقام فقط';
+
+  @override
+  String get zipCodeValidationGeneral => 'الرجاء إدخال رمز بريدي صالح';
 }

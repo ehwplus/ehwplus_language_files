@@ -1316,15 +1316,10 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get addressAdministrativeArea => 'State / region / province';
 
   @override
-  String get addressLocality => 'City';
+  String get addressLocality => 'City / locality';
 
   @override
-  String get addressStreet => 'Street';
-
-  @override
-  String addressValidationRequired(String label, Object field) {
-    return '$label is required';
-  }
+  String get addressStreet => 'Street / address line';
 
   @override
   String get houseName => 'House name';
@@ -3340,10 +3335,12 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
       'I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our ';
 
   @override
-  String get zipCode => 'zip code';
+  String addressValidationRequired(String label, Object field) {
+    return '$label is required';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Please enter a valid postal code';
+  String get zipCode => 'zip code';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3352,4 +3349,7 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'A valid zip code consists only of numbers';
+
+  @override
+  String get zipCodeValidationGeneral => 'Please enter a valid postal code';
 }

@@ -1328,11 +1328,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get addressStreet => 'Strada / linia de adresă';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Vă rugăm să introduceți $field';
-  }
-
-  @override
   String get houseName => 'Numele casei';
 
   @override
@@ -3346,10 +3341,12 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Sunt de acord să mi se afișeze conținut extern. Acest lucru poate duce la transmiterea datelor personale către platforme terțe. Mai multe despre acest lucru în';
 
   @override
-  String get zipCode => 'cod poștal';
+  String addressValidationRequired(String label, Object field) {
+    return 'Vă rugăm să introduceți $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Vă rugăm să introduceți un cod poștal valabil';
+  String get zipCode => 'cod poștal';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3358,4 +3355,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Un cod poștal valabil constă numai din numere';
+
+  @override
+  String get zipCodeValidationGeneral => 'Vă rugăm să introduceți un cod poștal valabil';
 }

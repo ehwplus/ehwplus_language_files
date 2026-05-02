@@ -1323,11 +1323,6 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get addressStreet => 'Gate/adresselinje';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Vennligst skriv inn $field';
-  }
-
-  @override
   String get houseName => 'Husets navn';
 
   @override
@@ -3330,10 +3325,12 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
       'Jeg godtar at eksternt innhold vises for meg. Dette kan føre til at personopplysninger overføres til tredjepartsplattformer. Mer om dette i vår';
 
   @override
-  String get zipCode => 'postnummer';
+  String addressValidationRequired(String label, Object field) {
+    return 'Vennligst skriv inn $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Vennligst skriv inn et gyldig postnummer';
+  String get zipCode => 'postnummer';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3342,4 +3339,7 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Et gyldig postnummer består kun av tall';
+
+  @override
+  String get zipCodeValidationGeneral => 'Vennligst skriv inn et gyldig postnummer';
 }

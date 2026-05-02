@@ -1323,11 +1323,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get addressStreet => 'Ulice/adresní řádek';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Zadejte prosím $field';
-  }
-
-  @override
   String get houseName => 'Jméno domu';
 
   @override
@@ -3335,10 +3330,12 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Souhlasím se zobrazováním externího obsahu. To může vést k přenosu osobních údajů na platformy třetích stran. Více o tom v našem';
 
   @override
-  String get zipCode => 'PSČ';
+  String addressValidationRequired(String label, Object field) {
+    return 'Zadejte prosím $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Zadejte prosím platné poštovní směrovací číslo';
+  String get zipCode => 'PSČ';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3347,4 +3344,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Platné PSČ se skládá pouze z čísel';
+
+  @override
+  String get zipCodeValidationGeneral => 'Zadejte prosím platné poštovní směrovací číslo';
 }

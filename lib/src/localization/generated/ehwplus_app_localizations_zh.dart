@@ -1289,11 +1289,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get addressStreet => '街道/地址栏';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '请输入 $field';
-  }
-
-  @override
   String get houseName => '房屋名称';
 
   @override
@@ -3210,10 +3205,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '我同意向我显示外部内容。这可能会导致个人数据被传输到第三方平台。有关此内容的更多信息，请参阅我们的';
 
   @override
-  String get zipCode => '邮政编码';
+  String addressValidationRequired(String label, Object field) {
+    return '请输入 $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => '请输入有效的邮政编码';
+  String get zipCode => '邮政编码';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3222,4 +3219,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
+
+  @override
+  String get zipCodeValidationGeneral => '请输入有效的邮政编码';
 }

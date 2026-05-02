@@ -1323,11 +1323,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get addressStreet => 'Katu / osoiteriville';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Kirjoita osoitteeksi $field';
-  }
-
-  @override
   String get houseName => 'Talon nimi';
 
   @override
@@ -3334,10 +3329,12 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Hyväksyn ulkoisen sisällön näyttämisen minulle.Tämä voi johtaa henkilötietojen siirtämiseen kolmansien osapuolien alustoille.Tästä lisää meidän';
 
   @override
-  String get zipCode => 'postinumero';
+  String addressValidationRequired(String label, Object field) {
+    return 'Kirjoita osoitteeksi $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Syötä voimassa oleva postinumero';
+  String get zipCode => 'postinumero';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3346,4 +3343,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kelvollinen postinumero koostuu vain numeroista';
+
+  @override
+  String get zipCodeValidationGeneral => 'Syötä voimassa oleva postinumero';
 }

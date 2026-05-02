@@ -1329,11 +1329,6 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get addressStreet => 'Ulica / adresna linija';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Molimo unesite $field';
-  }
-
-  @override
   String get houseName => 'Ime kuće';
 
   @override
@@ -3346,10 +3341,12 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
       'Slažem se da mi se prikazuje vanjski sadržaj. To može dovesti do prenošenja ličnih podataka na platforme trećih strana. Više o tome u našoj';
 
   @override
-  String get zipCode => 'poštanski broj';
+  String addressValidationRequired(String label, Object field) {
+    return 'Molimo unesite $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Molimo unesite važeći poštanski broj.';
+  String get zipCode => 'poštanski broj';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3358,4 +3355,7 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Važeći poštanski broj sastoji se samo od brojeva';
+
+  @override
+  String get zipCodeValidationGeneral => 'Molimo unesite važeći poštanski broj.';
 }

@@ -604,14 +604,6 @@
   "addressAdministrativeArea": "State / region / province",
   "addressLocality": "City / locality",
   "addressStreet": "Street / address line",
-  "addressValidationRequired": "Please enter {field}",
-  "@addressValidationRequired": {
-    "placeholders": {
-      "field": {
-        "type": "String"
-      }
-    }
-  },
   "houseName": "House name",
   "houseNameDescription": "House name, e.g. street name",
   "import": "Import",
@@ -1632,8 +1624,6 @@
   "youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",
   "youtubeConsent2": "Always show Youtube content",
   "youtubeConsent3": "I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our ",
-  "addressStreet": "Street",
-  "addressLocality": "City",
   "addressValidationRequired": "{label} is required",
   "@addressValidationRequired": {
     "description": "Error message if a detailed address field is required",
@@ -1645,7 +1635,6 @@
     }
   },
   "zipCode": "zip code",
-  "zipCodeValidationGeneral": "Please enter a valid postal code",
   "zipCodeValidationLength": "Please enter a {digits}-digit postal code",
   "@zipCodeValidationLength": {
     "description": "Error message if the entered zip code length is invalid",

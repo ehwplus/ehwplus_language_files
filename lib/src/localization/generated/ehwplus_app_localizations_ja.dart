@@ -1301,11 +1301,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get addressStreet => 'ストリート/アドレス行';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '$field を入力してください';
-  }
-
-  @override
   String get houseName => '家名';
 
   @override
@@ -3240,10 +3235,12 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '外部コンテンツが表示されることに同意します。これにより、個人データがサードパーティのプラットフォームに送信される可能性があります。詳細については、';
 
   @override
-  String get zipCode => '郵便番号';
+  String addressValidationRequired(String label, Object field) {
+    return '$field を入力してください';
+  }
 
   @override
-  String get zipCodeValidationGeneral => '有効な郵便番号を入力してください。';
+  String get zipCode => '郵便番号';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3252,4 +3249,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
+
+  @override
+  String get zipCodeValidationGeneral => '有効な郵便番号を入力してください。';
 }

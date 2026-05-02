@@ -1329,11 +1329,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get addressStreet => 'Utca / címsor';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Kérjük, írja be: $field';
-  }
-
-  @override
   String get houseName => 'Ház neve';
 
   @override
@@ -3347,10 +3342,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Hozzájárulok ahhoz, hogy külső tartalom jelenjen meg számomra. Ez azt eredményezheti, hogy személyes adatokat továbbítanak harmadik fél platformjaira. Erről bővebben a';
 
   @override
-  String get zipCode => 'irányítószám';
+  String addressValidationRequired(String label, Object field) {
+    return 'Kérjük, írja be: $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Kérjük, adjon meg egy érvényes irányítószámot';
+  String get zipCode => 'irányítószám';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3359,4 +3356,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Az érvényes irányítószám csak számokból áll';
+
+  @override
+  String get zipCodeValidationGeneral => 'Kérjük, adjon meg egy érvényes irányítószámot';
 }

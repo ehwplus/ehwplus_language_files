@@ -1303,11 +1303,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get addressStreet => '거리/주소 라인';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '$field을 입력해 주세요';
-  }
-
-  @override
   String get houseName => '주택 이름';
 
   @override
@@ -3242,10 +3237,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '외부 콘텐츠 표시를 허용합니다. 이로 인해 개인 데이터가 제3자 플랫폼으로 전송될 수 있습니다. 자세한 내용은 당사의 개인정보 보호정책을 참조하세요.';
 
   @override
-  String get zipCode => '우편번호';
+  String addressValidationRequired(String label, Object field) {
+    return '$field을 입력해 주세요';
+  }
 
   @override
-  String get zipCodeValidationGeneral => '유효한 우편 번호를 입력하세요.';
+  String get zipCode => '우편번호';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3254,4 +3251,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '유효한 우편번호는 숫자로만 구성됩니다';
+
+  @override
+  String get zipCodeValidationGeneral => '유효한 우편 번호를 입력하세요.';
 }

@@ -2436,20 +2436,14 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @addressLocality.
   ///
   /// In en, this message translates to:
-  /// **'City'**
+  /// **'City / locality'**
   String get addressLocality;
 
   /// No description provided for @addressStreet.
   ///
   /// In en, this message translates to:
-  /// **'Street'**
+  /// **'Street / address line'**
   String get addressStreet;
-
-  /// Error message if a detailed address field is required
-  ///
-  /// In en, this message translates to:
-  /// **'{label} is required'**
-  String addressValidationRequired(String label, Object field);
 
   /// No description provided for @houseName.
   ///
@@ -5817,17 +5811,17 @@ abstract class EhwplusAppLocalizations {
   /// **'I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our '**
   String get youtubeConsent3;
 
+  /// Error message if a detailed address field is required
+  ///
+  /// In en, this message translates to:
+  /// **'{label} is required'**
+  String addressValidationRequired(String label, Object field);
+
   /// No description provided for @zipCode.
   ///
   /// In en, this message translates to:
   /// **'zip code'**
   String get zipCode;
-
-  /// No description provided for @zipCodeValidationGeneral.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid postal code'**
-  String get zipCodeValidationGeneral;
 
   /// Error message if the entered zip code length is invalid
   ///
@@ -5840,6 +5834,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'A valid zip code consists only of numbers'**
   String get zipCodeValidationOnlyNumbers;
+
+  /// No description provided for @zipCodeValidationGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid postal code'**
+  String get zipCodeValidationGeneral;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

@@ -1326,11 +1326,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get addressStreet => 'Tänav / aadressi rida';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Palun sisestage $field';
-  }
-
-  @override
   String get houseName => 'Maja nimi';
 
   @override
@@ -3326,10 +3321,12 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Nõustun, et mulle kuvatakse välissisu. See võib tähendada isikuandmete edastamist kolmandate osapoolte platvormidele. Lisateave meie ';
 
   @override
-  String get zipCode => 'postiindeks';
+  String addressValidationRequired(String label, Object field) {
+    return 'Palun sisestage $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Palun sisestage kehtiv postiindeks';
+  String get zipCode => 'postiindeks';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3338,4 +3335,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kehtiv postiindeks koosneb ainult numbritest';
+
+  @override
+  String get zipCodeValidationGeneral => 'Palun sisestage kehtiv postiindeks';
 }

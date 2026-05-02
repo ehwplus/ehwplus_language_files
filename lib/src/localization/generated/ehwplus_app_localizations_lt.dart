@@ -1327,11 +1327,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get addressStreet => 'Gatvė / adreso eilutė';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Įveskite $field';
-  }
-
-  @override
   String get houseName => 'Namo pavadinimas';
 
   @override
@@ -3348,10 +3343,12 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Sutinku, kad man būtų rodomas išorinis turinys. Dėl to asmens duomenys gali būti perduodami trečiųjų šalių platformoms. Daugiau apie tai mūsų';
 
   @override
-  String get zipCode => 'pašto kodas';
+  String addressValidationRequired(String label, Object field) {
+    return 'Įveskite $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Įveskite galiojantį pašto kodą';
+  String get zipCode => 'pašto kodas';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3360,4 +3357,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Galiojantį pašto kodą sudaro tik skaičiai';
+
+  @override
+  String get zipCodeValidationGeneral => 'Įveskite galiojantį pašto kodą';
 }

@@ -1325,11 +1325,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get addressStreet => 'सड़क / पता पंक्ति';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'कृपया $field दर्ज करें।';
-  }
-
-  @override
   String get houseName => 'घर का नाम';
 
   @override
@@ -3328,10 +3323,12 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'मैं इस बात से सहमत हूं कि मुझे बाहरी सामग्री दिखाई जाएगी।इसके परिणामस्वरूप व्यक्तिगत डेटा तीसरे पक्ष के प्लेटफ़ॉर्म पर प्रेषित हो सकता है।इस पर हमारे में और अधिक';
 
   @override
-  String get zipCode => 'ज़िप कोड';
+  String addressValidationRequired(String label, Object field) {
+    return 'कृपया $field दर्ज करें।';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'कृपया एक मान्य डाक कोड दर्ज करें।';
+  String get zipCode => 'ज़िप कोड';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3340,4 +3337,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'एक वैध ज़िप कोड में केवल संख्याएँ होती हैं';
+
+  @override
+  String get zipCodeValidationGeneral => 'कृपया एक मान्य डाक कोड दर्ज करें।';
 }

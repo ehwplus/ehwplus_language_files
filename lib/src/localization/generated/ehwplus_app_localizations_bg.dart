@@ -1328,11 +1328,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get addressStreet => 'Улица / адресна линия';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Моля, въведете $field';
-  }
-
-  @override
   String get houseName => 'Име на къщата';
 
   @override
@@ -3349,10 +3344,12 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Съгласен съм външно съдържание да ми се показва. Това може да доведе до предаване на лични данни към платформи на трети страни. Повече за това в нашата ';
 
   @override
-  String get zipCode => 'пощенски код';
+  String addressValidationRequired(String label, Object field) {
+    return 'Моля, въведете $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Моля, въведете валиден пощенски код';
+  String get zipCode => 'пощенски код';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3361,4 +3358,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Валиден пощенски код се състои само от цифри';
+
+  @override
+  String get zipCodeValidationGeneral => 'Моля, въведете валиден пощенски код';
 }

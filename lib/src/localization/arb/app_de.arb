@@ -446,14 +446,6 @@
   "addressAdministrativeArea": "Bundesland / Region / Provinz",
   "addressLocality": "Ort / Stadt",
   "addressStreet": "Straße / Adresszeile",
-  "addressValidationRequired": "Bitte {field} eingeben",
-  "@addressValidationRequired": {
-    "placeholders": {
-      "field": {
-        "type": "Object"
-      }
-    }
-  },
   "houseName": "Hausbezeichnung",
   "houseNameDescription": "Hausbezeichnung, z.B. Straßenname",
   "import": "Import",
@@ -1022,11 +1014,8 @@
   "youtubeConsent1": "Wir benötigen Ihre Einwilligung, um den eingebundenen Youtube-Inhalt anzuzeigen. Sie können diesen (und damit auch alle weiteren Youtube-Inhalte in der App) mit einem Klick anzeigen lassen und auch wieder deaktivieren.",
   "youtubeConsent2": "Youtube-Inhalte immer anzeigen",
   "youtubeConsent3": "Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden. Mehr dazu in unseren ",
-  "addressStreet": "Straße",
-  "addressLocality": "Ort",
   "addressValidationRequired": "{label} ist erforderlich",
   "zipCode": "Postleitzahl",
-  "zipCodeValidationGeneral": "Bitte gültige Postleitzahl eingeben",
   "zipCodeValidationLength": "Bitte {digits}-stellige Postleitzahl eingeben",
   "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen",
   "zipCodeValidationGeneral": "Bitte eine gültige Postleitzahl eingeben"

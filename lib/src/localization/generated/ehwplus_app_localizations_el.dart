@@ -1331,11 +1331,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get addressStreet => 'Οδός / γραμμή διεύθυνσης';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Παρακαλώ πληκτρολογήστε $field';
-  }
-
-  @override
   String get houseName => 'Όνομα σπιτιού';
 
   @override
@@ -3361,10 +3356,12 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Συμφωνώ να μου εμφανίζεται εξωτερικό περιεχόμενο. Αυτό μπορεί να έχει ως αποτέλεσμα τη διαβίβαση προσωπικών δεδομένων σε πλατφόρμες τρίτων. Περισσότερα σχετικά με αυτό στο';
 
   @override
-  String get zipCode => 'ταχυδρομικός κώδικας';
+  String addressValidationRequired(String label, Object field) {
+    return 'Παρακαλώ πληκτρολογήστε $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Παρακαλώ εισάγετε έναν έγκυρο ταχυδρομικό κώδικα';
+  String get zipCode => 'ταχυδρομικός κώδικας';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3373,4 +3370,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς';
+
+  @override
+  String get zipCodeValidationGeneral => 'Παρακαλώ εισάγετε έναν έγκυρο ταχυδρομικό κώδικα';
 }

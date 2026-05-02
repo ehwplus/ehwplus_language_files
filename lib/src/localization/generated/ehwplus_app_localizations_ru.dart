@@ -1338,11 +1338,6 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get addressStreet => 'Улица / адресная линия';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Введите $field';
-  }
-
-  @override
   String get houseName => 'Название дома';
 
   @override
@@ -3371,10 +3366,12 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Я согласен на показ внешнего контента. При этом персональные данные могут передаваться сторонним платформам. Подробнее об этом в нашей ';
 
   @override
-  String get zipCode => 'Почтовый индекс';
+  String addressValidationRequired(String label, Object field) {
+    return 'Введите $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Пожалуйста, введите действительный почтовый индекс';
+  String get zipCode => 'Почтовый индекс';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3383,4 +3380,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Допустимый почтовый индекс состоит только из цифр';
+
+  @override
+  String get zipCodeValidationGeneral => 'Пожалуйста, введите действительный почтовый индекс';
 }

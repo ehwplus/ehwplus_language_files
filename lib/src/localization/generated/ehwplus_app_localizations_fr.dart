@@ -1334,11 +1334,6 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get addressStreet => 'Rue / ligne d\'adresse';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Veuillez saisir $field';
-  }
-
-  @override
   String get houseName => 'Nom de la maison';
 
   @override
@@ -3353,10 +3348,12 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
       'J\'accepte que du contenu externe m\'ait affiché. Cela peut entraîner la transmission de données personnelles à des plateformes tierces. Plus d\'informations dans notre ';
 
   @override
-  String get zipCode => 'Code postal';
+  String addressValidationRequired(String label, Object field) {
+    return 'Veuillez saisir $field';
+  }
 
   @override
-  String get zipCodeValidationGeneral => 'Veuillez saisir un code postal valide';
+  String get zipCode => 'Code postal';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3365,4 +3362,7 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Un code postal valide ne contient que des chiffres';
+
+  @override
+  String get zipCodeValidationGeneral => 'Veuillez saisir un code postal valide';
 }
