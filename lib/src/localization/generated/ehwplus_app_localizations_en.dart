@@ -1316,14 +1316,14 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get addressAdministrativeArea => 'State / region / province';
 
   @override
-  String get addressLocality => 'City / locality';
+  String get addressLocality => 'City';
 
   @override
-  String get addressStreet => 'Street / address line';
+  String get addressStreet => 'Street';
 
   @override
-  String addressValidationRequired(String field) {
-    return 'Please enter $field';
+  String addressValidationRequired(String label, Object field) {
+    return '$label is required';
   }
 
   @override
@@ -2226,6 +2226,9 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Unfortunately, there is no data that the app could display.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Set up smart meter';
@@ -3340,13 +3343,13 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get zipCode => 'zip code';
 
   @override
+  String get zipCodeValidationGeneral => 'Please enter a valid postal code';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Please enter a $digits-digit postal code';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'A valid zip code consists only of numbers';
-
-  @override
-  String get zipCodeValidationGeneral => 'Please enter a valid postal code';
 }

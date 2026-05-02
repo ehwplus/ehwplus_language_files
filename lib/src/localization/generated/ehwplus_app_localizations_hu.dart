@@ -1328,7 +1328,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get addressStreet => 'Utca / címsor';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Kérjük, írja be: $field';
   }
 
@@ -2233,6 +2233,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Sajnos nincsenek olyan adatok, amelyeket az alkalmazás meg tudna jeleníteni.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Állítsa be az intelligens mérőórát';
@@ -3346,13 +3349,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get zipCode => 'irányítószám';
 
   @override
+  String get zipCodeValidationGeneral => 'Kérjük, adjon meg egy érvényes irányítószámot';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Kérjük, adja meg a $digits -jegyű irányítószámot';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Az érvényes irányítószám csak számokból áll';
-
-  @override
-  String get zipCodeValidationGeneral => 'Kérjük, adjon meg egy érvényes irányítószámot';
 }

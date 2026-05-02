@@ -1330,7 +1330,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get addressStreet => 'Ulica/linia adresowa';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Wpisz adres $field';
   }
 
@@ -2236,6 +2236,9 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Niestety nie ma żadnych danych, które aplikacja mogłaby wyświetlić.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Konfiguracja inteligentnego licznika';
@@ -3350,13 +3353,13 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get zipCode => 'kod pocztowy';
 
   @override
+  String get zipCodeValidationGeneral => 'Wprowadź prawidłowy kod pocztowy';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Wprowadź $digits -cyfrowy kod pocztowy';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Prawidłowy kod pocztowy składa się wyłącznie z cyfr';
-
-  @override
-  String get zipCodeValidationGeneral => 'Wprowadź prawidłowy kod pocztowy';
 }

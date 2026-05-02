@@ -1322,7 +1322,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get addressStreet => 'Katu / osoiteriville';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Kirjoita osoitteeksi $field';
   }
 
@@ -2226,6 +2226,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Valitettavasti ei ole tietoja, joita sovellus voisi näyttää.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Aseta älymittari';
@@ -3333,13 +3336,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get zipCode => 'postinumero';
 
   @override
+  String get zipCodeValidationGeneral => 'Syötä voimassa oleva postinumero';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Syötä $digits numeroinen postinumero';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kelvollinen postinumero koostuu vain numeroista';
-
-  @override
-  String get zipCodeValidationGeneral => 'Syötä voimassa oleva postinumero';
 }

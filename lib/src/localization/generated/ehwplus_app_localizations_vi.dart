@@ -1327,7 +1327,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get addressStreet => 'Đường / Dòng địa chỉ';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Vui lòng nhập $field';
   }
 
@@ -2225,6 +2225,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Rất tiếc, không có dữ liệu nào mà ứng dụng có thể hiển thị.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Thiết lập đồng hồ thông minh';
@@ -3332,13 +3335,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get zipCode => 'mã vùng';
 
   @override
+  String get zipCodeValidationGeneral => 'Vui lòng nhập mã bưu chính hợp lệ';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Vui lòng nhập mã bưu chính $digits chữ số';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Mã zip hợp lệ chỉ bao gồm các số';
-
-  @override
-  String get zipCodeValidationGeneral => 'Vui lòng nhập mã bưu chính hợp lệ';
 }

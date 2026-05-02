@@ -1321,14 +1321,14 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get addressAdministrativeArea => 'Bundesland / Region / Provinz';
 
   @override
-  String get addressLocality => 'Ort / Stadt';
+  String get addressLocality => 'Ort';
 
   @override
-  String get addressStreet => 'Straße / Adresszeile';
+  String get addressStreet => 'Straße';
 
   @override
-  String addressValidationRequired(String field) {
-    return 'Bitte $field eingeben';
+  String addressValidationRequired(String label, Object field) {
+    return '$label ist erforderlich';
   }
 
   @override
@@ -2224,6 +2224,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Es gibt leider keine Daten, welche die App anzeigen könnte.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart-Meter-Synchronisierung fehlgeschlagen';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Smartmeter einrichten';
@@ -3344,13 +3347,13 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get zipCode => 'Postleitzahl';
 
   @override
+  String get zipCodeValidationGeneral => 'Bitte eine gültige Postleitzahl eingeben';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Bitte $digits-stellige Postleitzahl eingeben';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Eine gültige Postleitzahl besteht nur aus Zahlen';
-
-  @override
-  String get zipCodeValidationGeneral => 'Bitte eine gültige Postleitzahl eingeben';
 }

@@ -1330,7 +1330,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get addressStreet => 'Οδός / γραμμή διεύθυνσης';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Παρακαλώ πληκτρολογήστε $field';
   }
 
@@ -2241,6 +2241,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Δυστυχώς, δεν υπάρχουν δεδομένα που θα μπορούσε να εμφανίσει η εφαρμογή.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Ρύθμιση έξυπνου μετρητή';
@@ -3360,13 +3363,13 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get zipCode => 'ταχυδρομικός κώδικας';
 
   @override
+  String get zipCodeValidationGeneral => 'Παρακαλώ εισάγετε έναν έγκυρο ταχυδρομικό κώδικα';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Εισάγετε έναν ταχυδρομικό κώδικα $digits ψηφίων.';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς';
-
-  @override
-  String get zipCodeValidationGeneral => 'Παρακαλώ εισάγετε έναν έγκυρο ταχυδρομικό κώδικα';
 }

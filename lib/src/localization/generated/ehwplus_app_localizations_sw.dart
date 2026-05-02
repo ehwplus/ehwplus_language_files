@@ -1320,7 +1320,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get addressStreet => 'Mtaa / mstari wa anwani';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Tafadhali ingiza $field';
   }
 
@@ -2221,6 +2221,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Kwa bahati mbaya, hakuna data ambayo programu inaweza kuonyesha.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Sanidi mita smart';
@@ -3334,13 +3337,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get zipCode => 'nambari ya zip';
 
   @override
+  String get zipCodeValidationGeneral => 'Tafadhali ingiza nambari ya posta halali.';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Tafadhali ingiza nambari ya posta ya nambari ya phtoken0';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Nambari halali ya zip ina nambari tu';
-
-  @override
-  String get zipCodeValidationGeneral => 'Tafadhali ingiza nambari ya posta halali.';
 }

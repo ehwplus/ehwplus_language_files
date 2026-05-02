@@ -1322,7 +1322,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get addressStreet => 'Gata / adresslinje';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Ange $field';
   }
 
@@ -2222,6 +2222,9 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Tyvärr finns det ingen data som appen kan visa.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Konfigurera smart mätare';
@@ -3328,13 +3331,13 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get zipCode => 'postnummer';
 
   @override
+  String get zipCodeValidationGeneral => 'Vänligen ange ett giltigt postnummer';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Vänligen ange ett $digits-siffrigt postnummer';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Ett giltigt postnummer består endast av nummer';
-
-  @override
-  String get zipCodeValidationGeneral => 'Vänligen ange ett giltigt postnummer';
 }

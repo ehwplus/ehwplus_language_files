@@ -1322,7 +1322,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get addressStreet => 'Ulice/adresní řádek';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Zadejte prosím $field';
   }
 
@@ -2221,6 +2221,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Bohužel neexistují žádná data, která by aplikace mohla zobrazit.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Nastavte inteligentní měřič';
@@ -3334,13 +3337,13 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get zipCode => 'PSČ';
 
   @override
+  String get zipCodeValidationGeneral => 'Zadejte prosím platné poštovní směrovací číslo';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Zadejte prosím ${digits}místné poštovní směrovací číslo';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Platné PSČ se skládá pouze z čísel';
-
-  @override
-  String get zipCodeValidationGeneral => 'Zadejte prosím platné poštovní směrovací číslo';
 }

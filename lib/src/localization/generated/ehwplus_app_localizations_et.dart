@@ -1325,7 +1325,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get addressStreet => 'Tänav / aadressi rida';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Palun sisestage $field';
   }
 
@@ -2228,6 +2228,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Kahjuks pole andmeid, mida rakendus saaks kuvada.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Seadista nutiarvesti';
@@ -3325,13 +3328,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get zipCode => 'postiindeks';
 
   @override
+  String get zipCodeValidationGeneral => 'Palun sisestage kehtiv postiindeks';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Palun sisesta $digits-kohaline postiindeks';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kehtiv postiindeks koosneb ainult numbritest';
-
-  @override
-  String get zipCodeValidationGeneral => 'Palun sisestage kehtiv postiindeks';
 }

@@ -1077,6 +1077,7 @@
   "sinceInitialReading": "Since initial reading",
   "smartMeterCountersTitle": "Radio water meters",
   "smartMeterErrorNoData": "Unfortunately, there is no data that the app could display.",
+  "smartMeterReadingsSyncFailed": "Smart meter synchronization failed",
   "smartMeterMisconfiguredWidgetCardButton": "Set up smart meter",
   "smartMeterMisconfiguredWidgetCardTitle": "Please set up your smart meter correctly.",
   "smartMeterObtainDataAutomatically": "Obtain data automatically",
@@ -1631,7 +1632,20 @@
   "youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",
   "youtubeConsent2": "Always show Youtube content",
   "youtubeConsent3": "I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our ",
+  "addressStreet": "Street",
+  "addressLocality": "City",
+  "addressValidationRequired": "{label} is required",
+  "@addressValidationRequired": {
+    "description": "Error message if a detailed address field is required",
+    "placeholders": {
+      "label": {
+        "example": "Street",
+        "type": "String"
+      }
+    }
+  },
   "zipCode": "zip code",
+  "zipCodeValidationGeneral": "Please enter a valid postal code",
   "zipCodeValidationLength": "Please enter a {digits}-digit postal code",
   "@zipCodeValidationLength": {
     "description": "Error message if the entered zip code length is invalid",

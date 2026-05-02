@@ -1330,7 +1330,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get addressStreet => 'လမ်း/လိပ်စာကြောင်း';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return '$field ကို ထည့်ပါ။';
   }
 
@@ -2227,6 +2227,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'ကံမကောင်းစွာဖြင့်အက်ပလီကေးရှင်းပြနိုင်သည့်အချက်အလက်မရှိပါ။';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'စမတ်မီတာကို set up';
@@ -3341,13 +3344,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get zipCode => 'စာတိုက်သင်္ကေတ';
 
   @override
+  String get zipCodeValidationGeneral => 'ကျေးဇူးပြု၍ မှန်ကန်သော စာတိုက်ကုဒ်ကို ထည့်ပါ။';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'ကျေးဇူးပြုပြီး Phtoken0-digit စာတိုက်ကုဒ်ကိုရိုက်ထည့်ပါ';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
-
-  @override
-  String get zipCodeValidationGeneral => 'ကျေးဇူးပြု၍ မှန်ကန်သော စာတိုက်ကုဒ်ကို ထည့်ပါ။';
 }

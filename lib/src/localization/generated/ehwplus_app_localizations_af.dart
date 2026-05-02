@@ -1322,7 +1322,7 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get addressStreet => 'Straat / adreslyn';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Voer asseblief $field in';
   }
 
@@ -2226,6 +2226,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Ongelukkig is daar geen data wat die toepassing kon vertoon nie.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Stel slimmeting op';
@@ -3340,13 +3343,13 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get zipCode => 'poskode';
 
   @override
+  String get zipCodeValidationGeneral => 'Voer asseblief \'n geldige poskode in.';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Voer asseblief \'n $digits-syfer poskode in';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => '\'n Geldige poskode bestaan slegs uit syfers';
-
-  @override
-  String get zipCodeValidationGeneral => 'Voer asseblief \'n geldige poskode in.';
 }

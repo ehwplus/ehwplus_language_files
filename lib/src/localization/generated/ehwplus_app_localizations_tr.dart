@@ -1326,7 +1326,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get addressStreet => 'Sokak / adres satırı';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Lütfen $field adresini girin';
   }
 
@@ -2230,6 +2230,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Ne yazık ki uygulamanın görüntüleyebileceği hiçbir veri yok.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Akıllı sayacı ayarla';
@@ -3334,13 +3337,13 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get zipCode => 'posta kodu';
 
   @override
+  String get zipCodeValidationGeneral => 'Lütfen geçerli bir posta kodu girin';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Lütfen $digits haneli posta kodunu girin';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Geçerli bir posta kodu yalnızca sayılardan oluşur';
-
-  @override
-  String get zipCodeValidationGeneral => 'Lütfen geçerli bir posta kodu girin';
 }

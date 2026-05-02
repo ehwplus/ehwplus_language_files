@@ -1290,7 +1290,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get addressStreet => '街道/地址栏';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return '请输入 $field';
   }
 
@@ -2166,6 +2166,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => '不幸的是，该应用程序无法显示任何数据。';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => '设置智能电表';
@@ -3211,13 +3214,13 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get zipCode => '邮政编码';
 
   @override
+  String get zipCodeValidationGeneral => '请输入有效的邮政编码';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return '请输入 $digits 位邮政编码';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
-
-  @override
-  String get zipCodeValidationGeneral => '请输入有效的邮政编码';
 }

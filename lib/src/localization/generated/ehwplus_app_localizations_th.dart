@@ -1318,7 +1318,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get addressStreet => 'ถนน / บรรทัดที่อยู่';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'กรุณาป้อน $field';
   }
 
@@ -2220,6 +2220,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'ขออภัย ไม่มีข้อมูลที่แอปสามารถแสดงได้';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'ตั้งค่ามิเตอร์อัจฉริยะ';
@@ -3323,13 +3326,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get zipCode => 'รหัสไปรษณีย์';
 
   @override
+  String get zipCodeValidationGeneral => 'กรุณาป้อนรหัสไปรษณีย์ที่ถูกต้อง';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'กรุณากรอกรหัสไปรษณีย์ $digits หลัก';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น';
-
-  @override
-  String get zipCodeValidationGeneral => 'กรุณาป้อนรหัสไปรษณีย์ที่ถูกต้อง';
 }

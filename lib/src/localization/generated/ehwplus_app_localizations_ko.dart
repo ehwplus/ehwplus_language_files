@@ -1304,7 +1304,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get addressStreet => '거리/주소 라인';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return '$field을 입력해 주세요';
   }
 
@@ -2187,6 +2187,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => '앱에서 표시할 수 있는 데이터가 없습니다.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => '스마트 미터 설정';
@@ -3243,13 +3246,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get zipCode => '우편번호';
 
   @override
+  String get zipCodeValidationGeneral => '유효한 우편 번호를 입력하세요.';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return '$digits자리 우편번호를 입력하세요';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => '유효한 우편번호는 숫자로만 구성됩니다';
-
-  @override
-  String get zipCodeValidationGeneral => '유효한 우편 번호를 입력하세요.';
 }

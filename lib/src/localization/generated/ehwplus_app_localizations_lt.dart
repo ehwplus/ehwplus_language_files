@@ -1326,7 +1326,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get addressStreet => 'Gatvė / adreso eilutė';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Įveskite $field';
   }
 
@@ -2229,6 +2229,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Deja, nėra duomenų, kuriuos programa galėtų rodyti.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Nustatykite išmanųjį skaitiklį';
@@ -3347,13 +3350,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get zipCode => 'pašto kodas';
 
   @override
+  String get zipCodeValidationGeneral => 'Įveskite galiojantį pašto kodą';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Įveskite $digits skaitmenų pašto kodą';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Galiojantį pašto kodą sudaro tik skaičiai';
-
-  @override
-  String get zipCodeValidationGeneral => 'Įveskite galiojantį pašto kodą';
 }

@@ -1302,7 +1302,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get addressStreet => 'ストリート/アドレス行';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return '$field を入力してください';
   }
 
@@ -2185,6 +2185,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => '残念ながら、アプリで表示できるデータはありません。';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'スマートメーターを設置する';
@@ -3241,13 +3244,13 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get zipCode => '郵便番号';
 
   @override
+  String get zipCodeValidationGeneral => '有効な郵便番号を入力してください。';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return '$digits桁の郵便番号を入力してください';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
-
-  @override
-  String get zipCodeValidationGeneral => '有効な郵便番号を入力してください。';
 }

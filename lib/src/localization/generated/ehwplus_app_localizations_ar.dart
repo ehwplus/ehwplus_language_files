@@ -1318,7 +1318,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get addressStreet => 'خط الشارع / العنوان';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'يرجى إدخال $field';
   }
 
@@ -2210,6 +2210,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'لسوء الحظ، لا توجد بيانات يمكن للتطبيق عرضها.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'إعداد العداد الذكي';
@@ -3302,13 +3305,13 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get zipCode => 'الرمز البريدي';
 
   @override
+  String get zipCodeValidationGeneral => 'الرجاء إدخال رمز بريدي صالح';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'يرجى إدخال رمز بريدي مكون من $digits أرقام';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'الرمز البريدي الصالح يتكون من أرقام فقط';
-
-  @override
-  String get zipCodeValidationGeneral => 'الرجاء إدخال رمز بريدي صالح';
 }

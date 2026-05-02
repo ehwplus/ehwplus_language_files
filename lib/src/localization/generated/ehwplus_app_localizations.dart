@@ -2436,20 +2436,20 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @addressLocality.
   ///
   /// In en, this message translates to:
-  /// **'City / locality'**
+  /// **'City'**
   String get addressLocality;
 
   /// No description provided for @addressStreet.
   ///
   /// In en, this message translates to:
-  /// **'Street / address line'**
+  /// **'Street'**
   String get addressStreet;
 
-  /// No description provided for @addressValidationRequired.
+  /// Error message if a detailed address field is required
   ///
   /// In en, this message translates to:
-  /// **'Please enter {field}'**
-  String addressValidationRequired(String field);
+  /// **'{label} is required'**
+  String addressValidationRequired(String label, Object field);
 
   /// No description provided for @houseName.
   ///
@@ -3968,6 +3968,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Unfortunately, there is no data that the app could display.'**
   String get smartMeterErrorNoData;
+
+  /// No description provided for @smartMeterReadingsSyncFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Smart meter synchronization failed'**
+  String get smartMeterReadingsSyncFailed;
 
   /// No description provided for @smartMeterMisconfiguredWidgetCardButton.
   ///
@@ -5817,6 +5823,12 @@ abstract class EhwplusAppLocalizations {
   /// **'zip code'**
   String get zipCode;
 
+  /// No description provided for @zipCodeValidationGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid postal code'**
+  String get zipCodeValidationGeneral;
+
   /// Error message if the entered zip code length is invalid
   ///
   /// In en, this message translates to:
@@ -5828,12 +5840,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'A valid zip code consists only of numbers'**
   String get zipCodeValidationOnlyNumbers;
-
-  /// No description provided for @zipCodeValidationGeneral.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid postal code'**
-  String get zipCodeValidationGeneral;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

@@ -1327,7 +1327,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get addressStreet => 'Strada / linia de adresă';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Vă rugăm să introduceți $field';
   }
 
@@ -2232,6 +2232,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'Din păcate, nu există date pe care aplicația să le poată afișa.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Configurarea contorului inteligent';
@@ -3345,13 +3348,13 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get zipCode => 'cod poștal';
 
   @override
+  String get zipCodeValidationGeneral => 'Vă rugăm să introduceți un cod poștal valabil';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Vă rugăm să introduceți un cod poștal format din $digits cifre.';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Un cod poștal valabil constă numai din numere';
-
-  @override
-  String get zipCodeValidationGeneral => 'Vă rugăm să introduceți un cod poștal valabil';
 }

@@ -1327,7 +1327,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get addressStreet => 'Улица / адресна линия';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'Моля, въведете $field';
   }
 
@@ -2232,6 +2232,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'За съжаление, няма данни, които приложението да покаже.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Настройка на интелигентен брояч';
@@ -3348,13 +3351,13 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get zipCode => 'пощенски код';
 
   @override
+  String get zipCodeValidationGeneral => 'Моля, въведете валиден пощенски код';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'Моля, въведете $digits-цифрен пощенски код';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Валиден пощенски код се състои само от цифри';
-
-  @override
-  String get zipCodeValidationGeneral => 'Моля, въведете валиден пощенски код';
 }

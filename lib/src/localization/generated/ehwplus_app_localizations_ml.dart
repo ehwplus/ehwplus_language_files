@@ -1330,7 +1330,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get addressStreet => 'വഴി / വിലാസ വര';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'ദയവായി $field നൽകുക';
   }
 
@@ -2228,6 +2228,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'നിർഭാഗ്യവശാൽ, ആപ്പിന് പ്രദർശിപ്പിക്കാൻ കഴിയുന്ന ഡാറ്റകളൊന്നുമില്ല.';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'സ്മാർട്ട് മീറ്റർ സജ്ജീകരിക്കുക';
@@ -3344,13 +3347,13 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get zipCode => 'തപാൽ കോഡ്';
 
   @override
+  String get zipCodeValidationGeneral => 'ദയവായി സാധുവായ ഒരു പോസ്റ്റൽ കോഡ് നൽകുക';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'ദയവായി $digits-അക്കമുള്ള തപാൽ കോഡ് നൽകുക';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'ഒരു സാധുവായ പിൻ കോഡിൽ അക്കങ്ങൾ മാത്രമേ അടങ്ങിയിട്ടുള്ളൂ';
-
-  @override
-  String get zipCodeValidationGeneral => 'ദയവായി സാധുവായ ഒരു പോസ്റ്റൽ കോഡ് നൽകുക';
 }

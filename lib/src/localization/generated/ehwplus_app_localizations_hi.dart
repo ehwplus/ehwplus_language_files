@@ -1324,7 +1324,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get addressStreet => 'सड़क / पता पंक्ति';
 
   @override
-  String addressValidationRequired(String field) {
+  String addressValidationRequired(String label, Object field) {
     return 'कृपया $field दर्ज करें।';
   }
 
@@ -2223,6 +2223,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterErrorNoData => 'दुर्भाग्य से, ऐसा कोई डेटा नहीं है जिसे ऐप प्रदर्शित कर सके।';
+
+  @override
+  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'स्मार्ट मीटर लगाएं';
@@ -3327,13 +3330,13 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get zipCode => 'ज़िप कोड';
 
   @override
+  String get zipCodeValidationGeneral => 'कृपया एक मान्य डाक कोड दर्ज करें।';
+
+  @override
   String zipCodeValidationLength(int digits) {
     return 'कृपया $digits-अंकीय डाक कोड दर्ज करें';
   }
 
   @override
   String get zipCodeValidationOnlyNumbers => 'एक वैध ज़िप कोड में केवल संख्याएँ होती हैं';
-
-  @override
-  String get zipCodeValidationGeneral => 'कृपया एक मान्य डाक कोड दर्ज करें।';
 }
