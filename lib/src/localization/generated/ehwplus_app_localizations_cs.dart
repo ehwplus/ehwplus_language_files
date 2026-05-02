@@ -3330,8 +3330,8 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Souhlasím se zobrazováním externího obsahu. To může vést k přenosu osobních údajů na platformy třetích stran. Více o tom v našem';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Zadejte prosím $field';
+  String addressValidationRequired(String label) {
+    return 'Zadejte prosím $label';
   }
 
   @override

@@ -3329,8 +3329,8 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Hyväksyn ulkoisen sisällön näyttämisen minulle.Tämä voi johtaa henkilötietojen siirtämiseen kolmansien osapuolien alustoille.Tästä lisää meidän';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Kirjoita osoitteeksi $field';
+  String addressValidationRequired(String label) {
+    return 'Kirjoita osoitteeksi $label';
   }
 
   @override

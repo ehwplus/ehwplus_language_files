@@ -3342,8 +3342,8 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
       'Ik ga akkoord dat externe inhoud aan mij wordt weergegeven. Dit kan ertoe leiden dat persoonlijke gegevens worden verzonden naar platforms van derden. Meer hierover in onze ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Voer $field in';
+  String addressValidationRequired(String label) {
+    return 'Voer $label in';
   }
 
   @override

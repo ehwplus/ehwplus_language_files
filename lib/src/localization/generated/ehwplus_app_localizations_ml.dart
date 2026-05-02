@@ -3340,8 +3340,8 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
       'എനിക്ക് ദൃശ്യമാകുന്ന ബാഹ്യ ഉള്ളടക്കം ഞാൻ അംഗീകരിക്കുന്നു. ഇത് മൂന്നാം കക്ഷി പ്ലാറ്റ്‌ഫോമുകളിലേക്ക് വ്യക്തിഗത ഡാറ്റ കൈമാറുന്നതിൽ കലാശിച്ചേക്കാം. ഇതിനെക്കുറിച്ച് കൂടുതൽ ഞങ്ങളുടെ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'ദയവായി $field നൽകുക';
+  String addressValidationRequired(String label) {
+    return 'ദയവായി $label നൽകുക';
   }
 
   @override

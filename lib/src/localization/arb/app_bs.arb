@@ -34,7 +34,7 @@
   "addressAdministrativeArea": "Država / regija / pokrajina",
   "addressLocality": "Grad / naselje",
   "addressStreet": "Ulica / adresna linija",
-  "addressValidationRequired": "Molimo unesite {field}",
+  "addressValidationRequired": "Molimo unesite {label}",
   "advancePayment": "Plaćanje unaprijed",
   "advancePaymentDueDay": "Rok isporuke",
   "advancePaymentDueDayOptionDay": "Dan{day}",

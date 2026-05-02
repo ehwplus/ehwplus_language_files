@@ -3321,8 +3321,8 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Nõustun, et mulle kuvatakse välissisu. See võib tähendada isikuandmete edastamist kolmandate osapoolte platvormidele. Lisateave meie ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Palun sisestage $field';
+  String addressValidationRequired(String label) {
+    return 'Palun sisestage $label';
   }
 
   @override

@@ -3298,8 +3298,8 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'أوافق على عرض المحتوى الخارجي لي. قد يؤدي هذا إلى نقل البيانات الشخصية إلى منصات الطرف الثالث. المزيد حول هذا في ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'يرجى إدخال $field';
+  String addressValidationRequired(String label) {
+    return 'يرجى إدخال $label';
   }
 
   @override

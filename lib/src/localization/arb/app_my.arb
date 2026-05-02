@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "ပြည်နယ်/ဒေသ/တိုင်းဒေသကြီး",
   "addressLocality": "မြို့/ဒေသ",
   "addressStreet": "လမ်း/လိပ်စာကြောင်း",
-  "addressValidationRequired": "{field} ကို ထည့်ပါ။",
+  "addressValidationRequired": "{label} ကို ထည့်ပါ။",
   "advancePayment": "ကြိုတင်ငွေပေးချေမှု",
   "advancePaymentDueDay": "ပေးရမည့်နေ့",
   "advancePaymentDueDayOptionDay": "နေ့{day}",

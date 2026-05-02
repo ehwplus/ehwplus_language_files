@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Valstybė / regionas / provincija",
   "addressLocality": "Miestas / vietovė",
   "addressStreet": "Gatvė / adreso eilutė",
-  "addressValidationRequired": "Įveskite {field}",
+  "addressValidationRequired": "Įveskite {label}",
   "advancePayment": "Avansinis mokėjimas",
   "advancePaymentDueDay": "Atitinkama diena",
   "advancePaymentDueDayOptionDay": "{day} diena",

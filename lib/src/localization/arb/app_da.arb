@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Stat/region/provins",
   "addressLocality": "By / lokalitet",
   "addressStreet": "Gade/adresselinje",
-  "addressValidationRequired": "Indtast venligst {field}",
+  "addressValidationRequired": "Indtast venligst {label}",
   "advancePayment": "Forudbetaling",
   "advancePaymentDueDay": "Forfaldsdag",
   "advancePaymentDueDayOptionDay": "Dag {day}",

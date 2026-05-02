@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Государство / регион / провинция",
   "addressLocality": "Город / населенный пункт",
   "addressStreet": "Улица / адресная линия",
-  "addressValidationRequired": "Введите {field}",
+  "addressValidationRequired": "Введите {label}",
   "advancePayment": "Сумма взноса",
   "advancePaymentDueDay": "День исполнения",
   "advancePaymentDueDayOptionDay": "День {day}",

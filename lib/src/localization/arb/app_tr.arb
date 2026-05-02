@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Eyalet / bölge / il",
   "addressLocality": "Şehir / bölge",
   "addressStreet": "Sokak / adres satırı",
-  "addressValidationRequired": "Lütfen {field} adresini girin",
+  "addressValidationRequired": "Lütfen {label} adresini girin",
   "advancePayment": "Peşin ödeme",
   "advancePaymentDueDay": "Son gün",
   "advancePaymentDueDayOptionDay": "{day}. Gün",

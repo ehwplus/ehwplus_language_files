@@ -3343,8 +3343,8 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Sutinku, kad man būtų rodomas išorinis turinys. Dėl to asmens duomenys gali būti perduodami trečiųjų šalių platformoms. Daugiau apie tai mūsų';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Įveskite $field';
+  String addressValidationRequired(String label) {
+    return 'Įveskite $label';
   }
 
   @override

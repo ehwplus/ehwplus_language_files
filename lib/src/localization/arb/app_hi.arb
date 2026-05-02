@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "राज्य / क्षेत्र / प्रांत",
   "addressLocality": "शहर / इलाका",
   "addressStreet": "सड़क / पता पंक्ति",
-  "addressValidationRequired": "कृपया {field} दर्ज करें।",
+  "addressValidationRequired": "कृपया {label} दर्ज करें।",
   "advancePayment": "अग्रिम भुगतान",
   "advancePaymentDueDay": "अंतिम तिथि",
   "advancePaymentDueDayOptionDay": "{day} दिन",

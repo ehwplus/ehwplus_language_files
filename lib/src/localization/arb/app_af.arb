@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Staat / streek / provinsie",
   "addressLocality": "Stad / lokaliteit",
   "addressStreet": "Straat / adreslyn",
-  "addressValidationRequired": "Voer asseblief {field} in",
+  "addressValidationRequired": "Voer asseblief {label} in",
   "advancePayment": "Voorskotbetaling",
   "advancePaymentDueDay": "Verskuldigde dag",
   "advancePaymentDueDayOptionDay": "Dag{day}",

@@ -3366,8 +3366,8 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Я согласен на показ внешнего контента. При этом персональные данные могут передаваться сторонним платформам. Подробнее об этом в нашей ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Введите $field';
+  String addressValidationRequired(String label) {
+    return 'Введите $label';
   }
 
   @override

@@ -3330,8 +3330,8 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Harici içeriğin bana gösterilmesini kabul ediyorum. Bu, kişisel verilerin üçüncü taraf platformlara aktarılmasına neden olabilir. Bu konuda daha fazla bilgi bizim';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Lütfen $field adresini girin';
+  String addressValidationRequired(String label) {
+    return 'Lütfen $label adresini girin';
   }
 
   @override

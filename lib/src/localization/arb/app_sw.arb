@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Jimbo / kanda / mkoa",
   "addressLocality": "Mji / eneo",
   "addressStreet": "Mtaa / mstari wa anwani",
-  "addressValidationRequired": "Tafadhali ingiza {field}",
+  "addressValidationRequired": "Tafadhali ingiza {label}",
   "advancePayment": "Malipo ya mapema",
   "advancePaymentDueDay": "Tarehe ya mwisho",
   "advancePaymentDueDayOptionDay": "Siku{day}",

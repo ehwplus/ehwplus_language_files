@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Država / regija / pokrajina",
   "addressLocality": "Mesto / kraj",
   "addressStreet": "Ulica / naslovna vrstica",
-  "addressValidationRequired": "Vnesite {field}",
+  "addressValidationRequired": "Vnesite {label}",
   "advancePayment": "Predplačilo",
   "advancePaymentDueDay": "Rok plačila",
   "advancePaymentDueDayOptionDay": "Dan {day}",

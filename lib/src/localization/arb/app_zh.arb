@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "州/地区/省",
   "addressLocality": "城市/地区",
   "addressStreet": "街道/地址栏",
-  "addressValidationRequired": "请输入 {field}",
+  "addressValidationRequired": "请输入 {label}",
   "advancePayment": "预付款",
   "advancePaymentDueDay": "到期日",
   "advancePaymentDueDayOptionDay": "第{day}天",

@@ -3323,8 +3323,8 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'मैं इस बात से सहमत हूं कि मुझे बाहरी सामग्री दिखाई जाएगी।इसके परिणामस्वरूप व्यक्तिगत डेटा तीसरे पक्ष के प्लेटफ़ॉर्म पर प्रेषित हो सकता है।इस पर हमारे में और अधिक';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'कृपया $field दर्ज करें।';
+  String addressValidationRequired(String label) {
+    return 'कृपया $label दर्ज करें।';
   }
 
   @override

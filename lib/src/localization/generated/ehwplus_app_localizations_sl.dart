@@ -3331,8 +3331,8 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Strinjam se, da mi je prikazana zunanja vsebina. To lahko povzroči prenos osebnih podatkov na platforme tretjih oseb. Več o tem v našem';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Vnesite $field';
+  String addressValidationRequired(String label) {
+    return 'Vnesite $label';
   }
 
   @override

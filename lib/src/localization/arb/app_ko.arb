@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "주/지역/도",
   "addressLocality": "도시/지역",
   "addressStreet": "거리/주소 라인",
-  "addressValidationRequired": "{field}을 입력해 주세요",
+  "addressValidationRequired": "{label}을 입력해 주세요",
   "advancePayment": "선납금",
   "advancePaymentDueDay": "마감일",
   "advancePaymentDueDayOptionDay": "{day}일",

@@ -3235,8 +3235,8 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '外部コンテンツが表示されることに同意します。これにより、個人データがサードパーティのプラットフォームに送信される可能性があります。詳細については、';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '$field を入力してください';
+  String addressValidationRequired(String label) {
+    return '$label を入力してください';
   }
 
   @override

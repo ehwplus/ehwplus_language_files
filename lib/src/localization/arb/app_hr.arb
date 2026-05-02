@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Država / regija / pokrajina",
   "addressLocality": "Grad / naselje",
   "addressStreet": "Ulica / adresna linija",
-  "addressValidationRequired": "Molimo unesite {field}",
+  "addressValidationRequired": "Molimo unesite {label}",
   "advancePayment": "Predujam",
   "advancePaymentDueDay": "Rok dospijeća",
   "advancePaymentDueDayOptionDay": "Dan{day}",

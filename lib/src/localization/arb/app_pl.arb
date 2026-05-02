@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Państwo / region / prowincja",
   "addressLocality": "Miasto / miejscowość",
   "addressStreet": "Ulica/linia adresowa",
-  "addressValidationRequired": "Wpisz adres {field}",
+  "addressValidationRequired": "Wpisz adres {label}",
   "advancePayment": "Zaliczka",
   "advancePaymentDueDay": "Wymagany dzień",
   "advancePaymentDueDayOptionDay": "Dzień {day}",

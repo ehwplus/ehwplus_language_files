@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Държава/регион/провинция",
   "addressLocality": "Град / населено място",
   "addressStreet": "Улица / адресна линия",
-  "addressValidationRequired": "Моля, въведете {field}",
+  "addressValidationRequired": "Моля, въведете {label}",
   "advancePayment": "Авансово плащане",
   "advancePaymentDueDay": "Ден на падежа",
   "advancePaymentDueDayOptionDay": "Ден {day}",

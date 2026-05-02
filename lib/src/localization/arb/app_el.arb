@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Πολιτεία / περιφέρεια / επαρχία",
   "addressLocality": "Πόλη/τοποθεσία",
   "addressStreet": "Οδός / γραμμή διεύθυνσης",
-  "addressValidationRequired": "Παρακαλώ πληκτρολογήστε {field}",
+  "addressValidationRequired": "Παρακαλώ πληκτρολογήστε {label}",
   "advancePayment": "Προκαταβολή",
   "advancePaymentDueDay": "Ημέρα λήξης",
   "advancePaymentDueDayOptionDay": "Ημέρα {day}",

@@ -34,7 +34,7 @@
   "addressAdministrativeArea": "Tỉnh / khu vực / tỉnh",
   "addressLocality": "Thành phố / địa phương",
   "addressStreet": "Đường / Dòng địa chỉ",
-  "addressValidationRequired": "Vui lòng nhập {field}",
+  "addressValidationRequired": "Vui lòng nhập {label}",
   "advancePayment": "Thanh toán tạm ứng",
   "advancePaymentDueDay": "Ngày đến hạn",
   "advancePaymentDueDayOptionDay": "Ngày thứ{day}",

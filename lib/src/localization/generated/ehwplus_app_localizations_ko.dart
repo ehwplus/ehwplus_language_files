@@ -3237,8 +3237,8 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '외부 콘텐츠 표시를 허용합니다. 이로 인해 개인 데이터가 제3자 플랫폼으로 전송될 수 있습니다. 자세한 내용은 당사의 개인정보 보호정책을 참조하세요.';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '$field을 입력해 주세요';
+  String addressValidationRequired(String label) {
+    return '$label을 입력해 주세요';
   }
 
   @override

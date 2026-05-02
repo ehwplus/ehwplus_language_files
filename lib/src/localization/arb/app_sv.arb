@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Stat / region / provins",
   "addressLocality": "Stad / ort",
   "addressStreet": "Gata / adresslinje",
-  "addressValidationRequired": "Ange {field}",
+  "addressValidationRequired": "Ange {label}",
   "advancePayment": "Förskottsbetalning",
   "advancePaymentDueDay": "Förfallodag",
   "advancePaymentDueDayOptionDay": "Dag {day}",

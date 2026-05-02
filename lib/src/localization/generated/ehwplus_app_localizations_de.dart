@@ -3339,7 +3339,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden. Mehr dazu in unseren ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
+  String addressValidationRequired(String label) {
     return '$label ist erforderlich';
   }
 

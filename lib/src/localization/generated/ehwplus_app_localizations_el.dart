@@ -3356,8 +3356,8 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Συμφωνώ να μου εμφανίζεται εξωτερικό περιεχόμενο. Αυτό μπορεί να έχει ως αποτέλεσμα τη διαβίβαση προσωπικών δεδομένων σε πλατφόρμες τρίτων. Περισσότερα σχετικά με αυτό στο';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Παρακαλώ πληκτρολογήστε $field';
+  String addressValidationRequired(String label) {
+    return 'Παρακαλώ πληκτρολογήστε $label';
   }
 
   @override

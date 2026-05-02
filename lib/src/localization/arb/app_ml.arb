@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "സംസ്ഥാനം / മേഖല / പ്രവിശ്യ",
   "addressLocality": "നഗരം / പ്രദേശം",
   "addressStreet": "വഴി / വിലാസ വര",
-  "addressValidationRequired": "ദയവായി {field} നൽകുക",
+  "addressValidationRequired": "ദയവായി {label} നൽകുക",
   "advancePayment": "മുൻകൂർ പണമടയ്ക്കൽ",
   "advancePaymentDueDay": "അവസാന തീയതി",
   "advancePaymentDueDayOptionDay": "ദിവസം{day}",

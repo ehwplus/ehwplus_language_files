@@ -3342,8 +3342,8 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Hozzájárulok ahhoz, hogy külső tartalom jelenjen meg számomra. Ez azt eredményezheti, hogy személyes adatokat továbbítanak harmadik fél platformjaira. Erről bővebben a';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Kérjük, írja be: $field';
+  String addressValidationRequired(String label) {
+    return 'Kérjük, írja be: $label';
   }
 
   @override

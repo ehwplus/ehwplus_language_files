@@ -3337,8 +3337,8 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ငါမှပြသထားသောပြင်ပအကြောင်းအရာကိုသဘောတူသည်။ ၎င်းသည်ကိုယ်ရေးကိုယ်တာအချက်အလက်များကိုတတိယပါတီပလက်ဖောင်းများသို့ကူးစက်စေနိုင်သည်။ ငါတို့အပေါ်မှာဒီအပေါ်ပိုပြီး';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '$field ကို ထည့်ပါ။';
+  String addressValidationRequired(String label) {
+    return '$label ကို ထည့်ပါ။';
   }
 
   @override

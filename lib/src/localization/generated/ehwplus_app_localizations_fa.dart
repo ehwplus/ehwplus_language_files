@@ -3311,8 +3311,8 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'موافقم که محتوای خارجی برای من نمایش داده شود.این ممکن است منجر به انتقال داده های شخصی به سیستم عامل های شخص ثالث شود.بیشتر در این مورد در ما';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'لطفاً $field را وارد کنید.';
+  String addressValidationRequired(String label) {
+    return 'لطفاً $label را وارد کنید.';
   }
 
   @override

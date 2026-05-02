@@ -5815,7 +5815,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'{label} is required'**
-  String addressValidationRequired(String label, Object field);
+  String addressValidationRequired(String label);
 
   /// No description provided for @zipCode.
   ///

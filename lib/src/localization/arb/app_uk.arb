@@ -34,7 +34,7 @@
   "addressAdministrativeArea": "Держава / регіон / область",
   "addressLocality": "Місто / населений пункт",
   "addressStreet": "Вулиця / адресний рядок",
-  "addressValidationRequired": "Введіть, будь ласка, {field}",
+  "addressValidationRequired": "Введіть, будь ласка, {label}",
   "advancePayment": "Попередня оплата",
   "advancePaymentDueDay": "День сплати",
   "advancePaymentDueDayOptionDay": "День №{day}",

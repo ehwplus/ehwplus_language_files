@@ -3330,8 +3330,8 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Ninakubali maudhui ya nje kuonyeshwa kwangu. Hii inaweza kusababisha data ya kibinafsi kupitishwa kwa majukwaa ya mtu wa tatu. Zaidi juu ya hii katika yetu';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Tafadhali ingiza $field';
+  String addressValidationRequired(String label) {
+    return 'Tafadhali ingiza $label';
   }
 
   @override

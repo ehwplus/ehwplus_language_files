@@ -3205,8 +3205,8 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '我同意向我显示外部内容。这可能会导致个人数据被传输到第三方平台。有关此内容的更多信息，请参阅我们的';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return '请输入 $field';
+  String addressValidationRequired(String label) {
+    return '请输入 $label';
   }
 
   @override

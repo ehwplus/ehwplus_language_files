@@ -3341,8 +3341,8 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Sunt de acord să mi se afișeze conținut extern. Acest lucru poate duce la transmiterea datelor personale către platforme terțe. Mai multe despre acest lucru în';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Vă rugăm să introduceți $field';
+  String addressValidationRequired(String label) {
+    return 'Vă rugăm să introduceți $label';
   }
 
   @override

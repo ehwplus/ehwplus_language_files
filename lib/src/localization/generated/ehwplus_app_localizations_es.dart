@@ -3331,8 +3331,8 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
       'Acepto que se me muestre contenido externo. Esto puede suponer la transmisión de datos personales a plataformas de terceros. Más información en nuestra ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Introduzca $field';
+  String addressValidationRequired(String label) {
+    return 'Introduzca $label';
   }
 
   @override

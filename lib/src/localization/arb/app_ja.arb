@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "州／地域／県",
   "addressLocality": "市町村",
   "addressStreet": "ストリート/アドレス行",
-  "addressValidationRequired": "{field} を入力してください",
+  "addressValidationRequired": "{label} を入力してください",
   "advancePayment": "前払い",
   "advancePaymentDueDay": "期日",
   "advancePaymentDueDayOptionDay": "{day}日目",

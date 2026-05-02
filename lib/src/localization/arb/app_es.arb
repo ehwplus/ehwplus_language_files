@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Estado / región / provincia",
   "addressLocality": "Ciudad / localidad",
   "addressStreet": "Calle / línea de dirección",
-  "addressValidationRequired": "Introduzca {field}",
+  "addressValidationRequired": "Introduzca {label}",
   "advancePayment": "Importe de la cuota",
   "advancePaymentDueDay": "Fecha de vencimiento",
   "advancePaymentDueDayOptionDay": "Día 1{day}",

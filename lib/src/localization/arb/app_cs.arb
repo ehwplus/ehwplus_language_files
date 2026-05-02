@@ -34,7 +34,7 @@
   "addressAdministrativeArea": "Stát / region / provincie",
   "addressLocality": "Město / lokalita",
   "addressStreet": "Ulice/adresní řádek",
-  "addressValidationRequired": "Zadejte prosím {field}",
+  "addressValidationRequired": "Zadejte prosím {label}",
   "advancePayment": "Platba předem",
   "advancePaymentDueDay": "Den splatnosti",
   "advancePaymentDueDayOptionDay": "Den č.{day}",

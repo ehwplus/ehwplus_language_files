@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Riik/piirkond/provints",
   "addressLocality": "Linn / paikkond",
   "addressStreet": "Tänav / aadressi rida",
-  "addressValidationRequired": "Palun sisestage {field}",
+  "addressValidationRequired": "Palun sisestage {label}",
   "advancePayment": "Ettemaks",
   "advancePaymentDueDay": "Tähtaeg",
   "advancePaymentDueDayOptionDay": "{day}. päev",

@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "ایالت / منطقه / استان",
   "addressLocality": "شهر / محل",
   "addressStreet": "خیابان / خط آدرس",
-  "addressValidationRequired": "لطفاً {field} را وارد کنید.",
+  "addressValidationRequired": "لطفاً {label} را وارد کنید.",
   "advancePayment": "پیش‌پرداخت",
   "advancePaymentDueDay": "تاریخ سررسید",
   "advancePaymentDueDayOptionDay": "روز {day}",

@@ -3322,8 +3322,8 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Jeg accepterer, at eksternt indhold vises for mig. Dette kan resultere i, at personlige data overføres til tredjepartsplatforme. Mere om dette i vores';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Indtast venligst $field';
+  String addressValidationRequired(String label) {
+    return 'Indtast venligst $label';
   }
 
   @override

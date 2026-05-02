@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Valtio / alue / maakunta",
   "addressLocality": "Kaupunki / paikkakunta",
   "addressStreet": "Katu / osoiteriville",
-  "addressValidationRequired": "Kirjoita osoitteeksi {field}",
+  "addressValidationRequired": "Kirjoita osoitteeksi {label}",
   "advancePayment": "Ennakkomaksu",
   "advancePaymentDueDay": "Eräpäivä",
   "advancePaymentDueDayOptionDay": "Päivä {day}",

@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Staat / regio / provincie",
   "addressLocality": "Stad / plaats",
   "addressStreet": "Straat/adresregel",
-  "addressValidationRequired": "Voer {field} in",
+  "addressValidationRequired": "Voer {label} in",
   "advancePayment": "Voorschot",
   "advancePaymentDueDay": "Vervallen dag",
   "advancePaymentDueDayOptionDay": "Dag {day}",

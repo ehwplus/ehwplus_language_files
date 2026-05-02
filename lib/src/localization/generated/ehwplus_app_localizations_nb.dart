@@ -3325,8 +3325,8 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
       'Jeg godtar at eksternt innhold vises for meg. Dette kan føre til at personopplysninger overføres til tredjepartsplattformer. Mer om dette i vår';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Vennligst skriv inn $field';
+  String addressValidationRequired(String label) {
+    return 'Vennligst skriv inn $label';
   }
 
   @override

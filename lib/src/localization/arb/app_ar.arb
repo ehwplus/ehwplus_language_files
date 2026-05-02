@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "الولاية/المنطقة/المقاطعة",
   "addressLocality": "المدينة/المحلية",
   "addressStreet": "خط الشارع / العنوان",
-  "addressValidationRequired": "يرجى إدخال {field}",
+  "addressValidationRequired": "يرجى إدخال {label}",
   "advancePayment": "الدفع المقدم",
   "advancePaymentDueDay": "يوم الاستحقاق",
   "advancePaymentDueDayOptionDay": "اليوم السابع{day}",

@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Stat / regiune / provincie",
   "addressLocality": "Oraș / localitate",
   "addressStreet": "Strada / linia de adresă",
-  "addressValidationRequired": "Vă rugăm să introduceți {field}",
+  "addressValidationRequired": "Vă rugăm să introduceți {label}",
   "advancePayment": "Plata în avans",
   "advancePaymentDueDay": "Ziua scadentă",
   "advancePaymentDueDayOptionDay": "Ziua {day}",

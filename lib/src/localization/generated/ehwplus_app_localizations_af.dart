@@ -3336,8 +3336,8 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
       'Ek stem in tot eksterne inhoud wat aan my vertoon word. Dit kan lei tot persoonlike data wat na derdeparty-platforms oorgedra word. Meer hieroor in ons ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Voer asseblief $field in';
+  String addressValidationRequired(String label) {
+    return 'Voer asseblief $label in';
   }
 
   @override

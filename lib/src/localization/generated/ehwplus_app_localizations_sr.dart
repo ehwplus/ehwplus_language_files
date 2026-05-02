@@ -3339,8 +3339,8 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
       'Слажем се да ми се приказује спољни садржај. Ово може довести до тога да се лични подаци пренесу на платформе трећих страна. Више о овоме у нашој';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Молимо унесите $field';
+  String addressValidationRequired(String label) {
+    return 'Молимо унесите $label';
   }
 
   @override

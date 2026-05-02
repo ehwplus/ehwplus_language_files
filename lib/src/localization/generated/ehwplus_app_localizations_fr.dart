@@ -3348,8 +3348,8 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
       'J\'accepte que du contenu externe m\'ait affiché. Cela peut entraîner la transmission de données personnelles à des plateformes tierces. Plus d\'informations dans notre ';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Veuillez saisir $field';
+  String addressValidationRequired(String label) {
+    return 'Veuillez saisir $label';
   }
 
   @override

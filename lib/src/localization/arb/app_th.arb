@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "รัฐ / ภูมิภาค / จังหวัด",
   "addressLocality": "เมือง / เขต",
   "addressStreet": "ถนน / บรรทัดที่อยู่",
-  "addressValidationRequired": "กรุณาป้อน {field}",
+  "addressValidationRequired": "กรุณาป้อน {label}",
   "advancePayment": "ชำระเงินล่วงหน้า",
   "advancePaymentDueDay": "วันครบกำหนด",
   "advancePaymentDueDayOptionDay": "วันที่{day}",

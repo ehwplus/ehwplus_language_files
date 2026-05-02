@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Állam / régió / tartomány",
   "addressLocality": "Város / település",
   "addressStreet": "Utca / címsor",
-  "addressValidationRequired": "Kérjük, írja be: {field}",
+  "addressValidationRequired": "Kérjük, írja be: {label}",
   "advancePayment": "Előlegfizetés",
   "advancePaymentDueDay": "Esedékes nap",
   "advancePaymentDueDayOptionDay": "{day}. nap",

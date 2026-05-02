@@ -33,7 +33,7 @@
   "addressAdministrativeArea": "Delstat/region/provins",
   "addressLocality": "By/lokalitet",
   "addressStreet": "Gate/adresselinje",
-  "addressValidationRequired": "Vennligst skriv inn {field}",
+  "addressValidationRequired": "Vennligst skriv inn {label}",
   "advancePayment": "Forskuddsbetaling",
   "advancePaymentDueDay": "Forfallsdag",
   "advancePaymentDueDayOptionDay": "Dag {day}",

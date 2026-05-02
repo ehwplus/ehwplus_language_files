@@ -3328,8 +3328,8 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Tôi đồng ý với nội dung bên ngoài được hiển thị cho tôi. Điều này có thể dẫn đến việc dữ liệu cá nhân được truyền sang nền tảng của bên thứ ba. Thông tin thêm về điều này trong của chúng tôi';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Vui lòng nhập $field';
+  String addressValidationRequired(String label) {
+    return 'Vui lòng nhập $label';
   }
 
   @override

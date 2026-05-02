@@ -3349,8 +3349,8 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
       'Я погоджуюся на відображення зовнішнього вмісту. Це може призвести до передачі особистих даних на сторонні платформи. Детальніше про це в нашому';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Введіть, будь ласка, $field';
+  String addressValidationRequired(String label) {
+    return 'Введіть, будь ласка, $label';
   }
 
   @override

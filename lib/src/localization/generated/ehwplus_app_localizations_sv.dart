@@ -3323,8 +3323,8 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
       'Jag samtycker till att externt innehåll visas för mig. Detta kan leda till att personuppgifter överförs till tredje parts plattformar. Mer om detta i vår';
 
   @override
-  String addressValidationRequired(String label, Object field) {
-    return 'Ange $field';
+  String addressValidationRequired(String label) {
+    return 'Ange $label';
   }
 
   @override
