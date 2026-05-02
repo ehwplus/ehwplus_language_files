@@ -1232,11 +1232,10 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get featureVoting => '機能の投票';
 
   @override
-  String get featureVotingIntro =>
-      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+  String get featureVotingIntro => '投票はいつでも変更できます。投票は、あなたが投票した機能が実装されたときに解放されます。';
 
   @override
-  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+  String get featureVotingLoginRequired => 'EHW+アカウントでログインすると、機能提案の表示と投票ができます。';
 
   @override
   String get featureVotingOnlyOnGerman => '機能調査は他の言語に翻訳されません。';
@@ -2187,7 +2186,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => '残念ながら、アプリで表示できるデータはありません。';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
+  String get smartMeterReadingsSyncFailed => 'スマートメーターの同期に失敗';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'スマートメーターを設置する';

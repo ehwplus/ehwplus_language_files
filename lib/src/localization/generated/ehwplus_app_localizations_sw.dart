@@ -1249,10 +1249,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get featureVotingIntro =>
-      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+      'Unaweza kubadilisha mawazo yako wakati wowote. Kura hutolewa huru wakati kipengele ulichokipigia kura kinapotekelezwa.';
 
   @override
-  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+  String get featureVotingLoginRequired =>
+      'Ingia kwa akaunti yako ya EHW+ ili kuona na kupiga kura juu ya mapendekezo ya vipengele.';
 
   @override
   String get featureVotingOnlyOnGerman => 'Utafiti wa kipengele haujatafsiriwa kwa lugha zingine.';
@@ -2223,7 +2224,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Kwa bahati mbaya, hakuna data ambayo programu inaweza kuonyesha.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
+  String get smartMeterReadingsSyncFailed => 'Ulinganisho wa mita mahiri umeshindikana';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Sanidi mita smart';

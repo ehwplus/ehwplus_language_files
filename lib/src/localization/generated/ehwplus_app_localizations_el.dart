@@ -1259,10 +1259,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get featureVotingIntro =>
-      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+      'Μπορείτε να αλλάξετε γνώμη ανά πάσα στιγμή. Μια ψήφος απελευθερώνεται όταν ένα χαρακτηριστικό που ψηφίσατε υλοποιηθεί.';
 
   @override
-  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+  String get featureVotingLoginRequired =>
+      'Συνδεθείτε με το λογαριασμό σας EHW+ για να δείτε και να ψηφίσετε τις προτάσεις λειτουργιών.';
 
   @override
   String get featureVotingOnlyOnGerman => 'Η έρευνα χαρακτηριστικών δεν έχει μεταφραστεί σε άλλες γλώσσες.';
@@ -2243,7 +2244,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Δυστυχώς, δεν υπάρχουν δεδομένα που θα μπορούσε να εμφανίσει η εφαρμογή.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
+  String get smartMeterReadingsSyncFailed => 'Ο συγχρονισμός του έξυπνου μετρητή απέτυχε';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Ρύθμιση έξυπνου μετρητή';

@@ -1256,10 +1256,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get featureVotingIntro =>
-      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+      'Bạn có thể thay đổi quyết định bất cứ lúc nào. Một phiếu bầu sẽ được giải phóng khi tính năng mà bạn đã bỏ phiếu ủng hộ được triển khai.';
 
   @override
-  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+  String get featureVotingLoginRequired =>
+      'Hãy đăng nhập bằng tài khoản EHW+ của bạn để xem và bình chọn cho các đề xuất tính năng.';
 
   @override
   String get featureVotingOnlyOnGerman => 'Khảo sát tính năng không được dịch sang các ngôn ngữ khác.';
@@ -2227,7 +2228,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Rất tiếc, không có dữ liệu nào mà ứng dụng có thể hiển thị.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
+  String get smartMeterReadingsSyncFailed => 'Không đồng bộ hóa được đồng hồ thông minh';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Thiết lập đồng hồ thông minh';

@@ -1256,10 +1256,11 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get featureVotingIntro =>
-      'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.';
+      'Vă puteți răzgândi în orice moment. Un vot se eliberează atunci când o caracteristică pentru care ați votat este implementată.';
 
   @override
-  String get featureVotingLoginRequired => 'Log in with your EHW+ account to view and vote on feature suggestions.';
+  String get featureVotingLoginRequired =>
+      'Conectați-vă cu contul dvs. EHW+ pentru a vizualiza și vota sugestiile de caracteristici.';
 
   @override
   String get featureVotingOnlyOnGerman => 'Sondajul de caracteristici nu este tradus în alte limbi.';
@@ -2234,7 +2235,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Din păcate, nu există date pe care aplicația să le poată afișa.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
+  String get smartMeterReadingsSyncFailed => 'Sincronizarea contorului inteligent a eșuat';
 
   @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Configurarea contorului inteligent';
