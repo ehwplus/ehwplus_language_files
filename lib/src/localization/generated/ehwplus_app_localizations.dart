@@ -1377,6 +1377,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Contract number'**
   String get contractNumber;
 
+  /// No description provided for @customerId.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer ID'**
+  String get customerId;
+
   /// No description provided for @contractPeriod.
   ///
   /// In en, this message translates to:
@@ -4005,6 +4011,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Wasserwerk Gerauer Land'**
   String get smartMeterProviderWwgl;
 
+  /// No description provided for @smartMeterProviderWtl.
+  ///
+  /// In en, this message translates to:
+  /// **'Wasserverband Tecklenburger Land'**
+  String get smartMeterProviderWtl;
+
   /// No description provided for @smartMeterServiceProvider.
   ///
   /// In en, this message translates to:
@@ -5780,6 +5792,72 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Terminate Radio Meter Access'**
   String get watersupplierUnlinkRadioMeterTitle;
+
+  /// No description provided for @firstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First name'**
+  String get firstName;
+
+  /// No description provided for @houseNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'House number'**
+  String get houseNumber;
+
+  /// No description provided for @lastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last name'**
+  String get lastName;
+
+  /// No description provided for @wtlAccessRequestFailure.
+  ///
+  /// In en, this message translates to:
+  /// **'Access request could not be created.'**
+  String get wtlAccessRequestFailure;
+
+  /// No description provided for @wtlAccessRequestMeterId.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter ID'**
+  String get wtlAccessRequestMeterId;
+
+  /// No description provided for @wtlAccessRequestMissingAccountData.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account is missing an email address.'**
+  String get wtlAccessRequestMissingAccountData;
+
+  /// No description provided for @wtlAccessRequestMissingInput.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a meter ID with at least 8 characters and a service object number.'**
+  String get wtlAccessRequestMissingInput;
+
+  /// No description provided for @wtlAccessRequestOnlineOnlyDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Online access request for Wasserverband Tecklenburger Land.'**
+  String get wtlAccessRequestOnlineOnlyDescription;
+
+  /// No description provided for @wtlAccessRequestServiceObjectNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Service object number'**
+  String get wtlAccessRequestServiceObjectNumber;
+
+  /// No description provided for @wtlAccessRequestSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Access request created.'**
+  String get wtlAccessRequestSuccess;
+
+  /// No description provided for @wtlAccessRequestTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'WTL access request'**
+  String get wtlAccessRequestTitle;
 
   /// No description provided for @yearlyConsumption.
   ///

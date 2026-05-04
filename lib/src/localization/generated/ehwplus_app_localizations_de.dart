@@ -737,6 +737,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get contractNumber => 'Vertragsnummer';
 
   @override
+  String get customerId => 'Kundennummer';
+
+  @override
   String get contractPeriod => 'Vertragslaufzeit';
 
   @override
@@ -2242,6 +2245,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+
+  @override
   String get smartMeterServiceProvider => 'Serviceanbieter';
 
   @override
@@ -3320,6 +3326,41 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => 'Funkzählerzugriff beenden';
+
+  @override
+  String get firstName => 'Vorname';
+
+  @override
+  String get houseNumber => 'Hausnummer';
+
+  @override
+  String get lastName => 'Nachname';
+
+  @override
+  String get wtlAccessRequestFailure => 'Die Zugriffsanfrage konnte nicht erstellt werden.';
+
+  @override
+  String get wtlAccessRequestMeterId => 'Zählernummer';
+
+  @override
+  String get wtlAccessRequestMissingAccountData => 'In Ihrem Konto fehlt eine E-Mail-Adresse.';
+
+  @override
+  String get wtlAccessRequestMissingInput =>
+      'Bitte geben Sie eine Zählernummer mit mindestens 8 Zeichen und eine Leistungsobjektnummer ein.';
+
+  @override
+  String get wtlAccessRequestOnlineOnlyDescription =>
+      'Online-Zugriffsanfrage für den Wasserverband Tecklenburger Land.';
+
+  @override
+  String get wtlAccessRequestServiceObjectNumber => 'Leistungsobjektnummer';
+
+  @override
+  String get wtlAccessRequestSuccess => 'Zugriffsanfrage erstellt.';
+
+  @override
+  String get wtlAccessRequestTitle => 'WTL-Zugriffsanfrage';
 
   @override
   String get yearlyConsumption => 'Bisheriger Jahresverbrauch';

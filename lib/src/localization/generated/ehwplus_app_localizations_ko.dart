@@ -723,6 +723,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get contractNumber => '계약 번호';
 
   @override
+  String get customerId => 'Customer ID';
+
+  @override
   String get contractPeriod => '계약 기간';
 
   @override
@@ -2204,6 +2207,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+
+  @override
   String get smartMeterServiceProvider => '서비스 제공자';
 
   @override
@@ -3219,6 +3225,40 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => '무선 계량기 접근 종료';
+
+  @override
+  String get firstName => 'First name';
+
+  @override
+  String get houseNumber => 'House number';
+
+  @override
+  String get lastName => 'Last name';
+
+  @override
+  String get wtlAccessRequestFailure => 'Access request could not be created.';
+
+  @override
+  String get wtlAccessRequestMeterId => 'Meter ID';
+
+  @override
+  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+
+  @override
+  String get wtlAccessRequestMissingInput =>
+      'Please enter a meter ID with at least 8 characters and a service object number.';
+
+  @override
+  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+
+  @override
+  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+
+  @override
+  String get wtlAccessRequestSuccess => 'Access request created.';
+
+  @override
+  String get wtlAccessRequestTitle => 'WTL access request';
 
   @override
   String get yearlyConsumption => '현재까지 연간 소비량';
