@@ -1665,6 +1665,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Electricity meter'**
   String get counterElectricity;
 
+  /// No description provided for @counterAmmeter.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity measuring device'**
+  String get counterAmmeter;
+
   /// No description provided for @counterElectricityBack.
   ///
   /// In en, this message translates to:
@@ -2120,6 +2126,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Power consumption'**
   String get electricityConsumption;
+
+  /// No description provided for @ammeterConsumptionByRooms.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity consumption by rooms'**
+  String get ammeterConsumptionByRooms;
+
+  /// No description provided for @ammeterConsumptionByDevices.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity consumption by devices'**
+  String get ammeterConsumptionByDevices;
 
   /// No description provided for @electricityGenerated.
   ///
@@ -3723,6 +3741,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Rooms'**
   String get rooms;
 
+  /// No description provided for @withoutRoomAssignment.
+  ///
+  /// In en, this message translates to:
+  /// **'Without room assignment'**
+  String get withoutRoomAssignment;
+
   /// No description provided for @scanQrCode.
   ///
   /// In en, this message translates to:
@@ -3981,6 +4005,54 @@ abstract class EhwplusAppLocalizations {
   /// **'Historical EHW+ consumptions'**
   String get homeAssistantHistoricalConsumptionsTitle;
 
+  /// No description provided for @homeAssistantLiveMeasurementApparentPower.
+  ///
+  /// In en, this message translates to:
+  /// **'Apparent power'**
+  String get homeAssistantLiveMeasurementApparentPower;
+
+  /// No description provided for @homeAssistantLiveMeasurementCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Current'**
+  String get homeAssistantLiveMeasurementCurrent;
+
+  /// No description provided for @homeAssistantLiveMeasurementPower.
+  ///
+  /// In en, this message translates to:
+  /// **'Power'**
+  String get homeAssistantLiveMeasurementPower;
+
+  /// No description provided for @homeAssistantLiveMeasurementReactivePower.
+  ///
+  /// In en, this message translates to:
+  /// **'Reactive power'**
+  String get homeAssistantLiveMeasurementReactivePower;
+
+  /// No description provided for @homeAssistantLiveMeasurementVoltage.
+  ///
+  /// In en, this message translates to:
+  /// **'Voltage'**
+  String get homeAssistantLiveMeasurementVoltage;
+
+  /// No description provided for @homeAssistantLiveMeasurementsConnecting.
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting to Home Assistant...'**
+  String get homeAssistantLiveMeasurementsConnecting;
+
+  /// No description provided for @homeAssistantLiveMeasurementsError.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant live data could not be loaded.'**
+  String get homeAssistantLiveMeasurementsError;
+
+  /// No description provided for @homeAssistantLiveMeasurementsNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No live values were detected for this sensor.'**
+  String get homeAssistantLiveMeasurementsNoData;
+
   /// No description provided for @homeAssistantLinkSensor.
   ///
   /// In en, this message translates to:
@@ -4022,6 +4094,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Synchronize meter readings and consumptions with Home Assistant.'**
   String get homeAssistantNotConfiguredSubtitle;
+
+  /// No description provided for @homeAssistantPlugTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Plug'**
+  String get homeAssistantPlugTitle;
+
+  /// No description provided for @homeAssistantPlugUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Plug unavailable'**
+  String get homeAssistantPlugUnavailable;
 
   /// No description provided for @homeAssistantPushCountersDescription.
   ///

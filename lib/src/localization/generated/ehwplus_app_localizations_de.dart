@@ -886,6 +886,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get counterElectricity => 'Stromzähler';
 
   @override
+  String get counterAmmeter => 'Strommessgerät';
+
+  @override
   String get counterElectricityBack => 'Stromeinspeiszähler (PV)';
 
   @override
@@ -1136,6 +1139,12 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => 'Stromverbrauch';
+
+  @override
+  String get ammeterConsumptionByRooms => 'Stromverbrauch nach Räumen';
+
+  @override
+  String get ammeterConsumptionByDevices => 'Stromverbrauch nach Geräten';
 
   @override
   String get electricityGenerated => 'Erzeugter Strom';
@@ -2096,6 +2105,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get rooms => 'Räume';
 
   @override
+  String get withoutRoomAssignment => 'Ohne Raumzuweisung';
+
+  @override
   String get scanQrCode => 'Aktivierungscode scannen';
 
   @override
@@ -2234,6 +2246,30 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get homeAssistantHistoricalConsumptionsTitle => 'Historische EHW+ Verbräuche';
 
   @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Scheinleistung';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Stromstärke';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Leistung';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Blindleistung';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Spannung';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Verbindung zu Home Assistant wird hergestellt...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Home Assistant Live-Daten konnten nicht geladen werden.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'Für diesen Sensor wurden keine Live-Werte erkannt.';
+
+  @override
   String get homeAssistantLinkSensor => 'Sensor verknüpfen';
 
   @override
@@ -2255,6 +2291,12 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get homeAssistantNotConfiguredSubtitle => 'Zählerstände und Verbräuche mit Home Assistant synchronisieren.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Plug';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Plug nicht verfügbar';
 
   @override
   String get homeAssistantPushCountersDescription =>
