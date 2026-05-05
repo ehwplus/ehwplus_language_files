@@ -239,6 +239,24 @@ abstract class EhwplusAppLocalizations {
   /// **'Link meter readings to activities, e.g., washing with cold water meters and electricity meters.'**
   String get activitiesDescription;
 
+  /// No description provided for @activitiesDefinitionsTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Activities'**
+  String get activitiesDefinitionsTab;
+
+  /// No description provided for @activitiesTimelineEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No activities have been recorded yet.'**
+  String get activitiesTimelineEmpty;
+
+  /// No description provided for @activitiesTimelineTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Timeline'**
+  String get activitiesTimelineTab;
+
   /// No description provided for @activitiesTitle.
   ///
   /// In en, this message translates to:
@@ -3908,6 +3926,174 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'External services'**
   String get settingsExternalServices;
+
+  /// No description provided for @homeAssistantAccessTokenLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Long-lived access token'**
+  String get homeAssistantAccessTokenLabel;
+
+  /// No description provided for @homeAssistantAccessTokenRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a long-lived access token.'**
+  String get homeAssistantAccessTokenRequired;
+
+  /// No description provided for @homeAssistantConfigureNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up now'**
+  String get homeAssistantConfigureNow;
+
+  /// No description provided for @homeAssistantConfiguredSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'{instanceName} - Version {version}'**
+  String homeAssistantConfiguredSubtitle(String instanceName, String version);
+
+  /// No description provided for @homeAssistantConnectionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection failed: {error}'**
+  String homeAssistantConnectionFailed(String error);
+
+  /// No description provided for @homeAssistantConnectionSuccessful.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection to Home Assistant was successful.'**
+  String get homeAssistantConnectionSuccessful;
+
+  /// No description provided for @homeAssistantDefaultActivityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Default activity'**
+  String get homeAssistantDefaultActivityLabel;
+
+  /// No description provided for @homeAssistantHistoricalConsumptionsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.'**
+  String get homeAssistantHistoricalConsumptionsDescription;
+
+  /// No description provided for @homeAssistantHistoricalConsumptionsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Historical EHW+ consumptions'**
+  String get homeAssistantHistoricalConsumptionsTitle;
+
+  /// No description provided for @homeAssistantLinkSensor.
+  ///
+  /// In en, this message translates to:
+  /// **'Link sensor'**
+  String get homeAssistantLinkSensor;
+
+  /// No description provided for @homeAssistantLoadSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'Load sensors'**
+  String get homeAssistantLoadSensors;
+
+  /// No description provided for @homeAssistantLocalUrlWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.'**
+  String get homeAssistantLocalUrlWarning;
+
+  /// No description provided for @homeAssistantNoDefaultActivity.
+  ///
+  /// In en, this message translates to:
+  /// **'No default activity'**
+  String get homeAssistantNoDefaultActivity;
+
+  /// No description provided for @homeAssistantNoPushCounters.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no counters in this object that can be pushed to Home Assistant.'**
+  String get homeAssistantNoPushCounters;
+
+  /// No description provided for @homeAssistantNoSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'No suitable consumption sensors were found.'**
+  String get homeAssistantNoSensors;
+
+  /// No description provided for @homeAssistantNotConfiguredSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Synchronize meter readings and consumptions with Home Assistant.'**
+  String get homeAssistantNotConfiguredSubtitle;
+
+  /// No description provided for @homeAssistantPushCountersDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.'**
+  String get homeAssistantPushCountersDescription;
+
+  /// No description provided for @homeAssistantPushCountersTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Push EHW+ counters'**
+  String get homeAssistantPushCountersTitle;
+
+  /// No description provided for @homeAssistantSettingsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.'**
+  String get homeAssistantSettingsDescription;
+
+  /// No description provided for @homeAssistantSettingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant'**
+  String get homeAssistantSettingsTitle;
+
+  /// No description provided for @homeAssistantSubscriptionRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'An active subscription is required for Home Assistant synchronization.'**
+  String get homeAssistantSubscriptionRequired;
+
+  /// No description provided for @homeAssistantTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant'**
+  String get homeAssistantTitle;
+
+  /// No description provided for @homeAssistantTokenTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Test token'**
+  String get homeAssistantTokenTest;
+
+  /// No description provided for @homeAssistantUnlink.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlink'**
+  String get homeAssistantUnlink;
+
+  /// No description provided for @homeAssistantUnknownInstance.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown instance'**
+  String get homeAssistantUnknownInstance;
+
+  /// No description provided for @homeAssistantUrlInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid Home Assistant URL.'**
+  String get homeAssistantUrlInvalid;
+
+  /// No description provided for @homeAssistantUrlLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant URL'**
+  String get homeAssistantUrlLabel;
+
+  /// No description provided for @homeAssistantUrlRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter the Home Assistant URL.'**
+  String get homeAssistantUrlRequired;
 
   /// No description provided for @settingsShowStromGedacht.
   ///

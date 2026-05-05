@@ -11,6 +11,9 @@
   "accountThankYouForPurchase": "Thank you! Would you like to secure the purchase in your EHW+ user account now?",
   "accountUpdateInfo": "New: The EHW+ user account",
   "activitiesDescription": "Link meter readings to activities, e.g., washing with cold water meters and electricity meters.",
+  "activitiesDefinitionsTab": "Activities",
+  "activitiesTimelineEmpty": "No activities have been recorded yet.",
+  "activitiesTimelineTab": "Timeline",
   "activitiesTitle": "My activities",
   "activityBath": "Bath",
   "activityDishWasher": "Dish washer",
@@ -1060,6 +1063,51 @@
   "settingYearlyResetOn": "on",
   "settings": "Settings",
   "settingsExternalServices": "External services",
+  "homeAssistantAccessTokenLabel": "Long-lived access token",
+  "homeAssistantAccessTokenRequired": "Please enter a long-lived access token.",
+  "homeAssistantConfigureNow": "Set up now",
+  "homeAssistantConfiguredSubtitle": "{instanceName} - Version {version}",
+  "@homeAssistantConfiguredSubtitle": {
+    "placeholders": {
+      "instanceName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionFailed": "Connection failed: {error}",
+  "@homeAssistantConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionSuccessful": "Connection to Home Assistant was successful.",
+  "homeAssistantDefaultActivityLabel": "Default activity",
+  "homeAssistantHistoricalConsumptionsDescription": "Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.",
+  "homeAssistantHistoricalConsumptionsTitle": "Historical EHW+ consumptions",
+  "homeAssistantLinkSensor": "Link sensor",
+  "homeAssistantLoadSensors": "Load sensors",
+  "homeAssistantLocalUrlWarning": "This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.",
+  "homeAssistantNoDefaultActivity": "No default activity",
+  "homeAssistantNoPushCounters": "There are no counters in this object that can be pushed to Home Assistant.",
+  "homeAssistantNoSensors": "No suitable consumption sensors were found.",
+  "homeAssistantNotConfiguredSubtitle": "Synchronize meter readings and consumptions with Home Assistant.",
+  "homeAssistantPushCountersDescription": "Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.",
+  "homeAssistantPushCountersTitle": "Push EHW+ counters",
+  "homeAssistantSettingsDescription": "Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.",
+  "homeAssistantSettingsTitle": "Home Assistant",
+  "homeAssistantSubscriptionRequired": "An active subscription is required for Home Assistant synchronization.",
+  "homeAssistantTitle": "Home Assistant",
+  "homeAssistantTokenTest": "Test token",
+  "homeAssistantUnlink": "Unlink",
+  "homeAssistantUnknownInstance": "Unknown instance",
+  "homeAssistantUrlInvalid": "Please enter a valid Home Assistant URL.",
+  "homeAssistantUrlLabel": "Home Assistant URL",
+  "homeAssistantUrlRequired": "Please enter the Home Assistant URL.",
   "settingsShowStromGedacht": "Should tips from StromGedacht about the power grid be displayed?",
   "settingsShowTabNewsDetailed": "Should the News/Tips tab be visible?",
   "showAllYears": "Show all years",

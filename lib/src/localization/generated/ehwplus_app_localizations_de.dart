@@ -48,6 +48,15 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Verknüpfen Sie Zählerstandsablesungen mit Aktivitäten, z.B. Waschen mit Kaltwasserzähler und Stromzähler.';
 
   @override
+  String get activitiesDefinitionsTab => 'Aktivitäten';
+
+  @override
+  String get activitiesTimelineEmpty => 'Es wurden noch keine Aktivitäten erfasst.';
+
+  @override
+  String get activitiesTimelineTab => 'Zeitverlauf';
+
+  @override
   String get activitiesTitle => 'Meine Aktivitäten';
 
   @override
@@ -2191,6 +2200,100 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get settingsExternalServices => 'Externe Dienste';
+
+  @override
+  String get homeAssistantAccessTokenLabel => 'Long-Lived Access Token';
+
+  @override
+  String get homeAssistantAccessTokenRequired => 'Bitte geben Sie den Long-Lived Access Token ein.';
+
+  @override
+  String get homeAssistantConfigureNow => 'Jetzt einrichten';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Version $version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Verbindung fehlgeschlagen: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Verbindung zu Home Assistant erfolgreich hergestellt.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Standardaktivität';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Wählen Sie Home Assistant Verbrauchssensoren, für die im aktuellen EHW+ Objekt Zähler erstellt und aktualisiert werden sollen.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Historische EHW+ Verbräuche';
+
+  @override
+  String get homeAssistantLinkSensor => 'Sensor verknüpfen';
+
+  @override
+  String get homeAssistantLoadSensors => 'Sensoren laden';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'Das sieht nach einer lokalen URL aus. Die Synchronisierung wird nur versucht, wenn das Gerät mit dem lokalen Netzwerk verbunden ist.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'Keine Standardaktivität';
+
+  @override
+  String get homeAssistantNoPushCounters =>
+      'In diesem Objekt gibt es keine Zähler, die zu Home Assistant gepusht werden können.';
+
+  @override
+  String get homeAssistantNoSensors => 'Es wurden keine passenden Verbrauchssensoren gefunden.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Zählerstände und Verbräuche mit Home Assistant synchronisieren.';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Wählen Sie EHW+ Zähler, deren Verbrauchsstatistiken nach Änderungen an Home Assistant übertragen werden sollen.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'EHW+ Zähler pushen';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Verbinden Sie EHW+ mit Ihrer Home Assistant Instanz, um Zählerstände ausgewählter Sensoren zu beziehen oder EHW+ Statistiken bereitzustellen.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'Für die Home Assistant Synchronisierung ist ein aktives Abo erforderlich.';
+
+  @override
+  String get homeAssistantTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantTokenTest => 'Token testen';
+
+  @override
+  String get homeAssistantUnlink => 'Entknüpfen';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Unbekannte Instanz';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Bitte geben Sie eine gültige Home Assistant URL ein.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Home Assistant URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Bitte geben Sie die Home Assistant URL ein.';
 
   @override
   String get settingsShowStromGedacht => 'Sollen Hinweise von StromGedacht zum Stromnetz angezeigt werden?';

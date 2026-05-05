@@ -11,6 +11,9 @@
   "accountThankYouForPurchase": "Danke! Möchten Sie jetzt den Kauf im EHW+ Nutzerkonto sichern?",
   "accountUpdateInfo": "Jetzt neu: Das EHW+ Nutzerkonto",
   "activitiesDescription": "Verknüpfen Sie Zählerstandsablesungen mit Aktivitäten, z.B. Waschen mit Kaltwasserzähler und Stromzähler.",
+  "activitiesDefinitionsTab": "Aktivitäten",
+  "activitiesTimelineEmpty": "Es wurden noch keine Aktivitäten erfasst.",
+  "activitiesTimelineTab": "Zeitverlauf",
   "activitiesTitle": "Meine Aktivitäten",
   "activityBath": "Baden",
   "activityDishWasher": "Spülmaschine",
@@ -697,6 +700,51 @@
   "settingYearlyResetOn": "am",
   "settings": "Einstellungen",
   "settingsExternalServices": "Externe Dienste",
+  "homeAssistantAccessTokenLabel": "Long-Lived Access Token",
+  "homeAssistantAccessTokenRequired": "Bitte geben Sie den Long-Lived Access Token ein.",
+  "homeAssistantConfigureNow": "Jetzt einrichten",
+  "homeAssistantConfiguredSubtitle": "{instanceName} - Version {version}",
+  "@homeAssistantConfiguredSubtitle": {
+    "placeholders": {
+      "instanceName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionFailed": "Verbindung fehlgeschlagen: {error}",
+  "@homeAssistantConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionSuccessful": "Verbindung zu Home Assistant erfolgreich hergestellt.",
+  "homeAssistantDefaultActivityLabel": "Standardaktivität",
+  "homeAssistantHistoricalConsumptionsDescription": "Wählen Sie Home Assistant Verbrauchssensoren, für die im aktuellen EHW+ Objekt Zähler erstellt und aktualisiert werden sollen.",
+  "homeAssistantHistoricalConsumptionsTitle": "Historische EHW+ Verbräuche",
+  "homeAssistantLinkSensor": "Sensor verknüpfen",
+  "homeAssistantLoadSensors": "Sensoren laden",
+  "homeAssistantLocalUrlWarning": "Das sieht nach einer lokalen URL aus. Die Synchronisierung wird nur versucht, wenn das Gerät mit dem lokalen Netzwerk verbunden ist.",
+  "homeAssistantNoDefaultActivity": "Keine Standardaktivität",
+  "homeAssistantNoPushCounters": "In diesem Objekt gibt es keine Zähler, die zu Home Assistant gepusht werden können.",
+  "homeAssistantNoSensors": "Es wurden keine passenden Verbrauchssensoren gefunden.",
+  "homeAssistantNotConfiguredSubtitle": "Zählerstände und Verbräuche mit Home Assistant synchronisieren.",
+  "homeAssistantPushCountersDescription": "Wählen Sie EHW+ Zähler, deren Verbrauchsstatistiken nach Änderungen an Home Assistant übertragen werden sollen.",
+  "homeAssistantPushCountersTitle": "EHW+ Zähler pushen",
+  "homeAssistantSettingsDescription": "Verbinden Sie EHW+ mit Ihrer Home Assistant Instanz, um Zählerstände ausgewählter Sensoren zu beziehen oder EHW+ Statistiken bereitzustellen.",
+  "homeAssistantSettingsTitle": "Home Assistant",
+  "homeAssistantSubscriptionRequired": "Für die Home Assistant Synchronisierung ist ein aktives Abo erforderlich.",
+  "homeAssistantTitle": "Home Assistant",
+  "homeAssistantTokenTest": "Token testen",
+  "homeAssistantUnlink": "Entknüpfen",
+  "homeAssistantUnknownInstance": "Unbekannte Instanz",
+  "homeAssistantUrlInvalid": "Bitte geben Sie eine gültige Home Assistant URL ein.",
+  "homeAssistantUrlLabel": "Home Assistant URL",
+  "homeAssistantUrlRequired": "Bitte geben Sie die Home Assistant URL ein.",
   "settingsShowStromGedacht": "Sollen Hinweise von StromGedacht zum Stromnetz angezeigt werden?",
   "settingsShowTabNewsDetailed": "Soll der Tipps/News Tab sichtbar sein?",
   "showAllYears": "Alle Jahre anzeigen",
