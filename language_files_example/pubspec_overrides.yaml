@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: ehwplus_language_files
+dependency_overrides:
+  ehwplus_language_files:
+    path: ..
