@@ -71,6 +71,7 @@
   "goetheDataDonationReceiveToggle": "Datenanfragen erhalten",
   "goetheDataDonationExplanation": "Alle Datenanfragen stehen im Kontext des Forschungsprojekts COMET. Das Projekt endet Ende August. Es ist mit einer kleinen einstelligen Anzahl von Datenanfragen zu rechnen. Wird eine Datenanfrage akzeptiert, werden nur einmalig Daten übermittelt. Geteilt werden können Tagesverbrauchsreihen für einzelne Zähler.",
   "goetheDataDonationAudienceQuestion": "Wer darf Datenanfragen stellen?",
+  "goetheDataDonationAcceptAll": "Alle akzeptieren",
   "goetheDataDonationAudiencePrivateResearchInstitute": "Privates Forschungsinstitut",
   "goetheDataDonationAudienceResearchInstitute": "Forschungsinstitut",
   "goetheDataDonationAudienceUniversity": "Universität",

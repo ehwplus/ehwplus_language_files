@@ -74,6 +74,7 @@
   "goetheDataDonationReceiveToggle": "Receive data requests",
   "goetheDataDonationExplanation": "All data requests are made in the context of the COMET research project. The project ends at the end of August. Only a small single-digit number of data requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.",
   "goetheDataDonationAudienceQuestion": "Who may submit data requests?",
+  "goetheDataDonationAcceptAll": "Accept all",
   "goetheDataDonationAudiencePrivateResearchInstitute": "Private research institute",
   "goetheDataDonationAudienceResearchInstitute": "Research institute",
   "goetheDataDonationAudienceUniversity": "University",

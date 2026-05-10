@@ -242,6 +242,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get goetheDataDonationAudienceQuestion => 'Wer darf Datenanfragen stellen?';
 
   @override
+  String get goetheDataDonationAcceptAll => 'Alle akzeptieren';
+
+  @override
   String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privates Forschungsinstitut';
 
   @override

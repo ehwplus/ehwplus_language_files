@@ -599,6 +599,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Who may submit data requests?'**
   String get goetheDataDonationAudienceQuestion;
 
+  /// No description provided for @goetheDataDonationAcceptAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept all'**
+  String get goetheDataDonationAcceptAll;
+
   /// No description provided for @goetheDataDonationAudiencePrivateResearchInstitute.
   ///
   /// In en, this message translates to:
