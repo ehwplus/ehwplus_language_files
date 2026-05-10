@@ -47,6 +47,15 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get activitiesDescription => '계량기 지침을 활동과 연결하세요. 예: 냉수 계량기 및 전기 계량기로 세탁 활동을 기록.';
 
   @override
+  String get activitiesDefinitionsTab => 'Activities';
+
+  @override
+  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
+
+  @override
+  String get activitiesTimelineTab => 'Timeline';
+
+  @override
   String get activitiesTitle => '내 활동';
 
   @override
@@ -107,6 +116,53 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get advancePayment => '선납금';
 
   @override
+  String get advancePaymentDueDay => '마감일';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '$day일';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => '월말';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => '첫 납기일(선택 사항)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => '첫 번째 선불금은 계약이 시작되는 달에 지불해야 합니다.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return '첫 번째 선납금은 $date에 납부해야 합니다.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return '납부 기한은 2019년 10월 $day일입니다. $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return '납부 기한은 해당 월의 마지막 날인 $cadence입니다.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amount의 선납금은 해당 월의 마지막 날인 $cadence까지 납부해야 합니다.';
+  }
+
+  @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return '권장 월 선납금: $currentAmount 대신 $recommendedAmount';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amount의 선불금은 $cadence년 월 $day일에 납부해야 합니다.';
+  }
+
+  @override
   String get appBarExpandedMode => '배경 이미지가 있는 앱 바';
 
   @override
@@ -127,6 +183,11 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get basePrice => '기본 요금';
+
+  @override
+  String basePriceMonthlyResult(String amount) {
+    return '이에 따라 월 기본 요금은 $amount가 됩니다.';
+  }
 
   @override
   String get bonus => '보너스';
@@ -529,6 +590,10 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => '계속하기 전에';
 
   @override
+  String get consent5ErrorReporting =>
+      '앱을 안정적으로 개선하기 위해 기술 오류 보고는 Sentry(자체 호스팅)를 통해 EHW+로 전송됩니다. 오류 보고를 비활성화하면 오류 발생을 인지하지 못해 오류를 수정하지 못할 수 있습니다.';
+
+  @override
   String get consent5ErrorReportingTitle => '오류 보고서';
 
   @override
@@ -793,13 +858,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => '아니요, 취소합니다.';
 
   @override
-  String get contractCopyDialogOptionYes => '예, 단가 또는 다른 값이 변경되었습니다.';
+  String get contractCopyDialogOptionYes => '예';
 
   @override
   String get contractCopyDialogTitle => '이 계약을 복사하시겠습니까?';
 
   @override
-  String get contractCopyDialogWhen => '새 가격은 언제부터 적용됩니까?';
+  String get contractCopyDialogWhen => '새 계약은 언제 시작되나요?';
 
   @override
   String get contractCosts => '단가';
@@ -815,6 +880,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get contractNumber => '계약 번호';
+
+  @override
+  String get customerId => 'Customer ID';
 
   @override
   String get contractPeriod => '계약 기간';
@@ -857,6 +925,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => '비용 요약';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => '선불 결제';
+
+  @override
+  String get costOverviewContractCostsBar => '사용량 기반 비용 + 계약 기간 동안의 기본 요금';
 
   @override
   String get costSummaryYield => '보상 단가/기본 요금';
@@ -946,6 +1020,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => '전기 계량기';
+
+  @override
+  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => '전기 역송전 계량기(PV)';
@@ -1198,6 +1275,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get electricityConsumption => '전력 소비';
 
   @override
+  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
+
+  @override
+  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
+
+  @override
   String get electricityGenerated => '전기 생산';
 
   @override
@@ -1217,6 +1300,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get errorNoInternet => '네트워크 없음';
+
+  @override
+  String get errorReportingAgreement => '기술 오류 보고서를 EHW+ Services GmbH에 전송하는 데 동의합니다.';
 
   @override
   String get euDisputeResolution =>
@@ -1319,6 +1405,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get featureVoting => '기능 투표';
 
   @override
+  String get featureVotingIntro => '언제든지 마음을 바꿀 수 있습니다. 투표한 기능이 구현되면 투표가 취소됩니다.';
+
+  @override
+  String get featureVotingLoginRequired => 'EHW+ 계정으로 로그인하여 기능 제안을 확인하고 투표하세요.';
+
+  @override
   String get featureVotingOnlyOnGerman => '기능 설문은 다른 언어로 번역되어 있지 않습니다.';
 
   @override
@@ -1371,6 +1463,15 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get heatmapLegendTitle => '히트맵 정보';
+
+  @override
+  String get addressAdministrativeArea => '주/지역/도';
+
+  @override
+  String get addressLocality => '도시/지역';
+
+  @override
+  String get addressStreet => '거리/주소 라인';
 
   @override
   String get houseName => '주택 이름';
@@ -1677,6 +1778,11 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => '일별';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return '매 $number개월마다';
+  }
 
   @override
   String get periodHalfYearly => '반기별';
@@ -2114,6 +2220,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get rooms => '방';
 
   @override
+  String get withoutRoomAssignment => 'Without room assignment';
+
+  @override
   String get scanQrCode => '활성화 QR 코드를 스캔하세요';
 
   @override
@@ -2218,6 +2327,130 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get settingsExternalServices => '외부 서비스';
 
   @override
+  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
+
+  @override
+  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
+
+  @override
+  String get homeAssistantConfigureNow => 'Set up now';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Version $version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Connection failed: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Default activity';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Current';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Power';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
+
+  @override
+  String get homeAssistantLinkSensor => 'Link sensor';
+
+  @override
+  String get homeAssistantLoadSensors => 'Load sensors';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'No default activity';
+
+  @override
+  String get homeAssistantNoPushCounters =>
+      'There are no counters in this object that can be pushed to Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Plug';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Plug unavailable';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'An active subscription is required for Home Assistant synchronization.';
+
+  @override
+  String get homeAssistantTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantTokenTest => 'Test token';
+
+  @override
+  String get homeAssistantUnlink => 'Unlink';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Unknown instance';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Home Assistant URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
+
+  @override
   String get settingsShowStromGedacht => '전력망에 관한 StromGedacht 팁을 표시할까요?';
 
   @override
@@ -2248,6 +2481,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => '앱에서 표시할 수 있는 데이터가 없습니다.';
 
   @override
+  String get smartMeterReadingsSyncFailed => '스마트 미터 동기화 실패';
+
+  @override
   String get smartMeterMisconfiguredWidgetCardButton => '스마트 미터 설정';
 
   @override
@@ -2264,6 +2500,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
+
+  @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
 
   @override
   String get smartMeterServiceProvider => '서비스 제공자';
@@ -3059,7 +3298,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => '계량기, 계약 등을 옆으로 스와이프하여 삭제할 수 있습니다.';
 
   @override
-  String get usedForPaymentsRepayments => '선납금, 기본 요금 및 보너스';
+  String get usedForPaymentsRepayments => '기본 가격 및 보너스';
 
   @override
   String valueLess(String value) {
@@ -3217,6 +3456,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => '계량기 ID를 확인하고 있습니다.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => '귀하는 더 이상 데이터 조회 권한이 없습니다.';
 
   @override
@@ -3280,7 +3525,48 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
       '무선 계량기 데이터 접근을 더 이상 원하지 않으시나요? 참고: 무효화 코드를 스캔하면 활성화 코드는 더 이상 유효하지 않습니다. 활성화 코드를 사용했던 모든 사용자 계정은 접근 권한을 잃습니다.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => '무선 계량기 접근 종료';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+
+  @override
+  String get firstName => 'First name';
+
+  @override
+  String get houseNumber => 'House number';
+
+  @override
+  String get lastName => 'Last name';
+
+  @override
+  String get wtlAccessRequestFailure => 'Access request could not be created.';
+
+  @override
+  String get wtlAccessRequestMeterId => 'Meter ID';
+
+  @override
+  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+
+  @override
+  String get wtlAccessRequestMissingInput =>
+      'Please enter a meter ID with at least 8 characters and a service object number.';
+
+  @override
+  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+
+  @override
+  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+
+  @override
+  String get wtlAccessRequestSuccess => 'Access request created.';
+
+  @override
+  String get wtlAccessRequestTitle => 'WTL access request';
 
   @override
   String get yearlyConsumption => '현재까지 연간 소비량';
@@ -3299,6 +3585,11 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '외부 콘텐츠 표시를 허용합니다. 이로 인해 개인 데이터가 제3자 플랫폼으로 전송될 수 있습니다. 자세한 내용은 당사의 개인정보 보호정책을 참조하세요.';
 
   @override
+  String addressValidationRequired(String label) {
+    return '$label을 입력해 주세요';
+  }
+
+  @override
   String get zipCode => '우편번호';
 
   @override
@@ -3308,4 +3599,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '유효한 우편번호는 숫자로만 구성됩니다';
+
+  @override
+  String get zipCodeValidationGeneral => '유효한 우편 번호를 입력하세요.';
 }

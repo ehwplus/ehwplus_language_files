@@ -49,6 +49,15 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Kapcsolja össze a mérőórák leolvasását a tevékenységekkel, pl. mosás hidegvízmérőkkel és villanyórákkal.';
 
   @override
+  String get activitiesDefinitionsTab => 'Activities';
+
+  @override
+  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
+
+  @override
+  String get activitiesTimelineTab => 'Timeline';
+
+  @override
   String get activitiesTitle => 'Tevékenységeim';
 
   @override
@@ -109,6 +118,53 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get advancePayment => 'Előlegfizetés';
 
   @override
+  String get advancePaymentDueDay => 'Esedékes nap';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '$day. nap';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'Hónap vége';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Első esedékesség napja (nem kötelező)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => 'Az első előlegfizetés a szerződés kezdetének hónapjában esedékes.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Az első előleg fizetési határideje: $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'A fizetési határidő a hónap $day. napja, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'A fizetési határidő a hónap utolsó napja, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amount előlegét a hónap utolsó napján, $cadence kell befizetni.';
+  }
+
+  @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Ajánlott havi előlegfizetés: $recommendedAmount a $currentAmount helyett';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amount előlegének fizetési határideje a hónap $day. napja, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Alkalmazás sáv háttérképpel';
 
   @override
@@ -129,6 +185,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get basePrice => 'Alapár';
+
+  @override
+  String basePriceMonthlyResult(String amount) {
+    return 'Ez azt jelenti, hogy az alapár havi $amount.';
+  }
 
   @override
   String get bonus => 'Bónusz';
@@ -537,6 +598,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Mielőtt folytathatná';
 
   @override
+  String get consent5ErrorReporting =>
+      'Az alkalmazás megbízható javítása érdekében a technikai hibajelentéseket a Sentryn keresztül (saját tárhelyen) küldi az EHW+-nak. Ha kikapcsolja a hibajelentést, előfordulhat, hogy nem vesszük észre az előforduló hibákat, és ezért nem tudjuk kijavítani azokat.';
+
+  @override
   String get consent5ErrorReportingTitle => 'Hibajelentések';
 
   @override
@@ -806,13 +871,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Nem, törölje.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Igen, az egységár vagy más érték megváltozott.';
+  String get contractCopyDialogOptionYes => 'Igen';
 
   @override
   String get contractCopyDialogTitle => 'Szeretne másolatot készíteni erről a szerződésről?';
 
   @override
-  String get contractCopyDialogWhen => 'Mikortól érvényes az új ár?';
+  String get contractCopyDialogWhen => 'Mikor kezdődik az új szerződés?';
 
   @override
   String get contractCosts => 'Egységár';
@@ -828,6 +893,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get contractNumber => 'Szerződés száma';
+
+  @override
+  String get customerId => 'Customer ID';
 
   @override
   String get contractPeriod => 'Szerződés időtartama';
@@ -870,6 +938,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Költségek összefoglalása';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Megtörtént előlegfizetések';
+
+  @override
+  String get costOverviewContractCostsBar =>
+      'Fogyasztás alapú költségek + alapdíjak a szerződéses időszakra vonatkozóan';
 
   @override
   String get costSummaryYield => 'Javadalmazási ár/alapár';
@@ -959,6 +1034,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Villanyóra';
+
+  @override
+  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'Villamosenergia-bevezetési mérő (PV)';
@@ -1213,6 +1291,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get electricityConsumption => 'Energiafogyasztás';
 
   @override
+  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
+
+  @override
+  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
+
+  @override
   String get electricityGenerated => 'Termelt villamos energia';
 
   @override
@@ -1232,6 +1316,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get errorNoInternet => 'Nincs hálózat';
+
+  @override
+  String get errorReportingAgreement =>
+      'Hozzájárulok a technikai hibajelentések továbbításához az EHW+ Services GmbH részére.';
 
   @override
   String get euDisputeResolution =>
@@ -1339,6 +1427,14 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get featureVoting => 'Jellemző szavazás';
 
   @override
+  String get featureVotingIntro =>
+      'Bármikor meggondolhatja magát. A szavazat akkor szabadul fel, ha az Ön által megszavazott funkciót megvalósítják.';
+
+  @override
+  String get featureVotingLoginRequired =>
+      'Jelentkezzen be EHW+ fiókjával, hogy megtekinthesse és szavazhasson a funkciójavaslatokra.';
+
+  @override
   String get featureVotingOnlyOnGerman => 'A funkciófelmérés nincs lefordítva más nyelvekre.';
 
   @override
@@ -1393,6 +1489,15 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get heatmapLegendTitle => 'További információk a hőtérképről';
+
+  @override
+  String get addressAdministrativeArea => 'Állam / régió / tartomány';
+
+  @override
+  String get addressLocality => 'Város / település';
+
+  @override
+  String get addressStreet => 'Utca / címsor';
 
   @override
   String get houseName => 'Ház neve';
@@ -1701,6 +1806,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'napi';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return '$number-es hónapokban';
+  }
 
   @override
   String get periodHalfYearly => 'félévente';
@@ -2154,6 +2264,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get rooms => 'Szobák';
 
   @override
+  String get withoutRoomAssignment => 'Without room assignment';
+
+  @override
   String get scanQrCode => 'Aktiváló qr-kód beolvasása';
 
   @override
@@ -2260,6 +2373,130 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Külső szolgáltatások';
 
   @override
+  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
+
+  @override
+  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
+
+  @override
+  String get homeAssistantConfigureNow => 'Set up now';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Version $version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Connection failed: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Default activity';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Current';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Power';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
+
+  @override
+  String get homeAssistantLinkSensor => 'Link sensor';
+
+  @override
+  String get homeAssistantLoadSensors => 'Load sensors';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'No default activity';
+
+  @override
+  String get homeAssistantNoPushCounters =>
+      'There are no counters in this object that can be pushed to Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Plug';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Plug unavailable';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'An active subscription is required for Home Assistant synchronization.';
+
+  @override
+  String get homeAssistantTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantTokenTest => 'Test token';
+
+  @override
+  String get homeAssistantUnlink => 'Unlink';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Unknown instance';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Home Assistant URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
+
+  @override
   String get settingsShowStromGedacht =>
       'Meg kell-e jeleníteni a StromGedachtól származó, az elektromos hálózatra vonatkozó tippeket?';
 
@@ -2292,6 +2529,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Sajnos nincsenek olyan adatok, amelyeket az alkalmazás meg tudna jeleníteni.';
 
   @override
+  String get smartMeterReadingsSyncFailed => 'Az intelligens mérő szinkronizálása nem sikerült';
+
+  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Állítsa be az intelligens mérőórát';
 
   @override
@@ -2308,6 +2548,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
+
+  @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
 
   @override
   String get smartMeterServiceProvider => 'Szolgáltató';
@@ -3135,7 +3378,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => 'A számlálók, szerződések stb. törölhetők egy oldalsó mozdulattal.';
 
   @override
-  String get usedForPaymentsRepayments => 'Előleg, alapár és bónusz';
+  String get usedForPaymentsRepayments => 'Alapár és bónusz';
 
   @override
   String valueLess(String value) {
@@ -3311,6 +3554,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => 'Ellenőrizzük a mérőóra azonosítóját.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => 'Már nincs jogosultsága az adatok lekérdezésére.';
 
   @override
@@ -3380,7 +3629,48 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Nem szeretne többé hozzáférni a rádiómérő adataihoz? Kérjük, vegye figyelembe: a visszavonási kód beolvasása után az aktiváló kód érvénytelenné válik. Minden olyan felhasználói fiók, amely az aktiváló kódot használta, elveszíti a hozzáférést.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Rádiómérő hozzáférésének megszüntetése';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+
+  @override
+  String get firstName => 'First name';
+
+  @override
+  String get houseNumber => 'House number';
+
+  @override
+  String get lastName => 'Last name';
+
+  @override
+  String get wtlAccessRequestFailure => 'Access request could not be created.';
+
+  @override
+  String get wtlAccessRequestMeterId => 'Meter ID';
+
+  @override
+  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+
+  @override
+  String get wtlAccessRequestMissingInput =>
+      'Please enter a meter ID with at least 8 characters and a service object number.';
+
+  @override
+  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+
+  @override
+  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+
+  @override
+  String get wtlAccessRequestSuccess => 'Access request created.';
+
+  @override
+  String get wtlAccessRequestTitle => 'WTL access request';
 
   @override
   String get yearlyConsumption => 'Eddigi éves fogyasztás';
@@ -3400,6 +3690,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Hozzájárulok ahhoz, hogy külső tartalom jelenjen meg számomra. Ez azt eredményezheti, hogy személyes adatokat továbbítanak harmadik fél platformjaira. Erről bővebben a';
 
   @override
+  String addressValidationRequired(String label) {
+    return 'Kérjük, írja be: $label';
+  }
+
+  @override
   String get zipCode => 'irányítószám';
 
   @override
@@ -3409,4 +3704,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Az érvényes irányítószám csak számokból áll';
+
+  @override
+  String get zipCodeValidationGeneral => 'Kérjük, adjon meg egy érvényes irányítószámot';
 }

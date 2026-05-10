@@ -239,6 +239,24 @@ abstract class EhwplusAppLocalizations {
   /// **'Link meter readings to activities, e.g., washing with cold water meters and electricity meters.'**
   String get activitiesDescription;
 
+  /// No description provided for @activitiesDefinitionsTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Activities'**
+  String get activitiesDefinitionsTab;
+
+  /// No description provided for @activitiesTimelineEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No activities have been recorded yet.'**
+  String get activitiesTimelineEmpty;
+
+  /// No description provided for @activitiesTimelineTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Timeline'**
+  String get activitiesTimelineTab;
+
   /// No description provided for @activitiesTitle.
   ///
   /// In en, this message translates to:
@@ -359,6 +377,72 @@ abstract class EhwplusAppLocalizations {
   /// **'Advance payment'**
   String get advancePayment;
 
+  /// No description provided for @advancePaymentDueDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Due day'**
+  String get advancePaymentDueDay;
+
+  /// No description provided for @advancePaymentDueDayOptionDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Day {day}'**
+  String advancePaymentDueDayOptionDay(int day);
+
+  /// No description provided for @advancePaymentDueDayOptionEndOfMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'End of month'**
+  String get advancePaymentDueDayOptionEndOfMonth;
+
+  /// No description provided for @advancePaymentFirstDueDateOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'First due day (optional)'**
+  String get advancePaymentFirstDueDateOptional;
+
+  /// No description provided for @advancePaymentFirstDueInStartMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'The first advance payment is due in the month the contract starts.'**
+  String get advancePaymentFirstDueInStartMonth;
+
+  /// No description provided for @advancePaymentFirstDueOnDate.
+  ///
+  /// In en, this message translates to:
+  /// **'The first advance payment is due on {date}.'**
+  String advancePaymentFirstDueOnDate(String date);
+
+  /// No description provided for @advancePaymentRecurringDue.
+  ///
+  /// In en, this message translates to:
+  /// **'It is due on day {day} of the month, {cadence}.'**
+  String advancePaymentRecurringDue(int day, String cadence);
+
+  /// No description provided for @advancePaymentRecurringDueEndOfMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'It is due on the last day of the month, {cadence}.'**
+  String advancePaymentRecurringDueEndOfMonth(String cadence);
+
+  /// No description provided for @advancePaymentRecurringDueEndOfMonthWithAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'The advance payment amount of {amount} is due on the last day of the month, {cadence}.'**
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence);
+
+  /// No description provided for @advancePaymentRecommendationMonthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended monthly advance payment: {recommendedAmount} instead of {currentAmount}'**
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount);
+
+  /// No description provided for @advancePaymentRecurringDueWithAmount.
+  ///
+  /// In en, this message translates to:
+  /// **'The advance payment amount of {amount} is due on day {day} of the month, {cadence}.'**
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence);
+
   /// No description provided for @appBarExpandedMode.
   ///
   /// In en, this message translates to:
@@ -400,6 +484,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Base price'**
   String get basePrice;
+
+  /// No description provided for @basePriceMonthlyResult.
+  ///
+  /// In en, this message translates to:
+  /// **'This results in a base price of {amount} monthly.'**
+  String basePriceMonthlyResult(String amount);
 
   /// No description provided for @bonus.
   ///
@@ -1127,6 +1217,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Before you can continue'**
   String get consent4BeforeYouCanContinue;
 
+  /// No description provided for @consent5ErrorReporting.
+  ///
+  /// In en, this message translates to:
+  /// **'To improve the app reliably, technical error reports are sent to EHW+ via Sentry (self-hosted). If you disable error reporting, we may not notice occurring errors and therefore may not be able to fix them.'**
+  String get consent5ErrorReporting;
+
   /// No description provided for @consent5ErrorReportingTitle.
   ///
   /// In en, this message translates to:
@@ -1536,7 +1632,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @contractCopyDialogOptionYes.
   ///
   /// In en, this message translates to:
-  /// **'Yes, the unit price or another value has changed.'**
+  /// **'Yes'**
   String get contractCopyDialogOptionYes;
 
   /// No description provided for @contractCopyDialogTitle.
@@ -1548,7 +1644,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @contractCopyDialogWhen.
   ///
   /// In en, this message translates to:
-  /// **'From when does the new price apply?'**
+  /// **'When does the new contract start?'**
   String get contractCopyDialogWhen;
 
   /// No description provided for @contractCosts.
@@ -1580,6 +1676,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Contract number'**
   String get contractNumber;
+
+  /// No description provided for @customerId.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer ID'**
+  String get customerId;
 
   /// No description provided for @contractPeriod.
   ///
@@ -1664,6 +1766,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Cost summary'**
   String get costSummary;
+
+  /// No description provided for @costOverviewAdvancePaymentsBar.
+  ///
+  /// In en, this message translates to:
+  /// **'Advance payments made'**
+  String get costOverviewAdvancePaymentsBar;
+
+  /// No description provided for @costOverviewContractCostsBar.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumption-based costs + base fees for the contract period'**
+  String get costOverviewContractCostsBar;
 
   /// No description provided for @costSummaryYield.
   ///
@@ -1832,6 +1946,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Electricity meter'**
   String get counterElectricity;
+
+  /// No description provided for @counterAmmeter.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity measuring device'**
+  String get counterAmmeter;
 
   /// No description provided for @counterElectricityBack.
   ///
@@ -2289,6 +2409,18 @@ abstract class EhwplusAppLocalizations {
   /// **'Power consumption'**
   String get electricityConsumption;
 
+  /// No description provided for @ammeterConsumptionByRooms.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity consumption by rooms'**
+  String get ammeterConsumptionByRooms;
+
+  /// No description provided for @ammeterConsumptionByDevices.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity consumption by devices'**
+  String get ammeterConsumptionByDevices;
+
   /// No description provided for @electricityGenerated.
   ///
   /// In en, this message translates to:
@@ -2330,6 +2462,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'No network'**
   String get errorNoInternet;
+
+  /// No description provided for @errorReportingAgreement.
+  ///
+  /// In en, this message translates to:
+  /// **'I agree to the transmission of technical error reports to EHW+ Services GmbH.'**
+  String get errorReportingAgreement;
 
   /// No description provided for @euDisputeResolution.
   ///
@@ -2499,6 +2637,18 @@ abstract class EhwplusAppLocalizations {
   /// **'Feature voting'**
   String get featureVoting;
 
+  /// No description provided for @featureVotingIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'You can change your mind at any time. A vote is freed when a feature you voted for is implemented.'**
+  String get featureVotingIntro;
+
+  /// No description provided for @featureVotingLoginRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in with your EHW+ account to view and vote on feature suggestions.'**
+  String get featureVotingLoginRequired;
+
   /// No description provided for @featureVotingOnlyOnGerman.
   ///
   /// In en, this message translates to:
@@ -2508,7 +2658,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @featureVotingUnderConstruction.
   ///
   /// In en, this message translates to:
-  /// **'The feature survey is currently being revised. In the future, an EHW+ user account will be required, and the survey will no longer use third-party servers. We appreciate your patience.'**
+  /// **'Vote for the features you would like to see next. You can change your mind at any time. A vote is freed when a feature you voted for is implemented.'**
   String get featureVotingUnderConstruction;
 
   /// No description provided for @fedIn.
@@ -2600,6 +2750,24 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'More about the heatmap'**
   String get heatmapLegendTitle;
+
+  /// No description provided for @addressAdministrativeArea.
+  ///
+  /// In en, this message translates to:
+  /// **'State / region / province'**
+  String get addressAdministrativeArea;
+
+  /// No description provided for @addressLocality.
+  ///
+  /// In en, this message translates to:
+  /// **'City / locality'**
+  String get addressLocality;
+
+  /// No description provided for @addressStreet.
+  ///
+  /// In en, this message translates to:
+  /// **'Street / address line'**
+  String get addressStreet;
 
   /// No description provided for @houseName.
   ///
@@ -3098,6 +3266,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'daily'**
   String get periodDaily;
+
+  /// No description provided for @periodEveryXMonths.
+  ///
+  /// In en, this message translates to:
+  /// **'every {number} months'**
+  String periodEveryXMonths(String number);
 
   /// No description provided for @periodHalfYearly.
   ///
@@ -3849,6 +4023,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Rooms'**
   String get rooms;
 
+  /// No description provided for @withoutRoomAssignment.
+  ///
+  /// In en, this message translates to:
+  /// **'Without room assignment'**
+  String get withoutRoomAssignment;
+
   /// No description provided for @scanQrCode.
   ///
   /// In en, this message translates to:
@@ -4053,6 +4233,234 @@ abstract class EhwplusAppLocalizations {
   /// **'External services'**
   String get settingsExternalServices;
 
+  /// No description provided for @homeAssistantAccessTokenLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Long-lived access token'**
+  String get homeAssistantAccessTokenLabel;
+
+  /// No description provided for @homeAssistantAccessTokenRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a long-lived access token.'**
+  String get homeAssistantAccessTokenRequired;
+
+  /// No description provided for @homeAssistantConfigureNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up now'**
+  String get homeAssistantConfigureNow;
+
+  /// No description provided for @homeAssistantConfiguredSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'{instanceName} - Version {version}'**
+  String homeAssistantConfiguredSubtitle(String instanceName, String version);
+
+  /// No description provided for @homeAssistantConnectionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection failed: {error}'**
+  String homeAssistantConnectionFailed(String error);
+
+  /// No description provided for @homeAssistantConnectionSuccessful.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection to Home Assistant was successful.'**
+  String get homeAssistantConnectionSuccessful;
+
+  /// No description provided for @homeAssistantDefaultActivityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Default activity'**
+  String get homeAssistantDefaultActivityLabel;
+
+  /// No description provided for @homeAssistantHistoricalConsumptionsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.'**
+  String get homeAssistantHistoricalConsumptionsDescription;
+
+  /// No description provided for @homeAssistantHistoricalConsumptionsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Historical EHW+ consumptions'**
+  String get homeAssistantHistoricalConsumptionsTitle;
+
+  /// No description provided for @homeAssistantLiveMeasurementApparentPower.
+  ///
+  /// In en, this message translates to:
+  /// **'Apparent power'**
+  String get homeAssistantLiveMeasurementApparentPower;
+
+  /// No description provided for @homeAssistantLiveMeasurementCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Current'**
+  String get homeAssistantLiveMeasurementCurrent;
+
+  /// No description provided for @homeAssistantLiveMeasurementPower.
+  ///
+  /// In en, this message translates to:
+  /// **'Power'**
+  String get homeAssistantLiveMeasurementPower;
+
+  /// No description provided for @homeAssistantLiveMeasurementReactivePower.
+  ///
+  /// In en, this message translates to:
+  /// **'Reactive power'**
+  String get homeAssistantLiveMeasurementReactivePower;
+
+  /// No description provided for @homeAssistantLiveMeasurementVoltage.
+  ///
+  /// In en, this message translates to:
+  /// **'Voltage'**
+  String get homeAssistantLiveMeasurementVoltage;
+
+  /// No description provided for @homeAssistantLiveMeasurementsConnecting.
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting to Home Assistant...'**
+  String get homeAssistantLiveMeasurementsConnecting;
+
+  /// No description provided for @homeAssistantLiveMeasurementsError.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant live data could not be loaded.'**
+  String get homeAssistantLiveMeasurementsError;
+
+  /// No description provided for @homeAssistantLiveMeasurementsNoData.
+  ///
+  /// In en, this message translates to:
+  /// **'No live values were detected for this sensor.'**
+  String get homeAssistantLiveMeasurementsNoData;
+
+  /// No description provided for @homeAssistantLinkSensor.
+  ///
+  /// In en, this message translates to:
+  /// **'Link sensor'**
+  String get homeAssistantLinkSensor;
+
+  /// No description provided for @homeAssistantLoadSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'Load sensors'**
+  String get homeAssistantLoadSensors;
+
+  /// No description provided for @homeAssistantLocalUrlWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.'**
+  String get homeAssistantLocalUrlWarning;
+
+  /// No description provided for @homeAssistantNoDefaultActivity.
+  ///
+  /// In en, this message translates to:
+  /// **'No default activity'**
+  String get homeAssistantNoDefaultActivity;
+
+  /// No description provided for @homeAssistantNoPushCounters.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no counters in this object that can be pushed to Home Assistant.'**
+  String get homeAssistantNoPushCounters;
+
+  /// No description provided for @homeAssistantNoSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'No suitable consumption sensors were found.'**
+  String get homeAssistantNoSensors;
+
+  /// No description provided for @homeAssistantNotConfiguredSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Synchronize meter readings and consumptions with Home Assistant.'**
+  String get homeAssistantNotConfiguredSubtitle;
+
+  /// No description provided for @homeAssistantPlugTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Plug'**
+  String get homeAssistantPlugTitle;
+
+  /// No description provided for @homeAssistantPlugUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Plug unavailable'**
+  String get homeAssistantPlugUnavailable;
+
+  /// No description provided for @homeAssistantPushCountersDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.'**
+  String get homeAssistantPushCountersDescription;
+
+  /// No description provided for @homeAssistantPushCountersTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Push EHW+ counters'**
+  String get homeAssistantPushCountersTitle;
+
+  /// No description provided for @homeAssistantSettingsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.'**
+  String get homeAssistantSettingsDescription;
+
+  /// No description provided for @homeAssistantSettingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant'**
+  String get homeAssistantSettingsTitle;
+
+  /// No description provided for @homeAssistantSubscriptionRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'An active subscription is required for Home Assistant synchronization.'**
+  String get homeAssistantSubscriptionRequired;
+
+  /// No description provided for @homeAssistantTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant'**
+  String get homeAssistantTitle;
+
+  /// No description provided for @homeAssistantTokenTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Test token'**
+  String get homeAssistantTokenTest;
+
+  /// No description provided for @homeAssistantUnlink.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlink'**
+  String get homeAssistantUnlink;
+
+  /// No description provided for @homeAssistantUnknownInstance.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown instance'**
+  String get homeAssistantUnknownInstance;
+
+  /// No description provided for @homeAssistantUrlInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid Home Assistant URL.'**
+  String get homeAssistantUrlInvalid;
+
+  /// No description provided for @homeAssistantUrlLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Assistant URL'**
+  String get homeAssistantUrlLabel;
+
+  /// No description provided for @homeAssistantUrlRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter the Home Assistant URL.'**
+  String get homeAssistantUrlRequired;
+
   /// No description provided for @settingsShowStromGedacht.
   ///
   /// In en, this message translates to:
@@ -4113,6 +4521,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Unfortunately, there is no data that the app could display.'**
   String get smartMeterErrorNoData;
 
+  /// No description provided for @smartMeterReadingsSyncFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Smart meter synchronization failed'**
+  String get smartMeterReadingsSyncFailed;
+
   /// No description provided for @smartMeterMisconfiguredWidgetCardButton.
   ///
   /// In en, this message translates to:
@@ -4148,6 +4562,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Wasserwerk Gerauer Land'**
   String get smartMeterProviderWwgl;
+
+  /// No description provided for @smartMeterProviderWtl.
+  ///
+  /// In en, this message translates to:
+  /// **'Wasserverband Tecklenburger Land'**
+  String get smartMeterProviderWtl;
 
   /// No description provided for @smartMeterServiceProvider.
   ///
@@ -5538,7 +5958,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @usedForPaymentsRepayments.
   ///
   /// In en, this message translates to:
-  /// **'Advance payment, base price, and bonus'**
+  /// **'Base price and bonus'**
   String get usedForPaymentsRepayments;
 
   /// No description provided for @valueLess.
@@ -5799,6 +6219,18 @@ abstract class EhwplusAppLocalizations {
   /// **'We are checking your meter id.'**
   String get watersupplierMeterIdValidationStep;
 
+  /// No description provided for @watersupplierAccessRequestDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Your access request was declined. You can delete this meter.'**
+  String get watersupplierAccessRequestDenied;
+
+  /// No description provided for @watersupplierAccessRequestPending.
+  ///
+  /// In en, this message translates to:
+  /// **'Your access request is still being processed. Please be patient.'**
+  String get watersupplierAccessRequestPending;
+
   /// No description provided for @watersupplierNoAccess.
   ///
   /// In en, this message translates to:
@@ -5919,11 +6351,89 @@ abstract class EhwplusAppLocalizations {
   /// **'Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.'**
   String get watersupplierUnlinkRadioMeterDescription2;
 
+  /// No description provided for @watersupplierUnlinkRadioMeterFailure.
+  ///
+  /// In en, this message translates to:
+  /// **'The radio meter could not be deleted. Please try again later.'**
+  String get watersupplierUnlinkRadioMeterFailure;
+
   /// No description provided for @watersupplierUnlinkRadioMeterTitle.
   ///
   /// In en, this message translates to:
   /// **'Terminate Radio Meter Access'**
   String get watersupplierUnlinkRadioMeterTitle;
+
+  /// No description provided for @watersupplierUnlinkRadioMeterWtlDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.'**
+  String get watersupplierUnlinkRadioMeterWtlDescription;
+
+  /// No description provided for @firstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First name'**
+  String get firstName;
+
+  /// No description provided for @houseNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'House number'**
+  String get houseNumber;
+
+  /// No description provided for @lastName.
+  ///
+  /// In en, this message translates to:
+  /// **'Last name'**
+  String get lastName;
+
+  /// No description provided for @wtlAccessRequestFailure.
+  ///
+  /// In en, this message translates to:
+  /// **'Access request could not be created.'**
+  String get wtlAccessRequestFailure;
+
+  /// No description provided for @wtlAccessRequestMeterId.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter ID'**
+  String get wtlAccessRequestMeterId;
+
+  /// No description provided for @wtlAccessRequestMissingAccountData.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account is missing an email address.'**
+  String get wtlAccessRequestMissingAccountData;
+
+  /// No description provided for @wtlAccessRequestMissingInput.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a meter ID with at least 8 characters and a service object number.'**
+  String get wtlAccessRequestMissingInput;
+
+  /// No description provided for @wtlAccessRequestOnlineOnlyDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Online access request for Wasserverband Tecklenburger Land.'**
+  String get wtlAccessRequestOnlineOnlyDescription;
+
+  /// No description provided for @wtlAccessRequestServiceObjectNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Service object number'**
+  String get wtlAccessRequestServiceObjectNumber;
+
+  /// No description provided for @wtlAccessRequestSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Access request created.'**
+  String get wtlAccessRequestSuccess;
+
+  /// No description provided for @wtlAccessRequestTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'WTL access request'**
+  String get wtlAccessRequestTitle;
 
   /// No description provided for @yearlyConsumption.
   ///
@@ -5955,6 +6465,12 @@ abstract class EhwplusAppLocalizations {
   /// **'I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our '**
   String get youtubeConsent3;
 
+  /// Error message if a detailed address field is required
+  ///
+  /// In en, this message translates to:
+  /// **'{label} is required'**
+  String addressValidationRequired(String label);
+
   /// No description provided for @zipCode.
   ///
   /// In en, this message translates to:
@@ -5972,6 +6488,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'A valid zip code consists only of numbers'**
   String get zipCodeValidationOnlyNumbers;
+
+  /// No description provided for @zipCodeValidationGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid postal code'**
+  String get zipCodeValidationGeneral;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

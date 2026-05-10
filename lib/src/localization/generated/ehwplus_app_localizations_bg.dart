@@ -49,6 +49,15 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Свържете показанията на броячите с дейности, напр. пране с водомери за студена вода и електромери.';
 
   @override
+  String get activitiesDefinitionsTab => 'Activities';
+
+  @override
+  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
+
+  @override
+  String get activitiesTimelineTab => 'Timeline';
+
+  @override
   String get activitiesTitle => 'Моите дейности';
 
   @override
@@ -109,6 +118,54 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get advancePayment => 'Авансово плащане';
 
   @override
+  String get advancePaymentDueDay => 'Ден на падежа';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return 'Ден $day';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => 'В края на месеца';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => 'Първи ден на плащане (по избор)';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth =>
+      'Първото авансово плащане се дължи в месеца, в който започва действието на договора.';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return 'Първата авансова вноска трябва да бъде платена на $date.';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return 'Срокът за плащане е на $day-то число от месеца, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return 'Срокът за плащане е последният ден на месеца, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return 'Сумата за авансовото плащане по сметка № $amount е дължима на последния ден от месеца, $cadence.';
+  }
+
+  @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Препоръчителна месечна авансова вноска: $recommendedAmount вместо $currentAmount';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return 'Сумата на авансовото плащане за $amount е дължима на $day-то число от месеца, $cadence.';
+  }
+
+  @override
   String get appBarExpandedMode => 'Лента на приложението с фоново изображение';
 
   @override
@@ -129,6 +186,11 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get basePrice => 'Базова цена';
+
+  @override
+  String basePriceMonthlyResult(String amount) {
+    return 'В резултат на това базовата цена възлиза на $amount на месец.';
+  }
 
   @override
   String get bonus => 'Бонус';
@@ -539,6 +601,10 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => 'Преди да продължите';
 
   @override
+  String get consent5ErrorReporting =>
+      'За да се подобри надеждно приложението, докладите за технически грешки се изпращат до EHW+ чрез Sentry (самостоятелно хоствано). Ако деактивирате докладването на грешки, може да не забележим възникналите грешки и следователно да не можем да ги отстраним.';
+
+  @override
   String get consent5ErrorReportingTitle => 'Доклади за грешки';
 
   @override
@@ -808,13 +874,13 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => 'Не, отказ.';
 
   @override
-  String get contractCopyDialogOptionYes => 'Да, единичната цена или друга стойност се е променила.';
+  String get contractCopyDialogOptionYes => 'Да';
 
   @override
   String get contractCopyDialogTitle => 'Искате ли да направите копие на този договор?';
 
   @override
-  String get contractCopyDialogWhen => 'От кога важи новата цена?';
+  String get contractCopyDialogWhen => 'Кога започва действието на новия договор?';
 
   @override
   String get contractCosts => 'Единична цена';
@@ -830,6 +896,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get contractNumber => 'Номер на договор';
+
+  @override
+  String get customerId => 'Customer ID';
 
   @override
   String get contractPeriod => 'Период на договора';
@@ -872,6 +941,12 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => 'Обобщение на разходите';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => 'Извършени авансови плащания';
+
+  @override
+  String get costOverviewContractCostsBar => 'Разходи, основани на потреблението + базови такси за периода на договора';
 
   @override
   String get costSummaryYield => 'Цена на възнаграждение/-базова цена';
@@ -961,6 +1036,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Електромер';
+
+  @override
+  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'Брояч за подаване на ток (ФЕ)';
@@ -1215,6 +1293,12 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get electricityConsumption => 'Консумация на енергия';
 
   @override
+  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
+
+  @override
+  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
+
+  @override
   String get electricityGenerated => 'Произведен ток';
 
   @override
@@ -1234,6 +1318,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get errorNoInternet => 'Няма мрежа';
+
+  @override
+  String get errorReportingAgreement => 'Съгласен съм да предавам доклади за технически грешки на EHW+ Services GmbH.';
 
   @override
   String get euDisputeResolution =>
@@ -1339,6 +1426,14 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get featureVoting => 'Гласуване за функции';
 
   @override
+  String get featureVotingIntro =>
+      'Можете да промените решението си по всяко време. Гласуването се освобождава, когато функцията, за която сте гласували, бъде въведена.';
+
+  @override
+  String get featureVotingLoginRequired =>
+      'Влезте в профила си в EHW+, за да видите и гласувате за предложения за функции.';
+
+  @override
   String get featureVotingOnlyOnGerman => 'Анкетата за функции не е преведена на други езици.';
 
   @override
@@ -1393,6 +1488,15 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get heatmapLegendTitle => 'Повече за топлинната карта';
+
+  @override
+  String get addressAdministrativeArea => 'Държава/регион/провинция';
+
+  @override
+  String get addressLocality => 'Град / населено място';
+
+  @override
+  String get addressStreet => 'Улица / адресна линия';
 
   @override
   String get houseName => 'Име на къщата';
@@ -1701,6 +1805,11 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => 'дневно';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return 'на всеки $number месеца';
+  }
 
   @override
   String get periodHalfYearly => 'полугодишно';
@@ -2155,6 +2264,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get rooms => 'Стаи';
 
   @override
+  String get withoutRoomAssignment => 'Without room assignment';
+
+  @override
   String get scanQrCode => 'Сканиране на QR код за активиране';
 
   @override
@@ -2261,6 +2373,130 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Външни услуги';
 
   @override
+  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
+
+  @override
+  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
+
+  @override
+  String get homeAssistantConfigureNow => 'Set up now';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Version $version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Connection failed: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Default activity';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Current';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Power';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
+
+  @override
+  String get homeAssistantLinkSensor => 'Link sensor';
+
+  @override
+  String get homeAssistantLoadSensors => 'Load sensors';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'No default activity';
+
+  @override
+  String get homeAssistantNoPushCounters =>
+      'There are no counters in this object that can be pushed to Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Plug';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Plug unavailable';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'An active subscription is required for Home Assistant synchronization.';
+
+  @override
+  String get homeAssistantTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantTokenTest => 'Test token';
+
+  @override
+  String get homeAssistantUnlink => 'Unlink';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Unknown instance';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Home Assistant URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
+
+  @override
   String get settingsShowStromGedacht => 'Трябва ли да се показват съвети от StromGedacht за енергийната мрежа?';
 
   @override
@@ -2292,6 +2528,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'За съжаление, няма данни, които приложението да покаже.';
 
   @override
+  String get smartMeterReadingsSyncFailed => 'Синхронизацията на интелигентния измервателен уред е неуспешна';
+
+  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Настройка на интелигентен брояч';
 
   @override
@@ -2308,6 +2547,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
+
+  @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
 
   @override
   String get smartMeterServiceProvider => 'Доставчик на услуги';
@@ -3139,7 +3381,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Броячи, договори и т.н. могат да се изтриват с движение на странично плъзгане';
 
   @override
-  String get usedForPaymentsRepayments => 'Авансово плащане, базова цена и бонус';
+  String get usedForPaymentsRepayments => 'Базова цена и бонус';
 
   @override
   String valueLess(String value) {
@@ -3314,6 +3556,12 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => 'Проверяваме ID на вашия брояч.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => 'Вече нямате авторизация за извличане на данни.';
 
   @override
@@ -3383,7 +3631,48 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Вече не искате достъп до данните на вашия радио водомер? Моля, имайте предвид: след като кодът за отмяна бъде сканиран, кодът за активиране става невалиден. Всеки потребителски акаунт, който е използвал кода за активиране, ще загуби достъп.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Прекратяване на достъпа до радио водомер';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+
+  @override
+  String get firstName => 'First name';
+
+  @override
+  String get houseNumber => 'House number';
+
+  @override
+  String get lastName => 'Last name';
+
+  @override
+  String get wtlAccessRequestFailure => 'Access request could not be created.';
+
+  @override
+  String get wtlAccessRequestMeterId => 'Meter ID';
+
+  @override
+  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+
+  @override
+  String get wtlAccessRequestMissingInput =>
+      'Please enter a meter ID with at least 8 characters and a service object number.';
+
+  @override
+  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+
+  @override
+  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+
+  @override
+  String get wtlAccessRequestSuccess => 'Access request created.';
+
+  @override
+  String get wtlAccessRequestTitle => 'WTL access request';
 
   @override
   String get yearlyConsumption => 'Годишна консумация досега';
@@ -3403,6 +3692,11 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Съгласен съм външно съдържание да ми се показва. Това може да доведе до предаване на лични данни към платформи на трети страни. Повече за това в нашата ';
 
   @override
+  String addressValidationRequired(String label) {
+    return 'Моля, въведете $label';
+  }
+
+  @override
   String get zipCode => 'пощенски код';
 
   @override
@@ -3412,4 +3706,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Валиден пощенски код се състои само от цифри';
+
+  @override
+  String get zipCodeValidationGeneral => 'Моля, въведете валиден пощенски код';
 }

@@ -11,6 +11,9 @@
   "accountThankYouForPurchase": "Thank you! Would you like to secure the purchase in your EHW+ user account now?",
   "accountUpdateInfo": "New: The EHW+ user account",
   "activitiesDescription": "Link meter readings to activities, e.g., washing with cold water meters and electricity meters.",
+  "activitiesDefinitionsTab": "Activities",
+  "activitiesTimelineEmpty": "No activities have been recorded yet.",
+  "activitiesTimelineTab": "Timeline",
   "activitiesTitle": "My activities",
   "activityBath": "Bath",
   "activityDishWasher": "Dish washer",
@@ -31,6 +34,81 @@
   "addDetail": "Add detail",
   "addNewValue": "Enter new value",
   "advancePayment": "Advance payment",
+  "advancePaymentDueDay": "Due day",
+  "advancePaymentDueDayOptionDay": "Day {day}",
+  "@advancePaymentDueDayOptionDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "advancePaymentDueDayOptionEndOfMonth": "End of month",
+  "advancePaymentFirstDueDateOptional": "First due day (optional)",
+  "advancePaymentFirstDueInStartMonth": "The first advance payment is due in the month the contract starts.",
+  "advancePaymentFirstDueOnDate": "The first advance payment is due on {date}.",
+  "@advancePaymentFirstDueOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDue": "It is due on day {day} of the month, {cadence}.",
+  "@advancePaymentRecurringDue": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonth": "It is due on the last day of the month, {cadence}.",
+  "@advancePaymentRecurringDueEndOfMonth": {
+    "placeholders": {
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonthWithAmount": "The advance payment amount of {amount} is due on the last day of the month, {cadence}.",
+  "@advancePaymentRecurringDueEndOfMonthWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecommendationMonthly": "Recommended monthly advance payment: {recommendedAmount} instead of {currentAmount}",
+  "@advancePaymentRecommendationMonthly": {
+    "placeholders": {
+      "recommendedAmount": {
+        "type": "String"
+      },
+      "currentAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueWithAmount": "The advance payment amount of {amount} is due on day {day} of the month, {cadence}.",
+  "@advancePaymentRecurringDueWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
   "appBarExpandedMode": "App bar with background image",
   "appDescriptionLong": "<p>Welcome to <b>EHW+</b>, your meter reading app  for <b>E</b>lectricity, <b>H</b>eating and <b>W</b>ater. With us, you can easily track<b> </b>how much you use and what it<b> </b>costs</b> for free.</p>",
   "appDescriptionShort": "Good for the wallet, good for the climate",
@@ -41,6 +119,14 @@
   "appNameShort": "EHW+",
   "areYouSure": "Are you sure?",
   "basePrice": "Base price",
+  "basePriceMonthlyResult": "This results in a base price of {amount} monthly.",
+  "@basePriceMonthlyResult": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "bonus": "Bonus",
   "bonusInfoText": "Tariffs with bonus often allow for particularly high savings when changing providers. However, this usually results exclusively from the one-time bonus. That means: The total costs are so low only in the first year of supply. High work and/or basic prices provide in the second year for a clearly higher calculation. Therefore, with bonus tariffs you should plan from the outset to change again after one year. Bonus tariffs with a term of two years, where this cancellation is not possible at all, should be questioned particularly critically.",
   "bonusInfoTitle": "Information about bonus tariffs",
@@ -216,6 +302,7 @@
   "consent2ThankYou": "Thank you for using EHW+!",
   "consent3Video": "Would you like to watch a short introduction video?",
   "consent4BeforeYouCanContinue": "Before you can continue",
+  "consent5ErrorReporting": "To improve the app reliably, technical error reports are sent to EHW+ via Sentry (self-hosted). If you disable error reporting, we may not notice occurring errors and therefore may not be able to fix them.",
   "consent5ErrorReportingTitle": "Error reports",
   "consent6ContractPricesPerUnitTitle": "Electricity / water / gas prices",
   "consent7ContractPricesPerUnit": "In order to be able to estimate how much you are currently paying compared to other EHW+ users, the prices are transferred to the EHW+ server in Germany together with the country and state. Only if you agree to the transfer, you have access to the price statistics. To ensure anonymity, statistics can only be shown after a minimum number of transmitted prices.",
@@ -295,14 +382,15 @@
   "continueAcceptPart2": ". For more information on the collection and use of anonymised and personal data, please refer to the ",
   "contract": "Contract",
   "contractCopyDialogOptionNo": "No, cancel.",
-  "contractCopyDialogOptionYes": "Yes, the unit price or another value has changed.",
+  "contractCopyDialogOptionYes": "Yes",
   "contractCopyDialogTitle": "Do you want to make a copy of this contract?",
-  "contractCopyDialogWhen": "From when does the new price apply?",
+  "contractCopyDialogWhen": "When does the new contract start?",
   "contractCosts": "Unit price",
   "contractCostsFeedIn": "Remuneration price/base price",
   "contractDetails": "Contract duration and details",
   "contractName": "Provider/contract name",
   "contractNumber": "Contract number",
+  "customerId": "Customer ID",
   "contractPeriod": "Contract period",
   "contractReminder": "Contract reminder",
   "contractStart": "Contract start date",
@@ -317,6 +405,8 @@
   "contracts": "Contracts",
   "corresponds": "corresponds",
   "costSummary": "Cost summary",
+  "costOverviewAdvancePaymentsBar": "Advance payments made",
+  "costOverviewContractCostsBar": "Consumption-based costs + base fees for the contract period",
   "costSummaryYield": "Remuneration price/-base price",
   "costs": "Costs",
   "costsUndefinedColdWater": "Cold water fees",
@@ -355,6 +445,7 @@
   "counterDistrictHeating": "District Heating",
   "counterEdit": "Edit counter",
   "counterElectricity": "Electricity meter",
+  "counterAmmeter": "Electricity measuring device",
   "counterElectricityBack": "Electricity feed-in meter (PV)",
   "counterElectricityGenerated": "Electricity generation meter",
   "counterExclude": "Exclude",
@@ -496,6 +587,8 @@
   "electricity": "Electricity",
   "electricityBack": "Electricity fed in",
   "electricityConsumption": "Power consumption",
+  "ammeterConsumptionByRooms": "Electricity consumption by rooms",
+  "ammeterConsumptionByDevices": "Electricity consumption by devices",
   "electricityGenerated": "Generated electricity",
   "enableCounterViewsMerging": "Combine electricity meters with the same meter number",
   "enterComment": "Enter a note",
@@ -503,6 +596,7 @@
   "enterObjectName": "Name the new object",
   "errorInvalidRange": "No valid range",
   "errorNoInternet": "No network",
+  "errorReportingAgreement": "I agree to the transmission of technical error reports to EHW+ Services GmbH.",
   "euDisputeResolution": "\n\nEU Dispute Resolution\n\nThe European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr/.\nYou can find our e-mail address in the imprint above.\n\nConsumer dispute resolution/universal dispute resolution body\n\nWe are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
   "existingPhoto": "Attach existing photo",
   "existingPhotoOfMeterReading": "Would you like to attach an existing photo of the meter reading?",
@@ -554,8 +648,10 @@
   "faqAboutDeveloperTitle": "Who is behind EHW+?",
   "faqTitle": "FAQ",
   "featureVoting": "Feature voting",
+  "featureVotingIntro": "You can change your mind at any time. A vote is freed when a feature you voted for is implemented.",
+  "featureVotingLoginRequired": "Log in with your EHW+ account to view and vote on feature suggestions.",
   "featureVotingOnlyOnGerman": "The feature survey is not translated into other languages.",
-  "featureVotingUnderConstruction": "The feature survey is currently being revised. In the future, an EHW+ user account will be required, and the survey will no longer use third-party servers. We appreciate your patience.",
+  "featureVotingUnderConstruction": "Vote for the features you would like to see next. You can change your mind at any time. A vote is freed when a feature you voted for is implemented.",
   "fedIn": "Fed in",
   "firstReadingConsumption": "Enter the first consumption now.",
   "firstReadingCounter": "Enter the first counter reading.",
@@ -578,6 +674,9 @@
   "heater": "Radiator",
   "heatmapLegendDisclaimer": "Info: Shaded boxes contain an estimated value. To read the actual consumption/output, please fill in the missing meter readings if possible.",
   "heatmapLegendTitle": "More about the heatmap",
+  "addressAdministrativeArea": "State / region / province",
+  "addressLocality": "City / locality",
+  "addressStreet": "Street / address line",
   "houseName": "House name",
   "houseNameDescription": "House name, e.g. street name",
   "import": "Import",
@@ -741,6 +840,14 @@
   "periodBiweekly": "bi-weekly",
   "periodCustom": "User defined",
   "periodDaily": "daily",
+  "periodEveryXMonths": "every {number} months",
+  "@periodEveryXMonths": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
   "periodHalfYearly": "half-yearly",
   "periodHourly": "hourly",
   "periodMonthly": "monthly",
@@ -991,6 +1098,7 @@
   "roomType": "Room type",
   "roomWc": "WC",
   "rooms": "Rooms",
+  "withoutRoomAssignment": "Without room assignment",
   "scanQrCode": "Scan activation qr code",
   "seasonalCounter": "Seasonal counter",
   "seasonalElectricityCounter": "Seasonal electricity counter",
@@ -1025,6 +1133,61 @@
   "settingYearlyResetOn": "on",
   "settings": "Settings",
   "settingsExternalServices": "External services",
+  "homeAssistantAccessTokenLabel": "Long-lived access token",
+  "homeAssistantAccessTokenRequired": "Please enter a long-lived access token.",
+  "homeAssistantConfigureNow": "Set up now",
+  "homeAssistantConfiguredSubtitle": "{instanceName} - Version {version}",
+  "@homeAssistantConfiguredSubtitle": {
+    "placeholders": {
+      "instanceName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionFailed": "Connection failed: {error}",
+  "@homeAssistantConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionSuccessful": "Connection to Home Assistant was successful.",
+  "homeAssistantDefaultActivityLabel": "Default activity",
+  "homeAssistantHistoricalConsumptionsDescription": "Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.",
+  "homeAssistantHistoricalConsumptionsTitle": "Historical EHW+ consumptions",
+  "homeAssistantLiveMeasurementApparentPower": "Apparent power",
+  "homeAssistantLiveMeasurementCurrent": "Current",
+  "homeAssistantLiveMeasurementPower": "Power",
+  "homeAssistantLiveMeasurementReactivePower": "Reactive power",
+  "homeAssistantLiveMeasurementVoltage": "Voltage",
+  "homeAssistantLiveMeasurementsConnecting": "Connecting to Home Assistant...",
+  "homeAssistantLiveMeasurementsError": "Home Assistant live data could not be loaded.",
+  "homeAssistantLiveMeasurementsNoData": "No live values were detected for this sensor.",
+  "homeAssistantLinkSensor": "Link sensor",
+  "homeAssistantLoadSensors": "Load sensors",
+  "homeAssistantLocalUrlWarning": "This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.",
+  "homeAssistantNoDefaultActivity": "No default activity",
+  "homeAssistantNoPushCounters": "There are no counters in this object that can be pushed to Home Assistant.",
+  "homeAssistantNoSensors": "No suitable consumption sensors were found.",
+  "homeAssistantNotConfiguredSubtitle": "Synchronize meter readings and consumptions with Home Assistant.",
+  "homeAssistantPlugTitle": "Plug",
+  "homeAssistantPlugUnavailable": "Plug unavailable",
+  "homeAssistantPushCountersDescription": "Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.",
+  "homeAssistantPushCountersTitle": "Push EHW+ counters",
+  "homeAssistantSettingsDescription": "Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.",
+  "homeAssistantSettingsTitle": "Home Assistant",
+  "homeAssistantSubscriptionRequired": "An active subscription is required for Home Assistant synchronization.",
+  "homeAssistantTitle": "Home Assistant",
+  "homeAssistantTokenTest": "Test token",
+  "homeAssistantUnlink": "Unlink",
+  "homeAssistantUnknownInstance": "Unknown instance",
+  "homeAssistantUrlInvalid": "Please enter a valid Home Assistant URL.",
+  "homeAssistantUrlLabel": "Home Assistant URL",
+  "homeAssistantUrlRequired": "Please enter the Home Assistant URL.",
   "settingsShowStromGedacht": "Should tips from StromGedacht about the power grid be displayed?",
   "settingsShowTabNewsDetailed": "Should the News/Tips tab be visible?",
   "showAllYears": "Show all years",
@@ -1035,12 +1198,14 @@
   "sinceInitialReading": "Since initial reading",
   "smartMeterCountersTitle": "Radio water meters",
   "smartMeterErrorNoData": "Unfortunately, there is no data that the app could display.",
+  "smartMeterReadingsSyncFailed": "Smart meter synchronization failed",
   "smartMeterMisconfiguredWidgetCardButton": "Set up smart meter",
   "smartMeterMisconfiguredWidgetCardTitle": "Please set up your smart meter correctly.",
   "smartMeterObtainDataAutomatically": "Obtain data automatically",
   "smartMeterProviderTibber": "Tibber",
   "smartMeterProviderUndefined": "Not set",
   "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterProviderWtl": "Wasserverband Tecklenburger Land",
   "smartMeterServiceProvider": "Service Provider",
   "smartMeterSettingsScreenSyncButton": "Synchronize consumption data",
   "smartMeterSettingsScreenSyncingDialogError": "Error",
@@ -1439,7 +1604,7 @@
   "upgradeDescription": "The app can do more. Better cost overview, more statistics, Excel export, more counters, ...",
   "useDismissibleSettings": "Delete by swipe gesture",
   "useDismissibleSettingsDetailed": "Counters, contracts, etc. can be deleted by a side-swipe movement",
-  "usedForPaymentsRepayments": "Advance payment, base price, and bonus",
+  "usedForPaymentsRepayments": "Base price and bonus",
   "valueLess": "{value} less",
   "@valueLess": {
     "placeholders": {
@@ -1563,6 +1728,8 @@
   "watersupplierCompleteMeterIdServerErrorTryAgain": "Sorry, unfortunately that didn't work. It was due to our server. Better try again at a later date!",
   "watersupplierCompleteMeterIdTryAgain": "You shall not pass! Please enter the last three digits of you meter id again!",
   "watersupplierMeterIdValidationStep": "We are checking your meter id.",
+  "watersupplierAccessRequestDenied": "Your access request was declined. You can delete this meter.",
+  "watersupplierAccessRequestPending": "Your access request is still being processed. Please be patient.",
   "watersupplierNoAccess": "You no longer have authorization to retrieve data.",
   "watersupplierNoAccessDetailedMessage": "If you believe that you should still have access, please scan your activation code again. If the access code is no longer valid, please submit a new access request.",
   "watersupplierOpenReminderSettings": "Open settings",
@@ -1583,12 +1750,35 @@
   "watersupplierUnlinkRadioMeterButtonRevoke": "Scan revocation code",
   "watersupplierUnlinkRadioMeterDescription1": "Do you want to delete the radio meter without invalidating the activation code?",
   "watersupplierUnlinkRadioMeterDescription2": "Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.",
+  "watersupplierUnlinkRadioMeterFailure": "The radio meter could not be deleted. Please try again later.",
   "watersupplierUnlinkRadioMeterTitle": "Terminate Radio Meter Access",
+  "watersupplierUnlinkRadioMeterWtlDescription": "If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.",
+  "firstName": "First name",
+  "houseNumber": "House number",
+  "lastName": "Last name",
+  "wtlAccessRequestFailure": "Access request could not be created.",
+  "wtlAccessRequestMeterId": "Meter ID",
+  "wtlAccessRequestMissingAccountData": "Your account is missing an email address.",
+  "wtlAccessRequestMissingInput": "Please enter a meter ID with at least 8 characters and a service object number.",
+  "wtlAccessRequestOnlineOnlyDescription": "Online access request for Wasserverband Tecklenburger Land.",
+  "wtlAccessRequestServiceObjectNumber": "Service object number",
+  "wtlAccessRequestSuccess": "Access request created.",
+  "wtlAccessRequestTitle": "WTL access request",
   "yearlyConsumption": "Annual consumption so far",
   "yearlyCosts": "Annual consumption costs so far",
   "youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",
   "youtubeConsent2": "Always show Youtube content",
   "youtubeConsent3": "I agree to external content being displayed to me. This may result in personal data being transmitted to third-party platforms. More on this in our ",
+  "addressValidationRequired": "{label} is required",
+  "@addressValidationRequired": {
+    "description": "Error message if a detailed address field is required",
+    "placeholders": {
+      "label": {
+        "example": "Street",
+        "type": "String"
+      }
+    }
+  },
   "zipCode": "zip code",
   "zipCodeValidationLength": "Please enter a {digits}-digit postal code",
   "@zipCodeValidationLength": {
@@ -1600,5 +1790,6 @@
       }
     }
   },
-  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers"
+  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
+  "zipCodeValidationGeneral": "Please enter a valid postal code"
 }

@@ -11,6 +11,9 @@
   "accountThankYouForPurchase": "Danke! Möchten Sie jetzt den Kauf im EHW+ Nutzerkonto sichern?",
   "accountUpdateInfo": "Jetzt neu: Das EHW+ Nutzerkonto",
   "activitiesDescription": "Verknüpfen Sie Zählerstandsablesungen mit Aktivitäten, z.B. Waschen mit Kaltwasserzähler und Stromzähler.",
+  "activitiesDefinitionsTab": "Aktivitäten",
+  "activitiesTimelineEmpty": "Es wurden noch keine Aktivitäten erfasst.",
+  "activitiesTimelineTab": "Zeitverlauf",
   "activitiesTitle": "Meine Aktivitäten",
   "activityBath": "Baden",
   "activityDishWasher": "Spülmaschine",
@@ -31,6 +34,81 @@
   "addDetail": "Detail hinzufügen",
   "addNewValue": "Neuen Wert eintragen",
   "advancePayment": "Abschlagsbetrag",
+  "advancePaymentDueDay": "Zahltag",
+  "advancePaymentDueDayOptionDay": "Tag {day}",
+  "@advancePaymentDueDayOptionDay": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "advancePaymentDueDayOptionEndOfMonth": "Monatsende",
+  "advancePaymentFirstDueDateOptional": "Erster Zahltag (optional)",
+  "advancePaymentFirstDueInStartMonth": "Der Abschlagsbetrag wird erstmals im Monat des Vertragsbeginns fällig.",
+  "advancePaymentFirstDueOnDate": "Der Abschlagsbetrag wird erstmals am {date} fällig.",
+  "@advancePaymentFirstDueOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDue": "Er wird am {day}. Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDue": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonth": "Er wird am letzten Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDueEndOfMonth": {
+    "placeholders": {
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueEndOfMonthWithAmount": "Der Abschlagsbetrag in Höhe von {amount} wird am letzten Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDueEndOfMonthWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecommendationMonthly": "Empfohlener monatlicher Abschlag: {recommendedAmount} anstelle {currentAmount}",
+  "@advancePaymentRecommendationMonthly": {
+    "placeholders": {
+      "recommendedAmount": {
+        "type": "String"
+      },
+      "currentAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecurringDueWithAmount": "Der Abschlagsbetrag in Höhe von {amount} wird am {day}. Tag des Monats {cadence} fällig.",
+  "@advancePaymentRecurringDueWithAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      },
+      "cadence": {
+        "type": "String"
+      }
+    }
+  },
   "appBarExpandedMode": "App-Bar mit Hintergrundbild",
   "appDescriptionLong": "<p>Herzlich willkommen bei <b>EHW+</b>, Ihrer Zählerstands-App für Elektrizität, Heizung und Wasser. Mit uns können Sie kostenlos und unkompliziert nachvollziehen, wie viel Sie verbrauchen und was es kostet.</p>",
   "appDescriptionShort": "Gut für den Geldbeutel, gut für das Klima",
@@ -38,6 +116,14 @@
   "appNameShort": "EHW+",
   "areYouSure": "Sind Sie sich sicher?",
   "basePrice": "Grundpreis",
+  "basePriceMonthlyResult": "Es ergibt sich ein Grundpreis von {amount} monatlich.",
+  "@basePriceMonthlyResult": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
   "bonus": "Bonus",
   "bonusInfoText": "Tarife mit Bonus ermöglichen häufig eine Ersparnis beim Anbieterwechsel. Diese ergibt sich aber meist ausschließlich aus dem einmaligen Bonus.\n\nDas heißt: Die Gesamtkosten sind nur im ersten Belieferungsjahr so niedrig. Hohe Arbeits- und/oder Grundpreise sorgen im zweiten Jahr für eine deutlich höhere Rechnung.\n\nDeshalb sollten Sie bei Bonus-Tarifen von vornherein einplanen, nach einem Jahr erneut zu wechseln.\n\nBonus-Tarife mit einer Laufzeit von zwei Jahren, bei denen diese Kündigung gar nicht möglich ist, sollten Sie besonders kritisch hinterfragen.",
   "bonusInfoTitle": "Infos zu Bonus-Tarifen",
@@ -178,6 +264,7 @@
   "consent2ThankYou": "Danke, dass Sie EHW+ nutzen!",
   "consent3Video": "Möchten Sie ein kurzes Einführungsvideo ansehen?",
   "consent4BeforeYouCanContinue": "Bevor Sie loslegen können",
+  "consent5ErrorReporting": "Für die zuverlässige Weiterentwicklung der App werden technische Fehlerberichte über Sentry (self-hosted) an EHW+ übermittelt. Wenn Sie Fehlerberichte deaktivieren, können wir auftretende Fehler möglicherweise nicht erkennen und dadurch nicht gezielt korrigieren.",
   "consent5ErrorReportingTitle": "Fehlerberichte",
   "consent6ContractPricesPerUnitTitle": "Strom-/Wasser-/Gaspreise",
   "consent7ContractPricesPerUnit": "Um einschätzen zu können, wie viel man aktuell im Vergleich zu anderen EHW+ Nutzern zahlt, werden die Preise zusammen mit Land und Bundesland an den EHW+ Server in Deutschland übertragen. Nur wenn Sie der Übertragung zustimmen, haben Sie Zugriff auf die Preisstatistiken. Zur Sicherstellung der Anonymität können Statistiken erst ab einer Mindestanzahl übermittelter Preise angezeigt werden.",
@@ -242,14 +329,15 @@
   "continueAcceptPart2": " einverstanden. Weitere Informationen zur Erfassung und Nutzung anonymisierter und persönlicher Daten finden Sie in der ",
   "contract": "Vertrag",
   "contractCopyDialogOptionNo": "Nein, abbrechen.",
-  "contractCopyDialogOptionYes": "Ja, der Arbeitspreis oder ein anderer Wert hat sich geändert.",
+  "contractCopyDialogOptionYes": "Ja",
   "contractCopyDialogTitle": "Wollen Sie eine Kopie dieses Vertrags erstellen?",
-  "contractCopyDialogWhen": "Ab wann gilt der neue Preis?",
+  "contractCopyDialogWhen": "Wann beginnt der neue Vertrag?",
   "contractCosts": "Arbeitspreis",
   "contractCostsFeedIn": "Vergütung abzüglich Grundpreis",
   "contractDetails": "Vertragslaufzeit und Details",
   "contractName": "Anbieter/Vertragsname",
   "contractNumber": "Vertragsnummer",
+  "customerId": "Kundennummer",
   "contractPeriod": "Vertragslaufzeit",
   "contractReminder": "Vertragserinnerung",
   "contractStart": "Vertragsbeginn",
@@ -264,6 +352,8 @@
   "contracts": "Verträge",
   "corresponds": "≙",
   "costSummary": "Kosten­überblick",
+  "costOverviewAdvancePaymentsBar": "Geleistete Vorauszahlungen",
+  "costOverviewContractCostsBar": "Verbrauchsabhängige Kosten + Grundgebühren für den Vertragszeitraum",
   "costSummaryYield": "Ertrags­überblick",
   "costs": "Kosten",
   "costsUndefinedColdWater": "Gebühren für Kaltwasser",
@@ -292,6 +382,7 @@
   "counterDistrictHeating": "Fernwärme",
   "counterEdit": "Zähler bearbeiten",
   "counterElectricity": "Stromzähler",
+  "counterAmmeter": "Strommessgerät",
   "counterElectricityBack": "Stromeinspeiszähler (PV)",
   "counterElectricityGenerated": "Stromerzeugniszähler (PV)",
   "counterExclude": "Ausschließen",
@@ -368,6 +459,8 @@
   "electricity": "Strom",
   "electricityBack": "Eingespeister Strom",
   "electricityConsumption": "Stromverbrauch",
+  "ammeterConsumptionByRooms": "Stromverbrauch nach Räumen",
+  "ammeterConsumptionByDevices": "Stromverbrauch nach Geräten",
   "electricityGenerated": "Erzeugter Strom",
   "enableCounterViewsMerging": "Stromzähler mit gleicher Zählernummer zusammenfassen",
   "enterComment": "Notiz eingeben",
@@ -375,6 +468,7 @@
   "enterObjectName": "Wie soll das neue Objekt heißen?",
   "errorInvalidRange": "Kein gültiger Zeitraum",
   "errorNoInternet": "Kein Internet",
+  "errorReportingAgreement": "Ich stimme der Übermittlung technischer Fehlerberichte an EHW+ Services GmbH zu.",
   "euDisputeResolution": "\n\nEU-Streitschlichtung\n\nDie Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.\nUnsere E-Mail-Adresse finden Sie oben im Impressum.\n\nVerbraucher­streit­beilegung/Universal­schlichtungs­stelle\n\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
   "existingPhoto": "Existierendes Foto anhängen",
   "existingPhotoOfMeterReading": "Möchten Sie ein bestehendes Foto des Zählerstands anhängen?",
@@ -403,6 +497,8 @@
   "faqAboutDeveloperTitle": "Wer steht hinter EHW+?",
   "faqTitle": "FAQ (häufig gefragt)",
   "featureVoting": "Feature-Abstimmung",
+  "featureVotingIntro": "Sie können sich jederzeit umentscheiden. Außerdem wird eine Stimme wieder frei, wenn das von Ihnen gewünschte Feature umgesetzt wurde.",
+  "featureVotingLoginRequired": "Melden Sie sich mit Ihrem EHW+ Konto an, um Vorschläge anzuzeigen und abzustimmen.",
   "featureVotingOnlyOnGerman": "Die Feature-Umfrage ist nicht in andere Sprachen übersetzt.",
   "featureVotingUnderConstruction": "Die Feature-Umfrage wird aktuell überarbeitet. Künftig ist ein EHW+ Nutzerkonto erforderlich und die Umfrage vewendet keine Server von Drittanbietern mehr. Wir bitten um Geduld.",
   "fedIn": "Eingespeist",
@@ -420,6 +516,9 @@
   "heater": "Heizung",
   "heatmapLegendDisclaimer": "Info: Schraffierte Boxen enthalten einen Schätzwert. Um den tatsächlichen Verbrauch/Ertrag abzulesen, bitte falls möglich, die fehlenden Werte nachtragen.",
   "heatmapLegendTitle": "Mehr über die Heatmap",
+  "addressAdministrativeArea": "Bundesland / Region / Provinz",
+  "addressLocality": "Ort / Stadt",
+  "addressStreet": "Straße / Adresszeile",
   "houseName": "Hausbezeichnung",
   "houseNameDescription": "Hausbezeichnung, z.B. Straßenname",
   "import": "Import",
@@ -503,6 +602,14 @@
   "periodBiweekly": "zweiwöchentlich",
   "periodCustom": "Benutzerdefiniert",
   "periodDaily": "täglich",
+  "periodEveryXMonths": "alle {number} Monate",
+  "@periodEveryXMonths": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
   "periodHalfYearly": "halbjährlich",
   "periodHourly": "stündlich",
   "periodMonthly": "monatlich",
@@ -628,6 +735,7 @@
   "roomType": "Raumtyp",
   "roomWc": "WC",
   "rooms": "Räume",
+  "withoutRoomAssignment": "Ohne Raumzuweisung",
   "scanQrCode": "Aktivierungscode scannen",
   "seasonalCounter": "Saisonaler Zähler",
   "seasonalElectricityCounter": "Saisonaler Stromzähler",
@@ -662,6 +770,61 @@
   "settingYearlyResetOn": "am",
   "settings": "Einstellungen",
   "settingsExternalServices": "Externe Dienste",
+  "homeAssistantAccessTokenLabel": "Long-Lived Access Token",
+  "homeAssistantAccessTokenRequired": "Bitte geben Sie den Long-Lived Access Token ein.",
+  "homeAssistantConfigureNow": "Jetzt einrichten",
+  "homeAssistantConfiguredSubtitle": "{instanceName} - Version {version}",
+  "@homeAssistantConfiguredSubtitle": {
+    "placeholders": {
+      "instanceName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionFailed": "Verbindung fehlgeschlagen: {error}",
+  "@homeAssistantConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionSuccessful": "Verbindung zu Home Assistant erfolgreich hergestellt.",
+  "homeAssistantDefaultActivityLabel": "Standardaktivität",
+  "homeAssistantHistoricalConsumptionsDescription": "Wählen Sie Home Assistant Verbrauchssensoren, für die im aktuellen EHW+ Objekt Zähler erstellt und aktualisiert werden sollen.",
+  "homeAssistantHistoricalConsumptionsTitle": "Historische EHW+ Verbräuche",
+  "homeAssistantLiveMeasurementApparentPower": "Scheinleistung",
+  "homeAssistantLiveMeasurementCurrent": "Stromstärke",
+  "homeAssistantLiveMeasurementPower": "Leistung",
+  "homeAssistantLiveMeasurementReactivePower": "Blindleistung",
+  "homeAssistantLiveMeasurementVoltage": "Spannung",
+  "homeAssistantLiveMeasurementsConnecting": "Verbindung zu Home Assistant wird hergestellt...",
+  "homeAssistantLiveMeasurementsError": "Home Assistant Live-Daten konnten nicht geladen werden.",
+  "homeAssistantLiveMeasurementsNoData": "Für diesen Sensor wurden keine Live-Werte erkannt.",
+  "homeAssistantLinkSensor": "Sensor verknüpfen",
+  "homeAssistantLoadSensors": "Sensoren laden",
+  "homeAssistantLocalUrlWarning": "Das sieht nach einer lokalen URL aus. Die Synchronisierung wird nur versucht, wenn das Gerät mit dem lokalen Netzwerk verbunden ist.",
+  "homeAssistantNoDefaultActivity": "Keine Standardaktivität",
+  "homeAssistantNoPushCounters": "In diesem Objekt gibt es keine Zähler, die zu Home Assistant gepusht werden können.",
+  "homeAssistantNoSensors": "Es wurden keine passenden Verbrauchssensoren gefunden.",
+  "homeAssistantNotConfiguredSubtitle": "Zählerstände und Verbräuche mit Home Assistant synchronisieren.",
+  "homeAssistantPlugTitle": "Plug",
+  "homeAssistantPlugUnavailable": "Plug nicht verfügbar",
+  "homeAssistantPushCountersDescription": "Wählen Sie EHW+ Zähler, deren Verbrauchsstatistiken nach Änderungen an Home Assistant übertragen werden sollen.",
+  "homeAssistantPushCountersTitle": "EHW+ Zähler pushen",
+  "homeAssistantSettingsDescription": "Verbinden Sie EHW+ mit Ihrer Home Assistant Instanz, um Zählerstände ausgewählter Sensoren zu beziehen oder EHW+ Statistiken bereitzustellen.",
+  "homeAssistantSettingsTitle": "Home Assistant",
+  "homeAssistantSubscriptionRequired": "Für die Home Assistant Synchronisierung ist ein aktives Abo erforderlich.",
+  "homeAssistantTitle": "Home Assistant",
+  "homeAssistantTokenTest": "Token testen",
+  "homeAssistantUnlink": "Entknüpfen",
+  "homeAssistantUnknownInstance": "Unbekannte Instanz",
+  "homeAssistantUrlInvalid": "Bitte geben Sie eine gültige Home Assistant URL ein.",
+  "homeAssistantUrlLabel": "Home Assistant URL",
+  "homeAssistantUrlRequired": "Bitte geben Sie die Home Assistant URL ein.",
   "settingsShowStromGedacht": "Sollen Hinweise von StromGedacht zum Stromnetz angezeigt werden?",
   "settingsShowTabNewsDetailed": "Soll der Tipps/News Tab sichtbar sein?",
   "showAllYears": "Alle Jahre anzeigen",
@@ -672,12 +835,14 @@
   "sinceInitialReading": "Seit Erstablesung",
   "smartMeterCountersTitle": "Funkwasserzähler",
   "smartMeterErrorNoData": "Es gibt leider keine Daten, welche die App anzeigen könnte.",
+  "smartMeterReadingsSyncFailed": "Smart-Meter-Synchronisierung fehlgeschlagen",
   "smartMeterMisconfiguredWidgetCardButton": "Smartmeter einrichten",
   "smartMeterMisconfiguredWidgetCardTitle": "Bitte richten Sie Ihren Smartmeter richtig ein.",
   "smartMeterObtainDataAutomatically": "Daten automatisch beziehen",
   "smartMeterProviderTibber": "Tibber",
   "smartMeterProviderUndefined": "Nicht gesetzt",
   "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterProviderWtl": "Wasserverband Tecklenburger Land",
   "smartMeterServiceProvider": "Serviceanbieter",
   "smartMeterSettingsScreenSyncButton": "Verbrauchsdaten synchronisieren",
   "smartMeterSettingsScreenSyncingDialogError": "Fehler",
@@ -909,7 +1074,7 @@
   "upgradeDescription": "Die App kann mehr. Besserer Kostenüberblick, mehr Statistiken, Excel-Export, mehr Zähler, ...",
   "useDismissibleSettings": "Löschen per Wischgeste",
   "useDismissibleSettingsDetailed": "Zähler, Verträge, usw. können durch eine Seitwischbewegung gelöscht werden",
-  "usedForPaymentsRepayments": "Abschlagsbetrag, Grundpreis und Bonus",
+  "usedForPaymentsRepayments": "Grundpreis und Bonus",
   "valueLess": "{value} weniger",
   "valueMore": "{value} mehr",
   "versionIsUpToDate": "Die zuletzt für alle Nutzer freigebene App-Version ist {version}.",
@@ -953,6 +1118,8 @@
   "watersupplierCompleteMeterIdServerErrorTryAgain": "Ohh, das hat leider nicht geklappt. Es lag an unserem Server. Versuchen Sie es besser zu einem späteren Zeitpunkt noch einmal!",
   "watersupplierCompleteMeterIdTryAgain": "Das hat nicht geklappt. Bitte geben Sie die letzten drei Ziffern ihrer Zählernummer erneut ein!",
   "watersupplierMeterIdValidationStep": "Die Zählernummer wird nun geprüft.",
+  "watersupplierAccessRequestDenied": "Ihre Zugriffsanfrage wurde abgelehnt. Sie können diesen Zähler löschen.",
+  "watersupplierAccessRequestPending": "Ihre Zugriffsanfrage ist noch offen. Bitte haben Sie noch etwas Geduld.",
   "watersupplierNoAccess": "Sie haben keine Berechtigung mehr, um Daten abzurufen.",
   "watersupplierNoAccessDetailedMessage": "Wenn Sie der Meinung sind, dass Sie unverändert Zugriff haben sollten, scannen Sie bitte erneut Ihren Aktivierungscode. Ist der Zugriffscode nicht mehr gültig, dann stellen Sie bitte eine neue Zugriffsanfrage.",
   "watersupplierOpenReminderSettings": "Einstellungen öffnen",
@@ -973,13 +1140,28 @@
   "watersupplierUnlinkRadioMeterButtonRevoke": "Widerrufscode scannen",
   "watersupplierUnlinkRadioMeterDescription1": "Sie möchten den Funkzähler nur löschen ohne dass der Aktivierungscode seine Gültigkeit verliert?",
   "watersupplierUnlinkRadioMeterDescription2": "Sie möchten nicht länger Zugriff auf die Daten Ihres Funkzählers haben? Bitte beachten Sie, nach Scannen des Widerrufscode verliert der Aktivierungscode seine Gültigkeit. Jedes Nutzerkonto, welches den Aktivierungscode verwendet hat, verliert den Zugriff.",
+  "watersupplierUnlinkRadioMeterFailure": "Der Funkzähler konnte nicht gelöscht werden. Bitte versuchen Sie es später erneut.",
   "watersupplierUnlinkRadioMeterTitle": "Funkzählerzugriff beenden",
+  "watersupplierUnlinkRadioMeterWtlDescription": "Wenn Sie diesen Funkzähler löschen, wird Ihr Zugriff auf die Funkzählerstände widerrufen. Sie können später eine neue Zugriffsanfrage stellen.",
+  "firstName": "Vorname",
+  "houseNumber": "Hausnummer",
+  "lastName": "Nachname",
+  "wtlAccessRequestFailure": "Die Zugriffsanfrage konnte nicht erstellt werden.",
+  "wtlAccessRequestMeterId": "Zählernummer",
+  "wtlAccessRequestMissingAccountData": "In Ihrem Konto fehlt eine E-Mail-Adresse.",
+  "wtlAccessRequestMissingInput": "Bitte geben Sie eine Zählernummer mit mindestens 8 Zeichen und eine Leistungsobjektnummer ein.",
+  "wtlAccessRequestOnlineOnlyDescription": "Online-Zugriffsanfrage für den Wasserverband Tecklenburger Land.",
+  "wtlAccessRequestServiceObjectNumber": "Leistungsobjektnummer",
+  "wtlAccessRequestSuccess": "Zugriffsanfrage erstellt.",
+  "wtlAccessRequestTitle": "WTL-Zugriffsanfrage",
   "yearlyConsumption": "Bisheriger Jahresverbrauch",
   "yearlyCosts": "Bisherige Kosten für Verbrauch",
   "youtubeConsent1": "Wir benötigen Ihre Einwilligung, um den eingebundenen Youtube-Inhalt anzuzeigen. Sie können diesen (und damit auch alle weiteren Youtube-Inhalte in der App) mit einem Klick anzeigen lassen und auch wieder deaktivieren.",
   "youtubeConsent2": "Youtube-Inhalte immer anzeigen",
   "youtubeConsent3": "Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden. Mehr dazu in unseren ",
+  "addressValidationRequired": "{label} ist erforderlich",
   "zipCode": "Postleitzahl",
   "zipCodeValidationLength": "Bitte {digits}-stellige Postleitzahl eingeben",
-  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen"
+  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen",
+  "zipCodeValidationGeneral": "Bitte eine gültige Postleitzahl eingeben"
 }

@@ -46,6 +46,15 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get activitiesDescription => '将仪表读数与活动联系起来，例如用冷水表和电表清洗。';
 
   @override
+  String get activitiesDefinitionsTab => 'Activities';
+
+  @override
+  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
+
+  @override
+  String get activitiesTimelineTab => 'Timeline';
+
+  @override
   String get activitiesTitle => '我的活动';
 
   @override
@@ -106,6 +115,53 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get advancePayment => '预付款';
 
   @override
+  String get advancePaymentDueDay => '到期日';
+
+  @override
+  String advancePaymentDueDayOptionDay(int day) {
+    return '第$day天';
+  }
+
+  @override
+  String get advancePaymentDueDayOptionEndOfMonth => '月底';
+
+  @override
+  String get advancePaymentFirstDueDateOptional => '第一个到期日（可选）';
+
+  @override
+  String get advancePaymentFirstDueInStartMonth => '第一笔预付款应在合同开始的当月支付。';
+
+  @override
+  String advancePaymentFirstDueOnDate(String date) {
+    return '首笔预付款的截止日期为 $date。';
+  }
+
+  @override
+  String advancePaymentRecurringDue(int day, String cadence) {
+    return '截止日期为该月的第$day天，$cadence。';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonth(String cadence) {
+    return '截止日期为当月最后一天，$cadence。';
+  }
+
+  @override
+  String advancePaymentRecurringDueEndOfMonthWithAmount(String amount, String cadence) {
+    return '$amount 的预付款应于当月最后一天（$cadence）支付。';
+  }
+
+  @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return '建议的每月预付款金额：$recommendedAmount，而非 $currentAmount';
+  }
+
+  @override
+  String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
+    return '$amount 的预付款金额应于 $cadence 月份的第 $day 天支付。';
+  }
+
+  @override
   String get appBarExpandedMode => '带有背景图像的应用栏';
 
   @override
@@ -126,6 +182,11 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get basePrice => '基价';
+
+  @override
+  String basePriceMonthlyResult(String amount) {
+    return '因此，基础月费为$amount。';
+  }
 
   @override
   String get bonus => '奖金';
@@ -523,6 +584,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get consent4BeforeYouCanContinue => '在您可以继续之前';
 
   @override
+  String get consent5ErrorReporting =>
+      '为了可靠地改进应用程序，技术错误报告将通过 Sentry（自托管）发送至 EHW+。如果您禁用错误报告功能，我们可能无法注意到发生的错误，从而无法修复这些错误。';
+
+  @override
   String get consent5ErrorReportingTitle => '错误报告';
 
   @override
@@ -785,13 +850,13 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get contractCopyDialogOptionNo => '不，取消。';
 
   @override
-  String get contractCopyDialogOptionYes => '是的，单价或其他值已更改。';
+  String get contractCopyDialogOptionYes => '是';
 
   @override
   String get contractCopyDialogTitle => '您想复印这份合同吗？';
 
   @override
-  String get contractCopyDialogWhen => '新价格从什么时候开始适用？';
+  String get contractCopyDialogWhen => '新合同何时开始？';
 
   @override
   String get contractCosts => '单价';
@@ -807,6 +872,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get contractNumber => '合同号';
+
+  @override
+  String get customerId => 'Customer ID';
 
   @override
   String get contractPeriod => '合约期';
@@ -849,6 +917,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get costSummary => '费用汇总';
+
+  @override
+  String get costOverviewAdvancePaymentsBar => '预付款';
+
+  @override
+  String get costOverviewContractCostsBar => '基于消耗的费用 + 合同期的基本费用';
 
   @override
   String get costSummaryYield => '报酬价格/-基本价格';
@@ -937,6 +1011,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => '电表';
+
+  @override
+  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => '电量馈入表 (PV)';
@@ -1186,6 +1263,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get electricityConsumption => '功耗';
 
   @override
+  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
+
+  @override
+  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
+
+  @override
   String get electricityGenerated => '发电量';
 
   @override
@@ -1205,6 +1288,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get errorNoInternet => '无网络';
+
+  @override
+  String get errorReportingAgreement => '我同意向 EHW+ Services GmbH 发送技术错误报告。';
 
   @override
   String get euDisputeResolution =>
@@ -1306,6 +1392,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get featureVoting => '特色投票';
 
   @override
+  String get featureVotingIntro => '您可以随时改变主意。当您所投票支持的功能得以实施时，您的投票就被释放了。';
+
+  @override
+  String get featureVotingLoginRequired => '使用您的 EHW+ 账户登录，查看功能建议并进行投票。';
+
+  @override
   String get featureVotingOnlyOnGerman => '该功能调查未翻译成其他语言。';
 
   @override
@@ -1357,6 +1449,15 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get heatmapLegendTitle => '有关热图的更多信息';
+
+  @override
+  String get addressAdministrativeArea => '州/地区/省';
+
+  @override
+  String get addressLocality => '城市/地区';
+
+  @override
+  String get addressStreet => '街道/地址栏';
 
   @override
   String get houseName => '房屋名称';
@@ -1657,6 +1758,11 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get periodDaily => '日常的';
+
+  @override
+  String periodEveryXMonths(String number) {
+    return '每$number个月';
+  }
 
   @override
   String get periodHalfYearly => '半年一次';
@@ -2093,6 +2199,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get rooms => '客房';
 
   @override
+  String get withoutRoomAssignment => 'Without room assignment';
+
+  @override
   String get scanQrCode => '扫描激活二维码';
 
   @override
@@ -2197,6 +2306,130 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get settingsExternalServices => '外部服务';
 
   @override
+  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
+
+  @override
+  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
+
+  @override
+  String get homeAssistantConfigureNow => 'Set up now';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Version $version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Connection failed: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Default activity';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Current';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Power';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
+
+  @override
+  String get homeAssistantLinkSensor => 'Link sensor';
+
+  @override
+  String get homeAssistantLoadSensors => 'Load sensors';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'No default activity';
+
+  @override
+  String get homeAssistantNoPushCounters =>
+      'There are no counters in this object that can be pushed to Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Plug';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Plug unavailable';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'An active subscription is required for Home Assistant synchronization.';
+
+  @override
+  String get homeAssistantTitle => 'Home Assistant';
+
+  @override
+  String get homeAssistantTokenTest => 'Test token';
+
+  @override
+  String get homeAssistantUnlink => 'Unlink';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Unknown instance';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Home Assistant URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
+
+  @override
   String get settingsShowStromGedacht => '是否应该显示 StromGedacht 有关电网的提示？';
 
   @override
@@ -2227,6 +2460,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => '不幸的是，该应用程序无法显示任何数据。';
 
   @override
+  String get smartMeterReadingsSyncFailed => '智能电表同步失败';
+
+  @override
   String get smartMeterMisconfiguredWidgetCardButton => '设置智能电表';
 
   @override
@@ -2243,6 +2479,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterProviderWwgl => '杰劳尔土地水厂';
+
+  @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
 
   @override
   String get smartMeterServiceProvider => '服务提供商';
@@ -3032,7 +3271,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get useDismissibleSettingsDetailed => '计数器、合约等可以通过侧滑移动来删除';
 
   @override
-  String get usedForPaymentsRepayments => '预付款、基本价格和奖金';
+  String get usedForPaymentsRepayments => '基本价格和奖金';
 
   @override
   String valueLess(String value) {
@@ -3189,6 +3428,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => '我们正在检查您的电表 ID。';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => '您不再有权检索数据。';
 
   @override
@@ -3249,7 +3494,48 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterDescription2 => '您不想再访问您的无线电计数据吗？请注意：一旦扫描撤销码，激活码即失效。任何使用激活码的用户帐户都将失去访问权限。';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => '终止无线电计访问';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+
+  @override
+  String get firstName => 'First name';
+
+  @override
+  String get houseNumber => 'House number';
+
+  @override
+  String get lastName => 'Last name';
+
+  @override
+  String get wtlAccessRequestFailure => 'Access request could not be created.';
+
+  @override
+  String get wtlAccessRequestMeterId => 'Meter ID';
+
+  @override
+  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+
+  @override
+  String get wtlAccessRequestMissingInput =>
+      'Please enter a meter ID with at least 8 characters and a service object number.';
+
+  @override
+  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+
+  @override
+  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+
+  @override
+  String get wtlAccessRequestSuccess => 'Access request created.';
+
+  @override
+  String get wtlAccessRequestTitle => 'WTL access request';
 
   @override
   String get yearlyConsumption => '至今年消费量';
@@ -3267,6 +3553,11 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '我同意向我显示外部内容。这可能会导致个人数据被传输到第三方平台。有关此内容的更多信息，请参阅我们的';
 
   @override
+  String addressValidationRequired(String label) {
+    return '请输入 $label';
+  }
+
+  @override
   String get zipCode => '邮政编码';
 
   @override
@@ -3276,4 +3567,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
+
+  @override
+  String get zipCodeValidationGeneral => '请输入有效的邮政编码';
 }
