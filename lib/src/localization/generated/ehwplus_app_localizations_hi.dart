@@ -3460,7 +3460,14 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'क्या अब आप अपने रेडियो मीटर डेटा तक पहुंच नहीं चाहते हैं?कृपया ध्यान दें: एक बार निरस्तीकरण कोड स्कैन हो जाने पर, सक्रियण कोड अमान्य हो जाता है।सक्रियण कोड का उपयोग करने वाला कोई भी उपयोगकर्ता खाता पहुंच खो देगा।';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'रेडियो मीटर पहुंच समाप्त करें';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

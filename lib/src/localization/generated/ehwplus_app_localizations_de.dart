@@ -3478,7 +3478,15 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Sie möchten nicht länger Zugriff auf die Daten Ihres Funkzählers haben? Bitte beachten Sie, nach Scannen des Widerrufscode verliert der Aktivierungscode seine Gültigkeit. Jedes Nutzerkonto, welches den Aktivierungscode verwendet hat, verliert den Zugriff.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure =>
+      'Der Funkzähler konnte nicht gelöscht werden. Bitte versuchen Sie es später erneut.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Funkzählerzugriff beenden';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'Wenn Sie diesen Funkzähler löschen, wird Ihr Zugriff auf die Funkzählerstände widerrufen. Sie können später eine neue Zugriffsanfrage stellen.';
 
   @override
   String get firstName => 'Vorname';

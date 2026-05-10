@@ -3465,7 +3465,14 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Bạn không còn muốn truy cập vào dữ liệu máy đo sóng vô tuyến của mình nữa? Xin lưu ý: sau khi quét mã hủy, mã kích hoạt sẽ không hợp lệ. Bất kỳ tài khoản người dùng nào sử dụng mã kích hoạt sẽ mất quyền truy cập.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Chấm dứt quyền truy cập vào máy đo sóng vô tuyến';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

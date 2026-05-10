@@ -3467,7 +3467,14 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Je! Hautaki ufikiaji wa data yako ya mita ya redio? Tafadhali kumbuka: Mara tu nambari ya uondoaji itakapokaguliwa, nambari ya uanzishaji inakuwa batili. Akaunti yoyote ya mtumiaji ambayo ilitumia nambari ya uanzishaji itapoteza ufikiaji.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Kusitisha ufikiaji wa mita ya redio';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

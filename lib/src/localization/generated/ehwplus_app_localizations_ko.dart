@@ -3375,7 +3375,14 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
       '무선 계량기 데이터 접근을 더 이상 원하지 않으시나요? 참고: 무효화 코드를 스캔하면 활성화 코드는 더 이상 유효하지 않습니다. 활성화 코드를 사용했던 모든 사용자 계정은 접근 권한을 잃습니다.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => '무선 계량기 접근 종료';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

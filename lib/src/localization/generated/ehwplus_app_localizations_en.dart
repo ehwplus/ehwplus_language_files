@@ -3472,7 +3472,14 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
       'Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Terminate Radio Meter Access';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

@@ -3503,7 +3503,14 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Вы больше не хотите иметь доступ к данным вашего радиосчетчика? Обратите внимание: после сканирования кода отзыва код активации становится недействительным. Любая учетная запись пользователя, которая использовала код активации, потеряет доступ.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Удалить радио счетчик';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

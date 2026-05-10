@@ -3480,7 +3480,14 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Ar nebenorite prieiti prie radijo skaitiklio duomenų? Atkreipkite dėmesį: kai atšaukimo kodas nuskaitomas, aktyvinimo kodas tampa negaliojantis. Bet kuri vartotojo paskyra, kuri naudojo aktyvinimo kodą, neteks prieigos.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Nutraukti radijo skaitiklio prieigą';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

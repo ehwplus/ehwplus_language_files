@@ -3344,7 +3344,14 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterDescription2 => '您不想再访问您的无线电计数据吗？请注意：一旦扫描撤销码，激活码即失效。任何使用激活码的用户帐户都将失去访问权限。';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => '终止无线电计访问';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

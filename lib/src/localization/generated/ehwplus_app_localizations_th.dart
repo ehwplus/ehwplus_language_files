@@ -3456,7 +3456,14 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'คุณไม่ต้องการเข้าถึงข้อมูลมิเตอร์วิทยุของคุณอีกต่อไปหรือไม่? โปรดทราบ: เมื่อสแกนรหัสเพิกถอนแล้ว รหัสเปิดใช้งานจะไม่ถูกต้อง บัญชีผู้ใช้ใด ๆ ที่ใช้รหัสเปิดใช้งานจะสูญเสียการเข้าถึง';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'ยุติการเข้าถึงมิเตอร์วิทยุ';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

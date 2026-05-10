@@ -3435,7 +3435,14 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       'هل لم تعد تريد الوصول إلى بيانات العداد اللاسلكي الخاص بك؟ يرجى ملاحظة: بمجرد مسح رمز الإلغاء، يصبح رمز التفعيل غير صالح. أي حساب مستخدم استخدم رمز التفعيل سيفقد الوصول.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'إنهاء الوصول إلى العداد اللاسلكي';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

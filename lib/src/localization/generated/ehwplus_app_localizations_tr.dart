@@ -3467,7 +3467,14 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Artık radyo ölçüm verilerinize erişmek istemiyor musunuz? Lütfen unutmayın: İptal kodu tarandıktan sonra aktivasyon kodu geçersiz hale gelir. Etkinleştirme kodunu kullanan tüm kullanıcı hesapları erişimi kaybedecektir.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Radyo Ölçer Erişimini Sonlandır';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

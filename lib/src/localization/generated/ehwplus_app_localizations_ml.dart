@@ -3477,7 +3477,14 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
       'നിങ്ങളുടെ റേഡിയോ മീറ്റർ ഡാറ്റയിലേക്ക് ഇനി ആക്‌സസ് വേണ്ടേ? ദയവായി ശ്രദ്ധിക്കുക: അസാധുവാക്കൽ കോഡ് സ്കാൻ ചെയ്തുകഴിഞ്ഞാൽ, ആക്ടിവേഷൻ കോഡ് അസാധുവാകും. ആക്ടിവേഷൻ കോഡ് ഉപയോഗിച്ച ഏതൊരു ഉപയോക്തൃ അക്കൗണ്ടിനും ആക്‌സസ് നഷ്‌ടമാകും.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'റേഡിയോ മീറ്റർ ആക്സസ് അവസാനിപ്പിക്കുക';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

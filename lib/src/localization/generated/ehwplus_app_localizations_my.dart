@@ -3474,7 +3474,14 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင်၏ရေဒီယိုမီတာဒေတာများကိုသင်လက်လှမ်းမမီချင်ပါသလော။ ကျေးဇူးပြု. မှတ်သားပါ။ ပြန်လည်ရုပ်သိမ်းခြင်းကုဒ်ကိုစကင်ဖတ်စစ်ဆေးသည်နှင့်တပြိုင်နက်, activation code သည်မမှန်ကန်ပါ။ activation code ကိုအသုံးပြုသောအသုံးပြုသူအကောင့်သည်ဝင်ရောက်ခွင့်ပြုလိမ့်မည်။';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

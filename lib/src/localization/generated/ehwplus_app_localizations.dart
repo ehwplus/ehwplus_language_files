@@ -6069,11 +6069,23 @@ abstract class EhwplusAppLocalizations {
   /// **'Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.'**
   String get watersupplierUnlinkRadioMeterDescription2;
 
+  /// No description provided for @watersupplierUnlinkRadioMeterFailure.
+  ///
+  /// In en, this message translates to:
+  /// **'The radio meter could not be deleted. Please try again later.'**
+  String get watersupplierUnlinkRadioMeterFailure;
+
   /// No description provided for @watersupplierUnlinkRadioMeterTitle.
   ///
   /// In en, this message translates to:
   /// **'Terminate Radio Meter Access'**
   String get watersupplierUnlinkRadioMeterTitle;
+
+  /// No description provided for @watersupplierUnlinkRadioMeterWtlDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.'**
+  String get watersupplierUnlinkRadioMeterWtlDescription;
 
   /// No description provided for @firstName.
   ///

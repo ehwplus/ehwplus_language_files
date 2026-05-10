@@ -3481,7 +3481,14 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Вече не искате достъп до данните на вашия радио водомер? Моля, имайте предвид: след като кодът за отмяна бъде сканиран, кодът за активиране става невалиден. Всеки потребителски акаунт, който е използвал кода за активиране, ще загуби достъп.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Прекратяване на достъпа до радио водомер';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

@@ -3483,7 +3483,14 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Czy nie chcesz już mieć dostępu do danych swojego licznika radiowego? Uwaga: po zeskanowaniu kodu unieważniającego kod aktywacyjny staje się nieważny. Każde konto użytkownika, które korzystało z kodu aktywacyjnego, utraci dostęp.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Zakończenie dostępu do licznika radiowego';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';

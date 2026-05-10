@@ -3462,7 +3462,14 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
       'Você não deseja mais acessar os dados do seu medidor de rádio? Observação: assim que o código de revogação for digitalizado, o código de ativação se tornará inválido. Qualquer conta de usuário que tenha usado o código de ativação perderá o acesso.';
 
   @override
+  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+
+  @override
   String get watersupplierUnlinkRadioMeterTitle => 'Excluir medidor de rádio';
+
+  @override
+  String get watersupplierUnlinkRadioMeterWtlDescription =>
+      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
   String get firstName => 'First name';
