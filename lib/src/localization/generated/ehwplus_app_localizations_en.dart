@@ -3397,6 +3397,12 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => 'We are checking your meter id.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => 'You no longer have authorization to retrieve data.';
 
   @override

@@ -3400,6 +3400,14 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => 'Die Zählernummer wird nun geprüft.';
 
   @override
+  String get watersupplierAccessRequestDenied =>
+      'Ihre Zugriffsanfrage wurde abgelehnt. Sie können diesen Zähler löschen.';
+
+  @override
+  String get watersupplierAccessRequestPending =>
+      'Ihre Zugriffsanfrage ist noch offen. Bitte haben Sie noch etwas Geduld.';
+
+  @override
   String get watersupplierNoAccess => 'Sie haben keine Berechtigung mehr, um Daten abzurufen.';
 
   @override

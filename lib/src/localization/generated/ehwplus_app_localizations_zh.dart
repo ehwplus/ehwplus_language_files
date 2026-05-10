@@ -3278,6 +3278,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => '我们正在检查您的电表 ID。';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => '您不再有权检索数据。';
 
   @override

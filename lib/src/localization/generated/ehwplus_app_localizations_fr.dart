@@ -3410,6 +3410,12 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => 'Nous vérifions votre numéro de compteur.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => 'Vous n\'êtes plus autorisé à récupérer des données.';
 
   @override

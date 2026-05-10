@@ -3404,6 +3404,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => 'Ellenőrizzük a mérőóra azonosítóját.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => 'Már nincs jogosultsága az adatok lekérdezésére.';
 
   @override

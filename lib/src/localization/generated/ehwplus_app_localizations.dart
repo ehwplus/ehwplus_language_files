@@ -5937,6 +5937,18 @@ abstract class EhwplusAppLocalizations {
   /// **'We are checking your meter id.'**
   String get watersupplierMeterIdValidationStep;
 
+  /// No description provided for @watersupplierAccessRequestDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Your access request was declined. You can delete this meter.'**
+  String get watersupplierAccessRequestDenied;
+
+  /// No description provided for @watersupplierAccessRequestPending.
+  ///
+  /// In en, this message translates to:
+  /// **'Your access request is still being processed. Please be patient.'**
+  String get watersupplierAccessRequestPending;
+
   /// No description provided for @watersupplierNoAccess.
   ///
   /// In en, this message translates to:

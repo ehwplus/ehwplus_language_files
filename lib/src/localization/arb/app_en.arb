@@ -1662,6 +1662,8 @@
   "watersupplierCompleteMeterIdServerErrorTryAgain": "Sorry, unfortunately that didn't work. It was due to our server. Better try again at a later date!",
   "watersupplierCompleteMeterIdTryAgain": "You shall not pass! Please enter the last three digits of you meter id again!",
   "watersupplierMeterIdValidationStep": "We are checking your meter id.",
+  "watersupplierAccessRequestDenied": "Your access request was declined. You can delete this meter.",
+  "watersupplierAccessRequestPending": "Your access request is still being processed. Please be patient.",
   "watersupplierNoAccess": "You no longer have authorization to retrieve data.",
   "watersupplierNoAccessDetailedMessage": "If you believe that you should still have access, please scan your activation code again. If the access code is no longer valid, please submit a new access request.",
   "watersupplierOpenReminderSettings": "Open settings",

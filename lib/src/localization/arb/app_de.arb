@@ -1052,6 +1052,8 @@
   "watersupplierCompleteMeterIdServerErrorTryAgain": "Ohh, das hat leider nicht geklappt. Es lag an unserem Server. Versuchen Sie es besser zu einem späteren Zeitpunkt noch einmal!",
   "watersupplierCompleteMeterIdTryAgain": "Das hat nicht geklappt. Bitte geben Sie die letzten drei Ziffern ihrer Zählernummer erneut ein!",
   "watersupplierMeterIdValidationStep": "Die Zählernummer wird nun geprüft.",
+  "watersupplierAccessRequestDenied": "Ihre Zugriffsanfrage wurde abgelehnt. Sie können diesen Zähler löschen.",
+  "watersupplierAccessRequestPending": "Ihre Zugriffsanfrage ist noch offen. Bitte haben Sie noch etwas Geduld.",
   "watersupplierNoAccess": "Sie haben keine Berechtigung mehr, um Daten abzurufen.",
   "watersupplierNoAccessDetailedMessage": "Wenn Sie der Meinung sind, dass Sie unverändert Zugriff haben sollten, scannen Sie bitte erneut Ihren Aktivierungscode. Ist der Zugriffscode nicht mehr gültig, dann stellen Sie bitte eine neue Zugriffsanfrage.",
   "watersupplierOpenReminderSettings": "Einstellungen öffnen",

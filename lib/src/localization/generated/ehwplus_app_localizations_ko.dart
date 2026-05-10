@@ -3306,6 +3306,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get watersupplierMeterIdValidationStep => '계량기 ID를 확인하고 있습니다.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
+
+  @override
   String get watersupplierNoAccess => '귀하는 더 이상 데이터 조회 권한이 없습니다.';
 
   @override
