@@ -10,8 +10,8 @@
   "accountFaqTitle": "Häufig gestellte Fragen:",
   "accountThankYouForPurchase": "Danke! Möchten Sie jetzt den Kauf im EHW+ Nutzerkonto sichern?",
   "accountUpdateInfo": "Jetzt neu: Das EHW+ Nutzerkonto",
-  "activitiesDescription": "Verknüpfen Sie Zählerstandsablesungen mit Aktivitäten, z.B. Waschen mit Kaltwasserzähler und Stromzähler.",
   "activitiesDefinitionsTab": "Aktivitäten",
+  "activitiesDescription": "Verknüpfen Sie Zählerstandsablesungen mit Aktivitäten, z.B. Waschen mit Kaltwasserzähler und Stromzähler.",
   "activitiesTimelineEmpty": "Es wurden noch keine Aktivitäten erfasst.",
   "activitiesTimelineTab": "Zeitverlauf",
   "activitiesTitle": "Meine Aktivitäten",
@@ -33,6 +33,10 @@
   "addActivity": "Aktivität hinzufügen",
   "addDetail": "Detail hinzufügen",
   "addNewValue": "Neuen Wert eintragen",
+  "addressAdministrativeArea": "Bundesland / Region / Provinz",
+  "addressLocality": "Ort / Stadt",
+  "addressStreet": "Straße / Adresszeile",
+  "addressValidationRequired": "{label} ist erforderlich",
   "advancePayment": "Abschlagsbetrag",
   "advancePaymentDueDay": "Zahltag",
   "advancePaymentDueDayOptionDay": "Tag {day}",
@@ -50,6 +54,17 @@
   "@advancePaymentFirstDueOnDate": {
     "placeholders": {
       "date": {
+        "type": "String"
+      }
+    }
+  },
+  "advancePaymentRecommendationMonthly": "Empfohlener monatlicher Abschlag: {recommendedAmount} anstelle {currentAmount}",
+  "@advancePaymentRecommendationMonthly": {
+    "placeholders": {
+      "recommendedAmount": {
+        "type": "String"
+      },
+      "currentAmount": {
         "type": "String"
       }
     }
@@ -84,17 +99,6 @@
       }
     }
   },
-  "advancePaymentRecommendationMonthly": "Empfohlener monatlicher Abschlag: {recommendedAmount} anstelle {currentAmount}",
-  "@advancePaymentRecommendationMonthly": {
-    "placeholders": {
-      "recommendedAmount": {
-        "type": "String"
-      },
-      "currentAmount": {
-        "type": "String"
-      }
-    }
-  },
   "advancePaymentRecurringDueWithAmount": "Der Abschlagsbetrag in Höhe von {amount} wird am {day}. Tag des Monats {cadence} fällig.",
   "@advancePaymentRecurringDueWithAmount": {
     "placeholders": {
@@ -109,6 +113,8 @@
       }
     }
   },
+  "ammeterConsumptionByDevices": "Stromverbrauch nach Geräten",
+  "ammeterConsumptionByRooms": "Stromverbrauch nach Räumen",
   "appBarExpandedMode": "App-Bar mit Hintergrundbild",
   "appDescriptionLong": "<p>Herzlich willkommen bei <b>EHW+</b>, Ihrer Zählerstands-App für Elektrizität, Heizung und Wasser. Mit uns können Sie kostenlos und unkompliziert nachvollziehen, wie viel Sie verbrauchen und was es kostet.</p>",
   "appDescriptionShort": "Gut für den Geldbeutel, gut für das Klima",
@@ -271,7 +277,6 @@
   "contractDetails": "Vertragslaufzeit und Details",
   "contractName": "Anbieter/Vertragsname",
   "contractNumber": "Vertragsnummer",
-  "customerId": "Kundennummer",
   "contractPeriod": "Vertragslaufzeit",
   "contractReminder": "Vertragserinnerung",
   "contractStart": "Vertragsbeginn",
@@ -285,9 +290,9 @@
   "contractTypeWaterFees": "Wassergebühren",
   "contracts": "Verträge",
   "corresponds": "≙",
-  "costSummary": "Kosten­überblick",
   "costOverviewAdvancePaymentsBar": "Geleistete Vorauszahlungen",
   "costOverviewContractCostsBar": "Verbrauchsabhängige Kosten + Grundgebühren für den Vertragszeitraum",
+  "costSummary": "Kosten­überblick",
   "costSummaryYield": "Ertrags­überblick",
   "costs": "Kosten",
   "costsUndefinedColdWater": "Gebühren für Kaltwasser",
@@ -300,6 +305,7 @@
   "costsUndefinedOilHeating": "Ölpreise",
   "costsUndefinedWarmWater": "Gebühren für Warmwasser",
   "counter": "Zähler",
+  "counterAmmeter": "Strommessgerät",
   "counterBackgroundImage": "Hintergrundbild für Zähler",
   "counterBackgroundImageOfObject": "Hintergrundbild für Objekt",
   "counterColdWater": "Kaltwasserzähler",
@@ -316,7 +322,6 @@
   "counterDistrictHeating": "Fernwärme",
   "counterEdit": "Zähler bearbeiten",
   "counterElectricity": "Stromzähler",
-  "counterAmmeter": "Strommessgerät",
   "counterElectricityBack": "Stromeinspeiszähler (PV)",
   "counterElectricityGenerated": "Stromerzeugniszähler (PV)",
   "counterExclude": "Ausschließen",
@@ -355,8 +360,6 @@
   "counterRoom": "Raum",
   "counterSelected": "Ausgewählt",
   "counterShowHeatmap": "Heatmap anzeigen",
-  "counterShowPreliminaryCurve": "Vorläufige Kurve anzeigen",
-  "counterShowReadingsChart": "Verlauf anzeigen",
   "counterTankCapacity": "Tankinhalt",
   "counterTankFillHeight": "Füllstandshöhe",
   "counterTransducerFactor": "Wandlerfaktor",
@@ -372,6 +375,7 @@
   "createAccount": "Nutzerkonto erstellen/anmelden",
   "csvImportWithFactor": "Sollen die Ablesewerte mit einem Faktor ungleich 1,0 multipliziert werden? Um z.B. Werte von Wh in kWh umzurechnen, müsste mit 0,001 multipliziert werden.",
   "currency": "Währung",
+  "customerId": "Kundennummer",
   "deleteObjectError": "Das Objekt kann nicht gelöscht werden (Code {errorCode}).",
   "detailWithMultiSelect": "Mehrfachauswahl erlauben",
   "detailsTitle": "Einzelheiten",
@@ -393,8 +397,6 @@
   "electricity": "Strom",
   "electricityBack": "Eingespeister Strom",
   "electricityConsumption": "Stromverbrauch",
-  "ammeterConsumptionByRooms": "Stromverbrauch nach Räumen",
-  "ammeterConsumptionByDevices": "Stromverbrauch nach Geräten",
   "electricityGenerated": "Erzeugter Strom",
   "enableCounterViewsMerging": "Stromzähler mit gleicher Zählernummer zusammenfassen",
   "enterComment": "Notiz eingeben",
@@ -436,6 +438,7 @@
   "featureVotingOnlyOnGerman": "Die Feature-Umfrage ist nicht in andere Sprachen übersetzt.",
   "featureVotingUnderConstruction": "Die Feature-Umfrage wird aktuell überarbeitet. Künftig ist ein EHW+ Nutzerkonto erforderlich und die Umfrage vewendet keine Server von Drittanbietern mehr. Wir bitten um Geduld.",
   "fedIn": "Eingespeist",
+  "firstName": "Vorname",
   "firstReadingConsumption": "Tragen Sie jetzt den ersten Verbrauch ein.",
   "firstReadingCounter": "Tragen Sie jetzt den ersten Zählerstand ein.",
   "firstReadingYield": "Tragen Sie jetzt den ersten Ertrag ein.",
@@ -450,11 +453,64 @@
   "heater": "Heizung",
   "heatmapLegendDisclaimer": "Info: Schraffierte Boxen enthalten einen Schätzwert. Um den tatsächlichen Verbrauch/Ertrag abzulesen, bitte falls möglich, die fehlenden Werte nachtragen.",
   "heatmapLegendTitle": "Mehr über die Heatmap",
-  "addressAdministrativeArea": "Bundesland / Region / Provinz",
-  "addressLocality": "Ort / Stadt",
-  "addressStreet": "Straße / Adresszeile",
+  "homeAssistantAccessTokenLabel": "Long-Lived Access Token",
+  "homeAssistantAccessTokenRequired": "Bitte geben Sie den Long-Lived Access Token ein.",
+  "homeAssistantConfigureNow": "Jetzt einrichten",
+  "homeAssistantConfiguredSubtitle": "{instanceName} - Version {version}",
+  "@homeAssistantConfiguredSubtitle": {
+    "placeholders": {
+      "instanceName": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionFailed": "Verbindung fehlgeschlagen: {error}",
+  "@homeAssistantConnectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantConnectionSuccessful": "Verbindung zu Home Assistant erfolgreich hergestellt.",
+  "homeAssistantDefaultActivityLabel": "Standardaktivität",
+  "homeAssistantHistoricalConsumptionsDescription": "Wählen Sie Home Assistant Verbrauchssensoren, für die im aktuellen EHW+ Objekt Zähler erstellt und aktualisiert werden sollen.",
+  "homeAssistantHistoricalConsumptionsTitle": "Historische EHW+ Verbräuche",
+  "homeAssistantLinkSensor": "Sensor verknüpfen",
+  "homeAssistantLiveMeasurementApparentPower": "Scheinleistung",
+  "homeAssistantLiveMeasurementCurrent": "Stromstärke",
+  "homeAssistantLiveMeasurementPower": "Leistung",
+  "homeAssistantLiveMeasurementReactivePower": "Blindleistung",
+  "homeAssistantLiveMeasurementVoltage": "Spannung",
+  "homeAssistantLiveMeasurementsConnecting": "Verbindung zu Home Assistant wird hergestellt...",
+  "homeAssistantLiveMeasurementsError": "Home Assistant Live-Daten konnten nicht geladen werden.",
+  "homeAssistantLiveMeasurementsNoData": "Für diesen Sensor wurden keine Live-Werte erkannt.",
+  "homeAssistantLoadSensors": "Sensoren laden",
+  "homeAssistantLocalUrlWarning": "Das sieht nach einer lokalen URL aus. Die Synchronisierung wird nur versucht, wenn das Gerät mit dem lokalen Netzwerk verbunden ist.",
+  "homeAssistantNoDefaultActivity": "Keine Standardaktivität",
+  "homeAssistantNoPushCounters": "In diesem Objekt gibt es keine Zähler, die zu Home Assistant gepusht werden können.",
+  "homeAssistantNoSensors": "Es wurden keine passenden Verbrauchssensoren gefunden.",
+  "homeAssistantNotConfiguredSubtitle": "Zählerstände und Verbräuche mit Home Assistant synchronisieren.",
+  "homeAssistantPlugTitle": "Plug",
+  "homeAssistantPlugUnavailable": "Plug nicht verfügbar",
+  "homeAssistantPushCountersDescription": "Wählen Sie EHW+ Zähler, deren Verbrauchsstatistiken nach Änderungen an Home Assistant übertragen werden sollen.",
+  "homeAssistantPushCountersTitle": "EHW+ Zähler pushen",
+  "homeAssistantSettingsDescription": "Verbinden Sie EHW+ mit Ihrer Home Assistant Instanz, um Zählerstände ausgewählter Sensoren zu beziehen oder EHW+ Statistiken bereitzustellen.",
+  "homeAssistantSettingsTitle": "Home Assistant",
+  "homeAssistantSubscriptionRequired": "Für die Home Assistant Synchronisierung ist ein aktives Abo erforderlich.",
+  "homeAssistantTitle": "Home Assistant",
+  "homeAssistantTokenTest": "Token testen",
+  "homeAssistantUnknownInstance": "Unbekannte Instanz",
+  "homeAssistantUnlink": "Entknüpfen",
+  "homeAssistantUrlInvalid": "Bitte geben Sie eine gültige Home Assistant URL ein.",
+  "homeAssistantUrlLabel": "Home Assistant URL",
+  "homeAssistantUrlRequired": "Bitte geben Sie die Home Assistant URL ein.",
   "houseName": "Hausbezeichnung",
   "houseNameDescription": "Hausbezeichnung, z.B. Straßenname",
+  "houseNumber": "Hausnummer",
   "import": "Import",
   "importConfirm": "Import bestätigen",
   "importCounterAsCsv": "Möchten Sie einen einzelnen Zähler importieren? Unterstützt wird pro Zähler eine CSV-Datei mit zwei Spalten, eine für den Zeitpunkt (ISO-Norm) und eine für den Zählerstand.\n\nDatenbeispiel:\n2020-04-01T22:59:00,6790.855\n\"2020-04-01T23:59\";6795.421;Notiz\n2020-04-01 22:22,6803.435\n2012-04-01,13:27:00,6807.467\n20120401 13:27:00,6807.467,Notiz ohne Komma\n2.4.2020,6807",
@@ -479,6 +535,7 @@
   "last12Months": "Letzte 12 Monate",
   "last12Weeks": "Letzte 12 Wochen",
   "last2Weeks": "Letzte 14 Tage",
+  "lastName": "Nachname",
   "lastReading": "letzte Ablesung",
   "lastYear": "Letztes Jahr",
   "lineChartAppearanceSettings": "Darstellung der Liniendiagramme",
@@ -669,7 +726,6 @@
   "roomType": "Raumtyp",
   "roomWc": "WC",
   "rooms": "Räume",
-  "withoutRoomAssignment": "Ohne Raumzuweisung",
   "scanQrCode": "Aktivierungscode scannen",
   "seasonalCounter": "Saisonaler Zähler",
   "seasonalElectricityCounter": "Saisonaler Stromzähler",
@@ -690,9 +746,9 @@
   "settingObjectType": "Objekttyp",
   "settingObjectTypeFlat": "Wohnung",
   "settingObjectTypeHouse": "Haus",
-  "settingShowCounterReadingsChart": "Verlauf anzeigen",
+  "settingShowCounterReadingsChart": "Zählerstände-Chart anzeigen",
   "settingShowHeatmap": "Heatmap anzeigen",
-  "settingShowPreliminaryCurve": "Vorläufige Kurve anzeigen",
+  "settingShowPreliminaryCurve": "Kurve für Vorzeitraum anzeigen",
   "settingUiColorPalette": "Farbpalette",
   "settingUiMode": "Darstellung",
   "settingUiModeDark": "Dunkel",
@@ -704,61 +760,6 @@
   "settingYearlyResetOn": "am",
   "settings": "Einstellungen",
   "settingsExternalServices": "Externe Dienste",
-  "homeAssistantAccessTokenLabel": "Long-Lived Access Token",
-  "homeAssistantAccessTokenRequired": "Bitte geben Sie den Long-Lived Access Token ein.",
-  "homeAssistantConfigureNow": "Jetzt einrichten",
-  "homeAssistantConfiguredSubtitle": "{instanceName} - Version {version}",
-  "@homeAssistantConfiguredSubtitle": {
-    "placeholders": {
-      "instanceName": {
-        "type": "String"
-      },
-      "version": {
-        "type": "String"
-      }
-    }
-  },
-  "homeAssistantConnectionFailed": "Verbindung fehlgeschlagen: {error}",
-  "@homeAssistantConnectionFailed": {
-    "placeholders": {
-      "error": {
-        "type": "String"
-      }
-    }
-  },
-  "homeAssistantConnectionSuccessful": "Verbindung zu Home Assistant erfolgreich hergestellt.",
-  "homeAssistantDefaultActivityLabel": "Standardaktivität",
-  "homeAssistantHistoricalConsumptionsDescription": "Wählen Sie Home Assistant Verbrauchssensoren, für die im aktuellen EHW+ Objekt Zähler erstellt und aktualisiert werden sollen.",
-  "homeAssistantHistoricalConsumptionsTitle": "Historische EHW+ Verbräuche",
-  "homeAssistantLiveMeasurementApparentPower": "Scheinleistung",
-  "homeAssistantLiveMeasurementCurrent": "Stromstärke",
-  "homeAssistantLiveMeasurementPower": "Leistung",
-  "homeAssistantLiveMeasurementReactivePower": "Blindleistung",
-  "homeAssistantLiveMeasurementVoltage": "Spannung",
-  "homeAssistantLiveMeasurementsConnecting": "Verbindung zu Home Assistant wird hergestellt...",
-  "homeAssistantLiveMeasurementsError": "Home Assistant Live-Daten konnten nicht geladen werden.",
-  "homeAssistantLiveMeasurementsNoData": "Für diesen Sensor wurden keine Live-Werte erkannt.",
-  "homeAssistantLinkSensor": "Sensor verknüpfen",
-  "homeAssistantLoadSensors": "Sensoren laden",
-  "homeAssistantLocalUrlWarning": "Das sieht nach einer lokalen URL aus. Die Synchronisierung wird nur versucht, wenn das Gerät mit dem lokalen Netzwerk verbunden ist.",
-  "homeAssistantNoDefaultActivity": "Keine Standardaktivität",
-  "homeAssistantNoPushCounters": "In diesem Objekt gibt es keine Zähler, die zu Home Assistant gepusht werden können.",
-  "homeAssistantNoSensors": "Es wurden keine passenden Verbrauchssensoren gefunden.",
-  "homeAssistantNotConfiguredSubtitle": "Zählerstände und Verbräuche mit Home Assistant synchronisieren.",
-  "homeAssistantPlugTitle": "Plug",
-  "homeAssistantPlugUnavailable": "Plug nicht verfügbar",
-  "homeAssistantPushCountersDescription": "Wählen Sie EHW+ Zähler, deren Verbrauchsstatistiken nach Änderungen an Home Assistant übertragen werden sollen.",
-  "homeAssistantPushCountersTitle": "EHW+ Zähler pushen",
-  "homeAssistantSettingsDescription": "Verbinden Sie EHW+ mit Ihrer Home Assistant Instanz, um Zählerstände ausgewählter Sensoren zu beziehen oder EHW+ Statistiken bereitzustellen.",
-  "homeAssistantSettingsTitle": "Home Assistant",
-  "homeAssistantSubscriptionRequired": "Für die Home Assistant Synchronisierung ist ein aktives Abo erforderlich.",
-  "homeAssistantTitle": "Home Assistant",
-  "homeAssistantTokenTest": "Token testen",
-  "homeAssistantUnlink": "Entknüpfen",
-  "homeAssistantUnknownInstance": "Unbekannte Instanz",
-  "homeAssistantUrlInvalid": "Bitte geben Sie eine gültige Home Assistant URL ein.",
-  "homeAssistantUrlLabel": "Home Assistant URL",
-  "homeAssistantUrlRequired": "Bitte geben Sie die Home Assistant URL ein.",
   "settingsShowStromGedacht": "Sollen Hinweise von StromGedacht zum Stromnetz angezeigt werden?",
   "settingsShowTabNewsDetailed": "Soll der Tipps/News Tab sichtbar sein?",
   "showAllYears": "Alle Jahre anzeigen",
@@ -769,14 +770,14 @@
   "sinceInitialReading": "Seit Erstablesung",
   "smartMeterCountersTitle": "Funkwasserzähler",
   "smartMeterErrorNoData": "Es gibt leider keine Daten, welche die App anzeigen könnte.",
-  "smartMeterReadingsSyncFailed": "Smart-Meter-Synchronisierung fehlgeschlagen",
   "smartMeterMisconfiguredWidgetCardButton": "Smartmeter einrichten",
   "smartMeterMisconfiguredWidgetCardTitle": "Bitte richten Sie Ihren Smartmeter richtig ein.",
   "smartMeterObtainDataAutomatically": "Daten automatisch beziehen",
   "smartMeterProviderTibber": "Tibber",
   "smartMeterProviderUndefined": "Nicht gesetzt",
-  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
   "smartMeterProviderWtl": "Wasserverband Tecklenburger Land",
+  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
+  "smartMeterReadingsSyncFailed": "Smart-Meter-Synchronisierung fehlgeschlagen",
   "smartMeterServiceProvider": "Serviceanbieter",
   "smartMeterSettingsScreenSyncButton": "Verbrauchsdaten synchronisieren",
   "smartMeterSettingsScreenSyncingDialogError": "Fehler",
@@ -1045,6 +1046,8 @@
   "waterSupplierHint": "Ihr Nahversorger für Wasser, z.B. Stadtwerke Musterstadt",
   "waterSupplierReauthenticationRequired": "Bitte melden Sie sich erneut an, um Ihre vorhandenen Funkwasserzähler weiter zu nutzen.",
   "waterSupplierUnknown": "Ihr Wasserversorger ist uns leider noch nicht bekannt. Schreiben Sie uns gerne an. Anbieter, die nur Strom und Gas anbieten, erscheinen hier nicht.",
+  "watersupplierAccessRequestDenied": "Ihre Zugriffsanfrage wurde abgelehnt. Sie können diesen Zähler löschen.",
+  "watersupplierAccessRequestPending": "Ihre Zugriffsanfrage ist noch offen. Bitte haben Sie noch etwas Geduld.",
   "watersupplierAccessRequestQ1": "Sie sind Eigentümer einer Immobilie im Einzugsgebiet des Wasserversorgers und möchten Zugang zu Funkzählerständen haben?",
   "watersupplierAccessRequestQ2": "Sie haben bereits Zugriff beantragt? Als nächstes müssen Sie sich ein EHW+ Nutzerkonto erstellen.",
   "watersupplierAccessRequestQ3": "Sie haben bereits Zugriff beantragt und haben Ihren QR-Code erhalten?",
@@ -1052,8 +1055,6 @@
   "watersupplierCompleteMeterIdServerErrorTryAgain": "Ohh, das hat leider nicht geklappt. Es lag an unserem Server. Versuchen Sie es besser zu einem späteren Zeitpunkt noch einmal!",
   "watersupplierCompleteMeterIdTryAgain": "Das hat nicht geklappt. Bitte geben Sie die letzten drei Ziffern ihrer Zählernummer erneut ein!",
   "watersupplierMeterIdValidationStep": "Die Zählernummer wird nun geprüft.",
-  "watersupplierAccessRequestDenied": "Ihre Zugriffsanfrage wurde abgelehnt. Sie können diesen Zähler löschen.",
-  "watersupplierAccessRequestPending": "Ihre Zugriffsanfrage ist noch offen. Bitte haben Sie noch etwas Geduld.",
   "watersupplierNoAccess": "Sie haben keine Berechtigung mehr, um Daten abzurufen.",
   "watersupplierNoAccessDetailedMessage": "Wenn Sie der Meinung sind, dass Sie unverändert Zugriff haben sollten, scannen Sie bitte erneut Ihren Aktivierungscode. Ist der Zugriffscode nicht mehr gültig, dann stellen Sie bitte eine neue Zugriffsanfrage.",
   "watersupplierOpenReminderSettings": "Einstellungen öffnen",
@@ -1077,9 +1078,7 @@
   "watersupplierUnlinkRadioMeterFailure": "Der Funkzähler konnte nicht gelöscht werden. Bitte versuchen Sie es später erneut.",
   "watersupplierUnlinkRadioMeterTitle": "Funkzählerzugriff beenden",
   "watersupplierUnlinkRadioMeterWtlDescription": "Wenn Sie diesen Funkzähler löschen, wird Ihr Zugriff auf die Funkzählerstände widerrufen. Sie können später eine neue Zugriffsanfrage stellen.",
-  "firstName": "Vorname",
-  "houseNumber": "Hausnummer",
-  "lastName": "Nachname",
+  "withoutRoomAssignment": "Ohne Raumzuweisung",
   "wtlAccessRequestFailure": "Die Zugriffsanfrage konnte nicht erstellt werden.",
   "wtlAccessRequestMeterId": "Zählernummer",
   "wtlAccessRequestMissingAccountData": "In Ihrem Konto fehlt eine E-Mail-Adresse.",
@@ -1093,9 +1092,8 @@
   "youtubeConsent1": "Wir benötigen Ihre Einwilligung, um den eingebundenen Youtube-Inhalt anzuzeigen. Sie können diesen (und damit auch alle weiteren Youtube-Inhalte in der App) mit einem Klick anzeigen lassen und auch wieder deaktivieren.",
   "youtubeConsent2": "Youtube-Inhalte immer anzeigen",
   "youtubeConsent3": "Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit können personenbezogene Daten an Drittplattformen übermittelt werden. Mehr dazu in unseren ",
-  "addressValidationRequired": "{label} ist erforderlich",
   "zipCode": "Postleitzahl",
+  "zipCodeValidationGeneral": "Bitte eine gültige Postleitzahl eingeben",
   "zipCodeValidationLength": "Bitte {digits}-stellige Postleitzahl eingeben",
-  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen",
-  "zipCodeValidationGeneral": "Bitte eine gültige Postleitzahl eingeben"
+  "zipCodeValidationOnlyNumbers": "Eine gültige Postleitzahl besteht nur aus Zahlen"
 }

@@ -45,17 +45,17 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get accountUpdateInfo => 'Nou: Contul de utilizator EHW+';
 
   @override
+  String get activitiesDefinitionsTab => 'Activități';
+
+  @override
   String get activitiesDescription =>
       'Legarea citirilor contoarelor de activități, de exemplu, spălarea cu contoare de apă rece și contoare de electricitate.';
 
   @override
-  String get activitiesDefinitionsTab => 'Activities';
+  String get activitiesTimelineEmpty => 'Nu au fost înregistrate încă activități.';
 
   @override
-  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
-
-  @override
-  String get activitiesTimelineTab => 'Timeline';
+  String get activitiesTimelineTab => 'Cronologie';
 
   @override
   String get activitiesTitle => 'Activitățile mele';
@@ -115,6 +115,20 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get addNewValue => 'Introduceți noua valoare';
 
   @override
+  String get addressAdministrativeArea => 'Stat / regiune / provincie';
+
+  @override
+  String get addressLocality => 'Oraș / localitate';
+
+  @override
+  String get addressStreet => 'Strada / linia de adresă';
+
+  @override
+  String addressValidationRequired(String label) {
+    return 'Vă rugăm să introduceți $label';
+  }
+
+  @override
   String get advancePayment => 'Plata în avans';
 
   @override
@@ -140,6 +154,11 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Plata anticipată lunară recomandată: $recommendedAmount în loc de $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDue(int day, String cadence) {
     return 'Termenul de plată este în ziua de $day a lunii, $cadence.';
   }
@@ -155,14 +174,15 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   }
 
   @override
-  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
-    return 'Plata anticipată lunară recomandată: $recommendedAmount în loc de $currentAmount';
-  }
-
-  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Suma avansului de la $amount trebuie achitată în ziua de $day a lunii, $cadence.';
   }
+
+  @override
+  String get ammeterConsumptionByDevices => 'Consumul de energie electrică pe dispozitive';
+
+  @override
+  String get ammeterConsumptionByRooms => 'Consumul de energie electrică pe camere';
 
   @override
   String get appBarExpandedMode => 'Bara de aplicații cu imagine de fundal';
@@ -746,9 +766,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get contractNumber => 'Numărul contractului';
 
   @override
-  String get customerId => 'Customer ID';
-
-  @override
   String get contractPeriod => 'Perioada contractului';
 
   @override
@@ -788,13 +805,13 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get corresponds => 'corespunde';
 
   @override
-  String get costSummary => 'Rezumatul costurilor';
-
-  @override
   String get costOverviewAdvancePaymentsBar => 'Plăți în avans efectuate';
 
   @override
   String get costOverviewContractCostsBar => 'Costuri bazate pe consum + taxe de bază pentru perioada contractuală';
+
+  @override
+  String get costSummary => 'Rezumatul costurilor';
 
   @override
   String get costSummaryYield => 'Prețul remunerației/prețul de bază';
@@ -833,6 +850,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get counter => 'Contor';
+
+  @override
+  String get counterAmmeter => 'Dispozitiv de măsurare a electricității';
 
   @override
   String get counterBackgroundImage => 'Imagine de fundal pentru contor';
@@ -884,9 +904,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Contor de electricitate';
-
-  @override
-  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'Contor de alimentare cu energie electrică (PV)';
@@ -1013,12 +1030,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get counterShowHeatmap => 'Afișați harta termică';
 
   @override
-  String get counterShowPreliminaryCurve => 'Afișați curba preliminară';
-
-  @override
-  String get counterShowReadingsChart => 'Afișați graficul lecturilor';
-
-  @override
   String get counterTankCapacity => 'Capacitatea rezervorului';
 
   @override
@@ -1065,6 +1076,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get currency => 'Valută';
+
+  @override
+  String get customerId => 'ID client';
 
   @override
   String deleteObjectError(int errorCode) {
@@ -1140,12 +1154,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => 'Consumul de energie';
-
-  @override
-  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
-
-  @override
-  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
 
   @override
   String get electricityGenerated => 'Electricitate generată';
@@ -1294,6 +1302,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get fedIn => 'Fed în';
 
   @override
+  String get firstName => 'Numele și prenumele';
+
+  @override
   String get firstReadingConsumption => 'Introduceți primul consum acum.';
 
   @override
@@ -1340,19 +1351,138 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mai multe despre harta termică';
 
   @override
-  String get addressAdministrativeArea => 'Stat / regiune / provincie';
+  String get homeAssistantAccessTokenLabel => 'Jeton de acces cu durată lungă de viață';
 
   @override
-  String get addressLocality => 'Oraș / localitate';
+  String get homeAssistantAccessTokenRequired => 'Vă rugăm să introduceți un jeton de acces de lungă durată.';
 
   @override
-  String get addressStreet => 'Strada / linia de adresă';
+  String get homeAssistantConfigureNow => 'Configurați acum';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Versiune$version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Eroare de conexiune: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Conexiunea la Home Assistant a fost reușită.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Activitate implicită';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Selectați senzorii de consum Home Assistant care ar trebui să creeze și să actualizeze contoare în obiectul EHW+ curent.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Consumuri istorice EHW+';
+
+  @override
+  String get homeAssistantLinkSensor => 'Senzor de legătură';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Putere aparentă';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Curent';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Putere';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Putere reactivă';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Tensiune';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Conectarea la Home Assistant...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Datele Home Assistant live nu au putut fi încărcate.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'Nu au fost detectate valori active pentru acest senzor.';
+
+  @override
+  String get homeAssistantLoadSensors => 'Senzori de sarcină';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'Aceasta arată ca o adresă URL locală. Sincronizarea este încercată numai în timp ce dispozitivul este conectat la rețeaua locală.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'Nicio activitate implicită';
+
+  @override
+  String get homeAssistantNoPushCounters =>
+      'Nu există contoare în acest obiect care să poată fi transmise către Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'Nu au fost găsiți senzori de consum adecvați.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle =>
+      'Sincronizați citirile contoarelor și consumurile cu Home Assistant.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Plug';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Ștecher indisponibil';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Selectați contoarele EHW+ ale căror statistici de consum ar trebui să fie transmise către Home Assistant după modificări.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Împingeți contoarele EHW+';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Conectați EHW+ cu instanța Home Assistant pentru a extrage citirile contorului de la senzorii selectați sau pentru a trimite statistici EHW+.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Asistent la domiciliu';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'Este necesar un abonament activ pentru sincronizarea Home Assistant.';
+
+  @override
+  String get homeAssistantTitle => 'Asistent la domiciliu';
+
+  @override
+  String get homeAssistantTokenTest => 'Jeton de testare';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Instanță necunoscută';
+
+  @override
+  String get homeAssistantUnlink => 'Dezlegare';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Vă rugăm să introduceți o adresă URL validă pentru Home Assistant.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Asistent acasă URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Vă rugăm să introduceți URL-ul asistentului de acasă.';
 
   @override
   String get houseName => 'Numele casei';
 
   @override
   String get houseNameDescription => 'Numele casei, de ex. numele străzii';
+
+  @override
+  String get houseNumber => 'Numărul casei';
 
   @override
   String get import => 'Import';
@@ -1446,6 +1576,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get last2Weeks => 'Ultimele 14 zile';
+
+  @override
+  String get lastName => 'Numele de familie';
 
   @override
   String get lastReading => 'ultima lectură';
@@ -2113,9 +2246,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get rooms => 'Camere';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
-
-  @override
   String get scanQrCode => 'Scanați codul qr de activare';
 
   @override
@@ -2180,7 +2310,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => 'Casa';
 
   @override
-  String get settingShowCounterReadingsChart => 'Afișați graficul lecturilor';
+  String get settingShowCounterReadingsChart => 'Afișați graficul citirii contorului';
 
   @override
   String get settingShowHeatmap => 'Afișați harta termică';
@@ -2222,130 +2352,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Servicii externe';
 
   @override
-  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
-
-  @override
-  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
-
-  @override
-  String get homeAssistantConfigureNow => 'Set up now';
-
-  @override
-  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
-    return '$instanceName - Version $version';
-  }
-
-  @override
-  String homeAssistantConnectionFailed(String error) {
-    return 'Connection failed: $error';
-  }
-
-  @override
-  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
-
-  @override
-  String get homeAssistantDefaultActivityLabel => 'Default activity';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsDescription =>
-      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
-
-  @override
-  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
-
-  @override
-  String get homeAssistantLiveMeasurementCurrent => 'Current';
-
-  @override
-  String get homeAssistantLiveMeasurementPower => 'Power';
-
-  @override
-  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
-
-  @override
-  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
-
-  @override
-  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
-
-  @override
-  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
-
-  @override
-  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
-
-  @override
-  String get homeAssistantLinkSensor => 'Link sensor';
-
-  @override
-  String get homeAssistantLoadSensors => 'Load sensors';
-
-  @override
-  String get homeAssistantLocalUrlWarning =>
-      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
-
-  @override
-  String get homeAssistantNoDefaultActivity => 'No default activity';
-
-  @override
-  String get homeAssistantNoPushCounters =>
-      'There are no counters in this object that can be pushed to Home Assistant.';
-
-  @override
-  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
-
-  @override
-  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
-
-  @override
-  String get homeAssistantPlugTitle => 'Plug';
-
-  @override
-  String get homeAssistantPlugUnavailable => 'Plug unavailable';
-
-  @override
-  String get homeAssistantPushCountersDescription =>
-      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
-
-  @override
-  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
-
-  @override
-  String get homeAssistantSettingsDescription =>
-      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
-
-  @override
-  String get homeAssistantSettingsTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantSubscriptionRequired =>
-      'An active subscription is required for Home Assistant synchronization.';
-
-  @override
-  String get homeAssistantTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantTokenTest => 'Test token';
-
-  @override
-  String get homeAssistantUnlink => 'Unlink';
-
-  @override
-  String get homeAssistantUnknownInstance => 'Unknown instance';
-
-  @override
-  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
-
-  @override
-  String get homeAssistantUrlLabel => 'Home Assistant URL';
-
-  @override
-  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
-
-  @override
   String get settingsShowStromGedacht =>
       'Ar trebui să fie afișate sfaturi de la StromGedacht cu privire la rețeaua electrică?';
 
@@ -2378,9 +2384,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Din păcate, nu există date pe care aplicația să le poată afișa.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Sincronizarea contorului inteligent a eșuat';
-
-  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Configurarea contorului inteligent';
 
   @override
@@ -2396,10 +2399,13 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nu este setat';
 
   @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+
+  @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+  String get smartMeterReadingsSyncFailed => 'Sincronizarea contorului inteligent a eșuat';
 
   @override
   String get smartMeterServiceProvider => 'Furnizor de servicii';
@@ -3376,6 +3382,13 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Din păcate, nu cunoaștem încă furnizorul dumneavoastră de apă. Vă rugăm să nu ezitați să ne contactați. Furnizorii care oferă doar electricitate și gaz nu apar aici.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Cererea dvs. de acces a fost refuzată. Puteți șterge acest contor.';
+
+  @override
+  String get watersupplierAccessRequestPending =>
+      'Cererea dvs. de acces este încă în curs de procesare. Vă rugăm să aveți răbdare.';
+
+  @override
   String get watersupplierAccessRequestQ1 =>
       'Sunteți proprietarul unei proprietăți din zona de captare a furnizorului de apă și doriți să aveți acces la citirile contoarelor radio?';
 
@@ -3400,12 +3413,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierMeterIdValidationStep => 'Verificăm ID-ul contorului dvs.';
-
-  @override
-  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
-
-  @override
-  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
 
   @override
   String get watersupplierNoAccess => 'Nu mai aveți autorizație pentru a prelua date.';
@@ -3478,48 +3485,43 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Nu mai doriți să aveți acces la datele contorului dvs. radio? Vă rugăm să rețineți: odată ce codul de revocare este scanat, codul de activare devine invalid. Orice cont de utilizator care a utilizat codul de activare va pierde accesul.';
 
   @override
-  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+  String get watersupplierUnlinkRadioMeterFailure =>
+      'Contorul radio nu a putut fi șters. Vă rugăm să încercați din nou mai târziu.';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => 'Închiderea accesului la contorul radio';
 
   @override
   String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+      'Dacă ștergeți acest contor radio, accesul dvs. la citirile contorului radio va fi revocat. Puteți depune ulterior o nouă cerere de acces.';
 
   @override
-  String get firstName => 'First name';
+  String get withoutRoomAssignment => 'Fără repartizarea camerelor';
 
   @override
-  String get houseNumber => 'House number';
+  String get wtlAccessRequestFailure => 'Cererea de acces nu a putut fi creată.';
 
   @override
-  String get lastName => 'Last name';
+  String get wtlAccessRequestMeterId => 'ID contor';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get wtlAccessRequestMissingAccountData => 'Contului dvs. îi lipsește o adresă de e-mail.';
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+      'Vă rugăm să introduceți un ID contor cu cel puțin 8 caractere și un număr de obiect de serviciu.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String get wtlAccessRequestOnlineOnlyDescription => 'Cerere de acces online pentru Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+  String get wtlAccessRequestServiceObjectNumber => 'Numărul obiectului serviciului';
 
   @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
+  String get wtlAccessRequestSuccess => 'Cerere de acces creată.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'Cerere de acces WTL';
 
   @override
   String get yearlyConsumption => 'Consumul anual până în prezent';
@@ -3539,12 +3541,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Sunt de acord să mi se afișeze conținut extern. Acest lucru poate duce la transmiterea datelor personale către platforme terțe. Mai multe despre acest lucru în';
 
   @override
-  String addressValidationRequired(String label) {
-    return 'Vă rugăm să introduceți $label';
-  }
+  String get zipCode => 'cod poștal';
 
   @override
-  String get zipCode => 'cod poștal';
+  String get zipCodeValidationGeneral => 'Vă rugăm să introduceți un cod poștal valabil';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3553,7 +3553,4 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Un cod poștal valabil constă numai din numere';
-
-  @override
-  String get zipCodeValidationGeneral => 'Vă rugăm să introduceți un cod poștal valabil';
 }

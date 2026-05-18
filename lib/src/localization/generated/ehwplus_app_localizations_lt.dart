@@ -44,17 +44,17 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get accountUpdateInfo => 'Naujiena: EHW+ vartotojo paskyra';
 
   @override
+  String get activitiesDefinitionsTab => 'Veikla';
+
+  @override
   String get activitiesDescription =>
       'Susiekite skaitiklių rodmenis su veikla, pvz., plovimu šalto vandens ir elektros skaitikliais.';
 
   @override
-  String get activitiesDefinitionsTab => 'Activities';
+  String get activitiesTimelineEmpty => 'Kol kas jokia veikla neužregistruota.';
 
   @override
-  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
-
-  @override
-  String get activitiesTimelineTab => 'Timeline';
+  String get activitiesTimelineTab => 'Laiko juosta';
 
   @override
   String get activitiesTitle => 'Mano veikla';
@@ -114,6 +114,20 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get addNewValue => 'Įveskite naują vertę';
 
   @override
+  String get addressAdministrativeArea => 'Valstybė / regionas / provincija';
+
+  @override
+  String get addressLocality => 'Miestas / vietovė';
+
+  @override
+  String get addressStreet => 'Gatvė / adreso eilutė';
+
+  @override
+  String addressValidationRequired(String label) {
+    return 'Įveskite $label';
+  }
+
+  @override
   String get advancePayment => 'Avansinis mokėjimas';
 
   @override
@@ -140,6 +154,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Rekomenduojamas mėnesinis išankstinis mokėjimas: $recommendedAmount vietoj $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDue(int day, String cadence) {
     return 'Mokėjimo terminas – mėnesio $day diena, $cadence.';
   }
@@ -155,14 +174,15 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
-    return 'Rekomenduojamas mėnesinis išankstinis mokėjimas: $recommendedAmount vietoj $currentAmount';
-  }
-
-  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '„$amount“ avanso suma turi būti sumokėta kiekvieno mėnesio $day dieną, $cadence.';
   }
+
+  @override
+  String get ammeterConsumptionByDevices => 'Elektros energijos suvartojimas pagal prietaisus';
+
+  @override
+  String get ammeterConsumptionByRooms => 'Elektros energijos suvartojimas pagal kambarius';
 
   @override
   String get appBarExpandedMode => 'Programų juosta su fono paveikslėliu';
@@ -745,9 +765,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get contractNumber => 'Sutarties numeris';
 
   @override
-  String get customerId => 'Customer ID';
-
-  @override
   String get contractPeriod => 'Sutarties laikotarpis';
 
   @override
@@ -787,14 +804,14 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get corresponds => 'atitinka';
 
   @override
-  String get costSummary => 'Išlaidų suvestinė';
-
-  @override
   String get costOverviewAdvancePaymentsBar => 'Atlikti išankstiniai mokėjimai';
 
   @override
   String get costOverviewContractCostsBar =>
       'Suvartojimu pagrįstos išlaidos + baziniai mokesčiai už sutarties laikotarpį';
+
+  @override
+  String get costSummary => 'Išlaidų suvestinė';
 
   @override
   String get costSummaryYield => 'Atlyginimo kaina/-bazinė kaina';
@@ -833,6 +850,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get counter => 'Skaitliukas';
+
+  @override
+  String get counterAmmeter => 'Elektros energijos matavimo prietaisas';
 
   @override
   String get counterBackgroundImage => 'Fono vaizdas skaitikliui';
@@ -884,9 +904,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Elektros skaitiklis';
-
-  @override
-  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'Elektros tiekimo skaitiklis (PV)';
@@ -1012,12 +1029,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get counterShowHeatmap => 'Rodyti šilumos žemėlapį';
 
   @override
-  String get counterShowPreliminaryCurve => 'Rodyti preliminarią kreivę';
-
-  @override
-  String get counterShowReadingsChart => 'Rodyti rodmenų lentelę';
-
-  @override
   String get counterTankCapacity => 'Bako talpa';
 
   @override
@@ -1064,6 +1075,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get currency => 'Valiuta';
+
+  @override
+  String get customerId => 'Kliento ID';
 
   @override
   String deleteObjectError(int errorCode) {
@@ -1139,12 +1153,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => 'Energijos suvartojimas';
-
-  @override
-  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
-
-  @override
-  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
 
   @override
   String get electricityGenerated => 'Gaminama elektra';
@@ -1293,6 +1301,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get fedIn => 'Įvedė';
 
   @override
+  String get firstName => 'Vardas ir pavardė';
+
+  @override
   String get firstReadingConsumption => 'Įveskite pirmąjį suvartojimą dabar.';
 
   @override
@@ -1339,19 +1350,138 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Daugiau apie šilumos žemėlapį';
 
   @override
-  String get addressAdministrativeArea => 'Valstybė / regionas / provincija';
+  String get homeAssistantAccessTokenLabel => 'Ilgalaikis prieigos simbolis';
 
   @override
-  String get addressLocality => 'Miestas / vietovė';
+  String get homeAssistantAccessTokenRequired => 'Įveskite ilgalaikį prieigos simbolį.';
 
   @override
-  String get addressStreet => 'Gatvė / adreso eilutė';
+  String get homeAssistantConfigureNow => 'Nustatykite dabar';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Versija „$version“';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Nepavyko prisijungti: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Ryšys su \"Home Assistant\" sėkmingai užmegztas.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Numatytoji veikla';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Pasirinkite \"Home Assistant\" vartojimo jutiklius, kurie turėtų sukurti ir atnaujinti dabartinio EHW+ objekto skaitiklius.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Istorinis EHW+ suvartojimas';
+
+  @override
+  String get homeAssistantLinkSensor => 'Nuorodos jutiklis';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Tariamoji galia';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Dabartinis';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Maitinimas';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reaktyvioji galia';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Įtampa';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Prisijungimas prie \"Home Assistant\"...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Nepavyko įkelti \"Home Assistant\" tiesioginių duomenų.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'Šio jutiklio tiesioginių verčių neaptikta.';
+
+  @override
+  String get homeAssistantLoadSensors => 'Krovinio jutikliai';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'Tai atrodo kaip vietinis URL. Sinchronizuoti bandoma tik tada, kai prietaisas yra prijungtas prie vietinio tinklo.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'Nėra numatytoji veikla';
+
+  @override
+  String get homeAssistantNoPushCounters =>
+      'Šiame objekte nėra jokių skaitiklių, kuriuos būtų galima perkelti į \"Home Assistant\".';
+
+  @override
+  String get homeAssistantNoSensors => 'Tinkamų vartojimo jutiklių nerasta.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle =>
+      'Sinchronizuokite skaitiklių rodmenis ir suvartojimą su \"Home Assistant\".';
+
+  @override
+  String get homeAssistantPlugTitle => 'Kištukas';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Kištukas neprieinamas';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Pasirinkite EHW+ skaitiklius, kurių suvartojimo statistiniai duomenys po pakeitimų turėtų būti perkeliami į \"Home Assistant\".';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Paspauskite EHW+ skaitiklius';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Sujunkite \"EHW+\" su \"Home Assistant\" instancija, kad galėtumėte gauti pasirinktų jutiklių skaitiklių rodmenis arba perduoti \"EHW+\" statistinius duomenis.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Pagrindinis asistentas';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'Norint sinchronizuoti \"Home Assistant\", būtina aktyvi prenumerata.';
+
+  @override
+  String get homeAssistantTitle => 'Pagrindinis asistentas';
+
+  @override
+  String get homeAssistantTokenTest => 'Bandomasis simbolis';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Nežinomas atvejis';
+
+  @override
+  String get homeAssistantUnlink => 'Atsieti';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Įveskite galiojantį \"Home Assistant\" URL adresą.';
+
+  @override
+  String get homeAssistantUrlLabel => '\"Home Assistant\" URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Įveskite \"Home Assistant\" URL adresą.';
 
   @override
   String get houseName => 'Namo pavadinimas';
 
   @override
   String get houseNameDescription => 'Namo pavadinimas, pvz.gatvės pavadinimas';
+
+  @override
+  String get houseNumber => 'Namo numeris';
 
   @override
   String get import => 'Importuoti';
@@ -1445,6 +1575,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get last2Weeks => 'Paskutines 14 dienų';
+
+  @override
+  String get lastName => 'Pavardė';
 
   @override
   String get lastReading => 'paskutinis skaitymas';
@@ -2111,9 +2244,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get rooms => 'Kambariai';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
-
-  @override
   String get scanQrCode => 'Nuskaityti aktyvinimo QR kodą';
 
   @override
@@ -2178,7 +2308,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => 'Namas';
 
   @override
-  String get settingShowCounterReadingsChart => 'Rodyti rodmenų lentelę';
+  String get settingShowCounterReadingsChart => 'Rodyti skaitiklio rodmenų diagramą';
 
   @override
   String get settingShowHeatmap => 'Rodyti šilumos žemėlapį';
@@ -2220,130 +2350,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Išorinės paslaugos';
 
   @override
-  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
-
-  @override
-  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
-
-  @override
-  String get homeAssistantConfigureNow => 'Set up now';
-
-  @override
-  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
-    return '$instanceName - Version $version';
-  }
-
-  @override
-  String homeAssistantConnectionFailed(String error) {
-    return 'Connection failed: $error';
-  }
-
-  @override
-  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
-
-  @override
-  String get homeAssistantDefaultActivityLabel => 'Default activity';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsDescription =>
-      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
-
-  @override
-  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
-
-  @override
-  String get homeAssistantLiveMeasurementCurrent => 'Current';
-
-  @override
-  String get homeAssistantLiveMeasurementPower => 'Power';
-
-  @override
-  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
-
-  @override
-  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
-
-  @override
-  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
-
-  @override
-  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
-
-  @override
-  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
-
-  @override
-  String get homeAssistantLinkSensor => 'Link sensor';
-
-  @override
-  String get homeAssistantLoadSensors => 'Load sensors';
-
-  @override
-  String get homeAssistantLocalUrlWarning =>
-      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
-
-  @override
-  String get homeAssistantNoDefaultActivity => 'No default activity';
-
-  @override
-  String get homeAssistantNoPushCounters =>
-      'There are no counters in this object that can be pushed to Home Assistant.';
-
-  @override
-  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
-
-  @override
-  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
-
-  @override
-  String get homeAssistantPlugTitle => 'Plug';
-
-  @override
-  String get homeAssistantPlugUnavailable => 'Plug unavailable';
-
-  @override
-  String get homeAssistantPushCountersDescription =>
-      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
-
-  @override
-  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
-
-  @override
-  String get homeAssistantSettingsDescription =>
-      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
-
-  @override
-  String get homeAssistantSettingsTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantSubscriptionRequired =>
-      'An active subscription is required for Home Assistant synchronization.';
-
-  @override
-  String get homeAssistantTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantTokenTest => 'Test token';
-
-  @override
-  String get homeAssistantUnlink => 'Unlink';
-
-  @override
-  String get homeAssistantUnknownInstance => 'Unknown instance';
-
-  @override
-  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
-
-  @override
-  String get homeAssistantUrlLabel => 'Home Assistant URL';
-
-  @override
-  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
-
-  @override
   String get settingsShowStromGedacht => 'Ar turėtų būti rodomi StromGedacht patarimai apie elektros tinklą?';
 
   @override
@@ -2375,9 +2381,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Deja, nėra duomenų, kuriuos programa galėtų rodyti.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Nepavyko sinchronizuoti išmaniojo skaitiklio';
-
-  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Nustatykite išmanųjį skaitiklį';
 
   @override
@@ -2393,10 +2396,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nenustatyta';
 
   @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+
+  @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+  String get smartMeterReadingsSyncFailed => 'Nepavyko sinchronizuoti išmaniojo skaitiklio';
 
   @override
   String get smartMeterServiceProvider => 'Paslaugų teikėjas';
@@ -3379,6 +3385,12 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Deja, kol kas nežinome jūsų vandens tiekėjo. Nedvejodami rašykite mums. Tiekėjai, kurie siūlo tik elektros energiją ir dujas, čia nepateikiami.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Jūsų prieigos užklausa buvo atmesta. Galite ištrinti šį matuoklį.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Jūsų prieigos prašymas vis dar nagrinėjamas. Būkite kantrūs.';
+
+  @override
   String get watersupplierAccessRequestQ1 =>
       'Ar esate vandens tiekėjo aptarnaujamoje teritorijoje esančio nekilnojamojo turto savininkas ir norėtumėte turėti prieigą prie radijo skaitiklių rodmenų?';
 
@@ -3402,12 +3414,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierMeterIdValidationStep => 'Mes tikriname jūsų skaitiklio ID.';
-
-  @override
-  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
-
-  @override
-  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
 
   @override
   String get watersupplierNoAccess => 'Nebeturite leidimo gauti duomenų.';
@@ -3480,48 +3486,43 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Ar nebenorite prieiti prie radijo skaitiklio duomenų? Atkreipkite dėmesį: kai atšaukimo kodas nuskaitomas, aktyvinimo kodas tampa negaliojantis. Bet kuri vartotojo paskyra, kuri naudojo aktyvinimo kodą, neteks prieigos.';
 
   @override
-  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+  String get watersupplierUnlinkRadioMeterFailure => 'Radijo matuoklio nepavyko ištrinti. Prašome pabandyti vėliau.';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => 'Nutraukti radijo skaitiklio prieigą';
 
   @override
   String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+      'Jei ištrinsite šį radijo matuoklį, jūsų prieiga prie radijo matuoklio rodmenų bus panaikinta. Vėliau galėsite pateikti naują prieigos prašymą.';
 
   @override
-  String get firstName => 'First name';
+  String get withoutRoomAssignment => 'Be kambario paskyrimo';
 
   @override
-  String get houseNumber => 'House number';
+  String get wtlAccessRequestFailure => 'Nepavyko sukurti prieigos užklausos.';
 
   @override
-  String get lastName => 'Last name';
+  String get wtlAccessRequestMeterId => 'Skaitiklio ID';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get wtlAccessRequestMissingAccountData => 'Jūsų paskyroje trūksta el. pašto adreso.';
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+      'Įveskite skaitiklio ID, kurį sudaro ne mažiau kaip 8 simboliai, ir paslaugos objekto numerį.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String get wtlAccessRequestOnlineOnlyDescription =>
+      'Prašymas suteikti prieigą internetu prie Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+  String get wtlAccessRequestServiceObjectNumber => 'Paslaugos objekto numeris';
 
   @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
+  String get wtlAccessRequestSuccess => 'Sukurta prieigos užklausa.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'WTL prieigos prašymas';
 
   @override
   String get yearlyConsumption => 'Metinis suvartojimas iki šiol';
@@ -3541,12 +3542,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Sutinku, kad man būtų rodomas išorinis turinys. Dėl to asmens duomenys gali būti perduodami trečiųjų šalių platformoms. Daugiau apie tai mūsų';
 
   @override
-  String addressValidationRequired(String label) {
-    return 'Įveskite $label';
-  }
+  String get zipCode => 'pašto kodas';
 
   @override
-  String get zipCode => 'pašto kodas';
+  String get zipCodeValidationGeneral => 'Įveskite galiojantį pašto kodą';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3555,7 +3554,4 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Galiojantį pašto kodą sudaro tik skaičiai';
-
-  @override
-  String get zipCodeValidationGeneral => 'Įveskite galiojantį pašto kodą';
 }

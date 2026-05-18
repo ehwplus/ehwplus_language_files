@@ -44,16 +44,16 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get accountUpdateInfo => 'Uus: EHW+ kasutajakonto';
 
   @override
+  String get activitiesDefinitionsTab => 'Tegevused';
+
+  @override
   String get activitiesDescription => 'Seo arvestinäidud tegevustega, nt pesu külma vee ja elektriarvestitega.';
 
   @override
-  String get activitiesDefinitionsTab => 'Activities';
+  String get activitiesTimelineEmpty => 'Ühtegi tegevust ei ole veel registreeritud.';
 
   @override
-  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
-
-  @override
-  String get activitiesTimelineTab => 'Timeline';
+  String get activitiesTimelineTab => 'Ajakava';
 
   @override
   String get activitiesTitle => 'Minu tegevused';
@@ -113,6 +113,20 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get addNewValue => 'Sisesta uus väärtus';
 
   @override
+  String get addressAdministrativeArea => 'Riik/piirkond/provints';
+
+  @override
+  String get addressLocality => 'Linn / paikkond';
+
+  @override
+  String get addressStreet => 'Tänav / aadressi rida';
+
+  @override
+  String addressValidationRequired(String label) {
+    return 'Palun sisestage $label';
+  }
+
+  @override
   String get advancePayment => 'Ettemaks';
 
   @override
@@ -138,6 +152,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Soovitatav igakuine ettemakse: $recommendedAmount asemel $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDue(int day, String cadence) {
     return 'Makse tähtaeg on kuu $day. päeval, $cadence.';
   }
@@ -153,14 +172,15 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   }
 
   @override
-  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
-    return 'Soovitatav igakuine ettemakse: $recommendedAmount asemel $currentAmount';
-  }
-
-  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '${amount}i ettemakse tuleb tasuda kuu $day. kuupäeval, $cadence.';
   }
+
+  @override
+  String get ammeterConsumptionByDevices => 'Elektritarbimine seadmete kaupa';
+
+  @override
+  String get ammeterConsumptionByRooms => 'Elektritarbimine ruumide kaupa';
 
   @override
   String get appBarExpandedMode => 'Taustapildiga rakendusriba';
@@ -746,9 +766,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get contractNumber => 'Lepingu number';
 
   @override
-  String get customerId => 'Customer ID';
-
-  @override
   String get contractPeriod => 'Lepingu periood';
 
   @override
@@ -788,13 +805,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get corresponds => 'vastab';
 
   @override
-  String get costSummary => 'Kulude kokkuvõte';
-
-  @override
   String get costOverviewAdvancePaymentsBar => 'Tehtud ettemaksed';
 
   @override
   String get costOverviewContractCostsBar => 'Tarbimisepõhised kulud + põhitasud lepinguperioodi eest';
+
+  @override
+  String get costSummary => 'Kulude kokkuvõte';
 
   @override
   String get costSummaryYield => 'Tasu hind/põhihind';
@@ -833,6 +850,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get counter => 'Loendur';
+
+  @override
+  String get counterAmmeter => 'Elektrienergia mõõtmise seade';
 
   @override
   String get counterBackgroundImage => 'Arvesti taustapilt';
@@ -884,9 +904,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Elektriarvesti';
-
-  @override
-  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'Elektri võrku andmise arvesti (PV)';
@@ -1012,12 +1029,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get counterShowHeatmap => 'Näita soojuskaarti';
 
   @override
-  String get counterShowPreliminaryCurve => 'Näita esialgset kõverat';
-
-  @override
-  String get counterShowReadingsChart => 'Näita näitude diagrammi';
-
-  @override
   String get counterTankCapacity => 'Paagi maht';
 
   @override
@@ -1064,6 +1075,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get currency => 'Valuuta';
+
+  @override
+  String get customerId => 'Kliendi ID';
 
   @override
   String deleteObjectError(int errorCode) {
@@ -1139,12 +1153,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => 'Elektritarbimine';
-
-  @override
-  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
-
-  @override
-  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
 
   @override
   String get electricityGenerated => 'Toodetud elekter';
@@ -1292,6 +1300,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get fedIn => 'Sisestatud';
 
   @override
+  String get firstName => 'Eesnimi';
+
+  @override
   String get firstReadingConsumption => 'Sisesta praegune tarbimine.';
 
   @override
@@ -1338,19 +1349,135 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Rohkem soojustabeli kohta';
 
   @override
-  String get addressAdministrativeArea => 'Riik/piirkond/provints';
+  String get homeAssistantAccessTokenLabel => 'Pikaajaline juurdepääsutunnus';
 
   @override
-  String get addressLocality => 'Linn / paikkond';
+  String get homeAssistantAccessTokenRequired => 'Palun sisestage pikaajaline juurdepääsutunnus.';
 
   @override
-  String get addressStreet => 'Tänav / aadressi rida';
+  String get homeAssistantConfigureNow => 'Seadistage nüüd';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Versioon$version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Ühenduse loomine ebaõnnestus: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Ühendus koduassistendiga õnnestus.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Vaikimisi tegevus';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Valige Home Assistant\'i tarbimisandurid, mis peaksid looma ja uuendama loendureid praeguses EHW+ objektis.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Ajalooline EHW+ tarbimine';
+
+  @override
+  String get homeAssistantLinkSensor => 'Lingiandur';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Nähtav võimsus';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Praegune';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Võimsus';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reaktiivvõimsus';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Pinge';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Ühendamine koduassistendiga...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Koduassistendi reaalajas andmeid ei saanud laadida.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'Selle anduri puhul ei tuvastatud ühtegi pingeväärtust.';
+
+  @override
+  String get homeAssistantLoadSensors => 'Koormusandurid';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'See näeb välja nagu kohalik URL. Sünkroonimist üritatakse ainult siis, kui seade on ühendatud kohalikku võrku.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'Vaikimisi tegevus puudub';
+
+  @override
+  String get homeAssistantNoPushCounters => 'Selles objektis ei ole loendureid, mida saab koduassistenti lükata.';
+
+  @override
+  String get homeAssistantNoSensors => 'Sobivaid tarbimisandureid ei leitud.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Sünkroonige mõõtjate näidud ja tarbimised koduassistendiga.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Pistik';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Pistik ei ole saadaval';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Valige EHW+ loendurid, mille tarbimisstatistika tuleks pärast muudatusi koduassistenti lükata.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Vajutage EHW+ loendurid';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Ühendage EHW+ oma koduassistendi instantsiga, et saada valitud anduritelt mõõteriistade näitusid või lükata EHW+ statistikat.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Kodu assistent';
+
+  @override
+  String get homeAssistantSubscriptionRequired => 'Koduassistendi sünkroniseerimiseks on vaja aktiivset tellimust.';
+
+  @override
+  String get homeAssistantTitle => 'Kodu assistent';
+
+  @override
+  String get homeAssistantTokenTest => 'Testi märgis';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Tundmatu instants';
+
+  @override
+  String get homeAssistantUnlink => 'Unlink';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Palun sisestage kehtiv koduassistendi URL.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Kodu assistent URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Palun sisestage koduassistendi URL.';
 
   @override
   String get houseName => 'Maja nimi';
 
   @override
   String get houseNameDescription => 'Maja nimi, nt tänava nimi';
+
+  @override
+  String get houseNumber => 'Maja number';
 
   @override
   String get import => 'Import';
@@ -1444,6 +1571,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get last2Weeks => 'Viimased 14 päeva';
+
+  @override
+  String get lastName => 'Perekonnanimi';
 
   @override
   String get lastReading => 'viimane näit';
@@ -2111,9 +2241,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get rooms => 'Ruumid';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
-
-  @override
   String get scanQrCode => 'Skanni aktiveerimiskoodi QR-kood';
 
   @override
@@ -2177,7 +2304,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => 'Maja';
 
   @override
-  String get settingShowCounterReadingsChart => 'Näita näitude diagrammi';
+  String get settingShowCounterReadingsChart => 'Näita arvesti näitude graafikut';
 
   @override
   String get settingShowHeatmap => 'Näita soojuskaarti';
@@ -2219,130 +2346,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Välised teenused';
 
   @override
-  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
-
-  @override
-  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
-
-  @override
-  String get homeAssistantConfigureNow => 'Set up now';
-
-  @override
-  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
-    return '$instanceName - Version $version';
-  }
-
-  @override
-  String homeAssistantConnectionFailed(String error) {
-    return 'Connection failed: $error';
-  }
-
-  @override
-  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
-
-  @override
-  String get homeAssistantDefaultActivityLabel => 'Default activity';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsDescription =>
-      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
-
-  @override
-  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
-
-  @override
-  String get homeAssistantLiveMeasurementCurrent => 'Current';
-
-  @override
-  String get homeAssistantLiveMeasurementPower => 'Power';
-
-  @override
-  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
-
-  @override
-  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
-
-  @override
-  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
-
-  @override
-  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
-
-  @override
-  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
-
-  @override
-  String get homeAssistantLinkSensor => 'Link sensor';
-
-  @override
-  String get homeAssistantLoadSensors => 'Load sensors';
-
-  @override
-  String get homeAssistantLocalUrlWarning =>
-      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
-
-  @override
-  String get homeAssistantNoDefaultActivity => 'No default activity';
-
-  @override
-  String get homeAssistantNoPushCounters =>
-      'There are no counters in this object that can be pushed to Home Assistant.';
-
-  @override
-  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
-
-  @override
-  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
-
-  @override
-  String get homeAssistantPlugTitle => 'Plug';
-
-  @override
-  String get homeAssistantPlugUnavailable => 'Plug unavailable';
-
-  @override
-  String get homeAssistantPushCountersDescription =>
-      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
-
-  @override
-  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
-
-  @override
-  String get homeAssistantSettingsDescription =>
-      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
-
-  @override
-  String get homeAssistantSettingsTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantSubscriptionRequired =>
-      'An active subscription is required for Home Assistant synchronization.';
-
-  @override
-  String get homeAssistantTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantTokenTest => 'Test token';
-
-  @override
-  String get homeAssistantUnlink => 'Unlink';
-
-  @override
-  String get homeAssistantUnknownInstance => 'Unknown instance';
-
-  @override
-  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
-
-  @override
-  String get homeAssistantUrlLabel => 'Home Assistant URL';
-
-  @override
-  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
-
-  @override
   String get settingsShowStromGedacht => 'Kas kuvada StromGedachti elektrivõrgu nõuandeid?';
 
   @override
@@ -2374,9 +2377,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Kahjuks pole andmeid, mida rakendus saaks kuvada.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Nutikate arvestite sünkroniseerimine ebaõnnestus';
-
-  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Seadista nutiarvesti';
 
   @override
@@ -2392,10 +2392,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Pole määratud';
 
   @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+
+  @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+  String get smartMeterReadingsSyncFailed => 'Nutikate arvestite sünkroniseerimine ebaõnnestus';
 
   @override
   String get smartMeterServiceProvider => 'Teenusepakkuja';
@@ -3357,6 +3360,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Kahjuks ei tea me veel teie veevarustajat. Palun kirjutage meile julgelt. Tarnijad, kes pakuvad ainult elektrit ja gaasi, ei ole siin kirjas.';
 
   @override
+  String get watersupplierAccessRequestDenied =>
+      'Teie juurdepääsutaotlus lükati tagasi. Te võite selle arvesti kustutada.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Teie juurdepääsutaotlust töödeldakse veel. Palun olge kannatlik.';
+
+  @override
   String get watersupplierAccessRequestQ1 =>
       'Kas te olete veevarustaja valgalal asuva kinnistu omanik ja soovite juurdepääsu raadiomeeterlugudele?';
 
@@ -3381,12 +3391,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierMeterIdValidationStep => 'Kontrollime sinu arvesti ID-d.';
-
-  @override
-  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
-
-  @override
-  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
 
   @override
   String get watersupplierNoAccess => 'Sul ei ole enam õigust andmeid pärida.';
@@ -3458,48 +3462,43 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Ei soovi enam juurdepääsu oma raadionarvesti andmetele? Pane tähele: kui tühistamiskood skannitakse, muutub aktiveerimiskood kehtetuks. Kõik kasutajakontod, mis koodi kasutasid, kaotavad ligipääsu.';
 
   @override
-  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+  String get watersupplierUnlinkRadioMeterFailure => 'Raadiomõõtjat ei saanud kustutada. Palun proovige hiljem uuesti.';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => 'Lõpeta raadionarvesti kasutus';
 
   @override
   String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+      'Kui te kustutate selle raadiomeeter, tühistatakse teie juurdepääs raadiomeeterlugudele. Te võite hiljem esitada uue juurdepääsutaotluse.';
 
   @override
-  String get firstName => 'First name';
+  String get withoutRoomAssignment => 'Ilma toa määramiseta';
 
   @override
-  String get houseNumber => 'House number';
+  String get wtlAccessRequestFailure => 'Juurdepääsutaotlust ei õnnestunud luua.';
 
   @override
-  String get lastName => 'Last name';
+  String get wtlAccessRequestMeterId => 'Mõõturi ID';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get wtlAccessRequestMissingAccountData => 'Teie kontol puudub e-posti aadress.';
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+      'Palun sisestage vähemalt 8-kohaline arvesti ID ja teenindusobjekti number.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String get wtlAccessRequestOnlineOnlyDescription =>
+      'Veebipõhine juurdepääsutaotlus Wasserverband Tecklenburger Land\'ile.';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+  String get wtlAccessRequestServiceObjectNumber => 'Teenuse objekti number';
 
   @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
+  String get wtlAccessRequestSuccess => 'Juurdepääsutaotlus loodud.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'WTL juurdepääsutaotlus';
 
   @override
   String get yearlyConsumption => 'Seni aastane tarbimine';
@@ -3519,12 +3518,10 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Nõustun, et mulle kuvatakse välissisu. See võib tähendada isikuandmete edastamist kolmandate osapoolte platvormidele. Lisateave meie ';
 
   @override
-  String addressValidationRequired(String label) {
-    return 'Palun sisestage $label';
-  }
+  String get zipCode => 'postiindeks';
 
   @override
-  String get zipCode => 'postiindeks';
+  String get zipCodeValidationGeneral => 'Palun sisestage kehtiv postiindeks';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3533,7 +3530,4 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kehtiv postiindeks koosneb ainult numbritest';
-
-  @override
-  String get zipCodeValidationGeneral => 'Palun sisestage kehtiv postiindeks';
 }
