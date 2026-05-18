@@ -281,6 +281,156 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Использовать COMET API от института Гёте для прогнозов';
 
   @override
+  String get goetheDataDonationHeader => 'Data requests';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Decide whether you want to receive data requests and which kinds of organizations and purposes are allowed to request them.';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Would you like to receive data requests?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Receive data requests';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'All data requests are made in the context of the COMET research project. The project ends at the end of August. Only a small single-digit number of data requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Who may submit data requests?';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Accept all';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Private research institute';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Research institute';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'University';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Private company';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Non-profit organization';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Governmental institution';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Other';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'For which purposes?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Research';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Product development';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'AI training';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalized marketing';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Market research';
+
+  @override
+  String get goetheDataDonationDisabled => 'Data requests are currently unavailable.';
+
+  @override
+  String get goetheDataDonationBackHome => 'Back to home';
+
+  @override
+  String get goetheDataDonationBannerPending => 'There are new data requests.';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Data requests';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Data requests could not be loaded.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Enable data requests in the settings first to view and manage requests.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Open settings';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'There are currently no data requests.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Pending data requests';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'No pending data requests.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Approved data requests';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'No approved data requests.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Rejected data requests';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'No rejected data requests.';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Reject';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Approve';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Mark as pending';
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Preparing data requests for upload.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Uploading data requests $current of $total.';
+  }
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Uploaded $completed of $total data requests.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Uploaded $completed of $total data requests, $failed failed.';
+  }
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Data requests';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Manage Goethe research data requests';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Data request';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Meter';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Address';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Created on';
+
+  @override
   String get comment => 'примечание';
 
   @override

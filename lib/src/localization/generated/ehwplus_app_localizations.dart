@@ -653,6 +653,288 @@ abstract class EhwplusAppLocalizations {
   /// **'Use the COMET Forecast API from the Goethe Institute'**
   String get cometSettingsIsPredictionsApiEnabled;
 
+  /// No description provided for @goetheDataDonationHeader.
+  ///
+  /// In en, this message translates to:
+  /// **'Data requests'**
+  String get goetheDataDonationHeader;
+
+  /// No description provided for @goetheDataDonationIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Decide whether you want to receive data requests and which kinds of organizations and purposes are allowed to request them.'**
+  String get goetheDataDonationIntro;
+
+  /// No description provided for @goetheDataDonationReceiveQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Would you like to receive data requests?'**
+  String get goetheDataDonationReceiveQuestion;
+
+  /// No description provided for @goetheDataDonationReceiveToggle.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive data requests'**
+  String get goetheDataDonationReceiveToggle;
+
+  /// No description provided for @goetheDataDonationExplanation.
+  ///
+  /// In en, this message translates to:
+  /// **'All data requests are made in the context of the COMET research project. The project ends at the end of August. Only a small single-digit number of data requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.'**
+  String get goetheDataDonationExplanation;
+
+  /// No description provided for @goetheDataDonationAudienceQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Who may submit data requests?'**
+  String get goetheDataDonationAudienceQuestion;
+
+  /// No description provided for @goetheDataDonationAcceptAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept all'**
+  String get goetheDataDonationAcceptAll;
+
+  /// No description provided for @goetheDataDonationAudiencePrivateResearchInstitute.
+  ///
+  /// In en, this message translates to:
+  /// **'Private research institute'**
+  String get goetheDataDonationAudiencePrivateResearchInstitute;
+
+  /// No description provided for @goetheDataDonationAudienceResearchInstitute.
+  ///
+  /// In en, this message translates to:
+  /// **'Research institute'**
+  String get goetheDataDonationAudienceResearchInstitute;
+
+  /// No description provided for @goetheDataDonationAudienceUniversity.
+  ///
+  /// In en, this message translates to:
+  /// **'University'**
+  String get goetheDataDonationAudienceUniversity;
+
+  /// No description provided for @goetheDataDonationAudiencePrivateCompany.
+  ///
+  /// In en, this message translates to:
+  /// **'Private company'**
+  String get goetheDataDonationAudiencePrivateCompany;
+
+  /// No description provided for @goetheDataDonationAudienceNonprofitOrganization.
+  ///
+  /// In en, this message translates to:
+  /// **'Non-profit organization'**
+  String get goetheDataDonationAudienceNonprofitOrganization;
+
+  /// No description provided for @goetheDataDonationAudienceGovernmentalInstitution.
+  ///
+  /// In en, this message translates to:
+  /// **'Governmental institution'**
+  String get goetheDataDonationAudienceGovernmentalInstitution;
+
+  /// No description provided for @goetheDataDonationAudienceOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Other'**
+  String get goetheDataDonationAudienceOther;
+
+  /// No description provided for @goetheDataDonationPurposeQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'For which purposes?'**
+  String get goetheDataDonationPurposeQuestion;
+
+  /// No description provided for @goetheDataDonationPurposeResearch.
+  ///
+  /// In en, this message translates to:
+  /// **'Research'**
+  String get goetheDataDonationPurposeResearch;
+
+  /// No description provided for @goetheDataDonationPurposeProductDevelopment.
+  ///
+  /// In en, this message translates to:
+  /// **'Product development'**
+  String get goetheDataDonationPurposeProductDevelopment;
+
+  /// No description provided for @goetheDataDonationPurposeAiTraining.
+  ///
+  /// In en, this message translates to:
+  /// **'AI training'**
+  String get goetheDataDonationPurposeAiTraining;
+
+  /// No description provided for @goetheDataDonationPurposePersonalizedMarketing.
+  ///
+  /// In en, this message translates to:
+  /// **'Personalized marketing'**
+  String get goetheDataDonationPurposePersonalizedMarketing;
+
+  /// No description provided for @goetheDataDonationPurposeMarketResearch.
+  ///
+  /// In en, this message translates to:
+  /// **'Market research'**
+  String get goetheDataDonationPurposeMarketResearch;
+
+  /// No description provided for @goetheDataDonationDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Data requests are currently unavailable.'**
+  String get goetheDataDonationDisabled;
+
+  /// No description provided for @goetheDataDonationBackHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to home'**
+  String get goetheDataDonationBackHome;
+
+  /// No description provided for @goetheDataDonationBannerPending.
+  ///
+  /// In en, this message translates to:
+  /// **'There are new data requests.'**
+  String get goetheDataDonationBannerPending;
+
+  /// No description provided for @goetheDataDonationRequestsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Data requests'**
+  String get goetheDataDonationRequestsTitle;
+
+  /// No description provided for @goetheDataDonationRequestsLoadError.
+  ///
+  /// In en, this message translates to:
+  /// **'Data requests could not be loaded.'**
+  String get goetheDataDonationRequestsLoadError;
+
+  /// No description provided for @goetheDataDonationRequestsEnableHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable data requests in the settings first to view and manage requests.'**
+  String get goetheDataDonationRequestsEnableHint;
+
+  /// No description provided for @goetheDataDonationRequestsOpenSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Open settings'**
+  String get goetheDataDonationRequestsOpenSettings;
+
+  /// No description provided for @goetheDataDonationRequestsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'There are currently no data requests.'**
+  String get goetheDataDonationRequestsEmpty;
+
+  /// No description provided for @goetheDataDonationRequestsPendingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending data requests'**
+  String get goetheDataDonationRequestsPendingTitle;
+
+  /// No description provided for @goetheDataDonationRequestsPendingEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No pending data requests.'**
+  String get goetheDataDonationRequestsPendingEmpty;
+
+  /// No description provided for @goetheDataDonationRequestsApprovedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Approved data requests'**
+  String get goetheDataDonationRequestsApprovedTitle;
+
+  /// No description provided for @goetheDataDonationRequestsApprovedEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No approved data requests.'**
+  String get goetheDataDonationRequestsApprovedEmpty;
+
+  /// No description provided for @goetheDataDonationRequestsRejectedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Rejected data requests'**
+  String get goetheDataDonationRequestsRejectedTitle;
+
+  /// No description provided for @goetheDataDonationRequestsRejectedEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No rejected data requests.'**
+  String get goetheDataDonationRequestsRejectedEmpty;
+
+  /// No description provided for @goetheDataDonationRejectButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Reject'**
+  String get goetheDataDonationRejectButton;
+
+  /// No description provided for @goetheDataDonationApproveButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Approve'**
+  String get goetheDataDonationApproveButton;
+
+  /// No description provided for @goetheDataDonationResetDecisionButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Mark as pending'**
+  String get goetheDataDonationResetDecisionButton;
+
+  /// No description provided for @goetheDataDonationUploadPreparing.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing data requests for upload.'**
+  String get goetheDataDonationUploadPreparing;
+
+  /// No description provided for @goetheDataDonationUploadProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploading data requests {current} of {total}.'**
+  String goetheDataDonationUploadProgress(Object current, Object total);
+
+  /// No description provided for @goetheDataDonationUploadCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded {completed} of {total} data requests.'**
+  String goetheDataDonationUploadCompleted(Object completed, Object total);
+
+  /// No description provided for @goetheDataDonationUploadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded {completed} of {total} data requests, {failed} failed.'**
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed);
+
+  /// No description provided for @goetheDataDonationSettingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Data requests'**
+  String get goetheDataDonationSettingsTitle;
+
+  /// No description provided for @goetheDataDonationSettingsSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage Goethe research data requests'**
+  String get goetheDataDonationSettingsSubtitle;
+
+  /// No description provided for @goetheDataDonationRequestFallbackTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Data request'**
+  String get goetheDataDonationRequestFallbackTitle;
+
+  /// No description provided for @goetheDataDonationMeterLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter'**
+  String get goetheDataDonationMeterLabel;
+
+  /// No description provided for @goetheDataDonationAddressLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Address'**
+  String get goetheDataDonationAddressLabel;
+
+  /// No description provided for @goetheDataDonationCreatedAtLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Created on'**
+  String get goetheDataDonationCreatedAtLabel;
+
   /// No description provided for @comment.
   ///
   /// In en, this message translates to:
