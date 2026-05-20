@@ -5,29 +5,14 @@ import 'package:flutter/foundation.dart';
 
 import '../model/arb_document.dart';
 import '../model/arb_entry.dart';
+import '../model/arb_project.dart';
 
 class ArbRepository {
-  ArbRepository({String? arbDirectory}) : arbDirectory = arbDirectory ?? _resolveDefaultArbDirectory();
+  ArbRepository({required this.project}) : arbDirectory = project.arbDirectory;
 
+  final ArbProject project;
   final String arbDirectory;
   final ValueNotifier<bool> quotaExceeded = ValueNotifier<bool>(false);
-
-  static String _resolveDefaultArbDirectory() {
-    const compileTimePath = String.fromEnvironment('ARB_DIR');
-    if (compileTimePath.isNotEmpty) {
-      return compileTimePath;
-    }
-
-    final envPath = Platform.environment['ARB_DIR'];
-    if (envPath != null && envPath.isNotEmpty) {
-      return envPath;
-    }
-
-    // Directory: '/Users/<userName>/<projectsFolder>/ehwplus/ehwplus_flutter_mono/packages/ehwplus_language_files/language_files_example'
-    final projectDirectory = Directory.current;
-    final resolvedUri = projectDirectory.uri.resolve('../lib/src/localization/arb');
-    return resolvedUri.toFilePath();
-  }
 
   Future<List<ArbDocument>> loadDocuments() async {
     if (kIsWeb) {
@@ -113,7 +98,7 @@ class ArbRepository {
   Future<bool> regenerateDartFiles() async {
     if (kIsWeb) return false;
 
-    final root = _findPubspecRoot(Directory(arbDirectory));
+    final root = project.canRegenerate ? Directory(project.projectRoot) : _findPubspecRoot(Directory(arbDirectory));
     if (root == null) return false;
 
     final commands = [
