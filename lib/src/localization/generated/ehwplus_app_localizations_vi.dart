@@ -815,6 +815,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get costSummary => 'Tóm tắt chi phí';
 
   @override
+  String get costSummarySolarThermalSavings => 'Tổng quan về tiết kiệm';
+
+  @override
   String get costSummaryYield => 'Giá thù lao/-giá cơ sở';
 
   @override

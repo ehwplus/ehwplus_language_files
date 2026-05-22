@@ -813,6 +813,9 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get costSummary => 'लागत सारांश';
 
   @override
+  String get costSummarySolarThermalSavings => 'बचत सारांश';
+
+  @override
   String get costSummaryYield => 'पारिश्रमिक मूल्य/-आधार मूल्य';
 
   @override

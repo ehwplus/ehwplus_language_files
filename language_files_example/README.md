@@ -21,3 +21,18 @@ packages/ehwplus_language_files/lib/src/localization/arb
 ```
 
 You can override the startup target with `ARB_DIR`.
+
+## DeepL API key
+
+Set `DEEPL_API_KEY` before starting the example to enable DeepL translations:
+
+```sh
+export DEEPL_API_KEY="<your-api-key>"
+fvm flutter run -d macos
+```
+
+Alternatively, pass the key as a Dart define:
+
+```sh
+fvm flutter run -d macos --dart-define=DEEPL_API_KEY="<your-api-key>"
+```

@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "Tehtud ettemaksed",
   "costOverviewContractCostsBar": "Tarbimisepõhised kulud + põhitasud lepinguperioodi eest",
   "costSummary": "Kulude kokkuvõte",
+  "costSummarySolarThermalSavings": "Kokkuvõte säästudest",
   "costSummaryYield": "Tasu hind/põhihind",
   "costs": "Kulud",
   "costsUndefinedColdWater": "Külma vee tasud",

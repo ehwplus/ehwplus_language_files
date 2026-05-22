@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "Betalda förskott",
   "costOverviewContractCostsBar": "Förbrukningsbaserade kostnader + grundavgifter för avtalsperioden",
   "costSummary": "Kostnadssammanställning",
+  "costSummarySolarThermalSavings": "Sammanfattning av besparingar",
   "costSummaryYield": "Ersättningspris/-baspris",
   "costs": "Kostnader",
   "costsUndefinedColdWater": "Kallvattenavgifter",

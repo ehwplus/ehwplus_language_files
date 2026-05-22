@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "الدفعات المقدمة المدفوعة مقدماً",
   "costOverviewContractCostsBar": "التكاليف القائمة على الاستهلاك + الرسوم الأساسية لفترة العقد",
   "costSummary": "ملخص التكاليف",
+  "costSummarySolarThermalSavings": "ملخص المدخرات",
   "costSummaryYield": "سعر التعويض/السعر الأساسي",
   "costs": "التكاليف",
   "costsUndefinedColdWater": "رسوم الماء البارد",

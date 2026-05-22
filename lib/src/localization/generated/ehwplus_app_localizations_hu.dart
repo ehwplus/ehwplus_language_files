@@ -814,6 +814,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get costSummary => 'Költségek összefoglalása';
 
   @override
+  String get costSummarySolarThermalSavings => 'Megtakarítások összefoglalása';
+
+  @override
   String get costSummaryYield => 'Javadalmazási ár/alapár';
 
   @override

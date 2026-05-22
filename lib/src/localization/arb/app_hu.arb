@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "Megtörtént előlegfizetések",
   "costOverviewContractCostsBar": "Fogyasztás alapú költségek + alapdíjak a szerződéses időszakra vonatkozóan",
   "costSummary": "Költségek összefoglalása",
+  "costSummarySolarThermalSavings": "Megtakarítások összefoglalása",
   "costSummaryYield": "Javadalmazási ár/alapár",
   "costs": "Költségek",
   "costsUndefinedColdWater": "Hidegvízdíjak",

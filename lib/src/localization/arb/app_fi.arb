@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "Maksetut ennakot",
   "costOverviewContractCostsBar": "Kulutusperusteiset kustannukset + perusmaksut sopimuskaudella",
   "costSummary": "Kustannusten yhteenveto",
+  "costSummarySolarThermalSavings": "Säästöjen yhteenveto",
   "costSummaryYield": "Palkkahinta/perushinta",
   "costs": "Kustannukset",
   "costsUndefinedColdWater": "Kylmän veden maksut",

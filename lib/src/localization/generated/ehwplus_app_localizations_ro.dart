@@ -814,6 +814,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get costSummary => 'Rezumatul costurilor';
 
   @override
+  String get costSummarySolarThermalSavings => 'Rezumatul economiilor';
+
+  @override
   String get costSummaryYield => 'Prețul remunerației/prețul de bază';
 
   @override

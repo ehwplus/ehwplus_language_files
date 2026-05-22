@@ -355,6 +355,7 @@
   "costOverviewAdvancePaymentsBar": "Advance payments made",
   "costOverviewContractCostsBar": "Consumption-based costs + base fees for the contract period",
   "costSummary": "Cost summary",
+  "costSummarySolarThermalSavings": "Savings summary",
   "costSummaryYield": "Remuneration price/-base price",
   "costs": "Costs",
   "costsUndefinedColdWater": "Cold water fees",

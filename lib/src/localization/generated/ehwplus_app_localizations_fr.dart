@@ -815,6 +815,9 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get costSummary => 'Aperçu des coûts';
 
   @override
+  String get costSummarySolarThermalSavings => 'Résumé de l\'épargne';
+
+  @override
   String get costSummaryYield => 'Prix de la rémunération/-prix de base';
 
   @override
@@ -3524,13 +3527,13 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Demande d\'accès en ligne au Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+  String get wtlAccessRequestServiceObjectNumber => 'Numéro de l\'objet de service';
 
   @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
+  String get wtlAccessRequestSuccess => 'Demande d\'accès créée.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'Demande d\'accès au WTL';
 
   @override
   String get yearlyConsumption => 'Consommation annuelle actuelle';

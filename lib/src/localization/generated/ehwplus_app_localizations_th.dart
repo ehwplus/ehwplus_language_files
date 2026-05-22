@@ -808,6 +808,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get costSummary => 'สรุปค่าใช้จ่าย';
 
   @override
+  String get costSummarySolarThermalSavings => 'สรุปการออม';
+
+  @override
   String get costSummaryYield => 'ราคาค่าตอบแทน/-ราคาฐาน';
 
   @override

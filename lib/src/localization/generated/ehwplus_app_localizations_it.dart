@@ -812,6 +812,9 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   String get costSummary => 'Panoramica dei costi';
 
   @override
+  String get costSummarySolarThermalSavings => 'Riepilogo dei risparmi';
+
+  @override
   String get costSummaryYield => 'Prezzo di remunerazione/-prezzo base';
 
   @override

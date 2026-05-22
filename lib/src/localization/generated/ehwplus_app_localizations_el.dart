@@ -817,6 +817,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get costSummary => 'Σύνοψη κόστους';
 
   @override
+  String get costSummarySolarThermalSavings => 'Σύνοψη των αποταμιεύσεων';
+
+  @override
   String get costSummaryYield => 'Τιμή αμοιβής/βασική τιμή';
 
   @override

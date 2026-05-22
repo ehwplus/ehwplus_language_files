@@ -800,6 +800,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get costSummary => '비용 요약';
 
   @override
+  String get costSummarySolarThermalSavings => '절약 요약';
+
+  @override
   String get costSummaryYield => '보상 단가/기본 요금';
 
   @override

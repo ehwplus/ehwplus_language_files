@@ -812,6 +812,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get costSummary => 'Sažetak troškova';
 
   @override
+  String get costSummarySolarThermalSavings => 'Sažetak ušteda';
+
+  @override
   String get costSummaryYield => 'Cijena naknade/-osnovna cijena';
 
   @override

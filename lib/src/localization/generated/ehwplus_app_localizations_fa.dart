@@ -810,6 +810,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get costSummary => 'خلاصه هزینه';
 
   @override
+  String get costSummarySolarThermalSavings => 'خلاصه پس‌انداز';
+
+  @override
   String get costSummaryYield => 'قیمت جبرانی/قیمت پایه';
 
   @override

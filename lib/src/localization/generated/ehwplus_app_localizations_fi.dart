@@ -811,6 +811,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get costSummary => 'Kustannusten yhteenveto';
 
   @override
+  String get costSummarySolarThermalSavings => 'Säästöjen yhteenveto';
+
+  @override
   String get costSummaryYield => 'Palkkahinta/perushinta';
 
   @override

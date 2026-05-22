@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "Atlikti išankstiniai mokėjimai",
   "costOverviewContractCostsBar": "Suvartojimu pagrįstos išlaidos + baziniai mokesčiai už sutarties laikotarpį",
   "costSummary": "Išlaidų suvestinė",
+  "costSummarySolarThermalSavings": "Taupymo suvestinė",
   "costSummaryYield": "Atlyginimo kaina/-bazinė kaina",
   "costs": "Išlaidos",
   "costsUndefinedColdWater": "Šalto vandens mokesčiai",

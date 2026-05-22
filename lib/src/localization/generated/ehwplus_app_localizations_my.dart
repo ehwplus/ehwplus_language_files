@@ -815,6 +815,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get costSummary => 'ကုန်ကျစရိတ်အကျဉ်းချုပ်';
 
   @override
+  String get costSummarySolarThermalSavings => 'စုဆောင်းငွေ အကျဉ်းချုပ်';
+
+  @override
   String get costSummaryYield => 'လစာစျေးနှုန်း / -base စျေးနှုန်း';
 
   @override

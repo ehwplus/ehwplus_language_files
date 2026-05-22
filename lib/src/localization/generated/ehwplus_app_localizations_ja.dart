@@ -798,6 +798,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get costSummary => 'コストの概要';
 
   @override
+  String get costSummarySolarThermalSavings => '貯蓄の概要';
+
+  @override
   String get costSummaryYield => '報酬価格/-基本価格';
 
   @override

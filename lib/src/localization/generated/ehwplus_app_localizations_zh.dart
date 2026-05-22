@@ -792,6 +792,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get costSummary => '费用汇总';
 
   @override
+  String get costSummarySolarThermalSavings => '节余摘要';
+
+  @override
   String get costSummaryYield => '报酬价格/-基本价格';
 
   @override

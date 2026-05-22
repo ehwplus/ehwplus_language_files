@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "پرداخت‌های پیش‌پرداخت انجام شد",
   "costOverviewContractCostsBar": "هزینه‌های مبتنی بر مصرف + هزینه‌های پایه برای دوره قرارداد",
   "costSummary": "خلاصه هزینه",
+  "costSummarySolarThermalSavings": "خلاصه پس‌انداز",
   "costSummaryYield": "قیمت جبرانی/قیمت پایه",
   "costs": "هزینه‌ها",
   "costsUndefinedColdWater": "هزینه آب سرد",

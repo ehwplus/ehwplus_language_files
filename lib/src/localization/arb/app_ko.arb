@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "선불 결제",
   "costOverviewContractCostsBar": "사용량 기반 비용 + 계약 기간 동안의 기본 요금",
   "costSummary": "비용 요약",
+  "costSummarySolarThermalSavings": "절약 요약",
   "costSummaryYield": "보상 단가/기본 요금",
   "costs": "비용",
   "costsUndefinedColdWater": "냉수 요금",

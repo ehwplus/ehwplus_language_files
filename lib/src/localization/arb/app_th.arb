@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "การชำระเงินล่วงหน้า",
   "costOverviewContractCostsBar": "ค่าใช้จ่ายตามการบริโภค + ค่าธรรมเนียมพื้นฐานสำหรับระยะเวลาสัญญา",
   "costSummary": "สรุปค่าใช้จ่าย",
+  "costSummarySolarThermalSavings": "สรุปการออม",
   "costSummaryYield": "ราคาค่าตอบแทน/-ราคาฐาน",
   "costs": "ค่าใช้จ่าย",
   "costsUndefinedColdWater": "ค่าน้ำเย็น",

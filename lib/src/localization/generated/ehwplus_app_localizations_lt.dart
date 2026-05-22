@@ -814,6 +814,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get costSummary => 'Išlaidų suvestinė';
 
   @override
+  String get costSummarySolarThermalSavings => 'Taupymo suvestinė';
+
+  @override
   String get costSummaryYield => 'Atlyginimo kaina/-bazinė kaina';
 
   @override

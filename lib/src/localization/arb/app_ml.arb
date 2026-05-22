@@ -222,6 +222,7 @@
   "costOverviewAdvancePaymentsBar": "മുൻകൂറായി അടവുകൾ നൽകിയിരിക്കുന്നു",
   "costOverviewContractCostsBar": "ഉപഭോഗം അടിസ്ഥാനമാക്കിയുള്ള ചെലവുകൾ + കരാർ കാലയളവിലെ അടിസ്ഥാന ഫീസുകൾ",
   "costSummary": "ചെലവ് സംഗ്രഹം",
+  "costSummarySolarThermalSavings": "സമ്പാദ്യ സംഗ്രഹം",
   "costSummaryYield": "പ്രതിഫല വില/-അടിസ്ഥാന വില",
   "costs": "ചെലവുകൾ",
   "costsUndefinedColdWater": "തണുത്ത വെള്ളം ഫീസ്",

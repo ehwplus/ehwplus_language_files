@@ -810,6 +810,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get costSummary => 'Přehled nákladů';
 
   @override
+  String get costSummarySolarThermalSavings => 'Přehled úspor';
+
+  @override
   String get costSummaryYield => 'Cena odměny/-základní cena';
 
   @override

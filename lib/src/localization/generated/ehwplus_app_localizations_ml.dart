@@ -815,6 +815,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get costSummary => 'ചെലവ് സംഗ്രഹം';
 
   @override
+  String get costSummarySolarThermalSavings => 'സമ്പാദ്യ സംഗ്രഹം';
+
+  @override
   String get costSummaryYield => 'പ്രതിഫല വില/-അടിസ്ഥാന വില';
 
   @override

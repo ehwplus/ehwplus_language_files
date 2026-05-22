@@ -1527,6 +1527,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Cost summary'**
   String get costSummary;
 
+  /// No description provided for @costSummarySolarThermalSavings.
+  ///
+  /// In en, this message translates to:
+  /// **'Savings summary'**
+  String get costSummarySolarThermalSavings;
+
   /// No description provided for @costSummaryYield.
   ///
   /// In en, this message translates to:

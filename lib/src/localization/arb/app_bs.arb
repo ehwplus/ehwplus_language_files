@@ -223,6 +223,7 @@
   "costOverviewAdvancePaymentsBar": "Naplaćena avansna plaćanja",
   "costOverviewContractCostsBar": "Troškovi zasnovani na potrošnji + osnovne naknade za ugovorni period",
   "costSummary": "Sažetak troškova",
+  "costSummarySolarThermalSavings": "Sažetak ušteda",
   "costSummaryYield": "Cijena naknade/bazna cijena",
   "costs": "Troškovi",
   "costsUndefinedColdWater": "Naknade za hladnu vodu",

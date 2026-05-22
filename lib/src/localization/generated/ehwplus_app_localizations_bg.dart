@@ -816,6 +816,9 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get costSummary => 'Обобщение на разходите';
 
   @override
+  String get costSummarySolarThermalSavings => 'Обобщение на спестяванията';
+
+  @override
   String get costSummaryYield => 'Цена на възнаграждение/-базова цена';
 
   @override

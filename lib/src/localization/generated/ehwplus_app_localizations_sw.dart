@@ -810,6 +810,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get costSummary => 'Muhtasari wa gharama';
 
   @override
+  String get costSummarySolarThermalSavings => 'Muhtasari wa akiba';
+
+  @override
   String get costSummaryYield => 'Bei ya malipo/-Base Bei';
 
   @override
