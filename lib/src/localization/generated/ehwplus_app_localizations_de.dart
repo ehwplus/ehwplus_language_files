@@ -346,6 +346,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get goetheDataDonationPurposeMarketResearch => 'Marktforschung';
 
   @override
+  String get goetheDataDonationPurposeLabel => 'Zweck';
+
+  @override
   String get goetheDataDonationDisabled => 'Datenanfragen sind aktuell nicht verfügbar.';
 
   @override
@@ -423,6 +426,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get goetheDataDonationRequestFallbackTitle => 'Datenanfrage';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Angefragte Daten';
 
   @override
   String get goetheDataDonationMeterLabel => 'Zähler';
