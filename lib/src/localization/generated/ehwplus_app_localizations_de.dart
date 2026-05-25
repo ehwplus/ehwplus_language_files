@@ -3402,7 +3402,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String versionIsUpToDate(String version) {
-    return 'Die zuletzt für alle Nutzer freigebene App-Version ist $version.';
+    return 'Die zuletzt für alle Nutzer freigegebene App-Version ist $version.';
   }
 
   @override

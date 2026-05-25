@@ -1081,7 +1081,7 @@
   "usedForPaymentsRepayments": "Grundpreis und Bonus",
   "valueLess": "{value} weniger",
   "valueMore": "{value} mehr",
-  "versionIsUpToDate": "Die zuletzt für alle Nutzer freigebene App-Version ist {version}.",
+  "versionIsUpToDate": "Die zuletzt für alle Nutzer freigegebene App-Version ist {version}.",
   "virtualCounter": "Virtueller Zähler",
   "virtualCounterMasterCounter": "Hauptzähler",
   "virtualCounterMasterCounterAttach": "Hauptzähler auswählen",
