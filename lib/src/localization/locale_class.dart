@@ -18,6 +18,7 @@ enum LocaleClass {
   hi,
   hu,
   hr,
+  id,
   it,
   ja,
   ko,
