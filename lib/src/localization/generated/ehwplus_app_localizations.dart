@@ -809,6 +809,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Market research'**
   String get goetheDataDonationPurposeMarketResearch;
 
+  /// No description provided for @goetheDataDonationPurposeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Purpose'**
+  String get goetheDataDonationPurposeLabel;
+
   /// No description provided for @goetheDataDonationDisabled.
   ///
   /// In en, this message translates to:
@@ -952,6 +958,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Data request'**
   String get goetheDataDonationRequestFallbackTitle;
+
+  /// No description provided for @goetheDataDonationDatasetDescriptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Requested data'**
+  String get goetheDataDonationDatasetDescriptionLabel;
 
   /// No description provided for @goetheDataDonationMeterLabel.
   ///
