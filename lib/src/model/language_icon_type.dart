@@ -16,6 +16,7 @@ enum LanguageIconType {
   langHu('hu', 'Hungarian', 'Magyar'),
   langGr('el', 'Greek', 'Νέα Ελληνικά'),
   langHr('hr', 'Croatian', 'Hrvatski'),
+  langId('id', 'Indonesian', 'Bahasa Indonesia'),
   langIt('it', 'Italian', 'Italiano'),
   langJa('ja', 'Japanese', '日本語'),
   langKo('ko', 'Korean', '한국어'),

@@ -304,160 +304,160 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'ഗോഥെ ഇൻസ്റ്റിറ്റ്യൂട്ടിൽ നിന്നുള്ള COMET പ്രവചന API ഉപയോഗിക്കുക';
 
   @override
-  String get goetheDataDonationHeader => 'Data requests';
+  String get goetheDataDonationHeader => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ';
 
   @override
   String get goetheDataDonationIntro =>
-      'Decide whether you want to receive data requests and which kinds of organizations and purposes are allowed to request them.';
+      'നിങ്ങൾക്ക് ഡാറ്റാ അഭ്യർത്ഥനകൾ സ്വീകരിക്കണോ എന്ന് തീരുമാനിക്കുക, കൂടാതെ ഏതൊക്കെ തരത്തിലുള്ള സ്ഥാപനങ്ങൾക്കും എന്ത് ആവശ്യങ്ങൾക്കുമാണ് അഭ്യർത്ഥിക്കാൻ അനുവാദമുള്ളതെന്നും തീരുമാനിക്കുക.';
 
   @override
-  String get goetheDataDonationReceiveQuestion => 'Would you like to receive data requests?';
+  String get goetheDataDonationReceiveQuestion => 'നിങ്ങൾക്ക് ഡാറ്റാ അഭ്യർത്ഥനകൾ സ്വീകരിക്കാൻ താല്പര്യമുണ്ടോ?';
 
   @override
-  String get goetheDataDonationReceiveToggle => 'Receive data requests';
+  String get goetheDataDonationReceiveToggle => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ സ്വീകരിക്കുക';
 
   @override
   String get goetheDataDonationExplanation =>
-      'All data requests are made in the context of the COMET research project. The project ends at the end of August. Only a small single-digit number of data requests is expected. If a data request is accepted, data will only be transmitted once. Daily consumption time series for individual meters can be shared.';
+      'എല്ലാ ഡാറ്റാ അഭ്യർത്ഥനകളും കോമെറ്റ് ഗവേഷണ പദ്ധതിയുടെ ഭാഗമായിട്ടാണ് നൽകുന്നത്. ഈ പദ്ധതി ഓഗസ്റ്റ് അവസാനത്തോടെ അവസാനിക്കും. വളരെ കുറച്ച് ഡാറ്റാ അഭ്യർത്ഥനകൾ മാത്രമേ പ്രതീക്ഷിക്കുന്നുള്ളൂ. ഒരു ഡാറ്റാ അഭ്യർത്ഥന അംഗീകരിക്കുകയാണെങ്കിൽ, ഡാറ്റ ഒരിക്കൽ മാത്രമേ കൈമാറുകയുള്ളൂ. ഓരോ മീറ്ററുടെയും പ്രതിദിന ഉപഭോഗ ടൈം സീരീസ് പങ്കുവെക്കാൻ സാധിക്കും.';
 
   @override
-  String get goetheDataDonationAudienceQuestion => 'Who may submit data requests?';
+  String get goetheDataDonationAudienceQuestion => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ സമർപ്പിക്കാൻ ആർക്കൊക്കെ കഴിയും?';
 
   @override
-  String get goetheDataDonationAcceptAll => 'Accept all';
+  String get goetheDataDonationAcceptAll => 'എല്ലാം അംഗീകരിക്കുക';
 
   @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Private research institute';
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'സ്വകാര്യ ഗവേഷണ സ്ഥാപനം';
 
   @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Research institute';
+  String get goetheDataDonationAudienceResearchInstitute => 'ഗവേഷണ സ്ഥാപനം';
 
   @override
-  String get goetheDataDonationAudienceUniversity => 'University';
+  String get goetheDataDonationAudienceUniversity => 'സർവ്വകലാശാല';
 
   @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Private company';
+  String get goetheDataDonationAudiencePrivateCompany => 'സ്വകാര്യ കമ്പനി';
 
   @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Non-profit organization';
+  String get goetheDataDonationAudienceNonprofitOrganization => 'ലാഭേച്ഛയില്ലാത്ത സംഘടന';
 
   @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Governmental institution';
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'സർക്കാർ സ്ഥാപനം';
 
   @override
-  String get goetheDataDonationAudienceOther => 'Other';
+  String get goetheDataDonationAudienceOther => 'മറ്റുള്ളവ';
 
   @override
-  String get goetheDataDonationPurposeQuestion => 'For which purposes?';
+  String get goetheDataDonationPurposeQuestion => 'ഏത് ആവശ്യങ്ങൾക്കായി?';
 
   @override
-  String get goetheDataDonationPurposeResearch => 'Research';
+  String get goetheDataDonationPurposeResearch => 'ഗവേഷണം';
 
   @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Product development';
+  String get goetheDataDonationPurposeProductDevelopment => 'ഉൽപ്പന്ന വികസനം';
 
   @override
-  String get goetheDataDonationPurposeAiTraining => 'AI training';
+  String get goetheDataDonationPurposeAiTraining => 'എഐ പരിശീലനം';
 
   @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalized marketing';
+  String get goetheDataDonationPurposePersonalizedMarketing => 'വ്യക്തിഗതമാക്കിയ വിപണനം';
 
   @override
-  String get goetheDataDonationPurposeMarketResearch => 'Market research';
+  String get goetheDataDonationPurposeMarketResearch => 'വിപണി ഗവേഷണം';
 
   @override
-  String get goetheDataDonationPurposeLabel => 'Purpose';
+  String get goetheDataDonationPurposeLabel => 'ഉദ്ദേശ്യം';
 
   @override
-  String get goetheDataDonationDisabled => 'Data requests are currently unavailable.';
+  String get goetheDataDonationDisabled => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ നിലവിൽ ലഭ്യമല്ല.';
 
   @override
-  String get goetheDataDonationBackHome => 'Back to home';
+  String get goetheDataDonationBackHome => 'ഹോമിലേക്ക് മടങ്ങുക';
 
   @override
-  String get goetheDataDonationBannerPending => 'There are new data requests.';
+  String get goetheDataDonationBannerPending => 'പുതിയ ഡാറ്റാ അഭ്യർത്ഥനകൾ ഉണ്ട്.';
 
   @override
-  String get goetheDataDonationRequestsTitle => 'Data requests';
+  String get goetheDataDonationRequestsTitle => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ';
 
   @override
-  String get goetheDataDonationRequestsLoadError => 'Data requests could not be loaded.';
+  String get goetheDataDonationRequestsLoadError => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.';
 
   @override
   String get goetheDataDonationRequestsEnableHint =>
-      'Enable data requests in the settings first to view and manage requests.';
+      'അഭ്യർത്ഥനകൾ കാണുന്നതിനും നിയന്ത്രിക്കുന്നതിനും ആദ്യം ക്രമീകരണങ്ങളിൽ ഡാറ്റാ അഭ്യർത്ഥനകൾ പ്രവർത്തനക്ഷമമാക്കുക.';
 
   @override
-  String get goetheDataDonationRequestsOpenSettings => 'Open settings';
+  String get goetheDataDonationRequestsOpenSettings => 'സെറ്റിംഗ്സ് തുറക്കുക';
 
   @override
-  String get goetheDataDonationRequestsEmpty => 'There are currently no data requests.';
+  String get goetheDataDonationRequestsEmpty => 'നിലവിൽ ഡാറ്റാ അഭ്യർത്ഥനകളൊന്നും ലഭിച്ചിട്ടില്ല.';
 
   @override
-  String get goetheDataDonationRequestsPendingTitle => 'Pending data requests';
+  String get goetheDataDonationRequestsPendingTitle => 'നടപടിപ്പഴകുന്ന ഡാറ്റാ അഭ്യർത്ഥനകൾ';
 
   @override
-  String get goetheDataDonationRequestsPendingEmpty => 'No pending data requests.';
+  String get goetheDataDonationRequestsPendingEmpty => 'നിലവിലുള്ള ഡാറ്റാ അഭ്യർത്ഥനകളില്ല.';
 
   @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Approved data requests';
+  String get goetheDataDonationRequestsApprovedTitle => 'അംഗീകരിച്ച ഡാറ്റാ അഭ്യർത്ഥനകൾ';
 
   @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'No approved data requests.';
+  String get goetheDataDonationRequestsApprovedEmpty => 'അംഗീകൃത ഡാറ്റാ അഭ്യർത്ഥനകളില്ല.';
 
   @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Rejected data requests';
+  String get goetheDataDonationRequestsRejectedTitle => 'നിരസിക്കപ്പെട്ട ഡാറ്റാ അഭ്യർത്ഥനകൾ';
 
   @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'No rejected data requests.';
+  String get goetheDataDonationRequestsRejectedEmpty => 'തള്ളിക്കളഞ്ഞ ഡാറ്റാ അഭ്യർത്ഥനകളില്ല.';
 
   @override
-  String get goetheDataDonationRejectButton => 'Reject';
+  String get goetheDataDonationRejectButton => 'തള്ളുക';
 
   @override
-  String get goetheDataDonationApproveButton => 'Approve';
+  String get goetheDataDonationApproveButton => 'അംഗീകരിക്കുക';
 
   @override
-  String get goetheDataDonationResetDecisionButton => 'Mark as pending';
+  String get goetheDataDonationResetDecisionButton => 'നടപടിക്കായി അടയാളപ്പെടുത്തുക';
 
   @override
-  String get goetheDataDonationUploadPreparing => 'Preparing data requests for upload.';
+  String get goetheDataDonationUploadPreparing => 'അപ്‌ലോഡിനായി ഡാറ്റാ അഭ്യർത്ഥനകൾ തയ്യാറാക്കുന്നു.';
 
   @override
   String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Uploading data requests $current of $total.';
+    return 'ഡാറ്റാ അഭ്യർത്ഥനകൾ അപ്‌ലോഡ് ചെയ്യുക $current, $total-ന്റെ.';
   }
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Uploaded $completed of $total data requests.';
+    return '$total ഡാറ്റാ അഭ്യർത്ഥനകളിൽ $completed അപ്‌ലോഡ് ചെയ്തു.';
   }
 
   @override
   String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Uploaded $completed of $total data requests, $failed failed.';
+    return '$total ഡാറ്റാ അഭ്യർത്ഥനകളിൽ $completed എണ്ണം അപ്‌ലോഡ് ചെയ്തു, $failed പരാജയപ്പെട്ടു.';
   }
 
   @override
-  String get goetheDataDonationSettingsTitle => 'Data requests';
+  String get goetheDataDonationSettingsTitle => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ';
 
   @override
-  String get goetheDataDonationSettingsSubtitle => 'Manage Goethe research data requests';
+  String get goetheDataDonationSettingsSubtitle => 'ഗോഥെ ഗവേഷണ ഡാറ്റാ അഭ്യർത്ഥനകൾ കൈകാര്യം ചെയ്യുക';
 
   @override
-  String get goetheDataDonationRequestFallbackTitle => 'Data request';
+  String get goetheDataDonationRequestFallbackTitle => 'ഡാറ്റാ അഭ്യർത്ഥന';
 
   @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Requested data';
+  String get goetheDataDonationDatasetDescriptionLabel => 'അഭ്യർത്ഥിച്ച ഡാറ്റ';
 
   @override
-  String get goetheDataDonationMeterLabel => 'Meter';
+  String get goetheDataDonationMeterLabel => 'മീറ്റർ';
 
   @override
-  String get goetheDataDonationAddressLabel => 'Address';
+  String get goetheDataDonationAddressLabel => 'വിലാസം';
 
   @override
-  String get goetheDataDonationCreatedAtLabel => 'Created on';
+  String get goetheDataDonationCreatedAtLabel => 'സൃഷ്ടിച്ചത്';
 
   @override
   String get comment => 'കുറിപ്പ്';
