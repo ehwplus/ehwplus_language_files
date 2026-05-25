@@ -44,17 +44,17 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get accountUpdateInfo => 'Novo: EHW+ korisnički račun';
 
   @override
+  String get activitiesDefinitionsTab => 'Aktivnosti';
+
+  @override
   String get activitiesDescription =>
       'Povežite očitanja mjerača s aktivnostima, npr. pranje s mjeračima hladne vode i mjeračima električne energije.';
 
   @override
-  String get activitiesDefinitionsTab => 'Activities';
+  String get activitiesTimelineEmpty => 'Još nisu zabilježene nikakve aktivnosti.';
 
   @override
-  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
-
-  @override
-  String get activitiesTimelineTab => 'Timeline';
+  String get activitiesTimelineTab => 'Vremenska crta';
 
   @override
   String get activitiesTitle => 'Moje aktivnosti';
@@ -114,6 +114,20 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get addNewValue => 'Unesite novu vrijednost';
 
   @override
+  String get addressAdministrativeArea => 'Država / regija / pokrajina';
+
+  @override
+  String get addressLocality => 'Grad / naselje';
+
+  @override
+  String get addressStreet => 'Ulica / adresna linija';
+
+  @override
+  String addressValidationRequired(String label) {
+    return 'Molimo unesite $label';
+  }
+
+  @override
   String get advancePayment => 'Predujam';
 
   @override
@@ -139,6 +153,11 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Preporučena mjesečna uplata: $recommendedAmount umjesto $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDue(int day, String cadence) {
     return 'Rok dospijeća je $day. dana u mjesecu, $cadence.';
   }
@@ -154,14 +173,15 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   }
 
   @override
-  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
-    return 'Preporučena mjesečna uplata: $recommendedAmount umjesto $currentAmount';
-  }
-
-  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Iznos predujma od $amount dospijeva na dan $day.';
   }
+
+  @override
+  String get ammeterConsumptionByDevices => 'Potrošnja električne energije uređaja';
+
+  @override
+  String get ammeterConsumptionByRooms => 'Potrošnja električne energije po sobama';
 
   @override
   String get appBarExpandedMode => 'Traka aplikacije s pozadinskom slikom';
@@ -894,9 +914,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get contractNumber => 'Broj ugovora';
 
   @override
-  String get customerId => 'Customer ID';
-
-  @override
   String get contractPeriod => 'Razdoblje ugovora';
 
   @override
@@ -936,13 +953,16 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get corresponds => 'odgovara';
 
   @override
-  String get costSummary => 'Sažetak troškova';
-
-  @override
   String get costOverviewAdvancePaymentsBar => 'Uplaćeni avansi';
 
   @override
   String get costOverviewContractCostsBar => 'Troškovi na temelju potrošnje + osnovne naknade za razdoblje ugovora';
+
+  @override
+  String get costSummary => 'Sažetak troškova';
+
+  @override
+  String get costSummarySolarThermalSavings => 'Sažetak ušteda';
 
   @override
   String get costSummaryYield => 'Cijena naknade/-osnovna cijena';
@@ -981,6 +1001,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get counter => 'Brojač';
+
+  @override
+  String get counterAmmeter => 'Uređaj za mjerenje električne energije';
 
   @override
   String get counterBackgroundImage => 'Pozadinska slika za brojač';
@@ -1032,9 +1055,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Mjerilo električne energije';
-
-  @override
-  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'Mjerač električne energije (PV)';
@@ -1161,12 +1181,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get counterShowHeatmap => 'Prikaži toplinsku kartu';
 
   @override
-  String get counterShowPreliminaryCurve => 'Prikaži preliminarnu krivulju';
-
-  @override
-  String get counterShowReadingsChart => 'Prikaži grafikon očitanja';
-
-  @override
   String get counterTankCapacity => 'Kapacitet spremnika';
 
   @override
@@ -1213,6 +1227,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get currency => 'Valuta';
+
+  @override
+  String get customerId => 'ID kupca';
 
   @override
   String deleteObjectError(int errorCode) {
@@ -1288,12 +1305,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => 'Potrošnja energije';
-
-  @override
-  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
-
-  @override
-  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
 
   @override
   String get electricityGenerated => 'Proizvedena električna energija';
@@ -1441,6 +1452,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get fedIn => 'Uhranjeno';
 
   @override
+  String get firstName => 'Prvo ime';
+
+  @override
   String get firstReadingConsumption => 'Sada unesite prvu potrošnju.';
 
   @override
@@ -1487,19 +1501,136 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Više o toplinskoj karti';
 
   @override
-  String get addressAdministrativeArea => 'Država / regija / pokrajina';
+  String get homeAssistantAccessTokenLabel => 'Dugovječni pristupni token';
 
   @override
-  String get addressLocality => 'Grad / naselje';
+  String get homeAssistantAccessTokenRequired => 'Molimo unesite dugovječni pristupni token.';
 
   @override
-  String get addressStreet => 'Ulica / adresna linija';
+  String get homeAssistantConfigureNow => 'Postavite sada';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Verzija $version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Povezivanje je propalo: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Povezivanje s Home Assistantom je uspjelo.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Zadana aktivnost';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Odaberite senzore potrošnje Home Assistant-a koji bi trebali stvoriti i ažurirati brojače u trenutnom EHW+ objektu.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Povijesna potrošnja EHW+';
+
+  @override
+  String get homeAssistantLinkSensor => 'Povežite senzor';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Prividna snaga';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Trenutni';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Moć';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reaktivna snaga';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Napetost';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Povezivanje s Home Assistantom...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError =>
+      'Podaci u stvarnom vremenu Home Assistant-a nisu mogli biti učitani.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'Nijedna vrijednost uživo nije otkrivena za ovaj senzor.';
+
+  @override
+  String get homeAssistantLoadSensors => 'Senzori opterećenja';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'Ovo izgleda kao lokalni URL. Sinhronizacija se pokušava samo dok je uređaj priključen na lokalnu mrežu.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'Nema zadane aktivnosti';
+
+  @override
+  String get homeAssistantNoPushCounters => 'U ovom objektu nema prekidača koji se mogu proslijediti u Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'Nisu pronađeni odgovarajući senzori potrošnje.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Sinkronizirajte očitanja brojila i potrošnje s Home Assistantom.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Utakni';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Utakmičar nedostupan';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Odaberite EHW+ brojače čije bi statistike potrošnje trebale biti poslane u Home Assistant nakon promjena.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Pritisnite kontrole EHW+';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Povežite EHW+ s vašom instancom Home Assistant-a kako biste dohvatili očitanja brojila s odabranih senzora ili poslali statistiku EHW+.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Kućni asistent';
+
+  @override
+  String get homeAssistantSubscriptionRequired => 'Za sinhronizaciju s Home Assistantom potrebna je aktivna pretplata.';
+
+  @override
+  String get homeAssistantTitle => 'Kućni asistent';
+
+  @override
+  String get homeAssistantTokenTest => 'Testni token';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Nepoznata instanca';
+
+  @override
+  String get homeAssistantUnlink => 'Odvezi';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Molimo unesite valjan URL za Home Assistant.';
+
+  @override
+  String get homeAssistantUrlLabel => 'URL Home Assistant';
+
+  @override
+  String get homeAssistantUrlRequired => 'Molimo unesite URL za Home Assistant.';
 
   @override
   String get houseName => 'Ime kuće';
 
   @override
   String get houseNameDescription => 'Ime kuće, npr. naziv ulice';
+
+  @override
+  String get houseNumber => 'Kućni broj';
 
   @override
   String get import => 'Uvoz';
@@ -1593,6 +1724,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get last2Weeks => 'Zadnjih 14 dana';
+
+  @override
+  String get lastName => 'Prezime';
 
   @override
   String get lastReading => 'zadnje očitanje';
@@ -2260,9 +2394,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get rooms => 'Sobe';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
-
-  @override
   String get scanQrCode => 'Skeniraj aktivacijski qr kod';
 
   @override
@@ -2326,7 +2457,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => 'Kuća';
 
   @override
-  String get settingShowCounterReadingsChart => 'Prikaži grafikon očitanja';
+  String get settingShowCounterReadingsChart => 'Pregled tablice očitanja brojila';
 
   @override
   String get settingShowHeatmap => 'Prikaži toplinsku kartu';
@@ -2368,130 +2499,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Vanjske usluge';
 
   @override
-  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
-
-  @override
-  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
-
-  @override
-  String get homeAssistantConfigureNow => 'Set up now';
-
-  @override
-  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
-    return '$instanceName - Version $version';
-  }
-
-  @override
-  String homeAssistantConnectionFailed(String error) {
-    return 'Connection failed: $error';
-  }
-
-  @override
-  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
-
-  @override
-  String get homeAssistantDefaultActivityLabel => 'Default activity';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsDescription =>
-      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
-
-  @override
-  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
-
-  @override
-  String get homeAssistantLiveMeasurementCurrent => 'Current';
-
-  @override
-  String get homeAssistantLiveMeasurementPower => 'Power';
-
-  @override
-  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
-
-  @override
-  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
-
-  @override
-  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
-
-  @override
-  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
-
-  @override
-  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
-
-  @override
-  String get homeAssistantLinkSensor => 'Link sensor';
-
-  @override
-  String get homeAssistantLoadSensors => 'Load sensors';
-
-  @override
-  String get homeAssistantLocalUrlWarning =>
-      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
-
-  @override
-  String get homeAssistantNoDefaultActivity => 'No default activity';
-
-  @override
-  String get homeAssistantNoPushCounters =>
-      'There are no counters in this object that can be pushed to Home Assistant.';
-
-  @override
-  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
-
-  @override
-  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
-
-  @override
-  String get homeAssistantPlugTitle => 'Plug';
-
-  @override
-  String get homeAssistantPlugUnavailable => 'Plug unavailable';
-
-  @override
-  String get homeAssistantPushCountersDescription =>
-      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
-
-  @override
-  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
-
-  @override
-  String get homeAssistantSettingsDescription =>
-      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
-
-  @override
-  String get homeAssistantSettingsTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantSubscriptionRequired =>
-      'An active subscription is required for Home Assistant synchronization.';
-
-  @override
-  String get homeAssistantTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantTokenTest => 'Test token';
-
-  @override
-  String get homeAssistantUnlink => 'Unlink';
-
-  @override
-  String get homeAssistantUnknownInstance => 'Unknown instance';
-
-  @override
-  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
-
-  @override
-  String get homeAssistantUrlLabel => 'Home Assistant URL';
-
-  @override
-  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
-
-  @override
   String get settingsShowStromGedacht => 'Trebaju li se prikazati savjeti StromGedachta o električnoj mreži?';
 
   @override
@@ -2523,9 +2530,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Nažalost, nema podataka koje bi aplikacija mogla prikazati.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Sinkronizacija pametnog brojila nije uspjela';
-
-  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Postavi pametni brojač';
 
   @override
@@ -2541,10 +2545,13 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nije postavljeno';
 
   @override
+  String get smartMeterProviderWtl => 'Vodovodno udruženje Tecklenburger Land';
+
+  @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+  String get smartMeterReadingsSyncFailed => 'Sinkronizacija pametnog brojila nije uspjela';
 
   @override
   String get smartMeterServiceProvider => 'Pružatelj usluga';
@@ -3521,6 +3528,12 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
       'Nažalost, još ne znamo tko vam je dobavljač vode. Slobodno nam pišite. Pružatelji usluga koji nude samo električnu energiju i plin ovdje se ne prikazuju.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Vaš zahtjev za pristup je odbijen. Možete izbrisati ovaj brojilac.';
+
+  @override
+  String get watersupplierAccessRequestPending => 'Vaš zahtjev za pristup se još obrađuje. Molimo budite strpljivi.';
+
+  @override
   String get watersupplierAccessRequestQ1 =>
       'Jeste li vlasnik nekretnine u zoni opskrbe vodom i želite li pristup radijskim očitanjima brojila?';
 
@@ -3545,12 +3558,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierMeterIdValidationStep => 'Provjeravamo vaš ID brojila.';
-
-  @override
-  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
-
-  @override
-  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
 
   @override
   String get watersupplierNoAccess => 'Više nemate ovlaštenje za preuzimanje podataka.';
@@ -3622,48 +3629,43 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
       'Ne želite više pristup podacima vašeg radiometra?Imajte na umu: nakon skeniranja koda za opoziv, aktivacijski kod postaje nevažeći.Svaki korisnički račun koji je koristio aktivacijski kod izgubit će pristup.';
 
   @override
-  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+  String get watersupplierUnlinkRadioMeterFailure =>
+      'Radio-mjerilo nije moguće izbrisati. Molimo pokušajte ponovno kasnije.';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => 'Prekinite pristup radio mjeraču';
 
   @override
   String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+      'Ako izbrišete ovaj radio-mjeril, vaš će pristup očitanjima radio-mjerila biti opozvan. Kasnije možete podnijeti novi zahtjev za pristup.';
 
   @override
-  String get firstName => 'First name';
+  String get withoutRoomAssignment => 'Bez dodjele sobe';
 
   @override
-  String get houseNumber => 'House number';
+  String get wtlAccessRequestFailure => 'Zahtjev za pristup nije mogao biti stvoren.';
 
   @override
-  String get lastName => 'Last name';
+  String get wtlAccessRequestMeterId => 'ID brojača';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get wtlAccessRequestMissingAccountData => 'Vašem računu nedostaje adresa e-pošte.';
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+      'Molimo unesite ID broj mjerila s najmanje 8 znakova i broj predmeta usluge.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String get wtlAccessRequestOnlineOnlyDescription => 'Zahtjev za online pristup za Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+  String get wtlAccessRequestServiceObjectNumber => 'Broj servisnog objekta';
 
   @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
+  String get wtlAccessRequestSuccess => 'Zahtjev za pristup je kreiran.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'Zahtjev za pristup WTL-u';
 
   @override
   String get yearlyConsumption => 'Dosadašnja godišnja potrošnja';
@@ -3683,12 +3685,10 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
       'Slažem se da mi se vanjski sadržaj prikazuje.To može rezultirati prijenosom osobnih podataka na platforme trećih strana.Više o tome u našem';
 
   @override
-  String addressValidationRequired(String label) {
-    return 'Molimo unesite $label';
-  }
+  String get zipCode => 'Poštanski broj';
 
   @override
-  String get zipCode => 'Poštanski broj';
+  String get zipCodeValidationGeneral => 'Molimo unesite važeći poštanski broj.';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3697,7 +3697,4 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Važeći poštanski broj sastoji se samo od brojeva';
-
-  @override
-  String get zipCodeValidationGeneral => 'Molimo unesite važeći poštanski broj.';
 }

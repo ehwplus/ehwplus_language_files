@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:ehwplus_language_files/src/model/language_icon_type.dart';
+import 'package:ehwplus_language_files/ehwplus_language_files.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -9,6 +9,7 @@ import '../model/arb_entry.dart';
 import '../model/translation_record.dart';
 import '../repository/arb_repository.dart';
 import '../service/deepl_translation_service.dart';
+import '../widget/api_key_dialog.dart';
 import '../widget/language_icon.dart';
 
 class TranslationDetailPage extends StatefulWidget {
@@ -549,41 +550,13 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   }
 
   Future<void> _openApiKeyDialog() async {
-    final dialogController = TextEditingController(text: _apiKeyController.text);
-    var obscure = true;
-
     final result = await showDialog<String>(
       context: context,
-      builder: (context) => StatefulBuilder(
-        builder: (context, setState) {
-          return AlertDialog(
-            title: const Text('DeepL API-Key'),
-            content: TextField(
-              controller: dialogController,
-              obscureText: obscure,
-              decoration: InputDecoration(
-                labelText: 'DeepL API-Key',
-                suffixIcon: IconButton(
-                  icon: Icon(obscure ? Icons.visibility_off : Icons.visibility),
-                  onPressed: () => setState(() => obscure = !obscure),
-                ),
-              ),
-            ),
-            actions: [
-              TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
-              FilledButton(
-                onPressed: () => Navigator.of(context).pop(dialogController.text.trim()),
-                child: const Text('Speichern'),
-              ),
-            ],
-          );
-        },
-      ),
+      builder: (context) => ApiKeyDialog(initialValue: _apiKeyController.text),
     );
 
-    dialogController.dispose();
-
     if (result != null) {
+      if (!mounted) return;
       setState(() {
         _apiKeyController.text = result;
       });
@@ -593,11 +566,11 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
-        if (!_didMutate) return true;
+    return PopScope<bool>(
+      canPop: !_didMutate,
+      onPopInvokedWithResult: (didPop, result) {
+        if (didPop) return;
         Navigator.of(context).pop(true);
-        return false;
       },
       child: Scaffold(
         appBar: AppBar(

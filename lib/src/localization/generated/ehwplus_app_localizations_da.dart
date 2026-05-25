@@ -44,17 +44,17 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get accountUpdateInfo => 'Nyt: EHW+-brugerkontoen';
 
   @override
+  String get activitiesDefinitionsTab => 'Aktiviteter';
+
+  @override
   String get activitiesDescription =>
       'Knyt måleraflæsninger til aktiviteter, fx vask med koldtvandsmålere og elmålere.';
 
   @override
-  String get activitiesDefinitionsTab => 'Activities';
+  String get activitiesTimelineEmpty => 'Der er endnu ikke registreret nogen aktiviteter.';
 
   @override
-  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
-
-  @override
-  String get activitiesTimelineTab => 'Timeline';
+  String get activitiesTimelineTab => 'Tidslinje';
 
   @override
   String get activitiesTitle => 'Mine aktiviteter';
@@ -114,6 +114,20 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get addNewValue => 'Indtast ny værdi';
 
   @override
+  String get addressAdministrativeArea => 'Stat/region/provins';
+
+  @override
+  String get addressLocality => 'By / lokalitet';
+
+  @override
+  String get addressStreet => 'Gade/adresselinje';
+
+  @override
+  String addressValidationRequired(String label) {
+    return 'Indtast venligst $label';
+  }
+
+  @override
   String get advancePayment => 'Forudbetaling';
 
   @override
@@ -140,6 +154,11 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Anbefalet månedligt forskud: $recommendedAmount i stedet for $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDue(int day, String cadence) {
     return 'Den skal betales den$day. i måneden, $cadence.';
   }
@@ -155,14 +174,15 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   }
 
   @override
-  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
-    return 'Anbefalet månedligt forskud: $recommendedAmount i stedet for $currentAmount';
-  }
-
-  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Forskuddet på $amount skal betales den $day. i måneden, $cadence.';
   }
+
+  @override
+  String get ammeterConsumptionByDevices => 'Elforbrug fordelt på enheder';
+
+  @override
+  String get ammeterConsumptionByRooms => 'Elforbrug fordelt på værelser';
 
   @override
   String get appBarExpandedMode => 'App bar med baggrundsbillede';
@@ -893,9 +913,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get contractNumber => 'Kontraktnummer';
 
   @override
-  String get customerId => 'Customer ID';
-
-  @override
   String get contractPeriod => 'Kontraktperiode';
 
   @override
@@ -935,13 +952,16 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get corresponds => 'svarer';
 
   @override
-  String get costSummary => 'Omkostningsoversigt';
-
-  @override
   String get costOverviewAdvancePaymentsBar => 'Forudbetalinger foretaget';
 
   @override
   String get costOverviewContractCostsBar => 'Forbrugsbaserede omkostninger + basisgebyrer for kontraktperioden';
+
+  @override
+  String get costSummary => 'Omkostningsoversigt';
+
+  @override
+  String get costSummarySolarThermalSavings => 'Oversigt over besparelser';
 
   @override
   String get costSummaryYield => 'Vederlagspris/-basispris';
@@ -980,6 +1000,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get counter => 'Tæller';
+
+  @override
+  String get counterAmmeter => 'Apparat til måling af elektricitet';
 
   @override
   String get counterBackgroundImage => 'Baggrundsbillede til tæller';
@@ -1031,9 +1054,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Elmåler';
-
-  @override
-  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'El-tilførselsmåler (PV)';
@@ -1159,12 +1179,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get counterShowHeatmap => 'Vis varmekort';
 
   @override
-  String get counterShowPreliminaryCurve => 'Vis foreløbig kurve';
-
-  @override
-  String get counterShowReadingsChart => 'Vis aflæsningsdiagram';
-
-  @override
   String get counterTankCapacity => 'Tank kapacitet';
 
   @override
@@ -1211,6 +1225,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get currency => 'Valuta';
+
+  @override
+  String get customerId => 'Kunde-ID';
 
   @override
   String deleteObjectError(int errorCode) {
@@ -1286,12 +1303,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => 'Strømforbrug';
-
-  @override
-  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
-
-  @override
-  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
 
   @override
   String get electricityGenerated => 'Genereret elektricitet';
@@ -1438,6 +1449,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get fedIn => 'Fodret ind';
 
   @override
+  String get firstName => 'Fornavn';
+
+  @override
   String get firstReadingConsumption => 'Indtast det første forbrug nu.';
 
   @override
@@ -1484,19 +1498,136 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mere om varmekortet';
 
   @override
-  String get addressAdministrativeArea => 'Stat/region/provins';
+  String get homeAssistantAccessTokenLabel => 'Langtidsholdbar adgangstoken';
 
   @override
-  String get addressLocality => 'By / lokalitet';
+  String get homeAssistantAccessTokenRequired => 'Indtast venligst et langtidsholdbart adgangstoken.';
 
   @override
-  String get addressStreet => 'Gade/adresselinje';
+  String get homeAssistantConfigureNow => 'Sæt op nu';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Version$version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Forbindelsen mislykkedes: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Forbindelsen til Home Assistant var vellykket.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Standardaktivitet';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Vælg Home Assistant-forbrugssensorer, der skal oprette og opdatere tællere i det aktuelle EHW+-objekt.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Historisk forbrug af EHW+';
+
+  @override
+  String get homeAssistantLinkSensor => 'Link-sensor';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Tilsyneladende effekt';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Nuværende';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Kraft';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Reaktiv effekt';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Spænding';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Opretter forbindelse til Home Assistant...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Home Assistant live-data kunne ikke indlæses.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'Der blev ikke registreret nogen aktive værdier for denne sensor.';
+
+  @override
+  String get homeAssistantLoadSensors => 'Belastningssensorer';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'Dette ligner en lokal URL. Synkronisering forsøges kun, mens enheden er forbundet til det lokale netværk.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'Ingen standardaktivitet';
+
+  @override
+  String get homeAssistantNoPushCounters => 'Der er ingen tællere i dette objekt, som kan skubbes til Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'Der blev ikke fundet nogen egnede forbrugssensorer.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Synkroniser måleraflæsninger og forbrug med Home Assistant.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Stik';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Stikket er ikke tilgængeligt';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Vælg EHW+-tællere, hvis forbrugsstatistik skal sendes til Home Assistant efter ændringer.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Tryk på EHW+ tællere';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Forbind EHW+ med din Home Assistant-instans for at hente måleraflæsninger fra udvalgte sensorer eller skubbe EHW+-statistikker.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Hjemmehjælper';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'Et aktivt abonnement er påkrævet for synkronisering med Home Assistant.';
+
+  @override
+  String get homeAssistantTitle => 'Hjemmehjælper';
+
+  @override
+  String get homeAssistantTokenTest => 'Test-token';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Ukendt instans';
+
+  @override
+  String get homeAssistantUnlink => 'Fjern linket';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Indtast venligst en gyldig URL til Home Assistant.';
+
+  @override
+  String get homeAssistantUrlLabel => 'Hjemmeassistentens URL';
+
+  @override
+  String get homeAssistantUrlRequired => 'Indtast venligst hjemmeassistentens URL.';
 
   @override
   String get houseName => 'Husets navn';
 
   @override
   String get houseNameDescription => 'Husnavn, f.eks. gadenavn';
+
+  @override
+  String get houseNumber => 'Husnummer';
 
   @override
   String get import => 'Importere';
@@ -1590,6 +1721,9 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get last2Weeks => 'Sidste 14 dage';
+
+  @override
+  String get lastName => 'Efternavn';
 
   @override
   String get lastReading => 'sidste læsning';
@@ -2251,9 +2385,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get rooms => 'Værelser';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
-
-  @override
   String get scanQrCode => 'Scan aktiverings-qr-kode';
 
   @override
@@ -2318,7 +2449,7 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => 'Hus';
 
   @override
-  String get settingShowCounterReadingsChart => 'Vis aflæsningsdiagram';
+  String get settingShowCounterReadingsChart => 'Vis diagram over måleraflæsning';
 
   @override
   String get settingShowHeatmap => 'Vis varmekort';
@@ -2360,130 +2491,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Eksterne tjenester';
 
   @override
-  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
-
-  @override
-  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
-
-  @override
-  String get homeAssistantConfigureNow => 'Set up now';
-
-  @override
-  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
-    return '$instanceName - Version $version';
-  }
-
-  @override
-  String homeAssistantConnectionFailed(String error) {
-    return 'Connection failed: $error';
-  }
-
-  @override
-  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
-
-  @override
-  String get homeAssistantDefaultActivityLabel => 'Default activity';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsDescription =>
-      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
-
-  @override
-  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
-
-  @override
-  String get homeAssistantLiveMeasurementCurrent => 'Current';
-
-  @override
-  String get homeAssistantLiveMeasurementPower => 'Power';
-
-  @override
-  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
-
-  @override
-  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
-
-  @override
-  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
-
-  @override
-  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
-
-  @override
-  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
-
-  @override
-  String get homeAssistantLinkSensor => 'Link sensor';
-
-  @override
-  String get homeAssistantLoadSensors => 'Load sensors';
-
-  @override
-  String get homeAssistantLocalUrlWarning =>
-      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
-
-  @override
-  String get homeAssistantNoDefaultActivity => 'No default activity';
-
-  @override
-  String get homeAssistantNoPushCounters =>
-      'There are no counters in this object that can be pushed to Home Assistant.';
-
-  @override
-  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
-
-  @override
-  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
-
-  @override
-  String get homeAssistantPlugTitle => 'Plug';
-
-  @override
-  String get homeAssistantPlugUnavailable => 'Plug unavailable';
-
-  @override
-  String get homeAssistantPushCountersDescription =>
-      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
-
-  @override
-  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
-
-  @override
-  String get homeAssistantSettingsDescription =>
-      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
-
-  @override
-  String get homeAssistantSettingsTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantSubscriptionRequired =>
-      'An active subscription is required for Home Assistant synchronization.';
-
-  @override
-  String get homeAssistantTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantTokenTest => 'Test token';
-
-  @override
-  String get homeAssistantUnlink => 'Unlink';
-
-  @override
-  String get homeAssistantUnknownInstance => 'Unknown instance';
-
-  @override
-  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
-
-  @override
-  String get homeAssistantUrlLabel => 'Home Assistant URL';
-
-  @override
-  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
-
-  @override
   String get settingsShowStromGedacht => 'Skal der vises tips fra StromGedacht om elnettet?';
 
   @override
@@ -2515,9 +2522,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Desværre er der ingen data, som appen kan vise.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Synkronisering af smartmåler mislykkedes';
-
-  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Opsæt smartmåler';
 
   @override
@@ -2533,10 +2537,13 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Ikke indstillet';
 
   @override
+  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+
+  @override
   String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+  String get smartMeterReadingsSyncFailed => 'Synkronisering af smartmåler mislykkedes';
 
   @override
   String get smartMeterServiceProvider => 'Serviceudbyder';
@@ -3508,6 +3515,13 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Desværre kender vi endnu ikke din vandleverandør. Du er velkommen til at skrive til os. Leverandører, der kun tilbyder el og gas, vises ikke her.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Din anmodning om adgang blev afvist. Du kan slette denne måler.';
+
+  @override
+  String get watersupplierAccessRequestPending =>
+      'Din anmodning om adgang er stadig ved at blive behandlet. Vær venligst tålmodig.';
+
+  @override
   String get watersupplierAccessRequestQ1 =>
       'Er du ejer af en ejendom i vandforsyningens indvindingsområde og vil gerne have adgang til radioaflæsninger?';
 
@@ -3532,12 +3546,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierMeterIdValidationStep => 'Vi tjekker dit måler-id.';
-
-  @override
-  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
-
-  @override
-  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
 
   @override
   String get watersupplierNoAccess => 'Du har ikke længere tilladelse til at hente data.';
@@ -3609,48 +3617,42 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Vil du ikke længere have adgang til dine radiomålerdata? Bemærk venligst: når tilbagekaldelseskoden er scannet, bliver aktiveringskoden ugyldig. Enhver brugerkonto, der brugte aktiveringskoden, mister adgangen.';
 
   @override
-  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+  String get watersupplierUnlinkRadioMeterFailure => 'Radiomåleren kunne ikke slettes. Prøv venligst igen senere.';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => 'Afslut radiomåleradgang';
 
   @override
   String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+      'Hvis du sletter denne radiomåler, vil din adgang til radiomålerens aflæsninger blive tilbagekaldt. Du kan indsende en ny adgangsanmodning senere.';
 
   @override
-  String get firstName => 'First name';
+  String get withoutRoomAssignment => 'Uden værelsestildeling';
 
   @override
-  String get houseNumber => 'House number';
+  String get wtlAccessRequestFailure => 'Der kunne ikke oprettes en adgangsanmodning.';
 
   @override
-  String get lastName => 'Last name';
+  String get wtlAccessRequestMeterId => 'Måler-ID';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get wtlAccessRequestMissingAccountData => 'Din konto mangler en e-mailadresse.';
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+      'Indtast venligst et måler-ID med mindst 8 tegn og et serviceobjektnummer.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String get wtlAccessRequestOnlineOnlyDescription => 'Online adgangsanmodning til Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
+  String get wtlAccessRequestServiceObjectNumber => 'Nummer på serviceobjekt';
 
   @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
+  String get wtlAccessRequestSuccess => 'Adgangsanmodning oprettet.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'Anmodning om WTL-adgang';
 
   @override
   String get yearlyConsumption => 'Årligt forbrug indtil videre';
@@ -3670,12 +3672,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Jeg accepterer, at eksternt indhold vises for mig. Dette kan resultere i, at personlige data overføres til tredjepartsplatforme. Mere om dette i vores';
 
   @override
-  String addressValidationRequired(String label) {
-    return 'Indtast venligst $label';
-  }
+  String get zipCode => 'postnummer';
 
   @override
-  String get zipCode => 'postnummer';
+  String get zipCodeValidationGeneral => 'Indtast venligst et gyldigt postnummer';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3684,7 +3684,4 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Et gyldigt postnummer består kun af tal';
-
-  @override
-  String get zipCodeValidationGeneral => 'Indtast venligst et gyldigt postnummer';
 }

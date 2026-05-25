@@ -46,17 +46,17 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get accountUpdateInfo => 'Mới: Tài khoản người dùng EHW+';
 
   @override
+  String get activitiesDefinitionsTab => 'Hoạt động';
+
+  @override
   String get activitiesDescription =>
       'Liên kết chỉ số đồng hồ với các hoạt động, ví dụ: rửa bằng đồng hồ nước lạnh và đồng hồ điện.';
 
   @override
-  String get activitiesDefinitionsTab => 'Activities';
+  String get activitiesTimelineEmpty => 'Chưa có hoạt động nào được ghi nhận.';
 
   @override
-  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
-
-  @override
-  String get activitiesTimelineTab => 'Timeline';
+  String get activitiesTimelineTab => 'Dòng thời gian';
 
   @override
   String get activitiesTitle => 'Hoạt động của tôi';
@@ -116,6 +116,20 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get addNewValue => 'Nhập giá trị mới';
 
   @override
+  String get addressAdministrativeArea => 'Tỉnh / khu vực / tỉnh';
+
+  @override
+  String get addressLocality => 'Thành phố / địa phương';
+
+  @override
+  String get addressStreet => 'Đường / Dòng địa chỉ';
+
+  @override
+  String addressValidationRequired(String label) {
+    return 'Vui lòng nhập $label';
+  }
+
+  @override
   String get advancePayment => 'Thanh toán tạm ứng';
 
   @override
@@ -142,6 +156,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return 'Số tiền trả trước hàng tháng được khuyến nghị: $recommendedAmount thay vì $currentAmount';
+  }
+
+  @override
   String advancePaymentRecurringDue(int day, String cadence) {
     return 'Hạn chót là ngày $day của tháng, $cadence.';
   }
@@ -157,14 +176,15 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
-  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
-    return 'Số tiền trả trước hàng tháng được khuyến nghị: $recommendedAmount thay vì $currentAmount';
-  }
-
-  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return 'Số tiền thanh toán trước của $amount phải được thanh toán vào ngày $day của tháng, $cadence.';
   }
+
+  @override
+  String get ammeterConsumptionByDevices => 'Mức tiêu thụ điện của các thiết bị';
+
+  @override
+  String get ammeterConsumptionByRooms => 'Tiêu thụ điện theo phòng';
 
   @override
   String get appBarExpandedMode => 'Thanh ứng dụng có hình nền';
@@ -897,9 +917,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get contractNumber => 'Số hợp đồng';
 
   @override
-  String get customerId => 'Customer ID';
-
-  @override
   String get contractPeriod => 'Thời hạn hợp đồng';
 
   @override
@@ -939,13 +956,16 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get corresponds => 'tương ứng';
 
   @override
-  String get costSummary => 'Tóm tắt chi phí';
-
-  @override
   String get costOverviewAdvancePaymentsBar => 'Các khoản thanh toán trước đã thực hiện';
 
   @override
   String get costOverviewContractCostsBar => 'Chi phí theo mức tiêu thụ + phí cơ bản trong thời gian hợp đồng';
+
+  @override
+  String get costSummary => 'Tóm tắt chi phí';
+
+  @override
+  String get costSummarySolarThermalSavings => 'Tổng quan về tiết kiệm';
 
   @override
   String get costSummaryYield => 'Giá thù lao/-giá cơ sở';
@@ -984,6 +1004,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get counter => 'Quầy tính tiền';
+
+  @override
+  String get counterAmmeter => 'Thiết bị đo điện';
 
   @override
   String get counterBackgroundImage => 'Hình nền cho quầy';
@@ -1035,9 +1058,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => 'Đồng hồ đo điện';
-
-  @override
-  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => 'Đồng hồ cấp điện (PV)';
@@ -1164,12 +1184,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get counterShowHeatmap => 'Hiển thị bản đồ nhiệt';
 
   @override
-  String get counterShowPreliminaryCurve => 'Hiển thị đường cong sơ bộ';
-
-  @override
-  String get counterShowReadingsChart => 'Hiển thị biểu đồ đọc';
-
-  @override
   String get counterTankCapacity => 'Dung tích bể';
 
   @override
@@ -1216,6 +1230,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get currency => 'Tiền tệ';
+
+  @override
+  String get customerId => 'Mã khách hàng';
 
   @override
   String deleteObjectError(int errorCode) {
@@ -1291,12 +1308,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => 'Tiêu thụ điện năng';
-
-  @override
-  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
-
-  @override
-  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
 
   @override
   String get electricityGenerated => 'Điện được tạo ra';
@@ -1444,6 +1455,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get fedIn => 'đưa vào';
 
   @override
+  String get firstName => 'Tên';
+
+  @override
   String get firstReadingConsumption => 'Nhập mức tiêu thụ đầu tiên ngay bây giờ.';
 
   @override
@@ -1490,19 +1504,136 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Thông tin thêm về bản đồ nhiệt';
 
   @override
-  String get addressAdministrativeArea => 'Tỉnh / khu vực / tỉnh';
+  String get homeAssistantAccessTokenLabel => 'Mã truy cập có thời hạn dài';
 
   @override
-  String get addressLocality => 'Thành phố / địa phương';
+  String get homeAssistantAccessTokenRequired => 'Vui lòng nhập mã thông báo truy cập có thời hạn dài.';
 
   @override
-  String get addressStreet => 'Đường / Dòng địa chỉ';
+  String get homeAssistantConfigureNow => 'Thiết lập ngay';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - Phiên bản$version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return 'Không kết nối được: $error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'Đã kết nối thành công với Home Assistant.';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'Hoạt động mặc định';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription =>
+      'Chọn các cảm biến tiêu thụ của Home Assistant cần tạo và cập nhật các bộ đếm trong đối tượng EHW+ hiện tại.';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => 'Lượng tiêu thụ EHW+ trong quá khứ';
+
+  @override
+  String get homeAssistantLinkSensor => 'Cảm biến liên kết';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => 'Công suất biểu kiến';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => 'Hiện tại';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'Năng lượng';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => 'Công suất phản kháng';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => 'Điện áp';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'Đang kết nối với Home Assistant...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'Không thể tải dữ liệu thời gian thực của Home Assistant.';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'Không phát hiện thấy giá trị thời gian thực nào cho cảm biến này.';
+
+  @override
+  String get homeAssistantLoadSensors => 'Cảm biến tải';
+
+  @override
+  String get homeAssistantLocalUrlWarning =>
+      'Đây có vẻ là một URL nội bộ. Quá trình đồng bộ hóa chỉ được thực hiện khi thiết bị được kết nối với mạng nội bộ.';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'Không có hoạt động mặc định';
+
+  @override
+  String get homeAssistantNoPushCounters => 'Đối tượng này không có bộ đếm nào có thể được đẩy lên Home Assistant.';
+
+  @override
+  String get homeAssistantNoSensors => 'Không tìm thấy cảm biến tiêu thụ nào phù hợp.';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'Đồng bộ hóa số liệu đồng hồ đo và mức tiêu thụ với Home Assistant.';
+
+  @override
+  String get homeAssistantPlugTitle => 'Phích cắm';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'Không có phích cắm';
+
+  @override
+  String get homeAssistantPushCountersDescription =>
+      'Chọn các bộ đếm EHW+ có số liệu tiêu thụ cần được đồng bộ hóa với Home Assistant sau khi có thay đổi.';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'Nhấn các nút EHW+';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'Kết nối EHW+ với hệ thống Home Assistant của bạn để lấy dữ liệu đo từ các cảm biến đã chọn hoặc gửi số liệu thống kê từ EHW+.';
+
+  @override
+  String get homeAssistantSettingsTitle => 'Trợ lý gia đình';
+
+  @override
+  String get homeAssistantSubscriptionRequired =>
+      'Để đồng bộ hóa với Home Assistant, bạn cần có gói đăng ký đang hoạt động.';
+
+  @override
+  String get homeAssistantTitle => 'Trợ lý gia đình';
+
+  @override
+  String get homeAssistantTokenTest => 'Mã thử nghiệm';
+
+  @override
+  String get homeAssistantUnknownInstance => 'Thực thể không xác định';
+
+  @override
+  String get homeAssistantUnlink => 'Hủy liên kết';
+
+  @override
+  String get homeAssistantUrlInvalid => 'Vui lòng nhập một URL Home Assistant hợp lệ.';
+
+  @override
+  String get homeAssistantUrlLabel => 'URL của Home Assistant';
+
+  @override
+  String get homeAssistantUrlRequired => 'Vui lòng nhập URL của Home Assistant.';
 
   @override
   String get houseName => 'Tên nhà';
 
   @override
   String get houseNameDescription => 'Tên nhà, ví dụ: tên đường';
+
+  @override
+  String get houseNumber => 'Số nhà';
 
   @override
   String get import => 'Nhập khẩu';
@@ -1596,6 +1727,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get last2Weeks => '14 ngày qua';
+
+  @override
+  String get lastName => 'Họ';
 
   @override
   String get lastReading => 'lần đọc cuối cùng';
@@ -2257,9 +2391,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get rooms => 'Phòng';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
-
-  @override
   String get scanQrCode => 'Quét mã qr kích hoạt';
 
   @override
@@ -2324,7 +2455,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => 'Căn nhà';
 
   @override
-  String get settingShowCounterReadingsChart => 'Hiển thị biểu đồ đọc';
+  String get settingShowCounterReadingsChart => 'Xem biểu đồ chỉ số đồng hồ';
 
   @override
   String get settingShowHeatmap => 'Hiển thị bản đồ nhiệt';
@@ -2366,130 +2497,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get settingsExternalServices => 'Dịch vụ bên ngoài';
 
   @override
-  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
-
-  @override
-  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
-
-  @override
-  String get homeAssistantConfigureNow => 'Set up now';
-
-  @override
-  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
-    return '$instanceName - Version $version';
-  }
-
-  @override
-  String homeAssistantConnectionFailed(String error) {
-    return 'Connection failed: $error';
-  }
-
-  @override
-  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
-
-  @override
-  String get homeAssistantDefaultActivityLabel => 'Default activity';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsDescription =>
-      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
-
-  @override
-  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
-
-  @override
-  String get homeAssistantLiveMeasurementCurrent => 'Current';
-
-  @override
-  String get homeAssistantLiveMeasurementPower => 'Power';
-
-  @override
-  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
-
-  @override
-  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
-
-  @override
-  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
-
-  @override
-  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
-
-  @override
-  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
-
-  @override
-  String get homeAssistantLinkSensor => 'Link sensor';
-
-  @override
-  String get homeAssistantLoadSensors => 'Load sensors';
-
-  @override
-  String get homeAssistantLocalUrlWarning =>
-      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
-
-  @override
-  String get homeAssistantNoDefaultActivity => 'No default activity';
-
-  @override
-  String get homeAssistantNoPushCounters =>
-      'There are no counters in this object that can be pushed to Home Assistant.';
-
-  @override
-  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
-
-  @override
-  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
-
-  @override
-  String get homeAssistantPlugTitle => 'Plug';
-
-  @override
-  String get homeAssistantPlugUnavailable => 'Plug unavailable';
-
-  @override
-  String get homeAssistantPushCountersDescription =>
-      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
-
-  @override
-  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
-
-  @override
-  String get homeAssistantSettingsDescription =>
-      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
-
-  @override
-  String get homeAssistantSettingsTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantSubscriptionRequired =>
-      'An active subscription is required for Home Assistant synchronization.';
-
-  @override
-  String get homeAssistantTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantTokenTest => 'Test token';
-
-  @override
-  String get homeAssistantUnlink => 'Unlink';
-
-  @override
-  String get homeAssistantUnknownInstance => 'Unknown instance';
-
-  @override
-  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
-
-  @override
-  String get homeAssistantUrlLabel => 'Home Assistant URL';
-
-  @override
-  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
-
-  @override
   String get settingsShowStromGedacht => 'Có nên hiển thị các lời khuyên từ StromGedacht về lưới điện không?';
 
   @override
@@ -2521,9 +2528,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => 'Rất tiếc, không có dữ liệu nào mà ứng dụng có thể hiển thị.';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'Không đồng bộ hóa được đồng hồ thông minh';
-
-  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'Thiết lập đồng hồ thông minh';
 
   @override
@@ -2540,10 +2544,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Chưa đặt';
 
   @override
+  String get smartMeterProviderWtl => 'Hiệp hội Nước Tecklenburger Land';
+
+  @override
   String get smartMeterProviderWwgl => 'Đất Wasserwerk Gerauer';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+  String get smartMeterReadingsSyncFailed => 'Không đồng bộ hóa được đồng hồ thông minh';
 
   @override
   String get smartMeterServiceProvider => 'Nhà cung cấp dịch vụ';
@@ -3513,6 +3520,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Chúng tôi chưa biết nhà cung cấp nước của bạn. Vui lòng gửi thư cho chúng tôi. Các nhà cung cấp chỉ cung cấp điện và gas sẽ không xuất hiện ở đây.';
 
   @override
+  String get watersupplierAccessRequestDenied => 'Yêu cầu truy cập của bạn đã bị từ chối. Bạn có thể xóa đồng hồ này.';
+
+  @override
+  String get watersupplierAccessRequestPending =>
+      'Yêu cầu truy cập của bạn hiện đang được xử lý. Xin vui lòng chờ đợi.';
+
+  @override
   String get watersupplierAccessRequestQ1 =>
       'Bạn là chủ sở hữu bất động sản trong khu vực cung cấp nước và muốn truy cập vào số liệu đồng hồ đo từ xa?';
 
@@ -3537,12 +3551,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierMeterIdValidationStep => 'Chúng tôi đang kiểm tra id đồng hồ của bạn.';
-
-  @override
-  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
-
-  @override
-  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
 
   @override
   String get watersupplierNoAccess => 'Bạn không còn có quyền truy xuất dữ liệu nữa.';
@@ -3615,48 +3623,42 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Bạn không còn muốn truy cập vào dữ liệu máy đo sóng vô tuyến của mình nữa? Xin lưu ý: sau khi quét mã hủy, mã kích hoạt sẽ không hợp lệ. Bất kỳ tài khoản người dùng nào sử dụng mã kích hoạt sẽ mất quyền truy cập.';
 
   @override
-  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+  String get watersupplierUnlinkRadioMeterFailure => 'Không thể xóa đồng hồ đo sóng radio. Vui lòng thử lại sau.';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => 'Chấm dứt quyền truy cập vào máy đo sóng vô tuyến';
 
   @override
   String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+      'Nếu bạn xóa đồng hồ đo sóng radio này, quyền truy cập vào các chỉ số đo của đồng hồ sẽ bị thu hồi. Bạn có thể gửi yêu cầu cấp quyền truy cập mới sau này.';
 
   @override
-  String get firstName => 'First name';
+  String get withoutRoomAssignment => 'Không có phòng được chỉ định';
 
   @override
-  String get houseNumber => 'House number';
+  String get wtlAccessRequestFailure => 'Không thể tạo yêu cầu truy cập.';
 
   @override
-  String get lastName => 'Last name';
+  String get wtlAccessRequestMeterId => 'Mã số đồng hồ';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
+  String get wtlAccessRequestMissingAccountData => 'Tài khoản của bạn chưa có địa chỉ email.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
+  String get wtlAccessRequestMissingInput => 'Vui lòng nhập mã số đồng hồ có ít nhất 8 ký tự và số đối tượng dịch vụ.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get wtlAccessRequestOnlineOnlyDescription =>
+      'Yêu cầu truy cập trực tuyến dành cho Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+  String get wtlAccessRequestServiceObjectNumber => 'Số đối tượng dịch vụ';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String get wtlAccessRequestSuccess => 'Yêu cầu truy cập đã được tạo.';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
-
-  @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
-
-  @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'Yêu cầu truy cập WTL';
 
   @override
   String get yearlyConsumption => 'Tiêu thụ hàng năm cho đến nay';
@@ -3676,12 +3678,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Tôi đồng ý với nội dung bên ngoài được hiển thị cho tôi. Điều này có thể dẫn đến việc dữ liệu cá nhân được truyền sang nền tảng của bên thứ ba. Thông tin thêm về điều này trong của chúng tôi';
 
   @override
-  String addressValidationRequired(String label) {
-    return 'Vui lòng nhập $label';
-  }
+  String get zipCode => 'mã vùng';
 
   @override
-  String get zipCode => 'mã vùng';
+  String get zipCodeValidationGeneral => 'Vui lòng nhập mã bưu chính hợp lệ';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3690,7 +3690,4 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Mã zip hợp lệ chỉ bao gồm các số';
-
-  @override
-  String get zipCodeValidationGeneral => 'Vui lòng nhập mã bưu chính hợp lệ';
 }

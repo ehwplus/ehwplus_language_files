@@ -1,16 +1,38 @@
-# language_files_example
+# ARB Editor
 
-A new Flutter project.
+Desktop editor for Flutter ARB translation files.
 
-## Getting Started
+## Open a project
 
-This project is a starting point for a Flutter application.
+Use the folder button in the toolbar to select either:
 
-A few resources to get you started if this is your first Flutter project:
+- a Flutter app/package that contains `l10n.yaml`
+- a monorepo that contains multiple Flutter l10n targets
+- a directory that directly contains `.arb` files
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+When multiple `l10n.yaml` files are found, the app asks which target should be edited.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Development defaults
+
+For local development inside this repository, the editor still opens the package ARB directory by default:
+
+```sh
+packages/ehwplus_language_files/lib/src/localization/arb
+```
+
+You can override the startup target with `ARB_DIR`.
+
+## DeepL API key
+
+Set `DEEPL_API_KEY` before starting the example to enable DeepL translations:
+
+```sh
+export DEEPL_API_KEY="<your-api-key>"
+fvm flutter run -d macos
+```
+
+Alternatively, pass the key as a Dart define:
+
+```sh
+fvm flutter run -d macos --dart-define=DEEPL_API_KEY="<your-api-key>"
+```

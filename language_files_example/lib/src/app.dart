@@ -1,14 +1,18 @@
 import 'dart:io';
 
 import 'package:ehwplus_language_files/ehwplus_language_files.dart';
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:language_files_example/src/model/arb_document.dart';
 import 'package:language_files_example/src/model/arb_entry.dart';
+import 'package:language_files_example/src/model/arb_project.dart';
 import 'package:language_files_example/src/model/translation_record.dart';
 import 'package:language_files_example/src/page/translation_detail_page.dart';
 import 'package:language_files_example/src/repository/arb_repository.dart';
+import 'package:language_files_example/src/service/arb_project_resolver.dart';
 import 'package:language_files_example/src/service/deepl_translation_service.dart';
+import 'package:language_files_example/src/widget/api_key_dialog.dart';
 import 'package:language_files_example/src/widget/language_icon.dart';
 import 'package:trina_grid/trina_grid.dart';
 
@@ -34,10 +38,12 @@ class ArbOverviewPage extends StatefulWidget {
 }
 
 class _ArbOverviewPageState extends State<ArbOverviewPage> {
-  final ArbRepository _repository = ArbRepository();
+  final ArbProjectResolver _projectResolver = const ArbProjectResolver();
   final TextEditingController _searchController = TextEditingController();
   late final TextEditingController _apiKeyController;
-  late final ValueNotifier<bool> _quotaNotifier;
+  ArbProject? _project;
+  ArbRepository? _repository;
+  ValueNotifier<bool>? _quotaNotifier;
 
   List<ArbDocument> _documents = [];
   List<TranslationRecord> _allRecords = [];
@@ -61,28 +67,71 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   void initState() {
     super.initState();
     _apiKeyController = TextEditingController(text: _initialApiKey());
-    _quotaNotifier = _repository.quotaExceeded;
-    _quotaExceeded = _quotaNotifier.value;
-    _quotaNotifier.addListener(_handleQuotaChange);
-    _loadData();
+    _loadInitialProject();
   }
 
   @override
   void dispose() {
     _searchController.dispose();
     _apiKeyController.dispose();
-    _quotaNotifier.removeListener(_handleQuotaChange);
+    _quotaNotifier?.removeListener(_handleQuotaChange);
     super.dispose();
   }
 
+  Future<void> _loadInitialProject() async {
+    try {
+      final project = await _projectResolver.resolveDefault();
+      if (!mounted) return;
+      await _useProject(project);
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _error = e.toString();
+        _loading = false;
+      });
+    }
+  }
+
+  Future<void> _useProject(ArbProject project) async {
+    _quotaNotifier?.removeListener(_handleQuotaChange);
+    final repository = ArbRepository(project: project);
+    final quotaNotifier = repository.quotaExceeded;
+    quotaNotifier.addListener(_handleQuotaChange);
+
+    setState(() {
+      _project = project;
+      _repository = repository;
+      _quotaNotifier = quotaNotifier;
+      _quotaExceeded = quotaNotifier.value;
+      _stateManager = null;
+      _documents = [];
+      _allRecords = [];
+      _visibleRecords = [];
+      _availableLocales = {};
+      _visibleLocales = {'en', 'de'};
+      _searchController.clear();
+    });
+
+    await _loadData();
+  }
+
   Future<void> _loadData() async {
+    final repository = _repository;
+    if (repository == null) {
+      setState(() {
+        _loading = false;
+        _error = 'Bitte ein Flutter-Projekt oder einen ARB-Ordner öffnen.';
+      });
+      return;
+    }
+
     setState(() {
       _loading = true;
       _error = null;
     });
 
     try {
-      final documents = await _repository.loadDocuments();
+      final documents = await repository.loadDocuments();
       if (!mounted) return;
 
       final records = _buildRecords(documents);
@@ -110,10 +159,75 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     }
   }
 
+  Future<void> _openProjectPicker() async {
+    if (kIsWeb) {
+      _showSnack('Ordnerauswahl ist im Web nicht verfügbar.');
+      return;
+    }
+
+    final selectedPath = await FilePicker.getDirectoryPath(dialogTitle: 'Flutter-Projekt oder ARB-Ordner öffnen');
+    if (selectedPath == null) return;
+
+    setState(() {
+      _loading = true;
+      _error = null;
+    });
+
+    try {
+      final projects = await _projectResolver.discover(selectedPath);
+      if (!mounted) return;
+
+      if (projects.isEmpty) {
+        setState(() {
+          _loading = false;
+          _error = 'In diesem Ordner wurden keine l10n.yaml und keine ARB-Dateien gefunden.';
+        });
+        return;
+      }
+
+      final selectedProject = projects.length == 1 ? projects.single : await _selectProject(projects);
+      if (selectedProject == null) {
+        if (mounted) {
+          setState(() {
+            _loading = false;
+          });
+        }
+        return;
+      }
+
+      await _useProject(selectedProject);
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _loading = false;
+        _error = e.toString();
+      });
+    }
+  }
+
+  Future<ArbProject?> _selectProject(List<ArbProject> projects) {
+    return showDialog<ArbProject>(
+      context: context,
+      builder: (context) {
+        return SimpleDialog(
+          title: const Text('L10n-Target auswählen'),
+          children: projects
+              .map(
+                (project) => SimpleDialogOption(
+                  onPressed: () => Navigator.of(context).pop(project),
+                  child: _ProjectOption(project: project),
+                ),
+              )
+              .toList(),
+        );
+      },
+    );
+  }
+
   void _handleQuotaChange() {
     if (!mounted) return;
     setState(() {
-      _quotaExceeded = _quotaNotifier.value;
+      _quotaExceeded = _quotaNotifier?.value ?? false;
     });
   }
 
@@ -140,45 +254,17 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   Future<void> _openApiKeyDialog() async {
-    final dialogController = TextEditingController(text: _apiKeyController.text);
-    var obscure = true;
-
     final result = await showDialog<String>(
       context: context,
-      builder: (context) => StatefulBuilder(
-        builder: (context, setState) {
-          return AlertDialog(
-            title: const Text('DeepL API-Key'),
-            content: TextField(
-              controller: dialogController,
-              obscureText: obscure,
-              decoration: InputDecoration(
-                labelText: 'DeepL API-Key',
-                suffixIcon: IconButton(
-                  icon: Icon(obscure ? Icons.visibility_off : Icons.visibility),
-                  onPressed: () => setState(() => obscure = !obscure),
-                ),
-              ),
-            ),
-            actions: [
-              TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
-              FilledButton(
-                onPressed: () => Navigator.of(context).pop(dialogController.text.trim()),
-                child: const Text('Speichern'),
-              ),
-            ],
-          );
-        },
-      ),
+      builder: (context) => ApiKeyDialog(initialValue: _apiKeyController.text),
     );
 
-    dialogController.dispose();
-
     if (result != null) {
+      if (!mounted) return;
       setState(() {
         _apiKeyController.text = result;
       });
-      _repository.resetQuotaExceeded();
+      _repository?.resetQuotaExceeded();
     }
   }
 
@@ -248,6 +334,9 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   void _openDetail(String key) async {
+    final repository = _repository;
+    if (repository == null) return;
+
     final record = _allRecords.firstWhere(
       (element) => element.key == key,
       orElse: () => TranslationRecord(key: key, values: const {}),
@@ -255,7 +344,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
 
     final saved = await Navigator.of(context).push<bool>(
       MaterialPageRoute(
-        builder: (_) => TranslationDetailPage(record: record, documents: _documents, repository: _repository),
+        builder: (_) => TranslationDetailPage(record: record, documents: _documents, repository: repository),
       ),
     );
 
@@ -286,6 +375,12 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
 
   Future<void> _translateMissing() async {
     if (_translatingMissing || _quotaExceeded) return;
+
+    final repository = _repository;
+    if (repository == null) {
+      _showSnack('Bitte zuerst ein Projekt öffnen.');
+      return;
+    }
 
     final apiKey = await _ensureApiKey();
     if (apiKey == null || apiKey.isEmpty) {
@@ -351,7 +446,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
               });
             }
           } on DeepLQuotaExceededException catch (e) {
-            _repository.markQuotaExceeded();
+            repository.markQuotaExceeded();
             quotaHit = true;
             _showSnack('DeepL-Quota erreicht: $e');
             if (mounted) {
@@ -373,7 +468,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       service.close();
       if (didTranslate) {
         try {
-          await _repository.regenerateDartFiles();
+          await repository.regenerateDartFiles();
         } catch (e) {
           _showSnack('Regenerierung fehlgeschlagen: $e');
         }
@@ -410,6 +505,9 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   Future<void> _saveTranslation(String key, String locale, String value) async {
+    final repository = _repository;
+    if (repository == null) return;
+
     final index = _documents.indexWhere((doc) => doc.locale == locale);
     if (index == -1) return;
 
@@ -419,7 +517,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     updatedEntries[key] = (existing ?? ArbEntry(key: key, value: value)).copyWith(value: value);
 
     final updatedDoc = doc.copyWith(entries: updatedEntries);
-    await _repository.saveDocument(updatedDoc);
+    await repository.saveDocument(updatedDoc);
     _documents[index] = updatedDoc;
 
     _applyTranslationToRecords(key, locale, value);
@@ -445,6 +543,12 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   Future<void> _openAddTranslationDialog() async {
+    final repository = _repository;
+    if (repository == null) {
+      _showSnack('Bitte zuerst ein Projekt öffnen.');
+      return;
+    }
+
     if (_availableLocales.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Keine ARB-Sprachen verfügbar.')));
       return;
@@ -459,6 +563,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     );
 
     if (result == null) return;
+    if (!mounted) return;
 
     final documentIndex = _documents.indexWhere((doc) => doc.locale == result.locale);
     if (documentIndex == -1) {
@@ -478,9 +583,9 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       ..[result.key] = ArbEntry(key: result.key, value: result.value);
 
     try {
-      await _repository.saveDocument(target.copyWith(entries: updatedEntries));
+      await repository.saveDocument(target.copyWith(entries: updatedEntries));
       try {
-        final ran = await _repository.regenerateDartFiles();
+        final ran = await repository.regenerateDartFiles();
         if (ran && mounted) {
           ScaffoldMessenger.of(
             context,
@@ -506,11 +611,18 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ARB-Texte (EN / DE)'),
+        title: const Text('ARB Editor'),
         actions: [
+          IconButton(
+            tooltip: 'Flutter-Projekt oder ARB-Ordner öffnen',
+            onPressed: _loading || _translatingMissing ? null : _openProjectPicker,
+            icon: const Icon(Icons.folder_open),
+          ),
           _buildApiKeyChip(),
           TextButton.icon(
-            onPressed: _loading || _translatingMissing || _quotaExceeded ? null : _translateMissing,
+            onPressed: _repository == null || _loading || _translatingMissing || _quotaExceeded
+                ? null
+                : _translateMissing,
             icon: _translatingMissing
                 ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.translate),
@@ -518,16 +630,22 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
           ),
           IconButton(
             tooltip: 'Neuen Key hinzufügen',
-            onPressed: _openAddTranslationDialog,
+            onPressed: _repository == null || _loading ? null : _openAddTranslationDialog,
             icon: const Icon(Icons.add),
           ),
-          IconButton(tooltip: 'Neu laden', onPressed: _loadData, icon: const Icon(Icons.refresh)),
+          IconButton(
+            tooltip: 'Neu laden',
+            onPressed: _repository == null || _loading ? null : _loadData,
+            icon: const Icon(Icons.refresh),
+          ),
         ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
+            _ProjectHeader(project: _project, onOpenProject: _openProjectPicker),
+            const SizedBox(height: 12),
             if (_quotaExceeded)
               Container(
                 padding: const EdgeInsets.all(12),
@@ -636,7 +754,11 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     }
 
     if (_error != null) {
-      return _ErrorView(message: _error!, onRetry: _loadData);
+      return _ErrorView(
+        message: _error!,
+        actionLabel: _repository == null ? 'Projekt öffnen' : 'Erneut versuchen',
+        onRetry: _repository == null ? _openProjectPicker : _loadData,
+      );
     }
 
     if (_visibleRecords.isEmpty) {
@@ -712,10 +834,102 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 }
 
+class _ProjectHeader extends StatelessWidget {
+  const _ProjectHeader({required this.project, required this.onOpenProject});
+
+  final ArbProject? project;
+  final VoidCallback onOpenProject;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final project = this.project;
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.surfaceContainerHighest,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Row(
+        children: [
+          Icon(Icons.account_tree, color: theme.colorScheme.onSurfaceVariant),
+          const SizedBox(width: 10),
+          Expanded(
+            child: project == null
+                ? Text('Kein Projekt geöffnet', style: theme.textTheme.bodyMedium)
+                : Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        project.name,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: theme.textTheme.titleSmall,
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        '${project.usesL10nYaml ? 'l10n.yaml' : 'ARB-Ordner'} · ${_relativePath(project.projectRoot, project.arbDirectory)}',
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+                      ),
+                    ],
+                  ),
+          ),
+          const SizedBox(width: 12),
+          OutlinedButton.icon(
+            onPressed: onOpenProject,
+            icon: const Icon(Icons.folder_open),
+            label: Text(project == null ? 'Öffnen' : 'Wechseln'),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ProjectOption extends StatelessWidget {
+  const _ProjectOption({required this.project});
+
+  final ArbProject project;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(project.name, style: theme.textTheme.titleSmall),
+        const SizedBox(height: 2),
+        Text(
+          _relativePath(project.projectRoot, project.arbDirectory),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+          style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+        ),
+      ],
+    );
+  }
+}
+
+String _relativePath(String root, String path) {
+  final rootUri = Directory(root).uri.toString();
+  final pathUri = Directory(path).uri.toString();
+  if (!pathUri.startsWith(rootUri)) return path;
+
+  final relative = Uri.decodeFull(pathUri.substring(rootUri.length));
+  if (relative.endsWith('/')) {
+    return relative.substring(0, relative.length - 1);
+  }
+  return relative;
+}
+
 class _ErrorView extends StatelessWidget {
-  const _ErrorView({required this.message, required this.onRetry});
+  const _ErrorView({required this.message, required this.actionLabel, required this.onRetry});
 
   final String message;
+  final String actionLabel;
   final VoidCallback onRetry;
 
   @override
@@ -733,8 +947,8 @@ class _ErrorView extends StatelessWidget {
             const SizedBox(height: 12),
             ElevatedButton.icon(
               onPressed: onRetry,
-              icon: const Icon(Icons.refresh),
-              label: const Text('Erneut versuchen'),
+              icon: Icon(actionLabel == 'Projekt öffnen' ? Icons.folder_open : Icons.refresh),
+              label: Text(actionLabel),
             ),
           ],
         ),
@@ -875,7 +1089,7 @@ class _AddTranslationDialogState extends State<_AddTranslationDialog> {
             ),
             const SizedBox(height: 12),
             DropdownButtonFormField<String>(
-              value: _selectedLocale,
+              initialValue: _selectedLocale,
               items: widget.availableLocales
                   .map((locale) => DropdownMenuItem(value: locale, child: Text(locale.toUpperCase())))
                   .toList(),

@@ -44,16 +44,16 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get accountUpdateInfo => '新機能: EHW+ ユーザー アカウント';
 
   @override
+  String get activitiesDefinitionsTab => '活動内容';
+
+  @override
   String get activitiesDescription => '水道メーターや電気メーターを使った洗濯など、メーターの測定値を活動にリンクします。';
 
   @override
-  String get activitiesDefinitionsTab => 'Activities';
+  String get activitiesTimelineEmpty => '活動はまだ記録されていない。';
 
   @override
-  String get activitiesTimelineEmpty => 'No activities have been recorded yet.';
-
-  @override
-  String get activitiesTimelineTab => 'Timeline';
+  String get activitiesTimelineTab => 'タイムライン';
 
   @override
   String get activitiesTitle => '私の活動';
@@ -113,6 +113,20 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get addNewValue => '新しい値を入力してください';
 
   @override
+  String get addressAdministrativeArea => '州／地域／県';
+
+  @override
+  String get addressLocality => '市町村';
+
+  @override
+  String get addressStreet => 'ストリート/アドレス行';
+
+  @override
+  String addressValidationRequired(String label) {
+    return '$label を入力してください';
+  }
+
+  @override
   String get advancePayment => '前払い';
 
   @override
@@ -138,6 +152,11 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
+  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
+    return '推奨される毎月の前払い額：$currentAmount ではなく $recommendedAmount';
+  }
+
+  @override
   String advancePaymentRecurringDue(int day, String cadence) {
     return '支払期限は、$cadence の$day日です。';
   }
@@ -153,14 +172,15 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   }
 
   @override
-  String advancePaymentRecommendationMonthly(String recommendedAmount, String currentAmount) {
-    return '推奨される毎月の前払い額：$currentAmount ではなく $recommendedAmount';
-  }
-
-  @override
   String advancePaymentRecurringDueWithAmount(String amount, int day, String cadence) {
     return '$amountの事前支払額は、$cadenceの当月$day日に支払期日が到来します。';
   }
+
+  @override
+  String get ammeterConsumptionByDevices => '機器別電力消費量';
+
+  @override
+  String get ammeterConsumptionByRooms => '部屋別電力消費量';
 
   @override
   String get appBarExpandedMode => '背景画像付きのアプリバー';
@@ -880,9 +900,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get contractNumber => '契約番号';
 
   @override
-  String get customerId => 'Customer ID';
-
-  @override
   String get contractPeriod => '契約期間';
 
   @override
@@ -922,13 +939,16 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get corresponds => '対応する';
 
   @override
-  String get costSummary => 'コストの概要';
-
-  @override
   String get costOverviewAdvancePaymentsBar => '前払い';
 
   @override
   String get costOverviewContractCostsBar => '消費ベースコスト＋契約期間中の基本料金';
+
+  @override
+  String get costSummary => 'コストの概要';
+
+  @override
+  String get costSummarySolarThermalSavings => '貯蓄の概要';
 
   @override
   String get costSummaryYield => '報酬価格/-基本価格';
@@ -967,6 +987,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get counter => 'カウンタ';
+
+  @override
+  String get counterAmmeter => '電気測定器';
 
   @override
   String get counterBackgroundImage => 'カウンターの背景画像';
@@ -1018,9 +1041,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get counterElectricity => '電力メーター';
-
-  @override
-  String get counterAmmeter => 'Electricity measuring device';
 
   @override
   String get counterElectricityBack => '電力フィードインメーター（PV）';
@@ -1145,12 +1165,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get counterShowHeatmap => 'ヒートマップを表示する';
 
   @override
-  String get counterShowPreliminaryCurve => '予備曲線を表示';
-
-  @override
-  String get counterShowReadingsChart => '測定値チャートを表示';
-
-  @override
   String get counterTankCapacity => 'タンク容量';
 
   @override
@@ -1196,6 +1210,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get currency => '通貨';
+
+  @override
+  String get customerId => '顧客ID';
 
   @override
   String deleteObjectError(int errorCode) {
@@ -1271,12 +1288,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get electricityConsumption => '消費電力';
-
-  @override
-  String get ammeterConsumptionByRooms => 'Electricity consumption by rooms';
-
-  @override
-  String get ammeterConsumptionByDevices => 'Electricity consumption by devices';
 
   @override
   String get electricityGenerated => '発電した電力';
@@ -1419,6 +1430,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get fedIn => 'フィードイン';
 
   @override
+  String get firstName => '名前';
+
+  @override
   String get firstReadingConsumption => '今すぐ最初の消費量を入力してください。';
 
   @override
@@ -1463,19 +1477,132 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'ヒートマップの詳細';
 
   @override
-  String get addressAdministrativeArea => '州／地域／県';
+  String get homeAssistantAccessTokenLabel => '寿命の長いアクセストークン';
 
   @override
-  String get addressLocality => '市町村';
+  String get homeAssistantAccessTokenRequired => '長寿命のアクセストークンを入力してください。';
 
   @override
-  String get addressStreet => 'ストリート/アドレス行';
+  String get homeAssistantConfigureNow => 'セットアップ';
+
+  @override
+  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
+    return '$instanceName - バージョン$version';
+  }
+
+  @override
+  String homeAssistantConnectionFailed(String error) {
+    return '接続に失敗しました：$error';
+  }
+
+  @override
+  String get homeAssistantConnectionSuccessful => 'ホームアシスタントへの接続に成功しました。';
+
+  @override
+  String get homeAssistantDefaultActivityLabel => 'デフォルト活動';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsDescription => '現在のEHW+オブジェクトにカウンターを作成および更新するホーム・アシスタント消費センサーを選択します。';
+
+  @override
+  String get homeAssistantHistoricalConsumptionsTitle => '過去のEHW+消費量';
+
+  @override
+  String get homeAssistantLinkSensor => 'リンクセンサー';
+
+  @override
+  String get homeAssistantLiveMeasurementApparentPower => '皮相電力';
+
+  @override
+  String get homeAssistantLiveMeasurementCurrent => '現在';
+
+  @override
+  String get homeAssistantLiveMeasurementPower => 'パワー';
+
+  @override
+  String get homeAssistantLiveMeasurementReactivePower => '無効電力';
+
+  @override
+  String get homeAssistantLiveMeasurementVoltage => '電圧';
+
+  @override
+  String get homeAssistantLiveMeasurementsConnecting => 'ホーム・アシスタントへの接続...';
+
+  @override
+  String get homeAssistantLiveMeasurementsError => 'ホームアシスタントのライブデータが読み込めませんでした。';
+
+  @override
+  String get homeAssistantLiveMeasurementsNoData => 'このセンサーのライブ値は検出されなかった。';
+
+  @override
+  String get homeAssistantLoadSensors => 'ロードセンサー';
+
+  @override
+  String get homeAssistantLocalUrlWarning => 'これはローカルURLのように見える。同期が試みられるのは、デバイスがローカルネットワークに接続されている間だけです。';
+
+  @override
+  String get homeAssistantNoDefaultActivity => 'デフォルト活動なし';
+
+  @override
+  String get homeAssistantNoPushCounters => 'このオブジェクトには、ホーム・アシスタントにプッシュできるカウンタはありません。';
+
+  @override
+  String get homeAssistantNoSensors => '適切な消費センサーは見つからなかった。';
+
+  @override
+  String get homeAssistantNotConfiguredSubtitle => 'ホームアシスタントとメーターの測定値と消費量を同期。';
+
+  @override
+  String get homeAssistantPlugTitle => 'プラグ';
+
+  @override
+  String get homeAssistantPlugUnavailable => 'プラグ使用不可';
+
+  @override
+  String get homeAssistantPushCountersDescription => '変更後に消費統計がホームアシスタントにプッシュされるEHW+カウンターを選択します。';
+
+  @override
+  String get homeAssistantPushCountersTitle => 'EHW+カウンターを押す';
+
+  @override
+  String get homeAssistantSettingsDescription =>
+      'EHW+をHome Assistantインスタンスと接続し、選択したセンサーからメーターの測定値を取得したり、EHW+の統計情報をプッシュしたりできます。';
+
+  @override
+  String get homeAssistantSettingsTitle => 'ホームアシスタント';
+
+  @override
+  String get homeAssistantSubscriptionRequired => 'ホームアシスタントの同期には、アクティブなサブスクリプションが必要です。';
+
+  @override
+  String get homeAssistantTitle => 'ホームアシスタント';
+
+  @override
+  String get homeAssistantTokenTest => 'テスト・トークン';
+
+  @override
+  String get homeAssistantUnknownInstance => '不明なインスタンス';
+
+  @override
+  String get homeAssistantUnlink => 'リンク解除';
+
+  @override
+  String get homeAssistantUrlInvalid => '有効なホームアシスタントのURLを入力してください。';
+
+  @override
+  String get homeAssistantUrlLabel => 'ホームアシスタントURL';
+
+  @override
+  String get homeAssistantUrlRequired => 'ホームアシスタントのURLを入力してください。';
 
   @override
   String get houseName => '家名';
 
   @override
   String get houseNameDescription => '家の名前、例:通りの名前';
+
+  @override
+  String get houseNumber => '家屋番号';
 
   @override
   String get import => '輸入';
@@ -1569,6 +1696,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get last2Weeks => '過去 14 日間';
+
+  @override
+  String get lastName => '姓';
 
   @override
   String get lastReading => '最後に読んだ本';
@@ -2218,9 +2348,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get rooms => '客室';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
-
-  @override
   String get scanQrCode => 'アクティベーション用 QR コードをスキャンします';
 
   @override
@@ -2283,7 +2410,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get settingObjectTypeHouse => '家';
 
   @override
-  String get settingShowCounterReadingsChart => '測定値チャートを表示';
+  String get settingShowCounterReadingsChart => '検針表を表示';
 
   @override
   String get settingShowHeatmap => 'ヒートマップを表示する';
@@ -2325,130 +2452,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get settingsExternalServices => '外部サービス';
 
   @override
-  String get homeAssistantAccessTokenLabel => 'Long-lived access token';
-
-  @override
-  String get homeAssistantAccessTokenRequired => 'Please enter a long-lived access token.';
-
-  @override
-  String get homeAssistantConfigureNow => 'Set up now';
-
-  @override
-  String homeAssistantConfiguredSubtitle(String instanceName, String version) {
-    return '$instanceName - Version $version';
-  }
-
-  @override
-  String homeAssistantConnectionFailed(String error) {
-    return 'Connection failed: $error';
-  }
-
-  @override
-  String get homeAssistantConnectionSuccessful => 'Connection to Home Assistant was successful.';
-
-  @override
-  String get homeAssistantDefaultActivityLabel => 'Default activity';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsDescription =>
-      'Select Home Assistant consumption sensors that should create and update counters in the current EHW+ object.';
-
-  @override
-  String get homeAssistantHistoricalConsumptionsTitle => 'Historical EHW+ consumptions';
-
-  @override
-  String get homeAssistantLiveMeasurementApparentPower => 'Apparent power';
-
-  @override
-  String get homeAssistantLiveMeasurementCurrent => 'Current';
-
-  @override
-  String get homeAssistantLiveMeasurementPower => 'Power';
-
-  @override
-  String get homeAssistantLiveMeasurementReactivePower => 'Reactive power';
-
-  @override
-  String get homeAssistantLiveMeasurementVoltage => 'Voltage';
-
-  @override
-  String get homeAssistantLiveMeasurementsConnecting => 'Connecting to Home Assistant...';
-
-  @override
-  String get homeAssistantLiveMeasurementsError => 'Home Assistant live data could not be loaded.';
-
-  @override
-  String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
-
-  @override
-  String get homeAssistantLinkSensor => 'Link sensor';
-
-  @override
-  String get homeAssistantLoadSensors => 'Load sensors';
-
-  @override
-  String get homeAssistantLocalUrlWarning =>
-      'This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.';
-
-  @override
-  String get homeAssistantNoDefaultActivity => 'No default activity';
-
-  @override
-  String get homeAssistantNoPushCounters =>
-      'There are no counters in this object that can be pushed to Home Assistant.';
-
-  @override
-  String get homeAssistantNoSensors => 'No suitable consumption sensors were found.';
-
-  @override
-  String get homeAssistantNotConfiguredSubtitle => 'Synchronize meter readings and consumptions with Home Assistant.';
-
-  @override
-  String get homeAssistantPlugTitle => 'Plug';
-
-  @override
-  String get homeAssistantPlugUnavailable => 'Plug unavailable';
-
-  @override
-  String get homeAssistantPushCountersDescription =>
-      'Select EHW+ counters whose consumption statistics should be pushed to Home Assistant after changes.';
-
-  @override
-  String get homeAssistantPushCountersTitle => 'Push EHW+ counters';
-
-  @override
-  String get homeAssistantSettingsDescription =>
-      'Connect EHW+ with your Home Assistant instance to pull meter readings from selected sensors or push EHW+ statistics.';
-
-  @override
-  String get homeAssistantSettingsTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantSubscriptionRequired =>
-      'An active subscription is required for Home Assistant synchronization.';
-
-  @override
-  String get homeAssistantTitle => 'Home Assistant';
-
-  @override
-  String get homeAssistantTokenTest => 'Test token';
-
-  @override
-  String get homeAssistantUnlink => 'Unlink';
-
-  @override
-  String get homeAssistantUnknownInstance => 'Unknown instance';
-
-  @override
-  String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';
-
-  @override
-  String get homeAssistantUrlLabel => 'Home Assistant URL';
-
-  @override
-  String get homeAssistantUrlRequired => 'Please enter the Home Assistant URL.';
-
-  @override
   String get settingsShowStromGedacht => 'StromGedacht からの送電網に関するヒントを表示する必要がありますか?';
 
   @override
@@ -2479,9 +2482,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get smartMeterErrorNoData => '残念ながら、アプリで表示できるデータはありません。';
 
   @override
-  String get smartMeterReadingsSyncFailed => 'スマートメーターの同期に失敗';
-
-  @override
   String get smartMeterMisconfiguredWidgetCardButton => 'スマートメーターを設置する';
 
   @override
@@ -2497,10 +2497,13 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => '未設定';
 
   @override
+  String get smartMeterProviderWtl => 'テッケレンブルガー・ランド・ヴァザーバンド';
+
+  @override
   String get smartMeterProviderWwgl => 'ヴァッサーヴェルク ゲラウアー ランド';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
+  String get smartMeterReadingsSyncFailed => 'スマートメーターの同期に失敗';
 
   @override
   String get smartMeterServiceProvider => 'サービスプロバイダー';
@@ -3433,6 +3436,12 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get waterSupplierUnknown => '残念ながら、私たちはまだあなたの水供給会社を知りません。お気軽にお問い合わせください。電気とガスのみの供給業者は、ここには表示されません。';
 
   @override
+  String get watersupplierAccessRequestDenied => 'アクセス要求は拒否されました。このメーターは削除できます。';
+
+  @override
+  String get watersupplierAccessRequestPending => 'アクセスリクエストはまだ処理中です。しばらくお待ちください。';
+
+  @override
   String get watersupplierAccessRequestQ1 => '水道供給会社の集水域にある物件の所有者で、無線検針票の入手を希望されますか？';
 
   @override
@@ -3453,12 +3462,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierMeterIdValidationStep => 'メーターIDを確認中です。';
-
-  @override
-  String get watersupplierAccessRequestDenied => 'Your access request was declined. You can delete this meter.';
-
-  @override
-  String get watersupplierAccessRequestPending => 'Your access request is still being processed. Please be patient.';
 
   @override
   String get watersupplierNoAccess => 'データを取得する権限がありません。';
@@ -3523,48 +3526,41 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
       '電波メーターのデータにアクセスしたくないですか?注意: 失効コードがスキャンされると、アクティベーション コードは無効になります。アクティベーション コードを使用したユーザー アカウントはアクセスできなくなります。';
 
   @override
-  String get watersupplierUnlinkRadioMeterFailure => 'The radio meter could not be deleted. Please try again later.';
+  String get watersupplierUnlinkRadioMeterFailure => '無線メーターを削除できませんでした。後で再試行してください。';
 
   @override
   String get watersupplierUnlinkRadioMeterTitle => '無線メーターへのアクセスを終了する';
 
   @override
   String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
+      'この無線メーターを削除すると、無線メーターの読み取り値へのアクセスは取り消されます。後で新しいアクセス要求を提出することができます。';
 
   @override
-  String get firstName => 'First name';
+  String get withoutRoomAssignment => '部屋割りなし';
 
   @override
-  String get houseNumber => 'House number';
+  String get wtlAccessRequestFailure => 'アクセス要求を作成できませんでした。';
 
   @override
-  String get lastName => 'Last name';
+  String get wtlAccessRequestMeterId => 'メーターID';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
+  String get wtlAccessRequestMissingAccountData => 'アカウントにメールアドレスがありません。';
 
   @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
+  String get wtlAccessRequestMissingInput => '8文字以上のメーターIDとサービスオブジェクト番号を入力してください。';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Landへのオンライン・アクセスリクエスト。';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+  String get wtlAccessRequestServiceObjectNumber => 'サービス・オブジェクト番号';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String get wtlAccessRequestSuccess => 'アクセス要求が作成されました。';
 
   @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
-
-  @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
-
-  @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String get wtlAccessRequestTitle => 'WTLアクセスリクエスト';
 
   @override
   String get yearlyConsumption => 'これまでの年間消費量';
@@ -3583,12 +3579,10 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get youtubeConsent3 => '外部コンテンツが表示されることに同意します。これにより、個人データがサードパーティのプラットフォームに送信される可能性があります。詳細については、';
 
   @override
-  String addressValidationRequired(String label) {
-    return '$label を入力してください';
-  }
+  String get zipCode => '郵便番号';
 
   @override
-  String get zipCode => '郵便番号';
+  String get zipCodeValidationGeneral => '有効な郵便番号を入力してください。';
 
   @override
   String zipCodeValidationLength(int digits) {
@@ -3597,7 +3591,4 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
-
-  @override
-  String get zipCodeValidationGeneral => '有効な郵便番号を入力してください。';
 }
