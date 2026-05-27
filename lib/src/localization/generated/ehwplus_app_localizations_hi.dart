@@ -3647,7 +3647,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'एक्सेस अनुरोध नहीं बनाया जा सका।';
 
   @override
-  String get wtlAccessRequestMeterId => 'मीटर आईडी';
+  String get wtlAccessRequestMeterId => 'डब्ल्यूवी मीटर संख्या';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'आपके खाते में ईमेल पता नहीं है।';

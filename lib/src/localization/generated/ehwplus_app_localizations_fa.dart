@@ -3634,7 +3634,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'درخواست دسترسی ایجاد نشد.';
 
   @override
-  String get wtlAccessRequestMeterId => 'شناسهٔ کنتور';
+  String get wtlAccessRequestMeterId => 'شماره کنتور WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'حساب کاربری شما فاقد آدرس ایمیل است.';

@@ -3641,7 +3641,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'ไม่สามารถสร้างคำขอการเข้าถึงได้';
 
   @override
-  String get wtlAccessRequestMeterId => 'รหัสมิเตอร์';
+  String get wtlAccessRequestMeterId => 'หมายเลขมิเตอร์ WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'บัญชีของคุณไม่มีที่อยู่อีเมล';

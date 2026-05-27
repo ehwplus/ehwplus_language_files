@@ -3653,7 +3653,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Erişim isteği oluşturulamadı.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Sayaç Kimliği';
+  String get wtlAccessRequestMeterId => 'WV sayaç numarası';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Hesabınızda bir e-posta adresi eksik.';

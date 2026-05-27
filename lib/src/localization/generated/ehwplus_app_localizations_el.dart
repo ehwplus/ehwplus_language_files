@@ -3683,7 +3683,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Η αίτηση πρόσβασης δεν μπόρεσε να δημιουργηθεί.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Αναγνωριστικό μετρητή';
+  String get wtlAccessRequestMeterId => 'Αριθμός μετρητή WV';
 
   @override
   String get wtlAccessRequestMissingAccountData =>

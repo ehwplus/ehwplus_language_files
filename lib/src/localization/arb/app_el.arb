@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Εάν διαγράψετε αυτόν τον ραδιομετρητή, η πρόσβασή σας στις μετρήσεις του ραδιομετρητή θα ανακληθεί. Μπορείτε να υποβάλετε νέο αίτημα πρόσβασης αργότερα.",
   "withoutRoomAssignment": "Χωρίς ανάθεση δωματίου",
   "wtlAccessRequestFailure": "Η αίτηση πρόσβασης δεν μπόρεσε να δημιουργηθεί.",
-  "wtlAccessRequestMeterId": "Αναγνωριστικό μετρητή",
+  "wtlAccessRequestMeterId": "Αριθμός μετρητή WV",
   "wtlAccessRequestMissingAccountData": "Από το λογαριασμό σας λείπει μια διεύθυνση ηλεκτρονικού ταχυδρομείου.",
   "wtlAccessRequestMissingInput": "Παρακαλούμε εισάγετε τον αριθμό μετρητή WV με ακριβώς 6 ψηφία και τον αριθμό πελάτη σας.",
   "wtlAccessRequestOnlineOnlyDescription": "Ηλεκτρονική αίτηση πρόσβασης για το Wasserverband Tecklenburger Land.",

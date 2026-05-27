@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "اگر این رادیومتر را حذف کنید، دسترسی شما به قرائت‌های رادیومتر لغو خواهد شد. می‌توانید بعداً درخواست دسترسی جدیدی ارسال کنید.",
   "withoutRoomAssignment": "بدون تخصیص اتاق",
   "wtlAccessRequestFailure": "درخواست دسترسی ایجاد نشد.",
-  "wtlAccessRequestMeterId": "شناسهٔ کنتور",
+  "wtlAccessRequestMeterId": "شماره کنتور WV",
   "wtlAccessRequestMissingAccountData": "حساب کاربری شما فاقد آدرس ایمیل است.",
   "wtlAccessRequestMissingInput": "لطفاً شماره کنتور WV خود را با ۶ رقم دقیق و شماره مشتری خود را وارد کنید.",
   "wtlAccessRequestOnlineOnlyDescription": "درخواست دسترسی آنلاین برای واتر‌فرباند تکِلن‌برگر لاند.",

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Если вы удалите этот радиометр, ваш доступ к показаниям радиометра будет аннулирован. Вы можете подать новый запрос на доступ позже.",
   "withoutRoomAssignment": "Без указания номера",
   "wtlAccessRequestFailure": "Не удалось создать запрос на доступ.",
-  "wtlAccessRequestMeterId": "Идентификатор счетчика",
+  "wtlAccessRequestMeterId": "Номер счетчика WV",
   "wtlAccessRequestMissingAccountData": "В вашей учетной записи отсутствует адрес электронной почты.",
   "wtlAccessRequestMissingInput": "Введите номер счетчика WV, состоящий ровно из 6 цифр, и номер вашего клиента.",
   "wtlAccessRequestOnlineOnlyDescription": "Онлайн-запрос на доступ к Wasserverband Tecklenburger Land.",

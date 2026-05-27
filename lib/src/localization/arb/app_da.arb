@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Hvis du sletter denne radiomåler, vil din adgang til radiomålerens aflæsninger blive tilbagekaldt. Du kan indsende en ny adgangsanmodning senere.",
   "withoutRoomAssignment": "Uden værelsestildeling",
   "wtlAccessRequestFailure": "Der kunne ikke oprettes en adgangsanmodning.",
-  "wtlAccessRequestMeterId": "Måler-ID",
+  "wtlAccessRequestMeterId": "Nummer på WV-måler",
   "wtlAccessRequestMissingAccountData": "Din konto mangler en e-mailadresse.",
   "wtlAccessRequestMissingInput": "Indtast venligst dit WV-målernummer med præcis 6 cifre og dit kundenummer.",
   "wtlAccessRequestOnlineOnlyDescription": "Online adgangsanmodning til Wasserverband Tecklenburger Land.",

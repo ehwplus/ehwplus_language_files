@@ -3647,7 +3647,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Åtkomstbegäran kunde inte skapas.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Mätarens ID';
+  String get wtlAccessRequestMeterId => 'WV mätarnummer';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Ditt konto saknar en e-postadress.';

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "നിങ്ങൾ ഈ റേഡിയോ മീറ്റർ ഇല്ലാതാക്കുകയാണെങ്കിൽ, റേഡിയോ മീറ്റർ റീഡിംഗുകളിലേക്കുള്ള നിങ്ങളുടെ പ്രവേശനം റദ്ദാക്കപ്പെടും. നിങ്ങൾക്ക് പിന്നീട് ഒരു പുതിയ പ്രവേശന അഭ്യർത്ഥന സമർപ്പിക്കാവുന്നതാണ്.",
   "withoutRoomAssignment": "മുറി നൽകാതെ",
   "wtlAccessRequestFailure": "ആക്‌സസ് അഭ്യർത്ഥന ഉണ്ടാക്കാൻ കഴിഞ്ഞില്ല.",
-  "wtlAccessRequestMeterId": "മീറ്റർ ഐഡി",
+  "wtlAccessRequestMeterId": "ഡബ്ല്യുവി മീറ്റർ നമ്പർ",
   "wtlAccessRequestMissingAccountData": "നിങ്ങളുടെ അക്കൗണ്ടിൽ ഒരു ഇമെയിൽ വിലാസം ഇല്ല.",
   "wtlAccessRequestMissingInput": "ദയവായി നിങ്ങളുടെ WV മീറ്റർ നമ്പർ കൃത്യമായി 6 അക്കങ്ങളോടും നിങ്ങളുടെ കസ്റ്റമർ നമ്പറും നൽകുക.",
   "wtlAccessRequestOnlineOnlyDescription": "വാസ്സർഫെർബാൻഡ് ടെക്ലൻബർഗർ ലാൻഡിനായുള്ള ഓൺലൈൻ ആക്സസ് അഭ്യർത്ഥന.",

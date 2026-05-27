@@ -3690,7 +3690,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Не удалось создать запрос на доступ.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Идентификатор счетчика';
+  String get wtlAccessRequestMeterId => 'Номер счетчика WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'В вашей учетной записи отсутствует адрес электронной почты.';

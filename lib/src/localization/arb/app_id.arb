@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Jika Anda menghapus meter radio ini, akses Anda ke pembacaan meter radio akan dicabut. Anda dapat mengajukan permintaan akses baru nanti.",
   "withoutRoomAssignment": "Tanpa penugasan kamar",
   "wtlAccessRequestFailure": "Permintaan akses tidak dapat dibuat.",
-  "wtlAccessRequestMeterId": "ID Meteran",
+  "wtlAccessRequestMeterId": "Nomor meteran WV",
   "wtlAccessRequestMissingAccountData": "Akun Anda tidak memiliki alamat email.",
   "wtlAccessRequestMissingInput": "Masukkan nomor WV meter Anda dengan tepat 6 digit dan nomor pelanggan Anda.",
   "wtlAccessRequestOnlineOnlyDescription": "Permintaan akses online untuk Wasserverband Tecklenburger Land.",

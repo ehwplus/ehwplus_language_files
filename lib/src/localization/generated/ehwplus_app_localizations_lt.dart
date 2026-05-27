@@ -3668,7 +3668,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Nepavyko sukurti prieigos užklausos.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Skaitiklio ID';
+  String get wtlAccessRequestMeterId => 'WV skaitiklio numeris';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Jūsų paskyroje trūksta el. pašto adreso.';

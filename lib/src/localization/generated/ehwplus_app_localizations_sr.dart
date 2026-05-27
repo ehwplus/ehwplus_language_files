@@ -3663,7 +3663,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Захтев за приступ није могао да се креира.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Идентификациони број мерача';
+  String get wtlAccessRequestMeterId => 'Број ВВ мерача';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Вашем налогу недостаје адреса електронске поште.';

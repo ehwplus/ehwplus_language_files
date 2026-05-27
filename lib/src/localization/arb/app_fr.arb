@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Si vous supprimez ce radiomètre, votre accès aux relevés du radiomètre sera annulé. Vous pouvez soumettre une nouvelle demande d'accès ultérieurement.",
   "withoutRoomAssignment": "Sans attribution de chambre",
   "wtlAccessRequestFailure": "La demande d'accès n'a pas pu être créée.",
-  "wtlAccessRequestMeterId": "ID du compteur",
+  "wtlAccessRequestMeterId": "Numéro de compteur WV",
   "wtlAccessRequestMissingAccountData": "Il manque une adresse électronique à votre compte.",
   "wtlAccessRequestMissingInput": "Veuillez entrer votre numéro de compteur WV avec exactement 6 chiffres et votre numéro de client.",
   "wtlAccessRequestOnlineOnlyDescription": "Demande d'accès en ligne au Wasserverband Tecklenburger Land.",

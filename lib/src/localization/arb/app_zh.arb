@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "如果删除此无线电流量计，您对无线电流量计读数的访问权限将被取消。您可以稍后提交新的访问请求。",
   "withoutRoomAssignment": "无房间分配",
   "wtlAccessRequestFailure": "无法创建访问请求。",
-  "wtlAccessRequestMeterId": "电表 ID",
+  "wtlAccessRequestMeterId": "西弗吉尼亚州水表编号",
   "wtlAccessRequestMissingAccountData": "您的账户缺少一个电子邮件地址。",
   "wtlAccessRequestMissingInput": "请输入 6 位数的西弗吉尼亚州水表编号和客户编号。",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Land 的在线访问请求。",

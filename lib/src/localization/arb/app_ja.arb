@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "この無線メーターを削除すると、無線メーターの読み取り値へのアクセスは取り消されます。後で新しいアクセス要求を提出することができます。",
   "withoutRoomAssignment": "部屋割りなし",
   "wtlAccessRequestFailure": "アクセス要求を作成できませんでした。",
-  "wtlAccessRequestMeterId": "メーターID",
+  "wtlAccessRequestMeterId": "WVメーター番号",
   "wtlAccessRequestMissingAccountData": "アカウントにメールアドレスがありません。",
   "wtlAccessRequestMissingInput": "WVメーター番号6桁とお客様番号を正確に入力してください。",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Landへのオンライン・アクセスリクエスト。",

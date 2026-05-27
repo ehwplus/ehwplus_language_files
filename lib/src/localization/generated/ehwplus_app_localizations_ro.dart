@@ -3668,7 +3668,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Cererea de acces nu a putut fi creată.';
 
   @override
-  String get wtlAccessRequestMeterId => 'ID contor';
+  String get wtlAccessRequestMeterId => 'Numărul contorului WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Contului dvs. îi lipsește o adresă de e-mail.';

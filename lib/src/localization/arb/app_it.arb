@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Se si cancella questo contatore radio, l'accesso alle letture del contatore radio sarà revocato. È possibile presentare una nuova richiesta di accesso in un secondo momento.",
   "withoutRoomAssignment": "Senza assegnazione della camera",
   "wtlAccessRequestFailure": "Non è stato possibile creare una richiesta di accesso.",
-  "wtlAccessRequestMeterId": "ID contatore",
+  "wtlAccessRequestMeterId": "Numero del contatore WV",
   "wtlAccessRequestMissingAccountData": "Al vostro account manca un indirizzo e-mail.",
   "wtlAccessRequestMissingInput": "Inserire il numero di contatore WV di 6 cifre esatte e il numero di cliente.",
   "wtlAccessRequestOnlineOnlyDescription": "Richiesta di accesso online per il Wasserverband Tecklenburger Land.",

@@ -3646,7 +3646,7 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Der kunne ikke oprettes en adgangsanmodning.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Måler-ID';
+  String get wtlAccessRequestMeterId => 'Nummer på WV-måler';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Din konto mangler en e-mailadresse.';

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Bu radyo metreyi silerseniz, radyo metre okumalarına erişiminiz iptal edilecektir. Daha sonra yeni bir erişim talebi gönderebilirsiniz.",
   "withoutRoomAssignment": "Oda tahsisi olmadan",
   "wtlAccessRequestFailure": "Erişim isteği oluşturulamadı.",
-  "wtlAccessRequestMeterId": "Sayaç Kimliği",
+  "wtlAccessRequestMeterId": "WV sayaç numarası",
   "wtlAccessRequestMissingAccountData": "Hesabınızda bir e-posta adresi eksik.",
   "wtlAccessRequestMissingInput": "Lütfen tam 6 haneli WV sayaç numaranızı ve müşteri numaranızı girin.",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Land için çevrimiçi erişim talebi.",

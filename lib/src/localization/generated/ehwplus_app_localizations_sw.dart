@@ -3655,7 +3655,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Ombi la ufikiaji halikuweza kuundwa.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Kitambulisho cha mita';
+  String get wtlAccessRequestMeterId => 'Nambari ya mita ya WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Akaunti yako haina anwani ya barua pepe.';

@@ -3651,7 +3651,7 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Tilgangsforespørsel kunne ikke opprettes.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Måler-ID';
+  String get wtlAccessRequestMeterId => 'WV målernummer';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Kontoen din mangler en e-postadresse.';

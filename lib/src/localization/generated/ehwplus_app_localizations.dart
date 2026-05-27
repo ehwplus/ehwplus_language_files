@@ -6422,7 +6422,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @wtlAccessRequestMeterId.
   ///
   /// In en, this message translates to:
-  /// **'Meter ID'**
+  /// **'WV meter number'**
   String get wtlAccessRequestMeterId;
 
   /// No description provided for @wtlAccessRequestMissingAccountData.

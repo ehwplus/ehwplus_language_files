@@ -1151,7 +1151,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Wenn Sie diesen Funkzähler löschen, wird Ihr Zugriff auf die Funkzählerstände widerrufen. Sie können später eine neue Zugriffsanfrage stellen.",
   "withoutRoomAssignment": "Ohne Raumzuweisung",
   "wtlAccessRequestFailure": "Die Zugriffsanfrage konnte nicht erstellt werden.",
-  "wtlAccessRequestMeterId": "Zählernummer",
+  "wtlAccessRequestMeterId": "WV-Zählernummer",
   "wtlAccessRequestMissingAccountData": "In Ihrem Konto fehlt eine E-Mail-Adresse.",
   "wtlAccessRequestMissingInput": "Bitte geben Sie Ihre WV-Zählernummer mit exakt 6 Ziffern und ihre Kundennummer ein.",
   "wtlAccessRequestOnlineOnlyDescription": "Online-Zugriffsanfrage für den Wasserverband Tecklenburger Land.",

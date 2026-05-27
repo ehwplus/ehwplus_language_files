@@ -3667,7 +3667,7 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Toegangsverzoek kon niet worden aangemaakt.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
+  String get wtlAccessRequestMeterId => 'WV meternummer';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Er ontbreekt een e-mailadres in uw account.';

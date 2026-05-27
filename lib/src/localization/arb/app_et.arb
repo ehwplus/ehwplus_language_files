@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Kui te kustutate selle raadiomeeter, tühistatakse teie juurdepääs raadiomeeterlugudele. Te võite hiljem esitada uue juurdepääsutaotluse.",
   "withoutRoomAssignment": "Ilma toa määramiseta",
   "wtlAccessRequestFailure": "Juurdepääsutaotlust ei õnnestunud luua.",
-  "wtlAccessRequestMeterId": "Mõõturi ID",
+  "wtlAccessRequestMeterId": "WV arvesti number",
   "wtlAccessRequestMissingAccountData": "Teie kontol puudub e-posti aadress.",
   "wtlAccessRequestMissingInput": "Palun sisestage täpselt 6-kohaline WV-arvesti number ja oma kliendinumber.",
   "wtlAccessRequestOnlineOnlyDescription": "Veebipõhine juurdepääsutaotlus Wasserverband Tecklenburger Land'ile.",

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Ако обришете овај радиометар, ваш приступ очитањима радиометара биће укинут. Касније можете поднети нови захтев за приступ.",
   "withoutRoomAssignment": "Без доделе собе",
   "wtlAccessRequestFailure": "Захтев за приступ није могао да се креира.",
-  "wtlAccessRequestMeterId": "Идентификациони број мерача",
+  "wtlAccessRequestMeterId": "Број ВВ мерача",
   "wtlAccessRequestMissingAccountData": "Вашем налогу недостаје адреса електронске поште.",
   "wtlAccessRequestMissingInput": "Молимо унесите број вашег WV мерача са тачно шест цифара и ваш број купца.",
   "wtlAccessRequestOnlineOnlyDescription": "Онлајн захтев за приступ за Водено удружење Текленбургер Ланд.",

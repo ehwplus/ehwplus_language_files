@@ -3553,7 +3553,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'アクセス要求を作成できませんでした。';
 
   @override
-  String get wtlAccessRequestMeterId => 'メーターID';
+  String get wtlAccessRequestMeterId => 'WVメーター番号';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'アカウントにメールアドレスがありません。';

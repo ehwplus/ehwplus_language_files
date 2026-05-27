@@ -3654,7 +3654,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Žádost o přístup se nepodařilo vytvořit.';
 
   @override
-  String get wtlAccessRequestMeterId => 'ID měřiče';
+  String get wtlAccessRequestMeterId => 'Číslo měřiče WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Ve vašem účtu chybí e-mailová adresa.';

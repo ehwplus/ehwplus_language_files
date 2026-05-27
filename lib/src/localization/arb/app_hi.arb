@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "यदि आप इस रेडियो मीटर को हटा देते हैं, तो रेडियो मीटर रीडिंग्स तक आपकी पहुँच रद्द कर दी जाएगी। आप बाद में नई पहुँच अनुरोध सबमिट कर सकते हैं।",
   "withoutRoomAssignment": "कक्ष आवंटन के बिना",
   "wtlAccessRequestFailure": "एक्सेस अनुरोध नहीं बनाया जा सका।",
-  "wtlAccessRequestMeterId": "मीटर आईडी",
+  "wtlAccessRequestMeterId": "डब्ल्यूवी मीटर संख्या",
   "wtlAccessRequestMissingAccountData": "आपके खाते में ईमेल पता नहीं है।",
   "wtlAccessRequestMissingInput": "कृपया अपना WV मीटर नंबर ठीक 6 अंकों के साथ और अपना ग्राहक नंबर दर्ज करें।",
   "wtlAccessRequestOnlineOnlyDescription": "वासरवेरबैंड टेक्लेनबर्गर लैंड के लिए ऑनलाइन पहुँच अनुरोध।",

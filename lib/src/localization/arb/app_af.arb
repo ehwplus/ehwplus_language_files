@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "As jy hierdie radio-meter verwyder, sal jou toegang tot die radio-meterlesings ingetrek word. Jy kan later 'n nuwe toegangsversoek indien.",
   "withoutRoomAssignment": "Sonder kamertoewysing",
   "wtlAccessRequestFailure": "Toegangversoek kon nie geskep word nie.",
-  "wtlAccessRequestMeterId": "Meeternaam",
+  "wtlAccessRequestMeterId": "WV-meternommer",
   "wtlAccessRequestMissingAccountData": "Jou rekening ontbreek 'n e-posadres.",
   "wtlAccessRequestMissingInput": "Voer asseblief jou WV-meter nommer met presies ses syfers en jou kliëntnommer in.",
   "wtlAccessRequestOnlineOnlyDescription": "Aanlyn toegangversoek vir Wasserverband Tecklenburger Land.",

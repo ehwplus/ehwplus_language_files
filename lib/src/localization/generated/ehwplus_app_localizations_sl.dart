@@ -3658,7 +3658,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Zahteve za dostop ni bilo mogoče ustvariti.';
 
   @override
-  String get wtlAccessRequestMeterId => 'ID merilnika';
+  String get wtlAccessRequestMeterId => 'Številka števca WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'V vašem računu manjka e-poštni naslov.';

@@ -3669,7 +3669,7 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Permintaan akses tidak dapat dibuat.';
 
   @override
-  String get wtlAccessRequestMeterId => 'ID Meteran';
+  String get wtlAccessRequestMeterId => 'Nomor meteran WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Akun Anda tidak memiliki alamat email.';

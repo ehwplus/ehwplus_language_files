@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "이 무선 계량기를 삭제하면 무선 계량기 판독값에 대한 액세스 권한이 취소됩니다. 나중에 새 액세스 요청을 제출할 수 있습니다.",
   "withoutRoomAssignment": "회의실 배정 없음",
   "wtlAccessRequestFailure": "액세스 요청을 만들 수 없습니다.",
-  "wtlAccessRequestMeterId": "계량기 ID",
+  "wtlAccessRequestMeterId": "WV 미터기 번호",
   "wtlAccessRequestMissingAccountData": "계정에 이메일 주소가 누락되었습니다.",
   "wtlAccessRequestMissingInput": "WV 미터기 번호와 고객 번호를 정확히 6자리로 입력하세요.",
   "wtlAccessRequestOnlineOnlyDescription": "바서버밴드 테클렌부르거 랜드에 대한 온라인 액세스 요청.",

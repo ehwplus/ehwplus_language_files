@@ -1036,7 +1036,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Pokud tento radioměr odstraníte, bude váš přístup k odečtům radioměru zrušen. Novou žádost o přístup můžete podat později.",
   "withoutRoomAssignment": "Bez přidělení pokoje",
   "wtlAccessRequestFailure": "Žádost o přístup se nepodařilo vytvořit.",
-  "wtlAccessRequestMeterId": "ID měřiče",
+  "wtlAccessRequestMeterId": "Číslo měřiče WV",
   "wtlAccessRequestMissingAccountData": "Ve vašem účtu chybí e-mailová adresa.",
   "wtlAccessRequestMissingInput": "Zadejte prosím své číslo měřiče WV s přesně 6 číslicemi a své zákaznické číslo.",
   "wtlAccessRequestOnlineOnlyDescription": "Žádost o přístup online pro Wasserverband Tecklenburger Land.",

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Jei ištrinsite šį radijo matuoklį, jūsų prieiga prie radijo matuoklio rodmenų bus panaikinta. Vėliau galėsite pateikti naują prieigos prašymą.",
   "withoutRoomAssignment": "Be kambario paskyrimo",
   "wtlAccessRequestFailure": "Nepavyko sukurti prieigos užklausos.",
-  "wtlAccessRequestMeterId": "Skaitiklio ID",
+  "wtlAccessRequestMeterId": "WV skaitiklio numeris",
   "wtlAccessRequestMissingAccountData": "Jūsų paskyroje trūksta el. pašto adreso.",
   "wtlAccessRequestMissingInput": "Įveskite savo WV skaitiklio numerį, kuriame yra lygiai 6 skaitmenys, ir savo kliento numerį.",
   "wtlAccessRequestOnlineOnlyDescription": "Prašymas suteikti prieigą internetu prie Wasserverband Tecklenburger Land.",

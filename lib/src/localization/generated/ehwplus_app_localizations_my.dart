@@ -3662,7 +3662,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ဖန်တီး၍ မရနိုင်ခဲ့ပါ။';
 
   @override
-  String get wtlAccessRequestMeterId => 'မီတာအိုင်ဒီ';
+  String get wtlAccessRequestMeterId => 'WV မီတာနံပါတ်';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'သင့်အကောင့်တွင် အီးမေးလ်လိပ်စာ မပါရှိပါ။';

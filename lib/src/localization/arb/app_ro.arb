@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Dacă ștergeți acest contor radio, accesul dvs. la citirile contorului radio va fi revocat. Puteți depune ulterior o nouă cerere de acces.",
   "withoutRoomAssignment": "Fără repartizarea camerelor",
   "wtlAccessRequestFailure": "Cererea de acces nu a putut fi creată.",
-  "wtlAccessRequestMeterId": "ID contor",
+  "wtlAccessRequestMeterId": "Numărul contorului WV",
   "wtlAccessRequestMissingAccountData": "Contului dvs. îi lipsește o adresă de e-mail.",
   "wtlAccessRequestMissingInput": "Vă rugăm să introduceți numărul contorului WV cu exact 6 cifre și numărul de client.",
   "wtlAccessRequestOnlineOnlyDescription": "Cerere de acces online pentru Wasserverband Tecklenburger Land.",

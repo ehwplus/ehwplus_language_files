@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Jos poistat tämän radiomittarin, pääsysi radiomittarin lukemiin peruutetaan. Voit lähettää uuden käyttöoikeuspyynnön myöhemmin.",
   "withoutRoomAssignment": "Ilman huoneenjakoa",
   "wtlAccessRequestFailure": "Pääsypyyntöä ei voitu luoda.",
-  "wtlAccessRequestMeterId": "Mittarin tunnus",
+  "wtlAccessRequestMeterId": "WV-mittarin numero",
   "wtlAccessRequestMissingAccountData": "Tililtäsi puuttuu sähköpostiosoite.",
   "wtlAccessRequestMissingInput": "Kirjoita WV-mittarinumerosi, jossa on tasan 6 numeroa, ja asiakasnumerosi.",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Landin verkkopalvelupyyntö.",

@@ -3660,7 +3660,7 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Toegangversoek kon nie geskep word nie.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Meeternaam';
+  String get wtlAccessRequestMeterId => 'WV-meternommer';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Jou rekening ontbreek \'n e-posadres.';

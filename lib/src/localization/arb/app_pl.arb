@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Usunięcie tego radiometru spowoduje cofnięcie dostępu do odczytów radiometru. Nowy wniosek o dostęp można złożyć później.",
   "withoutRoomAssignment": "Bez przydziału pokoju",
   "wtlAccessRequestFailure": "Nie można utworzyć żądania dostępu.",
-  "wtlAccessRequestMeterId": "Identyfikator licznika",
+  "wtlAccessRequestMeterId": "Numer licznika WV",
   "wtlAccessRequestMissingAccountData": "Na Twoim koncie brakuje adresu e-mail.",
   "wtlAccessRequestMissingInput": "Wprowadź numer licznika WV składający się z dokładnie 6 cyfr oraz numer klienta.",
   "wtlAccessRequestOnlineOnlyDescription": "Wniosek o dostęp online do Wasserverband Tecklenburger Land.",

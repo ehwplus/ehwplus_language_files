@@ -3522,7 +3522,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => '无法创建访问请求。';
 
   @override
-  String get wtlAccessRequestMeterId => '电表 ID';
+  String get wtlAccessRequestMeterId => '西弗吉尼亚州水表编号';
 
   @override
   String get wtlAccessRequestMissingAccountData => '您的账户缺少一个电子邮件地址。';

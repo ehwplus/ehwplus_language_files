@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Ukifuta kipima redio hiki, ufikiaji wako wa usomaji wa kipima redio utafutwa. Unaweza kuwasilisha ombi jipya la ufikiaji baadaye.",
   "withoutRoomAssignment": "Bila upangaji wa chumba",
   "wtlAccessRequestFailure": "Ombi la ufikiaji halikuweza kuundwa.",
-  "wtlAccessRequestMeterId": "Kitambulisho cha mita",
+  "wtlAccessRequestMeterId": "Nambari ya mita ya WV",
   "wtlAccessRequestMissingAccountData": "Akaunti yako haina anwani ya barua pepe.",
   "wtlAccessRequestMissingInput": "Tafadhali ingiza nambari yako ya mita ya WV yenye tarakimu sita kamili na nambari yako ya mteja.",
   "wtlAccessRequestOnlineOnlyDescription": "Ombi la ufikiaji mtandaoni kwa Wasserverband Tecklenburger Land.",

@@ -3652,7 +3652,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Không thể tạo yêu cầu truy cập.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Mã số đồng hồ';
+  String get wtlAccessRequestMeterId => 'Số đồng hồ WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Tài khoản của bạn chưa có địa chỉ email.';

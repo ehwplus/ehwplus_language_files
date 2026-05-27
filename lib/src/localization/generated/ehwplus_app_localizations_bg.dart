@@ -3672,7 +3672,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Заявката за достъп не може да бъде създадена.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Идентификатор на измервателния уред';
+  String get wtlAccessRequestMeterId => 'Номер на измервателния уред WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'В профила ви липсва имейл адрес.';

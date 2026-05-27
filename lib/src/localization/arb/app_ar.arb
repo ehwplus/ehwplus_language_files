@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "إذا قمت بحذف مقياس الراديو هذا، فسيتم إلغاء وصولك إلى قراءات مقياس الراديو. يمكنك تقديم طلب وصول جديد في وقت لاحق.",
   "withoutRoomAssignment": "بدون تخصيص غرفة",
   "wtlAccessRequestFailure": "تعذر إنشاء طلب الوصول.",
-  "wtlAccessRequestMeterId": "معرّف العداد",
+  "wtlAccessRequestMeterId": "رقم عداد WV",
   "wtlAccessRequestMissingAccountData": "ينقص حسابك عنوان بريد إلكتروني.",
   "wtlAccessRequestMissingInput": "يرجى إدخال رقم عداد WV الخاص بك المكون من 6 أرقام بالضبط ورقم العميل الخاص بك.",
   "wtlAccessRequestOnlineOnlyDescription": "طلب وصول عبر الإنترنت لـ Wasserverband Tecklenburger Land.",

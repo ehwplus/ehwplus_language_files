@@ -3668,7 +3668,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'A hozzáférési kérelmet nem sikerült létrehozni.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Mérőazonosító';
+  String get wtlAccessRequestMeterId => 'WV mérőszám';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'A fiókjából hiányzik egy e-mail cím.';

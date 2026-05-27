@@ -3554,7 +3554,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => '액세스 요청을 만들 수 없습니다.';
 
   @override
-  String get wtlAccessRequestMeterId => '계량기 ID';
+  String get wtlAccessRequestMeterId => 'WV 미터기 번호';
 
   @override
   String get wtlAccessRequestMissingAccountData => '계정에 이메일 주소가 누락되었습니다.';

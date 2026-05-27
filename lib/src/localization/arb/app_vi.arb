@@ -1036,7 +1036,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Nếu bạn xóa đồng hồ đo sóng radio này, quyền truy cập vào các chỉ số đo của đồng hồ sẽ bị thu hồi. Bạn có thể gửi yêu cầu cấp quyền truy cập mới sau này.",
   "withoutRoomAssignment": "Không có phòng được chỉ định",
   "wtlAccessRequestFailure": "Không thể tạo yêu cầu truy cập.",
-  "wtlAccessRequestMeterId": "Mã số đồng hồ",
+  "wtlAccessRequestMeterId": "Số đồng hồ WV",
   "wtlAccessRequestMissingAccountData": "Tài khoản của bạn chưa có địa chỉ email.",
   "wtlAccessRequestMissingInput": "Vui lòng nhập số đồng hồ WV gồm chính xác 6 chữ số và số khách hàng của quý khách.",
   "wtlAccessRequestOnlineOnlyDescription": "Yêu cầu truy cập trực tuyến dành cho Wasserverband Tecklenburger Land.",

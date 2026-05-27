@@ -3653,7 +3653,7 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'O pedido de acesso não pôde ser criado.';
 
   @override
-  String get wtlAccessRequestMeterId => 'ID do contador';
+  String get wtlAccessRequestMeterId => 'Número do contador WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'A sua conta não tem um endereço de correio eletrónico.';

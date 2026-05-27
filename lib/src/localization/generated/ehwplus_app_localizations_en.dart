@@ -3659,7 +3659,7 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Access request could not be created.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Meter ID';
+  String get wtlAccessRequestMeterId => 'WV meter number';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';

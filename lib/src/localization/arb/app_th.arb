@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "หากคุณลบเครื่องวัดวิทยุนี้ การเข้าถึงข้อมูลการวัดของเครื่องวัดวิทยุจะถูกยกเลิก คุณสามารถส่งคำขอเข้าถึงใหม่ได้ในภายหลัง",
   "withoutRoomAssignment": "ไม่มีการจัดห้อง",
   "wtlAccessRequestFailure": "ไม่สามารถสร้างคำขอการเข้าถึงได้",
-  "wtlAccessRequestMeterId": "รหัสมิเตอร์",
+  "wtlAccessRequestMeterId": "หมายเลขมิเตอร์ WV",
   "wtlAccessRequestMissingAccountData": "บัญชีของคุณไม่มีที่อยู่อีเมล",
   "wtlAccessRequestMissingInput": "กรุณากรอกหมายเลขมิเตอร์ WV ของคุณให้ถูกต้อง 6 หลัก และหมายเลขลูกค้าของคุณ",
   "wtlAccessRequestOnlineOnlyDescription": "คำขอเข้าถึงออนไลน์สำหรับ Wasserverband Tecklenburger Land",

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "ဤရေဒီယိုမီတာကို ဖျက်လိုက်ပါက သင့်ရေဒီယိုမီတာဖတ်ချက်များသို့ ဝင်ရောက်ကြည့်ရှုခွင့်ကို ပယ်ဖျက်မည်ဖြစ်သည်။ နောက်မှ ထပ်မံ ဝင်ရောက်ခွင့် တောင်းဆိုနိုင်ပါသည်။",
   "withoutRoomAssignment": "အခန်းခန့်အပ်ခြင်းမရှိဘဲ",
   "wtlAccessRequestFailure": "ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ဖန်တီး၍ မရနိုင်ခဲ့ပါ။",
-  "wtlAccessRequestMeterId": "မီတာအိုင်ဒီ",
+  "wtlAccessRequestMeterId": "WV မီတာနံပါတ်",
   "wtlAccessRequestMissingAccountData": "သင့်အကောင့်တွင် အီးမေးလ်လိပ်စာ မပါရှိပါ။",
   "wtlAccessRequestMissingInput": "ကျေးဇူးပြု၍ သင့် WV မီတာနံပါတ်ကို ဂဏန်း ၆ လုံးတိတိဖြင့်နှင့် သင့်ဖောက်သည်နံပါတ်ကို ထည့်ပါ။",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Land အွန်လိုင်း ဝင်ရောက်ခွင့် တောင်းဆိုခြင်း။",

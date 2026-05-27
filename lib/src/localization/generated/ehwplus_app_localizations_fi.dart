@@ -3652,7 +3652,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Pääsypyyntöä ei voitu luoda.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Mittarin tunnus';
+  String get wtlAccessRequestMeterId => 'WV-mittarin numero';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Tililtäsi puuttuu sähköpostiosoite.';

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Als u deze radiometer verwijdert, wordt uw toegang tot de uitlezingen van de radiometer ingetrokken. U kunt later een nieuw toegangsverzoek indienen.",
   "withoutRoomAssignment": "Zonder kamertoewijzing",
   "wtlAccessRequestFailure": "Toegangsverzoek kon niet worden aangemaakt.",
-  "wtlAccessRequestMeterId": "Meter ID",
+  "wtlAccessRequestMeterId": "WV meternummer",
   "wtlAccessRequestMissingAccountData": "Er ontbreekt een e-mailadres in uw account.",
   "wtlAccessRequestMissingInput": "Voer uw WV meternummer met precies 6 cijfers en uw klantnummer in.",
   "wtlAccessRequestOnlineOnlyDescription": "Online toegangsaanvraag voor Wasserverband Tecklenburger Land.",

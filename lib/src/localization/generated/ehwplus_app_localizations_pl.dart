@@ -3670,7 +3670,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Nie można utworzyć żądania dostępu.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Identyfikator licznika';
+  String get wtlAccessRequestMeterId => 'Numer licznika WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Na Twoim koncie brakuje adresu e-mail.';

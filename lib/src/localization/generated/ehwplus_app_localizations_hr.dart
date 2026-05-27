@@ -3659,7 +3659,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Zahtjev za pristup nije mogao biti stvoren.';
 
   @override
-  String get wtlAccessRequestMeterId => 'ID brojača';
+  String get wtlAccessRequestMeterId => 'Broj WV mjerila';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Vašem računu nedostaje adresa e-pošte.';

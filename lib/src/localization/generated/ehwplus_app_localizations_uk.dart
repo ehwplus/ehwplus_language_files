@@ -3677,7 +3677,7 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Не вдалося створити запит на доступ.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Ідентифікатор лічильника';
+  String get wtlAccessRequestMeterId => 'Номер лічильника WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'У вашому обліковому записі відсутня адреса електронної пошти.';

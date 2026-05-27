@@ -3667,7 +3667,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'ആക്‌സസ് അഭ്യർത്ഥന ഉണ്ടാക്കാൻ കഴിഞ്ഞില്ല.';
 
   @override
-  String get wtlAccessRequestMeterId => 'മീറ്റർ ഐഡി';
+  String get wtlAccessRequestMeterId => 'ഡബ്ല്യുവി മീറ്റർ നമ്പർ';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'നിങ്ങളുടെ അക്കൗണ്ടിൽ ഒരു ഇമെയിൽ വിലാസം ഇല്ല.';

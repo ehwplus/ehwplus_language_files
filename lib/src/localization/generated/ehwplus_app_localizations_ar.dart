@@ -3620,7 +3620,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'تعذر إنشاء طلب الوصول.';
 
   @override
-  String get wtlAccessRequestMeterId => 'معرّف العداد';
+  String get wtlAccessRequestMeterId => 'رقم عداد WV';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'ينقص حسابك عنوان بريد إلكتروني.';

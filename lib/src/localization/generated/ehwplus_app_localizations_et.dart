@@ -3644,7 +3644,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get wtlAccessRequestFailure => 'Juurdepääsutaotlust ei õnnestunud luua.';
 
   @override
-  String get wtlAccessRequestMeterId => 'Mõõturi ID';
+  String get wtlAccessRequestMeterId => 'WV arvesti number';
 
   @override
   String get wtlAccessRequestMissingAccountData => 'Teie kontol puudub e-posti aadress.';

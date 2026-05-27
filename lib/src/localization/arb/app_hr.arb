@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Ako izbrišete ovaj radio-mjeril, vaš će pristup očitanjima radio-mjerila biti opozvan. Kasnije možete podnijeti novi zahtjev za pristup.",
   "withoutRoomAssignment": "Bez dodjele sobe",
   "wtlAccessRequestFailure": "Zahtjev za pristup nije mogao biti stvoren.",
-  "wtlAccessRequestMeterId": "ID brojača",
+  "wtlAccessRequestMeterId": "Broj WV mjerila",
   "wtlAccessRequestMissingAccountData": "Vašem računu nedostaje adresa e-pošte.",
   "wtlAccessRequestMissingInput": "Molimo unesite broj WV mjerača s točno 6 znamenaka i svoj broj kupca.",
   "wtlAccessRequestOnlineOnlyDescription": "Zahtjev za online pristup za Wasserverband Tecklenburger Land.",

@@ -1035,7 +1035,7 @@
   "watersupplierUnlinkRadioMeterWtlDescription": "Ha törli ezt a rádiós mérőórát, a rádiós mérőórák leolvasásához való hozzáférése visszavonásra kerül. Később új hozzáférési kérelmet nyújthat be.",
   "withoutRoomAssignment": "Szobakiosztás nélkül",
   "wtlAccessRequestFailure": "A hozzáférési kérelmet nem sikerült létrehozni.",
-  "wtlAccessRequestMeterId": "Mérőazonosító",
+  "wtlAccessRequestMeterId": "WV mérőszám",
   "wtlAccessRequestMissingAccountData": "A fiókjából hiányzik egy e-mail cím.",
   "wtlAccessRequestMissingInput": "Kérjük, adja meg pontosan 6 számjegyű WV mérőszámát és ügyfélszámát.",
   "wtlAccessRequestOnlineOnlyDescription": "Online hozzáférési kérelem a Wasserverband Tecklenburger Land számára.",
