@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "部屋割りなし",
   "wtlAccessRequestFailure": "アクセス要求を作成できませんでした。",
   "wtlAccessRequestMeterId": "WVメーター番号",
+  "wtlAccessRequestMeterIdHint": "WVメーター番号は、無線水道メーターのカバーの内側、またはウェルカムレターや年間明細書に記載されています。",
   "wtlAccessRequestMissingAccountData": "アカウントにメールアドレスがありません。",
   "wtlAccessRequestMissingInput": "WVメーター番号6桁とお客様番号を正確に入力してください。",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Landへのオンライン・アクセスリクエスト。",

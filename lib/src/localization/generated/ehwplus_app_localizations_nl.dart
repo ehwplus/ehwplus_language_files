@@ -3670,6 +3670,10 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV meternummer';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Je vindt het WV meternummer aan de binnenkant van het deksel van je draadloze watermeter of in de welkomstbrief of op de jaarafrekening.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Er ontbreekt een e-mailadres in uw account.';
 
   @override

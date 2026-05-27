@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Bez przydziału pokoju",
   "wtlAccessRequestFailure": "Nie można utworzyć żądania dostępu.",
   "wtlAccessRequestMeterId": "Numer licznika WV",
+  "wtlAccessRequestMeterIdHint": "Numer licznika WV znajduje się na wewnętrznej stronie pokrywy wodomierza radiowego, w liście powitalnym lub w rocznym zestawieniu.",
   "wtlAccessRequestMissingAccountData": "Na Twoim koncie brakuje adresu e-mail.",
   "wtlAccessRequestMissingInput": "Wprowadź numer licznika WV składający się z dokładnie 6 cyfr oraz numer klienta.",
   "wtlAccessRequestOnlineOnlyDescription": "Wniosek o dostęp online do Wasserverband Tecklenburger Land.",

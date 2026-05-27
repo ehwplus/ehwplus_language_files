@@ -3557,6 +3557,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV 미터기 번호';
 
   @override
+  String get wtlAccessRequestMeterIdHint => 'WV 계량기 번호는 무선 수도 계량기 커버 안쪽이나 환영 편지 또는 연간 명세서에서 확인할 수 있습니다.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => '계정에 이메일 주소가 누락되었습니다.';
 
   @override

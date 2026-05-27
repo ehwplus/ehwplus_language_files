@@ -3650,6 +3650,10 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'डब्ल्यूवी मीटर संख्या';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'आप अपना WV मीटर नंबर अपने वायरलेस वॉटर मीटर के कवर के अंदर, स्वागत पत्र में या अपने वार्षिक विवरण में पा सकते हैं।';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'आपके खाते में ईमेल पता नहीं है।';
 
   @override

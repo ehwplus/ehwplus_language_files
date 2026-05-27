@@ -3661,6 +3661,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Številka števca WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Številko vodomera WV najdete na notranji strani pokrova radijskega vodomera, v pozdravnem pismu ali v letnem obračunu.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'V vašem računu manjka e-poštni naslov.';
 
   @override

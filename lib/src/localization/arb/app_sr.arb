@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Без доделе собе",
   "wtlAccessRequestFailure": "Захтев за приступ није могао да се креира.",
   "wtlAccessRequestMeterId": "Број ВВ мерача",
+  "wtlAccessRequestMeterIdHint": "Можете пронаћи број свог WV мерача на унутрашњој страни поклопца вашег бежичног водомера, у писму добродошлице или на вашој годишњој изјави.",
   "wtlAccessRequestMissingAccountData": "Вашем налогу недостаје адреса електронске поште.",
   "wtlAccessRequestMissingInput": "Молимо унесите број вашег WV мерача са тачно шест цифара и ваш број купца.",
   "wtlAccessRequestOnlineOnlyDescription": "Онлајн захтев за приступ за Водено удружење Текленбургер Ланд.",

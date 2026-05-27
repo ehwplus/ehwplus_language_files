@@ -3654,6 +3654,10 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV målernummer';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Du finner WV-målernummeret på innsiden av omslaget til radiovannmåleren, i velkomstbrevet eller i årsoppgaven.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Kontoen din mangler en e-postadresse.';
 
   @override

@@ -3670,6 +3670,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'ഡബ്ല്യുവി മീറ്റർ നമ്പർ';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'നിങ്ങളുടെ വയർലെസ് വാട്ടർ മീറ്ററിന്റെ കവറിന്റെ ഉള്ളിൽ, സ്വാഗത കത്തിൽ അല്ലെങ്കിൽ നിങ്ങളുടെ വാർഷിക സ്റ്റേറ്റ്മെന്റിൽ നിങ്ങളുടെ WV മീറ്റർ നമ്പർ കണ്ടെത്താനാകും.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'നിങ്ങളുടെ അക്കൗണ്ടിൽ ഒരു ഇമെയിൽ വിലാസം ഇല്ല.';
 
   @override

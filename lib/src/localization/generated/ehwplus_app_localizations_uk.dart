@@ -3680,6 +3680,10 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Номер лічильника WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Номер лічильника WV ви знайдете на внутрішній стороні кришки радіолічильника, у вітальному листі або в річному звіті.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'У вашому обліковому записі відсутня адреса електронної пошти.';
 
   @override

@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Ilman huoneenjakoa",
   "wtlAccessRequestFailure": "Pääsypyyntöä ei voitu luoda.",
   "wtlAccessRequestMeterId": "WV-mittarin numero",
+  "wtlAccessRequestMeterIdHint": "Löydät WV-mittarin numeron radiovesimittarisi kannen sisäpuolelta, tervetulokirjeestä tai vuositilinpäätöksestä.",
   "wtlAccessRequestMissingAccountData": "Tililtäsi puuttuu sähköpostiosoite.",
   "wtlAccessRequestMissingInput": "Kirjoita WV-mittarinumerosi, jossa on tasan 6 numeroa, ja asiakasnumerosi.",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Landin verkkopalvelupyyntö.",

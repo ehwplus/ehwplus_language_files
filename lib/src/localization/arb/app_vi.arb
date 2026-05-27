@@ -1037,6 +1037,7 @@
   "withoutRoomAssignment": "Không có phòng được chỉ định",
   "wtlAccessRequestFailure": "Không thể tạo yêu cầu truy cập.",
   "wtlAccessRequestMeterId": "Số đồng hồ WV",
+  "wtlAccessRequestMeterIdHint": "Quý khách có thể tìm thấy số đồng hồ WV ở mặt trong nắp đồng hồ nước không dây, trong thư chào mừng hoặc trong hóa đơn thanh toán hàng năm.",
   "wtlAccessRequestMissingAccountData": "Tài khoản của bạn chưa có địa chỉ email.",
   "wtlAccessRequestMissingInput": "Vui lòng nhập số đồng hồ WV gồm chính xác 6 chữ số và số khách hàng của quý khách.",
   "wtlAccessRequestOnlineOnlyDescription": "Yêu cầu truy cập trực tuyến dành cho Wasserverband Tecklenburger Land.",

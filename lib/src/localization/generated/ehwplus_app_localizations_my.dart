@@ -3665,6 +3665,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV မီတာနံပါတ်';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'သင့် WV မီတာနံပါတ်ကို သင့်ဝိုင်ယာလက်ရေဓာတ်မီတာ၏ ဖုံးအတွင်းဘက်၊ ကြိုဆိုစာတွင် သို့မဟုတ် နှစ်စဉ်ငွေတောင်းခံလွှာပေါ်တွင် ရှာတွေ့နိုင်ပါသည်။';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'သင့်အကောင့်တွင် အီးမေးလ်လိပ်စာ မပါရှိပါ။';
 
   @override

@@ -3671,6 +3671,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV skaitiklio numeris';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'WV skaitiklio numerį rasite radijo vandens skaitiklio dangtelio vidinėje pusėje, sveikinimo laiške arba metinėje ataskaitoje.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Jūsų paskyroje trūksta el. pašto adreso.';
 
   @override

@@ -3657,6 +3657,10 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Číslo měřiče WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Číslo vodoměru WV najdete na vnitřní straně obálky svého radiového vodoměru nebo v uvítacím dopise či v ročním vyúčtování.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Ve vašem účtu chybí e-mailová adresa.';
 
   @override

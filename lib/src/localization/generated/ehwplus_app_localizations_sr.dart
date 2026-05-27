@@ -3666,6 +3666,10 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Број ВВ мерача';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Можете пронаћи број свог WV мерача на унутрашњој страни поклопца вашег бежичног водомера, у писму добродошлице или на вашој годишњој изјави.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Вашем налогу недостаје адреса електронске поште.';
 
   @override

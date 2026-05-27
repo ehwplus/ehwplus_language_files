@@ -3647,6 +3647,10 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV arvesti number';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'WV-arvesti numbri leiate oma raadioveemõõtja kaane siseküljelt või tervituskirjast või aastaaruandest.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Teie kontol puudub e-posti aadress.';
 
   @override

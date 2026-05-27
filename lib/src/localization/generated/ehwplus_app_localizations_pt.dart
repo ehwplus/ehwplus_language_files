@@ -3656,6 +3656,10 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Número do contador WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'O número do contador WV encontra-se no interior da tampa do seu contador de água via rádio, na carta de boas-vindas ou no extrato anual.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'A sua conta não tem um endereço de correio eletrónico.';
 
   @override

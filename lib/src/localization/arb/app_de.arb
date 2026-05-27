@@ -1152,6 +1152,7 @@
   "withoutRoomAssignment": "Ohne Raumzuweisung",
   "wtlAccessRequestFailure": "Die Zugriffsanfrage konnte nicht erstellt werden.",
   "wtlAccessRequestMeterId": "WV-Zählernummer",
+  "wtlAccessRequestMeterIdHint": "Die WV-Zählernummer finden Sie an der Deckelinnenseite Ihren Funkwasserzählers oder im Begrüßungsschreiben oder in der Jahresabrechnung.",
   "wtlAccessRequestMissingAccountData": "In Ihrem Konto fehlt eine E-Mail-Adresse.",
   "wtlAccessRequestMissingInput": "Bitte geben Sie Ihre WV-Zählernummer mit exakt 6 Ziffern und ihre Kundennummer ein.",
   "wtlAccessRequestOnlineOnlyDescription": "Online-Zugriffsanfrage für den Wasserverband Tecklenburger Land.",

@@ -3672,6 +3672,10 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Nomor meteran WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Anda dapat menemukan nomor meteran WV di bagian dalam sampul meteran air radio Anda atau dalam surat sambutan atau dalam laporan tahunan.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Akun Anda tidak memiliki alamat email.';
 
   @override

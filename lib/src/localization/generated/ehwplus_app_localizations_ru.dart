@@ -3693,6 +3693,10 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Номер счетчика WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Номер счетчика WV вы найдете на внутренней стороне крышки вашего радиосчетчика воды, в приветственном письме или в ежегодном заявлении.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'В вашей учетной записи отсутствует адрес электронной почты.';
 
   @override

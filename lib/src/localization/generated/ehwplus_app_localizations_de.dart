@@ -3670,6 +3670,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV-Zählernummer';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Die WV-Zählernummer finden Sie an der Deckelinnenseite Ihren Funkwasserzählers oder im Begrüßungsschreiben oder in der Jahresabrechnung.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'In Ihrem Konto fehlt eine E-Mail-Adresse.';
 
   @override

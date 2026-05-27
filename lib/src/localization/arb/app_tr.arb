@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Oda tahsisi olmadan",
   "wtlAccessRequestFailure": "Erişim isteği oluşturulamadı.",
   "wtlAccessRequestMeterId": "WV sayaç numarası",
+  "wtlAccessRequestMeterIdHint": "WV sayaç numarasını telsiz su sayacınızın kapağının iç tarafında veya hoş geldiniz mektubunda ya da yıllık hesap özetinde bulabilirsiniz.",
   "wtlAccessRequestMissingAccountData": "Hesabınızda bir e-posta adresi eksik.",
   "wtlAccessRequestMissingInput": "Lütfen tam 6 haneli WV sayaç numaranızı ve müşteri numaranızı girin.",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Land için çevrimiçi erişim talebi.",

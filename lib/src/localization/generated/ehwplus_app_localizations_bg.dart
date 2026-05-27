@@ -3675,6 +3675,10 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Номер на измервателния уред WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Номерът на водомера WV ще откриете от вътрешната страна на капака на вашия радиоводомер, в писмото за посрещане или в годишното извлечение.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'В профила ви липсва имейл адрес.';
 
   @override

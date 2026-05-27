@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Bila upangaji wa chumba",
   "wtlAccessRequestFailure": "Ombi la ufikiaji halikuweza kuundwa.",
   "wtlAccessRequestMeterId": "Nambari ya mita ya WV",
+  "wtlAccessRequestMeterIdHint": "Unaweza kupata nambari ya mita yako ya maji isiyo na waya (WV) ndani ya kifuniko cha mita yako, katika barua ya kukaribisha au kwenye bili yako ya kila mwaka.",
   "wtlAccessRequestMissingAccountData": "Akaunti yako haina anwani ya barua pepe.",
   "wtlAccessRequestMissingInput": "Tafadhali ingiza nambari yako ya mita ya WV yenye tarakimu sita kamili na nambari yako ya mteja.",
   "wtlAccessRequestOnlineOnlyDescription": "Ombi la ufikiaji mtandaoni kwa Wasserverband Tecklenburger Land.",

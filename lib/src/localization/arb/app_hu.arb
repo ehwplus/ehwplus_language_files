@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Szobakiosztás nélkül",
   "wtlAccessRequestFailure": "A hozzáférési kérelmet nem sikerült létrehozni.",
   "wtlAccessRequestMeterId": "WV mérőszám",
+  "wtlAccessRequestMeterIdHint": "A WV-mérőszámot a rádiós vízmérő borítójának belső oldalán, az üdvözlő levélben vagy az éves elszámolásban találja.",
   "wtlAccessRequestMissingAccountData": "A fiókjából hiányzik egy e-mail cím.",
   "wtlAccessRequestMissingInput": "Kérjük, adja meg pontosan 6 számjegyű WV mérőszámát és ügyfélszámát.",
   "wtlAccessRequestOnlineOnlyDescription": "Online hozzáférési kérelem a Wasserverband Tecklenburger Land számára.",

@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Brez dodelitve sobe",
   "wtlAccessRequestFailure": "Zahteve za dostop ni bilo mogoče ustvariti.",
   "wtlAccessRequestMeterId": "Številka števca WV",
+  "wtlAccessRequestMeterIdHint": "Številko vodomera WV najdete na notranji strani pokrova radijskega vodomera, v pozdravnem pismu ali v letnem obračunu.",
   "wtlAccessRequestMissingAccountData": "V vašem računu manjka e-poštni naslov.",
   "wtlAccessRequestMissingInput": "Vnesite številko števca WV s točno 6 številkami in številko stranke.",
   "wtlAccessRequestOnlineOnlyDescription": "Spletna zahteva za dostop do podatkov za Wasserverband Tecklenburger Land.",

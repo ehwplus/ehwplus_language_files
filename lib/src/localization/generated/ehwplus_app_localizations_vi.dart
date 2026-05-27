@@ -3655,6 +3655,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Số đồng hồ WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Quý khách có thể tìm thấy số đồng hồ WV ở mặt trong nắp đồng hồ nước không dây, trong thư chào mừng hoặc trong hóa đơn thanh toán hàng năm.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Tài khoản của bạn chưa có địa chỉ email.';
 
   @override

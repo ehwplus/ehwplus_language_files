@@ -3680,6 +3680,10 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Numéro de compteur WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Vous trouverez le numéro de compteur WV à l\'intérieur du couvercle de votre compteur d\'eau sans fil ou dans votre lettre de bienvenue ou votre décompte annuel.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Il manque une adresse électronique à votre compte.';
 
   @override

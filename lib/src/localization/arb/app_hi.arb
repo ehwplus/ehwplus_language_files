@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "कक्ष आवंटन के बिना",
   "wtlAccessRequestFailure": "एक्सेस अनुरोध नहीं बनाया जा सका।",
   "wtlAccessRequestMeterId": "डब्ल्यूवी मीटर संख्या",
+  "wtlAccessRequestMeterIdHint": "आप अपना WV मीटर नंबर अपने वायरलेस वॉटर मीटर के कवर के अंदर, स्वागत पत्र में या अपने वार्षिक विवरण में पा सकते हैं।",
   "wtlAccessRequestMissingAccountData": "आपके खाते में ईमेल पता नहीं है।",
   "wtlAccessRequestMissingInput": "कृपया अपना WV मीटर नंबर ठीक 6 अंकों के साथ और अपना ग्राहक नंबर दर्ज करें।",
   "wtlAccessRequestOnlineOnlyDescription": "वासरवेरबैंड टेक्लेनबर्गर लैंड के लिए ऑनलाइन पहुँच अनुरोध।",

@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Zonder kamertoewijzing",
   "wtlAccessRequestFailure": "Toegangsverzoek kon niet worden aangemaakt.",
   "wtlAccessRequestMeterId": "WV meternummer",
+  "wtlAccessRequestMeterIdHint": "Je vindt het WV meternummer aan de binnenkant van het deksel van je draadloze watermeter of in de welkomstbrief of op de jaarafrekening.",
   "wtlAccessRequestMissingAccountData": "Er ontbreekt een e-mailadres in uw account.",
   "wtlAccessRequestMissingInput": "Voer uw WV meternummer met precies 6 cijfers en uw klantnummer in.",
   "wtlAccessRequestOnlineOnlyDescription": "Online toegangsaanvraag voor Wasserverband Tecklenburger Land.",

@@ -3650,6 +3650,10 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV mätarnummer';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Du hittar WV-mätarnumret på insidan av locket till din radiovattenmätare eller i välkomstbrevet eller i årsbeskedet.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Ditt konto saknar en e-postadress.';
 
   @override

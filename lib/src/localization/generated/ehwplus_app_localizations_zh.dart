@@ -3525,6 +3525,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => '西弗吉尼亚州水表编号';
 
   @override
+  String get wtlAccessRequestMeterIdHint => '您可以在无线电水表的封面内侧、欢迎信或年度对账单中找到 WV 水表编号。';
+
+  @override
   String get wtlAccessRequestMissingAccountData => '您的账户缺少一个电子邮件地址。';
 
   @override

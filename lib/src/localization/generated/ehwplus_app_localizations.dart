@@ -6425,6 +6425,12 @@ abstract class EhwplusAppLocalizations {
   /// **'WV meter number'**
   String get wtlAccessRequestMeterId;
 
+  /// No description provided for @wtlAccessRequestMeterIdHint.
+  ///
+  /// In en, this message translates to:
+  /// **'You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.'**
+  String get wtlAccessRequestMeterIdHint;
+
   /// No description provided for @wtlAccessRequestMissingAccountData.
   ///
   /// In en, this message translates to:

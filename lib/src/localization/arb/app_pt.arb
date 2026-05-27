@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Sem atribuição de quarto",
   "wtlAccessRequestFailure": "O pedido de acesso não pôde ser criado.",
   "wtlAccessRequestMeterId": "Número do contador WV",
+  "wtlAccessRequestMeterIdHint": "O número do contador WV encontra-se no interior da tampa do seu contador de água via rádio, na carta de boas-vindas ou no extrato anual.",
   "wtlAccessRequestMissingAccountData": "A sua conta não tem um endereço de correio eletrónico.",
   "wtlAccessRequestMissingInput": "Introduza o seu número de contador WV com exatamente 6 dígitos e o seu número de cliente.",
   "wtlAccessRequestOnlineOnlyDescription": "Pedido de acesso em linha para Wasserverband Tecklenburger Land.",

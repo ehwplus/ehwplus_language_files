@@ -1037,6 +1037,7 @@
   "withoutRoomAssignment": "Без розподілу номерів",
   "wtlAccessRequestFailure": "Не вдалося створити запит на доступ.",
   "wtlAccessRequestMeterId": "Номер лічильника WV",
+  "wtlAccessRequestMeterIdHint": "Номер лічильника WV ви знайдете на внутрішній стороні кришки радіолічильника, у вітальному листі або в річному звіті.",
   "wtlAccessRequestMissingAccountData": "У вашому обліковому записі відсутня адреса електронної пошти.",
   "wtlAccessRequestMissingInput": "Будь ласка, введіть номер вашого лічильника WV, що складається з 6 цифр, та номер вашого клієнта.",
   "wtlAccessRequestOnlineOnlyDescription": "Запит на отримання онлайн доступу до Wasserverband Tecklenburger Land.",

@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Utan rumstilldelning",
   "wtlAccessRequestFailure": "Åtkomstbegäran kunde inte skapas.",
   "wtlAccessRequestMeterId": "WV mätarnummer",
+  "wtlAccessRequestMeterIdHint": "Du hittar WV-mätarnumret på insidan av locket till din radiovattenmätare eller i välkomstbrevet eller i årsbeskedet.",
   "wtlAccessRequestMissingAccountData": "Ditt konto saknar en e-postadress.",
   "wtlAccessRequestMissingInput": "Vänligen ange ditt WV-mätarnummer med exakt 6 siffror och ditt kundnummer.",
   "wtlAccessRequestOnlineOnlyDescription": "Begäran om online-åtkomst för Wasserverband Tecklenburger Land.",

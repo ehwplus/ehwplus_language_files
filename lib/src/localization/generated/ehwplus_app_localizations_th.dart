@@ -3644,6 +3644,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'หมายเลขมิเตอร์ WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'คุณสามารถหาหมายเลขมิเตอร์ WV ของคุณได้ที่ด้านในของฝาครอบมิเตอร์น้ำไร้สายของคุณ ในจดหมายต้อนรับ หรือในใบแจ้งหนี้ประจำปีของคุณ';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'บัญชีของคุณไม่มีที่อยู่อีเมล';
 
   @override

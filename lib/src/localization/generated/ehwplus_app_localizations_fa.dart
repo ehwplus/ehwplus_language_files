@@ -3637,6 +3637,10 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'شماره کنتور WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'شما می‌توانید شماره کنتور آب بی‌سیم خود را در داخل درپوش آن، در نامه خوش‌آمدگویی یا در صورتحساب سالانه خود بیابید.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'حساب کاربری شما فاقد آدرس ایمیل است.';
 
   @override

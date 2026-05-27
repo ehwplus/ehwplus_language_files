@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Ilma toa määramiseta",
   "wtlAccessRequestFailure": "Juurdepääsutaotlust ei õnnestunud luua.",
   "wtlAccessRequestMeterId": "WV arvesti number",
+  "wtlAccessRequestMeterIdHint": "WV-arvesti numbri leiate oma raadioveemõõtja kaane siseküljelt või tervituskirjast või aastaaruandest.",
   "wtlAccessRequestMissingAccountData": "Teie kontol puudub e-posti aadress.",
   "wtlAccessRequestMissingInput": "Palun sisestage täpselt 6-kohaline WV-arvesti number ja oma kliendinumber.",
   "wtlAccessRequestOnlineOnlyDescription": "Veebipõhine juurdepääsutaotlus Wasserverband Tecklenburger Land'ile.",

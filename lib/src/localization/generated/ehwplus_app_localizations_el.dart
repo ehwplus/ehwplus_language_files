@@ -3686,6 +3686,10 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Αριθμός μετρητή WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Θα βρείτε τον αριθμό του μετρητή WV στο εσωτερικό του καλύμματος του ραδιομετρητή σας ή στην επιστολή καλωσορίσματος ή στην ετήσια δήλωση.';
+
+  @override
   String get wtlAccessRequestMissingAccountData =>
       'Από το λογαριασμό σας λείπει μια διεύθυνση ηλεκτρονικού ταχυδρομείου.';
 

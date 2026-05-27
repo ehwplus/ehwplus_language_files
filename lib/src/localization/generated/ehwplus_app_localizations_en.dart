@@ -3662,6 +3662,10 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV meter number';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
 
   @override

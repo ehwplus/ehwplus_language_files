@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "无房间分配",
   "wtlAccessRequestFailure": "无法创建访问请求。",
   "wtlAccessRequestMeterId": "西弗吉尼亚州水表编号",
+  "wtlAccessRequestMeterIdHint": "您可以在无线电水表的封面内侧、欢迎信或年度对账单中找到 WV 水表编号。",
   "wtlAccessRequestMissingAccountData": "您的账户缺少一个电子邮件地址。",
   "wtlAccessRequestMissingInput": "请输入 6 位数的西弗吉尼亚州水表编号和客户编号。",
   "wtlAccessRequestOnlineOnlyDescription": "Wasserverband Tecklenburger Land 的在线访问请求。",

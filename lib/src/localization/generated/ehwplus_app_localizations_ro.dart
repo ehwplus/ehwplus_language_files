@@ -3671,6 +3671,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Numărul contorului WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Veți găsi numărul contorului WV pe partea interioară a capacului contorului de apă radio sau în scrisoarea de bun venit sau în declarația anuală.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Contului dvs. îi lipsește o adresă de e-mail.';
 
   @override

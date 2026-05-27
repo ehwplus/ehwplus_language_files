@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "بدون تخصيص غرفة",
   "wtlAccessRequestFailure": "تعذر إنشاء طلب الوصول.",
   "wtlAccessRequestMeterId": "رقم عداد WV",
+  "wtlAccessRequestMeterIdHint": "ستجد رقم عداد المياه WV على الغلاف الداخلي لعداد المياه اللاسلكي الخاص بك أو في رسالة الترحيب أو في البيان السنوي.",
   "wtlAccessRequestMissingAccountData": "ينقص حسابك عنوان بريد إلكتروني.",
   "wtlAccessRequestMissingInput": "يرجى إدخال رقم عداد WV الخاص بك المكون من 6 أرقام بالضبط ورقم العميل الخاص بك.",
   "wtlAccessRequestOnlineOnlyDescription": "طلب وصول عبر الإنترنت لـ Wasserverband Tecklenburger Land.",

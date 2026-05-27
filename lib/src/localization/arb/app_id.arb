@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Tanpa penugasan kamar",
   "wtlAccessRequestFailure": "Permintaan akses tidak dapat dibuat.",
   "wtlAccessRequestMeterId": "Nomor meteran WV",
+  "wtlAccessRequestMeterIdHint": "Anda dapat menemukan nomor meteran WV di bagian dalam sampul meteran air radio Anda atau dalam surat sambutan atau dalam laporan tahunan.",
   "wtlAccessRequestMissingAccountData": "Akun Anda tidak memiliki alamat email.",
   "wtlAccessRequestMissingInput": "Masukkan nomor WV meter Anda dengan tepat 6 digit dan nomor pelanggan Anda.",
   "wtlAccessRequestOnlineOnlyDescription": "Permintaan akses online untuk Wasserverband Tecklenburger Land.",

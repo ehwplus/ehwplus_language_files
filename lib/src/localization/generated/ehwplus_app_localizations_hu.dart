@@ -3671,6 +3671,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV mérőszám';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'A WV-mérőszámot a rádiós vízmérő borítójának belső oldalán, az üdvözlő levélben vagy az éves elszámolásban találja.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'A fiókjából hiányzik egy e-mail cím.';
 
   @override

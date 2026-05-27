@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Без разпределение на стаите",
   "wtlAccessRequestFailure": "Заявката за достъп не може да бъде създадена.",
   "wtlAccessRequestMeterId": "Номер на измервателния уред WV",
+  "wtlAccessRequestMeterIdHint": "Номерът на водомера WV ще откриете от вътрешната страна на капака на вашия радиоводомер, в писмото за посрещане или в годишното извлечение.",
   "wtlAccessRequestMissingAccountData": "В профила ви липсва имейл адрес.",
   "wtlAccessRequestMissingInput": "Моля, въведете точно 6-цифрения номер на водомера WV и клиентския си номер.",
   "wtlAccessRequestOnlineOnlyDescription": "Заявление за онлайн достъп до Wasserverband Tecklenburger Land.",

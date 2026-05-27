@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Uden værelsestildeling",
   "wtlAccessRequestFailure": "Der kunne ikke oprettes en adgangsanmodning.",
   "wtlAccessRequestMeterId": "Nummer på WV-måler",
+  "wtlAccessRequestMeterIdHint": "Du finder WV-målernummeret på indersiden af omslaget til din radiovandmåler eller i velkomstbrevet eller i årsopgørelsen.",
   "wtlAccessRequestMissingAccountData": "Din konto mangler en e-mailadresse.",
   "wtlAccessRequestMissingInput": "Indtast venligst dit WV-målernummer med præcis 6 cifre og dit kundenummer.",
   "wtlAccessRequestOnlineOnlyDescription": "Online adgangsanmodning til Wasserverband Tecklenburger Land.",

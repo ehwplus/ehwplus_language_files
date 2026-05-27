@@ -3623,6 +3623,10 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'رقم عداد WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'ستجد رقم عداد المياه WV على الغلاف الداخلي لعداد المياه اللاسلكي الخاص بك أو في رسالة الترحيب أو في البيان السنوي.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'ينقص حسابك عنوان بريد إلكتروني.';
 
   @override

@@ -3656,6 +3656,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV sayaç numarası';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'WV sayaç numarasını telsiz su sayacınızın kapağının iç tarafında veya hoş geldiniz mektubunda ya da yıllık hesap özetinde bulabilirsiniz.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Hesabınızda bir e-posta adresi eksik.';
 
   @override

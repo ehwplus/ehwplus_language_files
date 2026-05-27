@@ -3556,6 +3556,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WVメーター番号';
 
   @override
+  String get wtlAccessRequestMeterIdHint => 'WVメーター番号は、無線水道メーターのカバーの内側、またはウェルカムレターや年間明細書に記載されています。';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'アカウントにメールアドレスがありません。';
 
   @override

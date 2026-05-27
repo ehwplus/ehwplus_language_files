@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "Без указания номера",
   "wtlAccessRequestFailure": "Не удалось создать запрос на доступ.",
   "wtlAccessRequestMeterId": "Номер счетчика WV",
+  "wtlAccessRequestMeterIdHint": "Номер счетчика WV вы найдете на внутренней стороне крышки вашего радиосчетчика воды, в приветственном письме или в ежегодном заявлении.",
   "wtlAccessRequestMissingAccountData": "В вашей учетной записи отсутствует адрес электронной почты.",
   "wtlAccessRequestMissingInput": "Введите номер счетчика WV, состоящий ровно из 6 цифр, и номер вашего клиента.",
   "wtlAccessRequestOnlineOnlyDescription": "Онлайн-запрос на доступ к Wasserverband Tecklenburger Land.",

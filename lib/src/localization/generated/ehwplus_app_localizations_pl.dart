@@ -3673,6 +3673,10 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Numer licznika WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Numer licznika WV znajduje się na wewnętrznej stronie pokrywy wodomierza radiowego, w liście powitalnym lub w rocznym zestawieniu.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Na Twoim koncie brakuje adresu e-mail.';
 
   @override

@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "بدون تخصیص اتاق",
   "wtlAccessRequestFailure": "درخواست دسترسی ایجاد نشد.",
   "wtlAccessRequestMeterId": "شماره کنتور WV",
+  "wtlAccessRequestMeterIdHint": "شما می‌توانید شماره کنتور آب بی‌سیم خود را در داخل درپوش آن، در نامه خوش‌آمدگویی یا در صورتحساب سالانه خود بیابید.",
   "wtlAccessRequestMissingAccountData": "حساب کاربری شما فاقد آدرس ایمیل است.",
   "wtlAccessRequestMissingInput": "لطفاً شماره کنتور WV خود را با ۶ رقم دقیق و شماره مشتری خود را وارد کنید.",
   "wtlAccessRequestOnlineOnlyDescription": "درخواست دسترسی آنلاین برای واتر‌فرباند تکِلن‌برگر لاند.",

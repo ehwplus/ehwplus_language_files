@@ -3655,6 +3655,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'WV-mittarin numero';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Löydät WV-mittarin numeron radiovesimittarisi kannen sisäpuolelta, tervetulokirjeestä tai vuositilinpäätöksestä.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Tililtäsi puuttuu sähköpostiosoite.';
 
   @override

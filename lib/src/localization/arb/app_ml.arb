@@ -1036,6 +1036,7 @@
   "withoutRoomAssignment": "മുറി നൽകാതെ",
   "wtlAccessRequestFailure": "ആക്‌സസ് അഭ്യർത്ഥന ഉണ്ടാക്കാൻ കഴിഞ്ഞില്ല.",
   "wtlAccessRequestMeterId": "ഡബ്ല്യുവി മീറ്റർ നമ്പർ",
+  "wtlAccessRequestMeterIdHint": "നിങ്ങളുടെ വയർലെസ് വാട്ടർ മീറ്ററിന്റെ കവറിന്റെ ഉള്ളിൽ, സ്വാഗത കത്തിൽ അല്ലെങ്കിൽ നിങ്ങളുടെ വാർഷിക സ്റ്റേറ്റ്മെന്റിൽ നിങ്ങളുടെ WV മീറ്റർ നമ്പർ കണ്ടെത്താനാകും.",
   "wtlAccessRequestMissingAccountData": "നിങ്ങളുടെ അക്കൗണ്ടിൽ ഒരു ഇമെയിൽ വിലാസം ഇല്ല.",
   "wtlAccessRequestMissingInput": "ദയവായി നിങ്ങളുടെ WV മീറ്റർ നമ്പർ കൃത്യമായി 6 അക്കങ്ങളോടും നിങ്ങളുടെ കസ്റ്റമർ നമ്പറും നൽകുക.",
   "wtlAccessRequestOnlineOnlyDescription": "വാസ്സർഫെർബാൻഡ് ടെക്ലൻബർഗർ ലാൻഡിനായുള്ള ഓൺലൈൻ ആക്സസ് അഭ്യർത്ഥന.",

@@ -3658,6 +3658,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get wtlAccessRequestMeterId => 'Nambari ya mita ya WV';
 
   @override
+  String get wtlAccessRequestMeterIdHint =>
+      'Unaweza kupata nambari ya mita yako ya maji isiyo na waya (WV) ndani ya kifuniko cha mita yako, katika barua ya kukaribisha au kwenye bili yako ya kila mwaka.';
+
+  @override
   String get wtlAccessRequestMissingAccountData => 'Akaunti yako haina anwani ya barua pepe.';
 
   @override
