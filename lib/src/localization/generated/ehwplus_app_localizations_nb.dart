@@ -3657,14 +3657,12 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Kontoen din mangler en e-postadresse.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Skriv inn en måler-ID med minst 8 tegn og et serviceobjektnummer.';
+  String get wtlAccessRequestMissingInput =>
+      'Vennligst skriv inn WV-målernummeret ditt med nøyaktig 6 siffer og kundenummeret ditt.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Online tilgangsforespørsel for Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Nummer på tjenesteobjektet';
 
   @override
   String get wtlAccessRequestSuccess => 'Tilgangsforespørsel opprettet.';

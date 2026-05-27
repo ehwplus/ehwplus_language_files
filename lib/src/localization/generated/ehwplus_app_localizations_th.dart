@@ -3647,13 +3647,11 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'บัญชีของคุณไม่มีที่อยู่อีเมล';
 
   @override
-  String get wtlAccessRequestMissingInput => 'กรุณากรอกรหัสมิเตอร์ที่มีอย่างน้อย 8 ตัวอักษร และหมายเลขวัตถุบริการ';
+  String get wtlAccessRequestMissingInput =>
+      'กรุณากรอกหมายเลขมิเตอร์ WV ของคุณให้ถูกต้อง 6 หลัก และหมายเลขลูกค้าของคุณ';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'คำขอเข้าถึงออนไลน์สำหรับ Wasserverband Tecklenburger Land';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'หมายเลขวัตถุบริการ';
 
   @override
   String get wtlAccessRequestSuccess => 'คำขอการเข้าถึงถูกสร้างขึ้นแล้ว';

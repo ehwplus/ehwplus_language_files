@@ -3679,13 +3679,10 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Моля, въведете идентификатор на измервателния уред с поне 8 символа и номер на обекта на обслужване.';
+      'Моля, въведете точно 6-цифрения номер на водомера WV и клиентския си номер.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Заявление за онлайн достъп до Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Номер на обекта на услугата';
 
   @override
   String get wtlAccessRequestSuccess => 'Създадена е заявка за достъп.';

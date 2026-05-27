@@ -3684,14 +3684,11 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Будь ласка, введіть ідентифікатор лічильника, що складається щонайменше з 8 символів, та номер об\'єкта обслуговування.';
+      'Будь ласка, введіть номер вашого лічильника WV, що складається з 6 цифр, та номер вашого клієнта.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Запит на отримання онлайн доступу до Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Номер об\'єкта обслуговування';
 
   @override
   String get wtlAccessRequestSuccess => 'Запит на доступ створено.';

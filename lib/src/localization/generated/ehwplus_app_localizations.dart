@@ -6434,7 +6434,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @wtlAccessRequestMissingInput.
   ///
   /// In en, this message translates to:
-  /// **'Please enter a meter ID with at least 8 characters and a service object number.'**
+  /// **'Please enter your WV meter number with exactly 6 digits and your customer number.'**
   String get wtlAccessRequestMissingInput;
 
   /// No description provided for @wtlAccessRequestOnlineOnlyDescription.
@@ -6442,12 +6442,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Online access request for Wasserverband Tecklenburger Land.'**
   String get wtlAccessRequestOnlineOnlyDescription;
-
-  /// No description provided for @wtlAccessRequestServiceObjectNumber.
-  ///
-  /// In en, this message translates to:
-  /// **'Service object number'**
-  String get wtlAccessRequestServiceObjectNumber;
 
   /// No description provided for @wtlAccessRequestSuccess.
   ///

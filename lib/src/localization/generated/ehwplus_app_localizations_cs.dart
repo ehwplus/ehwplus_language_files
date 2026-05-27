@@ -3660,13 +3660,11 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Ve vašem účtu chybí e-mailová adresa.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Zadejte ID měřiče s alespoň 8 znaky a číslo předmětu služby.';
+  String get wtlAccessRequestMissingInput =>
+      'Zadejte prosím své číslo měřiče WV s přesně 6 číslicemi a své zákaznické číslo.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Žádost o přístup online pro Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Číslo předmětu služby';
 
   @override
   String get wtlAccessRequestSuccess => 'Vytvořená žádost o přístup.';

@@ -3653,13 +3653,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Indtast venligst et måler-ID med mindst 8 tegn og et serviceobjektnummer.';
+      'Indtast venligst dit WV-målernummer med præcis 6 cifre og dit kundenummer.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Online adgangsanmodning til Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Nummer på serviceobjekt';
 
   @override
   String get wtlAccessRequestSuccess => 'Adgangsanmodning oprettet.';

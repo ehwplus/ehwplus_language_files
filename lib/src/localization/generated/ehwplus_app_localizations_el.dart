@@ -3691,14 +3691,11 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Εισάγετε ένα αναγνωριστικό μετρητή με τουλάχιστον 8 χαρακτήρες και έναν αριθμό αντικειμένου υπηρεσίας.';
+      'Παρακαλούμε εισάγετε τον αριθμό μετρητή WV με ακριβώς 6 ψηφία και τον αριθμό πελάτη σας.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Ηλεκτρονική αίτηση πρόσβασης για το Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Αριθμός αντικειμένου υπηρεσίας';
 
   @override
   String get wtlAccessRequestSuccess => 'Δημιουργήθηκε αίτηση πρόσβασης.';

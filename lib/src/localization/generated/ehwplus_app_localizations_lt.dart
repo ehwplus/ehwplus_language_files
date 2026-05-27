@@ -3675,14 +3675,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Įveskite skaitiklio ID, kurį sudaro ne mažiau kaip 8 simboliai, ir paslaugos objekto numerį.';
+      'Įveskite savo WV skaitiklio numerį, kuriame yra lygiai 6 skaitmenys, ir savo kliento numerį.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Prašymas suteikti prieigą internetu prie Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Paslaugos objekto numeris';
 
   @override
   String get wtlAccessRequestSuccess => 'Sukurta prieigos užklausa.';

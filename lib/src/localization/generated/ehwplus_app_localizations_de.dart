@@ -3674,14 +3674,11 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Bitte geben Sie eine Zählernummer mit mindestens 8 Zeichen und eine Leistungsobjektnummer ein.';
+      'Bitte geben Sie Ihre WV-Zählernummer mit exakt 6 Ziffern und ihre Kundennummer ein.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Online-Zugriffsanfrage für den Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Leistungsobjektnummer';
 
   @override
   String get wtlAccessRequestSuccess => 'Zugriffsanfrage erstellt.';

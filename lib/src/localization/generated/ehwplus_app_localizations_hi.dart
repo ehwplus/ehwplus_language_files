@@ -3654,13 +3654,10 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'कृपया कम से कम 8 अक्षरों वाला मीटर आईडी और एक सेवा ऑब्जेक्ट नंबर दर्ज करें।';
+      'कृपया अपना WV मीटर नंबर ठीक 6 अंकों के साथ और अपना ग्राहक नंबर दर्ज करें।';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'वासरवेरबैंड टेक्लेनबर्गर लैंड के लिए ऑनलाइन पहुँच अनुरोध।';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'सेवा वस्तु संख्या';
 
   @override
   String get wtlAccessRequestSuccess => 'पहुँच अनुरोध बनाया गया।';

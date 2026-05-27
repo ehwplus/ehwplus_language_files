@@ -3559,13 +3559,10 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'アカウントにメールアドレスがありません。';
 
   @override
-  String get wtlAccessRequestMissingInput => '8文字以上のメーターIDとサービスオブジェクト番号を入力してください。';
+  String get wtlAccessRequestMissingInput => 'WVメーター番号6桁とお客様番号を正確に入力してください。';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Landへのオンライン・アクセスリクエスト。';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'サービス・オブジェクト番号';
 
   @override
   String get wtlAccessRequestSuccess => 'アクセス要求が作成されました。';

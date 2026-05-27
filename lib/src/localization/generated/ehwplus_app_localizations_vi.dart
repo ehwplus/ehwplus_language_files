@@ -3658,14 +3658,12 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Tài khoản của bạn chưa có địa chỉ email.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Vui lòng nhập mã số đồng hồ có ít nhất 8 ký tự và số đối tượng dịch vụ.';
+  String get wtlAccessRequestMissingInput =>
+      'Vui lòng nhập số đồng hồ WV gồm chính xác 6 chữ số và số khách hàng của quý khách.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Yêu cầu truy cập trực tuyến dành cho Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Số đối tượng dịch vụ';
 
   @override
   String get wtlAccessRequestSuccess => 'Yêu cầu truy cập đã được tạo.';

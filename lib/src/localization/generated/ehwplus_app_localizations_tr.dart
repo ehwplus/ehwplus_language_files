@@ -3659,14 +3659,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Hesabınızda bir e-posta adresi eksik.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Lütfen en az 8 karakterli bir sayaç kimliği ve bir hizmet nesnesi numarası girin.';
+  String get wtlAccessRequestMissingInput => 'Lütfen tam 6 haneli WV sayaç numaranızı ve müşteri numaranızı girin.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Land için çevrimiçi erişim talebi.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Hizmet nesne numarası';
 
   @override
   String get wtlAccessRequestSuccess => 'Erişim isteği oluşturuldu.';

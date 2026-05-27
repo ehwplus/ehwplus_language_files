@@ -3528,13 +3528,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => '您的账户缺少一个电子邮件地址。';
 
   @override
-  String get wtlAccessRequestMissingInput => '请输入至少 8 个字符的仪表 ID 和服务对象编号。';
+  String get wtlAccessRequestMissingInput => '请输入 6 位数的西弗吉尼亚州水表编号和客户编号。';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Land 的在线访问请求。';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => '服务对象编号';
 
   @override
   String get wtlAccessRequestSuccess => '已创建访问请求。';

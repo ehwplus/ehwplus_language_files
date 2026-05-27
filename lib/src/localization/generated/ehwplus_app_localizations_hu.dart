@@ -3674,15 +3674,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'A fiókjából hiányzik egy e-mail cím.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Kérjük, adjon meg egy legalább 8 karakteres mérőazonosítót és egy szolgáltatási objektumszámot.';
+  String get wtlAccessRequestMissingInput => 'Kérjük, adja meg pontosan 6 számjegyű WV mérőszámát és ügyfélszámát.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Online hozzáférési kérelem a Wasserverband Tecklenburger Land számára.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Szolgáltatási objektum száma';
 
   @override
   String get wtlAccessRequestSuccess => 'Létrehozott hozzáférési kérelem.';

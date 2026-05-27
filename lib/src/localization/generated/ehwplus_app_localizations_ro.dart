@@ -3675,13 +3675,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Vă rugăm să introduceți un ID contor cu cel puțin 8 caractere și un număr de obiect de serviciu.';
+      'Vă rugăm să introduceți numărul contorului WV cu exact 6 cifre și numărul de client.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Cerere de acces online pentru Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Numărul obiectului serviciului';
 
   @override
   String get wtlAccessRequestSuccess => 'Cerere de acces creată.';

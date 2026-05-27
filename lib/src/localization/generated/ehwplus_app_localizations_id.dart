@@ -3675,13 +3675,11 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Akun Anda tidak memiliki alamat email.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Masukkan ID meteran dengan minimal 8 karakter dan nomor objek layanan.';
+  String get wtlAccessRequestMissingInput =>
+      'Masukkan nomor WV meter Anda dengan tepat 6 digit dan nomor pelanggan Anda.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Permintaan akses online untuk Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Nomor objek layanan';
 
   @override
   String get wtlAccessRequestSuccess => 'Permintaan akses dibuat.';

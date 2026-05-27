@@ -3677,13 +3677,10 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Wprowadź identyfikator licznika składający się z co najmniej 8 znaków i numer obiektu usługi.';
+      'Wprowadź numer licznika WV składający się z dokładnie 6 cyfr oraz numer klienta.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Wniosek o dostęp online do Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Numer obiektu usługi';
 
   @override
   String get wtlAccessRequestSuccess => 'Utworzono żądanie dostępu.';

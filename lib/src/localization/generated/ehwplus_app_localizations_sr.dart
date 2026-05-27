@@ -3669,13 +3669,11 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Вашем налогу недостаје адреса електронске поште.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Молимо унесите ИД мерача са најмање 8 знакова и број објекта услуге.';
+  String get wtlAccessRequestMissingInput =>
+      'Молимо унесите број вашег WV мерача са тачно шест цифара и ваш број купца.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Онлајн захтев за приступ за Водено удружење Текленбургер Ланд.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Број објекта за услугу';
 
   @override
   String get wtlAccessRequestSuccess => 'Захтев за приступ је креиран.';

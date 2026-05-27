@@ -3667,13 +3667,10 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Voer asseblief \'n meter-ID met ten minste 8 karakters en \'n diensobjeknommer in.';
+      'Voer asseblief jou WV-meter nommer met presies ses syfers en jou kliëntnommer in.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Aanlyn toegangversoek vir Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Diensvoorwerpnommer';
 
   @override
   String get wtlAccessRequestSuccess => 'Toegangversoek geskep.';

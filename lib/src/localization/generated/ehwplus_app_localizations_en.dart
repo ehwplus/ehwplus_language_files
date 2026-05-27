@@ -3666,13 +3666,10 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Please enter a meter ID with at least 8 characters and a service object number.';
+      'Please enter your WV meter number with exactly 6 digits and your customer number.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service object number';
 
   @override
   String get wtlAccessRequestSuccess => 'Access request created.';

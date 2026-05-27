@@ -3658,13 +3658,11 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Tililtäsi puuttuu sähköpostiosoite.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Syötä vähintään 8-merkkinen mittarin tunnus ja palvelukohteen numero.';
+  String get wtlAccessRequestMissingInput =>
+      'Kirjoita WV-mittarinumerosi, jossa on tasan 6 numeroa, ja asiakasnumerosi.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Landin verkkopalvelupyyntö.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Palvelukohteen numero';
 
   @override
   String get wtlAccessRequestSuccess => 'Käyttöoikeuspyyntö luotu.';

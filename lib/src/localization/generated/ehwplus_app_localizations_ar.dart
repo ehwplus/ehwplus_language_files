@@ -3626,13 +3626,11 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'ينقص حسابك عنوان بريد إلكتروني.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'يُرجى إدخال معرّف العداد المكون من 8 أحرف على الأقل ورقم كائن الخدمة.';
+  String get wtlAccessRequestMissingInput =>
+      'يرجى إدخال رقم عداد WV الخاص بك المكون من 6 أرقام بالضبط ورقم العميل الخاص بك.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'طلب وصول عبر الإنترنت لـ Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'رقم كائن الخدمة';
 
   @override
   String get wtlAccessRequestSuccess => 'تم إنشاء طلب الوصول.';

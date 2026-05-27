@@ -3673,13 +3673,10 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'Er ontbreekt een e-mailadres in uw account.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Voer een meter-ID van minstens 8 tekens en een serviceobjectnummer in.';
+  String get wtlAccessRequestMissingInput => 'Voer uw WV meternummer met precies 6 cijfers en uw klantnummer in.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Online toegangsaanvraag voor Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Service objectnummer';
 
   @override
   String get wtlAccessRequestSuccess => 'Toegangsverzoek aangemaakt.';

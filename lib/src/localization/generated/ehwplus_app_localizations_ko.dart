@@ -3560,13 +3560,10 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => '계정에 이메일 주소가 누락되었습니다.';
 
   @override
-  String get wtlAccessRequestMissingInput => '8자 이상의 계량기 ID와 서비스 개체 번호를 입력하세요.';
+  String get wtlAccessRequestMissingInput => 'WV 미터기 번호와 고객 번호를 정확히 6자리로 입력하세요.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => '바서버밴드 테클렌부르거 랜드에 대한 온라인 액세스 요청.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => '서비스 개체 번호';
 
   @override
   String get wtlAccessRequestSuccess => '액세스 요청이 생성되었습니다.';

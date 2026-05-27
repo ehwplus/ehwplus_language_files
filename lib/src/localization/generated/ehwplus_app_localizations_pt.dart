@@ -3660,14 +3660,11 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Introduza uma identificação do contador com, pelo menos, 8 caracteres e um número de objeto de serviço.';
+      'Introduza o seu número de contador WV com exatamente 6 dígitos e o seu número de cliente.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Pedido de acesso em linha para Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Número do objeto de serviço';
 
   @override
   String get wtlAccessRequestSuccess => 'Pedido de acesso criado.';

@@ -3651,14 +3651,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Palun sisestage vähemalt 8-kohaline arvesti ID ja teenindusobjekti number.';
+      'Palun sisestage täpselt 6-kohaline WV-arvesti number ja oma kliendinumber.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Veebipõhine juurdepääsutaotlus Wasserverband Tecklenburger Land\'ile.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Teenuse objekti number';
 
   @override
   String get wtlAccessRequestSuccess => 'Juurdepääsutaotlus loodud.';

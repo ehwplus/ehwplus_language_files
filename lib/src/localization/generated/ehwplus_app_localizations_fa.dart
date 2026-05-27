@@ -3640,13 +3640,11 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get wtlAccessRequestMissingAccountData => 'حساب کاربری شما فاقد آدرس ایمیل است.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'لطفاً یک شناسه کنتور با حداقل ۸ کاراکتر و یک شماره شیء سرویس وارد کنید.';
+  String get wtlAccessRequestMissingInput =>
+      'لطفاً شماره کنتور WV خود را با ۶ رقم دقیق و شماره مشتری خود را وارد کنید.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'درخواست دسترسی آنلاین برای واتر‌فرباند تکِلن‌برگر لاند.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'شماره شیء سرویس';
 
   @override
   String get wtlAccessRequestSuccess => 'درخواست دسترسی ایجاد شد.';

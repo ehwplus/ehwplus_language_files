@@ -3674,13 +3674,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'ദയവായി കുറഞ്ഞത് 8 അക്ഷരങ്ങളുള്ള ഒരു മീറ്റർ ഐഡിയും ഒരു സർവീസ് ഒബ്ജക്റ്റ് നമ്പറും നൽകുക.';
+      'ദയവായി നിങ്ങളുടെ WV മീറ്റർ നമ്പർ കൃത്യമായി 6 അക്കങ്ങളോടും നിങ്ങളുടെ കസ്റ്റമർ നമ്പറും നൽകുക.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'വാസ്സർഫെർബാൻഡ് ടെക്ലൻബർഗർ ലാൻഡിനായുള്ള ഓൺലൈൻ ആക്സസ് അഭ്യർത്ഥന.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'സേവന വസ്തു നമ്പർ';
 
   @override
   String get wtlAccessRequestSuccess => 'ആക്‌സസ് അഭ്യർത്ഥന സൃഷ്ടിച്ചു.';

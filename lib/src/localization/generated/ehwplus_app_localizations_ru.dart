@@ -3697,13 +3697,10 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Введите идентификатор счетчика, состоящий не менее чем из 8 символов, и номер объекта обслуживания.';
+      'Введите номер счетчика WV, состоящий ровно из 6 цифр, и номер вашего клиента.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription => 'Онлайн-запрос на доступ к Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Номер объекта обслуживания';
 
   @override
   String get wtlAccessRequestSuccess => 'Запрос на доступ создан.';

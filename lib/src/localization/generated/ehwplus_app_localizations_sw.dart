@@ -3662,14 +3662,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'Tafadhali ingiza kitambulisho cha mita chenye angalau herufi 8 na nambari ya kifaa cha huduma.';
+      'Tafadhali ingiza nambari yako ya mita ya WV yenye tarakimu sita kamili na nambari yako ya mteja.';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Ombi la ufikiaji mtandaoni kwa Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'Nambari ya kitu cha huduma';
 
   @override
   String get wtlAccessRequestSuccess => 'Ombi la ufikiaji limetengenezwa.';

@@ -3669,14 +3669,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestMissingInput =>
-      'မီတာ ID ကို အနည်းဆုံး ၈ အက္ခရာဖြင့် ထည့်သွင်းပြီး ဝန်ဆောင်မှုပစ္စည်းနံပါတ်ကို ထည့်ပါ။';
+      'ကျေးဇူးပြု၍ သင့် WV မီတာနံပါတ်ကို ဂဏန်း ၆ လုံးတိတိဖြင့်နှင့် သင့်ဖောက်သည်နံပါတ်ကို ထည့်ပါ။';
 
   @override
   String get wtlAccessRequestOnlineOnlyDescription =>
       'Wasserverband Tecklenburger Land အွန်လိုင်း ဝင်ရောက်ခွင့် တောင်းဆိုခြင်း။';
-
-  @override
-  String get wtlAccessRequestServiceObjectNumber => 'ဝန်ဆောင်မှုပစ္စည်းနံပါတ်';
 
   @override
   String get wtlAccessRequestSuccess => 'ဝင်ရောက်ကြည့်ရှုခွင့် တောင်းဆိုမှု ဖန်တီးပြီးပါပြီ။';
