@@ -305,162 +305,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Sử dụng API dự báo COMET từ Viện Goethe';
 
   @override
-  String get goetheDataDonationHeader => 'Yêu cầu cung cấp dữ liệu';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Hãy quyết định xem bạn có muốn nhận các yêu cầu dữ liệu hay không, cũng như các loại tổ chức và mục đích nào được phép gửi yêu cầu đó.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Bạn có muốn nhận các yêu cầu cung cấp dữ liệu không?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Nhận yêu cầu dữ liệu';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Tất cả các yêu cầu dữ liệu đều được thực hiện trong khuôn khổ dự án nghiên cứu COMET. Dự án sẽ kết thúc vào cuối tháng 8. Dự kiến sẽ chỉ có một số lượng rất ít yêu cầu dữ liệu (chỉ vài trường hợp). Nếu yêu cầu dữ liệu được chấp nhận, dữ liệu sẽ chỉ được truyền đi một lần. Dữ liệu chuỗi thời gian về mức tiêu thụ hàng ngày của từng đồng hồ đo có thể được chia sẻ.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Ai có thể gửi yêu cầu cung cấp dữ liệu?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Chấp nhận tất cả';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Viện nghiên cứu tư nhân';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Viện nghiên cứu';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Trường đại học';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Công ty tư nhân';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Tổ chức phi lợi nhuận';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Cơ quan nhà nước';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Khác';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Với mục đích gì?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Nghiên cứu';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Phát triển sản phẩm';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Đào tạo trí tuệ nhân tạo';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Tiếp thị cá nhân hóa';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Nghiên cứu thị trường';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Mục đích';
-
-  @override
-  String get goetheDataDonationDisabled => 'Hiện tại, dịch vụ yêu cầu dữ liệu không khả dụng.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Quay lại trang chủ';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Có các yêu cầu dữ liệu mới.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Yêu cầu cung cấp dữ liệu';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Không thể tải các yêu cầu dữ liệu.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Trước tiên, hãy bật tính năng yêu cầu dữ liệu trong phần cài đặt để xem và quản lý các yêu cầu.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Mở cài đặt';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Hiện tại chưa có yêu cầu dữ liệu nào.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Các yêu cầu dữ liệu đang chờ xử lý';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Không có yêu cầu dữ liệu nào đang chờ xử lý.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Các yêu cầu dữ liệu đã được phê duyệt';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Không có yêu cầu dữ liệu nào được chấp thuận.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Yêu cầu dữ liệu bị từ chối';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Không có yêu cầu dữ liệu nào bị từ chối.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Từ chối';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Phê duyệt';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Đánh dấu là đang chờ xử lý';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Đang chuẩn bị các yêu cầu dữ liệu để tải lên.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Gửi yêu cầu tải dữ liệu lên $current của $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Đã tải lên $completed các yêu cầu dữ liệu từ $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Đã tải lên $completed trong số các yêu cầu dữ liệu tại $total, $failed đã thất bại.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Yêu cầu cung cấp dữ liệu';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Quản lý các yêu cầu về dữ liệu nghiên cứu của Goethe';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Yêu cầu dữ liệu';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Dữ liệu được yêu cầu';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Đồng hồ';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Địa chỉ';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Được tạo vào';
-
-  @override
   String get comment => 'Bote';
 
   @override
@@ -1480,6 +1324,162 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Đã tạo';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Chấp nhận tất cả';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Địa chỉ';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Phê duyệt';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Cơ quan nhà nước';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Tổ chức phi lợi nhuận';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Khác';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Công ty tư nhân';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Viện nghiên cứu tư nhân';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Ai có thể gửi yêu cầu cung cấp dữ liệu?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Viện nghiên cứu';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Trường đại học';
+
+  @override
+  String get goetheDataDonationBackHome => 'Quay lại trang chủ';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Có các yêu cầu dữ liệu mới.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Được tạo vào';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Dữ liệu được yêu cầu';
+
+  @override
+  String get goetheDataDonationDisabled => 'Hiện tại, dịch vụ yêu cầu dữ liệu không khả dụng.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Tất cả các yêu cầu dữ liệu đều được thực hiện trong khuôn khổ dự án nghiên cứu COMET. Dự án sẽ kết thúc vào cuối tháng 8. Dự kiến sẽ chỉ có một số lượng rất ít yêu cầu dữ liệu (chỉ vài trường hợp). Nếu yêu cầu dữ liệu được chấp nhận, dữ liệu sẽ chỉ được truyền đi một lần. Dữ liệu chuỗi thời gian về mức tiêu thụ hàng ngày của từng đồng hồ đo có thể được chia sẻ.';
+
+  @override
+  String get goetheDataDonationHeader => 'Yêu cầu cung cấp dữ liệu';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Hãy quyết định xem bạn có muốn nhận các yêu cầu dữ liệu hay không, cũng như các loại tổ chức và mục đích nào được phép gửi yêu cầu đó.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Đồng hồ';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Đào tạo trí tuệ nhân tạo';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Mục đích';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Nghiên cứu thị trường';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Tiếp thị cá nhân hóa';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Phát triển sản phẩm';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Với mục đích gì?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Nghiên cứu';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Bạn có muốn nhận các yêu cầu cung cấp dữ liệu không?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Nhận yêu cầu dữ liệu';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Từ chối';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Yêu cầu dữ liệu';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Không có yêu cầu dữ liệu nào được chấp thuận.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Các yêu cầu dữ liệu đã được phê duyệt';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Hiện tại chưa có yêu cầu dữ liệu nào.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Trước tiên, hãy bật tính năng yêu cầu dữ liệu trong phần cài đặt để xem và quản lý các yêu cầu.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Không thể tải các yêu cầu dữ liệu.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Mở cài đặt';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Không có yêu cầu dữ liệu nào đang chờ xử lý.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Các yêu cầu dữ liệu đang chờ xử lý';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Không có yêu cầu dữ liệu nào bị từ chối.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Yêu cầu dữ liệu bị từ chối';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Yêu cầu cung cấp dữ liệu';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Đánh dấu là đang chờ xử lý';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Quản lý các yêu cầu về dữ liệu nghiên cứu của Goethe';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Yêu cầu cung cấp dữ liệu';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Đã tải lên $completed các yêu cầu dữ liệu từ $total.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Đã tải lên $completed trong số các yêu cầu dữ liệu tại $total, $failed đã thất bại.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Đang chuẩn bị các yêu cầu dữ liệu để tải lên.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Gửi yêu cầu tải dữ liệu lên $current của $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3526,11 +3526,18 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Chúng tôi chưa biết nhà cung cấp nước của bạn. Vui lòng gửi thư cho chúng tôi. Các nhà cung cấp chỉ cung cấp điện và gas sẽ không xuất hiện ở đây.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Yêu cầu truy cập của bạn đã bị từ chối. Bạn có thể xóa đồng hồ này.';
 
   @override
   String get watersupplierAccessRequestPending =>
       'Yêu cầu truy cập của bạn hiện đang được xử lý. Xin vui lòng chờ đợi.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3665,6 +3672,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'Yêu cầu truy cập WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Tiêu thụ hàng năm cho đến nay';

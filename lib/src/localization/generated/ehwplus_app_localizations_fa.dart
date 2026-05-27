@@ -301,162 +301,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'از COMET Forecast API از موسسه گوته استفاده کنید';
 
   @override
-  String get goetheDataDonationHeader => 'درخواست‌های داده';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'تصمیم بگیرید که آیا می‌خواهید درخواست‌های داده‌ای دریافت کنید و کدام نوع سازمان‌ها و برای چه اهدافی مجاز به ارسال این درخواست‌ها هستند.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'آیا مایلید درخواست‌های داده را دریافت کنید؟';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'دریافت درخواست‌های داده';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'تمام درخواست‌های داده‌ای در چارچوب پروژه تحقیقاتی COMET مطرح می‌شوند. این پروژه در پایان ماه اوت به پایان می‌رسد. تنها تعداد اندکی درخواست داده‌ای پیش‌بینی می‌شود. اگر یک درخواست داده پذیرفته شود، داده‌ها فقط یک‌بار منتقل خواهند شد. سری‌های زمانی مصرف روزانه برای هر کنتور قابل اشتراک‌گذاری است.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'چه کسی می‌تواند درخواست‌های داده را ارسال کند؟';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'همه را بپذیرید';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'مؤسسهٔ پژوهشی خصوصی';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'مؤسسهٔ تحقیقاتی';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'دانشگاه';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'شرکت خصوصی';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'سازمان غیرانتفاعی';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'نهاد دولتی';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'سایر';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'برای چه اهدافی؟';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'پژوهش';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'توسعه محصول';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'آموزش هوش مصنوعی';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'بازاریابی شخصی‌سازی‌شده';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'تحقیقات بازار';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'هدف';
-
-  @override
-  String get goetheDataDonationDisabled => 'درخواست‌های داده در حال حاضر در دسترس نیستند.';
-
-  @override
-  String get goetheDataDonationBackHome => 'بازگشت به خانه';
-
-  @override
-  String get goetheDataDonationBannerPending => 'درخواست‌های جدید داده‌ای وجود دارد.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'درخواست‌های داده';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'درخواست‌های داده بارگذاری نشدند.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'ابتدا در تنظیمات درخواست‌های داده را فعال کنید تا بتوانید درخواست‌ها را مشاهده و مدیریت کنید.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'تنظیمات را باز کنید';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'در حال حاضر هیچ درخواست داده‌ای وجود ندارد.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'درخواست‌های داده در انتظار';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'هیچ درخواست داده‌ای در انتظار نیست.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'درخواست‌های داده‌ای تأییدشده';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'درخواست‌های داده‌ای تأیید نشده‌اند.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'درخواست‌های داده‌ای ردشده';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'بدون درخواست داده ردشده.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'رد';
-
-  @override
-  String get goetheDataDonationApproveButton => 'تأیید';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'به‌عنوان در انتظار علامت‌گذاری کنید';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'آماده‌سازی درخواست‌های داده برای بارگذاری.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'بارگذاری داده‌ها به $current از $total نیاز دارد.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'بارگذاری شد $completed از $total درخواست‌های داده.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'بارگذاری $completed از $total درخواست داده، $failed ناموفق بود.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'درخواست‌های داده';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'مدیریت درخواست‌های داده‌های پژوهشی گوته';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'درخواست داده';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'داده‌های درخواستی';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'متر';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'آدرس';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'ایجادشده در';
-
-  @override
   String get comment => 'نظر';
 
   @override
@@ -1472,6 +1316,162 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'تولید شده';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'همه را بپذیرید';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'آدرس';
+
+  @override
+  String get goetheDataDonationApproveButton => 'تأیید';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'نهاد دولتی';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'سازمان غیرانتفاعی';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'سایر';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'شرکت خصوصی';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'مؤسسهٔ پژوهشی خصوصی';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'چه کسی می‌تواند درخواست‌های داده را ارسال کند؟';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'مؤسسهٔ تحقیقاتی';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'دانشگاه';
+
+  @override
+  String get goetheDataDonationBackHome => 'بازگشت به خانه';
+
+  @override
+  String get goetheDataDonationBannerPending => 'درخواست‌های جدید داده‌ای وجود دارد.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'ایجادشده در';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'داده‌های درخواستی';
+
+  @override
+  String get goetheDataDonationDisabled => 'درخواست‌های داده در حال حاضر در دسترس نیستند.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'تمام درخواست‌های داده‌ای در چارچوب پروژه تحقیقاتی COMET مطرح می‌شوند. این پروژه در پایان ماه اوت به پایان می‌رسد. تنها تعداد اندکی درخواست داده‌ای پیش‌بینی می‌شود. اگر یک درخواست داده پذیرفته شود، داده‌ها فقط یک‌بار منتقل خواهند شد. سری‌های زمانی مصرف روزانه برای هر کنتور قابل اشتراک‌گذاری است.';
+
+  @override
+  String get goetheDataDonationHeader => 'درخواست‌های داده';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'تصمیم بگیرید که آیا می‌خواهید درخواست‌های داده‌ای دریافت کنید و کدام نوع سازمان‌ها و برای چه اهدافی مجاز به ارسال این درخواست‌ها هستند.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'متر';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'آموزش هوش مصنوعی';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'هدف';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'تحقیقات بازار';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'بازاریابی شخصی‌سازی‌شده';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'توسعه محصول';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'برای چه اهدافی؟';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'پژوهش';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'آیا مایلید درخواست‌های داده را دریافت کنید؟';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'دریافت درخواست‌های داده';
+
+  @override
+  String get goetheDataDonationRejectButton => 'رد';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'درخواست داده';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'درخواست‌های داده‌ای تأیید نشده‌اند.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'درخواست‌های داده‌ای تأییدشده';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'در حال حاضر هیچ درخواست داده‌ای وجود ندارد.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'ابتدا در تنظیمات درخواست‌های داده را فعال کنید تا بتوانید درخواست‌ها را مشاهده و مدیریت کنید.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'درخواست‌های داده بارگذاری نشدند.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'تنظیمات را باز کنید';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'هیچ درخواست داده‌ای در انتظار نیست.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'درخواست‌های داده در انتظار';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'بدون درخواست داده ردشده.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'درخواست‌های داده‌ای ردشده';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'درخواست‌های داده';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'به‌عنوان در انتظار علامت‌گذاری کنید';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'مدیریت درخواست‌های داده‌های پژوهشی گوته';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'درخواست‌های داده';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'بارگذاری شد $completed از $total درخواست‌های داده.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'بارگذاری $completed از $total درخواست داده، $failed ناموفق بود.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'آماده‌سازی درخواست‌های داده برای بارگذاری.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'بارگذاری داده‌ها به $current از $total نیاز دارد.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3511,10 +3511,17 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'متأسفانه هنوز تأمین‌کنندهٔ آب شما را نمی‌دانیم. لطفاً آزاد باشید که برای ما بنویسید. تأمین‌کنندگانی که فقط برق و گاز ارائه می‌دهند، در اینجا نمایش داده نمی‌شوند.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'درخواست دسترسی شما رد شد.  می‌توانید این کنتور را حذف کنید.';
 
   @override
   String get watersupplierAccessRequestPending => 'درخواست دسترسی شما در حال پردازش است. لطفاً صبور باشید.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3646,6 +3653,13 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'درخواست دسترسی WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'مصرف سالانه تا کنون';

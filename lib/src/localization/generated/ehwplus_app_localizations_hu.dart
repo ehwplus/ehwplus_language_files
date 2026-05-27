@@ -303,162 +303,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'A Goethe Intézet COMET Forecast API-jának használata';
 
   @override
-  String get goetheDataDonationHeader => 'Adatkérések';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Döntse el, hogy kíván-e adatigényléseket fogadni, és milyen szervezetek és milyen célokra kérhetnek adatokat.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Szeretne adatigényléseket kapni?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Adatkérések fogadása';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Minden adatkérés a COMET kutatási projekt keretében történik. A projekt augusztus végén ér véget. Csak kisszámú, egyszámjegyű adatigénylés várható. Ha egy adatigénylést elfogadnak, az adatok csak egyszer kerülnek továbbításra. Az egyes fogyasztásmérők napi fogyasztási idősorai megoszthatók.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Ki nyújthat be adatigénylést?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Elfogadni minden';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Magán kutatóintézet';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Kutatóintézet';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Egyetem';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Magánvállalkozás';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Nonprofit szervezet';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Kormányzati intézmény';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Egyéb';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Milyen célokra?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Kutatás';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Termékfejlesztés';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'AI képzés';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Személyre szabott marketing';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Piackutatás';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Cél';
-
-  @override
-  String get goetheDataDonationDisabled => 'Az adatkérések jelenleg nem érhetők el.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Vissza a főoldalra';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Új adatigénylések vannak.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Adatkérések';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Az adatkéréseket nem sikerült betölteni.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'A kérelmek megtekintéséhez és kezeléséhez először engedélyezze az adatkéréseket a beállításokban.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Beállítások megnyitása';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Jelenleg nincsenek adatigénylések.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Függő adatigénylések';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Nincs függőben lévő adatigénylés.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Jóváhagyott adatigénylések';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Nincs jóváhagyott adatigénylés.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Elutasított adatigénylések';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Nincs elutasított adatigénylés.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Visszautasítani';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Jóváhagyás';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Függőben lévőnek jelölni';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Adatkérések előkészítése feltöltéshez.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Adatlekérdezések feltöltése: $current vagy $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Feltöltve: $completed a $total adatlekérdezései közül.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Feltöltés: $completed a $total adatlekérdezések közül, a $failed nem sikerült.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Adatkérések';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Goethe kutatási adatok iránti kérelmek kezelése';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Adatkérés';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Kért adatok';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Meter';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Cím:';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Létrehozta a';
-
-  @override
   String get comment => 'Megjegyzés';
 
   @override
@@ -1481,6 +1325,162 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Generált';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Elfogadni minden';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Cím:';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Jóváhagyás';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Kormányzati intézmény';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Nonprofit szervezet';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Egyéb';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Magánvállalkozás';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Magán kutatóintézet';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Ki nyújthat be adatigénylést?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Kutatóintézet';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Egyetem';
+
+  @override
+  String get goetheDataDonationBackHome => 'Vissza a főoldalra';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Új adatigénylések vannak.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Létrehozta a';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Kért adatok';
+
+  @override
+  String get goetheDataDonationDisabled => 'Az adatkérések jelenleg nem érhetők el.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Minden adatkérés a COMET kutatási projekt keretében történik. A projekt augusztus végén ér véget. Csak kisszámú, egyszámjegyű adatigénylés várható. Ha egy adatigénylést elfogadnak, az adatok csak egyszer kerülnek továbbításra. Az egyes fogyasztásmérők napi fogyasztási idősorai megoszthatók.';
+
+  @override
+  String get goetheDataDonationHeader => 'Adatkérések';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Döntse el, hogy kíván-e adatigényléseket fogadni, és milyen szervezetek és milyen célokra kérhetnek adatokat.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Meter';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'AI képzés';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Cél';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Piackutatás';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Személyre szabott marketing';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Termékfejlesztés';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Milyen célokra?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Kutatás';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Szeretne adatigényléseket kapni?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Adatkérések fogadása';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Visszautasítani';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Adatkérés';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Nincs jóváhagyott adatigénylés.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Jóváhagyott adatigénylések';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Jelenleg nincsenek adatigénylések.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'A kérelmek megtekintéséhez és kezeléséhez először engedélyezze az adatkéréseket a beállításokban.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Az adatkéréseket nem sikerült betölteni.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Beállítások megnyitása';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Nincs függőben lévő adatigénylés.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Függő adatigénylések';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Nincs elutasított adatigénylés.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Elutasított adatigénylések';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Adatkérések';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Függőben lévőnek jelölni';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Goethe kutatási adatok iránti kérelmek kezelése';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Adatkérések';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Feltöltve: $completed a $total adatlekérdezései közül.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Feltöltés: $completed a $total adatlekérdezések közül, a $failed nem sikerült.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Adatkérések előkészítése feltöltéshez.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Adatlekérdezések feltöltése: $current vagy $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3542,11 +3542,18 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Sajnos még nem ismerjük az Ön vízszolgáltatóját. Kérjük, vegye fel velünk a kapcsolatot. Azok a szolgáltatók, akik csak áramot és gázt kínálnak, nem jelennek meg itt.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Az Ön hozzáférési kérelmét elutasítottuk. Ezt a mérőt törölheti.';
 
   @override
   String get watersupplierAccessRequestPending =>
       'Az Ön hozzáférési kérelme még feldolgozás alatt áll. Kérjük, legyen türelemmel.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3682,6 +3689,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL hozzáférési kérelem';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Eddigi éves fogyasztás';

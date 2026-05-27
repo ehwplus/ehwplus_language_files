@@ -291,160 +291,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => '使用歌德学院的 COMET Forecast API';
 
   @override
-  String get goetheDataDonationHeader => '数据申请';
-
-  @override
-  String get goetheDataDonationIntro => '决定是否要接收数据请求，以及允许哪些类型的组织和目的提出请求。';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => '您希望接收数据请求吗？';
-
-  @override
-  String get goetheDataDonationReceiveToggle => '接收数据请求';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      '所有数据请求均在 COMET 研究项目范围内提出。该项目将于 8 月底结束。预计数据请求数量仅为个位数。如果数据请求被接受，数据将只传输一次。可以共享单个电表的日消耗量时间序列。';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => '谁可以提交数据申请？';
-
-  @override
-  String get goetheDataDonationAcceptAll => '全部接受';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => '私营研究所';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => '研究机构';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => '大学';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => '私营公司';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => '非营利组织';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => '政府机构';
-
-  @override
-  String get goetheDataDonationAudienceOther => '其他';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => '为了什么目的？';
-
-  @override
-  String get goetheDataDonationPurposeResearch => '研究';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => '产品开发';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => '人工智能培训';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => '个性化营销';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => '市场调研';
-
-  @override
-  String get goetheDataDonationPurposeLabel => '目的';
-
-  @override
-  String get goetheDataDonationDisabled => '目前无法提供数据请求。';
-
-  @override
-  String get goetheDataDonationBackHome => '返回首页';
-
-  @override
-  String get goetheDataDonationBannerPending => '有新的数据要求。';
-
-  @override
-  String get goetheDataDonationRequestsTitle => '数据申请';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => '无法加载数据请求。';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint => '首先在设置中启用数据请求，以便查看和管理请求。';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => '打开设置';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => '目前没有数据请求。';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => '待处理的数据请求';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => '没有待处理的数据请求。';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => '批准的数据申请';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => '未批准数据申请。';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => '拒绝的数据请求';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => '没有拒绝的数据请求。';
-
-  @override
-  String get goetheDataDonationRejectButton => '拒绝';
-
-  @override
-  String get goetheDataDonationApproveButton => '批准';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => '标记为待定';
-
-  @override
-  String get goetheDataDonationUploadPreparing => '准备上传数据请求。';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return '上传数据请求 $current 来自 $total。';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return '已上传 $completed，该链接包含 $total 上的数据请求。';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return '已上传 $completed 中的 $total 数据请求，$failed 操作失败。';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => '数据申请';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => '管理歌德研究数据申请';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => '数据申请';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => '要求提供的数据';
-
-  @override
-  String get goetheDataDonationMeterLabel => '仪表';
-
-  @override
-  String get goetheDataDonationAddressLabel => '地址';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => '创建于';
-
-  @override
   String get comment => '博特';
 
   @override
@@ -1441,6 +1287,160 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get generated => '生成';
+
+  @override
+  String get goetheDataDonationAcceptAll => '全部接受';
+
+  @override
+  String get goetheDataDonationAddressLabel => '地址';
+
+  @override
+  String get goetheDataDonationApproveButton => '批准';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => '政府机构';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => '非营利组织';
+
+  @override
+  String get goetheDataDonationAudienceOther => '其他';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => '私营公司';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => '私营研究所';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => '谁可以提交数据申请？';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => '研究机构';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => '大学';
+
+  @override
+  String get goetheDataDonationBackHome => '返回首页';
+
+  @override
+  String get goetheDataDonationBannerPending => '有新的数据要求。';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => '创建于';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => '要求提供的数据';
+
+  @override
+  String get goetheDataDonationDisabled => '目前无法提供数据请求。';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      '所有数据请求均在 COMET 研究项目范围内提出。该项目将于 8 月底结束。预计数据请求数量仅为个位数。如果数据请求被接受，数据将只传输一次。可以共享单个电表的日消耗量时间序列。';
+
+  @override
+  String get goetheDataDonationHeader => '数据申请';
+
+  @override
+  String get goetheDataDonationIntro => '决定是否要接收数据请求，以及允许哪些类型的组织和目的提出请求。';
+
+  @override
+  String get goetheDataDonationMeterLabel => '仪表';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => '人工智能培训';
+
+  @override
+  String get goetheDataDonationPurposeLabel => '目的';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => '市场调研';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => '个性化营销';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => '产品开发';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => '为了什么目的？';
+
+  @override
+  String get goetheDataDonationPurposeResearch => '研究';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => '您希望接收数据请求吗？';
+
+  @override
+  String get goetheDataDonationReceiveToggle => '接收数据请求';
+
+  @override
+  String get goetheDataDonationRejectButton => '拒绝';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => '数据申请';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => '未批准数据申请。';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => '批准的数据申请';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => '目前没有数据请求。';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint => '首先在设置中启用数据请求，以便查看和管理请求。';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => '无法加载数据请求。';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => '打开设置';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => '没有待处理的数据请求。';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => '待处理的数据请求';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => '没有拒绝的数据请求。';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => '拒绝的数据请求';
+
+  @override
+  String get goetheDataDonationRequestsTitle => '数据申请';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => '标记为待定';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => '管理歌德研究数据申请';
+
+  @override
+  String get goetheDataDonationSettingsTitle => '数据申请';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return '已上传 $completed，该链接包含 $total 上的数据请求。';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return '已上传 $completed 中的 $total 数据请求，$failed 操作失败。';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => '准备上传数据请求。';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return '上传数据请求 $current 来自 $total。';
+  }
 
   @override
   String get googleAnalyticsAgreement => '我同意将有关应用程序使用的匿名数据传输给 EHW+ Services GmbH。';
@@ -3413,10 +3413,17 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get waterSupplierUnknown => '很遗憾，我们还不知道您的供水商。请随时写信给我们。仅提供电力和燃气的供应商不在此处显示。';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => '您的访问请求被拒绝。您可以删除此表。';
 
   @override
   String get watersupplierAccessRequestPending => '您的访问请求仍在处理中。请耐心等待。';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 => '您是否是供水公司集水区内房产的所有者，并希望获得无线电水表读数？';
@@ -3534,6 +3541,13 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL 访问请求';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => '至今年消费量';

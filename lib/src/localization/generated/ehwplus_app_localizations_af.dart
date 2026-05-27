@@ -303,162 +303,6 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Gebruik die COMET-voorspelling-API van die Goethe-instituut';
 
   @override
-  String get goetheDataDonationHeader => 'Dataversoeke';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Beskik of u data-versoeke wil ontvang en watter soorte organisasies en doeleindes toegelaat word om dit aan te vra.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Wil u graag dataversoeke ontvang?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Ontvang dataversoeke';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Alle dataversoeke word in die konteks van die COMET-navorsingsprojek gemaak. Die projek eindig aan die einde van Augustus. Daar word slegs \'n klein enkel-syfer aantal dataversoeke verwag. Indien \'n dataversoek aanvaar word, sal die data slegs een keer oorgedra word. Daaglikse verbruiks-tydreekse vir individuele meters kan gedeel word.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Wie mag dataversoeke indien?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Aanvaar alles';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privaat navorsingsinstituut';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Navorsingsinstituut';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Universiteit';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Privaatmaatskappy';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Nie-winsgewende organisasie';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Regeringsinstelling';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Ander';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Vir watter doeleindes?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Navorsing';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Produkontwikkeling';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'KI-opleiding';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Gepersonaliseerde bemarking';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Marknavorsing';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Doel';
-
-  @override
-  String get goetheDataDonationDisabled => 'Dataversoeke is tans nie beskikbaar nie.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Terug huis toe';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Daar is nuwe dataversoeke.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Dataversoeke';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Dataversoeke kon nie gelaai word nie.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Aktiveer eers dataversoeke in die instellings om versoeke te besigtig en te bestuur.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Open instellings';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Daar is tans geen dataversoeke nie.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Wagende dataversoeke';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Geen hangende dataversoeke nie.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Gekeurde dataversoeke';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Geen goedgekeurde dataversoeke nie.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Verwerpte dataversoeke';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Geen geweierde dataversoeke nie.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Verwerp';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Goedkeur';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Merke as hangend';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Bereiding van dataversoeke vir oplaai.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Oplaai van dataversoeke $current van $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return '$completed van $total-dataversoeke opgelaai.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return '$completed van $total-dataversoeke is opgelaai, $failed het misluk.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Dataversoeke';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Bestuur versoeke vir Goethe-navorsingsdata';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Dataversoek';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Aangevraagde data';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Meet';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Adres';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Geskep op';
-
-  @override
   String get comment => 'Nota';
 
   @override
@@ -1475,6 +1319,162 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Gegenereer';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Aanvaar alles';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adres';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Goedkeur';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Regeringsinstelling';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Nie-winsgewende organisasie';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Ander';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Privaatmaatskappy';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privaat navorsingsinstituut';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Wie mag dataversoeke indien?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Navorsingsinstituut';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Universiteit';
+
+  @override
+  String get goetheDataDonationBackHome => 'Terug huis toe';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Daar is nuwe dataversoeke.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Geskep op';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Aangevraagde data';
+
+  @override
+  String get goetheDataDonationDisabled => 'Dataversoeke is tans nie beskikbaar nie.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Alle dataversoeke word in die konteks van die COMET-navorsingsprojek gemaak. Die projek eindig aan die einde van Augustus. Daar word slegs \'n klein enkel-syfer aantal dataversoeke verwag. Indien \'n dataversoek aanvaar word, sal die data slegs een keer oorgedra word. Daaglikse verbruiks-tydreekse vir individuele meters kan gedeel word.';
+
+  @override
+  String get goetheDataDonationHeader => 'Dataversoeke';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Beskik of u data-versoeke wil ontvang en watter soorte organisasies en doeleindes toegelaat word om dit aan te vra.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Meet';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'KI-opleiding';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Doel';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Marknavorsing';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Gepersonaliseerde bemarking';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Produkontwikkeling';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Vir watter doeleindes?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Navorsing';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Wil u graag dataversoeke ontvang?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Ontvang dataversoeke';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Verwerp';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Dataversoek';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Geen goedgekeurde dataversoeke nie.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Gekeurde dataversoeke';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Daar is tans geen dataversoeke nie.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Aktiveer eers dataversoeke in die instellings om versoeke te besigtig en te bestuur.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Dataversoeke kon nie gelaai word nie.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Open instellings';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Geen hangende dataversoeke nie.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Wagende dataversoeke';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Geen geweierde dataversoeke nie.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Verwerpte dataversoeke';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Dataversoeke';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Merke as hangend';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Bestuur versoeke vir Goethe-navorsingsdata';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Dataversoeke';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return '$completed van $total-dataversoeke opgelaai.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return '$completed van $total-dataversoeke is opgelaai, $failed het misluk.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Bereiding van dataversoeke vir oplaai.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Oplaai van dataversoeke $current van $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3535,10 +3535,17 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
       'Ongelukkig weet ons nog nie wie jou waterverskaffer is nie. Voel asseblief vry om aan ons te skryf. Verskaffers wat slegs elektrisiteit en gas aanbied, verskyn nie hier nie.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'U toegangversoek is geweier. U kan hierdie meter verwyder.';
 
   @override
   String get watersupplierAccessRequestPending => 'U toegangversoek word nog verwerk. Wees asseblief geduldig.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3673,6 +3680,13 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL-toegangsversoek';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Jaarlikse verbruik tot dusver';

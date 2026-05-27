@@ -300,161 +300,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'ใช้ COMET Forecast API จากสถาบันเกอเธ่';
 
   @override
-  String get goetheDataDonationHeader => 'คำขอข้อมูล';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'ตัดสินใจว่าคุณต้องการรับคำขอข้อมูลหรือไม่ และองค์กรประเภทใดรวมถึงวัตถุประสงค์ใดที่ได้รับอนุญาตให้ขอข้อมูลเหล่านั้น';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'คุณต้องการรับคำขอข้อมูลหรือไม่?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'รับคำขอข้อมูล';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'การขอข้อมูลทั้งหมดจะดำเนินการภายใต้บริบทของโครงการวิจัย COMET โครงการจะสิ้นสุดลงในช่วงสิ้นเดือนสิงหาคม คาดว่าจะมีจำนวนคำขอข้อมูลเพียงเล็กน้อยเท่านั้น หากคำขอข้อมูลได้รับการอนุมัติ ข้อมูลจะถูกส่งเพียงครั้งเดียวเท่านั้น สามารถแบ่งปันข้อมูลอนุกรมเวลาการบริโภครายวันสำหรับมิเตอร์แต่ละตัวได้';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'ใครสามารถยื่นคำขอข้อมูลได้บ้าง?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'ยอมรับทั้งหมด';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'สถาบันวิจัยเอกชน';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'สถาบันวิจัย';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'มหาวิทยาลัย';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'บริษัทเอกชน';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'องค์กรไม่แสวงหาผลกำไร';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'สถาบันของรัฐ';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'อื่นๆ';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'เพื่อวัตถุประสงค์ใด?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'การวิจัย';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'การพัฒนาผลิตภัณฑ์';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'การฝึกอบรมปัญญาประดิษฐ์';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'การตลาดแบบเฉพาะบุคคล';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'การวิจัยตลาด';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'วัตถุประสงค์';
-
-  @override
-  String get goetheDataDonationDisabled => 'ขณะนี้คำขอข้อมูลไม่สามารถให้บริการได้';
-
-  @override
-  String get goetheDataDonationBackHome => 'กลับบ้าน';
-
-  @override
-  String get goetheDataDonationBannerPending => 'มีการร้องขอข้อมูลใหม่';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'คำขอข้อมูล';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'ไม่สามารถโหลดคำขอข้อมูลได้';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint => 'เปิดใช้งานคำขอข้อมูลในตั้งค่าก่อนเพื่อดูและจัดการคำขอ';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'เปิดการตั้งค่า';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'ขณะนี้ไม่มีคำขอข้อมูล';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'คำขอข้อมูลที่รอดำเนินการ';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'ไม่มีคำขอข้อมูลที่รอดำเนินการ';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'คำขอข้อมูลที่ได้รับการอนุมัติ';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'ไม่มีการขออนุญาตข้อมูลที่ได้รับการอนุมัติ';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'คำขอข้อมูลที่ถูกปฏิเสธ';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'ไม่มีคำขอข้อมูลที่ถูกปฏิเสธ';
-
-  @override
-  String get goetheDataDonationRejectButton => 'ปฏิเสธ';
-
-  @override
-  String get goetheDataDonationApproveButton => 'อนุมัติ';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'ทำเครื่องหมายว่ารอดำเนินการ';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'เตรียมคำขอข้อมูลสำหรับการอัปโหลด';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'กำลังอัปโหลดคำขอข้อมูล $current ของ $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'อัปโหลดข้อมูลคำขอ$completed ของ $total แล้ว';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'อัปโหลดข้อมูลคำขอ $completed จาก $total จำนวน $failed ไม่สำเร็จ';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'คำขอข้อมูล';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'จัดการคำขอข้อมูลการวิจัยของเกอเธ่';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'คำขอข้อมูล';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'ข้อมูลที่ร้องขอ';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'มิเตอร์';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'ที่อยู่';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'สร้างเมื่อ';
-
-  @override
   String get comment => 'โบเต้';
 
   @override
@@ -1470,6 +1315,161 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'สร้างขึ้น';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'ยอมรับทั้งหมด';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'ที่อยู่';
+
+  @override
+  String get goetheDataDonationApproveButton => 'อนุมัติ';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'สถาบันของรัฐ';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'องค์กรไม่แสวงหาผลกำไร';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'อื่นๆ';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'บริษัทเอกชน';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'สถาบันวิจัยเอกชน';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'ใครสามารถยื่นคำขอข้อมูลได้บ้าง?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'สถาบันวิจัย';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'มหาวิทยาลัย';
+
+  @override
+  String get goetheDataDonationBackHome => 'กลับบ้าน';
+
+  @override
+  String get goetheDataDonationBannerPending => 'มีการร้องขอข้อมูลใหม่';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'สร้างเมื่อ';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'ข้อมูลที่ร้องขอ';
+
+  @override
+  String get goetheDataDonationDisabled => 'ขณะนี้คำขอข้อมูลไม่สามารถให้บริการได้';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'การขอข้อมูลทั้งหมดจะดำเนินการภายใต้บริบทของโครงการวิจัย COMET โครงการจะสิ้นสุดลงในช่วงสิ้นเดือนสิงหาคม คาดว่าจะมีจำนวนคำขอข้อมูลเพียงเล็กน้อยเท่านั้น หากคำขอข้อมูลได้รับการอนุมัติ ข้อมูลจะถูกส่งเพียงครั้งเดียวเท่านั้น สามารถแบ่งปันข้อมูลอนุกรมเวลาการบริโภครายวันสำหรับมิเตอร์แต่ละตัวได้';
+
+  @override
+  String get goetheDataDonationHeader => 'คำขอข้อมูล';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'ตัดสินใจว่าคุณต้องการรับคำขอข้อมูลหรือไม่ และองค์กรประเภทใดรวมถึงวัตถุประสงค์ใดที่ได้รับอนุญาตให้ขอข้อมูลเหล่านั้น';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'มิเตอร์';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'การฝึกอบรมปัญญาประดิษฐ์';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'วัตถุประสงค์';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'การวิจัยตลาด';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'การตลาดแบบเฉพาะบุคคล';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'การพัฒนาผลิตภัณฑ์';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'เพื่อวัตถุประสงค์ใด?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'การวิจัย';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'คุณต้องการรับคำขอข้อมูลหรือไม่?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'รับคำขอข้อมูล';
+
+  @override
+  String get goetheDataDonationRejectButton => 'ปฏิเสธ';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'คำขอข้อมูล';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'ไม่มีการขออนุญาตข้อมูลที่ได้รับการอนุมัติ';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'คำขอข้อมูลที่ได้รับการอนุมัติ';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'ขณะนี้ไม่มีคำขอข้อมูล';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint => 'เปิดใช้งานคำขอข้อมูลในตั้งค่าก่อนเพื่อดูและจัดการคำขอ';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'ไม่สามารถโหลดคำขอข้อมูลได้';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'เปิดการตั้งค่า';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'ไม่มีคำขอข้อมูลที่รอดำเนินการ';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'คำขอข้อมูลที่รอดำเนินการ';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'ไม่มีคำขอข้อมูลที่ถูกปฏิเสธ';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'คำขอข้อมูลที่ถูกปฏิเสธ';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'คำขอข้อมูล';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'ทำเครื่องหมายว่ารอดำเนินการ';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'จัดการคำขอข้อมูลการวิจัยของเกอเธ่';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'คำขอข้อมูล';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'อัปโหลดข้อมูลคำขอ$completed ของ $total แล้ว';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'อัปโหลดข้อมูลคำขอ $completed จาก $total จำนวน $failed ไม่สำเร็จ';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'เตรียมคำขอข้อมูลสำหรับการอัปโหลด';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'กำลังอัปโหลดคำขอข้อมูล $current ของ $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3519,10 +3519,17 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ขออภัย ขณะนี้เรายังไม่ทราบผู้ให้บริการน้ำประปาของคุณ กรุณาเขียนถึงเราได้เลย ผู้ให้บริการที่เสนอเฉพาะไฟฟ้าและแก๊สจะไม่ปรากฏที่นี่';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'คำขอเข้าถึงของคุณถูกปฏิเสธ คุณสามารถลบมิเตอร์นี้ได้';
 
   @override
   String get watersupplierAccessRequestPending => 'คำขอเข้าถึงของคุณกำลังอยู่ระหว่างการดำเนินการ กรุณาอดใจรอสักครู่';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3653,6 +3660,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'คำขอเข้าถึง WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'การบริโภคประจำปีจนถึงปัจจุบัน';

@@ -303,162 +303,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Goethe Enstitüsü\'nün COMET Tahmin API\'sini kullanın';
 
   @override
-  String get goetheDataDonationHeader => 'Veri talepleri';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Veri taleplerini almak isteyip istemediğinize ve hangi tür kuruluşların ve amaçların bunları talep etmesine izin verildiğine karar verin.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Veri taleplerini almak ister misiniz?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Veri taleplerini alma';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Tüm veri talepleri COMET araştırma projesi kapsamında yapılmaktadır. Proje Ağustos sonunda sona erecektir. Sadece tek haneli küçük bir sayıda veri talebi beklenmektedir. Bir veri talebi kabul edilirse, veriler yalnızca bir kez iletilecektir. Bireysel sayaçlar için günlük tüketim zaman serileri paylaşılabilir.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Veri taleplerini kimler iletebilir?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Tümünü kabul et';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Özel araştırma enstitüsü';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Araştırma Enstitüsü';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Üniversite';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Özel şirket';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Kar amacı gütmeyen kuruluş';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Devlet kurumu';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Diğer';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Hangi amaçlar için?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Araştırma';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Ürün geliştirme';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Yapay zeka eğitimi';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Kişiselleştirilmiş pazarlama';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Pazar araştırması';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Amaç';
-
-  @override
-  String get goetheDataDonationDisabled => 'Veri taleplerine şu anda ulaşılamamaktadır.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Eve dönüş';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Yeni veri talepleri var.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Veri talepleri';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Veri istekleri yüklenemedi.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Talepleri görüntülemek ve yönetmek için önce ayarlardan veri taleplerini etkinleştirin.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Açık ayarlar';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Şu anda herhangi bir veri talebi bulunmamaktadır.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Bekleyen veri talepleri';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Bekleyen veri talebi yok.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Onaylanmış veri talepleri';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Onaylanmış veri talebi yok.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Reddedilen veri talepleri';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Reddedilen veri talebi yok.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Reddet';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Onaylamak';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Beklemede olarak işaretle';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Yükleme için veri taleplerinin hazırlanması.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Veri isteklerini $current adresine veya $total adresine gönderin.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return '$total\'daki veri taleplerinin $completed adresine yüklendi.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return '$total adresindeki veri taleplerinin $completed adresine yüklenmesi sırasında, $failed adresinde hata oluştu.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Veri talepleri';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Goethe araştırma veri taleplerini yönetin';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Veri talebi';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Talep edilen veriler';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Metre';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Adres';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Üzerinde oluşturuldu';
-
-  @override
   String get comment => 'Bote';
 
   @override
@@ -1479,6 +1323,162 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Oluşturuldu';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Tümünü kabul et';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adres';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Onaylamak';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Devlet kurumu';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Kar amacı gütmeyen kuruluş';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Diğer';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Özel şirket';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Özel araştırma enstitüsü';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Veri taleplerini kimler iletebilir?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Araştırma Enstitüsü';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Üniversite';
+
+  @override
+  String get goetheDataDonationBackHome => 'Eve dönüş';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Yeni veri talepleri var.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Üzerinde oluşturuldu';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Talep edilen veriler';
+
+  @override
+  String get goetheDataDonationDisabled => 'Veri taleplerine şu anda ulaşılamamaktadır.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Tüm veri talepleri COMET araştırma projesi kapsamında yapılmaktadır. Proje Ağustos sonunda sona erecektir. Sadece tek haneli küçük bir sayıda veri talebi beklenmektedir. Bir veri talebi kabul edilirse, veriler yalnızca bir kez iletilecektir. Bireysel sayaçlar için günlük tüketim zaman serileri paylaşılabilir.';
+
+  @override
+  String get goetheDataDonationHeader => 'Veri talepleri';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Veri taleplerini almak isteyip istemediğinize ve hangi tür kuruluşların ve amaçların bunları talep etmesine izin verildiğine karar verin.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Metre';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Yapay zeka eğitimi';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Amaç';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Pazar araştırması';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Kişiselleştirilmiş pazarlama';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Ürün geliştirme';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Hangi amaçlar için?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Araştırma';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Veri taleplerini almak ister misiniz?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Veri taleplerini alma';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Reddet';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Veri talebi';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Onaylanmış veri talebi yok.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Onaylanmış veri talepleri';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Şu anda herhangi bir veri talebi bulunmamaktadır.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Talepleri görüntülemek ve yönetmek için önce ayarlardan veri taleplerini etkinleştirin.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Veri istekleri yüklenemedi.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Açık ayarlar';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Bekleyen veri talebi yok.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Bekleyen veri talepleri';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Reddedilen veri talebi yok.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Reddedilen veri talepleri';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Veri talepleri';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Beklemede olarak işaretle';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Goethe araştırma veri taleplerini yönetin';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Veri talepleri';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return '$total\'daki veri taleplerinin $completed adresine yüklendi.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return '$total adresindeki veri taleplerinin $completed adresine yüklenmesi sırasında, $failed adresinde hata oluştu.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Yükleme için veri taleplerinin hazırlanması.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Veri isteklerini $current adresine veya $total adresine gönderin.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3529,10 +3529,17 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Ne yazık ki su tedarikçinizi henüz bilmiyoruz. Lütfen bize yazmaktan çekinmeyin. Sadece elektrik ve gaz sunan tedarikçiler burada görünmemektedir.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Erişim talebiniz reddedildi. Bu sayacı silebilirsiniz.';
 
   @override
   String get watersupplierAccessRequestPending => 'Erişim talebiniz hala işleme alınmaktadır. Lütfen sabırlı olun.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3666,6 +3673,13 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL erişim talebi';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Şu ana kadar yıllık tüketim';

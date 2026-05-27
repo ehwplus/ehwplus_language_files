@@ -302,162 +302,6 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Koristi COMET Forecast API Goethe instituta';
 
   @override
-  String get goetheDataDonationHeader => 'Zahtjevi za podatke';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Odlučite želite li primati zahtjeve za podatke i koje vrste organizacija i u koje svrhe smiju ih tražiti.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Želite li primati zahtjeve za podatke?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Primati zahtjeve za podatke';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Svi zahtjevi za podatke podnose se u kontekstu istraživačkog projekta COMET. Projekt završava krajem kolovoza. Očekuje se samo mali jednocifreni broj zahtjeva za podatke. Ako se zahtjev za podatke prihvati, podaci će biti preneseni samo jednom. Mogu se podijeliti dnevne vremenske serije potrošnje za pojedinačna brojila.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Tko može podnijeti zahtjeve za podatke?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Prihvati sve';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privatni istraživački institut';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Istraživački institut';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Sveučilište';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Privatna tvrtka';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Neprofitna organizacija';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Vladina institucija';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Ostalo';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'U koje svrhe?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Istraživanje';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Razvoj proizvoda';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Obuka umjetne inteligencije';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalizirani marketing';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Istraživanje tržišta';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Svrha';
-
-  @override
-  String get goetheDataDonationDisabled => 'Zahtjevi za podatke trenutno nisu dostupni.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Povratak na početnu stranicu';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Postoje novi zahtjevi za podatke.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Zahtjevi za podatke';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Zahtjevi za podatke nisu mogli biti učitani.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Prvo omogućite zahtjeve za podatke u postavkama kako biste pregledali i upravljali zahtjevima.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Otvori postavke';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Trenutno nema zahtjeva za podatke.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Čekaju se zahtjevi za podatke';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Nema neriješenih zahtjeva za podatke.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Odobreni zahtjevi za podatke';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Nema odobrenih zahtjeva za podatke.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Odbijeni zahtjevi za podatke';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Nema odbijenih zahtjeva za podatke.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Odbaci';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Odobriti';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Označi kao čekajuće';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Priprema zahtjeva za podatke za učitavanje.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Postavljanje podataka zahtijeva $current od $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Učitano $completed od $total zahtjeva za podatke.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Učitano $completed od $total zahtjeva za podatke, $failed nije uspjelo.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Zahtjevi za podatke';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Upravljanje zahtjevima za podatke o Goetheovim istraživanjima';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Zahtjev za podatke';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Zatraženi podaci';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Mjerilo';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Adresa';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Stvoreno';
-
-  @override
   String get comment => 'Glasnik';
 
   @override
@@ -1477,6 +1321,162 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Generirano';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Prihvati sve';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adresa';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Odobriti';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Vladina institucija';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Neprofitna organizacija';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Ostalo';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Privatna tvrtka';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privatni istraživački institut';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Tko može podnijeti zahtjeve za podatke?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Istraživački institut';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Sveučilište';
+
+  @override
+  String get goetheDataDonationBackHome => 'Povratak na početnu stranicu';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Postoje novi zahtjevi za podatke.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Stvoreno';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Zatraženi podaci';
+
+  @override
+  String get goetheDataDonationDisabled => 'Zahtjevi za podatke trenutno nisu dostupni.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Svi zahtjevi za podatke podnose se u kontekstu istraživačkog projekta COMET. Projekt završava krajem kolovoza. Očekuje se samo mali jednocifreni broj zahtjeva za podatke. Ako se zahtjev za podatke prihvati, podaci će biti preneseni samo jednom. Mogu se podijeliti dnevne vremenske serije potrošnje za pojedinačna brojila.';
+
+  @override
+  String get goetheDataDonationHeader => 'Zahtjevi za podatke';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Odlučite želite li primati zahtjeve za podatke i koje vrste organizacija i u koje svrhe smiju ih tražiti.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Mjerilo';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Obuka umjetne inteligencije';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Svrha';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Istraživanje tržišta';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalizirani marketing';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Razvoj proizvoda';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'U koje svrhe?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Istraživanje';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Želite li primati zahtjeve za podatke?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Primati zahtjeve za podatke';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Odbaci';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Zahtjev za podatke';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Nema odobrenih zahtjeva za podatke.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Odobreni zahtjevi za podatke';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Trenutno nema zahtjeva za podatke.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Prvo omogućite zahtjeve za podatke u postavkama kako biste pregledali i upravljali zahtjevima.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Zahtjevi za podatke nisu mogli biti učitani.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Otvori postavke';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Nema neriješenih zahtjeva za podatke.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Čekaju se zahtjevi za podatke';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Nema odbijenih zahtjeva za podatke.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Odbijeni zahtjevi za podatke';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Zahtjevi za podatke';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Označi kao čekajuće';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Upravljanje zahtjevima za podatke o Goetheovim istraživanjima';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Zahtjevi za podatke';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Učitano $completed od $total zahtjeva za podatke.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Učitano $completed od $total zahtjeva za podatke, $failed nije uspjelo.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Priprema zahtjeva za podatke za učitavanje.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Postavljanje podataka zahtijeva $current od $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3534,10 +3534,17 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
       'Nažalost, još ne znamo tko vam je dobavljač vode. Slobodno nam pišite. Pružatelji usluga koji nude samo električnu energiju i plin ovdje se ne prikazuju.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Vaš zahtjev za pristup je odbijen. Možete izbrisati ovaj brojilac.';
 
   @override
   String get watersupplierAccessRequestPending => 'Vaš zahtjev za pristup se još obrađuje. Molimo budite strpljivi.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3672,6 +3679,13 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'Zahtjev za pristup WTL-u';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Dosadašnja godišnja potrošnja';

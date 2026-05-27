@@ -302,162 +302,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'गोएथे इंस्टीट्यूट से COMET पूर्वानुमान एपीआई का उपयोग करें';
 
   @override
-  String get goetheDataDonationHeader => 'डेटा अनुरोध';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'निर्णय करें कि आप डेटा अनुरोध प्राप्त करना चाहते हैं या नहीं, और किन प्रकार के संगठनों तथा किन उद्देश्यों के लिए उन्हें अनुरोध करने की अनुमति है।';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'क्या आप डेटा अनुरोध प्राप्त करना चाहेंगे?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'डेटा अनुरोध प्राप्त करें';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'सभी डेटा अनुरोध COMET अनुसंधान परियोजना के संदर्भ में किए जाते हैं। परियोजना अगस्त के अंत में समाप्त हो जाती है। केवल एक छोटी एकल-अंकीय संख्या में डेटा अनुरोधों की उम्मीद है। यदि कोई डेटा अनुरोध स्वीकार किया जाता है, तो डेटा केवल एक बार प्रेषित किया जाएगा। व्यक्तिगत मीटरों के लिए दैनिक खपत समय श्रृंखला साझा की जा सकती है।';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'डेटा अनुरोध कौन कर सकता है?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'सभी स्वीकार करें';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'निजी अनुसंधान संस्थान';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'अनुसंधान संस्थान';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'विश्वविद्यालय';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'निजी कंपनी';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'गैर-लाभकारी संगठन';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'सरकारी संस्था';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'अन्य';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'किस-किस उद्देश्यों के लिए?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'अनुसंधान';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'उत्पाद विकास';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'एआई प्रशिक्षण';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'व्यक्तिगत विपणन';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'बाजार अनुसंधान';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'उद्देश्य';
-
-  @override
-  String get goetheDataDonationDisabled => 'डेटा अनुरोध वर्तमान में उपलब्ध नहीं हैं।';
-
-  @override
-  String get goetheDataDonationBackHome => 'होम पर वापस';
-
-  @override
-  String get goetheDataDonationBannerPending => 'नए डेटा अनुरोध हैं।';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'डेटा अनुरोध';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'डेटा अनुरोध लोड नहीं हो सके।';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'अनुरोधों को देखने और प्रबंधित करने के लिए पहले सेटिंग्स में डेटा अनुरोधों को सक्षम करें।';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'सेटिंग्स खोलें';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'वर्तमान में कोई डेटा अनुरोध नहीं हैं।';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'लंबित डेटा अनुरोध';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'कोई लंबित डेटा अनुरोध नहीं हैं।';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'अनुमोदित डेटा अनुरोध';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'कोई अनुमोदित डेटा अनुरोध नहीं।';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'अस्वीकृत डेटा अनुरोध';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'कोई अस्वीकृत डेटा अनुरोध नहीं।';
-
-  @override
-  String get goetheDataDonationRejectButton => 'अस्वीकार करें';
-
-  @override
-  String get goetheDataDonationApproveButton => 'अनुमोदित करें';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'लंबित के रूप में चिह्नित करें';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'अपलोड के लिए डेटा अनुरोध तैयार करना।';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'डेटा अपलोड अनुरोध $current के $total।';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return '$total डेटा अनुरोधों में से $completed अपलोड किए गए।';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return '$total डेटा अनुरोधों में से $completed अपलोड हुए, $failed असफल रहा।';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'डेटा अनुरोध';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'गोएथे अनुसंधान डेटा अनुरोधों का प्रबंधन करें';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'डेटा अनुरोध';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'अनुरोधित डेटा';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'मापक';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'पता';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'पर बनाया गया';
-
-  @override
   String get comment => 'बोटे';
 
   @override
@@ -1477,6 +1321,162 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'जनरेट किया गया';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'सभी स्वीकार करें';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'पता';
+
+  @override
+  String get goetheDataDonationApproveButton => 'अनुमोदित करें';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'सरकारी संस्था';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'गैर-लाभकारी संगठन';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'अन्य';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'निजी कंपनी';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'निजी अनुसंधान संस्थान';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'डेटा अनुरोध कौन कर सकता है?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'अनुसंधान संस्थान';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'विश्वविद्यालय';
+
+  @override
+  String get goetheDataDonationBackHome => 'होम पर वापस';
+
+  @override
+  String get goetheDataDonationBannerPending => 'नए डेटा अनुरोध हैं।';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'पर बनाया गया';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'अनुरोधित डेटा';
+
+  @override
+  String get goetheDataDonationDisabled => 'डेटा अनुरोध वर्तमान में उपलब्ध नहीं हैं।';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'सभी डेटा अनुरोध COMET अनुसंधान परियोजना के संदर्भ में किए जाते हैं। परियोजना अगस्त के अंत में समाप्त हो जाती है। केवल एक छोटी एकल-अंकीय संख्या में डेटा अनुरोधों की उम्मीद है। यदि कोई डेटा अनुरोध स्वीकार किया जाता है, तो डेटा केवल एक बार प्रेषित किया जाएगा। व्यक्तिगत मीटरों के लिए दैनिक खपत समय श्रृंखला साझा की जा सकती है।';
+
+  @override
+  String get goetheDataDonationHeader => 'डेटा अनुरोध';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'निर्णय करें कि आप डेटा अनुरोध प्राप्त करना चाहते हैं या नहीं, और किन प्रकार के संगठनों तथा किन उद्देश्यों के लिए उन्हें अनुरोध करने की अनुमति है।';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'मापक';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'एआई प्रशिक्षण';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'उद्देश्य';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'बाजार अनुसंधान';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'व्यक्तिगत विपणन';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'उत्पाद विकास';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'किस-किस उद्देश्यों के लिए?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'अनुसंधान';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'क्या आप डेटा अनुरोध प्राप्त करना चाहेंगे?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'डेटा अनुरोध प्राप्त करें';
+
+  @override
+  String get goetheDataDonationRejectButton => 'अस्वीकार करें';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'डेटा अनुरोध';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'कोई अनुमोदित डेटा अनुरोध नहीं।';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'अनुमोदित डेटा अनुरोध';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'वर्तमान में कोई डेटा अनुरोध नहीं हैं।';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'अनुरोधों को देखने और प्रबंधित करने के लिए पहले सेटिंग्स में डेटा अनुरोधों को सक्षम करें।';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'डेटा अनुरोध लोड नहीं हो सके।';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'सेटिंग्स खोलें';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'कोई लंबित डेटा अनुरोध नहीं हैं।';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'लंबित डेटा अनुरोध';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'कोई अस्वीकृत डेटा अनुरोध नहीं।';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'अस्वीकृत डेटा अनुरोध';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'डेटा अनुरोध';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'लंबित के रूप में चिह्नित करें';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'गोएथे अनुसंधान डेटा अनुरोधों का प्रबंधन करें';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'डेटा अनुरोध';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return '$total डेटा अनुरोधों में से $completed अपलोड किए गए।';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return '$total डेटा अनुरोधों में से $completed अपलोड हुए, $failed असफल रहा।';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'अपलोड के लिए डेटा अनुरोध तैयार करना।';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'डेटा अपलोड अनुरोध $current के $total।';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3520,10 +3520,17 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'दुर्भाग्यवश, हमें अभी तक आपके जल आपूर्तिकर्ता का पता नहीं है। कृपया बेझिझक हमें लिखें। केवल बिजली और गैस प्रदान करने वाले प्रदाता यहाँ नहीं दिखते।';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'आपकी पहुँच अनुरोध अस्वीकार कर दिया गया। आप इस मीटर को हटा सकते हैं।';
 
   @override
   String get watersupplierAccessRequestPending => 'आपका एक्सेस अनुरोध अभी भी संसाधित हो रहा है। कृपया धैर्य रखें।';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3660,6 +3667,13 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL पहुँच अनुरोध';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'अब तक की वार्षिक खपत';

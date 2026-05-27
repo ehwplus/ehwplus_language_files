@@ -305,162 +305,6 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Gunakan API Prakiraan Komet dari Goethe Institute';
 
   @override
-  String get goetheDataDonationHeader => 'Permintaan data';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Tentukan apakah Anda ingin menerima permintaan data dan jenis organisasi serta tujuan apa saja yang diizinkan untuk memintanya.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Apakah Anda ingin menerima permintaan data?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Menerima permintaan data';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Semua permintaan data dibuat dalam konteks proyek penelitian COMET. Proyek ini akan berakhir pada akhir Agustus. Diperkirakan hanya ada sedikit permintaan data dalam satu digit. Jika permintaan data diterima, data hanya akan dikirimkan sekali. Rangkaian waktu konsumsi harian untuk masing-masing meter dapat dibagikan.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Siapa yang dapat mengajukan permintaan data?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Terima semua';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Lembaga penelitian swasta';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Lembaga penelitian';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Universitas';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Perusahaan swasta';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Organisasi nirlaba';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Institusi pemerintah';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Lainnya';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Untuk tujuan apa?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Penelitian';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Pengembangan produk';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Pelatihan AI';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Pemasaran yang dipersonalisasi';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Riset pasar';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Tujuan';
-
-  @override
-  String get goetheDataDonationDisabled => 'Permintaan data saat ini tidak tersedia.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Kembali ke rumah';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Ada permintaan data baru.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Permintaan data';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Permintaan data tidak dapat dimuat.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Aktifkan permintaan data di pengaturan terlebih dahulu untuk melihat dan mengelola permintaan.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Buka pengaturan';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Saat ini tidak ada permintaan data.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Permintaan data yang tertunda';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Tidak ada permintaan data yang tertunda.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Permintaan data yang disetujui';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Tidak ada permintaan data yang disetujui.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Permintaan data yang ditolak';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Tidak ada permintaan data yang ditolak.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Menolak';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Menyetujui';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Tandai sebagai tertunda';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Mempersiapkan permintaan data untuk diunggah.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Mengirimkan permintaan data ke $current di $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Telah diunggah $completed dari permintaan data $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Telah mengunggah $completed dari permintaan data $total, $failed gagal.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Permintaan data';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Mengelola permintaan data penelitian Goethe';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Permintaan data';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Data yang diminta';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Meteran';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Alamat';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Dibuat pada';
-
-  @override
   String get comment => 'Catatan';
 
   @override
@@ -1481,6 +1325,162 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Dihasilkan';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Terima semua';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Alamat';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Menyetujui';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Institusi pemerintah';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Organisasi nirlaba';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Lainnya';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Perusahaan swasta';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Lembaga penelitian swasta';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Siapa yang dapat mengajukan permintaan data?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Lembaga penelitian';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Universitas';
+
+  @override
+  String get goetheDataDonationBackHome => 'Kembali ke rumah';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Ada permintaan data baru.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Dibuat pada';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Data yang diminta';
+
+  @override
+  String get goetheDataDonationDisabled => 'Permintaan data saat ini tidak tersedia.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Semua permintaan data dibuat dalam konteks proyek penelitian COMET. Proyek ini akan berakhir pada akhir Agustus. Diperkirakan hanya ada sedikit permintaan data dalam satu digit. Jika permintaan data diterima, data hanya akan dikirimkan sekali. Rangkaian waktu konsumsi harian untuk masing-masing meter dapat dibagikan.';
+
+  @override
+  String get goetheDataDonationHeader => 'Permintaan data';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Tentukan apakah Anda ingin menerima permintaan data dan jenis organisasi serta tujuan apa saja yang diizinkan untuk memintanya.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Meteran';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Pelatihan AI';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Tujuan';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Riset pasar';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Pemasaran yang dipersonalisasi';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Pengembangan produk';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Untuk tujuan apa?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Penelitian';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Apakah Anda ingin menerima permintaan data?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Menerima permintaan data';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Menolak';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Permintaan data';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Tidak ada permintaan data yang disetujui.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Permintaan data yang disetujui';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Saat ini tidak ada permintaan data.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Aktifkan permintaan data di pengaturan terlebih dahulu untuk melihat dan mengelola permintaan.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Permintaan data tidak dapat dimuat.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Buka pengaturan';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Tidak ada permintaan data yang tertunda.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Permintaan data yang tertunda';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Tidak ada permintaan data yang ditolak.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Permintaan data yang ditolak';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Permintaan data';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Tandai sebagai tertunda';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Mengelola permintaan data penelitian Goethe';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Permintaan data';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Telah diunggah $completed dari permintaan data $total.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Telah mengunggah $completed dari permintaan data $total, $failed gagal.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Mempersiapkan permintaan data untuk diunggah.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Mengirimkan permintaan data ke $current di $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3545,10 +3545,17 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
       'Sayangnya, kami belum mengetahui pemasok air Anda. Jangan ragu untuk menghubungi kami. Pemasok yang hanya menawarkan listrik dan gas tidak muncul di sini.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Permintaan akses Anda ditolak. Anda dapat menghapus pengukur ini.';
 
   @override
   String get watersupplierAccessRequestPending => 'Permintaan akses Anda masih dalam proses. Mohon bersabar.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3681,6 +3688,13 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'Permintaan akses WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Konsumsi tahunan sejauh ini';

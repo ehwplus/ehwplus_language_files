@@ -302,162 +302,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Käytä Goethe-instituutin COMET Forecast APIa';
 
   @override
-  String get goetheDataDonationHeader => 'Tietopyynnöt';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Päätä, haluatko vastaanottaa tietopyyntöjä ja minkälaiset organisaatiot ja tarkoitukset saavat pyytää niitä.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Haluatko vastaanottaa tietopyyntöjä?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Vastaanottaa tietopyyntöjä';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Kaikki tietopyynnöt tehdään COMET-tutkimushankkeen yhteydessä. Hanke päättyy elokuun lopussa. Tietopyyntöjä on odotettavissa vain pieni yksinumeroinen määrä. Jos tietopyyntö hyväksytään, tiedot toimitetaan vain kerran. Yksittäisten mittareiden päivittäiset kulutusaikasarjat voidaan jakaa.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Kuka voi esittää tietopyyntöjä?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Hyväksy kaikki';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Yksityinen tutkimuslaitos';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Tutkimuslaitos';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Yliopisto';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Yksityinen yritys';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Voittoa tavoittelematon organisaatio';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Valtion laitos';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Muut';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Mihin tarkoituksiin?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Tutkimus';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Tuotekehitys';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Tekoälykoulutus';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Henkilökohtainen markkinointi';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Markkinatutkimus';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Käyttötarkoitus';
-
-  @override
-  String get goetheDataDonationDisabled => 'Tietopyynnöt eivät ole tällä hetkellä käytettävissä.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Takaisin kotiin';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Uusia tietopyyntöjä on tullut.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Tietopyynnöt';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Tietopyyntöjä ei voitu ladata.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Ota tietopyynnöt ensin käyttöön asetuksissa, jotta voit tarkastella ja hallita pyyntöjä.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Avaa asetukset';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Tällä hetkellä ei ole tietopyyntöjä.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Vireillä olevat tietopyynnöt';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Ei vireillä olevia tietopyyntöjä.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Hyväksytyt tietopyynnöt';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Ei hyväksyttyjä tietopyyntöjä.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Hylätyt tietopyynnöt';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Ei hylättyjä tietopyyntöjä.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Hylkää';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Hyväksy';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Merkitse odottavaksi';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Tietopyyntöjen valmistelu lataamista varten.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Tietopyyntöjen lähettäminen osoitteeseen $current tai $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Lähetetty $completed, joka sisältää $total-sivuston tietopyynnöt.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Lähetetty $completed, joka sisältää $total-tietopyynnöt, mutta $failed epäonnistui.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Tietopyynnöt';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Goethe-tutkimustietopyyntöjen hallinnointi';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Tietopyyntö';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Pyydetyt tiedot';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Mittari';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Osoite';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Luotu';
-
-  @override
   String get comment => 'Bote';
 
   @override
@@ -1475,6 +1319,162 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Tuotettu';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Hyväksy kaikki';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Osoite';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Hyväksy';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Valtion laitos';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Voittoa tavoittelematon organisaatio';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Muut';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Yksityinen yritys';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Yksityinen tutkimuslaitos';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Kuka voi esittää tietopyyntöjä?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Tutkimuslaitos';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Yliopisto';
+
+  @override
+  String get goetheDataDonationBackHome => 'Takaisin kotiin';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Uusia tietopyyntöjä on tullut.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Luotu';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Pyydetyt tiedot';
+
+  @override
+  String get goetheDataDonationDisabled => 'Tietopyynnöt eivät ole tällä hetkellä käytettävissä.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Kaikki tietopyynnöt tehdään COMET-tutkimushankkeen yhteydessä. Hanke päättyy elokuun lopussa. Tietopyyntöjä on odotettavissa vain pieni yksinumeroinen määrä. Jos tietopyyntö hyväksytään, tiedot toimitetaan vain kerran. Yksittäisten mittareiden päivittäiset kulutusaikasarjat voidaan jakaa.';
+
+  @override
+  String get goetheDataDonationHeader => 'Tietopyynnöt';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Päätä, haluatko vastaanottaa tietopyyntöjä ja minkälaiset organisaatiot ja tarkoitukset saavat pyytää niitä.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Mittari';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Tekoälykoulutus';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Käyttötarkoitus';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Markkinatutkimus';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Henkilökohtainen markkinointi';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Tuotekehitys';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Mihin tarkoituksiin?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Tutkimus';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Haluatko vastaanottaa tietopyyntöjä?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Vastaanottaa tietopyyntöjä';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Hylkää';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Tietopyyntö';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Ei hyväksyttyjä tietopyyntöjä.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Hyväksytyt tietopyynnöt';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Tällä hetkellä ei ole tietopyyntöjä.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Ota tietopyynnöt ensin käyttöön asetuksissa, jotta voit tarkastella ja hallita pyyntöjä.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Tietopyyntöjä ei voitu ladata.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Avaa asetukset';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Ei vireillä olevia tietopyyntöjä.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Vireillä olevat tietopyynnöt';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Ei hylättyjä tietopyyntöjä.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Hylätyt tietopyynnöt';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Tietopyynnöt';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Merkitse odottavaksi';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Goethe-tutkimustietopyyntöjen hallinnointi';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Tietopyynnöt';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Lähetetty $completed, joka sisältää $total-sivuston tietopyynnöt.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Lähetetty $completed, joka sisältää $total-tietopyynnöt, mutta $failed epäonnistui.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Tietopyyntöjen valmistelu lataamista varten.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Tietopyyntöjen lähettäminen osoitteeseen $current tai $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3528,10 +3528,17 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Valitettavasti emme vielä tiedä veden toimittajaa. Voit vapaasti kirjoittaa meille. Toimittajat, jotka tarjoavat vain sähköä ja kaasua, eivät näy tässä.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Pääsypyyntösi hylättiin. Voit poistaa tämän mittarin.';
 
   @override
   String get watersupplierAccessRequestPending => 'Pyyntöäsi käsitellään edelleen. Ole kärsivällinen.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3664,6 +3671,13 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL:n käyttöoikeuspyyntö';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Vuosikulutus tähän mennessä';

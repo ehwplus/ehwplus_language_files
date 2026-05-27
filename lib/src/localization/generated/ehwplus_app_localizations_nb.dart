@@ -301,162 +301,6 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Bruk COMET Forecast API fra Goethe Institute';
 
   @override
-  String get goetheDataDonationHeader => 'Forespørsler om data';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Bestem deg for om du ønsker å motta forespørsler om data, og hvilke organisasjoner og formål som har lov til å be om dem.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Ønsker du å motta forespørsler om data?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Motta dataforespørsler';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Alle dataforespørsler gjøres i forbindelse med forskningsprosjektet COMET. Prosjektet avsluttes i slutten av august. Det forventes kun et lite ensifret antall dataforespørsler. Hvis en dataforespørsel aksepteres, vil data bare bli overført én gang. Tidsserier for daglig forbruk for individuelle målere kan deles.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Hvem kan sende inn forespørsler om data?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Godta alle';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privat forskningsinstitutt';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Forskningsinstitutt';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Universitet';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Privat selskap';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Ideell organisasjon';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Statlig institusjon';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Annet';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Til hvilke formål?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Forskning';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Produktutvikling';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'AI-trening';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Personlig tilpasset markedsføring';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Markedsundersøkelser';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Formål';
-
-  @override
-  String get goetheDataDonationDisabled => 'Dataforespørsler er for øyeblikket ikke tilgjengelige.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Tilbake til startsiden';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Det er nye forespørsler om data.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Forespørsler om data';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Dataforespørsler kunne ikke lastes inn.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Aktiver dataforespørsler i innstillingene først for å vise og administrere forespørsler.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Åpne innstillinger';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Det er for øyeblikket ingen forespørsler om data.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Ventende dataforespørsler';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Ingen ventende dataforespørsler.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Godkjente dataforespørsler';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Ingen godkjente dataforespørsler.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Avviste dataforespørsler';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Ingen avviste dataforespørsler.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Avvis';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Godkjenne';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Merk som ventende';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Forbereder dataforespørsler for opplasting.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Forespørsler om dataoverføring sendes til $current eller $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Lastet opp $completed av $total dataforespørsler.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Lastet opp $completed av $total dataforespørsler, $failed mislyktes.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Forespørsler om data';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Håndtere forespørsler om forskningsdata fra Goethe';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Forespørsel om data';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Etterspurte data';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Meter';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Adresse';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Opprettet den';
-
-  @override
   String get comment => 'Bote';
 
   @override
@@ -1475,6 +1319,162 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Generert';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Godta alle';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adresse';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Godkjenne';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Statlig institusjon';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Ideell organisasjon';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Annet';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Privat selskap';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privat forskningsinstitutt';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Hvem kan sende inn forespørsler om data?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Forskningsinstitutt';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Universitet';
+
+  @override
+  String get goetheDataDonationBackHome => 'Tilbake til startsiden';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Det er nye forespørsler om data.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Opprettet den';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Etterspurte data';
+
+  @override
+  String get goetheDataDonationDisabled => 'Dataforespørsler er for øyeblikket ikke tilgjengelige.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Alle dataforespørsler gjøres i forbindelse med forskningsprosjektet COMET. Prosjektet avsluttes i slutten av august. Det forventes kun et lite ensifret antall dataforespørsler. Hvis en dataforespørsel aksepteres, vil data bare bli overført én gang. Tidsserier for daglig forbruk for individuelle målere kan deles.';
+
+  @override
+  String get goetheDataDonationHeader => 'Forespørsler om data';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Bestem deg for om du ønsker å motta forespørsler om data, og hvilke organisasjoner og formål som har lov til å be om dem.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Meter';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'AI-trening';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Formål';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Markedsundersøkelser';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personlig tilpasset markedsføring';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Produktutvikling';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Til hvilke formål?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Forskning';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Ønsker du å motta forespørsler om data?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Motta dataforespørsler';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Avvis';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Forespørsel om data';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Ingen godkjente dataforespørsler.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Godkjente dataforespørsler';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Det er for øyeblikket ingen forespørsler om data.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Aktiver dataforespørsler i innstillingene først for å vise og administrere forespørsler.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Dataforespørsler kunne ikke lastes inn.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Åpne innstillinger';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Ingen ventende dataforespørsler.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Ventende dataforespørsler';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Ingen avviste dataforespørsler.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Avviste dataforespørsler';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Forespørsler om data';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Merk som ventende';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Håndtere forespørsler om forskningsdata fra Goethe';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Forespørsler om data';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Lastet opp $completed av $total dataforespørsler.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Lastet opp $completed av $total dataforespørsler, $failed mislyktes.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Forbereder dataforespørsler for opplasting.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Forespørsler om dataoverføring sendes til $current eller $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3526,11 +3526,18 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
       'Vi vet dessverre ikke hvilken vannleverandør du har. Du er velkommen til å skrive til oss. Leverandører som kun tilbyr strøm og gass, vises ikke her.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Tilgangsforespørselen din ble avvist. Du kan slette denne måleren.';
 
   @override
   String get watersupplierAccessRequestPending =>
       'Innsynsbegjæringen din er fortsatt under behandling. Vennligst vær tålmodig.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3664,6 +3671,13 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL tilgangsforespørsel';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Årlig forbruk så langt';

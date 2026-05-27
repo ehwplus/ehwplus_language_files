@@ -301,162 +301,6 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Usar a API de previsão COMET do Instituto Goethe';
 
   @override
-  String get goetheDataDonationHeader => 'Pedidos de dados';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Decida se pretende receber pedidos de dados e que tipos de organizações e finalidades estão autorizadas a pedi-los.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Deseja receber pedidos de dados?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Receber pedidos de dados';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Todos os pedidos de dados são feitos no âmbito do projeto de investigação COMET. O projeto termina no final de agosto. Prevê-se apenas um pequeno número de pedidos de dados com um único dígito. Se um pedido de dados for aceite, os dados serão transmitidos apenas uma vez. Podem ser partilhadas séries cronológicas de consumo diário de contadores individuais.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Quem pode apresentar pedidos de dados?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Aceitar tudo';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Instituto de investigação privado';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Instituto de investigação';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Universidade';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Empresa privada';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Organização sem fins lucrativos';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Instituição governamental';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Outros';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Para que fins?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Investigação';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Desenvolvimento de produtos';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Formação em IA';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Marketing personalizado';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Estudos de mercado';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Objetivo';
-
-  @override
-  String get goetheDataDonationDisabled => 'Os pedidos de dados estão atualmente indisponíveis.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Voltar ao início';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Há novos pedidos de dados.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Pedidos de dados';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Não foi possível carregar os pedidos de dados.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Ativar os pedidos de dados nas definições primeiro para ver e gerir os pedidos.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Abrir definições';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Atualmente, não existem pedidos de dados.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Pedidos de dados pendentes';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Não há pedidos de dados pendentes.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Pedidos de dados aprovados';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Não há pedidos de dados aprovados.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Pedidos de dados rejeitados';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Nenhum pedido de dados rejeitado.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Rejeitar';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Aprovar';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Marcar como pendente';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Preparação de pedidos de dados para carregamento.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Envio de pedidos de dados $current de $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Carregados $completed de $total pedidos de dados.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Carregados $completed de $total pedidos de dados; $failed falhou.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Pedidos de dados';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Gerir os pedidos de dados de investigação do Goethe';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Pedido de dados';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Dados solicitados';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Contador';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Endereço';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Criado em';
-
-  @override
   String get comment => 'Bota';
 
   @override
@@ -1476,6 +1320,162 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Gerada';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Aceitar tudo';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Endereço';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Aprovar';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Instituição governamental';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Organização sem fins lucrativos';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Outros';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Empresa privada';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Instituto de investigação privado';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Quem pode apresentar pedidos de dados?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Instituto de investigação';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Universidade';
+
+  @override
+  String get goetheDataDonationBackHome => 'Voltar ao início';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Há novos pedidos de dados.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Criado em';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Dados solicitados';
+
+  @override
+  String get goetheDataDonationDisabled => 'Os pedidos de dados estão atualmente indisponíveis.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Todos os pedidos de dados são feitos no âmbito do projeto de investigação COMET. O projeto termina no final de agosto. Prevê-se apenas um pequeno número de pedidos de dados com um único dígito. Se um pedido de dados for aceite, os dados serão transmitidos apenas uma vez. Podem ser partilhadas séries cronológicas de consumo diário de contadores individuais.';
+
+  @override
+  String get goetheDataDonationHeader => 'Pedidos de dados';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Decida se pretende receber pedidos de dados e que tipos de organizações e finalidades estão autorizadas a pedi-los.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Contador';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Formação em IA';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Objetivo';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Estudos de mercado';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Marketing personalizado';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Desenvolvimento de produtos';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Para que fins?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Investigação';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Deseja receber pedidos de dados?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Receber pedidos de dados';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Rejeitar';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Pedido de dados';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Não há pedidos de dados aprovados.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Pedidos de dados aprovados';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Atualmente, não existem pedidos de dados.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Ativar os pedidos de dados nas definições primeiro para ver e gerir os pedidos.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Não foi possível carregar os pedidos de dados.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Abrir definições';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Não há pedidos de dados pendentes.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Pedidos de dados pendentes';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Nenhum pedido de dados rejeitado.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Pedidos de dados rejeitados';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Pedidos de dados';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Marcar como pendente';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Gerir os pedidos de dados de investigação do Goethe';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Pedidos de dados';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Carregados $completed de $total pedidos de dados.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Carregados $completed de $total pedidos de dados; $failed falhou.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Preparação de pedidos de dados para carregamento.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Envio de pedidos de dados $current de $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3527,11 +3527,18 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
       'Infelizmente, ainda não sabemos qual é o seu fornecedor de água. Não hesite em contactar-nos. Os fornecedores que apenas oferecem eletricidade e gás não aparecem aqui.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'O seu pedido de acesso foi recusado. Pode apagar este contador.';
 
   @override
   String get watersupplierAccessRequestPending =>
       'O seu pedido de acesso ainda está a ser processado. Por favor, seja paciente.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3667,6 +3674,13 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'Pedido de acesso ao WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Consumo anual até à data';

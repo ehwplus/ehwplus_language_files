@@ -300,162 +300,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Použijte rozhraní COMET Forecast API od Goethe Institute';
 
   @override
-  String get goetheDataDonationHeader => 'Žádosti o data';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Rozhodněte se, zda chcete přijímat žádosti o údaje a jaké organizace a pro jaké účely je mohou požadovat.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Chcete dostávat žádosti o data?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Přijímání žádostí o data';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Všechny žádosti o údaje jsou podávány v rámci výzkumného projektu COMET. Projekt končí na konci srpna. Očekává se pouze malý jednociferný počet žádostí o údaje. Pokud bude žádost o údaje přijata, budou údaje předány pouze jednou. Časové řady denní spotřeby pro jednotlivá měřidla mohou být sdíleny.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Kdo může podávat žádosti o údaje?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Přijmout všechny';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Soukromý výzkumný ústav';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Výzkumný ústav';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Univerzita';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Soukromá společnost';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Nezisková organizace';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Vládní instituce';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Další';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Pro jaké účely?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Výzkum';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Vývoj produktu';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Školení AI';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalizovaný marketing';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Průzkum trhu';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Účel';
-
-  @override
-  String get goetheDataDonationDisabled => 'Žádosti o data nejsou v současné době k dispozici.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Zpět na úvod';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Objevují se nové žádosti o údaje.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Žádosti o data';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Požadavky na data nebylo možné načíst.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Chcete-li zobrazit a spravovat žádosti, povolte nejprve v nastavení žádosti o data.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Otevřít nastavení';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'V současné době nejsou k dispozici žádné žádosti o údaje.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Nevyřízené žádosti o údaje';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Žádné nevyřízené žádosti o údaje.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Schválené žádosti o údaje';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Žádné schválené žádosti o údaje.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Zamítnuté žádosti o údaje';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Žádné zamítnuté žádosti o údaje.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Odmítnout';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Schválit';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Označit jako čekající';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Příprava žádostí o data k odeslání.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Žádosti o nahrání dat zasílejte na adresu $current nebo $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Nahráno $completed z $total žádostí o data.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Nahráno $completed z $total žádostí o data, $failed se nezdařilo.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Žádosti o data';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Správa žádostí o údaje z výzkumu Goethe';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Žádost o data';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Požadované údaje';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Měřič';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Adresa';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Vytvořeno dne';
-
-  @override
   String get comment => 'Bote';
 
   @override
@@ -1475,6 +1319,162 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Vygenerováno';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Přijmout všechny';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adresa';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Schválit';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Vládní instituce';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Nezisková organizace';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Další';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Soukromá společnost';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Soukromý výzkumný ústav';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Kdo může podávat žádosti o údaje?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Výzkumný ústav';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Univerzita';
+
+  @override
+  String get goetheDataDonationBackHome => 'Zpět na úvod';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Objevují se nové žádosti o údaje.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Vytvořeno dne';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Požadované údaje';
+
+  @override
+  String get goetheDataDonationDisabled => 'Žádosti o data nejsou v současné době k dispozici.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Všechny žádosti o údaje jsou podávány v rámci výzkumného projektu COMET. Projekt končí na konci srpna. Očekává se pouze malý jednociferný počet žádostí o údaje. Pokud bude žádost o údaje přijata, budou údaje předány pouze jednou. Časové řady denní spotřeby pro jednotlivá měřidla mohou být sdíleny.';
+
+  @override
+  String get goetheDataDonationHeader => 'Žádosti o data';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Rozhodněte se, zda chcete přijímat žádosti o údaje a jaké organizace a pro jaké účely je mohou požadovat.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Měřič';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Školení AI';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Účel';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Průzkum trhu';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalizovaný marketing';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Vývoj produktu';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Pro jaké účely?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Výzkum';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Chcete dostávat žádosti o data?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Přijímání žádostí o data';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Odmítnout';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Žádost o data';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Žádné schválené žádosti o údaje.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Schválené žádosti o údaje';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'V současné době nejsou k dispozici žádné žádosti o údaje.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Chcete-li zobrazit a spravovat žádosti, povolte nejprve v nastavení žádosti o data.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Požadavky na data nebylo možné načíst.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Otevřít nastavení';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Žádné nevyřízené žádosti o údaje.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Nevyřízené žádosti o údaje';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Žádné zamítnuté žádosti o údaje.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Zamítnuté žádosti o údaje';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Žádosti o data';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Označit jako čekající';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Správa žádostí o údaje z výzkumu Goethe';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Žádosti o data';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Nahráno $completed z $total žádostí o data.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Nahráno $completed z $total žádostí o data, $failed se nezdařilo.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Příprava žádostí o data k odeslání.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Žádosti o nahrání dat zasílejte na adresu $current nebo $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3531,10 +3531,17 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Bohužel zatím neznáme vašeho dodavatele vody. Neváhejte nám napsat. Dodavatelé, kteří nabízejí pouze elektřinu a plyn, se zde nezobrazují.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Vaše žádost o přístup byla zamítnuta. Tento měřič můžete smazat.';
 
   @override
   String get watersupplierAccessRequestPending => 'Vaše žádost o přístup se stále zpracovává. Buďte prosím trpěliví.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3666,6 +3673,13 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'Žádost o přístup WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Roční spotřeba zatím';

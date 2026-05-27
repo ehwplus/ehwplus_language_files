@@ -303,162 +303,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Utilizați API-ul de prognoză COMET de la Institutul Goethe';
 
   @override
-  String get goetheDataDonationHeader => 'Solicitări de date';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Decideți dacă doriți să primiți solicitări de date și ce tipuri de organizații și scopuri au dreptul să le solicite.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Doriți să primiți solicitări de date?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Primiți cereri de date';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Toate cererile de date sunt făcute în contextul proiectului de cercetare COMET. Proiectul se încheie la sfârșitul lunii august. Se așteaptă doar un număr mic de cereri de date, cu o singură cifră. Dacă o cerere de date este acceptată, datele vor fi transmise o singură dată. Seriile cronologice de consum zilnic pentru contoare individuale pot fi partajate.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Cine poate depune cereri de date?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Acceptați toate';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Institut de cercetare privat';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Institut de cercetare';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Universitatea';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Companie privată';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Organizație nonprofit';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Instituție guvernamentală';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Altele';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'În ce scopuri?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Cercetare';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Dezvoltarea produsului';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Formare AI';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Marketing personalizat';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Cercetare de piață';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Scop';
-
-  @override
-  String get goetheDataDonationDisabled => 'Cererile de date nu sunt disponibile în prezent.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Înapoi la început';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Există noi cereri de date.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Solicitări de date';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Cererile de date nu au putut fi încărcate.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Activați mai întâi cererile de date în setări pentru a vizualiza și gestiona cererile.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Deschideți setările';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'În prezent nu există solicitări de date.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Cereri de date în așteptare';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Nu există cereri de date în curs.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Solicitări de date aprobate';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Nu există cereri de date aprobate.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Solicitări de date respinse';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Nu există cereri de date respinse.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Respingeți';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Aprobă';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Marcați ca fiind în așteptare';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Pregătirea cererilor de date pentru încărcare.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Trimiterea cererilor de date la adresa $current sau $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Am încărcat $completed din $total cereri de date.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'S-au încărcat $completed din $total cereri de date, $failed a eșuat.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Solicitări de date';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Gestionarea cererilor de date de cercetare Goethe';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Cerere de date';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Date solicitate';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Contor';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Adresă';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Creat pe';
-
-  @override
   String get comment => 'Notă';
 
   @override
@@ -1480,6 +1324,162 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Generate';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Acceptați toate';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adresă';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Aprobă';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Instituție guvernamentală';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Organizație nonprofit';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Altele';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Companie privată';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Institut de cercetare privat';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Cine poate depune cereri de date?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Institut de cercetare';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Universitatea';
+
+  @override
+  String get goetheDataDonationBackHome => 'Înapoi la început';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Există noi cereri de date.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Creat pe';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Date solicitate';
+
+  @override
+  String get goetheDataDonationDisabled => 'Cererile de date nu sunt disponibile în prezent.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Toate cererile de date sunt făcute în contextul proiectului de cercetare COMET. Proiectul se încheie la sfârșitul lunii august. Se așteaptă doar un număr mic de cereri de date, cu o singură cifră. Dacă o cerere de date este acceptată, datele vor fi transmise o singură dată. Seriile cronologice de consum zilnic pentru contoare individuale pot fi partajate.';
+
+  @override
+  String get goetheDataDonationHeader => 'Solicitări de date';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Decideți dacă doriți să primiți solicitări de date și ce tipuri de organizații și scopuri au dreptul să le solicite.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Contor';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Formare AI';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Scop';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Cercetare de piață';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Marketing personalizat';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Dezvoltarea produsului';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'În ce scopuri?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Cercetare';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Doriți să primiți solicitări de date?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Primiți cereri de date';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Respingeți';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Cerere de date';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Nu există cereri de date aprobate.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Solicitări de date aprobate';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'În prezent nu există solicitări de date.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Activați mai întâi cererile de date în setări pentru a vizualiza și gestiona cererile.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Cererile de date nu au putut fi încărcate.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Deschideți setările';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Nu există cereri de date în curs.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Cereri de date în așteptare';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Nu există cereri de date respinse.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Solicitări de date respinse';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Solicitări de date';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Marcați ca fiind în așteptare';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Gestionarea cererilor de date de cercetare Goethe';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Solicitări de date';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Am încărcat $completed din $total cereri de date.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'S-au încărcat $completed din $total cereri de date, $failed a eșuat.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Pregătirea cererilor de date pentru încărcare.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Trimiterea cererilor de date la adresa $current sau $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3541,11 +3541,18 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Din păcate, nu cunoaștem încă furnizorul dumneavoastră de apă. Vă rugăm să nu ezitați să ne contactați. Furnizorii care oferă doar electricitate și gaz nu apar aici.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Cererea dvs. de acces a fost refuzată. Puteți șterge acest contor.';
 
   @override
   String get watersupplierAccessRequestPending =>
       'Cererea dvs. de acces este încă în curs de procesare. Vă rugăm să aveți răbdare.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3681,6 +3688,13 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'Cerere de acces WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Consumul anual până în prezent';

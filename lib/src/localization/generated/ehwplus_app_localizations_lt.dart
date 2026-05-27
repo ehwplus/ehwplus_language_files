@@ -302,162 +302,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Naudokite Gėtės instituto COMET Forecast API';
 
   @override
-  String get goetheDataDonationHeader => 'Duomenų užklausos';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Nuspręskite, ar norite gauti duomenų užklausas ir kokioms organizacijoms bei kokiais tikslais leidžiama jų prašyti.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Ar norite gauti duomenų užklausas?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Gauti duomenų užklausas';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Visos duomenų užklausos teikiamos atsižvelgiant į COMET mokslinių tyrimų projektą. Projektas baigiasi rugpjūčio pabaigoje. Tikimasi sulaukti tik nedidelio vienženklio duomenų prašymų skaičiaus. Jei duomenų prašymas priimamas, duomenys bus perduodami tik vieną kartą. Gali būti dalijamasi atskirų skaitiklių paros suvartojimo laiko eilutėmis.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Kas gali teikti duomenų prašymus?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Priimti visus';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privatus mokslinių tyrimų institutas';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Mokslinių tyrimų institutas';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Universitetas';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Privati įmonė';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Ne pelno siekianti organizacija';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Vyriausybinė institucija';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Kita';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Kokiais tikslais?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Moksliniai tyrimai';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Produkto kūrimas';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'AI mokymas';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalizuota rinkodara';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Rinkos tyrimai';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Tikslas';
-
-  @override
-  String get goetheDataDonationDisabled => 'Duomenų užklausos šiuo metu neteikiamos.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Grįžti namo';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Pateikta naujų duomenų užklausų.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Duomenų užklausos';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Duomenų užklausų nepavyko įkelti.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Pirmiausia nustatymuose įjunkite duomenų užklausas, kad galėtumėte peržiūrėti ir tvarkyti užklausas.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Atidaryti nustatymus';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Šiuo metu duomenų užklausų nėra.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Neišnagrinėti duomenų prašymai';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Neišnagrinėtų duomenų prašymų nėra.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Patvirtintos duomenų užklausos';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Patvirtintų duomenų prašymų nėra.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Atmestos duomenų užklausos';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Atmestų duomenų užklausų nėra.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Atmesti';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Patvirtinti';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Pažymėti kaip laukiančius';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Parengti duomenų užklausas įkėlimui.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Duomenų užklausų siuntimas adresu $current arba $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Įkelta $completed iš $total duomenų užklausų.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Įkelta $completed iš $total duomenų užklausų, $failed nepavyko.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Duomenų užklausos';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Tvarkykite Goethe\'s mokslinių tyrimų duomenų užklausas';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Duomenų užklausa';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Prašomi duomenys';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Skaitiklis';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Adresas';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Sukurta';
-
-  @override
   String get comment => 'Bote';
 
   @override
@@ -1479,6 +1323,162 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Sukurta';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Priimti visus';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Adresas';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Patvirtinti';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Vyriausybinė institucija';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Ne pelno siekianti organizacija';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Kita';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Privati įmonė';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Privatus mokslinių tyrimų institutas';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Kas gali teikti duomenų prašymus?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Mokslinių tyrimų institutas';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Universitetas';
+
+  @override
+  String get goetheDataDonationBackHome => 'Grįžti namo';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Pateikta naujų duomenų užklausų.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Sukurta';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Prašomi duomenys';
+
+  @override
+  String get goetheDataDonationDisabled => 'Duomenų užklausos šiuo metu neteikiamos.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Visos duomenų užklausos teikiamos atsižvelgiant į COMET mokslinių tyrimų projektą. Projektas baigiasi rugpjūčio pabaigoje. Tikimasi sulaukti tik nedidelio vienženklio duomenų prašymų skaičiaus. Jei duomenų prašymas priimamas, duomenys bus perduodami tik vieną kartą. Gali būti dalijamasi atskirų skaitiklių paros suvartojimo laiko eilutėmis.';
+
+  @override
+  String get goetheDataDonationHeader => 'Duomenų užklausos';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Nuspręskite, ar norite gauti duomenų užklausas ir kokioms organizacijoms bei kokiais tikslais leidžiama jų prašyti.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Skaitiklis';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'AI mokymas';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Tikslas';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Rinkos tyrimai';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personalizuota rinkodara';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Produkto kūrimas';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Kokiais tikslais?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Moksliniai tyrimai';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Ar norite gauti duomenų užklausas?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Gauti duomenų užklausas';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Atmesti';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Duomenų užklausa';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Patvirtintų duomenų prašymų nėra.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Patvirtintos duomenų užklausos';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Šiuo metu duomenų užklausų nėra.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Pirmiausia nustatymuose įjunkite duomenų užklausas, kad galėtumėte peržiūrėti ir tvarkyti užklausas.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Duomenų užklausų nepavyko įkelti.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Atidaryti nustatymus';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Neišnagrinėtų duomenų prašymų nėra.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Neišnagrinėti duomenų prašymai';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Atmestų duomenų užklausų nėra.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Atmestos duomenų užklausos';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Duomenų užklausos';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Pažymėti kaip laukiančius';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Tvarkykite Goethe\'s mokslinių tyrimų duomenų užklausas';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Duomenų užklausos';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Įkelta $completed iš $total duomenų užklausų.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Įkelta $completed iš $total duomenų užklausų, $failed nepavyko.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Parengti duomenų užklausas įkėlimui.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Duomenų užklausų siuntimas adresu $current arba $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3544,10 +3544,17 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Deja, kol kas nežinome jūsų vandens tiekėjo. Nedvejodami rašykite mums. Tiekėjai, kurie siūlo tik elektros energiją ir dujas, čia nepateikiami.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Jūsų prieigos užklausa buvo atmesta. Galite ištrinti šį matuoklį.';
 
   @override
   String get watersupplierAccessRequestPending => 'Jūsų prieigos prašymas vis dar nagrinėjamas. Būkite kantrūs.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3682,6 +3689,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL prieigos prašymas';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Metinis suvartojimas iki šiol';

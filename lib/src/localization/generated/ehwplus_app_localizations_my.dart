@@ -304,162 +304,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Goethe Institute မှကြယ်တံခွန်ခန့်မှန်းချက် API ကိုသုံးပါ';
 
   @override
-  String get goetheDataDonationHeader => 'ဒေတာတောင်းဆိုချက်များ';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'ဒေတာတောင်းခံချက်များကို လက်ခံရယူလိုပါသလား၊ အဖွဲ့အစည်းအမျိုးအစားများနှင့် ရည်ရွယ်ချက်အမျိုးမျိုးအနက် မည်သည်များက ထိုတောင်းခံချက်များကို တောင်းဆိုခွင့်ရှိကြောင်း ဆုံးဖြတ်ပါ။';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'ဒေတာတောင်းဆိုချက်များကို လက်ခံလိုပါသလား။';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'ဒေတာတောင်းဆိုချက်များကို လက်ခံပါ';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'ဒေတာတောင်းဆိုမှုအားလုံးကို COMET သုတေသနပရောဂျက်အခြေအနေအရ ပြုလုပ်ထားပါသည်။ ပရောဂျက်သည် ဩဂုတ်လကုန်တွင် အဆုံးသတ်မည်ဖြစ်သည်။ ဒေတာတောင်းဆိုမှုများမှာ တစ်လုံးတစ်လုံးသာရှိမည့် သေးငယ်သော ဂဏန်းတစ်ခုသာ မျှော်လင့်ထားပါသည်။ တောင်းဆိုမှုတစ်ခုကို လက်ခံပါက ဒေတာကို တစ်ကြိမ်တည်းသာ ပို့ဆောင်မည်ဖြစ်သည်။ တစ်စက်ချင်းစီအတွက် နေ့စဉ်သုံးစွဲမှု အချိန်စီးရီးများကို မျှဝေပေးနိုင်ပါသည်။';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'ဒေတာတောင်းဆိုခွင့်ကို ဘယ်သူတွေ ရရှိနိုင်ပါသလဲ။';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'အားလုံးကိုလက်ခံပါ';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'ပုဂ္ဂလိက သုတေသနအဖွဲ့';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'သုတေသနအဖွဲ့';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'တက္ကသိုလ်';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'ပုဂ္ဂလိကကုမ္ပဏီ';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'အမြတ်မရှာဖွေသော အဖွဲ့အစည်း';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'အစိုးရအဖွဲ့အစည်း';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'အခြား';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'ဘယ်ရည်ရွယ်ချက်များအတွက်လဲ?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'သုတေသန';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'ထုတ်ကုန်ဖွံ့ဖြိုးတိုးတက်ရေး';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'AI လေ့ကျင့်ရေး';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'ကိုယ်ပိုင်ပြုလုပ်ထားသော စျေးကွက်ရှာဖွေရေး';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'ဈေးကွက်သုတေသန';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'ရည်ရွယ်ချက်';
-
-  @override
-  String get goetheDataDonationDisabled => 'ဒေတာတောင်းဆိုမှုများကို လက်ရှိတွင် မရနိုင်ပါ။';
-
-  @override
-  String get goetheDataDonationBackHome => 'အိမ်သို့ ပြန်သွားပါ';
-
-  @override
-  String get goetheDataDonationBannerPending => 'ဒေတာတောင်းဆိုမှုအသစ်များ ရှိပါသည်။';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'ဒေတာတောင်းဆိုချက်များ';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'ဒေတာတောင်းဆိုချက်များကို မတင်နိုင်ခဲ့ပါ။';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'တောင်းဆိုချက်များကို ကြည့်ရှုနှင့် စီမံခန့်ခွဲနိုင်ရန် အရင်ဆုံး ဆက်တင်များတွင် ဒေတာတောင်းဆိုချက်များကို ဖွင့်ပါ။';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'ဆက်တင်များကိုဖွင့်ပါ';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'လက်ရှိတွင် ဒေတာတောင်းဆိုမှုများ မရှိပါ။';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'စောင့်ဆိုင်းနေသည့် ဒေတာ တောင်းဆိုချက်များ';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'စောင့်ဆိုင်းနေသော ဒေတာတောင်းဆိုမှု မရှိပါ။';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'အတည်ပြုထားသော ဒေတာတောင်းဆိုချက်များ';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'အတည်ပြုထားသော ဒေတာ တောင်းဆိုချက် မရှိပါ။';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'ငြင်းပယ်ထားသော ဒေတာ တောင်းဆိုချက်များ';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'ဒေတာတောင်းဆိုချက်များ မပယ်ချပါ။';
-
-  @override
-  String get goetheDataDonationRejectButton => 'ငြင်းပယ်';
-
-  @override
-  String get goetheDataDonationApproveButton => 'အတည်ပြုပါ';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'စောင့်ဆိုင်းနေသည်ဟု အမှတ်ပြုပါ';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'ဒေတာတင်ရန် တောင်းဆိုချက်များ ပြင်ဆင်နေပါသည်။';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'ဒေတာတင်ပို့ခြင်း တောင်းဆိုချက်များ $current၊ $total မှ။';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return '$total ဒေတာ တောင်းဆိုချက်များအတွက် $completed ကို တင်သွင်းခဲ့သည်။';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return '$total ဒေတာ တောင်းဆိုမှုများမှ $completed ကို တင်သွင်းပြီး၊ $failed မအောင်မြင်ခဲ့ပါ။';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'ဒေတာတောင်းဆိုချက်များ';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'ဂိုးအဲ၏ သုတေသနဒေတာ တောင်းဆိုချက်များကို စီမံခန့်ခွဲပါ။';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'ဒေတာ တောင်းဆိုခြင်း';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'တောင်းဆိုထားသောဒေတာ';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'မီတာ';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'လိပ်စာ';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'ဖန်တီးခဲ့သည့်နေ့';
-
-  @override
   String get comment => 'ဘီလီဂိုဏ်း';
 
   @override
@@ -1483,6 +1327,162 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'ဖြစ်သော';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'အားလုံးကိုလက်ခံပါ';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'လိပ်စာ';
+
+  @override
+  String get goetheDataDonationApproveButton => 'အတည်ပြုပါ';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'အစိုးရအဖွဲ့အစည်း';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'အမြတ်မရှာဖွေသော အဖွဲ့အစည်း';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'အခြား';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'ပုဂ္ဂလိကကုမ္ပဏီ';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'ပုဂ္ဂလိက သုတေသနအဖွဲ့';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'ဒေတာတောင်းဆိုခွင့်ကို ဘယ်သူတွေ ရရှိနိုင်ပါသလဲ။';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'သုတေသနအဖွဲ့';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'တက္ကသိုလ်';
+
+  @override
+  String get goetheDataDonationBackHome => 'အိမ်သို့ ပြန်သွားပါ';
+
+  @override
+  String get goetheDataDonationBannerPending => 'ဒေတာတောင်းဆိုမှုအသစ်များ ရှိပါသည်။';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'ဖန်တီးခဲ့သည့်နေ့';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'တောင်းဆိုထားသောဒေတာ';
+
+  @override
+  String get goetheDataDonationDisabled => 'ဒေတာတောင်းဆိုမှုများကို လက်ရှိတွင် မရနိုင်ပါ။';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'ဒေတာတောင်းဆိုမှုအားလုံးကို COMET သုတေသနပရောဂျက်အခြေအနေအရ ပြုလုပ်ထားပါသည်။ ပရောဂျက်သည် ဩဂုတ်လကုန်တွင် အဆုံးသတ်မည်ဖြစ်သည်။ ဒေတာတောင်းဆိုမှုများမှာ တစ်လုံးတစ်လုံးသာရှိမည့် သေးငယ်သော ဂဏန်းတစ်ခုသာ မျှော်လင့်ထားပါသည်။ တောင်းဆိုမှုတစ်ခုကို လက်ခံပါက ဒေတာကို တစ်ကြိမ်တည်းသာ ပို့ဆောင်မည်ဖြစ်သည်။ တစ်စက်ချင်းစီအတွက် နေ့စဉ်သုံးစွဲမှု အချိန်စီးရီးများကို မျှဝေပေးနိုင်ပါသည်။';
+
+  @override
+  String get goetheDataDonationHeader => 'ဒေတာတောင်းဆိုချက်များ';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'ဒေတာတောင်းခံချက်များကို လက်ခံရယူလိုပါသလား၊ အဖွဲ့အစည်းအမျိုးအစားများနှင့် ရည်ရွယ်ချက်အမျိုးမျိုးအနက် မည်သည်များက ထိုတောင်းခံချက်များကို တောင်းဆိုခွင့်ရှိကြောင်း ဆုံးဖြတ်ပါ။';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'မီတာ';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'AI လေ့ကျင့်ရေး';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'ရည်ရွယ်ချက်';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'ဈေးကွက်သုတေသန';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'ကိုယ်ပိုင်ပြုလုပ်ထားသော စျေးကွက်ရှာဖွေရေး';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'ထုတ်ကုန်ဖွံ့ဖြိုးတိုးတက်ရေး';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'ဘယ်ရည်ရွယ်ချက်များအတွက်လဲ?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'သုတေသန';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'ဒေတာတောင်းဆိုချက်များကို လက်ခံလိုပါသလား။';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'ဒေတာတောင်းဆိုချက်များကို လက်ခံပါ';
+
+  @override
+  String get goetheDataDonationRejectButton => 'ငြင်းပယ်';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'ဒေတာ တောင်းဆိုခြင်း';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'အတည်ပြုထားသော ဒေတာ တောင်းဆိုချက် မရှိပါ။';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'အတည်ပြုထားသော ဒေတာတောင်းဆိုချက်များ';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'လက်ရှိတွင် ဒေတာတောင်းဆိုမှုများ မရှိပါ။';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'တောင်းဆိုချက်များကို ကြည့်ရှုနှင့် စီမံခန့်ခွဲနိုင်ရန် အရင်ဆုံး ဆက်တင်များတွင် ဒေတာတောင်းဆိုချက်များကို ဖွင့်ပါ။';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'ဒေတာတောင်းဆိုချက်များကို မတင်နိုင်ခဲ့ပါ။';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'ဆက်တင်များကိုဖွင့်ပါ';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'စောင့်ဆိုင်းနေသော ဒေတာတောင်းဆိုမှု မရှိပါ။';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'စောင့်ဆိုင်းနေသည့် ဒေတာ တောင်းဆိုချက်များ';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'ဒေတာတောင်းဆိုချက်များ မပယ်ချပါ။';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'ငြင်းပယ်ထားသော ဒေတာ တောင်းဆိုချက်များ';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'ဒေတာတောင်းဆိုချက်များ';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'စောင့်ဆိုင်းနေသည်ဟု အမှတ်ပြုပါ';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'ဂိုးအဲ၏ သုတေသနဒေတာ တောင်းဆိုချက်များကို စီမံခန့်ခွဲပါ။';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'ဒေတာတောင်းဆိုချက်များ';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return '$total ဒေတာ တောင်းဆိုချက်များအတွက် $completed ကို တင်သွင်းခဲ့သည်။';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return '$total ဒေတာ တောင်းဆိုမှုများမှ $completed ကို တင်သွင်းပြီး၊ $failed မအောင်မြင်ခဲ့ပါ။';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'ဒေတာတင်ရန် တောင်းဆိုချက်များ ပြင်ဆင်နေပါသည်။';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'ဒေတာတင်ပို့ခြင်း တောင်းဆိုချက်များ $current၊ $total မှ။';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3536,12 +3536,19 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'မကံဆိုးစွာဖြင့် ကျွန်ုပ်တို့သည် သင့်ရေပေးသွင်းသူကို မသိသေးပါ။ ကျေးဇူးပြု၍ ကျွန်ုပ်တို့ထံ စာရေးရန် လွတ်လပ်စွာ ဆက်သွယ်နိုင်ပါသည်။ လျှပ်စစ်နှင့် ဓာတ်ငွေ့သာ ပေးသွင်းသည့် ပံ့ပိုးပေးသူများသည် ဤနေရာတွင် မပါဝင်ပါ။';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied =>
       'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ငြင်းပယ်ခဲ့သည်။ ဤမီတာကို ဖျက်နိုင်ပါသည်။';
 
   @override
   String get watersupplierAccessRequestPending =>
       'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ဆက်လက်ဆောင်ရွက်နေဆဲဖြစ်ပါသည်။ ကျေးဇူးပြု၍ စိတ်ရှည်စွာ စောင့်ဆိုင်းပါ။';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3676,6 +3683,13 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL ဝင်ရောက်ခွင့် တောင်းဆိုချက်';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု';

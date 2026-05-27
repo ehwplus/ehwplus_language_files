@@ -302,162 +302,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Tumia API ya utabiri wa Comet kutoka Taasisi ya Goethe';
 
   @override
-  String get goetheDataDonationHeader => 'Maombi ya data';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Amua kama unataka kupokea maombi ya data na ni aina gani za mashirika na madhumuni yanayoruhusiwa kuyaomba.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Je, ungependa kupokea maombi ya data?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Pokea maombi ya data';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Maombi yote ya data hufanywa katika muktadha wa mradi wa utafiti wa COMET. Mradi huu utaisha mwishoni mwa Agosti. Inatarajiwa tu idadi ndogo ya maombi ya data, yenye tarakimu moja. Ikiwa ombi la data litakubaliwa, data itatumwa mara moja tu. Mfululizo wa matumizi ya kila siku kwa mita binafsi unaweza kushirikiwa.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Nani anaweza kuwasilisha maombi ya data?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Kubali yote';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Taasisi ya utafiti ya kibinafsi';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Taasisi ya utafiti';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Chuo kikuu';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Kampuni binafsi';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Shirika lisilo la faida';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Taasisi ya serikali';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Mengine';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Kwa madhumuni gani?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Utafiti';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Maendeleo ya bidhaa';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Mafunzo ya akili bandia';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Masoko yaliyobinafsishwa';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Utafiti wa soko';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Lengo';
-
-  @override
-  String get goetheDataDonationDisabled => 'Maombi ya data kwa sasa hayapatikani.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Rudi nyumbani';
-
-  @override
-  String get goetheDataDonationBannerPending => 'Kuna maombi mapya ya data.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Maombi ya data';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Maombi ya data hayakuweza kupakiwa.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Wezesha maombi ya data kwanza katika mipangilio ili kuona na kusimamia maombi.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Fungua mipangilio';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Kwa sasa hakuna maombi ya data.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Maombi ya data yanayosubiriwa';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Hakuna maombi ya data yanayosubiri.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Maombi ya data yaliyoidhinishwa';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Hakuna maombi ya data yaliyoidhinishwa.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Maombi ya data yaliyokataliwa';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Hakuna maombi ya data yaliyokataliwa.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Kataa';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Idhinisha';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Weka alama kama inasubiri';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Kuandaa maombi ya data kwa ajili ya kupakia.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Maombi ya kupakia data $current ya $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Imepakuliwa $completed ya maombi ya data ya $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Imepakiwa $completed ya maombi ya data ya $total, $failed ilishindwa.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Maombi ya data';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Dhibiti maombi ya data za utafiti za Goethe';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Ombi la data';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Data iliyohitajika';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Mita';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Anwani';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Imetengenezwa mnamo';
-
-  @override
   String get comment => 'Bote';
 
   @override
@@ -1473,6 +1317,162 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Inayozalishwa';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Kubali yote';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Anwani';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Idhinisha';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Taasisi ya serikali';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Shirika lisilo la faida';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Mengine';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Kampuni binafsi';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Taasisi ya utafiti ya kibinafsi';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Nani anaweza kuwasilisha maombi ya data?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Taasisi ya utafiti';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Chuo kikuu';
+
+  @override
+  String get goetheDataDonationBackHome => 'Rudi nyumbani';
+
+  @override
+  String get goetheDataDonationBannerPending => 'Kuna maombi mapya ya data.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Imetengenezwa mnamo';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Data iliyohitajika';
+
+  @override
+  String get goetheDataDonationDisabled => 'Maombi ya data kwa sasa hayapatikani.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Maombi yote ya data hufanywa katika muktadha wa mradi wa utafiti wa COMET. Mradi huu utaisha mwishoni mwa Agosti. Inatarajiwa tu idadi ndogo ya maombi ya data, yenye tarakimu moja. Ikiwa ombi la data litakubaliwa, data itatumwa mara moja tu. Mfululizo wa matumizi ya kila siku kwa mita binafsi unaweza kushirikiwa.';
+
+  @override
+  String get goetheDataDonationHeader => 'Maombi ya data';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Amua kama unataka kupokea maombi ya data na ni aina gani za mashirika na madhumuni yanayoruhusiwa kuyaomba.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Mita';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Mafunzo ya akili bandia';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Lengo';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Utafiti wa soko';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Masoko yaliyobinafsishwa';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Maendeleo ya bidhaa';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Kwa madhumuni gani?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Utafiti';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Je, ungependa kupokea maombi ya data?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Pokea maombi ya data';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Kataa';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Ombi la data';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Hakuna maombi ya data yaliyoidhinishwa.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Maombi ya data yaliyoidhinishwa';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Kwa sasa hakuna maombi ya data.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Wezesha maombi ya data kwanza katika mipangilio ili kuona na kusimamia maombi.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Maombi ya data hayakuweza kupakiwa.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Fungua mipangilio';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Hakuna maombi ya data yanayosubiri.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Maombi ya data yanayosubiriwa';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Hakuna maombi ya data yaliyokataliwa.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Maombi ya data yaliyokataliwa';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Maombi ya data';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Weka alama kama inasubiri';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Dhibiti maombi ya data za utafiti za Goethe';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Maombi ya data';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Imepakuliwa $completed ya maombi ya data ya $total.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Imepakiwa $completed ya maombi ya data ya $total, $failed ilishindwa.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Kuandaa maombi ya data kwa ajili ya kupakia.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Maombi ya kupakia data $current ya $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3529,11 +3529,18 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Kwa bahati mbaya, bado hatujui msambazaji wako wa maji. Tafadhali jisikie huru kutuandikia. Watoa huduma wanaotoa umeme na gesi pekee hawapo hapa.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied => 'Ombi lako la ufikiaji limekataliwa. Unaweza kufuta mita hii.';
 
   @override
   String get watersupplierAccessRequestPending =>
       'Ombi lako la upatikanaji bado linashughulikiwa. Tafadhali kuwa na subira.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3669,6 +3676,13 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'Ombi la ufikiaji wa WTL';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Matumizi ya kila mwaka hadi sasa';

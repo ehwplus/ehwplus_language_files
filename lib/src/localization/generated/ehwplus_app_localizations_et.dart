@@ -299,162 +299,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get cometSettingsIsPredictionsApiEnabled => 'Kasuta Goethe Instituudi COMETi prognoosi API-t';
 
   @override
-  String get goetheDataDonationHeader => 'Andmepäringud';
-
-  @override
-  String get goetheDataDonationIntro =>
-      'Otsustage, kas soovite saada andmepäringuid ning millistele organisatsioonidele ja mis eesmärgil on neid lubatud taotleda.';
-
-  @override
-  String get goetheDataDonationReceiveQuestion => 'Kas soovite saada andmepäringuid?';
-
-  @override
-  String get goetheDataDonationReceiveToggle => 'Andmepäringute vastuvõtmine';
-
-  @override
-  String get goetheDataDonationExplanation =>
-      'Kõik andmepäringud esitatakse COMETi uurimisprojekti raames. Projekt lõpeb augusti lõpus. Oodata on vaid väikest ühekohalist arvu andmepäringuid. Kui andmepäring rahuldatakse, edastatakse andmed ainult üks kord. Igapäevaseid tarbimise aegridasid üksikute arvestite kohta saab jagada.';
-
-  @override
-  String get goetheDataDonationAudienceQuestion => 'Kes võib esitada andmepäringuid?';
-
-  @override
-  String get goetheDataDonationAcceptAll => 'Võtke kõik vastu';
-
-  @override
-  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Eraõiguslik uurimisinstituut';
-
-  @override
-  String get goetheDataDonationAudienceResearchInstitute => 'Uurimisinstituut';
-
-  @override
-  String get goetheDataDonationAudienceUniversity => 'Ülikool';
-
-  @override
-  String get goetheDataDonationAudiencePrivateCompany => 'Eraettevõte';
-
-  @override
-  String get goetheDataDonationAudienceNonprofitOrganization => 'Mittetulundusühing';
-
-  @override
-  String get goetheDataDonationAudienceGovernmentalInstitution => 'Valitsusasutus';
-
-  @override
-  String get goetheDataDonationAudienceOther => 'Muud';
-
-  @override
-  String get goetheDataDonationPurposeQuestion => 'Millistel eesmärkidel?';
-
-  @override
-  String get goetheDataDonationPurposeResearch => 'Teadusuuringud';
-
-  @override
-  String get goetheDataDonationPurposeProductDevelopment => 'Tootearendus';
-
-  @override
-  String get goetheDataDonationPurposeAiTraining => 'Tehisintellekti koolitus';
-
-  @override
-  String get goetheDataDonationPurposePersonalizedMarketing => 'Personaalne turundus';
-
-  @override
-  String get goetheDataDonationPurposeMarketResearch => 'Turu-uuringud';
-
-  @override
-  String get goetheDataDonationPurposeLabel => 'Eesmärk';
-
-  @override
-  String get goetheDataDonationDisabled => 'Andmepäringud ei ole praegu kättesaadavad.';
-
-  @override
-  String get goetheDataDonationBackHome => 'Tagasi koju';
-
-  @override
-  String get goetheDataDonationBannerPending => 'On olemas uued andmepäringud.';
-
-  @override
-  String get goetheDataDonationRequestsTitle => 'Andmepäringud';
-
-  @override
-  String get goetheDataDonationRequestsLoadError => 'Andmepäringuid ei õnnestunud laadida.';
-
-  @override
-  String get goetheDataDonationRequestsEnableHint =>
-      'Andmepäringute vaatamiseks ja haldamiseks aktiveerige esmalt seadetes andmepäringud.';
-
-  @override
-  String get goetheDataDonationRequestsOpenSettings => 'Avatud seaded';
-
-  @override
-  String get goetheDataDonationRequestsEmpty => 'Praegu ei ole andmepäringuid.';
-
-  @override
-  String get goetheDataDonationRequestsPendingTitle => 'Ootel olevad andmepäringud';
-
-  @override
-  String get goetheDataDonationRequestsPendingEmpty => 'Andmepäringud puuduvad.';
-
-  @override
-  String get goetheDataDonationRequestsApprovedTitle => 'Heakskiidetud andmepäringud';
-
-  @override
-  String get goetheDataDonationRequestsApprovedEmpty => 'Heakskiidetud andmepäringuid ei ole.';
-
-  @override
-  String get goetheDataDonationRequestsRejectedTitle => 'Tagasilükatud andmepäringud';
-
-  @override
-  String get goetheDataDonationRequestsRejectedEmpty => 'Andmepäringuid ei ole tagasi lükatud.';
-
-  @override
-  String get goetheDataDonationRejectButton => 'Lükake tagasi';
-
-  @override
-  String get goetheDataDonationApproveButton => 'Kinnitada';
-
-  @override
-  String get goetheDataDonationResetDecisionButton => 'Märgista kui menetluses olev';
-
-  @override
-  String get goetheDataDonationUploadPreparing => 'Andmepäringute ettevalmistamine üleslaadimiseks.';
-
-  @override
-  String goetheDataDonationUploadProgress(Object current, Object total) {
-    return 'Andmete üleslaadimise taotlused: $current või $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadCompleted(Object completed, Object total) {
-    return 'Laaditud üles $completed, mis sisaldab andmepäringuid aadressilt $total.';
-  }
-
-  @override
-  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
-    return 'Laaditi üles $completed, mis sisaldab $total andmepäringuid, kuid $failed ebaõnnestus.';
-  }
-
-  @override
-  String get goetheDataDonationSettingsTitle => 'Andmepäringud';
-
-  @override
-  String get goetheDataDonationSettingsSubtitle => 'Goethe teadusuuringute andmete taotluste haldamine';
-
-  @override
-  String get goetheDataDonationRequestFallbackTitle => 'Andmepäring';
-
-  @override
-  String get goetheDataDonationDatasetDescriptionLabel => 'Taotletud andmed';
-
-  @override
-  String get goetheDataDonationMeterLabel => 'Arvesti';
-
-  @override
-  String get goetheDataDonationAddressLabel => 'Aadress';
-
-  @override
-  String get goetheDataDonationCreatedAtLabel => 'Loodud aadressil';
-
-  @override
   String get comment => 'Märkus';
 
   @override
@@ -1478,6 +1322,162 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get generated => 'Toodetud';
+
+  @override
+  String get goetheDataDonationAcceptAll => 'Võtke kõik vastu';
+
+  @override
+  String get goetheDataDonationAddressLabel => 'Aadress';
+
+  @override
+  String get goetheDataDonationApproveButton => 'Kinnitada';
+
+  @override
+  String get goetheDataDonationAudienceGovernmentalInstitution => 'Valitsusasutus';
+
+  @override
+  String get goetheDataDonationAudienceNonprofitOrganization => 'Mittetulundusühing';
+
+  @override
+  String get goetheDataDonationAudienceOther => 'Muud';
+
+  @override
+  String get goetheDataDonationAudiencePrivateCompany => 'Eraettevõte';
+
+  @override
+  String get goetheDataDonationAudiencePrivateResearchInstitute => 'Eraõiguslik uurimisinstituut';
+
+  @override
+  String get goetheDataDonationAudienceQuestion => 'Kes võib esitada andmepäringuid?';
+
+  @override
+  String get goetheDataDonationAudienceResearchInstitute => 'Uurimisinstituut';
+
+  @override
+  String get goetheDataDonationAudienceUniversity => 'Ülikool';
+
+  @override
+  String get goetheDataDonationBackHome => 'Tagasi koju';
+
+  @override
+  String get goetheDataDonationBannerPending => 'On olemas uued andmepäringud.';
+
+  @override
+  String get goetheDataDonationCreatedAtLabel => 'Loodud aadressil';
+
+  @override
+  String get goetheDataDonationDatasetDescriptionLabel => 'Taotletud andmed';
+
+  @override
+  String get goetheDataDonationDisabled => 'Andmepäringud ei ole praegu kättesaadavad.';
+
+  @override
+  String get goetheDataDonationExplanation =>
+      'Kõik andmepäringud esitatakse COMETi uurimisprojekti raames. Projekt lõpeb augusti lõpus. Oodata on vaid väikest ühekohalist arvu andmepäringuid. Kui andmepäring rahuldatakse, edastatakse andmed ainult üks kord. Igapäevaseid tarbimise aegridasid üksikute arvestite kohta saab jagada.';
+
+  @override
+  String get goetheDataDonationHeader => 'Andmepäringud';
+
+  @override
+  String get goetheDataDonationIntro =>
+      'Otsustage, kas soovite saada andmepäringuid ning millistele organisatsioonidele ja mis eesmärgil on neid lubatud taotleda.';
+
+  @override
+  String get goetheDataDonationMeterLabel => 'Arvesti';
+
+  @override
+  String get goetheDataDonationPurposeAiTraining => 'Tehisintellekti koolitus';
+
+  @override
+  String get goetheDataDonationPurposeLabel => 'Eesmärk';
+
+  @override
+  String get goetheDataDonationPurposeMarketResearch => 'Turu-uuringud';
+
+  @override
+  String get goetheDataDonationPurposePersonalizedMarketing => 'Personaalne turundus';
+
+  @override
+  String get goetheDataDonationPurposeProductDevelopment => 'Tootearendus';
+
+  @override
+  String get goetheDataDonationPurposeQuestion => 'Millistel eesmärkidel?';
+
+  @override
+  String get goetheDataDonationPurposeResearch => 'Teadusuuringud';
+
+  @override
+  String get goetheDataDonationReceiveQuestion => 'Kas soovite saada andmepäringuid?';
+
+  @override
+  String get goetheDataDonationReceiveToggle => 'Andmepäringute vastuvõtmine';
+
+  @override
+  String get goetheDataDonationRejectButton => 'Lükake tagasi';
+
+  @override
+  String get goetheDataDonationRequestFallbackTitle => 'Andmepäring';
+
+  @override
+  String get goetheDataDonationRequestsApprovedEmpty => 'Heakskiidetud andmepäringuid ei ole.';
+
+  @override
+  String get goetheDataDonationRequestsApprovedTitle => 'Heakskiidetud andmepäringud';
+
+  @override
+  String get goetheDataDonationRequestsEmpty => 'Praegu ei ole andmepäringuid.';
+
+  @override
+  String get goetheDataDonationRequestsEnableHint =>
+      'Andmepäringute vaatamiseks ja haldamiseks aktiveerige esmalt seadetes andmepäringud.';
+
+  @override
+  String get goetheDataDonationRequestsLoadError => 'Andmepäringuid ei õnnestunud laadida.';
+
+  @override
+  String get goetheDataDonationRequestsOpenSettings => 'Avatud seaded';
+
+  @override
+  String get goetheDataDonationRequestsPendingEmpty => 'Andmepäringud puuduvad.';
+
+  @override
+  String get goetheDataDonationRequestsPendingTitle => 'Ootel olevad andmepäringud';
+
+  @override
+  String get goetheDataDonationRequestsRejectedEmpty => 'Andmepäringuid ei ole tagasi lükatud.';
+
+  @override
+  String get goetheDataDonationRequestsRejectedTitle => 'Tagasilükatud andmepäringud';
+
+  @override
+  String get goetheDataDonationRequestsTitle => 'Andmepäringud';
+
+  @override
+  String get goetheDataDonationResetDecisionButton => 'Märgista kui menetluses olev';
+
+  @override
+  String get goetheDataDonationSettingsSubtitle => 'Goethe teadusuuringute andmete taotluste haldamine';
+
+  @override
+  String get goetheDataDonationSettingsTitle => 'Andmepäringud';
+
+  @override
+  String goetheDataDonationUploadCompleted(Object completed, Object total) {
+    return 'Laaditud üles $completed, mis sisaldab andmepäringuid aadressilt $total.';
+  }
+
+  @override
+  String goetheDataDonationUploadFailed(Object completed, Object total, Object failed) {
+    return 'Laaditi üles $completed, mis sisaldab $total andmepäringuid, kuid $failed ebaõnnestus.';
+  }
+
+  @override
+  String get goetheDataDonationUploadPreparing => 'Andmepäringute ettevalmistamine üleslaadimiseks.';
+
+  @override
+  String goetheDataDonationUploadProgress(Object current, Object total) {
+    return 'Andmete üleslaadimise taotlused: $current või $total.';
+  }
 
   @override
   String get googleAnalyticsAgreement =>
@@ -3519,11 +3519,18 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Kahjuks ei tea me veel teie veevarustajat. Palun kirjutage meile julgelt. Tarnijad, kes pakuvad ainult elektrit ja gaasi, ei ole siin kirjas.';
 
   @override
+  String get watersupplierAccessRequestApprovedPendingOnboarding =>
+      'Your access request has been approved. Complete the setup now!';
+
+  @override
   String get watersupplierAccessRequestDenied =>
       'Teie juurdepääsutaotlus lükati tagasi. Te võite selle arvesti kustutada.';
 
   @override
   String get watersupplierAccessRequestPending => 'Teie juurdepääsutaotlust töödeldakse veel. Palun olge kannatlik.';
+
+  @override
+  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3658,6 +3665,13 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestTitle => 'WTL juurdepääsutaotlus';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionApproved =>
+      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+
+  @override
+  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
 
   @override
   String get yearlyConsumption => 'Seni aastane tarbimine';
