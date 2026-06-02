@@ -2,6 +2,9 @@
   "af": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -9,6 +12,9 @@
   "ar": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -16,6 +22,9 @@
   "bg": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -23,6 +32,9 @@
   "bs": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -30,6 +42,9 @@
   "cs": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -37,6 +52,9 @@
   "da": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -44,6 +62,9 @@
   "el": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -51,6 +72,9 @@
   "es": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -58,6 +82,9 @@
   "et": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -65,6 +92,9 @@
   "fa": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -72,6 +102,9 @@
   "fi": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -79,6 +112,9 @@
   "fr": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -86,6 +122,9 @@
   "hi": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -93,6 +132,9 @@
   "hr": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -100,6 +142,9 @@
   "hu": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -107,6 +152,9 @@
   "id": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -114,6 +162,9 @@
   "it": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -121,6 +172,9 @@
   "ja": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -128,6 +182,9 @@
   "ko": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -135,6 +192,9 @@
   "lt": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -142,6 +202,9 @@
   "ml": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -149,6 +212,9 @@
   "my": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -156,6 +222,9 @@
   "nb": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -163,6 +232,9 @@
   "nl": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -170,6 +242,9 @@
   "pl": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -177,6 +252,9 @@
   "pt": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -184,6 +262,9 @@
   "ro": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -191,6 +272,9 @@
   "ru": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -198,6 +282,9 @@
   "sl": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -205,6 +292,9 @@
   "sr": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -212,6 +302,9 @@
   "sv": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -219,6 +312,9 @@
   "sw": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -226,6 +322,9 @@
   "th": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -233,6 +332,9 @@
   "tr": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -240,6 +342,9 @@
   "uk": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -247,6 +352,9 @@
   "vi": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ],
@@ -254,6 +362,9 @@
   "zh": [
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
+    "wtlAccessRequestRegularMeterIdHint",
+    "wtlAccessRequestRegularMeterIdMissingInput",
+    "wtlAccessRequestRegularMeterIdWarning",
     "wtlMeterOnboardingStepDescriptionApproved",
     "wtlMeterOnboardingStepDescriptionPending"
   ]

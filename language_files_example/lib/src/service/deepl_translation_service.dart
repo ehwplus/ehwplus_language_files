@@ -11,13 +11,19 @@ import 'package:http/http.dart' as http;
 /// 2) `--dart-define=DEEPL_AUTH_KEY` (or `DEEPL_API_KEY`).
 /// 3) Environment variable `DEEPL_AUTH_KEY` / `DEEPL_API_KEY` (non-web only).
 class DeepLTranslationService {
-  DeepLTranslationService({String? apiKey, http.Client? client, this.baseUrl = 'https://api-free.deepl.com'})
-    : _apiKey = _sanitize(apiKey ?? _resolveApiKey()),
-      _client = client ?? http.Client();
+  DeepLTranslationService({
+    String? apiKey,
+    http.Client? client,
+    this.baseUrl = 'https://api-free.deepl.com',
+    Iterable<String> doNotTranslateTerms = const [],
+  }) : _doNotTranslateTerms = _sanitizeTerms(doNotTranslateTerms),
+       _apiKey = _sanitize(apiKey ?? _resolveApiKey()),
+       _client = client ?? http.Client();
 
   final http.Client _client;
   final String baseUrl;
   final String _apiKey;
+  final List<String> _doNotTranslateTerms;
 
   bool get hasApiKey => _apiKey.isNotEmpty;
 
@@ -102,15 +108,18 @@ class DeepLTranslationService {
 
   Future<String> _translatePlain(String text, {required String targetLang, String? sourceLang}) async {
     final hasPlaceholders = _placeholderRegex.hasMatch(text);
-    final hasIgnoredTags = _ignoredXmlTagRegex.hasMatch(text);
+    var taggedText = hasPlaceholders ? _wrapIgnoredTags(text) : text;
+    taggedText = _wrapDoNotTranslateTerms(taggedText);
+    final hasIgnoredTags = _ignoredXmlTagRegex.hasMatch(taggedText);
     final usesTagHandling = hasPlaceholders || hasIgnoredTags;
-    final taggedText = hasPlaceholders ? _wrapIgnoredTags(text) : text;
     final preparedText = usesTagHandling ? _escapeXmlText(taggedText) : taggedText;
     final uri = Uri.parse('$baseUrl/v2/translate');
+    final formality = _resolveFormality(text: text, sourceLang: sourceLang);
     final response = await _postTranslateWithBackoff(uri, {
       'text': preparedText,
       'target_lang': _normalizeLang(targetLang),
       if (sourceLang != null && sourceLang.trim().isNotEmpty) 'source_lang': _normalizeLang(sourceLang),
+      'formality': formality.apiValue,
       if (usesTagHandling) ...{'tag_handling': 'xml', 'ignore_tags': _ignoreTags, 'tag_handling_version': 'v2'},
     });
 
@@ -130,7 +139,8 @@ class DeepLTranslationService {
       final first = translations.first;
       if (first is Map && first['text'] != null) {
         final translated = usesTagHandling ? _unescapeXmlText(first['text'].toString()) : first['text'].toString();
-        return hasPlaceholders ? _unwrapIgnoredTags(translated) : translated;
+        final withoutPlaceholderTags = hasPlaceholders ? _unwrapIgnoredTags(translated) : translated;
+        return _unwrapDoNotTranslateTags(withoutPlaceholderTags);
       }
     }
 
@@ -138,6 +148,27 @@ class DeepLTranslationService {
   }
 
   static String _normalizeLang(String lang) => lang.trim().replaceAll('-', '_').toUpperCase();
+
+  _DeepLFormality _resolveFormality({required String text, String? sourceLang}) {
+    return _detectGermanFormality(text: text, sourceLang: sourceLang) ?? _DeepLFormality.formal;
+  }
+
+  _DeepLFormality? _detectGermanFormality({required String text, String? sourceLang}) {
+    if (sourceLang == null || _normalizeFormalityLang(sourceLang).split('-').first != 'DE') {
+      return null;
+    }
+
+    final detectionText = text.replaceAll(_placeholderRegex, ' ');
+    final hasFormal = _formalGermanAddressRegex.hasMatch(detectionText);
+    final hasInformal = _informalGermanAddressRegex.hasMatch(detectionText);
+
+    if (hasFormal == hasInformal) {
+      return null;
+    }
+    return hasFormal ? _DeepLFormality.formal : _DeepLFormality.informal;
+  }
+
+  static String _normalizeFormalityLang(String lang) => lang.trim().replaceAll('_', '-').toUpperCase();
 
   static String _resolveApiKey() {
     const fromDefine = String.fromEnvironment(
@@ -153,12 +184,86 @@ class DeepLTranslationService {
 
   static String _sanitize(String key) => key.trim();
 
+  static List<String> _sanitizeTerms(Iterable<String> terms) {
+    final sanitized = terms.map((term) => term.trim()).where((term) => term.isNotEmpty).toSet().toList();
+    sanitized.sort((a, b) => b.length.compareTo(a.length));
+    return sanitized;
+  }
+
   String _wrapIgnoredTags(String text) {
     return text.replaceAllMapped(_placeholderRegex, (match) => '<$_ignoreTagName>${match.group(0)}</$_ignoreTagName>');
   }
 
   String _unwrapIgnoredTags(String text) {
     return text.replaceAll('<$_ignoreTagName>', '').replaceAll('</$_ignoreTagName>', '');
+  }
+
+  String _wrapDoNotTranslateTerms(String text) {
+    if (_doNotTranslateTerms.isEmpty || text.isEmpty) return text;
+
+    final buffer = StringBuffer();
+    var index = 0;
+    var tagDepth = 0;
+
+    while (index < text.length) {
+      final tagMatch = _allowedXmlTagRegex.matchAsPrefix(text, index);
+      if (tagMatch != null) {
+        final tag = tagMatch.group(0)!;
+        if (tag.startsWith('</')) {
+          if (tagDepth > 0) tagDepth -= 1;
+        } else {
+          tagDepth += 1;
+        }
+        buffer.write(tag);
+        index += tag.length;
+        continue;
+      }
+
+      if (tagDepth == 0) {
+        final term = _matchingDoNotTranslateTermAt(text, index);
+        if (term != null) {
+          buffer.write('<x>$term</x>');
+          index += term.length;
+          continue;
+        }
+      }
+
+      buffer.write(text[index]);
+      index += 1;
+    }
+
+    return buffer.toString();
+  }
+
+  String? _matchingDoNotTranslateTermAt(String text, int index) {
+    for (final term in _doNotTranslateTerms) {
+      if (!text.startsWith(term, index)) continue;
+      if (!_hasTermBoundary(text, index, term)) continue;
+      return term;
+    }
+    return null;
+  }
+
+  bool _hasTermBoundary(String text, int index, String term) {
+    final beforeIndex = index - 1;
+    final afterIndex = index + term.length;
+    final startsWithWord = _isWordChar(term[0]);
+    final endsWithWord = _isWordChar(term[term.length - 1]);
+
+    if (startsWithWord && beforeIndex >= 0 && _isWordChar(text[beforeIndex])) {
+      return false;
+    }
+    if (endsWithWord && afterIndex < text.length && _isWordChar(text[afterIndex])) {
+      return false;
+    }
+
+    return true;
+  }
+
+  bool _isWordChar(String char) => _wordCharRegex.hasMatch(char);
+
+  String _unwrapDoNotTranslateTags(String text) {
+    return text.replaceAll('<x>', '').replaceAll('</x>', '');
   }
 
   String _escapeXmlText(String text) {
@@ -319,9 +424,39 @@ class _IcuOption {
   final String message;
 }
 
+enum _DeepLFormality {
+  formal('prefer_more'),
+  informal('prefer_less');
+
+  const _DeepLFormality(this.apiValue);
+
+  final String apiValue;
+}
+
 final _placeholderRegex = RegExp(r'\{[a-zA-Z0-9_]+\}');
 final _ignoredXmlTagRegex = RegExp(r'</?x>');
 final _allowedXmlTagRegex = RegExp(r'</?(?:arbvar|x)>');
+final _formalGermanAddressRegex = RegExp(
+  r'(^|[^\p{L}\p{N}_])(Sie|Ihnen|Ihr(?:e|er|es|em|en)?)(?=$|[^\p{L}\p{N}_])',
+  unicode: true,
+);
+final _informalGermanAddressRegex = RegExp(
+  r'(^|[^\p{L}\p{N}_])('
+  r'du|Du|'
+  r'dich|Dich|'
+  r'dir|Dir|'
+  r'dein(?:e|er|es|em|en|s)?|Dein(?:e|er|es|em|en|s)?|'
+  r'euch|Euch|'
+  r'euer|Euer|'
+  r'eure|Eure|'
+  r'eurem|Eurem|'
+  r'euren|Euren|'
+  r'eurer|Eurer|'
+  r'eures|Eures'
+  r')(?=$|[^\p{L}\p{N}_])',
+  unicode: true,
+);
+final _wordCharRegex = RegExp(r'[A-Za-z0-9_]');
 const String _ignoreTagName = 'arbvar';
 const String _ignoreTags = 'arbvar,x';
 const Set<String> _icuTypes = {'plural', 'select', 'selectordinal'};

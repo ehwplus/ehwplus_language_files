@@ -3,16 +3,22 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/.idea" />
-      <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/macos/Flutter/ephemeral/.symlinks/plugins/file_picker/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/macos/Flutter/ephemeral/.symlinks/plugins/file_picker/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/macos/Flutter/ephemeral/.symlinks/plugins/file_picker/build" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/macos/Flutter/ephemeral/.symlinks/plugins/file_picker/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/macos/Flutter/ephemeral/.symlinks/plugins/file_picker/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/language_files_example/macos/Flutter/ephemeral/.symlinks/plugins/file_picker/example/build" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
-    <orderEntry type="library" name="Flutter Plugins" level="project" />
     <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>

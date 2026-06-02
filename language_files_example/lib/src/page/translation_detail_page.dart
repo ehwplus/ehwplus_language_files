@@ -285,8 +285,10 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       _error = null;
     });
 
-    final service = DeepLTranslationService(apiKey: apiKey);
+    DeepLTranslationService? service;
     try {
+      final doNotTranslateTerms = await widget.repository.loadDoNotTranslateTerms();
+      service = DeepLTranslationService(apiKey: apiKey, doNotTranslateTerms: doNotTranslateTerms);
       final translated = await service.translate(text: sourceText, targetLang: targetLocale, sourceLang: sourceLocale);
 
       if (!mounted) return;
@@ -312,7 +314,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       });
       _showSnack('DeepL: $e');
     } finally {
-      service.close();
+      service?.close();
       if (mounted) {
         setState(() {
           _translatingLocales.remove(targetLocale);
@@ -338,12 +340,19 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       return;
     }
 
-    final service = DeepLTranslationService(apiKey: apiKey);
     final targets = _locales.where((locale) => locale != sourceLocale).toList();
     final targetsToTranslate = targets.where((locale) => (_controllers[locale]?.text.trim() ?? '').isEmpty).toList();
 
     if (targetsToTranslate.isEmpty) {
       _showSnack('Alle Zielsprachen haben bereits einen Text.');
+      return;
+    }
+
+    late final List<String> doNotTranslateTerms;
+    try {
+      doNotTranslateTerms = await widget.repository.loadDoNotTranslateTerms();
+    } catch (e) {
+      _showSnack('do_not_translate.json konnte nicht gelesen werden: $e');
       return;
     }
 
@@ -357,46 +366,50 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     });
 
     var didTranslate = false;
-    for (final locale in targetsToTranslate) {
-      final sourceText = _controllers[sourceLocale]?.text.trim() ?? '';
-      if (sourceText.isEmpty) continue;
+    final service = DeepLTranslationService(apiKey: apiKey, doNotTranslateTerms: doNotTranslateTerms);
+    try {
+      for (final locale in targetsToTranslate) {
+        final sourceText = _controllers[sourceLocale]?.text.trim() ?? '';
+        if (sourceText.isEmpty) continue;
 
-      try {
-        if (mounted) {
-          setState(() {
-            _statusMessage = 'Übersetze ${locale.toUpperCase()} (${_batchDone + 1}/$_batchTotal)';
-          });
-        }
-        final translated = await service.translate(text: sourceText, targetLang: locale, sourceLang: sourceLocale);
+        try {
+          if (mounted) {
+            setState(() {
+              _statusMessage = 'Übersetze ${locale.toUpperCase()} (${_batchDone + 1}/$_batchTotal)';
+            });
+          }
+          final translated = await service.translate(text: sourceText, targetLang: locale, sourceLang: sourceLocale);
 
-        if (!mounted) return;
-        setState(() {
-          _controllers[locale]?.text = translated;
-          _batchDone += 1;
-        });
-        await _persistLocales({locale});
-        didTranslate = true;
-      } on DeepLQuotaExceededException catch (e) {
-        widget.repository.markQuotaExceeded();
-        if (mounted) {
+          if (!mounted) return;
           setState(() {
-            _statusMessage = 'Abgebrochen: DeepL-Quota erreicht.';
+            _controllers[locale]?.text = translated;
+            _batchDone += 1;
           });
+          await _persistLocales({locale});
+          didTranslate = true;
+        } on DeepLQuotaExceededException catch (e) {
+          widget.repository.markQuotaExceeded();
+          if (mounted) {
+            setState(() {
+              _statusMessage = 'Abgebrochen: DeepL-Quota erreicht.';
+            });
+          }
+          _showSnack('DeepL-Quota erreicht: $e');
+          break;
+        } catch (e) {
+          if (mounted) {
+            setState(() {
+              _error = e.toString();
+              _statusMessage = 'Fehler bei ${locale.toUpperCase()}.';
+            });
+          }
+          _showSnack('DeepL: $e');
         }
-        _showSnack('DeepL-Quota erreicht: $e');
-        break;
-      } catch (e) {
-        if (mounted) {
-          setState(() {
-            _error = e.toString();
-            _statusMessage = 'Fehler bei ${locale.toUpperCase()}.';
-          });
-        }
-        _showSnack('DeepL: $e');
       }
+    } finally {
+      service.close();
     }
 
-    service.close();
     if (didTranslate) {
       await _regenerateLocalizations();
     }

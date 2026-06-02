@@ -3663,6 +3663,17 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Online adgangsanmodning til Wasserverband Tecklenburger Land.';
 
   @override
+  String get wtlAccessRequestRegularMeterIdHint =>
+      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdMissingInput =>
+      'Please enter your meter number with at least 7 digits and your customer number.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+
+  @override
   String get wtlAccessRequestSuccess => 'Adgangsanmodning oprettet.';
 
   @override

@@ -3569,6 +3569,17 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => '바서버밴드 테클렌부르거 랜드에 대한 온라인 액세스 요청.';
 
   @override
+  String get wtlAccessRequestRegularMeterIdHint =>
+      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdMissingInput =>
+      'Please enter your meter number with at least 7 digits and your customer number.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+
+  @override
   String get wtlAccessRequestSuccess => '액세스 요청이 생성되었습니다.';
 
   @override

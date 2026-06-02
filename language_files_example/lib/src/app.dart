@@ -393,6 +393,14 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       return;
     }
 
+    late final List<String> doNotTranslateTerms;
+    try {
+      doNotTranslateTerms = await repository.loadDoNotTranslateTerms();
+    } catch (e) {
+      _showSnack('do_not_translate.json konnte nicht gelesen werden: $e');
+      return;
+    }
+
     final totalMissing = _countMissingTranslations();
     setState(() {
       _translatingMissing = true;
@@ -405,7 +413,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       _missingStatus = totalMissing == 0 ? 'Keine fehlenden Übersetzungen gefunden.' : 'Starte Übersetzung...';
     });
 
-    final service = DeepLTranslationService(apiKey: apiKey);
+    final service = DeepLTranslationService(apiKey: apiKey, doNotTranslateTerms: doNotTranslateTerms);
     var didTranslate = false;
     var quotaHit = false;
 

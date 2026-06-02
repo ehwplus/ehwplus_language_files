@@ -3684,6 +3684,17 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'വാസ്സർഫെർബാൻഡ് ടെക്ലൻബർഗർ ലാൻഡിനായുള്ള ഓൺലൈൻ ആക്സസ് അഭ്യർത്ഥന.';
 
   @override
+  String get wtlAccessRequestRegularMeterIdHint =>
+      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdMissingInput =>
+      'Please enter your meter number with at least 7 digits and your customer number.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+
+  @override
   String get wtlAccessRequestSuccess => 'ആക്‌സസ് അഭ്യർത്ഥന സൃഷ്ടിച്ചു.';
 
   @override

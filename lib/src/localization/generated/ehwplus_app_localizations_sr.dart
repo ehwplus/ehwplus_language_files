@@ -3680,6 +3680,17 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Онлајн захтев за приступ за Водено удружење Текленбургер Ланд.';
 
   @override
+  String get wtlAccessRequestRegularMeterIdHint =>
+      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdMissingInput =>
+      'Please enter your meter number with at least 7 digits and your customer number.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+
+  @override
   String get wtlAccessRequestSuccess => 'Захтев за приступ је креиран.';
 
   @override

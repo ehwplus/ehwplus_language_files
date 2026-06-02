@@ -3685,6 +3685,17 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Online-Zugriffsanfrage für den Wasserverband Tecklenburger Land.';
 
   @override
+  String get wtlAccessRequestRegularMeterIdHint =>
+      'Geben Sie die Zählernummer von Ihrem Wasserzähler ein. Beispiel: 8 AXI10 0796 2977.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdMissingInput =>
+      'Bitte geben Sie Ihre Zählernummer mit mindestens 7 Ziffern und ihre Kundennummer ein.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdWarning => 'Bitte geben Sie eine Zählernummer mit mindestens 7 Ziffern ein.';
+
+  @override
   String get wtlAccessRequestSuccess => 'Zugriffsanfrage erstellt.';
 
   @override

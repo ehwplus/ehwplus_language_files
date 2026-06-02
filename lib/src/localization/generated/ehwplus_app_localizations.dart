@@ -6449,6 +6449,24 @@ abstract class EhwplusAppLocalizations {
   /// **'Online access request for Wasserverband Tecklenburger Land.'**
   String get wtlAccessRequestOnlineOnlyDescription;
 
+  /// No description provided for @wtlAccessRequestRegularMeterIdHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.'**
+  String get wtlAccessRequestRegularMeterIdHint;
+
+  /// No description provided for @wtlAccessRequestRegularMeterIdMissingInput.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your meter number with at least 7 digits and your customer number.'**
+  String get wtlAccessRequestRegularMeterIdMissingInput;
+
+  /// No description provided for @wtlAccessRequestRegularMeterIdWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a meter number with at least 7 digits.'**
+  String get wtlAccessRequestRegularMeterIdWarning;
+
   /// No description provided for @wtlAccessRequestSuccess.
   ///
   /// In en, this message translates to:

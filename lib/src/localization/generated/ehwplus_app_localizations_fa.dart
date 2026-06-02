@@ -3651,6 +3651,17 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'درخواست دسترسی آنلاین برای واتر‌فرباند تکِلن‌برگر لاند.';
 
   @override
+  String get wtlAccessRequestRegularMeterIdHint =>
+      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdMissingInput =>
+      'Please enter your meter number with at least 7 digits and your customer number.';
+
+  @override
+  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+
+  @override
   String get wtlAccessRequestSuccess => 'درخواست دسترسی ایجاد شد.';
 
   @override

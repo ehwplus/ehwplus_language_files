@@ -39,6 +39,21 @@ class ArbRepository {
     return documents;
   }
 
+  Future<List<String>> loadDoNotTranslateTerms() async {
+    if (kIsWeb) return const [];
+
+    final file = File('$arbDirectory${Platform.pathSeparator}do_not_translate.json');
+    if (!await file.exists()) return const [];
+
+    final decoded = json.decode(await file.readAsString());
+    if (decoded is! List) {
+      throw FormatException('do_not_translate.json muss ein JSON-Array enthalten.', file.path);
+    }
+
+    return decoded.map((value) => value.toString().trim()).where((value) => value.isNotEmpty).toSet().toList()
+      ..sort((a, b) => b.length.compareTo(a.length));
+  }
+
   Future<ArbDocument> _readFile(File file) async {
     final fileName = _fileName(file.path);
     final rawContent = await file.readAsString();
