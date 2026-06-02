@@ -102,13 +102,16 @@ class DeepLTranslationService {
 
   Future<String> _translatePlain(String text, {required String targetLang, String? sourceLang}) async {
     final hasPlaceholders = _placeholderRegex.hasMatch(text);
-    final preparedText = hasPlaceholders ? _wrapIgnoredTags(text) : text;
+    final hasIgnoredTags = _ignoredXmlTagRegex.hasMatch(text);
+    final usesTagHandling = hasPlaceholders || hasIgnoredTags;
+    final taggedText = hasPlaceholders ? _wrapIgnoredTags(text) : text;
+    final preparedText = usesTagHandling ? _escapeXmlText(taggedText) : taggedText;
     final uri = Uri.parse('$baseUrl/v2/translate');
     final response = await _postTranslateWithBackoff(uri, {
       'text': preparedText,
       'target_lang': _normalizeLang(targetLang),
       if (sourceLang != null && sourceLang.trim().isNotEmpty) 'source_lang': _normalizeLang(sourceLang),
-      if (hasPlaceholders) ...{'tag_handling': 'xml', 'ignore_tags': _ignoreTagName, 'tag_handling_version': 'v2'},
+      if (usesTagHandling) ...{'tag_handling': 'xml', 'ignore_tags': _ignoreTags, 'tag_handling_version': 'v2'},
     });
 
     if (response.statusCode < 200 || response.statusCode >= 300) {
@@ -126,7 +129,7 @@ class DeepLTranslationService {
     if (translations is List && translations.isNotEmpty) {
       final first = translations.first;
       if (first is Map && first['text'] != null) {
-        final translated = first['text'].toString();
+        final translated = usesTagHandling ? _unescapeXmlText(first['text'].toString()) : first['text'].toString();
         return hasPlaceholders ? _unwrapIgnoredTags(translated) : translated;
       }
     }
@@ -156,6 +159,23 @@ class DeepLTranslationService {
 
   String _unwrapIgnoredTags(String text) {
     return text.replaceAll('<$_ignoreTagName>', '').replaceAll('</$_ignoreTagName>', '');
+  }
+
+  String _escapeXmlText(String text) {
+    return text.splitMapJoin(_allowedXmlTagRegex, onMatch: (match) => match.group(0)!, onNonMatch: _escapeXmlTextNode);
+  }
+
+  String _escapeXmlTextNode(String text) {
+    return text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+  }
+
+  String _unescapeXmlText(String text) {
+    return text
+        .replaceAll('&lt;', '<')
+        .replaceAll('&gt;', '>')
+        .replaceAll('&quot;', '"')
+        .replaceAll('&apos;', "'")
+        .replaceAll('&amp;', '&');
   }
 
   void close() {
@@ -300,7 +320,10 @@ class _IcuOption {
 }
 
 final _placeholderRegex = RegExp(r'\{[a-zA-Z0-9_]+\}');
+final _ignoredXmlTagRegex = RegExp(r'</?x>');
+final _allowedXmlTagRegex = RegExp(r'</?(?:arbvar|x)>');
 const String _ignoreTagName = 'arbvar';
+const String _ignoreTags = 'arbvar,x';
 const Set<String> _icuTypes = {'plural', 'select', 'selectordinal'};
 
 class DeepLQuotaExceededException implements Exception {
