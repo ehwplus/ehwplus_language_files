@@ -2530,6 +2530,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Funkwasserzähler';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'Dieser Stromzähler enthält schon manuelle Ablesungen. Deaktivieren Sie \"Daten automatisch beziehen\" und legen Sie einen neuen Zähler für automatisch bezogene Daten an.';
+
+  @override
   String get smartMeterErrorNoData => 'Es gibt leider keine Daten, welche die App anzeigen könnte.';
 
   @override
@@ -2540,6 +2544,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'Daten automatisch beziehen';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

@@ -4541,6 +4541,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Radio water meters'**
   String get smartMeterCountersTitle;
 
+  /// No description provided for @electricitySmartMeterManualReadingsWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.'**
+  String get electricitySmartMeterManualReadingsWarning;
+
   /// No description provided for @smartMeterErrorNoData.
   ///
   /// In en, this message translates to:
@@ -4564,6 +4570,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Obtain data automatically'**
   String get smartMeterObtainDataAutomatically;
+
+  /// No description provided for @smartMeterProviderPowerfox.
+  ///
+  /// In en, this message translates to:
+  /// **'Powerfox'**
+  String get smartMeterProviderPowerfox;
 
   /// No description provided for @smartMeterProviderTibber.
   ///

@@ -2521,6 +2521,10 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'کنتورهای آب رادیویی';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'متأسفانه، هیچ داده ای وجود ندارد که برنامه بتواند نمایش دهد.';
 
   @override
@@ -2531,6 +2535,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'داده‌ها را به‌طور خودکار به‌دست آورید';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

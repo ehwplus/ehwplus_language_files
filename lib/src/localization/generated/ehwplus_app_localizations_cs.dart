@@ -2528,6 +2528,10 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Rádiové vodoměry';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'Bohužel neexistují žádná data, která by aplikace mohla zobrazit.';
 
   @override
@@ -2538,6 +2542,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'Získejte data automaticky';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

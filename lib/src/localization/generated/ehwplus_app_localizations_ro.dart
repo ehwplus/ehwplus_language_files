@@ -2540,6 +2540,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Contoare de apă radio';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'Din păcate, nu există date pe care aplicația să le poată afișa.';
 
   @override
@@ -2550,6 +2554,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'Obținerea automată a datelor';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

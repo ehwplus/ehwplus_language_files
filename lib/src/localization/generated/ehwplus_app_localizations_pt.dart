@@ -2521,6 +2521,10 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Medidores de água inteligentes';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'Infelizmente, não há dados que o aplicativo possa exibir.';
 
   @override
@@ -2531,6 +2535,9 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'Obter dados automaticamente';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

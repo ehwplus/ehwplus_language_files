@@ -2539,6 +2539,10 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Pengukur air radio';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'Sayangnya, tidak ada data yang dapat ditampilkan oleh aplikasi ini.';
 
   @override
@@ -2549,6 +2553,9 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'Mendapatkan data secara otomatis';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

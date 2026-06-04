@@ -2540,6 +2540,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Rádiós vízmérők';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'Sajnos nincsenek olyan adatok, amelyeket az alkalmazás meg tudna jeleníteni.';
 
   @override
@@ -2550,6 +2554,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'Automatikus adatszerzés';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

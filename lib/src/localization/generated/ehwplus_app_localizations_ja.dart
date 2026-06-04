@@ -2483,6 +2483,10 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => '無線式水道メーター';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => '残念ながら、アプリで表示できるデータはありません。';
 
   @override
@@ -2493,6 +2497,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'データを自動的に取得する';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'ティバー';

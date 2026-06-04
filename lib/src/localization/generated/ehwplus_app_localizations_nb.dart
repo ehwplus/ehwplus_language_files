@@ -2528,6 +2528,10 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radio vannmålere';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'Dessverre er det ingen data som appen kan vise.';
 
   @override
@@ -2538,6 +2542,9 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'Få data automatisk';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'Tibber';

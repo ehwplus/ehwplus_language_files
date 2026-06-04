@@ -2533,6 +2533,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'ရေဒီယိုရေမီတာ';
 
   @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
+
+  @override
   String get smartMeterErrorNoData => 'ကံမကောင်းစွာဖြင့်အက်ပလီကေးရှင်းပြနိုင်သည့်အချက်အလက်မရှိပါ။';
 
   @override
@@ -2543,6 +2547,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterObtainDataAutomatically => 'ဒေတာကိုအလိုအလျောက်ရယူပါ';
+
+  @override
+  String get smartMeterProviderPowerfox => 'Powerfox';
 
   @override
   String get smartMeterProviderTibber => 'ပြွန်ကိုယ်များသော';
