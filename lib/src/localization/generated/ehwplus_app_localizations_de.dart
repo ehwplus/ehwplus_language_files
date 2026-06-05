@@ -772,6 +772,22 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get contractReminder => 'Vertragserinnerung';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Kündigungsfrist $weeks Wochen',
+      one: 'Kündigungsfrist 1 Woche',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Endet $date';
+  }
+
+  @override
   String get contractStart => 'Vertragsbeginn';
 
   @override
@@ -3521,6 +3537,11 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
           'Ihr Funkwasserzähler $waterSupplier erkennt unerwartete Verbräuche. Falls gewünscht, erhalten Sie in so einem Fall eine Benachrichtigung.',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'von $waterSupplier';
   }
 
   @override

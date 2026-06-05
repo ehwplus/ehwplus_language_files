@@ -772,6 +772,22 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get contractReminder => 'Lepingu meeldetuletus';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Cancellation period $weeks weeks',
+      one: 'Cancellation period 1 week',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Ends $date';
+  }
+
+  @override
   String get contractStart => 'Lepingu alguskuupäev';
 
   @override
@@ -3503,6 +3519,11 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
           'Sinu juhtmevaba veearvesti $waterSupplier tuvastab ootamatu tarbimise. Soovi korral saad sellest teavituse.',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'from $waterSupplier';
   }
 
   @override

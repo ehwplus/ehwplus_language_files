@@ -766,6 +766,22 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get contractReminder => 'การแจ้งเตือนสัญญา';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Cancellation period $weeks weeks',
+      one: 'Cancellation period 1 week',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Ends $date';
+  }
+
+  @override
   String get contractStart => 'วันที่เริ่มต้นสัญญา';
 
   @override
@@ -3503,6 +3519,11 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
           'มิเตอร์น้ำไร้สาย $waterSupplier ตรวจจับปริมาณการใช้น้ำที่ไม่คาดคิด หากต้องการ คุณจะได้รับการแจ้งเตือนในกรณีดังกล่าว',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'from $waterSupplier';
   }
 
   @override

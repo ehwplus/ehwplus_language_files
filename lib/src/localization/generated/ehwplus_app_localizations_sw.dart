@@ -768,6 +768,22 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get contractReminder => 'Ukumbusho wa mkataba';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Cancellation period $weeks weeks',
+      one: 'Cancellation period 1 week',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Ends $date';
+  }
+
+  @override
   String get contractStart => 'Tarehe ya kuanza mkataba';
 
   @override
@@ -3513,6 +3529,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
           'Mita yako ya maji isiyo na waya phtoken0 hugundua matumizi yasiyotarajiwa. Ikiwa inataka, utapokea arifa katika kesi kama hiyo.',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'from $waterSupplier';
   }
 
   @override

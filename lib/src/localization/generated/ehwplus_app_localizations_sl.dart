@@ -769,6 +769,22 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get contractReminder => 'Opomnik za pogodbo';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Cancellation period $weeks weeks',
+      one: 'Cancellation period 1 week',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Ends $date';
+  }
+
+  @override
   String get contractStart => 'Datum začetka pogodbe';
 
   @override
@@ -3518,6 +3534,11 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
           'Vaš brezžični vodomer $waterSupplier zazna nepričakovano porabo. Če želite, boste v takem primeru prejeli obvestilo.',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'from $waterSupplier';
   }
 
   @override

@@ -771,6 +771,22 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get contractReminder => 'Contractherinnering';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Cancellation period $weeks weeks',
+      one: 'Cancellation period 1 week',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Ends $date';
+  }
+
+  @override
   String get contractStart => 'Contractstartdatum';
 
   @override
@@ -3525,6 +3541,11 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
           'Uw draadloze watermeter $waterSupplier detecteert onverwacht verbruik. Indien gewenst ontvangt u in zo\'n geval een melding.',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'from $waterSupplier';
   }
 
   @override

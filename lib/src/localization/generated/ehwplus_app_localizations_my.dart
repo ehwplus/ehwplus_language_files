@@ -773,6 +773,22 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get contractReminder => 'စာချုပ်သတိပေးချက်';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Cancellation period $weeks weeks',
+      one: 'Cancellation period 1 week',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Ends $date';
+  }
+
+  @override
   String get contractStart => 'ကန်ထရိုက်စတင်ရက်စွဲ';
 
   @override
@@ -3520,6 +3536,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
           'သင်၏ကြိုးမဲ့ရေမီတာ Phtoken0 သည်မမျှော်လင့်သောစားသုံးမှုကိုရှာဖွေတွေ့ရှိသည်။ ဆန္ဒရှိလျှင်, သင်သည်ထိုကဲ့သို့သောကိစ္စတွင်အကြောင်းကြားစာကိုလက်ခံရရှိလိမ့်မည်။',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'from $waterSupplier';
   }
 
   @override

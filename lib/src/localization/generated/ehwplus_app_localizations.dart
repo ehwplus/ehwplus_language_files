@@ -1445,6 +1445,18 @@ abstract class EhwplusAppLocalizations {
   /// **'Contract reminder'**
   String get contractReminder;
 
+  /// No description provided for @contractReminderCancellationPeriod.
+  ///
+  /// In en, this message translates to:
+  /// **'{weeks, plural, =1 {Cancellation period 1 week} other {Cancellation period {weeks} weeks}}'**
+  String contractReminderCancellationPeriod(int weeks);
+
+  /// No description provided for @contractReminderEndsAt.
+  ///
+  /// In en, this message translates to:
+  /// **'Ends {date}'**
+  String contractReminderEndsAt(String date);
+
   /// No description provided for @contractStart.
   ///
   /// In en, this message translates to:
@@ -6178,6 +6190,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'{count, plural, =1 {Your wireless water meter {waterSupplier} detects unexpected consumption. If desired, you will receive a notification in such a case.} other {Your wireless water meters {waterSupplier} detect unexpected consumption. If desired, you will receive a notification in such cases.}}'**
   String waterMeterEventsInformation(num count, String waterSupplier);
+
+  /// No description provided for @waterMeterEventsSupplier.
+  ///
+  /// In en, this message translates to:
+  /// **'from {waterSupplier}'**
+  String waterMeterEventsSupplier(String waterSupplier);
 
   /// No description provided for @waterSupplier.
   ///

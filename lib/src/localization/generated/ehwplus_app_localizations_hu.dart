@@ -771,6 +771,22 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get contractReminder => 'Emlékeztető szerződés';
 
   @override
+  String contractReminderCancellationPeriod(int weeks) {
+    String _temp0 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'Cancellation period $weeks weeks',
+      one: 'Cancellation period 1 week',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String contractReminderEndsAt(String date) {
+    return 'Ends $date';
+  }
+
+  @override
   String get contractStart => 'A szerződés kezdete';
 
   @override
@@ -3525,6 +3541,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
           'A vezeték nélküli vízór${waterSupplier}ja észleli a váratlan fogyasztást. Kívánság szerint ilyen esetben értesítést kap.',
     );
     return '$_temp0';
+  }
+
+  @override
+  String waterMeterEventsSupplier(String waterSupplier) {
+    return 'from $waterSupplier';
   }
 
   @override
