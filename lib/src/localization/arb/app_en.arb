@@ -1278,6 +1278,7 @@
   "stove": "Stove",
   "stromGedachtAgreement": "I agree that my postal code (if provided) will be transmitted to TransnetBW to retrieve StromGedacht notices.",
   "subscribeToSmartMeterInfocodeEvents": "I would like to be notified of unexpected consumption",
+  "smartMeterNotificationAuthenticationRequired": "You must be signed in to be notified of unexpected consumption.",
   "supplementaryPayment": "Supplementary payment",
   "support": "Support/Feedback",
   "supportBug": "Bug",

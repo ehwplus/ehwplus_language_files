@@ -2679,6 +2679,10 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get subscribeToSmartMeterInfocodeEvents => 'Jag skulle vilja bli meddelad om oväntad konsumtion';
 
   @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'You must be signed in to be notified of unexpected consumption.';
+
+  @override
   String get supplementaryPayment => 'Tilläggsbetalning';
 
   @override

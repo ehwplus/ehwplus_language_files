@@ -2684,6 +2684,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get subscribeToSmartMeterInfocodeEvents => 'Haluan saada ilmoituksen odottamattomasta kulutuksesta';
 
   @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'You must be signed in to be notified of unexpected consumption.';
+
+  @override
   String get supplementaryPayment => 'Lisämaksu';
 
   @override

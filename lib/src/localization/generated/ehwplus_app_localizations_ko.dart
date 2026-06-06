@@ -2635,6 +2635,10 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get subscribeToSmartMeterInfocodeEvents => '예상치 못한 소비 발생 시 알림을 받고 싶습니다';
 
   @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'You must be signed in to be notified of unexpected consumption.';
+
+  @override
   String get supplementaryPayment => '추가 납부금';
 
   @override

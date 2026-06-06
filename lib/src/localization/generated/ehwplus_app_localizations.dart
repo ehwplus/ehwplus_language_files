@@ -4793,6 +4793,12 @@ abstract class EhwplusAppLocalizations {
   /// **'I would like to be notified of unexpected consumption'**
   String get subscribeToSmartMeterInfocodeEvents;
 
+  /// No description provided for @smartMeterNotificationAuthenticationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'You must be signed in to be notified of unexpected consumption.'**
+  String get smartMeterNotificationAuthenticationRequired;
+
   /// No description provided for @supplementaryPayment.
   ///
   /// In en, this message translates to:

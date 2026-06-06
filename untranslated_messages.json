@@ -2,6 +2,7 @@
   "af": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -15,6 +16,7 @@
   "ar": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -28,6 +30,7 @@
   "bg": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -41,6 +44,7 @@
   "bs": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -54,6 +58,7 @@
   "cs": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -67,6 +72,7 @@
   "da": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -80,6 +86,7 @@
   "el": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -93,6 +100,7 @@
   "es": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -106,6 +114,7 @@
   "et": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -119,6 +128,7 @@
   "fa": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -132,6 +142,7 @@
   "fi": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -145,6 +156,7 @@
   "fr": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -158,6 +170,7 @@
   "hi": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -171,6 +184,7 @@
   "hr": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -184,6 +198,7 @@
   "hu": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -197,6 +212,7 @@
   "id": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -210,6 +226,7 @@
   "it": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -223,6 +240,7 @@
   "ja": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -236,6 +254,7 @@
   "ko": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -249,6 +268,7 @@
   "lt": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -262,6 +282,7 @@
   "ml": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -275,6 +296,7 @@
   "my": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -288,6 +310,7 @@
   "nb": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -301,6 +324,7 @@
   "nl": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -314,6 +338,7 @@
   "pl": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -327,6 +352,7 @@
   "pt": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -340,6 +366,7 @@
   "ro": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -353,6 +380,7 @@
   "ru": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -366,6 +394,7 @@
   "sl": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -379,6 +408,7 @@
   "sr": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -392,6 +422,7 @@
   "sv": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -405,6 +436,7 @@
   "sw": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -418,6 +450,7 @@
   "th": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -431,6 +464,7 @@
   "tr": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -444,6 +478,7 @@
   "uk": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -457,6 +492,7 @@
   "vi": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",
@@ -470,6 +506,7 @@
   "zh": [
     "contractReminderCancellationPeriod",
     "contractReminderEndsAt",
+    "smartMeterNotificationAuthenticationRequired",
     "waterMeterEventsSupplier",
     "watersupplierAccessRequestApprovedPendingOnboarding",
     "watersupplierAccessRequestPostponed",

@@ -880,6 +880,7 @@
   "stove": "Kaminofen / Pelletheizung",
   "stromGedachtAgreement": "Ich bin damit einverstanden, dass meine Postleitzahl (falls angegeben) an TransnetBW übermittelt wird, um StromGedacht-Hinweise zu erhalten.",
   "subscribeToSmartMeterInfocodeEvents": "Ich möchte über unerwartete Verbräuche benachrichtigt werden",
+  "smartMeterNotificationAuthenticationRequired": "Sie müssen angemeldet sein, um über unerwartete Verbräuche benachrichtigt zu werden.",
   "supplementaryPayment": "Nachzahlung",
   "support": "Unterstützung/Feedback",
   "supportBug": "Fehler",
