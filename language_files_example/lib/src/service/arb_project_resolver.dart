@@ -30,7 +30,7 @@ class ArbProjectResolver {
   Future<List<ArbProject>> discover(String selectedDirectory) async {
     final directory = Directory(selectedDirectory);
     if (!await directory.exists()) {
-      throw FileSystemException('Ordner nicht gefunden', selectedDirectory);
+      throw FileSystemException('Folder not found', selectedDirectory);
     }
 
     final directProject = await _resolveDirectory(directory);
@@ -65,11 +65,11 @@ class ArbProjectResolver {
   Future<ArbProject> resolveArbDirectory(String arbDirectoryPath) async {
     final arbDirectory = Directory(arbDirectoryPath);
     if (!await arbDirectory.exists()) {
-      throw FileSystemException('ARB-Ordner nicht gefunden', arbDirectoryPath);
+      throw FileSystemException('ARB folder not found', arbDirectoryPath);
     }
 
     if (!await _containsArbFiles(arbDirectory)) {
-      throw FileSystemException('Keine ARB-Dateien im Ordner gefunden', arbDirectory.path);
+      throw FileSystemException('No ARB files found in folder', arbDirectory.path);
     }
 
     final projectRoot = _findPubspecRoot(arbDirectory);
@@ -114,7 +114,7 @@ class ArbProjectResolver {
     final rawContent = await file.readAsString();
     final yaml = loadYaml(rawContent);
     if (yaml is! YamlMap) {
-      throw FormatException('l10n.yaml muss ein YAML-Objekt enthalten.', file.path);
+      throw FormatException('l10n.yaml must contain a YAML object.', file.path);
     }
 
     final arbDirValue = _yamlString(yaml, 'arb-dir') ?? 'lib/l10n';

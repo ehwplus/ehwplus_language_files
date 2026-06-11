@@ -1,0 +1,202 @@
+{
+  "@@locale": "de",
+  "appTitle": "ARB Editor",
+  "openProjectOrArbFolderFirst": "Bitte ein Flutter-Projekt oder einen ARB-Ordner öffnen.",
+  "folderPickerUnavailableOnWeb": "Ordnerauswahl ist im Web nicht verfügbar.",
+  "openProjectOrArbFolderDialogTitle": "Flutter-Projekt oder ARB-Ordner öffnen",
+  "noL10nOrArbFilesFound": "In diesem Ordner wurden keine l10n.yaml und keine ARB-Dateien gefunden.",
+  "selectL10nTargetTitle": "L10n-Target auswählen",
+  "deepLKeySet": "DeepL-Key gesetzt",
+  "deepLKeyMissing": "DeepL-Key fehlt",
+  "openProjectFirst": "Bitte zuerst ein Projekt öffnen.",
+  "doNotTranslateReadFailed": "do_not_translate.json konnte nicht gelesen werden: {error}",
+  "@doNotTranslateReadFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "doNotTranslateSaved": "do_not_translate.json wurde gespeichert.",
+  "doNotTranslateSaveFailed": "do_not_translate.json konnte nicht gespeichert werden: {error}",
+  "@doNotTranslateSaveFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "enterDeepLApiKey": "Bitte DeepL API-Key eintragen (DEEPL_AUTH_KEY).",
+  "noArbLocalesAvailable": "Keine ARB-Sprachen verfügbar.",
+  "noMissingTranslationsFound": "Keine fehlenden Übersetzungen gefunden.",
+  "startTranslation": "Starte Übersetzung...",
+  "translatingKeyToLocale": "Übersetze {key} → {locale}",
+  "@translatingKeyToLocale": {
+    "placeholders": {
+      "key": {},
+      "locale": {}
+    }
+  },
+  "deepLQuotaReachedWithError": "DeepL-Quota erreicht: {error}",
+  "@deepLQuotaReachedWithError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "deepLQuotaReached": "DeepL-Quota erreicht.",
+  "regenerationFailed": "Regenerierung fehlgeschlagen: {error}",
+  "@regenerationFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "abortedBecauseOfQuota": "Abgebrochen wegen Quota.",
+  "translationCompleted": "Übersetzung abgeschlossen.",
+  "localeUnavailable": "Locale {locale} ist nicht verfügbar.",
+  "@localeUnavailable": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "dartFilesRegenerated": "Dart-Dateien wurden neu generiert.",
+  "keyAdded": "Key {key} wurde hinzugefügt.",
+  "@keyAdded": {
+    "placeholders": {
+      "key": {}
+    }
+  },
+  "saveFailed": "Fehler beim Speichern: {error}",
+  "@saveFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "noLocaleTemplateFound": "Keine Vorlage zum Anlegen der Sprache gefunden.",
+  "localeAdded": "{locale} wurde hinzugefügt.",
+  "@localeAdded": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "languageAddFailed": "Sprache konnte nicht hinzugefügt werden: {error}",
+  "@languageAddFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "editDoNotTranslateTooltip": "do_not_translate.json bearbeiten",
+  "addMissingLanguageTooltip": "Fehlende Sprache hinzufügen",
+  "translateMissingButton": "Fehlende übersetzen",
+  "addNewKeyTooltip": "Neuen Key hinzufügen",
+  "reloadTooltip": "Neu laden",
+  "quotaDisabledMessage": "DeepL-Quota erreicht. Übersetzungen sind aktuell deaktiviert.",
+  "status": "Status",
+  "currentKeyLabel": "Key: {key}",
+  "@currentKeyLabel": {
+    "placeholders": {
+      "key": {}
+    }
+  },
+  "currentLocaleLabel": "Locale: {locale}",
+  "@currentLocaleLabel": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "searchLabel": "Filtern nach Text oder Key (alle Sprachen)",
+  "entryCount": "{count} Einträge",
+  "@entryCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "openProjectAction": "Projekt öffnen",
+  "retryAction": "Erneut versuchen",
+  "noEntriesFound": "Keine Einträge gefunden.",
+  "noProjectOpen": "Kein Projekt geöffnet",
+  "arbFolderType": "ARB-Ordner",
+  "openAction": "Öffnen",
+  "switchAction": "Wechseln",
+  "loadArbFilesFailedTitle": "Konnte ARB-Dateien nicht laden",
+  "doNotTranslateTitle": "do_not_translate.json",
+  "termsLabel": "Begriffe",
+  "oneLinePerEntry": "Eine Zeile pro Eintrag",
+  "cancelAction": "Abbrechen",
+  "saveAction": "Speichern",
+  "addLanguageTitle": "Sprache hinzufügen",
+  "filterLabel": "Filtern",
+  "noLanguageFound": "Keine Sprache gefunden.",
+  "addTranslationValidationEmpty": "Key und Text dürfen nicht leer sein.",
+  "keyAlreadyExists": "Key existiert bereits.",
+  "addTextTitle": "Neuen Text hinzufügen",
+  "keyLabel": "Key",
+  "languageLabel": "Sprache",
+  "textLabel": "Text",
+  "addAction": "Hinzufügen",
+  "deleteKeyTitle": "Key löschen?",
+  "deleteKeyQuestion": "Soll der Key \"{key}\" aus allen ARB-Dateien entfernt werden?",
+  "@deleteKeyQuestion": {
+    "placeholders": {
+      "key": {}
+    }
+  },
+  "deleteAction": "Löschen",
+  "translationImpossibleQuota": "DeepL-Quota erreicht. Übersetzung nicht möglich.",
+  "noSourceLocaleWithText": "Keine Quellsprache mit Text gefunden.",
+  "sourceTextEmpty": "Quelltext für {locale} ist leer.",
+  "@sourceTextEmpty": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "translatingTo": "Übersetze nach {locale}...",
+  "@translatingTo": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "translationSaved": "Übersetzung für {locale} gespeichert.",
+  "@translationSaved": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "abortedQuota": "Abgebrochen: DeepL-Quota erreicht.",
+  "translationError": "Fehler bei der Übersetzung.",
+  "allTargetLanguagesHaveText": "Alle Zielsprachen haben bereits einen Text.",
+  "startTranslationForLanguageCount": "Starte Übersetzung ({count} Sprachen)...",
+  "@startTranslationForLanguageCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "translatingLocaleProgress": "Übersetze {locale} ({done}/{total})",
+  "@translatingLocaleProgress": {
+    "placeholders": {
+      "locale": {},
+      "done": {},
+      "total": {}
+    }
+  },
+  "translationErrorForLocale": "Fehler bei {locale}.",
+  "@translationErrorForLocale": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "editKeyTitle": "Key bearbeiten",
+  "keyMustNotBeEmpty": "Key darf nicht leer sein.",
+  "clearOtherLocalesLabel": "Bei Änderung\nandere Werte löschen",
+  "deleteKeyTooltip": "Key löschen",
+  "translateAllAction": "Alle übersetzen",
+  "textForLocale": "Text für {locale}",
+  "@textForLocale": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "translateLocaleTooltip": "Mit DeepL nach {locale} übersetzen",
+  "@translateLocaleTooltip": {
+    "placeholders": {
+      "locale": {}
+    }
+  },
+  "deepLApiKeyTitle": "DeepL API-Key",
+  "deepLApiKeyLabel": "DeepL API-Key"
+}

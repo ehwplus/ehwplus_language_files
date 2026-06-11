@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:language_files_example/src/localization/l10n.dart';
 
 class ApiKeyDialog extends StatefulWidget {
   const ApiKeyDialog({super.key, required this.initialValue});
@@ -27,13 +28,14 @@ class _ApiKeyDialogState extends State<ApiKeyDialog> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return AlertDialog(
-      title: const Text('DeepL API-Key'),
+      title: Text(l10n.deepLApiKeyTitle),
       content: TextField(
         controller: _controller,
         obscureText: _obscure,
         decoration: InputDecoration(
-          labelText: 'DeepL API-Key',
+          labelText: l10n.deepLApiKeyLabel,
           suffixIcon: IconButton(
             icon: Icon(_obscure ? Icons.visibility_off : Icons.visibility),
             onPressed: () => setState(() => _obscure = !_obscure),
@@ -41,11 +43,8 @@ class _ApiKeyDialogState extends State<ApiKeyDialog> {
         ),
       ),
       actions: [
-        TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
-        FilledButton(
-          onPressed: () => Navigator.of(context).pop(_controller.text.trim()),
-          child: const Text('Speichern'),
-        ),
+        TextButton(onPressed: () => Navigator.of(context).pop(), child: Text(l10n.cancelAction)),
+        FilledButton(onPressed: () => Navigator.of(context).pop(_controller.text.trim()), child: Text(l10n.saveAction)),
       ],
     );
   }

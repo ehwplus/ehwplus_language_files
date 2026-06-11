@@ -40,6 +40,12 @@ class ArbRepository {
   }
 
   Future<List<String>> loadDoNotTranslateTerms() async {
+    final terms = await loadDoNotTranslateTermsForEditing();
+    terms.sort((a, b) => b.length.compareTo(a.length));
+    return terms;
+  }
+
+  Future<List<String>> loadDoNotTranslateTermsForEditing() async {
     if (kIsWeb) return const [];
 
     final file = File('$arbDirectory${Platform.pathSeparator}do_not_translate.json');
@@ -47,11 +53,56 @@ class ArbRepository {
 
     final decoded = json.decode(await file.readAsString());
     if (decoded is! List) {
-      throw FormatException('do_not_translate.json muss ein JSON-Array enthalten.', file.path);
+      throw FormatException('do_not_translate.json must contain a JSON array.', file.path);
     }
 
-    return decoded.map((value) => value.toString().trim()).where((value) => value.isNotEmpty).toSet().toList()
-      ..sort((a, b) => b.length.compareTo(a.length));
+    return _sanitizeDoNotTranslateTerms(decoded.map((value) => value.toString()));
+  }
+
+  Future<void> saveDoNotTranslateTerms(Iterable<String> terms) async {
+    if (kIsWeb) {
+      throw UnsupportedError('Saving do_not_translate.json is not supported on web builds.');
+    }
+
+    final file = File('$arbDirectory${Platform.pathSeparator}do_not_translate.json');
+    final encoder = const JsonEncoder.withIndent('  ');
+    await file.writeAsString(encoder.convert(_sanitizeDoNotTranslateTerms(terms)));
+  }
+
+  Future<ArbDocument> createDocumentForLocale({required String locale, required ArbDocument template}) async {
+    if (kIsWeb) {
+      throw UnsupportedError('Creating ARB files is not supported on web builds.');
+    }
+
+    final normalizedLocale = locale.trim().toLowerCase();
+    if (normalizedLocale.isEmpty) {
+      throw ArgumentError.value(locale, 'locale', 'Locale must not be empty.');
+    }
+
+    final documentPath = _documentPathForLocale(normalizedLocale, template);
+    final file = File(documentPath);
+    if (await file.exists()) {
+      throw FileSystemException('ARB file already exists', documentPath);
+    }
+
+    final globalMetadata = Map<String, dynamic>.from(template.globalMetadata)..['@@locale'] = normalizedLocale;
+    final entries = <String, ArbEntry>{
+      for (final entry in template.entries.values)
+        entry.key: ArbEntry(
+          key: entry.key,
+          value: '',
+          metadata: entry.metadata == null ? null : Map<String, dynamic>.from(entry.metadata!),
+        ),
+    };
+
+    final document = ArbDocument(
+      locale: normalizedLocale,
+      path: documentPath,
+      entries: entries,
+      globalMetadata: globalMetadata,
+    );
+    await saveDocument(document);
+    return document;
   }
 
   Future<ArbDocument> _readFile(File file) async {
@@ -149,6 +200,43 @@ class ArbRepository {
   String _fileName(String path) {
     final segments = path.split(Platform.pathSeparator);
     return segments.isNotEmpty ? segments.last : path;
+  }
+
+  String _documentPathForLocale(String locale, ArbDocument template) {
+    final templateFileName = project.templateArbFile ?? _fileName(template.path);
+    final documentFileName = _replaceLocaleInFileName(templateFileName, template.locale, locale);
+    return '$arbDirectory${Platform.pathSeparator}$documentFileName';
+  }
+
+  String _replaceLocaleInFileName(String fileName, String templateLocale, String locale) {
+    final extensionIndex = fileName.toLowerCase().lastIndexOf('.arb');
+    if (extensionIndex == -1) {
+      return '${fileName}_$locale.arb';
+    }
+
+    final baseName = fileName.substring(0, extensionIndex);
+    final templateLocaleSuffix = templateLocale.replaceAll('-', '_');
+    if (baseName.endsWith('_$templateLocaleSuffix')) {
+      return '${baseName.substring(0, baseName.length - templateLocaleSuffix.length)}$locale.arb';
+    }
+
+    final match = RegExp(r'^(.*_)[A-Za-z]{2,3}(?:[_-][A-Za-z0-9]+)?$').firstMatch(baseName);
+    if (match != null) {
+      return '${match.group(1)}$locale.arb';
+    }
+
+    return '${baseName}_$locale.arb';
+  }
+
+  List<String> _sanitizeDoNotTranslateTerms(Iterable<String> terms) {
+    final result = <String>[];
+    final seen = <String>{};
+    for (final term in terms) {
+      final sanitized = term.trim();
+      if (sanitized.isEmpty || !seen.add(sanitized)) continue;
+      result.add(sanitized);
+    }
+    return result;
   }
 
   Directory? _findPubspecRoot(Directory start) {

@@ -4,6 +4,7 @@ import 'package:ehwplus_language_files/ehwplus_language_files.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:language_files_example/src/localization/l10n.dart';
 import 'package:language_files_example/src/model/arb_document.dart';
 import 'package:language_files_example/src/model/arb_entry.dart';
 import 'package:language_files_example/src/model/arb_project.dart';
@@ -22,8 +23,10 @@ class ArbEditorApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ARB Editor',
+      onGenerateTitle: (context) => context.l10n.appTitle,
       debugShowCheckedModeBanner: false,
+      localizationsDelegates: ArbEditorLocalizations.localizationsDelegates,
+      supportedLocales: ArbEditorLocalizations.supportedLocales,
       theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo), useMaterial3: true),
       home: const ArbOverviewPage(),
     );
@@ -120,7 +123,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     if (repository == null) {
       setState(() {
         _loading = false;
-        _error = 'Bitte ein Flutter-Projekt oder einen ARB-Ordner öffnen.';
+        _error = context.l10n.openProjectOrArbFolderFirst;
       });
       return;
     }
@@ -160,12 +163,13 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   Future<void> _openProjectPicker() async {
+    final l10n = context.l10n;
     if (kIsWeb) {
-      _showSnack('Ordnerauswahl ist im Web nicht verfügbar.');
+      _showSnack(l10n.folderPickerUnavailableOnWeb);
       return;
     }
 
-    final selectedPath = await FilePicker.getDirectoryPath(dialogTitle: 'Flutter-Projekt oder ARB-Ordner öffnen');
+    final selectedPath = await FilePicker.getDirectoryPath(dialogTitle: l10n.openProjectOrArbFolderDialogTitle);
     if (selectedPath == null) return;
 
     setState(() {
@@ -180,7 +184,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       if (projects.isEmpty) {
         setState(() {
           _loading = false;
-          _error = 'In diesem Ordner wurden keine l10n.yaml und keine ARB-Dateien gefunden.';
+          _error = l10n.noL10nOrArbFilesFound;
         });
         return;
       }
@@ -210,7 +214,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       context: context,
       builder: (context) {
         return SimpleDialog(
-          title: const Text('L10n-Target auswählen'),
+          title: Text(context.l10n.selectL10nTargetTitle),
           children: projects
               .map(
                 (project) => SimpleDialogOption(
@@ -244,10 +248,11 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   Widget _buildApiKeyChip() {
+    final l10n = context.l10n;
     final hasKey = _apiKeyController.text.trim().isNotEmpty;
     return InputChip(
       avatar: const Icon(Icons.vpn_key),
-      label: Text(hasKey ? 'DeepL-Key gesetzt' : 'DeepL-Key fehlt'),
+      label: Text(hasKey ? l10n.deepLKeySet : l10n.deepLKeyMissing),
       selected: hasKey,
       onPressed: _translatingMissing ? null : _openApiKeyDialog,
     );
@@ -274,6 +279,67 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     await _openApiKeyDialog();
     final updated = _apiKeyController.text.trim();
     return updated.isEmpty ? null : updated;
+  }
+
+  List<LocaleClass> _missingLocaleClasses() {
+    final availableLocales = _availableLocales.map((locale) => locale.toLowerCase()).toSet();
+    return LocaleClass.appLocalizationValues
+        .where((localeClass) => !availableLocales.contains(localeClass.languageCode))
+        .toList(growable: false);
+  }
+
+  ArbDocument? _templateDocumentForNewLocale() {
+    if (_documents.isEmpty) return null;
+
+    final templateArbFile = _project?.templateArbFile;
+    if (templateArbFile != null) {
+      for (final document in _documents) {
+        if (document.path.endsWith(templateArbFile)) {
+          return document;
+        }
+      }
+    }
+
+    for (final document in _documents) {
+      if (document.locale == 'en') {
+        return document;
+      }
+    }
+
+    return _documents.first;
+  }
+
+  Future<void> _openDoNotTranslateDialog() async {
+    final l10n = context.l10n;
+    final repository = _repository;
+    if (repository == null) {
+      _showSnack(l10n.openProjectFirst);
+      return;
+    }
+
+    late final List<String> terms;
+    try {
+      terms = await repository.loadDoNotTranslateTermsForEditing();
+    } catch (e) {
+      _showSnack(l10n.doNotTranslateReadFailed(e.toString()));
+      return;
+    }
+
+    if (!mounted) return;
+    final result = await showDialog<List<String>>(
+      context: context,
+      builder: (context) => _DoNotTranslateDialog(initialTerms: terms),
+    );
+    if (result == null) return;
+
+    try {
+      await repository.saveDoNotTranslateTerms(result);
+      if (mounted) {
+        _showSnack(l10n.doNotTranslateSaved);
+      }
+    } catch (e) {
+      _showSnack(l10n.doNotTranslateSaveFailed(e.toString()));
+    }
   }
 
   List<TranslationRecord> _buildRecords(List<ArbDocument> documents) {
@@ -376,20 +442,21 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   Future<void> _translateMissing() async {
     if (_translatingMissing || _quotaExceeded) return;
 
+    final l10n = context.l10n;
     final repository = _repository;
     if (repository == null) {
-      _showSnack('Bitte zuerst ein Projekt öffnen.');
+      _showSnack(l10n.openProjectFirst);
       return;
     }
 
     final apiKey = await _ensureApiKey();
     if (apiKey == null || apiKey.isEmpty) {
-      _showSnack('Bitte DeepL API-Key eintragen (DEEPL_AUTH_KEY).');
+      _showSnack(l10n.enterDeepLApiKey);
       return;
     }
 
     if (_availableLocales.isEmpty) {
-      _showSnack('Keine ARB-Sprachen verfügbar.');
+      _showSnack(l10n.noArbLocalesAvailable);
       return;
     }
 
@@ -397,7 +464,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     try {
       doNotTranslateTerms = await repository.loadDoNotTranslateTerms();
     } catch (e) {
-      _showSnack('do_not_translate.json konnte nicht gelesen werden: $e');
+      _showSnack(l10n.doNotTranslateReadFailed(e.toString()));
       return;
     }
 
@@ -410,7 +477,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       _missingDone = 0;
       _missingCurrentKey = null;
       _missingCurrentLocale = null;
-      _missingStatus = totalMissing == 0 ? 'Keine fehlenden Übersetzungen gefunden.' : 'Starte Übersetzung...';
+      _missingStatus = totalMissing == 0 ? l10n.noMissingTranslationsFound : l10n.startTranslation;
     });
 
     final service = DeepLTranslationService(apiKey: apiKey, doNotTranslateTerms: doNotTranslateTerms);
@@ -441,7 +508,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
             setState(() {
               _missingCurrentKey = record.key;
               _missingCurrentLocale = locale;
-              _missingStatus = 'Übersetze ${record.key} → ${locale.toUpperCase()}';
+              _missingStatus = l10n.translatingKeyToLocale(record.key, locale.toUpperCase());
             });
           }
           try {
@@ -456,10 +523,10 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
           } on DeepLQuotaExceededException catch (e) {
             repository.markQuotaExceeded();
             quotaHit = true;
-            _showSnack('DeepL-Quota erreicht: $e');
+            _showSnack(l10n.deepLQuotaReachedWithError(e.toString()));
             if (mounted) {
               setState(() {
-                _missingError = 'DeepL-Quota erreicht.';
+                _missingError = l10n.deepLQuotaReached;
               });
             }
           } catch (e) {
@@ -478,7 +545,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
         try {
           await repository.regenerateDartFiles();
         } catch (e) {
-          _showSnack('Regenerierung fehlgeschlagen: $e');
+          _showSnack(l10n.regenerationFailed(e.toString()));
         }
       }
       if (mounted) {
@@ -486,8 +553,8 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
         setState(() {
           _translatingMissing = false;
           _missingStatus = quotaHit
-              ? 'Abgebrochen wegen Quota.'
-              : (didTranslate ? 'Übersetzung abgeschlossen.' : _missingStatus);
+              ? l10n.abortedBecauseOfQuota
+              : (didTranslate ? l10n.translationCompleted : _missingStatus);
           _missingCurrentKey = null;
           _missingCurrentLocale = null;
         });
@@ -551,14 +618,15 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   Future<void> _openAddTranslationDialog() async {
+    final l10n = context.l10n;
     final repository = _repository;
     if (repository == null) {
-      _showSnack('Bitte zuerst ein Projekt öffnen.');
+      _showSnack(l10n.openProjectFirst);
       return;
     }
 
     if (_availableLocales.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Keine ARB-Sprachen verfügbar.')));
+      _showSnack(l10n.noArbLocalesAvailable);
       return;
     }
 
@@ -575,14 +643,12 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
 
     final documentIndex = _documents.indexWhere((doc) => doc.locale == result.locale);
     if (documentIndex == -1) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Locale ${result.locale} ist nicht verfügbar.')));
+      _showSnack(l10n.localeUnavailable(result.locale));
       return;
     }
 
     if (_allRecords.any((record) => record.key == result.key)) {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Key ${result.key} existiert bereits.')));
+      _showSnack(l10n.keyAlreadyExists);
       return;
     }
 
@@ -595,38 +661,95 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
       try {
         final ran = await repository.regenerateDartFiles();
         if (ran && mounted) {
-          ScaffoldMessenger.of(
-            context,
-          ).showSnackBar(const SnackBar(content: Text('Dart-Dateien wurden neu generiert.')));
+          _showSnack(l10n.dartFilesRegenerated);
         }
       } catch (e) {
         if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Regenerierung fehlgeschlagen: $e')));
+          _showSnack(l10n.regenerationFailed(e.toString()));
         }
       }
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Key ${result.key} wurde hinzugefügt.')));
+        _showSnack(l10n.keyAdded(result.key));
         await _loadData();
       }
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Fehler beim Speichern: $e')));
+        _showSnack(l10n.saveFailed(e.toString()));
       }
+    }
+  }
+
+  Future<void> _openAddLocaleDialog() async {
+    final l10n = context.l10n;
+    final repository = _repository;
+    if (repository == null) {
+      _showSnack(l10n.openProjectFirst);
+      return;
+    }
+
+    final missingLocales = _missingLocaleClasses();
+    if (missingLocales.isEmpty) return;
+
+    final templateDocument = _templateDocumentForNewLocale();
+    if (templateDocument == null) {
+      _showSnack(l10n.noLocaleTemplateFound);
+      return;
+    }
+
+    final selectedLocale = await showDialog<LocaleClass>(
+      context: context,
+      builder: (context) => _AddLocaleDialog(locales: missingLocales),
+    );
+    if (selectedLocale == null) return;
+
+    final locale = selectedLocale.languageCode;
+    try {
+      await repository.createDocumentForLocale(locale: locale, template: templateDocument);
+      try {
+        final ran = await repository.regenerateDartFiles();
+        if (ran && mounted) {
+          _showSnack(l10n.dartFilesRegenerated);
+        }
+      } catch (e) {
+        if (mounted) {
+          _showSnack(l10n.regenerationFailed(e.toString()));
+        }
+      }
+      if (mounted) {
+        await _loadData();
+        setState(() {
+          _visibleLocales = {..._visibleLocales, locale};
+        });
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          _updateGridRows(_visibleRecords);
+        });
+        _showSnack(l10n.localeAdded(locale.toUpperCase()));
+      }
+    } catch (e) {
+      _showSnack(l10n.languageAddFailed(e.toString()));
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
+    final canAddMissingLocale = _repository != null && !_loading && _missingLocaleClasses().isNotEmpty;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ARB Editor'),
+        title: Text(l10n.appTitle),
         actions: [
-          IconButton(
-            tooltip: 'Flutter-Projekt oder ARB-Ordner öffnen',
-            onPressed: _loading || _translatingMissing ? null : _openProjectPicker,
-            icon: const Icon(Icons.folder_open),
-          ),
           _buildApiKeyChip(),
+          IconButton(
+            tooltip: l10n.editDoNotTranslateTooltip,
+            onPressed: _repository == null || _loading ? null : _openDoNotTranslateDialog,
+            icon: const Icon(Icons.rule),
+          ),
+          if (canAddMissingLocale)
+            IconButton(
+              tooltip: l10n.addMissingLanguageTooltip,
+              onPressed: _openAddLocaleDialog,
+              icon: const Icon(Icons.language),
+            ),
           TextButton.icon(
             onPressed: _repository == null || _loading || _translatingMissing || _quotaExceeded
                 ? null
@@ -634,15 +757,20 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
             icon: _translatingMissing
                 ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
                 : const Icon(Icons.translate),
-            label: const Text('Fehlende übersetzen'),
+            label: Text(l10n.translateMissingButton),
           ),
           IconButton(
-            tooltip: 'Neuen Key hinzufügen',
+            tooltip: l10n.openProjectOrArbFolderDialogTitle,
+            onPressed: _loading || _translatingMissing ? null : _openProjectPicker,
+            icon: const Icon(Icons.folder_open),
+          ),
+          IconButton(
+            tooltip: l10n.addNewKeyTooltip,
             onPressed: _repository == null || _loading ? null : _openAddTranslationDialog,
             icon: const Icon(Icons.add),
           ),
           IconButton(
-            tooltip: 'Neu laden',
+            tooltip: l10n.reloadTooltip,
             onPressed: _repository == null || _loading ? null : _loadData,
             icon: const Icon(Icons.refresh),
           ),
@@ -667,7 +795,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Text(
-                        'DeepL-Quota erreicht. Übersetzungen sind aktuell deaktiviert.',
+                        l10n.quotaDisabledMessage,
                         style: Theme.of(
                           context,
                         ).textTheme.bodyMedium?.copyWith(color: Theme.of(context).colorScheme.onErrorContainer),
@@ -695,7 +823,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
                         ] else
                           Icon(Icons.info, color: Theme.of(context).colorScheme.onSurfaceVariant),
                         Expanded(
-                          child: Text(_missingStatus ?? 'Status', style: Theme.of(context).textTheme.bodyMedium),
+                          child: Text(_missingStatus ?? l10n.status, style: Theme.of(context).textTheme.bodyMedium),
                         ),
                         if (_missingTotal > 0)
                           Text(
@@ -708,8 +836,9 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
                       const SizedBox(height: 6),
                       Text(
                         [
-                          if (_missingCurrentKey != null) 'Key: $_missingCurrentKey',
-                          if (_missingCurrentLocale != null) 'Locale: ${_missingCurrentLocale!.toUpperCase()}',
+                          if (_missingCurrentKey != null) l10n.currentKeyLabel(_missingCurrentKey!),
+                          if (_missingCurrentLocale != null)
+                            l10n.currentLocaleLabel(_missingCurrentLocale!.toUpperCase()),
                         ].join(' · '),
                         style: Theme.of(context).textTheme.labelMedium,
                       ),
@@ -732,14 +861,11 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
                   child: TextField(
                     controller: _searchController,
                     onChanged: (value) => _applyFilter(value),
-                    decoration: const InputDecoration(
-                      labelText: 'Filtern nach Text oder Key (alle Sprachen)',
-                      prefixIcon: Icon(Icons.search),
-                    ),
+                    decoration: InputDecoration(labelText: l10n.searchLabel, prefixIcon: const Icon(Icons.search)),
                   ),
                 ),
                 const SizedBox(width: 12),
-                Text('${_visibleRecords.length} Einträge', style: Theme.of(context).textTheme.labelMedium),
+                Text(l10n.entryCount(_visibleRecords.length), style: Theme.of(context).textTheme.labelMedium),
               ],
             ),
             const SizedBox(height: 12),
@@ -757,6 +883,7 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
   }
 
   Widget _buildBody() {
+    final l10n = context.l10n;
     if (_loading) {
       return const Center(child: CircularProgressIndicator());
     }
@@ -764,13 +891,14 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
     if (_error != null) {
       return _ErrorView(
         message: _error!,
-        actionLabel: _repository == null ? 'Projekt öffnen' : 'Erneut versuchen',
+        actionLabel: _repository == null ? l10n.openProjectAction : l10n.retryAction,
+        isOpenProjectAction: _repository == null,
         onRetry: _repository == null ? _openProjectPicker : _loadData,
       );
     }
 
     if (_visibleRecords.isEmpty) {
-      return const Center(child: Text('Keine Einträge gefunden.'));
+      return Center(child: Text(l10n.noEntriesFound));
     }
 
     final columns = [
@@ -850,6 +978,7 @@ class _ProjectHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     final theme = Theme.of(context);
     final project = this.project;
 
@@ -865,7 +994,7 @@ class _ProjectHeader extends StatelessWidget {
           const SizedBox(width: 10),
           Expanded(
             child: project == null
-                ? Text('Kein Projekt geöffnet', style: theme.textTheme.bodyMedium)
+                ? Text(l10n.noProjectOpen, style: theme.textTheme.bodyMedium)
                 : Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -877,7 +1006,7 @@ class _ProjectHeader extends StatelessWidget {
                       ),
                       const SizedBox(height: 2),
                       Text(
-                        '${project.usesL10nYaml ? 'l10n.yaml' : 'ARB-Ordner'} · ${_relativePath(project.projectRoot, project.arbDirectory)}',
+                        '${project.usesL10nYaml ? 'l10n.yaml' : l10n.arbFolderType} · ${_relativePath(project.projectRoot, project.arbDirectory)}',
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
@@ -889,7 +1018,7 @@ class _ProjectHeader extends StatelessWidget {
           OutlinedButton.icon(
             onPressed: onOpenProject,
             icon: const Icon(Icons.folder_open),
-            label: Text(project == null ? 'Öffnen' : 'Wechseln'),
+            label: Text(project == null ? l10n.openAction : l10n.switchAction),
           ),
         ],
       ),
@@ -934,14 +1063,21 @@ String _relativePath(String root, String path) {
 }
 
 class _ErrorView extends StatelessWidget {
-  const _ErrorView({required this.message, required this.actionLabel, required this.onRetry});
+  const _ErrorView({
+    required this.message,
+    required this.actionLabel,
+    required this.isOpenProjectAction,
+    required this.onRetry,
+  });
 
   final String message;
   final String actionLabel;
+  final bool isOpenProjectAction;
   final VoidCallback onRetry;
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     final theme = Theme.of(context);
     return Center(
       child: Padding(
@@ -949,13 +1085,13 @@ class _ErrorView extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text('Konnte ARB-Dateien nicht laden', style: theme.textTheme.titleMedium),
+            Text(l10n.loadArbFilesFailedTitle, style: theme.textTheme.titleMedium),
             const SizedBox(height: 8),
             Text(message, textAlign: TextAlign.center, style: theme.textTheme.bodyMedium),
             const SizedBox(height: 12),
             ElevatedButton.icon(
               onPressed: onRetry,
-              icon: Icon(actionLabel == 'Projekt öffnen' ? Icons.folder_open : Icons.refresh),
+              icon: Icon(isOpenProjectAction ? Icons.folder_open : Icons.refresh),
               label: Text(actionLabel),
             ),
           ],
@@ -1023,6 +1159,186 @@ class _LocaleChipLabel extends StatelessWidget {
   }
 }
 
+class _DoNotTranslateDialog extends StatefulWidget {
+  const _DoNotTranslateDialog({required this.initialTerms});
+
+  final List<String> initialTerms;
+
+  @override
+  State<_DoNotTranslateDialog> createState() => _DoNotTranslateDialogState();
+}
+
+class _DoNotTranslateDialogState extends State<_DoNotTranslateDialog> {
+  late final TextEditingController _termsController;
+
+  @override
+  void initState() {
+    super.initState();
+    _termsController = TextEditingController(text: widget.initialTerms.join('\n'));
+  }
+
+  @override
+  void dispose() {
+    _termsController.dispose();
+    super.dispose();
+  }
+
+  void _submit() {
+    Navigator.of(context).pop(_parseTerms());
+  }
+
+  List<String> _parseTerms() {
+    final terms = <String>[];
+    final seen = <String>{};
+    for (final line in _termsController.text.split(RegExp(r'\r?\n'))) {
+      final term = line.trim();
+      if (term.isEmpty || !seen.add(term)) continue;
+      terms.add(term);
+    }
+    return terms;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = context.l10n;
+    return AlertDialog(
+      title: Text(l10n.doNotTranslateTitle),
+      content: SizedBox(
+        width: 520,
+        child: TextField(
+          controller: _termsController,
+          minLines: 10,
+          maxLines: 16,
+          decoration: InputDecoration(
+            labelText: l10n.termsLabel,
+            helperText: l10n.oneLinePerEntry,
+            alignLabelWithHint: true,
+          ),
+        ),
+      ),
+      actions: [
+        TextButton(onPressed: () => Navigator.of(context).pop(), child: Text(l10n.cancelAction)),
+        FilledButton.icon(onPressed: _submit, icon: const Icon(Icons.save), label: Text(l10n.saveAction)),
+      ],
+    );
+  }
+}
+
+class _AddLocaleDialog extends StatefulWidget {
+  const _AddLocaleDialog({required this.locales});
+
+  final List<LocaleClass> locales;
+
+  @override
+  State<_AddLocaleDialog> createState() => _AddLocaleDialogState();
+}
+
+class _AddLocaleDialogState extends State<_AddLocaleDialog> {
+  final TextEditingController _filterController = TextEditingController();
+  late List<LocaleClass> _visibleLocales;
+
+  @override
+  void initState() {
+    super.initState();
+    _visibleLocales = widget.locales;
+    _filterController.addListener(_applyFilter);
+  }
+
+  @override
+  void dispose() {
+    _filterController
+      ..removeListener(_applyFilter)
+      ..dispose();
+    super.dispose();
+  }
+
+  void _applyFilter() {
+    final query = _filterController.text.trim().toLowerCase();
+    setState(() {
+      if (query.isEmpty) {
+        _visibleLocales = widget.locales;
+        return;
+      }
+
+      _visibleLocales = widget.locales
+          .where((localeClass) {
+            final iconType = _iconForLocale(localeClass.languageCode);
+            final searchableText = [
+              localeClass.languageCode,
+              localeClass.name,
+              iconType?.isoName,
+              iconType?.endonym,
+            ].whereType<String>().join(' ').toLowerCase();
+            return searchableText.contains(query);
+          })
+          .toList(growable: false);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = context.l10n;
+    return AlertDialog(
+      title: Text(l10n.addLanguageTitle),
+      content: SizedBox(
+        width: 520,
+        height: 520,
+        child: Column(
+          children: [
+            TextField(
+              controller: _filterController,
+              autofocus: true,
+              decoration: InputDecoration(labelText: l10n.filterLabel, prefixIcon: const Icon(Icons.search)),
+            ),
+            const SizedBox(height: 12),
+            Expanded(
+              child: _visibleLocales.isEmpty
+                  ? Center(child: Text(l10n.noLanguageFound))
+                  : ListView.builder(
+                      itemCount: _visibleLocales.length,
+                      itemBuilder: (context, index) {
+                        final localeClass = _visibleLocales[index];
+                        return _LocaleOptionTile(
+                          localeClass: localeClass,
+                          onTap: () => Navigator.of(context).pop(localeClass),
+                        );
+                      },
+                    ),
+            ),
+          ],
+        ),
+      ),
+      actions: [TextButton(onPressed: () => Navigator.of(context).pop(), child: Text(l10n.cancelAction))],
+    );
+  }
+}
+
+class _LocaleOptionTile extends StatelessWidget {
+  const _LocaleOptionTile({required this.localeClass, required this.onTap});
+
+  final LocaleClass localeClass;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final iconType = _iconForLocale(localeClass.languageCode);
+    return ListTile(
+      leading: iconType == null ? const Icon(Icons.language) : LanguageIcon(type: iconType, size: 28),
+      title: Text(iconType?.endonym ?? localeClass.languageCode.toUpperCase()),
+      subtitle: Text([localeClass.languageCode, if (iconType != null) iconType.isoName].join(' · ')),
+      onTap: onTap,
+    );
+  }
+}
+
+LanguageIconType? _iconForLocale(String locale) {
+  try {
+    return LanguageIconType.fromStringValue(locale);
+  } catch (_) {
+    return null;
+  }
+}
+
 class _AddTranslationResult {
   const _AddTranslationResult({required this.key, required this.locale, required this.value});
 
@@ -1070,12 +1386,12 @@ class _AddTranslationDialogState extends State<_AddTranslationDialog> {
     final value = _valueController.text.trim();
 
     if (key.isEmpty || value.isEmpty) {
-      setState(() => _error = 'Key und Text dürfen nicht leer sein.');
+      setState(() => _error = context.l10n.addTranslationValidationEmpty);
       return;
     }
 
     if (widget.existingKeys.contains(key)) {
-      setState(() => _error = 'Key existiert bereits.');
+      setState(() => _error = context.l10n.keyAlreadyExists);
       return;
     }
 
@@ -1084,16 +1400,17 @@ class _AddTranslationDialogState extends State<_AddTranslationDialog> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     final theme = Theme.of(context);
     return AlertDialog(
-      title: const Text('Neuen Text hinzufügen'),
+      title: Text(l10n.addTextTitle),
       content: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             TextField(
               controller: _keyController,
-              decoration: const InputDecoration(labelText: 'Key'),
+              decoration: InputDecoration(labelText: l10n.keyLabel),
             ),
             const SizedBox(height: 12),
             DropdownButtonFormField<String>(
@@ -1104,13 +1421,13 @@ class _AddTranslationDialogState extends State<_AddTranslationDialog> {
               onChanged: (value) => setState(() {
                 if (value != null) _selectedLocale = value;
               }),
-              decoration: const InputDecoration(labelText: 'Sprache'),
+              decoration: InputDecoration(labelText: l10n.languageLabel),
             ),
             const SizedBox(height: 12),
             TextField(
               controller: _valueController,
               maxLines: 3,
-              decoration: const InputDecoration(labelText: 'Text', alignLabelWithHint: true),
+              decoration: InputDecoration(labelText: l10n.textLabel, alignLabelWithHint: true),
             ),
             if (_error != null) ...[
               const SizedBox(height: 8),
@@ -1120,8 +1437,8 @@ class _AddTranslationDialogState extends State<_AddTranslationDialog> {
         ),
       ),
       actions: [
-        TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
-        FilledButton.icon(onPressed: _submit, icon: const Icon(Icons.add), label: const Text('Hinzufügen')),
+        TextButton(onPressed: () => Navigator.of(context).pop(), child: Text(l10n.cancelAction)),
+        FilledButton.icon(onPressed: _submit, icon: const Icon(Icons.add), label: Text(l10n.addAction)),
       ],
     );
   }

@@ -29,7 +29,7 @@ class DeepLTranslationService {
 
   Future<String> translate({required String text, required String targetLang, String? sourceLang}) async {
     if (_apiKey.isEmpty) {
-      throw StateError('DeepL API-Key fehlt (DEEPL_AUTH_KEY).');
+      throw StateError('DeepL API key is missing (DEEPL_AUTH_KEY).');
     }
 
     return _translateMessage(text, targetLang: targetLang, sourceLang: sourceLang);
@@ -130,7 +130,7 @@ class DeepLTranslationService {
       if (response.body.contains('Bad request. Reason: Value for ') && response.body.contains('not supported.')) {
         throw UnsupportedError('Target language "$targetLang" is not supported by DeepL');
       }
-      throw HttpException('DeepL-Fehler (${response.statusCode}): ${response.body}');
+      throw HttpException('DeepL error (${response.statusCode}): ${response.body}');
     }
 
     final decoded = jsonDecode(response.body) as Map<String, dynamic>;
@@ -144,7 +144,7 @@ class DeepLTranslationService {
       }
     }
 
-    throw StateError('DeepL-Antwort enthielt keine Übersetzung.');
+    throw StateError('DeepL response did not contain a translation.');
   }
 
   static String _normalizeLang(String lang) => lang.trim().replaceAll('-', '_').toUpperCase();
@@ -467,5 +467,5 @@ class DeepLQuotaExceededException implements Exception {
   final String message;
 
   @override
-  String toString() => message.isEmpty ? 'DeepL-Quota überschritten.' : message;
+  String toString() => message.isEmpty ? 'DeepL quota exceeded.' : message;
 }

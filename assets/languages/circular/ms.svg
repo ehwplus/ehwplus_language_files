@@ -1,0 +1,27 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip_ms)">
+<rect x="0" y="0" width="24" height="1.714" fill="#D80027"/>
+<rect x="0" y="1.714" width="24" height="1.714" fill="#F0F0F0"/>
+<rect x="0" y="3.429" width="24" height="1.714" fill="#D80027"/>
+<rect x="0" y="5.143" width="24" height="1.714" fill="#F0F0F0"/>
+<rect x="0" y="6.857" width="24" height="1.714" fill="#D80027"/>
+<rect x="0" y="8.571" width="24" height="1.714" fill="#F0F0F0"/>
+<rect x="0" y="10.286" width="24" height="1.714" fill="#D80027"/>
+<rect x="0" y="12" width="24" height="1.714" fill="#F0F0F0"/>
+<rect x="0" y="13.714" width="24" height="1.714" fill="#D80027"/>
+<rect x="0" y="15.429" width="24" height="1.714" fill="#F0F0F0"/>
+<rect x="0" y="17.143" width="24" height="1.714" fill="#D80027"/>
+<rect x="0" y="18.857" width="24" height="1.714" fill="#F0F0F0"/>
+<rect x="0" y="20.571" width="24" height="1.714" fill="#D80027"/>
+<rect x="0" y="22.286" width="24" height="1.714" fill="#F0F0F0"/>
+<rect x="0" y="0" width="12" height="12.9" fill="#0052B4"/>
+<circle cx="5.2" cy="6.2" r="3" fill="#FFDA44"/>
+<circle cx="6.2" cy="6.2" r="3" fill="#0052B4"/>
+<path d="M9.3 4.4L9.478 5.42L10.081 4.578L9.799 5.575L10.707 5.078L10.021 5.853L11.055 5.799L10.1 6.2L11.055 6.601L10.021 6.547L10.707 7.322L9.799 6.825L10.081 7.822L9.478 6.98L9.3 8L9.122 6.98L8.519 7.822L8.801 6.825L7.893 7.322L8.579 6.547L7.545 6.601L8.5 6.2L7.545 5.799L8.579 5.853L7.893 5.078L8.801 5.575L8.519 4.578L9.122 5.42Z" fill="#FFDA44"/>
+</g>
+<defs>
+<clipPath id="clip_ms">
+<circle cx="12" cy="12" r="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

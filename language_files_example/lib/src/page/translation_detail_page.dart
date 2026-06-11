@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:ehwplus_language_files/ehwplus_language_files.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:language_files_example/src/localization/l10n.dart';
 
 import '../model/arb_document.dart';
 import '../model/arb_entry.dart';
@@ -199,17 +200,18 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   Future<void> _deleteKey() async {
     if (_saving || _deleting || _translatingAll || _renaming) return;
 
+    final l10n = context.l10n;
     final confirm = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Key löschen?'),
-        content: Text('Soll der Key "$_currentKey" aus allen ARB-Dateien entfernt werden?'),
+        title: Text(l10n.deleteKeyTitle),
+        content: Text(l10n.deleteKeyQuestion(_currentKey)),
         actions: [
-          TextButton(onPressed: () => Navigator.of(context).pop(false), child: const Text('Abbrechen')),
+          TextButton(onPressed: () => Navigator.of(context).pop(false), child: Text(l10n.cancelAction)),
           FilledButton.icon(
             onPressed: () => Navigator.of(context).pop(true),
             icon: const Icon(Icons.delete),
-            label: const Text('Löschen'),
+            label: Text(l10n.deleteAction),
           ),
         ],
       ),
@@ -255,31 +257,32 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   }
 
   Future<void> _translateLocale(String targetLocale) async {
+    final l10n = context.l10n;
     final apiKey = _apiKeyController.text.trim();
     if (apiKey.isEmpty) {
-      _showSnack('Bitte DeepL API-Key eintragen (DEEPL_AUTH_KEY).');
+      _showSnack(l10n.enterDeepLApiKey);
       return;
     }
     if (_quotaExceeded) {
-      _showSnack('DeepL-Quota erreicht. Übersetzung nicht möglich.');
+      _showSnack(l10n.translationImpossibleQuota);
       return;
     }
 
     final sourceLocale = _findSourceLocale(targetLocale);
     if (sourceLocale == null) {
-      _showSnack('Keine Quellsprache mit Text gefunden.');
+      _showSnack(l10n.noSourceLocaleWithText);
       return;
     }
 
     final sourceText = _controllers[sourceLocale]?.text.trim() ?? '';
     if (sourceText.isEmpty) {
-      _showSnack('Quelltext für $sourceLocale ist leer.');
+      _showSnack(l10n.sourceTextEmpty(sourceLocale));
       return;
     }
 
     setState(() {
       _translatingLocales.add(targetLocale);
-      _statusMessage = 'Übersetze nach ${_localeLabel(targetLocale)}...';
+      _statusMessage = l10n.translatingTo(_localeLabel(targetLocale));
       _batchTotal = 0;
       _batchDone = 0;
       _error = null;
@@ -294,7 +297,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       if (!mounted) return;
       setState(() {
         _controllers[targetLocale]?.text = translated;
-        _statusMessage = 'Übersetzung für ${_localeLabel(targetLocale)} gespeichert.';
+        _statusMessage = l10n.translationSaved(_localeLabel(targetLocale));
       });
       await _persistLocales({targetLocale});
       await _regenerateLocalizations();
@@ -302,15 +305,15 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       widget.repository.markQuotaExceeded();
       if (mounted) {
         setState(() {
-          _statusMessage = 'Abgebrochen: DeepL-Quota erreicht.';
+          _statusMessage = l10n.abortedQuota;
         });
       }
-      _showSnack('DeepL-Quota erreicht: $e');
+      _showSnack(l10n.deepLQuotaReachedWithError(e.toString()));
     } catch (e) {
       if (!mounted) return;
       setState(() {
         _error = e.toString();
-        _statusMessage = 'Fehler bei der Übersetzung.';
+        _statusMessage = l10n.translationError;
       });
       _showSnack('DeepL: $e');
     } finally {
@@ -324,19 +327,20 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   }
 
   Future<void> _translateAll() async {
+    final l10n = context.l10n;
     final apiKey = _apiKeyController.text.trim();
     if (apiKey.isEmpty) {
-      _showSnack('Bitte DeepL API-Key eintragen (DEEPL_AUTH_KEY).');
+      _showSnack(l10n.enterDeepLApiKey);
       return;
     }
     if (_quotaExceeded) {
-      _showSnack('DeepL-Quota erreicht. Übersetzung nicht möglich.');
+      _showSnack(l10n.translationImpossibleQuota);
       return;
     }
 
     final sourceLocale = _findSourceLocaleForAll();
     if (sourceLocale == null) {
-      _showSnack('Keine Quellsprache mit Text gefunden.');
+      _showSnack(l10n.noSourceLocaleWithText);
       return;
     }
 
@@ -344,7 +348,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     final targetsToTranslate = targets.where((locale) => (_controllers[locale]?.text.trim() ?? '').isEmpty).toList();
 
     if (targetsToTranslate.isEmpty) {
-      _showSnack('Alle Zielsprachen haben bereits einen Text.');
+      _showSnack(l10n.allTargetLanguagesHaveText);
       return;
     }
 
@@ -352,7 +356,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     try {
       doNotTranslateTerms = await widget.repository.loadDoNotTranslateTerms();
     } catch (e) {
-      _showSnack('do_not_translate.json konnte nicht gelesen werden: $e');
+      _showSnack(l10n.doNotTranslateReadFailed(e.toString()));
       return;
     }
 
@@ -361,7 +365,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       _translatingLocales.addAll(targetsToTranslate);
       _batchTotal = targetsToTranslate.length;
       _batchDone = 0;
-      _statusMessage = 'Starte Übersetzung (${targetsToTranslate.length} Sprachen)...';
+      _statusMessage = l10n.startTranslationForLanguageCount(targetsToTranslate.length);
       _error = null;
     });
 
@@ -375,7 +379,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         try {
           if (mounted) {
             setState(() {
-              _statusMessage = 'Übersetze ${locale.toUpperCase()} (${_batchDone + 1}/$_batchTotal)';
+              _statusMessage = l10n.translatingLocaleProgress(locale.toUpperCase(), _batchDone + 1, _batchTotal);
             });
           }
           final translated = await service.translate(text: sourceText, targetLang: locale, sourceLang: sourceLocale);
@@ -391,16 +395,16 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
           widget.repository.markQuotaExceeded();
           if (mounted) {
             setState(() {
-              _statusMessage = 'Abgebrochen: DeepL-Quota erreicht.';
+              _statusMessage = l10n.abortedQuota;
             });
           }
-          _showSnack('DeepL-Quota erreicht: $e');
+          _showSnack(l10n.deepLQuotaReachedWithError(e.toString()));
           break;
         } catch (e) {
           if (mounted) {
             setState(() {
               _error = e.toString();
-              _statusMessage = 'Fehler bei ${locale.toUpperCase()}.';
+              _statusMessage = l10n.translationErrorForLocale(locale.toUpperCase());
             });
           }
           _showSnack('DeepL: $e');
@@ -418,7 +422,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
         _translatingAll = false;
         _translatingLocales.removeAll(targetsToTranslate);
         if (!_quotaExceeded && didTranslate) {
-          _statusMessage = 'Übersetzung abgeschlossen.';
+          _statusMessage = l10n.translationCompleted;
         }
       });
     }
@@ -458,6 +462,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   Future<void> _renameKey() async {
     if (_saving || _deleting || _translatingAll || _renaming) return;
 
+    final l10n = context.l10n;
     final controller = TextEditingController(text: _currentKey);
     String? errorText;
 
@@ -466,18 +471,18 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
       builder: (context) => StatefulBuilder(
         builder: (context, setState) {
           return AlertDialog(
-            title: const Text('Key bearbeiten'),
+            title: Text(l10n.editKeyTitle),
             content: TextField(
               controller: controller,
-              decoration: InputDecoration(labelText: 'Key', errorText: errorText),
+              decoration: InputDecoration(labelText: l10n.keyLabel, errorText: errorText),
             ),
             actions: [
-              TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Abbrechen')),
+              TextButton(onPressed: () => Navigator.of(context).pop(), child: Text(l10n.cancelAction)),
               FilledButton.icon(
                 onPressed: () {
                   final value = controller.text.trim();
                   if (value.isEmpty) {
-                    setState(() => errorText = 'Key darf nicht leer sein.');
+                    setState(() => errorText = l10n.keyMustNotBeEmpty);
                     return;
                   }
                   if (value == _currentKey) {
@@ -486,13 +491,13 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
                   }
                   final exists = widget.documents.any((doc) => doc.entries.containsKey(value));
                   if (exists) {
-                    setState(() => errorText = 'Key existiert bereits.');
+                    setState(() => errorText = l10n.keyAlreadyExists);
                     return;
                   }
                   Navigator.of(context).pop(value);
                 },
                 icon: const Icon(Icons.save),
-                label: const Text('Speichern'),
+                label: Text(l10n.saveAction),
               ),
             ],
           );
@@ -540,23 +545,25 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
   }
 
   Future<void> _regenerateLocalizations() async {
+    final l10n = context.l10n;
     try {
       final ran = await widget.repository.regenerateDartFiles();
       if (ran && mounted) {
-        _showSnack('Dart-Dateien wurden neu generiert.');
+        _showSnack(l10n.dartFilesRegenerated);
       }
     } catch (e) {
       if (mounted) {
-        _showSnack('Regenerierung fehlgeschlagen: $e');
+        _showSnack(l10n.regenerationFailed(e.toString()));
       }
     }
   }
 
   Widget _buildApiKeyChip() {
+    final l10n = context.l10n;
     final hasKey = _apiKeyController.text.trim().isNotEmpty;
     return InputChip(
       avatar: const Icon(Icons.vpn_key),
-      label: Text(hasKey ? 'DeepL-Key gesetzt' : 'DeepL-Key fehlt'),
+      label: Text(hasKey ? l10n.deepLKeySet : l10n.deepLKeyMissing),
       selected: hasKey,
       onPressed: _saving || _translatingAll ? null : _openApiKeyDialog,
     );
@@ -579,6 +586,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return PopScope<bool>(
       canPop: !_didMutate,
       onPopInvokedWithResult: (didPop, result) {
@@ -593,11 +601,11 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
             Row(
               children: [
                 Switch(value: _clearOtherLocales, onChanged: (value) => setState(() => _clearOtherLocales = value)),
-                Text('Bei Änderung\nandere Werte löschen', style: Theme.of(context).textTheme.labelMedium),
+                Text(l10n.clearOtherLocalesLabel, style: Theme.of(context).textTheme.labelMedium),
               ],
             ),
             IconButton(
-              tooltip: 'Key löschen',
+              tooltip: l10n.deleteKeyTooltip,
               onPressed: _saving || _deleting || _translatingAll || _renaming ? null : _deleteKey,
               icon: _deleting
                   ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
@@ -608,14 +616,14 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
               icon: _translatingAll
                   ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
                   : const Icon(Icons.translate),
-              label: const Text('Alle übersetzen'),
+              label: Text(l10n.translateAllAction),
             ),
             TextButton.icon(
               onPressed: _saving || _renaming ? null : _save,
               icon: _saving
                   ? const SizedBox(height: 16, width: 16, child: CircularProgressIndicator(strokeWidth: 2))
                   : const Icon(Icons.save),
-              label: const Text('Speichern'),
+              label: Text(l10n.saveAction),
             ),
           ],
         ),
@@ -644,7 +652,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
                         ] else
                           Icon(Icons.info, color: Theme.of(context).colorScheme.onSurfaceVariant),
                         Expanded(
-                          child: Text(_statusMessage ?? 'Status', style: Theme.of(context).textTheme.bodyMedium),
+                          child: Text(_statusMessage ?? l10n.status, style: Theme.of(context).textTheme.bodyMedium),
                         ),
                         if (_batchTotal > 0)
                           Text(
@@ -667,7 +675,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
                   controller: _controllers[locale],
                   maxLines: null,
                   decoration: InputDecoration(
-                    labelText: 'Text für ${_localeLabel(locale)}',
+                    labelText: l10n.textForLocale(_localeLabel(locale)),
                     alignLabelWithHint: true,
                     border: const OutlineInputBorder(),
                     prefixIcon: _buildLocaleIcon(locale),
@@ -691,7 +699,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     }
 
     return IconButton(
-      tooltip: 'Mit DeepL nach ${_localeLabel(locale)} übersetzen',
+      tooltip: context.l10n.translateLocaleTooltip(_localeLabel(locale)),
       icon: const Icon(Icons.translate),
       onPressed: _saving || _translatingAll || _quotaExceeded ? null : () => _translateLocale(locale),
     );
