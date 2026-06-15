@@ -777,15 +777,15 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Okres anulowania rezerwacji${weeks}tygodnie',
+      one: 'Termin anulowania rezerwacji: 1 tydzień',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Koniec $date';
   }
 
   @override
@@ -1033,6 +1033,30 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Użyj licznika energii elektrycznej do rejestrowania energii elektrycznej wytworzonej i dostarczonej\nza pomocą systemu fotowoltaicznego. Uzyskane przychody są kompensowane z kosztami\nenergii elektrycznej.';
 
   @override
+  String get counterQrCode => 'Kod QR';
+
+  @override
+  String get counterQrCodeInvalid => 'Proszę zeskanować kod QR!';
+
+  @override
+  String get counterQrCodeNotFound => 'Nie znaleziono odpowiedniego licznika dla tego kodu QR!';
+
+  @override
+  String get counterQrCodeNotStored => 'Nie zapisano kodu QR';
+
+  @override
+  String get counterQrCodeScan => 'Zeskanuj kod QR';
+
+  @override
+  String get counterQrCodeScanHint => 'Proszę zeskanować kod QR przypisany do licznika!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Zeskanuj kod QR';
+
+  @override
+  String get counterQrCodeStored => 'Kod QR został zapisany';
+
+  @override
   String get counterReadings => 'Odczyty';
 
   @override
@@ -1178,6 +1202,10 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Wytworzona energia elektryczna';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Zestawienie liczników energii elektrycznej z tym samym numerem licznika';
@@ -2558,10 +2586,6 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Wodomierze radiowe';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Niestety nie ma żadnych danych, które aplikacja mogłaby wyświetlić.';
 
   @override
@@ -2569,6 +2593,10 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Prosimy o prawidłowe skonfigurowanie inteligentnego licznika.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Aby otrzymywać powiadomienia o nieoczekiwanym zużyciu, muszą Państwo być zalogowani.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Uzyskiwanie danych automatycznie';
@@ -2692,10 +2720,6 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Chciałbym otrzymywać powiadomienia o nieoczekiwanym zużyciu';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Płatność uzupełniająca';
@@ -3552,7 +3576,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'źródło: $waterSupplier';
   }
 
   @override
@@ -3577,7 +3601,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Państwa wniosek o dostęp został zatwierdzony. Proszę teraz dokończyć konfigurację!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Żądanie dostępu zostało odrzucone. Możesz usunąć ten licznik.';
@@ -3587,7 +3611,8 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Twój wniosek o dostęp jest nadal przetwarzany. Prosimy o cierpliwość.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Państwa wniosek o dostęp jest nadal rozpatrywany. Prosimy o cierpliwość.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3719,15 +3744,15 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Wniosek o dostęp online do Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Wprowadź numer licznika wody. Przykład: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Proszę podać numer licznika składający się z co najmniej 7 cyfr oraz numer klienta.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning =>
+      'Proszę wprowadzić numer licznika składający się z co najmniej 7 cyfr.';
 
   @override
   String get wtlAccessRequestSuccess => 'Utworzono żądanie dostępu.';
@@ -3737,10 +3762,11 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Państwa wniosek o dostęp został potwierdzony. Proszę wprowadzić trzy ostatnie cyfry numeru licznika, aby uzyskać dostęp do odczytów licznika.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Państwa wniosek o dostęp jest nadal rozpatrywany. Prosimy o cierpliwość.';
 
   @override
   String get yearlyConsumption => 'Dotychczasowe roczne zużycie';

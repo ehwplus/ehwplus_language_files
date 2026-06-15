@@ -759,18 +759,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String contractReminderCancellationPeriod(int weeks) {
-    String _temp0 = intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
-    );
+    String _temp0 = intl.Intl.pluralLogic(weeks, locale: localeName, other: '취소 기간$weeks주', one: '취소 기간: 1주일');
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return '$date 종료';
   }
 
   @override
@@ -1015,6 +1010,30 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
       '\n전기 역송전 계량기를 사용해 태양광 설비로 생산하여 송전한 전력을 기록하세요.\n발생한 수익은 외부 전력 사용 비용과 상계됩니다.';
 
   @override
+  String get counterQrCode => 'QR 코드';
+
+  @override
+  String get counterQrCodeInvalid => 'QR 코드를 스캔해 주세요!';
+
+  @override
+  String get counterQrCodeNotFound => '이 QR 코드에 해당하는 카운터를 찾을 수 없습니다!';
+
+  @override
+  String get counterQrCodeNotStored => 'QR 코드가 등록되어 있지 않습니다';
+
+  @override
+  String get counterQrCodeScan => 'QR 코드 스캔';
+
+  @override
+  String get counterQrCodeScanHint => '해당 계량기에 할당된 QR 코드를 스캔하세요!';
+
+  @override
+  String get counterQrCodeScanTitle => 'QR 코드 스캔';
+
+  @override
+  String get counterQrCodeStored => 'QR 코드 저장됨';
+
+  @override
   String get counterReadings => '계량기 지침';
 
   @override
@@ -1159,6 +1178,10 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => '전기 생산';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => '계량기 번호가 같은 전기 계량기 합산하기';
@@ -2500,10 +2523,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => '무선 수도 계량기';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => '앱에서 표시할 수 있는 데이터가 없습니다.';
 
   @override
@@ -2511,6 +2530,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => '스마트 미터를 올바르게 설정하세요.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired => '예상치 못한 데이터 사용량 알림을 받으려면 로그인해야 합니다.';
 
   @override
   String get smartMeterObtainDataAutomatically => '데이터 자동 가져오기';
@@ -2633,10 +2655,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => '예상치 못한 소비 발생 시 알림을 받고 싶습니다';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => '추가 납부금';
@@ -3451,7 +3469,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return '출처: $waterSupplier';
   }
 
   @override
@@ -3473,8 +3491,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get waterSupplierUnknown => '안타깝게도 아직 고객님의 물 공급업체를 알지 못합니다. 언제든지 문의해 주세요. 전기와 가스만 제공하는 공급업체는 여기에 표시되지 않습니다.';
 
   @override
-  String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+  String get watersupplierAccessRequestApprovedPendingOnboarding => '귀하의 액세스 요청이 승인되었습니다. 지금 바로 설정을 완료하세요!';
 
   @override
   String get watersupplierAccessRequestDenied => '액세스 요청이 거부되었습니다. 이 미터를 삭제할 수 있습니다.';
@@ -3483,7 +3500,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => '액세스 요청이 아직 처리 중입니다. 잠시만 기다려주세요.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => '귀하의 접근 요청은 현재 검토 중입니다. 잠시만 기다려 주십시오.';
 
   @override
   String get watersupplierAccessRequestQ1 => '수도 공급업체의 집수 구역에 있는 부동산의 소유주이며 무선 검침에 액세스하고 싶으신가요?';
@@ -3601,15 +3618,13 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => '바서버밴드 테클렌부르거 랜드에 대한 온라인 액세스 요청.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => '수도 계량기에 표시된 계량기 번호를 입력하세요. 예: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+  String get wtlAccessRequestRegularMeterIdMissingInput => '계량기 번호(최소 7자리)와 고객 번호를 입력해 주십시오.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => '7자리 이상의 계량기 번호를 입력해 주세요.';
 
   @override
   String get wtlAccessRequestSuccess => '액세스 요청이 생성되었습니다.';
@@ -3618,11 +3633,10 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get wtlAccessRequestTitle => 'WTL 액세스 요청';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+  String get wtlMeterOnboardingStepDescriptionApproved => '접근 요청이 확인되었습니다. 계량기 검침 내역을 확인하려면 계량기 번호의 마지막 세 자리를 입력해 주세요.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => '귀하의 접근 요청은 아직 처리 중입니다. 잠시만 기다려 주십시오.';
 
   @override
   String get yearlyConsumption => '현재까지 연간 소비량';

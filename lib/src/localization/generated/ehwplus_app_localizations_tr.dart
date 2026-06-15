@@ -776,15 +776,15 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'İptal süresi$weeks. haftalar',
+      one: 'İptal süresi: 1 hafta',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Son $date';
   }
 
   @override
@@ -1030,6 +1030,30 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Üretilen ve beslenen elektriği kaydetmek için bir elektrik besleme sayacı kullanın\nfotovoltaik sistem ile. Ortaya çıkan gelir, maliyetten mahsup edilir.\nçekilen elektrik.';
 
   @override
+  String get counterQrCode => 'QR kodu';
+
+  @override
+  String get counterQrCodeInvalid => 'Lütfen bir QR kodunu tarayın!';
+
+  @override
+  String get counterQrCodeNotFound => 'Bu QR kodu için uygun bir sayaç bulunamadı!';
+
+  @override
+  String get counterQrCodeNotStored => 'QR kodu kaydedilmemiş';
+
+  @override
+  String get counterQrCodeScan => 'QR kodunu tarayın';
+
+  @override
+  String get counterQrCodeScanHint => 'Sayaçla eşleştirilmiş QR kodunu tarayın!';
+
+  @override
+  String get counterQrCodeScanTitle => 'QR kodunu tarayın';
+
+  @override
+  String get counterQrCodeStored => 'QR kodu kaydedildi';
+
+  @override
   String get counterReadings => 'Okumalar';
 
   @override
@@ -1175,6 +1199,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Üretilen elektrik';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Aynı sayaç numarasına sahip elektrik sayaçlarını özetleyin';
@@ -2552,10 +2580,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radyo su sayaçları';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Ne yazık ki uygulamanın görüntüleyebileceği hiçbir veri yok.';
 
   @override
@@ -2563,6 +2587,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Lütfen akıllı sayacınızı doğru şekilde kurun.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Beklenmedik tüketim durumlarında bildirim almak için oturum açmış olmanız gerekir.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Verileri otomatik olarak al';
@@ -2686,10 +2714,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Beklenmedik tüketimlerden haberdar olmak istiyorum';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Ek ödeme';
@@ -3536,7 +3560,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return '$waterSupplier adresinden';
   }
 
   @override
@@ -3562,7 +3586,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Erişim talebiniz onaylandı. Hemen kurulum işlemini tamamlayın!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Erişim talebiniz reddedildi. Bu sayacı silebilirsiniz.';
@@ -3571,7 +3595,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'Erişim talebiniz hala işleme alınmaktadır. Lütfen sabırlı olun.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => 'Erişim talebiniz halen inceleniyor. Lütfen bekleyin.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3701,15 +3725,14 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Land için çevrimiçi erişim talebi.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Su sayacınızın numarasını girin. Örnek: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Lütfen en az 7 haneli sayaç numaranızı ve müşteri numaranızı girin.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Lütfen en az 7 haneli bir sayaç numarası girin.';
 
   @override
   String get wtlAccessRequestSuccess => 'Erişim isteği oluşturuldu.';
@@ -3719,10 +3742,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Erişim talebiniz onaylandı. Sayaç değerlerine erişmek için sayaç numaranızın son üç hanesini girin.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => 'Erişim talebiniz hâlâ beklemede. Lütfen biraz sabırlı olun.';
 
   @override
   String get yearlyConsumption => 'Şu ana kadar yıllık tüketim';

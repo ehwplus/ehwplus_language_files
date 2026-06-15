@@ -775,15 +775,15 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Lemondási határidő$weeks. hét',
+      one: 'Lemondási határidő: 1 hét',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Vége: $date';
   }
 
   @override
@@ -1030,6 +1030,30 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Használjon villamosenergia-bevezetési mérőt a megtermelt és betáplált villamos energia nyilvántartására.\nfotovoltaikus rendszerrel. Az ebből származó bevételt beszámítják a\na felvett villamos energia költségével.';
 
   @override
+  String get counterQrCode => 'QR-kód';
+
+  @override
+  String get counterQrCodeInvalid => 'Kérjük, olvassa be a QR-kódot!';
+
+  @override
+  String get counterQrCodeNotFound => 'Nem találtunk megfelelő számlálót ehhez a QR-kódhoz!';
+
+  @override
+  String get counterQrCodeNotStored => 'Nincs QR-kód megadva';
+
+  @override
+  String get counterQrCodeScan => 'QR-kód beolvasása';
+
+  @override
+  String get counterQrCodeScanHint => 'Olvassa be a mérőhöz tartozó QR-kódot!';
+
+  @override
+  String get counterQrCodeScanTitle => 'QR-kód beolvasása';
+
+  @override
+  String get counterQrCodeStored => 'QR-kód elmentve';
+
+  @override
   String get counterReadings => 'Olvasmányok';
 
   @override
@@ -1175,6 +1199,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Termelt villamos energia';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Az azonos mérőszámmal rendelkező villamosenergia-mérők összesítése';
@@ -2556,10 +2584,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Rádiós vízmérők';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Sajnos nincsenek olyan adatok, amelyeket az alkalmazás meg tudna jeleníteni.';
 
   @override
@@ -2567,6 +2591,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Kérjük, állítsa be helyesen az intelligens fogyasztásmérőt.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Ahhoz, hogy értesítést kapjon a váratlan fogyasztásról, be kell jelentkeznie.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Automatikus adatszerzés';
@@ -2690,10 +2718,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Szeretnék értesítést kapni a váratlan fogyasztásról';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Kiegészítő kifizetés';
@@ -3549,7 +3573,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'Forrás: $waterSupplier';
   }
 
   @override
@@ -3575,7 +3599,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Hozzáférési kérelmét jóváhagytuk. Kérjük, végezze el most a beállítást!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Az Ön hozzáférési kérelmét elutasítottuk. Ezt a mérőt törölheti.';
@@ -3585,7 +3609,8 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Az Ön hozzáférési kérelme még feldolgozás alatt áll. Kérjük, legyen türelemmel.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'A hozzáférési kérelmét jelenleg is vizsgáljuk. Kérjük, legyen türelmes.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3717,15 +3742,14 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Online hozzáférési kérelem a Wasserverband Tecklenburger Land számára.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Írja be a vízmérő számát. Példa: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Kérjük, adja meg legalább 7 számjegyű mérőszámát és ügyfélszámát.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Kérjük, adjon meg legalább 7 számjegyből álló mérőszámot.';
 
   @override
   String get wtlAccessRequestSuccess => 'Létrehozott hozzáférési kérelem.';
@@ -3735,10 +3759,11 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Hozzáférési kérelmét jóváhagytuk. Írja be a fogyasztásmérő-szám utolsó három számjegyét, hogy hozzáférhessen a fogyasztásmérő-állásokhoz.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'A hozzáférési kérelme még folyamatban van. Kérjük, legyen türelmes.';
 
   @override
   String get yearlyConsumption => 'Eddigi éves fogyasztás';

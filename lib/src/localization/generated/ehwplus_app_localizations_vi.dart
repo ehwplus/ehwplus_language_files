@@ -777,15 +777,15 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Thời hạn hủy đặt phòng${weeks}tuần',
+      one: 'Thời hạn hủy đặt phòng: 1 tuần',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Kết thúc vào ngày $date';
   }
 
   @override
@@ -1032,6 +1032,30 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Sử dụng đồng hồ đo điện năng để ghi lại lượng điện năng được tạo ra và cung cấp vào\nvới hệ thống quang điện. Doanh thu thu được sẽ được bù đắp vào chi phí của\nđiện được rút ra.';
 
   @override
+  String get counterQrCode => 'Mã QR';
+
+  @override
+  String get counterQrCodeInvalid => 'Vui lòng quét mã QR!';
+
+  @override
+  String get counterQrCodeNotFound => 'Không tìm thấy mã vạch phù hợp với mã QR này!';
+
+  @override
+  String get counterQrCodeNotStored => 'Không có mã QR nào được lưu trữ';
+
+  @override
+  String get counterQrCodeScan => 'Quét mã QR';
+
+  @override
+  String get counterQrCodeScanHint => 'Vui lòng quét mã QR được gán cho đồng hồ đo!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Quét mã QR';
+
+  @override
+  String get counterQrCodeStored => 'Đã lưu mã QR';
+
+  @override
   String get counterReadings => 'Bài đọc';
 
   @override
@@ -1177,6 +1201,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Điện được tạo ra';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Gộp các đồng hồ điện có cùng số đồng hồ';
@@ -2547,10 +2575,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Đồng hồ đo nước vô tuyến';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Rất tiếc, không có dữ liệu nào mà ứng dụng có thể hiển thị.';
 
   @override
@@ -2559,6 +2583,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   @override
   String get smartMeterMisconfiguredWidgetCardTitle =>
       'Vui lòng thiết lập đồng hồ thông minh của bạn một cách chính xác.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Quý vị phải đăng nhập để nhận thông báo về mức tiêu thụ bất thường.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Lấy dữ liệu tự động';
@@ -2682,10 +2710,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Tôi muốn được thông báo về việc tiêu thụ bất ngờ';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Thanh toán bổ sung';
@@ -3534,7 +3558,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'trích từ $waterSupplier';
   }
 
   @override
@@ -3559,7 +3583,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Yêu cầu truy cập của quý vị đã được chấp thuận. Vui lòng hoàn tất quá trình thiết lập ngay bây giờ!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Yêu cầu truy cập của bạn đã bị từ chối. Bạn có thể xóa đồng hồ này.';
@@ -3569,7 +3593,8 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Yêu cầu truy cập của bạn hiện đang được xử lý. Xin vui lòng chờ đợi.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Yêu cầu truy cập của quý vị hiện đang được kiểm tra. Xin vui lòng chờ đợi.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3703,14 +3728,14 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+      'Vui lòng nhập số đồng hồ nước của quý vị. Ví dụ: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Vui lòng nhập số đồng hồ (ít nhất 7 chữ số) và số khách hàng của quý vị.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Vui lòng nhập số đồng hồ có ít nhất 7 chữ số.';
 
   @override
   String get wtlAccessRequestSuccess => 'Yêu cầu truy cập đã được tạo.';
@@ -3720,10 +3745,11 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Yêu cầu truy cập của quý khách đã được xác nhận. Vui lòng nhập ba chữ số cuối của số đồng hồ để truy cập vào các chỉ số đồng hồ.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Yêu cầu cấp quyền truy cập của quý vị hiện vẫn đang được xử lý. Xin quý vị vui lòng chờ đợi.';
 
   @override
   String get yearlyConsumption => 'Tiêu thụ hàng năm cho đến nay';

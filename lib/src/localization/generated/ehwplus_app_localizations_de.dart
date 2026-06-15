@@ -1030,6 +1030,30 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Nutzen Sie einen Stromeinspeiszähler, um den mit einer Photovoltaikanlage erzeugten und eingespeisten Strom zu erfassen. Die dadurch entstandenen Einnahmen werden mit den Kosten für den entnommenen Strom verrechnet. \n\nErfassen Sie die Leistung eines Sonnenwärmekollektors/Röhrenkollektors für Wassererhitzung.';
 
   @override
+  String get counterQrCode => 'QR-Code';
+
+  @override
+  String get counterQrCodeInvalid => 'Bitte scannen Sie einen QR-Code!';
+
+  @override
+  String get counterQrCodeNotFound => 'Kein passender Zähler für diesen QR-Code gefunden!';
+
+  @override
+  String get counterQrCodeNotStored => 'Kein QR-Code hinterlegt';
+
+  @override
+  String get counterQrCodeScan => 'QR-Code scannen';
+
+  @override
+  String get counterQrCodeScanHint => 'Scannen Sie den QR-Code, der einem Zähler zugeordnet ist!';
+
+  @override
+  String get counterQrCodeScanTitle => 'QR-Code scannen';
+
+  @override
+  String get counterQrCodeStored => 'QR-Code hinterlegt';
+
+  @override
   String get counterReadings => 'Ablesungen';
 
   @override
@@ -1175,6 +1199,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Erzeugter Strom';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'Dieser Stromzähler enthält schon manuelle Ablesungen. Deaktivieren Sie \"Daten automatisch beziehen\" und legen Sie einen neuen Zähler für automatisch bezogene Daten an.';
 
   @override
   String get enableCounterViewsMerging => 'Stromzähler mit gleicher Zählernummer zusammenfassen';
@@ -2546,10 +2574,6 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Funkwasserzähler';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'Dieser Stromzähler enthält schon manuelle Ablesungen. Deaktivieren Sie \"Daten automatisch beziehen\" und legen Sie einen neuen Zähler für automatisch bezogene Daten an.';
-
-  @override
   String get smartMeterErrorNoData => 'Es gibt leider keine Daten, welche die App anzeigen könnte.';
 
   @override
@@ -2557,6 +2581,10 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Bitte richten Sie Ihren Smartmeter richtig ein.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Sie müssen angemeldet sein, um über unerwartete Verbräuche benachrichtigt zu werden.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Daten automatisch beziehen';
@@ -2680,10 +2708,6 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Ich möchte über unerwartete Verbräuche benachrichtigt werden';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'Sie müssen angemeldet sein, um über unerwartete Verbräuche benachrichtigt zu werden.';
 
   @override
   String get supplementaryPayment => 'Nachzahlung';

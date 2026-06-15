@@ -774,15 +774,15 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Период отказивања $weeks недеља',
+      one: 'Рок за отказивање: 1 недеља',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Крај $date';
   }
 
   @override
@@ -1029,6 +1029,30 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
       'Користите мерач напајања да бисте забележили произведену и унету електричну енергију\nса фотонапонским системом. Добијени приход се компензује са трошковима\nповучена струја.';
 
   @override
+  String get counterQrCode => 'QR код';
+
+  @override
+  String get counterQrCodeInvalid => 'Скенирајте QR код!';
+
+  @override
+  String get counterQrCodeNotFound => 'За овај QR код није пронађен одговарајући читач!';
+
+  @override
+  String get counterQrCodeNotStored => 'Није сачуван ниједан QR код';
+
+  @override
+  String get counterQrCodeScan => 'Скенирајте QR код';
+
+  @override
+  String get counterQrCodeScanHint => 'Скенирајте QR код повезан са бројилом!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Скенирајте QR код';
+
+  @override
+  String get counterQrCodeStored => 'Пружен QR код';
+
+  @override
   String get counterReadings => 'Читања';
 
   @override
@@ -1174,6 +1198,10 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Произведена електрична енергија';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Групе електричних бројила са истим бројем бројила';
@@ -2550,10 +2578,6 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Радио водомери';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Нажалост, нема података које би апликација могла да прикаже.';
 
   @override
@@ -2561,6 +2585,10 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Молимо Вас да исправно подесите свој паметни мерач.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Морате бити пријављени да бисте добили обавештење о неочекиваној потрошњи.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Добијте податке аутоматски';
@@ -2684,10 +2712,6 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Желим да будем обавештен о неочекиваној потрошњи';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Доплата';
@@ -3545,7 +3569,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'из $waterSupplier';
   }
 
   @override
@@ -3571,7 +3595,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Ваш захтев за приступ је одобрен. Завршите подешавање сада!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Ваш захтев за приступ је одбијен. Можете да избришете овај мерач.';
@@ -3580,7 +3604,8 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'Ваш захтев за приступ се још увек обрађује. Молимо вас за стрпљење.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Ваш захтев за приступ се још увек проверава. Молимо вас за стрпљење.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3712,15 +3737,14 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Онлајн захтев за приступ за Водено удружење Текленбургер Ланд.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Унесите број са вашег водомера. Пример: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Молимо унесите број свог бројила са најмање седам цифара и број свог купца.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Унесите број мерача са најмање 7 цифара.';
 
   @override
   String get wtlAccessRequestSuccess => 'Захтев за приступ је креиран.';
@@ -3730,10 +3754,11 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Ваш захтев за приступ је потврђен. Унесите последње три цифре вашег бројила да бисте добили приступ очитањима бројила.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Ваш захтев за приступ је и даље отворен. Молимо вас за стрпљење.';
 
   @override
   String get yearlyConsumption => 'Досадашња годишња потрошња';

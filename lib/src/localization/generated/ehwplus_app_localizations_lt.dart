@@ -775,15 +775,15 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Atšaukimo terminas${weeks}os savaitės',
+      one: 'Atšaukimo terminas – 1 savaitė',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Pabaiga $date';
   }
 
   @override
@@ -1030,6 +1030,30 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Pagamintai ir tiekiamai elektros energijai registruoti naudokite elektros tiekimo skaitiklį\nsu fotovoltine sistema. Gautos pajamos kompensuojamos iš išlaidų\npaimta elektra.';
 
   @override
+  String get counterQrCode => 'QR kodas';
+
+  @override
+  String get counterQrCodeInvalid => 'Prašome nuskaityti QR kodą!';
+
+  @override
+  String get counterQrCodeNotFound => 'Nerastas šiam QR kodui tinkamas skaitiklis!';
+
+  @override
+  String get counterQrCodeNotStored => 'QR kodas neįkeltas';
+
+  @override
+  String get counterQrCodeScan => 'Nuskaityti QR kodą';
+
+  @override
+  String get counterQrCodeScanHint => 'Nuskaitykite QR kodą, priskirtą skaitikliui!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Nuskaityti QR kodą';
+
+  @override
+  String get counterQrCodeStored => 'Įkeltas QR kodas';
+
+  @override
   String get counterReadings => 'Skaitymai';
 
   @override
@@ -1175,6 +1199,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Gaminama elektra';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Apibendrinti elektros skaitiklius, turinčius tą patį skaitiklio numerį';
@@ -2553,10 +2581,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radijo vandens skaitikliai';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Deja, nėra duomenų, kuriuos programa galėtų rodyti.';
 
   @override
@@ -2564,6 +2588,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Teisingai nustatykite išmanųjį skaitiklį.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Norėdami gauti pranešimus apie netikėtą suvartojimą, turite būti prisijungę.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Gaukite duomenis automatiškai';
@@ -2687,10 +2715,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Norėčiau būti pranešta apie netikėtą vartojimą';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Papildomas mokėjimas';
@@ -3551,7 +3575,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'iš $waterSupplier';
   }
 
   @override
@@ -3577,7 +3601,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Jūsų prašymas suteikti prieigą buvo patvirtintas. Dabar užbaigite nustatymus!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Jūsų prieigos užklausa buvo atmesta. Galite ištrinti šį matuoklį.';
@@ -3586,7 +3610,8 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'Jūsų prieigos prašymas vis dar nagrinėjamas. Būkite kantrūs.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Jūsų prašymas suteikti prieigą vis dar nagrinėjamas. Prašome palaukti.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3719,14 +3744,14 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+      'Įveskite savo vandens skaitiklio numerį. Pavyzdys: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Įveskite bent 7 skaitmenų skaitiklio numerį ir savo kliento numerį.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Įveskite bent 7 skaitmenų skaitiklio numerį.';
 
   @override
   String get wtlAccessRequestSuccess => 'Sukurta prieigos užklausa.';
@@ -3736,10 +3761,11 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Jūsų prašymas suteikti prieigą buvo patvirtintas. Įveskite paskutinįsias tris skaitiklio numerio skaitmenis, kad galėtumėte peržiūrėti skaitiklio rodmenis.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Jūsų prašymas suteikti prieigą vis dar nagrinėjamas. Prašome palaukti.';
 
   @override
   String get yearlyConsumption => 'Metinis suvartojimas iki šiol';

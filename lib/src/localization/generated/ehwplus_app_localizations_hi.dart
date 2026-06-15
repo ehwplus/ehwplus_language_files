@@ -775,15 +775,15 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'रद्दीकरण अवधि$weeks सप्ताह',
+      one: 'रद्दीकरण अवधि 1 सप्ताह',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'समाप्त $date';
   }
 
   @override
@@ -1029,6 +1029,30 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'उत्पन्न और आपूर्ति की गई बिजली को रिकॉर्ड करने के लिए बिजली फीड-इन मीटर का उपयोग करें\nफोटोवोल्टिक प्रणाली के साथ.परिणामी राजस्व की लागत के विरुद्ध भरपाई की जाती है\nबिजली खींची गई.';
 
   @override
+  String get counterQrCode => 'क्यूआर कोड';
+
+  @override
+  String get counterQrCodeInvalid => 'कृपया एक QR कोड स्कैन करें!';
+
+  @override
+  String get counterQrCodeNotFound => 'इस QR कोड के लिए कोई मिलान वाला काउंटर नहीं मिला!';
+
+  @override
+  String get counterQrCodeNotStored => 'कोई QR कोड सहेजा नहीं गया है';
+
+  @override
+  String get counterQrCodeScan => 'क्यूआर कोड स्कैन करें';
+
+  @override
+  String get counterQrCodeScanHint => 'मीटर से जुड़े QR कोड को स्कैन करें!';
+
+  @override
+  String get counterQrCodeScanTitle => 'क्यूआर कोड स्कैन करें';
+
+  @override
+  String get counterQrCodeStored => 'प्रदान किया गया क्यूआर कोड';
+
+  @override
   String get counterReadings => 'रीडिंग';
 
   @override
@@ -1174,6 +1198,10 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'बिजली पैदा की';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'एक ही मीटर नंबर वाले बिजली मीटरों को समूहबद्ध करें';
@@ -2545,10 +2573,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'रेडियो जल मीटर';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'दुर्भाग्य से, ऐसा कोई डेटा नहीं है जिसे ऐप प्रदर्शित कर सके।';
 
   @override
@@ -2556,6 +2580,10 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'कृपया अपना स्मार्ट मीटर सही ढंग से सेट करें।';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'अप्रत्याशित खपत की सूचना पाने के लिए आपका साइन इन होना आवश्यक है।';
 
   @override
   String get smartMeterObtainDataAutomatically => 'डेटा स्वचालित रूप से प्राप्त करें';
@@ -2679,10 +2707,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'मैं अप्रत्याशित खपत के बारे में सूचित होना चाहूंगा';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'अनुपूरक भुगतान';
@@ -3528,7 +3552,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return '$waterSupplier से';
   }
 
   @override
@@ -3553,7 +3577,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'आपकी पहुँच अनुरोध स्वीकृत हो गया है। अब सेटअप पूरा करें!';
 
   @override
   String get watersupplierAccessRequestDenied => 'आपकी पहुँच अनुरोध अस्वीकार कर दिया गया। आप इस मीटर को हटा सकते हैं।';
@@ -3562,7 +3586,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'आपका एक्सेस अनुरोध अभी भी संसाधित हो रहा है। कृपया धैर्य रखें।';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => 'आपकी पहुँच अनुरोध की जाँच अभी भी चल रही है। कृपया धैर्य रखें।';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3697,14 +3721,14 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+      'अपने पानी के मीटर का मीटर नंबर दर्ज करें। उदाहरण: 8 AXI10 0796 2977।';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'कृपया अपना मीटर नंबर कम से कम 7 अंकों के साथ और अपना ग्राहक नंबर दर्ज करें।';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'कृपया कम से कम 7 अंकों वाला मीटर नंबर दर्ज करें।';
 
   @override
   String get wtlAccessRequestSuccess => 'पहुँच अनुरोध बनाया गया।';
@@ -3714,10 +3738,10 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'आपकी पहुँच अनुरोध की पुष्टि हो गई है। मीटर रीडिंग्स तक पहुँच प्राप्त करने के लिए अपने मीटर नंबर के अंतिम तीन अंक दर्ज करें।';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => 'आपकी पहुँच अनुरोध अभी भी खुला हुआ है। कृपया धैर्य रखें।';
 
   @override
   String get yearlyConsumption => 'अब तक की वार्षिक खपत';

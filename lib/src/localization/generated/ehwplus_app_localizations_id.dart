@@ -778,15 +778,15 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Jangka waktu pembatalan${weeks}minggu',
+      one: 'Jangka waktu pembatalan: 1 minggu',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Berakhir pada $date';
   }
 
   @override
@@ -1032,6 +1032,30 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
       'Gunakan meteran listrik untuk mencatat listrik yang dihasilkan dan disalurkan\ndengan sistem fotovoltaik. Pendapatan yang dihasilkan diimbangi dengan biaya\nlistrik yang diambil.';
 
   @override
+  String get counterQrCode => 'Kode QR';
+
+  @override
+  String get counterQrCodeInvalid => 'Silakan pindai kode QR ini!';
+
+  @override
+  String get counterQrCodeNotFound => 'Tidak ditemukan pemindai yang sesuai untuk kode QR ini!';
+
+  @override
+  String get counterQrCodeNotStored => 'Tidak ada kode QR yang disimpan';
+
+  @override
+  String get counterQrCodeScan => 'Pindai kode QR';
+
+  @override
+  String get counterQrCodeScanHint => 'Pindai kode QR yang terhubung dengan meteran tersebut!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Pindai kode QR';
+
+  @override
+  String get counterQrCodeStored => 'Kode QR telah disimpan';
+
+  @override
   String get counterReadings => 'Bacaan';
 
   @override
@@ -1177,6 +1201,10 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Listrik yang dihasilkan';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Menggabungkan meteran listrik dengan nomor meteran yang sama';
@@ -2555,10 +2583,6 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Pengukur air radio';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Sayangnya, tidak ada data yang dapat ditampilkan oleh aplikasi ini.';
 
   @override
@@ -2566,6 +2590,10 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Harap atur smart meter Anda dengan benar.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Anda harus masuk terlebih dahulu agar dapat menerima pemberitahuan mengenai penggunaan yang tidak terduga.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Mendapatkan data secara otomatis';
@@ -2689,10 +2717,6 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Saya ingin diberitahu tentang konsumsi yang tidak terduga';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Pembayaran tambahan';
@@ -3553,7 +3577,7 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'dari $waterSupplier';
   }
 
   @override
@@ -3578,7 +3602,7 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Permohonan akses Anda telah disetujui. Segera selesaikan pengaturannya!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Permintaan akses Anda ditolak. Anda dapat menghapus pengukur ini.';
@@ -3587,7 +3611,8 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'Permintaan akses Anda masih dalam proses. Mohon bersabar.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Permohonan akses Anda masih dalam proses pemeriksaan. Mohon bersabar.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3719,14 +3744,15 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+      'Masukkan nomor meteran dari meteran air Anda. Contoh: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Silakan masukkan nomor meteran Anda yang terdiri dari minimal 7 digit serta nomor pelanggan Anda.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning =>
+      'Silakan masukkan nomor meteran yang terdiri dari minimal 7 digit.';
 
   @override
   String get wtlAccessRequestSuccess => 'Permintaan akses dibuat.';
@@ -3736,10 +3762,10 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Permintaan akses Anda telah dikonfirmasi. Masukkan tiga digit terakhir nomor meteran Anda untuk mengakses pembacaan meteran.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => 'Permohonan akses Anda masih dalam proses. Mohon bersabar.';
 
   @override
   String get yearlyConsumption => 'Konsumsi tahunan sejauh ini';

@@ -772,15 +772,15 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Muda wa kufuta $weeks wiki',
+      one: 'Muda wa kufuta ni wiki 1',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Mwisho$date';
   }
 
   @override
@@ -1026,6 +1026,30 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Tumia mita ya kulisha umeme kurekodi umeme unaotokana na kulishwa\nna mfumo wa photovoltaic. Mapato yanayosababishwa yametolewa dhidi ya gharama ya\nUmeme uliochorwa.';
 
   @override
+  String get counterQrCode => 'Msimbo wa QR';
+
+  @override
+  String get counterQrCodeInvalid => 'Tafadhali skena msimbo wa QR!';
+
+  @override
+  String get counterQrCodeNotFound => 'Hakuna kaunta inayolingana iliyopatikana kwa msimbo huu wa QR!';
+
+  @override
+  String get counterQrCodeNotStored => 'Hakuna msimbo wa QR uliohifadhiwa';
+
+  @override
+  String get counterQrCodeScan => 'Skani msimbo wa QR';
+
+  @override
+  String get counterQrCodeScanHint => 'Skani msimbo wa QR unaohusiana na mita!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Skana msimbo wa QR';
+
+  @override
+  String get counterQrCodeStored => 'Kodi ya QR imetolewa';
+
+  @override
   String get counterReadings => 'Usomaji';
 
   @override
@@ -1171,6 +1195,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Umeme uliotengenezwa';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Mita za umeme za kikundi zenye nambari ile ile ya mita';
@@ -2543,10 +2571,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Mita za maji ya redio';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Kwa bahati mbaya, hakuna data ambayo programu inaweza kuonyesha.';
 
   @override
@@ -2554,6 +2578,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Tafadhali weka mita yako nzuri kwa usahihi.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Lazima uingie ili arifiwe kuhusu matumizi yasiyotarajiwa.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Pata data kiatomati';
@@ -2677,10 +2705,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Napenda kuarifiwa juu ya matumizi yasiyotarajiwa';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Malipo ya ziada';
@@ -3537,7 +3561,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'kutoka $waterSupplier';
   }
 
   @override
@@ -3562,7 +3586,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Ombi lako la ufikiaji limeidhinishwa. Kamilisha usanidi sasa!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Ombi lako la ufikiaji limekataliwa. Unaweza kufuta mita hii.';
@@ -3572,7 +3596,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Ombi lako la upatikanaji bado linashughulikiwa. Tafadhali kuwa na subira.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => 'Ombi lako la upatikanaji bado linakaguliwa. Tafadhali vumilia.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3705,15 +3729,14 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Ombi la ufikiaji mtandaoni kwa Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Ingiza nambari ya mita yako ya maji. Mfano: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Tafadhali ingiza nambari yako ya mita yenye angalau tarakimu saba na nambari yako ya mteja.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Tafadhali ingiza nambari ya mita yenye angalau tarakimu saba.';
 
   @override
   String get wtlAccessRequestSuccess => 'Ombi la ufikiaji limetengenezwa.';
@@ -3723,10 +3746,11 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Ombi lako la upatikanaji limeidhinishwa. Ingiza tarakimu tatu za mwisho za nambari ya mita yako ili upate ufikiaji wa usomaji wa mita.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Ombi lako la upatikanaji bado liko wazi. Tafadhali kuwa na subira.';
 
   @override
   String get yearlyConsumption => 'Matumizi ya kila mwaka hadi sasa';

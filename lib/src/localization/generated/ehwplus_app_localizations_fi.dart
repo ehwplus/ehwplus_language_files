@@ -773,15 +773,15 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Peruutusajanjakso${weeks}viikkoa',
+      one: 'Peruutusajanjakso 1 viikko',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Loppu $date';
   }
 
   @override
@@ -1027,6 +1027,30 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Käytä sähkönsyöttömittaria kirjaamaan tuotettu ja syötetty sähkö\naurinkosähköjärjestelmän kanssa.Tuloksena saatavat tulot vähennetään kuluista\nvedetty sähkö.';
 
   @override
+  String get counterQrCode => 'QR-koodi';
+
+  @override
+  String get counterQrCodeInvalid => 'Skannaa QR-koodi!';
+
+  @override
+  String get counterQrCodeNotFound => 'Tälle QR-koodille ei löytynyt sopivaa laskuria!';
+
+  @override
+  String get counterQrCodeNotStored => 'QR-koodia ei ole tallennettu';
+
+  @override
+  String get counterQrCodeScan => 'Skannaa QR-koodi';
+
+  @override
+  String get counterQrCodeScanHint => 'Skannaa mittariin liitetty QR-koodi!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Skannaa QR-koodi';
+
+  @override
+  String get counterQrCodeStored => 'QR-koodi tallennettu';
+
+  @override
   String get counterReadings => 'Lukemat';
 
   @override
@@ -1172,6 +1196,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Tuotettu sähkö';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Yhteenveto sähkömittareista, joilla on sama mittarinumero.';
@@ -2548,10 +2576,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radio vesimittarit';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Valitettavasti ei ole tietoja, joita sovellus voisi näyttää.';
 
   @override
@@ -2559,6 +2583,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Asenna älymittarisi oikein.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Sinun on oltava kirjautuneena sisään, jotta saat ilmoituksen odottamattomasta kulutuksesta.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Hae tiedot automaattisesti';
@@ -2682,10 +2710,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Haluan saada ilmoituksen odottamattomasta kulutuksesta';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Lisämaksu';
@@ -3536,7 +3560,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'lähde: $waterSupplier';
   }
 
   @override
@@ -3561,7 +3585,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Käyttöoikeuspyyntösi on hyväksytty. Suorita asennus nyt!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Pääsypyyntösi hylättiin. Voit poistaa tämän mittarin.';
@@ -3570,7 +3594,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'Pyyntöäsi käsitellään edelleen. Ole kärsivällinen.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => 'Pääsyoikeuspyyntösi on vielä käsiteltävänä. Ole hyvä ja odota.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3701,15 +3725,14 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Landin verkkopalvelupyyntö.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Syötä vesimittarisi mittarinumero. Esimerkki: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Syötä vähintään 7-numeroinen mittarinumero ja asiakastunnuksesi.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Syötä vähintään 7-numeroinen mittarinumero.';
 
   @override
   String get wtlAccessRequestSuccess => 'Käyttöoikeuspyyntö luotu.';
@@ -3719,10 +3742,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Pääsypyyntösi on vahvistettu. Syötä mittarinumerosi kolme viimeistä numeroa, jotta pääset tarkastelemaan mittarilukemia.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => 'Pyyntösi on edelleen käsiteltävänä. Ole kärsivällinen.';
 
   @override
   String get yearlyConsumption => 'Vuosikulutus tähän mennessä';

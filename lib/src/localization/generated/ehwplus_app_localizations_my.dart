@@ -777,15 +777,15 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'ဖျက်သိမ်းနိုင်သည့်ကာလ $weeks ပတ်',
+      one: 'ဖျက်သိမ်းခွင့်ကာလ တစ်ပတ်',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'အဆုံး $date';
   }
 
   @override
@@ -1032,6 +1032,30 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'လျှပ်စစ်ဓာတ်အားထုတ်လုပ်ပြီးကျွေးမွေးသောလျှပ်စစ်ဓာတ်အားကိုမှတ်တမ်းတင်ရန်လျှပ်စစ်ဓာတ်အားဖြည့်စွက်ထားသောမီတာကိုသုံးပါ\nphotovoltaic စနစ်နှင့်အတူ။ ရရှိလာတဲ့ဝင်ငွေသည်ကုန်ကျစရိတ်ကိုဆန့်ကျင်သည်\nလျှပ်စစ်ဓာတ်အား။';
 
   @override
+  String get counterQrCode => 'QR ကုဒ်';
+
+  @override
+  String get counterQrCodeInvalid => 'QR ကုဒ်ကို စကင်ပေးပါ!';
+
+  @override
+  String get counterQrCodeNotFound => 'ဤ QR ကုဒ်နှင့် ကိုက်ညီသော ကောင်တာ မတွေ့ပါ။';
+
+  @override
+  String get counterQrCodeNotStored => 'QR ကုဒ် မည်မျှမှ မသိမ်းဆည်းထားပါ။';
+
+  @override
+  String get counterQrCodeScan => 'QR ကုဒ်ကို စကင်ပါ။';
+
+  @override
+  String get counterQrCodeScanHint => 'မီတာနှင့်ဆက်စပ်ထားသော QR ကုဒ်ကို စကင်ပါ။';
+
+  @override
+  String get counterQrCodeScanTitle => 'QR ကုဒ်ကို စကင်ပါ';
+
+  @override
+  String get counterQrCodeStored => 'QR ကုဒ် ပေးထားသည်။';
+
+  @override
   String get counterReadings => 'ဖတ်ခြင်း';
 
   @override
@@ -1177,6 +1201,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'လျှပ်စစ်ဓာတ်အားထုတ်လုပ်လိုက်ပါတယ်';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'မီတာနံပါတ်တူသော အုပ်စုအလိုက် လျှပ်စစ်မီတာများ';
@@ -2549,10 +2577,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'ရေဒီယိုရေမီတာ';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'ကံမကောင်းစွာဖြင့်အက်ပလီကေးရှင်းပြနိုင်သည့်အချက်အလက်မရှိပါ။';
 
   @override
@@ -2560,6 +2584,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'ကျေးဇူးပြု. သင်၏စမတ်မီတာကိုမှန်ကန်စွာတည်ဆောက်ပါ။';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'မမျှော်လင့်ထားသော အသုံးပြုမှုအကြောင်း အသိပေးချက် လက်ခံရန် သင်သည် စနစ်ထဲသို့ ဝင်ရောက်ထားရမည်။';
 
   @override
   String get smartMeterObtainDataAutomatically => 'ဒေတာကိုအလိုအလျောက်ရယူပါ';
@@ -2683,10 +2711,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'မမျှော်လင့်တဲ့စားသုံးမှုအကြောင်းကြားချင်ပါတယ်';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'ဖြည့်စွက်ငွေပေးချေမှု';
@@ -3544,7 +3568,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return '$waterSupplier မှ';
   }
 
   @override
@@ -3569,7 +3593,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို အတည်ပြုပြီးပါပြီ။ ယခုတင် စနစ်တပ်ဆင်မှုကို ပြီးမြောက်အောင် ဆောင်ရွက်ပါ။';
 
   @override
   String get watersupplierAccessRequestDenied =>
@@ -3580,7 +3604,8 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ဆက်လက်ဆောင်ရွက်နေဆဲဖြစ်ပါသည်။ ကျေးဇူးပြု၍ စိတ်ရှည်စွာ စောင့်ဆိုင်းပါ။';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ဆက်လက်စစ်ဆေးနေဆဲဖြစ်ပါသည်။ ကျေးဇူးပြု၍ သည်းခံစောင့်ဆိုင်းပါ။';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3712,15 +3737,14 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'Wasserverband Tecklenburger Land အွန်လိုင်း ဝင်ရောက်ခွင့် တောင်းဆိုခြင်း။';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'သင့်ရေပိုက်မီတာမှ မီတာနံပါတ်ကို ထည့်ပါ။ ဥပမာ – 8 AXI10 0796 2977။';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'မီတာနံပါတ်ကို အနည်းဆုံး ၇ လုံးဖြင့်နှင့် သင့်ဖောက်သည်နံပါတ်ကို ထည့်ပါ။';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'မီတာနံပါတ်ကို အနည်းဆုံး ၇ လုံးဖြင့် ထည့်ပါ။';
 
   @override
   String get wtlAccessRequestSuccess => 'ဝင်ရောက်ကြည့်ရှုခွင့် တောင်းဆိုမှု ဖန်တီးပြီးပါပြီ။';
@@ -3730,10 +3754,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှု အတည်ပြုပြီးပါပြီ။ မီတာနံပါတ်၏ နောက်ဆုံး သုံးလုံးကို ထည့်၍ မီတာဖတ်ချက်များသို့ ဝင်ရောက်ကြည့်ရှုနိုင်ပါသည်။';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှုသည် မပြီးစီးသေးပါ။ ကျေးဇူးပြု၍ စိတ်ရှည်စွာ စောင့်ဆိုင်းပါ။';
 
   @override
   String get yearlyConsumption => 'ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု';

@@ -773,15 +773,15 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Afbestillingsfrist$weeks-uger',
+      one: 'Afbestillingsfrist: 1 uge',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Slutter $date';
   }
 
   @override
@@ -1027,6 +1027,30 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Brug en el-tilførselsmåler til at registrere den producerede og tilførte elektricitet\nmed et solcelleanlæg. Den resulterende indtægt modregnes i omkostningerne vedr\nden trukket elektricitet.';
 
   @override
+  String get counterQrCode => 'QR-kode';
+
+  @override
+  String get counterQrCodeInvalid => 'Scan venligst en QR-kode!';
+
+  @override
+  String get counterQrCodeNotFound => 'Der blev ikke fundet en passende tæller til denne QR-kode!';
+
+  @override
+  String get counterQrCodeNotStored => 'Der er ikke gemt nogen QR-kode';
+
+  @override
+  String get counterQrCodeScan => 'Scan QR-koden';
+
+  @override
+  String get counterQrCodeScanHint => 'Scan den QR-kode, der er knyttet til en måler!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Scan QR-koden';
+
+  @override
+  String get counterQrCodeStored => 'QR-kode gemt';
+
+  @override
   String get counterReadings => 'Aflæsninger';
 
   @override
@@ -1172,6 +1196,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Genereret elektricitet';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Opsummering af elmålere med samme målernummer';
@@ -2541,10 +2569,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radio vandmålere';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Desværre er der ingen data, som appen kan vise.';
 
   @override
@@ -2552,6 +2576,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Indstil din smartmåler korrekt.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Du skal være logget ind for at modtage besked om uventet forbrug.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Få data automatisk';
@@ -2675,10 +2703,6 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Jeg vil gerne have besked om uventet forbrug';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Supplerende betaling';
@@ -3529,7 +3553,7 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'fra $waterSupplier';
   }
 
   @override
@@ -3554,7 +3578,7 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Din adgangsanmodning er blevet godkendt. Færdiggør opsætningen nu!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Din anmodning om adgang blev afvist. Du kan slette denne måler.';
@@ -3564,7 +3588,8 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
       'Din anmodning om adgang er stadig ved at blive behandlet. Vær venligst tålmodig.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Din anmodning om adgang er stadig under behandling. Vi beder dig have lidt tålmodighed.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3696,14 +3721,14 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+      'Indtast målernummeret fra din vandmåler. Eksempel: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Indtast venligst dit målernummer med mindst 7 cifre samt dit kundenummer.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Indtast venligst et målernummer på mindst 7 cifre.';
 
   @override
   String get wtlAccessRequestSuccess => 'Adgangsanmodning oprettet.';
@@ -3713,10 +3738,11 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Din anmodning om adgang er blevet bekræftet. Indtast de sidste tre cifre i dit målernummer for at få adgang til måleraflæsningerne.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Din anmodning om adgang er stadig under behandling. Vi beder dig have lidt tålmodighed.';
 
   @override
   String get yearlyConsumption => 'Årligt forbrug indtil videre';

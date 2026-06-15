@@ -770,15 +770,15 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'ระยะเวลาการยกเลิก$weeks สัปดาห์',
+      one: 'ระยะเวลาการยกเลิก 1 สัปดาห์',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'สิ้นสุดที่ $date';
   }
 
   @override
@@ -1024,6 +1024,30 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ใช้มิเตอร์ไฟฟ้าป้อนเข้าเพื่อบันทึกไฟฟ้าที่ผลิตและป้อนเข้า\nด้วยระบบไฟฟ้าโซลาร์เซลล์ รายได้ที่ได้จะถูกหักล้างกับต้นทุนของ\nไฟฟ้าที่ถูกดึงออกมา';
 
   @override
+  String get counterQrCode => 'รหัสคิวอาร์';
+
+  @override
+  String get counterQrCodeInvalid => 'กรุณาสแกนคิวอาร์โค้ด!';
+
+  @override
+  String get counterQrCodeNotFound => 'ไม่พบข้อมูลที่ตรงกันสำหรับ QR code นี้!';
+
+  @override
+  String get counterQrCodeNotStored => 'ไม่มี QR โค้ดถูกบันทึกไว้';
+
+  @override
+  String get counterQrCodeScan => 'สแกนคิวอาร์โค้ด';
+
+  @override
+  String get counterQrCodeScanHint => 'สแกน QR code ที่เกี่ยวข้องกับมิเตอร์!';
+
+  @override
+  String get counterQrCodeScanTitle => 'สแกนคิวอาร์โค้ด';
+
+  @override
+  String get counterQrCodeStored => 'QR code ให้ไว้';
+
+  @override
   String get counterReadings => 'การอ่าน';
 
   @override
@@ -1169,6 +1193,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'ผลิตไฟฟ้า';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'มิเตอร์ไฟฟ้าแบบกลุ่มที่มีหมายเลขมิเตอร์เดียวกัน';
@@ -2541,10 +2569,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'วิทยุมิเตอร์น้ำ';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'ขออภัย ไม่มีข้อมูลที่แอปสามารถแสดงได้';
 
   @override
@@ -2552,6 +2576,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'โปรดตั้งค่ามิเตอร์อัจฉริยะของคุณอย่างถูกต้อง';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'คุณต้องลงชื่อเข้าใช้เพื่อรับการแจ้งเตือนเกี่ยวกับการใช้งานที่ไม่คาดคิด';
 
   @override
   String get smartMeterObtainDataAutomatically => 'รับข้อมูลโดยอัตโนมัติ';
@@ -2675,10 +2703,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'ฉันต้องการรับการแจ้งเตือนเกี่ยวกับการบริโภคที่ไม่คาดคิด';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'การชำระเงินเสริม';
@@ -3527,7 +3551,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'จาก $waterSupplier';
   }
 
   @override
@@ -3552,7 +3576,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'คำขอเข้าถึงของคุณได้รับการอนุมัติแล้ว กรุณาดำเนินการตั้งค่าให้เสร็จสิ้นทันที!';
 
   @override
   String get watersupplierAccessRequestDenied => 'คำขอเข้าถึงของคุณถูกปฏิเสธ คุณสามารถลบมิเตอร์นี้ได้';
@@ -3561,7 +3585,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'คำขอเข้าถึงของคุณกำลังอยู่ระหว่างการดำเนินการ กรุณาอดใจรอสักครู่';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => 'คำขอเข้าถึงของคุณกำลังอยู่ในระหว่างการตรวจสอบ กรุณาอดใจรอสักครู่';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3691,14 +3715,14 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+      'กรุณากรอกหมายเลขมิเตอร์จากมิเตอร์น้ำของคุณ ตัวอย่าง: 8 AXI10 0796 2977';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'กรุณากรอกหมายเลขมิเตอร์ของคุณอย่างน้อย 7 หลัก และหมายเลขลูกค้าของคุณ';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'กรุณากรอกหมายเลขมิเตอร์ที่มีอย่างน้อย 7 หลัก';
 
   @override
   String get wtlAccessRequestSuccess => 'คำขอการเข้าถึงถูกสร้างขึ้นแล้ว';
@@ -3708,10 +3732,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'คำขอเข้าถึงของคุณได้รับการยืนยันแล้ว กรุณากรอกตัวเลขสามหลักสุดท้ายของหมายเลขมิเตอร์ของคุณเพื่อเข้าถึงข้อมูลการอ่านมิเตอร์';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => 'คำขอการเข้าถึงของคุณยังเปิดอยู่ กรุณาอดใจรอ';
 
   @override
   String get yearlyConsumption => 'การบริโภคประจำปีจนถึงปัจจุบัน';

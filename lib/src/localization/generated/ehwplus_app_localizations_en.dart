@@ -1027,6 +1027,30 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
       '\nUse an electricity feed-in meter to record the electricity generated and fed in\nwith a photovoltaic system. The resulting revenue is offset against the cost of\nthe electricity drawn.';
 
   @override
+  String get counterQrCode => 'QR code';
+
+  @override
+  String get counterQrCodeInvalid => 'Please scan a QR code!';
+
+  @override
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code!';
+
+  @override
+  String get counterQrCodeNotStored => 'No QR code has been saved';
+
+  @override
+  String get counterQrCodeScan => 'Scan the QR code';
+
+  @override
+  String get counterQrCodeScanHint => 'Scan the QR code associated with a meter!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Scan the QR code';
+
+  @override
+  String get counterQrCodeStored => 'QR code provided';
+
+  @override
   String get counterReadings => 'Readings';
 
   @override
@@ -1172,6 +1196,10 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Generated electricity';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Combine electricity meters with the same meter number';
@@ -2548,10 +2576,6 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radio water meters';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Unfortunately, there is no data that the app could display.';
 
   @override
@@ -2559,6 +2583,10 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Please set up your smart meter correctly.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Obtain data automatically';
@@ -2682,10 +2710,6 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'I would like to be notified of unexpected consumption';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Supplementary payment';

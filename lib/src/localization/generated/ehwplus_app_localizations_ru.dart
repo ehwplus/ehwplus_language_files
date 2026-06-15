@@ -785,15 +785,15 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Срок отмены бронирования$weeksнедель',
+      one: 'Срок отмены бронирования — 1 неделя',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Конец $date';
   }
 
   @override
@@ -1041,6 +1041,30 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Используйте счетчик электроэнергии для отслеживания электроэнергии, вырабатываемой и подаваемой в сеть фотоэлектрической системой.';
 
   @override
+  String get counterQrCode => 'QR-код';
+
+  @override
+  String get counterQrCodeInvalid => 'Пожалуйста, отсканируйте QR-код!';
+
+  @override
+  String get counterQrCodeNotFound => 'Не найден подходящий счетчик для этого QR-кода!';
+
+  @override
+  String get counterQrCodeNotStored => 'QR-код не указан';
+
+  @override
+  String get counterQrCodeScan => 'Отсканируйте QR-код';
+
+  @override
+  String get counterQrCodeScanHint => 'Отсканируйте QR-код, привязанный к счетчику!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Отсканируйте QR-код';
+
+  @override
+  String get counterQrCodeStored => 'QR-код сохранен';
+
+  @override
   String get counterReadings => 'Чтения';
 
   @override
@@ -1186,6 +1210,10 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Выработанная электроэнергия';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Суммируйте показания счетчиков электроэнергии с одинаковыми номерами';
@@ -2560,10 +2588,6 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Радиосчетчики воды';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'К сожалению, приложение не может отобразить данные.';
 
   @override
@@ -2571,6 +2595,10 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Пожалуйста, настройте ваш умный счётчик правильно.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Чтобы получать уведомления о непредвиденном потреблении, вам необходимо войти в систему.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Получать данные автоматически';
@@ -2694,10 +2722,6 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Я хочу получать уведомления о неожиданном потреблении';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Обратная оплата';
@@ -3571,7 +3595,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'Источник: $waterSupplier';
   }
 
   @override
@@ -3597,7 +3621,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Ваш запрос на доступ одобрен. Пройдите настройку прямо сейчас!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Ваш запрос на доступ был отклонен. Вы можете удалить этот счетчик.';
@@ -3607,7 +3631,8 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Ваш запрос на доступ все еще обрабатывается. Пожалуйста, наберитесь терпения.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Ваш запрос на доступ все еще находится на рассмотрении. Пожалуйста, подождите.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3739,15 +3764,14 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Онлайн-запрос на доступ к Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Введите номер вашего водомера. Пример: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Пожалуйста, введите номер счетчика (не менее 7 цифр) и номер клиента.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Введите номер счетчика, состоящий как минимум из 7 цифр.';
 
   @override
   String get wtlAccessRequestSuccess => 'Запрос на доступ создан.';
@@ -3757,10 +3781,11 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Ваш запрос на доступ подтвержден. Введите три последние цифры номера счетчика, чтобы получить доступ к показаниям счетчика.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Ваш запрос на доступ пока находится на рассмотрении. Просим вас проявить терпение.';
 
   @override
   String get yearlyConsumption => 'Годовое потребление на сегодняшний день';

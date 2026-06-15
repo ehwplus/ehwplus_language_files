@@ -776,15 +776,15 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Perioada de anulare$weeks săptămâni',
+      one: 'Termen de anulare: 1 săptămână',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Se încheie la ora $date';
   }
 
   @override
@@ -1031,6 +1031,30 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Utilizați un contor de alimentare cu energie electrică pentru a înregistra energia electrică produsă și alimentată\ncu un sistem fotovoltaic. Venitul rezultat este compensat cu costul\nenergiei electrice consumate.';
 
   @override
+  String get counterQrCode => 'Cod QR';
+
+  @override
+  String get counterQrCodeInvalid => 'Vă rugăm să scanați un cod QR!';
+
+  @override
+  String get counterQrCodeNotFound => 'Nu s-a găsit niciun contor potrivit pentru acest cod QR!';
+
+  @override
+  String get counterQrCodeNotStored => 'Nu există niciun cod QR înregistrat';
+
+  @override
+  String get counterQrCodeScan => 'Scanează codul QR';
+
+  @override
+  String get counterQrCodeScanHint => 'Scanați codul QR asociat unui contor!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Scanează codul QR';
+
+  @override
+  String get counterQrCodeStored => 'Cod QR stocat';
+
+  @override
   String get counterReadings => 'Lecturi';
 
   @override
@@ -1176,6 +1200,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Electricitate generată';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Sumarizarea contoarelor de energie electrică cu același număr de contor';
@@ -2556,10 +2584,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Contoare de apă radio';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Din păcate, nu există date pe care aplicația să le poată afișa.';
 
   @override
@@ -2567,6 +2591,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Vă rugăm să vă configurați corect contorul inteligent.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Trebuie să fiți conectat pentru a primi notificări privind consumul neașteptat.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Obținerea automată a datelor';
@@ -2690,10 +2718,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Doresc să fiu notificat cu privire la consumul neașteptat';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Plată suplimentară';
@@ -3548,7 +3572,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'de pe $waterSupplier';
   }
 
   @override
@@ -3574,7 +3598,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Cererea dumneavoastră de acces a fost aprobată. Finalizați configurarea acum!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Cererea dvs. de acces a fost refuzată. Puteți șterge acest contor.';
@@ -3584,7 +3608,8 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Cererea dvs. de acces este încă în curs de procesare. Vă rugăm să aveți răbdare.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Cererea dumneavoastră de acces este încă în curs de verificare. Vă rugăm să aveți răbdare.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3717,15 +3742,15 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Cerere de acces online pentru Wasserverband Tecklenburger Land.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'Introduceți numărul contorului de apă. Exemplu: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Vă rugăm să introduceți numărul contorului, format din cel puțin 7 cifre, și numărul de client.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning =>
+      'Vă rugăm să introduceți un număr de contor format din cel puțin 7 cifre.';
 
   @override
   String get wtlAccessRequestSuccess => 'Cerere de acces creată.';
@@ -3735,10 +3760,11 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Solicitarea dumneavoastră de acces a fost confirmată. Introduceți ultimele trei cifre ale numărului contorului pentru a avea acces la citirile contorului.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Cererea dumneavoastră de acces este încă în curs de procesare. Vă rugăm să aveți răbdare.';
 
   @override
   String get yearlyConsumption => 'Consumul anual până în prezent';

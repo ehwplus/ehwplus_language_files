@@ -751,18 +751,13 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String contractReminderCancellationPeriod(int weeks) {
-    String _temp0 = intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
-    );
+    String _temp0 = intl.Intl.pluralLogic(weeks, locale: localeName, other: '取消期限：$weeks周', one: '取消期限：1周');
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return '结束 $date';
   }
 
   @override
@@ -1004,6 +999,30 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get counterPvFeedInCounterExplanation => '使用馈电表记录发电量和馈入电量\n带有光伏系统。由此产生的收入抵消了成本\n汲取的电力。';
 
   @override
+  String get counterQrCode => '二维码';
+
+  @override
+  String get counterQrCodeInvalid => '请扫描二维码！';
+
+  @override
+  String get counterQrCodeNotFound => '未找到与该二维码匹配的计数器！';
+
+  @override
+  String get counterQrCodeNotStored => '未保存二维码';
+
+  @override
+  String get counterQrCodeScan => '扫描二维码';
+
+  @override
+  String get counterQrCodeScanHint => '请扫描与该电表关联的二维码！';
+
+  @override
+  String get counterQrCodeScanTitle => '扫描二维码';
+
+  @override
+  String get counterQrCodeStored => '已保存二维码';
+
+  @override
   String get counterReadings => '读物';
 
   @override
@@ -1147,6 +1166,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => '发电量';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => '汇总具有相同电表编号的电表';
@@ -2479,10 +2502,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => '无线电水表';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => '不幸的是，该应用程序无法显示任何数据。';
 
   @override
@@ -2490,6 +2509,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => '请正确设置您的智能电表。';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired => '您必须登录才能收到意外用量的通知。';
 
   @override
   String get smartMeterObtainDataAutomatically => '自动获取数据';
@@ -2612,10 +2634,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => '我希望收到意外消费通知';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => '补充付款';
@@ -3423,7 +3441,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return '来源：$waterSupplier';
   }
 
   @override
@@ -3445,8 +3463,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get waterSupplierUnknown => '很遗憾，我们还不知道您的供水商。请随时写信给我们。仅提供电力和燃气的供应商不在此处显示。';
 
   @override
-  String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+  String get watersupplierAccessRequestApprovedPendingOnboarding => '您的访问请求已获批准。请立即完成设置！';
 
   @override
   String get watersupplierAccessRequestDenied => '您的访问请求被拒绝。您可以删除此表。';
@@ -3455,7 +3472,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => '您的访问请求仍在处理中。请耐心等待。';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => '您的访问请求仍在审核中。请稍候。';
 
   @override
   String get watersupplierAccessRequestQ1 => '您是否是供水公司集水区内房产的所有者，并希望获得无线电水表读数？';
@@ -3569,15 +3586,13 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Land 的在线访问请求。';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => '请输入水表上的表号。示例：8 AXI10 0796 2977。';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+  String get wtlAccessRequestRegularMeterIdMissingInput => '请输入至少7位数的电表号和您的客户号。';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => '请输入至少7位数的电表号。';
 
   @override
   String get wtlAccessRequestSuccess => '已创建访问请求。';
@@ -3586,11 +3601,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get wtlAccessRequestTitle => 'WTL 访问请求';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+  String get wtlMeterOnboardingStepDescriptionApproved => '您的访问请求已确认。请输入电表号的后三位数字，以查看电表读数。';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => '您的访问请求仍在处理中。请稍候。';
 
   @override
   String get yearlyConsumption => '至今年消费量';

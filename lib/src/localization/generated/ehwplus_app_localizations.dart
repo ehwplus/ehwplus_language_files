@@ -1913,6 +1913,54 @@ abstract class EhwplusAppLocalizations {
   /// **'\nUse an electricity feed-in meter to record the electricity generated and fed in\nwith a photovoltaic system. The resulting revenue is offset against the cost of\nthe electricity drawn.'**
   String get counterPvFeedInCounterExplanation;
 
+  /// No description provided for @counterQrCode.
+  ///
+  /// In en, this message translates to:
+  /// **'QR code'**
+  String get counterQrCode;
+
+  /// No description provided for @counterQrCodeInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Please scan a QR code!'**
+  String get counterQrCodeInvalid;
+
+  /// No description provided for @counterQrCodeNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No matching counter found for this QR code!'**
+  String get counterQrCodeNotFound;
+
+  /// No description provided for @counterQrCodeNotStored.
+  ///
+  /// In en, this message translates to:
+  /// **'No QR code has been saved'**
+  String get counterQrCodeNotStored;
+
+  /// No description provided for @counterQrCodeScan.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan the QR code'**
+  String get counterQrCodeScan;
+
+  /// No description provided for @counterQrCodeScanHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan the QR code associated with a meter!'**
+  String get counterQrCodeScanHint;
+
+  /// No description provided for @counterQrCodeScanTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan the QR code'**
+  String get counterQrCodeScanTitle;
+
+  /// No description provided for @counterQrCodeStored.
+  ///
+  /// In en, this message translates to:
+  /// **'QR code provided'**
+  String get counterQrCodeStored;
+
   /// No description provided for @counterReadings.
   ///
   /// In en, this message translates to:
@@ -2176,6 +2224,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Generated electricity'**
   String get electricityGenerated;
+
+  /// No description provided for @electricitySmartMeterManualReadingsWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.'**
+  String get electricitySmartMeterManualReadingsWarning;
 
   /// No description provided for @enableCounterViewsMerging.
   ///
@@ -4553,12 +4607,6 @@ abstract class EhwplusAppLocalizations {
   /// **'Radio water meters'**
   String get smartMeterCountersTitle;
 
-  /// No description provided for @electricitySmartMeterManualReadingsWarning.
-  ///
-  /// In en, this message translates to:
-  /// **'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.'**
-  String get electricitySmartMeterManualReadingsWarning;
-
   /// No description provided for @smartMeterErrorNoData.
   ///
   /// In en, this message translates to:
@@ -4576,6 +4624,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Please set up your smart meter correctly.'**
   String get smartMeterMisconfiguredWidgetCardTitle;
+
+  /// No description provided for @smartMeterNotificationAuthenticationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'You must be signed in to be notified of unexpected consumption.'**
+  String get smartMeterNotificationAuthenticationRequired;
 
   /// No description provided for @smartMeterObtainDataAutomatically.
   ///
@@ -4792,12 +4846,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'I would like to be notified of unexpected consumption'**
   String get subscribeToSmartMeterInfocodeEvents;
-
-  /// No description provided for @smartMeterNotificationAuthenticationRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'You must be signed in to be notified of unexpected consumption.'**
-  String get smartMeterNotificationAuthenticationRequired;
 
   /// No description provided for @supplementaryPayment.
   ///

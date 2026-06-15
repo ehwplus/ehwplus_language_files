@@ -772,15 +772,15 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'دوره لغو $weeks هفته',
+      one: 'مدت لغو: ۱ هفته',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'پایان $date';
   }
 
   @override
@@ -1026,6 +1026,30 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'از یک کنتور ورودی برای ثبت برق تولید و تزریق‌شده توسط سیستم فتوولتائیک استفاده کنید. درآمد حاصل از تزریق برق، هزینه برق مصرفی را جبران می‌کند.';
 
   @override
+  String get counterQrCode => 'کد QR';
+
+  @override
+  String get counterQrCodeInvalid => 'لطفاً یک کد QR را اسکن کنید!';
+
+  @override
+  String get counterQrCodeNotFound => 'هیچ کیوسکی برای این کد QR یافت نشد!';
+
+  @override
+  String get counterQrCodeNotStored => 'هیچ کد QR ذخیره نشده است';
+
+  @override
+  String get counterQrCodeScan => 'کد QR را اسکن کنید';
+
+  @override
+  String get counterQrCodeScanHint => 'کد QR مربوط به کنتور را اسکن کنید!';
+
+  @override
+  String get counterQrCodeScanTitle => 'کد QR را اسکن کنید';
+
+  @override
+  String get counterQrCodeStored => 'کد QR ارائه شده';
+
+  @override
   String get counterReadings => 'خواندن';
 
   @override
@@ -1171,6 +1195,10 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'برق تولید کرد';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'کنتورهای برق گروهی با شماره کنتور یکسان';
@@ -2537,10 +2565,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'کنتورهای آب رادیویی';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'متأسفانه، هیچ داده ای وجود ندارد که برنامه بتواند نمایش دهد.';
 
   @override
@@ -2548,6 +2572,10 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'لطفاً کنتور هوشمند خود را به درستی تنظیم کنید.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'برای دریافت اطلاعیه درباره مصرف غیرمنتظره، باید وارد شده باشید.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'داده‌ها را به‌طور خودکار به‌دست آورید';
@@ -2671,10 +2699,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'من می خواهم از مصرف غیرمنتظره مطلع شوم';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'پرداخت تکمیلی';
@@ -3519,7 +3543,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'از $waterSupplier';
   }
 
   @override
@@ -3544,7 +3568,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'درخواست دسترسی شما تأیید شد. هم‌اکنون راه‌اندازی را تکمیل کنید!';
 
   @override
   String get watersupplierAccessRequestDenied => 'درخواست دسترسی شما رد شد.  می‌توانید این کنتور را حذف کنید.';
@@ -3553,7 +3577,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get watersupplierAccessRequestPending => 'درخواست دسترسی شما در حال پردازش است. لطفاً صبور باشید.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed => 'درخواست دسترسی شما در حال بررسی است. لطفاً صبور باشید.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3683,15 +3707,14 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get wtlAccessRequestOnlineOnlyDescription => 'درخواست دسترسی آنلاین برای واتر‌فرباند تکِلن‌برگر لاند.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+  String get wtlAccessRequestRegularMeterIdHint => 'شماره کنتور آب خود را وارد کنید. مثال: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'لطفاً شماره کنتور خود را با حداقل ۷ رقم و شماره مشتری خود را وارد کنید.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'لطفاً یک شماره کنتور با حداقل ۷ رقم وارد کنید.';
 
   @override
   String get wtlAccessRequestSuccess => 'درخواست دسترسی ایجاد شد.';
@@ -3701,10 +3724,10 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'درخواست دسترسی شما تأیید شد. سه رقم آخر شماره کنتور خود را وارد کنید تا به اطلاعات قرائت کنتور دسترسی پیدا کنید.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending => 'درخواست دسترسی شما هنوز باز است. لطفاً صبور باشید.';
 
   @override
   String get yearlyConsumption => 'مصرف سالانه تا کنون';

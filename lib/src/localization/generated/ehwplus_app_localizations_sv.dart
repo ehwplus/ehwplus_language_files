@@ -773,15 +773,15 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      other: 'Cancellation period $weeks weeks',
-      one: 'Cancellation period 1 week',
+      other: 'Ångerfrist$weeks-veckor',
+      one: 'Ångerfrist: 1 vecka',
     );
     return '$_temp0';
   }
 
   @override
   String contractReminderEndsAt(String date) {
-    return 'Ends $date';
+    return 'Slutar $date';
   }
 
   @override
@@ -1027,6 +1027,30 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
       'Använd en elinmatningsmätare för att registrera den el som genereras och matas in\nmed ett solcellssystem. De resulterande intäkterna kvittas mot kostnaden för\nelen som dras.';
 
   @override
+  String get counterQrCode => 'QR-kod';
+
+  @override
+  String get counterQrCodeInvalid => 'Skanna en QR-kod!';
+
+  @override
+  String get counterQrCodeNotFound => 'Ingen passande räknare hittades för denna QR-kod!';
+
+  @override
+  String get counterQrCodeNotStored => 'Ingen QR-kod har lagrats';
+
+  @override
+  String get counterQrCodeScan => 'Skanna QR-koden';
+
+  @override
+  String get counterQrCodeScanHint => 'Skanna QR-koden som är kopplad till en mätare!';
+
+  @override
+  String get counterQrCodeScanTitle => 'Skanna QR-koden';
+
+  @override
+  String get counterQrCodeStored => 'QR-kod lagrad';
+
+  @override
   String get counterReadings => 'Avläsningar';
 
   @override
@@ -1172,6 +1196,10 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Genererad el';
+
+  @override
+  String get electricitySmartMeterManualReadingsWarning =>
+      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Sammanfatta elmätare med samma mätarnummer';
@@ -2543,10 +2571,6 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get smartMeterCountersTitle => 'Radiovattenmätare';
 
   @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
-
-  @override
   String get smartMeterErrorNoData => 'Tyvärr finns det ingen data som appen kan visa.';
 
   @override
@@ -2554,6 +2578,10 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get smartMeterMisconfiguredWidgetCardTitle => 'Vänligen ställ in din smarta mätare korrekt.';
+
+  @override
+  String get smartMeterNotificationAuthenticationRequired =>
+      'Du måste vara inloggad för att få meddelanden om oväntad förbrukning.';
 
   @override
   String get smartMeterObtainDataAutomatically => 'Få data automatiskt';
@@ -2677,10 +2705,6 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get subscribeToSmartMeterInfocodeEvents => 'Jag skulle vilja bli meddelad om oväntad konsumtion';
-
-  @override
-  String get smartMeterNotificationAuthenticationRequired =>
-      'You must be signed in to be notified of unexpected consumption.';
 
   @override
   String get supplementaryPayment => 'Tilläggsbetalning';
@@ -3530,7 +3554,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String waterMeterEventsSupplier(String waterSupplier) {
-    return 'from $waterSupplier';
+    return 'från $waterSupplier';
   }
 
   @override
@@ -3555,7 +3579,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get watersupplierAccessRequestApprovedPendingOnboarding =>
-      'Your access request has been approved. Complete the setup now!';
+      'Din åtkomstbegäran har godkänts. Slutför inställningarna nu!';
 
   @override
   String get watersupplierAccessRequestDenied => 'Din begäran om åtkomst avslogs. Du kan radera den här mätaren.';
@@ -3565,7 +3589,8 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
       'Din begäran om åtkomst håller fortfarande på att behandlas. Vänligen ha tålamod.';
 
   @override
-  String get watersupplierAccessRequestPostponed => 'Your access request is still being checked. Please be patient.';
+  String get watersupplierAccessRequestPostponed =>
+      'Din begäran om åtkomst granskas fortfarande. Vi ber dig ha tålamod.';
 
   @override
   String get watersupplierAccessRequestQ1 =>
@@ -3697,14 +3722,14 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get wtlAccessRequestRegularMeterIdHint =>
-      'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
+      'Ange mätarnumret från din vattenmätare. Exempel: 8 AXI10 0796 2977.';
 
   @override
   String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Please enter your meter number with at least 7 digits and your customer number.';
+      'Ange ditt mätarnummer med minst 7 siffror samt ditt kundnummer.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get wtlAccessRequestRegularMeterIdWarning => 'Ange ett mätarnummer med minst 7 siffror.';
 
   @override
   String get wtlAccessRequestSuccess => 'Åtkomstbegäran skapad.';
@@ -3714,10 +3739,11 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
+      'Din begäran om åtkomst har bekräftats. Ange de tre sista siffrorna i ditt mätarnummer för att få tillgång till mätaravläsningarna.';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get wtlMeterOnboardingStepDescriptionPending =>
+      'Din begäran om tillgång är fortfarande under behandling. Vi ber dig ha tålamod.';
 
   @override
   String get yearlyConsumption => 'Årlig konsumtion hittills';
