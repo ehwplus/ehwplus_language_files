@@ -2609,12 +2609,6 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nincs beállítva';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Az intelligens mérő szinkronizálása nem sikerült';
 
   @override
@@ -3715,90 +3709,87 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Rádiómérő hozzáférésének megszüntetése';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Ha törli ezt a rádiós mérőórát, a rádiós mérőórák leolvasásához való hozzáférése visszavonásra kerül. Később új hozzáférési kérelmet nyújthat be.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Ha ezt a rádiómérőt törli, a rádiómérő leolvasási adataihoz való hozzáférési jogosultsága visszavonásra kerül. Később új hozzáférési kérelmet nyújthat be.';
 
   @override
-  String get withoutRoomAssignment => 'Szobakiosztás nélkül';
+  String get accessRequestFlowFailure => 'A hozzáférési kérelem létrehozása nem sikerült.';
 
   @override
-  String get wtlAccessRequestFailure => 'A hozzáférési kérelmet nem sikerült létrehozni.';
+  String get accessRequestFlowMeterId => 'WV-mérő száma';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV mérőszám';
+  String get accessRequestFlowMeterIdHint =>
+      'A WV-mérőszámot a rádiós vízmérő fedelének belső oldalán, az üdvözlőlevélben vagy az éves elszámolásban találja meg.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'A WV-mérőszámot a rádiós vízmérő borítójának belső oldalán, az üdvözlő levélben vagy az éves elszámolásban találja.';
+  String get accessRequestFlowMissingAccountData => 'A fiókjából hiányzik az e-mail-cím.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'A fiókjából hiányzik egy e-mail cím.';
+  String get accessRequestFlowMissingInput =>
+      'Kérjük, adja meg pontosan 6 számjegyből álló WV-mérőszámát és ügyfélszámát.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Kérjük, adja meg pontosan 6 számjegyű WV mérőszámát és ügyfélszámát.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Online hozzáférési kérelem a „$supplierName” című műhöz.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Online hozzáférési kérelem a Wasserverband Tecklenburger Land számára.';
+  String get accessRequestFlowRegularMeterIdHint =>
+      'Írja be a vízmérőjén szereplő mérőszámot. Példa: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Írja be a vízmérő számát. Példa: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Kérjük, adja meg legalább 7 számjegyű mérőszámát és ügyfélszámát.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Kérjük, adjon meg legalább 7 számjegyből álló mérőszámot.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Kérjük, adjon meg legalább 7 számjegyből álló mérőszámot.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Létrehozott hozzáférési kérelem.';
+  String get accessRequestFlowSuccess => 'A hozzáférési kérelem létrehozva.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL hozzáférési kérelem';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName hozzáférési kérelem';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Ezek a mérőórák az Ön fiókjához vannak jóváhagyva. A hiányzó mérőórákat újra hozzá lehet adni ehhez az objektumhoz.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'A fiókjához nem találtunk jóváhagyott mérőórákat.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'A jóváhagyott mérőórák betöltése nem sikerült.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Mérő visszaállítása';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'A mérőórát nem sikerült helyreállítani.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Hozzáadva';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Nem került hozzáadásra';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Mérőórák ellenőrzése';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Ellenőrizze, hogy fiókja mely mérőórákhoz fér hozzá, és adja hozzá a hiányzó mérőórákat ehhez az objektumhoz.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Mérőórák ellenőrzése';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Méter';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Hozzáférési kérelmét jóváhagytuk. Írja be a fogyasztásmérő-szám utolsó három számjegyét, hogy hozzáférhessen a fogyasztásmérő-állásokhoz.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'A hozzáférési kérelme még folyamatban van. Kérjük, legyen türelmes.';
+  String get withoutRoomAssignment => 'Szobakiosztás nélkül';
 
   @override
   String get yearlyConsumption => 'Eddigi éves fogyasztás';

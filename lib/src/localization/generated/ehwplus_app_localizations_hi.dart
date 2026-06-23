@@ -2598,12 +2598,6 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'सेट नहीं';
 
   @override
-  String get smartMeterProviderWtl => 'टेक्लेनबर्गर लैंड जल संघ';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'स्मार्ट मीटर सिंक्रोनाइज़ेशन विफल हो गया';
 
   @override
@@ -3693,90 +3687,87 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'रेडियो मीटर पहुंच समाप्त करें';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'यदि आप इस रेडियो मीटर को हटा देते हैं, तो रेडियो मीटर रीडिंग्स तक आपकी पहुँच रद्द कर दी जाएगी। आप बाद में नई पहुँच अनुरोध सबमिट कर सकते हैं।';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'यदि आप इस रेडियो मीटर को हटा देते हैं, तो रेडियो मीटर रीडिंग्स तक आपकी पहुँच रद्द कर दी जाएगी। आप बाद में एक नया पहुँच अनुरोध जमा कर सकते हैं।';
 
   @override
-  String get withoutRoomAssignment => 'कक्ष आवंटन के बिना';
+  String get accessRequestFlowFailure => 'एक्सेस अनुरोध नहीं बनाया जा सका।';
 
   @override
-  String get wtlAccessRequestFailure => 'एक्सेस अनुरोध नहीं बनाया जा सका।';
+  String get accessRequestFlowMeterId => 'डब्ल्यूवी मीटर संख्या';
 
   @override
-  String get wtlAccessRequestMeterId => 'डब्ल्यूवी मीटर संख्या';
+  String get accessRequestFlowMeterIdHint =>
+      'आपको WV मीटर संख्या आपके रेडियो वॉटर मीटर के कवर के अंदर, स्वागत पत्र में या वार्षिक विवरण में मिलेगी।';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'आप अपना WV मीटर नंबर अपने वायरलेस वॉटर मीटर के कवर के अंदर, स्वागत पत्र में या अपने वार्षिक विवरण में पा सकते हैं।';
+  String get accessRequestFlowMissingAccountData => 'आपके खाते में ईमेल पता नहीं है।';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'आपके खाते में ईमेल पता नहीं है।';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
+  String get accessRequestFlowMissingInput =>
       'कृपया अपना WV मीटर नंबर ठीक 6 अंकों के साथ और अपना ग्राहक नंबर दर्ज करें।';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'वासरवेरबैंड टेक्लेनबर्गर लैंड के लिए ऑनलाइन पहुँच अनुरोध।';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return '$supplierName के लिए ऑनलाइन पहुँच अनुरोध।';
+  }
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'अपने पानी के मीटर का मीटर नंबर दर्ज करें। उदाहरण: 8 AXI10 0796 2977।';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'कृपया अपना मीटर नंबर कम से कम 7 अंकों के साथ और अपना ग्राहक नंबर दर्ज करें।';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'कृपया कम से कम 7 अंकों वाला मीटर नंबर दर्ज करें।';
+  String get accessRequestFlowRegularMeterIdWarning => 'कृपया कम से कम 7 अंकों वाला मीटर नंबर दर्ज करें।';
 
   @override
-  String get wtlAccessRequestSuccess => 'पहुँच अनुरोध बनाया गया।';
+  String get accessRequestFlowSuccess => 'पहुँच अनुरोध बनाया गया।';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL पहुँच अनुरोध';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName पहुँच अनुरोध';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'ये मीटर आपके खाते के लिए अनुमोदित हैं।   इस ऑब्जेक्ट में गायब मीटर फिर से जोड़े जा सकते हैं।';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'आपके खाते के लिए कोई स्वीकृत मीटर नहीं मिला।';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'अनुमोदित मीटर लोड नहीं किए जा सके।';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'मीटर पुनर्स्थापित करें';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'मीटर को पुनर्स्थापित नहीं किया जा सका।';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'जोड़ा गया';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'जोड़ा नहीं गया';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'मीटर जांचें';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'जाँचें कि आपके खाते में कौन से मीटर उपलब्ध हैं और इस ऑब्जेक्ट में छूटे हुए मीटर वापस जोड़ें।';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'चेक मीटर';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'मीटर';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'आपकी पहुँच अनुरोध की पुष्टि हो गई है। मीटर रीडिंग्स तक पहुँच प्राप्त करने के लिए अपने मीटर नंबर के अंतिम तीन अंक दर्ज करें।';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'आपकी पहुँच अनुरोध अभी भी खुला हुआ है। कृपया धैर्य रखें।';
+  String get withoutRoomAssignment => 'कक्ष आवंटन के बिना';
 
   @override
   String get yearlyConsumption => 'अब तक की वार्षिक खपत';

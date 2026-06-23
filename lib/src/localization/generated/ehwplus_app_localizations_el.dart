@@ -2617,12 +2617,6 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Δεν έχει οριστεί';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Ο συγχρονισμός του έξυπνου μετρητή απέτυχε';
 
   @override
@@ -3730,93 +3724,88 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Τερματισμός πρόσβασης ραδιομέτρου';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Εάν διαγράψετε αυτόν τον ραδιομετρητή, η πρόσβασή σας στις μετρήσεις του ραδιομετρητή θα ανακληθεί. Μπορείτε να υποβάλετε νέο αίτημα πρόσβασης αργότερα.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Εάν διαγράψετε αυτόν τον μετρητή ραδιοσυχνοτήτων, η πρόσβασή σας στις ενδείξεις του μετρητή θα ανακληθεί. Μπορείτε να υποβάλετε νέο αίτημα πρόσβασης αργότερα.';
+
+  @override
+  String get accessRequestFlowFailure => 'Δεν ήταν δυνατή η δημιουργία του αιτήματος πρόσβασης.';
+
+  @override
+  String get accessRequestFlowMeterId => 'Αριθμός μετρητή WV';
+
+  @override
+  String get accessRequestFlowMeterIdHint =>
+      'Θα βρείτε τον αριθμό του μετρητή WV στο εσωτερικό του καλύμματος του μετρητή νερού του ραδιοφώνου σας, στην επιστολή καλωσορίσματος ή στην ετήσια κατάσταση λογαριασμού.';
+
+  @override
+  String get accessRequestFlowMissingAccountData =>
+      'Στον λογαριασμό σας δεν έχει καταχωρηθεί διεύθυνση ηλεκτρονικού ταχυδρομείου.';
+
+  @override
+  String get accessRequestFlowMissingInput =>
+      'Παρακαλώ εισάγετε τον αριθμό του μετρητή WV, ο οποίος πρέπει να αποτελείται ακριβώς από 6 ψηφία, καθώς και τον αριθμό πελάτη σας.';
+
+  @override
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Αίτημα ηλεκτρονικής πρόσβασης για το έργο «$supplierName».';
+  }
+
+  @override
+  String get accessRequestFlowRegularMeterIdHint =>
+      'Εισάγετε τον αριθμό του υδρομετρητή σας. Παράδειγμα: 8 AXI10 0796 2977.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Παρακαλώ εισάγετε τον αριθμό του μετρητή σας, ο οποίος πρέπει να αποτελείται από τουλάχιστον 7 ψηφία, καθώς και τον αριθμό πελάτη σας.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdWarning => 'Παρακαλώ εισάγετε έναν αριθμό μετρητή με τουλάχιστον 7 ψηφία.';
+
+  @override
+  String get accessRequestFlowSuccess => 'Δημιουργήθηκε αίτημα πρόσβασης.';
+
+  @override
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName αίτημα πρόσβασης';
+  }
+
+  @override
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Αυτοί οι μετρητές έχουν εγκριθεί για τον λογαριασμό σας. Οι μετρητές που λείπουν μπορούν να προστεθούν ξανά σε αυτό το αντικείμενο.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Δεν εντοπίστηκαν εγκεκριμένοι μετρητές για τον λογαριασμό σας.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Δεν ήταν δυνατή η φόρτωση των εγκεκριμένων μετρητών.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestore => 'Επαναφορά μετρητή';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Δεν ήταν δυνατή η επαναφορά του μετρητή.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Προστέθηκε';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Δεν έχει προστεθεί';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Έλεγχος μετρητών';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Ελέγξτε σε ποιους μετρητές έχει πρόσβαση ο λογαριασμός σας και προσθέστε τους μετρητές που λείπουν ξανά σε αυτό το αντικείμενο.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Έλεγχος μετρητών';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersTitle => 'Μέτρα';
 
   @override
   String get withoutRoomAssignment => 'Χωρίς ανάθεση δωματίου';
-
-  @override
-  String get wtlAccessRequestFailure => 'Η αίτηση πρόσβασης δεν μπόρεσε να δημιουργηθεί.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Αριθμός μετρητή WV';
-
-  @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Θα βρείτε τον αριθμό του μετρητή WV στο εσωτερικό του καλύμματος του ραδιομετρητή σας ή στην επιστολή καλωσορίσματος ή στην ετήσια δήλωση.';
-
-  @override
-  String get wtlAccessRequestMissingAccountData =>
-      'Από το λογαριασμό σας λείπει μια διεύθυνση ηλεκτρονικού ταχυδρομείου.';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
-      'Παρακαλούμε εισάγετε τον αριθμό μετρητή WV με ακριβώς 6 ψηφία και τον αριθμό πελάτη σας.';
-
-  @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Ηλεκτρονική αίτηση πρόσβασης για το Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
-      'Εισάγετε τον αριθμό του μετρητή νερού σας. Παράδειγμα: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Παρακαλώ εισάγετε τον αριθμό του μετρητή σας (τουλάχιστον 7 ψηφία) και τον αριθμό πελάτη σας.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Παρακαλώ εισάγετε έναν αριθμό μετρητή με τουλάχιστον 7 ψηφία.';
-
-  @override
-  String get wtlAccessRequestSuccess => 'Δημιουργήθηκε αίτηση πρόσβασης.';
-
-  @override
-  String get wtlAccessRequestTitle => 'Αίτημα πρόσβασης WTL';
-
-  @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
-
-  @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
-
-  @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
-
-  @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
-
-  @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
-
-  @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
-
-  @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Το αίτημά σας για πρόσβαση έχει επιβεβαιωθεί. Εισάγετε τα τρία τελευταία ψηφία του αριθμού του μετρητή σας για να αποκτήσετε πρόσβαση στις ενδείξεις του μετρητή.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Το αίτημά σας για πρόσβαση είναι ακόμα σε εκκρεμότητα. Παρακαλούμε να δείξετε υπομονή.';
 
   @override
   String get yearlyConsumption => 'Ετήσια κατανάλωση μέχρι στιγμής';

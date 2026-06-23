@@ -2546,12 +2546,6 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => '未設定';
 
   @override
-  String get smartMeterProviderWtl => 'テッケレンブルガー・ランド・ヴァザーバンド';
-
-  @override
-  String get smartMeterProviderWwgl => 'ヴァッサーヴェルク ゲラウアー ランド';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'スマートメーターの同期に失敗';
 
   @override
@@ -3592,85 +3586,82 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '無線メーターへのアクセスを終了する';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'この無線メーターを削除すると、無線メーターの読み取り値へのアクセスは取り消されます。後で新しいアクセス要求を提出することができます。';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'このラジオメーターを削除すると、ラジオメーターの測定値へのアクセス権が取り消されます。後日、改めてアクセス権の申請を行うことができます。';
+
+  @override
+  String get accessRequestFlowFailure => 'アクセス要求を作成できませんでした。';
+
+  @override
+  String get accessRequestFlowMeterId => 'WVメーター番号';
+
+  @override
+  String get accessRequestFlowMeterIdHint => 'WVメーター番号は、ラジオ式水道メーターのカバーの内側、またはウェルカムレター、あるいは年次明細書に記載されています。';
+
+  @override
+  String get accessRequestFlowMissingAccountData => 'お客様のアカウントにはメールアドレスが登録されていません。';
+
+  @override
+  String get accessRequestFlowMissingInput => 'WVのメーター番号（正確に6桁）とお客様番号を入力してください。';
+
+  @override
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return '『$supplierName』のオンライン閲覧申請。';
+  }
+
+  @override
+  String get accessRequestFlowRegularMeterIdHint => '水道メーターに記載されているメーター番号を入力してください。例：8 AXI10 0796 2977。';
+
+  @override
+  String get accessRequestFlowRegularMeterIdMissingInput => '7桁以上のメーター番号と、お客様番号を入力してください。';
+
+  @override
+  String get accessRequestFlowRegularMeterIdWarning => '7桁以上のメーター番号を入力してください。';
+
+  @override
+  String get accessRequestFlowSuccess => 'アクセスリクエストが作成されました。';
+
+  @override
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName 情報開示請求';
+  }
+
+  @override
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'これらのメーターは、お客様のアカウントで承認済みです。登録漏れのあるメーターは、このオブジェクトに再度追加することができます。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersEmpty => 'お客様のアカウントには、承認済みのメーターが見つかりませんでした。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersLoadFailed => '承認済みのメーターを読み込むことができませんでした。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestore => 'メーターを復元する';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'メーターは復旧できませんでした。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusAdded => '追加されました';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusMissing => '追加されていません';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepButton => 'メーターを確認してください';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepDescription => 'ご契約でアクセス可能なメーターを確認し、登録されていないメーターをこのオブジェクトに追加してください。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'メーターを確認してください';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersTitle => 'メートル';
 
   @override
   String get withoutRoomAssignment => '部屋割りなし';
-
-  @override
-  String get wtlAccessRequestFailure => 'アクセス要求を作成できませんでした。';
-
-  @override
-  String get wtlAccessRequestMeterId => 'WVメーター番号';
-
-  @override
-  String get wtlAccessRequestMeterIdHint => 'WVメーター番号は、無線水道メーターのカバーの内側、またはウェルカムレターや年間明細書に記載されています。';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'アカウントにメールアドレスがありません。';
-
-  @override
-  String get wtlAccessRequestMissingInput => 'WVメーター番号6桁とお客様番号を正確に入力してください。';
-
-  @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Landへのオンライン・アクセスリクエスト。';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint => '水道メーターに記載されているメーター番号を入力してください。例：8 AXI10 0796 2977。';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput => '7桁以上のメーター番号と、お客様番号を入力してください。';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning => '7桁以上のメーター番号を入力してください。';
-
-  @override
-  String get wtlAccessRequestSuccess => 'アクセス要求が作成されました。';
-
-  @override
-  String get wtlAccessRequestTitle => 'WTLアクセスリクエスト';
-
-  @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
-
-  @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
-
-  @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
-
-  @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
-
-  @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
-
-  @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
-
-  @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionApproved => 'アクセスリクエストが確認されました。検針データにアクセスするには、メーター番号の下3桁を入力してください。';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'アクセスリクエストは現在も処理中です。少々お待ちください。';
 
   @override
   String get yearlyConsumption => 'これまでの年間消費量';

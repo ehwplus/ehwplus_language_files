@@ -2609,12 +2609,6 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Не встановлено';
 
   @override
-  String get smartMeterProviderWtl => 'Водоканал Текленбурзької землі';
-
-  @override
-  String get smartMeterProviderWwgl => 'Земля Вассерверк Герауер';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Не вдалося синхронізувати розумний лічильник';
 
   @override
@@ -3723,91 +3717,89 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Припиніть доступ до радіолічильника';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Якщо ви видалите цей радіометр, ваш доступ до показань радіометра буде анульовано. Ви можете подати новий запит на доступ пізніше.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Якщо ви видалите цей радіолічильник, ваш доступ до показань радіолічильника буде скасовано. Ви зможете подати новий запит на доступ пізніше.';
 
   @override
-  String get withoutRoomAssignment => 'Без розподілу номерів';
+  String get accessRequestFlowFailure => 'Не вдалося створити запит на доступ.';
 
   @override
-  String get wtlAccessRequestFailure => 'Не вдалося створити запит на доступ.';
+  String get accessRequestFlowMeterId => 'Номер лічильника WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'Номер лічильника WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Номер лічильника WV ви знайдете на внутрішній стороні кришки вашого радіолічильника води, у листі-привітанні або в щорічному звіті.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Номер лічильника WV ви знайдете на внутрішній стороні кришки радіолічильника, у вітальному листі або в річному звіті.';
+  String get accessRequestFlowMissingAccountData => 'У вашому обліковому записі відсутня адреса електронної пошти.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'У вашому обліковому записі відсутня адреса електронної пошти.';
+  String get accessRequestFlowMissingInput =>
+      'Будь ласка, введіть номер лічильника WV, що складається саме з 6 цифр, та свій номер клієнта.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Будь ласка, введіть номер вашого лічильника WV, що складається з 6 цифр, та номер вашого клієнта.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Запит на отримання онлайн-доступу до книги «$supplierName».';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Запит на отримання онлайн доступу до Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Введіть номер лічильника, зазначений на вашому лічильнику води. Приклад: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Введіть номер лічильника (не менше 7 цифр) та номер клієнта.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Будь ласка, введіть номер лічильника, що складається щонайменше з 7 цифр, та свій номер клієнта.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Введіть номер лічильника, що складається щонайменше з 7 цифр.';
+  String get accessRequestFlowRegularMeterIdWarning =>
+      'Будь ласка, введіть номер лічильника, що складається щонайменше з 7 цифр.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Запит на доступ створено.';
+  String get accessRequestFlowSuccess => 'Запит на доступ створено.';
 
   @override
-  String get wtlAccessRequestTitle => 'Запит на доступ до WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName запит на доступ';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Ці лічильники затверджені для вашого облікового запису. Відсутні лічильники можна знову додати до цього об’єкта.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty =>
+      'Для вашого облікового запису не знайдено жодних затверджених лічильників.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Не вдалося завантажити затверджені лічильники.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Відновити лічильник';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Лічильник не вдалося відновити.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Додано';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Не додано';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Перевірити лічильники';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Перевірте, до яких лічильників має доступ ваш обліковий запис, і додайте відсутні лічильники до цього об’єкта.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Перевірити лічильники';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Метри';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Ваш запит на доступ підтверджено. Введіть три останні цифри номера лічильника, щоб отримати доступ до показань лічильника.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Ваш запит на доступ ще розглядається. Будь ласка, зачекайте.';
+  String get withoutRoomAssignment => 'Без розподілу номерів';
 
   @override
   String get yearlyConsumption => 'Річне споживання дотепер';

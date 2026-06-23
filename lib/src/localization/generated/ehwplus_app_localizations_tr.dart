@@ -2605,12 +2605,6 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Ayarlanmadı';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Bölgesi';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Akıllı sayaç senkronizasyonu başarısız oldu';
 
   @override
@@ -3699,88 +3693,87 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Radyo Ölçer Erişimini Sonlandır';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Bu radyo metreyi silerseniz, radyo metre okumalarına erişiminiz iptal edilecektir. Daha sonra yeni bir erişim talebi gönderebilirsiniz.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Bu radyo sayacını silerseniz, radyo sayacı okumalarına erişim hakkınız iptal edilecektir. Daha sonra yeni bir erişim talebinde bulunabilirsiniz.';
 
   @override
-  String get withoutRoomAssignment => 'Oda tahsisi olmadan';
+  String get accessRequestFlowFailure => 'Erişim talebi oluşturulamadı.';
 
   @override
-  String get wtlAccessRequestFailure => 'Erişim isteği oluşturulamadı.';
+  String get accessRequestFlowMeterId => 'WV ölçüm cihazı numarası';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV sayaç numarası';
+  String get accessRequestFlowMeterIdHint =>
+      'WV sayaç numarasını, radyo su sayacınızın kapağının iç kısmında, hoş geldiniz mektubunda veya yıllık hesap özetinde bulabilirsiniz.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'WV sayaç numarasını telsiz su sayacınızın kapağının iç tarafında veya hoş geldiniz mektubunda ya da yıllık hesap özetinde bulabilirsiniz.';
+  String get accessRequestFlowMissingAccountData => 'Hesabınızda bir e-posta adresi eksik.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Hesabınızda bir e-posta adresi eksik.';
+  String get accessRequestFlowMissingInput =>
+      'Lütfen tam olarak 6 haneli WV sayaç numaranızı ve müşteri numaranızı girin.';
 
   @override
-  String get wtlAccessRequestMissingInput => 'Lütfen tam 6 haneli WV sayaç numaranızı ve müşteri numaranızı girin.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return '$supplierName için çevrimiçi erişim talebi.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Land için çevrimiçi erişim talebi.';
+  String get accessRequestFlowRegularMeterIdHint =>
+      'Su sayacınızdaki sayaç numarasını girin. Örnek: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Su sayacınızın numarasını girin. Örnek: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Lütfen en az 7 haneli sayaç numaranızı ve müşteri numaranızı girin.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Lütfen en az 7 haneli bir sayaç numarası girin.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Lütfen en az 7 haneli bir sayaç numarası girin.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Erişim isteği oluşturuldu.';
+  String get accessRequestFlowSuccess => 'Erişim talebi oluşturuldu.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL erişim talebi';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName erişim talebi';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Bu sayaçlar hesabınız için onaylanmıştır. Eksik sayaçlar bu nesneye yeniden eklenebilir.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Hesabınız için onaylanmış sayaç bulunamadı.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Onaylanmış sayaçlar yüklenemedi.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Sayaç geri yükle';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Sayaç yeniden devreye alınamadı.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Eklendi';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Eklenmedi';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Sayaçları kontrol edin';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Hesabınızın hangi sayaçlara erişebildiğini kontrol edin ve eksik sayaçları bu nesneye tekrar ekleyin.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Sayaçları kontrol edin';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Metre';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Erişim talebiniz onaylandı. Sayaç değerlerine erişmek için sayaç numaranızın son üç hanesini girin.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Erişim talebiniz hâlâ beklemede. Lütfen biraz sabırlı olun.';
+  String get withoutRoomAssignment => 'Oda tahsisi olmadan';
 
   @override
   String get yearlyConsumption => 'Şu ana kadar yıllık tüketim';

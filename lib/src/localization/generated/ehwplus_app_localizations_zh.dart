@@ -2526,12 +2526,6 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => '未设置';
 
   @override
-  String get smartMeterProviderWtl => '特克伦堡州水务局';
-
-  @override
-  String get smartMeterProviderWwgl => '杰劳尔土地水厂';
-
-  @override
   String get smartMeterReadingsSyncFailed => '智能电表同步失败';
 
   @override
@@ -3562,84 +3556,80 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '终止无线电计访问';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription => '如果删除此无线电流量计，您对无线电流量计读数的访问权限将被取消。您可以稍后提交新的访问请求。';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription => '如果您删除此电表，您将无法再查看该电表的读数。您可以稍后提交新的访问请求。';
+
+  @override
+  String get accessRequestFlowFailure => '无法创建访问请求。';
+
+  @override
+  String get accessRequestFlowMeterId => 'WV 表号';
+
+  @override
+  String get accessRequestFlowMeterIdHint => '您可以在无线电水表的表盖内侧、欢迎信中或年度账单中找到WV表号。';
+
+  @override
+  String get accessRequestFlowMissingAccountData => '您的账户中缺少一个电子邮箱地址。';
+
+  @override
+  String get accessRequestFlowMissingInput => '请输入您的WV电表号（精确6位）和客户编号。';
+
+  @override
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return '关于《$supplierName》的在线访问申请。';
+  }
+
+  @override
+  String get accessRequestFlowRegularMeterIdHint => '请输入水表上的表号。示例：8 AXI10 0796 2977。';
+
+  @override
+  String get accessRequestFlowRegularMeterIdMissingInput => '请输入至少7位数的电表号和您的客户号。';
+
+  @override
+  String get accessRequestFlowRegularMeterIdWarning => '请输入至少7位数的电表号。';
+
+  @override
+  String get accessRequestFlowSuccess => '已创建访问请求。';
+
+  @override
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName 访问请求';
+  }
+
+  @override
+  String get accessRequestFlowAuthorizedMetersDescription => '这些电表已获准用于您的账户。缺失的电表可以重新添加到该对象中。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersEmpty => '未找到您账户下已获批准的电表。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersLoadFailed => '无法加载已批准的计量表。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestore => '恢复计数器';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => '该电表无法修复。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusAdded => '已添加';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusMissing => '未添加';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepButton => '检查仪表';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepDescription => '请检查您的账户可以访问哪些电表，并将缺失的电表重新添加到该对象中。';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepTitle => '检查仪表';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersTitle => '米';
 
   @override
   String get withoutRoomAssignment => '无房间分配';
-
-  @override
-  String get wtlAccessRequestFailure => '无法创建访问请求。';
-
-  @override
-  String get wtlAccessRequestMeterId => '西弗吉尼亚州水表编号';
-
-  @override
-  String get wtlAccessRequestMeterIdHint => '您可以在无线电水表的封面内侧、欢迎信或年度对账单中找到 WV 水表编号。';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => '您的账户缺少一个电子邮件地址。';
-
-  @override
-  String get wtlAccessRequestMissingInput => '请输入 6 位数的西弗吉尼亚州水表编号和客户编号。';
-
-  @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Land 的在线访问请求。';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint => '请输入水表上的表号。示例：8 AXI10 0796 2977。';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput => '请输入至少7位数的电表号和您的客户号。';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning => '请输入至少7位数的电表号。';
-
-  @override
-  String get wtlAccessRequestSuccess => '已创建访问请求。';
-
-  @override
-  String get wtlAccessRequestTitle => 'WTL 访问请求';
-
-  @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
-
-  @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
-
-  @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
-
-  @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
-
-  @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
-
-  @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
-
-  @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionApproved => '您的访问请求已确认。请输入电表号的后三位数字，以查看电表读数。';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => '您的访问请求仍在处理中。请稍候。';
 
   @override
   String get yearlyConsumption => '至今年消费量';

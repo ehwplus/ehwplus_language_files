@@ -2597,12 +2597,6 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Ikke satt';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Synkronisering av smartmåler mislyktes';
 
   @override
@@ -3698,92 +3692,87 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Avslutt tilgang til radiomåler';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Hvis du sletter denne radiomåleren, oppheves din tilgang til radiomåleravlesningene. Du kan sende inn en ny tilgangsforespørsel senere.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Hvis du sletter denne radiomåleren, vil tilgangen din til måleravlesningene bli opphevet. Du kan sende inn en ny tilgangsforespørsel senere.';
 
   @override
-  String get withoutRoomAssignment => 'Uten romtildeling';
+  String get accessRequestFlowFailure => 'Det var ikke mulig å opprette tilgangsforespørselen.';
 
   @override
-  String get wtlAccessRequestFailure => 'Tilgangsforespørsel kunne ikke opprettes.';
+  String get accessRequestFlowMeterId => 'WV-målerens nummer';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV målernummer';
+  String get accessRequestFlowMeterIdHint =>
+      'Du finner WV-målernummeret på innsiden av dekselet til vannmåleren din, i velkomstbrevet eller i årsoppgaven.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Du finner WV-målernummeret på innsiden av omslaget til radiovannmåleren, i velkomstbrevet eller i årsoppgaven.';
+  String get accessRequestFlowMissingAccountData => 'Det mangler en e-postadresse på kontoen din.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Kontoen din mangler en e-postadresse.';
+  String get accessRequestFlowMissingInput =>
+      'Vennligst oppgi WV-målernummeret ditt med nøyaktig 6 sifre og kundenummeret ditt.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Vennligst skriv inn WV-målernummeret ditt med nøyaktig 6 siffer og kundenummeret ditt.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Forespørsel om nettilgang til «$supplierName».';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Online tilgangsforespørsel for Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Skriv inn målernummeret fra vannmåleren din. Eksempel: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Vennligst oppgi målernummeret ditt (minst 7 siffer) og kundenummeret ditt.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Vennligst oppgi målernummeret ditt med minst 7 siffer og kundenummeret ditt.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Vennligst oppgi et målernummer på minst 7 siffer.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Vennligst oppgi et målernummer med minst 7 sifre.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Tilgangsforespørsel opprettet.';
+  String get accessRequestFlowSuccess => 'Tilgangsforespørsel opprettet.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL tilgangsforespørsel';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName tilgangsforespørsel';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Disse målerne er godkjent for din konto. Manglende målere kan legges til igjen i denne enheten.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Det ble ikke funnet noen godkjente målere for kontoen din.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Godkjente målere kunne ikke lastes inn.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Gjenopprett måler';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Måleren kunne ikke repareres.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Lagt til';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Ikke lagt til';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Kontrollmålere';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Sjekk hvilke målere kontoen din har tilgang til, og legg til manglende målere i dette objektet igjen.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Kontrollmålere';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Meter';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Din forespørsel om tilgang er bekreftet. Skriv inn de tre siste sifrene i målernummeret ditt for å få tilgang til måleravlesningene.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Din tilgangsforespørsel er fortsatt under behandling. Vi ber om tålmodighet.';
+  String get withoutRoomAssignment => 'Uten romtildeling';
 
   @override
   String get yearlyConsumption => 'Årlig forbruk så langt';

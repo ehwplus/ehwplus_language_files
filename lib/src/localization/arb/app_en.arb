@@ -1245,8 +1245,6 @@
   "smartMeterProviderPowerfox": "Powerfox",
   "smartMeterProviderTibber": "Tibber",
   "smartMeterProviderUndefined": "Not set",
-  "smartMeterProviderWtl": "Wasserverband Tecklenburger Land",
-  "smartMeterProviderWwgl": "Wasserwerk Gerauer Land",
   "smartMeterReadingsSyncFailed": "Smart meter synchronization failed",
   "smartMeterServiceProvider": "Service Provider",
   "smartMeterSettingsScreenSyncButton": "Synchronize consumption data",
@@ -1752,7 +1750,7 @@
         "type": "num"
       },
       "waterSupplier": {
-        "example": "from Wasserwerk Gerauer Land",
+        "example": "from your water supplier",
         "type": "String"
       }
     }
@@ -1761,7 +1759,7 @@
   "@waterMeterEventsSupplier": {
     "placeholders": {
       "waterSupplier": {
-        "example": "Wasserwerk Gerauer Land",
+        "example": "Example Water Supplier",
         "type": "String"
       }
     }
@@ -1805,32 +1803,46 @@
   "watersupplierUnlinkRadioMeterDescription2": "Do you no longer want access to your radio meter data? Please note: once the revocation code is scanned, the activation code becomes invalid. Any user account that used the activation code will lose access.",
   "watersupplierUnlinkRadioMeterFailure": "The radio meter could not be deleted. Please try again later.",
   "watersupplierUnlinkRadioMeterTitle": "Terminate Radio Meter Access",
-  "watersupplierUnlinkRadioMeterWtlDescription": "If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.",
+  "watersupplierUnlinkRadioMeterAccessRequestDescription": "If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.",
+  "accessRequestFlowFailure": "Access request could not be created.",
+  "accessRequestFlowMeterId": "WV meter number",
+  "accessRequestFlowMeterIdHint": "You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.",
+  "accessRequestFlowMissingAccountData": "Your account is missing an email address.",
+  "accessRequestFlowMissingInput": "Please enter your WV meter number with exactly 6 digits and your customer number.",
+  "accessRequestFlowOnlineOnlyDescription": "Online access request for {supplierName}.",
+  "@accessRequestFlowOnlineOnlyDescription": {
+    "placeholders": {
+      "supplierName": {
+        "type": "String",
+        "example": "Example Water Supplier"
+      }
+    }
+  },
+  "accessRequestFlowRegularMeterIdHint": "Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.",
+  "accessRequestFlowRegularMeterIdMissingInput": "Please enter your meter number with at least 7 digits and your customer number.",
+  "accessRequestFlowRegularMeterIdWarning": "Please enter a meter number with at least 7 digits.",
+  "accessRequestFlowSuccess": "Access request created.",
+  "accessRequestFlowTitle": "{supplierName} access request",
+  "@accessRequestFlowTitle": {
+    "placeholders": {
+      "supplierName": {
+        "type": "String",
+        "example": "Example Water Supplier"
+      }
+    }
+  },
+  "accessRequestFlowAuthorizedMetersDescription": "These meters are approved for your account. Missing meters can be added back to this object.",
+  "accessRequestFlowAuthorizedMetersEmpty": "No approved meters were found for your account.",
+  "accessRequestFlowAuthorizedMetersLoadFailed": "Approved meters could not be loaded.",
+  "accessRequestFlowAuthorizedMetersRestore": "Restore meter",
+  "accessRequestFlowAuthorizedMetersRestoreFailed": "The meter could not be restored.",
+  "accessRequestFlowAuthorizedMetersStatusAdded": "Added",
+  "accessRequestFlowAuthorizedMetersStatusMissing": "Not added",
+  "accessRequestFlowAuthorizedMetersStepButton": "Check meters",
+  "accessRequestFlowAuthorizedMetersStepDescription": "Check which meters your account can access and add missing meters back to this object.",
+  "accessRequestFlowAuthorizedMetersStepTitle": "Check meters",
+  "accessRequestFlowAuthorizedMetersTitle": "Meters",
   "withoutRoomAssignment": "Without room assignment",
-  "wtlAccessRequestFailure": "Access request could not be created.",
-  "wtlAccessRequestMeterId": "WV meter number",
-  "wtlAccessRequestMeterIdHint": "You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.",
-  "wtlAccessRequestMissingAccountData": "Your account is missing an email address.",
-  "wtlAccessRequestMissingInput": "Please enter your WV meter number with exactly 6 digits and your customer number.",
-  "wtlAccessRequestOnlineOnlyDescription": "Online access request for Wasserverband Tecklenburger Land.",
-  "wtlAccessRequestRegularMeterIdHint": "Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.",
-  "wtlAccessRequestRegularMeterIdMissingInput": "Please enter your meter number with at least 7 digits and your customer number.",
-  "wtlAccessRequestRegularMeterIdWarning": "Please enter a meter number with at least 7 digits.",
-  "wtlAccessRequestSuccess": "Access request created.",
-  "wtlAccessRequestTitle": "WTL access request",
-  "wtlAuthorizedMetersDescription": "These meters are approved for your account. Missing meters can be added back to this object.",
-  "wtlAuthorizedMetersEmpty": "No approved meters were found for your account.",
-  "wtlAuthorizedMetersLoadFailed": "Approved meters could not be loaded.",
-  "wtlAuthorizedMetersRestore": "Restore meter",
-  "wtlAuthorizedMetersRestoreFailed": "The meter could not be restored.",
-  "wtlAuthorizedMetersStatusAdded": "Added",
-  "wtlAuthorizedMetersStatusMissing": "Not added",
-  "wtlAuthorizedMetersStepButton": "Check meters",
-  "wtlAuthorizedMetersStepDescription": "Check which meters your account can access and add missing meters back to this object.",
-  "wtlAuthorizedMetersStepTitle": "Check meters",
-  "wtlAuthorizedMetersTitle": "Meters",
-  "wtlMeterOnboardingStepDescriptionApproved": "Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.",
-  "wtlMeterOnboardingStepDescriptionPending": "Your access request is still open. Please be patient.",
   "yearlyConsumption": "Annual consumption so far",
   "yearlyCosts": "Annual consumption costs so far",
   "youtubeConsent1": "We need your consent to display the embedded Youtube content. You can display this (and thus also all other Youtube content in the app) with one click and also deactivate it again.",

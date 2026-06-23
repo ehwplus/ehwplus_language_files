@@ -2590,12 +2590,6 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'تنظیم نشده';
 
   @override
-  String get smartMeterProviderWtl => 'انجمن آب تکِلنبورگر لاند';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'همگام‌سازی کنتور هوشمند ناموفق بود';
 
   @override
@@ -3680,89 +3674,85 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'دسترسی به رادیو متر را خاتمه دهید';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
       'اگر این رادیومتر را حذف کنید، دسترسی شما به قرائت‌های رادیومتر لغو خواهد شد. می‌توانید بعداً درخواست دسترسی جدیدی ارسال کنید.';
 
   @override
-  String get withoutRoomAssignment => 'بدون تخصیص اتاق';
+  String get accessRequestFlowFailure => 'درخواست دسترسی ایجاد نشد.';
 
   @override
-  String get wtlAccessRequestFailure => 'درخواست دسترسی ایجاد نشد.';
+  String get accessRequestFlowMeterId => 'شماره کنتور WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'شماره کنتور WV';
+  String get accessRequestFlowMeterIdHint =>
+      'شمارهٔ کنتور آب WV را در داخل درپوش کنتور آب رادیویی خود یا در نامهٔ خوش‌آمدگویی یا در صورت‌حساب سالانه خواهید یافت.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'شما می‌توانید شماره کنتور آب بی‌سیم خود را در داخل درپوش آن، در نامه خوش‌آمدگویی یا در صورتحساب سالانه خود بیابید.';
+  String get accessRequestFlowMissingAccountData => 'حساب کاربری شما فاقد آدرس ایمیل است.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'حساب کاربری شما فاقد آدرس ایمیل است.';
+  String get accessRequestFlowMissingInput => 'لطفاً شماره کنتور WV خود را با ۶ رقم دقیق و شماره مشتری خود وارد کنید.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'لطفاً شماره کنتور WV خود را با ۶ رقم دقیق و شماره مشتری خود را وارد کنید.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'درخواست دسترسی آنلاین برای $supplierName.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'درخواست دسترسی آنلاین برای واتر‌فرباند تکِلن‌برگر لاند.';
+  String get accessRequestFlowRegularMeterIdHint => 'شماره کنتور آب خود را وارد کنید. مثال: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'شماره کنتور آب خود را وارد کنید. مثال: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'لطفاً شماره کنتور خود را با حداقل ۷ رقم و شماره مشتری خود را وارد کنید.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'لطفاً یک شماره کنتور با حداقل ۷ رقم وارد کنید.';
+  String get accessRequestFlowRegularMeterIdWarning => 'لطفاً یک شماره کنتور با حداقل ۷ رقم وارد کنید.';
 
   @override
-  String get wtlAccessRequestSuccess => 'درخواست دسترسی ایجاد شد.';
+  String get accessRequestFlowSuccess => 'درخواست دسترسی ایجاد شد.';
 
   @override
-  String get wtlAccessRequestTitle => 'درخواست دسترسی WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName درخواست دسترسی';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'این مترها برای حساب کاربری شما تأیید شده‌اند.  مترهای گمشده می‌توانند به این شیء اضافه شوند.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'هیچ کنتور تأییدشده‌ای برای حساب کاربری شما یافت نشد.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'مترهای تأییدشده قابل بارگذاری نبودند.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'بازگرداندن کنتور';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'متر قابل بازیابی نبود.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'افزوده‌شده';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'افزوده نشده';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'کنتورها را بررسی کنید';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'بررسی کنید که حساب کاربری شما به کدام مترها دسترسی دارد و مترهای از دست رفته را به این شیء اضافه کنید.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'کنتورها را بررسی کنید';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'مترها';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'درخواست دسترسی شما تأیید شد. سه رقم آخر شماره کنتور خود را وارد کنید تا به اطلاعات قرائت کنتور دسترسی پیدا کنید.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'درخواست دسترسی شما هنوز باز است. لطفاً صبور باشید.';
+  String get withoutRoomAssignment => 'بدون تخصیص اتاق';
 
   @override
   String get yearlyConsumption => 'مصرف سالانه تا کنون';

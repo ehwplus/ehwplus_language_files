@@ -2611,12 +2611,6 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nie ustawiono';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Synchronizacja inteligentnego licznika nie powiodła się';
 
   @override
@@ -3717,91 +3711,88 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Zakończenie dostępu do licznika radiowego';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Usunięcie tego radiometru spowoduje cofnięcie dostępu do odczytów radiometru. Nowy wniosek o dostęp można złożyć później.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Jeśli usunie Pan/Pani ten licznik radiowy, dostęp do odczytów z tego licznika zostanie cofnięty. W późniejszym terminie będzie Pan/Pani mógł/mogła złożyć nowy wniosek o dostęp.';
 
   @override
-  String get withoutRoomAssignment => 'Bez przydziału pokoju';
+  String get accessRequestFlowFailure => 'Nie udało się utworzyć wniosku o dostęp.';
 
   @override
-  String get wtlAccessRequestFailure => 'Nie można utworzyć żądania dostępu.';
+  String get accessRequestFlowMeterId => 'Numer miernika WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'Numer licznika WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Numer licznika WV znajdą Państwo na wewnętrznej stronie pokrywy radiowego licznika wody, w liście powitalnym lub w rocznym zestawieniu.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Numer licznika WV znajduje się na wewnętrznej stronie pokrywy wodomierza radiowego, w liście powitalnym lub w rocznym zestawieniu.';
+  String get accessRequestFlowMissingAccountData => 'W Państwa koncie brakuje adresu e-mail.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Na Twoim koncie brakuje adresu e-mail.';
+  String get accessRequestFlowMissingInput =>
+      'Proszę wprowadzić numer licznika WV składający się dokładnie z 6 cyfr oraz swój numer klienta.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Wprowadź numer licznika WV składający się z dokładnie 6 cyfr oraz numer klienta.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Wniosek o udostępnienie online publikacji „$supplierName”.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Wniosek o dostęp online do Wasserverband Tecklenburger Land.';
+  String get accessRequestFlowRegularMeterIdHint => 'Wprowadź numer licznika wody. Przykład: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Wprowadź numer licznika wody. Przykład: 8 AXI10 0796 2977.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Proszę podać numer licznika składający się z co najmniej 7 cyfr oraz swój numer klienta.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Proszę podać numer licznika składający się z co najmniej 7 cyfr oraz numer klienta.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning =>
+  String get accessRequestFlowRegularMeterIdWarning =>
       'Proszę wprowadzić numer licznika składający się z co najmniej 7 cyfr.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Utworzono żądanie dostępu.';
+  String get accessRequestFlowSuccess => 'Wniosek o dostęp został utworzony.';
 
   @override
-  String get wtlAccessRequestTitle => 'Żądanie dostępu do WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName wniosek o dostęp';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Liczniki te zostały zatwierdzone dla Państwa konta. Brakujące liczniki można ponownie dodać do tego obiektu.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty =>
+      'Nie znaleziono żadnych zatwierdzonych liczników dla Państwa konta.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Nie udało się załadować zatwierdzonych liczników.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Przywróć licznik';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Nie udało się przywrócić działania licznika.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Dodano';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Nie dodano';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Sprawdź liczniki';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Proszę sprawdzić, do których liczników ma dostęp Państwa konto, i dodać brakujące liczniki z powrotem do tego obiektu.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Sprawdź liczniki';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Metry';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Państwa wniosek o dostęp został potwierdzony. Proszę wprowadzić trzy ostatnie cyfry numeru licznika, aby uzyskać dostęp do odczytów licznika.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Państwa wniosek o dostęp jest nadal rozpatrywany. Prosimy o cierpliwość.';
+  String get withoutRoomAssignment => 'Bez przydziału pokoju';
 
   @override
   String get yearlyConsumption => 'Dotychczasowe roczne zużycie';

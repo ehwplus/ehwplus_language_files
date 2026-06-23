@@ -2609,12 +2609,6 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nu este setat';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Sincronizarea contorului inteligent a eșuat';
 
   @override
@@ -3715,91 +3709,88 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Închiderea accesului la contorul radio';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Dacă ștergeți acest contor radio, accesul dvs. la citirile contorului radio va fi revocat. Puteți depune ulterior o nouă cerere de acces.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Dacă ștergeți acest contor radio, accesul dumneavoastră la valorile afișate de contorul radio va fi revocat. Puteți trimite o nouă cerere de acces ulterior.';
 
   @override
-  String get withoutRoomAssignment => 'Fără repartizarea camerelor';
+  String get accessRequestFlowFailure => 'Nu s-a putut crea solicitarea de acces.';
 
   @override
-  String get wtlAccessRequestFailure => 'Cererea de acces nu a putut fi creată.';
+  String get accessRequestFlowMeterId => 'Numărul contorului WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'Numărul contorului WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Veți găsi numărul contorului WV pe partea interioară a capacului contorului de apă cu radio sau în scrisoarea de bun venit, sau în raportul anual.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Veți găsi numărul contorului WV pe partea interioară a capacului contorului de apă radio sau în scrisoarea de bun venit sau în declarația anuală.';
+  String get accessRequestFlowMissingAccountData => 'Contul dumneavoastră nu are o adresă de e-mail.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Contului dvs. îi lipsește o adresă de e-mail.';
+  String get accessRequestFlowMissingInput =>
+      'Vă rugăm să introduceți numărul contorului WV, format din exact 6 cifre, precum și numărul dvs. de client.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Vă rugăm să introduceți numărul contorului WV cu exact 6 cifre și numărul de client.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Cerere de acces online la „$supplierName”.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Cerere de acces online pentru Wasserverband Tecklenburger Land.';
+  String get accessRequestFlowRegularMeterIdHint =>
+      'Introduceți numărul contorului de apă. Exemplu: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Introduceți numărul contorului de apă. Exemplu: 8 AXI10 0796 2977.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Vă rugăm să introduceți numărul contorului, format din cel puțin 7 cifre, și numărul dvs. de client.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Vă rugăm să introduceți numărul contorului, format din cel puțin 7 cifre, și numărul de client.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning =>
+  String get accessRequestFlowRegularMeterIdWarning =>
       'Vă rugăm să introduceți un număr de contor format din cel puțin 7 cifre.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Cerere de acces creată.';
+  String get accessRequestFlowSuccess => 'S-a creat o cerere de acces.';
 
   @override
-  String get wtlAccessRequestTitle => 'Cerere de acces WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName cerere de acces';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Aceste contoare sunt omologate pentru contul dumneavoastră. Contoarele lipsă pot fi adăugate din nou la acest obiect.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Nu s-au găsit contoare omologate pentru contul dumneavoastră.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Nu s-au putut încărca contoarele omologate.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Contoarul de restaurare';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Contorul nu a putut fi reparat.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Adăugat';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Nu a fost adăugat';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Verificați contoarele';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Verificați la ce contoare are acces contul dumneavoastră și adăugați contoarele lipsă înapoi la acest obiect.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Verificați contoarele';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Metri';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Solicitarea dumneavoastră de acces a fost confirmată. Introduceți ultimele trei cifre ale numărului contorului pentru a avea acces la citirile contorului.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Cererea dumneavoastră de acces este încă în curs de procesare. Vă rugăm să aveți răbdare.';
+  String get withoutRoomAssignment => 'Fără repartizarea camerelor';
 
   @override
   String get yearlyConsumption => 'Consumul anual până în prezent';

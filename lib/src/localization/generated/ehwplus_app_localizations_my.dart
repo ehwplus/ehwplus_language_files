@@ -2602,12 +2602,6 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'မသတ်မှတ်ပါ';
 
   @override
-  String get smartMeterProviderWtl => 'တက်ကလန်ဘာဂါ လန်ဒ် ရေဌာန';
-
-  @override
-  String get smartMeterProviderWwgl => 'wasserwerk gerauer မြေ';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'စမတ်မီတာညှိနှိုင်းမှု မအောင်မြင်ပါ။';
 
   @override
@@ -3709,91 +3703,86 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'ရေဒီယိုမီတာ access ကိုအဆုံးသတ်ပါ';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'ဤရေဒီယိုမီတာကို ဖျက်လိုက်ပါက သင့်ရေဒီယိုမီတာဖတ်ချက်များသို့ ဝင်ရောက်ကြည့်ရှုခွင့်ကို ပယ်ဖျက်မည်ဖြစ်သည်။ နောက်မှ ထပ်မံ ဝင်ရောက်ခွင့် တောင်းဆိုနိုင်ပါသည်။';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'ဤရေဒီယိုမီတာကို ဖျက်လိုက်ပါက သင့်ရေဒီယိုမီတာဖတ်ချက်များသို့ ဝင်ရောက်ကြည့်ရှုခွင့်ကို ပယ်ဖျက်မည်ဖြစ်သည်။ နောက်မှ ထပ်မံ ဝင်ရောက်ကြည့်ရှုခွင့် တောင်းဆိုနိုင်ပါသည်။';
 
   @override
-  String get withoutRoomAssignment => 'အခန်းခန့်အပ်ခြင်းမရှိဘဲ';
+  String get accessRequestFlowFailure => 'ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ဖန်တီး၍ မရနိုင်ခဲ့ပါ။';
 
   @override
-  String get wtlAccessRequestFailure => 'ဝင်ရောက်ခွင့်တောင်းဆိုမှုကို ဖန်တီး၍ မရနိုင်ခဲ့ပါ။';
+  String get accessRequestFlowMeterId => 'WV မီတာနံပါတ်';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV မီတာနံပါတ်';
+  String get accessRequestFlowMeterIdHint =>
+      'သင်သည် ရေမီတာ၏ ဖုံးအတွင်းဘက်တွင်၊ ကြိုဆိုစာတွင် သို့မဟုတ် နှစ်စဉ်ထုတ်ပြန်ချက်တွင် WV မီတာနံပါတ်ကို တွေ့နိုင်ပါသည်။';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'သင့် WV မီတာနံပါတ်ကို သင့်ဝိုင်ယာလက်ရေဓာတ်မီတာ၏ ဖုံးအတွင်းဘက်၊ ကြိုဆိုစာတွင် သို့မဟုတ် နှစ်စဉ်ငွေတောင်းခံလွှာပေါ်တွင် ရှာတွေ့နိုင်ပါသည်။';
+  String get accessRequestFlowMissingAccountData => 'သင့်အကောင့်တွင် အီးမေးလ်လိပ်စာ မပါရှိပါ။';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'သင့်အကောင့်တွင် အီးမေးလ်လိပ်စာ မပါရှိပါ။';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
+  String get accessRequestFlowMissingInput =>
       'ကျေးဇူးပြု၍ သင့် WV မီတာနံပါတ်ကို ဂဏန်း ၆ လုံးတိတိဖြင့်နှင့် သင့်ဖောက်သည်နံပါတ်ကို ထည့်ပါ။';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Wasserverband Tecklenburger Land အွန်လိုင်း ဝင်ရောက်ခွင့် တောင်းဆိုခြင်း။';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return '$supplierName အတွက် အွန်လိုင်း ဝင်ရောက်ခွင့် တောင်းဆိုခြင်း။';
+  }
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'သင့်ရေပိုက်မီတာမှ မီတာနံပါတ်ကို ထည့်ပါ။ ဥပမာ – 8 AXI10 0796 2977။';
+  String get accessRequestFlowRegularMeterIdHint => 'သင့်ရေမီတာမှ မီတာနံပါတ်ကို ထည့်ပါ။ ဥပမာ – 8 AXI10 0796 2977။';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'မီတာနံပါတ်ကို အနည်းဆုံး ၇ လုံးဖြင့်နှင့် သင့်ဖောက်သည်နံပါတ်ကို ထည့်ပါ။';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'မီတာနံပါတ်ကို အနည်းဆုံး ၇ လုံးဖြင့် ထည့်ပါ။';
+  String get accessRequestFlowRegularMeterIdWarning => 'မီတာနံပါတ်ကို အနည်းဆုံး ၇ လုံးဖြင့် ထည့်ပါ။';
 
   @override
-  String get wtlAccessRequestSuccess => 'ဝင်ရောက်ကြည့်ရှုခွင့် တောင်းဆိုမှု ဖန်တီးပြီးပါပြီ။';
+  String get accessRequestFlowSuccess => 'ဝင်ရောက်ခွင့် တောင်းဆိုမှု ဖန်တီးပြီးပါပြီ။';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL ဝင်ရောက်ခွင့် တောင်းဆိုချက်';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName ဝင်ရောက်ခွင့် တောင်းဆိုခြင်း';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'ဤမီတာများသည် သင့်အကောင့်အတွက် အတည်ပြုပြီးဖြစ်သည်။ ပျောက်နေသော မီတာများကို ဤအရာတွင် ပြန်လည်ထည့်သွင်းနိုင်သည်။';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'သင့်အကောင့်အတွက် အတည်ပြုထားသော မီတာများ မတွေ့ရှိပါ။';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'အတည်ပြုထားသော မီတာများကို တင်၍ မရနိုင်ခဲ့သည်။';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'မီတာ ပြန်လည်ထူထောင်ခြင်း';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'မီတာကို ပြန်လည်ထူထောင်၍ မရနိုင်ခဲ့ပါ။';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'ထည့်သွင်းထားသည်';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'ထည့်သွင်းထားခြင်းမရှိ';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'မီတာများကို စစ်ဆေးပါ';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'သင့်အကောင့်မှ ဝင်ရောက်ကြည့်ရှုနိုင်သည့် မီတာများကို စစ်ဆေးပြီး မပါသေးသော မီတာများကို ဤအရာတွင် ပြန်လည်ထည့်ပါ။';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'မီတာများကို စစ်ဆေးပါ';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'မီတာများ';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှု အတည်ပြုပြီးပါပြီ။ မီတာနံပါတ်၏ နောက်ဆုံး သုံးလုံးကို ထည့်၍ မီတာဖတ်ချက်များသို့ ဝင်ရောက်ကြည့်ရှုနိုင်ပါသည်။';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'သင့်ဝင်ရောက်ခွင့်တောင်းဆိုမှုသည် မပြီးစီးသေးပါ။ ကျေးဇူးပြု၍ စိတ်ရှည်စွာ စောင့်ဆိုင်းပါ။';
+  String get withoutRoomAssignment => 'အခန်းခန့်အပ်ခြင်းမရှိဘဲ';
 
   @override
   String get yearlyConsumption => 'ယခုအချိန်အထိနှစ်စဉ်စားသုံးမှု';

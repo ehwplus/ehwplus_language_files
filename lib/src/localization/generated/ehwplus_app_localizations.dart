@@ -4655,18 +4655,6 @@ abstract class EhwplusAppLocalizations {
   /// **'Not set'**
   String get smartMeterProviderUndefined;
 
-  /// No description provided for @smartMeterProviderWtl.
-  ///
-  /// In en, this message translates to:
-  /// **'Wasserverband Tecklenburger Land'**
-  String get smartMeterProviderWtl;
-
-  /// No description provided for @smartMeterProviderWwgl.
-  ///
-  /// In en, this message translates to:
-  /// **'Wasserwerk Gerauer Land'**
-  String get smartMeterProviderWwgl;
-
   /// No description provided for @smartMeterReadingsSyncFailed.
   ///
   /// In en, this message translates to:
@@ -6485,161 +6473,149 @@ abstract class EhwplusAppLocalizations {
   /// **'Terminate Radio Meter Access'**
   String get watersupplierUnlinkRadioMeterTitle;
 
-  /// No description provided for @watersupplierUnlinkRadioMeterWtlDescription.
+  /// No description provided for @watersupplierUnlinkRadioMeterAccessRequestDescription.
   ///
   /// In en, this message translates to:
   /// **'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.'**
-  String get watersupplierUnlinkRadioMeterWtlDescription;
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription;
+
+  /// No description provided for @accessRequestFlowFailure.
+  ///
+  /// In en, this message translates to:
+  /// **'Access request could not be created.'**
+  String get accessRequestFlowFailure;
+
+  /// No description provided for @accessRequestFlowMeterId.
+  ///
+  /// In en, this message translates to:
+  /// **'WV meter number'**
+  String get accessRequestFlowMeterId;
+
+  /// No description provided for @accessRequestFlowMeterIdHint.
+  ///
+  /// In en, this message translates to:
+  /// **'You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.'**
+  String get accessRequestFlowMeterIdHint;
+
+  /// No description provided for @accessRequestFlowMissingAccountData.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account is missing an email address.'**
+  String get accessRequestFlowMissingAccountData;
+
+  /// No description provided for @accessRequestFlowMissingInput.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your WV meter number with exactly 6 digits and your customer number.'**
+  String get accessRequestFlowMissingInput;
+
+  /// No description provided for @accessRequestFlowOnlineOnlyDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Online access request for {supplierName}.'**
+  String accessRequestFlowOnlineOnlyDescription(String supplierName);
+
+  /// No description provided for @accessRequestFlowRegularMeterIdHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.'**
+  String get accessRequestFlowRegularMeterIdHint;
+
+  /// No description provided for @accessRequestFlowRegularMeterIdMissingInput.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your meter number with at least 7 digits and your customer number.'**
+  String get accessRequestFlowRegularMeterIdMissingInput;
+
+  /// No description provided for @accessRequestFlowRegularMeterIdWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a meter number with at least 7 digits.'**
+  String get accessRequestFlowRegularMeterIdWarning;
+
+  /// No description provided for @accessRequestFlowSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Access request created.'**
+  String get accessRequestFlowSuccess;
+
+  /// No description provided for @accessRequestFlowTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'{supplierName} access request'**
+  String accessRequestFlowTitle(String supplierName);
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'These meters are approved for your account. Missing meters can be added back to this object.'**
+  String get accessRequestFlowAuthorizedMetersDescription;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No approved meters were found for your account.'**
+  String get accessRequestFlowAuthorizedMetersEmpty;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Approved meters could not be loaded.'**
+  String get accessRequestFlowAuthorizedMetersLoadFailed;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersRestore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore meter'**
+  String get accessRequestFlowAuthorizedMetersRestore;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersRestoreFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The meter could not be restored.'**
+  String get accessRequestFlowAuthorizedMetersRestoreFailed;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersStatusAdded.
+  ///
+  /// In en, this message translates to:
+  /// **'Added'**
+  String get accessRequestFlowAuthorizedMetersStatusAdded;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersStatusMissing.
+  ///
+  /// In en, this message translates to:
+  /// **'Not added'**
+  String get accessRequestFlowAuthorizedMetersStatusMissing;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersStepButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Check meters'**
+  String get accessRequestFlowAuthorizedMetersStepButton;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersStepDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Check which meters your account can access and add missing meters back to this object.'**
+  String get accessRequestFlowAuthorizedMetersStepDescription;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersStepTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Check meters'**
+  String get accessRequestFlowAuthorizedMetersStepTitle;
+
+  /// No description provided for @accessRequestFlowAuthorizedMetersTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Meters'**
+  String get accessRequestFlowAuthorizedMetersTitle;
 
   /// No description provided for @withoutRoomAssignment.
   ///
   /// In en, this message translates to:
   /// **'Without room assignment'**
   String get withoutRoomAssignment;
-
-  /// No description provided for @wtlAccessRequestFailure.
-  ///
-  /// In en, this message translates to:
-  /// **'Access request could not be created.'**
-  String get wtlAccessRequestFailure;
-
-  /// No description provided for @wtlAccessRequestMeterId.
-  ///
-  /// In en, this message translates to:
-  /// **'WV meter number'**
-  String get wtlAccessRequestMeterId;
-
-  /// No description provided for @wtlAccessRequestMeterIdHint.
-  ///
-  /// In en, this message translates to:
-  /// **'You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.'**
-  String get wtlAccessRequestMeterIdHint;
-
-  /// No description provided for @wtlAccessRequestMissingAccountData.
-  ///
-  /// In en, this message translates to:
-  /// **'Your account is missing an email address.'**
-  String get wtlAccessRequestMissingAccountData;
-
-  /// No description provided for @wtlAccessRequestMissingInput.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter your WV meter number with exactly 6 digits and your customer number.'**
-  String get wtlAccessRequestMissingInput;
-
-  /// No description provided for @wtlAccessRequestOnlineOnlyDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'Online access request for Wasserverband Tecklenburger Land.'**
-  String get wtlAccessRequestOnlineOnlyDescription;
-
-  /// No description provided for @wtlAccessRequestRegularMeterIdHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.'**
-  String get wtlAccessRequestRegularMeterIdHint;
-
-  /// No description provided for @wtlAccessRequestRegularMeterIdMissingInput.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter your meter number with at least 7 digits and your customer number.'**
-  String get wtlAccessRequestRegularMeterIdMissingInput;
-
-  /// No description provided for @wtlAccessRequestRegularMeterIdWarning.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a meter number with at least 7 digits.'**
-  String get wtlAccessRequestRegularMeterIdWarning;
-
-  /// No description provided for @wtlAccessRequestSuccess.
-  ///
-  /// In en, this message translates to:
-  /// **'Access request created.'**
-  String get wtlAccessRequestSuccess;
-
-  /// No description provided for @wtlAccessRequestTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'WTL access request'**
-  String get wtlAccessRequestTitle;
-
-  /// No description provided for @wtlAuthorizedMetersDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'These WTL meters are approved for your account. Missing meters can be added back to this object.'**
-  String get wtlAuthorizedMetersDescription;
-
-  /// No description provided for @wtlAuthorizedMetersEmpty.
-  ///
-  /// In en, this message translates to:
-  /// **'No approved WTL meters were found for your account.'**
-  String get wtlAuthorizedMetersEmpty;
-
-  /// No description provided for @wtlAuthorizedMetersLoadFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'Approved WTL meters could not be loaded.'**
-  String get wtlAuthorizedMetersLoadFailed;
-
-  /// No description provided for @wtlAuthorizedMetersRestore.
-  ///
-  /// In en, this message translates to:
-  /// **'Restore meter'**
-  String get wtlAuthorizedMetersRestore;
-
-  /// No description provided for @wtlAuthorizedMetersRestoreFailed.
-  ///
-  /// In en, this message translates to:
-  /// **'The WTL meter could not be restored.'**
-  String get wtlAuthorizedMetersRestoreFailed;
-
-  /// No description provided for @wtlAuthorizedMetersStatusAdded.
-  ///
-  /// In en, this message translates to:
-  /// **'Added'**
-  String get wtlAuthorizedMetersStatusAdded;
-
-  /// No description provided for @wtlAuthorizedMetersStatusMissing.
-  ///
-  /// In en, this message translates to:
-  /// **'Not added'**
-  String get wtlAuthorizedMetersStatusMissing;
-
-  /// No description provided for @wtlAuthorizedMetersStepButton.
-  ///
-  /// In en, this message translates to:
-  /// **'Check meters'**
-  String get wtlAuthorizedMetersStepButton;
-
-  /// No description provided for @wtlAuthorizedMetersStepDescription.
-  ///
-  /// In en, this message translates to:
-  /// **'Check which WTL meters your account can access and add missing meters back to this object.'**
-  String get wtlAuthorizedMetersStepDescription;
-
-  /// No description provided for @wtlAuthorizedMetersStepTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Check meters'**
-  String get wtlAuthorizedMetersStepTitle;
-
-  /// No description provided for @wtlAuthorizedMetersTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'WTL meters'**
-  String get wtlAuthorizedMetersTitle;
-
-  /// No description provided for @wtlMeterOnboardingStepDescriptionApproved.
-  ///
-  /// In en, this message translates to:
-  /// **'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.'**
-  String get wtlMeterOnboardingStepDescriptionApproved;
-
-  /// No description provided for @wtlMeterOnboardingStepDescriptionPending.
-  ///
-  /// In en, this message translates to:
-  /// **'Your access request is still open. Please be patient.'**
-  String get wtlMeterOnboardingStepDescriptionPending;
 
   /// No description provided for @yearlyConsumption.
   ///

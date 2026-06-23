@@ -2596,12 +2596,6 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Inte inställt';
 
   @override
-  String get smartMeterProviderWtl => 'Vattenförbund Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Synkroniseringen av smarta mätare misslyckades';
 
   @override
@@ -3694,91 +3688,86 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Avsluta radiomätaråtkomst';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Om du raderar denna radiomätare kommer din åtkomst till radiomätaravläsningarna att återkallas. Du kan skicka en ny begäran om åtkomst senare.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Om du tar bort denna radiomätare kommer din åtkomst till mätvärdena att upphävas. Du kan skicka in en ny åtkomstbegäran senare.';
 
   @override
-  String get withoutRoomAssignment => 'Utan rumstilldelning';
+  String get accessRequestFlowFailure => 'Det gick inte att skapa åtkomstbegäran.';
 
   @override
-  String get wtlAccessRequestFailure => 'Åtkomstbegäran kunde inte skapas.';
+  String get accessRequestFlowMeterId => 'WV-mätarens nummer';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV mätarnummer';
+  String get accessRequestFlowMeterIdHint =>
+      'Du hittar WV-mätarnumret på insidan av locket till din radiostyrda vattenmätare, i välkomstbrevet eller i årsredovisningen.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Du hittar WV-mätarnumret på insidan av locket till din radiovattenmätare eller i välkomstbrevet eller i årsbeskedet.';
+  String get accessRequestFlowMissingAccountData => 'Det saknas en e-postadress på ditt konto.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Ditt konto saknar en e-postadress.';
+  String get accessRequestFlowMissingInput => 'Ange ditt WV-mätarnummer med exakt 6 siffror samt ditt kundnummer.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Vänligen ange ditt WV-mätarnummer med exakt 6 siffror och ditt kundnummer.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Begäran om onlineåtkomst till ”$supplierName”.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Begäran om online-åtkomst för Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Ange mätarnumret från din vattenmätare. Exempel: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Ange ditt mätarnummer med minst 7 siffror samt ditt kundnummer.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Ange ett mätarnummer med minst 7 siffror.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Ange ett mätarnummer med minst 7 siffror.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Åtkomstbegäran skapad.';
+  String get accessRequestFlowSuccess => 'Åtkomstbegäran har skapats.';
 
   @override
-  String get wtlAccessRequestTitle => 'Begäran om tillgång till WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName begäran om tillgång';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Dessa mätare är godkända för ditt konto. Mätare som saknas kan läggas till igen i detta objekt.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Inga godkända mätare hittades för ditt konto.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Godkända mätare kunde inte laddas.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Återställ mätaren';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Mätaren gick inte att återställa.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Lagt till';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Har inte lagts till';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Mätare';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Kontrollera vilka mätare som ditt konto har åtkomst till och lägg till eventuella saknade mätare till detta objekt.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Mätare';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Meter';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Din begäran om åtkomst har bekräftats. Ange de tre sista siffrorna i ditt mätarnummer för att få tillgång till mätaravläsningarna.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Din begäran om tillgång är fortfarande under behandling. Vi ber dig ha tålamod.';
+  String get withoutRoomAssignment => 'Utan rumstilldelning';
 
   @override
   String get yearlyConsumption => 'Årlig konsumtion hittills';

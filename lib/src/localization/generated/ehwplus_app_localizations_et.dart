@@ -2602,12 +2602,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Pole määratud';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Nutikate arvestite sünkroniseerimine ebaõnnestus';
 
   @override
@@ -3691,91 +3685,86 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Lõpeta raadionarvesti kasutus';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Kui te kustutate selle raadiomeeter, tühistatakse teie juurdepääs raadiomeeterlugudele. Te võite hiljem esitada uue juurdepääsutaotluse.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Kui te selle raadioarvesti kustutate, tühistatakse teie juurdepääs raadioarvesti näitudele. Hiljem saate esitada uue juurdepääsutaotluse.';
+
+  @override
+  String get accessRequestFlowFailure => 'Juurdepääsutaotlust ei õnnestunud luua.';
+
+  @override
+  String get accessRequestFlowMeterId => 'WV-mõõturi number';
+
+  @override
+  String get accessRequestFlowMeterIdHint =>
+      'WV-arvesti numbri leiate raadioveearvesti kaanelt, tervituskirjast või aastaaruandest.';
+
+  @override
+  String get accessRequestFlowMissingAccountData => 'Teie kontolt puudub e-posti aadress.';
+
+  @override
+  String get accessRequestFlowMissingInput =>
+      'Palun sisestage oma WV-arvesti number (täpselt 6 numbrit) ja oma kliendinumber.';
+
+  @override
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Veebipõhine juurdepääsutaotlus raamatule „$supplierName”.';
+  }
+
+  @override
+  String get accessRequestFlowRegularMeterIdHint => 'Sisestage oma veearvesti number. Näide: 8 AXI10 0796 2977.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Palun sisestage vähemalt 7-kohaline arvestinumber ja oma kliendinumber.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdWarning => 'Palun sisestage vähemalt 7-kohaline arvestinumber.';
+
+  @override
+  String get accessRequestFlowSuccess => 'Juurdepääsutaotlus on loodud.';
+
+  @override
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName juurdepääsutaotlus';
+  }
+
+  @override
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Need arvestid on teie konto jaoks heaks kiidetud. Puuduvad arvestid saab sellele objektile uuesti lisada.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Teie konto jaoks ei leitud ühtegi heakskiidetud arvestit.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Heakskiidetud arvestid ei laadunud.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestore => 'Arvesti taastamine';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Arvestit ei õnnestunud taastada.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Lisatud';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Ei ole lisatud';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Arvestite kontrollimine';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Kontrollige, millistele arvestitele on teie kontol juurdepääs, ja lisage puuduvad arvestid uuesti sellesse objektisse.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Arvestite kontrollimine';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersTitle => 'Meetrid';
 
   @override
   String get withoutRoomAssignment => 'Ilma toa määramiseta';
-
-  @override
-  String get wtlAccessRequestFailure => 'Juurdepääsutaotlust ei õnnestunud luua.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'WV arvesti number';
-
-  @override
-  String get wtlAccessRequestMeterIdHint =>
-      'WV-arvesti numbri leiate oma raadioveemõõtja kaane siseküljelt või tervituskirjast või aastaaruandest.';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'Teie kontol puudub e-posti aadress.';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
-      'Palun sisestage täpselt 6-kohaline WV-arvesti number ja oma kliendinumber.';
-
-  @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Veebipõhine juurdepääsutaotlus Wasserverband Tecklenburger Land\'ile.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Sisestage oma veearvesti number. Näide: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Palun sisestage oma arvesti number (vähemalt 7 numbrit) ja kliendinumber.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Palun sisestage vähemalt 7-kohaline arvestinumber.';
-
-  @override
-  String get wtlAccessRequestSuccess => 'Juurdepääsutaotlus loodud.';
-
-  @override
-  String get wtlAccessRequestTitle => 'WTL juurdepääsutaotlus';
-
-  @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
-
-  @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
-
-  @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
-
-  @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
-
-  @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
-
-  @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
-
-  @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Teie juurdepääsutaotlus on kinnitatud. Sisestage oma arvestinumbri kolm viimast numbrit, et näha arvestinäiteid.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Teie juurdepääsutaotlus on endiselt menetluses. Palun olge kannatlik.';
 
   @override
   String get yearlyConsumption => 'Seni aastane tarbimine';

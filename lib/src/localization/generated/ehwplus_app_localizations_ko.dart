@@ -2547,12 +2547,6 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => '설정되지 않음';
 
   @override
-  String get smartMeterProviderWtl => '테클렌부르거 랜드 워터서버';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => '스마트 미터 동기화 실패';
 
   @override
@@ -3593,85 +3587,83 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => '무선 계량기 접근 종료';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      '이 무선 계량기를 삭제하면 무선 계량기 판독값에 대한 액세스 권한이 취소됩니다. 나중에 새 액세스 요청을 제출할 수 있습니다.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      '이 무선 계량기를 삭제하면 무선 계량기 측정값에 대한 접근 권한이 취소됩니다. 나중에 새로운 접근 권한 요청을 제출할 수 있습니다.';
+
+  @override
+  String get accessRequestFlowFailure => '액세스 요청을 생성할 수 없습니다.';
+
+  @override
+  String get accessRequestFlowMeterId => 'WV 계량기 번호';
+
+  @override
+  String get accessRequestFlowMeterIdHint => 'WV 계량기 번호는 라디오식 수도 계량기 덮개 안쪽이나 안내 편지, 또는 연간 명세서에서 확인하실 수 있습니다.';
+
+  @override
+  String get accessRequestFlowMissingAccountData => '귀하의 계정에 이메일 주소가 등록되어 있지 않습니다.';
+
+  @override
+  String get accessRequestFlowMissingInput => 'WV 계량기 번호를 정확히 6자리로 입력하고 고객 번호도 함께 입력해 주십시오.';
+
+  @override
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return '$supplierName에 대한 온라인 열람 신청.';
+  }
+
+  @override
+  String get accessRequestFlowRegularMeterIdHint => '수도 계량기에 표시된 계량기 번호를 입력하세요. 예: 8 AXI10 0796 2977.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdMissingInput => '7자리 이상의 계량기 번호와 고객 번호를 입력해 주십시오.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdWarning => '7자리 이상의 계량기 번호를 입력해 주십시오.';
+
+  @override
+  String get accessRequestFlowSuccess => '접근 요청이 생성되었습니다.';
+
+  @override
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName 접근 요청';
+  }
+
+  @override
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      '이 계량기들은 귀하의 계정에 대해 승인된 것입니다. 누락된 계량기는 이 개체에 다시 추가할 수 있습니다.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersEmpty => '귀하의 계정에 대해 승인된 계량기가 발견되지 않았습니다.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersLoadFailed => '승인된 계량기를 불러올 수 없습니다.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestore => '계량기 복구';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => '계량기를 복구할 수 없었습니다.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusAdded => '추가됨';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusMissing => '추가되지 않음';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepButton => '계량기 확인';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      '귀하의 계정이 접근할 수 있는 계량기를 확인하고, 누락된 계량기를 이 개체에 다시 추가하십시오.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepTitle => '계량기 확인';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersTitle => '미터';
 
   @override
   String get withoutRoomAssignment => '회의실 배정 없음';
-
-  @override
-  String get wtlAccessRequestFailure => '액세스 요청을 만들 수 없습니다.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'WV 미터기 번호';
-
-  @override
-  String get wtlAccessRequestMeterIdHint => 'WV 계량기 번호는 무선 수도 계량기 커버 안쪽이나 환영 편지 또는 연간 명세서에서 확인할 수 있습니다.';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => '계정에 이메일 주소가 누락되었습니다.';
-
-  @override
-  String get wtlAccessRequestMissingInput => 'WV 미터기 번호와 고객 번호를 정확히 6자리로 입력하세요.';
-
-  @override
-  String get wtlAccessRequestOnlineOnlyDescription => '바서버밴드 테클렌부르거 랜드에 대한 온라인 액세스 요청.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint => '수도 계량기에 표시된 계량기 번호를 입력하세요. 예: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput => '계량기 번호(최소 7자리)와 고객 번호를 입력해 주십시오.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning => '7자리 이상의 계량기 번호를 입력해 주세요.';
-
-  @override
-  String get wtlAccessRequestSuccess => '액세스 요청이 생성되었습니다.';
-
-  @override
-  String get wtlAccessRequestTitle => 'WTL 액세스 요청';
-
-  @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
-
-  @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
-
-  @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
-
-  @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
-
-  @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
-
-  @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
-
-  @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionApproved => '접근 요청이 확인되었습니다. 계량기 검침 내역을 확인하려면 계량기 번호의 마지막 세 자리를 입력해 주세요.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => '귀하의 접근 요청은 아직 처리 중입니다. 잠시만 기다려 주십시오.';
 
   @override
   String get yearlyConsumption => '현재까지 연간 소비량';

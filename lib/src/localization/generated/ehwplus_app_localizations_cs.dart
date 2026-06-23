@@ -2597,12 +2597,6 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nenastaveno';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Synchronizace inteligentního měřiče selhala';
 
   @override
@@ -3700,90 +3694,86 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Ukončete přístup k radiometru';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Pokud tento radioměr odstraníte, bude váš přístup k odečtům radioměru zrušen. Novou žádost o přístup můžete podat později.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Pokud tento rádiový měřič smažete, bude vám odebrán přístup k údajům z tohoto měřiče. Novou žádost o přístup můžete podat později.';
+
+  @override
+  String get accessRequestFlowFailure => 'Žádost o přístup se nepodařilo vytvořit.';
+
+  @override
+  String get accessRequestFlowMeterId => 'Číslo měřiče WV';
+
+  @override
+  String get accessRequestFlowMeterIdHint =>
+      'Číslo vodoměru WV najdete na vnitřní straně krytu vodoměru, v uvítacím dopise nebo ve výroční zprávě.';
+
+  @override
+  String get accessRequestFlowMissingAccountData => 'Ve vašem účtu chybí e-mailová adresa.';
+
+  @override
+  String get accessRequestFlowMissingInput =>
+      'Zadejte prosím číslo svého elektroměru WV (přesně 6 číslic) a své zákaznické číslo.';
+
+  @override
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Žádost o online přístup k publikaci „$supplierName“.';
+  }
+
+  @override
+  String get accessRequestFlowRegularMeterIdHint => 'Zadejte číslo vodoměru. Příklad: 8 AXI10 0796 2977.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Zadejte prosím číslo svého měřidla (minimálně 7 číslic) a své zákaznické číslo.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdWarning => 'Zadejte prosím číslo elektroměru o délce alespoň 7 číslic.';
+
+  @override
+  String get accessRequestFlowSuccess => 'Žádost o přístup byla vytvořena.';
+
+  @override
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName žádost o přístup';
+  }
+
+  @override
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Tyto měřiče jsou schváleny pro váš účet. Chybějící měřiče lze k tomuto objektu znovu přidat.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Pro váš účet nebyly nalezeny žádné schválené měřiče.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Nebylo možné načíst schválené měřiče.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestore => 'Obnovit měřič';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Měřidlo se nepodařilo opravit.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Přidáno';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Nebylo přidáno';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Zkontrolujte měřiče';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Zkontrolujte, ke kterým měřidlům má váš účet přístup, a chybějící měřidla znovu přidejte k tomuto objektu.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Zkontrolujte měřiče';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersTitle => 'Metry';
 
   @override
   String get withoutRoomAssignment => 'Bez přidělení pokoje';
-
-  @override
-  String get wtlAccessRequestFailure => 'Žádost o přístup se nepodařilo vytvořit.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Číslo měřiče WV';
-
-  @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Číslo vodoměru WV najdete na vnitřní straně obálky svého radiového vodoměru nebo v uvítacím dopise či v ročním vyúčtování.';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'Ve vašem účtu chybí e-mailová adresa.';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
-      'Zadejte prosím své číslo měřiče WV s přesně 6 číslicemi a své zákaznické číslo.';
-
-  @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Žádost o přístup online pro Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Zadejte číslo vodoměru. Příklad: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Zadejte prosím číslo svého elektroměru (minimálně 7 číslic) a své zákaznické číslo.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Zadejte prosím číslo elektroměru o délce nejméně 7 číslic.';
-
-  @override
-  String get wtlAccessRequestSuccess => 'Vytvořená žádost o přístup.';
-
-  @override
-  String get wtlAccessRequestTitle => 'Žádost o přístup WTL';
-
-  @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
-
-  @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
-
-  @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
-
-  @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
-
-  @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
-
-  @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
-
-  @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Vaše žádost o přístup byla potvrzena. Zadejte poslední tři číslice čísla vašeho měřidla, abyste získali přístup k odečtům.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Vaše žádost o přístup je stále v šetření. Prosíme o trpělivost.';
 
   @override
   String get yearlyConsumption => 'Roční spotřeba zatím';

@@ -2603,12 +2603,6 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Није постављено';
 
   @override
-  String get smartMeterProviderWtl => 'Водно удружење Текленбургер Ланд';
-
-  @override
-  String get smartMeterProviderWwgl => 'Вассерверк Герауер Ланд';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Синхронизација паметног бројила није успела';
 
   @override
@@ -3710,90 +3704,86 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Прекините приступ радио мерачу';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Ако обришете овај радиометар, ваш приступ очитањима радиометара биће укинут. Касније можете поднети нови захтев за приступ.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Ако обришете овај радиометар, ваш приступ очитањима радиометара биће поништен. Касније можете поднети нови захтев за приступ.';
 
   @override
-  String get withoutRoomAssignment => 'Без доделе собе';
+  String get accessRequestFlowFailure => 'Захтев за приступ није могао да се креира.';
 
   @override
-  String get wtlAccessRequestFailure => 'Захтев за приступ није могао да се креира.';
+  String get accessRequestFlowMeterId => 'Број ВВ мерача';
 
   @override
-  String get wtlAccessRequestMeterId => 'Број ВВ мерача';
+  String get accessRequestFlowMeterIdHint =>
+      'Број WV мерача наћи ћете на унутрашњој страни поклопца вашег радио-водомера, у писму добродошлице или у годишњем извештају.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Можете пронаћи број свог WV мерача на унутрашњој страни поклопца вашег бежичног водомера, у писму добродошлице или на вашој годишњој изјави.';
+  String get accessRequestFlowMissingAccountData => 'Вашем налогу недостаје адреса електронске поште.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Вашем налогу недостаје адреса електронске поште.';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
+  String get accessRequestFlowMissingInput =>
       'Молимо унесите број вашег WV мерача са тачно шест цифара и ваш број купца.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Онлајн захтев за приступ за Водено удружење Текленбургер Ланд.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Онлајн захтев за приступ за \"$supplierName\".';
+  }
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Унесите број са вашег водомера. Пример: 8 AXI10 0796 2977.';
+  String get accessRequestFlowRegularMeterIdHint => 'Унесите број са вашег водомера. Пример: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Молимо унесите број свог бројила са најмање седам цифара и број свог купца.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Молимо унесите број свог мерача са најмање 7 цифара и свој број купца.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Унесите број мерача са најмање 7 цифара.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Молимо унесите број мерача са најмање 7 цифара.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Захтев за приступ је креиран.';
+  String get accessRequestFlowSuccess => 'Захтев за приступ је креиран.';
 
   @override
-  String get wtlAccessRequestTitle => 'Захтев за приступ WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName захтев за приступ';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Ови бројила су одобрена за ваш рачун. Недостајућа бројила могу бити поново додата овом објекту.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'За ваш рачун нису пронађени одобрени бројила.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Одобрени бројила нису могла да се учитају.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Обнови мерач';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Мереч није могао да се обнови.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Додато';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Није додато';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Проверите бројила';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Проверите којим мерачима ваш налог може да приступи и вратите недостајуће мераче овом објекту.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Проверите бројила';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Метри';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Ваш захтев за приступ је потврђен. Унесите последње три цифре вашег бројила да бисте добили приступ очитањима бројила.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Ваш захтев за приступ је и даље отворен. Молимо вас за стрпљење.';
+  String get withoutRoomAssignment => 'Без доделе собе';
 
   @override
   String get yearlyConsumption => 'Досадашња годишња потрошња';

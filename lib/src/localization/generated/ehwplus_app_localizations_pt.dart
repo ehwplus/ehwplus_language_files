@@ -2590,12 +2590,6 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Não definido';
 
   @override
-  String get smartMeterProviderWtl => 'Banda de água de Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Falha na sincronização do contador inteligente';
 
   @override
@@ -3700,92 +3694,88 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Excluir medidor de rádio';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Se eliminar este contador de rádio, o seu acesso às leituras do contador de rádio será revogado. Pode submeter um novo pedido de acesso mais tarde.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Se eliminar este contador de rádio, o seu acesso às leituras do contador de rádio será revogado. Poderá apresentar um novo pedido de acesso mais tarde.';
 
   @override
-  String get withoutRoomAssignment => 'Sem atribuição de quarto';
+  String get accessRequestFlowFailure => 'Não foi possível criar o pedido de acesso.';
 
   @override
-  String get wtlAccessRequestFailure => 'O pedido de acesso não pôde ser criado.';
+  String get accessRequestFlowMeterId => 'Número do contador WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'Número do contador WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Encontrará o número do contador WV no interior da tampa do seu contador de água com rádio, na carta de boas-vindas ou no extrato anual.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'O número do contador WV encontra-se no interior da tampa do seu contador de água via rádio, na carta de boas-vindas ou no extrato anual.';
+  String get accessRequestFlowMissingAccountData => 'Falta um endereço de e-mail na sua conta.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'A sua conta não tem um endereço de correio eletrónico.';
+  String get accessRequestFlowMissingInput =>
+      'Por favor, introduza o número do seu contador WV, com exatamente 6 dígitos, e o seu número de cliente.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Introduza o seu número de contador WV com exatamente 6 dígitos e o seu número de cliente.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Pedido de acesso em linha ao site $supplierName.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Pedido de acesso em linha para Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Introduza o número do seu contador de água. Exemplo: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Introduza o número do seu contador com, pelo menos, 7 dígitos e o seu número de cliente.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Por favor, introduza o número do seu contador, com pelo menos 7 dígitos, e o seu número de cliente.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Introduza um número de contador com, pelo menos, 7 dígitos.';
+  String get accessRequestFlowRegularMeterIdWarning =>
+      'Por favor, introduza um número de contador com, pelo menos, 7 dígitos.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Pedido de acesso criado.';
+  String get accessRequestFlowSuccess => 'O pedido de acesso foi criado.';
 
   @override
-  String get wtlAccessRequestTitle => 'Pedido de acesso ao WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName pedido de acesso';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Estes contadores estão aprovados para a sua conta. Os contadores em falta podem ser adicionados novamente a este objeto.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Não foram encontrados contadores aprovados para a sua conta.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Não foi possível carregar os contadores aprovados.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Restaurar contador';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Não foi possível reparar o contador.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Adicionado';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Não adicionado';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Verificar os contadores';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Verifique a quais contadores a sua conta tem acesso e adicione os contadores em falta a este objeto.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Verificar os contadores';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Metros';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'O seu pedido de acesso foi confirmado. Introduza os últimos três dígitos do número do seu contador para aceder às leituras do contador.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'O seu pedido de acesso ainda está em aberto. Por favor, aguarde.';
+  String get withoutRoomAssignment => 'Sem atribuição de quarto';
 
   @override
   String get yearlyConsumption => 'Consumo anual até à data';

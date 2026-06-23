@@ -2594,12 +2594,6 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'ไม่ได้ตั้งค่า';
 
   @override
-  String get smartMeterProviderWtl => 'สมาคมการจัดการน้ำ เทคเคลนบูร์กเกอร์ แลนด์';
-
-  @override
-  String get smartMeterProviderWwgl => 'ที่ดิน Wasserwerk Gerauer';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'การซิงโครไนซ์มิเตอร์อัจฉริยะล้มเหลว';
 
   @override
@@ -3687,90 +3681,87 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'ยุติการเข้าถึงมิเตอร์วิทยุ';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
       'หากคุณลบเครื่องวัดวิทยุนี้ การเข้าถึงข้อมูลการวัดของเครื่องวัดวิทยุจะถูกยกเลิก คุณสามารถส่งคำขอเข้าถึงใหม่ได้ในภายหลัง';
 
   @override
-  String get withoutRoomAssignment => 'ไม่มีการจัดห้อง';
+  String get accessRequestFlowFailure => 'ไม่สามารถสร้างคำขอการเข้าถึงได้';
 
   @override
-  String get wtlAccessRequestFailure => 'ไม่สามารถสร้างคำขอการเข้าถึงได้';
+  String get accessRequestFlowMeterId => 'หมายเลขมิเตอร์ WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'หมายเลขมิเตอร์ WV';
+  String get accessRequestFlowMeterIdHint =>
+      'คุณจะพบหมายเลขมิเตอร์ WV ได้ที่ด้านในของฝาครอบมิเตอร์น้ำวิทยุของคุณ หรือในจดหมายต้อนรับ หรือในใบแจ้งยอดประจำปี';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'คุณสามารถหาหมายเลขมิเตอร์ WV ของคุณได้ที่ด้านในของฝาครอบมิเตอร์น้ำไร้สายของคุณ ในจดหมายต้อนรับ หรือในใบแจ้งหนี้ประจำปีของคุณ';
+  String get accessRequestFlowMissingAccountData => 'บัญชีของคุณไม่มีที่อยู่อีเมล';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'บัญชีของคุณไม่มีที่อยู่อีเมล';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
+  String get accessRequestFlowMissingInput =>
       'กรุณากรอกหมายเลขมิเตอร์ WV ของคุณให้ถูกต้อง 6 หลัก และหมายเลขลูกค้าของคุณ';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'คำขอเข้าถึงออนไลน์สำหรับ Wasserverband Tecklenburger Land';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'คำขอการเข้าถึงออนไลน์สำหรับ $supplierName';
+  }
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'กรุณากรอกหมายเลขมิเตอร์จากมิเตอร์น้ำของคุณ ตัวอย่าง: 8 AXI10 0796 2977';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'กรุณากรอกหมายเลขมิเตอร์ของคุณอย่างน้อย 7 หลัก และหมายเลขลูกค้าของคุณ';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'กรุณากรอกหมายเลขมิเตอร์ที่มีอย่างน้อย 7 หลัก';
+  String get accessRequestFlowRegularMeterIdWarning => 'กรุณากรอกหมายเลขมิเตอร์ที่มีอย่างน้อย 7 หลัก';
 
   @override
-  String get wtlAccessRequestSuccess => 'คำขอการเข้าถึงถูกสร้างขึ้นแล้ว';
+  String get accessRequestFlowSuccess => 'คำขอการเข้าถึงถูกสร้างขึ้นแล้ว';
 
   @override
-  String get wtlAccessRequestTitle => 'คำขอเข้าถึง WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName คำขอเข้าถึง';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'มิเตอร์เหล่านี้ได้รับการอนุมัติสำหรับบัญชีของคุณแล้ว มิเตอร์ที่หายไปสามารถเพิ่มกลับเข้ามาในวัตถุนี้ได้';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'ไม่พบมิเตอร์ที่ได้รับการอนุมัติสำหรับบัญชีของคุณ';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'ไม่สามารถโหลดมิเตอร์ที่ได้รับการอนุมัติได้';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'คืนค่ามิเตอร์';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'ไม่สามารถกู้คืนมิเตอร์ได้';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'เพิ่มแล้ว';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'ไม่ได้เพิ่ม';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'ตรวจสอบมิเตอร์';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'ตรวจสอบมิเตอร์ที่บัญชีของคุณสามารถเข้าถึงได้ และเพิ่มมิเตอร์ที่หายไปกลับไปยังวัตถุนี้';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'ตรวจสอบมิเตอร์';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'มิเตอร์';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'คำขอเข้าถึงของคุณได้รับการยืนยันแล้ว กรุณากรอกตัวเลขสามหลักสุดท้ายของหมายเลขมิเตอร์ของคุณเพื่อเข้าถึงข้อมูลการอ่านมิเตอร์';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'คำขอการเข้าถึงของคุณยังเปิดอยู่ กรุณาอดใจรอ';
+  String get withoutRoomAssignment => 'ไม่มีการจัดห้อง';
 
   @override
   String get yearlyConsumption => 'การบริโภคประจำปีจนถึงปัจจุบัน';

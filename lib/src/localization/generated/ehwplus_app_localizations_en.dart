@@ -2601,12 +2601,6 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Not set';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Smart meter synchronization failed';
 
   @override
@@ -3705,90 +3699,87 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Terminate Radio Meter Access';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
       'If you delete this radio meter, your access to the radio meter readings will be revoked. You can submit a new access request later.';
 
   @override
-  String get withoutRoomAssignment => 'Without room assignment';
+  String get accessRequestFlowFailure => 'Access request could not be created.';
 
   @override
-  String get wtlAccessRequestFailure => 'Access request could not be created.';
+  String get accessRequestFlowMeterId => 'WV meter number';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV meter number';
-
-  @override
-  String get wtlAccessRequestMeterIdHint =>
+  String get accessRequestFlowMeterIdHint =>
       'You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Your account is missing an email address.';
+  String get accessRequestFlowMissingAccountData => 'Your account is missing an email address.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
+  String get accessRequestFlowMissingInput =>
       'Please enter your WV meter number with exactly 6 digits and your customer number.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Online access request for Wasserverband Tecklenburger Land.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Online access request for $supplierName.';
+  }
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Enter the meter number from your water meter. Example: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Please enter your meter number with at least 7 digits and your customer number.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Please enter a meter number with at least 7 digits.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Access request created.';
+  String get accessRequestFlowSuccess => 'Access request created.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL access request';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName access request';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'These meters are approved for your account. Missing meters can be added back to this object.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'No approved meters were found for your account.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Approved meters could not be loaded.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Restore meter';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'The meter could not be restored.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Added';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Not added';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Check meters';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Check which meters your account can access and add missing meters back to this object.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Check meters';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Meters';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Your access request has been confirmed. Enter the last three digits of your meter number to gain access to meter readings.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Your access request is still open. Please be patient.';
+  String get withoutRoomAssignment => 'Without room assignment';
 
   @override
   String get yearlyConsumption => 'Annual consumption so far';

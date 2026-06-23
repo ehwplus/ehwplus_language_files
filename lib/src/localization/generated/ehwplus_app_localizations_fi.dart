@@ -2601,12 +2601,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Ei asetettu';
 
   @override
-  String get smartMeterProviderWtl => 'Tecklenburger Landin vesiensuojeluyhdistys';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Älykkään mittarin synkronointi epäonnistui';
 
   @override
@@ -3698,89 +3692,86 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Lopeta radiomittarin käyttö';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
       'Jos poistat tämän radiomittarin, pääsysi radiomittarin lukemiin peruutetaan. Voit lähettää uuden käyttöoikeuspyynnön myöhemmin.';
 
   @override
-  String get withoutRoomAssignment => 'Ilman huoneenjakoa';
+  String get accessRequestFlowFailure => 'Käyttöoikeuspyyntöä ei voitu luoda.';
 
   @override
-  String get wtlAccessRequestFailure => 'Pääsypyyntöä ei voitu luoda.';
+  String get accessRequestFlowMeterId => 'WV-mittarin numero';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV-mittarin numero';
+  String get accessRequestFlowMeterIdHint =>
+      'WV-mittarin numero löytyy radiovesi mittarin kannen sisäpuolelta, tervetulokirjeestä tai vuosittaisesta tiliotteesta.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Löydät WV-mittarin numeron radiovesimittarisi kannen sisäpuolelta, tervetulokirjeestä tai vuositilinpäätöksestä.';
+  String get accessRequestFlowMissingAccountData => 'Tililtäsi puuttuu sähköpostiosoite.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Tililtäsi puuttuu sähköpostiosoite.';
+  String get accessRequestFlowMissingInput =>
+      'Syötä WV-mittarin numero, joka koostuu tarkalleen 6 numerosta, sekä asiakasnumerosi.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Kirjoita WV-mittarinumerosi, jossa on tasan 6 numeroa, ja asiakasnumerosi.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return '$supplierName -julkaisun verkkojulkaisun pyytäminen.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Wasserverband Tecklenburger Landin verkkopalvelupyyntö.';
+  String get accessRequestFlowRegularMeterIdHint => 'Syötä vesimittarisi mittarinumero. Esimerkki: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Syötä vesimittarisi mittarinumero. Esimerkki: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Syötä vähintään 7-numeroinen mittarinumero ja asiakastunnuksesi.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Syötä vähintään 7-numeroinen mittarinumero.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Syötä vähintään 7-numeroinen mittarinumero.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Käyttöoikeuspyyntö luotu.';
+  String get accessRequestFlowSuccess => 'Tietopyynnön luominen on valmis.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL:n käyttöoikeuspyyntö';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName tietopyyntö';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Nämä mittarit on hyväksytty tilillesi. Puuttuvat mittarit voidaan lisätä takaisin tähän kohteeseen.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Tililtäsi ei löytynyt yhtään hyväksyttyä mittaria.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Hyväksyttyjä mittareita ei voitu ladata.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Palautusmittari';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Mittaria ei voitu korjata.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Lisätty';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Ei lisätty';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Mittarien tarkistus';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Tarkista, mihin mittareihin tililläsi on pääsy, ja lisää puuttuvat mittarit takaisin tähän kohteeseen.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Mittarien tarkistus';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Metrit';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Pääsypyyntösi on vahvistettu. Syötä mittarinumerosi kolme viimeistä numeroa, jotta pääset tarkastelemaan mittarilukemia.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Pyyntösi on edelleen käsiteltävänä. Ole kärsivällinen.';
+  String get withoutRoomAssignment => 'Ilman huoneenjakoa';
 
   @override
   String get yearlyConsumption => 'Vuosikulutus tähän mennessä';

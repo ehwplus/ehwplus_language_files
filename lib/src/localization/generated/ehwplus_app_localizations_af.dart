@@ -2601,12 +2601,6 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nie gestel nie';
 
   @override
-  String get smartMeterProviderWtl => 'Watervereniging Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Slim meter-sinchronisasie het misluk';
 
   @override
@@ -3706,90 +3700,87 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Beëindig Radio Meter Toegang';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
       'As jy hierdie radio-meter verwyder, sal jou toegang tot die radio-meterlesings ingetrek word. Jy kan later \'n nuwe toegangsversoek indien.';
 
   @override
-  String get withoutRoomAssignment => 'Sonder kamertoewysing';
+  String get accessRequestFlowFailure => 'Toegangversoek kon nie geskep word nie.';
 
   @override
-  String get wtlAccessRequestFailure => 'Toegangversoek kon nie geskep word nie.';
+  String get accessRequestFlowMeterId => 'WV-meter nommer';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV-meternommer';
+  String get accessRequestFlowMeterIdHint =>
+      'U sal die WV-meternommer vind aan die binnekant van die deksel van u radio-watermeter of in die verwelkomingsbrief of in die jaarlikse staat.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'U kan u WV-meter nommer vind aan die binnekant van die deksel van u draadlose watermeter, in die verwelkomingsbrief of op u jaarlikse rekening.';
+  String get accessRequestFlowMissingAccountData => 'Jou rekening ontbreek \'n e-posadres.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Jou rekening ontbreek \'n e-posadres.';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
+  String get accessRequestFlowMissingInput =>
       'Voer asseblief jou WV-meter nommer met presies ses syfers en jou kliëntnommer in.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Aanlyn toegangversoek vir Wasserverband Tecklenburger Land.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Aanlyn toegangversoek vir $supplierName.';
+  }
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Voer die meter nommer van jou watermeter in. Byvoorbeeld: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Voer asseblief jou meter nommer met ten minste 7 syfers en jou kliënt nommer in.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Voer asseblief \'n meeternommer in met ten minste 7 syfers.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Voer asseblief \'n meeternommer in met ten minste 7 syfers.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Toegangversoek geskep.';
+  String get accessRequestFlowSuccess => 'Toegangversoek geskep.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL-toegangsversoek';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName toegangsversoek';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Hierdie meters is vir jou rekening goedgekeur. Ontbrekende meters kan weer by hierdie voorwerp gevoeg word.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Geen goedgekeurde meters is vir u rekening gevind nie.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Gekeurde meters kon nie gelaai word nie.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Herstel meter';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Die meter kon nie herstel word nie.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Bygevoeg';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Nie bygevoeg nie';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Kontroleer meters';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Kontroleer watter meters jou rekening kan bereik en voeg ontbrekende meters by hierdie voorwerp.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Kontroleer meters';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Meters';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'U toegangversoek is bevestig. Voer die laaste drie syfers van u meter nommer in om toegang tot meterlesings te kry.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'U toegangversoek is nog oop. Wees asseblief geduldig.';
+  String get withoutRoomAssignment => 'Sonder kamertoewysing';
 
   @override
   String get yearlyConsumption => 'Jaarlikse verbruik tot dusver';

@@ -2613,12 +2613,6 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Не задано';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Сбой синхронизации интеллектуального счетчика';
 
   @override
@@ -3737,90 +3731,88 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Удалить радио счетчик';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Если вы удалите этот радиометр, ваш доступ к показаниям радиометра будет аннулирован. Вы можете подать новый запрос на доступ позже.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Если вы удалите этот радиометр, ваш доступ к показаниям радиометра будет аннулирован. Позже вы сможете подать новый запрос на предоставление доступа.';
+
+  @override
+  String get accessRequestFlowFailure => 'Не удалось создать запрос на доступ.';
+
+  @override
+  String get accessRequestFlowMeterId => 'Номер измерителя WV';
+
+  @override
+  String get accessRequestFlowMeterIdHint =>
+      'Номер счетчика WV указан на внутренней стороне крышки вашего радиоуправляемого водосчётчика, в приветственном письме или в годовом отчёте.';
+
+  @override
+  String get accessRequestFlowMissingAccountData => 'В вашей учетной записи отсутствует адрес электронной почты.';
+
+  @override
+  String get accessRequestFlowMissingInput =>
+      'Пожалуйста, введите номер вашего счетчика WV, состоящий ровно из 6 цифр, а также ваш номер клиента.';
+
+  @override
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Запрос на предоставление онлайн-доступа к журналу «$supplierName».';
+  }
+
+  @override
+  String get accessRequestFlowRegularMeterIdHint => 'Введите номер вашего водомера. Пример: 8 AXI10 0796 2977.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Пожалуйста, введите номер счетчика, состоящий как минимум из 7 цифр, и свой номер клиента.';
+
+  @override
+  String get accessRequestFlowRegularMeterIdWarning =>
+      'Пожалуйста, введите номер счетчика, состоящий как минимум из 7 цифр.';
+
+  @override
+  String get accessRequestFlowSuccess => 'Запрос на доступ создан.';
+
+  @override
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName запрос на доступ';
+  }
+
+  @override
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Данные счетчики утверждены для вашего счета. Отсутствующие счетчики можно вновь добавить к данному объекту.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersEmpty =>
+      'Для вашего счёта не было найдено ни одного утверждённого счётчика.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Не удалось загрузить утвержденные счетчики.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestore => 'Восстановить счетчик';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Счетчик восстановить не удалось.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Добавлено';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Не добавлено';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Проверьте счетчики';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Проверьте, к каким счетчикам имеется доступ в вашей учетной записи, и добавьте отсутствующие счетчики обратно в этот объект.';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Проверьте счетчики';
+
+  @override
+  String get accessRequestFlowAuthorizedMetersTitle => 'Метры';
 
   @override
   String get withoutRoomAssignment => 'Без указания номера';
-
-  @override
-  String get wtlAccessRequestFailure => 'Не удалось создать запрос на доступ.';
-
-  @override
-  String get wtlAccessRequestMeterId => 'Номер счетчика WV';
-
-  @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Номер счетчика WV вы найдете на внутренней стороне крышки вашего радиосчетчика воды, в приветственном письме или в ежегодном заявлении.';
-
-  @override
-  String get wtlAccessRequestMissingAccountData => 'В вашей учетной записи отсутствует адрес электронной почты.';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
-      'Введите номер счетчика WV, состоящий ровно из 6 цифр, и номер вашего клиента.';
-
-  @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Онлайн-запрос на доступ к Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Введите номер вашего водомера. Пример: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Пожалуйста, введите номер счетчика (не менее 7 цифр) и номер клиента.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Введите номер счетчика, состоящий как минимум из 7 цифр.';
-
-  @override
-  String get wtlAccessRequestSuccess => 'Запрос на доступ создан.';
-
-  @override
-  String get wtlAccessRequestTitle => 'Запрос на доступ к WTL';
-
-  @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
-
-  @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
-
-  @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
-
-  @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
-
-  @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
-
-  @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
-
-  @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
-
-  @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
-
-  @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Ваш запрос на доступ подтвержден. Введите три последние цифры номера счетчика, чтобы получить доступ к показаниям счетчика.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Ваш запрос на доступ пока находится на рассмотрении. Просим вас проявить терпение.';
 
   @override
   String get yearlyConsumption => 'Годовое потребление на сегодняшний день';

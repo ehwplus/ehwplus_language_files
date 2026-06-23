@@ -2608,12 +2608,6 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Tidak diatur';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Sinkronisasi smart meter gagal';
 
   @override
@@ -3716,91 +3710,88 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Menghentikan Akses Pengukur Radio';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Jika Anda menghapus meter radio ini, akses Anda ke pembacaan meter radio akan dicabut. Anda dapat mengajukan permintaan akses baru nanti.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Jika Anda menghapus meteran radio ini, akses Anda ke pembacaan meteran radio akan dicabut. Anda dapat mengajukan permohonan akses baru nanti.';
 
   @override
-  String get withoutRoomAssignment => 'Tanpa penugasan kamar';
+  String get accessRequestFlowFailure => 'Permintaan akses tidak dapat dibuat.';
 
   @override
-  String get wtlAccessRequestFailure => 'Permintaan akses tidak dapat dibuat.';
+  String get accessRequestFlowMeterId => 'Nomor meter WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'Nomor meteran WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Anda dapat menemukan nomor meteran WV di bagian dalam penutup meteran air radio Anda, atau dalam surat selamat datang, atau dalam laporan tahunan.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Anda dapat menemukan nomor meteran WV di bagian dalam sampul meteran air radio Anda atau dalam surat sambutan atau dalam laporan tahunan.';
+  String get accessRequestFlowMissingAccountData => 'Alamat email Anda belum terdaftar.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Akun Anda tidak memiliki alamat email.';
+  String get accessRequestFlowMissingInput =>
+      'Silakan masukkan nomor meteran WV Anda yang terdiri dari tepat 6 digit serta nomor pelanggan Anda.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Masukkan nomor WV meter Anda dengan tepat 6 digit dan nomor pelanggan Anda.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Permohonan akses daring untuk buku *$supplierName*.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Permintaan akses online untuk Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Masukkan nomor meteran dari meteran air Anda. Contoh: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Silakan masukkan nomor meteran Anda yang terdiri dari minimal 7 digit serta nomor pelanggan Anda.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning =>
+  String get accessRequestFlowRegularMeterIdWarning =>
       'Silakan masukkan nomor meteran yang terdiri dari minimal 7 digit.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Permintaan akses dibuat.';
+  String get accessRequestFlowSuccess => 'Permintaan akses telah dibuat.';
 
   @override
-  String get wtlAccessRequestTitle => 'Permintaan akses WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName permohonan akses';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Meteran-meteran ini telah disetujui untuk akun Anda. Meteran yang hilang dapat ditambahkan kembali ke objek ini.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Tidak ditemukan meteran yang telah disetujui untuk akun Anda.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Meteran yang telah disetujui tidak dapat dimuat.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Mengembalikan meteran';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Meteran tersebut tidak dapat diperbaiki.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Ditambahkan';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Belum ditambahkan';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Periksa meteran';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Periksa meteran mana saja yang dapat diakses oleh akun Anda, lalu tambahkan kembali meteran yang belum tercantum ke objek ini.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Periksa meteran';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Meter';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Permintaan akses Anda telah dikonfirmasi. Masukkan tiga digit terakhir nomor meteran Anda untuk mengakses pembacaan meteran.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending => 'Permohonan akses Anda masih dalam proses. Mohon bersabar.';
+  String get withoutRoomAssignment => 'Tanpa penugasan kamar';
 
   @override
   String get yearlyConsumption => 'Konsumsi tahunan sejauh ini';

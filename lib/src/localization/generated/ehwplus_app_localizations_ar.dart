@@ -2584,12 +2584,6 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'غير مضبوط';
 
   @override
-  String get smartMeterProviderWtl => 'فاسرفرباند تكلنبورغر لاند';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'فشل مزامنة العداد الذكي';
 
   @override
@@ -3666,90 +3660,85 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'إنهاء الوصول إلى العداد اللاسلكي';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'إذا قمت بحذف مقياس الراديو هذا، فسيتم إلغاء وصولك إلى قراءات مقياس الراديو. يمكنك تقديم طلب وصول جديد في وقت لاحق.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'إذا قمت بحذف جهاز قياس الإشعاع هذا، فسيتم إلغاء صلاحية وصولك إلى قراءات جهاز قياس الإشعاع. يمكنك تقديم طلب وصول جديد لاحقًا.';
 
   @override
-  String get withoutRoomAssignment => 'بدون تخصيص غرفة';
+  String get accessRequestFlowFailure => 'تعذر إنشاء طلب الوصول.';
 
   @override
-  String get wtlAccessRequestFailure => 'تعذر إنشاء طلب الوصول.';
+  String get accessRequestFlowMeterId => 'رقم عداد WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'رقم عداد WV';
+  String get accessRequestFlowMeterIdHint =>
+      'ستجد رقم عداد المياه WV على الجانب الداخلي لغطاء عداد المياه اللاسلكي الخاص بك، أو في رسالة الترحيب، أو في كشف الحساب السنوي.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'ستجد رقم عداد المياه WV على الغلاف الداخلي لعداد المياه اللاسلكي الخاص بك أو في رسالة الترحيب أو في البيان السنوي.';
+  String get accessRequestFlowMissingAccountData => 'حسابك يفتقد إلى عنوان بريد إلكتروني.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'ينقص حسابك عنوان بريد إلكتروني.';
+  String get accessRequestFlowMissingInput => 'يرجى إدخال رقم عداد WV المكون من 6 أرقام بالضبط ورقم العميل الخاص بك.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'يرجى إدخال رقم عداد WV الخاص بك المكون من 6 أرقام بالضبط ورقم العميل الخاص بك.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'طلب الوصول عبر الإنترنت إلى موقع $supplierName.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'طلب وصول عبر الإنترنت لـ Wasserverband Tecklenburger Land.';
+  String get accessRequestFlowRegularMeterIdHint => 'أدخل رقم عداد المياه الخاص بك. مثال: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'أدخل رقم عداد المياه الخاص بك. مثال: 8 AXI10 0796 2977.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'يرجى إدخال رقم العداد المكون من 7 أرقام على الأقل ورقم العميل الخاص بك.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'يرجى إدخال رقم عداد مكون من 7 أرقام على الأقل.';
+  String get accessRequestFlowRegularMeterIdWarning => 'يرجى إدخال رقم عداد مكون من 7 أرقام على الأقل.';
 
   @override
-  String get wtlAccessRequestSuccess => 'تم إنشاء طلب الوصول.';
+  String get accessRequestFlowSuccess => 'تم إنشاء طلب الوصول.';
 
   @override
-  String get wtlAccessRequestTitle => 'طلب دخول WTLL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName طلب الوصول';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'هذه العدادات معتمدة لحسابك. ويمكن إعادة إضافة العدادات المفقودة إلى هذا الكائن.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'لم يتم العثور على أي عدادات معتمدة لحسابك.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'تعذر تحميل العدادات المعتمدة.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'مقياس الاستعادة';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'لم يتسن إصلاح العداد.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'تمت الإضافة';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'لم تتم إضافته';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'أجهزة القياس';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'تحقق من العدادات التي يمكن لحسابك الوصول إليها، وأضف العدادات المفقودة مرة أخرى إلى هذا الكائن.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'أجهزة القياس';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'الأمتار';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'تم تأكيد طلبك. أدخل الأرقام الثلاثة الأخيرة من رقم عدادك للاطلاع على قراءات العداد.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'لا يزال طلب الوصول الخاص بك قيد المعالجة. يرجى التحلي بالصبر.';
+  String get withoutRoomAssignment => 'بدون تخصيص غرفة';
 
   @override
   String get yearlyConsumption => 'الاستهلاك السنوي حتى الآن';

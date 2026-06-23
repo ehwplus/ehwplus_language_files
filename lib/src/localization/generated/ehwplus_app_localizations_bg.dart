@@ -2610,12 +2610,6 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Не е зададено';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Синхронизацията на интелигентния измервателен уред е неуспешна';
 
   @override
@@ -3718,91 +3712,88 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Прекратяване на достъпа до радио водомер';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Ако изтриете този радиометър, достъпът ви до показанията на радиометъра ще бъде отменен. Можете да подадете нова заявка за достъп по-късно.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Ако изтриете този радиометър, достъпът ви до показанията на радиометъра ще бъде отнет. По-късно можете да подадете ново заявление за достъп.';
 
   @override
-  String get withoutRoomAssignment => 'Без разпределение на стаите';
+  String get accessRequestFlowFailure => 'Не беше възможно да се създаде заявка за достъп.';
 
   @override
-  String get wtlAccessRequestFailure => 'Заявката за достъп не може да бъде създадена.';
+  String get accessRequestFlowMeterId => 'Номер на WV-измервателния уред';
 
   @override
-  String get wtlAccessRequestMeterId => 'Номер на измервателния уред WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Номерът на водомера WV се намира от вътрешната страна на капака на вашия радиоуправляем водомер, в писмото с добре дошли или в годишния отчет.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Номерът на водомера WV ще откриете от вътрешната страна на капака на вашия радиоводомер, в писмото за посрещане или в годишното извлечение.';
+  String get accessRequestFlowMissingAccountData => 'В профила ви липсва имейл адрес.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'В профила ви липсва имейл адрес.';
+  String get accessRequestFlowMissingInput =>
+      'Моля, въведете номера на електромера си (WV) с точно 6 цифри и клиентския си номер.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Моля, въведете точно 6-цифрения номер на водомера WV и клиентския си номер.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Заявка за онлайн достъп до „$supplierName“.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription => 'Заявление за онлайн достъп до Wasserverband Tecklenburger Land.';
+  String get accessRequestFlowRegularMeterIdHint => 'Въведете номера на водомера си. Пример: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Въведете номера на водомера си. Пример: 8 AXI10 0796 2977.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Моля, въведете номера на електромера си (с най-малко 7 цифри) и клиентския си номер.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Моля, въведете номера на електромера си (с минимум 7 цифри) и клиентския си номер.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdWarning =>
+  String get accessRequestFlowRegularMeterIdWarning =>
       'Моля, въведете номер на електромера, състоящ се от най-малко 7 цифри.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Създадена е заявка за достъп.';
+  String get accessRequestFlowSuccess => 'Заявката за достъп е създадена.';
 
   @override
-  String get wtlAccessRequestTitle => 'Заявка за достъп до WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName заявка за достъп';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Тези измервателни уреди са одобрени за вашия акаунт. Липсващите измервателни уреди могат да бъдат добавени отново към този обект.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'За вашия акаунт не бяха открити одобрени измервателни уреди.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed =>
+      'Не беше възможно да се заредят одобрените измервателни уреди.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Възстановяване на измервателния уред';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Не беше възможно да се възстанови измервателният уред.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Добавено';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Не е добавено';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Проверка на измервателните уреди';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Проверете до кои електромери има достъп вашият акаунт и добавете липсващите електромери обратно към този обект.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Проверка на измервателните уреди';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Метри';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Вашето искане за достъп е потвърдено. Въведете последните три цифри от номера на електромера си, за да получите достъп до показанията на електромера.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Вашето искане за достъп все още е в процес на разглеждане. Моля, проявете търпение.';
+  String get withoutRoomAssignment => 'Без разпределение на стаите';
 
   @override
   String get yearlyConsumption => 'Годишна консумация досега';

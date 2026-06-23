@@ -2601,12 +2601,6 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Chưa đặt';
 
   @override
-  String get smartMeterProviderWtl => 'Hiệp hội Nước Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Đất Wasserwerk Gerauer';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Không đồng bộ hóa được đồng hồ thông minh';
 
   @override
@@ -3699,92 +3693,88 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Chấm dứt quyền truy cập vào máy đo sóng vô tuyến';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Nếu bạn xóa đồng hồ đo sóng radio này, quyền truy cập vào các chỉ số đo của đồng hồ sẽ bị thu hồi. Bạn có thể gửi yêu cầu cấp quyền truy cập mới sau này.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Nếu quý vị xóa thiết bị đo sóng vô tuyến này, quyền truy cập của quý vị vào các chỉ số đo của thiết bị sẽ bị thu hồi. Quý vị có thể gửi yêu cầu cấp quyền truy cập mới sau này.';
 
   @override
-  String get withoutRoomAssignment => 'Không có phòng được chỉ định';
+  String get accessRequestFlowFailure => 'Không thể tạo yêu cầu truy cập.';
 
   @override
-  String get wtlAccessRequestFailure => 'Không thể tạo yêu cầu truy cập.';
+  String get accessRequestFlowMeterId => 'Số máy đo WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'Số đồng hồ WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Quý vị có thể tìm thấy số đồng hồ WV ở mặt trong nắp đồng hồ nước không dây của quý vị, trong thư chào mừng hoặc trong bản báo cáo hàng năm.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Quý khách có thể tìm thấy số đồng hồ WV ở mặt trong nắp đồng hồ nước không dây, trong thư chào mừng hoặc trong hóa đơn thanh toán hàng năm.';
+  String get accessRequestFlowMissingAccountData => 'Tài khoản của quý vị chưa có địa chỉ email.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Tài khoản của bạn chưa có địa chỉ email.';
+  String get accessRequestFlowMissingInput =>
+      'Vui lòng nhập số đồng hồ WV gồm chính xác 6 chữ số và số khách hàng của quý vị.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Vui lòng nhập số đồng hồ WV gồm chính xác 6 chữ số và số khách hàng của quý khách.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Yêu cầu truy cập trực tuyến đối với cuốn sách “$supplierName”.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Yêu cầu truy cập trực tuyến dành cho Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Vui lòng nhập số đồng hồ nước của quý vị. Ví dụ: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Vui lòng nhập số đồng hồ (ít nhất 7 chữ số) và số khách hàng của quý vị.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Vui lòng nhập số đồng hồ có ít nhất 7 chữ số.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Vui lòng nhập số đồng hồ có ít nhất 7 chữ số.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Yêu cầu truy cập đã được tạo.';
+  String get accessRequestFlowSuccess => 'Yêu cầu truy cập đã được tạo.';
 
   @override
-  String get wtlAccessRequestTitle => 'Yêu cầu truy cập WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName yêu cầu truy cập';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Các đồng hồ đo này đã được phê duyệt cho tài khoản của quý vị. Các đồng hồ đo còn thiếu có thể được thêm lại vào đối tượng này.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty =>
+      'Không tìm thấy đồng hồ đo nào đã được phê duyệt cho tài khoản của quý vị.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Không thể tải các đồng hồ đo đã được phê duyệt.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Khôi phục đồng hồ đo';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Không thể khôi phục lại đồng hồ đo.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Đã thêm';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Chưa được thêm vào';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Kiểm tra đồng hồ đo';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Vui lòng kiểm tra xem tài khoản của quý vị có thể truy cập những đồng hồ đo nào và thêm các đồng hồ đo còn thiếu vào đối tượng này.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Kiểm tra đồng hồ đo';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Mét';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Yêu cầu truy cập của quý khách đã được xác nhận. Vui lòng nhập ba chữ số cuối của số đồng hồ để truy cập vào các chỉ số đồng hồ.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Yêu cầu cấp quyền truy cập của quý vị hiện vẫn đang được xử lý. Xin quý vị vui lòng chờ đợi.';
+  String get withoutRoomAssignment => 'Không có phòng được chỉ định';
 
   @override
   String get yearlyConsumption => 'Tiêu thụ hàng năm cho đến nay';

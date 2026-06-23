@@ -2596,12 +2596,6 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Sio kuweka';
 
   @override
-  String get smartMeterProviderWtl => 'Chama cha Maji cha Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Ardhi ya Wasserwerk Gerauer';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Ulinganisho wa mita mahiri umeshindikana';
 
   @override
@@ -3701,91 +3695,87 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Kusitisha ufikiaji wa mita ya redio';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
       'Ukifuta kipima redio hiki, ufikiaji wako wa usomaji wa kipima redio utafutwa. Unaweza kuwasilisha ombi jipya la ufikiaji baadaye.';
 
   @override
-  String get withoutRoomAssignment => 'Bila upangaji wa chumba';
+  String get accessRequestFlowFailure => 'Ombi la ufikiaji halikuweza kuundwa.';
 
   @override
-  String get wtlAccessRequestFailure => 'Ombi la ufikiaji halikuweza kuundwa.';
+  String get accessRequestFlowMeterId => 'Nambari ya mita ya WV';
 
   @override
-  String get wtlAccessRequestMeterId => 'Nambari ya mita ya WV';
+  String get accessRequestFlowMeterIdHint =>
+      'Utapata nambari ya mita ya maji ya WV ndani ya kifuniko cha mita yako ya maji ya redio, au katika barua ya ukaribisho, au katika taarifa ya mwaka.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'Unaweza kupata nambari ya mita yako ya maji isiyo na waya (WV) ndani ya kifuniko cha mita yako, katika barua ya kukaribisha au kwenye bili yako ya kila mwaka.';
+  String get accessRequestFlowMissingAccountData => 'Akaunti yako inakosa anwani ya barua pepe.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Akaunti yako haina anwani ya barua pepe.';
-
-  @override
-  String get wtlAccessRequestMissingInput =>
+  String get accessRequestFlowMissingInput =>
       'Tafadhali ingiza nambari yako ya mita ya WV yenye tarakimu sita kamili na nambari yako ya mteja.';
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Ombi la ufikiaji mtandaoni kwa Wasserverband Tecklenburger Land.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Ombi la upatikanaji mtandaoni kwa $supplierName.';
+  }
 
   @override
-  String get wtlAccessRequestRegularMeterIdHint => 'Ingiza nambari ya mita yako ya maji. Mfano: 8 AXI10 0796 2977.';
+  String get accessRequestFlowRegularMeterIdHint =>
+      'Ingiza nambari ya mita kutoka kwenye mita yako ya maji. Mfano: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
-      'Tafadhali ingiza nambari yako ya mita yenye angalau tarakimu saba na nambari yako ya mteja.';
+  String get accessRequestFlowRegularMeterIdMissingInput =>
+      'Tafadhali ingiza nambari yako ya mita yenye angalau tarakimu 7 na nambari yako ya mteja.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Tafadhali ingiza nambari ya mita yenye angalau tarakimu saba.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Tafadhali ingiza nambari ya mita yenye angalau tarakimu saba.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Ombi la ufikiaji limetengenezwa.';
+  String get accessRequestFlowSuccess => 'Ombi la ufikiaji limetengenezwa.';
 
   @override
-  String get wtlAccessRequestTitle => 'Ombi la ufikiaji wa WTL';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName Ombi la ufikiaji';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Mitambo hii imeidhinishwa kwa akaunti yako. Mitambo iliyokosekana inaweza kuongezwa tena kwenye kitu hiki.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Hakuna mita iliyokubaliwa iliyopatikana kwa akaunti yako.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Mitambo iliyokubaliwa haikuweza kupakiwa.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Rejesha mita';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Mita haikuweza kurejeshwa.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Imeongezwa';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Haijaongezwa';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Angalia mita';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Angalia mita gani akaunti yako inaweza kufikia na ongeza mita zilizokosekana kwenye kitu hiki.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Angalia mita';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Mitara';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Ombi lako la upatikanaji limeidhinishwa. Ingiza tarakimu tatu za mwisho za nambari ya mita yako ili upate ufikiaji wa usomaji wa mita.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Ombi lako la upatikanaji bado liko wazi. Tafadhali kuwa na subira.';
+  String get withoutRoomAssignment => 'Bila upangaji wa chumba';
 
   @override
   String get yearlyConsumption => 'Matumizi ya kila mwaka hadi sasa';

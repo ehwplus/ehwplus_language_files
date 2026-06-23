@@ -2606,12 +2606,6 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get smartMeterProviderUndefined => 'Nenustatyta';
 
   @override
-  String get smartMeterProviderWtl => 'Wasserverband Tecklenburger Land';
-
-  @override
-  String get smartMeterProviderWwgl => 'Wasserwerk Gerauer Land';
-
-  @override
   String get smartMeterReadingsSyncFailed => 'Nepavyko sinchronizuoti išmaniojo skaitiklio';
 
   @override
@@ -3715,92 +3709,87 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get watersupplierUnlinkRadioMeterTitle => 'Nutraukti radijo skaitiklio prieigą';
 
   @override
-  String get watersupplierUnlinkRadioMeterWtlDescription =>
-      'Jei ištrinsite šį radijo matuoklį, jūsų prieiga prie radijo matuoklio rodmenų bus panaikinta. Vėliau galėsite pateikti naują prieigos prašymą.';
+  String get watersupplierUnlinkRadioMeterAccessRequestDescription =>
+      'Jei ištrinsite šį radijo matuoklį, jūsų prieiga prie radijo matuoklio rodmenų bus panaikinta. Vėliau galėsite pateikti naują prašymą dėl prieigos.';
 
   @override
-  String get withoutRoomAssignment => 'Be kambario paskyrimo';
+  String get accessRequestFlowFailure => 'Nepavyko sukurti prieigos prašymo.';
 
   @override
-  String get wtlAccessRequestFailure => 'Nepavyko sukurti prieigos užklausos.';
+  String get accessRequestFlowMeterId => 'WV matuoklio numeris';
 
   @override
-  String get wtlAccessRequestMeterId => 'WV skaitiklio numeris';
+  String get accessRequestFlowMeterIdHint =>
+      'WV skaitiklio numerį rasite savo radijo vandens skaitiklio dangčio vidinėje pusėje, sveikinimo laiške arba metinėje ataskaitoje.';
 
   @override
-  String get wtlAccessRequestMeterIdHint =>
-      'WV skaitiklio numerį rasite radijo vandens skaitiklio dangtelio vidinėje pusėje, sveikinimo laiške arba metinėje ataskaitoje.';
+  String get accessRequestFlowMissingAccountData => 'Jūsų paskyroje nėra nurodyto el. pašto adreso.';
 
   @override
-  String get wtlAccessRequestMissingAccountData => 'Jūsų paskyroje trūksta el. pašto adreso.';
+  String get accessRequestFlowMissingInput =>
+      'Įveskite savo WV skaitiklio numerį, susidedantį iš tiksliai 6 skaitmenų, ir savo kliento numerį.';
 
   @override
-  String get wtlAccessRequestMissingInput =>
-      'Įveskite savo WV skaitiklio numerį, kuriame yra lygiai 6 skaitmenys, ir savo kliento numerį.';
+  String accessRequestFlowOnlineOnlyDescription(String supplierName) {
+    return 'Prašymas suteikti prieigą prie „$supplierName“ internete.';
+  }
 
   @override
-  String get wtlAccessRequestOnlineOnlyDescription =>
-      'Prašymas suteikti prieigą internetu prie Wasserverband Tecklenburger Land.';
-
-  @override
-  String get wtlAccessRequestRegularMeterIdHint =>
+  String get accessRequestFlowRegularMeterIdHint =>
       'Įveskite savo vandens skaitiklio numerį. Pavyzdys: 8 AXI10 0796 2977.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdMissingInput =>
+  String get accessRequestFlowRegularMeterIdMissingInput =>
       'Įveskite bent 7 skaitmenų skaitiklio numerį ir savo kliento numerį.';
 
   @override
-  String get wtlAccessRequestRegularMeterIdWarning => 'Įveskite bent 7 skaitmenų skaitiklio numerį.';
+  String get accessRequestFlowRegularMeterIdWarning => 'Įveskite bent 7 skaitmenų skaitiklio numerį.';
 
   @override
-  String get wtlAccessRequestSuccess => 'Sukurta prieigos užklausa.';
+  String get accessRequestFlowSuccess => 'Prieigos prašymas sukurtas.';
 
   @override
-  String get wtlAccessRequestTitle => 'WTL prieigos prašymas';
+  String accessRequestFlowTitle(String supplierName) {
+    return '$supplierName prašymas suteikti prieigą';
+  }
 
   @override
-  String get wtlAuthorizedMetersDescription =>
-      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+  String get accessRequestFlowAuthorizedMetersDescription =>
+      'Šie skaitikliai yra patvirtinti jūsų sąskaitai. Trūkstamus skaitiklius galima vėl pridėti prie šio objekto.';
 
   @override
-  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+  String get accessRequestFlowAuthorizedMetersEmpty => 'Jūsų sąskaitoje nerasta jokių patvirtintų skaitiklių.';
 
   @override
-  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+  String get accessRequestFlowAuthorizedMetersLoadFailed => 'Nepavyko įkelti patvirtintų skaitiklių.';
 
   @override
-  String get wtlAuthorizedMetersRestore => 'Restore meter';
+  String get accessRequestFlowAuthorizedMetersRestore => 'Atkurti skaitiklį';
 
   @override
-  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+  String get accessRequestFlowAuthorizedMetersRestoreFailed => 'Matuoklio atkurti nepavyko.';
 
   @override
-  String get wtlAuthorizedMetersStatusAdded => 'Added';
+  String get accessRequestFlowAuthorizedMetersStatusAdded => 'Pridėta';
 
   @override
-  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+  String get accessRequestFlowAuthorizedMetersStatusMissing => 'Neįtraukta';
 
   @override
-  String get wtlAuthorizedMetersStepButton => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepButton => 'Patikrinkite skaitiklius';
 
   @override
-  String get wtlAuthorizedMetersStepDescription =>
-      'Check which WTL meters your account can access and add missing meters back to this object.';
+  String get accessRequestFlowAuthorizedMetersStepDescription =>
+      'Patikrinkite, prie kokių skaitiklių jūsų paskyra turi prieigą, ir pridėkite trūkstamus skaitiklius atgal prie šio objekto.';
 
   @override
-  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+  String get accessRequestFlowAuthorizedMetersStepTitle => 'Patikrinkite skaitiklius';
 
   @override
-  String get wtlAuthorizedMetersTitle => 'WTL meters';
+  String get accessRequestFlowAuthorizedMetersTitle => 'Metrai';
 
   @override
-  String get wtlMeterOnboardingStepDescriptionApproved =>
-      'Jūsų prašymas suteikti prieigą buvo patvirtintas. Įveskite paskutinįsias tris skaitiklio numerio skaitmenis, kad galėtumėte peržiūrėti skaitiklio rodmenis.';
-
-  @override
-  String get wtlMeterOnboardingStepDescriptionPending =>
-      'Jūsų prašymas suteikti prieigą vis dar nagrinėjamas. Prašome palaukti.';
+  String get withoutRoomAssignment => 'Be kambario paskyrimo';
 
   @override
   String get yearlyConsumption => 'Metinis suvartojimas iki šiol';
