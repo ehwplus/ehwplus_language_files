@@ -6563,6 +6563,72 @@ abstract class EhwplusAppLocalizations {
   /// **'WTL access request'**
   String get wtlAccessRequestTitle;
 
+  /// No description provided for @wtlAuthorizedMetersDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'These WTL meters are approved for your account. Missing meters can be added back to this object.'**
+  String get wtlAuthorizedMetersDescription;
+
+  /// No description provided for @wtlAuthorizedMetersEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No approved WTL meters were found for your account.'**
+  String get wtlAuthorizedMetersEmpty;
+
+  /// No description provided for @wtlAuthorizedMetersLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Approved WTL meters could not be loaded.'**
+  String get wtlAuthorizedMetersLoadFailed;
+
+  /// No description provided for @wtlAuthorizedMetersRestore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore meter'**
+  String get wtlAuthorizedMetersRestore;
+
+  /// No description provided for @wtlAuthorizedMetersRestoreFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The WTL meter could not be restored.'**
+  String get wtlAuthorizedMetersRestoreFailed;
+
+  /// No description provided for @wtlAuthorizedMetersStatusAdded.
+  ///
+  /// In en, this message translates to:
+  /// **'Added'**
+  String get wtlAuthorizedMetersStatusAdded;
+
+  /// No description provided for @wtlAuthorizedMetersStatusMissing.
+  ///
+  /// In en, this message translates to:
+  /// **'Not added'**
+  String get wtlAuthorizedMetersStatusMissing;
+
+  /// No description provided for @wtlAuthorizedMetersStepButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Check meters'**
+  String get wtlAuthorizedMetersStepButton;
+
+  /// No description provided for @wtlAuthorizedMetersStepDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Check which WTL meters your account can access and add missing meters back to this object.'**
+  String get wtlAuthorizedMetersStepDescription;
+
+  /// No description provided for @wtlAuthorizedMetersStepTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Check meters'**
+  String get wtlAuthorizedMetersStepTitle;
+
+  /// No description provided for @wtlAuthorizedMetersTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'WTL meters'**
+  String get wtlAuthorizedMetersTitle;
+
   /// No description provided for @wtlMeterOnboardingStepDescriptionApproved.
   ///
   /// In en, this message translates to:

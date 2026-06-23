@@ -3744,6 +3744,41 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get wtlAccessRequestTitle => 'Yêu cầu truy cập WTL';
 
   @override
+  String get wtlAuthorizedMetersDescription =>
+      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+
+  @override
+  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+
+  @override
+  String get wtlAuthorizedMetersRestore => 'Restore meter';
+
+  @override
+  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+
+  @override
+  String get wtlAuthorizedMetersStatusAdded => 'Added';
+
+  @override
+  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+
+  @override
+  String get wtlAuthorizedMetersStepButton => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersStepDescription =>
+      'Check which WTL meters your account can access and add missing meters back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersTitle => 'WTL meters';
+
+  @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
       'Yêu cầu truy cập của quý khách đã được xác nhận. Vui lòng nhập ba chữ số cuối của số đồng hồ để truy cập vào các chỉ số đồng hồ.';
 

@@ -3633,6 +3633,41 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get wtlAccessRequestTitle => 'WTL 액세스 요청';
 
   @override
+  String get wtlAuthorizedMetersDescription =>
+      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+
+  @override
+  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+
+  @override
+  String get wtlAuthorizedMetersRestore => 'Restore meter';
+
+  @override
+  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+
+  @override
+  String get wtlAuthorizedMetersStatusAdded => 'Added';
+
+  @override
+  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+
+  @override
+  String get wtlAuthorizedMetersStepButton => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersStepDescription =>
+      'Check which WTL meters your account can access and add missing meters back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersTitle => 'WTL meters';
+
+  @override
   String get wtlMeterOnboardingStepDescriptionApproved => '접근 요청이 확인되었습니다. 계량기 검침 내역을 확인하려면 계량기 번호의 마지막 세 자리를 입력해 주세요.';
 
   @override

@@ -3758,6 +3758,41 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get wtlAccessRequestTitle => 'WTL പ്രവേശന അഭ്യർത്ഥന';
 
   @override
+  String get wtlAuthorizedMetersDescription =>
+      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+
+  @override
+  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+
+  @override
+  String get wtlAuthorizedMetersRestore => 'Restore meter';
+
+  @override
+  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+
+  @override
+  String get wtlAuthorizedMetersStatusAdded => 'Added';
+
+  @override
+  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+
+  @override
+  String get wtlAuthorizedMetersStepButton => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersStepDescription =>
+      'Check which WTL meters your account can access and add missing meters back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersTitle => 'WTL meters';
+
+  @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
       'നിങ്ങളുടെ പ്രവേശന അഭ്യർത്ഥന സ്ഥിരീകരിച്ചിരിക്കുന്നു. മീറ്റർ റീഡിംഗുകൾ ലഭ്യമാക്കുന്നതിനായി നിങ്ങളുടെ മീറ്റർ നമ്പറിന്റെ അവസാനത്തെ മൂന്ന് അക്കങ്ങൾ നൽകുക.';
 

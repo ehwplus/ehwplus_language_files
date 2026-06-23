@@ -3737,6 +3737,41 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get wtlAccessRequestTitle => 'WTL पहुँच अनुरोध';
 
   @override
+  String get wtlAuthorizedMetersDescription =>
+      'These WTL meters are approved for your account. Missing meters can be added back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersEmpty => 'No approved WTL meters were found for your account.';
+
+  @override
+  String get wtlAuthorizedMetersLoadFailed => 'Approved WTL meters could not be loaded.';
+
+  @override
+  String get wtlAuthorizedMetersRestore => 'Restore meter';
+
+  @override
+  String get wtlAuthorizedMetersRestoreFailed => 'The WTL meter could not be restored.';
+
+  @override
+  String get wtlAuthorizedMetersStatusAdded => 'Added';
+
+  @override
+  String get wtlAuthorizedMetersStatusMissing => 'Not added';
+
+  @override
+  String get wtlAuthorizedMetersStepButton => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersStepDescription =>
+      'Check which WTL meters your account can access and add missing meters back to this object.';
+
+  @override
+  String get wtlAuthorizedMetersStepTitle => 'Check meters';
+
+  @override
+  String get wtlAuthorizedMetersTitle => 'WTL meters';
+
+  @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
       'आपकी पहुँच अनुरोध की पुष्टि हो गई है। मीटर रीडिंग्स तक पहुँच प्राप्त करने के लिए अपने मीटर नंबर के अंतिम तीन अंक दर्ज करें।';
 

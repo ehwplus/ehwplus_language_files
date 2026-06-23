@@ -3758,6 +3758,41 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get wtlAccessRequestTitle => 'WTL-Zugriffsanfrage';
 
   @override
+  String get wtlAuthorizedMetersDescription =>
+      'Diese WTL-Zähler sind für Ihr Konto freigeschaltet. Fehlende Zähler können diesem Objekt wieder hinzugefügt werden.';
+
+  @override
+  String get wtlAuthorizedMetersEmpty => 'Für Ihr Konto wurden keine freigeschalteten WTL-Zähler gefunden.';
+
+  @override
+  String get wtlAuthorizedMetersLoadFailed => 'Freigeschaltete WTL-Zähler konnten nicht geladen werden.';
+
+  @override
+  String get wtlAuthorizedMetersRestore => 'Zähler wiederherstellen';
+
+  @override
+  String get wtlAuthorizedMetersRestoreFailed => 'Der WTL-Zähler konnte nicht wiederhergestellt werden.';
+
+  @override
+  String get wtlAuthorizedMetersStatusAdded => 'Hinzugefügt';
+
+  @override
+  String get wtlAuthorizedMetersStatusMissing => 'Nicht hinzugefügt';
+
+  @override
+  String get wtlAuthorizedMetersStepButton => 'Zähler prüfen';
+
+  @override
+  String get wtlAuthorizedMetersStepDescription =>
+      'Prüfen Sie, auf welche WTL-Zähler Ihr Konto Zugriff hat, und fügen Sie fehlende Zähler wieder zu diesem Objekt hinzu.';
+
+  @override
+  String get wtlAuthorizedMetersStepTitle => 'Zähler prüfen';
+
+  @override
+  String get wtlAuthorizedMetersTitle => 'WTL-Zähler';
+
+  @override
   String get wtlMeterOnboardingStepDescriptionApproved =>
       'Ihre Zugriffsanfrage wurde bestätigt. Geben Sie die letzten drei Ziffern ihrer Zählernummer ein, um Zugriff auf Zählerstände zu erhalten.';
 
