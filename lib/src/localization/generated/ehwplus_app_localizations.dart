@@ -1517,6 +1517,42 @@ abstract class EhwplusAppLocalizations {
   /// **'Contracts'**
   String get contracts;
 
+  /// No description provided for @consumptionPoint.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumption point'**
+  String get consumptionPoint => 'Consumption point';
+
+  /// No description provided for @consumptionPointDeleteConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete consumption point?'**
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  /// No description provided for @consumptionPointIdentifier.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumption point ID'**
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  /// No description provided for @consumptionPointIdentifierMissing.
+  ///
+  /// In en, this message translates to:
+  /// **'No ID stored'**
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  /// No description provided for @consumptionPointType.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumption point type'**
+  String get consumptionPointType => 'Consumption point type';
+
+  /// No description provided for @consumptionPoints.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumption points'**
+  String get consumptionPoints => 'Consumption points';
+
   /// No description provided for @corresponds.
   ///
   /// In en, this message translates to:
@@ -3334,6 +3370,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'You have not yet created a counter.'**
   String get messageNoCounters;
+
+  /// No description provided for @messageNoConsumptionPoints.
+  ///
+  /// In en, this message translates to:
+  /// **'No consumption points have been created yet.'**
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   /// No description provided for @messageNoRooms.
   ///

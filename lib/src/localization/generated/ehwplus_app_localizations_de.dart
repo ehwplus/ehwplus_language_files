@@ -818,6 +818,24 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get contracts => 'Verträge';
 
   @override
+  String get consumptionPoint => 'Verbrauchsstelle';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Verbrauchsstelle löschen?';
+
+  @override
+  String get consumptionPointIdentifier => 'Verbrauchsstellen-ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'Keine ID hinterlegt';
+
+  @override
+  String get consumptionPointType => 'Typ der Verbrauchsstelle';
+
+  @override
+  String get consumptionPoints => 'Verbrauchsstellen';
+
+  @override
   String get corresponds => '≙';
 
   @override
@@ -1826,6 +1844,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Sie haben noch keine Zähler angelegt.';
+
+  @override
+  String get messageNoConsumptionPoints => 'Es wurden noch keine Verbrauchsstellen angelegt';
 
   @override
   String get messageNoRooms => 'Keine Räume vorhanden';
