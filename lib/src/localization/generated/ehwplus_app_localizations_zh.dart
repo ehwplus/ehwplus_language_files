@@ -3574,6 +3574,21 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get accessRequestFlowMissingInput => '请输入您的WV电表号（精确6位）和客户编号。';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return '请输入 $value。';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value 无效';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return '请输入 $value，并使用 $minDigits 访问 $maxDigits 位数字。';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '关于《$supplierName》的在线访问申请。';
   }

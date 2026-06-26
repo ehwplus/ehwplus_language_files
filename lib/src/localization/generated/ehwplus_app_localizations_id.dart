@@ -3731,6 +3731,21 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
       'Silakan masukkan nomor meteran WV Anda yang terdiri dari tepat 6 digit serta nomor pelanggan Anda.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Silakan masukkan $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value tidak sah';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Silakan masukkan $value dengan $minDigits hingga $maxDigits digit.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Permohonan akses daring untuk buku *$supplierName*.';
   }

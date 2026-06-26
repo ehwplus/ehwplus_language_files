@@ -3713,6 +3713,21 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
       'Syötä WV-mittarin numero, joka koostuu tarkalleen 6 numerosta, sekä asiakasnumerosi.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Kirjoita osoitteeksi $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value on virheellinen';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Syötä $value ja $minDigits, jotta $maxDigits-numeroa.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '$supplierName -julkaisun verkkojulkaisun pyytäminen.';
   }

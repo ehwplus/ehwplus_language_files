@@ -3739,6 +3739,21 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
       'Veuillez saisir votre numéro de compteur WV, composé exactement de 6 chiffres, ainsi que votre numéro de client.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Veuillez saisir $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value n\'est pas valide';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Veuillez saisir « $value » avec « $minDigits » et « $maxDigits » chiffres.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Demande d\'accès en ligne à l\'ouvrage «$supplierName».';
   }

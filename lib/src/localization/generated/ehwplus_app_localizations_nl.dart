@@ -3729,6 +3729,21 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
       'Voer alstublieft uw WV-meternummer in, bestaande uit precies 6 cijfers, en uw klantnummer.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Voer alstublieft $value in.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value is ongeldig';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Voer alstublieft $value in, waarbij $minDigits tot $maxDigits cijfers moet bevatten.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Online toegangsverzoek voor $supplierName.';
   }

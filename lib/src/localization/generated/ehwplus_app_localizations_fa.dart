@@ -3694,6 +3694,21 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get accessRequestFlowMissingInput => 'لطفاً شماره کنتور WV خود را با ۶ رقم دقیق و شماره مشتری خود وارد کنید.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'لطفاً $value را وارد کنید.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value نامعتبر است';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'لطفاً $value را با $minDigits تا $maxDigits رقم وارد کنید.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'درخواست دسترسی آنلاین برای $supplierName.';
   }

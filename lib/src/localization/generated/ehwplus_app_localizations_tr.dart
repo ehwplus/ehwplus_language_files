@@ -3714,6 +3714,21 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Lütfen tam olarak 6 haneli WV sayaç numaranızı ve müşteri numaranızı girin.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Lütfen $value adresini girin.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value geçersizdir';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Lütfen $value adresine, $minDigits ile $maxDigits basamaklı bir şifre girin.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '$supplierName için çevrimiçi erişim talebi.';
   }

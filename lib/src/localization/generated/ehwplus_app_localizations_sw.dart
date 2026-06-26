@@ -3716,6 +3716,21 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Tafadhali ingiza nambari yako ya mita ya WV yenye tarakimu sita kamili na nambari yako ya mteja.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Tafadhali ingiza $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value Si halali';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Tafadhali ingiza $value na $minDigits kwa tarakimu $maxDigits.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Ombi la upatikanaji mtandaoni kwa $supplierName.';
   }

@@ -3680,6 +3680,21 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get accessRequestFlowMissingInput => 'يرجى إدخال رقم عداد WV المكون من 6 أرقام بالضبط ورقم العميل الخاص بك.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'يرجى إدخال $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value غير صالح';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'يرجى إدخال $value مع $minDigits إلى $maxDigits أرقام.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'طلب الوصول عبر الإنترنت إلى موقع $supplierName.';
   }

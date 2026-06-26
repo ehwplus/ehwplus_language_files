@@ -3715,6 +3715,21 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Zadejte prosím číslo svého elektroměru WV (přesně 6 číslic) a své zákaznické číslo.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Zadejte prosím adresu $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value je neplatné';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Zadejte prosím $value s $minDigits až $maxDigits číslic.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Žádost o online přístup k publikaci „$supplierName“.';
   }

@@ -6509,6 +6509,24 @@ abstract class EhwplusAppLocalizations {
   /// **'Please enter your WV meter number with exactly 6 digits and your customer number.'**
   String get accessRequestFlowMissingInput;
 
+  /// Error message if an access request form field is required
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter {value}.'**
+  String accessRequestFlowRequiredInput(String value);
+
+  /// Error message if an access request form field is invalid
+  ///
+  /// In en, this message translates to:
+  /// **'{value} is invalid'**
+  String accessRequestFlowInvalidInput(String value);
+
+  /// Error message if an access request form field needs a digit count in a range
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter {value} with {minDigits} to {maxDigits} digits.'**
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits);
+
   /// No description provided for @accessRequestFlowOnlineOnlyDescription.
   ///
   /// In en, this message translates to:

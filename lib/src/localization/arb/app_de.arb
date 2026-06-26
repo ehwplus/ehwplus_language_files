@@ -1166,6 +1166,9 @@
   "accessRequestFlowMeterIdHint": "Die WV-Zählernummer finden Sie an der Deckelinnenseite Ihres Funkwasserzählers oder im Begrüßungsschreiben oder in der Jahresabrechnung.",
   "accessRequestFlowMissingAccountData": "In Ihrem Konto fehlt eine E-Mail-Adresse.",
   "accessRequestFlowMissingInput": "Bitte geben Sie Ihre WV-Zählernummer mit exakt 6 Ziffern und Ihre Kundennummer ein.",
+  "accessRequestFlowRequiredInput": "Bitte {value} eintragen",
+  "accessRequestFlowInvalidInput": "{value} ist ungültig",
+  "accessRequestFlowDigitRangeInput": "Bitte {value} mit {minDigits} bis {maxDigits} Ziffern eintragen",
   "accessRequestFlowOnlineOnlyDescription": "Online-Zugriffsanfrage für {supplierName}.",
   "@accessRequestFlowOnlineOnlyDescription": {
     "placeholders": {

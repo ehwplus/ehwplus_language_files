@@ -3606,6 +3606,21 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get accessRequestFlowMissingInput => 'WV 계량기 번호를 정확히 6자리로 입력하고 고객 번호도 함께 입력해 주십시오.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return '$value을 입력해 주세요.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value 무효입니다';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return '$value을 입력하실 때, $minDigits을 $maxDigits자리로 입력해 주십시오.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '$supplierName에 대한 온라인 열람 신청.';
   }

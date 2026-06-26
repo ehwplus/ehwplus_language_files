@@ -3730,6 +3730,21 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Kérjük, adja meg pontosan 6 számjegyből álló WV-mérőszámát és ügyfélszámát.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Kérjük, írja be a $value címet.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value érvénytelen';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Kérjük, írja be a $value címet a $minDigits oldalra, $maxDigits számjegyben.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Online hozzáférési kérelem a „$supplierName” című műhöz.';
   }

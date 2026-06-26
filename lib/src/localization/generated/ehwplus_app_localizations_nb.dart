@@ -3713,6 +3713,21 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
       'Vennligst oppgi WV-målernummeret ditt med nøyaktig 6 sifre og kundenummeret ditt.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Vennligst skriv inn $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value er ugyldig';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Vennligst skriv inn «$value» med «$minDigits» til «$maxDigits» sifre.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Forespørsel om nettilgang til «$supplierName».';
   }

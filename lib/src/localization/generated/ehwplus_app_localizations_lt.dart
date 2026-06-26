@@ -3730,6 +3730,21 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Įveskite savo WV skaitiklio numerį, susidedantį iš tiksliai 6 skaitmenų, ir savo kliento numerį.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Įveskite „$value“.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value yra neteisingas';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Įveskite „$value“ su „$minDigits“ iki „$maxDigits“ skaitmenų.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Prašymas suteikti prieigą prie „$supplierName“ internete.';
   }

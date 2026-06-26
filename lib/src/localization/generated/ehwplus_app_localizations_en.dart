@@ -3720,6 +3720,21 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
       'Please enter your WV meter number with exactly 6 digits and your customer number.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Please enter $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value is invalid';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Please enter $value with $minDigits to $maxDigits digits.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Online access request for $supplierName.';
   }

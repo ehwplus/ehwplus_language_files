@@ -3733,6 +3733,21 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
       'Моля, въведете номера на електромера си (WV) с точно 6 цифри и клиентския си номер.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Моля, въведете $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value е невалиден';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Моля, въведете $value с $minDigits до $maxDigits цифри.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Заявка за онлайн достъп до „$supplierName“.';
   }

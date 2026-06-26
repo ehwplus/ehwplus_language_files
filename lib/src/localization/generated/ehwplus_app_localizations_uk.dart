@@ -3738,6 +3738,21 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
       'Будь ласка, введіть номер лічильника WV, що складається саме з 6 цифр, та свій номер клієнта.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Будь ласка, введіть $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value є недійсним';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Будь ласка, введіть $value, використовуючи $minDigits, щоб отримати $maxDigits цифр.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Запит на отримання онлайн-доступу до книги «$supplierName».';
   }

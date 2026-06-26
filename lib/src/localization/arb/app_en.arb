@@ -1809,6 +1809,44 @@
   "accessRequestFlowMeterIdHint": "You will find the WV meter number on the inside of the cover of your radio water meter or in the welcome letter or in the annual statement.",
   "accessRequestFlowMissingAccountData": "Your account is missing an email address.",
   "accessRequestFlowMissingInput": "Please enter your WV meter number with exactly 6 digits and your customer number.",
+  "accessRequestFlowRequiredInput": "Please enter {value}.",
+  "@accessRequestFlowRequiredInput": {
+    "description": "Error message if an access request form field is required",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "phone number"
+      }
+    }
+  },
+  "accessRequestFlowInvalidInput": "{value} is invalid",
+  "@accessRequestFlowInvalidInput": {
+    "description": "Error message if an access request form field is invalid",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "phone number"
+      }
+    }
+  },
+  "accessRequestFlowDigitRangeInput": "Please enter {value} with {minDigits} to {maxDigits} digits.",
+  "@accessRequestFlowDigitRangeInput": {
+    "description": "Error message if an access request form field needs a digit count in a range",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "customer number"
+      },
+      "minDigits": {
+        "type": "int",
+        "example": "6"
+      },
+      "maxDigits": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
   "accessRequestFlowOnlineOnlyDescription": "Online access request for {supplierName}.",
   "@accessRequestFlowOnlineOnlyDescription": {
     "placeholders": {

@@ -3605,6 +3605,21 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get accessRequestFlowMissingInput => 'WVのメーター番号（正確に6桁）とお客様番号を入力してください。';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return '$value を入力してください。';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value 無効です';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return '「$value」と「$minDigits」を、$maxDigits桁の数字で入力してください。';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '『$supplierName』のオンライン閲覧申請。';
   }

@@ -3732,6 +3732,21 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
       'Proszę wprowadzić numer licznika WV składający się dokładnie z 6 cyfr oraz swój numer klienta.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Proszę wpisać adres $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value jest nieprawidłowe';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Proszę wprowadzić $value z $minDigits do $maxDigits cyfr.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Wniosek o udostępnienie online publikacji „$supplierName”.';
   }

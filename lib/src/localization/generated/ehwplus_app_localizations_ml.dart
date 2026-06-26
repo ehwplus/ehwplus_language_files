@@ -3729,6 +3729,21 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
       'ദയവായി നിങ്ങളുടെ WV മീറ്റർ നമ്പർ കൃത്യമായി 6 അക്കങ്ങളോടും നിങ്ങളുടെ കസ്റ്റമർ നമ്പറും നൽകുക.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'ദയവായി $value നൽകുക.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value അസാധു';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'ദയവായി $value, $minDigits എന്നിവ ഉപയോഗിച്ച് $maxDigits അക്കങ്ങൾ നൽകുക.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '$supplierName-ലേക്കുള്ള ഓൺലൈൻ പ്രവേശന അഭ്യർത്ഥന.';
   }

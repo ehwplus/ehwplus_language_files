@@ -3746,6 +3746,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Παρακαλώ εισάγετε τον αριθμό του μετρητή WV, ο οποίος πρέπει να αποτελείται ακριβώς από 6 ψηφία, καθώς και τον αριθμό πελάτη σας.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Παρακαλώ πληκτρολογήστε $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value δεν είναι έγκυρο';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Παρακαλώ πληκτρολογήστε $value με $minDigits έως $maxDigits ψηφία.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Αίτημα ηλεκτρονικής πρόσβασης για το έργο «$supplierName».';
   }

@@ -3724,6 +3724,21 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'ကျေးဇူးပြု၍ သင့် WV မီတာနံပါတ်ကို ဂဏန်း ၆ လုံးတိတိဖြင့်နှင့် သင့်ဖောက်သည်နံပါတ်ကို ထည့်ပါ။';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return '$value ကို ထည့်ပါ။';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value မမှန်ပါ';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return '$value ကို $minDigits နှင့်အတူ $maxDigits လုံးအထိ ထည့်ပါ။';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '$supplierName အတွက် အွန်လိုင်း ဝင်ရောက်ခွင့် တောင်းဆိုခြင်း။';
   }

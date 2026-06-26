@@ -3725,6 +3725,21 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
       'Молимо унесите број вашег WV мерача са тачно шест цифара и ваш број купца.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Молимо унесите $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value је неважећи';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Молимо унесите $value са $minDigits до $maxDigits цифара.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Онлајн захтев за приступ за \"$supplierName\".';
   }

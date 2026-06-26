@@ -3730,6 +3730,21 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Vă rugăm să introduceți numărul contorului WV, format din exact 6 cifre, precum și numărul dvs. de client.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Vă rugăm să introduceți $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value este nevalidă';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Vă rugăm să introduceți $value cu $minDigits până la $maxDigits cifre.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Cerere de acces online la „$supplierName”.';
   }

@@ -3702,6 +3702,21 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'กรุณากรอกหมายเลขมิเตอร์ WV ของคุณให้ถูกต้อง 6 หลัก และหมายเลขลูกค้าของคุณ';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'กรุณาป้อน $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value ไม่ถูกต้อง';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'กรุณากรอก $value พร้อมรหัส $minDigits ถึง $maxDigits หลัก';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'คำขอการเข้าถึงออนไลน์สำหรับ $supplierName';
   }

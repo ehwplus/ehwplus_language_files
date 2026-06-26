@@ -3728,6 +3728,21 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Bitte geben Sie Ihre WV-Zählernummer mit exakt 6 Ziffern und Ihre Kundennummer ein.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Bitte $value eintragen';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value ist ungültig';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Bitte $value mit $minDigits bis $maxDigits Ziffern eintragen';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Online-Zugriffsanfrage für $supplierName.';
   }

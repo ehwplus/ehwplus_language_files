@@ -3733,6 +3733,21 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
       'La preghiamo di inserire il numero del contatore WV, composto esattamente da 6 cifre, e il Suo numero cliente.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'La preghiamo di inserire $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value non è valido';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'La preghiamo di inserire $value con $minDigits fino a $maxDigits cifre.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Richiesta di accesso online per “$supplierName”.';
   }

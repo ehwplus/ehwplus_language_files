@@ -3708,6 +3708,21 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get accessRequestFlowMissingInput => 'Ange ditt WV-mätarnummer med exakt 6 siffror samt ditt kundnummer.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Ange $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value är ogiltigt';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Ange $value med $minDigits till $maxDigits siffror.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Begäran om onlineåtkomst till ”$supplierName”.';
   }

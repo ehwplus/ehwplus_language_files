@@ -3719,6 +3719,21 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Vnesite številko merilnika WV, ki mora imeti natanko 6 številk, ter svojo številko stranke.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Vnesite $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value je neveljaven';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Vnesite $value z $minDigits do $maxDigits številk.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Spletna zahteva za dostop do publikacije »$supplierName«.';
   }

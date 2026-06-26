@@ -3714,6 +3714,21 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Vui lòng nhập số đồng hồ WV gồm chính xác 6 chữ số và số khách hàng của quý vị.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Vui lòng nhập $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value là không hợp lệ';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Vui lòng nhập địa chỉ $value với $minDigits đến $maxDigits chữ số.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Yêu cầu truy cập trực tuyến đối với cuốn sách “$supplierName”.';
   }

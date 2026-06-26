@@ -3708,6 +3708,21 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'कृपया अपना WV मीटर नंबर ठीक 6 अंकों के साथ और अपना ग्राहक नंबर दर्ज करें।';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'कृपया $value दर्ज करें।';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value अमान्य है';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'कृपया $value दर्ज करें, $minDigits के साथ $maxDigits अंकों तक।';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return '$supplierName के लिए ऑनलाइन पहुँच अनुरोध।';
   }

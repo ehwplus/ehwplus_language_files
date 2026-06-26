@@ -3706,6 +3706,21 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'Palun sisestage oma WV-arvesti number (täpselt 6 numbrit) ja oma kliendinumber.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Palun sisestage $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value on kehtetu';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Palun sisestage $value koos $minDigits kuni $maxDigits numbriga.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Veebipõhine juurdepääsutaotlus raamatule „$supplierName”.';
   }

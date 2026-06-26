@@ -3720,6 +3720,21 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get accessRequestFlowMissingInput => 'Molimo unesite broj WV mjerača s točno 6 znamenaka i svoj broj kupca.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Molimo unesite $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value je nevažeći';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Molimo unesite $value s $minDigits na $maxDigits znamenki.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Zahtjev za online pristup za $supplierName.';
   }

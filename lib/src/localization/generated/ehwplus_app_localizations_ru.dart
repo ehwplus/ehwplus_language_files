@@ -3752,6 +3752,21 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Пожалуйста, введите номер вашего счетчика WV, состоящий ровно из 6 цифр, а также ваш номер клиента.';
 
   @override
+  String accessRequestFlowRequiredInput(String value) {
+    return 'Пожалуйста, введите $value.';
+  }
+
+  @override
+  String accessRequestFlowInvalidInput(String value) {
+    return '$value неверно';
+  }
+
+  @override
+  String accessRequestFlowDigitRangeInput(String value, int minDigits, int maxDigits) {
+    return 'Пожалуйста, введите $value с $minDigits до $maxDigits цифр.';
+  }
+
+  @override
   String accessRequestFlowOnlineOnlyDescription(String supplierName) {
     return 'Запрос на предоставление онлайн-доступа к журналу «$supplierName».';
   }
