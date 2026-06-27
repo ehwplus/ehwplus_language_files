@@ -817,6 +817,24 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get contracts => 'Sutartys';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'atitinka';
 
   @override
@@ -1030,25 +1048,25 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Pagamintai ir tiekiamai elektros energijai registruoti naudokite elektros tiekimo skaitiklį\nsu fotovoltine sistema. Gautos pajamos kompensuojamos iš išlaidų\npaimta elektra.';
 
   @override
-  String get counterQrCode => 'QR kodas';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Prašome nuskaityti QR kodą!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Nerastas šiam QR kodui tinkamas skaitiklis!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'QR kodas neįkeltas';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Nuskaityti QR kodą';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Nuskaitykite QR kodą, priskirtą skaitikliui!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Nuskaityti QR kodą';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'Įkeltas QR kodas';
@@ -1827,6 +1845,9 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Dar nesukūrėte skaitiklio.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'Kambarių dar nėra.Kambariai pagalbiniai grupiniai matuokliai.';

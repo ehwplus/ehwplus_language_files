@@ -827,6 +827,24 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get contracts => 'Контракты';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'соответствует';
 
   @override
@@ -1041,25 +1059,25 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
       'Используйте счетчик электроэнергии для отслеживания электроэнергии, вырабатываемой и подаваемой в сеть фотоэлектрической системой.';
 
   @override
-  String get counterQrCode => 'QR-код';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Пожалуйста, отсканируйте QR-код!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Не найден подходящий счетчик для этого QR-кода!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'QR-код не указан';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Отсканируйте QR-код';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Отсканируйте QR-код, привязанный к счетчику!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Отсканируйте QR-код';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR-код сохранен';
@@ -1834,6 +1852,9 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Ты еще не создал счетчики.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'Нет комнат';

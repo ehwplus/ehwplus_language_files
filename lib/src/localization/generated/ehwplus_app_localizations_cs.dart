@@ -814,6 +814,24 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get contracts => 'Smlouvy';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'odpovídá';
 
   @override
@@ -1026,25 +1044,25 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Pro záznam vyrobené a dodané elektřiny použijte elektroměr\ns fotovoltaickým systémem. Výsledný výnos je kompenzován náklady na\nodebraná elektřina.';
 
   @override
-  String get counterQrCode => 'QR kód';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Naskenujte prosím QR kód!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Pro tento QR kód nebyl nalezen žádný odpovídající čítač!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'QR kód není uložen';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Naskenujte QR kód';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Naskenujte QR kód přiřazený k danému měřiči!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Naskenujte QR kód';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR kód je uložen';
@@ -1822,6 +1840,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Ještě jste nevytvořili počítadlo.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'Zatím žádné pokoje. Místnosti pomáhají skupinovým měřičům.';

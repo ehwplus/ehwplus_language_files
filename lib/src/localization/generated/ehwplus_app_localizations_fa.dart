@@ -814,6 +814,24 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get contracts => 'قراردادها';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'معادل است با';
 
   @override
@@ -1026,25 +1044,25 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
       'از یک کنتور ورودی برای ثبت برق تولید و تزریق‌شده توسط سیستم فتوولتائیک استفاده کنید. درآمد حاصل از تزریق برق، هزینه برق مصرفی را جبران می‌کند.';
 
   @override
-  String get counterQrCode => 'کد QR';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'لطفاً یک کد QR را اسکن کنید!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'هیچ کیوسکی برای این کد QR یافت نشد!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'هیچ کد QR ذخیره نشده است';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'کد QR را اسکن کنید';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'کد QR مربوط به کنتور را اسکن کنید!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'کد QR را اسکن کنید';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'کد QR ارائه شده';
@@ -1818,6 +1836,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'شما هنوز شمارنده ای ایجاد نکرده اید.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'هنوز اتاقی وجود ندارد. اتاق‌ها به شمارنده‌های گروهی کمک می‌کنند.';

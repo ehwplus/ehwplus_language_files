@@ -819,6 +819,24 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get contracts => 'စာချုပ်များ';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'ကိုက်ညီ';
 
   @override
@@ -1032,25 +1050,25 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'လျှပ်စစ်ဓာတ်အားထုတ်လုပ်ပြီးကျွေးမွေးသောလျှပ်စစ်ဓာတ်အားကိုမှတ်တမ်းတင်ရန်လျှပ်စစ်ဓာတ်အားဖြည့်စွက်ထားသောမီတာကိုသုံးပါ\nphotovoltaic စနစ်နှင့်အတူ။ ရရှိလာတဲ့ဝင်ငွေသည်ကုန်ကျစရိတ်ကိုဆန့်ကျင်သည်\nလျှပ်စစ်ဓာတ်အား။';
 
   @override
-  String get counterQrCode => 'QR ကုဒ်';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'QR ကုဒ်ကို စကင်ပေးပါ!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'ဤ QR ကုဒ်နှင့် ကိုက်ညီသော ကောင်တာ မတွေ့ပါ။';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'QR ကုဒ် မည်မျှမှ မသိမ်းဆည်းထားပါ။';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'QR ကုဒ်ကို စကင်ပါ။';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'မီတာနှင့်ဆက်စပ်ထားသော QR ကုဒ်ကို စကင်ပါ။';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'QR ကုဒ်ကို စကင်ပါ';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR ကုဒ် ပေးထားသည်။';
@@ -1829,6 +1847,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'မင်းကကောင်တာကိုမဖန်တီးသေးဘူး';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'အခန်းများမရှိသေးပါ။ အခန်းများသည်အုပ်စုမီတာကိုကူညီပါ။';

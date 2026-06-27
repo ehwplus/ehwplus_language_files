@@ -812,6 +812,24 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get contracts => 'العقود';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'يتوافق';
 
   @override
@@ -1024,25 +1042,25 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       '\nاستخدم عداد إدخال الكهرباء لتسجيل الكهرباء المُولدة والمُدخلة\nمع نظام الطاقة الشمسية. يتم تعويض الإيرادات الناتجة مقابل تكلفة\nالكهرباء المسحوبة.';
 
   @override
-  String get counterQrCode => 'رمز الاستجابة السريعة';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'يرجى مسح رمز الاستجابة السريعة!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'لم يتم العثور على عداد مناسب لهذا الرمز الاستجابة السريعة!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'لم يتم تسجيل أي رمز QR';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'مسح رمز الاستجابة السريعة';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'امسح رمز الاستجابة السريعة المرتبط بعداد ما!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'مسح رمز الاستجابة السريعة';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'رمز الاستجابة السريعة مسجل';
@@ -1816,6 +1834,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'لم تقم بإنشاء عداد بعد.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'لا توجد غرف بعد. تساعد الغرف في تجميع العدادات.';

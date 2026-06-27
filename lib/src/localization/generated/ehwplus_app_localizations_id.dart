@@ -820,6 +820,24 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get contracts => 'Kontrak';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'sesuai';
 
   @override
@@ -1032,25 +1050,25 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
       'Gunakan meteran listrik untuk mencatat listrik yang dihasilkan dan disalurkan\ndengan sistem fotovoltaik. Pendapatan yang dihasilkan diimbangi dengan biaya\nlistrik yang diambil.';
 
   @override
-  String get counterQrCode => 'Kode QR';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Silakan pindai kode QR ini!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Tidak ditemukan pemindai yang sesuai untuk kode QR ini!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'Tidak ada kode QR yang disimpan';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Pindai kode QR';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Pindai kode QR yang terhubung dengan meteran tersebut!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Pindai kode QR';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'Kode QR telah disimpan';
@@ -1828,6 +1846,9 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Anda belum membuat penghitung.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'Belum ada kamar. Kamar membantu kelompok pengukur.';

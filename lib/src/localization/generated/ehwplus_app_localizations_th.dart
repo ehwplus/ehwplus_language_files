@@ -812,6 +812,24 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get contracts => 'สัญญา';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'สอดคล้องกัน';
 
   @override
@@ -1024,25 +1042,25 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ใช้มิเตอร์ไฟฟ้าป้อนเข้าเพื่อบันทึกไฟฟ้าที่ผลิตและป้อนเข้า\nด้วยระบบไฟฟ้าโซลาร์เซลล์ รายได้ที่ได้จะถูกหักล้างกับต้นทุนของ\nไฟฟ้าที่ถูกดึงออกมา';
 
   @override
-  String get counterQrCode => 'รหัสคิวอาร์';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'กรุณาสแกนคิวอาร์โค้ด!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'ไม่พบข้อมูลที่ตรงกันสำหรับ QR code นี้!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'ไม่มี QR โค้ดถูกบันทึกไว้';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'สแกนคิวอาร์โค้ด';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'สแกน QR code ที่เกี่ยวข้องกับมิเตอร์!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'สแกนคิวอาร์โค้ด';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR code ให้ไว้';
@@ -1816,6 +1834,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'คุณยังไม่ได้สร้างตัวนับ';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'ยังไม่มีห้อง. ห้องช่วยจัดกลุ่มมิเตอร์';

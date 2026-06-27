@@ -815,6 +815,24 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get contracts => 'Kontrakt';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'motsvarar';
 
   @override
@@ -1027,25 +1045,25 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
       'Använd en elinmatningsmätare för att registrera den el som genereras och matas in\nmed ett solcellssystem. De resulterande intäkterna kvittas mot kostnaden för\nelen som dras.';
 
   @override
-  String get counterQrCode => 'QR-kod';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Skanna en QR-kod!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Ingen passande räknare hittades för denna QR-kod!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'Ingen QR-kod har lagrats';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Skanna QR-koden';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Skanna QR-koden som är kopplad till en mätare!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Skanna QR-koden';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR-kod lagrad';
@@ -1820,6 +1838,9 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Du har ännu inte skapat en räknare.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'Inga rum ännu. Rum hjälper gruppmätare.';

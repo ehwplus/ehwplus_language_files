@@ -797,6 +797,24 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get contracts => '契約';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => '対応する';
 
   @override
@@ -1008,25 +1026,25 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
       '電力供給メーターを使用して、発電および供給された電力を記録します。\n太陽光発電システム付き。結果として生じる収益は、次のコストと相殺されます。\n引かれた電気。';
 
   @override
-  String get counterQrCode => 'QRコード';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'QRコードをスキャンしてください！';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'このQRコードに対応するカウンターが見つかりませんでした！';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'QRコードが登録されていません';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'QRコードをスキャンしてください';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'メーターに割り当てられたQRコードをスキャンしてください！';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'QRコードをスキャンしてください';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QRコードが登録されています';
@@ -1787,6 +1805,9 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'まだカウンターを作成していません。';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'まだ部屋がありません。部屋はグループメーターに役立ちます。';

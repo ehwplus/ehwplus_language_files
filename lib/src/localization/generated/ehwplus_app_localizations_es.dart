@@ -816,6 +816,24 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   String get contracts => 'Contratos';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'corresponde a';
 
   @override
@@ -1029,25 +1047,25 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
       'Utilice un contador de electricidad para controlar la electricidad generada y vertida a la red por un sistema fotovoltaico.';
 
   @override
-  String get counterQrCode => 'Código QR';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => '¡Por favor, escanee un código QR!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => '¡No se ha encontrado ningún contador adecuado para este código QR!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'No hay ningún código QR almacenado';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Escanear el código QR';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => '¡Escanee el código QR asociado a un contador!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Escanear el código QR';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'Código QR incluido';
@@ -1829,6 +1847,9 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Todavía no has creado ningún contador.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'No hay habitaciones';

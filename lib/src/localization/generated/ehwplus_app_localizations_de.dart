@@ -1048,25 +1048,25 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Nutzen Sie einen Stromeinspeiszähler, um den mit einer Photovoltaikanlage erzeugten und eingespeisten Strom zu erfassen. Die dadurch entstandenen Einnahmen werden mit den Kosten für den entnommenen Strom verrechnet. \n\nErfassen Sie die Leistung eines Sonnenwärmekollektors/Röhrenkollektors für Wassererhitzung.';
 
   @override
-  String get counterQrCode => 'QR-Code';
+  String get counterQrCode => 'QR-Code/Barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Bitte scannen Sie einen QR-Code!';
+  String get counterQrCodeInvalid => 'Bitte scannen Sie einen QR-Code/Barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Kein passender Zähler für diesen QR-Code gefunden!';
+  String get counterQrCodeNotFound => 'Kein passender Zähler für diesen QR-Code/Barcode gefunden!';
 
   @override
-  String get counterQrCodeNotStored => 'Kein QR-Code hinterlegt';
+  String get counterQrCodeNotStored => 'Kein QR-Code/Barcode hinterlegt';
 
   @override
-  String get counterQrCodeScan => 'QR-Code scannen';
+  String get counterQrCodeScan => 'QR-Code/Barcode scannen';
 
   @override
-  String get counterQrCodeScanHint => 'Scannen Sie den QR-Code, der einem Zähler zugeordnet ist!';
+  String get counterQrCodeScanHint => 'Scannen Sie den QR-Code/Barcode, der einem Zähler zugeordnet ist!';
 
   @override
-  String get counterQrCodeScanTitle => 'QR-Code scannen';
+  String get counterQrCodeScanTitle => 'QR-Code/Barcode scannen';
 
   @override
   String get counterQrCodeStored => 'QR-Code hinterlegt';

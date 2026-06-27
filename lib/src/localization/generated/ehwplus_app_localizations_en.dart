@@ -1045,25 +1045,25 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
       '\nUse an electricity feed-in meter to record the electricity generated and fed in\nwith a photovoltaic system. The resulting revenue is offset against the cost of\nthe electricity drawn.';
 
   @override
-  String get counterQrCode => 'QR code';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code has been saved';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Scan the QR code';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code associated with a meter!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan the QR code';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR code provided';

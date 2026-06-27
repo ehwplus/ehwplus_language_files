@@ -818,6 +818,24 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get contracts => 'Lepingud';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'vastab';
 
   @override
@@ -1030,25 +1048,25 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       '\nKasuta elektri võrku andmise arvestit, et salvestada fotogalvaanilise süsteemi toodetud ja võrku antud elektrit. Saadud tulu tasaarvestatakse ostetud elektri kuludega.';
 
   @override
-  String get counterQrCode => 'QR-kood';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Palun skannige QR-kood!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Selle QR-koodi jaoks ei leitud sobivat arvestit!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'QR-koodi pole salvestatud';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'Skanni QR-kood';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Skannige arvestiga seotud QR-koodi!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'Skanni QR-kood';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR-kood on salvestatud';
@@ -1823,6 +1841,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Sa pole veel ühtegi arvestit loonud.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'Ruumid puuduvad. Ruumid aitavad arvestid rühmitada.';

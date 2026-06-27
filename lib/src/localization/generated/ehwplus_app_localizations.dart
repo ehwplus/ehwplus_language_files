@@ -1521,37 +1521,37 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'Consumption point'**
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint;
 
   /// No description provided for @consumptionPointDeleteConfirm.
   ///
   /// In en, this message translates to:
   /// **'Delete consumption point?'**
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm;
 
   /// No description provided for @consumptionPointIdentifier.
   ///
   /// In en, this message translates to:
   /// **'Consumption point ID'**
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier;
 
   /// No description provided for @consumptionPointIdentifierMissing.
   ///
   /// In en, this message translates to:
   /// **'No ID stored'**
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing;
 
   /// No description provided for @consumptionPointType.
   ///
   /// In en, this message translates to:
   /// **'Consumption point type'**
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType;
 
   /// No description provided for @consumptionPoints.
   ///
   /// In en, this message translates to:
   /// **'Consumption points'**
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints;
 
   /// No description provided for @corresponds.
   ///
@@ -1952,43 +1952,43 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @counterQrCode.
   ///
   /// In en, this message translates to:
-  /// **'QR code'**
+  /// **'QR code/barcode'**
   String get counterQrCode;
 
   /// No description provided for @counterQrCodeInvalid.
   ///
   /// In en, this message translates to:
-  /// **'Please scan a QR code!'**
+  /// **'Please scan a QR code/barcode!'**
   String get counterQrCodeInvalid;
 
   /// No description provided for @counterQrCodeNotFound.
   ///
   /// In en, this message translates to:
-  /// **'No matching counter found for this QR code!'**
+  /// **'No matching counter found for this QR code/barcode!'**
   String get counterQrCodeNotFound;
 
   /// No description provided for @counterQrCodeNotStored.
   ///
   /// In en, this message translates to:
-  /// **'No QR code has been saved'**
+  /// **'No QR code/barcode has been saved'**
   String get counterQrCodeNotStored;
 
   /// No description provided for @counterQrCodeScan.
   ///
   /// In en, this message translates to:
-  /// **'Scan the QR code'**
+  /// **'Scan QR code/barcode'**
   String get counterQrCodeScan;
 
   /// No description provided for @counterQrCodeScanHint.
   ///
   /// In en, this message translates to:
-  /// **'Scan the QR code associated with a meter!'**
+  /// **'Scan the QR code/barcode associated with a meter!'**
   String get counterQrCodeScanHint;
 
   /// No description provided for @counterQrCodeScanTitle.
   ///
   /// In en, this message translates to:
-  /// **'Scan the QR code'**
+  /// **'Scan QR code/barcode'**
   String get counterQrCodeScanTitle;
 
   /// No description provided for @counterQrCodeStored.
@@ -3375,7 +3375,7 @@ abstract class EhwplusAppLocalizations {
   ///
   /// In en, this message translates to:
   /// **'No consumption points have been created yet.'**
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints;
 
   /// No description provided for @messageNoRooms.
   ///

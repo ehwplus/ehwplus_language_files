@@ -818,6 +818,24 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get contracts => 'Sözleşmeler';
 
   @override
+  String get consumptionPoint => 'Consumption point';
+
+  @override
+  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+
+  @override
+  String get consumptionPointIdentifier => 'Consumption point ID';
+
+  @override
+  String get consumptionPointIdentifierMissing => 'No ID stored';
+
+  @override
+  String get consumptionPointType => 'Consumption point type';
+
+  @override
+  String get consumptionPoints => 'Consumption points';
+
+  @override
   String get corresponds => 'karşılık gelir';
 
   @override
@@ -1030,25 +1048,25 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Üretilen ve beslenen elektriği kaydetmek için bir elektrik besleme sayacı kullanın\nfotovoltaik sistem ile. Ortaya çıkan gelir, maliyetten mahsup edilir.\nçekilen elektrik.';
 
   @override
-  String get counterQrCode => 'QR kodu';
+  String get counterQrCode => 'QR code/barcode';
 
   @override
-  String get counterQrCodeInvalid => 'Lütfen bir QR kodunu tarayın!';
+  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
 
   @override
-  String get counterQrCodeNotFound => 'Bu QR kodu için uygun bir sayaç bulunamadı!';
+  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
 
   @override
-  String get counterQrCodeNotStored => 'QR kodu kaydedilmemiş';
+  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
 
   @override
-  String get counterQrCodeScan => 'QR kodunu tarayın';
+  String get counterQrCodeScan => 'Scan QR code/barcode';
 
   @override
-  String get counterQrCodeScanHint => 'Sayaçla eşleştirilmiş QR kodunu tarayın!';
+  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
 
   @override
-  String get counterQrCodeScanTitle => 'QR kodunu tarayın';
+  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
 
   @override
   String get counterQrCodeStored => 'QR kodu kaydedildi';
@@ -1825,6 +1843,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get messageNoCounters => 'Henüz bir sayaç oluşturmadınız.';
+
+  @override
+  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
 
   @override
   String get messageNoRooms => 'Henüz oda yok. Odalar grup ölçümlerine yardımcı olur.';
