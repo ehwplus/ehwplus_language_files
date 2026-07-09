@@ -512,7 +512,11 @@ class _ArbOverviewPageState extends State<ArbOverviewPage> {
             });
           }
           try {
-            final translated = await service.translate(text: sourceText, targetLang: locale, sourceLang: sourceLocale);
+            final translated = await service.translate(
+              text: sourceText,
+              targetLang: LocaleClass.fromString(locale),
+              sourceLang: LocaleClass.fromString(sourceLocale),
+            );
             await _saveTranslation(record.key, locale, translated);
             didTranslate = true;
             if (mounted) {

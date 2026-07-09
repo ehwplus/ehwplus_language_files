@@ -292,7 +292,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
     try {
       final doNotTranslateTerms = await widget.repository.loadDoNotTranslateTerms();
       service = DeepLTranslationService(apiKey: apiKey, doNotTranslateTerms: doNotTranslateTerms);
-      final translated = await service.translate(text: sourceText, targetLang: targetLocale, sourceLang: sourceLocale);
+      final translated = await service.translate(text: sourceText, targetLang: LocaleClass.fromString(targetLocale), sourceLang: LocaleClass.fromString(sourceLocale));
 
       if (!mounted) return;
       setState(() {
@@ -382,7 +382,7 @@ class _TranslationDetailPageState extends State<TranslationDetailPage> {
               _statusMessage = l10n.translatingLocaleProgress(locale.toUpperCase(), _batchDone + 1, _batchTotal);
             });
           }
-          final translated = await service.translate(text: sourceText, targetLang: locale, sourceLang: sourceLocale);
+          final translated = await service.translate(text: sourceText, targetLang: LocaleClass.fromString(locale), sourceLang: LocaleClass.fromString(sourceLocale));
 
           if (!mounted) return;
           setState(() {

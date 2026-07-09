@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:ehwplus_language_files/ehwplus_language_files.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
@@ -27,7 +28,7 @@ class DeepLTranslationService {
 
   bool get hasApiKey => _apiKey.isNotEmpty;
 
-  Future<String> translate({required String text, required String targetLang, String? sourceLang}) async {
+  Future<String> translate({required String text, required LocaleClass targetLang, LocaleClass? sourceLang}) async {
     if (_apiKey.isEmpty) {
       throw StateError('DeepL API key is missing (DEEPL_AUTH_KEY).');
     }
@@ -35,7 +36,7 @@ class DeepLTranslationService {
     return _translateMessage(text, targetLang: targetLang, sourceLang: sourceLang);
   }
 
-  Future<String> _translateMessage(String text, {required String targetLang, String? sourceLang}) async {
+  Future<String> _translateMessage(String text, {required LocaleClass targetLang, LocaleClass? sourceLang}) async {
     final buffer = StringBuffer();
     final literalBuffer = StringBuffer();
 
@@ -87,7 +88,7 @@ class DeepLTranslationService {
     return buffer.toString();
   }
 
-  Future<String> _translateIcuBlock(_IcuBlock block, {required String targetLang, String? sourceLang}) async {
+  Future<String> _translateIcuBlock(_IcuBlock block, {required LocaleClass targetLang, LocaleClass? sourceLang}) async {
     final optionsBuffer = StringBuffer();
     if (block.offset != null) {
       optionsBuffer.write(block.offset);
@@ -106,7 +107,7 @@ class DeepLTranslationService {
     return '{${block.argument}, ${block.type}, ${optionsBuffer.toString().trim()}}';
   }
 
-  Future<String> _translatePlain(String text, {required String targetLang, String? sourceLang}) async {
+  Future<String> _translatePlain(String text, {required LocaleClass targetLang, LocaleClass? sourceLang}) async {
     final hasPlaceholders = _placeholderRegex.hasMatch(text);
     var taggedText = hasPlaceholders ? _wrapIgnoredTags(text) : text;
     taggedText = _wrapDoNotTranslateTerms(taggedText);
@@ -114,11 +115,11 @@ class DeepLTranslationService {
     final usesTagHandling = hasPlaceholders || hasIgnoredTags;
     final preparedText = usesTagHandling ? _escapeXmlText(taggedText) : taggedText;
     final uri = Uri.parse('$baseUrl/v2/translate');
-    final formality = _resolveFormality(text: text, sourceLang: sourceLang);
+    final formality = _resolveFormality(text: text, targetLang: targetLang, sourceLang: sourceLang?.languageCode);
     final response = await _postTranslateWithBackoff(uri, {
       'text': preparedText,
-      'target_lang': _normalizeLang(targetLang),
-      if (sourceLang != null && sourceLang.trim().isNotEmpty) 'source_lang': _normalizeLang(sourceLang),
+      'target_lang': targetLang.languageCode,
+      if (sourceLang != null && sourceLang.languageCode.trim().isNotEmpty) 'source_lang': sourceLang.languageCode,
       'formality': formality.apiValue,
       if (usesTagHandling) ...{'tag_handling': 'xml', 'ignore_tags': _ignoreTags, 'tag_handling_version': 'v2'},
     });
@@ -147,9 +148,10 @@ class DeepLTranslationService {
     throw StateError('DeepL response did not contain a translation.');
   }
 
-  static String _normalizeLang(String lang) => lang.trim().replaceAll('-', '_').toUpperCase();
-
-  _DeepLFormality _resolveFormality({required String text, String? sourceLang}) {
+  _DeepLFormality _resolveFormality({required String text, required LocaleClass targetLang, String? sourceLang}) {
+    if (targetLang.enforceFormalSalutation) {
+      return _DeepLFormality.formal;
+    }
     return _detectGermanFormality(text: text, sourceLang: sourceLang) ?? _DeepLFormality.formal;
   }
 

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:ehwplus_language_files/ehwplus_language_files.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
@@ -30,8 +31,8 @@ void main() {
 
     final translated = await service.translate(
       text: 'Use EHW+ with Home Assistant and {count}.',
-      targetLang: 'de',
-      sourceLang: 'en',
+      targetLang: LocaleClass.de,
+      sourceLang: LocaleClass.en,
     );
 
     expect(translated, 'Nutze EHW+ mit Home Assistant und {count}.');
@@ -56,7 +57,7 @@ void main() {
     );
     addTearDown(service.close);
 
-    final translated = await service.translate(text: 'Tibberish uses Tibber.', targetLang: 'de', sourceLang: 'en');
+    final translated = await service.translate(text: 'Tibberish uses Tibber.', targetLang: LocaleClass.de, sourceLang: LocaleClass.en);
 
     expect(translated, 'Tibberish nutzt Tibber.');
   });
@@ -79,7 +80,7 @@ void main() {
     );
     addTearDown(service.close);
 
-    await service.translate(text: 'Möchten Sie Ihren Zählerstand speichern?', targetLang: 'fr', sourceLang: 'de');
+    await service.translate(text: 'Möchten Sie Ihren Zählerstand speichern?', targetLang: LocaleClass.fr, sourceLang: LocaleClass.de);
   });
 
   test('sends informal formality for supported target languages when German source uses du', () async {
@@ -91,7 +92,7 @@ void main() {
         return http.Response(
           jsonEncode({
             'translations': [
-              {'text': '¿Quieres guardar la lectura del contador?'},
+              {'text': 'Wil je je meterstand opslaan?'},
             ],
           }),
           200,
@@ -100,7 +101,7 @@ void main() {
     );
     addTearDown(service.close);
 
-    await service.translate(text: 'Möchtest du deinen Zählerstand speichern?', targetLang: 'es', sourceLang: 'de');
+    await service.translate(text: 'Möchtest du deinen Zählerstand speichern?', targetLang: LocaleClass.nl, sourceLang: LocaleClass.de);
   });
 
   test('detects formality per ICU option', () async {
@@ -141,8 +142,8 @@ void main() {
     final translated = await service.translate(
       text:
           '{client, select, campusSearch{} verdi{Bei Widerruf wirst du ausgeloggt.} other{Bei Widerruf werden Sie ausgeloggt.}}',
-      targetLang: 'it',
-      sourceLang: 'de',
+      targetLang: LocaleClass.nl,
+      sourceLang: LocaleClass.de,
     );
 
     expect(requestCount, 2);
@@ -170,7 +171,7 @@ void main() {
     );
     addTearDown(service.close);
 
-    await service.translate(text: 'Zählerstand gespeichert.', targetLang: 'fr', sourceLang: 'de');
+    await service.translate(text: 'Zählerstand gespeichert.', targetLang: LocaleClass.fr, sourceLang: LocaleClass.de);
   });
 
   test(
@@ -193,7 +194,7 @@ void main() {
       );
       addTearDown(service.close);
 
-      await service.translate(text: 'Zählerstand gespeichert.', targetLang: 'hu', sourceLang: 'de');
+      await service.translate(text: 'Zählerstand gespeichert.', targetLang: LocaleClass.da, sourceLang: LocaleClass.de);
     },
   );
 
@@ -215,6 +216,6 @@ void main() {
     );
     addTearDown(service.close);
 
-    await service.translate(text: 'Möchtest du deinen Zählerstand speichern?', targetLang: 'hu', sourceLang: 'de');
+    await service.translate(text: 'Möchtest du deinen Zählerstand speichern?', targetLang: LocaleClass.da, sourceLang: LocaleClass.de);
   });
 }
