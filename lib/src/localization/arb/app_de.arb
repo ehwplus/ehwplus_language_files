@@ -507,6 +507,7 @@
   "goetheDataDonationResetDecisionButton": "Zurückstellen",
   "goetheDataDonationSettingsSubtitle": "Goethe-Research-Datenanfragen verwalten",
   "goetheDataDonationSettingsTitle": "Datenanfragen",
+  "goetheDataDonationSurveyButton": "An der kurzen Umfrage teilnehmen",
   "goetheDataDonationUploadCompleted": "{completed} von {total} Datenanfragen wurden hochgeladen.",
   "@goetheDataDonationUploadCompleted": {
     "placeholders": {

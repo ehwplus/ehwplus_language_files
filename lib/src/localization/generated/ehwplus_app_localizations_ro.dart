@@ -1526,6 +1526,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Solicitări de date';
 
   @override
+  String get goetheDataDonationSurveyButton => 'Take the short survey';
+
+  @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
     return 'Am încărcat $completed din $total cereri de date.';
   }

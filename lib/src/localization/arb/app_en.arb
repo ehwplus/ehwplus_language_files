@@ -684,6 +684,7 @@
   "goetheDataDonationResetDecisionButton": "Mark as pending",
   "goetheDataDonationSettingsSubtitle": "Manage Goethe research data requests",
   "goetheDataDonationSettingsTitle": "Data requests",
+  "goetheDataDonationSurveyButton": "Take the short survey",
   "goetheDataDonationUploadCompleted": "Uploaded {completed} of {total} data requests.",
   "@goetheDataDonationUploadCompleted": {
     "placeholders": {

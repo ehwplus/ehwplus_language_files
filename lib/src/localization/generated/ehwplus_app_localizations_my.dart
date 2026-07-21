@@ -1529,6 +1529,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'ဒေတာတောင်းဆိုချက်များ';
 
   @override
+  String get goetheDataDonationSurveyButton => 'Take the short survey';
+
+  @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
     return '$total ဒေတာ တောင်းဆိုချက်များအတွက် $completed ကို တင်သွင်းခဲ့သည်။';
   }

@@ -2819,6 +2819,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Data requests'**
   String get goetheDataDonationSettingsTitle;
 
+  /// No description provided for @goetheDataDonationSurveyButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Take the short survey'**
+  String get goetheDataDonationSurveyButton;
+
   /// No description provided for @goetheDataDonationUploadCompleted.
   ///
   /// In en, this message translates to:

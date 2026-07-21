@@ -1518,6 +1518,9 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'درخواست‌های داده';
 
   @override
+  String get goetheDataDonationSurveyButton => 'Take the short survey';
+
+  @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
     return 'بارگذاری شد $completed از $total درخواست‌های داده.';
   }

@@ -1496,6 +1496,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => '데이터 요청';
 
   @override
+  String get goetheDataDonationSurveyButton => 'Take the short survey';
+
+  @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
     return '$total 데이터 요청 중 $completed를 업로드했습니다.';
   }
