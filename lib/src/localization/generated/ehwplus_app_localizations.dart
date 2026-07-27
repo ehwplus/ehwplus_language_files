@@ -3875,6 +3875,36 @@ abstract class EhwplusAppLocalizations {
   /// **'Privacy policy'**
   String get privacyTitle;
 
+  /// No description provided for @powerfoxConnectButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect to Powerfox'**
+  String get powerfoxConnectButton;
+
+  /// No description provided for @powerfoxDeviceConnectFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Powerfox device could not be connected.'**
+  String get powerfoxDeviceConnectFailed;
+
+  /// No description provided for @powerfoxDeviceConnected.
+  ///
+  /// In en, this message translates to:
+  /// **'Powerfox device connected'**
+  String get powerfoxDeviceConnected;
+
+  /// No description provided for @powerfoxDeviceLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Powerfox device'**
+  String get powerfoxDeviceLabel;
+
+  /// No description provided for @powerfoxDeviceMissing.
+  ///
+  /// In en, this message translates to:
+  /// **'Powerfox device missing.'**
+  String get powerfoxDeviceMissing;
+
   /// No description provided for @powerfoxDivisionColdAndWarmWater.
   ///
   /// In en, this message translates to:
@@ -3892,6 +3922,24 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Unknown'**
   String get powerfoxDivisionUnknown;
+
+  /// No description provided for @powerfoxNoDevicesFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No Powerfox devices found'**
+  String get powerfoxNoDevicesFound;
+
+  /// No description provided for @powerfoxReadingsLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Powerfox readings could not be loaded.'**
+  String get powerfoxReadingsLoadFailed;
+
+  /// No description provided for @powerfoxRefreshDevicesTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Refresh Powerfox devices'**
+  String get powerfoxRefreshDevicesTooltip;
 
   /// No description provided for @purchasesBuyNow.
   ///

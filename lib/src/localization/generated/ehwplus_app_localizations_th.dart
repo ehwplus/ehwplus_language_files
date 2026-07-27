@@ -2151,6 +2151,21 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get privacyTitle => 'นโยบายความเป็นส่วนตัว';
 
   @override
+  String get powerfoxConnectButton => 'เชื่อมต่อกับ Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'ไม่สามารถเชื่อมต่ออุปกรณ์ Powerfox ได้';
+
+  @override
+  String get powerfoxDeviceConnected => 'อุปกรณ์ Powerfox ได้เชื่อมต่อแล้ว';
+
+  @override
+  String get powerfoxDeviceLabel => 'อุปกรณ์ Powerfox';
+
+  @override
+  String get powerfoxDeviceMissing => 'อุปกรณ์ Powerfox ไม่พบ';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'น้ำเย็นและน้ำอุ่น';
 
   @override
@@ -2158,6 +2173,15 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'ไม่ทราบ';
+
+  @override
+  String get powerfoxNoDevicesFound => 'ไม่พบอุปกรณ์ Powerfox ใดทั้งสิ้น';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'ไม่สามารถโหลดข้อมูลการวัดจาก Powerfox ได้';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'รีเฟรชอุปกรณ์ Powerfox';
 
   @override
   String get purchasesBuyNow => 'ซื้อตอนนี้';

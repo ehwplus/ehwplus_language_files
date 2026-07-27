@@ -2162,6 +2162,21 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get privacyTitle => 'Privatumo politika';
 
   @override
+  String get powerfoxConnectButton => 'Prisijunkite prie „Powerfox“';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Nepavyko prijungti „Powerfox“ įrenginio.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Prijungtas „Powerfox“ įrenginys';
+
+  @override
+  String get powerfoxDeviceLabel => '„Powerfox“ įrenginys';
+
+  @override
+  String get powerfoxDeviceMissing => 'Trūksta „Powerfox“ įrenginio.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Šaltas ir šiltas vanduo';
 
   @override
@@ -2169,6 +2184,15 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Nežinoma';
+
+  @override
+  String get powerfoxNoDevicesFound => '„Powerfox“ įrenginių nerasta';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Nepavyko įkelti „Powerfox“ rodmenų.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Atnaujinti „Powerfox“ įrenginius';
 
   @override
   String get purchasesBuyNow => 'Pirkti dabar';

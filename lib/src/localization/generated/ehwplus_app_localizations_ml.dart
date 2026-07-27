@@ -2166,6 +2166,21 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get privacyTitle => 'സ്വകാര്യതാ നയം';
 
   @override
+  String get powerfoxConnectButton => 'പവർഫോക്സുമായി ബന്ധിപ്പിക്കുക';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'പവർഫോക്സ് ഉപകരണം ബന്ധിപ്പിക്കാൻ കഴിഞ്ഞില്ല.';
+
+  @override
+  String get powerfoxDeviceConnected => 'പവർഫോക്സ് ഉപകരണം കണക്ട് ചെയ്തു';
+
+  @override
+  String get powerfoxDeviceLabel => 'പവർഫോക്സ് ഉപകരണം';
+
+  @override
+  String get powerfoxDeviceMissing => 'പവർഫോക്സ് ഉപകരണം കാണാനില്ല.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'തണുത്തതും ചൂടുള്ളതുമായ വെള്ളം';
 
   @override
@@ -2173,6 +2188,15 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'അജ്ഞാതം';
+
+  @override
+  String get powerfoxNoDevicesFound => 'പവർഫോക്സ് ഉപകരണങ്ങൾ ഒന്നും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'പവർഫോക്സ് റീഡിംഗുകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'പവർഫോക്സ് ഉപകരണങ്ങൾ പുതുക്കുക';
 
   @override
   String get purchasesBuyNow => 'ഇപ്പോൾ വാങ്ങുക';

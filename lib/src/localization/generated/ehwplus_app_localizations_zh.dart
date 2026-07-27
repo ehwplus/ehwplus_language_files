@@ -2101,6 +2101,21 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get privacyTitle => '隐私政策';
 
   @override
+  String get powerfoxConnectButton => '连接到 Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => '无法连接 Powerfox 设备。';
+
+  @override
+  String get powerfoxDeviceConnected => '已连接 Powerfox 设备';
+
+  @override
+  String get powerfoxDeviceLabel => 'Powerfox 设备';
+
+  @override
+  String get powerfoxDeviceMissing => 'Powerfox 设备丢失。';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => '冷水和热水';
 
   @override
@@ -2108,6 +2123,15 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => '未知';
+
+  @override
+  String get powerfoxNoDevicesFound => '未找到任何 Powerfox 设备';
+
+  @override
+  String get powerfoxReadingsLoadFailed => '无法加载 Powerfox 的读数。';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => '刷新 Powerfox 设备';
 
   @override
   String get purchasesBuyNow => '立即购买';

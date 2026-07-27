@@ -2162,6 +2162,21 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get privacyTitle => 'Politika privatnosti';
 
   @override
+  String get powerfoxConnectButton => 'Poveži se na Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Powerfox uređaj nije mogao biti povezan.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Powerfox uređaj je povezan';
+
+  @override
+  String get powerfoxDeviceLabel => 'Powerfox uređaj';
+
+  @override
+  String get powerfoxDeviceMissing => 'Powerfox uređaj nedostaje.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Hladna i topla voda';
 
   @override
@@ -2169,6 +2184,15 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Neznano';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Nijedan Powerfox uređaj nije pronađen';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Powerfox očitanja nisu mogla biti učitana.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Osvježite Powerfox uređaje';
 
   @override
   String get purchasesBuyNow => 'Kupite sada';

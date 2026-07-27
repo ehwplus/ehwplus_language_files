@@ -2165,6 +2165,21 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get privacyTitle => 'ကိုယ်ရေးအချက်အလက်မူဝါဒ';
 
   @override
+  String get powerfoxConnectButton => 'Powerfox သို့ ချိတ်ဆက်ပါ။';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Powerfox စက်ကို ချိတ်ဆက်၍ မရနိုင်ပါ။';
+
+  @override
+  String get powerfoxDeviceConnected => 'Powerfox စက် ချိတ်ဆက်ထားသည်။';
+
+  @override
+  String get powerfoxDeviceLabel => 'Powerfox စက်';
+
+  @override
+  String get powerfoxDeviceMissing => 'Powerfox ကိရိယာ မတွေ့ပါ။';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'အေးသောရေနှင့်ပူသောရေ';
 
   @override
@@ -2172,6 +2187,15 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'မသိသော';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Powerfox စက်ပစ္စည်း မတွေ့ပါ။';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Powerfox ဖတ်ချက်များကို တင်၍ မရနိုင်ခဲ့ပါ။';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Powerfox စက်ပစ္စည်းများကို ပြန်လည်အသစ်ပြုလုပ်ပါ။';
 
   @override
   String get purchasesBuyNow => 'အခုဝယ်ပါ';

@@ -2172,6 +2172,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get privacyTitle => 'Πολιτική απορρήτου';
 
   @override
+  String get powerfoxConnectButton => 'Σύνδεση με το Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Δεν ήταν δυνατή η σύνδεση της συσκευής Powerfox.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Η συσκευή Powerfox είναι συνδεδεμένη';
+
+  @override
+  String get powerfoxDeviceLabel => 'Συσκευή Powerfox';
+
+  @override
+  String get powerfoxDeviceMissing => 'Η συσκευή Powerfox λείπει.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Κρύο και ζεστό νερό';
 
   @override
@@ -2179,6 +2194,15 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Άγνωστο';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Δεν εντοπίστηκαν συσκευές Powerfox';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Δεν ήταν δυνατή η φόρτωση των μετρήσεων του Powerfox.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Επανεκκίνηση συσκευών Powerfox';
 
   @override
   String get purchasesBuyNow => 'Αγοράστε τώρα';

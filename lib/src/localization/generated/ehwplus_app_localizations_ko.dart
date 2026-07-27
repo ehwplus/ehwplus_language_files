@@ -2121,6 +2121,21 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get privacyTitle => '개인정보 처리방침';
 
   @override
+  String get powerfoxConnectButton => 'Powerfox에 연결하기';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Powerfox 기기를 연결할 수 없습니다.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Powerfox 기기 연결됨';
+
+  @override
+  String get powerfoxDeviceLabel => 'Powerfox 기기';
+
+  @override
+  String get powerfoxDeviceMissing => 'Powerfox 장치가 없습니다.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => '찬물과 따뜻한 물';
 
   @override
@@ -2128,6 +2143,15 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => '알 수 없음';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Powerfox 기기가 발견되지 않았습니다.';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Powerfox 측정값을 불러올 수 없습니다.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Powerfox 기기 새로 고침';
 
   @override
   String get purchasesBuyNow => '지금 구매';

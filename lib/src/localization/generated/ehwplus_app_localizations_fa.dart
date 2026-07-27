@@ -2153,6 +2153,21 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get privacyTitle => 'سیاست حفظ حریم خصوصی';
 
   @override
+  String get powerfoxConnectButton => 'اتصال به پاورفاکس';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'دستگاه Powerfox متصل نشد.';
+
+  @override
+  String get powerfoxDeviceConnected => 'دستگاه Powerfox متصل شد';
+
+  @override
+  String get powerfoxDeviceLabel => 'دستگاه پاورفاکس';
+
+  @override
+  String get powerfoxDeviceMissing => 'دستگاه Powerfox پیدا نشد.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'آب سرد و گرم';
 
   @override
@@ -2160,6 +2175,15 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'نامشخص';
+
+  @override
+  String get powerfoxNoDevicesFound => 'هیچ دستگاه Powerfox یافت نشد';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'خوانش‌های Powerfox بارگذاری نشدند.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'تازه کردن دستگاه‌های Powerfox';
 
   @override
   String get purchasesBuyNow => 'خرید';

@@ -2162,6 +2162,21 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get privacyTitle => 'Privacybeleid';
 
   @override
+  String get powerfoxConnectButton => 'Maak verbinding met Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Het Powerfox-apparaat kon niet worden aangesloten.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Powerfox-apparaat is aangesloten';
+
+  @override
+  String get powerfoxDeviceLabel => 'Powerfox-apparaat';
+
+  @override
+  String get powerfoxDeviceMissing => 'Powerfox-apparaat ontbreekt.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Koud en warm water';
 
   @override
@@ -2169,6 +2184,15 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Onbekend';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Er zijn geen Powerfox-apparaten gevonden';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'De Powerfox-meetwaarden konden niet worden geladen.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Powerfox-apparaten vernieuwen';
 
   @override
   String get purchasesBuyNow => 'Nu kopen';

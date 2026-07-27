@@ -2161,6 +2161,21 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get privacyTitle => 'Chính sách bảo mật';
 
   @override
+  String get powerfoxConnectButton => 'Kết nối với Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Không thể kết nối với thiết bị Powerfox.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Thiết bị Powerfox đã được kết nối';
+
+  @override
+  String get powerfoxDeviceLabel => 'Thiết bị Powerfox';
+
+  @override
+  String get powerfoxDeviceMissing => 'Thiết bị Powerfox bị mất.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Nước lạnh và nước ấm';
 
   @override
@@ -2168,6 +2183,15 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Không rõ';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Không tìm thấy thiết bị Powerfox nào';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Không thể tải được các số liệu từ Powerfox.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Làm mới các thiết bị Powerfox';
 
   @override
   String get purchasesBuyNow => 'Mua ngay';

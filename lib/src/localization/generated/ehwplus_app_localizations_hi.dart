@@ -2159,6 +2159,21 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get privacyTitle => 'गोपनीयता नीति';
 
   @override
+  String get powerfoxConnectButton => 'Powerfox से कनेक्ट करें';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Powerfox डिवाइस से जुड़ नहीं सका।';
+
+  @override
+  String get powerfoxDeviceConnected => 'Powerfox डिवाइस जुड़ा हुआ है';
+
+  @override
+  String get powerfoxDeviceLabel => 'पावरफॉक्स डिवाइस';
+
+  @override
+  String get powerfoxDeviceMissing => 'Powerfox डिवाइस अनुपस्थित है।';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'ठंडा और गर्म पानी';
 
   @override
@@ -2166,6 +2181,15 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'अज्ञात';
+
+  @override
+  String get powerfoxNoDevicesFound => 'कोई पावरफ़ॉक्स डिवाइस नहीं मिला';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Powerfox रीडिंग्स लोड नहीं हो सकीं।';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'पॉवरफ़ॉक्स डिवाइसों को रिफ़्रेश करें';
 
   @override
   String get purchasesBuyNow => 'अभी खरीदें';

@@ -2164,6 +2164,21 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get privacyTitle => 'Politica de confidențialitate';
 
   @override
+  String get powerfoxConnectButton => 'Conectează-te la Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Nu s-a putut realiza conexiunea cu dispozitivul Powerfox.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Dispozitivul Powerfox este conectat';
+
+  @override
+  String get powerfoxDeviceLabel => 'Dispozitivul Powerfox';
+
+  @override
+  String get powerfoxDeviceMissing => 'Dispozitivul Powerfox lipsește.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Apă rece și caldă';
 
   @override
@@ -2171,6 +2186,15 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Necunoscut';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Nu s-au găsit dispozitive Powerfox';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Nu s-au putut încărca datele de la Powerfox.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Reinițializarea dispozitivelor Powerfox';
 
   @override
   String get purchasesBuyNow => 'Cumpărați acum';

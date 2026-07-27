@@ -2165,6 +2165,21 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get privacyTitle => 'Політика конфіденційності';
 
   @override
+  String get powerfoxConnectButton => 'Підключитися до Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Не вдалося підключити пристрій Powerfox.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Підключено пристрій Powerfox';
+
+  @override
+  String get powerfoxDeviceLabel => 'Пристрій Powerfox';
+
+  @override
+  String get powerfoxDeviceMissing => 'Пристрій Powerfox відсутній.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Холодна та тепла вода';
 
   @override
@@ -2172,6 +2187,15 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Невідомо';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Пристроїв Powerfox не знайдено';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Не вдалося завантажити дані Powerfox.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Оновити пристрої Powerfox';
 
   @override
   String get purchasesBuyNow => 'Купити зараз';

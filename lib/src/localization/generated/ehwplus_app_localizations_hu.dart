@@ -2164,6 +2164,21 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get privacyTitle => 'Adatvédelmi szabályzat';
 
   @override
+  String get powerfoxConnectButton => 'Csatlakozás a Powerfoxhoz';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'A Powerfox eszköz csatlakoztatása nem sikerült.';
+
+  @override
+  String get powerfoxDeviceConnected => 'A Powerfox eszköz csatlakoztatva';
+
+  @override
+  String get powerfoxDeviceLabel => 'Powerfox készülék';
+
+  @override
+  String get powerfoxDeviceMissing => 'Hiányzik a Powerfox eszköz.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Hideg és meleg víz';
 
   @override
@@ -2171,6 +2186,15 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Ismeretlen';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Nem találtak Powerfox-eszközöket';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'A Powerfox mérési eredményei nem töltődtek be.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'A Powerfox-eszközök frissítése';
 
   @override
   String get purchasesBuyNow => 'Vásároljon most';

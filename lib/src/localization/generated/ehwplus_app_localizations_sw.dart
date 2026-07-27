@@ -2156,6 +2156,21 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get privacyTitle => 'Sera ya faragha';
 
   @override
+  String get powerfoxConnectButton => 'Ungana na Powerfox';
+
+  @override
+  String get powerfoxDeviceConnectFailed => 'Kifaa cha Powerfox hakikuweza kuunganishwa.';
+
+  @override
+  String get powerfoxDeviceConnected => 'Kifaa cha Powerfox kimeunganishwa';
+
+  @override
+  String get powerfoxDeviceLabel => 'Kifaa cha Powerfox';
+
+  @override
+  String get powerfoxDeviceMissing => 'Kifaa cha Powerfox hakipo.';
+
+  @override
   String get powerfoxDivisionColdAndWarmWater => 'Maji baridi na maji ya moto';
 
   @override
@@ -2163,6 +2178,15 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxDivisionUnknown => 'Haijulikani';
+
+  @override
+  String get powerfoxNoDevicesFound => 'Hakuna vifaa vya Powerfox vilivyopatikana';
+
+  @override
+  String get powerfoxReadingsLoadFailed => 'Matokeo ya Powerfox hayakuweza kupakiwa.';
+
+  @override
+  String get powerfoxRefreshDevicesTooltip => 'Sasisha vifaa vya Powerfox';
 
   @override
   String get purchasesBuyNow => 'Nunua sasa';
