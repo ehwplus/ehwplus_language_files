@@ -818,22 +818,22 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get contracts => 'Sözleşmeler';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Tüketim noktası';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Tüketim noktasını silmek mi?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Tüketim noktası kimliği';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Kimlik bilgisi kaydedilmemiştir';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Tüketim noktası türü';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Tüketim noktaları';
 
   @override
   String get corresponds => 'karşılık gelir';
@@ -1048,25 +1048,25 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
       'Üretilen ve beslenen elektriği kaydetmek için bir elektrik besleme sayacı kullanın\nfotovoltaik sistem ile. Ortaya çıkan gelir, maliyetten mahsup edilir.\nçekilen elektrik.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR kodu/barkod';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Lütfen bir QR kodu veya barkodu tarayın!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Bu QR kodu/barkod için eşleşen bir sayaç bulunamadı!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'QR kodu/barkod kaydedilmemiştir';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'QR kodunu/barkodu tarayın';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Sayaçla ilişkili QR kodunu/barkodu tarayın!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'QR kodunu/barkodu tarayın';
 
   @override
   String get counterQrCodeStored => 'QR kodu kaydedildi';
@@ -1525,7 +1525,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Veri talepleri';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Kısa anketi doldurun';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1848,7 +1848,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Henüz bir sayaç oluşturmadınız.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Henüz hiçbir tüketim noktası oluşturulmamıştır.';
 
   @override
   String get messageNoRooms => 'Henüz oda yok. Odalar grup ölçümlerine yardımcı olur.';
@@ -2159,6 +2159,15 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Gizlilik politikası';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Soğuk ve sıcak su';
+
+  @override
+  String get powerfoxDivisionHeat => 'Isı';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Bilinmiyor';
 
   @override
   String get purchasesBuyNow => 'Şimdi al';

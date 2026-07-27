@@ -819,22 +819,22 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get contracts => 'കരാറുകൾ';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'ഉപഭോഗ ബിന്ദു';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'ഉപഭോഗ പോയിന്റ് ഇല്ലാതാക്കുക?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'ഉപഭോഗ ബിന്ദു ഐഡി';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'ഐഡി സംഭരിച്ചിട്ടില്ല';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'ഉപഭോഗ ബിന്ദു തരം';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'ഉപഭോഗ കേന്ദ്രങ്ങൾ';
 
   @override
   String get corresponds => 'യോജിക്കുന്നു';
@@ -1050,25 +1050,25 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
       'ഉൽപ്പാദിപ്പിക്കപ്പെടുന്നതും നൽകുന്നതുമായ വൈദ്യുതി രേഖപ്പെടുത്താൻ ഒരു ഇലക്ട്രിസിറ്റി ഫീഡ്-ഇൻ മീറ്റർ ഉപയോഗിക്കുക\nഒരു ഫോട്ടോവോൾട്ടെയ്ക് സിസ്റ്റം ഉപയോഗിച്ച്. തത്ഫലമായുണ്ടാകുന്ന വരുമാനം ചെലവിൽ നിന്ന് ഓഫ്സെറ്റ് ചെയ്യുന്നു\nവൈദ്യുതി വലിച്ചു.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'ക്യുആർ കോഡ്/ബാർകോഡ്';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'ദയവായി ഒരു ക്യുആർ കോഡ്/ബാർകോഡ് സ്കാൻ ചെയ്യുക!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'ഈ ക്യുആർ കോഡ്/ബാർകോഡുമായി പൊരുത്തപ്പെടുന്ന കൗണ്ടർ കണ്ടെത്തിയില്ല!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'ക്യുആർ കോഡ്/ബാർകോഡ് സേവ് ചെയ്തിട്ടില്ല';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'ക്യുആർ കോഡ്/ബാർകോഡ് സ്കാൻ ചെയ്യുക';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'മീറ്ററുമായി ബന്ധപ്പെട്ട ക്യുആർ കോഡ്/ബാർകോഡ് സ്കാൻ ചെയ്യുക!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'ക്യുആർ കോഡ്/ബാർകോഡ് സ്കാൻ ചെയ്യുക';
 
   @override
   String get counterQrCodeStored => 'നൽകിയിട്ടുള്ള ക്യുആർ കോഡ്';
@@ -1529,7 +1529,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'ഡാറ്റാ അഭ്യർത്ഥനകൾ';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'ചെറിയ സർവേ പൂരിപ്പിക്കുക';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1853,7 +1853,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get messageNoCounters => 'നിങ്ങൾ ഇതുവരെ ഒരു കൗണ്ടർ സൃഷ്ടിച്ചിട്ടില്ല.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'ഇതുവരെ ഉപഭോഗ പോയിന്റുകൾ ഒന്നും സൃഷ്ടിച്ചിട്ടില്ല.';
 
   @override
   String get messageNoRooms => 'ഇനിയും മുറികളില്ല. മുറികൾ മീറ്ററുകളെ ഗ്രൂപ്പാക്കാൻ സഹായിക്കുന്നു.';
@@ -2164,6 +2164,15 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'സ്വകാര്യതാ നയം';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'തണുത്തതും ചൂടുള്ളതുമായ വെള്ളം';
+
+  @override
+  String get powerfoxDivisionHeat => 'ചൂട്';
+
+  @override
+  String get powerfoxDivisionUnknown => 'അജ്ഞാതം';
 
   @override
   String get purchasesBuyNow => 'ഇപ്പോൾ വാങ്ങുക';

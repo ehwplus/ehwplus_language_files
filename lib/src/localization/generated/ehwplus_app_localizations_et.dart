@@ -818,22 +818,22 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get contracts => 'Lepingud';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Tarbimiskoht';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Kas kustutada tarbimispunkt?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Tarbimiskoha ID';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Isikutunnust ei ole salvestatud';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Tarbimiskoha tüüp';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Tarbimiskohad';
 
   @override
   String get corresponds => 'vastab';
@@ -1048,25 +1048,25 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       '\nKasuta elektri võrku andmise arvestit, et salvestada fotogalvaanilise süsteemi toodetud ja võrku antud elektrit. Saadud tulu tasaarvestatakse ostetud elektri kuludega.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR-kood/vöötkood';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Palun skannige QR-kood või vöötkood!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Selle QR-koodi/vöötkoodi jaoks ei leitud sobivat loendurit!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'QR-koodi/vöötkoodi pole salvestatud';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Skaneeri QR-kood/vöötkood';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Skannige arvestiga seotud QR-koodi või vöötkoodi!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Skaneeri QR-kood/vöötkood';
 
   @override
   String get counterQrCodeStored => 'QR-kood on salvestatud';
@@ -1524,7 +1524,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Andmepäringud';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Täitke lühike küsitlus';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1846,7 +1846,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Sa pole veel ühtegi arvestit loonud.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Tarbimispunkte pole veel loodud.';
 
   @override
   String get messageNoRooms => 'Ruumid puuduvad. Ruumid aitavad arvestid rühmitada.';
@@ -2158,6 +2158,15 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Privaatsuspoliitika';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Külm ja soe vesi';
+
+  @override
+  String get powerfoxDivisionHeat => 'Soojus';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Teadmata';
 
   @override
   String get purchasesBuyNow => 'Osta kohe';

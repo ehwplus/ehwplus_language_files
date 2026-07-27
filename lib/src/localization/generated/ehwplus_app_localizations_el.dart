@@ -821,22 +821,22 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get contracts => 'Συμβάσεις';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Σημείο κατανάλωσης';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Να διαγραφεί το σημείο κατανάλωσης;';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Αναγνωριστικό σημείου κατανάλωσης';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Δεν έχει αποθηκευτεί ταυτότητα';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Τύπος σημείου κατανάλωσης';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Σημεία κατανάλωσης';
 
   @override
   String get corresponds => 'αντιστοιχεί';
@@ -1052,25 +1052,25 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
       'Χρησιμοποιήστε μετρητή τροφοδότησης ηλεκτρικής ενέργειας για να καταγράψετε την παραγόμενη και τροφοδοτούμενη ηλεκτρική ενέργεια.\nμε ένα φωτοβολταϊκό σύστημα. Τα έσοδα που προκύπτουν συμψηφίζονται με το κόστος\nτης καταναλισκόμενης ηλεκτρικής ενέργειας.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'Κωδικός QR/γραμμωτός κώδικας';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Παρακαλώ, σαρώστε έναν κωδικό QR ή έναν γραμμωτό κώδικα!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Δεν βρέθηκε αντίστοιχο ταμείο για αυτόν τον κωδικό QR/γραμμωτό κώδικα!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Δεν έχει αποθηκευτεί κανένας κωδικός QR/γραμμικός κώδικας';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Σάρωση κωδικού QR/γραμμωτού κώδικα';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Σαρώστε τον κωδικό QR ή τον γραμμωτό κώδικα που αντιστοιχεί σε έναν μετρητή!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Σάρωση κωδικού QR/γραμμωτού κώδικα';
 
   @override
   String get counterQrCodeStored => 'Έχει αποθηκευτεί ο κωδικός QR';
@@ -1529,7 +1529,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Αιτήματα δεδομένων';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Συμπληρώστε τη σύντομη έρευνα';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1853,7 +1853,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Δεν έχετε ακόμη δημιουργήσει έναν μετρητή.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Δεν έχουν δημιουργηθεί ακόμη σημεία κατανάλωσης.';
 
   @override
   String get messageNoRooms => 'Δεν υπάρχουν δωμάτια ακόμα. Τα δωμάτια βοηθούν τους μετρητές της ομάδας.';
@@ -2170,6 +2170,15 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Πολιτική απορρήτου';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Κρύο και ζεστό νερό';
+
+  @override
+  String get powerfoxDivisionHeat => 'Θερμότητα';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Άγνωστο';
 
   @override
   String get purchasesBuyNow => 'Αγοράστε τώρα';

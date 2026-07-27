@@ -815,22 +815,22 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get contracts => 'Kontrakt';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Förbrukningspunkt';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Ta bort förbrukningspunkt?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Förbrukningspunktens ID';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Inget ID har sparats';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Typ av förbrukningspunkt';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Förbrukningspunkter';
 
   @override
   String get corresponds => 'motsvarar';
@@ -1045,25 +1045,25 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
       'Använd en elinmatningsmätare för att registrera den el som genereras och matas in\nmed ett solcellssystem. De resulterande intäkterna kvittas mot kostnaden för\nelen som dras.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR-kod/streckkod';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Skanna gärna en QR-kod eller streckkod!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Ingen matchande kod hittades för denna QR-kod/streckkod!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Ingen QR-kod/streckkod har sparats';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Skanna QR-koden/streckkoden';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Skanna QR-koden/streckkoden som hör till en mätare!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Skanna QR-koden/streckkoden';
 
   @override
   String get counterQrCodeStored => 'QR-kod lagrad';
@@ -1520,7 +1520,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Begäran om uppgifter';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Fyll i den korta enkäten';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1843,7 +1843,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Du har ännu inte skapat en räknare.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Det har ännu inte skapats några förbrukningspunkter.';
 
   @override
   String get messageNoRooms => 'Inga rum ännu. Rum hjälper gruppmätare.';
@@ -2154,6 +2154,15 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Integritetspolicy';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Kallt och varmt vatten';
+
+  @override
+  String get powerfoxDivisionHeat => 'Värme';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Okänt';
 
   @override
   String get purchasesBuyNow => 'Köp nu';

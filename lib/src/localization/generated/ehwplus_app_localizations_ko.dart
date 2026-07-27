@@ -799,22 +799,22 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get contracts => '계약';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => '소비 지점';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => '소비 지점을 삭제하시겠습니까?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => '소비 지점 ID';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => '저장된 ID 없음';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => '소비 지점 유형';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => '소비 지점';
 
   @override
   String get corresponds => '에 해당';
@@ -1028,25 +1028,25 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
       '\n전기 역송전 계량기를 사용해 태양광 설비로 생산하여 송전한 전력을 기록하세요.\n발생한 수익은 외부 전력 사용 비용과 상계됩니다.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR 코드/바코드';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'QR 코드나 바코드를 스캔해 주세요!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => '이 QR 코드/바코드에 해당하는 카운터를 찾을 수 없습니다!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => '저장된 QR 코드/바코드가 없습니다.';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'QR 코드/바코드 스캔';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => '계량기에 표시된 QR 코드/바코드를 스캔하세요!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'QR 코드/바코드 스캔';
 
   @override
   String get counterQrCodeStored => 'QR 코드 저장됨';
@@ -1496,7 +1496,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => '데이터 요청';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => '간단한 설문조사에 참여해 주세요';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1811,7 +1811,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get messageNoCounters => '아직 계량기를 생성하지 않았습니다.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => '아직 사용 포인트가 생성되지 않았습니다.';
 
   @override
   String get messageNoRooms => '등록된 방이 없습니다. 방을 사용하면 계량기를 그룹으로 묶을 수 있습니다.';
@@ -2119,6 +2119,15 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => '개인정보 처리방침';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => '찬물과 따뜻한 물';
+
+  @override
+  String get powerfoxDivisionHeat => '열';
+
+  @override
+  String get powerfoxDivisionUnknown => '알 수 없음';
 
   @override
   String get purchasesBuyNow => '지금 구매';

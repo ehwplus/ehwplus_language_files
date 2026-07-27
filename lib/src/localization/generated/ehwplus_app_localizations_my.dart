@@ -819,22 +819,22 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get contracts => 'စာချုပ်များ';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'စားသုံးရာနေရာ';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'စားသုံးမှုအမှတ်ကို ဖျက်မည်?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'စားသုံးမှုအချက်အလက် ID';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'အိုင်ဒီ မသိမ်းဆည်းထားပါ';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'စားသုံးမှုအချက်အလက်အမျိုးအစား';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'စားသုံးမှုအမှတ်များ';
 
   @override
   String get corresponds => 'ကိုက်ညီ';
@@ -1050,25 +1050,25 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
       'လျှပ်စစ်ဓာတ်အားထုတ်လုပ်ပြီးကျွေးမွေးသောလျှပ်စစ်ဓာတ်အားကိုမှတ်တမ်းတင်ရန်လျှပ်စစ်ဓာတ်အားဖြည့်စွက်ထားသောမီတာကိုသုံးပါ\nphotovoltaic စနစ်နှင့်အတူ။ ရရှိလာတဲ့ဝင်ငွေသည်ကုန်ကျစရိတ်ကိုဆန့်ကျင်သည်\nလျှပ်စစ်ဓာတ်အား။';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR ကုဒ်/ဘားကုဒ်';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'QR ကုဒ်/ဘားကုဒ်ကို စကင်ပေးပါ!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'ဤ QR ကုဒ်/ဘားကုဒ်အတွက် ကိုက်ညီသော ကောင်တာ မတွေ့ပါ။';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'QR ကုဒ်/ဘားကုဒ် မည်မျှမှ မသိမ်းဆည်းထားပါ။';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'QR ကုဒ်/ဘားကုဒ်ကို စကင်ပါ';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'မီတာနှင့်ဆက်စပ်ထားသော QR ကုဒ်/ဘားကုဒ်ကို စကင်ပါ။';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'QR ကုဒ်/ဘားကုဒ်ကို စကင်ပါ';
 
   @override
   String get counterQrCodeStored => 'QR ကုဒ် ပေးထားသည်။';
@@ -1529,7 +1529,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'ဒေတာတောင်းဆိုချက်များ';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'တိုတောင်းသော စစ်တမ်းကို ဖြေပါ။';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1852,7 +1852,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get messageNoCounters => 'မင်းကကောင်တာကိုမဖန်တီးသေးဘူး';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'စားသုံးအမှတ်များ မဖန်တီးရသေးပါ။';
 
   @override
   String get messageNoRooms => 'အခန်းများမရှိသေးပါ။ အခန်းများသည်အုပ်စုမီတာကိုကူညီပါ။';
@@ -2163,6 +2163,15 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'ကိုယ်ရေးအချက်အလက်မူဝါဒ';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'အေးသောရေနှင့်ပူသောရေ';
+
+  @override
+  String get powerfoxDivisionHeat => 'အပူ';
+
+  @override
+  String get powerfoxDivisionUnknown => 'မသိသော';
 
   @override
   String get purchasesBuyNow => 'အခုဝယ်ပါ';

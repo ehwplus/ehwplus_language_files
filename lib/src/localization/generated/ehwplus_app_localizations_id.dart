@@ -820,22 +820,22 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get contracts => 'Kontrak';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Titik konsumsi';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Hapus titik konsumsi?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'ID Titik Konsumsi';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Tidak ada ID yang tersimpan';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Jenis titik konsumsi';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Titik konsumsi';
 
   @override
   String get corresponds => 'sesuai';
@@ -1050,25 +1050,25 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
       'Gunakan meteran listrik untuk mencatat listrik yang dihasilkan dan disalurkan\ndengan sistem fotovoltaik. Pendapatan yang dihasilkan diimbangi dengan biaya\nlistrik yang diambil.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'Kode QR/kode batang';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Silakan pindai kode QR/kode batang!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Tidak ditemukan kode QR/kode batang yang cocok untuk kode ini!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Belum ada kode QR/kode batang yang disimpan';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Pindai kode QR/kode batang';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Pindai kode QR/kode batang yang terkait dengan meteran!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Pindai kode QR/kode batang';
 
   @override
   String get counterQrCodeStored => 'Kode QR telah disimpan';
@@ -1527,7 +1527,7 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Permintaan data';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Ikuti survei singkat ini';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1851,7 +1851,7 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Anda belum membuat penghitung.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Belum ada titik konsumsi yang dibuat.';
 
   @override
   String get messageNoRooms => 'Belum ada kamar. Kamar membantu kelompok pengukur.';
@@ -2162,6 +2162,15 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Kebijakan privasi';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Air dingin dan air hangat';
+
+  @override
+  String get powerfoxDivisionHeat => 'Panas';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Tidak diketahui';
 
   @override
   String get purchasesBuyNow => 'Beli sekarang';

@@ -814,22 +814,22 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get contracts => 'Smlouvy';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Místo spotřeby';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Odstranit odběrné místo?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Identifikátor odběrného místa';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Není uloženo žádné ID';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Typ odběrného místa';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Odběrná místa';
 
   @override
   String get corresponds => 'odpovídá';
@@ -1044,25 +1044,25 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
       'Pro záznam vyrobené a dodané elektřiny použijte elektroměr\ns fotovoltaickým systémem. Výsledný výnos je kompenzován náklady na\nodebraná elektřina.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR kód/čárový kód';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Naskenujte prosím QR kód nebo čárový kód!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Pro tento QR kód/čárový kód nebyl nalezen žádný odpovídající záznam!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Nebylo uloženo žádné QR kód ani čárový kód';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Naskenujte QR kód/čárový kód';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Naskenujte QR kód nebo čárový kód přiřazený k měřiči!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Naskenujte QR kód/čárový kód';
 
   @override
   String get counterQrCodeStored => 'QR kód je uložen';
@@ -1521,7 +1521,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Žádosti o data';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Vyplňte tento krátký dotazník';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1845,7 +1845,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Ještě jste nevytvořili počítadlo.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Zatím nebyly vytvořeny žádné body spotřeby.';
 
   @override
   String get messageNoRooms => 'Zatím žádné pokoje. Místnosti pomáhají skupinovým měřičům.';
@@ -2155,6 +2155,15 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Zásady ochrany osobních údajů';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Studená a teplá voda';
+
+  @override
+  String get powerfoxDivisionHeat => 'Teplo';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Neznámé';
 
   @override
   String get purchasesBuyNow => 'Kup teď';

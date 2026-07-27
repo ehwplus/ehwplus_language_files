@@ -3875,6 +3875,24 @@ abstract class EhwplusAppLocalizations {
   /// **'Privacy policy'**
   String get privacyTitle;
 
+  /// No description provided for @powerfoxDivisionColdAndWarmWater.
+  ///
+  /// In en, this message translates to:
+  /// **'Cold and warm water'**
+  String get powerfoxDivisionColdAndWarmWater;
+
+  /// No description provided for @powerfoxDivisionHeat.
+  ///
+  /// In en, this message translates to:
+  /// **'Heat'**
+  String get powerfoxDivisionHeat;
+
+  /// No description provided for @powerfoxDivisionUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown'**
+  String get powerfoxDivisionUnknown;
+
   /// No description provided for @purchasesBuyNow.
   ///
   /// In en, this message translates to:

@@ -812,22 +812,22 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get contracts => 'สัญญา';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'จุดบริโภค';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'จะลบจุดบริโภคหรือไม่?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'รหัสจุดบริโภค';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'ไม่มีการบันทึกข้อมูลประจำตัว';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'ประเภทจุดบริโภค';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'จุดบริโภค';
 
   @override
   String get corresponds => 'สอดคล้องกัน';
@@ -1042,25 +1042,25 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
       'ใช้มิเตอร์ไฟฟ้าป้อนเข้าเพื่อบันทึกไฟฟ้าที่ผลิตและป้อนเข้า\nด้วยระบบไฟฟ้าโซลาร์เซลล์ รายได้ที่ได้จะถูกหักล้างกับต้นทุนของ\nไฟฟ้าที่ถูกดึงออกมา';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'รหัส QR/รหัสบาร์โค้ด';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'โปรดสแกนรหัส QR/รหัสบาร์โค้ด!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'ไม่พบตัวนับที่ตรงกับรหัส QR/บาร์โค้ดนี้!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'ยังไม่มีรหัส QR/รหัสบาร์โค้ดที่บันทึกไว้';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'สแกนรหัส QR/รหัสบาร์โค้ด';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'สแกนรหัส QR/รหัสบาร์โค้ดที่เชื่อมโยงกับเครื่องวัด!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'สแกนรหัส QR/รหัสบาร์โค้ด';
 
   @override
   String get counterQrCodeStored => 'QR code ให้ไว้';
@@ -1516,7 +1516,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'คำขอข้อมูล';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'ทำแบบสำรวจสั้นๆ นี้';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1839,7 +1839,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get messageNoCounters => 'คุณยังไม่ได้สร้างตัวนับ';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'ยังไม่มีจุดบริโภคถูกสร้างขึ้น';
 
   @override
   String get messageNoRooms => 'ยังไม่มีห้อง. ห้องช่วยจัดกลุ่มมิเตอร์';
@@ -2149,6 +2149,15 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'นโยบายความเป็นส่วนตัว';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'น้ำเย็นและน้ำอุ่น';
+
+  @override
+  String get powerfoxDivisionHeat => 'ความร้อน';
+
+  @override
+  String get powerfoxDivisionUnknown => 'ไม่ทราบ';
 
   @override
   String get purchasesBuyNow => 'ซื้อตอนนี้';

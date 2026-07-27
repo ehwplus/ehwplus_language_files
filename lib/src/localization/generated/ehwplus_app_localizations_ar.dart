@@ -812,22 +812,22 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get contracts => 'العقود';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'نقطة الاستهلاك';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'هل تريد حذف نقطة الاستهلاك؟';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'معرّف نقطة الاستهلاك';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'لا توجد بطاقة هوية مخزنة';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'نوع نقطة الاستهلاك';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'نقاط الاستهلاك';
 
   @override
   String get corresponds => 'يتوافق';
@@ -1042,25 +1042,25 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
       '\nاستخدم عداد إدخال الكهرباء لتسجيل الكهرباء المُولدة والمُدخلة\nمع نظام الطاقة الشمسية. يتم تعويض الإيرادات الناتجة مقابل تكلفة\nالكهرباء المسحوبة.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'رمز الاستجابة السريعة/الرمز الشريطي';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'يرجى مسح رمز QR/الرمز الشريطي ضوئيًّا!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'لم يتم العثور على عداد مطابق لهذا الرمز الاستجابة السريعة/الرمز الشريطي!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'لم يتم حفظ أي رمز QR أو رمز شريطي';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'مسح رمز الاستجابة السريعة/الرمز الشريطي';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'امسح رمز الاستجابة السريعة (QR) أو الرمز الشريطي المرتبط بعداد المياه!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'مسح رمز الاستجابة السريعة/الرمز الشريطي';
 
   @override
   String get counterQrCodeStored => 'رمز الاستجابة السريعة مسجل';
@@ -1517,7 +1517,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'طلبات البيانات';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'شارك في هذا الاستطلاع القصير';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1839,7 +1839,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get messageNoCounters => 'لم تقم بإنشاء عداد بعد.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'لم يتم إنشاء أي نقاط استهلاك حتى الآن.';
 
   @override
   String get messageNoRooms => 'لا توجد غرف بعد. تساعد الغرف في تجميع العدادات.';
@@ -2148,6 +2148,15 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'سياسة الخصوصية';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'الماء البارد والماء الدافئ';
+
+  @override
+  String get powerfoxDivisionHeat => 'الحرارة';
+
+  @override
+  String get powerfoxDivisionUnknown => 'غير معروف';
 
   @override
   String get purchasesBuyNow => 'اشتري الآن';

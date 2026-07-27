@@ -2157,6 +2157,15 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get privacyTitle => 'Privacy policy';
 
   @override
+  String get powerfoxDivisionColdAndWarmWater => 'Cold and warm water';
+
+  @override
+  String get powerfoxDivisionHeat => 'Heat';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Unknown';
+
+  @override
   String get purchasesBuyNow => 'Buy now';
 
   @override

@@ -819,22 +819,22 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get contracts => 'Hợp đồng';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Điểm tiêu thụ';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Xóa điểm tiêu thụ?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Mã định danh điểm tiêu thụ';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Không có thông tin nhận dạng nào được lưu trữ';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Loại điểm tiêu thụ';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Các điểm tiêu thụ';
 
   @override
   String get corresponds => 'tương ứng';
@@ -1050,25 +1050,25 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
       'Sử dụng đồng hồ đo điện năng để ghi lại lượng điện năng được tạo ra và cung cấp vào\nvới hệ thống quang điện. Doanh thu thu được sẽ được bù đắp vào chi phí của\nđiện được rút ra.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'Mã QR/mã vạch';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Xin vui lòng quét mã QR/mã vạch!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Không tìm thấy mã vạch/mã QR nào khớp với mã này!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Chưa có mã QR/mã vạch nào được lưu lại';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Quét mã QR/mã vạch';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Hãy quét mã QR/mã vạch liên quan đến đồng hồ đo!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Quét mã QR/mã vạch';
 
   @override
   String get counterQrCodeStored => 'Đã lưu mã QR';
@@ -1526,7 +1526,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Yêu cầu cung cấp dữ liệu';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Xin vui lòng tham gia cuộc khảo sát ngắn này';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1849,7 +1849,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Bạn chưa tạo bộ đếm.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Hiện tại vẫn chưa có điểm tiêu thụ nào được tạo ra.';
 
   @override
   String get messageNoRooms => 'Chưa có phòng. Phòng giúp nhóm mét.';
@@ -2159,6 +2159,15 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Chính sách bảo mật';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Nước lạnh và nước ấm';
+
+  @override
+  String get powerfoxDivisionHeat => 'Nhiệt';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Không rõ';
 
   @override
   String get purchasesBuyNow => 'Mua ngay';

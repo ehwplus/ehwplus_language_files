@@ -817,22 +817,22 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get contracts => 'Szerződések';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Fogyasztási pont';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Törölni szeretné a fogyasztási pontot?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Fogyasztási pont azonosítója';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Nincs tárolt azonosító';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Fogyasztási pont típusa';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Fogyasztási pontok';
 
   @override
   String get corresponds => 'megfelel';
@@ -1048,25 +1048,25 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
       'Használjon villamosenergia-bevezetési mérőt a megtermelt és betáplált villamos energia nyilvántartására.\nfotovoltaikus rendszerrel. Az ebből származó bevételt beszámítják a\na felvett villamos energia költségével.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR-kód/vonalkód';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Kérjük, olvassa be a QR-kódot vagy a vonalkódot!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Ehhez a QR-kódhoz/vonalkódhoz nem találtunk megfelelő leolvasót!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Nem mentettek el QR-kódot/vonalkódot';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'QR-kód/vonalkód beolvasása';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Olvassa be a mérőórához tartozó QR-kódot/vonalkódot!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'QR-kód/vonalkód beolvasása';
 
   @override
   String get counterQrCodeStored => 'QR-kód elmentve';
@@ -1527,7 +1527,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Adatkérések';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Töltse ki a rövid kérdőívet!';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1851,7 +1851,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Ön még nem hozott létre számlálót.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Még nem hoztak létre fogyasztási pontokat.';
 
   @override
   String get messageNoRooms => 'Még nincsenek szobák. Szobák segítenek a csoportos mérők.';
@@ -2162,6 +2162,15 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Adatvédelmi szabályzat';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Hideg és meleg víz';
+
+  @override
+  String get powerfoxDivisionHeat => 'Hő';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Ismeretlen';
 
   @override
   String get purchasesBuyNow => 'Vásároljon most';

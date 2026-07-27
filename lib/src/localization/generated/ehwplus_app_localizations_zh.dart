@@ -791,22 +791,22 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get contracts => '合约';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => '消费点';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => '删除用电点？';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => '用电点编号';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => '未存储 ID';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => '用电点类型';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => '消费点';
 
   @override
   String get corresponds => '对应';
@@ -1017,25 +1017,25 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get counterPvFeedInCounterExplanation => '使用馈电表记录发电量和馈入电量\n带有光伏系统。由此产生的收入抵消了成本\n汲取的电力。';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => '二维码/条形码';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => '请扫描二维码/条形码！';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => '未找到与该二维码/条形码匹配的计数器！';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => '尚未保存任何二维码/条形码';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => '扫描二维码/条形码';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => '扫描与电表关联的二维码/条形码！';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => '扫描二维码/条形码';
 
   @override
   String get counterQrCodeStored => '已保存二维码';
@@ -1482,7 +1482,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => '数据申请';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => '请填写这份简短的调查问卷';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1791,7 +1791,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get messageNoCounters => '您还没有创建计数器。';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => '尚未创建任何消费点。简体中文（大陆）';
 
   @override
   String get messageNoRooms => '还没有房间。房间帮米。';
@@ -2099,6 +2099,15 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => '隐私政策';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => '冷水和热水';
+
+  @override
+  String get powerfoxDivisionHeat => '热';
+
+  @override
+  String get powerfoxDivisionUnknown => '未知';
 
   @override
   String get purchasesBuyNow => '立即购买';

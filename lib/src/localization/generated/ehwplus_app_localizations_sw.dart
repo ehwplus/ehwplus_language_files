@@ -814,22 +814,22 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get contracts => 'Mikataba';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Kituo cha matumizi';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Futa nukta ya matumizi?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Kitambulisho cha sehemu ya matumizi';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Hakuna kitambulisho kilichohifadhiwa';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Aina ya kituo cha matumizi';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Vituo vya matumizi';
 
   @override
   String get corresponds => 'inalingana';
@@ -1044,25 +1044,26 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
       'Tumia mita ya kulisha umeme kurekodi umeme unaotokana na kulishwa\nna mfumo wa photovoltaic. Mapato yanayosababishwa yametolewa dhidi ya gharama ya\nUmeme uliochorwa.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'Msimbo wa QR/msimbo wa bastola';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Tafadhali skana msimbo wa QR/msimbo wa barkodi!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound =>
+      'Hakuna kaunta inayolingana iliyopatikana kwa msimbo huu wa QR/msimbo wa barkodi!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Hakuna msimbo wa QR/msimbo wa upau uliohifadhiwa';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Skani msimbo wa QR/msimbo wa bastola';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Skani msimbo wa QR/msimbo wa upau unaohusiana na mita!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Skani msimbo wa QR/msimbo wa bastola';
 
   @override
   String get counterQrCodeStored => 'Kodi ya QR imetolewa';
@@ -1519,7 +1520,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Maombi ya data';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Jaza dodoso fupi';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1842,7 +1843,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Bado haujaunda counter.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Hakuna alama za matumizi zilizoundwa bado.';
 
   @override
   String get messageNoRooms => 'Hakuna vyumba bado. Vyumba husaidia mita za kikundi.';
@@ -2153,6 +2154,15 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Sera ya faragha';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Maji baridi na maji ya moto';
+
+  @override
+  String get powerfoxDivisionHeat => 'Joto';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Haijulikani';
 
   @override
   String get purchasesBuyNow => 'Nunua sasa';

@@ -816,22 +816,22 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get contracts => 'Уговори';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Потрошачка тачка';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Избриши тачку потрошње?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'ИД тачке потрошње';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Није сачуван ИД';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Тип тачке потрошње';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Потрошачке тачке';
 
   @override
   String get corresponds => 'одговара';
@@ -1047,25 +1047,25 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
       'Користите мерач напајања да бисте забележили произведену и унету електричну енергију\nса фотонапонским системом. Добијени приход се компензује са трошковима\nповучена струја.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR код/баркод';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Молимо скенирајте QR код/баркод!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'За овај QR код/баркод није пронађен одговарајући читач!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Није сачуван QR код/баркод';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Скенирајте QR код/баркод';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Скенирајте QR код/баркод повезан са бројилом!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Скенирајте QR код/баркод';
 
   @override
   String get counterQrCodeStored => 'Пружен QR код';
@@ -1524,7 +1524,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Захтеви за податке';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Испуните кратки упитник';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1847,7 +1847,7 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Још нисте креирали бројач.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Још нису креиране никакве поене потрошње.';
 
   @override
   String get messageNoRooms => 'Још нема соба. Собе помажу група бројила.';
@@ -2157,6 +2157,15 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Политика приватности';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Хладна и топла вода';
+
+  @override
+  String get powerfoxDivisionHeat => 'Топлота';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Непознато';
 
   @override
   String get purchasesBuyNow => 'Купите сада';

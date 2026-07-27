@@ -818,22 +818,22 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get contracts => 'Contracte';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Punct de consum';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Să șterg punctul de consum?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Codul punctului de consum';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Nu există niciun document de identitate înregistrat';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Tipul punctului de consum';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Puncte de consum';
 
   @override
   String get corresponds => 'corespunde';
@@ -1049,25 +1049,25 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
       'Utilizați un contor de alimentare cu energie electrică pentru a înregistra energia electrică produsă și alimentată\ncu un sistem fotovoltaic. Venitul rezultat este compensat cu costul\nenergiei electrice consumate.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'Cod QR/cod de bare';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Vă rugăm să scanați un cod QR/cod de bare!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Nu s-a găsit niciun cod de bare sau cod QR corespunzător!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'Nu a fost salvat niciun cod QR/cod de bare';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Scanează codul QR/codul de bare';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Scanează codul QR/codul de bare asociat unui contor!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Scanează codul QR/codul de bare';
 
   @override
   String get counterQrCodeStored => 'Cod QR stocat';
@@ -1526,7 +1526,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Solicitări de date';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Răspundeți la acest scurt sondaj';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1851,7 +1851,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Nu ați creat încă un contor.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Nu s-au creat încă puncte de consum.';
 
   @override
   String get messageNoRooms => 'Nu există încă camere. Camerele ajută contoarele de grup.';
@@ -2162,6 +2162,15 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Politica de confidențialitate';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Apă rece și caldă';
+
+  @override
+  String get powerfoxDivisionHeat => 'Căldură';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Necunoscut';
 
   @override
   String get purchasesBuyNow => 'Cumpărați acum';

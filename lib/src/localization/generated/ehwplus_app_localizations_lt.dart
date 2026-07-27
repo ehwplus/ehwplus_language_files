@@ -817,22 +817,22 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get contracts => 'Sutartys';
 
   @override
-  String get consumptionPoint => 'Consumption point';
+  String get consumptionPoint => 'Vartojimo vieta';
 
   @override
-  String get consumptionPointDeleteConfirm => 'Delete consumption point?';
+  String get consumptionPointDeleteConfirm => 'Ištrinti suvartojimo tašką?';
 
   @override
-  String get consumptionPointIdentifier => 'Consumption point ID';
+  String get consumptionPointIdentifier => 'Vartojimo taško identifikatorius';
 
   @override
-  String get consumptionPointIdentifierMissing => 'No ID stored';
+  String get consumptionPointIdentifierMissing => 'Asmens tapatybės duomenys nesaugomi';
 
   @override
-  String get consumptionPointType => 'Consumption point type';
+  String get consumptionPointType => 'Vartojimo taško tipas';
 
   @override
-  String get consumptionPoints => 'Consumption points';
+  String get consumptionPoints => 'Vartojimo taškai';
 
   @override
   String get corresponds => 'atitinka';
@@ -1048,25 +1048,25 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
       'Pagamintai ir tiekiamai elektros energijai registruoti naudokite elektros tiekimo skaitiklį\nsu fotovoltine sistema. Gautos pajamos kompensuojamos iš išlaidų\npaimta elektra.';
 
   @override
-  String get counterQrCode => 'QR code/barcode';
+  String get counterQrCode => 'QR kodas / brūkšninis kodas';
 
   @override
-  String get counterQrCodeInvalid => 'Please scan a QR code/barcode!';
+  String get counterQrCodeInvalid => 'Prašome nuskaityti QR kodą arba brūkšninį kodą!';
 
   @override
-  String get counterQrCodeNotFound => 'No matching counter found for this QR code/barcode!';
+  String get counterQrCodeNotFound => 'Šiam QR kodui / brūkšniniam kodui nerastas atitinkamas skaitiklis!';
 
   @override
-  String get counterQrCodeNotStored => 'No QR code/barcode has been saved';
+  String get counterQrCodeNotStored => 'QR kodas ar brūkšninis kodas nebuvo išsaugotas';
 
   @override
-  String get counterQrCodeScan => 'Scan QR code/barcode';
+  String get counterQrCodeScan => 'Nuskaitykite QR kodą / brūkšninį kodą';
 
   @override
-  String get counterQrCodeScanHint => 'Scan the QR code/barcode associated with a meter!';
+  String get counterQrCodeScanHint => 'Nuskaitykite su skaitikliu susietą QR kodą arba brūkšninį kodą!';
 
   @override
-  String get counterQrCodeScanTitle => 'Scan QR code/barcode';
+  String get counterQrCodeScanTitle => 'Nuskaitykite QR kodą / brūkšninį kodą';
 
   @override
   String get counterQrCodeStored => 'Įkeltas QR kodas';
@@ -1525,7 +1525,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get goetheDataDonationSettingsTitle => 'Duomenų užklausos';
 
   @override
-  String get goetheDataDonationSurveyButton => 'Take the short survey';
+  String get goetheDataDonationSurveyButton => 'Atsakykite į trumpą apklausą';
 
   @override
   String goetheDataDonationUploadCompleted(Object completed, Object total) {
@@ -1850,7 +1850,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get messageNoCounters => 'Dar nesukūrėte skaitiklio.';
 
   @override
-  String get messageNoConsumptionPoints => 'No consumption points have been created yet.';
+  String get messageNoConsumptionPoints => 'Kol kas nebuvo sukurta jokių suvartojimo taškų.';
 
   @override
   String get messageNoRooms => 'Kambarių dar nėra.Kambariai pagalbiniai grupiniai matuokliai.';
@@ -2160,6 +2160,15 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get privacyTitle => 'Privatumo politika';
+
+  @override
+  String get powerfoxDivisionColdAndWarmWater => 'Šaltas ir šiltas vanduo';
+
+  @override
+  String get powerfoxDivisionHeat => 'Šiluma';
+
+  @override
+  String get powerfoxDivisionUnknown => 'Nežinoma';
 
   @override
   String get purchasesBuyNow => 'Pirkti dabar';
