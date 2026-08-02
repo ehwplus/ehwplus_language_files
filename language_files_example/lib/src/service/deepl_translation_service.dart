@@ -11,15 +11,31 @@ import 'package:http/http.dart' as http;
 /// 1) Provided [apiKey] parameter.
 /// 2) `--dart-define=DEEPL_AUTH_KEY` (or `DEEPL_API_KEY`).
 /// 3) Environment variable `DEEPL_AUTH_KEY` / `DEEPL_API_KEY` (non-web only).
+///
+/// API keys ending in `:fx` use the DeepL Free endpoint. All other keys use the
+/// paid/Enterprise API endpoint.
 class DeepLTranslationService {
   DeepLTranslationService({
     String? apiKey,
     http.Client? client,
-    this.baseUrl = 'https://api-free.deepl.com',
+    String? baseUrl,
     Iterable<String> doNotTranslateTerms = const [],
+  }) : this._(
+         apiKey: _sanitize(apiKey ?? _resolveApiKey()),
+         client: client ?? http.Client(),
+         baseUrl: baseUrl,
+         doNotTranslateTerms: doNotTranslateTerms,
+       );
+
+  DeepLTranslationService._({
+    required String apiKey,
+    required http.Client client,
+    required String? baseUrl,
+    required Iterable<String> doNotTranslateTerms,
   }) : _doNotTranslateTerms = _sanitizeTerms(doNotTranslateTerms),
-       _apiKey = _sanitize(apiKey ?? _resolveApiKey()),
-       _client = client ?? http.Client();
+       _apiKey = apiKey,
+       _client = client,
+       baseUrl = baseUrl ?? _resolveBaseUrl(apiKey);
 
   final http.Client _client;
   final String baseUrl;
@@ -186,6 +202,10 @@ class DeepLTranslationService {
 
   static String _sanitize(String key) => key.trim();
 
+  static String _resolveBaseUrl(String apiKey) {
+    return apiKey.toLowerCase().endsWith(':fx') ? _deeplFreeBaseUrl : _deeplApiBaseUrl;
+  }
+
   static List<String> _sanitizeTerms(Iterable<String> terms) {
     final sanitized = terms.map((term) => term.trim()).where((term) => term.isNotEmpty).toSet().toList();
     sanitized.sort((a, b) => b.length.compareTo(a.length));
@@ -312,6 +332,8 @@ class DeepLTranslationService {
 const int _initialBackoffMs = 1000;
 const int _max429Retries = 4;
 const Duration _requestTimeout = Duration(seconds: 30);
+const String _deeplFreeBaseUrl = 'https://api-free.deepl.com';
+const String _deeplApiBaseUrl = 'https://api.deepl.com';
 
 _BraceMatch? _extractBrace(String text, int startIndex) {
   var depth = 0;

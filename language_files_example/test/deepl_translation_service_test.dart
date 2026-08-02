@@ -7,6 +7,48 @@ import 'package:http/testing.dart';
 import 'package:language_files_example/src/service/deepl_translation_service.dart';
 
 void main() {
+  test('uses DeepL Free endpoint for API keys ending with :fx', () async {
+    final service = DeepLTranslationService(
+      apiKey: 'test-key:fx',
+      client: MockClient((request) async {
+        expect(request.url, Uri.parse('https://api-free.deepl.com/v2/translate'));
+
+        return http.Response(
+          jsonEncode({
+            'translations': [
+              {'text': 'Hallo'},
+            ],
+          }),
+          200,
+        );
+      }),
+    );
+    addTearDown(service.close);
+
+    await service.translate(text: 'Hello', targetLang: LocaleClass.de, sourceLang: LocaleClass.en);
+  });
+
+  test('uses DeepL API endpoint for API keys without :fx', () async {
+    final service = DeepLTranslationService(
+      apiKey: 'test-key',
+      client: MockClient((request) async {
+        expect(request.url, Uri.parse('https://api.deepl.com/v2/translate'));
+
+        return http.Response(
+          jsonEncode({
+            'translations': [
+              {'text': 'Hallo'},
+            ],
+          }),
+          200,
+        );
+      }),
+    );
+    addTearDown(service.close);
+
+    await service.translate(text: 'Hello', targetLang: LocaleClass.de, sourceLang: LocaleClass.en);
+  });
+
   test('protects do-not-translate terms during translation and removes protection tags afterwards', () async {
     final service = DeepLTranslationService(
       apiKey: 'test-key',
@@ -57,7 +99,11 @@ void main() {
     );
     addTearDown(service.close);
 
-    final translated = await service.translate(text: 'Tibberish uses Tibber.', targetLang: LocaleClass.de, sourceLang: LocaleClass.en);
+    final translated = await service.translate(
+      text: 'Tibberish uses Tibber.',
+      targetLang: LocaleClass.de,
+      sourceLang: LocaleClass.en,
+    );
 
     expect(translated, 'Tibberish nutzt Tibber.');
   });
@@ -80,7 +126,11 @@ void main() {
     );
     addTearDown(service.close);
 
-    await service.translate(text: 'Möchten Sie Ihren Zählerstand speichern?', targetLang: LocaleClass.fr, sourceLang: LocaleClass.de);
+    await service.translate(
+      text: 'Möchten Sie Ihren Zählerstand speichern?',
+      targetLang: LocaleClass.fr,
+      sourceLang: LocaleClass.de,
+    );
   });
 
   test('sends informal formality for supported target languages when German source uses du', () async {
@@ -101,7 +151,11 @@ void main() {
     );
     addTearDown(service.close);
 
-    await service.translate(text: 'Möchtest du deinen Zählerstand speichern?', targetLang: LocaleClass.nl, sourceLang: LocaleClass.de);
+    await service.translate(
+      text: 'Möchtest du deinen Zählerstand speichern?',
+      targetLang: LocaleClass.nl,
+      sourceLang: LocaleClass.de,
+    );
   });
 
   test('detects formality per ICU option', () async {
@@ -216,6 +270,10 @@ void main() {
     );
     addTearDown(service.close);
 
-    await service.translate(text: 'Möchtest du deinen Zählerstand speichern?', targetLang: LocaleClass.da, sourceLang: LocaleClass.de);
+    await service.translate(
+      text: 'Möchtest du deinen Zählerstand speichern?',
+      targetLang: LocaleClass.da,
+      sourceLang: LocaleClass.de,
+    );
   });
 }

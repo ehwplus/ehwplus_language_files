@@ -36,3 +36,6 @@ Alternatively, pass the key as a Dart define:
 ```sh
 fvm flutter run -d macos --dart-define=DEEPL_API_KEY="<your-api-key>"
 ```
+
+Keys ending in `:fx` use the DeepL Free endpoint (`api-free.deepl.com`). Other
+keys use the paid/Enterprise endpoint (`api.deepl.com`).
