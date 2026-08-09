@@ -728,6 +728,7 @@
   "privacyTitle": "Datenschutzbestimmungen",
   "powerfoxConnectButton": "Mit Powerfox verbinden",
   "powerfoxDeviceConnectFailed": "Powerfox-Gerät konnte nicht verbunden werden.",
+  "powerfoxSessionExpired": "Ihre Powerfox-Anmeldung ist abgelaufen. Bitte melden Sie sich erneut an.",
   "powerfoxDeviceConnected": "Powerfox-Gerät verbunden",
   "powerfoxDeviceLabel": "Powerfox-Gerät",
   "powerfoxDeviceMissing": "Powerfox-Gerät fehlt.",

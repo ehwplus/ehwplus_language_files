@@ -2157,6 +2157,9 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'ไม่สามารถเชื่อมต่ออุปกรณ์ Powerfox ได้';
 
   @override
+  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+
+  @override
   String get powerfoxDeviceConnected => 'อุปกรณ์ Powerfox ได้เชื่อมต่อแล้ว';
 
   @override

@@ -3887,6 +3887,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Powerfox device could not be connected.'**
   String get powerfoxDeviceConnectFailed;
 
+  /// No description provided for @powerfoxSessionExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Powerfox session has expired. Please sign in again.'**
+  String get powerfoxSessionExpired;
+
   /// No description provided for @powerfoxDeviceConnected.
   ///
   /// In en, this message translates to:

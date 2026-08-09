@@ -1044,6 +1044,7 @@
   "privacyTitle": "Privacy policy",
   "powerfoxConnectButton": "Connect to Powerfox",
   "powerfoxDeviceConnectFailed": "Powerfox device could not be connected.",
+  "powerfoxSessionExpired": "Your Powerfox session has expired. Please sign in again.",
   "powerfoxDeviceConnected": "Powerfox device connected",
   "powerfoxDeviceLabel": "Powerfox device",
   "powerfoxDeviceMissing": "Powerfox device missing.",

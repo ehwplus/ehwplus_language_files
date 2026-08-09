@@ -2165,6 +2165,9 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'Уређај Powerfox није могао да се повеже.';
 
   @override
+  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+
+  @override
   String get powerfoxDeviceConnected => 'Powerfox уређај је повезан';
 
   @override
