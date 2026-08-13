@@ -2167,7 +2167,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'Không thể kết nối với thiết bị Powerfox.';
 
   @override
-  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+  String get powerfoxSessionExpired => 'Phiên làm việc Powerfox của quý vị đã hết hạn. Vui lòng đăng nhập lại.';
+
+  @override
+  String get powerfoxSubscriptionRequired => 'Để tích hợp Powerfox, quý vị cần có gói đăng ký EHW+ còn hiệu lực.';
 
   @override
   String get powerfoxDeviceConnected => 'Thiết bị Powerfox đã được kết nối';
@@ -2189,6 +2192,12 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => 'Không tìm thấy thiết bị Powerfox nào';
+
+  @override
+  String get powerfoxNoFlowShopHint => 'Quý vị chưa sở hữu Flow? Hãy ghé thăm cửa hàng Powerfox.';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => 'Quý vị chưa sở hữu PowerOpti? Hãy ghé thăm cửa hàng Powerfox.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Không thể tải được các số liệu từ Powerfox.';

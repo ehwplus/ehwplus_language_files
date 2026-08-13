@@ -2164,6 +2164,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get powerfoxSessionExpired => 'Ihre Powerfox-Anmeldung ist abgelaufen. Bitte melden Sie sich erneut an.';
 
   @override
+  String get powerfoxSubscriptionRequired => 'Für die Powerfox-Integration benötigen Sie ein aktives EHW+-Abo.';
+
+  @override
   String get powerfoxDeviceConnected => 'Powerfox-Gerät verbunden';
 
   @override
@@ -2183,6 +2186,12 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => 'Keine Powerfox-Geräte gefunden';
+
+  @override
+  String get powerfoxNoFlowShopHint => 'Sie haben noch keinen Flow? Hier geht\'s zum Powerfox-Shop.';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => 'Sie haben noch keinen PowerOpti? Hier geht\'s zum Powerfox-Shop.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox-Zählerstände konnten nicht geladen werden.';

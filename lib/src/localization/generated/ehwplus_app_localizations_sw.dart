@@ -2162,7 +2162,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'Kifaa cha Powerfox hakikuweza kuunganishwa.';
 
   @override
-  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+  String get powerfoxSessionExpired => 'Kipindi chako cha Powerfox kimekwisha. Tafadhali ingia tena.';
+
+  @override
+  String get powerfoxSubscriptionRequired => 'Usajili hai wa EHW+ unahitajika kwa ajili ya muunganisho wa Powerfox.';
 
   @override
   String get powerfoxDeviceConnected => 'Kifaa cha Powerfox kimeunganishwa';
@@ -2184,6 +2187,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => 'Hakuna vifaa vya Powerfox vilivyopatikana';
+
+  @override
+  String get powerfoxNoFlowShopHint => 'Bado huna Flow? Tembelea duka la Powerfox.';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => 'Bado huna PowerOpti? Tembelea duka la Powerfox.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Matokeo ya Powerfox hayakuweza kupakiwa.';

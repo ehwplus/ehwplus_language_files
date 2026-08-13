@@ -2171,7 +2171,11 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'Powerfox စက်ကို ချိတ်ဆက်၍ မရနိုင်ပါ။';
 
   @override
-  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+  String get powerfoxSessionExpired => 'သင့် Powerfox ဆက်ရှင် သက်တမ်းကုန်သွားပါပြီ။ ထပ်မံဝင်ရောက်ပါ။';
+
+  @override
+  String get powerfoxSubscriptionRequired =>
+      'Powerfox ပေါင်းစည်းမှုအတွက် လက်ရှိအသက်ဝင်သော EHW+ စာရင်းသွင်းမှု လိုအပ်ပါသည်။';
 
   @override
   String get powerfoxDeviceConnected => 'Powerfox စက် ချိတ်ဆက်ထားသည်။';
@@ -2193,6 +2197,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => 'Powerfox စက်ပစ္စည်း မတွေ့ပါ။';
+
+  @override
+  String get powerfoxNoFlowShopHint => 'Flow မရှိသေးဘူးလား? Powerfox ဆိုင်ကို လည်ပတ်ကြည့်ပါ။';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => 'PowerOpti မရှိသေးဘူးလား? Powerfox ဆိုင်ကို လည်ပတ်ကြည့်ပါ။';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox ဖတ်ချက်များကို တင်၍ မရနိုင်ခဲ့ပါ။';

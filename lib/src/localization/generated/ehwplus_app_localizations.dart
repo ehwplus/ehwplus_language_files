@@ -3893,6 +3893,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Your Powerfox session has expired. Please sign in again.'**
   String get powerfoxSessionExpired;
 
+  /// No description provided for @powerfoxSubscriptionRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'An active EHW+ subscription is required for the Powerfox integration.'**
+  String get powerfoxSubscriptionRequired;
+
   /// No description provided for @powerfoxDeviceConnected.
   ///
   /// In en, this message translates to:
@@ -3934,6 +3940,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'No Powerfox devices found'**
   String get powerfoxNoDevicesFound;
+
+  /// No description provided for @powerfoxNoFlowShopHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have a Flow yet? Visit the Powerfox shop.'**
+  String get powerfoxNoFlowShopHint;
+
+  /// No description provided for @powerfoxNoPoweroptiShopHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have a PowerOpti yet? Visit the Powerfox shop.'**
+  String get powerfoxNoPoweroptiShopHint;
 
   /// No description provided for @powerfoxReadingsLoadFailed.
   ///

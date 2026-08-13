@@ -2170,7 +2170,12 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'Non è stato possibile collegare il dispositivo Powerfox.';
 
   @override
-  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+  String get powerfoxSessionExpired =>
+      'La Sua sessione su Powerfox è scaduta. La preghiamo di effettuare nuovamente l\'accesso.';
+
+  @override
+  String get powerfoxSubscriptionRequired =>
+      'Per l\'integrazione con Powerfox è necessario disporre di un abbonamento attivo a EHW+.';
 
   @override
   String get powerfoxDeviceConnected => 'Dispositivo Powerfox collegato';
@@ -2192,6 +2197,12 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => 'Non sono stati rilevati dispositivi Powerfox';
+
+  @override
+  String get powerfoxNoFlowShopHint => 'Non ha ancora un Flow? Visiti il negozio Powerfox.';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => 'Non avete ancora un PowerOpti? Visitate il negozio Powerfox.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Non è stato possibile caricare i dati di Powerfox.';

@@ -2170,7 +2170,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'A Powerfox eszköz csatlakoztatása nem sikerült.';
 
   @override
-  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+  String get powerfoxSessionExpired => 'A Powerfox-munkamenete lejárt. Kérjük, jelentkezzen be újra.';
+
+  @override
+  String get powerfoxSubscriptionRequired => 'A Powerfox-integrációhoz érvényes „EHW+” előfizetés szükséges.';
 
   @override
   String get powerfoxDeviceConnected => 'A Powerfox eszköz csatlakoztatva';
@@ -2192,6 +2195,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => 'Nem találtak Powerfox-eszközöket';
+
+  @override
+  String get powerfoxNoFlowShopHint => 'Még nincs Flow-od? Látogass el a Powerfox boltba!';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => 'Még nincs PowerOpti-d? Látogass el a Powerfox boltba!';
 
   @override
   String get powerfoxReadingsLoadFailed => 'A Powerfox mérési eredményei nem töltődtek be.';

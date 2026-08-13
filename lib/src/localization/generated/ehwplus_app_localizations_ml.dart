@@ -2172,7 +2172,10 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => 'പവർഫോക്സ് ഉപകരണം ബന്ധിപ്പിക്കാൻ കഴിഞ്ഞില്ല.';
 
   @override
-  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+  String get powerfoxSessionExpired => 'നിങ്ങളുടെ പവർഫോക്സ് സെഷൻ കാലഹരണപ്പെട്ടു. ദയവായി വീണ്ടും സൈൻ ഇൻ ചെയ്യുക.';
+
+  @override
+  String get powerfoxSubscriptionRequired => 'പവർഫോക്സ് ഇന്റഗ്രേഷന് സജീവമായ ഒരു EHW+ വരിക്കാരണം ആവശ്യമാണ്.';
 
   @override
   String get powerfoxDeviceConnected => 'പവർഫോക്സ് ഉപകരണം കണക്ട് ചെയ്തു';
@@ -2194,6 +2197,12 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => 'പവർഫോക്സ് ഉപകരണങ്ങൾ ഒന്നും കണ്ടെത്തിയില്ല';
+
+  @override
+  String get powerfoxNoFlowShopHint => 'ഇതുവരെ ഫ്ലോ സ്വന്തമാക്കിയില്ലേ? പവർഫോക്സ് ഷോപ്പിൽ സന്ദർശിക്കുക.';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => 'ഇതുവരെ പവർഓപ്റ്റി ഇല്ലേ? പവർഫോക്സ് ഷോപ്പിൽ സന്ദർശിക്കുക.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'പവർഫോക്സ് റീഡിംഗുകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.';

@@ -2107,7 +2107,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get powerfoxDeviceConnectFailed => '无法连接 Powerfox 设备。';
 
   @override
-  String get powerfoxSessionExpired => 'Your Powerfox session has expired. Please sign in again.';
+  String get powerfoxSessionExpired => '您的 Powerfox 会话已过期。请重新登录。';
+
+  @override
+  String get powerfoxSubscriptionRequired => '要使用 Powerfox 集成，必须拥有有效的 EHW+ 订阅。';
 
   @override
   String get powerfoxDeviceConnected => '已连接 Powerfox 设备';
@@ -2129,6 +2132,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoDevicesFound => '未找到任何 Powerfox 设备';
+
+  @override
+  String get powerfoxNoFlowShopHint => '还没有 Flow 吗？请访问 Powerfox 商店。';
+
+  @override
+  String get powerfoxNoPoweroptiShopHint => '还没有 PowerOpti 吗？请访问 Powerfox 商店。';
 
   @override
   String get powerfoxReadingsLoadFailed => '无法加载 Powerfox 的读数。';
