@@ -3911,6 +3911,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Powerfox device'**
   String get powerfoxDeviceLabel;
 
+  /// No description provided for @powerfoxLoginAndUnlink.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in and unlink'**
+  String get powerfoxLoginAndUnlink;
+
   /// No description provided for @powerfoxDeviceMissing.
   ///
   /// In en, this message translates to:

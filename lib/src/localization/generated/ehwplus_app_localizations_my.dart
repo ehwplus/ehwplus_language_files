@@ -2184,6 +2184,9 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox စက်';
 
   @override
+  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+
+  @override
   String get powerfoxDeviceMissing => 'Powerfox ကိရိယာ မတွေ့ပါ။';
 
   @override

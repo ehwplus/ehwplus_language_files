@@ -2182,6 +2182,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox készülék';
 
   @override
+  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+
+  @override
   String get powerfoxDeviceMissing => 'Hiányzik a Powerfox eszköz.';
 
   @override

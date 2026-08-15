@@ -2178,6 +2178,9 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Naprava Powerfox';
 
   @override
+  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+
+  @override
   String get powerfoxDeviceMissing => 'Naprava Powerfox manjka.';
 
   @override

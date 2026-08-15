@@ -2174,6 +2174,9 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Dispositivo Powerfox';
 
   @override
+  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+
+  @override
   String get powerfoxDeviceMissing => 'O dispositivo Powerfox não foi detetado.';
 
   @override

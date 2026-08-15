@@ -732,6 +732,7 @@
   "powerfoxSubscriptionRequired": "Für die Powerfox-Integration benötigen Sie ein aktives EHW+-Abo.",
   "powerfoxDeviceConnected": "Powerfox-Gerät verbunden",
   "powerfoxDeviceLabel": "Powerfox-Gerät",
+  "powerfoxLoginAndUnlink": "Einloggen und entknüpfen",
   "powerfoxDeviceMissing": "Powerfox-Gerät fehlt.",
   "powerfoxDivisionColdAndWarmWater": "Kalt- und Warmwasser",
   "powerfoxDivisionHeat": "Wärme",

@@ -2174,6 +2174,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Kifaa cha Powerfox';
 
   @override
+  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+
+  @override
   String get powerfoxDeviceMissing => 'Kifaa cha Powerfox hakipo.';
 
   @override

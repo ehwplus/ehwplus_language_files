@@ -2119,6 +2119,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox 设备';
 
   @override
+  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+
+  @override
   String get powerfoxDeviceMissing => 'Powerfox 设备丢失。';
 
   @override
