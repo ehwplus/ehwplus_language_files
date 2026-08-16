@@ -2174,7 +2174,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Kifaa cha Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Ingia na kuondoa uhusiano';
 
   @override
   String get powerfoxDeviceMissing => 'Kifaa cha Powerfox hakipo.';
@@ -2196,6 +2196,35 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Bado huna PowerOpti? Tembelea duka la Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Jipya: Unganisha PowerOpti na EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Je, unatumia PowerOpti kutoka Powerfox? Iunganishe kwenye mita yako ya umeme katika EHW+. Soma za mita yako zitaingizwa kiotomatiki.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Bado huna PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'UNGEZA NGUVUOPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'NUNUA POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Matangazo ya sasisho';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Hufuta arifa zote za sasisho zilizopuuzwa. Zinaweza kuonyeshwa tena baada ya kuanzisha programu upya.';
+
+  @override
+  String get updateNoticeDebugReset => 'Weka upya arifa za masasisho';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Arifa za sasisho zimesetiwa upya.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Matokeo ya Powerfox hayakuweza kupakiwa.';

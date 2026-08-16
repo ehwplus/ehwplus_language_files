@@ -2184,7 +2184,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox စက်';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'ဝင်ရောက်ပြီး ချိတ်ဆက်မှုကို ဖျက်ရန်';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox ကိရိယာ မတွေ့ပါ။';
@@ -2206,6 +2206,35 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'PowerOpti မရှိသေးဘူးလား? Powerfox ဆိုင်ကို လည်ပတ်ကြည့်ပါ။';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'အသစ်: PowerOpti ကို EHW+ နှင့် ချိတ်ဆက်ပါ။';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'သင် Powerfox ရဲ့ PowerOpti ကို အသုံးပြုပါသလား။ EHW+ မှာ သင့်လျှပ်စစ်မီတာနှင့် ချိတ်ဆက်ပါ။ ထိုအခါ သင့်မီတာဖတ်ချက်များကို အလိုအလျောက် တင်သွင်းပေးပါလိမ့်မယ်။';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'PowerOpti မရှိသေးဘူးလား?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'CONNECT POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'POWEROPTI ကို ဝယ်ပါ';
+
+  @override
+  String get updateNoticeDebugTitle => 'အပ်ဒိတ် အသိပေးချက်များ';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'ပယ်ဖျက်ထားသော အပ်ဒိတ် အသိပေးချက်အားလုံးကို ဖျက်ပစ်သည်။ အက်ပ်ကို ပြန်စတင်ပြီးနောက် ထပ်မံ ပြသနိုင်ပါသည်။';
+
+  @override
+  String get updateNoticeDebugReset => 'အပ်ဒိတ် အသိပေးချက်များကို ပြန်လည်စတင်ပါ။';
+
+  @override
+  String get updateNoticeDebugResetDone => 'အပ်ဒိတ် အသိပေးချက်များကို ပြန်လည်သတ်မှတ်ထားသည်။';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox ဖတ်ချက်များကို တင်၍ မရနိုင်ခဲ့ပါ။';

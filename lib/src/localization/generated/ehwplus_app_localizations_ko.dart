@@ -2139,7 +2139,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox 기기';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => '로그인 후 연결 해제하기';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox 장치가 없습니다.';
@@ -2161,6 +2161,34 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => '아직 PowerOpti를 가지고 계시지 않으신가요? Powerfox 쇼핑몰을 방문해 보세요.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => '새로운 기능: PowerOpti를 EHW+와 연동하세요';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Powerfox의 PowerOpti를 사용하고 계신가요? EHW+에서 이 기기를 전기 계량기에 연결하세요. 그러면 계량기 검침값이 자동으로 가져와집니다.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => '아직 PowerOpti가 없으신가요?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'CONNECT POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => '파워옵티 구매하기';
+
+  @override
+  String get updateNoticeDebugTitle => '업데이트 공지';
+
+  @override
+  String get updateNoticeDebugDescription => '닫은 모든 업데이트 알림을 삭제합니다. 앱을 다시 실행하면 해당 알림이 다시 표시될 수 있습니다.';
+
+  @override
+  String get updateNoticeDebugReset => '업데이트 알림 초기화';
+
+  @override
+  String get updateNoticeDebugResetDone => '업데이트 알림이 초기화되었습니다.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox 측정값을 불러올 수 없습니다.';

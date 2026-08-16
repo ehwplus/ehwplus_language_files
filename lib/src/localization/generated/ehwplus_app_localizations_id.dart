@@ -2182,7 +2182,7 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Perangkat Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Masuk dan putuskan tautan';
 
   @override
   String get powerfoxDeviceMissing => 'Perangkat Powerfox tidak ditemukan.';
@@ -2204,6 +2204,35 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Belum punya PowerOpti? Kunjungi toko Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Baru: Hubungkan PowerOpti dengEHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Apakah Anda menggunakan PowerOpti dari Powerfox? Hubungkan perangkat tersebut ke meteran listrik Anda di EHW+. Pembacaan meteran Anda kemudian akan diimpor secara otomatis.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Belum punya PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'HUBUNGKAN POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'BELI POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Pemberitahuan pembaruan';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Menghapus semua pemberitahuan pembaruan yang telah ditutup. Pemberitahuan tersebut dapat ditampilkan kembali setelah aplikasi dijalankan ulang.';
+
+  @override
+  String get updateNoticeDebugReset => 'Atur ulang pemberitahuan pembaruan';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Pemberitahuan pembaruan telah disetel ulang.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Data Powerfox tidak dapat dimuat.';

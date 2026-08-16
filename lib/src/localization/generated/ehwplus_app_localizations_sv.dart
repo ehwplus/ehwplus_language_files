@@ -2174,7 +2174,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox-enhet';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Logga in och ta bort kopplingen';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox-enheten saknas.';
@@ -2196,6 +2196,35 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Har du inte en PowerOpti än? Besök Powerfox-butiken.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Nytt: Anslut PowerOpti till EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Använder du en PowerOpti från Powerfox? Anslut den till din elmätare i EHW+. Dina mätvärden importeras då automatiskt.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Har du inte PowerOpti än?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'ANSLUT POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'KÖP POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Uppdateringsmeddelanden';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Tar bort alla stängda uppdateringsmeddelanden. De kan visas igen efter att appen har startats om.';
+
+  @override
+  String get updateNoticeDebugReset => 'Återställ uppdateringsmeddelanden';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Uppdateringsmeddelandena har återställts.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Det gick inte att ladda Powerfox-mätvärdena.';

@@ -2175,7 +2175,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Zařízení Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Přihlásit se a zrušit propojení';
 
   @override
   String get powerfoxDeviceMissing => 'Chybí zařízení Powerfox.';
@@ -2197,6 +2197,35 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Ještě nemáte PowerOpti? Navštivte obchod Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Novinka: Propojte PowerOpti s aplikací „EHW+“';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Používáte zařízení PowerOpti od společnosti Powerfox? Připojte jej k elektroměru v aplikaci „EHW+“. Údaje z elektroměru se pak budou importovat automaticky.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Ještě nemáte PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'PŘIPOJTE POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'KOUPIT POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Oznámení o aktualizacích';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Odstraní všechna zavřená oznámení o aktualizacích. Po restartování aplikace se mohou znovu zobrazit.';
+
+  @override
+  String get updateNoticeDebugReset => 'Vynulovat upozornění na aktualizace';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Oznámení o aktualizacích byla vynulována.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Nedařilo se načíst údaje z Powerfoxu.';

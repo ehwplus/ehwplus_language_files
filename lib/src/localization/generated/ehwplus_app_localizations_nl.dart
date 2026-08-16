@@ -2180,7 +2180,7 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox-apparaat';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Aanmelden en koppeling verbreken';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox-apparaat ontbreekt.';
@@ -2202,6 +2202,35 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Heeft u nog geen PowerOpti? Bezoek dan de Powerfox-winkel.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Nieuw: Koppel PowerOpti aan EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Gebruikt u een PowerOpti van Powerfox? Sluit deze dan in EHW+ aan op uw elektriciteitsmeter. Uw meterstanden worden dan automatisch geïmporteerd.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Heeft u nog geen PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'CONNECT POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'KOOP POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Meldingen over updates';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Hiermee worden alle gesloten updatemeldingen verwijderd. Deze kunnen na het opnieuw opstarten van de app opnieuw worden weergegeven.';
+
+  @override
+  String get updateNoticeDebugReset => 'Meldingen over updates opnieuw instellen';
+
+  @override
+  String get updateNoticeDebugResetDone => 'De meldingen over updates zijn gereset.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'De Powerfox-meetwaarden konden niet worden geladen.';

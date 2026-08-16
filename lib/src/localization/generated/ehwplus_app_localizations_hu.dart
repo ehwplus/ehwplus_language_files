@@ -2182,7 +2182,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox készülék';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Bejelentkezés és a kapcsolat megszüntetése';
 
   @override
   String get powerfoxDeviceMissing => 'Hiányzik a Powerfox eszköz.';
@@ -2204,6 +2204,35 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Még nincs PowerOpti-d? Látogass el a Powerfox boltba!';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Újdonság: Csatlakoztassa a PowerOpti-t az EHW+ weboldalhoz';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Használsz Powerfox PowerOpti készüléket? Csatlakoztasd azt a villanyfogyasztás-mérőhöz az „EHW+” menüpontban. A mérőállásokat ezután automatikusan importálja a rendszer.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Még nincs PowerOpti-d?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'CONNECT POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'VÁSÁRLJA MEG A POWEROPTI-T';
+
+  @override
+  String get updateNoticeDebugTitle => 'Frissítési értesítések';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Törli az összes elutasított frissítési értesítést. Az alkalmazás újraindítása után ezek újra megjelenhetnek.';
+
+  @override
+  String get updateNoticeDebugReset => 'A frissítési értesítések visszaállítása';
+
+  @override
+  String get updateNoticeDebugResetDone => 'A frissítési értesítések visszaálltak az alapértelmezett állapotra.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'A Powerfox mérési eredményei nem töltődtek be.';

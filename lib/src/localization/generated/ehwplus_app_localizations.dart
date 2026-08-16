@@ -3959,6 +3959,60 @@ abstract class EhwplusAppLocalizations {
   /// **'Don\'t have a PowerOpti yet? Visit the Powerfox shop.'**
   String get powerfoxNoPoweroptiShopHint;
 
+  /// No description provided for @poweroptiUpdateNoticeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New: Connect PowerOpti with EHW+'**
+  String get poweroptiUpdateNoticeTitle;
+
+  /// No description provided for @poweroptiUpdateNoticeMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you use a PowerOpti from Powerfox? Connect it to your electricity meter in EHW+. Your meter readings will then be imported automatically.'**
+  String get poweroptiUpdateNoticeMessage;
+
+  /// No description provided for @poweroptiUpdateNoticeShopHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have a PowerOpti yet?'**
+  String get poweroptiUpdateNoticeShopHint;
+
+  /// No description provided for @poweroptiUpdateNoticeConnect.
+  ///
+  /// In en, this message translates to:
+  /// **'CONNECT POWEROPTI'**
+  String get poweroptiUpdateNoticeConnect;
+
+  /// No description provided for @poweroptiUpdateNoticeBuy.
+  ///
+  /// In en, this message translates to:
+  /// **'BUY POWEROPTI'**
+  String get poweroptiUpdateNoticeBuy;
+
+  /// No description provided for @updateNoticeDebugTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Update notices'**
+  String get updateNoticeDebugTitle;
+
+  /// No description provided for @updateNoticeDebugDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Deletes all dismissed update notices. They can be displayed again after restarting the app.'**
+  String get updateNoticeDebugDescription;
+
+  /// No description provided for @updateNoticeDebugReset.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset update notices'**
+  String get updateNoticeDebugReset;
+
+  /// No description provided for @updateNoticeDebugResetDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Update notices have been reset.'**
+  String get updateNoticeDebugResetDone;
+
   /// No description provided for @powerfoxReadingsLoadFailed.
   ///
   /// In en, this message translates to:

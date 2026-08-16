@@ -2199,6 +2199,35 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get powerfoxNoPoweroptiShopHint => 'Don\'t have a PowerOpti yet? Visit the Powerfox shop.';
 
   @override
+  String get poweroptiUpdateNoticeTitle => 'New: Connect PowerOpti with EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Do you use a PowerOpti from Powerfox? Connect it to your electricity meter in EHW+. Your meter readings will then be imported automatically.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Don\'t have a PowerOpti yet?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'CONNECT POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'BUY POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Update notices';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Deletes all dismissed update notices. They can be displayed again after restarting the app.';
+
+  @override
+  String get updateNoticeDebugReset => 'Reset update notices';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Update notices have been reset.';
+
+  @override
   String get powerfoxReadingsLoadFailed => 'Powerfox readings could not be loaded.';
 
   @override

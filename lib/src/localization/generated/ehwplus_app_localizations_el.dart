@@ -2190,7 +2190,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Συσκευή Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Συνδεθείτε και αποσυνδέστε';
 
   @override
   String get powerfoxDeviceMissing => 'Η συσκευή Powerfox λείπει.';
@@ -2212,6 +2212,35 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Δεν έχετε ακόμα το PowerOpti; Επισκεφθείτε το κατάστημα Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Νέο: Συνδέστε το PowerOpti με το EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Χρησιμοποιείτε το PowerOpti της Powerfox; Συνδέστε το στον μετρητή ηλεκτρικού ρεύματος σας στο EHW+. Οι ενδείξεις του μετρητή σας θα εισαχθούν τότε αυτόματα.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Δεν έχετε ακόμα το PowerOpti;';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'ΣΥΝΔΕΣΗ POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'ΑΓΟΡΑΣΤΕ ΤΟ POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Ειδοποιήσεις ενημέρωσης';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Διαγράφει όλες τις ειδοποιήσεις ενημέρωσης που έχουν κλείσει. Μπορούν να εμφανιστούν ξανά μετά την επανεκκίνηση της εφαρμογής.';
+
+  @override
+  String get updateNoticeDebugReset => 'Επαναφορά ειδοποιήσεων ενημέρωσης';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Οι ειδοποιήσεις ενημέρωσης έχουν επαναφερθεί.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Δεν ήταν δυνατή η φόρτωση των μετρήσεων του Powerfox.';

@@ -2179,7 +2179,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox cihazı';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Giriş yapın ve bağlantıyı kaldırın';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox cihazı kayıp.';
@@ -2201,6 +2201,35 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Henüz bir PowerOpti\'niz yok mu? Powerfox mağazasını ziyaret edin.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Yeni: PowerOpti\'yi EHW+ ile bağlayın';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Powerfox’un PowerOpti cihazını kullanıyor musunuz? Bu cihazı EHW+ adresinden elektrik sayacınıza bağlayın. Böylece sayaç okumalarınız otomatik olarak içe aktarılacaktır.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Henüz bir PowerOpti\'niz yok mu?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'POWEROPTI\'YE BAĞLAN';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'POWEROPTI\'Yİ SATIN AL';
+
+  @override
+  String get updateNoticeDebugTitle => 'Güncelleme bildirimleri';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Kapatılan tüm güncelleme bildirimlerini siler. Uygulama yeniden başlatıldıktan sonra bu bildirimler tekrar görüntülenebilir.';
+
+  @override
+  String get updateNoticeDebugReset => 'Güncelleme bildirimlerini sıfırla';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Güncelleme bildirimleri sıfırlandı.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox verileri yüklenemedi.';

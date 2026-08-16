@@ -2177,7 +2177,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'पावरफॉक्स डिवाइस';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'साइन इन करें और अनलिंक करें';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox डिवाइस अनुपस्थित है।';
@@ -2199,6 +2199,35 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'क्या आपके पास अभी तक PowerOpti नहीं है? Powerfox की दुकान पर जाएँ।';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'नया: PowerOpti को EHW+ से कनेक्ट करें';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'क्या आप Powerfox का PowerOpti उपयोग करते हैं? इसे EHW+ में अपने बिजली मीटर से कनेक्ट करें। आपकी मीटर रीडिंग्स फिर स्वचालित रूप से आयात हो जाएँगी।';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'क्या आपके पास अभी तक PowerOpti नहीं है?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'कनेक्ट पावरऑप्टि';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'पावरऑप्टी खरीदें';
+
+  @override
+  String get updateNoticeDebugTitle => 'अद्यतन सूचनाएँ';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'सभी खारिज किए गए अपडेट नोटिस हटा देता है। ऐप को पुनः आरंभ करने के बाद इन्हें फिर से दिखाया जा सकता है।';
+
+  @override
+  String get updateNoticeDebugReset => 'अपडेट सूचनाओं को रीसेट करें';
+
+  @override
+  String get updateNoticeDebugResetDone => 'अपडेट सूचनाएं रीसेट कर दी गई हैं।';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox रीडिंग्स लोड नहीं हो सकीं।';

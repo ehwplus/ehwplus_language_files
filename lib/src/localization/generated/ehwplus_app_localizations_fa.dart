@@ -2171,7 +2171,7 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'دستگاه پاورفاکس';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'وارد شوید و جدا کنید';
 
   @override
   String get powerfoxDeviceMissing => 'دستگاه Powerfox پیدا نشد.';
@@ -2193,6 +2193,35 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'هنوز PowerOpti ندارید؟ به فروشگاه Powerfox مراجعه کنید.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'جدید: PowerOpti را به EHW+ متصل کنید';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'آیا از PowerOpti شرکت Powerfox استفاده می‌کنید؟ آن را به کنتور برق خود در EHW+ متصل کنید. سپس قرائت‌های کنتور شما به‌طور خودکار وارد می‌شوند.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'هنوز PowerOpti ندارید؟';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'به قدرت وصل شوید';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'پاورآپتی را بخرید';
+
+  @override
+  String get updateNoticeDebugTitle => 'اطلاعات به‌روزرسانی';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'تمام اعلان‌های به‌روزرسانی ردشده را حذف می‌کند. این اعلان‌ها پس از راه‌اندازی مجدد برنامه دوباره نمایش داده می‌شوند.';
+
+  @override
+  String get updateNoticeDebugReset => 'بازنشانی اعلان‌های به‌روزرسانی';
+
+  @override
+  String get updateNoticeDebugResetDone => 'اعلان‌های به‌روزرسانی بازنشانی شده‌اند.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'خوانش‌های Powerfox بارگذاری نشدند.';

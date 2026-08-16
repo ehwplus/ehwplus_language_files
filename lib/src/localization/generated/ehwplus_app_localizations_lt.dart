@@ -2180,7 +2180,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => '„Powerfox“ įrenginys';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Prisijunkite ir atjunkite sąsają';
 
   @override
   String get powerfoxDeviceMissing => 'Trūksta „Powerfox“ įrenginio.';
@@ -2202,6 +2202,35 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Dar neturite „PowerOpti“? Apsilankykite „Powerfox“ parduotuvėje.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Nauja funkcija: „PowerOpti“ sujungimas su „EHW+“';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Ar naudojate „Powerfox“ gaminį „PowerOpti“? Prijunkite jį prie savo elektros skaitiklio „EHW+“ sistemoje. Tuomet jūsų skaitiklio rodmenys bus importuojami automatiškai.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Dar neturite „PowerOpti“?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'PRIJUNGTI „POWEROPTI“';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'PIRKITE „POWEROPTI“';
+
+  @override
+  String get updateNoticeDebugTitle => 'Pranešimai apie atnaujinimus';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Ištrina visus atmestus atnaujinimo pranešimus. Juos vėl bus galima peržiūrėti paleidus programą iš naujo.';
+
+  @override
+  String get updateNoticeDebugReset => 'Atstatyti pranešimus apie atnaujinimus';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Atnaujinimų pranešimai buvo ištrinti.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Nepavyko įkelti „Powerfox“ rodmenų.';

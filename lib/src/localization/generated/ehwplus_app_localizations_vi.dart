@@ -2179,7 +2179,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Thiết bị Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Đăng nhập và hủy liên kết';
 
   @override
   String get powerfoxDeviceMissing => 'Thiết bị Powerfox bị mất.';
@@ -2201,6 +2201,35 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Quý vị chưa sở hữu PowerOpti? Hãy ghé thăm cửa hàng Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Tính năng mới: Kết nối PowerOpti với EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Quý vị có đang sử dụng thiết bị PowerOpti của Powerfox không? Vui lòng kết nối thiết bị này với đồng hồ điện của quý vị tại EHW+. Sau đó, các chỉ số đo của đồng hồ sẽ được nhập tự động.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Quý vị vẫn chưa sở hữu PowerOpti sao?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'KẾT NỐI POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'MUA POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Thông báo cập nhật';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Xóa tất cả các thông báo cập nhật đã bị đóng. Các thông báo này có thể được hiển thị lại sau khi khởi động lại ứng dụng.';
+
+  @override
+  String get updateNoticeDebugReset => 'Đặt lại thông báo cập nhật';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Các thông báo cập nhật đã được thiết lập lại.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Không thể tải được các số liệu từ Powerfox.';

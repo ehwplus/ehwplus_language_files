@@ -2182,7 +2182,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Dispozitivul Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Conectează-te și dezactivează asocierea';
 
   @override
   String get powerfoxDeviceMissing => 'Dispozitivul Powerfox lipsește.';
@@ -2204,6 +2204,35 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Nu ai încă un PowerOpti? Vizitează magazinul Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Noutate: Conectați PowerOpti lEHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Folosiți un dispozitiv PowerOpti de la Powerfox? Conectați-l la contorul de energie electrică în EHW+. Citirile contorului vor fi apoi importate automat.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Nu ai încă un PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'CONECTAȚI POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'CUMPĂRĂ POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Notificări privind actualizările';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Șterge toate notificările de actualizare respinse. Acestea pot fi afișate din nou după repornirea aplicației.';
+
+  @override
+  String get updateNoticeDebugReset => 'Resetare notificări de actualizare';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Notificările privind actualizările au fost resetate.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Nu s-au putut încărca datele de la Powerfox.';

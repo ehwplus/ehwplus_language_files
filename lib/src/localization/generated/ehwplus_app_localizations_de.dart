@@ -2197,6 +2197,35 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get powerfoxNoPoweroptiShopHint => 'Sie haben noch keinen PowerOpti? Hier geht\'s zum Powerfox-Shop.';
 
   @override
+  String get poweroptiUpdateNoticeTitle => 'Neu: PowerOpti mit EHW+ verbinden';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Sie nutzen einen PowerOpti von Powerfox? Verbinden Sie ihn jetzt mit Ihrem Stromzähler in EHW+. Ihre Zählerstände werden anschließend automatisch übernommen.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Sie haben noch keinen PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'POWEROPTI VERBINDEN';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'POWEROPTI KAUFEN';
+
+  @override
+  String get updateNoticeDebugTitle => 'Update-Hinweise';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Löscht alle ausgeblendeten Update-Hinweise. Nach einem Neustart können sie erneut angezeigt werden.';
+
+  @override
+  String get updateNoticeDebugReset => 'Update-Hinweise zurücksetzen';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Update-Hinweise wurden zurückgesetzt.';
+
+  @override
   String get powerfoxReadingsLoadFailed => 'Powerfox-Zählerstände konnten nicht geladen werden.';
 
   @override

@@ -2168,7 +2168,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'جهاز Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'تسجيل الدخول وإلغاء الربط';
 
   @override
   String get powerfoxDeviceMissing => 'جهاز Powerfox مفقود.';
@@ -2190,6 +2190,35 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'ألا تمتلك جهاز PowerOpti بعد؟ تفضل بزيارة متجر Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'جديد: قم بربط PowerOpti بـ EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'هل تستخدم جهاز PowerOpti من Powerfox؟ قم بتوصيله بعداد الكهرباء الخاص بك في EHW+. وعندئذٍ سيتم استيراد قراءات العداد تلقائيًّا.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'ألا تمتلك جهاز PowerOpti بعد؟';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'توصيل PowerOPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'اشترِ «بايروبتي»';
+
+  @override
+  String get updateNoticeDebugTitle => 'إشعارات التحديث';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'يحذف جميع إشعارات التحديث التي تم تجاهلها. ويمكن عرضها مرة أخرى بعد إعادة تشغيل التطبيق.';
+
+  @override
+  String get updateNoticeDebugReset => 'إعادة تعيين إشعارات التحديث';
+
+  @override
+  String get updateNoticeDebugResetDone => 'تمت إعادة تعيين إشعارات التحديث.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'تعذر تحميل قراءات Powerfox.';

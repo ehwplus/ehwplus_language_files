@@ -2178,7 +2178,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox-seade';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Logi sisse ja eemalda seos';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox-seade puudub.';
@@ -2200,6 +2200,35 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Kas sul pole veel PowerOptit? Külasta Powerfoxi poodi.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Uus: ühendage PowerOpti rakendusega „EHW+“';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Kas kasutate Powerfoxi toodet PowerOpti? Ühendage see oma elektriarvestijEHW+is. Seejärel imporditakse teie arvestinäidud automaatselt.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Kas sul pole veel PowerOptit?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'ÜHENDA POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'OSTA POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Uuendusteated';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Kustutab kõik suletud värskendusteated. Neid saab pärast rakenduse taaskäivitamist uuesti kuvada.';
+
+  @override
+  String get updateNoticeDebugReset => 'Värskendusteadete tühistamine';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Uuendusteated on lähtestatud.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfoxi näiteid ei õnnestunud laadida.';

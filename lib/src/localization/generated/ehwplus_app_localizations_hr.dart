@@ -2177,7 +2177,7 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox uređaj';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Prijavite se i odvezite';
 
   @override
   String get powerfoxDeviceMissing => 'Uređaj Powerfox nedostaje.';
@@ -2199,6 +2199,35 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Još nemate PowerOpti? Posjetite Powerfox trgovinu.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Novo: Povežite PowerOpti s EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Koristite li PowerOpti od Powerfoxa? Povežite ga s vašim električnim brojilom u aplikaciji EHW+. Vaša očitanja brojila bit će zatim automatski uvožena.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Još nemate PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'Poveži PowerOPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'KUPI POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Obavijesti o ažuriranju';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Brisanje svih obavijesti o ažuriranju koje su zatvorene. Ponovno se mogu prikazati nakon ponovnog pokretanja aplikacije.';
+
+  @override
+  String get updateNoticeDebugReset => 'Resetirajte obavijesti o ažuriranju';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Obavijesti o ažuriranju su resetirane.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox očitanja nisu mogla biti učitana.';

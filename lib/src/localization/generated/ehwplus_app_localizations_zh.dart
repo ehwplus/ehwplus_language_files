@@ -2119,7 +2119,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox 设备';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => '登录并解除关联';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox 设备丢失。';
@@ -2141,6 +2141,33 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => '还没有 PowerOpti 吗？请访问 Powerfox 商店。';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => '新功能：将 PowerOpti 与 EHW+ 连接';
+
+  @override
+  String get poweroptiUpdateNoticeMessage => '您是否在使用Powerfox公司的PowerOpti设备？请将其连接到EHW+中的电表。这样，您的电表读数就会自动导入。';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => '还没有 PowerOpti 吗？';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => '连接 POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => '购买 POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => '更新通知';
+
+  @override
+  String get updateNoticeDebugDescription => '删除所有已关闭的更新通知。重新启动应用后，这些通知将再次显示。';
+
+  @override
+  String get updateNoticeDebugReset => '重置更新通知';
+
+  @override
+  String get updateNoticeDebugResetDone => '更新通知已重置。';
 
   @override
   String get powerfoxReadingsLoadFailed => '无法加载 Powerfox 的读数。';

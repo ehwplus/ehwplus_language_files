@@ -2170,7 +2170,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'อุปกรณ์ Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'เข้าสู่ระบบและยกเลิกการเชื่อมโยง';
 
   @override
   String get powerfoxDeviceMissing => 'อุปกรณ์ Powerfox ไม่พบ';
@@ -2192,6 +2192,35 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'ยังไม่มี PowerOpti ใช่ไหม? เข้าชมร้าน Powerfox ได้เลย';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'ใหม่: เชื่อมต่อ PowerOpti กับ EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'คุณใช้ PowerOpti ของ Powerfox อยู่หรือไม่? เชื่อมต่ออุปกรณ์นี้กับมิเตอร์ไฟฟ้าของคุณใน EHW+ แล้วข้อมูลการอ่านมิเตอร์ของคุณจะถูกนำเข้าอัตโนมัติ';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'ยังไม่มี PowerOpti ใช่ไหม?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'CONNECT POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'ซื้อ POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'ประกาศอัปเดต';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'ลบการแจ้งเตือนการอัปเดตทั้งหมดที่ถูกปิดไปแล้ว การแจ้งเตือนเหล่านี้อาจปรากฏขึ้นอีกครั้งหลังจากรีสตาร์ทแอป';
+
+  @override
+  String get updateNoticeDebugReset => 'ตั้งใหม่การแจ้งเตือนการอัปเดต';
+
+  @override
+  String get updateNoticeDebugResetDone => 'การแจ้งเตือนการอัปเดตได้ถูกตั้งใหม่แล้ว';
 
   @override
   String get powerfoxReadingsLoadFailed => 'ไม่สามารถโหลดข้อมูลการวัดจาก Powerfox ได้';

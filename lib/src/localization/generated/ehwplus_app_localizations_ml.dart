@@ -2184,7 +2184,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'പവർഫോക്സ് ഉപകരണം';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'സൈൻ ഇൻ ചെയ്ത് അൺലിങ്ക് ചെയ്യുക';
 
   @override
   String get powerfoxDeviceMissing => 'പവർഫോക്സ് ഉപകരണം കാണാനില്ല.';
@@ -2206,6 +2206,35 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'ഇതുവരെ പവർഓപ്റ്റി ഇല്ലേ? പവർഫോക്സ് ഷോപ്പിൽ സന്ദർശിക്കുക.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'പുതിയത്: പവർഓപ്റ്റി EHW+-മായി ബന്ധിപ്പിക്കുക';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'നിങ്ങൾ പവർഫോക്സിൽ നിന്നുള്ള പവർഓപ്റ്റി ഉപയോഗിക്കുന്നുണ്ടോ? അത് EHW+-ലെ നിങ്ങളുടെ ഇലക്ട്രിസിറ്റി മീറ്ററുമായി ബന്ധിപ്പിക്കുക. അപ്പോൾ നിങ്ങളുടെ മീറ്റർ റീഡിംഗുകൾ സ്വയമേവ ഇമ്പോർട്ട് ചെയ്യപ്പെടും.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'നിങ്ങൾക്ക് ഇതുവരെ പവർഓപ്റ്റി ഇല്ലേ?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'പവർ ഓപ്റ്റി കണക്ട് ചെയ്യുക';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'പവർഓപ്റ്റി വാങ്ങുക';
+
+  @override
+  String get updateNoticeDebugTitle => 'പുതിയ അറിയിപ്പുകൾ';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'അടച്ചുകളഞ്ഞ എല്ലാ അപ്ഡേറ്റ് അറിയിപ്പുകളും ഇല്ലാതാക്കുന്നു. ആപ്പ് റീസ്റ്റാർട്ട് ചെയ്ത ശേഷം അവ വീണ്ടും കാണിക്കാൻ സാധിക്കും.';
+
+  @override
+  String get updateNoticeDebugReset => 'പുതുക്കിയ വിവരങ്ങളുടെ അറിയിപ്പുകൾ പുനഃക്രമീകരിക്കുക';
+
+  @override
+  String get updateNoticeDebugResetDone => 'അപ്ഡേറ്റ് അറിയിപ്പുകൾ പുനഃക്രമീകരിച്ചിരിക്കുന്നു.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'പവർഫോക്സ് റീഡിംഗുകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.';

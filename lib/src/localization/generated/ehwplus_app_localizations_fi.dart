@@ -2174,7 +2174,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Powerfox-laite';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Kirjaudu sisään ja poista linkitys';
 
   @override
   String get powerfoxDeviceMissing => 'Powerfox-laite puuttuu.';
@@ -2196,6 +2196,35 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Eikö sinulla ole vielä PowerOptia? Käy Powerfox-verkkokaupassa.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Uutta: Yhdistä PowerOpti-laitteEHW+-palveluun';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Käytätkö Powerfoxin PowerOpti-laitetta? Liitä se sähkömittariisi osoitteessa EHW+. Sähkömittarin lukemat tuodaan tällöin järjestelmään automaattisesti.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Eikö sinulla ole vielä PowerOptia?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'YHDISTÄ POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'OSTA POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Päivitysilmoitukset';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Poistaa kaikki suljetut päivitysilmoitukset. Ne voidaan tuoda uudelleen näkyviin sovelluksen uudelleenkäynnistyksen jälkeen.';
+
+  @override
+  String get updateNoticeDebugReset => 'Nollaa päivitysilmoitukset';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Päivitysilmoitukset on nollattu.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Powerfox-lukemia ei voitu ladata.';

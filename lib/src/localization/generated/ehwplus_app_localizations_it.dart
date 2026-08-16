@@ -2184,7 +2184,7 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
   String get powerfoxDeviceLabel => 'Dispositivo Powerfox';
 
   @override
-  String get powerfoxLoginAndUnlink => 'Sign in and unlink';
+  String get powerfoxLoginAndUnlink => 'Acceda e disconnetta l\'account';
 
   @override
   String get powerfoxDeviceMissing => 'Il dispositivo Powerfox non è presente.';
@@ -2206,6 +2206,35 @@ class EhwplusAppLocalizationsIt extends EhwplusAppLocalizations {
 
   @override
   String get powerfoxNoPoweroptiShopHint => 'Non avete ancora un PowerOpti? Visitate il negozio Powerfox.';
+
+  @override
+  String get poweroptiUpdateNoticeTitle => 'Novità: collegate PowerOpti all\'EHW+';
+
+  @override
+  String get poweroptiUpdateNoticeMessage =>
+      'Utilizza un dispositivo PowerOpti di Powerfox? Lo colleghi al Suo contatore elettrico nell’EHW+. Le letture del contatore verranno quindi importate automaticamente.';
+
+  @override
+  String get poweroptiUpdateNoticeShopHint => 'Non possiede ancora un PowerOpti?';
+
+  @override
+  String get poweroptiUpdateNoticeConnect => 'COLLEGARE POWEROPTI';
+
+  @override
+  String get poweroptiUpdateNoticeBuy => 'ACQUISTA POWEROPTI';
+
+  @override
+  String get updateNoticeDebugTitle => 'Avvisi di aggiornamento';
+
+  @override
+  String get updateNoticeDebugDescription =>
+      'Elimina tutte le notifiche di aggiornamento chiuse. È possibile visualizzarle nuovamente dopo aver riavviato l\'app.';
+
+  @override
+  String get updateNoticeDebugReset => 'Reimpostare le notifiche di aggiornamento';
+
+  @override
+  String get updateNoticeDebugResetDone => 'Le notifiche relative agli aggiornamenti sono state azzerate.';
 
   @override
   String get powerfoxReadingsLoadFailed => 'Non è stato possibile caricare i dati di Powerfox.';
