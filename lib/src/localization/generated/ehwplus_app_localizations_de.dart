@@ -2232,6 +2232,22 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Powerfox-Geräte aktualisieren';
 
   @override
+  String get powerfoxRememberSession => 'Auf diesem Gerät angemeldet bleiben';
+
+  @override
+  String get powerfoxSessionDurationHint =>
+      'Powerfox-Zugangstoken gelten etwa 30 Minuten. Wenn Sie angemeldet bleiben, speichert die App ein Refresh-Token und erneuert den Zugang im Hintergrund.';
+
+  @override
+  String get powerfoxSignedOut => 'Von Powerfox abgemeldet';
+
+  @override
+  String get powerfoxLoginDidNotComplete => 'Die Powerfox-Anmeldung wurde nicht abgeschlossen. Bitte erneut versuchen.';
+
+  @override
+  String get powerfoxUnlink => 'Entknüpfen';
+
+  @override
   String get purchasesBuyNow => 'Jetzt kaufen';
 
   @override

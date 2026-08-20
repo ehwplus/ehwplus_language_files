@@ -2243,6 +2243,22 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'പവർഫോക്സ് ഉപകരണങ്ങൾ പുതുക്കുക';
 
   @override
+  String get powerfoxRememberSession => 'Stay signed in on this device';
+
+  @override
+  String get powerfoxSessionDurationHint =>
+      'Powerfox access tokens last about 30 minutes. If you stay signed in, this app stores a refresh token and renews access in the background.';
+
+  @override
+  String get powerfoxSignedOut => 'Signed out of Powerfox';
+
+  @override
+  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+
+  @override
+  String get powerfoxUnlink => 'Unlink';
+
+  @override
   String get purchasesBuyNow => 'ഇപ്പോൾ വാങ്ങുക';
 
   @override
