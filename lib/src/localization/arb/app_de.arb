@@ -752,7 +752,14 @@
   "powerfoxReadingsLoadFailed": "Powerfox-Zählerstände konnten nicht geladen werden.",
   "powerfoxRefreshDevicesTooltip": "Powerfox-Geräte aktualisieren",
   "powerfoxRememberSession": "Auf diesem Gerät angemeldet bleiben",
-  "powerfoxSessionDurationHint": "Powerfox-Zugangstoken gelten etwa 30 Minuten. Wenn Sie angemeldet bleiben, speichert die App ein Refresh-Token und erneuert den Zugang im Hintergrund.",
+  "powerfoxSessionDurationHint": "Ihre Powerfox-Anmeldung gilt normalerweise etwa {minutes} Minuten. Wenn Sie angemeldet bleiben, verlängert die App sie automatisch im Hintergrund.",
+  "@powerfoxSessionDurationHint": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
   "powerfoxSignedOut": "Von Powerfox abgemeldet",
   "powerfoxLoginDidNotComplete": "Die Powerfox-Anmeldung wurde nicht abgeschlossen. Bitte erneut versuchen.",
   "powerfoxUnlink": "Entknüpfen",

@@ -4034,8 +4034,8 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @powerfoxSessionDurationHint.
   ///
   /// In en, this message translates to:
-  /// **'Powerfox access tokens last about 30 minutes. If you stay signed in, this app stores a refresh token and renews access in the background.'**
-  String get powerfoxSessionDurationHint;
+  /// **'Your Powerfox sign-in normally expires after about {minutes} minutes. If you stay signed in, the app renews it automatically in the background.'**
+  String powerfoxSessionDurationHint(int minutes);
 
   /// No description provided for @powerfoxSignedOut.
   ///

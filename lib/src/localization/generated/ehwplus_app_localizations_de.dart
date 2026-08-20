@@ -2235,8 +2235,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get powerfoxRememberSession => 'Auf diesem Gerät angemeldet bleiben';
 
   @override
-  String get powerfoxSessionDurationHint =>
-      'Powerfox-Zugangstoken gelten etwa 30 Minuten. Wenn Sie angemeldet bleiben, speichert die App ein Refresh-Token und erneuert den Zugang im Hintergrund.';
+  String powerfoxSessionDurationHint(int minutes) {
+    return 'Ihre Powerfox-Anmeldung gilt normalerweise etwa $minutes Minuten. Wenn Sie angemeldet bleiben, verlängert die App sie automatisch im Hintergrund.';
+  }
 
   @override
   String get powerfoxSignedOut => 'Von Powerfox abgemeldet';
