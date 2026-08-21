@@ -4025,6 +4025,36 @@ abstract class EhwplusAppLocalizations {
   /// **'Refresh Powerfox devices'**
   String get powerfoxRefreshDevicesTooltip;
 
+  /// No description provided for @powerfoxRememberSession.
+  ///
+  /// In en, this message translates to:
+  /// **'Stay signed in on this device'**
+  String get powerfoxRememberSession;
+
+  /// No description provided for @powerfoxSessionDurationHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Powerfox sign-in normally expires after about {minutes} minutes. If you stay signed in, the app renews it automatically in the background.'**
+  String powerfoxSessionDurationHint(int minutes);
+
+  /// No description provided for @powerfoxSignedOut.
+  ///
+  /// In en, this message translates to:
+  /// **'Signed out of Powerfox'**
+  String get powerfoxSignedOut;
+
+  /// No description provided for @powerfoxLoginDidNotComplete.
+  ///
+  /// In en, this message translates to:
+  /// **'Powerfox sign-in did not finish. Please try again.'**
+  String get powerfoxLoginDidNotComplete;
+
+  /// No description provided for @powerfoxUnlink.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlink'**
+  String get powerfoxUnlink;
+
   /// No description provided for @purchasesBuyNow.
   ///
   /// In en, this message translates to:

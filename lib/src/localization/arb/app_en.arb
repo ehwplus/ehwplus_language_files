@@ -1067,6 +1067,18 @@
   "updateNoticeDebugResetDone": "Update notices have been reset.",
   "powerfoxReadingsLoadFailed": "Powerfox readings could not be loaded.",
   "powerfoxRefreshDevicesTooltip": "Refresh Powerfox devices",
+  "powerfoxRememberSession": "Stay signed in on this device",
+  "powerfoxSessionDurationHint": "Your Powerfox sign-in normally expires after about {minutes} minutes. If you stay signed in, the app renews it automatically in the background.",
+  "@powerfoxSessionDurationHint": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "powerfoxSignedOut": "Signed out of Powerfox",
+  "powerfoxLoginDidNotComplete": "Powerfox sign-in did not finish. Please try again.",
+  "powerfoxUnlink": "Unlink",
   "purchasesBuyNow": "Buy now",
   "purchasesDisabledOnIOS": "In-app purchases disabled",
   "purchasesDisabledOnIOSDescription": "Please check if in-app purchases are disabled on your iPhone (Settings > Screen Time > Restrictions > App Installations & Purchases > Allow In-App Purchases)",

@@ -751,6 +751,18 @@
   "updateNoticeDebugResetDone": "Update-Hinweise wurden zurückgesetzt.",
   "powerfoxReadingsLoadFailed": "Powerfox-Zählerstände konnten nicht geladen werden.",
   "powerfoxRefreshDevicesTooltip": "Powerfox-Geräte aktualisieren",
+  "powerfoxRememberSession": "Auf diesem Gerät angemeldet bleiben",
+  "powerfoxSessionDurationHint": "Ihre Powerfox-Anmeldung gilt normalerweise etwa {minutes} Minuten. Wenn Sie angemeldet bleiben, verlängert die App sie automatisch im Hintergrund.",
+  "@powerfoxSessionDurationHint": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "powerfoxSignedOut": "Von Powerfox abgemeldet",
+  "powerfoxLoginDidNotComplete": "Die Powerfox-Anmeldung wurde nicht abgeschlossen. Bitte erneut versuchen.",
+  "powerfoxUnlink": "Entknüpfen",
   "purchasesBuyNow": "Jetzt kaufen",
   "purchasesDisabledOnIOS": "InApp-Käufe deaktiviert",
   "purchasesDisabledOnIOSDescription": "Bitte prüfen Sie, ob auf Ihrem iPhone InApp-Käufe deaktiviert wurden (Einstellungen > Bildschirmzeit > Beschränkungen > App-Installationen & Käufe > In-App-Käufe erlauben)",
