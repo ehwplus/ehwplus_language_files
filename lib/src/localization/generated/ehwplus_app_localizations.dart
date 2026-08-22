@@ -835,6 +835,12 @@ abstract class EhwplusAppLocalizations {
   /// **'You are not authenticated.'**
   String get commonNotAuthenticated;
 
+  /// No description provided for @commonLoginCanceled.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign-in was cancelled.'**
+  String get commonLoginCanceled;
+
   /// No description provided for @commonOk.
   ///
   /// In en, this message translates to:

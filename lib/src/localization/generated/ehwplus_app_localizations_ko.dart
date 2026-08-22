@@ -367,6 +367,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => '인증되지 않았습니다.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => '확인';
 
   @override

@@ -193,6 +193,7 @@
   "commonMore": "More",
   "commonNo": "no",
   "commonNotAuthenticated": "You are not authenticated.",
+  "commonLoginCanceled": "Sign-in was cancelled.",
   "commonOk": "OK",
   "commonOpen": "Open",
   "commonSave": "Save",

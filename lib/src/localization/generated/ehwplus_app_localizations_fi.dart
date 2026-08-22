@@ -374,6 +374,9 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Sinua ei ole todennettu.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'OK';
 
   @override

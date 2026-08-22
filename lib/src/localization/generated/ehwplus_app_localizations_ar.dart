@@ -372,6 +372,9 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'لم يتم التحقق من هويتك.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'موافق';
 
   @override

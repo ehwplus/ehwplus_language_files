@@ -375,6 +375,9 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Jy is nie geoutentiseer nie.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'OK';
 
   @override

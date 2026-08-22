@@ -372,6 +372,9 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Nejste ověřeni.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'OK';
 
   @override

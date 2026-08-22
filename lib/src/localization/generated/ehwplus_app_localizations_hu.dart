@@ -375,6 +375,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Ön nem hitelesített.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'OK';
 
   @override

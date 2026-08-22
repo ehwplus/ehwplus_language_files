@@ -377,6 +377,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Bạn chưa được xác thực.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'ĐƯỢC RỒI';
 
   @override
