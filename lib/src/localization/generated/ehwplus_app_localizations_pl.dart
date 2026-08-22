@@ -375,6 +375,9 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Nie jesteś uwierzytelniony.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'OK';
 
   @override

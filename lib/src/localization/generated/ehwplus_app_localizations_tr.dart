@@ -375,6 +375,9 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Kimliğiniz doğrulanmadı.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'TAMAM';
 
   @override

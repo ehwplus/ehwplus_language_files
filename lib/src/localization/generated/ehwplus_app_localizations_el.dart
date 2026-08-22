@@ -375,6 +375,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Δεν έχετε πιστοποιηθεί.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'OK';
 
   @override

@@ -377,6 +377,9 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Anda tidak diautentikasi.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'BAIKLAH.';
 
   @override

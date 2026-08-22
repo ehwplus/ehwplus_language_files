@@ -1,1 +1,334 @@
-{}
+{
+  "af": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ar": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "bg": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "bs": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "cs": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "da": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "el": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "es": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "et": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "fa": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "fi": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "fr": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "hi": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "hr": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "hu": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "id": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "it": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ja": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ko": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "lt": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ml": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "my": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "nb": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "nl": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "pl": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "pt": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ro": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ru": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sl": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sr": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sv": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sw": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "th": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "tr": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "uk": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "vi": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "zh": [
+    "commonLoginCanceled",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ]
+}

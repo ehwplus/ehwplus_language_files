@@ -363,6 +363,9 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => '您未经过身份验证。';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => '好的';
 
   @override

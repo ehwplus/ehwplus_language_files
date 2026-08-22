@@ -371,6 +371,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get commonNotAuthenticated => 'Te pole autentitud.';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was cancelled.';
+
+  @override
   String get commonOk => 'OK';
 
   @override
