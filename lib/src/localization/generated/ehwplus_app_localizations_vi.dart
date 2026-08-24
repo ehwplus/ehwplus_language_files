@@ -209,6 +209,9 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get basePrice => 'Giá cơ bản';
 
   @override
+  String get meterCosts => 'Meter costs (yearly)';
+
+  @override
   String basePriceMonthlyResult(String amount) {
     return 'Do đó, giá cơ bản là $amount mỗi tháng.';
   }

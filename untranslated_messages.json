@@ -1,1 +1,334 @@
-{}
+{
+  "af": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ar": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "bg": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "bs": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "cs": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "da": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "el": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "es": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "et": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "fa": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "fi": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "fr": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "hi": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "hr": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "hu": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "id": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "it": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ja": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ko": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "lt": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ml": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "my": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "nb": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "nl": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "pl": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "pt": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ro": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "ru": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sl": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sr": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sv": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "sw": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "th": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "tr": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "uk": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "vi": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ],
+
+  "zh": [
+    "meterCosts",
+    "powerfoxRememberSession",
+    "powerfoxSessionDurationHint",
+    "powerfoxSignedOut",
+    "powerfoxLoginDidNotComplete",
+    "powerfoxUnlink"
+  ]
+}

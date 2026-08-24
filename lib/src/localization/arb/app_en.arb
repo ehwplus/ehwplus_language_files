@@ -134,6 +134,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Are you sure?",
   "basePrice": "Base price",
+  "meterCosts": "Meter costs (yearly)",
   "basePriceMonthlyResult": "This results in a base price of {amount} monthly.",
   "@basePriceMonthlyResult": {
     "placeholders": {

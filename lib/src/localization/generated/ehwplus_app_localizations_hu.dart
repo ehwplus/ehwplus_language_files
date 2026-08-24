@@ -207,6 +207,9 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get basePrice => 'Alapár';
 
   @override
+  String get meterCosts => 'Meter costs (yearly)';
+
+  @override
   String basePriceMonthlyResult(String amount) {
     return 'Ez azt jelenti, hogy az alapár havi $amount.';
   }

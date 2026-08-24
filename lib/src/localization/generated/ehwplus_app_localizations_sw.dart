@@ -208,6 +208,9 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get basePrice => 'Bei ya msingi';
 
   @override
+  String get meterCosts => 'Meter costs (yearly)';
+
+  @override
   String basePriceMonthlyResult(String amount) {
     return 'Hii inasababisha bei ya msingi ya $amount kwa mwezi.';
   }

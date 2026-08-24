@@ -206,6 +206,9 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String get basePrice => 'Preço base';
 
   @override
+  String get meterCosts => 'Meter costs (yearly)';
+
+  @override
   String basePriceMonthlyResult(String amount) {
     return 'Isso resulta num preço base de $amount por mês.';
   }

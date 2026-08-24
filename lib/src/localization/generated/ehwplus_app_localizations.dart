@@ -523,6 +523,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Base price'**
   String get basePrice;
 
+  /// No description provided for @meterCosts.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter costs (yearly)'**
+  String get meterCosts;
+
   /// No description provided for @basePriceMonthlyResult.
   ///
   /// In en, this message translates to:

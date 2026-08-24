@@ -205,6 +205,9 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get basePrice => '기본 요금';
 
   @override
+  String get meterCosts => 'Meter costs (yearly)';
+
+  @override
   String basePriceMonthlyResult(String amount) {
     return '이에 따라 월 기본 요금은 $amount가 됩니다.';
   }

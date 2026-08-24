@@ -122,6 +122,7 @@
   "appNameShort": "EHW+",
   "areYouSure": "Sind Sie sich sicher?",
   "basePrice": "Grundpreis",
+  "meterCosts": "Zählerkosten (jährlich)",
   "basePriceMonthlyResult": "Es ergibt sich ein Grundpreis von {amount} monatlich.",
   "@basePriceMonthlyResult": {
     "placeholders": {

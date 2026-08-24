@@ -207,6 +207,9 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get basePrice => 'Βασική τιμή';
 
   @override
+  String get meterCosts => 'Meter costs (yearly)';
+
+  @override
   String basePriceMonthlyResult(String amount) {
     return 'Αυτό έχει ως αποτέλεσμα μια βασική τιμή $amount ανά μήνα.';
   }

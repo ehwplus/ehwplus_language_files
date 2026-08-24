@@ -207,6 +207,9 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get basePrice => 'Preț de bază';
 
   @override
+  String get meterCosts => 'Meter costs (yearly)';
+
+  @override
   String basePriceMonthlyResult(String amount) {
     return 'Astfel, prețul de bază este de $amount pe lună.';
   }
