@@ -208,7 +208,7 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get basePrice => 'Базова цена';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Разходи за електромера (годишни)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2246,21 +2246,21 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Опресняване на устройствата Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Остани влязъл на това устройство';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Вашата сесия в Powerfox обикновено изтича след около $minutes минути. Ако останете вписани, приложението я подновява автоматично във фонов режим.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Излязох от Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Влизането в Powerfox не приключи. Моля, опитайте отново.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Премахване на връзката';
 
   @override
   String get purchasesBuyNow => 'Купи сега';
@@ -3962,4 +3962,27 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Валиден пощенски код се състои само от цифри';
+
+  @override
+  String get changelogEmpty => 'Няма налични бележки към версията.';
+
+  @override
+  String get changelogFixes => 'Поправки';
+
+  @override
+  String get changelogImprovements => 'Подобрения';
+
+  @override
+  String get changelogLoadFailed => 'Не беше възможно да се заредят бележките към версията.';
+
+  @override
+  String get changelogNew => 'Ново';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Версия$version';
+  }
+
+  @override
+  String get changelogTitle => 'Списък с промените';
 }

@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get basePrice => 'Osnovna cena';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Stroški merilnika (letni)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2240,21 +2240,21 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Osvežitev naprav Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Ostani prijavljen na tej napravi';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Vaša prijava v aplikacijo Powerfox običajno poteče po približno $minutes minutah. Če ostanete prijavljeni, aplikacija jo samodejno podaljša v ozadju.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Odjavil sem se iz Powerfoxa';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Prijava v Powerfox se ni zaključila. Poskusite znova.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Prekini povezavo';
 
   @override
   String get purchasesBuyNow => 'Kupi zdaj';
@@ -3946,4 +3946,27 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Veljavna poštna številka je sestavljena samo iz številk';
+
+  @override
+  String get changelogEmpty => 'Opombe k izdaji niso na voljo.';
+
+  @override
+  String get changelogFixes => 'Popravki';
+
+  @override
+  String get changelogImprovements => 'Izboljšave';
+
+  @override
+  String get changelogLoadFailed => 'Opombe k izdaji ni bilo mogoče naložiti.';
+
+  @override
+  String get changelogNew => 'Novo';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Različica$version';
+  }
+
+  @override
+  String get changelogTitle => 'Seznam sprememb';
 }

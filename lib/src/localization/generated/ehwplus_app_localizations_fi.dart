@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get basePrice => 'Perushinta';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Mittarikustannukset (vuosittain)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2236,21 +2236,21 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Päivitä Powerfox-laitteet';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Pysy kirjautuneena tällä laitteella';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Powerfox-kirjautumisesi vanhenee yleensä noin $minutes minuutin kuluttua. Jos pysyt kirjautuneena, sovellus uusii kirjautumisen automaattisesti taustalla.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Kirjautunut ulos Powerfoxista';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfox-kirjautuminen ei onnistunut. Yritä uudelleen.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Poista linkki';
 
   @override
   String get purchasesBuyNow => 'Osta nyt';
@@ -3939,4 +3939,27 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kelvollinen postinumero koostuu vain numeroista';
+
+  @override
+  String get changelogEmpty => 'Julkaisutietoja ei ole saatavilla.';
+
+  @override
+  String get changelogFixes => 'Korjaukset';
+
+  @override
+  String get changelogImprovements => 'Parannukset';
+
+  @override
+  String get changelogLoadFailed => 'Julkaisutietoja ei voitu ladata.';
+
+  @override
+  String get changelogNew => 'Uusi';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Versio$version';
+  }
+
+  @override
+  String get changelogTitle => 'Muutosloki';
 }

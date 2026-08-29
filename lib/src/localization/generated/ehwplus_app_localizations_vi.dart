@@ -209,7 +209,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get basePrice => 'Giá cơ bản';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Chi phí đồng hồ đo (hàng năm)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2241,21 +2241,21 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Làm mới các thiết bị Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Giữ trạng thái đăng nhập trên thiết bị này';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Thông thường, phiên đăng nhập Powerfox của quý vị sẽ hết hạn sau khoảng $minutes phút. Nếu quý vị vẫn duy trì trạng thái đã đăng nhập, ứng dụng sẽ tự động gia hạn phiên đăng nhập này ở chế độ nền.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Đã đăng xuất khỏi Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Quá trình đăng nhập Powerfox chưa hoàn tất. Vui lòng thử lại.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Hủy liên kết';
 
   @override
   String get purchasesBuyNow => 'Mua ngay';
@@ -3942,4 +3942,27 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Mã zip hợp lệ chỉ bao gồm các số';
+
+  @override
+  String get changelogEmpty => 'Hiện không có ghi chú phát hành nào.';
+
+  @override
+  String get changelogFixes => 'Các bản sửa lỗi';
+
+  @override
+  String get changelogImprovements => 'Những cải tiến';
+
+  @override
+  String get changelogLoadFailed => 'Không thể tải thông báo bản phát hành.';
+
+  @override
+  String get changelogNew => 'Mới';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Phiên bản$version';
+  }
+
+  @override
+  String get changelogTitle => 'Bản ghi thay đổi';
 }

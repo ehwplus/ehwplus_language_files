@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get basePrice => 'Taban fiyat';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Sayaç masrafları (yıllık)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2241,21 +2241,21 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Powerfox cihazlarını yenile';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Bu cihazda oturumunu açık tut';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Powerfox oturumunuz normalde yaklaşık $minutes dakika sonra sona erer. Oturumunuz açık kalırsa, uygulama bunu arka planda otomatik olarak yeniler.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Powerfox\'tan çıkış yapıldı';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfox oturum açma işlemi tamamlanmadı. Lütfen tekrar deneyin.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Bağlantıyı kaldır';
 
   @override
   String get purchasesBuyNow => 'Şimdi al';
@@ -3941,4 +3941,27 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Geçerli bir posta kodu yalnızca sayılardan oluşur';
+
+  @override
+  String get changelogEmpty => 'Herhangi bir sürüm notu bulunmamaktadır.';
+
+  @override
+  String get changelogFixes => 'Düzeltmeler';
+
+  @override
+  String get changelogImprovements => 'İyileştirmeler';
+
+  @override
+  String get changelogLoadFailed => 'Sürüm notları yüklenemedi.';
+
+  @override
+  String get changelogNew => 'Yeni';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Sürüm$version';
+  }
+
+  @override
+  String get changelogTitle => 'Değişiklik Günlüğü';
 }

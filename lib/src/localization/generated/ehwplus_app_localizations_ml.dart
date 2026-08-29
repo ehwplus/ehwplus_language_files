@@ -209,7 +209,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get basePrice => 'അടിസ്ഥാന വില';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'മീറ്റർ ചെലവുകൾ (വാർഷികം)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2246,21 +2246,21 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'പവർഫോക്സ് ഉപകരണങ്ങൾ പുതുക്കുക';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'ഈ ഉപകരണത്തിൽ സൈൻ ഇൻ ചെയ്ത നിലയിൽ തുടരുക';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'നിങ്ങളുടെ പവർഫോക്സ് സൈൻ-ഇൻ സാധാരണയായി ഏകദേശം $minutes മിനിറ്റിനു ശേഷം അവസാനിക്കും. നിങ്ങൾ സൈൻ ഇൻ ചെയ്ത് തുടർന്നാൽ, ആപ്പ് പശ്ചാത്തലത്തിൽ അത് സ്വയമേവ പുതുക്കും.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'പവർഫോക്സിൽ നിന്ന് ലോഗൗട്ട് ചെയ്തു';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'പവർഫോക്സ് സൈൻ-ഇൻ പൂർത്തിയായില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'അൺലിങ്ക് ചെയ്യുക';
 
   @override
   String get purchasesBuyNow => 'ഇപ്പോൾ വാങ്ങുക';
@@ -3957,4 +3957,27 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'ഒരു സാധുവായ പിൻ കോഡിൽ അക്കങ്ങൾ മാത്രമേ അടങ്ങിയിട്ടുള്ളൂ';
+
+  @override
+  String get changelogEmpty => 'റിലീസ് കുറിപ്പുകൾ ലഭ്യമല്ല.';
+
+  @override
+  String get changelogFixes => 'തിരുത്തലുകൾ';
+
+  @override
+  String get changelogImprovements => 'മെച്ചപ്പെടുത്തലുകൾ';
+
+  @override
+  String get changelogLoadFailed => 'റിലീസ് കുറിപ്പുകൾ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.';
+
+  @override
+  String get changelogNew => 'പുതിയ';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'പതിപ്പ് $version';
+  }
+
+  @override
+  String get changelogTitle => 'മാറ്റങ്ങളുടെ പട്ടിക';
 }

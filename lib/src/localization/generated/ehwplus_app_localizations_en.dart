@@ -3947,4 +3947,27 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'A valid zip code consists only of numbers';
+
+  @override
+  String get changelogEmpty => 'No release notes are available.';
+
+  @override
+  String get changelogFixes => 'Fixes';
+
+  @override
+  String get changelogImprovements => 'Improvements';
+
+  @override
+  String get changelogLoadFailed => 'Release notes could not be loaded.';
+
+  @override
+  String get changelogNew => 'New';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get changelogTitle => 'Changelog';
 }

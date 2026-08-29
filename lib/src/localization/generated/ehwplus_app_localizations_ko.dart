@@ -205,7 +205,7 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get basePrice => '기본 요금';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => '계량기 비용 (연간)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2200,21 +2200,21 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Powerfox 기기 새로 고침';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => '이 기기에서 로그인 상태 유지';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Powerfox 로그인 상태는 보통 약 $minutes 분 후에 만료됩니다. 로그인 상태를 유지하면 앱이 백그라운드에서 자동으로 로그인을 갱신합니다.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Powerfox에서 로그아웃되었습니다.';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfox 로그인이 완료되지 않았습니다. 다시 시도해 주세요.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => '연결 해제';
 
   @override
   String get purchasesBuyNow => '지금 구매';
@@ -3829,4 +3829,27 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '유효한 우편번호는 숫자로만 구성됩니다';
+
+  @override
+  String get changelogEmpty => '릴리스 노트는 제공되지 않습니다.';
+
+  @override
+  String get changelogFixes => '수정 사항';
+
+  @override
+  String get changelogImprovements => '개선 사항';
+
+  @override
+  String get changelogLoadFailed => '릴리스 노트를 불러올 수 없습니다.';
+
+  @override
+  String get changelogNew => '새로움';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return '버전$version';
+  }
+
+  @override
+  String get changelogTitle => '변경 내역';
 }

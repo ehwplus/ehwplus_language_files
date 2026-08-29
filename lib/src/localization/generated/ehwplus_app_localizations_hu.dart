@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get basePrice => 'Alapár';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Mérőórák költségei (éves)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2244,21 +2244,21 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'A Powerfox-eszközök frissítése';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Maradjon bejelentkezve ezen az eszközön';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'A Powerfox-bejelentkezésed általában körülbelül $minutes perc múlva lejár. Ha bejelentkezve maradsz, az alkalmazás a háttérben automatikusan meghosszabbítja a bejelentkezésedet.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Kijelentkezett a Powerfoxból';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'A Powerfox-ba való bejelentkezés nem sikerült. Kérjük, próbálja meg újra.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Kapcsolat megszüntetése';
 
   @override
   String get purchasesBuyNow => 'Vásároljon most';
@@ -3957,4 +3957,27 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Az érvényes irányítószám csak számokból áll';
+
+  @override
+  String get changelogEmpty => 'Nincs elérhető kiadási jegyzet.';
+
+  @override
+  String get changelogFixes => 'Javítások';
+
+  @override
+  String get changelogImprovements => 'Fejlesztések';
+
+  @override
+  String get changelogLoadFailed => 'A kiadási megjegyzéseket nem sikerült betölteni.';
+
+  @override
+  String get changelogNew => 'Új';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return '$version verzió';
+  }
+
+  @override
+  String get changelogTitle => 'Változásnapló';
 }

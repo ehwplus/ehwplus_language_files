@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get basePrice => 'Basisprys';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Meeterkoste (jaarliks)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2237,21 +2237,21 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Verfris Powerfox-toestelle';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Bly aangemeld op hierdie toestel';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Jou Powerfox-aanmelding verval gewoonlik na ongeveer $minutes minute. As jy aangemeld bly, hernu die app dit outomaties in die agtergrond.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Het uit Powerfox uitgemeld';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfox aanmelding is nie voltooi nie. Probeer asseblief weer.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Ontkoppel';
 
   @override
   String get purchasesBuyNow => 'Koop nou';
@@ -3949,4 +3949,27 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '\'n Geldige poskode bestaan slegs uit syfers';
+
+  @override
+  String get changelogEmpty => 'Daar is geen vrystellingsnotas beskikbaar nie.';
+
+  @override
+  String get changelogFixes => 'Regstellings';
+
+  @override
+  String get changelogImprovements => 'Verbeterings';
+
+  @override
+  String get changelogLoadFailed => 'Vrystellingsnotas kon nie gelaai word nie.';
+
+  @override
+  String get changelogNew => 'Nuut';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Weergawe $version';
+  }
+
+  @override
+  String get changelogTitle => 'Veranderingslog';
 }

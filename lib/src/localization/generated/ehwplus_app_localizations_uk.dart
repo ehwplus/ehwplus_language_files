@@ -208,7 +208,7 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get basePrice => 'Базова ціна';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Витрати на лічильники (щорічні)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2245,21 +2245,21 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Оновити пристрої Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Залишатися увійшов на цьому пристрої';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Термін дії вашого входу в Powerfox зазвичай закінчується приблизно через $minutes хвилин. Якщо ви залишаєтеся у системі, додаток автоматично поновлює його у фоновому режимі.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Вийшов із Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Вхід у Powerfox не завершився. Спробуйте ще раз.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Скасувати посилання';
 
   @override
   String get purchasesBuyNow => 'Купити зараз';
@@ -3967,4 +3967,27 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Дійсний поштовий індекс складається лише з цифр';
+
+  @override
+  String get changelogEmpty => 'Інформація про оновлення відсутня.';
+
+  @override
+  String get changelogFixes => 'Виправлення';
+
+  @override
+  String get changelogImprovements => 'Удосконалення';
+
+  @override
+  String get changelogLoadFailed => 'Не вдалося завантажити інформацію про оновлення.';
+
+  @override
+  String get changelogNew => 'Нове';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Версія$version';
+  }
+
+  @override
+  String get changelogTitle => 'Журнал змін';
 }

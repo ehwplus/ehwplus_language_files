@@ -205,7 +205,7 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get basePrice => '基本価格';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'メーター代（年間）';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2199,21 +2199,21 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Powerfoxデバイスを再起動する';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'このデバイスでログイン状態を維持する';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Powerfoxへのログインは、通常、約$minutes分後に期限切れとなります。ログイン状態を維持している場合、アプリがバックグラウンドで自動的に更新を行います。';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Powerfoxからログアウトしました';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfoxへのログインが完了しませんでした。もう一度お試しください。';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'リンクを解除する';
 
   @override
   String get purchasesBuyNow => '今すぐ購入';
@@ -3827,4 +3827,27 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有効な郵便番号は数字のみで構成されます';
+
+  @override
+  String get changelogEmpty => 'リリースノートは用意されておりません。';
+
+  @override
+  String get changelogFixes => '修正点';
+
+  @override
+  String get changelogImprovements => '改善点';
+
+  @override
+  String get changelogLoadFailed => 'リリースノートを読み込むことができませんでした。';
+
+  @override
+  String get changelogNew => '新着';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'バージョン$version';
+  }
+
+  @override
+  String get changelogTitle => '変更履歴';
 }

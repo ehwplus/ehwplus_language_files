@@ -6922,6 +6922,48 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'A valid zip code consists only of numbers'**
   String get zipCodeValidationOnlyNumbers;
+
+  /// No description provided for @changelogEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No release notes are available.'**
+  String get changelogEmpty;
+
+  /// No description provided for @changelogFixes.
+  ///
+  /// In en, this message translates to:
+  /// **'Fixes'**
+  String get changelogFixes;
+
+  /// No description provided for @changelogImprovements.
+  ///
+  /// In en, this message translates to:
+  /// **'Improvements'**
+  String get changelogImprovements;
+
+  /// No description provided for @changelogLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Release notes could not be loaded.'**
+  String get changelogLoadFailed;
+
+  /// No description provided for @changelogNew.
+  ///
+  /// In en, this message translates to:
+  /// **'New'**
+  String get changelogNew;
+
+  /// No description provided for @changelogReleaseVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version {version}'**
+  String changelogReleaseVersion(String version);
+
+  /// No description provided for @changelogTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Changelog'**
+  String get changelogTitle;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

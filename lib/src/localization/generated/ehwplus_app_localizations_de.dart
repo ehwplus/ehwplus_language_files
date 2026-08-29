@@ -3956,4 +3956,27 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Eine gültige Postleitzahl besteht nur aus Zahlen';
+
+  @override
+  String get changelogEmpty => 'Es sind keine Versionshinweise verfügbar.';
+
+  @override
+  String get changelogFixes => 'Fehlerbehebungen';
+
+  @override
+  String get changelogImprovements => 'Verbesserungen';
+
+  @override
+  String get changelogLoadFailed => 'Versionshinweise konnten nicht geladen werden.';
+
+  @override
+  String get changelogNew => 'Neu';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get changelogTitle => 'Änderungshistorie';
 }

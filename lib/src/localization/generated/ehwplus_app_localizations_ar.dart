@@ -206,7 +206,7 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get basePrice => 'السعر الأساسي';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'تكاليف العدادات (سنويًا)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2230,21 +2230,21 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'تحديث أجهزة Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'ابقَ مسجَّل الدخول على هذا الجهاز';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'عادةً ما تنتهي صلاحية تسجيل دخولك إلى Powerfox بعد حوالي $minutes دقيقة. وإذا بقيت مسجلاً الدخول، فإن التطبيق يجدد صلاحيته تلقائيًا في الخلفية.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'تم تسجيل الخروج من Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'لم تكتمل عملية تسجيل الدخول إلى Powerfox. يرجى المحاولة مرة أخرى.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'إلغاء الارتباط';
 
   @override
   String get purchasesBuyNow => 'اشتري الآن';
@@ -3906,4 +3906,27 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'الرمز البريدي الصالح يتكون من أرقام فقط';
+
+  @override
+  String get changelogEmpty => 'لا توجد ملاحظات الإصدار.';
+
+  @override
+  String get changelogFixes => 'التصحيحات';
+
+  @override
+  String get changelogImprovements => 'التحسينات';
+
+  @override
+  String get changelogLoadFailed => 'تعذر تحميل ملاحظات الإصدار.';
+
+  @override
+  String get changelogNew => 'جديد';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'الإصدار$version';
+  }
+
+  @override
+  String get changelogTitle => 'سجل التغييرات';
 }

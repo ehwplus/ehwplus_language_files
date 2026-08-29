@@ -206,7 +206,7 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get basePrice => 'Базовая цена';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Расходы на счетчики (в год)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2252,21 +2252,21 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Обновить устройства Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Оставаться авторизованным на этом устройстве';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Срок действия вашей авторизации в Powerfox обычно истекает примерно через $minutes минут. Если вы остаетесь авторизованным, приложение автоматически продлевает авторизацию в фоновом режиме.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Вышли из системы Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Вход в систему Powerfox не завершился. Пожалуйста, попробуйте ещё раз.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Отменить связь';
 
   @override
   String get purchasesBuyNow => 'Купить сейчас';
@@ -3982,4 +3982,27 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Допустимый почтовый индекс состоит только из цифр';
+
+  @override
+  String get changelogEmpty => 'Сведения о выпуске отсутствуют.';
+
+  @override
+  String get changelogFixes => 'Исправления';
+
+  @override
+  String get changelogImprovements => 'Усовершенствования';
+
+  @override
+  String get changelogLoadFailed => 'Не удалось загрузить примечания к выпуску.';
+
+  @override
+  String get changelogNew => 'Новое';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Версия $version';
+  }
+
+  @override
+  String get changelogTitle => 'Журнал изменений';
 }

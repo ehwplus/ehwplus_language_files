@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get basePrice => 'आधार मूल्य';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'मीटर लागत (वार्षिक)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2239,21 +2239,21 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'पॉवरफ़ॉक्स डिवाइसों को रिफ़्रेश करें';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'इस डिवाइस पर साइन इन रहें';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'आपका Powerfox साइन-इन सामान्यतः लगभग $minutes मिनट बाद समाप्त हो जाता है। यदि आप साइन-इन ही रहते हैं, तो ऐप इसे पृष्ठभूमि में स्वचालित रूप से नवीनीकृत कर देता है।';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Powerfox से साइन आउट';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfox साइन-इन पूरा नहीं हुआ। कृपया फिर से प्रयास करें।';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'अनलिंक';
 
   @override
   String get purchasesBuyNow => 'अभी खरीदें';
@@ -3935,4 +3935,27 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'एक वैध ज़िप कोड में केवल संख्याएँ होती हैं';
+
+  @override
+  String get changelogEmpty => 'कोई रिलीज़ नोट्स उपलब्ध नहीं हैं।';
+
+  @override
+  String get changelogFixes => 'ठीक करता है';
+
+  @override
+  String get changelogImprovements => 'सुधार';
+
+  @override
+  String get changelogLoadFailed => 'रिलीज़ नोट्स लोड नहीं हो सके।';
+
+  @override
+  String get changelogNew => 'नया';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'संस्करण $version';
+  }
+
+  @override
+  String get changelogTitle => 'परिवर्तन-लेख';
 }

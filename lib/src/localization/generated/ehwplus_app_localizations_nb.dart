@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get basePrice => 'Grunnpris';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Målerkostnader (årlig)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2239,21 +2239,21 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Oppdater Powerfox-enheter';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Hold deg innlogget på denne enheten';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Powerfox-påloggingen din utløper normalt etter omtrent $minutes minutter. Hvis du forblir pålogget, fornyer appen den automatisk i bakgrunnen.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Logget ut av Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Påloggingen til Powerfox ble ikke fullført. Prøv på nytt.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Fjern kobling';
 
   @override
   String get purchasesBuyNow => 'Kjøp nå';
@@ -3941,4 +3941,27 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Et gyldig postnummer består kun av tall';
+
+  @override
+  String get changelogEmpty => 'Det foreligger ingen utgivelsesnotater.';
+
+  @override
+  String get changelogFixes => 'Rettelser';
+
+  @override
+  String get changelogImprovements => 'Forbedringer';
+
+  @override
+  String get changelogLoadFailed => 'Det var ikke mulig å laste inn versjonsnotatene.';
+
+  @override
+  String get changelogNew => 'Nytt';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Versjon$version';
+  }
+
+  @override
+  String get changelogTitle => 'Endringslogg';
 }

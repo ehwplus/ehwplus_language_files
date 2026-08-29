@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get basePrice => 'Osnovna cijena';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Troškovi mjerača (godišnji)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2242,21 +2242,21 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Osvježite Powerfox uređaje';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Ostanite prijavljeni na ovom uređaju';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Vaš Powerfox prijem obično ističe nakon otprilike $minutes minuta. Ako ostanete prijavljeni, aplikacija ga automatski obnavlja u pozadini.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Odjavljeno s Powerfoxa';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Prijava na Powerfox nije uspjela. Molimo pokušajte ponovo.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Odveži';
 
   @override
   String get purchasesBuyNow => 'Kupite sada';
@@ -3953,4 +3953,27 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Važeći poštanski broj sastoji se samo od brojeva';
+
+  @override
+  String get changelogEmpty => 'Nema dostupnih bilješki o izdanju.';
+
+  @override
+  String get changelogFixes => 'Popravke';
+
+  @override
+  String get changelogImprovements => 'Poboljšanja';
+
+  @override
+  String get changelogLoadFailed => 'Bilješke o izdanju nisu mogle biti učitane.';
+
+  @override
+  String get changelogNew => 'Novo';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Verzija$version';
+  }
+
+  @override
+  String get changelogTitle => 'Zapisnik promjena';
 }

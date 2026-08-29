@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get basePrice => 'Cena podstawowa';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Koszty związane z licznikami (roczne)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2246,21 +2246,22 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Odśwież urządzenia Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Zachowaj logowanie na tym urządzeniu';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Państwa sesja w aplikacji Powerfox wygasa zazwyczaj po około $minutes minutach. Jeśli pozostaną Państwo zalogowani, aplikacja automatycznie odnowi sesję w tle.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Wylogowano się z serwisu Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete =>
+      'Logowanie do serwisu Powerfox nie zakończyło się pomyślnie. Proszę spróbować ponownie.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Usuń powiązanie';
 
   @override
   String get purchasesBuyNow => 'Kup teraz';
@@ -3961,4 +3962,27 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Prawidłowy kod pocztowy składa się wyłącznie z cyfr';
+
+  @override
+  String get changelogEmpty => 'Nie są dostępne żadne informacje o aktualizacji.';
+
+  @override
+  String get changelogFixes => 'Poprawki';
+
+  @override
+  String get changelogImprovements => 'Ulepszenia';
+
+  @override
+  String get changelogLoadFailed => 'Nie udało się załadować informacji o aktualizacji.';
+
+  @override
+  String get changelogNew => 'Nowość';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Wersja$version';
+  }
+
+  @override
+  String get changelogTitle => 'Lista zmian';
 }

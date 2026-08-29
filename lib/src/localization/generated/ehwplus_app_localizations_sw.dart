@@ -208,7 +208,7 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get basePrice => 'Bei ya msingi';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Gharama za mita (kwa mwaka)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2236,21 +2236,21 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Sasisha vifaa vya Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Baki umeingia kwenye kifaa hiki';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Kujiingia kwako kwa Powerfox kawaida hukaisha baada ya takriban dakika $minutes. Ikiwa utaendelea ukiwa umeingia, programu itaiiboresha kiotomatiki nyuma ya pazia.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Umeondoka Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Uingiaji wa Powerfox haukukamilika. Tafadhali jaribu tena.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Ondoa uhusiano';
 
   @override
   String get purchasesBuyNow => 'Nunua sasa';
@@ -3944,4 +3944,27 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Nambari halali ya zip ina nambari tu';
+
+  @override
+  String get changelogEmpty => 'Hakuna maelezo ya toleo yanayopatikana.';
+
+  @override
+  String get changelogFixes => 'Marekebisho';
+
+  @override
+  String get changelogImprovements => 'Maboresho';
+
+  @override
+  String get changelogLoadFailed => 'Maelezo ya toleo hayakuweza kupakiwa.';
+
+  @override
+  String get changelogNew => 'Mpya';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Toleo $version';
+  }
+
+  @override
+  String get changelogTitle => 'Orodha ya mabadiliko';
 }

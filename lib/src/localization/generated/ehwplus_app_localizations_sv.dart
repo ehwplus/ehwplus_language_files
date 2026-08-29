@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get basePrice => 'Grundpris';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Mätarkostnader (årliga)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2236,21 +2236,21 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Uppdatera Powerfox-enheter';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Håll dig inloggad på den här enheten';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Din Powerfox-inloggning upphör normalt att gälla efter cirka $minutes minuter. Om du förblir inloggad förnyar appen inloggningen automatiskt i bakgrunden.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Loggad ut från Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Inloggningen på Powerfox kunde inte slutföras. Försök igen.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Ta bort länken';
 
   @override
   String get purchasesBuyNow => 'Köp nu';
@@ -3935,4 +3935,27 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Ett giltigt postnummer består endast av nummer';
+
+  @override
+  String get changelogEmpty => 'Det finns inga versionsanteckningar.';
+
+  @override
+  String get changelogFixes => 'Korrigeringar';
+
+  @override
+  String get changelogImprovements => 'Förbättringar';
+
+  @override
+  String get changelogLoadFailed => 'Det gick inte att ladda informationsnoterna.';
+
+  @override
+  String get changelogNew => 'Nytt';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Version$version';
+  }
+
+  @override
+  String get changelogTitle => 'Ändringslogg';
 }

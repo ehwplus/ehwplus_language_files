@@ -206,7 +206,7 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get basePrice => 'ราคาพื้นฐาน';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'ค่าใช้จ่ายมิเตอร์ (รายปี)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2232,21 +2232,21 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'รีเฟรชอุปกรณ์ Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'รักษาสถานะการเข้าสู่ระบบบนอุปกรณ์นี้';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'การเข้าสู่ระบบ Powerfox ของคุณจะหมดอายุโดยปกติหลังจากประมาณ$minutes นาที หากคุณยังคงเข้าสู่ระบบอยู่ แอปจะต่ออายุการเข้าสู่ระบบให้อัตโนมัติในเบื้องหลัง';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'ออกจาก Powerfox แล้ว';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'การเข้าสู่ระบบ Powerfox ไม่สำเร็จ โปรดลองอีกครั้ง';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'ยกเลิกการเชื่อมโยง';
 
   @override
   String get purchasesBuyNow => 'ซื้อตอนนี้';
@@ -3930,4 +3930,27 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'รหัสไปรษณีย์ที่ถูกต้องประกอบด้วยตัวเลขเท่านั้น';
+
+  @override
+  String get changelogEmpty => 'ไม่มีบันทึกการอัปเดต';
+
+  @override
+  String get changelogFixes => 'การแก้ไข';
+
+  @override
+  String get changelogImprovements => 'การปรับปรุง';
+
+  @override
+  String get changelogLoadFailed => 'ไม่สามารถโหลดบันทึกการอัปเดตได้';
+
+  @override
+  String get changelogNew => 'ใหม่';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'เวอร์ชัน$version';
+  }
+
+  @override
+  String get changelogTitle => 'บันทึกการเปลี่ยนแปลง';
 }

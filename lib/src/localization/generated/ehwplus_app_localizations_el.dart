@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get basePrice => 'Βασική τιμή';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Κόστος μετρητών (ετήσιο)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2252,21 +2252,21 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Επανεκκίνηση συσκευών Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Να παραμείνετε συνδεδεμένοι σε αυτή τη συσκευή';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Η σύνδεσή σας στο Powerfox λήγει συνήθως μετά από περίπου $minutes λεπτά. Εάν παραμείνετε συνδεδεμένοι, η εφαρμογή την ανανεώνει αυτόματα στο παρασκήνιο.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Αποσύνδεση από το Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Η σύνδεση στο Powerfox δεν ολοκληρώθηκε. Παρακαλώ, δοκιμάστε ξανά.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Αποσύνδεση';
 
   @override
   String get purchasesBuyNow => 'Αγοράστε τώρα';
@@ -3973,4 +3973,27 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Ένας έγκυρος ταχυδρομικός κώδικας αποτελείται μόνο από αριθμούς';
+
+  @override
+  String get changelogEmpty => 'Δεν υπάρχουν διαθέσιμες σημειώσεις έκδοσης.';
+
+  @override
+  String get changelogFixes => 'Διορθώσεις';
+
+  @override
+  String get changelogImprovements => 'Βελτιώσεις';
+
+  @override
+  String get changelogLoadFailed => 'Δεν ήταν δυνατή η φόρτωση των σημειώσεων έκδοσης.';
+
+  @override
+  String get changelogNew => 'Νέο';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Έκδοση$version';
+  }
+
+  @override
+  String get changelogTitle => 'Ιστορικό αλλαγών';
 }

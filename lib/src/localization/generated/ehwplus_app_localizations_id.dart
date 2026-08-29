@@ -208,7 +208,7 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get basePrice => 'Harga dasar';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Biaya meteran (tahunan)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2244,21 +2244,21 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Segarkan perangkat Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Tetap masuk di perangkat ini';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Sesi masuk Powerfox Anda biasanya akan kedaluwarsa setelah sekitar $minutes menit. Jika Anda tetap masuk, aplikasi akan memperpanjangnya secara otomatis di latar belakang.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Keluar dari Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Proses masuk ke Powerfox belum selesai. Silakan coba lagi.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Putuskan tautan';
 
   @override
   String get purchasesBuyNow => 'Beli sekarang';
@@ -3959,4 +3959,27 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kode pos yang valid hanya terdiri dari angka';
+
+  @override
+  String get changelogEmpty => 'Tidak ada catatan rilis yang tersedia.';
+
+  @override
+  String get changelogFixes => 'Perbaikan';
+
+  @override
+  String get changelogImprovements => 'Peningkatan';
+
+  @override
+  String get changelogLoadFailed => 'Catatan rilis tidak dapat dimuat.';
+
+  @override
+  String get changelogNew => 'Baru';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Versi$version';
+  }
+
+  @override
+  String get changelogTitle => 'Daftar Perubahan';
 }

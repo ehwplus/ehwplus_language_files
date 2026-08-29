@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get basePrice => 'Bazinė kaina';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Matuoklio išlaidos (per metus)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2242,21 +2242,21 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Atnaujinti „Powerfox“ įrenginius';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Likti prisijungus šiuo įrenginiu';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Jūsų „Powerfox“ prisijungimas paprastai nustoja galioti po maždaug $minutes minučių. Jei liekate prisijungę, programa jį automatiškai atnaujina fone.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Atsijungta iš „Powerfox“';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => '„Powerfox“ prisijungimas nebuvo užbaigtas. Prašome bandyti dar kartą.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Atšaukti susiejimą';
 
   @override
   String get purchasesBuyNow => 'Pirkti dabar';
@@ -3957,4 +3957,27 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Galiojantį pašto kodą sudaro tik skaičiai';
+
+  @override
+  String get changelogEmpty => 'Išleidimo pastabų nėra.';
+
+  @override
+  String get changelogFixes => 'Pataisymai';
+
+  @override
+  String get changelogImprovements => 'Patobulinimai';
+
+  @override
+  String get changelogLoadFailed => 'Nepavyko įkelti išleidimo pastabų.';
+
+  @override
+  String get changelogNew => 'Nauja';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Versija „$version“';
+  }
+
+  @override
+  String get changelogTitle => 'Pakeitimų sąrašas';
 }

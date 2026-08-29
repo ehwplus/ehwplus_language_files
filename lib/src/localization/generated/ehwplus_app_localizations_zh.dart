@@ -204,7 +204,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get basePrice => '基价';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => '水表费用（每年）';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2179,21 +2179,21 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => '刷新 Powerfox 设备';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => '在此设备上保持登录状态';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return '您的 Powerfox 登录状态通常会在约 $minutes 分钟后过期。如果您保持登录状态，应用会在后台自动刷新登录状态。';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => '已从 Powerfox 注销';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfox 登录未完成。请重试。';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => '取消关联';
 
   @override
   String get purchasesBuyNow => '立即购买';
@@ -3793,4 +3793,27 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => '有效的邮政编码仅由数字组成';
+
+  @override
+  String get changelogEmpty => '目前没有发布说明。';
+
+  @override
+  String get changelogFixes => '修复';
+
+  @override
+  String get changelogImprovements => '改进';
+
+  @override
+  String get changelogLoadFailed => '无法加载版本说明。';
+
+  @override
+  String get changelogNew => '新';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return '版本$version';
+  }
+
+  @override
+  String get changelogTitle => '更新日志';
 }

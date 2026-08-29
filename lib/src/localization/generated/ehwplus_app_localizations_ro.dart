@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get basePrice => 'Preț de bază';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Costurile contorului (anuale)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2244,21 +2244,22 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Reinițializarea dispozitivelor Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Rămâi conectat pe acest dispozitiv';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Autentificarea ta în Powerfox expiră, de obicei, după aproximativ $minutes minute. Dacă rămâi autentificat, aplicația îți reînnoiește automat autentificarea în fundal.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'S-a deconectat din Powerfox';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete =>
+      'Autentificarea la Powerfox nu s-a finalizat. Vă rugăm să încercați din nou.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Anulează asocierea';
 
   @override
   String get purchasesBuyNow => 'Cumpărați acum';
@@ -3958,4 +3959,27 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Un cod poștal valabil constă numai din numere';
+
+  @override
+  String get changelogEmpty => 'Nu sunt disponibile note de lansare.';
+
+  @override
+  String get changelogFixes => 'Corecturi';
+
+  @override
+  String get changelogImprovements => 'Îmbunătățiri';
+
+  @override
+  String get changelogLoadFailed => 'Nu s-au putut încărca notele de lansare.';
+
+  @override
+  String get changelogNew => 'Nou';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Versiune$version';
+  }
+
+  @override
+  String get changelogTitle => 'Istoric modificări';
 }

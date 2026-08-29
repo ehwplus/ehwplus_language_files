@@ -206,7 +206,7 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get basePrice => 'Základní cena';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Náklady na měřiče (roční)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2237,21 +2237,21 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Obnovit zařízení Powerfox';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Zůstat přihlášeni na tomto zařízení';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Vaše přihlášení do aplikace Powerfox obvykle vyprší po přibližně $minutes minutách. Pokud zůstanete přihlášeni, aplikace vaše přihlášení automaticky obnoví na pozadí.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Odhlášen z Powerfoxu';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Přihlášení do služby Powerfox nebylo dokončeno. Zkuste to prosím znovu.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Odebrat propojení';
 
   @override
   String get purchasesBuyNow => 'Kup teď';
@@ -3941,4 +3941,27 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Platné PSČ se skládá pouze z čísel';
+
+  @override
+  String get changelogEmpty => 'Poznámky k vydání nejsou k dispozici.';
+
+  @override
+  String get changelogFixes => 'Opravy';
+
+  @override
+  String get changelogImprovements => 'Vylepšení';
+
+  @override
+  String get changelogLoadFailed => 'Poznámky k vydání se nepodařilo načíst.';
+
+  @override
+  String get changelogNew => 'Novinky';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Verze$version';
+  }
+
+  @override
+  String get changelogTitle => 'Seznam změn';
 }

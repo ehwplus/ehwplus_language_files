@@ -1944,5 +1944,19 @@
       }
     }
   },
-  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers"
+  "zipCodeValidationOnlyNumbers": "A valid zip code consists only of numbers",
+  "changelogEmpty": "No release notes are available.",
+  "changelogFixes": "Fixes",
+  "changelogImprovements": "Improvements",
+  "changelogLoadFailed": "Release notes could not be loaded.",
+  "changelogNew": "New",
+  "changelogReleaseVersion": "Version {version}",
+  "@changelogReleaseVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "changelogTitle": "Changelog"
 }

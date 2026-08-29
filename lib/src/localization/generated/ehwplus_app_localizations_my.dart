@@ -207,7 +207,7 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get basePrice => 'အခြေခံစျေးနှုန်း';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'မီတာကုန်ကျစရိတ် (နှစ်စဉ်)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2246,21 +2246,21 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Powerfox စက်ပစ္စည်းများကို ပြန်လည်အသစ်ပြုလုပ်ပါ။';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'ဤကိရိယာတွင် လော့ဂ်အင်ထားနေရန်';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'သင့် Powerfox ဝင်ရောက်မှုသည် ပုံမှန်အားဖြင့် $minutes မိနစ်အကြာတွင် သက်တမ်းကုန်ဆုံးပါသည်။ သင် ဆက်လက်ဝင်ရောက်ထားပါက အက်ပ်သည် နောက်ခံတွင် အလိုအလျောက် ပြန်လည်အသက်သွင်းပေးပါသည်။';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Powerfox မှ ထွက်ထားသည်';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfox ဝင်ရောက်ခြင်း မပြီးစီးပါ။ ထပ်မံကြိုးစားပါ။';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'ချိတ်ဆက်မှု ဖျက်ရန်';
 
   @override
   String get purchasesBuyNow => 'အခုဝယ်ပါ';
@@ -3951,4 +3951,27 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'ခိုင်လုံသော zip ကုဒ်နံပါတ်များသာပါဝင်သည်';
+
+  @override
+  String get changelogEmpty => 'ထုတ်ပြန်ချက် မှတ်စုများ မရရှိနိုင်ပါ။';
+
+  @override
+  String get changelogFixes => 'ပြင်ဆင်ချက်များ';
+
+  @override
+  String get changelogImprovements => 'တိုးတက်မှုများ';
+
+  @override
+  String get changelogLoadFailed => 'ထုတ်လွှင့်မှတ်စုများကို မတင်နိုင်ခဲ့ပါ။';
+
+  @override
+  String get changelogNew => 'အသစ်';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'ဗားရှင်း $version';
+  }
+
+  @override
+  String get changelogTitle => 'ပြောင်းလဲမှတ်တမ်း';
 }

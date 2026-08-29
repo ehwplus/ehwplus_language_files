@@ -205,7 +205,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get basePrice => 'Põhihind';
 
   @override
-  String get meterCosts => 'Meter costs (yearly)';
+  String get meterCosts => 'Arvestikulu (aastas)';
 
   @override
   String basePriceMonthlyResult(String amount) {
@@ -2240,21 +2240,21 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get powerfoxRefreshDevicesTooltip => 'Powerfox-seadmete värskendamine';
 
   @override
-  String get powerfoxRememberSession => 'Stay signed in on this device';
+  String get powerfoxRememberSession => 'Jää selles seadmes sisse logitud';
 
   @override
   String powerfoxSessionDurationHint(int minutes) {
-    return 'Your Powerfox sign-in normally expires after about $minutes minutes. If you stay signed in, the app renews it automatically in the background.';
+    return 'Teie Powerfoxi sisselogimine aegub tavaliselt umbes $minutes minuti pärast. Kui jääte sisse logitud, uuendab rakendus seda taustal automaatselt.';
   }
 
   @override
-  String get powerfoxSignedOut => 'Signed out of Powerfox';
+  String get powerfoxSignedOut => 'Väljusin Powerfoxist';
 
   @override
-  String get powerfoxLoginDidNotComplete => 'Powerfox sign-in did not finish. Please try again.';
+  String get powerfoxLoginDidNotComplete => 'Powerfoxi sisselogimine ei õnnestunud. Palun proovi uuesti.';
 
   @override
-  String get powerfoxUnlink => 'Unlink';
+  String get powerfoxUnlink => 'Lingi eemaldamine';
 
   @override
   String get purchasesBuyNow => 'Osta kohe';
@@ -3932,4 +3932,27 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get zipCodeValidationOnlyNumbers => 'Kehtiv postiindeks koosneb ainult numbritest';
+
+  @override
+  String get changelogEmpty => 'Väljalasketeateid pole saadaval.';
+
+  @override
+  String get changelogFixes => 'Parandused';
+
+  @override
+  String get changelogImprovements => 'Parandused';
+
+  @override
+  String get changelogLoadFailed => 'Väljalaskeinfo laadimine ebaõnnestus.';
+
+  @override
+  String get changelogNew => 'Uus';
+
+  @override
+  String changelogReleaseVersion(String version) {
+    return 'Versioon$version';
+  }
+
+  @override
+  String get changelogTitle => 'Muudatuste loend';
 }
