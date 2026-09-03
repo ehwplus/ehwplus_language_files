@@ -7048,6 +7048,96 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Active sync provider'**
   String get syncProviderActive;
+
+  /// No description provided for @syncOverviewIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. Only one sync method can be active at a time.'**
+  String get syncOverviewIntro;
+
+  /// No description provided for @syncSelectProviderLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Active sync method'**
+  String get syncSelectProviderLabel;
+
+  /// No description provided for @syncSelectProviderHelp.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose where your data should be stored. You can open each method below for details and to sign in if needed.'**
+  String get syncSelectProviderHelp;
+
+  /// No description provided for @syncProvidersSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Available sync methods'**
+  String get syncProvidersSectionTitle;
+
+  /// No description provided for @syncProviderSegmentGoogle.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Drive'**
+  String get syncProviderSegmentGoogle;
+
+  /// No description provided for @syncProviderSegmentEhwPlus.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+'**
+  String get syncProviderSegmentEhwPlus;
+
+  /// No description provided for @syncProviderGoogleSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.'**
+  String get syncProviderGoogleSummary;
+
+  /// No description provided for @syncProviderEhwPlusSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Stores your data in the EHW+ cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.'**
+  String get syncProviderEhwPlusSummary;
+
+  /// No description provided for @syncProviderGoogleDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Sync later, Google Drive is no longer the active backup until you switch back.'**
+  String get syncProviderGoogleDetails;
+
+  /// No description provided for @syncProviderEhwPlusDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ Sync sends your object data to EHW+ servers and keeps devices in sync using your EHW+ account (the same login as purchases and other EHW+ features). If two devices change the same reading, the app can show a conflict so you can choose what to keep. You must be signed in with your EHW+ account to use this method. Photos and advanced sharing may follow in later updates.'**
+  String get syncProviderEhwPlusDetails;
+
+  /// No description provided for @syncOpenProviderDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Open details'**
+  String get syncOpenProviderDetails;
+
+  /// No description provided for @syncProviderSignedIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Signed in'**
+  String get syncProviderSignedIn;
+
+  /// No description provided for @syncProviderNotSignedIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Not signed in'**
+  String get syncProviderNotSignedIn;
+
+  /// No description provided for @syncNeedsEhwPlusAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with your EHW+ account to use EHW+ Sync.'**
+  String get syncNeedsEhwPlusAccount;
+
+  /// No description provided for @syncNeedsGoogleAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with Google to use Google Drive Sync.'**
+  String get syncNeedsGoogleAccount;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

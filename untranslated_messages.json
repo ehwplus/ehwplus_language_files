@@ -13,7 +13,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "ar": [
@@ -30,7 +45,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "bg": [
@@ -47,7 +77,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "bs": [
@@ -64,7 +109,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "cs": [
@@ -81,7 +141,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "da": [
@@ -98,7 +173,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "el": [
@@ -115,7 +205,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "es": [
@@ -132,7 +237,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "et": [
@@ -149,7 +269,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "fa": [
@@ -166,7 +301,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "fi": [
@@ -183,7 +333,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "fr": [
@@ -200,7 +365,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "hi": [
@@ -217,7 +397,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "hr": [
@@ -234,7 +429,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "hu": [
@@ -251,7 +461,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "id": [
@@ -268,7 +493,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "it": [
@@ -285,7 +525,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "ja": [
@@ -302,7 +557,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "ko": [
@@ -319,7 +589,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "lt": [
@@ -336,7 +621,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "ml": [
@@ -353,7 +653,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "my": [
@@ -370,7 +685,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "nb": [
@@ -387,7 +717,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "nl": [
@@ -404,7 +749,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "pl": [
@@ -421,7 +781,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "pt": [
@@ -438,7 +813,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "ro": [
@@ -455,7 +845,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "ru": [
@@ -472,7 +877,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "sl": [
@@ -489,7 +909,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "sr": [
@@ -506,7 +941,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "sv": [
@@ -523,7 +973,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "sw": [
@@ -540,7 +1005,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "th": [
@@ -557,7 +1037,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "tr": [
@@ -574,7 +1069,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "uk": [
@@ -591,7 +1101,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "vi": [
@@ -608,7 +1133,22 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ],
 
   "zh": [
@@ -625,6 +1165,21 @@
     "ehwPlusSyncStatusUpdateRequired",
     "ehwPlusSyncStatusMerged",
     "ehwPlusSyncStatusConflict",
-    "syncProviderActive"
+    "syncProviderActive",
+    "syncOverviewIntro",
+    "syncSelectProviderLabel",
+    "syncSelectProviderHelp",
+    "syncProvidersSectionTitle",
+    "syncProviderSegmentGoogle",
+    "syncProviderSegmentEhwPlus",
+    "syncProviderGoogleSummary",
+    "syncProviderEhwPlusSummary",
+    "syncProviderGoogleDetails",
+    "syncProviderEhwPlusDetails",
+    "syncOpenProviderDetails",
+    "syncProviderSignedIn",
+    "syncProviderNotSignedIn",
+    "syncNeedsEhwPlusAccount",
+    "syncNeedsGoogleAccount"
   ]
 }

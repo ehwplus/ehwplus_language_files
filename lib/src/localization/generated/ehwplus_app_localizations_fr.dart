@@ -4036,4 +4036,55 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderActive => 'Active sync provider';
+
+  @override
+  String get syncOverviewIntro =>
+      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. Only one sync method can be active at a time.';
+
+  @override
+  String get syncSelectProviderLabel => 'Active sync method';
+
+  @override
+  String get syncSelectProviderHelp =>
+      'Choose where your data should be stored. You can open each method below for details and to sign in if needed.';
+
+  @override
+  String get syncProvidersSectionTitle => 'Available sync methods';
+
+  @override
+  String get syncProviderSegmentGoogle => 'Google Drive';
+
+  @override
+  String get syncProviderSegmentEhwPlus => 'EHW+';
+
+  @override
+  String get syncProviderGoogleSummary =>
+      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+
+  @override
+  String get syncProviderEhwPlusSummary =>
+      'Stores your data in the EHW+ cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+
+  @override
+  String get syncProviderGoogleDetails =>
+      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Sync later, Google Drive is no longer the active backup until you switch back.';
+
+  @override
+  String get syncProviderEhwPlusDetails =>
+      'EHW+ Sync sends your object data to EHW+ servers and keeps devices in sync using your EHW+ account (the same login as purchases and other EHW+ features). If two devices change the same reading, the app can show a conflict so you can choose what to keep. You must be signed in with your EHW+ account to use this method. Photos and advanced sharing may follow in later updates.';
+
+  @override
+  String get syncOpenProviderDetails => 'Open details';
+
+  @override
+  String get syncProviderSignedIn => 'Signed in';
+
+  @override
+  String get syncProviderNotSignedIn => 'Not signed in';
+
+  @override
+  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Sync.';
+
+  @override
+  String get syncNeedsGoogleAccount => 'Sign in with Google to use Google Drive Sync.';
 }

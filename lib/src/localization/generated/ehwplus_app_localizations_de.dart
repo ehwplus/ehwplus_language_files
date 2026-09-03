@@ -4022,4 +4022,55 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderActive => 'Aktiver Sync-Anbieter';
+
+  @override
+  String get syncOverviewIntro =>
+      'Mit Sync sicherst du Häuser und Zählerstände in der Cloud. Bei einem neuen Handy oder einer Neuinstallation kannst du deine Daten wiederherstellen. Es kann immer nur eine Sync-Methode aktiv sein.';
+
+  @override
+  String get syncSelectProviderLabel => 'Aktive Sync-Methode';
+
+  @override
+  String get syncSelectProviderHelp =>
+      'Wähle, wo deine Daten gespeichert werden sollen. Unten findest du Details zu jeder Methode und kannst dich bei Bedarf anmelden.';
+
+  @override
+  String get syncProvidersSectionTitle => 'Verfügbare Sync-Methoden';
+
+  @override
+  String get syncProviderSegmentGoogle => 'Google Drive';
+
+  @override
+  String get syncProviderSegmentEhwPlus => 'EHW+';
+
+  @override
+  String get syncProviderGoogleSummary =>
+      'Speichert deine Daten als Dateien in deinem Google Drive. Du meldest dich mit Google an. Gut, wenn du Google ohnehin nutzt und die Dateien in Drive haben möchtest.';
+
+  @override
+  String get syncProviderEhwPlusSummary =>
+      'Speichert deine Daten in der EHW+-Cloud mit deinem EHW+-Konto. Funktioniert geräteübergreifend ohne Google Drive. Ideal, wenn du dich bei EHW+ anmeldest.';
+
+  @override
+  String get syncProviderGoogleDetails =>
+      'Google Drive Sync kopiert deine Objektdaten in einen Ordner in deinem Google-Konto. Melde dich auf dieser Seite mit Google an. Änderungen können online automatisch synchronisiert werden. Die Dateien bleiben in deinem Drive und sind auch außerhalb der App sichtbar. Hinweis: Wenn du später auf EHW+ Sync wechselst, ist Google Drive nicht mehr die aktive Sicherung, bis du zurückwechselst.';
+
+  @override
+  String get syncProviderEhwPlusDetails =>
+      'EHW+ Sync überträgt deine Objektdaten an EHW+-Server und hält Geräte mit deinem EHW+-Konto synchron (dieselbe Anmeldung wie für Käufe und andere EHW+-Funktionen). Wenn zwei Geräte denselben Stand ändern, kann die App einen Konflikt zeigen, damit du entscheiden kannst. Für diese Methode musst du mit deinem EHW+-Konto angemeldet sein. Fotos und erweiterte Freigaben folgen ggf. später.';
+
+  @override
+  String get syncOpenProviderDetails => 'Details öffnen';
+
+  @override
+  String get syncProviderSignedIn => 'Angemeldet';
+
+  @override
+  String get syncProviderNotSignedIn => 'Nicht angemeldet';
+
+  @override
+  String get syncNeedsEhwPlusAccount => 'Melde dich mit deinem EHW+-Konto an, um EHW+ Sync zu nutzen.';
+
+  @override
+  String get syncNeedsGoogleAccount => 'Melde dich mit Google an, um Google Drive Sync zu nutzen.';
 }
