@@ -1271,5 +1271,19 @@
       }
     }
   },
-  "changelogTitle": "Änderungshistorie"
+  "changelogTitle": "Änderungshistorie",
+  "ehwPlusSyncTitle": "EHW+ Sync",
+  "ehwPlusSyncDescription": "Synchronisiere deine Objekte mit der EHW+ Cloud über dein EHW+-Konto. Es kann nur ein Sync-Anbieter gleichzeitig aktiv sein.",
+  "ehwPlusSyncUseAsPrimary": "EHW+ Sync als Primäranbieter nutzen",
+  "ehwPlusSyncIsPrimary": "EHW+ Sync ist dein aktiver Cloud-Anbieter.",
+  "ehwPlusSyncActivated": "EHW+ Sync ist jetzt der aktive Anbieter.",
+  "ehwPlusSyncActivateFailed": "EHW+ Sync konnte nicht aktiviert werden.",
+  "ehwPlusSyncConflictsHeader": "Konflikte",
+  "ehwPlusSyncTakeServer": "Serverversion übernehmen",
+  "ehwPlusSyncStatusCreated": "In der Cloud erstellt",
+  "ehwPlusSyncStatusFastForward": "Hochgeladen (fast-forward)",
+  "ehwPlusSyncStatusUpdateRequired": "Server hat neuere Daten",
+  "ehwPlusSyncStatusMerged": "Mit Server zusammengeführt",
+  "ehwPlusSyncStatusConflict": "Konflikt — unten lösen",
+  "syncProviderActive": "Aktiver Sync-Anbieter"
 }

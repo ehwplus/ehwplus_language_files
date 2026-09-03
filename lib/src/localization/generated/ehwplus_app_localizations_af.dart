@@ -3972,4 +3972,47 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get changelogTitle => 'Veranderingslog';
+
+  @override
+  String get ehwPlusSyncTitle => 'EHW+ Sync';
+
+  @override
+  String get ehwPlusSyncDescription =>
+      'Sync your objects with EHW+ cloud using your EHW+ account. Only one sync provider can be active at a time.';
+
+  @override
+  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Sync as primary';
+
+  @override
+  String get ehwPlusSyncIsPrimary => 'EHW+ Sync is your active cloud provider.';
+
+  @override
+  String get ehwPlusSyncActivated => 'EHW+ Sync is now the active provider.';
+
+  @override
+  String get ehwPlusSyncActivateFailed => 'Could not activate EHW+ Sync.';
+
+  @override
+  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+
+  @override
+  String get ehwPlusSyncTakeServer => 'Take server version';
+
+  @override
+  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+
+  @override
+  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+
+  @override
+  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+
+  @override
+  String get ehwPlusSyncStatusMerged => 'Merged with server';
+
+  @override
+  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+
+  @override
+  String get syncProviderActive => 'Active sync provider';
 }

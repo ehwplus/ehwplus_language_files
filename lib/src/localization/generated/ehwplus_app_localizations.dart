@@ -6964,6 +6964,90 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Changelog'**
   String get changelogTitle;
+
+  /// No description provided for @ehwPlusSyncTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ Sync'**
+  String get ehwPlusSyncTitle;
+
+  /// No description provided for @ehwPlusSyncDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Sync your objects with EHW+ cloud using your EHW+ account. Only one sync provider can be active at a time.'**
+  String get ehwPlusSyncDescription;
+
+  /// No description provided for @ehwPlusSyncUseAsPrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'Use EHW+ Sync as primary'**
+  String get ehwPlusSyncUseAsPrimary;
+
+  /// No description provided for @ehwPlusSyncIsPrimary.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ Sync is your active cloud provider.'**
+  String get ehwPlusSyncIsPrimary;
+
+  /// No description provided for @ehwPlusSyncActivated.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ Sync is now the active provider.'**
+  String get ehwPlusSyncActivated;
+
+  /// No description provided for @ehwPlusSyncActivateFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not activate EHW+ Sync.'**
+  String get ehwPlusSyncActivateFailed;
+
+  /// No description provided for @ehwPlusSyncConflictsHeader.
+  ///
+  /// In en, this message translates to:
+  /// **'Conflicts'**
+  String get ehwPlusSyncConflictsHeader;
+
+  /// No description provided for @ehwPlusSyncTakeServer.
+  ///
+  /// In en, this message translates to:
+  /// **'Take server version'**
+  String get ehwPlusSyncTakeServer;
+
+  /// No description provided for @ehwPlusSyncStatusCreated.
+  ///
+  /// In en, this message translates to:
+  /// **'Created in cloud'**
+  String get ehwPlusSyncStatusCreated;
+
+  /// No description provided for @ehwPlusSyncStatusFastForward.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded (fast-forward)'**
+  String get ehwPlusSyncStatusFastForward;
+
+  /// No description provided for @ehwPlusSyncStatusUpdateRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Server has newer data'**
+  String get ehwPlusSyncStatusUpdateRequired;
+
+  /// No description provided for @ehwPlusSyncStatusMerged.
+  ///
+  /// In en, this message translates to:
+  /// **'Merged with server'**
+  String get ehwPlusSyncStatusMerged;
+
+  /// No description provided for @ehwPlusSyncStatusConflict.
+  ///
+  /// In en, this message translates to:
+  /// **'Conflict — resolve below'**
+  String get ehwPlusSyncStatusConflict;
+
+  /// No description provided for @syncProviderActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Active sync provider'**
+  String get syncProviderActive;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

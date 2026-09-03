@@ -1958,5 +1958,19 @@
       }
     }
   },
-  "changelogTitle": "Changelog"
+  "changelogTitle": "Changelog",
+  "ehwPlusSyncTitle": "EHW+ Sync",
+  "ehwPlusSyncDescription": "Sync your objects with EHW+ cloud using your EHW+ account. Only one sync provider can be active at a time.",
+  "ehwPlusSyncUseAsPrimary": "Use EHW+ Sync as primary",
+  "ehwPlusSyncIsPrimary": "EHW+ Sync is your active cloud provider.",
+  "ehwPlusSyncActivated": "EHW+ Sync is now the active provider.",
+  "ehwPlusSyncActivateFailed": "Could not activate EHW+ Sync.",
+  "ehwPlusSyncConflictsHeader": "Conflicts",
+  "ehwPlusSyncTakeServer": "Take server version",
+  "ehwPlusSyncStatusCreated": "Created in cloud",
+  "ehwPlusSyncStatusFastForward": "Uploaded (fast-forward)",
+  "ehwPlusSyncStatusUpdateRequired": "Server has newer data",
+  "ehwPlusSyncStatusMerged": "Merged with server",
+  "ehwPlusSyncStatusConflict": "Conflict — resolve below",
+  "syncProviderActive": "Active sync provider"
 }
