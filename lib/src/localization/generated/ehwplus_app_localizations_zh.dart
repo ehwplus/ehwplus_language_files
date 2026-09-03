@@ -3818,23 +3818,23 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get changelogTitle => '更新日志';
 
   @override
-  String get ehwPlusSyncTitle => 'EHW+ Sync';
+  String get ehwPlusSyncTitle => 'EHW+ Cloud';
 
   @override
   String get ehwPlusSyncDescription =>
-      'Sync your objects with EHW+ cloud using your EHW+ account. Only one sync provider can be active at a time.';
+      'Sync your objects with EHW+ Cloud using your EHW+ account. At most one sync provider can be active at a time.';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Sync as primary';
+  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud as primary';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Sync is your active cloud provider.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your active cloud provider.';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Sync is now the active provider.';
+  String get ehwPlusSyncActivated => 'EHW+ Cloud is now the active provider.';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Could not activate EHW+ Sync.';
+  String get ehwPlusSyncActivateFailed => 'Could not change the active sync method.';
 
   @override
   String get ehwPlusSyncConflictsHeader => 'Conflicts';
@@ -3861,24 +3861,43 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get syncProviderActive => 'Active sync provider';
 
   @override
+  String get syncProviderNoneActive =>
+      'No synchronization is selected. Choose EHW+ Cloud or Google Drive above, or open a method below to sign in first.';
+
+  @override
+  String get syncTurnOff => 'Turn sync off';
+
+  @override
   String get syncOverviewIntro =>
-      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. Only one sync method can be active at a time.';
+      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
 
   @override
   String get syncSelectProviderLabel => 'Active sync method';
 
   @override
   String get syncSelectProviderHelp =>
-      'Choose where your data should be stored. You can open each method below for details and to sign in if needed.';
+      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
 
   @override
   String get syncProvidersSectionTitle => 'Available sync methods';
 
   @override
+  String get syncProviderSegmentNone => 'No synchronization';
+
+  @override
+  String get syncProviderSegmentNoneShort => 'Off';
+
+  @override
   String get syncProviderSegmentGoogle => 'Google Drive';
 
   @override
-  String get syncProviderSegmentEhwPlus => 'EHW+';
+  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+
+  @override
+  String get syncProviderSegmentGoogleShort => 'Drive';
+
+  @override
+  String get syncProviderSegmentEhwPlusShort => 'Cloud';
 
   @override
   String get syncProviderGoogleSummary =>
@@ -3886,15 +3905,15 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderEhwPlusSummary =>
-      'Stores your data in the EHW+ cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
 
   @override
   String get syncProviderGoogleDetails =>
-      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Sync later, Google Drive is no longer the active backup until you switch back.';
+      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Sync sends your object data to EHW+ servers and keeps devices in sync using your EHW+ account (the same login as purchases and other EHW+ features). If two devices change the same reading, the app can show a conflict so you can choose what to keep. You must be signed in with your EHW+ account to use this method. Photos and advanced sharing may follow in later updates.';
+      'EHW+ Cloud sends your object data to EHW+ servers and keeps devices in sync using your EHW+ account (the same login as purchases and other EHW+ features). If two devices change the same reading, the app can show a conflict so you can choose what to keep. You must be signed in with your EHW+ account to use this method. Photos and advanced sharing may follow in later updates.';
 
   @override
   String get syncOpenProviderDetails => 'Open details';
@@ -3906,8 +3925,79 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get syncProviderNotSignedIn => 'Not signed in';
 
   @override
-  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Sync.';
+  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
 
   @override
-  String get syncNeedsGoogleAccount => 'Sign in with Google to use Google Drive Sync.';
+  String get syncNeedsGoogleAccount =>
+      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+
+  @override
+  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+
+  @override
+  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+
+  @override
+  String get syncErrorAccessDenied =>
+      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+
+  @override
+  String get syncErrorPayloadTooLarge =>
+      'This home is too large to sync right now. Try again later or contact support.';
+
+  @override
+  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+
+  @override
+  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+
+  @override
+  String get syncErrorUnknown => 'Sync failed. Please try again.';
+
+  @override
+  String get syncTurnedOff => 'Cloud sync is turned off.';
+
+  @override
+  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+
+  @override
+  String get syncNoHomesYet => 'No homes to sync yet.';
+
+  @override
+  String get syncAllNow => 'Sync all';
+
+  @override
+  String syncAllFinished(int ok, int total) {
+    return 'Finished syncing $ok of $total.';
+  }
+
+  @override
+  String syncAllFinishedWithFailures(int ok, int total, int failed) {
+    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+  }
+
+  @override
+  String get ehwPlusSyncConflictHint =>
+      'This home differs on the server. Take the server version to replace your local copy, or sync again after editing.';
+
+  @override
+  String get ehwPlusSyncAutoSyncLabel => 'Auto-sync on changes';
+
+  @override
+  String get ehwPlusSyncAutoSyncHint => 'Up to 3 homes. Automatic sync on edits is not wired yet.';
+
+  @override
+  String get ehwPlusSyncAutoSyncLimit => 'You can auto-sync at most 3 homes. Turn one off first.';
+
+  @override
+  String get ehwPlusSyncSideLocal => 'This device';
+
+  @override
+  String get ehwPlusSyncSideCloud => 'Cloud';
+
+  @override
+  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+
+  @override
+  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
 }

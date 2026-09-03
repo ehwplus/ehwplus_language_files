@@ -6968,37 +6968,37 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncTitle.
   ///
   /// In en, this message translates to:
-  /// **'EHW+ Sync'**
+  /// **'EHW+ Cloud'**
   String get ehwPlusSyncTitle;
 
   /// No description provided for @ehwPlusSyncDescription.
   ///
   /// In en, this message translates to:
-  /// **'Sync your objects with EHW+ cloud using your EHW+ account. Only one sync provider can be active at a time.'**
+  /// **'Sync your objects with EHW+ Cloud using your EHW+ account. At most one sync provider can be active at a time.'**
   String get ehwPlusSyncDescription;
 
   /// No description provided for @ehwPlusSyncUseAsPrimary.
   ///
   /// In en, this message translates to:
-  /// **'Use EHW+ Sync as primary'**
+  /// **'Use EHW+ Cloud as primary'**
   String get ehwPlusSyncUseAsPrimary;
 
   /// No description provided for @ehwPlusSyncIsPrimary.
   ///
   /// In en, this message translates to:
-  /// **'EHW+ Sync is your active cloud provider.'**
+  /// **'EHW+ Cloud is your active cloud provider.'**
   String get ehwPlusSyncIsPrimary;
 
   /// No description provided for @ehwPlusSyncActivated.
   ///
   /// In en, this message translates to:
-  /// **'EHW+ Sync is now the active provider.'**
+  /// **'EHW+ Cloud is now the active provider.'**
   String get ehwPlusSyncActivated;
 
   /// No description provided for @ehwPlusSyncActivateFailed.
   ///
   /// In en, this message translates to:
-  /// **'Could not activate EHW+ Sync.'**
+  /// **'Could not change the active sync method.'**
   String get ehwPlusSyncActivateFailed;
 
   /// No description provided for @ehwPlusSyncConflictsHeader.
@@ -7049,10 +7049,22 @@ abstract class EhwplusAppLocalizations {
   /// **'Active sync provider'**
   String get syncProviderActive;
 
+  /// No description provided for @syncProviderNoneActive.
+  ///
+  /// In en, this message translates to:
+  /// **'No synchronization is selected. Choose EHW+ Cloud or Google Drive above, or open a method below to sign in first.'**
+  String get syncProviderNoneActive;
+
+  /// No description provided for @syncTurnOff.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn sync off'**
+  String get syncTurnOff;
+
   /// No description provided for @syncOverviewIntro.
   ///
   /// In en, this message translates to:
-  /// **'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. Only one sync method can be active at a time.'**
+  /// **'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.'**
   String get syncOverviewIntro;
 
   /// No description provided for @syncSelectProviderLabel.
@@ -7064,7 +7076,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @syncSelectProviderHelp.
   ///
   /// In en, this message translates to:
-  /// **'Choose where your data should be stored. You can open each method below for details and to sign in if needed.'**
+  /// **'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.'**
   String get syncSelectProviderHelp;
 
   /// No description provided for @syncProvidersSectionTitle.
@@ -7072,6 +7084,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Available sync methods'**
   String get syncProvidersSectionTitle;
+
+  /// No description provided for @syncProviderSegmentNone.
+  ///
+  /// In en, this message translates to:
+  /// **'No synchronization'**
+  String get syncProviderSegmentNone;
+
+  /// No description provided for @syncProviderSegmentNoneShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Off'**
+  String get syncProviderSegmentNoneShort;
 
   /// No description provided for @syncProviderSegmentGoogle.
   ///
@@ -7082,8 +7106,20 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @syncProviderSegmentEhwPlus.
   ///
   /// In en, this message translates to:
-  /// **'EHW+'**
+  /// **'EHW+ Cloud'**
   String get syncProviderSegmentEhwPlus;
+
+  /// No description provided for @syncProviderSegmentGoogleShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Drive'**
+  String get syncProviderSegmentGoogleShort;
+
+  /// No description provided for @syncProviderSegmentEhwPlusShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud'**
+  String get syncProviderSegmentEhwPlusShort;
 
   /// No description provided for @syncProviderGoogleSummary.
   ///
@@ -7094,19 +7130,19 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @syncProviderEhwPlusSummary.
   ///
   /// In en, this message translates to:
-  /// **'Stores your data in the EHW+ cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.'**
+  /// **'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.'**
   String get syncProviderEhwPlusSummary;
 
   /// No description provided for @syncProviderGoogleDetails.
   ///
   /// In en, this message translates to:
-  /// **'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Sync later, Google Drive is no longer the active backup until you switch back.'**
+  /// **'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.'**
   String get syncProviderGoogleDetails;
 
   /// No description provided for @syncProviderEhwPlusDetails.
   ///
   /// In en, this message translates to:
-  /// **'EHW+ Sync sends your object data to EHW+ servers and keeps devices in sync using your EHW+ account (the same login as purchases and other EHW+ features). If two devices change the same reading, the app can show a conflict so you can choose what to keep. You must be signed in with your EHW+ account to use this method. Photos and advanced sharing may follow in later updates.'**
+  /// **'EHW+ Cloud sends your object data to EHW+ servers and keeps devices in sync using your EHW+ account (the same login as purchases and other EHW+ features). If two devices change the same reading, the app can show a conflict so you can choose what to keep. You must be signed in with your EHW+ account to use this method. Photos and advanced sharing may follow in later updates.'**
   String get syncProviderEhwPlusDetails;
 
   /// No description provided for @syncOpenProviderDetails.
@@ -7130,14 +7166,140 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @syncNeedsEhwPlusAccount.
   ///
   /// In en, this message translates to:
-  /// **'Sign in with your EHW+ account to use EHW+ Sync.'**
+  /// **'Sign in with your EHW+ account to use EHW+ Cloud.'**
   String get syncNeedsEhwPlusAccount;
 
   /// No description provided for @syncNeedsGoogleAccount.
   ///
   /// In en, this message translates to:
-  /// **'Sign in with Google to use Google Drive Sync.'**
+  /// **'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.'**
   String get syncNeedsGoogleAccount;
+
+  /// No description provided for @syncErrorNetwork.
+  ///
+  /// In en, this message translates to:
+  /// **'No connection. Check your network and try again.'**
+  String get syncErrorNetwork;
+
+  /// No description provided for @syncErrorSessionExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Your EHW+ session expired. Sign in again and retry.'**
+  String get syncErrorSessionExpired;
+
+  /// No description provided for @syncErrorAccessDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.'**
+  String get syncErrorAccessDenied;
+
+  /// No description provided for @syncErrorPayloadTooLarge.
+  ///
+  /// In en, this message translates to:
+  /// **'This home is too large to sync right now. Try again later or contact support.'**
+  String get syncErrorPayloadTooLarge;
+
+  /// No description provided for @syncErrorServiceUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ Cloud is temporarily unavailable. Try again in a moment.'**
+  String get syncErrorServiceUnavailable;
+
+  /// No description provided for @syncErrorNotReady.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud sync is not ready yet. Wait a moment and try again.'**
+  String get syncErrorNotReady;
+
+  /// No description provided for @syncErrorUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Sync failed. Please try again.'**
+  String get syncErrorUnknown;
+
+  /// No description provided for @syncTurnedOff.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud sync is turned off.'**
+  String get syncTurnedOff;
+
+  /// No description provided for @syncTurnOffFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not turn sync off. Please try again.'**
+  String get syncTurnOffFailed;
+
+  /// No description provided for @syncNoHomesYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No homes to sync yet.'**
+  String get syncNoHomesYet;
+
+  /// No description provided for @syncAllNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Sync all'**
+  String get syncAllNow;
+
+  /// No description provided for @syncAllFinished.
+  ///
+  /// In en, this message translates to:
+  /// **'Finished syncing {ok} of {total}.'**
+  String syncAllFinished(int ok, int total);
+
+  /// No description provided for @syncAllFinishedWithFailures.
+  ///
+  /// In en, this message translates to:
+  /// **'Finished syncing {ok} of {total}. {failed} failed — see homes marked below.'**
+  String syncAllFinishedWithFailures(int ok, int total, int failed);
+
+  /// No description provided for @ehwPlusSyncConflictHint.
+  ///
+  /// In en, this message translates to:
+  /// **'This home differs on the server. Take the server version to replace your local copy, or sync again after editing.'**
+  String get ehwPlusSyncConflictHint;
+
+  /// No description provided for @ehwPlusSyncAutoSyncLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto-sync on changes'**
+  String get ehwPlusSyncAutoSyncLabel;
+
+  /// No description provided for @ehwPlusSyncAutoSyncHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Up to 3 homes. Automatic sync on edits is not wired yet.'**
+  String get ehwPlusSyncAutoSyncHint;
+
+  /// No description provided for @ehwPlusSyncAutoSyncLimit.
+  ///
+  /// In en, this message translates to:
+  /// **'You can auto-sync at most 3 homes. Turn one off first.'**
+  String get ehwPlusSyncAutoSyncLimit;
+
+  /// No description provided for @ehwPlusSyncSideLocal.
+  ///
+  /// In en, this message translates to:
+  /// **'This device'**
+  String get ehwPlusSyncSideLocal;
+
+  /// No description provided for @ehwPlusSyncSideCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud'**
+  String get ehwPlusSyncSideCloud;
+
+  /// No description provided for @ehwPlusSyncDiffPanelTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This device vs cloud'**
+  String get ehwPlusSyncDiffPanelTitle;
+
+  /// No description provided for @ehwPlusSyncDiffPanelEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No field conflicts on the last sync.'**
+  String get ehwPlusSyncDiffPanelEmpty;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {
