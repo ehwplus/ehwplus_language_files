@@ -1273,11 +1273,32 @@
   },
   "changelogTitle": "Änderungshistorie",
   "ehwPlusSyncTitle": "EHW+ Cloud",
-  "ehwPlusSyncDescription": "Synchronisiere deine Objekte mit EHW+ Cloud über dein EHW+-Konto. Es kann höchstens ein Sync-Anbieter gleichzeitig aktiv sein.",
-  "ehwPlusSyncUseAsPrimary": "EHW+ Cloud als Primäranbieter nutzen",
-  "ehwPlusSyncIsPrimary": "EHW+ Cloud ist dein aktiver Cloud-Anbieter.",
-  "ehwPlusSyncActivated": "EHW+ Cloud ist jetzt der aktive Anbieter.",
-  "ehwPlusSyncActivateFailed": "Die aktive Sync-Methode konnte nicht geändert werden.",
+  "ehwPlusSyncDescription": "EHW+ Cloud hält deine Häuser synchron. Melde dich an, wähle bis zu 2 Häuser und verwalte Status sowie Zusammenführungen hier.",
+  "ehwPlusSyncUseAsPrimary": "EHW+ Cloud für Sync nutzen",
+  "ehwPlusSyncIsPrimary": "EHW+ Cloud ist dein Sync.",
+  "ehwPlusSyncActivated": "EHW+ Cloud ist jetzt dein Sync.",
+  "ehwPlusSyncActivateFailed": "EHW+ Cloud Sync konnte nicht aktiviert werden.",
+  "ehwPlusSyncHubIntro": "EHW+ Cloud hält ausgewählte Häuser auf deinen Geräten aktuell. Wähle was synchronisiert, prüfe den Status und löse Zusammenführungen, wenn beide Seiten geändert haben.",
+  "ehwPlusSyncSelectSectionTitle": "Häuser zum Synchronisieren",
+  "ehwPlusSyncSelectSectionSubtitle": "Wähle bis zu {max} Häuser. Änderungen an diesen Häusern synchronisieren automatisch, solange EHW+ Cloud aktiv ist.",
+  "@ehwPlusSyncSelectSectionSubtitle": {
+    "placeholders": {
+      "max": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncSelectedCount": "{count} von {max} ausgewählt",
+  "@ehwPlusSyncSelectedCount": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncManagedSectionTitle": "Sync-Status",
+  "ehwPlusSyncManagedSectionEmpty": "Wähle oben ein Haus, um Cloud-Status, Verlauf und Zusammenführungen zu sehen.",
+  "ehwPlusSyncCloudStatusLoading": "EHW+ Cloud-Status wird geladen…",
+  "ehwPlusSyncCloudStatusMissing": "Noch keine Cloud-Kopie.",
+  "ehwPlusSyncCloudStatusUnavailable": "EHW+ Cloud-Status konnte nicht geladen werden.",
+  "ehwPlusSyncSyncingSelection": "Dieses Haus wird mit EHW+ Cloud synchronisiert…",
   "ehwPlusSyncConflictsHeader": "Konflikte",
   "ehwPlusSyncTakeServer": "Serverversion übernehmen",
   "ehwPlusSyncStatusCreated": "In der Cloud erstellt",
@@ -1301,7 +1322,7 @@
   "syncProviderGoogleSummary": "Speichert deine Daten als Dateien in deinem Google Drive. Du meldest dich mit Google an. Gut, wenn du Google ohnehin nutzt und die Dateien in Drive haben möchtest.",
   "syncProviderEhwPlusSummary": "Speichert deine Daten in EHW+ Cloud mit deinem EHW+-Konto. Funktioniert geräteübergreifend ohne Google Drive. Ideal, wenn du dich bei EHW+ anmeldest.",
   "syncProviderGoogleDetails": "Google Drive Sync kopiert deine Objektdaten in einen Ordner in deinem Google-Konto. Melde dich auf dieser Seite mit Google an. Änderungen können online automatisch synchronisiert werden. Die Dateien bleiben in deinem Drive und sind auch außerhalb der App sichtbar. Hinweis: Wenn du später auf EHW+ Cloud wechselst, ist Google Drive nicht mehr die aktive Sicherung, bis du zurückwechselst.",
-  "syncProviderEhwPlusDetails": "EHW+ Cloud überträgt deine Objektdaten an EHW+-Server und hält Geräte mit deinem EHW+-Konto synchron (dieselbe Anmeldung wie für Käufe und andere EHW+-Funktionen). Wenn zwei Geräte denselben Stand ändern, kann die App einen Konflikt zeigen, damit du entscheiden kannst. Für diese Methode musst du mit deinem EHW+-Konto angemeldet sein. Fotos und erweiterte Freigaben folgen ggf. später.",
+  "syncProviderEhwPlusDetails": "EHW+ Cloud ist der Sync dieser App: Deine Haushaltsdaten liegen auf EHW+-Servern und bleiben über dein EHW+-Konto geräteübergreifend aktuell. Wähle bis zu zwei Häuser. Wenn beide Seiten dasselbe Feld ändern, kannst du die Zusammenführung hier lösen. Das Teilen eines Hauses, Raums oder Zählers mit jemand anderem ist später geplant.",
   "syncOpenProviderDetails": "Details öffnen",
   "syncProviderSignedIn": "Angemeldet",
   "syncProviderNotSignedIn": "Nicht angemeldet",
@@ -1333,12 +1354,65 @@
       "failed": {"type": "int"}
     }
   },
-  "ehwPlusSyncConflictHint": "Dieses Objekt weicht vom Server ab. Nimm die Server-Version, um deine lokale Kopie zu ersetzen, oder synchronisiere erneut nach einer Bearbeitung.",
-  "ehwPlusSyncAutoSyncLabel": "Bei Änderungen automatisch synchronisieren",
-  "ehwPlusSyncAutoSyncHint": "Höchstens 3 Objekte. Automatischer Sync bei Änderungen folgt später.",
-  "ehwPlusSyncAutoSyncLimit": "Es können höchstens 3 Objekte automatisch synchronisiert werden. Schalte zuerst eines aus.",
+  "ehwPlusSyncConflictHint": "Dieses Haus weicht vom Server ab. Nimm die Server-Version, um deine lokale Kopie zu ersetzen, oder bearbeite lokal und warte auf den nächsten automatischen Sync.",
+  "ehwPlusSyncAutoSyncLabel": "Dieses Haus synchronisieren",
+  "ehwPlusSyncAutoSyncHint": "Teil von EHW+ Cloud Sync (max. 2).",
+  "ehwPlusSyncAutoSyncLimit": "Es können höchstens 2 Häuser synchronisiert werden. Schalte zuerst eines aus.",
   "ehwPlusSyncSideLocal": "Dieses Gerät",
-  "ehwPlusSyncSideCloud": "Cloud",
+  "ehwPlusSyncSideCloud": "EHW+ Cloud",
   "ehwPlusSyncDiffPanelTitle": "Dieses Gerät vs. Cloud",
-  "ehwPlusSyncDiffPanelEmpty": "Keine Feldkonflikte beim letzten Sync."
+  "ehwPlusSyncDiffPanelEmpty": "Keine Feldkonflikte beim letzten Sync.",
+  "ehwPlusSyncRemoveFromCloud": "Aus der Cloud entfernen",
+  "ehwPlusSyncRemoveFromCloudConfirmTitle": "Dieses Haus aus EHW+ Cloud entfernen?",
+  "ehwPlusSyncRemoveFromCloudConfirmBody": "Die Kopie auf den EHW+-Servern wird gelöscht. Die Daten auf diesem Gerät bleiben erhalten. Du kannst das Haus später erneut auswählen, um eine neue Kopie hochzuladen.",
+  "ehwPlusSyncRemovedFromCloud": "Dieses Haus wurde aus EHW+ Cloud entfernt.",
+  "ehwPlusSyncPhotosTitle": "{readyCount} von {total} synchronisierten Bildern",
+  "@ehwPlusSyncPhotosTitle": {
+    "placeholders": {
+      "readyCount": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncPhotosEmpty": "Noch keine synchronisierten Bilder.",
+  "ehwPlusSyncPhotosShowMore": "Weitere Bilder anzeigen",
+  "ehwPlusSyncPhotosLoadThumbs": "Vorschaubilder laden",
+  "ehwPlusSyncPhotosLoading": "Bilder werden geladen…",
+  "ehwPlusSyncPhotosUnavailable": "Cloud-Bilder sind gerade nicht verfügbar.",
+  "ehwPlusSyncHistoryTitle": "Sync-Verlauf",
+  "ehwPlusSyncHistoryCount": "{count} Versionen",
+  "@ehwPlusSyncHistoryCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncHistoryEmpty": "Noch kein Sync-Verlauf.",
+  "ehwPlusSyncHistoryLoadMore": "Weiteren Verlauf laden",
+  "ehwPlusSyncHistoryLoading": "Verlauf wird geladen…",
+  "ehwPlusSyncHistoryUnavailable": "Sync-Verlauf ist gerade nicht verfügbar.",
+  "ehwPlusSyncRestoreTitle": "Diese Version wiederherstellen?",
+  "ehwPlusSyncRestoreWarning": "Die Daten auf diesem Gerät werden durch den gewählten Cloud-Verlauf ersetzt und danach wieder nach EHW+ Cloud synchronisiert. Ungespeicherte lokale Änderungen können dauerhaft verloren gehen.",
+  "ehwPlusSyncRestoreSnapshotMeta": "Snapshot vom {timestamp} · {hash}",
+  "@ehwPlusSyncRestoreSnapshotMeta": {
+    "placeholders": {
+      "timestamp": { "type": "String" },
+      "hash": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncRestoreDiffHeader": "{count} Felder unterscheiden sich von diesem Gerät",
+  "@ehwPlusSyncRestoreDiffHeader": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreNoDiff": "Dieser Snapshot stimmt in den Top-Level-Feldern mit diesem Gerät überein.",
+  "ehwPlusSyncRestoreDiffTruncated": "…und {count} weitere Felder",
+  "@ehwPlusSyncRestoreDiffTruncated": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreConfirm": "Wiederherstellen und synchronisieren",
+  "ehwPlusSyncRestoreFailed": "Diese Verlaufsversion konnte nicht wiederhergestellt werden.",
+  "ehwPlusSyncRestoreApiMissing": "Wiederherstellen braucht eine neuere EHW+ Cloud API (Verlaufsdetail noch nicht deployed).",
+  "ehwPlusSyncRestoreBusy": "Warte, bis die aktuelle Synchronisierung fertig ist, und versuche es erneut."
 }

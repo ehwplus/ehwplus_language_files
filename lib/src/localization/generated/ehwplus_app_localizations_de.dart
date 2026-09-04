@@ -3985,19 +3985,55 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncDescription =>
-      'Synchronisiere deine Objekte mit EHW+ Cloud über dein EHW+-Konto. Es kann höchstens ein Sync-Anbieter gleichzeitig aktiv sein.';
+      'EHW+ Cloud hält deine Häuser synchron. Melde dich an, wähle bis zu 2 Häuser und verwalte Status sowie Zusammenführungen hier.';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'EHW+ Cloud als Primäranbieter nutzen';
+  String get ehwPlusSyncUseAsPrimary => 'EHW+ Cloud für Sync nutzen';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud ist dein aktiver Cloud-Anbieter.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud ist dein Sync.';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Cloud ist jetzt der aktive Anbieter.';
+  String get ehwPlusSyncActivated => 'EHW+ Cloud ist jetzt dein Sync.';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Die aktive Sync-Methode konnte nicht geändert werden.';
+  String get ehwPlusSyncActivateFailed => 'EHW+ Cloud Sync konnte nicht aktiviert werden.';
+
+  @override
+  String get ehwPlusSyncHubIntro =>
+      'EHW+ Cloud hält ausgewählte Häuser auf deinen Geräten aktuell. Wähle was synchronisiert, prüfe den Status und löse Zusammenführungen, wenn beide Seiten geändert haben.';
+
+  @override
+  String get ehwPlusSyncSelectSectionTitle => 'Häuser zum Synchronisieren';
+
+  @override
+  String ehwPlusSyncSelectSectionSubtitle(int max) {
+    return 'Wähle bis zu $max Häuser. Änderungen an diesen Häusern synchronisieren automatisch, solange EHW+ Cloud aktiv ist.';
+  }
+
+  @override
+  String ehwPlusSyncSelectedCount(int count, int max) {
+    return '$count von $max ausgewählt';
+  }
+
+  @override
+  String get ehwPlusSyncManagedSectionTitle => 'Sync-Status';
+
+  @override
+  String get ehwPlusSyncManagedSectionEmpty =>
+      'Wähle oben ein Haus, um Cloud-Status, Verlauf und Zusammenführungen zu sehen.';
+
+  @override
+  String get ehwPlusSyncCloudStatusLoading => 'EHW+ Cloud-Status wird geladen…';
+
+  @override
+  String get ehwPlusSyncCloudStatusMissing => 'Noch keine Cloud-Kopie.';
+
+  @override
+  String get ehwPlusSyncCloudStatusUnavailable => 'EHW+ Cloud-Status konnte nicht geladen werden.';
+
+  @override
+  String get ehwPlusSyncSyncingSelection => 'Dieses Haus wird mit EHW+ Cloud synchronisiert…';
 
   @override
   String get ehwPlusSyncConflictsHeader => 'Konflikte';
@@ -4076,7 +4112,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud überträgt deine Objektdaten an EHW+-Server und hält Geräte mit deinem EHW+-Konto synchron (dieselbe Anmeldung wie für Käufe und andere EHW+-Funktionen). Wenn zwei Geräte denselben Stand ändern, kann die App einen Konflikt zeigen, damit du entscheiden kannst. Für diese Methode musst du mit deinem EHW+-Konto angemeldet sein. Fotos und erweiterte Freigaben folgen ggf. später.';
+      'EHW+ Cloud ist der Sync dieser App: Deine Haushaltsdaten liegen auf EHW+-Servern und bleiben über dein EHW+-Konto geräteübergreifend aktuell. Wähle bis zu zwei Häuser. Wenn beide Seiten dasselbe Feld ändern, kannst du die Zusammenführung hier lösen. Das Teilen eines Hauses, Raums oder Zählers mit jemand anderem ist später geplant.';
 
   @override
   String get syncOpenProviderDetails => 'Details öffnen';
@@ -4143,27 +4179,118 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'Dieses Objekt weicht vom Server ab. Nimm die Server-Version, um deine lokale Kopie zu ersetzen, oder synchronisiere erneut nach einer Bearbeitung.';
+      'Dieses Haus weicht vom Server ab. Nimm die Server-Version, um deine lokale Kopie zu ersetzen, oder bearbeite lokal und warte auf den nächsten automatischen Sync.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Bei Änderungen automatisch synchronisieren';
+  String get ehwPlusSyncAutoSyncLabel => 'Dieses Haus synchronisieren';
 
   @override
-  String get ehwPlusSyncAutoSyncHint => 'Höchstens 3 Objekte. Automatischer Sync bei Änderungen folgt später.';
+  String get ehwPlusSyncAutoSyncHint => 'Teil von EHW+ Cloud Sync (max. 2).';
 
   @override
   String get ehwPlusSyncAutoSyncLimit =>
-      'Es können höchstens 3 Objekte automatisch synchronisiert werden. Schalte zuerst eines aus.';
+      'Es können höchstens 2 Häuser synchronisiert werden. Schalte zuerst eines aus.';
 
   @override
   String get ehwPlusSyncSideLocal => 'Dieses Gerät';
 
   @override
-  String get ehwPlusSyncSideCloud => 'Cloud';
+  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
 
   @override
   String get ehwPlusSyncDiffPanelTitle => 'Dieses Gerät vs. Cloud';
 
   @override
   String get ehwPlusSyncDiffPanelEmpty => 'Keine Feldkonflikte beim letzten Sync.';
+
+  @override
+  String get ehwPlusSyncRemoveFromCloud => 'Aus der Cloud entfernen';
+
+  @override
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Dieses Haus aus EHW+ Cloud entfernen?';
+
+  @override
+  String get ehwPlusSyncRemoveFromCloudConfirmBody =>
+      'Die Kopie auf den EHW+-Servern wird gelöscht. Die Daten auf diesem Gerät bleiben erhalten. Du kannst das Haus später erneut auswählen, um eine neue Kopie hochzuladen.';
+
+  @override
+  String get ehwPlusSyncRemovedFromCloud => 'Dieses Haus wurde aus EHW+ Cloud entfernt.';
+
+  @override
+  String ehwPlusSyncPhotosTitle(int readyCount, int total) {
+    return '$readyCount von $total synchronisierten Bildern';
+  }
+
+  @override
+  String get ehwPlusSyncPhotosEmpty => 'Noch keine synchronisierten Bilder.';
+
+  @override
+  String get ehwPlusSyncPhotosShowMore => 'Weitere Bilder anzeigen';
+
+  @override
+  String get ehwPlusSyncPhotosLoadThumbs => 'Vorschaubilder laden';
+
+  @override
+  String get ehwPlusSyncPhotosLoading => 'Bilder werden geladen…';
+
+  @override
+  String get ehwPlusSyncPhotosUnavailable => 'Cloud-Bilder sind gerade nicht verfügbar.';
+
+  @override
+  String get ehwPlusSyncHistoryTitle => 'Sync-Verlauf';
+
+  @override
+  String ehwPlusSyncHistoryCount(int count) {
+    return '$count Versionen';
+  }
+
+  @override
+  String get ehwPlusSyncHistoryEmpty => 'Noch kein Sync-Verlauf.';
+
+  @override
+  String get ehwPlusSyncHistoryLoadMore => 'Weiteren Verlauf laden';
+
+  @override
+  String get ehwPlusSyncHistoryLoading => 'Verlauf wird geladen…';
+
+  @override
+  String get ehwPlusSyncHistoryUnavailable => 'Sync-Verlauf ist gerade nicht verfügbar.';
+
+  @override
+  String get ehwPlusSyncRestoreTitle => 'Diese Version wiederherstellen?';
+
+  @override
+  String get ehwPlusSyncRestoreWarning =>
+      'Die Daten auf diesem Gerät werden durch den gewählten Cloud-Verlauf ersetzt und danach wieder nach EHW+ Cloud synchronisiert. Ungespeicherte lokale Änderungen können dauerhaft verloren gehen.';
+
+  @override
+  String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
+    return 'Snapshot vom $timestamp · $hash';
+  }
+
+  @override
+  String ehwPlusSyncRestoreDiffHeader(int count) {
+    return '$count Felder unterscheiden sich von diesem Gerät';
+  }
+
+  @override
+  String get ehwPlusSyncRestoreNoDiff => 'Dieser Snapshot stimmt in den Top-Level-Feldern mit diesem Gerät überein.';
+
+  @override
+  String ehwPlusSyncRestoreDiffTruncated(int count) {
+    return '…und $count weitere Felder';
+  }
+
+  @override
+  String get ehwPlusSyncRestoreConfirm => 'Wiederherstellen und synchronisieren';
+
+  @override
+  String get ehwPlusSyncRestoreFailed => 'Diese Verlaufsversion konnte nicht wiederhergestellt werden.';
+
+  @override
+  String get ehwPlusSyncRestoreApiMissing =>
+      'Wiederherstellen braucht eine neuere EHW+ Cloud API (Verlaufsdetail noch nicht deployed).';
+
+  @override
+  String get ehwPlusSyncRestoreBusy => 'Warte, bis die aktuelle Synchronisierung fertig ist, und versuche es erneut.';
 }
