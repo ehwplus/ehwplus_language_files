@@ -1301,6 +1301,43 @@
   "ehwPlusSyncSyncingSelection": "Dieses Haus wird mit EHW+ Cloud synchronisiert…",
   "ehwPlusSyncConflictsHeader": "Konflikte",
   "ehwPlusSyncTakeServer": "Serverversion übernehmen",
+  "ehwPlusSyncUseLocal": "Dieses Gerät",
+  "ehwPlusSyncUseCloud": "Cloud",
+  "ehwPlusSyncUseAllLocal": "Alles von diesem Gerät",
+  "ehwPlusSyncUseAllCloud": "Alles aus der Cloud",
+  "ehwPlusSyncApplyResolution": "Übernehmen und synchronisieren",
+  "ehwPlusSyncResolutionMixed": "Gemischt",
+  "ehwPlusSyncConflictExplorerHint": "Tippe in jeder Zeile Dieses Gerät oder Cloud. Übernehmen lädt diese Mischung.",
+  "ehwPlusSyncKeepVersionLabel": "Diese Version behalten",
+  "ehwPlusSyncFolderPickLabel": "Alles in diesem Ordner",
+  "ehwPlusSyncNotOnDevice": "Nicht auf diesem Gerät",
+  "ehwPlusSyncNotInCloud": "Nicht in der Cloud",
+  "ehwPlusSyncOutcomeKeepLocal": "{value} auf beiden behalten.",
+  "@ehwPlusSyncOutcomeKeepLocal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeUseCloud": "Cloud-Wert {value} übernehmen.",
+  "@ehwPlusSyncOutcomeUseCloud": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeSkipAdd": "Diesen Cloud-Eintrag überspringen.",
+  "ehwPlusSyncOutcomeAddCloud": "{value} aus der Cloud ergänzen.",
+  "@ehwPlusSyncOutcomeAddCloud": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeKeepRemoved": "{value} behalten und hochladen.",
+  "@ehwPlusSyncOutcomeKeepRemoved": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeDropLocal": "Diesen Eintrag entfernen, damit er zur Cloud passt.",
   "ehwPlusSyncStatusCreated": "In der Cloud erstellt",
   "ehwPlusSyncStatusFastForward": "Hochgeladen (fast-forward)",
   "ehwPlusSyncStatusUpdateRequired": "Server hat neuere Daten",
@@ -1354,7 +1391,7 @@
       "failed": {"type": "int"}
     }
   },
-  "ehwPlusSyncConflictHint": "Dieses Haus weicht vom Server ab. Nimm die Server-Version, um deine lokale Kopie zu ersetzen, oder bearbeite lokal und warte auf den nächsten automatischen Sync.",
+  "ehwPlusSyncConflictHint": "Dieses Haus weicht vom Server ab. Öffne eine Zeile, vergleiche beide Versionen und wähle, welche bleiben soll — oder mische. Nicht überlappende Änderungen werden automatisch zusammengeführt.",
   "ehwPlusSyncAutoSyncLabel": "Dieses Haus synchronisieren",
   "ehwPlusSyncAutoSyncHint": "Teil von EHW+ Cloud Sync (max. 2).",
   "ehwPlusSyncAutoSyncLimit": "Es können höchstens 2 Häuser synchronisiert werden. Schalte zuerst eines aus.",
@@ -1392,7 +1429,7 @@
     }
   },
   "ehwPlusSyncHistoryEmpty": "Noch kein Sync-Verlauf.",
-  "ehwPlusSyncHistoryLoadMore": "Weiteren Verlauf laden",
+  "ehwPlusSyncHistoryLoadMore": "5 weitere laden",
   "ehwPlusSyncHistoryLoading": "Verlauf wird geladen…",
   "ehwPlusSyncHistoryUnavailable": "Sync-Verlauf ist gerade nicht verfügbar.",
   "ehwPlusSyncRestoreTitle": "Diese Version wiederherstellen?",

@@ -4042,6 +4042,66 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncTakeServer => 'Serverversion übernehmen';
 
   @override
+  String get ehwPlusSyncUseLocal => 'Dieses Gerät';
+
+  @override
+  String get ehwPlusSyncUseCloud => 'Cloud';
+
+  @override
+  String get ehwPlusSyncUseAllLocal => 'Alles von diesem Gerät';
+
+  @override
+  String get ehwPlusSyncUseAllCloud => 'Alles aus der Cloud';
+
+  @override
+  String get ehwPlusSyncApplyResolution => 'Übernehmen und synchronisieren';
+
+  @override
+  String get ehwPlusSyncResolutionMixed => 'Gemischt';
+
+  @override
+  String get ehwPlusSyncConflictExplorerHint =>
+      'Tippe in jeder Zeile Dieses Gerät oder Cloud. Übernehmen lädt diese Mischung.';
+
+  @override
+  String get ehwPlusSyncKeepVersionLabel => 'Diese Version behalten';
+
+  @override
+  String get ehwPlusSyncFolderPickLabel => 'Alles in diesem Ordner';
+
+  @override
+  String get ehwPlusSyncNotOnDevice => 'Nicht auf diesem Gerät';
+
+  @override
+  String get ehwPlusSyncNotInCloud => 'Nicht in der Cloud';
+
+  @override
+  String ehwPlusSyncOutcomeKeepLocal(String value) {
+    return '$value auf beiden behalten.';
+  }
+
+  @override
+  String ehwPlusSyncOutcomeUseCloud(String value) {
+    return 'Cloud-Wert $value übernehmen.';
+  }
+
+  @override
+  String get ehwPlusSyncOutcomeSkipAdd => 'Diesen Cloud-Eintrag überspringen.';
+
+  @override
+  String ehwPlusSyncOutcomeAddCloud(String value) {
+    return '$value aus der Cloud ergänzen.';
+  }
+
+  @override
+  String ehwPlusSyncOutcomeKeepRemoved(String value) {
+    return '$value behalten und hochladen.';
+  }
+
+  @override
+  String get ehwPlusSyncOutcomeDropLocal => 'Diesen Eintrag entfernen, damit er zur Cloud passt.';
+
+  @override
   String get ehwPlusSyncStatusCreated => 'In der Cloud erstellt';
 
   @override
@@ -4179,7 +4239,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'Dieses Haus weicht vom Server ab. Nimm die Server-Version, um deine lokale Kopie zu ersetzen, oder bearbeite lokal und warte auf den nächsten automatischen Sync.';
+      'Dieses Haus weicht vom Server ab. Öffne eine Zeile, vergleiche beide Versionen und wähle, welche bleiben soll — oder mische. Nicht überlappende Änderungen werden automatisch zusammengeführt.';
 
   @override
   String get ehwPlusSyncAutoSyncLabel => 'Dieses Haus synchronisieren';
@@ -4266,7 +4326,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncHistoryEmpty => 'Noch kein Sync-Verlauf.';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Weiteren Verlauf laden';
+  String get ehwPlusSyncHistoryLoadMore => '5 weitere laden';
 
   @override
   String get ehwPlusSyncHistoryLoading => 'Verlauf wird geladen…';

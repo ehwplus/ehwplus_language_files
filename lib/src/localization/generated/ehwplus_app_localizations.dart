@@ -7073,6 +7073,108 @@ abstract class EhwplusAppLocalizations {
   /// **'Take server version'**
   String get ehwPlusSyncTakeServer;
 
+  /// No description provided for @ehwPlusSyncUseLocal.
+  ///
+  /// In en, this message translates to:
+  /// **'This device'**
+  String get ehwPlusSyncUseLocal;
+
+  /// No description provided for @ehwPlusSyncUseCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud'**
+  String get ehwPlusSyncUseCloud;
+
+  /// No description provided for @ehwPlusSyncUseAllLocal.
+  ///
+  /// In en, this message translates to:
+  /// **'All from this device'**
+  String get ehwPlusSyncUseAllLocal;
+
+  /// No description provided for @ehwPlusSyncUseAllCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'All from cloud'**
+  String get ehwPlusSyncUseAllCloud;
+
+  /// No description provided for @ehwPlusSyncApplyResolution.
+  ///
+  /// In en, this message translates to:
+  /// **'Apply and sync'**
+  String get ehwPlusSyncApplyResolution;
+
+  /// No description provided for @ehwPlusSyncResolutionMixed.
+  ///
+  /// In en, this message translates to:
+  /// **'Mixed'**
+  String get ehwPlusSyncResolutionMixed;
+
+  /// No description provided for @ehwPlusSyncConflictExplorerHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap This device or Cloud on each row. Apply uploads that mix.'**
+  String get ehwPlusSyncConflictExplorerHint;
+
+  /// No description provided for @ehwPlusSyncKeepVersionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep this version'**
+  String get ehwPlusSyncKeepVersionLabel;
+
+  /// No description provided for @ehwPlusSyncFolderPickLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'All in this folder'**
+  String get ehwPlusSyncFolderPickLabel;
+
+  /// No description provided for @ehwPlusSyncNotOnDevice.
+  ///
+  /// In en, this message translates to:
+  /// **'Not on this device'**
+  String get ehwPlusSyncNotOnDevice;
+
+  /// No description provided for @ehwPlusSyncNotInCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Not in the cloud'**
+  String get ehwPlusSyncNotInCloud;
+
+  /// No description provided for @ehwPlusSyncOutcomeKeepLocal.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep {value} on both.'**
+  String ehwPlusSyncOutcomeKeepLocal(String value);
+
+  /// No description provided for @ehwPlusSyncOutcomeUseCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Use cloud value {value}.'**
+  String ehwPlusSyncOutcomeUseCloud(String value);
+
+  /// No description provided for @ehwPlusSyncOutcomeSkipAdd.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip this cloud item.'**
+  String get ehwPlusSyncOutcomeSkipAdd;
+
+  /// No description provided for @ehwPlusSyncOutcomeAddCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Add {value} from the cloud.'**
+  String ehwPlusSyncOutcomeAddCloud(String value);
+
+  /// No description provided for @ehwPlusSyncOutcomeKeepRemoved.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep {value} and upload it.'**
+  String ehwPlusSyncOutcomeKeepRemoved(String value);
+
+  /// No description provided for @ehwPlusSyncOutcomeDropLocal.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove this item to match the cloud.'**
+  String get ehwPlusSyncOutcomeDropLocal;
+
   /// No description provided for @ehwPlusSyncStatusCreated.
   ///
   /// In en, this message translates to:
@@ -7316,7 +7418,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncConflictHint.
   ///
   /// In en, this message translates to:
-  /// **'This home differs on the server. Take the server version to replace your local copy, or edit locally and wait for the next automatic sync.'**
+  /// **'This home differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.'**
   String get ehwPlusSyncConflictHint;
 
   /// No description provided for @ehwPlusSyncAutoSyncLabel.
@@ -7478,7 +7580,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncHistoryLoadMore.
   ///
   /// In en, this message translates to:
-  /// **'Load more history'**
+  /// **'Load 5 more'**
   String get ehwPlusSyncHistoryLoadMore;
 
   /// No description provided for @ehwPlusSyncHistoryLoading.

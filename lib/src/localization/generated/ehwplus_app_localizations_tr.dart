@@ -4026,6 +4026,65 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get ehwPlusSyncTakeServer => 'Take server version';
 
   @override
+  String get ehwPlusSyncUseLocal => 'This device';
+
+  @override
+  String get ehwPlusSyncUseCloud => 'Cloud';
+
+  @override
+  String get ehwPlusSyncUseAllLocal => 'All from this device';
+
+  @override
+  String get ehwPlusSyncUseAllCloud => 'All from cloud';
+
+  @override
+  String get ehwPlusSyncApplyResolution => 'Apply and sync';
+
+  @override
+  String get ehwPlusSyncResolutionMixed => 'Mixed';
+
+  @override
+  String get ehwPlusSyncConflictExplorerHint => 'Tap This device or Cloud on each row. Apply uploads that mix.';
+
+  @override
+  String get ehwPlusSyncKeepVersionLabel => 'Keep this version';
+
+  @override
+  String get ehwPlusSyncFolderPickLabel => 'All in this folder';
+
+  @override
+  String get ehwPlusSyncNotOnDevice => 'Not on this device';
+
+  @override
+  String get ehwPlusSyncNotInCloud => 'Not in the cloud';
+
+  @override
+  String ehwPlusSyncOutcomeKeepLocal(String value) {
+    return 'Keep $value on both.';
+  }
+
+  @override
+  String ehwPlusSyncOutcomeUseCloud(String value) {
+    return 'Use cloud value $value.';
+  }
+
+  @override
+  String get ehwPlusSyncOutcomeSkipAdd => 'Skip this cloud item.';
+
+  @override
+  String ehwPlusSyncOutcomeAddCloud(String value) {
+    return 'Add $value from the cloud.';
+  }
+
+  @override
+  String ehwPlusSyncOutcomeKeepRemoved(String value) {
+    return 'Keep $value and upload it.';
+  }
+
+  @override
+  String get ehwPlusSyncOutcomeDropLocal => 'Remove this item to match the cloud.';
+
+  @override
   String get ehwPlusSyncStatusCreated => 'Created in cloud';
 
   @override
@@ -4161,7 +4220,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This home differs on the server. Take the server version to replace your local copy, or edit locally and wait for the next automatic sync.';
+      'This home differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
 
   @override
   String get ehwPlusSyncAutoSyncLabel => 'Sync this home';
@@ -4247,7 +4306,7 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Load more history';
+  String get ehwPlusSyncHistoryLoadMore => 'Load 5 more';
 
   @override
   String get ehwPlusSyncHistoryLoading => 'Loading history…';

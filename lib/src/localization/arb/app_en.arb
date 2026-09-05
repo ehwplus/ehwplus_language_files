@@ -1988,6 +1988,43 @@
   "ehwPlusSyncSyncingSelection": "Syncing this home to EHW+ Cloud…",
   "ehwPlusSyncConflictsHeader": "Conflicts",
   "ehwPlusSyncTakeServer": "Take server version",
+  "ehwPlusSyncUseLocal": "This device",
+  "ehwPlusSyncUseCloud": "Cloud",
+  "ehwPlusSyncUseAllLocal": "All from this device",
+  "ehwPlusSyncUseAllCloud": "All from cloud",
+  "ehwPlusSyncApplyResolution": "Apply and sync",
+  "ehwPlusSyncResolutionMixed": "Mixed",
+  "ehwPlusSyncConflictExplorerHint": "Tap This device or Cloud on each row. Apply uploads that mix.",
+  "ehwPlusSyncKeepVersionLabel": "Keep this version",
+  "ehwPlusSyncFolderPickLabel": "All in this folder",
+  "ehwPlusSyncNotOnDevice": "Not on this device",
+  "ehwPlusSyncNotInCloud": "Not in the cloud",
+  "ehwPlusSyncOutcomeKeepLocal": "Keep {value} on both.",
+  "@ehwPlusSyncOutcomeKeepLocal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeUseCloud": "Use cloud value {value}.",
+  "@ehwPlusSyncOutcomeUseCloud": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeSkipAdd": "Skip this cloud item.",
+  "ehwPlusSyncOutcomeAddCloud": "Add {value} from the cloud.",
+  "@ehwPlusSyncOutcomeAddCloud": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeKeepRemoved": "Keep {value} and upload it.",
+  "@ehwPlusSyncOutcomeKeepRemoved": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeDropLocal": "Remove this item to match the cloud.",
   "ehwPlusSyncStatusCreated": "Created in cloud",
   "ehwPlusSyncStatusFastForward": "Uploaded (fast-forward)",
   "ehwPlusSyncStatusUpdateRequired": "Server has newer data",
@@ -2041,7 +2078,7 @@
       "failed": {"type": "int"}
     }
   },
-  "ehwPlusSyncConflictHint": "This home differs on the server. Take the server version to replace your local copy, or edit locally and wait for the next automatic sync.",
+  "ehwPlusSyncConflictHint": "This home differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.",
   "ehwPlusSyncAutoSyncLabel": "Sync this home",
   "ehwPlusSyncAutoSyncHint": "Included in EHW+ Cloud sync (max 2).",
   "ehwPlusSyncAutoSyncLimit": "You can sync at most 2 homes. Turn one off first.",
@@ -2079,7 +2116,7 @@
     }
   },
   "ehwPlusSyncHistoryEmpty": "No sync history yet.",
-  "ehwPlusSyncHistoryLoadMore": "Load more history",
+  "ehwPlusSyncHistoryLoadMore": "Load 5 more",
   "ehwPlusSyncHistoryLoading": "Loading history…",
   "ehwPlusSyncHistoryUnavailable": "Sync history is unavailable right now.",
   "ehwPlusSyncRestoreTitle": "Restore this version?",
