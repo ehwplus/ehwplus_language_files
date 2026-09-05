@@ -3953,4 +3953,313 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get changelogTitle => 'บันทึกการเปลี่ยนแปลง';
+
+  @override
+  String get ehwPlusSyncTitle => 'EHW+ Cloud';
+
+  @override
+  String get ehwPlusSyncDescription =>
+      'EHW+ Cloud is how this app keeps your homes in sync. Sign in, pick up to 2 homes, and manage status and merges here.';
+
+  @override
+  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
+
+  @override
+  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your sync.';
+
+  @override
+  String get ehwPlusSyncActivated => 'EHW+ Cloud is now your sync.';
+
+  @override
+  String get ehwPlusSyncActivateFailed => 'Could not enable EHW+ Cloud sync.';
+
+  @override
+  String get ehwPlusSyncHubIntro =>
+      'EHW+ Cloud keeps selected homes up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+
+  @override
+  String get ehwPlusSyncSelectSectionTitle => 'Homes to sync';
+
+  @override
+  String ehwPlusSyncSelectSectionSubtitle(int max) {
+    return 'Select up to $max homes. Changes on those homes sync automatically while EHW+ Cloud is active.';
+  }
+
+  @override
+  String ehwPlusSyncSelectedCount(int count, int max) {
+    return '$count of $max selected';
+  }
+
+  @override
+  String get ehwPlusSyncManagedSectionTitle => 'Sync status';
+
+  @override
+  String get ehwPlusSyncManagedSectionEmpty => 'Select a home above to see cloud status, history, and merges.';
+
+  @override
+  String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
+
+  @override
+  String get ehwPlusSyncCloudStatusMissing => 'No cloud copy yet.';
+
+  @override
+  String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
+
+  @override
+  String get ehwPlusSyncSyncingSelection => 'Syncing this home to EHW+ Cloud…';
+
+  @override
+  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+
+  @override
+  String get ehwPlusSyncTakeServer => 'Take server version';
+
+  @override
+  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+
+  @override
+  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+
+  @override
+  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+
+  @override
+  String get ehwPlusSyncStatusMerged => 'Merged with server';
+
+  @override
+  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+
+  @override
+  String get syncProviderActive => 'Active sync provider';
+
+  @override
+  String get syncProviderNoneActive =>
+      'No synchronization is selected. Choose EHW+ Cloud or Google Drive above, or open a method below to sign in first.';
+
+  @override
+  String get syncTurnOff => 'Turn sync off';
+
+  @override
+  String get syncOverviewIntro =>
+      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
+
+  @override
+  String get syncSelectProviderLabel => 'Active sync method';
+
+  @override
+  String get syncSelectProviderHelp =>
+      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
+
+  @override
+  String get syncProvidersSectionTitle => 'Available sync methods';
+
+  @override
+  String get syncProviderSegmentNone => 'No synchronization';
+
+  @override
+  String get syncProviderSegmentNoneShort => 'Off';
+
+  @override
+  String get syncProviderSegmentGoogle => 'Google Drive';
+
+  @override
+  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+
+  @override
+  String get syncProviderSegmentGoogleShort => 'Drive';
+
+  @override
+  String get syncProviderSegmentEhwPlusShort => 'Cloud';
+
+  @override
+  String get syncProviderGoogleSummary =>
+      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+
+  @override
+  String get syncProviderEhwPlusSummary =>
+      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+
+  @override
+  String get syncProviderGoogleDetails =>
+      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
+
+  @override
+  String get syncProviderEhwPlusDetails =>
+      'EHW+ Cloud is the sync for this app: your home data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two homes to sync. If both sides change the same field, you can resolve the merge here. Sharing a home, room, or counter with someone else is planned later.';
+
+  @override
+  String get syncOpenProviderDetails => 'Open details';
+
+  @override
+  String get syncProviderSignedIn => 'Signed in';
+
+  @override
+  String get syncProviderNotSignedIn => 'Not signed in';
+
+  @override
+  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
+
+  @override
+  String get syncNeedsGoogleAccount =>
+      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+
+  @override
+  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+
+  @override
+  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+
+  @override
+  String get syncErrorAccessDenied =>
+      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+
+  @override
+  String get syncErrorPayloadTooLarge =>
+      'This home is too large to sync right now. Try again later or contact support.';
+
+  @override
+  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+
+  @override
+  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+
+  @override
+  String get syncErrorUnknown => 'Sync failed. Please try again.';
+
+  @override
+  String get syncTurnedOff => 'Cloud sync is turned off.';
+
+  @override
+  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+
+  @override
+  String get syncNoHomesYet => 'No homes to sync yet.';
+
+  @override
+  String get syncAllNow => 'Sync all';
+
+  @override
+  String syncAllFinished(int ok, int total) {
+    return 'Finished syncing $ok of $total.';
+  }
+
+  @override
+  String syncAllFinishedWithFailures(int ok, int total, int failed) {
+    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+  }
+
+  @override
+  String get ehwPlusSyncConflictHint =>
+      'This home differs on the server. Take the server version to replace your local copy, or edit locally and wait for the next automatic sync.';
+
+  @override
+  String get ehwPlusSyncAutoSyncLabel => 'Sync this home';
+
+  @override
+  String get ehwPlusSyncAutoSyncHint => 'Included in EHW+ Cloud sync (max 2).';
+
+  @override
+  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 homes. Turn one off first.';
+
+  @override
+  String get ehwPlusSyncSideLocal => 'This device';
+
+  @override
+  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
+
+  @override
+  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+
+  @override
+  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
+
+  @override
+  String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
+
+  @override
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this home from EHW+ Cloud?';
+
+  @override
+  String get ehwPlusSyncRemoveFromCloudConfirmBody =>
+      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the home again later to upload a new copy.';
+
+  @override
+  String get ehwPlusSyncRemovedFromCloud => 'Removed this home from EHW+ Cloud.';
+
+  @override
+  String ehwPlusSyncPhotosTitle(int readyCount, int total) {
+    return '$readyCount of $total synced images';
+  }
+
+  @override
+  String get ehwPlusSyncPhotosEmpty => 'No synced images yet.';
+
+  @override
+  String get ehwPlusSyncPhotosShowMore => 'Show more images';
+
+  @override
+  String get ehwPlusSyncPhotosLoadThumbs => 'Load thumbnails';
+
+  @override
+  String get ehwPlusSyncPhotosLoading => 'Loading images…';
+
+  @override
+  String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
+
+  @override
+  String get ehwPlusSyncHistoryTitle => 'Sync history';
+
+  @override
+  String ehwPlusSyncHistoryCount(int count) {
+    return '$count versions';
+  }
+
+  @override
+  String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
+
+  @override
+  String get ehwPlusSyncHistoryLoadMore => 'Load more history';
+
+  @override
+  String get ehwPlusSyncHistoryLoading => 'Loading history…';
+
+  @override
+  String get ehwPlusSyncHistoryUnavailable => 'Sync history is unavailable right now.';
+
+  @override
+  String get ehwPlusSyncRestoreTitle => 'Restore this version?';
+
+  @override
+  String get ehwPlusSyncRestoreWarning =>
+      'This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.';
+
+  @override
+  String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
+    return 'Snapshot from $timestamp · $hash';
+  }
+
+  @override
+  String ehwPlusSyncRestoreDiffHeader(int count) {
+    return '$count fields differ from this device';
+  }
+
+  @override
+  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches the top-level fields on this device.';
+
+  @override
+  String ehwPlusSyncRestoreDiffTruncated(int count) {
+    return '…and $count more fields';
+  }
+
+  @override
+  String get ehwPlusSyncRestoreConfirm => 'Restore and sync';
+
+  @override
+  String get ehwPlusSyncRestoreFailed => 'Could not restore that history version.';
+
+  @override
+  String get ehwPlusSyncRestoreApiMissing => 'Restore needs a newer EHW+ Cloud API (history detail not deployed yet).';
+
+  @override
+  String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
 }

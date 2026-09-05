@@ -1958,5 +1958,148 @@
       }
     }
   },
-  "changelogTitle": "Changelog"
+  "changelogTitle": "Changelog",
+  "ehwPlusSyncTitle": "EHW+ Cloud",
+  "ehwPlusSyncDescription": "EHW+ Cloud is how this app keeps your homes in sync. Sign in, pick up to 2 homes, and manage status and merges here.",
+  "ehwPlusSyncUseAsPrimary": "Use EHW+ Cloud for sync",
+  "ehwPlusSyncIsPrimary": "EHW+ Cloud is your sync.",
+  "ehwPlusSyncActivated": "EHW+ Cloud is now your sync.",
+  "ehwPlusSyncActivateFailed": "Could not enable EHW+ Cloud sync.",
+  "ehwPlusSyncHubIntro": "EHW+ Cloud keeps selected homes up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.",
+  "ehwPlusSyncSelectSectionTitle": "Homes to sync",
+  "ehwPlusSyncSelectSectionSubtitle": "Select up to {max} homes. Changes on those homes sync automatically while EHW+ Cloud is active.",
+  "@ehwPlusSyncSelectSectionSubtitle": {
+    "placeholders": {
+      "max": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncSelectedCount": "{count} of {max} selected",
+  "@ehwPlusSyncSelectedCount": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncManagedSectionTitle": "Sync status",
+  "ehwPlusSyncManagedSectionEmpty": "Select a home above to see cloud status, history, and merges.",
+  "ehwPlusSyncCloudStatusLoading": "Loading EHW+ Cloud status…",
+  "ehwPlusSyncCloudStatusMissing": "No cloud copy yet.",
+  "ehwPlusSyncCloudStatusUnavailable": "Could not load EHW+ Cloud status.",
+  "ehwPlusSyncSyncingSelection": "Syncing this home to EHW+ Cloud…",
+  "ehwPlusSyncConflictsHeader": "Conflicts",
+  "ehwPlusSyncTakeServer": "Take server version",
+  "ehwPlusSyncStatusCreated": "Created in cloud",
+  "ehwPlusSyncStatusFastForward": "Uploaded (fast-forward)",
+  "ehwPlusSyncStatusUpdateRequired": "Server has newer data",
+  "ehwPlusSyncStatusMerged": "Merged with server",
+  "ehwPlusSyncStatusConflict": "Conflict — resolve below",
+  "syncProviderActive": "Active sync provider",
+  "syncProviderNoneActive": "No synchronization is selected. Choose EHW+ Cloud or Google Drive above, or open a method below to sign in first.",
+  "syncTurnOff": "Turn sync off",
+  "syncOverviewIntro": "Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.",
+  "syncSelectProviderLabel": "Active sync method",
+  "syncSelectProviderHelp": "Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.",
+  "syncProvidersSectionTitle": "Available sync methods",
+  "syncProviderSegmentNone": "No synchronization",
+  "syncProviderSegmentNoneShort": "Off",
+  "syncProviderSegmentGoogle": "Google Drive",
+  "syncProviderSegmentEhwPlus": "EHW+ Cloud",
+  "syncProviderSegmentGoogleShort": "Drive",
+  "syncProviderSegmentEhwPlusShort": "Cloud",
+  "syncProviderGoogleSummary": "Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.",
+  "syncProviderEhwPlusSummary": "Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.",
+  "syncProviderGoogleDetails": "Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.",
+  "syncProviderEhwPlusDetails": "EHW+ Cloud is the sync for this app: your home data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two homes to sync. If both sides change the same field, you can resolve the merge here. Sharing a home, room, or counter with someone else is planned later.",
+  "syncOpenProviderDetails": "Open details",
+  "syncProviderSignedIn": "Signed in",
+  "syncProviderNotSignedIn": "Not signed in",
+  "syncNeedsEhwPlusAccount": "Sign in with your EHW+ account to use EHW+ Cloud.",
+  "syncNeedsGoogleAccount": "Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.",
+  "syncErrorNetwork": "No connection. Check your network and try again.",
+  "syncErrorSessionExpired": "Your EHW+ session expired. Sign in again and retry.",
+  "syncErrorAccessDenied": "Cloud sync isn't allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.",
+  "syncErrorPayloadTooLarge": "This home is too large to sync right now. Try again later or contact support.",
+  "syncErrorServiceUnavailable": "EHW+ Cloud is temporarily unavailable. Try again in a moment.",
+  "syncErrorNotReady": "Cloud sync is not ready yet. Wait a moment and try again.",
+  "syncErrorUnknown": "Sync failed. Please try again.",
+  "syncTurnedOff": "Cloud sync is turned off.",
+  "syncTurnOffFailed": "Could not turn sync off. Please try again.",
+  "syncNoHomesYet": "No homes to sync yet.",
+  "syncAllNow": "Sync all",
+  "syncAllFinished": "Finished syncing {ok} of {total}.",
+  "@syncAllFinished": {
+    "placeholders": {
+      "ok": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "syncAllFinishedWithFailures": "Finished syncing {ok} of {total}. {failed} failed — see homes marked below.",
+  "@syncAllFinishedWithFailures": {
+    "placeholders": {
+      "ok": {"type": "int"},
+      "total": {"type": "int"},
+      "failed": {"type": "int"}
+    }
+  },
+  "ehwPlusSyncConflictHint": "This home differs on the server. Take the server version to replace your local copy, or edit locally and wait for the next automatic sync.",
+  "ehwPlusSyncAutoSyncLabel": "Sync this home",
+  "ehwPlusSyncAutoSyncHint": "Included in EHW+ Cloud sync (max 2).",
+  "ehwPlusSyncAutoSyncLimit": "You can sync at most 2 homes. Turn one off first.",
+  "ehwPlusSyncSideLocal": "This device",
+  "ehwPlusSyncSideCloud": "EHW+ Cloud",
+  "ehwPlusSyncDiffPanelTitle": "This device vs cloud",
+  "ehwPlusSyncDiffPanelEmpty": "No field conflicts on the last sync.",
+  "ehwPlusSyncRemoveFromCloud": "Remove from cloud",
+  "ehwPlusSyncRemoveFromCloudConfirmTitle": "Remove this home from EHW+ Cloud?",
+  "ehwPlusSyncRemoveFromCloudConfirmBody": "The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the home again later to upload a new copy.",
+  "ehwPlusSyncRemovedFromCloud": "Removed this home from EHW+ Cloud.",
+  "ehwPlusSyncPhotosTitle": "{readyCount} of {total} synced images",
+  "@ehwPlusSyncPhotosTitle": {
+    "placeholders": {
+      "readyCount": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncPhotosEmpty": "No synced images yet.",
+  "ehwPlusSyncPhotosShowMore": "Show more images",
+  "ehwPlusSyncPhotosLoadThumbs": "Load thumbnails",
+  "ehwPlusSyncPhotosLoading": "Loading images…",
+  "ehwPlusSyncPhotosUnavailable": "Cloud images are unavailable right now.",
+  "ehwPlusSyncHistoryTitle": "Sync history",
+  "ehwPlusSyncHistoryCount": "{count} versions",
+  "@ehwPlusSyncHistoryCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncHistoryEmpty": "No sync history yet.",
+  "ehwPlusSyncHistoryLoadMore": "Load more history",
+  "ehwPlusSyncHistoryLoading": "Loading history…",
+  "ehwPlusSyncHistoryUnavailable": "Sync history is unavailable right now.",
+  "ehwPlusSyncRestoreTitle": "Restore this version?",
+  "ehwPlusSyncRestoreWarning": "This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.",
+  "ehwPlusSyncRestoreSnapshotMeta": "Snapshot from {timestamp} · {hash}",
+  "@ehwPlusSyncRestoreSnapshotMeta": {
+    "placeholders": {
+      "timestamp": { "type": "String" },
+      "hash": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncRestoreDiffHeader": "{count} fields differ from this device",
+  "@ehwPlusSyncRestoreDiffHeader": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreNoDiff": "This snapshot matches the top-level fields on this device.",
+  "ehwPlusSyncRestoreDiffTruncated": "…and {count} more fields",
+  "@ehwPlusSyncRestoreDiffTruncated": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreConfirm": "Restore and sync",
+  "ehwPlusSyncRestoreFailed": "Could not restore that history version.",
+  "ehwPlusSyncRestoreApiMissing": "Restore needs a newer EHW+ Cloud API (history detail not deployed yet).",
+  "ehwPlusSyncRestoreBusy": "Wait for the current sync to finish, then try again."
 }
