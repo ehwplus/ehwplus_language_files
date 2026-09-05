@@ -2070,6 +2070,7 @@
   "ehwPlusSyncPhotosLoadThumbs": "Load thumbnails",
   "ehwPlusSyncPhotosLoading": "Loading images…",
   "ehwPlusSyncPhotosUnavailable": "Cloud images are unavailable right now.",
+  "ehwPlusSyncPhotosUnassigned": "Other photos",
   "ehwPlusSyncHistoryTitle": "Sync history",
   "ehwPlusSyncHistoryCount": "{count} versions",
   "@ehwPlusSyncHistoryCount": {

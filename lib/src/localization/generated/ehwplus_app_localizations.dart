@@ -7451,6 +7451,12 @@ abstract class EhwplusAppLocalizations {
   /// **'Cloud images are unavailable right now.'**
   String get ehwPlusSyncPhotosUnavailable;
 
+  /// No description provided for @ehwPlusSyncPhotosUnassigned.
+  ///
+  /// In en, this message translates to:
+  /// **'Other photos'**
+  String get ehwPlusSyncPhotosUnassigned;
+
   /// No description provided for @ehwPlusSyncHistoryTitle.
   ///
   /// In en, this message translates to:

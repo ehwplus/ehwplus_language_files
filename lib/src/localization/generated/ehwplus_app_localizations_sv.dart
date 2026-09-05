@@ -4227,6 +4227,9 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
 
   @override
+  String get ehwPlusSyncPhotosUnassigned => 'Other photos';
+
+  @override
   String get ehwPlusSyncHistoryTitle => 'Sync history';
 
   @override

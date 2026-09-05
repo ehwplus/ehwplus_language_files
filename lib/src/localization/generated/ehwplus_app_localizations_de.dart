@@ -4252,6 +4252,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncPhotosUnavailable => 'Cloud-Bilder sind gerade nicht verfügbar.';
 
   @override
+  String get ehwPlusSyncPhotosUnassigned => 'Weitere Fotos';
+
+  @override
   String get ehwPlusSyncHistoryTitle => 'Sync-Verlauf';
 
   @override

@@ -1383,6 +1383,7 @@
   "ehwPlusSyncPhotosLoadThumbs": "Vorschaubilder laden",
   "ehwPlusSyncPhotosLoading": "Bilder werden geladen…",
   "ehwPlusSyncPhotosUnavailable": "Cloud-Bilder sind gerade nicht verfügbar.",
+  "ehwPlusSyncPhotosUnassigned": "Weitere Fotos",
   "ehwPlusSyncHistoryTitle": "Sync-Verlauf",
   "ehwPlusSyncHistoryCount": "{count} Versionen",
   "@ehwPlusSyncHistoryCount": {
