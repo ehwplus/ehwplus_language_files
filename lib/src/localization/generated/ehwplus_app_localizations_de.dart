@@ -4198,6 +4198,18 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
 
   @override
+  String get ehwPlusSyncStateInSync => 'Synchron';
+
+  @override
+  String get ehwPlusSyncStateOutOfSync => 'Nicht synchron';
+
+  @override
+  String get ehwPlusSyncStateChecking => 'Sync-Status wird geprüft…';
+
+  @override
+  String get ehwPlusSyncStateMissingCloud => 'Noch nicht in der Cloud';
+
+  @override
   String get ehwPlusSyncDiffPanelTitle => 'Dieses Gerät vs. Cloud';
 
   @override
@@ -4215,6 +4227,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncRemovedFromCloud => 'Dieses Haus wurde aus EHW+ Cloud entfernt.';
+
+  @override
+  String get ehwPlusSyncPhotosSectionTitle => 'Synchronisierte Bilder';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
@@ -4270,15 +4285,75 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count Felder unterscheiden sich von diesem Gerät';
+    return '$count Einträge würden sich ändern';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'Dieser Snapshot stimmt in den Top-Level-Feldern mit diesem Gerät überein.';
+  String get ehwPlusSyncRestoreNoDiff => 'Dieser Snapshot stimmt mit den Daten auf diesem Gerät überein.';
+
+  @override
+  String get ehwPlusSyncRestoreExplorerHint =>
+      'Nur Einträge, die sich ändern würden, sind aufgelistet. Unveränderte Zähler, Räume und Bilder bleiben ausgeblendet.';
+
+  @override
+  String get ehwPlusSyncRestoreOnlyLocal => 'Nur auf diesem Gerät';
+
+  @override
+  String get ehwPlusSyncRestoreOnlySnapshot => 'Nur in diesem Snapshot';
+
+  @override
+  String get ehwPlusSyncRestoreWillUpdate => 'Wird ersetzt';
+
+  @override
+  String get ehwPlusSyncRestoreHomeDetails => 'Hausdaten';
+
+  @override
+  String get ehwPlusSyncRestoreReadings => 'Ablesungen';
+
+  @override
+  String get ehwPlusSyncRestoreDeletedMeters => 'Gelöschte Zähler';
+
+  @override
+  String get ehwPlusSyncRestoreConsumptionPoints => 'Netzanschlüsse';
+
+  @override
+  String ehwPlusSyncRestoreChangedCount(int count) {
+    return '$count geändert';
+  }
+
+  @override
+  String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
+    return '$localCount Ablesungen hier · $cloudCount im Snapshot';
+  }
+
+  @override
+  String ehwPlusSyncRestoreValueSwap(String localValue, String snapshotValue) {
+    return '$localValue → $snapshotValue';
+  }
+
+  @override
+  String get ehwPlusSyncDiffFieldTitle => 'Hausname';
+
+  @override
+  String get ehwPlusSyncDiffFieldHouseName => 'Gebäudename';
+
+  @override
+  String get ehwPlusSyncDiffFieldCurrency => 'Währung';
+
+  @override
+  String get ehwPlusSyncDiffFieldAddress => 'Adresse';
+
+  @override
+  String get ehwPlusSyncDiffFieldObjectType => 'Objekttyp';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
     return '…und $count weitere Felder';
+  }
+
+  @override
+  String ehwPlusSyncDiffMoreLines(int count) {
+    return '…und $count weitere Zeilen';
   }
 
   @override
@@ -4293,4 +4368,51 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncRestoreBusy => 'Warte, bis die aktuelle Synchronisierung fertig ist, und versuche es erneut.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadStarted => 'Zählerbild-Upload läuft im Hintergrund.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadSucceeded => 'Zählerbilder wurden zu EHW+ Cloud hochgeladen.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadFailed =>
+      'Zählerbilder konnten nicht hochgeladen werden. Deine Ablesung ist auf diesem Gerät gespeichert.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadStorageFailed =>
+      'Bildspeicher ist nicht verfügbar. Deine Ablesung ist auf diesem Gerät gespeichert.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadApiFailed =>
+      'Zählerbilder konnten EHW+ Cloud nicht erreichen. Deine Ablesung ist auf diesem Gerät gespeichert.';
+
+  @override
+  String get ehwPlusSyncStatePhotosPending => 'Daten synchron · Bilder werden hochgeladen';
+
+  @override
+  String get ehwPlusSyncStatePhotosFailed => 'Daten gespeichert · Bilder nicht synchron';
+
+  @override
+  String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
+    return '$localCount auf diesem Gerät → $cloudCount in diesem Snapshot';
+  }
+
+  @override
+  String get ehwPlusSyncDiffFieldCounters => 'Zähler';
+
+  @override
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'Zählerbilder';
+
+  @override
+  String get ehwPlusSyncDiffFieldActivities => 'Aktivitäten';
+
+  @override
+  String get ehwPlusSyncDiffFieldRooms => 'Räume';
+
+  @override
+  String get ehwPlusSyncDiffFieldContracts => 'Verträge';
+
+  @override
+  String get ehwPlusSyncDiffFieldLastUpdated => 'Zuletzt aktualisiert';
 }

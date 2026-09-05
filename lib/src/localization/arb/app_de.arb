@@ -1360,12 +1360,17 @@
   "ehwPlusSyncAutoSyncLimit": "Es können höchstens 2 Häuser synchronisiert werden. Schalte zuerst eines aus.",
   "ehwPlusSyncSideLocal": "Dieses Gerät",
   "ehwPlusSyncSideCloud": "EHW+ Cloud",
+  "ehwPlusSyncStateInSync": "Synchron",
+  "ehwPlusSyncStateOutOfSync": "Nicht synchron",
+  "ehwPlusSyncStateChecking": "Sync-Status wird geprüft…",
+  "ehwPlusSyncStateMissingCloud": "Noch nicht in der Cloud",
   "ehwPlusSyncDiffPanelTitle": "Dieses Gerät vs. Cloud",
   "ehwPlusSyncDiffPanelEmpty": "Keine Feldkonflikte beim letzten Sync.",
   "ehwPlusSyncRemoveFromCloud": "Aus der Cloud entfernen",
   "ehwPlusSyncRemoveFromCloudConfirmTitle": "Dieses Haus aus EHW+ Cloud entfernen?",
   "ehwPlusSyncRemoveFromCloudConfirmBody": "Die Kopie auf den EHW+-Servern wird gelöscht. Die Daten auf diesem Gerät bleiben erhalten. Du kannst das Haus später erneut auswählen, um eine neue Kopie hochzuladen.",
   "ehwPlusSyncRemovedFromCloud": "Dieses Haus wurde aus EHW+ Cloud entfernt.",
+  "ehwPlusSyncPhotosSectionTitle": "Synchronisierte Bilder",
   "ehwPlusSyncPhotosTitle": "{readyCount} von {total} synchronisierten Bildern",
   "@ehwPlusSyncPhotosTitle": {
     "placeholders": {
@@ -1398,15 +1403,54 @@
       "hash": { "type": "String" }
     }
   },
-  "ehwPlusSyncRestoreDiffHeader": "{count} Felder unterscheiden sich von diesem Gerät",
+  "ehwPlusSyncRestoreDiffHeader": "{count} Einträge würden sich ändern",
   "@ehwPlusSyncRestoreDiffHeader": {
     "placeholders": {
       "count": { "type": "int" }
     }
   },
-  "ehwPlusSyncRestoreNoDiff": "Dieser Snapshot stimmt in den Top-Level-Feldern mit diesem Gerät überein.",
+  "ehwPlusSyncRestoreNoDiff": "Dieser Snapshot stimmt mit den Daten auf diesem Gerät überein.",
+  "ehwPlusSyncRestoreExplorerHint": "Nur Einträge, die sich ändern würden, sind aufgelistet. Unveränderte Zähler, Räume und Bilder bleiben ausgeblendet.",
+  "ehwPlusSyncRestoreOnlyLocal": "Nur auf diesem Gerät",
+  "ehwPlusSyncRestoreOnlySnapshot": "Nur in diesem Snapshot",
+  "ehwPlusSyncRestoreWillUpdate": "Wird ersetzt",
+  "ehwPlusSyncRestoreHomeDetails": "Hausdaten",
+  "ehwPlusSyncRestoreReadings": "Ablesungen",
+  "ehwPlusSyncRestoreDeletedMeters": "Gelöschte Zähler",
+  "ehwPlusSyncRestoreConsumptionPoints": "Netzanschlüsse",
+  "ehwPlusSyncRestoreChangedCount": "{count} geändert",
+  "@ehwPlusSyncRestoreChangedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreReadingsSummary": "{localCount} Ablesungen hier · {cloudCount} im Snapshot",
+  "@ehwPlusSyncRestoreReadingsSummary": {
+    "placeholders": {
+      "localCount": { "type": "int" },
+      "cloudCount": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreValueSwap": "{localValue} → {snapshotValue}",
+  "@ehwPlusSyncRestoreValueSwap": {
+    "placeholders": {
+      "localValue": { "type": "String" },
+      "snapshotValue": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncDiffFieldTitle": "Hausname",
+  "ehwPlusSyncDiffFieldHouseName": "Gebäudename",
+  "ehwPlusSyncDiffFieldCurrency": "Währung",
+  "ehwPlusSyncDiffFieldAddress": "Adresse",
+  "ehwPlusSyncDiffFieldObjectType": "Objekttyp",
   "ehwPlusSyncRestoreDiffTruncated": "…und {count} weitere Felder",
   "@ehwPlusSyncRestoreDiffTruncated": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncDiffMoreLines": "…und {count} weitere Zeilen",
+  "@ehwPlusSyncDiffMoreLines": {
     "placeholders": {
       "count": { "type": "int" }
     }
@@ -1414,5 +1458,25 @@
   "ehwPlusSyncRestoreConfirm": "Wiederherstellen und synchronisieren",
   "ehwPlusSyncRestoreFailed": "Diese Verlaufsversion konnte nicht wiederhergestellt werden.",
   "ehwPlusSyncRestoreApiMissing": "Wiederherstellen braucht eine neuere EHW+ Cloud API (Verlaufsdetail noch nicht deployed).",
-  "ehwPlusSyncRestoreBusy": "Warte, bis die aktuelle Synchronisierung fertig ist, und versuche es erneut."
+  "ehwPlusSyncRestoreBusy": "Warte, bis die aktuelle Synchronisierung fertig ist, und versuche es erneut.",
+  "ehwPlusSyncPhotoUploadStarted": "Zählerbild-Upload läuft im Hintergrund.",
+  "ehwPlusSyncPhotoUploadSucceeded": "Zählerbilder wurden zu EHW+ Cloud hochgeladen.",
+  "ehwPlusSyncPhotoUploadFailed": "Zählerbilder konnten nicht hochgeladen werden. Deine Ablesung ist auf diesem Gerät gespeichert.",
+  "ehwPlusSyncPhotoUploadStorageFailed": "Bildspeicher ist nicht verfügbar. Deine Ablesung ist auf diesem Gerät gespeichert.",
+  "ehwPlusSyncPhotoUploadApiFailed": "Zählerbilder konnten EHW+ Cloud nicht erreichen. Deine Ablesung ist auf diesem Gerät gespeichert.",
+  "ehwPlusSyncStatePhotosPending": "Daten synchron · Bilder werden hochgeladen",
+  "ehwPlusSyncStatePhotosFailed": "Daten gespeichert · Bilder nicht synchron",
+  "ehwPlusSyncRestoreListSummary": "{localCount} auf diesem Gerät → {cloudCount} in diesem Snapshot",
+  "@ehwPlusSyncRestoreListSummary": {
+    "placeholders": {
+      "localCount": { "type": "int" },
+      "cloudCount": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncDiffFieldCounters": "Zähler",
+  "ehwPlusSyncDiffFieldPhotoFiles": "Zählerbilder",
+  "ehwPlusSyncDiffFieldActivities": "Aktivitäten",
+  "ehwPlusSyncDiffFieldRooms": "Räume",
+  "ehwPlusSyncDiffFieldContracts": "Verträge",
+  "ehwPlusSyncDiffFieldLastUpdated": "Zuletzt aktualisiert"
 }

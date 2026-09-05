@@ -7349,6 +7349,30 @@ abstract class EhwplusAppLocalizations {
   /// **'EHW+ Cloud'**
   String get ehwPlusSyncSideCloud;
 
+  /// No description provided for @ehwPlusSyncStateInSync.
+  ///
+  /// In en, this message translates to:
+  /// **'In sync'**
+  String get ehwPlusSyncStateInSync;
+
+  /// No description provided for @ehwPlusSyncStateOutOfSync.
+  ///
+  /// In en, this message translates to:
+  /// **'Not in sync'**
+  String get ehwPlusSyncStateOutOfSync;
+
+  /// No description provided for @ehwPlusSyncStateChecking.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking sync status…'**
+  String get ehwPlusSyncStateChecking;
+
+  /// No description provided for @ehwPlusSyncStateMissingCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Not on cloud yet'**
+  String get ehwPlusSyncStateMissingCloud;
+
   /// No description provided for @ehwPlusSyncDiffPanelTitle.
   ///
   /// In en, this message translates to:
@@ -7384,6 +7408,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Removed this home from EHW+ Cloud.'**
   String get ehwPlusSyncRemovedFromCloud;
+
+  /// No description provided for @ehwPlusSyncPhotosSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Synced images'**
+  String get ehwPlusSyncPhotosSectionTitle;
 
   /// No description provided for @ehwPlusSyncPhotosTitle.
   ///
@@ -7478,20 +7508,122 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncRestoreDiffHeader.
   ///
   /// In en, this message translates to:
-  /// **'{count} fields differ from this device'**
+  /// **'{count} items will change'**
   String ehwPlusSyncRestoreDiffHeader(int count);
 
   /// No description provided for @ehwPlusSyncRestoreNoDiff.
   ///
   /// In en, this message translates to:
-  /// **'This snapshot matches the top-level fields on this device.'**
+  /// **'This snapshot matches what is on this device.'**
   String get ehwPlusSyncRestoreNoDiff;
+
+  /// No description provided for @ehwPlusSyncRestoreExplorerHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.'**
+  String get ehwPlusSyncRestoreExplorerHint;
+
+  /// No description provided for @ehwPlusSyncRestoreOnlyLocal.
+  ///
+  /// In en, this message translates to:
+  /// **'Only on this device'**
+  String get ehwPlusSyncRestoreOnlyLocal;
+
+  /// No description provided for @ehwPlusSyncRestoreOnlySnapshot.
+  ///
+  /// In en, this message translates to:
+  /// **'Only in this snapshot'**
+  String get ehwPlusSyncRestoreOnlySnapshot;
+
+  /// No description provided for @ehwPlusSyncRestoreWillUpdate.
+  ///
+  /// In en, this message translates to:
+  /// **'Will be replaced'**
+  String get ehwPlusSyncRestoreWillUpdate;
+
+  /// No description provided for @ehwPlusSyncRestoreHomeDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Home details'**
+  String get ehwPlusSyncRestoreHomeDetails;
+
+  /// No description provided for @ehwPlusSyncRestoreReadings.
+  ///
+  /// In en, this message translates to:
+  /// **'Readings'**
+  String get ehwPlusSyncRestoreReadings;
+
+  /// No description provided for @ehwPlusSyncRestoreDeletedMeters.
+  ///
+  /// In en, this message translates to:
+  /// **'Deleted meters'**
+  String get ehwPlusSyncRestoreDeletedMeters;
+
+  /// No description provided for @ehwPlusSyncRestoreConsumptionPoints.
+  ///
+  /// In en, this message translates to:
+  /// **'Grid connections'**
+  String get ehwPlusSyncRestoreConsumptionPoints;
+
+  /// No description provided for @ehwPlusSyncRestoreChangedCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} changed'**
+  String ehwPlusSyncRestoreChangedCount(int count);
+
+  /// No description provided for @ehwPlusSyncRestoreReadingsSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'{localCount} readings here · {cloudCount} in snapshot'**
+  String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount);
+
+  /// No description provided for @ehwPlusSyncRestoreValueSwap.
+  ///
+  /// In en, this message translates to:
+  /// **'{localValue} → {snapshotValue}'**
+  String ehwPlusSyncRestoreValueSwap(String localValue, String snapshotValue);
+
+  /// No description provided for @ehwPlusSyncDiffFieldTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Home name'**
+  String get ehwPlusSyncDiffFieldTitle;
+
+  /// No description provided for @ehwPlusSyncDiffFieldHouseName.
+  ///
+  /// In en, this message translates to:
+  /// **'House name'**
+  String get ehwPlusSyncDiffFieldHouseName;
+
+  /// No description provided for @ehwPlusSyncDiffFieldCurrency.
+  ///
+  /// In en, this message translates to:
+  /// **'Currency'**
+  String get ehwPlusSyncDiffFieldCurrency;
+
+  /// No description provided for @ehwPlusSyncDiffFieldAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Address'**
+  String get ehwPlusSyncDiffFieldAddress;
+
+  /// No description provided for @ehwPlusSyncDiffFieldObjectType.
+  ///
+  /// In en, this message translates to:
+  /// **'Home type'**
+  String get ehwPlusSyncDiffFieldObjectType;
 
   /// No description provided for @ehwPlusSyncRestoreDiffTruncated.
   ///
   /// In en, this message translates to:
   /// **'…and {count} more fields'**
   String ehwPlusSyncRestoreDiffTruncated(int count);
+
+  /// No description provided for @ehwPlusSyncDiffMoreLines.
+  ///
+  /// In en, this message translates to:
+  /// **'…and {count} more lines'**
+  String ehwPlusSyncDiffMoreLines(int count);
 
   /// No description provided for @ehwPlusSyncRestoreConfirm.
   ///
@@ -7516,6 +7648,90 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Wait for the current sync to finish, then try again.'**
   String get ehwPlusSyncRestoreBusy;
+
+  /// No description provided for @ehwPlusSyncPhotoUploadStarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter photo upload started in the background.'**
+  String get ehwPlusSyncPhotoUploadStarted;
+
+  /// No description provided for @ehwPlusSyncPhotoUploadSucceeded.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter photos uploaded to EHW+ Cloud.'**
+  String get ehwPlusSyncPhotoUploadSucceeded;
+
+  /// No description provided for @ehwPlusSyncPhotoUploadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter photos could not be uploaded. Your reading is saved on this device.'**
+  String get ehwPlusSyncPhotoUploadFailed;
+
+  /// No description provided for @ehwPlusSyncPhotoUploadStorageFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Photo storage is unavailable. Your reading is saved on this device.'**
+  String get ehwPlusSyncPhotoUploadStorageFailed;
+
+  /// No description provided for @ehwPlusSyncPhotoUploadApiFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Photos could not reach EHW+ Cloud. Your reading is saved on this device.'**
+  String get ehwPlusSyncPhotoUploadApiFailed;
+
+  /// No description provided for @ehwPlusSyncStatePhotosPending.
+  ///
+  /// In en, this message translates to:
+  /// **'Data in sync · photos uploading'**
+  String get ehwPlusSyncStatePhotosPending;
+
+  /// No description provided for @ehwPlusSyncStatePhotosFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Data saved · photos not synced'**
+  String get ehwPlusSyncStatePhotosFailed;
+
+  /// No description provided for @ehwPlusSyncRestoreListSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'{localCount} on this device → {cloudCount} in this snapshot'**
+  String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount);
+
+  /// No description provided for @ehwPlusSyncDiffFieldCounters.
+  ///
+  /// In en, this message translates to:
+  /// **'Meters'**
+  String get ehwPlusSyncDiffFieldCounters;
+
+  /// No description provided for @ehwPlusSyncDiffFieldPhotoFiles.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter photos'**
+  String get ehwPlusSyncDiffFieldPhotoFiles;
+
+  /// No description provided for @ehwPlusSyncDiffFieldActivities.
+  ///
+  /// In en, this message translates to:
+  /// **'Activities'**
+  String get ehwPlusSyncDiffFieldActivities;
+
+  /// No description provided for @ehwPlusSyncDiffFieldRooms.
+  ///
+  /// In en, this message translates to:
+  /// **'Rooms'**
+  String get ehwPlusSyncDiffFieldRooms;
+
+  /// No description provided for @ehwPlusSyncDiffFieldContracts.
+  ///
+  /// In en, this message translates to:
+  /// **'Contracts'**
+  String get ehwPlusSyncDiffFieldContracts;
+
+  /// No description provided for @ehwPlusSyncDiffFieldLastUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Last updated'**
+  String get ehwPlusSyncDiffFieldLastUpdated;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

@@ -2047,12 +2047,17 @@
   "ehwPlusSyncAutoSyncLimit": "You can sync at most 2 homes. Turn one off first.",
   "ehwPlusSyncSideLocal": "This device",
   "ehwPlusSyncSideCloud": "EHW+ Cloud",
+  "ehwPlusSyncStateInSync": "In sync",
+  "ehwPlusSyncStateOutOfSync": "Not in sync",
+  "ehwPlusSyncStateChecking": "Checking sync status…",
+  "ehwPlusSyncStateMissingCloud": "Not on cloud yet",
   "ehwPlusSyncDiffPanelTitle": "This device vs cloud",
   "ehwPlusSyncDiffPanelEmpty": "No field conflicts on the last sync.",
   "ehwPlusSyncRemoveFromCloud": "Remove from cloud",
   "ehwPlusSyncRemoveFromCloudConfirmTitle": "Remove this home from EHW+ Cloud?",
   "ehwPlusSyncRemoveFromCloudConfirmBody": "The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the home again later to upload a new copy.",
   "ehwPlusSyncRemovedFromCloud": "Removed this home from EHW+ Cloud.",
+  "ehwPlusSyncPhotosSectionTitle": "Synced images",
   "ehwPlusSyncPhotosTitle": "{readyCount} of {total} synced images",
   "@ehwPlusSyncPhotosTitle": {
     "placeholders": {
@@ -2085,15 +2090,54 @@
       "hash": { "type": "String" }
     }
   },
-  "ehwPlusSyncRestoreDiffHeader": "{count} fields differ from this device",
+  "ehwPlusSyncRestoreDiffHeader": "{count} items will change",
   "@ehwPlusSyncRestoreDiffHeader": {
     "placeholders": {
       "count": { "type": "int" }
     }
   },
-  "ehwPlusSyncRestoreNoDiff": "This snapshot matches the top-level fields on this device.",
+  "ehwPlusSyncRestoreNoDiff": "This snapshot matches what is on this device.",
+  "ehwPlusSyncRestoreExplorerHint": "Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.",
+  "ehwPlusSyncRestoreOnlyLocal": "Only on this device",
+  "ehwPlusSyncRestoreOnlySnapshot": "Only in this snapshot",
+  "ehwPlusSyncRestoreWillUpdate": "Will be replaced",
+  "ehwPlusSyncRestoreHomeDetails": "Home details",
+  "ehwPlusSyncRestoreReadings": "Readings",
+  "ehwPlusSyncRestoreDeletedMeters": "Deleted meters",
+  "ehwPlusSyncRestoreConsumptionPoints": "Grid connections",
+  "ehwPlusSyncRestoreChangedCount": "{count} changed",
+  "@ehwPlusSyncRestoreChangedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreReadingsSummary": "{localCount} readings here · {cloudCount} in snapshot",
+  "@ehwPlusSyncRestoreReadingsSummary": {
+    "placeholders": {
+      "localCount": { "type": "int" },
+      "cloudCount": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreValueSwap": "{localValue} → {snapshotValue}",
+  "@ehwPlusSyncRestoreValueSwap": {
+    "placeholders": {
+      "localValue": { "type": "String" },
+      "snapshotValue": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncDiffFieldTitle": "Home name",
+  "ehwPlusSyncDiffFieldHouseName": "House name",
+  "ehwPlusSyncDiffFieldCurrency": "Currency",
+  "ehwPlusSyncDiffFieldAddress": "Address",
+  "ehwPlusSyncDiffFieldObjectType": "Home type",
   "ehwPlusSyncRestoreDiffTruncated": "…and {count} more fields",
   "@ehwPlusSyncRestoreDiffTruncated": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncDiffMoreLines": "…and {count} more lines",
+  "@ehwPlusSyncDiffMoreLines": {
     "placeholders": {
       "count": { "type": "int" }
     }
@@ -2101,5 +2145,25 @@
   "ehwPlusSyncRestoreConfirm": "Restore and sync",
   "ehwPlusSyncRestoreFailed": "Could not restore that history version.",
   "ehwPlusSyncRestoreApiMissing": "Restore needs a newer EHW+ Cloud API (history detail not deployed yet).",
-  "ehwPlusSyncRestoreBusy": "Wait for the current sync to finish, then try again."
+  "ehwPlusSyncRestoreBusy": "Wait for the current sync to finish, then try again.",
+  "ehwPlusSyncPhotoUploadStarted": "Meter photo upload started in the background.",
+  "ehwPlusSyncPhotoUploadSucceeded": "Meter photos uploaded to EHW+ Cloud.",
+  "ehwPlusSyncPhotoUploadFailed": "Meter photos could not be uploaded. Your reading is saved on this device.",
+  "ehwPlusSyncPhotoUploadStorageFailed": "Photo storage is unavailable. Your reading is saved on this device.",
+  "ehwPlusSyncPhotoUploadApiFailed": "Photos could not reach EHW+ Cloud. Your reading is saved on this device.",
+  "ehwPlusSyncStatePhotosPending": "Data in sync · photos uploading",
+  "ehwPlusSyncStatePhotosFailed": "Data saved · photos not synced",
+  "ehwPlusSyncRestoreListSummary": "{localCount} on this device → {cloudCount} in this snapshot",
+  "@ehwPlusSyncRestoreListSummary": {
+    "placeholders": {
+      "localCount": { "type": "int" },
+      "cloudCount": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncDiffFieldCounters": "Meters",
+  "ehwPlusSyncDiffFieldPhotoFiles": "Meter photos",
+  "ehwPlusSyncDiffFieldActivities": "Activities",
+  "ehwPlusSyncDiffFieldRooms": "Rooms",
+  "ehwPlusSyncDiffFieldContracts": "Contracts",
+  "ehwPlusSyncDiffFieldLastUpdated": "Last updated"
 }

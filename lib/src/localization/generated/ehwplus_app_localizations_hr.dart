@@ -4185,6 +4185,18 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
   String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
 
   @override
+  String get ehwPlusSyncStateInSync => 'In sync';
+
+  @override
+  String get ehwPlusSyncStateOutOfSync => 'Not in sync';
+
+  @override
+  String get ehwPlusSyncStateChecking => 'Checking sync status…';
+
+  @override
+  String get ehwPlusSyncStateMissingCloud => 'Not on cloud yet';
+
+  @override
   String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
 
   @override
@@ -4202,6 +4214,9 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncRemovedFromCloud => 'Removed this home from EHW+ Cloud.';
+
+  @override
+  String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
@@ -4257,15 +4272,75 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count fields differ from this device';
+    return '$count items will change';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches the top-level fields on this device.';
+  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches what is on this device.';
+
+  @override
+  String get ehwPlusSyncRestoreExplorerHint =>
+      'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.';
+
+  @override
+  String get ehwPlusSyncRestoreOnlyLocal => 'Only on this device';
+
+  @override
+  String get ehwPlusSyncRestoreOnlySnapshot => 'Only in this snapshot';
+
+  @override
+  String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
+
+  @override
+  String get ehwPlusSyncRestoreHomeDetails => 'Home details';
+
+  @override
+  String get ehwPlusSyncRestoreReadings => 'Readings';
+
+  @override
+  String get ehwPlusSyncRestoreDeletedMeters => 'Deleted meters';
+
+  @override
+  String get ehwPlusSyncRestoreConsumptionPoints => 'Grid connections';
+
+  @override
+  String ehwPlusSyncRestoreChangedCount(int count) {
+    return '$count changed';
+  }
+
+  @override
+  String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
+    return '$localCount readings here · $cloudCount in snapshot';
+  }
+
+  @override
+  String ehwPlusSyncRestoreValueSwap(String localValue, String snapshotValue) {
+    return '$localValue → $snapshotValue';
+  }
+
+  @override
+  String get ehwPlusSyncDiffFieldTitle => 'Home name';
+
+  @override
+  String get ehwPlusSyncDiffFieldHouseName => 'House name';
+
+  @override
+  String get ehwPlusSyncDiffFieldCurrency => 'Currency';
+
+  @override
+  String get ehwPlusSyncDiffFieldAddress => 'Address';
+
+  @override
+  String get ehwPlusSyncDiffFieldObjectType => 'Home type';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
     return '…and $count more fields';
+  }
+
+  @override
+  String ehwPlusSyncDiffMoreLines(int count) {
+    return '…and $count more lines';
   }
 
   @override
@@ -4279,4 +4354,51 @@ class EhwplusAppLocalizationsHr extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadStarted => 'Meter photo upload started in the background.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadSucceeded => 'Meter photos uploaded to EHW+ Cloud.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadFailed =>
+      'Meter photos could not be uploaded. Your reading is saved on this device.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadStorageFailed =>
+      'Photo storage is unavailable. Your reading is saved on this device.';
+
+  @override
+  String get ehwPlusSyncPhotoUploadApiFailed =>
+      'Photos could not reach EHW+ Cloud. Your reading is saved on this device.';
+
+  @override
+  String get ehwPlusSyncStatePhotosPending => 'Data in sync · photos uploading';
+
+  @override
+  String get ehwPlusSyncStatePhotosFailed => 'Data saved · photos not synced';
+
+  @override
+  String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
+    return '$localCount on this device → $cloudCount in this snapshot';
+  }
+
+  @override
+  String get ehwPlusSyncDiffFieldCounters => 'Meters';
+
+  @override
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'Meter photos';
+
+  @override
+  String get ehwPlusSyncDiffFieldActivities => 'Activities';
+
+  @override
+  String get ehwPlusSyncDiffFieldRooms => 'Rooms';
+
+  @override
+  String get ehwPlusSyncDiffFieldContracts => 'Contracts';
+
+  @override
+  String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
 }
