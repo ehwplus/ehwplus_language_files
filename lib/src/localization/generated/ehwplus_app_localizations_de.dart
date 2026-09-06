@@ -3985,7 +3985,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud hält deine Häuser synchron. Melde dich an, wähle bis zu 2 Häuser und verwalte Status sowie Zusammenführungen hier.';
+      'EHW+ Cloud hält deine Objekte synchron. Melde dich an, wähle bis zu 2 Objekte und verwalte Status sowie Zusammenführungen hier.';
 
   @override
   String get ehwPlusSyncUseAsPrimary => 'EHW+ Cloud für Sync nutzen';
@@ -4001,14 +4001,14 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud hält ausgewählte Häuser auf deinen Geräten aktuell. Wähle was synchronisiert, prüfe den Status und löse Zusammenführungen, wenn beide Seiten geändert haben.';
+      'EHW+ Cloud hält ausgewählte Objekte auf deinen Geräten aktuell. Wähle was synchronisiert, prüfe den Status und löse Zusammenführungen, wenn beide Seiten geändert haben.';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Häuser zum Synchronisieren';
+  String get ehwPlusSyncSelectSectionTitle => 'Objekte zum Synchronisieren';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Wähle bis zu $max Häuser. Änderungen an diesen Häusern synchronisieren automatisch, solange EHW+ Cloud aktiv ist.';
+    return 'Wähle bis zu $max Objekte. Änderungen an diesen Objekten synchronisieren automatisch, solange EHW+ Cloud aktiv ist.';
   }
 
   @override
@@ -4021,7 +4021,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncManagedSectionEmpty =>
-      'Wähle oben ein Haus, um Cloud-Status, Verlauf und Zusammenführungen zu sehen.';
+      'Wähle oben ein Objekt, um Cloud-Status, Verlauf und Zusammenführungen zu sehen.';
 
   @override
   String get ehwPlusSyncCloudStatusLoading => 'EHW+ Cloud-Status wird geladen…';
@@ -4033,7 +4033,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncCloudStatusUnavailable => 'EHW+ Cloud-Status konnte nicht geladen werden.';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Dieses Haus wird mit EHW+ Cloud synchronisiert…';
+  String get ehwPlusSyncSyncingSelection => 'Dieses Objekt wird mit EHW+ Cloud synchronisiert…';
 
   @override
   String get ehwPlusSyncConflictsHeader => 'Konflikte';
@@ -4172,7 +4172,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud ist der Sync dieser App: Deine Haushaltsdaten liegen auf EHW+-Servern und bleiben über dein EHW+-Konto geräteübergreifend aktuell. Wähle bis zu zwei Häuser. Wenn beide Seiten dasselbe Feld ändern, kannst du die Zusammenführung hier lösen. Das Teilen eines Hauses, Raums oder Zählers mit jemand anderem ist später geplant.';
+      'EHW+ Cloud ist der Sync dieser App: Deine Objektdaten liegen auf EHW+-Servern und bleiben über dein EHW+-Konto geräteübergreifend aktuell. Wähle bis zu zwei Objekte. Wenn beide Seiten dasselbe Feld ändern, kannst du die Zusammenführung hier lösen. Das Teilen eines Objekts, Raums oder Zählers mit jemand anderem ist später geplant.';
 
   @override
   String get syncOpenProviderDetails => 'Details öffnen';
@@ -4239,17 +4239,17 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'Dieses Haus weicht vom Server ab. Öffne eine Zeile, vergleiche beide Versionen und wähle, welche bleiben soll — oder mische. Nicht überlappende Änderungen werden automatisch zusammengeführt.';
+      'Dieses Objekt weicht vom Server ab. Öffne eine Zeile, vergleiche beide Versionen und wähle, welche bleiben soll — oder mische. Nicht überlappende Änderungen werden automatisch zusammengeführt.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Dieses Haus synchronisieren';
+  String get ehwPlusSyncAutoSyncLabel => 'Dieses Objekt synchronisieren';
 
   @override
-  String get ehwPlusSyncAutoSyncHint => 'Teil von EHW+ Cloud Sync (max. 2).';
+  String get ehwPlusSyncAutoSyncHint => 'Teil von EHW+ Cloud Sync (max. 2). Ausschalten löscht die Cloud-Kopie.';
 
   @override
   String get ehwPlusSyncAutoSyncLimit =>
-      'Es können höchstens 2 Häuser synchronisiert werden. Schalte zuerst eines aus.';
+      'Es können höchstens 2 Objekte synchronisiert werden. Schalte zuerst eines aus.';
 
   @override
   String get ehwPlusSyncSideLocal => 'Dieses Gerät';
@@ -4279,14 +4279,14 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncRemoveFromCloud => 'Aus der Cloud entfernen';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Dieses Haus aus EHW+ Cloud entfernen?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Dieses Objekt aus EHW+ Cloud entfernen?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'Die Kopie auf den EHW+-Servern wird gelöscht. Die Daten auf diesem Gerät bleiben erhalten. Du kannst das Haus später erneut auswählen, um eine neue Kopie hochzuladen.';
+      'Die Kopie auf den EHW+-Servern wird gelöscht. Die Daten auf diesem Gerät bleiben erhalten. Du kannst das Objekt später erneut auswählen, um eine neue Kopie hochzuladen.';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Dieses Haus wurde aus EHW+ Cloud entfernt.';
+  String get ehwPlusSyncRemovedFromCloud => 'Dieses Objekt wurde aus EHW+ Cloud entfernt.';
 
   @override
   String get ehwPlusSyncPhotosSectionTitle => 'Synchronisierte Bilder';
@@ -4368,7 +4368,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncRestoreWillUpdate => 'Wird ersetzt';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Hausdaten';
+  String get ehwPlusSyncRestoreHomeDetails => 'Objektdaten';
 
   @override
   String get ehwPlusSyncRestoreReadings => 'Ablesungen';
@@ -4395,7 +4395,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Hausname';
+  String get ehwPlusSyncDiffFieldTitle => 'Objektname';
 
   @override
   String get ehwPlusSyncDiffFieldHouseName => 'Gebäudename';

@@ -6974,7 +6974,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncDescription.
   ///
   /// In en, this message translates to:
-  /// **'EHW+ Cloud is how this app keeps your homes in sync. Sign in, pick up to 2 homes, and manage status and merges here.'**
+  /// **'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.'**
   String get ehwPlusSyncDescription;
 
   /// No description provided for @ehwPlusSyncUseAsPrimary.
@@ -7004,19 +7004,19 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncHubIntro.
   ///
   /// In en, this message translates to:
-  /// **'EHW+ Cloud keeps selected homes up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.'**
+  /// **'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.'**
   String get ehwPlusSyncHubIntro;
 
   /// No description provided for @ehwPlusSyncSelectSectionTitle.
   ///
   /// In en, this message translates to:
-  /// **'Homes to sync'**
+  /// **'Objects to sync'**
   String get ehwPlusSyncSelectSectionTitle;
 
   /// No description provided for @ehwPlusSyncSelectSectionSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Select up to {max} homes. Changes on those homes sync automatically while EHW+ Cloud is active.'**
+  /// **'Select up to {max} objects. Changes on those objects sync automatically while EHW+ Cloud is active.'**
   String ehwPlusSyncSelectSectionSubtitle(int max);
 
   /// No description provided for @ehwPlusSyncSelectedCount.
@@ -7034,7 +7034,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncManagedSectionEmpty.
   ///
   /// In en, this message translates to:
-  /// **'Select a home above to see cloud status, history, and merges.'**
+  /// **'Select an object above to see cloud status, history, and merges.'**
   String get ehwPlusSyncManagedSectionEmpty;
 
   /// No description provided for @ehwPlusSyncCloudStatusLoading.
@@ -7058,7 +7058,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncSyncingSelection.
   ///
   /// In en, this message translates to:
-  /// **'Syncing this home to EHW+ Cloud…'**
+  /// **'Syncing this object to EHW+ Cloud…'**
   String get ehwPlusSyncSyncingSelection;
 
   /// No description provided for @ehwPlusSyncConflictsHeader.
@@ -7304,7 +7304,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @syncProviderEhwPlusDetails.
   ///
   /// In en, this message translates to:
-  /// **'EHW+ Cloud is the sync for this app: your home data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two homes to sync. If both sides change the same field, you can resolve the merge here. Sharing a home, room, or counter with someone else is planned later.'**
+  /// **'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.'**
   String get syncProviderEhwPlusDetails;
 
   /// No description provided for @syncOpenProviderDetails.
@@ -7418,25 +7418,25 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncConflictHint.
   ///
   /// In en, this message translates to:
-  /// **'This home differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.'**
+  /// **'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.'**
   String get ehwPlusSyncConflictHint;
 
   /// No description provided for @ehwPlusSyncAutoSyncLabel.
   ///
   /// In en, this message translates to:
-  /// **'Sync this home'**
+  /// **'Sync this object'**
   String get ehwPlusSyncAutoSyncLabel;
 
   /// No description provided for @ehwPlusSyncAutoSyncHint.
   ///
   /// In en, this message translates to:
-  /// **'Included in EHW+ Cloud sync (max 2).'**
+  /// **'Included in EHW+ Cloud sync (max 2). Turning this off deletes the cloud copy.'**
   String get ehwPlusSyncAutoSyncHint;
 
   /// No description provided for @ehwPlusSyncAutoSyncLimit.
   ///
   /// In en, this message translates to:
-  /// **'You can sync at most 2 homes. Turn one off first.'**
+  /// **'You can sync at most 2 objects. Turn one off first.'**
   String get ehwPlusSyncAutoSyncLimit;
 
   /// No description provided for @ehwPlusSyncSideLocal.
@@ -7496,19 +7496,19 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncRemoveFromCloudConfirmTitle.
   ///
   /// In en, this message translates to:
-  /// **'Remove this home from EHW+ Cloud?'**
+  /// **'Remove this object from EHW+ Cloud?'**
   String get ehwPlusSyncRemoveFromCloudConfirmTitle;
 
   /// No description provided for @ehwPlusSyncRemoveFromCloudConfirmBody.
   ///
   /// In en, this message translates to:
-  /// **'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the home again later to upload a new copy.'**
+  /// **'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.'**
   String get ehwPlusSyncRemoveFromCloudConfirmBody;
 
   /// No description provided for @ehwPlusSyncRemovedFromCloud.
   ///
   /// In en, this message translates to:
-  /// **'Removed this home from EHW+ Cloud.'**
+  /// **'Removed this object from EHW+ Cloud.'**
   String get ehwPlusSyncRemovedFromCloud;
 
   /// No description provided for @ehwPlusSyncPhotosSectionTitle.
@@ -7652,7 +7652,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncRestoreHomeDetails.
   ///
   /// In en, this message translates to:
-  /// **'Home details'**
+  /// **'Object details'**
   String get ehwPlusSyncRestoreHomeDetails;
 
   /// No description provided for @ehwPlusSyncRestoreReadings.
@@ -7694,7 +7694,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @ehwPlusSyncDiffFieldTitle.
   ///
   /// In en, this message translates to:
-  /// **'Home name'**
+  /// **'Object name'**
   String get ehwPlusSyncDiffFieldTitle;
 
   /// No description provided for @ehwPlusSyncDiffFieldHouseName.

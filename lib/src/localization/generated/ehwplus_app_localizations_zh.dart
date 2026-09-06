@@ -3822,7 +3822,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud is how this app keeps your homes in sync. Sign in, pick up to 2 homes, and manage status and merges here.';
+      'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.';
 
   @override
   String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
@@ -3838,14 +3838,14 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud keeps selected homes up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+      'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Homes to sync';
+  String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Select up to $max homes. Changes on those homes sync automatically while EHW+ Cloud is active.';
+    return 'Select up to $max objects. Changes on those objects sync automatically while EHW+ Cloud is active.';
   }
 
   @override
@@ -3857,7 +3857,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get ehwPlusSyncManagedSectionTitle => 'Sync status';
 
   @override
-  String get ehwPlusSyncManagedSectionEmpty => 'Select a home above to see cloud status, history, and merges.';
+  String get ehwPlusSyncManagedSectionEmpty => 'Select an object above to see cloud status, history, and merges.';
 
   @override
   String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
@@ -3869,7 +3869,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Syncing this home to EHW+ Cloud…';
+  String get ehwPlusSyncSyncingSelection => 'Syncing this object to EHW+ Cloud…';
 
   @override
   String get ehwPlusSyncConflictsHeader => 'Conflicts';
@@ -4007,7 +4007,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud is the sync for this app: your home data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two homes to sync. If both sides change the same field, you can resolve the merge here. Sharing a home, room, or counter with someone else is planned later.';
+      'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.';
 
   @override
   String get syncOpenProviderDetails => 'Open details';
@@ -4072,16 +4072,16 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This home differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
+      'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Sync this home';
+  String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
 
   @override
-  String get ehwPlusSyncAutoSyncHint => 'Included in EHW+ Cloud sync (max 2).';
+  String get ehwPlusSyncAutoSyncHint => 'Included in EHW+ Cloud sync (max 2). Turning this off deletes the cloud copy.';
 
   @override
-  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 homes. Turn one off first.';
+  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';
 
   @override
   String get ehwPlusSyncSideLocal => 'This device';
@@ -4111,14 +4111,14 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this home from EHW+ Cloud?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this object from EHW+ Cloud?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the home again later to upload a new copy.';
+      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Removed this home from EHW+ Cloud.';
+  String get ehwPlusSyncRemovedFromCloud => 'Removed this object from EHW+ Cloud.';
 
   @override
   String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
@@ -4200,7 +4200,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Home details';
+  String get ehwPlusSyncRestoreHomeDetails => 'Object details';
 
   @override
   String get ehwPlusSyncRestoreReadings => 'Readings';
@@ -4227,7 +4227,7 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Home name';
+  String get ehwPlusSyncDiffFieldTitle => 'Object name';
 
   @override
   String get ehwPlusSyncDiffFieldHouseName => 'House name';
