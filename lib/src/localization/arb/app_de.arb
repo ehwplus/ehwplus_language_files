@@ -1271,5 +1271,252 @@
       }
     }
   },
-  "changelogTitle": "Änderungshistorie"
+  "changelogTitle": "Änderungshistorie",
+  "ehwPlusSyncTitle": "EHW+ Cloud",
+  "ehwPlusSyncDescription": "EHW+ Cloud hält deine Objekte synchron. Melde dich an, wähle bis zu 2 Objekte und verwalte Status sowie Zusammenführungen hier.",
+  "ehwPlusSyncUseAsPrimary": "EHW+ Cloud für Sync nutzen",
+  "ehwPlusSyncIsPrimary": "EHW+ Cloud ist dein Sync.",
+  "ehwPlusSyncActivated": "EHW+ Cloud ist jetzt dein Sync.",
+  "ehwPlusSyncActivateFailed": "EHW+ Cloud Sync konnte nicht aktiviert werden.",
+  "ehwPlusSyncHubIntro": "EHW+ Cloud hält ausgewählte Objekte auf deinen Geräten aktuell. Wähle was synchronisiert, prüfe den Status und löse Zusammenführungen, wenn beide Seiten geändert haben.",
+  "ehwPlusSyncObjectsSectionTitle": "Objekte",
+  "ehwPlusSyncSelectSectionTitle": "Objekte zum Synchronisieren",
+  "ehwPlusSyncSelectSectionSubtitle": "Wähle bis zu {max} Objekte. Änderungen an diesen Objekten synchronisieren automatisch, solange EHW+ Cloud aktiv ist.",
+  "@ehwPlusSyncSelectSectionSubtitle": {
+    "placeholders": {
+      "max": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncSelectedCount": "{count} von {max} ausgewählt",
+  "@ehwPlusSyncSelectedCount": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncManagedSectionTitle": "Sync-Status",
+  "ehwPlusSyncManagedSectionEmpty": "Wähle oben ein Objekt, um Cloud-Status, Verlauf und Zusammenführungen zu sehen.",
+  "ehwPlusSyncCloudStatusLoading": "EHW+ Cloud-Status wird geladen…",
+  "ehwPlusSyncCloudStatusMissing": "Noch keine Cloud-Kopie.",
+  "ehwPlusSyncCloudStatusUnavailable": "EHW+ Cloud-Status konnte nicht geladen werden.",
+  "ehwPlusSyncSyncingSelection": "Dieses Objekt wird mit EHW+ Cloud synchronisiert…",
+  "ehwPlusSyncConflictsHeader": "Konflikte",
+  "ehwPlusSyncTakeServer": "Serverversion übernehmen",
+  "ehwPlusSyncUseLocal": "Dieses Gerät",
+  "ehwPlusSyncUseCloud": "Cloud",
+  "ehwPlusSyncUseAllLocal": "Alles von diesem Gerät",
+  "ehwPlusSyncUseAllCloud": "Alles aus der Cloud",
+  "ehwPlusSyncApplyResolution": "Übernehmen und synchronisieren",
+  "ehwPlusSyncResolutionMixed": "Gemischt",
+  "ehwPlusSyncConflictExplorerHint": "Tippe in jeder Zeile Dieses Gerät oder Cloud. Übernehmen lädt diese Mischung.",
+  "ehwPlusSyncKeepVersionLabel": "Diese Version behalten",
+  "ehwPlusSyncFolderPickLabel": "Alles in diesem Ordner",
+  "ehwPlusSyncNotOnDevice": "Nicht auf diesem Gerät",
+  "ehwPlusSyncNotInCloud": "Nicht in der Cloud",
+  "ehwPlusSyncOutcomeKeepLocal": "{value} auf beiden behalten.",
+  "@ehwPlusSyncOutcomeKeepLocal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeUseCloud": "Cloud-Wert {value} übernehmen.",
+  "@ehwPlusSyncOutcomeUseCloud": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeSkipAdd": "Diesen Cloud-Eintrag überspringen.",
+  "ehwPlusSyncOutcomeAddCloud": "{value} aus der Cloud ergänzen.",
+  "@ehwPlusSyncOutcomeAddCloud": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeKeepRemoved": "{value} behalten und hochladen.",
+  "@ehwPlusSyncOutcomeKeepRemoved": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncOutcomeDropLocal": "Diesen Eintrag entfernen, damit er zur Cloud passt.",
+  "ehwPlusSyncStatusCreated": "In der Cloud erstellt",
+  "ehwPlusSyncStatusFastForward": "Hochgeladen (fast-forward)",
+  "ehwPlusSyncStatusUpdateRequired": "Server hat neuere Daten",
+  "ehwPlusSyncStatusMerged": "Mit Server zusammengeführt",
+  "ehwPlusSyncStatusConflict": "Konflikt — unten lösen",
+  "syncProviderActive": "Aktiver Sync-Anbieter",
+  "syncProviderNoneActive": "Keine Synchronisierung ausgewählt. Wähle unten eine verfügbare Methode aus.",
+  "syncTurnOff": "Sync ausschalten",
+  "syncOverviewIntro": "Mit Sync sicherst du Häuser und Zählerstände in der Cloud. Bei einem neuen Handy oder einer Neuinstallation kannst du deine Daten wiederherstellen. Du kannst eine Methode nutzen oder Sync ganz ausschalten.",
+  "syncSelectProviderLabel": "Aktive Sync-Methode",
+  "syncSelectProviderHelp": "Wähle eine Methode. Mit „Keine Synchronisierung“ schaltest du Sync aus. Unten findest du Details und die Anmeldung.",
+  "syncProvidersSectionTitle": "Verfügbare Sync-Methoden",
+  "syncProviderSegmentNone": "Keine Synchronisierung",
+  "syncProviderSegmentNoneShort": "Aus",
+  "syncProviderSegmentGoogle": "Google Drive",
+  "syncProviderSegmentEhwPlus": "EHW+ Cloud",
+  "syncProviderSegmentGoogleShort": "Drive",
+  "syncProviderSegmentEhwPlusShort": "Cloud",
+  "syncProviderNoneSummary": "Deine Daten bleiben nur auf diesem Gerät und werden nicht synchronisiert.",
+  "syncUseProvider": "Für Sync nutzen",
+  "syncProviderGoogleSummary": "Speichert deine Daten als Dateien in deinem Google Drive. Du meldest dich mit Google an. Gut, wenn du Google ohnehin nutzt und die Dateien in Drive haben möchtest.",
+  "syncProviderEhwPlusSummary": "Speichert deine Daten in EHW+ Cloud mit deinem EHW+-Konto. Funktioniert geräteübergreifend ohne Google Drive. Ideal, wenn du dich bei EHW+ anmeldest.",
+  "syncProviderGoogleDetails": "Google Drive Sync kopiert deine Objektdaten in einen Ordner in deinem Google-Konto. Melde dich auf dieser Seite mit Google an. Änderungen können online automatisch synchronisiert werden. Die Dateien bleiben in deinem Drive und sind auch außerhalb der App sichtbar. Hinweis: Wenn du später auf EHW+ Cloud wechselst, ist Google Drive nicht mehr die aktive Sicherung, bis du zurückwechselst.",
+  "syncProviderEhwPlusDetails": "EHW+ Cloud ist der Sync dieser App: Deine Objektdaten liegen auf EHW+-Servern und bleiben über dein EHW+-Konto geräteübergreifend aktuell. Wähle bis zu zwei Objekte. Wenn beide Seiten dasselbe Feld ändern, kannst du die Zusammenführung hier lösen. Das Teilen eines Objekts, Raums oder Zählers mit jemand anderem ist später geplant.",
+  "syncOpenProviderDetails": "Details öffnen",
+  "syncProviderSignedIn": "Angemeldet",
+  "syncProviderNotSignedIn": "Nicht angemeldet",
+  "syncNeedsEhwPlusAccount": "Melde dich mit deinem EHW+-Konto an, um EHW+ Cloud zu nutzen.",
+  "syncNeedsGoogleAccount": "Melde dich mit Google an, um Google Drive Sync zu nutzen. Öffne unten die Google-Drive-Details zum Verbinden.",
+  "syncErrorNetwork": "Keine Verbindung. Prüfe dein Netzwerk und versuche es erneut.",
+  "syncErrorSessionExpired": "Deine EHW+-Sitzung ist abgelaufen. Melde dich erneut an und versuche es noch einmal.",
+  "syncErrorAccessDenied": "Cloud-Sync ist für dieses Konto nicht freigeschaltet. Melde dich erneut an oder prüfe, ob dein EHW+-Tarif Cloud-Sync enthält.",
+  "syncErrorPayloadTooLarge": "Dieses Objekt ist derzeit zu groß zum Synchronisieren. Versuche es später erneut oder kontaktiere den Support.",
+  "syncErrorServiceUnavailable": "EHW+ Cloud ist vorübergehend nicht erreichbar. Versuche es gleich noch einmal.",
+  "syncErrorNotReady": "Cloud-Sync ist noch nicht bereit. Warte einen Moment und versuche es erneut.",
+  "syncErrorUnknown": "Sync fehlgeschlagen. Bitte erneut versuchen.",
+  "syncTurnedOff": "Cloud-Sync ist ausgeschaltet.",
+  "syncTurnOffFailed": "Sync konnte nicht ausgeschaltet werden. Bitte erneut versuchen.",
+  "syncNoHomesYet": "Noch keine Objekte zum Synchronisieren.",
+  "syncAllNow": "Alles synchronisieren",
+  "syncAllFinished": "{ok} von {total} synchronisiert.",
+  "@syncAllFinished": {
+    "placeholders": {
+      "ok": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "syncAllFinishedWithFailures": "{ok} von {total} synchronisiert. {failed} fehlgeschlagen — siehe markierte Objekte unten.",
+  "@syncAllFinishedWithFailures": {
+    "placeholders": {
+      "ok": {"type": "int"},
+      "total": {"type": "int"},
+      "failed": {"type": "int"}
+    }
+  },
+  "ehwPlusSyncConflictHint": "Dieses Objekt weicht vom Server ab. Öffne eine Zeile, vergleiche beide Versionen und wähle, welche bleiben soll — oder mische. Nicht überlappende Änderungen werden automatisch zusammengeführt.",
+  "ehwPlusSyncAutoSyncLabel": "Dieses Objekt synchronisieren",
+  "ehwPlusSyncAutoSyncLimit": "Es können höchstens 2 Objekte synchronisiert werden. Wähle zuerst eines ab.",
+  "ehwPlusSyncSideLocal": "Dieses Gerät",
+  "ehwPlusSyncSideCloud": "EHW+ Cloud",
+  "ehwPlusSyncStateInSync": "Synchron",
+  "ehwPlusSyncStateOutOfSync": "Nicht synchron",
+  "ehwPlusSyncStateChecking": "Sync-Status wird geprüft…",
+  "ehwPlusSyncStateMissingCloud": "Noch nicht in der Cloud",
+  "ehwPlusSyncDiffPanelTitle": "Dieses Gerät vs. Cloud",
+  "ehwPlusSyncDiffPanelEmpty": "Keine Feldkonflikte beim letzten Sync.",
+  "ehwPlusSyncRemoveFromCloud": "Aus der Cloud entfernen",
+  "ehwPlusSyncRemoveFromCloudConfirmTitle": "Dieses Objekt aus EHW+ Cloud entfernen?",
+  "ehwPlusSyncRemoveFromCloudConfirmBody": "Die Kopie auf den EHW+-Servern wird gelöscht. Die Daten auf diesem Gerät bleiben erhalten. Du kannst das Objekt später erneut auswählen, um eine neue Kopie hochzuladen.",
+  "ehwPlusSyncRemovedFromCloud": "Dieses Objekt wurde aus EHW+ Cloud entfernt.",
+  "ehwPlusSyncPhotosSectionTitle": "Synchronisierte Bilder",
+  "ehwPlusSyncPhotosTitle": "{readyCount} von {total} synchronisierten Bildern",
+  "@ehwPlusSyncPhotosTitle": {
+    "placeholders": {
+      "readyCount": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncPhotosEmpty": "Noch keine synchronisierten Bilder.",
+  "ehwPlusSyncPhotosShowMore": "Weitere Bilder anzeigen",
+  "ehwPlusSyncPhotosLoadThumbs": "Vorschaubilder laden",
+  "ehwPlusSyncPhotosLoading": "Bilder werden geladen…",
+  "ehwPlusSyncPhotosUnavailable": "Cloud-Bilder sind gerade nicht verfügbar.",
+  "ehwPlusSyncPhotosUnassigned": "Weitere Fotos",
+  "ehwPlusSyncHistoryTitle": "Sync-Verlauf",
+  "ehwPlusSyncHistoryCount": "{count} Versionen",
+  "@ehwPlusSyncHistoryCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncHistoryEmpty": "Noch kein Sync-Verlauf.",
+  "ehwPlusSyncHistoryLoadMore": "5 weitere laden",
+  "ehwPlusSyncHistoryLoading": "Verlauf wird geladen…",
+  "ehwPlusSyncHistoryUnavailable": "Sync-Verlauf ist gerade nicht verfügbar.",
+  "ehwPlusSyncRestoreTitle": "Diese Version wiederherstellen?",
+  "ehwPlusSyncRestoreWarning": "Die Daten auf diesem Gerät werden durch den gewählten Cloud-Verlauf ersetzt und danach wieder nach EHW+ Cloud synchronisiert. Ungespeicherte lokale Änderungen können dauerhaft verloren gehen.",
+  "ehwPlusSyncRestoreSnapshotMeta": "Snapshot vom {timestamp} · {hash}",
+  "@ehwPlusSyncRestoreSnapshotMeta": {
+    "placeholders": {
+      "timestamp": { "type": "String" },
+      "hash": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncRestoreDiffHeader": "{count} Einträge würden sich ändern",
+  "@ehwPlusSyncRestoreDiffHeader": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreNoDiff": "Dieser Snapshot stimmt mit den Daten auf diesem Gerät überein.",
+  "ehwPlusSyncRestoreExplorerHint": "Nur Einträge, die sich ändern würden, sind aufgelistet. Unveränderte Zähler, Räume und Bilder bleiben ausgeblendet.",
+  "ehwPlusSyncRestoreOnlyLocal": "Nur auf diesem Gerät",
+  "ehwPlusSyncRestoreOnlySnapshot": "Nur in diesem Snapshot",
+  "ehwPlusSyncRestoreWillUpdate": "Wird ersetzt",
+  "ehwPlusSyncRestoreHomeDetails": "Objektdaten",
+  "ehwPlusSyncRestoreReadings": "Ablesungen",
+  "ehwPlusSyncRestoreDeletedMeters": "Gelöschte Zähler",
+  "ehwPlusSyncRestoreConsumptionPoints": "Netzanschlüsse",
+  "ehwPlusSyncRestoreChangedCount": "{count} geändert",
+  "@ehwPlusSyncRestoreChangedCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreReadingsSummary": "{localCount} Ablesungen hier · {cloudCount} im Snapshot",
+  "@ehwPlusSyncRestoreReadingsSummary": {
+    "placeholders": {
+      "localCount": { "type": "int" },
+      "cloudCount": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreValueSwap": "{localValue} → {snapshotValue}",
+  "@ehwPlusSyncRestoreValueSwap": {
+    "placeholders": {
+      "localValue": { "type": "String" },
+      "snapshotValue": { "type": "String" }
+    }
+  },
+  "ehwPlusSyncDiffFieldTitle": "Objektname",
+  "ehwPlusSyncDiffFieldHouseName": "Gebäudename",
+  "ehwPlusSyncDiffFieldCurrency": "Währung",
+  "ehwPlusSyncDiffFieldAddress": "Adresse",
+  "ehwPlusSyncDiffFieldObjectType": "Objekttyp",
+  "ehwPlusSyncRestoreDiffTruncated": "…und {count} weitere Felder",
+  "@ehwPlusSyncRestoreDiffTruncated": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncDiffMoreLines": "…und {count} weitere Zeilen",
+  "@ehwPlusSyncDiffMoreLines": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncRestoreConfirm": "Wiederherstellen und synchronisieren",
+  "ehwPlusSyncRestoreFailed": "Diese Verlaufsversion konnte nicht wiederhergestellt werden.",
+  "ehwPlusSyncRestoreApiMissing": "Wiederherstellen braucht eine neuere EHW+ Cloud API (Verlaufsdetail noch nicht deployed).",
+  "ehwPlusSyncRestoreBusy": "Warte, bis die aktuelle Synchronisierung fertig ist, und versuche es erneut.",
+  "ehwPlusSyncPhotoUploadStarted": "Zählerbild-Upload läuft im Hintergrund.",
+  "ehwPlusSyncPhotoUploadSucceeded": "Zählerbilder wurden zu EHW+ Cloud hochgeladen.",
+  "ehwPlusSyncPhotoUploadFailed": "Zählerbilder konnten nicht hochgeladen werden. Deine Ablesung ist auf diesem Gerät gespeichert.",
+  "ehwPlusSyncPhotoUploadStorageFailed": "Bildspeicher ist nicht verfügbar. Deine Ablesung ist auf diesem Gerät gespeichert.",
+  "ehwPlusSyncPhotoUploadApiFailed": "Zählerbilder konnten EHW+ Cloud nicht erreichen. Deine Ablesung ist auf diesem Gerät gespeichert.",
+  "ehwPlusSyncStatePhotosPending": "Daten synchron · Bilder werden hochgeladen",
+  "ehwPlusSyncStatePhotosFailed": "Daten gespeichert · Bilder nicht synchron",
+  "ehwPlusSyncRestoreListSummary": "{localCount} auf diesem Gerät → {cloudCount} in diesem Snapshot",
+  "@ehwPlusSyncRestoreListSummary": {
+    "placeholders": {
+      "localCount": { "type": "int" },
+      "cloudCount": { "type": "int" }
+    }
+  },
+  "ehwPlusSyncDiffFieldCounters": "Zähler",
+  "ehwPlusSyncDiffFieldPhotoFiles": "Zählerbilder",
+  "ehwPlusSyncDiffFieldActivities": "Aktivitäten",
+  "ehwPlusSyncDiffFieldRooms": "Räume",
+  "ehwPlusSyncDiffFieldContracts": "Verträge",
+  "ehwPlusSyncDiffFieldLastUpdated": "Zuletzt aktualisiert"
 }
