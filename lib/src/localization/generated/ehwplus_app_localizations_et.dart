@@ -3980,6 +3980,9 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
       'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
 
   @override
+  String get ehwPlusSyncObjectsSectionTitle => 'Objects';
+
+  @override
   String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
 
   @override
@@ -4094,8 +4097,7 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get syncProviderActive => 'Active sync provider';
 
   @override
-  String get syncProviderNoneActive =>
-      'No synchronization is selected. Choose EHW+ Cloud or Google Drive above, or open a method below to sign in first.';
+  String get syncProviderNoneActive => 'No synchronization selected. Choose an available method below.';
 
   @override
   String get syncTurnOff => 'Turn sync off';
@@ -4131,6 +4133,12 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderSegmentEhwPlusShort => 'Cloud';
+
+  @override
+  String get syncProviderNoneSummary => 'Your data will remain only on this device and will not be synced.';
+
+  @override
+  String get syncUseProvider => 'Use for sync';
 
   @override
   String get syncProviderGoogleSummary =>
@@ -4215,9 +4223,6 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
-
-  @override
-  String get ehwPlusSyncAutoSyncHint => 'Included in EHW+ Cloud sync (max 2). Turning this off deletes the cloud copy.';
 
   @override
   String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';

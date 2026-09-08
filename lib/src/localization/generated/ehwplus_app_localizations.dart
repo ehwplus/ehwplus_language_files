@@ -7007,6 +7007,12 @@ abstract class EhwplusAppLocalizations {
   /// **'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.'**
   String get ehwPlusSyncHubIntro;
 
+  /// No description provided for @ehwPlusSyncObjectsSectionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Objects'**
+  String get ehwPlusSyncObjectsSectionTitle;
+
   /// No description provided for @ehwPlusSyncSelectSectionTitle.
   ///
   /// In en, this message translates to:
@@ -7214,7 +7220,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @syncProviderNoneActive.
   ///
   /// In en, this message translates to:
-  /// **'No synchronization is selected. Choose EHW+ Cloud or Google Drive above, or open a method below to sign in first.'**
+  /// **'No synchronization selected. Choose an available method below.'**
   String get syncProviderNoneActive;
 
   /// No description provided for @syncTurnOff.
@@ -7282,6 +7288,18 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Cloud'**
   String get syncProviderSegmentEhwPlusShort;
+
+  /// No description provided for @syncProviderNoneSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Your data will remain only on this device and will not be synced.'**
+  String get syncProviderNoneSummary;
+
+  /// No description provided for @syncUseProvider.
+  ///
+  /// In en, this message translates to:
+  /// **'Use for sync'**
+  String get syncUseProvider;
 
   /// No description provided for @syncProviderGoogleSummary.
   ///
@@ -7426,12 +7444,6 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Sync this object'**
   String get ehwPlusSyncAutoSyncLabel;
-
-  /// No description provided for @ehwPlusSyncAutoSyncHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Included in EHW+ Cloud sync (max 2). Turning this off deletes the cloud copy.'**
-  String get ehwPlusSyncAutoSyncHint;
 
   /// No description provided for @ehwPlusSyncAutoSyncLimit.
   ///

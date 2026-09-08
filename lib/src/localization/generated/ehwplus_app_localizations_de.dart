@@ -4004,6 +4004,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'EHW+ Cloud hält ausgewählte Objekte auf deinen Geräten aktuell. Wähle was synchronisiert, prüfe den Status und löse Zusammenführungen, wenn beide Seiten geändert haben.';
 
   @override
+  String get ehwPlusSyncObjectsSectionTitle => 'Objekte';
+
+  @override
   String get ehwPlusSyncSelectSectionTitle => 'Objekte zum Synchronisieren';
 
   @override
@@ -4120,8 +4123,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get syncProviderActive => 'Aktiver Sync-Anbieter';
 
   @override
-  String get syncProviderNoneActive =>
-      'Keine Synchronisierung ausgewählt. Wähle oben EHW+ Cloud oder Google Drive, oder öffne unten eine Methode zum Anmelden.';
+  String get syncProviderNoneActive => 'Keine Synchronisierung ausgewählt. Wähle unten eine verfügbare Methode aus.';
 
   @override
   String get syncTurnOff => 'Sync ausschalten';
@@ -4157,6 +4159,12 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get syncProviderSegmentEhwPlusShort => 'Cloud';
+
+  @override
+  String get syncProviderNoneSummary => 'Deine Daten bleiben nur auf diesem Gerät und werden nicht synchronisiert.';
+
+  @override
+  String get syncUseProvider => 'Für Sync nutzen';
 
   @override
   String get syncProviderGoogleSummary =>
@@ -4245,11 +4253,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get ehwPlusSyncAutoSyncLabel => 'Dieses Objekt synchronisieren';
 
   @override
-  String get ehwPlusSyncAutoSyncHint => 'Teil von EHW+ Cloud Sync (max. 2). Ausschalten löscht die Cloud-Kopie.';
-
-  @override
-  String get ehwPlusSyncAutoSyncLimit =>
-      'Es können höchstens 2 Objekte synchronisiert werden. Schalte zuerst eines aus.';
+  String get ehwPlusSyncAutoSyncLimit => 'Es können höchstens 2 Objekte synchronisiert werden. Wähle zuerst eines ab.';
 
   @override
   String get ehwPlusSyncSideLocal => 'Dieses Gerät';
