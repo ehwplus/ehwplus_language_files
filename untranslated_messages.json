@@ -147,7 +147,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "ar": [
@@ -298,7 +301,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "bg": [
@@ -449,7 +455,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "bs": [
@@ -600,7 +609,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "cs": [
@@ -751,7 +763,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "da": [
@@ -902,7 +917,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "el": [
@@ -1053,7 +1071,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "es": [
@@ -1204,7 +1225,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "et": [
@@ -1355,7 +1379,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "fa": [
@@ -1506,7 +1533,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "fi": [
@@ -1657,7 +1687,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "fr": [
@@ -1808,7 +1841,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "hi": [
@@ -1959,7 +1995,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "hr": [
@@ -2110,7 +2149,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "hu": [
@@ -2261,7 +2303,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "id": [
@@ -2412,7 +2457,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "it": [
@@ -2563,7 +2611,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "ja": [
@@ -2714,7 +2765,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "ko": [
@@ -2865,7 +2919,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "lt": [
@@ -3016,7 +3073,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "ml": [
@@ -3167,7 +3227,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "my": [
@@ -3318,7 +3381,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "nb": [
@@ -3469,7 +3535,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "nl": [
@@ -3620,7 +3689,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "pl": [
@@ -3771,7 +3843,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "pt": [
@@ -3922,7 +3997,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "ro": [
@@ -4073,7 +4151,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "ru": [
@@ -4224,7 +4305,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "sl": [
@@ -4375,7 +4459,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "sr": [
@@ -4526,7 +4613,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "sv": [
@@ -4677,7 +4767,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "sw": [
@@ -4828,7 +4921,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "th": [
@@ -4979,7 +5075,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "tr": [
@@ -5130,7 +5229,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "uk": [
@@ -5281,7 +5383,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "vi": [
@@ -5432,7 +5537,10 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ],
 
   "zh": [
@@ -5583,6 +5691,9 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated"
+    "ehwPlusSyncDiffFieldLastUpdated",
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser"
   ]
 }

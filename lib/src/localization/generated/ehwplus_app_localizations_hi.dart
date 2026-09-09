@@ -356,6 +356,16 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get commonLogin => 'दाखिल करना';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was not completed.';
+
+  @override
+  String get commonLoginBrowserError =>
+      'The browser could not complete sign-in.';
+
+  @override
+  String get commonLoginWithBrowser => 'Try another way';
+
+  @override
   String get commonLogout => 'साइन आउट';
 
   @override

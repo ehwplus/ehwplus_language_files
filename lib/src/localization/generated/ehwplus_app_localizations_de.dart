@@ -358,6 +358,16 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get commonLogin => 'Anmelden';
 
   @override
+  String get commonLoginCanceled => 'Die Anmeldung wurde nicht abgeschlossen.';
+
+  @override
+  String get commonLoginBrowserError =>
+      'Der Browser konnte die Anmeldung nicht abschließen.';
+
+  @override
+  String get commonLoginWithBrowser => 'Anders anmelden';
+
+  @override
   String get commonLogout => 'Abmelden';
 
   @override

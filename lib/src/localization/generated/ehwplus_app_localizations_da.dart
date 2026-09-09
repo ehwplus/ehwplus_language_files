@@ -355,6 +355,16 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get commonLogin => 'Log ind';
 
   @override
+  String get commonLoginCanceled => 'Sign-in was not completed.';
+
+  @override
+  String get commonLoginBrowserError =>
+      'The browser could not complete sign-in.';
+
+  @override
+  String get commonLoginWithBrowser => 'Try another way';
+
+  @override
   String get commonLogout => 'Log ud';
 
   @override

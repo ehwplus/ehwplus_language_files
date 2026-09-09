@@ -799,6 +799,24 @@ abstract class EhwplusAppLocalizations {
   /// **'Sign in'**
   String get commonLogin;
 
+  /// No description provided for @commonLoginCanceled.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign-in was not completed.'**
+  String get commonLoginCanceled;
+
+  /// No description provided for @commonLoginBrowserError.
+  ///
+  /// In en, this message translates to:
+  /// **'The browser could not complete sign-in.'**
+  String get commonLoginBrowserError;
+
+  /// No description provided for @commonLoginWithBrowser.
+  ///
+  /// In en, this message translates to:
+  /// **'Try another way'**
+  String get commonLoginWithBrowser;
+
   /// No description provided for @commonLogout.
   ///
   /// In en, this message translates to:
