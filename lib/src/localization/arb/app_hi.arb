@@ -376,7 +376,6 @@
   "electricityBack": "बिजली आ गई",
   "electricityConsumption": "बिजली की खपत",
   "electricityGenerated": "बिजली पैदा की",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "एक ही मीटर नंबर वाले बिजली मीटरों को समूहबद्ध करें",
   "enterComment": "एक नोट दर्ज करें",
   "enterExistingReadingAgain": "पुरानी रीडिंग दोबारा दर्ज करें",

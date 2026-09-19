@@ -376,7 +376,6 @@
   "electricityBack": "Elektriciteit teruggeleverd",
   "electricityConsumption": "Stroomverbruik",
   "electricityGenerated": "Opgewekte elektriciteit",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Elektriciteitsmeters met hetzelfde meternummer samenvatten",
   "enterComment": "Voer een notitie in",
   "enterExistingReadingAgain": "Voer oude aflezing opnieuw in",

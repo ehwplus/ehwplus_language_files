@@ -377,7 +377,6 @@
   "electricityBack": "Підведена електрика",
   "electricityConsumption": "Споживана потужність",
   "electricityGenerated": "Вироблена електроенергія",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Підсумовувати лічильники електроенергії з однаковим номером лічильника",
   "enterComment": "Введіть примітку",
   "enterExistingReadingAgain": "Повторно введіть старе читання",

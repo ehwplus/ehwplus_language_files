@@ -376,7 +376,6 @@
   "electricityBack": "Betáplált villamos energia",
   "electricityConsumption": "Energiafogyasztás",
   "electricityGenerated": "Termelt villamos energia",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Az azonos mérőszámmal rendelkező villamosenergia-mérők összesítése",
   "enterComment": "Adjon meg egy jegyzetet",
   "enterExistingReadingAgain": "Régi olvasás újbóli bevitele",

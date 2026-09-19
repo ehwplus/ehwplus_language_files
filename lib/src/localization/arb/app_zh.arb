@@ -376,7 +376,6 @@
   "electricityBack": "电力输入",
   "electricityConsumption": "功耗",
   "electricityGenerated": "发电量",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "汇总具有相同电表编号的电表",
   "enterComment": "输入注释",
   "enterExistingReadingAgain": "重新进入旧阅读",

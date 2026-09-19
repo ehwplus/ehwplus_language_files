@@ -376,7 +376,6 @@
   "electricityBack": "Sähkö syötetty",
   "electricityConsumption": "Virrankulutus",
   "electricityGenerated": "Tuotettu sähkö",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Yhteenveto sähkömittareista, joilla on sama mittarinumero.",
   "enterComment": "Kirjoita muistiinpano",
   "enterExistingReadingAgain": "Syötä vanha lukema uudelleen",

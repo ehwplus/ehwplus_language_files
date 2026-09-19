@@ -376,7 +376,6 @@
   "electricityBack": "Подаден ток",
   "electricityConsumption": "Консумация на енергия",
   "electricityGenerated": "Произведен ток",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Обобщаване на електромери с един и същ номер на електромера",
   "enterComment": "Въведете бележка",
   "enterExistingReadingAgain": "Въведете отново старото отчитане",

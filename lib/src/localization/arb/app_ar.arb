@@ -376,7 +376,6 @@
   "electricityBack": "الكهرباء المُدخلة",
   "electricityConsumption": "استهلاك الطاقة",
   "electricityGenerated": "الكهرباء المُولدة",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "تلخيص عدادات الكهرباء التي تحمل نفس رقم العداد",
   "enterComment": "أدخل ملاحظة",
   "enterExistingReadingAgain": "أعد إدخال القراءة القديمة",

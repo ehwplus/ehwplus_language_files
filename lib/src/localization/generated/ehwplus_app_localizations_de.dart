@@ -361,8 +361,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get commonLoginCanceled => 'Die Anmeldung wurde nicht abgeschlossen.';
 
   @override
-  String get commonLoginBrowserError =>
-      'Der Browser konnte die Anmeldung nicht abschließen.';
+  String get commonLoginBrowserError => 'Der Browser konnte die Anmeldung nicht abschließen.';
 
   @override
   String get commonLoginWithBrowser => 'Anders anmelden';
@@ -1230,10 +1229,6 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Erzeugter Strom';
-
-  @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'Dieser Stromzähler enthält schon manuelle Ablesungen. Deaktivieren Sie \"Daten automatisch beziehen\" und legen Sie einen neuen Zähler für automatisch bezogene Daten an.';
 
   @override
   String get enableCounterViewsMerging => 'Stromzähler mit gleicher Zählernummer zusammenfassen';

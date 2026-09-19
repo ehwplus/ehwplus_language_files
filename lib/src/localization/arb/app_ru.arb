@@ -376,7 +376,6 @@
   "electricityBack": "Электроэнергия, подаваемая в сеть",
   "electricityConsumption": "Потребляемая мощность",
   "electricityGenerated": "Выработанная электроэнергия",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Суммируйте показания счетчиков электроэнергии с одинаковыми номерами",
   "enterComment": "Введите примечание",
   "enterExistingReadingAgain": "Повторно ввести старое показание счетчика",

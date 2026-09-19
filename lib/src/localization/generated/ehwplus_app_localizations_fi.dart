@@ -359,8 +359,7 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get commonLoginCanceled => 'Sign-in was not completed.';
 
   @override
-  String get commonLoginBrowserError =>
-      'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
 
   @override
   String get commonLoginWithBrowser => 'Try another way';
@@ -1227,10 +1226,6 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'Tuotettu sähkö';
-
-  @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'Yhteenveto sähkömittareista, joilla on sama mittarinumero.';

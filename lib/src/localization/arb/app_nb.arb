@@ -376,7 +376,6 @@
   "electricityBack": "Elektrisitet matet inn",
   "electricityConsumption": "Strømforbruk",
   "electricityGenerated": "Generert elektrisitet",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Oppsummering av strømmålere med samme målernummer",
   "enterComment": "Skriv inn et notat",
   "enterExistingReadingAgain": "Gå inn i gammel lesing på nytt",

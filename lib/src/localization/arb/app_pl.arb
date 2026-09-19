@@ -376,7 +376,6 @@
   "electricityBack": "Zasilanie elektryczne",
   "electricityConsumption": "Zużycie energii",
   "electricityGenerated": "Wytworzona energia elektryczna",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Zestawienie liczników energii elektrycznej z tym samym numerem licznika",
   "enterComment": "Wprowadź notatkę",
   "enterExistingReadingAgain": "Ponowne wprowadzenie starego odczytu",

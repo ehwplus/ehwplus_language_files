@@ -376,7 +376,6 @@
   "electricityBack": "전기 역송전",
   "electricityConsumption": "전력 소비",
   "electricityGenerated": "전기 생산",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "계량기 번호가 같은 전기 계량기 합산하기",
   "enterComment": "메모 입력",
   "enterExistingReadingAgain": "이전 지침 재입력",

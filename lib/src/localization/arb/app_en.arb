@@ -572,7 +572,6 @@
   "electricityBack": "Electricity fed in",
   "electricityConsumption": "Power consumption",
   "electricityGenerated": "Generated electricity",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Combine electricity meters with the same meter number",
   "enterComment": "Enter a note",
   "enterExistingReadingAgain": "Re-enter old reading",

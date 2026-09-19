@@ -376,7 +376,6 @@
   "electricityBack": "ไฟฟ้าป้อนเข้า",
   "electricityConsumption": "การใช้พลังงาน",
   "electricityGenerated": "ผลิตไฟฟ้า",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "มิเตอร์ไฟฟ้าแบบกลุ่มที่มีหมายเลขมิเตอร์เดียวกัน",
   "enterComment": "ป้อนบันทึก",
   "enterExistingReadingAgain": "เข้าสู่การอ่านเก่าอีกครั้ง",

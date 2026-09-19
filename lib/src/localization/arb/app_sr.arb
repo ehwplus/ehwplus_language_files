@@ -376,7 +376,6 @@
   "electricityBack": "Уведена струја",
   "electricityConsumption": "Потрошња енергије",
   "electricityGenerated": "Произведена електрична енергија",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Групе електричних бројила са истим бројем бројила",
   "enterComment": "Унесите белешку",
   "enterExistingReadingAgain": "Поново унесите старо читање",

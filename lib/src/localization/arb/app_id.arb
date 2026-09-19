@@ -376,7 +376,6 @@
   "electricityBack": "Listrik yang dimasukkan ke dalam",
   "electricityConsumption": "Konsumsi daya",
   "electricityGenerated": "Listrik yang dihasilkan",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Menggabungkan meteran listrik dengan nomor meteran yang sama",
   "enterComment": "Masukkan catatan",
   "enterExistingReadingAgain": "Masukkan kembali bacaan lama",

@@ -376,7 +376,6 @@
   "electricityBack": "Elektrik beslendi",
   "electricityConsumption": "Güç tüketimi",
   "electricityGenerated": "Üretilen elektrik",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Aynı sayaç numarasına sahip elektrik sayaçlarını özetleyin",
   "enterComment": "Bir not girin",
   "enterExistingReadingAgain": "Eski okumaya yeniden girin",

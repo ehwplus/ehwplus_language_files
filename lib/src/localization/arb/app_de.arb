@@ -897,7 +897,6 @@
   "signInWithSocialAccount": "Mit welchem Social Account möchten Sie ein EHW+ Nutzerkonto erstellen bzw. sich anmelden?",
   "sinceInitialReading": "Seit Erstablesung",
   "smartMeterCountersTitle": "Funkwasserzähler",
-  "electricitySmartMeterManualReadingsWarning": "Dieser Stromzähler enthält schon manuelle Ablesungen. Deaktivieren Sie \"Daten automatisch beziehen\" und legen Sie einen neuen Zähler für automatisch bezogene Daten an.",
   "smartMeterErrorNoData": "Es gibt leider keine Daten, welche die App anzeigen könnte.",
   "smartMeterMisconfiguredWidgetCardButton": "Smartmeter einrichten",
   "smartMeterMisconfiguredWidgetCardTitle": "Bitte richten Sie Ihren Smartmeter richtig ein.",

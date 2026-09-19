@@ -376,7 +376,6 @@
   "electricityBack": "برق تغذیه شده",
   "electricityConsumption": "مصرف برق",
   "electricityGenerated": "برق تولید کرد",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "کنتورهای برق گروهی با شماره کنتور یکسان",
   "enterComment": "یک یادداشت وارد کنید",
   "enterExistingReadingAgain": "قرائت قدیمی را دوباره وارد کنید",

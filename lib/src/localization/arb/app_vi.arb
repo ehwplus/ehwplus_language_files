@@ -377,7 +377,6 @@
   "electricityBack": "Điện đưa vào",
   "electricityConsumption": "Tiêu thụ điện năng",
   "electricityGenerated": "Điện được tạo ra",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Gộp các đồng hồ điện có cùng số đồng hồ",
   "enterComment": "Nhập ghi chú",
   "enterExistingReadingAgain": "Nhập lại bài đọc cũ",

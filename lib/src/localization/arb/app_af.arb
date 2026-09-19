@@ -376,7 +376,6 @@
   "electricityBack": "Elektrisiteit ingevoer",
   "electricityConsumption": "Kragverbruik",
   "electricityGenerated": "Gegenereerde elektrisiteit",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Groep elektrisiteitsmeters met dieselfde meter nommer",
   "enterComment": "Voer 'n nota in",
   "enterExistingReadingAgain": "Voer ou lesing weer in",

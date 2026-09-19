@@ -361,8 +361,7 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String get commonLoginCanceled => 'Sign-in was not completed.';
 
   @override
-  String get commonLoginBrowserError =>
-      'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
 
   @override
   String get commonLoginWithBrowser => 'Try another way';
@@ -1232,10 +1231,6 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get electricityGenerated => 'വൈദ്യുതി ഉൽപാദിപ്പിച്ചു';
-
-  @override
-  String get electricitySmartMeterManualReadingsWarning =>
-      'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.';
 
   @override
   String get enableCounterViewsMerging => 'ഒരേ മീറ്റർ നമ്പറുള്ള ഇലക്ട്രിസിറ്റി മീറ്ററുകൾ ഗ്രൂപ്പ് ചെയ്യുക';

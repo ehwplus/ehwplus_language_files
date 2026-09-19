@@ -376,7 +376,6 @@
   "electricityBack": "El matas in",
   "electricityConsumption": "Energiförbrukning",
   "electricityGenerated": "Genererad el",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Sammanfatta elmätare med samma mätarnummer",
   "enterComment": "Ange en anteckning",
   "enterExistingReadingAgain": "Gå in i gammal läsning igen",

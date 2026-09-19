@@ -1,5 +1,8 @@
 {
   "af": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -147,13 +150,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "ar": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -301,13 +304,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "bg": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -455,13 +458,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "bs": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -609,13 +612,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "cs": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -763,13 +766,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "da": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -917,13 +920,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "el": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -1071,13 +1074,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "es": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -1225,13 +1228,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "et": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -1379,13 +1382,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "fa": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -1533,13 +1536,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "fi": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -1687,13 +1690,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "fr": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -1841,13 +1844,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "hi": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -1995,13 +1998,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "hr": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -2149,13 +2152,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "hu": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -2303,13 +2306,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "id": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -2457,13 +2460,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "it": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -2611,13 +2614,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "ja": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -2765,13 +2768,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "ko": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -2919,13 +2922,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "lt": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -3073,13 +3076,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "ml": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -3227,13 +3230,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "my": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -3381,13 +3384,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "nb": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -3535,13 +3538,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "nl": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -3689,13 +3692,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "pl": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -3843,13 +3846,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "pt": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -3997,13 +4000,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "ro": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -4151,13 +4154,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "ru": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -4305,13 +4308,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "sl": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -4459,13 +4462,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "sr": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -4613,13 +4616,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "sv": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -4767,13 +4770,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "sw": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -4921,13 +4924,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "th": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -5075,13 +5078,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "tr": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -5229,13 +5232,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "uk": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -5383,13 +5386,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "vi": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -5537,13 +5540,13 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ],
 
   "zh": [
+    "commonLoginCanceled",
+    "commonLoginBrowserError",
+    "commonLoginWithBrowser",
     "ehwPlusSyncTitle",
     "ehwPlusSyncDescription",
     "ehwPlusSyncUseAsPrimary",
@@ -5691,9 +5694,6 @@
     "ehwPlusSyncDiffFieldActivities",
     "ehwPlusSyncDiffFieldRooms",
     "ehwPlusSyncDiffFieldContracts",
-    "ehwPlusSyncDiffFieldLastUpdated",
-    "commonLoginCanceled",
-    "commonLoginBrowserError",
-    "commonLoginWithBrowser"
+    "ehwPlusSyncDiffFieldLastUpdated"
   ]
 }

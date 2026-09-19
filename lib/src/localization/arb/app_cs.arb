@@ -377,7 +377,6 @@
   "electricityBack": "Přivedena elektřina",
   "electricityConsumption": "Spotřeba energie",
   "electricityGenerated": "Vyrobená elektřina",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Souhrn elektroměrů se stejným číslem elektroměru",
   "enterComment": "Zadejte poznámku",
   "enterExistingReadingAgain": "Znovu zadejte staré čtení",

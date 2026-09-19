@@ -2285,12 +2285,6 @@ abstract class EhwplusAppLocalizations {
   /// **'Generated electricity'**
   String get electricityGenerated;
 
-  /// No description provided for @electricitySmartMeterManualReadingsWarning.
-  ///
-  /// In en, this message translates to:
-  /// **'This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.'**
-  String get electricitySmartMeterManualReadingsWarning;
-
   /// No description provided for @enableCounterViewsMerging.
   ///
   /// In en, this message translates to:

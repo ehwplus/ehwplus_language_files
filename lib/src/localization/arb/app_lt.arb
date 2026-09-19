@@ -376,7 +376,6 @@
   "electricityBack": "Įvesta elektra",
   "electricityConsumption": "Energijos suvartojimas",
   "electricityGenerated": "Gaminama elektra",
-  "electricitySmartMeterManualReadingsWarning": "This electricity meter already contains manual readings. Turn off \"Obtain data automatically\" and create a new meter for automatically imported data.",
   "enableCounterViewsMerging": "Apibendrinti elektros skaitiklius, turinčius tą patį skaitiklio numerį",
   "enterComment": "Įveskite pastabą",
   "enterExistingReadingAgain": "Iš naujo įveskite seną skaitymą",
