@@ -7864,6 +7864,288 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Last updated'**
   String get ehwPlusSyncDiffFieldLastUpdated;
+
+  /// No description provided for @stripeCheckoutComingSoonTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Web purchase coming soon'**
+  String get stripeCheckoutComingSoonTitle;
+
+  /// No description provided for @stripeCheckoutComingSoonDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.'**
+  String get stripeCheckoutComingSoonDescription;
+
+  /// No description provided for @stripeCheckoutSubscriptionLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'PLAN'**
+  String get stripeCheckoutSubscriptionLabel;
+
+  /// No description provided for @stripeCheckoutPremiumTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ Premium'**
+  String get stripeCheckoutPremiumTitle;
+
+  /// No description provided for @stripeCheckoutPremiumDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Full insights and sync across your devices. Monthly or yearly.'**
+  String get stripeCheckoutPremiumDescription;
+
+  /// No description provided for @stripeCheckoutFeatureWeather.
+  ///
+  /// In en, this message translates to:
+  /// **'Weather and Heating: Outdoor temperature and consumption in a single chart.'**
+  String get stripeCheckoutFeatureWeather;
+
+  /// No description provided for @stripeCheckoutFeatureStatistics.
+  ///
+  /// In en, this message translates to:
+  /// **'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.'**
+  String get stripeCheckoutFeatureStatistics;
+
+  /// No description provided for @stripeCheckoutFeatureCloudSync.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.'**
+  String get stripeCheckoutFeatureCloudSync;
+
+  /// No description provided for @stripeCheckoutFeatureMultipleProperties.
+  ///
+  /// In en, this message translates to:
+  /// **'Multiple Properties: Manage apartments or houses separately within their own properties.'**
+  String get stripeCheckoutFeatureMultipleProperties;
+
+  /// No description provided for @stripeCheckoutFeatureAdditionalMeters.
+  ///
+  /// In en, this message translates to:
+  /// **'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.'**
+  String get stripeCheckoutFeatureAdditionalMeters;
+
+  /// No description provided for @stripeCheckoutPriceLoading.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading price…'**
+  String get stripeCheckoutPriceLoading;
+
+  /// No description provided for @stripeCheckoutPriceUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Price currently unavailable'**
+  String get stripeCheckoutPriceUnavailable;
+
+  /// No description provided for @stripeCheckoutYearly.
+  ///
+  /// In en, this message translates to:
+  /// **'Yearly'**
+  String get stripeCheckoutYearly;
+
+  /// No description provided for @stripeCheckoutMonthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Monthly'**
+  String get stripeCheckoutMonthly;
+
+  /// No description provided for @stripeCheckoutPeriodYear.
+  ///
+  /// In en, this message translates to:
+  /// **'/ year'**
+  String get stripeCheckoutPeriodYear;
+
+  /// No description provided for @stripeCheckoutPeriodMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'/ month'**
+  String get stripeCheckoutPeriodMonth;
+
+  /// No description provided for @stripeCheckoutScheduled.
+  ///
+  /// In en, this message translates to:
+  /// **'Scheduled'**
+  String get stripeCheckoutScheduled;
+
+  /// No description provided for @stripeCheckoutRedirecting.
+  ///
+  /// In en, this message translates to:
+  /// **'Redirecting…'**
+  String get stripeCheckoutRedirecting;
+
+  /// No description provided for @stripeCheckoutManage.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage'**
+  String get stripeCheckoutManage;
+
+  /// No description provided for @stripeCheckoutSwitchPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch plan'**
+  String get stripeCheckoutSwitchPlan;
+
+  /// No description provided for @stripeCheckoutChoosePremium.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Premium'**
+  String get stripeCheckoutChoosePremium;
+
+  /// No description provided for @stripeCheckoutLifetimeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Lifetime purchases'**
+  String get stripeCheckoutLifetimeTitle;
+
+  /// No description provided for @stripeCheckoutLifetimeDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'The following items can also be purchased individually as an alternative to a subscription.'**
+  String get stripeCheckoutLifetimeDescription;
+
+  /// No description provided for @stripeCheckoutIncludedInSubscription.
+  ///
+  /// In en, this message translates to:
+  /// **'Included in subscription'**
+  String get stripeCheckoutIncludedInSubscription;
+
+  /// No description provided for @stripeCheckoutBuyNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy now'**
+  String get stripeCheckoutBuyNow;
+
+  /// No description provided for @stripeCheckoutDirectProvider.
+  ///
+  /// In en, this message translates to:
+  /// **'Direct with EHW+'**
+  String get stripeCheckoutDirectProvider;
+
+  /// No description provided for @stripeCheckoutGooglePlay.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Play'**
+  String get stripeCheckoutGooglePlay;
+
+  /// No description provided for @stripeCheckoutAppStore.
+  ///
+  /// In en, this message translates to:
+  /// **'App Store'**
+  String get stripeCheckoutAppStore;
+
+  /// No description provided for @stripeCheckoutPurchaseMethodTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'How would you like to pay?'**
+  String get stripeCheckoutPurchaseMethodTitle;
+
+  /// No description provided for @stripeCheckoutPurchaseMethodDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the purchase method that suits you.'**
+  String get stripeCheckoutPurchaseMethodDescription;
+
+  /// No description provided for @stripeCheckoutPayDirectly.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay directly with EHW+'**
+  String get stripeCheckoutPayDirectly;
+
+  /// No description provided for @stripeCheckoutPayDirectlyDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay securely and manage your subscription in the EHW+ customer portal.'**
+  String get stripeCheckoutPayDirectlyDescription;
+
+  /// No description provided for @stripeCheckoutGooglePlayDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase and management through your Google account.'**
+  String get stripeCheckoutGooglePlayDescription;
+
+  /// No description provided for @stripeCheckoutAppStoreDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase and management through your Apple account.'**
+  String get stripeCheckoutAppStoreDescription;
+
+  /// No description provided for @stripeCheckoutPayDirectlyButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay directly'**
+  String get stripeCheckoutPayDirectlyButton;
+
+  /// No description provided for @stripeCheckoutContinueInStore.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue in store'**
+  String get stripeCheckoutContinueInStore;
+
+  /// No description provided for @stripeCheckoutFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not start checkout. Please try again later.'**
+  String get stripeCheckoutFailed;
+
+  /// No description provided for @stripePortalFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open the customer portal. Please try again later.'**
+  String get stripePortalFailed;
+
+  /// No description provided for @stripeSubscriptionUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Update scheduled: switch to {interval} on {date}.'**
+  String stripeSubscriptionUpdated(Object interval, Object date);
+
+  /// No description provided for @stripeSubscriptionProviderGoogle.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscribed via Google Play'**
+  String get stripeSubscriptionProviderGoogle;
+
+  /// No description provided for @stripeSubscriptionProviderApple.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscribed via App Store'**
+  String get stripeSubscriptionProviderApple;
+
+  /// No description provided for @stripeSubscriptionProviderDirect.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscribed via EHW+'**
+  String get stripeSubscriptionProviderDirect;
+
+  /// No description provided for @stripeSubscriptionProviderUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscribed'**
+  String get stripeSubscriptionProviderUnknown;
+
+  /// No description provided for @stripePurchaseProviderApple.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased in the App Store'**
+  String get stripePurchaseProviderApple;
+
+  /// No description provided for @stripePurchaseProviderGoogle.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased in the Play Store'**
+  String get stripePurchaseProviderGoogle;
+
+  /// No description provided for @stripePurchaseProviderDirect.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased with EHW+'**
+  String get stripePurchaseProviderDirect;
+
+  /// No description provided for @stripePurchaseProviderUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased'**
+  String get stripePurchaseProviderUnknown;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

@@ -4487,4 +4487,152 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncDiffFieldLastUpdated => 'Zuletzt aktualisiert';
+
+  @override
+  String get stripeCheckoutComingSoonTitle => 'Kauf bald auch im Web';
+
+  @override
+  String get stripeCheckoutComingSoonDescription =>
+      'Der Kauf ist bisher über die EHW+ App möglich. In Kürze können Sie Premium und Einmalkäufe auch hier abschließen.';
+
+  @override
+  String get stripeCheckoutSubscriptionLabel => 'ABO';
+
+  @override
+  String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
+
+  @override
+  String get stripeCheckoutPremiumDescription => 'Auswertungen und Sync auf allen Geräten. Monatlich oder jährlich.';
+
+  @override
+  String get stripeCheckoutFeatureWeather => 'Wetter zur Heizung: Außentemperatur und Verbrauch in einem Diagramm.';
+
+  @override
+  String get stripeCheckoutFeatureStatistics =>
+      'Statistiken: Jahresvergleiche, detaillierter Kostenüberblick, Zeiträume anpassen, Excel-Export.';
+
+  @override
+  String get stripeCheckoutFeatureCloudSync =>
+      'Cloud-Sync: Zwei Objekte und beliebig viele Zähler auf Handy, Tablet und im Web.';
+
+  @override
+  String get stripeCheckoutFeatureMultipleProperties =>
+      'Mehrere Objekte: Wohnungen oder Häuser in eigenen Objekten getrennt führen.';
+
+  @override
+  String get stripeCheckoutFeatureAdditionalMeters =>
+      'Zusatzzähler: Zähler für PV-Anlagen, Solarthermie und Wasserentnahme erfassen.';
+
+  @override
+  String get stripeCheckoutPriceLoading => 'Preis wird geladen…';
+
+  @override
+  String get stripeCheckoutPriceUnavailable => 'Preis derzeit nicht verfügbar';
+
+  @override
+  String get stripeCheckoutYearly => 'Jährlich';
+
+  @override
+  String get stripeCheckoutMonthly => 'Monatlich';
+
+  @override
+  String get stripeCheckoutPeriodYear => '/ Jahr';
+
+  @override
+  String get stripeCheckoutPeriodMonth => '/ Monat';
+
+  @override
+  String get stripeCheckoutScheduled => 'Geplant';
+
+  @override
+  String get stripeCheckoutRedirecting => 'Weiterleitung…';
+
+  @override
+  String get stripeCheckoutManage => 'Verwalten';
+
+  @override
+  String get stripeCheckoutSwitchPlan => 'Tarif wechseln';
+
+  @override
+  String get stripeCheckoutChoosePremium => 'Premium wählen';
+
+  @override
+  String get stripeCheckoutLifetimeTitle => 'Käufe auf Lebenszeit';
+
+  @override
+  String get stripeCheckoutLifetimeDescription => 'Folgendes kann alternativ zum Abo auch einzeln gekauft werden.';
+
+  @override
+  String get stripeCheckoutIncludedInSubscription => 'Enthalten im Abo';
+
+  @override
+  String get stripeCheckoutBuyNow => 'Jetzt kaufen';
+
+  @override
+  String get stripeCheckoutDirectProvider => 'Direkt bei EHW+';
+
+  @override
+  String get stripeCheckoutGooglePlay => 'Google Play';
+
+  @override
+  String get stripeCheckoutAppStore => 'App Store';
+
+  @override
+  String get stripeCheckoutPurchaseMethodTitle => 'Wie möchtest du bezahlen?';
+
+  @override
+  String get stripeCheckoutPurchaseMethodDescription => 'Wähle den für dich passenden Kaufweg.';
+
+  @override
+  String get stripeCheckoutPayDirectly => 'Direkt bei EHW+ bezahlen';
+
+  @override
+  String get stripeCheckoutPayDirectlyDescription => 'Sicher bezahlen und das Abo im EHW+-Kundenportal verwalten.';
+
+  @override
+  String get stripeCheckoutGooglePlayDescription => 'Kauf und Verwaltung über dein Google-Konto.';
+
+  @override
+  String get stripeCheckoutAppStoreDescription => 'Kauf und Verwaltung über dein Apple-Konto.';
+
+  @override
+  String get stripeCheckoutPayDirectlyButton => 'Direkt bezahlen';
+
+  @override
+  String get stripeCheckoutContinueInStore => 'Im Store fortfahren';
+
+  @override
+  String get stripeCheckoutFailed => 'Checkout konnte nicht gestartet werden. Bitte später erneut versuchen.';
+
+  @override
+  String get stripePortalFailed => 'Kundenportal konnte nicht geöffnet werden. Bitte später erneut versuchen.';
+
+  @override
+  String stripeSubscriptionUpdated(Object interval, Object date) {
+    return 'Aktualisierung geplant: Wechsel zu $interval am $date.';
+  }
+
+  @override
+  String get stripeSubscriptionProviderGoogle => 'Abonniert über Google Play';
+
+  @override
+  String get stripeSubscriptionProviderApple => 'Abonniert über App Store';
+
+  @override
+  String get stripeSubscriptionProviderDirect => 'Abonniert über EHW+';
+
+  @override
+  String get stripeSubscriptionProviderUnknown => 'Abonniert';
+
+  @override
+  String get stripePurchaseProviderApple => 'Gekauft im App Store';
+
+  @override
+  String get stripePurchaseProviderGoogle => 'Gekauft im Play Store';
+
+  @override
+  String get stripePurchaseProviderDirect => 'Gekauft bei EHW+';
+
+  @override
+  String get stripePurchaseProviderUnknown => 'Gekauft';
 }

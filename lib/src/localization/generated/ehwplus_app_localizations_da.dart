@@ -4462,4 +4462,155 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
+
+  @override
+  String get stripeCheckoutComingSoonTitle => 'Web purchase coming soon';
+
+  @override
+  String get stripeCheckoutComingSoonDescription =>
+      'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.';
+
+  @override
+  String get stripeCheckoutSubscriptionLabel => 'PLAN';
+
+  @override
+  String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
+
+  @override
+  String get stripeCheckoutPremiumDescription => 'Full insights and sync across your devices. Monthly or yearly.';
+
+  @override
+  String get stripeCheckoutFeatureWeather =>
+      'Weather and Heating: Outdoor temperature and consumption in a single chart.';
+
+  @override
+  String get stripeCheckoutFeatureStatistics =>
+      'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.';
+
+  @override
+  String get stripeCheckoutFeatureCloudSync =>
+      'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.';
+
+  @override
+  String get stripeCheckoutFeatureMultipleProperties =>
+      'Multiple Properties: Manage apartments or houses separately within their own properties.';
+
+  @override
+  String get stripeCheckoutFeatureAdditionalMeters =>
+      'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.';
+
+  @override
+  String get stripeCheckoutPriceLoading => 'Loading price…';
+
+  @override
+  String get stripeCheckoutPriceUnavailable => 'Price currently unavailable';
+
+  @override
+  String get stripeCheckoutYearly => 'Yearly';
+
+  @override
+  String get stripeCheckoutMonthly => 'Monthly';
+
+  @override
+  String get stripeCheckoutPeriodYear => '/ year';
+
+  @override
+  String get stripeCheckoutPeriodMonth => '/ month';
+
+  @override
+  String get stripeCheckoutScheduled => 'Scheduled';
+
+  @override
+  String get stripeCheckoutRedirecting => 'Redirecting…';
+
+  @override
+  String get stripeCheckoutManage => 'Manage';
+
+  @override
+  String get stripeCheckoutSwitchPlan => 'Switch plan';
+
+  @override
+  String get stripeCheckoutChoosePremium => 'Choose Premium';
+
+  @override
+  String get stripeCheckoutLifetimeTitle => 'Lifetime purchases';
+
+  @override
+  String get stripeCheckoutLifetimeDescription =>
+      'The following items can also be purchased individually as an alternative to a subscription.';
+
+  @override
+  String get stripeCheckoutIncludedInSubscription => 'Included in subscription';
+
+  @override
+  String get stripeCheckoutBuyNow => 'Buy now';
+
+  @override
+  String get stripeCheckoutDirectProvider => 'Direct with EHW+';
+
+  @override
+  String get stripeCheckoutGooglePlay => 'Google Play';
+
+  @override
+  String get stripeCheckoutAppStore => 'App Store';
+
+  @override
+  String get stripeCheckoutPurchaseMethodTitle => 'How would you like to pay?';
+
+  @override
+  String get stripeCheckoutPurchaseMethodDescription => 'Choose the purchase method that suits you.';
+
+  @override
+  String get stripeCheckoutPayDirectly => 'Pay directly with EHW+';
+
+  @override
+  String get stripeCheckoutPayDirectlyDescription =>
+      'Pay securely and manage your subscription in the EHW+ customer portal.';
+
+  @override
+  String get stripeCheckoutGooglePlayDescription => 'Purchase and management through your Google account.';
+
+  @override
+  String get stripeCheckoutAppStoreDescription => 'Purchase and management through your Apple account.';
+
+  @override
+  String get stripeCheckoutPayDirectlyButton => 'Pay directly';
+
+  @override
+  String get stripeCheckoutContinueInStore => 'Continue in store';
+
+  @override
+  String get stripeCheckoutFailed => 'Could not start checkout. Please try again later.';
+
+  @override
+  String get stripePortalFailed => 'Could not open the customer portal. Please try again later.';
+
+  @override
+  String stripeSubscriptionUpdated(Object interval, Object date) {
+    return 'Update scheduled: switch to $interval on $date.';
+  }
+
+  @override
+  String get stripeSubscriptionProviderGoogle => 'Subscribed via Google Play';
+
+  @override
+  String get stripeSubscriptionProviderApple => 'Subscribed via App Store';
+
+  @override
+  String get stripeSubscriptionProviderDirect => 'Subscribed via EHW+';
+
+  @override
+  String get stripeSubscriptionProviderUnknown => 'Subscribed';
+
+  @override
+  String get stripePurchaseProviderApple => 'Purchased in the App Store';
+
+  @override
+  String get stripePurchaseProviderGoogle => 'Purchased in the Play Store';
+
+  @override
+  String get stripePurchaseProviderDirect => 'Purchased with EHW+';
+
+  @override
+  String get stripePurchaseProviderUnknown => 'Purchased';
 }
