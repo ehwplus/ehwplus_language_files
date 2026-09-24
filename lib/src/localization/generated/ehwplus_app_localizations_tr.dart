@@ -357,13 +357,13 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get commonLogin => 'Oturum aç';
 
   @override
-  String get commonLoginCanceled => 'Sign-in was not completed.';
+  String get commonLoginCanceled => 'Giriş işlemi tamamlanmadı.';
 
   @override
-  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'Tarayıcı oturum açma işlemini tamamlayamadı.';
 
   @override
-  String get commonLoginWithBrowser => 'Try another way';
+  String get commonLoginWithBrowser => 'Başka bir yol deneyin';
 
   @override
   String get commonLogout => 'oturumu Kapat';
@@ -2227,6 +2227,38 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'POWEROPTI\'Yİ SATIN AL';
 
   @override
+  String get powerfoxSurveyTitle => 'Sayaç okumalarını otomatik olarak alın';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'Dijital elektrik sayacınız var mı?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Gelecekte elektrik sayacınızın okumalarını otomatik olarak almak ister misiniz?';
+
+  @override
+  String get powerfoxSurveyYes => 'Evet';
+
+  @override
+  String get powerfoxSurveyNo => 'Hayır';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'Hayır, bunu elle okumaya devam etmek istiyorum.';
+
+  @override
+  String get powerfoxInfoTitle => 'Powerfox ile otomatik sayaç okumaları';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'Powerfox Poweropti ile elektrik sayacınızın okumaları otomatik olarak EHW+ adresine aktarılır.';
+
+  @override
+  String get powerfoxInfoDiscount => 'EHW5 koduyla 5 € indirim';
+
+  @override
+  String get powerfoxInfoShop => 'POWERFOX MAĞAZASINA GİT';
+
+  @override
   String get updateNoticeDebugTitle => 'Güncelleme bildirimleri';
 
   @override
@@ -3971,412 +4003,415 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get changelogTitle => 'Değişiklik Günlüğü';
 
   @override
-  String get ehwPlusSyncTitle => 'EHW+ Cloud';
+  String get ehwPlusSyncTitle => 'EHW+ Bulut';
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.';
+      'EHW+ Bu uygulama, nesnelerinizi senkronize tutmak için bulut teknolojisini kullanır. Oturum açın, en fazla 2 nesne seçin ve durumlarını ve birleştirme işlemlerini buradan yönetin.';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
+  String get ehwPlusSyncUseAsPrimary => 'Senkronizasyon için EHW+ Cloud’u kullanın';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your sync.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ Bulut, senin senkronizasyonun.';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Cloud is now your sync.';
+  String get ehwPlusSyncActivated => 'EHW+ Artık senkronizasyonunuz bulut üzerinden gerçekleşiyor.';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Could not enable EHW+ Cloud sync.';
+  String get ehwPlusSyncActivateFailed => 'EHW+’ın bulut senkronizasyonu etkinleştirilemedi.';
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+      'EHW+ Cloud, seçtiğiniz öğeleri tüm cihazlarınızda güncel tutar. Neyin senkronize edileceğini seçin, durumu kontrol edin ve her iki tarafta da değişiklik yapıldığında birleştirme sorunlarını çözün.';
 
   @override
-  String get ehwPlusSyncObjectsSectionTitle => 'Objects';
+  String get ehwPlusSyncObjectsSectionTitle => 'Nesneler';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
+  String get ehwPlusSyncSelectSectionTitle => 'Senkronize edilecek öğeler';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Select up to $max objects. Changes on those objects sync automatically while EHW+ Cloud is active.';
+    return '$max’e kadar nesne seçin. EHW+ Cloud etkin olduğu sürece bu nesnelerdeki değişiklikler otomatik olarak senkronize edilir.';
   }
 
   @override
   String ehwPlusSyncSelectedCount(int count, int max) {
-    return '$count of $max selected';
+    return '$count $max\'dan seçilenler';
   }
 
   @override
-  String get ehwPlusSyncManagedSectionTitle => 'Sync status';
+  String get ehwPlusSyncManagedSectionTitle => 'Senkronizasyon durumu';
 
   @override
-  String get ehwPlusSyncManagedSectionEmpty => 'Select an object above to see cloud status, history, and merges.';
+  String get ehwPlusSyncManagedSectionEmpty =>
+      'Yukarıdaki nesnelerden birini seçerek bulut durumunu, geçmişini ve birleşmelerini görüntüleyin.';
 
   @override
-  String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
+  String get ehwPlusSyncCloudStatusLoading => 'EHW+ Bulut durumunu yükleniyor…';
 
   @override
-  String get ehwPlusSyncCloudStatusMissing => 'No cloud copy yet.';
+  String get ehwPlusSyncCloudStatusMissing => 'Henüz bulutta bir kopyası yok.';
 
   @override
-  String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
+  String get ehwPlusSyncCloudStatusUnavailable => 'EHW+’ın bulut durumu yüklenemedi.';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Syncing this object to EHW+ Cloud…';
+  String get ehwPlusSyncSyncingSelection => 'Bu nesneyi EHW+ Cloud ile senkronize ediliyor…';
 
   @override
-  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+  String get ehwPlusSyncConflictsHeader => 'Çatışmalar';
 
   @override
-  String get ehwPlusSyncTakeServer => 'Take server version';
+  String get ehwPlusSyncTakeServer => 'Sunucu sürümünü al';
 
   @override
-  String get ehwPlusSyncUseLocal => 'This device';
+  String get ehwPlusSyncUseLocal => 'Bu cihaz';
 
   @override
-  String get ehwPlusSyncUseCloud => 'Cloud';
+  String get ehwPlusSyncUseCloud => 'Bulut';
 
   @override
-  String get ehwPlusSyncUseAllLocal => 'All from this device';
+  String get ehwPlusSyncUseAllLocal => 'Hepsi bu cihazdan';
 
   @override
-  String get ehwPlusSyncUseAllCloud => 'All from cloud';
+  String get ehwPlusSyncUseAllCloud => 'Hepsi buluttan';
 
   @override
-  String get ehwPlusSyncApplyResolution => 'Apply and sync';
+  String get ehwPlusSyncApplyResolution => 'Uygula ve senkronize et';
 
   @override
-  String get ehwPlusSyncResolutionMixed => 'Mixed';
+  String get ehwPlusSyncResolutionMixed => 'Karışık';
 
   @override
-  String get ehwPlusSyncConflictExplorerHint => 'Tap This device or Cloud on each row. Apply uploads that mix.';
+  String get ehwPlusSyncConflictExplorerHint =>
+      'Her satırda “Bu cihaz” veya “Bulut” seçeneğine dokunun. Karışık yüklemeleri uygulayın.';
 
   @override
-  String get ehwPlusSyncKeepVersionLabel => 'Keep this version';
+  String get ehwPlusSyncKeepVersionLabel => 'Bu sürümü saklayın';
 
   @override
-  String get ehwPlusSyncFolderPickLabel => 'All in this folder';
+  String get ehwPlusSyncFolderPickLabel => 'Bu klasördeki tüm dosyalar';
 
   @override
-  String get ehwPlusSyncNotOnDevice => 'Not on this device';
+  String get ehwPlusSyncNotOnDevice => 'Bu cihazda değil';
 
   @override
-  String get ehwPlusSyncNotInCloud => 'Not in the cloud';
+  String get ehwPlusSyncNotInCloud => 'Bulutta değil';
 
   @override
   String ehwPlusSyncOutcomeKeepLocal(String value) {
-    return 'Keep $value on both.';
+    return 'Her ikisinde de “$value” seçeneğini etkin tutun.';
   }
 
   @override
   String ehwPlusSyncOutcomeUseCloud(String value) {
-    return 'Use cloud value $value.';
+    return '$value bulut değerini kullanın.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeSkipAdd => 'Skip this cloud item.';
+  String get ehwPlusSyncOutcomeSkipAdd => 'Bu bulut öğesini atla.';
 
   @override
   String ehwPlusSyncOutcomeAddCloud(String value) {
-    return 'Add $value from the cloud.';
+    return '$value’i buluttan ekleyin.';
   }
 
   @override
   String ehwPlusSyncOutcomeKeepRemoved(String value) {
-    return 'Keep $value and upload it.';
+    return '$value dosyasını koruyun ve yükleyin.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeDropLocal => 'Remove this item to match the cloud.';
+  String get ehwPlusSyncOutcomeDropLocal => 'Bulutla eşleşmesi için bu öğeyi kaldırın.';
 
   @override
-  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+  String get ehwPlusSyncStatusCreated => 'Bulutta oluşturuldu';
 
   @override
-  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+  String get ehwPlusSyncStatusFastForward => 'Yüklendi (hızlı ileri sarma)';
 
   @override
-  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+  String get ehwPlusSyncStatusUpdateRequired => 'Sunucuda daha güncel veriler var';
 
   @override
-  String get ehwPlusSyncStatusMerged => 'Merged with server';
+  String get ehwPlusSyncStatusMerged => 'Sunucuyla birleştirildi';
 
   @override
-  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+  String get ehwPlusSyncStatusConflict => 'Çatışma — aşağıda çözülsün';
 
   @override
-  String get syncProviderActive => 'Active sync provider';
+  String get syncProviderActive => 'Aktif senkronizasyon sağlayıcısı';
 
   @override
-  String get syncProviderNoneActive => 'No synchronization selected. Choose an available method below.';
+  String get syncProviderNoneActive => 'Senkronizasyon seçilmedi. Aşağıdaki kullanılabilir yöntemlerden birini seçin.';
 
   @override
-  String get syncTurnOff => 'Turn sync off';
+  String get syncTurnOff => 'Senkronizasyonu kapat';
 
   @override
   String get syncOverviewIntro =>
-      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
+      'Senkronizasyon, evlerinizin ve sayaç okumalarınızın yedeğini bulutta saklar. Yeni bir telefon alırsanız veya uygulamayı yeniden yüklerseniz, verilerinizi geri yükleyebilirsiniz. Her seferinde tek bir yöntemi kullanabilir veya senkronizasyonu tamamen devre dışı bırakabilirsiniz.';
 
   @override
-  String get syncSelectProviderLabel => 'Active sync method';
+  String get syncSelectProviderLabel => 'Aktif senkronizasyon yöntemi';
 
   @override
   String get syncSelectProviderHelp =>
-      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
+      'Bir yöntem seçin. Senkronizasyonu devre dışı bırakmak için “Senkronizasyon yok” seçeneğini seçin. Ayrıntılar için ve gerekirse oturum açmak için aşağıdaki yöntemlerden birini açın.';
 
   @override
-  String get syncProvidersSectionTitle => 'Available sync methods';
+  String get syncProvidersSectionTitle => 'Kullanılabilir senkronizasyon yöntemleri';
 
   @override
-  String get syncProviderSegmentNone => 'No synchronization';
+  String get syncProviderSegmentNone => 'Senkronizasyon yok';
 
   @override
-  String get syncProviderSegmentNoneShort => 'Off';
+  String get syncProviderSegmentNoneShort => 'Kapalı';
 
   @override
   String get syncProviderSegmentGoogle => 'Google Drive';
 
   @override
-  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+  String get syncProviderSegmentEhwPlus => 'EHW+ Bulut';
 
   @override
-  String get syncProviderSegmentGoogleShort => 'Drive';
+  String get syncProviderSegmentGoogleShort => 'Sürüş';
 
   @override
-  String get syncProviderSegmentEhwPlusShort => 'Cloud';
+  String get syncProviderSegmentEhwPlusShort => 'Bulut';
 
   @override
-  String get syncProviderNoneSummary => 'Your data will remain only on this device and will not be synced.';
+  String get syncProviderNoneSummary => 'Verileriniz yalnızca bu cihazda kalacak ve senkronize edilmeyecektir.';
 
   @override
-  String get syncUseProvider => 'Use for sync';
+  String get syncUseProvider => 'Senkronizasyon için kullanın';
 
   @override
   String get syncProviderGoogleSummary =>
-      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+      'Verilerinizi kendi Google Drive hesabınızda dosya olarak saklar. Google ile oturum açarsınız. Zaten Google kullanıyorsanız ve dosyalarınızı Drive’ınızda saklamak istiyorsanız bu seçenek sizin için uygundur.';
 
   @override
   String get syncProviderEhwPlusSummary =>
-      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+      'Verilerinizi EHW+ hesabınızla EHW+ Cloud\'da saklar. Google Drive gerekmeden tüm cihazlarınızda çalışır. EHW+ adresinden giriş yaparsanız en iyi sonucu alırsınız.';
 
   @override
   String get syncProviderGoogleDetails =>
-      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
+      'Google Drive Senkronizasyon, nesne verilerinizi Google hesabınızdaki bir klasöre kopyalar. Bağlanmak için bu sayfada Google ile oturum açın. Çevrimiçi olduğunuzda değişiklikler otomatik olarak senkronize edilebilir. Dosyalarınız Drive’ınızda kalır, böylece uygulamadan dışında da görüntüleyebilirsiniz. İpucu: Daha sonra EHW+ Cloud’a geçerseniz, geri dönene kadar Google Drive artık etkin yedekleme olarak kalmaz.';
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.';
+      'EHW+ Bu uygulamanın senkronizasyonu bulut üzerinden gerçekleşir: nesne verileriniz EHW+ sunucularında depolanır ve EHW+ hesabınız aracılığıyla tüm cihazlarınızda senkronize kalır. Senkronize etmek için en fazla iki nesne seçebilirsiniz. Her iki taraf da aynı alanı değiştirirse, birleştirme işlemini buradan çözebilirsiniz. Bir nesneyi, odayı veya sayacı başka biriyle paylaşma özelliği daha sonra eklenecektir.';
 
   @override
-  String get syncOpenProviderDetails => 'Open details';
+  String get syncOpenProviderDetails => 'Ayrıntıları aç';
 
   @override
-  String get syncProviderSignedIn => 'Signed in';
+  String get syncProviderSignedIn => 'Giriş yapıldı';
 
   @override
-  String get syncProviderNotSignedIn => 'Not signed in';
+  String get syncProviderNotSignedIn => 'Oturum açılmamış';
 
   @override
-  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
+  String get syncNeedsEhwPlusAccount => 'EHW+\'ı kullanmak için EHW+ hesabınızla oturum açın.';
 
   @override
   String get syncNeedsGoogleAccount =>
-      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+      'Google Drive Senkronizasyonunu kullanmak için Google ile oturum açın. Bağlanmak için aşağıdaki Google Drive adresini açın.';
 
   @override
-  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+  String get syncErrorNetwork => 'Bağlantı yok. Ağ bağlantınızı kontrol edin ve tekrar deneyin.';
 
   @override
-  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+  String get syncErrorSessionExpired => 'EHW+ oturumunuzun süresi doldu. Tekrar oturum açın ve işlemi yeniden deneyin.';
 
   @override
   String get syncErrorAccessDenied =>
-      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+      'Bu hesap için bulut senkronizasyonu izin verilmiyor. Tekrar oturum açın veya EHW+ planınızın bulut senkronizasyonunu içerip içermediğini kontrol edin.';
 
   @override
   String get syncErrorPayloadTooLarge =>
-      'This home is too large to sync right now. Try again later or contact support.';
+      'Bu ev şu anda senkronize edilemeyecek kadar büyük. Daha sonra tekrar deneyin veya destek ekibiyle iletişime geçin.';
 
   @override
-  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+  String get syncErrorServiceUnavailable =>
+      'EHW+ Cloud şu anda geçici olarak kullanılamıyor. Bir süre sonra tekrar deneyin.';
 
   @override
-  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+  String get syncErrorNotReady => 'Bulut senkronizasyonu henüz hazır değil. Bir dakika bekleyin ve tekrar deneyin.';
 
   @override
-  String get syncErrorUnknown => 'Sync failed. Please try again.';
+  String get syncErrorUnknown => 'Senkronizasyon başarısız oldu. Lütfen tekrar deneyin.';
 
   @override
-  String get syncTurnedOff => 'Cloud sync is turned off.';
+  String get syncTurnedOff => 'Bulut senkronizasyonu kapalıdır.';
 
   @override
-  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+  String get syncTurnOffFailed => 'Senkronizasyon devre dışı bırakılamadı. Lütfen tekrar deneyin.';
 
   @override
-  String get syncNoHomesYet => 'No homes to sync yet.';
+  String get syncNoHomesYet => 'Henüz senkronize edilecek ev yok.';
 
   @override
-  String get syncAllNow => 'Sync all';
+  String get syncAllNow => 'Hepsini senkronize et';
 
   @override
   String syncAllFinished(int ok, int total) {
-    return 'Finished syncing $ok of $total.';
+    return '$total adresindeki $ok dosyasının senkronizasyonu tamamlandı.';
   }
 
   @override
   String syncAllFinishedWithFailures(int ok, int total, int failed) {
-    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+    return '$total adresindeki $ok dosyasının senkronizasyonu tamamlandı. $failed adresi başarısız oldu — aşağıda işaretlenmiş ana sayfalarına bakınız.';
   }
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
+      'Bu nesne sunucudaki versiyondan farklıdır. Bir satırı açın, her iki versiyonu karşılaştırın ve hangisini saklayacağınızı seçin — ya da ikisini birleştirin. Çakışmayan düzenlemeler otomatik olarak birleştirilir.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
+  String get ehwPlusSyncAutoSyncLabel => 'Bu nesneyi senkronize et';
 
   @override
-  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';
+  String get ehwPlusSyncAutoSyncLimit => 'En fazla 2 nesneyi senkronize edebilirsiniz. Önce birini kapatın.';
 
   @override
-  String get ehwPlusSyncSideLocal => 'This device';
+  String get ehwPlusSyncSideLocal => 'Bu cihaz';
 
   @override
-  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
+  String get ehwPlusSyncSideCloud => 'EHW+ Bulut';
 
   @override
-  String get ehwPlusSyncStateInSync => 'In sync';
+  String get ehwPlusSyncStateInSync => 'Senkronize';
 
   @override
-  String get ehwPlusSyncStateOutOfSync => 'Not in sync';
+  String get ehwPlusSyncStateOutOfSync => 'Senkronize değil';
 
   @override
-  String get ehwPlusSyncStateChecking => 'Checking sync status…';
+  String get ehwPlusSyncStateChecking => 'Senkronizasyon durumunu kontrol ediliyor…';
 
   @override
-  String get ehwPlusSyncStateMissingCloud => 'Not on cloud yet';
+  String get ehwPlusSyncStateMissingCloud => 'Henüz bulutta değil';
 
   @override
-  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+  String get ehwPlusSyncDiffPanelTitle => 'Bu cihaz mı, yoksa bulut mu?';
 
   @override
-  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
+  String get ehwPlusSyncDiffPanelEmpty => 'Son senkronizasyonda herhangi bir alan çakışması yaşanmadı.';
 
   @override
-  String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
+  String get ehwPlusSyncRemoveFromCloud => 'Buluttan kaldır';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this object from EHW+ Cloud?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Bu nesneyi EHW+ Cloud\'dan silmek mi istiyorsunuz?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.';
+      'EHW+ sunucularındaki kopya silinecektir. Bu cihazdaki veriler korunacaktır. Daha sonra nesneyi tekrar seçerek yeni bir kopya yükleyebilirsiniz.';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Removed this object from EHW+ Cloud.';
+  String get ehwPlusSyncRemovedFromCloud => 'Bu nesneyi EHW+ Cloud\'dan kaldırdım.';
 
   @override
-  String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
+  String get ehwPlusSyncPhotosSectionTitle => 'Senkronize edilmiş görüntüler';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
-    return '$readyCount of $total synced images';
+    return '$readyCount $total\'dan senkronize edilmiş görüntüler';
   }
 
   @override
-  String get ehwPlusSyncPhotosEmpty => 'No synced images yet.';
+  String get ehwPlusSyncPhotosEmpty => 'Henüz senkronize edilmiş resim yok.';
 
   @override
-  String get ehwPlusSyncPhotosShowMore => 'Show more images';
+  String get ehwPlusSyncPhotosShowMore => 'Daha fazla resim göster';
 
   @override
-  String get ehwPlusSyncPhotosLoadThumbs => 'Load thumbnails';
+  String get ehwPlusSyncPhotosLoadThumbs => 'Küçük resimleri yükle';
 
   @override
-  String get ehwPlusSyncPhotosLoading => 'Loading images…';
+  String get ehwPlusSyncPhotosLoading => 'Görüntüler yükleniyor…';
 
   @override
-  String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
+  String get ehwPlusSyncPhotosUnavailable => 'Bulut görüntüleri şu anda kullanılamıyor.';
 
   @override
-  String get ehwPlusSyncPhotosUnassigned => 'Other photos';
+  String get ehwPlusSyncPhotosUnassigned => 'Diğer fotoğraflar';
 
   @override
-  String get ehwPlusSyncHistoryTitle => 'Sync history';
+  String get ehwPlusSyncHistoryTitle => 'Senkronizasyon geçmişi';
 
   @override
   String ehwPlusSyncHistoryCount(int count) {
-    return '$count versions';
+    return '$count sürümler';
   }
 
   @override
-  String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
+  String get ehwPlusSyncHistoryEmpty => 'Henüz senkronizasyon geçmişi yok.';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Load 5 more';
+  String get ehwPlusSyncHistoryLoadMore => '5 tane daha yükle';
 
   @override
-  String get ehwPlusSyncHistoryLoading => 'Loading history…';
+  String get ehwPlusSyncHistoryLoading => 'Geçmişi yükleniyor…';
 
   @override
-  String get ehwPlusSyncHistoryUnavailable => 'Sync history is unavailable right now.';
+  String get ehwPlusSyncHistoryUnavailable => 'Senkronizasyon geçmişi şu anda kullanılamıyor.';
 
   @override
-  String get ehwPlusSyncRestoreTitle => 'Restore this version?';
+  String get ehwPlusSyncRestoreTitle => 'Bu sürümü geri yüklemek ister misiniz?';
 
   @override
   String get ehwPlusSyncRestoreWarning =>
-      'This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.';
+      'Bu işlem, bu cihazdaki verileri seçilen bulut geçmişi anlık görüntüsüyle değiştirir ve ardından bunları EHW+ Cloud ile yeniden senkronize eder. Kaydedilmemiş yerel değişiklikler kalıcı olarak kaybolabilir.';
 
   @override
   String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
-    return 'Snapshot from $timestamp · $hash';
+    return '$timestamp sitesinden bir ekran görüntüsü · $hash';
   }
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count items will change';
+    return '$count öğeler değişecek';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches what is on this device.';
+  String get ehwPlusSyncRestoreNoDiff => 'Bu anlık görüntü, bu cihazda bulunanlarla uyumludur.';
 
   @override
   String get ehwPlusSyncRestoreExplorerHint =>
-      'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.';
+      'Yalnızca değişiklik yapılacak öğeler listelenmiştir. Değişmeyen sayaçlar, odalar ve fotoğraflar gizli kalır.';
 
   @override
-  String get ehwPlusSyncRestoreOnlyLocal => 'Only on this device';
+  String get ehwPlusSyncRestoreOnlyLocal => 'Yalnızca bu cihazda';
 
   @override
-  String get ehwPlusSyncRestoreOnlySnapshot => 'Only in this snapshot';
+  String get ehwPlusSyncRestoreOnlySnapshot => 'Sadece bu anlık görüntüde';
 
   @override
-  String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
+  String get ehwPlusSyncRestoreWillUpdate => 'Yerine başka bir şey konulacak';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Object details';
+  String get ehwPlusSyncRestoreHomeDetails => 'Nesne ayrıntıları';
 
   @override
-  String get ehwPlusSyncRestoreReadings => 'Readings';
+  String get ehwPlusSyncRestoreReadings => 'Okumalar';
 
   @override
-  String get ehwPlusSyncRestoreDeletedMeters => 'Deleted meters';
+  String get ehwPlusSyncRestoreDeletedMeters => 'Silinen sayaçlar';
 
   @override
-  String get ehwPlusSyncRestoreConsumptionPoints => 'Grid connections';
+  String get ehwPlusSyncRestoreConsumptionPoints => 'Şebeke bağlantıları';
 
   @override
   String ehwPlusSyncRestoreChangedCount(int count) {
-    return '$count changed';
+    return '$count değiştirildi';
   }
 
   @override
   String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
-    return '$localCount readings here · $cloudCount in snapshot';
+    return '$localCount buradaki yazılar · Anlık görüntü: $cloudCount';
   }
 
   @override
@@ -4385,95 +4420,95 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Object name';
+  String get ehwPlusSyncDiffFieldTitle => 'Nesne adı';
 
   @override
-  String get ehwPlusSyncDiffFieldHouseName => 'House name';
+  String get ehwPlusSyncDiffFieldHouseName => 'Ev adı';
 
   @override
-  String get ehwPlusSyncDiffFieldCurrency => 'Currency';
+  String get ehwPlusSyncDiffFieldCurrency => 'Para birimi';
 
   @override
-  String get ehwPlusSyncDiffFieldAddress => 'Address';
+  String get ehwPlusSyncDiffFieldAddress => 'Adres';
 
   @override
-  String get ehwPlusSyncDiffFieldObjectType => 'Home type';
+  String get ehwPlusSyncDiffFieldObjectType => 'Konut türü';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
-    return '…and $count more fields';
+    return '…ve $count adresindeki diğer alanlar';
   }
 
   @override
   String ehwPlusSyncDiffMoreLines(int count) {
-    return '…and $count more lines';
+    return '…ve $count satır daha';
   }
 
   @override
-  String get ehwPlusSyncRestoreConfirm => 'Restore and sync';
+  String get ehwPlusSyncRestoreConfirm => 'Geri yükle ve senkronize et';
 
   @override
-  String get ehwPlusSyncRestoreFailed => 'Could not restore that history version.';
+  String get ehwPlusSyncRestoreFailed => 'Bu geçmiş sürümü geri yüklenemedi.';
 
   @override
-  String get ehwPlusSyncRestoreApiMissing => 'Restore needs a newer EHW+ Cloud API (history detail not deployed yet).';
+  String get ehwPlusSyncRestoreApiMissing =>
+      'Geri yükleme işlemi için daha yeni bir EHW+ Bulut API’si gereklidir (geçmiş ayrıntıları henüz devreye alınmamıştır).';
 
   @override
-  String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
+  String get ehwPlusSyncRestoreBusy => 'Mevcut senkronizasyonun tamamlanmasını bekleyin, ardından tekrar deneyin.';
 
   @override
-  String get ehwPlusSyncPhotoUploadStarted => 'Meter photo upload started in the background.';
+  String get ehwPlusSyncPhotoUploadStarted => 'Arka planda sayaç fotoğrafı yükleme işlemi başladı.';
 
   @override
-  String get ehwPlusSyncPhotoUploadSucceeded => 'Meter photos uploaded to EHW+ Cloud.';
+  String get ehwPlusSyncPhotoUploadSucceeded => 'EHW+ Bulutuna yüklenen sayaç fotoğrafları.';
 
   @override
-  String get ehwPlusSyncPhotoUploadFailed =>
-      'Meter photos could not be uploaded. Your reading is saved on this device.';
+  String get ehwPlusSyncPhotoUploadFailed => 'Sayaç fotoğrafları yüklenemedi. Okuma değeriniz bu cihaza kaydedildi.';
 
   @override
   String get ehwPlusSyncPhotoUploadStorageFailed =>
-      'Photo storage is unavailable. Your reading is saved on this device.';
+      'Fotoğraf depolama özelliği kullanılamıyor. Okuma verileriniz bu cihaza kaydedilir.';
 
   @override
   String get ehwPlusSyncPhotoUploadApiFailed =>
-      'Photos could not reach EHW+ Cloud. Your reading is saved on this device.';
+      'Fotoğraflar EHW+ Cloud’a aktarılamadı. Okuma verileriniz bu cihaza kaydedildi.';
 
   @override
-  String get ehwPlusSyncStatePhotosPending => 'Data in sync · photos uploading';
+  String get ehwPlusSyncStatePhotosPending => 'Veriler senkronize edildi · fotoğraflar yükleniyor';
 
   @override
-  String get ehwPlusSyncStatePhotosFailed => 'Data saved · photos not synced';
+  String get ehwPlusSyncStatePhotosFailed => 'Veriler kaydedildi · fotoğraflar senkronize edilmedi';
 
   @override
   String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
-    return '$localCount on this device → $cloudCount in this snapshot';
+    return '$localCount bu cihazda → $cloudCount bu anlık görüntüde';
   }
 
   @override
-  String get ehwPlusSyncDiffFieldCounters => 'Meters';
+  String get ehwPlusSyncDiffFieldCounters => 'Metre';
 
   @override
-  String get ehwPlusSyncDiffFieldPhotoFiles => 'Meter photos';
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'Sayaç fotoğrafları';
 
   @override
-  String get ehwPlusSyncDiffFieldActivities => 'Activities';
+  String get ehwPlusSyncDiffFieldActivities => 'Etkinlikler';
 
   @override
-  String get ehwPlusSyncDiffFieldRooms => 'Rooms';
+  String get ehwPlusSyncDiffFieldRooms => 'Odalar';
 
   @override
-  String get ehwPlusSyncDiffFieldContracts => 'Contracts';
+  String get ehwPlusSyncDiffFieldContracts => 'Sözleşmeler';
 
   @override
-  String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
+  String get ehwPlusSyncDiffFieldLastUpdated => 'Son güncelleme tarihi';
 
   @override
-  String get stripeCheckoutComingSoonTitle => 'Web purchase coming soon';
+  String get stripeCheckoutComingSoonTitle => 'Çevrimiçi satın alma yakında başlayacak';
 
   @override
   String get stripeCheckoutComingSoonDescription =>
-      'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.';
+      'EHW+ uygulamasında şu anda satın alma işlemleri yapılabilmektedir. Premium ve tek seferlik satın alma seçenekleri yakında burada kullanıma sunulacaktır.';
 
   @override
   String get stripeCheckoutSubscriptionLabel => 'PLAN';
@@ -4482,76 +4517,75 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
 
   @override
-  String get stripeCheckoutPremiumDescription => 'Full insights and sync across your devices. Monthly or yearly.';
+  String get stripeCheckoutPremiumDescription =>
+      'Tüm veriler ve cihazlarınız arasında senkronizasyon. Aylık veya yıllık.';
 
   @override
-  String get stripeCheckoutFeatureWeather =>
-      'Weather and Heating: Outdoor temperature and consumption in a single chart.';
+  String get stripeCheckoutFeatureWeather => 'Hava Durumu ve Isıtma: Dış ortam sıcaklığı ve tüketim tek bir grafikte.';
 
   @override
   String get stripeCheckoutFeatureStatistics =>
-      'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.';
+      'İstatistikler: Bir önceki yıla göre karşılaştırmalar, ayrıntılı maliyet özeti, zaman aralıklarını özelleştirme, Excel\'e aktarma.';
 
   @override
   String get stripeCheckoutFeatureCloudSync =>
-      'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.';
+      'Bulut Senkronizasyonu: Telefonunuzda, tabletinizde ve web\'de iki mülk ve istediğiniz sayıda sayaç.';
 
   @override
   String get stripeCheckoutFeatureMultipleProperties =>
-      'Multiple Properties: Manage apartments or houses separately within their own properties.';
+      'Birden Fazla Mülk: Daireleri veya evleri, her birinin kendi mülkü kapsamında ayrı ayrı yönetin.';
 
   @override
   String get stripeCheckoutFeatureAdditionalMeters =>
-      'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.';
+      'Ek Sayaçlar: Fotovoltaik sistemler, güneş enerjisiyle çalışan termal sistemler ve su tüketimi için sayaçlar.';
 
   @override
-  String get stripeCheckoutPriceLoading => 'Loading price…';
+  String get stripeCheckoutPriceLoading => 'Fiyat yükleniyor…';
 
   @override
-  String get stripeCheckoutPriceUnavailable => 'Price currently unavailable';
+  String get stripeCheckoutPriceUnavailable => 'Fiyat şu anda mevcut değil';
 
   @override
-  String get stripeCheckoutYearly => 'Yearly';
+  String get stripeCheckoutYearly => 'Yıllık';
 
   @override
-  String get stripeCheckoutMonthly => 'Monthly';
+  String get stripeCheckoutMonthly => 'Aylık';
 
   @override
-  String get stripeCheckoutPeriodYear => '/ year';
+  String get stripeCheckoutPeriodYear => '/ yıl';
 
   @override
-  String get stripeCheckoutPeriodMonth => '/ month';
+  String get stripeCheckoutPeriodMonth => '/ ay';
 
   @override
-  String get stripeCheckoutScheduled => 'Scheduled';
+  String get stripeCheckoutScheduled => 'Planlanmış';
 
   @override
-  String get stripeCheckoutRedirecting => 'Redirecting…';
+  String get stripeCheckoutRedirecting => 'Yönlendiriliyor…';
 
   @override
-  String get stripeCheckoutManage => 'Manage';
+  String get stripeCheckoutManage => 'Yönet';
 
   @override
-  String get stripeCheckoutSwitchPlan => 'Switch plan';
+  String get stripeCheckoutSwitchPlan => 'Paket değiştirme';
 
   @override
-  String get stripeCheckoutChoosePremium => 'Choose Premium';
+  String get stripeCheckoutChoosePremium => 'Premium\'u seçin';
 
   @override
-  String get stripeCheckoutLifetimeTitle => 'Lifetime purchases';
+  String get stripeCheckoutLifetimeTitle => 'Ömür boyu satın alımlar';
 
   @override
-  String get stripeCheckoutLifetimeDescription =>
-      'The following items can also be purchased individually as an alternative to a subscription.';
+  String get stripeCheckoutLifetimeDescription => 'Aşağıdaki ürünler, abonelik yerine tek tek de satın alınabilir.';
 
   @override
-  String get stripeCheckoutIncludedInSubscription => 'Included in subscription';
+  String get stripeCheckoutIncludedInSubscription => 'Aboneliğe dahil olanlar';
 
   @override
-  String get stripeCheckoutBuyNow => 'Buy now';
+  String get stripeCheckoutBuyNow => 'Şimdi satın al';
 
   @override
-  String get stripeCheckoutDirectProvider => 'Direct with EHW+';
+  String get stripeCheckoutDirectProvider => 'EHW+ ile doğrudan iletişime geçin';
 
   @override
   String get stripeCheckoutGooglePlay => 'Google Play';
@@ -4560,62 +4594,62 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get stripeCheckoutAppStore => 'App Store';
 
   @override
-  String get stripeCheckoutPurchaseMethodTitle => 'How would you like to pay?';
+  String get stripeCheckoutPurchaseMethodTitle => 'Nasıl ödeme yapmak istersiniz?';
 
   @override
-  String get stripeCheckoutPurchaseMethodDescription => 'Choose the purchase method that suits you.';
+  String get stripeCheckoutPurchaseMethodDescription => 'Size en uygun satın alma yöntemini seçin.';
 
   @override
-  String get stripeCheckoutPayDirectly => 'Pay directly with EHW+';
+  String get stripeCheckoutPayDirectly => 'EHW+ ile doğrudan ödeme yapın';
 
   @override
   String get stripeCheckoutPayDirectlyDescription =>
-      'Pay securely and manage your subscription in the EHW+ customer portal.';
+      'EHW+ müşteri portalında güvenli bir şekilde ödeme yapın ve aboneliğinizi yönetin.';
 
   @override
-  String get stripeCheckoutGooglePlayDescription => 'Purchase and management through your Google account.';
+  String get stripeCheckoutGooglePlayDescription => 'Google hesabınız üzerinden satın alma ve yönetim.';
 
   @override
-  String get stripeCheckoutAppStoreDescription => 'Purchase and management through your Apple account.';
+  String get stripeCheckoutAppStoreDescription => 'Apple hesabınız üzerinden satın alma ve yönetim.';
 
   @override
-  String get stripeCheckoutPayDirectlyButton => 'Pay directly';
+  String get stripeCheckoutPayDirectlyButton => 'Doğrudan ödeme yapın';
 
   @override
-  String get stripeCheckoutContinueInStore => 'Continue in store';
+  String get stripeCheckoutContinueInStore => 'Mağazada devam et';
 
   @override
-  String get stripeCheckoutFailed => 'Could not start checkout. Please try again later.';
+  String get stripeCheckoutFailed => 'Ödeme işlemi başlatılamadı. Lütfen daha sonra tekrar deneyin.';
 
   @override
-  String get stripePortalFailed => 'Could not open the customer portal. Please try again later.';
+  String get stripePortalFailed => 'Müşteri portalı açılamadı. Lütfen daha sonra tekrar deneyin.';
 
   @override
   String stripeSubscriptionUpdated(Object interval, Object date) {
-    return 'Update scheduled: switch to $interval on $date.';
+    return 'Güncelleme planlandı: $date adresinde $interval\'e geçiş yapılacak.';
   }
 
   @override
-  String get stripeSubscriptionProviderGoogle => 'Subscribed via Google Play';
+  String get stripeSubscriptionProviderGoogle => 'Google Play üzerinden abone oldum';
 
   @override
-  String get stripeSubscriptionProviderApple => 'Subscribed via App Store';
+  String get stripeSubscriptionProviderApple => 'App Store üzerinden abone oldum';
 
   @override
-  String get stripeSubscriptionProviderDirect => 'Subscribed via EHW+';
+  String get stripeSubscriptionProviderDirect => 'EHW+ üzerinden abone oldum';
 
   @override
-  String get stripeSubscriptionProviderUnknown => 'Subscribed';
+  String get stripeSubscriptionProviderUnknown => 'Abone oldum';
 
   @override
-  String get stripePurchaseProviderApple => 'Purchased in the App Store';
+  String get stripePurchaseProviderApple => 'App Store\'de satın alındı';
 
   @override
-  String get stripePurchaseProviderGoogle => 'Purchased in the Play Store';
+  String get stripePurchaseProviderGoogle => 'Play Store\'dan satın alındı';
 
   @override
-  String get stripePurchaseProviderDirect => 'Purchased with EHW+';
+  String get stripePurchaseProviderDirect => 'EHW+ ile satın alındı';
 
   @override
-  String get stripePurchaseProviderUnknown => 'Purchased';
+  String get stripePurchaseProviderUnknown => 'Satın alındı';
 }

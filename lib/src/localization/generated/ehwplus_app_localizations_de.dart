@@ -2221,6 +2221,38 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'POWEROPTI KAUFEN';
 
   @override
+  String get powerfoxSurveyTitle => 'Zählerstände automatisch erhalten';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'Haben Sie einen digitalen Stromzähler?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Wollen Sie künftig Zählerstände Ihres Stromzählers automatisch erhalten?';
+
+  @override
+  String get powerfoxSurveyYes => 'Ja';
+
+  @override
+  String get powerfoxSurveyNo => 'Nein';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'Nein, ich will weiter von Hand ablesen.';
+
+  @override
+  String get powerfoxInfoTitle => 'Automatische Zählerstände mit Powerfox';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'Mit einem Powerfox Poweropti werden die Zählerstände Ihres Stromzählers automatisch in EHW+ übernommen.';
+
+  @override
+  String get powerfoxInfoDiscount => '5 € Rabatt mit dem Code EHW5';
+
+  @override
+  String get powerfoxInfoShop => 'ZUM POWERFOX-SHOP';
+
+  @override
   String get updateNoticeDebugTitle => 'Update-Hinweise';
 
   @override

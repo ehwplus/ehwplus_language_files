@@ -358,13 +358,13 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get commonLogin => 'Prijavite se';
 
   @override
-  String get commonLoginCanceled => 'Sign-in was not completed.';
+  String get commonLoginCanceled => 'Prijava nije dovršena.';
 
   @override
-  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'Preglednik nije uspio dovršiti prijavu.';
 
   @override
-  String get commonLoginWithBrowser => 'Try another way';
+  String get commonLoginWithBrowser => 'Pokušaj na drugi način';
 
   @override
   String get commonLogout => 'Odjavi se';
@@ -2228,6 +2228,38 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'KUPI POWEROPTI';
 
   @override
+  String get powerfoxSurveyTitle => 'Primajte očitanja brojila automatski';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'Imate li digitalni električni brojilac?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Želite li ubuduće automatski primati očitanja vašeg električnog brojila?';
+
+  @override
+  String get powerfoxSurveyYes => 'Da';
+
+  @override
+  String get powerfoxSurveyNo => 'Ne';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'Ne, želim nastaviti čitati ručno.';
+
+  @override
+  String get powerfoxInfoTitle => 'Automatsko očitavanje brojila pomoću Powerfoxa';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'Uz Powerfox Poweropti, očitanja vašeg brojila za struju automatski se uvoze uEHW+.';
+
+  @override
+  String get powerfoxInfoDiscount => 'Popust od 5 € uz kod EHW5';
+
+  @override
+  String get powerfoxInfoShop => 'IDITE U POWERFOX PRODAVNICU';
+
+  @override
   String get updateNoticeDebugTitle => 'Obavijesti o ažuriranju';
 
   @override
@@ -3983,412 +4015,413 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get changelogTitle => 'Zapisnik promjena';
 
   @override
-  String get ehwPlusSyncTitle => 'EHW+ Cloud';
+  String get ehwPlusSyncTitle => 'EHW+ Oblak';
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.';
+      'EHW+ Cloud je način na koji ova aplikacija održava vaše objekte sinhroniziranim. Prijavite se, odaberite do dva objekta i ovdje upravljajte statusom i spajanjima.';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
+  String get ehwPlusSyncUseAsPrimary => 'Koristite EHW+ Cloud za sinhronizaciju.';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your sync.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud je tvoja sinhronizacija.';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Cloud is now your sync.';
+  String get ehwPlusSyncActivated => 'EHW+ Cloud je sada tvoja sinhronizacija.';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Could not enable EHW+ Cloud sync.';
+  String get ehwPlusSyncActivateFailed => 'Nije moguće omogućiti sinhronizaciju u oblaku za EHW+.';
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+      'EHW+ Cloud održava odabrane objekte ažurnima na svim vašim uređajima. Odaberite šta se sinhronizira, provjerite status i riješite spajanja kada su se obje strane promijenile.';
 
   @override
-  String get ehwPlusSyncObjectsSectionTitle => 'Objects';
+  String get ehwPlusSyncObjectsSectionTitle => 'Predmeti';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
+  String get ehwPlusSyncSelectSectionTitle => 'Predmeti za sinhronizaciju';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Select up to $max objects. Changes on those objects sync automatically while EHW+ Cloud is active.';
+    return 'Odaberite do $max-objekata. Promjene na tim objektima automatski se sinkronizuju dok je EHW+ Cloud aktivan.';
   }
 
   @override
   String ehwPlusSyncSelectedCount(int count, int max) {
-    return '$count of $max selected';
+    return '$count $max-a odabranih';
   }
 
   @override
-  String get ehwPlusSyncManagedSectionTitle => 'Sync status';
+  String get ehwPlusSyncManagedSectionTitle => 'Status sinhronizacije';
 
   @override
-  String get ehwPlusSyncManagedSectionEmpty => 'Select an object above to see cloud status, history, and merges.';
+  String get ehwPlusSyncManagedSectionEmpty => 'Odaberite objekt iznad da vidite status oblaka, historiju i spajanja.';
 
   @override
-  String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
+  String get ehwPlusSyncCloudStatusLoading => 'Učitavanje statusa oblakaEHW+…';
 
   @override
-  String get ehwPlusSyncCloudStatusMissing => 'No cloud copy yet.';
+  String get ehwPlusSyncCloudStatusMissing => 'Još nema kopije u oblaku.';
 
   @override
-  String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
+  String get ehwPlusSyncCloudStatusUnavailable => 'Nije moguće učitati status oblaka EHW+.';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Syncing this object to EHW+ Cloud…';
+  String get ehwPlusSyncSyncingSelection => 'Sinkronizacija ovog objekta s oblakomEHW+…';
 
   @override
-  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+  String get ehwPlusSyncConflictsHeader => 'Konflikti';
 
   @override
-  String get ehwPlusSyncTakeServer => 'Take server version';
+  String get ehwPlusSyncTakeServer => 'Uzmite verziju servera';
 
   @override
-  String get ehwPlusSyncUseLocal => 'This device';
+  String get ehwPlusSyncUseLocal => 'Ovaj uređaj';
 
   @override
-  String get ehwPlusSyncUseCloud => 'Cloud';
+  String get ehwPlusSyncUseCloud => 'Oblak';
 
   @override
-  String get ehwPlusSyncUseAllLocal => 'All from this device';
+  String get ehwPlusSyncUseAllLocal => 'Sve s ovog uređaja';
 
   @override
-  String get ehwPlusSyncUseAllCloud => 'All from cloud';
+  String get ehwPlusSyncUseAllCloud => 'Sve iz oblaka';
 
   @override
-  String get ehwPlusSyncApplyResolution => 'Apply and sync';
+  String get ehwPlusSyncApplyResolution => 'Primijeni i sinkronizuj';
 
   @override
-  String get ehwPlusSyncResolutionMixed => 'Mixed';
+  String get ehwPlusSyncResolutionMixed => 'Miješano';
 
   @override
-  String get ehwPlusSyncConflictExplorerHint => 'Tap This device or Cloud on each row. Apply uploads that mix.';
+  String get ehwPlusSyncConflictExplorerHint =>
+      'Dodirnite ovaj uređaj ili oblak u svakom redu. Primijenite prijenose koji se miješaju.';
 
   @override
-  String get ehwPlusSyncKeepVersionLabel => 'Keep this version';
+  String get ehwPlusSyncKeepVersionLabel => 'Sačuvaj ovu verziju';
 
   @override
-  String get ehwPlusSyncFolderPickLabel => 'All in this folder';
+  String get ehwPlusSyncFolderPickLabel => 'Sve u ovom folderu';
 
   @override
-  String get ehwPlusSyncNotOnDevice => 'Not on this device';
+  String get ehwPlusSyncNotOnDevice => 'Nije na ovom uređaju';
 
   @override
-  String get ehwPlusSyncNotInCloud => 'Not in the cloud';
+  String get ehwPlusSyncNotInCloud => 'Nije u oblaku';
 
   @override
   String ehwPlusSyncOutcomeKeepLocal(String value) {
-    return 'Keep $value on both.';
+    return 'Održavaj$value na oba.';
   }
 
   @override
   String ehwPlusSyncOutcomeUseCloud(String value) {
-    return 'Use cloud value $value.';
+    return 'Koristite vrijednost oblaka$value.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeSkipAdd => 'Skip this cloud item.';
+  String get ehwPlusSyncOutcomeSkipAdd => 'Preskoči ovaj oblačni predmet.';
 
   @override
   String ehwPlusSyncOutcomeAddCloud(String value) {
-    return 'Add $value from the cloud.';
+    return 'Dodajte $value iz oblaka.';
   }
 
   @override
   String ehwPlusSyncOutcomeKeepRemoved(String value) {
-    return 'Keep $value and upload it.';
+    return 'Sačuvaj$value i otpremi ga.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeDropLocal => 'Remove this item to match the cloud.';
+  String get ehwPlusSyncOutcomeDropLocal => 'Uklonite ovaj predmet da biste uskladili oblak.';
 
   @override
-  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+  String get ehwPlusSyncStatusCreated => 'Kreirano u oblaku';
 
   @override
-  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+  String get ehwPlusSyncStatusFastForward => 'Učitano (brzo naprijed)';
 
   @override
-  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+  String get ehwPlusSyncStatusUpdateRequired => 'Server ima novije podatke';
 
   @override
-  String get ehwPlusSyncStatusMerged => 'Merged with server';
+  String get ehwPlusSyncStatusMerged => 'Spajanje sa serverom';
 
   @override
-  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+  String get ehwPlusSyncStatusConflict => 'Konflikt — riješiti ispod';
 
   @override
-  String get syncProviderActive => 'Active sync provider';
+  String get syncProviderActive => 'Pružatelj aktivne sinkronizacije';
 
   @override
-  String get syncProviderNoneActive => 'No synchronization selected. Choose an available method below.';
+  String get syncProviderNoneActive => 'Nije odabrana sinhronizacija. Odaberite dostupnu metodu ispod.';
 
   @override
-  String get syncTurnOff => 'Turn sync off';
+  String get syncTurnOff => 'Isključite sinhronizaciju';
 
   @override
   String get syncOverviewIntro =>
-      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
+      'Sync čuva rezervnu kopiju vaših domova i očitanja brojila u oblaku. Ako nabavite novi telefon ili ponovo instalirate aplikaciju, možete obnoviti svoje podatke. Možete koristiti jednu metodu odjednom ili potpuno isključiti sinkronizaciju.';
 
   @override
-  String get syncSelectProviderLabel => 'Active sync method';
+  String get syncSelectProviderLabel => 'Metoda aktivne sinhronizacije';
 
   @override
   String get syncSelectProviderHelp =>
-      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
+      'Odaberite jednu metodu. Odaberite \"Nema sinhronizacije\" da isključite sinhronizaciju. Otvorite metodu u nastavku za detalje i za prijavu ako je potrebno.';
 
   @override
-  String get syncProvidersSectionTitle => 'Available sync methods';
+  String get syncProvidersSectionTitle => 'Dostupne metode sinhronizacije';
 
   @override
-  String get syncProviderSegmentNone => 'No synchronization';
+  String get syncProviderSegmentNone => 'Nema sinhronizacije';
 
   @override
-  String get syncProviderSegmentNoneShort => 'Off';
+  String get syncProviderSegmentNoneShort => 'Isključeno';
 
   @override
   String get syncProviderSegmentGoogle => 'Google Drive';
 
   @override
-  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+  String get syncProviderSegmentEhwPlus => 'EHW+ Oblak';
 
   @override
-  String get syncProviderSegmentGoogleShort => 'Drive';
+  String get syncProviderSegmentGoogleShort => 'Voziti';
 
   @override
-  String get syncProviderSegmentEhwPlusShort => 'Cloud';
+  String get syncProviderSegmentEhwPlusShort => 'Oblak';
 
   @override
-  String get syncProviderNoneSummary => 'Your data will remain only on this device and will not be synced.';
+  String get syncProviderNoneSummary => 'Vaši podaci će ostati samo na ovom uređaju i neće biti sinhronizirani.';
 
   @override
-  String get syncUseProvider => 'Use for sync';
+  String get syncUseProvider => 'Koristi za sinhronizaciju';
 
   @override
   String get syncProviderGoogleSummary =>
-      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+      'Pohranjuje vaše podatke kao datoteke u vašem vlastitom eGoogle Driveu. Prijavljujete se pomoću Googlea. Dobro ako već koristite Google i želite datoteke u svom Driveu.';
 
   @override
   String get syncProviderEhwPlusSummary =>
-      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+      'Pohranjuje vaše podatke u oblaku EHW+ s vašim računom EHW+. Radi na svim vašim uređajima bez Google Drive. Najbolje je koristiti prijavu na EHW+.';
 
   @override
   String get syncProviderGoogleDetails =>
-      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
+      'Google Drive Sync kopira podatke vaših objekata u mapu na vašem Google računu. Prijavite se na ovu stranicu pomoću Google naloga da biste se povezali. Promjene se mogu automatski sinkronizovati kada ste online. Vaše datoteke ostaju na vašem Driveu, pa ih možete vidjeti i izvan aplikacije. Savjet: ako se kasnije prebacite na EHW+ Cloud, Google Drive više nije aktivna sigurnosna kopija dok se ne vratite.';
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.';
+      'EHW+ Cloud je servis za sinhronizaciju ove aplikacije: podaci o vašim objektima čuvaju se na serverima EHW+ i ostaju usklađeni na svim uređajima putem vašeg računa na EHW+. Odaberite do dva objekta za sinhronizaciju. Ako se na obje strane promijeni isto polje, ovdje možete riješiti spajanje. Dijeljenje objekta, sobe ili brojača s nekim drugim planirano je za kasnije.';
 
   @override
-  String get syncOpenProviderDetails => 'Open details';
+  String get syncOpenProviderDetails => 'Otvori detalje';
 
   @override
-  String get syncProviderSignedIn => 'Signed in';
+  String get syncProviderSignedIn => 'Prijavljeno';
 
   @override
-  String get syncProviderNotSignedIn => 'Not signed in';
+  String get syncProviderNotSignedIn => 'Niste prijavljeni';
 
   @override
-  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
+  String get syncNeedsEhwPlusAccount => 'Prijavite se na svoj račun na EHW+ da biste koristili EHW+ Cloud.';
 
   @override
   String get syncNeedsGoogleAccount =>
-      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+      'Prijavite se putem Googlea da biste koristili Google Drive Sync. Otvorite detalje o Google Drive u nastavku da biste se povezali.';
 
   @override
-  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+  String get syncErrorNetwork => 'Nema veze. Provjerite mrežu i pokušajte ponovo.';
 
   @override
-  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+  String get syncErrorSessionExpired => 'Vaša sesija na EHW+u je istekla. Ponovo se prijavite i pokušajte ponovo.';
 
   @override
   String get syncErrorAccessDenied =>
-      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+      'Sinkronizacija u oblaku nije dozvoljena za ovaj račun. Prijavite se ponovo ili provjerite da li vaš plan \"EHW+\" uključuje sinkronizaciju u oblaku.';
 
   @override
   String get syncErrorPayloadTooLarge =>
-      'This home is too large to sync right now. Try again later or contact support.';
+      'Ovaj dom je trenutno prevelik za sinhronizaciju. Pokušajte ponovo kasnije ili kontaktirajte podršku.';
 
   @override
-  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+  String get syncErrorServiceUnavailable => 'EHW+ Oblak je privremeno nedostupan. Pokušajte ponovo za trenutak.';
 
   @override
-  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+  String get syncErrorNotReady => 'Sinkronizacija u oblaku još nije spremna. Sačekajte trenutak i pokušajte ponovo.';
 
   @override
-  String get syncErrorUnknown => 'Sync failed. Please try again.';
+  String get syncErrorUnknown => 'Sinkronizacija nije uspjela. Molimo pokušajte ponovo.';
 
   @override
-  String get syncTurnedOff => 'Cloud sync is turned off.';
+  String get syncTurnedOff => 'Sinkronizacija u oblaku je isključena.';
 
   @override
-  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+  String get syncTurnOffFailed => 'Nije moguće isključiti sinhronizaciju. Molimo pokušajte ponovo.';
 
   @override
-  String get syncNoHomesYet => 'No homes to sync yet.';
+  String get syncNoHomesYet => 'Još nema kuća za sinhronizaciju.';
 
   @override
-  String get syncAllNow => 'Sync all';
+  String get syncAllNow => 'Sinkroniziraj sve';
 
   @override
   String syncAllFinished(int ok, int total) {
-    return 'Finished syncing $ok of $total.';
+    return 'Završeno sinhronizovanje $ok sa $total.';
   }
 
   @override
   String syncAllFinishedWithFailures(int ok, int total, int failed) {
-    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+    return 'Završeno sinhroniziranje $ok na $total. $failed nije uspio — pogledajte označene kuće u nastavku.';
   }
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
+      'Ovaj objekt se razlikuje na serveru. Otvorite redak, uporedite obje verzije i odaberite koju ćete zadržati — ili ih pomiješati. Izmjene koje se ne preklapaju automatski se spajaju.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
+  String get ehwPlusSyncAutoSyncLabel => 'Sinkronizuj ovaj objekt';
 
   @override
-  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';
+  String get ehwPlusSyncAutoSyncLimit => 'Možete sinkronizovati najviše dva objekta. Prvo isključite jedan.';
 
   @override
-  String get ehwPlusSyncSideLocal => 'This device';
+  String get ehwPlusSyncSideLocal => 'Ovaj uređaj';
 
   @override
-  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
+  String get ehwPlusSyncSideCloud => 'EHW+ Oblak';
 
   @override
-  String get ehwPlusSyncStateInSync => 'In sync';
+  String get ehwPlusSyncStateInSync => 'U sinkronizaciji';
 
   @override
-  String get ehwPlusSyncStateOutOfSync => 'Not in sync';
+  String get ehwPlusSyncStateOutOfSync => 'Nije u sinhronizaciji';
 
   @override
-  String get ehwPlusSyncStateChecking => 'Checking sync status…';
+  String get ehwPlusSyncStateChecking => 'Provjera statusa sinhronizacije…';
 
   @override
-  String get ehwPlusSyncStateMissingCloud => 'Not on cloud yet';
+  String get ehwPlusSyncStateMissingCloud => 'Još nije na oblaku';
 
   @override
-  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+  String get ehwPlusSyncDiffPanelTitle => 'Ovaj uređaj naspram oblaka';
 
   @override
-  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
+  String get ehwPlusSyncDiffPanelEmpty => 'Na posljednjoj sinhronizaciji nije bilo sukoba na poljima.';
 
   @override
-  String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
+  String get ehwPlusSyncRemoveFromCloud => 'Ukloni iz oblaka';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this object from EHW+ Cloud?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Ukloniti ovaj objekt iz oblaka EHW+?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.';
+      'Kopija na serverima EHW+ bit će izbrisana. Podaci na ovom uređaju se čuvaju. Možete ponovo odabrati objekt kasnije kako biste otpremili novu kopiju.';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Removed this object from EHW+ Cloud.';
+  String get ehwPlusSyncRemovedFromCloud => 'Uklonio sam ovaj objekt iz oblaka EHW+.';
 
   @override
-  String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
+  String get ehwPlusSyncPhotosSectionTitle => 'Sinhronizirane slike';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
-    return '$readyCount of $total synced images';
+    return '$readyCount $total-sinkronizovanih slika';
   }
 
   @override
-  String get ehwPlusSyncPhotosEmpty => 'No synced images yet.';
+  String get ehwPlusSyncPhotosEmpty => 'Još nema sinhroniziranih slika.';
 
   @override
-  String get ehwPlusSyncPhotosShowMore => 'Show more images';
+  String get ehwPlusSyncPhotosShowMore => 'Prikaži više slika';
 
   @override
-  String get ehwPlusSyncPhotosLoadThumbs => 'Load thumbnails';
+  String get ehwPlusSyncPhotosLoadThumbs => 'Učitaj minijature';
 
   @override
-  String get ehwPlusSyncPhotosLoading => 'Loading images…';
+  String get ehwPlusSyncPhotosLoading => 'Učitavanje slika…';
 
   @override
-  String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
+  String get ehwPlusSyncPhotosUnavailable => 'Slike u oblaku su trenutno nedostupne.';
 
   @override
-  String get ehwPlusSyncPhotosUnassigned => 'Other photos';
+  String get ehwPlusSyncPhotosUnassigned => 'Ostale fotografije';
 
   @override
-  String get ehwPlusSyncHistoryTitle => 'Sync history';
+  String get ehwPlusSyncHistoryTitle => 'Historija sinhronizacije';
 
   @override
   String ehwPlusSyncHistoryCount(int count) {
-    return '$count versions';
+    return '$count verzije';
   }
 
   @override
-  String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
+  String get ehwPlusSyncHistoryEmpty => 'Još nema historije sinhronizacije.';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Load 5 more';
+  String get ehwPlusSyncHistoryLoadMore => 'Učitaj još 5';
 
   @override
-  String get ehwPlusSyncHistoryLoading => 'Loading history…';
+  String get ehwPlusSyncHistoryLoading => 'Učitavanje historije…';
 
   @override
-  String get ehwPlusSyncHistoryUnavailable => 'Sync history is unavailable right now.';
+  String get ehwPlusSyncHistoryUnavailable => 'Historija sinhronizacije trenutno nije dostupna.';
 
   @override
-  String get ehwPlusSyncRestoreTitle => 'Restore this version?';
+  String get ehwPlusSyncRestoreTitle => 'Obnoviti ovu verziju?';
 
   @override
   String get ehwPlusSyncRestoreWarning =>
-      'This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.';
+      'Ovo zamjenjuje podatke na ovom uređaju odabranim snimkom historije u oblaku, a zatim ih sinhronizira nazad u oblakEHW+. Nezabilježene lokalne promjene mogu trajno biti izgubljene.';
 
   @override
   String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
-    return 'Snapshot from $timestamp · $hash';
+    return 'Fotografija sa $timestamp · $hash';
   }
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count items will change';
+    return '$count Stvari će se promijeniti.';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches what is on this device.';
+  String get ehwPlusSyncRestoreNoDiff => 'Ovaj snimak odgovara onome što se nalazi na ovom uređaju.';
 
   @override
   String get ehwPlusSyncRestoreExplorerHint =>
-      'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.';
+      'Navedeni su samo stavke koje bi se promijenile. Nepromijenjeni metri, sobe i fotografije ostaju skriveni.';
 
   @override
-  String get ehwPlusSyncRestoreOnlyLocal => 'Only on this device';
+  String get ehwPlusSyncRestoreOnlyLocal => 'Samo na ovom uređaju';
 
   @override
-  String get ehwPlusSyncRestoreOnlySnapshot => 'Only in this snapshot';
+  String get ehwPlusSyncRestoreOnlySnapshot => 'Samo u ovom trenutku';
 
   @override
-  String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
+  String get ehwPlusSyncRestoreWillUpdate => 'Bit će zamijenjeno';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Object details';
+  String get ehwPlusSyncRestoreHomeDetails => 'Detalji objekta';
 
   @override
-  String get ehwPlusSyncRestoreReadings => 'Readings';
+  String get ehwPlusSyncRestoreReadings => 'Čitanja';
 
   @override
-  String get ehwPlusSyncRestoreDeletedMeters => 'Deleted meters';
+  String get ehwPlusSyncRestoreDeletedMeters => 'Izbrisani metri';
 
   @override
-  String get ehwPlusSyncRestoreConsumptionPoints => 'Grid connections';
+  String get ehwPlusSyncRestoreConsumptionPoints => 'Priključci na mrežu';
 
   @override
   String ehwPlusSyncRestoreChangedCount(int count) {
-    return '$count changed';
+    return '$count promijenjen';
   }
 
   @override
   String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
-    return '$localCount readings here · $cloudCount in snapshot';
+    return '$localCount čitanja ovdje · $cloudCount u pregledu';
   }
 
   @override
@@ -4397,95 +4430,96 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Object name';
+  String get ehwPlusSyncDiffFieldTitle => 'Naziv objekta';
 
   @override
-  String get ehwPlusSyncDiffFieldHouseName => 'House name';
+  String get ehwPlusSyncDiffFieldHouseName => 'Naziv kuće';
 
   @override
-  String get ehwPlusSyncDiffFieldCurrency => 'Currency';
+  String get ehwPlusSyncDiffFieldCurrency => 'Valuta';
 
   @override
-  String get ehwPlusSyncDiffFieldAddress => 'Address';
+  String get ehwPlusSyncDiffFieldAddress => 'Adresa';
 
   @override
-  String get ehwPlusSyncDiffFieldObjectType => 'Home type';
+  String get ehwPlusSyncDiffFieldObjectType => 'Tip doma';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
-    return '…and $count more fields';
+    return '…i $count i više polja';
   }
 
   @override
   String ehwPlusSyncDiffMoreLines(int count) {
-    return '…and $count more lines';
+    return '…i $count više redova';
   }
 
   @override
-  String get ehwPlusSyncRestoreConfirm => 'Restore and sync';
+  String get ehwPlusSyncRestoreConfirm => 'Obnovi i sinhronizuj';
 
   @override
-  String get ehwPlusSyncRestoreFailed => 'Could not restore that history version.';
+  String get ehwPlusSyncRestoreFailed => 'Nije moguće obnoviti tu verziju historije.';
 
   @override
-  String get ehwPlusSyncRestoreApiMissing => 'Restore needs a newer EHW+ Cloud API (history detail not deployed yet).';
+  String get ehwPlusSyncRestoreApiMissing =>
+      'Restore zahtijeva noviji EHW+ Cloud API (detalji historije još nisu implementirani).';
 
   @override
-  String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
+  String get ehwPlusSyncRestoreBusy => 'Sačekajte da se trenutna sinhronizacija završi, pa pokušajte ponovo.';
 
   @override
-  String get ehwPlusSyncPhotoUploadStarted => 'Meter photo upload started in the background.';
+  String get ehwPlusSyncPhotoUploadStarted => 'Početno je učitavanje fotografije s mjerača u pozadini.';
 
   @override
-  String get ehwPlusSyncPhotoUploadSucceeded => 'Meter photos uploaded to EHW+ Cloud.';
+  String get ehwPlusSyncPhotoUploadSucceeded => 'Fotografije sa mjerača su otpremljene na EHW+ Cloud.';
 
   @override
   String get ehwPlusSyncPhotoUploadFailed =>
-      'Meter photos could not be uploaded. Your reading is saved on this device.';
+      'Fotografije mjerača nisu mogle biti otpremljene. Vaše očitanje je spremljeno na ovom uređaju.';
 
   @override
   String get ehwPlusSyncPhotoUploadStorageFailed =>
-      'Photo storage is unavailable. Your reading is saved on this device.';
+      'Pohrana fotografija nije dostupna. Vaše čitanje se sprema na ovom uređaju.';
 
   @override
   String get ehwPlusSyncPhotoUploadApiFailed =>
-      'Photos could not reach EHW+ Cloud. Your reading is saved on this device.';
+      'Fotografije nisu uspjele stići u oblak EHW+. Vaše čitanje je spremljeno na ovom uređaju.';
 
   @override
-  String get ehwPlusSyncStatePhotosPending => 'Data in sync · photos uploading';
+  String get ehwPlusSyncStatePhotosPending => 'Podaci su sinhronizirani · fotografije se otpremaju';
 
   @override
-  String get ehwPlusSyncStatePhotosFailed => 'Data saved · photos not synced';
+  String get ehwPlusSyncStatePhotosFailed => 'Podaci sačuvani · fotografije nisu sinhronizirane';
 
   @override
   String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
-    return '$localCount on this device → $cloudCount in this snapshot';
+    return '$localCount na ovom uređaju → $cloudCount u ovom snimku';
   }
 
   @override
-  String get ehwPlusSyncDiffFieldCounters => 'Meters';
+  String get ehwPlusSyncDiffFieldCounters => 'Mjerači';
 
   @override
-  String get ehwPlusSyncDiffFieldPhotoFiles => 'Meter photos';
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'Fotografije mjerača';
 
   @override
-  String get ehwPlusSyncDiffFieldActivities => 'Activities';
+  String get ehwPlusSyncDiffFieldActivities => 'Aktivnosti';
 
   @override
-  String get ehwPlusSyncDiffFieldRooms => 'Rooms';
+  String get ehwPlusSyncDiffFieldRooms => 'Sobe';
 
   @override
-  String get ehwPlusSyncDiffFieldContracts => 'Contracts';
+  String get ehwPlusSyncDiffFieldContracts => 'Ugovori';
 
   @override
-  String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
+  String get ehwPlusSyncDiffFieldLastUpdated => 'Posljednje ažurirano';
 
   @override
-  String get stripeCheckoutComingSoonTitle => 'Web purchase coming soon';
+  String get stripeCheckoutComingSoonTitle => 'Web kupovina uskoro';
 
   @override
   String get stripeCheckoutComingSoonDescription =>
-      'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.';
+      'Kupovine su trenutno dostupne u aplikaciji EHW+. Premium i jednokratne kupovine će uskoro biti dostupne ovdje.';
 
   @override
   String get stripeCheckoutSubscriptionLabel => 'PLAN';
@@ -4494,76 +4528,76 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
 
   @override
-  String get stripeCheckoutPremiumDescription => 'Full insights and sync across your devices. Monthly or yearly.';
+  String get stripeCheckoutPremiumDescription =>
+      'Potpuni uvidi i sinhronizacija na svim vašim uređajima. Mjesečno ili godišnje.';
 
   @override
-  String get stripeCheckoutFeatureWeather =>
-      'Weather and Heating: Outdoor temperature and consumption in a single chart.';
+  String get stripeCheckoutFeatureWeather => 'Vrijeme i grijanje: vanjska temperatura i potrošnja u jednom grafikonu.';
 
   @override
   String get stripeCheckoutFeatureStatistics =>
-      'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.';
+      'Statistika: Usporedbe iz godine u godinu, detaljan pregled troškova, prilagođavanje vremenskih razdoblja, izvoz u Excel.';
 
   @override
   String get stripeCheckoutFeatureCloudSync =>
-      'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.';
+      'Sinkronizacija u oblaku: dvije nekretnine i bilo koji broj brojila na vašem telefonu, tabletu i webu.';
 
   @override
   String get stripeCheckoutFeatureMultipleProperties =>
-      'Multiple Properties: Manage apartments or houses separately within their own properties.';
+      'Više nekretnina: Upravljajte stanovima ili kućama zasebno unutar njihovih vlastitih nekretnina.';
 
   @override
   String get stripeCheckoutFeatureAdditionalMeters =>
-      'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.';
+      'Dodatni brojila: brojila za praćenje PV sistema, solarno-termalnih sistema i potrošnje vode.';
 
   @override
-  String get stripeCheckoutPriceLoading => 'Loading price…';
+  String get stripeCheckoutPriceLoading => 'Učitavanje cijene…';
 
   @override
-  String get stripeCheckoutPriceUnavailable => 'Price currently unavailable';
+  String get stripeCheckoutPriceUnavailable => 'Cijena trenutno nije dostupna';
 
   @override
-  String get stripeCheckoutYearly => 'Yearly';
+  String get stripeCheckoutYearly => 'Godišnje';
 
   @override
-  String get stripeCheckoutMonthly => 'Monthly';
+  String get stripeCheckoutMonthly => 'Mjesečno';
 
   @override
-  String get stripeCheckoutPeriodYear => '/ year';
+  String get stripeCheckoutPeriodYear => '/ godina';
 
   @override
-  String get stripeCheckoutPeriodMonth => '/ month';
+  String get stripeCheckoutPeriodMonth => '/ mjesec';
 
   @override
-  String get stripeCheckoutScheduled => 'Scheduled';
+  String get stripeCheckoutScheduled => 'Zakazano';
 
   @override
-  String get stripeCheckoutRedirecting => 'Redirecting…';
+  String get stripeCheckoutRedirecting => 'Preusmjeravanje…';
 
   @override
-  String get stripeCheckoutManage => 'Manage';
+  String get stripeCheckoutManage => 'Upravljaj';
 
   @override
-  String get stripeCheckoutSwitchPlan => 'Switch plan';
+  String get stripeCheckoutSwitchPlan => 'Promijeni plan';
 
   @override
-  String get stripeCheckoutChoosePremium => 'Choose Premium';
+  String get stripeCheckoutChoosePremium => 'Odaberite Premium';
 
   @override
-  String get stripeCheckoutLifetimeTitle => 'Lifetime purchases';
+  String get stripeCheckoutLifetimeTitle => 'Životne kupovine';
 
   @override
   String get stripeCheckoutLifetimeDescription =>
-      'The following items can also be purchased individually as an alternative to a subscription.';
+      'Sljedeće stavke se također mogu kupiti pojedinačno kao alternativu pretplati.';
 
   @override
-  String get stripeCheckoutIncludedInSubscription => 'Included in subscription';
+  String get stripeCheckoutIncludedInSubscription => 'Uključeno u pretplatu';
 
   @override
-  String get stripeCheckoutBuyNow => 'Buy now';
+  String get stripeCheckoutBuyNow => 'Kupi sada';
 
   @override
-  String get stripeCheckoutDirectProvider => 'Direct with EHW+';
+  String get stripeCheckoutDirectProvider => 'Direktno sEHW+';
 
   @override
   String get stripeCheckoutGooglePlay => 'Google Play';
@@ -4572,62 +4606,62 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String get stripeCheckoutAppStore => 'App Store';
 
   @override
-  String get stripeCheckoutPurchaseMethodTitle => 'How would you like to pay?';
+  String get stripeCheckoutPurchaseMethodTitle => 'Kako želite platiti?';
 
   @override
-  String get stripeCheckoutPurchaseMethodDescription => 'Choose the purchase method that suits you.';
+  String get stripeCheckoutPurchaseMethodDescription => 'Odaberite metodu kupovine koja vam odgovara.';
 
   @override
-  String get stripeCheckoutPayDirectly => 'Pay directly with EHW+';
+  String get stripeCheckoutPayDirectly => 'Platite direktno putem EHW+';
 
   @override
   String get stripeCheckoutPayDirectlyDescription =>
-      'Pay securely and manage your subscription in the EHW+ customer portal.';
+      'Platite sigurno i upravljajte svojom pretplatom na korisničkom portalu EHW+.';
 
   @override
-  String get stripeCheckoutGooglePlayDescription => 'Purchase and management through your Google account.';
+  String get stripeCheckoutGooglePlayDescription => 'Kupovina i upravljanje putem vašeg Google naloga.';
 
   @override
-  String get stripeCheckoutAppStoreDescription => 'Purchase and management through your Apple account.';
+  String get stripeCheckoutAppStoreDescription => 'Kupovina i upravljanje putem vašeg Apple naloga.';
 
   @override
-  String get stripeCheckoutPayDirectlyButton => 'Pay directly';
+  String get stripeCheckoutPayDirectlyButton => 'Platite direktno';
 
   @override
-  String get stripeCheckoutContinueInStore => 'Continue in store';
+  String get stripeCheckoutContinueInStore => 'Nastavite u prodavnici';
 
   @override
-  String get stripeCheckoutFailed => 'Could not start checkout. Please try again later.';
+  String get stripeCheckoutFailed => 'Nije moguće pokrenuti naplatu. Molimo pokušajte ponovo kasnije.';
 
   @override
-  String get stripePortalFailed => 'Could not open the customer portal. Please try again later.';
+  String get stripePortalFailed => 'Nije moguće otvoriti korisnički portal. Molimo pokušajte ponovo kasnije.';
 
   @override
   String stripeSubscriptionUpdated(Object interval, Object date) {
-    return 'Update scheduled: switch to $interval on $date.';
+    return 'Ažuriranje zakazano: prelazak na $interval na $date.';
   }
 
   @override
-  String get stripeSubscriptionProviderGoogle => 'Subscribed via Google Play';
+  String get stripeSubscriptionProviderGoogle => 'Pretplata putem Google Playa';
 
   @override
-  String get stripeSubscriptionProviderApple => 'Subscribed via App Store';
+  String get stripeSubscriptionProviderApple => 'Pretplaćeno putem App Store';
 
   @override
-  String get stripeSubscriptionProviderDirect => 'Subscribed via EHW+';
+  String get stripeSubscriptionProviderDirect => 'Pretplaćeno putem EHW+';
 
   @override
-  String get stripeSubscriptionProviderUnknown => 'Subscribed';
+  String get stripeSubscriptionProviderUnknown => 'Pretplaćeno';
 
   @override
-  String get stripePurchaseProviderApple => 'Purchased in the App Store';
+  String get stripePurchaseProviderApple => 'Kupljeno u App Store';
 
   @override
-  String get stripePurchaseProviderGoogle => 'Purchased in the Play Store';
+  String get stripePurchaseProviderGoogle => 'Kupljeno u Play Store';
 
   @override
-  String get stripePurchaseProviderDirect => 'Purchased with EHW+';
+  String get stripePurchaseProviderDirect => 'Kupljeno uz EHW+';
 
   @override
-  String get stripePurchaseProviderUnknown => 'Purchased';
+  String get stripePurchaseProviderUnknown => 'Kupljeno';
 }

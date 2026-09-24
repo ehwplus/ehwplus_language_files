@@ -359,13 +359,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get commonLogin => 'Đăng nhập';
 
   @override
-  String get commonLoginCanceled => 'Sign-in was not completed.';
+  String get commonLoginCanceled => 'Quá trình đăng nhập chưa hoàn tất.';
 
   @override
-  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'Trình duyệt không thể hoàn tất quá trình đăng nhập.';
 
   @override
-  String get commonLoginWithBrowser => 'Try another way';
+  String get commonLoginWithBrowser => 'Hãy thử một cách khác';
 
   @override
   String get commonLogout => 'Đăng xuất';
@@ -2227,6 +2227,38 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'MUA POWEROPTI';
 
   @override
+  String get powerfoxSurveyTitle => 'Tự động nhận số liệu đo đếm';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'Quý vị có sử dụng đồng hồ điện kỹ thuật số không?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Trong tương lai, quý khách có muốn nhận số liệu đo đếm từ đồng hồ điện một cách tự động không?';
+
+  @override
+  String get powerfoxSurveyYes => 'Vâng';
+
+  @override
+  String get powerfoxSurveyNo => 'Không';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'Không, tôi muốn tiếp tục đọc theo cách thủ công.';
+
+  @override
+  String get powerfoxInfoTitle => 'Đọc chỉ số đồng hồ tự động với Powerfox';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'Với thiết bị Powerfox Poweropti, các chỉ số đo điện của quý vị sẽ được tự động nhập vào trang web EHW+.';
+
+  @override
+  String get powerfoxInfoDiscount => 'Giảm giá 5 € khi sử dụng mã EHW5';
+
+  @override
+  String get powerfoxInfoShop => 'TRUY CẬP CỬA HÀNG POWERFOX';
+
+  @override
   String get updateNoticeDebugTitle => 'Thông báo cập nhật';
 
   @override
@@ -3972,412 +4004,420 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get changelogTitle => 'Bản ghi thay đổi';
 
   @override
-  String get ehwPlusSyncTitle => 'EHW+ Cloud';
+  String get ehwPlusSyncTitle => 'EHW+ Đám mây';
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.';
+      'EHW+ Ứng dụng này sử dụng công nghệ đám mây để đồng bộ hóa các đối tượng của quý vị. Vui lòng đăng nhập, chọn tối đa 2 đối tượng và quản lý trạng thái cũng như các thao tác hợp nhất tại đây.';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
+  String get ehwPlusSyncUseAsPrimary => 'Sử dụng Dịch vụ đám mâyEHW+ để đồng bộ hóa';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your sync.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ Đám mây chính là công cụ đồng bộ hóa của quý vị.';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Cloud is now your sync.';
+  String get ehwPlusSyncActivated => 'EHW+ Đám mây giờ đây chính là giải pháp đồng bộ hóa của quý vị.';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Could not enable EHW+ Cloud sync.';
+  String get ehwPlusSyncActivateFailed => 'Không thể kích hoạt tính năng đồng bộ hóa đám mây của EHW+.';
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+      'EHW+ Dịch vụ đám mây sẽ tự động cập nhật các đối tượng đã chọn trên tất cả các thiết bị của quý vị. Quý vị có thể chọn những nội dung cần đồng bộ hóa, kiểm tra trạng thái và giải quyết các xung đột khi cả hai bên đều có thay đổi.';
 
   @override
-  String get ehwPlusSyncObjectsSectionTitle => 'Objects';
+  String get ehwPlusSyncObjectsSectionTitle => 'Đối tượng';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
+  String get ehwPlusSyncSelectSectionTitle => 'Các đối tượng cần đồng bộ hóa';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Select up to $max objects. Changes on those objects sync automatically while EHW+ Cloud is active.';
+    return 'Quý vị có thể chọn tối đa $max đối tượng. Các thay đổi đối với những đối tượng này sẽ được đồng bộ hóa tự động khi dịch vụ EHW+ Cloud đang hoạt động.';
   }
 
   @override
   String ehwPlusSyncSelectedCount(int count, int max) {
-    return '$count of $max selected';
+    return '$count trong số các tác phẩm được chọn từ “$max”';
   }
 
   @override
-  String get ehwPlusSyncManagedSectionTitle => 'Sync status';
+  String get ehwPlusSyncManagedSectionTitle => 'Trạng thái đồng bộ hóa';
 
   @override
-  String get ehwPlusSyncManagedSectionEmpty => 'Select an object above to see cloud status, history, and merges.';
+  String get ehwPlusSyncManagedSectionEmpty =>
+      'Vui lòng chọn một đối tượng ở trên để xem tình trạng đám mây, lịch sử và các lần hợp nhất.';
 
   @override
-  String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
+  String get ehwPlusSyncCloudStatusLoading => 'Đang tải trạng thái đám mây của EHW+…';
 
   @override
-  String get ehwPlusSyncCloudStatusMissing => 'No cloud copy yet.';
+  String get ehwPlusSyncCloudStatusMissing => 'Hiện chưa có bản sao trên đám mây.';
 
   @override
-  String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
+  String get ehwPlusSyncCloudStatusUnavailable => 'Không thể tải trạng thái đám mây của EHW+.';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Syncing this object to EHW+ Cloud…';
+  String get ehwPlusSyncSyncingSelection => 'Đang đồng bộ hóa đối tượng này với đám mây củEHW+…';
 
   @override
-  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+  String get ehwPlusSyncConflictsHeader => 'Xung đột';
 
   @override
-  String get ehwPlusSyncTakeServer => 'Take server version';
+  String get ehwPlusSyncTakeServer => 'Lấy phiên bản máy chủ';
 
   @override
-  String get ehwPlusSyncUseLocal => 'This device';
+  String get ehwPlusSyncUseLocal => 'Thiết bị này';
 
   @override
-  String get ehwPlusSyncUseCloud => 'Cloud';
+  String get ehwPlusSyncUseCloud => 'Đám mây';
 
   @override
-  String get ehwPlusSyncUseAllLocal => 'All from this device';
+  String get ehwPlusSyncUseAllLocal => 'Tất cả đều từ thiết bị này';
 
   @override
-  String get ehwPlusSyncUseAllCloud => 'All from cloud';
+  String get ehwPlusSyncUseAllCloud => 'Tất cả đều dựa trên nền tảng đám mây';
 
   @override
-  String get ehwPlusSyncApplyResolution => 'Apply and sync';
+  String get ehwPlusSyncApplyResolution => 'Áp dụng và đồng bộ hóa';
 
   @override
-  String get ehwPlusSyncResolutionMixed => 'Mixed';
+  String get ehwPlusSyncResolutionMixed => 'Hỗn hợp';
 
   @override
-  String get ehwPlusSyncConflictExplorerHint => 'Tap This device or Cloud on each row. Apply uploads that mix.';
+  String get ehwPlusSyncConflictExplorerHint =>
+      'Hãy nhấn vào “Thiết bị này” hoặc “Đám mây” trên mỗi hàng. Áp dụng các tùy chọn tải lên kết hợp.';
 
   @override
-  String get ehwPlusSyncKeepVersionLabel => 'Keep this version';
+  String get ehwPlusSyncKeepVersionLabel => 'Vui lòng giữ nguyên phiên bản này';
 
   @override
-  String get ehwPlusSyncFolderPickLabel => 'All in this folder';
+  String get ehwPlusSyncFolderPickLabel => 'Tất cả các tệp trong thư mục này';
 
   @override
-  String get ehwPlusSyncNotOnDevice => 'Not on this device';
+  String get ehwPlusSyncNotOnDevice => 'Không có trên thiết bị này';
 
   @override
-  String get ehwPlusSyncNotInCloud => 'Not in the cloud';
+  String get ehwPlusSyncNotInCloud => 'Không lưu trữ trên đám mây';
 
   @override
   String ehwPlusSyncOutcomeKeepLocal(String value) {
-    return 'Keep $value on both.';
+    return 'Hãy duy trì chế độ “$value” trên cả hai thiết bị.';
   }
 
   @override
   String ehwPlusSyncOutcomeUseCloud(String value) {
-    return 'Use cloud value $value.';
+    return 'Vui lòng sử dụng giá trị “$value” trên nền tảng đám mây.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeSkipAdd => 'Skip this cloud item.';
+  String get ehwPlusSyncOutcomeSkipAdd => 'Bỏ qua mục trên đám mây này.';
 
   @override
   String ehwPlusSyncOutcomeAddCloud(String value) {
-    return 'Add $value from the cloud.';
+    return 'Vui lòng thêm “$value” từ dịch vụ đám mây.';
   }
 
   @override
   String ehwPlusSyncOutcomeKeepRemoved(String value) {
-    return 'Keep $value and upload it.';
+    return 'Hãy giữ nguyên tệp “$value” và tải tệp này lên.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeDropLocal => 'Remove this item to match the cloud.';
+  String get ehwPlusSyncOutcomeDropLocal => 'Hãy gỡ bỏ vật phẩm này để phù hợp với đám mây.';
 
   @override
-  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+  String get ehwPlusSyncStatusCreated => 'Được tạo trên nền tảng đám mây';
 
   @override
-  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+  String get ehwPlusSyncStatusFastForward => 'Đã tải lên (tua nhanh)';
 
   @override
-  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+  String get ehwPlusSyncStatusUpdateRequired => 'Máy chủ có dữ liệu mới hơn';
 
   @override
-  String get ehwPlusSyncStatusMerged => 'Merged with server';
+  String get ehwPlusSyncStatusMerged => 'Đã hợp nhất với máy chủ';
 
   @override
-  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+  String get ehwPlusSyncStatusConflict => 'Xung đột — giải quyết như sau';
 
   @override
-  String get syncProviderActive => 'Active sync provider';
+  String get syncProviderActive => 'Nhà cung cấp dịch vụ Active Sync';
 
   @override
-  String get syncProviderNoneActive => 'No synchronization selected. Choose an available method below.';
+  String get syncProviderNoneActive =>
+      'Chưa chọn phương thức đồng bộ hóa nào. Vui lòng chọn một phương thức có sẵn dưới đây.';
 
   @override
-  String get syncTurnOff => 'Turn sync off';
+  String get syncTurnOff => 'Tắt tính năng đồng bộ hóa';
 
   @override
   String get syncOverviewIntro =>
-      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
+      'Tính năng Đồng bộ hóa sẽ lưu giữ bản sao lưu thông tin về ngôi nhà và số liệu đồng hồ đo của quý vị trên đám mây. Nếu quý vị đổi sang điện thoại mới hoặc cài đặt lại ứng dụng, quý vị có thể khôi phục dữ liệu của mình. Quý vị có thể sử dụng một phương thức tại một thời điểm, hoặc tắt hoàn toàn tính năng đồng bộ hóa.';
 
   @override
-  String get syncSelectProviderLabel => 'Active sync method';
+  String get syncSelectProviderLabel => 'Phương pháp đồng bộ hóa chủ động';
 
   @override
   String get syncSelectProviderHelp =>
-      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
+      'Vui lòng chọn một phương thức. Chọn “Không đồng bộ hóa” để tắt tính năng đồng bộ hóa. Vui lòng mở một phương thức dưới đây để xem chi tiết và đăng nhập nếu cần.';
 
   @override
-  String get syncProvidersSectionTitle => 'Available sync methods';
+  String get syncProvidersSectionTitle => 'Các phương thức đồng bộ hóa hiện có';
 
   @override
-  String get syncProviderSegmentNone => 'No synchronization';
+  String get syncProviderSegmentNone => 'Không đồng bộ hóa';
 
   @override
-  String get syncProviderSegmentNoneShort => 'Off';
+  String get syncProviderSegmentNoneShort => 'Tắt';
 
   @override
   String get syncProviderSegmentGoogle => 'Google Drive';
 
   @override
-  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+  String get syncProviderSegmentEhwPlus => 'EHW+ Đám mây';
 
   @override
-  String get syncProviderSegmentGoogleShort => 'Drive';
+  String get syncProviderSegmentGoogleShort => 'Lái xe';
 
   @override
-  String get syncProviderSegmentEhwPlusShort => 'Cloud';
+  String get syncProviderSegmentEhwPlusShort => 'Đám mây';
 
   @override
-  String get syncProviderNoneSummary => 'Your data will remain only on this device and will not be synced.';
+  String get syncProviderNoneSummary =>
+      'Dữ liệu của quý vị sẽ chỉ được lưu trữ trên thiết bị này và sẽ không được đồng bộ hóa.';
 
   @override
-  String get syncUseProvider => 'Use for sync';
+  String get syncUseProvider => 'Sử dụng để đồng bộ hóa';
 
   @override
   String get syncProviderGoogleSummary =>
-      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+      'Lưu trữ dữ liệu của quý vị dưới dạng các tệp tin trong tài khoản “Google Drive” của riêng quý vị. Quý vị đăng nhập bằng tài khoản Google. Đây là lựa chọn phù hợp nếu quý vị đã sử dụng Google và muốn lưu các tệp tin này trong Google Drive của mình.';
 
   @override
   String get syncProviderEhwPlusSummary =>
-      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+      'Lưu trữ dữ liệu của quý vị trên đám mây EHW+ thông qua tài khoản EHW+ của quý vị. Hoạt động đồng bộ trên tất cả các thiết bị của quý vị mà không cần Google Drive. Sẽ hiệu quả nhất nếu quý vị đăng nhập bằng EHW+.';
 
   @override
   String get syncProviderGoogleDetails =>
-      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
+      'Google Drive Tính năng Đồng bộ hóa sẽ sao chép dữ liệu đối tượng của quý vị vào một thư mục trong tài khoản Google của quý vị. Vui lòng đăng nhập bằng tài khoản Google tại trang này để thiết lập kết nối. Các thay đổi sẽ được đồng bộ hóa tự động khi quý vị đang trực tuyến. Các tệp của quý vị vẫn được lưu trữ trên Drive, do đó quý vị cũng có thể xem chúng bên ngoài ứng dụng. Lưu ý: nếu sau này quý vị chuyển sang sử dụng dịch vụ lưu trữ đám mây “EHW+”, thì “Google Drive” sẽ không còn là phương án sao lưu đang hoạt động cho đến khi quý vị chuyển trở lại.';
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.';
+      'EHW+ Dịch vụ đám mây là tính năng đồng bộ hóa của ứng dụng này: dữ liệu đối tượng của quý vị được lưu trữ trên các máy chủ EHW+ và luôn được đồng bộ hóa trên tất cả các thiết bị thông qua tài khoản EHW+ của quý vị. Quý vị có thể chọn tối đa hai đối tượng để đồng bộ hóa. Nếu cả hai bên đều thay đổi cùng một trường dữ liệu, quý vị có thể giải quyết xung đột tại đây. Tính năng chia sẻ đối tượng, phòng hoặc bộ đếm với người khác dự kiến sẽ được triển khai trong tương lai.';
 
   @override
-  String get syncOpenProviderDetails => 'Open details';
+  String get syncOpenProviderDetails => 'Xem chi tiết';
 
   @override
-  String get syncProviderSignedIn => 'Signed in';
+  String get syncProviderSignedIn => 'Đã đăng nhập';
 
   @override
-  String get syncProviderNotSignedIn => 'Not signed in';
+  String get syncProviderNotSignedIn => 'Chưa đăng nhập';
 
   @override
-  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
+  String get syncNeedsEhwPlusAccount => 'Vui lòng đăng nhập bằng tài khoản EHW+ của quý vị để sử dụng EHW+ Cloud.';
 
   @override
   String get syncNeedsGoogleAccount =>
-      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+      'Vui lòng đăng nhập bằng tài khoản Google để sử dụng tính năng Đồng bộ hóa Google Drive. Vui lòng truy cập Google Drive theo hướng dẫn dưới đây để thực hiện kết nối.';
 
   @override
-  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+  String get syncErrorNetwork => 'Không kết nối được. Vui lòng kiểm tra kết nối mạng của quý vị và thử lại.';
 
   @override
-  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+  String get syncErrorSessionExpired =>
+      'Phiên làm việc của quý vị trên EHW+ đã hết hạn. Vui lòng đăng nhập lại và thử lại.';
 
   @override
   String get syncErrorAccessDenied =>
-      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+      'Tính năng đồng bộ hóa trên đám mây không được phép đối với tài khoản này. Vui lòng đăng nhập lại hoặc kiểm tra xem gói dịch vụ “EHW+” của quý vị có bao gồm tính năng đồng bộ hóa trên đám mây hay không.';
 
   @override
   String get syncErrorPayloadTooLarge =>
-      'This home is too large to sync right now. Try again later or contact support.';
+      'Ngôi nhà này quá lớn nên hiện tại không thể đồng bộ hóa được. Vui lòng thử lại sau hoặc liên hệ với bộ phận hỗ trợ.';
 
   @override
-  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+  String get syncErrorServiceUnavailable =>
+      'EHW+ Dịch vụ đám mây hiện đang tạm thời không khả dụng. Vui lòng thử lại sau một lát.';
 
   @override
-  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+  String get syncErrorNotReady =>
+      'Tính năng đồng bộ hóa trên đám mây hiện chưa sẵn sàng. Vui lòng đợi một lát rồi thử lại.';
 
   @override
-  String get syncErrorUnknown => 'Sync failed. Please try again.';
+  String get syncErrorUnknown => 'Không đồng bộ hóa được. Vui lòng thử lại.';
 
   @override
-  String get syncTurnedOff => 'Cloud sync is turned off.';
+  String get syncTurnedOff => 'Tính năng đồng bộ hóa trên đám mây đã bị tắt.';
 
   @override
-  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+  String get syncTurnOffFailed => 'Không thể tắt tính năng đồng bộ hóa. Vui lòng thử lại.';
 
   @override
-  String get syncNoHomesYet => 'No homes to sync yet.';
+  String get syncNoHomesYet => 'Hiện chưa có ngôi nhà nào để đồng bộ hóa.';
 
   @override
-  String get syncAllNow => 'Sync all';
+  String get syncAllNow => 'Đồng bộ hóa tất cả';
 
   @override
   String syncAllFinished(int ok, int total) {
-    return 'Finished syncing $ok of $total.';
+    return 'Đã hoàn tất việc đồng bộ hóa tệp $ok từ trang web $total.';
   }
 
   @override
   String syncAllFinishedWithFailures(int ok, int total, int failed) {
-    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+    return 'Đã hoàn tất việc đồng bộ hóa $ok từ $total. Quá trình $failed đã thất bại — xin vui lòng xem các trang chủ được đánh dấu bên dưới.';
   }
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
+      'Đối tượng này có sự khác biệt trên máy chủ. Hãy mở một hàng, so sánh cả hai phiên bản và chọn phiên bản nào để giữ lại — hoặc kết hợp cả hai. Các chỉnh sửa không trùng lặp sẽ được hợp nhất tự động.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
+  String get ehwPlusSyncAutoSyncLabel => 'Đồng bộ hóa đối tượng này';
 
   @override
-  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';
+  String get ehwPlusSyncAutoSyncLimit =>
+      'Quý vị có thể đồng bộ tối đa 2 đối tượng. Vui lòng tắt một trong hai đối tượng trước.';
 
   @override
-  String get ehwPlusSyncSideLocal => 'This device';
+  String get ehwPlusSyncSideLocal => 'Thiết bị này';
 
   @override
-  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
+  String get ehwPlusSyncSideCloud => 'EHW+ Đám mây';
 
   @override
-  String get ehwPlusSyncStateInSync => 'In sync';
+  String get ehwPlusSyncStateInSync => 'Đồng bộ';
 
   @override
-  String get ehwPlusSyncStateOutOfSync => 'Not in sync';
+  String get ehwPlusSyncStateOutOfSync => 'Không đồng bộ';
 
   @override
-  String get ehwPlusSyncStateChecking => 'Checking sync status…';
+  String get ehwPlusSyncStateChecking => 'Đang kiểm tra trạng thái đồng bộ hóa…';
 
   @override
-  String get ehwPlusSyncStateMissingCloud => 'Not on cloud yet';
+  String get ehwPlusSyncStateMissingCloud => 'Chưa được đưa lên đám mây';
 
   @override
-  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+  String get ehwPlusSyncDiffPanelTitle => 'Thiết bị này so với đám mây';
 
   @override
-  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
+  String get ehwPlusSyncDiffPanelEmpty => 'Không có xung đột trường nào trong lần đồng bộ hóa gần đây nhất.';
 
   @override
-  String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
+  String get ehwPlusSyncRemoveFromCloud => 'Xóa khỏi đám mây';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this object from EHW+ Cloud?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Xóa đối tượng này khỏi đám mâyEHW+?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.';
+      'Bản sao trên các máy chủ EHW+ sẽ bị xóa. Dữ liệu trên thiết bị này vẫn được giữ lại. Quý vị có thể chọn lại đối tượng này sau này để tải lên một bản sao mới.';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Removed this object from EHW+ Cloud.';
+  String get ehwPlusSyncRemovedFromCloud => 'Đã xóa đối tượng này khỏi dịch vụ đám mâyEHW+.';
 
   @override
-  String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
+  String get ehwPlusSyncPhotosSectionTitle => 'Hình ảnh được đồng bộ hóa';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
-    return '$readyCount of $total synced images';
+    return '$readyCount các hình ảnh được đồng bộ hóa từ $total';
   }
 
   @override
-  String get ehwPlusSyncPhotosEmpty => 'No synced images yet.';
+  String get ehwPlusSyncPhotosEmpty => 'Hiện chưa có hình ảnh nào được đồng bộ hóa.';
 
   @override
-  String get ehwPlusSyncPhotosShowMore => 'Show more images';
+  String get ehwPlusSyncPhotosShowMore => 'Xem thêm hình ảnh';
 
   @override
-  String get ehwPlusSyncPhotosLoadThumbs => 'Load thumbnails';
+  String get ehwPlusSyncPhotosLoadThumbs => 'Tải hình thu nhỏ';
 
   @override
-  String get ehwPlusSyncPhotosLoading => 'Loading images…';
+  String get ehwPlusSyncPhotosLoading => 'Đang tải hình ảnh…';
 
   @override
-  String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
+  String get ehwPlusSyncPhotosUnavailable => 'Hiện tại không thể truy cập các hình ảnh trên đám mây.';
 
   @override
-  String get ehwPlusSyncPhotosUnassigned => 'Other photos';
+  String get ehwPlusSyncPhotosUnassigned => 'Các bức ảnh khác';
 
   @override
-  String get ehwPlusSyncHistoryTitle => 'Sync history';
+  String get ehwPlusSyncHistoryTitle => 'Lịch sử đồng bộ hóa';
 
   @override
   String ehwPlusSyncHistoryCount(int count) {
-    return '$count versions';
+    return '$count các phiên bản';
   }
 
   @override
-  String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
+  String get ehwPlusSyncHistoryEmpty => 'Hiện chưa có lịch sử đồng bộ hóa.';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Load 5 more';
+  String get ehwPlusSyncHistoryLoadMore => 'Tải thêm 5 mục nữa';
 
   @override
-  String get ehwPlusSyncHistoryLoading => 'Loading history…';
+  String get ehwPlusSyncHistoryLoading => 'Đang tải lịch sử…';
 
   @override
-  String get ehwPlusSyncHistoryUnavailable => 'Sync history is unavailable right now.';
+  String get ehwPlusSyncHistoryUnavailable => 'Hiện tại, lịch sử đồng bộ hóa không khả dụng.';
 
   @override
-  String get ehwPlusSyncRestoreTitle => 'Restore this version?';
+  String get ehwPlusSyncRestoreTitle => 'Có muốn khôi phục phiên bản này không?';
 
   @override
   String get ehwPlusSyncRestoreWarning =>
-      'This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.';
+      'Thao tác này sẽ thay thế dữ liệu trên thiết bị này bằng bản sao lưu lịch sử trên đám mây đã chọn, sau đó đồng bộ hóa lại dữ liệu đó lên đám mEHW+. Các thay đổi cục bộ chưa được lưu có thể bị mất vĩnh viễn.';
 
   @override
   String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
-    return 'Snapshot from $timestamp · $hash';
+    return 'Ảnh chụp màn hình từ $timestamp · $hash';
   }
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count items will change';
+    return '$count các mặt hàng sẽ thay đổi';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches what is on this device.';
+  String get ehwPlusSyncRestoreNoDiff => 'Bản sao lưu này phản ánh chính xác những gì có trên thiết bị này.';
 
   @override
   String get ehwPlusSyncRestoreExplorerHint =>
-      'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.';
+      'Chỉ những mục có thay đổi mới được liệt kê. Các chỉ số, phòng và hình ảnh không thay đổi sẽ vẫn được ẩn đi.';
 
   @override
-  String get ehwPlusSyncRestoreOnlyLocal => 'Only on this device';
+  String get ehwPlusSyncRestoreOnlyLocal => 'Chỉ trên thiết bị này';
 
   @override
-  String get ehwPlusSyncRestoreOnlySnapshot => 'Only in this snapshot';
+  String get ehwPlusSyncRestoreOnlySnapshot => 'Chỉ có trong ảnh chụp màn hình này';
 
   @override
-  String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
+  String get ehwPlusSyncRestoreWillUpdate => 'Sẽ được thay thế';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Object details';
+  String get ehwPlusSyncRestoreHomeDetails => 'Chi tiết về đối tượng';
 
   @override
-  String get ehwPlusSyncRestoreReadings => 'Readings';
+  String get ehwPlusSyncRestoreReadings => 'Các bài đọc';
 
   @override
-  String get ehwPlusSyncRestoreDeletedMeters => 'Deleted meters';
+  String get ehwPlusSyncRestoreDeletedMeters => 'Các đồng hồ đã bị tháo dỡ';
 
   @override
-  String get ehwPlusSyncRestoreConsumptionPoints => 'Grid connections';
+  String get ehwPlusSyncRestoreConsumptionPoints => 'Kết nối lưới điện';
 
   @override
   String ehwPlusSyncRestoreChangedCount(int count) {
-    return '$count changed';
+    return '$count đã thay đổi';
   }
 
   @override
   String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
-    return '$localCount readings here · $cloudCount in snapshot';
+    return '$localCount các bài viết tại đây · Tổng quan về “$cloudCount”';
   }
 
   @override
@@ -4386,173 +4426,177 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Object name';
+  String get ehwPlusSyncDiffFieldTitle => 'Tên đối tượng';
 
   @override
-  String get ehwPlusSyncDiffFieldHouseName => 'House name';
+  String get ehwPlusSyncDiffFieldHouseName => 'Tên ngôi nhà';
 
   @override
-  String get ehwPlusSyncDiffFieldCurrency => 'Currency';
+  String get ehwPlusSyncDiffFieldCurrency => 'Đơn vị tiền tệ';
 
   @override
-  String get ehwPlusSyncDiffFieldAddress => 'Address';
+  String get ehwPlusSyncDiffFieldAddress => 'Địa chỉ';
 
   @override
-  String get ehwPlusSyncDiffFieldObjectType => 'Home type';
+  String get ehwPlusSyncDiffFieldObjectType => 'Loại nhà';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
-    return '…and $count more fields';
+    return '…và $count các lĩnh vực khác';
   }
 
   @override
   String ehwPlusSyncDiffMoreLines(int count) {
-    return '…and $count more lines';
+    return '…và $count thêm các dòng khác';
   }
 
   @override
-  String get ehwPlusSyncRestoreConfirm => 'Restore and sync';
+  String get ehwPlusSyncRestoreConfirm => 'Khôi phục và đồng bộ hóa';
 
   @override
-  String get ehwPlusSyncRestoreFailed => 'Could not restore that history version.';
+  String get ehwPlusSyncRestoreFailed => 'Không thể khôi phục phiên bản lịch sử đó.';
 
   @override
-  String get ehwPlusSyncRestoreApiMissing => 'Restore needs a newer EHW+ Cloud API (history detail not deployed yet).';
+  String get ehwPlusSyncRestoreApiMissing =>
+      'Chức năng khôi phục cần phiên bản mới hơn của API đám mây EHW+ (chi tiết lịch sử hiện chưa được triển khai).';
 
   @override
-  String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
+  String get ehwPlusSyncRestoreBusy =>
+      'Vui lòng đợi cho đến khi quá trình đồng bộ hóa hiện tại hoàn tất, sau đó hãy thử lại.';
 
   @override
-  String get ehwPlusSyncPhotoUploadStarted => 'Meter photo upload started in the background.';
+  String get ehwPlusSyncPhotoUploadStarted => 'Quá trình tải lên ảnh đồng hồ đã bắt đầu ở chế độ nền.';
 
   @override
-  String get ehwPlusSyncPhotoUploadSucceeded => 'Meter photos uploaded to EHW+ Cloud.';
+  String get ehwPlusSyncPhotoUploadSucceeded =>
+      'Các bức ảnh về đồng hồ đo đã được tải lên dịch vụ lưu trữ đám mây EHW+.';
 
   @override
   String get ehwPlusSyncPhotoUploadFailed =>
-      'Meter photos could not be uploaded. Your reading is saved on this device.';
+      'Không thể tải lên ảnh đồng hồ đo. Chỉ số đo của quý vị đã được lưu trên thiết bị này.';
 
   @override
   String get ehwPlusSyncPhotoUploadStorageFailed =>
-      'Photo storage is unavailable. Your reading is saved on this device.';
+      'Dịch vụ lưu trữ ảnh hiện không khả dụng. Nội dung quý vị đã đọc được lưu trên thiết bị này.';
 
   @override
   String get ehwPlusSyncPhotoUploadApiFailed =>
-      'Photos could not reach EHW+ Cloud. Your reading is saved on this device.';
+      'Không thể đồng bộ hóa ảnh lên dịch vụ đám mây củEHW+. Nội dung quý vị đang đọc đã được lưu trên thiết bị này.';
 
   @override
-  String get ehwPlusSyncStatePhotosPending => 'Data in sync · photos uploading';
+  String get ehwPlusSyncStatePhotosPending => 'Dữ liệu đã được đồng bộ hóa · đang tải lên ảnh';
 
   @override
-  String get ehwPlusSyncStatePhotosFailed => 'Data saved · photos not synced';
+  String get ehwPlusSyncStatePhotosFailed => 'Dữ liệu đã được lưu · ảnh chưa được đồng bộ hóa';
 
   @override
   String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
-    return '$localCount on this device → $cloudCount in this snapshot';
+    return '$localCount trên thiết bị này → $cloudCount trong ảnh chụp màn hình này';
   }
 
   @override
-  String get ehwPlusSyncDiffFieldCounters => 'Meters';
+  String get ehwPlusSyncDiffFieldCounters => 'Mét';
 
   @override
-  String get ehwPlusSyncDiffFieldPhotoFiles => 'Meter photos';
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'Hình ảnh đồng hồ đo';
 
   @override
-  String get ehwPlusSyncDiffFieldActivities => 'Activities';
+  String get ehwPlusSyncDiffFieldActivities => 'Các hoạt động';
 
   @override
-  String get ehwPlusSyncDiffFieldRooms => 'Rooms';
+  String get ehwPlusSyncDiffFieldRooms => 'Các phòng';
 
   @override
-  String get ehwPlusSyncDiffFieldContracts => 'Contracts';
+  String get ehwPlusSyncDiffFieldContracts => 'Hợp đồng';
 
   @override
-  String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
+  String get ehwPlusSyncDiffFieldLastUpdated => 'Cập nhật lần cuối';
 
   @override
-  String get stripeCheckoutComingSoonTitle => 'Web purchase coming soon';
+  String get stripeCheckoutComingSoonTitle => 'Dịch vụ mua hàng trực tuyến sẽ sớm ra mắt';
 
   @override
   String get stripeCheckoutComingSoonDescription =>
-      'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.';
+      'Hiện tại, quý vị có thể thực hiện các giao dịch mua hàng trong ứng dụng “EHW+”. Các gói Premium và các giao dịch mua một lần sẽ sớm được cung cấp tại đây.';
 
   @override
-  String get stripeCheckoutSubscriptionLabel => 'PLAN';
+  String get stripeCheckoutSubscriptionLabel => 'KẾ HOẠCH';
 
   @override
-  String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
+  String get stripeCheckoutPremiumTitle => 'EHW+ Cấp cao';
 
   @override
-  String get stripeCheckoutPremiumDescription => 'Full insights and sync across your devices. Monthly or yearly.';
+  String get stripeCheckoutPremiumDescription =>
+      'Thông tin chi tiết đầy đủ và đồng bộ hóa trên tất cả các thiết bị của quý vị. Theo tháng hoặc theo năm.';
 
   @override
   String get stripeCheckoutFeatureWeather =>
-      'Weather and Heating: Outdoor temperature and consumption in a single chart.';
+      'Thời tiết và hệ thống sưởi: Nhiệt độ ngoài trời và mức tiêu thụ được thể hiện trên cùng một biểu đồ.';
 
   @override
   String get stripeCheckoutFeatureStatistics =>
-      'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.';
+      'Thống kê: So sánh theo năm, tổng quan chi tiết về chi phí, tùy chỉnh khoảng thời gian, xuất sang Excel.';
 
   @override
   String get stripeCheckoutFeatureCloudSync =>
-      'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.';
+      'Đồng bộ hóa trên đám mây: Hai tài sản và bất kỳ số lượng đồng hồ đo nào trên điện thoại, máy tính bảng và trên web.';
 
   @override
   String get stripeCheckoutFeatureMultipleProperties =>
-      'Multiple Properties: Manage apartments or houses separately within their own properties.';
+      'Nhiều bất động sản: Quản lý các căn hộ hoặc ngôi nhà một cách riêng biệt trong từng bất động sản tương ứng.';
 
   @override
   String get stripeCheckoutFeatureAdditionalMeters =>
-      'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.';
+      'Các đồng hồ đo bổ sung: Đồng hồ đo dành cho hệ thống quang điện (PV), hệ thống nhiệt mặt trời và lượng nước tiêu thụ.';
 
   @override
-  String get stripeCheckoutPriceLoading => 'Loading price…';
+  String get stripeCheckoutPriceLoading => 'Đang tải giá…';
 
   @override
-  String get stripeCheckoutPriceUnavailable => 'Price currently unavailable';
+  String get stripeCheckoutPriceUnavailable => 'Hiện tại chưa có thông tin về giá';
 
   @override
-  String get stripeCheckoutYearly => 'Yearly';
+  String get stripeCheckoutYearly => 'Hàng năm';
 
   @override
-  String get stripeCheckoutMonthly => 'Monthly';
+  String get stripeCheckoutMonthly => 'Hàng tháng';
 
   @override
-  String get stripeCheckoutPeriodYear => '/ year';
+  String get stripeCheckoutPeriodYear => '/ năm';
 
   @override
-  String get stripeCheckoutPeriodMonth => '/ month';
+  String get stripeCheckoutPeriodMonth => '/tháng';
 
   @override
-  String get stripeCheckoutScheduled => 'Scheduled';
+  String get stripeCheckoutScheduled => 'Theo lịch trình';
 
   @override
-  String get stripeCheckoutRedirecting => 'Redirecting…';
+  String get stripeCheckoutRedirecting => 'Đang chuyển hướng…';
 
   @override
-  String get stripeCheckoutManage => 'Manage';
+  String get stripeCheckoutManage => 'Quản lý';
 
   @override
-  String get stripeCheckoutSwitchPlan => 'Switch plan';
+  String get stripeCheckoutSwitchPlan => 'Chuyển sang gói cước khác';
 
   @override
-  String get stripeCheckoutChoosePremium => 'Choose Premium';
+  String get stripeCheckoutChoosePremium => 'Chọn gói Premium';
 
   @override
-  String get stripeCheckoutLifetimeTitle => 'Lifetime purchases';
+  String get stripeCheckoutLifetimeTitle => 'Các giao dịch mua hàng trọn đời';
 
   @override
   String get stripeCheckoutLifetimeDescription =>
-      'The following items can also be purchased individually as an alternative to a subscription.';
+      'Các mặt hàng sau đây cũng có thể được mua lẻ thay vì đăng ký gói dịch vụ.';
 
   @override
-  String get stripeCheckoutIncludedInSubscription => 'Included in subscription';
+  String get stripeCheckoutIncludedInSubscription => 'Đã bao gồm trong gói đăng ký';
 
   @override
-  String get stripeCheckoutBuyNow => 'Buy now';
+  String get stripeCheckoutBuyNow => 'Mua ngay';
 
   @override
-  String get stripeCheckoutDirectProvider => 'Direct with EHW+';
+  String get stripeCheckoutDirectProvider => 'Liên hệ trực tiếp với EHW+';
 
   @override
   String get stripeCheckoutGooglePlay => 'Google Play';
@@ -4561,62 +4605,64 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get stripeCheckoutAppStore => 'App Store';
 
   @override
-  String get stripeCheckoutPurchaseMethodTitle => 'How would you like to pay?';
+  String get stripeCheckoutPurchaseMethodTitle => 'Quý vị muốn thanh toán bằng hình thức nào?';
 
   @override
-  String get stripeCheckoutPurchaseMethodDescription => 'Choose the purchase method that suits you.';
+  String get stripeCheckoutPurchaseMethodDescription => 'Hãy chọn phương thức thanh toán phù hợp với quý vị.';
 
   @override
-  String get stripeCheckoutPayDirectly => 'Pay directly with EHW+';
+  String get stripeCheckoutPayDirectly => 'Quý vị có thể thanh toán trực tiếp qua EHW+';
 
   @override
   String get stripeCheckoutPayDirectlyDescription =>
-      'Pay securely and manage your subscription in the EHW+ customer portal.';
+      'Quý khách có thể thanh toán an toàn và quản lý gói đăng ký của mình trên cổng thông tin khách hàng EHW+.';
 
   @override
-  String get stripeCheckoutGooglePlayDescription => 'Purchase and management through your Google account.';
+  String get stripeCheckoutGooglePlayDescription =>
+      'Quý vị có thể thực hiện việc mua hàng và quản lý thông qua tài khoản Google của mình.';
 
   @override
-  String get stripeCheckoutAppStoreDescription => 'Purchase and management through your Apple account.';
+  String get stripeCheckoutAppStoreDescription =>
+      'Quý vị có thể thực hiện việc mua hàng và quản lý thông qua tài khoản Apple của mình.';
 
   @override
-  String get stripeCheckoutPayDirectlyButton => 'Pay directly';
+  String get stripeCheckoutPayDirectlyButton => 'Thanh toán trực tiếp';
 
   @override
-  String get stripeCheckoutContinueInStore => 'Continue in store';
+  String get stripeCheckoutContinueInStore => 'Tiếp tục mua sắm tại cửa hàng';
 
   @override
-  String get stripeCheckoutFailed => 'Could not start checkout. Please try again later.';
+  String get stripeCheckoutFailed => 'Không thể bắt đầu quy trình thanh toán. Vui lòng thử lại sau.';
 
   @override
-  String get stripePortalFailed => 'Could not open the customer portal. Please try again later.';
+  String get stripePortalFailed => 'Không thể truy cập cổng thông tin khách hàng. Vui lòng thử lại sau.';
 
   @override
   String stripeSubscriptionUpdated(Object interval, Object date) {
-    return 'Update scheduled: switch to $interval on $date.';
+    return 'Lịch trình cập nhật: chuyển sang sử dụng $interval tại địa chỉ $date.';
   }
 
   @override
-  String get stripeSubscriptionProviderGoogle => 'Subscribed via Google Play';
+  String get stripeSubscriptionProviderGoogle => 'Đã đăng ký qua Google Play';
 
   @override
-  String get stripeSubscriptionProviderApple => 'Subscribed via App Store';
+  String get stripeSubscriptionProviderApple => 'Đã đăng ký qua App Store';
 
   @override
-  String get stripeSubscriptionProviderDirect => 'Subscribed via EHW+';
+  String get stripeSubscriptionProviderDirect => 'Đã đăng ký qua EHW+';
 
   @override
-  String get stripeSubscriptionProviderUnknown => 'Subscribed';
+  String get stripeSubscriptionProviderUnknown => 'Đã đăng ký';
 
   @override
-  String get stripePurchaseProviderApple => 'Purchased in the App Store';
+  String get stripePurchaseProviderApple => 'Được mua tại cửa hàngApp Store';
 
   @override
-  String get stripePurchaseProviderGoogle => 'Purchased in the Play Store';
+  String get stripePurchaseProviderGoogle => 'Được mua tại cửa hàng “Play Store”';
 
   @override
-  String get stripePurchaseProviderDirect => 'Purchased with EHW+';
+  String get stripePurchaseProviderDirect => 'Đã mua tại EHW+';
 
   @override
-  String get stripePurchaseProviderUnknown => 'Purchased';
+  String get stripePurchaseProviderUnknown => 'Đã mua';
 }

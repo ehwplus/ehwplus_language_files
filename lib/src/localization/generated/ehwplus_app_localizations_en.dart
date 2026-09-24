@@ -2223,6 +2223,38 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'BUY POWEROPTI';
 
   @override
+  String get powerfoxSurveyTitle => 'Receive meter readings automatically';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Would you like to receive your electricity meter readings automatically in the future?';
+
+  @override
+  String get powerfoxSurveyYes => 'Yes';
+
+  @override
+  String get powerfoxSurveyNo => 'No';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'No, I want to continue reading it manually.';
+
+  @override
+  String get powerfoxInfoTitle => 'Automatic meter readings with Powerfox';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'With a Powerfox Poweropti, your electricity meter readings are automatically imported into EHW+.';
+
+  @override
+  String get powerfoxInfoDiscount => '€5 discount with code EHW5';
+
+  @override
+  String get powerfoxInfoShop => 'GO TO POWERFOX SHOP';
+
+  @override
   String get updateNoticeDebugTitle => 'Update notices';
 
   @override

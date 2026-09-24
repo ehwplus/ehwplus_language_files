@@ -4007,6 +4007,66 @@ abstract class EhwplusAppLocalizations {
   /// **'BUY POWEROPTI'**
   String get poweroptiUpdateNoticeBuy;
 
+  /// No description provided for @powerfoxSurveyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive meter readings automatically'**
+  String get powerfoxSurveyTitle;
+
+  /// No description provided for @powerfoxSurveyDigitalMeterQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you have a digital electricity meter?'**
+  String get powerfoxSurveyDigitalMeterQuestion;
+
+  /// No description provided for @powerfoxSurveyAutomaticReadingsQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Would you like to receive your electricity meter readings automatically in the future?'**
+  String get powerfoxSurveyAutomaticReadingsQuestion;
+
+  /// No description provided for @powerfoxSurveyYes.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes'**
+  String get powerfoxSurveyYes;
+
+  /// No description provided for @powerfoxSurveyNo.
+  ///
+  /// In en, this message translates to:
+  /// **'No'**
+  String get powerfoxSurveyNo;
+
+  /// No description provided for @powerfoxSurveyManualReadings.
+  ///
+  /// In en, this message translates to:
+  /// **'No, I want to continue reading it manually.'**
+  String get powerfoxSurveyManualReadings;
+
+  /// No description provided for @powerfoxInfoTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Automatic meter readings with Powerfox'**
+  String get powerfoxInfoTitle;
+
+  /// No description provided for @powerfoxInfoMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'With a Powerfox Poweropti, your electricity meter readings are automatically imported into EHW+.'**
+  String get powerfoxInfoMessage;
+
+  /// No description provided for @powerfoxInfoDiscount.
+  ///
+  /// In en, this message translates to:
+  /// **'€5 discount with code EHW5'**
+  String get powerfoxInfoDiscount;
+
+  /// No description provided for @powerfoxInfoShop.
+  ///
+  /// In en, this message translates to:
+  /// **'GO TO POWERFOX SHOP'**
+  String get powerfoxInfoShop;
+
   /// No description provided for @updateNoticeDebugTitle.
   ///
   /// In en, this message translates to:

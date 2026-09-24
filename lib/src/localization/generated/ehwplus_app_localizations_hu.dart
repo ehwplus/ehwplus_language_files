@@ -357,13 +357,13 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get commonLogin => 'Bejelentkezés';
 
   @override
-  String get commonLoginCanceled => 'Sign-in was not completed.';
+  String get commonLoginCanceled => 'A bejelentkezés nem sikerült.';
 
   @override
-  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'A böngésző nem tudta végrehajtani a bejelentkezést.';
 
   @override
-  String get commonLoginWithBrowser => 'Try another way';
+  String get commonLoginWithBrowser => 'Próbáld meg másképp!';
 
   @override
   String get commonLogout => 'Kijelentkezés';
@@ -2230,6 +2230,38 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'VÁSÁRLJA MEG A POWEROPTI-T';
 
   @override
+  String get powerfoxSurveyTitle => 'A fogyasztásadatok automatikus átvétele';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'Van digitális villamosenergia-fogyasztásmérője?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Szeretné, ha a jövőben automatikusan megkapná a villamosenergia-fogyasztásmérő leolvasási adatait?';
+
+  @override
+  String get powerfoxSurveyYes => 'Igen';
+
+  @override
+  String get powerfoxSurveyNo => 'Nem';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'Nem, inkább kézzel szeretném tovább olvasni.';
+
+  @override
+  String get powerfoxInfoTitle => 'Automatikus fogyasztásmérő-leolvasás a Powerfox segítségével';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'A Powerfox Poweropti segítségével a villamosenergia-fogyasztásmérő leolvasási adatai automatikusan importálódnak az EHW+ oldalra.';
+
+  @override
+  String get powerfoxInfoDiscount => '5 euró kedvezmény az EHW5 kóddal';
+
+  @override
+  String get powerfoxInfoShop => 'UGRÁS A POWERFOX ÁRUHÁZBA';
+
+  @override
   String get updateNoticeDebugTitle => 'Frissítési értesítések';
 
   @override
@@ -3987,412 +4019,420 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get changelogTitle => 'Változásnapló';
 
   @override
-  String get ehwPlusSyncTitle => 'EHW+ Cloud';
+  String get ehwPlusSyncTitle => 'EHW+ Felhő';
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.';
+      'EHW+ Az alkalmazás a felhő segítségével tartja szinkronban az objektumokat. Jelentkezz be, válassz ki legfeljebb 2 objektumot, és itt kezelheted az állapotukat és az egyesítéseket.';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
+  String get ehwPlusSyncUseAsPrimary => 'A szinkronizáláshoz használja a „EHW+ Cloud” szolgáltatást';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your sync.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ A Cloud az Ön szinkronizálója.';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Cloud is now your sync.';
+  String get ehwPlusSyncActivated => 'EHW+ A felhő mostantól a szinkronizálásod.';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Could not enable EHW+ Cloud sync.';
+  String get ehwPlusSyncActivateFailed => 'Nem sikerült engedélyezni az „EHW+” felhőalapú szinkronizálást.';
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+      'EHW+ A felhő szolgáltatás gondoskodik arról, hogy a kiválasztott elemek minden eszközödön naprakészek legyenek. Válaszd ki, mit szeretnél szinkronizálni, ellenőrizd az állapotot, és oldd meg az összevonási problémákat, ha mindkét oldalon változás történt.';
 
   @override
-  String get ehwPlusSyncObjectsSectionTitle => 'Objects';
+  String get ehwPlusSyncObjectsSectionTitle => 'Objektumok';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
+  String get ehwPlusSyncSelectSectionTitle => 'Szinkronizálandó elemek';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Select up to $max objects. Changes on those objects sync automatically while EHW+ Cloud is active.';
+    return 'Legfeljebb $max objektumot válasszon ki. Az ezen objektumokon végzett módosítások automatikusan szinkronizálódnak, amíg a EHW+ Cloud aktív.';
   }
 
   @override
   String ehwPlusSyncSelectedCount(int count, int max) {
-    return '$count of $max selected';
+    return '$count $max-ből kiválasztva';
   }
 
   @override
-  String get ehwPlusSyncManagedSectionTitle => 'Sync status';
+  String get ehwPlusSyncManagedSectionTitle => 'Szinkronizálási állapot';
 
   @override
-  String get ehwPlusSyncManagedSectionEmpty => 'Select an object above to see cloud status, history, and merges.';
+  String get ehwPlusSyncManagedSectionEmpty =>
+      'Válasszon ki egy objektumot a fenti listából a felhő állapotának, előzményeinek és összeolvadásainak megtekintéséhez.';
 
   @override
-  String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
+  String get ehwPlusSyncCloudStatusLoading => 'EHW+ felhőállapot betöltése…';
 
   @override
-  String get ehwPlusSyncCloudStatusMissing => 'No cloud copy yet.';
+  String get ehwPlusSyncCloudStatusMissing => 'Még nincs felhőalapú másolat.';
 
   @override
-  String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
+  String get ehwPlusSyncCloudStatusUnavailable => 'Nem sikerült betölteni a EHW+ felhőállapotát.';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Syncing this object to EHW+ Cloud…';
+  String get ehwPlusSyncSyncingSelection => 'Az objektum szinkronizálása a EHW+ Cloud szolgáltatással…';
 
   @override
-  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+  String get ehwPlusSyncConflictsHeader => 'Konfliktusok';
 
   @override
-  String get ehwPlusSyncTakeServer => 'Take server version';
+  String get ehwPlusSyncTakeServer => 'A szerver verziójának lekérése';
 
   @override
-  String get ehwPlusSyncUseLocal => 'This device';
+  String get ehwPlusSyncUseLocal => 'Ez a készülék';
 
   @override
-  String get ehwPlusSyncUseCloud => 'Cloud';
+  String get ehwPlusSyncUseCloud => 'Felhő';
 
   @override
-  String get ehwPlusSyncUseAllLocal => 'All from this device';
+  String get ehwPlusSyncUseAllLocal => 'Mindez erről az eszközről';
 
   @override
-  String get ehwPlusSyncUseAllCloud => 'All from cloud';
+  String get ehwPlusSyncUseAllCloud => 'Minden a felhőből';
 
   @override
-  String get ehwPlusSyncApplyResolution => 'Apply and sync';
+  String get ehwPlusSyncApplyResolution => 'Alkalmazás és szinkronizálás';
 
   @override
-  String get ehwPlusSyncResolutionMixed => 'Mixed';
+  String get ehwPlusSyncResolutionMixed => 'Vegyes';
 
   @override
-  String get ehwPlusSyncConflictExplorerHint => 'Tap This device or Cloud on each row. Apply uploads that mix.';
+  String get ehwPlusSyncConflictExplorerHint =>
+      'Érintse meg az egyes sorokban a „Ez az eszköz” vagy a „Felhő” elemet. Alkalmazzon vegyes feltöltéseket.';
 
   @override
-  String get ehwPlusSyncKeepVersionLabel => 'Keep this version';
+  String get ehwPlusSyncKeepVersionLabel => 'Tartsd meg ezt a verziót';
 
   @override
-  String get ehwPlusSyncFolderPickLabel => 'All in this folder';
+  String get ehwPlusSyncFolderPickLabel => 'Minden ebben a mappában';
 
   @override
-  String get ehwPlusSyncNotOnDevice => 'Not on this device';
+  String get ehwPlusSyncNotOnDevice => 'Nem ezen az eszközön';
 
   @override
-  String get ehwPlusSyncNotInCloud => 'Not in the cloud';
+  String get ehwPlusSyncNotInCloud => 'Nem a felhőben';
 
   @override
   String ehwPlusSyncOutcomeKeepLocal(String value) {
-    return 'Keep $value on both.';
+    return 'Mindkettőn állítsd be a „$value” beállítást.';
   }
 
   @override
   String ehwPlusSyncOutcomeUseCloud(String value) {
-    return 'Use cloud value $value.';
+    return 'Használja a „$value” felhőértéket.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeSkipAdd => 'Skip this cloud item.';
+  String get ehwPlusSyncOutcomeSkipAdd => 'Ugorj át ezt a felhőelemet.';
 
   @override
   String ehwPlusSyncOutcomeAddCloud(String value) {
-    return 'Add $value from the cloud.';
+    return '$value-t a felhőből.';
   }
 
   @override
   String ehwPlusSyncOutcomeKeepRemoved(String value) {
-    return 'Keep $value and upload it.';
+    return 'Tartsa meg a „$value” fájlt, és töltse fel.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeDropLocal => 'Remove this item to match the cloud.';
+  String get ehwPlusSyncOutcomeDropLocal => 'Távolítsd el ezt az elemet, hogy megegyezzen a felhővel.';
 
   @override
-  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+  String get ehwPlusSyncStatusCreated => 'Felhőalapúan létrehozva';
 
   @override
-  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+  String get ehwPlusSyncStatusFastForward => 'Feltöltve (gyors előretekerés)';
 
   @override
-  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+  String get ehwPlusSyncStatusUpdateRequired => 'A szerveren frissebb adatok találhatók';
 
   @override
-  String get ehwPlusSyncStatusMerged => 'Merged with server';
+  String get ehwPlusSyncStatusMerged => 'Összevonva a szerverrel';
 
   @override
-  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+  String get ehwPlusSyncStatusConflict => 'Konfliktus — az alábbiak szerint oldja meg';
 
   @override
-  String get syncProviderActive => 'Active sync provider';
+  String get syncProviderActive => 'Aktív szinkronizálási szolgáltató';
 
   @override
-  String get syncProviderNoneActive => 'No synchronization selected. Choose an available method below.';
+  String get syncProviderNoneActive =>
+      'Nincs kiválasztva szinkronizálási módszer. Válasszon az alábbi elérhető módszerek közül.';
 
   @override
-  String get syncTurnOff => 'Turn sync off';
+  String get syncTurnOff => 'Kapcsold ki a szinkronizálást';
 
   @override
   String get syncOverviewIntro =>
-      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
+      'A szinkronizálás a lakásadatokról és a fogyasztásmérő-állásokról biztonsági másolatot tárol a felhőben. Ha új telefont vásárolsz, vagy újratelepíted az alkalmazást, visszaállíthatod az adataidat. Egyszerre csak egy módszert használhatsz, vagy teljesen kikapcsolhatod a szinkronizálást.';
 
   @override
-  String get syncSelectProviderLabel => 'Active sync method';
+  String get syncSelectProviderLabel => 'Aktív szinkronizálási módszer';
 
   @override
   String get syncSelectProviderHelp =>
-      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
+      'Válasszon ki egy módszert! A szinkronizálás kikapcsolásához válassza a „Nincs szinkronizálás” lehetőséget. Az alábbi módszerek egyikét megnyitva további részleteket olvashat, és szükség esetén be is jelentkezhet.';
 
   @override
-  String get syncProvidersSectionTitle => 'Available sync methods';
+  String get syncProvidersSectionTitle => 'Elérhető szinkronizálási módszerek';
 
   @override
-  String get syncProviderSegmentNone => 'No synchronization';
+  String get syncProviderSegmentNone => 'Nincs szinkronizálás';
 
   @override
-  String get syncProviderSegmentNoneShort => 'Off';
+  String get syncProviderSegmentNoneShort => 'Ki';
 
   @override
   String get syncProviderSegmentGoogle => 'Google Drive';
 
   @override
-  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+  String get syncProviderSegmentEhwPlus => 'EHW+ Felhő';
 
   @override
-  String get syncProviderSegmentGoogleShort => 'Drive';
+  String get syncProviderSegmentGoogleShort => 'Meghajtó';
 
   @override
-  String get syncProviderSegmentEhwPlusShort => 'Cloud';
+  String get syncProviderSegmentEhwPlusShort => 'Felhő';
 
   @override
-  String get syncProviderNoneSummary => 'Your data will remain only on this device and will not be synced.';
+  String get syncProviderNoneSummary =>
+      'Az adataid kizárólag ezen az eszközön maradnak meg, és nem kerülnek szinkronizálásra.';
 
   @override
-  String get syncUseProvider => 'Use for sync';
+  String get syncUseProvider => 'Szinkronizáláshoz használható';
 
   @override
   String get syncProviderGoogleSummary =>
-      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+      'Az adataidat fájlként tárolja a saját Google Drive-odon (Google Drive). A bejelentkezés a Google-fiókoddal történik. Ez akkor előnyös, ha már használod a Google-t, és szeretnéd, hogy a fájlok a Drive-odon legyenek.';
 
   @override
   String get syncProviderEhwPlusSummary =>
-      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+      'Az adataidat az EHW+ felhőben tárolja az EHW+ fiókod segítségével. Az Google Drive használata nélkül is működik az összes eszközödön. A legjobb megoldás, ha az EHW+ bejelentkezési adataidat használod.';
 
   @override
   String get syncProviderGoogleDetails =>
-      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
+      'Google Drive A szinkronizálás az objektumadatokat a Google-fiókod egyik mappájába másolja. A csatlakozáshoz jelentkezz be a Google-fiókoddal ezen az oldalon. Az online állapotban a módosítások automatikusan szinkronizálódnak. A fájljaid a Drive-ban maradnak, így az alkalmazáson kívül is megtekintheted őket. Tipp: ha később átállsz a „EHW+” felhőszolgáltatásra, a „Google Drive” addig nem lesz aktív biztonsági mentés, amíg vissza nem állítod az eredeti beállítást.';
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.';
+      'EHW+ Az alkalmazás szinkronizálása a felhőn keresztül történik: az objektumok adatai az EHW+ szervereken tárolódnak, és az EHW+ fiókod révén az összes eszközön szinkronban maradnak. Legfeljebb két objektumot választhatsz ki szinkronizálásra. Ha mindkét oldalon ugyanazt a mezőt módosítják, itt oldhatod meg az összevonást. Az objektumok, szobák vagy számlálók másokkal való megosztásának funkciója a későbbiekben kerül bevezetésre.';
 
   @override
-  String get syncOpenProviderDetails => 'Open details';
+  String get syncOpenProviderDetails => 'Részletek megnyitása';
 
   @override
-  String get syncProviderSignedIn => 'Signed in';
+  String get syncProviderSignedIn => 'Bejelentkezett';
 
   @override
-  String get syncProviderNotSignedIn => 'Not signed in';
+  String get syncProviderNotSignedIn => 'Nincs bejelentkezve';
 
   @override
-  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
+  String get syncNeedsEhwPlusAccount =>
+      'Jelentkezzen be az EHW+ fiókjával, hogy használhassa az EHW+ Cloud szolgáltatást.';
 
   @override
   String get syncNeedsGoogleAccount =>
-      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+      'Jelentkezz be a Google-fiókoddal az „Google Drive Sync” használatához. A csatlakozáshoz nyisd meg az alábbi Google Drive oldalt.';
 
   @override
-  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+  String get syncErrorNetwork => 'Nincs kapcsolat. Ellenőrizze a hálózatot, majd próbálja meg újra.';
 
   @override
-  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+  String get syncErrorSessionExpired => 'Az „EHW+” munkamenete lejárt. Jelentkezzen be újra, majd próbálja meg újra.';
 
   @override
   String get syncErrorAccessDenied =>
-      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+      'Ennél a fióknál a felhőalapú szinkronizálás nem engedélyezett. Jelentkezz be újra, vagy ellenőrizd, hogy a EHW+ előfizetésed tartalmazza-e a felhőalapú szinkronizálást.';
 
   @override
   String get syncErrorPayloadTooLarge =>
-      'This home is too large to sync right now. Try again later or contact support.';
+      'Ez az otthon jelenleg túl nagy ahhoz, hogy szinkronizálni lehessen. Később próbálja meg újra, vagy vegye fel a kapcsolatot az ügyfélszolgálattal.';
 
   @override
-  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+  String get syncErrorServiceUnavailable =>
+      'EHW+ A Cloud szolgáltatás jelenleg nem elérhető. Kérjük, próbálja meg később újra.';
 
   @override
-  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+  String get syncErrorNotReady =>
+      'A felhőalapú szinkronizálás még nem áll rendelkezésre. Kérjük, várjon egy pillanatot, majd próbálja meg újra.';
 
   @override
-  String get syncErrorUnknown => 'Sync failed. Please try again.';
+  String get syncErrorUnknown => 'A szinkronizálás sikertelen volt. Kérjük, próbálja meg újra.';
 
   @override
-  String get syncTurnedOff => 'Cloud sync is turned off.';
+  String get syncTurnedOff => 'A felhőalapú szinkronizálás ki van kapcsolva.';
 
   @override
-  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+  String get syncTurnOffFailed => 'Nem sikerült kikapcsolni a szinkronizálást. Kérjük, próbálja meg újra.';
 
   @override
-  String get syncNoHomesYet => 'No homes to sync yet.';
+  String get syncNoHomesYet => 'Még nincs szinkronizálandó otthon.';
 
   @override
-  String get syncAllNow => 'Sync all';
+  String get syncAllNow => 'Összes szinkronizálása';
 
   @override
   String syncAllFinished(int ok, int total) {
-    return 'Finished syncing $ok of $total.';
+    return 'Befejeződött a $ok és a $total közötti szinkronizálás.';
   }
 
   @override
   String syncAllFinishedWithFailures(int ok, int total, int failed) {
-    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+    return 'Befejeződött a $ok és a $total közötti szinkronizálás. A $failed nem sikerült — lásd az alábbiakban megjelölt könyvtárakat.';
   }
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
+      'Ez az objektum eltér a szerveren található verziótól. Nyisd meg a sort, hasonlítsd össze a két verziót, és válaszd ki, melyiket szeretnéd megtartani – vagy kombinálni. Az egymást nem átfedő módosítások automatikusan összevonásra kerülnek.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
+  String get ehwPlusSyncAutoSyncLabel => 'Ezt az objektumot szinkronizálja';
 
   @override
-  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';
+  String get ehwPlusSyncAutoSyncLimit => 'Legfeljebb 2 objektumot szinkronizálhat. Először kapcsoljon ki egyet.';
 
   @override
-  String get ehwPlusSyncSideLocal => 'This device';
+  String get ehwPlusSyncSideLocal => 'Ez a készülék';
 
   @override
-  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
+  String get ehwPlusSyncSideCloud => 'EHW+ Felhő';
 
   @override
-  String get ehwPlusSyncStateInSync => 'In sync';
+  String get ehwPlusSyncStateInSync => 'Szinkronban';
 
   @override
-  String get ehwPlusSyncStateOutOfSync => 'Not in sync';
+  String get ehwPlusSyncStateOutOfSync => 'Nincs szinkronban';
 
   @override
-  String get ehwPlusSyncStateChecking => 'Checking sync status…';
+  String get ehwPlusSyncStateChecking => 'A szinkronizálás állapotának ellenőrzése…';
 
   @override
-  String get ehwPlusSyncStateMissingCloud => 'Not on cloud yet';
+  String get ehwPlusSyncStateMissingCloud => 'Még nem a felhőben';
 
   @override
-  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+  String get ehwPlusSyncDiffPanelTitle => 'Ez az eszköz kontra a felhő';
 
   @override
-  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
+  String get ehwPlusSyncDiffPanelEmpty => 'Az utolsó szinkronizálás során nem merült fel mezőütközés.';
 
   @override
-  String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
+  String get ehwPlusSyncRemoveFromCloud => 'Törlés a felhőből';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this object from EHW+ Cloud?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle =>
+      'Ezt az objektumot eltávolítsuk az „EHW+ Cloud” szolgáltatásból?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.';
+      'A EHW+ szervereken található másolat törlésre kerül. Az eszközön található adatok megmaradnak. Később újra kiválaszthatja az objektumot, hogy új másolatot töltsön fel.';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Removed this object from EHW+ Cloud.';
+  String get ehwPlusSyncRemovedFromCloud => 'Ezt az objektumot eltávolítottuk a EHW+ Cloud szolgáltatásból.';
 
   @override
-  String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
+  String get ehwPlusSyncPhotosSectionTitle => 'Szinkronizált képek';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
-    return '$readyCount of $total synced images';
+    return '$readyCount $total-ből származó szinkronizált képek';
   }
 
   @override
-  String get ehwPlusSyncPhotosEmpty => 'No synced images yet.';
+  String get ehwPlusSyncPhotosEmpty => 'Még nincsenek szinkronizált képek.';
 
   @override
-  String get ehwPlusSyncPhotosShowMore => 'Show more images';
+  String get ehwPlusSyncPhotosShowMore => 'További képek megtekintése';
 
   @override
-  String get ehwPlusSyncPhotosLoadThumbs => 'Load thumbnails';
+  String get ehwPlusSyncPhotosLoadThumbs => 'Miniatűrök betöltése';
 
   @override
-  String get ehwPlusSyncPhotosLoading => 'Loading images…';
+  String get ehwPlusSyncPhotosLoading => 'Képek betöltése…';
 
   @override
-  String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
+  String get ehwPlusSyncPhotosUnavailable => 'A felhőképek jelenleg nem érhetők el.';
 
   @override
-  String get ehwPlusSyncPhotosUnassigned => 'Other photos';
+  String get ehwPlusSyncPhotosUnassigned => 'Egyéb fotók';
 
   @override
-  String get ehwPlusSyncHistoryTitle => 'Sync history';
+  String get ehwPlusSyncHistoryTitle => 'Szinkronizálási előzmények';
 
   @override
   String ehwPlusSyncHistoryCount(int count) {
-    return '$count versions';
+    return '$count verziók';
   }
 
   @override
-  String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
+  String get ehwPlusSyncHistoryEmpty => 'Még nincs szinkronizálási előzmény.';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Load 5 more';
+  String get ehwPlusSyncHistoryLoadMore => 'További 5 betöltése';
 
   @override
-  String get ehwPlusSyncHistoryLoading => 'Loading history…';
+  String get ehwPlusSyncHistoryLoading => 'Előzmények betöltése…';
 
   @override
-  String get ehwPlusSyncHistoryUnavailable => 'Sync history is unavailable right now.';
+  String get ehwPlusSyncHistoryUnavailable => 'A szinkronizálási előzmények jelenleg nem érhetők el.';
 
   @override
-  String get ehwPlusSyncRestoreTitle => 'Restore this version?';
+  String get ehwPlusSyncRestoreTitle => 'Visszaállítani ezt a verziót?';
 
   @override
   String get ehwPlusSyncRestoreWarning =>
-      'This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.';
+      'Ezzel az eszközön található adatok a kiválasztott felhőalapú előzmény-pillanatkép helyébe lépnek, majd az adatok visszaszinkronizálódnak a EHW+ Cloudba. A mentetlen helyi módosítások véglegesen elveszhetnek.';
 
   @override
   String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
-    return 'Snapshot from $timestamp · $hash';
+    return 'Képernyőkép a $timestamp webhelyről · $hash';
   }
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count items will change';
+    return '$count az elemek változni fognak';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches what is on this device.';
+  String get ehwPlusSyncRestoreNoDiff => 'Ez a pillanatfelvétel megegyezik az eszközön található adatokkal.';
 
   @override
   String get ehwPlusSyncRestoreExplorerHint =>
-      'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.';
+      'Csak azok az elemek szerepelnek a listában, amelyek változást mutatnak. A változatlan mérőórák, helyiségek és fotók rejtve maradnak.';
 
   @override
-  String get ehwPlusSyncRestoreOnlyLocal => 'Only on this device';
+  String get ehwPlusSyncRestoreOnlyLocal => 'Kizárólag ezen az eszközön';
 
   @override
-  String get ehwPlusSyncRestoreOnlySnapshot => 'Only in this snapshot';
+  String get ehwPlusSyncRestoreOnlySnapshot => 'Csak ebben a pillanatfelvételben';
 
   @override
-  String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
+  String get ehwPlusSyncRestoreWillUpdate => 'Kicserélésre kerül';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Object details';
+  String get ehwPlusSyncRestoreHomeDetails => 'Az objektum adatai';
 
   @override
-  String get ehwPlusSyncRestoreReadings => 'Readings';
+  String get ehwPlusSyncRestoreReadings => 'Olvasmányok';
 
   @override
-  String get ehwPlusSyncRestoreDeletedMeters => 'Deleted meters';
+  String get ehwPlusSyncRestoreDeletedMeters => 'Törölt mérőórák';
 
   @override
-  String get ehwPlusSyncRestoreConsumptionPoints => 'Grid connections';
+  String get ehwPlusSyncRestoreConsumptionPoints => 'Hálózati csatlakozások';
 
   @override
   String ehwPlusSyncRestoreChangedCount(int count) {
-    return '$count changed';
+    return '$count megváltozott';
   }
 
   @override
   String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
-    return '$localCount readings here · $cloudCount in snapshot';
+    return '$localCount Olvasnivalók itt · A „$cloudCount” pillanatképben';
   }
 
   @override
@@ -4401,173 +4441,176 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Object name';
+  String get ehwPlusSyncDiffFieldTitle => 'Objektum neve';
 
   @override
-  String get ehwPlusSyncDiffFieldHouseName => 'House name';
+  String get ehwPlusSyncDiffFieldHouseName => 'Háznév';
 
   @override
-  String get ehwPlusSyncDiffFieldCurrency => 'Currency';
+  String get ehwPlusSyncDiffFieldCurrency => 'Pénznem';
 
   @override
-  String get ehwPlusSyncDiffFieldAddress => 'Address';
+  String get ehwPlusSyncDiffFieldAddress => 'Cím';
 
   @override
-  String get ehwPlusSyncDiffFieldObjectType => 'Home type';
+  String get ehwPlusSyncDiffFieldObjectType => 'Lakástípus';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
-    return '…and $count more fields';
+    return '…és $count további mezők';
   }
 
   @override
   String ehwPlusSyncDiffMoreLines(int count) {
-    return '…and $count more lines';
+    return '…és $count további sorok';
   }
 
   @override
-  String get ehwPlusSyncRestoreConfirm => 'Restore and sync';
+  String get ehwPlusSyncRestoreConfirm => 'Visszaállítás és szinkronizálás';
 
   @override
-  String get ehwPlusSyncRestoreFailed => 'Could not restore that history version.';
+  String get ehwPlusSyncRestoreFailed => 'Nem sikerült visszaállítani azt a verziót.';
 
   @override
-  String get ehwPlusSyncRestoreApiMissing => 'Restore needs a newer EHW+ Cloud API (history detail not deployed yet).';
+  String get ehwPlusSyncRestoreApiMissing =>
+      'A visszaállításhoz egy újabb verziójú „EHW+” felhőalapú API szükséges (a történeti részletek még nem kerültek bevezetésre).';
 
   @override
-  String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
+  String get ehwPlusSyncRestoreBusy =>
+      'Várja meg, amíg a jelenlegi szinkronizálás befejeződik, majd próbálja meg újra.';
 
   @override
-  String get ehwPlusSyncPhotoUploadStarted => 'Meter photo upload started in the background.';
+  String get ehwPlusSyncPhotoUploadStarted => 'A mérőadatok feltöltése elindult a háttérben.';
 
   @override
-  String get ehwPlusSyncPhotoUploadSucceeded => 'Meter photos uploaded to EHW+ Cloud.';
+  String get ehwPlusSyncPhotoUploadSucceeded => 'A EHW+ felhőbe feltöltött mérőórás fotók.';
 
   @override
   String get ehwPlusSyncPhotoUploadFailed =>
-      'Meter photos could not be uploaded. Your reading is saved on this device.';
+      'A mérőórás fotók feltöltése nem sikerült. Az Ön mérési értéke ezen a készüléken került mentésre.';
 
   @override
   String get ehwPlusSyncPhotoUploadStorageFailed =>
-      'Photo storage is unavailable. Your reading is saved on this device.';
+      'A fotótárolás nem elérhető. Az olvasási adatok ezen az eszközön kerülnek mentésre.';
 
   @override
   String get ehwPlusSyncPhotoUploadApiFailed =>
-      'Photos could not reach EHW+ Cloud. Your reading is saved on this device.';
+      'A fotók nem tudtak felkerülni az EHW+ felhőbe. Az olvasási előrehaladásod ezen az eszközön van elmentve.';
 
   @override
-  String get ehwPlusSyncStatePhotosPending => 'Data in sync · photos uploading';
+  String get ehwPlusSyncStatePhotosPending => 'Adatok szinkronizálva · fotók feltöltése';
 
   @override
-  String get ehwPlusSyncStatePhotosFailed => 'Data saved · photos not synced';
+  String get ehwPlusSyncStatePhotosFailed => 'Az adatok mentve · a fotók nem szinkronizálódtak';
 
   @override
   String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
-    return '$localCount on this device → $cloudCount in this snapshot';
+    return '$localCount ezen az eszközön → $cloudCount ebben a pillanatképben';
   }
 
   @override
-  String get ehwPlusSyncDiffFieldCounters => 'Meters';
+  String get ehwPlusSyncDiffFieldCounters => 'Méter';
 
   @override
-  String get ehwPlusSyncDiffFieldPhotoFiles => 'Meter photos';
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'Mérőműszer-fotók';
 
   @override
-  String get ehwPlusSyncDiffFieldActivities => 'Activities';
+  String get ehwPlusSyncDiffFieldActivities => 'Tevékenységek';
 
   @override
-  String get ehwPlusSyncDiffFieldRooms => 'Rooms';
+  String get ehwPlusSyncDiffFieldRooms => 'Szobák';
 
   @override
-  String get ehwPlusSyncDiffFieldContracts => 'Contracts';
+  String get ehwPlusSyncDiffFieldContracts => 'Szerződések';
 
   @override
-  String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
+  String get ehwPlusSyncDiffFieldLastUpdated => 'Utolsó frissítés';
 
   @override
-  String get stripeCheckoutComingSoonTitle => 'Web purchase coming soon';
+  String get stripeCheckoutComingSoonTitle => 'Hamarosan elérhető lesz az online vásárlás';
 
   @override
   String get stripeCheckoutComingSoonDescription =>
-      'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.';
+      'A vásárlási lehetőségek jelenleg az „EHW+” alkalmazásban érhetők el. A prémium és az egyszeri vásárlások hamarosan itt is elérhetőek lesznek.';
 
   @override
-  String get stripeCheckoutSubscriptionLabel => 'PLAN';
+  String get stripeCheckoutSubscriptionLabel => 'TERV';
 
   @override
-  String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
+  String get stripeCheckoutPremiumTitle => 'EHW+ Prémium';
 
   @override
-  String get stripeCheckoutPremiumDescription => 'Full insights and sync across your devices. Monthly or yearly.';
+  String get stripeCheckoutPremiumDescription =>
+      'Teljes körű betekintés és szinkronizálás az összes eszközödön. Havi vagy éves előfizetéssel.';
 
   @override
   String get stripeCheckoutFeatureWeather =>
-      'Weather and Heating: Outdoor temperature and consumption in a single chart.';
+      'Időjárás és fűtés: A külső hőmérséklet és a fogyasztás egyetlen diagramon.';
 
   @override
   String get stripeCheckoutFeatureStatistics =>
-      'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.';
+      'Statisztikák: Év/év összehasonlítások, részletes költségáttekintés, időtartamok testreszabása, Excel-export.';
 
   @override
   String get stripeCheckoutFeatureCloudSync =>
-      'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.';
+      'Felhőalapú szinkronizálás: Két ingatlan és tetszőleges számú mérő a telefonodon, a táblagépeden és az interneten.';
 
   @override
   String get stripeCheckoutFeatureMultipleProperties =>
-      'Multiple Properties: Manage apartments or houses separately within their own properties.';
+      'Több ingatlan: Kezelje a lakásokat vagy házakat külön-külön, saját ingatlanjaikon belül.';
 
   @override
   String get stripeCheckoutFeatureAdditionalMeters =>
-      'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.';
+      'További mérőórák: Mérőórák napelemes rendszerekhez, napenergia-hasznosító rendszerekhez és a vízfogyasztás méréséhez.';
 
   @override
-  String get stripeCheckoutPriceLoading => 'Loading price…';
+  String get stripeCheckoutPriceLoading => 'Az ár betöltése…';
 
   @override
-  String get stripeCheckoutPriceUnavailable => 'Price currently unavailable';
+  String get stripeCheckoutPriceUnavailable => 'Az ár jelenleg nem elérhető';
 
   @override
-  String get stripeCheckoutYearly => 'Yearly';
+  String get stripeCheckoutYearly => 'Évente';
 
   @override
-  String get stripeCheckoutMonthly => 'Monthly';
+  String get stripeCheckoutMonthly => 'Havi';
 
   @override
-  String get stripeCheckoutPeriodYear => '/ year';
+  String get stripeCheckoutPeriodYear => '/ év';
 
   @override
-  String get stripeCheckoutPeriodMonth => '/ month';
+  String get stripeCheckoutPeriodMonth => '/ hónap';
 
   @override
-  String get stripeCheckoutScheduled => 'Scheduled';
+  String get stripeCheckoutScheduled => 'Tervezett';
 
   @override
-  String get stripeCheckoutRedirecting => 'Redirecting…';
+  String get stripeCheckoutRedirecting => 'Átirányítás…';
 
   @override
-  String get stripeCheckoutManage => 'Manage';
+  String get stripeCheckoutManage => 'Kezelés';
 
   @override
-  String get stripeCheckoutSwitchPlan => 'Switch plan';
+  String get stripeCheckoutSwitchPlan => 'Csomagváltás';
 
   @override
-  String get stripeCheckoutChoosePremium => 'Choose Premium';
+  String get stripeCheckoutChoosePremium => 'Válassza a Premium csomagot';
 
   @override
-  String get stripeCheckoutLifetimeTitle => 'Lifetime purchases';
+  String get stripeCheckoutLifetimeTitle => 'Egész életre szóló vásárlások';
 
   @override
   String get stripeCheckoutLifetimeDescription =>
-      'The following items can also be purchased individually as an alternative to a subscription.';
+      'Az alábbi termékek előfizetés helyett külön-külön is megvásárolhatók.';
 
   @override
-  String get stripeCheckoutIncludedInSubscription => 'Included in subscription';
+  String get stripeCheckoutIncludedInSubscription => 'Az előfizetés tartalmazza';
 
   @override
-  String get stripeCheckoutBuyNow => 'Buy now';
+  String get stripeCheckoutBuyNow => 'Vásároljon most';
 
   @override
-  String get stripeCheckoutDirectProvider => 'Direct with EHW+';
+  String get stripeCheckoutDirectProvider => 'Közvetlenül a EHW+ oldalon';
 
   @override
   String get stripeCheckoutGooglePlay => 'Google Play';
@@ -4576,62 +4619,62 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get stripeCheckoutAppStore => 'App Store';
 
   @override
-  String get stripeCheckoutPurchaseMethodTitle => 'How would you like to pay?';
+  String get stripeCheckoutPurchaseMethodTitle => 'Hogyan szeretne fizetni?';
 
   @override
-  String get stripeCheckoutPurchaseMethodDescription => 'Choose the purchase method that suits you.';
+  String get stripeCheckoutPurchaseMethodDescription => 'Válassza ki az Önnek legmegfelelőbb vásárlási módot.';
 
   @override
-  String get stripeCheckoutPayDirectly => 'Pay directly with EHW+';
+  String get stripeCheckoutPayDirectly => 'Fizessen közvetlenül a EHW+ oldalon';
 
   @override
   String get stripeCheckoutPayDirectlyDescription =>
-      'Pay securely and manage your subscription in the EHW+ customer portal.';
+      'Fizessen biztonságosan, és kezelje előfizetését az EHW+ ügyfélportálon.';
 
   @override
-  String get stripeCheckoutGooglePlayDescription => 'Purchase and management through your Google account.';
+  String get stripeCheckoutGooglePlayDescription => 'Vásárlás és kezelés a Google-fiókodon keresztül.';
 
   @override
-  String get stripeCheckoutAppStoreDescription => 'Purchase and management through your Apple account.';
+  String get stripeCheckoutAppStoreDescription => 'Vásárlás és kezelés az Apple-fiókodon keresztül.';
 
   @override
-  String get stripeCheckoutPayDirectlyButton => 'Pay directly';
+  String get stripeCheckoutPayDirectlyButton => 'Közvetlenül fizessen';
 
   @override
-  String get stripeCheckoutContinueInStore => 'Continue in store';
+  String get stripeCheckoutContinueInStore => 'Folytatás az üzletben';
 
   @override
-  String get stripeCheckoutFailed => 'Could not start checkout. Please try again later.';
+  String get stripeCheckoutFailed => 'A fizetési folyamatot nem sikerült elindítani. Kérjük, próbálja meg később újra.';
 
   @override
-  String get stripePortalFailed => 'Could not open the customer portal. Please try again later.';
+  String get stripePortalFailed => 'Nem sikerült megnyitni az ügyfélportált. Kérjük, próbálja meg később újra.';
 
   @override
   String stripeSubscriptionUpdated(Object interval, Object date) {
-    return 'Update scheduled: switch to $interval on $date.';
+    return 'Frissítés ütemezve: átállás a $interval oldalra a $date oldalon.';
   }
 
   @override
-  String get stripeSubscriptionProviderGoogle => 'Subscribed via Google Play';
+  String get stripeSubscriptionProviderGoogle => 'Előfizetés a Google Playen keresztül';
 
   @override
-  String get stripeSubscriptionProviderApple => 'Subscribed via App Store';
+  String get stripeSubscriptionProviderApple => 'Feliratkozás: App Store';
 
   @override
-  String get stripeSubscriptionProviderDirect => 'Subscribed via EHW+';
+  String get stripeSubscriptionProviderDirect => 'Feliratkozás: EHW+';
 
   @override
-  String get stripeSubscriptionProviderUnknown => 'Subscribed';
+  String get stripeSubscriptionProviderUnknown => 'Feliratkozott';
 
   @override
-  String get stripePurchaseProviderApple => 'Purchased in the App Store';
+  String get stripePurchaseProviderApple => 'A „App Store” kiállításon vásároltam';
 
   @override
-  String get stripePurchaseProviderGoogle => 'Purchased in the Play Store';
+  String get stripePurchaseProviderGoogle => 'Az „Play Store” kiállításon vásároltam';
 
   @override
-  String get stripePurchaseProviderDirect => 'Purchased with EHW+';
+  String get stripePurchaseProviderDirect => 'EHW+-on keresztül vásároltam';
 
   @override
-  String get stripePurchaseProviderUnknown => 'Purchased';
+  String get stripePurchaseProviderUnknown => 'Megvásárolva';
 }

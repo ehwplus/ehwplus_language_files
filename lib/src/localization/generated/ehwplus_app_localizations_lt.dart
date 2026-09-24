@@ -356,13 +356,13 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get commonLogin => 'Prisijunkite';
 
   @override
-  String get commonLoginCanceled => 'Sign-in was not completed.';
+  String get commonLoginCanceled => 'Prisijungimas nebuvo užbaigtas.';
 
   @override
-  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'Naršyklė negalėjo užbaigti prisijungimo.';
 
   @override
-  String get commonLoginWithBrowser => 'Try another way';
+  String get commonLoginWithBrowser => 'Pabandykite kitaip';
 
   @override
   String get commonLogout => 'Atsijungti';
@@ -2228,6 +2228,38 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'PIRKITE „POWEROPTI“';
 
   @override
+  String get powerfoxSurveyTitle => 'Automatinis skaitiklių rodmenų gavimas';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'Ar turite skaitmeninį elektros skaitiklį?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Ar norėtumėte, kad ateityje jūsų elektros skaitiklio rodmenys būtų siunčiami automatiškai?';
+
+  @override
+  String get powerfoxSurveyYes => 'Taip';
+
+  @override
+  String get powerfoxSurveyNo => 'Ne';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'Ne, noriu toliau skaityti rankiniu būdu.';
+
+  @override
+  String get powerfoxInfoTitle => 'Automatinis skaitiklių rodmenų nuskaitymas naudojant „Powerfox“';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'Naudodami „Powerfox Poweropti“, jūsų elektros skaitiklio rodmenys automatiškai importuojami į „EHW+“.';
+
+  @override
+  String get powerfoxInfoDiscount => '5 eurų nuolaida su kodu EHW5';
+
+  @override
+  String get powerfoxInfoShop => 'EITI Į „POWERFOX“ PARDUOTUVĘ';
+
+  @override
   String get updateNoticeDebugTitle => 'Pranešimai apie atnaujinimus';
 
   @override
@@ -3987,412 +4019,417 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get changelogTitle => 'Pakeitimų sąrašas';
 
   @override
-  String get ehwPlusSyncTitle => 'EHW+ Cloud';
+  String get ehwPlusSyncTitle => 'EHW+ Debesis';
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.';
+      'EHW+ Ši programa sinchronizuoja jūsų objektus naudodama debesų technologiją. Prisijunkite, pasirinkite iki 2 objektų ir čia tvarkykite jų būseną bei sujungimus.';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
+  String get ehwPlusSyncUseAsPrimary => 'Sinchronizavimui naudokite „EHW+“ debesį';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your sync.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ „Cloud“ – tai jūsų sinchronizacija.';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Cloud is now your sync.';
+  String get ehwPlusSyncActivated => 'EHW+ „Cloud“ dabar yra jūsų sinchronizavimo priemonė.';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Could not enable EHW+ Cloud sync.';
+  String get ehwPlusSyncActivateFailed => 'Nepavyko įjungti „EHW+“ sinchronizavimo su debesimi.';
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+      'EHW+ Debesis užtikrina, kad pasirinkti objektai būtų sinchronizuoti visuose jūsų įrenginiuose. Pasirinkite, kas turi būti sinchronizuojama, patikrinkite būseną ir išspręskite sujungimo problemas, kai abiejose pusėse įvyko pakeitimų.';
 
   @override
-  String get ehwPlusSyncObjectsSectionTitle => 'Objects';
+  String get ehwPlusSyncObjectsSectionTitle => 'Objektai';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
+  String get ehwPlusSyncSelectSectionTitle => 'Sinchronizuotini objektai';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Select up to $max objects. Changes on those objects sync automatically while EHW+ Cloud is active.';
+    return 'Pasirinkite iki $max objektų. Šių objektų pakeitimai sinchronizuojami automatiškai, kol veikia „EHW+ Cloud“.';
   }
 
   @override
   String ehwPlusSyncSelectedCount(int count, int max) {
-    return '$count of $max selected';
+    return '$count iš „$max“ pasirinkta';
   }
 
   @override
-  String get ehwPlusSyncManagedSectionTitle => 'Sync status';
+  String get ehwPlusSyncManagedSectionTitle => 'Sinchronizavimo būsena';
 
   @override
-  String get ehwPlusSyncManagedSectionEmpty => 'Select an object above to see cloud status, history, and merges.';
+  String get ehwPlusSyncManagedSectionEmpty =>
+      'Pasirinkite vieną iš aukščiau pateiktų objektų, kad galėtumėte peržiūrėti debesies būklę, istoriją ir susijungimus.';
 
   @override
-  String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
+  String get ehwPlusSyncCloudStatusLoading => 'Įkeliama „EHW+“ debesies būsena…';
 
   @override
-  String get ehwPlusSyncCloudStatusMissing => 'No cloud copy yet.';
+  String get ehwPlusSyncCloudStatusMissing => 'Debesyje dar nėra kopijos.';
 
   @override
-  String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
+  String get ehwPlusSyncCloudStatusUnavailable => 'Nepavyko įkelti „EHW+“ debesies būsenos.';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Syncing this object to EHW+ Cloud…';
+  String get ehwPlusSyncSyncingSelection => 'Sinchronizuojamas šis objektas su „EHW+“ debesimi…';
 
   @override
-  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+  String get ehwPlusSyncConflictsHeader => 'Konfliktai';
 
   @override
-  String get ehwPlusSyncTakeServer => 'Take server version';
+  String get ehwPlusSyncTakeServer => 'Pasirinkite serverio versiją';
 
   @override
-  String get ehwPlusSyncUseLocal => 'This device';
+  String get ehwPlusSyncUseLocal => 'Šis prietaisas';
 
   @override
-  String get ehwPlusSyncUseCloud => 'Cloud';
+  String get ehwPlusSyncUseCloud => 'Debesis';
 
   @override
-  String get ehwPlusSyncUseAllLocal => 'All from this device';
+  String get ehwPlusSyncUseAllLocal => 'Visa tai iš šio įrenginio';
 
   @override
-  String get ehwPlusSyncUseAllCloud => 'All from cloud';
+  String get ehwPlusSyncUseAllCloud => 'Viskas iš debesies';
 
   @override
-  String get ehwPlusSyncApplyResolution => 'Apply and sync';
+  String get ehwPlusSyncApplyResolution => 'Taikyti ir sinchronizuoti';
 
   @override
-  String get ehwPlusSyncResolutionMixed => 'Mixed';
+  String get ehwPlusSyncResolutionMixed => 'Įvairūs';
 
   @override
-  String get ehwPlusSyncConflictExplorerHint => 'Tap This device or Cloud on each row. Apply uploads that mix.';
+  String get ehwPlusSyncConflictExplorerHint =>
+      'Kiekvienoje eilutėje bakstelėkite „Šis įrenginys“ arba „Debesis“. Taikykite mišrius įkėlimus.';
 
   @override
-  String get ehwPlusSyncKeepVersionLabel => 'Keep this version';
+  String get ehwPlusSyncKeepVersionLabel => 'Išsaugokite šią versiją';
 
   @override
-  String get ehwPlusSyncFolderPickLabel => 'All in this folder';
+  String get ehwPlusSyncFolderPickLabel => 'Viskas šiame aplanke';
 
   @override
-  String get ehwPlusSyncNotOnDevice => 'Not on this device';
+  String get ehwPlusSyncNotOnDevice => 'Ne šiame įrenginyje';
 
   @override
-  String get ehwPlusSyncNotInCloud => 'Not in the cloud';
+  String get ehwPlusSyncNotInCloud => 'Ne debesyje';
 
   @override
   String ehwPlusSyncOutcomeKeepLocal(String value) {
-    return 'Keep $value on both.';
+    return 'Abiem atvejais palikite „$value“.';
   }
 
   @override
   String ehwPlusSyncOutcomeUseCloud(String value) {
-    return 'Use cloud value $value.';
+    return 'Naudokite debesų vertę „$value“.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeSkipAdd => 'Skip this cloud item.';
+  String get ehwPlusSyncOutcomeSkipAdd => 'Praleisti šį elementą „debesyje“.';
 
   @override
   String ehwPlusSyncOutcomeAddCloud(String value) {
-    return 'Add $value from the cloud.';
+    return 'Pridėkite „$value“ iš debesies.';
   }
 
   @override
   String ehwPlusSyncOutcomeKeepRemoved(String value) {
-    return 'Keep $value and upload it.';
+    return 'Išsaugokite failą „$value“ ir jį įkelkite.';
   }
 
   @override
-  String get ehwPlusSyncOutcomeDropLocal => 'Remove this item to match the cloud.';
+  String get ehwPlusSyncOutcomeDropLocal => 'Pašalinkite šį elementą, kad jis atitiktų debesį.';
 
   @override
-  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+  String get ehwPlusSyncStatusCreated => 'Sukurta debesyje';
 
   @override
-  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+  String get ehwPlusSyncStatusFastForward => 'Įkeltas (greitasis peržiūros režimas)';
 
   @override
-  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+  String get ehwPlusSyncStatusUpdateRequired => 'Serveryje yra naujesni duomenys';
 
   @override
-  String get ehwPlusSyncStatusMerged => 'Merged with server';
+  String get ehwPlusSyncStatusMerged => 'Sujungta su serveriu';
 
   @override
-  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+  String get ehwPlusSyncStatusConflict => 'Konfliktas — sprendimas pateikiamas žemiau';
 
   @override
-  String get syncProviderActive => 'Active sync provider';
+  String get syncProviderActive => '„Active Sync“ paslaugų teikėjas';
 
   @override
-  String get syncProviderNoneActive => 'No synchronization selected. Choose an available method below.';
+  String get syncProviderNoneActive => 'Sinchronizavimas nepasirinktas. Pasirinkite vieną iš žemiau pateiktų metodų.';
 
   @override
-  String get syncTurnOff => 'Turn sync off';
+  String get syncTurnOff => 'Išjungti sinchronizavimą';
 
   @override
   String get syncOverviewIntro =>
-      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
+      '„Sync“ saugo jūsų namų ir skaitiklių rodmenų atsarginę kopiją debesyje. Jei įsigysite naują telefoną arba iš naujo įdiegsite programėlę, galėsite atkurti savo duomenis. Galite naudoti vieną iš šių metodų arba visiškai išjungti sinchronizavimą.';
 
   @override
-  String get syncSelectProviderLabel => 'Active sync method';
+  String get syncSelectProviderLabel => 'Aktyvaus sinchronizavimo metodas';
 
   @override
   String get syncSelectProviderHelp =>
-      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
+      'Pasirinkite vieną metodą. Norėdami išjungti sinchronizavimą, pasirinkite „Nesinchronizuoti“. Norėdami sužinoti daugiau ir, jei reikia, prisijungti, atidarykite vieną iš žemiau pateiktų metodų.';
 
   @override
-  String get syncProvidersSectionTitle => 'Available sync methods';
+  String get syncProvidersSectionTitle => 'Galimi sinchronizavimo būdai';
 
   @override
-  String get syncProviderSegmentNone => 'No synchronization';
+  String get syncProviderSegmentNone => 'Nėra sinchronizacijos';
 
   @override
-  String get syncProviderSegmentNoneShort => 'Off';
+  String get syncProviderSegmentNoneShort => 'Išjungta';
 
   @override
   String get syncProviderSegmentGoogle => 'Google Drive';
 
   @override
-  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+  String get syncProviderSegmentEhwPlus => 'EHW+ Debesis';
 
   @override
-  String get syncProviderSegmentGoogleShort => 'Drive';
+  String get syncProviderSegmentGoogleShort => 'Vairavimas';
 
   @override
-  String get syncProviderSegmentEhwPlusShort => 'Cloud';
+  String get syncProviderSegmentEhwPlusShort => 'Debesis';
 
   @override
-  String get syncProviderNoneSummary => 'Your data will remain only on this device and will not be synced.';
+  String get syncProviderNoneSummary => 'Jūsų duomenys bus saugomi tik šiame įrenginyje ir nebus sinchronizuojami.';
 
   @override
-  String get syncUseProvider => 'Use for sync';
+  String get syncUseProvider => 'Naudoti sinchronizavimui';
 
   @override
   String get syncProviderGoogleSummary =>
-      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+      'Jūsų duomenys saugomi kaip failai jūsų „Google Drive“ paskyroje. Prisijungiate naudodami „Google“ paskyrą. Tai puikus sprendimas, jei jau naudojatės „Google“ paslaugomis ir norite, kad failai būtų saugomi jūsų „Drive“ paskyroje.';
 
   @override
   String get syncProviderEhwPlusSummary =>
-      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+      'Jūsų duomenys saugomi „EHW+“ debesyje, naudojant jūsų „EHW+“ paskyrą. Veikia visuose jūsų įrenginiuose be „Google Drive“. Geriausiai tinka, jei prisijungiate naudodami „EHW+“ prisijungimo duomenis.';
 
   @override
   String get syncProviderGoogleDetails =>
-      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
+      'Google Drive Sinchronizavimo funkcija nukopijuoja jūsų objektų duomenis į aplanką jūsų „Google“ paskyroje. Norėdami prisijungti, šiame puslapyje prisijunkite naudodami „Google“ paskyrą. Pakeitimai gali būti sinchronizuojami automatiškai, kai esate prisijungę prie interneto. Jūsų failai išlieka „Drive“ saugykloje, todėl juos galite peržiūrėti ir už programėlės ribų. Patarimas: jei vėliau pereisite prie „EHW+“ debesies, „Google Drive“ nebebus aktyvi atsarginė kopija, kol vėl nepereisite atgal.';
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.';
+      'EHW+ Ši programa naudoja debesų sinchronizavimą: jūsų objektų duomenys saugomi „EHW+“ serveriuose ir sinchronizuojami visuose įrenginiuose, kuriuose naudojama jūsų „EHW+“ paskyra. Pasirinkite iki dviejų objektų, kuriuos norite sinchronizuoti. Jei abiejose pusėse pakeičiamas tas pats laukas, čia galite išspręsti sujungimo problemą. Galimybė dalytis objektu, kambariu ar skaitikliu su kitais asmenimis bus įdiegta vėliau.';
 
   @override
-  String get syncOpenProviderDetails => 'Open details';
+  String get syncOpenProviderDetails => 'Peržiūrėti informaciją';
 
   @override
-  String get syncProviderSignedIn => 'Signed in';
+  String get syncProviderSignedIn => 'Prisijungė';
 
   @override
-  String get syncProviderNotSignedIn => 'Not signed in';
+  String get syncProviderNotSignedIn => 'Nesate prisijungęs';
 
   @override
-  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
+  String get syncNeedsEhwPlusAccount =>
+      'Prisijunkite naudodami savo „EHW+“ paskyrą, kad galėtumėte naudotis „EHW+ Cloud“.';
 
   @override
   String get syncNeedsGoogleAccount =>
-      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+      'Prisijunkite per „Google“, kad galėtumėte naudotis „Google Drive Sync“. Norėdami prisijungti, atidarykite žemiau pateiktą nuorodą Google Drive.';
 
   @override
-  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+  String get syncErrorNetwork => 'Nėra ryšio. Patikrinkite tinklą ir pabandykite dar kartą.';
 
   @override
-  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+  String get syncErrorSessionExpired => 'Jūsų „EHW+“ sesija pasibaigė. Prisijunkite dar kartą ir pabandykite iš naujo.';
 
   @override
   String get syncErrorAccessDenied =>
-      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+      'Šiai paskyrai neleidžiama naudoti sinchronizavimo su debesimi. Prisijunkite dar kartą arba patikrinkite, ar jūsų „EHW+“ planas apima sinchronizavimą su debesimis.';
 
   @override
   String get syncErrorPayloadTooLarge =>
-      'This home is too large to sync right now. Try again later or contact support.';
+      'Šis namas šiuo metu yra per didelis, kad būtų galima jį sinchronizuoti. Bandykite vėliau arba susisiekite su pagalbos tarnyba.';
 
   @override
-  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+  String get syncErrorServiceUnavailable => 'EHW+ „Cloud“ šiuo metu neveikia. Praėjus akimirkai pabandykite dar kartą.';
 
   @override
-  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+  String get syncErrorNotReady =>
+      'Sinchronizavimas su debesimi dar nėra parengtas. Palaukite akimirką ir pabandykite dar kartą.';
 
   @override
-  String get syncErrorUnknown => 'Sync failed. Please try again.';
+  String get syncErrorUnknown => 'Sinchronizavimas nepavyko. Prašome bandyti dar kartą.';
 
   @override
-  String get syncTurnedOff => 'Cloud sync is turned off.';
+  String get syncTurnedOff => 'Sinchronizavimas su debesimi yra išjungtas.';
 
   @override
-  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+  String get syncTurnOffFailed => 'Nepavyko išjungti sinchronizavimo. Bandykite dar kartą.';
 
   @override
-  String get syncNoHomesYet => 'No homes to sync yet.';
+  String get syncNoHomesYet => 'Kol kas nėra namų, kuriuos būtų galima sinchronizuoti.';
 
   @override
-  String get syncAllNow => 'Sync all';
+  String get syncAllNow => 'Sinchronizuoti viską';
 
   @override
   String syncAllFinished(int ok, int total) {
-    return 'Finished syncing $ok of $total.';
+    return 'Baigtas sinchronizuoti „$ok“ iš „$total“.';
   }
 
   @override
   String syncAllFinishedWithFailures(int ok, int total, int failed) {
-    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+    return 'Baigtas sinchronizuoti „$ok“ iš „$total“. „$failed“ nepavyko — žr. žemiau pažymėtus namus.';
   }
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
+      'Šis objektas serveryje skiriasi. Atidarykite eilutę, palyginkite abi versijas ir pasirinkite, kurią norite išsaugoti – arba sujungti. Nesutampantys pakeitimai sujungiami automatiškai.';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
+  String get ehwPlusSyncAutoSyncLabel => 'Sinchronizuoti šį objektą';
 
   @override
-  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';
+  String get ehwPlusSyncAutoSyncLimit =>
+      'Galite sinchronizuoti ne daugiau kaip 2 objektus. Pirmiausia vieną iš jų išjunkite.';
 
   @override
-  String get ehwPlusSyncSideLocal => 'This device';
+  String get ehwPlusSyncSideLocal => 'Šis prietaisas';
 
   @override
-  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
+  String get ehwPlusSyncSideCloud => 'EHW+ Debesis';
 
   @override
-  String get ehwPlusSyncStateInSync => 'In sync';
+  String get ehwPlusSyncStateInSync => 'Sinchronizuota';
 
   @override
-  String get ehwPlusSyncStateOutOfSync => 'Not in sync';
+  String get ehwPlusSyncStateOutOfSync => 'Nesinchronizuota';
 
   @override
-  String get ehwPlusSyncStateChecking => 'Checking sync status…';
+  String get ehwPlusSyncStateChecking => 'Tikrinama sinchronizavimo būsena…';
 
   @override
-  String get ehwPlusSyncStateMissingCloud => 'Not on cloud yet';
+  String get ehwPlusSyncStateMissingCloud => 'Dar ne debesyje';
 
   @override
-  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+  String get ehwPlusSyncDiffPanelTitle => 'Šis įrenginys ir debesija';
 
   @override
-  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
+  String get ehwPlusSyncDiffPanelEmpty => 'Paskutinio sinchronizavimo metu laukų nesutapimų nebuvo.';
 
   @override
-  String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
+  String get ehwPlusSyncRemoveFromCloud => 'Pašalinti iš debesies';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this object from EHW+ Cloud?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Ar pašalinti šį objektą iš „EHW+“ debesies?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.';
+      'Kopija „EHW+“ serveriuose bus ištrinta. Duomenys šiame įrenginyje bus išsaugoti. Vėliau galėsite vėl pasirinkti šį objektą, kad įkeltumėte naują kopiją.';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Removed this object from EHW+ Cloud.';
+  String get ehwPlusSyncRemovedFromCloud => 'Šis objektas buvo pašalintas iš „EHW+“ debesies.';
 
   @override
-  String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
+  String get ehwPlusSyncPhotosSectionTitle => 'Sinchronizuoti vaizdai';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
-    return '$readyCount of $total synced images';
+    return '$readyCount iš „$total“ sinchronizuotų vaizdų';
   }
 
   @override
-  String get ehwPlusSyncPhotosEmpty => 'No synced images yet.';
+  String get ehwPlusSyncPhotosEmpty => 'Kol kas nėra sinchronizuotų vaizdų.';
 
   @override
-  String get ehwPlusSyncPhotosShowMore => 'Show more images';
+  String get ehwPlusSyncPhotosShowMore => 'Rodyti daugiau nuotraukų';
 
   @override
-  String get ehwPlusSyncPhotosLoadThumbs => 'Load thumbnails';
+  String get ehwPlusSyncPhotosLoadThumbs => 'Įkelti miniatiūras';
 
   @override
-  String get ehwPlusSyncPhotosLoading => 'Loading images…';
+  String get ehwPlusSyncPhotosLoading => 'Įkeliamos nuotraukos…';
 
   @override
-  String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
+  String get ehwPlusSyncPhotosUnavailable => 'Šiuo metu debesų vaizdai nėra prieinami.';
 
   @override
-  String get ehwPlusSyncPhotosUnassigned => 'Other photos';
+  String get ehwPlusSyncPhotosUnassigned => 'Kitos nuotraukos';
 
   @override
-  String get ehwPlusSyncHistoryTitle => 'Sync history';
+  String get ehwPlusSyncHistoryTitle => 'Sinchronizavimo istorija';
 
   @override
   String ehwPlusSyncHistoryCount(int count) {
-    return '$count versions';
+    return '$count versijos';
   }
 
   @override
-  String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
+  String get ehwPlusSyncHistoryEmpty => 'Sinchronizavimo istorijos dar nėra.';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Load 5 more';
+  String get ehwPlusSyncHistoryLoadMore => 'Įkelti dar 5';
 
   @override
-  String get ehwPlusSyncHistoryLoading => 'Loading history…';
+  String get ehwPlusSyncHistoryLoading => 'Įkeliama istorija…';
 
   @override
-  String get ehwPlusSyncHistoryUnavailable => 'Sync history is unavailable right now.';
+  String get ehwPlusSyncHistoryUnavailable => 'Šiuo metu sinchronizavimo istorija nėra prieinama.';
 
   @override
-  String get ehwPlusSyncRestoreTitle => 'Restore this version?';
+  String get ehwPlusSyncRestoreTitle => 'Atkurti šią versiją?';
 
   @override
   String get ehwPlusSyncRestoreWarning =>
-      'This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.';
+      'Ši funkcija pakeičia šio įrenginio duomenis pasirinktu debesies istorijos momentiniu vaizdu, o tada sinchronizuoja juos atgal į „EHW+“ debesį. Neišsaugoti vietiniai pakeitimai gali būti negrįžtamai prarasti.';
 
   @override
   String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
-    return 'Snapshot from $timestamp · $hash';
+    return 'Ekrano kopija iš „$timestamp“ · $hash';
   }
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count items will change';
+    return '$count prekės pasikeis';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches what is on this device.';
+  String get ehwPlusSyncRestoreNoDiff => 'Ši momentinė kopija atitinka šio įrenginio turinį.';
 
   @override
   String get ehwPlusSyncRestoreExplorerHint =>
-      'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.';
+      'Išvardyti tik tie elementai, kurie bus pakeisti. Nepakeisti matuokliai, kambariai ir nuotraukos lieka paslėpti.';
 
   @override
-  String get ehwPlusSyncRestoreOnlyLocal => 'Only on this device';
+  String get ehwPlusSyncRestoreOnlyLocal => 'Tik šiame įrenginyje';
 
   @override
-  String get ehwPlusSyncRestoreOnlySnapshot => 'Only in this snapshot';
+  String get ehwPlusSyncRestoreOnlySnapshot => 'Tik šioje momentinėje nuotraukoje';
 
   @override
-  String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
+  String get ehwPlusSyncRestoreWillUpdate => 'Bus pakeistas';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Object details';
+  String get ehwPlusSyncRestoreHomeDetails => 'Objekto duomenys';
 
   @override
-  String get ehwPlusSyncRestoreReadings => 'Readings';
+  String get ehwPlusSyncRestoreReadings => 'Skaitymai';
 
   @override
-  String get ehwPlusSyncRestoreDeletedMeters => 'Deleted meters';
+  String get ehwPlusSyncRestoreDeletedMeters => 'Pašalinti skaitikliai';
 
   @override
-  String get ehwPlusSyncRestoreConsumptionPoints => 'Grid connections';
+  String get ehwPlusSyncRestoreConsumptionPoints => 'Prijungimai prie elektros tinklo';
 
   @override
   String ehwPlusSyncRestoreChangedCount(int count) {
-    return '$count changed';
+    return '$count pakeista';
   }
 
   @override
   String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
-    return '$localCount readings here · $cloudCount in snapshot';
+    return '$localCount čia rasite skaitytus tekstus · „$cloudCount“ apžvalga';
   }
 
   @override
@@ -4401,237 +4438,239 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Object name';
+  String get ehwPlusSyncDiffFieldTitle => 'Objekto pavadinimas';
 
   @override
-  String get ehwPlusSyncDiffFieldHouseName => 'House name';
+  String get ehwPlusSyncDiffFieldHouseName => 'Namo pavadinimas';
 
   @override
-  String get ehwPlusSyncDiffFieldCurrency => 'Currency';
+  String get ehwPlusSyncDiffFieldCurrency => 'Valiuta';
 
   @override
-  String get ehwPlusSyncDiffFieldAddress => 'Address';
+  String get ehwPlusSyncDiffFieldAddress => 'Adresas';
 
   @override
-  String get ehwPlusSyncDiffFieldObjectType => 'Home type';
+  String get ehwPlusSyncDiffFieldObjectType => 'Būsto tipas';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
-    return '…and $count more fields';
+    return '…ir „$count“ – dar daugiau sričių';
   }
 
   @override
   String ehwPlusSyncDiffMoreLines(int count) {
-    return '…and $count more lines';
+    return '…ir „$count“ – dar kelios eilutės';
   }
 
   @override
-  String get ehwPlusSyncRestoreConfirm => 'Restore and sync';
+  String get ehwPlusSyncRestoreConfirm => 'Atkurti ir sinchronizuoti';
 
   @override
-  String get ehwPlusSyncRestoreFailed => 'Could not restore that history version.';
+  String get ehwPlusSyncRestoreFailed => 'Nepavyko atkurti tos istorijos versijos.';
 
   @override
-  String get ehwPlusSyncRestoreApiMissing => 'Restore needs a newer EHW+ Cloud API (history detail not deployed yet).';
+  String get ehwPlusSyncRestoreApiMissing =>
+      'Atkūrimui reikalinga naujesnė „EHW+“ debesų API versija (istorijos detalės dar neįdiegtos).';
 
   @override
-  String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
+  String get ehwPlusSyncRestoreBusy =>
+      'Palaukite, kol bus užbaigtas dabartinis sinchronizavimas, tada pabandykite dar kartą.';
 
   @override
-  String get ehwPlusSyncPhotoUploadStarted => 'Meter photo upload started in the background.';
+  String get ehwPlusSyncPhotoUploadStarted => 'Fone pradėtas skaitiklio nuotraukos įkėlimas.';
 
   @override
-  String get ehwPlusSyncPhotoUploadSucceeded => 'Meter photos uploaded to EHW+ Cloud.';
+  String get ehwPlusSyncPhotoUploadSucceeded => 'Į „EHW+“ debesį įkeltos skaitiklių nuotraukos.';
 
   @override
   String get ehwPlusSyncPhotoUploadFailed =>
-      'Meter photos could not be uploaded. Your reading is saved on this device.';
+      'Nepavyko įkelti skaitiklio nuotraukų. Jūsų rodmenys išsaugoti šiame įrenginyje.';
 
   @override
   String get ehwPlusSyncPhotoUploadStorageFailed =>
-      'Photo storage is unavailable. Your reading is saved on this device.';
+      'Nuotraukų saugykla neveikia. Jūsų skaitymo duomenys išsaugomi šiame įrenginyje.';
 
   @override
   String get ehwPlusSyncPhotoUploadApiFailed =>
-      'Photos could not reach EHW+ Cloud. Your reading is saved on this device.';
+      'Nuotraukos negalėjo būti perkeltos į „EHW+“ debesį. Jūsų skaitymo pažanga išsaugota šiame įrenginyje.';
 
   @override
-  String get ehwPlusSyncStatePhotosPending => 'Data in sync · photos uploading';
+  String get ehwPlusSyncStatePhotosPending => 'Duomenų sinchronizavimas · nuotraukų įkėlimas';
 
   @override
-  String get ehwPlusSyncStatePhotosFailed => 'Data saved · photos not synced';
+  String get ehwPlusSyncStatePhotosFailed => 'Duomenys išsaugoti · nuotraukos nesinchronizuotos';
 
   @override
   String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
-    return '$localCount on this device → $cloudCount in this snapshot';
+    return '$localCount šiame įrenginyje → $cloudCount šiame ekrano vaizde';
   }
 
   @override
-  String get ehwPlusSyncDiffFieldCounters => 'Meters';
+  String get ehwPlusSyncDiffFieldCounters => 'Metrai';
 
   @override
-  String get ehwPlusSyncDiffFieldPhotoFiles => 'Meter photos';
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'Matuoklio nuotraukos';
 
   @override
-  String get ehwPlusSyncDiffFieldActivities => 'Activities';
+  String get ehwPlusSyncDiffFieldActivities => 'Veikla';
 
   @override
-  String get ehwPlusSyncDiffFieldRooms => 'Rooms';
+  String get ehwPlusSyncDiffFieldRooms => 'Kambariai';
 
   @override
-  String get ehwPlusSyncDiffFieldContracts => 'Contracts';
+  String get ehwPlusSyncDiffFieldContracts => 'Sutartys';
 
   @override
-  String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
+  String get ehwPlusSyncDiffFieldLastUpdated => 'Paskutinis atnaujinimas';
 
   @override
-  String get stripeCheckoutComingSoonTitle => 'Web purchase coming soon';
+  String get stripeCheckoutComingSoonTitle => 'Netrukus bus galima pirkti internetu';
 
   @override
   String get stripeCheckoutComingSoonDescription =>
-      'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.';
+      'Šiuo metu pirkimus galima atlikti programėlėje „EHW+“. Netrukus čia bus galima įsigyti „Premium“ paslaugas ir atlikti vienkartinius pirkimus.';
 
   @override
-  String get stripeCheckoutSubscriptionLabel => 'PLAN';
+  String get stripeCheckoutSubscriptionLabel => 'PLANAS';
 
   @override
-  String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
+  String get stripeCheckoutPremiumTitle => 'EHW+ „Premium“';
 
   @override
-  String get stripeCheckoutPremiumDescription => 'Full insights and sync across your devices. Monthly or yearly.';
+  String get stripeCheckoutPremiumDescription =>
+      'Išsamūs duomenys ir sinchronizavimas visuose jūsų įrenginiuose. Kas mėnesį arba kasmet.';
 
   @override
-  String get stripeCheckoutFeatureWeather =>
-      'Weather and Heating: Outdoor temperature and consumption in a single chart.';
+  String get stripeCheckoutFeatureWeather => 'Oras ir šildymas: lauko temperatūra ir suvartojimas viename grafike.';
 
   @override
   String get stripeCheckoutFeatureStatistics =>
-      'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.';
+      'Statistika: palyginimai su praėjusiais metais, išsami išlaidų apžvalga, laikotarpių pritaikymas, eksportavimas į „Excel“.';
 
   @override
   String get stripeCheckoutFeatureCloudSync =>
-      'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.';
+      'Sinchronizavimas debesyje: dvi nuosavybės ir bet koks skaičius skaitiklių jūsų telefone, planšetėje ir internete.';
 
   @override
   String get stripeCheckoutFeatureMultipleProperties =>
-      'Multiple Properties: Manage apartments or houses separately within their own properties.';
+      'Keli nekilnojamojo turto objektai: valdykite butus ar namus atskirai, kaip atskirus nekilnojamojo turto objektus.';
 
   @override
   String get stripeCheckoutFeatureAdditionalMeters =>
-      'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.';
+      'Papildomi skaitikliai: Skaitikliai, skirti saulės fotoelektros sistemoms, saulės šiluminėms sistemoms ir vandens suvartojimui matuoti.';
 
   @override
-  String get stripeCheckoutPriceLoading => 'Loading price…';
+  String get stripeCheckoutPriceLoading => 'Įkeliama kaina…';
 
   @override
-  String get stripeCheckoutPriceUnavailable => 'Price currently unavailable';
+  String get stripeCheckoutPriceUnavailable => 'Kaina šiuo metu nenurodyta';
 
   @override
-  String get stripeCheckoutYearly => 'Yearly';
+  String get stripeCheckoutYearly => 'Kasmet';
 
   @override
-  String get stripeCheckoutMonthly => 'Monthly';
+  String get stripeCheckoutMonthly => 'Kas mėnesį';
 
   @override
-  String get stripeCheckoutPeriodYear => '/ year';
+  String get stripeCheckoutPeriodYear => '/ per metus';
 
   @override
-  String get stripeCheckoutPeriodMonth => '/ month';
+  String get stripeCheckoutPeriodMonth => '/ mėnesį';
 
   @override
-  String get stripeCheckoutScheduled => 'Scheduled';
+  String get stripeCheckoutScheduled => 'Planuojama';
 
   @override
-  String get stripeCheckoutRedirecting => 'Redirecting…';
+  String get stripeCheckoutRedirecting => 'Peradresuojama…';
 
   @override
-  String get stripeCheckoutManage => 'Manage';
+  String get stripeCheckoutManage => 'Valdyti';
 
   @override
-  String get stripeCheckoutSwitchPlan => 'Switch plan';
+  String get stripeCheckoutSwitchPlan => 'Pakeisti planą';
 
   @override
-  String get stripeCheckoutChoosePremium => 'Choose Premium';
+  String get stripeCheckoutChoosePremium => 'Pasirinkite „Premium“';
 
   @override
-  String get stripeCheckoutLifetimeTitle => 'Lifetime purchases';
+  String get stripeCheckoutLifetimeTitle => 'Pirkimai visam gyvenimui';
 
   @override
   String get stripeCheckoutLifetimeDescription =>
-      'The following items can also be purchased individually as an alternative to a subscription.';
+      'Šiuos elementus taip pat galima įsigyti atskirai, kaip alternatyvą prenumeratai.';
 
   @override
-  String get stripeCheckoutIncludedInSubscription => 'Included in subscription';
+  String get stripeCheckoutIncludedInSubscription => 'Įtraukta į prenumeratą';
 
   @override
-  String get stripeCheckoutBuyNow => 'Buy now';
+  String get stripeCheckoutBuyNow => 'Pirkti dabar';
 
   @override
-  String get stripeCheckoutDirectProvider => 'Direct with EHW+';
+  String get stripeCheckoutDirectProvider => 'Tiesiogiai su „EHW+“';
 
   @override
-  String get stripeCheckoutGooglePlay => 'Google Play';
+  String get stripeCheckoutGooglePlay => '„Google Play“';
 
   @override
   String get stripeCheckoutAppStore => 'App Store';
 
   @override
-  String get stripeCheckoutPurchaseMethodTitle => 'How would you like to pay?';
+  String get stripeCheckoutPurchaseMethodTitle => 'Kaip norėtumėte sumokėti?';
 
   @override
-  String get stripeCheckoutPurchaseMethodDescription => 'Choose the purchase method that suits you.';
+  String get stripeCheckoutPurchaseMethodDescription => 'Pasirinkite jums tinkamą pirkimo būdą.';
 
   @override
-  String get stripeCheckoutPayDirectly => 'Pay directly with EHW+';
+  String get stripeCheckoutPayDirectly => 'Apmokėkite tiesiogiai per „EHW+“';
 
   @override
   String get stripeCheckoutPayDirectlyDescription =>
-      'Pay securely and manage your subscription in the EHW+ customer portal.';
+      '„EHW+“ klientų portale galite saugiai atsiskaityti ir valdyti savo prenumeratą.';
 
   @override
-  String get stripeCheckoutGooglePlayDescription => 'Purchase and management through your Google account.';
+  String get stripeCheckoutGooglePlayDescription => 'Pirkimas ir valdymas per „Google“ paskyrą.';
 
   @override
-  String get stripeCheckoutAppStoreDescription => 'Purchase and management through your Apple account.';
+  String get stripeCheckoutAppStoreDescription => 'Pirkimas ir valdymas per jūsų „Apple“ paskyrą.';
 
   @override
-  String get stripeCheckoutPayDirectlyButton => 'Pay directly';
+  String get stripeCheckoutPayDirectlyButton => 'Sumokėkite tiesiogiai';
 
   @override
-  String get stripeCheckoutContinueInStore => 'Continue in store';
+  String get stripeCheckoutContinueInStore => 'Tęsti pirkimą parduotuvėje';
 
   @override
-  String get stripeCheckoutFailed => 'Could not start checkout. Please try again later.';
+  String get stripeCheckoutFailed => 'Nepavyko pradėti atsiskaitymo. Prašome pabandyti vėliau.';
 
   @override
-  String get stripePortalFailed => 'Could not open the customer portal. Please try again later.';
+  String get stripePortalFailed => 'Nepavyko atidaryti klientų portalo. Prašome pabandyti vėliau.';
 
   @override
   String stripeSubscriptionUpdated(Object interval, Object date) {
-    return 'Update scheduled: switch to $interval on $date.';
+    return 'Planuojamas atnaujinimas: perėjimas prie „$interval“ svetainėje $date.';
   }
 
   @override
-  String get stripeSubscriptionProviderGoogle => 'Subscribed via Google Play';
+  String get stripeSubscriptionProviderGoogle => 'Prenumeruota per „Google Play“';
 
   @override
-  String get stripeSubscriptionProviderApple => 'Subscribed via App Store';
+  String get stripeSubscriptionProviderApple => 'Prenumeruota per „App Store“';
 
   @override
-  String get stripeSubscriptionProviderDirect => 'Subscribed via EHW+';
+  String get stripeSubscriptionProviderDirect => 'Prenumeruota per „EHW+“';
 
   @override
-  String get stripeSubscriptionProviderUnknown => 'Subscribed';
+  String get stripeSubscriptionProviderUnknown => 'Prenumeruojama';
 
   @override
-  String get stripePurchaseProviderApple => 'Purchased in the App Store';
+  String get stripePurchaseProviderApple => 'Įsigyta „App Store“';
 
   @override
-  String get stripePurchaseProviderGoogle => 'Purchased in the Play Store';
+  String get stripePurchaseProviderGoogle => 'Įsigyta „Play Store“ parduotuvėje';
 
   @override
-  String get stripePurchaseProviderDirect => 'Purchased with EHW+';
+  String get stripePurchaseProviderDirect => 'Įsigyta naudojant „EHW+“';
 
   @override
-  String get stripePurchaseProviderUnknown => 'Purchased';
+  String get stripePurchaseProviderUnknown => 'Įsigyta';
 }

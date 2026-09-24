@@ -354,13 +354,13 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get commonLogin => 'เข้าสู่ระบบ';
 
   @override
-  String get commonLoginCanceled => 'Sign-in was not completed.';
+  String get commonLoginCanceled => 'การเข้าสู่ระบบยังไม่เสร็จสิ้น';
 
   @override
-  String get commonLoginBrowserError => 'The browser could not complete sign-in.';
+  String get commonLoginBrowserError => 'เบราว์เซอร์ไม่สามารถดำเนินการเข้าสู่ระบบได้';
 
   @override
-  String get commonLoginWithBrowser => 'Try another way';
+  String get commonLoginWithBrowser => 'ลองวิธีอื่นดู';
 
   @override
   String get commonLogout => 'ออกจากระบบ';
@@ -2218,6 +2218,38 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'ซื้อ POWEROPTI';
 
   @override
+  String get powerfoxSurveyTitle => 'รับข้อมูลการอ่านมิเตอร์แบบอัตโนมัติ';
+
+  @override
+  String get powerfoxSurveyDigitalMeterQuestion => 'คุณมีมิเตอร์ไฟฟ้าแบบดิจิทัลหรือไม่?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'คุณต้องการรับข้อมูลการอ่านมิเตอร์ไฟฟ้าแบบอัตโนมัติในอนาคตหรือไม่?';
+
+  @override
+  String get powerfoxSurveyYes => 'ใช่';
+
+  @override
+  String get powerfoxSurveyNo => 'ไม่';
+
+  @override
+  String get powerfoxSurveyManualReadings => 'ไม่ครับ ผมอยากอ่านต่อด้วยมือเอง';
+
+  @override
+  String get powerfoxInfoTitle => 'การอ่านค่ามิเตอร์อัตโนมัติด้วย Powerfox';
+
+  @override
+  String get powerfoxInfoMessage =>
+      'ด้วย Powerfox Poweropti การอ่านค่ามิเตอร์ไฟฟ้าของคุณจะถูกนำเข้าสู่ระบบ EHW+ โดยอัตโนมัติ';
+
+  @override
+  String get powerfoxInfoDiscount => 'รับส่วนลด 5 ยูโร เมื่อใช้รหัส EHW5';
+
+  @override
+  String get powerfoxInfoShop => 'ไปที่ร้าน POWERFOX';
+
+  @override
   String get updateNoticeDebugTitle => 'ประกาศอัปเดต';
 
   @override
@@ -3960,412 +3992,413 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get changelogTitle => 'บันทึกการเปลี่ยนแปลง';
 
   @override
-  String get ehwPlusSyncTitle => 'EHW+ Cloud';
+  String get ehwPlusSyncTitle => 'EHW+ คลาวด์';
 
   @override
   String get ehwPlusSyncDescription =>
-      'EHW+ Cloud is how this app keeps your objects in sync. Sign in, pick up to 2 objects, and manage status and merges here.';
+      'EHW+ ระบบคลาวด์คือวิธีที่แอปนี้ใช้เพื่อรักษาความสอดคล้องของวัตถุของคุณ ให้ลงชื่อเข้าใช้ เลือกวัตถุได้สูงสุด 2 ชิ้น และจัดการสถานะและการรวมวัตถุได้ที่นี่';
 
   @override
-  String get ehwPlusSyncUseAsPrimary => 'Use EHW+ Cloud for sync';
+  String get ehwPlusSyncUseAsPrimary => 'ใช้ EHW+ Cloud เพื่อซิงค์ข้อมูล';
 
   @override
-  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud is your sync.';
+  String get ehwPlusSyncIsPrimary => 'EHW+ Cloud คือระบบซิงค์ของคุณ';
 
   @override
-  String get ehwPlusSyncActivated => 'EHW+ Cloud is now your sync.';
+  String get ehwPlusSyncActivated => 'EHW+ Cloud คือเครื่องมือซิงค์ของคุณแล้ว';
 
   @override
-  String get ehwPlusSyncActivateFailed => 'Could not enable EHW+ Cloud sync.';
+  String get ehwPlusSyncActivateFailed => 'ไม่สามารถเปิดใช้งานการซิงค์บนคลาวด์ของEHW+ได้';
 
   @override
   String get ehwPlusSyncHubIntro =>
-      'EHW+ Cloud keeps selected objects up to date across your devices. Choose what syncs, check status, and resolve merges when both sides changed.';
+      'EHW+ Cloud จะรักษาข้อมูลของวัตถุที่เลือกไว้ให้ทันสมัยบนทุกอุปกรณ์ของคุณ คุณสามารถเลือกเนื้อหาที่จะซิงค์ ตรวจสอบสถานะ และแก้ไขปัญหาการรวมข้อมูลเมื่อทั้งสองด้านมีการเปลี่ยนแปลง';
 
   @override
-  String get ehwPlusSyncObjectsSectionTitle => 'Objects';
+  String get ehwPlusSyncObjectsSectionTitle => 'วัตถุ';
 
   @override
-  String get ehwPlusSyncSelectSectionTitle => 'Objects to sync';
+  String get ehwPlusSyncSelectSectionTitle => 'วัตถุที่จะซิงค์';
 
   @override
   String ehwPlusSyncSelectSectionSubtitle(int max) {
-    return 'Select up to $max objects. Changes on those objects sync automatically while EHW+ Cloud is active.';
+    return 'เลือกได้สูงสุด$max วัตถุ การเปลี่ยนแปลงบนวัตถุเหล่านั้นจะซิงค์อัตโนมัติเมื่อEHW+ Cloud กำลังทำงาน';
   }
 
   @override
   String ehwPlusSyncSelectedCount(int count, int max) {
-    return '$count of $max selected';
+    return '$count จากหนังสือ \"$max\" ที่ได้รับการคัดเลือก';
   }
 
   @override
-  String get ehwPlusSyncManagedSectionTitle => 'Sync status';
+  String get ehwPlusSyncManagedSectionTitle => 'สถานะการซิงค์';
 
   @override
-  String get ehwPlusSyncManagedSectionEmpty => 'Select an object above to see cloud status, history, and merges.';
+  String get ehwPlusSyncManagedSectionEmpty => 'เลือกวัตถุด้านบนเพื่อดูสถานะเมฆ ประวัติ และการรวมตัว';
 
   @override
-  String get ehwPlusSyncCloudStatusLoading => 'Loading EHW+ Cloud status…';
+  String get ehwPlusSyncCloudStatusLoading => 'กำลังโหลดสถานะของEHW+ Cloud…';
 
   @override
-  String get ehwPlusSyncCloudStatusMissing => 'No cloud copy yet.';
+  String get ehwPlusSyncCloudStatusMissing => 'ยังไม่มีสำเนาบนคลาวด์';
 
   @override
-  String get ehwPlusSyncCloudStatusUnavailable => 'Could not load EHW+ Cloud status.';
+  String get ehwPlusSyncCloudStatusUnavailable => 'ไม่สามารถโหลดสถานะของEHW+ Cloud ได้';
 
   @override
-  String get ehwPlusSyncSyncingSelection => 'Syncing this object to EHW+ Cloud…';
+  String get ehwPlusSyncSyncingSelection => 'กำลังซิงค์วัตถุนี้กับ EHW+ Cloud…';
 
   @override
-  String get ehwPlusSyncConflictsHeader => 'Conflicts';
+  String get ehwPlusSyncConflictsHeader => 'ความขัดแย้ง';
 
   @override
-  String get ehwPlusSyncTakeServer => 'Take server version';
+  String get ehwPlusSyncTakeServer => 'รับเวอร์ชันเซิร์ฟเวอร์';
 
   @override
-  String get ehwPlusSyncUseLocal => 'This device';
+  String get ehwPlusSyncUseLocal => 'อุปกรณ์นี้';
 
   @override
-  String get ehwPlusSyncUseCloud => 'Cloud';
+  String get ehwPlusSyncUseCloud => 'คลาวด์';
 
   @override
-  String get ehwPlusSyncUseAllLocal => 'All from this device';
+  String get ehwPlusSyncUseAllLocal => 'ทั้งหมดจากอุปกรณ์นี้';
 
   @override
-  String get ehwPlusSyncUseAllCloud => 'All from cloud';
+  String get ehwPlusSyncUseAllCloud => 'ทั้งหมดจากคลาวด์';
 
   @override
-  String get ehwPlusSyncApplyResolution => 'Apply and sync';
+  String get ehwPlusSyncApplyResolution => 'ติดตั้งและซิงค์';
 
   @override
-  String get ehwPlusSyncResolutionMixed => 'Mixed';
+  String get ehwPlusSyncResolutionMixed => 'ผสม';
 
   @override
-  String get ehwPlusSyncConflictExplorerHint => 'Tap This device or Cloud on each row. Apply uploads that mix.';
+  String get ehwPlusSyncConflictExplorerHint =>
+      'แตะที่ \"อุปกรณ์นี้\" หรือ \"คลาวด์\" ในแต่ละแถว เพื่อใช้การอัปโหลดที่ผสมกัน';
 
   @override
-  String get ehwPlusSyncKeepVersionLabel => 'Keep this version';
+  String get ehwPlusSyncKeepVersionLabel => 'เก็บเวอร์ชันนี้ไว้';
 
   @override
-  String get ehwPlusSyncFolderPickLabel => 'All in this folder';
+  String get ehwPlusSyncFolderPickLabel => 'ทั้งหมดในโฟลเดอร์นี้';
 
   @override
-  String get ehwPlusSyncNotOnDevice => 'Not on this device';
+  String get ehwPlusSyncNotOnDevice => 'ไม่บนอุปกรณ์นี้';
 
   @override
-  String get ehwPlusSyncNotInCloud => 'Not in the cloud';
+  String get ehwPlusSyncNotInCloud => 'ไม่อยู่บนคลาวด์';
 
   @override
   String ehwPlusSyncOutcomeKeepLocal(String value) {
-    return 'Keep $value on both.';
+    return 'ให้เปิด$valueไว้ทั้งสองเครื่อง';
   }
 
   @override
   String ehwPlusSyncOutcomeUseCloud(String value) {
-    return 'Use cloud value $value.';
+    return 'ใช้ค่าวอลล์ $value';
   }
 
   @override
-  String get ehwPlusSyncOutcomeSkipAdd => 'Skip this cloud item.';
+  String get ehwPlusSyncOutcomeSkipAdd => 'ข้ามรายการบนคลาวด์นี้ไป';
 
   @override
   String ehwPlusSyncOutcomeAddCloud(String value) {
-    return 'Add $value from the cloud.';
+    return 'เพิ่ม $value จากระบบคลาวด์';
   }
 
   @override
   String ehwPlusSyncOutcomeKeepRemoved(String value) {
-    return 'Keep $value and upload it.';
+    return 'เก็บไฟล์ $value และอัปโหลดมัน';
   }
 
   @override
-  String get ehwPlusSyncOutcomeDropLocal => 'Remove this item to match the cloud.';
+  String get ehwPlusSyncOutcomeDropLocal => 'ลบรายการนี้เพื่อให้ตรงกับรูปเมฆ';
 
   @override
-  String get ehwPlusSyncStatusCreated => 'Created in cloud';
+  String get ehwPlusSyncStatusCreated => 'สร้างขึ้นบนคลาวด์';
 
   @override
-  String get ehwPlusSyncStatusFastForward => 'Uploaded (fast-forward)';
+  String get ehwPlusSyncStatusFastForward => 'อัปโหลดแล้ว (เล่นเร็ว)';
 
   @override
-  String get ehwPlusSyncStatusUpdateRequired => 'Server has newer data';
+  String get ehwPlusSyncStatusUpdateRequired => 'เซิร์ฟเวอร์มีข้อมูลที่ใหม่กว่า';
 
   @override
-  String get ehwPlusSyncStatusMerged => 'Merged with server';
+  String get ehwPlusSyncStatusMerged => 'ได้รวมเข้ากับเซิร์ฟเวอร์แล้ว';
 
   @override
-  String get ehwPlusSyncStatusConflict => 'Conflict — resolve below';
+  String get ehwPlusSyncStatusConflict => 'ความขัดแย้ง — แก้ไขตามขั้นตอนด้านล่าง';
 
   @override
-  String get syncProviderActive => 'Active sync provider';
+  String get syncProviderActive => 'ผู้ให้บริการ Active Sync';
 
   @override
-  String get syncProviderNoneActive => 'No synchronization selected. Choose an available method below.';
+  String get syncProviderNoneActive => 'ยังไม่มีการเลือกวิธีการซิงโครไนซ์ โปรดเลือกวิธีการที่มีอยู่ด้านล่างนี้';
 
   @override
-  String get syncTurnOff => 'Turn sync off';
+  String get syncTurnOff => 'ปิดการซิงค์';
 
   @override
   String get syncOverviewIntro =>
-      'Sync keeps a backup of your homes and meter readings in the cloud. If you get a new phone or reinstall the app, you can restore your data. You can use one method at a time, or turn sync off entirely.';
+      'Sync จะเก็บข้อมูลสำรองของที่อยู่บ้านและค่าการอ่านมิเตอร์ของคุณไว้ในระบบคลาวด์ หากคุณเปลี่ยนไปใช้โทรศัพท์เครื่องใหม่หรือติดตั้งแอปใหม่ คุณสามารถกู้คืนข้อมูลของคุณได้ คุณสามารถใช้วิธีการใดวิธีการหนึ่งได้ทีละครั้ง หรือปิดการซิงค์ไปทั้งหมดก็ได้';
 
   @override
-  String get syncSelectProviderLabel => 'Active sync method';
+  String get syncSelectProviderLabel => 'วิธีการซิงค์แบบแอคทีฟ';
 
   @override
   String get syncSelectProviderHelp =>
-      'Choose one method. Select No synchronization to turn sync off. Open a method below for details and to sign in if needed.';
+      'เลือกวิธีหนึ่ง เลือก “ไม่ซิงค์” เพื่อปิดการซิงค์ เปิดวิธีด้านล่างเพื่อดูรายละเอียดและเข้าสู่ระบบหากจำเป็น';
 
   @override
-  String get syncProvidersSectionTitle => 'Available sync methods';
+  String get syncProvidersSectionTitle => 'วิธีการซิงค์ที่มีอยู่';
 
   @override
-  String get syncProviderSegmentNone => 'No synchronization';
+  String get syncProviderSegmentNone => 'ไม่มีการซิงโครไนซ์';
 
   @override
-  String get syncProviderSegmentNoneShort => 'Off';
+  String get syncProviderSegmentNoneShort => 'ปิด';
 
   @override
   String get syncProviderSegmentGoogle => 'Google Drive';
 
   @override
-  String get syncProviderSegmentEhwPlus => 'EHW+ Cloud';
+  String get syncProviderSegmentEhwPlus => 'EHW+ คลาวด์';
 
   @override
-  String get syncProviderSegmentGoogleShort => 'Drive';
+  String get syncProviderSegmentGoogleShort => 'ขับ';
 
   @override
-  String get syncProviderSegmentEhwPlusShort => 'Cloud';
+  String get syncProviderSegmentEhwPlusShort => 'คลาวด์';
 
   @override
-  String get syncProviderNoneSummary => 'Your data will remain only on this device and will not be synced.';
+  String get syncProviderNoneSummary => 'ข้อมูลของคุณจะเก็บไว้เฉพาะบนอุปกรณ์นี้เท่านั้น และจะไม่ถูกซิงค์';
 
   @override
-  String get syncUseProvider => 'Use for sync';
+  String get syncUseProvider => 'ใช้เพื่อซิงค์';
 
   @override
   String get syncProviderGoogleSummary =>
-      'Stores your data as files in your own Google Drive. You sign in with Google. Good if you already use Google and want the files in your Drive.';
+      'เก็บข้อมูลของคุณเป็นไฟล์ในGoogle Drive ของคุณเอง คุณสามารถลงชื่อเข้าใช้ด้วยบัญชี Google ได้ เหมาะสำหรับผู้ที่กำลังใช้ Google อยู่แล้วและต้องการเก็บไฟล์ไว้ใน Drive ของคุณ';
 
   @override
   String get syncProviderEhwPlusSummary =>
-      'Stores your data in EHW+ Cloud with your EHW+ account. Works across your devices without Google Drive. Best if you use an EHW+ login.';
+      'เก็บข้อมูลของคุณไว้ในEHW+ Cloud ด้วยบัญชี EHW+ ของคุณ ใช้งานได้บนทุกอุปกรณ์ของคุณโดยไม่ต้องใช้ Google Drive เหมาะที่สุดหากคุณใช้การเข้าสู่ระบบผ่าน EHW+';
 
   @override
   String get syncProviderGoogleDetails =>
-      'Google Drive Sync copies your object data into a folder in your Google account. Sign in with Google on this page to connect. Changes can sync automatically when you are online. Your files stay in your Drive, so you can also see them outside the app. Tip: if you switch to EHW+ Cloud later, Google Drive is no longer the active backup until you switch back.';
+      'Google Drive Sync จะคัดลอกข้อมูลวัตถุของคุณไปยังโฟลเดอร์ในบัญชี Google ของคุณ ลงชื่อเข้าใช้ด้วย Google บนหน้านี้เพื่อเชื่อมต่อ การเปลี่ยนแปลงสามารถซิงค์ได้อัตโนมัติเมื่อคุณออนไลน์ ไฟล์ของคุณจะยังคงอยู่ใน Drive ของคุณ ดังนั้นคุณจึงสามารถดูไฟล์เหล่านั้นได้แม้อยู่นอกแอป เคล็ดลับ: หากคุณเปลี่ยนไปใช้ EHW+ Cloud ในภายหลัง Google Drive จะไม่ถูกตั้งค่าเป็นระบบสำรองข้อมูลที่ใช้งานอยู่จนกว่าคุณจะเปลี่ยนกลับมา';
 
   @override
   String get syncProviderEhwPlusDetails =>
-      'EHW+ Cloud is the sync for this app: your object data lives on EHW+ servers and stays aligned across devices with your EHW+ account. Pick up to two objects to sync. If both sides change the same field, you can resolve the merge here. Sharing an object, room, or counter with someone else is planned later.';
+      'EHW+ Cloud เป็นระบบการซิงค์ของแอปนี้: ข้อมูลอ็อบเจกต์ของคุณถูกเก็บไว้บนเซิร์ฟเวอร์ EHW+ และจะได้รับการซิงค์ให้สอดคล้องกันระหว่างอุปกรณ์ต่าง ๆ ผ่านบัญชี EHW+ ของคุณ คุณสามารถเลือกอ็อบเจกต์ได้สูงสุดสองชิ้นเพื่อซิงค์ หากทั้งสองด้านมีการเปลี่ยนแปลงฟิลด์เดียวกัน คุณสามารถแก้ไขการผสานข้อมูลได้ที่นี่ การแชร์อ็อบเจกต์ ห้อง หรือตัวนับกับผู้อื่นจะได้รับการพัฒนาในภายหลัง';
 
   @override
-  String get syncOpenProviderDetails => 'Open details';
+  String get syncOpenProviderDetails => 'ดูรายละเอียด';
 
   @override
-  String get syncProviderSignedIn => 'Signed in';
+  String get syncProviderSignedIn => 'ลงชื่อเข้าใช้แล้ว';
 
   @override
-  String get syncProviderNotSignedIn => 'Not signed in';
+  String get syncProviderNotSignedIn => 'ยังไม่ได้เข้าสู่ระบบ';
 
   @override
-  String get syncNeedsEhwPlusAccount => 'Sign in with your EHW+ account to use EHW+ Cloud.';
+  String get syncNeedsEhwPlusAccount => 'ลงชื่อเข้าใช้ด้วยบัญชีEHW+ของคุณเพื่อใช้ EHW+ Cloud';
 
   @override
   String get syncNeedsGoogleAccount =>
-      'Sign in with Google to use Google Drive Sync. Open Google Drive details below to connect.';
+      'ลงชื่อเข้าใช้ด้วย Google เพื่อใช้ Google Drive Sync เปิดลิงก์ Google Drive ที่ระบุไว้ด้านล่างเพื่อเชื่อมต่อ';
 
   @override
-  String get syncErrorNetwork => 'No connection. Check your network and try again.';
+  String get syncErrorNetwork => 'ไม่มีการเชื่อมต่อ โปรดตรวจสอบเครือข่ายของคุณและลองอีกครั้ง';
 
   @override
-  String get syncErrorSessionExpired => 'Your EHW+ session expired. Sign in again and retry.';
+  String get syncErrorSessionExpired => 'เซสชัน EHW+ ของคุณได้หมดอายุแล้ว โปรดลงชื่อเข้าระบบใหม่และลองอีกครั้ง';
 
   @override
   String get syncErrorAccessDenied =>
-      'Cloud sync isn\'t allowed for this account. Sign in again, or check that your EHW+ plan includes cloud sync.';
+      'บัญชีนี้ไม่สนับสนุนการซิงค์บนคลาวด์ โปรดเข้าสู่ระบบใหม่ หรือตรวจสอบว่าแพ็กเกจ EHW+ ของคุณมีบริการซิงค์บนคลาวด์หรือไม่';
 
   @override
   String get syncErrorPayloadTooLarge =>
-      'This home is too large to sync right now. Try again later or contact support.';
+      'บ้านนี้ใหญ่เกินไป จึงไม่สามารถซิงค์ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง หรือติดต่อฝ่ายสนับสนุน';
 
   @override
-  String get syncErrorServiceUnavailable => 'EHW+ Cloud is temporarily unavailable. Try again in a moment.';
+  String get syncErrorServiceUnavailable => 'EHW+ บริการ Cloud ไม่สามารถใช้งานได้ในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่';
 
   @override
-  String get syncErrorNotReady => 'Cloud sync is not ready yet. Wait a moment and try again.';
+  String get syncErrorNotReady => 'การซิงค์บนคลาวด์ยังไม่พร้อม โปรดรอสักครู่แล้วลองอีกครั้ง';
 
   @override
-  String get syncErrorUnknown => 'Sync failed. Please try again.';
+  String get syncErrorUnknown => 'การซิงค์ไม่สำเร็จ โปรดลองอีกครั้ง';
 
   @override
-  String get syncTurnedOff => 'Cloud sync is turned off.';
+  String get syncTurnedOff => 'การซิงค์บนคลาวด์ถูกปิดแล้ว';
 
   @override
-  String get syncTurnOffFailed => 'Could not turn sync off. Please try again.';
+  String get syncTurnOffFailed => 'ไม่สามารถปิดการซิงค์ได้ โปรดลองอีกครั้ง';
 
   @override
-  String get syncNoHomesYet => 'No homes to sync yet.';
+  String get syncNoHomesYet => 'ยังไม่มีบ้านใดที่จะซิงค์';
 
   @override
-  String get syncAllNow => 'Sync all';
+  String get syncAllNow => 'ซิงค์ทั้งหมด';
 
   @override
   String syncAllFinished(int ok, int total) {
-    return 'Finished syncing $ok of $total.';
+    return 'การซิงค์ $ok ของ $total เสร็จสิ้นแล้ว';
   }
 
   @override
   String syncAllFinishedWithFailures(int ok, int total, int failed) {
-    return 'Finished syncing $ok of $total. $failed failed — see homes marked below.';
+    return 'การซิงค์ $ok ของ $total เสร็จสิ้นแล้ว $failed ไม่สำเร็จ — ดูบ้านที่ถูกทำเครื่องหมายไว้ด้านล่าง';
   }
 
   @override
   String get ehwPlusSyncConflictHint =>
-      'This object differs on the server. Open a row, compare both versions, and pick which to keep — or mix. Non-overlapping edits are merged automatically.';
+      'วัตถุนี้มีความแตกต่างบนเซิร์ฟเวอร์ เปิดแถวหนึ่งขึ้นมา เปรียบเทียบทั้งสองเวอร์ชัน แล้วเลือกว่าจะเก็บเวอร์ชันใด — หรือผสมผสานทั้งสองเข้าด้วยกัน การแก้ไขที่ไม่ทับซ้อนกันจะถูกรวมเข้าด้วยกันโดยอัตโนมัติ';
 
   @override
-  String get ehwPlusSyncAutoSyncLabel => 'Sync this object';
+  String get ehwPlusSyncAutoSyncLabel => 'ซิงค์วัตถุนี้';
 
   @override
-  String get ehwPlusSyncAutoSyncLimit => 'You can sync at most 2 objects. Turn one off first.';
+  String get ehwPlusSyncAutoSyncLimit => 'คุณสามารถซิงค์ได้สูงสุด 2 อ็อบเจ็กต์ ให้ปิดอ็อบเจ็กต์หนึ่งก่อน';
 
   @override
-  String get ehwPlusSyncSideLocal => 'This device';
+  String get ehwPlusSyncSideLocal => 'อุปกรณ์นี้';
 
   @override
-  String get ehwPlusSyncSideCloud => 'EHW+ Cloud';
+  String get ehwPlusSyncSideCloud => 'EHW+ คลาวด์';
 
   @override
-  String get ehwPlusSyncStateInSync => 'In sync';
+  String get ehwPlusSyncStateInSync => 'สอดคล้องกัน';
 
   @override
-  String get ehwPlusSyncStateOutOfSync => 'Not in sync';
+  String get ehwPlusSyncStateOutOfSync => 'ไม่ตรงกัน';
 
   @override
-  String get ehwPlusSyncStateChecking => 'Checking sync status…';
+  String get ehwPlusSyncStateChecking => 'กำลังตรวจสอบสถานะการซิงค์…';
 
   @override
-  String get ehwPlusSyncStateMissingCloud => 'Not on cloud yet';
+  String get ehwPlusSyncStateMissingCloud => 'ยังไม่ได้ขึ้นคลาวด์';
 
   @override
-  String get ehwPlusSyncDiffPanelTitle => 'This device vs cloud';
+  String get ehwPlusSyncDiffPanelTitle => 'อุปกรณ์นี้เทียบกับระบบคลาวด์';
 
   @override
-  String get ehwPlusSyncDiffPanelEmpty => 'No field conflicts on the last sync.';
+  String get ehwPlusSyncDiffPanelEmpty => 'ไม่มีความขัดแย้งของฟิลด์ในการซิงค์ครั้งล่าสุด';
 
   @override
-  String get ehwPlusSyncRemoveFromCloud => 'Remove from cloud';
+  String get ehwPlusSyncRemoveFromCloud => 'นำออกจากคลาวด์';
 
   @override
-  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'Remove this object from EHW+ Cloud?';
+  String get ehwPlusSyncRemoveFromCloudConfirmTitle => 'จะลบวัตถุนี้ออกจากEHW+ Cloud หรือไม่?';
 
   @override
   String get ehwPlusSyncRemoveFromCloudConfirmBody =>
-      'The copy on EHW+ servers will be deleted. Data on this device is kept. You can select the object again later to upload a new copy.';
+      'สำเนาบนเซิร์ฟเวอร์ EHW+ จะถูกลบไป แต่ข้อมูลบนอุปกรณ์นี้จะยังคงอยู่ คุณสามารถเลือกวัตถุนั้นอีกครั้งในภายหลังเพื่ออัปโหลดสำเนาใหม่';
 
   @override
-  String get ehwPlusSyncRemovedFromCloud => 'Removed this object from EHW+ Cloud.';
+  String get ehwPlusSyncRemovedFromCloud => 'ได้ลบวัตถุนี้ออกจาก EHW+ Cloud แล้ว';
 
   @override
-  String get ehwPlusSyncPhotosSectionTitle => 'Synced images';
+  String get ehwPlusSyncPhotosSectionTitle => 'ภาพที่ซิงค์แล้ว';
 
   @override
   String ehwPlusSyncPhotosTitle(int readyCount, int total) {
-    return '$readyCount of $total synced images';
+    return '$readyCount ภาพที่ซิงค์จาก $total';
   }
 
   @override
-  String get ehwPlusSyncPhotosEmpty => 'No synced images yet.';
+  String get ehwPlusSyncPhotosEmpty => 'ยังไม่มีภาพที่ซิงค์แล้ว';
 
   @override
-  String get ehwPlusSyncPhotosShowMore => 'Show more images';
+  String get ehwPlusSyncPhotosShowMore => 'ดูรูปภาพเพิ่มเติม';
 
   @override
-  String get ehwPlusSyncPhotosLoadThumbs => 'Load thumbnails';
+  String get ehwPlusSyncPhotosLoadThumbs => 'โหลดภาพขนาดย่อ';
 
   @override
-  String get ehwPlusSyncPhotosLoading => 'Loading images…';
+  String get ehwPlusSyncPhotosLoading => 'กำลังโหลดภาพ…';
 
   @override
-  String get ehwPlusSyncPhotosUnavailable => 'Cloud images are unavailable right now.';
+  String get ehwPlusSyncPhotosUnavailable => 'ภาพบนคลาวด์ไม่สามารถใช้งานได้ในขณะนี้';
 
   @override
-  String get ehwPlusSyncPhotosUnassigned => 'Other photos';
+  String get ehwPlusSyncPhotosUnassigned => 'รูปภาพอื่นๆ';
 
   @override
-  String get ehwPlusSyncHistoryTitle => 'Sync history';
+  String get ehwPlusSyncHistoryTitle => 'ประวัติการซิงค์';
 
   @override
   String ehwPlusSyncHistoryCount(int count) {
-    return '$count versions';
+    return '$count เวอร์ชัน';
   }
 
   @override
-  String get ehwPlusSyncHistoryEmpty => 'No sync history yet.';
+  String get ehwPlusSyncHistoryEmpty => 'ยังไม่มีประวัติการซิงค์';
 
   @override
-  String get ehwPlusSyncHistoryLoadMore => 'Load 5 more';
+  String get ehwPlusSyncHistoryLoadMore => 'โหลดเพิ่มอีก 5 รายการ';
 
   @override
-  String get ehwPlusSyncHistoryLoading => 'Loading history…';
+  String get ehwPlusSyncHistoryLoading => 'กำลังโหลดประวัติ…';
 
   @override
-  String get ehwPlusSyncHistoryUnavailable => 'Sync history is unavailable right now.';
+  String get ehwPlusSyncHistoryUnavailable => 'ประวัติการซิงค์ไม่สามารถใช้งานได้ในขณะนี้';
 
   @override
-  String get ehwPlusSyncRestoreTitle => 'Restore this version?';
+  String get ehwPlusSyncRestoreTitle => 'จะคืนค่าเวอร์ชันนี้หรือไม่?';
 
   @override
   String get ehwPlusSyncRestoreWarning =>
-      'This replaces the data on this device with the selected cloud history snapshot, then syncs it back to EHW+ Cloud. Unsaved local changes can be lost permanently.';
+      'การนี้จะแทนที่ข้อมูลบนอุปกรณ์นี้ด้วยภาพถ่ายประวัติบนคลาวด์ที่เลือกไว้ แล้วส่งข้อมูลกลับไปยังคลาวด์ของEHW+ การเปลี่ยนแปลงในเครื่องที่ยังไม่บันทึกอาจสูญหายไปอย่างถาวร';
 
   @override
   String ehwPlusSyncRestoreSnapshotMeta(String timestamp, String hash) {
-    return 'Snapshot from $timestamp · $hash';
+    return 'ภาพจาก $timestamp · $hash';
   }
 
   @override
   String ehwPlusSyncRestoreDiffHeader(int count) {
-    return '$count items will change';
+    return '$count รายการจะเปลี่ยนแปลง';
   }
 
   @override
-  String get ehwPlusSyncRestoreNoDiff => 'This snapshot matches what is on this device.';
+  String get ehwPlusSyncRestoreNoDiff => 'ภาพนี้ตรงกับข้อมูลที่มีอยู่ในอุปกรณ์นี้';
 
   @override
   String get ehwPlusSyncRestoreExplorerHint =>
-      'Only items that would change are listed. Unchanged meters, rooms, and photos stay hidden.';
+      'แสดงเฉพาะรายการที่อาจมีการเปลี่ยนแปลงเท่านั้น ส่วนมิเตอร์ ห้อง และรูปภาพที่ไม่มีการเปลี่ยนแปลงจะยังคงถูกซ่อนไว้';
 
   @override
-  String get ehwPlusSyncRestoreOnlyLocal => 'Only on this device';
+  String get ehwPlusSyncRestoreOnlyLocal => 'เฉพาะบนอุปกรณ์นี้เท่านั้น';
 
   @override
-  String get ehwPlusSyncRestoreOnlySnapshot => 'Only in this snapshot';
+  String get ehwPlusSyncRestoreOnlySnapshot => 'เฉพาะในภาพนี้เท่านั้น';
 
   @override
-  String get ehwPlusSyncRestoreWillUpdate => 'Will be replaced';
+  String get ehwPlusSyncRestoreWillUpdate => 'จะถูกแทนที่';
 
   @override
-  String get ehwPlusSyncRestoreHomeDetails => 'Object details';
+  String get ehwPlusSyncRestoreHomeDetails => 'รายละเอียดของวัตถุ';
 
   @override
-  String get ehwPlusSyncRestoreReadings => 'Readings';
+  String get ehwPlusSyncRestoreReadings => 'การอ่าน';
 
   @override
-  String get ehwPlusSyncRestoreDeletedMeters => 'Deleted meters';
+  String get ehwPlusSyncRestoreDeletedMeters => 'มิเตอร์ที่ถูกลบ';
 
   @override
-  String get ehwPlusSyncRestoreConsumptionPoints => 'Grid connections';
+  String get ehwPlusSyncRestoreConsumptionPoints => 'การเชื่อมต่อกับระบบไฟฟ้า';
 
   @override
   String ehwPlusSyncRestoreChangedCount(int count) {
-    return '$count changed';
+    return '$count เปลี่ยนแล้ว';
   }
 
   @override
   String ehwPlusSyncRestoreReadingsSummary(int localCount, int cloudCount) {
-    return '$localCount readings here · $cloudCount in snapshot';
+    return '$localCount อ่านเพิ่มเติมที่นี่ · ภาพรวมของ$cloudCount';
   }
 
   @override
@@ -4374,173 +4407,175 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   }
 
   @override
-  String get ehwPlusSyncDiffFieldTitle => 'Object name';
+  String get ehwPlusSyncDiffFieldTitle => 'ชื่อวัตถุ';
 
   @override
-  String get ehwPlusSyncDiffFieldHouseName => 'House name';
+  String get ehwPlusSyncDiffFieldHouseName => 'ชื่อบ้าน';
 
   @override
-  String get ehwPlusSyncDiffFieldCurrency => 'Currency';
+  String get ehwPlusSyncDiffFieldCurrency => 'สกุลเงิน';
 
   @override
-  String get ehwPlusSyncDiffFieldAddress => 'Address';
+  String get ehwPlusSyncDiffFieldAddress => 'ที่อยู่';
 
   @override
-  String get ehwPlusSyncDiffFieldObjectType => 'Home type';
+  String get ehwPlusSyncDiffFieldObjectType => 'ประเภทบ้าน';
 
   @override
   String ehwPlusSyncRestoreDiffTruncated(int count) {
-    return '…and $count more fields';
+    return '…และ $count มีฟิลด์เพิ่มเติมอีกหลายฟิลด์';
   }
 
   @override
   String ehwPlusSyncDiffMoreLines(int count) {
-    return '…and $count more lines';
+    return '…และ $count มีข้อความเพิ่มเติม';
   }
 
   @override
-  String get ehwPlusSyncRestoreConfirm => 'Restore and sync';
+  String get ehwPlusSyncRestoreConfirm => 'กู้คืนและซิงค์';
 
   @override
-  String get ehwPlusSyncRestoreFailed => 'Could not restore that history version.';
+  String get ehwPlusSyncRestoreFailed => 'ไม่สามารถกู้คืนเวอร์ชันประวัติดังกล่าวได้';
 
   @override
-  String get ehwPlusSyncRestoreApiMissing => 'Restore needs a newer EHW+ Cloud API (history detail not deployed yet).';
+  String get ehwPlusSyncRestoreApiMissing =>
+      'การกู้คืนข้อมูลจำเป็นต้องใช้เวอร์ชันใหม่กว่าของ Cloud API ของEHW+ (รายละเอียดประวัติยังไม่ได้ปรับใช้)';
 
   @override
-  String get ehwPlusSyncRestoreBusy => 'Wait for the current sync to finish, then try again.';
+  String get ehwPlusSyncRestoreBusy => 'รอให้การซิงค์ปัจจุบันเสร็จสิ้นก่อน แล้วลองอีกครั้ง';
 
   @override
-  String get ehwPlusSyncPhotoUploadStarted => 'Meter photo upload started in the background.';
+  String get ehwPlusSyncPhotoUploadStarted => 'การอัปโหลดรูปภาพมิเตอร์ได้เริ่มขึ้นในพื้นหลังแล้ว';
 
   @override
-  String get ehwPlusSyncPhotoUploadSucceeded => 'Meter photos uploaded to EHW+ Cloud.';
+  String get ehwPlusSyncPhotoUploadSucceeded => 'รูปภาพจากมิเตอร์ที่อัปโหลดไปยัง EHW+ Cloud';
 
   @override
   String get ehwPlusSyncPhotoUploadFailed =>
-      'Meter photos could not be uploaded. Your reading is saved on this device.';
+      'ไม่สามารถอัปโหลดรูปภาพจากมิเตอร์ได้ การอ่านค่าของคุณถูกบันทึกไว้ในอุปกรณ์นี้แล้ว';
 
   @override
   String get ehwPlusSyncPhotoUploadStorageFailed =>
-      'Photo storage is unavailable. Your reading is saved on this device.';
+      'บริการเก็บภาพไม่สามารถใช้งานได้ ข้อมูลการอ่านของคุณถูกบันทึกไว้บนอุปกรณ์นี้';
 
   @override
   String get ehwPlusSyncPhotoUploadApiFailed =>
-      'Photos could not reach EHW+ Cloud. Your reading is saved on this device.';
+      'ไม่สามารถส่งรูปภาพไปยัง EHW+ Cloud ได้ ข้อมูลการอ่านของคุณถูกบันทึกไว้บนอุปกรณ์นี้';
 
   @override
-  String get ehwPlusSyncStatePhotosPending => 'Data in sync · photos uploading';
+  String get ehwPlusSyncStatePhotosPending => 'ข้อมูลถูกซิงค์ · กำลังอัปโหลดรูปภาพ';
 
   @override
-  String get ehwPlusSyncStatePhotosFailed => 'Data saved · photos not synced';
+  String get ehwPlusSyncStatePhotosFailed => 'ข้อมูลถูกบันทึกแล้ว · ภาพยังไม่ถูกซิงค์';
 
   @override
   String ehwPlusSyncRestoreListSummary(int localCount, int cloudCount) {
-    return '$localCount on this device → $cloudCount in this snapshot';
+    return '$localCount บนอุปกรณ์นี้ → $cloudCount ในภาพสแนปช็อตนี้';
   }
 
   @override
-  String get ehwPlusSyncDiffFieldCounters => 'Meters';
+  String get ehwPlusSyncDiffFieldCounters => 'มิเตอร์';
 
   @override
-  String get ehwPlusSyncDiffFieldPhotoFiles => 'Meter photos';
+  String get ehwPlusSyncDiffFieldPhotoFiles => 'ภาพจากมิเตอร์';
 
   @override
-  String get ehwPlusSyncDiffFieldActivities => 'Activities';
+  String get ehwPlusSyncDiffFieldActivities => 'กิจกรรม';
 
   @override
-  String get ehwPlusSyncDiffFieldRooms => 'Rooms';
+  String get ehwPlusSyncDiffFieldRooms => 'ห้อง';
 
   @override
-  String get ehwPlusSyncDiffFieldContracts => 'Contracts';
+  String get ehwPlusSyncDiffFieldContracts => 'สัญญา';
 
   @override
-  String get ehwPlusSyncDiffFieldLastUpdated => 'Last updated';
+  String get ehwPlusSyncDiffFieldLastUpdated => 'อัปเดตครั้งสุดท้าย';
 
   @override
-  String get stripeCheckoutComingSoonTitle => 'Web purchase coming soon';
+  String get stripeCheckoutComingSoonTitle => 'บริการซื้อสินค้าผ่านเว็บไซต์จะเปิดให้บริการในเร็วๆ นี้';
 
   @override
   String get stripeCheckoutComingSoonDescription =>
-      'Purchases are currently available in the EHW+ app. Premium and one-time purchases will be available here soon.';
+      'ขณะนี้สามารถซื้อสินค้าได้ในแอปEHW+ ส่วนการซื้อแบบพรีเมียมและการซื้อครั้งเดียวจะมีให้บริการที่นี่ในเร็วๆ นี้';
 
   @override
-  String get stripeCheckoutSubscriptionLabel => 'PLAN';
+  String get stripeCheckoutSubscriptionLabel => 'แผน';
 
   @override
-  String get stripeCheckoutPremiumTitle => 'EHW+ Premium';
+  String get stripeCheckoutPremiumTitle => 'EHW+ พรีเมียม';
 
   @override
-  String get stripeCheckoutPremiumDescription => 'Full insights and sync across your devices. Monthly or yearly.';
+  String get stripeCheckoutPremiumDescription =>
+      'ข้อมูลเชิงลึกอย่างครบถ้วนและการซิงค์ข้อมูลระหว่างอุปกรณ์ทั้งหมดของคุณ จ่ายรายเดือนหรือรายปี';
 
   @override
   String get stripeCheckoutFeatureWeather =>
-      'Weather and Heating: Outdoor temperature and consumption in a single chart.';
+      'สภาพอากาศและระบบทำความร้อน: อุณหภูมิภายนอกและปริมาณการใช้พลังงานในแผนภูมิเดียว';
 
   @override
   String get stripeCheckoutFeatureStatistics =>
-      'Statistics: Year-over-year comparisons, detailed cost overview, customize time periods, Excel export.';
+      'สถิติ: การเปรียบเทียบระหว่างปี, ภาพรวมค่าใช้จ่ายอย่างละเอียด, ปรับช่วงระยะเวลาตามต้องการ, ส่งออกข้อมูลไปยัง Excel.';
 
   @override
   String get stripeCheckoutFeatureCloudSync =>
-      'Cloud Sync: Two properties and any number of meters on your phone, tablet, and the web.';
+      'Cloud Sync: สองคุณสมบัติและมิเตอร์จำนวนเท่าใดก็ได้บนโทรศัพท์มือถือ แท็บเล็ต และเว็บไซต์';
 
   @override
   String get stripeCheckoutFeatureMultipleProperties =>
-      'Multiple Properties: Manage apartments or houses separately within their own properties.';
+      'หลายอสังหาริมทรัพย์: จัดการคอนโดมิเนียมหรือบ้านแต่ละแห่งอย่างแยกกันภายในอสังหาริมทรัพย์ของแต่ละแห่ง';
 
   @override
   String get stripeCheckoutFeatureAdditionalMeters =>
-      'Additional Meters: Track meters for PV systems, solar thermal systems, and water usage.';
+      'มิเตอร์เสริม: มิเตอร์วัดการใช้พลังงานสำหรับระบบโซลาร์เซลล์ ระบบพลังงานความร้อนจากแสงอาทิตย์ และปริมาณการใช้น้ำ';
 
   @override
-  String get stripeCheckoutPriceLoading => 'Loading price…';
+  String get stripeCheckoutPriceLoading => 'กำลังโหลดราคา…';
 
   @override
-  String get stripeCheckoutPriceUnavailable => 'Price currently unavailable';
+  String get stripeCheckoutPriceUnavailable => 'ราคาปัจจุบันไม่มีข้อมูล';
 
   @override
-  String get stripeCheckoutYearly => 'Yearly';
+  String get stripeCheckoutYearly => 'รายปี';
 
   @override
-  String get stripeCheckoutMonthly => 'Monthly';
+  String get stripeCheckoutMonthly => 'รายเดือน';
 
   @override
-  String get stripeCheckoutPeriodYear => '/ year';
+  String get stripeCheckoutPeriodYear => '/ ปี';
 
   @override
-  String get stripeCheckoutPeriodMonth => '/ month';
+  String get stripeCheckoutPeriodMonth => '/เดือน';
 
   @override
-  String get stripeCheckoutScheduled => 'Scheduled';
+  String get stripeCheckoutScheduled => 'ตามกำหนด';
 
   @override
-  String get stripeCheckoutRedirecting => 'Redirecting…';
+  String get stripeCheckoutRedirecting => 'กำลังเปลี่ยนเส้นทาง…';
 
   @override
-  String get stripeCheckoutManage => 'Manage';
+  String get stripeCheckoutManage => 'จัดการ';
 
   @override
-  String get stripeCheckoutSwitchPlan => 'Switch plan';
+  String get stripeCheckoutSwitchPlan => 'เปลี่ยนแพ็กเกจ';
 
   @override
-  String get stripeCheckoutChoosePremium => 'Choose Premium';
+  String get stripeCheckoutChoosePremium => 'เลือกแพ็กเกจพรีเมียม';
 
   @override
-  String get stripeCheckoutLifetimeTitle => 'Lifetime purchases';
+  String get stripeCheckoutLifetimeTitle => 'การซื้อตลอดชีวิต';
 
   @override
   String get stripeCheckoutLifetimeDescription =>
-      'The following items can also be purchased individually as an alternative to a subscription.';
+      'สินค้าต่อไปนี้สามารถซื้อแยกชิ้นได้เช่นกัน เป็นทางเลือกแทนการสมัครสมาชิก';
 
   @override
-  String get stripeCheckoutIncludedInSubscription => 'Included in subscription';
+  String get stripeCheckoutIncludedInSubscription => 'รวมอยู่ในแพ็กเกจสมัครสมาชิก';
 
   @override
-  String get stripeCheckoutBuyNow => 'Buy now';
+  String get stripeCheckoutBuyNow => 'ซื้อทันที';
 
   @override
-  String get stripeCheckoutDirectProvider => 'Direct with EHW+';
+  String get stripeCheckoutDirectProvider => 'ติดต่อโดยตรงกับ EHW+';
 
   @override
   String get stripeCheckoutGooglePlay => 'Google Play';
@@ -4549,62 +4584,62 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get stripeCheckoutAppStore => 'App Store';
 
   @override
-  String get stripeCheckoutPurchaseMethodTitle => 'How would you like to pay?';
+  String get stripeCheckoutPurchaseMethodTitle => 'คุณต้องการชำระด้วยวิธีใด?';
 
   @override
-  String get stripeCheckoutPurchaseMethodDescription => 'Choose the purchase method that suits you.';
+  String get stripeCheckoutPurchaseMethodDescription => 'เลือกวิธีการซื้อที่เหมาะกับคุณ';
 
   @override
-  String get stripeCheckoutPayDirectly => 'Pay directly with EHW+';
+  String get stripeCheckoutPayDirectly => 'ชำระเงินโดยตรงผ่าน EHW+';
 
   @override
   String get stripeCheckoutPayDirectlyDescription =>
-      'Pay securely and manage your subscription in the EHW+ customer portal.';
+      'ชำระเงินอย่างปลอดภัยและจัดการการสมัครสมาชิกของคุณในพอร์ทัลลูกค้า EHW+';
 
   @override
-  String get stripeCheckoutGooglePlayDescription => 'Purchase and management through your Google account.';
+  String get stripeCheckoutGooglePlayDescription => 'ซื้อและจัดการผ่านบัญชี Google ของคุณ';
 
   @override
-  String get stripeCheckoutAppStoreDescription => 'Purchase and management through your Apple account.';
+  String get stripeCheckoutAppStoreDescription => 'ซื้อและจัดการผ่านบัญชี Apple ของคุณ';
 
   @override
-  String get stripeCheckoutPayDirectlyButton => 'Pay directly';
+  String get stripeCheckoutPayDirectlyButton => 'จ่ายโดยตรง';
 
   @override
-  String get stripeCheckoutContinueInStore => 'Continue in store';
+  String get stripeCheckoutContinueInStore => 'ต่อในร้าน';
 
   @override
-  String get stripeCheckoutFailed => 'Could not start checkout. Please try again later.';
+  String get stripeCheckoutFailed => 'ไม่สามารถเริ่มขั้นตอนการชำระเงินได้ โปรดลองอีกครั้งในภายหลัง';
 
   @override
-  String get stripePortalFailed => 'Could not open the customer portal. Please try again later.';
+  String get stripePortalFailed => 'ไม่สามารถเปิดพอร์ทัลลูกค้าได้ โปรดลองอีกครั้งในภายหลัง';
 
   @override
   String stripeSubscriptionUpdated(Object interval, Object date) {
-    return 'Update scheduled: switch to $interval on $date.';
+    return 'กำหนดการอัปเดต: เปลี่ยนไปใช้ $interval บน $date.';
   }
 
   @override
-  String get stripeSubscriptionProviderGoogle => 'Subscribed via Google Play';
+  String get stripeSubscriptionProviderGoogle => 'สมัครผ่าน Google Play';
 
   @override
-  String get stripeSubscriptionProviderApple => 'Subscribed via App Store';
+  String get stripeSubscriptionProviderApple => 'สมัครรับข่าวผ่าน App Store';
 
   @override
-  String get stripeSubscriptionProviderDirect => 'Subscribed via EHW+';
+  String get stripeSubscriptionProviderDirect => 'สมัครรับข่าวผ่าน EHW+';
 
   @override
-  String get stripeSubscriptionProviderUnknown => 'Subscribed';
+  String get stripeSubscriptionProviderUnknown => 'สมัครแล้ว';
 
   @override
-  String get stripePurchaseProviderApple => 'Purchased in the App Store';
+  String get stripePurchaseProviderApple => 'ซื้อจากApp Store';
 
   @override
-  String get stripePurchaseProviderGoogle => 'Purchased in the Play Store';
+  String get stripePurchaseProviderGoogle => 'ซื้อจากPlay Store';
 
   @override
-  String get stripePurchaseProviderDirect => 'Purchased with EHW+';
+  String get stripePurchaseProviderDirect => 'ซื้อผ่าน EHW+';
 
   @override
-  String get stripePurchaseProviderUnknown => 'Purchased';
+  String get stripePurchaseProviderUnknown => 'ซื้อแล้ว';
 }
