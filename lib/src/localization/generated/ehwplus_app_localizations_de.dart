@@ -9,6 +9,101 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   EhwplusAppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
+  String get sharedCounterReviewTitle => 'Gemeinsam genutzte Zähler prüfen';
+
+  @override
+  String get sharedCounterReviewIntro =>
+      'Diese Zähler haben in mehreren Objekten dieselbe ID, aber unterschiedliche Details oder Ablesungen. Wähle eine gemeinsame Kopie oder behalte die Kopien getrennt. Hier wird nur eine Vorschau erstellt.';
+
+  @override
+  String get sharedCounterReviewNoConflicts => 'Für keinen Zähler ist eine Entscheidung nötig.';
+
+  @override
+  String get sharedCounterReviewDuplicate =>
+      'Dieser Zähler kommt mehrfach im selben Objekt vor. Diese Kopien müssen zuerst repariert werden.';
+
+  @override
+  String sharedCounterReviewMeter(String name, String uuid) {
+    return '$name · $uuid';
+  }
+
+  @override
+  String sharedCounterReviewCopy(String objectName, int readingCount) {
+    String _temp0 = intl.Intl.pluralLogic(
+      readingCount,
+      locale: localeName,
+      other: '$readingCount Ablesungen',
+      one: '1 Ablesung',
+    );
+    return '$objectName · $_temp0';
+  }
+
+  @override
+  String get sharedCounterReviewUseCopy => 'Eine Kopie gemeinsam nutzen';
+
+  @override
+  String get sharedCounterReviewKeepSeparate => 'Kopien getrennt behalten';
+
+  @override
+  String get sharedCounterReviewSourceCopy => 'Gemeinsame Kopie';
+
+  @override
+  String get sharedCounterReviewRetainedCopy => 'Kopie mit dieser ID';
+
+  @override
+  String get sharedCounterReviewPreview => 'Auswahl prüfen';
+
+  @override
+  String get sharedCounterReviewReady => 'Vorschau erstellt. Es wurden keine Daten geändert.';
+
+  @override
+  String sharedCounterReviewChangedObjects(int count) {
+    return '$count Objekte würden geändert';
+  }
+
+  @override
+  String sharedCounterReviewObjectWithId(String name, String id) {
+    return '$name · $id';
+  }
+
+  @override
+  String sharedCounterReviewProposedCopy(String objectName, String meterName, int readingCount, String uuid) {
+    String _temp0 = intl.Intl.pluralLogic(
+      readingCount,
+      locale: localeName,
+      other: '$readingCount Ablesungen',
+      one: '1 Ablesung',
+    );
+    return 'Danach: $objectName · $meterName · $_temp0 · ID $uuid';
+  }
+
+  @override
+  String get sharedCounterReviewBlocked => 'Vor dem Anwenden müssen diese Abhängigkeiten bearbeitet werden:';
+
+  @override
+  String sharedCounterReviewPhotoBlocker(String objectName) {
+    return 'Ablesefoto in $objectName';
+  }
+
+  @override
+  String sharedCounterReviewActivityBlocker(String objectName) {
+    return 'Ableseaktivität in $objectName';
+  }
+
+  @override
+  String sharedCounterReviewSettingsBlocker(String objectName) {
+    return 'Zählereinstellungen für eine neue ID in $objectName';
+  }
+
+  @override
+  String get sharedCounterReviewPreviewError =>
+      'Diese Auswahl kann nicht geprüft werden. Prüfe die Zählerverknüpfungen und versuche es erneut.';
+
+  @override
+  String get sharedCounterReviewNotAvailable =>
+      'Änderungen an gemeinsam genutzten Zählern sind erst verfügbar, wenn die Kontosynchronisierung aktualisiert wurde.';
+
+  @override
   String get accountAbout => 'Was kann das EHW+ Nutzerkonto?';
 
   @override

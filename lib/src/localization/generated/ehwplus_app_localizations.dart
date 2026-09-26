@@ -169,6 +169,132 @@ abstract class EhwplusAppLocalizations {
     Locale('zh'),
   ];
 
+  /// No description provided for @sharedCounterReviewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Review shared meters'**
+  String get sharedCounterReviewTitle;
+
+  /// No description provided for @sharedCounterReviewIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'These meters have the same ID in multiple objects but different details or readings. Choose which copy to share, or keep the copies separate. Your choices are only previewed here.'**
+  String get sharedCounterReviewIntro;
+
+  /// No description provided for @sharedCounterReviewNoConflicts.
+  ///
+  /// In en, this message translates to:
+  /// **'No meter conflicts need a decision.'**
+  String get sharedCounterReviewNoConflicts;
+
+  /// No description provided for @sharedCounterReviewDuplicate.
+  ///
+  /// In en, this message translates to:
+  /// **'This meter appears more than once in one object. Repair those copies before continuing.'**
+  String get sharedCounterReviewDuplicate;
+
+  /// No description provided for @sharedCounterReviewMeter.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} · {uuid}'**
+  String sharedCounterReviewMeter(String name, String uuid);
+
+  /// No description provided for @sharedCounterReviewCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'{objectName} · {readingCount, plural, =1{1 reading} other{{readingCount} readings}}'**
+  String sharedCounterReviewCopy(String objectName, int readingCount);
+
+  /// No description provided for @sharedCounterReviewUseCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'Share one copy'**
+  String get sharedCounterReviewUseCopy;
+
+  /// No description provided for @sharedCounterReviewKeepSeparate.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep copies separate'**
+  String get sharedCounterReviewKeepSeparate;
+
+  /// No description provided for @sharedCounterReviewSourceCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy to share'**
+  String get sharedCounterReviewSourceCopy;
+
+  /// No description provided for @sharedCounterReviewRetainedCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy keeping this ID'**
+  String get sharedCounterReviewRetainedCopy;
+
+  /// No description provided for @sharedCounterReviewPreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview choices'**
+  String get sharedCounterReviewPreview;
+
+  /// No description provided for @sharedCounterReviewReady.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview ready. No data has been changed.'**
+  String get sharedCounterReviewReady;
+
+  /// No description provided for @sharedCounterReviewChangedObjects.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} objects would change'**
+  String sharedCounterReviewChangedObjects(int count);
+
+  /// No description provided for @sharedCounterReviewObjectWithId.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} · {id}'**
+  String sharedCounterReviewObjectWithId(String name, String id);
+
+  /// No description provided for @sharedCounterReviewProposedCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'After: {objectName} · {meterName} · {readingCount, plural, =1{1 reading} other{{readingCount} readings}} · ID {uuid}'**
+  String sharedCounterReviewProposedCopy(String objectName, String meterName, int readingCount, String uuid);
+
+  /// No description provided for @sharedCounterReviewBlocked.
+  ///
+  /// In en, this message translates to:
+  /// **'These dependencies must be handled before the choices can be applied:'**
+  String get sharedCounterReviewBlocked;
+
+  /// No description provided for @sharedCounterReviewPhotoBlocker.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading photo in {objectName}'**
+  String sharedCounterReviewPhotoBlocker(String objectName);
+
+  /// No description provided for @sharedCounterReviewActivityBlocker.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading activity in {objectName}'**
+  String sharedCounterReviewActivityBlocker(String objectName);
+
+  /// No description provided for @sharedCounterReviewSettingsBlocker.
+  ///
+  /// In en, this message translates to:
+  /// **'Meter settings for a new ID in {objectName}'**
+  String sharedCounterReviewSettingsBlocker(String objectName);
+
+  /// No description provided for @sharedCounterReviewPreviewError.
+  ///
+  /// In en, this message translates to:
+  /// **'These choices cannot be previewed. Check the meter links and try again.'**
+  String get sharedCounterReviewPreviewError;
+
+  /// No description provided for @sharedCounterReviewNotAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Shared meter changes are not available yet while account sync is being updated.'**
+  String get sharedCounterReviewNotAvailable;
+
   /// No description provided for @accountAbout.
   ///
   /// In en, this message translates to:

@@ -9,6 +9,101 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   EhwplusAppLocalizationsEs([String locale = 'es']) : super(locale);
 
   @override
+  String get sharedCounterReviewTitle => 'Review shared meters';
+
+  @override
+  String get sharedCounterReviewIntro =>
+      'These meters have the same ID in multiple objects but different details or readings. Choose which copy to share, or keep the copies separate. Your choices are only previewed here.';
+
+  @override
+  String get sharedCounterReviewNoConflicts => 'No meter conflicts need a decision.';
+
+  @override
+  String get sharedCounterReviewDuplicate =>
+      'This meter appears more than once in one object. Repair those copies before continuing.';
+
+  @override
+  String sharedCounterReviewMeter(String name, String uuid) {
+    return '$name · $uuid';
+  }
+
+  @override
+  String sharedCounterReviewCopy(String objectName, int readingCount) {
+    String _temp0 = intl.Intl.pluralLogic(
+      readingCount,
+      locale: localeName,
+      other: '$readingCount readings',
+      one: '1 reading',
+    );
+    return '$objectName · $_temp0';
+  }
+
+  @override
+  String get sharedCounterReviewUseCopy => 'Share one copy';
+
+  @override
+  String get sharedCounterReviewKeepSeparate => 'Keep copies separate';
+
+  @override
+  String get sharedCounterReviewSourceCopy => 'Copy to share';
+
+  @override
+  String get sharedCounterReviewRetainedCopy => 'Copy keeping this ID';
+
+  @override
+  String get sharedCounterReviewPreview => 'Preview choices';
+
+  @override
+  String get sharedCounterReviewReady => 'Preview ready. No data has been changed.';
+
+  @override
+  String sharedCounterReviewChangedObjects(int count) {
+    return '$count objects would change';
+  }
+
+  @override
+  String sharedCounterReviewObjectWithId(String name, String id) {
+    return '$name · $id';
+  }
+
+  @override
+  String sharedCounterReviewProposedCopy(String objectName, String meterName, int readingCount, String uuid) {
+    String _temp0 = intl.Intl.pluralLogic(
+      readingCount,
+      locale: localeName,
+      other: '$readingCount readings',
+      one: '1 reading',
+    );
+    return 'After: $objectName · $meterName · $_temp0 · ID $uuid';
+  }
+
+  @override
+  String get sharedCounterReviewBlocked => 'These dependencies must be handled before the choices can be applied:';
+
+  @override
+  String sharedCounterReviewPhotoBlocker(String objectName) {
+    return 'Reading photo in $objectName';
+  }
+
+  @override
+  String sharedCounterReviewActivityBlocker(String objectName) {
+    return 'Reading activity in $objectName';
+  }
+
+  @override
+  String sharedCounterReviewSettingsBlocker(String objectName) {
+    return 'Meter settings for a new ID in $objectName';
+  }
+
+  @override
+  String get sharedCounterReviewPreviewError =>
+      'These choices cannot be previewed. Check the meter links and try again.';
+
+  @override
+  String get sharedCounterReviewNotAvailable =>
+      'Shared meter changes are not available yet while account sync is being updated.';
+
+  @override
   String get accountAbout => '¿Qué puede hacer la cuenta de usuario EHW+?';
 
   @override
