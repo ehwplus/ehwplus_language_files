@@ -4007,11 +4007,23 @@ abstract class EhwplusAppLocalizations {
   /// **'BUY POWEROPTI'**
   String get poweroptiUpdateNoticeBuy;
 
-  /// No description provided for @powerfoxSurveyTitle.
+  /// No description provided for @powerfoxSurveyStep.
   ///
   /// In en, this message translates to:
-  /// **'Receive meter readings automatically'**
-  String get powerfoxSurveyTitle;
+  /// **'Question {step} of 2'**
+  String powerfoxSurveyStep(int step);
+
+  /// No description provided for @powerfoxSurveyShortQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Quick question'**
+  String get powerfoxSurveyShortQuestion;
+
+  /// No description provided for @powerfoxSurveyAlmostDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost there'**
+  String get powerfoxSurveyAlmostDone;
 
   /// No description provided for @powerfoxSurveyDigitalMeterQuestion.
   ///
@@ -4019,53 +4031,197 @@ abstract class EhwplusAppLocalizations {
   /// **'Do you have a digital electricity meter?'**
   String get powerfoxSurveyDigitalMeterQuestion;
 
+  /// No description provided for @powerfoxSurveyDigitalMeterDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Simply tap the meter installed at your home.'**
+  String get powerfoxSurveyDigitalMeterDescription;
+
+  /// No description provided for @powerfoxSurveyDigitalOptionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes, digital'**
+  String get powerfoxSurveyDigitalOptionTitle;
+
+  /// No description provided for @powerfoxSurveyDigitalOptionDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Electronic display with digits'**
+  String get powerfoxSurveyDigitalOptionDescription;
+
+  /// No description provided for @powerfoxSurveyAnalogOptionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'No, analogue'**
+  String get powerfoxSurveyAnalogOptionTitle;
+
+  /// No description provided for @powerfoxSurveyAnalogOptionDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Mechanical meter with a rotating disc'**
+  String get powerfoxSurveyAnalogOptionDescription;
+
+  /// No description provided for @powerfoxSurveyDigitalMeterTip.
+  ///
+  /// In en, this message translates to:
+  /// **'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.'**
+  String get powerfoxSurveyDigitalMeterTip;
+
   /// No description provided for @powerfoxSurveyAutomaticReadingsQuestion.
   ///
   /// In en, this message translates to:
-  /// **'Would you like to receive your electricity meter readings automatically in the future?'**
+  /// **'Would you like to receive your meter readings automatically in the future?'**
   String get powerfoxSurveyAutomaticReadingsQuestion;
 
-  /// No description provided for @powerfoxSurveyYes.
+  /// No description provided for @powerfoxSurveyAutomaticReadingsDescription.
   ///
   /// In en, this message translates to:
-  /// **'Yes'**
-  String get powerfoxSurveyYes;
+  /// **'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.'**
+  String get powerfoxSurveyAutomaticReadingsDescription;
 
-  /// No description provided for @powerfoxSurveyNo.
+  /// No description provided for @powerfoxSurveyAutomaticOptionTitle.
   ///
   /// In en, this message translates to:
-  /// **'No'**
-  String get powerfoxSurveyNo;
+  /// **'Yes, automatically'**
+  String get powerfoxSurveyAutomaticOptionTitle;
 
-  /// No description provided for @powerfoxSurveyManualReadings.
+  /// No description provided for @powerfoxSurveyAutomaticOptionDescription.
   ///
   /// In en, this message translates to:
-  /// **'No, I want to continue reading it manually.'**
-  String get powerfoxSurveyManualReadings;
+  /// **'Show me how it works'**
+  String get powerfoxSurveyAutomaticOptionDescription;
 
-  /// No description provided for @powerfoxInfoTitle.
+  /// No description provided for @powerfoxSurveyManualOptionTitle.
   ///
   /// In en, this message translates to:
-  /// **'Automatic meter readings with Powerfox'**
-  String get powerfoxInfoTitle;
+  /// **'No, thanks'**
+  String get powerfoxSurveyManualOptionTitle;
 
-  /// No description provided for @powerfoxInfoMessage.
+  /// No description provided for @powerfoxSurveyManualOptionDescription.
   ///
   /// In en, this message translates to:
-  /// **'With a Powerfox Poweropti, your electricity meter readings are automatically imported into EHW+.'**
-  String get powerfoxInfoMessage;
+  /// **'I will continue reading them manually'**
+  String get powerfoxSurveyManualOptionDescription;
 
-  /// No description provided for @powerfoxInfoDiscount.
+  /// No description provided for @powerfoxSurveyBenefitNoMonthlyReading.
   ///
   /// In en, this message translates to:
-  /// **'€5 discount with code EHW5'**
-  String get powerfoxInfoDiscount;
+  /// **'No more monthly meter reading'**
+  String get powerfoxSurveyBenefitNoMonthlyReading;
 
-  /// No description provided for @powerfoxInfoShop.
+  /// No description provided for @powerfoxSurveyBenefitNoTypos.
   ///
   /// In en, this message translates to:
-  /// **'GO TO POWERFOX SHOP'**
-  String get powerfoxInfoShop;
+  /// **'No typing errors in meter readings'**
+  String get powerfoxSurveyBenefitNoTypos;
+
+  /// No description provided for @powerfoxSurveyBenefitCurrentConsumption.
+  ///
+  /// In en, this message translates to:
+  /// **'Consumption always up to date in EHW+'**
+  String get powerfoxSurveyBenefitCurrentConsumption;
+
+  /// No description provided for @powerfoxOfferDiscountBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'€5\nOFF'**
+  String get powerfoxOfferDiscountBadge;
+
+  /// No description provided for @powerfoxOfferCompatibility.
+  ///
+  /// In en, this message translates to:
+  /// **'Fits your digital meter'**
+  String get powerfoxOfferCompatibility;
+
+  /// No description provided for @powerfoxOfferEyebrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Exclusive for EHW+ customers'**
+  String get powerfoxOfferEyebrow;
+
+  /// No description provided for @powerfoxOfferTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Never read your meter again.'**
+  String get powerfoxOfferTitle;
+
+  /// No description provided for @powerfoxOfferDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'The powerfox poweropti automatically transfers your meter readings to EHW+.'**
+  String get powerfoxOfferDescription;
+
+  /// No description provided for @powerfoxOfferStepPlace.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Attach to meter'**
+  String get powerfoxOfferStepPlace;
+
+  /// No description provided for @powerfoxOfferStepWifi.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Connect to Wi-Fi'**
+  String get powerfoxOfferStepWifi;
+
+  /// No description provided for @powerfoxOfferStepReadings.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Readings arrive in EHW+'**
+  String get powerfoxOfferStepReadings;
+
+  /// No description provided for @powerfoxOfferCodeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your code for €5 off'**
+  String get powerfoxOfferCodeTitle;
+
+  /// No description provided for @powerfoxOfferDiscountCode.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW5'**
+  String get powerfoxOfferDiscountCode;
+
+  /// No description provided for @powerfoxOfferCodeCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy'**
+  String get powerfoxOfferCodeCopy;
+
+  /// No description provided for @powerfoxOfferCodeCopied.
+  ///
+  /// In en, this message translates to:
+  /// **'Copied'**
+  String get powerfoxOfferCodeCopied;
+
+  /// No description provided for @powerfoxOfferShopAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Save €5 in the powerfox shop'**
+  String get powerfoxOfferShopAction;
+
+  /// No description provided for @powerfoxOfferLater.
+  ///
+  /// In en, this message translates to:
+  /// **'Maybe later'**
+  String get powerfoxOfferLater;
+
+  /// No description provided for @powerfoxSurveyConfirmationTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Thank you for your answer!'**
+  String get powerfoxSurveyConfirmationTitle;
+
+  /// No description provided for @powerfoxSurveyConfirmationDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.'**
+  String get powerfoxSurveyConfirmationDescription;
+
+  /// No description provided for @powerfoxSurveyConfirmationClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get powerfoxSurveyConfirmationClose;
 
   /// No description provided for @updateNoticeDebugTitle.
   ///

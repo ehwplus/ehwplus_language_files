@@ -2186,34 +2186,118 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'POWEROPTIを購入する';
 
   @override
-  String get powerfoxSurveyTitle => '検針データを自動的に受け取る';
+  String powerfoxSurveyStep(int step) {
+    return 'Question $step of 2';
+  }
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'デジタル式電気メーターはお持ちですか？';
+  String get powerfoxSurveyShortQuestion => 'Quick question';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsQuestion => '今後、電気メーターの検針データを自動的に受け取りたいですか？';
+  String get powerfoxSurveyAlmostDone => 'Almost there';
 
   @override
-  String get powerfoxSurveyYes => 'はい';
+  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
 
   @override
-  String get powerfoxSurveyNo => 'いいえ';
+  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
 
   @override
-  String get powerfoxSurveyManualReadings => 'いいえ、手動で読み続けたいです。';
+  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
 
   @override
-  String get powerfoxInfoTitle => 'Powerfoxによる自動検針';
+  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
 
   @override
-  String get powerfoxInfoMessage => 'Powerfox Poweropti を使用すると、電気メーターの検針データが自動的に EHW+ に取り込まれます。';
+  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
 
   @override
-  String get powerfoxInfoDiscount => 'コード「EHW5」で5ユーロ割引となります';
+  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
 
   @override
-  String get powerfoxInfoShop => 'POWERFOX ショップへ';
+  String get powerfoxSurveyDigitalMeterTip =>
+      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsQuestion =>
+      'Would you like to receive your meter readings automatically in the future?';
+
+  @override
+  String get powerfoxSurveyAutomaticReadingsDescription =>
+      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+
+  @override
+  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+
+  @override
+  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+
+  @override
+  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+
+  @override
+  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+
+  @override
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+
+  @override
+  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+
+  @override
+  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+
+  @override
+  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+
+  @override
+  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+
+  @override
+  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+
+  @override
+  String get powerfoxOfferTitle => 'Never read your meter again.';
+
+  @override
+  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+
+  @override
+  String get powerfoxOfferStepPlace => '1. Attach to meter';
+
+  @override
+  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+
+  @override
+  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+
+  @override
+  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+
+  @override
+  String get powerfoxOfferDiscountCode => 'EHW5';
+
+  @override
+  String get powerfoxOfferCodeCopy => 'Copy';
+
+  @override
+  String get powerfoxOfferCodeCopied => 'Copied';
+
+  @override
+  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+
+  @override
+  String get powerfoxOfferLater => 'Maybe later';
+
+  @override
+  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+
+  @override
+  String get powerfoxSurveyConfirmationDescription =>
+      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+
+  @override
+  String get powerfoxSurveyConfirmationClose => 'Close';
 
   @override
   String get updateNoticeDebugTitle => '更新のお知らせ';

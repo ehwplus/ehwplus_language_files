@@ -2221,36 +2221,117 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get poweroptiUpdateNoticeBuy => 'POWEROPTI KAUFEN';
 
   @override
-  String get powerfoxSurveyTitle => 'Zählerstände automatisch erhalten';
+  String powerfoxSurveyStep(int step) {
+    return 'Frage $step von 2';
+  }
+
+  @override
+  String get powerfoxSurveyShortQuestion => 'Kurze Frage';
+
+  @override
+  String get powerfoxSurveyAlmostDone => 'Fast geschafft';
 
   @override
   String get powerfoxSurveyDigitalMeterQuestion => 'Haben Sie einen digitalen Stromzähler?';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Wollen Sie künftig Zählerstände Ihres Stromzählers automatisch erhalten?';
+  String get powerfoxSurveyDigitalMeterDescription => 'Tippen Sie einfach auf den Zähler, der bei Ihnen hängt.';
 
   @override
-  String get powerfoxSurveyYes => 'Ja';
+  String get powerfoxSurveyDigitalOptionTitle => 'Ja, digital';
 
   @override
-  String get powerfoxSurveyNo => 'Nein';
+  String get powerfoxSurveyDigitalOptionDescription => 'Elektronisches Display mit Ziffern';
 
   @override
-  String get powerfoxSurveyManualReadings => 'Nein, ich will weiter von Hand ablesen.';
+  String get powerfoxSurveyAnalogOptionTitle => 'Nein, analog';
 
   @override
-  String get powerfoxInfoTitle => 'Automatische Zählerstände mit Powerfox';
+  String get powerfoxSurveyAnalogOptionDescription => 'Mechanisches Zählwerk mit Drehscheibe';
 
   @override
-  String get powerfoxInfoMessage =>
-      'Mit einem Powerfox Poweropti werden die Zählerstände Ihres Stromzählers automatisch in EHW+ übernommen.';
+  String get powerfoxSurveyDigitalMeterTip =>
+      'Tipp: Digitale Zähler erkennen Sie am Display mit Ziffern und der Aufschrift „kWh“ – ohne rotierende Scheibe.';
 
   @override
-  String get powerfoxInfoDiscount => '5 € Rabatt mit dem Code EHW5';
+  String get powerfoxSurveyAutomaticReadingsQuestion => 'Möchten Sie Ihre Zählerstände künftig automatisch erhalten?';
 
   @override
-  String get powerfoxInfoShop => 'ZUM POWERFOX-SHOP';
+  String get powerfoxSurveyAutomaticReadingsDescription =>
+      'Dann landen die Werte Ihres Stromzählers direkt in EHW+ – ohne Ablesen und Abtippen.';
+
+  @override
+  String get powerfoxSurveyAutomaticOptionTitle => 'Ja, gerne automatisch';
+
+  @override
+  String get powerfoxSurveyAutomaticOptionDescription => 'Zeigen Sie mir, wie das geht';
+
+  @override
+  String get powerfoxSurveyManualOptionTitle => 'Nein, danke';
+
+  @override
+  String get powerfoxSurveyManualOptionDescription => 'Ich lese weiter von Hand ab';
+
+  @override
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'Kein monatliches Ablesen mehr';
+
+  @override
+  String get powerfoxSurveyBenefitNoTypos => 'Keine Tippfehler bei den Zählerständen';
+
+  @override
+  String get powerfoxSurveyBenefitCurrentConsumption => 'Verbrauch jederzeit aktuell in EHW+';
+
+  @override
+  String get powerfoxOfferDiscountBadge => '-5 €\nRABATT';
+
+  @override
+  String get powerfoxOfferCompatibility => 'Passt zu Ihrem digitalen Zähler';
+
+  @override
+  String get powerfoxOfferEyebrow => 'Exklusiv für EHW+ Kunden';
+
+  @override
+  String get powerfoxOfferTitle => 'Nie wieder Zähler ablesen.';
+
+  @override
+  String get powerfoxOfferDescription => 'Der powerfox poweropti überträgt Ihre Zählerstände ganz automatisch in EHW+.';
+
+  @override
+  String get powerfoxOfferStepPlace => '1. Auf den Zähler setzen';
+
+  @override
+  String get powerfoxOfferStepWifi => '2. Mit WLAN verbinden';
+
+  @override
+  String get powerfoxOfferStepReadings => '3. Werte kommen in EHW+';
+
+  @override
+  String get powerfoxOfferCodeTitle => 'Ihr Code für 5 € Rabatt';
+
+  @override
+  String get powerfoxOfferDiscountCode => 'EHW5';
+
+  @override
+  String get powerfoxOfferCodeCopy => 'Kopieren';
+
+  @override
+  String get powerfoxOfferCodeCopied => 'Kopiert';
+
+  @override
+  String get powerfoxOfferShopAction => 'Jetzt 5 € sparen im powerfox-Shop';
+
+  @override
+  String get powerfoxOfferLater => 'Vielleicht später';
+
+  @override
+  String get powerfoxSurveyConfirmationTitle => 'Danke für Ihre Antwort!';
+
+  @override
+  String get powerfoxSurveyConfirmationDescription =>
+      'Sie können Ihre Zählerstände wie gewohnt in EHW+ eintragen. Wir erinnern Sie rechtzeitig daran.';
+
+  @override
+  String get powerfoxSurveyConfirmationClose => 'Schließen';
 
   @override
   String get updateNoticeDebugTitle => 'Update-Hinweise';
