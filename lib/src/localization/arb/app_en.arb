@@ -2298,5 +2298,11 @@
   "stripePurchaseProviderApple": "Purchased in the App Store",
   "stripePurchaseProviderGoogle": "Purchased in the Play Store",
   "stripePurchaseProviderDirect": "Purchased with EHW+",
-  "stripePurchaseProviderUnknown": "Purchased"
+  "stripePurchaseProviderUnknown": "Purchased",
+  "ehwPlusSyncTrainingAgreementTitle": "Use cloud data for image-recognition training?",
+  "ehwPlusSyncTrainingAgreementBody": "EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.",
+  "ehwPlusSyncTrainingAgreementDecline": "Activate without permission",
+  "ehwPlusSyncTrainingAgreementConfirm": "Give permission and activate",
+  "ehwPlusSyncAiTrainingConsentLabel": "Allow meter photos for AI training",
+  "ehwPlusSyncAiTrainingConsentHint": "You can change this permission for each object at any time."
 }

@@ -8362,6 +8362,42 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Purchased'**
   String get stripePurchaseProviderUnknown;
+
+  /// No description provided for @ehwPlusSyncTrainingAgreementTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Use cloud data for image-recognition training?'**
+  String get ehwPlusSyncTrainingAgreementTitle;
+
+  /// No description provided for @ehwPlusSyncTrainingAgreementBody.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.'**
+  String get ehwPlusSyncTrainingAgreementBody;
+
+  /// No description provided for @ehwPlusSyncTrainingAgreementDecline.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate without permission'**
+  String get ehwPlusSyncTrainingAgreementDecline;
+
+  /// No description provided for @ehwPlusSyncTrainingAgreementConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Give permission and activate'**
+  String get ehwPlusSyncTrainingAgreementConfirm;
+
+  /// No description provided for @ehwPlusSyncAiTrainingConsentLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow meter photos for AI training'**
+  String get ehwPlusSyncAiTrainingConsentLabel;
+
+  /// No description provided for @ehwPlusSyncAiTrainingConsentHint.
+  ///
+  /// In en, this message translates to:
+  /// **'You can change this permission for each object at any time.'**
+  String get ehwPlusSyncAiTrainingConsentHint;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

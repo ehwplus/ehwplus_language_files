@@ -35,7 +35,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "ar": [
@@ -74,7 +80,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "bg": [
@@ -113,7 +125,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "bs": [
@@ -152,7 +170,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "cs": [
@@ -191,7 +215,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "da": [
@@ -230,7 +260,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "el": [
@@ -269,7 +305,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "es": [
@@ -308,7 +350,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "et": [
@@ -347,7 +395,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "fa": [
@@ -386,7 +440,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "fi": [
@@ -425,7 +485,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "fr": [
@@ -464,7 +530,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "hi": [
@@ -503,7 +575,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "hr": [
@@ -542,7 +620,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "hu": [
@@ -581,7 +665,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "id": [
@@ -620,7 +710,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "it": [
@@ -659,7 +755,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "ja": [
@@ -698,7 +800,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "ko": [
@@ -737,7 +845,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "lt": [
@@ -776,7 +890,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "ml": [
@@ -815,7 +935,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "my": [
@@ -854,7 +980,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "nb": [
@@ -893,7 +1025,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "nl": [
@@ -932,7 +1070,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "pl": [
@@ -971,7 +1115,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "pt": [
@@ -1010,7 +1160,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "ro": [
@@ -1049,7 +1205,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "ru": [
@@ -1088,7 +1250,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "sl": [
@@ -1127,7 +1295,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "sr": [
@@ -1166,7 +1340,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "sv": [
@@ -1205,7 +1385,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "sw": [
@@ -1244,7 +1430,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "th": [
@@ -1283,7 +1475,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "tr": [
@@ -1322,7 +1520,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "uk": [
@@ -1361,7 +1565,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "vi": [
@@ -1400,7 +1610,13 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ],
 
   "zh": [
@@ -1439,6 +1655,12 @@
     "powerfoxOfferLater",
     "powerfoxSurveyConfirmationTitle",
     "powerfoxSurveyConfirmationDescription",
-    "powerfoxSurveyConfirmationClose"
+    "powerfoxSurveyConfirmationClose",
+    "ehwPlusSyncTrainingAgreementTitle",
+    "ehwPlusSyncTrainingAgreementBody",
+    "ehwPlusSyncTrainingAgreementDecline",
+    "ehwPlusSyncTrainingAgreementConfirm",
+    "ehwPlusSyncAiTrainingConsentLabel",
+    "ehwPlusSyncAiTrainingConsentHint"
   ]
 }

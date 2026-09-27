@@ -4748,4 +4748,23 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get stripePurchaseProviderUnknown => 'Gekauft';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementTitle => 'Cloud-Daten für das Bilderkennungs-Training nutzen?';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementBody =>
+      'EHW+ kann deine synchronisierten Zählerbilder zur Entwicklung und zum Training der Bilderkennung verwenden. Du kannst EHW+ Cloud auch ohne diese Freigabe nutzen; deine synchronisierten Zählerbilder werden dann nicht für das Training verwendet.';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementDecline => 'Ohne Freigabe aktivieren';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Freigabe erteilen und aktivieren';
+
+  @override
+  String get ehwPlusSyncAiTrainingConsentLabel => 'Zählerbilder für KI-Training freigeben';
+
+  @override
+  String get ehwPlusSyncAiTrainingConsentHint => 'Du kannst diese Freigabe jederzeit für jedes Objekt ändern.';
 }

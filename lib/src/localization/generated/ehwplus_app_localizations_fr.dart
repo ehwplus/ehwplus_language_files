@@ -4772,4 +4772,23 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
 
   @override
   String get stripePurchaseProviderUnknown => 'Acheté';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementBody =>
+      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+
+  @override
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+
+  @override
+  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+
+  @override
+  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
 }
