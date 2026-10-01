@@ -1990,6 +1990,27 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
       'Das Objekt kann nicht eingelesen werden. Bitte kontaktieren Sie den Entwickler. Bei Deinstallation der App können die Daten verloren gehen.';
 
   @override
+  String get objectStorageErrorTitle => 'Dieses Objekt kann nicht geöffnet werden';
+
+  @override
+  String get objectStorageErrorMessage =>
+      'Die gespeicherten Zählerdaten konnten nicht gelesen werden. Das Objekt ist zu ihrem Schutz gesperrt. Eine Wiederherstellung aus der Cloud ersetzt die nicht lesbare lokale Kopie.';
+
+  @override
+  String get objectStorageRestoreFromCloud => 'Dieses Objekt aus der Cloud wiederherstellen';
+
+  @override
+  String get objectStorageRestoreSuccess => 'Dieses Objekt wurde aus der Cloud wiederhergestellt.';
+
+  @override
+  String get objectStorageRestoreUnavailable =>
+      'Eine Cloud-Kopie ist gerade nicht verfügbar. Prüfen Sie die Synchronisierung und versuchen Sie es erneut.';
+
+  @override
+  String get objectStorageRestoreFailed =>
+      'Dieses Objekt konnte nicht wiederhergestellt werden. Versuchen Sie es erneut.';
+
+  @override
   String get per => 'pro';
 
   @override

@@ -1994,6 +1994,26 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
       'No se puede analizar el objeto. Ponte en contacto con el desarrollador. Al desinstalar la app, los datos pueden perderse.';
 
   @override
+  String get objectStorageErrorTitle => 'This home cannot be opened';
+
+  @override
+  String get objectStorageErrorMessage =>
+      'The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.';
+
+  @override
+  String get objectStorageRestoreFromCloud => 'Restore this home from cloud';
+
+  @override
+  String get objectStorageRestoreSuccess => 'This home was restored from cloud.';
+
+  @override
+  String get objectStorageRestoreUnavailable =>
+      'A cloud copy is not available right now. Check your sync connection and try again.';
+
+  @override
+  String get objectStorageRestoreFailed => 'This home could not be restored. Please try again.';
+
+  @override
   String get per => 'por';
 
   @override

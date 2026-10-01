@@ -1958,6 +1958,26 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get parsingObjectError => '객체를 해석할 수 없습니다. 개발자에게 문의해주세요. 앱을 삭제하면 데이터가 손실될 수 있습니다.';
 
   @override
+  String get objectStorageErrorTitle => 'This home cannot be opened';
+
+  @override
+  String get objectStorageErrorMessage =>
+      'The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.';
+
+  @override
+  String get objectStorageRestoreFromCloud => 'Restore this home from cloud';
+
+  @override
+  String get objectStorageRestoreSuccess => 'This home was restored from cloud.';
+
+  @override
+  String get objectStorageRestoreUnavailable =>
+      'A cloud copy is not available right now. Check your sync connection and try again.';
+
+  @override
+  String get objectStorageRestoreFailed => 'This home could not be restored. Please try again.';
+
+  @override
   String get per => '당';
 
   @override

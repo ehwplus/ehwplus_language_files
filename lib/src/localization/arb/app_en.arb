@@ -932,6 +932,12 @@
   "outdatedCounters": "Counters no longer in use",
   "paidAdvancePayments": "Advance payments",
   "parsingObjectError": "The object cannot be parsed. Please contact the developer. When uninstalling the app, the data may be lost.",
+  "objectStorageErrorTitle": "This home cannot be opened",
+  "objectStorageErrorMessage": "The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.",
+  "objectStorageRestoreFromCloud": "Restore this home from cloud",
+  "objectStorageRestoreSuccess": "This home was restored from cloud.",
+  "objectStorageRestoreUnavailable": "A cloud copy is not available right now. Check your sync connection and try again.",
+  "objectStorageRestoreFailed": "This home could not be restored. Please try again.",
   "per": "per",
   "perUnit": "per {unit}",
   "@perUnit": {

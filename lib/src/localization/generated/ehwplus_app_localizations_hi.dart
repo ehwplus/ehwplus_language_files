@@ -1994,6 +1994,26 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
       'ऑब्जेक्ट को पार्स नहीं किया जा सकता.कृपया डेवलपर से संपर्क करें.ऐप को अनइंस्टॉल करने पर डेटा ख़त्म हो सकता है.';
 
   @override
+  String get objectStorageErrorTitle => 'This home cannot be opened';
+
+  @override
+  String get objectStorageErrorMessage =>
+      'The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.';
+
+  @override
+  String get objectStorageRestoreFromCloud => 'Restore this home from cloud';
+
+  @override
+  String get objectStorageRestoreSuccess => 'This home was restored from cloud.';
+
+  @override
+  String get objectStorageRestoreUnavailable =>
+      'A cloud copy is not available right now. Check your sync connection and try again.';
+
+  @override
+  String get objectStorageRestoreFailed => 'This home could not be restored. Please try again.';
+
+  @override
   String get per => 'प्रति';
 
   @override
