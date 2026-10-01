@@ -3737,6 +3737,42 @@ abstract class EhwplusAppLocalizations {
   /// **'The object cannot be parsed. Please contact the developer. When uninstalling the app, the data may be lost.'**
   String get parsingObjectError;
 
+  /// No description provided for @objectStorageErrorTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This home cannot be opened'**
+  String get objectStorageErrorTitle;
+
+  /// No description provided for @objectStorageErrorMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.'**
+  String get objectStorageErrorMessage;
+
+  /// No description provided for @objectStorageRestoreFromCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore this home from cloud'**
+  String get objectStorageRestoreFromCloud;
+
+  /// No description provided for @objectStorageRestoreSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'This home was restored from cloud.'**
+  String get objectStorageRestoreSuccess;
+
+  /// No description provided for @objectStorageRestoreUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'A cloud copy is not available right now. Check your sync connection and try again.'**
+  String get objectStorageRestoreUnavailable;
+
+  /// No description provided for @objectStorageRestoreFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'This home could not be restored. Please try again.'**
+  String get objectStorageRestoreFailed;
+
   /// No description provided for @per.
   ///
   /// In en, this message translates to:

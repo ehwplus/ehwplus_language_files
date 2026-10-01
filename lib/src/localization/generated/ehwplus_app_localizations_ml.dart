@@ -2096,6 +2096,26 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
       'ഒബ്ജക്റ്റ് പാഴ്‌സ് ചെയ്യാൻ കഴിയില്ല. Please contact the developer. ആപ്പ് അൺഇൻസ്റ്റാൾ ചെയ്യുമ്പോൾ, ഡാറ്റ നഷ്ടപ്പെടാം.';
 
   @override
+  String get objectStorageErrorTitle => 'This home cannot be opened';
+
+  @override
+  String get objectStorageErrorMessage =>
+      'The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.';
+
+  @override
+  String get objectStorageRestoreFromCloud => 'Restore this home from cloud';
+
+  @override
+  String get objectStorageRestoreSuccess => 'This home was restored from cloud.';
+
+  @override
+  String get objectStorageRestoreUnavailable =>
+      'A cloud copy is not available right now. Check your sync connection and try again.';
+
+  @override
+  String get objectStorageRestoreFailed => 'This home could not be restored. Please try again.';
+
+  @override
   String get per => 'ഓരോ';
 
   @override
