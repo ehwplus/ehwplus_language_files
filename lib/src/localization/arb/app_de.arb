@@ -1640,5 +1640,11 @@
   "stripePurchaseProviderApple": "Gekauft im App Store",
   "stripePurchaseProviderGoogle": "Gekauft im Play Store",
   "stripePurchaseProviderDirect": "Gekauft bei EHW+",
-  "stripePurchaseProviderUnknown": "Gekauft"
+  "stripePurchaseProviderUnknown": "Gekauft",
+  "ehwPlusSyncTrainingAgreementTitle": "Cloud-Daten für das Bilderkennungs-Training nutzen?",
+  "ehwPlusSyncTrainingAgreementBody": "EHW+ kann deine synchronisierten Zählerbilder zur Entwicklung und zum Training der Bilderkennung verwenden. Du kannst EHW+ Cloud auch ohne diese Freigabe nutzen; deine synchronisierten Zählerbilder werden dann nicht für das Training verwendet.",
+  "ehwPlusSyncTrainingAgreementDecline": "Ohne Freigabe aktivieren",
+  "ehwPlusSyncTrainingAgreementConfirm": "Freigabe erteilen und aktivieren",
+  "ehwPlusSyncAiTrainingConsentLabel": "Zählerbilder für KI-Training freigeben",
+  "ehwPlusSyncAiTrainingConsentHint": "Du kannst diese Freigabe jederzeit für jedes Objekt ändern."
 }
