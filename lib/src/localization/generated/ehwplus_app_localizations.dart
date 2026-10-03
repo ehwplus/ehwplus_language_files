@@ -3620,7 +3620,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @objectStorageErrorMessage.
   ///
   /// In en, this message translates to:
-  /// **'The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.'**
+  /// **'The saved meter data could not be read. This home is locked to protect it. Restoring it from cloud or from a backup file replaces the unreadable local copy.'**
   String get objectStorageErrorMessage;
 
   /// No description provided for @objectStorageRestoreFromCloud.
@@ -3646,6 +3646,42 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'This home could not be restored. Please try again.'**
   String get objectStorageRestoreFailed;
+
+  /// No description provided for @objectStorageRestoreFromFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore from backup file'**
+  String get objectStorageRestoreFromFile;
+
+  /// No description provided for @objectStorageRestoreFromFileSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'This home was restored from the backup file.'**
+  String get objectStorageRestoreFromFileSuccess;
+
+  /// No description provided for @objectStorageRestoreFromFileInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This file is not a backup of this home.'**
+  String get objectStorageRestoreFromFileInvalid;
+
+  /// No description provided for @objectStorageDeleteHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete this home'**
+  String get objectStorageDeleteHome;
+
+  /// No description provided for @objectStorageDeleteHomeConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'This home will be removed from this device. Copies in the cloud or in backup files are kept.'**
+  String get objectStorageDeleteHomeConfirmation;
+
+  /// No description provided for @objectStorageDeleteFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'This home could not be deleted. Please try again.'**
+  String get objectStorageDeleteFailed;
 
   /// No description provided for @per.
   ///

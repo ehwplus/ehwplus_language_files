@@ -1994,7 +1994,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get objectStorageErrorMessage =>
-      'Die gespeicherten Zählerdaten konnten nicht gelesen werden. Das Objekt ist zu ihrem Schutz gesperrt. Eine Wiederherstellung aus der Cloud ersetzt die nicht lesbare lokale Kopie.';
+      'Die gespeicherten Zählerdaten konnten nicht gelesen werden. Das Objekt ist zu ihrem Schutz gesperrt. Eine Wiederherstellung aus der Cloud oder aus einer Sicherungsdatei ersetzt die nicht lesbare lokale Kopie.';
 
   @override
   String get objectStorageRestoreFromCloud => 'Dieses Objekt aus der Cloud wiederherstellen';
@@ -2009,6 +2009,25 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   @override
   String get objectStorageRestoreFailed =>
       'Dieses Objekt konnte nicht wiederhergestellt werden. Versuchen Sie es erneut.';
+
+  @override
+  String get objectStorageRestoreFromFile => 'Aus Sicherungsdatei wiederherstellen';
+
+  @override
+  String get objectStorageRestoreFromFileSuccess => 'Dieses Objekt wurde aus der Sicherungsdatei wiederhergestellt.';
+
+  @override
+  String get objectStorageRestoreFromFileInvalid => 'Diese Datei ist keine Sicherung dieses Objekts.';
+
+  @override
+  String get objectStorageDeleteHome => 'Dieses Objekt löschen';
+
+  @override
+  String get objectStorageDeleteHomeConfirmation =>
+      'Dieses Objekt wird von diesem Gerät entfernt. Kopien in der Cloud oder in Sicherungsdateien bleiben erhalten.';
+
+  @override
+  String get objectStorageDeleteFailed => 'Dieses Objekt konnte nicht gelöscht werden. Versuchen Sie es erneut.';
 
   @override
   String get per => 'pro';

@@ -2001,7 +2001,7 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get objectStorageErrorMessage =>
-      'The saved meter data could not be read. This home is locked to protect it. Restoring from cloud will replace the unreadable local copy.';
+      'The saved meter data could not be read. This home is locked to protect it. Restoring it from cloud or from a backup file replaces the unreadable local copy.';
 
   @override
   String get objectStorageRestoreFromCloud => 'Restore this home from cloud';
@@ -2015,6 +2015,25 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get objectStorageRestoreFailed => 'This home could not be restored. Please try again.';
+
+  @override
+  String get objectStorageRestoreFromFile => 'Restore from backup file';
+
+  @override
+  String get objectStorageRestoreFromFileSuccess => 'This home was restored from the backup file.';
+
+  @override
+  String get objectStorageRestoreFromFileInvalid => 'This file is not a backup of this home.';
+
+  @override
+  String get objectStorageDeleteHome => 'Delete this home';
+
+  @override
+  String get objectStorageDeleteHomeConfirmation =>
+      'This home will be removed from this device. Copies in the cloud or in backup files are kept.';
+
+  @override
+  String get objectStorageDeleteFailed => 'This home could not be deleted. Please try again.';
 
   @override
   String get per => 'mỗi';
