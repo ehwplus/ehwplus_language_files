@@ -619,6 +619,15 @@
   "exportTabHowToExport": "How would you like to export the data?",
   "exportTabHowToExportOptionSaveToDownloads": "Save to folder {folder}",
   "exportTabHowToExportOptionShare": "Share with other apps",
+  "exportTabSnackBarCounterNotFound": "The selected meter was not found. Please select a meter again.",
+  "exportTabSnackBarObjectUnreadable": "Not exported because the saved data cannot be read: {titles}",
+  "@exportTabSnackBarObjectUnreadable": {
+    "placeholders": {
+      "titles": {
+        "type": "String"
+      }
+    }
+  },
   "exportTabSnackBarSaveResultMessageError": "Error occurred while saving the data",
   "exportTabSnackBarSaveResultMessageSuccess": "Data has been successfully saved as {fileName} in folder {folder}",
   "exportWhere": "In which format should the object be exported?",

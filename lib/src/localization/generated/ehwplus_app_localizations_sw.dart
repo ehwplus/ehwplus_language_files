@@ -1313,6 +1313,14 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'Shiriki na programu zingine';
 
   @override
+  String get exportTabSnackBarCounterNotFound => 'The selected meter was not found. Please select a meter again.';
+
+  @override
+  String exportTabSnackBarObjectUnreadable(String titles) {
+    return 'Not exported because the saved data cannot be read: $titles';
+  }
+
+  @override
   String get exportTabSnackBarSaveResultMessageError => 'Hitilafu ilitokea wakati wa kuokoa data';
 
   @override

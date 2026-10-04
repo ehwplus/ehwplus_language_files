@@ -1318,6 +1318,15 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'Mit anderen Apps teilen';
 
   @override
+  String get exportTabSnackBarCounterNotFound =>
+      'Der ausgewählte Zähler wurde nicht gefunden. Bitte wählen Sie erneut einen Zähler aus.';
+
+  @override
+  String exportTabSnackBarObjectUnreadable(String titles) {
+    return 'Nicht exportiert, weil die gespeicherten Daten nicht gelesen werden können: $titles';
+  }
+
+  @override
   String get exportTabSnackBarSaveResultMessageError => 'Fehler beim Speichern der Daten';
 
   @override

@@ -2429,6 +2429,18 @@ abstract class EhwplusAppLocalizations {
   /// **'Share with other apps'**
   String get exportTabHowToExportOptionShare;
 
+  /// No description provided for @exportTabSnackBarCounterNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'The selected meter was not found. Please select a meter again.'**
+  String get exportTabSnackBarCounterNotFound;
+
+  /// No description provided for @exportTabSnackBarObjectUnreadable.
+  ///
+  /// In en, this message translates to:
+  /// **'Not exported because the saved data cannot be read: {titles}'**
+  String exportTabSnackBarObjectUnreadable(String titles);
+
   /// No description provided for @exportTabSnackBarSaveResultMessageError.
   ///
   /// In en, this message translates to:

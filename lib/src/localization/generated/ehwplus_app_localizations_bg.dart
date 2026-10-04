@@ -1319,6 +1319,14 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'Споделяне с други приложения';
 
   @override
+  String get exportTabSnackBarCounterNotFound => 'The selected meter was not found. Please select a meter again.';
+
+  @override
+  String exportTabSnackBarObjectUnreadable(String titles) {
+    return 'Not exported because the saved data cannot be read: $titles';
+  }
+
+  @override
   String get exportTabSnackBarSaveResultMessageError => 'Възникна грешка при запазване на данните';
 
   @override

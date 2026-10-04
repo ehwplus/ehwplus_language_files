@@ -443,6 +443,8 @@
   "exportTabHowToExport": "Wie möchten Sie die Daten exportieren?",
   "exportTabHowToExportOptionSaveToDownloads": "Im Ordner {folder} speichern",
   "exportTabHowToExportOptionShare": "Mit anderen Apps teilen",
+  "exportTabSnackBarCounterNotFound": "Der ausgewählte Zähler wurde nicht gefunden. Bitte wählen Sie erneut einen Zähler aus.",
+  "exportTabSnackBarObjectUnreadable": "Nicht exportiert, weil die gespeicherten Daten nicht gelesen werden können: {titles}",
   "exportTabSnackBarSaveResultMessageError": "Fehler beim Speichern der Daten",
   "exportTabSnackBarSaveResultMessageSuccess": "Die Daten wurden erfolgreich als {fileName} im Ordner {folder} gespeichert",
   "exportWhere": "In welchem Format soll das Objekt exportiert werden?",
