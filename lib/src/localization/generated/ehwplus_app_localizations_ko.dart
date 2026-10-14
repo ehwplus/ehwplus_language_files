@@ -1609,6 +1609,121 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => '이 센서에 대한 실시간 값이 감지되지 않았습니다.';
 
   @override
+  String get homeAssistantUnsupportedSensors => '지원되지 않는 센서';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      '현재 이 센서들은 EHW+의 과거 사용량 데이터에는 사용할 수 없습니다. 센서를 확장하여 진단 데이터를 불러온 다음, EHW+ 지원팀에 보고서를 공유하십시오.';
+
+  @override
+  String get homeAssistantUnsupportedState => '사용 가능한 수치 상태가 아닙니다(예: 사용 불가 또는 알 수 없음).';
+
+  @override
+  String get homeAssistantUnsupportedUnit => '이 단위는 소비 목적의 수입에 대해 지원되지 않습니다.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'EHW+ 계량기 유형에는 센서 유형을 할당할 수 없습니다.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => '지정된 클래스 또는 계량기 검침 형식이 지원되지 않습니다.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue => '실시간 또는 순간 값은 과거 소비량으로 가져올 수 없습니다.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => '병력에서 적절한 양성 소견은 발견되지 않았습니다.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      '이 보고서에는 센서 측정값, 이름, 기기 ID 및 기록이 포함될 수 있습니다. 데이터를 복사하거나 공유하기 전에 아래 내용을 확인해 보시기 바랍니다.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+ 및 Home Assistant 버전';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => '센서가 발견된 시점을 명시하십시오';
+
+  @override
+  String get homeAssistantDiagnosticsState => '현재 상태 및 모든 속성';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => '엔티티 및 통합 세부 정보';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => '기기 상세 정보';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => '이력 샘플 (48시간, 최대 200건)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => '시간별 통계 (7일)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => '센서 보고서 복사';
+
+  @override
+  String get homeAssistantDiagnosticsReload => '진단 데이터 다시 불러오기';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed => '로드할 수 없습니다. 보고서의 다른 데이터는 계속 사용할 수 있습니다.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => '데이터가 없습니다.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => '해당 보고서는 공유할 수 없습니다. 대신 복사해 가실 수 있습니다.';
+
+  @override
+  String get homeAssistantRefreshSensors => '센서 초기화';
+
+  @override
+  String get homeAssistantSensorsLoading => '센서 불러오는 중…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed => '센서를 불러올 수 없습니다. Home Assistant와의 연결 상태를 확인한 후 다시 시도해 주세요.';
+
+  @override
+  String get homeAssistantRetry => '다시 시도해 보세요';
+
+  @override
+  String get homeAssistantSensorLinked => '링크됨';
+
+  @override
+  String get homeAssistantSensorNotLinked => '링크되지 않음';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return '연동된 센서 ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return '기타 사용 가능한 센서 ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+ 계량기: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => '지난번 검색 결과에서 찾을 수 없습니다. 링크는 여전히 저장되어 있습니다.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => '사용 가능한 추가 센서가 없습니다.';
+
+  @override
+  String get homeAssistantSensorActionFailed => '센서 연결을 변경할 수 없습니다. 다시 시도해 주십시오.';
+
+  @override
+  String get homeAssistantSensorImportFailed => '센서는 연결되어 있지만, 사용량 데이터를 가져올 수 없습니다. 연결 상태를 확인한 후 다시 동기화를 시도해 주세요.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return '\"$sensorName\"의 연결을 해제하시겠습니까? 이 작업을 수행하면 해당 EHW+ 측정기 및 측정기에 저장된 측정값도 함께 삭제됩니다.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => '로드 센서';
 
   @override
@@ -2188,117 +2303,113 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return '2문제 중 $step번째 문제';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => '잠깐 물어볼 게 있는데';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => '거의 다 왔어요';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => '디지털 전기 계량기가 있으신가요?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => '집에 설치된 계량기를 가볍게 터치하기만 하면 됩니다.';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => '네, 디지털';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => '숫자가 표시되는 전자 디스플레이';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => '아니요, 아날로그';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => '회전 디스크가 장착된 기계식 계량기';
 
   @override
-  String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+  String get powerfoxSurveyDigitalMeterTip => '팁: 디지털 계량기는 회전 디스크가 없으며, 숫자와 “kWh”라는 표시가 있는 디스플레이가 있습니다.';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+  String get powerfoxSurveyAutomaticReadingsQuestion => '앞으로 계량기 검침 결과를 자동으로 받아보시겠습니까?';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+  String get powerfoxSurveyAutomaticReadingsDescription => '그러면 전기 계량기 검침값이 별도로 확인하거나 직접 입력할 필요 없이 EHW+에 바로 표시됩니다.';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => '네, 자동으로';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => '어떻게 작동하는지 보여주세요';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => '아니요, 괜찮습니다';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => '계속해서 직접 읽어보겠습니다';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => '더 이상 매달 계량기 검침이 필요 없습니다';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => '계량기 검침값에 오타가 없어야 합니다';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'EHW+에서 항상 최신 소비량 확인';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '€5\n할인';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => '귀하의 디지털 계량기에 적합합니다';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'EHW+ 고객 전용';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => '이제 더 이상 계량기를 확인할 필요가 없습니다.';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription => '파워폭스 파워옵티는 계량기 검침값을 EHW+로 자동으로 전송합니다.';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. 계량기에 부착하십시오';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. Wi-Fi에 연결하기';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. 측정값이 EHW+에 도착합니다.';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => '5유로 할인 코드';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => '복사';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => '복사됨';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => '파워폭스 샵에서 5유로를 절약하세요';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => '나중에 할게요';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => '답변해 주셔서 감사합니다!';
 
   @override
-  String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+  String get powerfoxSurveyConfirmationDescription => '평소처럼 EHW+에서 계량기 검침값을 계속 입력하시면 됩니다. 저희가 적시에 안내해 드리겠습니다.';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => '닫기';
 
   @override
   String get updateNoticeDebugTitle => '업데이트 공지';
@@ -4609,21 +4720,21 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => '구매함';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => '이미지 인식 훈련에 클라우드 데이터를 활용할까요?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+는 동기화된 계량기 사진을 활용하여 이미지 인식 기능을 개발하고 학습시킬 수 있습니다. 이 권한 없이도 EHW+ Cloud를 사용할 수 있으며, 이 경우 동기화된 계량기 사진은 학습에 사용되지 않습니다.';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => '허가 없이 활성화하기';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => '권한을 부여하고 활성화하기';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'AI 훈련을 위해 계량기 사진 사용을 허용합니다';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => '이 권한은 각 개체에 대해 언제든지 변경할 수 있습니다.';
 }

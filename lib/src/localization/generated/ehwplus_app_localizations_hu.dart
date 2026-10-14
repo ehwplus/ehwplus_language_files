@@ -1643,6 +1643,127 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'Az érzékelőnél nem észleltek élő értékeket.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Nem támogatott érzékelők';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'Ezek az érzékelők jelenleg nem használhatók az EHW+ korábbi fogyasztási adatainak lekérésére. Kattintson az érzékelőre a diagnosztikai adatok betöltéséhez, majd ossza meg a jelentést az EHW+ ügyfélszolgálattal.';
+
+  @override
+  String get homeAssistantUnsupportedState =>
+      'Nincs használható numerikus állapot (például nem elérhető vagy ismeretlen).';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'Ez az egység nem támogatott a fogyasztási célú behozatalok esetében.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'Az érzékelő típusa nem rendelhető hozzá egy EHW+ mérőtípushoz.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass =>
+      'Az állami osztály vagy a fogyasztásmérő-leolvasási formátum nem támogatott.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Az élő vagy pillanatnyi értékeket nem lehet múltbeli fogyasztásként importálni.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'Az anamnézisben nem találtak megfelelő pozitív fogyasztást.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'A jelentés tartalmazhat érzékelőadatokat, neveket, eszközazonosítókat és előzményeket. Az adatok másolása vagy megosztása előtt áttekintheti az alábbiakat.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+- és Home Assistant-verziók';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'Adja meg, mikor fedezték fel az érzékelőket';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Jelenlegi állapot és az összes attribútum';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Szervezeti és integrációs részletek';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Az eszköz adatai';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'Előzményekből vett minta (48 óra, legfeljebb 200 bejegyzés)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Óránkénti statisztikák (7 nap)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Érzékelői jelentés másolása';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Diagnosztikai adatok újratöltése';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed =>
+      'Nem sikerült betölteni. A jelentés többi adata továbbra is elérhető.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'Nincs elérhető adat.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => 'A jelentést nem lehetett megosztani. Ehelyett másolhatja.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Érzékelők frissítése';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Érzékelők betöltése…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Az érzékelők betöltése nem sikerült. Ellenőrizze aHome Assistant-hez való csatlakozást, majd próbálja meg újra.';
+
+  @override
+  String get homeAssistantRetry => 'Próbáld meg újra';
+
+  @override
+  String get homeAssistantSensorLinked => 'Kapcsolódó';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Nincs hivatkozás';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Összekapcsolt érzékelők ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Egyéb rendelkezésre álló érzékelők ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+-mérő: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Az utolsó keresés során nem található. A link továbbra is el van mentve.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'Nincs további érzékelő.';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'Az érzékelő kapcsolata nem módosítható. Kérjük, próbálja meg újra.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'Az érzékelő csatlakoztatva van, de az energiafogyasztási adatokat nem sikerült importálni. Ellenőrizze a csatlakozást, majd próbálja meg újra a szinkronizálást.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Fel kell szüntetni a „$sensorName” kapcsolódását? Ezzel egyidejűleg törlődik az EHW+-mérője és az abban tárolt mérési értékek is.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Terhelésérzékelők';
 
   @override
@@ -2231,117 +2352,118 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return '$step. kérdés (összesen 2)';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'Egy gyors kérdés';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'Már majdnem ott vagyunk';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'Van digitális villanyórája?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'Egyszerűen érintse meg az otthonában felszerelt mérőórát.';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'Igen, digitális';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'Elektronikus kijelző számjegyekkel';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'Nem, analóg';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'Forgó tárcsás mechanikus mérőműszer';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'Tipp: A digitális mérőórák kijelzőjén számok és a „kWh” felirat látható – forgó tárcsa nélkül.';
 
   @override
   String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+      'Szeretné, ha a jövőben automatikusan megkapná a fogyasztásmérő-leolvasási adatokat?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'A villamosenergia-fogyasztásmérő leolvasási értékei ezután közvetlenül megjelennek az EHW+-ban – anélkül, hogy le kellene olvasni vagy be kellene gépelni őket.';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'Igen, automatikusan';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'Mutasd meg, hogyan működik!';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'Nem, köszönöm';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'Továbbra is kézzel fogom elolvasni őket';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'Nincs többé havi fogyasztásleolvasás';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'A mérőállásokban nincs elírás';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'A fogyasztási adatok mindig naprakészek az EHW+-ban';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '5 €\nKEDVEZMÉNY';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'Illeszkedik a digitális mérőműszeréhez';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'Kizárólag az EHW+-ügyfelek számára';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'Soha többé nem kell leolvasnod a fogyasztásmérődet.';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription =>
+      'A powerfox poweropti automatikusan továbbítja a mérőállásokat az EHW+ rendszerbe.';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. Csatlakoztassa a mérőhöz';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. Csatlakozz a Wi-Fi-hez';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. A mérési eredmények beérkeznek az EHW+ rendszerbe';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'A 5 eurós kedvezményre jogosító kódod';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'Másolás';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'Másolva';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => '5 eurót spórolhat a Powerfox boltban';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'Talán később';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'Köszönöm a válaszát!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'Továbbra is a szokásos módon rögzítheti a fogyasztásmérő-állásokat az EHW+-ban. Időben emlékeztetni fogjuk Önt.';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'Bezárás';
 
   @override
   String get updateNoticeDebugTitle => 'Frissítési értesítések';
@@ -4761,21 +4883,22 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'Megvásárolva';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'Használjuk a felhőalapú adatokat a képfelismerés betanításához?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'Az EHW+ az Ön szinkronizált mérőórás fényképeit felhasználhatja a képfelismerés fejlesztéséhez és betanításához. Az EHW+ Cloud szolgáltatást e jogosultság nélkül is használhatja; ebben az esetben a szinkronizált mérőórás fényképeit nem használják fel a betanításhoz.';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'Engedély nélkül aktiválni';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Engedélyezés és aktiválás';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'Engedélyezze a mérőórák fényképezését az AI-képzéshez';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint =>
+      'Ezt a jogosultságot bármikor módosíthatja az egyes objektumok esetében.';
 }

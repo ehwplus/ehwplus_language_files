@@ -1595,6 +1595,120 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => '未检测到该传感器的有效值。';
 
   @override
+  String get homeAssistantUnsupportedSensors => '不支持的传感器';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      '目前，这些传感器无法用于获取EHW+的历史用电数据。请展开传感器以加载其诊断数据，并将报告分享给EHW+技术支持团队。';
+
+  @override
+  String get homeAssistantUnsupportedState => '没有可用的数值状态（例如，不可用或未知）。';
+
+  @override
+  String get homeAssistantUnsupportedUnit => '该单位不支持消费进口。';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => '该传感器类型无法分配给EHW+电表型号。';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => '不支持该州级或抄表格式。';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue => '实时或瞬时数值不能作为历史用电量导入。';
+
+  @override
+  String get homeAssistantUnsupportedHistory => '病史中未发现任何符合条件的阳性结果。';
+
+  @override
+  String get homeAssistantDiagnosticsDescription => '该报告可能包含传感器读数、名称、设备 ID 和历史记录。在复制或分享这些数据之前，您可以先查看以下内容。';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+ 和 Home Assistant 版本';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => '说明传感器何时被发现';
+
+  @override
+  String get homeAssistantDiagnosticsState => '当前状态及所有属性';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => '实体与集成详情';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => '设备详情';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => '历史数据示例（48小时，最多200条记录）';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => '每小时统计数据（7天）';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => '复制传感器报告';
+
+  @override
+  String get homeAssistantDiagnosticsReload => '重新加载诊断数据';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed => '无法加载。报告中的其他数据仍然可用。';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => '无数据。';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => '无法分享该报告。您可以将其复制下来。';
+
+  @override
+  String get homeAssistantRefreshSensors => '刷新传感器';
+
+  @override
+  String get homeAssistantSensorsLoading => '正在加载传感器……';
+
+  @override
+  String get homeAssistantSensorsLoadFailed => '无法加载传感器。请检查与Home Assistant的连接，然后重试。';
+
+  @override
+  String get homeAssistantRetry => '请重试';
+
+  @override
+  String get homeAssistantSensorLinked => '相关链接';
+
+  @override
+  String get homeAssistantSensorNotLinked => '未链接';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return '已连接的传感器（$count）';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return '其他可用的传感器（$count）';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+电表：$counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => '上次搜索未找到。该链接仍已保存。';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => '没有可用的额外传感器。';
+
+  @override
+  String get homeAssistantSensorActionFailed => '无法更改传感器链接。请重试。';
+
+  @override
+  String get homeAssistantSensorImportFailed => '传感器已连接，但无法导入能耗数据。请检查连接，然后重试同步。';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return '“解除与‘$sensorName’的关联”？此操作还会删除其 EHW+ 计量表以及该计量表中存储的读数。';
+  }
+
+  @override
   String get homeAssistantLoadSensors => '负载传感器';
 
   @override
@@ -2167,117 +2281,113 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return '第 2 题的第 $step 题';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => '问个问题';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => '快到了';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => '您家安装了电子电表吗？';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => '只需轻触安装在您家中的电表即可。';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => '是的，数字的';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => '带数字的电子显示屏';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => '不，模拟的';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => '带旋转盘的机械式计量表';
 
   @override
-  String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+  String get powerfoxSurveyDigitalMeterTip => '提示：数字电表的显示屏上显示数字和“kWh”字样，没有旋转的指针。';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+  String get powerfoxSurveyAutomaticReadingsQuestion => '您希望今后自动接收电表读数吗？';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+  String get powerfoxSurveyAutomaticReadingsDescription => '您的电表读数随后将直接显示在EHW+中——无需手动抄表或输入。';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => '是的，自动';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => '给我演示一下它是怎么工作的';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => '不用了，谢谢';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => '我将继续手动阅读它们';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => '不再需要每月抄表';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => '水表读数中无输入错误';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => '在EHW+中，能耗数据始终保持最新';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '减€5\n优惠';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => '适用于您的数字仪表';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'EHW+客户专享';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => '从此再也不用看电表了。';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription => 'powerfox poweropti 会自动将您的电表读数传输到 EHW+。';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. 连接至仪表';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. 连接 Wi-Fi';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. 读数已导入EHW+';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => '您的优惠码，可享5欧元折扣';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => '复制';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => '已复制';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => '在powerfox商店立减5欧元';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => '也许等会儿吧';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => '谢谢您的回答！';
 
   @override
-  String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+  String get powerfoxSurveyConfirmationDescription => '您可以照常在EHW+中继续录入电表读数。我们会及时提醒您。';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => '关闭';
 
   @override
   String get updateNoticeDebugTitle => '更新通知';
@@ -4563,21 +4673,21 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => '已购买';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => '利用云端数据进行图像识别训练？';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+ 可以利用您同步的电表照片来开发和训练图像识别功能。您也可以在不授予此权限的情况下使用 EHW+ 云服务；此时，您同步的电表照片将不会用于训练。';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => '未经许可即激活';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => '授予权限并激活';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => '允许使用电表照片用于人工智能训练';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => '您可以随时针对每个对象更改此权限。';
 }

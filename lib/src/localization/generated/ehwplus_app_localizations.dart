@@ -3023,6 +3023,216 @@ abstract class EhwplusAppLocalizations {
   /// **'No live values were detected for this sensor.'**
   String get homeAssistantLiveMeasurementsNoData;
 
+  /// No description provided for @homeAssistantUnsupportedSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'Unsupported sensors'**
+  String get homeAssistantUnsupportedSensors;
+
+  /// No description provided for @homeAssistantUnsupportedSensorsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'These sensors cannot currently be used for historical EHW+ consumption data. Expand a sensor to load its diagnostic data and share a report with EHW+ support.'**
+  String get homeAssistantUnsupportedSensorsDescription;
+
+  /// No description provided for @homeAssistantUnsupportedState.
+  ///
+  /// In en, this message translates to:
+  /// **'No usable numeric state (for example, unavailable or unknown).'**
+  String get homeAssistantUnsupportedState;
+
+  /// No description provided for @homeAssistantUnsupportedUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'The unit is not supported for consumption imports.'**
+  String get homeAssistantUnsupportedUnit;
+
+  /// No description provided for @homeAssistantUnsupportedDeviceClass.
+  ///
+  /// In en, this message translates to:
+  /// **'The sensor type cannot be assigned to an EHW+ meter type.'**
+  String get homeAssistantUnsupportedDeviceClass;
+
+  /// No description provided for @homeAssistantUnsupportedStateClass.
+  ///
+  /// In en, this message translates to:
+  /// **'The state class or meter reading format is not supported.'**
+  String get homeAssistantUnsupportedStateClass;
+
+  /// No description provided for @homeAssistantUnsupportedLiveValue.
+  ///
+  /// In en, this message translates to:
+  /// **'Live or instantaneous values cannot be imported as historical consumption.'**
+  String get homeAssistantUnsupportedLiveValue;
+
+  /// No description provided for @homeAssistantUnsupportedHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'No suitable positive consumption was found in the history.'**
+  String get homeAssistantUnsupportedHistory;
+
+  /// No description provided for @homeAssistantDiagnosticsDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'The report may contain sensor readings, names, device IDs, and history. You can review the data below before copying or sharing it.'**
+  String get homeAssistantDiagnosticsDescription;
+
+  /// No description provided for @homeAssistantDiagnosticsEnvironment.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ and Home Assistant versions'**
+  String get homeAssistantDiagnosticsEnvironment;
+
+  /// No description provided for @homeAssistantDiagnosticsDiscoveryState.
+  ///
+  /// In en, this message translates to:
+  /// **'State when sensors were discovered'**
+  String get homeAssistantDiagnosticsDiscoveryState;
+
+  /// No description provided for @homeAssistantDiagnosticsState.
+  ///
+  /// In en, this message translates to:
+  /// **'Current state and all attributes'**
+  String get homeAssistantDiagnosticsState;
+
+  /// No description provided for @homeAssistantDiagnosticsEntity.
+  ///
+  /// In en, this message translates to:
+  /// **'Entity and integration details'**
+  String get homeAssistantDiagnosticsEntity;
+
+  /// No description provided for @homeAssistantDiagnosticsDevice.
+  ///
+  /// In en, this message translates to:
+  /// **'Device details'**
+  String get homeAssistantDiagnosticsDevice;
+
+  /// No description provided for @homeAssistantDiagnosticsHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'History sample (48 hours, up to 200 entries)'**
+  String get homeAssistantDiagnosticsHistory;
+
+  /// No description provided for @homeAssistantDiagnosticsStatistics.
+  ///
+  /// In en, this message translates to:
+  /// **'Hourly statistics (7 days)'**
+  String get homeAssistantDiagnosticsStatistics;
+
+  /// No description provided for @homeAssistantDiagnosticsCopy.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy sensor report'**
+  String get homeAssistantDiagnosticsCopy;
+
+  /// No description provided for @homeAssistantDiagnosticsReload.
+  ///
+  /// In en, this message translates to:
+  /// **'Reload diagnostic data'**
+  String get homeAssistantDiagnosticsReload;
+
+  /// No description provided for @homeAssistantDiagnosticsLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not be loaded. The other data remains available in the report.'**
+  String get homeAssistantDiagnosticsLoadFailed;
+
+  /// No description provided for @homeAssistantDiagnosticsNotAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'No data available.'**
+  String get homeAssistantDiagnosticsNotAvailable;
+
+  /// No description provided for @homeAssistantDiagnosticsShareFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The report could not be shared. You can copy it instead.'**
+  String get homeAssistantDiagnosticsShareFailed;
+
+  /// No description provided for @homeAssistantRefreshSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'Refresh sensors'**
+  String get homeAssistantRefreshSensors;
+
+  /// No description provided for @homeAssistantSensorsLoading.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading sensors…'**
+  String get homeAssistantSensorsLoading;
+
+  /// No description provided for @homeAssistantSensorsLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Sensors could not be loaded. Check the connection to Home Assistant and try again.'**
+  String get homeAssistantSensorsLoadFailed;
+
+  /// No description provided for @homeAssistantRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get homeAssistantRetry;
+
+  /// No description provided for @homeAssistantSensorLinked.
+  ///
+  /// In en, this message translates to:
+  /// **'Linked'**
+  String get homeAssistantSensorLinked;
+
+  /// No description provided for @homeAssistantSensorNotLinked.
+  ///
+  /// In en, this message translates to:
+  /// **'Not linked'**
+  String get homeAssistantSensorNotLinked;
+
+  /// No description provided for @homeAssistantLinkedSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'Linked sensors ({count})'**
+  String homeAssistantLinkedSensors(int count);
+
+  /// No description provided for @homeAssistantAvailableSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'Other available sensors ({count})'**
+  String homeAssistantAvailableSensors(int count);
+
+  /// No description provided for @homeAssistantLinkedCounter.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ meter: {counterName}'**
+  String homeAssistantLinkedCounter(String counterName);
+
+  /// No description provided for @homeAssistantSensorNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'Not found in the last search. The link is still saved.'**
+  String get homeAssistantSensorNotFound;
+
+  /// No description provided for @homeAssistantNoAdditionalSensors.
+  ///
+  /// In en, this message translates to:
+  /// **'No additional sensors available.'**
+  String get homeAssistantNoAdditionalSensors;
+
+  /// No description provided for @homeAssistantSensorActionFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The sensor link could not be changed. Please try again.'**
+  String get homeAssistantSensorActionFailed;
+
+  /// No description provided for @homeAssistantSensorImportFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The sensor is linked, but consumption data could not be imported. Check the connection and try syncing again.'**
+  String get homeAssistantSensorImportFailed;
+
+  /// No description provided for @homeAssistantUnlinkConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlink \"{sensorName}\"? This also deletes its EHW+ meter and the readings stored in that meter.'**
+  String homeAssistantUnlinkConfirmation(String sensorName);
+
   /// No description provided for @homeAssistantLoadSensors.
   ///
   /// In en, this message translates to:
@@ -3122,7 +3332,7 @@ abstract class EhwplusAppLocalizations {
   /// No description provided for @homeAssistantUnlink.
   ///
   /// In en, this message translates to:
-  /// **'Unlink'**
+  /// **'Unlink sensor'**
   String get homeAssistantUnlink;
 
   /// No description provided for @homeAssistantUrlInvalid.

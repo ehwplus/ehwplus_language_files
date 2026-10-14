@@ -1640,6 +1640,127 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'Selle anduri puhul ei tuvastatud ühtegi pingeväärtust.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Toetamata andurid';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'Neid andureid ei saa praegu kasutada EHW+ varasemate tarbimisandmete saamiseks. Avage andur, et laadida selle diagnostilised andmed ja jagada aruanne EHW+ tugiteenistusega.';
+
+  @override
+  String get homeAssistantUnsupportedState =>
+      'Puudub kasutatav numbriline seisund (näiteks pole kättesaadav või on teadmata).';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'Seda ühikut ei toetata tarbimiseks mõeldud impordi puhul.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'EHW+-tüüpi arvestile ei ole võimalik anduritüüpi määrata.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'Riigi klassi või arvesti näidu formaati ei toetata.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Reaalajas või hetkeväärtusi ei saa importida ajaloolise tarbimisandmetena.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'Haigusloost ei leitud ühtegi sobivat positiivset tarbimist.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'Aruanne võib sisaldada andurite näiteid, nimesid, seadmete ID-sid ja ajalugu. Enne andmete kopeerimist või jagamist saate neid allpool üle vaadata.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+- ja Home Assistant-versioonid';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'Märkige, millal andurid avastati';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Praegune seisund ja kõik atribuudid';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Ettevõtte ja integratsiooni üksikasjad';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Seadme andmed';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'Ajaloo näidis (48 tundi, kuni 200 kirjet)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Tunnipõhised statistilised andmed (7 päeva)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Sensoriaruande kopeerimine';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Laadi diagnostilised andmed uuesti';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed =>
+      'Laadimine ebaõnnestus. Ülejäänud andmed on aruandes endiselt kättesaadavad.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'Andmed puuduvad.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed =>
+      'Aruannet ei olnud võimalik jagada. Selle asemel saate selle kopeerida.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Andurite värskendamine';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Andureid laaditakse…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Andureid ei õnnestunud laadida. Kontrolli ühendust Home Assistant’iga ja proovi uuesti.';
+
+  @override
+  String get homeAssistantRetry => 'Proovi uuesti';
+
+  @override
+  String get homeAssistantSensorLinked => 'Seotud';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Ei ole seotud';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Ühendatud andurid ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Muud saadaval olevad andurid ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+-arvesti: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Viimases otsingus ei leitud. Link on endiselt salvestatud.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'Lisanduvaid andureid pole saadaval.';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'Anduri seost ei õnnestunud muuta. Palun proovi uuesti.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'Andur on ühendatud, kuid tarbimisandmeid ei õnnestunud importida. Kontrollige ühendust ja proovige sünkroniseerimist uuesti.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Kas soovid „$sensorName“ seost eemaldada? See kustutab ka selle EHW+-mõõturi ja selles salvestatud näidud.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Koormusandurid';
 
   @override
@@ -2227,117 +2348,117 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return 'Küsimus $step/2';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'Kiire küsimus';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'Peaaegu kohal';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'Kas teil on digitaalne elektriarvesti?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'Puuduta lihtsalt oma kodus paigaldatud arvestit.';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'Jah, digitaalne';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'Elektrooniline ekraan numbritega';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'Ei, analoog';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'Pöörleva kettaga mehaaniline arvesti';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'Nõuanne: Digitaalsetel arvestitel on numbritega ekraan ja märge „kWh“ – ilma pöörleva kettata.';
 
   @override
   String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+      'Kas soovite, et teie arvestinäidud edastataks teile tulevikus automaatselt?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'Teie elektriarvesti näidud kuvatakse seejärel otse rakenduses EHW+ – ilma, et neid oleks vaja maha lugeda või käsitsi sisestada.';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'Jah, automaatselt';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'Näita mulle, kuidas see toimib';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'Ei, aitäh';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'Jätkan nende käsitsi lugemist';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'Enam ei toimu igakuist arvesti näidu lugemist';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'Arvestinäitude sisestamisel ei tohi olla trükivigu';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'EHW+-s on tarbimine alati ajakohane';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '5 €\nSOODUS';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'Sobib teie digitaalmõõturiga';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'Ainult EHW+-klientidele';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'Sa ei pea enam kunagi oma arvestit lugema.';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription => 'Powerfox Poweropti edastab teie arvestinäidud automaatselt süsteemi EHW+.';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. Kinnitage arvestile';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. Ühendu Wi-Fi-ga';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. Mõõtmistulemused laekuvad süsteemi EHW+';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'Teie kood 5 euro suuruse allahindluse saamiseks';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'Kopeeri';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'Kopeeritud';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'Säästa 5 € Powerfoxi poes';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'Võib-olla hiljem';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'Tänan vastuse eest!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'Võite jätkata arvestinäitude sisestamist EHW+-s nagu tavaliselt. Me tuletame teile seda õigeaegselt meelde.';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'Sulge';
 
   @override
   String get updateNoticeDebugTitle => 'Uuendusteated';
@@ -4728,21 +4849,21 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'Ostetud';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'Kas kasutada pilvandmeid pilditunnustuse õpetamiseks?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+ võib kasutada teie sünkroniseeritud arvesti fotosid pildituvastuse arendamiseks ja treenimiseks. Võite kasutada EHW+ Cloudi ka ilma selle loata; sel juhul ei kasutata teie sünkroniseeritud arvesti fotosid treenimiseks.';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'Aktiveeri ilma loata';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Anna luba ja aktiveeri';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'Luba arvesti fotode kasutamist tehisintellekti koolitamiseks';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => 'Seda õigust saate iga objekti puhul igal ajal muuta.';
 }

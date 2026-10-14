@@ -1639,6 +1639,126 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'इस सेंसर के लिए कोई लाइव मान नहीं पाए गए।';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'असमर्थित सेंसर';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'इन सेंसरों का वर्तमान में ऐतिहासिक EHW+ खपत डेटा के लिए उपयोग नहीं किया जा सकता। किसी सेंसर का विस्तार करें ताकि उसका निदान डेटा लोड हो सके और EHW+ सहायता के साथ एक रिपोर्ट साझा करें।';
+
+  @override
+  String get homeAssistantUnsupportedState =>
+      'कोई भी उपयोगी संख्यात्मक स्थिति नहीं (उदाहरण के लिए, अनुपलब्ध या अज्ञात)।';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'इस इकाई का उपभोग आयात के लिए समर्थन नहीं है।';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass =>
+      'सेंसर प्रकार को EHW+ मीटर प्रकार के रूप में निर्दिष्ट नहीं किया जा सकता।';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'राज्य क्लास या मीटर रीडिंग प्रारूप समर्थित नहीं है।';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'लाइव या तत्काल मानों को ऐतिहासिक खपत के रूप में आयात नहीं किया जा सकता।';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'इतिहास में कोई उपयुक्त सकारात्मक खपत नहीं मिली।';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'रिपोर्ट में सेंसर रीडिंग्स, नाम, डिवाइस आईडी और इतिहास शामिल हो सकते हैं। आप इसे कॉपी या शेयर करने से पहले नीचे दिए गए डेटा की समीक्षा कर सकते हैं।';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+ और Home Assistant संस्करण';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'बताएँ कि सेंसर कब खोजे गए थे।';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'वर्तमान स्थिति और सभी गुण';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'इकाई और एकीकरण विवरण';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'डिवाइस विवरण';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'इतिहास का नमूना (48 घंटे, 200 प्रविष्टियों तक)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'प्रति घंटा आँकड़े (7 दिन)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'सेंसर रिपोर्ट की प्रतिलिपि बनाएँ';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'निदान डेटा पुनः लोड करें';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed => 'लोड नहीं हो सका। अन्य डेटा रिपोर्ट में उपलब्ध है।';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'कोई डेटा उपलब्ध नहीं है।';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => 'रिपोर्ट साझा नहीं की जा सकी। आप इसके बजाय इसे कॉपी कर सकते हैं।';
+
+  @override
+  String get homeAssistantRefreshSensors => 'सेंसर्स ताज़ा करें';
+
+  @override
+  String get homeAssistantSensorsLoading => 'सेंसर लोड हो रहे हैं…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'सेंसर लोड नहीं हो सके। Home Assistant से कनेक्शन की जाँच करें और फिर से प्रयास करें।';
+
+  @override
+  String get homeAssistantRetry => 'फिर से कोशिश करें';
+
+  @override
+  String get homeAssistantSensorLinked => 'संलग्न';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'संबंधित नहीं';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'लिंक्ड सेंसर ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'अन्य उपलब्ध सेंसर ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+ मीटर: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'पिछली खोज में नहीं मिला। लिंक अभी भी सहेजा हुआ है।';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'कोई अतिरिक्त सेंसर उपलब्ध नहीं हैं।';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'सेंसर लिंक बदला नहीं जा सका। कृपया फिर से प्रयास करें।';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'सेंसर जुड़ा हुआ है, लेकिन खपत डेटा आयात नहीं किया जा सका। कनेक्शन की जाँच करें और फिर से सिंक करने का प्रयास करें।';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'क्या \"$sensorName\" को अनलिंक करें? इससे इसका EHW+ मीटर और उस मीटर में संग्रहीत रीडिंग्स भी हटा दी जाएँगी।';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'लोड सेंसर';
 
   @override
@@ -2226,117 +2346,118 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return 'प्रश्न $step/2';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'त्वरित प्रश्न';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'लगभग वहाँ';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'क्या आपके पास डिजिटल बिजली मीटर है?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'बस अपने घर में लगे मीटर को टैप करें।';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'हाँ, डिजिटल';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'अंकीय अंकों वाला इलेक्ट्रॉनिक प्रदर्शन';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'नहीं, एनालॉग';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'घूमने वाली डिस्क वाला यांत्रिक मीटर';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'सुझाव: डिजिटल मीटर में अंकों वाला डिस्प्ले और \"kWh\" का लेबल होता है – बिना घूमने वाली डिस्क के।';
 
   @override
   String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+      'क्या आप भविष्य में अपने मीटर रीडिंग्स स्वचालित रूप से प्राप्त करना चाहेंगे?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'आपकी बिजली मीटर रीडिंग्स फिर सीधे EHW+ में दिखाई देंगी – बिना उन्हें पढ़े या टाइप किए।';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'हाँ, स्वचालित रूप से';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'मुझे दिखाओ कि यह कैसे काम करता है।';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'नहीं, धन्यवाद';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'मैं उन्हें मैन्युअल रूप से पढ़ना जारी रखूंगा।';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'अब मासिक मीटर रीडिंग नहीं';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'मीटर रीडिंग में कोई टाइपिंग त्रुटि नहीं';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'EHW+ में खपत हमेशा अद्यतित रहती है।';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '€5 की छूट';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'आपके डिजिटल मीटर में फिट बैठता है';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'EHW+ ग्राहकों के लिए विशेष';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'अपना मीटर फिर कभी न पढ़ें।';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription =>
+      'Powerfox Poweropti स्वचालित रूप से आपके मीटर रीडिंग्स को EHW+ में स्थानांतरित करता है।';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. मीटर से जोड़ें';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. वाई-फाई से कनेक्ट करें';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. रीडिंग्स EHW+ में आती हैं।';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => '€5 की छूट के लिए आपका कोड';
 
   @override
-  String get powerfoxOfferDiscountCode => 'EHW5';
+  String get powerfoxOfferDiscountCode => 'ईएचडब्ल्यू5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'प्रतिलिपि';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'नकल किया गया';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'पावरफॉक्स शॉप में €5 बचाएँ';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'शायद बाद में';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'आपके उत्तर के लिए धन्यवाद!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'आप अपनी मीटर रीडिंग्स EHW+ में वैसे ही दर्ज करते रह सकते हैं। हम आपको समय पर याद दिलाएंगे।';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'बंद करें';
 
   @override
   String get updateNoticeDebugTitle => 'अद्यतन सूचनाएँ';
@@ -4731,21 +4852,21 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'खरीदा गया';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'छवि-पहचान प्रशिक्षण के लिए क्लाउड डेटा का उपयोग करें?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+ आपकी सिंक की गई मीटर तस्वीरों का उपयोग इमेज मान्यता विकसित करने और प्रशिक्षण के लिए कर सकता है। आप इस अनुमति के बिना भी EHW+ Cloud का उपयोग कर सकते हैं; उस स्थिति में आपकी सिंक की गई मीटर तस्वीरें प्रशिक्षण के लिए उपयोग नहीं की जाएँगी।';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'बिना अनुमति सक्रिय करें';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'अनुमति दें और सक्रिय करें';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'एआई प्रशिक्षण के लिए मीटर की तस्वीरें अनुमति दें';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => 'आप किसी भी समय प्रत्येक ऑब्जेक्ट के लिए इस अनुमति को बदल सकते हैं।';
 }

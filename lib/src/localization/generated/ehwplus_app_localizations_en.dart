@@ -1636,6 +1636,125 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'No live values were detected for this sensor.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Unsupported sensors';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'These sensors cannot currently be used for historical EHW+ consumption data. Expand a sensor to load its diagnostic data and share a report with EHW+ support.';
+
+  @override
+  String get homeAssistantUnsupportedState => 'No usable numeric state (for example, unavailable or unknown).';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'The unit is not supported for consumption imports.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'The sensor type cannot be assigned to an EHW+ meter type.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'The state class or meter reading format is not supported.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Live or instantaneous values cannot be imported as historical consumption.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'No suitable positive consumption was found in the history.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'The report may contain sensor readings, names, device IDs, and history. You can review the data below before copying or sharing it.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+ and Home Assistant versions';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'State when sensors were discovered';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Current state and all attributes';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Entity and integration details';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Device details';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'History sample (48 hours, up to 200 entries)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Hourly statistics (7 days)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Copy sensor report';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Reload diagnostic data';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed =>
+      'Could not be loaded. The other data remains available in the report.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'No data available.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => 'The report could not be shared. You can copy it instead.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Refresh sensors';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Loading sensors…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Sensors could not be loaded. Check the connection to Home Assistant and try again.';
+
+  @override
+  String get homeAssistantRetry => 'Try again';
+
+  @override
+  String get homeAssistantSensorLinked => 'Linked';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Not linked';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Linked sensors ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Other available sensors ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+ meter: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Not found in the last search. The link is still saved.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'No additional sensors available.';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'The sensor link could not be changed. Please try again.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'The sensor is linked, but consumption data could not be imported. Check the connection and try syncing again.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Unlink \"$sensorName\"? This also deletes its EHW+ meter and the readings stored in that meter.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Load sensors';
 
   @override
@@ -1689,7 +1808,7 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get homeAssistantUnknownInstance => 'Unknown instance';
 
   @override
-  String get homeAssistantUnlink => 'Unlink';
+  String get homeAssistantUnlink => 'Unlink sensor';
 
   @override
   String get homeAssistantUrlInvalid => 'Please enter a valid Home Assistant URL.';

@@ -578,6 +578,69 @@
   "homeAssistantLiveMeasurementsConnecting": "Verbindung zu Home Assistant wird hergestellt...",
   "homeAssistantLiveMeasurementsError": "Home Assistant Live-Daten konnten nicht geladen werden.",
   "homeAssistantLiveMeasurementsNoData": "Für diesen Sensor wurden keine Live-Werte erkannt.",
+  "homeAssistantUnsupportedSensors": "Nicht unterstützte Sensoren",
+  "homeAssistantUnsupportedSensorsDescription": "Diese Sensoren können derzeit nicht für historische EHW+ Verbräuche verwendet werden. Klappen Sie einen Sensor auf, um seine Diagnosedaten zu laden und einen Bericht an den EHW+ Support weiterzugeben.",
+  "homeAssistantUnsupportedState": "Kein nutzbarer Zahlenwert, zum Beispiel „unavailable“ oder „unknown“.",
+  "homeAssistantUnsupportedUnit": "Die Einheit wird für den Verbrauchsimport nicht unterstützt.",
+  "homeAssistantUnsupportedDeviceClass": "Der Sensortyp lässt sich keinem EHW+ Zählertyp zuordnen.",
+  "homeAssistantUnsupportedStateClass": "Die Zustandsklasse oder das Zählerstandsformat wird nicht unterstützt.",
+  "homeAssistantUnsupportedLiveValue": "Live- oder Momentanwerte können nicht als historische Verbräuche importiert werden.",
+  "homeAssistantUnsupportedHistory": "Im Verlauf wurde kein geeigneter positiver Verbrauch gefunden.",
+  "homeAssistantDiagnosticsDescription": "Der Bericht enthält eventuell Sensorwerte, Namen, Gerätekennungen und eine Verläufe. Sie können die Daten unten prüfen, bevor Sie sie kopieren oder teilen.",
+  "homeAssistantDiagnosticsEnvironment": "EHW+ und Home-Assistant-Versionen",
+  "homeAssistantDiagnosticsDiscoveryState": "Zustand bei der Sensorsuche",
+  "homeAssistantDiagnosticsState": "Aktueller Zustand und alle Attribute",
+  "homeAssistantDiagnosticsEntity": "Entitäts- und Integrationsdetails",
+  "homeAssistantDiagnosticsDevice": "Gerätedetails",
+  "homeAssistantDiagnosticsHistory": "Verlaufsprobe (48 Stunden, bis zu 200 Einträge)",
+  "homeAssistantDiagnosticsStatistics": "Stündliche Statistiken (7 Tage)",
+  "homeAssistantDiagnosticsCopy": "Sensorbericht kopieren",
+  "homeAssistantDiagnosticsReload": "Diagnosedaten erneut laden",
+  "homeAssistantDiagnosticsLoadFailed": "Konnte nicht geladen werden. Die übrigen Daten bleiben im Bericht verfügbar.",
+  "homeAssistantDiagnosticsNotAvailable": "Keine Daten verfügbar.",
+  "homeAssistantDiagnosticsShareFailed": "Der Bericht konnte nicht geteilt werden. Sie können ihn stattdessen kopieren.",
+  "homeAssistantRefreshSensors": "Sensoren aktualisieren",
+  "homeAssistantSensorsLoading": "Sensoren werden geladen …",
+  "homeAssistantSensorsLoadFailed": "Sensoren konnten nicht geladen werden. Prüfen Sie die Verbindung zu Home Assistant und versuchen Sie es erneut.",
+  "homeAssistantRetry": "Erneut versuchen",
+  "homeAssistantSensorLinked": "Verknüpft",
+  "homeAssistantSensorNotLinked": "Nicht verknüpft",
+  "homeAssistantLinkedSensors": "Verknüpfte Sensoren ({count})",
+  "@homeAssistantLinkedSensors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeAssistantAvailableSensors": "Weitere verfügbare Sensoren ({count})",
+  "@homeAssistantAvailableSensors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeAssistantLinkedCounter": "EHW+ Zähler: {counterName}",
+  "@homeAssistantLinkedCounter": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantSensorNotFound": "Bei der letzten Suche nicht gefunden. Die Verknüpfung bleibt gespeichert.",
+  "homeAssistantNoAdditionalSensors": "Keine weiteren Sensoren verfügbar.",
+  "homeAssistantSensorActionFailed": "Die Sensorverknüpfung konnte nicht geändert werden. Bitte versuchen Sie es erneut.",
+  "homeAssistantSensorImportFailed": "Der Sensor ist verknüpft, aber die Verbrauchsdaten konnten nicht importiert werden. Prüfen Sie die Verbindung und versuchen Sie die Synchronisierung erneut.",
+  "homeAssistantUnlinkConfirmation": "Verknüpfung von „{sensorName}“ lösen? Dabei werden auch der zugehörige EHW+ Zähler und dessen gespeicherte Zählerstände gelöscht.",
+  "@homeAssistantUnlinkConfirmation": {
+    "placeholders": {
+      "sensorName": {
+        "type": "String"
+      }
+    }
+  },
   "homeAssistantLoadSensors": "Sensoren laden",
   "homeAssistantLocalUrlWarning": "Das sieht nach einer lokalen URL aus. Die Synchronisierung wird nur versucht, wenn das Gerät mit dem lokalen Netzwerk verbunden ist.",
   "homeAssistantNoDefaultActivity": "Keine Standardaktivität",
@@ -594,7 +657,7 @@
   "homeAssistantTitle": "Home Assistant",
   "homeAssistantTokenTest": "Token testen",
   "homeAssistantUnknownInstance": "Unbekannte Instanz",
-  "homeAssistantUnlink": "Entknüpfen",
+  "homeAssistantUnlink": "Verknüpfung lösen",
   "homeAssistantUrlInvalid": "Bitte geben Sie eine gültige Home Assistant URL ein.",
   "homeAssistantUrlLabel": "Home Assistant URL",
   "homeAssistantUrlRequired": "Bitte geben Sie die Home Assistant URL ein.",

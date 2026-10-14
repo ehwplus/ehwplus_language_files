@@ -1638,6 +1638,125 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
       'Pri tem senzorju ni bilo zaznanih nobenih vrednosti pod napetostjo.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Senzorji, ki niso podprti';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'Ti senzorji trenutno niso na voljo za zgodovinske podatke o porabi v sistemu EHW+. Razširite senzor, da naložite njegove diagnostične podatke, in poročilo posredujte podpori EHW+.';
+
+  @override
+  String get homeAssistantUnsupportedState => 'Ni uporabnega številčnega stanja (na primer: ni na voljo ali neznano).';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'Ta enota ni podprta za uvoz za lastno porabo.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'Tip senzorja ni mogoče dodeliti tipu merilnika EHW+.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'Oblika odčitka stanja ali števca ni podprta.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Vrednosti v realnem času ali trenutne vrednosti ni mogoče uvoziti kot zgodovinske podatke o porabi.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'V anamnezi ni bilo ugotovljeno nobeno ustrezno pozitivno uživanje.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'Poročilo lahko vsebuje odčitke senzorjev, imena, identifikacijske številke naprav in zgodovino. Pred kopiranjem ali deljenjem podatkov si jih lahko ogledate spodaj.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'Različice EHW+ in Home Assistant';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'Navedite, kdaj so bili senzorji odkriti';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Trenutno stanje in vsi atributi';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Podrobnosti o subjektu in integraciji';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Podrobnosti o napravi';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'Vzorec zgodovine (48 ur, do 200 vnosov)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Urne statistike (7 dni)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Kopiraj poročilo o senzorju';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Ponovno naloži diagnostične podatke';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed =>
+      'Ni bilo mogoče naložiti. Ostali podatki so v poročilu še vedno na voljo.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'Podatki niso na voljo.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => 'Poročila ni bilo mogoče deliti. Namesto tega ga lahko kopirate.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Osveži senzorje';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Nalaganje senzorjev…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Senzorjev ni bilo mogoče naložiti. Preverite povezavo z Home Assistantjem in poskusite znova.';
+
+  @override
+  String get homeAssistantRetry => 'Poskusi še enkrat';
+
+  @override
+  String get homeAssistantSensorLinked => 'Povezano';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Ni povezave';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Povezani senzorji ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Drugi razpoložljivi senzorji ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'Merilnik EHW+: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Pri zadnjem iskanju ni bilo najdeno. Povezava je še vedno shranjena.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'Dodatnih senzorjev ni na voljo.';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'Povezave senzorja ni bilo mogoče spremeniti. Poskusite znova.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'Senzor je povezan, vendar podatkov o porabi ni bilo mogoče uvoziti. Preverite povezavo in poskusite sinhronizirati še enkrat.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Prekiniti povezavo z »$sensorName«? S tem se izbriše tudi njegov merilnik EHW+ in vrednosti, shranjene v tem merilniku.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Senzorji obremenitve';
 
   @override
@@ -2227,117 +2346,117 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return 'Vprašanje $step od 2';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'Hitro vprašanje';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'Skoraj smo tam';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'Ali imate digitalni električni števec?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'Preprosto se dotaknite števca, nameščenega v vašem domu.';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'Da, digitalno';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'Elektronski zaslon s številkami';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'Ne, analogno';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'Mehanski merilnik z vrtljivim diskom';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'Nasvet: Digitalni števci imajo zaslon s številkami in oznako »kWh« – brez vrtljivega diska.';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+  String get powerfoxSurveyAutomaticReadingsQuestion => 'Ali bi v prihodnje želeli prejemati odčitke števca samodejno?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'Odčitki vašega električnega števca se bodo nato prikazali neposredno v aplikaciji EHW+ – brez da bi jih morali odčitati ali vnašati ročno.';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'Da, samodejno';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'Pokaži mi, kako to deluje';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'Ne, hvala';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'Še naprej jih bom bral ročno';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'Konec mesečnega odčitavanja števcev';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'V odčitkih števcev ni tipkarskih napak';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'Poraba je v sistemu EHW+ vedno posodobljena';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '5 €\nPOPUST';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'Primeren za vaš digitalni merilnik';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'Izključno za stranke EHW+';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'Nikoli več ne boste morali odčitavati števca.';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription =>
+      'Naprava powerfox poweropti samodejno prenese odčitke vaših merilnikov v sistem EHW+.';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. Priključite na merilnik';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. Poveži se z Wi-Fi-jem';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. Meritve prispejo v sistem EHW+';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'Vaša koda za popust v višini 5 €';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'Kopiraj';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'Kopirano';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'Prihranite 5 € v trgovini Powerfox';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'Mogoče kasneje';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'Hvala za vaš odgovor!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'Odčitke števca lahko še naprej vnašate v sistem EHW+, kot ste to počeli doslej. Pravočasno vas bomo opozorili.';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'Zapri';
 
   @override
   String get updateNoticeDebugTitle => 'Obvestila o posodobitvah';
@@ -4745,21 +4864,23 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'Kupljeno';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle =>
+      'Ali naj se podatki iz oblaka uporabijo za usposabljanje sistemov za prepoznavanje slik?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'Aplikacija EHW+ lahko uporabi vaše sinhronizirane fotografije merilnikov za razvoj in usposabljanje sistema za prepoznavanje slik. Aplikacijo EHW+ Cloud lahko uporabljate tudi brez tega dovoljenja; v tem primeru se vaše sinhronizirane fotografije merilnikov ne bodo uporabljale za usposabljanje.';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'Aktiviraj brez dovoljenja';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Daj dovoljenje in aktiviraj';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel =>
+      'Dovoli uporabo fotografij števcev za usposabljanje umetne inteligence';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => 'To dovoljenje lahko kadarkoli spremenite za vsak objekt posebej.';
 }

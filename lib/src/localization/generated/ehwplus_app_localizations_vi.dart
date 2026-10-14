@@ -1642,6 +1642,129 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'Không phát hiện thấy giá trị thời gian thực nào cho cảm biến này.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Các cảm biến không được hỗ trợ';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'Hiện tại, các cảm biến này chưa thể được sử dụng để lấy dữ liệu tiêu thụ EHW+ trong quá khứ. Vui lòng mở rộng mục thông tin của một cảm biến để tải dữ liệu chẩn đoán và chia sẻ báo cáo với bộ phận hỗ trợ EHW+.';
+
+  @override
+  String get homeAssistantUnsupportedState =>
+      'Không có trạng thái số có thể sử dụng (ví dụ: không khả dụng hoặc không xác định).';
+
+  @override
+  String get homeAssistantUnsupportedUnit =>
+      'Đơn vị này không được hỗ trợ đối với hoạt động nhập khẩu hàng hóa tiêu dùng.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'Không thể gán loại cảm biến cho loại đồng hồ đo EHW+.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass =>
+      'Định dạng lớp tiểu bang hoặc định dạng đọc chỉ số đồng hồ không được hỗ trợ.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Các giá trị thời gian thực hoặc tức thời không thể được nhập vào dưới dạng dữ liệu tiêu thụ lịch sử.';
+
+  @override
+  String get homeAssistantUnsupportedHistory =>
+      'Không phát hiện thấy bất kỳ trường hợp sử dụng thuốc nào phù hợp trong tiền sử.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'Báo cáo có thể bao gồm các chỉ số cảm biến, tên, mã định danh thiết bị và lịch sử. Quý vị có thể xem xét các dữ liệu dưới đây trước khi sao chép hoặc chia sẻ chúng.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'Các phiên bản EHW+ và Home Assistant';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'Xin vui lòng nêu rõ thời điểm các cảm biến được phát hiện';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Trạng thái hiện tại và tất cả các thuộc tính';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Thông tin chi tiết về thực thể và tích hợp';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Thông tin chi tiết về thiết bị';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'Mẫu lịch sử (48 giờ, tối đa 200 mục)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Số liệu thống kê theo giờ (7 ngày)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Sao chép báo cáo cảm biến';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Tải lại dữ liệu chẩn đoán';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed => 'Không thể tải được. Các dữ liệu còn lại vẫn có sẵn trong báo cáo.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'Không có dữ liệu.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed =>
+      'Không thể chia sẻ báo cáo này. Thay vào đó, quý vị có thể sao chép báo cáo.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Làm mới cảm biến';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Đang tải các cảm biến…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Không thể tải các cảm biến. Vui lòng kiểm tra kết nối với Home Assistant và thử lại.';
+
+  @override
+  String get homeAssistantRetry => 'Hãy thử lại';
+
+  @override
+  String get homeAssistantSensorLinked => 'Liên kết';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Chưa được liên kết';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Các cảm biến được kết nối ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Các cảm biến khác hiện có ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'Đồng hồ EHW+: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Không tìm thấy trong lần tìm kiếm gần nhất. Liên kết vẫn được lưu lại.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'Không có cảm biến bổ sung nào.';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'Không thể thay đổi liên kết cảm biến. Vui lòng thử lại.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'Cảm biến đã được kết nối, nhưng không thể nhập dữ liệu tiêu thụ. Vui lòng kiểm tra kết nối và thử đồng bộ hóa lại.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Hủy liên kết “$sensorName”? Thao tác này cũng sẽ xóa đồng hồ EHW+ tương ứng cùng với các giá trị đo được lưu trữ trong đồng hồ đó.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Cảm biến tải';
 
   @override
@@ -2228,117 +2351,119 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return 'Câu hỏi thứ $step/2';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'Một câu hỏi ngắn';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'Sắp đến nơi rồi';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'Quý vị có sử dụng đồng hồ điện kỹ thuật số không?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'Quý vị chỉ cần chạm nhẹ vào đồng hồ đo được lắp đặt tại nhà.';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'Vâng, kỹ thuật số';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'Màn hình điện tử hiển thị các chữ số';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'Không, kiểu tương tự';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'Đồng hồ cơ có đĩa quay';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'Lưu ý: Đồng hồ điện tử có màn hình hiển thị các chữ số kèm nhãn “kWh” – không có đĩa quay.';
 
   @override
   String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+      'Trong tương lai, quý vị có muốn nhận số liệu đo đếm đồng hồ một cách tự động không?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'Sau đó, các chỉ số đồng hồ điện của quý vị sẽ hiển thị trực tiếp trên EHW+ – mà không cần phải đọc hay nhập tay.';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'Vâng, tự động';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'Xin vui lòng chỉ cho tôi cách thức hoạt động của nó';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'Không, cảm ơn';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'Tôi sẽ tiếp tục đọc chúng bằng tay';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'Không còn phải đọc chỉ số đồng hồ hàng tháng nữa';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'Không có lỗi đánh máy trong các số liệu đo đồng hồ';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption =>
+      'Thông tin về mức tiêu thụ luôn được cập nhật kịp thời trong EHW+';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => 'Giảm giá 5 €';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'Phù hợp với đồng hồ đo kỹ thuật số của quý vị';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'Dành riêng cho khách hàng EHW+';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'Quý vị sẽ không bao giờ phải kiểm tra đồng hồ đo nữa.';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription =>
+      'Thiết bị Powerfox Poweropti sẽ tự động chuyển các chỉ số đo đếm từ đồng hồ của quý vị sang hệ thống EHW+.';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. Gắn vào đồng hồ đo';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. Kết nối với Wi-Fi';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. Các kết quả đo được gửi đến EHW+';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'Mã giảm giá 5 € của quý vị';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'Sao chép';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'Đã sao chép';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'Tiết kiệm 5 € khi mua sắm tại cửa hàng Powerfox';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'Có lẽ để sau vậy';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'Xin cảm ơn quý vị đã trả lời!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'Quý vị có thể tiếp tục nhập số liệu đồng hồ đo vào EHW+ như bình thường. Chúng tôi sẽ nhắc nhở quý vị đúng thời hạn.';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'Đóng';
 
   @override
   String get updateNoticeDebugTitle => 'Thông báo cập nhật';
@@ -4749,21 +4874,21 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'Đã mua';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'Sử dụng dữ liệu trên đám mây để huấn luyện nhận diện hình ảnh?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+ có thể sử dụng các ảnh đồng hồ đo đã đồng bộ hóa của quý vị để phát triển và huấn luyện tính năng nhận diện hình ảnh. Quý vị cũng có thể sử dụng EHW+ Cloud mà không cần cấp quyền này; trong trường hợp đó, các ảnh đồng hồ đo đã đồng bộ hóa của quý vị sẽ không được sử dụng cho mục đích huấn luyện.';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'Kích hoạt mà không cần sự cho phép';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Cấp quyền và kích hoạt';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'Cho phép sử dụng ảnh đồng hồ đo để huấn luyện trí tuệ nhân tạo';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => 'Quý vị có thể thay đổi quyền này cho từng đối tượng bất cứ lúc nào.';
 }

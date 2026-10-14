@@ -1645,6 +1645,126 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'ဤဆင်ဆာတွင် တိုက်ရိုက်တန်ဖိုးများ မတွေ့ရှိခဲ့ပါ။';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'မထောက်ပံ့ထားသော စင်ဆာများ';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'ဤဆင်ဆာများကို လက်ရှိတွင် သမိုင်းဆိုင်ရာ EHW+ သုံးစွဲမှုဒေတာအတွက် အသုံးပြု၍ မရနိုင်ပါ။ ဆင်ဆာတစ်ခုကို တိုးချဲ့၍ ၎င်း၏ စစ်ဆေးမှုဒေတာကို တင်ပြီး EHW+ ထောက်ပံ့မှုအဖွဲ့နှင့် အစီရင်ခံစာကို မျှဝေပါ။';
+
+  @override
+  String get homeAssistantUnsupportedState =>
+      'အသုံးပြုနိုင်သော နံပါတ်ဆိုင်ရာ အခြေအနေ မရှိပါ (ဥပမာအားဖြင့် မရနိုင်ခြင်း သို့မဟုတ် မသိခြင်း)။';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'ဤယူနစ်ကို စားသုံးရန် တင်သွင်းခြင်းအတွက် မထောက်ပံ့ပါ။';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'ဆင်ဆာအမျိုးအစားကို EHW+ မီတာအမျိုးအစားအဖြစ် သတ်မှတ်၍ မရပါ။';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'ပြည်နယ်အဆင့် သို့မဟုတ် မီတာဖတ်ချက် ဖော်မတ်ကို မထောက်ပံ့ပါ။';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'တိုက်ရိုက် သို့မဟုတ် ချက်ချင်းတန်ဖိုးများကို သမိုင်းသုံး စားသုံးမှုအဖြစ် တင်သွင်း၍ မရပါ။';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'သမိုင်းမှတ်တမ်းတွင် သင့်တော်သော အတည်ပြု စားသုံးမှု မတွေ့ရှိခဲ့ပါ။';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'အစီရင်ခံစာတွင် စင်ဆာဖတ်ချက်များ၊ နာမည်များ၊ စက် ID များနှင့် သမိုင်းမှတ်တမ်းများ ပါဝင်နိုင်ပါသည်။ မိတ္တူကူးခြင်း သို့မဟုတ် မျှဝေခြင်းမပြုမီ အောက်ပါဒေတာကို ကြည့်ရှုနိုင်ပါသည်။';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+ နှင့် Home Assistant ဗားရှင်းများ';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'ဆင်ဆာများကို တွေ့ရှိခဲ့သည့် အချိန်ကို ဖော်ပြပါ။';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'လက်ရှိအခြေအနေနှင့် အင်္ဂါရပ်အားလုံး';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'အဖွဲ့အစည်းနှင့် ပေါင်းစည်းမှုအသေးစိတ်';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'ကိရိယာအသေးစိတ်';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'သမိုင်းနမူနာ (၄၈ နာရီ၊ မှတ်တမ်း ၂၀၀ အထိ)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'နာရီအလိုက် စာရင်းအချက်အလက်များ (၇ ရက်)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'ဆင်ဆာအစီရင်ခံစာကို ကူးယူပါ။';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'စစ်ဆေးဒေတာကို ပြန်လည်တင်ပါ။';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed =>
+      'တင်၍မရနိုင်ပါ။ အခြားဒေတာများကို အစီရင်ခံစာတွင် ဆက်လက်ရရှိနိုင်ပါသည်။';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'ဒေတာ မရရှိနိုင်ပါ။';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => 'အစီရင်ခံစာကို မမျှဝေနိုင်ပါ။ အစားထိုးကူးယူနိုင်ပါသည်။';
+
+  @override
+  String get homeAssistantRefreshSensors => 'ဆင်ဆာများကို ပြန်လည်အသစ်ပြုလုပ်ပါ။';
+
+  @override
+  String get homeAssistantSensorsLoading => 'ဆင်ဆာများ တင်နေပါသည်…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'ဆင်ဆာများကို တင်၍ မရနိုင်ပါ။ Home Assistant နှင့် ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ။';
+
+  @override
+  String get homeAssistantRetry => 'ထပ်ကြိုးစားပါ';
+
+  @override
+  String get homeAssistantSensorLinked => 'ချိတ်ဆက်ထားသည်';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'ချိတ်ဆက်ထားခြင်းမရှိပါ';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'ချိတ်ဆက်ထားသော အာရုံခံကိရိယာများ ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'အခြားရရှိနိုင်သည့် စင်ဆာများ ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+ မီတာ: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'နောက်ဆုံးရှာဖွေမှုတွင် မတွေ့ပါ။ လင့်ခ်ကို မဖျက်ထားသေးပါ။';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'ထပ်ဆောင်းဆင်ဆာ မရရှိနိုင်ပါ။';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'ဆင်ဆာလင့်ခ်ကို မပြောင်းလဲနိုင်ပါ။ ထပ်မံကြိုးစားပါ။';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'ဆင်ဆာကို ချိတ်ဆက်ထားသော်လည်း စားသုံးမှုဒေတာကို တင်သွင်း၍ မရပါ။ ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံညှိနှိုင်းကြည့်ပါ။';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return '$sensorName ကို ချိတ်ဆက်မှု ဖျက်မည်လား။ ဤလုပ်ဆောင်ချက်သည် ၎င်း၏ EHW+ မီတာနှင့် ထိုမီတာတွင် သိမ်းဆည်းထားသော တိုင်းတာချက်များအားလုံးကိုလည်း ဖျက်ပစ်မည်။';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'အလေးချိန်တိုင်းတာကိရိယာများ';
 
   @override
@@ -2233,117 +2353,118 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return 'မေးခွန်း $step၊ စုစုပေါင်း ၂ ခုမှ';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'မေးခွန်းတစ်ခုရှိတယ်';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'နီးပါးရောက်ပြီ';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'သင့်မှာ ဒစ်ဂျစ်တယ် လျှပ်စစ်မီတာ ရှိပါသလား။';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'သင့်အိမ်တွင် တပ်ဆင်ထားသော မီတာကို ရိုးရှင်းစွာ တစ်ချက်နှိပ်ပါ။';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'ဟုတ်ကဲ့၊ ဒစ်ဂျစ်တယ်';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'ဂဏန်းများပါသော အီလက်ထရွန်နစ် ပြသမှု';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'မဟုတ်ဘူး၊ အနာလိုဂ်';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'လှည့်ချပ်ပါသော စက်ပိုင်းဆိုင်ရာ မီတာ';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'အကြံဉာဏ်: ဒစ်ဂျစ်တယ်မီတာများတွင် ဂဏန်းများနှင့် \"kWh\" ဆိုသည့် အမှတ်အသားပါရှိသည့် ပြသမျက်နှာပြင်တစ်ခုရှိပြီး လှည့်နေသော ဒစ်စ်မပါပါ။';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+  String get powerfoxSurveyAutomaticReadingsQuestion => 'အနာဂတ်တွင် မီတာဖတ်ချက်များကို အလိုအလျောက် လက်ခံလိုပါသလား။';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'သင့်လျှပ်စစ်မီတာဖတ်ချက်များသည် ဖတ်ခြင်း သို့မဟုတ် ရိုက်ထည့်ခြင်းမပြုဘဲ တိုက်ရိုက်EHW+ တွင် ပေါ်လာမည်။';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'ဟုတ်ကဲ့၊ အလိုအလျောက်';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'ဒါ ဘယ်လို လည်ပတ်တာလဲ ပြပါ';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'မလိုပါဘူး၊ ကျေးဇူးတင်ပါတယ်။';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'ကျွန်ုပ်သည် ၎င်းတို့ကို လက်ဖြင့် ဆက်လက်ဖတ်သွားမည်။';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'လစဉ်မီတာဖတ်ခြင်း မရှိတော့ပါ';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'မီတာဖတ်ချက်များတွင် စာလုံးမှားယွင်းမှု မရှိပါ။';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption =>
+      'စားသုံးမှုကို အမြဲတမ်း EHW+ တွင် နောက်ဆုံးအခြေအနေအထိ သိရှိနိုင်ပါသည်။';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '€၅ လျှော့';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'သင့်ဒစ်ဂျစ်တယ်မီတာနှင့်ကိုက်ညီသည်။';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'EHW+ ဖောက်သည်များအတွက် အထူး';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'မီတာကို ထပ်မဖတ်ပါနဲ့။';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription =>
+      'Powerfox Poweropti သည် သင့်မီတာဖတ်ချက်များကို အလိုအလျောက် EHW+ သို့ ပို့ဆောင်ပေးသည်။';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '၁။ မီတာနှင့် ချိတ်ဆက်ပါ။';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '၂။ Wi-Fi ချိတ်ဆက်ပါ';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '၃။ ဖတ်စာများသည် EHW+ တွင် ရောက်ရှိပါသည်။';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'သင့်ကုဒ်ဖြင့် €5 လျှော့စျေး';
 
   @override
-  String get powerfoxOfferDiscountCode => 'EHW5';
+  String get powerfoxOfferDiscountCode => 'အီးအိပ်ဝူး၅';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'ကူးယူ';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'ကူးယူပြီးပါပြီ';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'powerfox ဆိုင်တွင် €5 သက်သာစေပါ။';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'နောက်မှဖြစ်နိုင်တယ်';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'သင့်ဖြေကြားချက်အတွက် ကျေးဇူးတင်ပါသည်။';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'EHW+ တွင် မီတာဖတ်ချက်များကို ယခင်ကဲ့သို့ ဆက်လက်ထည့်သွင်းနိုင်ပါသည်။ ကျွန်ုပ်တို့က အချိန်မီ သတိပေးပါမည်။';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'ပိတ်';
 
   @override
   String get updateNoticeDebugTitle => 'အပ်ဒိတ် အသိပေးချက်များ';
@@ -4750,21 +4871,22 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'ဝယ်ယူခဲ့သည်';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'ပုံရိပ်အသိမှတ်ပြုလေ့ကျင့်ရေးအတွက် cloud ဒေတာကို အသုံးပြုမလား?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+ သည် သင့်စင်ကွန်းထားသော မီတာဓာတ်ပုံများကို အသုံးပြုပြီး ပုံရိပ်အသိအမှတ်ပြုစနစ်ကို ဖွံ့ဖြိုးနှင့် လေ့ကျင့်နိုင်သည်။ သင်သည် ဤခွင့်ပြုချက်မပါဘဲလည်း EHW+ Cloud ကို အသုံးပြုနိုင်ပြီး၊ ထိုအခါ သင့်စင်ကွန်းထားသော မီတာဓာတ်ပုံများသည် လေ့ကျင့်ရေးအတွက် အသုံးမပြုတော့ပါ။';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'ခွင့်ပြုချက်မလိုဘဲ လှုပ်ရှားစေပါ။';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'ခွင့်ပြုပြီး ဖွင့်လှစ်ပါ';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'AI လေ့ကျင့်ရေးအတွက် မီတာဓာတ်ပုံများ ခွင့်ပြုပါ။';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint =>
+      'သင်သည် မည်သည့်အချိန်တွင်မဆို အရာဝတ္ထုတစ်ခုချင်းစီအတွက် ဤခွင့်ပြုချက်ကို ပြောင်းလဲနိုင်သည်။';
 }

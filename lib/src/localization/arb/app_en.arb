@@ -761,6 +761,69 @@
   "homeAssistantLiveMeasurementsConnecting": "Connecting to Home Assistant...",
   "homeAssistantLiveMeasurementsError": "Home Assistant live data could not be loaded.",
   "homeAssistantLiveMeasurementsNoData": "No live values were detected for this sensor.",
+  "homeAssistantUnsupportedSensors": "Unsupported sensors",
+  "homeAssistantUnsupportedSensorsDescription": "These sensors cannot currently be used for historical EHW+ consumption data. Expand a sensor to load its diagnostic data and share a report with EHW+ support.",
+  "homeAssistantUnsupportedState": "No usable numeric state (for example, unavailable or unknown).",
+  "homeAssistantUnsupportedUnit": "The unit is not supported for consumption imports.",
+  "homeAssistantUnsupportedDeviceClass": "The sensor type cannot be assigned to an EHW+ meter type.",
+  "homeAssistantUnsupportedStateClass": "The state class or meter reading format is not supported.",
+  "homeAssistantUnsupportedLiveValue": "Live or instantaneous values cannot be imported as historical consumption.",
+  "homeAssistantUnsupportedHistory": "No suitable positive consumption was found in the history.",
+  "homeAssistantDiagnosticsDescription": "The report may contain sensor readings, names, device IDs, and history. You can review the data below before copying or sharing it.",
+  "homeAssistantDiagnosticsEnvironment": "EHW+ and Home Assistant versions",
+  "homeAssistantDiagnosticsDiscoveryState": "State when sensors were discovered",
+  "homeAssistantDiagnosticsState": "Current state and all attributes",
+  "homeAssistantDiagnosticsEntity": "Entity and integration details",
+  "homeAssistantDiagnosticsDevice": "Device details",
+  "homeAssistantDiagnosticsHistory": "History sample (48 hours, up to 200 entries)",
+  "homeAssistantDiagnosticsStatistics": "Hourly statistics (7 days)",
+  "homeAssistantDiagnosticsCopy": "Copy sensor report",
+  "homeAssistantDiagnosticsReload": "Reload diagnostic data",
+  "homeAssistantDiagnosticsLoadFailed": "Could not be loaded. The other data remains available in the report.",
+  "homeAssistantDiagnosticsNotAvailable": "No data available.",
+  "homeAssistantDiagnosticsShareFailed": "The report could not be shared. You can copy it instead.",
+  "homeAssistantRefreshSensors": "Refresh sensors",
+  "homeAssistantSensorsLoading": "Loading sensors…",
+  "homeAssistantSensorsLoadFailed": "Sensors could not be loaded. Check the connection to Home Assistant and try again.",
+  "homeAssistantRetry": "Try again",
+  "homeAssistantSensorLinked": "Linked",
+  "homeAssistantSensorNotLinked": "Not linked",
+  "homeAssistantLinkedSensors": "Linked sensors ({count})",
+  "@homeAssistantLinkedSensors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeAssistantAvailableSensors": "Other available sensors ({count})",
+  "@homeAssistantAvailableSensors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeAssistantLinkedCounter": "EHW+ meter: {counterName}",
+  "@homeAssistantLinkedCounter": {
+    "placeholders": {
+      "counterName": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAssistantSensorNotFound": "Not found in the last search. The link is still saved.",
+  "homeAssistantNoAdditionalSensors": "No additional sensors available.",
+  "homeAssistantSensorActionFailed": "The sensor link could not be changed. Please try again.",
+  "homeAssistantSensorImportFailed": "The sensor is linked, but consumption data could not be imported. Check the connection and try syncing again.",
+  "homeAssistantUnlinkConfirmation": "Unlink \"{sensorName}\"? This also deletes its EHW+ meter and the readings stored in that meter.",
+  "@homeAssistantUnlinkConfirmation": {
+    "placeholders": {
+      "sensorName": {
+        "type": "String"
+      }
+    }
+  },
   "homeAssistantLoadSensors": "Load sensors",
   "homeAssistantLocalUrlWarning": "This looks like a local URL. Synchronization is only attempted while the device is connected to the local network.",
   "homeAssistantNoDefaultActivity": "No default activity",
@@ -777,7 +840,7 @@
   "homeAssistantTitle": "Home Assistant",
   "homeAssistantTokenTest": "Test token",
   "homeAssistantUnknownInstance": "Unknown instance",
-  "homeAssistantUnlink": "Unlink",
+  "homeAssistantUnlink": "Unlink sensor",
   "homeAssistantUrlInvalid": "Please enter a valid Home Assistant URL.",
   "homeAssistantUrlLabel": "Home Assistant URL",
   "homeAssistantUrlRequired": "Please enter the Home Assistant URL.",

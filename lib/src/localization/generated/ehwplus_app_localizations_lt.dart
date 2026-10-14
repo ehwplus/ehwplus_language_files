@@ -1641,6 +1641,125 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'Šio jutiklio tiesioginių verčių neaptikta.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Nepalaikomi jutikliai';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'Šiuo metu šių jutiklių negalima naudoti istoriniams „EHW+“ suvartojimo duomenims gauti. Išskleiskite jutiklio informaciją, kad įkeltumėte jo diagnostinius duomenis, ir atsiųskite ataskaitą „EHW+“ techninės pagalbos tarnybai.';
+
+  @override
+  String get homeAssistantUnsupportedState => 'Nėra tinkamo skaitmeninio būvio (pavyzdžiui, nėra arba nežinomas).';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'Ši vienetų matavimo sistema netaikoma vartojimo importui.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'EHW+ tipo skaitikliui negalima priskirti jutiklio tipo.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'Valstijos klasė arba skaitiklio rodmenų formatas nepalaikomas.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Realiųjų arba momentinių verčių negalima importuoti kaip istorinių suvartojimo duomenų.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'Anamnezėje nebuvo nustatyta jokių tinkamų teigiamų vartojimo atvejų.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'Ataskaitoje gali būti pateikti jutiklių rodmenys, vardai, įrenginių identifikatoriai ir istorija. Prieš kopijuodami ar dalindamiesi duomenimis, galite juos peržiūrėti žemiau.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => '„EHW+“ ir „Home Assistant“ versijos';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'Nurodykite, kada buvo aptikti jutikliai';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Dabartinė būsena ir visi atributai';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Duomenų subjekto ir integracijos duomenys';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Įrenginio duomenys';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'Istorijos pavyzdys (48 valandos, iki 200 įrašų)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Statistika pagal valandas (7 dienos)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Kopijuoti jutiklio ataskaitą';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Atnaujinti diagnostinius duomenis';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed => 'Nepavyko įkelti. Kiti duomenys ataskaitoje tebėra prieinami.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'Duomenų nėra.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed =>
+      'Ataskaitos nebuvo galima pasidalinti. Vietoj to galite ją nukopijuoti.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Atnaujinti jutiklius';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Įkeliami jutikliai…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Nepavyko įkelti jutiklių. Patikrinkite ryšį su „Home Assistant“ ir pabandykite dar kartą.';
+
+  @override
+  String get homeAssistantRetry => 'Pabandykite dar kartą';
+
+  @override
+  String get homeAssistantSensorLinked => 'Susiję';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Nesusiję';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Prijungti jutikliai ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Kiti galimi jutikliai ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+ skaitiklis: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Nerasta paskutinio paieškos metu. Nuoroda vis dar išsaugota.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'Papildomų jutiklių nėra.';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'Nepavyko pakeisti jutiklio nuorodos. Prašome bandyti dar kartą.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'Jutiklis prijungtas, tačiau nepavyko importuoti suvartojimo duomenų. Patikrinkite ryšį ir pabandykite sinchronizuoti dar kartą.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Atjungti „$sensorName“? Tai taip pat ištrins jo EHW+ skaitiklį ir jame saugomus rodmenis.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Krovinio jutikliai';
 
   @override
@@ -2229,117 +2348,118 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return '$step-asis klausimas iš 2';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'Trumpas klausimas';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'Jau beveik pasiekėme tikslą';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'Ar turite skaitmeninį elektros skaitiklį?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'Tiesiog palieskite jūsų namuose įrengtą skaitiklį.';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'Taip, skaitmeninis';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'Elektroninis ekranas su skaitmenimis';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'Ne, analoginis';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'Mechaninis skaitiklis su besisukančiu disku';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'Patarimas: Skaitmeniniai skaitikliai turi ekraną su skaitmenimis ir užrašu „kWh“ – be besisukančio disko.';
 
   @override
   String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+      'Ar norėtumėte, kad ateityje jūsų skaitiklių rodmenys būtų siunčiami automatiškai?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'Tuomet jūsų elektros skaitiklio rodmenys bus rodomi tiesiogiai „EHW+“ sistemoje – nereikės jų nuskaityti ar įvesti rankiniu būdu.';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'Taip, automatiškai';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'Parodyk man, kaip tai veikia';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'Ne, ačiū';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'Aš ir toliau juos skaitysiu rankiniu būdu';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'Nebereikės kas mėnesį skaityti skaitiklių rodmenų';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'Matuoklių rodmenyse nėra spausdinimo klaidų';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'EHW+ sistemoje suvartojimo duomenys visada atnaujinami';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '5 €\nNUOLAIDA';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'Tinka jūsų skaitmeniniam matuokliui';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'Išskirtinis pasiūlymas „EHW+“ klientams';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'Jums daugiau niekada nereikės tikrinti skaitiklio rodmenų.';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription =>
+      '„Powerfox Poweropti“ automatiškai perduoda jūsų skaitiklių rodmenis į „EHW+“.';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. Prijunkite prie skaitiklio';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. Prisijunkite prie „Wi-Fi“';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. Duomenys patenka į „EHW+“';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'Jūsų kodas, suteikiantis 5 eurų nuolaidą';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'Kopijuoti';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'Nukopijuota';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'Sutaupykite 5 € „Powerfox“ parduotuvėje';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'Gal vėliau';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'Ačiū už atsakymą!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'Galite toliau įvesti skaitiklių rodmenis į „EHW+“ kaip įprasta. Mes jums laiku priminsime.';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'Uždaryti';
 
   @override
   String get updateNoticeDebugTitle => 'Pranešimai apie atnaujinimus';
@@ -4757,21 +4877,22 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'Įsigyta';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'Ar naudoti debesų duomenis vaizdų atpažinimo mokymui?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      '„EHW+“ gali naudoti jūsų sinchronizuotas skaitiklio nuotraukas vaizdų atpažinimo funkcijos tobulinimui ir mokymui. Taip pat galite naudotis „EHW+ Cloud“ be šio leidimo; tokiu atveju jūsų sinchronizuotos skaitiklio nuotraukos nebus naudojamos mokymui.';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'Įjungti be leidimo';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Suteikite leidimą ir įjunkite';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'Leisti naudoti skaitiklių nuotraukas dirbtinio intelekto mokymui';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint =>
+      'Šią teisę galite bet kuriuo metu pakeisti kiekvienam objektui atskirai.';
 }

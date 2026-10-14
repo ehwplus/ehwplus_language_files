@@ -1641,6 +1641,128 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'Für diesen Sensor wurden keine Live-Werte erkannt.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Nicht unterstützte Sensoren';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'Diese Sensoren können derzeit nicht für historische EHW+ Verbräuche verwendet werden. Klappen Sie einen Sensor auf, um seine Diagnosedaten zu laden und einen Bericht an den EHW+ Support weiterzugeben.';
+
+  @override
+  String get homeAssistantUnsupportedState => 'Kein nutzbarer Zahlenwert, zum Beispiel „unavailable“ oder „unknown“.';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'Die Einheit wird für den Verbrauchsimport nicht unterstützt.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'Der Sensortyp lässt sich keinem EHW+ Zählertyp zuordnen.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass =>
+      'Die Zustandsklasse oder das Zählerstandsformat wird nicht unterstützt.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Live- oder Momentanwerte können nicht als historische Verbräuche importiert werden.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'Im Verlauf wurde kein geeigneter positiver Verbrauch gefunden.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'Der Bericht enthält eventuell Sensorwerte, Namen, Gerätekennungen und eine Verläufe. Sie können die Daten unten prüfen, bevor Sie sie kopieren oder teilen.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+ und Home-Assistant-Versionen';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'Zustand bei der Sensorsuche';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Aktueller Zustand und alle Attribute';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Entitäts- und Integrationsdetails';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Gerätedetails';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'Verlaufsprobe (48 Stunden, bis zu 200 Einträge)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Stündliche Statistiken (7 Tage)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Sensorbericht kopieren';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Diagnosedaten erneut laden';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed =>
+      'Konnte nicht geladen werden. Die übrigen Daten bleiben im Bericht verfügbar.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'Keine Daten verfügbar.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed =>
+      'Der Bericht konnte nicht geteilt werden. Sie können ihn stattdessen kopieren.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Sensoren aktualisieren';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Sensoren werden geladen …';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Sensoren konnten nicht geladen werden. Prüfen Sie die Verbindung zu Home Assistant und versuchen Sie es erneut.';
+
+  @override
+  String get homeAssistantRetry => 'Erneut versuchen';
+
+  @override
+  String get homeAssistantSensorLinked => 'Verknüpft';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Nicht verknüpft';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Verknüpfte Sensoren ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Weitere verfügbare Sensoren ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'EHW+ Zähler: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Bei der letzten Suche nicht gefunden. Die Verknüpfung bleibt gespeichert.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'Keine weiteren Sensoren verfügbar.';
+
+  @override
+  String get homeAssistantSensorActionFailed =>
+      'Die Sensorverknüpfung konnte nicht geändert werden. Bitte versuchen Sie es erneut.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'Der Sensor ist verknüpft, aber die Verbrauchsdaten konnten nicht importiert werden. Prüfen Sie die Verbindung und versuchen Sie die Synchronisierung erneut.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Verknüpfung von „$sensorName“ lösen? Dabei werden auch der zugehörige EHW+ Zähler und dessen gespeicherte Zählerstände gelöscht.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Sensoren laden';
 
   @override
@@ -1694,7 +1816,7 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get homeAssistantUnknownInstance => 'Unbekannte Instanz';
 
   @override
-  String get homeAssistantUnlink => 'Entknüpfen';
+  String get homeAssistantUnlink => 'Verknüpfung lösen';
 
   @override
   String get homeAssistantUrlInvalid => 'Bitte geben Sie eine gültige Home Assistant URL ein.';

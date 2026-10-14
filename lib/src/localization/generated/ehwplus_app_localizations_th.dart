@@ -1632,6 +1632,124 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'ไม่พบค่าที่วัดได้ในเซ็นเซอร์นี้';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'เซ็นเซอร์ที่ไม่ได้รับการสนับสนุน';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'เซ็นเซอร์เหล่านี้ยังไม่สามารถใช้กับข้อมูลการบริโภคEHW+ในอดีตได้ โปรดขยายเซ็นเซอร์เพื่อโหลดข้อมูลวินิจฉัยและส่งรายงานให้ทีมสนับสนุนEHW+';
+
+  @override
+  String get homeAssistantUnsupportedState => 'ไม่มีสถานะตัวเลขที่สามารถใช้ได้ (เช่น ไม่สามารถใช้งานได้ หรือไม่ทราบ)';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'หน่วยนี้ไม่รองรับการนำเข้าเพื่อการบริโภค';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'ไม่สามารถกำหนดประเภทเซ็นเซอร์ให้กับประเภทเครื่องวัดEHW+ ได้';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'รูปแบบการอ่านค่ามิเตอร์หรือระดับสถานะไม่ได้รับการสนับสนุน';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'ค่าการใช้จริงหรือค่าแบบทันทีไม่สามารถนำเข้ามาใช้เป็นข้อมูลการใช้ในอดีตได้';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'ไม่พบประวัติการบริโภคที่เหมาะสมในประวัติการรักษา';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'รายงานนี้อาจประกอบด้วยข้อมูลการอ่านจากเซ็นเซอร์ ชื่อ รหัสประจำตัวอุปกรณ์ และประวัติการใช้งาน คุณสามารถตรวจสอบข้อมูลด้านล่างก่อนที่จะคัดลอกหรือแชร์ข้อมูลดังกล่าว';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'EHW+ และเวอร์ชัน Home Assistant';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'ระบุช่วงเวลาที่เซ็นเซอร์ถูกค้นพบ';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'สถานะปัจจุบันและคุณสมบัติทั้งหมด';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'รายละเอียดเกี่ยวกับองค์กรและการบูรณาการ';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'รายละเอียดอุปกรณ์';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'ตัวอย่างประวัติ (48 ชั่วโมง, สูงสุด 200 รายการ)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'ข้อมูลสถิติตามชั่วโมง (7 วัน)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'คัดลอกรายงานเซ็นเซอร์';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'โหลดข้อมูลวินิจฉัยใหม่';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed => 'ไม่สามารถโหลดได้ แต่ข้อมูลอื่น ๆ ในรายงานยังคงสามารถใช้งานได้';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'ไม่มีข้อมูล';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed => 'ไม่สามารถแชร์รายงานนี้ได้ แต่คุณสามารถคัดลอกรายงานได้แทน';
+
+  @override
+  String get homeAssistantRefreshSensors => 'รีเฟรชเซ็นเซอร์';
+
+  @override
+  String get homeAssistantSensorsLoading => 'กำลังโหลดเซ็นเซอร์…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'ไม่สามารถโหลดเซ็นเซอร์ได้ โปรดตรวจสอบการเชื่อมต่อกับHome Assistant แล้วลองอีกครั้ง';
+
+  @override
+  String get homeAssistantRetry => 'ลองอีกครั้ง';
+
+  @override
+  String get homeAssistantSensorLinked => 'ลิงก์';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'ไม่มีความเกี่ยวข้อง';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'เซ็นเซอร์ที่เชื่อมต่อ ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'เซ็นเซอร์อื่น ๆ ที่มีอยู่ ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'มิเตอร์ EHW+: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'ไม่พบในการค้นหาครั้งล่าสุด แต่ลิงก์ยังคงถูกเก็บไว้';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'ไม่มีเซ็นเซอร์เพิ่มเติม';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'ไม่สามารถเปลี่ยนการเชื่อมต่อเซ็นเซอร์ได้ โปรดลองอีกครั้ง';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'เซ็นเซอร์ได้เชื่อมต่อแล้ว แต่ไม่สามารถนำเข้าข้อมูลการบริโภคได้ โปรดตรวจสอบการเชื่อมต่อและลองซิงค์ใหม่';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'ยกเลิกการเชื่อมโยง \"$sensorName\"? การทำเช่นนี้จะลบมิเตอร์ EHW+ ของมันและข้อมูลการวัดที่เก็บไว้ในมิเตอร์นั้นด้วย';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'เซ็นเซอร์วัดแรงโหลด';
 
   @override
@@ -2219,117 +2337,116 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return 'คำถาม$step ในทั้งหมด 2 ข้อ';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'คำถามสั้นๆ';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'ใกล้ถึงแล้ว';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'คุณมีมิเตอร์ไฟฟ้าแบบดิจิทัลหรือไม่?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'เพียงแตะที่มิเตอร์ที่ติดตั้งไว้ที่บ้านของคุณ';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'ใช่, ดิจิทัล';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'หน้าจอแสดงผลอิเล็กทรอนิกส์ที่มีตัวเลข';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'ไม่, แบบอนาล็อก';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'มิเตอร์แบบกลไกที่มีแผ่นหมุน';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'เคล็ดลับ: มิเตอร์ดิจิทัลมีหน้าจอแสดงผลด้วยตัวเลขและป้ายกำกับ “kWh” – โดยไม่มีแผ่นหมุน';
 
   @override
-  String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+  String get powerfoxSurveyAutomaticReadingsQuestion => 'คุณต้องการรับข้อมูลการวัดมิเตอร์แบบอัตโนมัติในอนาคตหรือไม่?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'ค่าการอ่านมิเตอร์ไฟฟ้าของคุณจะปรากฏขึ้นโดยตรงในEHW+ – โดยไม่ต้องอ่านหรือป้อนข้อมูลด้วยตนเอง';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'ใช่ครับ, โดยอัตโนมัติ';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'แสดงให้ฉันดูว่ามันทำงานอย่างไร';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'ไม่ครับ ขอบคุณ';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'ผมจะยังคงอ่านพวกนั้นด้วยมือต่อไป';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'ไม่ต้องอ่านมิเตอร์ทุกเดือนอีกต่อไป';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'ไม่มีความผิดพลาดในการพิมพ์ค่าการอ่านมิเตอร์';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'ข้อมูลการบริโภคในEHW+ จะอัปเดตอยู่เสมอ';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => '5 ยูโร\nลดราคา';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'เหมาะกับเครื่องวัดดิจิทัลของคุณ';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'เฉพาะสำหรับลูกค้าEHW+';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'ไม่ต้องอ่านมิเตอร์อีกเลย';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription => 'Powerfox Poweropti จะส่งข้อมูลการอ่านมิเตอร์ของคุณไปยังEHW+ โดยอัตโนมัติ';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. ต่อกับเครื่องวัด';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. เชื่อมต่อ Wi-Fi';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. บทความที่อ่านจะปรากฏในEHW+';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'รหัสของคุณเพื่อรับส่วนลด 5 ยูโร';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'คัดลอก';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'คัดลอกแล้ว';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'ประหยัด €5 ที่ร้าน Powerfox';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'ไว้ทีหลังก็ได้';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'ขอบคุณสำหรับคำตอบของคุณ!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'คุณสามารถ继续บันทึกค่ามิเตอร์ในEHW+ ได้ตามปกติ เราจะแจ้งเตือนคุณล่วงหน้า';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'ปิด';
 
   @override
   String get updateNoticeDebugTitle => 'ประกาศอัปเดต';
@@ -4726,21 +4843,21 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'ซื้อแล้ว';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'ใช้ข้อมูลจากคลาวด์ในการฝึกอบรมระบบการจดจำภาพได้หรือไม่?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+ สามารถใช้ภาพถ่ายมิเตอร์ที่ซิงค์ไว้ของคุณเพื่อพัฒนาและฝึกฝนระบบการจดจำภาพได้ คุณยังสามารถใช้ EHW+ Cloud ได้โดยไม่ต้องให้สิทธิ์นี้ โดยภาพถ่ายมิเตอร์ที่ซิงค์ไว้ของคุณจะไม่ถูกนำไปใช้ในการฝึกฝน';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'เปิดใช้งานโดยไม่ได้รับอนุญาต';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'ให้สิทธิ์และเปิดใช้งาน';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'อนุญาตให้ใช้ภาพจากมิเตอร์เพื่อฝึก AI';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => 'คุณสามารถปรับเปลี่ยนสิทธิ์นี้สำหรับแต่ละวัตถุได้ทุกเมื่อ';
 }

@@ -1636,6 +1636,126 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get homeAssistantLiveMeasurementsNoData => 'Hakuna thamani za moja kwa moja zilizogunduliwa kwa kihisi hiki.';
 
   @override
+  String get homeAssistantUnsupportedSensors => 'Sensori zisizotumika';
+
+  @override
+  String get homeAssistantUnsupportedSensorsDescription =>
+      'Sensor hizi kwa sasa haziwezi kutumika kwa data ya matumizi ya kihistoria ya EHW+. Panua sensor ili kupakia data zake za uchunguzi na kushiriki ripoti na msaada wa EHW+.';
+
+  @override
+  String get homeAssistantUnsupportedState =>
+      'Hakuna hali ya nambari inayoweza kutumika (kwa mfano, haipatikani au haijulikani).';
+
+  @override
+  String get homeAssistantUnsupportedUnit => 'Kitengo hiki hakitumiwi kwa uagizaji wa bidhaa kwa matumizi.';
+
+  @override
+  String get homeAssistantUnsupportedDeviceClass => 'Aina ya sensa haiwezi kuteuliwa kwa aina ya kipima chaEHW+.';
+
+  @override
+  String get homeAssistantUnsupportedStateClass => 'Muundo wa daraja la jimbo au usomaji wa mita hautaungwa mkono.';
+
+  @override
+  String get homeAssistantUnsupportedLiveValue =>
+      'Thamani za moja kwa moja au za papo hapo haziwezi kuingizwa kama matumizi ya kihistoria.';
+
+  @override
+  String get homeAssistantUnsupportedHistory => 'Hakuna matumizi chanya yanayofaa yaliyopatikana katika historia.';
+
+  @override
+  String get homeAssistantDiagnosticsDescription =>
+      'Ripoti inaweza kuwa na usomaji wa sensa, majina, vitambulisho vya vifaa, na historia. Unaweza kupitia data hapa chini kabla ya kuiga au kushiriki.';
+
+  @override
+  String get homeAssistantDiagnosticsEnvironment => 'Toleo za EHW+ na Home Assistant';
+
+  @override
+  String get homeAssistantDiagnosticsDiscoveryState => 'Taja wakati sensa zilipogunduliwa';
+
+  @override
+  String get homeAssistantDiagnosticsState => 'Hali ya sasa na sifa zote';
+
+  @override
+  String get homeAssistantDiagnosticsEntity => 'Maelezo ya kitu na ujumuishaji';
+
+  @override
+  String get homeAssistantDiagnosticsDevice => 'Maelezo ya kifaa';
+
+  @override
+  String get homeAssistantDiagnosticsHistory => 'Mfano wa historia (saa 48, hadi maingizo 200)';
+
+  @override
+  String get homeAssistantDiagnosticsStatistics => 'Takwimu za kila saa (siku 7)';
+
+  @override
+  String get homeAssistantDiagnosticsCopy => 'Nakili ripoti ya kihisi';
+
+  @override
+  String get homeAssistantDiagnosticsReload => 'Pakia tena data za utambuzi';
+
+  @override
+  String get homeAssistantDiagnosticsLoadFailed => 'Haikuweza kupakiwa. Data nyingine bado inapatikana katika ripoti.';
+
+  @override
+  String get homeAssistantDiagnosticsNotAvailable => 'Hakuna data inayopatikana.';
+
+  @override
+  String get homeAssistantDiagnosticsShareFailed =>
+      'Ripoti haikuweza kushirikiwa. Unaweza kuiga nakala yake badala yake.';
+
+  @override
+  String get homeAssistantRefreshSensors => 'Boresha sensa';
+
+  @override
+  String get homeAssistantSensorsLoading => 'Inapakia sensa…';
+
+  @override
+  String get homeAssistantSensorsLoadFailed =>
+      'Vihisi havikuweza kupakiwa. Angalia muunganisho na Home Assistant na jaribu tena.';
+
+  @override
+  String get homeAssistantRetry => 'Jaribu tena';
+
+  @override
+  String get homeAssistantSensorLinked => 'Imeunganishwa';
+
+  @override
+  String get homeAssistantSensorNotLinked => 'Haijaunganishwa';
+
+  @override
+  String homeAssistantLinkedSensors(int count) {
+    return 'Sensori zilizounganishwa ($count)';
+  }
+
+  @override
+  String homeAssistantAvailableSensors(int count) {
+    return 'Sensori nyingine zinazopatikana ($count)';
+  }
+
+  @override
+  String homeAssistantLinkedCounter(String counterName) {
+    return 'Mita ya EHW+: $counterName';
+  }
+
+  @override
+  String get homeAssistantSensorNotFound => 'Haikupatikana katika utafutaji wa mwisho. Kiungo bado kimehifadhiwa.';
+
+  @override
+  String get homeAssistantNoAdditionalSensors => 'Hakuna sensa za ziada zinazopatikana.';
+
+  @override
+  String get homeAssistantSensorActionFailed => 'Kiungo cha kihisi hakikuweza kubadilishwa. Tafadhali jaribu tena.';
+
+  @override
+  String get homeAssistantSensorImportFailed =>
+      'Sensor imeunganishwa, lakini data ya matumizi haikuweza kuingizwa. Angalia muunganisho na jaribu kusawazisha tena.';
+
+  @override
+  String homeAssistantUnlinkConfirmation(String sensorName) {
+    return 'Kuondoa uunganisho wa \"$sensorName\"? Hii pia inaondoa mita yake ya EHW+ na usomaji uliohifadhiwa katika mita hiyo.';
+  }
+
+  @override
   String get homeAssistantLoadSensors => 'Vihisi vya mzigo';
 
   @override
@@ -2223,117 +2343,117 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String powerfoxSurveyStep(int step) {
-    return 'Question $step of 2';
+    return 'Swali $step kati ya 2';
   }
 
   @override
-  String get powerfoxSurveyShortQuestion => 'Quick question';
+  String get powerfoxSurveyShortQuestion => 'Swali fupi';
 
   @override
-  String get powerfoxSurveyAlmostDone => 'Almost there';
+  String get powerfoxSurveyAlmostDone => 'Karibu umefika';
 
   @override
-  String get powerfoxSurveyDigitalMeterQuestion => 'Do you have a digital electricity meter?';
+  String get powerfoxSurveyDigitalMeterQuestion => 'Je, una mita ya umeme ya kidijitali?';
 
   @override
-  String get powerfoxSurveyDigitalMeterDescription => 'Simply tap the meter installed at your home.';
+  String get powerfoxSurveyDigitalMeterDescription => 'Bonyeza tu mita iliyowekwa nyumbani kwako.';
 
   @override
-  String get powerfoxSurveyDigitalOptionTitle => 'Yes, digital';
+  String get powerfoxSurveyDigitalOptionTitle => 'Ndio, kidijitali';
 
   @override
-  String get powerfoxSurveyDigitalOptionDescription => 'Electronic display with digits';
+  String get powerfoxSurveyDigitalOptionDescription => 'Onyesho la kielektroniki lenye tarakimu';
 
   @override
-  String get powerfoxSurveyAnalogOptionTitle => 'No, analogue';
+  String get powerfoxSurveyAnalogOptionTitle => 'Hapana, analojia';
 
   @override
-  String get powerfoxSurveyAnalogOptionDescription => 'Mechanical meter with a rotating disc';
+  String get powerfoxSurveyAnalogOptionDescription => 'Mita ya mitambo yenye diski inayozunguka';
 
   @override
   String get powerfoxSurveyDigitalMeterTip =>
-      'Tip: Digital meters have a display with digits and the label “kWh” – without a rotating disc.';
+      'Dokezo: Mitambo ya kidijitali ina onyesho lenye tarakimu na lebo \"kWh\" – bila diski inayozunguka.';
 
   @override
   String get powerfoxSurveyAutomaticReadingsQuestion =>
-      'Would you like to receive your meter readings automatically in the future?';
+      'Je, ungependa kupokea usomaji wa mita yako kiotomatiki siku zijazo?';
 
   @override
   String get powerfoxSurveyAutomaticReadingsDescription =>
-      'Your electricity meter readings will then appear directly in EHW+ – without reading or typing them in.';
+      'Soma mita yako ya umeme kisha itaonekana moja kwa moja katika EHW+ – bila kusoma au kuandika.';
 
   @override
-  String get powerfoxSurveyAutomaticOptionTitle => 'Yes, automatically';
+  String get powerfoxSurveyAutomaticOptionTitle => 'Ndio, kiotomatiki';
 
   @override
-  String get powerfoxSurveyAutomaticOptionDescription => 'Show me how it works';
+  String get powerfoxSurveyAutomaticOptionDescription => 'Nionyeshe jinsi inavyofanya kazi';
 
   @override
-  String get powerfoxSurveyManualOptionTitle => 'No, thanks';
+  String get powerfoxSurveyManualOptionTitle => 'Hapana, asante';
 
   @override
-  String get powerfoxSurveyManualOptionDescription => 'I will continue reading them manually';
+  String get powerfoxSurveyManualOptionDescription => 'Nitaendelea kuzisoma kwa mkono.';
 
   @override
-  String get powerfoxSurveyBenefitNoMonthlyReading => 'No more monthly meter reading';
+  String get powerfoxSurveyBenefitNoMonthlyReading => 'Hakuna tena usomaji wa mita wa kila mwezi';
 
   @override
-  String get powerfoxSurveyBenefitNoTypos => 'No typing errors in meter readings';
+  String get powerfoxSurveyBenefitNoTypos => 'Hakuna makosa ya uandishi katika usomaji wa mita';
 
   @override
-  String get powerfoxSurveyBenefitCurrentConsumption => 'Consumption always up to date in EHW+';
+  String get powerfoxSurveyBenefitCurrentConsumption => 'Matumizi daima yako sasisho katika EHW+';
 
   @override
-  String get powerfoxOfferDiscountBadge => '€5\nOFF';
+  String get powerfoxOfferDiscountBadge => 'Punguzo la €5';
 
   @override
-  String get powerfoxOfferCompatibility => 'Fits your digital meter';
+  String get powerfoxOfferCompatibility => 'Inalingana na mita yako ya kidijitali';
 
   @override
-  String get powerfoxOfferEyebrow => 'Exclusive for EHW+ customers';
+  String get powerfoxOfferEyebrow => 'Kwa wateja wa EHW+ pekee';
 
   @override
-  String get powerfoxOfferTitle => 'Never read your meter again.';
+  String get powerfoxOfferTitle => 'Usisome tena mita yako.';
 
   @override
-  String get powerfoxOfferDescription => 'The powerfox poweropti automatically transfers your meter readings to EHW+.';
+  String get powerfoxOfferDescription => 'Powerfox Poweropti huhamisha kiotomatiki usomaji wa mita yako kwEHW+.';
 
   @override
-  String get powerfoxOfferStepPlace => '1. Attach to meter';
+  String get powerfoxOfferStepPlace => '1. Unganisha kwenye mita';
 
   @override
-  String get powerfoxOfferStepWifi => '2. Connect to Wi-Fi';
+  String get powerfoxOfferStepWifi => '2. Unganisha kwenye Wi-Fi';
 
   @override
-  String get powerfoxOfferStepReadings => '3. Readings arrive in EHW+';
+  String get powerfoxOfferStepReadings => '3. Masomo yanawasili katika EHW+';
 
   @override
-  String get powerfoxOfferCodeTitle => 'Your code for €5 off';
+  String get powerfoxOfferCodeTitle => 'Kodi yako ya punguzo la €5';
 
   @override
   String get powerfoxOfferDiscountCode => 'EHW5';
 
   @override
-  String get powerfoxOfferCodeCopy => 'Copy';
+  String get powerfoxOfferCodeCopy => 'Nakili';
 
   @override
-  String get powerfoxOfferCodeCopied => 'Copied';
+  String get powerfoxOfferCodeCopied => 'Ime nakiliwa';
 
   @override
-  String get powerfoxOfferShopAction => 'Save €5 in the powerfox shop';
+  String get powerfoxOfferShopAction => 'Okoa €5 katika duka la powerfox';
 
   @override
-  String get powerfoxOfferLater => 'Maybe later';
+  String get powerfoxOfferLater => 'Labda baadaye';
 
   @override
-  String get powerfoxSurveyConfirmationTitle => 'Thank you for your answer!';
+  String get powerfoxSurveyConfirmationTitle => 'Asante kwa jibu lako!';
 
   @override
   String get powerfoxSurveyConfirmationDescription =>
-      'You can continue entering your meter readings in EHW+ as usual. We will remind you in time.';
+      'Unaweza kuendelea kuingiza usomaji wa mita yako kwenye EHW+ kama kawaida. Tutakukumbusha kwa wakati.';
 
   @override
-  String get powerfoxSurveyConfirmationClose => 'Close';
+  String get powerfoxSurveyConfirmationClose => 'Funga';
 
   @override
   String get updateNoticeDebugTitle => 'Matangazo ya sasisho';
@@ -4740,21 +4860,21 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get stripePurchaseProviderUnknown => 'Imenunuliwa';
 
   @override
-  String get ehwPlusSyncTrainingAgreementTitle => 'Use cloud data for image-recognition training?';
+  String get ehwPlusSyncTrainingAgreementTitle => 'Tumia data za wingu kwa mafunzo ya utambuzi wa picha?';
 
   @override
   String get ehwPlusSyncTrainingAgreementBody =>
-      'EHW+ can use your synced meter photos to develop and train image recognition. You can also use EHW+ Cloud without this permission; your synced meter photos will then not be used for training.';
+      'EHW+ inaweza kutumia picha zako za mita zilizosanidishwa ili kuendeleza na kufundisha utambuzi wa picha. Unaweza pia kutumia EHW+ Cloud bila ruhusa hii; picha zako za mita zilizosanidishwa hazitatumika kwa mafunzo.';
 
   @override
-  String get ehwPlusSyncTrainingAgreementDecline => 'Activate without permission';
+  String get ehwPlusSyncTrainingAgreementDecline => 'Washa bila ruhusa';
 
   @override
-  String get ehwPlusSyncTrainingAgreementConfirm => 'Give permission and activate';
+  String get ehwPlusSyncTrainingAgreementConfirm => 'Ruhusu na washa';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentLabel => 'Allow meter photos for AI training';
+  String get ehwPlusSyncAiTrainingConsentLabel => 'Ruhusu picha za mita kwa mafunzo ya AI';
 
   @override
-  String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+  String get ehwPlusSyncAiTrainingConsentHint => 'Unaweza kubadilisha ruhusa hii kwa kila kitu wakati wowote.';
 }
