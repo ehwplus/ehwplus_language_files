@@ -1680,5 +1680,85 @@
   "ehwPlusSyncTrainingAgreementDecline": "Ohne Freigabe aktivieren",
   "ehwPlusSyncTrainingAgreementConfirm": "Freigabe erteilen und aktivieren",
   "ehwPlusSyncAiTrainingConsentLabel": "Zählerbilder für KI-Training freigeben",
-  "ehwPlusSyncAiTrainingConsentHint": "Du kannst diese Freigabe jederzeit für jedes Objekt ändern."
+  "ehwPlusSyncAiTrainingConsentHint": "Du kannst diese Freigabe jederzeit für jedes Objekt ändern.",
+  "wearAppName": "EHW+",
+  "wearChooseObject": "Objekt auswählen",
+  "wearEmpty": "Öffne EHW+ auf dem Smartphone, um Objekte und Zähler zu übertragen.",
+  "wearRefresh": "Aktualisieren",
+  "wearUpdated": "Datenstand: {date}",
+  "@wearUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wearNoMeters": "Keine manuell ablesbaren Zähler verfügbar.",
+  "wearProgress": "{current} von {total}",
+  "@wearProgress": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "wearLastReading": "Zuletzt: {value} · {date}",
+  "@wearLastReading": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wearNoPrevious": "Noch keine Ablesung",
+  "wearReview": "Prüfen",
+  "wearSave": "Stand speichern",
+  "wearSaveAnyway": "Bestätigen und speichern",
+  "wearBack": "Zurück",
+  "wearObjects": "Objekte",
+  "wearDelta": "Differenz: {value}",
+  "@wearDelta": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "wearWarning": "Dieser Stand weicht vom erwarteten Verlauf ab. Bitte prüfe Wert und Zähler.",
+  "wearSavedLocal": "Auf der Uhr gespeichert",
+  "wearImported": "In EHW+ übernommen",
+  "wearConflict": "Dieser Stand konnte nicht automatisch übernommen werden. Bitte in EHW+ am Smartphone prüfen.",
+  "wearUnavailable": "Objekt oder Zähler nicht verfügbar. Prüfe EHW+ am Smartphone.",
+  "wearInvalid": "Stand konnte nicht übernommen werden. Bitte korrigieren.",
+  "wearSummary": "{read} Ablesungen · {skipped} übersprungen",
+  "@wearSummary": {
+    "placeholders": {
+      "read": {
+        "type": "String"
+      },
+      "skipped": {
+        "type": "String"
+      }
+    }
+  },
+  "wearRoundFinished": "Runde abgeschlossen",
+  "wearPendingHint": "Öffne EHW+ nach dem Verbinden am Smartphone, um ausstehende Ablesungen zu übernehmen.",
+  "wearStorageError": "Daten konnten nicht gespeichert oder geladen werden. Deine Eingabe wurde nicht bestätigt. Bitte erneut versuchen.",
+  "wearSyncError": "Übertragung nicht verfügbar. Gespeicherte Ablesungen bleiben auf der Uhr. Versuche es nach dem Verbinden erneut.",
+  "wearSkipped": "Übersprungen",
+  "wearEnterReading": "Zählerstand eingeben",
+  "wearRoundFrom": "Runde vom {date}",
+  "@wearRoundFrom": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  }
 }

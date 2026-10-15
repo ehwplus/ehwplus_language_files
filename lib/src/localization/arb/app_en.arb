@@ -2367,5 +2367,85 @@
   "ehwPlusSyncTrainingAgreementDecline": "Activate without permission",
   "ehwPlusSyncTrainingAgreementConfirm": "Give permission and activate",
   "ehwPlusSyncAiTrainingConsentLabel": "Allow meter photos for AI training",
-  "ehwPlusSyncAiTrainingConsentHint": "You can change this permission for each object at any time."
+  "ehwPlusSyncAiTrainingConsentHint": "You can change this permission for each object at any time.",
+  "wearAppName": "EHW+",
+  "wearChooseObject": "Choose property",
+  "wearEmpty": "Open EHW+ on your phone to transfer properties and meters.",
+  "wearRefresh": "Refresh",
+  "wearUpdated": "Data updated: {date}",
+  "@wearUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wearNoMeters": "No manually readable meters available.",
+  "wearProgress": "{current} of {total}",
+  "@wearProgress": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "wearLastReading": "Last: {value} · {date}",
+  "@wearLastReading": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wearNoPrevious": "No previous reading",
+  "wearReview": "Review",
+  "wearSave": "Save reading",
+  "wearSaveAnyway": "Confirm and save",
+  "wearBack": "Back",
+  "wearObjects": "Properties",
+  "wearDelta": "Difference: {value}",
+  "@wearDelta": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "wearWarning": "This reading differs from the expected progression. Please check the value and meter.",
+  "wearSavedLocal": "Saved on watch",
+  "wearImported": "Imported into EHW+",
+  "wearConflict": "This reading could not be imported automatically. Please review it in EHW+ on your phone.",
+  "wearUnavailable": "Property or meter unavailable. Check EHW+ on your phone.",
+  "wearInvalid": "Reading could not be imported. Please correct it.",
+  "wearSummary": "{read} readings · {skipped} skipped",
+  "@wearSummary": {
+    "placeholders": {
+      "read": {
+        "type": "String"
+      },
+      "skipped": {
+        "type": "String"
+      }
+    }
+  },
+  "wearRoundFinished": "Round completed",
+  "wearPendingHint": "Open EHW+ on your phone after reconnecting to import pending readings.",
+  "wearStorageError": "Could not save or load data. Your input has not been confirmed. Please try again.",
+  "wearSyncError": "Transfer unavailable. Saved readings remain on your watch. Try again after reconnecting.",
+  "wearSkipped": "Skipped",
+  "wearEnterReading": "Enter reading",
+  "wearRoundFrom": "Round from {date}",
+  "@wearRoundFrom": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  }
 }
