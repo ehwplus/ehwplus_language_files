@@ -4876,4 +4876,234 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'You can change this permission for each object at any time.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+ subscription required';
+
+  @override
+  String get wearTrialDescription => 'Try the Watch app free for 7 days. No automatic subscription.';
+
+  @override
+  String get wearStartTrial => 'Try free for 7 days';
+
+  @override
+  String get wearTrialWaiting => 'Trial requested. Open EHW+ on your phone, then refresh here.';
+
+  @override
+  String get wearTrialExpired => 'Watch trial ended';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Subscribe in EHW+ on your phone to keep taking readings. Saved readings remain available for transfer.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Open EHW+ on your phone to update your Watch access. Both apps must be up to date.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Free trial until $date';
+  }
+
+  @override
+  String get wearMeters => 'Meters';
+
+  @override
+  String get wearStatistics => 'Statistics';
+
+  @override
+  String get wearStatisticsEmpty => 'Open EHW+ on your phone to transfer statistics.';
+
+  @override
+  String get wearStatisticsPeriod => 'Period';
+
+  @override
+  String get wearStatisticsLast14Days => 'Last 14 days';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Last 12 weeks';
+
+  @override
+  String get wearStatisticsLast12Months => 'Last 12 months';
+
+  @override
+  String get wearStatisticsAll => 'All time';
+
+  @override
+  String get wearStatisticsPerDay => 'Per day';
+
+  @override
+  String get wearStatisticsPerMonth => 'Per month';
+
+  @override
+  String get wearStatisticsPerYear => 'Per year';
+
+  @override
+  String get wearStatisticsAverage => 'Averages';
+
+  @override
+  String get wearStatisticsEstimates => 'Includes estimates';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Usage costs exclude base fees.';
+
+  @override
+  String get wearStatisticsNoValues => 'No data for this period.';
+
+  @override
+  String get wearStatisticsPending => 'Statistics are updated by your phone after readings are transferred.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Electricity meter';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Electricity measuring device';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Electricity feed-in meter (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Electricity generation meter';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Solar Thermal Collector';
+
+  @override
+  String get wearCounterTypeGas => 'Gas meter';
+
+  @override
+  String get wearCounterTypeHeater => 'Radiator meter';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'District Heating';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Heat pump';
+
+  @override
+  String get wearCounterTypeOil => 'Oil heating';
+
+  @override
+  String get wearCounterTypeStove => 'Stove';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Cold water meter';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Water extraction meter (garden)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Warm water meter';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtual meter';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet & phone';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Choose property';
+
+  @override
+  String get wearEmpty => 'Open EHW+ on your phone to transfer properties and meters.';
+
+  @override
+  String get wearRefresh => 'Refresh';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Data updated: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'No manually readable meters available.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current of $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Last: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'No previous reading';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Read: $date';
+  }
+
+  @override
+  String get wearReview => 'Review';
+
+  @override
+  String get wearSave => 'Save reading';
+
+  @override
+  String get wearSaveAnyway => 'Confirm and save';
+
+  @override
+  String get wearBack => 'Back';
+
+  @override
+  String wearDelta(String value) {
+    return 'Difference: $value';
+  }
+
+  @override
+  String get wearWarning => 'This reading differs from the expected progression. Please check the value and meter.';
+
+  @override
+  String get wearSavedLocal => 'Saved on watch';
+
+  @override
+  String get wearImported => 'Imported into EHW+';
+
+  @override
+  String get wearConflict =>
+      'This reading could not be imported automatically. Please review it in EHW+ on your phone.';
+
+  @override
+  String get wearUnavailable => 'Property or meter unavailable. Check EHW+ on your phone.';
+
+  @override
+  String get wearInvalid => 'Reading could not be imported. Please correct it.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read readings · $skipped skipped';
+  }
+
+  @override
+  String get wearRoundFinished => 'Round completed';
+
+  @override
+  String get wearPendingHint => 'Open EHW+ on your phone after reconnecting to import pending readings.';
+
+  @override
+  String get wearStorageError => 'Could not save or load data. Your input has not been confirmed. Please try again.';
+
+  @override
+  String get wearSyncError =>
+      'Transfer unavailable. Saved readings remain on your watch. Try again after reconnecting.';
+
+  @override
+  String get wearSkipped => 'Skipped';
+
+  @override
+  String get wearEnterReading => 'Enter reading';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Round from $date';
+  }
 }

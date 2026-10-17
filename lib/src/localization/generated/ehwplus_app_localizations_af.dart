@@ -4883,4 +4883,236 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Jy kan hierdie toestemming vir elke voorwerp te eniger tyd verander.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+-intekening vereis';
+
+  @override
+  String get wearTrialDescription => 'Probeer die Watch-app gratis vir 7 dae. Geen outomatiese intekening nie.';
+
+  @override
+  String get wearStartTrial => 'Probeer gratis vir 7 dae';
+
+  @override
+  String get wearTrialWaiting => 'Proef versoek. Maak EHW+ op jou foon oop, en verfris hier.';
+
+  @override
+  String get wearTrialExpired => 'Waarneming van die verhoor het geëindig';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Skryf in by EHW+ op jou foon om aanhoudend metings te neem. Gestore metings bly beskikbaar vir oordrag.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Maak EHW+ op jou foon oop om jou Watch-toegang op te dateer. Albei toepassings moet op datum wees.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Gratis proeflopie tot $date';
+  }
+
+  @override
+  String get wearMeters => 'Meters';
+
+  @override
+  String get wearStatistics => 'Statistieke';
+
+  @override
+  String get wearStatisticsEmpty => 'Maak EHW+ op jou foon oop om statistieke oor te dra.';
+
+  @override
+  String get wearStatisticsPeriod => 'Periode';
+
+  @override
+  String get wearStatisticsLast14Days => 'Laaste 14 dae';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Laaste 12 weke';
+
+  @override
+  String get wearStatisticsLast12Months => 'Laaste 12 maande';
+
+  @override
+  String get wearStatisticsAll => 'Alle tye';
+
+  @override
+  String get wearStatisticsPerDay => 'Per dag';
+
+  @override
+  String get wearStatisticsPerMonth => 'Per maand';
+
+  @override
+  String get wearStatisticsPerYear => 'Per jaar';
+
+  @override
+  String get wearStatisticsAverage => 'Gemiddeldes';
+
+  @override
+  String get wearStatisticsEstimates => 'Sluit skattings in';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Gebruikskoste sluit basisfooie uit.';
+
+  @override
+  String get wearStatisticsNoValues => 'Geen data vir hierdie periode nie.';
+
+  @override
+  String get wearStatisticsPending => 'Statistieke word deur jou foon bygewerk nadat die metings oorgedra is.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Elektrisiteitsmeter';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Elektrisiteitsmeetapparaat';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Elektrisiteitsinspeelmeter (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Elektrisiteitsopwekkingsmeter';
+
+  @override
+  String get wearCounterTypeWallbox => 'Muurkas';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Sontermiese versamelaar';
+
+  @override
+  String get wearCounterTypeGas => 'Gasmeter';
+
+  @override
+  String get wearCounterTypeHeater => 'Radiatormeter';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Distrikverhitting';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Warmtepomp';
+
+  @override
+  String get wearCounterTypeOil => 'Olieverhitting';
+
+  @override
+  String get wearCounterTypeStove => 'Stoof';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Koue watermeter';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Wateronttrekkingsmeter (tuin)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Warmwatermeter';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtuele meter';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet en telefoon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Kies eiendom';
+
+  @override
+  String get wearEmpty => 'Maak EHW+ op jou foon oop om eiendomme en meters oor te dra.';
+
+  @override
+  String get wearRefresh => 'Verfris';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Data bygewerk: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Geen handmatig leesbare meters beskikbaar nie.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current van $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Laaste: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Geen vorige leeswerk nie';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Lees: $date';
+  }
+
+  @override
+  String get wearReview => 'Oorsig';
+
+  @override
+  String get wearSave => 'Bewaar lees';
+
+  @override
+  String get wearSaveAnyway => 'Bevestig en stoor';
+
+  @override
+  String get wearBack => 'Terug';
+
+  @override
+  String wearDelta(String value) {
+    return 'Verskil: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Hierdie lezing verskil van die verwagte verloop. Kontroleer asseblief die waarde en die meter.';
+
+  @override
+  String get wearSavedLocal => 'Bewaar op wag';
+
+  @override
+  String get wearImported => 'Ingevoer in EHW+';
+
+  @override
+  String get wearConflict =>
+      'Hierdie leesstuk kon nie outomaties ingevoer word nie. Hersien dit asseblief in EHW+ op jou foon.';
+
+  @override
+  String get wearUnavailable => 'Eiendom of meter nie beskikbaar nie. Kyk na EHW+ op jou foon.';
+
+  @override
+  String get wearInvalid => 'Lees kon nie ingevoer word nie. Asseblief korrigeer dit.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read gelees · $skipped oorgeslaan';
+  }
+
+  @override
+  String get wearRoundFinished => 'Ronde voltooi';
+
+  @override
+  String get wearPendingHint => 'Maak EHW+ op jou foon oop nadat jy weer gekoppel het om hangende metings in te voer.';
+
+  @override
+  String get wearStorageError =>
+      'Konn nie data stoor of laai nie. Jou inset is nie bevestig nie. Probeer asseblief weer.';
+
+  @override
+  String get wearSyncError =>
+      'Oordrag nie beskikbaar nie. Gespekte lesings bly op jou horlosie. Probeer weer nadat jy weer gekoppel het.';
+
+  @override
+  String get wearSkipped => 'Oorgeslaan';
+
+  @override
+  String get wearEnterReading => 'Begin lees';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Rond vanaf $date';
+  }
 }

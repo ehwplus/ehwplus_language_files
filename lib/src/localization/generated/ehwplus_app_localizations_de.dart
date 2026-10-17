@@ -4889,4 +4889,237 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Du kannst diese Freigabe jederzeit für jedes Objekt ändern.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+ Abo erforderlich';
+
+  @override
+  String get wearTrialDescription => 'Teste die Watch-App 7 Tage kostenlos. Es entsteht kein automatisches Abo.';
+
+  @override
+  String get wearStartTrial => '7 Tage kostenlos testen';
+
+  @override
+  String get wearTrialWaiting =>
+      'Testphase angefordert. Öffne EHW+ auf deinem Handy und aktualisiere anschließend hier.';
+
+  @override
+  String get wearTrialExpired => 'Watch-Testphase beendet';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Schließe in EHW+ auf deinem Handy ein Abo ab, um weiter abzulesen. Gespeicherte Ablesungen bleiben zur Übertragung erhalten.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Öffne EHW+ auf deinem Handy, um die Watch-Freigabe zu aktualisieren. Beide Apps müssen aktuell sein.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Kostenlos testen bis $date';
+  }
+
+  @override
+  String get wearMeters => 'Zähler';
+
+  @override
+  String get wearStatistics => 'Statistiken';
+
+  @override
+  String get wearStatisticsEmpty => 'Öffne EHW+ auf deinem Handy, um Statistiken zu übertragen.';
+
+  @override
+  String get wearStatisticsPeriod => 'Zeitraum';
+
+  @override
+  String get wearStatisticsLast14Days => 'Letzte 14 Tage';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Letzte 12 Wochen';
+
+  @override
+  String get wearStatisticsLast12Months => 'Letzte 12 Monate';
+
+  @override
+  String get wearStatisticsAll => 'Gesamt';
+
+  @override
+  String get wearStatisticsPerDay => 'Pro Tag';
+
+  @override
+  String get wearStatisticsPerMonth => 'Pro Monat';
+
+  @override
+  String get wearStatisticsPerYear => 'Pro Jahr';
+
+  @override
+  String get wearStatisticsAverage => 'Durchschnittswerte';
+
+  @override
+  String get wearStatisticsEstimates => 'Enthält Schätzwerte';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Verbrauchskosten ohne Grundpreis.';
+
+  @override
+  String get wearStatisticsNoValues => 'Für diesen Zeitraum fehlen Daten.';
+
+  @override
+  String get wearStatisticsPending =>
+      'Die Statistiken werden nach der Übertragung der Ablesungen vom Handy aktualisiert.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Stromzähler';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Strommessgerät';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Stromeinspeiszähler (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Stromerzeugniszähler (PV)';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Sonnenwärmekollektor';
+
+  @override
+  String get wearCounterTypeGas => 'Gaszähler';
+
+  @override
+  String get wearCounterTypeHeater => 'Heizkörper/Wärmeerzeugung';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Fernwärme';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Wärmepumpe';
+
+  @override
+  String get wearCounterTypeOil => 'Ölheizung';
+
+  @override
+  String get wearCounterTypeStove => 'Kaminofen / Pelletheizung';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Kaltwasserzähler';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Wasserabzugszähler (Gartenwasser)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Warmwasserzähler';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtueller Zähler';
+
+  @override
+  String get wearCounterTypeNetwork => 'DSL & Telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Objekt auswählen';
+
+  @override
+  String get wearEmpty => 'Öffne EHW+ auf dem Smartphone, um Objekte und Zähler zu übertragen.';
+
+  @override
+  String get wearRefresh => 'Aktualisieren';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Datenstand: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Keine manuell ablesbaren Zähler verfügbar.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current von $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Zuletzt: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Noch keine Ablesung';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Abgelesen: $date';
+  }
+
+  @override
+  String get wearReview => 'Prüfen';
+
+  @override
+  String get wearSave => 'Stand speichern';
+
+  @override
+  String get wearSaveAnyway => 'Bestätigen und speichern';
+
+  @override
+  String get wearBack => 'Zurück';
+
+  @override
+  String wearDelta(String value) {
+    return 'Differenz: $value';
+  }
+
+  @override
+  String get wearWarning => 'Dieser Stand weicht vom erwarteten Verlauf ab. Bitte prüfe Wert und Zähler.';
+
+  @override
+  String get wearSavedLocal => 'Auf der Uhr gespeichert';
+
+  @override
+  String get wearImported => 'In EHW+ übernommen';
+
+  @override
+  String get wearConflict =>
+      'Dieser Stand konnte nicht automatisch übernommen werden. Bitte in EHW+ am Smartphone prüfen.';
+
+  @override
+  String get wearUnavailable => 'Objekt oder Zähler nicht verfügbar. Prüfe EHW+ am Smartphone.';
+
+  @override
+  String get wearInvalid => 'Stand konnte nicht übernommen werden. Bitte korrigieren.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read Ablesungen · $skipped übersprungen';
+  }
+
+  @override
+  String get wearRoundFinished => 'Runde abgeschlossen';
+
+  @override
+  String get wearPendingHint => 'Öffne EHW+ nach dem Verbinden am Smartphone, um ausstehende Ablesungen zu übernehmen.';
+
+  @override
+  String get wearStorageError =>
+      'Daten konnten nicht gespeichert oder geladen werden. Deine Eingabe wurde nicht bestätigt. Bitte erneut versuchen.';
+
+  @override
+  String get wearSyncError =>
+      'Übertragung nicht verfügbar. Gespeicherte Ablesungen bleiben auf der Uhr. Versuche es nach dem Verbinden erneut.';
+
+  @override
+  String get wearSkipped => 'Übersprungen';
+
+  @override
+  String get wearEnterReading => 'Zählerstand eingeben';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Runde vom $date';
+  }
 }

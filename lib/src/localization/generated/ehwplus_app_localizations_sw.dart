@@ -4877,4 +4877,236 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Unaweza kubadilisha ruhusa hii kwa kila kitu wakati wowote.';
+
+  @override
+  String get wearSubscriptionRequired => 'Usajili wa EHW+ unahitajika';
+
+  @override
+  String get wearTrialDescription => 'Jaribu programu ya Watch bila malipo kwa siku 7. Hakuna usajili wa kiotomatiki.';
+
+  @override
+  String get wearStartTrial => 'Jaribu bure kwa siku 7';
+
+  @override
+  String get wearTrialWaiting => 'Jaribio limeombwa. Fungua EHW+ kwenye simu yako, kisha sasisha hapa.';
+
+  @override
+  String get wearTrialExpired => 'Kesi ya Watch imekwisha';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Jisajili kwenye EHW+ kwenye simu yako ili kuendelea kuchukua vipimo. Vipimo vilivyohifadhiwa bado vinapatikana kwa uhamisho.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Fungua EHW+ kwenye simu yako ili kusasisha ufikiaji wako wa Watch. Programu zote mbili lazima ziwe zimesasishwa.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Jaribio la bure hadi tarehe$date';
+  }
+
+  @override
+  String get wearMeters => 'Mitara';
+
+  @override
+  String get wearStatistics => 'Takwimu';
+
+  @override
+  String get wearStatisticsEmpty => 'Fungua EHW+ kwenye simu yako ili kuhamisha takwimu.';
+
+  @override
+  String get wearStatisticsPeriod => 'Mwisho';
+
+  @override
+  String get wearStatisticsLast14Days => 'Siku 14 zilizopita';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Wiki 12 zilizopita';
+
+  @override
+  String get wearStatisticsLast12Months => 'Miezi 12 iliyopita';
+
+  @override
+  String get wearStatisticsAll => 'Wakati wote';
+
+  @override
+  String get wearStatisticsPerDay => 'Kwa siku';
+
+  @override
+  String get wearStatisticsPerMonth => 'Kwa mwezi';
+
+  @override
+  String get wearStatisticsPerYear => 'Kwa mwaka';
+
+  @override
+  String get wearStatisticsAverage => 'Wastani';
+
+  @override
+  String get wearStatisticsEstimates => 'Inajumuisha makadirio';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Gharama za matumizi hazijumuishi ada za msingi.';
+
+  @override
+  String get wearStatisticsNoValues => 'Hakuna data kwa kipindi hiki.';
+
+  @override
+  String get wearStatisticsPending => 'Takwimu husasishwa na simu yako baada ya vipimo kuhamishwa.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Mita ya umeme';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Kifaa cha kupimia umeme';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Mita ya kuingiza umeme (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Mita ya uzalishaji wa umeme';
+
+  @override
+  String get wearCounterTypeWallbox => 'Sanduku la ukutani';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Kikusanyaji joto la jua';
+
+  @override
+  String get wearCounterTypeGas => 'Mita ya gesi';
+
+  @override
+  String get wearCounterTypeHeater => 'Mita ya redieta';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Upasishaji wa Wilaya';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Pampu ya joto';
+
+  @override
+  String get wearCounterTypeOil => 'Upasishaji wa mafuta';
+
+  @override
+  String get wearCounterTypeStove => 'Jiko';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Mpimomaji wa maji baridi';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Mita ya uchimbaji maji (ya bustani)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Mita ya maji ya moto';
+
+  @override
+  String get wearCounterTypeVirtual => 'Kipimo pepe';
+
+  @override
+  String get wearCounterTypeNetwork => 'Mtandao na simu';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Chagua mali';
+
+  @override
+  String get wearEmpty => 'Fungua EHW+ kwenye simu yako ili kuhamisha mali na mita.';
+
+  @override
+  String get wearRefresh => 'Boresha';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Data imesasishwa: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Hakuna mita zinazoweza kusomwa kwa mkono.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current ya $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Mwisho: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Hakuna usomaji wa awali';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Soma: $date';
+  }
+
+  @override
+  String get wearReview => 'Mapitio';
+
+  @override
+  String get wearSave => 'Hifadhi kusoma';
+
+  @override
+  String get wearSaveAnyway => 'Thibitisha na kuhifadhi';
+
+  @override
+  String get wearBack => 'Rudi nyuma';
+
+  @override
+  String wearDelta(String value) {
+    return 'Tofauti: $value';
+  }
+
+  @override
+  String get wearWarning => 'Usomaji huu ni tofauti na mtiririko uliokusudiwa. Tafadhali angalia thamani na kipimo.';
+
+  @override
+  String get wearSavedLocal => 'Imehifadhiwa kwenye saa';
+
+  @override
+  String get wearImported => 'Imeingizwa katika EHW+';
+
+  @override
+  String get wearConflict =>
+      'Usomaji huu haukuweza kuingizwa kiotomatiki. Tafadhali ukague katika EHW+ kwenye simu yako.';
+
+  @override
+  String get wearUnavailable => 'Mali au mita haipatikani. Angalia EHW+ kwenye simu yako.';
+
+  @override
+  String get wearInvalid => 'Haikuwezekana kuingiza kusoma. Tafadhali kirekebishe.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read kusomwa · $skipped kurukwa';
+  }
+
+  @override
+  String get wearRoundFinished => 'Mzunguko umekamilika';
+
+  @override
+  String get wearPendingHint =>
+      'Fungua EHW+ kwenye simu yako baada ya kuunganisha tena ili kuagiza vipimo vinavyosubiri.';
+
+  @override
+  String get wearStorageError =>
+      'Haikuweza kuhifadhi au kupakia data. Maingizo yako hayajathibitishwa. Tafadhali jaribu tena.';
+
+  @override
+  String get wearSyncError =>
+      'Uhamisho hauwezekani. Usomaji uliohifadhiwa unabaki kwenye saa yako. Jaribu tena baada ya kuunganisha tena.';
+
+  @override
+  String get wearSkipped => 'Imerukwa';
+
+  @override
+  String get wearEnterReading => 'Ingia kusoma';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Mduara kutoka $date';
+  }
 }

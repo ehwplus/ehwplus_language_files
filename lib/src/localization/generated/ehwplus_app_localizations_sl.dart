@@ -4883,4 +4883,239 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'To dovoljenje lahko kadarkoli spremenite za vsak objekt posebej.';
+
+  @override
+  String get wearSubscriptionRequired => 'Potrebna je naročnina na EHW+';
+
+  @override
+  String get wearTrialDescription =>
+      'Preizkusite aplikacijo Watch brezplačno 7 dni. Brez samodejnega naročniškega razmerja.';
+
+  @override
+  String get wearStartTrial => 'Preizkusite brezplačno 7 dni';
+
+  @override
+  String get wearTrialWaiting =>
+      'Zahtevano je preskušanje. Odprite aplikacijo EHW+ na svojem telefonu, nato pa osvežite stran.';
+
+  @override
+  String get wearTrialExpired => 'Sodni proces se je končal';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Naročite se na storitev EHW+ na svojem telefonu, da boste lahko še naprej beležili meritve. Shranjene meritve so še naprej na voljo za prenos.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Odprite aplikacijo EHW+ na svojem telefonu, da posodobite dostop do ure. Obe aplikaciji morata biti posodobljeni.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Brezplačno preizkušanje do $date';
+  }
+
+  @override
+  String get wearMeters => 'Merilniki';
+
+  @override
+  String get wearStatistics => 'Statistika';
+
+  @override
+  String get wearStatisticsEmpty => 'Odprite aplikacijo EHW+ na svojem telefonu, da prenesete statistične podatke.';
+
+  @override
+  String get wearStatisticsPeriod => 'Obdobje';
+
+  @override
+  String get wearStatisticsLast14Days => 'Zadnjih 14 dni';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Zadnjih 12 tednov';
+
+  @override
+  String get wearStatisticsLast12Months => 'Zadnjih 12 mesecev';
+
+  @override
+  String get wearStatisticsAll => 'Vse čase';
+
+  @override
+  String get wearStatisticsPerDay => 'Na dan';
+
+  @override
+  String get wearStatisticsPerMonth => 'Na mesec';
+
+  @override
+  String get wearStatisticsPerYear => 'Na leto';
+
+  @override
+  String get wearStatisticsAverage => 'Povprečja';
+
+  @override
+  String get wearStatisticsEstimates => 'Vključuje ocene';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Stroški uporabe ne vključujejo osnovnih pristojbin.';
+
+  @override
+  String get wearStatisticsNoValues => 'Za to obdobje ni podatkov.';
+
+  @override
+  String get wearStatisticsPending => 'Statistični podatki se v vašem telefonu posodobijo po prenosu meritev.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Električni števec';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Naprava za merjenje električne energije';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Merilnik za odkup električne energije (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Merilnik proizvodnje električne energije';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Sončni toplotni kolektor';
+
+  @override
+  String get wearCounterTypeGas => 'Plinski števec';
+
+  @override
+  String get wearCounterTypeHeater => 'Merilnik za radiator';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Daljinsko ogrevanje';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Toplotna črpalka';
+
+  @override
+  String get wearCounterTypeOil => 'Ogrevanje z nafto';
+
+  @override
+  String get wearCounterTypeStove => 'Štedilnik';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Merilnik hladne vode';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Merilnik porabe vode (za vrt)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Merilnik tople vode';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtualni števec';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet in telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Izberite nepremičnino';
+
+  @override
+  String get wearEmpty =>
+      'Odprite aplikacijo EHW+ na svojem telefonu, da prenesete podatke o nepremičninah in merilnikih.';
+
+  @override
+  String get wearRefresh => 'Osveži';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Podatki posodobljeni: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Na voljo ni merilnikov, ki bi jih bilo mogoče odčitati ročno.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current od $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Zadnji: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Ni predhodnega branja';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Preberi: $date';
+  }
+
+  @override
+  String get wearReview => 'Pregled';
+
+  @override
+  String get wearSave => 'Shrani za kasneje';
+
+  @override
+  String get wearSaveAnyway => 'Potrdi in shrani';
+
+  @override
+  String get wearBack => 'Nazaj';
+
+  @override
+  String wearDelta(String value) {
+    return 'Razlika: $value';
+  }
+
+  @override
+  String get wearWarning => 'Ta odčitek se razlikuje od pričakovanega poteka. Preverite vrednost in merilnik.';
+
+  @override
+  String get wearSavedLocal => 'Shranjeno med opazovanjem';
+
+  @override
+  String get wearImported => 'Uvoženo v EHW+';
+
+  @override
+  String get wearConflict =>
+      'Te podatke ni bilo mogoče samodejno uvoziti. Prosimo, preglejte jih v aplikaciji EHW+ na svojem telefonu.';
+
+  @override
+  String get wearUnavailable => 'Nepremičnina ali število ni na voljo. Preverite aplikacijo EHW+ na svojem telefonu.';
+
+  @override
+  String get wearInvalid => 'Uvoza datoteke »Reading« ni bilo mogoče izvesti. Prosimo, popravite napako.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read prebrano · $skipped preskočeno';
+  }
+
+  @override
+  String get wearRoundFinished => 'Krog je zaključen';
+
+  @override
+  String get wearPendingHint =>
+      'Po ponovni vzpostavitvi povezave odprite aplikacijo EHW+ na svojem telefonu, da uvozite čakajoče meritve.';
+
+  @override
+  String get wearStorageError =>
+      'Podatkov ni bilo mogoče shraniti ali naložiti. Vaš vnos ni bil potrjen. Poskusite še enkrat.';
+
+  @override
+  String get wearSyncError =>
+      'Prenos ni mogoč. Shranjene meritve ostanejo na vaši uri. Poskusite znova, ko vzpostavite povezavo.';
+
+  @override
+  String get wearSkipped => 'Preskočeno';
+
+  @override
+  String get wearEnterReading => 'Začni brati';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Krog od $date';
+  }
 }

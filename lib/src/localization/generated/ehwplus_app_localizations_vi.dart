@@ -4891,4 +4891,241 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Quý vị có thể thay đổi quyền này cho từng đối tượng bất cứ lúc nào.';
+
+  @override
+  String get wearSubscriptionRequired => 'Yêu cầu đăng ký gói EHW+';
+
+  @override
+  String get wearTrialDescription => 'Hãy dùng thử ứng dụng Watch miễn phí trong 7 ngày. Không có đăng ký tự động.';
+
+  @override
+  String get wearStartTrial => 'Dùng thử miễn phí trong 7 ngày';
+
+  @override
+  String get wearTrialWaiting =>
+      'Yêu cầu dùng thử. Vui lòng mở ứng dụng EHW+ trên điện thoại của quý vị, sau đó làm mới trang này.';
+
+  @override
+  String get wearTrialExpired => 'Phiên tòa quan sát đã kết thúc';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Hãy đăng ký sử dụng dịch vụ EHW+ trên điện thoại của quý vị để tiếp tục ghi nhận các chỉ số. Các chỉ số đã lưu vẫn có thể được chuyển sang thiết bị khác.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Vui lòng mở ứng dụng EHW+ trên điện thoại của quý vị để cập nhật quyền truy cập vào đồng hồ. Cả hai ứng dụng đều phải được cập nhật lên phiên bản mới nhất.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Dùng thử miễn phí đến ngày $date';
+  }
+
+  @override
+  String get wearMeters => 'Mét';
+
+  @override
+  String get wearStatistics => 'Thống kê';
+
+  @override
+  String get wearStatisticsEmpty => 'Vui lòng mở ứng dụng EHW+ trên điện thoại của quý vị để chuyển dữ liệu thống kê.';
+
+  @override
+  String get wearStatisticsPeriod => 'Kỳ';
+
+  @override
+  String get wearStatisticsLast14Days => '14 ngày qua';
+
+  @override
+  String get wearStatisticsLast12Weeks => '12 tuần qua';
+
+  @override
+  String get wearStatisticsLast12Months => '12 tháng qua';
+
+  @override
+  String get wearStatisticsAll => 'Tất cả các thời kỳ';
+
+  @override
+  String get wearStatisticsPerDay => 'Mỗi ngày';
+
+  @override
+  String get wearStatisticsPerMonth => 'Mỗi tháng';
+
+  @override
+  String get wearStatisticsPerYear => 'Mỗi năm';
+
+  @override
+  String get wearStatisticsAverage => 'Các giá trị trung bình';
+
+  @override
+  String get wearStatisticsEstimates => 'Bao gồm các số liệu ước tính';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Chi phí sử dụng không bao gồm các khoản phí cơ bản.';
+
+  @override
+  String get wearStatisticsNoValues => 'Không có dữ liệu cho giai đoạn này.';
+
+  @override
+  String get wearStatisticsPending =>
+      'Các số liệu thống kê sẽ được điện thoại của quý vị cập nhật sau khi các kết quả đo được truyền đi.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Đồng hồ điện';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Thiết bị đo điện';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Đồng hồ đo điện bán vào lưới (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Đồng hồ đo sản lượng điện';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Bộ thu nhiệt mặt trời';
+
+  @override
+  String get wearCounterTypeGas => 'Đồng hồ đo khí';
+
+  @override
+  String get wearCounterTypeHeater => 'Đồng hồ đo nhiệt độ tản nhiệt';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Hệ thống sưởi ấm khu vực';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Máy bơm nhiệt';
+
+  @override
+  String get wearCounterTypeOil => 'Hệ thống sưởi bằng dầu';
+
+  @override
+  String get wearCounterTypeStove => 'Bếp';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Đồng hồ đo nước lạnh';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Đồng hồ đo lượng nước lấy ra (dùng trong vườn)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Đồng hồ đo nước nóng';
+
+  @override
+  String get wearCounterTypeVirtual => 'Đồng hồ đo ảo';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet và điện thoại';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Chọn bất động sản';
+
+  @override
+  String get wearEmpty =>
+      'Vui lòng mở ứng dụng EHW+ trên điện thoại của quý vị để chuyển nhượng quyền sở hữu bất động sản và đồng hồ đo.';
+
+  @override
+  String get wearRefresh => 'Làm mới';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Dữ liệu được cập nhật vào ngày: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Không có đồng hồ đo nào có thể đọc bằng tay.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current trên $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Lần cuối: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Không cần đọc trước';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Xem tại: $date';
+  }
+
+  @override
+  String get wearReview => 'Đánh giá';
+
+  @override
+  String get wearSave => 'Lưu lại để đọc sau';
+
+  @override
+  String get wearSaveAnyway => 'Xác nhận và lưu lại';
+
+  @override
+  String get wearBack => 'Quay lại';
+
+  @override
+  String wearDelta(String value) {
+    return 'Sự khác biệt: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Kết quả đo này khác với diễn biến dự kiến. Kính mong quý vị kiểm tra lại giá trị và đơn vị đo.';
+
+  @override
+  String get wearSavedLocal => 'Đã lưu vào danh sách theo dõi';
+
+  @override
+  String get wearImported => 'Đã được nhập vào EHW+';
+
+  @override
+  String get wearConflict =>
+      'Không thể tự động nhập dữ liệu đo này. Vui lòng kiểm tra lại trên ứng dụng EHW+ trong điện thoại của quý vị.';
+
+  @override
+  String get wearUnavailable =>
+      'Không tìm thấy thông tin về bất động sản hoặc đồng hồ đo. Vui lòng kiểm tra ứng dụng EHW+ trên điện thoại của quý vị.';
+
+  @override
+  String get wearInvalid => 'Không thể nhập dữ liệu đọc. Vui lòng khắc phục sự cố này.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read đã đọc · $skipped đã bỏ qua';
+  }
+
+  @override
+  String get wearRoundFinished => 'Vòng thi đã kết thúc';
+
+  @override
+  String get wearPendingHint =>
+      'Vui lòng mở ứng dụng EHW+ trên điện thoại của quý vị sau khi kết nối lại để nhập các dữ liệu đo đang chờ xử lý.';
+
+  @override
+  String get wearStorageError =>
+      'Không thể lưu hoặc tải dữ liệu. Thông tin quý vị nhập chưa được xác nhận. Vui lòng thử lại.';
+
+  @override
+  String get wearSyncError =>
+      'Không thể chuyển dữ liệu. Các chỉ số đã lưu vẫn được giữ lại trên đồng hồ của quý vị. Vui lòng thử lại sau khi kết nối lại.';
+
+  @override
+  String get wearSkipped => 'Bỏ qua';
+
+  @override
+  String get wearEnterReading => 'Bắt đầu đọc';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Vòng thi từ ngày $date';
+  }
 }

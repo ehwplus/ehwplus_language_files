@@ -4866,4 +4866,237 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Seda õigust saate iga objekti puhul igal ajal muuta.';
+
+  @override
+  String get wearSubscriptionRequired => 'Vajalik on EHW+-tellimus';
+
+  @override
+  String get wearTrialDescription => 'Proovi Watchi rakendust 7 päeva tasuta. Automaatset tellimust ei teki.';
+
+  @override
+  String get wearStartTrial => 'Proovi 7 päeva tasuta';
+
+  @override
+  String get wearTrialWaiting =>
+      'Soovitud prooviversioon. Avage oma telefonis rakendus „EHW+“ ja värskendage seejärel lehekülge.';
+
+  @override
+  String get wearTrialExpired => 'Kohtuprotsessi vaatamine lõppes';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Telli oma telefonis EHW+, et saaksid jätkata mõõtmistulemuste salvestamist. Salvestatud mõõtmistulemused jäävad ülekandmiseks kättesaadavaks.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Ava oma telefonis rakendus „EHW+“, et uuendada oma Watchi juurdepääsuõigusi. Mõlemad rakendused peavad olema viimase versiooniga.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Tasuta prooviperiood kuni $date';
+  }
+
+  @override
+  String get wearMeters => 'Meetrid';
+
+  @override
+  String get wearStatistics => 'Statistika';
+
+  @override
+  String get wearStatisticsEmpty => 'Ava oma telefonis rakendus „EHW+“, et edastada statistikat.';
+
+  @override
+  String get wearStatisticsPeriod => 'Periood';
+
+  @override
+  String get wearStatisticsLast14Days => 'Viimased 14 päeva';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Viimased 12 nädalat';
+
+  @override
+  String get wearStatisticsLast12Months => 'Viimased 12 kuud';
+
+  @override
+  String get wearStatisticsAll => 'Kõigi aegade';
+
+  @override
+  String get wearStatisticsPerDay => 'Päevas';
+
+  @override
+  String get wearStatisticsPerMonth => 'Kuus';
+
+  @override
+  String get wearStatisticsPerYear => 'Aastas';
+
+  @override
+  String get wearStatisticsAverage => 'Keskmised väärtused';
+
+  @override
+  String get wearStatisticsEstimates => 'Sisaldab hinnanguid';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Kasutuskulud ei hõlma põhitasusid.';
+
+  @override
+  String get wearStatisticsNoValues => 'Selle perioodi kohta andmed puuduvad.';
+
+  @override
+  String get wearStatisticsPending => 'Pärast näitude edastamist uuendab teie telefon statistikat.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Elektriarvesti';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Elektrienergia mõõteseade';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Elektrienergia sissevoolu arvesti (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Elektritootmise arvesti';
+
+  @override
+  String get wearCounterTypeWallbox => 'Seinakast';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Päikesekollektor';
+
+  @override
+  String get wearCounterTypeGas => 'Gaasimõõtur';
+
+  @override
+  String get wearCounterTypeHeater => 'Küttekeha arvesti';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Kaugküte';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Soojuspump';
+
+  @override
+  String get wearCounterTypeOil => 'Õliküte';
+
+  @override
+  String get wearCounterTypeStove => 'Pliit';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Külmaveearvesti';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Veetarbimise arvesti (aed)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Sooja vee arvesti';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtuaalne arvesti';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet ja telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Vali kinnisvara';
+
+  @override
+  String get wearEmpty => 'Ava oma telefonis rakendus „EHW+“, et kanda üle kinnisvaraobjektid ja arvestid.';
+
+  @override
+  String get wearRefresh => 'Värskenda';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Andmed uuendatud: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Käsitsi loetavaid arvestid puuduvad.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current / $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Viimane: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Eelnevat lugemist pole';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Loe: $date';
+  }
+
+  @override
+  String get wearReview => 'Arvustus';
+
+  @override
+  String get wearSave => 'Salvesta lugemine';
+
+  @override
+  String get wearSaveAnyway => 'Kinnita ja salvesta';
+
+  @override
+  String get wearBack => 'Tagasi';
+
+  @override
+  String wearDelta(String value) {
+    return 'Erinevus: $value';
+  }
+
+  @override
+  String get wearWarning => 'See näid erineb oodatavast arengust. Palun kontrollige väärtust ja arvestit.';
+
+  @override
+  String get wearSavedLocal => 'Salvestatud vaadates';
+
+  @override
+  String get wearImported => 'EHW+-sse imporditud';
+
+  @override
+  String get wearConflict =>
+      'Seda lugemist ei õnnestunud automaatselt importida. Palun vaadake seda oma telefonis rakenduses EHW+.';
+
+  @override
+  String get wearUnavailable => 'Kinnisvara või arvesti pole kättesaadav. Kontrollige oma telefonis rakendust EHW+.';
+
+  @override
+  String get wearInvalid => 'Lugemist ei õnnestunud importida. Palun parandage seda.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read loetud · $skipped vahele jäetud';
+  }
+
+  @override
+  String get wearRoundFinished => 'Voor on lõppenud';
+
+  @override
+  String get wearPendingHint =>
+      'Avage oma telefonis rakendus „EHW+“ pärast uuesti ühendamist, et importida ootel olevad mõõtmistulemused.';
+
+  @override
+  String get wearStorageError =>
+      'Andmeid ei õnnestunud salvestada ega laadida. Teie sisestatud andmeid ei ole kinnitatud. Palun proovige uuesti.';
+
+  @override
+  String get wearSyncError =>
+      'Andmete edastamine ei ole võimalik. Salvestatud mõõtmistulemused jäävad kellale alles. Proovi uuesti pärast ühenduse taastamist.';
+
+  @override
+  String get wearSkipped => 'Vahelejäänud';
+
+  @override
+  String get wearEnterReading => 'Alusta lugemist';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$date. kuupäevast alates';
+  }
 }

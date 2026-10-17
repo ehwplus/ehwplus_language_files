@@ -4860,4 +4860,236 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'คุณสามารถปรับเปลี่ยนสิทธิ์นี้สำหรับแต่ละวัตถุได้ทุกเมื่อ';
+
+  @override
+  String get wearSubscriptionRequired => 'จำเป็นต้องสมัครสมาชิก EHW+';
+
+  @override
+  String get wearTrialDescription => 'ลองใช้แอป Watch ฟรีเป็นเวลา 7 วัน ไม่มีระบบสมัครสมาชิกอัตโนมัติ';
+
+  @override
+  String get wearStartTrial => 'ลองใช้ฟรี 7 วัน';
+
+  @override
+  String get wearTrialWaiting => 'ขอทดลองใช้ เปิดEHW+ บนโทรศัพท์ของคุณ แล้วกดรีเฟรชหน้านี้';
+
+  @override
+  String get wearTrialExpired => 'การพิจารณาคดีแบบดูผ่านหน้าจอได้สิ้นสุดแล้ว';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'สมัครใช้บริการEHW+ บนโทรศัพท์ของคุณเพื่อสามารถบันทึกค่าการวัดต่อไปได้ ค่าการวัดที่บันทึกไว้ยังคงสามารถโอนย้ายได้';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'เปิดแอป EHW+ บนโทรศัพท์ของคุณเพื่ออัปเดตสิทธิ์การเข้าถึง Watch ของคุณ ทั้งสองแอปต้องเป็นเวอร์ชันล่าสุด';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'ทดลองใช้ฟรีจนถึง$date';
+  }
+
+  @override
+  String get wearMeters => 'มิเตอร์';
+
+  @override
+  String get wearStatistics => 'สถิติ';
+
+  @override
+  String get wearStatisticsEmpty => 'เปิดEHW+ บนโทรศัพท์ของคุณเพื่อส่งข้อมูลสถิติ';
+
+  @override
+  String get wearStatisticsPeriod => 'ช่วงเวลา';
+
+  @override
+  String get wearStatisticsLast14Days => '14 วันที่ผ่านมา';
+
+  @override
+  String get wearStatisticsLast12Weeks => '12 สัปดาห์ที่ผ่านมา';
+
+  @override
+  String get wearStatisticsLast12Months => '12 เดือนที่ผ่านมา';
+
+  @override
+  String get wearStatisticsAll => 'ตลอดกาล';
+
+  @override
+  String get wearStatisticsPerDay => 'ต่อวัน';
+
+  @override
+  String get wearStatisticsPerMonth => 'ต่อเดือน';
+
+  @override
+  String get wearStatisticsPerYear => 'ต่อปี';
+
+  @override
+  String get wearStatisticsAverage => 'ค่าเฉลี่ย';
+
+  @override
+  String get wearStatisticsEstimates => 'รวมถึงการประมาณการ';
+
+  @override
+  String get wearStatisticsUsageCosts => 'ค่าใช้จ่ายในการใช้งานไม่รวมค่าธรรมเนียมพื้นฐาน';
+
+  @override
+  String get wearStatisticsNoValues => 'ไม่มีข้อมูลสำหรับช่วงเวลานี้';
+
+  @override
+  String get wearStatisticsPending => 'ข้อมูลสถิติจะได้รับการอัปเดตโดยโทรศัพท์ของคุณหลังจากที่ข้อมูลการวัดถูกส่งไปแล้ว';
+
+  @override
+  String get wearCounterTypeElectricity => 'มิเตอร์ไฟฟ้า';
+
+  @override
+  String get wearCounterTypeAmmeter => 'อุปกรณ์วัดไฟฟ้า';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'มิเตอร์วัดการส่งไฟฟ้ากลับสู่ระบบ (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'มิเตอร์วัดการผลิตไฟฟ้า';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'เครื่องเก็บความร้อนจากแสงอาทิตย์';
+
+  @override
+  String get wearCounterTypeGas => 'มิเตอร์ก๊าซ';
+
+  @override
+  String get wearCounterTypeHeater => 'มิเตอร์หม้อน้ำ';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'ระบบทำความร้อนแบบรวมศูนย์';
+
+  @override
+  String get wearCounterTypeHeatPump => 'เครื่องสูบความร้อน';
+
+  @override
+  String get wearCounterTypeOil => 'ระบบทำความร้อนด้วยน้ำมัน';
+
+  @override
+  String get wearCounterTypeStove => 'เตา';
+
+  @override
+  String get wearCounterTypeWaterCold => 'มิเตอร์น้ำเย็น';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'เครื่องวัดการสูบน้ำ (สำหรับสวน)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'มิเตอร์น้ำร้อน';
+
+  @override
+  String get wearCounterTypeVirtual => 'มิเตอร์เสมือน';
+
+  @override
+  String get wearCounterTypeNetwork => 'อินเทอร์เน็ตและโทรศัพท์';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'เลือกอสังหาริมทรัพย์';
+
+  @override
+  String get wearEmpty => 'เปิดแอป EHW+ บนโทรศัพท์ของคุณเพื่อโอนข้อมูลอสังหาริมทรัพย์และมิเตอร์';
+
+  @override
+  String get wearRefresh => 'รีเฟรช';
+
+  @override
+  String wearUpdated(String date) {
+    return 'ข้อมูลอัปเดต: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'ไม่มีมิเตอร์ที่สามารถอ่านได้ด้วยมือ';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current ของ $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'ครั้งสุดท้าย: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'ไม่ต้องอ่านล่วงหน้า';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'อ่าน: $date';
+  }
+
+  @override
+  String get wearReview => 'บทวิจารณ์';
+
+  @override
+  String get wearSave => 'บันทึกการอ่าน';
+
+  @override
+  String get wearSaveAnyway => 'ยืนยันและบันทึก';
+
+  @override
+  String get wearBack => 'กลับ';
+
+  @override
+  String wearDelta(String value) {
+    return 'ความแตกต่าง: $value';
+  }
+
+  @override
+  String get wearWarning => 'ผลการวัดนี้แตกต่างจากความคืบหน้าที่คาดไว้ โปรดตรวจสอบค่าและมิเตอร์';
+
+  @override
+  String get wearSavedLocal => 'บันทึกไว้ในรายการติดตาม';
+
+  @override
+  String get wearImported => 'นำเข้าสูEHW+';
+
+  @override
+  String get wearConflict =>
+      'ไม่สามารถนำเข้าข้อมูลการอ่านนี้ได้โดยอัตโนมัติ โปรดตรวจสอบข้อมูลนี้ในEHW+ บนโทรศัพท์ของคุณ';
+
+  @override
+  String get wearUnavailable => 'ไม่มีข้อมูลเกี่ยวกับทรัพย์สินหรือมิเตอร์ โปรดตรวจสอบ EHW+ บนโทรศัพท์ของคุณ';
+
+  @override
+  String get wearInvalid => 'ไม่สามารถนำเข้าข้อมูล Reading ได้ โปรดแก้ไขให้ถูกต้อง';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read อ่าน · $skipped ข้าม';
+  }
+
+  @override
+  String get wearRoundFinished => 'รอบเสร็จสิ้นแล้ว';
+
+  @override
+  String get wearPendingHint =>
+      'เปิดแอป EHW+ บนโทรศัพท์ของคุณหลังจากเชื่อมต่อใหม่ เพื่อนำเข้าข้อมูลการวัดที่ยังรอการนำเข้า';
+
+  @override
+  String get wearStorageError =>
+      'ไม่สามารถบันทึกหรือโหลดข้อมูลได้ ข้อมูลที่คุณป้อนยังไม่ได้รับการยืนยัน โปรดลองอีกครั้ง';
+
+  @override
+  String get wearSyncError =>
+      'ไม่สามารถส่งข้อมูลได้ ข้อมูลที่บันทึกไว้จะยังคงอยู่ในนาฬิกาของคุณ โปรดลองอีกครั้งหลังจากเชื่อมต่อใหม่';
+
+  @override
+  String get wearSkipped => 'ข้ามไป';
+
+  @override
+  String get wearEnterReading => 'เริ่มอ่าน';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'ตั้งแต่$date';
+  }
 }

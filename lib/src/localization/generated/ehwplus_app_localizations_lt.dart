@@ -4895,4 +4895,240 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'Šią teisę galite bet kuriuo metu pakeisti kiekvienam objektui atskirai.';
+
+  @override
+  String get wearSubscriptionRequired => 'Reikalingas „EHW+“ prenumerata';
+
+  @override
+  String get wearTrialDescription =>
+      'Išbandykite „Watch“ programėlę nemokamai 7 dienas. Nėra automatinio prenumeratos pratęsimo.';
+
+  @override
+  String get wearStartTrial => 'Išbandykite nemokamai 7 dienas';
+
+  @override
+  String get wearTrialWaiting =>
+      'Prašoma suteikti bandomąją versiją. Atidarykite „EHW+“ savo telefone, tada atnaujinkite šį puslapį.';
+
+  @override
+  String get wearTrialExpired => 'Teismo procesas baigėsi';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Prenumeruokite „EHW+“ savo telefone, kad galėtumėte toliau registruoti rodmenis. Išsaugoti rodmenys lieka prieinami perkėlimui.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Atidarykite „EHW+“ programėlę savo telefone, kad atnaujintumėte prieigą prie „Watch“. Abiejų programėlių versijos turi būti naujausios.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Nemokama bandomoji versija iki $date';
+  }
+
+  @override
+  String get wearMeters => 'Metrai';
+
+  @override
+  String get wearStatistics => 'Statistika';
+
+  @override
+  String get wearStatisticsEmpty => 'Atidarykite „EHW+“ savo telefone, kad perkeltumėte statistinius duomenis.';
+
+  @override
+  String get wearStatisticsPeriod => 'Laikotarpis';
+
+  @override
+  String get wearStatisticsLast14Days => 'Per pastarąsias 14 dienų';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Per pastarąsias 12 savaičių';
+
+  @override
+  String get wearStatisticsLast12Months => 'Per pastaruosius 12 mėnesių';
+
+  @override
+  String get wearStatisticsAll => 'Visų laikų';
+
+  @override
+  String get wearStatisticsPerDay => 'Per dieną';
+
+  @override
+  String get wearStatisticsPerMonth => 'Per mėnesį';
+
+  @override
+  String get wearStatisticsPerYear => 'Per metus';
+
+  @override
+  String get wearStatisticsAverage => 'Vidurkiai';
+
+  @override
+  String get wearStatisticsEstimates => 'Įskaitant prognozes';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Naudojimo išlaidos neapima bazinių mokesčių.';
+
+  @override
+  String get wearStatisticsNoValues => 'Duomenų apie šį laikotarpį nėra.';
+
+  @override
+  String get wearStatisticsPending => 'Statistika atnaujinama jūsų telefone po to, kai duomenys yra perkelti.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Elektros skaitiklis';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Elektros energijos matavimo prietaisas';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Elektros energijos tiekimo skaitiklis (saulės fotoelektrinė sistema)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Elektros energijos gamybos skaitiklis';
+
+  @override
+  String get wearCounterTypeWallbox => '„Wallbox“';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Saulės šiluminis kolektorius';
+
+  @override
+  String get wearCounterTypeGas => 'Dujų skaitiklis';
+
+  @override
+  String get wearCounterTypeHeater => 'Radiatoriaus matuoklis';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Centralizuotas šildymas';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Šilumos siurblys';
+
+  @override
+  String get wearCounterTypeOil => 'Šildymas naftos kuro katilais';
+
+  @override
+  String get wearCounterTypeStove => 'Krosnelė';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Šalto vandens skaitiklis';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Vandens paėmimo matuoklis (sodui)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Šilto vandens skaitiklis';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtuali matuoklė';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internetas ir telefonas';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Pasirinkite nekilnojamąjį turtą';
+
+  @override
+  String get wearEmpty =>
+      'Atidarykite „EHW+“ programėlę savo telefone, kad perkeltumėte nekilnojamąjį turtą ir skaitiklių duomenis.';
+
+  @override
+  String get wearRefresh => 'Atnaujinti';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Duomenys atnaujinti: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Nėra rankiniu būdu nuskaitomų skaitiklių.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current iš $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Paskutinis: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Anksčiau neskaityta';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Skaityti: $date';
+  }
+
+  @override
+  String get wearReview => 'Atsiliepimas';
+
+  @override
+  String get wearSave => 'Išsaugoti skaitymą';
+
+  @override
+  String get wearSaveAnyway => 'Patvirtinti ir išsaugoti';
+
+  @override
+  String get wearBack => 'Atgal';
+
+  @override
+  String wearDelta(String value) {
+    return 'Skirtumas: $value';
+  }
+
+  @override
+  String get wearWarning => 'Šis rodmuo skiriasi nuo numatytos tendencijos. Prašome patikrinti vertę ir matuoklį.';
+
+  @override
+  String get wearSavedLocal => 'Išsaugota stebėjimo sąraše';
+
+  @override
+  String get wearImported => 'Importuota į „EHW+“';
+
+  @override
+  String get wearConflict =>
+      'Šio rodmens nebuvo galima importuoti automatiškai. Prašome jį peržiūrėti savo telefone esančioje programėlėje „EHW+“.';
+
+  @override
+  String get wearUnavailable =>
+      'Nėra duomenų apie nekilnojamąjį turtą arba skaitiklį. Patikrinkite „EHW+“ savo telefone.';
+
+  @override
+  String get wearInvalid => 'Nepavyko importuoti skaitymo duomenų. Prašome ištaisyti.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read perskaityta · $skipped praleista';
+  }
+
+  @override
+  String get wearRoundFinished => 'Ratas baigtas';
+
+  @override
+  String get wearPendingHint =>
+      'Vėl prisijungę, atidarykite „EHW+“ savo telefone, kad importuotumėte laukiančius matavimus.';
+
+  @override
+  String get wearStorageError =>
+      'Nepavyko išsaugoti arba įkelti duomenų. Jūsų įvesties duomenys nebuvo patvirtinti. Prašome bandyti dar kartą.';
+
+  @override
+  String get wearSyncError =>
+      'Perkelti negalima. Įrašyti matavimų duomenys išlieka jūsų laikrodyje. Pabandykite dar kartą, kai vėl prisijungsite.';
+
+  @override
+  String get wearSkipped => 'Praleista';
+
+  @override
+  String get wearEnterReading => 'Pradėti skaityti';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Rungtynės nuo $date';
+  }
 }

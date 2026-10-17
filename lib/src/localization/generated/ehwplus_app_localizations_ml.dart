@@ -4900,4 +4900,238 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'ഓരോ ഒബ്ജക്റ്റിനും ഈ അനുമതി നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും മാറ്റാവുന്നതാണ്.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+ വരിക്കാരത്തം ആവശ്യമാണ്';
+
+  @override
+  String get wearTrialDescription =>
+      'വാച്ച് ആപ്പ് 7 ദിവസത്തേക്ക് സൗജന്യമായി പരീക്ഷിക്കുക. ഓട്ടോമാറ്റിക് സബ്സ്ക്രിപ്ഷനില്ല.';
+
+  @override
+  String get wearStartTrial => '7 ദിവസത്തേക്ക് സൗജന്യമായി പരീക്ഷിക്കുക';
+
+  @override
+  String get wearTrialWaiting => 'ട്രയൽ അഭ്യർത്ഥിച്ചു. നിങ്ങളുടെ ഫോണിൽ EHW+ തുറന്ന്, ഇവിടെ റീഫ്രഷ് ചെയ്യുക.';
+
+  @override
+  String get wearTrialExpired => 'ട്രയൽ അവസാനിച്ചു';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'വായനകൾ തുടർന്നും എടുക്കുന്നതിനായി നിങ്ങളുടെ ഫോണിൽ EHW+-ൽ വരിക്കാരാവുക. സേവ് ചെയ്ത വായനകൾ മാറ്റുന്നതിന് ലഭ്യമായി തുടരും.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'നിങ്ങളുടെ വാച്ചിലേക്കുള്ള ആക്‌സസ് അപ്‌ഡേറ്റ് ചെയ്യുന്നതിന് ഫോണിൽ EHW+ തുറക്കുക. രണ്ട് ആപ്പുകളും ഏറ്റവും പുതിയ പതിപ്പിലായിരിക്കണം.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return '$date വരെ സൗജന്യ ട്രയൽ';
+  }
+
+  @override
+  String get wearMeters => 'മീറ്ററുകൾ';
+
+  @override
+  String get wearStatistics => 'പരിസങ്കേതങ്ങൾ';
+
+  @override
+  String get wearStatisticsEmpty => 'സ്റ്റാറ്റിസ്റ്റിക്സ് ട്രാൻസ്ഫർ ചെയ്യുന്നതിനായി നിങ്ങളുടെ ഫോണിൽ EHW+ തുറക്കുക.';
+
+  @override
+  String get wearStatisticsPeriod => 'ആർത്തവം';
+
+  @override
+  String get wearStatisticsLast14Days => 'കഴിഞ്ഞ 14 ദിവസം';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'കഴിഞ്ഞ 12 ആഴ്ചകൾ';
+
+  @override
+  String get wearStatisticsLast12Months => 'കഴിഞ്ഞ 12 മാസങ്ങൾ';
+
+  @override
+  String get wearStatisticsAll => 'എക്കാലത്തെയും';
+
+  @override
+  String get wearStatisticsPerDay => 'പ്രതിദിനം';
+
+  @override
+  String get wearStatisticsPerMonth => 'ഓരോ മാസവും';
+
+  @override
+  String get wearStatisticsPerYear => 'ഓരോ വർഷവും';
+
+  @override
+  String get wearStatisticsAverage => 'ശരാശരികൾ';
+
+  @override
+  String get wearStatisticsEstimates => 'അനുമാനങ്ങൾ ഉൾപ്പെടുന്നു';
+
+  @override
+  String get wearStatisticsUsageCosts => 'ഉപയോഗച്ചെലവുകളിൽ അടിസ്ഥാന ഫീസ് ഉൾപ്പെടുന്നില്ല.';
+
+  @override
+  String get wearStatisticsNoValues => 'ഈ കാലയളവിലെ വിവരങ്ങളില്ല.';
+
+  @override
+  String get wearStatisticsPending => 'വായനകൾ കൈമാറിയ ശേഷം നിങ്ങളുടെ ഫോൺ സ്ഥിതിവിവരക്കണക്കുകൾ അപ്ഡേറ്റ് ചെയ്യുന്നു.';
+
+  @override
+  String get wearCounterTypeElectricity => 'വൈദ്യുതി മീറ്റർ';
+
+  @override
+  String get wearCounterTypeAmmeter => 'വൈദ്യുതി അളക്കുന്ന ഉപകരണം';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'വൈദ്യുതി ഫീഡ്-ഇൻ മീറ്റർ (പിവി)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'വൈദ്യുതി ഉത്പാദന മീറ്റർ';
+
+  @override
+  String get wearCounterTypeWallbox => 'വാൾബോക്സ്';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'സൗര താപ ശേഖരി';
+
+  @override
+  String get wearCounterTypeGas => 'വാതക മീറ്റർ';
+
+  @override
+  String get wearCounterTypeHeater => 'റേഡിയേറ്റർ മീറ്റർ';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'ജില്ലാ താപവിതരണം';
+
+  @override
+  String get wearCounterTypeHeatPump => 'ഹീറ്റ് പമ്പ്';
+
+  @override
+  String get wearCounterTypeOil => 'എണ്ണ ഹീറ്റിംഗ്';
+
+  @override
+  String get wearCounterTypeStove => 'അടുപ്പ്';
+
+  @override
+  String get wearCounterTypeWaterCold => 'തണുത്ത വെള്ള മീറ്റർ';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'ജലം വലിച്ചെടുക്കാനുള്ള മീറ്റർ (തോട്ടം)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'ചൂടുവെള്ള മീറ്റർ';
+
+  @override
+  String get wearCounterTypeVirtual => 'വെർച്വൽ മീറ്റർ';
+
+  @override
+  String get wearCounterTypeNetwork => 'ഇൻ്റർനെറ്റ് & ഫോൺ';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'വസ്തു തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get wearEmpty => 'പ്രോപ്പർട്ടികളും മീറ്ററുകളും കൈമാറുന്നതിനായി നിങ്ങളുടെ ഫോണിൽ EHW+ തുറക്കുക.';
+
+  @override
+  String get wearRefresh => 'പുതുക്കുക';
+
+  @override
+  String wearUpdated(String date) {
+    return 'ഡാറ്റ പുതുക്കിയത്: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'കൈകൊണ്ട് വായിക്കാവുന്ന മീറ്ററുകൾ ലഭ്യമല്ല.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return 'ആകെ യുടെ നിലവിലെ';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'അവസാനം: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'മുൻപരിചയം ആവശ്യമില്ല';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'വായിക്കുക: $date';
+  }
+
+  @override
+  String get wearReview => 'അവലോകനം';
+
+  @override
+  String get wearSave => 'വായന സൂക്ഷിക്കുക';
+
+  @override
+  String get wearSaveAnyway => 'സ്ഥിരീകരിക്കുകയും സേവ് ചെയ്യുകയും ചെയ്യുക';
+
+  @override
+  String get wearBack => 'തിരികെ';
+
+  @override
+  String wearDelta(String value) {
+    return 'വ്യത്യാസം: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'ഈ വായന പ്രതീക്ഷിക്കുന്ന പുരോഗതിയിൽ നിന്ന് വ്യത്യസ്തമാണ്. ദയവായി മൂല്യവും മീറ്ററും പരിശോധിക്കുക.';
+
+  @override
+  String get wearSavedLocal => 'വാച്ചിൽ സേവ് ചെയ്തു';
+
+  @override
+  String get wearImported => 'EHW+-ലേക്ക് ഇറക്കുമതി ചെയ്തു';
+
+  @override
+  String get wearConflict =>
+      'ഈ വായന സ്വയമേവ ഇറക്കുമതി ചെയ്യാൻ കഴിഞ്ഞില്ല. ദയവായി നിങ്ങളുടെ ഫോണിലെ EHW+-ൽ ഇത് അവലോകനം ചെയ്യുക.';
+
+  @override
+  String get wearUnavailable => 'പ്രോപ്പർട്ടിയോ മീറ്ററോ ലഭ്യമല്ല. നിങ്ങളുടെ ഫോണിൽ EHW+ പരിശോധിക്കുക.';
+
+  @override
+  String get wearInvalid => 'വായന ഇറക്കുമതി ചെയ്യാൻ കഴിഞ്ഞില്ല. ദയവായി അത് തിരുത്തുക.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read വായനകൾ · $skipped ഒഴിവാക്കിയത്';
+  }
+
+  @override
+  String get wearRoundFinished => 'വട്ടം പൂർത്തിയായി';
+
+  @override
+  String get wearPendingHint =>
+      'പending ആയ റീഡിംഗുകൾ ഇമ്പോർട്ട് ചെയ്യുന്നതിനായി, കണക്ഷൻ പുനഃസ്ഥാപിച്ച ശേഷം നിങ്ങളുടെ ഫോണിൽ EHW+ തുറക്കുക.';
+
+  @override
+  String get wearStorageError =>
+      'ഡാറ്റ സേവ് ചെയ്യാനോ ലോഡ് ചെയ്യാനോ കഴിഞ്ഞില്ല. നിങ്ങളുടെ ഇൻപുട്ട് സ്ഥിരീകരിച്ചിട്ടില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക.';
+
+  @override
+  String get wearSyncError =>
+      'മാറ്റാൻ സാധിക്കുന്നില്ല. സേവ് ചെയ്ത റീഡിംഗുകൾ നിങ്ങളുടെ വാച്ചിൽ തുടരും. വീണ്ടും കണക്ട് ചെയ്ത ശേഷം ശ്രമിക്കുക.';
+
+  @override
+  String get wearSkipped => 'ചാടിയത്';
+
+  @override
+  String get wearEnterReading => 'വായന ആരംഭിക്കുക';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$date-ൽ നിന്ന്';
+  }
 }

@@ -4909,4 +4909,242 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'W każdej chwili mogą Państwo zmienić to uprawnienie dla każdego obiektu.';
+
+  @override
+  String get wearSubscriptionRequired => 'Wymagana jest subskrypcja EHW+';
+
+  @override
+  String get wearTrialDescription => 'Wypróbuj aplikację Watch bezpłatnie przez 7 dni. Bez automatycznej subskrypcji.';
+
+  @override
+  String get wearStartTrial => 'Skorzystaj z bezpłatnego okresu próbnego trwającego 7 dni';
+
+  @override
+  String get wearTrialWaiting =>
+      'Zgłoszono prośbę o wersję próbną. Proszę otworzyć aplikację EHW+ na telefonie, a następnie odświeżyć tę stronę.';
+
+  @override
+  String get wearTrialExpired => 'Zakończono proces obserwacyjny';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Prosimy o subskrypcję w aplikacji EHW+ na Państwa telefonie, aby móc nadal rejestrować odczyty. Zapisane odczyty pozostają dostępne do przesłania.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Proszę uruchomić aplikację EHW+ na telefonie, aby zaktualizować dostęp do zegarka. Obie aplikacje muszą być zaktualizowane.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Bezpłatny okres próbny do dnia $date';
+  }
+
+  @override
+  String get wearMeters => 'Metry';
+
+  @override
+  String get wearStatistics => 'Statystyki';
+
+  @override
+  String get wearStatisticsEmpty =>
+      'Proszę uruchomić aplikację EHW+ na swoim telefonie, aby przesłać dane statystyczne.';
+
+  @override
+  String get wearStatisticsPeriod => 'Okres';
+
+  @override
+  String get wearStatisticsLast14Days => 'Ostatnie 14 dni';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Ostatnie 12 tygodni';
+
+  @override
+  String get wearStatisticsLast12Months => 'Ostatnie 12 miesięcy';
+
+  @override
+  String get wearStatisticsAll => 'W całej historii';
+
+  @override
+  String get wearStatisticsPerDay => 'Dzienne';
+
+  @override
+  String get wearStatisticsPerMonth => 'Miesięcznie';
+
+  @override
+  String get wearStatisticsPerYear => 'Rocznie';
+
+  @override
+  String get wearStatisticsAverage => 'Średnie';
+
+  @override
+  String get wearStatisticsEstimates => 'Zawiera szacunki';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Koszty użytkowania nie obejmują opłat podstawowych.';
+
+  @override
+  String get wearStatisticsNoValues => 'Brak danych dotyczących tego okresu.';
+
+  @override
+  String get wearStatisticsPending =>
+      'Dane statystyczne są aktualizowane przez Państwa telefon po przesłaniu odczytów.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Licznik energii elektrycznej';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Urządzenie do pomiaru energii elektrycznej';
+
+  @override
+  String get wearCounterTypeElectricityBack =>
+      'Licznik energii elektrycznej dostarczanej do sieci (instalacja fotowoltaiczna)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Licznik energii elektrycznej';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Kolektor słoneczny';
+
+  @override
+  String get wearCounterTypeGas => 'Licznik gazu';
+
+  @override
+  String get wearCounterTypeHeater => 'Licznik grzejnikowy';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Ogrzewanie sieciowe';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Pompa ciepła';
+
+  @override
+  String get wearCounterTypeOil => 'Ogrzewanie olejowe';
+
+  @override
+  String get wearCounterTypeStove => 'Kuchenka';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Wodomierz do zimnej wody';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Licznik poboru wody (ogrodowy)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Licznik ciepłej wody';
+
+  @override
+  String get wearCounterTypeVirtual => 'Licznik wirtualny';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet i telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Wybierz nieruchomość';
+
+  @override
+  String get wearEmpty =>
+      'Proszę otworzyć aplikację EHW+ na swoim telefonie, aby przenieść dane dotyczące nieruchomości i liczników.';
+
+  @override
+  String get wearRefresh => 'Odśwież';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Data aktualizacji: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Nie ma dostępnych liczników odczytywanych ręcznie.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current z $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Ostatnia: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Nie jest wymagana wcześniejsza lektura';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Data: $date';
+  }
+
+  @override
+  String get wearReview => 'Recenzja';
+
+  @override
+  String get wearSave => 'Zapisz tekst do przeczytania';
+
+  @override
+  String get wearSaveAnyway => 'Potwierdź i zapisz';
+
+  @override
+  String get wearBack => 'Powrót';
+
+  @override
+  String wearDelta(String value) {
+    return 'Różnica: $value';
+  }
+
+  @override
+  String get wearWarning => 'Odczyt ten odbiega od oczekiwanej wartości. Proszę sprawdzić wartość i miernik.';
+
+  @override
+  String get wearSavedLocal => 'Zapisano podczas oglądania';
+
+  @override
+  String get wearImported => 'Zaimportowano do programu EHW+';
+
+  @override
+  String get wearConflict =>
+      'Nie udało się automatycznie zaimportować tego odczytu. Prosimy o sprawdzenie go w aplikacji EHW+ na Państwa telefonie.';
+
+  @override
+  String get wearUnavailable =>
+      'Brak danych dotyczących nieruchomości lub licznika. Proszę sprawdzić aplikację EHW+ na swoim telefonie.';
+
+  @override
+  String get wearInvalid => 'Nie udało się zaimportować odczytu. Proszę to poprawić.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read przeczytane · $skipped pominięte';
+  }
+
+  @override
+  String get wearRoundFinished => 'Runda zakończona';
+
+  @override
+  String get wearPendingHint =>
+      'Po ponownym nawiązaniu połączenia proszę otworzyć aplikację EHW+ na telefonie, aby zaimportować oczekujące odczyty.';
+
+  @override
+  String get wearStorageError =>
+      'Nie udało się zapisać ani załadować danych. Państwa dane nie zostały potwierdzone. Proszę spróbować ponownie.';
+
+  @override
+  String get wearSyncError =>
+      'Przesyłanie danych jest niedostępne. Zapisane pomiary pozostają w Państwa zegarku. Proszę spróbować ponownie po ponownym nawiązaniu połączenia.';
+
+  @override
+  String get wearSkipped => 'Pominięto';
+
+  @override
+  String get wearEnterReading => 'Rozpocznij czytanie';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Runda z dnia $date';
+  }
 }

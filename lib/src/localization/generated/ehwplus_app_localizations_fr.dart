@@ -4919,4 +4919,241 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'Vous pouvez modifier cette autorisation pour chaque objet à tout moment.';
+
+  @override
+  String get wearSubscriptionRequired => 'Abonnement EHW+ requis';
+
+  @override
+  String get wearTrialDescription =>
+      'Essayez gratuitement l\'application Watch pendant 7 jours. Aucun abonnement automatique.';
+
+  @override
+  String get wearStartTrial => 'Essayez gratuitement pendant 7 jours';
+
+  @override
+  String get wearTrialWaiting => 'Essai demandé. Ouvrez l\'EHW+ sur votre téléphone, puis actualisez cette page.';
+
+  @override
+  String get wearTrialExpired => 'Le procès de Watch a pris fin';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Abonnez-vous à EHW+sur votre téléphone pour continuer à enregistrer vos mesures. Les mesures enregistrées restent disponibles pour être transférées.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Ouvrez l\'EHW+ sur votre téléphone pour mettre à jour l\'accès à votre montre. Les deux applications doivent être à jour.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Essai gratuit jusqu\'au $date';
+  }
+
+  @override
+  String get wearMeters => 'Mètres';
+
+  @override
+  String get wearStatistics => 'Statistiques';
+
+  @override
+  String get wearStatisticsEmpty => 'Ouvrez l\'EHW+ sur votre téléphone pour transférer les statistiques.';
+
+  @override
+  String get wearStatisticsPeriod => 'Période';
+
+  @override
+  String get wearStatisticsLast14Days => 'Au cours des 14 derniers jours';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Les 12 dernières semaines';
+
+  @override
+  String get wearStatisticsLast12Months => 'Au cours des 12 derniers mois';
+
+  @override
+  String get wearStatisticsAll => 'Depuis toujours';
+
+  @override
+  String get wearStatisticsPerDay => 'Par jour';
+
+  @override
+  String get wearStatisticsPerMonth => 'Par mois';
+
+  @override
+  String get wearStatisticsPerYear => 'Par an';
+
+  @override
+  String get wearStatisticsAverage => 'Moyennes';
+
+  @override
+  String get wearStatisticsEstimates => 'Comprend des estimations';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Les coûts d\'utilisation ne comprennent pas les frais de base.';
+
+  @override
+  String get wearStatisticsNoValues => 'Aucune donnée n\'est disponible pour cette période.';
+
+  @override
+  String get wearStatisticsPending =>
+      'Les statistiques sont mises à jour par votre téléphone une fois les relevés transférés.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Compteur d\'électricité';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Appareil de mesure de l\'électricité';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Compteur de rachat d\'électricité (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Compteur de production d\'électricité';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Capteur solaire thermique';
+
+  @override
+  String get wearCounterTypeGas => 'Compteur de gaz';
+
+  @override
+  String get wearCounterTypeHeater => 'Compteur de radiateur';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Chauffage urbain';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Pompe à chaleur';
+
+  @override
+  String get wearCounterTypeOil => 'Chauffage au fioul';
+
+  @override
+  String get wearCounterTypeStove => 'Cuisinière';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Compteur d\'eau froide';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Compteur d\'eau (jardin)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Compteur d\'eau chaude';
+
+  @override
+  String get wearCounterTypeVirtual => 'Compteur virtuel';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet et téléphone';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Choisissez un bien immobilier';
+
+  @override
+  String get wearEmpty =>
+      'Ouvrez l\'application EHW+ sur votre téléphone pour transférer les biens immobiliers et les compteurs.';
+
+  @override
+  String get wearRefresh => 'Actualiser';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Données mises à jour le : $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Il n\'y a pas de compteurs lisibles manuellement.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current sur $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Dernière mise à jour : $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Aucune lecture préalable';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Lire : $date';
+  }
+
+  @override
+  String get wearReview => 'Critique';
+
+  @override
+  String get wearSave => 'Enregistrer la lecture';
+
+  @override
+  String get wearSaveAnyway => 'Valider et enregistrer';
+
+  @override
+  String get wearBack => 'Retour';
+
+  @override
+  String wearDelta(String value) {
+    return 'Différence : $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Cette mesure s\'écarte de la progression attendue. Veuillez vérifier la valeur et le compteur.';
+
+  @override
+  String get wearSavedLocal => 'Enregistré sur la montre';
+
+  @override
+  String get wearImported => 'Importé dans EHW+';
+
+  @override
+  String get wearConflict =>
+      'Cette mesure n\'a pas pu être importée automatiquement. Veuillez la consulter dans l\'EHW+, sur votre téléphone.';
+
+  @override
+  String get wearUnavailable =>
+      'Données relatives au bien immobilier ou au compteur indisponibles. Consultez l\'EHW+sur votre téléphone.';
+
+  @override
+  String get wearInvalid => 'La lecture n\'a pas pu être importée. Veuillez corriger cela.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read lectures · $skipped sautées';
+  }
+
+  @override
+  String get wearRoundFinished => 'Tour terminé';
+
+  @override
+  String get wearPendingHint =>
+      'Ouvrez l\'EHW+ sur votre téléphone une fois la connexion rétablie afin d\'importer les mesures en attente.';
+
+  @override
+  String get wearStorageError =>
+      'Impossible d\'enregistrer ou de charger les données. Votre saisie n\'a pas été validée. Veuillez réessayer.';
+
+  @override
+  String get wearSyncError =>
+      'Le transfert est indisponible. Les mesures enregistrées restent sur votre montre. Veuillez réessayer après vous être reconnecté.';
+
+  @override
+  String get wearSkipped => 'Ignoré';
+
+  @override
+  String get wearEnterReading => 'Commencer la lecture';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Tour à partir du $date';
+  }
 }

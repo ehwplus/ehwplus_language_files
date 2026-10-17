@@ -4903,4 +4903,239 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'Puteți modifica această permisiune pentru fiecare obiect în orice moment.';
+
+  @override
+  String get wearSubscriptionRequired => 'Este necesar un abonament EHW+';
+
+  @override
+  String get wearTrialDescription => 'Încearcă aplicația Watch gratuit timp de 7 zile. Fără abonament automat.';
+
+  @override
+  String get wearStartTrial => 'Încearcă gratuit timp de 7 zile';
+
+  @override
+  String get wearTrialWaiting =>
+      'S-a solicitat o versiune de probă. Deschideți aplicația EHW+ pe telefon, apoi reîmprospătați pagina aceasta.';
+
+  @override
+  String get wearTrialExpired => 'Procesul de supraveghere s-a încheiat';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Abonați-vă la EHW+ pe telefonul dvs. pentru a continua să înregistrați valorile măsurate. Valorile măsurate salvate rămân disponibile pentru transfer.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Deschide aplicația EHW+ pe telefon pentru a-ți actualiza accesul la ceas. Ambele aplicații trebuie să fie la zi.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Perioadă de probă gratuită până la $date';
+  }
+
+  @override
+  String get wearMeters => 'Metri';
+
+  @override
+  String get wearStatistics => 'Statistici';
+
+  @override
+  String get wearStatisticsEmpty => 'Deschide aplicația EHW+ pe telefon pentru a transfera statisticile.';
+
+  @override
+  String get wearStatisticsPeriod => 'Perioadă';
+
+  @override
+  String get wearStatisticsLast14Days => 'Ultimele 14 zile';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Ultimele 12 săptămâni';
+
+  @override
+  String get wearStatisticsLast12Months => 'Ultimele 12 luni';
+
+  @override
+  String get wearStatisticsAll => 'De-a lungul timpului';
+
+  @override
+  String get wearStatisticsPerDay => 'Pe zi';
+
+  @override
+  String get wearStatisticsPerMonth => 'Pe lună';
+
+  @override
+  String get wearStatisticsPerYear => 'Pe an';
+
+  @override
+  String get wearStatisticsAverage => 'Medii';
+
+  @override
+  String get wearStatisticsEstimates => 'Include estimări';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Costurile de utilizare nu includ taxele de bază.';
+
+  @override
+  String get wearStatisticsNoValues => 'Nu există date pentru această perioadă.';
+
+  @override
+  String get wearStatisticsPending =>
+      'Statisticile sunt actualizate de telefonul tău după ce valorile măsurate sunt transferate.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Contor de energie electrică';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Dispozitiv de măsurare a energiei electrice';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Contor de alimentare cu energie electrică (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Contor de producție a energiei electrice';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Colector solar termic';
+
+  @override
+  String get wearCounterTypeGas => 'Contor de gaz';
+
+  @override
+  String get wearCounterTypeHeater => 'Contor pentru radiator';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Încălzire centralizată';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Pompă de căldură';
+
+  @override
+  String get wearCounterTypeOil => 'Încălzire cu petrol';
+
+  @override
+  String get wearCounterTypeStove => 'Aragaz';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Contor de apă rece';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Contor de extracție a apei (pentru grădină)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Contor de apă caldă';
+
+  @override
+  String get wearCounterTypeVirtual => 'Contor virtual';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet și telefonie';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Alegeți o proprietate';
+
+  @override
+  String get wearEmpty => 'Deschide aplicația EHW+ pe telefonul tău pentru a transfera proprietățile și contoarele.';
+
+  @override
+  String get wearRefresh => 'Reîmprospătează';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Date actualizate: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Nu sunt disponibile contoare care pot fi citite manual.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current din $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Ultima dată: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Nu este necesară citirea prealabilă';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Citește: $date';
+  }
+
+  @override
+  String get wearReview => 'Recenzie';
+
+  @override
+  String get wearSave => 'Salvează textul pentru citire';
+
+  @override
+  String get wearSaveAnyway => 'Confirmă și salvează';
+
+  @override
+  String get wearBack => 'Înapoi';
+
+  @override
+  String wearDelta(String value) {
+    return 'Diferență: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Această valoare diferă de evoluția preconizată. Vă rugăm să verificați valoarea și contorul.';
+
+  @override
+  String get wearSavedLocal => 'Salvat în lista de urmărire';
+
+  @override
+  String get wearImported => 'Importat în EHW+';
+
+  @override
+  String get wearConflict =>
+      'Această citire nu a putut fi importată automat. Vă rugăm să o verificați în aplicația EHW+ de pe telefonul dumneavoastră.';
+
+  @override
+  String get wearUnavailable => 'Proprietatea sau contorul nu sunt disponibile. Verificați aplicația EHW+ pe telefon.';
+
+  @override
+  String get wearInvalid => 'Nu s-a putut importa fișierul „Reading”. Vă rugăm să remediați problema.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read citiri · $skipped omise';
+  }
+
+  @override
+  String get wearRoundFinished => 'Runda s-a încheiat';
+
+  @override
+  String get wearPendingHint =>
+      'Deschide aplicația EHW+ pe telefon după ce te reconectezi pentru a importa valorile de măsurare în așteptare.';
+
+  @override
+  String get wearStorageError =>
+      'Nu s-au putut salva sau încărca datele. Introducerea dvs. nu a fost confirmată. Vă rugăm să încercați din nou.';
+
+  @override
+  String get wearSyncError =>
+      'Transferul nu este disponibil. Valorile înregistrate rămân pe ceasul tău. Încearcă din nou după ce te reconectezi.';
+
+  @override
+  String get wearSkipped => 'Omis';
+
+  @override
+  String get wearEnterReading => 'Începe lectura';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Runda din $date';
+  }
 }

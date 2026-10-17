@@ -4873,4 +4873,236 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Toto oprávnění můžete u každého objektu kdykoli změnit.';
+
+  @override
+  String get wearSubscriptionRequired => 'Je nutné předplatné EHW+';
+
+  @override
+  String get wearTrialDescription => 'Vyzkoušejte aplikaci Watch zdarma na 7 dní. Žádné automatické předplatné.';
+
+  @override
+  String get wearStartTrial => 'Vyzkoušejte zdarma na 7 dní';
+
+  @override
+  String get wearTrialWaiting =>
+      'Žádost o zkušební verzi. Spusťte aplikaci EHW+ ve svém telefonu a poté tuto stránku aktualizujte.';
+
+  @override
+  String get wearTrialExpired => 'Soudní řízení bylo ukončeno';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Přihlaste se k odběru v aplikaci EHW+ ve svém telefonu, abyste mohli i nadále zaznamenávat naměřené hodnoty. Uložené naměřené hodnoty zůstanou k dispozici pro přenos.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Spusťte v telefonu aplikaci EHW+ a aktualizujte přístup k hodinkám. Obě aplikace musí být v nejnovější verzi.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Bezplatná zkušební verze do $date';
+  }
+
+  @override
+  String get wearMeters => 'Metry';
+
+  @override
+  String get wearStatistics => 'Statistika';
+
+  @override
+  String get wearStatisticsEmpty => 'Spusťte v telefonu aplikaci EHW+, abyste mohli přenést statistiky.';
+
+  @override
+  String get wearStatisticsPeriod => 'Období';
+
+  @override
+  String get wearStatisticsLast14Days => 'Posledních 14 dní';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Posledních 12 týdnů';
+
+  @override
+  String get wearStatisticsLast12Months => 'Posledních 12 měsíců';
+
+  @override
+  String get wearStatisticsAll => 'Za celou dobu';
+
+  @override
+  String get wearStatisticsPerDay => 'Za den';
+
+  @override
+  String get wearStatisticsPerMonth => 'Za měsíc';
+
+  @override
+  String get wearStatisticsPerYear => 'Ročně';
+
+  @override
+  String get wearStatisticsAverage => 'Průměry';
+
+  @override
+  String get wearStatisticsEstimates => 'Zahrnuje odhady';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Náklady na provoz nezahrnují základní poplatky.';
+
+  @override
+  String get wearStatisticsNoValues => 'Pro toto období nejsou k dispozici žádné údaje.';
+
+  @override
+  String get wearStatisticsPending => 'Statistiky se ve vašem telefonu aktualizují po přenosu naměřených hodnot.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Elektroměr';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Měřicí přístroj pro elektrickou energii';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Měřič dodávané elektřiny (FV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Měřič výroby elektřiny';
+
+  @override
+  String get wearCounterTypeWallbox => 'Nabíjecí stanice Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Solární tepelný kolektor';
+
+  @override
+  String get wearCounterTypeGas => 'Plynový měřič';
+
+  @override
+  String get wearCounterTypeHeater => 'Měřidlo chladiče';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Dálkové vytápění';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Tepelné čerpadlo';
+
+  @override
+  String get wearCounterTypeOil => 'Olejové vytápění';
+
+  @override
+  String get wearCounterTypeStove => 'Sporák';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Měřič studené vody';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Měřič odběru vody (zahradní)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Teploměr';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtuální měřič';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet a telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Vyberte nemovitost';
+
+  @override
+  String get wearEmpty => 'Spusťte v telefonu aplikaci EHW+ a proveďte převod nemovitostí a měřidel.';
+
+  @override
+  String get wearRefresh => 'Obnovit';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Data aktualizována: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Nejsou k dispozici žádné ručně odečitatelné měřiče.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current z $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Poslední: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Žádné předchozí čtení';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Přečtěte si: $date';
+  }
+
+  @override
+  String get wearReview => 'Recenze';
+
+  @override
+  String get wearSave => 'Uložit ke čtení';
+
+  @override
+  String get wearSaveAnyway => 'Potvrdit a uložit';
+
+  @override
+  String get wearBack => 'Zpět';
+
+  @override
+  String wearDelta(String value) {
+    return 'Rozdíl: $value';
+  }
+
+  @override
+  String get wearWarning => 'Tento naměřený údaj se liší od očekávaného vývoje. Zkontrolujte prosím hodnotu a měřidlo.';
+
+  @override
+  String get wearSavedLocal => 'Uloženo při sledování';
+
+  @override
+  String get wearImported => 'Importováno do EHW+';
+
+  @override
+  String get wearConflict =>
+      'Tento údaj se nepodařilo importovat automaticky. Zkontrolujte jej prosím v aplikaci EHW+ ve svém telefonu.';
+
+  @override
+  String get wearUnavailable => 'Objekt nebo měřidlo není k dispozici. Zkontrolujte si v telefonu aplikaci EHW+.';
+
+  @override
+  String get wearInvalid => 'Čtení se nepodařilo importovat. Opravte to, prosím.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read přečteno · $skipped přeskočeno';
+  }
+
+  @override
+  String get wearRoundFinished => 'Kolo dokončeno';
+
+  @override
+  String get wearPendingHint =>
+      'Po opětovném připojení spusťte v telefonu aplikaci EHW+, abyste mohli importovat čekající naměřené hodnoty.';
+
+  @override
+  String get wearStorageError => 'Nelze uložit ani načíst data. Váš zadání nebylo potvrzeno. Zkuste to prosím znovu.';
+
+  @override
+  String get wearSyncError =>
+      'Přenos není k dispozici. Uložené hodnoty zůstanou ve vašich hodinkách. Zkuste to znovu po opětovném připojení.';
+
+  @override
+  String get wearSkipped => 'Přeskočeno';
+
+  @override
+  String get wearEnterReading => 'Začít číst';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Kolo od $date';
+  }
 }

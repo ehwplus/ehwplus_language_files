@@ -4886,4 +4886,237 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'Možete promijeniti ovu dozvolu za svaki objekt u bilo kojem trenutku.';
+
+  @override
+  String get wearSubscriptionRequired => 'Potrebna je pretplata na EHW+.';
+
+  @override
+  String get wearTrialDescription => 'Isprobajte aplikaciju Watch besplatno 7 dana. Nema automatske pretplate.';
+
+  @override
+  String get wearStartTrial => 'Isprobajte besplatno 7 dana';
+
+  @override
+  String get wearTrialWaiting => 'Zatražen probni period. Otvorite EHW+ na svom telefonu, a zatim ovdje osvježite.';
+
+  @override
+  String get wearTrialExpired => 'Promatranje suđenja je završeno';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Pretplatite se na EHW+ na svom telefonu kako biste nastavili uzimati očitanja. Sačuvana očitanja ostaju dostupna za prijenos.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Otvorite EHW+ na svom telefonu da biste ažurirali pristup na satu. Obje aplikacije moraju biti ažurirane.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Besplatno probno razdoblje do $date';
+  }
+
+  @override
+  String get wearMeters => 'Mjerači';
+
+  @override
+  String get wearStatistics => 'Statistika';
+
+  @override
+  String get wearStatisticsEmpty => 'Otvorite EHW+ na svom telefonu da biste prenijeli statistiku.';
+
+  @override
+  String get wearStatisticsPeriod => 'Period';
+
+  @override
+  String get wearStatisticsLast14Days => 'Posljednjih 14 dana';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Posljednjih 12 sedmica';
+
+  @override
+  String get wearStatisticsLast12Months => 'Posljednjih 12 mjeseci';
+
+  @override
+  String get wearStatisticsAll => 'Sva vremena';
+
+  @override
+  String get wearStatisticsPerDay => 'Po danu';
+
+  @override
+  String get wearStatisticsPerMonth => 'Po mjesecu';
+
+  @override
+  String get wearStatisticsPerYear => 'Po godini';
+
+  @override
+  String get wearStatisticsAverage => 'Prosjeci';
+
+  @override
+  String get wearStatisticsEstimates => 'Uključuje procjene';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Troškovi upotrebe ne uključuju osnovne naknade.';
+
+  @override
+  String get wearStatisticsNoValues => 'Nema podataka za ovaj period.';
+
+  @override
+  String get wearStatisticsPending => 'Statistike se na vašem telefonu ažuriraju nakon što se očitavanja prenesu.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Električni brojilac';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Uređaj za mjerenje električne energije';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Mjeril za ulaz električne energije (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Mjerilo za proizvodnju električne energije';
+
+  @override
+  String get wearCounterTypeWallbox => 'Zidna kutija';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Solarni toplinski kolektor';
+
+  @override
+  String get wearCounterTypeGas => 'Gasomjer';
+
+  @override
+  String get wearCounterTypeHeater => 'Mjerač radijatora';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Daljinsko grijanje';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Toplota pumpa';
+
+  @override
+  String get wearCounterTypeOil => 'Ulje za grijanje';
+
+  @override
+  String get wearCounterTypeStove => 'Šporet';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Mjerilo hladne vode';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Mjeril za ispuštanje vode (za vrt)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Mjeril za toplu vodu';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtualni brojilac';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet i telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Odaberite nekretninu';
+
+  @override
+  String get wearEmpty => 'Otvorite EHW+ na svom telefonu da biste prenijeli nekretnine i brojila.';
+
+  @override
+  String get wearRefresh => 'Osvježi';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Podaci ažurirani: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Nema dostupnih ručno čitljivih brojila.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current od $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Posljednje: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Nema prethodnog čitanja';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Pročitano: $date';
+  }
+
+  @override
+  String get wearReview => 'Recenzija';
+
+  @override
+  String get wearSave => 'Sačuvaj čitanje';
+
+  @override
+  String get wearSaveAnyway => 'Potvrdi i sačuvaj';
+
+  @override
+  String get wearBack => 'Nazad';
+
+  @override
+  String wearDelta(String value) {
+    return 'Razlika: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Ovo očitanje se razlikuje od očekivanog napredovanja. Molimo provjerite vrijednost i mjerač.';
+
+  @override
+  String get wearSavedLocal => 'Sačuvano na nadzoru';
+
+  @override
+  String get wearImported => 'Uvezeno u EHW+';
+
+  @override
+  String get wearConflict =>
+      'Ovo čitanje nije moglo biti automatski uvezeno. Molimo pregledajte ga u aplikaciji EHW+ na svom telefonu.';
+
+  @override
+  String get wearUnavailable => 'Nekretnina ili brojilo nedostupni. Provjerite EHW+ na svom telefonu.';
+
+  @override
+  String get wearInvalid => 'Čitanje se nije moglo uvesti. Molimo ispravite to.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read čitanja · $skipped preskočeno';
+  }
+
+  @override
+  String get wearRoundFinished => 'Krug je završen';
+
+  @override
+  String get wearPendingHint =>
+      'Otvorite EHW+ na svom telefonu nakon ponovnog povezivanja kako biste importirali čekajuća očitanja.';
+
+  @override
+  String get wearStorageError =>
+      'Nije moguće sačuvati ili učitati podatke. Vaš unos nije potvrđen. Molimo pokušajte ponovo.';
+
+  @override
+  String get wearSyncError =>
+      'Prijenos nije dostupan. Sačuvana očitanja ostaju na vašem satu. Pokušajte ponovo nakon ponovnog povezivanja.';
+
+  @override
+  String get wearSkipped => 'Preskočeno';
+
+  @override
+  String get wearEnterReading => 'Uđi u čitanje';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Kružno od $date';
+  }
 }

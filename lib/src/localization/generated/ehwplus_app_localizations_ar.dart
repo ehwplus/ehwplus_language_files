@@ -4832,4 +4832,233 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'يمكنك تغيير هذا الإذن لكل كائن في أي وقت.';
+
+  @override
+  String get wearSubscriptionRequired => 'يلزم الاشتراك في EHW+';
+
+  @override
+  String get wearTrialDescription => 'جرب تطبيق Watch مجانًا لمدة 7 أيام. لا يوجد اشتراك تلقائي.';
+
+  @override
+  String get wearStartTrial => 'جربه مجانًا لمدة 7 أيام';
+
+  @override
+  String get wearTrialWaiting => 'طلبت نسخة تجريبية. افتح تطبيق EHW+ على هاتفك، ثم قم بتحديث الصفحة هنا.';
+
+  @override
+  String get wearTrialExpired => 'انتهت جلسة الاستماع';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'اشترك في خدمة «EHW+» على هاتفك لمواصلة تسجيل القراءات. تظل القراءات المحفوظة متاحة للنقل.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'افتح تطبيق «EHW+» على هاتفك لتحديث صلاحية الوصول إلى ساعتك. يجب أن يكون كلا التطبيقين محدثين.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'تجربة مجانية حتى $date';
+  }
+
+  @override
+  String get wearMeters => 'الأمتار';
+
+  @override
+  String get wearStatistics => 'الإحصاءات';
+
+  @override
+  String get wearStatisticsEmpty => 'افتح تطبيق «EHW+» على هاتفك لنقل الإحصائيات.';
+
+  @override
+  String get wearStatisticsPeriod => 'الفترة';
+
+  @override
+  String get wearStatisticsLast14Days => 'الأيام الـ14 الماضية';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'الـ12 أسبوعًا الماضية';
+
+  @override
+  String get wearStatisticsLast12Months => 'الـ 12 شهراً الماضية';
+
+  @override
+  String get wearStatisticsAll => 'على مر الزمن';
+
+  @override
+  String get wearStatisticsPerDay => 'في اليوم';
+
+  @override
+  String get wearStatisticsPerMonth => 'شهريًّا';
+
+  @override
+  String get wearStatisticsPerYear => 'سنويًا';
+
+  @override
+  String get wearStatisticsAverage => 'المتوسطات';
+
+  @override
+  String get wearStatisticsEstimates => 'يتضمن تقديرات';
+
+  @override
+  String get wearStatisticsUsageCosts => 'لا تشمل تكاليف الاستخدام الرسوم الأساسية.';
+
+  @override
+  String get wearStatisticsNoValues => 'لا توجد بيانات عن هذه الفترة.';
+
+  @override
+  String get wearStatisticsPending => 'يتم تحديث الإحصائيات على هاتفك بعد نقل القراءات.';
+
+  @override
+  String get wearCounterTypeElectricity => 'عداد الكهرباء';
+
+  @override
+  String get wearCounterTypeAmmeter => 'جهاز قياس الكهرباء';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'عداد تغذية الكهرباء (الطاقة الكهروضوئية)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'عداد توليد الكهرباء';
+
+  @override
+  String get wearCounterTypeWallbox => 'وولبوكس';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'المجمع الحراري الشمسي';
+
+  @override
+  String get wearCounterTypeGas => 'عداد الغاز';
+
+  @override
+  String get wearCounterTypeHeater => 'عداد المبرد';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'التدفئة المركزية';
+
+  @override
+  String get wearCounterTypeHeatPump => 'المضخة الحرارية';
+
+  @override
+  String get wearCounterTypeOil => 'التدفئة بالزيت';
+
+  @override
+  String get wearCounterTypeStove => 'موقد';
+
+  @override
+  String get wearCounterTypeWaterCold => 'عداد المياه الباردة';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'عداد استهلاك المياه (للحديقة)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'عداد المياه الدافئة';
+
+  @override
+  String get wearCounterTypeVirtual => 'عداد افتراضي';
+
+  @override
+  String get wearCounterTypeNetwork => 'الإنترنت والهاتف';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'اختر عقارًا';
+
+  @override
+  String get wearEmpty => 'افتح تطبيق «EHW+» على هاتفك لنقل بيانات العقارات وعدادات الاستهلاك.';
+
+  @override
+  String get wearRefresh => 'تحديث';
+
+  @override
+  String wearUpdated(String date) {
+    return 'تاريخ تحديث البيانات: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'لا توجد عدادات يمكن قراءتها يدويًّا.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current من $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'آخر تحديث: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'لا توجد قراءات سابقة';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'اقرأ: $date';
+  }
+
+  @override
+  String get wearReview => 'مراجعة';
+
+  @override
+  String get wearSave => 'تخطي القراءة';
+
+  @override
+  String get wearSaveAnyway => 'تأكيد وحفظ';
+
+  @override
+  String get wearBack => 'العودة';
+
+  @override
+  String wearDelta(String value) {
+    return 'الفرق: $value';
+  }
+
+  @override
+  String get wearWarning => 'تختلف هذه القراءة عن المسار المتوقع. يرجى التحقق من القيمة والوحدة.';
+
+  @override
+  String get wearSavedLocal => 'تم حفظه في قائمة المراقبة';
+
+  @override
+  String get wearImported => 'تم استيرادها إلى EHW+';
+
+  @override
+  String get wearConflict => 'لم يتم استيراد هذه القراءة تلقائيًا. يرجى مراجعتها في تطبيق EHW+ على هاتفك.';
+
+  @override
+  String get wearUnavailable => 'العقار أو العداد غير متاح. تحقق من تطبيق EHW+ على هاتفك.';
+
+  @override
+  String get wearInvalid => 'تعذر استيراد ملف «Reading». يرجى تصحيح ذلك.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read قراءات · $skipped تم تخطيها';
+  }
+
+  @override
+  String get wearRoundFinished => 'اكتملت الجولة';
+
+  @override
+  String get wearPendingHint => 'افتح تطبيق EHW+ على هاتفك بعد إعادة الاتصال لاستيراد القراءات المعلقة.';
+
+  @override
+  String get wearStorageError =>
+      'تعذر حفظ البيانات أو تحميلها. لم يتم تأكيد المدخلات التي أدخلتها. يرجى المحاولة مرة أخرى.';
+
+  @override
+  String get wearSyncError => 'النسخ غير متاح. تظل القراءات المحفوظة على ساعتك. حاول مرة أخرى بعد إعادة الاتصال.';
+
+  @override
+  String get wearSkipped => 'تم تخطيها';
+
+  @override
+  String get wearEnterReading => 'ابدأ القراءة';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'جولة من $date';
+  }
 }

@@ -4849,4 +4849,236 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'شما می‌توانید این اجازه را برای هر شیء در هر زمان تغییر دهید.';
+
+  @override
+  String get wearSubscriptionRequired => 'اشتراک EHW+ الزامی است';
+
+  @override
+  String get wearTrialDescription =>
+      'اپلیکیشن Watch را به مدت ۷ روز رایگان امتحان کنید. اشتراک به‌صورت خودکار تمدید نمی‌شود.';
+
+  @override
+  String get wearStartTrial => '۷ روز رایگان امتحان کنید';
+
+  @override
+  String get wearTrialWaiting => 'درخواست آزمایش.   EHW+ را در گوشی خود باز کنید، سپس اینجا را تازه کنید.';
+
+  @override
+  String get wearTrialExpired => 'مراقبت آزمایشی پایان یافت';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'در EHW+ روی گوشی خود مشترک شوید تا به ثبت اندازه‌گیری‌ها ادامه دهید. اندازه‌گیری‌های ذخیره‌شده همچنان برای انتقال در دسترس هستند.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'اپلیکیشن EHW+ را در گوشی خود باز کنید تا دسترسی ساعت خود را به‌روزرسانی کنید. هر دو برنامه باید به‌روز باشند.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'دوره آزمایشی رایگان تا تاریخ $date';
+  }
+
+  @override
+  String get wearMeters => 'مترها';
+
+  @override
+  String get wearStatistics => 'آمار';
+
+  @override
+  String get wearStatisticsEmpty => 'برای انتقال آمار، اپلیکیشEHW+ را روی گوشی خود باز کنید.';
+
+  @override
+  String get wearStatisticsPeriod => 'نقطه';
+
+  @override
+  String get wearStatisticsLast14Days => '۱۴ روز گذشته';
+
+  @override
+  String get wearStatisticsLast12Weeks => '۱۲ هفته گذشته';
+
+  @override
+  String get wearStatisticsLast12Months => '۱۲ ماه گذشته';
+
+  @override
+  String get wearStatisticsAll => 'تمام زمان‌ها';
+
+  @override
+  String get wearStatisticsPerDay => 'به ازای هر روز';
+
+  @override
+  String get wearStatisticsPerMonth => 'به ازای هر ماه';
+
+  @override
+  String get wearStatisticsPerYear => 'در سال';
+
+  @override
+  String get wearStatisticsAverage => 'میانگین‌ها';
+
+  @override
+  String get wearStatisticsEstimates => 'شامل برآوردها';
+
+  @override
+  String get wearStatisticsUsageCosts => 'هزینه‌های استفاده شامل هزینه‌های پایه نمی‌شوند.';
+
+  @override
+  String get wearStatisticsNoValues => 'داده‌ای برای این دوره وجود ندارد.';
+
+  @override
+  String get wearStatisticsPending => 'آمار پس از انتقال قرائت‌ها توسط تلفن شما به‌روزرسانی می‌شود.';
+
+  @override
+  String get wearCounterTypeElectricity => 'کنتور برق';
+
+  @override
+  String get wearCounterTypeAmmeter => 'دستگاه اندازه‌گیری برق';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'کنتور تزریق برق (فوتوولتائیک)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'کنتور تولید برق';
+
+  @override
+  String get wearCounterTypeWallbox => 'دیوارکُش';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'جمع‌کننده حرارتی خورشیدی';
+
+  @override
+  String get wearCounterTypeGas => 'کنتور گاز';
+
+  @override
+  String get wearCounterTypeHeater => 'شمارنده رادیاتور';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'گرمایش منطقه‌ای';
+
+  @override
+  String get wearCounterTypeHeatPump => 'پمپ حرارتی';
+
+  @override
+  String get wearCounterTypeOil => 'گرمایش با نفت';
+
+  @override
+  String get wearCounterTypeStove => 'اجاق گاز';
+
+  @override
+  String get wearCounterTypeWaterCold => 'شمارنده آب سرد';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'شمارنده برداشت آب (باغچه)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'شمارنده آب گرم';
+
+  @override
+  String get wearCounterTypeVirtual => 'کنتور مجازی';
+
+  @override
+  String get wearCounterTypeNetwork => 'اینترنت و تلفن';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'ملک را انتخاب کنید';
+
+  @override
+  String get wearEmpty => 'EHW+ را در گوشی خود باز کنید تا ویژگی‌ها و شمارگرها را منتقل کنید.';
+
+  @override
+  String get wearRefresh => 'تازه کردن';
+
+  @override
+  String wearUpdated(String date) {
+    return 'داده‌ها به‌روزرسانی شدند: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'هیچ متر قابل‌خواندن به‌صورت دستی در دسترس نیست.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current از $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'آخرین: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'نیازی به مطالعه قبلی نیست';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'خوانده شد: $date';
+  }
+
+  @override
+  String get wearReview => 'نقد و بررسی';
+
+  @override
+  String get wearSave => 'ذخیرهٔ مطالعه';
+
+  @override
+  String get wearSaveAnyway => 'تأیید و ذخیره';
+
+  @override
+  String get wearBack => 'بازگشت';
+
+  @override
+  String wearDelta(String value) {
+    return 'تفاوت: $value';
+  }
+
+  @override
+  String get wearWarning => 'این خوانش با پیشرفت مورد انتظار متفاوت است. لطفاً مقدار و ضرب‌آهنگ را بررسی کنید.';
+
+  @override
+  String get wearSavedLocal => 'در حال تماشا ذخیره شد';
+
+  @override
+  String get wearImported => 'واردشده به EHW+';
+
+  @override
+  String get wearConflict => 'این متن قابل وارد شدن خودکار نبود. لطفاً آن را در EHW+ روی گوشی خود مرور کنید.';
+
+  @override
+  String get wearUnavailable => 'املاک یا کنتور در دسترس نیست. EHW+ را در تلفن خود بررسی کنید.';
+
+  @override
+  String get wearInvalid => 'خواندن قابل وارد کردن نبود. لطفاً آن را اصلاح کنید.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read خوانده شده · $skipped رد شده';
+  }
+
+  @override
+  String get wearRoundFinished => 'دور کامل شد';
+
+  @override
+  String get wearPendingHint =>
+      'پس از برقراری مجدد اتصال، اپلیکیشEHW+ را در گوشی خود باز کنید تا قرائت‌های در انتظار را وارد کند.';
+
+  @override
+  String get wearStorageError =>
+      'امکان ذخیره یا بارگذاری داده‌ها وجود ندارد. ورودی شما تأیید نشده است. لطفاً دوباره تلاش کنید.';
+
+  @override
+  String get wearSyncError =>
+      'انتقال امکان‌پذیر نیست.   خوانش‌های ذخیره‌شده روی ساعت شما باقی می‌مانند.   پس از برقراری مجدد اتصال دوباره تلاش کنید.';
+
+  @override
+  String get wearSkipped => 'نادیده گرفته شد';
+
+  @override
+  String get wearEnterReading => 'خواندن را آغاز کنید';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'گرد از $date';
+  }
 }

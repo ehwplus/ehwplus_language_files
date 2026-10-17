@@ -4901,4 +4901,237 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'Ezt a jogosultságot bármikor módosíthatja az egyes objektumok esetében.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+-előfizetés szükséges';
+
+  @override
+  String get wearTrialDescription => 'Próbáld ki a Watch alkalmazást 7 napig ingyen. Nincs automatikus előfizetés.';
+
+  @override
+  String get wearStartTrial => 'Próbáld ki ingyen 7 napig!';
+
+  @override
+  String get wearTrialWaiting => 'Próbaverzió igénylése. Nyissa meg az EHW+-t a telefonján, majd frissítse az oldalt.';
+
+  @override
+  String get wearTrialExpired => 'A megfigyelési eljárás lezárult';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Iratkozzon fel az EHW+-ra a telefonján, hogy továbbra is rögzíthesse az értékeket. A mentett értékek továbbra is átvihetők.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Nyisd meg az EHW+ alkalmazást a telefonodon, hogy frissítsd a Watch-hozzáférésedet. Mindkét alkalmazásnak naprakésznek kell lennie.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Ingyenes próbaidőszak $date-ig';
+  }
+
+  @override
+  String get wearMeters => 'Méter';
+
+  @override
+  String get wearStatistics => 'Statisztikák';
+
+  @override
+  String get wearStatisticsEmpty => 'Nyisd meg az EHW+-t a telefonodon a statisztikák átviteléhez.';
+
+  @override
+  String get wearStatisticsPeriod => 'Időszak';
+
+  @override
+  String get wearStatisticsLast14Days => 'Az elmúlt 14 nap';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Az elmúlt 12 hét';
+
+  @override
+  String get wearStatisticsLast12Months => 'Az elmúlt 12 hónap';
+
+  @override
+  String get wearStatisticsAll => 'Minden idők';
+
+  @override
+  String get wearStatisticsPerDay => 'Naponta';
+
+  @override
+  String get wearStatisticsPerMonth => 'Havonta';
+
+  @override
+  String get wearStatisticsPerYear => 'Évente';
+
+  @override
+  String get wearStatisticsAverage => 'Átlagok';
+
+  @override
+  String get wearStatisticsEstimates => 'Becsléseket is tartalmaz';
+
+  @override
+  String get wearStatisticsUsageCosts => 'A használati költségek nem tartalmazzák az alapdíjakat.';
+
+  @override
+  String get wearStatisticsNoValues => 'Erre az időszakra nincs adat.';
+
+  @override
+  String get wearStatisticsPending => 'A statisztikákat a telefon frissíti az adatok átvitelét követően.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Villamosenergia-fogyasztásmérő';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Árammérő készülék';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Villamosenergia-visszatápláló mérő (napelemes)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Villamosenergia-termelési mérő';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Napenergia-kollektor';
+
+  @override
+  String get wearCounterTypeGas => 'Gázmérő';
+
+  @override
+  String get wearCounterTypeHeater => 'Fűtőtest-mérő';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Távfűtés';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Hőszivattyú';
+
+  @override
+  String get wearCounterTypeOil => 'Olajfűtés';
+
+  @override
+  String get wearCounterTypeStove => 'Tűzhely';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Hidegvíz-fogyasztásmérő';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Vízfogyasztásmérő (kert)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Melegvíz-fogyasztásmérő';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtuális mérő';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet és telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Ingatlan kiválasztása';
+
+  @override
+  String get wearEmpty =>
+      'Nyissa meg az EHW+ alkalmazást a telefonján az ingatlanok és a fogyasztómérők adatainak átviteléhez.';
+
+  @override
+  String get wearRefresh => 'Frissítés';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Adatok frissítése: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Nincsenek kézzel leolvasható mérőórák.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current a $total-ból';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Utolsó: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Előzetes olvasmány nincs';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Olvasás: $date';
+  }
+
+  @override
+  String get wearReview => 'Vélemény';
+
+  @override
+  String get wearSave => 'Olvasás elmentése';
+
+  @override
+  String get wearSaveAnyway => 'Megerősítés és mentés';
+
+  @override
+  String get wearBack => 'Vissza';
+
+  @override
+  String wearDelta(String value) {
+    return 'Különbség: $value';
+  }
+
+  @override
+  String get wearWarning => 'Ez az érték eltér a várt értéktől. Kérjük, ellenőrizze az értéket és a mérőt.';
+
+  @override
+  String get wearSavedLocal => 'Megőrzve a figyelőlistán';
+
+  @override
+  String get wearImported => 'EHW+-ba importálva';
+
+  @override
+  String get wearConflict =>
+      'Ez az olvasmány nem importálható automatikusan. Kérjük, nézze át az EHW+-ban a telefonján.';
+
+  @override
+  String get wearUnavailable => 'Az ingatlan vagy a fogyasztásmérő nem elérhető. Ellenőrizze az EHW+-t a telefonján.';
+
+  @override
+  String get wearInvalid => 'Az olvasási adatokat nem sikerült importálni. Kérjük, javítsa ki!';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read elolvasott · $skipped kihagyott';
+  }
+
+  @override
+  String get wearRoundFinished => 'A forduló befejeződött';
+
+  @override
+  String get wearPendingHint =>
+      'Miután újra csatlakozott, nyissa meg az EHW+-t a telefonján a feldolgozásra váró mérési eredmények importálásához.';
+
+  @override
+  String get wearStorageError =>
+      'Nem sikerült elmenteni vagy betölteni az adatokat. A bevitt adatokat nem sikerült megerősíteni. Kérjük, próbálja meg újra.';
+
+  @override
+  String get wearSyncError =>
+      'Az adatátvitel nem lehetséges. A mentett mérési eredmények az órán maradnak. Próbálja meg újra, miután újra csatlakozott.';
+
+  @override
+  String get wearSkipped => 'Kihagyva';
+
+  @override
+  String get wearEnterReading => 'Olvasás megkezdése';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$date-től kezdődő forduló';
+  }
 }

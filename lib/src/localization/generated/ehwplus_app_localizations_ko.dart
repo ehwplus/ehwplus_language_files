@@ -4737,4 +4737,230 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => '이 권한은 각 개체에 대해 언제든지 변경할 수 있습니다.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+ 구독이 필요합니다';
+
+  @override
+  String get wearTrialDescription => 'Watch 앱을 7일간 무료로 체험해 보세요. 자동 구독은 없습니다.';
+
+  @override
+  String get wearStartTrial => '7일간 무료로 체험해 보세요';
+
+  @override
+  String get wearTrialWaiting => '체험판 신청을 요청합니다. 휴대폰에서 EHW+를 실행한 후, 이 페이지를 새로 고침해 주세요.';
+
+  @override
+  String get wearTrialExpired => '시청 재판이 종료되었습니다';
+
+  @override
+  String get wearSubscribeOnPhone => '휴대폰에서 EHW+를 구독하여 계속해서 측정값을 기록하세요. 저장된 측정값은 언제든지 전송할 수 있습니다.';
+
+  @override
+  String get wearAccessSyncRequired => '휴대폰에서 EHW+ 앱을 실행하여 Watch 액세스 권한을 업데이트하세요. 두 앱 모두 최신 버전이어야 합니다.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return '$date까지 무료 체험';
+  }
+
+  @override
+  String get wearMeters => '미터';
+
+  @override
+  String get wearStatistics => '통계';
+
+  @override
+  String get wearStatisticsEmpty => '통계 데이터를 전송하려면 휴대폰에서 EHW+를 실행하세요.';
+
+  @override
+  String get wearStatisticsPeriod => '기간';
+
+  @override
+  String get wearStatisticsLast14Days => '지난 14일';
+
+  @override
+  String get wearStatisticsLast12Weeks => '지난 12주';
+
+  @override
+  String get wearStatisticsLast12Months => '지난 12개월';
+
+  @override
+  String get wearStatisticsAll => '역대';
+
+  @override
+  String get wearStatisticsPerDay => '1일당';
+
+  @override
+  String get wearStatisticsPerMonth => '월별';
+
+  @override
+  String get wearStatisticsPerYear => '연간';
+
+  @override
+  String get wearStatisticsAverage => '평균값';
+
+  @override
+  String get wearStatisticsEstimates => '추정치 포함';
+
+  @override
+  String get wearStatisticsUsageCosts => '사용 비용에는 기본 요금이 포함되지 않습니다.';
+
+  @override
+  String get wearStatisticsNoValues => '이 기간에 대한 데이터가 없습니다.';
+
+  @override
+  String get wearStatisticsPending => '측정값이 전송된 후, 휴대폰에서 통계가 업데이트됩니다.';
+
+  @override
+  String get wearCounterTypeElectricity => '전기 계량기';
+
+  @override
+  String get wearCounterTypeAmmeter => '전력 계량기';
+
+  @override
+  String get wearCounterTypeElectricityBack => '태양광 발전용 전력 계량기 (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => '발전 계량기';
+
+  @override
+  String get wearCounterTypeWallbox => '월박스';
+
+  @override
+  String get wearCounterTypeSolarThermal => '태양열 집열기';
+
+  @override
+  String get wearCounterTypeGas => '가스 계량기';
+
+  @override
+  String get wearCounterTypeHeater => '라디에이터 계량기';
+
+  @override
+  String get wearCounterTypeDistrictHeating => '지역난방';
+
+  @override
+  String get wearCounterTypeHeatPump => '히트 펌프';
+
+  @override
+  String get wearCounterTypeOil => '석유 난방';
+
+  @override
+  String get wearCounterTypeStove => '스토브';
+
+  @override
+  String get wearCounterTypeWaterCold => '냉수 계량기';
+
+  @override
+  String get wearCounterTypeWaterExtraction => '물 사용량 계량기 (정원용)';
+
+  @override
+  String get wearCounterTypeWaterWarm => '온수 계량기';
+
+  @override
+  String get wearCounterTypeVirtual => '가상 계량기';
+
+  @override
+  String get wearCounterTypeNetwork => '인터넷 및 전화';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => '부동산 선택하기';
+
+  @override
+  String get wearEmpty => '휴대폰에서 EHW+를 실행하여 부동산 및 계량기 정보를 이전하세요.';
+
+  @override
+  String get wearRefresh => '새로 고침';
+
+  @override
+  String wearUpdated(String date) {
+    return '데이터 업데이트일: $date';
+  }
+
+  @override
+  String get wearNoMeters => '수동으로 판독할 수 있는 계량기가 없습니다.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$total 중 $current';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return '마지막: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => '사전 읽기 자료 없음';
+
+  @override
+  String wearReadingDate(String date) {
+    return '읽기: $date';
+  }
+
+  @override
+  String get wearReview => '리뷰';
+
+  @override
+  String get wearSave => '읽기 저장';
+
+  @override
+  String get wearSaveAnyway => '확인 후 저장';
+
+  @override
+  String get wearBack => '뒤로';
+
+  @override
+  String wearDelta(String value) {
+    return '차이: $value';
+  }
+
+  @override
+  String get wearWarning => '이 측정값은 예상된 추이와 다릅니다. 값과 계량기를 확인해 주시기 바랍니다.';
+
+  @override
+  String get wearSavedLocal => '시계에 저장됨';
+
+  @override
+  String get wearImported => 'EHW+로 가져옴';
+
+  @override
+  String get wearConflict => '이 읽기 자료를 자동으로 가져올 수 없습니다. 휴대폰의 EHW+에서 확인해 주세요.';
+
+  @override
+  String get wearUnavailable => '해당 부동산 또는 계량기를 확인할 수 없습니다. 휴대폰에서 EHW+를 확인해 주세요.';
+
+  @override
+  String get wearInvalid => '읽기 데이터를 가져올 수 없습니다. 수정해 주십시오.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read 읽은 글 · $skipped 건너뛴 글';
+  }
+
+  @override
+  String get wearRoundFinished => '라운드 완료';
+
+  @override
+  String get wearPendingHint => '다시 연결한 후 휴대폰에서 EHW+를 실행하여 보류 중인 측정값을 가져오세요.';
+
+  @override
+  String get wearStorageError => '데이터를 저장하거나 불러올 수 없습니다. 입력 내용이 확인되지 않았습니다. 다시 시도해 주세요.';
+
+  @override
+  String get wearSyncError => '전송할 수 없습니다. 저장된 측정값은 시계에 그대로 남아 있습니다. 다시 연결한 후 다시 시도해 주세요.';
+
+  @override
+  String get wearSkipped => '건뜜';
+
+  @override
+  String get wearEnterReading => '읽기 시작하기';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$date부터의 라운드';
+  }
 }

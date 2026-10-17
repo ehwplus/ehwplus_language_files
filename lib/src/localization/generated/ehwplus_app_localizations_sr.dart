@@ -4885,4 +4885,237 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Можете променити ово овлашћење за сваки објекат у било ком тренутку.';
+
+  @override
+  String get wearSubscriptionRequired => 'Потребна претплата на EHW+';
+
+  @override
+  String get wearTrialDescription => 'Испробајте апликацију Watch бесплатно 7 дана. Без аутоматског претплаћивања.';
+
+  @override
+  String get wearStartTrial => 'Испробајте бесплатно 7 дана';
+
+  @override
+  String get wearTrialWaiting =>
+      'Захтев за пробу је послат. Отворите EHW+ на свом телефону, а затим овде освежите страницу.';
+
+  @override
+  String get wearTrialExpired => 'Суђење је окончано';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Претплатите се на EHW+ на свом телефону да бисте наставили са мерењима. Сачувана мерења остају доступна за пренос.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Отворите апликацију EHW+ на свом телефону да бисте ажурирали приступ сату. Обе апликације морају бити ажуриране.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Бесплатан пробни период до $date';
+  }
+
+  @override
+  String get wearMeters => 'Метри';
+
+  @override
+  String get wearStatistics => 'Статистика';
+
+  @override
+  String get wearStatisticsEmpty => 'Отворите EHW+ на свом телефону да пренесете статистику.';
+
+  @override
+  String get wearStatisticsPeriod => 'Период';
+
+  @override
+  String get wearStatisticsLast14Days => 'Последњих 14 дана';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Последњих 12 недеља';
+
+  @override
+  String get wearStatisticsLast12Months => 'Последњих 12 месеци';
+
+  @override
+  String get wearStatisticsAll => 'Сва времена';
+
+  @override
+  String get wearStatisticsPerDay => 'По дану';
+
+  @override
+  String get wearStatisticsPerMonth => 'По месецу';
+
+  @override
+  String get wearStatisticsPerYear => 'По години';
+
+  @override
+  String get wearStatisticsAverage => 'Просеци';
+
+  @override
+  String get wearStatisticsEstimates => 'Укључује процене';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Трошкови коришћења не укључују основне накнаде.';
+
+  @override
+  String get wearStatisticsNoValues => 'Нема података за овај период.';
+
+  @override
+  String get wearStatisticsPending => 'Статистике се ажурирају на вашем телефону након преноса мерења.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Бројило за струју';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Уређај за мерење електричне струје';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Мереч упуштања електричне енергије (ПВ)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Мереч за производњу електричне енергије';
+
+  @override
+  String get wearCounterTypeWallbox => 'Волбокс';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Соларни топлотни колектор';
+
+  @override
+  String get wearCounterTypeGas => 'Гасметар';
+
+  @override
+  String get wearCounterTypeHeater => 'Мерач радијатора';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Топлотно снабдевање';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Топлинска пумпа';
+
+  @override
+  String get wearCounterTypeOil => 'Грејање на уље';
+
+  @override
+  String get wearCounterTypeStove => 'Шпорет';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Мереч температуре хладне воде';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Мерен за испумпавање воде (башта)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Мереч топлоте';
+
+  @override
+  String get wearCounterTypeVirtual => 'Виртуелни бројилац';
+
+  @override
+  String get wearCounterTypeNetwork => 'Интернет и телефон';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Изаберите својство';
+
+  @override
+  String get wearEmpty => 'Отворите EHW+ на свом телефону да пренесете својства и бројила.';
+
+  @override
+  String get wearRefresh => 'Освежи';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Подаци ажурирани: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Ниједан ручно читљив мерач није доступан.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current од $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Последње: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Нема претходног читања';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Прочитајте: $date';
+  }
+
+  @override
+  String get wearReview => 'Рецензија';
+
+  @override
+  String get wearSave => 'Сачувај читање';
+
+  @override
+  String get wearSaveAnyway => 'Потврди и сачувај';
+
+  @override
+  String get wearBack => 'Назад';
+
+  @override
+  String wearDelta(String value) {
+    return 'Разлика: $value';
+  }
+
+  @override
+  String get wearWarning => 'Ово читање се разликује од очекиваног тока. Молимо проверите вредност и мерно средство.';
+
+  @override
+  String get wearSavedLocal => 'Сачувано на сату';
+
+  @override
+  String get wearImported => 'Увезено у EHW+';
+
+  @override
+  String get wearConflict =>
+      'Ово читање није могло да се увози аутоматски. Молимо вас да га прегледате у апликацији EHW+ на вашем телефону.';
+
+  @override
+  String get wearUnavailable => 'Некретнина или бројило нису доступни. Проверите EHW+ на свом телефону.';
+
+  @override
+  String get wearInvalid => 'Читање није могло да се увезе. Молимо вас да то исправите.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read прочитано · $skipped прескокнуто';
+  }
+
+  @override
+  String get wearRoundFinished => 'Рунд је завршен';
+
+  @override
+  String get wearPendingHint =>
+      'Отворите EHW+ на свом телефону након поновног повезивања да бисте увезли недовршена мерења.';
+
+  @override
+  String get wearStorageError =>
+      'Није могуће сачувати или учитати податке. Ваш унос није потврђен. Молимо покушајте поново.';
+
+  @override
+  String get wearSyncError =>
+      'Пренос није доступан. Сачувани резултати остају на вашем сату. Покушајте поново након поновног повезивања.';
+
+  @override
+  String get wearSkipped => 'Прескочио';
+
+  @override
+  String get wearEnterReading => 'Унесите читање';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Кружно од $date';
+  }
 }

@@ -4869,4 +4869,235 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'आप किसी भी समय प्रत्येक ऑब्जेक्ट के लिए इस अनुमति को बदल सकते हैं।';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+ सदस्यता आवश्यक है';
+
+  @override
+  String get wearTrialDescription => 'Watch ऐप को 7 दिनों के लिए मुफ्त में आज़माएँ। कोई स्वचालित सदस्यता नहीं।';
+
+  @override
+  String get wearStartTrial => '7 दिनों के लिए मुफ्त में आज़माएँ';
+
+  @override
+  String get wearTrialWaiting => 'ट्रायल अनुरोधित। अपने फोन पर EHW+ खोलें, फिर यहाँ रिफ्रेश करें।';
+
+  @override
+  String get wearTrialExpired => 'परीक्षण समाप्त हो गया';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'रीडिंग्स लेना जारी रखने के लिए अपने फोन पर EHW+ की सदस्यता लें।  सहेजी गई रीडिंग्स ट्रांसफर के लिए उपलब्ध रहती हैं।';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'EHW+ को अपने फोन पर खोलें और अपनी वॉच एक्सेस अपडेट करें। दोनों ऐप्स अपडेटेड होनी चाहिए।';
+
+  @override
+  String wearTrialUntil(String date) {
+    return '$date तक मुफ्त परीक्षण';
+  }
+
+  @override
+  String get wearMeters => 'मीटर';
+
+  @override
+  String get wearStatistics => 'सांख्यिकी';
+
+  @override
+  String get wearStatisticsEmpty => 'सांख्यिकी स्थानांतरित करने के लिए अपने फोन पर EHW+ खोलें।';
+
+  @override
+  String get wearStatisticsPeriod => 'अवधि';
+
+  @override
+  String get wearStatisticsLast14Days => 'पिछले 14 दिन';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'पिछले 12 सप्ताह';
+
+  @override
+  String get wearStatisticsLast12Months => 'पिछले 12 महीने';
+
+  @override
+  String get wearStatisticsAll => 'सदैव';
+
+  @override
+  String get wearStatisticsPerDay => 'प्रति दिन';
+
+  @override
+  String get wearStatisticsPerMonth => 'प्रति माह';
+
+  @override
+  String get wearStatisticsPerYear => 'प्रति वर्ष';
+
+  @override
+  String get wearStatisticsAverage => 'औसत';
+
+  @override
+  String get wearStatisticsEstimates => 'अनुमान शामिल हैं';
+
+  @override
+  String get wearStatisticsUsageCosts => 'उपयोग लागत में आधार शुल्क शामिल नहीं हैं।';
+
+  @override
+  String get wearStatisticsNoValues => 'इस अवधि के लिए कोई डेटा नहीं।';
+
+  @override
+  String get wearStatisticsPending => 'पढ़ाई के बाद आपके फोन पर आँकड़े अपडेट हो जाते हैं।';
+
+  @override
+  String get wearCounterTypeElectricity => 'बिजली मीटर';
+
+  @override
+  String get wearCounterTypeAmmeter => 'विद्युत मापन यंत्र';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'बिजली फीड-इन मीटर (पीवी)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'विद्युत उत्पादन मीटर';
+
+  @override
+  String get wearCounterTypeWallbox => 'दीवार का बॉक्स';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'सौर ऊष्मीय संग्राहक';
+
+  @override
+  String get wearCounterTypeGas => 'गैस मीटर';
+
+  @override
+  String get wearCounterTypeHeater => 'रेडिएटर मीटर';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'जिला ताप आपूर्ति';
+
+  @override
+  String get wearCounterTypeHeatPump => 'हीट पंप';
+
+  @override
+  String get wearCounterTypeOil => 'तेल हीटिंग';
+
+  @override
+  String get wearCounterTypeStove => 'चूल्हा';
+
+  @override
+  String get wearCounterTypeWaterCold => 'ठंडे पानी का मीटर';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'जल निष्कर्षण मीटर (बगीचा)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'गर्म पानी मीटर';
+
+  @override
+  String get wearCounterTypeVirtual => 'आभासी मीटर';
+
+  @override
+  String get wearCounterTypeNetwork => 'इंटरनेट और फोन';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'संपत्ति चुनें';
+
+  @override
+  String get wearEmpty => 'EHW+ को अपने फोन पर खोलें और संपत्तियों तथा मीटरों को स्थानांतरित करें।';
+
+  @override
+  String get wearRefresh => 'ताज़ा करें';
+
+  @override
+  String wearUpdated(String date) {
+    return 'डेटा अद्यतन किया गया: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'कोई मैन्युअली पठनीय मीटर उपलब्ध नहीं हैं।';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current का $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'अंतिम: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'कोई पूर्व पठन नहीं';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'पढ़ें: $date';
+  }
+
+  @override
+  String get wearReview => 'समीक्षा';
+
+  @override
+  String get wearSave => 'पढ़ना सहेजें';
+
+  @override
+  String get wearSaveAnyway => 'पुष्टि करें और सहेजें';
+
+  @override
+  String get wearBack => 'वापस';
+
+  @override
+  String wearDelta(String value) {
+    return 'अंतर: $value';
+  }
+
+  @override
+  String get wearWarning => 'यह रीडिंग अपेक्षित प्रगति से भिन्न है। कृपया मान और मीटर की जाँच करें।';
+
+  @override
+  String get wearSavedLocal => 'वॉच पर सहेजा गया';
+
+  @override
+  String get wearImported => 'EHW+ में आयातित';
+
+  @override
+  String get wearConflict =>
+      'इस रीडिंग को स्वचालित रूप से आयात नहीं किया जा सका। कृपया इसे अपने फोन पर EHW+ में समीक्षा करें।';
+
+  @override
+  String get wearUnavailable => 'संपत्ति या मीटर उपलब्ध नहीं है। अपने फोन पर EHW+ देखें।';
+
+  @override
+  String get wearInvalid => 'रीडिंग आयात नहीं की जा सकी। कृपया इसे ठीक करें।';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read पढ़ा गया · $skipped छोड़ा गया';
+  }
+
+  @override
+  String get wearRoundFinished => 'राउंड पूरा हुआ';
+
+  @override
+  String get wearPendingHint => 'पेंडिंग रीडिंग्स इम्पोर्ट करने के लिए अपने फोन पर EHW+ खोलें।';
+
+  @override
+  String get wearStorageError =>
+      'डेटा सहेजने या लोड करने में असमर्थ। आपका इनपुट पुष्टि नहीं हुआ है। कृपया फिर से प्रयास करें।';
+
+  @override
+  String get wearSyncError =>
+      'स्थानांतरण उपलब्ध नहीं है। सहेजी गई रीडिंग्स आपकी घड़ी पर बनी रहेंगी। फिर से कनेक्ट करने के बाद फिर से प्रयास करें।';
+
+  @override
+  String get wearSkipped => 'छूटा';
+
+  @override
+  String get wearEnterReading => 'पढ़ना शुरू करें';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$date से गोल';
+  }
 }

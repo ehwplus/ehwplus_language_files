@@ -4896,4 +4896,237 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Anda dapat mengubah izin ini untuk setiap objek kapan saja.';
+
+  @override
+  String get wearSubscriptionRequired => 'Diperlukan langganan EHW+';
+
+  @override
+  String get wearTrialDescription => 'Coba aplikasi Watch secara gratis selama 7 hari. Tanpa langganan otomatis.';
+
+  @override
+  String get wearStartTrial => 'Coba gratis selama 7 hari';
+
+  @override
+  String get wearTrialWaiting => 'Mohon uji coba. Buka EHW+ di ponsel Anda, lalu segarkan halaman ini.';
+
+  @override
+  String get wearTrialExpired => 'Sidang pengawasan telah berakhir';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Berlanggananlah di EHW+ melalui ponsel Anda agar dapat terus mencatat hasil pengukuran. Hasil pengukuran yang telah disimpan tetap dapat ditransfer.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Buka aplikasi EHW+ di ponsel Anda untuk memperbarui akses ke Watch Anda. Kedua aplikasi tersebut harus sudah diperbarui ke versi terbaru.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Uji coba gratis hingga $date';
+  }
+
+  @override
+  String get wearMeters => 'Meter';
+
+  @override
+  String get wearStatistics => 'Statistik';
+
+  @override
+  String get wearStatisticsEmpty => 'Buka aplikasi EHW+ di ponsel Anda untuk mentransfer data statistik.';
+
+  @override
+  String get wearStatisticsPeriod => 'Periode';
+
+  @override
+  String get wearStatisticsLast14Days => '14 hari terakhir';
+
+  @override
+  String get wearStatisticsLast12Weeks => '12 minggu terakhir';
+
+  @override
+  String get wearStatisticsLast12Months => '12 bulan terakhir';
+
+  @override
+  String get wearStatisticsAll => 'Sepanjang masa';
+
+  @override
+  String get wearStatisticsPerDay => 'Per hari';
+
+  @override
+  String get wearStatisticsPerMonth => 'Per bulan';
+
+  @override
+  String get wearStatisticsPerYear => 'Per tahun';
+
+  @override
+  String get wearStatisticsAverage => 'Rata-rata';
+
+  @override
+  String get wearStatisticsEstimates => 'Termasuk perkiraan';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Biaya penggunaan tidak termasuk biaya dasar.';
+
+  @override
+  String get wearStatisticsNoValues => 'Tidak ada data untuk periode ini.';
+
+  @override
+  String get wearStatisticsPending => 'Data statistik diperbarui oleh ponsel Anda setelah hasil pengukuran dikirimkan.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Meteran listrik';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Alat pengukur listrik';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Meteran penyaluran listrik (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Meteran pembangkit listrik';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Kolektor Panas Matahari';
+
+  @override
+  String get wearCounterTypeGas => 'Meteran gas';
+
+  @override
+  String get wearCounterTypeHeater => 'Pengukur radiator';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Pemanasan Wilayah';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Pompa panas';
+
+  @override
+  String get wearCounterTypeOil => 'Pemanasan dengan minyak';
+
+  @override
+  String get wearCounterTypeStove => 'Kompor';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Meteran air dingin';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Pengukur aliran air (taman)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Pengukur air hangat';
+
+  @override
+  String get wearCounterTypeVirtual => 'Pengukur virtual';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internet & telepon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Pilih properti';
+
+  @override
+  String get wearEmpty => 'Buka aplikasi EHW+ di ponsel Anda untuk mentransfer data properti dan meteran.';
+
+  @override
+  String get wearRefresh => 'Segarkan';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Data diperbarui: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Tidak tersedia meteran yang dapat dibaca secara manual.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current dari $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Terakhir: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Tidak perlu membaca materi sebelumnya';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Baca: $date';
+  }
+
+  @override
+  String get wearReview => 'Ulasan';
+
+  @override
+  String get wearSave => 'Simpan bacaan';
+
+  @override
+  String get wearSaveAnyway => 'Konfirmasi dan simpan';
+
+  @override
+  String get wearBack => 'Kembali';
+
+  @override
+  String wearDelta(String value) {
+    return 'Perbedaan: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Hasil pembacaan ini berbeda dari perkembangan yang diharapkan. Mohon periksa nilainya dan satuan ukurannya.';
+
+  @override
+  String get wearSavedLocal => 'Tersimpan di jam tangan';
+
+  @override
+  String get wearImported => 'Diimpor ke EHW+';
+
+  @override
+  String get wearConflict =>
+      'Data pembacaan ini tidak dapat diimpor secara otomatis. Silakan periksa data tersebut di EHW+ melalui ponsel Anda.';
+
+  @override
+  String get wearUnavailable => 'Properti atau meteran tidak tersedia. Silakan periksa EHW+ di ponsel Anda.';
+
+  @override
+  String get wearInvalid => 'File \"Reading\" tidak dapat diimpor. Mohon perbaiki.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read bacaan · $skipped dilewati';
+  }
+
+  @override
+  String get wearRoundFinished => 'Putaran telah selesai';
+
+  @override
+  String get wearPendingHint =>
+      'Buka aplikasi EHW+ di ponsel Anda setelah terhubung kembali untuk mengimpor data pengukuran yang tertunda.';
+
+  @override
+  String get wearStorageError =>
+      'Tidak dapat menyimpan atau memuat data. Masukan Anda belum dikonfirmasi. Silakan coba lagi.';
+
+  @override
+  String get wearSyncError =>
+      'Fitur transfer tidak tersedia. Data yang telah disimpan tetap tersimpan di jam tangan Anda. Silakan coba lagi setelah terhubung kembali.';
+
+  @override
+  String get wearSkipped => 'Dilewati';
+
+  @override
+  String get wearEnterReading => 'Mulai membaca';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Bab dari $date';
+  }
 }

@@ -4690,4 +4690,230 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => '您可以随时针对每个对象更改此权限。';
+
+  @override
+  String get wearSubscriptionRequired => '需订阅 EHW+';
+
+  @override
+  String get wearTrialDescription => '免费试用“Watch”应用7天。不会自动订阅。';
+
+  @override
+  String get wearStartTrial => '免费试用7天';
+
+  @override
+  String get wearTrialWaiting => '申请试用。请在手机上打开EHW+，然后在此页面刷新。';
+
+  @override
+  String get wearTrialExpired => '旁听庭审结束';
+
+  @override
+  String get wearSubscribeOnPhone => '在手机上订阅EHW+，以便继续记录读数。已保存的读数仍可进行传输。';
+
+  @override
+  String get wearAccessSyncRequired => '在手机上打开EHW+，以更新您的Apple Watch访问权限。两款应用都必须更新到最新版本。';
+
+  @override
+  String wearTrialUntil(String date) {
+    return '免费试用至$date';
+  }
+
+  @override
+  String get wearMeters => '米';
+
+  @override
+  String get wearStatistics => '统计数据';
+
+  @override
+  String get wearStatisticsEmpty => '在手机上打开EHW+以传输统计数据。';
+
+  @override
+  String get wearStatisticsPeriod => '时期';
+
+  @override
+  String get wearStatisticsLast14Days => '过去14天';
+
+  @override
+  String get wearStatisticsLast12Weeks => '过去12周';
+
+  @override
+  String get wearStatisticsLast12Months => '过去12个月';
+
+  @override
+  String get wearStatisticsAll => '历史总计';
+
+  @override
+  String get wearStatisticsPerDay => '每天';
+
+  @override
+  String get wearStatisticsPerMonth => '每月';
+
+  @override
+  String get wearStatisticsPerYear => '每年';
+
+  @override
+  String get wearStatisticsAverage => '平均值';
+
+  @override
+  String get wearStatisticsEstimates => '包括估计值';
+
+  @override
+  String get wearStatisticsUsageCosts => '使用费用不包括基础费用。';
+
+  @override
+  String get wearStatisticsNoValues => '此期间无数据。';
+
+  @override
+  String get wearStatisticsPending => '数据传输完成后，您的手机会自动更新统计数据。';
+
+  @override
+  String get wearCounterTypeElectricity => '电表';
+
+  @override
+  String get wearCounterTypeAmmeter => '电能计量装置';
+
+  @override
+  String get wearCounterTypeElectricityBack => '电力并网电表（光伏）';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => '发电量表';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => '太阳能集热器';
+
+  @override
+  String get wearCounterTypeGas => '燃气表';
+
+  @override
+  String get wearCounterTypeHeater => '散热器流量计';
+
+  @override
+  String get wearCounterTypeDistrictHeating => '区域供热';
+
+  @override
+  String get wearCounterTypeHeatPump => '热泵';
+
+  @override
+  String get wearCounterTypeOil => '燃油供暖';
+
+  @override
+  String get wearCounterTypeStove => '炉子';
+
+  @override
+  String get wearCounterTypeWaterCold => '冷水表';
+
+  @override
+  String get wearCounterTypeWaterExtraction => '取水计量表（花园用）';
+
+  @override
+  String get wearCounterTypeWaterWarm => '热水表';
+
+  @override
+  String get wearCounterTypeVirtual => '虚拟仪表';
+
+  @override
+  String get wearCounterTypeNetwork => '互联网与电话';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => '选择房产';
+
+  @override
+  String get wearEmpty => '在手机上打开EHW+，进行房产和电表的过户。';
+
+  @override
+  String get wearRefresh => '刷新';
+
+  @override
+  String wearUpdated(String date) {
+    return '数据更新时间：$date';
+  }
+
+  @override
+  String get wearNoMeters => '没有可人工读数的仪表。';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current/$total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return '最后：$value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => '无需预读';
+
+  @override
+  String wearReadingDate(String date) {
+    return '阅读：$date';
+  }
+
+  @override
+  String get wearReview => '评论';
+
+  @override
+  String get wearSave => '跳过阅读';
+
+  @override
+  String get wearSaveAnyway => '确认并保存';
+
+  @override
+  String get wearBack => '返回';
+
+  @override
+  String wearDelta(String value) {
+    return '差异：$value';
+  }
+
+  @override
+  String get wearWarning => '该读数与预期变化趋势不符。请检查数值和计量表。';
+
+  @override
+  String get wearSavedLocal => '已保存至“正在关注”列表';
+
+  @override
+  String get wearImported => '已导入EHW+';
+
+  @override
+  String get wearConflict => '无法自动导入此阅读内容。请在手机上的 EHW+ 中查看。';
+
+  @override
+  String get wearUnavailable => '无法获取房产或电表信息。请在手机上查看EHW+。';
+
+  @override
+  String get wearInvalid => '无法导入读数。请予以更正。';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read 已阅读 · $skipped 已跳过';
+  }
+
+  @override
+  String get wearRoundFinished => '本轮已完成';
+
+  @override
+  String get wearPendingHint => '重新连接后，请在手机上打开EHW+，以导入待导入的读数。';
+
+  @override
+  String get wearStorageError => '无法保存或加载数据。您的输入尚未得到确认。请重试。';
+
+  @override
+  String get wearSyncError => '无法传输。已保存的读数仍保存在您的手表中。请重新连接后再试。';
+
+  @override
+  String get wearSkipped => '已跳过';
+
+  @override
+  String get wearEnterReading => '开始阅读';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$date 轮';
+  }
 }

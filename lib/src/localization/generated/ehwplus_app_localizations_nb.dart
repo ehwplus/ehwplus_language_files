@@ -4876,4 +4876,238 @@ class EhwplusAppLocalizationsNb extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'Du kan når som helst endre denne tillatelsen for hvert enkelt objekt.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+-abonnement kreves';
+
+  @override
+  String get wearTrialDescription => 'Prøv Watch-appen gratis i 7 dager. Ingen automatisk abonnement.';
+
+  @override
+  String get wearStartTrial => 'Prøv gratis i 7 dager';
+
+  @override
+  String get wearTrialWaiting =>
+      'Det er bedt om en prøveperiode. Åpne EHW+ på telefonen din, og oppdater deretter denne siden.';
+
+  @override
+  String get wearTrialExpired => 'Rettssaken mot Watch er avsluttet';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Abonner på EHW+ på mobilen din for å fortsette å ta målinger. Lagrede målinger vil fortsatt være tilgjengelige for overføring.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Åpne EHW+ på telefonen din for å oppdatere tilgangen til klokken din. Begge appene må være oppdatert.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Gratis prøveperiode frem til $date';
+  }
+
+  @override
+  String get wearMeters => 'Meter';
+
+  @override
+  String get wearStatistics => 'Statistikk';
+
+  @override
+  String get wearStatisticsEmpty => 'Åpne EHW+ på telefonen din for å overføre statistikk.';
+
+  @override
+  String get wearStatisticsPeriod => 'Periode';
+
+  @override
+  String get wearStatisticsLast14Days => 'De siste 14 dagene';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'De siste 12 ukene';
+
+  @override
+  String get wearStatisticsLast12Months => 'De siste 12 månedene';
+
+  @override
+  String get wearStatisticsAll => 'Gjennom tidene';
+
+  @override
+  String get wearStatisticsPerDay => 'Per dag';
+
+  @override
+  String get wearStatisticsPerMonth => 'Per måned';
+
+  @override
+  String get wearStatisticsPerYear => 'Per år';
+
+  @override
+  String get wearStatisticsAverage => 'Gjennomsnitt';
+
+  @override
+  String get wearStatisticsEstimates => 'Inkluderer anslag';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Brukskostnadene inkluderer ikke grunnavgiftene.';
+
+  @override
+  String get wearStatisticsNoValues => 'Ingen data for denne perioden.';
+
+  @override
+  String get wearStatisticsPending => 'Statistikken oppdateres av telefonen din etter at målingene er overført.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Strømmåler';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Strømmåler';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Strømmåler for innmating (solceller)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Strømproduksjonsmåler';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Solvarmefanger';
+
+  @override
+  String get wearCounterTypeGas => 'Gassmåler';
+
+  @override
+  String get wearCounterTypeHeater => 'Radiatormåler';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Fjernvarme';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Varmepumpe';
+
+  @override
+  String get wearCounterTypeOil => 'Oljeoppvarming';
+
+  @override
+  String get wearCounterTypeStove => 'Komfyr';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Kaldtvannsmåler';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Vannforbruksmåler (hage)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Varmtvannsmåler';
+
+  @override
+  String get wearCounterTypeVirtual => 'Virtuell måler';
+
+  @override
+  String get wearCounterTypeNetwork => 'Internett og telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Velg eiendom';
+
+  @override
+  String get wearEmpty => 'Åpne EHW+ på telefonen din for å overføre eiendommer og målere.';
+
+  @override
+  String get wearRefresh => 'Oppdater';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Data oppdatert: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Det finnes ingen målere som kan avleses manuelt.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current av $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Siste: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Ingen tidligere lesning';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Les: $date';
+  }
+
+  @override
+  String get wearReview => 'Anmeldelse';
+
+  @override
+  String get wearSave => 'Lagre lesingen';
+
+  @override
+  String get wearSaveAnyway => 'Bekreft og lagre';
+
+  @override
+  String get wearBack => 'Tilbake';
+
+  @override
+  String wearDelta(String value) {
+    return 'Forskjell: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Denne målingen avviker fra den forventede utviklingen. Vennligst sjekk verdien og måleren.';
+
+  @override
+  String get wearSavedLocal => 'Lagret under «Overvåking»';
+
+  @override
+  String get wearImported => 'Importert til EHW+';
+
+  @override
+  String get wearConflict =>
+      'Denne avlesningen kunne ikke importeres automatisk. Vennligst sjekk den i EHW+-appen på telefonen din.';
+
+  @override
+  String get wearUnavailable => 'Eiendom eller måler er ikke tilgjengelig. Sjekk EHW+ på telefonen din.';
+
+  @override
+  String get wearInvalid => 'Lesingen kunne ikke importeres. Vennligst rett opp i dette.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read lest · $skipped hoppet over';
+  }
+
+  @override
+  String get wearRoundFinished => 'Runden er fullført';
+
+  @override
+  String get wearPendingHint =>
+      'Åpne EHW+ på telefonen din etter at du har koblet til igjen, for å importere ventende målinger.';
+
+  @override
+  String get wearStorageError =>
+      'Det gikk ikke an å lagre eller laste inn data. Opplysningene dine er ikke bekreftet. Prøv på nytt.';
+
+  @override
+  String get wearSyncError =>
+      'Overføring er ikke tilgjengelig. De lagrede målingene forblir på klokken din. Prøv igjen etter at du har koblet til på nytt.';
+
+  @override
+  String get wearSkipped => 'Hoppet over';
+
+  @override
+  String get wearEnterReading => 'Begynn å lese';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Runde fra $date';
+  }
 }

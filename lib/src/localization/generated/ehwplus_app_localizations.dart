@@ -8608,6 +8608,426 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'You can change this permission for each object at any time.'**
   String get ehwPlusSyncAiTrainingConsentHint;
+
+  /// No description provided for @wearSubscriptionRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+ subscription required'**
+  String get wearSubscriptionRequired;
+
+  /// No description provided for @wearTrialDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Try the Watch app free for 7 days. No automatic subscription.'**
+  String get wearTrialDescription;
+
+  /// No description provided for @wearStartTrial.
+  ///
+  /// In en, this message translates to:
+  /// **'Try free for 7 days'**
+  String get wearStartTrial;
+
+  /// No description provided for @wearTrialWaiting.
+  ///
+  /// In en, this message translates to:
+  /// **'Trial requested. Open EHW+ on your phone, then refresh here.'**
+  String get wearTrialWaiting;
+
+  /// No description provided for @wearTrialExpired.
+  ///
+  /// In en, this message translates to:
+  /// **'Watch trial ended'**
+  String get wearTrialExpired;
+
+  /// No description provided for @wearSubscribeOnPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscribe in EHW+ on your phone to keep taking readings. Saved readings remain available for transfer.'**
+  String get wearSubscribeOnPhone;
+
+  /// No description provided for @wearAccessSyncRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Open EHW+ on your phone to update your Watch access. Both apps must be up to date.'**
+  String get wearAccessSyncRequired;
+
+  /// No description provided for @wearTrialUntil.
+  ///
+  /// In en, this message translates to:
+  /// **'Free trial until {date}'**
+  String wearTrialUntil(String date);
+
+  /// No description provided for @wearMeters.
+  ///
+  /// In en, this message translates to:
+  /// **'Meters'**
+  String get wearMeters;
+
+  /// No description provided for @wearStatistics.
+  ///
+  /// In en, this message translates to:
+  /// **'Statistics'**
+  String get wearStatistics;
+
+  /// No description provided for @wearStatisticsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Open EHW+ on your phone to transfer statistics.'**
+  String get wearStatisticsEmpty;
+
+  /// No description provided for @wearStatisticsPeriod.
+  ///
+  /// In en, this message translates to:
+  /// **'Period'**
+  String get wearStatisticsPeriod;
+
+  /// No description provided for @wearStatisticsLast14Days.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 14 days'**
+  String get wearStatisticsLast14Days;
+
+  /// No description provided for @wearStatisticsLast12Weeks.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 12 weeks'**
+  String get wearStatisticsLast12Weeks;
+
+  /// No description provided for @wearStatisticsLast12Months.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 12 months'**
+  String get wearStatisticsLast12Months;
+
+  /// No description provided for @wearStatisticsAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All time'**
+  String get wearStatisticsAll;
+
+  /// No description provided for @wearStatisticsPerDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Per day'**
+  String get wearStatisticsPerDay;
+
+  /// No description provided for @wearStatisticsPerMonth.
+  ///
+  /// In en, this message translates to:
+  /// **'Per month'**
+  String get wearStatisticsPerMonth;
+
+  /// No description provided for @wearStatisticsPerYear.
+  ///
+  /// In en, this message translates to:
+  /// **'Per year'**
+  String get wearStatisticsPerYear;
+
+  /// No description provided for @wearStatisticsAverage.
+  ///
+  /// In en, this message translates to:
+  /// **'Averages'**
+  String get wearStatisticsAverage;
+
+  /// No description provided for @wearStatisticsEstimates.
+  ///
+  /// In en, this message translates to:
+  /// **'Includes estimates'**
+  String get wearStatisticsEstimates;
+
+  /// No description provided for @wearStatisticsUsageCosts.
+  ///
+  /// In en, this message translates to:
+  /// **'Usage costs exclude base fees.'**
+  String get wearStatisticsUsageCosts;
+
+  /// No description provided for @wearStatisticsNoValues.
+  ///
+  /// In en, this message translates to:
+  /// **'No data for this period.'**
+  String get wearStatisticsNoValues;
+
+  /// No description provided for @wearStatisticsPending.
+  ///
+  /// In en, this message translates to:
+  /// **'Statistics are updated by your phone after readings are transferred.'**
+  String get wearStatisticsPending;
+
+  /// No description provided for @wearCounterTypeElectricity.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity meter'**
+  String get wearCounterTypeElectricity;
+
+  /// No description provided for @wearCounterTypeAmmeter.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity measuring device'**
+  String get wearCounterTypeAmmeter;
+
+  /// No description provided for @wearCounterTypeElectricityBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity feed-in meter (PV)'**
+  String get wearCounterTypeElectricityBack;
+
+  /// No description provided for @wearCounterTypeElectricityGenerated.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity generation meter'**
+  String get wearCounterTypeElectricityGenerated;
+
+  /// No description provided for @wearCounterTypeWallbox.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallbox'**
+  String get wearCounterTypeWallbox;
+
+  /// No description provided for @wearCounterTypeSolarThermal.
+  ///
+  /// In en, this message translates to:
+  /// **'Solar Thermal Collector'**
+  String get wearCounterTypeSolarThermal;
+
+  /// No description provided for @wearCounterTypeGas.
+  ///
+  /// In en, this message translates to:
+  /// **'Gas meter'**
+  String get wearCounterTypeGas;
+
+  /// No description provided for @wearCounterTypeHeater.
+  ///
+  /// In en, this message translates to:
+  /// **'Radiator meter'**
+  String get wearCounterTypeHeater;
+
+  /// No description provided for @wearCounterTypeDistrictHeating.
+  ///
+  /// In en, this message translates to:
+  /// **'District Heating'**
+  String get wearCounterTypeDistrictHeating;
+
+  /// No description provided for @wearCounterTypeHeatPump.
+  ///
+  /// In en, this message translates to:
+  /// **'Heat pump'**
+  String get wearCounterTypeHeatPump;
+
+  /// No description provided for @wearCounterTypeOil.
+  ///
+  /// In en, this message translates to:
+  /// **'Oil heating'**
+  String get wearCounterTypeOil;
+
+  /// No description provided for @wearCounterTypeStove.
+  ///
+  /// In en, this message translates to:
+  /// **'Stove'**
+  String get wearCounterTypeStove;
+
+  /// No description provided for @wearCounterTypeWaterCold.
+  ///
+  /// In en, this message translates to:
+  /// **'Cold water meter'**
+  String get wearCounterTypeWaterCold;
+
+  /// No description provided for @wearCounterTypeWaterExtraction.
+  ///
+  /// In en, this message translates to:
+  /// **'Water extraction meter (garden)'**
+  String get wearCounterTypeWaterExtraction;
+
+  /// No description provided for @wearCounterTypeWaterWarm.
+  ///
+  /// In en, this message translates to:
+  /// **'Warm water meter'**
+  String get wearCounterTypeWaterWarm;
+
+  /// No description provided for @wearCounterTypeVirtual.
+  ///
+  /// In en, this message translates to:
+  /// **'Virtual meter'**
+  String get wearCounterTypeVirtual;
+
+  /// No description provided for @wearCounterTypeNetwork.
+  ///
+  /// In en, this message translates to:
+  /// **'Internet & phone'**
+  String get wearCounterTypeNetwork;
+
+  /// No description provided for @wearAppName.
+  ///
+  /// In en, this message translates to:
+  /// **'EHW+'**
+  String get wearAppName;
+
+  /// No description provided for @wearChooseObject.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose property'**
+  String get wearChooseObject;
+
+  /// No description provided for @wearEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Open EHW+ on your phone to transfer properties and meters.'**
+  String get wearEmpty;
+
+  /// No description provided for @wearRefresh.
+  ///
+  /// In en, this message translates to:
+  /// **'Refresh'**
+  String get wearRefresh;
+
+  /// No description provided for @wearUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Data updated: {date}'**
+  String wearUpdated(String date);
+
+  /// No description provided for @wearNoMeters.
+  ///
+  /// In en, this message translates to:
+  /// **'No manually readable meters available.'**
+  String get wearNoMeters;
+
+  /// No description provided for @wearProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'{current} of {total}'**
+  String wearProgress(String current, String total);
+
+  /// No description provided for @wearLastReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Last: {value} · {date}'**
+  String wearLastReading(String value, String date);
+
+  /// No description provided for @wearNoPrevious.
+  ///
+  /// In en, this message translates to:
+  /// **'No previous reading'**
+  String get wearNoPrevious;
+
+  /// No description provided for @wearReadingDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Read: {date}'**
+  String wearReadingDate(String date);
+
+  /// No description provided for @wearReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Review'**
+  String get wearReview;
+
+  /// No description provided for @wearSave.
+  ///
+  /// In en, this message translates to:
+  /// **'Save reading'**
+  String get wearSave;
+
+  /// No description provided for @wearSaveAnyway.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm and save'**
+  String get wearSaveAnyway;
+
+  /// No description provided for @wearBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get wearBack;
+
+  /// No description provided for @wearDelta.
+  ///
+  /// In en, this message translates to:
+  /// **'Difference: {value}'**
+  String wearDelta(String value);
+
+  /// No description provided for @wearWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'This reading differs from the expected progression. Please check the value and meter.'**
+  String get wearWarning;
+
+  /// No description provided for @wearSavedLocal.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved on watch'**
+  String get wearSavedLocal;
+
+  /// No description provided for @wearImported.
+  ///
+  /// In en, this message translates to:
+  /// **'Imported into EHW+'**
+  String get wearImported;
+
+  /// No description provided for @wearConflict.
+  ///
+  /// In en, this message translates to:
+  /// **'This reading could not be imported automatically. Please review it in EHW+ on your phone.'**
+  String get wearConflict;
+
+  /// No description provided for @wearUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Property or meter unavailable. Check EHW+ on your phone.'**
+  String get wearUnavailable;
+
+  /// No description provided for @wearInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading could not be imported. Please correct it.'**
+  String get wearInvalid;
+
+  /// No description provided for @wearSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'{read} readings · {skipped} skipped'**
+  String wearSummary(String read, String skipped);
+
+  /// No description provided for @wearRoundFinished.
+  ///
+  /// In en, this message translates to:
+  /// **'Round completed'**
+  String get wearRoundFinished;
+
+  /// No description provided for @wearPendingHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Open EHW+ on your phone after reconnecting to import pending readings.'**
+  String get wearPendingHint;
+
+  /// No description provided for @wearStorageError.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not save or load data. Your input has not been confirmed. Please try again.'**
+  String get wearStorageError;
+
+  /// No description provided for @wearSyncError.
+  ///
+  /// In en, this message translates to:
+  /// **'Transfer unavailable. Saved readings remain on your watch. Try again after reconnecting.'**
+  String get wearSyncError;
+
+  /// No description provided for @wearSkipped.
+  ///
+  /// In en, this message translates to:
+  /// **'Skipped'**
+  String get wearSkipped;
+
+  /// No description provided for @wearEnterReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter reading'**
+  String get wearEnterReading;
+
+  /// No description provided for @wearRoundFrom.
+  ///
+  /// In en, this message translates to:
+  /// **'Round from {date}'**
+  String wearRoundFrom(String date);
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

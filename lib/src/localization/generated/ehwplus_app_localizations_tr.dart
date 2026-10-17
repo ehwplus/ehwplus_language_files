@@ -4872,4 +4872,236 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
 
   @override
   String get ehwPlusSyncAiTrainingConsentHint => 'Bu izni her bir nesne için istediğiniz zaman değiştirebilirsiniz.';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+ aboneliği gereklidir';
+
+  @override
+  String get wearTrialDescription => 'Watch uygulamasını 7 gün boyunca ücretsiz deneyin. Otomatik abonelik yoktur.';
+
+  @override
+  String get wearStartTrial => '7 gün boyunca ücretsiz deneyin';
+
+  @override
+  String get wearTrialWaiting => 'Deneme sürümü talep edildi. Telefonunuzda EHW+’yı açın, ardından burayı yenileyin.';
+
+  @override
+  String get wearTrialExpired => 'Duruşma sona erdi';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Okumaları almaya devam etmek için telefonunuzda EHW+’ya abone olun. Kaydedilen okumalar aktarım için hazır durumda kalır.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Watch erişiminizi güncellemek için telefonunuzda EHW+’yı açın. Her iki uygulamanın da en son sürümde olması gerekir.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return '$date tarihine kadar ücretsiz deneme';
+  }
+
+  @override
+  String get wearMeters => 'Metre';
+
+  @override
+  String get wearStatistics => 'İstatistikler';
+
+  @override
+  String get wearStatisticsEmpty => 'İstatistikleri aktarmak için telefonunuzda EHW+ uygulamasını açın.';
+
+  @override
+  String get wearStatisticsPeriod => 'Dönem';
+
+  @override
+  String get wearStatisticsLast14Days => 'Son 14 gün';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Son 12 hafta';
+
+  @override
+  String get wearStatisticsLast12Months => 'Son 12 ay';
+
+  @override
+  String get wearStatisticsAll => 'Tüm zamanlar';
+
+  @override
+  String get wearStatisticsPerDay => 'Günlük';
+
+  @override
+  String get wearStatisticsPerMonth => 'Aylık';
+
+  @override
+  String get wearStatisticsPerYear => 'Yılda';
+
+  @override
+  String get wearStatisticsAverage => 'Ortalamalar';
+
+  @override
+  String get wearStatisticsEstimates => 'Tahminler dahildir';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Kullanım maliyetlerine temel ücretler dahil değildir.';
+
+  @override
+  String get wearStatisticsNoValues => 'Bu dönem için veri bulunmamaktadır.';
+
+  @override
+  String get wearStatisticsPending => 'Ölçümler aktarıldıktan sonra istatistikler telefonunuz tarafından güncellenir.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Elektrik sayacı';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Elektrik ölçüm cihazı';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Elektrik besleme sayacı (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Elektrik üretim sayacı';
+
+  @override
+  String get wearCounterTypeWallbox => 'Duvar kutusu';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Güneş Enerjisi Kolektörü';
+
+  @override
+  String get wearCounterTypeGas => 'Gaz sayacı';
+
+  @override
+  String get wearCounterTypeHeater => 'Radyatör sayacı';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Bölgesel Isıtma';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Isı pompası';
+
+  @override
+  String get wearCounterTypeOil => 'Petrol ile ısıtma';
+
+  @override
+  String get wearCounterTypeStove => 'Ocak';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Soğuk su sayacı';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Su çekim sayacı (bahçe)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Sıcak su sayacı';
+
+  @override
+  String get wearCounterTypeVirtual => 'Sanal sayaç';
+
+  @override
+  String get wearCounterTypeNetwork => 'İnternet ve telefon';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Mülk seçin';
+
+  @override
+  String get wearEmpty => 'Mülkleri ve sayaçları aktarmak için telefonunuzda EHW+’yı açın.';
+
+  @override
+  String get wearRefresh => 'Yenile';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Veriler güncellenme tarihi: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Elle okunabilir sayaç bulunmamaktadır.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current\'in $total\'inden';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Son: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Önceden okunmuş bir metin yok';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Okuyun: $date';
+  }
+
+  @override
+  String get wearReview => 'İnceleme';
+
+  @override
+  String get wearSave => 'Okumayı kaydet';
+
+  @override
+  String get wearSaveAnyway => 'Onayla ve kaydet';
+
+  @override
+  String get wearBack => 'Geri';
+
+  @override
+  String wearDelta(String value) {
+    return 'Fark: $value';
+  }
+
+  @override
+  String get wearWarning => 'Bu ölçüm, beklenen seyirden farklıdır. Lütfen değeri ve ölçüm cihazını kontrol edin.';
+
+  @override
+  String get wearSavedLocal => 'İzleme listesine eklendi';
+
+  @override
+  String get wearImported => 'EHW+’ya aktarıldı';
+
+  @override
+  String get wearConflict =>
+      'Bu okuma otomatik olarak içe aktarılamadı. Lütfen telefonunuzdaki EHW+ uygulamasında kontrol edin.';
+
+  @override
+  String get wearUnavailable => 'Mülk veya sayaç mevcut değil. Telefonunuzdan EHW+’yı kontrol edin.';
+
+  @override
+  String get wearInvalid => 'Okuma işlemi gerçekleştirilemedi. Lütfen düzeltin.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read okunanlar · $skipped atlananlar';
+  }
+
+  @override
+  String get wearRoundFinished => 'Tur tamamlandı';
+
+  @override
+  String get wearPendingHint =>
+      'Bekleyen ölçümleri içe aktarmak için yeniden bağlandıktan sonra telefonunuzda EHW+’yı açın.';
+
+  @override
+  String get wearStorageError =>
+      'Veriler kaydedilemedi veya yüklenemedi. Girdiğiniz bilgiler onaylanmadı. Lütfen tekrar deneyin.';
+
+  @override
+  String get wearSyncError =>
+      'Aktarım yapılamıyor. Kaydedilen ölçümler saatinizde kalır. Yeniden bağlandıktan sonra tekrar deneyin.';
+
+  @override
+  String get wearSkipped => 'Atlandı';
+
+  @override
+  String get wearEnterReading => 'Okumaya başla';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$date tarihinden itibaren';
+  }
 }

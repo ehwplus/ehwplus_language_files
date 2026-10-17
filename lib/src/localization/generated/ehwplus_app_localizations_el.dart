@@ -4924,4 +4924,239 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'Μπορείτε να αλλάξετε αυτό το δικαίωμα για κάθε αντικείμενο ανά πάσα στιγμή.';
+
+  @override
+  String get wearSubscriptionRequired => 'Απαιτείται συνδρομή στο EHW+';
+
+  @override
+  String get wearTrialDescription => 'Δοκιμάστε την εφαρμογή Watch δωρεάν για 7 ημέρες. Χωρίς αυτόματη συνδρομή.';
+
+  @override
+  String get wearStartTrial => 'Δοκιμάστε το δωρεάν για 7 ημέρες';
+
+  @override
+  String get wearTrialWaiting =>
+      'Ζητήθηκε δοκιμαστική έκδοση. Ανοίξτε το EHW+ στο κινητό σας και, στη συνέχεια, ανανεώστε τη σελίδα.';
+
+  @override
+  String get wearTrialExpired => 'Η δίκη για την υπόθεση «Watch» έληξε';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'Εγγραφείτε στο EHW+ από το κινητό σας για να συνεχίσετε να καταγράφετε μετρήσεις. Οι αποθηκευμένες μετρήσεις παραμένουν διαθέσιμες για μεταφορά.';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'Άνοιξε την εφαρμογή EHW+ στο κινητό σου για να ενημερώσεις τα στοιχεία πρόσβασης στο ρολόι σου. Και οι δύο εφαρμογές πρέπει να είναι ενημερωμένες.';
+
+  @override
+  String wearTrialUntil(String date) {
+    return 'Δωρεάν δοκιμή έως τις $date';
+  }
+
+  @override
+  String get wearMeters => 'Μέτρα';
+
+  @override
+  String get wearStatistics => 'Στατιστικά στοιχεία';
+
+  @override
+  String get wearStatisticsEmpty => 'Άνοιξε την εφαρμογή EHW+ στο κινητό σου για να μεταφέρεις τα στατιστικά στοιχεία.';
+
+  @override
+  String get wearStatisticsPeriod => 'Περίοδος';
+
+  @override
+  String get wearStatisticsLast14Days => 'Τις τελευταίες 14 ημέρες';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'Τις τελευταίες 12 εβδομάδες';
+
+  @override
+  String get wearStatisticsLast12Months => 'Τους τελευταίους 12 μήνες';
+
+  @override
+  String get wearStatisticsAll => 'Όλων των εποχών';
+
+  @override
+  String get wearStatisticsPerDay => 'Ανά ημέρα';
+
+  @override
+  String get wearStatisticsPerMonth => 'Ανά μήνα';
+
+  @override
+  String get wearStatisticsPerYear => 'Ανά έτος';
+
+  @override
+  String get wearStatisticsAverage => 'Μέσοι όροι';
+
+  @override
+  String get wearStatisticsEstimates => 'Περιλαμβάνει εκτιμήσεις';
+
+  @override
+  String get wearStatisticsUsageCosts => 'Τα έξοδα χρήσης δεν περιλαμβάνουν τα βασικά τέλη.';
+
+  @override
+  String get wearStatisticsNoValues => 'Δεν υπάρχουν δεδομένα για αυτή την περίοδο.';
+
+  @override
+  String get wearStatisticsPending =>
+      'Τα στατιστικά στοιχεία ενημερώνονται από το κινητό σας μετά τη μεταφορά των μετρήσεων.';
+
+  @override
+  String get wearCounterTypeElectricity => 'Μετρητής ηλεκτρικού ρεύματος';
+
+  @override
+  String get wearCounterTypeAmmeter => 'Συσκευή μέτρησης ηλεκτρικής ενέργειας';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'Μετρητής τροφοδοσίας ηλεκτρικού ρεύματος (Φ/Β)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'Μετρητής παραγωγής ηλεκτρικής ενέργειας';
+
+  @override
+  String get wearCounterTypeWallbox => 'Wallbox';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'Ηλιακός θερμικός συλλέκτης';
+
+  @override
+  String get wearCounterTypeGas => 'Μετρητής αερίου';
+
+  @override
+  String get wearCounterTypeHeater => 'Μετρητής καλοριφέρ';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'Τηλεθέρμανση';
+
+  @override
+  String get wearCounterTypeHeatPump => 'Αντλία θερμότητας';
+
+  @override
+  String get wearCounterTypeOil => 'Θέρμανση με πετρέλαιο';
+
+  @override
+  String get wearCounterTypeStove => 'Σόμπα';
+
+  @override
+  String get wearCounterTypeWaterCold => 'Μετρητής κρύου νερού';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'Μετρητής άντλησης νερού (κήπου)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'Μετρητής ζεστού νερού';
+
+  @override
+  String get wearCounterTypeVirtual => 'Εικονικός μετρητής';
+
+  @override
+  String get wearCounterTypeNetwork => 'Διαδίκτυο και τηλέφωνο';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'Επιλέξτε ακίνητο';
+
+  @override
+  String get wearEmpty => 'Ανοίξτε την εφαρμογή EHW+ στο κινητό σας για να μεταφέρετε ακίνητα και μετρητές.';
+
+  @override
+  String get wearRefresh => 'Ανανέωση';
+
+  @override
+  String wearUpdated(String date) {
+    return 'Ενημέρωση δεδομένων: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'Δεν υπάρχουν διαθέσιμοι μετρητές που να μπορούν να διαβαστούν χειροκίνητα.';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current από $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'Τελευταία: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'Δεν απαιτείται προηγούμενη ανάγνωση';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'Διαβάστε: $date';
+  }
+
+  @override
+  String get wearReview => 'Κριτική';
+
+  @override
+  String get wearSave => 'Αποθήκευση ανάγνωσης';
+
+  @override
+  String get wearSaveAnyway => 'Επιβεβαίωση και αποθήκευση';
+
+  @override
+  String get wearBack => 'Πίσω';
+
+  @override
+  String wearDelta(String value) {
+    return 'Διαφορά: $value';
+  }
+
+  @override
+  String get wearWarning =>
+      'Αυτή η ένδειξη διαφέρει από την αναμενόμενη εξέλιξη. Παρακαλώ ελέγξτε την τιμή και το μετρητή.';
+
+  @override
+  String get wearSavedLocal => 'Αποθηκεύτηκε στην παρακολούθηση';
+
+  @override
+  String get wearImported => 'Εισαγωγή στο EHW+';
+
+  @override
+  String get wearConflict =>
+      'Αυτή η μέτρηση δεν μπόρεσε να εισαχθεί αυτόματα. Παρακαλούμε ελέγξτε την στο EHW+ στο κινητό σας.';
+
+  @override
+  String get wearUnavailable => 'Δεν υπάρχει ακίνητο ή μετρητής. Ελέγξτε το EHW+ στο κινητό σας.';
+
+  @override
+  String get wearInvalid => 'Δεν ήταν δυνατή η εισαγωγή του αρχείου ανάγνωσης. Παρακαλώ διορθώστε το.';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read αναγνώσεις · $skipped παραλείψεις';
+  }
+
+  @override
+  String get wearRoundFinished => 'Ο γύρος ολοκληρώθηκε';
+
+  @override
+  String get wearPendingHint =>
+      'Ανοίξτε την εφαρμογή EHW+ στο κινητό σας αφού επανασυνδεθείτε, για να εισαγάγετε τις εκκρεμείς μετρήσεις.';
+
+  @override
+  String get wearStorageError =>
+      'Δεν ήταν δυνατή η αποθήκευση ή η φόρτωση των δεδομένων. Η εισαγωγή σας δεν έχει επιβεβαιωθεί. Παρακαλώ δοκιμάστε ξανά.';
+
+  @override
+  String get wearSyncError =>
+      'Η μεταφορά δεν είναι διαθέσιμη. Οι αποθηκευμένες μετρήσεις παραμένουν στο ρολόι σας. Δοκιμάστε ξανά αφού επανασυνδεθείτε.';
+
+  @override
+  String get wearSkipped => 'Παραλείφθηκε';
+
+  @override
+  String get wearEnterReading => 'Ξεκινήστε την ανάγνωση';
+
+  @override
+  String wearRoundFrom(String date) {
+    return 'Γύρος από την $date';
+  }
 }

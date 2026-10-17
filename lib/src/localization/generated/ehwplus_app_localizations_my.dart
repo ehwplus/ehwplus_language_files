@@ -4889,4 +4889,238 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   @override
   String get ehwPlusSyncAiTrainingConsentHint =>
       'သင်သည် မည်သည့်အချိန်တွင်မဆို အရာဝတ္ထုတစ်ခုချင်းစီအတွက် ဤခွင့်ပြုချက်ကို ပြောင်းလဲနိုင်သည်။';
+
+  @override
+  String get wearSubscriptionRequired => 'EHW+ စာရင်းသွင်းရန် လိုအပ်ပါသည်။';
+
+  @override
+  String get wearTrialDescription => 'Watch အက်ပ်ကို ၇ ရက်အခမဲ့ စမ်းသုံးပါ။ အလိုအလျောက် စာရင်းသွင်းခြင်း မရှိပါ။';
+
+  @override
+  String get wearStartTrial => '၇ ရက်အခမဲ့ စမ်းသုံးပါ';
+
+  @override
+  String get wearTrialWaiting =>
+      'စမ်းသပ်ရန် တောင်းဆိုထားသည်။ သင့်ဖုန်းတွင် EHW+ ကို ဖွင့်ပြီး ဤနေရာတွင် ပြန်လည်အသစ်တင်ပါ။';
+
+  @override
+  String get wearTrialExpired => 'စမ်းသပ်မှုပြီးဆုံးသွားပြီ';
+
+  @override
+  String get wearSubscribeOnPhone =>
+      'ဖုန်းပေါ်တွင် EHW+ ကို စာရင်းသွင်း၍ တိုင်းတာမှုများကို ဆက်လက်ပြုလုပ်နိုင်ပါသည်။ သိမ်းဆည်းထားသော တိုင်းတာမှုများကို လွှဲပြောင်းရန် ဆက်လက်အသုံးပြုနိုင်ပါသည်။';
+
+  @override
+  String get wearAccessSyncRequired =>
+      'EHW+ ကို ဖုန်းပေါ်တွင် ဖွင့်၍ သင့် Watch ဝင်ရောက်ခွင့်ကို အပ်ဒိတ်လုပ်ပါ။ အက်ပ်နှစ်ခုလုံးကို နောက်ဆုံးဗားရှင်းဖြင့် အပ်ဒိတ်လုပ်ထားရမည်။';
+
+  @override
+  String wearTrialUntil(String date) {
+    return '$date အထိ အခမဲ့ စမ်းသပ်အသုံးပြုနိုင်ပါသည်။';
+  }
+
+  @override
+  String get wearMeters => 'မီတာများ';
+
+  @override
+  String get wearStatistics => 'စာရင်းအင်း';
+
+  @override
+  String get wearStatisticsEmpty => 'EHW+ ကို ဖုန်းပေါ်တွင် ဖွင့်၍ စာရင်းအချက်အလက်များကို လွှဲပြောင်းပါ။';
+
+  @override
+  String get wearStatisticsPeriod => 'ကာလ';
+
+  @override
+  String get wearStatisticsLast14Days => 'ပြီးခဲ့သည့် ၁၄ ရက်များ';
+
+  @override
+  String get wearStatisticsLast12Weeks => 'ပြီးခဲ့သည့် ၁၂ ပတ်';
+
+  @override
+  String get wearStatisticsLast12Months => 'ပြီးခဲ့သည့် ၁၂ လ';
+
+  @override
+  String get wearStatisticsAll => 'အချိန်အားလုံး';
+
+  @override
+  String get wearStatisticsPerDay => 'တစ်ရက်လျှင်';
+
+  @override
+  String get wearStatisticsPerMonth => 'လစဉ်';
+
+  @override
+  String get wearStatisticsPerYear => 'တစ်နှစ်လျှင်';
+
+  @override
+  String get wearStatisticsAverage => 'ပျမ်းမျှတန်ဖိုးများ';
+
+  @override
+  String get wearStatisticsEstimates => 'ခန့်မှန်းချက်များ ပါဝင်သည်။';
+
+  @override
+  String get wearStatisticsUsageCosts => 'အသုံးစရိတ်များတွင် အခြေခံကြေးများ မပါဝင်ပါ။';
+
+  @override
+  String get wearStatisticsNoValues => 'ဤကာလအတွက် ဒေတာမရှိပါ။';
+
+  @override
+  String get wearStatisticsPending =>
+      'တိုင်းတာချက်များကို လွှဲပြောင်းပြီးနောက် ဖုန်းမှ အချက်အလက်များကို အပ်ဒိတ်လုပ်ပါသည်။';
+
+  @override
+  String get wearCounterTypeElectricity => 'လျှပ်စစ်မီတာ';
+
+  @override
+  String get wearCounterTypeAmmeter => 'လျှပ်စစ်ဓာတ်အားတိုင်းတာကိရိယာ';
+
+  @override
+  String get wearCounterTypeElectricityBack => 'လျှပ်စစ်ထည့်သွင်းမီတာ (PV)';
+
+  @override
+  String get wearCounterTypeElectricityGenerated => 'လျှပ်စစ်ဓာတ်အားထုတ်လုပ်မှု မီတာ';
+
+  @override
+  String get wearCounterTypeWallbox => 'နံရံဘောက်စ်';
+
+  @override
+  String get wearCounterTypeSolarThermal => 'နေစွမ်းအပူ စုဆောင်းကိရိယာ';
+
+  @override
+  String get wearCounterTypeGas => 'ဓာတ်ငွေ့မီတာ';
+
+  @override
+  String get wearCounterTypeHeater => 'ရေဒီယေတာ မီတာ';
+
+  @override
+  String get wearCounterTypeDistrictHeating => 'ခရိုင်အပူဖြန့်ဝေခြင်း';
+
+  @override
+  String get wearCounterTypeHeatPump => 'အပူစုပ်စက်';
+
+  @override
+  String get wearCounterTypeOil => 'ဆီဖြင့်အပူပေးခြင်း';
+
+  @override
+  String get wearCounterTypeStove => 'မီးဖို';
+
+  @override
+  String get wearCounterTypeWaterCold => 'အအေးရေ မီတာ';
+
+  @override
+  String get wearCounterTypeWaterExtraction => 'ရေထုတ်ယူမှု မီတာ (ဥယျာဉ်)';
+
+  @override
+  String get wearCounterTypeWaterWarm => 'အပူရေ မီတာ';
+
+  @override
+  String get wearCounterTypeVirtual => 'အွန်လိုင်းမီတာ';
+
+  @override
+  String get wearCounterTypeNetwork => 'အင်တာနက်နှင့် ဖုန်း';
+
+  @override
+  String get wearAppName => 'EHW+';
+
+  @override
+  String get wearChooseObject => 'ပိုင်ဆိုင်မှုကိုရွေးပါ';
+
+  @override
+  String get wearEmpty => 'EHW+ ကို ဖုန်းပေါ်တွင် ဖွင့်ပြီး ပိုင်ဆိုင်မှုများနှင့် မီတာများကို လွှဲပြောင်းပါ။';
+
+  @override
+  String get wearRefresh => 'ပြန်လည်အသစ်ပြုလုပ်';
+
+  @override
+  String wearUpdated(String date) {
+    return 'ဒေတာကို အပ်ဒိတ်လုပ်ထားသည်: $date';
+  }
+
+  @override
+  String get wearNoMeters => 'လက်ဖြင့် ဖတ်ရှုနိုင်သည့် မီတာများ မရှိပါ။';
+
+  @override
+  String wearProgress(String current, String total) {
+    return '$current၏ $total';
+  }
+
+  @override
+  String wearLastReading(String value, String date) {
+    return 'နောက်ဆုံး: $value · $date';
+  }
+
+  @override
+  String get wearNoPrevious => 'ယခင်ဖတ်ရှုမှုမရှိ';
+
+  @override
+  String wearReadingDate(String date) {
+    return 'ဖတ်ပါ: $date';
+  }
+
+  @override
+  String get wearReview => 'ပြန်လည်သုံးသပ်ချက်';
+
+  @override
+  String get wearSave => 'ဖတ်ခြင်းကို သိမ်းဆည်းပါ';
+
+  @override
+  String get wearSaveAnyway => 'အတည်ပြုပြီး သိမ်းဆည်း';
+
+  @override
+  String get wearBack => 'ပြန်';
+
+  @override
+  String wearDelta(String value) {
+    return 'ကွာခြားချက်: $value';
+  }
+
+  @override
+  String get wearWarning => 'ဤဖတ်ချက်သည် မျှော်လင့်ထားသည့် တိုးတက်မှုနှင့် မကိုက်ညီပါ။ တန်ဖိုးနှင့် မီတာကို စစ်ဆေးပါ။';
+
+  @override
+  String get wearSavedLocal => 'စောင့်ကြည့်စာရင်းတွင် သိမ်းဆည်းထားသည်';
+
+  @override
+  String get wearImported => 'EHW+ သို့ တင်သွင်းခဲ့သည်။';
+
+  @override
+  String get wearConflict =>
+      'ဤဖတ်စာကို အလိုအလျောက် တင်သွင်း၍ မရနိုင်ပါ။ ကျေးဇူးပြု၍ သင့်ဖုန်းရှိ EHW+ တွင် ပြန်လည်ကြည့်ရှုပါ။';
+
+  @override
+  String get wearUnavailable => 'ပိုင်ဆိုင်မှု သို့မဟုတ် မီတာ မရရှိနိုင်ပါ။ သင့်ဖုန်းတွင် EHW+ ကို စစ်ဆေးပါ။';
+
+  @override
+  String get wearInvalid => 'ဖတ်ခြင်းကို တင်သွင်း၍ မရပါ။ ကျေးဇူးပြု၍ ပြင်ဆင်ပါ။';
+
+  @override
+  String wearSummary(String read, String skipped) {
+    return '$read ဖတ်ပြီး · $skipped ကျော်လွှား';
+  }
+
+  @override
+  String get wearRoundFinished => 'ပတ်ပြီးဆုံး';
+
+  @override
+  String get wearPendingHint =>
+      'ဆက်သွယ်မှု ပြန်လည်ချိတ်ဆက်ပြီးနောက် ဖုန်းပေါ်ရှိ EHW+ ကို ဖွင့်၍ စောင့်ဆိုင်းနေသည့် တိုင်းတာချက်များကို ထည့်သွင်းပါ။';
+
+  @override
+  String get wearStorageError =>
+      'ဒေတာကို သိမ်းဆည်းခြင်း သို့မဟုတ် ဖွင့်ခြင်း မအောင်မြင်ပါ။ သင်ထည့်သွင်းထားသော အချက်အလက် မအတည်ပြုရသေးပါ။ ထပ်မံကြိုးစားပါ။';
+
+  @override
+  String get wearSyncError =>
+      'လွှဲပြောင်း၍ မရပါ။ သိမ်းဆည်းထားသော ဖတ်ချက်များသည် သင့်နာရီပေါ်တွင် ဆက်လက်ရှိနေပါသည်။ ပြန်လည်ချိတ်ဆက်ပြီးနောက် ထပ်မံကြိုးစားပါ။';
+
+  @override
+  String get wearSkipped => 'ကျော်သွားသည်';
+
+  @override
+  String get wearEnterReading => 'ဖတ်ခြင်းကို စတင်ပါ';
+
+  @override
+  String wearRoundFrom(String date) {
+    return '$dateမှ စ၍ ဝိုင်း';
+  }
 }
