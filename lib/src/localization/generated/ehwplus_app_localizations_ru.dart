@@ -5165,4 +5165,33 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Округление от $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Температура на улице';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Данные о температуре в настоящее время отсутствуют.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Попробуйте ещё раз';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Среднемесячные значения суточных минимальных и максимальных температур. Синий цвет обозначает холод, красный — тепло. При среднемесячной температуре до 15 °C вес минимальной температуры составляет 80 %; при температуре от 20 °C вес максимальной температуры составляет 80 %, с плавным переходом. Данные за отсутствующие дни по-прежнему исключаются; текущий месяц включает имеющиеся данные по сегодняшний день.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Суточные минимумы';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Суточные максимумы';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Среднее значение: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Диапазон: от $minimum °C до $maximum °C';
+  }
 }

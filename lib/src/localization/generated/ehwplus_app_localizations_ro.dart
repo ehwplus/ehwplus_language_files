@@ -5138,4 +5138,33 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Runda din $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Temperaturile exterioare';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Datele privind temperatura nu sunt disponibile în acest moment.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Încearcă din nou';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Medii lunare ale valorilor minime și maxime zilnice. Albastrul indică frigul, iar roșul indică căldura. Până la o medie lunară de 15 °C, temperatura minimă are o pondere de 80%; de la 20 °C, temperatura maximă are o pondere de 80%, cu o tranziție treptată. Zilele pentru care nu există date rămân excluse; luna curentă include zilele pentru care există date până astăzi.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Minimele zilnice';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Maximele zilnice';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Medie: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Interval: de la $minimum °C la $maximum °C';
+  }
 }

@@ -5105,4 +5105,33 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Kolo od $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Venkovní teploty';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Údaje o teplotě nejsou v současné době k dispozici.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Zkuste to znovu';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Měsíční průměry denních minimálních a maximálních teplot. Modrá barva označuje chlad, červená teplo. Až do měsíčního průměru 15 °C má minimální teplota váhu 80 %; od 20 °C má maximální teplota váhu 80 %, přičemž přechod je plynulý. Chybějící dny zůstávají vyloučeny; aktuální měsíc zahrnuje dostupné dny až do dnešního dne.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Denní minima';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Denní maxima';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Průměr: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Rozsah: $minimum °C až $maximum °C';
+  }
 }

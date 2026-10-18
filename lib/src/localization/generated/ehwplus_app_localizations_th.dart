@@ -5092,4 +5092,33 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'ตั้งแต่$date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'อุณหภูมิภายนอก';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'ข้อมูลอุณหภูมิปัจจุบันไม่มีให้ใช้';
+
+  @override
+  String get temperatureHeatmapRetry => 'ลองอีกครั้ง';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'ค่าเฉลี่ยรายเดือนของอุณหภูมิต่ำสุดและสูงสุดรายวัน สีน้ำเงินแสดงถึงอากาศเย็น สีแดงแสดงถึงอากาศร้อน สำหรับค่าเฉลี่ยรายเดือนไม่เกิน 15 °C ค่าต่ำสุดมีน้ำหนัก 80%; ตั้งแต่ 20 °C ค่าสูงสุดมีน้ำหนัก 80% โดยมีการเปลี่ยนผ่านอย่างค่อยเป็นค่อยไป วันที่มีข้อมูลขาดหายไปยังคงถูกยกเว้น; เดือนปัจจุบันรวมวันที่มีข้อมูลจนถึงวันนี้';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'ระดับต่ำสุดรายวัน';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'ราคาสูงสุดรายวัน';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'ค่าเฉลี่ย: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'ช่วง: $minimum °C ถึง $maximum °C';
+  }
 }

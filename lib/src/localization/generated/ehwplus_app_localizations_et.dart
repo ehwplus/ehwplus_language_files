@@ -5099,4 +5099,33 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date. kuupäevast alates';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Välistemperatuurid';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Temperatuuriandmed ei ole hetkel kättesaadavad.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Proovi uuesti';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Päevaste miinimum- ja maksimumtemperatuuride kuu keskmised. Sinine tähistab külma, punane tähistab soojust. Kuni kuu keskmise temperatuurini 15 °C on miinimumtemperatuuril 80% kaal; alates 20 °C-st on maksimumtemperatuuril 80% kaal, üleminek on järkjärguline. Puuduvad päevad jäävad välja; käesolev kuu hõlmab kättesaadavaid päevi tänaseni.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Päevased madalaimad tasemed';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Päevased maksimumid';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Keskmine: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Vahemik: $minimum °C kuni $maximum °C';
+  }
 }

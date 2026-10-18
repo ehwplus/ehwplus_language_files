@@ -5159,4 +5159,33 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Γύρος από την $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Θερμοκρασίες εξωτερικού χώρου';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Τα δεδομένα θερμοκρασίας δεν είναι διαθέσιμα προς το παρόν.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Δοκίμασε ξανά';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Μηνιαίοι μέσοι όροι των ημερήσιων ελάχιστων και μέγιστων θερμοκρασιών. Το μπλε υποδηλώνει κρύο, το κόκκινο υποδηλώνει ζέστη. Μέχρι τον μηνιαίο μέσο όρο των 15 °C, η ελάχιστη θερμοκρασία έχει βάρος 80%· από τους 20 °C και πάνω, η μέγιστη θερμοκρασία έχει βάρος 80%, με σταδιακή μετάβαση. Οι ημέρες για τις οποίες δεν υπάρχουν δεδομένα παραμένουν εκτός υπολογισμού· ο τρέχων μήνας περιλαμβάνει τις διαθέσιμες ημέρες μέχρι και σήμερα.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Ημερήσια χαμηλά';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Ημερήσια μέγιστα';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Μέσος όρος: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Εύρος: $minimum °C έως $maximum °C';
+  }
 }

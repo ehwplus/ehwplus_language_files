@@ -5081,4 +5081,33 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'گرد از $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'دمای بیرون';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'داده‌های دما در حال حاضر در دسترس نیستند.';
+
+  @override
+  String get temperatureHeatmapRetry => 'دوباره تلاش کنید';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'میانگین‌های ماهانه کمینه و بیشینه روزانه.  آبی نشان‌دهنده سرما و قرمز نشان‌دهنده گرما است. تا میانگین ماهانه ۱۵ درجه سانتی‌گراد، حداقل وزنی برابر با ۸۰٪ دارد؛ از ۲۰ درجه سانتی‌گراد به بعد، حداکثر وزنی برابر با ۸۰٪ دارد، با یک گذار تدریجی. روزهای مفقود همچنان حذف شده‌اند؛ ماه جاری شامل روزهای موجود تا امروز است.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'حداقل‌های روزانه';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'حداکثرهای روزانه';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'میانگین: $value درجه سانتی‌گراد';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'دامنه: $minimum درجه سانتی‌گراد تا $maximum درجه سانتی‌گراد';
+  }
 }

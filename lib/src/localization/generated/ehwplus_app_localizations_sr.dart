@@ -5118,4 +5118,33 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Кружно од $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Спољне температуре';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Подаци о температури су тренутно недоступни.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Покушај поново';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Месечне просечне вредности дневних минимума и максимума. Плаво означава хладно, црвено означава топло. До месечне средње вредности од 15 °C, минимум има 80% тежине; од 20 °C, максимум има 80% тежине, са постепеним прелазом. Дани без података остају искључени; у текућем месецу укључени су расположиви дани до данас.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Дневне најниже вредности';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Дневне максимуме';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Просек: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Опсег: $minimum °C до $maximum °C';
+  }
 }

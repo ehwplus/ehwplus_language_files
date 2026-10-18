@@ -4961,4 +4961,33 @@ class EhwplusAppLocalizationsJa extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$dateからのラウンド';
   }
+
+  @override
+  String get temperatureHeatmapTitle => '外気温';
+
+  @override
+  String get temperatureHeatmapUnavailable => '現在、気温のデータはご利用いただけません。';
+
+  @override
+  String get temperatureHeatmapRetry => 'もう一度お試しください';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      '日ごとの最低気温および最高気温の月平均値です。 青は低温、赤は高温を示しています。月平均が15 °Cまでは最低気温に80％の重み付けが行われ、20 °Cからは最高気温に80％の重み付けが行われますが、その間の移行は段階的に行われます。データが欠落している日は除外されたままとなります。当月のデータには、本日までの利用可能な日が含まれています。';
+
+  @override
+  String get temperatureHeatmapDailyLows => '日中の安値';
+
+  @override
+  String get temperatureHeatmapDailyHighs => '日中の最高気温';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return '平均：$value°C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return '範囲：$minimum°C ～ $maximum°C';
+  }
 }

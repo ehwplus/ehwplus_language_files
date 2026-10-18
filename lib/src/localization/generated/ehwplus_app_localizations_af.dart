@@ -5115,4 +5115,33 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Rond vanaf $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Buitelug temperature';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Temperatuurdata is tans nie beskikbaar nie.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Probeer weer';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Maandelikse gemiddeldes van daaglikse minimum- en maksimumtemperature. Blou dui koud aan, rooi dui hitte aan. Tot \'n maandelikse gemiddelde van 15 °C het die minimum 80% gewig; vanaf 20 °C het die maksimum 80% gewig, met \'n geleidelike oorgang. Ontbrekende dae bly uitgesluit; die huidige maand sluit beskikbare dae tot en met vandag in.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Daaglikse laagtepunte';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Daaglikse hoë temperature';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Gemiddeld: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Reeks: $minimum °C tot $maximum °C';
+  }
 }

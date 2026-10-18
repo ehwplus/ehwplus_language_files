@@ -4963,4 +4963,33 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date부터의 라운드';
   }
+
+  @override
+  String get temperatureHeatmapTitle => '야외 기온';
+
+  @override
+  String get temperatureHeatmapUnavailable => '현재 온도 데이터를 확인할 수 없습니다.';
+
+  @override
+  String get temperatureHeatmapRetry => '다시 시도해 보세요';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      '일별 최저기온 및 최고기온의 월평균. 파란색은 추위를, 빨간색은 더위를 나타냅니다. 월평균 기온이 15 °C 이하일 때는 최저기온에 80%의 가중치가 부여되며, 20 °C부터는 최고기온에 80%의 가중치가 부여되며, 이 두 값 사이에는 점진적인 전환이 이루어집니다. 데이터가 누락된 날은 계속 제외되며, 당월 데이터에는 오늘까지의 이용 가능한 날짜가 포함됩니다.';
+
+  @override
+  String get temperatureHeatmapDailyLows => '일별 최저치';
+
+  @override
+  String get temperatureHeatmapDailyHighs => '일별 최고기온';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return '평균: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return '범위: $minimum °C ~ $maximum °C';
+  }
 }

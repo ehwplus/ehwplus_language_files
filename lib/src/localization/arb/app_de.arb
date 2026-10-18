@@ -1807,5 +1807,13 @@
         "type": "String"
       }
     }
-  }
+  },
+  "temperatureHeatmapTitle": "Außentemperaturen",
+  "temperatureHeatmapUnavailable": "Temperaturdaten sind derzeit nicht verfügbar.",
+  "temperatureHeatmapRetry": "Erneut versuchen",
+  "temperatureHeatmapLegend": "Monatsdurchschnitte der täglichen Minima und Maxima. Blau steht für Kälte, Rot für Hitze. Bis zu einem Monatsmittel von 15 °C zählt das Minimum zu 80 %, ab 20 °C das Maximum zu 80 %, dazwischen mit fließendem Übergang. Fehlende Tage werden ausgelassen; der aktuelle Monat umfasst verfügbare Tage bis heute.",
+  "temperatureHeatmapDailyLows": "Tägliche Tiefstwerte",
+  "temperatureHeatmapDailyHighs": "Tägliche Höchstwerte",
+  "temperatureHeatmapAverage": "Durchschnitt: {value} °C",
+  "temperatureHeatmapDailyRange": "Bereich: {minimum} °C bis {maximum} °C"
 }

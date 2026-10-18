@@ -5106,4 +5106,33 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Runde fra $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Udetemperaturer';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Der foreligger i øjeblikket ingen temperaturdata.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Prøv igen';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Månedlige gennemsnit af de daglige minimums- og maksimumstemperaturer. Blåt angiver kulde, rødt angiver varme. Op til et månedligt gennemsnit på 15 °C vægter minimumstemperaturen 80 %; fra 20 °C vægter maksimumstemperaturen 80 %, med en gradvis overgang. Manglende dage udelades fortsat; den aktuelle måned omfatter de tilgængelige dage frem til i dag.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Dagens laveste kurser';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Dagens højeste temperaturer';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Gennemsnit: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Område: $minimum °C til $maximum °C';
+  }
 }

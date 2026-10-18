@@ -5131,4 +5131,33 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Rungtynės nuo $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Lauko temperatūra';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Šiuo metu temperatūros duomenų nėra.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Pabandykite dar kartą';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Mėnesiniai dienos minimalių ir maksimalių temperatūrų vidurkiai. Mėlyna spalva žymi šaltį, raudona – karštį. Iki 15 °C mėnesio vidurkio mažiausia temperatūra turi 80 % svorį; nuo 20 °C didžiausia temperatūra turi 80 % svorį, pereinant palaipsniui. Trūkstamos dienos lieka neįtrauktos; einamasis mėnuo apima turimas dienas iki šiandienos.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Dienos minimumai';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Dienos maksimumai';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Vidurkis: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Diapazonas: nuo $minimum °C iki $maximum °C';
+  }
 }

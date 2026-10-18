@@ -5129,4 +5129,33 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Bab dari $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Suhu di luar ruangan';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Data suhu saat ini tidak tersedia.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Coba lagi';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Rata-rata bulanan suhu minimum dan maksimum harian. Warna biru menunjukkan suhu dingin, sedangkan warna merah menunjukkan suhu panas. Hingga rata-rata bulanan sebesar 15 °C, suhu minimum memiliki bobot 80%; mulai dari 20 °C, suhu maksimum memiliki bobot 80%, dengan transisi yang bertahap. Hari-hari yang data suhunya tidak tersedia tetap dikecualikan; bulan ini mencakup hari-hari yang data suhunya tersedia hingga hari ini.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Level terendah harian';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Suhu tertinggi harian';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Rata-rata: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Rentang: $minimum °C hingga $maximum °C';
+  }
 }

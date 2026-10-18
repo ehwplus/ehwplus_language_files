@@ -5147,4 +5147,33 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Runda z dnia $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Temperatury na zewnątrz';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Dane dotyczące temperatury są obecnie niedostępne.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Proszę spróbować ponownie';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Średnie miesięczne dziennych temperatur minimalnych i maksymalnych. Kolor niebieski oznacza niskie temperatury, a czerwony – wysokie. Do średniej miesięcznej wynoszącej 15 °C waga wartości minimalnej wynosi 80%; od 20 °C waga wartości maksymalnej wynosi 80%, przy czym przejście między tymi wartościami jest stopniowe. Brakujące dni pozostają wykluczone; bieżący miesiąc obejmuje dostępne dane do dnia dzisiejszego.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Najniższe dzienne wartości';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Maksymalne temperatury w ciągu dnia';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Średnia: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Zakres: od $minimum °C do $maximum °C';
+  }
 }

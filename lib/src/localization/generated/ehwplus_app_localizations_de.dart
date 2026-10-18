@@ -5122,4 +5122,33 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Runde vom $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Außentemperaturen';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Temperaturdaten sind derzeit nicht verfügbar.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Erneut versuchen';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Monatsdurchschnitte der täglichen Minima und Maxima. Blau steht für Kälte, Rot für Hitze. Bis zu einem Monatsmittel von 15 °C zählt das Minimum zu 80 %, ab 20 °C das Maximum zu 80 %, dazwischen mit fließendem Übergang. Fehlende Tage werden ausgelassen; der aktuelle Monat umfasst verfügbare Tage bis heute.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Tägliche Tiefstwerte';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Tägliche Höchstwerte';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Durchschnitt: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Bereich: $minimum °C bis $maximum °C';
+  }
 }

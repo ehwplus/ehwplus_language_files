@@ -5134,4 +5134,33 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date-től kezdődő forduló';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Külső hőmérséklet';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'A hőmérsékleti adatok jelenleg nem állnak rendelkezésre.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Próbáld meg újra';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'A napi minimum- és maximumhőmérsékletek havi átlagai. A kék szín a hideget, a piros a meleget jelzi. 15 °C-os havi átlagig a minimumérték súlyozása 80%; 20 °C-tól a maximumérték súlyozása 80%, fokozatos átmenettel. A hiányzó napok továbbra is kizárásra kerülnek; a jelenlegi hónap a mai napig rendelkezésre álló napokat tartalmazza.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Napi legalacsonyabb értékek';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Napi csúcsértékek';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Átlag: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Tartomány: $minimum °C – $maximum °C';
+  }
 }

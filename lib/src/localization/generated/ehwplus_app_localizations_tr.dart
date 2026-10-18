@@ -5104,4 +5104,33 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date tarihinden itibaren';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Dış ortam sıcaklıkları';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Şu anda sıcaklık verileri mevcut değildir.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Tekrar deneyin';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Günlük en düşük ve en yüksek sıcaklıkların aylık ortalamaları. Mavi renk soğuğu, kırmızı renk sıcağı gösterir. Aylık ortalama 15 °C\'ye kadar minimum değerlerin ağırlığı %80\'dir; 20 °C\'den itibaren maksimum değerlerin ağırlığı %80\'dir ve bu geçiş kademeli olarak gerçekleşir. Veri eksik olan günler hariç tutulur; mevcut ay, bugüne kadar mevcut olan günleri içerir.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Günlük en düşük değerler';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Günlük en yüksek değerler';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Ortalama: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Aralık: $minimum °C ile $maximum °C arası';
+  }
 }

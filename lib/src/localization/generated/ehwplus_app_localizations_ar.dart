@@ -5061,4 +5061,33 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'جولة من $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'درجات الحرارة الخارجية';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'بيانات درجة الحرارة غير متوفرة حاليًا.';
+
+  @override
+  String get temperatureHeatmapRetry => 'حاول مرة أخرى';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'المتوسطات الشهرية لدرجات الحرارة الدنيا والقصوى اليومية. يشير اللون الأزرق إلى البرودة، بينما يشير اللون الأحمر إلى الحرارة. حتى متوسط شهري يبلغ 15 درجة مئوية، يُعطى الحد الأدنى وزنًا بنسبة 80٪؛ ومن 20 درجة مئوية فصاعدًا، يُعطى الحد الأقصى وزنًا بنسبة 80٪، مع انتقال تدريجي. تظل الأيام المفقودة مستبعدة؛ ويشمل الشهر الحالي الأيام المتاحة حتى اليوم.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'أدنى المستويات اليومية';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'أعلى مستويات اليوم';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'المتوسط: $value درجة مئوية';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'النطاق: من $minimum درجة مئوية إلى $maximum درجة مئوية';
+  }
 }

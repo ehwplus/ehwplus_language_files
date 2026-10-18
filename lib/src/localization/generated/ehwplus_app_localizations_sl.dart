@@ -5118,4 +5118,33 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Krog od $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Zunanje temperature';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Podatki o temperaturi trenutno niso na voljo.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Poskusi še enkrat';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Mesečne povprečje dnevnih najnižjih in najvišjih temperatur. Modra barva označuje hlad, rdeča pa vročino. Do mesečne povprečne temperature 15 °C ima najnižja temperatura 80-odstotno težo; od 20 °C naprej ima najvišja temperatura 80-odstotno težo, s postopnim prehodom. Manjkajoči dnevi ostajajo izključeni; tekoči mesec vključuje razpoložljive dneve do danes.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Dnevne najnižje vrednosti';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Dnevne najvišje temperature';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Povprečje: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Območje: od $minimum °C do $maximum °C';
+  }
 }

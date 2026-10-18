@@ -5100,4 +5100,33 @@ class EhwplusAppLocalizationsSv extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Runda från $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Utetemperaturer';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Temperaturdata är för närvarande inte tillgängliga.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Försök igen';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Månadsmedelvärden för dagliga lägsta och högsta temperaturer. Blått indikerar kyla, rött indikerar värme. Upp till ett månadsgenomsnitt på 15 °C har lägsta temperaturen en vikt på 80 %; från 20 °C har högsta temperaturen en vikt på 80 %, med en gradvis övergång. Dagar med saknade värden utesluts; den aktuella månaden omfattar tillgängliga dagar fram till idag.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Dagens lägsta nivåer';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Dagens högsta temperaturer';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Genomsnitt: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Intervall: $minimum °C till $maximum °C';
+  }
 }

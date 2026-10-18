@@ -5109,4 +5109,33 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Mduara kutoka $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Joto la nje';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Data ya joto kwa sasa haipatikani.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Jaribu tena';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Wastani wa kila mwezi wa kiwango cha chini na cha juu cha kila siku. Buluu inaonyesha baridi, nyekundu inaonyesha joto. Hadi wastani wa mwezi wa 15 °C, kiwango cha chini kina uzito wa 80%; kuanzia 20 °C, kiwango cha juu kina uzito wa 80%, na mabadiliko hufanyika taratibu. Siku zilizokosekana bado hazijajumuishwa; mwezi wa sasa unajumuisha siku zilizopo hadi leo.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Viwango vya chini vya kila siku';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Viwango vya juu vya kila siku';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Wastani: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Wigo: $minimum °C hadi $maximum °C';
+  }
 }

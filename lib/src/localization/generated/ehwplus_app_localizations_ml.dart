@@ -5134,4 +5134,33 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date-ൽ നിന്ന്';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'പുറത്തെ താപനില';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'താപനിലയുടെ വിവരങ്ങൾ നിലവിൽ ലഭ്യമല്ല.';
+
+  @override
+  String get temperatureHeatmapRetry => 'വീണ്ടും ശ്രമിക്കുക';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'ദൈനംദിന ഏറ്റവും കുറഞ്ഞതും കൂടിയതുമായ താപനിലയുടെ പ്രതിമാസ ശരാശരി. നീല തണുപ്പിനെയും ചുവപ്പ് ചൂടിനെയും സൂചിപ്പിക്കുന്നു. പ്രതിമാസ ശരാശരി 15 °C വരെ, ഏറ്റവും കുറഞ്ഞ താപനിലയ്ക്ക് 80% ഭാരം നൽകുന്നു; 20 °C മുതൽ, ഏറ്റവും കൂടിയ താപനിലയ്ക്ക് 80% ഭാരം നൽകുന്നു, ഇത് ക്രമേണ മാറുന്നു. വിവരങ്ങൾ ലഭ്യമല്ലാത്ത ദിവസങ്ങൾ ഒഴിവാക്കിയിരിക്കുന്നു; നിലവിലെ മാസത്തിൽ ഇന്നേവരെ ലഭ്യമായ ദിവസങ്ങൾ ഉൾപ്പെടുന്നു.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'ദൈനംദിന ഏറ്റവും കുറഞ്ഞ വില';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'ദൈനംദിന പരമാവധി';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'ശരാശരി: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'പരിധി: $minimum °C മുതൽ $maximum °C വരെ';
+  }
 }

@@ -5137,4 +5137,33 @@ class EhwplusAppLocalizationsEs extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Ronda del $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Temperaturas exteriores';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Actualmente no se dispone de datos sobre la temperatura.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Inténtelo de nuevo';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Medias mensuales de las temperaturas mínimas y máximas diarias. El azul indica frío y el rojo, calor. Hasta una media mensual de 15 °C, la mínima tiene un peso del 80 %; a partir de 20 °C, la máxima tiene un peso del 80 %, con una transición gradual. Los días sin datos siguen excluidos; el mes actual incluye los días disponibles hasta hoy.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Mínimas diarias';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Máximas diarias';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Media: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Rango: de $minimum °C a $maximum °C';
+  }
 }

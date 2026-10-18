@@ -5100,4 +5100,33 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date से गोल';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'बाहरी तापमान';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'तापमान का डेटा वर्तमान में उपलब्ध नहीं है।';
+
+  @override
+  String get temperatureHeatmapRetry => 'फिर से कोशिश करें';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'दैनिक न्यूनतम और अधिकतम के मासिक औसत। नीला ठंड को, लाल गर्मी को दर्शाता है। मासिक औसत 15 °C तक न्यूनतम का 80% भार होता है; 20 °C से अधिकतम का 80% भार होता है, एक क्रमिक संक्रमण के साथ। अनुपस्थित दिन बाहर रखे जाते हैं; वर्तमान महीने में आज तक उपलब्ध दिन शामिल हैं।';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'दैनिक न्यूनतम';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'दैनिक उच्चतम तापमान';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'औसत: $value°C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'दायरा: $minimum°C से $maximum°C';
+  }
 }

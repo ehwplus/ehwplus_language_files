@@ -5123,4 +5123,33 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$dateမှ စ၍ ဝိုင်း';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'ပြင်ပအပူချိန်များ';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'အပူချိန်ဒေတာကို လက်ရှိတွင် မရရှိနိုင်ပါ။';
+
+  @override
+  String get temperatureHeatmapRetry => 'ထပ်ကြိုးစားပါ';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'နေ့စဉ် အနိမ့်ဆုံးနှင့် အမြင့်ဆုံး အပူချိန်များ၏ လစဉ် ပျမ်းမျှတန်ဖိုးများ။ အပြာရောင်သည် အေးမြမှုကို၊ အနီရောင်သည် ပူနွေးမှုကို ဖော်ပြသည်။ တစ်လပျမ်းမျှ အပူချိန် ၁၅ °C အထိတွင် အနိမ့်ဆုံးအပူချိန်အား ၈၀% အလေးချိန်ဖြင့် သတ်မှတ်ပြီး၊ ၂၀ °C မှစ၍ အမြင့်ဆုံးအပူချိန်အား ၈၀% အလေးချိန်ဖြင့် သတ်မှတ်ကာ တဖြည်းဖြည်း ပြောင်းလဲသည်။ မရရှိသေးသော ရက်များအား ထည့်သွင်းခြင်းမပြုဘဲ ထားရှိပြီး၊ လက်ရှိလတွင် ယနေ့အထိ ရရှိနိုင်သည့် ရက်များသာ ပါဝင်သည်။';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'နေ့စဉ်အနိမ့်ဆုံးများ';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'နေ့စဉ်အမြင့်ဆုံးအပူချိန်များ';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'ပျမ်းမျှ: $value°C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'အကွာအဝေး: အနည်းဆုံး $minimum°C မှ အများဆုံး $maximum°C';
+  }
 }

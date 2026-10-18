@@ -2494,5 +2494,16 @@
         "type": "String"
       }
     }
-  }
+  },
+  "temperatureHeatmapTitle": "Outdoor temperatures",
+  "temperatureHeatmapUnavailable": "Temperature data is currently unavailable.",
+  "temperatureHeatmapRetry": "Try again",
+  "temperatureHeatmapLegend": "Monthly averages of daily minima and maxima. Blue indicates cold, red indicates heat. Up to a monthly mean of 15 °C, the minimum has 80% weight; from 20 °C, the maximum has 80% weight, with a gradual transition. Missing days remain excluded; the current month includes available days through today.",
+  "@temperatureHeatmapAverages": {"placeholders": {"minimum": {"type": "String"}, "maximum": {"type": "String"}}},
+  "temperatureHeatmapDailyLows": "Daily lows",
+  "temperatureHeatmapDailyHighs": "Daily highs",
+  "temperatureHeatmapAverage": "Average: {value} °C",
+  "temperatureHeatmapDailyRange": "Range: {minimum} °C to {maximum} °C",
+  "@temperatureHeatmapAverage": {"placeholders": {"value": {"type": "String"}}},
+  "@temperatureHeatmapDailyRange": {"placeholders": {"minimum": {"type": "String"}, "maximum": {"type": "String"}}}
 }

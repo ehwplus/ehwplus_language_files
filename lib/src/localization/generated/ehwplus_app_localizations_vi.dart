@@ -5128,4 +5128,33 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Vòng thi từ ngày $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Nhiệt độ ngoài trời';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Hiện tại không có dữ liệu về nhiệt độ.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Hãy thử lại';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Giá trị trung bình hàng tháng của nhiệt độ thấp nhất và cao nhất hàng ngày. Màu xanh biểu thị thời tiết lạnh, màu đỏ biểu thị thời tiết nóng. Đối với giá trị trung bình hàng tháng lên đến 15 °C, nhiệt độ thấp nhất chiếm 80% trọng số; từ 20 °C trở lên, nhiệt độ cao nhất chiếm 80% trọng số, với sự chuyển đổi dần dần. Các ngày thiếu dữ liệu vẫn bị loại trừ; tháng hiện tại bao gồm các ngày có dữ liệu tính đến hôm nay.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Mức thấp nhất trong ngày';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Nhiệt độ cao nhất trong ngày';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Nhiệt độ trung bình: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Phạm vi: từ $minimum °C đến $maximum °C';
+  }
 }

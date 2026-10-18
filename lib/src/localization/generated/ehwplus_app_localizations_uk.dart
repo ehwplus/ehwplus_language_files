@@ -5145,4 +5145,33 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Раунд від $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Температура на вулиці';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Дані про температуру наразі недоступні.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Спробуйте ще раз';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Середні місячні значення щоденних мінімальних і максимальних температур. Синій колір позначає холод, червоний — спеку. До місячного середнього значення 15 °C мінімальна температура має вагу 80 %; від 20 °C максимальна температура має вагу 80 %, з поступовим переходом. Дні, за якими відсутні дані, залишаються виключеними; поточний місяць включає доступні дані станом на сьогодні.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Щоденні мінімуми';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Добові максимуми';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Середнє значення: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Діапазон: від $minimum °C до $maximum °C';
+  }
 }

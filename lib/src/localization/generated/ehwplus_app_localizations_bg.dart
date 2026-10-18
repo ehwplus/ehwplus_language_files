@@ -5141,4 +5141,33 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return 'Кръг от $date';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Температури на открито';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'В момента данните за температурата не са налични.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Опитай отново';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Месечни средни стойности на дневните минимални и максимални температури. Синьото обозначава студ, а червеното – топлина. До месечна средна стойност от 15 °C минималната температура има тежест 80%; от 20 °C максималната температура има тежест 80%, като преходът е плавен. Липсващите дни остават изключени; текущият месец включва наличните дни до днес.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Дневни минимуми';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Дневни максимуми';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Средна стойност: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Диапазон: от $minimum °C до $maximum °C';
+  }
 }

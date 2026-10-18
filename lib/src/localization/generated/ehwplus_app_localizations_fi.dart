@@ -5106,4 +5106,33 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date alkaen';
   }
+
+  @override
+  String get temperatureHeatmapTitle => 'Ulkotemperaturit';
+
+  @override
+  String get temperatureHeatmapUnavailable => 'Lämpötilatietoja ei ole tällä hetkellä saatavilla.';
+
+  @override
+  String get temperatureHeatmapRetry => 'Yritä uudelleen';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      'Päivittäisten minimi- ja maksimilämpötilojen kuukausikeskiarvot. Sininen väri tarkoittaa kylmää, punainen lämpimää. Kuukausikeskiarvon ollessa enintään 15 °C alin lämpötila painotetaan 80 %:lla; 20 °C:sta alkaen ylin lämpötila painotetaan 80 %:lla, ja siirtymä tapahtuu asteittain. Puuttuvat päivät jätetään pois; kuluvan kuukauden tiedot sisältävät saatavilla olevat päivät tähän päivään asti.';
+
+  @override
+  String get temperatureHeatmapDailyLows => 'Päivän alimmat arvot';
+
+  @override
+  String get temperatureHeatmapDailyHighs => 'Päivän korkeimmat lämpötilat';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return 'Keskilämpötila: $value °C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return 'Alue: $minimum °C – $maximum °C';
+  }
 }

@@ -4916,4 +4916,33 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String wearRoundFrom(String date) {
     return '$date 轮';
   }
+
+  @override
+  String get temperatureHeatmapTitle => '室外温度';
+
+  @override
+  String get temperatureHeatmapUnavailable => '目前无法获取温度数据。';
+
+  @override
+  String get temperatureHeatmapRetry => '请重试';
+
+  @override
+  String get temperatureHeatmapLegend =>
+      '日最低温和最高温的月平均值。 蓝色表示寒冷，红色表示炎热。当月平均气温低于15 °C时，最低气温占80%权重；当月平均气温达到20 °C时，最高气温占80%权重，两者之间呈渐变过渡。缺失数据的日子仍被排除在外；本月数据包含截至今日的所有有效数据。';
+
+  @override
+  String get temperatureHeatmapDailyLows => '日低点';
+
+  @override
+  String get temperatureHeatmapDailyHighs => '当日最高值';
+
+  @override
+  String temperatureHeatmapAverage(String value) {
+    return '平均值：$value°C';
+  }
+
+  @override
+  String temperatureHeatmapDailyRange(String minimum, String maximum) {
+    return '范围：$minimum °C 至 $maximum °C';
+  }
 }

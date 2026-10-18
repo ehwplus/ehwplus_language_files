@@ -9028,6 +9028,54 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Round from {date}'**
   String wearRoundFrom(String date);
+
+  /// No description provided for @temperatureHeatmapTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Outdoor temperatures'**
+  String get temperatureHeatmapTitle;
+
+  /// No description provided for @temperatureHeatmapUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Temperature data is currently unavailable.'**
+  String get temperatureHeatmapUnavailable;
+
+  /// No description provided for @temperatureHeatmapRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get temperatureHeatmapRetry;
+
+  /// No description provided for @temperatureHeatmapLegend.
+  ///
+  /// In en, this message translates to:
+  /// **'Monthly averages of daily minima and maxima. Blue indicates cold, red indicates heat. Up to a monthly mean of 15 °C, the minimum has 80% weight; from 20 °C, the maximum has 80% weight, with a gradual transition. Missing days remain excluded; the current month includes available days through today.'**
+  String get temperatureHeatmapLegend;
+
+  /// No description provided for @temperatureHeatmapDailyLows.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily lows'**
+  String get temperatureHeatmapDailyLows;
+
+  /// No description provided for @temperatureHeatmapDailyHighs.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily highs'**
+  String get temperatureHeatmapDailyHighs;
+
+  /// No description provided for @temperatureHeatmapAverage.
+  ///
+  /// In en, this message translates to:
+  /// **'Average: {value} °C'**
+  String temperatureHeatmapAverage(String value);
+
+  /// No description provided for @temperatureHeatmapDailyRange.
+  ///
+  /// In en, this message translates to:
+  /// **'Range: {minimum} °C to {maximum} °C'**
+  String temperatureHeatmapDailyRange(String minimum, String maximum);
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {
