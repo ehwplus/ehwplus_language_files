@@ -4945,4 +4945,19 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return '范围：$minimum °C 至 $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => '属性';
+
+  @override
+  String get homeWidgetChooseObject => '编辑此小部件时，请选择一个属性。';
+
+  @override
+  String get homeWidgetDescription => '选择一个仪表，并在EHW+中记录读数。';
+
+  @override
+  String get homeWidgetPreviousMeter => '上一米';
+
+  @override
+  String get homeWidgetNextMeter => '下一个计量表';
 }

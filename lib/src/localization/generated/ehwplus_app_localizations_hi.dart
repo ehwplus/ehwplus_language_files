@@ -5129,4 +5129,19 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'दायरा: $minimum°C से $maximum°C';
   }
+
+  @override
+  String get homeWidgetObject => 'संपत्ति';
+
+  @override
+  String get homeWidgetChooseObject => 'इस विजेट को संपादित करते समय एक संपत्ति चुनें।';
+
+  @override
+  String get homeWidgetDescription => 'एक मीटर चुनें और EHW+ में रीडिंग दर्ज करें।';
+
+  @override
+  String get homeWidgetPreviousMeter => 'पिछला मीटर';
+
+  @override
+  String get homeWidgetNextMeter => 'अगला मीटर';
 }

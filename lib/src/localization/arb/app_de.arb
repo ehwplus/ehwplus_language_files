@@ -1815,5 +1815,10 @@
   "temperatureHeatmapDailyLows": "Tägliche Tiefstwerte",
   "temperatureHeatmapDailyHighs": "Tägliche Höchstwerte",
   "temperatureHeatmapAverage": "Durchschnitt: {value} °C",
-  "temperatureHeatmapDailyRange": "Bereich: {minimum} °C bis {maximum} °C"
+  "temperatureHeatmapDailyRange": "Bereich: {minimum} °C bis {maximum} °C",
+  "homeWidgetObject": "Objekt",
+  "homeWidgetChooseObject": "Wähle beim Bearbeiten dieses Widgets ein Objekt aus.",
+  "homeWidgetDescription": "Zähler auswählen und den Zählerstand in EHW+ erfassen.",
+  "homeWidgetPreviousMeter": "Vorheriger Zähler",
+  "homeWidgetNextMeter": "Nächster Zähler"
 }

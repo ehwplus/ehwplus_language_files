@@ -5148,4 +5148,19 @@ class EhwplusAppLocalizationsBs extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Opseg: $minimum °C do $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Nekretnina';
+
+  @override
+  String get homeWidgetChooseObject => 'Odaberite nekretninu prilikom uređivanja ovog widgeta.';
+
+  @override
+  String get homeWidgetDescription => 'Odaberite brojilo i zabilježite očitanje uEHW+u.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Prethodni brojilac';
+
+  @override
+  String get homeWidgetNextMeter => 'Sljedeći metar';
 }

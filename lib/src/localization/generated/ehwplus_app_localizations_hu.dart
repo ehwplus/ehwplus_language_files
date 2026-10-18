@@ -5163,4 +5163,19 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Tartomány: $minimum °C – $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Ingatlan';
+
+  @override
+  String get homeWidgetChooseObject => 'A widget szerkesztésekor válasszon ki egy ingatlant.';
+
+  @override
+  String get homeWidgetDescription => 'Válasszon ki egy mérőórát, és rögzítse az állást az EHW+ alkalmazásban.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Előző mérőóra';
+
+  @override
+  String get homeWidgetNextMeter => 'Következő mérő';
 }

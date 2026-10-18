@@ -2505,5 +2505,10 @@
   "temperatureHeatmapAverage": "Average: {value} °C",
   "temperatureHeatmapDailyRange": "Range: {minimum} °C to {maximum} °C",
   "@temperatureHeatmapAverage": {"placeholders": {"value": {"type": "String"}}},
-  "@temperatureHeatmapDailyRange": {"placeholders": {"minimum": {"type": "String"}, "maximum": {"type": "String"}}}
+  "@temperatureHeatmapDailyRange": {"placeholders": {"minimum": {"type": "String"}, "maximum": {"type": "String"}}},
+  "homeWidgetObject": "Property",
+  "homeWidgetChooseObject": "Choose a property when editing this widget.",
+  "homeWidgetDescription": "Select a meter and record a reading in EHW+.",
+  "homeWidgetPreviousMeter": "Previous meter",
+  "homeWidgetNextMeter": "Next meter"
 }

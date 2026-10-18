@@ -5153,4 +5153,19 @@ class EhwplusAppLocalizationsPt extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Intervalo: $minimum °C a $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Propriedade';
+
+  @override
+  String get homeWidgetChooseObject => 'Selecione uma propriedade ao editar este widget.';
+
+  @override
+  String get homeWidgetDescription => 'Selecione um contador e registe uma leitura no EHW+.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Contador anterior';
+
+  @override
+  String get homeWidgetNextMeter => 'Próximo contador';
 }

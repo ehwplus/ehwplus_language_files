@@ -5170,4 +5170,19 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Диапазон: от $minimum °C до $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Имот';
+
+  @override
+  String get homeWidgetChooseObject => 'Изберете имот при редактирането на този виджет.';
+
+  @override
+  String get homeWidgetDescription => 'Изберете електромер и въведете показанията в EHW+.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Предишният измервателен уред';
+
+  @override
+  String get homeWidgetNextMeter => 'Следващият метър';
 }

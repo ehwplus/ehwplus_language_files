@@ -5194,4 +5194,19 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Диапазон: от $minimum °C до $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Недвижимость';
+
+  @override
+  String get homeWidgetChooseObject => 'При редактировании данного виджета выберите свойство.';
+
+  @override
+  String get homeWidgetDescription => 'Выберите счетчик и занесите показания в систему «EHW+».';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Предыдущий счетчик';
+
+  @override
+  String get homeWidgetNextMeter => 'Следующий счетчик';
 }

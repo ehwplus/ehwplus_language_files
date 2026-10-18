@@ -5157,4 +5157,19 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Phạm vi: từ $minimum °C đến $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Tài sản';
+
+  @override
+  String get homeWidgetChooseObject => 'Vui lòng chọn một thuộc tính khi chỉnh sửa tiện ích này.';
+
+  @override
+  String get homeWidgetDescription => 'Vui lòng chọn một đồng hồ đo và ghi lại chỉ số trên ứng dụng EHW+.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Đồng hồ trước đó';
+
+  @override
+  String get homeWidgetNextMeter => 'Đồng hồ tiếp theo';
 }

@@ -5090,4 +5090,19 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'النطاق: من $minimum درجة مئوية إلى $maximum درجة مئوية';
   }
+
+  @override
+  String get homeWidgetObject => 'العقارات';
+
+  @override
+  String get homeWidgetChooseObject => 'اختر خاصية عند تحرير هذه الأداة.';
+
+  @override
+  String get homeWidgetDescription => 'اختر عدادًا وسجل القراءة في تطبيق «EHW+».';
+
+  @override
+  String get homeWidgetPreviousMeter => 'العداد السابق';
+
+  @override
+  String get homeWidgetNextMeter => 'المتر التالي';
 }

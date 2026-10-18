@@ -9076,6 +9076,36 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Range: {minimum} °C to {maximum} °C'**
   String temperatureHeatmapDailyRange(String minimum, String maximum);
+
+  /// No description provided for @homeWidgetObject.
+  ///
+  /// In en, this message translates to:
+  /// **'Property'**
+  String get homeWidgetObject;
+
+  /// No description provided for @homeWidgetChooseObject.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a property when editing this widget.'**
+  String get homeWidgetChooseObject;
+
+  /// No description provided for @homeWidgetDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a meter and record a reading in EHW+.'**
+  String get homeWidgetDescription;
+
+  /// No description provided for @homeWidgetPreviousMeter.
+  ///
+  /// In en, this message translates to:
+  /// **'Previous meter'**
+  String get homeWidgetPreviousMeter;
+
+  /// No description provided for @homeWidgetNextMeter.
+  ///
+  /// In en, this message translates to:
+  /// **'Next meter'**
+  String get homeWidgetNextMeter;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

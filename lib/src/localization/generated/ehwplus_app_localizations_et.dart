@@ -5128,4 +5128,19 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Vahemik: $minimum °C kuni $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Kinnisvara';
+
+  @override
+  String get homeWidgetChooseObject => 'Valige selle vidina redigeerimisel objekt.';
+
+  @override
+  String get homeWidgetDescription => 'Valige arvesti ja salvestage näidud rakenduses „EHW+“.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Eelmine arvesti';
+
+  @override
+  String get homeWidgetNextMeter => 'Järgmine arvesti';
 }

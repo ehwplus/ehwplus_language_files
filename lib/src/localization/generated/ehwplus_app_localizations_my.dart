@@ -5152,4 +5152,19 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'အကွာအဝေး: အနည်းဆုံး $minimum°C မှ အများဆုံး $maximum°C';
   }
+
+  @override
+  String get homeWidgetObject => 'အိမ်ခြံမြေ';
+
+  @override
+  String get homeWidgetChooseObject => 'ဤဝစ်ဂျက်ကို တည်းဖြတ်နေစဉ် အိမ်ခြံမြေတစ်ခုကို ရွေးပါ။';
+
+  @override
+  String get homeWidgetDescription => 'မီတာတစ်လုံးကိုရွေးပြီး EHW+ တွင် ဖတ်ချက်ကို မှတ်တမ်းတင်ပါ။';
+
+  @override
+  String get homeWidgetPreviousMeter => 'ယခင် မီတာ';
+
+  @override
+  String get homeWidgetNextMeter => 'နောက်မီတာ';
 }

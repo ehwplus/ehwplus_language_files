@@ -5138,4 +5138,19 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Wigo: $minimum °C hadi $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Mali';
+
+  @override
+  String get homeWidgetChooseObject => 'Chagua mali unapohariri widget hii.';
+
+  @override
+  String get homeWidgetDescription => 'Chagua mita na rekodi usomaji katika EHW+.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Mita ya awali';
+
+  @override
+  String get homeWidgetNextMeter => 'Mita inayofuata';
 }

@@ -5160,4 +5160,19 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Diapazonas: nuo $minimum °C iki $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => 'Nekilnojamasis turtas';
+
+  @override
+  String get homeWidgetChooseObject => 'Redaguodami šį valdiklį, pasirinkite objektą.';
+
+  @override
+  String get homeWidgetDescription => 'Pasirinkite skaitiklį ir įrašykite rodmenį programoje „EHW+“.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Ankstesnis skaitiklis';
+
+  @override
+  String get homeWidgetNextMeter => 'Kitas skaitiklis';
 }

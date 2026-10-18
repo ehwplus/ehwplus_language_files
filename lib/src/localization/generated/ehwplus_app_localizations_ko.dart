@@ -4992,4 +4992,19 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return '범위: $minimum °C ~ $maximum °C';
   }
+
+  @override
+  String get homeWidgetObject => '속성';
+
+  @override
+  String get homeWidgetChooseObject => '이 위젯을 편집할 때 속성을 선택하세요.';
+
+  @override
+  String get homeWidgetDescription => '계량기를 선택하고 EHW+에 계량기 수치를 기록하십시오.';
+
+  @override
+  String get homeWidgetPreviousMeter => '이전 계량기';
+
+  @override
+  String get homeWidgetNextMeter => '다음 계량기';
 }

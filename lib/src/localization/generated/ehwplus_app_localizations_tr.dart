@@ -5133,4 +5133,19 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String temperatureHeatmapDailyRange(String minimum, String maximum) {
     return 'Aralık: $minimum °C ile $maximum °C arası';
   }
+
+  @override
+  String get homeWidgetObject => 'Mülk';
+
+  @override
+  String get homeWidgetChooseObject => 'Bu widget’ı düzenlerken bir özellik seçin.';
+
+  @override
+  String get homeWidgetDescription => 'EHW+\'da bir sayaç seçin ve okuma değerini kaydedin.';
+
+  @override
+  String get homeWidgetPreviousMeter => 'Önceki sayaç';
+
+  @override
+  String get homeWidgetNextMeter => 'Sonraki sayaç';
 }
