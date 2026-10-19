@@ -402,6 +402,19 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get commonShare => 'Share';
 
   @override
+  String get logShareFailed => 'Nu s-au putut partaja jurnalele. Vă rugăm să încercați din nou.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Actualizați acum';
 
   @override
@@ -1583,10 +1596,10 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mai multe despre harta termică';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Valori zilnice';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Valori pe oră';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Jeton de acces cu durată lungă de viață';

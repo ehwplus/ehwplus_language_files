@@ -404,6 +404,19 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get commonShare => 'Bagikan';
 
   @override
+  String get logShareFailed => 'Log tersebut tidak dapat dibagikan. Silakan coba lagi.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Perbarui sekarang';
 
   @override
@@ -1584,10 +1597,10 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Lebih lanjut tentang peta panas';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Nilai harian';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Nilai per jam';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Token akses berumur panjang';

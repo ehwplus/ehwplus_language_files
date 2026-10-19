@@ -401,6 +401,19 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get commonShare => 'Shiriki';
 
   @override
+  String get logShareFailed => 'Logi hazikuweza kushirikiwa. Tafadhali jaribu tena.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Sasisha sasa';
 
   @override
@@ -1577,10 +1590,10 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Zaidi juu ya joto';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Thamani za kila siku';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Thamani za kila saa';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Tokeni ya ufikiaji yenye muda mrefu';

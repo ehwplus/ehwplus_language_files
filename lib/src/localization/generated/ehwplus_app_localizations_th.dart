@@ -399,6 +399,19 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get commonShare => 'แบ่งปัน';
 
   @override
+  String get logShareFailed => 'ไม่สามารถแชร์ไฟล์บันทึกได้ โปรดลองอีกครั้ง';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'อัปเดตตอนนี้';
 
   @override
@@ -1573,10 +1586,10 @@ class EhwplusAppLocalizationsTh extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'ข้อมูลเพิ่มเติมเกี่ยวกับแผนที่ความร้อน';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'ค่าแนะนำต่อวัน';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'ค่าต่อชั่วโมง';
 
   @override
   String get homeAssistantAccessTokenLabel => 'โทเค็นการเข้าถึงที่มีอายุการใช้งานยาวนาน';

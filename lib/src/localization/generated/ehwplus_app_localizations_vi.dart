@@ -404,6 +404,19 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get commonShare => 'Chia sẻ';
 
   @override
+  String get logShareFailed => 'Không thể chia sẻ các bản ghi. Vui lòng thử lại.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Cập nhật ngay bây giờ';
 
   @override
@@ -1583,10 +1596,10 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Thông tin thêm về bản đồ nhiệt';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Giá trị hàng ngày';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Các giá trị theo giờ';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Mã truy cập có thời hạn dài';

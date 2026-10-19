@@ -402,6 +402,19 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get commonShare => 'Μοιραστείτε το';
 
   @override
+  String get logShareFailed => 'Δεν ήταν δυνατή η κοινοποίηση των αρχείων καταγραφής. Παρακαλώ, δοκιμάστε ξανά.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Ενημέρωση τώρα';
 
   @override
@@ -1586,10 +1599,10 @@ class EhwplusAppLocalizationsEl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Περισσότερα για τον χάρτη θερμότητας';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Ημερήσιες τιμές';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Ωριαίες τιμές';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Κουπόνι πρόσβασης μακράς διάρκειας';

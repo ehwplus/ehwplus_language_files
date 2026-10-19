@@ -400,6 +400,19 @@ class EhwplusAppLocalizationsEn extends EhwplusAppLocalizations {
   String get commonShare => 'Share';
 
   @override
+  String get logShareFailed => 'The logs could not be shared. Please try again.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Update now';
 
   @override

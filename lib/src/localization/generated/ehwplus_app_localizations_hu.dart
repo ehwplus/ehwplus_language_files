@@ -402,6 +402,19 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get commonShare => 'Megosztás';
 
   @override
+  String get logShareFailed => 'A naplófájlokat nem sikerült megosztani. Kérjük, próbálja meg újra.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Frissítés most';
 
   @override
@@ -1584,10 +1597,10 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'További információk a hőtérképről';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Napi értékek';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Óránkénti értékek';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Hosszú élettartamú hozzáférési token';

@@ -399,6 +399,19 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get commonShare => 'مشاركة';
 
   @override
+  String get logShareFailed => 'تعذر مشاركة السجلات. يرجى المحاولة مرة أخرى.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'تحديث الآن';
 
   @override
@@ -1574,10 +1587,10 @@ class EhwplusAppLocalizationsAr extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'المزيد عن خريطة الحرارة';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'القيم اليومية';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'القيم لكل ساعة';
 
   @override
   String get homeAssistantAccessTokenLabel => 'رمز وصول طويل الأجل';

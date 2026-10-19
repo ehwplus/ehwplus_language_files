@@ -400,6 +400,19 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get commonShare => 'Dele';
 
   @override
+  String get logShareFailed => 'Det var ikke muligt at dele logfilerne. Prøv venligst igen.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Opdater nu';
 
   @override
@@ -1577,10 +1590,10 @@ class EhwplusAppLocalizationsDa extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mere om varmekortet';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Daglige værdier';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Timeværdier';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Langtidsholdbar adgangstoken';

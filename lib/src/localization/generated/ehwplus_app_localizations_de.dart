@@ -403,6 +403,19 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get commonShare => 'Teilen';
 
   @override
+  String get logShareFailed => 'Die Logs konnten nicht geteilt werden. Bitte versuche es erneut.';
+
+  @override
+  String get logShareMail => 'Per Mail senden';
+
+  @override
+  String get logShareOther => 'Anders teilen';
+
+  @override
+  String get logMailFailed =>
+      'Eine Mail mit Anhang ist nicht verfügbar oder konnte nicht geöffnet werden. Du kannst die Logs anders teilen.';
+
+  @override
   String get commonUpdateNow => 'Jetzt aktualisieren';
 
   @override

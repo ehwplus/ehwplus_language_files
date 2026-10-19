@@ -399,6 +399,19 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get commonShare => 'Podíl';
 
   @override
+  String get logShareFailed => 'Protokoly se nepodařilo sdílet. Zkuste to prosím znovu.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Aktualizujte nyní';
 
   @override
@@ -1578,10 +1591,10 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Více o teplotní mapě';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Denní hodnoty';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Hodinové hodnoty';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Přístupový token s dlouhou životností';

@@ -402,6 +402,19 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get commonShare => 'Delen';
 
   @override
+  String get logShareFailed => 'De logbestanden konden niet worden gedeeld. Probeer het alstublieft nogmaals.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Nu bijwerken';
 
   @override
@@ -1582,10 +1595,10 @@ class EhwplusAppLocalizationsNl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Meer over de heatmap';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Dagelijkse waarden';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Waarden per uur';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Toegangstoken met lange levensduur';

@@ -403,6 +403,19 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get commonShare => 'ခဲှဝေ';
 
   @override
+  String get logShareFailed => 'စာရင်းများကို မမျှဝေနိုင်ပါ။ ထပ်မံကြိုးစားပါ။';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'ယခု update ကို';
 
   @override
@@ -1586,10 +1599,10 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'HeTmap အကြောင်းပို';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'နေ့စဉ်တန်ဖိုးများ';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'နာရီအလိုက် တန်ဖိုးများ';
 
   @override
   String get homeAssistantAccessTokenLabel => 'ကြာရှည်အသက်ဝင်သော ဝင်ခွင့်ကုဒ်';

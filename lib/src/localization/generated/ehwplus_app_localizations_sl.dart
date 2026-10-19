@@ -401,6 +401,19 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get commonShare => 'Delite';
 
   @override
+  String get logShareFailed => 'Dnevnikov ni bilo mogoče deliti. Poskusite še enkrat.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Posodobite zdaj';
 
   @override
@@ -1578,10 +1591,10 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Več o toplotni karti';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Dnevne vrednosti';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Ure vrednosti';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Dolgoročni žeton za dostop';

@@ -390,6 +390,19 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get commonShare => '分享';
 
   @override
+  String get logShareFailed => '无法共享日志。请重试。';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => '立即更新';
 
   @override
@@ -1537,10 +1550,10 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => '有关热图的更多信息';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => '每日数值';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => '每小时数值';
 
   @override
   String get homeAssistantAccessTokenLabel => '长效访问令牌';

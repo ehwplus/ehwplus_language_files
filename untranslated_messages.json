@@ -1,187 +1,224 @@
 {
   "af": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "ar": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues",
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed",
     "homeAssistantDiagnosticsEnvironment"
   ],
 
   "bg": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "bs": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "cs": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "da": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "el": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "es": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "et": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "fa": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "fi": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "fr": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "hi": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "hr": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "hu": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "id": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "it": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "ja": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "ko": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "lt": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "ml": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "my": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "nb": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "nl": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "pl": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "pt": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "ro": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "ru": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "sl": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "sr": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "sv": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "sw": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "th": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "tr": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "uk": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "vi": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ],
 
   "zh": [
-    "homeAssistantDailyValues",
-    "homeAssistantHourlyValues"
+    "logShareMail",
+    "logShareOther",
+    "logMailFailed"
   ]
 }

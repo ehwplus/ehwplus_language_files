@@ -402,6 +402,19 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get commonShare => 'Udział';
 
   @override
+  String get logShareFailed => 'Nie udało się udostępnić plików dziennika. Proszę spróbować ponownie.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Zaktualizuj teraz';
 
   @override
@@ -1586,10 +1599,10 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Więcej informacji o mapie cieplnej';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Wartości dzienne';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Wartości godzinowe';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Token dostępu o długim okresie ważności';

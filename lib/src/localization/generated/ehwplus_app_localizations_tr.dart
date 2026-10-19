@@ -402,6 +402,19 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get commonShare => 'Paylaşmak';
 
   @override
+  String get logShareFailed => 'Günlükler paylaşılamadı. Lütfen tekrar deneyin.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Şimdi güncelle';
 
   @override
@@ -1582,10 +1595,10 @@ class EhwplusAppLocalizationsTr extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Isı haritası hakkında daha fazla bilgi';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Günlük değerler';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Saatlik değerler';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Uzun ömürlü erişim belirteci';

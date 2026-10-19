@@ -401,6 +401,19 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get commonShare => 'Bendrinti';
 
   @override
+  String get logShareFailed => 'Nepavyko pasidalinti žurnalų. Prašome bandyti dar kartą.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Atnaujinkite dabar';
 
   @override
@@ -1582,10 +1595,10 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Daugiau apie šilumos žemėlapį';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Paros normos';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Valandiniai rodikliai';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Ilgalaikis prieigos simbolis';

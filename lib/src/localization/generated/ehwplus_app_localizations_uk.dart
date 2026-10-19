@@ -403,6 +403,19 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get commonShare => 'Поділіться';
 
   @override
+  String get logShareFailed => 'Не вдалося надати доступ до журналів. Спробуйте ще раз.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Оновіть зараз';
 
   @override
@@ -1585,10 +1598,10 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Детальніше про теплову карту';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Щоденні показники';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Годинні значення';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Довговічний токен доступу';

@@ -401,6 +401,19 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get commonShare => 'Jaa';
 
   @override
+  String get logShareFailed => 'Lokitiedostoja ei voitu jakaa. Yritä uudelleen.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Päivitä nyt';
 
   @override
@@ -1578,10 +1591,10 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Lisää lämpökartasta';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Päivittäiset arvot';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Tuntikohtaiset arvot';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Pitkäkestoinen käyttöoikeuskoodi';

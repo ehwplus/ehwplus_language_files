@@ -404,6 +404,19 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get commonShare => 'Споделяне';
 
   @override
+  String get logShareFailed => 'Не беше възможно да се споделят логовете. Моля, опитайте отново.';
+
+  @override
+  String get logShareMail => 'Send by email';
+
+  @override
+  String get logShareOther => 'Share another way';
+
+  @override
+  String get logMailFailed =>
+      'Email with an attachment is unavailable or could not be opened. You can share the logs another way.';
+
+  @override
   String get commonUpdateNow => 'Актуализирай сега';
 
   @override
@@ -1583,10 +1596,10 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Повече за топлинната карта';
 
   @override
-  String get homeAssistantDailyValues => 'Daily values';
+  String get homeAssistantDailyValues => 'Дневни стойности';
 
   @override
-  String get homeAssistantHourlyValues => 'Hourly values';
+  String get homeAssistantHourlyValues => 'Стойности на час';
 
   @override
   String get homeAssistantAccessTokenLabel => 'Дългосрочен токен за достъп';

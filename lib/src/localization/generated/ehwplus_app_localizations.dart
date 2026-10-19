@@ -889,6 +889,30 @@ abstract class EhwplusAppLocalizations {
   /// **'Share'**
   String get commonShare;
 
+  /// No description provided for @logShareFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'The logs could not be shared. Please try again.'**
+  String get logShareFailed;
+
+  /// No description provided for @logShareMail.
+  ///
+  /// In en, this message translates to:
+  /// **'Send by email'**
+  String get logShareMail;
+
+  /// No description provided for @logShareOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Share another way'**
+  String get logShareOther;
+
+  /// No description provided for @logMailFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Email with an attachment is unavailable or could not be opened. You can share the logs another way.'**
+  String get logMailFailed;
+
   /// No description provided for @commonUpdateNow.
   ///
   /// In en, this message translates to:
