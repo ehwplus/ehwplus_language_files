@@ -1583,6 +1583,12 @@ class EhwplusAppLocalizationsRo extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Mai multe despre harta termică';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Jeton de acces cu durată lungă de viață';
 
   @override

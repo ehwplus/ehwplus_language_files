@@ -1586,6 +1586,12 @@ class EhwplusAppLocalizationsMy extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'HeTmap အကြောင်းပို';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'ကြာရှည်အသက်ဝင်သော ဝင်ခွင့်ကုဒ်';
 
   @override

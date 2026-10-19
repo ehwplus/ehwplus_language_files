@@ -1583,6 +1583,12 @@ class EhwplusAppLocalizationsBg extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Повече за топлинната карта';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Дългосрочен токен за достъп';
 
   @override

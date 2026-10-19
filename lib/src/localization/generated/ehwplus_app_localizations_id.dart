@@ -1584,6 +1584,12 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Lebih lanjut tentang peta panas';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Token akses berumur panjang';
 
   @override

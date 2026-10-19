@@ -1593,6 +1593,12 @@ class EhwplusAppLocalizationsRu extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Подробнее о тепловой карте';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Жетон доступа с длительным сроком действия';
 
   @override

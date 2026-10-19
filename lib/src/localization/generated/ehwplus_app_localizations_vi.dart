@@ -1583,6 +1583,12 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Thông tin thêm về bản đồ nhiệt';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Mã truy cập có thời hạn dài';
 
   @override

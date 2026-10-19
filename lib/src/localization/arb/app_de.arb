@@ -543,6 +543,8 @@
   "heater": "Heizung",
   "heatmapLegendDisclaimer": "Info: Schraffierte Boxen enthalten einen Schätzwert. Um den tatsächlichen Verbrauch/Ertrag abzulesen, bitte falls möglich, die fehlenden Werte nachtragen.",
   "heatmapLegendTitle": "Mehr über die Heatmap",
+  "homeAssistantDailyValues": "Tageswerte",
+  "homeAssistantHourlyValues": "Stundenwerte",
   "homeAssistantAccessTokenLabel": "Long-Lived Access Token",
   "homeAssistantAccessTokenRequired": "Bitte geben Sie den Long-Lived Access Token ein.",
   "homeAssistantConfigureNow": "Jetzt einrichten",

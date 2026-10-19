@@ -1578,6 +1578,12 @@ class EhwplusAppLocalizationsFi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Lisää lämpökartasta';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Pitkäkestoinen käyttöoikeuskoodi';
 
   @override

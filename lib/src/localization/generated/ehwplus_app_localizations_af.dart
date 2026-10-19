@@ -1579,6 +1579,12 @@ class EhwplusAppLocalizationsAf extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Meer oor die hittekaart';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Langlewende toegangstoken';
 
   @override

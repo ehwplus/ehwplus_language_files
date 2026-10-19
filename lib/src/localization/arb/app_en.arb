@@ -726,6 +726,8 @@
   "heater": "Radiator",
   "heatmapLegendDisclaimer": "Info: Shaded boxes contain an estimated value. To read the actual consumption/output, please fill in the missing meter readings if possible.",
   "heatmapLegendTitle": "More about the heatmap",
+  "homeAssistantDailyValues": "Daily values",
+  "homeAssistantHourlyValues": "Hourly values",
   "homeAssistantAccessTokenLabel": "Long-lived access token",
   "homeAssistantAccessTokenRequired": "Please enter a long-lived access token.",
   "homeAssistantConfigureNow": "Set up now",

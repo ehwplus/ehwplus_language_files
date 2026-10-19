@@ -1581,6 +1581,12 @@ class EhwplusAppLocalizationsEt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Rohkem soojustabeli kohta';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Pikaajaline juurdepääsutunnus';
 
   @override

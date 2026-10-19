@@ -1584,6 +1584,12 @@ class EhwplusAppLocalizationsHu extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'További információk a hőtérképről';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Hosszú élettartamú hozzáférési token';
 
   @override

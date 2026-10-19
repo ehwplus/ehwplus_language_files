@@ -2915,6 +2915,18 @@ abstract class EhwplusAppLocalizations {
   /// **'More about the heatmap'**
   String get heatmapLegendTitle;
 
+  /// No description provided for @homeAssistantDailyValues.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily values'**
+  String get homeAssistantDailyValues;
+
+  /// No description provided for @homeAssistantHourlyValues.
+  ///
+  /// In en, this message translates to:
+  /// **'Hourly values'**
+  String get homeAssistantHourlyValues;
+
   /// No description provided for @homeAssistantAccessTokenLabel.
   ///
   /// In en, this message translates to:

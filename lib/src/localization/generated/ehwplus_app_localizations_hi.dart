@@ -1580,6 +1580,12 @@ class EhwplusAppLocalizationsHi extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'हीटमैप के बारे में अधिक जानकारी';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'दीर्घकालिक एक्सेस टोकन';
 
   @override

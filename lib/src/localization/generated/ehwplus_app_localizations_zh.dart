@@ -1537,6 +1537,12 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => '有关热图的更多信息';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => '长效访问令牌';
 
   @override

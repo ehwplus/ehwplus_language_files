@@ -1,5 +1,187 @@
 {
+  "af": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
   "ar": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues",
     "homeAssistantDiagnosticsEnvironment"
+  ],
+
+  "bg": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "bs": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "cs": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "da": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "el": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "es": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "et": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "fa": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "fi": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "fr": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "hi": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "hr": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "hu": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "id": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "it": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "ja": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "ko": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "lt": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "ml": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "my": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "nb": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "nl": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "pl": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "pt": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "ro": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "ru": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "sl": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "sr": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "sv": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "sw": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "th": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "tr": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "uk": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "vi": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
+  ],
+
+  "zh": [
+    "homeAssistantDailyValues",
+    "homeAssistantHourlyValues"
   ]
 }

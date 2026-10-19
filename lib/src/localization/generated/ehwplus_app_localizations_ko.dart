@@ -1551,6 +1551,12 @@ class EhwplusAppLocalizationsKo extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => '히트맵 정보';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => '수명이 긴 액세스 토큰';
 
   @override

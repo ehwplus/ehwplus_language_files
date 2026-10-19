@@ -1586,6 +1586,12 @@ class EhwplusAppLocalizationsPl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Więcej informacji o mapie cieplnej';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Token dostępu o długim okresie ważności';
 
   @override

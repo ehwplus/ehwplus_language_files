@@ -1582,6 +1582,12 @@ class EhwplusAppLocalizationsLt extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Daugiau apie šilumos žemėlapį';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Ilgalaikis prieigos simbolis';
 
   @override

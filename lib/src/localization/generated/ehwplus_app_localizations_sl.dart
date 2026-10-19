@@ -1578,6 +1578,12 @@ class EhwplusAppLocalizationsSl extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Več o toplotni karti';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Dolgoročni žeton za dostop';
 
   @override

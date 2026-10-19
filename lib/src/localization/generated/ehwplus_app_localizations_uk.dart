@@ -1585,6 +1585,12 @@ class EhwplusAppLocalizationsUk extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Детальніше про теплову карту';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Довговічний токен доступу';
 
   @override

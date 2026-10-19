@@ -1577,6 +1577,12 @@ class EhwplusAppLocalizationsSw extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Zaidi juu ya joto';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Tokeni ya ufikiaji yenye muda mrefu';
 
   @override

@@ -1578,6 +1578,12 @@ class EhwplusAppLocalizationsCs extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'Více o teplotní mapě';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'Přístupový token s dlouhou životností';
 
   @override

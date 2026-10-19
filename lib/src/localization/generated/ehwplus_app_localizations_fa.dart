@@ -1575,6 +1575,12 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get heatmapLegendTitle => 'اطلاعات بیشتر در مورد نقشه حرارتی';
 
   @override
+  String get homeAssistantDailyValues => 'Daily values';
+
+  @override
+  String get homeAssistantHourlyValues => 'Hourly values';
+
+  @override
   String get homeAssistantAccessTokenLabel => 'توکن دسترسی با عمر طولانی';
 
   @override
