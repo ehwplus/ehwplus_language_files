@@ -1587,6 +1587,16 @@ class EhwplusAppLocalizationsZh extends EhwplusAppLocalizations {
   String get homeAssistantHistoricalConsumptionsTitle => 'EHW+ 的历史消耗量';
 
   @override
+  String get homeAssistantImportFromConfirmation =>
+      'The consumption history for this meter will be rebuilt from Home Assistant using the selected start time. Existing values before this time will be removed.';
+
+  @override
+  String get homeAssistantImportFrom => 'Use values from';
+
+  @override
+  String get homeAssistantImportAllHistory => 'All available history';
+
+  @override
   String get homeAssistantLinkSensor => '链接传感器';
 
   @override

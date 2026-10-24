@@ -3005,6 +3005,24 @@ abstract class EhwplusAppLocalizations {
   /// **'Historical EHW+ consumptions'**
   String get homeAssistantHistoricalConsumptionsTitle;
 
+  /// No description provided for @homeAssistantImportFromConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'The consumption history for this meter will be rebuilt from Home Assistant using the selected start time. Existing values before this time will be removed.'**
+  String get homeAssistantImportFromConfirmation;
+
+  /// No description provided for @homeAssistantImportFrom.
+  ///
+  /// In en, this message translates to:
+  /// **'Use values from'**
+  String get homeAssistantImportFrom;
+
+  /// No description provided for @homeAssistantImportAllHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'All available history'**
+  String get homeAssistantImportAllHistory;
+
   /// No description provided for @homeAssistantLinkSensor.
   ///
   /// In en, this message translates to:

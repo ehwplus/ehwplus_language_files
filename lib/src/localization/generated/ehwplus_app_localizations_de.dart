@@ -1633,6 +1633,16 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get homeAssistantHistoricalConsumptionsTitle => 'Historische EHW+ Verbräuche';
 
   @override
+  String get homeAssistantImportFromConfirmation =>
+      'Die Verbrauchshistorie dieses Zählers wird ab dem gewählten Zeitpunkt aus Home Assistant neu aufgebaut. Bisherige Werte vor diesem Zeitpunkt werden entfernt.';
+
+  @override
+  String get homeAssistantImportFrom => 'Werte verwenden ab';
+
+  @override
+  String get homeAssistantImportAllHistory => 'Gesamte verfügbare Historie';
+
+  @override
   String get homeAssistantLinkSensor => 'Sensor verknüpfen';
 
   @override
