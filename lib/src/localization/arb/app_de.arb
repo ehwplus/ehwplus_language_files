@@ -1826,5 +1826,13 @@
   "homeWidgetChooseObject": "Wähle beim Bearbeiten dieses Widgets ein Objekt aus.",
   "homeWidgetDescription": "Zähler auswählen und den Zählerstand in EHW+ erfassen.",
   "homeWidgetPreviousMeter": "Vorheriger Zähler",
-  "homeWidgetNextMeter": "Nächster Zähler"
+  "homeWidgetNextMeter": "Nächster Zähler",
+  "wearReadingBelowPrevious": "Dein Stand ({reading}) liegt unter dem letzten Stand auf dem Handy ({previous}). Bitte beide Ablesungen prüfen.",
+  "wearReadingAbovePrevious": "Dein Stand ({reading}) liegt über dem letzten Stand auf dem Handy ({previous}), obwohl dieser Zähler rückwärts zählt. Bitte beide Ablesungen prüfen.",
+  "wearReadingDateConflict": "Deine Ablesung ({readingDate}) ist nicht neuer als die letzte Ablesung auf dem Handy ({previousDate}). Bitte beide Ablesungen prüfen.",
+  "wearReadingConfigurationChanged": "Die Zählerkonfiguration hat sich geändert. Bitte diese Ablesung in EHW+ auf dem Handy prüfen.",
+  "wearDiscardReading": "Ablesung verwerfen",
+  "wearDiscardReadingConfirmation": "Diese Eingabe und eine ausstehende Übertragung verwerfen? Bereits auf dem Handy gespeicherte Ablesungen bleiben erhalten.",
+  "wearDiscardUpdatePhone": "Aktualisiere EHW+ auf dem Handy, um eine gespeicherte Ablesung zu verwerfen.",
+  "wearDiscardPending": "Ablesung wird verworfen. Der Auftrag wird bei Verbindung mit dem Handy synchronisiert."
 }

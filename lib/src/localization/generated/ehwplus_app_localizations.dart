@@ -9142,6 +9142,54 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'Next meter'**
   String get homeWidgetNextMeter;
+
+  /// No description provided for @wearReadingBelowPrevious.
+  ///
+  /// In en, this message translates to:
+  /// **'Your reading ({reading}) is below the latest reading on your phone ({previous}). Please check both readings.'**
+  String wearReadingBelowPrevious(String reading, String previous);
+
+  /// No description provided for @wearReadingAbovePrevious.
+  ///
+  /// In en, this message translates to:
+  /// **'Your reading ({reading}) is above the latest reading on your phone ({previous}) although this meter counts backwards. Please check both readings.'**
+  String wearReadingAbovePrevious(String reading, String previous);
+
+  /// No description provided for @wearReadingDateConflict.
+  ///
+  /// In en, this message translates to:
+  /// **'Your reading ({readingDate}) is not newer than the latest reading on your phone ({previousDate}). Please check both readings.'**
+  String wearReadingDateConflict(String readingDate, String previousDate);
+
+  /// No description provided for @wearReadingConfigurationChanged.
+  ///
+  /// In en, this message translates to:
+  /// **'The meter configuration has changed. Please check this reading in EHW+ on your phone.'**
+  String get wearReadingConfigurationChanged;
+
+  /// No description provided for @wearDiscardReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Discard reading'**
+  String get wearDiscardReading;
+
+  /// No description provided for @wearDiscardReadingConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Discard this entry and any pending transmission? Readings already saved on your phone will be kept.'**
+  String get wearDiscardReadingConfirmation;
+
+  /// No description provided for @wearDiscardUpdatePhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Update EHW+ on your phone to discard a saved reading.'**
+  String get wearDiscardUpdatePhone;
+
+  /// No description provided for @wearDiscardPending.
+  ///
+  /// In en, this message translates to:
+  /// **'Discarding reading. The request will sync when your phone is connected.'**
+  String get wearDiscardPending;
 }
 
 class _EhwplusAppLocalizationsDelegate extends LocalizationsDelegate<EhwplusAppLocalizations> {

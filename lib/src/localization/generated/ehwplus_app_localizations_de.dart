@@ -5185,4 +5185,37 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get homeWidgetNextMeter => 'Nächster Zähler';
+
+  @override
+  String wearReadingBelowPrevious(String reading, String previous) {
+    return 'Dein Stand ($reading) liegt unter dem letzten Stand auf dem Handy ($previous). Bitte beide Ablesungen prüfen.';
+  }
+
+  @override
+  String wearReadingAbovePrevious(String reading, String previous) {
+    return 'Dein Stand ($reading) liegt über dem letzten Stand auf dem Handy ($previous), obwohl dieser Zähler rückwärts zählt. Bitte beide Ablesungen prüfen.';
+  }
+
+  @override
+  String wearReadingDateConflict(String readingDate, String previousDate) {
+    return 'Deine Ablesung ($readingDate) ist nicht neuer als die letzte Ablesung auf dem Handy ($previousDate). Bitte beide Ablesungen prüfen.';
+  }
+
+  @override
+  String get wearReadingConfigurationChanged =>
+      'Die Zählerkonfiguration hat sich geändert. Bitte diese Ablesung in EHW+ auf dem Handy prüfen.';
+
+  @override
+  String get wearDiscardReading => 'Ablesung verwerfen';
+
+  @override
+  String get wearDiscardReadingConfirmation =>
+      'Diese Eingabe und eine ausstehende Übertragung verwerfen? Bereits auf dem Handy gespeicherte Ablesungen bleiben erhalten.';
+
+  @override
+  String get wearDiscardUpdatePhone => 'Aktualisiere EHW+ auf dem Handy, um eine gespeicherte Ablesung zu verwerfen.';
+
+  @override
+  String get wearDiscardPending =>
+      'Ablesung wird verworfen. Der Auftrag wird bei Verbindung mit dem Handy synchronisiert.';
 }

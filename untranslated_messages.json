@@ -2,223 +2,519 @@
   "af": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "ar": [
     "logShareMail",
     "logShareOther",
     "logMailFailed",
-    "homeAssistantDiagnosticsEnvironment"
+    "homeAssistantDiagnosticsEnvironment",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "bg": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "bs": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "cs": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "da": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "el": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "es": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "et": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "fa": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "fi": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "fr": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "hi": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "hr": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "hu": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "id": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "it": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "ja": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "ko": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "lt": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "ml": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "my": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "nb": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "nl": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "pl": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "pt": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "ro": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "ru": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "sl": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "sr": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "sv": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "sw": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "th": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "tr": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "uk": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "vi": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ],
 
   "zh": [
     "logShareMail",
     "logShareOther",
-    "logMailFailed"
+    "logMailFailed",
+    "wearReadingBelowPrevious",
+    "wearReadingAbovePrevious",
+    "wearReadingDateConflict",
+    "wearReadingConfigurationChanged",
+    "wearDiscardReading",
+    "wearDiscardReadingConfirmation",
+    "wearDiscardUpdatePhone",
+    "wearDiscardPending"
   ]
 }

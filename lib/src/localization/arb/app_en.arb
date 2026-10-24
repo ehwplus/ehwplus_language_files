@@ -2516,5 +2516,43 @@
   "homeWidgetChooseObject": "Choose a property when editing this widget.",
   "homeWidgetDescription": "Select a meter and record a reading in EHW+.",
   "homeWidgetPreviousMeter": "Previous meter",
-  "homeWidgetNextMeter": "Next meter"
+  "homeWidgetNextMeter": "Next meter",
+  "wearReadingBelowPrevious": "Your reading ({reading}) is below the latest reading on your phone ({previous}). Please check both readings.",
+  "@wearReadingBelowPrevious": {
+    "placeholders": {
+      "reading": {
+        "type": "String"
+      },
+      "previous": {
+        "type": "String"
+      }
+    }
+  },
+  "wearReadingAbovePrevious": "Your reading ({reading}) is above the latest reading on your phone ({previous}) although this meter counts backwards. Please check both readings.",
+  "@wearReadingAbovePrevious": {
+    "placeholders": {
+      "reading": {
+        "type": "String"
+      },
+      "previous": {
+        "type": "String"
+      }
+    }
+  },
+  "wearReadingDateConflict": "Your reading ({readingDate}) is not newer than the latest reading on your phone ({previousDate}). Please check both readings.",
+  "@wearReadingDateConflict": {
+    "placeholders": {
+      "readingDate": {
+        "type": "String"
+      },
+      "previousDate": {
+        "type": "String"
+      }
+    }
+  },
+  "wearReadingConfigurationChanged": "The meter configuration has changed. Please check this reading in EHW+ on your phone.",
+  "wearDiscardReading": "Discard reading",
+  "wearDiscardReadingConfirmation": "Discard this entry and any pending transmission? Readings already saved on your phone will be kept.",
+  "wearDiscardUpdatePhone": "Update EHW+ on your phone to discard a saved reading.",
+  "wearDiscardPending": "Discarding reading. The request will sync when your phone is connected."
 }

@@ -5219,4 +5219,36 @@ class EhwplusAppLocalizationsFr extends EhwplusAppLocalizations {
 
   @override
   String get homeWidgetNextMeter => 'Mètre suivant';
+
+  @override
+  String wearReadingBelowPrevious(String reading, String previous) {
+    return 'Your reading ($reading) is below the latest reading on your phone ($previous). Please check both readings.';
+  }
+
+  @override
+  String wearReadingAbovePrevious(String reading, String previous) {
+    return 'Your reading ($reading) is above the latest reading on your phone ($previous) although this meter counts backwards. Please check both readings.';
+  }
+
+  @override
+  String wearReadingDateConflict(String readingDate, String previousDate) {
+    return 'Your reading ($readingDate) is not newer than the latest reading on your phone ($previousDate). Please check both readings.';
+  }
+
+  @override
+  String get wearReadingConfigurationChanged =>
+      'The meter configuration has changed. Please check this reading in EHW+ on your phone.';
+
+  @override
+  String get wearDiscardReading => 'Discard reading';
+
+  @override
+  String get wearDiscardReadingConfirmation =>
+      'Discard this entry and any pending transmission? Readings already saved on your phone will be kept.';
+
+  @override
+  String get wearDiscardUpdatePhone => 'Update EHW+ on your phone to discard a saved reading.';
+
+  @override
+  String get wearDiscardPending => 'Discarding reading. The request will sync when your phone is connected.';
 }
