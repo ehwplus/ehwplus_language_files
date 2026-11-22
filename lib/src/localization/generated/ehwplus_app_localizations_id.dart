@@ -2633,6 +2633,36 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
   }
 
   @override
+  String get purchasesSettingsTitle => 'Pembelian';
+
+  @override
+  String get purchasesOnDevice => 'Tersedia di perangkat ini';
+
+  @override
+  String get purchasesCloudDownloaded => 'Diunduh dari Cloud EHW+';
+
+  @override
+  String get purchasesCloudNotLoaded => 'Belum diunduh';
+
+  @override
+  String get purchasesCloudUploaded => 'Diunggah ke Cloud EHW+';
+
+  @override
+  String get purchasesCloudUploadFailed => 'Gagal diunggah';
+
+  @override
+  String get purchasesCloudSignInHint => 'Cadangkan pembelian di berbagai perangkat';
+
+  @override
+  String get purchasesOnDeviceShort => 'Di perangkat';
+
+  @override
+  String get purchasesCloudDownloadedShort => 'Diunduh';
+
+  @override
+  String get purchasesCloudUploadedShort => 'Diunggah';
+
+  @override
   String get purchasesUpgrade => 'Tingkatkan';
 
   @override
@@ -2943,6 +2973,9 @@ class EhwplusAppLocalizationsId extends EhwplusAppLocalizations {
 
   @override
   String get settingsExternalServices => 'Layanan eksternal';
+
+  @override
+  String get settingsOther => 'Pengaturan lainnya';
 
   @override
   String get settingsShowStromGedacht => 'Haruskah tips dari StromGedacht tentang jaringan listrik ditampilkan?';

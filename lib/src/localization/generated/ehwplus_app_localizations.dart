@@ -4709,6 +4709,66 @@ abstract class EhwplusAppLocalizations {
   /// **'Yearly cancelable subscription at the loyalty price of {price} per year instead of {priceNew}'**
   String purchasesSubscribePremiumYearlyWithNewPrice(String price, String priceNew);
 
+  /// No description provided for @purchasesSettingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchases'**
+  String get purchasesSettingsTitle;
+
+  /// No description provided for @purchasesOnDevice.
+  ///
+  /// In en, this message translates to:
+  /// **'Available on this device'**
+  String get purchasesOnDevice;
+
+  /// No description provided for @purchasesCloudDownloaded.
+  ///
+  /// In en, this message translates to:
+  /// **'Downloaded from EHW+ Cloud'**
+  String get purchasesCloudDownloaded;
+
+  /// No description provided for @purchasesCloudNotLoaded.
+  ///
+  /// In en, this message translates to:
+  /// **'Not downloaded yet'**
+  String get purchasesCloudNotLoaded;
+
+  /// No description provided for @purchasesCloudUploaded.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded to EHW+ Cloud'**
+  String get purchasesCloudUploaded;
+
+  /// No description provided for @purchasesCloudUploadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload failed'**
+  String get purchasesCloudUploadFailed;
+
+  /// No description provided for @purchasesCloudSignInHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up purchases across devices'**
+  String get purchasesCloudSignInHint;
+
+  /// No description provided for @purchasesOnDeviceShort.
+  ///
+  /// In en, this message translates to:
+  /// **'On device'**
+  String get purchasesOnDeviceShort;
+
+  /// No description provided for @purchasesCloudDownloadedShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Downloaded'**
+  String get purchasesCloudDownloadedShort;
+
+  /// No description provided for @purchasesCloudUploadedShort.
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded'**
+  String get purchasesCloudUploadedShort;
+
   /// No description provided for @purchasesUpgrade.
   ///
   /// In en, this message translates to:
@@ -5278,6 +5338,12 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'External services'**
   String get settingsExternalServices;
+
+  /// No description provided for @settingsOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Other settings'**
+  String get settingsOther;
 
   /// No description provided for @settingsShowStromGedacht.
   ///

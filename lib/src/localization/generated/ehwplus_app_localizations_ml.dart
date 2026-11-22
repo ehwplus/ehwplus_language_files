@@ -2632,6 +2632,36 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
   }
 
   @override
+  String get purchasesSettingsTitle => 'Purchases';
+
+  @override
+  String get purchasesOnDevice => 'Available on this device';
+
+  @override
+  String get purchasesCloudDownloaded => 'Downloaded from EHW+ Cloud';
+
+  @override
+  String get purchasesCloudNotLoaded => 'Not downloaded yet';
+
+  @override
+  String get purchasesCloudUploaded => 'Uploaded to EHW+ Cloud';
+
+  @override
+  String get purchasesCloudUploadFailed => 'Upload failed';
+
+  @override
+  String get purchasesCloudSignInHint => 'Back up purchases across devices';
+
+  @override
+  String get purchasesOnDeviceShort => 'On device';
+
+  @override
+  String get purchasesCloudDownloadedShort => 'Downloaded';
+
+  @override
+  String get purchasesCloudUploadedShort => 'Uploaded';
+
+  @override
   String get purchasesUpgrade => 'അപ്‌ഗ്രേഡ്';
 
   @override
@@ -2942,6 +2972,9 @@ class EhwplusAppLocalizationsMl extends EhwplusAppLocalizations {
 
   @override
   String get settingsExternalServices => 'ബാഹ്യ സേവനങ്ങൾ';
+
+  @override
+  String get settingsOther => 'മറ്റ് ക്രമീകരണങ്ങൾ';
 
   @override
   String get settingsShowStromGedacht =>

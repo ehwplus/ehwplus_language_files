@@ -991,6 +991,7 @@
   "settingYearlyResetOn": "le",
   "settings": "Configuration",
   "settingsExternalServices": "Services externes",
+  "settingsOther": "Autres paramètres",
   "settingsShowStromGedacht": "Voulez-vous afficher des conseils de StromGedacht sur le réseau électrique ?",
   "settingsShowTabNewsDetailed": "Le tab des actualités/conseils doit-il être visible ?",
   "showAllYears": "Voir toutes les années",

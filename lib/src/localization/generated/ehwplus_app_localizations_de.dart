@@ -2624,6 +2624,36 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   }
 
   @override
+  String get purchasesSettingsTitle => 'Käufe';
+
+  @override
+  String get purchasesOnDevice => 'Auf diesem Gerät verfügbar';
+
+  @override
+  String get purchasesCloudDownloaded => 'Aus der EHW+-Cloud geladen';
+
+  @override
+  String get purchasesCloudNotLoaded => 'Noch nicht geladen';
+
+  @override
+  String get purchasesCloudUploaded => 'In die EHW+-Cloud hochgeladen';
+
+  @override
+  String get purchasesCloudUploadFailed => 'Upload fehlgeschlagen';
+
+  @override
+  String get purchasesCloudSignInHint => 'Käufe geräteübergreifend sichern';
+
+  @override
+  String get purchasesOnDeviceShort => 'Auf dem Gerät';
+
+  @override
+  String get purchasesCloudDownloadedShort => 'Geladen';
+
+  @override
+  String get purchasesCloudUploadedShort => 'Hochgeladen';
+
+  @override
   String get purchasesUpgrade => 'Upgrade';
 
   @override
@@ -2934,6 +2964,9 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
 
   @override
   String get settingsExternalServices => 'Externe Dienste';
+
+  @override
+  String get settingsOther => 'Sonstige Einstellungen';
 
   @override
   String get settingsShowStromGedacht => 'Sollen Hinweise von StromGedacht zum Stromnetz angezeigt werden?';

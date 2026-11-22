@@ -991,6 +991,7 @@
   "settingYearlyResetOn": "a  oldalon",
   "settings": "Beállítások",
   "settingsExternalServices": "Külső szolgáltatások",
+  "settingsOther": "Egyéb beállítások",
   "settingsShowStromGedacht": "Meg kell-e jeleníteni a StromGedachtól származó, az elektromos hálózatra vonatkozó tippeket?",
   "settingsShowTabNewsDetailed": "Legyen látható a Hírek/Tippek fül?",
   "showAllYears": "Minden év megjelenítése",

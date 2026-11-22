@@ -2627,6 +2627,36 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
   }
 
   @override
+  String get purchasesSettingsTitle => 'Purchases';
+
+  @override
+  String get purchasesOnDevice => 'Available on this device';
+
+  @override
+  String get purchasesCloudDownloaded => 'Downloaded from EHW+ Cloud';
+
+  @override
+  String get purchasesCloudNotLoaded => 'Not downloaded yet';
+
+  @override
+  String get purchasesCloudUploaded => 'Uploaded to EHW+ Cloud';
+
+  @override
+  String get purchasesCloudUploadFailed => 'Upload failed';
+
+  @override
+  String get purchasesCloudSignInHint => 'Back up purchases across devices';
+
+  @override
+  String get purchasesOnDeviceShort => 'On device';
+
+  @override
+  String get purchasesCloudDownloadedShort => 'Downloaded';
+
+  @override
+  String get purchasesCloudUploadedShort => 'Uploaded';
+
+  @override
   String get purchasesUpgrade => 'Надоградите';
 
   @override
@@ -2937,6 +2967,9 @@ class EhwplusAppLocalizationsSr extends EhwplusAppLocalizations {
 
   @override
   String get settingsExternalServices => 'Екстерне услуге';
+
+  @override
+  String get settingsOther => 'Ostala podešavanja';
 
   @override
   String get settingsShowStromGedacht => 'Да ли би требало да се приказују савети СтромГедацхт-а о електричној мрежи?';
