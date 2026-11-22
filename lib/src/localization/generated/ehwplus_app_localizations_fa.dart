@@ -1325,6 +1325,14 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   String get exportTabHowToExportOptionShare => 'با سایر برنامه ها به اشتراک بگذارید';
 
   @override
+  String get exportTabSnackBarCounterNotFound => 'The selected meter was not found. Please select a meter again.';
+
+  @override
+  String exportTabSnackBarObjectUnreadable(String titles) {
+    return 'Not exported because the saved data cannot be read: $titles';
+  }
+
+  @override
   String get exportTabSnackBarSaveResultMessageError => 'هنگام ذخیره داده ها خطایی روی داد';
 
   @override
@@ -2134,6 +2142,52 @@ class EhwplusAppLocalizationsFa extends EhwplusAppLocalizations {
   @override
   String get parsingObjectError =>
       'شیء قابل تجزیه نیست.لطفا با توسعه دهنده تماس بگیرید.هنگام حذف نصب برنامه، ممکن است داده ها از بین بروند.';
+
+  @override
+  String get objectStorageErrorTitle => 'This home cannot be opened';
+
+  @override
+  String get objectStorageErrorMessage =>
+      'The saved meter data could not be read. This home is locked to protect it. Restoring it from cloud or from a backup file replaces the unreadable local copy.';
+
+  @override
+  String get objectStorageRestoreFromCloud => 'Restore this home from cloud';
+
+  @override
+  String get objectStorageRestoreSuccess => 'This home was restored from cloud.';
+
+  @override
+  String get objectStorageRestoreUnavailable =>
+      'A cloud copy is not available right now. Check your sync connection and try again.';
+
+  @override
+  String get objectStorageRestoreFailed => 'This home could not be restored. Please try again.';
+
+  @override
+  String get objectStorageRestoreFromFile => 'Restore from backup file';
+
+  @override
+  String get objectStorageRestoreFromFileSuccess => 'This home was restored from the backup file.';
+
+  @override
+  String get objectStorageRestoreFromFileInvalid => 'This file is not a backup of this home.';
+
+  @override
+  String get objectStorageDeleteHome => 'Delete this home';
+
+  @override
+  String get objectStorageDeleteHomeConfirmation =>
+      'This home will be removed from this device. Copies in the cloud or in backup files are kept.';
+
+  @override
+  String get objectStorageDeleteFailed => 'This home could not be deleted. Please try again.';
+
+  @override
+  String get objectStorageNewerFormatTitle => 'Update the app to open this home';
+
+  @override
+  String get objectStorageNewerFormatMessage =>
+      'This home was saved by a newer version of the app. Update the app to open it. Its meter data stays on this device and is not changed.';
 
   @override
   String get per => 'به ازای';

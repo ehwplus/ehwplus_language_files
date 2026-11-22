@@ -2453,6 +2453,18 @@ abstract class EhwplusAppLocalizations {
   /// **'Share with other apps'**
   String get exportTabHowToExportOptionShare;
 
+  /// No description provided for @exportTabSnackBarCounterNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'The selected meter was not found. Please select a meter again.'**
+  String get exportTabSnackBarCounterNotFound;
+
+  /// No description provided for @exportTabSnackBarObjectUnreadable.
+  ///
+  /// In en, this message translates to:
+  /// **'Not exported because the saved data cannot be read: {titles}'**
+  String exportTabSnackBarObjectUnreadable(String titles);
+
   /// No description provided for @exportTabSnackBarSaveResultMessageError.
   ///
   /// In en, this message translates to:
@@ -3874,6 +3886,90 @@ abstract class EhwplusAppLocalizations {
   /// In en, this message translates to:
   /// **'The object cannot be parsed. Please contact the developer. When uninstalling the app, the data may be lost.'**
   String get parsingObjectError;
+
+  /// No description provided for @objectStorageErrorTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This home cannot be opened'**
+  String get objectStorageErrorTitle;
+
+  /// No description provided for @objectStorageErrorMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'The saved meter data could not be read. This home is locked to protect it. Restoring it from cloud or from a backup file replaces the unreadable local copy.'**
+  String get objectStorageErrorMessage;
+
+  /// No description provided for @objectStorageRestoreFromCloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore this home from cloud'**
+  String get objectStorageRestoreFromCloud;
+
+  /// No description provided for @objectStorageRestoreSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'This home was restored from cloud.'**
+  String get objectStorageRestoreSuccess;
+
+  /// No description provided for @objectStorageRestoreUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'A cloud copy is not available right now. Check your sync connection and try again.'**
+  String get objectStorageRestoreUnavailable;
+
+  /// No description provided for @objectStorageRestoreFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'This home could not be restored. Please try again.'**
+  String get objectStorageRestoreFailed;
+
+  /// No description provided for @objectStorageRestoreFromFile.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore from backup file'**
+  String get objectStorageRestoreFromFile;
+
+  /// No description provided for @objectStorageRestoreFromFileSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'This home was restored from the backup file.'**
+  String get objectStorageRestoreFromFileSuccess;
+
+  /// No description provided for @objectStorageRestoreFromFileInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This file is not a backup of this home.'**
+  String get objectStorageRestoreFromFileInvalid;
+
+  /// No description provided for @objectStorageDeleteHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete this home'**
+  String get objectStorageDeleteHome;
+
+  /// No description provided for @objectStorageDeleteHomeConfirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'This home will be removed from this device. Copies in the cloud or in backup files are kept.'**
+  String get objectStorageDeleteHomeConfirmation;
+
+  /// No description provided for @objectStorageDeleteFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'This home could not be deleted. Please try again.'**
+  String get objectStorageDeleteFailed;
+
+  /// No description provided for @objectStorageNewerFormatTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Update the app to open this home'**
+  String get objectStorageNewerFormatTitle;
+
+  /// No description provided for @objectStorageNewerFormatMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'This home was saved by a newer version of the app. Update the app to open it. Its meter data stays on this device and is not changed.'**
+  String get objectStorageNewerFormatMessage;
 
   /// No description provided for @per.
   ///
