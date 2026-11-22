@@ -1025,6 +1025,8 @@
   "objectStorageDeleteHome": "Delete this home",
   "objectStorageDeleteHomeConfirmation": "This home will be removed from this device. Copies in the cloud or in backup files are kept.",
   "objectStorageDeleteFailed": "This home could not be deleted. Please try again.",
+  "objectStorageNewerFormatTitle": "Update the app to open this home",
+  "objectStorageNewerFormatMessage": "This home was saved by a newer version of the app. Update the app to open it. Its meter data stays on this device and is not changed.",
   "per": "per",
   "perUnit": "per {unit}",
   "@perUnit": {

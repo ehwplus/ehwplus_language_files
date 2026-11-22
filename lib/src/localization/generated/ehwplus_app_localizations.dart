@@ -3959,6 +3959,18 @@ abstract class EhwplusAppLocalizations {
   /// **'This home could not be deleted. Please try again.'**
   String get objectStorageDeleteFailed;
 
+  /// No description provided for @objectStorageNewerFormatTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Update the app to open this home'**
+  String get objectStorageNewerFormatTitle;
+
+  /// No description provided for @objectStorageNewerFormatMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'This home was saved by a newer version of the app. Update the app to open it. Its meter data stays on this device and is not changed.'**
+  String get objectStorageNewerFormatMessage;
+
   /// No description provided for @per.
   ///
   /// In en, this message translates to:

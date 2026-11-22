@@ -2190,6 +2190,13 @@ class EhwplusAppLocalizationsDe extends EhwplusAppLocalizations {
   String get objectStorageDeleteFailed => 'Dieses Objekt konnte nicht gelöscht werden. Versuchen Sie es erneut.';
 
   @override
+  String get objectStorageNewerFormatTitle => 'App aktualisieren, um dieses Objekt zu öffnen';
+
+  @override
+  String get objectStorageNewerFormatMessage =>
+      'Dieses Objekt wurde mit einer neueren Version der App gespeichert. Aktualisieren Sie die App, um es zu öffnen. Die Zählerdaten bleiben auf diesem Gerät und werden nicht verändert.';
+
+  @override
   String get per => 'pro';
 
   @override

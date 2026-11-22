@@ -2196,6 +2196,13 @@ class EhwplusAppLocalizationsVi extends EhwplusAppLocalizations {
   String get objectStorageDeleteFailed => 'This home could not be deleted. Please try again.';
 
   @override
+  String get objectStorageNewerFormatTitle => 'Update the app to open this home';
+
+  @override
+  String get objectStorageNewerFormatMessage =>
+      'This home was saved by a newer version of the app. Update the app to open it. Its meter data stays on this device and is not changed.';
+
+  @override
   String get per => 'mỗi';
 
   @override

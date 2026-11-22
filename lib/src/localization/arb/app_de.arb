@@ -762,6 +762,8 @@
   "objectStorageDeleteHome": "Dieses Objekt löschen",
   "objectStorageDeleteHomeConfirmation": "Dieses Objekt wird von diesem Gerät entfernt. Kopien in der Cloud oder in Sicherungsdateien bleiben erhalten.",
   "objectStorageDeleteFailed": "Dieses Objekt konnte nicht gelöscht werden. Versuchen Sie es erneut.",
+  "objectStorageNewerFormatTitle": "App aktualisieren, um dieses Objekt zu öffnen",
+  "objectStorageNewerFormatMessage": "Dieses Objekt wurde mit einer neueren Version der App gespeichert. Aktualisieren Sie die App, um es zu öffnen. Die Zählerdaten bleiben auf diesem Gerät und werden nicht verändert.",
   "per": "pro",
   "perUnit": "pro {unit}",
   "performMeterReplacement": "Zählertausch durchführen",
